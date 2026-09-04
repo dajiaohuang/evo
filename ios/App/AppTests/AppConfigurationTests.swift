@@ -250,15 +250,15 @@ final class AppConfigurationTests: XCTestCase {
                 let expectedIds = packageId == "crustaceans-insects"
                     ? ["itis-insecta-tsn-crosswalk", "itis-crustacea-tsn-crosswalk", "itis-myriapoda-tsn-crosswalk", "itis-collembola-protura-tsn-crosswalk"]
                     : ["itis-chelicerata-tsn-crosswalk"]
-                let expectedFiles = packageId == "crustaceans-insects" ? [99, 40, 2, 2] : [16]
+                let expectedFiles = packageId == "crustaceans-insects" ? [99, 40, 3, 2] : [16]
                 let expectedUpstreamFiles = packageId == "crustaceans-insects" ? [1, 1, 1, 1] : [1]
                 let expectedRecords = packageId == "crustaceans-insects" ? [941_223, 80_890, 14_210, 9_668] : [99_511]
-                let expectedUpstreamRecords = packageId == "crustaceans-insects" ? [27_357, 5_991, 3_445, 411] : [5_714]
+                let expectedUpstreamRecords = packageId == "crustaceans-insects" ? [27_357, 5_991, 544, 411] : [5_714]
                 let expectedDescriptorShas = packageId == "crustaceans-insects"
                     ? [
                         "c168f706a7067fd6d95548777b6fe5cadf0c6b2b67b9442698d9350c521c2cdf",
                         "9fb4271dce81e92f2df706da26c379053e649f21416d81ec1d8db6bb2031490b",
-                        "7eeea9a62f0a51150f643c6f14d02511f8ab042b8264e64bbb0ec505520a5ac8",
+                        "e9bab54cc70d97d2ca9ce5284c1927f32aec35ef76e16e63cad488d2185ec0c6",
                         "bf90e217fa6871bb1e59807b721ed88403c47e9aa2712a782ef40146b906fdf2",
                     ]
                     : ["90383cc2bf44dc092b59c7ed131169317a0a613699aa6485c6f3e9b74decfa3c"]
@@ -610,6 +610,10 @@ final class AppConfigurationTests: XCTestCase {
                     try verifyBundled(record: inventoryRecord, below: dataRoot)
                     foraminiferaAuthorityRecords += try XCTUnwrap(extensionFile["records"] as? Int)
                 }
+                try verifyAuthorityArchiveCollection(
+                    collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-radiozoa-archive-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 1,
+                    expectedRecords: 444, expectedUpstreamRecords: 54, label: "WoRMS Radiozoa")
                 let expectedIds = [
                     "itis-ciliophora-tsn-crosswalk", "itis-apicomplexa-tsn-crosswalk", "itis-dinoflagellata-tsn-crosswalk",
                     "itis-euglenozoa-tsn-crosswalk", "itis-cercozoa-tsn-crosswalk", "itis-haptophyta-tsn-crosswalk",
@@ -625,7 +629,7 @@ final class AppConfigurationTests: XCTestCase {
                 let expectedFiles = [4, 1, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0]
                 let expectedRecords = [8_665, 21, 1_110, 276, 52, 90, 3_397, 1_337, 1_616, 1_536, 0, 0, 53, 0, 0, 0, 0, 0, 1_416, 4, 0, 0, 0, 0, 0]
                 let itisAuthorities = extensions.filter { ($0["provider"] as? String) == "Integrated Taxonomic Information System" }
-                XCTAssertEqual(extensions.count, expectedIds.count + 1)
+                XCTAssertEqual(extensions.count, expectedIds.count + 2)
                 XCTAssertEqual(itisAuthorities.count, expectedIds.count)
                 for extensionIndex in expectedIds.indices {
                     let itisAuthority = try XCTUnwrap(itisAuthorities.first { ($0["id"] as? String) == expectedIds[extensionIndex] }, "ITIS protists/chromists authority missing")

@@ -9,6 +9,7 @@ const scopes: Array<{ root: string; packageId: string; id: AuthorityArchiveColle
   { root: 'NN', packageId: 'other-animals', id: 'worms-annelida-archive-crosswalk', title: 'WoRMS · Annelida' },
   { root: 'NM', packageId: 'other-animals', id: 'worms-nematoda-archive-crosswalk', title: 'WoRMS · Nematoda' },
   { root: 'KZX8B', packageId: 'crustaceans-insects', id: 'worms-crustacea-archive-crosswalk', title: 'WoRMS · Crustacea' },
+  { root: '5X444', packageId: 'protists-chromists', id: 'worms-radiozoa-archive-crosswalk', title: 'WoRMS · Radiozoa' },
   { root: 'CJBKK', packageId: 'crustaceans-insects', id: 'osf-orthoptera-archive-crosswalk', title: 'OSF · Orthoptera' },
 ]
 

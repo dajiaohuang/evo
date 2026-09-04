@@ -444,7 +444,7 @@ const packageItisContracts: Record<import('./types').RuntimeItisPackageScope, {
   echinodermata: { packageId: 'echinoderms', collectionId: 'itis-echinodermata-tsn-crosswalk', total: 11891, accepted: 3692, redirects: 51, ambiguous: 9, unmatched: 8139, upstreamOnly: 278, canonicalFileCount: 3 },
   crustacea: { packageId: 'crustaceans-insects', collectionId: 'itis-crustacea-tsn-crosswalk', total: 80890, accepted: 26395, redirects: 115, ambiguous: 38, unmatched: 54342, upstreamOnly: 5991, canonicalFileCount: 41 },
   insecta: { packageId: 'crustaceans-insects', collectionId: 'itis-insecta-tsn-crosswalk', total: 941223, accepted: 176406, redirects: 2887, ambiguous: 692, unmatched: 761238, upstreamOnly: 27357, canonicalFileCount: 100 },
-  myriapoda: { packageId: 'crustaceans-insects', collectionId: 'itis-myriapoda-tsn-crosswalk', total: 14210, accepted: 3040, redirects: 0, ambiguous: 2, unmatched: 11168, upstreamOnly: 3445, canonicalFileCount: 3 },
+  myriapoda: { packageId: 'crustaceans-insects', collectionId: 'itis-myriapoda-tsn-crosswalk', total: 17351, accepted: 5904, redirects: 58, ambiguous: 17, unmatched: 11372, upstreamOnly: 544, canonicalFileCount: 3 },
   chelicerata: { packageId: 'trilobites-chelicerates', collectionId: 'itis-chelicerata-tsn-crosswalk', total: 99511, accepted: 74948, redirects: 146, ambiguous: 141, unmatched: 24276, upstreamOnly: 5714, canonicalFileCount: 17 },
   'reptilia-non-crocodylia': { packageId: 'turtles-lepidosaurs', collectionId: 'itis-reptilia-tsn-crosswalk', total: 12622, accepted: 9805, redirects: 70, ambiguous: 3, unmatched: 2744, upstreamOnly: 655, canonicalFileCount: 10 },
   crocodylia: { packageId: 'crocodylomorphs-birds', collectionId: 'itis-crocodylia-tsn-crosswalk', total: 27, accepted: 26, redirects: 1, ambiguous: 0, unmatched: 0, upstreamOnly: 0, canonicalFileCount: 1 },
@@ -487,7 +487,7 @@ async function packageAuthorityArchiveCollection(
   packageId: string,
   collectionId: import('./types').AuthorityArchiveCollectionId,
 ) {
-  if (packageId === 'other-animals') {
+  if (packageId === 'other-animals' || packageId === 'protists-chromists') {
     const catalogueManifest = await loadCatalogueResourcePackManifest(packageId)
     const collection = catalogueManifest.extensions?.find((candidate): candidate is import('./types').CatalogueAuthorityArchiveResourcePackExtension => (
       candidate.id === collectionId && candidate.recordType === 'release-pinned-authority-archive-crosswalk'

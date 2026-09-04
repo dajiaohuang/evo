@@ -227,18 +227,18 @@ public class AppInstrumentedTest {
                         ? new String[]{"itis-insecta-tsn-crosswalk", "itis-crustacea-tsn-crosswalk", "itis-myriapoda-tsn-crosswalk", "itis-collembola-protura-tsn-crosswalk"}
                         : new String[]{"itis-chelicerata-tsn-crosswalk"};
                 int[] expectedFiles = packageId.equals("crustaceans-insects")
-                        ? new int[]{99, 40, 2, 2} : new int[]{16};
+                        ? new int[]{99, 40, 3, 2} : new int[]{16};
                 int[] expectedUpstreamFiles = packageId.equals("crustaceans-insects")
                         ? new int[]{1, 1, 1, 1} : new int[]{1};
                 int[] expectedRecords = packageId.equals("crustaceans-insects")
                         ? new int[]{941223, 80890, 14210, 9668} : new int[]{99511};
                 int[] expectedUpstreamRecords = packageId.equals("crustaceans-insects")
-                        ? new int[]{27357, 5991, 3445, 411} : new int[]{5714};
+                        ? new int[]{27357, 5991, 544, 411} : new int[]{5714};
                 String[] expectedDescriptorShas = packageId.equals("crustaceans-insects")
                         ? new String[]{
                         "c168f706a7067fd6d95548777b6fe5cadf0c6b2b67b9442698d9350c521c2cdf",
                         "9fb4271dce81e92f2df706da26c379053e649f21416d81ec1d8db6bb2031490b",
-                        "7eeea9a62f0a51150f643c6f14d02511f8ab042b8264e64bbb0ec505520a5ac8",
+                        "e9bab54cc70d97d2ca9ce5284c1927f32aec35ef76e16e63cad488d2185ec0c6",
                         "bf90e217fa6871bb1e59807b721ed88403c47e9aa2712a782ef40146b906fdf2"}
                         : new String[]{"90383cc2bf44dc092b59c7ed131169317a0a613699aa6485c6f3e9b74decfa3c"};
                 assertEquals(expectedIds.length + (packageId.equals("crustaceans-insects") ? 2 : 0), collections.length());
@@ -592,12 +592,14 @@ public class AppInstrumentedTest {
                 }
             } else if (packageId.equals("protists-chromists")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
-                JSONObject authority = extensions.getJSONObject(0);
+                JSONObject authority = findCollection(extensions, "foraminifera-wfd-identifiers");
                 assertEquals("foraminifera-wfd-identifiers", authority.getString("id"));
                 assertEquals("World Foraminifera Database (WoRMS) through ChecklistBank", authority.getString("provider"));
                 JSONObject delivery = authority.getJSONObject("delivery");
                 assertEquals("native-full", delivery.getString("profile"));
                 assertTrue(delivery.getBoolean("completeRows"));
+                verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-radiozoa-archive-crosswalk"),
+                        1, 1, 444, 54, "WoRMS Radiozoa");
                 JSONArray extensionFiles = authority.getJSONArray("files");
                 assertEquals(5, extensionFiles.length());
                 for (int fileIndex = 0; fileIndex < extensionFiles.length(); fileIndex += 1) {
@@ -622,7 +624,7 @@ public class AppInstrumentedTest {
                 };
                 int[] expectedFiles = new int[]{4, 1, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0};
                 int[] expectedRecords = new int[]{8665, 21, 1110, 276, 52, 90, 3397, 1337, 1616, 1536, 0, 0, 53, 0, 0, 0, 0, 0, 1416, 4, 0, 0, 0, 0, 0};
-                assertEquals(expectedIds.length + 1, extensions.length());
+                assertEquals(expectedIds.length + 2, extensions.length());
                 for (int extensionIndex = 0; extensionIndex < expectedIds.length; extensionIndex += 1) {
                     JSONObject itisAuthority = findCollection(extensions, expectedIds[extensionIndex]);
                     assertNotNull("ITIS protists/chromists authority missing", itisAuthority);
