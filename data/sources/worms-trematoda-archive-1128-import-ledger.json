@@ -1348,13 +1348,49 @@
       "sha256": "3fb9635bbbf8124ee4ac46b5fea70bfa4072226590ca6def4c2482470d039539"
     }
   ],
+  "generatedBy": {
+    "script": "scripts/build-worms-trematoda-source.py",
+    "scriptSha256": "0c16584743d4f5afd36cc0c645351ddc7a7283781ca1c3a7e4e1a563726d1e53"
+  },
+  "outputs": {
+    "files": [
+      {
+        "path": "other-animals/worms-trematoda-000.json.gz",
+        "records": 12007,
+        "bytes": 4060981,
+        "sha256": "72c094b2d45b4d33443b55a242308feb8e269e76819233d3270e719fe11d84e9",
+        "sourceBytes": 33651684,
+        "sourceSha256": "dd168d2eeee6da3cae6605988d20d58007e6898d5fd49121bd8353f3dd342b22",
+        "encoding": "gzip",
+        "mediaType": "application/json",
+        "role": "col-partition",
+        "minColId": "32L9P",
+        "maxColId": "ZWYX"
+      }
+    ],
+    "upstreamOnlyFiles": [
+      {
+        "path": "other-animals/worms-trematoda-source-only-000.json.gz",
+        "records": 99,
+        "bytes": 29868,
+        "sha256": "9ce585f50e74846ffffaa34ec903136202c322174c405461af7fe2ecca7fa1e6",
+        "sourceBytes": 221370,
+        "sourceSha256": "1cd2fd103e7b6ea0b22a1becc5536d8a2d751fe0b46c153924045725b50e60af",
+        "encoding": "gzip",
+        "mediaType": "application/json",
+        "role": "upstream-only",
+        "minColId": null,
+        "maxColId": null
+      }
+    ]
+  },
   "scopeAudit": {
     "colRootUsageId": "JW",
     "colSpecies": 12007,
     "sourceAcceptedSpecies": 12064,
     "sourceProvisionalExcluded": 19,
-    "sourceOnly": 99,
-    "synonymRowsRetained": 9867,
+    "upstreamOnly": 99,
+    "parsedSynonymRows": 9867,
     "memberDigests": {
       "metadata.yml": {
         "bytes": 1356,

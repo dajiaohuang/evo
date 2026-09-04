@@ -90,17 +90,17 @@
     "ambiguous": 0,
     "unmatched": 42,
     "withheld": 0,
-    "sourceOnly": 99,
+    "upstreamOnly": 99,
     "records": 12106
   },
   "files": [
     {
       "path": "other-animals/worms-trematoda-000.json.gz",
       "records": 12007,
-      "bytes": 1002505,
-      "sha256": "51ea729fb7b2229878598210350d96298283c953927bc85a5f78d4f6843d1094",
-      "sourceBytes": 13368643,
-      "sourceSha256": "4dac21b85c952715e411b31e70804cef435e95fa848c63dbda3c1e74889c222c",
+      "bytes": 4060981,
+      "sha256": "72c094b2d45b4d33443b55a242308feb8e269e76819233d3270e719fe11d84e9",
+      "sourceBytes": 33651684,
+      "sourceSha256": "dd168d2eeee6da3cae6605988d20d58007e6898d5fd49121bd8353f3dd342b22",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "col-partition",
@@ -112,10 +112,10 @@
     {
       "path": "other-animals/worms-trematoda-source-only-000.json.gz",
       "records": 99,
-      "bytes": 7134,
-      "sha256": "dd2116f3cfbf2911ac6fb7da29304e91552c67161685ad6bdf2f74bb27d5aa8e",
-      "sourceBytes": 78620,
-      "sourceSha256": "eadde7ee90907ae1ed7745395011ce3225047634d981ef1f463e63891a6a491e",
+      "bytes": 29868,
+      "sha256": "9ce585f50e74846ffffaa34ec903136202c322174c405461af7fe2ecca7fa1e6",
+      "sourceBytes": 221370,
+      "sourceSha256": "1cd2fd103e7b6ea0b22a1becc5536d8a2d751fe0b46c153924045725b50e60af",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "upstream-only",
@@ -131,5 +131,15 @@
     "Source-only rows are relative only to COL source dataset 1128.",
     "Name.status is nomenclatural metadata and is not used as taxonomic acceptance.",
     "Synonym.taxonID targets do not remove accepted Taxon rows."
-  ]
+  ],
+  "totalCompressedBytes": 4090849,
+  "totalSourceBytes": 33873054,
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only"
+    },
+    "native-full": {
+      "mode": "complete"
+    }
+  }
 }

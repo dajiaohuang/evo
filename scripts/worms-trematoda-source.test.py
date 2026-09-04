@@ -23,7 +23,7 @@ class TrematodaProjectionTests(unittest.TestCase):
             self.assertEqual(len(source_only), 99)
             self.assertEqual(descriptor['counts'], {'total': 12007, 'accepted': 11965, 'redirect': 0,
                                                     'ambiguous': 0, 'unmatched': 42, 'withheld': 0,
-                                                    'sourceOnly': 99, 'records': 12106})
+                                                    'upstreamOnly': 99, 'records': 12106})
             self.assertEqual(descriptor['source']['archiveSha256'], mod.ARCHIVE_SHA)
             self.assertEqual(descriptor['source']['archiveBytes'], mod.ARCHIVE_BYTES)
             self.assertEqual(descriptor['files'][0]['sha256'], hashlib.sha256((roots[0] / names[0]).read_bytes()).hexdigest())
@@ -31,6 +31,8 @@ class TrematodaProjectionTests(unittest.TestCase):
             self.assertEqual(descriptor['upstreamOnlyFiles'][0]['records'], 99)
             self.assertTrue(all(row['status'] != 'redirect' for row in rows))
             self.assertTrue(all(row['status'] == 'upstream-only' for row in source_only))
+            self.assertEqual(descriptor['scope']['excludedSourceProvisional'], 19)
+            self.assertTrue(any(row['references'] for row in rows if row['status'] == 'accepted'))
             self.assertTrue(all(row['sourceRows'] for row in rows if row['status'] == 'accepted'))
 
 

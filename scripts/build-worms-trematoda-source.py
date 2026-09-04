@@ -54,36 +54,37 @@ def read_archive(path):
         name_refs = {}
         for i, row in enumerate(rows('NameReference.txt'), 2):
             name_refs.setdefault(row['nameID'], []).append((row, i))
-        accepted = {}
+        accepted, provisional = {}, 0
         for i, taxon in enumerate(rows('Taxon.txt'), 2):
             name = names.get(taxon['nameID'])
+            if taxon.get('provisional') == '1' and name and name[0].get('rank', '').lower() == 'species':
+                provisional += 1
             if not name or name[0].get('rank', '').lower() != 'species' or taxon.get('provisional') == '1':
                 continue
             accepted[taxon['ID'].rsplit(':', 1)[-1]] = (taxon, name[0], i, name[1])
         synonyms = rows('Synonym.txt')
-    return accepted, references, name_refs, members, len(synonyms)
+    return accepted, references, name_refs, members, len(synonyms), provisional
 
 
 def read_col():
     manifest = (REGISTRY / 'manifest.json').read_bytes()
     files = json.loads(manifest)['hierarchy']['nodes']['files']
-    parents, all_rows, rows = {}, {}, {}
+    parents, candidates, rows = {}, [], {}
     import gzip
     for f in files:
         with gzip.open(REGISTRY / f['path'], 'rt', encoding='utf-8') as stream:
             for line in stream:
                 row = json.loads(line)
                 parents[row['id']] = row.get('parentId')
-                all_rows[row['id']] = row
-    for row in all_rows.values():
-        if row.get('rank') != 'species' or row.get('status') != 'accepted' or row.get('sourceDatasetId') != COL_SOURCE:
-            continue
+                if row.get('rank') == 'species' and row.get('status') == 'accepted' and row.get('sourceDatasetId') == COL_SOURCE:
+                    candidates.append(row)
+    for row in candidates:
         seen, current = set(), row.get('parentId')
         while current and current not in seen and current != COL_ROOT:
             seen.add(current); current = parents.get(current)
         if current == COL_ROOT:
             rows[row['id']] = row
-    return rows, digest(manifest), [{'path': f['path'], 'bytes': f['bytes'], 'sha256': f['sha256']} for f in files]
+    return rows, digest(manifest), [{'path': f['path'], 'bytes': len((REGISTRY / f['path']).read_bytes()), 'sha256': digest((REGISTRY / f['path']).read_bytes())} for f in files]
 
 
 def row_locators(taxon, name, refs, references, taxon_row, name_row):
@@ -97,11 +98,25 @@ def row_locators(taxon, name, refs, references, taxon_row, name_row):
     return loc
 
 
+def source_references(taxon, name, refs, references):
+    result = []
+    ids = [(name.get('referenceID') or '').strip(), (taxon.get('referenceID') or '').strip()]
+    ids.extend((r.get('referenceID') or '').strip() for r, _ in refs.get(name['ID'], []))
+    for rid in dict.fromkeys(x for x in ids if x):
+        item = {'referenceID': rid, 'missing': rid not in references}
+        if rid in references:
+            ref, row = references[rid]
+            item['reference'] = ref
+            item['sourceRows'] = [{'member': 'Reference.txt', 'row': row}]
+        result.append(item)
+    return result
+
+
 def project(archive, output_root=None):
     raw = archive.read_bytes()
     if len(raw) != ARCHIVE_BYTES or digest(raw) != ARCHIVE_SHA:
         raise ValueError('archive does not match pinned bytes')
-    source, references, name_refs, members, synonym_count = read_archive(archive)
+    source, references, name_refs, members, synonym_count, provisional_count = read_archive(archive)
     metadata_bytes = METADATA.read_bytes()
     metadata = json.loads(metadata_bytes)
     col, col_sha, col_inputs = read_col()
@@ -121,10 +136,11 @@ def project(archive, output_root=None):
             matched = source_name(name, taxon)
             loc = row_locators(taxon, name, name_refs, references, taxon_row, name_row)
         candidates = [source_name(x[2], x[1]) for x in hits] if len(hits) > 1 else []
-        records.append({'colId': cid, 'colScientificName': row['scientificName'], 'colAuthorship': row.get('authorship') or '',
+        refs = source_references(hits[0][1], hits[0][2], name_refs, references) if len(hits) == 1 else []
+        records.append({'colId': cid, 'colScientificName': row['scientificName'], 'colAuthorship': row.get('authorship'),
                         'status': status, 'matchedName': matched, 'acceptedName': matched,
                         'candidates': candidates, 'mappingBasis': 'Exact source scientific name plus authorship; no fuzzy fallback.',
-                        'sourceRows': loc})
+                        'sourceRows': loc, 'references': refs})
     upstream = []
     for tid, (taxon, name, taxon_row, name_row) in sorted(source.items()):
         if tid in used:
@@ -132,7 +148,8 @@ def project(archive, output_root=None):
         upstream.append({'colId': None, 'colScientificName': None, 'colAuthorship': None, 'status': 'upstream-only',
                          'matchedName': None, 'acceptedName': source_name(name, taxon), 'candidates': [],
                          'mappingBasis': 'Accepted source concept not linked by exact COL name+authorship; not a global new species claim.',
-                         'sourceRows': row_locators(taxon, name, name_refs, references, taxon_row, name_row)})
+                         'sourceRows': row_locators(taxon, name, name_refs, references, taxon_row, name_row),
+                         'references': source_references(taxon, name, name_refs, references)})
     output_base = Path(output_root) if output_root else ROOT
     destination = output_base / OUT.relative_to(ROOT)
     destination.mkdir(parents=True, exist_ok=True)
@@ -163,19 +180,24 @@ def project(archive, output_root=None):
                              'archiveBytes': len(raw), 'archiveSha256': digest(raw), 'members': members},
                   'scope': {'colRootUsageId': COL_ROOT, 'wormsRootId': '19948', 'scientificName': 'Trematoda',
                             'eligibleColSpecies': len(col), 'sourceAcceptedSpecies': len(source),
-                            'excludedSourceProvisional': 19},
+                            'excludedSourceProvisional': provisional_count},
                   'matching': {'normalization': 'NFC and whitespace normalization only; COL trailing authorship is removed exactly.',
                                'prohibited': 'No fuzzy, case-folded, accent-folded, synonym or species-concept matching.'},
-                  'counts': {'total': len(records), **counts, 'sourceOnly': len(upstream), 'records': len(all_rows)},
+                  'counts': {'total': len(records), **counts, 'upstreamOnly': len(upstream), 'records': len(all_rows)},
                   'files': [col_file], 'upstreamOnlyFiles': [{**source_file, 'role': 'upstream-only'}],
                   'evidenceBoundary': {'en': 'Frozen WoRMS nomenclatural/source projection for the exact COL26.8 source-1128 Trematoda scope; not species-concept equivalence, a biological dossier, fossil evidence or expert review.',
                                        'zh': '精确 COL26.8 source-1128 Trematoda 范围的 WoRMS 冻结命名/来源投影；不是物种概念等同性、生物档案、化石证据或专家审查。'},
-                  'limitations': ['Source-only rows are relative only to COL source dataset 1128.', 'Name.status is nomenclatural metadata and is not used as taxonomic acceptance.', 'Synonym.taxonID targets do not remove accepted Taxon rows.']}
+                  'limitations': ['Source-only rows are relative only to COL source dataset 1128.', 'Name.status is nomenclatural metadata and is not used as taxonomic acceptance.', 'Synonym.taxonID targets do not remove accepted Taxon rows.'],
+                  'totalCompressedBytes': col_file['bytes'] + source_file['bytes'],
+                  'totalSourceBytes': col_file['sourceBytes'] + source_file['sourceBytes'],
+                  'deliveryProfiles': {'web-light': {'mode': 'summary-only'}, 'native-full': {'mode': 'complete'}}}
     descriptor_path = destination / 'worms-trematoda-sidecar.json'; descriptor_path.write_bytes(dump(descriptor, True))
     ledger = {'schemaVersion': 1, 'importType': 'COL26.8-to-WoRMS-1128-archive-projection',
               'source': descriptor['source'], 'registryManifestSha256': col_sha, 'registryInputs': col_inputs,
+              'generatedBy': {'script': 'scripts/build-worms-trematoda-source.py', 'scriptSha256': digest(Path(__file__).read_bytes())},
+              'outputs': {'files': descriptor['files'], 'upstreamOnlyFiles': descriptor['upstreamOnlyFiles']},
               'scopeAudit': {'colRootUsageId': COL_ROOT, 'colSpecies': len(col), 'sourceAcceptedSpecies': len(source),
-                             'sourceProvisionalExcluded': 19, 'sourceOnly': len(upstream), 'synonymRowsRetained': synonym_count,
+                             'sourceProvisionalExcluded': provisional_count, 'upstreamOnly': len(upstream), 'parsedSynonymRows': synonym_count,
                              'memberDigests': members}}
     ledger_path = output_base / 'data/sources/worms-trematoda-archive-1128-import-ledger.json'
     ledger_path.parent.mkdir(parents=True, exist_ok=True)
