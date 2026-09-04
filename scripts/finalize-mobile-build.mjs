@@ -288,8 +288,8 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
     }
   }
 }
-if (arthropodItisFiles !== 164 || arthropodItisRecords !== 1188420) {
-  throw new Error(`Mobile build must stage 164 arthropod ITIS files and 1188420 records; found ${arthropodItisFiles} files and ${arthropodItisRecords} records`)
+if (arthropodItisFiles !== 165 || arthropodItisRecords !== 1188660) {
+  throw new Error(`Mobile build must stage 165 arthropod ITIS files and 1188660 records; found ${arthropodItisFiles} files and ${arthropodItisRecords} records`)
 }
 if (reptiliaItisFiles !== 10 || reptiliaItisRecords !== 13277) {
   throw new Error(`Mobile build must stage 10 non-Crocodylia Reptilia ITIS files and 13277 records; found ${reptiliaItisFiles} files and ${reptiliaItisRecords} records`)
