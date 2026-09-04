@@ -12,11 +12,12 @@ def main():
     assert descriptor['scope']['colRootUsageId'] == 'CJBKK'
     assert descriptor['scope']['osfOtuRootId'] == '805980'
     assert descriptor['scope']['osfTaxonNameRootId'] == '913531'
-    assert descriptor['counts'] == {'total': 30859, 'accepted': 30813, 'redirect': 21, 'ambiguous': 5, 'unmatched': 20, 'withheld': 0, 'upstreamOnly': 53}
+    assert descriptor['counts'] == {'total': 30859, 'accepted': 30642, 'redirect': 21, 'ambiguous': 7, 'unmatched': 20, 'withheld': 169, 'upstreamOnly': 53}
     rows = []
     for file in descriptor['files']:
         path = ROOT / file['path']; assert digest(path) == file['sha256']
-        source = gzip.decompress(path.read_bytes()); assert len(source) == file['sourceBytes'] and hashlib.sha256(source).hexdigest() == file['sourceSha256']
+        raw = path.read_bytes(); assert raw[9] == 255
+        source = gzip.decompress(raw); assert len(source) == file['sourceBytes'] and hashlib.sha256(source).hexdigest() == file['sourceSha256']
         part = json.loads(source); assert len(part) == file['records']; rows.extend(part)
     assert len(rows) == descriptor['counts']['total'] and len({x['colId'] for x in rows}) == len(rows)
     assert [x['colId'] for x in rows] == sorted(x['colId'] for x in rows)

@@ -1,5 +1,5 @@
 """Build the pinned OSF Orthoptera exact crosswalk using Python stdlib only."""
-import argparse, csv, gzip, hashlib, json, zipfile
+import argparse, csv, gzip, hashlib, json, re, zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -15,6 +15,11 @@ LIMIT = 2 * 1024 * 1024
 def digest(data): return hashlib.sha256(data).hexdigest()
 def dump(value): return (json.dumps(value, ensure_ascii=False, indent=2) + '\n').encode()
 def array_bytes(rows): return (json.dumps(rows, ensure_ascii=False, separators=(',', ':')) + '\n').encode()
+def gzip_bytes(source):
+    import io
+    out = io.BytesIO()
+    with gzip.GzipFile(fileobj=out, mode='wb', compresslevel=9, mtime=0) as stream: stream.write(source)
+    return out.getvalue()
 def repo(path):
     try: return path.relative_to(ROOT).as_posix()
     except ValueError: return path.as_posix()
@@ -68,8 +73,6 @@ def chunks(rows):
 def main():
     parser = argparse.ArgumentParser(); parser.add_argument('--archive', required=True); parser.add_argument('--acquisition', required=True); args = parser.parse_args()
     archive_path, acquisition_path = Path(args.archive).resolve(), Path(args.acquisition).resolve()
-    global ACQ
-    ACQ = acquisition_path
     acquisition_bytes = acquisition_path.read_bytes(); acquisition = json.loads(acquisition_bytes)
     archive_bytes = archive_path.read_bytes()
     if digest(archive_bytes) != '1a7fab3d43b19eb2ef21d56180bfb25de641aaee5f522b9603aac2f2e22a9575' or len(archive_bytes) != 6278172: raise SystemExit('archive does not match pinned OSF acquisition')
@@ -81,6 +84,7 @@ def main():
         names, taxa, synonyms = read_tsv(zf, 'Name.tsv'), read_tsv(zf, 'Taxon.tsv'), read_tsv(zf, 'Synonym.tsv')
     by_name = {x['ID']: x for x in names}; by_taxon = {x['ID']: x for x in taxa}
     if by_name.get(OSF_NAME_ROOT, {}).get('scientificName') != 'Orthoptera' or by_name.get(OSF_NAME_ROOT, {}).get('rank') != 'order': raise SystemExit('OSF TaxonName root identity changed')
+    if by_taxon.get(OSF_ROOT, {}).get('nameID') != OSF_NAME_ROOT: raise SystemExit('OSF OTU root does not link to pinned TaxonName root')
     osf_taxa = []
     for taxon in taxa:
         name = by_name.get(taxon.get('nameID'))
@@ -95,16 +99,22 @@ def main():
     for syn in synonyms:
         name = by_name.get(syn.get('nameID'))
         if name and name.get('rank') == 'species': syns.setdefault(name_key(name['scientificName'], name['authorship']), []).append((syn, name, by_taxon.get(syn.get('taxonID'))))
-    col = col_species(); records, evidenced = [], set(); counts = {'accepted': 0, 'redirect': 0, 'ambiguous': 0, 'unmatched': 0, 'withheld': 0}
+    col = col_species(); accepted_ids = {t['ID'] for t, n in osf_taxa}; records, evidenced = [], set(); counts = {'accepted': 0, 'redirect': 0, 'ambiguous': 0, 'unmatched': 0, 'withheld': 0}
     for row in col:
-        key = name_key(strip_col(row), row.get('authorship')); hits = direct.get(key, [])
+        key = name_key(strip_col(row), row.get('authorship')); hits = direct.get(key, []); relations = syns.get(key, [])
         rec = {'colId': row['id'], 'colScientificName': row['scientificName'], 'colAuthorship': row.get('authorship') or '', 'matchedName': None, 'acceptedName': None, 'candidates': [], 'mappingBasis': None, 'sourceRows': []}
         if len(hits) == 1:
-            taxon, name = hits[0]; value = source_name(name, taxon); rec.update(status='accepted', matchedName=value, acceptedName=value, mappingBasis='Exact scientific name and authorship match.', sourceRows=rows_for(taxon, name)); evidenced.add(taxon['ID']); counts['accepted'] += 1
+            taxon, name = hits[0]; qualifying = [(s, n, t) for s, n, t in relations if t and t['ID'] in accepted_ids and by_name.get(t.get('nameID'), {}).get('rank') == 'species']; invalid = [r for r in relations if not r[2] or r[2]['ID'] not in accepted_ids or by_name.get(r[2].get('nameID'), {}).get('rank') != 'species']
+            if invalid:
+                rec.update(status='withheld', mappingBasis='Direct name and explicit synonym evidence conflict with an invalid target.', candidates=[source_name(name, taxon)] + [source_name(by_name[t['nameID']], t) for s, n, t in qualifying], sourceRows=rows_for(taxon, name) + sum((rows_for(s, n, t, by_name.get(t.get('nameID')) if t else None) for s, n, t in relations), [])); evidenced.add(taxon['ID']); evidenced.update(t['ID'] for s, n, t in qualifying); counts['withheld'] += 1
+            elif qualifying and any(t['ID'] != taxon['ID'] for s, n, t in qualifying):
+                rec.update(status='ambiguous', mappingBasis='Direct accepted name conflicts with an explicit synonym relation to another accepted concept.', candidates=[source_name(name, taxon)] + [source_name(by_name[t['nameID']], t) for s, n, t in qualifying], sourceRows=rows_for(taxon, name) + sum((rows_for(s, n, t, by_name.get(t.get('nameID'))) for s, n, t in qualifying), [])); evidenced.add(taxon['ID']); evidenced.update(t['ID'] for s, n, t in qualifying); counts['ambiguous'] += 1
+            else:
+                value = source_name(name, taxon); rec.update(status='accepted', matchedName=value, acceptedName=value, mappingBasis='Exact scientific name and authorship match.', sourceRows=rows_for(taxon, name)); evidenced.add(taxon['ID']); counts['accepted'] += 1
         elif len(hits) > 1:
             rec.update(status='ambiguous', mappingBasis='Exact scientific name and authorship match has multiple OSF accepted concepts.', candidates=[source_name(n, t) for t, n in hits], sourceRows=sum((rows_for(t, n) for t, n in hits), [])); evidenced.update(t['ID'] for t, n in hits); counts['ambiguous'] += 1
         else:
-            relations = syns.get(key, []); accepted_ids = {t['ID'] for t, n in osf_taxa}; qualifying = [(s, n, t) for s, n, t in relations if t and t['ID'] in accepted_ids and by_name.get(t.get('nameID'), {}).get('rank') == 'species']
+            qualifying = [(s, n, t) for s, n, t in relations if t and t['ID'] in accepted_ids and by_name.get(t.get('nameID'), {}).get('rank') == 'species']
             targets = {t['ID']: (s, n, t) for s, n, t in qualifying}
             invalid = [r for r in relations if not r[2] or r[2]['ID'] not in accepted_ids or by_name.get(r[2].get('nameID'), {}).get('rank') != 'species']
             if invalid:
@@ -112,25 +122,30 @@ def main():
             elif len(targets) == 1:
                 s, n, t = next(iter(targets.values())); target_name = by_name[t['nameID']]; synonym_value = {'id': t['ID'], 'nameId': n['ID'], 'scientificName': n['scientificName'], 'authorship': n['authorship'] or '', 'status': 'synonym', 'url': ''}; value = source_name(target_name, t); rec.update(status='redirect', matchedName=synonym_value, acceptedName=value, mappingBasis='Explicit OSF Synonym.tsv relation to an accepted species target.', sourceRows=rows_for(s, n, t, target_name)); evidenced.add(t['ID']); counts['redirect'] += 1
             elif len(targets) > 1:
-                rec.update(status='ambiguous', mappingBasis='Explicit OSF synonym evidence has multiple accepted species targets.', candidates=[source_name(by_name[t['nameID']], t) for s, n, t in targets.values()], sourceRows=sum((rows_for(s, n, t) for s, n, t in qualifying), [])); evidenced.update(targets); counts['ambiguous'] += 1
+                rec.update(status='ambiguous', mappingBasis='Explicit OSF synonym evidence has multiple accepted species targets.', candidates=[source_name(by_name[t['nameID']], t) for s, n, t in targets.values()], sourceRows=sum((rows_for(s, n, t, by_name.get(t.get('nameID'))) for s, n, t in qualifying), [])); evidenced.update(targets); counts['ambiguous'] += 1
             else:
                 rec.update(status='unmatched', mappingBasis='No exact accepted-name or qualifying OSF species synonym relation.', sourceRows=sum((rows_for(s, n, t) for s, n, t in relations), [])); counts['unmatched'] += 1
         records.append(rec)
     upstream = []
     for taxon, name in osf_taxa:
         if taxon['ID'] not in evidenced:
-            value = source_name(name, taxon); upstream.append({'colId': None, 'colScientificName': None, 'colAuthorship': None, 'status': 'upstream-only', 'matchedName': value, 'acceptedName': value, 'candidates': [], 'mappingBasis': 'Accepted OSF species concept has no explicit COL crosswalk outcome.', 'sourceRows': rows_for(taxon, name)})
-    upstream.sort(key=lambda x: x['matchedName']['id']); NOM.mkdir(parents=True, exist_ok=True)
+            value = source_name(name, taxon); upstream.append({'colId': None, 'colScientificName': None, 'colAuthorship': None, 'status': 'upstream-only', 'matchedName': None, 'acceptedName': value, 'candidates': [], 'mappingBasis': 'Accepted OSF species concept has no explicit COL crosswalk outcome.', 'sourceRows': rows_for(taxon, name)})
+    upstream.sort(key=lambda x: x['acceptedName']['id']); NOM.mkdir(parents=True, exist_ok=True)
+    for old in NOM.iterdir():
+        if re.fullmatch(r'osf-orthoptera-(?:\d{3}|upstream-only-\d{3})\.json\.gz', old.name): old.unlink()
     files = []
     for i, part in enumerate(chunks(records)):
-        source = array_bytes(part); compressed = gzip.compress(source, compresslevel=9, mtime=0); path = NOM / f'osf-orthoptera-{i:03d}.json.gz'; path.write_bytes(compressed); files.append(descriptor_file(path, part, compressed, source))
-    source = array_bytes(upstream); compressed = gzip.compress(source, compresslevel=9, mtime=0); upath = NOM / 'osf-orthoptera-upstream-only-000.json.gz'; upath.write_bytes(compressed); upstream_file = descriptor_file(upath, upstream, compressed, source); upstream_file.pop('minColId', None); upstream_file.pop('maxColId', None)
+        source = array_bytes(part); compressed = gzip_bytes(source); path = NOM / f'osf-orthoptera-{i:03d}.json.gz'; path.write_bytes(compressed); files.append(descriptor_file(path, part, compressed, source))
+    upstream_files = []
+    for i, part in enumerate(chunks(upstream)):
+        source = array_bytes(part); compressed = gzip_bytes(source); upath = NOM / f'osf-orthoptera-upstream-only-{i:03d}.json.gz'; upath.write_bytes(compressed); item = descriptor_file(upath, part, compressed, source); item.pop('minColId', None); item.pop('maxColId', None); upstream_files.append(item)
+    upstream_file = upstream_files[0] if upstream_files else None
     package_count = json.loads((ROOT / 'data/registry/package-species-coverage.json').read_text(encoding='utf-8'))['packageCounts'][PACKAGE_ID]; manifest_path = REG / 'manifest.json'; manifest_bytes = manifest_path.read_bytes(); metadata_bytes = metadata_path.read_bytes()
-    descriptor = {'schemaVersion': 1, 'id': 'osf-orthoptera-archive-crosswalk', 'recordType': 'release-pinned-authority-archive-crosswalk', 'packageId': PACKAGE_ID, 'provider': 'Orthoptera Species File via ChecklistBank', 'rowEncoding': 'json', 'colIdField': 'colId', 'totalCountField': 'total', 'source': {'version': acquisition['version'], 'versionDoi': acquisition['versionDoi'], 'license': 'CC-BY-4.0', 'archiveUrl': acquisition['archiveUrl'], 'archiveBytes': len(archive_bytes), 'archiveSha256': digest(archive_bytes), 'members': {k: {'bytes': len(v), 'sha256': digest(v)} for k, v in members.items()}, 'acquisitionPath': repo(ACQ), 'ledgerPath': 'data/sources/osf-orthoptera-archive-crosswalk-import-ledger.json'}, 'scope': {'colRootUsageId': COL_ROOT, 'colRootScientificName': 'Orthoptera Olivier, 1789', 'colStrictAcceptedSpecies': len(col), 'packageStrictAcceptedSpecies': package_count, 'packageOutOfScopeStrictAcceptedSpecies': package_count-len(col), 'osfOtuRootId': OSF_ROOT, 'osfTaxonNameRootId': OSF_NAME_ROOT, 'boundary': 'This mixed package sidecar covers only strict accepted COL species below CJBKK and accepted OSF species below OTU 805980; all other package species are excluded.'}, 'matching': {'normalization': 'Remove only the exact trailing COL authorship suffix when present; compare remaining scientific name and authorship exactly, preserving source text.', 'prohibited': 'No fuzzy, case-folded, accent-folded, subgenus-removed, token-reordered or concept-equivalence matching.'}, 'counts': {'total': len(records), **counts, 'upstreamOnly': len(upstream)}, 'files': files, 'upstreamOnlyFiles': [upstream_file], 'evidenceBoundary': {'en': 'A frozen exact nomenclatural crosswalk, not a species-concept equivalence assertion, complete Orthoptera checklist, classification authority or biological dossier.', 'zh': '冻结的严格命名交叉映射；不是物种概念等同性声明、完整直翅目名录、分类权威或生物档案。'}, 'limitations': ['OSF OTU IDs and TaxonName IDs are distinct and retained separately.', 'Archive attempt/version is recorded from acquisition evidence; the URL is not claimed immutable.', 'Unmatched and ambiguous COL rows and OSF-only accepted concepts remain explicit.']}
+    descriptor = {'schemaVersion': 1, 'id': 'osf-orthoptera-archive-crosswalk', 'recordType': 'release-pinned-authority-archive-crosswalk', 'packageId': PACKAGE_ID, 'provider': 'Orthoptera Species File via ChecklistBank', 'rowEncoding': 'json', 'colIdField': 'colId', 'totalCountField': 'total', 'source': {'version': acquisition['version'], 'versionDoi': acquisition['versionDoi'], 'license': 'CC-BY-4.0', 'archiveUrl': acquisition['archiveUrl'], 'archiveBytes': len(archive_bytes), 'archiveSha256': digest(archive_bytes), 'members': {k: {'bytes': len(v), 'sha256': digest(v)} for k, v in members.items()}, 'acquisitionPath': 'external source-cache/osf-1021-2026-09-04/acquisition.json', 'ledgerPath': 'data/sources/osf-orthoptera-archive-crosswalk-import-ledger.json'}, 'scope': {'colRootUsageId': COL_ROOT, 'colRootScientificName': 'Orthoptera Olivier, 1789', 'colStrictAcceptedSpecies': len(col), 'packageStrictAcceptedSpecies': package_count, 'packageOutOfScopeStrictAcceptedSpecies': package_count-len(col), 'osfOtuRootId': OSF_ROOT, 'osfTaxonNameRootId': OSF_NAME_ROOT, 'boundary': 'This mixed package sidecar covers only strict accepted COL species below CJBKK and accepted OSF species below OTU 805980; all other package species are excluded.'}, 'matching': {'normalization': 'Remove only the exact trailing COL authorship suffix when present; compare remaining scientific name and authorship exactly, preserving source text.', 'prohibited': 'No fuzzy, case-folded, accent-folded, subgenus-removed, token-reordered or concept-equivalence matching.'}, 'counts': {'total': len(records), **counts, 'upstreamOnly': len(upstream)}, 'files': files, 'upstreamOnlyFiles': upstream_files, 'evidenceBoundary': {'en': 'A frozen exact nomenclatural crosswalk, not a species-concept equivalence assertion, complete Orthoptera checklist, classification authority or biological dossier.', 'zh': '冻结的严格命名交叉映射；不是物种概念等同性声明、完整直翅目名录、分类权威或生物档案。'}, 'limitations': ['OSF OTU IDs and TaxonName IDs are distinct and retained separately.', 'Archive attempt/version is recorded from acquisition evidence; the URL is not claimed immutable.', 'Unmatched and ambiguous COL rows and OSF-only accepted concepts remain explicit.']}
     descriptor['source']['acquisitionPath'] = 'external source-cache/osf-1021-2026-09-04/acquisition.json'
     descriptor['source']['metadataSha256'] = digest(metadata_bytes)
     descriptor_bytes = dump(descriptor); DESCRIPTOR.write_bytes(descriptor_bytes)
-    ledger = {'schemaVersion': 1, 'importType': 'COL26.8-to-OSF-Sep-2026-exact-orthoptera-crosswalk', 'generatedFrom': {'acquisitionPath': repo(ACQ), 'acquisitionSha256': digest(acquisition_bytes), 'archivePath': 'external source-cache/dataset-1021.zip', 'archiveSha256': digest(archive_bytes), 'registryManifestPath': repo(manifest_path), 'registryManifestSha256': digest(manifest_bytes)}, 'sourceMembers': {k: {'rows': len(v), 'sha256': digest(members[k]), 'rowConvention': 'one-based physical TSV row including header'} for k, v in (('Name.tsv', names), ('Taxon.tsv', taxa), ('Synonym.tsv', synonyms))}, 'totals': descriptor['counts'], 'output': {'descriptor': {'path': repo(DESCRIPTOR), 'bytes': len(descriptor_bytes), 'sha256': digest(descriptor_bytes)}, 'files': files, 'upstreamOnly': upstream_file}, 'generatedBy': {'scriptPath': 'scripts/build-osf-orthoptera-sidecar.py', 'deterministic': True}}
+    ledger = {'schemaVersion': 1, 'importType': 'COL26.8-to-OSF-Sep-2026-exact-orthoptera-crosswalk', 'generatedFrom': {'acquisitionPath': 'external source-cache/osf-1021-2026-09-04/acquisition.json', 'acquisitionSha256': digest(acquisition_bytes), 'archivePath': 'external source-cache/dataset-1021.zip', 'archiveSha256': digest(archive_bytes), 'registryManifestPath': repo(manifest_path), 'registryManifestSha256': digest(manifest_bytes)}, 'sourceMembers': {k: {'rows': len(v), 'sha256': digest(members[k]), 'rowConvention': 'one-based physical TSV row including header'} for k, v in (('Name.tsv', names), ('Taxon.tsv', taxa), ('Synonym.tsv', synonyms))}, 'totals': descriptor['counts'], 'output': {'descriptor': {'path': repo(DESCRIPTOR), 'bytes': len(descriptor_bytes), 'sha256': digest(descriptor_bytes)}, 'files': files, 'upstreamOnly': upstream_files}, 'generatedBy': {'scriptPath': 'scripts/build-osf-orthoptera-sidecar.py', 'deterministic': True}}
     ledger['generatedFrom']['acquisitionPath'] = 'external source-cache/osf-1021-2026-09-04/acquisition.json'
     for member in ledger['sourceMembers'].values(): member['rowConvention'] = 'one-based logical TSV record ordinal including header'
     ledger['sourceMetadata'] = {'key': metadata['key'], 'attempt': metadata['attempt'], 'version': metadata['version'], 'versionDoi': metadata['versionDoi'], 'issued': metadata['issued'], 'sha256': digest(metadata_bytes)}
