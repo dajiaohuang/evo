@@ -52,6 +52,8 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		h.resource(w, r)
 	case r.URL.Path == "/v1/catalogue/manifest":
 		h.catalogueManifest(w, r)
+	case r.URL.Path == "/v1/catalogue/tree.ndjson":
+		h.catalogueTreeStream(w, r)
 	case strings.HasPrefix(r.URL.Path, "/v1/catalogue/"):
 		h.catalogueRoute(w, r)
 	case strings.HasPrefix(r.URL.Path, "/v1/packages/"):
@@ -102,9 +104,9 @@ func (h *Handler) capabilities(w http.ResponseWriter, r *http.Request) {
 			"full":      map[string]any{"available": true, "offline": true, "scope": "complete current data release"},
 			"web-light": map[string]any{"available": true, "offline": false, "scope": "client-selected subset; not a backend authorization boundary"},
 		},
-		"features":     []string{"entity-query", "catalogue-name-search", "catalogue-hierarchy", "evidence-and-sources", "package-files", "scene-data", "paleogeography", "paleotopography", "range-etag", "resumable-sync", "atomic-release-reload"},
-		"endpoints":    map[string]string{"currentRelease": "/v1/releases/current", "entities": "/v1/entities/{id}", "search": "/v1/search/names?q={query}", "children": "/v1/entities/{id}/children", "evidence": "/v1/entities/{id}/evidence", "resource": "/v1/resources/{data-path}", "sync": "/v1/sync/files?profile=full", "maps": "/v1/maps/manifest"},
-		"queryIndexes": map[string]any{"atlasEntities": "in-memory 403-record registry", "catalogueNames": "release search shards", "catalogueHierarchy": "resident packed adjacency"},
+		"features":     []string{"entity-query", "catalogue-name-search", "catalogue-hierarchy", "catalogue-tree-stream", "evidence-and-sources", "package-files", "scene-data", "paleogeography", "paleotopography", "range-etag", "resumable-sync", "atomic-release-reload"},
+		"endpoints":    map[string]string{"currentRelease": "/v1/releases/current", "entities": "/v1/entities/{id}", "search": "/v1/search/names?q={query}", "children": "/v1/entities/{id}/children", "evidence": "/v1/entities/{id}/evidence", "resource": "/v1/resources/{data-path}", "sync": "/v1/sync/files?profile=full", "catalogueTree": "/v1/catalogue/tree.ndjson", "maps": "/v1/maps/manifest"},
+		"queryIndexes": map[string]any{"atlasEntities": "in-memory 403-record registry", "catalogueNames": "release search shards with bounded page window", "catalogueHierarchy": "resident packed adjacency"},
 		"treeIndex":    treeIndex, "treeRoots": treeRoots,
 		"scopeStatement": s.Manifest.ScopeStatement, "wholeLifeCoverageClaim": s.Manifest.WholeLifeClaim,
 	}, "public, max-age=60")
@@ -128,7 +130,7 @@ func (h *Handler) currentRelease(w http.ResponseWriter, r *http.Request) {
 		"scopeStatement": s.Manifest.ScopeStatement, "includedMajorGroups": s.Manifest.IncludedGroups, "excludedMajorGroups": s.Manifest.ExcludedGroups, "wholeLifeCoverageClaim": s.Manifest.WholeLifeClaim,
 		"counts": s.Manifest.Records, "sources": s.Manifest.Sources, "limitations": s.Manifest.Limitations,
 		"files":     map[string]any{"count": len(files), "bytes": bytes, "checksummedAtStartup": known, "hashes": "manifest-known plus lazy SHA-256 for sync/resource requests", "inventory": "/v1/sync/files?profile=full"},
-		"catalogue": map[string]any{"releaseAlias": s.Catalogue.ReleaseAlias, "releaseDate": s.Catalogue.ReleaseDate, "manifestResource": "/v1/resources/data/catalogue-of-life/releases/2026-08-20/registry/manifest.json"},
+		"catalogue": map[string]any{"releaseAlias": s.Catalogue.ReleaseAlias, "releaseDate": s.Catalogue.ReleaseDate, "manifestResource": "/v1/resources/" + s.Catalogue.RegistryPath},
 	}, "public, max-age=30, must-revalidate")
 }
 
@@ -265,14 +267,18 @@ func (h *Handler) search(w http.ResponseWriter, r *http.Request) {
 	query := r.URL.Query().Get("q")
 	s := h.Store.Snapshot()
 	catalogueSource := s.Catalogue.ReleaseAlias + "-nomenclatural-registry"
-	catalogue, catalogueTotal, err := s.SearchCatalogue(query)
-	if err != nil {
-		errorJSON(w, http.StatusInternalServerError, "search_failed", err.Error())
-		return
-	}
 	core := s.EntitySearch(query)
-	records := make([]map[string]any, 0, len(core)+len(catalogue))
-	for _, raw := range core {
+	limit, offset := pagination(r, 20, 100)
+	coreStart := offset
+	if coreStart > len(core) {
+		coreStart = len(core)
+	}
+	coreEnd := coreStart + limit
+	if coreEnd > len(core) {
+		coreEnd = len(core)
+	}
+	records := make([]map[string]any, 0, limit)
+	for _, raw := range core[coreStart:coreEnd] {
 		var value struct {
 			ID        string            `json:"id"`
 			Names     map[string]string `json:"names"`
@@ -284,22 +290,55 @@ func (h *Handler) search(w http.ResponseWriter, r *http.Request) {
 			records = append(records, map[string]any{"id": value.ID, "kind": value.Kind, "title": value.Names["scientific"], "titleEn": value.Names["en"], "titleZh": value.Names["zh"], "packageId": value.PackageID, "rank": value.Rank, "source": "atlas-dossier-registry"})
 		}
 	}
+	catalogueOffset := offset - len(core)
+	if catalogueOffset < 0 {
+		catalogueOffset = 0
+	}
+	catalogueLimit := limit - len(records)
+	if catalogueLimit < 0 {
+		catalogueLimit = 0
+	}
+	catalogue, catalogueTotal, err := s.SearchCataloguePage(r.Context(), query, catalogueOffset, catalogueLimit)
+	if err != nil {
+		if errors.Is(err, context.Canceled) || errors.Is(err, context.DeadlineExceeded) {
+			return
+		}
+		if errors.Is(err, store.ErrSearchPageWindow) {
+			errorJSON(w, http.StatusBadRequest, "search_cursor_too_deep", err.Error())
+			return
+		}
+		errorJSON(w, http.StatusInternalServerError, "search_failed", err.Error())
+		return
+	}
 	for _, value := range catalogue {
 		records = append(records, map[string]any{"id": value.ID, "kind": "catalogue-name", "title": value.ScientificName, "authorship": value.Authorship, "status": value.Status, "acceptedId": value.AcceptedID, "parentId": value.ParentID, "sourceDatasetId": value.SourceDatasetID, "source": catalogueSource, "recordUrl": "/v1/catalogue/taxa/" + value.ID})
 	}
-	limit, offset := pagination(r, 20, 100)
-	if offset > len(records) {
-		offset = len(records)
-	}
-	end := offset + limit
-	if end > len(records) {
-		end = len(records)
-	}
-	out := map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "query": query, "normalizedQuery": normalizeForResponse(query), "records": records[offset:end], "totalMatches": len(core) + catalogueTotal, "limit": limit, "sources": []string{"atlas-dossier-registry", catalogueSource}}
-	if end < len(records) {
-		out["nextCursor"] = encodeCursor(end)
+	returned := len(records)
+	out := map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "query": query, "normalizedQuery": normalizeForResponse(query), "records": records, "totalMatches": len(core) + catalogueTotal, "limit": limit, "sources": []string{"atlas-dossier-registry", catalogueSource}}
+	if offset+returned < len(core)+catalogueTotal {
+		out["nextCursor"] = encodeCursor(offset + returned)
 	}
 	writeJSON(w, r, http.StatusOK, out, "public, max-age=30")
+}
+
+func (h *Handler) catalogueTreeStream(w http.ResponseWriter, r *http.Request) {
+	s := h.Store.Snapshot()
+	if s.Taxonomy == nil {
+		errorJSON(w, http.StatusServiceUnavailable, "catalogue_tree_unavailable", "resident catalogue tree is unavailable")
+		return
+	}
+	w.Header().Set("Content-Type", "application/x-ndjson; charset=utf-8")
+	w.Header().Set("Cache-Control", "public, max-age=31536000, immutable")
+	w.Header().Set("X-Content-Profile", "full")
+	w.Header().Set("X-Dataset-Version", s.Manifest.DatasetVersion)
+	w.WriteHeader(http.StatusOK)
+	if r.Method == http.MethodHead {
+		return
+	}
+	if flusher, ok := w.(http.Flusher); ok {
+		flusher.Flush()
+	}
+	_ = s.Taxonomy.StreamJSONL(r.Context(), w)
 }
 
 func normalizeForResponse(query string) string {

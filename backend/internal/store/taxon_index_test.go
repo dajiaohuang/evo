@@ -1,7 +1,10 @@
 package store
 
 import (
+	"bytes"
+	"context"
 	"path/filepath"
+	"strings"
 	"testing"
 )
 
@@ -47,5 +50,28 @@ func TestTaxonArtifactRoundTrip(t *testing.T) {
 	children, total, ok := loaded.ChildrenPage("root", 0, 1)
 	if !ok || total != 1 || len(children) != 1 || children[0].ID != "child" || children[0].ParentID == nil || *children[0].ParentID != "root" {
 		t.Fatalf("unexpected child page: %#v total=%d found=%v", children, total, ok)
+	}
+}
+
+func TestTaxonTreeJSONLStreamIsBoundedAndComplete(t *testing.T) {
+	index := &TaxonIndex{
+		arena: []byte("rootRootchildChild"),
+		nodes: []packedTaxon{
+			{id: stringRef{0, 4}, scientificName: stringRef{4, 4}, parent: noTaxon, childCount: 1, rankID: 1, statusID: 1},
+			{id: stringRef{8, 5}, scientificName: stringRef{13, 5}, parent: 0, childCount: 0, rankID: 2, statusID: 1},
+		},
+		children:            []uint32{1},
+		roots:               []uint32{0},
+		rankValues:          []string{"", "class", "species"},
+		statusValues:        []string{"", "accepted"},
+		sourceDatasetValues: []string{""},
+	}
+	var output bytes.Buffer
+	if err := index.StreamJSONL(context.Background(), &output); err != nil {
+		t.Fatal(err)
+	}
+	lines := strings.Split(strings.TrimSpace(output.String()), "\n")
+	if len(lines) != 2 || !strings.Contains(lines[0], `"id":"root"`) || !strings.Contains(lines[1], `"id":"child"`) {
+		t.Fatalf("unexpected stream: %q", output.String())
 	}
 }

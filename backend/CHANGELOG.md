@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Added a full catalogue NDJSON stream from the resident packed hierarchy, bounded catalogue search paging with cancellation, and current-release registry path discovery from the manifest inventory.
 - Rebased the backend integration onto RC114 and verified the new Trichomycetes extension resource is delivered byte-for-byte.
 - Added a resident packed COL hierarchy with bounded direct-child pages, root summaries and a release-alias capability descriptor for large-tree clients.
 - Added a strict, rebuildable `catalogue-tree.bin` runtime artifact and `evo-index -tree-out`; invalid or stale artifacts are rebuilt from the canonical hierarchy shards.

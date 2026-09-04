@@ -3,6 +3,7 @@ package store
 import (
 	"bufio"
 	"compress/gzip"
+	"container/heap"
 	"context"
 	"crypto/sha256"
 	"encoding/hex"
@@ -86,6 +87,8 @@ type CatalogueFile struct {
 
 type CatalogueManifest struct {
 	Raw             json.RawMessage `json:"-"`
+	RegistryPath    string          `json:"-"`
+	RegistryRoot    string          `json:"-"`
 	ReleaseAlias    string          `json:"releaseAlias"`
 	ReleaseDate     string          `json:"releaseDate"`
 	AcceptedSpecies int             `json:"-"`
@@ -396,7 +399,10 @@ func loadPackages(s *Snapshot) error {
 }
 
 func loadCatalogue(s *Snapshot) error {
-	path := filepath.Join(s.Root, "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json")
+	path, resourcePath, err := currentCatalogueRegistryPath(s.Root, s.Manifest.Checksums)
+	if err != nil {
+		return err
+	}
 	raw, err := readRaw(path)
 	if err != nil {
 		return fmt.Errorf("load catalogue manifest: %w", err)
@@ -405,7 +411,25 @@ func loadCatalogue(s *Snapshot) error {
 		return fmt.Errorf("decode catalogue manifest: %w", err)
 	}
 	s.Catalogue.Raw = raw
+	s.Catalogue.RegistryPath = resourcePath
+	s.Catalogue.RegistryRoot = filepath.Dir(path)
 	return nil
+}
+
+func currentCatalogueRegistryPath(root string, checksums map[string]string) (string, string, error) {
+	const prefix = "data/catalogue-of-life/releases/"
+	const suffix = "/registry/manifest.json"
+	var matches []string
+	for resourcePath := range checksums {
+		if strings.HasPrefix(resourcePath, prefix) && strings.HasSuffix(resourcePath, suffix) {
+			matches = append(matches, resourcePath)
+		}
+	}
+	if len(matches) != 1 {
+		return "", "", fmt.Errorf("expected exactly one current catalogue registry manifest in data manifest, found %d", len(matches))
+	}
+	resourcePath := matches[0]
+	return filepath.Join(root, filepath.FromSlash(resourcePath)), resourcePath, nil
 }
 
 func indexFiles(s *Snapshot) error {
@@ -599,6 +623,10 @@ func (s *Snapshot) PackageFiles(id string) []FileInfo {
 }
 
 func (s *Snapshot) ReadShard(path string) ([]json.RawMessage, error) {
+	return s.ReadShardContext(context.Background(), path)
+}
+
+func (s *Snapshot) ReadShardContext(ctx context.Context, path string) ([]json.RawMessage, error) {
 	path = filepath.ToSlash(path)
 	s.ShardMu.Lock()
 	if values, ok := s.ShardCache[path]; ok {
@@ -607,14 +635,18 @@ func (s *Snapshot) ReadShard(path string) ([]json.RawMessage, error) {
 	}
 	if load, ok := s.ShardLoads[path]; ok {
 		s.ShardMu.Unlock()
-		<-load.done
-		return load.values, load.err
+		select {
+		case <-load.done:
+			return load.values, load.err
+		case <-ctx.Done():
+			return nil, ctx.Err()
+		}
 	}
 	load := &shardLoad{done: make(chan struct{})}
 	s.ShardLoads[path] = load
 	s.ShardMu.Unlock()
 
-	values, err := s.readShardFile(path)
+	values, err := s.readShardFileContext(ctx, path)
 	s.ShardMu.Lock()
 	delete(s.ShardLoads, path)
 	load.values, load.err = values, err
@@ -635,13 +667,17 @@ func (s *Snapshot) ReadShard(path string) ([]json.RawMessage, error) {
 }
 
 func (s *Snapshot) readShardFile(path string) ([]json.RawMessage, error) {
-	fullPath := filepath.Join(s.Root, "data/catalogue-of-life/releases/2026-08-20/registry", filepath.FromSlash(path))
+	return s.readShardFileContext(context.Background(), path)
+}
+
+func (s *Snapshot) readShardFileContext(ctx context.Context, path string) ([]json.RawMessage, error) {
+	fullPath := filepath.Join(s.Catalogue.RegistryRoot, filepath.FromSlash(path))
 	file, err := os.Open(fullPath)
 	if err != nil {
 		return nil, err
 	}
 	defer file.Close()
-	reader, err := gzip.NewReader(file)
+	reader, err := gzip.NewReader(contextReader{ctx: ctx, reader: file})
 	if err != nil {
 		return nil, fmt.Errorf("open gzip shard %s: %w", path, err)
 	}
@@ -649,6 +685,9 @@ func (s *Snapshot) readShardFile(path string) ([]json.RawMessage, error) {
 	decoder := json.NewDecoder(bufio.NewReaderSize(reader, 256<<10))
 	values := make([]json.RawMessage, 0)
 	for {
+		if err := ctx.Err(); err != nil {
+			return nil, err
+		}
 		var value json.RawMessage
 		if err := decoder.Decode(&value); err == io.EOF {
 			break
@@ -843,7 +882,69 @@ func foldLatin(r rune) rune {
 	return r
 }
 
+const maxSearchPageWindow = 100_000
+
+var ErrSearchPageWindow = errors.New("catalogue search page exceeds bounded window")
+
+type catalogueSearchHeap struct {
+	values []CatalogueRecord
+}
+
+func (h catalogueSearchHeap) Len() int { return len(h.values) }
+func (h catalogueSearchHeap) Less(i, j int) bool {
+	// Keep the worst retained record at the root so memory stays bounded to the
+	// requested page window while the source shards are scanned.
+	return catalogueRecordLess(h.values[j], h.values[i])
+}
+func (h catalogueSearchHeap) Swap(i, j int)   { h.values[i], h.values[j] = h.values[j], h.values[i] }
+func (h *catalogueSearchHeap) Push(value any) { h.values = append(h.values, value.(CatalogueRecord)) }
+func (h *catalogueSearchHeap) Pop() any {
+	last := len(h.values) - 1
+	value := h.values[last]
+	h.values = h.values[:last]
+	return value
+}
+
+func catalogueRecordLess(a, b CatalogueRecord) bool {
+	if statusOrder(a.Status) != statusOrder(b.Status) {
+		return statusOrder(a.Status) < statusOrder(b.Status)
+	}
+	if len(a.NormalizedName) != len(b.NormalizedName) {
+		return len(a.NormalizedName) < len(b.NormalizedName)
+	}
+	if a.ScientificName != b.ScientificName {
+		return a.ScientificName < b.ScientificName
+	}
+	return a.ID < b.ID
+}
+
+func statusOrder(status string) int {
+	switch status {
+	case "accepted":
+		return 0
+	case "synonym":
+		return 1
+	case "ambiguous-synonym":
+		return 2
+	case "misapplied":
+		return 3
+	default:
+		return 4
+	}
+}
+
 func (s *Snapshot) SearchCatalogue(query string) ([]CatalogueRecord, int, error) {
+	return s.SearchCatalogueContext(context.Background(), query)
+}
+
+func (s *Snapshot) SearchCatalogueContext(ctx context.Context, query string) ([]CatalogueRecord, int, error) {
+	return s.SearchCataloguePage(ctx, query, 0, maxSearchPageWindow)
+}
+
+func (s *Snapshot) SearchCataloguePage(ctx context.Context, query string, offset, limit int) ([]CatalogueRecord, int, error) {
+	if offset < 0 || limit < 0 || offset > maxSearchPageWindow || limit > maxSearchPageWindow-offset {
+		return nil, 0, fmt.Errorf("%w of %d records", ErrSearchPageWindow, maxSearchPageWindow)
+	}
 	normalized := normalizeQuery(query)
 	compact := strings.ReplaceAll(normalized, " ", "")
 	if len([]rune(compact)) < s.Catalogue.Search.MinimumQueryLength {
@@ -855,9 +956,15 @@ func (s *Snapshot) SearchCatalogue(query string) ([]CatalogueRecord, int, error)
 			files = append(files, file)
 		}
 	}
-	result := make([]CatalogueRecord, 0)
+	window := offset + limit
+	queue := &catalogueSearchHeap{values: make([]CatalogueRecord, 0, minInt(window, 256))}
+	heap.Init(queue)
+	total := 0
 	for _, file := range files {
-		shard, err := s.searchRecords(file.Path)
+		if err := ctx.Err(); err != nil {
+			return nil, 0, err
+		}
+		shard, err := s.searchRecordsContext(ctx, file.Path)
 		if err != nil {
 			return nil, 0, err
 		}
@@ -870,30 +977,46 @@ func (s *Snapshot) SearchCatalogue(query string) ([]CatalogueRecord, int, error)
 				continue
 			}
 		}
-		for _, record := range records {
+		for recordIndex, record := range records {
+			if recordIndex&1023 == 0 {
+				if err := ctx.Err(); err != nil {
+					return nil, 0, err
+				}
+			}
 			if strings.HasPrefix(record.NormalizedName, normalized) {
-				result = append(result, record)
+				total++
+				if window == 0 {
+					continue
+				}
+				if len(queue.values) < window {
+					heap.Push(queue, record)
+				} else if catalogueRecordLess(record, queue.values[0]) {
+					queue.values[0] = record
+					heap.Fix(queue, 0)
+				}
 			}
 		}
 	}
-	statusOrder := map[string]int{"accepted": 0, "synonym": 1, "ambiguous-synonym": 2, "misapplied": 3}
-	sort.SliceStable(result, func(i, j int) bool {
-		a, b := result[i], result[j]
-		if statusOrder[a.Status] != statusOrder[b.Status] {
-			return statusOrder[a.Status] < statusOrder[b.Status]
-		}
-		if len(a.NormalizedName) != len(b.NormalizedName) {
-			return len(a.NormalizedName) < len(b.NormalizedName)
-		}
-		if a.ScientificName != b.ScientificName {
-			return a.ScientificName < b.ScientificName
-		}
-		return a.ID < b.ID
-	})
-	return result, len(result), nil
+	result := queue.values
+	sort.Slice(result, func(i, j int) bool { return catalogueRecordLess(result[i], result[j]) })
+	if offset > total {
+		offset = total
+	}
+	end := offset + limit
+	if end > total {
+		end = total
+	}
+	if end > len(result) {
+		end = len(result)
+	}
+	return result[offset:end], total, nil
 }
 
 func (s *Snapshot) searchRecords(path string) (SearchShard, error) {
+	return s.searchRecordsContext(context.Background(), path)
+}
+
+func (s *Snapshot) searchRecordsContext(ctx context.Context, path string) (SearchShard, error) {
 	s.SearchMu.Lock()
 	if shard, ok := s.SearchCache[path]; ok {
 		s.SearchMu.Unlock()
@@ -901,14 +1024,18 @@ func (s *Snapshot) searchRecords(path string) (SearchShard, error) {
 	}
 	if load, ok := s.SearchLoads[path]; ok {
 		s.SearchMu.Unlock()
-		<-load.done
-		return load.shard, load.err
+		select {
+		case <-load.done:
+			return load.shard, load.err
+		case <-ctx.Done():
+			return SearchShard{}, ctx.Err()
+		}
 	}
 	load := &searchLoad{done: make(chan struct{})}
 	s.SearchLoads[path] = load
 	s.SearchMu.Unlock()
 
-	values, err := s.readShardFile(path)
+	values, err := s.readShardFileContext(ctx, path)
 	if err != nil {
 		s.SearchMu.Lock()
 		delete(s.SearchLoads, path)
@@ -969,6 +1096,13 @@ func firstRunes(value string, count int) string {
 		runes = runes[:count]
 	}
 	return string(runes)
+}
+
+func minInt(left, right int) int {
+	if left < right {
+		return left
+	}
+	return right
 }
 
 func (s *Snapshot) EntitySearch(query string) []json.RawMessage {

@@ -8,6 +8,8 @@ All JSON endpoints include `protocolVersion: "v1"` where the response describes 
 
 ## Release and capabilities
 
+`GET /v1/catalogue/tree.ndjson` streams every resident hierarchy node as one JSON object per line without materializing the complete response.
+
 `GET /v1/capabilities` advertises endpoint support and distinguishes the complete offline `full` profile from client-side Pages preview behavior. It returns stable `schemaVersion`, `apiVersion`, `protocolVersion`, `datasetVersion`, `appVersion`, `profiles`, `features` and `baseUrl` fields. `treeIndex` describes the current resident packed-adjacency hierarchy (`nodeCount`, `paging`, `windowed`, and `releaseAlias`), while `treeRoots` provides root summaries with the fields used by the tree view. `GET /v1/releases/current` returns the current dataset/app versions, counts, limitations, source summary, and a file inventory summary. It intentionally does not claim global completeness: the canonical manifest's `wholeLifeCoverageClaim` remains false.
 
 ## Entity and catalogue queries
@@ -15,8 +17,11 @@ All JSON endpoints include `protocolVersion: "v1"` where the response describes 
 `GET /v1/entities/{id}` returns the canonical registry entity plus its optional narrative profile and range evidence. `/children` is paginated and reports `represented-descendant-closure` for atlas navigation entities. `/evidence` returns source-bounded ranges, claims and resolved references. Entity, children and evidence payloads carry `datasetVersion` and an `entityId` or `parentId`.
 
 Current catalogue species and higher-taxon records are addressed separately at `/v1/catalogue/taxa/{id}` and `/v1/catalogue/taxa/{id}/children`. Hierarchy node records use the current compact schema: `id`, nullable `parentId`, `scientificName`, nullable `authorship`, `rank`, `status`, nullable `sourceDatasetId`, and computed `childCount`. Children are returned as a bounded offset-cursor page and retain `schemaVersion`, `apiVersion`, `protocolVersion`, `datasetVersion`, `parentId`, `total`, `limit`, and optional `nextCursor`. `treeIndex.releaseAlias` is the release alias clients should use when constructing a registry record view; clients should not hardcode a catalogue release or parse the raw manifest. `GET /v1/search/names` combines the 403 atlas entities with routed catalogue name shards. Search returns `records`, `totalMatches` and an opaque base64url `nextCursor`; each record identifies whether it is an Atlas dossier or a nomenclatural-registry result. The catalogue search minimum is three normalized characters. Cursors must only be reused with the same query and release.
+The search implementation bounds retained matches to the requested page window while scanning/counting routed records; a cursor window cannot exceed 100,000 records.
 
 ## Resources and sync
+
+The catalogue registry manifest URL is derived from the current `data/manifest.json` checksum inventory rather than hardcoded to a historical release path.
 
 `GET /v1/resources/data/...` is a byte-preserving delivery endpoint. It rejects paths outside `data/`, sets a strong SHA-256 `ETag`, and supports `Range`, `If-Range`, `If-None-Match`, `HEAD`, and immutable cache headers. It does not add HTTP content decompression, allowing native clients to verify exact compressed bytes.
 
