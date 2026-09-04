@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-original-archive-projection",
+  "id": "worms-priapulida-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "role": "authority-crosswalk",
+  "rowEncoding": "json",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1124",
+    "provider": "World Register of Marine Species via ChecklistBank",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1124/archive",
+    "archivePath": "data/sources/archives/checklistbank-1124-priapulida-2026-09-01.zip",
+    "archiveBytes": 17809,
+    "archiveSha256": "e01eb9ac67b1cf8035caf2bd62ee7f741e7c258bba59fd9e911e47d32536dfeb",
+    "metadataPath": "data/sources/archives/checklistbank-1124-priapulida-2026-09-01.metadata.json",
+    "metadataBytes": 1832,
+    "metadataSha256": "15c0166e88a5cc712d260941fcbbd649faaf43df5fba9f74b6b03d40b7d41341",
+    "members": {
+      "metadata.yml": {
+        "bytes": 1123,
+        "sha256": "37ded6d4296e402079bc4c0f11312c3651a2696c313f54fee349dcb48307f116"
+      },
+      "TypeMaterial.txt": {
+        "bytes": 263,
+        "sha256": "1b560fedb92cccfd53ff48006f316668bf6b0e2a6569717381f3d5017d98408f"
+      },
+      "Name.txt": {
+        "bytes": 14965,
+        "sha256": "7eb40c6bb6457c80cf01b91a31fed2259094c04a5a58dc8e4e7dd218e7cacb3b"
+      },
+      "NameRelation.txt": {
+        "bytes": 4396,
+        "sha256": "fc8fa46458e6df9f1fc901875e40ba3aad6224af1d00bc1fcdd9fe6ee7cc169f"
+      },
+      "Taxon.txt": {
+        "bytes": 14373,
+        "sha256": "9d030a0d0f657097a05d68118a3eca2e94efc6327cf2e6a2375a3be408b26865"
+      },
+      "Synonym.txt": {
+        "bytes": 3169,
+        "sha256": "15ffb0284130b02a1562a683b41ac1ea2988600c8d81d67724738c497b37294f"
+      },
+      "SpeciesEstimate.txt": {
+        "bytes": 35,
+        "sha256": "552ac985d21f5b6e89941c9a4b07715a7f4a56106b5d50480ecf9dcba5f901e5"
+      },
+      "Reference.txt": {
+        "bytes": 22774,
+        "sha256": "951791f343ced883918a1fec9471e5c9360dc0bbdc6223d5599509408e026dac"
+      },
+      "NameReference.txt": {
+        "bytes": 22411,
+        "sha256": "e401411750151909d00e0d14226ed5a5dcb40196b884a7c678635676149114c5"
+      },
+      "Distribution.txt": {
+        "bytes": 8968,
+        "sha256": "d46ed057e64348b8a70abf1047ce0b1dead64ab78b41c09c9a7a0493d7dfde0c"
+      },
+      "Media.txt": {
+        "bytes": 2211,
+        "sha256": "0a3d0abaec926649dbbd9e7d522d1bbe9983ad3e1d763ce997620905402f4d3d"
+      },
+      "VernacularName.txt": {
+        "bytes": 1055,
+        "sha256": "080a4441f74acc21750390ed52dc51cd94eb0f0b98a6352cac7210071b7c2ae4"
+      }
+    },
+    "title": "World List of Priapulida",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3cs.v87",
+    "doi": "10.48580/d3cs",
+    "citation": "<div class=\"csl-entry\">Paulay, G. (2026). <span style=\"font-style: italic\">World List of Priapulida</span> (Version 2026-09-01). https://doi.org/10.48580/d3cs</div>",
+    "issued": "2026-09-01",
+    "editor": [
+      {
+        "given": "Gustav",
+        "family": "Paulay",
+        "email": "paulay@flmnh.ufl.edu",
+        "name": "Paulay G."
+      }
+    ],
+    "contributor": [
+      {
+        "country": "BE",
+        "name": "Vlaams Instituut voor de Zee",
+        "address": "Belgium",
+        "organisation": "Vlaams Instituut voor de Zee"
+      },
+      {
+        "country": "US",
+        "name": "University of Florida Florida Museum of Natural History",
+        "address": "United States of America",
+        "organisation": "University of Florida Florida Museum of Natural History"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "licenseDeclared": "cc by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "metadataResponse": {
+      "path": "data/sources/archives/checklistbank-1124-priapulida-2026-09-01.metadata.json",
+      "bytes": 1832,
+      "sha256": "15c0166e88a5cc712d260941fcbbd649faaf43df5fba9f74b6b03d40b7d41341"
+    },
+    "sourceLedgerPath": "data/sources/worms-priapulida-archive-1124-import-ledger.json",
+    "sourceLedgerSha256": "d88e67dac9c787b2e3d85f91b48deedce651e5e4b60350a4c855857a4902857f"
+  },
+  "scope": {
+    "colRootUsageId": "B8VF9",
+    "scientificName": "Priapulida",
+    "eligibleColSpecies": 23,
+    "sourceSpeciesRankTaxa": 23,
+    "sourceStrictAcceptedSpecies": 23,
+    "provisionalExcluded": 0
+  },
+  "matching": {
+    "normalization": "NFC followed by Unicode whitespace normalization; exact trailing COL authorship is removed.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, synonym, redirect or species-concept matching."
+  },
+  "counts": {
+    "total": 23,
+    "accepted": 23,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "redirect": 0,
+    "withheld": 0,
+    "upstreamOnly": 0,
+    "records": 23
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-priapulida-000.json.gz",
+      "records": 23,
+      "bytes": 12135,
+      "sha256": "bc793ddb729a4f859b9f1cc8bd589d9094edc254ec29ec5ea9342192abfb5639",
+      "sourceBytes": 215743,
+      "sourceSha256": "ecb9d7cb145be31aeef68bb99078682aa962af416b8fe009429a3f7bf48b6555",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "3JCX7",
+      "maxColId": "V4X7S"
+    }
+  ],
+  "upstreamOnlyFiles": [],
+  "totals": {
+    "records": 23,
+    "compressedBytes": 12135,
+    "sourceCompressedBytes": 0,
+    "sourceBytes": 215743,
+    "upstreamOnlySourceBytes": 0
+  },
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 23,
+      "files": [
+        "other-animals/worms-priapulida-000.json.gz"
+      ],
+      "totalCompressedBytes": 12135,
+      "totalSourceBytes": 215743
+    }
+  },
+  "evidenceBoundary": {
+    "en": "Frozen original WoRMS archive projection; not species-concept equivalence, fossil evidence or expert review.",
+    "zh": "冻结的WoRMS原始归档投影；不是物种概念等同性、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Upstream-only rows retain null COL ownership.",
+    "Only the exact pinned archive is replayed; no live endpoint is used.",
+    "Archive completeness and nomenclatural status do not establish biological completeness."
+  ]
+}
