@@ -1,0 +1,401 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-crustacea-archive-crosswalk",
+  "packageId": "crustaceans-insects",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "rowEncoding": "json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "provider": "World Register of Marine Species via ChecklistBank",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsHolder": "WoRMS Editorial Board",
+    "archiveUrl": "https://api.checklistbank.org/dataset/2011/archive",
+    "archiveBytes": 342751141,
+    "archiveSha256": "8419d301b08e1f119557ead2222d7efd8f01a3f3ca3b6c9ff1edd062bfa312c6",
+    "attempt": 148,
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d4fd.v148",
+    "retrievedAt": "2026-09-04T03:49:48.539Z",
+    "immutableUrlClaimed": false,
+    "members": {
+      "taxon.txt": {
+        "bytes": 1280833469,
+        "sha256": "965c04a301ac98eed017d37ba78ec541b6e530f76d75ac729f429991c8e584ee",
+        "rows": 1565652,
+        "rowConvention": "one-based logical TSV record ordinal including header; first data record is 2"
+      },
+      "meta.xml": {
+        "bytes": 6844,
+        "sha256": "1f9a6c73256ad4832e70146c35e2d75e885bb598edfcd0cee273c3a37fcf50a6"
+      },
+      "eml.xml": {
+        "bytes": 10948,
+        "sha256": "bb3504da29a78970d7bdee0289fa1e7b9ca568870c204af4eb307d228a0ae950"
+      }
+    },
+    "sourceLedgerPath": "data/sources/worms-crustacea-archive-2011-import-ledger.json",
+    "sourceLedgerSha256": "83c71b7adf8b216f7bf405db314e314b3eb3f117896dba7fb997d73c59416037"
+  },
+  "scope": {
+    "colRootUsageId": "KZX8B",
+    "wormsRootId": "1066",
+    "scientificName": "Crustacea",
+    "eligibleColSpecies": 80890,
+    "packageStrictAcceptedSpecies": 1049133,
+    "excludedPackageRemainder": 968243
+  },
+  "matching": {
+    "normalization": "Remove only exact trailing COL space+authorship suffix, then normalize whitespace for comparison; preserve source fields unchanged.",
+    "redirect": "Explicit acceptedNameUsageID to accepted Species target inside the same source root; invalid or mixed targets withheld.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, inferred or species-concept matching."
+  },
+  "counts": {
+    "total": 80890,
+    "accepted": 77993,
+    "redirect": 257,
+    "ambiguous": 1,
+    "unmatched": 2605,
+    "withheld": 34,
+    "upstreamOnly": 8675
+  },
+  "files": [
+    {
+      "path": "nomenclature/worms-crustacea-000.json.gz",
+      "records": 2769,
+      "bytes": 128725,
+      "sha256": "591932bfc854d5a21714e959ca826bf91730d09b9eeb6db5e1b7f558d915294a",
+      "sourceBytes": 2097052,
+      "sourceSha256": "1d8738c0dda6200f3ef6e453695729a71f3a96ba88644f7d145f71956ff186c6",
+      "minColId": "322FY",
+      "maxColId": "37PNL"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-001.json.gz",
+      "records": 2739,
+      "bytes": 132192,
+      "sha256": "ab3a2d7d56c66d5820bce725efc2f035ce64282e62c6155c38adbc423188b68b",
+      "sourceBytes": 2096503,
+      "sourceSha256": "3768f083bad990c355bb36dff1af5037899064813085160c27788f05e13c54bb",
+      "minColId": "37PNP",
+      "maxColId": "3FS8V"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-002.json.gz",
+      "records": 2724,
+      "bytes": 133777,
+      "sha256": "0c1cc64a991cd143a7e8eae732968491ef77e4bd0e987b07143343994916e411",
+      "sourceBytes": 2096976,
+      "sourceSha256": "f29d3161145a7a9b466a1c58d983c018cf71ed67182c065cdf8ac8605557d69b",
+      "minColId": "3FS8W",
+      "maxColId": "3PHF9"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-003.json.gz",
+      "records": 2733,
+      "bytes": 134241,
+      "sha256": "efc7d041e3f7f453d060003bc06f6b3ad1484dff1c68c70f4ed5aaa4f2a04236",
+      "sourceBytes": 2096987,
+      "sourceSha256": "9fee0bfd2df173e8dd687932024e73acbe52ac059ceca321074c601396621edf",
+      "minColId": "3PHQ6",
+      "maxColId": "3X4KJ"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-004.json.gz",
+      "records": 2730,
+      "bytes": 135391,
+      "sha256": "8b09b1aa6a4da16020c13feab0394adee5bbe7157f05c72a117123975aac5ec3",
+      "sourceBytes": 2097128,
+      "sourceSha256": "0690f030e30313c372eec138e524308ecb706077c6febb7c8716100169a5a98d",
+      "minColId": "3X4KK",
+      "maxColId": "45ND4"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-005.json.gz",
+      "records": 2730,
+      "bytes": 134636,
+      "sha256": "6928c6985efae796195752c0d1651161f5a07918dc1b8e6a18786d687d3088d3",
+      "sourceBytes": 2097054,
+      "sourceSha256": "b293fd7ef7d2bfc93cad0dd82ad63e6f8ee4d533b6a42f11c66da176739d3667",
+      "minColId": "45NGL",
+      "maxColId": "4CSKV"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-006.json.gz",
+      "records": 2727,
+      "bytes": 133856,
+      "sha256": "7ef962c915017d3ab87d9e5018341bca2e20327af7f3e366d5ed74d482a96a9c",
+      "sourceBytes": 2096917,
+      "sourceSha256": "81e4400258273b6210e15b08ad73b4f931181b3cf2267ca8be861236fad1e577",
+      "minColId": "4CSKX",
+      "maxColId": "4KYMT"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-007.json.gz",
+      "records": 2708,
+      "bytes": 133891,
+      "sha256": "4dbe3684eff8f52712309eb172ed851a00b8df8d06632346f4e0d5273fafee66",
+      "sourceBytes": 2096718,
+      "sourceSha256": "30065808aa56d8c1dac709bef24af14c93ac101d3b0c05b643f9e7ed5d0c4b2c",
+      "minColId": "4KYMV",
+      "maxColId": "4SS8J"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-008.json.gz",
+      "records": 2747,
+      "bytes": 135006,
+      "sha256": "f127095d1764009cc86a8b69e9b031a66dd7c3fca0d86d63576b2bd31de91642",
+      "sourceBytes": 2096801,
+      "sourceSha256": "799cacd4cb47f93a9ce34fdc9cf3b36cf8abf88db854f6374d8dc30168545543",
+      "minColId": "4SS8P",
+      "maxColId": "54NQV"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-009.json.gz",
+      "records": 2738,
+      "bytes": 139708,
+      "sha256": "2253a729768dadb605406de472b137a8ca606d0954c5b45c8da796910ad0405a",
+      "sourceBytes": 2096402,
+      "sourceSha256": "521d376040ad453a67c4612b92ce289f6a256663b104a15cc3e4be562a6fd044",
+      "minColId": "54NQW",
+      "maxColId": "5W9C7"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-010.json.gz",
+      "records": 2744,
+      "bytes": 149250,
+      "sha256": "5b4c03b9c1d92fa62cb0b35c424d8e660d91adb7af43318fa29eeef3a346ff1c",
+      "sourceBytes": 2097059,
+      "sourceSha256": "315750af9d8de3a45a39b0d2e9d386c0377c26454952db6a0e33a5b4a485ae7d",
+      "minColId": "5W9CZ",
+      "maxColId": "68XLV"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-011.json.gz",
+      "records": 2737,
+      "bytes": 148310,
+      "sha256": "1f021d23c51a7860ab7a2aa5f92df5b306999adab82b1cefb569c379830b519d",
+      "sourceBytes": 2097004,
+      "sourceSha256": "dab682b715c1fd674615b91ec196e60be2f76f29bedb732f8dcce29835a11a76",
+      "minColId": "68XLW",
+      "maxColId": "6KNQD"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-012.json.gz",
+      "records": 2733,
+      "bytes": 146261,
+      "sha256": "f8bb2e52be6c5a4abfad45f1769b299c6b2fb2633d430666c4977fe8fe80cd97",
+      "sourceBytes": 2097083,
+      "sourceSha256": "d60b8a5a84daa957797dabd3f1028b52e0958165e4fd3d28ea53aeb08ccbde5c",
+      "minColId": "6KNRW",
+      "maxColId": "6RQZB"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-013.json.gz",
+      "records": 2732,
+      "bytes": 150123,
+      "sha256": "0faea98f5af8eec8091e3a375c7a802a51422776021a6de7a449549b09448c70",
+      "sourceBytes": 2096914,
+      "sourceSha256": "e93b095b8bdc6c6c9e623034279422420d04831f6a17c9333ec163e2da5833f1",
+      "minColId": "6RRKP",
+      "maxColId": "729YW"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-014.json.gz",
+      "records": 2736,
+      "bytes": 151044,
+      "sha256": "0a3c2282a5704adb318d8b6ff251a21c9740bf134ef5822747c8d26fe0b19be6",
+      "sourceBytes": 2097010,
+      "sourceSha256": "f33faae947d10feace6c419af0eec3affaa0bbfd149d09af97b66c5088866a8c",
+      "minColId": "729YX",
+      "maxColId": "79WNR"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-015.json.gz",
+      "records": 2825,
+      "bytes": 138347,
+      "sha256": "2c02a22ed33092565d0d69e6f8dbd95e84b80bdd1f452de9ea797d5f376b683f",
+      "sourceBytes": 2096394,
+      "sourceSha256": "238bd56add696ad7d9bd9abc7bd2b39efef72f1b4fd31449a4c77163440d4082",
+      "minColId": "79WX3",
+      "maxColId": "7ZG29"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-016.json.gz",
+      "records": 2764,
+      "bytes": 139436,
+      "sha256": "574f3c35ff80d6ce81804757c73c8b92fcba679bfc802be3e2eba49514bf6fd1",
+      "sourceBytes": 2096604,
+      "sourceSha256": "7722cf9c40bf3b6c1de977c83eeb81a832ac48ff3a5befaa8caaa78086b3f2af",
+      "minColId": "7ZG2B",
+      "maxColId": "85MZ6"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-017.json.gz",
+      "records": 2686,
+      "bytes": 133885,
+      "sha256": "ba64399885e1594a1ce5eeac645213f204d0f0f9a06a7439a99fe9fefa5fc732",
+      "sourceBytes": 2097053,
+      "sourceSha256": "500d22ace19e146a63be5b7f5b7453308c4e8d9215ef314e11757bbcd3355bc2",
+      "minColId": "85MZ9",
+      "maxColId": "85XR7"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-018.json.gz",
+      "records": 2720,
+      "bytes": 137402,
+      "sha256": "577dcb8b0dd1dcd6775d58c503f05a7b2bcf9c1cee400c305630dad24b91c41e",
+      "sourceBytes": 2096731,
+      "sourceSha256": "f4a83121cf48ce97ef7430107b88843cd95311fbd05f478132800457400db2c1",
+      "minColId": "85XR9",
+      "maxColId": "8VK6P"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-019.json.gz",
+      "records": 2872,
+      "bytes": 134826,
+      "sha256": "533e066d48fb2437c89037c631ba45f128ac8af1a44962f38f98e2750f3a5e12",
+      "sourceBytes": 2096919,
+      "sourceSha256": "20b5162594a91f81325e63168257e25da858f0abbc21607bd4166b6d91a29f81",
+      "minColId": "8VK6Q",
+      "maxColId": "9GNZP"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-020.json.gz",
+      "records": 2864,
+      "bytes": 138731,
+      "sha256": "cbebeeddbc650d19d3d920d6e82c02e57336a5d4e4dc3a2a8998a9b6b318c117",
+      "sourceBytes": 2096608,
+      "sourceSha256": "8a0642f6119521226577b300dc901653c0a575fdf759ccb8328f2e795ac3743f",
+      "minColId": "9GNZV",
+      "maxColId": "B3R3X"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-021.json.gz",
+      "records": 2894,
+      "bytes": 127388,
+      "sha256": "922ed5edbad55685c1dec79b14405a9f4c23f93fcf54b86b439db22268c35dbb",
+      "sourceBytes": 2096456,
+      "sourceSha256": "fef985484f5bb5ab951fd5cde157bc8e38586e1f4a48572fd60090d43fc7d836",
+      "minColId": "B3R3Y",
+      "maxColId": "B8JMZ"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-022.json.gz",
+      "records": 2791,
+      "bytes": 138721,
+      "sha256": "f03bce952761a0dd42912a6644bde4266849e9f4a165fd97b0a3e18c8740ba81",
+      "sourceBytes": 2096844,
+      "sourceSha256": "d5754000f0f84129f632f65f34ee19c6b073fcf2a6bfe61157bd89cc89cab9ca",
+      "minColId": "B8JN2",
+      "maxColId": "BMQ8G"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-023.json.gz",
+      "records": 2825,
+      "bytes": 137755,
+      "sha256": "03dd13ab46a715f4133361f1bd9dbd8dcf04ed1b5b19d00cbe15c7442a43ce28",
+      "sourceBytes": 2096588,
+      "sourceSha256": "1febf5343be1d45ee485d266afe26fc03f71f22cdb5fffd266520a62fd415860",
+      "minColId": "BMQ8H",
+      "maxColId": "C2LTZ"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-024.json.gz",
+      "records": 2709,
+      "bytes": 145047,
+      "sha256": "a414d43e1e23f48e249a8f9868d5451ef3c0820388c4679430fddd60025bf774",
+      "sourceBytes": 2096559,
+      "sourceSha256": "3b1ec8d11a87bede0f84e91cebd34fe94b1e61cbc4cc772b4841159bcdbd42f0",
+      "minColId": "C2LV2",
+      "maxColId": "C32S3"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-025.json.gz",
+      "records": 2732,
+      "bytes": 150866,
+      "sha256": "2bcfceece63d5b074b80fbb227575b2b18569fb3bb19c72e4b72a6ae5b6e5689",
+      "sourceBytes": 2097150,
+      "sourceSha256": "4b78871ff9b9faf91c3bca6c9256e0c0dae315900133f31deb49e0f693d6b671",
+      "minColId": "C32S4",
+      "maxColId": "CQJN"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-026.json.gz",
+      "records": 2713,
+      "bytes": 135268,
+      "sha256": "88fdc88cd5703368c313efa2d02b049524524adea3e19a6b40be1bcd9964b6a2",
+      "sourceBytes": 2096430,
+      "sourceSha256": "77390d28a5ebe5c76f51eefd05f93e00dfa7281152c2a642fc3cd47ff6026e99",
+      "minColId": "CQJP",
+      "maxColId": "JVJQ"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-027.json.gz",
+      "records": 2740,
+      "bytes": 137142,
+      "sha256": "e6d8fdf14975c347e223b15bf84cbe54f973f6eceda34c57a735c8898c9d963a",
+      "sourceBytes": 2097139,
+      "sourceSha256": "6dd21b8855ce2c2f8cc11c2f105e305dc8700cdd539cc5c31ba0c9e9db2cf83f",
+      "minColId": "JVJR",
+      "maxColId": "PKD5"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-028.json.gz",
+      "records": 2717,
+      "bytes": 140522,
+      "sha256": "1874341110f5e561eda229cdce6e90dc24a169b4f624d86f95889a49e691efb4",
+      "sourceBytes": 2096641,
+      "sourceSha256": "02bb7634695cf2011f8b44d4b82b2fdec4861a961b7d05bb3bdfe1418b1ee14f",
+      "minColId": "PKD9",
+      "maxColId": "VPWC"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-029.json.gz",
+      "records": 1011,
+      "bytes": 51733,
+      "sha256": "5c263281cdd5552c03329375be1d9d6e0b0bec7f78e89c419b094df3a32b4c8f",
+      "sourceBytes": 779057,
+      "sourceSha256": "912bd7257955d67de60026566dbceb840abe51d094771d1a637ace221cdcbc85",
+      "minColId": "VPWD",
+      "maxColId": "ZZGM"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "nomenclature/worms-crustacea-upstream-only-000.json.gz",
+      "records": 3991,
+      "bytes": 129242,
+      "sha256": "a1f4bc576b681083f1bfbf4565534c33d3cfa1f04d3fa6fd3525ca7c3eab2c35",
+      "sourceBytes": 2097041,
+      "sourceSha256": "6046c1c0cfe2e58a1d8ab69fd2df8b4e3301911da37bb0189a48a13b4fbf31b3"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-upstream-only-001.json.gz",
+      "records": 4085,
+      "bytes": 116867,
+      "sha256": "894ace8f6d11e2f77f71abc0a1885cead3f1154838a7fe209ca12bc7fb9b0a78",
+      "sourceBytes": 2096732,
+      "sourceSha256": "e9682e5270240501c9a7f086eddcfbf7eb29024791a2020317f7f9268986c89b"
+    },
+    {
+      "path": "nomenclature/worms-crustacea-upstream-only-002.json.gz",
+      "records": 599,
+      "bytes": 18803,
+      "sha256": "8a0ccec631821592f7fb4c176e396b290fbc3b9522a2a6c5631a6ded05ad7e59",
+      "sourceBytes": 309787,
+      "sourceSha256": "2fb87acc5f6fd090d73930ba1028a54aea30a04d6154227e8d5717f7f2ecca6e"
+    }
+  ],
+  "evidenceBoundary": {
+    "en": "A frozen exact nomenclatural crosswalk; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "冻结的严格命名交叉映射；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only accepted concepts retain null COL ownership.",
+    "Only name/status/identifier projections are redistributed, not raw archives or ancillary members.",
+    "The parent-closure anomaly audit remains explicit; no completeness claim about all marine diversity."
+  ]
+}
