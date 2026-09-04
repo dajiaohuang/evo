@@ -18,6 +18,7 @@ UPSTREAM_NAME = "cilcat-upstream-only-000.json.gz"
 DESC_NAME = "cilcat-sidecar.json"
 LEDGER_NAME = "data/sources/cilcat-1113-archive-import-ledger.json"
 RELATIONS_PATH = ROOT / "data/sources/cilcat-1113-source-relations-2026-09-04.json"
+RAW_RELATIONS_PATH = ROOT / "data/sources/cilcat-1113-source-relations-raw-2026-09-04.json.gz"
 ARCHIVE_URL = "https://api.checklistbank.org/dataset/1113/archive"
 ARCHIVE_SHA = "cd0e0bad24a8b790cb404575f05b80eb26a6f913e5b770c011bcb6316fff15ed"
 ARCHIVE_BYTES = 296399
@@ -82,6 +83,23 @@ def main():
     relations = {row["colId"]: row for row in relation_doc["records"]}
     if len(relations) != len(relation_doc["records"]):
         raise SystemExit("duplicate COL ID in frozen CilCat relations")
+    raw_relation_bytes = RAW_RELATIONS_PATH.read_bytes()
+    raw_relation_doc = json.loads(gzip.decompress(raw_relation_bytes).decode("utf-8"))
+    raw_relations = {row["colId"]: row for row in raw_relation_doc["records"]}
+    if raw_relation_doc.get("retrievedAt") != relation_doc.get("retrievedAt") or set(raw_relations) != set(relations):
+        raise SystemExit("frozen CilCat raw relation inventory mismatch")
+    for col_id, relation in relations.items():
+        raw = raw_relations[col_id]
+        relation_response = json.loads(raw["relationRaw"])
+        source_response = json.loads(raw["sourceRaw"])
+        if digest(raw["relationRaw"].encode("utf-8")) != raw["relationRawSha256"] or digest(raw["sourceRaw"].encode("utf-8")) != raw["sourceRawSha256"]:
+            raise SystemExit("frozen CilCat raw relation hash mismatch: " + col_id)
+        if relation_response.get("datasetKey") != 316115 or relation_response.get("sourceDatasetKey") != 1113 or relation_response.get("sourceEntity") != "name usage" or relation_response.get("id") != relation["relationId"] or relation_response.get("sourceId") != relation["sourceId"]:
+            raise SystemExit("invalid frozen COL source relation: " + col_id)
+        if source_response.get("datasetKey") != 1113 or source_response.get("id") != relation["sourceId"] or source_response.get("status") != "accepted":
+            raise SystemExit("invalid frozen CilCat source response: " + col_id)
+        if relation["relationSha256"] != raw["relationRawSha256"] or relation["sourceSha256"] != raw["sourceRawSha256"]:
+            raise SystemExit("relation metadata/raw hash mismatch: " + col_id)
     refs_by_id = {row["ReferenceID"]: (index, row) for index, row in enumerate(references, 2)}
     refs_by_source = {}
     for index, link in enumerate(name_refs, 2):
@@ -276,8 +294,8 @@ def main():
         "rowEncoding": "json",
         "colIdField": "colId",
         "totalCountField": "total",
-        "source": {"datasetId": "1113", "title": "The World Ciliate Catalog", "version": "4.0, Jan 2012", "versionDoi": "10.48580/d3cf.v11", "license": "CC-BY-4.0", "licenseUrl": "https://creativecommons.org/licenses/by/4.0/", "archiveUrl": ARCHIVE_URL, "archiveBytes": ARCHIVE_BYTES, "archiveSha256": ARCHIVE_SHA, "archiveEncoding": "gzip-compressed tar (HTTP Content-Type application/zip)", "retrievedAt": "2026-09-04", "members": {key: {"bytes": len(value), "sha256": digest(value)} for key, value in members.items()}, "relationEvidencePath": "data/sources/cilcat-1113-source-relations-2026-09-04.json", "relationEvidenceBytes": len(relation_bytes), "relationEvidenceSha256": digest(relation_bytes), "relationCount": len(relations)},
-        "scope": {"colSourceDatasetId": "1113", "colPackageId": "protists-chromists", "eligibleColSpecies": len(output), "projectedSpecies": len(output), "sourceAcceptedSpecies": sum(row["Sp2000NameStatus"] == "accepted name" for row in source), "sourceProvisionalSpecies": sum(row["Sp2000NameStatus"] == "provisionally accepted name" for row in source), "sourceOnlyAccepted": len(upstream), "excludedSourceProvisional": sum(row["Sp2000NameStatus"] == "provisionally accepted name" for row in source), "matchingKey": "official sourceDatasetId=1113 plus exact full source display-name or exact separated scientific-name+authorship match; non-empty authorship conflicts remain unresolved"},
+        "source": {"datasetId": "1113", "title": "The World Ciliate Catalog", "version": "4.0, Jan 2012", "versionDoi": "10.48580/d3cf.v11", "license": "CC-BY-4.0", "licenseUrl": "https://creativecommons.org/licenses/by/4.0/", "archiveUrl": ARCHIVE_URL, "archiveBytes": ARCHIVE_BYTES, "archiveSha256": ARCHIVE_SHA, "archiveEncoding": "gzip-compressed tar (HTTP Content-Type application/zip)", "retrievedAt": "2026-09-04", "members": {key: {"bytes": len(value), "sha256": digest(value)} for key, value in members.items()}, "relationEvidencePath": "data/sources/cilcat-1113-source-relations-2026-09-04.json", "relationEvidenceBytes": len(relation_bytes), "relationEvidenceSha256": digest(relation_bytes), "relationRawEvidencePath": "data/sources/cilcat-1113-source-relations-raw-2026-09-04.json.gz", "relationRawEvidenceBytes": len(raw_relation_bytes), "relationRawEvidenceSha256": digest(raw_relation_bytes), "relationCount": len(relations)},
+        "scope": {"colSourceDatasetId": "1113", "colPackageId": "protists-chromists", "eligibleColSpecies": len(output), "projectedSpecies": len(output), "sourceAcceptedSpecies": sum(row["Sp2000NameStatus"] == "accepted name" for row in source), "sourceProvisionalSpecies": sum(row["Sp2000NameStatus"] == "provisionally accepted name" for row in source), "sourceOnlyAccepted": len(upstream), "excludedSourceProvisional": sum(row["Sp2000NameStatus"] == "provisionally accepted name" for row in source), "matchingKey": "Strict full display-name or separated name+authorship matching for 8,477 rows; 28 additional accepted outcomes use frozen COL source relations keyed to exact AcceptedTaxonID; no name-only fallback"},
         "matching": {"normalization": "UTF-8 quoted TSV; Unicode whitespace collapse only; case, diacritics, punctuation and empty fields preserved.", "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching."},
         "counts": {"total": len(output), "accepted": sum(row["status"] == "accepted" for row in output), "redirect": 0, "ambiguous": sum(row["status"] == "ambiguous" for row in output), "unmatched": sum(row["status"] == "unmatched" for row in output), "withheld": 0, "upstreamOnly": len(upstream), "records": len(output) + len(upstream)},
         "files": files,

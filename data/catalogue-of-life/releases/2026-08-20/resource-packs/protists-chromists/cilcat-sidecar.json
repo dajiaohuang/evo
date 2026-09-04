@@ -40,6 +40,9 @@
     "relationEvidencePath": "data/sources/cilcat-1113-source-relations-2026-09-04.json",
     "relationEvidenceBytes": 10472,
     "relationEvidenceSha256": "bed5dba0300ba76a49c605c2b819c4b549b82265d777f783ab2f6146409e202f",
+    "relationRawEvidencePath": "data/sources/cilcat-1113-source-relations-raw-2026-09-04.json.gz",
+    "relationRawEvidenceBytes": 6426,
+    "relationRawEvidenceSha256": "574e9634b9419306ebf4842ad24f1c1c3b2b7eaa35d681a043e2c14bec67e597",
     "relationCount": 28
   },
   "scope": {
@@ -51,7 +54,7 @@
     "sourceProvisionalSpecies": 81,
     "sourceOnlyAccepted": 27,
     "excludedSourceProvisional": 81,
-    "matchingKey": "official sourceDatasetId=1113 plus exact full source display-name or exact separated scientific-name+authorship match; non-empty authorship conflicts remain unresolved"
+    "matchingKey": "Strict full display-name or separated name+authorship matching for 8,477 rows; 28 additional accepted outcomes use frozen COL source relations keyed to exact AcceptedTaxonID; no name-only fallback"
   },
   "matching": {
     "normalization": "UTF-8 quoted TSV; Unicode whitespace collapse only; case, diacritics, punctuation and empty fields preserved.",
