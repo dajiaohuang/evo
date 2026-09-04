@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "chilobase-archive-crosswalk",
+  "packageId": "crustaceans-insects",
+  "provider": "ChecklistBank",
+  "role": "authority-crosswalk",
+  "rowEncoding": "json",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1042",
+    "provider": "ChecklistBank",
+    "title": "A World Catalogue of Centipedes (Chilopoda) for the Web",
+    "version": "1.01, May 2006",
+    "versionDoi": "10.48580/d38y.v9",
+    "doi": "10.48580/d38y",
+    "issued": "2006-10-10",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rights": null,
+    "archiveUrl": "https://api.checklistbank.org/dataset/1042/archive",
+    "metadataUrl": "https://api.checklistbank.org/dataset/1042",
+    "retrievedAt": "2026-09-05T04:47:19+08:00",
+    "archivePath": "data/sources/archives/checklistbank-1042-chilobase.zip",
+    "archiveBytes": 349771,
+    "archiveSha256": "4274d8399386d90ca280f3cf89f5dddb0f598c4e085de2dc9926a9614335b088",
+    "metadataPath": "data/sources/archives/checklistbank-1042-chilobase.metadata.json",
+    "metadataBytes": 1994,
+    "metadataSha256": "5b5b4d5e528e4f473dd459eb7d3f26a614a7c7f389d2c97e51a566e449fad9fa",
+    "members": {
+      "AcceptedInfraspecificTaxa.tsv": {
+        "bytes": 57408,
+        "sha256": "bb5e29b1637839f336894fc3021c95eecffa32629519caffab2058101fbd079f"
+      },
+      "AcceptedSpecies.tsv": {
+        "bytes": 845477,
+        "sha256": "25a23d4ae0f7177d4ce5218d67a9d6095c30e0a0b655c4627f687c34cc6b1c71"
+      },
+      "CommonNames.tsv": {
+        "bytes": 95,
+        "sha256": "7dd66d992c2eab4da9a5a11c7c8985288f93aa876ac5f2a888595525f74e27cd"
+      },
+      "Distribution.tsv": {
+        "bytes": 148328,
+        "sha256": "747b29b25a6aaa3541ef415cb617564ad8bdc719a693efe62ac9035a30845e86"
+      },
+      "NameReferences.tsv": {
+        "bytes": 442510,
+        "sha256": "295a70adc54a88abe2566108aca6772d9c95798c01f56e247c8809f38d331f7d"
+      },
+      "References.tsv": {
+        "bytes": 273608,
+        "sha256": "fa931ff4f8e6e875b20aa046a72e71a7c35ed93cc0e885908e8c5a9b7549d1eb"
+      },
+      "SourceDatabase.tsv": {
+        "bytes": 982,
+        "sha256": "924f5b6830649f3ff7e45804c203f53e61ac44372761198ba86a6065bcf66b0e"
+      },
+      "Synonyms.tsv": {
+        "bytes": 141361,
+        "sha256": "ebffd100673720a786114638abe4b65308f7db21b04ff5628563fd446878ca27"
+      }
+    },
+    "archiveMetadataVersion": {
+      "title": "A World Catalogue of Centipedes (Chilopoda) for the Web",
+      "version": "1.01, May 2006",
+      "issued": "2006-10-10",
+      "license": "cc by"
+    },
+    "apiMetadataVersion": {
+      "title": "A World Catalogue of Centipedes (Chilopoda) for the Web",
+      "version": "1.01, May 2006",
+      "issued": "2006-10-10",
+      "license": "cc by"
+    },
+    "versionConsistency": "title/version/license match; archive-issued is preserved separately from API issued metadata",
+    "sourceLedgerPath": "data/sources/chilobase-archive-1042-import-ledger.json",
+    "sourceLedgerSha256": "966dc43c9af3b77f7f17480416c22d5113c3de87c4c34fa4d94fe333e35218c1"
+  },
+  "scope": {
+    "colRootUsageId": "93",
+    "scientificName": "Chilopoda",
+    "eligibleColSpecies": 3141,
+    "sourceSpeciesRankAccepted": 3141
+  },
+  "matching": {
+    "normalization": "NFC followed by Unicode whitespace normalization; exact trailing COL authorship is removed.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, synonym, redirect or species-concept matching."
+  },
+  "counts": {
+    "total": 3141,
+    "accepted": 2269,
+    "ambiguous": 0,
+    "unmatched": 872,
+    "upstreamOnly": 872,
+    "records": 4013
+  },
+  "files": [
+    {
+      "path": "other-animals/chilobase-000.json.gz",
+      "records": 1572,
+      "bytes": 99376,
+      "sha256": "23fab123da7f4930efc755a3f33e5165f7a3e41ff441c526a089b7a266c0e0b7",
+      "sourceBytes": 2096895,
+      "sourceSha256": "b24830a660d6e79580fe84fe6b554da582e1ee4471270fb8e235408ef9ddd0de",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "326BJ",
+      "maxColId": "4V7Q8"
+    },
+    {
+      "path": "other-animals/chilobase-001.json.gz",
+      "records": 1278,
+      "bytes": 105190,
+      "sha256": "34bdb2b90a9d5316f3ccc0c5a244c9680bbdbb670b85c2af1084d0c94e5c8a71",
+      "sourceBytes": 2096283,
+      "sourceSha256": "ba77057da5af669fa56f718c83012c145aeb32ccab2060f7ae22c43b796a20e8",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "4V7Q9",
+      "maxColId": "MNVN"
+    },
+    {
+      "path": "other-animals/chilobase-002.json.gz",
+      "records": 291,
+      "bytes": 15113,
+      "sha256": "7364f59a91b9a26a41febfa283efbf2064b557785ee6e0666c02cd8e65f636a4",
+      "sourceBytes": 289136,
+      "sourceSha256": "0793d4ad730a032734d11e1ce05200f398257c00e505f850fb3fe2c1a79c118a",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "MNVP",
+      "maxColId": "ZZBD"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "other-animals/chilobase-upstream-only-000.json.gz",
+      "records": 872,
+      "bytes": 45873,
+      "sha256": "5ec5d335d3fe3610f3cc1a897f271dbdd5342dffe908705cbce90cad7165b3e4",
+      "sourceBytes": 923630,
+      "sourceSha256": "16b25295c582389086fdeac174360806c115c7e11b39f1f9a4d58aeb6674cc23",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "upstream-only"
+    }
+  ],
+  "totals": {
+    "records": 4013,
+    "compressedBytes": 265552,
+    "sourceBytes": 5405944
+  },
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 4013,
+      "files": [
+        "other-animals/chilobase-000.json.gz",
+        "other-animals/chilobase-001.json.gz",
+        "other-animals/chilobase-002.json.gz",
+        "other-animals/chilobase-upstream-only-000.json.gz"
+      ],
+      "totalCompressedBytes": 265552,
+      "totalSourceBytes": 5405944
+    }
+  },
+  "evidenceBoundary": {
+    "en": "Frozen exact nomenclatural crosswalk from the named ChecklistBank authority; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "来自指定 ChecklistBank 权威源的冻结严格命名交叉映射；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only accepted rows retain null COL ownership.",
+    "Only the pinned archive is replayed; no live endpoint is used during projection.",
+    "Archive completeness does not establish biological completeness."
+  ]
+}
