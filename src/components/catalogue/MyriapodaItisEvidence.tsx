@@ -71,7 +71,7 @@ function PackageItisEvidencePanel({ colId, packageId, zh, scope }: PackageItisEv
       const manifest = await loadPackageManifest(packageId)
       if (requestId !== requestRef.current) return
       const metadata = manifest.nomenclatureCollections?.find((candidate): candidate is RuntimeItisNomenclatureCollection => candidate.id === scopeConfig[scope].collectionId)
-      if (!metadata) throw new Error('Runtime package does not publish the Myriapoda collection')
+      if (!metadata) throw new Error(`Runtime package does not publish ${scopeConfig[scope].collectionId}`)
       setCollection(metadata)
       if (metadata.delivery.completeRows && metadata.delivery.profile === 'native-full') {
         const result = await loadPackageItisAuthorityRecord(scope, colId)
