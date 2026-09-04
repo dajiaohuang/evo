@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc116 — 2026-09-04
+
+- Resolved 28 CilCat, seven Eumycetozoa and one Gymnodinium previously unmatched COL names using frozen official COL-to-source relations and actual accepted source records. Original spelling and authorship differences remain explicit; these are not fuzzy matches or independent scientific corroboration.
+- Resolved four ambiguous Ochrophyta ITIS candidates using the exact ITIS TSN links in frozen COL name records. Competing candidates remain evidence; the links are not mislabelled as COL contributor-source relations.
+- All 8,505 CilCat, 1,337 Eumycetozoa, 259 Gymnodinium and 1,101 scoped Ochrophyta records now have accepted source links. Unlinked source records remain separate: 27 CilCat, eight Eumycetozoa archive IDs and 2,298 ITIS Ochrophyta records. No new globally unique species or expert review is claimed.
+- Preserved source responses and offline regeneration inputs. App/native build numbers are unchanged. Future storage and client work prioritizes large-tree capacity and measured performance without backward-format compatibility requirements; dataset revision labels record content provenance, not a compatibility promise.
+
 ## 2026.09-static-v5-rc115 — 2026-09-04
 
 - Added frozen original-source projections for 8,505 CilCat, 1,337 Eumycetozoa and 259 Gymnodinium COL26.8 species records. Strict name/authorship outcomes are 8,477/1,330/258 accepted matches and 28/7/1 unmatched names respectively. These contributor archives trace COL's sources; they are not independent scientific corroboration, new species dossiers or expert review.

@@ -17,6 +17,8 @@ OUT_NAME = "cilcat-000.json.gz"
 UPSTREAM_NAME = "cilcat-upstream-only-000.json.gz"
 DESC_NAME = "cilcat-sidecar.json"
 LEDGER_NAME = "data/sources/cilcat-1113-archive-import-ledger.json"
+RELATIONS_PATH = ROOT / "data/sources/cilcat-1113-source-relations-2026-09-04.json"
+RAW_RELATIONS_PATH = ROOT / "data/sources/cilcat-1113-source-relations-raw-2026-09-04.json.gz"
 ARCHIVE_URL = "https://api.checklistbank.org/dataset/1113/archive"
 ARCHIVE_SHA = "cd0e0bad24a8b790cb404575f05b80eb26a6f913e5b770c011bcb6316fff15ed"
 ARCHIVE_BYTES = 296399
@@ -75,6 +77,29 @@ def main():
         raise SystemExit("duplicate AcceptedTaxonID in AcceptedSpecies.tsv")
     if len(reference_ids) != len(set(reference_ids)):
         raise SystemExit("duplicate ReferenceID in References.tsv")
+    source_by_id = {row["AcceptedTaxonID"]: row for row in source}
+    relation_bytes = RELATIONS_PATH.read_bytes()
+    relation_doc = json.loads(relation_bytes.decode("utf-8"))
+    relations = {row["colId"]: row for row in relation_doc["records"]}
+    if len(relations) != len(relation_doc["records"]):
+        raise SystemExit("duplicate COL ID in frozen CilCat relations")
+    raw_relation_bytes = RAW_RELATIONS_PATH.read_bytes()
+    raw_relation_doc = json.loads(gzip.decompress(raw_relation_bytes).decode("utf-8"))
+    raw_relations = {row["colId"]: row for row in raw_relation_doc["records"]}
+    if raw_relation_doc.get("retrievedAt") != relation_doc.get("retrievedAt") or set(raw_relations) != set(relations):
+        raise SystemExit("frozen CilCat raw relation inventory mismatch")
+    for col_id, relation in relations.items():
+        raw = raw_relations[col_id]
+        relation_response = json.loads(raw["relationRaw"])
+        source_response = json.loads(raw["sourceRaw"])
+        if digest(raw["relationRaw"].encode("utf-8")) != raw["relationRawSha256"] or digest(raw["sourceRaw"].encode("utf-8")) != raw["sourceRawSha256"]:
+            raise SystemExit("frozen CilCat raw relation hash mismatch: " + col_id)
+        if relation_response.get("datasetKey") != 316115 or relation_response.get("sourceDatasetKey") != 1113 or relation_response.get("sourceEntity") != "name usage" or relation_response.get("id") != relation["relationId"] or relation_response.get("sourceId") != relation["sourceId"]:
+            raise SystemExit("invalid frozen COL source relation: " + col_id)
+        if source_response.get("datasetKey") != 1113 or source_response.get("id") != relation["sourceId"] or source_response.get("status") != "accepted":
+            raise SystemExit("invalid frozen CilCat source response: " + col_id)
+        if relation["relationSha256"] != raw["relationRawSha256"] or relation["sourceSha256"] != raw["sourceRawSha256"]:
+            raise SystemExit("relation metadata/raw hash mismatch: " + col_id)
     refs_by_id = {row["ReferenceID"]: (index, row) for index, row in enumerate(references, 2)}
     refs_by_source = {}
     for index, link in enumerate(name_refs, 2):
@@ -144,8 +169,14 @@ def main():
             basis = "Official sourceDatasetId=1113 plus exact name+authorship match."
         else:
             selected = None
-            unresolved.append((col, candidates))
-            claimed_source_ids.update(row["AcceptedTaxonID"] for row in candidates)
+            relation = relations.get(col["id"])
+            relation_source = source_by_id.get(relation["sourceId"]) if relation else None
+            if relation and relation["status"] == "accepted" and relation_source and relation_source["Sp2000NameStatus"] == "accepted name":
+                selected = relation_source
+                basis = "Pinned COL source relation to ChecklistBank 1113 accepted source record; archive row retained without name normalization."
+            else:
+                unresolved.append((col, candidates))
+                claimed_source_ids.update(row["AcceptedTaxonID"] for row in candidates)
         if selected is None:
             continue
         if selected["Sp2000NameStatus"] != "accepted name":
@@ -162,6 +193,18 @@ def main():
             "status": selected["Sp2000NameStatus"],
             "url": selected["SpeciesURL"],
         }
+        relation = relations.get(col["id"])
+        evidence = None
+        if relation and relation["sourceId"] == sid:
+            evidence = {
+                "relationId": relation["relationId"],
+                "relationUrl": f"https://api.checklistbank.org/dataset/316115/nameusage/{col['id']}/source",
+                "sourceUrl": f"https://api.checklistbank.org/dataset/1113/nameusage/{sid}",
+                "retrievedAt": relation_doc["retrievedAt"],
+                "relationResponseSha256": relation["relationSha256"],
+                "sourceResponseSha256": relation["sourceSha256"],
+                "sourceStatus": relation["status"],
+            }
         output.append(
             {
                 "colId": col["id"],
@@ -177,6 +220,7 @@ def main():
                 "sourceUrl": selected["SpeciesURL"],
                 "sourceClassification": {key: selected[key] for key in ("Kingdom", "Phylum", "Class", "Order")},
                 "nameReferences": refs_by_source.get(sid, []),
+                **({"sourceRelation": evidence} if evidence else {}),
             }
         )
 
@@ -250,14 +294,14 @@ def main():
         "rowEncoding": "json",
         "colIdField": "colId",
         "totalCountField": "total",
-        "source": {"datasetId": "1113", "title": "The World Ciliate Catalog", "version": "4.0, Jan 2012", "versionDoi": "10.48580/d3cf.v11", "license": "CC-BY-4.0", "licenseUrl": "https://creativecommons.org/licenses/by/4.0/", "archiveUrl": ARCHIVE_URL, "archiveBytes": ARCHIVE_BYTES, "archiveSha256": ARCHIVE_SHA, "archiveEncoding": "gzip-compressed tar (HTTP Content-Type application/zip)", "retrievedAt": "2026-09-04", "members": {key: {"bytes": len(value), "sha256": digest(value)} for key, value in members.items()}},
-        "scope": {"colSourceDatasetId": "1113", "colPackageId": "protists-chromists", "eligibleColSpecies": len(output), "projectedSpecies": len(output), "sourceAcceptedSpecies": sum(row["Sp2000NameStatus"] == "accepted name" for row in source), "sourceProvisionalSpecies": sum(row["Sp2000NameStatus"] == "provisionally accepted name" for row in source), "sourceOnlyAccepted": len(upstream), "excludedSourceProvisional": sum(row["Sp2000NameStatus"] == "provisionally accepted name" for row in source), "matchingKey": "official sourceDatasetId=1113 plus exact full source display-name or exact separated scientific-name+authorship match; non-empty authorship conflicts remain unresolved"},
+        "source": {"datasetId": "1113", "title": "The World Ciliate Catalog", "version": "4.0, Jan 2012", "versionDoi": "10.48580/d3cf.v11", "license": "CC-BY-4.0", "licenseUrl": "https://creativecommons.org/licenses/by/4.0/", "archiveUrl": ARCHIVE_URL, "archiveBytes": ARCHIVE_BYTES, "archiveSha256": ARCHIVE_SHA, "archiveEncoding": "gzip-compressed tar (HTTP Content-Type application/zip)", "retrievedAt": "2026-09-04", "members": {key: {"bytes": len(value), "sha256": digest(value)} for key, value in members.items()}, "relationEvidencePath": "data/sources/cilcat-1113-source-relations-2026-09-04.json", "relationEvidenceBytes": len(relation_bytes), "relationEvidenceSha256": digest(relation_bytes), "relationRawEvidencePath": "data/sources/cilcat-1113-source-relations-raw-2026-09-04.json.gz", "relationRawEvidenceBytes": len(raw_relation_bytes), "relationRawEvidenceSha256": digest(raw_relation_bytes), "relationCount": len(relations)},
+        "scope": {"colSourceDatasetId": "1113", "colPackageId": "protists-chromists", "eligibleColSpecies": len(output), "projectedSpecies": len(output), "sourceAcceptedSpecies": sum(row["Sp2000NameStatus"] == "accepted name" for row in source), "sourceProvisionalSpecies": sum(row["Sp2000NameStatus"] == "provisionally accepted name" for row in source), "sourceOnlyAccepted": len(upstream), "excludedSourceProvisional": sum(row["Sp2000NameStatus"] == "provisionally accepted name" for row in source), "matchingKey": "Strict full display-name or separated name+authorship matching for 8,477 rows; 28 additional accepted outcomes use frozen COL source relations keyed to exact AcceptedTaxonID; no name-only fallback"},
         "matching": {"normalization": "UTF-8 quoted TSV; Unicode whitespace collapse only; case, diacritics, punctuation and empty fields preserved.", "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching."},
         "counts": {"total": len(output), "accepted": sum(row["status"] == "accepted" for row in output), "redirect": 0, "ambiguous": sum(row["status"] == "ambiguous" for row in output), "unmatched": sum(row["status"] == "unmatched" for row in output), "withheld": 0, "upstreamOnly": len(upstream), "records": len(output) + len(upstream)},
         "files": files,
         "upstreamOnlyFiles": upstream_files,
         "evidenceBoundary": {"en": "Frozen CilCat source provenance, not independent scientific corroboration, species-concept equivalence, biological dossier, fossil evidence or expert review.", "zh": "冻结的 CilCat 来源追溯，不是独立科学佐证、物种概念等同、生物档案、化石证据或专家审查。"},
-        "limitations": ["Only the 8,505 strict accepted COL source-1113 species are projected; 27 additional accepted archive rows remain in a separate upstream-only partition and 81 provisional rows are excluded.", "The archive's nomenclatural/taxonomic references support source name provenance only; they do not constitute biological dossiers.", "34 TaxAccRef links point to ReferenceID 95, which is absent from References.tsv; those links retain their NameReferences locator and explicit referenceMissing=true."],
+        "limitations": ["The 8,505 COL source-1113 species comprise 8,477 strict name+authorship matches and 28 accepted rows resolved only by their frozen official COL source relation; 27 additional accepted archive rows remain in a separate upstream-only partition and 81 provisional rows are excluded.", "The archive's nomenclatural/taxonomic references support source name provenance only; they do not constitute biological dossiers.", "34 TaxAccRef links point to ReferenceID 95, which is absent from References.tsv; those links retain their NameReferences locator and explicit referenceMissing=true."],
         "totalCompressedBytes": len(out_bytes) + len(upstream_bytes),
         "totalSourceBytes": len(payload) + len(upstream_payload),
         "deliveryProfiles": {"web-light": {"payload": "summary-only", "files": [], "records": 0, "totalCompressedBytes": 0, "totalSourceBytes": 0}, "native-full": {"payload": "complete", "files": [files[0]["path"], upstream_files[0]["path"]], "records": len(output) + len(upstream), "totalCompressedBytes": len(out_bytes) + len(upstream_bytes), "totalSourceBytes": len(payload) + len(upstream_payload)}},

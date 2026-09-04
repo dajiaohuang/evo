@@ -30,7 +30,14 @@
         "bytes": 967,
         "sha256": "d8d13ca443a1e0abc768bd2da3531a04efd31b8620aa0121eb44b90c8050b5d2"
       }
-    }
+    },
+    "relationEvidencePath": "data/sources/cilcat-1113-source-relations-2026-09-04.json",
+    "relationEvidenceBytes": 10472,
+    "relationEvidenceSha256": "bed5dba0300ba76a49c605c2b819c4b549b82265d777f783ab2f6146409e202f",
+    "relationRawEvidencePath": "data/sources/cilcat-1113-source-relations-raw-2026-09-04.json.gz",
+    "relationRawEvidenceBytes": 6426,
+    "relationRawEvidenceSha256": "574e9634b9419306ebf4842ad24f1c1c3b2b7eaa35d681a043e2c14bec67e597",
+    "relationCount": 28
   },
   "inputs": [
     {
@@ -51,21 +58,21 @@
     "projectedSpecies": 8505,
     "sourceAcceptedSpecies": 8532,
     "sourceProvisionalSpecies": 81,
-    "sourceOnlyAccepted": 55,
+    "sourceOnlyAccepted": 27,
     "excludedSourceProvisional": 81,
-    "matchingKey": "official sourceDatasetId=1113 plus exact full source display-name or exact separated scientific-name+authorship match; non-empty authorship conflicts remain unresolved"
+    "matchingKey": "Strict full display-name or separated name+authorship matching for 8,477 rows; 28 additional accepted outcomes use frozen COL source relations keyed to exact AcceptedTaxonID; no name-only fallback"
   },
   "output": {
     "paths": [
       "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/cilcat-000.json.gz",
       "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/cilcat-upstream-only-000.json.gz"
     ],
-    "bytes": 746986,
-    "sha256": "2bfcd7ff30a28cf5197ca1ff8158d8d2c29fb76fd4ea8abd686f06067c01df14"
+    "bytes": 750710,
+    "sha256": "bf4a254c4999d7bf9644a830f4b6139482a94e59812c9158756b0674b49ef0f9"
   },
   "descriptor": {
     "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/cilcat-sidecar.json",
-    "bytes": 4818,
-    "sha256": "ab177a69c35cdedb794f2f150ce23f5f25ccd71213c9545688fb48a05bf41d68"
+    "bytes": 5423,
+    "sha256": "b13316b99386f5c4e88f7eb843ad7e8afdf2b47b6ea7b18f73dcb81806d89d48"
   }
 }

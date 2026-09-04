@@ -11,16 +11,16 @@ const crosswalkPath = 'data/catalogue-of-life/releases/2026-08-20/resource-packs
 const upstreamPath = 'data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz'
 const ledgerPath = 'data/sources/gymnodinium-archive-import-ledger.json'
 const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex')
-const readJsonl = (path) => gunzipSync(readFileSync(join(root, path))).toString('utf8').trimEnd().split('\n').map((line) => JSON.parse(line))
+const readJsonl = (path) => { const text = gunzipSync(readFileSync(join(root, path))).toString('utf8').trim(); return text ? text.split('\n').map((line) => JSON.parse(line)) : [] }
 
 describe('ChecklistBank 1177 Gymnodinium sidecar', () => {
-  it('preserves the exact source boundary and leaves the spelling difference unmatched', () => {
+  it('preserves the exact source boundary and links the differing spelling through the official source ID', () => {
     const descriptor = JSON.parse(readFileSync(join(root, descriptorPath), 'utf8'))
     const rows = readJsonl(crosswalkPath)
     const upstream = readJsonl(upstreamPath)
     expect(descriptor.id).toBe('gymnodinium-archive-crosswalk')
     expect(descriptor.scope).toMatchObject({ colRootUsageId: '4RTJ', colStrictAcceptedSpecies: 259, sourceGenus: 'Gymnodinium' })
-    expect(descriptor.counts).toEqual({ total: 259, accepted: 258, redirect: 0, ambiguous: 0, unmatched: 1, withheld: 0, upstreamOnly: 1, records: 260 })
+    expect(descriptor.counts).toEqual({ total: 259, accepted: 259, redirect: 0, ambiguous: 0, unmatched: 0, withheld: 0, upstreamOnly: 0, records: 259 })
     expect(descriptor.rowEncoding).toBe('jsonl')
     expect(descriptor.files[0].path).toBe('protists-chromists/gymnodinium-sidecar-000.json.gz')
     expect(descriptor.upstreamOnlyFiles[0].path).toBe('protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz')
@@ -34,10 +34,24 @@ describe('ChecklistBank 1177 Gymnodinium sidecar', () => {
     ])
     expect(ledger.inputs[3].path).toMatch(/^data\/catalogue-of-life\/releases\/2026-08-20\/registry\/hierarchy\/nodes\/.+\.jsonl\.gz$/)
     expect(rows).toHaveLength(259)
-    expect(rows.filter((row) => row.status === 'accepted')).toHaveLength(258)
-    expect(rows.filter((row) => row.status === 'unmatched')).toMatchObject([{ colId: 'CN83B', colScientificName: 'Gymnodinium p-dorhnii' }])
-    expect(upstream).toMatchObject([{ sourceAcceptedTaxonId: 'T284', status: 'upstream-only', matchedName: { id: 'T284', scientificName: 'Gymnodinium p.dorhni' }, acceptedName: null, candidates: [], sourceAcceptedRecord: { SpeciesEpithet: 'p.dorhni' } }])
-    expect(descriptor.upstreamOnlyFiles[0].role).toBe('upstream-only')
+    expect(rows.filter((row) => row.status === 'accepted')).toHaveLength(259)
+    expect(rows.find((row) => row.colId === 'CN83B')).toMatchObject({ status: 'accepted', sourceAcceptedTaxonId: 'T284', mappingBasis: expect.stringContaining('source-record relation') })
+    expect(descriptor.upstreamOnlyFiles[0].records).toBe(0)
+    expect(upstream).toEqual([])
+    expect(gunzipSync(readFileSync(upstreamPath)).length).toBe(0)
+    const linked = rows.find((row) => row.colId === 'CN83B')
+    expect(linked.colScientificName).toBe('Gymnodinium p-dorhnii')
+    expect(linked.matchedName.scientificName).toBe('Gymnodinium p.dorhni')
+    expect(linked.matchedName.authorship).toBe('Wawrik, 1956')
+    expect(linked.sourceRelation.relation).toMatchObject({ id: 344951438, datasetKey: 316115, sourceDatasetKey: 1177, sourceId: 'T284', sourceEntity: 'name usage' })
+    expect(linked.sourceRelation.colRecord.verbatimSourceKey).toBe(344951438)
+    for (const response of linked.sourceRelation.responses) {
+      const raw = readFileSync(`data/sources/authority-link-evidence/${response.file}`)
+      expect(sha256(raw)).toBe(response.sha256)
+      expect(raw.length).toBe(response.bytes)
+    }
+    expect(ledger.scopeAudit).toMatchObject({ matchedSourceAcceptedTaxonIds: 259, sourceOnlyRows: 0, unmatchedColRows: 0 })
+    expect(descriptor.deliveryProfiles['native-full'].records).toBe(259)
     for (const file of [...descriptor.files, ...descriptor.upstreamOnlyFiles]) expect(file.mediaType).toBe('application/x-ndjson')
     expect(new Set(rows.flatMap((row) => row.nameReferences ?? []).filter((reference) => reference.referenceMissing).map((reference) => reference.referenceId))).toHaveLength(18)
     expect(descriptor.source).toMatchObject({ archiveBytes: 19661, archiveSha256: '7bfcccdfd515b7e5024718bb8c407e5521f727b166fe5a191006658715dbd8d7', version: '0.1' })

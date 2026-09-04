@@ -834,7 +834,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-euglenozoa-tsn-crosswalk': { eligible: 0, records: 276, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 276, nonApplicable: 61518, files: 1 },
         'itis-cercozoa-tsn-crosswalk': { eligible: 52, records: 52, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 52, upstreamOnly: 0, nonApplicable: 61466, files: 1 },
         'itis-haptophyta-tsn-crosswalk': { eligible: 0, records: 90, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 90, nonApplicable: 61518, files: 1 },
-        'itis-ochrophyta-tsn-crosswalk': { eligible: 1101, records: 3397, accepted: 1097, redirects: 0, ambiguous: 4, unmatched: 0, upstreamOnly: 2296, nonApplicable: 60417, files: 2 },
+        'itis-ochrophyta-tsn-crosswalk': { eligible: 1101, records: 3399, accepted: 1101, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 2298, nonApplicable: 60417, files: 2 },
         'itis-amoebozoa-tsn-crosswalk': { eligible: 1337, records: 1337, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 1337, upstreamOnly: 0, nonApplicable: 60181, files: 1 },
         'itis-rhodophyta-tsn-crosswalk': { eligible: 0, records: 1616, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 1616, nonApplicable: 61518, files: 1 },
         'itis-oomycota-tsn-crosswalk': { eligible: 1494, records: 1536, accepted: 53, redirects: 1, ambiguous: 0, unmatched: 1440, upstreamOnly: 42, nonApplicable: 60024, files: 2 },
@@ -857,9 +857,9 @@ if (catalogue.resourcePacks?.packageCount !== 7
       const radiozoa = extensions.find((candidate) => candidate.id === 'worms-radiozoa-archive-crosswalk')
       const trichomycetes = extensions.find((candidate) => candidate.id === 'trichomycetes-archive-crosswalk')
       const originalSources = [
-        ['cilcat-1113-archive-crosswalk', 8505, 8477, 55, 2, 'CC-BY-4.0'],
-        ['eumycetozoa-archive-crosswalk', 1337, 1330, 0, 1, 'CC-BY-4.0'],
-        ['gymnodinium-archive-crosswalk', 259, 258, 1, 2, 'CC0-1.0'],
+        ['cilcat-1113-archive-crosswalk', 8505, 8505, 27, 2, 'CC-BY-4.0'],
+        ['eumycetozoa-archive-crosswalk', 1337, 1337, 0, 1, 'CC-BY-4.0'],
+        ['gymnodinium-archive-crosswalk', 259, 259, 0, 2, 'CC0-1.0'],
       ]
       for (const [id, total, accepted, upstreamOnly, fileCount, license] of originalSources) {
         const source = extensions.find((candidate) => candidate.id === id)

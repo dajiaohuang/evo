@@ -35,6 +35,46 @@ def tsv(x):
     return list(csv.DictReader(StringIO(x.decode("utf-8-sig")), delimiter="\t"))
 
 
+def frozen_relations(dataset_key):
+    directory = ROOT / "data/sources/authority-link-evidence"
+    manifest_path = directory / "manifest.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    entries = {entry["file"]: entry for entry in manifest["entries"]}
+
+    def response(col_id, kind, url):
+        entry = entries[f"{col_id}-{kind}.json"]
+        raw = (directory / entry["file"]).read_bytes()
+        if (entry["url"] != url or len(raw) != entry["bytes"]
+                or hashlib.sha256(raw).hexdigest() != entry["sha256"]):
+            raise SystemExit("frozen source response identity mismatch: " + col_id)
+        return json.loads(raw), entry
+
+    result = {}
+    for col_id, source_dataset, source_id in manifest["expectedRelations"]:
+        if source_dataset != dataset_key:
+            continue
+        col_url = f"https://api.checklistbank.org/dataset/316115/nameusage/{col_id}"
+        col, col_entry = response(col_id, "col", col_url)
+        relation, relation_entry = response(col_id, "relation", col_url + "/source")
+        source, source_entry = response(col_id, "source",
+            f"https://api.checklistbank.org/dataset/{dataset_key}/nameusage/{source_id}")
+        if (col["id"] != col_id or col["datasetKey"] != 316115
+                or col["status"] != "accepted" or col["name"]["rank"] != "species"
+                or relation["datasetKey"] != 316115
+                or relation["id"] != col["verbatimSourceKey"]
+                or relation["sourceDatasetKey"] != dataset_key
+                or relation["sourceId"] != source_id
+                or relation["sourceEntity"] != "name usage"
+                or source["id"] != source_id or source["datasetKey"] != dataset_key
+                or source["status"] != "accepted"):
+            raise SystemExit("frozen COL/source relationship mismatch: " + col_id)
+        result[col_id] = {
+            "sourceId": source_id, "relation": relation,
+            "colRecord": col, "responses": [col_entry, relation_entry, source_entry],
+        }
+    return result
+
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--archive", default=str(DEFAULT))
@@ -111,6 +151,7 @@ def main():
     for i, r in enumerate(src, 2):
         key = (norm(r["Genus"] + " " + r["SpeciesEpithet"]), norm(r["AuthorString"]))
         bykey.setdefault(key, []).append((r, i))
+    relations = frozen_relations(1053)
     if len(targets) != 1337 or len({c["id"] for c in targets}) != len(targets):
         raise SystemExit("pinned COL source1053 scope changed")
     out = []
@@ -119,6 +160,17 @@ def main():
         n = c["scientificName"]
         bare = n[: -len(a) - 1] if a and n.endswith(" " + a) else n
         mm = bykey.get((norm(bare), a), [])
+        relation_basis = None
+        if len(mm) != 1 and c["id"] in relations:
+            original_col = relations[c["id"]]["colRecord"]["name"]
+            if norm(original_col["scientificName"]) != norm(bare) or norm(original_col.get("authorship")) != a:
+                raise SystemExit("frozen relation COL label differs from the pinned species: " + c["id"])
+            source_id = relations[c["id"]]["sourceId"]
+            linked = [(r, i) for i, r in enumerate(src, 2) if r["AcceptedTaxonID"] == source_id]
+            if len(linked) != 1:
+                raise SystemExit("official relation has no unique frozen archive row: " + c["id"])
+            mm = linked
+            relation_basis = "ChecklistBank source-record relation; source name/authorship text is preserved."
         if len(mm) != 1:
             out.append(
                 {
@@ -168,7 +220,7 @@ def main():
                 "matchedName": matched,
                 "acceptedName": matched,
                 "candidates": [],
-                "mappingBasis": "Exact source name+authorship match; source fields preserved.",
+                "mappingBasis": relation_basis or "Exact source name+authorship match; source fields preserved.",
                 "sourceRows": [{"member": "AcceptedSpecies.tsv", "row": ordinal}],
                 "sourceAcceptedTaxonId": sid,
                 "sourceUrl": r["SpeciesURL"],
@@ -178,6 +230,9 @@ def main():
                 "nameReferences": rb.get(sid, []),
             }
         )
+    for row in out:
+        if row["mappingBasis"].startswith("ChecklistBank"):
+            row["sourceRelation"] = relations[row["colId"]]
     matched_ids = [
         x["sourceAcceptedTaxonId"]
         for x in out
@@ -230,7 +285,7 @@ def main():
             "colSourceDatasetId": 1053,
             "eligibleColSpecies": len(targets),
             "projectedSpecies": len(out),
-            "matchingKey": "exact source scientific name + authorship",
+            "matchingKey": "exact source scientific name + authorship; seven unmatched keys linked by frozen official source-record relations",
         },
         "matching": {
             "normalization": "Strict UTF-8 TSV; whitespace-only name+authorship comparison.",
@@ -296,7 +351,7 @@ def main():
     ]
     d["scope"]["excludedUnlinkedAcceptedSourceRows"] = len(excluded)
     d["limitations"].append(
-        "Seven COL targets have no exact name/authorship key. Fifteen unlinked accepted archive rows are not projected; unlinked does not mean globally novel or absent from other COL sources."
+        "Seven COL targets are resolved by frozen ChecklistBank source-record relations despite source-text differences; eight accepted archive rows remain unlinked and are not projected. Unlinked does not mean globally novel or absent from other COL sources."
     )
     descriptor_bytes = (json.dumps(d, ensure_ascii=False, indent=2) + "\n").encode(
         "utf-8"
@@ -308,7 +363,8 @@ def main():
         "source": d["source"],
         "inputs": inputs,
         "scopeAudit": {
-            "method": "Exact name+authorship match restricted to COL sourceDatasetId 1053",
+            "method": "1330 exact name+authorship matches and seven explicit ChecklistBank source-record relations, restricted to COL sourceDatasetId 1053",
+            "officialRelationEvidence": relations,
             "archiveAcceptedSpeciesRows": len(src),
             "colEligibleSpecies": len(targets),
             "matchedUniqueSourceAcceptedTaxonIds": len(set(matched_ids)),

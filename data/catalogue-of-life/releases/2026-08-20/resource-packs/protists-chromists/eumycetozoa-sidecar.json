@@ -40,8 +40,8 @@
     "colSourceDatasetId": 1053,
     "eligibleColSpecies": 1337,
     "projectedSpecies": 1337,
-    "matchingKey": "exact source scientific name + authorship",
-    "excludedUnlinkedAcceptedSourceRows": 15
+    "matchingKey": "exact source scientific name + authorship; seven unmatched keys linked by frozen official source-record relations",
+    "excludedUnlinkedAcceptedSourceRows": 8
   },
   "matching": {
     "normalization": "Strict UTF-8 TSV; whitespace-only name+authorship comparison.",
@@ -49,10 +49,10 @@
   },
   "counts": {
     "total": 1337,
-    "accepted": 1330,
+    "accepted": 1337,
     "redirect": 0,
     "ambiguous": 0,
-    "unmatched": 7,
+    "unmatched": 0,
     "withheld": 0,
     "upstreamOnly": 0,
     "records": 1337
@@ -61,10 +61,10 @@
     {
       "path": "protists-chromists/eumycetozoa-000.json.gz",
       "records": 1337,
-      "bytes": 137653,
-      "sha256": "4f2aba99df83fbde1f9bf4d4ea5abaa1d0b84eefa18675156968c3a5431b1154",
-      "sourceBytes": 1721723,
-      "sourceSha256": "b7814d4ffb97d1a03cc5bb6a3584cbe9661eb9dc8a657b3a716fc1ddb7d8e307",
+      "bytes": 143446,
+      "sha256": "eb273fe153e4f9c9cfec1cf8bddb4f23dd0a51126ef0b1b759c5f72fb6620ed8",
+      "sourceBytes": 1743801,
+      "sourceSha256": "f56ed2b2cb705c67c92e510aa28b40ef4cb439b15a38ee1efac1aba4fb4ba440",
       "minColId": "3574B",
       "maxColId": "ZFKF",
       "encoding": "gzip",
@@ -80,10 +80,10 @@
   "limitations": [
     "Only COL strict accepted species assigned source dataset 1053 are projected; no additional source-only rows are asserted.",
     "Reference links retain original type, identifiers, source row locators and empty fields.",
-    "Seven COL targets have no exact name/authorship key. Fifteen unlinked accepted archive rows are not projected; unlinked does not mean globally novel or absent from other COL sources."
+    "Seven COL targets are resolved by frozen ChecklistBank source-record relations despite source-text differences; eight accepted archive rows remain unlinked and are not projected. Unlinked does not mean globally novel or absent from other COL sources."
   ],
-  "totalCompressedBytes": 137653,
-  "totalSourceBytes": 1721723,
+  "totalCompressedBytes": 143446,
+  "totalSourceBytes": 1743801,
   "deliveryProfiles": {
     "web-light": {
       "payload": "summary-only",
@@ -98,8 +98,8 @@
         "protists-chromists/eumycetozoa-000.json.gz"
       ],
       "records": 1337,
-      "totalCompressedBytes": 137653,
-      "totalSourceBytes": 1721723
+      "totalCompressedBytes": 143446,
+      "totalSourceBytes": 1743801
     }
   }
 }

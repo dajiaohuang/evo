@@ -68,32 +68,32 @@
     "colStrictAcceptedSpecies": 259,
     "eligibleColSpecies": 259,
     "projectedSpecies": 259,
-    "matchingKey": "exact source scientific name + authorship",
+    "matchingKey": "258 exact source name+authorship matches and one frozen official source-record relation",
     "boundary": "Only strict accepted COL26.8 species descending from exact Gymnodinium genus 4RTJ and source dataset 1177 are included; no Dinophyceae siblings are inferred."
   },
   "matching": {
-    "normalization": "UTF-8 quoted TSV; surrounding whitespace is trimmed for name+authorship comparison only.",
+    "normalization": "UTF-8 quoted TSV; surrounding whitespace is trimmed for exact name+authorship comparison; one unmatched spelling is linked by the frozen official source-record relation.",
     "prohibited": "No fuzzy, punctuation, edit-distance, phonetic, epithet-substitution, taxon-substitution or missing-authorship matching.",
-    "unmatchedReason": "COL p-dorhnii and source p.dorhni remain unmatched because the source spelling differs."
+    "relationEvidencePath": "data/sources/authority-link-evidence/CN83B-relation.json"
   },
   "counts": {
     "total": 259,
-    "accepted": 258,
+    "accepted": 259,
     "redirect": 0,
     "ambiguous": 0,
-    "unmatched": 1,
+    "unmatched": 0,
     "withheld": 0,
-    "upstreamOnly": 1,
-    "records": 260
+    "upstreamOnly": 0,
+    "records": 259
   },
   "files": [
     {
       "path": "protists-chromists/gymnodinium-sidecar-000.json.gz",
       "records": 259,
-      "bytes": 33971,
-      "sha256": "9b01b603451753d7d19e5b4bdd08979d7700235502af44dc007b054678d0e292",
-      "sourceBytes": 437542,
-      "sourceSha256": "34dd38b1ee40e4027bbac9180967556aefe7a57325c604096d9cd11b60331f19",
+      "bytes": 34797,
+      "sha256": "c26258a420279108c045eebce6c24bc6c3395d1071282d51158a682311150cae",
+      "sourceBytes": 440664,
+      "sourceSha256": "8c6f65d7a3236fab709dd4bb2adb8bd664c3ebd46bc50d35f127441fb6a19566",
       "minColId": "3HRNL",
       "maxColId": "CN83B",
       "encoding": "gzip",
@@ -104,11 +104,11 @@
   "upstreamOnlyFiles": [
     {
       "path": "protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz",
-      "records": 1,
-      "bytes": 738,
-      "sha256": "bf15b243a974fa0b733f631c983980e4fcf38e06a6ef31bf4ea978086404ff96",
-      "sourceBytes": 1504,
-      "sourceSha256": "cf1c6d630027543f84ed4c25e0733db60a92ab7253659c3774222edf1ca457b2",
+      "records": 0,
+      "bytes": 20,
+      "sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+      "sourceBytes": 0,
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "minColId": null,
       "maxColId": null,
       "encoding": "gzip",
@@ -122,11 +122,11 @@
     "zh": "冻结的来源追溯与严格命名关联；不是独立科学佐证、物种概念等同、生态或生物档案、化石证据或专家审查。"
   },
   "limitations": [
-    "One source accepted row (T284, Gymnodinium p.dorhni) remains source-only because its spelling does not exactly match COL Gymnodinium p-dorhnii.",
+    "CN83B/T284 is linked by the frozen ChecklistBank source-record relation despite differing source text; this does not assert species-concept equivalence.",
     "The source archive's IsExtinct, HasModern and HasPreHolocene fields are preserved source fields, not an Evo Atlas extant-status review."
   ],
-  "totalCompressedBytes": 34709,
-  "totalSourceBytes": 439046,
+  "totalCompressedBytes": 34817,
+  "totalSourceBytes": 440664,
   "deliveryProfiles": {
     "web-light": {
       "payload": "summary-only",
@@ -141,9 +141,9 @@
         "protists-chromists/gymnodinium-sidecar-000.json.gz",
         "protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz"
       ],
-      "records": 260,
-      "totalCompressedBytes": 34709,
-      "totalSourceBytes": 439046
+      "records": 259,
+      "totalCompressedBytes": 34817,
+      "totalSourceBytes": 440664
     }
   }
 }

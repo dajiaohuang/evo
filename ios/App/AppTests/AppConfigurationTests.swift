@@ -621,7 +621,7 @@ final class AppConfigurationTests: XCTestCase {
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "cilcat-1113-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 1,
-                    expectedRecords: 8505, expectedUpstreamRecords: 55, label: "CilCat")
+                    expectedRecords: 8505, expectedUpstreamRecords: 27, label: "CilCat")
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "eumycetozoa-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,
@@ -629,7 +629,7 @@ final class AppConfigurationTests: XCTestCase {
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "gymnodinium-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 1,
-                    expectedRecords: 259, expectedUpstreamRecords: 1, expectedLicense: "CC0-1.0", label: "Gymnodinium")
+                    expectedRecords: 259, expectedUpstreamRecords: 0, expectedLicense: "CC0-1.0", label: "Gymnodinium")
                 let expectedIds = [
                     "itis-ciliophora-tsn-crosswalk", "itis-apicomplexa-tsn-crosswalk", "itis-dinoflagellata-tsn-crosswalk",
                     "itis-euglenozoa-tsn-crosswalk", "itis-cercozoa-tsn-crosswalk", "itis-haptophyta-tsn-crosswalk",
@@ -643,7 +643,7 @@ final class AppConfigurationTests: XCTestCase {
                     "itis-hemimastigophora-tsn-crosswalk",
                 ]
                 let expectedFiles = [4, 1, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0]
-                let expectedRecords = [8_665, 21, 1_110, 276, 52, 90, 3_397, 1_337, 1_616, 1_536, 0, 0, 53, 0, 0, 0, 0, 0, 1_416, 4, 0, 0, 0, 0, 0]
+                let expectedRecords = [8_665, 21, 1_110, 276, 52, 90, 3_399, 1_337, 1_616, 1_536, 0, 0, 53, 0, 0, 0, 0, 0, 1_416, 4, 0, 0, 0, 0, 0]
                 let itisAuthorities = extensions.filter { ($0["provider"] as? String) == "Integrated Taxonomic Information System" }
                 XCTAssertEqual(extensions.count, expectedIds.count + 6)
                 XCTAssertEqual(itisAuthorities.count, expectedIds.count)
@@ -726,7 +726,7 @@ final class AppConfigurationTests: XCTestCase {
         XCTAssertEqual(indexFungorumIdentifierRecords, 157_044)
         XCTAssertEqual(foraminiferaAuthorityRecords, 47_975)
         XCTAssertEqual(otherAnimalsItisRecords, 107_824)
-        XCTAssertEqual(protistsItisRecords, 19_573)
+        XCTAssertEqual(protistsItisRecords, 19_575)
         XCTAssertEqual(ictvSpeciesRecords, 17_554)
         XCTAssertEqual(ictvIsolateRecords, 19_285)
         XCTAssertEqual(wfoSupplementRecords, 61_449)
