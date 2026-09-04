@@ -39,6 +39,20 @@ describe('authority archive disclosure', () => {
     expect(container.querySelector('details')).toBeNull()
     expect(load).not.toHaveBeenCalled()
   })
+  it.each([
+    ['crustaceans-insects', '93', '326BJ', 'chilobase-archive-crosswalk', 'ChiloBase'],
+    ['trilobites-chelicerates', '42N', '345WT', 'scorpion-files-archive-crosswalk', 'The Scorpion Files'],
+  ] as const)('routes %s specialist evidence only from its exact lineage root', async (packageId, root, colId, id, title) => {
+    load.mockResolvedValue({ collection: { ...collection, id, packageId, provider: 'ChecklistBank' }, record: null })
+    const { container } = render(<AuthorityArchiveEvidence colId={colId} packageId={packageId} lineageIds={[root]} zh={false} />)
+    const details = container.querySelector('details')!
+    expect(screen.getByText(new RegExp(title))).toBeInTheDocument()
+    expect(load).not.toHaveBeenCalled()
+    details.open = true
+    fireEvent(details, new Event('toggle'))
+    await screen.findByText(/does not mean this species is unmatched/)
+    expect(load).toHaveBeenCalledWith(packageId, id, colId)
+  })
   it('routes the Radiozoa COL root to the WoRMS archive without loading while collapsed', async () => {
     load.mockResolvedValue({ collection: { ...collection, id: 'worms-radiozoa-archive-crosswalk', packageId: 'protists-chromists' }, record: null })
     const { container } = render(<AuthorityArchiveEvidence colId="328ST" packageId="protists-chromists" lineageIds={['5X']} zh={false} />)

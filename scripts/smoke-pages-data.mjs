@@ -168,7 +168,7 @@ for (const packageEntry of packageRegistry.packages) {
       id: 'itis-porifera-cnidaria-tsn-crosswalk', total: 30521, accepted: 4242, redirects: 50, ambiguous: 3, unmatched: 26226, upstreamOnly: 2218, files: 6,
     })
   } else if (packageEntry.id === 'crustaceans-insects') {
-    if (nomenclatureCollections.length !== 6) failures.push('crustaceans-insects: expected four ITIS, one WoRMS and one OSF nomenclature collections')
+    if (nomenclatureCollections.length !== 7) failures.push('crustaceans-insects: expected four ITIS, WoRMS, OSF and ChiloBase nomenclature collections')
     checkItisSummaryOnlyCollection('crustaceans-insects', nomenclatureCollections, {
       id: 'itis-crustacea-tsn-crosswalk', total: 80890, accepted: 26395, redirects: 115, ambiguous: 38, unmatched: 54342, upstreamOnly: 5991, files: 41,
     })
@@ -190,11 +190,25 @@ for (const packageEntry of packageRegistry.packages) {
       || wormsCrustacea.canonicalFileInventory?.length !== 33) {
       failures.push('crustaceans-insects: WoRMS Crustacea must preserve its complete inventory while omitting row shards on Pages')
     }
+    const chilobase = nomenclatureCollections.find((collection) => collection.id === 'chilobase-archive-crosswalk')
+    if (!chilobase || chilobase.provider !== 'ChecklistBank' || chilobase.source?.datasetId !== '1042'
+      || chilobase.counts?.total !== 3141 || chilobase.counts?.accepted !== 2269
+      || chilobase.counts?.unmatched !== 872 || chilobase.counts?.upstreamOnly !== 872
+      || chilobase.delivery?.canonicalFileCount !== 4 || chilobase.canonicalFileInventory?.length !== 4) {
+      failures.push('crustaceans-insects: ChiloBase summary or canonical inventory is incomplete')
+    }
   } else if (packageEntry.id === 'trilobites-chelicerates') {
-    if (nomenclatureCollections.length !== 1) failures.push('trilobites-chelicerates: expected one ITIS nomenclature collection')
+    if (nomenclatureCollections.length !== 2) failures.push('trilobites-chelicerates: expected ITIS and Scorpion Files nomenclature collections')
     checkItisSummaryOnlyCollection('trilobites-chelicerates', nomenclatureCollections, {
       id: 'itis-chelicerata-tsn-crosswalk', total: 99511, accepted: 74948, redirects: 146, ambiguous: 141, unmatched: 24276, upstreamOnly: 5714, files: 17,
     })
+    const scorpions = nomenclatureCollections.find((collection) => collection.id === 'scorpion-files-archive-crosswalk')
+    if (!scorpions || scorpions.provider !== 'ChecklistBank' || scorpions.source?.datasetId !== '1164'
+      || scorpions.counts?.total !== 2940 || scorpions.counts?.accepted !== 2872
+      || scorpions.counts?.unmatched !== 68 || scorpions.counts?.upstreamOnly !== 67
+      || scorpions.delivery?.canonicalFileCount !== 9 || scorpions.canonicalFileInventory?.length !== 9) {
+      failures.push('trilobites-chelicerates: Scorpion Files summary or canonical inventory is incomplete')
+    }
   } else if (packageEntry.id === 'turtles-lepidosaurs') {
     const itis = nomenclatureCollections.find((collection) => collection.id === 'itis-reptilia-tsn-crosswalk')
     if (nomenclatureCollections.length !== 1) failures.push('turtles-lepidosaurs: expected one ITIS nomenclature collection')

@@ -12,6 +12,8 @@ const scopes: Array<{ root: string; packageId: string; id: AuthorityArchiveColle
   { root: '5X', packageId: 'protists-chromists', id: 'worms-radiozoa-archive-crosswalk', title: 'WoRMS · Radiozoa' },
   { root: 'Z', packageId: 'protists-chromists', id: 'trichomycetes-archive-crosswalk', title: 'ChecklistBank source-1033 · Trichomycetes' },
   { root: 'CJBKK', packageId: 'crustaceans-insects', id: 'osf-orthoptera-archive-crosswalk', title: 'OSF · Orthoptera' },
+  { root: '93', packageId: 'crustaceans-insects', id: 'chilobase-archive-crosswalk', title: 'ChiloBase · Chilopoda' },
+  { root: '42N', packageId: 'trilobites-chelicerates', id: 'scorpion-files-archive-crosswalk', title: 'The Scorpion Files · Scorpiones' },
 ]
 
 function SourceName({ name }: { name: AuthorityArchiveName }) {

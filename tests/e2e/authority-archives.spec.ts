@@ -3,12 +3,13 @@ import { expect, test } from '@playwright/test'
 for (const [id, scope] of [
   ['322C4', 'WoRMS · Mollusca'], ['32N29', 'WoRMS · Porifera'],
   ['323D7', 'WoRMS · Cnidaria'], ['325RY', 'WoRMS · Annelida'], ['328ST', 'WoRMS · Radiozoa'], ['3233F', 'OSF · Orthoptera'],
+  ['326BJ', 'ChiloBase · Chilopoda'], ['345WT', 'The Scorpion Files · Scorpiones'],
 ]) {
   test(`${scope} stays collapsed and publishes a Web summary rather than a false unmatched result`, async ({ page }) => {
     await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
     const archiveRequests: string[] = []
     page.on('request', (request) => {
-      if (/\/(?:worms-(?:mollusca|porifera|cnidaria|annelida|radiozoa)|osf-orthoptera)-(?:upstream-only-)?\d{3}\.json\.gz/.test(request.url())) archiveRequests.push(request.url())
+      if (/\/(?:worms-(?:mollusca|porifera|cnidaria|annelida|radiozoa)|osf-orthoptera|chilobase|scorpion-files)-(?:upstream-only-)?\d{3}\.json\.gz/.test(request.url())) archiveRequests.push(request.url())
     })
     await page.goto(`./#/registry?release=COL26.8&id=${id}`)
     const details = page.locator('.catalogue-authority-disclosure').filter({ hasText: `${scope} — Source name mapping` })

@@ -157,6 +157,13 @@ const richPackageNomenclatureSources = {
   }],
   'crustaceans-insects': [{
     kind: 'range-sharded',
+    descriptorPath: 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/chilobase-sidecar.json',
+    expectedId: 'chilobase-archive-crosswalk',
+    expectedProvider: 'ChecklistBank',
+    expectedLicense: 'CC-BY-4.0',
+    rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
+  }, {
+    kind: 'range-sharded',
     descriptorPath: 'data/packages/arthropoda/crustaceans-insects/nomenclature/osf-orthoptera-sidecar.json',
     expectedId: 'osf-orthoptera-archive-crosswalk',
     expectedProvider: 'Orthoptera Species File via ChecklistBank',
@@ -203,6 +210,13 @@ const richPackageNomenclatureSources = {
     colIdField: 'colUsageId',
   }],
   'trilobites-chelicerates': [{
+    kind: 'range-sharded',
+    descriptorPath: 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/scorpion-files-sidecar.json',
+    expectedId: 'scorpion-files-archive-crosswalk',
+    expectedProvider: 'ChecklistBank',
+    expectedLicense: 'CC-BY-4.0',
+    rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
+  }, {
     kind: 'range-sharded',
     descriptorPath: 'data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar.json',
     expectedId: 'itis-chelicerata-tsn-crosswalk',
@@ -457,6 +471,7 @@ function buildRichPackageNomenclatureCollection(packageId, definition) {
     const upstreamOnlyFiles = publishFiles(canonicalUpstreamOnlyFiles)
     return [{
       ...descriptor,
+      ...(!isItis ? { counts: { redirect: 0, withheld: 0, ...descriptor.counts } } : {}),
       descriptorSha256: sha256(descriptorBytes),
       canonicalFileInventory: [
         ...descriptor.files.map((file) => ({ ...file, role: 'col-partition' })),

@@ -1,5 +1,16 @@
 # Data licenses and provenance
 
+RC131 retains the official ChecklistBank archives and metadata for *The
+Scorpion Files* (1164, version DOI `10.48580/d3f6.v47`, version `Jul 2026`)
+and *A World Catalogue of Centipedes (Chilopoda) for the Web* (ChiloBase
+1042, version DOI `10.48580/d38y.v9`, version `1.01, May 2006`). ChecklistBank
+API metadata declares both datasets `cc by`; the projections record the
+normalized CC BY 4.0 identifier and URL while preserving the raw evidence.
+The committed archives, metadata, member hashes and source-row locators are
+redistributed with separate COL26.8 attribution. They are frozen
+nomenclatural crosswalks, not expert endorsement, species-concept identity or
+biological dossiers. See [scope, boundaries and reproduction](docs/original-sources-rc131.md).
+
 RC122 retains the official ChecklistBank archives and metadata for *World List
 of Marine Oligochaeta* (1099, version DOI `10.48580/d3bx.v85`) and *World
 Polychaeta Database* (1090, version DOI `10.48580/d3bm.v87`), both issued

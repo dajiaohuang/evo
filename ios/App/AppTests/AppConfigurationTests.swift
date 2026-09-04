@@ -237,7 +237,7 @@ final class AppConfigurationTests: XCTestCase {
             } else if packageId == "crustaceans-insects" || packageId == "trilobites-chelicerates" {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
                 if packageId == "crustaceans-insects" {
-                    XCTAssertEqual(collections.count, 6)
+                    XCTAssertEqual(collections.count, 7)
                     try verifyAuthorityArchiveCollection(
                         collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "osf-orthoptera-archive-crosswalk" }),
                         inventory: files, below: dataRoot, expectedFiles: 11, expectedUpstreamFiles: 1,
@@ -246,6 +246,16 @@ final class AppConfigurationTests: XCTestCase {
                         collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "worms-crustacea-archive-crosswalk" }),
                         inventory: files, below: dataRoot, expectedFiles: 30, expectedUpstreamFiles: 3,
                         expectedRecords: 80_890, expectedUpstreamRecords: 8_675, label: "WoRMS Crustacea")
+                    try verifyAuthorityArchiveCollection(
+                        collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "chilobase-archive-crosswalk" }),
+                        inventory: files, below: dataRoot, expectedFiles: 3, expectedUpstreamFiles: 1,
+                        expectedRecords: 3_141, expectedUpstreamRecords: 872, label: "ChiloBase Chilopoda")
+                } else {
+                    XCTAssertEqual(collections.count, 2)
+                    try verifyAuthorityArchiveCollection(
+                        collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "scorpion-files-archive-crosswalk" }),
+                        inventory: files, below: dataRoot, expectedFiles: 8, expectedUpstreamFiles: 1,
+                        expectedRecords: 2_940, expectedUpstreamRecords: 67, label: "The Scorpion Files")
                 }
                 let expectedIds = packageId == "crustaceans-insects"
                     ? ["itis-insecta-tsn-crosswalk", "itis-crustacea-tsn-crosswalk", "itis-myriapoda-tsn-crosswalk", "itis-collembola-protura-tsn-crosswalk"]
@@ -262,7 +272,7 @@ final class AppConfigurationTests: XCTestCase {
                         "bf90e217fa6871bb1e59807b721ed88403c47e9aa2712a782ef40146b906fdf2",
                     ]
                     : ["90383cc2bf44dc092b59c7ed131169317a0a613699aa6485c6f3e9b74decfa3c"]
-                XCTAssertEqual(collections.count, expectedIds.count + (packageId == "crustaceans-insects" ? 2 : 0))
+                XCTAssertEqual(collections.count, expectedIds.count + (packageId == "crustaceans-insects" ? 3 : 1))
                 for index in expectedIds.indices {
                     let collection = try XCTUnwrap(collections.first { ($0["id"] as? String) == expectedIds[index] }, "ITIS collection missing: \(expectedIds[index])")
                     XCTAssertEqual(collection["descriptorSha256"] as? String, expectedDescriptorShas[index])
