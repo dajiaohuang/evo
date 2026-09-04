@@ -21,8 +21,8 @@ describe('Ascidiacea 1186 importer', () => {
     expect(names(one)).toEqual(names(two))
     for (const name of names(one)) expect(readFileSync(join(one, name))).toEqual(readFileSync(join(two, name)))
     const descriptor = JSON.parse(readFileSync(join(one, 'worms-ascidiacea-sidecar.json')))
-    expect(descriptor.scope).toEqual({ colRootUsageId: '7NF2Z', eligibleColSpecies: 3146 })
-    expect(descriptor.counts).toEqual({ total: 3146, accepted: 3000, redirect: 0, ambiguous: 0, unmatched: 146, withheld: 0, upstreamOnly: 0 })
+    expect(descriptor.scope).toEqual({ colRootUsageId: 'B8V3P', colParentClosureRootUsageId: '7NF2Z', eligibleColSpecies: 3000, excludedParentClosureSpecies: { '1178': 68, '1185': 78 } })
+    expect(descriptor.counts).toEqual({ total: 3000, accepted: 3000, redirect: 0, ambiguous: 0, unmatched: 0, withheld: 0, upstreamOnly: 0 })
     const first = descriptor.files[0]
     const rows = JSON.parse(gunzipSync(readFileSync(join(one, first.path.split('/').at(-1)))))
     expect(rows).toHaveLength(first.records)
