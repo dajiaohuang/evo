@@ -1,0 +1,570 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-nematoda2302-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "Nemys / World Register of Marine Species via ChecklistBank",
+  "role": "authority-crosswalk",
+  "rowEncoding": "json",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "2302",
+    "title": "Nemys: World Database of Nematodes",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d4rf.v78",
+    "doi": "10.48580/d4rf",
+    "issued": "2026-09-01",
+    "citation": "<div class=\"csl-entry\">Nemys eds. (2026). <span style=\"font-style: italic\">Nemys: World Database of Nematodes</span> (Version 2026-09-01). https://doi.org/10.48580/d4rf</div>",
+    "editor": [
+      {
+        "family": "Nemys eds.",
+        "name": "Nemys eds."
+      }
+    ],
+    "contributor": [
+      {
+        "name": "Nemys eds.",
+        "organisation": "Nemys eds."
+      },
+      {
+        "country": "BE",
+        "name": "Universiteit Gent; Faculteit Wetenschappen; Vakgroep Biologie Onderzoeksgroep Mariene Biologie",
+        "address": "Belgium",
+        "organisation": "Universiteit Gent; Faculteit Wetenschappen; Vakgroep Biologie Onderzoeksgroep Mariene Biologie"
+      },
+      {
+        "country": "BE",
+        "name": "Belgian Science Policy",
+        "address": "Belgium",
+        "organisation": "Belgian Science Policy"
+      },
+      {
+        "country": "BE",
+        "name": "Vlaams Instituut voor de Zee",
+        "address": "Belgium",
+        "organisation": "Vlaams Instituut voor de Zee"
+      }
+    ],
+    "license": "cc by",
+    "metadataBytes": 2093,
+    "metadataSha256": "8a3b7063b91b700d11555eda189b44d2387aa9f45e8c830accf00d4c1f06657c",
+    "archiveUrl": "https://api.checklistbank.org/dataset/2302/archive",
+    "archivePath": "data/sources/archives/checklistbank-2302-nematoda-2026-09-01.zip",
+    "metadataPath": "data/sources/archives/checklistbank-2302-nematoda-2026-09-01.metadata.json",
+    "archiveBytes": 4107143,
+    "archiveSha256": "11805c4e72c96130b626e12618ff70f938c2c825bfbb0aff22297c4bc925dd88",
+    "members": {
+      "metadata.yml": {
+        "bytes": 1296,
+        "sha256": "b4ce15d2c2ccc7b4545ecf4d93f71d02f8179c933abb2039956018076ea6501a"
+      },
+      "TypeMaterial.txt": {
+        "bytes": 163607,
+        "sha256": "316e982d823592760fb20aafb894d9a3b06c3edea79fd2f7224015d335d7a1d8"
+      },
+      "Name.txt": {
+        "bytes": 10329226,
+        "sha256": "64c7151cdfff2aa19311f85f097c1e36ef85fe2a7b694199d53fad8376209a53"
+      },
+      "NameRelation.txt": {
+        "bytes": 3676318,
+        "sha256": "2ce253d015b76f2f75dcb9aaeaeadb22b5ba67a2c297f966aa275ec692132b7a"
+      },
+      "Taxon.txt": {
+        "bytes": 9742031,
+        "sha256": "e84e6a254a3cf0e7cf1b5fc28e5a777cfc660438ad6fa8589525bf2b4e20cb16"
+      },
+      "Synonym.txt": {
+        "bytes": 2185920,
+        "sha256": "bac100a2748aefb48cd89a6093e64002d008d6f950ca57f56f6ce1907b7c2e30"
+      },
+      "SpeciesEstimate.txt": {
+        "bytes": 160,
+        "sha256": "0b7f41841282d90b059f5cfec712ddf1e8d98e135c0d5a028088f85b5cd7dbf1"
+      },
+      "Reference.txt": {
+        "bytes": 3464950,
+        "sha256": "8ef7e6401e203c124a4886e0118e8e8617d3723fa65fae96aa50ad743cf18ab8"
+      },
+      "NameReference.txt": {
+        "bytes": 7684551,
+        "sha256": "2ab0b3c8eca8f096d707ff472662bf929db3a1f0eb5da8b344cec706255e82ec"
+      },
+      "Distribution.txt": {
+        "bytes": 1482608,
+        "sha256": "214059fd377ecb3495f28ab8c9de041eee6d6b242b455d24061e714345fc3673"
+      },
+      "Media.txt": {
+        "bytes": 228548,
+        "sha256": "aa4e90978b026fba2c8a8169f0a397d30e5530fc97bc7858c61b0841e1c46e21"
+      },
+      "VernacularName.txt": {
+        "bytes": 5846,
+        "sha256": "95bfbf8b2d246a86ed29056d972b9c08abd75d3634b94f89f732b61a1ab9f233"
+      }
+    },
+    "metadataRecord": {
+      "created": "2021-05-06T20:13:15.176172",
+      "createdBy": 102,
+      "modified": "2026-09-02T01:28:39.098759",
+      "modifiedBy": 304,
+      "key": 2302,
+      "type": "taxonomic",
+      "origin": "external",
+      "attempt": 78,
+      "imported": "2026-09-02T01:28:42.880568",
+      "lastImportAttempt": "2026-09-02T01:28:42.900087",
+      "lastImportState": "finished",
+      "size": 41163,
+      "doi": "10.48580/d4rf",
+      "versionDoi": "10.48580/d4rf.v78",
+      "title": "Nemys: World Database of Nematodes",
+      "alias": "WoRMS Nemys",
+      "description": "Nemys offers documentation on free-living marine, brackish, fresh-water and terrestrial nematodes, mainly providing taxonomic information but also ecological information. Nemys is integrated into the World Register of Marine Species (WoRMS). Data are contributing to the Catalogue of Life via the WoRMS, hosted by the Flanders Marine Institute (VLIZ).",
+      "issued": "2026-09-01",
+      "version": "2026-09-01",
+      "contact": {
+        "email": "nemys@marinespecies.org"
+      },
+      "editor": [
+        {
+          "family": "Nemys eds.",
+          "name": "Nemys eds."
+        }
+      ],
+      "contributor": [
+        {
+          "name": "Nemys eds.",
+          "organisation": "Nemys eds."
+        },
+        {
+          "country": "BE",
+          "name": "Universiteit Gent; Faculteit Wetenschappen; Vakgroep Biologie Onderzoeksgroep Mariene Biologie",
+          "address": "Belgium",
+          "organisation": "Universiteit Gent; Faculteit Wetenschappen; Vakgroep Biologie Onderzoeksgroep Mariene Biologie"
+        },
+        {
+          "country": "BE",
+          "name": "Belgian Science Policy",
+          "address": "Belgium",
+          "organisation": "Belgian Science Policy"
+        },
+        {
+          "country": "BE",
+          "name": "Vlaams Instituut voor de Zee",
+          "address": "Belgium",
+          "organisation": "Vlaams Instituut voor de Zee"
+        }
+      ],
+      "geographicScope": "Global",
+      "taxonomicScope": "nematodes",
+      "temporalScope": "1758-2026",
+      "taxonomicGroupScope": [
+        "eukaryotes",
+        "protists",
+        "animals",
+        "otheranimals"
+      ],
+      "confidence": 4,
+      "completeness": 90,
+      "license": "cc by",
+      "url": "https://nemys.ugent.be",
+      "logo": "https://www.marinespecies.org/documents/WoRMS%20branding/WoRMS_logo_blue_negative.png",
+      "label": "Nemys: World Database of Nematodes (2026-09-01)",
+      "citation": "<div class=\"csl-entry\">Nemys eds. (2026). <span style=\"font-style: italic\">Nemys: World Database of Nematodes</span> (Version 2026-09-01). https://doi.org/10.48580/d4rf</div>",
+      "private": false
+    }
+  },
+  "scope": {
+    "colRootUsageId": "NM",
+    "sourceRootAphiaId": "799",
+    "scientificName": "Nematoda",
+    "eligibleColSpecies": 19604,
+    "sourceSpeciesRows": 20814,
+    "sourceAcceptedSpecies": 20810,
+    "matchableSourceSpecies": 19629,
+    "excludedSourceProvisional": 4,
+    "excludedFromExactScope": 1181
+  },
+  "matching": {
+    "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, synonym, inferred or species-concept matching."
+  },
+  "counts": {
+    "total": 19604,
+    "accepted": 19536,
+    "ambiguous": 1,
+    "unmatched": 67,
+    "sourceOnly": 1274,
+    "upstreamOnly": 1274,
+    "records": 20878
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-nematoda2302-000.json.gz",
+      "records": 508,
+      "bytes": 222623,
+      "sha256": "fd364a244a186aad08a1829ca68a1a3709c0630d069a55ba235e8cb7a0734f99",
+      "sourceBytes": 2094506,
+      "sourceSha256": "a2923ff72d96ff32325aced0228eb5c6341afbf9af8f69a35a86229d4c448e0a",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "87LKG",
+      "maxColId": "885N4"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-001.json.gz",
+      "records": 496,
+      "bytes": 216648,
+      "sha256": "dc0703a029ef3fc1553fc255bf13742e7072a848838ee8e71af76114342d3021",
+      "sourceBytes": 2094021,
+      "sourceSha256": "318349bb227b616bcb6cbfc77b3789b45839b9ee60cfaeba9b267406a051ea89",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "885N5",
+      "maxColId": "88R87"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-002.json.gz",
+      "records": 505,
+      "bytes": 223242,
+      "sha256": "a848a2355dc8f64f6e5a2aed8d0f317a134c981f8f5e14e13b77351a0f1a8605",
+      "sourceBytes": 2095510,
+      "sourceSha256": "a460fe688261c30ed6054786286375c9e81b2cd41abea81570f083a2d066eae3",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "88R8C",
+      "maxColId": "895KC"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-003.json.gz",
+      "records": 497,
+      "bytes": 232690,
+      "sha256": "cca8078df2c804570291d3b44923c8218d6949a8f09c4a2ca34f18d785416d9e",
+      "sourceBytes": 2095880,
+      "sourceSha256": "77f1e1f9c4d90482351e7b0fba94a5453be573d233da311e3a7a871266fe5c8a",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "895KD",
+      "maxColId": "8FTFQ"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-004.json.gz",
+      "records": 827,
+      "bytes": 200372,
+      "sha256": "29bf85a26e6680c41ab33698c2d8bd1f93fe7763a9bcb3dd6a2bbc5f11e9520b",
+      "sourceBytes": 2096208,
+      "sourceSha256": "aa2932e948375a76421dd6e80693dec0a7ce298aefefe1ca0eae417da6e7f55e",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "8FTFR",
+      "maxColId": "8G45J"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-005.json.gz",
+      "records": 911,
+      "bytes": 190402,
+      "sha256": "22c2bd830207c8e395fcec57855e116a9c96a213dd3da8cb55049791d37cc95a",
+      "sourceBytes": 2094834,
+      "sourceSha256": "6e1a70315e912c32bdc54aff3a099f4772d860f5ad57f3a5e252224a9752af08",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "8G45K",
+      "maxColId": "8G6PF"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-006.json.gz",
+      "records": 854,
+      "bytes": 186392,
+      "sha256": "3c8a25e0a5a594d51ce8be9e28f2a9b163a3fd7424f6775eae234e5edd9af7fc",
+      "sourceBytes": 2095515,
+      "sourceSha256": "2c12bdb59a0cb43b9abd3b0f7e6d4d068d37944fe3bd6378a79d9466464a4e06",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "8G6PG",
+      "maxColId": "8G8WW"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-007.json.gz",
+      "records": 992,
+      "bytes": 174811,
+      "sha256": "8cd9b6654267d8e21c5474efce9151f4bbf985891a438a0865ec2a5af47f6e2b",
+      "sourceBytes": 2094286,
+      "sourceSha256": "6637b393e635543b0f305c69b14650bb0af665c64d2fa9a45bddcf98d5a49aa8",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "8G8WZ",
+      "maxColId": "8GBYP"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-008.json.gz",
+      "records": 932,
+      "bytes": 186904,
+      "sha256": "1c3b1c9c9a278467f19b408a2184878662984f86b74bb105fe0636551adc2d12",
+      "sourceBytes": 2095351,
+      "sourceSha256": "f3d2040e7e1bb83d8899fea7ad6ae268e08f1626602052363a90ed2b6cc8aa16",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "8GBYQ",
+      "maxColId": "8GF2L"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-009.json.gz",
+      "records": 835,
+      "bytes": 199703,
+      "sha256": "1bbd2d4b54ba674bbfeb6628d7750403585674d445634c972dbe791fcfd2a76e",
+      "sourceBytes": 2095682,
+      "sourceSha256": "5824fb4bce05bc59c2528f347b023f2287a0c3040d375e5a5b4025893be351d1",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "8GF2M",
+      "maxColId": "8GGW2"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-010.json.gz",
+      "records": 918,
+      "bytes": 190635,
+      "sha256": "fb53d4ee43b6344f04984266eb82ae8eb0f2627c5a5d8b667e91ebaa885648c0",
+      "sourceBytes": 2094878,
+      "sourceSha256": "3919a734e15f1862542a1af9356ff79e050bc661ad142a4e27d29b9c4d6dc7d9",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "8GGW5",
+      "maxColId": "8GJPN"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-011.json.gz",
+      "records": 884,
+      "bytes": 189558,
+      "sha256": "8c82b72a02bdcaeeecd9d95adae5f0cc13213c4cf562b022c773196a6d917d1e",
+      "sourceBytes": 2094141,
+      "sourceSha256": "e8497dfc4a865ddd76cf2570b4d1d7b9f14dd2a3c8ef5ab543de8a70bddad8d7",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "8GJPP",
+      "maxColId": "8GLT2"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-012.json.gz",
+      "records": 1096,
+      "bytes": 184132,
+      "sha256": "a0f5bd3c77515c8a65818d9b822a6518380ef37cb0865d6377371e2d5171d5f9",
+      "sourceBytes": 2093774,
+      "sourceSha256": "403562de8161fc7981a083a34190d65170055b91d6874101e9a31eb77ee2f86c",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "8GLT3",
+      "maxColId": "8GWBZ"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-013.json.gz",
+      "records": 1135,
+      "bytes": 199584,
+      "sha256": "ca5a60d5469fb09ab87fda9c3e411d695041e4a574955449e89c5b59d3f6a35c",
+      "sourceBytes": 2095476,
+      "sourceSha256": "c006cd4bc89f80013d9d4acae5b04ab1ad92c7503330e67fcaa63900ae0f57ac",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "8GWC4",
+      "maxColId": "8N9YZ"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-014.json.gz",
+      "records": 1058,
+      "bytes": 178813,
+      "sha256": "c3293e63bcf1daf5518b3118efab3d5bc1a8abcd897d24107e0592b5a71da62d",
+      "sourceBytes": 2093339,
+      "sourceSha256": "d48df8bbc1661da52861403f0a249a39afc6a6e81203e311e8c8c9314b927243",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "8N9Z4",
+      "maxColId": "99H2V"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-015.json.gz",
+      "records": 831,
+      "bytes": 208966,
+      "sha256": "b22d384253c206ae53c18160fdb588454869c5e04c210a7a8ccd0b0c01634534",
+      "sourceBytes": 2095831,
+      "sourceSha256": "fa4e2c10f3fe157c20b13dde406cad0cfe752f6d54912d72a91b4cddb32e8300",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "99H2X",
+      "maxColId": "9B3BS"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-016.json.gz",
+      "records": 1208,
+      "bytes": 192924,
+      "sha256": "43eb9fe448b49dfddcc9f177cdbd71a2f706b438ee945386fc031e6b0161bd06",
+      "sourceBytes": 2095237,
+      "sourceSha256": "353db19d4f73755d3b0c218d4375d9fe586cddc34d443baabbd98f058b17474b",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "9B3BT",
+      "maxColId": "9C92Z"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-017.json.gz",
+      "records": 1145,
+      "bytes": 193334,
+      "sha256": "8f4cdd5eeca99f37cc9e6de38a88e29fdb4127dd29c54a4919949c8bbd7a499d",
+      "sourceBytes": 2095788,
+      "sourceSha256": "4579ab6daf2d690c880733675111e874687146ebdbf845a7d05c6602dbc84c5a",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "9C932",
+      "maxColId": "B8PYJ"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-018.json.gz",
+      "records": 1244,
+      "bytes": 155831,
+      "sha256": "19681a37a5fc36da4f048c2650b906bb662f259fb1fd2554cac14db4d865c1e9",
+      "sourceBytes": 2094361,
+      "sourceSha256": "ba3fed2b669a0c5768db3a2c90e01f03ffb97ad52b9c430f866000ccb4543353",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "B8PZ6",
+      "maxColId": "BXQFX"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-019.json.gz",
+      "records": 1098,
+      "bytes": 180568,
+      "sha256": "3c00429e6e3eeb10d6c10d973665815d9483f3e669a3bf6663f1e987d74fa1e3",
+      "sourceBytes": 2096020,
+      "sourceSha256": "04a3f3e636fcb61905f053b70a8629c8cba3e9fd598f83e1475056224e279a8b",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "BXQFY",
+      "maxColId": "CGVF8"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-020.json.gz",
+      "records": 1138,
+      "bytes": 163205,
+      "sha256": "67613067c885d885b46faa691c3f748fb207c4af5bd30d761de73e1ec7619882",
+      "sourceBytes": 2094785,
+      "sourceSha256": "392801e1a238163311d03a5dbca865c37f6ca636312b265c6fdca69199cb8f20",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "CGWK6",
+      "maxColId": "KZHBY"
+    },
+    {
+      "path": "other-animals/worms-nematoda2302-021.json.gz",
+      "records": 492,
+      "bytes": 94437,
+      "sha256": "4ca40480853375f47ab4613c3fb83fd74726bb61ed3f95e506b292960b02706d",
+      "sourceBytes": 959036,
+      "sourceSha256": "7e0bba41fd5f67e9d16740f09b15125b95475119fd81c71fee09848826399430",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "KZHC8",
+      "maxColId": "VQ9VL"
+    }
+  ],
+  "sourceOnlyFiles": [
+    {
+      "path": "other-animals/worms-nematoda2302-source-only-000.json.gz",
+      "records": 1274,
+      "bytes": 124642,
+      "sha256": "81b80b2f1a80d8cf6266d323287b8423278600fe6fc1bb67e61b56d4eae7d08b",
+      "sourceBytes": 1796287,
+      "sourceSha256": "ebf44180d0ed90fdd8e28bf2ca263b2d5e68b49a76f54f0caf81f80baa39e032",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "source-only"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "other-animals/worms-nematoda2302-source-only-000.json.gz",
+      "records": 1274,
+      "bytes": 124642,
+      "sha256": "81b80b2f1a80d8cf6266d323287b8423278600fe6fc1bb67e61b56d4eae7d08b",
+      "sourceBytes": 1796287,
+      "sourceSha256": "ebf44180d0ed90fdd8e28bf2ca263b2d5e68b49a76f54f0caf81f80baa39e032",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "source-only"
+    }
+  ],
+  "evidenceBoundary": {
+    "en": "Frozen Nemys nomenclatural archive projection for COL26.8 Nematoda; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "面向 COL26.8 Nematoda 的冻结 Nemys 命名档案投影；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only concepts retain null COL ownership and are not a global new-species claim.",
+    "Ancillary source members are retained by archive hash but are not projected into row payloads.",
+    "Exact name matching does not establish equivalent species concepts or higher-classification identity."
+  ],
+  "totalCompressedBytes": 4290416,
+  "totalSourceBytes": 46750746,
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 20878,
+      "files": [
+        "other-animals/worms-nematoda2302-000.json.gz",
+        "other-animals/worms-nematoda2302-001.json.gz",
+        "other-animals/worms-nematoda2302-002.json.gz",
+        "other-animals/worms-nematoda2302-003.json.gz",
+        "other-animals/worms-nematoda2302-004.json.gz",
+        "other-animals/worms-nematoda2302-005.json.gz",
+        "other-animals/worms-nematoda2302-006.json.gz",
+        "other-animals/worms-nematoda2302-007.json.gz",
+        "other-animals/worms-nematoda2302-008.json.gz",
+        "other-animals/worms-nematoda2302-009.json.gz",
+        "other-animals/worms-nematoda2302-010.json.gz",
+        "other-animals/worms-nematoda2302-011.json.gz",
+        "other-animals/worms-nematoda2302-012.json.gz",
+        "other-animals/worms-nematoda2302-013.json.gz",
+        "other-animals/worms-nematoda2302-014.json.gz",
+        "other-animals/worms-nematoda2302-015.json.gz",
+        "other-animals/worms-nematoda2302-016.json.gz",
+        "other-animals/worms-nematoda2302-017.json.gz",
+        "other-animals/worms-nematoda2302-018.json.gz",
+        "other-animals/worms-nematoda2302-019.json.gz",
+        "other-animals/worms-nematoda2302-020.json.gz",
+        "other-animals/worms-nematoda2302-021.json.gz",
+        "other-animals/worms-nematoda2302-source-only-000.json.gz"
+      ],
+      "totalCompressedBytes": 4290416,
+      "totalSourceBytes": 46750746
+    }
+  }
+}
