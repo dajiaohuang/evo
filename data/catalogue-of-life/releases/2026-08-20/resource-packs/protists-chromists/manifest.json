@@ -4609,6 +4609,499 @@
           "requestPolicy": "Read the sole inclusive COL-ID range, then require an exact colId record; a range is not evidence of species membership."
         }
       }
+    },
+    {
+      "schemaVersion": 1,
+      "recordType": "release-pinned-authority-archive-crosswalk",
+      "id": "cilcat-1113-archive-crosswalk",
+      "packageId": "protists-chromists",
+      "provider": "The World Ciliate Catalog via ChecklistBank",
+      "rowEncoding": "json",
+      "colIdField": "colId",
+      "totalCountField": "total",
+      "source": {
+        "datasetId": "1113",
+        "title": "The World Ciliate Catalog",
+        "version": "4.0, Jan 2012",
+        "versionDoi": "10.48580/d3cf.v11",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "archiveUrl": "https://api.checklistbank.org/dataset/1113/archive",
+        "archiveBytes": 296399,
+        "archiveSha256": "cd0e0bad24a8b790cb404575f05b80eb26a6f913e5b770c011bcb6316fff15ed",
+        "archiveEncoding": "gzip-compressed tar (HTTP Content-Type application/zip)",
+        "retrievedAt": "2026-09-04",
+        "members": {
+          "AcceptedSpecies.tsv": {
+            "bytes": 1801734,
+            "sha256": "ed8853bbeeb84abfc7d703233404d362c586b88ad57d7aa0ae78c29c6181c3f1"
+          },
+          "NameReferences.tsv": {
+            "bytes": 167078,
+            "sha256": "9d3bcaf2542847acbbed5208c9b022419bc8c7b27315c908a1750bf1a9dd1038"
+          },
+          "References.tsv": {
+            "bytes": 171033,
+            "sha256": "529c04577afe0a46a7ddc8deeb861c7df000f4a344b17ab26de184fdc58cf20b"
+          },
+          "SourceDatabase.tsv": {
+            "bytes": 967,
+            "sha256": "d8d13ca443a1e0abc768bd2da3531a04efd31b8620aa0121eb44b90c8050b5d2"
+          }
+        },
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/cilcat-sidecar.json",
+        "canonicalDescriptorBytes": 4818,
+        "canonicalDescriptorSha256": "ab177a69c35cdedb794f2f150ce23f5f25ccd71213c9545688fb48a05bf41d68",
+        "sourceLedgerPath": "data/sources/cilcat-1113-archive-import-ledger.json",
+        "sourceLedgerSha256": "295ecb15cb81fa9f66ac3b654742c61054f92b663ac554aebef2b23c9080c4c4"
+      },
+      "scope": {
+        "colSourceDatasetId": "1113",
+        "colPackageId": "protists-chromists",
+        "eligibleColSpecies": 8505,
+        "projectedSpecies": 8505,
+        "sourceAcceptedSpecies": 8532,
+        "sourceProvisionalSpecies": 81,
+        "sourceOnlyAccepted": 55,
+        "excludedSourceProvisional": 81,
+        "matchingKey": "official sourceDatasetId=1113 plus exact full source display-name or exact separated scientific-name+authorship match; non-empty authorship conflicts remain unresolved"
+      },
+      "matching": {
+        "normalization": "UTF-8 quoted TSV; Unicode whitespace collapse only; case, diacritics, punctuation and empty fields preserved.",
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching."
+      },
+      "counts": {
+        "total": 8505,
+        "accepted": 8477,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 28,
+        "withheld": 0,
+        "upstreamOnly": 55,
+        "records": 8560
+      },
+      "files": [
+        {
+          "path": "protists-chromists/cilcat-000.json.gz",
+          "records": 8505,
+          "bytes": 741236,
+          "sha256": "580ec4ec9cc4e88a0f09a0ae0f65ae2cf0a7581c208e7d1fc41abf492228f6f8",
+          "sourceBytes": 8914220,
+          "sourceSha256": "9156962ea1a520c2fbb47abd14040fe7a2fe4da127b126a9bf7ae56123fe405a",
+          "minColId": "3245V",
+          "maxColId": "ZYHS",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition"
+        }
+      ],
+      "upstreamOnlyFiles": [
+        {
+          "path": "protists-chromists/cilcat-upstream-only-000.json.gz",
+          "records": 55,
+          "bytes": 5750,
+          "sha256": "df1e145842a69c2e51b95665337e5a228265845a66884e1023ffd2ff15f5db03",
+          "sourceBytes": 46587,
+          "sourceSha256": "228cb2bb7c42eaade4b8ff8088fce4d7f4cfab7d779e8bdb69ecdcd9fdaa5c23",
+          "minColId": null,
+          "maxColId": null,
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "upstream-only"
+        }
+      ],
+      "evidenceBoundary": {
+        "en": "Frozen CilCat source provenance, not independent scientific corroboration, species-concept equivalence, biological dossier, fossil evidence or expert review.",
+        "zh": "冻结的 CilCat 来源追溯，不是独立科学佐证、物种概念等同、生物档案、化石证据或专家审查。"
+      },
+      "limitations": [
+        "Only the 8,505 strict accepted COL source-1113 species are projected; 27 additional accepted archive rows remain in a separate upstream-only partition and 81 provisional rows are excluded.",
+        "The archive's nomenclatural/taxonomic references support source name provenance only; they do not constitute biological dossiers.",
+        "34 TaxAccRef links point to ReferenceID 95, which is absent from References.tsv; those links retain their NameReferences locator and explicit referenceMissing=true."
+      ],
+      "totalCompressedBytes": 746986,
+      "totalSourceBytes": 8960807,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/cilcat-000.json.gz",
+            "protists-chromists/cilcat-upstream-only-000.json.gz"
+          ],
+          "records": 8560,
+          "totalCompressedBytes": 746986,
+          "totalSourceBytes": 8960807
+        }
+      },
+      "descriptorSha256": "ab177a69c35cdedb794f2f150ce23f5f25ccd71213c9545688fb48a05bf41d68",
+      "canonicalFileInventory": [
+        {
+          "path": "protists-chromists/cilcat-000.json.gz",
+          "records": 8505,
+          "bytes": 741236,
+          "sha256": "580ec4ec9cc4e88a0f09a0ae0f65ae2cf0a7581c208e7d1fc41abf492228f6f8",
+          "sourceBytes": 8914220,
+          "sourceSha256": "9156962ea1a520c2fbb47abd14040fe7a2fe4da127b126a9bf7ae56123fe405a",
+          "minColId": "3245V",
+          "maxColId": "ZYHS",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition"
+        },
+        {
+          "path": "protists-chromists/cilcat-upstream-only-000.json.gz",
+          "records": 55,
+          "bytes": 5750,
+          "sha256": "df1e145842a69c2e51b95665337e5a228265845a66884e1023ffd2ff15f5db03",
+          "sourceBytes": 46587,
+          "sourceSha256": "228cb2bb7c42eaade4b8ff8088fce4d7f4cfab7d779e8bdb69ecdcd9fdaa5c23",
+          "minColId": null,
+          "maxColId": null,
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "upstream-only"
+        }
+      ],
+      "integration": {
+        "clientParityRequirement": "Full-data inventories retain all declared files byte-for-byte; the light profile publishes summaries only. App and backend upgrades are independently scheduled.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Read the inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "recordType": "release-pinned-authority-archive-crosswalk",
+      "id": "eumycetozoa-archive-crosswalk",
+      "packageId": "protists-chromists",
+      "provider": "Eumycetozoa database via Catalogue of Life ChecklistBank",
+      "rowEncoding": "json",
+      "colIdField": "colId",
+      "totalCountField": "total",
+      "source": {
+        "provider": "Eumycetozoa database",
+        "license": "CC-BY-4.0",
+        "archiveUrl": "https://api.checklistbank.org/dataset/1053/archive",
+        "archiveBytes": 131700,
+        "archiveSha256": "2d8a55a43d7273bfabaa19c16942c9258b7ca00c17319fead95c562af40f24b1",
+        "version": "May 2024",
+        "sourceLedgerPath": "data/sources/eumycetozoa-archive-import-ledger.json",
+        "sourceDatasetId": 1053,
+        "versionDoi": "10.48580/d39c.v28",
+        "retrievedAt": "2026-09-04",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "archiveEncoding": "zip",
+        "canonicalArchivePath": "data/sources/archives/checklistbank-1053-eumycetozoa-2024-05.zip",
+        "members": {
+          "AcceptedSpecies.tsv": {
+            "bytes": 332753,
+            "sha256": "0c50954835e28ad8f48f292c83595541509a765e8d9ce844a6799394c454b692"
+          },
+          "NameReferencesLinks.tsv": {
+            "bytes": 130977,
+            "sha256": "3d60f0a453d973dc0eb749f4417411a4a6e7f3a23432602c6ccfbb3999def82f"
+          },
+          "References.tsv": {
+            "bytes": 185452,
+            "sha256": "640c559bae9a67ce5ea573bd8d743a987233ce65a0fa9208957b61887b3b244b"
+          }
+        },
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/eumycetozoa-sidecar.json",
+        "canonicalDescriptorBytes": 3696,
+        "canonicalDescriptorSha256": "09ee1710f2a701b6fd43f3f0c16f3ae7401bc3d4cfa29c8420f4c6596c4cc270",
+        "sourceLedgerSha256": "ae66fcec60e2a6bf1ea7254e570324d1a64bf42ce2aba4a9749ef7fe210d1575"
+      },
+      "scope": {
+        "colSourceDatasetId": 1053,
+        "eligibleColSpecies": 1337,
+        "projectedSpecies": 1337,
+        "matchingKey": "exact source scientific name + authorship",
+        "excludedUnlinkedAcceptedSourceRows": 15
+      },
+      "matching": {
+        "normalization": "Strict UTF-8 TSV; whitespace-only name+authorship comparison.",
+        "prohibited": "No fuzzy or inferred matching."
+      },
+      "counts": {
+        "total": 1337,
+        "accepted": 1330,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 7,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "records": 1337
+      },
+      "files": [
+        {
+          "path": "protists-chromists/eumycetozoa-000.json.gz",
+          "records": 1337,
+          "bytes": 137653,
+          "sha256": "4f2aba99df83fbde1f9bf4d4ea5abaa1d0b84eefa18675156968c3a5431b1154",
+          "sourceBytes": 1721723,
+          "sourceSha256": "b7814d4ffb97d1a03cc5bb6a3584cbe9661eb9dc8a657b3a716fc1ddb7d8e307",
+          "minColId": "3574B",
+          "maxColId": "ZFKF",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition"
+        }
+      ],
+      "upstreamOnlyFiles": [],
+      "evidenceBoundary": {
+        "en": "Frozen source provenance for COL names; not an independent scientific validation or biological dossier.",
+        "zh": "COL 名称的冻结来源追溯；不是独立科学验证或生物档案。"
+      },
+      "limitations": [
+        "Only COL strict accepted species assigned source dataset 1053 are projected; no additional source-only rows are asserted.",
+        "Reference links retain original type, identifiers, source row locators and empty fields.",
+        "Seven COL targets have no exact name/authorship key. Fifteen unlinked accepted archive rows are not projected; unlinked does not mean globally novel or absent from other COL sources."
+      ],
+      "totalCompressedBytes": 137653,
+      "totalSourceBytes": 1721723,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/eumycetozoa-000.json.gz"
+          ],
+          "records": 1337,
+          "totalCompressedBytes": 137653,
+          "totalSourceBytes": 1721723
+        }
+      },
+      "descriptorSha256": "09ee1710f2a701b6fd43f3f0c16f3ae7401bc3d4cfa29c8420f4c6596c4cc270",
+      "canonicalFileInventory": [
+        {
+          "path": "protists-chromists/eumycetozoa-000.json.gz",
+          "records": 1337,
+          "bytes": 137653,
+          "sha256": "4f2aba99df83fbde1f9bf4d4ea5abaa1d0b84eefa18675156968c3a5431b1154",
+          "sourceBytes": 1721723,
+          "sourceSha256": "b7814d4ffb97d1a03cc5bb6a3584cbe9661eb9dc8a657b3a716fc1ddb7d8e307",
+          "minColId": "3574B",
+          "maxColId": "ZFKF",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition"
+        }
+      ],
+      "integration": {
+        "clientParityRequirement": "Full-data inventories retain all declared files byte-for-byte; the light profile publishes summaries only. App and backend upgrades are independently scheduled.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Read the inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "recordType": "release-pinned-authority-archive-crosswalk",
+      "id": "gymnodinium-archive-crosswalk",
+      "packageId": "protists-chromists",
+      "provider": "Gymnodinium checklist via Catalogue of Life ChecklistBank",
+      "rowEncoding": "jsonl",
+      "colIdField": "colId",
+      "totalCountField": "total",
+      "source": {
+        "provider": "The dinoflagellate genus Gymnodinium checklist via Catalogue of Life ChecklistBank",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "archiveUrl": "https://api.checklistbank.org/dataset/1177/archive",
+        "archiveBytes": 19661,
+        "archiveSha256": "7bfcccdfd515b7e5024718bb8c407e5521f727b166fe5a191006658715dbd8d7",
+        "archiveEncoding": "gzip-compressed tar (HTTP Content-Type application/zip)",
+        "version": "0.1",
+        "versionDate": "2017-06-12",
+        "sourceDatabase": {
+          "DatabaseFullName": "The dinoflagellate genus Gymnodinium checklist",
+          "DatabaseName": "Gymnodinium",
+          "DatabaseVersion": "0.1",
+          "ReleaseDate": "2017-06-12",
+          "AuthorsEditors": "Thessen A.",
+          "TaxonomicCoverage": "Chromista - Miozoa - Dinophyceae - Gymnodiniales",
+          "GroupNameInEnglish": "",
+          "Abstract": "This dynamic, working classification of the genus Gymnodinium contains all Gymnodinium names and organizes them into proper reconciliation groups. It was created for the purpose of automated names reconciliation by the Global Names Project. The classification originated in http://dx.doi.org/10.1371/journal.pone.0044015 and has been improved since publication. The current data set can be found at https://github.com/diatomsRcool/gymnodiniales. The data set itself can be cited as 10.5281/zenodo.437529",
+          "Organization": "Individual custodian",
+          "HomeURL": "https://github.com/diatomsRcool/gymnodiniales",
+          "Coverage": "Global",
+          "Completeness": "100",
+          "Confidence": "5",
+          "LogoFileName": "",
+          "ContactPerson": ""
+        },
+        "retrievedAt": "2026-09-04",
+        "members": {
+          "AcceptedSpecies.tsv": {
+            "bytes": 51044,
+            "sha256": "88eb1bae8845358f4193a1d33c2a7811957db37446f031dc9d078843525143bd"
+          },
+          "NameReferences.tsv": {
+            "bytes": 8069,
+            "sha256": "8af2a7ee2162e10a773e7124d7f1f4fc25ac7786f83835a8cb6795e07ada5ee1"
+          },
+          "References.tsv": {
+            "bytes": 16590,
+            "sha256": "0b077a3f09dd1d1443264681e9e2494c0d7b720b946f230e6c022d6fff029a48"
+          },
+          "SourceDatabase.tsv": {
+            "bytes": 981,
+            "sha256": "a5681703fce24dadfab429cc436c0fcab8ec224587a4e3acc0bdc692695587fc"
+          }
+        },
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/gymnodinium-sidecar.json",
+        "canonicalDescriptorBytes": 6234,
+        "canonicalDescriptorSha256": "a19be3c4a522920f8d6017b519444db8ddc90483661f35f1bbbebdcd059bd047",
+        "sourceLedgerPath": "data/sources/gymnodinium-archive-import-ledger.json",
+        "sourceLedgerSha256": "49938361767fcb9a9cc4e4933637d8f3db9dea718aac2bde43e139966619672b"
+      },
+      "scope": {
+        "packageId": "protists-chromists",
+        "colSourceDatasetId": "1177",
+        "colRootUsageId": "4RTJ",
+        "colRootScientificName": "Gymnodinium",
+        "colRootRank": "genus",
+        "sourceKingdom": "Chromista",
+        "sourcePhylum": "Miozoa",
+        "sourceClass": "Dinophyceae",
+        "sourceOrder": "Gymnodiniales",
+        "sourceGenus": "Gymnodinium",
+        "colStrictAcceptedSpecies": 259,
+        "eligibleColSpecies": 259,
+        "projectedSpecies": 259,
+        "matchingKey": "exact source scientific name + authorship",
+        "boundary": "Only strict accepted COL26.8 species descending from exact Gymnodinium genus 4RTJ and source dataset 1177 are included; no Dinophyceae siblings are inferred."
+      },
+      "matching": {
+        "normalization": "UTF-8 quoted TSV; surrounding whitespace is trimmed for name+authorship comparison only.",
+        "prohibited": "No fuzzy, punctuation, edit-distance, phonetic, epithet-substitution, taxon-substitution or missing-authorship matching.",
+        "unmatchedReason": "COL p-dorhnii and source p.dorhni remain unmatched because the source spelling differs."
+      },
+      "counts": {
+        "total": 259,
+        "accepted": 258,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 1,
+        "withheld": 0,
+        "upstreamOnly": 1,
+        "records": 260
+      },
+      "files": [
+        {
+          "path": "protists-chromists/gymnodinium-sidecar-000.json.gz",
+          "records": 259,
+          "bytes": 33971,
+          "sha256": "9b01b603451753d7d19e5b4bdd08979d7700235502af44dc007b054678d0e292",
+          "sourceBytes": 437542,
+          "sourceSha256": "34dd38b1ee40e4027bbac9180967556aefe7a57325c604096d9cd11b60331f19",
+          "minColId": "3HRNL",
+          "maxColId": "CN83B",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "role": "col-partition"
+        }
+      ],
+      "upstreamOnlyFiles": [
+        {
+          "path": "protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz",
+          "records": 1,
+          "bytes": 738,
+          "sha256": "bf15b243a974fa0b733f631c983980e4fcf38e06a6ef31bf4ea978086404ff96",
+          "sourceBytes": 1504,
+          "sourceSha256": "cf1c6d630027543f84ed4c25e0733db60a92ab7253659c3774222edf1ca457b2",
+          "minColId": null,
+          "maxColId": null,
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "role": "upstream-only",
+          "colOwnership": null
+        }
+      ],
+      "evidenceBoundary": {
+        "en": "Frozen source provenance and exact nomenclatural linkage only; this is not independent scientific corroboration, species-concept equivalence, an ecological or biological dossier, fossil evidence or expert review.",
+        "zh": "冻结的来源追溯与严格命名关联；不是独立科学佐证、物种概念等同、生态或生物档案、化石证据或专家审查。"
+      },
+      "limitations": [
+        "One source accepted row (T284, Gymnodinium p.dorhni) remains source-only because its spelling does not exactly match COL Gymnodinium p-dorhnii.",
+        "The source archive's IsExtinct, HasModern and HasPreHolocene fields are preserved source fields, not an Evo Atlas extant-status review."
+      ],
+      "totalCompressedBytes": 34709,
+      "totalSourceBytes": 439046,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/gymnodinium-sidecar-000.json.gz",
+            "protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz"
+          ],
+          "records": 260,
+          "totalCompressedBytes": 34709,
+          "totalSourceBytes": 439046
+        }
+      },
+      "descriptorSha256": "a19be3c4a522920f8d6017b519444db8ddc90483661f35f1bbbebdcd059bd047",
+      "canonicalFileInventory": [
+        {
+          "path": "protists-chromists/gymnodinium-sidecar-000.json.gz",
+          "records": 259,
+          "bytes": 33971,
+          "sha256": "9b01b603451753d7d19e5b4bdd08979d7700235502af44dc007b054678d0e292",
+          "sourceBytes": 437542,
+          "sourceSha256": "34dd38b1ee40e4027bbac9180967556aefe7a57325c604096d9cd11b60331f19",
+          "minColId": "3HRNL",
+          "maxColId": "CN83B",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "role": "col-partition"
+        },
+        {
+          "path": "protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz",
+          "records": 1,
+          "bytes": 738,
+          "sha256": "bf15b243a974fa0b733f631c983980e4fcf38e06a6ef31bf4ea978086404ff96",
+          "sourceBytes": 1504,
+          "sourceSha256": "cf1c6d630027543f84ed4c25e0733db60a92ab7253659c3774222edf1ca457b2",
+          "minColId": null,
+          "maxColId": null,
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "role": "upstream-only",
+          "colOwnership": null
+        }
+      ],
+      "integration": {
+        "clientParityRequirement": "Full-data inventories retain all declared files byte-for-byte; the light profile publishes summaries only. App and backend upgrades are independently scheduled.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Read the inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
+        }
+      }
     }
   ]
 }

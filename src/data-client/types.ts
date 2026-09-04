@@ -392,6 +392,9 @@ export type AuthorityArchiveCollectionId =
   | 'worms-radiozoa-archive-crosswalk'
   | 'osf-orthoptera-archive-crosswalk'
   | 'trichomycetes-archive-crosswalk'
+  | 'cilcat-1113-archive-crosswalk'
+  | 'eumycetozoa-archive-crosswalk'
+  | 'gymnodinium-archive-crosswalk'
 
 export interface AuthorityArchiveName {
   id: string
@@ -420,7 +423,7 @@ export interface RuntimeAuthorityArchiveCollection {
   recordType: 'release-pinned-authority-archive-crosswalk'
   provider: string
   packageId: string
-  source: { license: 'CC-BY-4.0'; [key: string]: unknown }
+  source: { license: 'CC-BY-4.0' | 'CC0-1.0'; [key: string]: unknown }
   scope: Record<string, unknown>
   matching: Record<string, unknown>
   counts: { total: number; accepted: number; redirect: number; ambiguous: number; unmatched: number; withheld: number; upstreamOnly: number }
