@@ -23,6 +23,11 @@ def main():
     assert all(x['status'] in {'accepted', 'redirect', 'ambiguous', 'unmatched', 'withheld'} for x in rows)
     assert all(x['colId'] is not None for x in rows)
     assert all(x['sourceRows'] for x in rows if x['status'] != 'unmatched')
+    redirects = [x for x in rows if x['status'] == 'redirect']
+    assert redirects and all(x['matchedName']['status'] == 'synonym' and x['acceptedName']['status'] == 'accepted' and x['matchedName']['nameId'] != x['acceptedName']['nameId'] for x in redirects)
+    assert all(len(x['candidates']) > 1 for x in rows if x['status'] == 'ambiguous')
+    assert all(x['matchedName'] is None and x['acceptedName'] is None for x in rows if x['status'] in {'unmatched', 'withheld'})
+    assert all(isinstance(locator['row'], int) and locator['row'] >= 2 for x in rows + ([*json.loads(gzip.decompress((ROOT / descriptor['upstreamOnlyFiles'][0]['path']).read_bytes()))]) for locator in x['sourceRows'])
     upstream_file = descriptor['upstreamOnlyFiles'][0]; upstream_path = ROOT / upstream_file['path']; upstream = json.loads(gzip.decompress(upstream_path.read_bytes()))
     assert len(upstream) == 53 and all(x['status'] == 'upstream-only' and x['colId'] is None and x['sourceRows'] for x in upstream)
     assert ledger['totals'] == descriptor['counts']
