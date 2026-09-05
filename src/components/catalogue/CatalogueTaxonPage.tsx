@@ -8,6 +8,7 @@ import {
   loadCatalogueLineage,
   loadCatalogueManifest,
   loadCatalogueSanbiDescriptions,
+  loadCataloguePlaziDescriptions,
   loadCatalogueSpeciesOwnership,
   loadCatalogueSourceChecklists,
   loadWfoPlantRecord,
@@ -89,6 +90,8 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const [visibleChildren, setVisibleChildren] = useState(100)
   const [sanbi, setSanbi] = useState<Awaited<ReturnType<typeof loadCatalogueSanbiDescriptions>>>(null)
   const [sanbiError, setSanbiError] = useState(false)
+  const [plazi, setPlazi] = useState<Awaited<ReturnType<typeof loadCataloguePlaziDescriptions>>>(null)
+  const [plaziError, setPlaziError] = useState(false)
 
   useEffect(() => {
     let cancelled = false
@@ -111,6 +114,11 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
       }
       setNode(loadedNode)
       setStatus('ready')
+      if (loadedManifest.plaziDescriptions && loadedNode.rank === 'species') {
+        void loadCataloguePlaziDescriptions(id).then((record) => {
+          if (!cancelled) setPlazi(record)
+        }).catch(() => { if (!cancelled) setPlaziError(true) })
+      }
       if (loadedManifest.sanbiDescriptions && loadedNode.rank === 'species') {
         void loadCatalogueSanbiDescriptions(id).then((record) => {
           if (!cancelled) setSanbi(record)
@@ -335,6 +343,20 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
           <p className="catalogue-provisional-note">{zh ? '此高阶分类单元由上游标记为暂定接受；它用于连接接受种层级，但不计入 2,183,133 个接受种基线。' : 'The upstream release marks this higher taxon as provisionally accepted. It connects the accepted-species hierarchy but is not counted in the 2,183,133 accepted-species baseline.'}</p>
         )}
         {nodeIntroduction && <p className="catalogue-provisional-note">{zh ? nodeIntroduction.zh : nodeIntroduction.en}</p>}
+        {plaziError && <p role="status">{zh ? 'Plazi 原文描述暂时无法加载。' : 'Plazi original descriptions could not be loaded.'}</p>}
+        {plazi && manifest.plaziDescriptions && <section className="catalogue-source-card">
+          <h2>{zh ? 'Plazi 分类描述（原文）' : 'Plazi taxonomic descriptions (original text)'}</h2>
+          <p>{zh ? '保留原始文献与标本范围，不代表全球完整档案或当前保育评价。原文可能存在排印、提取或表述差异。' : 'Original publication and specimen scope; not a complete global dossier or current conservation assessment. Source text may contain typographic, extraction or wording discrepancies.'}</p>
+          <p><a href={manifest.plaziDescriptions.source.sourceUrl}>{manifest.plaziDescriptions.source.provider}</a> · <a href={manifest.plaziDescriptions.source.licenseUrl}>{manifest.plaziDescriptions.source.license}</a></p>
+          {plazi.descriptions.map((description) => <details key={`${description.archiveSha256}:${description.rowNumber}`}>
+            <summary>{zh ? ({ diagnosis: '鉴别特征', description: '形态描述', biology_ecology: '生物学与生态' }[description.type]) : description.type} · {description.language}</summary>
+            <p lang={description.language} style={{ whiteSpace: 'pre-wrap' }}>{description.text}</p>
+            <p lang="en">{description.citation}</p>
+            <p lang="en">{description.limitations}</p>
+            {description.sourceAuthorship && <p>{zh ? '原始署名：' : 'Source authorship: '}{description.sourceAuthorship}</p>}
+            <small><a href={description.treatmentUrl}>{zh ? '原始分类处理' : 'Original treatment'}</a> · description.txt:{description.rowNumber} · {description.mappingBasis}</small>
+          </details>)}
+        </section>}
         {sanbiError && <p role="status">{zh ? 'SANBI 描述暂时无法加载。' : 'SANBI descriptions could not be loaded.'}</p>}
         {sanbi && manifest.sanbiDescriptions && <section className="catalogue-source-card">
           <h2>{zh ? 'SANBI 植物描述（英文原文）' : 'SANBI botanical descriptions (original English)'}</h2>

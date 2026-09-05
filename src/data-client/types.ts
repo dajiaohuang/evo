@@ -1347,7 +1347,31 @@ export interface CatalogueSanbiDescriptionRecord {
   }>
 }
 
+export interface CataloguePlaziDescriptionRecord {
+  colId: string
+  scientificName: string
+  descriptions: Array<{
+    type: 'diagnosis' | 'description' | 'biology_ecology'
+    text: string
+    language: string
+    citation: string
+    sourceAuthorship?: string
+    sourceLanguage?: string
+    treatmentUrl: string
+    rowNumber: number
+    archiveSha256: string
+    sourceArchive: string
+    mappingBasis: string
+    limitations: string
+  }>
+}
+
 export interface CatalogueRuntimeManifest {
+  plaziDescriptions?: {
+    source: { provider: string; title: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
+    routes: Record<string, string[]>
+    files: CatalogueRuntimeFile[]
+  }
   sanbiDescriptions?: {
     source: { provider: string; title: string; sourceVersion: string; issued: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
     routes: Record<string, string[]>
