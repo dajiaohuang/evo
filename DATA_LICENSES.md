@@ -1,5 +1,12 @@
 # Data licenses and provenance
 
+The Flora of Australia description extract retains 129 paragraphs for 46
+accepted COL26.8 species under each source row's explicit CC BY 4.0 license.
+Preserve Commonwealth of Australia rights-holder years, ABRS attribution,
+publication citations and row locators. Markup is removed for plain-text
+display; this regional historical extract is not a current global assessment.
+See [Flora of Australia source scope](docs/foa-descriptions.md).
+
 The SANBI biological-description projection preserves source text from
 *e-Flora of South Africa* v1.36 (2022-06-06), whose embedded archive metadata
 declares CC BY 4.0 and permission for reuse of published descriptive extracts.

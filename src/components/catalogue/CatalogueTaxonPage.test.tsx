@@ -1,13 +1,14 @@
 import { fireEvent, render, screen } from '@testing-library/react'
 import { beforeEach, expect, it, vi } from 'vitest'
 import { CatalogueTaxonPage } from './CatalogueTaxonPage'
-import { loadCatalogueSanbiDescriptions, loadCataloguePlaziDescriptions } from '../../data-client/staticDataClient'
+import { loadCatalogueSanbiDescriptions, loadCataloguePlaziDescriptions, loadCatalogueFoaDescriptions } from '../../data-client/staticDataClient'
 
 vi.mock('../../i18n', () => ({ useI18n: () => ({ language: 'en' }) }))
 vi.mock('../../data-client/staticDataClient', () => ({
   loadCatalogueManifest: vi.fn(async () => ({
     releaseAlias: 'COL26.8', upstreamTaxonUrlTemplate: 'https://example.org/{id}',
     hierarchy: { counts: { nodes: 1, acceptedSpeciesNodes: 1 } },
+    foaDescriptions: { source: { provider: 'Australian Biological Resources Study', title: 'Flora of Australia', sourceVersion: '2020-12-03 archive', sourceUrl: 'https://example.org/foa.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/' } },
     plaziDescriptions: { source: { provider: 'Plazi TreatmentBank', sourceUrl: 'https://plazi.org', license: 'CC0 1.0', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/' } },
     sanbiDescriptions: { source: { provider: 'SANBI', title: 'e-Flora of South Africa', sourceVersion: '1.36', issued: '2022-06-06', sourceUrl: 'https://example.org/archive.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/' } },
   })),
@@ -18,11 +19,35 @@ vi.mock('../../data-client/staticDataClient', () => ({
   loadCatalogueSourceChecklists: vi.fn(async () => []),
   loadCatalogueSanbiDescriptions: vi.fn(),
   loadCataloguePlaziDescriptions: vi.fn(),
+  loadCatalogueFoaDescriptions: vi.fn(),
 }))
 
 beforeEach(() => {
+  vi.mocked(loadCatalogueFoaDescriptions).mockResolvedValue(null)
   vi.mocked(loadCataloguePlaziDescriptions).mockResolvedValue(null)
   vi.mocked(loadCatalogueSanbiDescriptions).mockResolvedValue({ colId: '8MG5', wfoId: 'wfo-0000178691', packageId: 'angiospermae', descriptions: [{ type: 'Morphology', text: 'Leaves 2–3 mm.', sourceId: '11118.0', citation: 'Original botanical publication', rowNumber: 1 }] })
+})
+
+it('preserves FoA attribution, regional limits and collapsed plain text', async () => {
+  vi.mocked(loadCatalogueFoaDescriptions).mockResolvedValueOnce({ colId: '8MG5', wfoId: 'wfo-example', scientificName: 'Example plant', descriptions: [{
+    type: 'Habitat', text: 'Grows on rocky slopes.', language: 'en', citation: 'Australian flora citation', sourceUrl: 'https://example.org/flora', sourceId: '1958', rowNumber: 3,
+    rightsHolder: 'Commonwealth of Australia (2018)', rights: 'Australian Biological Resource Study', license: 'http://creativecommons.org/licenses/by/4.0',
+  }] })
+  render(<CatalogueTaxonPage release="COL26.8" id="8MG5" onNavigate={vi.fn()} />)
+  const paragraph = await screen.findByText('Grows on rocky slopes.')
+  expect(paragraph).toHaveAttribute('lang', 'en')
+  expect(paragraph.closest('details')!.open).toBe(false)
+  expect(screen.getByText('Australian flora citation')).toBeInTheDocument()
+  expect(screen.getByText(/Commonwealth of Australia/)).toBeInTheDocument()
+  expect(screen.getByText(/Historical Australian regional source/)).toBeInTheDocument()
+  expect(screen.getByRole('link', { name: 'Original source' })).toHaveAttribute('href', 'https://example.org/flora')
+})
+
+it('isolates FoA failure from the classification page', async () => {
+  vi.mocked(loadCatalogueFoaDescriptions).mockRejectedValueOnce(new Error('offline'))
+  render(<CatalogueTaxonPage release="COL26.8" id="8MG5" onNavigate={vi.fn()} />)
+  expect(await screen.findByText('Flora of Australia descriptions could not be loaded.')).toBeInTheDocument()
+  expect(screen.getByRole('heading', { name: 'Example plant' })).toBeInTheDocument()
 })
 
 it('preserves Plazi language, citation and limitations in collapsed details', async () => {

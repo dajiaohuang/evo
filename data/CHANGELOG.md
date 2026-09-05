@@ -2,6 +2,8 @@
 
 ## Unreleased content corrections
 
+- Added 129 original Flora of Australia paragraphs for 46 uniquely linked accepted species, with per-paragraph citations and CC BY 4.0 attribution. Full-Web descriptions load on demand and default to collapsed details; Pages preview omits this regional historical collection. No current global distribution or conservation status is inferred.
+
 - Added the original comparative diagnosis of Wittmackia aurantiolilacina (COL26.8 VBWPB), bringing the Plazi collection to 16 species / 35 paragraphs. Retained source authorship and citation; did not import embedded materials or conservation analysis as a current species assessment.
 
 - Expanded Plazi original descriptions by five accepted species and ten paragraphs (15 species / 34 paragraphs total). Preserved the explicit COL26.8 peugeoti-to-peugeotorum synonym redirect with source name and usage ID; excluded unmatched identities and figure-only material.
