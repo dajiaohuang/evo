@@ -1,5 +1,11 @@
 # Data licenses and provenance
 
+Illustrated Flora of Turkey descriptions retain Resimli Türkiye Florası
+attribution under the archive's CC BY 4.0 declaration. Source Turkish text,
+names and authorship are retained; no missing paragraph citations, translations
+or image rights are inferred. See [source boundaries](docs/turkey-descriptions.md)
+and `data/sources/turkey-descriptions-import-ledger.json`.
+
 Brazilian Flora 2020 extracted descriptions retain Group Brazil Flora, REFLORA
 Program attribution under CC BY 4.0. Morphology uses exact source-reference
 links; source-less habit and habitat fields use dataset-level attribution only.

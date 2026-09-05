@@ -2,6 +2,8 @@
 
 ## Unreleased content corrections
 
+- Added 262 original Turkish morphology descriptions from the Illustrated Flora of Turkey archive with source names/authorship and dataset attribution. Full-Web loads hash-routed shards lazily; Pages preview omits the collection. Record locators are parsed-record numbers, not physical lines.
+
 - Added 122,273 Brazilian Flora 2020 source fields for 28,896 uniquely matched accepted species, preserving Portuguese, Spanish and English text. Morphology uses exact source citations; habit and habitat use dataset attribution. Full-Web loading is lazy; Pages preview excludes the collection. Historical structured fields are not complete dossiers or a current inventory.
 - Losslessly recompressed WFO, SANBI and Brazil build-time Brotli sources and migrated the fungi crosswalk to Brotli, saving 4,717,369 bytes relative to their preceding storage. Decoded bytes and published gzip payload semantics are unchanged; original compressed files remain independently retained.
 

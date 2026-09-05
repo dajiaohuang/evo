@@ -1606,6 +1606,17 @@ const pakistanSource = readJson('data/sources/pakistan-descriptions-import-ledge
 const mossChinaSource = readJson('data/sources/moss-china-descriptions-import-ledger.json')
 const fnaSource = readJson('data/sources/fna-descriptions-import-ledger.json')
 const brazilFloraSource = readJson('data/sources/brazil-flora-descriptions-import-ledger.json')
+const turkeySource = readJson('data/sources/turkey-descriptions-import-ledger.json')
+const turkeyBytes = readFileSync(join(rootDir, turkeySource.output))
+if (turkeyBytes.length !== turkeySource.outputBytes || sha256(turkeyBytes) !== turkeySource.outputSha256) throw new Error('Turkey source bytes differ from the import ledger')
+const turkeyRecords = brotliDecompressSync(turkeyBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
+const turkeyRoutes = {}
+const turkeyFiles = partitionSanbiDescriptions(turkeyRecords).map(([prefix, records]) => {
+  const path = `catalogue/descriptions/turkey-${prefix}.json.gz`
+  const file = { ...writeGzipJson(path, records), prefix, path, records: records.length }
+  turkeyRoutes[prefix] = [file.url]
+  return file
+})
 const brazilFloraBytes = readFileSync(join(rootDir, brazilFloraSource.output))
 if (brazilFloraBytes.length !== brazilFloraSource.outputBytes || sha256(brazilFloraBytes) !== brazilFloraSource.outputSha256) throw new Error('Brazil flora source bytes differ from the import ledger')
 const brazilFloraRecords = brotliDecompressSync(brazilFloraBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
@@ -1708,6 +1719,7 @@ catalogueRuntimeManifest = {
   mossChinaDescriptions: { source: mossChinaSource, routes: mossChinaRoutes, files: mossChinaFiles },
   fnaDescriptions: { source: fnaSource, routes: fnaRoutes, files: fnaFiles },
   brazilFloraDescriptions: { source: brazilFloraSource, routes: brazilFloraRoutes, files: brazilFloraFiles },
+  turkeyDescriptions: { source: turkeySource, routes: turkeyRoutes, files: turkeyFiles },
   sanbiDescriptions: { source: sanbiSource, routes: sanbiRoutes, files: sanbiFiles },
   provenance: catalogueProvenance,
   sourceChecklists: { ...catalogueSourceManifest.sourceChecklists, url: catalogueSourcesFile.url },
@@ -1834,6 +1846,7 @@ const current = {
       + (catalogueRuntimeManifest.mossChinaDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.fnaDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.brazilFloraDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
+      + (catalogueRuntimeManifest.turkeyDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.plaziDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0),
     pagesLimitBytes: 650 * 1024 * 1024,
   },
