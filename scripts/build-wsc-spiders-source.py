@@ -27,7 +27,7 @@ API_VERSION = "2026-08-30"
 API_VERSION_DOI = "10.48580/d4btg.v80"
 COL_SOURCE = "56185"
 COL_ROOTS = ("RN",)
-OUT = ROOT / "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals"
+OUT = ROOT / "data/packages/arthropoda/trilobites-chelicerates/nomenclature"
 SHARD_LIMIT = 2 * 1024 * 1024
 
 
@@ -206,7 +206,7 @@ def write_shards(destination, prefix, rows, role):
         compressed = compressed[:9] + bytes([255]) + compressed[10:]
         (destination / name).write_bytes(compressed)
         item = {
-            "path": f"other-animals/{name}", "records": len(part),
+            "path": f"nomenclature/{name}", "records": len(part),
             "bytes": len(compressed), "sha256": digest(compressed),
             "sourceBytes": len(payload), "sourceSha256": digest(payload),
             "encoding": "gzip", "mediaType": "application/json", "role": role,
@@ -268,7 +268,7 @@ def project(archive, output_root=None):
             continue
         source_only.append({
             "colId": None, "colScientificName": None, "colAuthorship": None,
-            "status": "source-only", "matchedName": None,
+            "status": "upstream-only", "matchedName": None,
             "acceptedName": source_name(row, distributions), "candidates": [],
             "mappingBasis": "Accepted WSC source row not linked by exact COL name+authorship; not a global new species claim.",
             "sourceRows": row_locators(row, row_number, references, distributions),
@@ -291,7 +291,7 @@ def project(archive, output_root=None):
         "citation": api_metadata["citation"], "contact": api_metadata.get("contact"),
         "creator": api_metadata.get("creator"), "contributor": api_metadata.get("contributor"),
         "metadataBytes": len(metadata_bytes), "metadataSha256": digest(metadata_bytes),
-        "license": api_metadata["license"], "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "license": api_metadata["license"],
         "archiveUrl": ARCHIVE_URL, "archiveAttempt": ARCHIVE_ATTEMPT,
         "archivePath": "data/sources/archives/checklistbank-56185-wsc-2026-08-30.zip",
         "metadataPath": "data/sources/archives/checklistbank-56185-wsc-2026-08-30.metadata.json",
@@ -311,7 +311,7 @@ def project(archive, output_root=None):
     }
     descriptor = {
         "schemaVersion": 1, "recordType": "release-pinned-authority-archive-crosswalk",
-        "id": "wsc-spiders-archive-crosswalk", "packageId": "other-animals",
+        "id": "wsc-spiders-archive-crosswalk", "packageId": "trilobites-chelicerates",
         "provider": "World Spider Catalog via ChecklistBank", "role": "authority-crosswalk",
         "rowEncoding": "json", "encoding": "gzip", "mediaType": "application/json",
         "colIdField": "colId", "totalCountField": "total", "source": source_info,
@@ -322,12 +322,8 @@ def project(archive, output_root=None):
             "normalization": "NFC and Unicode-whitespace normalization only; COL trailing authorship is removed exactly.",
             "prohibited": "No fuzzy, case-folded, accent-folded, synonym, redirect or species-concept matching.",
         },
-        "counts": {"total": len(records), **counts, "sourceOnly": len(source_only),
-                   "sourceOnlyRecords": len(source_only), "records": len(records) + len(source_only)},
-        "files": col_files, "sourceOnlyFiles": source_files,
-        # Keep the established integration spelling as an alias while the
-        # record status remains explicitly source-only.
-        "upstreamOnlyFiles": source_files,
+        "counts": {"total": len(records), **counts, "upstreamOnly": len(source_only)},
+        "files": col_files, "upstreamOnlyFiles": source_files,
         "evidenceBoundary": {
             "en": "Frozen WSC nomenclatural/source projection for the exact COL26.8 source-56185 Araneae root; not species-concept equivalence, a biological dossier, fossil evidence, distribution completeness or expert review.",
             "zh": "精确 COL26.8 source-56185 Araneae 根节点范围的 WSC 冻结命名/来源投影；不是物种概念等同性、生物档案、化石证据、分布完整性或专家审查。",
@@ -364,9 +360,9 @@ def project(archive, output_root=None):
         "source": source_info, "registryManifestSha256": col_sha, "registryInputs": col_inputs,
         "generatedBy": {"script": "scripts/build-wsc-spiders-source.py",
                         "scriptSha256": script_digest(Path(__file__)), "hashNormalization": "LF"},
-        "outputs": {"descriptor": {"path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/wsc-spiders-sidecar.json",
+        "outputs": {"descriptor": {"path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/wsc-spiders-sidecar.json",
                                      "bytes": len(descriptor_bytes), "sha256": digest(descriptor_bytes)},
-                    "files": col_files, "sourceOnlyFiles": source_files,
+                    "files": col_files,
                     "upstreamOnlyFiles": source_files},
         "scopeAudit": {"colRootUsageIds": list(COL_ROOTS), "colSpecies": len(col),
                         "sourceAcceptedSpecies": source_count, "sourceOnly": len(source_only),

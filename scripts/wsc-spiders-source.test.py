@@ -18,14 +18,14 @@ spec.loader.exec_module(mod)
 
 class WscSpidersProjectionTests(unittest.TestCase):
     def test_two_offline_replays_are_byte_identical_and_cover_pinned_archive(self):
-        canonical_root = ROOT / "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals"
+        canonical_root = ROOT / "data/packages/arthropoda/trilobites-chelicerates/nomenclature"
         ledger_path = ROOT / "data/sources/wsc-spiders-archive-56185-import-ledger.json"
         ledger_before = ledger_path.read_bytes()
         with tempfile.TemporaryDirectory() as one, tempfile.TemporaryDirectory() as two:
             mod.project(mod.ARCHIVE, Path(one))
             mod.project(mod.ARCHIVE, Path(two))
-            roots = [Path(one) / "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals",
-                     Path(two) / "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals"]
+            roots = [Path(one) / "data/packages/arthropoda/trilobites-chelicerates/nomenclature",
+                     Path(two) / "data/packages/arthropoda/trilobites-chelicerates/nomenclature"]
             names = sorted(p.name for p in roots[0].glob("wsc-spiders*.json.gz")) + ["wsc-spiders-sidecar.json"]
             for name in names:
                 first = (roots[0] / name).read_bytes()
@@ -38,13 +38,17 @@ class WscSpidersProjectionTests(unittest.TestCase):
 
             descriptor = json.loads((roots[0] / "wsc-spiders-sidecar.json").read_text(encoding="utf-8"))
             self.assertEqual(descriptor["scope"]["colRootUsageIds"], ["RN"])
+            self.assertEqual(descriptor["packageId"], "trilobites-chelicerates")
             self.assertEqual(descriptor["scope"]["eligibleColSpecies"], 53353)
             self.assertEqual(descriptor["scope"]["sourceAcceptedSpecies"], 53400)
             self.assertEqual(descriptor["counts"], {
                 "total": 53353, "accepted": 53338, "redirect": 0,
                 "ambiguous": 0, "unmatched": 15, "withheld": 0,
-                "sourceOnly": 62, "sourceOnlyRecords": 62, "records": 53415,
+                "upstreamOnly": 62,
             })
+            self.assertNotIn("sourceOnlyFiles", descriptor)
+            self.assertTrue(all(item["path"].startswith("nomenclature/")
+                                for item in descriptor["files"] + descriptor["upstreamOnlyFiles"]))
             source = descriptor["source"]
             self.assertEqual(source["archiveBytes"], mod.ARCHIVE_BYTES)
             self.assertEqual(source["archiveSha256"], mod.ARCHIVE_SHA)
@@ -58,20 +62,21 @@ class WscSpidersProjectionTests(unittest.TestCase):
             self.assertEqual(source["embeddedMetadata"]["license"], "cc by")
             self.assertEqual(source["metadataConsistency"]["status"], "mismatch")
             self.assertEqual(source["license"], "cc by")
+            self.assertNotIn("licenseUrl", source)
             ledger = json.loads(ledger_path.read_text(encoding="utf-8"))
             self.assertEqual(ledger["source"], source)
 
             rows = sum((json.loads(gzip.decompress((roots[0] / item["path"].split("/")[-1]).read_bytes()))
                         for item in descriptor["files"]), [])
             source_only = sum((json.loads(gzip.decompress((roots[0] / item["path"].split("/")[-1]).read_bytes()))
-                               for item in descriptor["sourceOnlyFiles"]), [])
+                               for item in descriptor["upstreamOnlyFiles"]), [])
             self.assertEqual(len(rows), 53353)
             self.assertEqual(len(source_only), 62)
             self.assertEqual(sum(item["records"] for item in descriptor["files"]), 53353)
-            self.assertEqual(sum(item["records"] for item in descriptor["sourceOnlyFiles"]), 62)
+            self.assertEqual(sum(item["records"] for item in descriptor["upstreamOnlyFiles"]), 62)
             self.assertTrue(all(item["sourceBytes"] <= mod.SHARD_LIMIT
-                                for item in descriptor["files"] + descriptor["sourceOnlyFiles"]))
-            self.assertEqual({row["status"] for row in source_only}, {"source-only"})
+                                for item in descriptor["files"] + descriptor["upstreamOnlyFiles"]))
+            self.assertEqual({row["status"] for row in source_only}, {"upstream-only"})
             self.assertEqual(sum(row["status"] == "accepted" for row in rows), 53338)
             self.assertEqual(sum(row["status"] == "unmatched" for row in rows), 15)
             self.assertEqual(sum(row["status"] == "ambiguous" for row in rows), 0)

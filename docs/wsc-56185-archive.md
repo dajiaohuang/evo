@@ -14,8 +14,8 @@ The API metadata response is retained as
 The current API response identifies the dataset as *The World Spider Catalog*,
 version `2026-08-30`, version DOI `10.48580/d4btg.v80`, base DOI
 `10.48580/d4btg`, issued 2026-08-30, and declares the raw license value
-`cc by` (CC BY 4.0). The exact citation, creator, contact and contributors are
-copied from that response.
+`cc by`; no normalized license version or license URL is inferred. The exact
+citation, creator, contact and contributors are copied from that response.
 
 ## Archive metadata boundary
 
@@ -42,7 +42,8 @@ The COL boundary is the exact accepted-species closure below root usage `RN`,
 accepted species. The archive contains 53,400 accepted species-ranked
 `NameUsage` rows. Exact matching yields 53,338 accepted matches and 15
 unmatched COL rows. There are no ambiguous, redirect or withheld rows. The
-remaining 62 accepted source rows are a separate `source-only` partition.
+remaining 62 accepted source rows are a separate `upstream-only` partition
+(the source-only records are not assigned a COL ID).
 
 Matching applies only NFC and Unicode-whitespace normalization, with COL's
 trailing authorship removed exactly. It does not perform fuzzy, case-folded,
@@ -57,9 +58,9 @@ page, link, source row locator and distribution rows. Where available, raw
 `Reference.tsv` objects and their locators are retained. `source-only` rows are
 not global new-species claims.
 
-The 53,353 COL rows occupy 43 gzip JSONL shards and the 62 source-only rows
-occupy one separate shard. Their combined payload is 88,125,494 uncompressed
-bytes and 8,012,725 compressed bytes; the largest uncompressed shard is
+The 53,353 COL rows occupy 43 gzip JSON shards and the 62 upstream-only rows
+occupy one separate shard. Their combined payload is 88,125,618 uncompressed
+bytes and 8,012,727 compressed bytes; the largest uncompressed shard is
 2,095,862 bytes, below the 2 MiB limit. Web delivery is summary-only; the
 native-full profile lists all 44 shards and all 53,415 records.
 
@@ -75,7 +76,7 @@ committed archive, the retained API metadata and the existing COL registry; it
 does not call ChecklistBank at build time:
 
 ```bash
-python -B scripts/build-wsc-spiders-source.py
+rtk python -B scripts/build-wsc-spiders-source.py
 ```
 
 The focused test performs two isolated deterministic rebuilds, checks exact
@@ -84,5 +85,5 @@ row count, checks the metadata mismatch disclosure, and replays every source
 ID and locator against the original ZIP:
 
 ```bash
-python -B scripts/wsc-spiders-source.test.py
+rtk python -B scripts/wsc-spiders-source.test.py
 ```
