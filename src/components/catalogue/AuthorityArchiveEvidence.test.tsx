@@ -21,6 +21,20 @@ const collection: RuntimeAuthorityArchiveCollection = {
 
 describe('authority archive disclosure', () => {
   afterEach(() => { vi.clearAllMocks() })
+  it.each([true, false])('does not label a name match as source acceptance (zh=%s)', async (zh) => {
+    load.mockResolvedValue({ collection: { ...collection, id: 'mdd-mammalia-other-mammals-archive-crosswalk',
+      packageId: 'other-mammals', delivery: { ...collection.delivery, completeRows: true } },
+    record: { colId: '323B3', colScientificName: 'Example species', colAuthorship: null, status: 'accepted',
+      matchedName: { id: 'source-1', scientificName: 'Example species', authorship: '', status: '', url: '' },
+      acceptedName: null, candidates: [], mappingBasis: 'Exact name match only.', sourceRows: [] } })
+    const { container } = render(<AuthorityArchiveEvidence colId="323B3" packageId="other-mammals" lineageIds={['6224G']} zh={zh} />)
+    const details = container.querySelector('details')!
+    details.open = true
+    fireEvent(details, new Event('toggle'))
+    expect(await screen.findByText(zh ? '当前记录：唯一名称对应' : 'This record: unique name match')).toBeInTheDocument()
+    expect(screen.getByText(zh ? '唯一名称对应／明示重定向' : 'Unique name matches / explicit redirects')).toBeInTheDocument()
+    expect(screen.queryByText(/接受名精确对应|Accepted \/ explicit redirects|This record: accepted/)).not.toBeInTheDocument()
+  })
   it('stays collapsed without loading rows and distinguishes Web summary from an unmatched name', async () => {
     load.mockResolvedValue({ collection, record: null })
     const { container } = render(<AuthorityArchiveEvidence colId="M001" packageId="molluscs-brachiopods" lineageIds={['M2L']} zh={false} />)

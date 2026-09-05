@@ -105,21 +105,21 @@ function ArchiveRecord({ scope, colId, zh }: { scope: typeof scopes[number]; col
   const archiveDoi = archiveMetadata && typeof archiveMetadata === 'object'
     && 'versionDoi' in archiveMetadata && typeof archiveMetadata.versionDoi === 'string'
     ? archiveMetadata.versionDoi : ''
-  const statuses = { accepted: '接受名精确对应', redirect: '明示接受名重定向', ambiguous: '多个候选', unmatched: '没有精确对应', withheld: '保留未定', 'upstream-only': '仅权威源收录', 'source-only': '仅权威源收录' }
+  const statuses = { accepted: '唯一名称对应', redirect: '明示接受名重定向', ambiguous: '多个候选', unmatched: '没有精确对应', withheld: '保留未定', 'upstream-only': '仅权威源收录', 'source-only': '仅权威源收录' }
   return <div className="catalogue-source-card">
     <strong>{collection.provider}</strong>
     <span>{version} · {collection.source.license}</span>
     <p>{zh ? collection.evidenceBoundary.zh : collection.evidenceBoundary.en}</p>
     <dl>
       <div><dt>{zh ? '本范围 COL 记录' : 'COL records in this scope'}</dt><dd>{counts.total.toLocaleString()}</dd></div>
-      <div><dt>{zh ? '接受名／明示重定向' : 'Accepted / explicit redirects'}</dt><dd>{counts.accepted.toLocaleString()} / {counts.redirect.toLocaleString()}</dd></div>
+      <div><dt>{zh ? '唯一名称对应／明示重定向' : 'Unique name matches / explicit redirects'}</dt><dd>{counts.accepted.toLocaleString()} / {counts.redirect.toLocaleString()}</dd></div>
       <div><dt>{zh ? '多候选／无对应／未定' : 'Ambiguous / unmatched / withheld'}</dt><dd>{counts.ambiguous.toLocaleString()} / {counts.unmatched.toLocaleString()} / {counts.withheld.toLocaleString()}</dd></div>
       <div><dt>{zh ? '独立的源特有记录' : 'Separate source-only records'}</dt><dd>{counts.upstreamOnly.toLocaleString()}</dd></div>
     </dl>
     {!collection.delivery.completeRows ? <p>{zh ? '网页版只提供本来源的摘要与文件清单；逐条记录随 Android 和 iOS 完整数据提供。这不表示当前物种没有对应记录。' : 'Web provides this source’s summary and file inventory; row-level records ship with the full Android and iOS data. This does not mean this species is unmatched.'}</p>
       : !record ? <p>{zh ? '固定映射中未找到这个 COL ID；未猜测替代记录。' : 'This COL ID was not found in the pinned mapping; no substitute was guessed.'}</p>
         : <>
-          <p>{zh ? '当前记录：' : 'This record: '}{zh ? statuses[record.status] : record.status}</p>
+          <p>{zh ? '当前记录：' : 'This record: '}{zh ? statuses[record.status] : record.status === 'accepted' ? 'unique name match' : record.status}</p>
           {record.matchedName && <p><SourceName name={record.matchedName} /></p>}
           {record.acceptedName && (record.acceptedName.id !== record.matchedName?.id || record.acceptedName.nameId !== record.matchedName?.nameId) && <p>{zh ? '来源接受名：' : 'Source accepted name: '}<SourceName name={record.acceptedName} /></p>}
           {record.candidates.length > 0 && <ul>{record.candidates.map((candidate, index) => <li key={`${candidate.id}:${index}`}><SourceName name={candidate} /></li>)}</ul>}
