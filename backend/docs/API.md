@@ -27,6 +27,8 @@ The catalogue registry manifest URL is derived from the current `data/manifest.j
 
 `GET /v1/sync/files?profile=full` returns a sorted, stable file page. Each descriptor includes `path`, `profile` at the response level, `bytes`, `sha256`, `mediaType`, `encoding`, `releaseVersion`, and is addressable below `/v1/resources/`. `limit` defaults to 500 and is capped at 5,000. `nextCursor` resumes the exact file list. `since=<current datasetVersion>` returns `upToDate: true` with no files; other versions receive the current full inventory and `deltaFrom` records the requested version.
 
+`GET /v1/sync/files.ndjson?profile=full` is the streaming current-release sync path. It emits one `kind: "manifest"` line followed by one `kind: "file"` descriptor per line, so native clients can schedule and resume downloads without materializing the full descriptor response. It accepts an optional `prefix`; a non-current `since` is rejected because this endpoint does not provide historical-version compatibility. Each file remains byte-preserving and resumable through `/v1/resources/`.
+
 ## Maps, scenes and packages
 
 `/v1/maps/manifest` indexes all six paleogeography series layers by numeric frame age and includes observation and paleotopography manifests. Frame selection metadata is nearest-frame and younger-on-tie, matching the static client contract. `/v1/scenes` exposes committed story/event resources, and `/v1/packages/{id}` exposes package metadata plus canonical file descriptors for offline acquisition.

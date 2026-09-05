@@ -1,6 +1,7 @@
 package api
 
 import (
+	"bufio"
 	"context"
 	"crypto/sha256"
 	"encoding/base64"
@@ -48,6 +49,8 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		h.search(w, r)
 	case r.URL.Path == "/v1/sync/files":
 		h.syncFiles(w, r)
+	case r.URL.Path == "/v1/sync/files.ndjson":
+		h.syncFilesStream(w, r)
 	case strings.HasPrefix(r.URL.Path, "/v1/resources/"):
 		h.resource(w, r)
 	case r.URL.Path == "/v1/catalogue/manifest":
@@ -104,8 +107,8 @@ func (h *Handler) capabilities(w http.ResponseWriter, r *http.Request) {
 			"full":      map[string]any{"available": true, "offline": true, "scope": "complete current data release"},
 			"web-light": map[string]any{"available": true, "offline": false, "scope": "client-selected subset; not a backend authorization boundary"},
 		},
-		"features":     []string{"entity-query", "catalogue-name-search", "catalogue-hierarchy", "catalogue-tree-stream", "evidence-and-sources", "package-files", "scene-data", "paleogeography", "paleotopography", "range-etag", "resumable-sync", "atomic-release-reload"},
-		"endpoints":    map[string]string{"currentRelease": "/v1/releases/current", "entities": "/v1/entities/{id}", "search": "/v1/search/names?q={query}", "children": "/v1/entities/{id}/children", "evidence": "/v1/entities/{id}/evidence", "resource": "/v1/resources/{data-path}", "sync": "/v1/sync/files?profile=full", "catalogueTree": "/v1/catalogue/tree.ndjson", "maps": "/v1/maps/manifest"},
+		"features":     []string{"entity-query", "catalogue-name-search", "catalogue-hierarchy", "catalogue-tree-stream", "evidence-and-sources", "package-files", "scene-data", "paleogeography", "paleotopography", "range-etag", "resumable-sync", "streaming-sync-manifest", "atomic-release-reload"},
+		"endpoints":    map[string]string{"currentRelease": "/v1/releases/current", "entities": "/v1/entities/{id}", "search": "/v1/search/names?q={query}", "children": "/v1/entities/{id}/children", "evidence": "/v1/entities/{id}/evidence", "resource": "/v1/resources/{data-path}", "sync": "/v1/sync/files?profile=full", "syncStream": "/v1/sync/files.ndjson?profile=full", "catalogueTree": "/v1/catalogue/tree.ndjson", "maps": "/v1/maps/manifest"},
 		"queryIndexes": map[string]any{"atlasEntities": "in-memory 403-record registry", "catalogueNames": "release search shards with bounded page window", "catalogueHierarchy": "resident packed adjacency"},
 		"treeIndex":    treeIndex, "treeRoots": treeRoots,
 		"scopeStatement": s.Manifest.ScopeStatement, "wholeLifeCoverageClaim": s.Manifest.WholeLifeClaim,
@@ -541,6 +544,78 @@ func (h *Handler) syncFiles(w http.ResponseWriter, r *http.Request) {
 		out["nextCursor"] = encodeCursor(end)
 	}
 	writeJSON(w, r, 200, out, "no-store")
+}
+
+// syncFilesStream emits a manifest line followed by one file descriptor per
+// line. It is the current full-release sync path for clients that need to
+// schedule downloads incrementally without materializing the descriptor list.
+func (h *Handler) syncFilesStream(w http.ResponseWriter, r *http.Request) {
+	s := h.Store.Snapshot()
+	profile := r.URL.Query().Get("profile")
+	if profile == "" {
+		profile = "full"
+	}
+	if profile != "full" {
+		errorJSON(w, http.StatusBadRequest, "unsupported_profile", "full is the complete offline profile; preview filtering belongs to clients")
+		return
+	}
+	if since := r.URL.Query().Get("since"); since != "" && since != s.Manifest.DatasetVersion {
+		errorJSON(w, http.StatusConflict, "release_mismatch", "streaming sync only serves the current release")
+		return
+	}
+	prefix := r.URL.Query().Get("prefix")
+	if prefix != "" && prefix != "data/" {
+		var err error
+		prefix, err = store.NormalizeResourcePath(prefix)
+		if err != nil {
+			errorJSON(w, http.StatusBadRequest, "invalid_prefix", err.Error())
+			return
+		}
+	}
+	files := s.ListFiles(prefix)
+	var totalBytes int64
+	for _, file := range files {
+		totalBytes += file.Bytes
+	}
+	w.Header().Set("Content-Type", "application/x-ndjson; charset=utf-8")
+	w.Header().Set("Cache-Control", "no-store")
+	w.Header().Set("X-Dataset-Version", s.Manifest.DatasetVersion)
+	w.Header().Set("X-Content-Profile", profile)
+	w.WriteHeader(http.StatusOK)
+	if r.Method == http.MethodHead {
+		return
+	}
+	writer := bufio.NewWriterSize(w, 256<<10)
+	encoder := json.NewEncoder(writer)
+	if err := encoder.Encode(map[string]any{
+		"kind": "manifest", "schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion,
+		"datasetVersion": s.Manifest.DatasetVersion, "releaseVersion": s.Manifest.DatasetVersion, "profile": profile,
+		"complete": true, "totalFiles": len(files), "totalBytes": totalBytes, "resourceBase": "/v1/resources/",
+	}); err != nil {
+		return
+	}
+	for index, file := range files {
+		if err := r.Context().Err(); err != nil {
+			return
+		}
+		file, err := s.EnsureHash(r.Context(), file.Path)
+		if err != nil {
+			return
+		}
+		if err := encoder.Encode(map[string]any{
+			"kind": "file", "path": file.Path, "profile": profile, "bytes": file.Bytes,
+			"sha256": file.SHA256, "mediaType": file.MediaType, "encoding": file.Encoding,
+			"releaseVersion": s.Manifest.DatasetVersion, "url": "/v1/resources/" + file.Path,
+		}); err != nil {
+			return
+		}
+		if index&127 == 127 {
+			if err := writer.Flush(); err != nil {
+				return
+			}
+		}
+	}
+	_ = writer.Flush()
 }
 
 func absFloat(value float64) float64 {

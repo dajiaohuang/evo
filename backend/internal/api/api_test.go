@@ -92,6 +92,25 @@ func TestCapabilitiesAndCurrentRelease(t *testing.T) {
 	if w.Code != http.StatusOK || w.Header().Get("Content-Type") != "application/x-ndjson; charset=utf-8" {
 		t.Fatalf("tree stream HEAD contract: %d %q", w.Code, w.Header().Get("Content-Type"))
 	}
+	w = request(t, h, "GET", "/v1/sync/files.ndjson?profile=full&prefix=data/manifest.json", nil)
+	if w.Code != http.StatusOK || w.Header().Get("Content-Type") != "application/x-ndjson; charset=utf-8" {
+		t.Fatalf("sync stream contract: %d %q", w.Code, w.Header().Get("Content-Type"))
+	}
+	lines := strings.Split(strings.TrimSpace(w.Body.String()), "\n")
+	if len(lines) != 2 {
+		t.Fatalf("sync stream lines=%d body=%s", len(lines), w.Body.String())
+	}
+	var manifest, file map[string]any
+	if err := json.Unmarshal([]byte(lines[0]), &manifest); err != nil || manifest["kind"] != "manifest" || manifest["totalFiles"] != float64(1) {
+		t.Fatalf("sync stream manifest: %s", lines[0])
+	}
+	if err := json.Unmarshal([]byte(lines[1]), &file); err != nil || file["kind"] != "file" || file["path"] != "data/manifest.json" {
+		t.Fatalf("sync stream file: %s", lines[1])
+	}
+	w = request(t, h, "GET", "/v1/sync/files.ndjson?since=not-current", nil)
+	if w.Code != http.StatusConflict {
+		t.Fatalf("sync stream release mismatch status %d", w.Code)
+	}
 }
 
 func contains(values []any, want string) bool {
