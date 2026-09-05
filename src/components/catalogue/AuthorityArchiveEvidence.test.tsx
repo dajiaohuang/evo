@@ -40,6 +40,13 @@ describe('authority archive disclosure', () => {
     expect(load).not.toHaveBeenCalled()
   })
   it.each([
+    ['perissodactyla', '623DW', 'MDD1', 'mdd-mammalia-perissodactyla-archive-crosswalk', 'MDD'],
+    ['cetartiodactyla', '6227M', 'MDD2', 'mdd-mammalia-cetartiodactyla-archive-crosswalk', 'MDD'],
+    ['cetartiodactyla', 'WP', 'MDD3', 'mdd-mammalia-cetartiodactyla-archive-crosswalk', 'MDD'],
+    ['primates', '3W7', 'MDD4', 'mdd-mammalia-primates-archive-crosswalk', 'MDD'],
+    ['carnivora', 'VS', 'MDD5', 'mdd-mammalia-carnivora-archive-crosswalk', 'MDD'],
+    ['other-mammals', '6224G', '323B3', 'mdd-mammalia-other-mammals-archive-crosswalk', 'MDD'],
+    ['crocodylomorphs-birds', 'V2', '322KX', 'ioc-aves-archive-crosswalk', 'IOC'],
     ['trilobites-chelicerates', 'RN', 'SPIDER1', 'wsc-spiders-archive-crosswalk', 'World Spider Catalog'],
     ['crustaceans-insects', '93', '326BJ', 'chilobase-archive-crosswalk', 'ChiloBase'],
     ['trilobites-chelicerates', '42N', '345WT', 'scorpion-files-archive-crosswalk', 'The Scorpion Files'],
@@ -60,7 +67,9 @@ describe('authority archive disclosure', () => {
   })
   it('does not route bird members of the mixed package to ReptileDB', () => {
     const { container } = render(<AuthorityArchiveEvidence colId="BIRD1" packageId="crocodylomorphs-birds" lineageIds={['RP', 'V2']} zh={false} />)
-    expect(container.querySelector('details')).toBeNull()
+    expect(container.querySelector('details')).not.toBeNull()
+    expect(screen.getByText(/IOC · Aves/)).toBeInTheDocument()
+    expect(screen.queryByText(/ReptileDB/)).not.toBeInTheDocument()
     expect(load).not.toHaveBeenCalled()
   })
   it('labels the archive version DOI separately when ReptileDB API metadata has none', async () => {
@@ -74,6 +83,19 @@ describe('authority archive disclosure', () => {
     expect(await screen.findByRole('link', { name: 'Verify the version recorded inside the archive' }))
       .toHaveAttribute('href', 'https://doi.org/10.48580/d37s.v31')
     expect(screen.queryByRole('link', { name: 'Verify the pinned source version' })).not.toBeInTheDocument()
+  })
+  it('keeps the IOC archive DOI URL distinct from the ChecklistBank version DOI', async () => {
+    load.mockResolvedValue({ collection: { ...collection, id: 'ioc-aves-archive-crosswalk',
+      packageId: 'crocodylomorphs-birds', source: { license: 'cc by', versionDoi: '10.48580/d4g8.v168',
+        archiveMetadataDoi: 'https://doi.org/10.14344/IOC.ML.15.2' } }, record: null })
+    const { container } = render(<AuthorityArchiveEvidence colId="322KX" packageId="crocodylomorphs-birds" lineageIds={['RP', 'V2']} zh={false} />)
+    const details = container.querySelector('details')!
+    details.open = true
+    fireEvent(details, new Event('toggle'))
+    expect(await screen.findByRole('link', { name: 'Verify the original archive DOI' }))
+      .toHaveAttribute('href', 'https://doi.org/10.14344/IOC.ML.15.2')
+    expect(screen.getByRole('link', { name: 'Verify the pinned source version' }))
+      .toHaveAttribute('href', 'https://doi.org/10.48580/d4g8.v168')
   })
   it('discloses WSC API and embedded archive metadata without inventing a version', async () => {
     load.mockResolvedValue({ collection: { ...collection, id: 'wsc-spiders-archive-crosswalk',

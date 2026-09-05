@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc144 — 2026-09-05
+
+- Integrated five package-scoped Mammal Diversity Database projections and the IOC Aves projection from their byte-pinned ChecklistBank archives. MDD retains 6,461 COL outcomes plus 1,775 separate source-only records; IOC retains 11,044 COL outcomes plus 626 separate source-only records. These 19,906 crosswalk records are not a deduplicated species union or biological dossiers.
+- The full-data profile retains all 60 row shards. The lightweight preview publishes only the six summaries and canonical inventories. Exact lineage and package routes keep birds separate from Crocodylia and preserve existing ITIS, AviList and ReptileDB collections.
+- Original blank MDD source status stays blank, rather than being relabelled accepted. Matching uses unique normalized scientific names, not authorship as a matching key. Accepted catalogue status does not imply an extant organism. Raw API `cc by`, embedded archive `CC-BY`, and the separate IOC archive and ChecklistBank DOIs remain distinct. See [MDD source scope](../docs/mdd-9802-archive.md) and [IOC source scope](../docs/ioc-2036-archive.md).
+
 ## 2026.09-static-v5-rc143 — 2026-09-05
 
 - Added the byte-pinned World Spider Catalog / ChecklistBank 56185 archive and complete Araneae projection: 53,353 COL outcomes (53,338 exact name/authorship matches and 15 unmatched), plus 62 separate null-COL source-only records. All 53,415 rows in 44 shards enter the full native data profile; lightweight Web retains summaries and inventories.

@@ -1,5 +1,17 @@
 # Data licenses and provenance
 
+RC144 retains the Mammal Diversity Database (ChecklistBank 9802, version 2.1)
+and IOC World Bird List (ChecklistBank 2036, version 15.2) pinned archives and
+derived name crosswalks. Their API license labels are raw `cc by`; embedded
+archives declare `CC-BY`. No specific Creative Commons license version is
+inferred from those labels. COL26.8 input records remain CC BY 4.0. Preserve
+source identifiers, attribution and row locators, including unmatched and
+separate null-COL source-only outcomes. MDD DOI `10.48580/dfp2`, IOC
+ChecklistBank version DOI `10.48580/d4g8.v168`, and IOC archive DOI
+`https://doi.org/10.14344/IOC.ML.15.2` identify separate source metadata.
+See [MDD provenance](docs/mdd-9802-archive.md) and
+[IOC provenance](docs/ioc-2036-archive.md) for original bytes and limitations.
+
 RC143 retains the World Spider Catalog archive from ChecklistBank dataset
 56185, import attempt 80, attributed to Natural History Museum Bern (2026).
 Both retained API and embedded archive metadata declare raw `cc by`; no license

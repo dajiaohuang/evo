@@ -3,6 +3,13 @@ import { loadPackageAuthorityArchiveRecord, loadPackageAuthorityArchiveSourceOnl
 import type { AuthorityArchiveCollectionId, AuthorityArchiveName, AuthorityArchiveRecord, RuntimeAuthorityArchiveCollection } from '../../data-client/types'
 
 const scopes: Array<{ root: string; packageId: string; id: AuthorityArchiveCollectionId; title: string }> = [
+  { root: '623DW', packageId: 'perissodactyla', id: 'mdd-mammalia-perissodactyla-archive-crosswalk', title: 'MDD · Perissodactyla' },
+  { root: '6227M', packageId: 'cetartiodactyla', id: 'mdd-mammalia-cetartiodactyla-archive-crosswalk', title: 'MDD · Artiodactyla / Cetacea' },
+  { root: 'WP', packageId: 'cetartiodactyla', id: 'mdd-mammalia-cetartiodactyla-archive-crosswalk', title: 'MDD · Artiodactyla / Cetacea' },
+  { root: '3W7', packageId: 'primates', id: 'mdd-mammalia-primates-archive-crosswalk', title: 'MDD · Primates' },
+  { root: 'VS', packageId: 'carnivora', id: 'mdd-mammalia-carnivora-archive-crosswalk', title: 'MDD · Carnivora' },
+  { root: '6224G', packageId: 'other-mammals', id: 'mdd-mammalia-other-mammals-archive-crosswalk', title: 'MDD · Other Mammalia' },
+  { root: 'V2', packageId: 'crocodylomorphs-birds', id: 'ioc-aves-archive-crosswalk', title: 'IOC · Aves' },
   { root: 'RN', packageId: 'trilobites-chelicerates', id: 'wsc-spiders-archive-crosswalk', title: 'World Spider Catalog · Araneae' },
   { root: 'M2L', packageId: 'molluscs-brachiopods', id: 'worms-mollusca-archive-crosswalk', title: 'WoRMS · Mollusca' },
   { root: 'B8TXQ', packageId: 'sponges-cnidarians', id: 'worms-porifera-archive-crosswalk', title: 'WoRMS · Porifera' },
@@ -119,6 +126,7 @@ function ArchiveRecord({ scope, colId, zh }: { scope: typeof scopes[number]; col
           <p>{record.mappingBasis}</p>
         </>}
     {doi && <a href={`https://doi.org/${doi}`} target="_blank" rel="noreferrer">{zh ? '核对固定来源版本' : 'Verify the pinned source version'}</a>}
+    {typeof collection.source.archiveMetadataDoi === 'string' && collection.source.archiveMetadataDoi && <a href={collection.source.archiveMetadataDoi.startsWith('https://doi.org/') ? collection.source.archiveMetadataDoi : `https://doi.org/${collection.source.archiveMetadataDoi}`} target="_blank" rel="noreferrer">{zh ? '核对原始归档 DOI' : 'Verify the original archive DOI'}</a>}
     <ArchiveMetadataDifference source={collection.source} zh={zh} />
     {archiveDoi && archiveDoi !== doi && <a href={`https://doi.org/${archiveDoi}`} target="_blank" rel="noreferrer">{zh ? '核对归档内记录的版本' : 'Verify the version recorded inside the archive'}</a>}
     {collection.delivery.completeRows && counts.upstreamOnly > 0 && <SourceOnlyDisclosure collection={collection} zh={zh} />}
