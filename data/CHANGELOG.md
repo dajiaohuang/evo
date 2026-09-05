@@ -2,6 +2,8 @@
 
 ## Unreleased content corrections
 
+- Distinguished Lingula anatina adult genomic material, embryonic and adult transcriptomes, and adult shell proteomics in the source description. Updated the Octopus map example to match the corrected sampling and duplication limitations.
+
 - Clarified the Octopus bimaculoides genome and RNA sampling relationship, replaced ambiguous cephalopod-specific expression wording, and retained the study's limitation that duplication followed by extensive gene loss was not excluded.
 
 - Clarified Ust’-Ishim 1 as an individual calibrated age at 95.4% probability, not the origin or complete range of Homo sapiens; separated dating (SI1) and admixture-model (SI18) reference locators.
