@@ -474,7 +474,7 @@ export const packageDefinitions = [
     path: 'arthropoda/trilobites-chelicerates',
     title: 'Trilobites and Chelicerates',
     titleZh: '三叶虫与螯肢动物',
-    rootEntityIds: ['trilobita', 'chelicerata'],
+    rootEntityIds: ['trilobita', 'chelicerata', 'parioscorpio'],
     conceptScope: {
       en: 'Twelve bilingual primary-evidence dossiers connect named trilobite and chelicerate fossils, three-dimensional anatomy, functional comparisons, morphology matrices and living genomic-scale analyses. Tatelt, Burgess Shale, Chengjiang, Wheeler, Willwerath, Šárka and Waukesha samples remain separate occurrences rather than an ancestor ladder. Competing stem-chelicerate, xiphosuran and arachnid topologies remain explicit. COL26.8 routes exactly 104,126 strictly accepted species names through the exact Chelicerata and Trilobita roots; that is current nomenclatural browse coverage, not 104,126 specimen dossiers or agreement among fossil, functional and genomic models.',
       zh: '十二个双语一手证据档案连接具名三叶虫与螯肢动物化石、三维解剖、功能比较、形态矩阵和现生基因组尺度分析。Tatelt、布尔吉斯页岩、澄江、惠勒、Willwerath、Šárka 与沃基肖样本始终是彼此独立的出现记录，而非祖先阶梯。竞争性的螯肢动物干群、剑尾类和蛛形纲拓扑均被明确保留。COL26.8 通过精确的螯肢亚门与三叶虫纲根路由恰好 104,126 个严格接受种名；这只是当前命名浏览覆盖，不代表 104,126 份标本档案，也不表示化石、功能与基因组模型达成一致。',
