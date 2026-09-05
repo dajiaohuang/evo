@@ -8,9 +8,9 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "archiveSha256": "0757eb55f2e844383d34650ea3aa577d15c2210f3893561b6694559dd9aa02e1",
   "inputSha256": "8233845ca47933354065462bf701d3efa7b70917fad1df5fe704ef1fc297c15f",
-  "output": "data/sources/fna-descriptions.jsonl.gz",
-  "outputBytes": 2529542,
-  "outputSha256": "f0f4f2c60727c746c7fdc05421e0defef0130ab02c54f5ff177de2a92ba929c4",
+  "output": "data/sources/fna-descriptions.jsonl.br",
+  "outputBytes": 1783112,
+  "outputSha256": "f6000a5956207c9e300d1009c791951b83e865661e9edeba4aba4c66ff3dcbf1",
   "species": 7960,
   "descriptions": 7960,
   "sourceEndUnclosed": 3,
@@ -18,5 +18,12 @@
     "FNA core supplies taxonID only; species rank and accepted status come from pinned COL crosswalk.",
     "General descriptions only; literature rows are retained outside integration as evidence.",
     "Original markup is normalized for display; retained candidate preserves original markup and citations."
-  ]
+  ],
+  "storageMigration": {
+    "fromEncoding": "gzip",
+    "toEncoding": "br",
+    "quality": 11,
+    "originalSha256": "f0f4f2c60727c746c7fdc05421e0defef0130ab02c54f5ff177de2a92ba929c4",
+    "decodedSha256": "c63c17526ce28115e8c478512405d06bb6a529c89233dbefa471df9a66cf6629"
+  }
 }

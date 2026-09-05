@@ -1,5 +1,5 @@
 """Import pinned, reviewed original-language flora excerpts offline."""
-import gzip
+from source_brotli import compress_source
 import hashlib
 import html
 from html.parser import HTMLParser
@@ -65,9 +65,8 @@ def main(input_path):
     records = [species[key] for key in sorted(species)]
     body = ''.join(json.dumps(record, ensure_ascii=False, separators=(',', ':')) + '\n'
                    for record in records).encode('utf-8')
-    compressed = bytearray(gzip.compress(body, compresslevel=9, mtime=0))
-    compressed[9] = 255
-    output = 'data/sources/meso-descriptions.jsonl.gz'
+    compressed = compress_source(body)
+    output = 'data/sources/meso-descriptions.jsonl.br'
     (root / output).write_bytes(compressed)
     ledger = {
         'provider': 'Missouri Botanical Garden', 'title': 'Flora Mesoamericana',

@@ -8,9 +8,9 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "archiveSha256": "55a67bc3092d472aced949cd61bc17b40cb15ad50ac0254f54918b9246df67bb",
   "inputSha256": "b4a010a2c8be91f717fac3d61e26141c79ac60b674a23bef5069a4d101d8059d",
-  "output": "data/sources/meso-descriptions.jsonl.gz",
-  "outputBytes": 2939768,
-  "outputSha256": "ed92412df38c65e13dc23a6b8c4571bccf60139b6a9aa55d1a70cb6a86e1fe9a",
+  "output": "data/sources/meso-descriptions.jsonl.br",
+  "outputBytes": 1919552,
+  "outputSha256": "0e205f5ca52dd210a80ff7171a12aee2627d5cba202a168b3378cfca82c8b424",
   "species": 4850,
   "descriptions": 4858,
   "limitations": [
@@ -18,5 +18,12 @@
     "Source archive has a 4000-character text limit; excerpts may end mid-sentence. No missing text is reconstructed.",
     "WFO/COL links do not establish identical taxonomic concepts across source dates.",
     "HTML markup removed and entities decoded for plain-text display; original archive retained separately."
-  ]
+  ],
+  "storageMigration": {
+    "fromEncoding": "gzip",
+    "toEncoding": "br",
+    "quality": 11,
+    "originalSha256": "ed92412df38c65e13dc23a6b8c4571bccf60139b6a9aa55d1a70cb6a86e1fe9a",
+    "decodedSha256": "bf021b5fe94104a9a0af07a009763c3da7be90577a23ff158876fb9b58ded052"
+  }
 }
