@@ -2,6 +2,9 @@
 
 ## Unreleased content corrections
 
+- Added the 2021 Parioscorpio redescription, identified the 2020 scorpion-terrestrialization account as a historical hypothesis, moved Parioscorpio out of the scorpion navigation subtree, and withheld the Scorpiones range previously anchored to that fossil.
+- Replaced generic Rhyniognatha, Pennsylvanian Eumetabola and Xiphosura range descriptions with study-specific context without treating disputed affinity or fossil-record gaps as established continuous histories.
+
 - Added specific sample context for Protolenus, Gigoutella, Jaekelopterus, Ymboirana, Triarthrus, Rhyniella and the Paskov wing; clarified that the Parhyale experimental time marker denotes modern material.
 - Corrected Jaekelopterus measurements across the claim, event, reference and map example: 36.4 cm is the preserved fixed ramus, 45.5 cm its estimated complete length, and approximately 2.5 m a separate body-length estimate.
 
