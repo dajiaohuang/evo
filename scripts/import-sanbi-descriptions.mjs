@@ -26,7 +26,7 @@ for (const row of bytes.toString('utf8').trim().split(/\r?\n/).map(line => JSON.
 const records = [...species.values()].sort((a, b) => a.colId < b.colId ? -1 : a.colId > b.colId ? 1 : 0)
 const output = resolve(root, 'data/sources/sanbi-descriptions.jsonl.br')
 const decoded = Buffer.from(records.map(row => JSON.stringify(row)).join('\n') + '\n')
-const compressed = brotliCompressSync(decoded, { params: { [constants.BROTLI_PARAM_QUALITY]: 5 } })
+const compressed = brotliCompressSync(decoded, { params: { [constants.BROTLI_PARAM_QUALITY]: 11 } })
 mkdirSync(dirname(output), { recursive: true })
 writeFileSync(output, compressed)
 const ledger = {

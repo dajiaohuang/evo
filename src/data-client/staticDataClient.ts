@@ -1201,6 +1201,14 @@ export async function loadCatalogueFnaDescriptions(id: string): Promise<import('
   return records.find((record) => record.colId === id) ?? null
 }
 
+export async function loadCatalogueBrazilFloraDescriptions(id: string): Promise<import('./types').CatalogueBrazilFloraDescriptionRecord | null> {
+  const manifest = await loadCatalogueManifest()
+  const collection = manifest.brazilFloraDescriptions
+  if (!collection) return null
+  const records = await loadCatalogueRoute<import('./types').CatalogueBrazilFloraDescriptionRecord>(collection.routes, collection.files, id)
+  return records.find((record) => record.colId === id) ?? null
+}
+
 export async function loadCatalogueFoaDescriptions(id: string): Promise<import('./types').CatalogueFoaDescriptionRecord | null> {
   const manifest = await loadCatalogueManifest()
   const collection = manifest.foaDescriptions
