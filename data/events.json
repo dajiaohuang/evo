@@ -11715,8 +11715,8 @@
   },
   {
     "id": "parioscorpio-terrestrialization",
-    "title": "Parioscorpio internal anatomy and terrestrialization inference",
-    "titleZh": "Parioscorpio 内部解剖与陆生化推断",
+    "title": "Parioscorpio anatomy and the reassessed scorpion hypothesis",
+    "titleZh": "Parioscorpio 解剖与重新评估的蝎类假说",
     "category": "transition",
     "startAge": 437.5,
     "endAge": 436.5,
@@ -11724,17 +11724,15 @@
       "Brandon Bridge Formation, Waukesha, Wisconsin, USA"
     ],
     "clades": [
-      "Parioscorpio venator",
-      "Scorpiones",
-      "Arachnida"
+      "Parioscorpio venator"
     ],
-    "summary": "Two Silurian scorpion specimens preserve internal structures bearing on respiratory and circulatory transition hypotheses.",
+    "summary": "Silurian Parioscorpio fossils were initially interpreted as scorpions; a subsequent redescription rejected that identification, undermining their use as evidence of scorpion terrestrialization.",
     "claimIds": [
       "claim:event:parioscorpio-terrestrialization"
     ],
     "evidenceItems": [
       {
-        "statement": "Holotype UWGM 2162 and paratype UWGM 2163 preserve a scorpion body plan and medial structures compared with pulmonary-cardiovascular anatomy.",
+        "statement": "Wendruff et al. (2020) interpreted holotype UWGM 2162 and paratype UWGM 2163 as scorpions and compared their medial structures with pulmonary-cardiovascular anatomy; this records the original interpretation, not an established identification.",
         "relation": "supports",
         "claimIds": [
           "claim:event:parioscorpio-terrestrialization"
@@ -11752,18 +11750,16 @@
     ],
     "uncertaintyItems": [
       {
-        "statement": "Book-lung homology and terrestrial physiology are interpretations; nearshore strata, transport and incomplete respiratory structures do not prove habitat.",
+        "statement": "Anderson et al. (2021) rejected the scorpion interpretation and left exact arthropod affinities unresolved. These specimens therefore do not establish scorpion terrestrial physiology or habitat.",
         "relation": "contextualizes",
         "claimIds": [
           "claim:event:parioscorpio-terrestrialization"
         ],
         "referenceLinks": [
           {
-            "referenceId": "wendruff-2020-parioscorpio",
+            "referenceId": "anderson-2021-parioscorpio-reassessment",
             "relation": "supports",
-            "pages": "14",
-            "figure": "Figures 1–4; Supplementary Figures",
-            "quoteLocator": "UWGM 2162 and 2163; Internal anatomy; Depositional and terrestrialization discussion"
+            "quoteLocator": "Redescription and phylogenetic conclusions"
           }
         ]
       }
