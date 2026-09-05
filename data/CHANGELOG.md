@@ -2,6 +2,8 @@
 
 ## Unreleased content corrections
 
+- Clarified the Octopus bimaculoides genome and RNA sampling relationship, replaced ambiguous cephalopod-specific expression wording, and retained the study's limitation that duplication followed by extensive gene loss was not excluded.
+
 - Clarified Ust’-Ishim 1 as an individual calibrated age at 95.4% probability, not the origin or complete range of Homo sapiens; separated dating (SI1) and admixture-model (SI18) reference locators.
 
 - Replaced the generic Fanjingshania navigation introduction with its source-linked formation, approximate age, holotype identifier and isolated-material count. Ecology remains unknown; this is not a new complete biological profile.
