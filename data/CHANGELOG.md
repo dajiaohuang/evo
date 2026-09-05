@@ -2,6 +2,8 @@
 
 ## Unreleased content corrections
 
+- Re-encoded the build-time WFO crosswalk with Brotli quality 5, saving 3,761,970 bytes without changing decoded source bytes or runtime gzip shards. The import ledger preserves original generation provenance and records the storage-only transformation; historical embedded gzip wording remains part of the unchanged snapshot.
+
 - Added 4,858 attributed Flora Mesoamericana original-language excerpts for 4,850 uniquely linked accepted species. Full-Web lazy descriptions preserve Spanish/English, multiple citations and explicit source-truncation warnings; Pages preview excludes the collection. No missing text, global distributions or current conservation assessments are inferred.
 
 - Added 129 original Flora of Australia paragraphs for 46 uniquely linked accepted species, with per-paragraph citations and CC BY 4.0 attribution. Full-Web descriptions load on demand and default to collapsed details; Pages preview omits this regional historical collection. No current global distribution or conservation status is inferred.

@@ -2,13 +2,13 @@ import { createHash } from 'node:crypto'
 import { mkdirSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { gunzipSync } from 'node:zlib'
+import { decodeWfoSource } from './wfo-source-codec.mjs'
 import { deterministicGzip } from './archive-determinism.mjs'
 import { replaceOwnedExtensions, summarizeExtensions } from './manifest-extension-utils.mjs'
 
 const SCRIPT_PATH = fileURLToPath(import.meta.url)
 const REPOSITORY_ROOT = resolve(dirname(SCRIPT_PATH), '..')
-const DEFAULT_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'wfo-plant-crosswalk-col26.8.json.gz')
+const DEFAULT_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'wfo-plant-crosswalk-col26.8.json.br')
 const DEFAULT_RESOURCE_PACKS_ROOT = join(REPOSITORY_ROOT, 'data', 'catalogue-of-life', 'releases', '2026-08-20', 'resource-packs')
 const RICH_PACKAGES = ['angiospermae', 'gymnosperms', 'early-land-plants']
 const SOURCE_LIMIT = 6 * 1024 * 1024
@@ -74,7 +74,7 @@ function sourceDescriptor(snapshot, canonicalBytes, canonicalSource) {
     versionDoi: snapshot.sources.wfo.versionDoi,
     conceptDoi: snapshot.sources.wfo.conceptDoi,
     license: snapshot.sources.wfo.license,
-    canonicalCrosswalkPath: 'data/sources/wfo-plant-crosswalk-col26.8.json.gz',
+    canonicalCrosswalkPath: 'data/sources/wfo-plant-crosswalk-col26.8.json.br',
     canonicalCrosswalkSha256: sha256(canonicalBytes),
     canonicalCrosswalkBytes: canonicalBytes.byteLength,
     canonicalCrosswalkSourceSha256: sha256(canonicalSource),
@@ -89,7 +89,7 @@ function sourceDescriptor(snapshot, canonicalBytes, canonicalSource) {
 
 export function buildWfoPlantProjections({ crosswalkPath = DEFAULT_CROSSWALK, resourcePacksRoot = DEFAULT_RESOURCE_PACKS_ROOT, packageRoot = join(REPOSITORY_ROOT, 'data', 'packages', 'plantae') } = {}) {
   const canonicalBytes = readFileSync(crosswalkPath)
-  const canonicalSource = gunzipSync(canonicalBytes)
+  const canonicalSource = decodeWfoSource(canonicalBytes)
   const snapshot = JSON.parse(canonicalSource.toString('utf8'))
   if (snapshot.schemaVersion !== 1 || snapshot.sidecarType !== 'release-pinned-exact-plant-nomenclatural-crosswalk'
     || snapshot.colRecords.length !== snapshot.counts.colAcceptedPlantSpecies
