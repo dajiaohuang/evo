@@ -17,6 +17,8 @@
     "test": "vitest run --config vitest.config.ts",
     "test:watch": "vitest --config vitest.config.ts",
     "test:e2e": "playwright test",
+    "test:e2e:web": "playwright test --config playwright.web.config.ts",
+    "verify:web": "npm run lint && npm test && npm run data:registry:check && npm run data:registry:validate && npm run data:packages:validate && npm run data:claims:validate && npm run data:translations:validate && npm run data:provenance:validate && npm run data:review:validate && npm run review:check && npm run data:validate && npm run source:budget && npm run build && npm run size:check && npm run pages:budget && npm run pages:smoke && npm run v1:readiness && npm run test:e2e:web",
     "test:visual": "playwright test tests/e2e/visual-contracts.spec.ts --project=chromium",
     "typecheck": "tsc -b --pretty false",
     "lint": "eslint .",
