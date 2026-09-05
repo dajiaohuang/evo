@@ -88,6 +88,10 @@ let wfoRichBytes = 0
 let mammalItisCanonicalFiles = 0
 let mammalItisRecords = 0
 let mammalItisUpstreamOnly = 0
+let mddNomenclatureCanonicalFiles = 0
+let mddNomenclatureRecords = 0
+let iocNomenclatureCanonicalFiles = 0
+let iocNomenclatureRecords = 0
 for (const packageEntry of packageRegistry.packages) {
   const manifestFile = current.packages.manifests[packageEntry.id]
   releaseUrl(manifestFile, `package ${packageEntry.id} manifest`)
@@ -300,7 +304,28 @@ for (const packageEntry of packageRegistry.packages) {
       carnivora: { id: 'itis-carnivora-tsn-crosswalk', total: 310, accepted: 310, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, files: 1 },
       'other-mammals': { id: 'itis-other-mammals-tsn-crosswalk', total: 5099, accepted: 5099, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 3, files: 5 },
     }[packageEntry.id]
-    if (nomenclatureCollections.length !== 1) failures.push(`${packageEntry.id}: expected one ITIS nomenclature collection`)
+    const mddExpected = {
+      perissodactyla: { total: 19, accepted: 16, ambiguous: 0, unmatched: 3, upstreamOnly: 2, records: 21, files: 2 },
+      cetartiodactyla: { total: 503, accepted: 325, ambiguous: 0, unmatched: 178, upstreamOnly: 46, records: 549, files: 3 },
+      primates: { total: 530, accepted: 484, ambiguous: 0, unmatched: 46, upstreamOnly: 33, records: 563, files: 3 },
+      carnivora: { total: 310, accepted: 289, ambiguous: 0, unmatched: 21, upstreamOnly: 30, records: 340, files: 2 },
+      'other-mammals': { total: 5099, accepted: 3912, ambiguous: 0, unmatched: 1187, upstreamOnly: 1664, records: 6763, files: 13 },
+    }[packageEntry.id]
+    const mdd = nomenclatureCollections.find((collection) => collection.id === `mdd-mammalia-${packageEntry.id}-archive-crosswalk`)
+    if (nomenclatureCollections.length !== 2 || !mdd || mdd.provider !== 'The Mammal Diversity Database via ChecklistBank'
+      || mdd.source?.datasetId !== '9802' || mdd.source?.license !== 'cc by'
+      || Object.entries(mddExpected).some(([key, value]) => key !== 'files' && mdd.counts?.[key] !== value)
+      || mdd.delivery?.profile !== 'web-light' || mdd.delivery?.completeRows !== false
+      || mdd.delivery?.publishedFileCount !== 0 || mdd.delivery?.canonicalFileCount !== mddExpected.files
+      || mdd.files?.length !== 0 || mdd.upstreamOnlyFiles?.length !== 0
+      || mdd.canonicalFileInventory?.length !== mddExpected.files
+      || mdd.canonicalFileInventory.some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
+      failures.push(`${packageEntry.id}: MDD summary, counts, delivery boundary, or canonical hashes are incomplete`)
+    }
+    if (mdd) {
+      mddNomenclatureCanonicalFiles += mdd.canonicalFileInventory?.length ?? 0
+      mddNomenclatureRecords += mdd.counts?.records ?? 0
+    }
     checkItisSummaryOnlyCollection(packageEntry.id, nomenclatureCollections, expected)
     const collection = nomenclatureCollections.find((candidate) => candidate.id === expected.id)
     if (collection) {
@@ -321,7 +346,8 @@ for (const packageEntry of packageRegistry.packages) {
     const avilist = nomenclatureCollections.find((collection) => collection.id === 'avilist-v2025b-avibase-concepts')
     const itis = nomenclatureCollections.find((collection) => collection.id === 'itis-crocodylia-tsn-crosswalk')
     const reptileDb = nomenclatureCollections.find((collection) => collection.id === 'reptiledb-crocodylia-extension')
-    if (nomenclatureCollections.length !== 3 || !avilist || avilist.provider !== 'AviList Core Team'
+    const ioc = nomenclatureCollections.find((collection) => collection.id === 'ioc-aves-archive-crosswalk')
+    if (nomenclatureCollections.length !== 4 || !avilist || avilist.provider !== 'AviList Core Team'
       || avilist.recordType !== 'release-pinned-exact-avian-authority-crosswalk'
       || avilist.source?.license !== 'CC-BY-4.0'
       || avilist.counts?.packageAcceptedSpecies !== 11071
@@ -348,6 +374,19 @@ for (const packageEntry of packageRegistry.packages) {
       || reptileDb.canonicalFileInventory?.length !== 1) {
       failures.push('crocodylomorphs-birds: ReptileDB summary or canonical inventory is incomplete')
     }
+    if (!ioc || ioc.provider !== 'IOC World Bird List via ChecklistBank' || ioc.source?.datasetId !== '2036'
+      || ioc.source?.license !== 'cc by' || ioc.counts?.total !== 11044 || ioc.counts?.accepted !== 10624
+      || ioc.counts?.ambiguous !== 0 || ioc.counts?.unmatched !== 420 || ioc.counts?.upstreamOnly !== 626
+      || ioc.counts?.records !== 11670 || ioc.delivery?.profile !== 'web-light' || ioc.delivery?.completeRows !== false
+      || ioc.delivery?.publishedFileCount !== 0 || ioc.delivery?.canonicalFileCount !== 37
+      || ioc.files?.length !== 0 || ioc.upstreamOnlyFiles?.length !== 0 || ioc.canonicalFileInventory?.length !== 37
+      || ioc.canonicalFileInventory.some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
+      failures.push('crocodylomorphs-birds: IOC Aves summary, counts, delivery boundary, or canonical hashes are incomplete')
+    }
+    if (ioc) {
+      iocNomenclatureCanonicalFiles += ioc.canonicalFileInventory?.length ?? 0
+      iocNomenclatureRecords += ioc.counts?.records ?? 0
+    }
     if (!itis?.evidenceBoundary?.en.includes('Aves are deliberately excluded')) failures.push('crocodylomorphs-birds: ITIS boundary must explicitly exclude Aves')
   } else if (nomenclatureCollections.length) {
     failures.push(`package ${packageEntry.id}: unexpected nomenclature collection`)
@@ -359,6 +398,12 @@ if (wfoRichRecords !== 387988) failures.push(`WFO rich-package collections conta
 if (wfoRichShards !== 32 || wfoRichBytes !== 15584333) failures.push(`WFO rich-package collections contain ${wfoRichShards} shards and ${wfoRichBytes} compressed bytes; expected 32/15,584,333`)
 if (mammalItisCanonicalFiles !== 9 || mammalItisRecords !== 6461 || mammalItisUpstreamOnly !== 3) {
   failures.push(`Mammalia ITIS Pages summaries contain ${mammalItisRecords} COL records, ${mammalItisCanonicalFiles} canonical row shards, and ${mammalItisUpstreamOnly} upstream-only records; expected 6,461/9/3`)
+}
+if (mddNomenclatureCanonicalFiles !== 23 || mddNomenclatureRecords !== 8236) {
+  failures.push(`MDD Pages summaries contain ${mddNomenclatureRecords} records and ${mddNomenclatureCanonicalFiles} canonical row shards; expected 8,236/23`)
+}
+if (iocNomenclatureCanonicalFiles !== 37 || iocNomenclatureRecords !== 11670) {
+  failures.push(`IOC Pages summary contains ${iocNomenclatureRecords} records and ${iocNomenclatureCanonicalFiles} canonical row shards; expected 11,670/37`)
 }
 
 releaseUrl(current.occurrences.manifest, 'occurrence manifest')

@@ -383,6 +383,12 @@ export interface RuntimeItisNomenclatureCollection {
 }
 
 export type AuthorityArchiveCollectionId =
+  | 'mdd-mammalia-perissodactyla-archive-crosswalk'
+  | 'mdd-mammalia-cetartiodactyla-archive-crosswalk'
+  | 'mdd-mammalia-primates-archive-crosswalk'
+  | 'mdd-mammalia-carnivora-archive-crosswalk'
+  | 'mdd-mammalia-other-mammals-archive-crosswalk'
+  | 'ioc-aves-archive-crosswalk'
   | 'worms-mollusca-archive-crosswalk'
   | 'worms-porifera-archive-crosswalk'
   | 'worms-cnidaria-archive-crosswalk'

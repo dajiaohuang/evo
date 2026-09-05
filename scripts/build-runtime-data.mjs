@@ -262,6 +262,13 @@ const richPackageNomenclatureSources = {
   'early-land-plants': [{ kind: 'wfo', descriptorPath: 'data/packages/plantae/early-land-plants/nomenclature/manifest.json' }],
   'crocodylomorphs-birds': [{
     kind: 'range-sharded',
+    descriptorPath: 'data/packages/archosauria/crocodylomorphs-birds/nomenclature/ioc-aves-sidecar.json',
+    expectedId: 'ioc-aves-archive-crosswalk',
+    expectedProvider: 'IOC World Bird List via ChecklistBank',
+    expectedLicense: 'cc by',
+    rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
+  }, {
+    kind: 'range-sharded',
     descriptorPath: 'data/packages/archosauria/crocodylomorphs-birds/nomenclature/avilist-extension.json',
     expectedId: 'avilist-v2025b-avibase-concepts',
     expectedProvider: 'AviList Core Team',
@@ -297,6 +304,13 @@ const richPackageNomenclatureSources = {
   }],
   perissodactyla: [{
     kind: 'range-sharded',
+    descriptorPath: 'data/packages/mammalia/perissodactyla/nomenclature/mdd-mammalia-perissodactyla-sidecar.json',
+    expectedId: 'mdd-mammalia-perissodactyla-archive-crosswalk',
+    expectedProvider: 'The Mammal Diversity Database via ChecklistBank',
+    expectedLicense: 'cc by',
+    rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
+  }, {
+    kind: 'range-sharded',
     descriptorPath: 'data/packages/mammalia/perissodactyla/nomenclature/itis-tsn-sidecar.json',
     expectedId: 'itis-perissodactyla-tsn-crosswalk',
     expectedProvider: 'Integrated Taxonomic Information System',
@@ -314,6 +328,13 @@ const richPackageNomenclatureSources = {
     colIdField: 'colUsageId',
   }],
   cetartiodactyla: [{
+    kind: 'range-sharded',
+    descriptorPath: 'data/packages/mammalia/cetartiodactyla/nomenclature/mdd-mammalia-cetartiodactyla-sidecar.json',
+    expectedId: 'mdd-mammalia-cetartiodactyla-archive-crosswalk',
+    expectedProvider: 'The Mammal Diversity Database via ChecklistBank',
+    expectedLicense: 'cc by',
+    rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
+  }, {
     kind: 'range-sharded',
     descriptorPath: 'data/packages/mammalia/cetartiodactyla/nomenclature/itis-tsn-sidecar.json',
     expectedId: 'itis-cetartiodactyla-tsn-crosswalk',
@@ -333,6 +354,13 @@ const richPackageNomenclatureSources = {
   }],
   primates: [{
     kind: 'range-sharded',
+    descriptorPath: 'data/packages/mammalia/primates/nomenclature/mdd-mammalia-primates-sidecar.json',
+    expectedId: 'mdd-mammalia-primates-archive-crosswalk',
+    expectedProvider: 'The Mammal Diversity Database via ChecklistBank',
+    expectedLicense: 'cc by',
+    rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
+  }, {
+    kind: 'range-sharded',
     descriptorPath: 'data/packages/mammalia/primates/nomenclature/itis-tsn-sidecar.json',
     expectedId: 'itis-primates-tsn-crosswalk',
     expectedProvider: 'Integrated Taxonomic Information System',
@@ -342,6 +370,13 @@ const richPackageNomenclatureSources = {
   }],
   carnivora: [{
     kind: 'range-sharded',
+    descriptorPath: 'data/packages/mammalia/carnivora/nomenclature/mdd-mammalia-carnivora-sidecar.json',
+    expectedId: 'mdd-mammalia-carnivora-archive-crosswalk',
+    expectedProvider: 'The Mammal Diversity Database via ChecklistBank',
+    expectedLicense: 'cc by',
+    rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
+  }, {
+    kind: 'range-sharded',
     descriptorPath: 'data/packages/mammalia/carnivora/nomenclature/itis-tsn-sidecar.json',
     expectedId: 'itis-carnivora-tsn-crosswalk',
     expectedProvider: 'Integrated Taxonomic Information System',
@@ -350,6 +385,13 @@ const richPackageNomenclatureSources = {
     colIdField: 'colUsageId',
   }],
   'other-mammals': [{
+    kind: 'range-sharded',
+    descriptorPath: 'data/packages/mammalia/other-mammals/nomenclature/mdd-mammalia-other-mammals-sidecar.json',
+    expectedId: 'mdd-mammalia-other-mammals-archive-crosswalk',
+    expectedProvider: 'The Mammal Diversity Database via ChecklistBank',
+    expectedLicense: 'cc by',
+    rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
+  }, {
     kind: 'range-sharded',
     descriptorPath: 'data/packages/mammalia/other-mammals/nomenclature/itis-tsn-sidecar.json',
     expectedId: 'itis-other-mammals-tsn-crosswalk',

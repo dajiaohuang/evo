@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "mdd-mammalia-carnivora-archive-crosswalk",
+  "packageId": "carnivora",
+  "provider": "The Mammal Diversity Database via ChecklistBank",
+  "role": "authority-crosswalk",
+  "rowEncoding": "json",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "9802",
+    "title": "The Mammal Diversity Database",
+    "alias": "MDD",
+    "version": "2.1",
+    "issued": "2025-04-06",
+    "doi": "10.48580/dfp2",
+    "versionDoi": null,
+    "archiveMetadataDoi": null,
+    "citation": "<div class=\"csl-entry\">Upham, N., Huckaby, D., Burgin, C., Widness, J., Becker, M., Handika, H., &amp; Zijlstra, J. (2025). <span style=\"font-style: italic\">The Mammal Diversity Database</span> (2.1). https://doi.org/10.48580/dfp2</div>",
+    "editor": null,
+    "contributor": null,
+    "license": "cc by",
+    "archiveLicense": "CC-BY",
+    "archiveUrl": "https://api.checklistbank.org/dataset/9802/archive",
+    "archivePath": "data/sources/archives/checklistbank-9802-mdd.zip",
+    "metadataPath": "data/sources/archives/checklistbank-9802-mdd.metadata.json",
+    "archiveBytes": 3189955,
+    "archiveSha256": "da2c04ec869539b949b4af8a8484ccc4901c0848f06822b0257c92d56d835ed2",
+    "metadataBytes": 7556,
+    "metadataSha256": "163344357b472daed7f153e5ff1cfabaa6f30415ce3517cc9050c4657df0662d",
+    "internalMetadata": {
+      "bytes": 7163,
+      "sha256": "219f43f1ab9e97904fa59250e6b9e05c03b6b3c88024cbd7ac9d32549be8b78a"
+    },
+    "members": {
+      "NameUsage.tsv": {
+        "bytes": 11520995,
+        "sha256": "02701fd89e3032b3d12b8c0f7da57eafc231f4ce9bf5cd554fcc79a2c8504ae7"
+      },
+      "TypeMaterial.tsv": {
+        "bytes": 1139353,
+        "sha256": "d7c2323b95e1868a2b1d7999196e54318dde2f29467f7e0ea32847882bb64f9a"
+      },
+      "VernacularName.tsv": {
+        "bytes": 506995,
+        "sha256": "d5241cbbdf22326f149c3a4e3693b580be18b946b43794067cc89912f9b08891"
+      },
+      "Reference.tsv": {
+        "bytes": 1806358,
+        "sha256": "961bc14448f8602c2c4d6687e280bf044a8cafd52ab925a78b037154267ab765"
+      },
+      "metadata.yaml": {
+        "bytes": 7163,
+        "sha256": "219f43f1ab9e97904fa59250e6b9e05c03b6b3c88024cbd7ac9d32549be8b78a"
+      },
+      "logo.png": {
+        "bytes": 28218,
+        "sha256": "abe1252cfb735add27f7ffd5eaddbdf7fac1b0392d59c1319f842c28239eab8b"
+      },
+      "Distribution.tsv": {
+        "bytes": 953235,
+        "sha256": "ba7e8769c3241c46711972605c47ffbc1aeb94f7f9d6e2e3102b34c1bafaf734"
+      }
+    },
+    "metadataConsistency": {
+      "title": true,
+      "version": true,
+      "issued": true,
+      "license": true,
+      "taxonomicScope": true,
+      "doiNote": "ChecklistBank dataset DOI and archive metadata DOI are retained as distinct identifiers; they are not asserted equal."
+    }
+  },
+  "scope": {
+    "colRootUsageId": "6224G",
+    "colRootScientificName": "Mammalia",
+    "colRelease": "COL26.8",
+    "colStrictAcceptedSpecies": 310,
+    "sourceDatasetId": "9802",
+    "sourceSelectedSpecies": 319,
+    "packageOwnership": "COL rows use the existing unique COL species ownership route.",
+    "sourceGlobalSelectedSpecies": 6801,
+    "sourcePackageRoutedSpecies": 319,
+    "sourceOnlyRouting": "Source-only rows retain null COL IDs and are routed only by the explicit MDD taxonomy.order allowlist; this is not COL ownership or taxon equivalence."
+  },
+  "matching": {
+    "normalization": "Unicode NFC and whitespace normalization on scientific names only; COL trailing authorship is removed exactly. Authorship is preserved as source data, not used as a matching key.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, authorship, synonym, taxon-substitution or species-concept matching."
+  },
+  "counts": {
+    "total": 310,
+    "accepted": 289,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 21,
+    "withheld": 0,
+    "upstreamOnly": 30,
+    "records": 340
+  },
+  "files": [
+    {
+      "path": "nomenclature/mdd-mammalia-carnivora-000.json.gz",
+      "records": 310,
+      "bytes": 114989,
+      "sha256": "ba832e1eea65717e6bc7ffb667fd0b6aac41a6ef8a2cf9c15f821221f2014f35",
+      "sourceBytes": 1578483,
+      "sourceSha256": "f5a90e41316bbd616f52c9ed6190c3f94edc735131b1d628fae6721c6cdd0e40",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "339RB",
+      "maxColId": "ZZ3R"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "nomenclature/mdd-mammalia-carnivora-source-only-000.json.gz",
+      "records": 30,
+      "bytes": 12917,
+      "sha256": "0da58d07295e0e09c1d0ecb4aa9309d4d721cabebbd805904e33d12be4b2bdd6",
+      "sourceBytes": 154081,
+      "sourceSha256": "361f238997642ae63e8d4b711fa6897939c39fb83468f10a5775fb3d1c0d8643",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "upstream-only"
+    }
+  ],
+  "totalCompressedBytes": 127906,
+  "totalSourceBytes": 1732564,
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 340,
+      "files": [
+        "nomenclature/mdd-mammalia-carnivora-000.json.gz",
+        "nomenclature/mdd-mammalia-carnivora-source-only-000.json.gz"
+      ],
+      "totalCompressedBytes": 127906,
+      "totalSourceBytes": 1732564
+    }
+  },
+  "evidenceBoundary": {
+    "en": "Frozen The Mammal Diversity Database archive projection for strict accepted COL26.8 Mammalia rows owned by carnivora; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "冻结的 The Mammal Diversity Database 档案投影，范围为归属于 carnivora 的严格 accepted COL26.8 Mammalia 行；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Accepted crosswalk status does not imply that a source species is extant; explicit source extinct fields and remarks are preserved.",
+    "Source-only rows are relative only to this COL26.8 scope and are not global novelty claims.",
+    "Archive status and source fields are preserved; exact matching does not infer taxonomic equivalence.",
+    "GitHub Pages web-light carries the descriptor summary only; native-full carries every listed row shard."
+  ]
+}

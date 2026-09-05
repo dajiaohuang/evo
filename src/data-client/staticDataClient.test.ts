@@ -595,6 +595,12 @@ describe('static runtime release coherence', () => {
     ['crustaceans-insects', 'osf-orthoptera-archive-crosswalk'],
     ['crustaceans-insects', 'worms-crustacea-archive-crosswalk'],
     ['trilobites-chelicerates', 'wsc-spiders-archive-crosswalk'],
+    ['perissodactyla', 'mdd-mammalia-perissodactyla-archive-crosswalk'],
+    ['cetartiodactyla', 'mdd-mammalia-cetartiodactyla-archive-crosswalk'],
+    ['primates', 'mdd-mammalia-primates-archive-crosswalk'],
+    ['carnivora', 'mdd-mammalia-carnivora-archive-crosswalk'],
+    ['other-mammals', 'mdd-mammalia-other-mammals-archive-crosswalk'],
+    ['crocodylomorphs-birds', 'ioc-aves-archive-crosswalk'],
     ['turtles-lepidosaurs', 'reptiledb-turtles-lepidosaurs-extension'],
     ['crocodylomorphs-birds', 'reptiledb-crocodylia-extension'],
   ] as const)('loads only the selected %s / %s archive range and no row files on Web', async (packageId, collectionId) => {

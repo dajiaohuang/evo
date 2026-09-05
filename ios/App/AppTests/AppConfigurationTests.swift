@@ -168,6 +168,10 @@ final class AppConfigurationTests: XCTestCase {
         var crocodyliaItisNomenclatureRecords = 0
         var mammalItisFiles = 0
         var mammalItisNomenclatureRecords = 0
+        var mddNomenclatureFiles = 0
+        var mddNomenclatureRecords = 0
+        var iocNomenclatureFiles = 0
+        var iocNomenclatureRecords = 0
         var fishItisFiles = 0
         var fishItisNomenclatureRecords = 0
         var fishItisUpstreamRecords = 0
@@ -361,7 +365,7 @@ final class AppConfigurationTests: XCTestCase {
                 sarcopterygiiItisFiles += 1
             } else if ["perissodactyla", "cetartiodactyla", "primates", "carnivora", "other-mammals"].contains(packageId) {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
-                XCTAssertEqual(collections.count, 1)
+                XCTAssertEqual(collections.count, 2)
                 let expected: (id: String, files: Int, upstreamFiles: Int, records: Int, upstreamRecords: Int, descriptorSha: String)
                 switch packageId {
                 case "perissodactyla":
@@ -384,6 +388,17 @@ final class AppConfigurationTests: XCTestCase {
                     label: "ITIS \(expected.id)")
                 mammalItisFiles += expected.files + expected.upstreamFiles
                 mammalItisNomenclatureRecords += collectionRecords + expected.upstreamRecords
+                let mddFiles = packageId == "perissodactyla" || packageId == "carnivora" ? 1 : packageId == "cetartiodactyla" || packageId == "primates" ? 2 : 9
+                let mddUpstreamFiles = packageId == "other-mammals" ? 4 : 1
+                let mddRecords = packageId == "perissodactyla" ? 19 : packageId == "cetartiodactyla" ? 503 : packageId == "primates" ? 530 : packageId == "carnivora" ? 310 : 5_099
+                let mddUpstreamRecords = packageId == "perissodactyla" ? 2 : packageId == "cetartiodactyla" ? 46 : packageId == "primates" ? 33 : packageId == "carnivora" ? 30 : 1_664
+                try verifyAuthorityArchiveCollection(
+                    collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "mdd-mammalia-\(packageId)-archive-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: mddFiles, expectedUpstreamFiles: mddUpstreamFiles,
+                    expectedRecords: mddRecords, expectedUpstreamRecords: mddUpstreamRecords, expectedLicense: "cc by",
+                    label: "MDD \(packageId)")
+                mddNomenclatureFiles += mddFiles + mddUpstreamFiles
+                mddNomenclatureRecords += mddRecords + mddUpstreamRecords
             } else if packageId == "mammal-origins" {
                 XCTAssertNil(package["nomenclatureCollections"], "mammal-origins must not publish an ITIS nomenclature collection")
             } else if packageId == "turtles-lepidosaurs" {
@@ -412,7 +427,7 @@ final class AppConfigurationTests: XCTestCase {
                 reptiliaItisNomenclatureRecords += 13_277
             } else if packageId == "crocodylomorphs-birds" {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
-                XCTAssertEqual(collections.count, 3)
+                XCTAssertEqual(collections.count, 4)
                 let avilist = try XCTUnwrap(collections.first { ($0["id"] as? String) == "avilist-v2025b-avibase-concepts" })
                 XCTAssertEqual(avilist["provider"] as? String, "AviList Core Team")
                 let delivery = try XCTUnwrap(avilist["delivery"] as? [String: Any])
@@ -451,6 +466,12 @@ final class AppConfigurationTests: XCTestCase {
                     label: "ReptileDB Crocodylia")
                 crocodyliaItisFiles += 1
                 crocodyliaItisNomenclatureRecords += 27
+                try verifyAuthorityArchiveCollection(
+                    collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "ioc-aves-archive-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 35, expectedUpstreamFiles: 2,
+                    expectedRecords: 11_044, expectedUpstreamRecords: 626, expectedLicense: "cc by", label: "IOC Aves")
+                iocNomenclatureFiles += 37
+                iocNomenclatureRecords += 11_670
             } else {
                 XCTAssertNil(package["nomenclatureCollections"], "Only declared authority-backed rich packages may carry nomenclature collections")
             }
@@ -468,6 +489,10 @@ final class AppConfigurationTests: XCTestCase {
         XCTAssertEqual(crocodyliaItisNomenclatureRecords, 27)
         XCTAssertEqual(mammalItisFiles, 9)
         XCTAssertEqual(mammalItisNomenclatureRecords, 6_464)
+        XCTAssertEqual(mddNomenclatureFiles, 23)
+        XCTAssertEqual(mddNomenclatureRecords, 8_236)
+        XCTAssertEqual(iocNomenclatureFiles, 37)
+        XCTAssertEqual(iocNomenclatureRecords, 11_670)
         XCTAssertEqual(fishItisFiles, 28)
         XCTAssertEqual(fishItisNomenclatureRecords, 37_428)
         XCTAssertEqual(fishItisUpstreamRecords, 3_932)
