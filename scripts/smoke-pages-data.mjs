@@ -219,10 +219,20 @@ for (const packageEntry of packageRegistry.packages) {
     }
   } else if (packageEntry.id === 'turtles-lepidosaurs') {
     const itis = nomenclatureCollections.find((collection) => collection.id === 'itis-reptilia-tsn-crosswalk')
-    if (nomenclatureCollections.length !== 1) failures.push('turtles-lepidosaurs: expected one ITIS nomenclature collection')
+    const reptileDb = nomenclatureCollections.find((collection) => collection.id === 'reptiledb-turtles-lepidosaurs-extension')
+    if (nomenclatureCollections.length !== 2) failures.push('turtles-lepidosaurs: expected ITIS and ReptileDB nomenclature collections')
     checkItisSummaryOnlyCollection('turtles-lepidosaurs', nomenclatureCollections, {
       id: 'itis-reptilia-tsn-crosswalk', total: 12622, accepted: 9805, redirects: 70, ambiguous: 3, unmatched: 2744, upstreamOnly: 655, files: 10,
     })
+    if (!reptileDb || reptileDb.provider !== 'The Reptile Database via ChecklistBank' || reptileDb.rowEncoding !== 'jsonl'
+      || reptileDb.source?.license !== 'cc by' || reptileDb.counts?.total !== 12622 || reptileDb.counts?.accepted !== 12622
+      || reptileDb.counts?.upstreamOnly !== 1 || reptileDb.counts?.records !== 12623
+      || reptileDb.delivery?.profile !== 'web-light' || reptileDb.delivery?.completeRows !== false
+      || reptileDb.delivery?.publishedFileCount !== 0 || reptileDb.delivery?.canonicalFileCount !== 17
+      || reptileDb.files?.length !== 0 || reptileDb.upstreamOnlyFiles?.length !== 0
+      || reptileDb.canonicalFileInventory?.length !== 17) {
+      failures.push('turtles-lepidosaurs: ReptileDB summary or canonical inventory is incomplete')
+    }
     if (!itis?.evidenceBoundary?.en.includes('Aves are deliberately excluded')) failures.push('turtles-lepidosaurs: ITIS boundary must explicitly exclude Aves')
   } else if (['angiospermae', 'gymnosperms', 'early-land-plants'].includes(packageEntry.id)) {
     const wfo = nomenclatureCollections.find((collection) => collection.id === 'wfo-plant-list-crosswalk')
@@ -302,7 +312,8 @@ for (const packageEntry of packageRegistry.packages) {
   } else if (packageEntry.id === 'crocodylomorphs-birds') {
     const avilist = nomenclatureCollections.find((collection) => collection.id === 'avilist-v2025b-avibase-concepts')
     const itis = nomenclatureCollections.find((collection) => collection.id === 'itis-crocodylia-tsn-crosswalk')
-    if (nomenclatureCollections.length !== 2 || !avilist || avilist.provider !== 'AviList Core Team'
+    const reptileDb = nomenclatureCollections.find((collection) => collection.id === 'reptiledb-crocodylia-extension')
+    if (nomenclatureCollections.length !== 3 || !avilist || avilist.provider !== 'AviList Core Team'
       || avilist.recordType !== 'release-pinned-exact-avian-authority-crosswalk'
       || avilist.source?.license !== 'CC-BY-4.0'
       || avilist.counts?.packageAcceptedSpecies !== 11071
@@ -320,6 +331,15 @@ for (const packageEntry of packageRegistry.packages) {
     checkItisSummaryOnlyCollection('crocodylomorphs-birds', nomenclatureCollections, {
       id: 'itis-crocodylia-tsn-crosswalk', total: 27, accepted: 26, redirects: 1, ambiguous: 0, unmatched: 0, upstreamOnly: 0, files: 1,
     })
+    if (!reptileDb || reptileDb.provider !== 'The Reptile Database via ChecklistBank' || reptileDb.rowEncoding !== 'jsonl'
+      || reptileDb.source?.license !== 'cc by' || reptileDb.counts?.total !== 27 || reptileDb.counts?.accepted !== 27
+      || reptileDb.counts?.upstreamOnly !== 0 || reptileDb.counts?.records !== 27
+      || reptileDb.delivery?.profile !== 'web-light' || reptileDb.delivery?.completeRows !== false
+      || reptileDb.delivery?.publishedFileCount !== 0 || reptileDb.delivery?.canonicalFileCount !== 1
+      || reptileDb.files?.length !== 0 || reptileDb.upstreamOnlyFiles?.length !== 0
+      || reptileDb.canonicalFileInventory?.length !== 1) {
+      failures.push('crocodylomorphs-birds: ReptileDB summary or canonical inventory is incomplete')
+    }
     if (!itis?.evidenceBoundary?.en.includes('Aves are deliberately excluded')) failures.push('crocodylomorphs-birds: ITIS boundary must explicitly exclude Aves')
   } else if (nomenclatureCollections.length) {
     failures.push(`package ${packageEntry.id}: unexpected nomenclature collection`)

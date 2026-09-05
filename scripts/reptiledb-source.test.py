@@ -60,6 +60,9 @@ class ReptileDatabaseProjectionTests(unittest.TestCase):
             self.assertEqual(descriptor['source']['apiResponseSha256'], '47ca412c6122a5f9399fa65e9f13800da3215c7d2ec9383f40b26adcb382dc16')
             self.assertEqual(descriptor['source']['license'], 'cc by')
             self.assertNotIn('licenseUrl', descriptor['source'])
+            self.assertIn('Accepted does not mean extant.', descriptor['scope']['scopeBoundary'])
+            self.assertTrue(any('Blank archive extinction fields remain unknown.' in text
+                                for text in descriptor['limitations']))
             self.assertEqual(descriptor['matching']['prohibited'],
                              'No fuzzy, case-folded, accent-folded, synonym, rank or species-concept matching.')
             self.assertEqual(descriptor['deliveryProfiles']['web-light']['records'], 0)
@@ -78,6 +81,11 @@ class ReptileDatabaseProjectionTests(unittest.TestCase):
                 self.assertEqual(len(part), item['records'])
                 rows.extend(part)
             self.assertEqual(len(rows), records)
+            if partition == 'turtles-lepidosaurs':
+                # This recently extinct gecko is retained as an accepted name,
+                # not misclassified as extant or discarded from the source.
+                self.assertEqual(sum(row.get('acceptedName', {}).get('scientificName') == 'Phelsuma gigas'
+                                     for row in rows), 1)
             for row in rows:
                 if row['colId'] is not None:
                     ids.add(row['colId'])

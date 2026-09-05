@@ -205,7 +205,7 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
   const collections = manifest.nomenclatureCollections
   if (!Array.isArray(collections)) throw new Error(`Mobile build is missing ${packageId} nomenclature collections`)
   const additionalAuthorityCollections = {
-    echinoderms: 1, 'crocodylomorphs-birds': 1,
+    echinoderms: 1, 'turtles-lepidosaurs': 1, 'crocodylomorphs-birds': 2,
     'molluscs-brachiopods': 1, 'sponges-cnidarians': 3, 'crustaceans-insects': 3,
     'trilobites-chelicerates': 1,
   }[packageId] ?? 0
@@ -221,6 +221,21 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
       || collection.upstreamOnlyFiles.reduce((sum, file) => sum + file.records, 0) !== collection.counts.upstreamOnly
       || files.some((file) => !releaseFiles.files.some((entry) => entry.url === file.url && entry.sha256 === file.sha256 && entry.bytes === file.bytes))) {
       throw new Error(`Mobile build must include every archive authority partition: ${packageId}/${collection.id}`)
+    }
+  }
+  const expectedReptileDb = {
+    'turtles-lepidosaurs': { id: 'reptiledb-turtles-lepidosaurs-extension', total: 12622, accepted: 12622, upstreamOnly: 1, records: 12623, files: 16, upstreamFiles: 1 },
+    'crocodylomorphs-birds': { id: 'reptiledb-crocodylia-extension', total: 27, accepted: 27, upstreamOnly: 0, records: 27, files: 1, upstreamFiles: 0 },
+  }[packageId]
+  if (expectedReptileDb) {
+    const authority = collections.find((entry) => entry.id === expectedReptileDb.id)
+    if (!authority || authority.provider !== 'The Reptile Database via ChecklistBank'
+      || authority.rowEncoding !== 'jsonl' || authority.source?.license !== 'cc by'
+      || authority.colIdField !== 'colId' || authority.totalCountField !== 'total'
+      || authority.files?.length !== expectedReptileDb.files || authority.upstreamOnlyFiles?.length !== expectedReptileDb.upstreamFiles
+      || authority.counts?.total !== expectedReptileDb.total || authority.counts?.accepted !== expectedReptileDb.accepted
+      || authority.counts?.upstreamOnly !== expectedReptileDb.upstreamOnly || authority.counts?.records !== expectedReptileDb.records) {
+      throw new Error(`Mobile build must stage the complete ${packageId}/${expectedReptileDb.id} authority collection`)
     }
   }
   for (const [id, expected] of Object.entries(expectedCollections)) {

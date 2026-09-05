@@ -366,15 +366,27 @@ public class AppInstrumentedTest {
                         pack.has("nomenclatureCollections"));
             } else if (packageId.equals("turtles-lepidosaurs")) {
                 JSONArray collections = pack.getJSONArray("nomenclatureCollections");
-                assertEquals(1, collections.length());
+                assertEquals(2, collections.length());
                 richItisNomenclatureRecords += verifyRichItisCollection(context, files,
                         findCollection(collections, "itis-reptilia-tsn-crosswalk"),
                         9, 1, 12622, 655, "ITIS non-Crocodylia Reptilia");
+                JSONObject reptileDb = findCollection(collections, "reptiledb-turtles-lepidosaurs-extension");
+                assertEquals("The Reptile Database via ChecklistBank", reptileDb.getString("provider"));
+                assertEquals("jsonl", reptileDb.getString("rowEncoding"));
+                assertEquals("cc by", reptileDb.getJSONObject("source").getString("license"));
+                assertEquals("colId", reptileDb.getString("colIdField"));
+                assertEquals("total", reptileDb.getString("totalCountField"));
+                assertEquals(12622, reptileDb.getJSONObject("counts").getInt("total"));
+                assertEquals(12622, reptileDb.getJSONObject("counts").getInt("accepted"));
+                assertEquals(1, reptileDb.getJSONObject("counts").getInt("upstreamOnly"));
+                assertEquals(12623, reptileDb.getJSONObject("counts").getInt("records"));
+                verifyAuthorityArchiveCollection(context, files, reptileDb,
+                        16, 1, 12622, 1, "cc by", "ReptileDB turtles/lepidosaurs");
                 reptiliaItisFiles += 10;
                 reptiliaItisNomenclatureRecords += 13277;
             } else if (packageId.equals("crocodylomorphs-birds")) {
                 JSONArray collections = pack.getJSONArray("nomenclatureCollections");
-                assertEquals(2, collections.length());
+                assertEquals(3, collections.length());
                 JSONObject avilist = findCollection(collections, "avilist-v2025b-avibase-concepts");
                 assertNotNull("AviList collection missing", avilist);
                 assertEquals("AviList Core Team", avilist.getString("provider"));
@@ -400,6 +412,18 @@ public class AppInstrumentedTest {
                 richItisNomenclatureRecords += verifyRichItisCollection(context, files,
                         findCollection(collections, "itis-crocodylia-tsn-crosswalk"),
                         1, 0, 27, 0, "ITIS Crocodylia");
+                JSONObject reptileDb = findCollection(collections, "reptiledb-crocodylia-extension");
+                assertEquals("The Reptile Database via ChecklistBank", reptileDb.getString("provider"));
+                assertEquals("jsonl", reptileDb.getString("rowEncoding"));
+                assertEquals("cc by", reptileDb.getJSONObject("source").getString("license"));
+                assertEquals("colId", reptileDb.getString("colIdField"));
+                assertEquals("total", reptileDb.getString("totalCountField"));
+                assertEquals(27, reptileDb.getJSONObject("counts").getInt("total"));
+                assertEquals(27, reptileDb.getJSONObject("counts").getInt("accepted"));
+                assertEquals(0, reptileDb.getJSONObject("counts").getInt("upstreamOnly"));
+                assertEquals(27, reptileDb.getJSONObject("counts").getInt("records"));
+                verifyAuthorityArchiveCollection(context, files, reptileDb,
+                        1, 0, 27, 0, "cc by", "ReptileDB Crocodylia");
                 crocodyliaItisFiles += 1;
                 crocodyliaItisNomenclatureRecords += 27;
             } else {

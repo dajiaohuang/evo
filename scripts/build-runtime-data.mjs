@@ -240,6 +240,15 @@ const richPackageNomenclatureSources = {
     expectedLicense: 'CC0-1.0',
     rowEncoding: 'jsonl',
     colIdField: 'colUsageId',
+  }, {
+    kind: 'range-sharded',
+    descriptorPath: 'data/packages/reptilia/turtles-lepidosaurs/nomenclature/reptiledb-turtles-lepidosaurs-extension.json',
+    expectedId: 'reptiledb-turtles-lepidosaurs-extension',
+    expectedProvider: 'The Reptile Database via ChecklistBank',
+    expectedLicense: 'cc by',
+    rowEncoding: 'jsonl',
+    colIdField: 'colId',
+    totalCountField: 'total',
   }],
   angiospermae: [{ kind: 'wfo', descriptorPath: 'data/packages/plantae/angiospermae/nomenclature/manifest.json' }],
   gymnosperms: [{ kind: 'wfo', descriptorPath: 'data/packages/plantae/gymnosperms/nomenclature/manifest.json' }],
@@ -260,6 +269,15 @@ const richPackageNomenclatureSources = {
     expectedLicense: 'CC0-1.0',
     rowEncoding: 'jsonl',
     colIdField: 'colUsageId',
+  }, {
+    kind: 'range-sharded',
+    descriptorPath: 'data/packages/archosauria/crocodylomorphs-birds/nomenclature/reptiledb-crocodylia-extension.json',
+    expectedId: 'reptiledb-crocodylia-extension',
+    expectedProvider: 'The Reptile Database via ChecklistBank',
+    expectedLicense: 'cc by',
+    rowEncoding: 'jsonl',
+    colIdField: 'colId',
+    totalCountField: 'total',
   }],
   amphibia: [{
     kind: 'range-sharded',
@@ -404,6 +422,7 @@ function buildRichPackageNomenclatureCollection(packageId, definition) {
     const descriptorBytes = readFileSync(join(rootDir, definition.descriptorPath))
     const canonicalDescriptor = JSON.parse(descriptorBytes.toString('utf8'))
     const isItis = definition.rowEncoding === 'jsonl'
+      && definition.expectedProvider === 'Integrated Taxonomic Information System'
     const descriptor = isItis ? {
       schemaVersion: canonicalDescriptor.schemaVersion,
       id: definition.expectedId,

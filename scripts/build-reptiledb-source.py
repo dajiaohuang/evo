@@ -16,14 +16,14 @@ PARTITIONS = {
         'directory': ROOT / 'data/packages/reptilia/turtles-lepidosaurs/nomenclature',
         'prefix': 'reptiledb-turtles-lepidosaurs',
         'ledger': ROOT / 'data/sources/reptiledb-turtles-lepidosaurs-1008-import-ledger.json',
-        'scope': 'Current non-Crocodylia Reptilia: Squamata, Testudines and Rhynchocephalia; Aves and fossils excluded.'
+        'scope': 'Accepted non-Crocodylia Reptilia names in this archive: Squamata, Testudines and Rhynchocephalia; Aves and fossil occurrence evidence are outside scope. Accepted does not mean extant.'
     },
     'crocodylia': {
         'roots': ('329',),
         'directory': ROOT / 'data/packages/archosauria/crocodylomorphs-birds/nomenclature',
         'prefix': 'reptiledb-crocodylia',
         'ledger': ROOT / 'data/sources/reptiledb-crocodylia-1008-import-ledger.json',
-        'scope': 'Current Crocodylia only within the existing mixed crocodylomorphs-birds package; Aves and fossils excluded.'
+        'scope': 'Accepted Crocodylia names in this archive within the existing mixed crocodylomorphs-birds package; Aves and fossil occurrence evidence are outside scope. Accepted does not mean extant.'
     },
 }
 
@@ -236,7 +236,7 @@ def project(path, partition):
                   'evidenceBoundary': {'en': 'Frozen Reptile Database nomenclatural/source projection for the exact COL26.8 source-1008 partition; not species-concept equivalence, a biological dossier, fossil evidence, phylogeny or expert review.',
                                        'zh': '精确 COL26.8 source-1008 分区的 Reptile Database 冻结命名/来源投影；不表示物种概念等同性、生物档案、化石证据、系统发育或专家审查。'},
                   'limitations': ['Source-only rows are relative only to the declared COL26.8 partition.',
-                                  'The Reptile Database archive describes living reptiles and excludes dinosaurs; this projection does not add extinct taxa.',
+                                  'The Reptile Database focuses on living reptiles but also includes some recently extinct taxa; accepted is a nomenclatural status, not evidence of extant status. Blank archive extinction fields remain unknown.',
                                   'Source references are retained as identifiers and row locators; they do not constitute independent scientific review.'],
                   'deliveryProfiles': {'web-light': {'mode': 'summary-only', 'records': 0, 'files': [], 'totalCompressedBytes': 0, 'totalSourceBytes': 0},
                                        'native-full': {'mode': 'complete', 'records': len(records) + len(upstream), 'files': [f['path'] for f in all_files],

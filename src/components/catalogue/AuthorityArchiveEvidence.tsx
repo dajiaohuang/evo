@@ -20,6 +20,10 @@ const scopes: Array<{ root: string; packageId: string; id: AuthorityArchiveColle
   { root: 'CJBKK', packageId: 'crustaceans-insects', id: 'osf-orthoptera-archive-crosswalk', title: 'OSF · Orthoptera' },
   { root: '93', packageId: 'crustaceans-insects', id: 'chilobase-archive-crosswalk', title: 'ChiloBase · Chilopoda' },
   { root: '42N', packageId: 'trilobites-chelicerates', id: 'scorpion-files-archive-crosswalk', title: 'The Scorpion Files · Scorpiones' },
+  { root: '45C', packageId: 'turtles-lepidosaurs', id: 'reptiledb-turtles-lepidosaurs-extension', title: 'ReptileDB · non-Crocodylia Reptilia' },
+  { root: '477', packageId: 'turtles-lepidosaurs', id: 'reptiledb-turtles-lepidosaurs-extension', title: 'ReptileDB · non-Crocodylia Reptilia' },
+  { root: 'RP', packageId: 'turtles-lepidosaurs', id: 'reptiledb-turtles-lepidosaurs-extension', title: 'ReptileDB · non-Crocodylia Reptilia' },
+  { root: '329', packageId: 'crocodylomorphs-birds', id: 'reptiledb-crocodylia-extension', title: 'ReptileDB · Crocodylia' },
 ]
 
 function SourceName({ name }: { name: AuthorityArchiveName }) {
@@ -76,6 +80,10 @@ function ArchiveRecord({ scope, colId, zh }: { scope: typeof scopes[number]; col
   const counts = collection.counts
   const version = typeof collection.source.version === 'string' ? collection.source.version : ''
   const doi = typeof collection.source.versionDoi === 'string' ? collection.source.versionDoi : ''
+  const archiveMetadata = collection.source.embeddedArchiveMetadata
+  const archiveDoi = archiveMetadata && typeof archiveMetadata === 'object'
+    && 'versionDoi' in archiveMetadata && typeof archiveMetadata.versionDoi === 'string'
+    ? archiveMetadata.versionDoi : ''
   const statuses = { accepted: '接受名精确对应', redirect: '明示接受名重定向', ambiguous: '多个候选', unmatched: '没有精确对应', withheld: '保留未定', 'upstream-only': '仅权威源收录', 'source-only': '仅权威源收录' }
   return <div className="catalogue-source-card">
     <strong>{collection.provider}</strong>
@@ -97,6 +105,7 @@ function ArchiveRecord({ scope, colId, zh }: { scope: typeof scopes[number]; col
           <p>{record.mappingBasis}</p>
         </>}
     {doi && <a href={`https://doi.org/${doi}`} target="_blank" rel="noreferrer">{zh ? '核对固定来源版本' : 'Verify the pinned source version'}</a>}
+    {archiveDoi && archiveDoi !== doi && <a href={`https://doi.org/${archiveDoi}`} target="_blank" rel="noreferrer">{zh ? '核对归档内记录的版本' : 'Verify the version recorded inside the archive'}</a>}
     {collection.delivery.completeRows && counts.upstreamOnly > 0 && <SourceOnlyDisclosure collection={collection} zh={zh} />}
   </div>
 }

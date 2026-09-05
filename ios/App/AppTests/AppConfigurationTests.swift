@@ -384,16 +384,31 @@ final class AppConfigurationTests: XCTestCase {
                 XCTAssertNil(package["nomenclatureCollections"], "mammal-origins must not publish an ITIS nomenclature collection")
             } else if packageId == "turtles-lepidosaurs" {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
-                XCTAssertEqual(collections.count, 1)
+                XCTAssertEqual(collections.count, 2)
                 richItisNomenclatureRecords += try verifyRichItisCollection(
                     collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "itis-reptilia-tsn-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 9, expectedUpstreamFiles: 1,
                     expectedRecords: 12_622, expectedUpstreamRecords: 655, label: "ITIS non-Crocodylia Reptilia")
+                let reptileDb = try XCTUnwrap(collections.first { ($0["id"] as? String) == "reptiledb-turtles-lepidosaurs-extension" })
+                XCTAssertEqual(reptileDb["provider"] as? String, "The Reptile Database via ChecklistBank")
+                XCTAssertEqual(reptileDb["rowEncoding"] as? String, "jsonl")
+                XCTAssertEqual((reptileDb["source"] as? [String: Any])?["license"] as? String, "cc by")
+                XCTAssertEqual(reptileDb["colIdField"] as? String, "colId")
+                XCTAssertEqual(reptileDb["totalCountField"] as? String, "total")
+                let reptileDbCounts = try XCTUnwrap(reptileDb["counts"] as? [String: Any])
+                XCTAssertEqual(reptileDbCounts["total"] as? Int, 12_622)
+                XCTAssertEqual(reptileDbCounts["accepted"] as? Int, 12_622)
+                XCTAssertEqual(reptileDbCounts["upstreamOnly"] as? Int, 1)
+                XCTAssertEqual(reptileDbCounts["records"] as? Int, 12_623)
+                try verifyAuthorityArchiveCollection(
+                    collection: reptileDb, inventory: files, below: dataRoot, expectedFiles: 16, expectedUpstreamFiles: 1,
+                    expectedRecords: 12_622, expectedUpstreamRecords: 1, expectedLicense: "cc by",
+                    label: "ReptileDB turtles/lepidosaurs")
                 reptiliaItisFiles += 10
                 reptiliaItisNomenclatureRecords += 13_277
             } else if packageId == "crocodylomorphs-birds" {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
-                XCTAssertEqual(collections.count, 2)
+                XCTAssertEqual(collections.count, 3)
                 let avilist = try XCTUnwrap(collections.first { ($0["id"] as? String) == "avilist-v2025b-avibase-concepts" })
                 XCTAssertEqual(avilist["provider"] as? String, "AviList Core Team")
                 let delivery = try XCTUnwrap(avilist["delivery"] as? [String: Any])
@@ -415,6 +430,21 @@ final class AppConfigurationTests: XCTestCase {
                     collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "itis-crocodylia-tsn-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,
                     expectedRecords: 27, expectedUpstreamRecords: 0, label: "ITIS Crocodylia")
+                let reptileDb = try XCTUnwrap(collections.first { ($0["id"] as? String) == "reptiledb-crocodylia-extension" })
+                XCTAssertEqual(reptileDb["provider"] as? String, "The Reptile Database via ChecklistBank")
+                XCTAssertEqual(reptileDb["rowEncoding"] as? String, "jsonl")
+                XCTAssertEqual((reptileDb["source"] as? [String: Any])?["license"] as? String, "cc by")
+                XCTAssertEqual(reptileDb["colIdField"] as? String, "colId")
+                XCTAssertEqual(reptileDb["totalCountField"] as? String, "total")
+                let reptileDbCounts = try XCTUnwrap(reptileDb["counts"] as? [String: Any])
+                XCTAssertEqual(reptileDbCounts["total"] as? Int, 27)
+                XCTAssertEqual(reptileDbCounts["accepted"] as? Int, 27)
+                XCTAssertEqual(reptileDbCounts["upstreamOnly"] as? Int, 0)
+                XCTAssertEqual(reptileDbCounts["records"] as? Int, 27)
+                try verifyAuthorityArchiveCollection(
+                    collection: reptileDb, inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,
+                    expectedRecords: 27, expectedUpstreamRecords: 0, expectedLicense: "cc by",
+                    label: "ReptileDB Crocodylia")
                 crocodyliaItisFiles += 1
                 crocodyliaItisNomenclatureRecords += 27
             } else {

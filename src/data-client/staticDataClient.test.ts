@@ -594,17 +594,22 @@ describe('static runtime release coherence', () => {
     ['sponges-cnidarians', 'worms-hydrozoa-archive-crosswalk'],
     ['crustaceans-insects', 'osf-orthoptera-archive-crosswalk'],
     ['crustaceans-insects', 'worms-crustacea-archive-crosswalk'],
+    ['turtles-lepidosaurs', 'reptiledb-turtles-lepidosaurs-extension'],
+    ['crocodylomorphs-birds', 'reptiledb-crocodylia-extension'],
   ] as const)('loads only the selected %s / %s archive range and no row files on Web', async (packageId, collectionId) => {
     Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const jsonl = collectionId.startsWith('reptiledb-')
+    const mediaType = jsonl ? 'application/x-ndjson' : 'application/json'
+    const encodeRows = (values: unknown[]) => jsonl ? values.map((row) => JSON.stringify(row)).join('\n') + '\n' : JSON.stringify(values)
     const rows = ['A001', 'M001', 'Z001'].map((colId) => ({ colId, status: 'accepted' }))
     const shardFiles = await Promise.all(rows.map(async (row, index) => {
-      const body = JSON.stringify([row])
+      const body = encodeRows([row])
       const digest = await sha256Text(body)
-      return { body, file: { url: `releases/archive/packages/${packageId}/nomenclature/col-${index}.json`, records: 1, bytes: body.length, sha256: digest, minColId: row.colId, maxColId: row.colId } }
+      return { body, file: { url: `releases/archive/packages/${packageId}/nomenclature/col-${index}.json`, mediaType, records: 1, bytes: body.length, sha256: digest, minColId: row.colId, maxColId: row.colId } }
     }))
     const sourceOnlyRows = [{ colId: null, status: 'upstream-only' }]
-    const sourceOnlyBody = JSON.stringify(sourceOnlyRows)
-    const sourceOnlyFile = { url: `releases/archive/packages/${packageId}/nomenclature/upstream-only.json`, records: 1, bytes: sourceOnlyBody.length, sha256: await sha256Text(sourceOnlyBody) }
+    const sourceOnlyBody = encodeRows(sourceOnlyRows)
+    const sourceOnlyFile = { url: `releases/archive/packages/${packageId}/nomenclature/upstream-only.json`, mediaType, records: 1, bytes: sourceOnlyBody.length, sha256: await sha256Text(sourceOnlyBody) }
     const collection = {
       schemaVersion: 1, id: collectionId, recordType: 'release-pinned-authority-archive-crosswalk', packageId,
       counts: { total: 3, accepted: 3, redirect: 0, ambiguous: 0, unmatched: 0, withheld: 0, upstreamOnly: 1 },

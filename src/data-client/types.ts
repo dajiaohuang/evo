@@ -403,6 +403,8 @@ export type AuthorityArchiveCollectionId =
   | 'cilcat-1113-archive-crosswalk'
   | 'eumycetozoa-archive-crosswalk'
   | 'gymnodinium-archive-crosswalk'
+  | 'reptiledb-turtles-lepidosaurs-extension'
+  | 'reptiledb-crocodylia-extension'
 
 export interface AuthorityArchiveName {
   id: string

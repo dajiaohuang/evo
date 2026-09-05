@@ -42,6 +42,10 @@ describe('authority archive disclosure', () => {
   it.each([
     ['crustaceans-insects', '93', '326BJ', 'chilobase-archive-crosswalk', 'ChiloBase'],
     ['trilobites-chelicerates', '42N', '345WT', 'scorpion-files-archive-crosswalk', 'The Scorpion Files'],
+    ['turtles-lepidosaurs', '45C', 'REPTILE1', 'reptiledb-turtles-lepidosaurs-extension', 'ReptileDB'],
+    ['turtles-lepidosaurs', '477', 'REPTILE2', 'reptiledb-turtles-lepidosaurs-extension', 'ReptileDB'],
+    ['turtles-lepidosaurs', 'RP', 'REPTILE3', 'reptiledb-turtles-lepidosaurs-extension', 'ReptileDB'],
+    ['crocodylomorphs-birds', '329', 'CROC1', 'reptiledb-crocodylia-extension', 'ReptileDB'],
   ] as const)('routes %s specialist evidence only from its exact lineage root', async (packageId, root, colId, id, title) => {
     load.mockResolvedValue({ collection: { ...collection, id, packageId, provider: 'ChecklistBank' }, record: null })
     const { container } = render(<AuthorityArchiveEvidence colId={colId} packageId={packageId} lineageIds={[root]} zh={false} />)
@@ -52,6 +56,23 @@ describe('authority archive disclosure', () => {
     fireEvent(details, new Event('toggle'))
     await screen.findByText(/does not mean this species is unmatched/)
     expect(load).toHaveBeenCalledWith(packageId, id, colId)
+  })
+  it('does not route bird members of the mixed package to ReptileDB', () => {
+    const { container } = render(<AuthorityArchiveEvidence colId="BIRD1" packageId="crocodylomorphs-birds" lineageIds={['RP', 'V2']} zh={false} />)
+    expect(container.querySelector('details')).toBeNull()
+    expect(load).not.toHaveBeenCalled()
+  })
+  it('labels the archive version DOI separately when ReptileDB API metadata has none', async () => {
+    load.mockResolvedValue({ collection: { ...collection, id: 'reptiledb-turtles-lepidosaurs-extension',
+      packageId: 'turtles-lepidosaurs', source: { license: 'cc by', versionDoi: null,
+        embeddedArchiveMetadata: { versionDoi: '10.48580/d37s.v31' } } }, record: null })
+    const { container } = render(<AuthorityArchiveEvidence colId="REPTILE1" packageId="turtles-lepidosaurs" lineageIds={['45C']} zh={false} />)
+    const details = container.querySelector('details')!
+    details.open = true
+    fireEvent(details, new Event('toggle'))
+    expect(await screen.findByRole('link', { name: 'Verify the version recorded inside the archive' }))
+      .toHaveAttribute('href', 'https://doi.org/10.48580/d37s.v31')
+    expect(screen.queryByRole('link', { name: 'Verify the pinned source version' })).not.toBeInTheDocument()
   })
   it('routes the Radiozoa COL root to the WoRMS archive without loading while collapsed', async () => {
     load.mockResolvedValue({ collection: { ...collection, id: 'worms-radiozoa-archive-crosswalk', packageId: 'protists-chromists' }, record: null })
