@@ -1,7 +1,7 @@
 # Original Plazi descriptions
 
-This bounded collection contains 34 original paragraphs for 15 accepted COL26.8
-species: seven fishes, six flowering plants and two Syspira spiders. These are
+This bounded collection contains 35 original paragraphs for 16 accepted COL26.8
+species: seven fishes, seven flowering plants and two Syspira spiders. These are
 attributed treatment excerpts, not complete biological dossiers or a global
 coverage claim. Lazy Web delivery is implemented and focused loader/component
 checks pass; deployed browser acceptance remains unverified.
@@ -43,6 +43,14 @@ synonym usage KVD6K to accepted 3NRZH, Hyphessobrycon peugeotorum. The original
 source name and usage ID remain visible. This is one accepted species, not two;
 the description retains the publication's original spelling. Unmatched
 Chamaepinnularia mirim is not assigned a fabricated release-scoped ID.
+
+Wittmackia aurantiolilacina uses accepted COL26.8 VBWPB. The source's
+`Leme, E. Fernandez & Amorim 2025` and the catalogue's `Leme, E.P.Fern. & Amorim`
+are linked by an individually reviewed binomial, lineage and protologue match,
+supported by IPNI 77372190-1 and Phytotaxa 730(2):189–198 (2025),
+[doi:10.11646/phytotaxa.730.2.6](https://doi.org/10.11646/phytotaxa.730.2.6).
+Only its comparative diagnosis is included; material-associated morphology and
+the conservation analysis embedded in the distribution section are excluded.
 
 ## Delivery
 
