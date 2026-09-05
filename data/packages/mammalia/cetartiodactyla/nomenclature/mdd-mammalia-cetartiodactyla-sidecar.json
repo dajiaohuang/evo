@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "mdd-mammalia-cetartiodactyla-archive-crosswalk",
+  "packageId": "cetartiodactyla",
+  "provider": "The Mammal Diversity Database via ChecklistBank",
+  "role": "authority-crosswalk",
+  "rowEncoding": "json",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "9802",
+    "title": "The Mammal Diversity Database",
+    "alias": "MDD",
+    "version": "2.1",
+    "issued": "2025-04-06",
+    "doi": "10.48580/dfp2",
+    "versionDoi": null,
+    "archiveMetadataDoi": null,
+    "citation": "<div class=\"csl-entry\">Upham, N., Huckaby, D., Burgin, C., Widness, J., Becker, M., Handika, H., &amp; Zijlstra, J. (2025). <span style=\"font-style: italic\">The Mammal Diversity Database</span> (2.1). https://doi.org/10.48580/dfp2</div>",
+    "editor": null,
+    "contributor": null,
+    "license": "cc by",
+    "archiveLicense": "CC-BY",
+    "archiveUrl": "https://api.checklistbank.org/dataset/9802/archive",
+    "archivePath": "data/sources/archives/checklistbank-9802-mdd.zip",
+    "metadataPath": "data/sources/archives/checklistbank-9802-mdd.metadata.json",
+    "archiveBytes": 3189955,
+    "archiveSha256": "da2c04ec869539b949b4af8a8484ccc4901c0848f06822b0257c92d56d835ed2",
+    "metadataBytes": 7556,
+    "metadataSha256": "163344357b472daed7f153e5ff1cfabaa6f30415ce3517cc9050c4657df0662d",
+    "internalMetadata": {
+      "bytes": 7163,
+      "sha256": "219f43f1ab9e97904fa59250e6b9e05c03b6b3c88024cbd7ac9d32549be8b78a"
+    },
+    "members": {
+      "NameUsage.tsv": {
+        "bytes": 11520995,
+        "sha256": "02701fd89e3032b3d12b8c0f7da57eafc231f4ce9bf5cd554fcc79a2c8504ae7"
+      },
+      "TypeMaterial.tsv": {
+        "bytes": 1139353,
+        "sha256": "d7c2323b95e1868a2b1d7999196e54318dde2f29467f7e0ea32847882bb64f9a"
+      },
+      "VernacularName.tsv": {
+        "bytes": 506995,
+        "sha256": "d5241cbbdf22326f149c3a4e3693b580be18b946b43794067cc89912f9b08891"
+      },
+      "Reference.tsv": {
+        "bytes": 1806358,
+        "sha256": "961bc14448f8602c2c4d6687e280bf044a8cafd52ab925a78b037154267ab765"
+      },
+      "metadata.yaml": {
+        "bytes": 7163,
+        "sha256": "219f43f1ab9e97904fa59250e6b9e05c03b6b3c88024cbd7ac9d32549be8b78a"
+      },
+      "logo.png": {
+        "bytes": 28218,
+        "sha256": "abe1252cfb735add27f7ffd5eaddbdf7fac1b0392d59c1319f842c28239eab8b"
+      },
+      "Distribution.tsv": {
+        "bytes": 953235,
+        "sha256": "ba7e8769c3241c46711972605c47ffbc1aeb94f7f9d6e2e3102b34c1bafaf734"
+      }
+    },
+    "metadataConsistency": {
+      "title": true,
+      "version": true,
+      "issued": true,
+      "license": true,
+      "taxonomicScope": true,
+      "doiNote": "ChecklistBank dataset DOI and archive metadata DOI are retained as distinct identifiers; they are not asserted equal."
+    }
+  },
+  "scope": {
+    "colRootUsageId": "6224G",
+    "colRootScientificName": "Mammalia",
+    "colRelease": "COL26.8",
+    "colStrictAcceptedSpecies": 503,
+    "sourceDatasetId": "9802",
+    "sourceStrictAcceptedSpecies": 371,
+    "packageOwnership": "COL rows use the existing unique COL species ownership route.",
+    "sourceGlobalStrictAcceptedSpecies": 6801,
+    "sourcePackageRoutedSpecies": 371,
+    "sourceOnlyRouting": "Source-only rows retain null COL IDs and are routed only by the explicit MDD taxonomy.order allowlist; this is not COL ownership or taxon equivalence."
+  },
+  "matching": {
+    "normalization": "Unicode NFC and whitespace normalization on scientific names only; COL trailing authorship is removed exactly. Authorship is preserved as source data, not used as a matching key.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, authorship, synonym, taxon-substitution or species-concept matching."
+  },
+  "counts": {
+    "total": 503,
+    "accepted": 325,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 178,
+    "withheld": 0,
+    "upstreamOnly": 46,
+    "records": 549
+  },
+  "files": [
+    {
+      "path": "nomenclature/mdd-mammalia-cetartiodactyla-000.json.gz",
+      "records": 365,
+      "bytes": 150686,
+      "sha256": "358393eb0394cd12d700ce76e51d28bc1c891bcb8b21935449e5119b57ba46d4",
+      "sourceBytes": 2094576,
+      "sourceSha256": "34f0863c13b48fe2717e6f911ba1e72a116681326b36af39086d42cf9bac7b8e",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "342N9",
+      "maxColId": "QS65"
+    },
+    {
+      "path": "nomenclature/mdd-mammalia-cetartiodactyla-001.json.gz",
+      "records": 138,
+      "bytes": 15998,
+      "sha256": "0bc8be55af3aea6442a4d50bcfbe84f4f4d5f5ebe878fac04282ac6dbf6f4177",
+      "sourceBytes": 194175,
+      "sourceSha256": "76cedb14b6028825866e09b186310529d40bee391c087757fb4b76b6f965c92c",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "QS66",
+      "maxColId": "XPLQ"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "nomenclature/mdd-mammalia-cetartiodactyla-source-only-000.json.gz",
+      "records": 46,
+      "bytes": 20113,
+      "sha256": "41edb764c62832505a5406b6a9e60467f7e82a712d34e7102de31a6e0266c485",
+      "sourceBytes": 257846,
+      "sourceSha256": "0b3f40d4aea97119e5ec8b80e1d0014182c4faab8743b0371a65b79bfc79063b",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "upstream-only"
+    }
+  ],
+  "totalCompressedBytes": 186797,
+  "totalSourceBytes": 2546597,
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 549,
+      "files": [
+        "nomenclature/mdd-mammalia-cetartiodactyla-000.json.gz",
+        "nomenclature/mdd-mammalia-cetartiodactyla-001.json.gz",
+        "nomenclature/mdd-mammalia-cetartiodactyla-source-only-000.json.gz"
+      ],
+      "totalCompressedBytes": 186797,
+      "totalSourceBytes": 2546597
+    }
+  },
+  "evidenceBoundary": {
+    "en": "Frozen The Mammal Diversity Database archive projection for strict accepted COL26.8 Mammalia rows owned by cetartiodactyla; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "冻结的 The Mammal Diversity Database 档案投影，范围为归属于 cetartiodactyla 的严格 accepted COL26.8 Mammalia 行；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Accepted crosswalk status does not imply that a source species is extant; explicit source extinct fields and remarks are preserved.",
+    "Source-only rows are relative only to this COL26.8 scope and are not global novelty claims.",
+    "Archive status and source fields are preserved; exact matching does not infer taxonomic equivalence.",
+    "GitHub Pages web-light carries the descriptor summary only; native-full carries every listed row shard."
+  ]
+}

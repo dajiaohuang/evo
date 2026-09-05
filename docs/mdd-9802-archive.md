@@ -18,7 +18,9 @@ The projection selects the strict COL26.8 accepted species descendants of
 Mammalia (`6224G`): **6,461** COL species. The pinned MDD archive contributes
 **6,801** species rows (`rank=species` and blank source status); blank source
 status is the archive selection boundary, not a literal `accepted` label or an
-assertion that the species is extant.
+assertion that the species is extant. The COL rows are partitioned by the
+existing ownership routes into `other-mammals` (5,099), `primates` (530),
+`cetartiodactyla` (503), `carnivora` (310) and `perissodactyla` (19).
 Matching is deterministic and intentionally narrow:
 
 - normalize scientific names with Unicode NFC and whitespace normalization;
@@ -38,11 +40,12 @@ have `col:extinct=true` (including remarks such as “the species is probably
 extinct”). Eighty of those rows are among the exact COL matches. Crosswalk
 `accepted` therefore means a unique name match, never `extant`.
 
-MDD spans five existing COL ownership routes. This worker intentionally keeps
-the whole projection together and does not guess package routing: the parent
-integration must decide how to partition `other-mammals`, `primates`,
-`cetartiodactyla`, `carnivora` and `perissodactyla`, including the 1,775
-upstream-only rows that have no COL ID.
+The 1,775 upstream-only rows retain null COL IDs and are routed separately by
+an explicit source taxonomy order allowlist: Primates 33, Carnivora 30,
+Perissodactyla 2 and Artiodactyla 46 go to their corresponding package;
+the remaining 1,664 rows from 23 enumerated mammal orders go to
+`other-mammals`. This is source-taxonomy routing only, not COL ownership or a
+claim of taxon equivalence.
 
 GitHub Pages receives the descriptor summary only (`web-light`). Android and
 iOS `native-full` inventories must include every listed deterministic gzip JSON

@@ -6,6 +6,7 @@ never used as a fuzzy fallback.
 """
 import argparse
 import csv
+import collections
 import gzip
 import hashlib
 import io
@@ -26,9 +27,6 @@ SOURCES = {
         'metadataName': 'checklistbank-9802-mdd.metadata.json',
         'root': '6224G', 'taxon': 'Mammalia', 'prefix': 'mdd-mammalia',
         'id': 'mdd-mammalia-archive-crosswalk',
-        'packageId': 'other-animals',
-        'outputPath': 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals',
-        'filePathPrefix': 'other-animals',
         'provider': 'The Mammal Diversity Database via ChecklistBank',
         'ledgerName': 'mdd-9802-import-ledger.json',
     },
@@ -44,6 +42,51 @@ SOURCES = {
         'ledgerName': 'ioc-2036-import-ledger.json',
     },
 }
+
+MDD_PACKAGE_CONFIGS = {
+    'other-mammals': {
+        'outputPath': 'data/packages/mammalia/other-mammals/nomenclature',
+        'prefix': 'mdd-mammalia-other-mammals',
+        'id': 'mdd-mammalia-other-mammals-archive-crosswalk',
+    },
+    'primates': {
+        'outputPath': 'data/packages/mammalia/primates/nomenclature',
+        'prefix': 'mdd-mammalia-primates',
+        'id': 'mdd-mammalia-primates-archive-crosswalk',
+    },
+    'cetartiodactyla': {
+        'outputPath': 'data/packages/mammalia/cetartiodactyla/nomenclature',
+        'prefix': 'mdd-mammalia-cetartiodactyla',
+        'id': 'mdd-mammalia-cetartiodactyla-archive-crosswalk',
+    },
+    'carnivora': {
+        'outputPath': 'data/packages/mammalia/carnivora/nomenclature',
+        'prefix': 'mdd-mammalia-carnivora',
+        'id': 'mdd-mammalia-carnivora-archive-crosswalk',
+    },
+    'perissodactyla': {
+        'outputPath': 'data/packages/mammalia/perissodactyla/nomenclature',
+        'prefix': 'mdd-mammalia-perissodactyla',
+        'id': 'mdd-mammalia-perissodactyla-archive-crosswalk',
+    },
+}
+
+MDD_SPECIAL_ORDER_PACKAGES = {
+    'Primates': 'primates',
+    'Carnivora': 'carnivora',
+    'Perissodactyla': 'perissodactyla',
+    'Artiodactyla': 'cetartiodactyla',
+}
+
+# This is an explicit allowlist, not a fallback for an unknown source order.
+MDD_OTHER_MAMMALS_ORDERS = frozenset({
+    'Rodentia', 'Chiroptera', 'Eulipotyphla', 'Diprotodontia',
+    'Didelphimorphia', 'Lagomorpha', 'Dasyuromorphia', 'Afrosoricida',
+    'Peramelemorphia', 'Cingulata', 'Scandentia', 'Macroscelidea',
+    'Pilosa', 'Pholidota', 'Paucituberculata', 'Hyracoidea', 'Sirenia',
+    'Monotremata', 'Proboscidea', 'Dermoptera', 'Microbiotheria',
+    'Notoryctemorphia', 'Tubulidentata',
+})
 
 
 def sha(data):
@@ -242,45 +285,42 @@ def write_shards(prefix, rows, destination, role, file_path_prefix):
     return files
 
 
-def build_one(config, col_rows, parents, registry_sha, registry_inputs, output_root):
-    archive = archive_source(config)
-    by_name = {}
-    for record, row_number in archive['accepted']:
-        by_name.setdefault(norm(record['scientificName']), []).append((record, row_number))
-    records, used = [], set()
-    counts = {'accepted': 0, 'redirect': 0, 'ambiguous': 0, 'unmatched': 0, 'withheld': 0}
-    eligible = {key: row for key, row in col_rows.items() if under_root(row, parents, config['root'])}
-    for col_id, row in sorted(eligible.items()):
-        key = norm(col_bare(row))
-        hits = by_name.get(key, [])
-        status = 'accepted' if len(hits) == 1 else 'ambiguous' if len(hits) > 1 else 'unmatched'
-        counts[status] += 1
-        candidates = [x[0] for x in hits] if len(hits) > 1 else []
-        matched = hits[0][0] if len(hits) == 1 else None
-        if matched:
-            used.add(matched['id'])
-        records.append({'colId': col_id, 'colScientificName': row['scientificName'],
-                        'colAuthorship': row.get('authorship'), 'status': status,
-                        'exactMatchName': key, 'matchedName': matched,
-                        'acceptedName': matched if status == 'accepted' else None,
-                        'candidates': candidates,
-                        'mappingBasis': 'Unique exact normalized scientific name (NFC + whitespace); COL authorship is removed exactly but is not matched, and source authorship is preserved; no synonym fallback.',
-                        'sourceRows': matched['sourceRows'] if matched else []})
-    upstream = []
-    for record, _ in sorted(archive['accepted'], key=lambda pair: pair[0]['id']):
-        if record['id'] not in used:
-            upstream.append({'colId': None, 'colScientificName': None, 'colAuthorship': None,
-                             'status': 'upstream-only', 'exactMatchName': norm(record['scientificName']),
-                             'matchedName': record, 'acceptedName': record, 'candidates': [],
-                             'mappingBasis': 'Selected source species not uniquely matched to the exact COL26.8 scope; not a global novelty claim.',
-                             'sourceRows': record['sourceRows']})
-    destination = output_root / config['outputPath']
-    destination.mkdir(parents=True, exist_ok=True)
-    col_files = write_shards(config['prefix'], records, destination, 'col-partition', config['filePathPrefix'])
-    upstream_files = write_shards(f"{config['prefix']}-source-only", upstream, destination, 'upstream-only', config['filePathPrefix'])
+def package_owners(col_rows, parents):
+    coverage = json.loads((ROOT / 'data/registry/package-species-coverage.json').read_text(encoding='utf-8'))
+    target = set(MDD_PACKAGE_CONFIGS)
+    by_ancestor = {}
+    for route in coverage['routes']:
+        for ancestor_id in route['ancestorIds']:
+            by_ancestor.setdefault(ancestor_id, []).append((route['priority'], route['packageId']))
+    owners = {}
+    for col_id, row in col_rows.items():
+        if not under_root(row, parents, SOURCES['mdd']['root']):
+            continue
+        current, seen, candidates = col_id, set(), []
+        while current and current not in seen:
+            seen.add(current)
+            candidates.extend(by_ancestor.get(current, []))
+            current = parents.get(current)
+        selected = sorted(candidates)
+        if not selected or selected[0][1] not in target:
+            raise ValueError(f'MDD COL species {col_id} has no unique target package owner: {selected[:4]}')
+        owners[col_id] = selected[0][1]
+    return owners
+
+
+def mdd_source_package(record):
+    order = (record.get('taxonomy') or {}).get('order')
+    if order in MDD_SPECIAL_ORDER_PACKAGES:
+        return MDD_SPECIAL_ORDER_PACKAGES[order]
+    if order in MDD_OTHER_MAMMALS_ORDERS:
+        return 'other-mammals'
+    raise ValueError(f'MDD source species {record["id"]} has unknown order; no routing fallback is permitted')
+
+
+def descriptor_source(config, archive):
     source = archive['metadata']
     internal = archive['internalMetadata']
-    descriptor_source = {
+    return {
         'datasetId': config['datasetId'], 'title': source['title'], 'alias': source.get('alias'),
         'version': source['version'], 'issued': source['issued'], 'doi': source.get('doi'),
         'versionDoi': source.get('versionDoi'), 'archiveMetadataDoi': internal.get('doi'),
@@ -298,19 +338,31 @@ def build_one(config, col_rows, parents, registry_sha, registry_inputs, output_r
                                 'taxonomicScope': True,
                                 'doiNote': 'ChecklistBank dataset DOI and archive metadata DOI are retained as distinct identifiers; they are not asserted equal.'},
     }
+
+
+def make_descriptor(config, package_id, prefix, output_path, file_path_prefix, records,
+                    upstream, archive, output_root, scope_extra=None, limitations_extra=None):
+    destination = output_root / output_path
+    destination.mkdir(parents=True, exist_ok=True)
+    col_files = write_shards(prefix, records, destination, 'col-partition', file_path_prefix)
+    upstream_files = write_shards(f'{prefix}-source-only', upstream, destination, 'upstream-only', file_path_prefix)
     inventory = col_files + upstream_files
+    source = archive['metadata']
     descriptor = {
         'schemaVersion': 1, 'recordType': 'release-pinned-authority-archive-crosswalk',
-        'id': config['id'], 'packageId': config['packageId'], 'provider': config['provider'],
-        'role': 'authority-crosswalk', 'rowEncoding': 'json', 'encoding': 'gzip',
-        'mediaType': 'application/json', 'colIdField': 'colId', 'totalCountField': 'total',
-        'source': descriptor_source,
+        'id': config.get('id', prefix + '-archive-crosswalk'), 'packageId': package_id,
+        'provider': config['provider'], 'role': 'authority-crosswalk', 'rowEncoding': 'json',
+        'encoding': 'gzip', 'mediaType': 'application/json', 'colIdField': 'colId',
+        'totalCountField': 'total', 'source': descriptor_source(config, archive),
         'scope': {'colRootUsageId': config['root'], 'colRootScientificName': config['taxon'],
-                  'colRelease': 'COL26.8', 'colStrictAcceptedSpecies': len(eligible),
-                  'sourceDatasetId': config['datasetId'], 'sourceStrictAcceptedSpecies': len(archive['accepted'])},
+                  'colRelease': 'COL26.8', 'colStrictAcceptedSpecies': len(records),
+                  'sourceDatasetId': config['datasetId'],
+                  'sourceStrictAcceptedSpecies': len({row['matchedName']['id'] for row in records if row.get('matchedName')} | {row['matchedName']['id'] for row in upstream}),
+                  **(scope_extra or {})},
         'matching': {'normalization': 'Unicode NFC and whitespace normalization on scientific names only; COL trailing authorship is removed exactly. Authorship is preserved as source data, not used as a matching key.',
                      'prohibited': 'No fuzzy, case-folded, accent-folded, authorship, synonym, taxon-substitution or species-concept matching.'},
-        'counts': {'total': len(records), **counts, 'upstreamOnly': len(upstream), 'records': len(records) + len(upstream)},
+        'counts': {'total': len(records), **{key: sum(row['status'] == key for row in records) for key in ('accepted', 'redirect', 'ambiguous', 'unmatched', 'withheld')},
+                   'upstreamOnly': len(upstream), 'records': len(records) + len(upstream)},
         'files': col_files, 'upstreamOnlyFiles': upstream_files,
         'totalCompressedBytes': sum(file['bytes'] for file in inventory),
         'totalSourceBytes': sum(file['sourceBytes'] for file in inventory),
@@ -320,22 +372,55 @@ def build_one(config, col_rows, parents, registry_sha, registry_inputs, output_r
                                              'files': [file['path'] for file in inventory],
                                              'totalCompressedBytes': sum(file['bytes'] for file in inventory),
                                              'totalSourceBytes': sum(file['sourceBytes'] for file in inventory)}},
-        'evidenceBoundary': {'en': f'Frozen {source["title"]} archive projection for strict accepted COL26.8 {config["taxon"]}; not species-concept equivalence, a biological dossier, fossil evidence or expert review.',
-                             'zh': f'冻结的 {source["title"]} 档案投影，范围为严格 accepted 的 COL26.8 {config["taxon"]}；不是物种概念等同性、生物档案、化石证据或专家审查。'},
+        'evidenceBoundary': {'en': f'Frozen {source["title"]} archive projection for strict accepted COL26.8 {config["taxon"]} rows owned by {package_id}; not species-concept equivalence, a biological dossier, fossil evidence or expert review.',
+                             'zh': f'冻结的 {source["title"]} 档案投影，范围为归属于 {package_id} 的严格 accepted COL26.8 {config["taxon"]} 行；不是物种概念等同性、生物档案、化石证据或专家审查。'},
         'limitations': ['Accepted crosswalk status does not imply that a source species is extant; explicit source extinct fields and remarks are preserved.',
                         'Source-only rows are relative only to this COL26.8 scope and are not global novelty claims.',
                         'Archive status and source fields are preserved; exact matching does not infer taxonomic equivalence.',
                         'GitHub Pages web-light carries the descriptor summary only; native-full carries every listed row shard.'],
     }
-    if config['prefix'] == 'mdd-mammalia':
-        descriptor['limitations'].append('MDD spans five existing COL ownership routes; this worker intentionally does not partition its rows or assign its 1,775 source-only rows to those packages. Parent integration must decide that boundary.')
-    else:
-        descriptor['scope']['packageOwnership'] = 'All COL26.8 accepted Aves below V2 are owned by crocodylomorphs-birds; this projection is not an other-animals resource-pack extension.'
-    descriptor_path = destination / f'{config["prefix"]}-sidecar.json'
+    descriptor['limitations'].extend(limitations_extra or [])
+    descriptor_path = destination / f'{prefix}-sidecar.json'
     descriptor_bytes = json_bytes(descriptor, True)
     descriptor_path.write_bytes(descriptor_bytes)
+    return descriptor, descriptor_bytes, inventory
+
+
+def build_ioc_one(config, col_rows, parents, registry_sha, registry_inputs, output_root):
+    archive = archive_source(config)
+    by_name = {}
+    for record, row_number in archive['accepted']:
+        by_name.setdefault(norm(record['scientificName']), []).append((record, row_number))
+    records, used = [], set()
+    eligible = {key: row for key, row in col_rows.items() if under_root(row, parents, config['root'])}
+    for col_id, row in sorted(eligible.items()):
+        key = norm(col_bare(row))
+        hits = by_name.get(key, [])
+        status = 'accepted' if len(hits) == 1 else 'ambiguous' if len(hits) > 1 else 'unmatched'
+        matched = hits[0][0] if len(hits) == 1 else None
+        if matched:
+            used.add(matched['id'])
+        records.append({'colId': col_id, 'colScientificName': row['scientificName'],
+                        'colAuthorship': row.get('authorship'), 'status': status,
+                        'exactMatchName': key, 'matchedName': matched,
+                        'acceptedName': matched if status == 'accepted' else None,
+                        'candidates': [x[0] for x in hits] if len(hits) > 1 else [],
+                        'mappingBasis': 'Unique exact normalized scientific name (NFC + whitespace); COL authorship is removed exactly but is not matched, and source authorship is preserved; no synonym fallback.',
+                        'sourceRows': matched['sourceRows'] if matched else []})
+    upstream = []
+    for record, _ in sorted(archive['accepted'], key=lambda pair: pair[0]['id']):
+        if record['id'] not in used:
+            upstream.append({'colId': None, 'colScientificName': None, 'colAuthorship': None,
+                             'status': 'upstream-only', 'exactMatchName': norm(record['scientificName']),
+                             'matchedName': record, 'acceptedName': record, 'candidates': [],
+                             'mappingBasis': 'Selected source species not uniquely matched to the exact COL26.8 scope; not a global novelty claim.',
+                             'sourceRows': record['sourceRows']})
+    descriptor, descriptor_bytes, inventory = make_descriptor(
+        config, config['packageId'], config['prefix'], config['outputPath'],
+        config['filePathPrefix'], records, upstream, archive, output_root,
+        scope_extra={'packageOwnership': 'All COL26.8 accepted Aves below V2 are owned by crocodylomorphs-birds; this projection is not an other-animals resource-pack extension.'})
     ledger = {'schemaVersion': 1, 'importType': f"COL26.8-to-{config['datasetId']}-exact-scientific-name-crosswalk",
-              'source': descriptor_source, 'registryManifestSha256': registry_sha,
+              'source': descriptor['source'], 'registryManifestSha256': registry_sha,
               'registryInputs': registry_inputs,
               'generatedBy': {'script': 'scripts/build-mdd-ioc-source.py', 'scriptSha256': script_sha(), 'hashNormalization': 'LF'},
               'scopeAudit': {'colRootUsageId': config['root'], 'colRootScientificName': config['taxon'],
@@ -343,11 +428,92 @@ def build_one(config, col_rows, parents, registry_sha, registry_inputs, output_r
                              'counts': descriptor['counts']},
               'outputs': {'descriptor': {'path': f'{config["outputPath"]}/{config["prefix"]}-sidecar.json',
                                          'bytes': len(descriptor_bytes), 'sha256': sha(descriptor_bytes)},
-                          'files': col_files, 'upstreamOnlyFiles': upstream_files}}
+                          'files': descriptor['files'], 'upstreamOnlyFiles': descriptor['upstreamOnlyFiles']}}
     ledger_path = output_root / 'data/sources' / config['ledgerName']
     ledger_path.parent.mkdir(parents=True, exist_ok=True)
     ledger_path.write_bytes(json_bytes(ledger, True))
     return descriptor
+
+
+def build_mdd_packages(config, col_rows, parents, registry_sha, registry_inputs, output_root):
+    archive = archive_source(config)
+    owners = package_owners(col_rows, parents)
+    by_name = {}
+    for record, row_number in archive['accepted']:
+        by_name.setdefault(norm(record['scientificName']), []).append((record, row_number))
+    records_by_package = {package_id: [] for package_id in MDD_PACKAGE_CONFIGS}
+    upstream_by_package = {package_id: [] for package_id in MDD_PACKAGE_CONFIGS}
+    used_by_source = {}
+    eligible = {key: row for key, row in col_rows.items() if under_root(row, parents, config['root'])}
+    for col_id, row in sorted(eligible.items()):
+        package_id = owners[col_id]
+        key = norm(col_bare(row))
+        hits = by_name.get(key, [])
+        status = 'accepted' if len(hits) == 1 else 'ambiguous' if len(hits) > 1 else 'unmatched'
+        matched = hits[0][0] if len(hits) == 1 else None
+        if matched:
+            used_by_source[matched['id']] = package_id
+        records_by_package[package_id].append({'colId': col_id, 'colScientificName': row['scientificName'],
+                                                'colAuthorship': row.get('authorship'), 'status': status,
+                                                'exactMatchName': key, 'matchedName': matched,
+                                                'acceptedName': matched if status == 'accepted' else None,
+                                                'candidates': [x[0] for x in hits] if len(hits) > 1 else [],
+                                                'mappingBasis': 'Unique exact normalized scientific name (NFC + whitespace); COL authorship is removed exactly but is not matched, and source authorship is preserved; no synonym fallback.',
+                                                'sourceRows': matched['sourceRows'] if matched else []})
+    for record, _ in sorted(archive['accepted'], key=lambda pair: pair[0]['id']):
+        if record['id'] in used_by_source:
+            continue
+        package_id = mdd_source_package(record)
+        order = (record.get('taxonomy') or {}).get('order')
+        upstream_by_package[package_id].append({'colId': None, 'colScientificName': None, 'colAuthorship': None,
+                                                'status': 'upstream-only', 'exactMatchName': norm(record['scientificName']),
+                                                'matchedName': record, 'acceptedName': record, 'candidates': [],
+                                                'mappingBasis': 'Selected source species not uniquely matched to the exact COL26.8 scope; not a global novelty claim.',
+                                                'sourceRouting': {'basis': 'Explicit MDD taxonomy.order allowlist; not COL ownership or taxon equivalence.',
+                                                                  'order': order, 'packageId': package_id},
+                                                'sourceRows': record['sourceRows']})
+    if sum(len(rows) for rows in records_by_package.values()) != len(eligible):
+        raise ValueError('MDD package COL partitions do not cover the eligible scope exactly')
+    if sum(len(rows) for rows in upstream_by_package.values()) != len(archive['accepted']) - len(used_by_source):
+        raise ValueError('MDD source-only partitions do not cover the un-used source rows exactly')
+    descriptors, package_outputs = {}, {}
+    for package_id, package_config in MDD_PACKAGE_CONFIGS.items():
+        source_rows = {row['matchedName']['id'] for row in records_by_package[package_id] if row.get('matchedName')}
+        package_scope = {
+            'packageOwnership': 'COL rows use the existing unique COL species ownership route.',
+            'sourceGlobalStrictAcceptedSpecies': len(archive['accepted']),
+            'sourcePackageRoutedSpecies': len(source_rows) + len(upstream_by_package[package_id]),
+            'sourceOnlyRouting': 'Source-only rows retain null COL IDs and are routed only by the explicit MDD taxonomy.order allowlist; this is not COL ownership or taxon equivalence.',
+        }
+        descriptor, descriptor_bytes, inventory = make_descriptor(
+            {**config, 'id': package_config['id']}, package_id, package_config['prefix'],
+            package_config['outputPath'], 'nomenclature', records_by_package[package_id],
+            upstream_by_package[package_id], archive, output_root, scope_extra=package_scope)
+        descriptors[package_id] = descriptor
+        package_outputs[package_id] = {'descriptor': {'path': f"{package_config['outputPath']}/{package_config['prefix']}-sidecar.json",
+                                                       'bytes': len(descriptor_bytes), 'sha256': sha(descriptor_bytes)},
+                                       'files': descriptor['files'], 'upstreamOnlyFiles': descriptor['upstreamOnlyFiles']}
+    aggregate_counts = {key: sum(descriptor['counts'][key] for descriptor in descriptors.values())
+                        for key in ('total', 'accepted', 'redirect', 'ambiguous', 'unmatched', 'withheld', 'upstreamOnly', 'records')}
+    source_routing_counts = collections.Counter()
+    for rows in upstream_by_package.values():
+        for row in rows:
+            source_routing_counts[row['sourceRouting']['order']] += 1
+    ledger = {'schemaVersion': 1, 'importType': 'COL26.8-to-9802-exact-scientific-name-crosswalk-by-col-owner',
+              'source': descriptor_source(config, archive), 'registryManifestSha256': registry_sha,
+              'registryInputs': registry_inputs,
+              'generatedBy': {'script': 'scripts/build-mdd-ioc-source.py', 'scriptSha256': script_sha(), 'hashNormalization': 'LF'},
+              'scopeAudit': {'colRootUsageId': config['root'], 'colRootScientificName': config['taxon'],
+                             'colStrictAcceptedSpecies': len(eligible), 'sourceStrictAcceptedSpecies': len(archive['accepted']),
+                             'counts': aggregate_counts,
+                             'packageCounts': {package_id: descriptor['counts'] for package_id, descriptor in descriptors.items()},
+                             'sourceOnlyRoutingCountsByOrder': dict(sorted(source_routing_counts.items())),
+                             'sourceOnlyRoutingBasis': 'Explicit MDD taxonomy.order allowlist; source-only rows retain null COL IDs and this routing is not COL ownership or taxon equivalence.'},
+              'outputs': {'packages': package_outputs}}
+    ledger_path = output_root / 'data/sources' / config['ledgerName']
+    ledger_path.parent.mkdir(parents=True, exist_ok=True)
+    ledger_path.write_bytes(json_bytes(ledger, True))
+    return descriptors, ledger
 
 
 def main():
@@ -357,8 +523,12 @@ def main():
     args = parser.parse_args()
     output_root = args.output_root or ROOT
     col, parents, registry_sha, registry_inputs = read_col()
-    for key in ('mdd', 'ioc') if args.source == 'all' else (args.source,):
-        descriptor = build_one(SOURCES[key], col, parents, registry_sha, registry_inputs, output_root)
+    if args.source in ('mdd', 'all'):
+        descriptors, ledger = build_mdd_packages(SOURCES['mdd'], col, parents, registry_sha, registry_inputs, output_root)
+        print(json.dumps({'id': 'mdd-mammalia', 'counts': ledger['scopeAudit']['counts'],
+                          'packages': {package_id: descriptor['counts'] for package_id, descriptor in descriptors.items()}}, ensure_ascii=False))
+    if args.source in ('ioc', 'all'):
+        descriptor = build_ioc_one(SOURCES['ioc'], col, parents, registry_sha, registry_inputs, output_root)
         print(json.dumps({'id': descriptor['id'], 'counts': descriptor['counts'],
                           'source': {'bytes': descriptor['source']['archiveBytes'], 'sha256': descriptor['source']['archiveSha256']},
                           'files': descriptor['files'], 'upstreamOnlyFiles': descriptor['upstreamOnlyFiles']}, ensure_ascii=False))
