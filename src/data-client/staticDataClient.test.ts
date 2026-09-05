@@ -61,6 +61,7 @@ async function installCatalogueFixture({
   moss?: import('./types').CatalogueMossDescriptionRecord[]
   mossChina?: import('./types').CatalogueMossChinaDescriptionRecord[]
   fna?: import('./types').CatalogueFnaDescriptionRecord[]
+  brazilFlora?: import('./types').CatalogueBrazilFloraDescriptionRecord[]
   pakistan?: import('./types').CataloguePakistanDescriptionRecord[]
 }) {
   Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
@@ -68,7 +69,7 @@ async function installCatalogueFixture({
   const payloads = new Map<string, ReturnType<typeof responseFor> | ReturnType<typeof textResponseFor>>()
 
   async function hierarchyLayer<T extends { id: string }>(
-    layer: 'nodes' | 'children' | 'targets' | 'sanbi' | 'plazi' | 'foa' | 'meso' | 'fdac' | 'moss' | 'moss-china' | 'fna' | 'pakistan',
+    layer: 'nodes' | 'children' | 'targets' | 'sanbi' | 'plazi' | 'foa' | 'meso' | 'fdac' | 'moss' | 'moss-china' | 'fna' | 'brazil-flora' | 'pakistan',
     records: T[],
     routeId: (record: T) => string,
   ) {
@@ -109,6 +110,7 @@ async function installCatalogueFixture({
   const mossLayer = moss ? await hierarchyLayer('moss', moss.map((record) => ({ ...record, id: record.colId })), (record) => record.colId) : undefined
   const mossChinaLayer = mossChina ? await hierarchyLayer('moss-china', mossChina.map((record) => ({ ...record, id: record.colId })), (record) => record.colId) : undefined
   const fnaLayer = fna ? await hierarchyLayer('fna', fna.map((record) => ({ ...record, id: record.colId })), (record) => record.colId) : undefined
+  const brazilFloraLayer = brazilFlora ? await hierarchyLayer('brazil-flora', brazilFlora.map((record) => ({ ...record, id: record.colId })), (record) => record.colId) : undefined
   const pakistanLayer = pakistan ? await hierarchyLayer('pakistan', pakistan.map((record) => ({ ...record, id: record.colId })), (record) => record.colId) : undefined
   const searchGroups = new Map<string, CatalogueRecord[]>()
   for (const record of searchRecords) {
@@ -156,6 +158,7 @@ async function installCatalogueFixture({
     ...(mossLayer ? { mossDescriptions: mossLayer } : {}),
     ...(mossChinaLayer ? { mossChinaDescriptions: mossChinaLayer } : {}),
     ...(fnaLayer ? { fnaDescriptions: fnaLayer } : {}),
+    ...(brazilFloraLayer ? { brazilFloraDescriptions: brazilFloraLayer } : {}),
     ...(pakistanLayer ? { pakistanDescriptions: pakistanLayer } : {}),
     hierarchy: { nodes: nodeLayer, children: childLayer },
   }
@@ -1527,6 +1530,21 @@ describe('static runtime release coherence', () => {
     await loadCatalogueFnaDescriptions(record.colId)
     expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/fna-'))).toHaveLength(1)
     await expect(loadCatalogueFnaDescriptions('unmapped-species')).resolves.toBeNull()
+  })
+
+  it('loads and caches only the requested Brazil flora route', async () => {
+    const { loadCatalogueBrazilFloraDescriptions } = await import('./staticDataClient')
+    const record: import('./types').CatalogueBrazilFloraDescriptionRecord = {
+      colId: 'EXAMPLE', wfoId: 'wfo-example', scientificName: 'Example plant', descriptions: [{
+        type: 'morphology', language: 'pt', text: 'Texto brasileiro.', rowNumber: 7, sourceId: 'br-1', citations: ['Source citation'], referenceRowNumbers: [8], citationScope: 'description-source', datasetCitation: 'Dataset citation',
+        rightsHolder: 'Brazil Flora Group', rights: 'Brazil flora archive', license: 'https://creativecommons.org/licenses/by/4.0/', sourceExcerpt: true,
+      }],
+    }
+    const { fetchMock } = await installCatalogueFixture({ brazilFlora: [record] })
+    await expect(loadCatalogueBrazilFloraDescriptions(record.colId)).resolves.toMatchObject(record)
+    await loadCatalogueBrazilFloraDescriptions(record.colId)
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/brazil-flora-'))).toHaveLength(1)
+    await expect(loadCatalogueBrazilFloraDescriptions('unmapped-species')).resolves.toBeNull()
   })
 
   it('loads only the requested FDAC route and preserves citation-missing metadata', async () => {
