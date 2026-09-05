@@ -205,9 +205,10 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
   const collections = manifest.nomenclatureCollections
   if (!Array.isArray(collections)) throw new Error(`Mobile build is missing ${packageId} nomenclature collections`)
   const additionalAuthorityCollections = {
-    echinoderms: 1, 'turtles-lepidosaurs': 1, 'crocodylomorphs-birds': 2,
+    echinoderms: 1, 'turtles-lepidosaurs': 1, 'crocodylomorphs-birds': 3,
     'molluscs-brachiopods': 1, 'sponges-cnidarians': 3, 'crustaceans-insects': 3,
     'trilobites-chelicerates': 2,
+    perissodactyla: 1, cetartiodactyla: 1, primates: 1, carnivora: 1, 'other-mammals': 1,
   }[packageId] ?? 0
   if (collections.length !== Object.keys(expectedCollections).length + additionalAuthorityCollections) {
     throw new Error(`Mobile build has an unexpected ${packageId} nomenclature collection count`)

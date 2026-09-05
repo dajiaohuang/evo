@@ -150,6 +150,10 @@ public class AppInstrumentedTest {
         int crocodyliaItisNomenclatureRecords = 0;
         int mammalItisFiles = 0;
         int mammalItisNomenclatureRecords = 0;
+        int mddNomenclatureFiles = 0;
+        int mddNomenclatureRecords = 0;
+        int iocNomenclatureFiles = 0;
+        int iocNomenclatureRecords = 0;
         int fishItisFiles = 0;
         int fishItisNomenclatureRecords = 0;
         int fishItisUpstreamRecords = 0;
@@ -331,7 +335,7 @@ public class AppInstrumentedTest {
                     || packageId.equals("primates") || packageId.equals("carnivora")
                     || packageId.equals("other-mammals")) {
                 JSONArray collections = pack.getJSONArray("nomenclatureCollections");
-                assertEquals(1, collections.length());
+                assertEquals(2, collections.length());
                 String collectionId;
                 int expectedRecords;
                 int expectedUpstreamRecords;
@@ -363,6 +367,23 @@ public class AppInstrumentedTest {
                         expectedRecords, expectedUpstreamRecords, "ITIS " + collectionId);
                 mammalItisFiles += expectedFiles + expectedUpstreamFiles;
                 mammalItisNomenclatureRecords += collectionRecords + expectedUpstreamRecords;
+                int mddFiles = packageId.equals("perissodactyla") || packageId.equals("carnivora") ? 1
+                        : packageId.equals("cetartiodactyla") || packageId.equals("primates") ? 2 : 9;
+                int mddUpstreamFiles = packageId.equals("other-mammals") ? 4 : 1;
+                int mddRecords = packageId.equals("perissodactyla") ? 19
+                        : packageId.equals("cetartiodactyla") ? 503
+                        : packageId.equals("primates") ? 530
+                        : packageId.equals("carnivora") ? 310 : 5099;
+                int mddUpstreamRecords = packageId.equals("perissodactyla") ? 2
+                        : packageId.equals("cetartiodactyla") ? 46
+                        : packageId.equals("primates") ? 33
+                        : packageId.equals("carnivora") ? 30 : 1664;
+                verifyAuthorityArchiveCollection(context, files,
+                        findCollection(collections, "mdd-mammalia-" + packageId + "-archive-crosswalk"),
+                        mddFiles, mddUpstreamFiles, mddRecords, mddUpstreamRecords,
+                        "cc by", "MDD " + packageId);
+                mddNomenclatureFiles += mddFiles + mddUpstreamFiles;
+                mddNomenclatureRecords += mddRecords + mddUpstreamRecords;
             } else if (packageId.equals("mammal-origins")) {
                 assertFalse("mammal-origins must not publish an ITIS nomenclature collection",
                         pack.has("nomenclatureCollections"));
@@ -388,7 +409,7 @@ public class AppInstrumentedTest {
                 reptiliaItisNomenclatureRecords += 13277;
             } else if (packageId.equals("crocodylomorphs-birds")) {
                 JSONArray collections = pack.getJSONArray("nomenclatureCollections");
-                assertEquals(3, collections.length());
+                assertEquals(4, collections.length());
                 JSONObject avilist = findCollection(collections, "avilist-v2025b-avibase-concepts");
                 assertNotNull("AviList collection missing", avilist);
                 assertEquals("AviList Core Team", avilist.getString("provider"));
@@ -428,6 +449,11 @@ public class AppInstrumentedTest {
                         1, 0, 27, 0, "cc by", "ReptileDB Crocodylia");
                 crocodyliaItisFiles += 1;
                 crocodyliaItisNomenclatureRecords += 27;
+                verifyAuthorityArchiveCollection(context, files,
+                        findCollection(collections, "ioc-aves-archive-crosswalk"),
+                        35, 2, 11044, 626, "cc by", "IOC Aves");
+                iocNomenclatureFiles += 37;
+                iocNomenclatureRecords += 11670;
             } else {
                 assertTrue("only the declared authority-backed rich packages may carry nomenclature collections", !pack.has("nomenclatureCollections"));
             }
@@ -445,6 +471,10 @@ public class AppInstrumentedTest {
         assertEquals(27, crocodyliaItisNomenclatureRecords);
         assertEquals(9, mammalItisFiles);
         assertEquals(6464, mammalItisNomenclatureRecords);
+        assertEquals(23, mddNomenclatureFiles);
+        assertEquals(8236, mddNomenclatureRecords);
+        assertEquals(37, iocNomenclatureFiles);
+        assertEquals(11670, iocNomenclatureRecords);
         assertEquals(28, fishItisFiles);
         assertEquals(37428, fishItisNomenclatureRecords);
         assertEquals(3932, fishItisUpstreamRecords);
