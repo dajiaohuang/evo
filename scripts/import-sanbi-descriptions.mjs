@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { createHash } from 'node:crypto'
-import { gzipSync } from 'node:zlib'
+import { brotliCompressSync, constants } from 'node:zlib'
 import { decodeWfoSource } from './wfo-source-codec.mjs'
 import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -24,9 +24,9 @@ for (const row of bytes.toString('utf8').trim().split(/\r?\n/).map(line => JSON.
   species.get(row.colId).descriptions.push({ type: row.type, text: row.description, sourceId: row.source, citation: row.citation, rowNumber: row.rowNumber })
 }
 const records = [...species.values()].sort((a, b) => a.colId < b.colId ? -1 : a.colId > b.colId ? 1 : 0)
-const output = resolve(root, 'data/sources/sanbi-descriptions.jsonl.gz')
-const compressed = gzipSync(records.map(row => JSON.stringify(row)).join('\n') + '\n', { level: 9 })
-compressed[9] = 255
+const output = resolve(root, 'data/sources/sanbi-descriptions.jsonl.br')
+const decoded = Buffer.from(records.map(row => JSON.stringify(row)).join('\n') + '\n')
+const compressed = brotliCompressSync(decoded, { params: { [constants.BROTLI_PARAM_QUALITY]: 5 } })
 mkdirSync(dirname(output), { recursive: true })
 writeFileSync(output, compressed)
 const ledger = {
@@ -35,7 +35,8 @@ const ledger = {
   license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/',
   sourceUrl: 'https://files.worldfloraonline.org/Files/South_Africa/dwca-flora_descriptions.zip',
   archiveSha256: '2f9b6784d8bdd4b427f10bddec14f41eb42e3cac0e26c5225b7b17eff3064465',
-  inputSha256: expected, output: 'data/sources/sanbi-descriptions.jsonl.gz', outputBytes: compressed.length, outputSha256: sha256(compressed),
+  inputSha256: expected, output: 'data/sources/sanbi-descriptions.jsonl.br', outputBytes: compressed.length, outputSha256: sha256(compressed),
+  storageEncoding: 'br', decodedBytes: decoded.length, decodedSha256: sha256(decoded),
   species: records.length, descriptions: records.reduce((n, row) => n + row.descriptions.length, 0),
   method: 'Exact unambiguous WFO-to-accepted-COL crosswalk. Description citations joined by (core ID, source identifier). Only exact duplicate records removed; original text retained.',
   limitations: ['Regional South African source, not a global census or distribution boundary.', 'A unique identifier link does not prove species-concept equivalence across source dates.', 'Source descriptions are not newly authored Evo claims or expert-reviewed dossiers.', 'No missing biological traits, translations, ranges or fossils are inferred.'],

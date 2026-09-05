@@ -13,6 +13,7 @@ import {
   loadCatalogueMesoDescriptions,
   loadCatalogueMossDescriptions,
   loadCatalogueMossChinaDescriptions,
+  loadCatalogueFnaDescriptions,
   loadCataloguePakistanDescriptions,
   loadCataloguePlaziDescriptions,
   loadCatalogueSpeciesOwnership,
@@ -104,6 +105,8 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const [mossError, setMossError] = useState(false)
   const [mossChina, setMossChina] = useState<Awaited<ReturnType<typeof loadCatalogueMossChinaDescriptions>>>(null)
   const [mossChinaError, setMossChinaError] = useState(false)
+  const [fna, setFna] = useState<Awaited<ReturnType<typeof loadCatalogueFnaDescriptions>>>(null)
+  const [fnaError, setFnaError] = useState(false)
   const [pakistan, setPakistan] = useState<Awaited<ReturnType<typeof loadCataloguePakistanDescriptions>>>(null)
   const [pakistanError, setPakistanError] = useState(false)
   const [fdac, setFdac] = useState<Awaited<ReturnType<typeof loadCatalogueFdacDescriptions>>>(null)
@@ -151,6 +154,11 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
         void loadCatalogueMossChinaDescriptions(id).then((record) => {
           if (!cancelled) setMossChina(record)
         }).catch(() => { if (!cancelled) setMossChinaError(true) })
+      }
+      if (loadedManifest.fnaDescriptions && loadedNode.rank === 'species') {
+        void loadCatalogueFnaDescriptions(id).then((record) => {
+          if (!cancelled) setFna(record)
+        }).catch(() => { if (!cancelled) setFnaError(true) })
       }
       if (loadedManifest.pakistanDescriptions && loadedNode.rank === 'species') {
         void loadCataloguePakistanDescriptions(id).then((record) => {
@@ -493,6 +501,22 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
               : description.citations.map((citation, index) => <p key={`${citation}:${description.referenceRowNumbers[index] ?? index}`}>{citation}</p>)}
             <p>{description.rightsHolder} · {description.rights} · <a href={description.license}>{description.license}</a></p>
             <small>{mossChina.wfoId} · {description.sourceId} · source row {description.rowNumber}{description.referenceRowNumbers.length ? ` · reference rows ${description.referenceRowNumbers.join(', ')}` : ''}</small>
+          </details>)}
+        </section>}
+        {fnaError && <p role="status">{zh ? '北美植物志描述暂时无法加载。' : 'Flora of North America descriptions could not be loaded.'}</p>}
+        {fna && manifest.fnaDescriptions && <section className="catalogue-source-card">
+          <h2>{zh ? '北美植物志' : 'Flora of North America'}</h2>
+          <p>{zh ? '区域历史英文来源，非完整全球档案或现代全球分布记录。原文以纯文本显示，未补写来源缺失的引用。' : 'Historical regional source in original English; not a complete global dossier or modern global distribution record. Source text is displayed as plain text, with no citations added where the source is missing them.'}</p>
+          <p><a href={manifest.fnaDescriptions.source.sourceUrl}>{manifest.fnaDescriptions.source.provider} — {manifest.fnaDescriptions.source.title}</a> · {manifest.fnaDescriptions.source.sourceVersion} · {manifest.fnaDescriptions.source.retrievedAt} · <a href={manifest.fnaDescriptions.source.licenseUrl}>{manifest.fnaDescriptions.source.license}</a></p>
+          {fna.descriptions.map((description) => <details key={description.rowNumber}>
+            <summary>{zh ? '一般描述' : 'General description'}</summary>
+            <p lang="en" style={{ whiteSpace: 'pre-wrap' }}>{description.text}</p>
+            {description.sourceEndUnclosed && <p role="note">{zh ? '来源末尾标记未闭合；仅凭此项无法判断是否缺失文字。' : 'The source-end marker is unclosed; this alone does not establish whether text is missing.'}</p>}
+            {description.citationMissingInSource
+              ? <p role="note">{zh ? '来源未提供引用；此处不补写。' : 'The source provides no citation for this entry; none has been added.'}</p>
+              : description.citations.map((citation, index) => <p key={`${citation}:${description.referenceRowNumbers[index] ?? index}`}>{citation}</p>)}
+            <p>{description.rightsHolder} · {description.rights} · <a href={description.license}>{description.license}</a></p>
+            <small>{fna.wfoId} · {description.sourceId} · source row {description.rowNumber}{description.referenceRowNumbers.length ? ` · reference rows ${description.referenceRowNumbers.join(', ')}` : ''}</small>
           </details>)}
         </section>}
         {pakistanError && <p role="status">{zh ? '巴基斯坦植物志描述暂时无法加载。' : 'Flora of Pakistan descriptions could not be loaded.'}</p>}

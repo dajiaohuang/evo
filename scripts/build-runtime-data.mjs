@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto'
 import { mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs'
 import { basename, dirname, join, relative, resolve, sep } from 'node:path'
-import { gunzipSync } from 'node:zlib'
+import { gunzipSync, brotliDecompressSync } from 'node:zlib'
 import { strToU8 } from 'fflate'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
 import { evaluatePackageReview } from './check-review-freshness.mjs'
@@ -1590,7 +1590,7 @@ if (catalogueResourcePackAcceptedSpecies !== catalogueResourcePacksSourceManifes
 const sanbiSource = readJson('data/sources/sanbi-descriptions-import-ledger.json')
 const sanbiBytes = readFileSync(join(rootDir, sanbiSource.output))
 if (sanbiBytes.length !== sanbiSource.outputBytes || sha256(sanbiBytes) !== sanbiSource.outputSha256) throw new Error('SANBI source bytes differ from the import ledger')
-const sanbiRecords = gunzipSync(sanbiBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
+const sanbiRecords = brotliDecompressSync(sanbiBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
 const sanbiRoutes = {}
 const sanbiFiles = partitionSanbiDescriptions(sanbiRecords).map(([prefix, records]) => {
   const path = `catalogue/descriptions/sanbi-${prefix}.json.gz`
@@ -1604,6 +1604,17 @@ const fdacSource = readJson('data/sources/fdac-descriptions-import-ledger.json')
 const mossSource = readJson('data/sources/moss-descriptions-import-ledger.json')
 const pakistanSource = readJson('data/sources/pakistan-descriptions-import-ledger.json')
 const mossChinaSource = readJson('data/sources/moss-china-descriptions-import-ledger.json')
+const fnaSource = readJson('data/sources/fna-descriptions-import-ledger.json')
+const fnaBytes = readFileSync(join(rootDir, fnaSource.output))
+if (fnaBytes.length !== fnaSource.outputBytes || sha256(fnaBytes) !== fnaSource.outputSha256) throw new Error('Flora of North America source bytes differ from the import ledger')
+const fnaRecords = gunzipSync(fnaBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
+const fnaRoutes = {}
+const fnaFiles = partitionSanbiDescriptions(fnaRecords).map(([prefix, records]) => {
+  const path = `catalogue/descriptions/fna-${prefix}.json.gz`
+  const file = { ...writeGzipJson(path, records), prefix, path, records: records.length }
+  fnaRoutes[prefix] = [file.url]
+  return file
+})
 const mossChinaBytes = readFileSync(join(rootDir, mossChinaSource.output))
 if (mossChinaBytes.length !== mossChinaSource.outputBytes || sha256(mossChinaBytes) !== mossChinaSource.outputSha256) throw new Error('Moss Flora of China source bytes differ from the import ledger')
 const mossChinaRecords = gunzipSync(mossChinaBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
@@ -1684,6 +1695,7 @@ catalogueRuntimeManifest = {
   mossDescriptions: { source: mossSource, routes: mossRoutes, files: mossFiles },
   pakistanDescriptions: { source: pakistanSource, routes: pakistanRoutes, files: pakistanFiles },
   mossChinaDescriptions: { source: mossChinaSource, routes: mossChinaRoutes, files: mossChinaFiles },
+  fnaDescriptions: { source: fnaSource, routes: fnaRoutes, files: fnaFiles },
   sanbiDescriptions: { source: sanbiSource, routes: sanbiRoutes, files: sanbiFiles },
   provenance: catalogueProvenance,
   sourceChecklists: { ...catalogueSourceManifest.sourceChecklists, url: catalogueSourcesFile.url },
@@ -1808,6 +1820,7 @@ const current = {
       + (catalogueRuntimeManifest.mossDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.pakistanDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.mossChinaDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
+      + (catalogueRuntimeManifest.fnaDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.plaziDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0),
     pagesLimitBytes: 650 * 1024 * 1024,
   },

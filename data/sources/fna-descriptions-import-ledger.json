@@ -1,0 +1,22 @@
+{
+  "provider": "Flora of North America Association",
+  "title": "Flora of North America",
+  "retrievedAt": "2026-09-06",
+  "sourceVersion": "FNA archive retrieved 2026-09-06",
+  "sourceUrl": "https://files.worldfloraonline.org/files/eFloras/FNA/FNA.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "archiveSha256": "0757eb55f2e844383d34650ea3aa577d15c2210f3893561b6694559dd9aa02e1",
+  "inputSha256": "8233845ca47933354065462bf701d3efa7b70917fad1df5fe704ef1fc297c15f",
+  "output": "data/sources/fna-descriptions.jsonl.gz",
+  "outputBytes": 2529542,
+  "outputSha256": "f0f4f2c60727c746c7fdc05421e0defef0130ab02c54f5ff177de2a92ba929c4",
+  "species": 7960,
+  "descriptions": 7960,
+  "sourceEndUnclosed": 3,
+  "limitations": [
+    "FNA core supplies taxonID only; species rank and accepted status come from pinned COL crosswalk.",
+    "General descriptions only; literature rows are retained outside integration as evidence.",
+    "Original markup is normalized for display; retained candidate preserves original markup and citations."
+  ]
+}
