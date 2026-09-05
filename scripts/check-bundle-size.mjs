@@ -1,5 +1,6 @@
 import { readFileSync, readdirSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
+import { pagesDeploymentBudgetFailure } from './artifact-budget.mjs'
 
 const root = process.cwd()
 const dist = join(root, 'dist')
@@ -30,7 +31,10 @@ const fossilChunksPrecached = ['cambrian', 'ordovician', 'silurian', 'devonian',
   .filter((name) => new RegExp(`assets/${name}-[^"']+\\.js`).test(serviceWorker))
 
 const failures = []
-if (totalBytes > 650 * 1024 * 1024) failures.push(`dist is ${(totalBytes / 1024 / 1024).toFixed(2)} MiB; Pages deployment budget is 650 MiB`)
+const { edition } = JSON.parse(readFileSync(join(dist, 'data/current.json'), 'utf8'))
+const deploymentFailure = pagesDeploymentBudgetFailure(edition, totalBytes)
+if (deploymentFailure) failures.push(deploymentFailure)
+console.log(`Checking ${edition ?? 'unspecified'} artifact; Pages total deployment limit ${edition === 'full-web' ? 'not applicable' : '650 MiB'}.`)
 if (publicationBytes > 100 * 1024 * 1024) failures.push(`application and static publication are ${(publicationBytes / 1024 / 1024).toFixed(2)} MiB excluding runtime data; budget is 100 MiB`)
 if (staticPageBytes > 80 * 1024 * 1024) failures.push(`static knowledge pages are ${(staticPageBytes / 1024 / 1024).toFixed(2)} MiB; publication budget is 80 MiB`)
 for (const path of oversizedInitial) failures.push(`${relative(root, path)} is ${(statSync(path).size / 1024).toFixed(1)} KiB; initial JS budget is 500 KiB`)

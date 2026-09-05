@@ -1,5 +1,12 @@
 # Data licenses and provenance
 
+Moss Flora of China descriptions retain Missouri Botanical Garden attribution
+and the official WFO archive's explicit CC BY 4.0 description/reference defaults.
+The 739 species records retain source names, citations and row locators. Original
+markup is independently retained; runtime prose is converted to plain text.
+These are regional historical descriptions, not global dossiers or current range
+assessments. See `docs/moss-china-descriptions.md` and the source import ledger.
+
 Flora of Pakistan descriptions retain Missouri Botanical Garden attribution and
 the source archive's CC BY 4.0 defaults for description and reference fields.
 All 2,657 selected records have matched citations and original row locators.

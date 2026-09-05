@@ -12,6 +12,7 @@ import {
   loadCatalogueFdacDescriptions,
   loadCatalogueMesoDescriptions,
   loadCatalogueMossDescriptions,
+  loadCatalogueMossChinaDescriptions,
   loadCataloguePakistanDescriptions,
   loadCataloguePlaziDescriptions,
   loadCatalogueSpeciesOwnership,
@@ -101,6 +102,8 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const [mesoError, setMesoError] = useState(false)
   const [moss, setMoss] = useState<Awaited<ReturnType<typeof loadCatalogueMossDescriptions>>>(null)
   const [mossError, setMossError] = useState(false)
+  const [mossChina, setMossChina] = useState<Awaited<ReturnType<typeof loadCatalogueMossChinaDescriptions>>>(null)
+  const [mossChinaError, setMossChinaError] = useState(false)
   const [pakistan, setPakistan] = useState<Awaited<ReturnType<typeof loadCataloguePakistanDescriptions>>>(null)
   const [pakistanError, setPakistanError] = useState(false)
   const [fdac, setFdac] = useState<Awaited<ReturnType<typeof loadCatalogueFdacDescriptions>>>(null)
@@ -143,6 +146,11 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
         void loadCatalogueMossDescriptions(id).then((record) => {
           if (!cancelled) setMoss(record)
         }).catch(() => { if (!cancelled) setMossError(true) })
+      }
+      if (loadedManifest.mossChinaDescriptions && loadedNode.rank === 'species') {
+        void loadCatalogueMossChinaDescriptions(id).then((record) => {
+          if (!cancelled) setMossChina(record)
+        }).catch(() => { if (!cancelled) setMossChinaError(true) })
       }
       if (loadedManifest.pakistanDescriptions && loadedNode.rank === 'species') {
         void loadCataloguePakistanDescriptions(id).then((record) => {
@@ -469,6 +477,22 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
             {description.citations.map((citation, index) => <p key={`${citation}:${description.referenceRowNumbers[index] ?? index}`}>{citation}</p>)}
             <p>{description.rightsHolder} · {description.rights} · <a href={description.license}>{description.license}</a></p>
             <small>{moss.wfoId} · {description.sourceId} · source row {description.rowNumber}{description.referenceRowNumbers.length ? ` · reference rows ${description.referenceRowNumbers.join(', ')}` : ''}</small>
+          </details>)}
+        </section>}
+        {mossChinaError && <p role="status">{zh ? '中国藓类植物志描述暂时无法加载。' : 'Moss Flora of China descriptions could not be loaded.'}</p>}
+        {mossChina && manifest.mossChinaDescriptions && <section className="catalogue-source-card">
+          <h2>{zh ? '中国藓类植物志' : 'Moss Flora of China'}</h2>
+          <p>{zh ? '区域历史英文原文，非完整全球档案或现代全球分布记录。原文以纯文本显示，未补写来源缺失的引用。' : 'Historical regional source in original English; not a complete global dossier or modern global distribution record. Source text is displayed as plain text, with no citations added where the source is missing them.'}</p>
+          <p>{zh ? `来源名称：${mossChina.scientificName}${mossChina.sourceAuthorship ? ` ${mossChina.sourceAuthorship}` : ''}` : `Source name: ${mossChina.scientificName}${mossChina.sourceAuthorship ? ` ${mossChina.sourceAuthorship}` : ''}`}</p>
+          <p><a href={manifest.mossChinaDescriptions.source.sourceUrl}>{manifest.mossChinaDescriptions.source.provider} — {manifest.mossChinaDescriptions.source.title}</a> · {manifest.mossChinaDescriptions.source.sourceVersion} · {manifest.mossChinaDescriptions.source.retrievedAt} · <a href={manifest.mossChinaDescriptions.source.licenseUrl}>{manifest.mossChinaDescriptions.source.license}</a></p>
+          {mossChina.descriptions.map((description) => <details key={description.rowNumber}>
+            <summary>{zh ? '一般描述' : 'General description'}</summary>
+            <p lang="en" style={{ whiteSpace: 'pre-wrap' }}>{description.text}</p>
+            {description.citationMissingInSource
+              ? <p role="note">{zh ? '来源未提供引用；此处不补写。' : 'The source provides no citation for this entry; none has been added.'}</p>
+              : description.citations.map((citation, index) => <p key={`${citation}:${description.referenceRowNumbers[index] ?? index}`}>{citation}</p>)}
+            <p>{description.rightsHolder} · {description.rights} · <a href={description.license}>{description.license}</a></p>
+            <small>{mossChina.wfoId} · {description.sourceId} · source row {description.rowNumber}{description.referenceRowNumbers.length ? ` · reference rows ${description.referenceRowNumbers.join(', ')}` : ''}</small>
           </details>)}
         </section>}
         {pakistanError && <p role="status">{zh ? '巴基斯坦植物志描述暂时无法加载。' : 'Flora of Pakistan descriptions could not be loaded.'}</p>}
