@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto'
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { brotliCompressSync, constants } from 'node:zlib'
 import { deterministicGzip } from './archive-determinism.mjs'
 import {
   CATALOGUE_RELEASE,
@@ -18,7 +19,7 @@ import {
 const SCRIPT_PATH = fileURLToPath(import.meta.url)
 const REPOSITORY_ROOT = resolve(dirname(SCRIPT_PATH), '..')
 const DEFAULT_PACKAGE_ROOT = join(REPOSITORY_ROOT, 'data', 'catalogue-of-life', 'releases', '2026-08-20', 'resource-packs', 'fungi')
-const DEFAULT_OUTPUT = join(REPOSITORY_ROOT, 'data', 'sources', 'fungi-species-fungorum-crosswalk-col26.8.json.gz')
+const DEFAULT_OUTPUT = join(REPOSITORY_ROOT, 'data', 'sources', 'fungi-species-fungorum-crosswalk-col26.8.json.br')
 const DEFAULT_LEDGER = join(REPOSITORY_ROOT, 'data', 'sources', 'fungi-species-fungorum-import-ledger.json')
 const SPECIES_FUNGORUM_EXPORT_URL = 'https://api.checklistbank.org/dataset/2073/export.zip?format=DWCA'
 const DATASET_METADATA_URL = 'https://api.checklistbank.org/dataset/{datasetId}'
@@ -282,7 +283,7 @@ async function main() {
     upstreamOnlyRecords: result.upstreamOnlyRecords,
   }
   const snapshotBytes = Buffer.from(`${JSON.stringify(snapshot, null, 2)}\n`, 'utf8')
-  const compressed = Buffer.from(deterministicGzip(snapshotBytes, { level: 9 }))
+  const compressed = brotliCompressSync(snapshotBytes, { params: { [constants.BROTLI_PARAM_QUALITY]: 9 } })
   mkdirSync(dirname(options.output), { recursive: true })
   writeFileSync(options.output, compressed)
 
