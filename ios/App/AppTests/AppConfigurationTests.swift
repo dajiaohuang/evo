@@ -662,7 +662,7 @@ final class AppConfigurationTests: XCTestCase {
                 let nemysNematoda = try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-nematoda2302-archive-crosswalk" })
                 try verifyAuthorityArchiveCollection(
                     collection: nemysNematoda, inventory: files, below: dataRoot, expectedFiles: 22, expectedUpstreamFiles: 1,
-                    expectedRecords: 19_554, expectedUpstreamRecords: 1_256,
+                    expectedRecords: 19_604, expectedUpstreamRecords: 1_256,
                     expectedLicense: "cc by", label: "Nemys Nematoda 2302")
                 let nemysCounts = try XCTUnwrap(nemysNematoda["counts"] as? [String: Any])
                 XCTAssertEqual(nemysCounts["accepted"] as? Int, 19_554)

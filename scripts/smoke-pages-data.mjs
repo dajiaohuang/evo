@@ -813,7 +813,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-annelida-tsn-crosswalk': { eligible: 18982, records: 24074, accepted: 4301, redirects: 122, ambiguous: 1, unmatched: 14558, upstreamOnly: 5092, nonApplicable: 80179, files: 4 },
       }
       if (extensions.length !== 52 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 248) {
-        failures.push('other-animals: Pages must publish all 51 authority summaries and no row shards')
+          failures.push('other-animals: Pages must publish all 52 authority summaries and no row shards')
       }
       const annelidaArchive = extensions.find((candidate) => candidate.id === 'worms-annelida-archive-crosswalk')
       if (!annelidaArchive || annelidaArchive.source?.license !== 'CC-BY-4.0'

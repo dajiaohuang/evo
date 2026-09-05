@@ -603,7 +603,7 @@ public class AppInstrumentedTest {
                         8, 1, 19604, 2104, "WoRMS Nematoda");
                 JSONObject nemysNematoda = findCollection(extensions, "worms-nematoda2302-archive-crosswalk");
                 verifyAuthorityArchiveCollection(context, files, nemysNematoda,
-                        22, 1, 19554, 1256, "cc by", "Nemys Nematoda 2302");
+                        22, 1, 19604, 1256, "cc by", "Nemys Nematoda 2302");
                 JSONObject nemysCounts = nemysNematoda.getJSONObject("counts");
                 assertEquals(19554, nemysCounts.getInt("accepted"));
                 assertEquals(1, nemysCounts.getInt("ambiguous"));
