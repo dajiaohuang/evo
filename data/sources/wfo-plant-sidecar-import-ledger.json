@@ -490,17 +490,32 @@
     ]
   },
   "output": {
-    "path": "data/sources/wfo-plant-crosswalk-col26.8.json.gz",
-    "bytes": 18043579,
-    "sha256": "491d673f2549ddff260a560eda49d67a0169cb000a88d06b6670509b1779cca0",
+    "path": "data/sources/wfo-plant-crosswalk-col26.8.json.br",
+    "bytes": 14281609,
+    "sha256": "ab4dd7a64a3210f40bd1139e7a624e5e6b119bb5091e8d380c5f93eecf3ac0f6",
     "sourceBytes": 260967760,
     "sourceSha256": "980144add135db3fa709392552534e19e33bc45605a97f5bafeb4d239d1621af",
-    "encoding": "gzip",
+    "encoding": "br",
     "mediaType": "application/json"
   },
   "generatedBy": {
     "scriptPath": "scripts/build-wfo-plant-sidecar.mjs",
     "scriptSha256": "9724092677c7d38bd6bf0964c44aab6e8e32c77926cc4202302aeffe8327bfe1",
     "deterministic": "Pinned input checksums, exact release routes, exact case- and diacritic-preserving name/authorship keys, explicit sorting, deterministic gzip and no wall-clock values."
+  },
+  "storageTransform": {
+    "operation": "Lossless gzip-to-Brotli re-encoding; original generatedBy provenance retained, no upstream re-import.",
+    "input": {
+      "path": "data/sources/wfo-plant-crosswalk-col26.8.json.gz",
+      "bytes": 18043579,
+      "sha256": "491d673f2549ddff260a560eda49d67a0169cb000a88d06b6670509b1779cca0",
+      "sourceBytes": 260967760,
+      "sourceSha256": "980144add135db3fa709392552534e19e33bc45605a97f5bafeb4d239d1621af",
+      "encoding": "gzip",
+      "mediaType": "application/json"
+    },
+    "codecPath": "scripts/wfo-source-codec.mjs",
+    "codecSha256": "f94cefc79eedd322653fcc4af0f2ab65ef2267d7b0e8bfa116852f4e7879a15f",
+    "note": "Decoded bytes are unchanged, including historical deliveryDesign wording referring to gzip. Current transport is recorded in output.encoding."
   }
 }

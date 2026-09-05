@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { createHash } from 'node:crypto'
-import { gzipSync, gunzipSync } from 'node:zlib'
+import { gzipSync } from 'node:zlib'
+import { decodeWfoSource } from './wfo-source-codec.mjs'
 import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -13,7 +14,7 @@ const sha256 = bytes => createHash('sha256').update(bytes).digest('hex')
 const bytes = readFileSync(input)
 const expected = '6253ac740b9ba4e6a53f520460c63acf44dcac2fa2c454029d945ea096b92a32'
 if (sha256(bytes) !== expected) throw new Error('Input differs from reviewed SANBI candidate')
-const crosswalk = JSON.parse(gunzipSync(readFileSync(resolve(root, 'data/sources/wfo-plant-crosswalk-col26.8.json.gz'))))
+const crosswalk = JSON.parse(decodeWfoSource(readFileSync(resolve(root, 'data/sources/wfo-plant-crosswalk-col26.8.json.br'))))
 const accepted = new Map(crosswalk.colRecords.filter(row => row.status === 'accepted').map(row => [row.colId, row]))
 const species = new Map()
 for (const row of bytes.toString('utf8').trim().split(/\r?\n/).map(line => JSON.parse(line))) {

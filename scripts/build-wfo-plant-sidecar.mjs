@@ -4,7 +4,7 @@ import { createInterface } from 'node:readline'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { createGunzip } from 'node:zlib'
-import { deterministicGzip } from './archive-determinism.mjs'
+import { encodeWfoSource } from './wfo-source-codec.mjs'
 import {
   exactNameKey,
   matchExactWfoRecord,
@@ -19,7 +19,7 @@ const REGISTRY_MANIFEST_PATH = join(REGISTRY_ROOT, 'manifest.json')
 const OWNERSHIP_PATH = join(REPOSITORY_ROOT, 'data', 'registry', 'package-species-coverage.json')
 const SOURCES_PATH = join(REGISTRY_ROOT, 'sources.json')
 const SOURCE_LEDGER_PATH = join(REPOSITORY_ROOT, 'data', 'sources', 'wfo-plant-list-2026-06.json')
-const DEFAULT_OUTPUT = join(REPOSITORY_ROOT, 'data', 'sources', 'wfo-plant-crosswalk-col26.8.json.gz')
+const DEFAULT_OUTPUT = join(REPOSITORY_ROOT, 'data', 'sources', 'wfo-plant-crosswalk-col26.8.json.br')
 const DEFAULT_IMPORT_LEDGER = join(REPOSITORY_ROOT, 'data', 'sources', 'wfo-plant-sidecar-import-ledger.json')
 
 const PACKAGE_ROUTES = [
@@ -371,6 +371,8 @@ async function main() {
     colSourceComposition: sourceComposition(crosswalk.records, sources),
     packageSourceComposition,
     deliveryDesign: {
+      // Retain historical snapshot wording so a storage-only re-encoding does
+      // not change source bytes. The import ledger records the current codec.
       canonical: 'This gzip JSON is the single derived source for later package-specific runtime projections.',
       webAndOffline: 'Split deterministic NDJSON shards are to be registered in runtime and offline manifests without changing records.',
       packageZip: 'The same split shards and source/limitations metadata are to be included in each affected package ZIP.',
@@ -387,7 +389,7 @@ async function main() {
     upstreamOnlyRecords: crosswalk.upstreamOnlyRecords,
   }
   const sourceBytes = jsonBytes(snapshot)
-  const compressed = Buffer.from(deterministicGzip(sourceBytes, { level: 9 }))
+  const compressed = encodeWfoSource(sourceBytes)
   mkdirSync(dirname(options.output), { recursive: true })
   writeFileSync(options.output, compressed)
 
@@ -413,13 +415,13 @@ async function main() {
       sha256: sha256(compressed),
       sourceBytes: sourceBytes.byteLength,
       sourceSha256: sha256(sourceBytes),
-      encoding: 'gzip',
+      encoding: 'br',
       mediaType: 'application/json',
     },
     generatedBy: {
       scriptPath: repoPath(SCRIPT_PATH),
       scriptSha256: await sha256File(SCRIPT_PATH),
-      deterministic: 'Pinned input checksums, exact release routes, exact case- and diacritic-preserving name/authorship keys, explicit sorting, deterministic gzip and no wall-clock values.',
+      deterministic: 'Pinned input checksums, exact release routes, exact case- and diacritic-preserving name/authorship keys, explicit sorting, Brotli quality 5 and no wall-clock values.',
     },
   }
   mkdirSync(dirname(options.importLedger), { recursive: true })

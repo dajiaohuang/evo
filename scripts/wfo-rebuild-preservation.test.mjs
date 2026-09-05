@@ -7,7 +7,7 @@ import { afterEach, describe, expect, it } from 'vitest'
 import { buildWfoPlantProjections } from './build-wfo-plant-projections.mjs'
 
 const repositoryRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..')
-const crosswalkPath = join(repositoryRoot, 'data', 'sources', 'wfo-plant-crosswalk-col26.8.json.gz')
+const crosswalkPath = join(repositoryRoot, 'data', 'sources', 'wfo-plant-crosswalk-col26.8.json.br')
 const packageIds = ['angiospermae', 'gymnosperms', 'early-land-plants']
 const roots = []
 const digest = (bytes) => createHash('sha256').update(bytes).digest('hex')
