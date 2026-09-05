@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc141 — 2026-09-05
+
+- Added the pinned Nemys dataset 2302 original archive and its 23 row shards: 19,604 COL Nematoda outcomes (19,554 exact accepted, 1 ambiguous, 49 unmatched) and 1,256 separate source-only records. The explicit-phylum scope retains all 20,810 accepted source rows; 1,163 lie outside the independently reported Aphia-799 parent closure.
+- Removed the unrelated order/family completeness requirement from exact scientific-name and authorship matching, recovering 18 matches while retaining original classification gaps through source locators. API ChecklistBank DOI/license and archive Nemys DOI/license remain separate byte-pinned evidence.
+- Full Android/iOS inventories include all 20,860 projected rows; Pages exposes summaries and canonical inventories. The local source data/code allowance increases from 925 to 950 MiB to accommodate the original archive and projections; the independent Pages and native packaging limits remain unchanged. See [Nemys source scope](../docs/nematoda-2302-archive.md).
+
 ## 2026.09-static-v5-rc140 — 2026-09-05
 
 - Corrected exact normalized authorship matching for Cestoda and Turbellaria without fuzzy, synonym or species-concept inference. Cestoda now retains 3,013 accepted, 2 unmatched and 34 source-only outcomes across 3,015 COL rows; Turbellaria retains 6,495 accepted, 13 unmatched and 28 source-only outcomes across 6,508 COL rows.

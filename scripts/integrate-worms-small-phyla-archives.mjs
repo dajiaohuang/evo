@@ -8,6 +8,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const resourcePath = 'data/catalogue-of-life/releases/2026-08-20/resource-packs'
 const packId = 'other-animals'
 const sources = [
+  ['worms-nematoda2302-archive-crosswalk', 'worms-nematoda2302-sidecar.json', 'worms-nematoda2302-archive-2302-import-ledger.json'],
   ['worms-bryozoa-archive-crosswalk', 'worms-bryozoa-sidecar.json', 'worms-bryozoa-1081-import-ledger.json'],
   ['worms-monogenea-archive-crosswalk', 'worms-monogenea-sidecar.json', 'worms-monogenea-archive-2026-09-01-import-ledger.json'],
   ['worms-trematoda-archive-crosswalk', 'worms-trematoda-sidecar.json', 'worms-trematoda-archive-1128-import-ledger.json'],

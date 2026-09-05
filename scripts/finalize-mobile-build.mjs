@@ -367,7 +367,7 @@ const expectedOtherAnimalAuthorities = {
   'itis-nematoda-tsn-crosswalk': { files: 4, records: 20849 },
   'itis-annelida-tsn-crosswalk': { files: 4, records: 24074 },
 }
-if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length + 23) {
+if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length + 24) {
   throw new Error('Mobile build must stage every declared other-animals ITIS and WoRMS authority collection')
 }
 const annelidaArchive = otherAnimalsManifest.extensions.find((extension) => extension.id === 'worms-annelida-archive-crosswalk')
@@ -413,6 +413,7 @@ for (const [id, total, accepted, upstreamOnly, fileCount, upstreamFileCount, lic
   }
 }
 for (const [id, total, accepted, unmatched, upstreamOnly, fileCount, upstreamFileCount, license, label] of [
+  ['worms-nematoda2302-archive-crosswalk', 19604, 19554, 49, 1256, 22, 1, 'cc by', 'Nemys Nematoda'],
   ['worms-oligochaeta-archive-crosswalk', 4403, 4350, 53, 214, 6, 1, 'CC-BY-4.0', 'Oligochaeta'],
   ['worms-polychaeta-archive-crosswalk', 14430, 14305, 125, 179, 18, 1, 'cc by', 'Polychaeta'],
 ]) {
