@@ -8,15 +8,18 @@ committed only as source evidence.
 The archive is `4,461,917` bytes with SHA-256
 `feb46c1bac68a8527f6c94fd8d5df93d201eb866bc86034ed4c0a3788d6575d2`. Its
 embedded `metadata.yaml` agrees with the API metadata on title, version, issue
-date, license (`CC-BY`) and scope (`Aves`). The ChecklistBank dataset DOI is
+date, license (`CC-BY` in the archive and `cc by` in the API metadata) and scope
+(`Aves`). No license version or Creative Commons license URL is inferred. The
+ChecklistBank dataset DOI is
 `10.48580/d4g8`, with version DOI `10.48580/d4g8.v168`. The archive metadata
 also records the IOC release DOI
 `https://doi.org/10.14344/IOC.ML.15.2`; these are retained as distinct
 identifiers and are not asserted to be the same DOI.
 
 The projection selects the strict COL26.8 accepted species descendants of Aves
-(`V2`): **11,044** COL species. The pinned IOC archive contributes **11,250**
-accepted species rows. Matching is deterministic and intentionally narrow:
+(`V2`), all owned by `crocodylomorphs-birds`: **11,044** COL species. The
+pinned IOC archive contributes **11,250** species rows with `rank=species` and
+`col:status=accepted`. Matching is deterministic and intentionally narrow:
 
 - normalize scientific names with Unicode NFC and whitespace normalization;
 - remove a COL trailing authorship string only when it is exactly present;
@@ -30,9 +33,16 @@ claims of globally new species. IOC authorities, remarks, English and
 additional vernacular names, distributions and source-row locators remain
 attached where present.
 
+The archive contains explicit extinction data despite the API description's
+“all extant bird species” wording: 164 of the 11,250 selected rows have
+`col:extinct=true`, including rows with `(Extinct)` remarks and dagger-marked
+names. One hundred twenty-one are among the exact COL matches. Crosswalk
+`accepted` means source status or unique name match as applicable; it never
+means `extant`.
+
 GitHub Pages receives the descriptor summary only (`web-light`). Android and
-iOS `native-full` inventories must include every listed deterministic gzip
-JSONL shard. Each shard is at most 2 MiB uncompressed. Rebuild and replay with:
+iOS `native-full` inventories must include every listed deterministic gzip JSON
+shard. Each shard is at most 2 MiB uncompressed. Rebuild and replay with:
 
 ```text
 python -B scripts/build-mdd-ioc-source.py --source ioc

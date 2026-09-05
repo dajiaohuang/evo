@@ -1,0 +1,808 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "ioc-aves-archive-crosswalk",
+  "packageId": "crocodylomorphs-birds",
+  "provider": "IOC World Bird List via ChecklistBank",
+  "role": "authority-crosswalk",
+  "rowEncoding": "json",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "2036",
+    "title": "IOC World Bird List",
+    "alias": "IOC",
+    "version": "15.2",
+    "issued": "2026-08-30",
+    "doi": "10.48580/d4g8",
+    "versionDoi": "10.48580/d4g8.v168",
+    "archiveMetadataDoi": "https://doi.org/10.14344/IOC.ML.15.2",
+    "citation": "<div class=\"csl-entry\">Gill, F., Donsker, D., &amp; Rasmussen, P. (2026). <span style=\"font-style: italic\">IOC World Bird List</span> (15.2). https://doi.org/10.48580/d4g8</div>",
+    "editor": [
+      {
+        "given": "Frank",
+        "family": "Gill",
+        "name": "Gill F."
+      },
+      {
+        "given": "David",
+        "family": "Donsker",
+        "name": "Donsker D."
+      },
+      {
+        "given": "Pamela",
+        "family": "Rasmussen",
+        "name": "Rasmussen P."
+      }
+    ],
+    "contributor": [
+      {
+        "given": "Per",
+        "family": "Alström",
+        "note": "advisor",
+        "name": "Alström P."
+      },
+      {
+        "given": "Bruce",
+        "family": "Beehler",
+        "note": "advisor",
+        "name": "Beehler B."
+      },
+      {
+        "given": "Michael",
+        "family": "Blair",
+        "note": "advisor",
+        "name": "Blair M."
+      },
+      {
+        "given": "Rauri",
+        "family": "Bowie",
+        "note": "advisor",
+        "name": "Bowie R."
+      },
+      {
+        "given": "Sally",
+        "family": "Conyne",
+        "note": "advisor; compiling Ranges",
+        "name": "Conyne S."
+      },
+      {
+        "given": "Jon",
+        "family": "Fjeldså",
+        "note": "advisor",
+        "name": "Fjeldså J."
+      },
+      {
+        "given": "Phil",
+        "family": "Gregory",
+        "note": "advisor",
+        "name": "Gregory P."
+      },
+      {
+        "given": "Leo",
+        "family": "Joseph",
+        "note": "advisor",
+        "name": "Joseph L."
+      },
+      {
+        "given": "Peter",
+        "family": "Kovalik",
+        "note": "advisor; spreadsheet magic",
+        "name": "Kovalik P."
+      },
+      {
+        "given": "Adolfo",
+        "family": "Navarro-Siguenza",
+        "note": "advisor",
+        "name": "Navarro-Siguenza A."
+      },
+      {
+        "given": "David T",
+        "family": "Parkin",
+        "note": "advisor",
+        "name": "Parkin D. T"
+      },
+      {
+        "given": "Alan",
+        "family": "Peterson",
+        "note": "advisor",
+        "name": "Peterson A."
+      },
+      {
+        "given": "J",
+        "family": "Praveen",
+        "note": "advisor",
+        "name": "Praveen J"
+      },
+      {
+        "given": "Doug",
+        "family": "Pratt",
+        "note": "advisor",
+        "name": "Pratt D."
+      },
+      {
+        "given": "Thane",
+        "family": "Pratt",
+        "note": "advisor",
+        "name": "Pratt T."
+      },
+      {
+        "given": "Nigel",
+        "family": "Redman",
+        "note": "advisor",
+        "name": "Redman N."
+      },
+      {
+        "given": "Frank",
+        "family": "Rheindt",
+        "note": "advisor",
+        "name": "Rheindt F."
+      },
+      {
+        "given": "Robert",
+        "family": "Ridgely",
+        "note": "advisor",
+        "name": "Ridgely R."
+      },
+      {
+        "given": "Peter",
+        "family": "Ryan",
+        "note": "advisor",
+        "name": "Ryan P."
+      },
+      {
+        "given": "George",
+        "family": "Sangster",
+        "note": "advisor",
+        "name": "Sangster G."
+      },
+      {
+        "given": "Richard",
+        "family": "Schodde",
+        "note": "advisor",
+        "name": "Schodde R."
+      },
+      {
+        "given": "Christophe",
+        "family": "Streissel",
+        "note": "advisor",
+        "name": "Streissel C."
+      },
+      {
+        "given": "Larry",
+        "family": "Master",
+        "note": "photos",
+        "name": "Master L."
+      },
+      {
+        "given": "Colin",
+        "family": "Campbell",
+        "note": "photos",
+        "name": "Campbell C."
+      },
+      {
+        "given": "Geoff",
+        "family": "Jones",
+        "note": "photos",
+        "name": "Jones G."
+      },
+      {
+        "given": "Eric",
+        "family": "Swanzey",
+        "note": "website expertise",
+        "name": "Swanzey E."
+      }
+    ],
+    "license": "cc by",
+    "archiveLicense": "CC-BY",
+    "archiveUrl": "https://api.checklistbank.org/dataset/2036/archive",
+    "archivePath": "data/sources/archives/checklistbank-2036-ioc.zip",
+    "metadataPath": "data/sources/archives/checklistbank-2036-ioc.metadata.json",
+    "archiveBytes": 4461917,
+    "archiveSha256": "feb46c1bac68a8527f6c94fd8d5df93d201eb866bc86034ed4c0a3788d6575d2",
+    "metadataBytes": 4260,
+    "metadataSha256": "647cf865962918ad6279693b82b4d0e039540826e97ee79e73381f5e69ac37ba",
+    "internalMetadata": {
+      "bytes": 3689,
+      "sha256": "73c0328e2bde51902c3a9b3706023f82c38d60ae36d199cbab7eebaea9b52c32"
+    },
+    "members": {
+      "NameUsage.tsv": {
+        "bytes": 4507207,
+        "sha256": "7a77120cda036e88fc96aa13754d1d376157d1803605cdb0aa91573a1affd1d9"
+      },
+      "VernacularName.tsv": {
+        "bytes": 13900906,
+        "sha256": "41e118df3012d92a746077eefc289ae90dd391049b1cd57b833cfa8d9d0f6f77"
+      },
+      "Distribution.tsv": {
+        "bytes": 2142936,
+        "sha256": "ef65c55d99db1e20cabc678ad2fd13d6cae4f835f9a32a66561e1c349c3883a3"
+      },
+      "metadata.yaml": {
+        "bytes": 3689,
+        "sha256": "73c0328e2bde51902c3a9b3706023f82c38d60ae36d199cbab7eebaea9b52c32"
+      }
+    },
+    "metadataConsistency": {
+      "title": true,
+      "version": true,
+      "issued": true,
+      "license": true,
+      "taxonomicScope": true,
+      "doiNote": "ChecklistBank dataset DOI and archive metadata DOI are retained as distinct identifiers; they are not asserted equal."
+    }
+  },
+  "scope": {
+    "colRootUsageId": "V2",
+    "colRootScientificName": "Aves",
+    "colRelease": "COL26.8",
+    "colStrictAcceptedSpecies": 11044,
+    "sourceDatasetId": "2036",
+    "sourceStrictAcceptedSpecies": 11250,
+    "packageOwnership": "All COL26.8 accepted Aves below V2 are owned by crocodylomorphs-birds; this projection is not an other-animals resource-pack extension."
+  },
+  "matching": {
+    "normalization": "Unicode NFC and whitespace normalization on scientific names only; COL trailing authorship is removed exactly. Authorship is preserved as source data, not used as a matching key.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, authorship, synonym, taxon-substitution or species-concept matching."
+  },
+  "counts": {
+    "total": 11044,
+    "accepted": 10624,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 420,
+    "withheld": 0,
+    "upstreamOnly": 626,
+    "records": 11670
+  },
+  "files": [
+    {
+      "path": "nomenclature/ioc-aves-000.json.gz",
+      "records": 324,
+      "bytes": 154574,
+      "sha256": "916ac5fa0ebdf4c06806d96b24fb8a1dd070fd50c4ed7f1c2361a84b1ad8a113",
+      "sourceBytes": 2091849,
+      "sourceSha256": "e506a5cdb336d5cfe9a0220dc8e3433479a6d42e9bc43dd4a336aad53f93718e",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "322KX",
+      "maxColId": "38XGJ"
+    },
+    {
+      "path": "nomenclature/ioc-aves-001.json.gz",
+      "records": 325,
+      "bytes": 159314,
+      "sha256": "2aec39e2252f6212b58e16ab15156744e770e26045677a073bcb2ce9562312ea",
+      "sourceBytes": 2089457,
+      "sourceSha256": "85823754ac3c3426ea2f9b733ab4c1efcd2592c0f137f2432826dabeb12f2581",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "38XGK",
+      "maxColId": "3FFP5"
+    },
+    {
+      "path": "nomenclature/ioc-aves-002.json.gz",
+      "records": 316,
+      "bytes": 155255,
+      "sha256": "b956e28a3a96fd3ff1c71ae90f752f0dbd21058e2d74fe7984b8e3cc45861498",
+      "sourceBytes": 2095651,
+      "sourceSha256": "dabecba5286c8b574216c28d7793fa187ef6266fd4a3a6efcf126a346df583b9",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "3FFP6",
+      "maxColId": "3KTM6"
+    },
+    {
+      "path": "nomenclature/ioc-aves-003.json.gz",
+      "records": 324,
+      "bytes": 157135,
+      "sha256": "9acf63beed26e1f5734dcf1d92cc904b57a0b486955631430a470b4c7c335d9c",
+      "sourceBytes": 2093863,
+      "sourceSha256": "770e911f16bf4695b294eade8585cf61ad513c8b290a25e3e8d569ded57c6604",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "3KTM7",
+      "maxColId": "3S7BX"
+    },
+    {
+      "path": "nomenclature/ioc-aves-004.json.gz",
+      "records": 335,
+      "bytes": 159879,
+      "sha256": "e0e9f6bceeb4838799810ab616a412f802cb9f0a40c91c0ec02874b5133fc62d",
+      "sourceBytes": 2096206,
+      "sourceSha256": "1321246a61c3f6b368296292f9377989d615d8e3ef995df744dced73530a02d2",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "3S7BY",
+      "maxColId": "3YXDW"
+    },
+    {
+      "path": "nomenclature/ioc-aves-005.json.gz",
+      "records": 326,
+      "bytes": 155554,
+      "sha256": "d0111c1259cae33ecde46723b5c7c6ec1190b9f1663e6c01650cf53ad2902d64",
+      "sourceBytes": 2094025,
+      "sourceSha256": "559713a4c90aac2374aac1fd9dfb3e6605e38f371f322eb41a53a0dab77f137e",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "3YXDY",
+      "maxColId": "452N7"
+    },
+    {
+      "path": "nomenclature/ioc-aves-006.json.gz",
+      "records": 323,
+      "bytes": 151285,
+      "sha256": "2c3dc39332adbac7619c245ea95c4cdf4fc2acdc1ff7abde508c3c67f0cadf44",
+      "sourceBytes": 2095733,
+      "sourceSha256": "eb677e8802cafa664b5a4e0ec5cb184d5d219b62792644dc5d219ad016c6182d",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "452N8",
+      "maxColId": "486M2"
+    },
+    {
+      "path": "nomenclature/ioc-aves-007.json.gz",
+      "records": 313,
+      "bytes": 153622,
+      "sha256": "953eb5b11992e3c5de8e5925d297d70d75aca4e22120d7dfee5472e11715538c",
+      "sourceBytes": 2090563,
+      "sourceSha256": "3032fd8e520e6daac3ff08ffa52bc3f6c503060e1f046638ec29b043f23ff16f",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "488NG",
+      "maxColId": "4FLFB"
+    },
+    {
+      "path": "nomenclature/ioc-aves-008.json.gz",
+      "records": 312,
+      "bytes": 154341,
+      "sha256": "521e6028e42fd9084d7b332ebb17b6a7ad9a6a6ad42c921d8d40b01162e23eee",
+      "sourceBytes": 2095786,
+      "sourceSha256": "10dcd1b62f8ecee19a94aa0e446f81c12fd32a2bf161f412b4d3186e1e3ed2e6",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "4FLFC",
+      "maxColId": "4KH82"
+    },
+    {
+      "path": "nomenclature/ioc-aves-009.json.gz",
+      "records": 321,
+      "bytes": 154561,
+      "sha256": "3a7463b61e2dffb51e2aab00fa32dc8a9712c64cf91d2a544a50bcd375bebf31",
+      "sourceBytes": 2095637,
+      "sourceSha256": "e82df1db9fe3e1cac603b8458e1482d60a13109200503e009dfb772b440a7393",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "4KH83",
+      "maxColId": "4PLCX"
+    },
+    {
+      "path": "nomenclature/ioc-aves-010.json.gz",
+      "records": 302,
+      "bytes": 151924,
+      "sha256": "1d3634fa03b2c753b5bceb62422914ec4e64a2d0f746e5aacd210dcf030699c5",
+      "sourceBytes": 2093298,
+      "sourceSha256": "dc9a7e7e86398b0f27cb2d61703e68304f74f3c882228ad62b6dce6a55958835",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "4PLCY",
+      "maxColId": "4RW7K"
+    },
+    {
+      "path": "nomenclature/ioc-aves-011.json.gz",
+      "records": 317,
+      "bytes": 157691,
+      "sha256": "6edd6f20c0fa7c79e7d2e717bbe0245e651d4f236256fe061f74df1e3875b887",
+      "sourceBytes": 2091884,
+      "sourceSha256": "47c09e74be2cfc2537af2786579071596d15f7aa5e20290e71a4681d4d8bb4b7",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "4RW7L",
+      "maxColId": "4Z65W"
+    },
+    {
+      "path": "nomenclature/ioc-aves-012.json.gz",
+      "records": 314,
+      "bytes": 157118,
+      "sha256": "ac4edb52e975642a51bcfe9a066d0fabc42f0f5c7f02c92dd0f534ba635afe5d",
+      "sourceBytes": 2097133,
+      "sourceSha256": "2062b9178c8752b7d6cfd7d8e8e11ac9f02e03d14241a9eb5148a380b386b5a2",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "4Z65X",
+      "maxColId": "55QS7"
+    },
+    {
+      "path": "nomenclature/ioc-aves-013.json.gz",
+      "records": 314,
+      "bytes": 151695,
+      "sha256": "aba3793c2f5e1bcbcfd43784e79e9b8ee881fce913327378daae36dbc847d8ba",
+      "sourceBytes": 2096160,
+      "sourceSha256": "c36936467c46a47e4953945eca16dd880adcb4b6338d10fdc01f26e124a1f4ac",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "55QWY",
+      "maxColId": "59PMW"
+    },
+    {
+      "path": "nomenclature/ioc-aves-014.json.gz",
+      "records": 333,
+      "bytes": 152447,
+      "sha256": "f5733cfe136d32a8800a11ae7a5b5beb7d798428294232318419391ac507a603",
+      "sourceBytes": 2092450,
+      "sourceSha256": "140d9faae32e585e23c068356caaa8ab2d8b52580107e2f834d5bccb0fc7722b",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "59PMX",
+      "maxColId": "5VBXQ"
+    },
+    {
+      "path": "nomenclature/ioc-aves-015.json.gz",
+      "records": 312,
+      "bytes": 169675,
+      "sha256": "1facd43727185318ca16fe351b45fd8563421d5c48190bd6fd5df927962a4496",
+      "sourceBytes": 2094427,
+      "sourceSha256": "8a48405a0828f9fd008ca072d4957f2d25ef28236fe0334ff4768e0b44d6e02d",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "5VBY2",
+      "maxColId": "5Z248"
+    },
+    {
+      "path": "nomenclature/ioc-aves-016.json.gz",
+      "records": 336,
+      "bytes": 159755,
+      "sha256": "b74e8df1f67fe49462de228f9b42c9cc0772491e947969d4dc5d64a1ea955250",
+      "sourceBytes": 2092984,
+      "sourceSha256": "d2768d94ec9171b60e843e0b5b1220eca7696e4ed06719ccb7209f9c2f67339c",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "5Z2CZ",
+      "maxColId": "66TX6"
+    },
+    {
+      "path": "nomenclature/ioc-aves-017.json.gz",
+      "records": 314,
+      "bytes": 171274,
+      "sha256": "4b7f428a3720a6e704680e0eb40c901be4d64033788f33dda2e9cf2765ed9f20",
+      "sourceBytes": 2093053,
+      "sourceSha256": "5dc3c2da25fb6778c62bab063da1e526a4972403fd6b54df74e21d4212fa8928",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "66XV5",
+      "maxColId": "6BSQC"
+    },
+    {
+      "path": "nomenclature/ioc-aves-018.json.gz",
+      "records": 322,
+      "bytes": 163966,
+      "sha256": "05d81e5ad9e9c3d7dfb70e726c184c368012714884312db99faec0fce1d34a62",
+      "sourceBytes": 2096644,
+      "sourceSha256": "814ebece468c7ddeba6cb1d657382bbbdc81949e2f052052c44f452f771ce78d",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "6BSQF",
+      "maxColId": "6JJCF"
+    },
+    {
+      "path": "nomenclature/ioc-aves-019.json.gz",
+      "records": 311,
+      "bytes": 173718,
+      "sha256": "3bc8752f55c765b241f91424b94e88c72428c800444aa07f8ad1a2c67902f327",
+      "sourceBytes": 2092248,
+      "sourceSha256": "f4c0d01be7af9c26a526220d1d001f49bbe46ea6f914450d799028f8c902a6e7",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "6JJCG",
+      "maxColId": "6PV2G"
+    },
+    {
+      "path": "nomenclature/ioc-aves-020.json.gz",
+      "records": 331,
+      "bytes": 171831,
+      "sha256": "34ec7a5abd3c42c516a8fb0cdd340d9c7d475258e563b214cc27636c33a140ab",
+      "sourceBytes": 2090688,
+      "sourceSha256": "f187117f6eb4767e3d66f87504f9379487bb67ca3b2d1ea283334f4a8dbd2150",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "6PXQV",
+      "maxColId": "6VFMV"
+    },
+    {
+      "path": "nomenclature/ioc-aves-021.json.gz",
+      "records": 329,
+      "bytes": 170362,
+      "sha256": "444e845e7008ce202b15b98dd5c66b6a625ec3de0928297b36e4ae82cebeb540",
+      "sourceBytes": 2094349,
+      "sourceSha256": "27617ae8d20905fd817545a5eebfbb097abac0481a78abae18a97dbf5da2618e",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "6VFMW",
+      "maxColId": "72668"
+    },
+    {
+      "path": "nomenclature/ioc-aves-022.json.gz",
+      "records": 329,
+      "bytes": 173969,
+      "sha256": "c91d28cad6e7cda96fe46b0e2c742495ad77ef772ee553d7c996fc14a6adf4b1",
+      "sourceBytes": 2091217,
+      "sourceSha256": "ad0cc5eea65c2138eb5061c4868a6ef5002ec22b08d542c8bb6c50ace60f53fd",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "726QF",
+      "maxColId": "77FKS"
+    },
+    {
+      "path": "nomenclature/ioc-aves-023.json.gz",
+      "records": 318,
+      "bytes": 165254,
+      "sha256": "c312e41e71ed07d48016944b163dac617dc1a385b9ab96850c3d74890fe8dec7",
+      "sourceBytes": 2092751,
+      "sourceSha256": "317fd831394f2ae53dc9b95a5ac057295f4717d632312cafa4cb3837f7138052",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "77FKV",
+      "maxColId": "7CG73"
+    },
+    {
+      "path": "nomenclature/ioc-aves-024.json.gz",
+      "records": 329,
+      "bytes": 164539,
+      "sha256": "86a4efc6304f556b66179fdc4e2bffcd51040e7cc4e8a1cb573f701e921df7d4",
+      "sourceBytes": 2093546,
+      "sourceSha256": "169ad08bd9eaa765d9574848789b054a3bfb215bd0609b45130be1c44b17f411",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "7CG7F",
+      "maxColId": "8K3MR"
+    },
+    {
+      "path": "nomenclature/ioc-aves-025.json.gz",
+      "records": 337,
+      "bytes": 163674,
+      "sha256": "cf93de4419ae79e6ecbfff72a20afabaa310ace5acdf5fe9d9825813fe99ae5a",
+      "sourceBytes": 2092052,
+      "sourceSha256": "8ab3da3c4930438cf15cfca20f5ce02b45049ccec11b5055a120eda2032f75cd",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "8K3MS",
+      "maxColId": "9GD67"
+    },
+    {
+      "path": "nomenclature/ioc-aves-026.json.gz",
+      "records": 323,
+      "bytes": 167076,
+      "sha256": "abb86168fb3b26beb54bac31eebd3646131e78e328a6a56b4710c9abb3972735",
+      "sourceBytes": 2093127,
+      "sourceSha256": "bcc35733f18ae7d2da2a18b621210801c51efbd3cabb4d4cf156353500644791",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "9GD6Q",
+      "maxColId": "CKFW"
+    },
+    {
+      "path": "nomenclature/ioc-aves-027.json.gz",
+      "records": 332,
+      "bytes": 167228,
+      "sha256": "93c1b28446b1f1c07c29b0b69ae5635cf072f09f63547a686a08fbf3eda539d1",
+      "sourceBytes": 2090950,
+      "sourceSha256": "c0f50e926bf7c55f67e884296950ba877fa9f2095036e4dec0dee58a7062097b",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "CLJC",
+      "maxColId": "CVWBK"
+    },
+    {
+      "path": "nomenclature/ioc-aves-028.json.gz",
+      "records": 321,
+      "bytes": 162118,
+      "sha256": "7f97cc5ba5d7973c641b2725266c75ada5a132aad97e0dd00b8a2bc11b88e333",
+      "sourceBytes": 2095390,
+      "sourceSha256": "27960ca10196b04b96bdc2dce9c61df3e2f1769774509197737b33bb4b9abc24",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "CVWBN",
+      "maxColId": "DH8Q"
+    },
+    {
+      "path": "nomenclature/ioc-aves-029.json.gz",
+      "records": 324,
+      "bytes": 153830,
+      "sha256": "ee98071a0830741b9e4bc204d9b92e7cadf1df57c39e0b901f7f885c1fef1c8a",
+      "sourceBytes": 2095268,
+      "sourceSha256": "cd2a7f12b111ae68894d8f19654c8a328d1a27457b94ee189cc7d7ecd22eb6f5",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "DQC7",
+      "maxColId": "KZ3TT"
+    },
+    {
+      "path": "nomenclature/ioc-aves-030.json.gz",
+      "records": 327,
+      "bytes": 164436,
+      "sha256": "f42b2c02083db39737bcad9d15e5381b534f2b30d9d9366de34b4323ee36333d",
+      "sourceBytes": 2092039,
+      "sourceSha256": "383bca1fe3243cc5665424870d62da144d2317c103f64ee35a4c82a3985a7294",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "KZ9JZ",
+      "maxColId": "PJFJ"
+    },
+    {
+      "path": "nomenclature/ioc-aves-031.json.gz",
+      "records": 316,
+      "bytes": 162510,
+      "sha256": "c39676841b181830059355aae82f9e73df333072ded7912c9a294e6be505bbb8",
+      "sourceBytes": 2096081,
+      "sourceSha256": "6ae72f1b3b54abe2d3f03a7350bd46c08c4c238f2dd34c347f43cfe3ece853e8",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "PJQF",
+      "maxColId": "RS25"
+    },
+    {
+      "path": "nomenclature/ioc-aves-032.json.gz",
+      "records": 369,
+      "bytes": 164502,
+      "sha256": "434aee53c00cbeca03d9ce2ae96c7c49391cf0295039dfca0a350d7dd571d7e5",
+      "sourceBytes": 2096159,
+      "sourceSha256": "7bcfa8843dd8a64cc175880f6fafd7bb092bdb7e77e740edcdf678a6b70bb6ca",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "RS26",
+      "maxColId": "VG86"
+    },
+    {
+      "path": "nomenclature/ioc-aves-033.json.gz",
+      "records": 344,
+      "bytes": 155898,
+      "sha256": "6f587f6ac2525df8ad4a2ddf0d5e33169b336167b2e716ba308b7863a7b420ee",
+      "sourceBytes": 2095744,
+      "sourceSha256": "3f0b000476b6fb4dcfbeebf1a1b10e0f8c129583c23047872d6d41bdc609bdd9",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "VG87",
+      "maxColId": "ZGDV"
+    },
+    {
+      "path": "nomenclature/ioc-aves-034.json.gz",
+      "records": 21,
+      "bytes": 10451,
+      "sha256": "158e6cfb19ffdc7ff834ee458a6a2a0e4e868a7bb85f4a2558a01817c4d33325",
+      "sourceBytes": 138419,
+      "sourceSha256": "545288a3c0ce8cfb5e6b8b78c3f73b337c07290b54254ded622d3bb2fcc6e1e1",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "ZGDW",
+      "maxColId": "ZT9Y"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "nomenclature/ioc-aves-source-only-000.json.gz",
+      "records": 374,
+      "bytes": 170057,
+      "sha256": "a2c96f18283a813569ae43be56d9850e639c0655a1b509ae48abd4285a2867f9",
+      "sourceBytes": 2093091,
+      "sourceSha256": "a394c0047790e5f8a30e3308b6dee8df1f732fd7e8604e5ccf882cde54b5aea9",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "upstream-only"
+    },
+    {
+      "path": "nomenclature/ioc-aves-source-only-001.json.gz",
+      "records": 252,
+      "bytes": 109728,
+      "sha256": "897ffdfd8e002ebec79b6f44b6d7cc18aa1eef11ad93f7b9e052ff3c19a922ad",
+      "sourceBytes": 1338642,
+      "sourceSha256": "824d59fbe545778ac59af31d62f1c7268706cea61564b1bd03adcda02a1dd0d1",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "upstream-only"
+    }
+  ],
+  "totalCompressedBytes": 5762246,
+  "totalSourceBytes": 74758564,
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 11670,
+      "files": [
+        "nomenclature/ioc-aves-000.json.gz",
+        "nomenclature/ioc-aves-001.json.gz",
+        "nomenclature/ioc-aves-002.json.gz",
+        "nomenclature/ioc-aves-003.json.gz",
+        "nomenclature/ioc-aves-004.json.gz",
+        "nomenclature/ioc-aves-005.json.gz",
+        "nomenclature/ioc-aves-006.json.gz",
+        "nomenclature/ioc-aves-007.json.gz",
+        "nomenclature/ioc-aves-008.json.gz",
+        "nomenclature/ioc-aves-009.json.gz",
+        "nomenclature/ioc-aves-010.json.gz",
+        "nomenclature/ioc-aves-011.json.gz",
+        "nomenclature/ioc-aves-012.json.gz",
+        "nomenclature/ioc-aves-013.json.gz",
+        "nomenclature/ioc-aves-014.json.gz",
+        "nomenclature/ioc-aves-015.json.gz",
+        "nomenclature/ioc-aves-016.json.gz",
+        "nomenclature/ioc-aves-017.json.gz",
+        "nomenclature/ioc-aves-018.json.gz",
+        "nomenclature/ioc-aves-019.json.gz",
+        "nomenclature/ioc-aves-020.json.gz",
+        "nomenclature/ioc-aves-021.json.gz",
+        "nomenclature/ioc-aves-022.json.gz",
+        "nomenclature/ioc-aves-023.json.gz",
+        "nomenclature/ioc-aves-024.json.gz",
+        "nomenclature/ioc-aves-025.json.gz",
+        "nomenclature/ioc-aves-026.json.gz",
+        "nomenclature/ioc-aves-027.json.gz",
+        "nomenclature/ioc-aves-028.json.gz",
+        "nomenclature/ioc-aves-029.json.gz",
+        "nomenclature/ioc-aves-030.json.gz",
+        "nomenclature/ioc-aves-031.json.gz",
+        "nomenclature/ioc-aves-032.json.gz",
+        "nomenclature/ioc-aves-033.json.gz",
+        "nomenclature/ioc-aves-034.json.gz",
+        "nomenclature/ioc-aves-source-only-000.json.gz",
+        "nomenclature/ioc-aves-source-only-001.json.gz"
+      ],
+      "totalCompressedBytes": 5762246,
+      "totalSourceBytes": 74758564
+    }
+  },
+  "evidenceBoundary": {
+    "en": "Frozen IOC World Bird List archive projection for strict accepted COL26.8 Aves; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "冻结的 IOC World Bird List 档案投影，范围为严格 accepted 的 COL26.8 Aves；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Accepted crosswalk status does not imply that a source species is extant; explicit source extinct fields and remarks are preserved.",
+    "Source-only rows are relative only to this COL26.8 scope and are not global novelty claims.",
+    "Archive status and source fields are preserved; exact matching does not infer taxonomic equivalence.",
+    "GitHub Pages web-light carries the descriptor summary only; native-full carries every listed row shard."
+  ]
+}

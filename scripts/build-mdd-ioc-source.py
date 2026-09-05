@@ -18,7 +18,6 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / 'data/catalogue-of-life/releases/2026-08-20/registry'
-OUT = ROOT / 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals'
 ARCHIVES = ROOT / 'data/sources/archives'
 SHARD_LIMIT = 2 * 1024 * 1024
 SOURCES = {
@@ -27,6 +26,9 @@ SOURCES = {
         'metadataName': 'checklistbank-9802-mdd.metadata.json',
         'root': '6224G', 'taxon': 'Mammalia', 'prefix': 'mdd-mammalia',
         'id': 'mdd-mammalia-archive-crosswalk',
+        'packageId': 'other-animals',
+        'outputPath': 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals',
+        'filePathPrefix': 'other-animals',
         'provider': 'The Mammal Diversity Database via ChecklistBank',
         'ledgerName': 'mdd-9802-import-ledger.json',
     },
@@ -35,6 +37,9 @@ SOURCES = {
         'metadataName': 'checklistbank-2036-ioc.metadata.json',
         'root': 'V2', 'taxon': 'Aves', 'prefix': 'ioc-aves',
         'id': 'ioc-aves-archive-crosswalk',
+        'packageId': 'crocodylomorphs-birds',
+        'outputPath': 'data/packages/archosauria/crocodylomorphs-birds/nomenclature',
+        'filePathPrefix': 'nomenclature',
         'provider': 'IOC World Bird List via ChecklistBank',
         'ledgerName': 'ioc-2036-import-ledger.json',
     },
@@ -175,6 +180,7 @@ def archive_source(config):
                 ancillary['references'] = []
             source_name = {'id': taxon_id, 'scientificName': row.get('col:scientificName') or '',
                            'authorship': authorship, 'rank': 'species', 'status': 'accepted',
+                           'sourceStatus': row.get('col:status') or None,
                            'nameStatus': row.get('col:nameStatus') or None,
                            'extinct': bool_or_none(row.get('col:extinct') or ''),
                            'link': row.get('col:link') or None, 'remarks': row.get('col:remarks') or None,
@@ -190,7 +196,8 @@ def archive_source(config):
             ancillary_rows = by_taxon.get(taxon_id, {}).get('rows', [])
             source_name = {'id': taxon_id, 'scientificName': row.get('col:scientificName') or '',
                            'authorship': row.get('col:authorship') or '', 'rank': 'species',
-                           'status': 'accepted', 'code': row.get('col:code') or None,
+                           'status': 'accepted', 'sourceStatus': row.get('col:status') or None,
+                           'code': row.get('col:code') or None,
                            'extinct': bool_or_none(row.get('col:extinct') or ''),
                            'remarks': row.get('col:remarks') or None,
                            'sourceRows': [{'member': 'NameUsage.tsv', 'row': row_number}],
@@ -207,7 +214,7 @@ def archive_source(config):
     }
 
 
-def write_shards(prefix, rows, destination, role):
+def write_shards(prefix, rows, destination, role, file_path_prefix):
     parts, current, size = [], [], 2
     for row in rows:
         encoded = json_bytes(row)
@@ -226,7 +233,7 @@ def write_shards(prefix, rows, destination, role):
         compressed = gzip.compress(payload, compresslevel=9, mtime=0)
         compressed = compressed[:9] + bytes([255]) + compressed[10:]
         (destination / name).write_bytes(compressed)
-        item = {'path': f'other-animals/{name}', 'records': len(part), 'bytes': len(compressed),
+        item = {'path': f'{file_path_prefix}/{name}', 'records': len(part), 'bytes': len(compressed),
                 'sha256': sha(compressed), 'sourceBytes': len(payload), 'sourceSha256': sha(payload),
                 'encoding': 'gzip', 'mediaType': 'application/json', 'role': role}
         if role == 'col-partition':
@@ -257,7 +264,7 @@ def build_one(config, col_rows, parents, registry_sha, registry_inputs, output_r
                         'exactMatchName': key, 'matchedName': matched,
                         'acceptedName': matched if status == 'accepted' else None,
                         'candidates': candidates,
-                        'mappingBasis': 'Unique exact normalized scientific name (NFC + whitespace); no authorship or synonym fallback.',
+                        'mappingBasis': 'Unique exact normalized scientific name (NFC + whitespace); COL authorship is removed exactly but is not matched, and source authorship is preserved; no synonym fallback.',
                         'sourceRows': matched['sourceRows'] if matched else []})
     upstream = []
     for record, _ in sorted(archive['accepted'], key=lambda pair: pair[0]['id']):
@@ -265,12 +272,12 @@ def build_one(config, col_rows, parents, registry_sha, registry_inputs, output_r
             upstream.append({'colId': None, 'colScientificName': None, 'colAuthorship': None,
                              'status': 'upstream-only', 'exactMatchName': norm(record['scientificName']),
                              'matchedName': record, 'acceptedName': record, 'candidates': [],
-                             'mappingBasis': 'Accepted source species not uniquely matched to the exact COL26.8 scope; not a global novelty claim.',
+                             'mappingBasis': 'Selected source species not uniquely matched to the exact COL26.8 scope; not a global novelty claim.',
                              'sourceRows': record['sourceRows']})
-    destination = output_root / OUT.relative_to(ROOT)
+    destination = output_root / config['outputPath']
     destination.mkdir(parents=True, exist_ok=True)
-    col_files = write_shards(config['prefix'], records, destination, 'col-partition')
-    upstream_files = write_shards(f"{config['prefix']}-source-only", upstream, destination, 'upstream-only')
+    col_files = write_shards(config['prefix'], records, destination, 'col-partition', config['filePathPrefix'])
+    upstream_files = write_shards(f"{config['prefix']}-source-only", upstream, destination, 'upstream-only', config['filePathPrefix'])
     source = archive['metadata']
     internal = archive['internalMetadata']
     descriptor_source = {
@@ -278,8 +285,8 @@ def build_one(config, col_rows, parents, registry_sha, registry_inputs, output_r
         'version': source['version'], 'issued': source['issued'], 'doi': source.get('doi'),
         'versionDoi': source.get('versionDoi'), 'archiveMetadataDoi': internal.get('doi'),
         'citation': source.get('citation'), 'editor': source.get('editor'),
-        'contributor': source.get('contributor'), 'license': 'CC-BY-4.0',
-        'licenseUrl': 'https://creativecommons.org/licenses/by/4.0/',
+        'contributor': source.get('contributor'), 'license': source.get('license'),
+        'archiveLicense': internal.get('license'),
         'archiveUrl': f"https://api.checklistbank.org/dataset/{config['datasetId']}/archive",
         'archivePath': f"data/sources/archives/{config['archiveName']}",
         'metadataPath': f"data/sources/archives/{config['metadataName']}",
@@ -294,14 +301,14 @@ def build_one(config, col_rows, parents, registry_sha, registry_inputs, output_r
     inventory = col_files + upstream_files
     descriptor = {
         'schemaVersion': 1, 'recordType': 'release-pinned-authority-archive-crosswalk',
-        'id': config['id'], 'packageId': 'other-animals', 'provider': config['provider'],
+        'id': config['id'], 'packageId': config['packageId'], 'provider': config['provider'],
         'role': 'authority-crosswalk', 'rowEncoding': 'json', 'encoding': 'gzip',
         'mediaType': 'application/json', 'colIdField': 'colId', 'totalCountField': 'total',
         'source': descriptor_source,
         'scope': {'colRootUsageId': config['root'], 'colRootScientificName': config['taxon'],
                   'colRelease': 'COL26.8', 'colStrictAcceptedSpecies': len(eligible),
                   'sourceDatasetId': config['datasetId'], 'sourceStrictAcceptedSpecies': len(archive['accepted'])},
-        'matching': {'normalization': 'Unicode NFC and whitespace normalization on scientific names only; COL trailing authorship is removed exactly.',
+        'matching': {'normalization': 'Unicode NFC and whitespace normalization on scientific names only; COL trailing authorship is removed exactly. Authorship is preserved as source data, not used as a matching key.',
                      'prohibited': 'No fuzzy, case-folded, accent-folded, authorship, synonym, taxon-substitution or species-concept matching.'},
         'counts': {'total': len(records), **counts, 'upstreamOnly': len(upstream), 'records': len(records) + len(upstream)},
         'files': col_files, 'upstreamOnlyFiles': upstream_files,
@@ -315,10 +322,15 @@ def build_one(config, col_rows, parents, registry_sha, registry_inputs, output_r
                                              'totalSourceBytes': sum(file['sourceBytes'] for file in inventory)}},
         'evidenceBoundary': {'en': f'Frozen {source["title"]} archive projection for strict accepted COL26.8 {config["taxon"]}; not species-concept equivalence, a biological dossier, fossil evidence or expert review.',
                              'zh': f'冻结的 {source["title"]} 档案投影，范围为严格 accepted 的 COL26.8 {config["taxon"]}；不是物种概念等同性、生物档案、化石证据或专家审查。'},
-        'limitations': ['Source-only rows are relative only to this COL26.8 scope and are not global novelty claims.',
+        'limitations': ['Accepted crosswalk status does not imply that a source species is extant; explicit source extinct fields and remarks are preserved.',
+                        'Source-only rows are relative only to this COL26.8 scope and are not global novelty claims.',
                         'Archive status and source fields are preserved; exact matching does not infer taxonomic equivalence.',
                         'GitHub Pages web-light carries the descriptor summary only; native-full carries every listed row shard.'],
     }
+    if config['prefix'] == 'mdd-mammalia':
+        descriptor['limitations'].append('MDD spans five existing COL ownership routes; this worker intentionally does not partition its rows or assign its 1,775 source-only rows to those packages. Parent integration must decide that boundary.')
+    else:
+        descriptor['scope']['packageOwnership'] = 'All COL26.8 accepted Aves below V2 are owned by crocodylomorphs-birds; this projection is not an other-animals resource-pack extension.'
     descriptor_path = destination / f'{config["prefix"]}-sidecar.json'
     descriptor_bytes = json_bytes(descriptor, True)
     descriptor_path.write_bytes(descriptor_bytes)
@@ -329,7 +341,7 @@ def build_one(config, col_rows, parents, registry_sha, registry_inputs, output_r
               'scopeAudit': {'colRootUsageId': config['root'], 'colRootScientificName': config['taxon'],
                              'colStrictAcceptedSpecies': len(eligible), 'sourceStrictAcceptedSpecies': len(archive['accepted']),
                              'counts': descriptor['counts']},
-              'outputs': {'descriptor': {'path': f'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/{config["prefix"]}-sidecar.json',
+              'outputs': {'descriptor': {'path': f'{config["outputPath"]}/{config["prefix"]}-sidecar.json',
                                          'bytes': len(descriptor_bytes), 'sha256': sha(descriptor_bytes)},
                           'files': col_files, 'upstreamOnlyFiles': upstream_files}}
     ledger_path = output_root / 'data/sources' / config['ledgerName']

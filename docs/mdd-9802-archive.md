@@ -9,12 +9,16 @@ source evidence; it is not silently replaced by a later download.
 The archive is `3,189,955` bytes with SHA-256
 `da2c04ec869539b949b4af8a8484ccc4901c0848f06822b0257c92d56d835ed2`. Its
 embedded `metadata.yaml` agrees with the API metadata on title, version, issue
-date, license (`CC-BY`) and scope (`Mammalia`). The ChecklistBank dataset DOI
+date, license (`CC-BY` in the archive and `cc by` in the API metadata) and scope
+(`Mammalia`). No license version or Creative Commons license URL is inferred.
+The ChecklistBank dataset DOI
 is `10.48580/dfp2`; the archive has no separate DOI field.
 
 The projection selects the strict COL26.8 accepted species descendants of
 Mammalia (`6224G`): **6,461** COL species. The pinned MDD archive contributes
-**6,801** accepted species rows (`rank=species` and blank source status).
+**6,801** species rows (`rank=species` and blank source status); blank source
+status is the archive selection boundary, not a literal `accepted` label or an
+assertion that the species is extant.
 Matching is deterministic and intentionally narrow:
 
 - normalize scientific names with Unicode NFC and whitespace normalization;
@@ -29,9 +33,20 @@ claims of globally new species. MDD remarks, links, taxonomy, vernacular
 names, distributions, type material and name-reference locators remain
 attached to their source rows where present.
 
+The source contains explicit extinction data: 112 of the 6,801 selected rows
+have `col:extinct=true` (including remarks such as “the species is probably
+extinct”). Eighty of those rows are among the exact COL matches. Crosswalk
+`accepted` therefore means a unique name match, never `extant`.
+
+MDD spans five existing COL ownership routes. This worker intentionally keeps
+the whole projection together and does not guess package routing: the parent
+integration must decide how to partition `other-mammals`, `primates`,
+`cetartiodactyla`, `carnivora` and `perissodactyla`, including the 1,775
+upstream-only rows that have no COL ID.
+
 GitHub Pages receives the descriptor summary only (`web-light`). Android and
-iOS `native-full` inventories must include every listed deterministic gzip
-JSONL shard. Each shard is at most 2 MiB uncompressed. Rebuild and replay with:
+iOS `native-full` inventories must include every listed deterministic gzip JSON
+shard. Each shard is at most 2 MiB uncompressed. Rebuild and replay with:
 
 ```text
 python -B scripts/build-mdd-ioc-source.py --source mdd
