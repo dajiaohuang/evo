@@ -12,6 +12,7 @@ import {
   loadCatalogueFdacDescriptions,
   loadCatalogueMesoDescriptions,
   loadCatalogueMossDescriptions,
+  loadCataloguePakistanDescriptions,
   loadCataloguePlaziDescriptions,
   loadCatalogueSpeciesOwnership,
   loadCatalogueSourceChecklists,
@@ -100,6 +101,8 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const [mesoError, setMesoError] = useState(false)
   const [moss, setMoss] = useState<Awaited<ReturnType<typeof loadCatalogueMossDescriptions>>>(null)
   const [mossError, setMossError] = useState(false)
+  const [pakistan, setPakistan] = useState<Awaited<ReturnType<typeof loadCataloguePakistanDescriptions>>>(null)
+  const [pakistanError, setPakistanError] = useState(false)
   const [fdac, setFdac] = useState<Awaited<ReturnType<typeof loadCatalogueFdacDescriptions>>>(null)
   const [fdacError, setFdacError] = useState(false)
   const [plazi, setPlazi] = useState<Awaited<ReturnType<typeof loadCataloguePlaziDescriptions>>>(null)
@@ -140,6 +143,11 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
         void loadCatalogueMossDescriptions(id).then((record) => {
           if (!cancelled) setMoss(record)
         }).catch(() => { if (!cancelled) setMossError(true) })
+      }
+      if (loadedManifest.pakistanDescriptions && loadedNode.rank === 'species') {
+        void loadCataloguePakistanDescriptions(id).then((record) => {
+          if (!cancelled) setPakistan(record)
+        }).catch(() => { if (!cancelled) setPakistanError(true) })
       }
       if (loadedManifest.foaDescriptions && loadedNode.rank === 'species') {
         void loadCatalogueFoaDescriptions(id).then((record) => {
@@ -461,6 +469,21 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
             {description.citations.map((citation, index) => <p key={`${citation}:${description.referenceRowNumbers[index] ?? index}`}>{citation}</p>)}
             <p>{description.rightsHolder} · {description.rights} · <a href={description.license}>{description.license}</a></p>
             <small>{moss.wfoId} · {description.sourceId} · source row {description.rowNumber}{description.referenceRowNumbers.length ? ` · reference rows ${description.referenceRowNumbers.join(', ')}` : ''}</small>
+          </details>)}
+        </section>}
+        {pakistanError && <p role="status">{zh ? '巴基斯坦植物志描述暂时无法加载。' : 'Flora of Pakistan descriptions could not be loaded.'}</p>}
+        {pakistan && manifest.pakistanDescriptions && <section className="catalogue-source-card">
+          <h2>{zh ? '巴基斯坦植物志' : 'Flora of Pakistan'}</h2>
+          <p>{zh ? '区域历史英文原文，非完整全球档案或分布记录。原文以纯文本显示，未补写来源缺失的引用。' : 'Historical regional source in original English; not a complete global species dossier or distribution record. Source text is displayed as plain text, with no citations added where the source is missing them.'}</p>
+          <p><a href={manifest.pakistanDescriptions.source.sourceUrl}>{manifest.pakistanDescriptions.source.provider} — {manifest.pakistanDescriptions.source.title}</a> · {manifest.pakistanDescriptions.source.sourceVersion} · {manifest.pakistanDescriptions.source.retrievedAt} · <a href={manifest.pakistanDescriptions.source.licenseUrl}>{manifest.pakistanDescriptions.source.license}</a></p>
+          {pakistan.descriptions.map((description) => <details key={description.rowNumber}>
+            <summary>{zh ? '一般描述' : 'General description'}</summary>
+            <p lang="en" style={{ whiteSpace: 'pre-wrap' }}>{description.text}</p>
+            {description.citationMissingInSource
+              ? <p role="note">{zh ? '来源未提供引用；此处不补写。' : 'The source provides no citation for this entry; none has been added.'}</p>
+              : description.citations.map((citation, index) => <p key={`${citation}:${description.referenceRowNumbers[index] ?? index}`}>{citation}</p>)}
+            <p>{description.rightsHolder} · {description.rights} · <a href={description.license}>{description.license}</a></p>
+            <small>{pakistan.wfoId} · {description.sourceId} · source row {description.rowNumber}{description.referenceRowNumbers.length ? ` · reference rows ${description.referenceRowNumbers.join(', ')}` : ''}</small>
           </details>)}
         </section>}
       </header>

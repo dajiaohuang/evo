@@ -2,6 +2,8 @@
 
 ## Unreleased content corrections
 
+- Added 2,657 attributed Flora of Pakistan English descriptions for uniquely matched accepted species, preserving citations and row locators. Full-Web loading is lazy and detailed passages are collapsed; Pages preview omits the collection. Regional historical text is not a current global distribution or complete species dossier.
+
 - Added 276 attributed Moss Flora of Central America original English excerpts for uniquely matched accepted species. Preserved citations and source locators; 54 entries at the observed source character boundary carry possible-truncation warnings. Full-Web delivery is lazy and Pages preview omits this regional historical collection. No missing passages are reconstructed.
 
 - Added 8,021 attributed Flora d'Afrique Centrale morphology and habitat passages for 4,156 uniquely linked accepted species. Preserved original text, undeclared language and 19 explicit missing-citation cases with archive attribution. Full-Web delivery is lazy; Pages preview omits the collection. These regional historical passages are not global species dossiers.

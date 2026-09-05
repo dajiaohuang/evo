@@ -1602,6 +1602,17 @@ const plaziSource = readJson('data/sources/plazi-descriptions-import-ledger.json
 const mesoSource = readJson('data/sources/meso-descriptions-import-ledger.json')
 const fdacSource = readJson('data/sources/fdac-descriptions-import-ledger.json')
 const mossSource = readJson('data/sources/moss-descriptions-import-ledger.json')
+const pakistanSource = readJson('data/sources/pakistan-descriptions-import-ledger.json')
+const pakistanBytes = readFileSync(join(rootDir, pakistanSource.output))
+if (pakistanBytes.length !== pakistanSource.outputBytes || sha256(pakistanBytes) !== pakistanSource.outputSha256) throw new Error('Flora of Pakistan source bytes differ from the import ledger')
+const pakistanRecords = gunzipSync(pakistanBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
+const pakistanRoutes = {}
+const pakistanFiles = partitionSanbiDescriptions(pakistanRecords).map(([prefix, records]) => {
+  const path = `catalogue/descriptions/pakistan-${prefix}.json.gz`
+  const file = { ...writeGzipJson(path, records), prefix, path, records: records.length }
+  pakistanRoutes[prefix] = [file.url]
+  return file
+})
 const mossBytes = readFileSync(join(rootDir, mossSource.output))
 if (mossBytes.length !== mossSource.outputBytes || sha256(mossBytes) !== mossSource.outputSha256) throw new Error('Moss Flora source bytes differ from the import ledger')
 const mossRecords = gunzipSync(mossBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
@@ -1660,6 +1671,7 @@ catalogueRuntimeManifest = {
   mesoDescriptions: { source: mesoSource, routes: mesoRoutes, files: mesoFiles },
   fdacDescriptions: { source: fdacSource, routes: fdacRoutes, files: fdacFiles },
   mossDescriptions: { source: mossSource, routes: mossRoutes, files: mossFiles },
+  pakistanDescriptions: { source: pakistanSource, routes: pakistanRoutes, files: pakistanFiles },
   sanbiDescriptions: { source: sanbiSource, routes: sanbiRoutes, files: sanbiFiles },
   provenance: catalogueProvenance,
   sourceChecklists: { ...catalogueSourceManifest.sourceChecklists, url: catalogueSourcesFile.url },
@@ -1782,6 +1794,7 @@ const current = {
       + (catalogueRuntimeManifest.mesoDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.fdacDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.mossDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
+      + (catalogueRuntimeManifest.pakistanDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.plaziDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0),
     pagesLimitBytes: 650 * 1024 * 1024,
   },
