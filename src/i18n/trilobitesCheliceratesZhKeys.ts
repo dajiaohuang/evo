@@ -1,4 +1,7 @@
 export const trilobitesCheliceratesZhKeys = new Set<string>([
+  "A cheliceral fixed ramus preserving 36.4 cm, reconstructed at 45.5 cm complete, informs a separate estimate of extreme eurypterid body size.",
+  "Wendruff et al. (2020) interpreted holotype UWGM 2162 and paratype UWGM 2163 as scorpions and compared their medial structures with pulmonary-cardiovascular anatomy; this records the original interpretation, not an established identification.",
+  "Anderson et al. (2021) rejected the scorpion interpretation and left exact arthropod affinities unresolved. These specimens therefore do not establish scorpion terrestrial physiology or habitat.",
   "Move from named fossils and three-dimensional anatomy to functional and genomic models without turning separate samples into an ancestor ladder.",
   "Trilobites and chelicerates: anatomy, models and disputed roots",
   "Early trilobite topology and origin-time model",
