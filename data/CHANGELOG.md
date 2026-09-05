@@ -2,6 +2,8 @@
 
 ## Unreleased content corrections
 
+- Clarified that Lingula larval mantle BMP activity supports a proposed shared biomineralization mechanism, not a functionally established causal role, following the original study's explicit qualification.
+
 - Distinguished Lingula anatina adult genomic material, embryonic and adult transcriptomes, and adult shell proteomics in the source description. Updated the Octopus map example to match the corrected sampling and duplication limitations.
 
 - Clarified the Octopus bimaculoides genome and RNA sampling relationship, replaced ambiguous cephalopod-specific expression wording, and retained the study's limitation that duplication followed by extensive gene loss was not excluded.
