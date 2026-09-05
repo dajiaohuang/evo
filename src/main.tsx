@@ -7,6 +7,7 @@ import { I18nProvider } from './i18n'
 import { registerSW } from 'virtual:pwa-register'
 import { initializeNativeRuntime } from './platform/nativeRuntime'
 import { frontendContract } from './platform/frontendContract'
+import { recordNativeSyncError, streamNativeSyncManifest } from './data-client/nativeSyncClient'
 
 document.documentElement.dataset.frontendTarget = frontendContract.target
 document.documentElement.dataset.frontendEdition = frontendContract.edition
@@ -14,6 +15,19 @@ document.documentElement.dataset.contentScope = frontendContract.content.scope
 
 if (import.meta.env.VITE_NATIVE_APP === 'true') {
   document.documentElement.dataset.offlineReady = 'true'
+  if (frontendContract.backend.configured) {
+    void streamNativeSyncManifest({
+      onProgress: (progress) => {
+        document.documentElement.dataset.nativeSyncStatus = progress.status
+        document.documentElement.dataset.nativeSyncFiles = String(progress.filesSeen)
+        window.dispatchEvent(new CustomEvent('evo:native-sync-progress', { detail: progress }))
+      },
+    }).catch((error) => {
+      recordNativeSyncError(error)
+      document.documentElement.dataset.nativeSyncStatus = 'error'
+      console.warn('Evo Atlas native release sync bootstrap failed.', error)
+    })
+  }
   void initializeNativeRuntime().catch((error) => {
     console.warn('Evo Atlas native runtime initialization failed.', error)
   })
