@@ -1365,6 +1365,27 @@ export interface CatalogueFoaDescriptionRecord {
   }>
 }
 
+export interface CatalogueFnaDescriptionRecord {
+  colId: string
+  wfoId: string
+  scientificName: string
+  descriptions: Array<{
+    type: 'general'
+    text: string
+    language: 'en'
+    rowNumber: number
+    sourceId: string
+    citations: string[]
+    referenceRowNumbers: number[]
+    rightsHolder: string
+    rights: string
+    license: string
+    sourceExcerpt: true
+    sourceEndUnclosed?: boolean
+    citationMissingInSource: boolean
+  }>
+}
+
 export interface CataloguePlaziDescriptionRecord {
   colId: string
   scientificName: string
@@ -1486,6 +1507,11 @@ export interface CatalogueFdacDescriptionRecord {
 }
 
 export interface CatalogueRuntimeManifest {
+  fnaDescriptions?: {
+    source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
+    routes: Record<string, string[]>
+    files: CatalogueRuntimeFile[]
+  }
   mossChinaDescriptions?: {
     source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
     routes: Record<string, string[]>

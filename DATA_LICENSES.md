@@ -1,5 +1,12 @@
 # Data licenses and provenance
 
+Flora of North America original descriptions retain Flora of North America
+Association attribution and the WFO archive's explicit CC BY 4.0 defaults for
+descriptions and references. The 7,960 selected general passages retain exact
+citations and archive locators; original markup is independently retained.
+COL supplies display names and the species-selection basis, not source ranks
+from the identifier-only FNA core. See `docs/fna-descriptions.md`.
+
 Moss Flora of China descriptions retain Missouri Botanical Garden attribution
 and the official WFO archive's explicit CC BY 4.0 description/reference defaults.
 The 739 species records retain source names, citations and row locators. Original

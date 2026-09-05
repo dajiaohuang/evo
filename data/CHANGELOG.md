@@ -2,6 +2,9 @@
 
 ## Unreleased content corrections
 
+- Added 7,960 attributed Flora of North America general descriptions with original citation/row locators and explicit source-ending warnings. Full-Web delivery is lazy; Pages excludes the collection. Literature rows remain separate evidence.
+- Re-encoded SANBI build-time descriptions as Brotli, saving 1,621,821 bytes with identical decoded source content. Runtime shards remain gzip; original archives and the prior source gzip remain independently retained.
+
 - Apply the 650 MiB Pages deployment total to preview artifacts rather than full-Web datasets. Full-Web retains application, static-page, shard and cache limits; Pages deployment remains capped at 650 MiB.
 
 - Added 739 attributed Moss Flora of China English descriptions for uniquely matched accepted species. Preserved source names, citations and row locators; full-Web delivery is lazy and Pages preview excludes the collection. Historical regional prose is not a current global range assessment or complete dossier.

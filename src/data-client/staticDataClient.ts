@@ -1193,6 +1193,14 @@ export async function loadCatalogueMossChinaDescriptions(id: string): Promise<im
   return records.find((record) => record.colId === id) ?? null
 }
 
+export async function loadCatalogueFnaDescriptions(id: string): Promise<import('./types').CatalogueFnaDescriptionRecord | null> {
+  const manifest = await loadCatalogueManifest()
+  const collection = manifest.fnaDescriptions
+  if (!collection) return null
+  const records = await loadCatalogueRoute<import('./types').CatalogueFnaDescriptionRecord>(collection.routes, collection.files, id)
+  return records.find((record) => record.colId === id) ?? null
+}
+
 export async function loadCatalogueFoaDescriptions(id: string): Promise<import('./types').CatalogueFoaDescriptionRecord | null> {
   const manifest = await loadCatalogueManifest()
   const collection = manifest.foaDescriptions
