@@ -27,6 +27,12 @@ go -C backend run ./cmd/evo-bench -data-root .. -full-sync -sync-concurrency 4
 
 It also resumes the largest resource from the midpoint with `Range` and the descriptor's bare SHA-256 in `If-Range`; this matches the native sync client contract without retaining a legacy release format. Record the emitted JSON with the host and filesystem details below when reporting a run.
 
+### RC143 full-sync evidence (2026-09-05)
+
+Measured from commit `0bd9564ca84c2dbccf23f9ec318da7a12e91cef7` on Windows 10 Pro N `10.0.19045`, Go `1.26.3`, `windows/amd64`, 32 logical CPUs, 31.8 GiB RAM and NTFS. Command: `go -C backend run ./cmd/evo-bench -data-root .. -full-sync -sync-concurrency 4`. Dataset: `2026.09-static-v5-rc143`.
+
+The run consumed the complete current inventory: 5,433 files and 987,650,919 advertised/transferred bytes, with 0 request errors and 0 size/hash mismatches. Handler transfer time was 336.013 ms (2,803.16 MiB/s; local filesystem cache may be warm). The largest resource, `data/sources/wfo-plant-crosswalk-col26.8.json.gz`, resumed in two `206` ranges (9,021,789 + 9,021,790 bytes) and the reassembled SHA-256 matched. This is an in-process HTTP/loopback transfer check, not a device-network throughput claim.
+
 The `evo-index` run is intentionally an import/build-cost measurement: it hashes the complete current data tree and emits the rebuildable packed hierarchy artifact. It should be reported separately from API cold and warm latency. With `backend/index/catalogue-tree.bin` present and matching the current release fingerprint, startup loads the resident tree directly; without it, startup rebuilds the artifact in memory from canonical gzip-NDJSON node shards. Search queries decompress only routed name shards; the raw fallback cache and typed search cache are independently byte-bounded. No result from the current implementation should be called “best possible”; compare alternatives only on the same release, route, artifact state, machine and concurrency.
 
 This repository currently records the benchmark method rather than inventing hardware-specific numbers. Run and retain measured output when CI or a target device is available.
