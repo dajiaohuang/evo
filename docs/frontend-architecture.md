@@ -84,6 +84,12 @@ enrichment. The first contract is intentionally read-oriented:
   `Accept-Ranges`, `Content-Range`, `ETag` and `If-Range`.
 - `GET /v1/sync/files` returns `path`, `profile`, `bytes`, `sha256`,
   `mediaType`, `releaseVersion` and optional `deltaFrom` entries.
+- Native startup uses the current `GET /v1/sync/files.ndjson?profile=full`
+  stream when a backend is configured. It consumes one manifest header and one
+  file descriptor at a time, persists only progress metadata, and exposes
+  `streaming`, `ready` or `error` state. Resource bytes remain on-demand and
+  resumable through `/v1/resources/{path}`; the client never claims a full
+  offline sync from a partial stream.
 
 Every client should treat a release manifest and its hashes as the authority
 for offline data. A server response must not silently mix dataset versions;

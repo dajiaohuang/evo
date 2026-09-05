@@ -35,6 +35,7 @@ import { packageItisEvidenceScopes } from './itisEvidenceScopes'
 import { CatalogueItisEvidence } from './CatalogueItisEvidence'
 import { catalogueItisOtherAnimalsScopes } from './catalogueItisOtherAnimalsScopes'
 import { catalogueItisProtistsScopes } from './catalogueItisProtistsScopes'
+import { deriveCatalogueNodeIntroduction } from './catalogueNodeIntroduction'
 import './CatalogueTaxonPage.css'
 
 interface CatalogueTaxonPageProps {
@@ -159,6 +160,14 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const source = node?.sourceDatasetId
     ? sources.find((record) => record.datasetId === node.sourceDatasetId)
     : null
+  const nodeIntroduction = node ? deriveCatalogueNodeIntroduction({
+    node,
+    parent: lineageStatus === 'ready' ? lineage.at(-2) : undefined,
+    source: sourcesStatus === 'ready' && node.sourceDatasetId && source
+      ? { authority: 'ChecklistBank', sourceId: node.sourceDatasetId, title: source.title ?? source.shortName }
+      : undefined,
+    releaseAlias: manifest?.releaseAlias,
+  }) : null
   const upstreamUrl = node && manifest
     ? manifest.upstreamTaxonUrlTemplate.replace('{id}', encodeURIComponent(node.id))
     : null
@@ -317,6 +326,7 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
         {isHierarchyMember && node.status === 'provisionally accepted' && (
           <p className="catalogue-provisional-note">{zh ? '此高阶分类单元由上游标记为暂定接受；它用于连接接受种层级，但不计入 2,183,133 个接受种基线。' : 'The upstream release marks this higher taxon as provisionally accepted. It connects the accepted-species hierarchy but is not counted in the 2,183,133 accepted-species baseline.'}</p>
         )}
+        {nodeIntroduction && <p className="catalogue-provisional-note">{zh ? nodeIntroduction.zh : nodeIntroduction.en}</p>}
       </header>
 
       <section className="catalogue-taxon-grid">
