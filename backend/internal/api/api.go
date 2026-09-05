@@ -51,6 +51,8 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		h.syncFiles(w, r)
 	case r.URL.Path == "/v1/sync/files.ndjson":
 		h.syncFilesStream(w, r)
+	case strings.HasPrefix(r.URL.Path, "/v1/sources/"):
+		h.source(w, r)
 	case strings.HasPrefix(r.URL.Path, "/v1/resources/"):
 		h.resource(w, r)
 	case r.URL.Path == "/v1/catalogue/manifest":
@@ -107,12 +109,42 @@ func (h *Handler) capabilities(w http.ResponseWriter, r *http.Request) {
 			"full":      map[string]any{"available": true, "offline": true, "scope": "complete current data release"},
 			"web-light": map[string]any{"available": true, "offline": false, "scope": "client-selected subset; not a backend authorization boundary"},
 		},
-		"features":     []string{"entity-query", "catalogue-name-search", "catalogue-hierarchy", "catalogue-tree-stream", "evidence-and-sources", "package-files", "scene-data", "paleogeography", "paleotopography", "range-etag", "resumable-sync", "streaming-sync-manifest", "atomic-release-reload"},
-		"endpoints":    map[string]string{"currentRelease": "/v1/releases/current", "entities": "/v1/entities/{id}", "search": "/v1/search/names?q={query}", "children": "/v1/entities/{id}/children", "evidence": "/v1/entities/{id}/evidence", "resource": "/v1/resources/{data-path}", "sync": "/v1/sync/files?profile=full", "syncStream": "/v1/sync/files.ndjson?profile=full", "catalogueTree": "/v1/catalogue/tree.ndjson", "maps": "/v1/maps/manifest"},
-		"queryIndexes": map[string]any{"atlasEntities": "in-memory 403-record registry", "catalogueNames": "release search shards with bounded page window", "catalogueHierarchy": "resident packed adjacency"},
-		"treeIndex":    treeIndex, "treeRoots": treeRoots,
+		"features":       []string{"entity-query", "catalogue-name-search", "catalogue-hierarchy", "catalogue-tree-stream", "evidence-and-sources", "source-registry", "package-files", "scene-data", "paleogeography", "paleotopography", "range-etag", "resumable-sync", "streaming-sync-manifest", "atomic-release-reload"},
+		"endpoints":      map[string]string{"currentRelease": "/v1/releases/current", "entities": "/v1/entities/{id}", "search": "/v1/search/names?q={query}", "children": "/v1/entities/{id}/children", "evidence": "/v1/entities/{id}/evidence", "source": "/v1/sources/{authority}/{sourceID}", "resource": "/v1/resources/{data-path}", "sync": "/v1/sync/files?profile=full", "syncStream": "/v1/sync/files.ndjson?profile=full", "catalogueTree": "/v1/catalogue/tree.ndjson", "maps": "/v1/maps/manifest"},
+		"queryIndexes":   map[string]any{"atlasEntities": "in-memory 403-record registry", "catalogueNames": "release search shards with bounded page window", "catalogueHierarchy": "resident packed adjacency"},
+		"sourceRegistry": map[string]any{"entries": len(s.SourcesByKey), "keyFormat": "authority:sourceID", "lookup": "/v1/sources/{authority}/{sourceID}", "unknownPolicy": "not_found"},
+		"treeIndex":      treeIndex, "treeRoots": treeRoots,
 		"scopeStatement": s.Manifest.ScopeStatement, "wholeLifeCoverageClaim": s.Manifest.WholeLifeClaim,
 	}, "public, max-age=60")
+}
+
+func (h *Handler) source(w http.ResponseWriter, r *http.Request) {
+	rest := strings.TrimPrefix(r.URL.Path, "/v1/sources/")
+	parts := strings.Split(strings.Trim(rest, "/"), "/")
+	if len(parts) != 2 || parts[0] == "" || parts[1] == "" {
+		errorJSON(w, http.StatusBadRequest, "invalid_source_key", "source authority and sourceID are required")
+		return
+	}
+	authority, err := decodeSegment(parts[0])
+	if err != nil {
+		errorJSON(w, http.StatusBadRequest, "invalid_source_key", err.Error())
+		return
+	}
+	sourceID, err := decodeSegment(parts[1])
+	if err != nil {
+		errorJSON(w, http.StatusBadRequest, "invalid_source_key", err.Error())
+		return
+	}
+	snapshot := h.Store.Snapshot()
+	source, ok := snapshot.Source(authority, sourceID)
+	if !ok {
+		errorJSON(w, http.StatusNotFound, "source_not_found", "source authority and sourceID are not in the current release registry")
+		return
+	}
+	writeJSON(w, r, http.StatusOK, map[string]any{
+		"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion,
+		"datasetVersion": snapshot.Manifest.DatasetVersion, "sourceKey": authority + ":" + sourceID, "source": source,
+	}, "public, max-age=300")
 }
 
 func (h *Handler) currentRelease(w http.ResponseWriter, r *http.Request) {

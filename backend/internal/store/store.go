@@ -109,6 +109,24 @@ type CatalogueManifest struct {
 	} `json:"hierarchy"`
 }
 
+// SourceRecord is the small, release-pinned metadata surface shared by all
+// clients. The authority and source ID are intentionally kept together: an
+// ID is not globally meaningful across source authorities.
+type SourceRecord struct {
+	Authority       string `json:"authority"`
+	SourceID        string `json:"sourceId"`
+	Title           string `json:"title"`
+	ShortName       string `json:"shortName,omitempty"`
+	Version         string `json:"version,omitempty"`
+	PublicationDate string `json:"publicationDate,omitempty"`
+	DOI             string `json:"doi,omitempty"`
+	Citation        string `json:"citation,omitempty"`
+	InformationURL  string `json:"informationUrl,omitempty"`
+	License         string `json:"license,omitempty"`
+	LicenseURL      string `json:"licenseUrl,omitempty"`
+	Provider        string `json:"provider,omitempty"`
+}
+
 type Snapshot struct {
 	Root             string
 	DataRoot         string
@@ -126,6 +144,7 @@ type Snapshot struct {
 	PackageRegistry  json.RawMessage
 	PackagesByID     map[string]Package
 	Catalogue        CatalogueManifest
+	SourcesByKey     map[string]SourceRecord
 	Taxonomy         *TaxonIndex
 	Files            map[string]FileInfo
 	FileOrder        []string
@@ -214,7 +233,7 @@ func loadSnapshot(root string) (*Snapshot, error) {
 		Root: root, DataRoot: dataRoot, Manifest: manifest,
 		EntitiesByID: map[string]json.RawMessage{}, EntityMeta: map[string]Entity{}, EntitySearchText: map[string]string{}, ChildrenByID: map[string][]string{},
 		ProfilesByID: map[string]json.RawMessage{}, RangesByEntity: map[string][]json.RawMessage{}, ClaimsBySubject: map[string][]json.RawMessage{}, ClaimsByID: map[string]json.RawMessage{}, ReferencesByID: map[string]json.RawMessage{},
-		PackagesByID: map[string]Package{}, Files: map[string]FileInfo{}, ShardCache: map[string][]json.RawMessage{}, ShardLoads: map[string]*shardLoad{}, SearchCache: map[string]SearchShard{}, SearchLoads: map[string]*searchLoad{},
+		PackagesByID: map[string]Package{}, SourcesByKey: map[string]SourceRecord{}, Files: map[string]FileInfo{}, ShardCache: map[string][]json.RawMessage{}, ShardLoads: map[string]*shardLoad{}, SearchCache: map[string]SearchShard{}, SearchLoads: map[string]*searchLoad{},
 	}
 	if err := loadEntities(s); err != nil {
 		return nil, err
@@ -235,6 +254,9 @@ func loadSnapshot(root string) (*Snapshot, error) {
 		return nil, err
 	}
 	if err := loadCatalogue(s); err != nil {
+		return nil, err
+	}
+	if err := loadSources(s); err != nil {
 		return nil, err
 	}
 	taxonomy, err := loadTaxonIndex(s)
@@ -414,6 +436,121 @@ func loadCatalogue(s *Snapshot) error {
 	s.Catalogue.RegistryPath = resourcePath
 	s.Catalogue.RegistryRoot = filepath.Dir(path)
 	return nil
+}
+
+func loadSources(s *Snapshot) error {
+	registryPath := filepath.Join(s.Catalogue.RegistryRoot, "sources.json")
+	raw, err := readRaw(registryPath)
+	if err != nil {
+		return fmt.Errorf("load catalogue source registry: %w", err)
+	}
+	var registry []struct {
+		DatasetID       string `json:"datasetId"`
+		Title           string `json:"title"`
+		ShortName       string `json:"shortName"`
+		Version         string `json:"version"`
+		PublicationDate string `json:"publicationDate"`
+		DOI             string `json:"doi"`
+		Citation        string `json:"citation"`
+		InformationURL  string `json:"informationUrl"`
+		License         string `json:"licenseLabel"`
+		LicenseURL      string `json:"licenseUrl"`
+	}
+	if err := json.Unmarshal(raw, &registry); err != nil {
+		return fmt.Errorf("decode catalogue source registry: %w", err)
+	}
+	for _, source := range registry {
+		if source.DatasetID == "" || source.Title == "" {
+			continue
+		}
+		s.addSource("ChecklistBank", SourceRecord{
+			SourceID: source.DatasetID, Title: source.Title, ShortName: source.ShortName,
+			Version: source.Version, PublicationDate: source.PublicationDate, DOI: source.DOI,
+			Citation: source.Citation, InformationURL: source.InformationURL,
+			License: source.License, LicenseURL: source.LicenseURL,
+		})
+	}
+
+	// Authority sidecars are optional extensions to the shared registry. Read
+	// only their source metadata; row payloads remain lazy resources and are
+	// not interpreted by this lookup table.
+	packagesRoot := filepath.Join(s.Root, "data", "packages")
+	err = filepath.WalkDir(packagesRoot, func(filePath string, entry fs.DirEntry, walkErr error) error {
+		if walkErr != nil {
+			return walkErr
+		}
+		if entry.IsDir() || !strings.HasSuffix(entry.Name(), "-sidecar.json") {
+			return nil
+		}
+		sidecarRaw, readErr := os.ReadFile(filePath)
+		if readErr != nil {
+			return readErr
+		}
+		var sidecar struct {
+			Provider string `json:"provider"`
+			Source   struct {
+				DatasetID      json.RawMessage `json:"datasetId"`
+				Title          string          `json:"title"`
+				Alias          string          `json:"alias"`
+				Version        string          `json:"version"`
+				Issued         string          `json:"issued"`
+				DOI            string          `json:"doi"`
+				Citation       string          `json:"citation"`
+				InformationURL string          `json:"informationUrl"`
+				License        string          `json:"license"`
+				LicenseURL     string          `json:"licenseUrl"`
+			} `json:"source"`
+		}
+		if json.Unmarshal(sidecarRaw, &sidecar) != nil || len(sidecar.Source.DatasetID) == 0 || sidecar.Source.Title == "" {
+			return nil
+		}
+		sourceID := scalarString(sidecar.Source.DatasetID)
+		if sourceID == "" {
+			return nil
+		}
+		record := SourceRecord{
+			SourceID: sourceID, Title: sidecar.Source.Title, ShortName: sidecar.Source.Alias,
+			Version: sidecar.Source.Version, PublicationDate: sidecar.Source.Issued, DOI: sidecar.Source.DOI,
+			Citation: sidecar.Source.Citation, InformationURL: sidecar.Source.InformationURL,
+			License: sidecar.Source.License, LicenseURL: sidecar.Source.LicenseURL, Provider: sidecar.Provider,
+		}
+		for _, authority := range []string{sidecar.Source.Alias, sidecar.Provider, "ChecklistBank"} {
+			if authority != "" {
+				s.addSource(authority, record)
+			}
+		}
+		return nil
+	})
+	if err != nil {
+		return fmt.Errorf("scan authority source metadata: %w", err)
+	}
+	return nil
+}
+
+func scalarString(raw json.RawMessage) string {
+	var value string
+	if json.Unmarshal(raw, &value) == nil {
+		return value
+	}
+	var number json.Number
+	if json.Unmarshal(raw, &number) == nil {
+		return number.String()
+	}
+	return ""
+}
+
+func (s *Snapshot) addSource(authority string, source SourceRecord) {
+	authority = strings.TrimSpace(authority)
+	if authority == "" || source.SourceID == "" {
+		return
+	}
+	source.Authority = authority
+	s.SourcesByKey[authority+":"+source.SourceID] = source
+}
+
+func (s *Snapshot) Source(authority, sourceID string) (SourceRecord, bool) {
+	value, ok := s.SourcesByKey[strings.TrimSpace(authority)+":"+strings.TrimSpace(sourceID)]
+	return value, ok
 }
 
 func currentCatalogueRegistryPath(root string, checksums map[string]string) (string, string, error) {

@@ -72,7 +72,7 @@ func TestCapabilitiesAndCurrentRelease(t *testing.T) {
 		t.Fatalf("tree roots missing: %v", capabilities["treeRoots"])
 	}
 	features, ok := capabilities["features"].([]any)
-	if !ok || !contains(features, "catalogue-tree-stream") {
+	if !ok || !contains(features, "catalogue-tree-stream") || !contains(features, "source-registry") {
 		t.Fatalf("tree stream capability missing: %v", capabilities["features"])
 	}
 	w = request(t, h, "GET", "/v1/releases/current", nil)
@@ -110,6 +110,42 @@ func TestCapabilitiesAndCurrentRelease(t *testing.T) {
 	w = request(t, h, "GET", "/v1/sync/files.ndjson?since=not-current", nil)
 	if w.Code != http.StatusConflict {
 		t.Fatalf("sync stream release mismatch status %d", w.Code)
+	}
+}
+
+func TestSourceRegistryLookup(t *testing.T) {
+	h := testHandler(t)
+	w := request(t, h, "GET", "/v1/sources/ChecklistBank/1008", nil)
+	if w.Code != http.StatusOK {
+		t.Fatalf("source status %d: %s", w.Code, w.Body.String())
+	}
+	var value struct {
+		DatasetVersion string `json:"datasetVersion"`
+		SourceKey      string `json:"sourceKey"`
+		Source         struct {
+			Authority string `json:"authority"`
+			SourceID  string `json:"sourceId"`
+			Title     string `json:"title"`
+			Citation  string `json:"citation"`
+		} `json:"source"`
+	}
+	if err := json.Unmarshal(w.Body.Bytes(), &value); err != nil {
+		t.Fatal(err)
+	}
+	if value.DatasetVersion == "" || value.SourceKey != "ChecklistBank:1008" || value.Source.Authority != "ChecklistBank" || value.Source.SourceID != "1008" || value.Source.Title != "The Reptile Database" || value.Source.Citation == "" {
+		t.Fatalf("unexpected source response: %s", w.Body.String())
+	}
+	w = request(t, h, "GET", "/v1/sources/World%20Spider%20Catalog%20via%20ChecklistBank/56185", nil)
+	if w.Code != http.StatusOK || !strings.Contains(w.Body.String(), "The World Spider Catalog") {
+		t.Fatalf("sidecar source status/body %d: %s", w.Code, w.Body.String())
+	}
+	w = request(t, h, "GET", "/v1/sources/unknown-authority/1008", nil)
+	if w.Code != http.StatusNotFound {
+		t.Fatalf("unknown source status %d", w.Code)
+	}
+	w = request(t, h, "GET", "/v1/sources/ChecklistBank", nil)
+	if w.Code != http.StatusBadRequest {
+		t.Fatalf("incomplete source status %d", w.Code)
 	}
 }
 
