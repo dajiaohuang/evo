@@ -1599,6 +1599,17 @@ const sanbiFiles = partitionSanbiDescriptions(sanbiRecords).map(([prefix, record
   return file
 })
 const plaziSource = readJson('data/sources/plazi-descriptions-import-ledger.json')
+const foaSource = readJson('data/sources/foa-descriptions-import-ledger.json')
+const foaBytes = readFileSync(join(rootDir, foaSource.output))
+if (foaBytes.length !== foaSource.outputBytes || sha256(foaBytes) !== foaSource.outputSha256) throw new Error('Flora of Australia source bytes differ from the import ledger')
+const foaRecords = gunzipSync(foaBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
+const foaRoutes = {}
+const foaFiles = partitionSanbiDescriptions(foaRecords).map(([prefix, records]) => {
+  const path = `catalogue/descriptions/foa-${prefix}.json.gz`
+  const file = { ...writeGzipJson(path, records), prefix, path, records: records.length }
+  foaRoutes[prefix] = [file.url]
+  return file
+})
 const plaziBytes = readFileSync(join(rootDir, plaziSource.output))
 if (plaziBytes.length !== plaziSource.outputBytes || sha256(plaziBytes) !== plaziSource.outputSha256) throw new Error('Plazi source bytes differ from the import ledger')
 const plaziRecords = gunzipSync(plaziBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
@@ -1612,6 +1623,7 @@ const plaziFiles = partitionSanbiDescriptions(plaziRecords).map(([prefix, record
 catalogueRuntimeManifest = {
   ...catalogueSourceManifest,
   plaziDescriptions: { source: plaziSource, routes: plaziRoutes, files: plaziFiles },
+  foaDescriptions: { source: foaSource, routes: foaRoutes, files: foaFiles },
   sanbiDescriptions: { source: sanbiSource, routes: sanbiRoutes, files: sanbiFiles },
   provenance: catalogueProvenance,
   sourceChecklists: { ...catalogueSourceManifest.sourceChecklists, url: catalogueSourcesFile.url },
@@ -1730,6 +1742,7 @@ const current = {
       + catalogueRuntimeManifest.hierarchy.children.totalCompressedBytes
       + catalogueRuntimeManifest.ownership.bytes
       + (catalogueRuntimeManifest.sanbiDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
+      + (catalogueRuntimeManifest.foaDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.plaziDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0),
     pagesLimitBytes: 650 * 1024 * 1024,
   },

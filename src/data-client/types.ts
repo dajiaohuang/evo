@@ -1347,6 +1347,24 @@ export interface CatalogueSanbiDescriptionRecord {
   }>
 }
 
+export interface CatalogueFoaDescriptionRecord {
+  colId: string
+  wfoId: string
+  scientificName: string
+  descriptions: Array<{
+    type: 'Morphology' | 'Biology' | 'Diagnostic' | 'Ecology' | 'Habitat'
+    text: string
+    language: string
+    citation: string
+    sourceUrl: string
+    sourceId: string
+    rowNumber: number
+    rightsHolder: string
+    rights: string
+    license: string
+  }>
+}
+
 export interface CataloguePlaziDescriptionRecord {
   colId: string
   scientificName: string
@@ -1369,6 +1387,11 @@ export interface CataloguePlaziDescriptionRecord {
 }
 
 export interface CatalogueRuntimeManifest {
+  foaDescriptions?: {
+    source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
+    routes: Record<string, string[]>
+    files: CatalogueRuntimeFile[]
+  }
   plaziDescriptions?: {
     source: { provider: string; title: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
     routes: Record<string, string[]>

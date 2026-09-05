@@ -8,6 +8,7 @@ import {
   loadCatalogueLineage,
   loadCatalogueManifest,
   loadCatalogueSanbiDescriptions,
+  loadCatalogueFoaDescriptions,
   loadCataloguePlaziDescriptions,
   loadCatalogueSpeciesOwnership,
   loadCatalogueSourceChecklists,
@@ -90,6 +91,8 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const [visibleChildren, setVisibleChildren] = useState(100)
   const [sanbi, setSanbi] = useState<Awaited<ReturnType<typeof loadCatalogueSanbiDescriptions>>>(null)
   const [sanbiError, setSanbiError] = useState(false)
+  const [foa, setFoa] = useState<Awaited<ReturnType<typeof loadCatalogueFoaDescriptions>>>(null)
+  const [foaError, setFoaError] = useState(false)
   const [plazi, setPlazi] = useState<Awaited<ReturnType<typeof loadCataloguePlaziDescriptions>>>(null)
   const [plaziError, setPlaziError] = useState(false)
 
@@ -114,6 +117,11 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
       }
       setNode(loadedNode)
       setStatus('ready')
+      if (loadedManifest.foaDescriptions && loadedNode.rank === 'species') {
+        void loadCatalogueFoaDescriptions(id).then((record) => {
+          if (!cancelled) setFoa(record)
+        }).catch(() => { if (!cancelled) setFoaError(true) })
+      }
       if (loadedManifest.plaziDescriptions && loadedNode.rank === 'species') {
         void loadCataloguePlaziDescriptions(id).then((record) => {
           if (!cancelled) setPlazi(record)
@@ -368,6 +376,19 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
             <p lang="en" style={{ whiteSpace: 'pre-wrap' }}>{description.text}</p>
             <p lang="en">{description.citation}</p>
             <small>{sanbi.wfoId} · description.txt:{description.rowNumber} · {description.sourceId}</small>
+          </details>)}
+        </section>}
+        {foaError && <p role="status">{zh ? '澳大利亚植物志描述暂时无法加载。' : 'Flora of Australia descriptions could not be loaded.'}</p>}
+        {foa && manifest.foaDescriptions && <section className="catalogue-source-card">
+          <h2>{zh ? '澳大利亚植物志描述（英文原文）' : 'Flora of Australia descriptions (original English)'}</h2>
+          <p>{zh ? '澳大利亚区域历史来源；不代表全球分布或完整物种档案。不同年份的分类概念可能不同。' : 'Historical Australian regional source; not a global distribution or complete species dossier. Taxonomic concepts may differ across source dates.'}</p>
+          <p><a href={manifest.foaDescriptions.source.sourceUrl}>{manifest.foaDescriptions.source.provider} — {manifest.foaDescriptions.source.title}</a> · {manifest.foaDescriptions.source.sourceVersion} · <a href={manifest.foaDescriptions.source.licenseUrl}>{manifest.foaDescriptions.source.license}</a></p>
+          {foa.descriptions.map((description) => <details key={`${description.rowNumber}:${description.sourceId}`}>
+            <summary>{zh ? ({ Morphology: '形态', Biology: '生物学', Diagnostic: '鉴别特征', Ecology: '生态', Habitat: '生境' }[description.type]) : description.type}</summary>
+            <p lang={description.language || 'en'} style={{ whiteSpace: 'pre-wrap' }}>{description.text}</p>
+            <p lang="en">{description.citation}</p>
+            <p>{description.rightsHolder} · {description.rights} · <a href={description.license}>CC BY 4.0</a></p>
+            <small><a href={description.sourceUrl}>{zh ? '原始来源' : 'Original source'}</a> · {foa.wfoId} · {description.rowNumber} · {description.sourceId}</small>
           </details>)}
         </section>}
       </header>
