@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc138 — 2026-09-05
+
+- Added a byte-pinned World Hydrozoa Database / ChecklistBank attempt-84 authority archive for Hydrozoa: 4,005 COL species rows (3,997 exact accepted matches and 8 unmatched) plus 7 source-only accepted-species records.
+- Android and iOS publish all 11 deterministic Hydrozoa partitions, while GitHub Pages retains the complete summary and canonical inventory without row payloads. Taxon evidence lookup follows the Hydrozoa COL root `B8V3X`.
+- The API metadata license `cc by`, archive-embedded license `CC-BY`, and differing DOI claims remain independent source evidence; none is silently normalized.
+
 ## 2026.09-static-v5-rc137 — 2026-09-05
 
 - Added frozen original-source projections for all 100 Gnathostomulida and 23 Priapulida COL26.8 rows. Every row matches one non-provisional accepted source name exactly after NFC and whitespace normalization; no fuzzy match, synonym resolution or species-concept equivalence is asserted.

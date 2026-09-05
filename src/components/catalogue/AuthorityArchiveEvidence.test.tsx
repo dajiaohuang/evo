@@ -64,6 +64,17 @@ describe('authority archive disclosure', () => {
     await screen.findByText(/does not mean this species is unmatched/)
     expect(load).toHaveBeenCalledWith('protists-chromists', 'worms-radiozoa-archive-crosswalk', '328ST')
   })
+  it('routes the Hydrozoa COL root to its pinned archive without loading while collapsed', async () => {
+    load.mockResolvedValue({ collection: { ...collection, id: 'worms-hydrozoa-archive-crosswalk', packageId: 'sponges-cnidarians', provider: 'World Hydrozoa Database via ChecklistBank' }, record: null })
+    const { container } = render(<AuthorityArchiveEvidence colId="3245N" packageId="sponges-cnidarians" lineageIds={['CN2', 'B8V3X']} zh={false} />)
+    const details = container.querySelector('details')!
+    expect(screen.getByText(/WoRMS · Hydrozoa/)).toBeInTheDocument()
+    expect(load).not.toHaveBeenCalled()
+    details.open = true
+    fireEvent(details, new Event('toggle'))
+    await screen.findByText(/does not mean this species is unmatched/)
+    expect(load).toHaveBeenCalledWith('sponges-cnidarians', 'worms-hydrozoa-archive-crosswalk', '3245N')
+  })
   it('shows distinct OSF synonym and accepted Name IDs sharing one target OTU', async () => {
     load.mockResolvedValue({ collection: { ...collection, delivery: { ...collection.delivery, profile: 'native-full', completeRows: true } }, record: {
       colId: 'O001', colScientificName: 'Old name', colAuthorship: '', status: 'redirect',

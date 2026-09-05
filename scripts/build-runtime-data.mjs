@@ -148,6 +148,13 @@ const richPackageNomenclatureSources = {
     rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
   }, {
     kind: 'range-sharded',
+    descriptorPath: 'data/packages/invertebrata/sponges-cnidarians/nomenclature/worms-hydrozoa-sidecar.json',
+    expectedId: 'worms-hydrozoa-archive-crosswalk',
+    expectedProvider: 'World Hydrozoa Database via ChecklistBank',
+    expectedLicense: 'cc by',
+    rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
+  }, {
+    kind: 'range-sharded',
     descriptorPath: 'data/packages/invertebrata/sponges-cnidarians/nomenclature/itis-porifera-cnidaria-sidecar.json',
     expectedId: 'itis-porifera-cnidaria-tsn-crosswalk',
     expectedProvider: 'Integrated Taxonomic Information System',

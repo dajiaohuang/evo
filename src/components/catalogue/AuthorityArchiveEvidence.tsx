@@ -5,6 +5,7 @@ import type { AuthorityArchiveCollectionId, AuthorityArchiveName, AuthorityArchi
 const scopes: Array<{ root: string; packageId: string; id: AuthorityArchiveCollectionId; title: string }> = [
   { root: 'M2L', packageId: 'molluscs-brachiopods', id: 'worms-mollusca-archive-crosswalk', title: 'WoRMS · Mollusca' },
   { root: 'B8TXQ', packageId: 'sponges-cnidarians', id: 'worms-porifera-archive-crosswalk', title: 'WoRMS · Porifera' },
+  { root: 'B8V3X', packageId: 'sponges-cnidarians', id: 'worms-hydrozoa-archive-crosswalk', title: 'WoRMS · Hydrozoa' },
   { root: 'CN2', packageId: 'sponges-cnidarians', id: 'worms-cnidaria-archive-crosswalk', title: 'WoRMS · Cnidaria' },
   { root: 'NN', packageId: 'other-animals', id: 'worms-annelida-archive-crosswalk', title: 'WoRMS · Annelida' },
   { root: 'NM', packageId: 'other-animals', id: 'worms-nematoda-archive-crosswalk', title: 'WoRMS · Nematoda' },

@@ -194,7 +194,7 @@ public class AppInstrumentedTest {
                         2, 1, 11891, 278, "ITIS Echinodermata");
             } else if (packageId.equals("molluscs-brachiopods") || packageId.equals("sponges-cnidarians")) {
                 JSONArray collections = pack.getJSONArray("nomenclatureCollections");
-                assertEquals(packageId.equals("molluscs-brachiopods") ? 2 : 3, collections.length());
+                assertEquals(packageId.equals("molluscs-brachiopods") ? 2 : 4, collections.length());
                 if (packageId.equals("molluscs-brachiopods")) {
                     verifyAuthorityArchiveCollection(context, files, findCollection(collections, "worms-mollusca-archive-crosswalk"),
                             56, 1, 154718, 1253, "WoRMS Mollusca");
@@ -203,6 +203,8 @@ public class AppInstrumentedTest {
                             4, 1, 9899, 60, "WoRMS Porifera");
                     verifyAuthorityArchiveCollection(context, files, findCollection(collections, "worms-cnidaria-archive-crosswalk"),
                             8, 1, 20622, 1328, "WoRMS Cnidaria");
+                    verifyAuthorityArchiveCollection(context, files, findCollection(collections, "worms-hydrozoa-archive-crosswalk"),
+                            10, 1, 4005, 7, "cc by", "WoRMS Hydrozoa");
                 }
                 String collectionId = packageId.equals("molluscs-brachiopods")
                         ? "itis-mollusca-brachiopoda-tsn-crosswalk"

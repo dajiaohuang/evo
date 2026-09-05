@@ -211,7 +211,7 @@ final class AppConfigurationTests: XCTestCase {
                     expectedRecords: 11_891, expectedUpstreamRecords: 278, label: "ITIS Echinodermata")
             } else if packageId == "molluscs-brachiopods" || packageId == "sponges-cnidarians" {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
-                XCTAssertEqual(collections.count, packageId == "molluscs-brachiopods" ? 2 : 3)
+                XCTAssertEqual(collections.count, packageId == "molluscs-brachiopods" ? 2 : 4)
                 if packageId == "molluscs-brachiopods" {
                     try verifyAuthorityArchiveCollection(
                         collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "worms-mollusca-archive-crosswalk" }),
@@ -226,6 +226,11 @@ final class AppConfigurationTests: XCTestCase {
                         collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "worms-cnidaria-archive-crosswalk" }),
                         inventory: files, below: dataRoot, expectedFiles: 8, expectedUpstreamFiles: 1,
                         expectedRecords: 20_622, expectedUpstreamRecords: 1_328, label: "WoRMS Cnidaria")
+                    try verifyAuthorityArchiveCollection(
+                        collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "worms-hydrozoa-archive-crosswalk" }),
+                        inventory: files, below: dataRoot, expectedFiles: 10, expectedUpstreamFiles: 1,
+                        expectedRecords: 4_005, expectedUpstreamRecords: 7,
+                        expectedLicense: "cc by", label: "WoRMS Hydrozoa")
                 }
                 let isMolluscs = packageId == "molluscs-brachiopods"
                 let collectionId = isMolluscs ? "itis-mollusca-brachiopoda-tsn-crosswalk" : "itis-porifera-cnidaria-tsn-crosswalk"

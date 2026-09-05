@@ -163,10 +163,18 @@ for (const packageEntry of packageRegistry.packages) {
       id: 'itis-mollusca-brachiopoda-tsn-crosswalk', total: 159801, accepted: 7219, redirects: 256, ambiguous: 16, unmatched: 152310, upstreamOnly: 4289, files: 60,
     })
   } else if (packageEntry.id === 'sponges-cnidarians') {
-    if (nomenclatureCollections.length !== 3) failures.push('sponges-cnidarians: expected ITIS and two WoRMS nomenclature collections')
+    if (nomenclatureCollections.length !== 4) failures.push('sponges-cnidarians: expected ITIS and three WoRMS nomenclature collections')
     checkItisSummaryOnlyCollection('sponges-cnidarians', nomenclatureCollections, {
       id: 'itis-porifera-cnidaria-tsn-crosswalk', total: 30521, accepted: 4242, redirects: 50, ambiguous: 3, unmatched: 26226, upstreamOnly: 2218, files: 6,
     })
+    const hydrozoa = nomenclatureCollections.find((collection) => collection.id === 'worms-hydrozoa-archive-crosswalk')
+    if (!hydrozoa || hydrozoa.provider !== 'World Hydrozoa Database via ChecklistBank'
+      || hydrozoa.source?.license !== 'cc by' || hydrozoa.source?.embeddedMetadata?.license !== 'CC-BY'
+      || hydrozoa.counts?.total !== 4005 || hydrozoa.counts?.accepted !== 3997
+      || hydrozoa.counts?.unmatched !== 8 || hydrozoa.counts?.upstreamOnly !== 7
+      || hydrozoa.delivery?.canonicalFileCount !== 11) {
+      failures.push('sponges-cnidarians: Hydrozoa authority summary is incomplete or rewrites upstream metadata')
+    }
   } else if (packageEntry.id === 'crustaceans-insects') {
     if (nomenclatureCollections.length !== 7) failures.push('crustaceans-insects: expected four ITIS, WoRMS, OSF and ChiloBase nomenclature collections')
     checkItisSummaryOnlyCollection('crustaceans-insects', nomenclatureCollections, {
