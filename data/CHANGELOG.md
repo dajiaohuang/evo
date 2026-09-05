@@ -1,5 +1,9 @@
 # Dataset changelog
 
+## Unreleased content corrections
+
+- Corrected the Pimiento and Clements (2014) megalodon extinction-analysis interval from 3.6–2.6 Ma to its reported oldest inferred date of 3.5 Ma and modal estimate of 2.6 Ma. Updated the Chinese statement and source locator. This historical study-specific interval is not a complete species range, exact last appearance, or the revised estimate of later studies; no expert-review status was promoted.
+
 ## 2026.09-static-v5-rc145 — 2026-09-05
 
 - Added the pinned Systema Dipterorum source projection: 157,490 COL records and 23,513 separate source-only records across 93 full-data shards. All 180,792 selected source species remain represented; ambiguous matches do not imply species identity.
