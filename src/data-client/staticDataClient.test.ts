@@ -44,6 +44,7 @@ async function installCatalogueFixture({
   meso = [],
   fdac = [],
   moss,
+  pakistan,
 }: {
   nodes?: CatalogueHierarchyNodeRecord[]
   children?: CatalogueHierarchyChildRecord[]
@@ -56,13 +57,14 @@ async function installCatalogueFixture({
   meso?: import('./types').CatalogueMesoDescriptionRecord[]
   fdac?: import('./types').CatalogueFdacDescriptionRecord[]
   moss?: import('./types').CatalogueMossDescriptionRecord[]
+  pakistan?: import('./types').CataloguePakistanDescriptionRecord[]
 }) {
   Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
   const { catalogueRoutePrefix } = await import('./staticDataClient')
   const payloads = new Map<string, ReturnType<typeof responseFor> | ReturnType<typeof textResponseFor>>()
 
   async function hierarchyLayer<T extends { id: string }>(
-    layer: 'nodes' | 'children' | 'targets' | 'sanbi' | 'plazi' | 'foa' | 'meso' | 'fdac' | 'moss',
+    layer: 'nodes' | 'children' | 'targets' | 'sanbi' | 'plazi' | 'foa' | 'meso' | 'fdac' | 'moss' | 'pakistan',
     records: T[],
     routeId: (record: T) => string,
   ) {
@@ -101,6 +103,7 @@ async function installCatalogueFixture({
   const mesoLayer = await hierarchyLayer('meso', meso.map((record) => ({ ...record, id: record.colId })), (record) => record.colId)
   const fdacLayer = await hierarchyLayer('fdac', fdac.map((record) => ({ ...record, id: record.colId })), (record) => record.colId)
   const mossLayer = moss ? await hierarchyLayer('moss', moss.map((record) => ({ ...record, id: record.colId })), (record) => record.colId) : undefined
+  const pakistanLayer = pakistan ? await hierarchyLayer('pakistan', pakistan.map((record) => ({ ...record, id: record.colId })), (record) => record.colId) : undefined
   const searchGroups = new Map<string, CatalogueRecord[]>()
   for (const record of searchRecords) {
     const prefix = record.normalizedName.replaceAll(' ', '').slice(0, 2).padEnd(2, '_')
@@ -145,6 +148,7 @@ async function installCatalogueFixture({
     mesoDescriptions: mesoLayer,
     fdacDescriptions: fdacLayer,
     ...(mossLayer ? { mossDescriptions: mossLayer } : {}),
+    ...(pakistanLayer ? { pakistanDescriptions: pakistanLayer } : {}),
     hierarchy: { nodes: nodeLayer, children: childLayer },
   }
   const manifestFile = { url: 'releases/dataset-col/catalogue/manifest.json' }
@@ -1470,6 +1474,21 @@ describe('static runtime release coherence', () => {
     await loadCatalogueMossDescriptions(record.colId)
     expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/moss-'))).toHaveLength(1)
     await expect(loadCatalogueMossDescriptions('unmapped-species')).resolves.toBeNull()
+  })
+
+  it('loads and caches only the requested Flora of Pakistan route', async () => {
+    const { loadCataloguePakistanDescriptions } = await import('./staticDataClient')
+    const record: import('./types').CataloguePakistanDescriptionRecord = {
+      colId: 'EXAMPLE', wfoId: 'wfo-example', scientificName: 'Example plant', descriptions: [{
+        type: 'general', text: 'Pakistan text.', language: 'en', rowNumber: 7, sourceId: 'pak-1', citations: [], referenceRowNumbers: [], citationMissingInSource: true,
+        rightsHolder: 'Pakistan Plant Database', rights: 'Flora of Pakistan archive', license: 'https://creativecommons.org/licenses/by/4.0/',
+      }],
+    }
+    const { fetchMock } = await installCatalogueFixture({ pakistan: [record] })
+    await expect(loadCataloguePakistanDescriptions(record.colId)).resolves.toMatchObject(record)
+    await loadCataloguePakistanDescriptions(record.colId)
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/pakistan-'))).toHaveLength(1)
+    await expect(loadCataloguePakistanDescriptions('unmapped-species')).resolves.toBeNull()
   })
 
   it('loads only the requested FDAC route and preserves citation-missing metadata', async () => {

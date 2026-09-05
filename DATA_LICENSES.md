@@ -1,5 +1,11 @@
 # Data licenses and provenance
 
+Flora of Pakistan descriptions retain Missouri Botanical Garden attribution and
+the source archive's CC BY 4.0 defaults for description and reference fields.
+All 2,657 selected records have matched citations and original row locators.
+HTML is converted to plain text; original source fields remain independently
+retained. See [Pakistan scope](docs/pakistan-descriptions.md).
+
 Moss Flora of Central America excerpts retain Missouri Botanical Garden rights
 and the archive's explicit CC BY 4.0 defaults for descriptions and references.
 The 276 selected records preserve source row locators, citations and English
