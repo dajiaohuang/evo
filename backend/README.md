@@ -42,9 +42,17 @@ The full offline profile is the native client data contract. Sync is stable-path
 
 `/v1/sync/files.ndjson` is the current-release streaming sync manifest. It emits a bounded manifest header followed by one descriptor per line, allowing native clients to enqueue the complete release incrementally. It intentionally rejects non-current `since` values; historical release compatibility is not part of the backend contract.
 
+To exercise the real full-release transfer path locally, including descriptor SHA-256 verification and a two-part `Range` resume against the largest resource, run:
+
+```powershell
+go -C backend run ./cmd/evo-bench -data-root .. -full-sync -sync-concurrency 4
+```
+
+This is opt-in because it transfers and hashes the complete current `full` profile. The command reports the pinned dataset version, inventory totals, transferred bytes, mismatches, errors, throughput and resume hash result.
+
 ## Build the deterministic inventory
 
-The server can start using checksums already recorded in `data/manifest.json`. To create a complete hash-addressed index, including files whose digest is not in that generated map:
+The server indexes the current `data/` tree without trusting generated checksum metadata as a resource ETag. It hashes each file lazily from the current bytes when sync or resource delivery needs a digest. To create a complete standalone hash-addressed inventory artifact:
 
 ```powershell
 go -C backend run ./cmd/evo-index -data-root .. -out index/current.json -tree-out index/catalogue-tree.bin
