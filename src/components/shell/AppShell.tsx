@@ -1,6 +1,7 @@
 import { lazy, Suspense, useEffect, useState, type ReactNode } from 'react'
 import type { AppRoute } from '../../utils/routing'
 import { useI18n } from '../../i18n'
+import { frontendContract } from '../../platform/frontendContract'
 import './AppShell.css'
 
 const GlobalSearch = lazy(() => import('../search/GlobalSearch').then((module) => ({ default: module.GlobalSearch })))
@@ -50,7 +51,12 @@ export function AppShell({ route, onNavigate, children, immersive = false, focus
   }
 
   return (
-    <div className={`app-shell${immersive ? ' app-shell--immersive' : ''}${focused ? ' app-shell--focused' : ''}`}>
+    <div
+      className={`app-shell${immersive ? ' app-shell--immersive' : ''}${focused ? ' app-shell--focused' : ''}`}
+      data-frontend-target={frontendContract.target}
+      data-frontend-edition={frontendContract.edition}
+      data-content-scope={frontendContract.content.scope}
+    >
       <button className="skip-link" type="button" onClick={skipToContent}>{t('Skip to atlas content')}</button>
       <header className="topbar">
         <button className="brand" onClick={() => onNavigate('home')} aria-label={t('Evo Atlas home')}>

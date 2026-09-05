@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { loadPackageRanges, loadPackageRegistry, loadPackageResearchExamples } from '../../data-client/staticDataClient'
 import { useI18n } from '../../i18n'
+import { frontendContract } from '../../platform/frontendContract'
 import { findTemporalPackageCards, type TemporalPackageSource } from './temporalPackageSceneMatcher'
 import './TemporalPackageCards.css'
 
@@ -37,7 +38,7 @@ export function TemporalPackageCards({ ageMa }: TemporalPackageCardsProps) {
   const visibleCards = expanded ? cards : cards.slice(0, INITIAL_CARD_LIMIT)
   if (status === 'error' || (status === 'ready' && cards.length === 0)) return null
 
-  return <section className="map-temporal-cards" aria-label={t('Time-matched evidence scenes')} aria-live="polite">
+  return <section className="map-temporal-cards" aria-label={t('Time-matched evidence scenes')} aria-live="polite" data-scene-trigger="timeline" data-content-scope={frontendContract.content.scope}>
     <header><div><span>{t('Evidence scenes at this time')}</span><small>{t('Published range and claim links only')}</small></div>{status === 'ready' && <strong>{cards.length}</strong>}</header>
     {status === 'loading'
       ? <p className="map-temporal-cards__loading" role="status">{t('Checking published range evidence…')}</p>

@@ -19,6 +19,15 @@ The ordinary Web build remains `full-web` with the `web-light` delivery profile.
 Mobile builds remain `native-full`; the Pages flag does not change mobile
 behavior.
 
+These boundaries are represented by the shared frontend capability contract in
+`src/platform/frontendContract.ts`. It is the single runtime description of
+target, edition, data scope, current backend protocol, tree rendering policy
+and synchronization policy. The contract is new-format-only: it exposes only
+backend protocol `v1`, packed-adjacency/windowed tree access, and
+release-pinned on-demand sync. It deliberately has no realtime sync and no
+legacy compatibility branch. Timeline evidence cards are a map overlay driven
+by the current timeline age; they are not dashboard-recorded content.
+
 The complete Web build may set `VITE_EVO_API_BASE_URL` to the Go service. When
 set, the full Catalogue tree and nomenclatural search use the current backend
 protocol directly; a failed or stale backend response is surfaced instead of

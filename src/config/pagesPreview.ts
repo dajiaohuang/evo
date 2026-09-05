@@ -1,15 +1,13 @@
 import type { AppRoute } from '../utils/routing'
 import previewDefinition from '../../data/pages-preview.json'
+import { frontendContract, resolveFrontendContract } from '../platform/frontendContract'
 
 /** Pages is an intentionally explicit preview build; normal Web and native stay full. */
 export function isPagesPreviewEnvironment(env: { PAGES_PREVIEW?: string; mode?: string }): boolean {
-  return env.PAGES_PREVIEW === 'true' && env.mode !== 'mobile'
+  return resolveFrontendContract({ pagesPreview: env.PAGES_PREVIEW, mode: env.mode }).edition === 'github-pages-preview'
 }
 
-export const isPagesPreview = isPagesPreviewEnvironment({
-  PAGES_PREVIEW: import.meta.env.VITE_PAGES_PREVIEW,
-  mode: import.meta.env.MODE,
-})
+export const isPagesPreview = frontendContract.edition === 'github-pages-preview'
 
 export const pagesPreviewPackageIds = new Set(previewDefinition.packageIds)
 const PREVIEW_TAXA = new Set(previewDefinition.taxonIds)
