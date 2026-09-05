@@ -46,6 +46,7 @@ async function installCatalogueFixture({
   moss,
   mossChina,
   fna,
+  brazilFlora,
   pakistan,
 }: {
   nodes?: CatalogueHierarchyNodeRecord[]

@@ -57,10 +57,11 @@ The explicit offline importer checks the pinned candidate hash and existing
 accepted links, writes `data/sources/sanbi-descriptions.jsonl.br`, and records
 source and output hashes in `sanbi-descriptions-import-ledger.json`. Normal
 builds must consume the committed projection without a live upstream request.
-Build-time storage now uses Brotli quality 5, with the decoded 46,438,841-byte
+Build-time storage now uses Brotli quality 11, with the decoded 46,438,841-byte
 stream verified identical to the previous gzip source (SHA-256
 `8f7146b680b51676fe2cbd899212c0b1feabe99b47580b6f3f3f2daa1238fd7b`).
-This saves 1,621,821 bytes; published runtime shards still use gzip.
+The earlier gzip-to-Brotli quality-5 migration saved 1,621,821 bytes; quality 11
+saves a further 1,280,419 bytes. Published runtime shards still use gzip.
 Runtime delivery and rendering
 must be verified separately before reporting this as user-accessible coverage.
 
