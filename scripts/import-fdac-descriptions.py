@@ -1,5 +1,5 @@
 """Import reviewed FDAC original text without rewriting source punctuation."""
-import gzip
+from source_brotli import compress_source
 import hashlib
 import json
 from pathlib import Path
@@ -26,9 +26,8 @@ def main(input_path):
     records = [species[key] for key in sorted(species)]
     body = ''.join(json.dumps(r, ensure_ascii=False, separators=(',', ':')) + '\n'
                    for r in records).encode('utf-8')
-    compressed = bytearray(gzip.compress(body, compresslevel=9, mtime=0))
-    compressed[9] = 255
-    output = 'data/sources/fdac-descriptions.jsonl.gz'
+    compressed = compress_source(body)
+    output = 'data/sources/fdac-descriptions.jsonl.br'
     (root / output).write_bytes(compressed)
     ledger = {
         'provider': 'Meise Botanic Garden', 'title': "Flora d'Afrique Centrale",

@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Build the pinned COL26.8/ICTV MSL41.v1 + VMR crosswalk.
 
-This importer intentionally uses only the Python standard library. It consumes
+This importer uses the Python standard library and the required Node runtime
+for build-time Brotli storage. It consumes
 the two exact official ICTV workbooks already downloaded by the operator and
 never performs fuzzy or normalized-name matching.
 """
@@ -14,6 +15,7 @@ import hashlib
 import json
 import re
 import zipfile
+from source_brotli import compress_source
 from collections import Counter, defaultdict
 from pathlib import Path
 from xml.etree import ElementTree as ET
@@ -21,7 +23,7 @@ from xml.etree import ElementTree as ET
 
 REPOSITORY_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_SPECIES_SHARD = REPOSITORY_ROOT / "data/catalogue-of-life/releases/2026-08-20/resource-packs/viruses/species-000.jsonl.gz"
-DEFAULT_OUTPUT = REPOSITORY_ROOT / "data/sources/ictv-virus-crosswalk-col26.8-msl41.v1.json.gz"
+DEFAULT_OUTPUT = REPOSITORY_ROOT / "data/sources/ictv-virus-crosswalk-col26.8-msl41.v1.json.br"
 
 COL_RELEASE = "COL26.8"
 COL_RELEASE_DATE = "2026-08-20"
@@ -349,7 +351,7 @@ def main() -> None:
     options = parse_args()
     snapshot = build_snapshot(options.msl, options.vmr, options.species_shard)
     source = (json.dumps(snapshot, ensure_ascii=False, separators=(",", ":")) + "\n").encode("utf-8")
-    compressed = deterministic_gzip(source)
+    compressed = compress_source(source)
     options.output.parent.mkdir(parents=True, exist_ok=True)
     options.output.write_bytes(compressed)
     counts = snapshot["counts"]

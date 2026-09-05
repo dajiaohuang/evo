@@ -1,5 +1,11 @@
 # Third-party notices
 
+Missouri Botanical Garden, *Flora of China*, retained WFO archive obtained
+2026-09-05: selected English descriptions under CC BY 4.0. Original citations,
+per-record rights and reference locators are retained. Regional historical
+text is not a complete species dossier; no linked figures or PDFs are included.
+See [source documentation](docs/flora-china-descriptions.md).
+
 Illustrated Flora of Turkey (Resimli Türkiye Florası), dated WFO archive
 2024-02-20: original descriptive text under CC BY 4.0. Attribution is
 dataset-level because no reference extension is supplied. No linked figures
