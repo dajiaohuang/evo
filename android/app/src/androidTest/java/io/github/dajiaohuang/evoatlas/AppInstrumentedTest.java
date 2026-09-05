@@ -554,7 +554,7 @@ public class AppInstrumentedTest {
                 assertEquals(158805, itisRecords);
             } else if (packageId.equals("other-animals")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
-                assertEquals(51, extensions.length());
+                assertEquals(52, extensions.length());
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-kinorhyncha-archive-crosswalk"),
                         1, 0, 362, 0, "Kinorhyncha");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-nematomorpha-archive-crosswalk"),
@@ -601,6 +601,16 @@ public class AppInstrumentedTest {
                         8, 1, 18982, 1090, "WoRMS Annelida");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-nematoda-archive-crosswalk"),
                         8, 1, 19604, 2104, "WoRMS Nematoda");
+                JSONObject nemysNematoda = findCollection(extensions, "worms-nematoda2302-archive-crosswalk");
+                verifyAuthorityArchiveCollection(context, files, nemysNematoda,
+                        22, 1, 19554, 1256, "cc by", "Nemys Nematoda 2302");
+                JSONObject nemysCounts = nemysNematoda.getJSONObject("counts");
+                assertEquals(19554, nemysCounts.getInt("accepted"));
+                assertEquals(1, nemysCounts.getInt("ambiguous"));
+                assertEquals(49, nemysCounts.getInt("unmatched"));
+                assertEquals(1256, nemysCounts.getInt("sourceOnly"));
+                assertEquals(1256, nemysCounts.getInt("upstreamOnly"));
+                assertEquals(20860, nemysCounts.getInt("records"));
                 String[] expectedIds = new String[]{
                     "itis-platyhelminthes-tsn-crosswalk", "itis-rotifera-tsn-crosswalk", "itis-bryozoa-tsn-crosswalk",
                     "itis-nemertea-tsn-crosswalk", "itis-tunicata-cephalochordata-tsn-crosswalk", "itis-acanthocephala-tsn-crosswalk",

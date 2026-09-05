@@ -561,7 +561,7 @@ final class AppConfigurationTests: XCTestCase {
                 XCTAssertEqual(itisRecords, 158_805)
             } else if packageId == "other-animals" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
-                XCTAssertEqual(extensions.count, 51)
+                XCTAssertEqual(extensions.count, 52)
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-kinorhyncha-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,
@@ -659,6 +659,18 @@ final class AppConfigurationTests: XCTestCase {
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-nematoda-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 8, expectedUpstreamFiles: 1,
                     expectedRecords: 19_604, expectedUpstreamRecords: 2_104, label: "WoRMS Nematoda")
+                let nemysNematoda = try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-nematoda2302-archive-crosswalk" })
+                try verifyAuthorityArchiveCollection(
+                    collection: nemysNematoda, inventory: files, below: dataRoot, expectedFiles: 22, expectedUpstreamFiles: 1,
+                    expectedRecords: 19_554, expectedUpstreamRecords: 1_256,
+                    expectedLicense: "cc by", label: "Nemys Nematoda 2302")
+                let nemysCounts = try XCTUnwrap(nemysNematoda["counts"] as? [String: Any])
+                XCTAssertEqual(nemysCounts["accepted"] as? Int, 19_554)
+                XCTAssertEqual(nemysCounts["ambiguous"] as? Int, 1)
+                XCTAssertEqual(nemysCounts["unmatched"] as? Int, 49)
+                XCTAssertEqual(nemysCounts["sourceOnly"] as? Int, 1_256)
+                XCTAssertEqual(nemysCounts["upstreamOnly"] as? Int, 1_256)
+                XCTAssertEqual(nemysCounts["records"] as? Int, 20_860)
                 let expectedIds = [
                     "itis-platyhelminthes-tsn-crosswalk", "itis-rotifera-tsn-crosswalk", "itis-bryozoa-tsn-crosswalk",
                     "itis-nemertea-tsn-crosswalk", "itis-tunicata-cephalochordata-tsn-crosswalk", "itis-acanthocephala-tsn-crosswalk",

@@ -148,7 +148,7 @@ describe('COL26.8 static nomenclatural resource packs', () => {
 
   it('publishes every Other Animals ITIS summary and native-full file inventory', () => {
     const descriptor = collection.packs.find((pack) => pack.packageId === 'other-animals')
-    expect(descriptor).toMatchObject({ acceptedSpeciesCount: 99161, fileCount: 4, extensionCount: 51, extensionFileCount: 225 })
+    expect(descriptor).toMatchObject({ acceptedSpeciesCount: 99161, fileCount: 4, extensionCount: 52, extensionFileCount: 248 })
     const manifest = JSON.parse(readFileSync(join(resourcePacksRoot, descriptor.manifestPath), 'utf8'))
     const extension = manifest.extensions.find((candidate) => candidate.id === 'itis-phoronida-tsn-crosswalk')
     expect(extension).toMatchObject({
@@ -185,6 +185,19 @@ describe('COL26.8 static nomenclatural resource packs', () => {
     expect(worms.files).toHaveLength(8)
     expect(worms.upstreamOnlyFiles).toHaveLength(1)
     for (const file of [...worms.files, ...worms.upstreamOnlyFiles]) {
+      const bytes = readFileSync(join(resourcePacksRoot, file.path))
+      expect(sha256(bytes)).toBe(file.sha256)
+      expect(JSON.parse(gunzipSync(bytes))).toHaveLength(file.records)
+    }
+    const nemys = manifest.extensions.find((candidate) => candidate.id === 'worms-nematoda2302-archive-crosswalk')
+    expect(nemys).toMatchObject({
+      counts: { total: 19604, accepted: 19554, ambiguous: 1, unmatched: 49, upstreamOnly: 1256, records: 20860 },
+      source: { license: 'cc by', embeddedMetadata: { doi: '10.14284/366', license: 'CC-BY' } },
+      deliveryProfiles: { 'web-light': { records: 0, files: [] }, 'native-full': { records: 20860 } },
+    })
+    expect(nemys.files).toHaveLength(22)
+    expect(nemys.upstreamOnlyFiles).toHaveLength(1)
+    for (const file of [...nemys.files, ...nemys.upstreamOnlyFiles]) {
       const bytes = readFileSync(join(resourcePacksRoot, file.path))
       expect(sha256(bytes)).toBe(file.sha256)
       expect(JSON.parse(gunzipSync(bytes))).toHaveLength(file.records)

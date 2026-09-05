@@ -413,6 +413,7 @@ for (const [id, total, accepted, upstreamOnly, fileCount, upstreamFileCount, lic
   }
 }
 for (const [id, total, accepted, unmatched, upstreamOnly, fileCount, upstreamFileCount, license, label] of [
+  ['worms-nematoda2302-archive-crosswalk', 19604, 19554, 49, 1256, 22, 1, 'cc by', 'Nemys Nematoda'],
   ['worms-oligochaeta-archive-crosswalk', 4403, 4350, 53, 214, 6, 1, 'CC-BY-4.0', 'Oligochaeta'],
   ['worms-polychaeta-archive-crosswalk', 14430, 14305, 125, 179, 18, 1, 'cc by', 'Polychaeta'],
 ]) {

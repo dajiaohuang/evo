@@ -48,6 +48,20 @@ def norm(value):
     return ' '.join(unicodedata.normalize('NFC', value or '').split())
 
 
+def parse_embedded_metadata(raw):
+    fields = {}
+    wanted = {'doi', 'title', 'issued', 'version', 'license', 'website', 'citation'}
+    for line in raw.decode('utf-8').splitlines():
+        if line.startswith((' ', '\t')) or ':' not in line:
+            continue
+        key, value = line.split(':', 1)
+        if key not in wanted:
+            continue
+        value = value.strip()
+        fields[key] = None if value == 'null' else value[1:-1] if len(value) >= 2 and value[0] == value[-1] == "'" else value
+    return {**fields, 'bytes': len(raw), 'sha256': digest(raw)}
+
+
 def col_bare(row):
     name, author = row.get('scientificName') or '', row.get('authorship') or ''
     suffix = ' ' + author
@@ -147,9 +161,7 @@ def read_archive(path):
                 seen.add(current)
                 current = parents.get(current)
         rooted_source = {taxon_id: accepted[taxon_id] for taxon_id in rooted}
-        matchable = {taxon_id: rooted_source[taxon_id] for taxon_id in rooted
-                     if (accepted[taxon_id][0].get('order') or '').strip()
-                     and (accepted[taxon_id][0].get('family') or '').strip()}
+        matchable = accepted
         return accepted, rooted_source, matchable, refs, dict(name_refs), members, species_rows, provisional
 
 
@@ -227,6 +239,8 @@ def project(archive_path, metadata_path, output_root=None):
             metadata.get('versionDoi')) != (2302, 78, '2026-09-01', '10.48580/d4rf.v78'):
         raise ValueError('unexpected ChecklistBank metadata identity')
     source, rooted_source, matchable, references, name_refs, members, species_rows, provisional = read_archive(archive_path)
+    with zipfile.ZipFile(archive_path) as archive:
+        embedded_metadata = parse_embedded_metadata(archive.read('metadata.yml'))
     col, registry_sha, registry_inputs = read_col()
     by_key = defaultdict(list)
     for taxon_id, (taxon, name, taxon_row, name_row) in source.items():
@@ -236,10 +250,7 @@ def project(archive_path, metadata_path, output_root=None):
     counts = {key: 0 for key in ('accepted', 'ambiguous', 'unmatched')}
     for col_id, row in sorted(col.items()):
         hits = by_key.get((norm(col_bare(row)), norm(row.get('authorship'))), [])
-        incomplete = any(not (item[1].get('order') or '').strip() or
-                         not (item[1].get('family') or '').strip() for item in hits)
-        status = ('unmatched' if incomplete else
-                  'accepted' if len(hits) == 1 else 'ambiguous' if len(hits) > 1 else 'unmatched')
+        status = 'accepted' if len(hits) == 1 else 'ambiguous' if len(hits) > 1 else 'unmatched'
         counts[status] += 1
         matched, accepted_name, candidates, locators, refs = None, None, [], [], []
         if len(hits) == 1 and status == 'accepted':
@@ -293,6 +304,16 @@ def project(archive_path, metadata_path, output_root=None):
         'metadataPath': 'data/sources/archives/checklistbank-2302-nematoda-2026-09-01.metadata.json',
         'archiveBytes': len(archive_raw), 'archiveSha256': digest(archive_raw), 'members': members,
         'metadataRecord': metadata,
+        'embeddedMetadata': embedded_metadata,
+        'metadataConsistency': {
+            'status': 'mismatch',
+            'apiResponse': {'doi': metadata['doi'], 'versionDoi': metadata['versionDoi'],
+                            'version': metadata['version'], 'issued': metadata['issued'],
+                            'license': metadata['license']},
+            'archiveEmbedded': {key: embedded_metadata[key]
+                                for key in ('doi', 'version', 'issued', 'license')},
+            'boundary': 'The byte-pinned archive drives the projection. The API identifies its ChecklistBank dataset and attempt; archive metadata.yml identifies the Nemys source DOI. Raw license strings remain separate evidence without an inferred license version.',
+        },
     }
     for field in ('rights', 'rightsHolder'):
         if field in metadata:
@@ -323,7 +344,7 @@ def project(archive_path, metadata_path, output_root=None):
                       'criterion': 'Accepted Species rows whose Taxon parent chain reaches Aphia 799; this is an audit subset of the explicit-phylum scope.',
                       'rootAphiaId': '799',
                       'acceptedSpecies': len(rooted_source),
-                      'matchableSpecies': len(matchable),
+                      'matchableSpecies': len(rooted_source),
                       'sourceOnlySpecies': source_only_within_aphia_closure,
                       'outsideClosureRetainedByPhylumScope': len(source) - len(rooted_source),
                   }},
@@ -360,7 +381,7 @@ def project(archive_path, metadata_path, output_root=None):
         'outputs': {'descriptor': {'path': f'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/{PREFIX}-sidecar.json',
                                    'bytes': len(descriptor_bytes), 'sha256': digest(descriptor_bytes)},
                     'files': col_files, 'sourceOnlyFiles': source_files, 'upstreamOnlyFiles': source_files},
-        'scopeAudit': {'method': 'All archive Taxon species rows were checked by explicit Nematoda phylum field and parent closure. Retention uses the explicit-phylum scope; Aphia 799 closure is reported as a separate subset. Exact matching candidates additionally require non-empty order and family fields.',
+        'scopeAudit': {'method': 'All archive Taxon species rows were checked by explicit Nematoda phylum field and parent closure. Retention and exact matching use the explicit-phylum scope; Aphia 799 closure is reported as a separate subset. Missing order or family fields do not invalidate a unique exact scientific-name and authorship match.',
                        'explicitPhylumScope': {
                            'criterion': 'Accepted Species rows with explicit Taxon.phylum=Nematoda.',
                            'speciesRows': species_rows,
@@ -373,7 +394,7 @@ def project(archive_path, metadata_path, output_root=None):
                            'criterion': 'Accepted Species rows whose parent chain reaches Aphia 799; audit subset only.',
                            'rootAphiaId': '799',
                            'acceptedSpecies': len(rooted_source),
-                           'matchableSpecies': len(matchable),
+                           'matchableSpecies': len(rooted_source),
                            'sourceOnly': source_only_within_aphia_closure,
                            'outsideClosureRetainedByPhylumScope': len(source) - len(rooted_source),
                        },
