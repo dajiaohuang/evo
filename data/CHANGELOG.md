@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc142 — 2026-09-05
+
+- Added the pinned Reptile Database / ChecklistBank dataset 1008 original archive: 12,622 exact COL matches in turtles-lepidosaurs, 27 in Crocodylia and one separate null-COL source-only record. The two projections are disjoint; birds, dinosaur coverage and fossil occurrence evidence remain outside scope. Recently extinct taxa in the source are retained; accepted names and empty extinction fields do not imply living organisms.
+- Registered all 18 deterministic row shards in the existing rich-package nomenclature delivery: Android and iOS receive the complete 12,650-row projection; the lightweight Web profile retains summaries and canonical inventories without those payloads.
+- Preserved raw `cc by` attribution without inferring a license version. API metadata has no version DOI; the archive separately records `10.48580/d37s.v31`. These exact nomenclatural links are not species-concept equivalence or independent expert review. See [source scope and reproduction](../docs/reptiledb-original-source-rc134.md).
+
 ## 2026.09-static-v5-rc141 — 2026-09-05
 
 - Added the pinned Nemys dataset 2302 original archive and its 23 row shards: 19,604 COL Nematoda outcomes (19,554 exact accepted, 1 ambiguous, 49 unmatched) and 1,256 separate source-only records. The explicit-phylum scope retains all 20,810 accepted source rows; 1,163 lie outside the independently reported Aphia-799 parent closure.

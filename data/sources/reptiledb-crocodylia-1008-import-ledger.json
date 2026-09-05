@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-Reptile-Database-1008-archive-projection",
+  "source": {
+    "datasetId": "1008",
+    "title": "The Reptile Database",
+    "alias": "ReptileDB",
+    "version": "2026-06",
+    "versionDoi": null,
+    "doi": "10.48580/d37s",
+    "issued": "2026-06-24",
+    "citation": "<div class=\"csl-entry\">Uetz, P., &amp; Ho&scaron;ek, J. (2026). <span style=\"font-style: italic\">The Reptile Database</span> (Version 2026-06). https://doi.org/10.48580/d37s</div>",
+    "creator": [
+      {
+        "orcid": "0000-0001-6194-4927",
+        "given": "Peter",
+        "family": "Uetz",
+        "city": "Richmond",
+        "state": "VA",
+        "country": "US",
+        "email": "info@reptile-database.org",
+        "name": "Uetz P.",
+        "address": "Richmond, VA, United States of America",
+        "organisation": "Virginia Commonwealth University"
+      },
+      {
+        "given": "Jirí",
+        "family": "Hošek",
+        "email": "jiri.hosek@reptarium.cz",
+        "name": "Hošek J.í"
+      }
+    ],
+    "license": "cc by",
+    "embeddedArchiveMetadata": {
+      "member": "metadata.yaml",
+      "key": "1008",
+      "doi": "10.48580/d37s",
+      "versionDoi": "10.48580/d37s.v31",
+      "title": "The Reptile Database",
+      "issued": "2026-06-24",
+      "version": "2026-06",
+      "license": "cc by"
+    },
+    "apiEndpoint": "https://api.checklistbank.org/dataset/1008",
+    "apiResponseBytes": 1704,
+    "apiResponseSha256": "47ca412c6122a5f9399fa65e9f13800da3215c7d2ec9383f40b26adcb382dc16",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1008/archive",
+    "archivePath": "data/sources/archives/checklistbank-1008-reptiledb-2026-06.zip",
+    "metadataPath": "data/sources/archives/checklistbank-1008-reptiledb-2026-06.metadata.json",
+    "metadataBytes": 2078,
+    "metadataSha256": "12adbe653a0fc5ada0e882acfcb619bbae63b1a03f7b27c60876b9eb0dfa5d95",
+    "archiveBytes": 9581096,
+    "archiveSha256": "23e91315dca13a9b46b0c2b487d2921e5ccf2c274de294327fc4caeefb6b21ba",
+    "members": {
+      "Distribution.tsv": {
+        "bytes": 1819369,
+        "sha256": "19e2d7309f36a690d3b0484d894648505eff40b9806ca53295ec8a000df83d22"
+      },
+      "Name.tsv": {
+        "bytes": 4835500,
+        "sha256": "e6628c53a79edb439468b076a5528d35cf14243a3b6f5cf06ef048af367b1a2e"
+      },
+      "Reference.tsv": {
+        "bytes": 13210507,
+        "sha256": "37471f4f753029c430d52a525eecfb8ef8c82c4c9c98a1b1e413f0705f7248ef"
+      },
+      "Synonym.tsv": {
+        "bytes": 1559362,
+        "sha256": "0558d4f7ed16e1d452cc89e9ae4d40b090a69b1f971f205048d06b5b5ee3d2b1"
+      },
+      "Taxon.tsv": {
+        "bytes": 4999647,
+        "sha256": "075c5d57444b4bc0ab69c5966aa546b4652806170b689595aa09b7ebc2cd02c2"
+      },
+      "VernacularName.tsv": {
+        "bytes": 1531916,
+        "sha256": "5f8f41639efe2ebb77374bdfcb7689f0b6a489cd636afd47d26e2bd1b3d6a1f0"
+      },
+      "metadata.yaml": {
+        "bytes": 1062,
+        "sha256": "faaa4398350d0f0eb6113eb2e80c4f89a602f241d158d2cf49a8cf0c070d940a"
+      }
+    }
+  },
+  "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+  "generatedBy": {
+    "scriptPath": "scripts/build-reptiledb-source.py",
+    "scriptSha256": "9bee75104165a580710ad583a4a2b0fdec6ba902450ea73a0c6fc3736a680a48",
+    "hashNormalization": "LF"
+  },
+  "scopeAudit": {
+    "colRootUsageIds": [
+      "329"
+    ],
+    "colSpecies": 27,
+    "sourceAcceptedSpecies": 27,
+    "sourceRowsInArchive": 17042,
+    "upstreamOnly": 0,
+    "memberDigests": {
+      "Distribution.tsv": {
+        "bytes": 1819369,
+        "sha256": "19e2d7309f36a690d3b0484d894648505eff40b9806ca53295ec8a000df83d22"
+      },
+      "Name.tsv": {
+        "bytes": 4835500,
+        "sha256": "e6628c53a79edb439468b076a5528d35cf14243a3b6f5cf06ef048af367b1a2e"
+      },
+      "Reference.tsv": {
+        "bytes": 13210507,
+        "sha256": "37471f4f753029c430d52a525eecfb8ef8c82c4c9c98a1b1e413f0705f7248ef"
+      },
+      "Synonym.tsv": {
+        "bytes": 1559362,
+        "sha256": "0558d4f7ed16e1d452cc89e9ae4d40b090a69b1f971f205048d06b5b5ee3d2b1"
+      },
+      "Taxon.tsv": {
+        "bytes": 4999647,
+        "sha256": "075c5d57444b4bc0ab69c5966aa546b4652806170b689595aa09b7ebc2cd02c2"
+      },
+      "VernacularName.tsv": {
+        "bytes": 1531916,
+        "sha256": "5f8f41639efe2ebb77374bdfcb7689f0b6a489cd636afd47d26e2bd1b3d6a1f0"
+      },
+      "metadata.yaml": {
+        "bytes": 1062,
+        "sha256": "faaa4398350d0f0eb6113eb2e80c4f89a602f241d158d2cf49a8cf0c070d940a"
+      }
+    }
+  },
+  "outputs": {
+    "descriptor": {
+      "path": "data/packages/archosauria/crocodylomorphs-birds/nomenclature/reptiledb-crocodylia-extension.json",
+      "bytes": 5840,
+      "sha256": "16772d77b7ade1d3ef4e62ab31f866c546531f38745cc0ffdbe658b8b15df9d6"
+    },
+    "files": [
+      {
+        "path": "nomenclature/reptiledb-crocodylia-000.json.gz",
+        "records": 27,
+        "bytes": 15965,
+        "sha256": "dcb197d86a669cf0def6f90e8b8d4ffac8b8e799f61d306aa78f2deb519b863c",
+        "sourceBytes": 178667,
+        "sourceSha256": "b1cf88014a6fb76644a64ec7a9f21e9e6aaa8582d641a8936f2ce7fecf640ae3",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "col-partition",
+        "minColId": "3FFQ3",
+        "maxColId": "ZKNT"
+      }
+    ]
+  }
+}

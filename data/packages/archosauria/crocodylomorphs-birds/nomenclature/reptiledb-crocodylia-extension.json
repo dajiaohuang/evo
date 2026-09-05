@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "reptiledb-crocodylia-extension",
+  "packageId": "crocodylomorphs-birds",
+  "provider": "The Reptile Database via ChecklistBank",
+  "rowEncoding": "jsonl",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1008",
+    "title": "The Reptile Database",
+    "alias": "ReptileDB",
+    "version": "2026-06",
+    "versionDoi": null,
+    "doi": "10.48580/d37s",
+    "issued": "2026-06-24",
+    "citation": "<div class=\"csl-entry\">Uetz, P., &amp; Ho&scaron;ek, J. (2026). <span style=\"font-style: italic\">The Reptile Database</span> (Version 2026-06). https://doi.org/10.48580/d37s</div>",
+    "creator": [
+      {
+        "orcid": "0000-0001-6194-4927",
+        "given": "Peter",
+        "family": "Uetz",
+        "city": "Richmond",
+        "state": "VA",
+        "country": "US",
+        "email": "info@reptile-database.org",
+        "name": "Uetz P.",
+        "address": "Richmond, VA, United States of America",
+        "organisation": "Virginia Commonwealth University"
+      },
+      {
+        "given": "Jirí",
+        "family": "Hošek",
+        "email": "jiri.hosek@reptarium.cz",
+        "name": "Hošek J.í"
+      }
+    ],
+    "license": "cc by",
+    "embeddedArchiveMetadata": {
+      "member": "metadata.yaml",
+      "key": "1008",
+      "doi": "10.48580/d37s",
+      "versionDoi": "10.48580/d37s.v31",
+      "title": "The Reptile Database",
+      "issued": "2026-06-24",
+      "version": "2026-06",
+      "license": "cc by"
+    },
+    "apiEndpoint": "https://api.checklistbank.org/dataset/1008",
+    "apiResponseBytes": 1704,
+    "apiResponseSha256": "47ca412c6122a5f9399fa65e9f13800da3215c7d2ec9383f40b26adcb382dc16",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1008/archive",
+    "archivePath": "data/sources/archives/checklistbank-1008-reptiledb-2026-06.zip",
+    "metadataPath": "data/sources/archives/checklistbank-1008-reptiledb-2026-06.metadata.json",
+    "metadataBytes": 2078,
+    "metadataSha256": "12adbe653a0fc5ada0e882acfcb619bbae63b1a03f7b27c60876b9eb0dfa5d95",
+    "archiveBytes": 9581096,
+    "archiveSha256": "23e91315dca13a9b46b0c2b487d2921e5ccf2c274de294327fc4caeefb6b21ba",
+    "members": {
+      "Distribution.tsv": {
+        "bytes": 1819369,
+        "sha256": "19e2d7309f36a690d3b0484d894648505eff40b9806ca53295ec8a000df83d22"
+      },
+      "Name.tsv": {
+        "bytes": 4835500,
+        "sha256": "e6628c53a79edb439468b076a5528d35cf14243a3b6f5cf06ef048af367b1a2e"
+      },
+      "Reference.tsv": {
+        "bytes": 13210507,
+        "sha256": "37471f4f753029c430d52a525eecfb8ef8c82c4c9c98a1b1e413f0705f7248ef"
+      },
+      "Synonym.tsv": {
+        "bytes": 1559362,
+        "sha256": "0558d4f7ed16e1d452cc89e9ae4d40b090a69b1f971f205048d06b5b5ee3d2b1"
+      },
+      "Taxon.tsv": {
+        "bytes": 4999647,
+        "sha256": "075c5d57444b4bc0ab69c5966aa546b4652806170b689595aa09b7ebc2cd02c2"
+      },
+      "VernacularName.tsv": {
+        "bytes": 1531916,
+        "sha256": "5f8f41639efe2ebb77374bdfcb7689f0b6a489cd636afd47d26e2bd1b3d6a1f0"
+      },
+      "metadata.yaml": {
+        "bytes": 1062,
+        "sha256": "faaa4398350d0f0eb6113eb2e80c4f89a602f241d158d2cf49a8cf0c070d940a"
+      }
+    }
+  },
+  "scope": {
+    "colRootUsageIds": [
+      "329"
+    ],
+    "scientificName": "Reptilia",
+    "eligibleColSpecies": 27,
+    "sourceAcceptedSpecies": 27,
+    "scopeBoundary": "Accepted Crocodylia names in this archive within the existing mixed crocodylomorphs-birds package; Aves and fossil occurrence evidence are outside scope. Accepted does not mean extant."
+  },
+  "matching": {
+    "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, synonym, rank or species-concept matching."
+  },
+  "counts": {
+    "total": 27,
+    "accepted": 27,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "withheld": 0,
+    "upstreamOnly": 0,
+    "records": 27
+  },
+  "files": [
+    {
+      "path": "nomenclature/reptiledb-crocodylia-000.json.gz",
+      "records": 27,
+      "bytes": 15965,
+      "sha256": "dcb197d86a669cf0def6f90e8b8d4ffac8b8e799f61d306aa78f2deb519b863c",
+      "sourceBytes": 178667,
+      "sourceSha256": "b1cf88014a6fb76644a64ec7a9f21e9e6aaa8582d641a8936f2ce7fecf640ae3",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson",
+      "role": "col-partition",
+      "minColId": "3FFQ3",
+      "maxColId": "ZKNT"
+    }
+  ],
+  "upstreamOnlyFiles": [],
+  "evidenceBoundary": {
+    "en": "Frozen Reptile Database nomenclatural/source projection for the exact COL26.8 source-1008 partition; not species-concept equivalence, a biological dossier, fossil evidence, phylogeny or expert review.",
+    "zh": "精确 COL26.8 source-1008 分区的 Reptile Database 冻结命名/来源投影；不表示物种概念等同性、生物档案、化石证据、系统发育或专家审查。"
+  },
+  "limitations": [
+    "Source-only rows are relative only to the declared COL26.8 partition.",
+    "The Reptile Database focuses on living reptiles but also includes some recently extinct taxa; accepted is a nomenclatural status, not evidence of extant status. Blank archive extinction fields remain unknown.",
+    "Source references are retained as identifiers and row locators; they do not constitute independent scientific review."
+  ],
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 27,
+      "files": [
+        "nomenclature/reptiledb-crocodylia-000.json.gz"
+      ],
+      "totalCompressedBytes": 15965,
+      "totalSourceBytes": 178667
+    }
+  }
+}

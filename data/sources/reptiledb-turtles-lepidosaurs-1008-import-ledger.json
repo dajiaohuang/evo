@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-Reptile-Database-1008-archive-projection",
+  "source": {
+    "datasetId": "1008",
+    "title": "The Reptile Database",
+    "alias": "ReptileDB",
+    "version": "2026-06",
+    "versionDoi": null,
+    "doi": "10.48580/d37s",
+    "issued": "2026-06-24",
+    "citation": "<div class=\"csl-entry\">Uetz, P., &amp; Ho&scaron;ek, J. (2026). <span style=\"font-style: italic\">The Reptile Database</span> (Version 2026-06). https://doi.org/10.48580/d37s</div>",
+    "creator": [
+      {
+        "orcid": "0000-0001-6194-4927",
+        "given": "Peter",
+        "family": "Uetz",
+        "city": "Richmond",
+        "state": "VA",
+        "country": "US",
+        "email": "info@reptile-database.org",
+        "name": "Uetz P.",
+        "address": "Richmond, VA, United States of America",
+        "organisation": "Virginia Commonwealth University"
+      },
+      {
+        "given": "Jirí",
+        "family": "Hošek",
+        "email": "jiri.hosek@reptarium.cz",
+        "name": "Hošek J.í"
+      }
+    ],
+    "license": "cc by",
+    "embeddedArchiveMetadata": {
+      "member": "metadata.yaml",
+      "key": "1008",
+      "doi": "10.48580/d37s",
+      "versionDoi": "10.48580/d37s.v31",
+      "title": "The Reptile Database",
+      "issued": "2026-06-24",
+      "version": "2026-06",
+      "license": "cc by"
+    },
+    "apiEndpoint": "https://api.checklistbank.org/dataset/1008",
+    "apiResponseBytes": 1704,
+    "apiResponseSha256": "47ca412c6122a5f9399fa65e9f13800da3215c7d2ec9383f40b26adcb382dc16",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1008/archive",
+    "archivePath": "data/sources/archives/checklistbank-1008-reptiledb-2026-06.zip",
+    "metadataPath": "data/sources/archives/checklistbank-1008-reptiledb-2026-06.metadata.json",
+    "metadataBytes": 2078,
+    "metadataSha256": "12adbe653a0fc5ada0e882acfcb619bbae63b1a03f7b27c60876b9eb0dfa5d95",
+    "archiveBytes": 9581096,
+    "archiveSha256": "23e91315dca13a9b46b0c2b487d2921e5ccf2c274de294327fc4caeefb6b21ba",
+    "members": {
+      "Distribution.tsv": {
+        "bytes": 1819369,
+        "sha256": "19e2d7309f36a690d3b0484d894648505eff40b9806ca53295ec8a000df83d22"
+      },
+      "Name.tsv": {
+        "bytes": 4835500,
+        "sha256": "e6628c53a79edb439468b076a5528d35cf14243a3b6f5cf06ef048af367b1a2e"
+      },
+      "Reference.tsv": {
+        "bytes": 13210507,
+        "sha256": "37471f4f753029c430d52a525eecfb8ef8c82c4c9c98a1b1e413f0705f7248ef"
+      },
+      "Synonym.tsv": {
+        "bytes": 1559362,
+        "sha256": "0558d4f7ed16e1d452cc89e9ae4d40b090a69b1f971f205048d06b5b5ee3d2b1"
+      },
+      "Taxon.tsv": {
+        "bytes": 4999647,
+        "sha256": "075c5d57444b4bc0ab69c5966aa546b4652806170b689595aa09b7ebc2cd02c2"
+      },
+      "VernacularName.tsv": {
+        "bytes": 1531916,
+        "sha256": "5f8f41639efe2ebb77374bdfcb7689f0b6a489cd636afd47d26e2bd1b3d6a1f0"
+      },
+      "metadata.yaml": {
+        "bytes": 1062,
+        "sha256": "faaa4398350d0f0eb6113eb2e80c4f89a602f241d158d2cf49a8cf0c070d940a"
+      }
+    }
+  },
+  "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+  "generatedBy": {
+    "scriptPath": "scripts/build-reptiledb-source.py",
+    "scriptSha256": "9bee75104165a580710ad583a4a2b0fdec6ba902450ea73a0c6fc3736a680a48",
+    "hashNormalization": "LF"
+  },
+  "scopeAudit": {
+    "colRootUsageIds": [
+      "45C",
+      "477",
+      "RP"
+    ],
+    "colSpecies": 12622,
+    "sourceAcceptedSpecies": 12623,
+    "sourceRowsInArchive": 17042,
+    "upstreamOnly": 1,
+    "memberDigests": {
+      "Distribution.tsv": {
+        "bytes": 1819369,
+        "sha256": "19e2d7309f36a690d3b0484d894648505eff40b9806ca53295ec8a000df83d22"
+      },
+      "Name.tsv": {
+        "bytes": 4835500,
+        "sha256": "e6628c53a79edb439468b076a5528d35cf14243a3b6f5cf06ef048af367b1a2e"
+      },
+      "Reference.tsv": {
+        "bytes": 13210507,
+        "sha256": "37471f4f753029c430d52a525eecfb8ef8c82c4c9c98a1b1e413f0705f7248ef"
+      },
+      "Synonym.tsv": {
+        "bytes": 1559362,
+        "sha256": "0558d4f7ed16e1d452cc89e9ae4d40b090a69b1f971f205048d06b5b5ee3d2b1"
+      },
+      "Taxon.tsv": {
+        "bytes": 4999647,
+        "sha256": "075c5d57444b4bc0ab69c5966aa546b4652806170b689595aa09b7ebc2cd02c2"
+      },
+      "VernacularName.tsv": {
+        "bytes": 1531916,
+        "sha256": "5f8f41639efe2ebb77374bdfcb7689f0b6a489cd636afd47d26e2bd1b3d6a1f0"
+      },
+      "metadata.yaml": {
+        "bytes": 1062,
+        "sha256": "faaa4398350d0f0eb6113eb2e80c4f89a602f241d158d2cf49a8cf0c070d940a"
+      }
+    }
+  },
+  "outputs": {
+    "descriptor": {
+      "path": "data/packages/reptilia/turtles-lepidosaurs/nomenclature/reptiledb-turtles-lepidosaurs-extension.json",
+      "bytes": 14721,
+      "sha256": "d383a870da9c44bcf43ce27f47b6e984335f27c0d2b7474571cefcbe86d6db70"
+    },
+    "files": [
+      {
+        "path": "nomenclature/reptiledb-turtles-lepidosaurs-000.json.gz",
+        "records": 847,
+        "bytes": 165788,
+        "sha256": "7493e643dba0720172ee6acb6bf0fa06a8cf6e89e03dea6f56ce2cf1352fd703",
+        "sourceBytes": 2093967,
+        "sourceSha256": "841e37e2d7a5ee151fbdc0b486e73fb759df688d63b5c280b725a4c118bf9850",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "col-partition",
+        "minColId": "3256B",
+        "maxColId": "3BDYH"
+      },
+      {
+        "path": "nomenclature/reptiledb-turtles-lepidosaurs-001.json.gz",
+        "records": 714,
+        "bytes": 175930,
+        "sha256": "97e3a23134069b300cfc4821cdf4e30d414150bb1c156567187a0e722be06b7b",
+        "sourceBytes": 2095724,
+        "sourceSha256": "43d358a367aaa1461b6dd196e3e7e20ed35e0e4c292816aba2d12dde2892a704",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "col-partition",
+        "minColId": "3BDYK",
+        "maxColId": "3R867"
+      },
+      {
+        "path": "nomenclature/reptiledb-turtles-lepidosaurs-002.json.gz",
+        "records": 789,
+        "bytes": 174460,
+        "sha256": "bd95a94cb369cd58d10ec335a3585773170354e49fb8e786266c15c7f16d5533",
+        "sourceBytes": 2097112,
+        "sourceSha256": "c3ac9123f29a663b6c7b9fc17e29180d2c29c92145c90bf31d5d944f3d4df6d2",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "col-partition",
+        "minColId": "3R868",
+        "maxColId": "3ZXLZ"
+      },
+      {
+        "path": "nomenclature/reptiledb-turtles-lepidosaurs-003.json.gz",
+        "records": 760,
+        "bytes": 168944,
+        "sha256": "0dcc6c2807e3b22c8edea01cc0d8afb8e831dd7329c4ab1fcefddfdf1a3f4623",
+        "sourceBytes": 2094881,
+        "sourceSha256": "0a1619889fdfe3535078ecb70141ef4172cb24e17ff64052a1be030bec71ab32",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "col-partition",
+        "minColId": "3ZXM3",
+        "maxColId": "4JP6Z"
+      },
+      {
+        "path": "nomenclature/reptiledb-turtles-lepidosaurs-004.json.gz",
+        "records": 716,
+        "bytes": 173896,
+        "sha256": "c1ffcbd57161f72a8638a56480511f370ce54580091e41826a4e9954c8028e94",
+        "sourceBytes": 2095996,
+        "sourceSha256": "237a021412e984450d5de5ec8c2c0b90b5f6df1365b91a3aec6efb677becd709",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "col-partition",
+        "minColId": "4JP73",
+        "maxColId": "4X5FK"
+      },
+      {
+        "path": "nomenclature/reptiledb-turtles-lepidosaurs-005.json.gz",
+        "records": 774,
+        "bytes": 172719,
+        "sha256": "3c10c2c57eec6d0f5757f1958ea8ab781eb29cc1391fd25ad52f58d804f798a4",
+        "sourceBytes": 2096143,
+        "sourceSha256": "02474fe46f02affcedb135dba6e93437eb938e7492e2a7e385637a88bc7d4b89",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "col-partition",
+        "minColId": "4X5FN",
+        "maxColId": "59CTH"
+      },
+      {
+        "path": "nomenclature/reptiledb-turtles-lepidosaurs-006.json.gz",
+        "records": 729,
+        "bytes": 178483,
+        "sha256": "58900717014adbe72dde8f88637eb10267d24e99e9e5fda64a46d8332933a6d1",
+        "sourceBytes": 2096712,
+        "sourceSha256": "bc851ac7e8f533494ee57652d10838fc662d0445454a4c7edfe855b247033407",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "col-partition",
+        "minColId": "59CTK",
+        "maxColId": "66TP2"
+      },
+      {
+        "path": "nomenclature/reptiledb-turtles-lepidosaurs-007.json.gz",
+        "records": 767,
+        "bytes": 179540,
+        "sha256": "8de1b81193cfb5c5eee327e97e98dbb546c17561af53cb92b6c01489b6c93dd0",
+        "sourceBytes": 2096284,
+        "sourceSha256": "f6ac5eb394406106eef879ec0b503a874f33e22e993c2554c99955fcc7141fdc",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "col-partition",
+        "minColId": "66TP4",
+        "maxColId": "6H4K4"
+      },
+      {
+        "path": "nomenclature/reptiledb-turtles-lepidosaurs-008.json.gz",
+        "records": 769,
+        "bytes": 186817,
+        "sha256": "25e1fd914bff4a2aee8ec5599bb868efb296f1a6a241c3344674087175579513",
+        "sourceBytes": 2093591,
+        "sourceSha256": "faa71997c0560b5a72e6fac76e19d4b5ee27992a5866a0809505fbd97756651d",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "col-partition",
+        "minColId": "6H7Q3",
+        "maxColId": "6VQF2"
+      },
+      {
+        "path": "nomenclature/reptiledb-turtles-lepidosaurs-009.json.gz",
+        "records": 776,
+        "bytes": 190669,
+        "sha256": "3f5012a22274eea0022a2930b18ae7ee404eb4dd84afd33f59dd875b6796b416",
+        "sourceBytes": 2097040,
+        "sourceSha256": "3f62b53feb6cf5e26d86b5d745a18e56a80fa204b09334031adb84dd22f2086a",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "col-partition",
+        "minColId": "6VQF4",
+        "maxColId": "7CWQJ"
+      },
+      {
+        "path": "nomenclature/reptiledb-turtles-lepidosaurs-010.json.gz",
+        "records": 816,
+        "bytes": 184565,
+        "sha256": "298f8bd0d01d69a047c43cf4a8e262c5cccf3c32be778110e152f27f7090f5e6",
+        "sourceBytes": 2092561,
+        "sourceSha256": "5eafcb93877f045398794b26a926c1019d0e3760780d6af41c0c39122474ae0b",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "col-partition",
+        "minColId": "7CWRG",
+        "maxColId": "8FD42"
+      },
+      {
+        "path": "nomenclature/reptiledb-turtles-lepidosaurs-011.json.gz",
+        "records": 1241,
+        "bytes": 203474,
+        "sha256": "4bc5349dc3a31d5e3636c1e77d02052430006e13af9f3ecc48eff2afe8140230",
+        "sourceBytes": 2096109,
+        "sourceSha256": "e4a7cd8ec34019db65179f6c498310a9aa92c496cac218b8355b4dea63c83a01",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "col-partition",
+        "minColId": "8FNW2",
+        "maxColId": "8KPBK"
+      },
+      {
+        "path": "nomenclature/reptiledb-turtles-lepidosaurs-012.json.gz",
+        "records": 1036,
+        "bytes": 185568,
+        "sha256": "08b9daacb5e1e4952953e2722ba45262cfe23822a079f51030937943b6110393",
+        "sourceBytes": 2094578,
+        "sourceSha256": "d3cdf8c70a0bb96b4a85d41aaa240e1c599b3fa04b9870c01db1985213434105",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "col-partition",
+        "minColId": "8KPBM",
+        "maxColId": "C8N2N"
+      },
+      {
+        "path": "nomenclature/reptiledb-turtles-lepidosaurs-013.json.gz",
+        "records": 857,
+        "bytes": 174602,
+        "sha256": "62d17635a94d2ed323569c557af370479011ed2ec19d9d8ae9c993cd04d44abc",
+        "sourceBytes": 2095122,
+        "sourceSha256": "baa6a92f324983f1dd23d56ee545c7fdfcd119ba2b43c3c7a97ad0aaa77ed715",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "col-partition",
+        "minColId": "C8N78",
+        "maxColId": "PRCJ"
+      },
+      {
+        "path": "nomenclature/reptiledb-turtles-lepidosaurs-014.json.gz",
+        "records": 965,
+        "bytes": 192321,
+        "sha256": "b977d8db03362f7dc9b92cb81d9438e27174e76e4028bf08663d075f939d4c11",
+        "sourceBytes": 2087577,
+        "sourceSha256": "66ec90953e44c6f7ecd2674d279b75e6a6118e641862d3a1e38bd764a8e9e035",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "col-partition",
+        "minColId": "PT6B",
+        "maxColId": "ZPC9"
+      },
+      {
+        "path": "nomenclature/reptiledb-turtles-lepidosaurs-015.json.gz",
+        "records": 66,
+        "bytes": 14495,
+        "sha256": "197d32c9d9e29228ca31217434b90175da4a41f20253d38b326344f60dd764c4",
+        "sourceBytes": 175011,
+        "sourceSha256": "f2d9c90eac767ac3546017ec4b9ef33b961b5ae3295bfc8215aa34182942e357",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "col-partition",
+        "minColId": "ZPCJ",
+        "maxColId": "ZYNC"
+      },
+      {
+        "path": "nomenclature/reptiledb-turtles-lepidosaurs-source-only-000.json.gz",
+        "records": 1,
+        "bytes": 543,
+        "sha256": "cfc9f5cef4a8a70d6da3769748aba81f56d02ca197336cd481581710554f6abc",
+        "sourceBytes": 1633,
+        "sourceSha256": "6ef77ad1649ae4d8f0baf54373ba8db1b26324db5cb7776268d60ba142fda153",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "role": "upstream-only"
+      }
+    ]
+  }
+}
