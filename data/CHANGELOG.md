@@ -2,6 +2,8 @@
 
 ## Unreleased content corrections
 
+- Added the original comparative diagnosis of Wittmackia aurantiolilacina (COL26.8 VBWPB), bringing the Plazi collection to 16 species / 35 paragraphs. Retained source authorship and citation; did not import embedded materials or conservation analysis as a current species assessment.
+
 - Expanded Plazi original descriptions by five accepted species and ten paragraphs (15 species / 34 paragraphs total). Preserved the explicit COL26.8 peugeoti-to-peugeotorum synonym redirect with source name and usage ID; excluded unmatched identities and figure-only material.
 
 - Added 24 attributed Plazi treatment paragraphs for 10 species, retaining publication/sample scope, original language and author-variant mapping disclosures. Full-Web catalogue delivery is lazy; Pages preview omits the collection. Original source-text discrepancies are not silently reconciled, and historical/proposed conservation statements are not imported as current status.

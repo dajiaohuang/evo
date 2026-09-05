@@ -9,6 +9,7 @@ const input = process.argv[2]
 if (!input) throw new Error('Usage: node scripts/import-plazi-descriptions.mjs <retained-intake-directory>')
 const hash = bytes => createHash('sha256').update(bytes).digest('hex')
 const inputs = {
+  wittmackia: '4ea8ddb374fa2a1622f8baf9d3d99940bcecd85a6877e446ab2e462edbaa130a',
   mixed: 'dcf8f09cb0ef96055df932b89f79ee33ed8f68c3198f53c09324b241ac36e4fc',
   fish: '78dea6e79bcd40ae8528d73e431e5c39624bc64a67e50c70d7d4d5831fb98491',
   plant: '992bbf943121da325c517ea3a6fb733eed10aeb99e99f657f9c8e9b1d7d6d7df',
