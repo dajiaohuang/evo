@@ -1,0 +1,23 @@
+{
+  "provider": "Missouri Botanical Garden",
+  "title": "Moss Flora of Central America",
+  "retrievedAt": "2026-09-05",
+  "sourceVersion": "WFO archive retrieved 2026-09-05",
+  "sourceUrl": "https://files.worldfloraonline.org/files/MBG/Central_American_Mosses/Central_American_Mosses.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "archiveSha256": "5e3e566508bdfdd6a7afe8d416d92ee7a45bb26d0ed7a2ac78d2b161ea34e2c9",
+  "inputSha256": "dbc7909e3d373b3ab44a38b91b7ebd9def890153db64488aa5b12477dc13ed25",
+  "output": "data/sources/moss-descriptions.jsonl.gz",
+  "outputBytes": 136852,
+  "outputSha256": "62c1ddc7dd3d666867930353adc15ace903b89634a28c437ca6b337988ce23c2",
+  "species": 276,
+  "descriptions": 276,
+  "limitations": [
+    "Regional historical English source excerpts, not complete global species dossiers.",
+    "54 excerpts reach the observed 32759-character source boundary and may be truncated; no missing text is reconstructed.",
+    "76 source fields lack a closing paragraph tag; this alone does not prove textual truncation.",
+    "HTML removed and entities decoded using the existing flora plain-text converter; original markup retained independently.",
+    "WFO/COL links do not establish identical taxonomic concepts across source dates."
+  ]
+}

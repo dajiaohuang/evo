@@ -1404,6 +1404,27 @@ export interface CatalogueMesoDescriptionRecord {
   }>
 }
 
+export interface CatalogueMossDescriptionRecord {
+  colId: string
+  wfoId: string
+  scientificName: string
+  descriptions: Array<{
+    type: 'general'
+    text: string
+    language: 'en'
+    rowNumber: number
+    sourceId: string
+    citations: string[]
+    referenceRowNumbers: number[]
+    rightsHolder: string
+    rights: string
+    license: string
+    sourceExcerpt: true
+    atSourceCharacterLimit: boolean
+    sourceEndUnclosed: boolean
+  }>
+}
+
 export interface CatalogueFdacDescriptionRecord {
   colId: string
   wfoId: string
@@ -1425,6 +1446,11 @@ export interface CatalogueFdacDescriptionRecord {
 }
 
 export interface CatalogueRuntimeManifest {
+  mossDescriptions?: {
+    source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
+    routes: Record<string, string[]>
+    files: CatalogueRuntimeFile[]
+  }
   fdacDescriptions?: {
     source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
     routes: Record<string, string[]>

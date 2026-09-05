@@ -1601,6 +1601,17 @@ const sanbiFiles = partitionSanbiDescriptions(sanbiRecords).map(([prefix, record
 const plaziSource = readJson('data/sources/plazi-descriptions-import-ledger.json')
 const mesoSource = readJson('data/sources/meso-descriptions-import-ledger.json')
 const fdacSource = readJson('data/sources/fdac-descriptions-import-ledger.json')
+const mossSource = readJson('data/sources/moss-descriptions-import-ledger.json')
+const mossBytes = readFileSync(join(rootDir, mossSource.output))
+if (mossBytes.length !== mossSource.outputBytes || sha256(mossBytes) !== mossSource.outputSha256) throw new Error('Moss Flora source bytes differ from the import ledger')
+const mossRecords = gunzipSync(mossBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
+const mossRoutes = {}
+const mossFiles = partitionSanbiDescriptions(mossRecords).map(([prefix, records]) => {
+  const path = `catalogue/descriptions/moss-${prefix}.json.gz`
+  const file = { ...writeGzipJson(path, records), prefix, path, records: records.length }
+  mossRoutes[prefix] = [file.url]
+  return file
+})
 const fdacBytes = readFileSync(join(rootDir, fdacSource.output))
 if (fdacBytes.length !== fdacSource.outputBytes || sha256(fdacBytes) !== fdacSource.outputSha256) throw new Error('FDAC source bytes differ from the import ledger')
 const fdacRecords = gunzipSync(fdacBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
@@ -1648,6 +1659,7 @@ catalogueRuntimeManifest = {
   foaDescriptions: { source: foaSource, routes: foaRoutes, files: foaFiles },
   mesoDescriptions: { source: mesoSource, routes: mesoRoutes, files: mesoFiles },
   fdacDescriptions: { source: fdacSource, routes: fdacRoutes, files: fdacFiles },
+  mossDescriptions: { source: mossSource, routes: mossRoutes, files: mossFiles },
   sanbiDescriptions: { source: sanbiSource, routes: sanbiRoutes, files: sanbiFiles },
   provenance: catalogueProvenance,
   sourceChecklists: { ...catalogueSourceManifest.sourceChecklists, url: catalogueSourcesFile.url },
@@ -1769,6 +1781,7 @@ const current = {
       + (catalogueRuntimeManifest.foaDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.mesoDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.fdacDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
+      + (catalogueRuntimeManifest.mossDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.plaziDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0),
     pagesLimitBytes: 650 * 1024 * 1024,
   },
