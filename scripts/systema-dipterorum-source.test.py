@@ -69,7 +69,23 @@ class SystemaDipterorumProjectionTests(unittest.TestCase):
                             for p in second.iterdir() if p.is_file() and p.name != "systema-dipterorum-neighbor.json.gz"}
             self.assertEqual(first_files, second_files)
 
+            ledger_name = "data/sources/systema-dipterorum-archive-1101-import-ledger.json"
+            first_ledger = Path(one) / ledger_name
+            second_ledger = Path(two) / ledger_name
+            canonical_ledger = ROOT / ledger_name
+            self.assertEqual(first_ledger.read_bytes(), second_ledger.read_bytes())
+            self.assertEqual(first_ledger.read_bytes(), canonical_ledger.read_bytes())
+
             descriptor = json.loads((first / "systema-dipterorum-sidecar.json").read_text(encoding="utf-8"))
+            canonical = ROOT / "data/packages/arthropoda/crustaceans-insects/nomenclature"
+            canonical_descriptor = json.loads(
+                (canonical / "systema-dipterorum-sidecar.json").read_text(encoding="utf-8"))
+            canonical_names = {"systema-dipterorum-sidecar.json"}
+            canonical_names.update(Path(item["path"]).name
+                                   for item in canonical_descriptor["files"] +
+                                   canonical_descriptor["upstreamOnlyFiles"])
+            canonical_files = {name: sha(canonical / name) for name in canonical_names}
+            self.assertEqual(first_files, canonical_files)
             self.assertEqual(descriptor["scope"]["sourceSelectedSpecies"], 180792)
             self.assertEqual(descriptor["scope"]["sourceTaxonRoot"]["orphanTaxa"], 7)
             self.assertEqual(descriptor["counts"], {
@@ -87,6 +103,8 @@ class SystemaDipterorumProjectionTests(unittest.TestCase):
             self.assertEqual(represented_ids, expected_ids)
             source_only = [row for row in rows if row["status"] == "source-only"]
             source_only_ids = [row["matchedName"]["id"] for row in source_only]
+            self.assertTrue(all(row["colId"] is None and row["acceptedName"] is None
+                                for row in source_only))
             self.assertEqual(len(source_only_ids), len(set(source_only_ids)))
             self.assertEqual(set(source_only_ids), expected_ids - {
                 row["matchedName"]["id"] for row in rows if row["status"] == "accepted"})
@@ -120,6 +138,15 @@ class SystemaDipterorumProjectionTests(unittest.TestCase):
             self.assertEqual(len(orphan_ids), 7)
             self.assertEqual({item["taxonId"] for item in descriptor["scope"]["sourceTaxonRoot"]["orphanRecords"]},
                              orphan_ids)
+
+            ledger = json.loads(first_ledger.read_text(encoding="utf-8"))
+            self.assertEqual(ledger["source"], descriptor["source"])
+            declared = ledger["outputs"]["files"] + ledger["outputs"]["upstreamOnlyFiles"]
+            self.assertEqual(len(declared), len(descriptor["files"]) + len(descriptor["upstreamOnlyFiles"]))
+            for item in declared:
+                path = first / item["path"].split("/", 1)[-1]
+                self.assertEqual(path.stat().st_size, item["bytes"], item["path"])
+                self.assertEqual(sha(path), item["sha256"], item["path"])
 
 
 if __name__ == "__main__":
