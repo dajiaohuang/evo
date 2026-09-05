@@ -354,6 +354,7 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
             <p lang="en">{description.citation}</p>
             <p lang="en">{description.limitations}</p>
             {description.sourceAuthorship && <p>{zh ? '原始署名：' : 'Source authorship: '}{description.sourceAuthorship}</p>}
+            {description.sourceScientificName && <p>{zh ? '来源名称：' : 'Source name: '}{description.sourceScientificName} · {description.sourceColUsageId}</p>}
             <small><a href={description.treatmentUrl}>{zh ? '原始分类处理' : 'Original treatment'}</a> · description.txt:{description.rowNumber} · {description.mappingBasis}</small>
           </details>)}
         </section>}

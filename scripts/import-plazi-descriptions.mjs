@@ -9,6 +9,7 @@ const input = process.argv[2]
 if (!input) throw new Error('Usage: node scripts/import-plazi-descriptions.mjs <retained-intake-directory>')
 const hash = bytes => createHash('sha256').update(bytes).digest('hex')
 const inputs = {
+  mixed: 'dcf8f09cb0ef96055df932b89f79ee33ed8f68c3198f53c09324b241ac36e4fc',
   fish: '78dea6e79bcd40ae8528d73e431e5c39624bc64a67e50c70d7d4d5831fb98491',
   plant: '992bbf943121da325c517ea3a6fb733eed10aeb99e99f657f9c8e9b1d7d6d7df',
   syspira: '9a42abf9927f8e55c787a46edcae955e06a447c8ba55fc1ce4cca8774d9af623',
@@ -22,6 +23,7 @@ for (const [name, expected] of Object.entries(inputs)) {
     species.get(row.colId).descriptions.push({
       type: row.type, text: row.text, language: row.language, citation: row.citation,
       sourceAuthorship: row.sourceAuthorship, sourceLanguage: row.sourceLanguage,
+      sourceScientificName: row.sourceScientificName, sourceColUsageId: row.sourceColUsageId,
       treatmentUrl: row.treatmentUrl, rowNumber: row.rowNumber,
       archiveSha256: row.archiveSha256, sourceArchive: row.sourceArchive,
       mappingBasis: row.mappingBasis ?? 'individually-reviewed-name-authorship-and-lineage',

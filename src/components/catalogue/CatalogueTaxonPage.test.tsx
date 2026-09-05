@@ -30,6 +30,7 @@ it('preserves Plazi language, citation and limitations in collapsed details', as
     type: 'diagnosis', text: 'Herba annua.', language: 'la', citation: 'Original taxonomic publication',
     treatmentUrl: 'https://treatment.plazi.org/id/example', rowNumber: 3, archiveSha256: 'abc', sourceArchive: 'example.zip',
     sourceAuthorship: 'Original author', mappingBasis: 'individually-reviewed-bibliographic-author-variant', limitations: 'Publication sample scope.',
+    sourceScientificName: 'Original species name', sourceColUsageId: 'source-usage',
   }] })
   render(<CatalogueTaxonPage release="COL26.8" id="8MG5" onNavigate={vi.fn()} />)
   const text = await screen.findByText('Herba annua.')
@@ -40,6 +41,7 @@ it('preserves Plazi language, citation and limitations in collapsed details', as
   expect(details.open).toBe(true)
   expect(screen.getByText('Original taxonomic publication')).toBeInTheDocument()
   expect(screen.getByText('Publication sample scope.')).toBeInTheDocument()
+  expect(screen.getByText(/Source name: Original species name/)).toHaveTextContent('source-usage')
   expect(screen.getByRole('link', { name: 'Original treatment' })).toHaveAttribute('href', 'https://treatment.plazi.org/id/example')
 })
 
