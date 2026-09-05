@@ -11,6 +11,7 @@ import (
 	"os"
 	"runtime"
 	"sort"
+	"strings"
 	"sync"
 	"time"
 
@@ -32,7 +33,25 @@ func main() {
 	concurrency := flag.Int("concurrency", 16, "parallel workers for the mixed request test")
 	fullSync := flag.Bool("full-sync", false, "transfer and hash every current full-release resource, then verify Range resume")
 	syncConcurrency := flag.Int("sync-concurrency", 4, "parallel workers for -full-sync")
+	serverURL := flag.String("server-url", "", "HTTP server URL for -full-sync; omit to use an in-process httptest server")
 	flag.Parse()
+	if *fullSync && strings.TrimRight(*serverURL, "/") != "" {
+		client := &http.Client{}
+		report, err := runFullSync(client, strings.TrimRight(*serverURL, "/"), *syncConcurrency)
+		if err != nil {
+			panic(err)
+		}
+		report.Transport = "http-socket"
+		b, err := json.MarshalIndent(report, "", "  ")
+		if err != nil {
+			panic(err)
+		}
+		fmt.Println(string(b))
+		if report.Errors != 0 || report.Mismatches != 0 || report.Resume.Status != http.StatusPartialContent || !report.Resume.HashMatches {
+			os.Exit(1)
+		}
+		return
+	}
 	started := time.Now()
 	data, err := store.New(*root)
 	if err != nil {
@@ -47,6 +66,7 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
+		report.Transport = "httptest-in-process"
 		b, err := json.MarshalIndent(report, "", "  ")
 		if err != nil {
 			panic(err)

@@ -21,6 +21,16 @@ The search implementation bounds retained matches to the requested page window w
 
 `GET /v1/sources/{authority}/{sourceID}` resolves the current release's shared source metadata. The response carries `sourceKey: "authority:sourceID"` and a `source` object with the declared title, citation, version and identifiers. `ChecklistBank:{sourceDatasetId}` is the namespace for Catalogue-of-Life source checklist records; authority sidecars may expose their own declared alias namespace. The endpoint never treats a source ID as globally unique, and an unknown key is `404` rather than an inferred source.
 
+Example:
+
+```text
+GET /v1/sources/ChecklistBank/1008
+```
+
+```json
+{"schemaVersion":1,"apiVersion":"v1","protocolVersion":"v1","datasetVersion":"2026.09-static-v5-rc143","sourceKey":"ChecklistBank:1008","source":{"authority":"ChecklistBank","sourceId":"1008","title":"The Reptile Database","shortName":"ReptileDB","version":"2026-06","publicationDate":"2026-06-24","doi":"10.48580/d37s","citation":"Uetz, P., & Hošek, J. (2026). The Reptile Database (version 2026-06). In O. Bánki, Y. Roskov, M. Döring, G. Ower, D. R. Hernández Robles, C. A. Plata Corredor, T. Stjernegaard Jeppesen, A. Örn, T. Pape, D. Hobern, S. Garnett, H. Little, R. E. DeWalt, J. Miller, T. Orrell, R. Aalbu, J. Abbott, C. Aedo, E. Aescht, et al., Catalogue of Life (Version 2026-08-20). Catalogue of Life Foundation, Amsterdam, Netherlands. https://doi.org/10.48580/d37s","informationUrl":"http://www.reptile-database.org","license":"Creative Commons Attribution (CC BY) 4.0","licenseUrl":"http://creativecommons.org/licenses/by/4.0/legalcode"}}
+```
+
 ## Resources and sync
 
 The catalogue registry manifest URL is derived from the current `data/manifest.json` checksum inventory rather than hardcoded to a historical release path.

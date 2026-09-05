@@ -53,6 +53,12 @@ go -C backend run ./cmd/evo-bench -data-root .. -full-sync -sync-concurrency 4
 
 This is opt-in because it transfers and hashes the complete current `full` profile. The command reports the pinned dataset version, inventory totals, transferred bytes, mismatches, errors, throughput and resume hash result.
 
+To measure the same flow through a real listening HTTP socket, start `evo-api` and pass its URL; the report labels this as `http-socket` rather than `httptest-in-process`:
+
+```powershell
+go -C backend run ./cmd/evo-bench -full-sync -server-url http://127.0.0.1:8787 -sync-concurrency 4
+```
+
 ## Build the deterministic inventory
 
 The server indexes the current `data/` tree without trusting generated checksum metadata as a resource ETag. It hashes each file lazily from the current bytes when sync or resource delivery needs a digest. To create a complete standalone hash-addressed inventory artifact:
