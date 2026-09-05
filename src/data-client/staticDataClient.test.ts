@@ -594,6 +594,7 @@ describe('static runtime release coherence', () => {
     ['sponges-cnidarians', 'worms-hydrozoa-archive-crosswalk'],
     ['crustaceans-insects', 'osf-orthoptera-archive-crosswalk'],
     ['crustaceans-insects', 'worms-crustacea-archive-crosswalk'],
+    ['trilobites-chelicerates', 'wsc-spiders-archive-crosswalk'],
     ['turtles-lepidosaurs', 'reptiledb-turtles-lepidosaurs-extension'],
     ['crocodylomorphs-birds', 'reptiledb-crocodylia-extension'],
   ] as const)('loads only the selected %s / %s archive range and no row files on Web', async (packageId, collectionId) => {

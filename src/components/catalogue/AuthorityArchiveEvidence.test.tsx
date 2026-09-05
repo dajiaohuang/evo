@@ -40,6 +40,7 @@ describe('authority archive disclosure', () => {
     expect(load).not.toHaveBeenCalled()
   })
   it.each([
+    ['trilobites-chelicerates', 'RN', 'SPIDER1', 'wsc-spiders-archive-crosswalk', 'World Spider Catalog'],
     ['crustaceans-insects', '93', '326BJ', 'chilobase-archive-crosswalk', 'ChiloBase'],
     ['trilobites-chelicerates', '42N', '345WT', 'scorpion-files-archive-crosswalk', 'The Scorpion Files'],
     ['turtles-lepidosaurs', '45C', 'REPTILE1', 'reptiledb-turtles-lepidosaurs-extension', 'ReptileDB'],
@@ -73,6 +74,19 @@ describe('authority archive disclosure', () => {
     expect(await screen.findByRole('link', { name: 'Verify the version recorded inside the archive' }))
       .toHaveAttribute('href', 'https://doi.org/10.48580/d37s.v31')
     expect(screen.queryByRole('link', { name: 'Verify the pinned source version' })).not.toBeInTheDocument()
+  })
+  it('discloses WSC API and embedded archive metadata without inventing a version', async () => {
+    load.mockResolvedValue({ collection: { ...collection, id: 'wsc-spiders-archive-crosswalk',
+      packageId: 'trilobites-chelicerates', source: { license: 'cc by', versionDoi: '10.48580/d4btg.v80',
+        embeddedMetadata: { doi: '10.24436/2', version: '' }, metadataConsistency: { status: 'mismatch' } } }, record: null })
+    const { container } = render(<AuthorityArchiveEvidence colId="SPIDER1" packageId="trilobites-chelicerates" lineageIds={['RN']} zh={false} />)
+    const details = container.querySelector('details')!
+    details.open = true
+    fireEvent(details, new Event('toggle'))
+    expect(await screen.findByText(/API and embedded archive metadata differ/)).toBeInTheDocument()
+    expect(screen.getByText('Embedded archive version: not supplied')).toBeInTheDocument()
+    expect(screen.getByRole('link', { name: 'Verify the DOI recorded inside the archive' })).toHaveAttribute('href', 'https://doi.org/10.24436/2')
+    expect(screen.getByRole('link', { name: 'Verify the pinned source version' })).toHaveAttribute('href', 'https://doi.org/10.48580/d4btg.v80')
   })
   it('routes the Radiozoa COL root to the WoRMS archive without loading while collapsed', async () => {
     load.mockResolvedValue({ collection: { ...collection, id: 'worms-radiozoa-archive-crosswalk', packageId: 'protists-chromists' }, record: null })

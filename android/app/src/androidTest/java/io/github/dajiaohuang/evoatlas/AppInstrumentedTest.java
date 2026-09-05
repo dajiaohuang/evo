@@ -227,7 +227,9 @@ public class AppInstrumentedTest {
                     verifyAuthorityArchiveCollection(context, files, findCollection(collections, "chilobase-archive-crosswalk"),
                             3, 1, 3141, 872, "ChiloBase Chilopoda");
                 } else {
-                    assertEquals(2, collections.length());
+                    assertEquals(3, collections.length());
+                    verifyAuthorityArchiveCollection(context, files, findCollection(collections, "wsc-spiders-archive-crosswalk"),
+                            43, 1, 53353, 62, "cc by", "World Spider Catalog");
                     verifyAuthorityArchiveCollection(context, files, findCollection(collections, "scorpion-files-archive-crosswalk"),
                             8, 1, 2940, 67, "The Scorpion Files");
                 }

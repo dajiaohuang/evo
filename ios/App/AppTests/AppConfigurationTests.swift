@@ -256,7 +256,11 @@ final class AppConfigurationTests: XCTestCase {
                         inventory: files, below: dataRoot, expectedFiles: 3, expectedUpstreamFiles: 1,
                         expectedRecords: 3_141, expectedUpstreamRecords: 872, label: "ChiloBase Chilopoda")
                 } else {
-                    XCTAssertEqual(collections.count, 2)
+                    XCTAssertEqual(collections.count, 3)
+                    try verifyAuthorityArchiveCollection(
+                        collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "wsc-spiders-archive-crosswalk" }),
+                        inventory: files, below: dataRoot, expectedFiles: 43, expectedUpstreamFiles: 1,
+                        expectedRecords: 53_353, expectedUpstreamRecords: 62, expectedLicense: "cc by", label: "World Spider Catalog")
                     try verifyAuthorityArchiveCollection(
                         collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "scorpion-files-archive-crosswalk" }),
                         inventory: files, below: dataRoot, expectedFiles: 8, expectedUpstreamFiles: 1,

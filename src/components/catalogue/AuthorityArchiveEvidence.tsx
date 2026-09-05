@@ -3,6 +3,7 @@ import { loadPackageAuthorityArchiveRecord, loadPackageAuthorityArchiveSourceOnl
 import type { AuthorityArchiveCollectionId, AuthorityArchiveName, AuthorityArchiveRecord, RuntimeAuthorityArchiveCollection } from '../../data-client/types'
 
 const scopes: Array<{ root: string; packageId: string; id: AuthorityArchiveCollectionId; title: string }> = [
+  { root: 'RN', packageId: 'trilobites-chelicerates', id: 'wsc-spiders-archive-crosswalk', title: 'World Spider Catalog · Araneae' },
   { root: 'M2L', packageId: 'molluscs-brachiopods', id: 'worms-mollusca-archive-crosswalk', title: 'WoRMS · Mollusca' },
   { root: 'B8TXQ', packageId: 'sponges-cnidarians', id: 'worms-porifera-archive-crosswalk', title: 'WoRMS · Porifera' },
   { root: 'B8V3X', packageId: 'sponges-cnidarians', id: 'worms-hydrozoa-archive-crosswalk', title: 'WoRMS · Hydrozoa' },
@@ -29,6 +30,19 @@ const scopes: Array<{ root: string; packageId: string; id: AuthorityArchiveColle
 function SourceName({ name }: { name: AuthorityArchiveName }) {
   const text = `${name.scientificName} ${name.authorship}`.trim()
   return <span>{/^https?:\/\//.test(name.url) ? <a href={name.url} target="_blank" rel="noreferrer">{text}</a> : text} <code>{name.id}</code>{name.nameId && <small> Name ID: {name.nameId}</small>}</span>
+}
+
+function ArchiveMetadataDifference({ source, zh }: { source: RuntimeAuthorityArchiveCollection['source']; zh: boolean }) {
+  const consistency = source.metadataConsistency
+  if (!consistency || typeof consistency !== 'object' || !('status' in consistency) || consistency.status !== 'mismatch') return null
+  const metadata = source.embeddedMetadata
+  const embeddedDoi = metadata && typeof metadata === 'object' && 'doi' in metadata && typeof metadata.doi === 'string' ? metadata.doi : ''
+  const embeddedVersion = metadata && typeof metadata === 'object' && 'version' in metadata && typeof metadata.version === 'string' ? metadata.version : ''
+  return <div>
+    <p>{zh ? 'API 与归档内的元数据不同。逐条投影来自固定字节归档，不能据此认定两份版本声明等同。' : 'API and embedded archive metadata differ. Rows come from the byte-pinned archive; the two version statements are not treated as equivalent.'}</p>
+    <p>{zh ? '归档内版本：' : 'Embedded archive version: '}{embeddedVersion || (zh ? '未提供' : 'not supplied')}</p>
+    {embeddedDoi && <a href={`https://doi.org/${embeddedDoi}`} target="_blank" rel="noreferrer">{zh ? '核对归档内记录的 DOI' : 'Verify the DOI recorded inside the archive'}</a>}
+  </div>
 }
 
 function SourceOnlyRecords({ collection, fileIndex, zh }: { collection: RuntimeAuthorityArchiveCollection; fileIndex: number; zh: boolean }) {
@@ -105,6 +119,7 @@ function ArchiveRecord({ scope, colId, zh }: { scope: typeof scopes[number]; col
           <p>{record.mappingBasis}</p>
         </>}
     {doi && <a href={`https://doi.org/${doi}`} target="_blank" rel="noreferrer">{zh ? '核对固定来源版本' : 'Verify the pinned source version'}</a>}
+    <ArchiveMetadataDifference source={collection.source} zh={zh} />
     {archiveDoi && archiveDoi !== doi && <a href={`https://doi.org/${archiveDoi}`} target="_blank" rel="noreferrer">{zh ? '核对归档内记录的版本' : 'Verify the version recorded inside the archive'}</a>}
     {collection.delivery.completeRows && counts.upstreamOnly > 0 && <SourceOnlyDisclosure collection={collection} zh={zh} />}
   </div>

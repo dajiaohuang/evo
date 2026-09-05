@@ -206,7 +206,15 @@ for (const packageEntry of packageRegistry.packages) {
       failures.push('crustaceans-insects: ChiloBase summary or canonical inventory is incomplete')
     }
   } else if (packageEntry.id === 'trilobites-chelicerates') {
-    if (nomenclatureCollections.length !== 2) failures.push('trilobites-chelicerates: expected ITIS and Scorpion Files nomenclature collections')
+    if (nomenclatureCollections.length !== 3) failures.push('trilobites-chelicerates: expected ITIS, WSC and Scorpion Files nomenclature collections')
+    const spiders = nomenclatureCollections.find((collection) => collection.id === 'wsc-spiders-archive-crosswalk')
+    if (!spiders || spiders.source?.datasetId !== '56185' || spiders.source?.license !== 'cc by'
+      || spiders.counts?.total !== 53353 || spiders.counts?.accepted !== 53338
+      || spiders.counts?.unmatched !== 15 || spiders.counts?.upstreamOnly !== 62
+      || spiders.delivery?.completeRows !== false || spiders.files?.length !== 0 || spiders.upstreamOnlyFiles?.length !== 0
+      || spiders.delivery?.canonicalFileCount !== 44 || spiders.canonicalFileInventory?.length !== 44) {
+      failures.push('trilobites-chelicerates: WSC summary or canonical inventory is incomplete')
+    }
     checkItisSummaryOnlyCollection('trilobites-chelicerates', nomenclatureCollections, {
       id: 'itis-chelicerata-tsn-crosswalk', total: 99511, accepted: 74948, redirects: 146, ambiguous: 141, unmatched: 24276, upstreamOnly: 5714, files: 17,
     })

@@ -207,7 +207,7 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
   const additionalAuthorityCollections = {
     echinoderms: 1, 'turtles-lepidosaurs': 1, 'crocodylomorphs-birds': 2,
     'molluscs-brachiopods': 1, 'sponges-cnidarians': 3, 'crustaceans-insects': 3,
-    'trilobites-chelicerates': 1,
+    'trilobites-chelicerates': 2,
   }[packageId] ?? 0
   if (collections.length !== Object.keys(expectedCollections).length + additionalAuthorityCollections) {
     throw new Error(`Mobile build has an unexpected ${packageId} nomenclature collection count`)
@@ -571,7 +571,7 @@ for (const file of interactiveFiles) {
 
 const files = filesBelow(outputRoot)
 const totalBytes = files.reduce((sum, file) => sum + statSync(file).size, 0)
-const limitMiB = 825
+const limitMiB = 850
 const limitBytes = limitMiB * 1024 * 1024
 if (totalBytes > limitBytes) {
   throw new Error(`Mobile application resources are ${(totalBytes / 1024 / 1024).toFixed(2)} MiB; limit is ${limitMiB} MiB`)

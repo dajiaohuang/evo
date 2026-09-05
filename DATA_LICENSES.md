@@ -1,5 +1,15 @@
 # Data licenses and provenance
 
+RC143 retains the World Spider Catalog archive from ChecklistBank dataset
+56185, import attempt 80, attributed to Natural History Museum Bern (2026).
+Both retained API and embedded archive metadata declare raw `cc by`; no license
+version is inferred. API version DOI `10.48580/d4btg.v80` is distinct from
+embedded DOI `10.24436/2`, whose version field is blank. Original bytes,
+references, distribution statements and locators remain attributed to WSC;
+COL26.8 fields retain CC BY 4.0 attribution. The derived exact-name crosswalk
+adds matching outcomes without claiming provider endorsement or species-concept
+equivalence. See [WSC archive scope and checksums](docs/wsc-56185-archive.md).
+
 RC136 retains the exact successful ChecklistBank archives and API metadata for
 *World List of Chaetognatha* (1132, attempt 85, version DOI
 `10.48580/d3d3.v85`), *World List of Rhombozoa* (1150, attempt 86, version DOI
