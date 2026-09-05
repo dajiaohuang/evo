@@ -1,5 +1,32 @@
 # Dataset changelog
 
+## Unreleased content corrections
+
+- Completed Chinese statement mappings for the 1,281 claims present at the translation checkpoint; later additions include both statement and rationale translations. Translation coverage is not worldwide species-description coverage or expert review.
+- Added source-bounded morphology evidence for Araneae, Coleoptera, Caudata, Myxini, Calcarea, Homoscleromorpha, Bryophyta and Anthocerotophyta. Fossil and living examples retain their specimen or sampling scope rather than being generalized to every member of their navigation group.
+- Added Gazave et al. (2010) as primary support for spiculate versus aspiculate homoscleromorph groups. Kept this skeletal distinction separate from fossil dating and from the later formal class-rank proposal.
+- Aligned the Life navigation caveat with its existing 3.7 Ga sampled biosignature boundary; this is not a date for abiogenesis or LUCA. Refreshed affected package projections and the entity registry without an application rebuild.
+
+- Added the 2021 Parioscorpio redescription, identified the 2020 scorpion-terrestrialization account as a historical hypothesis, moved Parioscorpio out of the scorpion navigation subtree, and withheld the Scorpiones range previously anchored to that fossil.
+- Replaced generic Rhyniognatha, Pennsylvanian Eumetabola and Xiphosura range descriptions with study-specific context without treating disputed affinity or fossil-record gaps as established continuous histories.
+
+- Added specific sample context for Protolenus, Gigoutella, Jaekelopterus, Ymboirana, Triarthrus, Rhyniella and the Paskov wing; clarified that the Parhyale experimental time marker denotes modern material.
+- Corrected Jaekelopterus measurements across the claim, event, reference and map example: 36.4 cm is the preserved fixed ramus, 45.5 cm its estimated complete length, and approximately 2.5 m a separate body-length estimate.
+
+- Replaced generic range introductions for Olenoides, Megachelicerax, Elpistostege, Acanthostega and Ichthyostega with named locality, specimen or stratigraphic context while preserving the fossil-range claims required by their profiles.
+
+- Clarified that Lingula larval mantle BMP activity supports a proposed shared biomineralization mechanism, not a functionally established causal role, following the original study's explicit qualification.
+
+- Distinguished Lingula anatina adult genomic material, embryonic and adult transcriptomes, and adult shell proteomics in the source description. Updated the Octopus map example to match the corrected sampling and duplication limitations.
+
+- Clarified the Octopus bimaculoides genome and RNA sampling relationship, replaced ambiguous cephalopod-specific expression wording, and retained the study's limitation that duplication followed by extensive gene loss was not excluded.
+
+- Clarified Ust’-Ishim 1 as an individual calibrated age at 95.4% probability, not the origin or complete range of Homo sapiens; separated dating (SI1) and admixture-model (SI18) reference locators.
+
+- Replaced the generic Fanjingshania navigation introduction with its source-linked formation, approximate age, holotype identifier and isolated-material count. Ecology remains unknown; this is not a new complete biological profile.
+
+- Corrected the Pimiento and Clements (2014) megalodon extinction-analysis interval from 3.6–2.6 Ma to its reported oldest inferred date of 3.5 Ma and modal estimate of 2.6 Ma. Updated the Chinese statement and source locator. This historical study-specific interval is not a complete species range, exact last appearance, or the revised estimate of later studies; no expert-review status was promoted.
+
 ## 2026.09-static-v5-rc145 — 2026-09-05
 
 - Added the pinned Systema Dipterorum source projection: 157,490 COL records and 23,513 separate source-only records across 93 full-data shards. All 180,792 selected source species remain represented; ambiguous matches do not imply species identity.

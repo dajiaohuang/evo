@@ -1,5 +1,200 @@
 [
   {
+    "id": "claim:taxon:equisetopsida:morphology",
+    "subjectId": "taxon:equisetopsida",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Elgorriaga and colleagues infer progressive size reduction and compact strobili along the Equisetaceae plus Neocalamites lineage, with modern-horsetail-like character combinations present by Jurassic times; this is a topology-dependent trend, not a body plan shared by all Equisetopsida.",
+    "confidence": "medium",
+    "confidenceRationale": "The discussion explicitly presents the trend as an implication of the recovered topology and uses tentative language for size reduction.",
+    "reviewedBy": "Codex automated primary-source review",
+    "reviewedAt": "2026-09-05",
+    "reviewedAgainstReferenceVersion": "Elgorriaga et al. 2018 DOI 10.1002/ajb2.1125; full-text discussion inspected 2026-09-05",
+    "referenceLinks": [{
+      "referenceId": "elgorriaga-2018-horsetails",
+      "relation": "supports",
+      "figure": "Figure 3",
+      "quoteLocator": "Discussion immediately before Age of the Equisetum crown group: contrasting Calamitaceae and Equisetaceae plus Neocalamites trajectories"
+    }]
+  },
+  {
+    "id": "claim:taxon:edmontosaurus:morphology",
+    "subjectId": "taxon:edmontosaurus",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "In Campione and Evans's skull sample, the long, low skulls historically assigned to Anatotitan copei fall within or close to Edmontosaurus annectens variation; the authors explain these proportions through size-related allometry and individual variation, with crushing potentially accentuating skull shape.",
+    "confidence": "medium",
+    "confidenceRationale": "The measured skull proportions support the study's interpretation, but ontogenetic explanation and preservation effects are inferential and remain limited to the sampled skulls.",
+    "reviewedBy": "Codex automated primary-source review",
+    "reviewedAt": "2026-09-05",
+    "reviewedAgainstReferenceVersion": "Campione and Evans 2011 DOI 10.1371/journal.pone.0025186; publisher full text inspected 2026-09-05",
+    "referenceLinks": [{
+      "referenceId": "campione-evans-2011-edmontosaur-taxonomy",
+      "relation": "supports",
+      "figure": "Figures 4–5",
+      "quoteLocator": "Discussion of the three longest skulls assigned to Anatotitan copei, allometric scaling and dorsoventral crushing"
+    }]
+  },
+  {
+    "id": "claim:taxon:eocursor:morphology",
+    "subjectId": "taxon:eocursor",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "The Eocursor holotype SAM-PK-K8025 has an elongated lower jaw with a low coronoid process and low, triangular tooth crowns in labial view; the poorly preserved front of the dentary does not establish whether a predentary was present.",
+    "confidence": "high",
+    "confidenceRationale": "The anatomical description directly reports the preserved jaw and tooth features and explicitly leaves predentary presence unresolved because of preservation.",
+    "reviewedBy": "Codex automated primary-source review",
+    "reviewedAt": "2026-09-05",
+    "reviewedAgainstReferenceVersion": "Butler et al. 2007 DOI 10.1098/rspb.2007.0367; full-text description inspected 2026-09-05",
+    "referenceLinks": [{
+      "referenceId": "butler-2007-eocursor",
+      "relation": "supports",
+      "pages": "2042",
+      "figure": "Figure 2a",
+      "quoteLocator": "Systematic palaeontology, Description: lower jaw, dentary preservation and tooth morphology"
+    }]
+  },
+  {
+    "id": "claim:taxon:anthocerotophyta:morphology",
+    "subjectId": "taxon:anthocerotophyta",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Li and colleagues illustrate sporophytes, gametophytes and stomata of Anthoceros agrestis Bonn; these named living materials provide a morphological example for hornworts, without establishing that every hornwort species has identical structures or resolving stomatal homology across land plants.",
+    "confidence": "high",
+    "confidenceRationale": "Figure 3b–c explicitly identifies the illustrated strain and structures; the developmental discussion separately notes that firm evidence for homology is scarce.",
+    "reviewedBy": "Codex automated primary-source review",
+    "reviewedAt": "2026-09-05",
+    "reviewedAgainstReferenceVersion": "Li et al. 2020 DOI 10.1038/s41477-020-0618-2; publisher full text inspected 2026-09-05",
+    "referenceLinks": [
+      {
+        "referenceId": "li-2020-hornwort-genomes",
+        "relation": "supports",
+        "figure": "Figure 3b–c",
+        "quoteLocator": "Figure 3 caption; Genes related to sporophyte development, opening paragraph"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:bryophyta:morphology",
+    "subjectId": "taxon:bryophyta",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "In the late Visean Glösa moss assemblage, Type I specimen KS27–074 is a nearly complete single-layered leaf with a central band of narrower cells and small pores in the periclinal walls; this fragmentary assemblage does not document complete plants or securely identify living moss taxa.",
+    "confidence": "medium",
+    "confidenceRationale": "The Type I description and Figure 3A directly document leaf cellular anatomy, while the authors explicitly withhold further identification because the material is incomplete and limited.",
+    "reviewedBy": "Codex automated primary-source review",
+    "reviewedAt": "2026-09-05",
+    "reviewedAgainstReferenceVersion": "Hübers and Kerp 2012 DOI 10.1130/G33122.1; author-uploaded full text inspected 2026-09-05",
+    "referenceLinks": [
+      {
+        "referenceId": "hubers-kerp-2012-oldest-mosses",
+        "relation": "supports",
+        "figure": "Figure 3A–B",
+        "quoteLocator": "Moss remains from the Glösa flora: Type I description and concluding identification limitation; Figure 3 caption"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:homoscleromorpha:morphology",
+    "subjectId": "taxon:homoscleromorpha",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Gazave and colleagues distinguish Homoscleromorpha with small skeletal spicules (Plakinidae) from those without spicules (Oscarellidae); their revised diagnoses describe varied aquiferous organization, not a mineral skeleton shared by every member of the class.",
+    "confidence": "high",
+    "confidenceRationale": "The study's revised family diagnoses explicitly contrast spicule presence and absence, supported by the sampled molecular groups; the description does not infer a date or direction of skeletal evolution.",
+    "reviewedBy": "Codex automated primary-source review",
+    "reviewedAt": "2026-09-05",
+    "reviewedAgainstReferenceVersion": "Gazave et al. 2010 DOI 10.1371/journal.pone.0014290; publisher full text inspected 2026-09-05",
+    "referenceLinks": [
+      {
+        "referenceId": "gazave-2010-homoscleromorph-subdivision",
+        "relation": "supports",
+        "figure": "Figure 6",
+        "quoteLocator": "Discussion: subdivision into two clades; revised diagnoses and key for Plakinidae and Oscarellidae"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:calcarea:morphology",
+    "subjectId": "taxon:calcarea",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Calcarea build calcite spicules and exhibit varied aquiferous-system organization; Voigt and colleagues illustrate asconoid, syconoid, sylleibid and leuconoid examples, rather than one body plan shared unchanged by every species.",
+    "confidence": "high",
+    "confidenceRationale": "The paper explicitly describes calcite spicules and illustrates contrasting aquiferous systems in named examples; no single illustrated organization is generalized to every species.",
+    "reviewedBy": "Codex automated primary-source review",
+    "reviewedAt": "2026-09-05",
+    "reviewedAgainstReferenceVersion": "Voigt et al. 2012 DOI 10.1371/journal.pone.0033417; publisher full text inspected 2026-09-05",
+    "referenceLinks": [
+      {
+        "referenceId": "voigt-2012-calcarea-phylogeny",
+        "relation": "supports",
+        "figure": "Figure 1",
+        "quoteLocator": "Introduction; The aquiferous system of Calcarea; Figure 1 caption"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:araneae:morphology",
+    "subjectId": "taxon:araneae",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Spider spinnerets are abdominal appendages that control silk deployment. Garwood et al. distinguish true spiders from the Carboniferous Idmonarachne fossil, whose preserved underside lacks spinnerets; its spider-like appearance alone does not make it a member of Araneae.",
+    "confidence": "high",
+    "confidenceRationale": "The study defines spinnerets and documents their absence using the preserved ventral surface and tomography. This claim retains the authors' anatomical distinction without treating inferred silk production in the fossil as an observation.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-09-05",
+    "reviewedAgainstReferenceVersion": "Garwood et al. 2016 DOI 10.1098/rspb.2016.0125; Europe PMC PMC4822468 full text",
+    "referenceLinks": [
+      {
+        "referenceId": "garwood-2016-idmonarachne",
+        "relation": "supports",
+        "pages": "20160125",
+        "quoteLocator": "Introduction: spinneret definition; Discussion: preserved underside, tomography and exclusion from Araneae"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:coleoptera:morphology",
+    "subjectId": "taxon:coleoptera",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Beetle elytra are hardened forewings that chiefly protect the hindwings and underlying body. Zhao et al. use these commonly preserved fossil structures to compare morphological disparity in Permian and Triassic beetles; this sampled comparison does not establish a single ecology for living Coleoptera.",
+    "confidence": "high",
+    "confidenceRationale": "The primary study explicitly defines elytra and explains their selection for disparity analysis. Confidence applies to that anatomical description and study design, not to classifying all living beetle ecologies.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-09-05",
+    "reviewedAgainstReferenceVersion": "Zhao et al. 2021 DOI 10.7554/eLife.72692; Europe PMC PMC8585485 full text",
+    "referenceLinks": [
+      {
+        "referenceId": "zhao-2021-beetle-evolution",
+        "relation": "supports",
+        "pages": "e72692",
+        "quoteLocator": "Morphological disparity: paragraph explaining three reasons for selecting beetle elytra"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:myxini:tethymyxine-soft-anatomy",
+    "subjectId": "taxon:myxini",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "The Cretaceous hagfish Tethymyxine preserves barbel cartilages, a branchial apparatus behind the skull and chemical traces interpreted as slime glands. These fossil features document similarities to living hagfish, not directly observed slime production or a universal description of every Myxini species.",
+    "confidence": "medium",
+    "confidenceRationale": "The primary-study abstract identifies the preserved anatomy and chemical traces. The slime-gland interpretation is distinguished from observed secretion, and the fossil specimen does not establish every living species' anatomy.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-09-05",
+    "reviewedAgainstReferenceVersion": "Miyashita et al. 2019 DOI 10.1073/pnas.1814794116; PubMed PMID 30670644 abstract",
+    "referenceLinks": [
+      {
+        "referenceId": "miyashita-2019-tethymyxine",
+        "relation": "supports",
+        "pages": "2146–2151",
+        "quoteLocator": "Abstract: soft tissue anatomy, barbel cartilages, postcranial branchial apparatus and chemical traces of slime glands"
+      }
+    ]
+  },
+  {
     "id": "claim:event:great-oxidation",
     "subjectId": "event:great-oxidation",
     "claimKind": "scientific",
@@ -4452,7 +4647,7 @@
         "referenceId": "fu-2014-ust-ishim",
         "relation": "supports",
         "pages": "445–449",
-        "figure": "Figures 1–4; Extended Data Figures 1–9; Supplementary Information sections 1 and 14",
+        "figure": "Figures 5–6; Supplementary Information sections 1 and 18",
         "quoteLocator": "Direct dates, ENA accession and Neanderthal-ancestry tract analysis"
       }
     ]
@@ -5722,7 +5917,7 @@
     "subjectId": "event:octopus-genome-innovation",
     "claimKind": "scientific",
     "claimType": "event-mechanism",
-    "statement": "The Octopus bimaculoides assembly and twelve tissue transcriptomes find expanded protocadherin and C2H2 zinc-finger families, extensive rearrangement and cephalopod-specific expression without evidence for a proposed whole-genome duplication.",
+    "statement": "The Octopus bimaculoides assembly and 12 RNA transcriptomes document expanded protocadherin and C2H2 zinc-finger families, extensive rearrangement and tissue-specific expression patterns. The study found no evidence for proposed whole-genome duplication, but did not rule out duplication followed by extensive gene loss.",
     "confidence": "high",
     "confidenceRationale": "Genome coverage, gene-family comparisons and tissue expression are documented datasets; causal language is bounded because these associations do not experimentally recreate cephalopod body-plan evolution.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -5785,7 +5980,7 @@
     "subjectId": "event:lingula-genome-biomineralization",
     "claimKind": "scientific",
     "claimType": "event-mechanism",
-    "statement": "The 425-Mb Lingula anatina genome, staged transcriptomes and shell proteome reveal shared chitin-synthase and BMP-related components plus lineage-specific shell proteins, supporting independently assembled phosphate biomineralization rather than a vertebrate bone program.",
+    "statement": "The 425-Mb Lingula anatina genome, embryonic and adult transcriptomes and shell proteome identify chitin-synthase and BMP-related components alongside lineage-specific shell proteins. BMP activity at larval mantle margins suggests a shared biomineralization mechanism, but its functional role requires further testing; the shell toolkit differs from vertebrate bone.",
     "confidence": "high",
     "confidenceRationale": "Genome, transcriptome and proteome datasets directly support gene and protein inventories; pathway recruitment and independent biomineralization are comparative evolutionary inferences, not fossil observations.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -5797,7 +5992,7 @@
         "relation": "supports",
         "pages": "Article 8301",
         "figure": "Figures 1–5; Supplementary Notes and Tables",
-        "quoteLocator": "Genome assembly; phylogenomics; shell transcriptome and proteome; biomineralization discussion"
+        "quoteLocator": "Genome sequencing and assembly; shell transcriptome and proteome; Figure 5 and BMP signalling discussion, including the need for further functional analyses"
       }
     ]
   },
@@ -5995,7 +6190,7 @@
     "subjectId": "event:jaekelopterus-giant-chelicera",
     "claimKind": "scientific",
     "claimType": "morphology",
-    "statement": "A 46-centimetre Jaekelopterus rhenaniae chelicera from Willwerath is direct fossil anatomy, whereas the approximately 2.5-metre total length is an allometric estimate contingent on pterygotid proportions and possible positive scaling of the claw.",
+    "statement": "The Willwerath Jaekelopterus rhenaniae fixed ramus preserves 36.4 cm; its complete length was estimated at 45.5 cm. The approximately 2.5-metre body length is a separate estimate based on related pterygotid proportions, with possible positive claw allometry remaining a source of uncertainty.",
     "confidence": "medium",
     "confidenceRationale": "Claw dimensions are direct and reproducible; whole-body gigantism depends on extrapolation from related taxa and scaling assumptions.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -6037,12 +6232,12 @@
     "subjectId": "event:parioscorpio-terrestrialization",
     "claimKind": "scientific",
     "claimType": "ecology",
-    "statement": "Parioscorpio venator holotype UWGM 2162 and paratype UWGM 2163 preserve scorpion anatomy and medial structures compared with a pulmonary-cardiovascular system; terrestrial physiology and habitat remain interpretations because respiratory organs are incomplete and deposition was nearshore.",
+    "statement": "Wendruff et al. (2020) interpreted Parioscorpio venator specimens UWGM 2162 and UWGM 2163 as scorpions and compared medial structures with a pulmonary-cardiovascular system. This claim records that study's terrestrialization hypothesis, not established scorpion anatomy, physiology or habitat.",
     "confidence": "contested",
-    "confidenceRationale": "Named specimens and internal structures are direct, but tissue homology, transport history and habitat cannot be resolved uniquely.",
-    "reviewedBy": "Evo Atlas maintainer primary-source audit",
-    "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "wendruff-2020-parioscorpio source inventory at 2026.08-static-v5-rc31",
+    "confidenceRationale": "The original study's interpretation is documented, but subsequent redescription rejected scorpion identification. Preserved structures do not establish the proposed pulmonary-cardiovascular homologies or terrestrial habitat.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-09-05",
+    "reviewedAgainstReferenceVersion": "Wendruff et al. 2020 original interpretation; Anderson et al. 2021 redescription and author data archive; historical-hypothesis correction",
     "referenceLinks": [
       {
         "referenceId": "wendruff-2020-parioscorpio",
@@ -12019,7 +12214,7 @@
     "subjectId": "taxon:cycadophyta",
     "claimKind": "scientific",
     "claimType": "taxonomy",
-    "statement": "Cycadophyta is represented as a broad navigation clade; sampled living and fossil taxa in the cited analyses do not establish one immutable total-group topology.",
+    "statement": "Coiro et al. combine molecular data from living cycads with leaf morphology from living and fossil taxa in a Bayesian total-evidence analysis to study cycad biogeographic history; its sampled topology is not an immutable total-group topology.",
     "confidence": "medium",
     "confidenceRationale": "The taxonomy field is bounded to Cycadophyta, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.",
     "reviewedBy": "Evo Atlas data maintenance",
@@ -14381,11 +14576,32 @@
     ]
   },
   {
+    "id": "claim:taxon:caudata:morphology",
+    "subjectId": "taxon:caudata",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "The Beiyanerpeton series preserves articulated cranial and postcranial skeletons with bony gill structures close to the cheek region; these specimen-level observations do not generalize to all Caudata.",
+    "confidence": "medium",
+    "confidenceRationale": "The named articulated skeletons and cheek-region bony gill structures are directly reported, while extension from this specimen series to all Caudata is not supported.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-09-05",
+    "reviewedAgainstReferenceVersion": "gao-2012-beiyanerpeton DOI 10.1073/pnas.1009828109; PMID 22411790",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "gao-2012-beiyanerpeton",
+        "pages": "5767–5772",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Abstract; holotype and referred specimen descriptions"
+      }
+    ]
+  },
+  {
     "id": "claim:taxon:protolenus",
     "subjectId": "taxon:protolenus",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Protolenus is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "The studied Protolenus (Hupeolenus) sp. specimens come from volcanic ash in the Tatelt Formation, Cambrian Series 2, Stage 4, in Morocco's Lemdad Syncline. This occurrence documents the study sample, not the genus's global first appearance or complete range.",
     "confidence": "medium",
     "confidenceRationale": "Protolenus: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -14406,7 +14622,7 @@
     "subjectId": "taxon:gigoutella",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Gigoutella is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "The studied Gigoutella mauretanica specimens come from volcanic ash in the Tatelt Formation, Cambrian Series 2, Stage 4, in Morocco's Lemdad Syncline. This locality records the studied fossils, not a global distribution or complete genus range.",
     "confidence": "medium",
     "confidenceRationale": "Gigoutella: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -14427,7 +14643,7 @@
     "subjectId": "taxon:olenoides",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Olenoides is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "Olenoides serratus is bounded here by the cited Burgess Shale sample from British Columbia, Canada; this named locality sample is not a genus-wide distribution or exact complete range.",
     "confidence": "medium",
     "confidenceRationale": "Olenoides: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -14439,7 +14655,7 @@
         "relation": "supports",
         "pages": "eabe7377",
         "figure": "Figures 1–5; Supplementary materials",
-        "quoteLocator": "Triarthrus imaging; Olenoides articulation; Functional comparison"
+        "quoteLocator": "Burgess Shale Olenoides serratus comparative sample"
       }
     ]
   },
@@ -14448,7 +14664,7 @@
     "subjectId": "taxon:triarthrus",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Triarthrus is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "Triarthrus eatoni is bounded here by the cited respiratory-appendage sample from Beecher's Trilobite Bed, New York, USA; this named locality sample is not a genus-wide distribution or exact complete range.",
     "confidence": "medium",
     "confidenceRationale": "Triarthrus: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -14460,7 +14676,7 @@
         "relation": "supports",
         "pages": "eabe7377",
         "figure": "Figures 1–5; Supplementary materials",
-        "quoteLocator": "Triarthrus imaging; Olenoides articulation; Functional comparison"
+        "quoteLocator": "Beecher's Trilobite Bed Triarthrus eatoni sample"
       }
     ]
   },
@@ -14469,7 +14685,7 @@
     "subjectId": "taxon:agnostina",
     "claimKind": "scientific",
     "claimType": "topology",
-    "statement": "The Agnostina navigation entity is source-linked only to the named specimen, dataset and analysis dossiers already cited by its range ledger. Its displayed span is a study-bounded route or sample envelope, not a biological taxon, ancestor sequence, global FAD/LAD or exact origin interval.",
+    "statement": "This Agnostina entry links the named specimen, dataset and analysis dossiers cited by its range ledger; it is not a complete account of the taxon. Its displayed span is a study-bounded sample envelope, not the full taxon range, an ancestor sequence, global FAD/LAD or an exact origin interval.",
     "confidence": "medium",
     "confidenceRationale": "Agnostinid Dossier Route: Medium confidence applies to the existence and documented scope of the linked dossiers and their concrete locators. The navigation grouping and displayed envelope are editorial organization, so no biological ancestry or global endpoint is inferred.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -14511,7 +14727,7 @@
     "subjectId": "taxon:jaekelopterus",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Jaekelopterus is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "The cited Jaekelopterus rhenaniae chelicera comes from the Willwerath Lagerstätte in Germany's Klerf Formation, assigned to the Lower Emsian of the Early Devonian. This fossil locality is not the genus's global distribution or complete temporal range.",
     "confidence": "medium",
     "confidenceRationale": "Jaekelopterus: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -14532,7 +14748,7 @@
     "subjectId": "taxon:megachelicerax",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Megachelicerax is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "Megachelicerax is bounded here by holotype KUMIP 314091a,b from the Drumian Wheeler Formation of Utah; this named holotype context is not a global distribution or exact complete range.",
     "confidence": "medium",
     "confidenceRationale": "Megachelicerax: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -14544,7 +14760,7 @@
         "relation": "supports",
         "pages": "931–937",
         "figure": "Figures 1–3; Extended Data",
-        "quoteLocator": "Holotype KUMIP 314091; External morphology; Phylogenetic analyses"
+        "quoteLocator": "Cambrian Drumian Wheeler Formation of Utah"
       }
     ]
   },
@@ -14553,7 +14769,7 @@
     "subjectId": "taxon:xiphosura",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Xiphosura is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "Lamsdell's 2020 revision compares fossil and living horseshoe crabs and discusses an Ordovician record separated from the next Upper Devonian occurrences by a fossil-record gap. This study-linked navigation span is not continuous occupancy, an exact origin date or a complete global range.",
     "confidence": "medium",
     "confidenceRationale": "Horseshoe Crabs and Fossil Kin: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -14574,19 +14790,17 @@
     "subjectId": "taxon:scorpiones",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Scorpiones is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "The Scorpiones range formerly used the Silurian Parioscorpio occurrence as its older endpoint. Anderson et al. (2021) rejected that fossil's scorpion identification, so this atlas withholds the inherited range pending independent scorpion evidence; no origin date is established here.",
     "confidence": "medium",
-    "confidenceRationale": "Scorpions: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
-    "reviewedBy": "Evo Atlas maintainer primary-source audit",
-    "reviewedAt": "2026-08-31",
-    "reviewedAgainstReferenceVersion": "wendruff-2020-parioscorpio; inherited concrete-locator audit at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The later redescription invalidates use of Parioscorpio as a scorpion range anchor. This records withdrawal of that inference, not an alternative age estimate.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-09-05",
+    "reviewedAgainstReferenceVersion": "Anderson et al. 2021, doi:10.1111/pala.12534; withdrawal of Parioscorpio-based Scorpiones range",
     "referenceLinks": [
       {
-        "referenceId": "wendruff-2020-parioscorpio",
+        "referenceId": "anderson-2021-parioscorpio-reassessment",
         "relation": "supports",
-        "pages": "14",
-        "figure": "Figures 1–4; Supplementary Figures",
-        "quoteLocator": "UWGM 2162 and 2163; Internal anatomy; Depositional and terrestrialization discussion"
+        "quoteLocator": "Redescription and rejection of scorpion affinities; phylogenetic conclusions"
       }
     ]
   },
@@ -14595,19 +14809,24 @@
     "subjectId": "taxon:parioscorpio",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Parioscorpio is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "Parioscorpio venator is documented from the Silurian Waukesha Lagerstatte in Wisconsin, including holotype UWGM 2162 and paratype UWGM 2163. Its 2021 redescription rejected the scorpion interpretation while leaving exact arthropod affinities unresolved; this occurrence does not date scorpion origins.",
     "confidence": "medium",
-    "confidenceRationale": "Parioscorpio: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
-    "reviewedBy": "Evo Atlas maintainer primary-source audit",
-    "reviewedAt": "2026-08-31",
-    "reviewedAgainstReferenceVersion": "wendruff-2020-parioscorpio; inherited concrete-locator audit at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The named fossils establish a local occurrence. The original scorpion interpretation was rejected in a subsequent redescription; exact arthropod placement remains unresolved, so the occurrence is not a scorpion-origin calibration.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-09-05",
+    "reviewedAgainstReferenceVersion": "Wendruff et al. 2020 type specimens and locality; Anderson et al. 2021, doi:10.1111/pala.12534, reassessment and author data archive",
     "referenceLinks": [
       {
         "referenceId": "wendruff-2020-parioscorpio",
         "relation": "supports",
         "pages": "14",
         "figure": "Figures 1–4; Supplementary Figures",
-        "quoteLocator": "UWGM 2162 and 2163; Internal anatomy; Depositional and terrestrialization discussion"
+        "quoteLocator": "UWGM 2162 and 2163; specimen locality and original description"
+      },
+      {
+        "referenceId": "anderson-2021-parioscorpio-reassessment",
+        "relation": "supports",
+        "quoteLocator": "Redescription and phylogenetic conclusions; alternative character codings archived with the study"
       }
     ]
   },
@@ -14749,7 +14968,7 @@
     "subjectId": "taxon:rhyniella",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Rhyniella praecursor is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "Rhyniella praecursor is bounded here by four head capsules and roughly ten additional body specimens from the Rhynie Chert, Aberdeenshire, Scotland; this named specimen series is not a complete species history or global range.",
     "confidence": "medium",
     "confidenceRationale": "Rhynie springtail material: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -14761,7 +14980,7 @@
         "relation": "supports",
         "pages": "317",
         "figure": "Published specimen assessment",
-        "quoteLocator": "Head capsules; additional specimens; abdomen and furcula"
+        "quoteLocator": "Rhynie Chert head capsules and additional body specimens"
       }
     ]
   },
@@ -14770,7 +14989,7 @@
     "subjectId": "taxon:rhyniognatha",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Rhyniognatha hirsti is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "Rhyniognatha hirsti is bounded here by isolated head fragment NHMUK PI IN 38234 from the Rhynie Chert, Aberdeenshire, Scotland; its insect versus myriapod affinity remains unresolved, so this is not a global range.",
     "confidence": "contested",
     "confidenceRationale": "Contested confidence records the published conflict between an insect or possible pterygote interpretation and a later three-dimensional reanalysis favouring a myriapod, possibly centipede. The claim is limited to specimen-level disagreement and does not promote either affinity or the display envelope into a global biological boundary.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -14782,14 +15001,14 @@
         "relation": "supports",
         "pages": "627–630",
         "figure": "Figures 1–2",
-        "quoteLocator": "Mandibular interpretation; basal-insect discussion"
+        "quoteLocator": "Rhynie Chert NHMUK PI IN 38234 head fragment"
       },
       {
         "referenceId": "haug-haug-2017-rhyniognatha",
         "relation": "contradicts",
         "pages": "e3402",
         "figure": "Figures 1–7",
-        "quoteLocator": "Re-documentation; structural interpretation; Conclusions"
+        "quoteLocator": "NHMUK PI IN 38234 re-documentation and affinity reassessment"
       }
     ]
   },
@@ -14826,7 +15045,7 @@
     "subjectId": "taxon:paskov-wing",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Paskov Archaeorthoptera wing is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "Paskov Archaeorthoptera wing is bounded here by a forewing part and counterpart from the Leonard IV horizon in the Paskov Mine drill core, Upper Silesian Basin, Czech Republic; this single fragment is not a global Pterygota range or flight-origin date.",
     "confidence": "medium",
     "confidenceRationale": "Lower Carboniferous wing fragment: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -14838,7 +15057,7 @@
         "relation": "supports",
         "pages": "383–387",
         "figure": "Figures 1–2",
-        "quoteLocator": "Material and horizon; wing description; discussion"
+        "quoteLocator": "Paskov Mine drill core Leonard IV horizon"
       }
     ]
   },
@@ -14847,7 +15066,7 @@
     "subjectId": "taxon:parhyale-wing-experiment",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Parhyale wing-homology experiment is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "This entry represents modern Parhyale hawaiensis leg-patterning knockout experiments compared with published insect phenotypes. Its 0 Ma marker denotes living experimental material, not a fossil occurrence, the age of insect wing origins or the species's complete temporal range.",
     "confidence": "medium",
     "confidenceRationale": "Crustacean leg-patterning knockouts: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -14896,7 +15115,7 @@
     "subjectId": "taxon:pennsylvanian-eumetabola",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Pennsylvanian Eumetabola sample is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "Pennsylvanian Eumetabola sample is bounded here by five fossils from Moscovian and Gzhelian localities in France and Russia; this composite sample is not one lineage range or a complete Eumetabola history.",
     "confidence": "medium",
     "confidenceRationale": "Five Carboniferous insect fossils: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -14908,7 +15127,7 @@
         "relation": "supports",
         "pages": "257–261",
         "figure": "Figures 1–4; Supplementary Information",
-        "quoteLocator": "Fossil descriptions; phylogeny; age and palaeoenvironment discussion"
+        "quoteLocator": "Five fossil descriptions and localities"
       }
     ]
   },
@@ -15022,7 +15241,7 @@
     "subjectId": "taxon:fanjingshania",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Fanjingshania renovata is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "Fanjingshania renovata is represented by holotype IVPP V27433.1 and more than 1000 isolated dermal elements from the late Aeronian Rongxi Formation at approximately 439 Ma; this source-linked sample is not a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
     "confidence": "medium",
     "confidenceRationale": "Silurian dermoskeletal chondrichthyan: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -15084,7 +15303,7 @@
     "subjectId": "taxon:elpistostege",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Elpistostege is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "Elpistostege is bounded here by articulated specimen MHNM 06-2067 from the Frasnian Escuminac Formation at Miguasha, Quebec, Canada; this named specimen context is not a global distribution or exact complete range.",
     "confidence": "medium",
     "confidenceRationale": "Elpistostege: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -15096,7 +15315,7 @@
         "referenceId": "cloutier-2020-elpistostege-hand",
         "pages": "549–554",
         "figure": "Figures 1–5; Extended Data Figures 1–2",
-        "quoteLocator": "Abstract; pectoral-fin description; comparative anatomy and phylogenetic analyses"
+        "quoteLocator": "Miguasha, Quebec, Canada locality and MHNM 06-2067"
       }
     ]
   },
@@ -15105,7 +15324,7 @@
     "subjectId": "taxon:acanthostega",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Acanthostega is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "Acanthostega is bounded here by described limb material from Famennian Upper Devonian deposits of East Greenland; this bounded sample context is not a global distribution or exact complete range.",
     "confidence": "medium",
     "confidenceRationale": "Acanthostega: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -15116,7 +15335,7 @@
         "relation": "supports",
         "referenceId": "coates-1990-polydactyly",
         "pages": "66–69",
-        "quoteLocator": "Abstract; specimen descriptions; discussion of digit number and aquatic adaptation"
+        "quoteLocator": "East Greenland specimen descriptions"
       }
     ]
   },
@@ -15125,7 +15344,7 @@
     "subjectId": "taxon:ichthyostega",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Ichthyostega is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "Ichthyostega is bounded here by specimens from Famennian Upper Devonian deposits of East Greenland used in the cited mobility study; this bounded sample context is not a global distribution or exact complete range.",
     "confidence": "medium",
     "confidenceRationale": "Ichthyostega: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -15137,7 +15356,7 @@
         "referenceId": "pierce-2012-ichthyostega-mobility",
         "pages": "523–526",
         "figure": "Figures 1–3; Supplementary Figures 1–6",
-        "quoteLocator": "Abstract; methods; comparative joint-mobility results; discussion"
+        "quoteLocator": "East Greenland specimen context"
       }
     ]
   },
@@ -15195,7 +15414,7 @@
     "subjectId": "taxon:ymboirana",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Ymboirana acrux is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range.",
+    "statement": "Ymboirana acrux is documented by holotype DGM 1462-R from the Oligocene Tremembe Formation in Brazil's Taubate Basin. The partially preserved skeleton records this fossil occurrence, not the species's complete distribution, exact origin time or a global first appearance of aquatic caecilians.",
     "confidence": "medium",
     "confidenceRationale": "Oligocene aquatic caecilian: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -17313,7 +17532,7 @@
     "subjectId": "taxon:homo_sapiens",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Homo sapiens is anchored here by the directly dated Ust’-Ishim 1 femur at 46.88–43.21 ka and its genome; this one western Siberian individual does not establish the species’ origin, complete geographic range or every dispersal.",
+    "statement": "Homo sapiens is anchored here by the directly dated Ust’-Ishim 1 femur at 46,880–43,210 cal BP (95.4% probability) and its genome; this is one individual’s calibrated age, not the species’ range or origin, and this western Siberian individual does not establish the species’ complete geographic range or every dispersal.",
     "confidence": "high",
     "confidenceRationale": "The named specimen, direct date and genome are explicit. Species-wide history and admixture geography are excluded.",
     "reviewedBy": "Evo Atlas issue #87 evidence audit",
@@ -18551,7 +18770,7 @@
     "subjectId": "taxon:eudicotyledones",
     "claimKind": "scientific",
     "claimType": "morphology",
-    "statement": "Leefructus mirus preserves diagnostic vegetative and reproductive structures described from the Yixian Formation; this specimen-level anatomy is not a universal eudicot body plan.",
+    "statement": "Leefructus mirus from the Yixian Formation has deeply three-lobed leaves grouped at nodes and an axillary reproductive axis ending in five narrow, partly united carpels. These are features of the described fossil, not a universal eudicot body plan.",
     "confidence": "high",
     "confidenceRationale": "The named fossil and its diagnostic structures are directly described and illustrated, while extension to all eudicots would exceed the specimen and analysis scope.",
     "reviewedBy": "Evo Atlas maintainer source audit",
@@ -19583,7 +19802,7 @@
     "subjectId": "taxon:octopus-bimaculoides",
     "claimKind": "scientific",
     "claimType": "event-mechanism",
-    "statement": "The Octopus bimaculoides genome and twelve tissue transcriptomes document gene-family expansions and rearrangement without evidence for whole-genome duplication; this living sample does not date octopus origins.",
+    "statement": "The Octopus bimaculoides genome and 12 RNA transcriptomes document gene-family expansions and rearrangement. The study found no evidence for whole-genome duplication but did not exclude duplication followed by extensive gene loss; these samples do not date octopus origins.",
     "confidence": "high",
     "confidenceRationale": "Genome coverage and expression datasets directly support the inventory, while evolutionary causation and lineage timing remain comparative.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
@@ -19912,19 +20131,19 @@
     "subjectId": "taxon:carcharocles",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "The occurrence model analyzed under Carcharocles megalodon supports a 3.6–2.6 Ma late-occurrence/extinction window; the atlas uses Otodus megalodon, and the window is neither a complete species range nor an exact LAD.",
+    "statement": "Pimiento and Clements (2014), using Carcharocles megalodon, reported an oldest inferred extinction date of 3.5 Ma and a modal estimate of 2.6 Ma. This study-specific interval is neither the complete species range nor an exact LAD; the atlas uses Otodus megalodon.",
     "confidence": "medium",
     "confidenceRationale": "Otodus megalodon extinction-analysis window under the paper’s Carcharocles usage: the cited primary study or systematic review directly supports the stated sample, calibration or withholding boundary at the supplied locator. Confidence is medium and does not extend to a global FAD, LAD, direct ancestor or unsampled interval.",
     "reviewedBy": "Evo Atlas automated primary-source audit",
-    "reviewedAt": "2026-08-31",
-    "reviewedAgainstReferenceVersion": "pimiento-clements-2014-megalodon-extinction; concrete range-boundary locator audit at rc48",
+    "reviewedAt": "2026-09-05",
+    "reviewedAgainstReferenceVersion": "pimiento-clements-2014-megalodon-extinction; Results and Figure 1 numerically rechecked against article and 2015 equation-only correction on 2026-09-05",
     "referenceLinks": [
       {
         "relation": "supports",
         "referenceId": "pimiento-clements-2014-megalodon-extinction",
         "pages": "e111086",
-        "figure": "Figures 1–3; Tables 1–2; supporting occurrence data",
-        "quoteLocator": "Occurrence screening and optimal linear estimation"
+        "figure": "Figure 1 and caption",
+        "quoteLocator": "Results, paragraph beginning Results from applying OLE: oldest inferred extinction date 3.5 Ma; modal estimate 2.6 Ma"
       }
     ]
   },
@@ -22291,7 +22510,7 @@
     "subjectId": "taxon:octopus-bimaculoides",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Albertin et al. document one living male Octopus bimaculoides genome and twelve tissue transcriptomes, so 0 Ma denotes a present-day research sample only and does not date the species origin, fossil first appearance or complete geographic range.",
+    "statement": "Albertin et al. sequenced genomic DNA from one living male Octopus bimaculoides and used 12 RNA transcriptomes from tissue and developmental samples to annotate the assembly. These are present-day research samples, not dates for species origin, fossil first appearance or complete geographic range.",
     "confidence": "high",
     "confidenceRationale": "The methods and BioProject accessions directly identify the sampled living material. High confidence applies only to present-day sample status, not evolutionary duration.",
     "reviewedBy": "Codex automated evidence audit",
@@ -27609,7 +27828,7 @@
     "subjectId": "taxon:amphimedon_queenslandica",
     "claimKind": "scientific",
     "claimType": "taxonomy",
-    "statement": "Srivastava et al. report a draft genome from the living demosponge Amphimedon queenslandica; one derived sampled species does not represent a literal ancestral animal or all Porifera.",
+    "statement": "Srivastava et al. report a draft genome from the living demosponge Amphimedon queenslandica; it contains many metazoan signalling, transcription-factor, adhesion and cell-cycle gene families despite the adult sponge lacking eumetazoan organs. This sampled genome does not represent a literal ancestral animal or all Porifera.",
     "confidence": "high",
     "confidenceRationale": "The sample and its limits are explicitly discussed by the primary study.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
