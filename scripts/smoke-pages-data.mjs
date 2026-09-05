@@ -223,7 +223,7 @@ for (const packageEntry of packageRegistry.packages) {
     }
     if (diptera) {
       dipteraCanonicalFiles += diptera.canonicalFileInventory?.length ?? 0
-      dipteraRecords += diptera.counts?.records ?? 0
+      dipteraRecords += (diptera.counts?.total ?? 0) + (diptera.counts?.upstreamOnly ?? 0)
     }
   } else if (packageEntry.id === 'trilobites-chelicerates') {
     if (nomenclatureCollections.length !== 3) failures.push('trilobites-chelicerates: expected ITIS, WSC and Scorpion Files nomenclature collections')

@@ -1,5 +1,14 @@
 # ChecklistBank dataset 1101 (Systema Dipterorum) archive projection
 
+## Delivery footprint
+
+RC145 measured 854.97 MiB for complete mobile resources and 1007.71 MiB for
+the source data/code footprint. Repository budgets are 860 MiB and 1020 MiB,
+respectively; these are project limits, not operating-system limits. All 93
+projection shards are retained. The original ZIP is provenance input, not an
+interactive runtime asset. The independent Pages budget remains 650 MiB and
+this collection is summary-only there.
+
 This worker freezes the official ChecklistBank dataset `1101` archive at
 attempt `47`, retrieved from
 `https://api.checklistbank.org/dataset/1101/archive?attempt=47`. The pinned ZIP
