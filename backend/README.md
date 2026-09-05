@@ -10,7 +10,7 @@ From the repository root:
 go -C backend run ./cmd/evo-api -data-root .. -addr :8787
 ```
 
-The server starts only after loading the current release, the core 403-entry registry, profiles, ranges, claims, references, package registry, catalogue manifest and the complete current COL hierarchy into a packed in-memory node/adjacency index. Search shards, map frames and payload files remain lazy.
+The server starts only after loading the current release, the core 403-entry registry, profiles, ranges, claims, references, package registry, catalogue manifest, compact source registry and the complete current COL hierarchy into a packed in-memory node/adjacency index. Search shards, map frames and payload files remain lazy.
 
 Useful endpoints:
 
@@ -24,6 +24,7 @@ GET /v1/entities/{id}/evidence
 GET /v1/search/names?q=perissodactyla&limit=20
 GET /v1/catalogue/taxa/{id}
 GET /v1/catalogue/taxa/{id}/children
+GET /v1/sources/{authority}/{sourceID}
 GET /v1/catalogue/tree.ndjson
 GET /v1/packages/{packageId}
 GET /v1/scenes?kind=stories|events
@@ -38,6 +39,8 @@ GET /v1/sync/files.ndjson?profile=full
 
 `/v1/catalogue/tree.ndjson` streams the complete resident catalogue hierarchy as newline-delimited JSON, one compact node record per line. It is intended for full native-client or backend-to-backend transfer and does not build the complete response in memory.
 
+`/v1/sources/{authority}/{sourceID}` returns the current release's source title, citation and identifiers from a small in-memory registry. Catalogue-of-Life source checklist IDs use the explicit `ChecklistBank` namespace; authority sidecars contribute their declared aliases/provider namespaces when present. Unknown keys return `404`; null source IDs are never resolved by inference.
+
 The full offline profile is the native client data contract. Sync is stable-path paginated, so an interrupted download resumes from `nextCursor` and each file can resume with `Range`. If `since` equals the current dataset version, the response is an empty up-to-date set.
 
 `/v1/sync/files.ndjson` is the current-release streaming sync manifest. It emits a bounded manifest header followed by one descriptor per line, allowing native clients to enqueue the complete release incrementally. It intentionally rejects non-current `since` values; historical release compatibility is not part of the backend contract.
@@ -49,6 +52,12 @@ go -C backend run ./cmd/evo-bench -data-root .. -full-sync -sync-concurrency 4
 ```
 
 This is opt-in because it transfers and hashes the complete current `full` profile. The command reports the pinned dataset version, inventory totals, transferred bytes, mismatches, errors, throughput and resume hash result.
+
+To measure the same flow through a real listening HTTP socket, start `evo-api` and pass its URL; the report labels this as `http-socket` rather than `httptest-in-process`:
+
+```powershell
+go -C backend run ./cmd/evo-bench -full-sync -server-url http://127.0.0.1:8787 -sync-concurrency 4
+```
 
 ## Build the deterministic inventory
 

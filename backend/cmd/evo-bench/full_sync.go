@@ -33,6 +33,7 @@ type syncDescriptor struct {
 }
 
 type fullSyncReport struct {
+	Transport              string       `json:"transport"`
 	DatasetVersion         string       `json:"datasetVersion"`
 	Files                  int          `json:"files"`
 	AdvertisedBytes        int64        `json:"advertisedBytes"`

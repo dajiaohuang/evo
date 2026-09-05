@@ -10,7 +10,7 @@ All JSON endpoints include `protocolVersion: "v1"` where the response describes 
 
 `GET /v1/catalogue/tree.ndjson` streams every resident hierarchy node as one JSON object per line without materializing the complete response.
 
-`GET /v1/capabilities` advertises endpoint support and distinguishes the complete offline `full` profile from client-side Pages preview behavior. It returns stable `schemaVersion`, `apiVersion`, `protocolVersion`, `datasetVersion`, `appVersion`, `profiles`, `features` and `baseUrl` fields. `treeIndex` describes the current resident packed-adjacency hierarchy (`nodeCount`, `paging`, `windowed`, and `releaseAlias`), while `treeRoots` provides root summaries with the fields used by the tree view. `GET /v1/releases/current` returns the current dataset/app versions, counts, limitations, source summary, and a file inventory summary. It intentionally does not claim global completeness: the canonical manifest's `wholeLifeCoverageClaim` remains false.
+`GET /v1/capabilities` advertises endpoint support and distinguishes the complete offline `full` profile from client-side Pages preview behavior. It returns stable `schemaVersion`, `apiVersion`, `protocolVersion`, `datasetVersion`, `appVersion`, `profiles`, `features` and `baseUrl` fields. `treeIndex` describes the current resident packed-adjacency hierarchy (`nodeCount`, `paging`, `windowed`, and `releaseAlias`), while `treeRoots` provides root summaries with the fields used by the tree view. `sourceRegistry` advertises the explicit `authority:sourceID` key format and lookup route. `GET /v1/releases/current` returns the current dataset/app versions, counts, limitations, source summary, and a file inventory summary. It intentionally does not claim global completeness: the canonical manifest's `wholeLifeCoverageClaim` remains false.
 
 ## Entity and catalogue queries
 
@@ -18,6 +18,18 @@ All JSON endpoints include `protocolVersion: "v1"` where the response describes 
 
 Current catalogue species and higher-taxon records are addressed separately at `/v1/catalogue/taxa/{id}` and `/v1/catalogue/taxa/{id}/children`. Hierarchy node records use the current compact schema: `id`, nullable `parentId`, `scientificName`, nullable `authorship`, `rank`, `status`, nullable `sourceDatasetId`, and computed `childCount`. Children are returned as a bounded offset-cursor page and retain `schemaVersion`, `apiVersion`, `protocolVersion`, `datasetVersion`, `parentId`, `total`, `limit`, and optional `nextCursor`. `treeIndex.releaseAlias` is the release alias clients should use when constructing a registry record view; clients should not hardcode a catalogue release or parse the raw manifest. `GET /v1/search/names` combines the 403 atlas entities with routed catalogue name shards. Search returns `records`, `totalMatches` and an opaque base64url `nextCursor`; each record identifies whether it is an Atlas dossier or a nomenclatural-registry result. The catalogue search minimum is three normalized characters. Cursors must only be reused with the same query and release.
 The search implementation bounds retained matches to the requested page window while scanning/counting routed records; a cursor window cannot exceed 100,000 records.
+
+`GET /v1/sources/{authority}/{sourceID}` resolves the current release's shared source metadata. The response carries `sourceKey: "authority:sourceID"` and a `source` object with the declared title, citation, version and identifiers. `ChecklistBank:{sourceDatasetId}` is the namespace for Catalogue-of-Life source checklist records; authority sidecars may expose their own declared alias namespace. The endpoint never treats a source ID as globally unique, and an unknown key is `404` rather than an inferred source.
+
+Example:
+
+```text
+GET /v1/sources/ChecklistBank/1008
+```
+
+```json
+{"schemaVersion":1,"apiVersion":"v1","protocolVersion":"v1","datasetVersion":"2026.09-static-v5-rc143","sourceKey":"ChecklistBank:1008","source":{"authority":"ChecklistBank","sourceId":"1008","title":"The Reptile Database","shortName":"ReptileDB","version":"2026-06","publicationDate":"2026-06-24","doi":"10.48580/d37s","citation":"Uetz, P., & Hošek, J. (2026). The Reptile Database (version 2026-06). In O. Bánki, Y. Roskov, M. Döring, G. Ower, D. R. Hernández Robles, C. A. Plata Corredor, T. Stjernegaard Jeppesen, A. Örn, T. Pape, D. Hobern, S. Garnett, H. Little, R. E. DeWalt, J. Miller, T. Orrell, R. Aalbu, J. Abbott, C. Aedo, E. Aescht, et al., Catalogue of Life (Version 2026-08-20). Catalogue of Life Foundation, Amsterdam, Netherlands. https://doi.org/10.48580/d37s","informationUrl":"http://www.reptile-database.org","license":"Creative Commons Attribution (CC BY) 4.0","licenseUrl":"http://creativecommons.org/licenses/by/4.0/legalcode"}}
+```
 
 ## Resources and sync
 
