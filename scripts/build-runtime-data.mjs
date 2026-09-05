@@ -164,6 +164,13 @@ const richPackageNomenclatureSources = {
   }],
   'crustaceans-insects': [{
     kind: 'range-sharded',
+    descriptorPath: 'data/packages/arthropoda/crustaceans-insects/nomenclature/systema-dipterorum-sidecar.json',
+    expectedId: 'systema-dipterorum-archive-crosswalk',
+    expectedProvider: 'Systema Dipterorum via ChecklistBank',
+    expectedLicense: 'cc by',
+    rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
+  }, {
+    kind: 'range-sharded',
     descriptorPath: 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/chilobase-sidecar.json',
     expectedId: 'chilobase-archive-crosswalk',
     expectedProvider: 'ChecklistBank',

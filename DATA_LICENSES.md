@@ -1,5 +1,13 @@
 # Data licenses and provenance
 
+RC145 retains Systema Dipterorum through ChecklistBank dataset 1101, attempt 47,
+DOI `10.48580/d3bz`. Both API and embedded archive metadata declare raw `cc by`;
+no license version is inferred. API version `7.2` and embedded version `Jun 2026`
+are retained separately. The derived projection preserves names, authorship,
+raw status, references and table locators; unique matches are not source
+acceptance or species-concept equivalence. COL26.8 inputs remain CC BY 4.0.
+See [Systema Dipterorum provenance](docs/systema-dipterorum-archive.md).
+
 RC144 retains the Mammal Diversity Database (ChecklistBank 9802, version 2.1)
 and IOC World Bird List (ChecklistBank 2036, version 15.2) pinned archives and
 derived name crosswalks. Their API license labels are raw `cc by`; embedded

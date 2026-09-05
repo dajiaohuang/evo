@@ -198,6 +198,8 @@ let crocodyliaItisFiles = 0
 let crocodyliaItisRecords = 0
 let mammalItisFiles = 0
 let mammalItisRecords = 0
+let dipteraFiles = 0
+let dipteraRecords = 0
 for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCollections)) {
   const descriptor = current.packages?.manifests?.[packageId]
   if (!descriptor?.url) throw new Error(`Mobile build is missing the ${packageId} package manifest`)
@@ -206,8 +208,9 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
   if (!Array.isArray(collections)) throw new Error(`Mobile build is missing ${packageId} nomenclature collections`)
   const additionalAuthorityCollections = {
     echinoderms: 1, 'turtles-lepidosaurs': 1, 'crocodylomorphs-birds': 3,
-    'molluscs-brachiopods': 1, 'sponges-cnidarians': 3, 'crustaceans-insects': 3,
+    'molluscs-brachiopods': 1, 'sponges-cnidarians': 3,
     'trilobites-chelicerates': 2,
+    'crustaceans-insects': 4,
     perissodactyla: 1, cetartiodactyla: 1, primates: 1, carnivora: 1, 'other-mammals': 1,
   }[packageId] ?? 0
   if (collections.length !== Object.keys(expectedCollections).length + additionalAuthorityCollections) {
@@ -320,6 +323,16 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
       throw new Error(`Mobile build must retain the complete ${expectedSpecialistArchive.id} authority collection`)
     }
   }
+  if (packageId === 'crustaceans-insects') {
+    const authority = collections.find((entry) => entry.id === 'systema-dipterorum-archive-crosswalk')
+    if (!authority || authority.provider !== 'Systema Dipterorum via ChecklistBank' || authority.source?.license !== 'cc by'
+      || authority.files?.length !== 81 || authority.upstreamOnlyFiles?.length !== 12
+      || authority.counts?.total !== 157490 || authority.counts?.upstreamOnly !== 23513) {
+      throw new Error('Mobile build must retain the complete Systema Dipterorum authority collection')
+    }
+    dipteraFiles += authority.files.length + authority.upstreamOnlyFiles.length
+    dipteraRecords += authority.counts.total + authority.counts.upstreamOnly
+  }
 }
 if (arthropodItisFiles !== 165 || arthropodItisRecords !== 1188660) {
   throw new Error(`Mobile build must stage 165 arthropod ITIS files and 1188660 records; found ${arthropodItisFiles} files and ${arthropodItisRecords} records`)
@@ -332,6 +345,9 @@ if (crocodyliaItisFiles !== 1 || crocodyliaItisRecords !== 27) {
 }
 if (mammalItisFiles !== 9 || mammalItisRecords !== 6464) {
   throw new Error(`Mobile build must stage 9 Mammalia ITIS files and 6464 records; found ${mammalItisFiles} files and ${mammalItisRecords} records`)
+}
+if (dipteraFiles !== 93 || dipteraRecords !== 181003) {
+  throw new Error(`Mobile build must stage 93 Diptera files and 181003 records; found ${dipteraFiles} files and ${dipteraRecords} records`)
 }
 const mammalOriginsDescriptor = current.packages?.manifests?.['mammal-origins']
 if (!mammalOriginsDescriptor?.url) throw new Error('Mobile build is missing the mammal-origins package manifest')
@@ -572,7 +588,8 @@ for (const file of interactiveFiles) {
 
 const files = filesBelow(outputRoot)
 const totalBytes = files.reduce((sum, file) => sum + statSync(file).size, 0)
-const limitMiB = 850
+// RC145 full resources measure 854.97 MiB; no source-only records are omitted.
+const limitMiB = 860
 const limitBytes = limitMiB * 1024 * 1024
 if (totalBytes > limitBytes) {
   throw new Error(`Mobile application resources are ${(totalBytes / 1024 / 1024).toFixed(2)} MiB; limit is ${limitMiB} MiB`)

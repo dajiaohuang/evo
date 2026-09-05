@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc145 — 2026-09-05
+
+- Added the pinned Systema Dipterorum source projection: 157,490 COL records and 23,513 separate source-only records across 93 full-data shards. All 180,792 selected source species remain represented; ambiguous matches do not imply species identity.
+- Exposed Diptera source evidence on its exact lineage and retained visible missing-parent exceptions without inventing classification.
+- Kept Pages summary-only for this collection. Measured source footprint 1007.72 MiB and mobile resources 854.97 MiB; adjusted repository budgets to 1020/860 MiB while retaining the independent 650 MiB Pages limit.
+- No expert-review status or original source status was promoted.
+
 ## 2026.09-static-v5-rc144 — 2026-09-05
 
 - Integrated five package-scoped Mammal Diversity Database projections and the IOC Aves projection from their byte-pinned ChecklistBank archives. MDD retains 6,461 COL outcomes plus 1,775 separate source-only records; IOC retains 11,044 COL outcomes plus 626 separate source-only records. These 19,906 crosswalk records are not a deduplicated species union or biological dossiers.

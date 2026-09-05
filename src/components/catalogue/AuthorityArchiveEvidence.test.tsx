@@ -21,6 +21,22 @@ const collection: RuntimeAuthorityArchiveCollection = {
 
 describe('authority archive disclosure', () => {
   afterEach(() => { vi.clearAllMocks() })
+  it.each([true, false])('shows a Diptera orphan warning without inventing a parent (zh=%s)', async (zh) => {
+    load.mockResolvedValue({ collection: { ...collection, id: 'systema-dipterorum-archive-crosswalk',
+      packageId: 'crustaceans-insects', delivery: { ...collection.delivery, completeRows: true } },
+    record: { colId: 'DIP1', colScientificName: 'Example fly', colAuthorship: null, status: 'accepted',
+      matchedName: { id: 'source-orphan', scientificName: 'Example fly', authorship: '', status: '', url: '',
+        parentId: 'missing-parent-123', sourceScope: 'orphan-exception', sourceScopeReason: 'Taxon.tsv parentID is absent from Taxon.tsv' },
+      acceptedName: null, candidates: [], mappingBasis: 'Exact name only.', sourceRows: [] } })
+    const { container } = render(<AuthorityArchiveEvidence colId="DIP1" packageId="crustaceans-insects" lineageIds={['D2P']} zh={zh} />)
+    const details = container.querySelector('details')!
+    expect(load).not.toHaveBeenCalled()
+    details.open = true
+    fireEvent(details, new Event('toggle'))
+    expect(await screen.findByText('missing-parent-123')).toBeInTheDocument()
+    expect(screen.getByText(zh ? /未推测替代归属/ : /no replacement placement is inferred/)).toBeInTheDocument()
+    expect(load).toHaveBeenCalledWith('crustaceans-insects', 'systema-dipterorum-archive-crosswalk', 'DIP1')
+  })
   it.each([true, false])('does not label a name match as source acceptance (zh=%s)', async (zh) => {
     load.mockResolvedValue({ collection: { ...collection, id: 'mdd-mammalia-other-mammals-archive-crosswalk',
       packageId: 'other-mammals', delivery: { ...collection.delivery, completeRows: true } },

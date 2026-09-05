@@ -593,6 +593,7 @@ describe('static runtime release coherence', () => {
     ['sponges-cnidarians', 'worms-cnidaria-archive-crosswalk'],
     ['sponges-cnidarians', 'worms-hydrozoa-archive-crosswalk'],
     ['crustaceans-insects', 'osf-orthoptera-archive-crosswalk'],
+    ['crustaceans-insects', 'systema-dipterorum-archive-crosswalk'],
     ['crustaceans-insects', 'worms-crustacea-archive-crosswalk'],
     ['trilobites-chelicerates', 'wsc-spiders-archive-crosswalk'],
     ['perissodactyla', 'mdd-mammalia-perissodactyla-archive-crosswalk'],
