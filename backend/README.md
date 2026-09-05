@@ -59,6 +59,14 @@ To measure the same flow through a real listening HTTP socket, start `evo-api` a
 go -C backend run ./cmd/evo-bench -full-sync -server-url http://127.0.0.1:8787 -sync-concurrency 4
 ```
 
+For query-load evidence through a real listening socket, including search, resident node detail, direct children, sequential lineage and mixed concurrent requests:
+
+```powershell
+go -C backend run ./cmd/evo-bench -server-url http://127.0.0.1:8787 -rounds 50 -concurrency 32
+```
+
+The benchmark discovers `treeNodeCount` from `/v1/capabilities`; it does not use a small fixture or hardcode the tree size. `-server-url` reports client-visible HTTP timings, while server RSS must be sampled separately.
+
 ## Build the deterministic inventory
 
 The server indexes the current `data/` tree without trusting generated checksum metadata as a resource ETag. It hashes each file lazily from the current bytes when sync or resource delivery needs a digest. To create a complete standalone hash-addressed inventory artifact:
