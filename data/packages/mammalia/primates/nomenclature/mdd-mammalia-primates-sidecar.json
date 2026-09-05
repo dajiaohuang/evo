@@ -80,9 +80,9 @@
     "colRelease": "COL26.8",
     "colStrictAcceptedSpecies": 530,
     "sourceDatasetId": "9802",
-    "sourceStrictAcceptedSpecies": 517,
+    "sourceSelectedSpecies": 517,
     "packageOwnership": "COL rows use the existing unique COL species ownership route.",
-    "sourceGlobalStrictAcceptedSpecies": 6801,
+    "sourceGlobalSelectedSpecies": 6801,
     "sourcePackageRoutedSpecies": 517,
     "sourceOnlyRouting": "Source-only rows retain null COL IDs and are routed only by the explicit MDD taxonomy.order allowlist; this is not COL ownership or taxon equivalence."
   },
@@ -103,28 +103,28 @@
   "files": [
     {
       "path": "nomenclature/mdd-mammalia-primates-000.json.gz",
-      "records": 522,
-      "bytes": 173676,
-      "sha256": "7283f541922cc42a9ebe172e24ff1581fb8a1b8557a921c905232cdeb780cdc7",
-      "sourceBytes": 2093765,
-      "sourceSha256": "dbc267594472c13f2e0528df7d583429f243c805285acec31ace5cca387a8ed4",
+      "records": 524,
+      "bytes": 174285,
+      "sha256": "18e4d67720e65dee906bf76a02d4b382b471980ea98cb4eeefb69475ec0972a3",
+      "sourceBytes": 2095013,
+      "sourceSha256": "781fbe6e88e57585fb53b4c260567ca46d8d0b322217f0d95edbc2290260ae88",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "col-partition",
       "minColId": "34B7X",
-      "maxColId": "TXQL"
+      "maxColId": "TXQP"
     },
     {
       "path": "nomenclature/mdd-mammalia-primates-001.json.gz",
-      "records": 8,
-      "bytes": 4066,
-      "sha256": "584c93c64576d7d6ce9d3e88cbe23d5994a113b6b4018d064993fe8ec4f1606d",
-      "sourceBytes": 36007,
-      "sourceSha256": "573228eb7f3b7625e31643ddc4ed75340a1da857ffce533b6cc1cab8074e5938",
+      "records": 6,
+      "bytes": 3328,
+      "sha256": "5f5661d5844a6645d417cf6ad3983167b398e2683c7e098921ae8a828fa4b589",
+      "sourceBytes": 27015,
+      "sourceSha256": "4b394e0ba541cf33995adb7657e380838b7af9c8c170d49663952d47e7f1b3ae",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "col-partition",
-      "minColId": "TXQM",
+      "minColId": "TXQQ",
       "maxColId": "X6S9"
     }
   ],
@@ -132,17 +132,17 @@
     {
       "path": "nomenclature/mdd-mammalia-primates-source-only-000.json.gz",
       "records": 33,
-      "bytes": 13083,
-      "sha256": "fa5df41bd1f7e814505a1359248b7a320649e26e146b060bd43e1b4dc0749b94",
-      "sourceBytes": 149434,
-      "sourceSha256": "46be52029da27ff10d8929e5c0835c18ef50e9922ac3ce3971bc344ae288734d",
+      "bytes": 13076,
+      "sha256": "ee92c9be17942ca806e2caa89d45be8ebdf55a800155314d92009ef8f744f86c",
+      "sourceBytes": 148906,
+      "sourceSha256": "f9b8ed1af6f097466107b43c2274ba5339b684066e9366c9aa2fc042c17cefb0",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "upstream-only"
     }
   ],
-  "totalCompressedBytes": 190825,
-  "totalSourceBytes": 2279206,
+  "totalCompressedBytes": 190689,
+  "totalSourceBytes": 2270934,
   "deliveryProfiles": {
     "web-light": {
       "mode": "summary-only",
@@ -159,8 +159,8 @@
         "nomenclature/mdd-mammalia-primates-001.json.gz",
         "nomenclature/mdd-mammalia-primates-source-only-000.json.gz"
       ],
-      "totalCompressedBytes": 190825,
-      "totalSourceBytes": 2279206
+      "totalCompressedBytes": 190689,
+      "totalSourceBytes": 2270934
     }
   },
   "evidenceBoundary": {

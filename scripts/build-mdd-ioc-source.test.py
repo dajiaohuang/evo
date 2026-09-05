@@ -76,6 +76,8 @@ class MddIocProjectionTests(unittest.TestCase):
                 'total': 6461, 'accepted': 5026, 'redirect': 0, 'ambiguous': 0,
                 'unmatched': 1435, 'withheld': 0, 'upstreamOnly': 1775, 'records': 8236,
             })
+            self.assertEqual(first_ledger['scopeAudit']['sourceSelectedSpecies'], 6801)
+            self.assertNotIn('sourceStrictAcceptedSpecies', first_ledger['scopeAudit'])
             self.assertEqual(set(first_mdd), set(MDD_EXPECTED))
             self.assertEqual(first_ledger['scopeAudit']['packageCounts'], {
                 package: {
@@ -112,7 +114,10 @@ class MddIocProjectionTests(unittest.TestCase):
                 self.assertEqual(descriptor['counts']['ambiguous'], 0)
                 self.assertEqual(descriptor['counts']['upstreamOnly'], expected['upstreamOnly'])
                 self.assertEqual(descriptor['counts']['records'], expected['records'])
-                self.assertEqual(descriptor['scope']['sourceStrictAcceptedSpecies'], expected['source'])
+                self.assertEqual(descriptor['scope']['sourceSelectedSpecies'], expected['source'])
+                self.assertEqual(descriptor['scope']['sourceGlobalSelectedSpecies'], 6801)
+                self.assertNotIn('sourceStrictAcceptedSpecies', descriptor['scope'])
+                self.assertNotIn('sourceGlobalStrictAcceptedSpecies', descriptor['scope'])
                 self.assertEqual(descriptor['scope']['sourcePackageRoutedSpecies'], expected['source'])
                 self.assertEqual(descriptor['scope']['colStrictAcceptedSpecies'], expected['total'])
                 self.assertTrue(all(item['path'].startswith('nomenclature/')
@@ -126,6 +131,10 @@ class MddIocProjectionTests(unittest.TestCase):
                         all_col_ids.append(row['colId'])
                     if row.get('matchedName'):
                         all_source_ids.append(row['matchedName']['id'])
+                        self.assertEqual(row['matchedName']['status'], '')
+                        self.assertIsNone(row['matchedName']['sourceStatus'])
+                        if row.get('acceptedName'):
+                            self.assertEqual(row['acceptedName']['status'], '')
                     if row['status'] == 'upstream-only':
                         self.assertIsNone(row['colId'])
                         self.assertIn('sourceRouting', row)

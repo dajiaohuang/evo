@@ -80,9 +80,9 @@
     "colRelease": "COL26.8",
     "colStrictAcceptedSpecies": 503,
     "sourceDatasetId": "9802",
-    "sourceStrictAcceptedSpecies": 371,
+    "sourceSelectedSpecies": 371,
     "packageOwnership": "COL rows use the existing unique COL species ownership route.",
-    "sourceGlobalStrictAcceptedSpecies": 6801,
+    "sourceGlobalSelectedSpecies": 6801,
     "sourcePackageRoutedSpecies": 371,
     "sourceOnlyRouting": "Source-only rows retain null COL IDs and are routed only by the explicit MDD taxonomy.order allowlist; this is not COL ownership or taxon equivalence."
   },
@@ -103,28 +103,28 @@
   "files": [
     {
       "path": "nomenclature/mdd-mammalia-cetartiodactyla-000.json.gz",
-      "records": 365,
-      "bytes": 150686,
-      "sha256": "358393eb0394cd12d700ce76e51d28bc1c891bcb8b21935449e5119b57ba46d4",
-      "sourceBytes": 2094576,
-      "sourceSha256": "34f0863c13b48fe2717e6f911ba1e72a116681326b36af39086d42cf9bac7b8e",
+      "records": 366,
+      "bytes": 150877,
+      "sha256": "23341f7c733ac743131def48c49947fb048d64b18da8fe27777440f1aac80e0f",
+      "sourceBytes": 2093419,
+      "sourceSha256": "86a0800f398f392c38d4673acbd46bf5ac90146a4dd13dda62dffbbaa0be0b91",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "col-partition",
       "minColId": "342N9",
-      "maxColId": "QS65"
+      "maxColId": "QS66"
     },
     {
       "path": "nomenclature/mdd-mammalia-cetartiodactyla-001.json.gz",
-      "records": 138,
-      "bytes": 15998,
-      "sha256": "0bc8be55af3aea6442a4d50bcfbe84f4f4d5f5ebe878fac04282ac6dbf6f4177",
-      "sourceBytes": 194175,
-      "sourceSha256": "76cedb14b6028825866e09b186310529d40bee391c087757fb4b76b6f965c92c",
+      "records": 137,
+      "bytes": 15692,
+      "sha256": "2b6d9dcc5a36bed92d8c9e2bdbd09fdecbcae3715e5b80ac4b9906cfcb99b260",
+      "sourceBytes": 190132,
+      "sourceSha256": "b406bd862b3f481487ca46e2d4c78dd5fe35167665c72869dcf14e788183df7c",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "col-partition",
-      "minColId": "QS66",
+      "minColId": "QS67",
       "maxColId": "XPLQ"
     }
   ],
@@ -132,17 +132,17 @@
     {
       "path": "nomenclature/mdd-mammalia-cetartiodactyla-source-only-000.json.gz",
       "records": 46,
-      "bytes": 20113,
-      "sha256": "41edb764c62832505a5406b6a9e60467f7e82a712d34e7102de31a6e0266c485",
-      "sourceBytes": 257846,
-      "sourceSha256": "0b3f40d4aea97119e5ec8b80e1d0014182c4faab8743b0371a65b79bfc79063b",
+      "bytes": 20102,
+      "sha256": "15614148561d5d77e7b000a8b04a914aa69b4cfdb65b6044b762b29b06472d4f",
+      "sourceBytes": 257110,
+      "sourceSha256": "f8d021f853cb48754043945f01becda75764f3b679dfe9ce5ad52c749ea769a4",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "upstream-only"
     }
   ],
-  "totalCompressedBytes": 186797,
-  "totalSourceBytes": 2546597,
+  "totalCompressedBytes": 186671,
+  "totalSourceBytes": 2540661,
   "deliveryProfiles": {
     "web-light": {
       "mode": "summary-only",
@@ -159,8 +159,8 @@
         "nomenclature/mdd-mammalia-cetartiodactyla-001.json.gz",
         "nomenclature/mdd-mammalia-cetartiodactyla-source-only-000.json.gz"
       ],
-      "totalCompressedBytes": 186797,
-      "totalSourceBytes": 2546597
+      "totalCompressedBytes": 186671,
+      "totalSourceBytes": 2540661
     }
   },
   "evidenceBoundary": {

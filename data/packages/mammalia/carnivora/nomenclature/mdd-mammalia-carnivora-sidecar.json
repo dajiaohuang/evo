@@ -80,9 +80,9 @@
     "colRelease": "COL26.8",
     "colStrictAcceptedSpecies": 310,
     "sourceDatasetId": "9802",
-    "sourceStrictAcceptedSpecies": 319,
+    "sourceSelectedSpecies": 319,
     "packageOwnership": "COL rows use the existing unique COL species ownership route.",
-    "sourceGlobalStrictAcceptedSpecies": 6801,
+    "sourceGlobalSelectedSpecies": 6801,
     "sourcePackageRoutedSpecies": 319,
     "sourceOnlyRouting": "Source-only rows retain null COL IDs and are routed only by the explicit MDD taxonomy.order allowlist; this is not COL ownership or taxon equivalence."
   },
@@ -104,10 +104,10 @@
     {
       "path": "nomenclature/mdd-mammalia-carnivora-000.json.gz",
       "records": 310,
-      "bytes": 115025,
-      "sha256": "0ffd427f1bc8e6e3e0f42c201c908ee5e18d2bdaa723c25024bfaac891b5200e",
-      "sourceBytes": 1583107,
-      "sourceSha256": "f0d7290b7022422077d4ff0158e4fb5f2c9f333d34fd92d7f265070d269a7074",
+      "bytes": 114989,
+      "sha256": "ba832e1eea65717e6bc7ffb667fd0b6aac41a6ef8a2cf9c15f821221f2014f35",
+      "sourceBytes": 1578483,
+      "sourceSha256": "f5a90e41316bbd616f52c9ed6190c3f94edc735131b1d628fae6721c6cdd0e40",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "col-partition",
@@ -119,17 +119,17 @@
     {
       "path": "nomenclature/mdd-mammalia-carnivora-source-only-000.json.gz",
       "records": 30,
-      "bytes": 12926,
-      "sha256": "3b6dcf0ac9c1b6544a8d6ff417176c56ec7ac7074eea2b8f825631ff6f9926a5",
-      "sourceBytes": 154561,
-      "sourceSha256": "4739fb261e30ab820915e84e2192e5efa29ac72c23129de6d767e97fe5eeb881",
+      "bytes": 12917,
+      "sha256": "0da58d07295e0e09c1d0ecb4aa9309d4d721cabebbd805904e33d12be4b2bdd6",
+      "sourceBytes": 154081,
+      "sourceSha256": "361f238997642ae63e8d4b711fa6897939c39fb83468f10a5775fb3d1c0d8643",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "upstream-only"
     }
   ],
-  "totalCompressedBytes": 127951,
-  "totalSourceBytes": 1737668,
+  "totalCompressedBytes": 127906,
+  "totalSourceBytes": 1732564,
   "deliveryProfiles": {
     "web-light": {
       "mode": "summary-only",
@@ -145,8 +145,8 @@
         "nomenclature/mdd-mammalia-carnivora-000.json.gz",
         "nomenclature/mdd-mammalia-carnivora-source-only-000.json.gz"
       ],
-      "totalCompressedBytes": 127951,
-      "totalSourceBytes": 1737668
+      "totalCompressedBytes": 127906,
+      "totalSourceBytes": 1732564
     }
   },
   "evidenceBoundary": {

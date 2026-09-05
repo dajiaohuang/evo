@@ -80,9 +80,9 @@
     "colRelease": "COL26.8",
     "colStrictAcceptedSpecies": 19,
     "sourceDatasetId": "9802",
-    "sourceStrictAcceptedSpecies": 18,
+    "sourceSelectedSpecies": 18,
     "packageOwnership": "COL rows use the existing unique COL species ownership route.",
-    "sourceGlobalStrictAcceptedSpecies": 6801,
+    "sourceGlobalSelectedSpecies": 6801,
     "sourcePackageRoutedSpecies": 18,
     "sourceOnlyRouting": "Source-only rows retain null COL IDs and are routed only by the explicit MDD taxonomy.order allowlist; this is not COL ownership or taxon equivalence."
   },
@@ -104,10 +104,10 @@
     {
       "path": "nomenclature/mdd-mammalia-perissodactyla-000.json.gz",
       "records": 19,
-      "bytes": 5814,
-      "sha256": "cd088f751f52a476781cb67d2ddcee31c9910cc2a6646cee7190608a8bc93d3a",
-      "sourceBytes": 72800,
-      "sourceSha256": "75976314bc52ca983726cf9252287d50fe695a7144dffb18fb8641396d88275f",
+      "bytes": 5813,
+      "sha256": "a7c80e0a3537ef7d0692ea104612dfde4253726b6f7b9e1b6f9a9abbc7a70bf8",
+      "sourceBytes": 72544,
+      "sourceSha256": "d52fec27eb51f30d9480f471891fb76d4b853b042b06b5925b21a4e27a9d5269",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "col-partition",
@@ -119,17 +119,17 @@
     {
       "path": "nomenclature/mdd-mammalia-perissodactyla-source-only-000.json.gz",
       "records": 2,
-      "bytes": 1563,
-      "sha256": "43e0d29fd38820b1d30f92dba4c72f39e76e3d54fd42a1b8e0fbe8c0d10ae16f",
-      "sourceBytes": 10420,
-      "sourceSha256": "62bd00778ceba5d8997b0c4bd36350bdd84aab8ccea3f23a98546dc3a2c2653a",
+      "bytes": 1557,
+      "sha256": "f3f9102774632144faf2298963c51bec2da79c5db519e20171df5108e7dc8833",
+      "sourceBytes": 10388,
+      "sourceSha256": "5871043e2b2c2a97f19e4f225430680d7f53a015a94871d068c60876dd37552f",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "upstream-only"
     }
   ],
-  "totalCompressedBytes": 7377,
-  "totalSourceBytes": 83220,
+  "totalCompressedBytes": 7370,
+  "totalSourceBytes": 82932,
   "deliveryProfiles": {
     "web-light": {
       "mode": "summary-only",
@@ -145,8 +145,8 @@
         "nomenclature/mdd-mammalia-perissodactyla-000.json.gz",
         "nomenclature/mdd-mammalia-perissodactyla-source-only-000.json.gz"
       ],
-      "totalCompressedBytes": 7377,
-      "totalSourceBytes": 83220
+      "totalCompressedBytes": 7370,
+      "totalSourceBytes": 82932
     }
   },
   "evidenceBoundary": {

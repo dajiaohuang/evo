@@ -29,8 +29,8 @@ Matching is deterministic and intentionally narrow:
 
 No authorship fallback, fuzzy matching, synonym substitution, taxon
 replacement or species-concept equivalence is inferred. The result is 5,026
-unique exact matches and 1,435 unmatched COL rows. The remaining 1,775 MDD
-accepted species are preserved in explicit `upstream-only` rows; they are not
+unique exact matches and 1,435 unmatched COL rows. The remaining 1,775 selected
+MDD source species rows are preserved in explicit `upstream-only` rows; they are not
 claims of globally new species. MDD remarks, links, taxonomy, vernacular
 names, distributions, type material and name-reference locators remain
 attached to their source rows where present.

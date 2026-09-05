@@ -222,7 +222,7 @@ def archive_source(config):
             else:
                 ancillary['references'] = []
             source_name = {'id': taxon_id, 'scientificName': row.get('col:scientificName') or '',
-                           'authorship': authorship, 'rank': 'species', 'status': 'accepted',
+                           'authorship': authorship, 'rank': 'species', 'status': row.get('col:status') or '',
                            'sourceStatus': row.get('col:status') or None,
                            'nameStatus': row.get('col:nameStatus') or None,
                            'extinct': bool_or_none(row.get('col:extinct') or ''),
@@ -341,7 +341,8 @@ def descriptor_source(config, archive):
 
 
 def make_descriptor(config, package_id, prefix, output_path, file_path_prefix, records,
-                    upstream, archive, output_root, scope_extra=None, limitations_extra=None):
+                    upstream, archive, output_root, scope_extra=None, limitations_extra=None,
+                    source_scope_field='sourceStrictAcceptedSpecies'):
     destination = output_root / output_path
     destination.mkdir(parents=True, exist_ok=True)
     col_files = write_shards(prefix, records, destination, 'col-partition', file_path_prefix)
@@ -357,7 +358,7 @@ def make_descriptor(config, package_id, prefix, output_path, file_path_prefix, r
         'scope': {'colRootUsageId': config['root'], 'colRootScientificName': config['taxon'],
                   'colRelease': 'COL26.8', 'colStrictAcceptedSpecies': len(records),
                   'sourceDatasetId': config['datasetId'],
-                  'sourceStrictAcceptedSpecies': len({row['matchedName']['id'] for row in records if row.get('matchedName')} | {row['matchedName']['id'] for row in upstream}),
+                  source_scope_field: len({row['matchedName']['id'] for row in records if row.get('matchedName')} | {row['matchedName']['id'] for row in upstream}),
                   **(scope_extra or {})},
         'matching': {'normalization': 'Unicode NFC and whitespace normalization on scientific names only; COL trailing authorship is removed exactly. Authorship is preserved as source data, not used as a matching key.',
                      'prohibited': 'No fuzzy, case-folded, accent-folded, authorship, synonym, taxon-substitution or species-concept matching.'},
@@ -481,14 +482,15 @@ def build_mdd_packages(config, col_rows, parents, registry_sha, registry_inputs,
         source_rows = {row['matchedName']['id'] for row in records_by_package[package_id] if row.get('matchedName')}
         package_scope = {
             'packageOwnership': 'COL rows use the existing unique COL species ownership route.',
-            'sourceGlobalStrictAcceptedSpecies': len(archive['accepted']),
+            'sourceGlobalSelectedSpecies': len(archive['accepted']),
             'sourcePackageRoutedSpecies': len(source_rows) + len(upstream_by_package[package_id]),
             'sourceOnlyRouting': 'Source-only rows retain null COL IDs and are routed only by the explicit MDD taxonomy.order allowlist; this is not COL ownership or taxon equivalence.',
         }
         descriptor, descriptor_bytes, inventory = make_descriptor(
             {**config, 'id': package_config['id']}, package_id, package_config['prefix'],
             package_config['outputPath'], 'nomenclature', records_by_package[package_id],
-            upstream_by_package[package_id], archive, output_root, scope_extra=package_scope)
+            upstream_by_package[package_id], archive, output_root, scope_extra=package_scope,
+            source_scope_field='sourceSelectedSpecies')
         descriptors[package_id] = descriptor
         package_outputs[package_id] = {'descriptor': {'path': f"{package_config['outputPath']}/{package_config['prefix']}-sidecar.json",
                                                        'bytes': len(descriptor_bytes), 'sha256': sha(descriptor_bytes)},
@@ -504,7 +506,7 @@ def build_mdd_packages(config, col_rows, parents, registry_sha, registry_inputs,
               'registryInputs': registry_inputs,
               'generatedBy': {'script': 'scripts/build-mdd-ioc-source.py', 'scriptSha256': script_sha(), 'hashNormalization': 'LF'},
               'scopeAudit': {'colRootUsageId': config['root'], 'colRootScientificName': config['taxon'],
-                             'colStrictAcceptedSpecies': len(eligible), 'sourceStrictAcceptedSpecies': len(archive['accepted']),
+                             'colStrictAcceptedSpecies': len(eligible), 'sourceSelectedSpecies': len(archive['accepted']),
                              'counts': aggregate_counts,
                              'packageCounts': {package_id: descriptor['counts'] for package_id, descriptor in descriptors.items()},
                              'sourceOnlyRoutingCountsByOrder': dict(sorted(source_routing_counts.items())),

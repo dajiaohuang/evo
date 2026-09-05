@@ -1350,14 +1350,14 @@
   ],
   "generatedBy": {
     "script": "scripts/build-mdd-ioc-source.py",
-    "scriptSha256": "2332c2af779e1abd4015627bd09092497ba7b5d524bb6603c485862d9e55fa2f",
+    "scriptSha256": "0cc42916b4229fd74720a7742acf9d048f65c18796f4e8b7db78ecaca11de58c",
     "hashNormalization": "LF"
   },
   "scopeAudit": {
     "colRootUsageId": "6224G",
     "colRootScientificName": "Mammalia",
     "colStrictAcceptedSpecies": 6461,
-    "sourceStrictAcceptedSpecies": 6801,
+    "sourceSelectedSpecies": 6801,
     "counts": {
       "total": 6461,
       "accepted": 5026,
@@ -1448,169 +1448,169 @@
       "other-mammals": {
         "descriptor": {
           "path": "data/packages/mammalia/other-mammals/nomenclature/mdd-mammalia-other-mammals-sidecar.json",
-          "bytes": 12417,
-          "sha256": "f8f78732e3164de8b6f8e6b260650b353431b8dec2575a1e867d8d22b0a78af1"
+          "bytes": 12405,
+          "sha256": "d43f8142896d59ceccbe07d0c6dc677437caf2828b070819e713c119939cb443"
         },
         "files": [
           {
             "path": "nomenclature/mdd-mammalia-other-mammals-000.json.gz",
-            "records": 572,
-            "bytes": 171925,
-            "sha256": "c618b914646cd0114d11fb8fb7b08fef8f8d0d97edb25e7fdb5ac2107b9ee282",
-            "sourceBytes": 2097015,
-            "sourceSha256": "5a23c3773b9786c2be0ee0ab328e566ee959992a2d01ecc8c703777a61700187",
+            "records": 574,
+            "bytes": 172432,
+            "sha256": "34275bd976f6ddd7fea03cfe1761b7f1316562efdc19db92f0bdf54ffd5475b6",
+            "sourceBytes": 2096855,
+            "sourceSha256": "3af3de3c9441367ef9c984375f176093db3f86eab845e4584e4ae8761e675989",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "col-partition",
             "minColId": "323B3",
-            "maxColId": "3R5ZF"
+            "maxColId": "3R5ZK"
           },
           {
             "path": "nomenclature/mdd-mammalia-other-mammals-001.json.gz",
             "records": 739,
-            "bytes": 171055,
-            "sha256": "61fe4d828f19e2d3990bb24310dcc150232730c948a7ee2f6e11fe6f81804fd9",
-            "sourceBytes": 2090396,
-            "sourceSha256": "282d9411040baf9767395f3a54e4aecc0d25c303694a3c6155ec7e019564b835",
+            "bytes": 171444,
+            "sha256": "3fdbe60dd98d5b266b3bcb5f3e0787b732dd3cb43bc70edae53c74383a0cde54",
+            "sourceBytes": 2093336,
+            "sourceSha256": "ab0711a39d515d71a1f540a5c92ad75da179c9c191e09b914ef67e3e9b085032",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "col-partition",
-            "minColId": "3R5ZJ",
-            "maxColId": "484XB"
+            "minColId": "3R5ZL",
+            "maxColId": "484XD"
           },
           {
             "path": "nomenclature/mdd-mammalia-other-mammals-002.json.gz",
-            "records": 551,
-            "bytes": 166569,
-            "sha256": "a95ffeaa13e3e6262b6900b83598ffaafefe0163f10c4296b7311e11363c4290",
-            "sourceBytes": 2095372,
-            "sourceSha256": "d4255ec94a7bcb77c99b7d23f9da6b9cd19b934bb411b1575af3ab0e589d01d6",
+            "records": 555,
+            "bytes": 166835,
+            "sha256": "753ba88cfe8c91db0be03031fc08d942a0c93a7daba9087dda25c801d92dab9d",
+            "sourceBytes": 2093878,
+            "sourceSha256": "c7eb42e8ffadc1874e441b3e3d1b900d730c1601aa5e347eb4bd4a340b5af1d9",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "col-partition",
-            "minColId": "484XC",
-            "maxColId": "4Q2Y2"
+            "minColId": "485DC",
+            "maxColId": "4Q2YY"
           },
           {
             "path": "nomenclature/mdd-mammalia-other-mammals-003.json.gz",
-            "records": 543,
-            "bytes": 167714,
-            "sha256": "4b23f8f8a54be060ff4ec0f81d947f0d8588c69e1867b924c08b087c2d7b452f",
-            "sourceBytes": 2087748,
-            "sourceSha256": "e85b583ed955c6184bc0b4b78d51d2a7c065e2f51a749f9d84cc4264067e4642",
+            "records": 555,
+            "bytes": 168746,
+            "sha256": "6e4694875d5b8d0081385a9724b2c67abbd93203c159622e89ee35d94e662de7",
+            "sourceBytes": 2096772,
+            "sourceSha256": "96a7f6d0f6cd50da2d414c71bc0b2de69cedaf311bc4590d48ba0d19c4c24673",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "col-partition",
-            "minColId": "4Q2Y3",
-            "maxColId": "54M2T"
+            "minColId": "4Q2YZ",
+            "maxColId": "54MT4"
           },
           {
             "path": "nomenclature/mdd-mammalia-other-mammals-004.json.gz",
-            "records": 637,
-            "bytes": 178607,
-            "sha256": "5b4be512767bc6659105ca7fc4ec45f1b5529f31a2edfc3f32192d93478220c3",
-            "sourceBytes": 2096349,
-            "sourceSha256": "72fee267a7f46ca3e48c8a3efac82393669d484541205f9b241b4b5ec4ad1845",
+            "records": 631,
+            "bytes": 179492,
+            "sha256": "993c422eafef5f90756422190a0fcdfb2424ef5ab89f1595771afc23b8c2f150",
+            "sourceBytes": 2095662,
+            "sourceSha256": "af7f5b82916075bf8e694ac53cc4801e7dac3ec03e1e2ec858528a9295224c1c",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "col-partition",
-            "minColId": "54M2V",
-            "maxColId": "6GGVM"
+            "minColId": "54MT5",
+            "maxColId": "6GYLX"
           },
           {
             "path": "nomenclature/mdd-mammalia-other-mammals-005.json.gz",
-            "records": 650,
-            "bytes": 188307,
-            "sha256": "cda28e57609f30eb4fec17292fee330becbfdc8c1b23014b924ea52dbf498173",
-            "sourceBytes": 2096210,
-            "sourceSha256": "c8983e6a111f4789f9857064d361f2116ac1cd604bc0a0d231a304aaeaa28e6a",
+            "records": 652,
+            "bytes": 189077,
+            "sha256": "0fd894dcf81cf819b8b2a622f86cd8fa4d6d562d84b7398c1551962a764c3806",
+            "sourceBytes": 2096810,
+            "sourceSha256": "bb390e49728dfb91bed6a98095c3576c1f58672059644e6f7623cbbf2d236e9c",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "col-partition",
-            "minColId": "6GQKN",
-            "maxColId": "78DMZ"
+            "minColId": "6GYLY",
+            "maxColId": "78SWL"
           },
           {
             "path": "nomenclature/mdd-mammalia-other-mammals-006.json.gz",
-            "records": 662,
-            "bytes": 186988,
-            "sha256": "38d9e60bbfe588c4d051bfa3a3479e406222d801ca82f2425a97c79d489b704d",
-            "sourceBytes": 2097072,
-            "sourceSha256": "83b6b26d00354413b748691ed597c1ec8e637f11ae469a307e80f2da3c5072e7",
+            "records": 665,
+            "bytes": 187107,
+            "sha256": "8e508d667b73dc3113aa2f8d48566dafd06a40f112c366048e503cb2e3936c26",
+            "sourceBytes": 2096016,
+            "sourceSha256": "ad03841cac235449a813cde52d85dbf28cbccef6a06dda27929c079b63297da8",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "col-partition",
-            "minColId": "78DN9",
-            "maxColId": "CFNDW"
+            "minColId": "78SYB",
+            "maxColId": "CFNFX"
           },
           {
             "path": "nomenclature/mdd-mammalia-other-mammals-007.json.gz",
             "records": 595,
-            "bytes": 180891,
-            "sha256": "fed5a2bff824cbbbf693036b3b230571470440da5bf9c19a12b20079376f55a7",
-            "sourceBytes": 2094875,
-            "sourceSha256": "d087d02b16c6f11cc1496f9849d486d56cd0d8cf681f32179ab4a37428cb2058",
+            "bytes": 180507,
+            "sha256": "ae39ea51059f45f8eed86aea0ed06d43cae783c010a23d791594da21a5a881eb",
+            "sourceBytes": 2095743,
+            "sourceSha256": "b23e2bf04c95be96ddcb5c0110c7785ab252249310500f28d1738b0819ee0ab9",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "col-partition",
-            "minColId": "CFNDX",
-            "maxColId": "ZK3J"
+            "minColId": "CFP3F",
+            "maxColId": "ZK45"
           },
           {
             "path": "nomenclature/mdd-mammalia-other-mammals-008.json.gz",
-            "records": 150,
-            "bytes": 47577,
-            "sha256": "7418b2968e734c5ddb4f5ab2b27a71242c2c0bdec7e49f1586457fc9d1f35476",
-            "sourceBytes": 621237,
-            "sourceSha256": "fd4dece7db7875b0b98db28fbce8b68cae6ae779f460f9fd006edc9e3ecfb30f",
+            "records": 133,
+            "bytes": 42437,
+            "sha256": "eab16c9bf4edac1d2db81520129bfbdfbbb71464a38cd1c08d178ce77a5bd7ba",
+            "sourceBytes": 548610,
+            "sourceSha256": "52c34a45f9857945b1324e85a74ac6d7da5a0dae2b2d5de9d8f1f4d1e141010d",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "col-partition",
-            "minColId": "ZK3K",
+            "minColId": "ZK46",
             "maxColId": "ZY8B"
           }
         ],
         "upstreamOnlyFiles": [
           {
             "path": "nomenclature/mdd-mammalia-other-mammals-source-only-000.json.gz",
-            "records": 506,
-            "bytes": 162993,
-            "sha256": "180a531b04a39a8c5b82c8097ce703b55cd6fbddee592df38cb64ad7ce16d361",
-            "sourceBytes": 2096158,
-            "sourceSha256": "f905f71a7433712e4e0e0cdbff0aa0c43583f42904c4e4850e65f411c1d07b99",
+            "records": 508,
+            "bytes": 163311,
+            "sha256": "0be406f0732dfb52dbbb1641a88a016e22944f90cebf7807bc93fea9e255998c",
+            "sourceBytes": 2094701,
+            "sourceSha256": "aaae2108cf48185b57ee80e6db21a6be94fe2609a388091e95a0720f26745ae3",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "upstream-only"
           },
           {
             "path": "nomenclature/mdd-mammalia-other-mammals-source-only-001.json.gz",
-            "records": 505,
-            "bytes": 157738,
-            "sha256": "cf21525ed7b6417ed94d9dabc681a9ecbf6ff2ec1c8985469b8ffa506d4881a2",
-            "sourceBytes": 2092987,
-            "sourceSha256": "91881c2074bcfe7ee25c49f4cd71de23b7f8794a8491a2719db6e9cdf8469c74",
+            "records": 507,
+            "bytes": 159227,
+            "sha256": "cadd9e4e696d77fc42d5fc6a50be7d86a4abc9a9ed8c2146d06a5fee073675bc",
+            "sourceBytes": 2095679,
+            "sourceSha256": "7bb02a091f87fd2b7ec3dc84d6814edead2960c5c3ae833a8e9d5770122622ce",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "upstream-only"
           },
           {
             "path": "nomenclature/mdd-mammalia-other-mammals-source-only-002.json.gz",
-            "records": 432,
-            "bytes": 166322,
-            "sha256": "272722243aa32994ca0d81718c9c3314cef9093b118eeab303f292a44d124c7b",
-            "sourceBytes": 2093319,
-            "sourceSha256": "a3f64bff6a4eb4e468f3c2439321b1824d74afcf899b7892ae373b62725434e6",
+            "records": 434,
+            "bytes": 167027,
+            "sha256": "b090b0a312de551f8c3814f336b0cf9c699bf6a39c29ca43d961b68ec3aefd81",
+            "sourceBytes": 2096236,
+            "sourceSha256": "85c306c7d44d5ee111e469122decc8d9913fb620f922626609e7cd2ea4b75a5a",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "upstream-only"
           },
           {
             "path": "nomenclature/mdd-mammalia-other-mammals-source-only-003.json.gz",
-            "records": 221,
-            "bytes": 81952,
-            "sha256": "04d2b7386e1992106395b87659f6fd3d7fb11e94057bbbd864f28b03e2343d13",
-            "sourceBytes": 902276,
-            "sourceSha256": "6acb98eb68db4e14c6a15b4d14cbb9a8b07972c33c14e1cb658fd3c424092fae",
+            "records": 215,
+            "bytes": 79343,
+            "sha256": "ae3cb602ec7575544c4bd89ddc1791395ff9585b947754b95e6117c1d9ffbd80",
+            "sourceBytes": 871500,
+            "sourceSha256": "600b6d5632d28511689720d870b5f8eca0f7527f88cf4a231000170455092dbe",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "upstream-only"
@@ -1620,34 +1620,34 @@
       "primates": {
         "descriptor": {
           "path": "data/packages/mammalia/primates/nomenclature/mdd-mammalia-primates-sidecar.json",
-          "bytes": 7007,
-          "sha256": "8e0f6e35c12f5fc14ba3ab504d58a48790f3c91a95a7265fdb305efc4fac43cc"
+          "bytes": 6995,
+          "sha256": "14de10b9622c3204d712c03d7980365c8574fe8464078c013307d9669700cc33"
         },
         "files": [
           {
             "path": "nomenclature/mdd-mammalia-primates-000.json.gz",
-            "records": 522,
-            "bytes": 173676,
-            "sha256": "7283f541922cc42a9ebe172e24ff1581fb8a1b8557a921c905232cdeb780cdc7",
-            "sourceBytes": 2093765,
-            "sourceSha256": "dbc267594472c13f2e0528df7d583429f243c805285acec31ace5cca387a8ed4",
+            "records": 524,
+            "bytes": 174285,
+            "sha256": "18e4d67720e65dee906bf76a02d4b382b471980ea98cb4eeefb69475ec0972a3",
+            "sourceBytes": 2095013,
+            "sourceSha256": "781fbe6e88e57585fb53b4c260567ca46d8d0b322217f0d95edbc2290260ae88",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "col-partition",
             "minColId": "34B7X",
-            "maxColId": "TXQL"
+            "maxColId": "TXQP"
           },
           {
             "path": "nomenclature/mdd-mammalia-primates-001.json.gz",
-            "records": 8,
-            "bytes": 4066,
-            "sha256": "584c93c64576d7d6ce9d3e88cbe23d5994a113b6b4018d064993fe8ec4f1606d",
-            "sourceBytes": 36007,
-            "sourceSha256": "573228eb7f3b7625e31643ddc4ed75340a1da857ffce533b6cc1cab8074e5938",
+            "records": 6,
+            "bytes": 3328,
+            "sha256": "5f5661d5844a6645d417cf6ad3983167b398e2683c7e098921ae8a828fa4b589",
+            "sourceBytes": 27015,
+            "sourceSha256": "4b394e0ba541cf33995adb7657e380838b7af9c8c170d49663952d47e7f1b3ae",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "col-partition",
-            "minColId": "TXQM",
+            "minColId": "TXQQ",
             "maxColId": "X6S9"
           }
         ],
@@ -1655,10 +1655,10 @@
           {
             "path": "nomenclature/mdd-mammalia-primates-source-only-000.json.gz",
             "records": 33,
-            "bytes": 13083,
-            "sha256": "fa5df41bd1f7e814505a1359248b7a320649e26e146b060bd43e1b4dc0749b94",
-            "sourceBytes": 149434,
-            "sourceSha256": "46be52029da27ff10d8929e5c0835c18ef50e9922ac3ce3971bc344ae288734d",
+            "bytes": 13076,
+            "sha256": "ee92c9be17942ca806e2caa89d45be8ebdf55a800155314d92009ef8f744f86c",
+            "sourceBytes": 148906,
+            "sourceSha256": "f9b8ed1af6f097466107b43c2274ba5339b684066e9366c9aa2fc042c17cefb0",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "upstream-only"
@@ -1668,34 +1668,34 @@
       "cetartiodactyla": {
         "descriptor": {
           "path": "data/packages/mammalia/cetartiodactyla/nomenclature/mdd-mammalia-cetartiodactyla-sidecar.json",
-          "bytes": 7082,
-          "sha256": "b2aa0aa8ca3ea67687f5a0b9d8b48551a8137c2d1ae181363e6a82c9344f4242"
+          "bytes": 7070,
+          "sha256": "ca67bc88abb1370322c3cae9cdb72fadbd9ad54185a75a17b1d84201a565a1f5"
         },
         "files": [
           {
             "path": "nomenclature/mdd-mammalia-cetartiodactyla-000.json.gz",
-            "records": 365,
-            "bytes": 150686,
-            "sha256": "358393eb0394cd12d700ce76e51d28bc1c891bcb8b21935449e5119b57ba46d4",
-            "sourceBytes": 2094576,
-            "sourceSha256": "34f0863c13b48fe2717e6f911ba1e72a116681326b36af39086d42cf9bac7b8e",
+            "records": 366,
+            "bytes": 150877,
+            "sha256": "23341f7c733ac743131def48c49947fb048d64b18da8fe27777440f1aac80e0f",
+            "sourceBytes": 2093419,
+            "sourceSha256": "86a0800f398f392c38d4673acbd46bf5ac90146a4dd13dda62dffbbaa0be0b91",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "col-partition",
             "minColId": "342N9",
-            "maxColId": "QS65"
+            "maxColId": "QS66"
           },
           {
             "path": "nomenclature/mdd-mammalia-cetartiodactyla-001.json.gz",
-            "records": 138,
-            "bytes": 15998,
-            "sha256": "0bc8be55af3aea6442a4d50bcfbe84f4f4d5f5ebe878fac04282ac6dbf6f4177",
-            "sourceBytes": 194175,
-            "sourceSha256": "76cedb14b6028825866e09b186310529d40bee391c087757fb4b76b6f965c92c",
+            "records": 137,
+            "bytes": 15692,
+            "sha256": "2b6d9dcc5a36bed92d8c9e2bdbd09fdecbcae3715e5b80ac4b9906cfcb99b260",
+            "sourceBytes": 190132,
+            "sourceSha256": "b406bd862b3f481487ca46e2d4c78dd5fe35167665c72869dcf14e788183df7c",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "col-partition",
-            "minColId": "QS66",
+            "minColId": "QS67",
             "maxColId": "XPLQ"
           }
         ],
@@ -1703,10 +1703,10 @@
           {
             "path": "nomenclature/mdd-mammalia-cetartiodactyla-source-only-000.json.gz",
             "records": 46,
-            "bytes": 20113,
-            "sha256": "41edb764c62832505a5406b6a9e60467f7e82a712d34e7102de31a6e0266c485",
-            "sourceBytes": 257846,
-            "sourceSha256": "0b3f40d4aea97119e5ec8b80e1d0014182c4faab8743b0371a65b79bfc79063b",
+            "bytes": 20102,
+            "sha256": "15614148561d5d77e7b000a8b04a914aa69b4cfdb65b6044b762b29b06472d4f",
+            "sourceBytes": 257110,
+            "sourceSha256": "f8d021f853cb48754043945f01becda75764f3b679dfe9ce5ad52c749ea769a4",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "upstream-only"
@@ -1716,17 +1716,17 @@
       "carnivora": {
         "descriptor": {
           "path": "data/packages/mammalia/carnivora/nomenclature/mdd-mammalia-carnivora-sidecar.json",
-          "bytes": 6490,
-          "sha256": "a934fccb4a9334c94eb8b6e5b361e66de3f8895d6ff43c353816fa49a0746929"
+          "bytes": 6478,
+          "sha256": "dca3145622a2427c33f4a24040e3ae3209c9d22a451f072921d54d23110c5bfe"
         },
         "files": [
           {
             "path": "nomenclature/mdd-mammalia-carnivora-000.json.gz",
             "records": 310,
-            "bytes": 115025,
-            "sha256": "0ffd427f1bc8e6e3e0f42c201c908ee5e18d2bdaa723c25024bfaac891b5200e",
-            "sourceBytes": 1583107,
-            "sourceSha256": "f0d7290b7022422077d4ff0158e4fb5f2c9f333d34fd92d7f265070d269a7074",
+            "bytes": 114989,
+            "sha256": "ba832e1eea65717e6bc7ffb667fd0b6aac41a6ef8a2cf9c15f821221f2014f35",
+            "sourceBytes": 1578483,
+            "sourceSha256": "f5a90e41316bbd616f52c9ed6190c3f94edc735131b1d628fae6721c6cdd0e40",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "col-partition",
@@ -1738,10 +1738,10 @@
           {
             "path": "nomenclature/mdd-mammalia-carnivora-source-only-000.json.gz",
             "records": 30,
-            "bytes": 12926,
-            "sha256": "3b6dcf0ac9c1b6544a8d6ff417176c56ec7ac7074eea2b8f825631ff6f9926a5",
-            "sourceBytes": 154561,
-            "sourceSha256": "4739fb261e30ab820915e84e2192e5efa29ac72c23129de6d767e97fe5eeb881",
+            "bytes": 12917,
+            "sha256": "0da58d07295e0e09c1d0ecb4aa9309d4d721cabebbd805904e33d12be4b2bdd6",
+            "sourceBytes": 154081,
+            "sourceSha256": "361f238997642ae63e8d4b711fa6897939c39fb83468f10a5775fb3d1c0d8643",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "upstream-only"
@@ -1751,17 +1751,17 @@
       "perissodactyla": {
         "descriptor": {
           "path": "data/packages/mammalia/perissodactyla/nomenclature/mdd-mammalia-perissodactyla-sidecar.json",
-          "bytes": 6505,
-          "sha256": "1ca654bd1cae2c7752be91f8c1c039f9cd30df8ca94a72d4b822f2591991f713"
+          "bytes": 6493,
+          "sha256": "e5a5ca69c41e853cfd626f635d4444cf9cf9a4f5c02e95f0a0969db5cc50b3b7"
         },
         "files": [
           {
             "path": "nomenclature/mdd-mammalia-perissodactyla-000.json.gz",
             "records": 19,
-            "bytes": 5814,
-            "sha256": "cd088f751f52a476781cb67d2ddcee31c9910cc2a6646cee7190608a8bc93d3a",
-            "sourceBytes": 72800,
-            "sourceSha256": "75976314bc52ca983726cf9252287d50fe695a7144dffb18fb8641396d88275f",
+            "bytes": 5813,
+            "sha256": "a7c80e0a3537ef7d0692ea104612dfde4253726b6f7b9e1b6f9a9abbc7a70bf8",
+            "sourceBytes": 72544,
+            "sourceSha256": "d52fec27eb51f30d9480f471891fb76d4b853b042b06b5925b21a4e27a9d5269",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "col-partition",
@@ -1773,10 +1773,10 @@
           {
             "path": "nomenclature/mdd-mammalia-perissodactyla-source-only-000.json.gz",
             "records": 2,
-            "bytes": 1563,
-            "sha256": "43e0d29fd38820b1d30f92dba4c72f39e76e3d54fd42a1b8e0fbe8c0d10ae16f",
-            "sourceBytes": 10420,
-            "sourceSha256": "62bd00778ceba5d8997b0c4bd36350bdd84aab8ccea3f23a98546dc3a2c2653a",
+            "bytes": 1557,
+            "sha256": "f3f9102774632144faf2298963c51bec2da79c5db519e20171df5108e7dc8833",
+            "sourceBytes": 10388,
+            "sourceSha256": "5871043e2b2c2a97f19e4f225430680d7f53a015a94871d068c60876dd37552f",
             "encoding": "gzip",
             "mediaType": "application/json",
             "role": "upstream-only"
