@@ -96,6 +96,7 @@
         "monoplacophora",
         "scaphopoda",
         "arthropoda",
+        "parioscorpio",
         "trilobita",
         "phacopida",
         "ptychopariida",
@@ -118,7 +119,6 @@
         "pycnogonida",
         "arachnida",
         "scorpiones",
-        "parioscorpio",
         "araneae",
         "acari",
         "insecta",
@@ -470,6 +470,7 @@
         "txn:57663",
         "txn:8166",
         "txn:18891",
+        "txn:404117",
         "txn:19100",
         "txn:21421",
         "txn:20239",
@@ -489,7 +490,6 @@
         "txn:19015",
         "txn:19008",
         "txn:243100",
-        "txn:404117",
         "txn:57473",
         "txn:56637",
         "txn:71353",
@@ -746,6 +746,7 @@
         "monoplacophora",
         "scaphopoda",
         "arthropoda",
+        "parioscorpio",
         "trilobita",
         "phacopida",
         "ptychopariida",
@@ -765,7 +766,6 @@
         "pycnogonida",
         "arachnida",
         "scorpiones",
-        "parioscorpio",
         "araneae",
         "insecta",
         "odonata",
@@ -1618,6 +1618,7 @@
         "monoplacophora",
         "scaphopoda",
         "arthropoda",
+        "parioscorpio",
         "trilobita",
         "phacopida",
         "ptychopariida",
@@ -1640,7 +1641,6 @@
         "pycnogonida",
         "arachnida",
         "scorpiones",
-        "parioscorpio",
         "araneae",
         "acari",
         "insecta",
@@ -1729,6 +1729,7 @@
         "txn:57663",
         "txn:8166",
         "txn:18891",
+        "txn:404117",
         "txn:19100",
         "txn:21421",
         "txn:20239",
@@ -1748,7 +1749,6 @@
         "txn:19015",
         "txn:19008",
         "txn:243100",
-        "txn:404117",
         "txn:57473",
         "txn:56637",
         "txn:71353",
@@ -1819,6 +1819,7 @@
         "monoplacophora",
         "scaphopoda",
         "arthropoda",
+        "parioscorpio",
         "trilobita",
         "phacopida",
         "ptychopariida",
@@ -1838,7 +1839,6 @@
         "pycnogonida",
         "arachnida",
         "scorpiones",
-        "parioscorpio",
         "araneae",
         "insecta",
         "odonata",
@@ -3748,6 +3748,7 @@
       "externalResolutionStatus": "resolved-exact",
       "queryStatus": "resolved-and-observed",
       "descendantEntityIds": [
+        "parioscorpio",
         "trilobita",
         "phacopida",
         "ptychopariida",
@@ -3770,7 +3771,6 @@
         "pycnogonida",
         "arachnida",
         "scorpiones",
-        "parioscorpio",
         "araneae",
         "acari",
         "insecta",
@@ -3806,6 +3806,7 @@
       ],
       "descendantTaxonIds": [
         "txn:18891",
+        "txn:404117",
         "txn:19100",
         "txn:21421",
         "txn:20239",
@@ -3825,7 +3826,6 @@
         "txn:19015",
         "txn:19008",
         "txn:243100",
-        "txn:404117",
         "txn:57473",
         "txn:56637",
         "txn:71353",
@@ -3844,6 +3844,7 @@
       ],
       "descendantScientificNames": [
         "arthropoda",
+        "parioscorpio",
         "trilobita",
         "phacopida",
         "ptychopariida",
@@ -3863,7 +3864,6 @@
         "pycnogonida",
         "arachnida",
         "scorpiones",
-        "parioscorpio",
         "araneae",
         "insecta",
         "odonata",
@@ -3901,6 +3901,31 @@
         "Neogene"
       ],
       "matchedTotal": 1507
+    },
+    "parioscorpio": {
+      "entityId": "parioscorpio",
+      "packageId": "trilobites-chelicerates",
+      "entityKind": "taxon",
+      "externalTaxonId": "txn:404117",
+      "scientificNameNormalized": "parioscorpio",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "complete-query-observed",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [
+        "txn:404117"
+      ],
+      "descendantScientificNames": [
+        "parioscorpio"
+      ],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
+      "periods": [],
+      "matchedTotal": 0
     },
     "trilobita": {
       "entityId": "trilobita",
@@ -4270,7 +4295,6 @@
         "pycnogonida",
         "arachnida",
         "scorpiones",
-        "parioscorpio",
         "araneae",
         "acari"
       ],
@@ -4284,7 +4308,6 @@
         "txn:19015",
         "txn:19008",
         "txn:243100",
-        "txn:404117",
         "txn:57473"
       ],
       "descendantScientificNames": [
@@ -4297,7 +4320,6 @@
         "pycnogonida",
         "arachnida",
         "scorpiones",
-        "parioscorpio",
         "araneae"
       ],
       "matchMethods": {
@@ -4536,20 +4558,17 @@
       "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "scorpiones",
-        "parioscorpio",
         "araneae",
         "acari"
       ],
       "descendantTaxonIds": [
         "txn:19008",
         "txn:243100",
-        "txn:404117",
         "txn:57473"
       ],
       "descendantScientificNames": [
         "arachnida",
         "scorpiones",
-        "parioscorpio",
         "araneae"
       ],
       "matchMethods": {
@@ -4572,16 +4591,12 @@
       "scientificNameNormalized": "scorpiones",
       "externalResolutionStatus": "resolved-exact",
       "queryStatus": "complete-query-observed",
-      "descendantEntityIds": [
-        "parioscorpio"
-      ],
+      "descendantEntityIds": [],
       "descendantTaxonIds": [
-        "txn:243100",
-        "txn:404117"
+        "txn:243100"
       ],
       "descendantScientificNames": [
-        "scorpiones",
-        "parioscorpio"
+        "scorpiones"
       ],
       "matchMethods": {
         "exactExternalId": 0,
@@ -4594,31 +4609,6 @@
         "Silurian"
       ],
       "matchedTotal": 1
-    },
-    "parioscorpio": {
-      "entityId": "parioscorpio",
-      "packageId": "trilobites-chelicerates",
-      "entityKind": "taxon",
-      "externalTaxonId": "txn:404117",
-      "scientificNameNormalized": "parioscorpio",
-      "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "complete-query-observed",
-      "descendantEntityIds": [],
-      "descendantTaxonIds": [
-        "txn:404117"
-      ],
-      "descendantScientificNames": [
-        "parioscorpio"
-      ],
-      "matchMethods": {
-        "exactExternalId": 0,
-        "acceptedName": 0,
-        "higherClassification": 0
-      },
-      "completeSnapshotAvailable": true,
-      "completeSnapshotRows": 1,
-      "periods": [],
-      "matchedTotal": 0
     },
     "araneae": {
       "entityId": "araneae",
