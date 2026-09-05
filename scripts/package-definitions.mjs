@@ -463,7 +463,7 @@ export const packageDefinitions = [
       'The Lottia and Biomphalaria Nodal experiment addresses left–right developmental asymmetry in two gastropods; it does not directly reconstruct torsion in the molluscan ancestor or every shell-coiling mechanism.',
       'Pojetaia shell fabrics support a bounded biomineralization comparison. Laminar structure, foliated aragonite and nacre homology remain distinct observations and interpretations.',
       'Micrina valve homology, Yuganotheca stem position and the affinities of tommotiids are topology and homology hypotheses. Kutorgina and Chengjiang lophophore records directly preserve anatomy but do not make separate taxa an ancestor series.',
-      'Lingula genome, transcriptome and shell proteome comparisons test living biomineralization mechanisms; they do not imply morphological stasis or demonstrate the exact mechanism of Cambrian shells.',
+      'Lingula genome, transcriptome and shell proteome comparisons document molecular components and suggest biomineralization mechanisms that need further functional testing; they do not imply morphological stasis or demonstrate the exact mechanism of Cambrian shells.',
       'COL26.8 accepted-species routing is a naming-only snapshot. Graptolithina remains in this historical teaching package but receives no new mollusc or brachiopod affinity claim; bundled PBDB records remain bounded, non-random samples.',
       'Entity-wide ranges are now either source-bounded evidence windows or explicit withholdings. They must not be read as global FADs, divergence dates or continuous lineage durations.',
     ],

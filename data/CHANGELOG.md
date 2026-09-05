@@ -2,6 +2,8 @@
 
 ## Unreleased content corrections
 
+- Replaced generic range introductions for Olenoides, Megachelicerax, Elpistostege, Acanthostega and Ichthyostega with named locality, specimen or stratigraphic context while preserving the fossil-range claims required by their profiles.
+
 - Clarified that Lingula larval mantle BMP activity supports a proposed shared biomineralization mechanism, not a functionally established causal role, following the original study's explicit qualification.
 
 - Distinguished Lingula anatina adult genomic material, embryonic and adult transcriptomes, and adult shell proteomics in the source description. Updated the Octopus map example to match the corrected sampling and duplication limitations.
