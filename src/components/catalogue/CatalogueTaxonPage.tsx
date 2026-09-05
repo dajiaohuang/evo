@@ -15,6 +15,7 @@ import {
   loadCatalogueMossChinaDescriptions,
   loadCatalogueFnaDescriptions,
   loadCatalogueBrazilFloraDescriptions,
+  loadCatalogueTurkeyDescriptions,
   loadCataloguePakistanDescriptions,
   loadCataloguePlaziDescriptions,
   loadCatalogueSpeciesOwnership,
@@ -110,6 +111,8 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const [fnaError, setFnaError] = useState(false)
   const [brazilFlora, setBrazilFlora] = useState<Awaited<ReturnType<typeof loadCatalogueBrazilFloraDescriptions>>>(null)
   const [brazilFloraError, setBrazilFloraError] = useState(false)
+  const [turkey, setTurkey] = useState<Awaited<ReturnType<typeof loadCatalogueTurkeyDescriptions>>>(null)
+  const [turkeyError, setTurkeyError] = useState(false)
   const [pakistan, setPakistan] = useState<Awaited<ReturnType<typeof loadCataloguePakistanDescriptions>>>(null)
   const [pakistanError, setPakistanError] = useState(false)
   const [fdac, setFdac] = useState<Awaited<ReturnType<typeof loadCatalogueFdacDescriptions>>>(null)
@@ -167,6 +170,11 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
         void loadCatalogueBrazilFloraDescriptions(id).then((record) => {
           if (!cancelled) setBrazilFlora(record)
         }).catch(() => { if (!cancelled) setBrazilFloraError(true) })
+      }
+      if (loadedManifest.turkeyDescriptions && loadedNode.rank === 'species') {
+        void loadCatalogueTurkeyDescriptions(id).then((record) => {
+          if (!cancelled) setTurkey(record)
+        }).catch(() => { if (!cancelled) setTurkeyError(true) })
       }
       if (loadedManifest.pakistanDescriptions && loadedNode.rank === 'species') {
         void loadCataloguePakistanDescriptions(id).then((record) => {
@@ -540,6 +548,20 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
               : <p>{description.datasetCitation}</p>}
             <p>{description.rightsHolder} · {description.rights} · <a href={description.license}>{description.license}</a></p>
             <small>{brazilFlora.wfoId} · {description.sourceId} · source row {description.rowNumber}{description.referenceRowNumbers.length ? ` · reference rows ${description.referenceRowNumbers.join(', ')}` : ''} · {description.citationScope}</small>
+          </details>)}
+          </section>}
+        {turkeyError && <p role="status">Turkey flora descriptions could not be loaded.</p>}
+        {turkey && manifest.turkeyDescriptions && <section className="catalogue-source-card">
+          <h2>Turkey flora source descriptions</h2>
+          <p>Historical regional source from Turkey (20 February 2024 snapshot), not a complete species dossier or current census. Original Turkish text is shown as plain text; no figures, PDFs or authored summaries are included.</p>
+          <p>Source name: {turkey.sourceScientificName} {turkey.sourceAuthorship} · Family: {turkey.sourceFamily}</p>
+          <p><a href={manifest.turkeyDescriptions.source.sourceUrl}>{manifest.turkeyDescriptions.source.provider} — {manifest.turkeyDescriptions.source.title}</a> · {manifest.turkeyDescriptions.source.sourceVersion} · {manifest.turkeyDescriptions.source.retrievedAt} · <a href={manifest.turkeyDescriptions.source.licenseUrl}>{manifest.turkeyDescriptions.source.license}</a></p>
+          {turkey.descriptions.map((description) => <details key={description.descriptionRecordNumber}>
+            <summary>Morphology</summary>
+            <p lang="tr" style={{ whiteSpace: 'pre-wrap' }}>{description.text}</p>
+            <p>{description.datasetCitation}</p>
+            <p>{description.rights} · <a href={description.license}>{description.license}</a></p>
+            <small>{turkey.wfoId} · description record {description.descriptionRecordNumber} · dataset citation</small>
           </details>)}
         </section>}
         {pakistanError && <p role="status">{zh ? '巴基斯坦植物志描述暂时无法加载。' : 'Flora of Pakistan descriptions could not be loaded.'}</p>}
