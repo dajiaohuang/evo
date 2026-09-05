@@ -6,6 +6,7 @@ import { strToU8 } from 'fflate'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
 import { evaluatePackageReview } from './check-review-freshness.mjs'
 import { deterministicGzip, deterministicZip } from './archive-determinism.mjs'
+import { partitionSanbiDescriptions } from './sanbi-description-shards.mjs'
 
 const args = process.argv.slice(2)
 const outputIndex = args.indexOf('--out')
@@ -1586,8 +1587,20 @@ if (catalogueResourcePackAcceptedSpecies !== catalogueResourcePacksSourceManifes
     .reduce((sum, entry) => sum + entry.acceptedSpeciesCount, 0)) {
   throw new Error('Catalogue nomenclatural resource-pack total does not match ownership')
 }
+const sanbiSource = readJson('data/sources/sanbi-descriptions-import-ledger.json')
+const sanbiBytes = readFileSync(join(rootDir, sanbiSource.output))
+if (sanbiBytes.length !== sanbiSource.outputBytes || sha256(sanbiBytes) !== sanbiSource.outputSha256) throw new Error('SANBI source bytes differ from the import ledger')
+const sanbiRecords = gunzipSync(sanbiBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
+const sanbiRoutes = {}
+const sanbiFiles = partitionSanbiDescriptions(sanbiRecords).map(([prefix, records]) => {
+  const path = `catalogue/descriptions/sanbi-${prefix}.json.gz`
+  const file = { ...writeGzipJson(path, records), prefix, path, records: records.length }
+  sanbiRoutes[prefix] = [file.url]
+  return file
+})
 catalogueRuntimeManifest = {
   ...catalogueSourceManifest,
+  sanbiDescriptions: { source: sanbiSource, routes: sanbiRoutes, files: sanbiFiles },
   provenance: catalogueProvenance,
   sourceChecklists: { ...catalogueSourceManifest.sourceChecklists, url: catalogueSourcesFile.url },
   ownership: catalogueOwnershipDescriptor,
@@ -1703,7 +1716,8 @@ const current = {
       + catalogueRuntimeManifest.acceptedTargets.totalCompressedBytes
       + catalogueRuntimeManifest.hierarchy.nodes.totalCompressedBytes
       + catalogueRuntimeManifest.hierarchy.children.totalCompressedBytes
-      + catalogueRuntimeManifest.ownership.bytes,
+      + catalogueRuntimeManifest.ownership.bytes
+      + (catalogueRuntimeManifest.sanbiDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0),
     pagesLimitBytes: 650 * 1024 * 1024,
   },
   evidenceBoundary: {

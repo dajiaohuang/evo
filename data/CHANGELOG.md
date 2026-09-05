@@ -2,6 +2,8 @@
 
 ## Unreleased content corrections
 
+- Added 65,139 attributed SANBI e-Flora South Africa descriptions for 15,211 uniquely linked accepted COL species. The full-Web catalogue generates 256 lazy hash-routed shards; Pages preview does not receive this full collection. Original English morphology, diagnostic and habitat text, publication citations and source row locators remain distinct from synthesized Evo claims and global species dossiers. Source is regional v1.36 (2022), not a current global biological census.
+
 - Added specimen-bounded Eocursor jaw and tooth morphology, study-bounded Edmontosaurus cranial variation, and the topology-dependent horsetail size and strobilus trend. These additions distinguish observed anatomy from evolutionary interpretation and do not supply global fossil ranges.
 - Completed Chinese statement mappings for the 1,281 claims present at the translation checkpoint; later additions include both statement and rationale translations. Translation coverage is not worldwide species-description coverage or expert review.
 - Added source-bounded morphology evidence for Araneae, Coleoptera, Caudata, Myxini, Calcarea, Homoscleromorpha, Bryophyta and Anthocerotophyta. Fossil and living examples retain their specimen or sampling scope rather than being generalized to every member of their navigation group.

@@ -18,6 +18,7 @@ describe('complete Atlas offline storage', () => {
       { url: `${releaseBase}maps/coastlines-100.json.gz`, bytes: 20, sha256: 'b'.repeat(64) },
       { url: `${releaseBase}maps/observations/geochemistry/part-0.json.gz`, bytes: 12, sha256: 'd'.repeat(64) },
       { url: `${releaseBase}downloads/demo-${datasetVersion}.zip`, bytes: 40, sha256: 'c'.repeat(64) },
+      { url: `${releaseBase}catalogue/descriptions/sanbi-00.json.gz`, bytes: 15, sha256: 'e'.repeat(64) },
     ]
     const current = {
       schemaVersion: 5,
@@ -53,6 +54,7 @@ describe('complete Atlas offline storage', () => {
       [files[1].url, { type: 'FeatureCollection', features: [] }],
       [files[2].url, { datasetId: 'geochemistry', records: [] }],
       [files[3].url, 'duplicate export'],
+      [files[4].url, [{ colId: 'example', descriptions: [] }]],
     ])
     const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
       const url = String(input)
@@ -77,11 +79,11 @@ describe('complete Atlas offline storage', () => {
     vi.stubGlobal('Worker', undefined)
 
     const { getCompleteAtlasOfflinePlan, saveCompleteAtlasOffline } = await import('./offlinePackages')
-    await expect(getCompleteAtlasOfflinePlan()).resolves.toEqual({ datasetVersion, fileCount: 3, totalBytes: 42 })
+    await expect(getCompleteAtlasOfflinePlan()).resolves.toEqual({ datasetVersion, fileCount: 4, totalBytes: 57 })
     const progress = vi.fn()
-    await expect(saveCompleteAtlasOffline(progress)).resolves.toEqual({ datasetVersion, fileCount: 3, totalBytes: 42 })
+    await expect(saveCompleteAtlasOffline(progress)).resolves.toEqual({ datasetVersion, fileCount: 4, totalBytes: 57 })
 
-    expect(progress).toHaveBeenLastCalledWith({ datasetVersion, fileCount: 3, totalBytes: 42, completedFiles: 3, completedBytes: 42 })
+    expect(progress).toHaveBeenLastCalledWith({ datasetVersion, fileCount: 4, totalBytes: 57, completedFiles: 4, completedBytes: 57 })
     expect([...stored.keys()].some((url) => url.endsWith('current.json'))).toBe(true)
     expect([...stored.keys()].some((url) => url.endsWith('releases.json'))).toBe(true)
     expect([...stored.keys()].some((url) => url.endsWith('release-files.json'))).toBe(true)
@@ -89,6 +91,7 @@ describe('complete Atlas offline storage', () => {
     expect([...stored.keys()].some((url) => url.endsWith(files[1].url))).toBe(true)
     expect([...stored.keys()].some((url) => url.endsWith(files[2].url))).toBe(true)
     expect([...stored.keys()].some((url) => url.endsWith(files[3].url))).toBe(false)
+    expect([...stored.keys()].some((url) => url.endsWith(files[4].url))).toBe(true)
   })
 
   it('includes research examples, bundled media and nomenclature collections in package offline storage', async () => {

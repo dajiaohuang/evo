@@ -6,6 +6,7 @@ import type {
   CatalogueRecord,
   CatalogueRuntimeFile,
   CatalogueRuntimeManifest,
+  CatalogueSanbiDescriptionRecord,
   CatalogueSourceChecklist,
   CatalogueSpeciesOwner,
   CatalogueSpeciesOwnership,
@@ -1141,6 +1142,14 @@ export async function loadCatalogueHierarchyNode(id: string): Promise<CatalogueT
   if (hierarchyNode) return { ...hierarchyNode, projection: 'accepted-species-hierarchy' }
   const target = await loadCatalogueTargetFromManifest(manifest, id)
   return target ? { ...target, projection: 'resolution-target' } : null
+}
+
+export async function loadCatalogueSanbiDescriptions(id: string): Promise<CatalogueSanbiDescriptionRecord | null> {
+  const manifest = await loadCatalogueManifest()
+  const collection = manifest.sanbiDescriptions
+  if (!collection) return null
+  const records = await loadCatalogueRoute<CatalogueSanbiDescriptionRecord>(collection.routes, collection.files, id)
+  return records.find((record) => record.colId === id) ?? null
 }
 
 export async function loadCatalogueChildren(parentId: string): Promise<CatalogueHierarchyChildRecord[]> {

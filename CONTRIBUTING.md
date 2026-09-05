@@ -20,7 +20,7 @@ npx playwright install chromium firefox webkit
 npm run verify
 ```
 
-`verify` is the release contract. Generated registry projections must be produced by `npm run data:registry:build`; do not hand-edit files listed in `data/registry/generated-files.json`.
+`verify` is the full Web/native release contract. Current content maintenance CI runs `npm run verify:web`: the same data and Web checks, without building mobile resources or starting the native-data browser suite. Native work is paused, not certified by this Web gate; `npm run verify` retains those checks for a future full release. Generated registry projections must be produced by `npm run data:registry:build`; do not hand-edit files listed in `data/registry/generated-files.json`.
 
 ## Scientific integrity
 
