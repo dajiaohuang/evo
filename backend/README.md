@@ -31,6 +31,7 @@ GET /v1/maps/manifest
 GET /v1/maps/frame?layer=coastlines&ageMa=12.4
 GET /v1/resources/{data-relative-path}
 GET /v1/sync/files?profile=full&limit=500&cursor=...
+GET /v1/sync/files.ndjson?profile=full
 ```
 
 `/v1/resources` returns original bytes from `data/`, with a strong SHA-256 ETag, `Range`/`If-Range`, and immutable caching. Gzip payloads are deliberately served as bytes with `Content-Type: application/gzip`; clients decompress according to the descriptor's `encoding` field.
@@ -38,6 +39,8 @@ GET /v1/sync/files?profile=full&limit=500&cursor=...
 `/v1/catalogue/tree.ndjson` streams the complete resident catalogue hierarchy as newline-delimited JSON, one compact node record per line. It is intended for full native-client or backend-to-backend transfer and does not build the complete response in memory.
 
 The full offline profile is the native client data contract. Sync is stable-path paginated, so an interrupted download resumes from `nextCursor` and each file can resume with `Range`. If `since` equals the current dataset version, the response is an empty up-to-date set.
+
+`/v1/sync/files.ndjson` is the current-release streaming sync manifest. It emits a bounded manifest header followed by one descriptor per line, allowing native clients to enqueue the complete release incrementally. It intentionally rejects non-current `since` values; historical release compatibility is not part of the backend contract.
 
 ## Build the deterministic inventory
 
