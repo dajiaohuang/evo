@@ -449,8 +449,11 @@ func indexFiles(s *Snapshot) error {
 			return err
 		}
 		rel = filepath.ToSlash(rel)
+		// The generated manifest checksum map is release metadata, not a
+		// verified digest of the bytes currently on disk. Keep delivery hashes
+		// empty until EnsureHash reads the current file, so stale metadata can
+		// never become a false ETag or an invalid resume validator.
 		file := FileInfo{Path: rel, Bytes: info.Size(), FullPath: filePath, MediaType: mediaType(rel), Encoding: fileEncoding(rel)}
-		file.SHA256 = s.Manifest.Checksums[rel]
 		s.Files[rel] = file
 		s.FileOrder = append(s.FileOrder, rel)
 		return nil

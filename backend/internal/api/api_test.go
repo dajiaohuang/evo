@@ -219,6 +219,34 @@ func TestResourceRangeAndETag(t *testing.T) {
 	}
 }
 
+func TestResourceRangeResumeWithSyncDigest(t *testing.T) {
+	h := testHandler(t)
+	resourcePath := "/v1/resources/data/manifest.json"
+	disk, err := os.ReadFile(filepath.Join("..", "..", "..", "data", "manifest.json"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(disk) < 32 {
+		t.Fatalf("manifest is unexpectedly small: %d", len(disk))
+	}
+
+	first := request(t, h, "GET", resourcePath, map[string]string{"Range": "bytes=0-15"})
+	if first.Code != http.StatusPartialContent || !bytes.Equal(first.Body.Bytes(), disk[:16]) {
+		t.Fatalf("first range status/body: %d %d", first.Code, first.Body.Len())
+	}
+	etag := first.Header().Get("ETag")
+	if len(etag) < 2 {
+		t.Fatalf("missing strong etag: %q", etag)
+	}
+	second := request(t, h, "GET", resourcePath, map[string]string{
+		"Range":    "bytes=16-",
+		"If-Range": strings.Trim(etag, `"`),
+	})
+	if second.Code != http.StatusPartialContent || !bytes.Equal(second.Body.Bytes(), disk[16:]) {
+		t.Fatalf("resumed range status/body: %d %d want %d", second.Code, second.Body.Len(), len(disk)-16)
+	}
+}
+
 func TestOptionalExtensionResourceIsBytePreserving(t *testing.T) {
 	h := testHandler(t)
 	handler := h.(*Handler)

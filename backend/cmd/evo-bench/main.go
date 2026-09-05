@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 	"net/url"
+	"os"
 	"runtime"
 	"sort"
 	"sync"
@@ -29,6 +30,8 @@ func main() {
 	root := flag.String("data-root", "..", "Evo repository root containing data/")
 	rounds := flag.Int("rounds", 20, "sequential warm requests per endpoint")
 	concurrency := flag.Int("concurrency", 16, "parallel workers for the mixed request test")
+	fullSync := flag.Bool("full-sync", false, "transfer and hash every current full-release resource, then verify Range resume")
+	syncConcurrency := flag.Int("sync-concurrency", 4, "parallel workers for -full-sync")
 	flag.Parse()
 	started := time.Now()
 	data, err := store.New(*root)
@@ -39,6 +42,21 @@ func main() {
 	server := httptest.NewServer(api.NewHandler(data))
 	defer server.Close()
 	client := server.Client()
+	if *fullSync {
+		report, err := runFullSync(client, server.URL, *syncConcurrency)
+		if err != nil {
+			panic(err)
+		}
+		b, err := json.MarshalIndent(report, "", "  ")
+		if err != nil {
+			panic(err)
+		}
+		fmt.Println(string(b))
+		if report.Errors != 0 || report.Mismatches != 0 || report.Resume.Status != http.StatusPartialContent || !report.Resume.HashMatches {
+			os.Exit(1)
+		}
+		return
+	}
 	measure := func(name, target string, headers map[string]string, count int) sample {
 		started := time.Now()
 		result := sample{Name: name, Latencies: make([]time.Duration, 0, count)}

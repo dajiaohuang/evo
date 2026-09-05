@@ -132,7 +132,7 @@ func (h *Handler) currentRelease(w http.ResponseWriter, r *http.Request) {
 		"releaseBase": "data/", "publication": "immutable local source snapshot", "profile": "full",
 		"scopeStatement": s.Manifest.ScopeStatement, "includedMajorGroups": s.Manifest.IncludedGroups, "excludedMajorGroups": s.Manifest.ExcludedGroups, "wholeLifeCoverageClaim": s.Manifest.WholeLifeClaim,
 		"counts": s.Manifest.Records, "sources": s.Manifest.Sources, "limitations": s.Manifest.Limitations,
-		"files":     map[string]any{"count": len(files), "bytes": bytes, "checksummedAtStartup": known, "hashes": "manifest-known plus lazy SHA-256 for sync/resource requests", "inventory": "/v1/sync/files?profile=full"},
+		"files":     map[string]any{"count": len(files), "bytes": bytes, "checksummedAtStartup": known, "hashes": "lazy SHA-256 generated from current resource bytes for sync/resource requests", "inventory": "/v1/sync/files?profile=full"},
 		"catalogue": map[string]any{"releaseAlias": s.Catalogue.ReleaseAlias, "releaseDate": s.Catalogue.ReleaseDate, "manifestResource": "/v1/resources/" + s.Catalogue.RegistryPath},
 	}, "public, max-age=30, must-revalidate")
 }
@@ -664,13 +664,26 @@ func (h *Handler) resource(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	defer input.Close()
-	if ifRange := r.Header.Get("If-Range"); ifRange != "" && ifRange != etag {
+	if ifRange := r.Header.Get("If-Range"); ifRange != "" {
 		request := r.Clone(r.Context())
 		request.Header = r.Header.Clone()
-		request.Header.Del("Range")
+		if !matchesResourceETag(ifRange, etag, file.SHA256) {
+			request.Header.Del("Range")
+		} else if ifRange != etag {
+			// net/http's ServeContent compares If-Range as an HTTP entity-tag;
+			// normalize the descriptor digest before handing the request to it.
+			request.Header.Set("If-Range", etag)
+		}
 		r = request
 	}
 	http.ServeContent(w, r, path.Base(file.Path), time.Time{}, input)
+}
+
+// matchesResourceETag accepts the strong ETag returned by this endpoint and
+// the bare digest carried by sync descriptors. Native clients use the latter
+// value in If-Range, while HTTP clients commonly preserve the quoted ETag.
+func matchesResourceETag(value, etag, digest string) bool {
+	return value == etag || strings.Trim(value, `"`) == digest
 }
 
 func writeJSON(w http.ResponseWriter, r *http.Request, status int, value any, cache string) {
