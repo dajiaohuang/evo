@@ -28,6 +28,8 @@ type TranslationValues = Record<string, string | number>
 const STORAGE_KEY = 'evo-atlas-language'
 
 const zh: Record<string, string> = {
+  'The displayed 3.7 Ga boundary represents sampled biosignature evidence, not a resolved date for the origin of life or LUCA.': '显示的 37 亿年前边界代表已取样的生物标志证据，并非已经确定的生命起源或最后普遍共同祖先年代。',
+  'Parioscorpio (affinity unresolved)': 'Parioscorpio（亲缘未定）',
   'CAO2024 observations and constraints': 'CAO2024 观测与约束',
   'paleomagnetic-poles': '古地磁极',
   'geochemistry': '地球化学样本',

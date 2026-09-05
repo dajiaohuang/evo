@@ -1,4 +1,7 @@
 export const trilobitesCheliceratesZh: Record<string, string> = {
+  "A cheliceral fixed ramus preserving 36.4 cm, reconstructed at 45.5 cm complete, informs a separate estimate of extreme eurypterid body size.": "螯肢固定支保存长度为 36.4 厘米，完整长度重建为 45.5 厘米；这些测量为另行估算巨型板足鲎的体长提供依据。",
+  "Wendruff et al. (2020) interpreted holotype UWGM 2162 and paratype UWGM 2163 as scorpions and compared their medial structures with pulmonary-cardiovascular anatomy; this records the original interpretation, not an established identification.": "Wendruff 等（2020）将正模 UWGM 2162 和副模 UWGM 2163 解释为蝎类，并将其中线结构与肺—心血管解剖进行比较；这里记录的是原始解释，而非已经确立的鉴定。",
+  "Anderson et al. (2021) rejected the scorpion interpretation and left exact arthropod affinities unresolved. These specimens therefore do not establish scorpion terrestrial physiology or habitat.": "Anderson 等（2021）否定了蝎类解释，并将其在节肢动物中的确切亲缘关系保留为未定。因此，这些标本不能确立蝎类的陆生生理或栖息环境。",
   "Move from named fossils and three-dimensional anatomy to functional and genomic models without turning separate samples into an ancestor ladder.": "沿具名化石与三维解剖进入功能和基因组模型，同时不把独立样本改写为祖先阶梯。",
   "Trilobites and chelicerates: anatomy, models and disputed roots": "三叶虫与螯肢动物：解剖、模型与争议根部",
   "Early trilobite topology and origin-time model": "早期三叶虫拓扑与起源时间模型",

@@ -2566,15 +2566,15 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Otodus megalodon extinction-analysis window under the paper’s Carcharocles usage",
     "geographicScope": "Dated occurrence sample compiled by Pimiento and Clements 2014",
-    "olderMa": 3.6,
+    "olderMa": 3.5,
     "youngerMa": 2.6,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "This is an occurrence-model extinction window, not the species’ complete stratigraphic range or an exact last individual."
+      "note": "The endpoints are the oldest inferred extinction date (3.5 Ma) and modal estimate (2.6 Ma) reported by Pimiento and Clements (2014), not a confidence interval, complete species range or exact last individual."
     },
-    "evidenceBasis": "Only the analyzed late-occurrence interval is displayed; nomenclature follows Otodus in the atlas.",
+    "evidenceBasis": "Study-specific OLE estimates from Pimiento and Clements (2014), Results and Figure 1; not the revised estimates of later studies. Nomenclature follows Otodus in the atlas.",
     "confidence": "medium",
     "claimIds": [
       "claim:taxon:carcharocles:range-boundary"
@@ -2582,7 +2582,7 @@
     "referenceLocators": [
       {
         "referenceId": "pimiento-clements-2014-megalodon-extinction",
-        "locator": "e111086; Figures 1–3; Tables 1–2; supporting occurrence data; Occurrence screening and optimal linear estimation"
+        "locator": "e111086; Results, paragraph beginning Results from applying OLE; Figure 1 and caption (oldest inferred date 3.5 Ma; modal estimate 2.6 Ma)"
       }
     ],
     "reviewStatus": "automated-audit-passed",
@@ -7414,7 +7414,7 @@
     "referenceLocators": [
       {
         "referenceId": "fu-2014-ust-ishim",
-        "locator": "445–449; Figures 1–4; Extended Data Figures 1–9; Supplementary Information sections 1 and 14"
+        "locator": "445 (95.4% calibrated age); Figure 1 (dating); Figure 6 (admixture model); Supplementary Information sections 1 (calibrated age) and 18 (admixture model)"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -9732,7 +9732,7 @@
       "youngerMa": null,
       "note": "Zero age denotes a directly documented living research sample; it is not the species origin, a fossil FAD or a complete geographic range."
     },
-    "evidenceBasis": "Albertin et al. directly document the sampled male genome, twelve tissue transcriptomes and associated BioProjects.",
+    "evidenceBasis": "Albertin et al. document genomic DNA from one living male, 12 RNA transcriptomes from tissue and developmental samples, and associated BioProjects.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
@@ -10333,25 +10333,25 @@
     "entityId": "scorpiones",
     "rangeKind": "global-composite",
     "taxonomicConcept": "Scorpiones navigation range",
-    "geographicScope": "Global fossil and living record",
-    "olderMa": 437.5,
+    "geographicScope": "Global range pending an independent scorpion fossil source",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Older endpoint follows the named Parioscorpio occurrence but does not establish crown-scorpion origin."
+      "note": "The former 437.5 Ma endpoint relied on Parioscorpio, whose scorpion identification was rejected in the 2021 redescription. Zero endpoints are withheld placeholders, not an origin date."
     },
-    "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
-    "evidenceLevel": "literature-synthesized",
+    "evidenceBasis": "Parioscorpio cannot establish the global Scorpiones range. This interval is withheld until independently supported scorpion fossil evidence is supplied.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "contested",
     "claimIds": [
-      "claim:event:parioscorpio-terrestrialization"
+      "claim:taxon:scorpiones"
     ],
     "referenceLocators": [
       {
-        "referenceId": "wendruff-2020-parioscorpio",
-        "locator": "14; Figures 1–4; Supplementary Figures; UWGM 2162 and 2163; Internal anatomy; Depositional and terrestrialization discussion"
+        "referenceId": "anderson-2021-parioscorpio-reassessment",
+        "locator": "Redescription and rejection of scorpion affinities; phylogenetic conclusions"
       }
     ],
     "reviewStatus": "automated-audit-passed"
