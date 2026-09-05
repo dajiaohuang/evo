@@ -1153,6 +1153,14 @@ export async function loadCatalogueSanbiDescriptions(id: string): Promise<Catalo
   return records.find((record) => record.colId === id) ?? null
 }
 
+export async function loadCatalogueMesoDescriptions(id: string): Promise<import('./types').CatalogueMesoDescriptionRecord | null> {
+  const manifest = await loadCatalogueManifest()
+  const collection = manifest.mesoDescriptions
+  if (!collection) return null
+  const records = await loadCatalogueRoute<import('./types').CatalogueMesoDescriptionRecord>(collection.routes, collection.files, id)
+  return records.find((record) => record.colId === id) ?? null
+}
+
 export async function loadCatalogueFoaDescriptions(id: string): Promise<import('./types').CatalogueFoaDescriptionRecord | null> {
   const manifest = await loadCatalogueManifest()
   const collection = manifest.foaDescriptions

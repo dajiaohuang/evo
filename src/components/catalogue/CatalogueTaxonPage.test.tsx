@@ -1,13 +1,14 @@
 import { fireEvent, render, screen } from '@testing-library/react'
 import { beforeEach, expect, it, vi } from 'vitest'
 import { CatalogueTaxonPage } from './CatalogueTaxonPage'
-import { loadCatalogueSanbiDescriptions, loadCataloguePlaziDescriptions, loadCatalogueFoaDescriptions } from '../../data-client/staticDataClient'
+import { loadCatalogueSanbiDescriptions, loadCataloguePlaziDescriptions, loadCatalogueFoaDescriptions, loadCatalogueMesoDescriptions } from '../../data-client/staticDataClient'
 
 vi.mock('../../i18n', () => ({ useI18n: () => ({ language: 'en' }) }))
 vi.mock('../../data-client/staticDataClient', () => ({
   loadCatalogueManifest: vi.fn(async () => ({
     releaseAlias: 'COL26.8', upstreamTaxonUrlTemplate: 'https://example.org/{id}',
     hierarchy: { counts: { nodes: 1, acceptedSpeciesNodes: 1 } },
+    mesoDescriptions: { source: { provider: 'Missouri Botanical Garden', title: 'Flora Mesoamericana', sourceUrl: 'https://example.org/meso.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/' } },
     foaDescriptions: { source: { provider: 'Australian Biological Resources Study', title: 'Flora of Australia', sourceVersion: '2020-12-03 archive', sourceUrl: 'https://example.org/foa.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/' } },
     plaziDescriptions: { source: { provider: 'Plazi TreatmentBank', sourceUrl: 'https://plazi.org', license: 'CC0 1.0', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/' } },
     sanbiDescriptions: { source: { provider: 'SANBI', title: 'e-Flora of South Africa', sourceVersion: '1.36', issued: '2022-06-06', sourceUrl: 'https://example.org/archive.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/' } },
@@ -20,12 +21,37 @@ vi.mock('../../data-client/staticDataClient', () => ({
   loadCatalogueSanbiDescriptions: vi.fn(),
   loadCataloguePlaziDescriptions: vi.fn(),
   loadCatalogueFoaDescriptions: vi.fn(),
+  loadCatalogueMesoDescriptions: vi.fn(),
 }))
 
 beforeEach(() => {
+  vi.mocked(loadCatalogueMesoDescriptions).mockResolvedValue(null)
   vi.mocked(loadCatalogueFoaDescriptions).mockResolvedValue(null)
   vi.mocked(loadCataloguePlaziDescriptions).mockResolvedValue(null)
   vi.mocked(loadCatalogueSanbiDescriptions).mockResolvedValue({ colId: '8MG5', wfoId: 'wfo-0000178691', packageId: 'angiospermae', descriptions: [{ type: 'Morphology', text: 'Leaves 2–3 mm.', sourceId: '11118.0', citation: 'Original botanical publication', rowNumber: 1 }] })
+})
+
+it('retains Spanish excerpts, every citation and source truncation disclosure', async () => {
+  vi.mocked(loadCatalogueMesoDescriptions).mockResolvedValueOnce({ colId: '8MG5', wfoId: 'wfo-example', scientificName: 'Example plant', descriptions: [{
+    type: 'general', text: 'Raíces fibrosas.', language: 'es', rowNumber: 1, sourceExcerpt: true, atSourceCharacterLimit: true,
+    rightsHolder: 'Missouri Botanical Garden', rights: 'Missouri Botanical Garden', license: 'https://creativecommons.org/licenses/by/4.0/',
+    references: [{ sourceId: 'one', citation: 'First flora reference', sourceUrl: 'https://example.org/one', referenceRowNumber: 2, license: 'CC BY 4.0' },
+      { sourceId: 'two', citation: 'Second flora reference', sourceUrl: '', referenceRowNumber: 3, license: 'CC BY 4.0' }],
+  }] })
+  render(<CatalogueTaxonPage release="COL26.8" id="8MG5" onNavigate={vi.fn()} />)
+  const paragraph = await screen.findByText('Raíces fibrosas.')
+  expect(paragraph).toHaveAttribute('lang', 'es')
+  expect(paragraph.closest('details')!.open).toBe(false)
+  expect(screen.getByText('This entry reaches the source character limit and may be truncated.')).toBeInTheDocument()
+  expect(screen.getByRole('link', { name: 'First flora reference' })).toHaveAttribute('href', 'https://example.org/one')
+  expect(screen.getByText('Second flora reference')).toBeInTheDocument()
+})
+
+it('keeps classification usable when Mesoamericana loading fails', async () => {
+  vi.mocked(loadCatalogueMesoDescriptions).mockRejectedValueOnce(new Error('offline'))
+  render(<CatalogueTaxonPage release="COL26.8" id="8MG5" onNavigate={vi.fn()} />)
+  expect(await screen.findByText('Flora Mesoamericana excerpts could not be loaded.')).toBeInTheDocument()
+  expect(screen.getByRole('heading', { name: 'Example plant' })).toBeInTheDocument()
 })
 
 it('preserves FoA attribution, regional limits and collapsed plain text', async () => {

@@ -1599,6 +1599,17 @@ const sanbiFiles = partitionSanbiDescriptions(sanbiRecords).map(([prefix, record
   return file
 })
 const plaziSource = readJson('data/sources/plazi-descriptions-import-ledger.json')
+const mesoSource = readJson('data/sources/meso-descriptions-import-ledger.json')
+const mesoBytes = readFileSync(join(rootDir, mesoSource.output))
+if (mesoBytes.length !== mesoSource.outputBytes || sha256(mesoBytes) !== mesoSource.outputSha256) throw new Error('Mesoamericana source bytes differ from the import ledger')
+const mesoRecords = gunzipSync(mesoBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
+const mesoRoutes = {}
+const mesoFiles = partitionSanbiDescriptions(mesoRecords).map(([prefix, records]) => {
+  const path = `catalogue/descriptions/meso-${prefix}.json.gz`
+  const file = { ...writeGzipJson(path, records), prefix, path, records: records.length }
+  mesoRoutes[prefix] = [file.url]
+  return file
+})
 const foaSource = readJson('data/sources/foa-descriptions-import-ledger.json')
 const foaBytes = readFileSync(join(rootDir, foaSource.output))
 if (foaBytes.length !== foaSource.outputBytes || sha256(foaBytes) !== foaSource.outputSha256) throw new Error('Flora of Australia source bytes differ from the import ledger')
@@ -1624,6 +1635,7 @@ catalogueRuntimeManifest = {
   ...catalogueSourceManifest,
   plaziDescriptions: { source: plaziSource, routes: plaziRoutes, files: plaziFiles },
   foaDescriptions: { source: foaSource, routes: foaRoutes, files: foaFiles },
+  mesoDescriptions: { source: mesoSource, routes: mesoRoutes, files: mesoFiles },
   sanbiDescriptions: { source: sanbiSource, routes: sanbiRoutes, files: sanbiFiles },
   provenance: catalogueProvenance,
   sourceChecklists: { ...catalogueSourceManifest.sourceChecklists, url: catalogueSourcesFile.url },
@@ -1743,6 +1755,7 @@ const current = {
       + catalogueRuntimeManifest.ownership.bytes
       + (catalogueRuntimeManifest.sanbiDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.foaDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
+      + (catalogueRuntimeManifest.mesoDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.plaziDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0),
     pagesLimitBytes: 650 * 1024 * 1024,
   },

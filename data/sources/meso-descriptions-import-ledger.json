@@ -1,0 +1,22 @@
+{
+  "provider": "Missouri Botanical Garden",
+  "title": "Flora Mesoamericana",
+  "retrievedAt": "2026-09-05",
+  "sourceVersion": "WFO archive retrieved 2026-09-05",
+  "sourceUrl": "https://files.worldfloraonline.org/files/MBG/Flora_Mesoamericana/Flora_Mesoamericana.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "archiveSha256": "55a67bc3092d472aced949cd61bc17b40cb15ad50ac0254f54918b9246df67bb",
+  "inputSha256": "b4a010a2c8be91f717fac3d61e26141c79ac60b674a23bef5069a4d101d8059d",
+  "output": "data/sources/meso-descriptions.jsonl.gz",
+  "outputBytes": 2939768,
+  "outputSha256": "ed92412df38c65e13dc23a6b8c4571bccf60139b6a9aa55d1a70cb6a86e1fe9a",
+  "species": 4850,
+  "descriptions": 4858,
+  "limitations": [
+    "Regional historical original-language excerpts, not complete global species dossiers.",
+    "Source archive has a 4000-character text limit; excerpts may end mid-sentence. No missing text is reconstructed.",
+    "WFO/COL links do not establish identical taxonomic concepts across source dates.",
+    "HTML markup removed and entities decoded for plain-text display; original archive retained separately."
+  ]
+}

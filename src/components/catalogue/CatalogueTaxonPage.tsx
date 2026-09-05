@@ -9,6 +9,7 @@ import {
   loadCatalogueManifest,
   loadCatalogueSanbiDescriptions,
   loadCatalogueFoaDescriptions,
+  loadCatalogueMesoDescriptions,
   loadCataloguePlaziDescriptions,
   loadCatalogueSpeciesOwnership,
   loadCatalogueSourceChecklists,
@@ -93,6 +94,8 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const [sanbiError, setSanbiError] = useState(false)
   const [foa, setFoa] = useState<Awaited<ReturnType<typeof loadCatalogueFoaDescriptions>>>(null)
   const [foaError, setFoaError] = useState(false)
+  const [meso, setMeso] = useState<Awaited<ReturnType<typeof loadCatalogueMesoDescriptions>>>(null)
+  const [mesoError, setMesoError] = useState(false)
   const [plazi, setPlazi] = useState<Awaited<ReturnType<typeof loadCataloguePlaziDescriptions>>>(null)
   const [plaziError, setPlaziError] = useState(false)
 
@@ -117,6 +120,11 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
       }
       setNode(loadedNode)
       setStatus('ready')
+      if (loadedManifest.mesoDescriptions && loadedNode.rank === 'species') {
+        void loadCatalogueMesoDescriptions(id).then((record) => {
+          if (!cancelled) setMeso(record)
+        }).catch(() => { if (!cancelled) setMesoError(true) })
+      }
       if (loadedManifest.foaDescriptions && loadedNode.rank === 'species') {
         void loadCatalogueFoaDescriptions(id).then((record) => {
           if (!cancelled) setFoa(record)
@@ -389,6 +397,23 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
             <p lang="en">{description.citation}</p>
             <p>{description.rightsHolder} · {description.rights} · <a href={description.license}>CC BY 4.0</a></p>
             <small><a href={description.sourceUrl}>{zh ? '原始来源' : 'Original source'}</a> · {foa.wfoId} · {description.rowNumber} · {description.sourceId}</small>
+          </details>)}
+        </section>}
+        {mesoError && <p role="status">{zh ? '中美洲植物志摘录暂时无法加载。' : 'Flora Mesoamericana excerpts could not be loaded.'}</p>}
+        {meso && manifest.mesoDescriptions && <section className="catalogue-source-card">
+          <h2>{zh ? '中美洲植物志原文摘录' : 'Flora Mesoamericana original excerpts'}</h2>
+          <p>{zh ? '区域历史来源，不代表全球分布或完整物种档案。来源档案存在 4,000 字符上限，摘录可能在句中结束；未补写缺失内容。不同年份的分类概念可能不同。' : 'Historical regional source, not a global distribution or complete species dossier. The source archive has a 4,000-character limit and excerpts may end mid-sentence; missing text has not been reconstructed. Taxonomic concepts may differ across dates.'}</p>
+          <p><a href={manifest.mesoDescriptions.source.sourceUrl}>{manifest.mesoDescriptions.source.provider} — {manifest.mesoDescriptions.source.title}</a> · <a href={manifest.mesoDescriptions.source.licenseUrl}>{manifest.mesoDescriptions.source.license}</a></p>
+          {meso.descriptions.map((description) => <details key={description.rowNumber}>
+            <summary>{description.language === 'es' ? (zh ? '西班牙语原文摘录' : 'Original Spanish excerpt') : (zh ? '英语原文摘录' : 'Original English excerpt')}</summary>
+            {description.atSourceCharacterLimit && <p>{zh ? '此条达到来源字符上限，可能被截断。' : 'This entry reaches the source character limit and may be truncated.'}</p>}
+            <p lang={description.language} style={{ whiteSpace: 'pre-wrap' }}>{description.text}</p>
+            <ul>{description.references.map((reference) => <li key={reference.sourceId}>
+              {reference.sourceUrl ? <a href={reference.sourceUrl}>{reference.citation}</a> : reference.citation}
+              <small> · {reference.sourceId} · reference.txt:{reference.referenceRowNumber}</small>
+            </li>)}</ul>
+            <p>{description.rightsHolder} · {description.rights} · <a href={description.license}>CC BY 4.0</a></p>
+            <small>{meso.wfoId} · description.txt:{description.rowNumber}</small>
           </details>)}
         </section>}
       </header>

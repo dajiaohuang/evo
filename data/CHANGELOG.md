@@ -2,6 +2,8 @@
 
 ## Unreleased content corrections
 
+- Added 4,858 attributed Flora Mesoamericana original-language excerpts for 4,850 uniquely linked accepted species. Full-Web lazy descriptions preserve Spanish/English, multiple citations and explicit source-truncation warnings; Pages preview excludes the collection. No missing text, global distributions or current conservation assessments are inferred.
+
 - Added 129 original Flora of Australia paragraphs for 46 uniquely linked accepted species, with per-paragraph citations and CC BY 4.0 attribution. Full-Web descriptions load on demand and default to collapsed details; Pages preview omits this regional historical collection. No current global distribution or conservation status is inferred.
 
 - Added the original comparative diagnosis of Wittmackia aurantiolilacina (COL26.8 VBWPB), bringing the Plazi collection to 16 species / 35 paragraphs. Retained source authorship and citation; did not import embedded materials or conservation analysis as a current species assessment.
