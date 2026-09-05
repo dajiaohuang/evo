@@ -1,0 +1,24 @@
+{
+  "provider": "South African National Biodiversity Institute (SANBI)",
+  "title": "e-Flora of South Africa",
+  "sourceVersion": "1.36",
+  "issued": "2022-06-06",
+  "retrievedAt": "2026-09-05",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "sourceUrl": "https://files.worldfloraonline.org/Files/South_Africa/dwca-flora_descriptions.zip",
+  "archiveSha256": "2f9b6784d8bdd4b427f10bddec14f41eb42e3cac0e26c5225b7b17eff3064465",
+  "inputSha256": "6253ac740b9ba4e6a53f520460c63acf44dcac2fa2c454029d945ea096b92a32",
+  "output": "data/sources/sanbi-descriptions.jsonl.gz",
+  "outputBytes": 8921892,
+  "outputSha256": "24a3df86af6d737d8c91c4d3818e77f3143435ac2337e9260fde2e85e147593a",
+  "species": 15211,
+  "descriptions": 65139,
+  "method": "Exact unambiguous WFO-to-accepted-COL crosswalk. Description citations joined by (core ID, source identifier). Only exact duplicate records removed; original text retained.",
+  "limitations": [
+    "Regional South African source, not a global census or distribution boundary.",
+    "A unique identifier link does not prove species-concept equivalence across source dates.",
+    "Source descriptions are not newly authored Evo claims or expert-reviewed dossiers.",
+    "No missing biological traits, translations, ranges or fossils are inferred."
+  ]
+}

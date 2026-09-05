@@ -38,19 +38,21 @@ async function installCatalogueFixture({
   sources = [],
   searchRecords = [],
   targets = [],
+  sanbi = [],
 }: {
   nodes?: CatalogueHierarchyNodeRecord[]
   children?: CatalogueHierarchyChildRecord[]
   sources?: CatalogueSourceChecklist[]
   searchRecords?: CatalogueRecord[]
   targets?: CatalogueTargetRecord[]
+  sanbi?: import('./types').CatalogueSanbiDescriptionRecord[]
 }) {
   Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
   const { catalogueRoutePrefix } = await import('./staticDataClient')
   const payloads = new Map<string, ReturnType<typeof responseFor> | ReturnType<typeof textResponseFor>>()
 
   async function hierarchyLayer<T extends { id: string }>(
-    layer: 'nodes' | 'children' | 'targets',
+    layer: 'nodes' | 'children' | 'targets' | 'sanbi',
     records: T[],
     routeId: (record: T) => string,
   ) {
@@ -83,6 +85,7 @@ async function installCatalogueFixture({
   const nodeLayer = await hierarchyLayer('nodes', nodes, (record) => record.id)
   const childLayer = await hierarchyLayer('children', children, (record) => (record as CatalogueHierarchyChildRecord).parentId)
   const targetLayer = await hierarchyLayer('targets', targets, (record) => record.id)
+  const sanbiLayer = await hierarchyLayer('sanbi', sanbi.map((record) => ({ ...record, id: record.colId })), (record) => record.colId)
   const searchGroups = new Map<string, CatalogueRecord[]>()
   for (const record of searchRecords) {
     const prefix = record.normalizedName.replaceAll(' ', '').slice(0, 2).padEnd(2, '_')
@@ -121,6 +124,7 @@ async function installCatalogueFixture({
     sourceChecklists: sourceFile,
     search: { minimumQueryLength: 3, routes: searchRoutes, files: searchFiles },
     acceptedTargets: targetLayer,
+    sanbiDescriptions: sanbiLayer,
     hierarchy: { nodes: nodeLayer, children: childLayer },
   }
   const manifestFile = { url: 'releases/dataset-col/catalogue/manifest.json' }
@@ -1369,6 +1373,23 @@ describe('static runtime release coherence', () => {
     const { loadCatalogueItisProtistsRecord } = await import('./staticDataClient')
     await expect(loadCatalogueItisProtistsRecord('oomycota', '33PPP')).resolves.toMatchObject({ record: records[0], extension: { counts: { eligible: 1494, records: 1536 } } })
     expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('itis-oomycota-sidecar-0000'))).toHaveLength(1)
+  })
+
+  it('routes SANBI text to one species shard and retains citations without fetching other shards', async () => {
+    const { catalogueRoutePrefix, loadCatalogueSanbiDescriptions } = await import('./staticDataClient')
+    const colId = '8MG5'
+    const prefix = await catalogueRoutePrefix(colId)
+    let other = 'other-0'
+    for (let i = 1; await catalogueRoutePrefix(other) === prefix; i += 1) other = `other-${i}`
+    const description = { type: 'Morphology' as const, text: 'Original source text', sourceId: '11118.0', citation: 'Herman & Retief (1997)', rowNumber: 1 }
+    const { fetchMock } = await installCatalogueFixture({ sanbi: [
+      { colId, wfoId: 'wfo-0000178691', packageId: 'angiospermae', descriptions: [description] },
+      { colId: other, wfoId: 'wfo-other', packageId: 'angiospermae', descriptions: [] },
+    ] })
+    await expect(loadCatalogueSanbiDescriptions(colId)).resolves.toMatchObject({ colId, descriptions: [description] })
+    await loadCatalogueSanbiDescriptions(colId)
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/sanbi-'))).toHaveLength(1)
+    await expect(loadCatalogueSanbiDescriptions('unmapped-species')).resolves.toBeNull()
   })
 
   it('loads only the requested direct children from a shared parent-hash shard and caches it', async () => {

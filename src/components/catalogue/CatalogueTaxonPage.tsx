@@ -7,6 +7,7 @@ import {
   loadCatalogueLpsnIdentifiers,
   loadCatalogueLineage,
   loadCatalogueManifest,
+  loadCatalogueSanbiDescriptions,
   loadCatalogueSpeciesOwnership,
   loadCatalogueSourceChecklists,
   loadWfoPlantRecord,
@@ -86,6 +87,8 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const [fungiAuthorityStatus, setFungiAuthorityStatus] = useState<SectionStatus>('idle')
   const [childFilter, setChildFilter] = useState('')
   const [visibleChildren, setVisibleChildren] = useState(100)
+  const [sanbi, setSanbi] = useState<Awaited<ReturnType<typeof loadCatalogueSanbiDescriptions>>>(null)
+  const [sanbiError, setSanbiError] = useState(false)
 
   useEffect(() => {
     let cancelled = false
@@ -108,6 +111,11 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
       }
       setNode(loadedNode)
       setStatus('ready')
+      if (loadedManifest.sanbiDescriptions && loadedNode.rank === 'species') {
+        void loadCatalogueSanbiDescriptions(id).then((record) => {
+          if (!cancelled) setSanbi(record)
+        }).catch(() => { if (!cancelled) setSanbiError(true) })
+      }
       document.title = `${loadedNode.scientificName} — Catalogue of Life — Evo Atlas`
 
       if (loadedNode.projection === 'accepted-species-hierarchy') {
@@ -327,6 +335,18 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
           <p className="catalogue-provisional-note">{zh ? '此高阶分类单元由上游标记为暂定接受；它用于连接接受种层级，但不计入 2,183,133 个接受种基线。' : 'The upstream release marks this higher taxon as provisionally accepted. It connects the accepted-species hierarchy but is not counted in the 2,183,133 accepted-species baseline.'}</p>
         )}
         {nodeIntroduction && <p className="catalogue-provisional-note">{zh ? nodeIntroduction.zh : nodeIntroduction.en}</p>}
+        {sanbiError && <p role="status">{zh ? 'SANBI 描述暂时无法加载。' : 'SANBI descriptions could not be loaded.'}</p>}
+        {sanbi && manifest.sanbiDescriptions && <section className="catalogue-source-card">
+          <h2>{zh ? 'SANBI 植物描述（英文原文）' : 'SANBI botanical descriptions (original English)'}</h2>
+          <p>{zh ? '南非区域来源；不代表全球分布或完整物种档案。不同年份的分类概念可能不同。' : 'Regional South African source; not a global distribution or complete species dossier. Taxonomic concepts may differ across source dates.'}</p>
+          <p><a href={manifest.sanbiDescriptions.source.sourceUrl}>{manifest.sanbiDescriptions.source.provider} — {manifest.sanbiDescriptions.source.title}</a> · {manifest.sanbiDescriptions.source.sourceVersion} · {manifest.sanbiDescriptions.source.issued} · <a href={manifest.sanbiDescriptions.source.licenseUrl}>{manifest.sanbiDescriptions.source.license}</a></p>
+          {sanbi.descriptions.map((description) => <details key={`${description.rowNumber}:${description.sourceId}`}>
+            <summary>{zh ? ({ Morphology: '形态', Diagnostic: '鉴别特征', Habitat: '生境' }[description.type]) : description.type}</summary>
+            <p lang="en" style={{ whiteSpace: 'pre-wrap' }}>{description.text}</p>
+            <p lang="en">{description.citation}</p>
+            <small>{sanbi.wfoId} · description.txt:{description.rowNumber} · {description.sourceId}</small>
+          </details>)}
+        </section>}
       </header>
 
       <section className="catalogue-taxon-grid">

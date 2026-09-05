@@ -1334,7 +1334,25 @@ export interface CatalogueSpeciesOwner {
   route: CatalogueOwnershipRoute
 }
 
+export interface CatalogueSanbiDescriptionRecord {
+  colId: string
+  wfoId: string
+  packageId: string
+  descriptions: Array<{
+    type: 'Morphology' | 'Diagnostic' | 'Habitat'
+    text: string
+    sourceId: string
+    citation: string
+    rowNumber: number
+  }>
+}
+
 export interface CatalogueRuntimeManifest {
+  sanbiDescriptions?: {
+    source: { provider: string; title: string; sourceVersion: string; issued: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
+    routes: Record<string, string[]>
+    files: CatalogueRuntimeFile[]
+  }
   schemaVersion: number
   registryType: string
   releaseAlias: string

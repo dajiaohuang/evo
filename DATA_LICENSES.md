@@ -1,5 +1,15 @@
 # Data licenses and provenance
 
+The SANBI biological-description projection preserves source text from
+*e-Flora of South Africa* v1.36 (2022-06-06), whose embedded archive metadata
+declares CC BY 4.0 and permission for reuse of published descriptive extracts.
+Preserve SANBI attribution and the per-description publication citations and
+row locators. This is a specific licensed regional text exception to the usual
+metadata-and-links-only reference policy below, not permission to redistribute
+linked publications or other WFO datasets. See [source scope and import
+method](docs/sanbi-descriptions.md). Full-Web runtime integration is implemented;
+deployment acceptance is recorded separately.
+
 RC145 retains Systema Dipterorum through ChecklistBank dataset 1101, attempt 47,
 DOI `10.48580/d3bz`. Both API and embedded archive metadata declare raw `cc by`;
 no license version is inferred. API version `7.2` and embedded version `Jun 2026`
