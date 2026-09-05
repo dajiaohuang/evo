@@ -9,6 +9,7 @@ import {
   loadCatalogueManifest,
   loadCatalogueSanbiDescriptions,
   loadCatalogueFoaDescriptions,
+  loadCatalogueFdacDescriptions,
   loadCatalogueMesoDescriptions,
   loadCataloguePlaziDescriptions,
   loadCatalogueSpeciesOwnership,
@@ -96,6 +97,8 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const [foaError, setFoaError] = useState(false)
   const [meso, setMeso] = useState<Awaited<ReturnType<typeof loadCatalogueMesoDescriptions>>>(null)
   const [mesoError, setMesoError] = useState(false)
+  const [fdac, setFdac] = useState<Awaited<ReturnType<typeof loadCatalogueFdacDescriptions>>>(null)
+  const [fdacError, setFdacError] = useState(false)
   const [plazi, setPlazi] = useState<Awaited<ReturnType<typeof loadCataloguePlaziDescriptions>>>(null)
   const [plaziError, setPlaziError] = useState(false)
 
@@ -124,6 +127,11 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
         void loadCatalogueMesoDescriptions(id).then((record) => {
           if (!cancelled) setMeso(record)
         }).catch(() => { if (!cancelled) setMesoError(true) })
+      }
+      if (loadedManifest.fdacDescriptions && loadedNode.rank === 'species') {
+        void loadCatalogueFdacDescriptions(id).then((record) => {
+          if (!cancelled) setFdac(record)
+        }).catch(() => { if (!cancelled) setFdacError(true) })
       }
       if (loadedManifest.foaDescriptions && loadedNode.rank === 'species') {
         void loadCatalogueFoaDescriptions(id).then((record) => {
@@ -414,6 +422,22 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
             </li>)}</ul>
             <p>{description.rightsHolder} · {description.rights} · <a href={description.license}>CC BY 4.0</a></p>
             <small>{meso.wfoId} · description.txt:{description.rowNumber}</small>
+          </details>)}
+        </section>}
+        {fdacError && <p role="status">{zh ? 'FDAC 原文描述暂时无法加载。' : 'FDAC original descriptions could not be loaded.'}</p>}
+        {fdac && manifest.fdacDescriptions && <section className="catalogue-source-card">
+          <h2>{zh ? 'FDAC 植物描述（原文）' : 'FDAC botanical descriptions (original text)'}</h2>
+          <p>{zh ? '区域历史来源，原文语言未声明；不代表全球分布或完整物种档案。引用缺失会明确标示，不补写引用。' : 'Historical regional source with no declared source language; not a global distribution or complete species dossier. Missing citations are marked explicitly and have not been invented.'}</p>
+          <p><a href={manifest.fdacDescriptions.source.sourceUrl}>{manifest.fdacDescriptions.source.provider} — {manifest.fdacDescriptions.source.title}</a> · {manifest.fdacDescriptions.source.sourceVersion} · {manifest.fdacDescriptions.source.retrievedAt} · <a href={manifest.fdacDescriptions.source.licenseUrl}>{manifest.fdacDescriptions.source.license}</a></p>
+          {fdac.descriptions.map((description) => <details key={`${description.rowNumber}:${description.sourceId}`}>
+            <summary>{description.type === 'habitat' ? (zh ? '生境' : 'Habitat') : (zh ? '形态' : 'Morphology')}</summary>
+            <p lang="und" style={{ whiteSpace: 'pre-wrap' }}>{description.text}</p>
+            <p>{description.languageNote}</p>
+            {description.citationMissingInSource
+              ? <p role="note">{zh ? '来源未提供引用；此处不补写。' : 'The source provides no citation for this entry; none has been added.'}</p>
+              : description.citations.map((citation, index) => <p key={`${citation}:${description.referenceRowNumbers[index] ?? index}`}>{citation}</p>)}
+            <p>{description.rightsHolder} · {description.rights} · <a href={description.license}>{description.license}</a></p>
+            <small>{fdac.wfoId} · {description.sourceId} · source row {description.rowNumber}{description.referenceRowNumbers.length ? ` · reference rows ${description.referenceRowNumbers.join(', ')}` : ''}</small>
           </details>)}
         </section>}
       </header>
