@@ -128,6 +128,7 @@ def main():
         "unmatched": 8,
         "withheld": 0,
         "sourceOnly": 7,
+        "upstreamOnly": 7,
         "sourceOnlyRecords": 7,
         "records": 4012,
     }

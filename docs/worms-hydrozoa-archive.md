@@ -1,9 +1,9 @@
-# World Hydrozoa Database source worker
+# World Hydrozoa Database authority archive
 
-This worker prepares a package-local, source-linked Hydrozoa projection for
-`sponges-cnidarians`. It is intentionally isolated on
-`data/hydrozoa-original-rc135`; it is not a canonical integration or a global
-completeness claim.
+This package-local, source-linked Hydrozoa projection is integrated into the
+canonical `sponges-cnidarians` package in RC138. It covers the frozen authority
+scope described below; it is not a claim that the source itself is globally
+complete or that exact names prove species-concept equivalence.
 
 ## Frozen authority input
 
@@ -64,9 +64,10 @@ Native-full delivery consists of ten COL-partition gzip JSON shards and one
 source-only shard. Each decompressed JSON array is at most `2 MiB`. Gzip
 timestamps are zeroed and the OS byte is fixed, so replay is byte deterministic.
 The web-light profile is summary-only and intentionally carries no full
-Hydrozoa records in this worker.
+Hydrozoa rows. Android and iOS receive the complete native-full set and expose
+the matching collection through the Hydrozoa COL root `B8V3X`.
 
-Run the independent replay check from the worker root:
+Run the independent replay check from the repository root:
 
 ```text
 python scripts/worms-hydrozoa-source.test.py

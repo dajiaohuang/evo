@@ -312,6 +312,7 @@ def project(archive, output_root=None):
         "matching": {"normalization": "NFC and Unicode-whitespace normalization only; exact authorship is required.",
                      "prohibited": "No fuzzy, case-folded, accent-folded, synonym, redirect or species-concept matching."},
         "counts": {"total": len(records), **counts, "sourceOnly": len(source_only),
+                   "upstreamOnly": len(source_only),
                    "sourceOnlyRecords": len(source_only), "records": len(records) + len(source_only)},
         "files": col_files, "sourceOnlyFiles": source_files, "upstreamOnlyFiles": source_files,
         "evidenceBoundary": {"en": "Frozen exact WoRMS Hydrozoa nomenclatural/source projection for COL26.8 source-1112 Hydrozoa; not species-concept equivalence, a biological dossier, fossil evidence, distribution completeness or expert review.",
