@@ -399,6 +399,7 @@ export type AuthorityArchiveCollectionId =
   | 'osf-orthoptera-archive-crosswalk'
   | 'chilobase-archive-crosswalk'
   | 'scorpion-files-archive-crosswalk'
+  | 'wsc-spiders-archive-crosswalk'
   | 'trichomycetes-archive-crosswalk'
   | 'cilcat-1113-archive-crosswalk'
   | 'eumycetozoa-archive-crosswalk'

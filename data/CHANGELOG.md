@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc143 — 2026-09-05
+
+- Added the byte-pinned World Spider Catalog / ChecklistBank 56185 archive and complete Araneae projection: 53,353 COL outcomes (53,338 exact name/authorship matches and 15 unmatched), plus 62 separate null-COL source-only records. All 53,415 rows in 44 shards enter the full native data profile; lightweight Web retains summaries and inventories.
+- Preserved raw `cc by` and explicitly displayed the difference between API version DOI `10.48580/d4btg.v80` and embedded archive DOI `10.24436/2` with no embedded version. These are source-name mappings, not species-concept equivalence or biological dossiers. See [WSC source scope](../docs/wsc-56185-archive.md).
+- The measured full source data/code footprint is approximately 952 MiB. Its repository allowance increases from 950 to 975 MiB to retain the original archive and every projected row. Complete native application resources measured 828.12 MiB, so the native allowance increases from 825 to 850 MiB without removing content. The independent Pages limit remains 650 MiB. These artifact sizes are not resident-memory measurements.
+
 ## 2026.09-static-v5-rc142 — 2026-09-05
 
 - Added the pinned Reptile Database / ChecklistBank dataset 1008 original archive: 12,622 exact COL matches in turtles-lepidosaurs, 27 in Crocodylia and one separate null-COL source-only record. The two projections are disjoint; birds, dinosaur coverage and fossil occurrence evidence remain outside scope. Recently extinct taxa in the source are retained; accepted names and empty extinction fields do not imply living organisms.

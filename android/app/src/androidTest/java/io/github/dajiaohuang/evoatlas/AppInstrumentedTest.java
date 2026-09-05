@@ -227,7 +227,9 @@ public class AppInstrumentedTest {
                     verifyAuthorityArchiveCollection(context, files, findCollection(collections, "chilobase-archive-crosswalk"),
                             3, 1, 3141, 872, "ChiloBase Chilopoda");
                 } else {
-                    assertEquals(2, collections.length());
+                    assertEquals(3, collections.length());
+                    verifyAuthorityArchiveCollection(context, files, findCollection(collections, "wsc-spiders-archive-crosswalk"),
+                            43, 1, 53353, 62, "cc by", "World Spider Catalog");
                     verifyAuthorityArchiveCollection(context, files, findCollection(collections, "scorpion-files-archive-crosswalk"),
                             8, 1, 2940, 67, "The Scorpion Files");
                 }
@@ -249,7 +251,7 @@ public class AppInstrumentedTest {
                         "d2f836dc4b21afffb7fe1dbfcc9826556895a1fecff707ef514f69bc2053a296",
                         "bf90e217fa6871bb1e59807b721ed88403c47e9aa2712a782ef40146b906fdf2"}
                         : new String[]{"90383cc2bf44dc092b59c7ed131169317a0a613699aa6485c6f3e9b74decfa3c"};
-                assertEquals(expectedIds.length + (packageId.equals("crustaceans-insects") ? 3 : 1), collections.length());
+                assertEquals(expectedIds.length + (packageId.equals("crustaceans-insects") ? 3 : 2), collections.length());
                 for (int index = 0; index < expectedIds.length; index += 1) {
                     JSONObject collection = findCollection(collections, expectedIds[index]);
                     assertNotNull(packageId + " ITIS collection missing: " + expectedIds[index], collection);

@@ -256,7 +256,11 @@ final class AppConfigurationTests: XCTestCase {
                         inventory: files, below: dataRoot, expectedFiles: 3, expectedUpstreamFiles: 1,
                         expectedRecords: 3_141, expectedUpstreamRecords: 872, label: "ChiloBase Chilopoda")
                 } else {
-                    XCTAssertEqual(collections.count, 2)
+                    XCTAssertEqual(collections.count, 3)
+                    try verifyAuthorityArchiveCollection(
+                        collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "wsc-spiders-archive-crosswalk" }),
+                        inventory: files, below: dataRoot, expectedFiles: 43, expectedUpstreamFiles: 1,
+                        expectedRecords: 53_353, expectedUpstreamRecords: 62, expectedLicense: "cc by", label: "World Spider Catalog")
                     try verifyAuthorityArchiveCollection(
                         collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "scorpion-files-archive-crosswalk" }),
                         inventory: files, below: dataRoot, expectedFiles: 8, expectedUpstreamFiles: 1,
@@ -277,7 +281,7 @@ final class AppConfigurationTests: XCTestCase {
                         "bf90e217fa6871bb1e59807b721ed88403c47e9aa2712a782ef40146b906fdf2",
                     ]
                     : ["90383cc2bf44dc092b59c7ed131169317a0a613699aa6485c6f3e9b74decfa3c"]
-                XCTAssertEqual(collections.count, expectedIds.count + (packageId == "crustaceans-insects" ? 3 : 1))
+                XCTAssertEqual(collections.count, expectedIds.count + (packageId == "crustaceans-insects" ? 3 : 2))
                 for index in expectedIds.indices {
                     let collection = try XCTUnwrap(collections.first { ($0["id"] as? String) == expectedIds[index] }, "ITIS collection missing: \(expectedIds[index])")
                     XCTAssertEqual(collection["descriptorSha256"] as? String, expectedDescriptorShas[index])

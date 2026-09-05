@@ -218,6 +218,13 @@ const richPackageNomenclatureSources = {
   }],
   'trilobites-chelicerates': [{
     kind: 'range-sharded',
+    descriptorPath: 'data/packages/arthropoda/trilobites-chelicerates/nomenclature/wsc-spiders-sidecar.json',
+    expectedId: 'wsc-spiders-archive-crosswalk',
+    expectedProvider: 'World Spider Catalog via ChecklistBank',
+    expectedLicense: 'cc by',
+    rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
+  }, {
+    kind: 'range-sharded',
     descriptorPath: 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/scorpion-files-sidecar.json',
     expectedId: 'scorpion-files-archive-crosswalk',
     expectedProvider: 'ChecklistBank',
