@@ -102,6 +102,13 @@ def read_archive(path):
             raise ValueError("Systema Dipterorum root Taxon ID is absent")
         missing_parents = sorted({value for value in parent.values()
                                   if value is not None and value not in parent})
+        orphan_taxa = {
+            row["ID"]: {
+                "taxonId": row["ID"], "parentID": row["parentID"],
+                "reason": "Taxon.tsv parentID is absent from Taxon.tsv",
+            }
+            for row in taxa if row["parentID"] and row["parentID"] not in parent
+        }
         children = defaultdict(list)
         for taxon_id, parent_id in parent.items():
             if parent_id is not None:
@@ -155,7 +162,9 @@ def read_archive(path):
                 "reachableTaxa": len(reachable),
                 "orphanTaxa": len(taxa) - len(reachable),
                 "missingParentIds": missing_parents,
+                "orphanRecords": list(orphan_taxa.values()),
             },
+            "orphanTaxa": orphan_taxa,
             "embeddedMetadataBytes": archive.read("metadata.yaml"),
         }
 
@@ -209,8 +218,9 @@ def source_references(name, taxon, references):
     return result
 
 
-def source_name(taxon, taxon_row, name, name_row):
-    return {
+def source_name(taxon, taxon_row, name, name_row, orphan_taxa=None):
+    orphan = (orphan_taxa or {}).get(taxon["ID"])
+    result = {
         "id": taxon["ID"],
         "nameId": name["ID"],
         "scientificName": name.get("scientificName") or "",
@@ -227,13 +237,19 @@ def source_name(taxon, taxon_row, name, name_row):
             {"member": "Name.tsv", "row": name_row},
         ],
     }
+    if orphan:
+        result.update(sourceScope="orphan-exception", sourceScopeReason=orphan["reason"])
+    return result
 
 
 def write_shards(destination, prefix, rows, role):
     # Keep replay output self-contained when an earlier projection emitted more
-    # shards.  Only this generator's exact prefixes are eligible for cleanup.
+    # shards.  Only this prefix's numeric shard names are eligible for cleanup.
+    marker = f"{prefix}-"
     for stale in destination.glob(f"{prefix}-*.json.gz"):
-        stale.unlink()
+        suffix = stale.name[len(marker):-len(".json.gz")]
+        if suffix.isascii() and suffix.isdecimal():
+            stale.unlink()
     if not rows:
         return []
     parts, current, used = [], [], 2
@@ -287,15 +303,17 @@ def project(archive, output_root=None):
                   for index, row in enumerate(archive_data["references"], 2)}
     source_by_key = defaultdict(list)
     for taxon, taxon_row, name, name_row in source_rows:
-        source_by_key[(norm(name.get("scientificName")), norm(name.get("authorship")))].append(
-            (taxon, taxon_row, name, name_row))
+        author = norm(name.get("authorship"))
+        if author:
+            source_by_key[(norm(name.get("scientificName")), author)].append(
+                (taxon, taxon_row, name, name_row))
     col, col_sha, col_inputs = read_col()
     records, used = [], set()
     counts = {"accepted": 0, "redirect": 0, "ambiguous": 0,
               "unmatched": 0, "withheld": 0}
     for cid, row in sorted(col.items()):
-        author = row.get("authorship") or ""
-        key = (norm(col_bare(row)), norm(author)) if author else None
+        author = norm(row.get("authorship"))
+        key = (norm(col_bare(row)), author) if author else None
         hits = source_by_key.get(key, []) if key else []
         status = "accepted" if len(hits) == 1 else "ambiguous" if len(hits) > 1 else "unmatched"
         counts[status] += 1
@@ -305,10 +323,12 @@ def project(archive, output_root=None):
         if len(hits) == 1:
             taxon, taxon_row, name, name_row = hits[0]
             used.add(taxon["ID"])
-            matched = source_name(taxon, taxon_row, name, name_row)
+            matched = source_name(taxon, taxon_row, name, name_row,
+                                  archive_data["orphanTaxa"])
             locators = matched["sourceRows"]
             refs = source_references(name, taxon, references)
-        candidates = [source_name(*hit) for hit in hits] if len(hits) > 1 else []
+        candidates = [source_name(*hit, archive_data["orphanTaxa"])
+                      for hit in hits] if len(hits) > 1 else []
         records.append({
             "colId": cid, "colScientificName": row["scientificName"],
             "colAuthorship": row.get("authorship"), "status": status,
@@ -320,7 +340,8 @@ def project(archive, output_root=None):
     for taxon, taxon_row, name, name_row in sorted(source_rows, key=lambda item: item[0]["ID"]):
         if taxon["ID"] in used:
             continue
-        source = source_name(taxon, taxon_row, name, name_row)
+        source = source_name(taxon, taxon_row, name, name_row,
+                             archive_data["orphanTaxa"])
         refs = source_references(name, taxon, references)
         source_only.append({
             "colId": None, "colScientificName": None, "colAuthorship": None,

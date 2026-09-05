@@ -35,7 +35,10 @@ The selected source graph has root Taxon ID `1381750` (Name ID `1551900`,
 `Diptera`). Of 196,105 Taxon rows, 196,098 are reachable from that root. Seven
 species rows reference missing parent IDs; they are preserved with their raw
 `parentID` and locator as explicit source-scope exceptions, without fabricated
-parents or a claim that the archive is a complete parent closure.
+parents or a claim that the archive is a complete parent closure. Every emitted
+orphan source name carries `sourceScope: "orphan-exception"`, the raw parent ID
+and `sourceScopeReason`; ordinary reachable rows rely on the descriptor's root
+audit and do not repeat that provenance marker.
 
 The independent COL26.8 registry boundary is the accepted species set from
 source dataset `1101` beneath COL root `D2P` (`Diptera`): 157,490 rows. The
