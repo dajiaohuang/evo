@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto'
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
 import { rootDir } from './data-lib.mjs'
+import { pagesDeploymentBudgetFailure } from './artifact-budget.mjs'
 
 const dist = join(rootDir, 'dist')
 const failures = []
@@ -24,7 +25,9 @@ const size = (paths) => paths.reduce((sum, path) => sum + statSync(path).size, 0
 const relativePath = (path) => relative(dist, path).replaceAll('\\', '/')
 const mib = 1024 * 1024
 const totalBytes = size(files)
-if (totalBytes > 650 * 1024 * 1024) failures.push(`Pages artifact is ${(totalBytes / 1024 / 1024).toFixed(2)} MiB; hard limit is 650 MiB`)
+const deploymentFailure = pagesDeploymentBudgetFailure(current.edition, totalBytes)
+if (deploymentFailure) failures.push(deploymentFailure)
+console.log(`Checking ${current.edition ?? 'unspecified'} artifact; Pages total deployment limit ${current.edition === 'full-web' ? 'not applicable' : '650 MiB'}. All per-resource limits remain active.`)
 
 const shards = files.filter((path) => /[/\\](occurrences|maps|catalogue|packages)[/\\].+\.(json|jsonl|ndjson)\.gz$/.test(path))
 for (const path of shards) if (statSync(path).size > 8 * 1024 * 1024) failures.push(`${relativePath(path)} exceeds the 8 MiB shard limit`)

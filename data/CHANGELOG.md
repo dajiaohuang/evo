@@ -2,6 +2,8 @@
 
 ## Unreleased content corrections
 
+- Apply the 650 MiB Pages deployment total to preview artifacts rather than full-Web datasets. Full-Web retains application, static-page, shard and cache limits; Pages deployment remains capped at 650 MiB.
+
 - Added 739 attributed Moss Flora of China English descriptions for uniquely matched accepted species. Preserved source names, citations and row locators; full-Web delivery is lazy and Pages preview excludes the collection. Historical regional prose is not a current global range assessment or complete dossier.
 
 - Added 2,657 attributed Flora of Pakistan English descriptions for uniquely matched accepted species, preserving citations and row locators. Full-Web loading is lazy and detailed passages are collapsed; Pages preview omits the collection. Regional historical text is not a current global distribution or complete species dossier.
