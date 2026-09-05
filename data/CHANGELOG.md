@@ -2,6 +2,11 @@
 
 ## Unreleased content corrections
 
+- Completed Chinese statement mappings for the 1,281 claims present at the translation checkpoint; later additions include both statement and rationale translations. Translation coverage is not worldwide species-description coverage or expert review.
+- Added source-bounded morphology evidence for Araneae, Coleoptera, Caudata, Myxini, Calcarea, Homoscleromorpha, Bryophyta and Anthocerotophyta. Fossil and living examples retain their specimen or sampling scope rather than being generalized to every member of their navigation group.
+- Added Gazave et al. (2010) as primary support for spiculate versus aspiculate homoscleromorph groups. Kept this skeletal distinction separate from fossil dating and from the later formal class-rank proposal.
+- Aligned the Life navigation caveat with its existing 3.7 Ga sampled biosignature boundary; this is not a date for abiogenesis or LUCA. Refreshed affected package projections and the entity registry without an application rebuild.
+
 - Added the 2021 Parioscorpio redescription, identified the 2020 scorpion-terrestrialization account as a historical hypothesis, moved Parioscorpio out of the scorpion navigation subtree, and withheld the Scorpiones range previously anchored to that fossil.
 - Replaced generic Rhyniognatha, Pennsylvanian Eumetabola and Xiphosura range descriptions with study-specific context without treating disputed affinity or fossil-record gaps as established continuous histories.
 
