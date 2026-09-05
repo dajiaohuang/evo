@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from '@testing-library/react'
 import { beforeEach, expect, it, vi } from 'vitest'
 import { CatalogueTaxonPage } from './CatalogueTaxonPage'
-import { loadCatalogueSanbiDescriptions, loadCataloguePlaziDescriptions, loadCatalogueFoaDescriptions, loadCatalogueMesoDescriptions } from '../../data-client/staticDataClient'
+import { loadCatalogueSanbiDescriptions, loadCataloguePlaziDescriptions, loadCatalogueFoaDescriptions, loadCatalogueMesoDescriptions, loadCatalogueFdacDescriptions } from '../../data-client/staticDataClient'
 
 vi.mock('../../i18n', () => ({ useI18n: () => ({ language: 'en' }) }))
 vi.mock('../../data-client/staticDataClient', () => ({
@@ -9,6 +9,7 @@ vi.mock('../../data-client/staticDataClient', () => ({
     releaseAlias: 'COL26.8', upstreamTaxonUrlTemplate: 'https://example.org/{id}',
     hierarchy: { counts: { nodes: 1, acceptedSpeciesNodes: 1 } },
     mesoDescriptions: { source: { provider: 'Missouri Botanical Garden', title: 'Flora Mesoamericana', sourceUrl: 'https://example.org/meso.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/' } },
+    fdacDescriptions: { source: { provider: 'Meise Botanic Garden', title: 'Flora of the Democratic Republic of the Congo', sourceVersion: 'historical archive', retrievedAt: '2026-09-05', sourceUrl: 'https://example.org/fdac.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/', limitations: [] } },
     foaDescriptions: { source: { provider: 'Australian Biological Resources Study', title: 'Flora of Australia', sourceVersion: '2020-12-03 archive', sourceUrl: 'https://example.org/foa.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/' } },
     plaziDescriptions: { source: { provider: 'Plazi TreatmentBank', sourceUrl: 'https://plazi.org', license: 'CC0 1.0', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/' } },
     sanbiDescriptions: { source: { provider: 'SANBI', title: 'e-Flora of South Africa', sourceVersion: '1.36', issued: '2022-06-06', sourceUrl: 'https://example.org/archive.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/' } },
@@ -22,13 +23,27 @@ vi.mock('../../data-client/staticDataClient', () => ({
   loadCataloguePlaziDescriptions: vi.fn(),
   loadCatalogueFoaDescriptions: vi.fn(),
   loadCatalogueMesoDescriptions: vi.fn(),
+  loadCatalogueFdacDescriptions: vi.fn(),
 }))
 
 beforeEach(() => {
   vi.mocked(loadCatalogueMesoDescriptions).mockResolvedValue(null)
+  vi.mocked(loadCatalogueFdacDescriptions).mockResolvedValue(null)
   vi.mocked(loadCatalogueFoaDescriptions).mockResolvedValue(null)
   vi.mocked(loadCataloguePlaziDescriptions).mockResolvedValue(null)
   vi.mocked(loadCatalogueSanbiDescriptions).mockResolvedValue({ colId: '8MG5', wfoId: 'wfo-0000178691', packageId: 'angiospermae', descriptions: [{ type: 'Morphology', text: 'Leaves 2–3 mm.', sourceId: '11118.0', citation: 'Original botanical publication', rowNumber: 1 }] })
+})
+
+it('preserves FDAC source language uncertainty, regional limits and missing citations', async () => {
+  vi.mocked(loadCatalogueFdacDescriptions).mockResolvedValueOnce({ colId: '8MG5', wfoId: 'wfo-example', scientificName: 'Example plant', descriptions: [{
+    type: 'habitat', text: 'Habitat text.', language: 'und', languageNote: 'The source does not declare a language.', sourceId: 'fdac-1', rowNumber: 19,
+    citations: [], referenceRowNumbers: [], citationMissingInSource: true, rightsHolder: 'Meise Botanic Garden', rights: 'FDAC archive', license: 'https://creativecommons.org/licenses/by/4.0/',
+  }] })
+  render(<CatalogueTaxonPage release="COL26.8" id="8MG5" onNavigate={vi.fn()} />)
+  expect(await screen.findByText('Habitat text.')).toHaveAttribute('lang', 'und')
+  expect(screen.getByText('The source provides no citation for this entry; none has been added.')).toBeInTheDocument()
+  expect(screen.getByText(/Historical regional source with no declared source language/)).toBeInTheDocument()
+  expect(screen.getByText(/FDAC archive/)).toBeInTheDocument()
 })
 
 it('retains Spanish excerpts, every citation and source truncation disclosure', async () => {

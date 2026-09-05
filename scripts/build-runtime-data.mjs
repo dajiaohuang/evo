@@ -1600,6 +1600,17 @@ const sanbiFiles = partitionSanbiDescriptions(sanbiRecords).map(([prefix, record
 })
 const plaziSource = readJson('data/sources/plazi-descriptions-import-ledger.json')
 const mesoSource = readJson('data/sources/meso-descriptions-import-ledger.json')
+const fdacSource = readJson('data/sources/fdac-descriptions-import-ledger.json')
+const fdacBytes = readFileSync(join(rootDir, fdacSource.output))
+if (fdacBytes.length !== fdacSource.outputBytes || sha256(fdacBytes) !== fdacSource.outputSha256) throw new Error('FDAC source bytes differ from the import ledger')
+const fdacRecords = gunzipSync(fdacBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
+const fdacRoutes = {}
+const fdacFiles = partitionSanbiDescriptions(fdacRecords).map(([prefix, records]) => {
+  const path = `catalogue/descriptions/fdac-${prefix}.json.gz`
+  const file = { ...writeGzipJson(path, records), prefix, path, records: records.length }
+  fdacRoutes[prefix] = [file.url]
+  return file
+})
 const mesoBytes = readFileSync(join(rootDir, mesoSource.output))
 if (mesoBytes.length !== mesoSource.outputBytes || sha256(mesoBytes) !== mesoSource.outputSha256) throw new Error('Mesoamericana source bytes differ from the import ledger')
 const mesoRecords = gunzipSync(mesoBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
@@ -1636,6 +1647,7 @@ catalogueRuntimeManifest = {
   plaziDescriptions: { source: plaziSource, routes: plaziRoutes, files: plaziFiles },
   foaDescriptions: { source: foaSource, routes: foaRoutes, files: foaFiles },
   mesoDescriptions: { source: mesoSource, routes: mesoRoutes, files: mesoFiles },
+  fdacDescriptions: { source: fdacSource, routes: fdacRoutes, files: fdacFiles },
   sanbiDescriptions: { source: sanbiSource, routes: sanbiRoutes, files: sanbiFiles },
   provenance: catalogueProvenance,
   sourceChecklists: { ...catalogueSourceManifest.sourceChecklists, url: catalogueSourcesFile.url },
@@ -1756,6 +1768,7 @@ const current = {
       + (catalogueRuntimeManifest.sanbiDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.foaDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.mesoDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
+      + (catalogueRuntimeManifest.fdacDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.plaziDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0),
     pagesLimitBytes: 650 * 1024 * 1024,
   },

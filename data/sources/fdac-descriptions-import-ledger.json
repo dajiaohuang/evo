@@ -1,0 +1,23 @@
+{
+  "provider": "Meise Botanic Garden",
+  "title": "Flora d'Afrique Centrale",
+  "retrievedAt": "2026-09-05",
+  "sourceVersion": "WFO archive retrieved 2026-09-05",
+  "sourceUrl": "https://files.worldfloraonline.org/files/Flora%20d%27Afrique/WFO-fdac.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "archiveSha256": "c6c64bb11a078f4d8690622a20f7097e8b121ae28fbc41f4952c192959d39c2e",
+  "inputSha256": "4c9155a9115807703ce078b5234784cbdce319bbe1c0f1e3fada912dc49306a2",
+  "output": "data/sources/fdac-descriptions.jsonl.gz",
+  "outputBytes": 1899202,
+  "outputSha256": "3a9227937bf5099e6f12032cd16b16390265b37d8153833b89ed0e9537624a21",
+  "species": 4156,
+  "descriptions": 8021,
+  "limitations": [
+    "Regional historical morphology and habitat text, not complete global species dossiers.",
+    "Original text and punctuation preserved exactly; no missing passages reconstructed.",
+    "The archive does not declare description language; und is not an inferred language.",
+    "Nineteen paragraphs lack bibliographic citations in the source; archive attribution and row locators remain available.",
+    "WFO/COL links do not establish identical taxonomic concepts across source dates."
+  ]
+}

@@ -42,6 +42,7 @@ async function installCatalogueFixture({
   plazi = [],
   foa = [],
   meso = [],
+  fdac = [],
 }: {
   nodes?: CatalogueHierarchyNodeRecord[]
   children?: CatalogueHierarchyChildRecord[]
@@ -52,13 +53,14 @@ async function installCatalogueFixture({
   plazi?: import('./types').CataloguePlaziDescriptionRecord[]
   foa?: import('./types').CatalogueFoaDescriptionRecord[]
   meso?: import('./types').CatalogueMesoDescriptionRecord[]
+  fdac?: import('./types').CatalogueFdacDescriptionRecord[]
 }) {
   Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
   const { catalogueRoutePrefix } = await import('./staticDataClient')
   const payloads = new Map<string, ReturnType<typeof responseFor> | ReturnType<typeof textResponseFor>>()
 
   async function hierarchyLayer<T extends { id: string }>(
-    layer: 'nodes' | 'children' | 'targets' | 'sanbi' | 'plazi' | 'foa' | 'meso',
+    layer: 'nodes' | 'children' | 'targets' | 'sanbi' | 'plazi' | 'foa' | 'meso' | 'fdac',
     records: T[],
     routeId: (record: T) => string,
   ) {
@@ -95,6 +97,7 @@ async function installCatalogueFixture({
   const plaziLayer = await hierarchyLayer('plazi', plazi.map((record) => ({ ...record, id: record.colId })), (record) => record.colId)
   const foaLayer = await hierarchyLayer('foa', foa.map((record) => ({ ...record, id: record.colId })), (record) => record.colId)
   const mesoLayer = await hierarchyLayer('meso', meso.map((record) => ({ ...record, id: record.colId })), (record) => record.colId)
+  const fdacLayer = await hierarchyLayer('fdac', fdac.map((record) => ({ ...record, id: record.colId })), (record) => record.colId)
   const searchGroups = new Map<string, CatalogueRecord[]>()
   for (const record of searchRecords) {
     const prefix = record.normalizedName.replaceAll(' ', '').slice(0, 2).padEnd(2, '_')
@@ -137,6 +140,7 @@ async function installCatalogueFixture({
     plaziDescriptions: plaziLayer,
     foaDescriptions: foaLayer,
     mesoDescriptions: mesoLayer,
+    fdacDescriptions: fdacLayer,
     hierarchy: { nodes: nodeLayer, children: childLayer },
   }
   const manifestFile = { url: 'releases/dataset-col/catalogue/manifest.json' }
@@ -1447,6 +1451,22 @@ describe('static runtime release coherence', () => {
     await loadCatalogueMesoDescriptions(record.colId)
     expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/meso-'))).toHaveLength(1)
     await expect(loadCatalogueMesoDescriptions('unmapped-species')).resolves.toBeNull()
+  })
+
+  it('loads only the requested FDAC route and preserves citation-missing metadata', async () => {
+    const { loadCatalogueFdacDescriptions } = await import('./staticDataClient')
+    const record: import('./types').CatalogueFdacDescriptionRecord = {
+      colId: 'EXAMPLE', wfoId: 'wfo-example', scientificName: 'Example plant', descriptions: [{
+        type: 'habitat', text: 'Habitat text.', language: 'und', languageNote: 'Source language not declared.', sourceId: 'fdac-1', rowNumber: 19,
+        citations: [], referenceRowNumbers: [], citationMissingInSource: true,
+        rightsHolder: 'Meise Botanic Garden', rights: 'FDAC archive', license: 'https://creativecommons.org/licenses/by/4.0/',
+      }],
+    }
+    const { fetchMock } = await installCatalogueFixture({ fdac: [record] })
+    await expect(loadCatalogueFdacDescriptions(record.colId)).resolves.toMatchObject(record)
+    await loadCatalogueFdacDescriptions(record.colId)
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/fdac-'))).toHaveLength(1)
+    await expect(loadCatalogueFdacDescriptions('unmapped-species')).resolves.toBeNull()
   })
 
   it('loads only the requested direct children from a shared parent-hash shard and caches it', async () => {

@@ -1404,7 +1404,32 @@ export interface CatalogueMesoDescriptionRecord {
   }>
 }
 
+export interface CatalogueFdacDescriptionRecord {
+  colId: string
+  wfoId: string
+  scientificName: string
+  descriptions: Array<{
+    type: 'habitat' | 'morphology'
+    text: string
+    language: 'und'
+    languageNote: string
+    sourceId: string
+    rowNumber: number
+    citations: string[]
+    referenceRowNumbers: number[]
+    citationMissingInSource: boolean
+    rightsHolder: string
+    rights: string
+    license: string
+  }>
+}
+
 export interface CatalogueRuntimeManifest {
+  fdacDescriptions?: {
+    source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
+    routes: Record<string, string[]>
+    files: CatalogueRuntimeFile[]
+  }
   mesoDescriptions?: {
     source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
     routes: Record<string, string[]>
