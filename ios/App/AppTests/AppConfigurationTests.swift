@@ -614,7 +614,8 @@ final class AppConfigurationTests: XCTestCase {
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-cestoda-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 4, expectedUpstreamFiles: 1,
-                    expectedRecords: 3_015, expectedUpstreamRecords: 39, label: "Cestoda")
+                    expectedRecords: 3_015, expectedUpstreamRecords: 34,
+                    expectedLicense: "cc by", label: "Cestoda")
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-nemertea-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 2, expectedUpstreamFiles: 1,
@@ -630,7 +631,8 @@ final class AppConfigurationTests: XCTestCase {
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-turbellaria-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 6, expectedUpstreamFiles: 1,
-                    expectedRecords: 6_508, expectedUpstreamRecords: 30, label: "Turbellaria")
+                    expectedRecords: 6_508, expectedUpstreamRecords: 28,
+                    expectedLicense: "cc by", label: "Turbellaria")
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "rotifera-298081-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,

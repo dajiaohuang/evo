@@ -2,9 +2,14 @@
 
 This projection freezes ChecklistBank dataset `1193`, *World List of
 turbellarian worms: Acoelomorpha, Catenulida, Rhabditophora*, version
-`2026-09-01`, DOI `10.48580/d3g6.v88`, licensed CC BY 4.0. The committed ZIP
+`2026-09-01`. The committed ZIP
 archive is 2,320,899 bytes with SHA-256
 `ef2402cab1d39b2569c18e415a6c9c3acdc7e197c7ab6e92158488b6863fe8ce`.
+
+The pinned API metadata reports base DOI `10.48580/d3g6`, version DOI
+`10.48580/d3g6.v88`, and license `cc by`; the archive's own `metadata.yml`
+reports DOI `null` and license `CC-BY`. Both claims and hashes are retained
+separately, without inferring a Creative Commons version.
 
 The source projection joins `Taxon.nameID` to `Name.ID`, retains only
 `Name.rank=Species`, and excludes 37 provisional rows, leaving 6,523 accepted

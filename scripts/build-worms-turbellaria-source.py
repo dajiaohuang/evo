@@ -35,6 +35,22 @@ def col_bare(row):
     return name[:-len(suffix)] if author and name.endswith(suffix) else name
 
 
+def parse_embedded_metadata(raw):
+    fields = {}
+    wanted = {'doi', 'title', 'issued', 'version', 'license', 'website', 'citation'}
+    for line in raw.decode('utf-8').splitlines():
+        if line.startswith((' ', '\t')) or ':' not in line:
+            continue
+        key, value = line.split(':', 1)
+        if key not in wanted:
+            continue
+        value = value.strip()
+        fields[key] = None if value == 'null' else value[1:-1] if len(value) >= 2 and value[0] == value[-1] == "'" else value
+    fields['bytes'] = len(raw)
+    fields['sha256'] = digest(raw)
+    return fields
+
+
 def source_name(name, taxon):
     tid = taxon['ID'].rsplit(':', 1)[-1]
     return {'id': taxon['ID'], 'aphiaId': tid, 'scientificName': name['scientificName'],
@@ -47,6 +63,7 @@ def source_name(name, taxon):
 def read_archive(path):
     members = {}
     with zipfile.ZipFile(path) as archive:
+        embedded_metadata = parse_embedded_metadata(archive.read('metadata.yml'))
         for name in archive.namelist():
             raw = archive.read(name)
             members[name] = {'bytes': len(raw), 'sha256': digest(raw)}
@@ -66,7 +83,7 @@ def read_archive(path):
                 continue
             accepted[taxon['ID'].rsplit(':', 1)[-1]] = (taxon, name[0], i, name[1])
         synonyms = rows('Synonym.txt')
-    return accepted, references, name_refs, members, len(synonyms), provisional
+    return accepted, references, name_refs, members, embedded_metadata, len(synonyms), provisional
 
 
 def read_col():
@@ -119,9 +136,19 @@ def project(archive, output_root=None):
     raw = archive.read_bytes()
     if len(raw) != ARCHIVE_BYTES or digest(raw) != ARCHIVE_SHA:
         raise ValueError('archive does not match pinned bytes')
-    source, references, name_refs, members, synonym_count, provisional_count = read_archive(archive)
+    source, references, name_refs, members, embedded_metadata, synonym_count, provisional_count = read_archive(archive)
     metadata_bytes = METADATA.read_bytes()
     metadata = json.loads(metadata_bytes)
+    if (metadata.get('key'), metadata.get('title'), metadata.get('doi'), metadata.get('version'),
+            metadata.get('versionDoi'), metadata.get('issued'), metadata.get('license')) != (
+                1193, 'World List of turbellarian worms: Acoelomorpha, Catenulida, Rhabditophora',
+                '10.48580/d3g6', '2026-09-01', '10.48580/d3g6.v88', '2026-09-01', 'cc by'):
+        raise ValueError('unexpected ChecklistBank metadata identity')
+    if (embedded_metadata.get('doi'), embedded_metadata.get('title'), embedded_metadata.get('version'),
+            embedded_metadata.get('issued'), embedded_metadata.get('license')) != (
+                None, 'World List of turbellarian worms: Acoelomorpha, Catenulida, Rhabditophora',
+                '2026-09-01', '2026-09-01', 'CC-BY'):
+        raise ValueError('unexpected Turbellaria archive metadata identity')
     col, col_sha, col_inputs = read_col()
     by_key = {}
     for tid, (taxon, name, taxon_row, name_row) in source.items():
@@ -188,10 +215,20 @@ def project(archive, output_root=None):
                   'id': 'worms-turbellaria-archive-crosswalk', 'packageId': 'other-animals',
                   'provider': 'World Register of Marine Species via ChecklistBank', 'rowEncoding': 'json',
                   'colIdField': 'colId', 'totalCountField': 'total',
-                  'source': {'datasetId': '1193', 'title': metadata['title'], 'version': metadata['version'],
-                             'versionDoi': metadata['versionDoi'], 'metadataBytes': len(metadata_bytes),
-                             'metadataSha256': digest(metadata_bytes), 'license': 'CC-BY-4.0',
-                             'licenseUrl': 'https://creativecommons.org/licenses/by/4.0/',
+                  'source': {'datasetId': '1193', 'title': metadata['title'], 'doi': metadata['doi'],
+                             'version': metadata['version'], 'versionDoi': metadata['versionDoi'],
+                             'issued': metadata['issued'], 'citation': metadata.get('citation'),
+                             'metadataRecord': metadata, 'metadataBytes': len(metadata_bytes),
+                             'metadataSha256': digest(metadata_bytes), 'metadataLicense': metadata['license'],
+                             'license': metadata['license'], 'embeddedMetadata': embedded_metadata,
+                             'metadataConsistency': {
+                                 'status': 'mismatch',
+                                 'apiResponse': {'doi': metadata['doi'], 'versionDoi': metadata['versionDoi'],
+                                                 'version': metadata['version'], 'issued': metadata['issued'],
+                                                 'license': metadata['license']},
+                                 'archiveEmbedded': {'doi': embedded_metadata['doi'], 'version': embedded_metadata['version'],
+                                                     'issued': embedded_metadata['issued'], 'license': embedded_metadata['license']},
+                                 'boundary': 'The byte-pinned archive drives the projection; archive metadata.yml and API metadata remain separate evidence.'},
                              'rightsHolder': 'WoRMS Editorial Board', 'archiveUrl': 'https://api.checklistbank.org/dataset/1193/archive',
                              'archivePath': 'data/sources/archives/checklistbank-1193-turbellaria-2026-09-01.zip',
                              'metadataPath': 'data/sources/archives/checklistbank-1193-turbellaria-2026-09-01.metadata.json',

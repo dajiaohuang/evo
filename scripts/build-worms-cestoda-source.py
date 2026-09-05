@@ -14,11 +14,20 @@ def bare(r):
  n,a=norm(r.get('scientificName')),norm(r.get('authorship')); suffix=' '+a
  return n[:-len(suffix)] if a and n.endswith(suffix) else n
 def rows(z,member): return list(csv.DictReader(io.TextIOWrapper(z.open(member),encoding='utf-8-sig'),delimiter='\t'))
+def embedded_metadata(raw):
+ fields={}; wanted={'doi','title','issued','version','license','website','citation'}
+ for line in raw.decode('utf-8').splitlines():
+  if line.startswith((' ','\t')) or ':' not in line: continue
+  key,value=line.split(':',1)
+  if key not in wanted: continue
+  value=value.strip(); fields[key]=None if value=='null' else value[1:-1] if len(value)>=2 and value[0]==value[-1]=="'" else value
+ fields['bytes']=len(raw); fields['sha256']=digest(raw); return fields
 def source_name(name,taxon):
  return {'id':taxon['ID'],'taxonID':taxon['ID'],'nameID':name['ID'],'scientificName':name['scientificName'],'authorship':name.get('authorship') or '', 'rank':name['rank'],'status':'accepted','url':name.get('link') or taxon.get('link') or ''}
 def read_archive(path):
  with zipfile.ZipFile(path) as z:
   members={n:{'bytes':z.getinfo(n).file_size,'sha256':digest(z.read(n))} for n in z.namelist()}
+  embedded=embedded_metadata(z.read('metadata.yml'))
   names={r['ID']:(r,i) for i,r in enumerate(rows(z,'Name.txt'),2)}; refs={r['ID']:(r,i) for i,r in enumerate(rows(z,'Reference.txt'),2)}
   nrefs={}
   for i,r in enumerate(rows(z,'NameReference.txt'),2): r['_row']=i; nrefs.setdefault(r['nameID'],[]).append(r)
@@ -29,7 +38,7 @@ def read_archive(path):
    total+=1
    if t.get('provisional')=='1': provisional+=1; continue
    t['_row']=i; n[0]['_row']=n[1]; accepted[t['ID'].rsplit(':',1)[-1]]=(t,n[0])
- return accepted,refs,nrefs,members,total,provisional
+ return accepted,refs,nrefs,members,embedded,total,provisional
 def source_refs(t,n,nrefs,refs):
  ids=[x for x in (n.get('referenceID'),t.get('referenceID')) if x]
  ids += [x.get('referenceID') for x in nrefs.get(n['ID'],[]) if x.get('referenceID')]
@@ -67,7 +76,7 @@ def read_col():
 def project(archive,metadata,output_root=None):
  raw=archive.read_bytes()
  if len(raw)!=ARCHIVE_BYTES or digest(raw)!=ARCHIVE_SHA: raise ValueError('archive pin mismatch')
- source,refs,nrefs,members,total,provisional=read_archive(archive); col,colsha,colinputs=read_col(); by={}
+ source,refs,nrefs,members,embedded,total,provisional=read_archive(archive); col,colsha,colinputs=read_col(); by={}
  for tid,(t,n) in source.items(): by.setdefault((norm(n['scientificName']),norm(n.get('authorship'))),[]).append((tid,t,n))
  records=[]; used=set(); counts={k:0 for k in ('accepted','redirect','ambiguous','unmatched','withheld')}
  for cid,c in sorted(col.items()):
@@ -93,8 +102,11 @@ def project(archive,metadata,output_root=None):
    out.append(q)
   return out
  cf=shards('worms-cestoda',records,'col-partition'); uf=shards('worms-cestoda-source-only',upstream,'upstream-only'); totalbytes=sum(x['bytes'] for x in cf+uf)
- metadata_bytes=metadata.read_bytes(); meta=json.loads(metadata_bytes); source_license='CC-BY-4.0' if str(meta.get('license','')).lower()=='cc by' else meta.get('license')
- descriptor={'schemaVersion':1,'recordType':'release-pinned-authority-archive-crosswalk','id':'worms-cestoda-archive-crosswalk','packageId':'other-animals','provider':'World Register of Marine Species via ChecklistBank','rowEncoding':'json','encoding':'gzip','mediaType':'application/json','role':'authority-crosswalk','colIdField':'colId','totalCountField':'total','source':{'datasetId':SOURCE,'title':meta['title'],'version':meta['version'],'versionDoi':meta['versionDoi'],'metadataPath':'data/sources/archives/checklistbank-1127-cestoda-2026-09-01.metadata.json','metadataBytes':len(metadata_bytes),'metadataSha256':digest(metadata_bytes),'license':source_license,'licenseUrl':'https://creativecommons.org/licenses/by/4.0/','archiveUrl':'https://api.checklistbank.org/dataset/1127/archive','archivePath':'data/sources/archives/checklistbank-1127-cestoda-2026-09-01.zip','archiveBytes':len(raw),'archiveSha256':digest(raw),'members':members},'scope':{'colRootUsageId':ROOT_ID,'eligibleColSpecies':len(col),'sourceAcceptedSpecies':len(source),'sourceSpeciesRankTaxa':total,'excludedSourceProvisional':provisional},'matching':{'normalization':'Unicode NFC; collapse and trim Unicode whitespace; canonicalize whitespace around commas and ampersands; remove the exact normalized COL trailing authorship.','prohibited':'No fuzzy, case-folded, accent-folded, synonym or species-concept matching.'},'counts':{'total':len(records),'records':len(records)+len(upstream),**counts,'upstreamOnly':len(upstream)},'files':cf,'upstreamOnlyFiles':uf,'totalCompressedBytes':totalbytes,'totalSourceBytes':sum(x['sourceBytes'] for x in cf+uf),'deliveryProfiles':{'web-light':{'mode':'summary-only','records':0,'files':[],'totalCompressedBytes':0,'totalSourceBytes':0},'native-full':{'mode':'complete','records':len(records)+len(upstream),'files':[x['path'] for x in cf+uf],'totalCompressedBytes':totalbytes,'totalSourceBytes':sum(x['sourceBytes'] for x in cf+uf)}},'evidenceBoundary':{'en':'Frozen exact nomenclatural crosswalk, not species-concept equivalence, a biological dossier, fossil evidence or expert review.','zh':'冻结的严格命名交叉映射；不是物种概念等同性、生物档案、化石证据或专家审查。'}}
+ metadata_bytes=metadata.read_bytes(); meta=json.loads(metadata_bytes)
+ if (meta.get('key'),meta.get('title'),meta.get('doi'),meta.get('version'),meta.get('versionDoi'),meta.get('issued'),meta.get('license')) != (1127,'World List of Cestoda','10.48580/d3cw','2026-09-01','10.48580/d3cw.v84','2026-09-01','cc by'): raise ValueError('metadata identity changed')
+ if (embedded.get('doi'),embedded.get('title'),embedded.get('version'),embedded.get('issued'),embedded.get('license')) != (None,'World List of Cestoda','2026-09-01','2026-09-01','CC-BY'): raise ValueError('archive metadata identity changed')
+ source_metadata={'datasetId':SOURCE,'title':meta['title'],'doi':meta['doi'],'version':meta['version'],'versionDoi':meta['versionDoi'],'issued':meta['issued'],'citation':meta.get('citation'),'metadataRecord':meta,'metadataPath':'data/sources/archives/checklistbank-1127-cestoda-2026-09-01.metadata.json','metadataBytes':len(metadata_bytes),'metadataSha256':digest(metadata_bytes),'metadataLicense':meta['license'],'license':meta['license'],'embeddedMetadata':embedded,'metadataConsistency':{'status':'mismatch','apiResponse':{'doi':meta['doi'],'versionDoi':meta['versionDoi'],'version':meta['version'],'issued':meta['issued'],'license':meta['license']},'archiveEmbedded':{'doi':embedded['doi'],'version':embedded['version'],'issued':embedded['issued'],'license':embedded['license']},'boundary':'The byte-pinned archive drives the projection; archive metadata.yml and API metadata remain separate evidence.'},'archiveUrl':'https://api.checklistbank.org/dataset/1127/archive','archivePath':'data/sources/archives/checklistbank-1127-cestoda-2026-09-01.zip','archiveBytes':len(raw),'archiveSha256':digest(raw),'members':members}
+ descriptor={'schemaVersion':1,'recordType':'release-pinned-authority-archive-crosswalk','id':'worms-cestoda-archive-crosswalk','packageId':'other-animals','provider':'World Register of Marine Species via ChecklistBank','rowEncoding':'json','encoding':'gzip','mediaType':'application/json','role':'authority-crosswalk','colIdField':'colId','totalCountField':'total','source':source_metadata,'scope':{'colRootUsageId':ROOT_ID,'eligibleColSpecies':len(col),'sourceAcceptedSpecies':len(source),'sourceSpeciesRankTaxa':total,'excludedSourceProvisional':provisional},'matching':{'normalization':'Unicode NFC; collapse and trim Unicode whitespace; canonicalize whitespace around commas and ampersands; remove the exact normalized COL trailing authorship.','prohibited':'No fuzzy, case-folded, accent-folded, synonym or species-concept matching.'},'counts':{'total':len(records),'records':len(records)+len(upstream),**counts,'upstreamOnly':len(upstream)},'files':cf,'upstreamOnlyFiles':uf,'totalCompressedBytes':totalbytes,'totalSourceBytes':sum(x['sourceBytes'] for x in cf+uf),'deliveryProfiles':{'web-light':{'mode':'summary-only','records':0,'files':[],'totalCompressedBytes':0,'totalSourceBytes':0},'native-full':{'mode':'complete','records':len(records)+len(upstream),'files':[x['path'] for x in cf+uf],'totalCompressedBytes':totalbytes,'totalSourceBytes':sum(x['sourceBytes'] for x in cf+uf)}},'evidenceBoundary':{'en':'Frozen exact nomenclatural crosswalk, not species-concept equivalence, a biological dossier, fossil evidence or expert review.','zh':'冻结的严格命名交叉映射；不是物种概念等同性、生物档案、化石证据或专家审查。'}}
  descriptor['totalCompressedBytes']=totalbytes; descriptor['totalSourceBytes']=sum(x['sourceBytes'] for x in cf+uf); descriptor['evidenceBoundary']['zh']='冻结的严格命名交叉映射；不是物种概念等同性、生物档案、化石证据或专家审查。'
  dpath=dest/'worms-cestoda-sidecar.json'; db=dump(descriptor,True); dpath.write_bytes(db)
  ledger={'schemaVersion':1,'importType':'COL26.8-to-WoRMS-1127-archive-projection','source':descriptor['source'],'registryManifestSha256':colsha,'registryInputs':colinputs,'generatedBy':{'script':'scripts/build-worms-cestoda-source.py','scriptSha256':digest(Path(__file__).read_bytes().replace(b'\r\n',b'\n')),'lineEnding':'LF'},'outputs':{'descriptor':{'path':'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-cestoda-sidecar.json','bytes':len(db),'sha256':digest(db)},'files':cf,'upstreamOnlyFiles':uf},'scopeAudit':{'colRootUsageId':ROOT_ID,'colSpecies':len(col),'sourceAcceptedSpecies':len(source),'sourceSpeciesRankTaxa':total,'sourceProvisionalExcluded':provisional,'upstreamOnly':len(upstream)}}

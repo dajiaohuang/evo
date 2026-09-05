@@ -11,7 +11,10 @@ with zipfile.ZipFile(A) as z:
  names,taxa,refs=rows('Name.txt'),rows('Taxon.txt'),rows('Reference.txt')
  with z.open('NameReference.txt') as stream:
   nrefs=[(r,i) for i,r in enumerate(csv.DictReader(io.TextIOWrapper(stream,encoding='utf-8-sig'),delimiter='\t'),2)]
-d=json.loads((D/'worms-cestoda-sidecar.json').read_text(encoding='utf-8')); assert d['counts']=={'total':3015,'records':3049,'accepted':3013,'redirect':0,'ambiguous':0,'unmatched':2,'withheld':0,'upstreamOnly':34}; allrows=[]
+d=json.loads((D/'worms-cestoda-sidecar.json').read_text(encoding='utf-8')); assert d['counts']=={'total':3015,'records':3049,'accepted':3013,'redirect':0,'ambiguous':0,'unmatched':2,'withheld':0,'upstreamOnly':34}
+assert d['source']['license']=='cc by' and 'licenseUrl' not in d['source']
+assert d['source']['embeddedMetadata']['doi'] is None and d['source']['embeddedMetadata']['license']=='CC-BY'
+assert d['source']['metadataConsistency']['status']=='mismatch'; allrows=[]
 for f in d['files'] + d['upstreamOnlyFiles']:
  allrows += json.loads(gzip.open(D/Path(f['path']).name,'rt',encoding='utf-8').read())
 assert len(allrows)==3049

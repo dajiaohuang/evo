@@ -7,10 +7,10 @@ expert corroboration.
 | Source | COL records | Exact accepted matches | Unmatched | Source-only | Row files |
 |---|---:|---:|---:|---:|---:|
 | Ascidiacea 1186 | 3,000 | 3,000 | 0 | 0 | 6 |
-| Turbellaria 1193 | 6,508 | 6,493 | 15 | 30 | 7 |
+| Turbellaria 1193 | 6,508 | 6,495 | 13 | 28 | 7 |
 | Rotifer World Catalogue 298081 | 2,467 | 2,467 | 0 | 0 | 1 |
 
-The files contain 12,005 rows and occupy 2,152,610 compressed bytes. Original
+The files contain 12,003 rows and occupy 2,153,483 compressed bytes. Original
 archives and metadata remain separate build inputs. Every derived shard is at
 most 2 MiB uncompressed; whole archive evidence is not part of the resident tree.
 Pages publishes the scope/limitation summary without these row files.
