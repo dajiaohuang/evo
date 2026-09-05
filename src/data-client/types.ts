@@ -406,6 +406,7 @@ export type AuthorityArchiveCollectionId =
   | 'chilobase-archive-crosswalk'
   | 'scorpion-files-archive-crosswalk'
   | 'wsc-spiders-archive-crosswalk'
+  | 'systema-dipterorum-archive-crosswalk'
   | 'trichomycetes-archive-crosswalk'
   | 'cilcat-1113-archive-crosswalk'
   | 'eumycetozoa-archive-crosswalk'
@@ -420,6 +421,9 @@ export interface AuthorityArchiveName {
   authorship: string
   status: string
   url: string
+  parentId?: string | null
+  sourceScope?: 'orphan-exception'
+  sourceScopeReason?: string
 }
 
 export interface AuthorityArchiveRecord {

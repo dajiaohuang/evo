@@ -3,6 +3,7 @@ import { loadPackageAuthorityArchiveRecord, loadPackageAuthorityArchiveSourceOnl
 import type { AuthorityArchiveCollectionId, AuthorityArchiveName, AuthorityArchiveRecord, RuntimeAuthorityArchiveCollection } from '../../data-client/types'
 
 const scopes: Array<{ root: string; packageId: string; id: AuthorityArchiveCollectionId; title: string }> = [
+  { root: 'D2P', packageId: 'crustaceans-insects', id: 'systema-dipterorum-archive-crosswalk', title: 'Systema Dipterorum · Diptera' },
   { root: '623DW', packageId: 'perissodactyla', id: 'mdd-mammalia-perissodactyla-archive-crosswalk', title: 'MDD · Perissodactyla' },
   { root: '6227M', packageId: 'cetartiodactyla', id: 'mdd-mammalia-cetartiodactyla-archive-crosswalk', title: 'MDD · Artiodactyla / Cetacea' },
   { root: 'WP', packageId: 'cetartiodactyla', id: 'mdd-mammalia-cetartiodactyla-archive-crosswalk', title: 'MDD · Artiodactyla / Cetacea' },
@@ -34,9 +35,11 @@ const scopes: Array<{ root: string; packageId: string; id: AuthorityArchiveColle
   { root: '329', packageId: 'crocodylomorphs-birds', id: 'reptiledb-crocodylia-extension', title: 'ReptileDB · Crocodylia' },
 ]
 
-function SourceName({ name }: { name: AuthorityArchiveName }) {
+function SourceName({ name, zh }: { name: AuthorityArchiveName; zh: boolean }) {
   const text = `${name.scientificName} ${name.authorship}`.trim()
-  return <span>{/^https?:\/\//.test(name.url) ? <a href={name.url} target="_blank" rel="noreferrer">{text}</a> : text} <code>{name.id}</code>{name.nameId && <small> Name ID: {name.nameId}</small>}</span>
+  return <span>{/^https?:\/\//.test(name.url) ? <a href={name.url} target="_blank" rel="noreferrer">{text}</a> : text} <code>{name.id}</code>{name.nameId && <small> Name ID: {name.nameId}</small>}
+    {name.sourceScope === 'orphan-exception' && <small> — {zh ? '来源归档缺少此记录引用的父节点；未推测替代归属。原始父 ID：' : 'The source archive lacks the referenced parent; no replacement placement is inferred. Raw parent ID: '}<code>{name.parentId ?? (zh ? '未提供' : 'not supplied')}</code>{name.sourceScopeReason && <> ({name.sourceScopeReason})</>}</small>}
+  </span>
 }
 
 function ArchiveMetadataDifference({ source, zh }: { source: RuntimeAuthorityArchiveCollection['source']; zh: boolean }) {
@@ -68,7 +71,7 @@ function SourceOnlyRecords({ collection, fileIndex, zh }: { collection: RuntimeA
   return <>
     <ul>{records.slice(0, visible).map((record, index) => {
       const name = record.acceptedName ?? record.matchedName
-      return <li key={name?.id ?? index}>{name && <SourceName name={name} />}</li>
+      return <li key={name?.id ?? index}>{name && <SourceName name={name} zh={zh} />}</li>
     })}</ul>
     {visible < records.length && <button type="button" onClick={() => setVisible((value) => value + 100)}>{zh ? '再显示 100 条' : 'Show 100 more'}</button>}
   </>
@@ -120,9 +123,9 @@ function ArchiveRecord({ scope, colId, zh }: { scope: typeof scopes[number]; col
       : !record ? <p>{zh ? '固定映射中未找到这个 COL ID；未猜测替代记录。' : 'This COL ID was not found in the pinned mapping; no substitute was guessed.'}</p>
         : <>
           <p>{zh ? '当前记录：' : 'This record: '}{zh ? statuses[record.status] : record.status === 'accepted' ? 'unique name match' : record.status}</p>
-          {record.matchedName && <p><SourceName name={record.matchedName} /></p>}
-          {record.acceptedName && (record.acceptedName.id !== record.matchedName?.id || record.acceptedName.nameId !== record.matchedName?.nameId) && <p>{zh ? '来源接受名：' : 'Source accepted name: '}<SourceName name={record.acceptedName} /></p>}
-          {record.candidates.length > 0 && <ul>{record.candidates.map((candidate, index) => <li key={`${candidate.id}:${index}`}><SourceName name={candidate} /></li>)}</ul>}
+          {record.matchedName && <p><SourceName name={record.matchedName} zh={zh} /></p>}
+          {record.acceptedName && (record.acceptedName.id !== record.matchedName?.id || record.acceptedName.nameId !== record.matchedName?.nameId) && <p>{zh ? '来源接受名：' : 'Source accepted name: '}<SourceName name={record.acceptedName} zh={zh} /></p>}
+          {record.candidates.length > 0 && <ul>{record.candidates.map((candidate, index) => <li key={`${candidate.id}:${index}`}><SourceName name={candidate} zh={zh} /></li>)}</ul>}
           <p>{record.mappingBasis}</p>
         </>}
     {doi && <a href={`https://doi.org/${doi}`} target="_blank" rel="noreferrer">{zh ? '核对固定来源版本' : 'Verify the pinned source version'}</a>}
