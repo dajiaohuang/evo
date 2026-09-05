@@ -1,5 +1,7 @@
 # Third-party notices
 
+- Missouri Botanical Garden, *Flora Mesoamericana*, WFO archive retrieved 2026-09-05: CC BY 4.0. Preserve all per-excerpt publication citations, rights and row locators. Regional Spanish/English excerpts may be truncated in the source and are not complete global dossiers. See [source scope](docs/meso-descriptions.md).
+
 - Australian Biological Resources Study, *Flora of Australia*, WFO archive dated 2020-12-03: selected descriptions explicitly declare CC BY 4.0. Preserve each paragraph's Commonwealth of Australia rights-holder year, raw rights label, citation and source locator. Plain-text conversion removes markup without synthesizing biological claims. See [source scope](docs/foa-descriptions.md).
 
 - Systema Dipterorum, ChecklistBank dataset 1101, attempt 47, DOI `10.48580/d3bz`: API and archive license labels are preserved as `cc by`, without an inferred version. Keep the original citation, source identifiers, references and row locators in the descriptor and [source documentation](docs/systema-dipterorum-archive.md). The derived name crosswalk is not provider-endorsed, a species-concept equivalence claim or evidence of extant status. Source-only rows have no assigned COL identity; missing source parents are not invented.

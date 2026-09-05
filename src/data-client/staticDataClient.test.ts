@@ -41,6 +41,7 @@ async function installCatalogueFixture({
   sanbi = [],
   plazi = [],
   foa = [],
+  meso = [],
 }: {
   nodes?: CatalogueHierarchyNodeRecord[]
   children?: CatalogueHierarchyChildRecord[]
@@ -50,13 +51,14 @@ async function installCatalogueFixture({
   sanbi?: import('./types').CatalogueSanbiDescriptionRecord[]
   plazi?: import('./types').CataloguePlaziDescriptionRecord[]
   foa?: import('./types').CatalogueFoaDescriptionRecord[]
+  meso?: import('./types').CatalogueMesoDescriptionRecord[]
 }) {
   Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
   const { catalogueRoutePrefix } = await import('./staticDataClient')
   const payloads = new Map<string, ReturnType<typeof responseFor> | ReturnType<typeof textResponseFor>>()
 
   async function hierarchyLayer<T extends { id: string }>(
-    layer: 'nodes' | 'children' | 'targets' | 'sanbi' | 'plazi' | 'foa',
+    layer: 'nodes' | 'children' | 'targets' | 'sanbi' | 'plazi' | 'foa' | 'meso',
     records: T[],
     routeId: (record: T) => string,
   ) {
@@ -92,6 +94,7 @@ async function installCatalogueFixture({
   const sanbiLayer = await hierarchyLayer('sanbi', sanbi.map((record) => ({ ...record, id: record.colId })), (record) => record.colId)
   const plaziLayer = await hierarchyLayer('plazi', plazi.map((record) => ({ ...record, id: record.colId })), (record) => record.colId)
   const foaLayer = await hierarchyLayer('foa', foa.map((record) => ({ ...record, id: record.colId })), (record) => record.colId)
+  const mesoLayer = await hierarchyLayer('meso', meso.map((record) => ({ ...record, id: record.colId })), (record) => record.colId)
   const searchGroups = new Map<string, CatalogueRecord[]>()
   for (const record of searchRecords) {
     const prefix = record.normalizedName.replaceAll(' ', '').slice(0, 2).padEnd(2, '_')
@@ -133,6 +136,7 @@ async function installCatalogueFixture({
     sanbiDescriptions: sanbiLayer,
     plaziDescriptions: plaziLayer,
     foaDescriptions: foaLayer,
+    mesoDescriptions: mesoLayer,
     hierarchy: { nodes: nodeLayer, children: childLayer },
   }
   const manifestFile = { url: 'releases/dataset-col/catalogue/manifest.json' }
@@ -1426,6 +1430,23 @@ describe('static runtime release coherence', () => {
     await loadCatalogueFoaDescriptions(record.colId)
     expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/foa-'))).toHaveLength(1)
     await expect(loadCatalogueFoaDescriptions('unmapped-species')).resolves.toBeNull()
+  })
+
+  it('loads and caches only the requested Mesoamericana excerpt route', async () => {
+    const { loadCatalogueMesoDescriptions } = await import('./staticDataClient')
+    const record: import('./types').CatalogueMesoDescriptionRecord = {
+      colId: 'EXAMPLE', wfoId: 'wfo-example', scientificName: 'Example plant', descriptions: [{
+        type: 'general', text: 'Raíces fibrosas.', language: 'es', rowNumber: 1,
+        rightsHolder: 'Missouri Botanical Garden', rights: 'Missouri Botanical Garden', license: 'CC BY 4.0',
+        sourceExcerpt: true, atSourceCharacterLimit: true,
+        references: ['first', 'second'].map((sourceId) => ({ sourceId, citation: sourceId, sourceUrl: '', referenceRowNumber: 2, license: 'CC BY 4.0' })),
+      }],
+    }
+    const { fetchMock } = await installCatalogueFixture({ meso: [record] })
+    await expect(loadCatalogueMesoDescriptions(record.colId)).resolves.toMatchObject(record)
+    await loadCatalogueMesoDescriptions(record.colId)
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/meso-'))).toHaveLength(1)
+    await expect(loadCatalogueMesoDescriptions('unmapped-species')).resolves.toBeNull()
   })
 
   it('loads only the requested direct children from a shared parent-hash shard and caches it', async () => {

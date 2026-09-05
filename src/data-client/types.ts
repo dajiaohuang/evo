@@ -1386,7 +1386,30 @@ export interface CataloguePlaziDescriptionRecord {
   }>
 }
 
+export interface CatalogueMesoDescriptionRecord {
+  colId: string
+  wfoId: string
+  scientificName: string
+  descriptions: Array<{
+    type: 'general'
+    text: string
+    language: 'es' | 'en'
+    rowNumber: number
+    references: Array<{ sourceId: string; citation: string; sourceUrl: string; referenceRowNumber: number; license: string }>
+    rightsHolder: string
+    rights: string
+    license: string
+    sourceExcerpt: true
+    atSourceCharacterLimit: boolean
+  }>
+}
+
 export interface CatalogueRuntimeManifest {
+  mesoDescriptions?: {
+    source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
+    routes: Record<string, string[]>
+    files: CatalogueRuntimeFile[]
+  }
   foaDescriptions?: {
     source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
     routes: Record<string, string[]>

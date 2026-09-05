@@ -1,5 +1,11 @@
 # Data licenses and provenance
 
+Flora Mesoamericana excerpts retain Missouri Botanical Garden attribution and
+all linked publication citations under explicit CC BY 4.0 source-row licenses.
+Original Spanish/English text is converted from HTML to plain text. The archive
+contains truncated entries; no missing text is reconstructed. See
+[Mesoamericana scope and transformations](docs/meso-descriptions.md).
+
 The Flora of Australia description extract retains 129 paragraphs for 46
 accepted COL26.8 species under each source row's explicit CC BY 4.0 license.
 Preserve Commonwealth of Australia rights-holder years, ABRS attribution,
