@@ -40,9 +40,28 @@ class MonogeneaProjectionTests(unittest.TestCase):
             self.assertEqual(descriptor["scope"]["colStrictAcceptedSpecies"], 5852)
             self.assertEqual(descriptor["scope"]["sourceStrictAcceptedSpecies"], 5878)
             self.assertEqual(descriptor["source"]["provisionalAcceptedSpecies"], 0)
-            self.assertEqual(descriptor["counts"], {"total": 5852, "accepted": 5835, "redirect": 0, "ambiguous": 0, "unmatched": 17, "withheld": 0, "upstreamOnly": 43, "records": 5895})
+            self.assertEqual(descriptor["counts"], {"total": 5852, "accepted": 5844, "redirect": 0, "ambiguous": 0, "unmatched": 8, "withheld": 0, "upstreamOnly": 34, "records": 5886})
+            self.assertEqual(descriptor["source"]["title"], "World List of Monogenea")
+            self.assertIsNone(descriptor["source"]["doi"])
+            self.assertNotIn("versionDoi", descriptor["source"])
+            self.assertEqual(descriptor["source"]["metadataOrigin"], "archive-embedded metadata.yml")
+            self.assertEqual(descriptor["source"]["citation"], descriptor["source"]["metadataRecord"]["citation"])
+            self.assertEqual(descriptor["source"]["editor"], descriptor["source"]["metadataRecord"]["editor"])
+            self.assertEqual(descriptor["source"]["contributor"], descriptor["source"]["metadataRecord"]["organisations"])
+            self.assertEqual(descriptor["source"]["metadataRecord"]["contact"], {"email": "info@marinespecies.org"})
+            self.assertEqual(descriptor["source"]["metadataRecord"]["confidence"], 4)
+            self.assertEqual(descriptor["source"]["metadataRecord"]["completeness"], 90)
+            self.assertEqual(descriptor["source"]["metadataLicense"], "CC-BY")
+            self.assertEqual(descriptor["source"]["license"], "CC-BY")
+            self.assertNotIn("licenseUrl", descriptor["source"])
+            self.assertEqual(descriptor["source"]["rights"], descriptor["source"]["metadataRecord"]["license"])
+            with zipfile.ZipFile(ARCHIVE) as archive:
+                self.assertEqual(set(descriptor["source"]["members"]), set(archive.namelist()))
+                for member, evidence in descriptor["source"]["members"].items():
+                    raw = archive.read(member)
+                    self.assertEqual(evidence, {"bytes": len(raw), "sha256": hashlib.sha256(raw).hexdigest()})
             self.assertEqual(sum(x["records"] for x in descriptor["files"]), 5852)
-            self.assertEqual(sum(x["records"] for x in descriptor["upstreamOnlyFiles"]), 43)
+            self.assertEqual(sum(x["records"] for x in descriptor["upstreamOnlyFiles"]), 34)
             self.assertEqual(descriptor["source"]["archiveSha256"], hashlib.sha256(ARCHIVE.read_bytes()).hexdigest())
             rows = []
             for path in first_files:
@@ -50,7 +69,7 @@ class MonogeneaProjectionTests(unittest.TestCase):
                     import gzip
                     rows.extend(json.loads(gzip.open(path, "rt", encoding="utf-8").read()))
             accepted = [row for row in rows if row["status"] == "accepted"]
-            self.assertEqual(len(accepted), 5835)
+            self.assertEqual(len(accepted), 5844)
             with zipfile.ZipFile(ARCHIVE) as archive:
                 names = list(csv.DictReader(io.StringIO(archive.read("Name.txt").decode("utf-8-sig")), delimiter="\t"))
                 taxa = list(csv.DictReader(io.StringIO(archive.read("Taxon.txt").decode("utf-8-sig")), delimiter="\t"))
@@ -77,9 +96,11 @@ class MonogeneaProjectionTests(unittest.TestCase):
                 expected_refs = refs_by_name.get(source_name["ID"], [])
                 self.assertEqual([item["referenceId"] for item in row["matchedName"]["nameReferences"]], [item[1]["referenceID"] for item in expected_refs])
                 self.assertTrue(row["sourceRows"])
-            self.assertEqual(len({row["sourceAcceptedTaxonId"] for row in accepted}), 5835)
-            self.assertEqual(len({row["sourceAcceptedTaxonId"] for row in accepted}), 5835)
-            self.assertTrue(all({locator["member"] for locator in row["sourceRows"]} == {"Name.txt", "Taxon.txt"} for row in accepted))
+            self.assertEqual(len({row["sourceAcceptedTaxonId"] for row in accepted}), 5844)
+            self.assertEqual(len({row["sourceAcceptedTaxonId"] for row in accepted}), 5844)
+            self.assertTrue(all({"Name.txt", "Taxon.txt"} <= {locator["member"] for locator in row["sourceRows"]} for row in accepted))
+            self.assertTrue(all("references" in row for row in rows))
+            self.assertTrue(all("sourceRows" in reference for row in rows for reference in row["references"]))
             canonical = ROOT / relative
             for path in first_files:
                 self.assertEqual(path.read_bytes(), (canonical / path.name).read_bytes())

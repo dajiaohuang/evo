@@ -594,9 +594,9 @@ public class AppInstrumentedTest {
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-bryozoa-archive-crosswalk"),
                         32, 1, 20367, 202, "WoRMS Bryozoa");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-monogenea-archive-crosswalk"),
-                        18, 1, 5852, 43, "WoRMS Monogenea");
+                        23, 1, 5852, 34, "CC-BY", "WoRMS Monogenea");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-trematoda-archive-crosswalk"),
-                        17, 1, 12007, 99, "WoRMS Trematoda");
+                        17, 1, 12007, 99, "cc by", "WoRMS Trematoda");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-annelida-archive-crosswalk"),
                         8, 1, 18982, 1090, "WoRMS Annelida");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-nematoda-archive-crosswalk"),

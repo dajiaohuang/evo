@@ -14,6 +14,8 @@ import hashlib
 import io
 import json
 import pathlib
+import re
+import unicodedata
 import zipfile
 from collections import defaultdict
 
@@ -38,6 +40,10 @@ def digest(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
+def script_digest(path: pathlib.Path) -> str:
+    return digest(path.read_bytes().replace(b"\r\n", b"\n"))
+
+
 def encode(value: object, pretty: bool = False) -> bytes:
     return (
         json.dumps(
@@ -51,7 +57,7 @@ def encode(value: object, pretty: bool = False) -> bytes:
 
 
 def clean(value: str | None) -> str:
-    return " ".join((value or "").split())
+    return " ".join(unicodedata.normalize("NFC", value or "").split())
 
 
 def key(name: str | None, authorship: str | None) -> tuple[str, str]:
@@ -59,9 +65,62 @@ def key(name: str | None, authorship: str | None) -> tuple[str, str]:
 
 
 def col_bare(row: dict[str, str]) -> str:
-    name, author = row.get("scientificName", ""), row.get("authorship", "") or ""
+    name, author = clean(row.get("scientificName")), clean(row.get("authorship"))
     suffix = " " + author
     return name[: -len(suffix)] if author and name.endswith(suffix) else name
+
+
+def parse_inline_yaml_map(value: str) -> dict[str, object]:
+    """Parse the fixed ColDP metadata.yml inline maps without a new dependency."""
+    value = value.strip()[1:-1].strip()
+    result: dict[str, object] = {}
+    for match in re.finditer(r"([A-Za-z][A-Za-z0-9_]*):\s*(?:'([^']*)'|([^,}]*))", value):
+        key_name = match.group(1)
+        raw = match.group(2) if match.group(2) is not None else match.group(3).strip()
+        result[key_name] = None if raw == "null" else raw
+    return result
+
+
+def parse_yaml_scalar(value: str) -> object:
+    value = value.strip()
+    if value == "null":
+        return None
+    if len(value) >= 2 and value[0] == value[-1] == "'":
+        return value[1:-1]
+    if re.fullmatch(r"-?\d+", value):
+        return int(value)
+    return value
+
+
+def parse_metadata_yaml(raw: bytes) -> dict[str, object]:
+    """Project the fixed ColDP metadata structure; raw bytes stay hash-pinned."""
+    text = raw.decode("utf-8")
+    result: dict[str, object] = {}
+    current: str | None = None
+    for line in text.splitlines():
+        if line.startswith("  - {"):
+            if current:
+                result.setdefault(current, []).append(parse_inline_yaml_map(line.strip()[2:]))
+            continue
+        if line.startswith("    - {"):
+            if current:
+                result.setdefault(current, []).append(parse_inline_yaml_map(line.strip()[2:]))
+            continue
+        nested = re.match(r"^\s{4}([A-Za-z][A-Za-z0-9_]*):\s*(.*)$", line)
+        if nested and current == "contact" and isinstance(result.get(current), dict):
+            result[current][nested.group(1)] = parse_yaml_scalar(nested.group(2))
+            continue
+        match = re.match(r"^([A-Za-z][A-Za-z0-9_]*):\s*(.*)$", line)
+        if not match:
+            continue
+        key_name, value = match.groups()
+        if value == "":
+            current = key_name
+            result[key_name] = {} if key_name == "contact" else []
+        else:
+            current = None
+            result[key_name] = parse_yaml_scalar(value)
+    return result
 
 
 def read_tsv(archive: zipfile.ZipFile, member: str) -> list[dict[str, str]]:
@@ -99,6 +158,44 @@ def source_name(name: dict[str, str], taxon: dict[str, str], refs_by_id: dict[st
         "taxonReference": direct_reference(taxon.get("referenceID")),
         "nameReference": direct_reference(name.get("referenceID")),
     }
+
+
+def source_locators(name: dict[str, str], taxon: dict[str, str],
+                    refs_for_name: dict[str, list[dict[str, object]]],
+                    refs_by_id: dict[str, tuple[int, dict[str, str]]]) -> list[dict[str, object]]:
+    locators: set[tuple[str, int]] = {
+        ("Name.txt", int(name["_nameRow"])),
+        ("Taxon.txt", int(taxon["_taxonRow"])),
+    }
+    for reference_id in (name.get("referenceID"), taxon.get("referenceID")):
+        if reference_id and reference_id in refs_by_id:
+            locators.add(("Reference.txt", refs_by_id[reference_id][0]))
+    for item in refs_for_name.get(name["ID"], []):
+        for locator in item["sourceRows"]:
+            locators.add((str(locator["member"]), int(locator["row"])))
+    return [{"member": member, "row": row} for member, row in sorted(locators)]
+
+
+def source_references(name: dict[str, str], taxon: dict[str, str],
+                      refs_for_name: dict[str, list[dict[str, object]]],
+                      refs_by_id: dict[str, tuple[int, dict[str, str]]]) -> list[dict[str, object]]:
+    result: dict[str, dict[str, object]] = {}
+    for reference_id in (name.get("referenceID"), taxon.get("referenceID")):
+        if not reference_id:
+            continue
+        if reference_id in refs_by_id:
+            row, reference = refs_by_id[reference_id]
+            result[reference_id] = {"referenceId": reference_id, "reference": reference,
+                                    "referenceMissing": False,
+                                    "sourceRows": [{"member": "Reference.txt", "row": row}]}
+        else:
+            result[reference_id] = {"referenceId": reference_id, "reference": None,
+                                    "referenceMissing": True, "sourceRows": []}
+    for item in refs_for_name.get(name["ID"], []):
+        reference_id = item["referenceId"]
+        if reference_id and reference_id not in result:
+            result[reference_id] = item
+    return list(result.values())
 
 
 def write_gzip(path: pathlib.Path, payload: bytes) -> bytes:
@@ -210,18 +307,34 @@ def load_source(path: pathlib.Path) -> tuple[dict, dict[str, list[dict]], dict[s
     )
     if provisional != 0:
         raise ValueError(f"pinned Monogenea provisional species changed: {provisional}")
+    metadata = parse_metadata_yaml(metadata_bytes)
+    if (metadata.get("title"), metadata.get("version"), metadata.get("issued"),
+            metadata.get("citation"), metadata.get("license")) != (
+                "World List of Monogenea", "2026-09-01", "2026-09-01",
+                "Gibson, D.; Kmentova, N. (2026). World List of Monogenea. Accessed at https://www.marinespecies.org on 2026-09-01",
+                "CC-BY"):
+        raise ValueError("unexpected Monogenea metadata identity")
     source_meta = {
         "archiveUrl": ARCHIVE_URL,
         "archiveBytes": len(raw),
         "archiveSha256": digest(raw),
         "archiveEncoding": "ZIP (ColDP archive)",
         "archivePath": "data/sources/archives/worms-monogenea-2026-09-01.zip",
+        "title": metadata["title"],
+        "doi": metadata.get("doi"),
         "version": SOURCE_VERSION,
-        "versionDoi": "10.48580/d3cv.v86",
+        "issued": metadata["issued"],
+        "citation": metadata["citation"],
+        "editor": metadata.get("editor", []),
+        "contributor": metadata.get("organisations", []),
+        "metadataLicense": metadata["license"],
+        "rights": metadata["license"],
+        "metadataRecord": metadata,
+        "metadataOrigin": "archive-embedded metadata.yml",
+        "metadataBytes": len(metadata_bytes),
         "metadataYamlSha256": digest(metadata_bytes),
         "members": member_hashes,
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "license": metadata["license"],
         "provider": "World Register of Marine Species via ChecklistBank",
         "retrievedAt": "2026-09-04",
         "provisionalAcceptedSpecies": provisional,
@@ -254,17 +367,22 @@ def main() -> None:
                 "matchedName": source_record, "acceptedName": source_record,
                 "candidates": [],
                 "mappingBasis": "Exact source scientificName+authorship match; source fields preserved.",
-                "sourceRows": [{"member": "Name.txt", "row": name["_nameRow"]}, {"member": "Taxon.txt", "row": taxon["_taxonRow"]}],
+                "sourceRows": source_locators(name, taxon, refs_for_name, refs_by_id),
+                "references": source_references(name, taxon, refs_for_name, refs_by_id),
                 "sourceAcceptedTaxonId": taxon["ID"],
                 "sourceNameId": name["ID"],
             }
             implicated.add(name["ID"])
             counts["accepted"] += 1
         elif len(hits) > 1:
-            record = {"colId": row["id"], "colScientificName": row["scientificName"], "colAuthorship": row.get("authorship", ""), "status": "ambiguous", "matchedName": None, "acceptedName": None, "candidates": [source_name(x["name"], x["taxon"], refs_by_id) for x in hits], "mappingBasis": "Exact key has multiple source accepted rows; no winner selected.", "sourceRows": []}
+            locators, references = [], []
+            for item in hits:
+                locators.extend(source_locators(item["name"], item["taxon"], refs_for_name, refs_by_id))
+                references.extend(source_references(item["name"], item["taxon"], refs_for_name, refs_by_id))
+            record = {"colId": row["id"], "colScientificName": row["scientificName"], "colAuthorship": row.get("authorship", ""), "status": "ambiguous", "matchedName": None, "acceptedName": None, "candidates": [source_name(x["name"], x["taxon"], refs_by_id) for x in hits], "mappingBasis": "Exact NFC+whitespace-normalized key has multiple source accepted rows; no winner selected.", "sourceRows": sorted({(item["member"], item["row"]): item for item in locators}.values(), key=lambda item: (item["member"], item["row"])), "references": list({item["referenceId"]: item for item in references}.values())}
             counts["ambiguous"] += 1
         else:
-            record = {"colId": row["id"], "colScientificName": row["scientificName"], "colAuthorship": row.get("authorship", ""), "status": "unmatched", "matchedName": None, "acceptedName": None, "candidates": [], "mappingBasis": "No exact source scientificName+authorship key; no fuzzy matching.", "sourceRows": []}
+            record = {"colId": row["id"], "colScientificName": row["scientificName"], "colAuthorship": row.get("authorship", ""), "status": "unmatched", "matchedName": None, "acceptedName": None, "candidates": [], "mappingBasis": "No exact NFC+whitespace-normalized source scientificName+authorship key; no fuzzy matching.", "sourceRows": [], "references": []}
             counts["unmatched"] += 1
         records.append(record)
     upstream = []
@@ -274,7 +392,7 @@ def main() -> None:
         name, taxon = item["name"], item["taxon"]
         accepted_name = source_name(name, taxon, refs_by_id)
         accepted_name["nameReferences"] = refs_for_name.get(sid, [])
-        upstream.append({"colId": None, "colScientificName": None, "colAuthorship": None, "status": "upstream-only", "matchedName": None, "acceptedName": accepted_name, "candidates": [], "mappingBasis": "Accepted source concept has no exact COL ownership; not a global-new-species claim.", "sourceRows": [{"member": "Name.txt", "row": name["_nameRow"]}, {"member": "Taxon.txt", "row": taxon["_taxonRow"]}], "sourceAcceptedTaxonId": taxon["ID"], "sourceNameId": name["ID"]})
+        upstream.append({"colId": None, "colScientificName": None, "colAuthorship": None, "status": "upstream-only", "matchedName": None, "acceptedName": accepted_name, "candidates": [], "mappingBasis": "Accepted source concept has no exact COL ownership; not a global-new-species claim.", "sourceRows": source_locators(name, taxon, refs_for_name, refs_by_id), "references": source_references(name, taxon, refs_for_name, refs_by_id), "sourceAcceptedTaxonId": taxon["ID"], "sourceNameId": name["ID"]})
     out_dir = args.output_root / COL_PACK.relative_to(ROOT)
     out_dir.mkdir(parents=True, exist_ok=True)
     files, upstream_files = [], []
@@ -288,12 +406,12 @@ def main() -> None:
             if not is_upstream:
                 entry.update(minColId=part[0]["colId"], maxColId=part[-1]["colId"])
             (upstream_files if is_upstream else files).append(entry)
-    descriptor = {"schemaVersion": 1, "recordType": "release-pinned-authority-archive-crosswalk", "id": f"{PREFIX}-archive-crosswalk", "packageId": "other-animals", "provider": source["provider"], "rowEncoding": "json", "colIdField": "colId", "totalCountField": "total", "source": source, "scope": {"colSourceDatasetId": SOURCE_DATASET, "colRelease": "COL26.8", "colStrictAcceptedSpecies": COL_EXPECTED, "sourceStrictAcceptedSpecies": SOURCE_EXPECTED, "colRootUsageId": "B8V3Y", "sourceRoot": "Monogenea", "packageOwnership": "other-animals residual route"}, "matching": {"normalization": "Exact scientificName+authorship after whitespace normalization only.", "prohibited": "No fuzzy, case-folded, accent-folded, inferred or species-concept matching."}, "counts": {"total": len(records), **counts, "upstreamOnly": len(upstream), "records": len(records) + len(upstream)}, "files": files, "upstreamOnlyFiles": upstream_files, "totalCompressedBytes": sum(x["bytes"] for x in files + upstream_files), "totalSourceBytes": sum(x["sourceBytes"] for x in files + upstream_files), "deliveryProfiles": {"web-light": {"records": 0, "files": [], "totalCompressedBytes": 0, "totalSourceBytes": 0}, "native-full": {"records": len(records) + len(upstream), "files": [x["path"] for x in files + upstream_files], "totalCompressedBytes": sum(x["bytes"] for x in files + upstream_files), "totalSourceBytes": sum(x["sourceBytes"] for x in files + upstream_files)}}, "evidenceBoundary": {"en": "Frozen WoRMS source traceability; not independent scientific corroboration, species-concept equivalence, biological dossier, fossil evidence or expert review.", "zh": "冻结的 WoRMS 来源追溯；不是独立科学佐证、物种概念等同、生物档案、化石证据或专家审查。"}, "limitations": ["Unmatched COL rows and source-only accepted concepts are retained explicitly; neither is called globally new.", "Source archive and COL26.8 are different snapshots (2026-09-01 vs 2026-08-20)."]}
+    descriptor = {"schemaVersion": 1, "recordType": "release-pinned-authority-archive-crosswalk", "id": f"{PREFIX}-archive-crosswalk", "packageId": "other-animals", "provider": source["provider"], "rowEncoding": "json", "colIdField": "colId", "totalCountField": "total", "source": source, "scope": {"colSourceDatasetId": SOURCE_DATASET, "colRelease": "COL26.8", "colStrictAcceptedSpecies": COL_EXPECTED, "sourceStrictAcceptedSpecies": SOURCE_EXPECTED, "colRootUsageId": "B8V3Y", "sourceRoot": "Monogenea", "packageOwnership": "other-animals residual route"}, "matching": {"normalization": "Exact NFC followed by whitespace-normalized scientificName+authorship; COL trailing authorship is removed after normalization exactly.", "prohibited": "No fuzzy, case-folded, accent-folded, inferred or species-concept matching."}, "counts": {"total": len(records), **counts, "upstreamOnly": len(upstream), "records": len(records) + len(upstream)}, "files": files, "upstreamOnlyFiles": upstream_files, "totalCompressedBytes": sum(x["bytes"] for x in files + upstream_files), "totalSourceBytes": sum(x["sourceBytes"] for x in files + upstream_files), "deliveryProfiles": {"web-light": {"mode": "summary-only", "records": 0, "files": [], "totalCompressedBytes": 0, "totalSourceBytes": 0}, "native-full": {"mode": "complete", "records": len(records) + len(upstream), "files": [x["path"] for x in files + upstream_files], "totalCompressedBytes": sum(x["bytes"] for x in files + upstream_files), "totalSourceBytes": sum(x["sourceBytes"] for x in files + upstream_files)}}, "evidenceBoundary": {"en": "Frozen WoRMS source traceability; not independent scientific corroboration, species-concept equivalence, biological dossier, fossil evidence or expert review.", "zh": "冻结的 WoRMS 来源追溯；不是独立科学佐证、物种概念等同、生物档案、化石证据或专家审查。"}, "limitations": ["Unmatched COL rows and source-only accepted concepts are retained explicitly; neither is called globally new.", "Source archive and COL26.8 are different snapshots (2026-09-01 vs 2026-08-20)."]}
     descriptor_path = out_dir / DESCRIPTOR_NAME
     descriptor_bytes = encode(descriptor, pretty=True)
     descriptor_path.write_bytes(descriptor_bytes)
     script_bytes = pathlib.Path(__file__).read_bytes()
-    ledger = {"schemaVersion": 1, "importType": "COL26.8-to-WoRMS-Monogenea-archive-crosswalk", "generatedBy": {"script": pathlib.Path(__file__).relative_to(ROOT).as_posix(), "scriptSha256": digest(script_bytes)}, "source": source, "sourceMembers": {"archive.bin": {"bytes": source["archiveBytes"], "sha256": source["archiveSha256"]}}, "colInputs": col_inputs, "scopeAudit": {"colRootUsageId": "B8V3Y", "colRootScientificName": "Monogenea Van Beneden, 1858", "colStrictAcceptedSpecies": len(col), "sourceStrictAcceptedSpecies": len(accepted), "matched": counts["accepted"], "unmatched": counts["unmatched"], "ambiguous": counts["ambiguous"], "sourceOnly": len(upstream)}, "output": {"descriptorPath": descriptor_path.relative_to(args.output_root).as_posix(), "descriptorBytes": len(descriptor_bytes), "descriptorSha256": digest(descriptor_bytes), "files": files, "upstreamOnlyFiles": upstream_files}}
+    ledger = {"schemaVersion": 1, "importType": "COL26.8-to-WoRMS-Monogenea-archive-crosswalk", "generatedBy": {"script": pathlib.Path(__file__).relative_to(ROOT).as_posix(), "scriptSha256": script_digest(pathlib.Path(__file__)), "hashNormalization": "LF"}, "source": source, "sourceMembers": source["members"], "colInputs": col_inputs, "scopeAudit": {"colRootUsageId": "B8V3Y", "colRootScientificName": "Monogenea Van Beneden, 1858", "colStrictAcceptedSpecies": len(col), "sourceStrictAcceptedSpecies": len(accepted), "matched": counts["accepted"], "unmatched": counts["unmatched"], "ambiguous": counts["ambiguous"], "sourceOnly": len(upstream)}, "output": {"descriptorPath": descriptor_path.relative_to(args.output_root).as_posix(), "descriptorBytes": len(descriptor_bytes), "descriptorSha256": digest(descriptor_bytes), "files": files, "upstreamOnlyFiles": upstream_files}}
     ledger_path = args.output_root / LEDGER_RELATIVE
     ledger_path.parent.mkdir(parents=True, exist_ok=True)
     ledger_path.write_bytes(encode(ledger, pretty=True))

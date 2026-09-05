@@ -431,7 +431,7 @@ export interface RuntimeAuthorityArchiveCollection {
   recordType: 'release-pinned-authority-archive-crosswalk'
   provider: string
   packageId: string
-  source: { license: 'CC-BY-4.0' | 'CC0-1.0' | 'cc by'; [key: string]: unknown }
+  source: { license: 'CC-BY-4.0' | 'CC-BY' | 'CC0-1.0' | 'cc by'; [key: string]: unknown }
   scope: Record<string, unknown>
   matching: Record<string, unknown>
   counts: { total: number; accepted: number; redirect: number; ambiguous: number; unmatched: number; withheld: number; upstreamOnly: number }
