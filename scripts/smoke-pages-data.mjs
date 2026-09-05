@@ -88,6 +88,8 @@ let wfoRichBytes = 0
 let mammalItisCanonicalFiles = 0
 let mammalItisRecords = 0
 let mammalItisUpstreamOnly = 0
+let dipteraCanonicalFiles = 0
+let dipteraRecords = 0
 let mddNomenclatureCanonicalFiles = 0
 let mddNomenclatureRecords = 0
 let iocNomenclatureCanonicalFiles = 0
@@ -180,7 +182,7 @@ for (const packageEntry of packageRegistry.packages) {
       failures.push('sponges-cnidarians: Hydrozoa authority summary is incomplete or rewrites upstream metadata')
     }
   } else if (packageEntry.id === 'crustaceans-insects') {
-    if (nomenclatureCollections.length !== 7) failures.push('crustaceans-insects: expected four ITIS, WoRMS, OSF and ChiloBase nomenclature collections')
+    if (nomenclatureCollections.length !== 8) failures.push('crustaceans-insects: expected four ITIS, WoRMS, OSF, ChiloBase and Diptera nomenclature collections')
     checkItisSummaryOnlyCollection('crustaceans-insects', nomenclatureCollections, {
       id: 'itis-crustacea-tsn-crosswalk', total: 80890, accepted: 26395, redirects: 115, ambiguous: 38, unmatched: 54342, upstreamOnly: 5991, files: 41,
     })
@@ -208,6 +210,20 @@ for (const packageEntry of packageRegistry.packages) {
       || chilobase.counts?.unmatched !== 872 || chilobase.counts?.upstreamOnly !== 872
       || chilobase.delivery?.canonicalFileCount !== 4 || chilobase.canonicalFileInventory?.length !== 4) {
       failures.push('crustaceans-insects: ChiloBase summary or canonical inventory is incomplete')
+    }
+    const diptera = nomenclatureCollections.find((candidate) => candidate.id === 'systema-dipterorum-archive-crosswalk')
+    if (!diptera || diptera.provider !== 'Systema Dipterorum via ChecklistBank' || diptera.source?.datasetId !== '1101'
+      || diptera.source?.license !== 'cc by' || diptera.counts?.total !== 157490 || diptera.counts?.accepted !== 157279
+      || diptera.counts?.ambiguous !== 113 || diptera.counts?.unmatched !== 98 || diptera.counts?.upstreamOnly !== 23513
+      || diptera.delivery?.profile !== 'web-light' || diptera.delivery?.completeRows !== false
+      || diptera.delivery?.publishedFileCount !== 0 || diptera.delivery?.canonicalFileCount !== 93
+      || diptera.files?.length !== 0 || diptera.upstreamOnlyFiles?.length !== 0 || diptera.canonicalFileInventory?.length !== 93
+      || diptera.canonicalFileInventory.some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
+      failures.push('crustaceans-insects: Diptera summary, counts, delivery boundary, or canonical hashes are incomplete')
+    }
+    if (diptera) {
+      dipteraCanonicalFiles += diptera.canonicalFileInventory?.length ?? 0
+      dipteraRecords += diptera.counts?.records ?? 0
     }
   } else if (packageEntry.id === 'trilobites-chelicerates') {
     if (nomenclatureCollections.length !== 3) failures.push('trilobites-chelicerates: expected ITIS, WSC and Scorpion Files nomenclature collections')
@@ -398,6 +414,9 @@ if (wfoRichRecords !== 387988) failures.push(`WFO rich-package collections conta
 if (wfoRichShards !== 32 || wfoRichBytes !== 15584333) failures.push(`WFO rich-package collections contain ${wfoRichShards} shards and ${wfoRichBytes} compressed bytes; expected 32/15,584,333`)
 if (mammalItisCanonicalFiles !== 9 || mammalItisRecords !== 6461 || mammalItisUpstreamOnly !== 3) {
   failures.push(`Mammalia ITIS Pages summaries contain ${mammalItisRecords} COL records, ${mammalItisCanonicalFiles} canonical row shards, and ${mammalItisUpstreamOnly} upstream-only records; expected 6,461/9/3`)
+}
+if (dipteraCanonicalFiles !== 93 || dipteraRecords !== 181003) {
+  failures.push(`Diptera Pages summary contains ${dipteraRecords} records and ${dipteraCanonicalFiles} canonical row shards; expected 181,003/93`)
 }
 if (mddNomenclatureCanonicalFiles !== 23 || mddNomenclatureRecords !== 8236) {
   failures.push(`MDD Pages summaries contain ${mddNomenclatureRecords} records and ${mddNomenclatureCanonicalFiles} canonical row shards; expected 8,236/23`)

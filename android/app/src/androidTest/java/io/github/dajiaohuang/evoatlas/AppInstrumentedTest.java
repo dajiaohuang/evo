@@ -150,6 +150,8 @@ public class AppInstrumentedTest {
         int crocodyliaItisNomenclatureRecords = 0;
         int mammalItisFiles = 0;
         int mammalItisNomenclatureRecords = 0;
+        int dipteraFiles = 0;
+        int dipteraRecords = 0;
         int mddNomenclatureFiles = 0;
         int mddNomenclatureRecords = 0;
         int iocNomenclatureFiles = 0;
@@ -223,13 +225,17 @@ public class AppInstrumentedTest {
             } else if (packageId.equals("crustaceans-insects") || packageId.equals("trilobites-chelicerates")) {
                 JSONArray collections = pack.getJSONArray("nomenclatureCollections");
                 if (packageId.equals("crustaceans-insects")) {
-                    assertEquals(7, collections.length());
+                    assertEquals(8, collections.length());
                     verifyAuthorityArchiveCollection(context, files, findCollection(collections, "osf-orthoptera-archive-crosswalk"),
                             11, 1, 30859, 53, "OSF Orthoptera");
                     verifyAuthorityArchiveCollection(context, files, findCollection(collections, "worms-crustacea-archive-crosswalk"),
                             30, 3, 80890, 8675, "WoRMS Crustacea");
                     verifyAuthorityArchiveCollection(context, files, findCollection(collections, "chilobase-archive-crosswalk"),
                             3, 1, 3141, 872, "ChiloBase Chilopoda");
+                    verifyAuthorityArchiveCollection(context, files, findCollection(collections, "systema-dipterorum-archive-crosswalk"),
+                            81, 12, 157490, 23513, "cc by", "Systema Dipterorum");
+                    dipteraFiles += 93;
+                    dipteraRecords += 181003;
                 } else {
                     assertEquals(3, collections.length());
                     verifyAuthorityArchiveCollection(context, files, findCollection(collections, "wsc-spiders-archive-crosswalk"),
@@ -471,6 +477,8 @@ public class AppInstrumentedTest {
         assertEquals(27, crocodyliaItisNomenclatureRecords);
         assertEquals(9, mammalItisFiles);
         assertEquals(6464, mammalItisNomenclatureRecords);
+        assertEquals(93, dipteraFiles);
+        assertEquals(181003, dipteraRecords);
         assertEquals(23, mddNomenclatureFiles);
         assertEquals(8236, mddNomenclatureRecords);
         assertEquals(37, iocNomenclatureFiles);

@@ -168,6 +168,8 @@ final class AppConfigurationTests: XCTestCase {
         var crocodyliaItisNomenclatureRecords = 0
         var mammalItisFiles = 0
         var mammalItisNomenclatureRecords = 0
+        var dipteraFiles = 0
+        var dipteraRecords = 0
         var mddNomenclatureFiles = 0
         var mddNomenclatureRecords = 0
         var iocNomenclatureFiles = 0
@@ -246,7 +248,7 @@ final class AppConfigurationTests: XCTestCase {
             } else if packageId == "crustaceans-insects" || packageId == "trilobites-chelicerates" {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
                 if packageId == "crustaceans-insects" {
-                    XCTAssertEqual(collections.count, 7)
+                    XCTAssertEqual(collections.count, 8)
                     try verifyAuthorityArchiveCollection(
                         collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "osf-orthoptera-archive-crosswalk" }),
                         inventory: files, below: dataRoot, expectedFiles: 11, expectedUpstreamFiles: 1,
@@ -259,6 +261,12 @@ final class AppConfigurationTests: XCTestCase {
                         collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "chilobase-archive-crosswalk" }),
                         inventory: files, below: dataRoot, expectedFiles: 3, expectedUpstreamFiles: 1,
                         expectedRecords: 3_141, expectedUpstreamRecords: 872, label: "ChiloBase Chilopoda")
+                    try verifyAuthorityArchiveCollection(
+                        collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "systema-dipterorum-archive-crosswalk" }),
+                        inventory: files, below: dataRoot, expectedFiles: 81, expectedUpstreamFiles: 12,
+                        expectedRecords: 157_490, expectedUpstreamRecords: 23_513, expectedLicense: "cc by", label: "Systema Dipterorum")
+                    dipteraFiles += 93
+                    dipteraRecords += 181_003
                 } else {
                     XCTAssertEqual(collections.count, 3)
                     try verifyAuthorityArchiveCollection(
@@ -489,6 +497,8 @@ final class AppConfigurationTests: XCTestCase {
         XCTAssertEqual(crocodyliaItisNomenclatureRecords, 27)
         XCTAssertEqual(mammalItisFiles, 9)
         XCTAssertEqual(mammalItisNomenclatureRecords, 6_464)
+        XCTAssertEqual(dipteraFiles, 93)
+        XCTAssertEqual(dipteraRecords, 181_003)
         XCTAssertEqual(mddNomenclatureFiles, 23)
         XCTAssertEqual(mddNomenclatureRecords, 8_236)
         XCTAssertEqual(iocNomenclatureFiles, 37)
