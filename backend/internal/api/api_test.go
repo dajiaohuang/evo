@@ -256,6 +256,11 @@ func TestSyncCursorAndScene(t *testing.T) {
 	if err := json.Unmarshal(w.Body.Bytes(), &value); err != nil || len(value.Records) != 1 {
 		t.Fatalf("sync payload %s", w.Body.String())
 	}
+	for _, field := range []string{"path", "profile", "bytes", "sha256", "mediaType", "releaseVersion", "deltaFrom"} {
+		if _, ok := value.Records[0][field]; !ok {
+			t.Fatalf("sync descriptor missing %s: %s", field, w.Body.String())
+		}
+	}
 	w = request(t, h, "GET", "/v1/scenes?kind=stories", nil)
 	if w.Code != 200 {
 		t.Fatalf("scene status %d", w.Code)

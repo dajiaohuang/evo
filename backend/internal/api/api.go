@@ -537,7 +537,7 @@ func (h *Handler) syncFiles(w http.ResponseWriter, r *http.Request) {
 			errorJSON(w, 500, "hash_failed", err.Error())
 			return
 		}
-		descriptors = append(descriptors, map[string]any{"path": file.Path, "profile": profile, "bytes": file.Bytes, "sha256": file.SHA256, "mediaType": file.MediaType, "encoding": file.Encoding, "releaseVersion": s.Manifest.DatasetVersion, "url": "/v1/resources/" + file.Path})
+		descriptors = append(descriptors, map[string]any{"path": file.Path, "profile": profile, "bytes": file.Bytes, "sha256": file.SHA256, "mediaType": file.MediaType, "encoding": file.Encoding, "releaseVersion": s.Manifest.DatasetVersion, "deltaFrom": since, "url": "/v1/resources/" + file.Path})
 	}
 	out := map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "releaseVersion": s.Manifest.DatasetVersion, "fromVersion": since, "deltaFrom": since, "profile": profile, "complete": end == len(files), "totalFiles": len(files), "records": descriptors, "files": descriptors, "resourceBase": "/v1/resources/", "range": "Use Range and If-Range with each file descriptor's ETag."}
 	if end < len(files) {
