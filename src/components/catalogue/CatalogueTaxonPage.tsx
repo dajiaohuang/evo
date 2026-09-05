@@ -11,6 +11,7 @@ import {
   loadCatalogueFoaDescriptions,
   loadCatalogueFdacDescriptions,
   loadCatalogueMesoDescriptions,
+  loadCatalogueMossDescriptions,
   loadCataloguePlaziDescriptions,
   loadCatalogueSpeciesOwnership,
   loadCatalogueSourceChecklists,
@@ -97,6 +98,8 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const [foaError, setFoaError] = useState(false)
   const [meso, setMeso] = useState<Awaited<ReturnType<typeof loadCatalogueMesoDescriptions>>>(null)
   const [mesoError, setMesoError] = useState(false)
+  const [moss, setMoss] = useState<Awaited<ReturnType<typeof loadCatalogueMossDescriptions>>>(null)
+  const [mossError, setMossError] = useState(false)
   const [fdac, setFdac] = useState<Awaited<ReturnType<typeof loadCatalogueFdacDescriptions>>>(null)
   const [fdacError, setFdacError] = useState(false)
   const [plazi, setPlazi] = useState<Awaited<ReturnType<typeof loadCataloguePlaziDescriptions>>>(null)
@@ -132,6 +135,11 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
         void loadCatalogueFdacDescriptions(id).then((record) => {
           if (!cancelled) setFdac(record)
         }).catch(() => { if (!cancelled) setFdacError(true) })
+      }
+      if (loadedManifest.mossDescriptions && loadedNode.rank === 'species') {
+        void loadCatalogueMossDescriptions(id).then((record) => {
+          if (!cancelled) setMoss(record)
+        }).catch(() => { if (!cancelled) setMossError(true) })
       }
       if (loadedManifest.foaDescriptions && loadedNode.rank === 'species') {
         void loadCatalogueFoaDescriptions(id).then((record) => {
@@ -438,6 +446,21 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
               : description.citations.map((citation, index) => <p key={`${citation}:${description.referenceRowNumbers[index] ?? index}`}>{citation}</p>)}
             <p>{description.rightsHolder} · {description.rights} · <a href={description.license}>{description.license}</a></p>
             <small>{fdac.wfoId} · {description.sourceId} · source row {description.rowNumber}{description.referenceRowNumbers.length ? ` · reference rows ${description.referenceRowNumbers.join(', ')}` : ''}</small>
+          </details>)}
+        </section>}
+        {mossError && <p role="status">{zh ? '中美洲藓类植物志描述暂时无法加载。' : 'Moss Flora of Central America descriptions could not be loaded.'}</p>}
+        {moss && manifest.mossDescriptions && <section className="catalogue-source-card">
+          <h2>{zh ? '中美洲藓类植物志' : 'Moss Flora of Central America'}</h2>
+          <p>{zh ? '区域历史节选，不代表全球分布或完整物种档案。原文为纯文本；达到来源字符边界的条目可能在句中截断。来源末尾未闭合标记仅说明原始标记状态，不断言文字缺失。' : 'Historical regional excerpts, not a complete global species dossier or distribution. Source text is displayed as plain text; entries at the source character boundary may end mid-sentence. An unclosed source-end marker records source markup state only and does not assert missing text.'}</p>
+          <p><a href={manifest.mossDescriptions.source.sourceUrl}>{manifest.mossDescriptions.source.provider} — {manifest.mossDescriptions.source.title}</a> · {manifest.mossDescriptions.source.sourceVersion} · {manifest.mossDescriptions.source.retrievedAt} · <a href={manifest.mossDescriptions.source.licenseUrl}>{manifest.mossDescriptions.source.license}</a></p>
+          {moss.descriptions.map((description) => <details key={description.rowNumber}>
+            <summary>{zh ? '一般描述' : 'General description'}</summary>
+            {description.atSourceCharacterLimit && <p role="note">{zh ? '此条达到来源字符边界，可能被截断。' : 'This entry reaches the source character boundary and may be truncated.'}</p>}
+            {description.sourceEndUnclosed && <p role="note">{zh ? '来源末尾标记未闭合；这不表示文字缺失。' : 'The source-end marker is unclosed; this does not indicate missing text.'}</p>}
+            <p lang="en" style={{ whiteSpace: 'pre-wrap' }}>{description.text}</p>
+            {description.citations.map((citation, index) => <p key={`${citation}:${description.referenceRowNumbers[index] ?? index}`}>{citation}</p>)}
+            <p>{description.rightsHolder} · {description.rights} · <a href={description.license}>{description.license}</a></p>
+            <small>{moss.wfoId} · {description.sourceId} · source row {description.rowNumber}{description.referenceRowNumbers.length ? ` · reference rows ${description.referenceRowNumbers.join(', ')}` : ''}</small>
           </details>)}
         </section>}
       </header>

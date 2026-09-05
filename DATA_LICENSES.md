@@ -1,5 +1,11 @@
 # Data licenses and provenance
 
+Moss Flora of Central America excerpts retain Missouri Botanical Garden rights
+and the archive's explicit CC BY 4.0 defaults for descriptions and references.
+The 276 selected records preserve source row locators, citations and English
+language metadata. HTML is converted to plain text; possible source truncation
+is disclosed, not repaired. Original markup is retained outside Git.
+
 Flora d'Afrique Centrale retains Meise Botanic Garden attribution and source-row
 CC BY 4.0 licenses for 8,021 morphology/habitat passages covering 4,156 uniquely
 linked accepted species. Text is preserved exactly; language is undeclared.

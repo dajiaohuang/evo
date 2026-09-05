@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from '@testing-library/react'
 import { beforeEach, expect, it, vi } from 'vitest'
 import { CatalogueTaxonPage } from './CatalogueTaxonPage'
-import { loadCatalogueSanbiDescriptions, loadCataloguePlaziDescriptions, loadCatalogueFoaDescriptions, loadCatalogueMesoDescriptions, loadCatalogueFdacDescriptions } from '../../data-client/staticDataClient'
+import { loadCatalogueSanbiDescriptions, loadCataloguePlaziDescriptions, loadCatalogueFoaDescriptions, loadCatalogueMesoDescriptions, loadCatalogueFdacDescriptions, loadCatalogueMossDescriptions } from '../../data-client/staticDataClient'
 
 vi.mock('../../i18n', () => ({ useI18n: () => ({ language: 'en' }) }))
 vi.mock('../../data-client/staticDataClient', () => ({
@@ -10,6 +10,7 @@ vi.mock('../../data-client/staticDataClient', () => ({
     hierarchy: { counts: { nodes: 1, acceptedSpeciesNodes: 1 } },
     mesoDescriptions: { source: { provider: 'Missouri Botanical Garden', title: 'Flora Mesoamericana', sourceUrl: 'https://example.org/meso.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/' } },
     fdacDescriptions: { source: { provider: 'Meise Botanic Garden', title: 'Flora of the Democratic Republic of the Congo', sourceVersion: 'historical archive', retrievedAt: '2026-09-05', sourceUrl: 'https://example.org/fdac.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/', limitations: [] } },
+    mossDescriptions: { source: { provider: 'Missouri Botanical Garden', title: 'Moss Flora of Central America', sourceVersion: 'historical archive', retrievedAt: '2026-09-05', sourceUrl: 'https://example.org/moss.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/', limitations: [] } },
     foaDescriptions: { source: { provider: 'Australian Biological Resources Study', title: 'Flora of Australia', sourceVersion: '2020-12-03 archive', sourceUrl: 'https://example.org/foa.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/' } },
     plaziDescriptions: { source: { provider: 'Plazi TreatmentBank', sourceUrl: 'https://plazi.org', license: 'CC0 1.0', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/' } },
     sanbiDescriptions: { source: { provider: 'SANBI', title: 'e-Flora of South Africa', sourceVersion: '1.36', issued: '2022-06-06', sourceUrl: 'https://example.org/archive.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/' } },
@@ -24,14 +25,30 @@ vi.mock('../../data-client/staticDataClient', () => ({
   loadCatalogueFoaDescriptions: vi.fn(),
   loadCatalogueMesoDescriptions: vi.fn(),
   loadCatalogueFdacDescriptions: vi.fn(),
+  loadCatalogueMossDescriptions: vi.fn(),
 }))
 
 beforeEach(() => {
   vi.mocked(loadCatalogueMesoDescriptions).mockResolvedValue(null)
   vi.mocked(loadCatalogueFdacDescriptions).mockResolvedValue(null)
+  vi.mocked(loadCatalogueMossDescriptions).mockResolvedValue(null)
   vi.mocked(loadCatalogueFoaDescriptions).mockResolvedValue(null)
   vi.mocked(loadCataloguePlaziDescriptions).mockResolvedValue(null)
   vi.mocked(loadCatalogueSanbiDescriptions).mockResolvedValue({ colId: '8MG5', wfoId: 'wfo-0000178691', packageId: 'angiospermae', descriptions: [{ type: 'Morphology', text: 'Leaves 2–3 mm.', sourceId: '11118.0', citation: 'Original botanical publication', rowNumber: 1 }] })
+})
+
+it('preserves Moss Flora source boundaries and end-marker disclosure as plain text', async () => {
+  vi.mocked(loadCatalogueMossDescriptions).mockResolvedValueOnce({ colId: '8MG5', wfoId: 'wfo-example', scientificName: 'Example plant', descriptions: [{
+    type: 'general', text: '<b>Habitat text.</b>', language: 'en', rowNumber: 54, sourceId: 'moss-1', citations: [], referenceRowNumbers: [],
+    rightsHolder: 'Missouri Botanical Garden', rights: 'Moss archive', license: 'https://creativecommons.org/licenses/by/4.0/', sourceExcerpt: true, atSourceCharacterLimit: true, sourceEndUnclosed: true,
+  }] })
+  render(<CatalogueTaxonPage release="COL26.8" id="8MG5" onNavigate={vi.fn()} />)
+  const paragraph = await screen.findByText('<b>Habitat text.</b>')
+  expect(paragraph).toHaveAttribute('lang', 'en')
+  expect(screen.getByText('This entry reaches the source character boundary and may be truncated.')).toBeInTheDocument()
+  expect(screen.getByText('The source-end marker is unclosed; this does not indicate missing text.')).toBeInTheDocument()
+  expect(screen.getByText(/Historical regional excerpts, not a complete global species dossier/)).toBeInTheDocument()
+  expect(screen.getByText(/Moss archive/)).toBeInTheDocument()
 })
 
 it('preserves FDAC source language uncertainty, regional limits and missing citations', async () => {
