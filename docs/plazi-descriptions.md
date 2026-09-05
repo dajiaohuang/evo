@@ -1,7 +1,7 @@
 # Original Plazi descriptions
 
-This bounded collection contains 24 original paragraphs for 10 accepted COL26.8
-species: four fishes, four flowering plants and two Syspira spiders. These are
+This bounded collection contains 34 original paragraphs for 15 accepted COL26.8
+species: seven fishes, six flowering plants and two Syspira spiders. These are
 attributed treatment excerpts, not complete biological dossiers or a global
 coverage claim. Lazy Web delivery is implemented and focused loader/component
 checks pass; deployed browser acceptance remains unverified.
@@ -37,6 +37,12 @@ Begonia's strict WFO crosswalk remains unmatched. The corresponding IPNI names
 are 77371664-1 and 77369870-1; matching protologues are Phytotaxa 726:293 (2025)
 and 720:82 (2025), respectively. Publication authorship and nomenclatural author
 abbreviations are not interchangeable fields.
+
+The source name Hyphessobrycon peugeoti maps through the explicit COL26.8
+synonym usage KVD6K to accepted 3NRZH, Hyphessobrycon peugeotorum. The original
+source name and usage ID remain visible. This is one accepted species, not two;
+the description retains the publication's original spelling. Unmatched
+Chamaepinnularia mirim is not assigned a fabricated release-scoped ID.
 
 ## Delivery
 

@@ -1356,6 +1356,8 @@ export interface CataloguePlaziDescriptionRecord {
     language: string
     citation: string
     sourceAuthorship?: string
+    sourceScientificName?: string
+    sourceColUsageId?: string
     sourceLanguage?: string
     treatmentUrl: string
     rowNumber: number
