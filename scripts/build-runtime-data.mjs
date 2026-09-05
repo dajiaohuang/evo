@@ -1603,6 +1603,17 @@ const mesoSource = readJson('data/sources/meso-descriptions-import-ledger.json')
 const fdacSource = readJson('data/sources/fdac-descriptions-import-ledger.json')
 const mossSource = readJson('data/sources/moss-descriptions-import-ledger.json')
 const pakistanSource = readJson('data/sources/pakistan-descriptions-import-ledger.json')
+const mossChinaSource = readJson('data/sources/moss-china-descriptions-import-ledger.json')
+const mossChinaBytes = readFileSync(join(rootDir, mossChinaSource.output))
+if (mossChinaBytes.length !== mossChinaSource.outputBytes || sha256(mossChinaBytes) !== mossChinaSource.outputSha256) throw new Error('Moss Flora of China source bytes differ from the import ledger')
+const mossChinaRecords = gunzipSync(mossChinaBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
+const mossChinaRoutes = {}
+const mossChinaFiles = partitionSanbiDescriptions(mossChinaRecords).map(([prefix, records]) => {
+  const path = `catalogue/descriptions/moss-china-${prefix}.json.gz`
+  const file = { ...writeGzipJson(path, records), prefix, path, records: records.length }
+  mossChinaRoutes[prefix] = [file.url]
+  return file
+})
 const pakistanBytes = readFileSync(join(rootDir, pakistanSource.output))
 if (pakistanBytes.length !== pakistanSource.outputBytes || sha256(pakistanBytes) !== pakistanSource.outputSha256) throw new Error('Flora of Pakistan source bytes differ from the import ledger')
 const pakistanRecords = gunzipSync(pakistanBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
@@ -1672,6 +1683,7 @@ catalogueRuntimeManifest = {
   fdacDescriptions: { source: fdacSource, routes: fdacRoutes, files: fdacFiles },
   mossDescriptions: { source: mossSource, routes: mossRoutes, files: mossFiles },
   pakistanDescriptions: { source: pakistanSource, routes: pakistanRoutes, files: pakistanFiles },
+  mossChinaDescriptions: { source: mossChinaSource, routes: mossChinaRoutes, files: mossChinaFiles },
   sanbiDescriptions: { source: sanbiSource, routes: sanbiRoutes, files: sanbiFiles },
   provenance: catalogueProvenance,
   sourceChecklists: { ...catalogueSourceManifest.sourceChecklists, url: catalogueSourcesFile.url },
@@ -1795,6 +1807,7 @@ const current = {
       + (catalogueRuntimeManifest.fdacDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.mossDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.pakistanDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
+      + (catalogueRuntimeManifest.mossChinaDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.plaziDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0),
     pagesLimitBytes: 650 * 1024 * 1024,
   },

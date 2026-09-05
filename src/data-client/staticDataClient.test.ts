@@ -44,6 +44,7 @@ async function installCatalogueFixture({
   meso = [],
   fdac = [],
   moss,
+  mossChina,
   pakistan,
 }: {
   nodes?: CatalogueHierarchyNodeRecord[]
@@ -57,6 +58,7 @@ async function installCatalogueFixture({
   meso?: import('./types').CatalogueMesoDescriptionRecord[]
   fdac?: import('./types').CatalogueFdacDescriptionRecord[]
   moss?: import('./types').CatalogueMossDescriptionRecord[]
+  mossChina?: import('./types').CatalogueMossChinaDescriptionRecord[]
   pakistan?: import('./types').CataloguePakistanDescriptionRecord[]
 }) {
   Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
@@ -64,7 +66,7 @@ async function installCatalogueFixture({
   const payloads = new Map<string, ReturnType<typeof responseFor> | ReturnType<typeof textResponseFor>>()
 
   async function hierarchyLayer<T extends { id: string }>(
-    layer: 'nodes' | 'children' | 'targets' | 'sanbi' | 'plazi' | 'foa' | 'meso' | 'fdac' | 'moss' | 'pakistan',
+    layer: 'nodes' | 'children' | 'targets' | 'sanbi' | 'plazi' | 'foa' | 'meso' | 'fdac' | 'moss' | 'moss-china' | 'pakistan',
     records: T[],
     routeId: (record: T) => string,
   ) {
@@ -103,6 +105,7 @@ async function installCatalogueFixture({
   const mesoLayer = await hierarchyLayer('meso', meso.map((record) => ({ ...record, id: record.colId })), (record) => record.colId)
   const fdacLayer = await hierarchyLayer('fdac', fdac.map((record) => ({ ...record, id: record.colId })), (record) => record.colId)
   const mossLayer = moss ? await hierarchyLayer('moss', moss.map((record) => ({ ...record, id: record.colId })), (record) => record.colId) : undefined
+  const mossChinaLayer = mossChina ? await hierarchyLayer('moss-china', mossChina.map((record) => ({ ...record, id: record.colId })), (record) => record.colId) : undefined
   const pakistanLayer = pakistan ? await hierarchyLayer('pakistan', pakistan.map((record) => ({ ...record, id: record.colId })), (record) => record.colId) : undefined
   const searchGroups = new Map<string, CatalogueRecord[]>()
   for (const record of searchRecords) {
@@ -148,6 +151,7 @@ async function installCatalogueFixture({
     mesoDescriptions: mesoLayer,
     fdacDescriptions: fdacLayer,
     ...(mossLayer ? { mossDescriptions: mossLayer } : {}),
+    ...(mossChinaLayer ? { mossChinaDescriptions: mossChinaLayer } : {}),
     ...(pakistanLayer ? { pakistanDescriptions: pakistanLayer } : {}),
     hierarchy: { nodes: nodeLayer, children: childLayer },
   }
@@ -1489,6 +1493,21 @@ describe('static runtime release coherence', () => {
     await loadCataloguePakistanDescriptions(record.colId)
     expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/pakistan-'))).toHaveLength(1)
     await expect(loadCataloguePakistanDescriptions('unmapped-species')).resolves.toBeNull()
+  })
+
+  it('loads and caches only the requested Moss Flora of China route', async () => {
+    const { loadCatalogueMossChinaDescriptions } = await import('./staticDataClient')
+    const record: import('./types').CatalogueMossChinaDescriptionRecord = {
+      colId: 'EXAMPLE', wfoId: 'wfo-example', scientificName: 'Example moss', sourceAuthorship: 'Source author', descriptions: [{
+        type: 'general', text: 'China moss text.', language: 'en', rowNumber: 7, sourceId: 'china-moss-1', citations: ['Source citation'], referenceRowNumbers: [8], citationMissingInSource: false,
+        rightsHolder: 'Missouri Botanical Garden', rights: 'Moss Flora of China archive', license: 'https://creativecommons.org/licenses/by/4.0/',
+      }],
+    }
+    const { fetchMock } = await installCatalogueFixture({ mossChina: [record] })
+    await expect(loadCatalogueMossChinaDescriptions(record.colId)).resolves.toMatchObject(record)
+    await loadCatalogueMossChinaDescriptions(record.colId)
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/moss-china-'))).toHaveLength(1)
+    await expect(loadCatalogueMossChinaDescriptions('unmapped-species')).resolves.toBeNull()
   })
 
   it('loads only the requested FDAC route and preserves citation-missing metadata', async () => {

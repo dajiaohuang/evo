@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from '@testing-library/react'
 import { beforeEach, expect, it, vi } from 'vitest'
 import { CatalogueTaxonPage } from './CatalogueTaxonPage'
-import { loadCatalogueSanbiDescriptions, loadCataloguePlaziDescriptions, loadCatalogueFoaDescriptions, loadCatalogueMesoDescriptions, loadCatalogueFdacDescriptions, loadCatalogueMossDescriptions, loadCataloguePakistanDescriptions } from '../../data-client/staticDataClient'
+import { loadCatalogueSanbiDescriptions, loadCataloguePlaziDescriptions, loadCatalogueFoaDescriptions, loadCatalogueMesoDescriptions, loadCatalogueFdacDescriptions, loadCatalogueMossDescriptions, loadCatalogueMossChinaDescriptions, loadCataloguePakistanDescriptions } from '../../data-client/staticDataClient'
 
 vi.mock('../../i18n', () => ({ useI18n: () => ({ language: 'en' }) }))
 vi.mock('../../data-client/staticDataClient', () => ({
@@ -12,6 +12,7 @@ vi.mock('../../data-client/staticDataClient', () => ({
     fdacDescriptions: { source: { provider: 'Meise Botanic Garden', title: 'Flora of the Democratic Republic of the Congo', sourceVersion: 'historical archive', retrievedAt: '2026-09-05', sourceUrl: 'https://example.org/fdac.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/', limitations: [] } },
     mossDescriptions: { source: { provider: 'Missouri Botanical Garden', title: 'Moss Flora of Central America', sourceVersion: 'historical archive', retrievedAt: '2026-09-05', sourceUrl: 'https://example.org/moss.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/', limitations: [] } },
     pakistanDescriptions: { source: { provider: 'Pakistan Plant Database', title: 'Flora of Pakistan', sourceVersion: 'historical archive', retrievedAt: '2026-09-06', sourceUrl: 'https://example.org/pakistan.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/', limitations: [] } },
+    mossChinaDescriptions: { source: { provider: 'Missouri Botanical Garden', title: 'Moss Flora of China', sourceVersion: 'historical archive', retrievedAt: '2026-09-06', sourceUrl: 'https://example.org/moss-china.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/', limitations: [] } },
     foaDescriptions: { source: { provider: 'Australian Biological Resources Study', title: 'Flora of Australia', sourceVersion: '2020-12-03 archive', sourceUrl: 'https://example.org/foa.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/' } },
     plaziDescriptions: { source: { provider: 'Plazi TreatmentBank', sourceUrl: 'https://plazi.org', license: 'CC0 1.0', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/' } },
     sanbiDescriptions: { source: { provider: 'SANBI', title: 'e-Flora of South Africa', sourceVersion: '1.36', issued: '2022-06-06', sourceUrl: 'https://example.org/archive.zip', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/' } },
@@ -27,6 +28,7 @@ vi.mock('../../data-client/staticDataClient', () => ({
   loadCatalogueMesoDescriptions: vi.fn(),
   loadCatalogueFdacDescriptions: vi.fn(),
   loadCatalogueMossDescriptions: vi.fn(),
+  loadCatalogueMossChinaDescriptions: vi.fn(),
   loadCataloguePakistanDescriptions: vi.fn(),
 }))
 
@@ -34,6 +36,7 @@ beforeEach(() => {
   vi.mocked(loadCatalogueMesoDescriptions).mockResolvedValue(null)
   vi.mocked(loadCatalogueFdacDescriptions).mockResolvedValue(null)
   vi.mocked(loadCatalogueMossDescriptions).mockResolvedValue(null)
+  vi.mocked(loadCatalogueMossChinaDescriptions).mockResolvedValue(null)
   vi.mocked(loadCataloguePakistanDescriptions).mockResolvedValue(null)
   vi.mocked(loadCatalogueFoaDescriptions).mockResolvedValue(null)
   vi.mocked(loadCataloguePlaziDescriptions).mockResolvedValue(null)
@@ -52,6 +55,21 @@ it('preserves Flora of Pakistan plain text, regional boundary and missing citati
   expect(screen.getByText('The source provides no citation for this entry; none has been added.')).toBeInTheDocument()
   expect(screen.getByText(/Historical regional source in original English/)).toBeInTheDocument()
   expect(screen.getByText(/Flora of Pakistan archive/)).toBeInTheDocument()
+})
+
+it('preserves Moss Flora of China plain text, regional boundary and missing citation disclosure', async () => {
+  vi.mocked(loadCatalogueMossChinaDescriptions).mockResolvedValueOnce({ colId: '8MG5', wfoId: 'wfo-example', scientificName: 'Example plant', sourceAuthorship: 'Source author', descriptions: [{
+    type: 'general', text: '<i>China text.</i>', language: 'en', rowNumber: 7, sourceId: 'china-moss-1', citations: [], referenceRowNumbers: [], citationMissingInSource: true,
+    rightsHolder: 'Missouri Botanical Garden', rights: 'Moss Flora of China archive', license: 'https://creativecommons.org/licenses/by/4.0/',
+  }] })
+  render(<CatalogueTaxonPage release="COL26.8" id="8MG5" onNavigate={vi.fn()} />)
+  const paragraph = await screen.findByText('<i>China text.</i>')
+  expect(paragraph).toHaveAttribute('lang', 'en')
+  expect(paragraph.closest('details')!.open).toBe(false)
+  expect(screen.getByText('The source provides no citation for this entry; none has been added.')).toBeInTheDocument()
+  expect(screen.getByText(/Historical regional source in original English/)).toBeInTheDocument()
+  expect(screen.getByText(/Moss Flora of China archive/)).toBeInTheDocument()
+  expect(screen.getByText('Source name: Example plant Source author')).toBeInTheDocument()
 })
 
 it('preserves Moss Flora source boundaries and end-marker disclosure as plain text', async () => {

@@ -1444,6 +1444,27 @@ export interface CataloguePakistanDescriptionRecord {
   }>
 }
 
+export interface CatalogueMossChinaDescriptionRecord {
+  colId: string
+  wfoId: string
+  scientificName: string
+  /** Original source name/authorship; may differ from the COL concept name. */
+  sourceAuthorship?: string
+  descriptions: Array<{
+    type: 'general'
+    text: string
+    language: 'en'
+    rowNumber: number
+    sourceId: string
+    citations: string[]
+    referenceRowNumbers: number[]
+    rightsHolder: string
+    rights: string
+    license: string
+    citationMissingInSource: boolean
+  }>
+}
+
 export interface CatalogueFdacDescriptionRecord {
   colId: string
   wfoId: string
@@ -1465,6 +1486,11 @@ export interface CatalogueFdacDescriptionRecord {
 }
 
 export interface CatalogueRuntimeManifest {
+  mossChinaDescriptions?: {
+    source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
+    routes: Record<string, string[]>
+    files: CatalogueRuntimeFile[]
+  }
   pakistanDescriptions?: {
     source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
     routes: Record<string, string[]>
