@@ -2,9 +2,15 @@
   "ontology": "data/navigation/atlas-ontology.json",
   "rootEntityIds": [
     "trilobita",
-    "chelicerata"
+    "chelicerata",
+    "parioscorpio"
   ],
   "relationships": [
+    {
+      "id": "parioscorpio",
+      "parentId": "arthropoda",
+      "relationshipKind": "navigation-parent"
+    },
     {
       "id": "trilobita",
       "parentId": "arthropoda",
@@ -113,11 +119,6 @@
     {
       "id": "scorpiones",
       "parentId": "arachnida",
-      "relationshipKind": "navigation-parent"
-    },
-    {
-      "id": "parioscorpio",
-      "parentId": "scorpiones",
       "relationshipKind": "navigation-parent"
     },
     {

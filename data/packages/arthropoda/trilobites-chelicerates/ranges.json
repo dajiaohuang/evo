@@ -610,25 +610,25 @@
     "entityId": "scorpiones",
     "rangeKind": "global-composite",
     "taxonomicConcept": "Scorpiones navigation range",
-    "geographicScope": "Global fossil and living record",
-    "olderMa": 437.5,
+    "geographicScope": "Global range pending an independent scorpion fossil source",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Older endpoint follows the named Parioscorpio occurrence but does not establish crown-scorpion origin."
+      "note": "The former 437.5 Ma endpoint relied on Parioscorpio, whose scorpion identification was rejected in the 2021 redescription. Zero endpoints are withheld placeholders, not an origin date."
     },
-    "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
-    "evidenceLevel": "literature-synthesized",
+    "evidenceBasis": "Parioscorpio cannot establish the global Scorpiones range. This interval is withheld until independently supported scorpion fossil evidence is supplied.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "contested",
     "claimIds": [
-      "claim:event:parioscorpio-terrestrialization"
+      "claim:taxon:scorpiones"
     ],
     "referenceLocators": [
       {
-        "referenceId": "wendruff-2020-parioscorpio",
-        "locator": "14; Figures 1–4; Supplementary Figures; UWGM 2162 and 2163; Internal anatomy; Depositional and terrestrialization discussion"
+        "referenceId": "anderson-2021-parioscorpio-reassessment",
+        "locator": "Redescription and rejection of scorpion affinities; phylogenetic conclusions"
       }
     ],
     "reviewStatus": "automated-audit-passed"

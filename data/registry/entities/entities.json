@@ -104,6 +104,7 @@
         "monoplacophora",
         "scaphopoda",
         "arthropoda",
+        "parioscorpio",
         "trilobita",
         "phacopida",
         "ptychopariida",
@@ -126,7 +127,6 @@
         "pycnogonida",
         "arachnida",
         "scorpiones",
-        "parioscorpio",
         "araneae",
         "acari",
         "insecta",
@@ -1682,6 +1682,7 @@
         "monoplacophora",
         "scaphopoda",
         "arthropoda",
+        "parioscorpio",
         "trilobita",
         "phacopida",
         "ptychopariida",
@@ -1704,7 +1705,6 @@
         "pycnogonida",
         "arachnida",
         "scorpiones",
-        "parioscorpio",
         "araneae",
         "acari",
         "insecta",
@@ -5028,6 +5028,7 @@
     "compositionScope": {
       "includesSelf": true,
       "descendantEntityIds": [
+        "parioscorpio",
         "trilobita",
         "phacopida",
         "ptychopariida",
@@ -5050,7 +5051,6 @@
         "pycnogonida",
         "arachnida",
         "scorpiones",
-        "parioscorpio",
         "araneae",
         "acari",
         "insecta",
@@ -5100,6 +5100,59 @@
       "holmes-budd-2022-early-trilobites",
       "open-tree",
       "pbdb-api-2016",
+      "pbdb-taxa-2026-07-19"
+    ],
+    "evidenceStatus": "contextual",
+    "limitations": [
+      "A missing branch or fossil occurrence does not imply biological absence. Internal nodes are not calibrated divergence estimates."
+    ],
+    "dataAvailability": {
+      "narrativeProfile": "unavailable",
+      "ecology": "unknown",
+      "media": "unavailable",
+      "topologyHypothesis": "unmapped"
+    },
+    "version": "2026.09-static-v5-rc145"
+  },
+  {
+    "id": "parioscorpio",
+    "entityKind": "taxon",
+    "contentLevel": "dossier",
+    "externalResolutionStatus": "resolved-exact",
+    "packageId": "trilobites-chelicerates",
+    "parentId": "arthropoda",
+    "parentRelationshipKind": "navigation-parent",
+    "names": {
+      "scientific": "Parioscorpio",
+      "en": "Parioscorpio (affinity unresolved)",
+      "zh": "Parioscorpio（亲缘未定）"
+    },
+    "synonyms": [],
+    "rank": "genus",
+    "definition": {
+      "en": "Parioscorpio venator is documented from the Silurian Waukesha Lagerstatte in Wisconsin, including holotype UWGM 2162 and paratype UWGM 2163. Its 2021 redescription rejected the scorpion interpretation while leaving exact arthropod affinities unresolved; this occurrence does not date scorpion origins. This navigation entry is not a phylogeny or a complete taxon dossier.",
+      "zh": "Parioscorpio venator 见于威斯康星州志留纪沃基肖化石库，包括正模 UWGM 2162 和副模 UWGM 2163。2021 年重新描述否定了蝎类解释，但其在节肢动物中的确切亲缘位置仍未确定；这一产出不能用于蝎类起源定年。 此导航摘要不表示系统发育或完整的类群档案。"
+    },
+    "compositionScope": {
+      "includesSelf": true,
+      "descendantEntityIds": []
+    },
+    "temporalRange": {
+      "olderMa": 437.5,
+      "youngerMa": 436.5,
+      "status": "available",
+      "basis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
+      "evidenceLevel": "literature-synthesized",
+      "provisional": true
+    },
+    "externalIds": {
+      "pbdb": "txn:404117"
+    },
+    "referenceIds": [
+      "wendruff-2020-parioscorpio",
+      "open-tree",
+      "pbdb-api-2016",
+      "anderson-2021-parioscorpio-reassessment",
       "pbdb-taxa-2026-07-19"
     ],
     "evidenceStatus": "contextual",
@@ -5736,7 +5789,6 @@
         "pycnogonida",
         "arachnida",
         "scorpiones",
-        "parioscorpio",
         "araneae",
         "acari"
       ]
@@ -6106,8 +6158,8 @@
     "synonyms": [],
     "rank": "order",
     "definition": {
-      "en": "Xiphosura is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range. This navigation entry is not a phylogeny or a complete taxon dossier.",
-      "zh": "鲎类及化石近亲在此仅链接到延限账本已经引用的具名标本或样本证据；定位器只支持该局部最低记录、形态或抽样拓扑，不外推为全群起源、全球首末出现、直接祖先或精确完整延限。 此导航摘要不表示系统发育或完整的类群档案。"
+      "en": "Lamsdell's 2020 revision compares fossil and living horseshoe crabs and discusses an Ordovician record separated from the next Upper Devonian occurrences by a fossil-record gap. This study-linked navigation span is not continuous occupancy, an exact origin date or a complete global range. This navigation entry is not a phylogeny or a complete taxon dossier.",
+      "zh": "Lamsdell 的 2020 年修订比较化石与现生鲎类，并讨论奥陶纪记录与其后上泥盆统产出之间的化石记录空缺。这一关联研究的导航跨度不表示连续分布、精确起源年代或完整全球延限。 此导航摘要不表示系统发育或完整的类群档案。"
     },
     "compositionScope": {
       "includesSelf": true,
@@ -6217,7 +6269,6 @@
       "includesSelf": true,
       "descendantEntityIds": [
         "scorpiones",
-        "parioscorpio",
         "araneae",
         "acari"
       ]
@@ -6268,80 +6319,26 @@
     "synonyms": [],
     "rank": "order",
     "definition": {
-      "en": "Scorpiones is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range. This navigation entry is not a phylogeny or a complete taxon dossier.",
-      "zh": "蝎类在此仅链接到延限账本已经引用的具名标本或样本证据；定位器只支持该局部最低记录、形态或抽样拓扑，不外推为全群起源、全球首末出现、直接祖先或精确完整延限。 此导航摘要不表示系统发育或完整的类群档案。"
-    },
-    "compositionScope": {
-      "includesSelf": true,
-      "descendantEntityIds": [
-        "parioscorpio"
-      ]
-    },
-    "temporalRange": {
-      "olderMa": 437.5,
-      "youngerMa": 0,
-      "status": "available",
-      "basis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
-      "evidenceLevel": "literature-synthesized",
-      "provisional": true
-    },
-    "externalIds": {
-      "pbdb": "txn:243100"
-    },
-    "referenceIds": [
-      "wendruff-2020-parioscorpio",
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ],
-    "evidenceStatus": "contextual",
-    "limitations": [
-      "A missing branch or fossil occurrence does not imply biological absence. Internal nodes are not calibrated divergence estimates."
-    ],
-    "dataAvailability": {
-      "narrativeProfile": "unavailable",
-      "ecology": "unknown",
-      "media": "unavailable",
-      "topologyHypothesis": "unmapped"
-    },
-    "version": "2026.09-static-v5-rc145"
-  },
-  {
-    "id": "parioscorpio",
-    "entityKind": "taxon",
-    "contentLevel": "dossier",
-    "externalResolutionStatus": "resolved-exact",
-    "packageId": "trilobites-chelicerates",
-    "parentId": "scorpiones",
-    "parentRelationshipKind": "navigation-parent",
-    "names": {
-      "scientific": "Parioscorpio",
-      "en": "Parioscorpio",
-      "zh": "祖蝎属"
-    },
-    "synonyms": [],
-    "rank": "genus",
-    "definition": {
-      "en": "Parioscorpio is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range. This navigation entry is not a phylogeny or a complete taxon dossier.",
-      "zh": "祖蝎属在此仅链接到延限账本已经引用的具名标本或样本证据；定位器只支持该局部最低记录、形态或抽样拓扑，不外推为全群起源、全球首末出现、直接祖先或精确完整延限。 此导航摘要不表示系统发育或完整的类群档案。"
+      "en": "The Scorpiones range formerly used the Silurian Parioscorpio occurrence as its older endpoint. Anderson et al. (2021) rejected that fossil's scorpion identification, so this atlas withholds the inherited range pending independent scorpion evidence; no origin date is established here. This navigation entry is not a phylogeny or a complete taxon dossier.",
+      "zh": "蝎类延限此前以志留纪 Parioscorpio 产出作为较老端点。Anderson 等（2021）否定了该化石的蝎类归属，因此图谱暂不提供这一沿用范围，等待独立的蝎类证据；此处不确定起源年代。 此导航摘要不表示系统发育或完整的类群档案。"
     },
     "compositionScope": {
       "includesSelf": true,
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 437.5,
-      "youngerMa": 436.5,
-      "status": "available",
-      "basis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
-      "evidenceLevel": "literature-synthesized",
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "Parioscorpio cannot establish the global Scorpiones range. This interval is withheld until independently supported scorpion fossil evidence is supplied.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
-      "pbdb": "txn:404117"
+      "pbdb": "txn:243100"
     },
     "referenceIds": [
-      "wendruff-2020-parioscorpio",
+      "anderson-2021-parioscorpio-reassessment",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -7608,8 +7605,8 @@
     "synonyms": [],
     "rank": "species",
     "definition": {
-      "en": "Rhyniognatha hirsti is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range. This navigation entry is not a phylogeny or a complete taxon dossier.",
-      "zh": "归属有争议的莱尼头部碎片在此仅链接到延限账本已经引用的具名标本或样本证据；定位器只支持该局部最低记录、形态或抽样拓扑，不外推为全群起源、全球首末出现、直接祖先或精确完整延限。 此导航摘要不表示系统发育或完整的类群档案。"
+      "en": "Rhyniognatha hirsti is bounded here by isolated head fragment NHMUK PI IN 38234 from the Rhynie Chert, Aberdeenshire, Scotland; its insect versus myriapod affinity remains unresolved, so this is not a global range. This navigation entry is not a phylogeny or a complete taxon dossier.",
+      "zh": "Rhyniognatha hirsti 在此由来自苏格兰阿伯丁郡莱尼燧石的孤立头部碎片 NHMUK PI IN 38234 约束；其昆虫或多足类亲缘仍未解决，因此这不是全球延限。 此导航摘要不表示系统发育或完整的类群档案。"
     },
     "compositionScope": {
       "includesSelf": true,
@@ -7921,8 +7918,8 @@
     "synonyms": [],
     "rank": "research sample",
     "definition": {
-      "en": "Pennsylvanian Eumetabola sample is source-linked here only to the named specimen or sample evidence already cited by its range ledger. The locator supports that local minimum, morphology or sampled topology and is not extrapolated to a clade-wide origin, global FAD/LAD, direct ancestor or exact complete range. This navigation entry is not a phylogeny or a complete taxon dossier.",
-      "zh": "五件石炭纪真变态类昆虫化石在此仅链接到延限账本已经引用的具名标本或样本证据；定位器只支持该局部最低记录、形态或抽样拓扑，不外推为全群起源、全球首末出现、直接祖先或精确完整延限。 此导航摘要不表示系统发育或完整的类群档案。"
+      "en": "Pennsylvanian Eumetabola sample is bounded here by five fossils from Moscovian and Gzhelian localities in France and Russia; this composite sample is not one lineage range or a complete Eumetabola history. This navigation entry is not a phylogeny or a complete taxon dossier.",
+      "zh": "宾夕法尼亚亚纪真变态类样本在此由来自法国和俄罗斯莫斯科阶与格舍尔阶地点的五件化石约束；这一复合样本不是单一谱系延限或完整的真变态类历史。 此导航摘要不表示系统发育或完整的类群档案。"
     },
     "compositionScope": {
       "includesSelf": true,
