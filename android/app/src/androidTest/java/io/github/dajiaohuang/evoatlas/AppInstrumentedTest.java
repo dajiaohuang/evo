@@ -580,7 +580,7 @@ public class AppInstrumentedTest {
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-polychaeta-archive-crosswalk"),
                         18, 1, 14430, 179, "cc by", "Polychaeta");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-cestoda-archive-crosswalk"),
-                        4, 1, 3015, 39, "Cestoda");
+                        4, 1, 3015, 34, "cc by", "Cestoda");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-nemertea-archive-crosswalk"),
                         2, 1, 1364, 12, "Nemertea");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-gastrotricha-archive-crosswalk"),
@@ -588,7 +588,7 @@ public class AppInstrumentedTest {
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-ascidiacea-archive-crosswalk"),
                         6, 0, 3000, 0, "Ascidiacea");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-turbellaria-archive-crosswalk"),
-                        6, 1, 6508, 30, "Turbellaria");
+                        6, 1, 6508, 28, "cc by", "Turbellaria");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "rotifera-298081-archive-crosswalk"),
                         1, 0, 2467, 0, "Rotifer World Catalogue");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-bryozoa-archive-crosswalk"),

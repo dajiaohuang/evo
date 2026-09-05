@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc140 — 2026-09-05
+
+- Corrected exact normalized authorship matching for Cestoda and Turbellaria without fuzzy, synonym or species-concept inference. Cestoda now retains 3,013 accepted, 2 unmatched and 34 source-only outcomes across 3,015 COL rows; Turbellaria retains 6,495 accepted, 13 unmatched and 28 source-only outcomes across 6,508 COL rows.
+- Preserved the pinned ChecklistBank API metadata and archive-embedded `metadata.yml` as separate evidence layers. API `cc by` and DOI claims remain distinct from archive `CC-BY` and `doi: null`; no `CC-BY-4.0` version is inferred.
+- Android and iOS retain every Cestoda/Turbellaria row shard, while Web publishes the complete summaries and canonical inventories without row payloads.
+
 ## 2026.09-static-v5-rc139 — 2026-09-05
 
 - Corrected Monogenea exact matching by normalizing COL name and authorship before removing the trailing authorship. This resolves nine previously missed byte-traceable exact matches: 5,844 accepted, 8 unmatched and 34 source-only records across the unchanged 5,852-row COL scope.

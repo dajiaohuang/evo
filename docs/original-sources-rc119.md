@@ -6,11 +6,11 @@ scientific corroboration.
 
 | Source | COL records | Exact accepted matches | Unmatched | Source-only | Row files |
 |---|---:|---:|---:|---:|---:|
-| World List of Cestoda 1127 | 3,015 | 3,008 | 7 | 39 | 5 |
+| World List of Cestoda 1127 | 3,015 | 3,013 | 2 | 34 | 5 |
 | World Nemertea Database 1085 | 1,364 | 1,361 | 3 | 12 | 3 |
 | World Gastrotricha Database 1122 | 903 | 900 | 3 | 3 | 2 |
 
-Together the files contain 5,336 rows and occupy 1,062,668 compressed bytes.
+Together the files contain 5,331 rows and occupy 1,062,687 compressed bytes.
 Every shard is at most 2 MiB uncompressed (largest: 2,096,832 bytes). Full-data
 builds retain all records, including unmatched and source-only outcomes.
 Pages publishes summaries only. Original archives and complete reference

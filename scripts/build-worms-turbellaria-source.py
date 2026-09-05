@@ -1,5 +1,5 @@
 """Project the pinned WoRMS Turbellaria ColDP archive into a COL-scoped sidecar."""
-import argparse, csv, hashlib, io, json, unicodedata, zipfile
+import argparse, csv, hashlib, io, json, re, unicodedata, zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,13 +24,31 @@ def dump(obj, pretty=False):
 
 
 def norm(value):
-    return ' '.join(unicodedata.normalize('NFC', value or '').split())
+    value = ' '.join(unicodedata.normalize('NFC', value or '').split())
+    value = re.sub(r'\s*,\s*', ', ', value)
+    return re.sub(r'\s*&\s*', ' & ', value).strip()
 
 
 def col_bare(row):
-    name, author = row.get('scientificName') or '', row.get('authorship') or ''
+    name, author = norm(row.get('scientificName')), norm(row.get('authorship'))
     suffix = ' ' + author
     return name[:-len(suffix)] if author and name.endswith(suffix) else name
+
+
+def parse_embedded_metadata(raw):
+    fields = {}
+    wanted = {'doi', 'title', 'issued', 'version', 'license', 'website', 'citation'}
+    for line in raw.decode('utf-8').splitlines():
+        if line.startswith((' ', '\t')) or ':' not in line:
+            continue
+        key, value = line.split(':', 1)
+        if key not in wanted:
+            continue
+        value = value.strip()
+        fields[key] = None if value == 'null' else value[1:-1] if len(value) >= 2 and value[0] == value[-1] == "'" else value
+    fields['bytes'] = len(raw)
+    fields['sha256'] = digest(raw)
+    return fields
 
 
 def source_name(name, taxon):
@@ -45,6 +63,7 @@ def source_name(name, taxon):
 def read_archive(path):
     members = {}
     with zipfile.ZipFile(path) as archive:
+        embedded_metadata = parse_embedded_metadata(archive.read('metadata.yml'))
         for name in archive.namelist():
             raw = archive.read(name)
             members[name] = {'bytes': len(raw), 'sha256': digest(raw)}
@@ -64,7 +83,7 @@ def read_archive(path):
                 continue
             accepted[taxon['ID'].rsplit(':', 1)[-1]] = (taxon, name[0], i, name[1])
         synonyms = rows('Synonym.txt')
-    return accepted, references, name_refs, members, len(synonyms), provisional
+    return accepted, references, name_refs, members, embedded_metadata, len(synonyms), provisional
 
 
 def read_col():
@@ -117,9 +136,19 @@ def project(archive, output_root=None):
     raw = archive.read_bytes()
     if len(raw) != ARCHIVE_BYTES or digest(raw) != ARCHIVE_SHA:
         raise ValueError('archive does not match pinned bytes')
-    source, references, name_refs, members, synonym_count, provisional_count = read_archive(archive)
+    source, references, name_refs, members, embedded_metadata, synonym_count, provisional_count = read_archive(archive)
     metadata_bytes = METADATA.read_bytes()
     metadata = json.loads(metadata_bytes)
+    if (metadata.get('key'), metadata.get('title'), metadata.get('doi'), metadata.get('version'),
+            metadata.get('versionDoi'), metadata.get('issued'), metadata.get('license')) != (
+                1193, 'World List of turbellarian worms: Acoelomorpha, Catenulida, Rhabditophora',
+                '10.48580/d3g6', '2026-09-01', '10.48580/d3g6.v88', '2026-09-01', 'cc by'):
+        raise ValueError('unexpected ChecklistBank metadata identity')
+    if (embedded_metadata.get('doi'), embedded_metadata.get('title'), embedded_metadata.get('version'),
+            embedded_metadata.get('issued'), embedded_metadata.get('license')) != (
+                None, 'World List of turbellarian worms: Acoelomorpha, Catenulida, Rhabditophora',
+                '2026-09-01', '2026-09-01', 'CC-BY'):
+        raise ValueError('unexpected Turbellaria archive metadata identity')
     col, col_sha, col_inputs = read_col()
     by_key = {}
     for tid, (taxon, name, taxon_row, name_row) in source.items():
@@ -140,7 +169,7 @@ def project(archive, output_root=None):
         refs = source_references(hits[0][1], hits[0][2], name_refs, references) if len(hits) == 1 else []
         records.append({'colId': cid, 'colScientificName': row['scientificName'], 'colAuthorship': row.get('authorship'),
                         'status': status, 'matchedName': matched, 'acceptedName': matched,
-                        'candidates': candidates, 'mappingBasis': 'Exact source scientific name plus authorship; no fuzzy fallback.',
+                        'candidates': candidates, 'mappingBasis': 'Exact normalized source scientific name plus authorship; no fuzzy fallback.',
                         'sourceRows': loc, 'references': refs})
     upstream = []
     for tid, (taxon, name, taxon_row, name_row) in sorted(source.items()):
@@ -148,7 +177,7 @@ def project(archive, output_root=None):
             continue
         upstream.append({'colId': None, 'colScientificName': None, 'colAuthorship': None, 'status': 'upstream-only',
                          'matchedName': None, 'acceptedName': source_name(name, taxon), 'candidates': [],
-                         'mappingBasis': 'Accepted source concept not linked by exact COL name+authorship; not a global new species claim.',
+                         'mappingBasis': 'Accepted source concept not linked by exact normalized COL name+authorship; not a global new species claim.',
                          'sourceRows': row_locators(taxon, name, name_refs, references, taxon_row, name_row),
                          'references': source_references(taxon, name, name_refs, references)})
     output_base = Path(output_root) if output_root else ROOT
@@ -186,10 +215,20 @@ def project(archive, output_root=None):
                   'id': 'worms-turbellaria-archive-crosswalk', 'packageId': 'other-animals',
                   'provider': 'World Register of Marine Species via ChecklistBank', 'rowEncoding': 'json',
                   'colIdField': 'colId', 'totalCountField': 'total',
-                  'source': {'datasetId': '1193', 'title': metadata['title'], 'version': metadata['version'],
-                             'versionDoi': metadata['versionDoi'], 'metadataBytes': len(metadata_bytes),
-                             'metadataSha256': digest(metadata_bytes), 'license': 'CC-BY-4.0',
-                             'licenseUrl': 'https://creativecommons.org/licenses/by/4.0/',
+                  'source': {'datasetId': '1193', 'title': metadata['title'], 'doi': metadata['doi'],
+                             'version': metadata['version'], 'versionDoi': metadata['versionDoi'],
+                             'issued': metadata['issued'], 'citation': metadata.get('citation'),
+                             'metadataRecord': metadata, 'metadataBytes': len(metadata_bytes),
+                             'metadataSha256': digest(metadata_bytes), 'metadataLicense': metadata['license'],
+                             'license': metadata['license'], 'embeddedMetadata': embedded_metadata,
+                             'metadataConsistency': {
+                                 'status': 'mismatch',
+                                 'apiResponse': {'doi': metadata['doi'], 'versionDoi': metadata['versionDoi'],
+                                                 'version': metadata['version'], 'issued': metadata['issued'],
+                                                 'license': metadata['license']},
+                                 'archiveEmbedded': {'doi': embedded_metadata['doi'], 'version': embedded_metadata['version'],
+                                                     'issued': embedded_metadata['issued'], 'license': embedded_metadata['license']},
+                                 'boundary': 'The byte-pinned archive drives the projection; archive metadata.yml and API metadata remain separate evidence.'},
                              'rightsHolder': 'WoRMS Editorial Board', 'archiveUrl': 'https://api.checklistbank.org/dataset/1193/archive',
                              'archivePath': 'data/sources/archives/checklistbank-1193-turbellaria-2026-09-01.zip',
                              'metadataPath': 'data/sources/archives/checklistbank-1193-turbellaria-2026-09-01.metadata.json',
@@ -197,7 +236,7 @@ def project(archive, output_root=None):
                   'scope': {'colRootUsageIds': list(COL_ROOTS), 'scientificName': 'Turbellaria',
                             'eligibleColSpecies': len(col), 'sourceAcceptedSpecies': len(source),
                             'excludedSourceProvisional': provisional_count},
-                  'matching': {'normalization': 'NFC and whitespace normalization only; COL trailing authorship is removed exactly.',
+                  'matching': {'normalization': 'Unicode NFC; collapse and trim Unicode whitespace; canonicalize whitespace around commas and ampersands; remove the exact normalized COL trailing authorship.',
                                'prohibited': 'No fuzzy, case-folded, accent-folded, synonym or species-concept matching.'},
                   'counts': {'total': len(records), **counts, 'upstreamOnly': len(upstream), 'records': len(all_rows)},
                   'files': col_files, 'upstreamOnlyFiles': source_files,

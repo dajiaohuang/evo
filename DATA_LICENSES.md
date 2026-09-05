@@ -55,15 +55,19 @@ Derived rows retain separate COL26.8 attribution. See [scope, boundaries and
 reproduction](docs/original-sources-rc120.md).
 
 RC119 retains the original September 1, 2026 archives and metadata for World
-List of Cestoda (1127, DOI `10.48580/d3cw.v84`), World Nemertea Database (1085,
+List of Cestoda (1127; API version DOI `10.48580/d3cw.v84`), World Nemertea Database (1085,
 DOI `10.48580/d3bg.v89`) and World Gastrotricha Database (1122, DOI
-`10.48580/d3cq.v86`). Their pinned metadata declares CC BY; source attribution
+`10.48580/d3cq.v86`). Cestoda's API `cc by`/DOI fields and archive-embedded
+`CC-BY`/`doi: null` fields are retained separately without inferring a license
+version. Source attribution
 and complete original citation metadata remain in the archives. Derived rows
 also retain COL26.8 attribution. Referenced articles and linked media are not
 redistributed. See [scope, source links and reproduction](docs/original-sources-rc119.md).
 
-RC118 retains the original CC BY 4.0 Ascidiacea (1186), Turbellaria (1193) and
-Rotifer World Catalogue (298081) archives and metadata. Source-specific pinned
+RC118 retains the original Ascidiacea (1186), Turbellaria (1193) and Rotifer
+World Catalogue (298081) archives and metadata. Turbellaria's API `cc by`/DOI
+fields and archive-embedded `CC-BY`/`doi: null` fields are retained separately
+without inferring a license version. Source-specific pinned
 hashes, dates, attribution and evidence boundaries are documented in
 [the source note](docs/original-sources-rc118.md). These are original-source
 projections, not independent expert corroboration or globally new species.
