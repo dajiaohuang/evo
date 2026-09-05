@@ -2,6 +2,8 @@
 
 ## Unreleased content corrections
 
+- Clarified Ust’-Ishim 1 as an individual calibrated age at 95.4% probability, not the origin or complete range of Homo sapiens; separated dating (SI1) and admixture-model (SI18) reference locators.
+
 - Replaced the generic Fanjingshania navigation introduction with its source-linked formation, approximate age, holotype identifier and isolated-material count. Ecology remains unknown; this is not a new complete biological profile.
 
 - Corrected the Pimiento and Clements (2014) megalodon extinction-analysis interval from 3.6–2.6 Ma to its reported oldest inferred date of 3.5 Ma and modal estimate of 2.6 Ma. Updated the Chinese statement and source locator. This historical study-specific interval is not a complete species range, exact last appearance, or the revised estimate of later studies; no expert-review status was promoted.
