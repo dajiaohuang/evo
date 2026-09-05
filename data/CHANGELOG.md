@@ -2,6 +2,7 @@
 
 ## Unreleased content corrections
 
+- Added specimen-bounded Eocursor jaw and tooth morphology, study-bounded Edmontosaurus cranial variation, and the topology-dependent horsetail size and strobilus trend. These additions distinguish observed anatomy from evolutionary interpretation and do not supply global fossil ranges.
 - Completed Chinese statement mappings for the 1,281 claims present at the translation checkpoint; later additions include both statement and rationale translations. Translation coverage is not worldwide species-description coverage or expert review.
 - Added source-bounded morphology evidence for Araneae, Coleoptera, Caudata, Myxini, Calcarea, Homoscleromorpha, Bryophyta and Anthocerotophyta. Fossil and living examples retain their specimen or sampling scope rather than being generalized to every member of their navigation group.
 - Added Gazave et al. (2010) as primary support for spiculate versus aspiculate homoscleromorph groups. Kept this skeletal distinction separate from fossil dating and from the later formal class-rank proposal.
