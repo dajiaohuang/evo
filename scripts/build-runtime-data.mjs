@@ -1598,8 +1598,20 @@ const sanbiFiles = partitionSanbiDescriptions(sanbiRecords).map(([prefix, record
   sanbiRoutes[prefix] = [file.url]
   return file
 })
+const plaziSource = readJson('data/sources/plazi-descriptions-import-ledger.json')
+const plaziBytes = readFileSync(join(rootDir, plaziSource.output))
+if (plaziBytes.length !== plaziSource.outputBytes || sha256(plaziBytes) !== plaziSource.outputSha256) throw new Error('Plazi source bytes differ from the import ledger')
+const plaziRecords = gunzipSync(plaziBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
+const plaziRoutes = {}
+const plaziFiles = partitionSanbiDescriptions(plaziRecords).map(([prefix, records]) => {
+  const path = `catalogue/descriptions/plazi-${prefix}.json.gz`
+  const file = { ...writeGzipJson(path, records), prefix, path, records: records.length }
+  plaziRoutes[prefix] = [file.url]
+  return file
+})
 catalogueRuntimeManifest = {
   ...catalogueSourceManifest,
+  plaziDescriptions: { source: plaziSource, routes: plaziRoutes, files: plaziFiles },
   sanbiDescriptions: { source: sanbiSource, routes: sanbiRoutes, files: sanbiFiles },
   provenance: catalogueProvenance,
   sourceChecklists: { ...catalogueSourceManifest.sourceChecklists, url: catalogueSourcesFile.url },
@@ -1717,7 +1729,8 @@ const current = {
       + catalogueRuntimeManifest.hierarchy.nodes.totalCompressedBytes
       + catalogueRuntimeManifest.hierarchy.children.totalCompressedBytes
       + catalogueRuntimeManifest.ownership.bytes
-      + (catalogueRuntimeManifest.sanbiDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0),
+      + (catalogueRuntimeManifest.sanbiDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
+      + (catalogueRuntimeManifest.plaziDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0),
     pagesLimitBytes: 650 * 1024 * 1024,
   },
   evidenceBoundary: {

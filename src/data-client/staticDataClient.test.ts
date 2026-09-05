@@ -39,6 +39,7 @@ async function installCatalogueFixture({
   searchRecords = [],
   targets = [],
   sanbi = [],
+  plazi = [],
 }: {
   nodes?: CatalogueHierarchyNodeRecord[]
   children?: CatalogueHierarchyChildRecord[]
@@ -46,13 +47,14 @@ async function installCatalogueFixture({
   searchRecords?: CatalogueRecord[]
   targets?: CatalogueTargetRecord[]
   sanbi?: import('./types').CatalogueSanbiDescriptionRecord[]
+  plazi?: import('./types').CataloguePlaziDescriptionRecord[]
 }) {
   Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
   const { catalogueRoutePrefix } = await import('./staticDataClient')
   const payloads = new Map<string, ReturnType<typeof responseFor> | ReturnType<typeof textResponseFor>>()
 
   async function hierarchyLayer<T extends { id: string }>(
-    layer: 'nodes' | 'children' | 'targets' | 'sanbi',
+    layer: 'nodes' | 'children' | 'targets' | 'sanbi' | 'plazi',
     records: T[],
     routeId: (record: T) => string,
   ) {
@@ -86,6 +88,7 @@ async function installCatalogueFixture({
   const childLayer = await hierarchyLayer('children', children, (record) => (record as CatalogueHierarchyChildRecord).parentId)
   const targetLayer = await hierarchyLayer('targets', targets, (record) => record.id)
   const sanbiLayer = await hierarchyLayer('sanbi', sanbi.map((record) => ({ ...record, id: record.colId })), (record) => record.colId)
+  const plaziLayer = await hierarchyLayer('plazi', plazi.map((record) => ({ ...record, id: record.colId })), (record) => record.colId)
   const searchGroups = new Map<string, CatalogueRecord[]>()
   for (const record of searchRecords) {
     const prefix = record.normalizedName.replaceAll(' ', '').slice(0, 2).padEnd(2, '_')
@@ -125,6 +128,7 @@ async function installCatalogueFixture({
     search: { minimumQueryLength: 3, routes: searchRoutes, files: searchFiles },
     acceptedTargets: targetLayer,
     sanbiDescriptions: sanbiLayer,
+    plaziDescriptions: plaziLayer,
     hierarchy: { nodes: nodeLayer, children: childLayer },
   }
   const manifestFile = { url: 'releases/dataset-col/catalogue/manifest.json' }
@@ -1390,6 +1394,20 @@ describe('static runtime release coherence', () => {
     await loadCatalogueSanbiDescriptions(colId)
     expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/sanbi-'))).toHaveLength(1)
     await expect(loadCatalogueSanbiDescriptions('unmapped-species')).resolves.toBeNull()
+  })
+
+  it('loads and caches only the requested Plazi route and retains source language', async () => {
+    const { loadCataloguePlaziDescriptions } = await import('./staticDataClient')
+    const record = { colId: 'V996C', scientificName: 'Hedeoma salomeae', descriptions: [{
+      type: 'diagnosis' as const, text: 'Herba annua.', language: 'la', citation: 'Source publication',
+      treatmentUrl: 'https://treatment.plazi.org/id/example', rowNumber: 3, archiveSha256: 'abc', sourceArchive: 'example.zip',
+      mappingBasis: 'reviewed', limitations: 'Specimen scope',
+    }] }
+    const { fetchMock } = await installCatalogueFixture({ plazi: [record] })
+    await expect(loadCataloguePlaziDescriptions(record.colId)).resolves.toMatchObject(record)
+    await loadCataloguePlaziDescriptions(record.colId)
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/plazi-'))).toHaveLength(1)
+    await expect(loadCataloguePlaziDescriptions('unmapped-species')).resolves.toBeNull()
   })
 
   it('loads only the requested direct children from a shared parent-hash shard and caches it', async () => {

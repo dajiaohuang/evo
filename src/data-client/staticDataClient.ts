@@ -7,6 +7,7 @@ import type {
   CatalogueRuntimeFile,
   CatalogueRuntimeManifest,
   CatalogueSanbiDescriptionRecord,
+  CataloguePlaziDescriptionRecord,
   CatalogueSourceChecklist,
   CatalogueSpeciesOwner,
   CatalogueSpeciesOwnership,
@@ -1149,6 +1150,14 @@ export async function loadCatalogueSanbiDescriptions(id: string): Promise<Catalo
   const collection = manifest.sanbiDescriptions
   if (!collection) return null
   const records = await loadCatalogueRoute<CatalogueSanbiDescriptionRecord>(collection.routes, collection.files, id)
+  return records.find((record) => record.colId === id) ?? null
+}
+
+export async function loadCataloguePlaziDescriptions(id: string): Promise<CataloguePlaziDescriptionRecord | null> {
+  const manifest = await loadCatalogueManifest()
+  const collection = manifest.plaziDescriptions
+  if (!collection) return null
+  const records = await loadCatalogueRoute<CataloguePlaziDescriptionRecord>(collection.routes, collection.files, id)
   return records.find((record) => record.colId === id) ?? null
 }
 

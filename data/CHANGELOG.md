@@ -2,6 +2,8 @@
 
 ## Unreleased content corrections
 
+- Added 24 attributed Plazi treatment paragraphs for 10 species, retaining publication/sample scope, original language and author-variant mapping disclosures. Full-Web catalogue delivery is lazy; Pages preview omits the collection. Original source-text discrepancies are not silently reconciled, and historical/proposed conservation statements are not imported as current status.
+
 - Added 65,139 attributed SANBI e-Flora South Africa descriptions for 15,211 uniquely linked accepted COL species. The full-Web catalogue generates 256 lazy hash-routed shards; Pages preview does not receive this full collection. Original English morphology, diagnostic and habitat text, publication citations and source row locators remain distinct from synthesized Evo claims and global species dossiers. Source is regional v1.36 (2022), not a current global biological census.
 
 - Added specimen-bounded Eocursor jaw and tooth morphology, study-bounded Edmontosaurus cranial variation, and the topology-dependent horsetail size and strobilus trend. These additions distinguish observed anatomy from evolutionary interpretation and do not supply global fossil ranges.
