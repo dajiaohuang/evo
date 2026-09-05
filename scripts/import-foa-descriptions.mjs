@@ -15,7 +15,10 @@ if (hash(bytes) !== expected) throw new Error('Changed reviewed Flora of Austral
 export function plainText(value) {
   return value.replaceAll('&lt;', '<').replaceAll('&gt;', '>')
     .replace(/<\/(?:p|div)>|<br\s*\/?\s*>/gi, '\n')
-    .replace(/<[^>]+>/g, '').replaceAll('&amp;', '&')
+    .replace(/<[^>]+>/g, '')
+    // Nested source entities must be decoded after stripping markup so a
+    // measurement comparison is not mistaken for an HTML tag.
+    .replace(/&(?:amp;)+/g, '&').replaceAll('&lt;', '<').replaceAll('&gt;', '>')
     .split('\n').map(line => line.trim()).filter(Boolean).join('\n\n')
 }
 const species = new Map()
