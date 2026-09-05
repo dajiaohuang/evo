@@ -1,5 +1,25 @@
 [
   {
+    "id": "claim:taxon:araneae:morphology",
+    "subjectId": "taxon:araneae",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Spider spinnerets are abdominal appendages that control silk deployment. Garwood et al. distinguish true spiders from the Carboniferous Idmonarachne fossil, whose preserved underside lacks spinnerets; its spider-like appearance alone does not make it a member of Araneae.",
+    "confidence": "high",
+    "confidenceRationale": "The study defines spinnerets and documents their absence using the preserved ventral surface and tomography. This claim retains the authors' anatomical distinction without treating inferred silk production in the fossil as an observation.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-09-05",
+    "reviewedAgainstReferenceVersion": "Garwood et al. 2016 DOI 10.1098/rspb.2016.0125; Europe PMC PMC4822468 full text",
+    "referenceLinks": [
+      {
+        "referenceId": "garwood-2016-idmonarachne",
+        "relation": "supports",
+        "pages": "20160125",
+        "quoteLocator": "Introduction: spinneret definition; Discussion: preserved underside, tomography and exclusion from Araneae"
+      }
+    ]
+  },
+  {
     "id": "claim:taxon:coleoptera:morphology",
     "subjectId": "taxon:coleoptera",
     "claimKind": "scientific",
