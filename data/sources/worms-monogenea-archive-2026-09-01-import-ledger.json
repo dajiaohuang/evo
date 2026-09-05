@@ -3,7 +3,7 @@
   "importType": "COL26.8-to-WoRMS-Monogenea-archive-crosswalk",
   "generatedBy": {
     "script": "scripts/build-worms-monogenea-source.py",
-    "scriptSha256": "6307df5431aa78e2cb625be1149ff420a113860274ae6dea86dfb4d63beaa254",
+    "scriptSha256": "0a0213ef23876e8b2f227d67d14a6cbe04d8a6ba8e1571a4ddffb3a0dc64e577",
     "hashNormalization": "LF"
   },
   "source": {
@@ -15,7 +15,6 @@
     "title": "World List of Monogenea",
     "doi": null,
     "version": "2026-09-01",
-    "versionDoi": "10.48580/d3cv.v86",
     "issued": "2026-09-01",
     "citation": "Gibson, D.; Kmentova, N. (2026). World List of Monogenea. Accessed at https://www.marinespecies.org on 2026-09-01",
     "editor": [
@@ -54,8 +53,8 @@
       "geographicScope": "Global",
       "taxonomicScope": "monogeneans",
       "temporalScope": "1758-2026",
-      "confidence": "4",
-      "completeness": "90",
+      "confidence": 4,
+      "completeness": 90,
       "license": "CC-BY",
       "issued": "2026-09-01",
       "version": "2026-09-01",
@@ -64,7 +63,9 @@
       "gazetteer": "mrgid",
       "logo": "https://www.marinespecies.org/documents/WoRMS%20branding/WoRMS_logo_blue_negative.png",
       "citation": "Gibson, D.; Kmentova, N. (2026). World List of Monogenea. Accessed at https://www.marinespecies.org on 2026-09-01",
-      "contact": [],
+      "contact": {
+        "email": "info@marinespecies.org"
+      },
       "editor": [
         {
           "given": "David",
@@ -92,6 +93,8 @@
         }
       ]
     },
+    "metadataOrigin": "archive-embedded metadata.yml",
+    "metadataBytes": 1283,
     "metadataYamlSha256": "664d1c6f4af5285ab52a52a5b5f89775c3398cef39480b00cb20311a8bd7d61f",
     "members": {
       "metadata.yml": {
@@ -143,8 +146,7 @@
         "sha256": "ee47697e8adfa3b6b49895ef317ec9047c5020886b86a31c43182fdcc68bfec4"
       }
     },
-    "license": "CC-BY-4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "license": "CC-BY",
     "provider": "World Register of Marine Species via ChecklistBank",
     "retrievedAt": "2026-09-04",
     "provisionalAcceptedSpecies": 0
@@ -233,8 +235,8 @@
   },
   "output": {
     "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-monogenea-sidecar.json",
-    "descriptorBytes": 19641,
-    "descriptorSha256": "09c150ab0bfd1848ff5ac887cb7f5df471f69ae515f54045e0d162bddf5bb543",
+    "descriptorBytes": 19659,
+    "descriptorSha256": "19da160e463052ecfee3cc184199aa7a51f0ff284c48ce64923cc13e8a54758b",
     "files": [
       {
         "path": "other-animals/worms-monogenea-000.json.gz",

@@ -31,6 +31,11 @@ class TrematodaProjectionTests(unittest.TestCase):
             self.assertEqual(descriptor['source']['editor'], descriptor['source']['metadataRecord']['editor'])
             self.assertEqual(descriptor['source']['contributor'], descriptor['source']['metadataRecord']['contributor'])
             self.assertEqual(descriptor['source']['rights'], descriptor['source']['metadataRecord']['license'])
+            self.assertEqual(descriptor['source']['license'], 'cc by')
+            self.assertNotIn('licenseUrl', descriptor['source'])
+            self.assertEqual(descriptor['source']['embeddedMetadata']['doi'], None)
+            self.assertEqual(descriptor['source']['embeddedMetadata']['license'], 'CC-BY')
+            self.assertEqual(descriptor['source']['metadataConsistency']['status'], 'mismatch')
             with zipfile.ZipFile(mod.ARCHIVE) as archive:
                 self.assertEqual(set(descriptor['source']['members']), set(archive.namelist()))
                 for member, evidence in descriptor['source']['members'].items():

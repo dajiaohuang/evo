@@ -81,8 +81,19 @@ def parse_inline_yaml_map(value: str) -> dict[str, object]:
     return result
 
 
+def parse_yaml_scalar(value: str) -> object:
+    value = value.strip()
+    if value == "null":
+        return None
+    if len(value) >= 2 and value[0] == value[-1] == "'":
+        return value[1:-1]
+    if re.fullmatch(r"-?\d+", value):
+        return int(value)
+    return value
+
+
 def parse_metadata_yaml(raw: bytes) -> dict[str, object]:
-    """Extract the source identity/provenance fields verbatim from metadata.yml."""
+    """Project the fixed ColDP metadata structure; raw bytes stay hash-pinned."""
     text = raw.decode("utf-8")
     result: dict[str, object] = {}
     current: str | None = None
@@ -95,21 +106,20 @@ def parse_metadata_yaml(raw: bytes) -> dict[str, object]:
             if current:
                 result.setdefault(current, []).append(parse_inline_yaml_map(line.strip()[2:]))
             continue
+        nested = re.match(r"^\s{4}([A-Za-z][A-Za-z0-9_]*):\s*(.*)$", line)
+        if nested and current == "contact" and isinstance(result.get(current), dict):
+            result[current][nested.group(1)] = parse_yaml_scalar(nested.group(2))
+            continue
         match = re.match(r"^([A-Za-z][A-Za-z0-9_]*):\s*(.*)$", line)
         if not match:
             continue
         key_name, value = match.groups()
         if value == "":
             current = key_name
-            result[key_name] = []
+            result[key_name] = {} if key_name == "contact" else []
         else:
             current = None
-            if value == "null":
-                result[key_name] = None
-            elif len(value) >= 2 and value[0] == value[-1] == "'":
-                result[key_name] = value[1:-1]
-            else:
-                result[key_name] = value
+            result[key_name] = parse_yaml_scalar(value)
     return result
 
 
@@ -313,7 +323,6 @@ def load_source(path: pathlib.Path) -> tuple[dict, dict[str, list[dict]], dict[s
         "title": metadata["title"],
         "doi": metadata.get("doi"),
         "version": SOURCE_VERSION,
-        "versionDoi": "10.48580/d3cv.v86",
         "issued": metadata["issued"],
         "citation": metadata["citation"],
         "editor": metadata.get("editor", []),
@@ -321,10 +330,11 @@ def load_source(path: pathlib.Path) -> tuple[dict, dict[str, list[dict]], dict[s
         "metadataLicense": metadata["license"],
         "rights": metadata["license"],
         "metadataRecord": metadata,
+        "metadataOrigin": "archive-embedded metadata.yml",
+        "metadataBytes": len(metadata_bytes),
         "metadataYamlSha256": digest(metadata_bytes),
         "members": member_hashes,
-        "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "license": metadata["license"],
         "provider": "World Register of Marine Species via ChecklistBank",
         "retrievedAt": "2026-09-04",
         "provisionalAcceptedSpecies": provisional,

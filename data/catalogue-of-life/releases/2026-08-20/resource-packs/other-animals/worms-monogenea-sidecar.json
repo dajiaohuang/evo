@@ -16,7 +16,6 @@
     "title": "World List of Monogenea",
     "doi": null,
     "version": "2026-09-01",
-    "versionDoi": "10.48580/d3cv.v86",
     "issued": "2026-09-01",
     "citation": "Gibson, D.; Kmentova, N. (2026). World List of Monogenea. Accessed at https://www.marinespecies.org on 2026-09-01",
     "editor": [
@@ -55,8 +54,8 @@
       "geographicScope": "Global",
       "taxonomicScope": "monogeneans",
       "temporalScope": "1758-2026",
-      "confidence": "4",
-      "completeness": "90",
+      "confidence": 4,
+      "completeness": 90,
       "license": "CC-BY",
       "issued": "2026-09-01",
       "version": "2026-09-01",
@@ -65,7 +64,9 @@
       "gazetteer": "mrgid",
       "logo": "https://www.marinespecies.org/documents/WoRMS%20branding/WoRMS_logo_blue_negative.png",
       "citation": "Gibson, D.; Kmentova, N. (2026). World List of Monogenea. Accessed at https://www.marinespecies.org on 2026-09-01",
-      "contact": [],
+      "contact": {
+        "email": "info@marinespecies.org"
+      },
       "editor": [
         {
           "given": "David",
@@ -93,6 +94,8 @@
         }
       ]
     },
+    "metadataOrigin": "archive-embedded metadata.yml",
+    "metadataBytes": 1283,
     "metadataYamlSha256": "664d1c6f4af5285ab52a52a5b5f89775c3398cef39480b00cb20311a8bd7d61f",
     "members": {
       "metadata.yml": {
@@ -144,8 +147,7 @@
         "sha256": "ee47697e8adfa3b6b49895ef317ec9047c5020886b86a31c43182fdcc68bfec4"
       }
     },
-    "license": "CC-BY-4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "license": "CC-BY",
     "provider": "World Register of Marine Species via ChecklistBank",
     "retrievedAt": "2026-09-04",
     "provisionalAcceptedSpecies": 0

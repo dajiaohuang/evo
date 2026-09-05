@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc139 — 2026-09-05
+
+- Corrected Monogenea exact matching by normalizing COL name and authorship before removing the trailing authorship. This resolves nine previously missed byte-traceable exact matches: 5,844 accepted, 8 unmatched and 34 source-only records across the unchanged 5,852-row COL scope.
+- Expanded Monogenea and Trematoda provenance to retain pinned metadata identity, editors/contributors, complete archive-member digests, bibliography records and source-row locators. Matching remains NFC + whitespace normalization only; no fuzzy, synonym or species-concept inference is introduced.
+- Removed an unsupported `CC-BY-4.0` normalization: Monogenea retains archive `CC-BY`; Trematoda retains API `cc by` and archive `CC-BY` plus their differing DOI claims as separate evidence.
+- Removed the API-only Monogenea version DOI from the archive-only projection; its embedded `metadata.yml` is now explicitly identified and retains `doi: null` without mixing metadata layers.
+- Re-sharded the richer Monogenea records into 23 COL partitions plus one source-only partition for full Android/iOS delivery; Web remains summary-only.
+
 ## 2026.09-static-v5-rc138 — 2026-09-05
 
 - Added a byte-pinned World Hydrozoa Database / ChecklistBank attempt-84 authority archive for Hydrozoa: 4,005 COL species rows (3,997 exact accepted matches and 8 unmatched) plus 7 source-only accepted-species records.

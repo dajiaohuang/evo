@@ -641,12 +641,14 @@ final class AppConfigurationTests: XCTestCase {
                     expectedRecords: 20_367, expectedUpstreamRecords: 202, label: "WoRMS Bryozoa")
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-monogenea-archive-crosswalk" }),
-                    inventory: files, below: dataRoot, expectedFiles: 18, expectedUpstreamFiles: 1,
-                    expectedRecords: 5_852, expectedUpstreamRecords: 43, label: "WoRMS Monogenea")
+                    inventory: files, below: dataRoot, expectedFiles: 23, expectedUpstreamFiles: 1,
+                    expectedRecords: 5_852, expectedUpstreamRecords: 34,
+                    expectedLicense: "CC-BY", label: "WoRMS Monogenea")
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-trematoda-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 17, expectedUpstreamFiles: 1,
-                    expectedRecords: 12_007, expectedUpstreamRecords: 99, label: "WoRMS Trematoda")
+                    expectedRecords: 12_007, expectedUpstreamRecords: 99,
+                    expectedLicense: "cc by", label: "WoRMS Trematoda")
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-annelida-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 8, expectedUpstreamFiles: 1,

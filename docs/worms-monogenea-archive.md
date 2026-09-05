@@ -1,7 +1,9 @@
 # WoRMS Monogenea archive projection
 
 This source-specific projection freezes the WoRMS Monogenea ColDP archive
-from ChecklistBank dataset 1126, version 2026-09-01 (`10.48580/d3cv.v86`).
+from ChecklistBank dataset 1126, version 2026-09-01. The archive's embedded
+`metadata.yml` reports its DOI as `null`; this projection therefore does not
+attach a DOI or version DOI from a separate API response.
 The pinned archive is ZIP bytes, 1,235,337 bytes, SHA-256
 `f11c11f3ca7c8b5a858e36906f87e1aa81ea3438475e736b63efbda0e59f8699`.
 
@@ -15,9 +17,10 @@ authorship removed only after normalization, yields 5,844 accepted matches,
 native rows). Source-only rows
 retain null COL ownership and are not claims of globally new species.
 
-The metadata title, DOI, version, citation, editors, contributing organisations
-and CC-BY rights are retained alongside all archive-member byte lengths and
-SHA-256 digests. Source fields, original names/authorship, source IDs, source
+The archive-embedded metadata title, null DOI, version, citation, editors,
+contributing organisations and unversioned `CC-BY` label are retained alongside
+the metadata byte length/hash and all archive-member byte lengths and SHA-256
+digests. Source fields, original names/authorship, source IDs, source
 links, reference IDs and Name.txt/Taxon.txt/NameReference.txt/Reference.txt
 locators are retained for every linked source row. Synonym relationships are
 not used to discard accepted taxa. No fuzzy matching, species-concept

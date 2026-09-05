@@ -37,6 +37,22 @@ def col_bare(row):
     return name[:-len(suffix)] if author and name.endswith(suffix) else name
 
 
+def parse_embedded_metadata(raw):
+    fields = {}
+    wanted = {'doi', 'title', 'issued', 'version', 'license', 'website', 'citation'}
+    for line in raw.decode('utf-8').splitlines():
+        if line.startswith((' ', '\t')) or ':' not in line:
+            continue
+        key, value = line.split(':', 1)
+        if key not in wanted:
+            continue
+        value = value.strip()
+        fields[key] = None if value == 'null' else value[1:-1] if len(value) >= 2 and value[0] == value[-1] == "'" else value
+    fields['bytes'] = len(raw)
+    fields['sha256'] = digest(raw)
+    return fields
+
+
 def source_name(name, taxon):
     tid = taxon['ID'].rsplit(':', 1)[-1]
     return {'id': taxon['ID'], 'aphiaId': tid, 'scientificName': name['scientificName'],
@@ -49,6 +65,7 @@ def source_name(name, taxon):
 def read_archive(path):
     members = {}
     with zipfile.ZipFile(path) as archive:
+        embedded_metadata = parse_embedded_metadata(archive.read('metadata.yml'))
         for name in archive.namelist():
             raw = archive.read(name)
             members[name] = {'bytes': len(raw), 'sha256': digest(raw)}
@@ -68,7 +85,7 @@ def read_archive(path):
                 continue
             accepted[taxon['ID'].rsplit(':', 1)[-1]] = (taxon, name[0], i, name[1])
         synonyms = rows('Synonym.txt')
-    return accepted, references, name_refs, members, len(synonyms), provisional
+    return accepted, references, name_refs, members, embedded_metadata, len(synonyms), provisional
 
 
 def read_col():
@@ -124,13 +141,17 @@ def project(archive, output_root=None):
     raw = archive.read_bytes()
     if len(raw) != ARCHIVE_BYTES or digest(raw) != ARCHIVE_SHA:
         raise ValueError('archive does not match pinned bytes')
-    source, references, name_refs, members, synonym_count, provisional_count = read_archive(archive)
+    source, references, name_refs, members, embedded_metadata, synonym_count, provisional_count = read_archive(archive)
     metadata_bytes = METADATA.read_bytes()
     metadata = json.loads(metadata_bytes)
     if (metadata.get('key'), metadata.get('title'), metadata.get('version'),
             metadata.get('versionDoi')) != (1128, 'World List of Trematoda',
                                             '2026-09-01', '10.48580/d3cx.v86'):
         raise ValueError('unexpected ChecklistBank metadata identity')
+    if (embedded_metadata.get('doi'), embedded_metadata.get('title'), embedded_metadata.get('version'),
+            embedded_metadata.get('issued'), embedded_metadata.get('license')) != (
+                None, 'World List of Trematoda', '2026-09-01', '2026-09-01', 'CC-BY'):
+        raise ValueError('unexpected Trematoda archive metadata identity')
     col, col_sha, col_inputs = read_col()
     by_key = {}
     for tid, (taxon, name, taxon_row, name_row) in source.items():
@@ -204,8 +225,16 @@ def project(archive, output_root=None):
                              'metadataLicense': metadata.get('license'), 'rights': metadata.get('license'),
                              'metadataRecord': metadata,
                              'metadataBytes': len(metadata_bytes),
-                             'metadataSha256': digest(metadata_bytes), 'license': 'CC-BY-4.0',
-                             'licenseUrl': 'https://creativecommons.org/licenses/by/4.0/',
+                             'metadataSha256': digest(metadata_bytes), 'license': metadata.get('license'),
+                             'embeddedMetadata': embedded_metadata,
+                             'metadataConsistency': {
+                                 'status': 'mismatch',
+                                 'apiResponse': {'doi': metadata.get('doi'), 'versionDoi': metadata.get('versionDoi'),
+                                                 'version': metadata.get('version'), 'issued': metadata.get('issued'),
+                                                 'license': metadata.get('license')},
+                                 'archiveEmbedded': {'doi': embedded_metadata.get('doi'), 'version': embedded_metadata.get('version'),
+                                                     'issued': embedded_metadata.get('issued'), 'license': embedded_metadata.get('license')},
+                                 'boundary': 'The byte-pinned archive drives the projection; archive metadata.yml and API metadata remain separate evidence.'},
                              'rightsHolder': 'WoRMS Editorial Board', 'archiveUrl': 'https://api.checklistbank.org/dataset/1128/archive',
                              'archiveBytes': len(raw), 'archiveSha256': digest(raw), 'members': members},
                   'scope': {'colRootUsageId': COL_ROOT, 'wormsRootId': '19948', 'scientificName': 'Trematoda',

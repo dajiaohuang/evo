@@ -131,8 +131,35 @@
     },
     "metadataBytes": 2227,
     "metadataSha256": "1ca47fb82724d96f18167770e24b39b9a84172e60931b0d4d5675aea521e8d79",
-    "license": "CC-BY-4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "license": "cc by",
+    "embeddedMetadata": {
+      "doi": null,
+      "title": "World List of Trematoda",
+      "license": "CC-BY",
+      "issued": "2026-09-01",
+      "version": "2026-09-01",
+      "website": "https://www.marinespecies.org",
+      "citation": "Gibson, D.; Bray, R.; Blasco-Costa, I. (2026). World List of Trematoda. Accessed at https://www.marinespecies.org on 2026-09-01",
+      "bytes": 1356,
+      "sha256": "90bd7bb23a5104a05b3bf9d4c302602122736e0ef4a5d1aca9e09df81a6e81d0"
+    },
+    "metadataConsistency": {
+      "status": "mismatch",
+      "apiResponse": {
+        "doi": "10.48580/d3cx",
+        "versionDoi": "10.48580/d3cx.v86",
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "cc by"
+      },
+      "archiveEmbedded": {
+        "doi": null,
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "CC-BY"
+      },
+      "boundary": "The byte-pinned archive drives the projection; archive metadata.yml and API metadata remain separate evidence."
+    },
     "rightsHolder": "WoRMS Editorial Board",
     "archiveUrl": "https://api.checklistbank.org/dataset/1128/archive",
     "archiveBytes": 4128567,
@@ -1473,7 +1500,7 @@
   ],
   "generatedBy": {
     "script": "scripts/build-worms-trematoda-source.py",
-    "scriptSha256": "2f58ccdbaef77553b249aed8de47d06e472dcff9efbef81fc85b63588dc0c862",
+    "scriptSha256": "39610f8eee605ad08b08fb0bc38c10687da4201fa8025ac8376b145305f5e690",
     "hashNormalization": "LF"
   },
   "outputs": {
