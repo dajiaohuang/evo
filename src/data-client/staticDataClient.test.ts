@@ -84,9 +84,7 @@ async function installCatalogueFixture({
     const routes: Record<string, string[]> = {}
     const files = []
     for (const [prefix, groupedRecords] of groups) {
-      const url = layer === 'turkey'
-        ? `releases/dataset-col/catalogue/descriptions/turkey-${prefix}.json.gz`
-        : `releases/dataset-col/catalogue/hierarchy/${layer}-${prefix}.jsonl`
+      const url = `releases/dataset-col/catalogue/hierarchy/${layer}-${prefix}.jsonl`
       const body = `${groupedRecords.map((record) => JSON.stringify(record)).join('\n')}\n`
       const file = {
         prefix,

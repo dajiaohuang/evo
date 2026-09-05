@@ -550,18 +550,18 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
             <small>{brazilFlora.wfoId} · {description.sourceId} · source row {description.rowNumber}{description.referenceRowNumbers.length ? ` · reference rows ${description.referenceRowNumbers.join(', ')}` : ''} · {description.citationScope}</small>
           </details>)}
           </section>}
-        {turkeyError && <p role="status">Turkey flora descriptions could not be loaded.</p>}
+        {turkeyError && <p role="status">{zh ? '土耳其植物志描述暂时无法加载。' : 'Turkey flora descriptions could not be loaded.'}</p>}
         {turkey && manifest.turkeyDescriptions && <section className="catalogue-source-card">
-          <h2>Turkey flora source descriptions</h2>
-          <p>Historical regional source from Turkey (20 February 2024 snapshot), not a complete species dossier or current census. Original Turkish text is shown as plain text; no figures, PDFs or authored summaries are included.</p>
-          <p>Source name: {turkey.sourceScientificName} {turkey.sourceAuthorship} · Family: {turkey.sourceFamily}</p>
+          <h2>{zh ? '土耳其植物志来源描述' : 'Turkey flora source descriptions'}</h2>
+          <p>{zh ? '土耳其区域历史来源（2024年2月20日快照），不是完整物种档案或当前名录。土耳其语原文以纯文本显示，不含图版、PDF 或另行编写的摘要。' : 'Historical regional source from Turkey (20 February 2024 snapshot), not a complete species dossier or current census. Original Turkish text is shown as plain text; no figures, PDFs or authored summaries are included.'}</p>
+          <p>{zh ? '来源名称：' : 'Source name: '}{turkey.sourceScientificName} {turkey.sourceAuthorship} · {zh ? '科：' : 'Family: '}{turkey.sourceFamily}</p>
           <p><a href={manifest.turkeyDescriptions.source.sourceUrl}>{manifest.turkeyDescriptions.source.provider} — {manifest.turkeyDescriptions.source.title}</a> · {manifest.turkeyDescriptions.source.sourceVersion} · {manifest.turkeyDescriptions.source.retrievedAt} · <a href={manifest.turkeyDescriptions.source.licenseUrl}>{manifest.turkeyDescriptions.source.license}</a></p>
           {turkey.descriptions.map((description) => <details key={description.descriptionRecordNumber}>
-            <summary>Morphology</summary>
-            <p lang="tr" style={{ whiteSpace: 'pre-wrap' }}>{description.text}</p>
+            <summary>{zh ? '形态' : 'Morphology'}</summary>
+            <p lang={description.language} style={{ whiteSpace: 'pre-wrap' }}>{description.text}</p>
             <p>{description.datasetCitation}</p>
             <p>{description.rights} · <a href={description.license}>{description.license}</a></p>
-            <small>{turkey.wfoId} · description record {description.descriptionRecordNumber} · dataset citation</small>
+            <small>{turkey.wfoId} · {zh ? '描述记录' : 'description record'} {description.descriptionRecordNumber} · {zh ? '数据集级引用' : 'dataset citation'}</small>
           </details>)}
         </section>}
         {pakistanError && <p role="status">{zh ? '巴基斯坦植物志描述暂时无法加载。' : 'Flora of Pakistan descriptions could not be loaded.'}</p>}
