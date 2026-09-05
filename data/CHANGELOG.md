@@ -2,6 +2,9 @@
 
 ## Unreleased content corrections
 
+- Added specific sample context for Protolenus, Gigoutella, Jaekelopterus, Ymboirana, Triarthrus, Rhyniella and the Paskov wing; clarified that the Parhyale experimental time marker denotes modern material.
+- Corrected Jaekelopterus measurements across the claim, event, reference and map example: 36.4 cm is the preserved fixed ramus, 45.5 cm its estimated complete length, and approximately 2.5 m a separate body-length estimate.
+
 - Replaced generic range introductions for Olenoides, Megachelicerax, Elpistostege, Acanthostega and Ichthyostega with named locality, specimen or stratigraphic context while preserving the fossil-range claims required by their profiles.
 
 - Clarified that Lingula larval mantle BMP activity supports a proposed shared biomineralization mechanism, not a functionally established causal role, following the original study's explicit qualification.
