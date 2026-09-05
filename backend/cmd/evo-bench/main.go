@@ -33,23 +33,36 @@ func main() {
 	concurrency := flag.Int("concurrency", 16, "parallel workers for the mixed request test")
 	fullSync := flag.Bool("full-sync", false, "transfer and hash every current full-release resource, then verify Range resume")
 	syncConcurrency := flag.Int("sync-concurrency", 4, "parallel workers for -full-sync")
-	serverURL := flag.String("server-url", "", "HTTP server URL for -full-sync; omit to use an in-process httptest server")
+	serverURL := flag.String("server-url", "", "HTTP server URL for -full-sync or query benchmark; omit to use an in-process httptest server")
 	flag.Parse()
-	if *fullSync && strings.TrimRight(*serverURL, "/") != "" {
+	if strings.TrimRight(*serverURL, "/") != "" {
 		client := &http.Client{}
-		report, err := runFullSync(client, strings.TrimRight(*serverURL, "/"), *syncConcurrency)
+		baseURL := strings.TrimRight(*serverURL, "/")
+		if *fullSync {
+			report, err := runFullSync(client, baseURL, *syncConcurrency)
+			if err != nil {
+				panic(err)
+			}
+			report.Transport = "http-socket"
+			b, err := json.MarshalIndent(report, "", "  ")
+			if err != nil {
+				panic(err)
+			}
+			fmt.Println(string(b))
+			if report.Errors != 0 || report.Mismatches != 0 || report.Resume.Status != http.StatusPartialContent || !report.Resume.HashMatches {
+				os.Exit(1)
+			}
+			return
+		}
+		report, err := runSocketQueryBench(client, baseURL, *rounds, *concurrency)
 		if err != nil {
 			panic(err)
 		}
-		report.Transport = "http-socket"
 		b, err := json.MarshalIndent(report, "", "  ")
 		if err != nil {
 			panic(err)
 		}
 		fmt.Println(string(b))
-		if report.Errors != 0 || report.Mismatches != 0 || report.Resume.Status != http.StatusPartialContent || !report.Resume.HashMatches {
-			os.Exit(1)
-		}
 		return
 	}
 	started := time.Now()

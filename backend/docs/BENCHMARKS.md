@@ -33,6 +33,18 @@ Use `-server-url` to exercise a real listening TCP socket instead of the in-proc
 go -C backend run ./cmd/evo-bench -full-sync -server-url http://127.0.0.1:8787 -sync-concurrency 4
 ```
 
+For a real listening TCP socket, use the query benchmark mode:
+
+```powershell
+go -C backend run ./cmd/evo-bench -server-url http://127.0.0.1:8787 -rounds 50 -concurrency 32
+```
+
+### RC144 large-tree query socket evidence (2026-09-05)
+
+The command above was run against a fresh `evo-api` process on the same Windows 10 Pro N / Go 1.26.3 host. It discovered dataset `2026.09-static-v5-rc144`, `treeNodeCount=2,429,092`, `rootCount=4`, and an 8-request greedy lineage path. At 50 rounds and 32 concurrent workers, all 2,501 requests completed without error. Client-visible p50/p95 were: warm routed search `3.999/6.159 ms`, resident leaf detail `0/0.530 ms`, root children page `0/0.537 ms`, sequential lineage `0.521/0.558 ms`, and mixed concurrency `5.000/9.684 ms` (p99 `12.796 ms`). The first routed search on the fresh process was `208.843 ms`.
+
+At 100 rounds and 128 concurrent workers, all 12,800 mixed requests completed without error; mixed p50/p95/p99 were `13.111/39.780/57.436 ms`. A separate 100 ms sampler over the fresh API process during the run recorded peak working set `801.92 MiB` and peak private memory `843.30 MiB`. This is a same-host TCP loopback measurement with a warm resident tree, not a mobile or internet performance claim.
+
 ### RC143 full-sync evidence (2026-09-05)
 
 Measured from commit `0bd9564ca84c2dbccf23f9ec318da7a12e91cef7` on Windows 10 Pro N `10.0.19045`, Go `1.26.3`, `windows/amd64`, 32 logical CPUs, 31.8 GiB RAM and NTFS. Command: `go -C backend run ./cmd/evo-bench -data-root .. -full-sync -sync-concurrency 4`. Dataset: `2026.09-static-v5-rc143`.
