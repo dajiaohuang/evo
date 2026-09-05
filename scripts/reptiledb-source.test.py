@@ -58,7 +58,8 @@ class ReptileDatabaseProjectionTests(unittest.TestCase):
                 'versionDoi': '10.48580/d37s.v31', 'title': 'The Reptile Database',
                 'issued': '2026-06-24', 'version': '2026-06', 'license': 'cc by'})
             self.assertEqual(descriptor['source']['apiResponseSha256'], '47ca412c6122a5f9399fa65e9f13800da3215c7d2ec9383f40b26adcb382dc16')
-            self.assertEqual(descriptor['source']['license'], 'CC-BY-4.0')
+            self.assertEqual(descriptor['source']['license'], 'cc by')
+            self.assertNotIn('licenseUrl', descriptor['source'])
             self.assertEqual(descriptor['matching']['prohibited'],
                              'No fuzzy, case-folded, accent-folded, synonym, rank or species-concept matching.')
             self.assertEqual(descriptor['deliveryProfiles']['web-light']['records'], 0)

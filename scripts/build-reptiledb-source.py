@@ -213,11 +213,11 @@ def project(path, partition):
     source_files = write_shards(spec['directory'], spec['prefix'] + '-source-only', upstream, 'upstream-only')
     source_info = {'datasetId': '1008', 'title': metadata['title'], 'alias': metadata['alias'], 'version': metadata['version'],
                    'versionDoi': metadata.get('versionDoi'), 'doi': metadata['doi'], 'issued': metadata['issued'],
-                   'citation': metadata['citation'], 'creator': metadata['creator'], 'license': 'CC-BY-4.0',
+                   'citation': metadata['citation'], 'creator': metadata['creator'], 'license': metadata['license'],
                    'embeddedArchiveMetadata': {'member': 'metadata.yaml', **archive_metadata},
                    'apiEndpoint': metadata['apiEndpoint'], 'apiResponseBytes': metadata['apiResponseBytes'],
                    'apiResponseSha256': metadata['apiResponseSha256'],
-                   'licenseUrl': 'https://creativecommons.org/licenses/by/4.0/', 'archiveUrl': 'https://api.checklistbank.org/dataset/1008/archive',
+                   'archiveUrl': 'https://api.checklistbank.org/dataset/1008/archive',
                    'archivePath': 'data/sources/archives/checklistbank-1008-reptiledb-2026-06.zip',
                    'metadataPath': 'data/sources/archives/checklistbank-1008-reptiledb-2026-06.metadata.json',
                    'metadataBytes': len(metadata_bytes), 'metadataSha256': digest(metadata_bytes), 'archiveBytes': len(raw),
