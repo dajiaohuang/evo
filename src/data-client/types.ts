@@ -1407,6 +1407,26 @@ export interface CatalogueBrazilFloraDescriptionRecord {
   }>
 }
 
+export interface CatalogueTurkeyDescriptionRecord {
+  colId: string
+  wfoId: string
+  scientificName: string
+  sourceScientificName: string
+  sourceAuthorship: string
+  sourceFamily: string
+  descriptions: Array<{
+    type: 'morphology'
+    language: 'tr'
+    sourceLanguage: 'TR'
+    text: string
+    descriptionRecordNumber: number
+    citationScope: 'dataset'
+    datasetCitation: string
+    rights: string
+    license: string
+  }>
+}
+
 export interface CataloguePlaziDescriptionRecord {
   colId: string
   scientificName: string
@@ -1528,6 +1548,11 @@ export interface CatalogueFdacDescriptionRecord {
 }
 
 export interface CatalogueRuntimeManifest {
+  turkeyDescriptions?: {
+    source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
+    routes: Record<string, string[]>
+    files: CatalogueRuntimeFile[]
+  }
   brazilFloraDescriptions?: {
     source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
     routes: Record<string, string[]>
