@@ -2,6 +2,13 @@
 
 ## 2026.09-static-v5-rc146 — 2026-09-08
 
+- Added the complete CC0 ChecklistBank ITIS dataset `2144` as a neutral global
+  source layer: six original tabular members, 2,610,877 rows and 674
+  checksum-addressed deterministic shards. The archive and internal metadata
+  remain byte-pinned; no filtering, fuzzy matching or species-concept
+  equivalence is asserted. Pages stays descriptor-only and the source is not
+  attached to package ownership or the default native package budget.
+
 - Added a CC BY 4.0 Bryonames source-identifier projection for all 698 strict
   accepted `other-plants` COL26.8 usages. Each row keeps the exact ChecklistBank
   relation, source name-usage/status fields, URL and reference identifiers; the
