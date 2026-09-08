@@ -1310,11 +1310,14 @@ function publishPaleotopographySeries() {
     if (canonicalBytes.byteLength !== selectedGrid.bytes || sha256(canonicalBytes) !== selectedGrid.sha256) {
       throw new Error(`PaleoDEM ${frame.archiveNominalAgeMa} Ma ${paleotopographyDelivery} grid bytes differ from the pinned source ledger`)
     }
-    const decoded = gunzipSync(canonicalBytes)
+    // Canonical source grids may use storage-only Brotli migration while the
+    // runtime wire format remains deterministic gzip for existing clients.
+    const decoded = canonicalPath.endsWith('.br') ? brotliDecompressSync(canonicalBytes) : gunzipSync(canonicalBytes)
     if (decoded.byteLength !== selectedGrid.decodedBytes || sha256(decoded) !== selectedGrid.decodedSha256) {
       throw new Error(`PaleoDEM ${frame.archiveNominalAgeMa} Ma ${paleotopographyDelivery} decoded grid differs from the pinned source ledger`)
     }
-    const runtimeGrid = write(`maps/paleotopography/${paleotopographySource.id}/grids/ma-${String(frame.archiveNominalAgeMa).padStart(4, '0')}.${nativeFull ? 'full-01deg' : 'preview-03deg'}.i16.gz`, canonicalBytes)
+    const runtimeBytes = canonicalPath.endsWith('.br') ? deterministicGzip(decoded, { level: 9 }) : canonicalBytes
+    const runtimeGrid = write(`maps/paleotopography/${paleotopographySource.id}/grids/ma-${String(frame.archiveNominalAgeMa).padStart(4, '0')}.${nativeFull ? 'full-01deg' : 'preview-03deg'}.i16.gz`, runtimeBytes)
     const { grid: fullGrid, webPreviewGrid, ...metadata } = frame
     return {
       ...metadata,
@@ -1342,7 +1345,9 @@ function publishPaleotopographySeries() {
       },
     }
   })
-  const expectedRuntimeBytes = nativeFull ? totals.independentGridGzipBytes : totals.webPreviewGridGzipBytes
+  const expectedRuntimeBytes = nativeFull
+    ? (totals.independentGridRuntimeGzipBytes ?? totals.independentGridGzipBytes)
+    : totals.webPreviewGridGzipBytes
   if (runtimeFrames.reduce((sum, frame) => sum + frame.grid.bytes, 0) !== expectedRuntimeBytes) {
     throw new Error(`PaleoDEM ${paleotopographyDelivery} runtime bytes do not match the complete-series total`)
   }
@@ -1606,6 +1611,8 @@ const pakistanSource = readJson('data/sources/pakistan-descriptions-import-ledge
 const mossChinaSource = readJson('data/sources/moss-china-descriptions-import-ledger.json')
 const fnaSource = readJson('data/sources/fna-descriptions-import-ledger.json')
 const brazilFloraSource = readJson('data/sources/brazil-flora-descriptions-import-ledger.json')
+const nicaraguaSource = readJson('data/sources/flora-nicaragua-descriptions-import-ledger.json')
+const panamaSource = readJson('data/sources/flora-panama-descriptions-import-ledger.json')
 const turkeySource = readJson('data/sources/turkey-descriptions-import-ledger.json')
 const floraChinaSource = readJson('data/sources/flora-china-descriptions-import-ledger.json')
 const floraChinaBytes = readFileSync(join(rootDir, floraChinaSource.output))
@@ -1636,6 +1643,26 @@ const brazilFloraFiles = partitionSanbiDescriptions(brazilFloraRecords).map(([pr
   const path = `catalogue/descriptions/brazil-flora-${prefix}.json.gz`
   const file = { ...writeGzipJson(path, records), prefix, path, records: records.length }
   brazilFloraRoutes[prefix] = [file.url]
+  return file
+})
+const nicaraguaBytes = readFileSync(join(rootDir, nicaraguaSource.output))
+if (nicaraguaBytes.length !== nicaraguaSource.outputBytes || sha256(nicaraguaBytes) !== nicaraguaSource.outputSha256) throw new Error('Flora de Nicaragua source bytes differ from the import ledger')
+const nicaraguaRecords = brotliDecompressSync(nicaraguaBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
+const nicaraguaRoutes = {}
+const nicaraguaFiles = partitionSanbiDescriptions(nicaraguaRecords).map(([prefix, records]) => {
+  const path = `catalogue/descriptions/flora-nicaragua-${prefix}.json.gz`
+  const file = { ...writeGzipJson(path, records), prefix, path, records: records.length }
+  nicaraguaRoutes[prefix] = [file.url]
+  return file
+})
+const panamaBytes = readFileSync(join(rootDir, panamaSource.output))
+if (panamaBytes.length !== panamaSource.outputBytes || sha256(panamaBytes) !== panamaSource.outputSha256) throw new Error('Flora of Panama source bytes differ from the import ledger')
+const panamaRecords = brotliDecompressSync(panamaBytes).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
+const panamaRoutes = {}
+const panamaFiles = partitionSanbiDescriptions(panamaRecords).map(([prefix, records]) => {
+  const path = `catalogue/descriptions/flora-panama-${prefix}.json.gz`
+  const file = { ...writeGzipJson(path, records), prefix, path, records: records.length }
+  panamaRoutes[prefix] = [file.url]
   return file
 })
 const fnaBytes = readFileSync(join(rootDir, fnaSource.output))
@@ -1730,6 +1757,8 @@ catalogueRuntimeManifest = {
   mossChinaDescriptions: { source: mossChinaSource, routes: mossChinaRoutes, files: mossChinaFiles },
   fnaDescriptions: { source: fnaSource, routes: fnaRoutes, files: fnaFiles },
   brazilFloraDescriptions: { source: brazilFloraSource, routes: brazilFloraRoutes, files: brazilFloraFiles },
+  nicaraguaDescriptions: { source: nicaraguaSource, routes: nicaraguaRoutes, files: nicaraguaFiles },
+  panamaDescriptions: { source: panamaSource, routes: panamaRoutes, files: panamaFiles },
   turkeyDescriptions: { source: turkeySource, routes: turkeyRoutes, files: turkeyFiles },
   floraChinaDescriptions: { source: floraChinaSource, routes: floraChinaRoutes, files: floraChinaFiles },
   sanbiDescriptions: { source: sanbiSource, routes: sanbiRoutes, files: sanbiFiles },
@@ -1858,6 +1887,8 @@ const current = {
       + (catalogueRuntimeManifest.mossChinaDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.fnaDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.brazilFloraDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
+      + (catalogueRuntimeManifest.nicaraguaDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
+      + (catalogueRuntimeManifest.panamaDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.turkeyDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.floraChinaDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.plaziDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0),

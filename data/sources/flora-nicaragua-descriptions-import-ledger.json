@@ -1,0 +1,28 @@
+{
+  "provider": "Missouri Botanical Garden",
+  "title": "Flora de Nicaragua",
+  "retrievedAt": "2026-09-08",
+  "sourceVersion": "WFO MBG DwC-A archive retrieved 2026-09-08",
+  "sourceUrl": "https://files.worldfloraonline.org/files/MBG/Flora_Of_Nicaragua/Flora_Of_Nicaragua.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "archiveSha256": "dc809ec562fb3c2b3558c9fa53dee7478721eb32367f0e32b7324b8992058088",
+  "inputSha256": "6b8cc4dc0afc697d80aa112442f452104bb282676a84f5b97ce1bcbebe834a62",
+  "output": "data/sources/flora-nicaragua-descriptions.jsonl.br",
+  "outputBytes": 1520202,
+  "outputSha256": "1da45c711ef2156d6836a190434cf500638fe426495e6cbac4b7af062cf6457d",
+  "decodedBytes": 11420660,
+  "decodedSha256": "2fb2076e562e67d8f1cf81b27714cd5b0fc1cd4057b6fcb0bde8d779fbd5fd6a",
+  "species": 4917,
+  "descriptions": 4919,
+  "types": {
+    "general": 4919
+  },
+  "limitations": [
+    "Regional historical source, not a current or global inventory or complete species dossier.",
+    "Only exact, unique accepted WFO/COL crosswalk identities are materialized; ambiguous, synonym, and unmatched archive rows remain retained outside the runtime.",
+    "Original source HTML is normalized to plain text for display; source row numbers, references, and the retained archive preserve provenance.",
+    "Archive-declared language is preserved as metadata; no translation or inferred trait was authored.",
+    "The archive's linked Tropicos pages, images, and PDFs are not redistributed by this source pack."
+  ]
+}

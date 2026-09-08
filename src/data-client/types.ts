@@ -1407,6 +1407,42 @@ export interface CatalogueBrazilFloraDescriptionRecord {
   }>
 }
 
+export interface CatalogueMbgFloraDescriptionRecord {
+  colId: string
+  wfoId: string
+  scientificName: string
+  descriptions: Array<{
+    type: 'general' | 'habit' | 'distribution'
+    language: string
+    languageNote: string
+    text: string
+    rowNumber: number
+    sourceId: string | null
+    sourceIds: string[]
+    citations: Array<{
+      identifier: string
+      citation: string
+      rowNumber: number
+      title: string
+      creator: string
+      date: string
+      source: string
+      language: string
+      license: string
+      rightsHolder: string
+    }>
+    referenceRowNumbers: number[]
+    citationMissingInSource: boolean
+    missingSourceIds: string[]
+    citationScope: 'description-source' | 'description-source-partial' | 'dataset'
+    datasetCitation: string
+    rightsHolder: string
+    rights: string
+    license: string
+    sourceExcerpt: true
+  }>
+}
+
 export interface CatalogueFloraChinaDescriptionRecord {
   colId: string
   wfoId: string
@@ -1569,6 +1605,16 @@ export interface CatalogueFdacDescriptionRecord {
 }
 
 export interface CatalogueRuntimeManifest {
+  nicaraguaDescriptions?: {
+    source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
+    routes: Record<string, string[]>
+    files: CatalogueRuntimeFile[]
+  }
+  panamaDescriptions?: {
+    source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
+    routes: Record<string, string[]>
+    files: CatalogueRuntimeFile[]
+  }
   floraChinaDescriptions?: {
     source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
     routes: Record<string, string[]>

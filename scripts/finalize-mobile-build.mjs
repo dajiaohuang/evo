@@ -62,7 +62,7 @@ if (releaseFiles.datasetVersion !== current.datasetVersion || !Array.isArray(rel
 const maps = JSON.parse(readFileSync(join(sourceDataRoot, ...current.maps.manifest.url.split('/')), 'utf8'))
 if (maps.paleotopography?.delivery?.profile !== 'native-full'
   || maps.paleotopography?.delivery?.resolutionDegrees !== 0.1
-  || maps.paleotopography?.delivery?.gridBytes !== 168418483
+  || maps.paleotopography?.delivery?.gridBytes !== 168417632
   || maps.paleotopography?.frames?.length !== 109) {
   throw new Error('Mobile build must stage all 109 full-resolution PaleoDEM grids')
 }

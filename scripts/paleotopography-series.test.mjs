@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto'
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
-import { gunzipSync } from 'node:zlib'
+import { brotliDecompressSync, gunzipSync } from 'node:zlib'
 import { describe, expect, it } from 'vitest'
 import { rootDir } from './data-lib.mjs'
 
@@ -39,6 +39,8 @@ describe('complete Scotese–Wright PaleoDEM series', () => {
     expect(manifest.visualization).toMatchObject({ renderer: 'client-worker-canvas-grid-layer', preGeneratedTiles: 0 })
 
     let compressedBytes = 0
+    let gzipCompressedBytes = 0
+    let brotliCompressedBytes = 0
     let decodedBytes = 0
     let previewCompressedBytes = 0
     let previewDecodedBytes = 0
@@ -52,7 +54,7 @@ describe('complete Scotese–Wright PaleoDEM series', () => {
       expect(frame.height).toBe(1801)
       expect(frame.cellCount).toBe(6485401)
       const compressed = readFileSync(resolve(rootDir, frame.grid.path))
-      const decoded = gunzipSync(compressed)
+      const decoded = frame.grid.storageEncoding === 'brotli' ? brotliDecompressSync(compressed) : gunzipSync(compressed)
       expect(compressed.byteLength).toBe(frame.grid.bytes)
       expect(sha256(compressed)).toBe(frame.grid.sha256)
       expect(decoded.byteLength).toBe(frame.grid.decodedBytes)
@@ -80,17 +82,21 @@ describe('complete Scotese–Wright PaleoDEM series', () => {
       }
       expect(previewDecoded.equals(exactDecimation)).toBe(true)
       compressedBytes += compressed.byteLength
+      if (frame.grid.storageEncoding === 'brotli') brotliCompressedBytes += compressed.byteLength
+      else gzipCompressedBytes += compressed.byteLength
       decodedBytes += decoded.byteLength
       previewCompressedBytes += previewCompressed.byteLength
       previewDecodedBytes += previewDecoded.byteLength
     }
-    expect(compressedBytes).toBe(168418483)
+    expect(compressedBytes).toBe(165575998)
     expect(decodedBytes).toBe(1413817418)
     expect(previewCompressedBytes).toBe(24847071)
   expect(previewDecodedBytes).toBe(157352618)
     expect(manifest.totals).toMatchObject({
       frames: 109,
-      independentGridGzipBytes: compressedBytes,
+      independentGridGzipBytes: gzipCompressedBytes,
+      independentGridBrotliBytes: brotliCompressedBytes,
+      independentGridRuntimeGzipBytes: 168417632,
       webPreviewGridGzipBytes: previewCompressedBytes,
       decodedGridBytes: decodedBytes,
       webPreviewDecodedGridBytes: previewDecodedBytes,
