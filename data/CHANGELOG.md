@@ -2,6 +2,9 @@
 
 ## 2026.09-static-v5-rc146 — 2026-09-06
 
+- Added 12,554 attributed MBG Flora descriptions for 7,816 uniquely matched accepted COL species from Flora de Nicaragua and Flora of Panama. Preserved source types, archive-declared language, source UUIDs, exact reference rows, citation scope, and CC BY 4.0 attribution. These regional historical passages are not complete species dossiers or current inventories; unmatched and ambiguous archive rows remain retained outside the runtime.
+- Losslessly migrated three PALEOMAP canonical source grids to Brotli storage while retaining decoded int16 bytes, checksums, and deterministic gzip runtime delivery. The prior gzip members remain retained independently for audit.
+
 - Added 20,049 original English Flora of China descriptions with exact source-reference joins, attribution and parsed-record locators. Full-Web descriptions load through checksummed gzip routes and remain collapsed by default. Historical regional text does not establish complete resource-pack coverage or native readiness.
 - Losslessly migrated six build-time sources (FNA, Meso, FDAC, Foraminifera, ITIS Crustacea and ICTV) from gzip to Brotli, freeing 5,133,408 bytes without changing decoded source content. Runtime delivery remains gzip; original compressed sources are independently retained. Corrected Foraminifera extension totals to include existing upstream-only files.
 

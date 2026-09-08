@@ -80,10 +80,12 @@
   "totals": {
     "frames": 109,
     "sourceMemberBytes": 2833183567,
-    "independentGridGzipBytes": 168418483,
+    "independentGridGzipBytes": 155919833,
     "webPreviewGridGzipBytes": 24847071,
     "decodedGridBytes": 1413817418,
-    "webPreviewDecodedGridBytes": 157352618
+    "webPreviewDecodedGridBytes": 157352618,
+    "independentGridBrotliBytes": 9656165,
+    "independentGridRuntimeGzipBytes": 168417632
   },
   "frames": [
     {
@@ -114,12 +116,13 @@
         "integerMetreCells": 6485401
       },
       "grid": {
-        "path": "data/paleotopography/scotese-wright-2018-v2/ma-0000.grid.i16.gz",
+        "path": "data/paleotopography/scotese-wright-2018-v2/ma-0000.grid.i16.br",
         "encoding": "gzip-signed-int16-little-endian-row-major",
-        "bytes": 4388659,
-        "sha256": "218edcd12ab56e8336a5b2a9e8068a337b4f59797c907189bd7193bd1f48e433",
+        "bytes": 3409910,
+        "sha256": "6711f86bce82a4dcd70ebb0ad99353a51781497c4ec2bd5f349f062b3e599ca7",
         "decodedBytes": 12970802,
-        "decodedSha256": "349c2b781ad6b877e5cfe8059621caa69a743aa41124fde20d323b11599154b7"
+        "decodedSha256": "349c2b781ad6b877e5cfe8059621caa69a743aa41124fde20d323b11599154b7",
+        "storageEncoding": "brotli"
       },
       "webPreviewGrid": {
         "path": "data/paleotopography/scotese-wright-2018-v2/ma-0000.preview-03deg.i16.gz",
@@ -165,12 +168,13 @@
         "integerMetreCells": 6485401
       },
       "grid": {
-        "path": "data/paleotopography/scotese-wright-2018-v2/ma-0005.grid.i16.gz",
+        "path": "data/paleotopography/scotese-wright-2018-v2/ma-0005.grid.i16.br",
         "encoding": "gzip-signed-int16-little-endian-row-major",
-        "bytes": 4064266,
-        "sha256": "4c3e1ad30b9abbd9cab21f3230d075729566f91bc51dbbbc394bfbabfdbee06f",
+        "bytes": 3111397,
+        "sha256": "d58115fa9ff08478e97123c0e1ee79008e3a920c6c85671666e22eb20ead1672",
         "decodedBytes": 12970802,
-        "decodedSha256": "9a52376ca8afb2c0c7434ba068eaa47bc99e7041619ed034f8278bb5d098124d"
+        "decodedSha256": "9a52376ca8afb2c0c7434ba068eaa47bc99e7041619ed034f8278bb5d098124d",
+        "storageEncoding": "brotli"
       },
       "webPreviewGrid": {
         "path": "data/paleotopography/scotese-wright-2018-v2/ma-0005.preview-03deg.i16.gz",
@@ -216,12 +220,13 @@
         "integerMetreCells": 6485401
       },
       "grid": {
-        "path": "data/paleotopography/scotese-wright-2018-v2/ma-0010.grid.i16.gz",
+        "path": "data/paleotopography/scotese-wright-2018-v2/ma-0010.grid.i16.br",
         "encoding": "gzip-signed-int16-little-endian-row-major",
-        "bytes": 4045725,
-        "sha256": "ef7522736dafd18f0d7fe006d5e7dafd6959f7e294df6e31a498363782612c8f",
+        "bytes": 3134858,
+        "sha256": "7c5ddfae00c897ceaa45e80fd149bbeb1e230edb70d3af1eb114fadaf9d0af79",
         "decodedBytes": 12970802,
-        "decodedSha256": "4e4ed60f46461b8f5cc86205149bfdb0f6cf8159694bdadd45f68a2619dc2bc8"
+        "decodedSha256": "4e4ed60f46461b8f5cc86205149bfdb0f6cf8159694bdadd45f68a2619dc2bc8",
+        "storageEncoding": "brotli"
       },
       "webPreviewGrid": {
         "path": "data/paleotopography/scotese-wright-2018-v2/ma-0010.preview-03deg.i16.gz",

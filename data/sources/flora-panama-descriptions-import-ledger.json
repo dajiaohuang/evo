@@ -1,0 +1,30 @@
+{
+  "provider": "Missouri Botanical Garden",
+  "title": "Flora of Panama",
+  "retrievedAt": "2026-09-08",
+  "sourceVersion": "WFO MBG DwC-A archive retrieved 2026-09-08",
+  "sourceUrl": "https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "archiveSha256": "b5b7d67e6038be4aee9ff3e9ffcfb9764b314bb025fa87aa887bfe96951b9859",
+  "inputSha256": "4ab60e84007f306cf2d2e1256b4c9e5433d3d77f0780bbc10531844f74814b53",
+  "output": "data/sources/flora-panama-descriptions.jsonl.br",
+  "outputBytes": 1190406,
+  "outputSha256": "9a0eab290c6b2d092bd9027c5132d8497328cfd76f755e21a982907b519baa87",
+  "decodedBytes": 10908805,
+  "decodedSha256": "af7ceea5ba79cf0eb83a601379e0190eefc0a07733c98499121a7c747e065fd6",
+  "species": 2899,
+  "descriptions": 7635,
+  "types": {
+    "general": 3142,
+    "distribution": 2528,
+    "habit": 1965
+  },
+  "limitations": [
+    "Regional historical source, not a current or global inventory or complete species dossier.",
+    "Only exact, unique accepted WFO/COL crosswalk identities are materialized; ambiguous, synonym, and unmatched archive rows remain retained outside the runtime.",
+    "Original source HTML is normalized to plain text for display; source row numbers, references, and the retained archive preserve provenance.",
+    "Archive-declared language is preserved as metadata; no translation or inferred trait was authored.",
+    "The archive's linked Tropicos pages, images, and PDFs are not redistributed by this source pack."
+  ]
+}
