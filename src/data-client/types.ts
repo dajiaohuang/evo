@@ -1128,6 +1128,51 @@ export interface CatalogueForaminiferaResourcePackExtension {
   }
 }
 
+export interface CatalogueBryonamesAuthorityRecord {
+  colId: string
+  sourceDatasetId: '170394'
+  colScientificName: string
+  colAuthorship?: string | null
+  sourceId: string
+  sourceUrl?: string | null
+  scientificName: string
+  authorship?: string | null
+  rank: 'species'
+  status: 'accepted'
+  nameStatus?: string | null
+  nameReferenceId?: string | null
+  referenceId?: string | null
+  referenceCitation?: string | null
+  mappingBasis: 'checklistbank-source-record'
+  sourceResponseSha256: string
+}
+
+export interface CatalogueBryonamesResourcePackExtension {
+  id: 'bryonames-archive-crosswalk'
+  recordType: 'external-name-identifier-crosswalk'
+  provider: 'Bryophyte Nomenclator (Bryonames) through ChecklistBank'
+  source: Record<string, unknown> & { license: 'CC-BY-4.0' }
+  eligibility: string
+  counts: {
+    eligible: 698
+    resolved: 698
+    acceptedSpecies: 698
+    accepted: 698
+    redirects: 0
+    ambiguous: 0
+    unmatched: 0
+    withheld: 0
+    upstreamOnly: null
+  }
+  fields: string[]
+  files: CatalogueResourcePackPayloadFile[]
+  canonicalFileInventory: CatalogueResourcePackPayloadFile[]
+  totalCompressedBytes: number
+  totalSourceBytes: number
+  deliveryProfiles: Record<string, unknown>
+  limitations: string[]
+}
+
 export type CatalogueItisOtherAnimalsScope =
   | 'nematoda'
   | 'annelida'
@@ -1250,7 +1295,7 @@ export interface CatalogueAuthorityArchiveResourcePackExtension {
   integration: { clientParityRequirement: string; lookup: { strategy: 'lexicographic-colId-range-v1'; ordering: string; requestPolicy: string } }
 }
 
-export type CatalogueResourcePackExtension = CatalogueLpsnResourcePackExtension | CatalogueIctvResourcePackExtension | CatalogueWfoPlantResourcePackExtension | CatalogueIndexFungorumResourcePackExtension | CatalogueForaminiferaResourcePackExtension | CatalogueItisOtherAnimalsResourcePackExtension | CatalogueItisProtistsResourcePackExtension | CatalogueAuthorityArchiveResourcePackExtension
+export type CatalogueResourcePackExtension = CatalogueLpsnResourcePackExtension | CatalogueIctvResourcePackExtension | CatalogueWfoPlantResourcePackExtension | CatalogueIndexFungorumResourcePackExtension | CatalogueForaminiferaResourcePackExtension | CatalogueBryonamesResourcePackExtension | CatalogueItisOtherAnimalsResourcePackExtension | CatalogueItisProtistsResourcePackExtension | CatalogueAuthorityArchiveResourcePackExtension
 
 export interface CatalogueResourcePackManifest {
   schemaVersion: 1

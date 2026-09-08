@@ -1137,9 +1137,15 @@ if (catalogue.resourcePacks?.packageCount !== 7
       }
     } else if (packageId === 'other-plants') {
       const wfo = extensions.find((candidate) => candidate.id === 'wfo-plant-list-crosswalk')
-      if (extensions.length !== 1 || !wfo || wfo.provider !== 'World Flora Online Plant List'
+      const bryonames = extensions.find((candidate) => candidate.id === 'bryonames-archive-crosswalk')
+      if (extensions.length !== 2 || !wfo || !bryonames || wfo.provider !== 'World Flora Online Plant List'
         || wfo.source?.license !== 'CC0-1.0' || wfo.counts?.packageColRecords !== 698
-        || wfo.counts?.upstreamOnly !== 60751 || wfo.counts?.records !== 61449) {
+        || wfo.counts?.upstreamOnly !== 60751 || wfo.counts?.records !== 61449
+        || bryonames.provider !== 'Bryophyte Nomenclator (Bryonames) through ChecklistBank'
+        || bryonames.source?.license !== 'CC-BY-4.0' || bryonames.counts?.eligible !== 698
+        || bryonames.counts?.resolved !== 698 || bryonames.counts?.accepted !== 698
+        || bryonames.files?.length !== 0 || bryonames.upstreamOnlyFiles?.length !== 0
+        || bryonames.deliveryProfiles?.['native-full']?.records !== 698) {
         failures.push('other-plants: WFO extension identity or partition counts are incomplete')
       } else {
         const partitions = new Map(wfo.partitions.map((partition) => [partition.id, partition]))
