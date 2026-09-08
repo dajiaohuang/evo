@@ -1,12 +1,13 @@
 import { createHash } from 'node:crypto'
 import { readFileSync } from 'node:fs'
+import { join } from 'node:path'
 import { gunzipSync } from 'node:zlib'
 import { describe, expect, it } from 'vitest'
 
-const root = `${process.cwd()}\\`
-const packageRoot = `${root}data\\catalogue-of-life\\releases\\2026-08-20\\resource-packs\\other-plants`
-const resourceRoot = `${root}data\\catalogue-of-life\\releases\\2026-08-20\\resource-packs\\`
-const manifest = JSON.parse(readFileSync(`${packageRoot}\\manifest.json`, 'utf8'))
+const root = process.cwd()
+const packageRoot = join(root, 'data', 'catalogue-of-life', 'releases', '2026-08-20', 'resource-packs', 'other-plants')
+const resourceRoot = join(root, 'data', 'catalogue-of-life', 'releases', '2026-08-20', 'resource-packs')
+const manifest = JSON.parse(readFileSync(join(packageRoot, 'manifest.json'), 'utf8'))
 const extension = manifest.extensions.find((candidate) => candidate.id === 'bryonames-archive-crosswalk')
 
 const sha256 = (value) => createHash('sha256').update(value).digest('hex')
@@ -20,7 +21,7 @@ describe('Bryonames exact source-record sidecar', () => {
       deliveryProfiles: { 'web-light': { records: 0, files: [] }, 'native-full': { records: 698, files: ['other-plants/bryonames-000.jsonl.gz'] } },
     })
     const file = extension.files[0]
-    const compressed = readFileSync(`${resourceRoot}${file.path.replaceAll('/', '\\')}`)
+    const compressed = readFileSync(join(resourceRoot, ...file.path.split('/')))
     const source = gunzipSync(compressed)
     const rows = source.toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
     expect(rows).toHaveLength(698)
