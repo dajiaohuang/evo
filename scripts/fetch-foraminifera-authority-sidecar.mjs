@@ -2,8 +2,7 @@ import { createHash } from 'node:crypto'
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { gunzipSync } from 'node:zlib'
-import { deterministicGzip } from './archive-determinism.mjs'
+import { gunzipSync, brotliCompressSync, constants } from 'node:zlib'
 import {
   CATALOGUE_RELEASE,
   CATALOGUE_RELEASE_DATE,
@@ -24,7 +23,7 @@ import {
 const SCRIPT_PATH = fileURLToPath(import.meta.url)
 const REPOSITORY_ROOT = resolve(dirname(SCRIPT_PATH), '..')
 const DEFAULT_REGISTRY_ROOT = join(REPOSITORY_ROOT, 'data', 'catalogue-of-life', 'releases', '2026-08-20', 'registry')
-const DEFAULT_OUTPUT = join(REPOSITORY_ROOT, 'data', 'sources', 'foraminifera-wfd-col26.8-crosswalk.json.gz')
+const DEFAULT_OUTPUT = join(REPOSITORY_ROOT, 'data', 'sources', 'foraminifera-wfd-col26.8-crosswalk.json.br')
 const DEFAULT_LEDGER = join(REPOSITORY_ROOT, 'data', 'sources', 'foraminifera-wfd-import-ledger.json')
 const DATASET_URL = `https://api.checklistbank.org/dataset/${SOURCE_DATASET_KEY}`
 const NAMEUSAGE_URL = `${DATASET_URL}/nameusage`
@@ -263,7 +262,7 @@ async function main() {
     },
   }
   const sourceBytes = canonicalJsonBytes(snapshot)
-  const compressed = Buffer.from(deterministicGzip(sourceBytes, { level: 9 }))
+  const compressed = brotliCompressSync(sourceBytes, { params: { [constants.BROTLI_PARAM_QUALITY]: 11 } })
   const ledger = {
     schemaVersion: 1,
     importType: 'COL26.8-to-WoRMS-Foraminifera-exact-source-record-crosswalk',
@@ -271,8 +270,8 @@ async function main() {
     scope: 'COL26.8 strict accepted species descending from root usage C (Chromista) whose sourceDatasetId is 1157 (World Foraminifera Database).',
     totals: snapshot.counts,
     upstreamOnly: snapshot.upstreamOnly,
-    output: { path: repoPath(options.output), bytes: compressed.byteLength, sha256: sha256(compressed), sourceBytes: sourceBytes.byteLength, sourceSha256: sha256(sourceBytes), encoding: 'gzip', mediaType: 'application/json' },
-    generatedBy: { scriptPath: repoPath(SCRIPT_PATH), scriptSha256: sha256(readFileSync(SCRIPT_PATH)), deterministic: 'Pinned COL registry bytes, explicit retrieval date, complete source pages, exact relation URLs and response digests, stable record ordering and deterministic gzip.' },
+    output: { path: repoPath(options.output), bytes: compressed.byteLength, sha256: sha256(compressed), sourceBytes: sourceBytes.byteLength, sourceSha256: sha256(sourceBytes), encoding: 'br', mediaType: 'application/json' },
+    generatedBy: { scriptPath: repoPath(SCRIPT_PATH), scriptSha256: sha256(readFileSync(SCRIPT_PATH)), deterministic: 'Pinned COL registry bytes, explicit retrieval date, complete source pages, exact relation URLs and response digests, stable record ordering and deterministic Brotli.' },
   }
   mkdirSync(dirname(options.output), { recursive: true })
   mkdirSync(dirname(options.ledger), { recursive: true })

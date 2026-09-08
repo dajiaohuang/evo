@@ -1,6 +1,14 @@
 # Dataset changelog
 
-## Unreleased content corrections
+## 2026.09-static-v5-rc146 — 2026-09-06
+
+- Added 20,049 original English Flora of China descriptions with exact source-reference joins, attribution and parsed-record locators. Full-Web descriptions load through checksummed gzip routes and remain collapsed by default. Historical regional text does not establish complete resource-pack coverage or native readiness.
+- Losslessly migrated six build-time sources (FNA, Meso, FDAC, Foraminifera, ITIS Crustacea and ICTV) from gzip to Brotli, freeing 5,133,408 bytes without changing decoded source content. Runtime delivery remains gzip; original compressed sources are independently retained. Corrected Foraminifera extension totals to include existing upstream-only files.
+
+- Added 262 original Turkish morphology descriptions from the Illustrated Flora of Turkey archive with source names/authorship and dataset attribution. Full-Web loads hash-routed shards lazily; Pages preview omits the collection. Record locators are parsed-record numbers, not physical lines.
+
+- Added 122,273 Brazilian Flora 2020 source fields for 28,896 uniquely matched accepted species, preserving Portuguese, Spanish and English text. Morphology uses exact source citations; habit and habitat use dataset attribution. Full-Web loading is lazy; Pages preview excludes the collection. Historical structured fields are not complete dossiers or a current inventory.
+- Losslessly recompressed WFO, SANBI and Brazil build-time Brotli sources and migrated the fungi crosswalk to Brotli, saving 4,717,369 bytes relative to their preceding storage. Decoded bytes and published gzip payload semantics are unchanged; original compressed files remain independently retained.
 
 - Added 122,273 Brazilian Flora 2020 source fields for 28,896 uniquely matched accepted species, preserving Portuguese, Spanish and English text. Morphology uses exact source citations; habit and habitat use dataset attribution. Full-Web loading is lazy; Pages preview excludes the collection. Historical structured fields are not complete dossiers or a current inventory.
 - Losslessly recompressed WFO, SANBI and Brazil build-time Brotli sources and migrated the fungi crosswalk to Brotli, saving 4,717,369 bytes relative to their preceding storage. Decoded bytes and published gzip payload semantics are unchanged; original compressed files remain independently retained.

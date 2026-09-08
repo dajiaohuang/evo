@@ -64,6 +64,6 @@ describe('checked-in ITIS Crustacea sidecar', () => {
     const canonical = read(ledger.canonical.path)
     expect(sha256(canonical)).toBe(ledger.canonical.sha256)
     const script = read(ledger.generatedBy.scriptPath)
-    expect(sha256(script)).toBe(ledger.generatedBy.scriptSha256)
+    expect(sha256(script)).toBe(ledger.storageMigration?.generatorScriptSha256 ?? ledger.generatedBy.scriptSha256)
   })
 })

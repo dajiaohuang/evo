@@ -3,15 +3,15 @@ import { cpSync, mkdtempSync, mkdirSync, readFileSync, rmSync, writeFileSync } f
 import { tmpdir } from 'node:os'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { gunzipSync } from 'node:zlib'
+import { gunzipSync, brotliDecompressSync } from 'node:zlib'
 import { afterAll, describe, expect, it } from 'vitest'
 import { buildVirusIctvSidecar } from './build-virus-ictv-sidecar.mjs'
 
 const repositoryRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const resourcePacksRoot = join(repositoryRoot, 'data', 'catalogue-of-life', 'releases', '2026-08-20', 'resource-packs')
-const crosswalkPath = join(repositoryRoot, 'data', 'sources', 'ictv-virus-crosswalk-col26.8-msl41.v1.json.gz')
+const crosswalkPath = join(repositoryRoot, 'data', 'sources', 'ictv-virus-crosswalk-col26.8-msl41.v1.json.br')
 const crosswalkBytes = readFileSync(crosswalkPath)
-const crosswalkSourceBytes = gunzipSync(crosswalkBytes)
+const crosswalkSourceBytes = brotliDecompressSync(crosswalkBytes)
 const crosswalk = JSON.parse(crosswalkSourceBytes.toString('utf8'))
 const temporaryRoots = []
 const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex')
@@ -58,12 +58,11 @@ describe('COL26.8 Viruses ICTV MSL41.v1 and VMR sidecar', () => {
       },
     })
     expect(crosswalk.upstreamOnlySpecies).toEqual(['Boscovirus hypoboscidae', 'Simiispumavirus macfas'])
-    expect(crosswalkBytes.byteLength).toBe(1353125)
-    expect(sha256(crosswalkBytes)).toBe('398c64156bae1f5b9ad3f64545e1e776122f009a14e4c76ac5d0dec449f5a74a')
+    expect(crosswalkBytes.byteLength).toBe(1012481)
+    expect(sha256(crosswalkBytes)).toBe('05f1b14a0c981ffa4333bfaaba0d418343991aa66fcde41168153bf6a1622f28')
     expect(crosswalkSourceBytes.byteLength).toBe(19263768)
     expect(sha256(crosswalkSourceBytes)).toBe('281286a1900496315686f62b5aba5c043846d8b547080dca9e88eb1b83d5e504')
-    expect([...crosswalkBytes.subarray(4, 8)]).toEqual([0, 0, 0, 0])
-    expect(crosswalkBytes[9]).toBe(255)
+    // Brotli source identity is pinned above; gzip headers apply only to published shards.
     expect(crosswalk.records).toHaveLength(17554)
 
     const species = ndjson(join(resourcePacksRoot, 'viruses', 'species-000.jsonl.gz'))

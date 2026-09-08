@@ -1,9 +1,9 @@
 import { createHash } from 'node:crypto'
-import { cpSync, mkdtempSync, readFileSync, readdirSync, rmSync } from 'node:fs'
+import { cpSync, mkdtempSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { basename, dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { gunzipSync } from 'node:zlib'
+import { gunzipSync, brotliDecompressSync } from 'node:zlib'
 import { afterAll, describe, expect, it } from 'vitest'
 import { buildForaminiferaAuthoritySidecar } from './build-foraminifera-authority-sidecar.mjs'
 import { deterministicGzip } from './archive-determinism.mjs'
@@ -12,7 +12,7 @@ import { locateColIdRangeFile } from './foraminifera-authority-sidecar-lib.mjs'
 const repositoryRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const resourceRoot = join(repositoryRoot, 'data', 'catalogue-of-life', 'releases', '2026-08-20', 'resource-packs')
 const packageRoot = join(resourceRoot, 'protists-chromists')
-const crosswalkPath = join(repositoryRoot, 'data', 'sources', 'foraminifera-wfd-col26.8-crosswalk.json.gz')
+const crosswalkPath = join(repositoryRoot, 'data', 'sources', 'foraminifera-wfd-col26.8-crosswalk.json.br')
 const ledgerPath = join(repositoryRoot, 'data', 'sources', 'foraminifera-wfd-import-ledger.json')
 const descriptorPath = join(packageRoot, 'foraminifera-wfd-extension.json')
 const temporaryRoots = []
@@ -24,7 +24,7 @@ afterAll(() => temporaryRoots.forEach((path) => rmSync(path, { recursive: true, 
 describe('COL26.8 World Foraminifera Database authority sidecar', () => {
   it('pins the full COL scope, official WFD version and truthful upstream boundary', () => {
     const compressed = readFileSync(crosswalkPath)
-    const snapshot = JSON.parse(gunzipSync(compressed).toString('utf8'))
+    const snapshot = JSON.parse(brotliDecompressSync(compressed).toString('utf8'))
     const ledger = JSON.parse(readFileSync(ledgerPath, 'utf8'))
     const descriptor = JSON.parse(readFileSync(descriptorPath, 'utf8'))
     expect(snapshot.colInput).toMatchObject({ releaseAlias: 'COL26.8', releaseDate: '2026-08-20', checklistBankDatasetKey: 316115, rootUsageId: 'C', sourceDatasetKey: 1157, acceptedSpecies: 47975 })
@@ -63,6 +63,21 @@ describe('COL26.8 World Foraminifera Database authority sidecar', () => {
     for (const record of records) expect(locateColIdRangeFile(descriptor.files, record.colId)?.path).toBeTruthy()
     for (let index = 1; index < descriptor.files.length; index += 1) expect(descriptor.files[index - 1].maxColId < descriptor.files[index].minColId).toBe(true)
   })
+
+  it('counts unrelated source-only files when refreshing the collection manifest', () => {
+    const temporaryRoot = mkdtempSync(join(tmpdir(), 'evo-foraminifera-counts-'))
+    temporaryRoots.push(temporaryRoot)
+    const output = join(temporaryRoot, 'protists-chromists')
+    mkdirSync(output)
+    for (const name of readdirSync(packageRoot).filter((value) => /^species-\d{3}\.jsonl\.gz$/.test(value))) cpSync(join(packageRoot, name), join(output, name))
+    const unrelated = { id: 'independent-authority', files: [{ path: 'independent-col.gz', bytes: 7, sourceBytes: 11 }], upstreamOnlyFiles: [{ path: 'independent-source.gz', bytes: 13, sourceBytes: 17 }] }
+    writeFileSync(join(output, 'manifest.json'), JSON.stringify({ extensions: [unrelated] }))
+    writeFileSync(join(temporaryRoot, 'manifest.json'), JSON.stringify({ packs: [{ packageId: 'protists-chromists' }] }))
+    const result = buildForaminiferaAuthoritySidecar({ packageRoot: output, crosswalkPath, descriptorPath: join(output, 'foraminifera-wfd-extension.json') })
+    const collection = JSON.parse(readFileSync(join(temporaryRoot, 'manifest.json'), 'utf8'))
+    expect(collection.packs[0]).toMatchObject({ extensionCount: 2, extensionFileCount: result.files.length + 2, extensionCompressedBytes: result.totalCompressedBytes + 20, extensionSourceBytes: result.totalSourceBytes + 28 })
+    expect(JSON.parse(readFileSync(join(output, 'manifest.json'), 'utf8')).extensions[0]).toEqual(unrelated)
+  }, 60000)
 
   it('rebuilds identical shards from the pinned crosswalk', () => {
     const temporaryRoot = mkdtempSync(join(tmpdir(), 'evo-foraminifera-authority-'))
