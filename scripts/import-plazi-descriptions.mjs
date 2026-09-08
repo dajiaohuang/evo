@@ -15,6 +15,7 @@ const inputs = {
   plant: '992bbf943121da325c517ea3a6fb733eed10aeb99e99f657f9c8e9b1d7d6d7df',
   syspira: '9a42abf9927f8e55c787a46edcae955e06a447c8ba55fc1ce4cca8774d9af623',
   lycianthes: '6720ee722d1d93828434eb0264d2b7b4d43dbec62135bb02313298afeba1788e',
+  cestrum: '8d65840a84893d1380a620712ef6332a60fe9b7a9d60a84e90c4d93cd18d505b',
 }
 const species = new Map()
 for (const [name, expected] of Object.entries(inputs)) {
@@ -26,6 +27,8 @@ for (const [name, expected] of Object.entries(inputs)) {
       type: row.type, text: row.text, language: row.language, citation: row.citation,
       sourceAuthorship: row.sourceAuthorship, sourceLanguage: row.sourceLanguage,
       sourceScientificName: row.sourceScientificName, sourceColUsageId: row.sourceColUsageId,
+      sourceStatus: row.sourceStatus, acceptedRedirectId: row.acceptedRedirectId,
+      acceptedRedirectName: row.acceptedRedirectName,
       wfoId: row.wfoId, sourceType: row.sourceType, referenceId: row.referenceId,
       referencePageStart: row.referencePageStart, referencePageEnd: row.referencePageEnd,
       referenceDoi: row.referenceDoi, referenceUrl: row.referenceUrl,

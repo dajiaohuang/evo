@@ -2,6 +2,13 @@
 
 ## 2026.09-static-v5-rc146 — 2026-09-08
 
+- Added 40 CC0 Plazi treatment rows from Monro's *Cestrum* revision for eight
+  exact COL26.8 source usages. Six accepted names and two explicit synonym
+  redirects (`C. haberii` → `C. rugulosum`, `C. talamancaense` →
+  `C. irazuense`) retain their source usage IDs, WFO IDs, original source types,
+  treatment/reference locators and article citation. Publication-scoped text
+  does not redistribute linked figures or the article PDF.
+
 - Added 24 CC0 Plazi treatment paragraphs for three exact accepted Lycianthes
   species (COL26.8 7X2WL, 7X2WM and 7X2WR). Preserved original source types,
   English text, treatment identifiers, reference IDs and page ranges, with the
