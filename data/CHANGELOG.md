@@ -2,6 +2,13 @@
 
 ## 2026.09-static-v5-rc146 — 2026-09-08
 
+- Added a CC BY 4.0 Bryonames source-identifier projection for all 698 strict
+  accepted `other-plants` COL26.8 usages. Each row keeps the exact ChecklistBank
+  relation, source name-usage/status fields, URL and reference identifiers; the
+  current 30 Aug 2026 source archive and relation evidence are checksum-pinned.
+  This is a bounded nomenclatural source snapshot, not a complete Bryonames
+  archive or a species-concept equivalence claim.
+
 - Added 40 CC0 Plazi treatment rows from Monro's *Cestrum* revision for eight
   exact COL26.8 source usages. Six accepted names and two explicit synonym
   redirects (`C. haberii` → `C. rugulosum`, `C. talamancaense` →

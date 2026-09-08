@@ -261,6 +261,150 @@
         "Ambiguous, unmatched and withheld COL rows are retained explicitly. Upstream-only WFO accepted species are not silently forced into a COL package.",
         "Later WFO or COL releases require a new immutable snapshot and a concept-level diff; this sidecar must not be silently rewritten."
       ]
+    },
+    {
+      "id": "bryonames-archive-crosswalk",
+      "recordType": "external-name-identifier-crosswalk",
+      "provider": "Bryophyte Nomenclator (Bryonames) through ChecklistBank",
+      "source": {
+        "catalogueRelease": "COL26.8",
+        "catalogueReleaseDate": "2026-08-20",
+        "checklistBankDatasetKey": 316115,
+        "sourceDatasetKey": 170394,
+        "sourceDatasetTitle": "Bryophyte Nomenclator",
+        "sourceDatasetVersion": "30 Aug 2026",
+        "sourceDatasetVersionDoi": "10.48580/d8zmp.v93",
+        "sourceDatasetDoi": "10.48580/d8zmp",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "informationUrl": "https://www.bryonames.org/",
+        "archiveUrl": "https://api.checklistbank.org/dataset/170394/archive",
+        "archivePath": "retained-evo-data/bryonames-20260908/dataset-170394.zip",
+        "archiveBytes": 5427060,
+        "archiveSha256": "477dc498544e91a7557d423500bf34166aaf360017d8fe16c855b011575556d6",
+        "archiveMembers": {
+          "bryonames-coldp/NameUsage.tsv": {
+            "bytes": 30110022,
+            "sha256": "cf227a5fe7026852cf999e4aa67b7b3162e71a85c65e916cf35e929a3712a16f"
+          },
+          "__MACOSX/bryonames-coldp/._NameUsage.tsv": {
+            "bytes": 421,
+            "sha256": "d82b8156217f3e4b5fcf6ac5f0b16911d19ef5dcee25f7024d652c5d5520cfbb"
+          },
+          "bryonames-coldp/.DS_Store": {
+            "bytes": 6148,
+            "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+          },
+          "__MACOSX/bryonames-coldp/._.DS_Store": {
+            "bytes": 120,
+            "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9"
+          },
+          "bryonames-coldp/Reference.tsv": {
+            "bytes": 5724226,
+            "sha256": "f8a35d426d78c8c63e795f04a56d42f6c53945844e5c6ce5a09c1066bb541711"
+          },
+          "__MACOSX/bryonames-coldp/._Reference.tsv": {
+            "bytes": 421,
+            "sha256": "d82b8156217f3e4b5fcf6ac5f0b16911d19ef5dcee25f7024d652c5d5520cfbb"
+          }
+        },
+        "relationEvidencePath": "retained-evo-data/bryonames-20260908/bryonames-col26.8-source-relations-2026-09-08.jsonl",
+        "relationEvidenceBytes": 500991,
+        "relationEvidenceSha256": "858e802c5e914f70a5906d4d45975ee5300efcddefedb013d5ce7024b50972fe",
+        "rightsBoundary": "Only the CC BY source name-usage fields and the exact ChecklistBank relation identifiers are projected. Linked publications, images and other third-party material are not redistributed."
+      },
+      "eligibility": "Every strict accepted COL26.8 other-plants species whose sourceDatasetId is Bryonames (170394).",
+      "counts": {
+        "eligible": 698,
+        "resolved": 698,
+        "acceptedSpecies": 698,
+        "accepted": 698,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": null
+      },
+      "fields": [
+        "colId",
+        "sourceDatasetId",
+        "colScientificName",
+        "colAuthorship",
+        "sourceId",
+        "sourceUrl",
+        "scientificName",
+        "authorship",
+        "rank",
+        "status",
+        "nameStatus",
+        "nameReferenceId",
+        "referenceId",
+        "referenceCitation",
+        "mappingBasis",
+        "sourceResponseSha256"
+      ],
+      "files": [
+        {
+          "path": "other-plants/bryonames-000.jsonl.gz",
+          "records": 698,
+          "bytes": 88794,
+          "sourceBytes": 487158,
+          "sha256": "df96a3adf126a4c53da19c060ff573f1058692d9495a87e5305bc74f3b8d246e",
+          "sourceSha256": "029aa701af9bee253c6ab1f2ca9600ff76e91ca567e791b6d2063ded6586e5a5",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "36SWD",
+          "maxColId": "XPXV"
+        }
+      ],
+      "canonicalFileInventory": [
+        {
+          "path": "other-plants/bryonames-000.jsonl.gz",
+          "records": 698,
+          "bytes": 88794,
+          "sourceBytes": 487158,
+          "sha256": "df96a3adf126a4c53da19c060ff573f1058692d9495a87e5305bc74f3b8d246e",
+          "sourceSha256": "029aa701af9bee253c6ab1f2ca9600ff76e91ca567e791b6d2063ded6586e5a5",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "36SWD",
+          "maxColId": "XPXV"
+        }
+      ],
+      "totalCompressedBytes": 88794,
+      "totalSourceBytes": 487158,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages carries the verified descriptor but no Bryonames row payload."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-plants/bryonames-000.jsonl.gz"
+          ],
+          "records": 698,
+          "totalCompressedBytes": 88794,
+          "totalSourceBytes": 487158,
+          "releaseFilesSha256": "650c1c587d6f36e31b151f104c2a48628555b7ba20303dc7ef72288b822bf078"
+        }
+      },
+      "limitations": [
+        "The source archive is the 30 Aug 2026 ChecklistBank import; the COL26.8 sourceDatasetId is retained but this current source snapshot is not asserted to be the 14 Jul 2026 COL import attempt.",
+        "This is an exact identifier/status projection, not species-concept equivalence, a complete Bryonames archive, biological evidence, ecology, media, fossil evidence, phylogeny or expert review."
+      ],
+      "integration": {
+        "clientParityRequirement": "Native Android and iOS must copy the native-full payload byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending without locale folding or normalization.",
+          "requestPolicy": "Select the sole inclusive minColId/maxColId shard for a query and load at most that one shard."
+        }
+      }
     }
   ]
 }
