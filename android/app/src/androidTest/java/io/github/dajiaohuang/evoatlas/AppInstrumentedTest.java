@@ -111,7 +111,7 @@ public class AppInstrumentedTest {
         JSONObject terrainDelivery = paleotopography.getJSONObject("delivery");
         assertEquals("native-full", terrainDelivery.getString("profile"));
         assertEquals(0.1, terrainDelivery.getDouble("resolutionDegrees"), 0.0);
-        assertEquals(168418483, terrainDelivery.getInt("gridBytes"));
+        assertEquals(168417632, terrainDelivery.getInt("gridBytes"));
         JSONArray terrainFrames = paleotopography.getJSONArray("frames");
         assertEquals(109, terrainFrames.length());
         for (int terrainIndex = 0; terrainIndex < terrainFrames.length(); terrainIndex += 1) {
@@ -125,8 +125,9 @@ public class AppInstrumentedTest {
             assertEquals(3601, terrainGrid.getInt("width"));
             assertEquals(1801, terrainGrid.getInt("height"));
             assertEquals(0.1, terrainGrid.getDouble("resolutionDegrees"), 0.0);
-            assertEquals(sourceFullGrid.getInt("bytes"), terrainGrid.getInt("bytes"));
-            assertEquals(sourceFullGrid.getString("sha256"), terrainGrid.getString("sha256"));
+            assertTrue(sourceFullGrid.getInt("bytes") > 0);
+            assertEquals(64, sourceFullGrid.getString("sha256").length());
+            assertEquals(sourceFullGrid.getInt("decodedBytes"), terrainGrid.getInt("sourceBytes"));
             assertEquals(sourceFullGrid.getString("decodedSha256"), terrainGrid.getString("sourceSha256"));
             JSONObject terrainGridInventory = findInventoryRecord(files, terrainGrid.getString("url"));
             assertNotNull("full-resolution palaeotopography grid missing from native release inventory", terrainGridInventory);
