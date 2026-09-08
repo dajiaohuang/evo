@@ -1495,6 +1495,9 @@ export interface CataloguePlaziDescriptionRecord {
     sourceAuthorship?: string
     sourceScientificName?: string
     sourceColUsageId?: string
+    sourceStatus?: 'accepted' | 'synonym'
+    acceptedRedirectId?: string | null
+    acceptedRedirectName?: string | null
     wfoId?: string
     sourceType?: string
     referenceId?: string

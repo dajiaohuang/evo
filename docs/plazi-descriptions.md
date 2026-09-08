@@ -1,7 +1,9 @@
 # Original Plazi descriptions
 
-This bounded collection contains 59 original paragraphs for 19 accepted COL26.8
-species: seven fishes, ten flowering plants and two Syspira spiders. These are
+This bounded collection contains 99 original paragraphs for 27 accepted COL26.8
+species: seven fishes, 18 flowering plants and two Syspira spiders. The eight
+Cestrum article names include two source synonyms delivered under explicit
+accepted COL usages. These are
 attributed treatment excerpts, not complete biological dossiers or a global
 coverage claim. Lazy Web delivery is implemented and focused loader/component
 checks pass; deployed browser acceptance remains unverified.
@@ -47,6 +49,17 @@ biology_ecology, etymology and discussion), treatment IDs, reference IDs and
 page ranges are retained; canonical display types are accompanied by the
 original `sourceType`. This is article-scoped evidence, not a complete species
 dossier, and the linked figures and publication PDF are not redistributed.
+
+The Cestrum treatment from Monro (2012), Plazi dataset
+`0879c1f1-55a2-47fb-8fa8-7ca0fa3e8e92`, contributes 40 English rows for eight
+source names. The archive is CC0 and is pinned by SHA-256
+`0953e88f539f8b31a25f4cb32bcb46dc82af3ba522a6974fa875309ad88b1214`. Six names
+are exact accepted COL26.8 World Plants usages. `Cestrum haberii` and
+`Cestrum talamancaense` are explicit COL synonym usages redirected to accepted
+`C. rugulosum` and `C. irazuense`; their source names, usage IDs and redirects
+remain in every description row. WFO identifiers and the original treatment,
+reference, page and source-type fields are retained. This is publication-scoped
+evidence; figures and the linked article PDF are not redistributed.
 
 The source name Hyphessobrycon peugeoti maps through the explicit COL26.8
 synonym usage KVD6K to accepted 3NRZH, Hyphessobrycon peugeotorum. The original
