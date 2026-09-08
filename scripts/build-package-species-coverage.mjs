@@ -21,7 +21,7 @@ const DEFAULT_ARCHAEA_LPSN_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 
 const DEFAULT_BACTERIA_LPSN_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'bacteria-lpsn-crosswalk-col26.8.json.gz')
 const DEFAULT_VIRUS_ICTV_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'ictv-virus-crosswalk-col26.8-msl41.v1.json.gz')
 const DEFAULT_WFO_PLANT_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'wfo-plant-crosswalk-col26.8.json.br')
-const DEFAULT_FUNGI_AUTHORITY_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'fungi-species-fungorum-crosswalk-col26.8.json.gz')
+const DEFAULT_FUNGI_AUTHORITY_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'fungi-species-fungorum-crosswalk-col26.8.json.br')
 const RESOURCE_PACK_SOURCE_LIMIT = 6 * 1024 * 1024
 const ARCHAEA_LPSN_FIELDS = ['colId', 'lpsnId', 'lpsnUrl', 'mappingBasis', 'status']
 

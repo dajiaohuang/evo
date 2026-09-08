@@ -2,6 +2,9 @@
 
 ## Unreleased content corrections
 
+- Added 122,273 Brazilian Flora 2020 source fields for 28,896 uniquely matched accepted species, preserving Portuguese, Spanish and English text. Morphology uses exact source citations; habit and habitat use dataset attribution. Full-Web loading is lazy; Pages preview excludes the collection. Historical structured fields are not complete dossiers or a current inventory.
+- Losslessly recompressed WFO, SANBI and Brazil build-time Brotli sources and migrated the fungi crosswalk to Brotli, saving 4,717,369 bytes relative to their preceding storage. Decoded bytes and published gzip payload semantics are unchanged; original compressed files remain independently retained.
+
 - Added 7,960 attributed Flora of North America general descriptions with original citation/row locators and explicit source-ending warnings. Full-Web delivery is lazy; Pages excludes the collection. Literature rows remain separate evidence.
 - Re-encoded SANBI build-time descriptions as Brotli, saving 1,621,821 bytes with identical decoded source content. Runtime shards remain gzip; original archives and the prior source gzip remain independently retained.
 

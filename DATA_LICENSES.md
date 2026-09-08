@@ -1,5 +1,12 @@
 # Data licenses and provenance
 
+Brazilian Flora 2020 extracted descriptions retain Group Brazil Flora, REFLORA
+Program attribution under CC BY 4.0. Morphology uses exact source-reference
+links; source-less habit and habitat fields use dataset-level attribution only.
+See [the source boundaries](docs/brazil-flora-descriptions.md) and
+`data/sources/brazil-flora-descriptions-import-ledger.json`. Linked images and
+publications are not licensed by inference.
+
 Flora of North America original descriptions retain Flora of North America
 Association attribution and the WFO archive's explicit CC BY 4.0 defaults for
 descriptions and references. The 7,960 selected general passages retain exact

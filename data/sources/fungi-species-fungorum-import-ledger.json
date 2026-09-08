@@ -519,9 +519,9 @@
     }
   ],
   "output": {
-    "path": "data/sources/fungi-species-fungorum-crosswalk-col26.8.json.gz",
-    "bytes": 4429748,
-    "sha256": "5e6ecd007451ac1bf0aab2f07dd6ef9d05530439476b8867e2962c1f73f82607",
+    "path": "data/sources/fungi-species-fungorum-crosswalk-col26.8.json.br",
+    "bytes": 3433581,
+    "sha256": "e74595cdec3d676376bed7e8b2f97bed85af28a1869d88402a74bec0d2209074",
     "sourceBytes": 56939519,
     "sourceSha256": "903be85cc09b6375962ee915e27e93a7b6edc3299bcfeaa414dcdec410f8b748",
     "counts": {
@@ -533,12 +533,35 @@
       "unmatched": 0,
       "withheld": 0,
       "upstreamOnly": 201
-    }
+    },
+    "encoding": "br"
   },
   "limitations": [
     "This is a release-scoped identifier crosswalk, not a claim that described fungal diversity is complete.",
     "Species Fungorum and Index Fungorum are continuously curated; later taxonomic opinions and identifiers may differ.",
     "Upstream-only means accepted species in the two pinned source snapshots that are not used by the COL26.8 Fungi accepted-species pack.",
     "The minimal sidecar does not copy the live Index Fungorum database or independently validate nomenclatural acts."
-  ]
+  ],
+  "compressionTransform": {
+    "operation": "Lossless build-time Brotli re-encoding; original generation provenance and decoded bytes retained.",
+    "input": {
+      "path": "data/sources/fungi-species-fungorum-crosswalk-col26.8.json.gz",
+      "bytes": 4429748,
+      "sha256": "5e6ecd007451ac1bf0aab2f07dd6ef9d05530439476b8867e2962c1f73f82607",
+      "sourceBytes": 56939519,
+      "sourceSha256": "903be85cc09b6375962ee915e27e93a7b6edc3299bcfeaa414dcdec410f8b748",
+      "counts": {
+        "acceptedSpecies": 157044,
+        "eligible": 157044,
+        "accepted": 157044,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 201
+      }
+    },
+    "quality": 9,
+    "decodedSha256": "903be85cc09b6375962ee915e27e93a7b6edc3299bcfeaa414dcdec410f8b748"
+  }
 }

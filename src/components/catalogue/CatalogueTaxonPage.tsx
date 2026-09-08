@@ -14,6 +14,7 @@ import {
   loadCatalogueMossDescriptions,
   loadCatalogueMossChinaDescriptions,
   loadCatalogueFnaDescriptions,
+  loadCatalogueBrazilFloraDescriptions,
   loadCataloguePakistanDescriptions,
   loadCataloguePlaziDescriptions,
   loadCatalogueSpeciesOwnership,
@@ -107,6 +108,8 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const [mossChinaError, setMossChinaError] = useState(false)
   const [fna, setFna] = useState<Awaited<ReturnType<typeof loadCatalogueFnaDescriptions>>>(null)
   const [fnaError, setFnaError] = useState(false)
+  const [brazilFlora, setBrazilFlora] = useState<Awaited<ReturnType<typeof loadCatalogueBrazilFloraDescriptions>>>(null)
+  const [brazilFloraError, setBrazilFloraError] = useState(false)
   const [pakistan, setPakistan] = useState<Awaited<ReturnType<typeof loadCataloguePakistanDescriptions>>>(null)
   const [pakistanError, setPakistanError] = useState(false)
   const [fdac, setFdac] = useState<Awaited<ReturnType<typeof loadCatalogueFdacDescriptions>>>(null)
@@ -159,6 +162,11 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
         void loadCatalogueFnaDescriptions(id).then((record) => {
           if (!cancelled) setFna(record)
         }).catch(() => { if (!cancelled) setFnaError(true) })
+      }
+      if (loadedManifest.brazilFloraDescriptions && loadedNode.rank === 'species') {
+        void loadCatalogueBrazilFloraDescriptions(id).then((record) => {
+          if (!cancelled) setBrazilFlora(record)
+        }).catch(() => { if (!cancelled) setBrazilFloraError(true) })
       }
       if (loadedManifest.pakistanDescriptions && loadedNode.rank === 'species') {
         void loadCataloguePakistanDescriptions(id).then((record) => {
@@ -517,6 +525,21 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
               : description.citations.map((citation, index) => <p key={`${citation}:${description.referenceRowNumbers[index] ?? index}`}>{citation}</p>)}
             <p>{description.rightsHolder} · {description.rights} · <a href={description.license}>{description.license}</a></p>
             <small>{fna.wfoId} · {description.sourceId} · source row {description.rowNumber}{description.referenceRowNumbers.length ? ` · reference rows ${description.referenceRowNumbers.join(', ')}` : ''}</small>
+          </details>)}
+        </section>}
+        {brazilFloraError && <p role="status">{zh ? '巴西植物志描述暂时无法加载。' : 'Brazil flora descriptions could not be loaded.'}</p>}
+        {brazilFlora && manifest.brazilFloraDescriptions && <section className="catalogue-source-card">
+          <h2>{zh ? '巴西植物志' : 'Brazil flora source descriptions'}</h2>
+          <p>{zh ? '巴西区域历史来源（较早快照），不是完整物种档案或当前名录。原文按来源语言以纯文本显示，不推断性状。' : 'Historical regional Brazil source (older snapshot), not a complete species dossier or current census. Original text is shown as plain text in its source language; no traits are inferred.'}</p>
+          <p><a href={manifest.brazilFloraDescriptions.source.sourceUrl}>{manifest.brazilFloraDescriptions.source.provider} — {manifest.brazilFloraDescriptions.source.title}</a> · {manifest.brazilFloraDescriptions.source.sourceVersion} · {manifest.brazilFloraDescriptions.source.retrievedAt} · <a href={manifest.brazilFloraDescriptions.source.licenseUrl}>{manifest.brazilFloraDescriptions.source.license}</a></p>
+          {brazilFlora.descriptions.map((description) => <details key={description.rowNumber}>
+            <summary>{description.type === 'morphology' ? (zh ? '形态' : 'Morphology') : description.type === 'habit' ? (zh ? '习性' : 'Habit') : (zh ? '生境' : 'Habitat')}</summary>
+            <p lang={description.language} style={{ whiteSpace: 'pre-wrap' }}>{description.text}</p>
+            {description.citationScope === 'description-source'
+              ? description.citations.map((citation, index) => <p key={`${citation}:${description.referenceRowNumbers[index] ?? index}`}>{citation}</p>)
+              : <p>{description.datasetCitation}</p>}
+            <p>{description.rightsHolder} · {description.rights} · <a href={description.license}>{description.license}</a></p>
+            <small>{brazilFlora.wfoId} · {description.sourceId} · source row {description.rowNumber}{description.referenceRowNumbers.length ? ` · reference rows ${description.referenceRowNumbers.join(', ')}` : ''} · {description.citationScope}</small>
           </details>)}
         </section>}
         {pakistanError && <p role="status">{zh ? '巴基斯坦植物志描述暂时无法加载。' : 'Flora of Pakistan descriptions could not be loaded.'}</p>}

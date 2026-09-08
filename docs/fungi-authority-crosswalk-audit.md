@@ -38,7 +38,7 @@ No case folding, authorship normalization, edit distance, fuzzy matching, cross-
 
 ## Artifacts and client boundary
 
-- Canonical crosswalk: `data/sources/fungi-species-fungorum-crosswalk-col26.8.json.gz` — 4,429,748 bytes, SHA-256 `5e6ecd007451ac1bf0aab2f07dd6ef9d05530439476b8867e2962c1f73f82607`.
+- Canonical crosswalk: `data/sources/fungi-species-fungorum-crosswalk-col26.8.json.br` — build-time Brotli quality 9; byte count and SHA-256 are pinned in the import ledger.
 - Import ledger: `data/sources/fungi-species-fungorum-import-ledger.json`.
 - Package-local payload: six deterministic `index-fungorum-*.jsonl.gz` shards containing all 157,044 COL mappings; 1,623,111 compressed bytes total.
 - Integration descriptor: `data/catalogue-of-life/releases/2026-08-20/resource-packs/fungi/index-fungorum-extension.json`.

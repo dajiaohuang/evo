@@ -1386,6 +1386,27 @@ export interface CatalogueFnaDescriptionRecord {
   }>
 }
 
+export interface CatalogueBrazilFloraDescriptionRecord {
+  colId: string
+  wfoId: string
+  scientificName: string
+  descriptions: Array<{
+    type: 'morphology' | 'habit' | 'habitat'
+    language: 'pt' | 'es' | 'en'
+    text: string
+    rowNumber: number
+    sourceId: string
+    citations: string[]
+    referenceRowNumbers: number[]
+    citationScope: 'description-source' | 'dataset'
+    datasetCitation: string
+    rightsHolder: string
+    rights: string
+    license: string
+    sourceExcerpt: true
+  }>
+}
+
 export interface CataloguePlaziDescriptionRecord {
   colId: string
   scientificName: string
@@ -1507,6 +1528,11 @@ export interface CatalogueFdacDescriptionRecord {
 }
 
 export interface CatalogueRuntimeManifest {
+  brazilFloraDescriptions?: {
+    source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
+    routes: Record<string, string[]>
+    files: CatalogueRuntimeFile[]
+  }
   fnaDescriptions?: {
     source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
     routes: Record<string, string[]>

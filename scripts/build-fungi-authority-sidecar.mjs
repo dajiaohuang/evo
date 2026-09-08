@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto'
 import { existsSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { gunzipSync } from 'node:zlib'
+import { brotliDecompressSync } from 'node:zlib'
 import { deterministicGzip } from './archive-determinism.mjs'
 import { replaceOwnedExtensions, summarizeExtensions } from './manifest-extension-utils.mjs'
 import {
@@ -19,7 +19,7 @@ import {
 const SCRIPT_PATH = fileURLToPath(import.meta.url)
 const REPOSITORY_ROOT = resolve(dirname(SCRIPT_PATH), '..')
 const DEFAULT_PACKAGE_ROOT = join(REPOSITORY_ROOT, 'data', 'catalogue-of-life', 'releases', '2026-08-20', 'resource-packs', 'fungi')
-const DEFAULT_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'fungi-species-fungorum-crosswalk-col26.8.json.gz')
+const DEFAULT_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'fungi-species-fungorum-crosswalk-col26.8.json.br')
 const DEFAULT_DESCRIPTOR = join(DEFAULT_PACKAGE_ROOT, 'index-fungorum-extension.json')
 const SOURCE_BYTE_LIMIT = 6 * 1024 * 1024
 const RUNTIME_FIELDS = [
@@ -54,7 +54,7 @@ function usage() {
 
 function loadCrosswalk(path, species) {
   const bytes = readFileSync(path)
-  const sourceBytes = gunzipSync(bytes)
+  const sourceBytes = brotliDecompressSync(bytes)
   const snapshot = JSON.parse(sourceBytes.toString('utf8'))
   const counts = snapshot.counts ?? {}
   const source = snapshot.source ?? {}
@@ -187,7 +187,7 @@ export function buildFungiAuthoritySidecar({ packageRoot, crosswalkPath, descrip
       })),
       retrievedAt: source.retrievedAt,
       indexFungorumUrlTemplate: source.indexFungorumUrlTemplate,
-      canonicalCrosswalkPath: 'data/sources/fungi-species-fungorum-crosswalk-col26.8.json.gz',
+      canonicalCrosswalkPath: 'data/sources/fungi-species-fungorum-crosswalk-col26.8.json.br',
       canonicalCrosswalkBytes: crosswalk.bytes.byteLength,
       canonicalCrosswalkSha256: sha256(crosswalk.bytes),
       canonicalCrosswalkSourceBytes: crosswalk.sourceBytes.byteLength,

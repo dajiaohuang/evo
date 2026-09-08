@@ -2,14 +2,14 @@ import { createHash } from 'node:crypto'
 import { cpSync, mkdtempSync, readFileSync, readdirSync, rmSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { basename, join, resolve } from 'node:path'
-import { gunzipSync } from 'node:zlib'
+import { brotliDecompressSync, gunzipSync } from 'node:zlib'
 import { afterAll, describe, expect, test } from 'vitest'
 import { buildFungiAuthoritySidecar } from './build-fungi-authority-sidecar.mjs'
 import { compareStableIds, locateColIdRangeFile } from './fungi-authority-sidecar-lib.mjs'
 
 const REPOSITORY_ROOT = resolve(import.meta.dirname, '..')
 const PACKAGE_ROOT = join(REPOSITORY_ROOT, 'data', 'catalogue-of-life', 'releases', '2026-08-20', 'resource-packs', 'fungi')
-const CROSSWALK_PATH = join(REPOSITORY_ROOT, 'data', 'sources', 'fungi-species-fungorum-crosswalk-col26.8.json.gz')
+const CROSSWALK_PATH = join(REPOSITORY_ROOT, 'data', 'sources', 'fungi-species-fungorum-crosswalk-col26.8.json.br')
 const IMPORT_LEDGER_PATH = join(REPOSITORY_ROOT, 'data', 'sources', 'fungi-species-fungorum-import-ledger.json')
 const DESCRIPTOR_PATH = join(PACKAGE_ROOT, 'index-fungorum-extension.json')
 const temporaryRoots = []
@@ -40,7 +40,7 @@ describe('Fungi Species Fungorum / Index Fungorum authority sidecar', () => {
 
   test('covers all 157,044 accepted species with pinned CC BY source evidence', () => {
     const compressed = readFileSync(CROSSWALK_PATH)
-    const sourceBytes = gunzipSync(compressed)
+    const sourceBytes = brotliDecompressSync(compressed)
     const snapshot = JSON.parse(sourceBytes.toString('utf8'))
     const ledger = JSON.parse(readFileSync(IMPORT_LEDGER_PATH, 'utf8'))
     const descriptor = JSON.parse(readFileSync(DESCRIPTOR_PATH, 'utf8'))

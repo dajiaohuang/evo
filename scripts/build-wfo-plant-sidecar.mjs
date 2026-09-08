@@ -421,7 +421,7 @@ async function main() {
     generatedBy: {
       scriptPath: repoPath(SCRIPT_PATH),
       scriptSha256: await sha256File(SCRIPT_PATH),
-      deterministic: 'Pinned input checksums, exact release routes, exact case- and diacritic-preserving name/authorship keys, explicit sorting, Brotli quality 5 and no wall-clock values.',
+      deterministic: 'Pinned input checksums, exact release routes, exact case- and diacritic-preserving name/authorship keys, explicit sorting, Brotli quality 11 and no wall-clock values.',
     },
   }
   mkdirSync(dirname(options.importLedger), { recursive: true })

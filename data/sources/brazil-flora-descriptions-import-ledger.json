@@ -1,0 +1,44 @@
+{
+  "provider": "Group Brazil Flora, REFLORA Program",
+  "title": "Brazilian Flora 2020 project - Projeto Flora do Brasil 2020",
+  "sourceVersion": "WFO Brazilian Flora 2020 archive; embedded EML v393.147",
+  "retrievedAt": "2026-09-06",
+  "sourceUrl": "https://files.worldfloraonline.org/Files/Brazilian%20Flora%202020/dwca-lista_especies_flora_brasil.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "archiveSha256": "79455efc837678d0812c4f83247c9f024ab4d8dae43fe72f5c40b2302d50c923",
+  "inputSha256": "40bf88e3d74c5636b97dc1614e17e4e1244bf5d26a87e5f5d7c03613798f42aa",
+  "output": "data/sources/brazil-flora-descriptions.jsonl.br",
+  "outputBytes": 4394603,
+  "outputSha256": "87c4eb263ae64e21b1c7f009276eb941c6c51a892fe79ec3e46c5779200b879d",
+  "storageEncoding": "br",
+  "decodedBytes": 130976807,
+  "decodedSha256": "7fbccc2e345c3d8d35af8299d8e25a95a39677e76bf221d7e3fc5bd57bcbc470",
+  "species": 28896,
+  "descriptions": 122273,
+  "types": {
+    "habit": 28710,
+    "habitat": 26990,
+    "morphology": 66573
+  },
+  "languages": {
+    "pt": 77891,
+    "es": 22191,
+    "en": 22191
+  },
+  "limitations": [
+    "Regional historical source, not a current or global inventory or complete species dossier.",
+    "Morphology is source-provided structured descriptive text; habit and habitat remain separate fields.",
+    "All languages and source wording are preserved without authored translations or inferred traits.",
+    "Morphology citations use exact source identifiers; source-less habit and habitat use only dataset-level attribution.",
+    "Core archive provides WFO IDs only; accepted species identities and names come from the pinned COL crosswalk.",
+    "Archive metadata does not automatically license linked images or PDFs."
+  ],
+  "compressionQuality": 11,
+  "compressionTransform": {
+    "inputBytes": 4997209,
+    "inputSha256": "069ee13b1e116d81d27b4623b2eb1fbb7d3adca41c2e9cab668712c538de3b7e",
+    "decodedSha256": "7fbccc2e345c3d8d35af8299d8e25a95a39677e76bf221d7e3fc5bd57bcbc470",
+    "operation": "Lossless Brotli quality increase; no content change."
+  }
+}

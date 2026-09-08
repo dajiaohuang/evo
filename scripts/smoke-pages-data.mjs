@@ -820,7 +820,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
         || authority.counts?.eligible !== 157044 || authority.counts?.upstreamOnly !== 201
         || ['redirect', 'ambiguous', 'unmatched', 'withheld'].some((status) => authority.counts?.[status] !== 0)
         || authority.sourceComposition?.['2073'] !== 155841 || authority.sourceComposition?.['1148'] !== 1203
-        || authority.source?.canonicalCrosswalkSha256 !== '5e6ecd007451ac1bf0aab2f07dd6ef9d05530439476b8867e2962c1f73f82607'
+        || authority.source?.canonicalCrosswalkSha256 !== 'e74595cdec3d676376bed7e8b2f97bed85af28a1869d88402a74bec0d2209074'
         || authority.source?.canonicalCrosswalkSourceSha256 !== '903be85cc09b6375962ee915e27e93a7b6edc3299bcfeaa414dcdec410f8b748'
         || !itis || itis.provider !== 'Integrated Taxonomic Information System' || itis.source?.rootTsn !== '555705'
         || itis.counts?.records !== 158805 || itis.counts?.accepted !== 928 || itis.counts?.redirects !== 45
