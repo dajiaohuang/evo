@@ -1495,6 +1495,17 @@ export interface CataloguePlaziDescriptionRecord {
     sourceAuthorship?: string
     sourceScientificName?: string
     sourceColUsageId?: string
+    wfoId?: string
+    sourceType?: string
+    referenceId?: string
+    referencePageStart?: string | null
+    referencePageEnd?: string | null
+    referenceDoi?: string
+    referenceUrl?: string
+    colSourceDatasetId?: string
+    provider?: string
+    license?: string
+    licenseUrl?: string
     sourceLanguage?: string
     treatmentUrl: string
     rowNumber: number

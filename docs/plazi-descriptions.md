@@ -1,7 +1,7 @@
 # Original Plazi descriptions
 
-This bounded collection contains 35 original paragraphs for 16 accepted COL26.8
-species: seven fishes, seven flowering plants and two Syspira spiders. These are
+This bounded collection contains 59 original paragraphs for 19 accepted COL26.8
+species: seven fishes, ten flowering plants and two Syspira spiders. These are
 attributed treatment excerpts, not complete biological dossiers or a global
 coverage claim. Lazy Web delivery is implemented and focused loader/component
 checks pass; deployed browser acceptance remains unverified.
@@ -37,6 +37,16 @@ Begonia's strict WFO crosswalk remains unmatched. The corresponding IPNI names
 are 77371664-1 and 77369870-1; matching protologues are Phytotaxa 726:293 (2025)
 and 720:82 (2025), respectively. Publication authorship and nomenclatural author
 abbreviations are not interchangeable fields.
+
+The three Lycianthes species from Dean, Poore & Kang (2020) are exact accepted
+COL26.8 records 7X2WL, 7X2WM and 7X2WR, with WFO 2026-06 identifiers
+wfo-1000023513, wfo-1000023514 and wfo-1000023516. Their Plazi archive declares
+CC0 and contributes 24 English description rows. The original Plazi source
+types (materials_examined, diagnosis, description, distribution,
+biology_ecology, etymology and discussion), treatment IDs, reference IDs and
+page ranges are retained; canonical display types are accompanied by the
+original `sourceType`. This is article-scoped evidence, not a complete species
+dossier, and the linked figures and publication PDF are not redistributed.
 
 The source name Hyphessobrycon peugeoti maps through the explicit COL26.8
 synonym usage KVD6K to accepted 3NRZH, Hyphessobrycon peugeotorum. The original

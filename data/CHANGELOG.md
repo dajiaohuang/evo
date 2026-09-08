@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc146 — 2026-09-08
+
+- Added 24 CC0 Plazi treatment paragraphs for three exact accepted Lycianthes
+  species (COL26.8 7X2WL, 7X2WM and 7X2WR). Preserved original source types,
+  English text, treatment identifiers, reference IDs and page ranges, with the
+  fixed COL/WFO crosswalk and archive checksum. Article-scoped text does not
+  license linked figures or publication PDFs and is not a complete dossier.
+
 ## 2026.09-static-v5-rc146 — 2026-09-06
 
 - Added 12,554 attributed MBG Flora descriptions for 7,816 uniquely matched accepted COL species from Flora de Nicaragua and Flora of Panama. Preserved source types, archive-declared language, source UUIDs, exact reference rows, citation scope, and CC BY 4.0 attribution. These regional historical passages are not complete species dossiers or current inventories; unmatched and ambiguous archive rows remain retained outside the runtime.
