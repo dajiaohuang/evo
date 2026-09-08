@@ -14,6 +14,7 @@ const inputs = {
   fish: '78dea6e79bcd40ae8528d73e431e5c39624bc64a67e50c70d7d4d5831fb98491',
   plant: '992bbf943121da325c517ea3a6fb733eed10aeb99e99f657f9c8e9b1d7d6d7df',
   syspira: '9a42abf9927f8e55c787a46edcae955e06a447c8ba55fc1ce4cca8774d9af623',
+  lycianthes: '6720ee722d1d93828434eb0264d2b7b4d43dbec62135bb02313298afeba1788e',
 }
 const species = new Map()
 for (const [name, expected] of Object.entries(inputs)) {
@@ -25,12 +26,17 @@ for (const [name, expected] of Object.entries(inputs)) {
       type: row.type, text: row.text, language: row.language, citation: row.citation,
       sourceAuthorship: row.sourceAuthorship, sourceLanguage: row.sourceLanguage,
       sourceScientificName: row.sourceScientificName, sourceColUsageId: row.sourceColUsageId,
+      wfoId: row.wfoId, sourceType: row.sourceType, referenceId: row.referenceId,
+      referencePageStart: row.referencePageStart, referencePageEnd: row.referencePageEnd,
+      referenceDoi: row.referenceDoi, referenceUrl: row.referenceUrl,
+      colSourceDatasetId: row.colSourceDatasetId, provider: row.provider, license: row.license,
+      licenseUrl: row.licenseUrl,
       treatmentUrl: row.treatmentUrl, rowNumber: row.rowNumber,
       archiveSha256: row.archiveSha256, sourceArchive: row.sourceArchive,
       mappingBasis: row.mappingBasis ?? 'individually-reviewed-name-authorship-and-lineage',
-      limitations: name === 'syspira'
+      limitations: row.limitations ?? (name === 'syspira'
         ? 'Publication sample and regional scope; diagnostic and descriptive wording differs for some S. tigrina palp traits. Original text is not silently reconciled.'
-        : 'Publication specimen/sample scope. Original extracted text may contain typographic or encoding defects. Not a current conservation assessment.',
+        : 'Publication specimen/sample scope. Original extracted text may contain typographic or encoding defects. Not a current conservation assessment.'),
     })
   }
 }
@@ -41,7 +47,7 @@ const output = 'data/sources/plazi-descriptions.jsonl.gz'
 writeFileSync(resolve(root, output), compressed)
 const ledger = {
   provider: 'Plazi TreatmentBank', title: 'Selected original taxonomic descriptions',
-  retrievedAt: '2026-09-05', license: 'CC0 1.0', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/',
+  retrievedAt: '2026-09-08', license: 'CC0 1.0', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/',
   sourceUrl: 'https://plazi.org/treatmentbank/treatment-data-access/', inputs,
   output, outputBytes: compressed.length, outputSha256: hash(compressed),
   species: records.length, descriptions: records.reduce((sum, row) => sum + row.descriptions.length, 0),
