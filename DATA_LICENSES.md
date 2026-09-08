@@ -1,5 +1,12 @@
 # Data licenses and provenance
 
+Flora of China descriptions retain Missouri Botanical Garden attribution and
+the retained WFO archive's CC BY 4.0 defaults. Original English text and exact
+source-reference citations are preserved as readable plain text, with parsed
+record locators. No images, PDFs, translations or replacement summaries are
+included. See [source boundaries and reproduction](docs/flora-china-descriptions.md)
+and `data/sources/flora-china-descriptions-import-ledger.json`.
+
 Illustrated Flora of Turkey descriptions retain Resimli Türkiye Florası
 attribution under the archive's CC BY 4.0 declaration. Source Turkish text,
 names and authorship are retained; no missing paragraph citations, translations

@@ -1407,6 +1407,27 @@ export interface CatalogueBrazilFloraDescriptionRecord {
   }>
 }
 
+export interface CatalogueFloraChinaDescriptionRecord {
+  colId: string
+  wfoId: string
+  scientificName: string
+  descriptionRecordNumber: number
+  type: 'general'
+  language: 'en'
+  sourceLanguage: 'English'
+  text: string
+  sourceId: string
+  citation: string
+  referenceRecordNumber: number
+  referenceTitle: string
+  referenceCreator: string
+  referenceDate: string
+  rightsHolder: string
+  rights: string
+  license: string
+  citationScope: 'description-source'
+}
+
 export interface CatalogueTurkeyDescriptionRecord {
   colId: string
   wfoId: string
@@ -1548,6 +1569,11 @@ export interface CatalogueFdacDescriptionRecord {
 }
 
 export interface CatalogueRuntimeManifest {
+  floraChinaDescriptions?: {
+    source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
+    routes: Record<string, string[]>
+    files: CatalogueRuntimeFile[]
+  }
   turkeyDescriptions?: {
     source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
     routes: Record<string, string[]>

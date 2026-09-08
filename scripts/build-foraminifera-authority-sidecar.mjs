@@ -2,8 +2,9 @@ import { createHash } from 'node:crypto'
 import { existsSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { gunzipSync } from 'node:zlib'
+import { gunzipSync, brotliDecompressSync } from 'node:zlib'
 import { deterministicGzip } from './archive-determinism.mjs'
+import { summarizeExtensions } from './manifest-extension-utils.mjs'
 import {
   CATALOGUE_RELEASE,
   CATALOGUE_RELEASE_DATE,
@@ -21,7 +22,7 @@ import {
 const SCRIPT_PATH = fileURLToPath(import.meta.url)
 const REPOSITORY_ROOT = resolve(dirname(SCRIPT_PATH), '..')
 const DEFAULT_PACKAGE_ROOT = join(REPOSITORY_ROOT, 'data', 'catalogue-of-life', 'releases', '2026-08-20', 'resource-packs', 'protists-chromists')
-const DEFAULT_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'foraminifera-wfd-col26.8-crosswalk.json.gz')
+const DEFAULT_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'foraminifera-wfd-col26.8-crosswalk.json.br')
 const DEFAULT_DESCRIPTOR = join(DEFAULT_PACKAGE_ROOT, 'foraminifera-wfd-extension.json')
 const SHARD_SOURCE_BYTE_LIMIT = 6 * 1024 * 1024
 const RUNTIME_FIELDS = [
@@ -66,7 +67,7 @@ function readSpecies(packageRoot) {
 
 function loadCrosswalk(path, species) {
   const compressed = readFileSync(path)
-  const sourceBytes = gunzipSync(compressed)
+  const sourceBytes = brotliDecompressSync(compressed)
   const snapshot = JSON.parse(sourceBytes.toString('utf8'))
   if (snapshot.schemaVersion !== 1 || snapshot.crosswalkType !== 'release-pinned-foraminifera-authority-identifier-crosswalk'
     || snapshot.source.catalogueRelease !== CATALOGUE_RELEASE || snapshot.source.catalogueReleaseDate !== CATALOGUE_RELEASE_DATE
@@ -144,7 +145,7 @@ export function buildForaminiferaAuthoritySidecar({ packageRoot = DEFAULT_PACKAG
       licenseUrl: source.sourceDatasetLicenseUrl,
       informationUrl: source.informationUrl,
       retrievedAt: source.retrievedAt,
-      canonicalCrosswalkPath: 'data/sources/foraminifera-wfd-col26.8-crosswalk.json.gz',
+      canonicalCrosswalkPath: 'data/sources/foraminifera-wfd-col26.8-crosswalk.json.br',
       canonicalCrosswalkBytes: crosswalk.compressed.byteLength,
       canonicalCrosswalkSha256: sha256(crosswalk.compressed),
       canonicalCrosswalkSourceBytes: crosswalk.sourceBytes.byteLength,
@@ -188,10 +189,7 @@ export function buildForaminiferaAuthoritySidecar({ packageRoot = DEFAULT_PACKAG
     Object.assign(summary, {
       manifestBytes: packageManifestBytes.byteLength,
       manifestSha256: sha256(packageManifestBytes),
-      extensionCount: packageManifest.extensions.length,
-      extensionFileCount: packageManifest.extensions.reduce((sum, extension) => sum + extension.files.length, 0),
-      extensionCompressedBytes: packageManifest.extensions.reduce((sum, extension) => sum + extension.totalCompressedBytes, 0),
-      extensionSourceBytes: packageManifest.extensions.reduce((sum, extension) => sum + extension.totalSourceBytes, 0),
+      ...summarizeExtensions(packageManifest.extensions),
     })
     collection.authoritativeSupplements = { ...(collection.authoritativeSupplements ?? {}), foraminiferaWfdIdentifiers: { catalogueRelease: CATALOGUE_RELEASE, acceptedSpecies: descriptor.counts.accepted, sourceDatasetKey: SOURCE_DATASET_KEY, resourcePack: 'protists-chromists', lookupStrategy: descriptor.integration.lookup.strategy, webProfile: 'web-light', nativeProfile: 'native-full' } }
     writeFileSync(collectionManifestPath, canonicalJsonBytes(collection))

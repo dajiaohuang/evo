@@ -16,6 +16,7 @@ import {
   loadCatalogueFnaDescriptions,
   loadCatalogueBrazilFloraDescriptions,
   loadCatalogueTurkeyDescriptions,
+  loadCatalogueFloraChinaDescriptions,
   loadCataloguePakistanDescriptions,
   loadCataloguePlaziDescriptions,
   loadCatalogueSpeciesOwnership,
@@ -113,6 +114,8 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const [brazilFloraError, setBrazilFloraError] = useState(false)
   const [turkey, setTurkey] = useState<Awaited<ReturnType<typeof loadCatalogueTurkeyDescriptions>>>(null)
   const [turkeyError, setTurkeyError] = useState(false)
+  const [floraChina, setFloraChina] = useState<Awaited<ReturnType<typeof loadCatalogueFloraChinaDescriptions>>>(null)
+  const [floraChinaError, setFloraChinaError] = useState(false)
   const [pakistan, setPakistan] = useState<Awaited<ReturnType<typeof loadCataloguePakistanDescriptions>>>(null)
   const [pakistanError, setPakistanError] = useState(false)
   const [fdac, setFdac] = useState<Awaited<ReturnType<typeof loadCatalogueFdacDescriptions>>>(null)
@@ -175,6 +178,11 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
         void loadCatalogueTurkeyDescriptions(id).then((record) => {
           if (!cancelled) setTurkey(record)
         }).catch(() => { if (!cancelled) setTurkeyError(true) })
+      }
+      if (loadedManifest.floraChinaDescriptions && loadedNode.rank === 'species') {
+        void loadCatalogueFloraChinaDescriptions(id).then((record) => {
+          if (!cancelled) setFloraChina(record)
+        }).catch(() => { if (!cancelled) setFloraChinaError(true) })
       }
       if (loadedManifest.pakistanDescriptions && loadedNode.rank === 'species') {
         void loadCataloguePakistanDescriptions(id).then((record) => {
@@ -551,6 +559,19 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
           </details>)}
           </section>}
         {turkeyError && <p role="status">{zh ? '土耳其植物志描述暂时无法加载。' : 'Turkey flora descriptions could not be loaded.'}</p>}
+        {floraChinaError && <p role="status">{zh ? '中国植物志描述暂时无法加载。' : 'Flora of China descriptions could not be loaded.'}</p>}
+        {floraChina && manifest.floraChinaDescriptions && <section className="catalogue-source-card">
+          <h2>{zh ? '中国植物志来源描述' : 'Flora of China source descriptions'}</h2>
+          <p>{zh ? '中国区域历史英文原文，不是完整物种档案或当前名录。描述以纯文本显示，不含图版、PDF 或另行编写的摘要。' : 'Historical regional English source from China, not a complete species dossier or current census. Descriptions are displayed as plain text; no figures, PDFs or authored summaries are included.'}</p>
+          <p><a href={manifest.floraChinaDescriptions.source.sourceUrl}>{manifest.floraChinaDescriptions.source.provider} — {manifest.floraChinaDescriptions.source.title}</a> · {manifest.floraChinaDescriptions.source.sourceVersion} · {manifest.floraChinaDescriptions.source.retrievedAt} · <a href={manifest.floraChinaDescriptions.source.licenseUrl}>{manifest.floraChinaDescriptions.source.license}</a></p>
+          <details>
+            <summary>{zh ? '一般描述' : 'General description'}</summary>
+            <p lang={floraChina.language} style={{ whiteSpace: 'pre-wrap' }}>{floraChina.text}</p>
+            <p>{floraChina.citation}</p>
+            <p>{floraChina.rightsHolder} · {floraChina.rights} · <a href={floraChina.license}>{floraChina.license}</a></p>
+            <small>{floraChina.wfoId} · {floraChina.sourceId} · {zh ? '描述记录' : 'description record'} {floraChina.descriptionRecordNumber} · {zh ? '引用记录' : 'reference record'} {floraChina.referenceRecordNumber} · {zh ? '描述来源级引用' : 'description-source citation'}</small>
+          </details>
+        </section>}
         {turkey && manifest.turkeyDescriptions && <section className="catalogue-source-card">
           <h2>{zh ? '土耳其植物志来源描述' : 'Turkey flora source descriptions'}</h2>
           <p>{zh ? '土耳其区域历史来源（2024年2月20日快照），不是完整物种档案或当前名录。土耳其语原文以纯文本显示，不含图版、PDF 或另行编写的摘要。' : 'Historical regional source from Turkey (20 February 2024 snapshot), not a complete species dossier or current census. Original Turkish text is shown as plain text; no figures, PDFs or authored summaries are included.'}</p>

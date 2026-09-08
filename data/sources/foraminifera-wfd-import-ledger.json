@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "importType": "COL26.8-to-WoRMS-Foraminifera-exact-source-record-crosswalk",
   "generatedFrom": {
-    "sourcePath": "data/sources/foraminifera-wfd-col26.8-crosswalk.json.gz",
-    "sourceSha256": "a6c29b160fb6a7be1da50661ccb4007a0faabc65b68ba4a61690c6d9336b8b62",
+    "sourcePath": "data/sources/foraminifera-wfd-col26.8-crosswalk.json.br",
+    "sourceSha256": "da32236ad2536de9042812b628a14a5d405a90d1b2d7e1ebaa218993eca0c47c",
     "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
     "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
     "retrievalDate": "2026-08-31"
@@ -25,17 +25,25 @@
     "observedUnlinkedAcceptedSpeciesCount": 179
   },
   "output": {
-    "path": "data/sources/foraminifera-wfd-col26.8-crosswalk.json.gz",
-    "bytes": 6288967,
-    "sha256": "a6c29b160fb6a7be1da50661ccb4007a0faabc65b68ba4a61690c6d9336b8b62",
+    "path": "data/sources/foraminifera-wfd-col26.8-crosswalk.json.br",
+    "bytes": 4811748,
+    "sha256": "da32236ad2536de9042812b628a14a5d405a90d1b2d7e1ebaa218993eca0c47c",
     "sourceBytes": 51686657,
     "sourceSha256": "84a767144012e0c4f80a65d4fc4bed4442e55b9654dcfc77b77c340b53c77068",
-    "encoding": "gzip",
+    "encoding": "br",
     "mediaType": "application/json"
   },
   "generatedBy": {
     "scriptPath": "scripts/fetch-foraminifera-authority-sidecar.mjs",
     "scriptSha256": "261862f14684a939a363b25dc63c8df888c107375d0efc9f49a42222ce82f0c2",
     "deterministic": "Pinned COL registry bytes, explicit retrieval date, complete source pages, exact relation URLs and response digests, stable record ordering and deterministic gzip."
+  },
+  "storageMigration": {
+    "fromEncoding": "gzip",
+    "toEncoding": "br",
+    "quality": 11,
+    "originalSha256": "a6c29b160fb6a7be1da50661ccb4007a0faabc65b68ba4a61690c6d9336b8b62",
+    "decodedSha256": "84a767144012e0c4f80a65d4fc4bed4442e55b9654dcfc77b77c340b53c77068",
+    "generatorScriptSha256": "22c245253d6b0d58410fb1ed97de1f37e555ed387329b2ade6d299567de20b32"
   }
 }

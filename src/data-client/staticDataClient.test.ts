@@ -48,6 +48,7 @@ async function installCatalogueFixture({
   fna,
   brazilFlora,
   turkey,
+  floraChina,
   pakistan,
 }: {
   nodes?: CatalogueHierarchyNodeRecord[]
@@ -65,6 +66,7 @@ async function installCatalogueFixture({
   fna?: import('./types').CatalogueFnaDescriptionRecord[]
   brazilFlora?: import('./types').CatalogueBrazilFloraDescriptionRecord[]
   turkey?: import('./types').CatalogueTurkeyDescriptionRecord[]
+  floraChina?: import('./types').CatalogueFloraChinaDescriptionRecord[]
   pakistan?: import('./types').CataloguePakistanDescriptionRecord[]
 }) {
   Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
@@ -72,7 +74,7 @@ async function installCatalogueFixture({
   const payloads = new Map<string, ReturnType<typeof responseFor> | ReturnType<typeof textResponseFor>>()
 
   async function hierarchyLayer<T extends { id: string }>(
-    layer: 'nodes' | 'children' | 'targets' | 'sanbi' | 'plazi' | 'foa' | 'meso' | 'fdac' | 'moss' | 'moss-china' | 'fna' | 'brazil-flora' | 'turkey' | 'pakistan',
+    layer: 'nodes' | 'children' | 'targets' | 'sanbi' | 'plazi' | 'foa' | 'meso' | 'fdac' | 'moss' | 'moss-china' | 'fna' | 'brazil-flora' | 'turkey' | 'flora-china' | 'pakistan',
     records: T[],
     routeId: (record: T) => string,
   ) {
@@ -115,6 +117,7 @@ async function installCatalogueFixture({
   const fnaLayer = fna ? await hierarchyLayer('fna', fna.map((record) => ({ ...record, id: record.colId })), (record) => record.colId) : undefined
   const brazilFloraLayer = brazilFlora ? await hierarchyLayer('brazil-flora', brazilFlora.map((record) => ({ ...record, id: record.colId })), (record) => record.colId) : undefined
   const turkeyLayer = turkey ? await hierarchyLayer('turkey', turkey.map((record) => ({ ...record, id: record.colId })), (record) => record.colId) : undefined
+  const floraChinaLayer = floraChina ? await hierarchyLayer('flora-china', floraChina.map((record) => ({ ...record, id: record.colId })), (record) => record.colId) : undefined
   const pakistanLayer = pakistan ? await hierarchyLayer('pakistan', pakistan.map((record) => ({ ...record, id: record.colId })), (record) => record.colId) : undefined
   const searchGroups = new Map<string, CatalogueRecord[]>()
   for (const record of searchRecords) {
@@ -164,6 +167,7 @@ async function installCatalogueFixture({
     ...(fnaLayer ? { fnaDescriptions: fnaLayer } : {}),
     ...(brazilFloraLayer ? { brazilFloraDescriptions: brazilFloraLayer } : {}),
     ...(turkeyLayer ? { turkeyDescriptions: turkeyLayer } : {}),
+    ...(floraChinaLayer ? { floraChinaDescriptions: floraChinaLayer } : {}),
     ...(pakistanLayer ? { pakistanDescriptions: pakistanLayer } : {}),
     hierarchy: { nodes: nodeLayer, children: childLayer },
   }
@@ -1535,6 +1539,30 @@ describe('static runtime release coherence', () => {
     await loadCatalogueFnaDescriptions(record.colId)
     expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/fna-'))).toHaveLength(1)
     await expect(loadCatalogueFnaDescriptions('unmapped-species')).resolves.toBeNull()
+  })
+
+  it('loads and caches only the requested Flora of China route', async () => {
+    const { loadCatalogueFloraChinaDescriptions, catalogueRoutePrefix } = await import('./staticDataClient')
+    const record: import('./types').CatalogueFloraChinaDescriptionRecord = {
+      colId: 'EXAMPLE', wfoId: 'wfo-example', scientificName: 'Example plant', descriptionRecordNumber: 10,
+      type: 'general', language: 'en', sourceLanguage: 'English', text: 'C₃ and C₄.', sourceId: 'china-1',
+      citation: 'Original citation', referenceRecordNumber: 42, referenceTitle: '', referenceCreator: '', referenceDate: '',
+      rightsHolder: 'Missouri Botanical Garden', rights: 'Missouri Botanical Garden', license: 'https://creativecommons.org/licenses/by/4.0/', citationScope: 'description-source',
+    }
+    const other = { ...record, colId: 'OTHER' }
+    expect(await catalogueRoutePrefix(record.colId)).not.toBe(await catalogueRoutePrefix(other.colId))
+    const { fetchMock } = await installCatalogueFixture({ floraChina: [record, other] })
+    await expect(loadCatalogueFloraChinaDescriptions(record.colId)).resolves.toMatchObject(record)
+    await expect(loadCatalogueFloraChinaDescriptions(record.colId)).resolves.toMatchObject(record)
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/flora-china-'))).toHaveLength(1)
+    await expect(loadCatalogueFloraChinaDescriptions('unmapped-species')).resolves.toBeNull()
+  })
+
+  it('returns no Flora of China record for a manifest without that optional source', async () => {
+    const { loadCatalogueFloraChinaDescriptions } = await import('./staticDataClient')
+    const { fetchMock } = await installCatalogueFixture({})
+    await expect(loadCatalogueFloraChinaDescriptions('EXAMPLE')).resolves.toBeNull()
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/flora-china-'))).toHaveLength(0)
   })
 
   it('loads and caches only the requested Turkey route', async () => {

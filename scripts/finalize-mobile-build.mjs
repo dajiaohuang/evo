@@ -107,7 +107,7 @@ const expectedRichItisCollections = {
     },
     'itis-crustacea-tsn-crosswalk': {
       files: 40, upstreamFiles: 1, records: 80890, upstreamRecords: 5991,
-      descriptorSha256: '9fb4271dce81e92f2df706da26c379053e649f21416d81ec1d8db6bb2031490b',
+      descriptorSha256: 'ca4818925357f905aad2e32ca7edd4c3304a5e0987d1b4ac2fed3691a23300c9',
       arthropod: true,
     },
     'itis-myriapoda-tsn-crosswalk': {

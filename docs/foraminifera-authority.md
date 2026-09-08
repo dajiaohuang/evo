@@ -18,8 +18,8 @@ Foraminifera phylum node `B8VD3`.
 - Complete COL source-relation query: 47,975 exact source-record responses.
 
 The canonical source snapshot is
-`data/sources/foraminifera-wfd-col26.8-crosswalk.json.gz` (compressed SHA-256
-`a6c29b160fb6a7be1da50661ccb4007a0faabc65b68ba4a61690c6d9336b8b62`; decoded
+`data/sources/foraminifera-wfd-col26.8-crosswalk.json.br` (compressed SHA-256
+`da32236ad2536de9042812b628a14a5d405a90d1b2d7e1ebaa218993eca0c47c`; decoded
 SHA-256 `84a767144012e0c4f80a65d4fc4bed4442e55b9654dcfc77b77c340b53c77068`).
 It retains request URLs and response hashes rather than raw API bodies.
 

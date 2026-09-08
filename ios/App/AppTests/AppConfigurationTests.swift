@@ -288,7 +288,7 @@ final class AppConfigurationTests: XCTestCase {
                 let expectedDescriptorShas = packageId == "crustaceans-insects"
                     ? [
                         "c168f706a7067fd6d95548777b6fe5cadf0c6b2b67b9442698d9350c521c2cdf",
-                        "9fb4271dce81e92f2df706da26c379053e649f21416d81ec1d8db6bb2031490b",
+                        "ca4818925357f905aad2e32ca7edd4c3304a5e0987d1b4ac2fed3691a23300c9",
                         "d2f836dc4b21afffb7fe1dbfcc9826556895a1fecff707ef514f69bc2053a296",
                         "bf90e217fa6871bb1e59807b721ed88403c47e9aa2712a782ef40146b906fdf2",
                     ]

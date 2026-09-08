@@ -53,9 +53,9 @@
     "itisUpstreamOnly": 5991
   },
   "canonical": {
-    "path": "data/sources/itis-crustacea-authority-crosswalk-col26.8.json.gz",
-    "bytes": 2659278,
-    "sha256": "b39fd4429eb0af89d8b36ade0e88e7797d937596a9cbe43b53dcea8a1bd928c6",
+    "path": "data/sources/itis-crustacea-authority-crosswalk-col26.8.json.br",
+    "bytes": 1789671,
+    "sha256": "cad4172b0eb896dd5b66e455138bd6dbebbd7172bc319a7c90206953aa0cd442",
     "sourceBytes": 37522538,
     "sourceSha256": "56c523c88f97523968b5c2d048c36ac617d3f309d090dcc27a74b8dc8696c6a4"
   },
@@ -63,7 +63,7 @@
     "descriptor": {
       "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar.json",
       "bytes": 23695,
-      "sha256": "9fb4271dce81e92f2df706da26c379053e649f21416d81ec1d8db6bb2031490b"
+      "sha256": "ca4818925357f905aad2e32ca7edd4c3304a5e0987d1b4ac2fed3691a23300c9"
     },
     "counts": {
       "total": 80890,
@@ -500,5 +500,13 @@
     "scriptPath": "scripts/build-itis-crustacea-sidecars.mjs",
     "scriptSha256": "4aaece513834a9763b31c2fe504fe06ea396ddc1a241bc225d27a7d7b5a19175",
     "deterministic": "Pinned checksums, fixed roots, exact SQL, exact representation-only normalization and stable sorting; no wall-clock fields or fuzzy matching."
+  },
+  "storageMigration": {
+    "fromEncoding": "gzip",
+    "toEncoding": "br",
+    "quality": 11,
+    "originalSha256": "b39fd4429eb0af89d8b36ade0e88e7797d937596a9cbe43b53dcea8a1bd928c6",
+    "decodedSha256": "56c523c88f97523968b5c2d048c36ac617d3f309d090dcc27a74b8dc8696c6a4",
+    "generatorScriptSha256": "c88c432c5dd0e1cc6a57d34f7bd31fcfb99574047a4e437d028e467b005d5bd5"
   }
 }

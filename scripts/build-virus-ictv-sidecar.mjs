@@ -2,14 +2,14 @@ import { createHash } from 'node:crypto'
 import { readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { gunzipSync } from 'node:zlib'
+import { gunzipSync, brotliDecompressSync } from 'node:zlib'
 import { deterministicGzip } from './archive-determinism.mjs'
 import { replaceOwnedExtensions, summarizeExtensions } from './manifest-extension-utils.mjs'
 
 const SCRIPT_PATH = fileURLToPath(import.meta.url)
 const REPOSITORY_ROOT = resolve(dirname(SCRIPT_PATH), '..')
 const DEFAULT_RESOURCE_PACKS_ROOT = join(REPOSITORY_ROOT, 'data', 'catalogue-of-life', 'releases', '2026-08-20', 'resource-packs')
-const DEFAULT_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'ictv-virus-crosswalk-col26.8-msl41.v1.json.gz')
+const DEFAULT_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'ictv-virus-crosswalk-col26.8-msl41.v1.json.br')
 const EXPECTED_COL_SPECIES = 17552
 const EXPECTED_ICTV_SPECIES = 17554
 const EXPECTED_VMR_ISOLATES = 19285
@@ -75,7 +75,7 @@ function loadSpecies(resourcePacksRoot, manifest) {
 
 function loadCrosswalk(path, species) {
   const bytes = readFileSync(path)
-  const sourceBytes = gunzipSync(bytes)
+  const sourceBytes = brotliDecompressSync(bytes)
   const snapshot = JSON.parse(sourceBytes.toString('utf8'))
   const source = snapshot.source ?? {}
   const counts = snapshot.counts ?? {}
@@ -193,7 +193,7 @@ function buildExtension(crosswalk, resourcePacksRoot) {
       licenseUrl: pinned.licenseUrl,
       citation: pinned.citation,
       files: pinned.files,
-      canonicalCrosswalkPath: 'data/sources/ictv-virus-crosswalk-col26.8-msl41.v1.json.gz',
+      canonicalCrosswalkPath: 'data/sources/ictv-virus-crosswalk-col26.8-msl41.v1.json.br',
       canonicalCrosswalkSha256: sha256(crosswalk.bytes),
       canonicalCrosswalkBytes: crosswalk.bytes.byteLength,
       canonicalCrosswalkSourceSha256: sha256(crosswalk.sourceBytes),
