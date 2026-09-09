@@ -1,3 +1,4 @@
+import { useMemo } from 'react'
 import { CircleMarker, Tooltip } from 'react-leaflet'
 import { useAppStore } from '../../store'
 import { computeClusters } from '../../utils/clustering'
@@ -19,26 +20,22 @@ export function FossilMarkers({ mode, coordinateMode }: FossilMarkersProps) {
   const highlightedOccurrenceIds = useAppStore((s) => s.highlightedOccurrenceIds)
   const selectFossilOccurrence = useAppStore((s) => s.selectFossilOccurrence)
 
-  if (!currentPeriod) return null
-
-  const records = occurrencesByInterval[currentPeriod]
-  if (!records || records.length === 0) return null
+  const records = currentPeriod ? occurrencesByInterval[currentPeriod] : undefined
+  const markers = useMemo(() => {
+    if (!records) return []
+    return mode === 'points'
+      ? records.filter((occurrence) => getSpatialPosition(occurrence, coordinateMode).mode === coordinateMode)
+        .map((occurrence) => ({ type: 'individual' as const, occurrence }))
+      : computeClusters(records, viewState.zoom, {
+        gridSize: mode === 'density' ? 70 : 40, maxZoom: 20, coordinateMode, centerLongitude: viewState.center[1],
+      })
+  }, [records, mode, coordinateMode, viewState.zoom, viewState.center])
+  if (!records?.length) return null
   const highlightedIds = new Set(highlightedOccurrenceIds)
   const highlightedRecords = records.filter((occurrence) => (
     highlightedIds.has(occurrence.oid)
     && getSpatialPosition(occurrence, coordinateMode).mode === coordinateMode
   ))
-
-  const markers = mode === 'points'
-    ? records
-      .filter((occurrence) => getSpatialPosition(occurrence, coordinateMode).mode === coordinateMode)
-      .map((occurrence) => ({ type: 'individual' as const, occurrence }))
-    : computeClusters(records, viewState.zoom, {
-      gridSize: mode === 'density' ? 70 : 40,
-      maxZoom: 20,
-      coordinateMode,
-      centerLongitude: viewState.center[1],
-    })
 
   return (
     <>

@@ -21,11 +21,11 @@ test('language switch localizes the shell and scientific content, then persists'
 
   await expect(page.locator('html')).toHaveAttribute('lang', 'zh-CN')
   await expect(page).toHaveTitle('Perissodactyla — Evo Atlas')
-  await expect(page.getByRole('button', { name: '探索器', exact: true })).toBeVisible()
+  await expect(page.getByRole('button', { name: '探索', exact: true })).toBeVisible()
   await expect(page.getByText('一次早始新世辐射；最初相近的分支后来分化为马、貘、犀牛', { exact: false })).toBeVisible()
 
   await page.reload()
-  await expect(page.getByRole('button', { name: '探索器', exact: true })).toBeVisible()
+  await expect(page.getByRole('button', { name: '探索', exact: true })).toBeVisible()
   await expect.poll(async () => {
     try {
       return await page.evaluate(() => window.localStorage.getItem('evo-atlas-language'))
@@ -38,8 +38,6 @@ test('language switch localizes the shell and scientific content, then persists'
 test('global search indexes structured Chinese ontology and interval names', async ({ page }) => {
   await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'zh'))
   await page.goto('./#/home')
-  await page.getByRole('button', { name: '更多页面' }).click()
-  await page.getByRole('navigation', { name: '详细工具' }).getByRole('button', { name: /^目录/ }).click()
   await page.locator('.global-search-trigger').click()
   const search = page.getByPlaceholder('搜索类群、地质时段、事件、地点…')
 
@@ -444,8 +442,7 @@ test('an active service worker does not replace static knowledge pages with the 
 
 test('browser back and forward preserve hash navigation', async ({ page }) => {
   await page.goto('./#/home')
-  await page.getByRole('button', { name: 'Open more pages' }).click()
-  await page.getByRole('navigation', { name: 'Detailed tools' }).getByRole('button', { name: /^Catalog/ }).click()
+  await page.getByRole('navigation', { name: 'Primary navigation' }).getByRole('button', { name: 'Reference', exact: true }).click()
   await expect(page).toHaveTitle('Catalog — Evo Atlas')
   await page.goBack()
   await expect(page).toHaveTitle('Evo Atlas — Deep-Time Evidence Explorer')

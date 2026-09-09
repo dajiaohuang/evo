@@ -1,4 +1,5 @@
-import profilesData from '../../data/registry/taxon-profiles.json'
+import { getTaxonProfile, hasPublishedRange, taxonProfiles } from './catalogProfiles'
+export { getTaxonProfile, hasPublishedRange, taxonProfiles } from './catalogProfiles'
 import eventsData from '../../data/events.json'
 import storiesData from '../../data/stories.json'
 import referencesData from '../../data/references.json'
@@ -13,7 +14,6 @@ import type {
   EvolutionStory,
   ReferenceRecord,
   SearchResult,
-  TaxonProfile,
   PlaceRecord,
   DivergenceEstimate,
   MediaAsset,
@@ -22,12 +22,8 @@ import type {
 import type { TreeNode } from '../types/tree'
 import { periods, timeScaleUnits } from './geology'
 import { getEntityPublication } from './publication'
-import { isPagesPreview, isPreviewEventAllowed, isPreviewStoryAllowed, isPreviewTaxonAllowed } from '../config/pagesPreview'
+import { isPagesPreview, isPreviewEventAllowed, isPreviewStoryAllowed } from '../config/pagesPreview'
 
-const allTaxonProfiles = profilesData as TaxonProfile[]
-export const taxonProfiles = isPagesPreview
-  ? allTaxonProfiles.filter((profile) => isPreviewTaxonAllowed(profile.id))
-  : allTaxonProfiles
 const evidenceClaimById = new Map((evidenceClaimsData as EvidenceClaim[]).map((claim) => [claim.id, claim]))
 const allEvolutionEvents = eventsData.map((event) => {
   const eventClaims = event.claimIds.flatMap((claimId) => {
@@ -57,10 +53,6 @@ const eventById = new Map(evolutionEvents.map((event) => [event.id, event]))
 const storyById = new Map(evolutionStories.map((story) => [story.id, story]))
 const referenceById = new Map(references.map((reference) => [reference.id, reference]))
 
-export function getTaxonProfile(id: string | null): TaxonProfile | null {
-  return id ? taxonById.get(id) ?? null : null
-}
-
 export function getEvolutionEvent(id: string | null): EvolutionEvent | null {
   return id ? eventById.get(id) ?? null : null
 }
@@ -78,10 +70,6 @@ export function getReferences(ids: string[]): ReferenceRecord[] {
 
 export function getMediaForTaxon(taxonId: string): MediaAsset[] {
   return mediaAssets.filter((asset) => asset.taxonId === taxonId)
-}
-
-export function hasPublishedRange(profile: TaxonProfile): boolean {
-  return profile.rangeEvidenceLevel !== 'withheld-no-range-evidence'
 }
 
 function flattenTree(node: TreeNode, output: TreeNode[] = []): TreeNode[] {

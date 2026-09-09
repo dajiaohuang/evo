@@ -17,7 +17,7 @@ export default defineConfig(({ mode }) => {
       react(),
       VitePWA({
         disable: nativeBuild,
-        registerType: 'autoUpdate',
+        registerType: 'prompt',
         includeAssets: ['favicon.svg'],
         manifest: {
           id: '/evo/',
@@ -74,6 +74,7 @@ export default defineConfig(({ mode }) => {
     ],
     base: nativeBuild ? './' : '/evo/',
     build: {
+      manifest: true,
       rolldownOptions: {
         output: {
           codeSplitting: {

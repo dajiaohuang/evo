@@ -15,12 +15,11 @@ test.beforeEach(async ({ page }) => {
 test('@cross-browser public navigation reaches the catalog and evidence dossier', async ({ page }) => {
   await page.goto('./#/home')
   const navigation = page.getByRole('navigation', { name: 'Primary navigation' })
-  for (const label of ['Atlas', 'Open more pages']) {
+  for (const label of ['Explore', 'Reference', 'Workspace']) {
     await expect(navigation.getByRole('button', { name: label, exact: true })).toBeVisible()
   }
 
-  await navigation.getByRole('button', { name: 'Open more pages', exact: true }).click()
-  await page.getByRole('navigation', { name: 'Detailed tools' }).getByRole('button', { name: /^Catalog/ }).click()
+  await navigation.getByRole('button', { name: 'Reference', exact: true }).click()
   await expect(page).toHaveTitle('Catalog — Evo Atlas')
   await expect(page.getByRole('heading', { name: 'Find a branch. Inspect its evidence boundary.' })).toBeVisible()
   await page.getByRole('button', { name: /Open the flagship dossier/ }).click()

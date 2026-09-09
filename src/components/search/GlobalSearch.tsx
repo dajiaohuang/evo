@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from 'react'
-import { searchCatalog } from '../../services/catalog'
 import { searchCatalogue, searchStaticData } from '../../data-client/staticDataClient'
 import type { CatalogueRecord, CatalogueRuntimeManifest, CatalogueTargetRecord } from '../../data-client/types'
 import { parseRouteHash, type AppRoute } from '../../utils/routing'
@@ -30,6 +29,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
   const [staticResults, setStaticResults] = useState<SearchResult[] | null>(null)
+  const [staticError, setStaticError] = useState(false)
   const [catalogueResults, setCatalogueResults] = useState<CatalogueRecord[] | null>(null)
   const [catalogueManifest, setCatalogueManifest] = useState<CatalogueRuntimeManifest | null>(null)
   const [catalogueTotalMatches, setCatalogueTotalMatches] = useState(0)
@@ -39,19 +39,17 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
   const [backendCatalogueResults, setBackendCatalogueResults] = useState<BackendNameSearchRecord[] | null>(null)
   const [backendReleaseAlias, setBackendReleaseAlias] = useState<string | null>(null)
   const inputRef = useRef<HTMLInputElement>(null)
-  const fallbackResults = searchCatalog(query).filter((result) => {
-    if (!isPagesPreview) return true
-    const parsed = parseRouteHash(result.route)
-    return !isPreviewRouteLocked(parsed.route, parsed.params)
-  })
-  const results = query.trim() && staticResults ? staticResults : fallbackResults
+  const triggerRef = useRef<HTMLButtonElement>(null)
+  const panelRef = useRef<HTMLElement>(null)
+  const results = staticResults ?? []
 
   useEffect(() => {
     let cancelled = false
+    const controller = new AbortController()
     const normalized = query.trim()
-    if (!normalized) return () => { cancelled = true }
+    if (!open || !normalized) return () => { cancelled = true }
     const timer = window.setTimeout(() => {
-      void searchStaticData(normalized).then((entries) => {
+      void searchStaticData(normalized, 16, controller.signal).then((entries) => {
         if (cancelled) return
         setStaticResults(entries.filter((entry) => {
           if (!entry.route) return false
@@ -79,7 +77,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
           }
         }))
       }).catch(() => {
-        if (!cancelled) setStaticResults(null)
+        if (!cancelled) { setStaticResults(null); setStaticError(true) }
       })
       if (!isPagesPreview) {
         setCatalogueLoading(true)
@@ -100,7 +98,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
             }
           })
         } else {
-          void searchCatalogue(normalized).then(({ manifest, records, totalMatches, resolutionTargets }) => {
+          void searchCatalogue(normalized, 12, controller.signal).then(({ manifest, records, totalMatches, resolutionTargets }) => {
             if (cancelled) return
             setCatalogueManifest(manifest)
             setCatalogueResults(records)
@@ -121,9 +119,10 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
     }, 120)
     return () => {
       cancelled = true
+      controller.abort()
       window.clearTimeout(timer)
     }
-  }, [query])
+  }, [open, query])
 
   useEffect(() => {
     const handler = (event: KeyboardEvent) => {
@@ -140,7 +139,19 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
   }, [])
 
   useEffect(() => {
-    if (open) window.requestAnimationFrame(() => inputRef.current?.focus())
+    if (!open) return
+    const trigger = triggerRef.current
+    const frame = window.requestAnimationFrame(() => inputRef.current?.focus())
+    const keepFocus = (event: KeyboardEvent) => {
+      if (event.key !== 'Tab') return
+      const focusable = Array.from(panelRef.current?.querySelectorAll<HTMLElement>('input, button, a[href]') ?? [])
+      const first = focusable[0]
+      const last = focusable.at(-1)
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus() }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus() }
+    }
+    window.addEventListener('keydown', keepFocus)
+    return () => { window.cancelAnimationFrame(frame); window.removeEventListener('keydown', keepFocus); trigger?.focus() }
   }, [open])
 
   const selectResult = (route: string) => {
@@ -160,7 +171,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
 
   return (
     <>
-      <button className="global-search-trigger" onClick={() => setOpen(true)}>
+      <button ref={triggerRef} className="global-search-trigger" aria-label={t('Search')} onClick={() => setOpen(true)}>
         <span aria-hidden="true">⌕</span>
         {t('Search')}
         <kbd>⌘ K</kbd>
@@ -169,7 +180,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
       {open && (
         <div className="global-search-overlay" role="dialog" aria-modal="true" aria-label={t('Search Evo Atlas')}>
           <button className="global-search-backdrop" onClick={() => setOpen(false)} aria-label={t('Close search')} />
-          <section className="global-search-panel">
+          <section ref={panelRef} className="global-search-panel">
             <label className="global-search-input">
               <span aria-hidden="true">⌕</span>
               <input
@@ -179,6 +190,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
                   const nextQuery = event.target.value
                   setQuery(nextQuery)
                   setStaticResults(null)
+                  setStaticError(false)
                   setCatalogueResults(null)
                   setBackendCatalogueResults(null)
                   setCatalogueTotalMatches(0)
@@ -192,11 +204,12 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
             </label>
 
             <div className="global-search-summary">
-              <span>{query ? t('{count} results', { count: results.length + catalogueTotalMatches }) : t('Featured field stories')}</span>
+              <span>{query ? t('{count} results', { count: results.length + catalogueTotalMatches }) : language === 'zh' ? '搜索名称与证据' : 'Search names and evidence'}</span>
               <span>{t('English / 中文 / scientific names')}</span>
             </div>
 
             <div className="global-search-results">
+              {staticError && <p role="alert">{language === 'zh' ? '内容索引暂不可用，请重试。' : 'The content index is unavailable. Please retry.'}</p>}
               {results.map((result) => (
                 <button key={`${result.kind}:${result.id}`} onClick={() => selectResult(result.route)}>
                   <span className={`search-kind search-kind--${result.kind}`}>{t(kindLabels[result.kind])}</span>
@@ -285,7 +298,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
               {!isPagesPreview && query.trim().length > 0 && query.trim().length < 3 && (
                 <div className="catalogue-search-note">{language === 'zh' ? '输入至少 3 个字符以搜索完整物种登记册。' : 'Type at least 3 characters to search the complete species registry.'}</div>
               )}
-              {results.length === 0 && (catalogueResults?.length ?? backendCatalogueResults?.length ?? 0) === 0 && !catalogueLoading && !catalogueError && query.trim().length >= 3 && (
+              {staticResults !== null && !staticError && results.length === 0 && (catalogueResults?.length ?? backendCatalogueResults?.length ?? 0) === 0 && !catalogueLoading && !catalogueError && query.trim().length >= 3 && (
                 <div className="global-search-empty">{t('No catalog entry matches “{query}”.', { query })}</div>
               )}
             </div>

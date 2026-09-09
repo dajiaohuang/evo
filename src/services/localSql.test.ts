@@ -21,4 +21,17 @@ describe('local SQL safety and projection', () => {
       occurrence_id: 'occ:1', accepted_name: 'Equus', period: 'Quaternary', country: 'US', modern_lng: -100,
     })
   })
+
+  it.each([null, undefined, '', '  ', false, true, 'unknown', Number.NaN])('keeps missing numeric value %s unknown', (value) => {
+    const record = { oid: 'occ:missing', eag: value, lag: value, lng: value, lat: value, paleolng: value, paleolat: value } as unknown as FossilOccurrence
+    expect(fossilsForSql([record])[0]).toMatchObject({
+      period: null, early_age_ma: null, late_age_ma: null,
+      modern_lng: null, modern_lat: null, paleo_lng: null, paleo_lat: null,
+    })
+  })
+
+  it('retains genuine zero coordinates and ages', () => {
+    const record = { oid: 'occ:zero', eag: 0, lag: 0, lng: '0', lat: 0 } as unknown as FossilOccurrence
+    expect(fossilsForSql([record])[0]).toMatchObject({ early_age_ma: 0, late_age_ma: 0, modern_lng: 0, modern_lat: 0 })
+  })
 })

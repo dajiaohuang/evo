@@ -272,6 +272,9 @@
   .explorer-workspace--dashboard { grid-template-columns: minmax(0, 1fr); grid-template-areas: 'stage' 'timeline'; }
   .explorer-workspace--dashboard.is-details-open { grid-template-columns: 210px minmax(0, 1fr); grid-template-areas: 'nav stage' 'timeline timeline'; }
   .explorer-inspector { display: none; }
+  .explorer-inspector.is-open { display: flex; position: fixed; right: 12px; bottom: calc(var(--timeline-height) + 12px); top: var(--topbar-height); width: min(360px, 90vw); z-index: 1800; box-shadow: var(--shadow-lg); }
+  .mobile-panel-close { display: inline-grid; place-items: center; }
+  .mobile-panel-switcher { display: flex; }
 }
 
 @media (max-width: 720px) {
@@ -287,7 +290,7 @@
   .explorer-nav,
   .explorer-inspector { display: none; position: fixed; top: var(--topbar-height); bottom: calc(var(--timeline-height) + 62px); z-index: 1800; width: min(86vw, 340px); box-shadow: var(--shadow-lg); }
   .explorer-nav { left: 0; }
-  .explorer-inspector { right: 0; }
+  .explorer-inspector.is-open { left: 0; right: 0; top: auto; bottom: calc(62px + var(--safe-area-bottom)); width: 100%; max-height: 65dvh; border-radius: 16px 16px 0 0; border-top: 2px solid var(--color-border); }
   .explorer-nav.is-open,
   .explorer-inspector.is-open { display: flex; }
   .explorer-panel-backdrop { display: block; position: fixed; inset: var(--topbar-height) 0 62px; z-index: 1700; border: 0; background: rgba(0, 0, 0, .58); }
@@ -297,7 +300,6 @@
   .view-switcher { min-width: 0; }
   .view-switcher button { min-width: 0; flex: 1; padding-inline: 7px; }
   .mobile-panel-switcher { display: flex; gap: 2px; }
-  .explorer-workspace--dashboard:not(.is-details-open) .mobile-panel-switcher { display: none; }
   .mobile-panel-switcher button { padding: 6px 7px; border: 1px solid var(--color-border-subtle); background: var(--color-bg-elevated); color: var(--color-text-muted); font-size: 8px; }
   .mobile-panel-switcher button[aria-expanded='true'] { border-color: var(--color-accent-dim); color: var(--color-accent); }
   .stage-actions { gap: 3px; }

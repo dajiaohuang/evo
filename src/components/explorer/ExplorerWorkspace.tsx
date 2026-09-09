@@ -1,11 +1,12 @@
-import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
+import { Activity, lazy, Suspense, useEffect, useEffectEvent, useMemo, useRef, useState } from 'react'
 import treeData from '../../../data/navigation/atlas-ontology.json'
 import manifest from '../../../data/manifest.json'
 import { useAppStore } from '../../store'
 import type { TreeDisplayMode, TreeNode } from '../../types'
 import type { FossilMarkerMode } from '../../store/mapSlice'
 import type { CoordinateMode } from '../../utils/spatial'
-import { getEvolutionEvent, getEvolutionStory, getTaxonProfile } from '../../services/catalog'
+import { getTaxonProfile } from '../../services/catalogProfiles'
+import { useCatalogContext } from '../../hooks/useCatalogContext'
 import { getEntityPublication } from '../../services/publication'
 import { periods, timeScaleUnits } from '../../services/geology'
 import { buildRouteHash, getFiniteRouteNumber, parseRouteHash } from '../../utils/routing'
@@ -14,7 +15,6 @@ import { loadPackageForEntity } from '../../data-client/staticDataClient'
 import { useI18n } from '../../i18n'
 import { isPagesPreview, isPreviewTaxonAllowed } from '../../config/pagesPreview'
 import { GeoTimeline } from '../timeline/GeoTimeline'
-import { SpeciesDetail } from '../details/SpeciesDetail'
 import { ErrorBoundary } from '../common/ErrorBoundary'
 import { EvidenceStatus } from '../common/EvidenceStatus'
 import './ExplorerWorkspace.css'
@@ -25,6 +25,7 @@ type TutorialStepId = 'time' | 'map' | 'tree' | 'evidence'
 
 interface ExplorerWorkspaceProps {
   dashboard?: boolean
+  params?: URLSearchParams
 }
 
 const TUTORIAL_STEPS: Array<{ id: TutorialStepId; title: string; description: string }> = [
@@ -44,6 +45,8 @@ const EvoTree = lazy(() => import('../tree/EvoTree')
   .then((module) => ({ default: module.EvoTree })))
 const DiversityView = lazy(() => import('../diversity/DiversityView')
   .then((module) => ({ default: module.DiversityView })))
+const SpeciesDetail = lazy(() => import('../details/SpeciesDetail')
+  .then((module) => ({ default: module.SpeciesDetail })))
 
 interface FlatNode {
   id: string
@@ -53,6 +56,7 @@ interface FlatNode {
   taxonId?: string
   firstAppearance: number
   lastAppearance: number
+  rangeEvidenceLevel?: TreeNode['rangeEvidenceLevel']
 }
 
 function flattenTree(node: TreeNode, output: FlatNode[] = []): FlatNode[] {
@@ -75,25 +79,32 @@ function initialGuideMode(): GuideMode {
   try { return window.localStorage.getItem('evo-explorer-guide-v2') === 'dismissed' ? 'hidden' : 'choice' } catch { return 'choice' }
 }
 
-export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps) {
+export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspaceProps) {
   const { language, number, t } = useI18n()
-  const [initialRoute] = useState(() => parseRouteHash(window.location.hash))
+  const initialRoute = useMemo(() => params ? { params } : parseRouteHash(window.location.hash), [params])
+  const [hydratedRoute, setHydratedRoute] = useState<typeof initialRoute | null>(null)
+  const pendingOccurrence = useRef<string | null>(null)
+  const historySelection = useRef<string | null>(null)
+  const appliedHash = useRef(window.location.hash)
   const routeView = initialRoute.params.get('view')
   const initialView: ExplorerView = routeView === 'tree' || routeView === 'diversity' ? routeView : 'map'
-  const [context] = useState(() => ({
+  const context = useMemo(() => ({
     profile: initialRoute.params.get('profile'),
     event: initialRoute.params.get('event'),
     story: initialRoute.params.get('story'),
     step: initialRoute.params.get('step'),
     older: getFiniteRouteNumber(initialRoute.params, 'older'),
     younger: getFiniteRouteNumber(initialRoute.params, 'younger'),
-  }))
+  }), [initialRoute])
   const [view, setView] = useState<ExplorerView>(initialView)
+  const [visitedViews, setVisitedViews] = useState(() => new Set<ExplorerView>([initialView]))
+  if (!visitedViews.has(view)) setVisitedViews(new Set([...visitedViews, view]))
   const requestedDataset = initialRoute.params.get('dataset')
   const datasetMismatch = requestedDataset && requestedDataset !== manifest.datasetVersion
     ? { requested: requestedDataset, current: manifest.datasetVersion }
     : null
-  const [datasetAccepted, setDatasetAccepted] = useState(!datasetMismatch)
+  const [acceptedDataset, setAcceptedDataset] = useState<string | null>(null)
+  const datasetAccepted = !datasetMismatch || acceptedDataset === requestedDataset
   const [mobilePanel, setMobilePanel] = useState<'navigator' | 'inspector' | null>(null)
   const [query, setQuery] = useState('')
   const [shareStatus, setShareStatus] = useState<'idle' | 'copied' | 'ready'>('idle')
@@ -135,8 +146,7 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
 
   const nodes = useMemo(() => flattenTree(treeData as TreeNode), [])
   const profileContext = getTaxonProfile(context.profile)
-  const eventContext = getEvolutionEvent(context.event)
-  const storyContext = getEvolutionStory(context.story)
+  const { event: eventContext, story: storyContext, error: contextError } = useCatalogContext(context.event, context.story)
   const storyStep = storyContext?.steps.find((step) => step.id === context.step)
   const selectedPublication = getEntityPublication(profileContext?.treeNodeId ?? selectedNodeId)
   const searchResults = useMemo(() => {
@@ -154,8 +164,14 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
     }).slice(0, 8)
   }, [nodes, query])
 
-  useEffect(() => {
+  const hydrateRoute = useEffectEvent(() => {
+    if (!datasetAccepted || hydratedRoute === initialRoute) return
+    historySelection.current = null
+    appliedHash.current = window.location.hash
+    pendingOccurrence.current = initialRoute.params.get('occurrence')
     const params = initialRoute.params
+    const routeView = params.get('view')
+    if (routeView === 'map' || routeView === 'tree' || routeView === 'diversity') setView(routeView)
     const age = getFiniteRouteNumber(params, 'age')
     if (age !== null) setTime(age)
 
@@ -174,6 +190,7 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
     const requestedTreeMode = params.get('treeMode') as TreeDisplayMode | null
     if (requestedTreeMode && TREE_MODES.has(requestedTreeMode)) setTreeMode(requestedTreeMode)
     const taxon = params.get('taxon')
+    if (!taxon && params.has('dataset')) void selectSubject({ nodeId: null })
     if (taxon && (!isPagesPreview || isPreviewTaxonAllowed(taxon))) {
       const node = nodes.find((candidate) => candidate.id === taxon)
       if (node) {
@@ -183,9 +200,11 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
     if (profileContext?.pbdbTaxonId && (!isPagesPreview || isPreviewTaxonAllowed(profileContext.id))) {
       void selectSubject({ nodeId: profileContext.treeNodeId ?? null, taxonId: profileContext.pbdbTaxonId })
     }
-    // Initial URL hydration only.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+    setHydratedRoute(initialRoute)
+  })
+  // URL navigation is an external event: apply its complete snapshot before writing it back.
+  // eslint-disable-next-line react-hooks/set-state-in-effect
+  useEffect(() => { hydrateRoute() }, [initialRoute, datasetAccepted])
 
   useEffect(() => {
     if (currentPeriod) void loadOccurrencesForInterval(currentPeriod)
@@ -196,18 +215,22 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
   }, [selectedNodeId])
 
   useEffect(() => {
-    const requestedId = initialRoute.params.get('occurrence')
-    if (!requestedId || selectedOccurrence?.oid === requestedId) return
+    const requestedId = pendingOccurrence.current
+    if (!requestedId) return
+    if (selectedOccurrence?.oid === requestedId) { pendingOccurrence.current = null; return }
     const availableRecords = [
       ...Object.values(occurrencesByInterval).flat(),
       ...Object.values(occurrencesByTaxonQuery).flat(),
     ]
     const match = availableRecords.find((record) => record.oid === requestedId)
-    if (match) selectFossilOccurrence(match)
+    if (match) { pendingOccurrence.current = null; selectFossilOccurrence(match) }
   }, [initialRoute.params, occurrencesByInterval, occurrencesByTaxonQuery, selectFossilOccurrence, selectedOccurrence?.oid])
 
   useEffect(() => {
-    if (!datasetAccepted) return
+    if (!datasetAccepted || hydratedRoute !== initialRoute) return
+    // A navigation may have changed the URL before React receives hashchange.
+    // Never let an asynchronous data update replace that pending navigation.
+    if (window.location.hash !== appliedHash.current) return
     const hash = buildRouteHash(dashboard ? 'home' : 'explore', {
       age: currentAge.toFixed(1),
       view,
@@ -227,15 +250,18 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
       treeMode,
       occurrence: selectedOccurrence?.oid,
     })
-    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}${hash}`)
-  }, [context, coordinateMode, currentAge, dashboard, datasetAccepted, markerMode, selectedNodeId, selectedOccurrence?.oid, treeMode, view, viewState])
+    const selection = `${view}:${selectedNodeId ?? ''}:${selectedOccurrence?.oid ?? ''}`
+    const method = historySelection.current !== null && historySelection.current !== selection ? 'pushState' : 'replaceState'
+    historySelection.current = selection
+    if (window.location.hash !== hash) window.history[method](window.history.state, '', `${window.location.pathname}${window.location.search}${hash}`)
+    appliedHash.current = hash
+  }, [context, coordinateMode, currentAge, dashboard, datasetAccepted, hydratedRoute, initialRoute, markerMode, selectedNodeId, selectedOccurrence?.oid, treeMode, view, viewState])
 
   const chooseNode = (node: FlatNode) => {
     if (isPagesPreview && !isPreviewTaxonAllowed(node.id)) return
     void selectSubject({ nodeId: node.id, taxonId: node.taxonId })
-    const midpoint = (node.firstAppearance + node.lastAppearance) / 2
-    if (Number.isFinite(midpoint)) setTime(midpoint)
-    setMobilePanel(null)
+    setDetailsOpen(true)
+    setMobilePanel('inspector')
   }
 
   const shareState = async () => {
@@ -285,6 +311,17 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
   const currentTutorialStep = TUTORIAL_STEPS[guideStep]
 
   const selectedPeriod = periods.find((period) => period.name === currentPeriod)
+  const selectedNode = nodes.find((node) => node.id === selectedNodeId)
+  const canLocateTime = selectedNode && selectedNode.rangeEvidenceLevel !== 'withheld-no-range-evidence'
+    && Number.isFinite(selectedNode.firstAppearance) && Number.isFinite(selectedNode.lastAppearance)
+  const revealSelection = useEffectEvent(() => {
+    if ((!selectedNodeId && !selectedOccurrence) || guideMode !== 'hidden') return
+    setDetailsOpen(true)
+    setMobilePanel('inspector')
+  })
+  // Map and tree selections arrive through the external store, not local button handlers.
+  // eslint-disable-next-line react-hooks/set-state-in-effect
+  useEffect(() => { revealSelection() }, [selectedNodeId, selectedOccurrence?.oid])
 
   return (
     <main className={`explorer-workspace${dashboard ? ' explorer-workspace--dashboard' : ''}${detailsOpen ? ' is-details-open' : ''}`}>
@@ -296,7 +333,7 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
             <p>{t('Requested {requested}; this deployment provides {current}. Continuing may change scientific results.', datasetMismatch)}</p>
             <div>
               <a href="#/home">{t('Leave Explorer')}</a>
-              <button autoFocus onClick={() => setDatasetAccepted(true)}>{t('Use current dataset')}</button>
+              <button autoFocus onClick={() => setAcceptedDataset(requestedDataset)}>{t('Use current dataset')}</button>
             </div>
           </div>
         </section>
@@ -377,6 +414,7 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
       {mobilePanel && <button className="explorer-panel-backdrop" aria-label={t('Close Explorer panel')} onClick={() => setMobilePanel(null)} />}
 
       <section className="explorer-stage">
+        {contextError && <p role="alert">{language === 'zh' ? '无法加载所选故事或事件。' : 'The selected story or event could not be loaded.'}</p>}
         {guideMode === 'choice' && (
           <section className="dashboard-welcome" role="dialog" aria-modal="true" aria-labelledby="dashboard-welcome-title">
             <div>
@@ -430,15 +468,15 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
             <button className={view === 'diversity' ? 'is-active' : ''} onClick={() => setView('diversity')}>{t('Diversity')}</button>
           </div>
           <div className="mobile-panel-switcher" role="group" aria-label={t('Explorer side panels')}>
-            <button aria-expanded={mobilePanel === 'navigator'} onClick={() => setMobilePanel((panel) => panel === 'navigator' ? null : 'navigator')}>{t('Taxa & time')}</button>
-            <button aria-expanded={mobilePanel === 'inspector'} onClick={() => setMobilePanel((panel) => panel === 'inspector' ? null : 'inspector')}>{t('Evidence')}</button>
+            <button aria-expanded={mobilePanel === 'navigator'} onClick={() => { setDetailsOpen(true); setMobilePanel((panel) => panel === 'navigator' ? null : 'navigator') }}>{t('Taxa & time')}</button>
+            <button aria-expanded={mobilePanel === 'inspector'} onClick={() => { setDetailsOpen(true); setMobilePanel((panel) => panel === 'inspector' ? null : 'inspector') }}>{t('Evidence')}</button>
           </div>
           <div className="stage-actions">
             <button className="stage-tutorial-trigger" onClick={dashboard ? () => setGuideMode('choice') : startTutorial}>{t('Tutorial')}</button>
             {dashboard && <button className="stage-details-trigger" aria-expanded={detailsOpen} onClick={() => setDetailsOpen((open) => !open)}>{t(detailsOpen ? 'Fold detailed tools' : 'Open detailed tools')}</button>}
             <div className="stage-metric">
               <strong>{number(periodOccurrences?.length ?? 0)}</strong>
-              <span>{t('visible records')}</span>
+              <span>{language === 'zh' ? '当前地质期记录' : 'period sample records'}</span>
             </div>
           </div>
         </div>
@@ -446,13 +484,9 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
         <div className="dashboard-stage-body">
           <div className="stage-canvas">
             <Suspense fallback={<ModuleLoading />}>
-              {view === 'map' ? (
-                <ErrorBoundary fallback={<ViewFallback label="Map" />}><PaleoMap /></ErrorBoundary>
-              ) : view === 'tree' ? (
-                <ErrorBoundary fallback={<ViewFallback label="Tree" />}><EvoTree /></ErrorBoundary>
-              ) : (
-                <ErrorBoundary fallback={<ViewFallback label="Diversity view" />}><DiversityView /></ErrorBoundary>
-              )}
+              {visitedViews.has('map') && <Activity mode={view === 'map' ? 'visible' : 'hidden'}><ErrorBoundary fallback={<ViewFallback label="Map" />}><PaleoMap /></ErrorBoundary></Activity>}
+              {visitedViews.has('tree') && <Activity mode={view === 'tree' ? 'visible' : 'hidden'}><ErrorBoundary fallback={<ViewFallback label="Tree" />}><EvoTree /></ErrorBoundary></Activity>}
+              {visitedViews.has('diversity') && <Activity mode={view === 'diversity' ? 'visible' : 'hidden'}><ErrorBoundary fallback={<ViewFallback label="Diversity view" />}><DiversityView /></ErrorBoundary></Activity>}
             </Suspense>
           </div>
         </div>
@@ -480,6 +514,9 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
           </div>
         </div>
         <div className="inspector-scroll">
+          {canLocateTime && <button className="share-button" onClick={() => setTime((selectedNode.firstAppearance + selectedNode.lastAppearance) / 2)}>
+            {language === 'zh' ? '定位到记录时间范围' : 'Locate represented time range'}
+          </button>}
           {(profileContext || eventContext) && (
             <div className="context-inspector-card">
               <span>{t(profileContext ? 'Curated taxon profile' : 'Curated event')}</span>
@@ -491,7 +528,7 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
             </div>
           )}
           {selectedPublication && <EvidenceStatus publication={selectedPublication} entityId={profileContext?.id ?? selectedNodeId ?? undefined} compact />}
-          <ErrorBoundary fallback={<ViewFallback label="Inspector" />}><SpeciesDetail /></ErrorBoundary>
+          <Suspense fallback={<ModuleLoading />}><ErrorBoundary fallback={<ViewFallback label="Inspector" />}><SpeciesDetail /></ErrorBoundary></Suspense>
         </div>
       </aside>}
 

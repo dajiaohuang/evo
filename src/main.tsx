@@ -32,8 +32,12 @@ if (import.meta.env.VITE_NATIVE_APP === 'true') {
     console.warn('Evo Atlas native runtime initialization failed.', error)
   })
 } else {
-  registerSW({
+  const updateSW = registerSW({
     immediate: true,
+    onNeedRefresh() {
+      document.documentElement.dataset.updateAvailable = 'true'
+      window.dispatchEvent(new Event('evo:update-available'))
+    },
     onOfflineReady() {
       document.documentElement.dataset.offlineReady = 'true'
       window.dispatchEvent(new Event('evo:offline-ready'))
@@ -42,6 +46,7 @@ if (import.meta.env.VITE_NATIVE_APP === 'true') {
       console.warn('Evo Atlas service worker registration failed.', error)
     },
   })
+  window.addEventListener('evo:apply-update', () => { void updateSW(true) })
 }
 
 createRoot(document.getElementById('root')!).render(
