@@ -6,9 +6,9 @@ Evo Atlas currently ships one React/TypeScript application with three delivery
 targets:
 
 - Web uses the Vite client and static, checksum-addressed runtime data.
-- Android and iOS use Capacitor shells around the same React client. They are
-  native delivery targets, but they are not yet independent native frontend
-  implementations.
+- Android and iOS use Capacitor shells around the same React client. Their
+  platform-specific entry points are kept behind explicit adapter boundaries;
+  the shared React shell is an implementation detail, not a data contract.
 - GitHub Pages can opt into `VITE_PAGES_PREVIEW=true`. This produces the
   `github-pages-preview` edition: dashboard, tutorial, time/map scenes, the
   selected resource packages, selected events and selected stories. Full
@@ -45,10 +45,14 @@ contracts and scientific data semantics, not duplicated scientific facts:
 | Android | Native shell and native interaction layer | Full offline release, local index and resumable sync | Release discovery, entity/evidence queries, sync and optional search |
 | iOS | Native shell and native interaction layer | Full offline release, local index and resumable sync | Same protocol as Android |
 
-Until the native implementations are split out, new product behavior should be
-expressed in shared route/data contracts first and then implemented by each
-target. The Web client must not become the accidental specification for native
-navigation or storage.
+The independent adapter seam in `src/platform/frontendAdapters.ts` exposes the
+same v1 operations to Web, Android and iOS: capabilities, name search, one
+direct-child page, node detail and timeline scene cards. Each target gets its
+own adapter factory and the pure `FrontendClientState` reducer retains only
+fetched pages, the selected node and the current scene cards. This makes the
+three clients independently testable without materialising the full tree or
+copying scientific facts into platform code. The Web client must not become the
+accidental specification for native navigation or storage.
 
 ## Protocol seam
 
