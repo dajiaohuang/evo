@@ -31,6 +31,9 @@ export function GeoTimeline() {
   const rafRef = useRef<number>(0)
   const playbackRafRef = useRef<number>(0)
   const playbackAgeRef = useRef(currentAge)
+  const [interactionAge, setInteractionAge] = useState<number | null>(null)
+  const lastCommit = useRef(0)
+  const displayedAge = interactionAge ?? currentAge
 
   const activeScaleMode = currentAge > PHANEROZOIC_TOTAL_MA ? 'earth' : scaleMode
   const totalMa = activeScaleMode === 'earth' ? EARTH_HISTORY_TOTAL_MA : PHANEROZOIC_TOTAL_MA
@@ -48,16 +51,26 @@ export function GeoTimeline() {
     if (!dragging || !svgRef.current) return
     cancelAnimationFrame(rafRef.current)
     rafRef.current = requestAnimationFrame(() => {
-      const rect = svgRef.current!.getBoundingClientRect()
+      if (!svgRef.current) return
+      const rect = svgRef.current.getBoundingClientRect()
       const x = e.clientX - rect.left
       const age = xToAge(x, rect.width)
-      setTime(age)
+      playbackAgeRef.current = age
+      setInteractionAge(age)
+      if (performance.now() - lastCommit.current >= 120) {
+        lastCommit.current = performance.now()
+        setTime(age)
+      }
     })
   }, [dragging, xToAge, setTime])
 
   const handlePointerUp = useCallback(() => {
+    cancelAnimationFrame(rafRef.current)
+    setTime(playbackAgeRef.current)
+    setInteractionAge(null)
     setDragging(false)
-  }, [])
+  }, [setTime])
+  useEffect(() => () => cancelAnimationFrame(rafRef.current), [])
 
   useEffect(() => {
     if (dragging) {
@@ -89,8 +102,12 @@ export function GeoTimeline() {
       previous = now
       const nextAge = Math.max(0, playbackAgeRef.current - speed * elapsedSeconds)
       playbackAgeRef.current = nextAge
-      setTime(nextAge)
-      if (nextAge === 0) setPlaying(false)
+      setInteractionAge(nextAge)
+      if (now - lastCommit.current >= 120 || nextAge === 0) {
+        lastCommit.current = now
+        setTime(nextAge)
+      }
+      if (nextAge === 0) { setPlaying(false); setInteractionAge(null) }
       else playbackRafRef.current = requestAnimationFrame(tick)
     }
     playbackRafRef.current = requestAnimationFrame(tick)
@@ -98,6 +115,7 @@ export function GeoTimeline() {
   }, [playing, setTime, speed])
 
   const handlePointerDown = useCallback(() => {
+    setPlaying(false)
     setDragging(true)
   }, [])
 
@@ -109,14 +127,14 @@ export function GeoTimeline() {
     setTime(age)
   }, [xToAge, setTime])
 
-  const handleX = ageToX(currentAge, width)
+  const handleX = ageToX(displayedAge, width)
 
   const eras = (timeScaleUnits as GeoInterval[]).filter((unit) => unit.itp === 'era' && unit.eag <= PHANEROZOIC_TOTAL_MA)
   const eons = (timeScaleUnits as GeoInterval[]).filter((unit) => unit.itp === 'eon')
 
-  const ageLabel = currentAge >= 1000
-    ? `${(currentAge / 1000).toFixed(2)} Ga`
-    : `${currentAge.toFixed(1)} Ma`
+  const ageLabel = displayedAge >= 1000
+    ? `${(displayedAge / 1000).toFixed(2)} Ga`
+    : `${displayedAge.toFixed(1)} Ma`
   const finestUnitName = currentAgeUnit ?? currentEpoch ?? currentPeriod ?? currentEon ?? 'Deep time'
   const finestUnit = timeScaleUnits.find((unit) => unit.nam === finestUnitName)
   const localizedFinestUnit = language === 'zh' ? (finestUnit?.namZh ?? t(finestUnitName)) : finestUnitName
@@ -124,8 +142,15 @@ export function GeoTimeline() {
   return (
     <div style={{ height: '100%', width: '100%', position: 'relative', userSelect: 'none' }}>
       <div className="timeline-controls" onPointerDown={(event) => event.stopPropagation()}>
-        <button onClick={() => setPlaying((value) => !value)} aria-label={t(playing ? 'Pause geological time playback' : 'Play toward the present')}>{playing ? 'Ⅱ' : '▶'}</button>
-        <label><span>Ma</span><input type="number" min="0" max={EARTH_HISTORY_TOTAL_MA} step="0.1" value={Number(currentAge.toFixed(1))} onChange={(event) => setTime(Number(event.target.value))} /></label>
+        <button onClick={() => {
+          if (playing) { setTime(playbackAgeRef.current); setInteractionAge(null) }
+          setPlaying((value) => !value)
+        }} aria-label={t(playing ? 'Pause geological time playback' : 'Play toward the present')}>{playing ? 'Ⅱ' : '▶'}</button>
+        <label><span>Ma</span><input aria-label={language === 'zh' ? '年代（百万年前）' : 'Age in millions of years'} type="number" min="0" max={EARTH_HISTORY_TOTAL_MA} step="0.1" value={Number(displayedAge.toFixed(1))} onChange={(event) => {
+          const age = event.target.valueAsNumber
+          if (!Number.isFinite(age)) return
+          setPlaying(false); setInteractionAge(null); setTime(age)
+        }} /></label>
         <label><span>{t('speed')}</span><select value={speed} onChange={(event) => setSpeed(Number(event.target.value))}><option value={1}>1 Ma/s</option><option value={10}>10 Ma/s</option><option value={50}>50 Ma/s</option><option value={200}>200 Ma/s</option></select></label>
         <label className="timeline-event-jump"><span>{t('event')}</span><select value="" onChange={(event) => {
           const selected = eventsData.find((item) => item.id === event.target.value)

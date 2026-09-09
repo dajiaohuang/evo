@@ -1,4 +1,5 @@
 import { gunzipSync, strFromU8 } from 'fflate'
+import { compareCatalogueRecords, createRuntimeRowIndex, type RuntimeRowQuery, type RuntimeRowResult } from './runtimeQueries'
 import type {
   CurrentRuntimeManifest,
   CatalogueHierarchyChildRecord,
@@ -41,7 +42,7 @@ const jsonCache = new Map<string, unknown>()
 const inFlight = new Map<string, Promise<unknown>>()
 const windowJsonCache = new Map<string, unknown>()
 const windowInFlight = new Map<string, Promise<unknown>>()
-const loadedPackageSearch = new Map<string, RuntimeSearchEntry[]>()
+const loadedPackageSearch = new Map<string, RuntimeFile>()
 const mapJsonCache = new Map<string, unknown>()
 const mapInFlight = new Map<string, Promise<unknown>>()
 const MAP_CACHE_LIMIT = 18
@@ -142,15 +143,33 @@ function runtimeWorker(): Worker | null {
   return worker
 }
 
-async function loadWithWorker<T>(file: RuntimeFile): Promise<T> {
+async function loadWithWorker<T>(file: RuntimeFile, query?: RuntimeRowQuery, signal?: AbortSignal): Promise<T> {
+  signal?.throwIfAborted()
   const activeWorker = runtimeWorker()
-  if (!activeWorker) return loadWithoutWorker<T>(file)
+  if (!activeWorker) {
+    const data = await loadWithoutWorker<T>(file)
+    signal?.throwIfAborted()
+    return query ? createRuntimeRowIndex(data as unknown[])(query) as T : data
+  }
   const id = ++requestId
   return new Promise<T>((resolve, reject) => {
-    workerRequests.set(id, { resolve: (data) => resolve(data as T), reject })
+    const abort = () => {
+      cleanup()
+      workerRequests.delete(id)
+      activeWorker.postMessage({ id, cancel: true })
+      reject(new DOMException('Query cancelled', 'AbortError'))
+    }
+    const cleanup = () => { clearTimeout(timer); signal?.removeEventListener('abort', abort) }
+    const timer = setTimeout(() => {
+      cleanup(); workerRequests.delete(id)
+      activeWorker.postMessage({ id, cancel: true })
+      reject(new Error(`Runtime data request timed out: ${file.url}`))
+    }, 60_000)
+    signal?.addEventListener('abort', abort, { once: true })
+    workerRequests.set(id, { resolve: (data) => { cleanup(); resolve(data as T) }, reject: (error) => { cleanup(); reject(error) } })
     // Resolve native ./data against the document, not the worker's assets/ URL.
     const url = new URL(dataUrl(file.url), document.baseURI).href
-    activeWorker.postMessage({ id, url, sha256: file.sha256, sourceSha256: file.sourceSha256, mediaType: file.mediaType })
+    activeWorker.postMessage({ id, url, sha256: file.sha256, sourceSha256: file.sourceSha256, mediaType: file.mediaType, ...(query ? { query } : {}) })
   })
 }
 
@@ -581,8 +600,7 @@ export async function loadPackageForEntity(entityId: string): Promise<RuntimePac
   const manifest = await loadPackageManifest(packageId)
   const searchFile = manifest.files.search
   if (searchFile && !loadedPackageSearch.has(packageId)) {
-    const entries = await loadRuntimeFile<RuntimeSearchEntry[]>(searchFile)
-    loadedPackageSearch.set(packageId, entries)
+    loadedPackageSearch.set(packageId, searchFile)
   }
   return manifest
 }
@@ -1294,7 +1312,7 @@ export async function loadCatalogueLineage(id: string, maxDepth = 64): Promise<C
   return lineage.reverse()
 }
 
-export async function searchCatalogue(query: string, limit = 12): Promise<{
+export async function searchCatalogue(query: string, limit = 12, signal?: AbortSignal): Promise<{
   manifest: CatalogueRuntimeManifest
   records: CatalogueRecord[]
   totalMatches: number
@@ -1311,15 +1329,8 @@ export async function searchCatalogue(query: string, limit = 12): Promise<{
     .map((url) => filesByUrl.get(url))
     .filter((file): file is NonNullable<typeof file> => Boolean(file))
     .filter((file) => compact.startsWith(file.prefix) || file.prefix.startsWith(compact))
-  const shards = await Promise.all(routedFiles.map((file) => loadWindowedRuntimeFile<CatalogueRecord[]>(file)))
-  const statusOrder: Record<CatalogueRecord['status'], number> = { accepted: 0, synonym: 1, 'ambiguous-synonym': 2, misapplied: 3 }
-  const matches = shards.flat()
-    .filter((record) => record.normalizedName.startsWith(normalized))
-    .sort((left, right) => statusOrder[left.status] - statusOrder[right.status]
-      || left.normalizedName.length - right.normalizedName.length
-      || left.scientificName.localeCompare(right.scientificName)
-      || (left.authorship ?? '').localeCompare(right.authorship ?? '')
-      || left.id.localeCompare(right.id))
+  const shards = await Promise.all(routedFiles.map((file) => loadWithWorker<RuntimeRowResult<CatalogueRecord>>(file, { kind: 'catalogue', text: normalized, limit }, signal)))
+  const matches = shards.flatMap((shard) => shard.records).sort(compareCatalogueRecords)
   const exactMatches = matches.filter((record) => record.normalizedName === normalized)
   const records = exactMatches.length > limit ? exactMatches : matches.slice(0, limit)
   const targetIds = [...new Set(records.flatMap((record) => record.status === 'accepted' || !record.acceptedId ? [] : [record.acceptedId]))]
@@ -1328,13 +1339,13 @@ export async function searchCatalogue(query: string, limit = 12): Promise<{
   const routeFiles = [...new Set(targetRoutes.flatMap(([, prefix]) => manifest.acceptedTargets.routes[prefix] ?? []))]
     .map((url) => targetFilesByUrl.get(url))
     .filter((file): file is NonNullable<typeof file> => Boolean(file))
-  const targetShards = await Promise.all(routeFiles.map((file) => loadWindowedRuntimeFile<CatalogueTargetRecord[]>(file)))
+  const targetShards = await Promise.all(routeFiles.map((file) => loadWithWorker<RuntimeRowResult<CatalogueTargetRecord>>(file, { kind: 'ids', ids: targetIds }, signal)))
   const wantedTargets = new Set(targetIds)
-  const resolutionTargets = Object.fromEntries(targetShards.flat()
+  const resolutionTargets = Object.fromEntries(targetShards.flatMap((shard) => shard.records)
     .filter((record) => wantedTargets.has(record.id))
     .map((record) => [record.id, record]))
   if (Object.keys(resolutionTargets).length !== targetIds.length) throw new Error('Catalogue resolving-name target is missing from the pinned release')
-  return { manifest, records, totalMatches: matches.length, resolutionTargets }
+  return { manifest, records, totalMatches: shards.reduce((sum, shard) => sum + shard.totalMatches, 0), resolutionTargets }
 }
 
 export async function loadPaleogeographySnapshot(period: string): Promise<{
@@ -1438,22 +1449,17 @@ export async function loadPaleogeography(period: string): Promise<{
   return { ...result, layers: Object.fromEntries(layerIds.map((layerId, index) => [layerId, loaded[index]])) }
 }
 
-function matchesSearch(entry: RuntimeSearchEntry, normalized: string): boolean {
-  return [entry.title, entry.titleEn, entry.titleZh, ...entry.terms]
-    .filter((value): value is string | number => value !== null && value !== undefined)
-    .some((value) => String(value).toLocaleLowerCase().includes(normalized))
-}
-
-export async function searchStaticData(query: string, limit = 16): Promise<RuntimeSearchEntry[]> {
+export async function searchStaticData(query: string, limit = 16, signal?: AbortSignal): Promise<RuntimeSearchEntry[]> {
   const normalized = query.trim().toLocaleLowerCase()
   if (!normalized) return []
   const current = await loadCurrentManifest()
-  const core = await loadRuntimeFile<RuntimeSearchEntry[]>(current.core.search)
-  const entries = [...core, ...loadedPackageSearch.values()].flat()
+  const pages = await Promise.all([current.core.search, ...loadedPackageSearch.values()].map((file) =>
+    loadWithWorker<RuntimeRowResult<RuntimeSearchEntry>>(file, { kind: 'content', text: normalized, limit }, signal)))
+  const entries = pages.flatMap((page) => page.records)
   const seen = new Set<string>()
   return entries.filter((entry) => {
     const key = `${entry.kind}:${entry.id}`
-    if (seen.has(key) || !matchesSearch(entry, normalized)) return false
+    if (seen.has(key)) return false
     seen.add(key)
     return true
   }).slice(0, limit)
@@ -1464,6 +1470,7 @@ export function runtimeDataUrl(relativeUrl: string): string {
 }
 
 export function clearRuntimeMemoryCache(): void {
+  worker?.postMessage({ clearIndexes: true })
   jsonCache.clear()
   inFlight.clear()
   windowJsonCache.clear()

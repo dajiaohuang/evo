@@ -1,9 +1,10 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { exportLocalSqlParquet, runLocalSql, type LocalSqlResult } from '../../services/localSql'
 import { deleteWorkspaceNote, listWorkspaceNotes, saveWorkspaceNote, type WorkspaceNote } from '../../services/workspaceDb'
 import type { LabQuery, LabResult } from '../../services/lab'
 import type { UserDataPreview } from '../../services/userData'
 import { useI18n } from '../../i18n'
+import { readWorkspaceDraft, saveWorkspaceDraft } from '../../services/workspaceDraft'
 
 const DEFAULT_SQL = `SELECT
   period,
@@ -42,26 +43,45 @@ interface LocalResearchWorkspaceProps {
 
 export function LocalResearchWorkspace({ result, query, userData, onRestoreQuery }: LocalResearchWorkspaceProps) {
   const { language, number, t } = useI18n()
-  const [sql, setSql] = useState(DEFAULT_SQL)
+  const [draft] = useState(readWorkspaceDraft)
+  const [sql, setSql] = useState(draft.sql ?? DEFAULT_SQL)
   const [sqlStatus, setSqlStatus] = useState<SqlStatus>('idle')
   const [sqlError, setSqlError] = useState<string | null>(null)
   const [sqlResult, setSqlResult] = useState<LocalSqlResult | null>(null)
   const [notes, setNotes] = useState<WorkspaceNote[]>([])
-  const [noteTitle, setNoteTitle] = useState('')
-  const [noteText, setNoteText] = useState('')
-  const [favorite, setFavorite] = useState(false)
+  const [noteTitle, setNoteTitle] = useState(draft.title ?? '')
+  const [noteText, setNoteText] = useState(draft.text ?? '')
+  const [favorite, setFavorite] = useState(draft.favorite ?? false)
+  useEffect(() => { saveWorkspaceDraft({ sql, title: noteTitle, text: noteText, favorite }) }, [sql, noteTitle, noteText, favorite])
   const [noteMessage, setNoteMessage] = useState<string | null>(null)
+  const sqlRequest = useRef<AbortController | null>(null)
+  const [sqlInputs, setSqlInputs] = useState({ records: result.records, userData })
+  if (sqlInputs.records !== result.records || sqlInputs.userData !== userData) {
+    setSqlInputs({ records: result.records, userData })
+    setSqlResult(null)
+    setSqlError(null)
+    setSqlStatus('idle')
+  }
+  useEffect(() => {
+    return () => { sqlRequest.current?.abort(); sqlRequest.current = null }
+  }, [result.records, userData])
 
   const refreshNotes = () => listWorkspaceNotes().then(setNotes).catch(() => setNotes([]))
   useEffect(() => { void refreshNotes() }, [])
 
   const executeSql = async () => {
+    sqlRequest.current?.abort()
+    const controller = new AbortController()
+    sqlRequest.current = controller
     setSqlStatus('loading')
     setSqlError(null)
     try {
-      setSqlResult(await runLocalSql(sql, result.records, userData?.records ?? []))
+      const next = await runLocalSql(sql, result.records, userData?.records ?? [], { signal: controller.signal })
+      if (sqlRequest.current !== controller) return
+      setSqlResult(next)
       setSqlStatus('ready')
     } catch (error) {
+      if (sqlRequest.current !== controller) return
       setSqlResult(null)
       setSqlError(error instanceof Error ? error.message : t('SQL query failed'))
       setSqlStatus('failed')
@@ -69,13 +89,18 @@ export function LocalResearchWorkspace({ result, query, userData, onRestoreQuery
   }
 
   const exportParquet = async () => {
+    sqlRequest.current?.abort()
+    const controller = new AbortController()
+    sqlRequest.current = controller
     setSqlStatus('exporting')
     setSqlError(null)
     try {
-      const bytes = await exportLocalSqlParquet(sql, result.records, userData?.records ?? [])
+      const bytes = await exportLocalSqlParquet(sql, result.records, userData?.records ?? [], { signal: controller.signal })
+      if (sqlRequest.current !== controller) return
       downloadBytes(bytes, `evo-sql-${new Date().toISOString().slice(0, 10)}.parquet`)
       setSqlStatus('ready')
     } catch (error) {
+      if (sqlRequest.current !== controller) return
       setSqlError(error instanceof Error ? error.message : t('Parquet export failed'))
       setSqlStatus('failed')
     }
@@ -117,6 +142,7 @@ export function LocalResearchWorkspace({ result, query, userData, onRestoreQuery
         <div className="sql-actions">
           <button type="button" disabled={sqlStatus === 'loading' || sqlStatus === 'exporting'} onClick={() => void executeSql()}>{t(sqlStatus === 'loading' ? 'Running SQL…' : 'Run SQL')}</button>
           <button type="button" disabled={sqlStatus === 'loading' || sqlStatus === 'exporting'} onClick={() => void exportParquet()}>{t(sqlStatus === 'exporting' ? 'Writing Parquet…' : 'Export Parquet')}</button>
+          {(sqlStatus === 'loading' || sqlStatus === 'exporting') && <button type="button" onClick={() => sqlRequest.current?.abort()}>{language === 'zh' ? '取消计算' : 'Cancel calculation'}</button>}
         </div>
         {sqlError && <p className="sql-error" role="alert">{sqlError}</p>}
         {sqlResult && (

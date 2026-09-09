@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useEffectEvent, useMemo, useRef, useState } from 'react'
 import {
   loadMapManifest,
   loadPaleogeographyLayerAtAge,
@@ -44,10 +44,13 @@ export function usePaleogeography(ageMa: number | null, requestedLayers: readonl
     return () => { active = false }
   }, [])
 
+  // A data clock has a deadline even while the interaction clock keeps moving.
+  // Debouncing every cursor change can starve frame loading during playback.
+  const commitAge = useEffectEvent(() => setSettledAgeMa(ageMa))
   useEffect(() => {
-    const timer = window.setTimeout(() => setSettledAgeMa(ageMa), ageMa === null ? 0 : 120)
-    return () => window.clearTimeout(timer)
-  }, [ageMa])
+    const timer = window.setInterval(commitAge, 120)
+    return () => window.clearInterval(timer)
+  }, [])
 
   const requestedKey = [...new Set(requestedLayers)].sort().join('|')
   const targetSelections = useMemo(() => {
@@ -60,7 +63,7 @@ export function usePaleogeography(ageMa: number | null, requestedLayers: readonl
 
   useEffect(() => {
     const currentGeneration = ++generation.current
-    if (!state.manifest || settledAgeMa === null) return
+    if (!state.manifest) return
     const wantedIds = requestedKey.split('|').filter(Boolean) as PaleogeographyLayerId[]
     const selectionByLayer = new Map(targetSelections.map((selection) => [selection.layerId, selection]))
     queueMicrotask(() => {
@@ -77,6 +80,12 @@ export function usePaleogeography(ageMa: number | null, requestedLayers: readonl
           layers[layerId] = current.layers[layerId]
           selections[layerId] = target
         } else if (target) {
+          // Keep the last verified geometry and its actual frame label until
+          // the replacement is ready; never interpolate scientific geometry.
+          if (prior && current.layers[layerId]) {
+            layers[layerId] = current.layers[layerId]
+            selections[layerId] = prior
+          }
           loadingLayers[layerId] = true
         } else {
           layerErrors[layerId] = 'No published CAO2024 frame is available at this age.'
@@ -87,7 +96,7 @@ export function usePaleogeography(ageMa: number | null, requestedLayers: readonl
     })
 
     for (const selection of targetSelections) {
-      loadPaleogeographyLayerAtAge(settledAgeMa, selection.layerId).then((result) => {
+      loadPaleogeographyLayerAtAge(selection.selectedAgeMa, selection.layerId).then((result) => {
         if (generation.current !== currentGeneration || !result) return
         setState((current) => ({
           ...current,
@@ -104,11 +113,17 @@ export function usePaleogeography(ageMa: number | null, requestedLayers: readonl
         }))
       })
     }
+    return () => { generation.current += 1 }
   // targetKey is the stable checksum-addressed generation identity for every requested layer.
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [requestedKey, settledAgeMa, state.manifest, targetKey])
+  }, [requestedKey, state.manifest, targetKey])
 
   const range = state.manifest?.ageRangeMa
   const available = ageMa !== null && Boolean(range && ageMa >= range.youngest && ageMa <= range.oldest)
-  return { ...state, requestedAgeMa: ageMa, available }
+  const selections = Object.fromEntries(Object.entries(state.selections).map(([id, selection]) => [id, {
+    ...selection,
+    requestedAgeMa: settledAgeMa ?? selection.requestedAgeMa,
+    deltaMa: settledAgeMa === null ? 0 : Math.abs(selection.selectedAgeMa - settledAgeMa),
+  }])) as PaleogeographyState['selections']
+  return { ...state, selections, settledAgeMa, requestedAgeMa: ageMa, available }
 }

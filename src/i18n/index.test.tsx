@@ -12,7 +12,8 @@ import treeEvidence from '../../data/tree/evidence.json'
 import calibrations from '../../data/packages/mammalia/perissodactyla/phylogeny/calibrations.json'
 import manifest from '../../data/manifest.json'
 import { periods } from '../services/geology'
-import { hasChineseTranslation, I18nProvider, loadExtendedChineseTranslations, useI18n } from '.'
+import { hasChineseTranslation } from './translationCoverage'
+import { I18nProvider, loadExtendedChineseTranslations, useI18n } from '.'
 
 const uiSources = import.meta.glob(['../App.tsx', '../components/**/*.tsx'], {
   query: '?raw',

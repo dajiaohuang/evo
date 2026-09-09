@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useEffectEvent, useMemo, useRef, useState } from 'react'
 import * as d3 from 'd3'
 import { useAppStore } from '../../store'
 import type { TreeNode } from '../../types'
@@ -7,7 +7,8 @@ import perissodactylHypothesisData from '../../../data/packages/mammalia/perisso
 import calibrationData from '../../../data/packages/mammalia/perissodactyla/phylogeny/calibrations.json'
 import type { TreeDisplayMode } from '../../types'
 import { useI18n } from '../../i18n'
-import { evolutionEvents, getTaxonProfile, taxonProfiles } from '../../services/catalog'
+import { getTaxonProfile, taxonProfiles } from '../../services/catalogProfiles'
+import type { EvolutionEvent } from '../../types/catalog'
 import { isPagesPreview, isPreviewTaxonAllowed } from '../../config/pagesPreview'
 import { isBackendConfigured } from '../../data-client/backendClient'
 import { BackendCatalogueTree } from './BackendCatalogueTree'
@@ -64,10 +65,21 @@ function downloadTree(node: TreeNode, format: 'newick' | 'nexus') {
 export function EvoTree() {
   const { language, t } = useI18n()
   const svgRef = useRef<SVGSVGElement>(null)
+  const cameras = useRef(new Map<TreeMode, d3.ZoomTransform>())
   const [collapsedIds, setCollapsedIds] = useState<Set<string>>(() => new Set())
   const [traceLineage, setTraceLineage] = useState(false)
   const [traitOverlay, setTraitOverlay] = useState('')
   const [eventOverlay, setEventOverlay] = useState(false)
+  const [evolutionEvents, setEvolutionEvents] = useState<EvolutionEvent[]>([])
+  const [eventError, setEventError] = useState(false)
+  useEffect(() => {
+    if (!eventOverlay) return
+    let active = true
+    void import('../../services/catalog').then((catalog) => {
+      if (active) { setEvolutionEvents(catalog.evolutionEvents); setEventError(false) }
+    }, () => { if (active) setEventError(true) })
+    return () => { active = false }
+  }, [eventOverlay])
   const [backendTreeView, setBackendTreeView] = useState(() => isBackendConfigured())
   const mode = useAppStore((state) => state.treeMode)
   const setMode = useAppStore((state) => state.setTreeMode)
@@ -87,7 +99,7 @@ export function EvoTree() {
   const selectedSourceNode = selectedNodeId ? findNode([exportTree], selectedNodeId) : null
   const activeEventLabels = useMemo(() => new Set(eventOverlay
     ? evolutionEvents.filter((event) => currentAge <= event.startAge && currentAge >= event.endAge).flatMap((event) => event.clades).map(normalizedLabel)
-    : []), [currentAge, eventOverlay])
+    : []), [currentAge, eventOverlay, evolutionEvents])
   const hasTrait = useCallback((node: TreeNode) => Boolean(traitOverlay && getTaxonProfile(node.id)?.traits.includes(traitOverlay)), [traitOverlay])
   const hasEvent = useCallback((node: TreeNode) => activeEventLabels.has(normalizedLabel(node.id)) || activeEventLabels.has(normalizedLabel(node.name)) || activeEventLabels.has(normalizedLabel(node.commonName)), [activeEventLabels])
   const nodeFill = useCallback((node: TreeNode) => hasEvent(node) ? '#d8aa68' : hasTrait(node) ? '#6ddab1' : node.extinct ? '#8b949e' : '#58a6ff', [hasEvent, hasTrait])
@@ -104,6 +116,8 @@ export function EvoTree() {
     if (language !== 'zh') return node.commonName || node.name
     return getTaxonProfile(node.id)?.commonNameZh ?? node.commonNameZh ?? node.commonName ?? node.name
   }, [language])
+  const presentLabel = t('present')
+  const unavailableLabel = t('Unavailable')
 
   const handleNodeClick = useCallback((nodeId: string) => {
     if (isPagesPreview && !isPreviewTaxonAllowed(nodeId)) return
@@ -112,7 +126,7 @@ export function EvoTree() {
     void selectSubject({ nodeId, taxonId: node?.taxonId })
   }, [selectSubject])
 
-  const renderTree = useCallback(() => {
+  const renderTree = useEffectEvent(() => {
     const svgElement = svgRef.current
     if (!svgElement) return
     const width = svgElement.parentElement?.clientWidth || 700
@@ -144,7 +158,7 @@ export function EvoTree() {
       svg.append('g').attr('class', 'tree-time-axis').attr('transform', 'translate(0,48)').call(axis)
 
       const currentX = x(Math.min(currentAge, maxAge))
-      svg.append('line').attr('class', 'tree-current-line').attr('x1', currentX).attr('x2', currentX).attr('y1', 48).attr('y2', height)
+      svg.append('line').attr('class', 'tree-current-line').attr('data-max-age', maxAge).attr('data-start', labelWidth).attr('data-end', width - 34).attr('x1', currentX).attr('x2', currentX).attr('y1', 48).attr('y2', height)
 
       const rows = svg.append('g').selectAll('g.range-row').data(ordered).join('g')
         .attr('class', (node) => `range-row${node.data.id === selectedNodeId ? ' is-selected' : ''}`)
@@ -228,7 +242,7 @@ export function EvoTree() {
 
       const axis = d3.axisTop(timeX).ticks(Math.max(4, Math.floor(width / 130))).tickFormat((value) => `${value} Ma`)
       svg.append('g').attr('class', 'tree-time-axis').attr('transform', 'translate(0,28)').call(axis)
-      svg.append('line').attr('class', 'tree-current-line').attr('x1', timeX(Math.min(currentAge, maxAge))).attr('x2', timeX(Math.min(currentAge, maxAge))).attr('y1', 28).attr('y2', viewportHeight)
+      svg.append('line').attr('class', 'tree-current-line').attr('data-max-age', maxAge).attr('data-start', 55).attr('data-end', width - 125).attr('x1', timeX(Math.min(currentAge, maxAge))).attr('x2', timeX(Math.min(currentAge, maxAge))).attr('y1', 28).attr('y2', viewportHeight)
 
       g.selectAll('path').data(root.links()).join('path').attr('class', 'tree-link')
         .attr('d', (link) => {
@@ -257,7 +271,10 @@ export function EvoTree() {
       return
     }
 
-    const zoom = d3.zoom<SVGSVGElement, unknown>().scaleExtent([0.2, 12]).on('zoom', (event) => g.attr('transform', event.transform.toString()))
+    const zoom = d3.zoom<SVGSVGElement, unknown>().extent([[0, 0], [width, viewportHeight]]).scaleExtent([0.2, 12]).on('zoom', (event) => {
+      cameras.current.set(mode, event.transform)
+      g.attr('transform', event.transform.toString())
+    })
     svg.call(zoom)
 
     d3.tree<TreeNode>().nodeSize([76, 128])(root)
@@ -274,7 +291,7 @@ export function EvoTree() {
     const initialTransform = d3.zoomIdentity
       .translate((width - treeWidth * scale) / 2 - bounds.x0 * scale, 18 - bounds.y0 * scale)
       .scale(scale)
-    svg.call(zoom.transform, initialTransform)
+    svg.call(zoom.transform, cameras.current.get(mode) ?? initialTransform)
     g.selectAll('path').data(root.links()).join('path').attr('class', 'tree-link')
       .attr('d', (link) => {
         const sx = link.source.x ?? 0
@@ -305,16 +322,85 @@ export function EvoTree() {
           return estimate ? `${estimate.medianMa} Ma · ${estimate.method}` : ''
         })
     }
-  }, [collapsedIds, currentAge, handleNodeClick, hasEvent, hasTrait, mode, nodeFill, nodeLabel, selectedNodeId, t, traceLineage])
+  })
 
-  useEffect(() => { renderTree() }, [renderTree])
+  // Selection and time only restyle the existing scene. They must not rebuild
+  // topology, replace focused elements or reinitialise the user's camera.
+  const updateAppearance = useEffectEvent(() => {
+    if (!svgRef.current) return
+    const svg = d3.select(svgRef.current)
+    const nodes = svg.selectAll<SVGGElement, d3.HierarchyNode<TreeNode>>('.node, .range-row')
+    const selected = nodes.data().find((node) => node.data.id === selectedNodeId)
+    const lineage = new Set(selected?.ancestors().map((node) => node.data.id) ?? [])
+    const inLineage = (node: d3.HierarchyNode<TreeNode>) => !traceLineage || !selected || lineage.has(node.data.id)
+    const focused = nodes.nodes().find((element) => element === document.activeElement)
+    const tabTarget = focused ?? nodes.nodes().find((element) => d3.select<SVGGElement, d3.HierarchyNode<TreeNode>>(element).datum().data.id === selectedNodeId) ?? nodes.nodes()[0]
+    nodes.attr('aria-selected', (node) => String(node.data.id === selectedNodeId))
+      .attr('aria-level', (node) => node.depth + 1)
+      .attr('aria-expanded', (node) => node.data.children?.length ? String(!collapsedIds.has(node.data.id)) : null)
+      .attr('tabindex', function () { return this === tabTarget ? 0 : -1 })
+      .classed('is-selected', (node) => node.data.id === selectedNodeId)
+      .style('opacity', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? .42 : !inLineage(node) ? .05 : mode === 'fossil-range' || activeAt(node.data, currentAge) ? 1 : .22)
+      .on('keydown', (event: KeyboardEvent, node) => {
+        const elements = nodes.nodes()
+        const index = elements.indexOf(event.currentTarget as SVGGElement)
+        let target: SVGGElement | undefined
+        if (event.key === 'ArrowDown') target = elements[Math.min(index + 1, elements.length - 1)]
+        else if (event.key === 'ArrowUp') target = elements[Math.max(index - 1, 0)]
+        else if (event.key === 'Home') target = elements[0]
+        else if (event.key === 'End') target = elements.at(-1)
+        else if (event.key === 'ArrowLeft' && node.children?.length) {
+          setCollapsedIds((current) => new Set([...current, node.data.id]))
+        } else if (event.key === 'ArrowRight' && collapsedIds.has(node.data.id)) {
+          setCollapsedIds((current) => { const next = new Set(current); next.delete(node.data.id); return next })
+        } else if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+          const id = event.key === 'ArrowLeft' ? node.parent?.data.id : node.children?.[0]?.data.id
+          target = elements.find((element) => d3.select<SVGGElement, d3.HierarchyNode<TreeNode>>(element).datum().data.id === id)
+        } else if (event.key === 'Enter' || event.key === ' ') handleNodeClick(node.data.id)
+        else return
+        event.preventDefault()
+        if (target) {
+          nodes.attr('tabindex', function () { return this === target ? 0 : -1 })
+          target.focus()
+        }
+      })
+    nodes.select<SVGCircleElement>('circle')
+      .attr('r', (node) => (mode === 'radial' ? 3.5 : 4.5) + (node.data.id === selectedNodeId ? 2 : 0))
+      .attr('fill', (node) => nodeFill(node.data))
+      .attr('stroke', (node) => node.data.id === selectedNodeId ? '#ffd700' : 'none')
+    nodes.select('.range-bar').attr('data-active', (node) => String(activeAt(node.data, currentAge)))
+      .attr('stroke', (node) => hasEvent(node.data) || hasTrait(node.data) ? nodeFill(node.data) : null)
+    svg.selectAll<SVGPathElement, d3.HierarchyLink<TreeNode>>('.tree-link')
+      .style('opacity', (link) => !traceLineage || !selected || (lineage.has(link.source.data.id) && lineage.has(link.target.data.id)) ? 1 : .05)
+    svg.selectAll<SVGLineElement, unknown>('.tree-current-line').each(function () {
+      const line = d3.select(this)
+      const maxAge = Number(line.attr('data-max-age'))
+      const x = d3.scaleLinear().domain([maxAge, 0]).range([Number(line.attr('data-start')), Number(line.attr('data-end'))])(Math.min(currentAge, maxAge))
+      line.attr('x1', x).attr('x2', x)
+    })
+  })
+
   useEffect(() => {
     const parent = svgRef.current?.parentElement
     if (!parent) return
-    const observer = new ResizeObserver(renderTree)
+    let lastSize = ''
+    const draw = () => {
+      const size = `${parent.clientWidth}:${parent.clientHeight}`
+      if (size === lastSize) return
+      lastSize = size
+      const focusedId = d3.select(svgRef.current).selectAll<SVGGElement, d3.HierarchyNode<TreeNode>>('[role="treeitem"]')
+        .filter(function () { return this === document.activeElement }).data()[0]?.data.id
+      renderTree()
+      updateAppearance()
+      if (focusedId) d3.select(svgRef.current).selectAll<SVGGElement, d3.HierarchyNode<TreeNode>>('[role="treeitem"]')
+        .filter((node) => node.data.id === focusedId).each(function () { this.focus() })
+    }
+    draw()
+    const observer = new ResizeObserver(draw)
     observer.observe(parent)
     return () => observer.disconnect()
-  }, [renderTree])
+  }, [collapsedIds, mode, language, presentLabel, unavailableLabel, backendTreeView])
+  useEffect(() => { updateAppearance() }, [currentAge, selectedNodeId, traceLineage, traitOverlay, eventOverlay, evolutionEvents])
 
   if (backendTreeView && isBackendConfigured()) {
     return <div className="evo-tree evo-tree--backend"><BackendCatalogueTree onExit={() => setBackendTreeView(false)} /></div>
@@ -342,6 +428,7 @@ export function EvoTree() {
           : 'Dimmed nodes remain for context; full dossiers outside the selected resource packages are available in the full Web edition.'}
       </p>}
       <div className="tree-overlay-control" role="group" aria-label={t('Tree overlays and focus')}>
+        {eventError && eventOverlay && <span role="alert">{language === 'zh' ? '事件图层暂不可用' : 'Event overlay unavailable'}</span>}
         <button disabled={!selectedSourceNode?.children?.length} onClick={toggleSelectedCollapse}>{t(selectedSourceNode && collapsedIds.has(selectedSourceNode.id) ? 'Expand selected clade' : 'Collapse selected clade')}</button>
         <button className={traceLineage ? 'is-active' : ''} aria-pressed={traceLineage} disabled={!selectedNodeId} onClick={() => setTraceLineage((current) => !current)}>{t('Lineage trace')}</button>
         <label><span>{t('Trait overlay')}</span><select value={traitOverlay} onChange={(event) => setTraitOverlay(event.target.value)}><option value="">{t('No trait overlay')}</option>{traitOptions.map((trait) => <option value={trait} key={trait}>{trait}</option>)}</select></label>

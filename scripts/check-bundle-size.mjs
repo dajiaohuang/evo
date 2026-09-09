@@ -1,9 +1,11 @@
 import { readFileSync, readdirSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
 import { pagesDeploymentBudgetFailure } from './artifact-budget.mjs'
+import { reportTaskMetrics } from './bundle-task-metrics.mjs'
 
 const root = process.cwd()
 const dist = join(root, 'dist')
+reportTaskMetrics(dist)
 
 function filesBelow(directory) {
   return readdirSync(directory).flatMap((name) => {

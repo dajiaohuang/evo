@@ -1,4 +1,4 @@
-import { lazy, Suspense, useCallback, useEffect, useState } from 'react'
+import { Activity, lazy, Suspense, useCallback, useEffect, useState } from 'react'
 import { useAppStore } from './store'
 import { ErrorBoundary } from './components/common/ErrorBoundary'
 import { AppShell } from './components/shell/AppShell'
@@ -50,6 +50,9 @@ export default function App() {
   const { language, t } = useI18n()
   const [routeState, setRouteState] = useState(() => parseRouteHash(window.location.hash))
   const route = routeState.route
+  const exploring = route === 'home' || route === 'explore'
+  const [explorerRoute, setExplorerRoute] = useState(exploring ? routeState : null)
+  if (exploring && explorerRoute !== routeState) setExplorerRoute(routeState)
   const previewLocked = isPagesPreview && isPreviewRouteLocked(route, routeState.params)
   const loadIntervals = useAppStore((s) => s.loadIntervals)
 
@@ -121,7 +124,7 @@ export default function App() {
 
   let page
   if (previewLocked) page = <PagesPreviewGate />
-  else if (route === 'explore') page = <ExplorerWorkspace key={routeState.params.toString()} />
+  else if (route === 'explore' || route === 'home') page = null
   else if (route === 'catalog') page = <CatalogHubPage onNavigate={navigate} />
   else if (route === 'registry') page = isBackendConfigured()
     ? <BackendCatalogueTaxonPage release={routeState.params.get('release')} id={routeState.params.get('id')} onNavigate={navigate} />
@@ -135,12 +138,17 @@ export default function App() {
   else if (route === 'lab') page = <LabPage params={routeState.params} onNavigate={navigate} />
   else if (route === 'data') page = <DataPage onNavigate={navigate} />
   else if (route === 'methods') page = <MethodsPage onNavigate={navigate} />
-  else page = <ExplorerWorkspace key={`dashboard:${routeState.params.toString()}`} dashboard />
+  else page = null
 
   return (
     <ErrorBoundary>
       <AppShell route={route} onNavigate={navigate} immersive={route === 'explore' || route === 'home'} focused={route === 'home'}>
-        <Suspense fallback={<RouteLoading />}>{page}</Suspense>
+        <Suspense fallback={<RouteLoading />}>
+          {explorerRoute && <Activity mode={exploring && !previewLocked ? 'visible' : 'hidden'}>
+            <ExplorerWorkspace dashboard={explorerRoute.route === 'home'} params={explorerRoute.params} />
+          </Activity>}
+          {page}
+        </Suspense>
       </AppShell>
     </ErrorBoundary>
   )
