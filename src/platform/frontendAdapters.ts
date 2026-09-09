@@ -110,7 +110,7 @@ export function createFrontendAdapter(target: FrontendTarget, sources: FrontendA
   return {
     target,
     contract,
-    loadCapabilities: async (_signal) => {
+    loadCapabilities: async () => {
       if (!capabilitiesPromise) capabilitiesPromise = sources.loadCapabilities()
       return capabilitiesPromise
     },
