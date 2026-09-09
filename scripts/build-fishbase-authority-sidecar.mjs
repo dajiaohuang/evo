@@ -10,7 +10,7 @@ const REPOSITORY_ROOT = resolve(dirname(SCRIPT_PATH), '..')
 const DEFAULT_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'fishbase-authority-crosswalk-col26.8.json.gz')
 const DEFAULT_OUTPUT_ROOT = join(REPOSITORY_ROOT, 'data', 'catalogue-of-life', 'releases', '2026-08-20', 'resource-packs', 'fish')
 const SOURCE_BYTE_LIMIT = 5 * 1024 * 1024
-const ROOTS = new Set(['actinopterygii', 'chondrichthyes', 'myxini', 'petromyzontida'])
+const ROOTS = new Set(['actinopterygii', 'chondrichthyes', 'myxini', 'petromyzontida', 'sarcopterygii'])
 const RUNTIME_FIELDS = [
   'scopeId', 'scopeRootColId', 'colPackage', 'colId', 'scientificName', 'authorship', 'rank', 'status',
   'sourceDatasetId', 'fishBaseId', 'fishBaseUrl', 'mappingBasis', 'sourceResponseSha256', 'sourceResponseBytes', 'sourceEndpoint',
@@ -62,11 +62,11 @@ function loadCrosswalk(path) {
     throw new Error('FishBase crosswalk is not pinned to COL26.8 / source dataset 1010 / version 2026-08-01')
   }
   const counts = snapshot.counts ?? {}
-  if (counts.eligible !== 37428 || counts.resolved !== 37428 || counts.direct !== 37428
+  if (counts.eligible !== 37436 || counts.resolved !== 37436 || counts.direct !== 37436
     || counts.redirect !== 0 || counts.ambiguous !== 0 || counts.unmatched !== 0 || counts.withheld !== 0
-    || counts.upstreamOnly !== 0 || !Array.isArray(snapshot.records) || snapshot.records.length !== 37428
+    || counts.upstreamOnly !== 0 || !Array.isArray(snapshot.records) || snapshot.records.length !== 37436
     || !Array.isArray(snapshot.upstreamOnlyRecords) || snapshot.upstreamOnlyRecords.length !== 0) {
-    throw new Error('FishBase crosswalk counts do not match the complete four-root contract')
+    throw new Error('FishBase crosswalk counts do not match the complete five-root contract')
   }
   const seenColIds = new Set()
   const seenFishBaseIds = new Set()
@@ -82,7 +82,7 @@ function loadCrosswalk(path) {
     seenColIds.add(record.colId)
     seenFishBaseIds.add(record.fishBaseId)
   }
-  if (seenColIds.size !== 37428 || seenFishBaseIds.size !== 37428) throw new Error('FishBase identifiers are not one-to-one')
+  if (seenColIds.size !== 37436 || seenFishBaseIds.size !== 37436) throw new Error('FishBase identifiers are not one-to-one')
   return { compressed, source, snapshot }
 }
 
@@ -146,7 +146,7 @@ export function buildFishbaseAuthoritySidecar({ crosswalkPath = DEFAULT_CROSSWAL
       canonicalCrosswalkSourceSha256: sha256(crosswalk.source),
       requestIntegrity: crosswalk.snapshot.integrity,
     },
-    eligibility: 'Every strict accepted COL26.8 species below the exact Actinopterygii, Chondrichthyes, Myxini or Petromyzontiformes roots whose COL sourceDatasetId is FishBase 1010.',
+    eligibility: 'Every strict accepted COL26.8 species below the exact Actinopterygii, Chondrichthyes, Myxini, Petromyzontiformes or Sarcopterygii roots whose COL sourceDatasetId is FishBase 1010.',
     counts: crosswalk.snapshot.counts,
     fields: RUNTIME_FIELDS,
     files,
@@ -161,7 +161,7 @@ export function buildFishbaseAuthoritySidecar({ crosswalkPath = DEFAULT_CROSSWAL
       'This is a COL26.8 release-scoped identifier crosswalk, not a complete FishBase database or a claim that fish taxonomy or described diversity is complete.',
       'FishBase COLDP metadata identifies the source archive as CC BY-NC; no FishBase archive, descriptive fields, references, distributions, media or other source content is copied.',
       'Catalog of Fishes is used by FishBase as its nomenclatural authority, but its public service exposed no verified bulk redistribution license in this audit; no Catalog of Fishes content is copied.',
-      'The four root scopes are disjoint in COL26.8. COL has no Petromyzontida node; Petromyzontiformes (3SP) is the exact species-bearing release node used for that requested scope.',
+      'The five root scopes are disjoint in COL26.8. COL has no Petromyzontida node; Petromyzontiformes (3SP) is the exact species-bearing release node used for that requested scope.',
     ],
     integration: {
       standalone: true,

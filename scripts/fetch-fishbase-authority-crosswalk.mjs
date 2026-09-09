@@ -24,8 +24,9 @@ const ROOTS = [
   // COL26.8 has no Petromyzontida node. Petromyzontiformes is the exact
   // species-bearing order below Petromyzonti in the pinned hierarchy.
   { id: 'petromyzontida', colId: '3SP', scientificName: 'Petromyzontiformes', colPackage: 'early-fishes' },
+  { id: 'sarcopterygii', colId: '8VSMX', scientificName: 'Sarcopterygii', colPackage: 'tetrapod-transition' },
 ]
-const EXPECTED_COUNTS = { actinopterygii: 35928, chondrichthyes: 1359, myxini: 92, petromyzontida: 49 }
+const EXPECTED_COUNTS = { actinopterygii: 35928, chondrichthyes: 1359, myxini: 92, petromyzontida: 49, sarcopterygii: 8 }
 const compareStableIds = (left, right) => (left < right ? -1 : left > right ? 1 : 0)
 
 function parseArgs(argv) {
@@ -177,7 +178,7 @@ export async function buildFishbaseCrosswalk({ registryRoot = DEFAULT_REGISTRY_R
     scope: {
       predicate: 'COL26.8 rank=species AND status=accepted AND sourceDatasetId=1010',
       roots: ROOTS.map((root) => ({ ...root, expectedSpecies: EXPECTED_COUNTS[root.id] })),
-      overlapPolicy: 'Each species is assigned to the first exact root in ROOTS; the four roots are disjoint in the pinned hierarchy.',
+      overlapPolicy: 'Each species is assigned to the first exact root in ROOTS; the five roots are disjoint in the pinned hierarchy.',
       petromyzontidaNote: 'COL26.8 has no Petromyzontida node; exact species-bearing Petromyzontiformes order 3SP below Petromyzonti is used as the release-scoped equivalent.',
     },
     counts: {
