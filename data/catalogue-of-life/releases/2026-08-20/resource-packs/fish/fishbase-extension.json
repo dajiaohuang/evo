@@ -15,27 +15,27 @@
     "sourceDatasetLicenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
     "sourceDatasetUrl": "https://www.fishbase.org",
     "sourceDatasetArchiveNotBundled": true,
-    "retrievedAt": "2026-08-31",
+    "retrievedAt": "2026-09-09",
     "endpointTemplate": "https://api.checklistbank.org/dataset/316115/nameusage/{colId}/source",
     "sourceIdentifierNamespace": "urn:lsid:marinespecies.org:taxname",
     "rightsBoundary": "The committed crosswalk retains only the source identifiers and URLs returned by the pinned CC BY Catalogue of Life name-usage source endpoint. It does not copy, mirror, or redistribute the FishBase CC BY-NC archive, descriptions, references, distributions, media, or other source fields.",
     "canonicalCrosswalkPath": "data/sources/fishbase-authority-crosswalk-col26.8.json.gz",
-    "canonicalCrosswalkBytes": 3015580,
-    "canonicalCrosswalkSha256": "90a0c76e57ce8af757fdb995b7876fc1c176e09be9e49737e94c66ae8ad81304",
-    "canonicalCrosswalkSourceBytes": 28885204,
-    "canonicalCrosswalkSourceSha256": "3c002bd10ce7e4bcf782fa55788fb4c7f98afd32a2771b0324584d1953c85040",
+    "canonicalCrosswalkBytes": 3016396,
+    "canonicalCrosswalkSha256": "e41f560b231959b50d2026d105b7509dbc15cd86a5b82374124f14f76279e52c",
+    "canonicalCrosswalkSourceBytes": 28891661,
+    "canonicalCrosswalkSourceSha256": "988e9b06a64c8195e0b194d4e597dcaee819509939130b9c3bfc09c08eb8ed2f",
     "requestIntegrity": {
       "algorithm": "sha256",
-      "requestCount": 37428,
-      "responseLedgerSha256": "1c95c502f44a29ea49c18c379ebfdcc7c63d6cc878b77b5620948de034d18848",
-      "recordLedgerSha256": "9ec31b6b8d7bafd3cd8f414f7e861b5fef0f7378557f29ad1fa341602602ec98"
+      "requestCount": 37436,
+      "responseLedgerSha256": "acac69a7148979e0a001d29bfd4ef490f7b58c41d62d1d8504e50490515436cd",
+      "recordLedgerSha256": "5ffe063ab197e8b62bdf9b7360e279bd05d5f15b28f7f2ebd6934cde583c9a2a"
     }
   },
-  "eligibility": "Every strict accepted COL26.8 species below the exact Actinopterygii, Chondrichthyes, Myxini or Petromyzontiformes roots whose COL sourceDatasetId is FishBase 1010.",
+  "eligibility": "Every strict accepted COL26.8 species below the exact Actinopterygii, Chondrichthyes, Myxini, Petromyzontiformes or Sarcopterygii roots whose COL sourceDatasetId is FishBase 1010.",
   "counts": {
-    "eligible": 37428,
-    "resolved": 37428,
-    "direct": 37428,
+    "eligible": 37436,
+    "resolved": 37436,
+    "direct": 37436,
     "redirect": 0,
     "ambiguous": 0,
     "unmatched": 0,
@@ -45,7 +45,8 @@
       "actinopterygii": 35928,
       "chondrichthyes": 1359,
       "myxini": 92,
-      "petromyzontida": 49
+      "petromyzontida": 49,
+      "sarcopterygii": 8
     }
   },
   "fields": [
@@ -80,55 +81,55 @@
     },
     {
       "path": "fish/fishbase-001.jsonl.gz",
-      "records": 8187,
-      "bytes": 637009,
-      "sourceBytes": 5242268,
-      "sha256": "8e59bb1b8a87590d5ef01fc461a9cca35c2a83cfbc51242566cf819b8cdbd0d6",
-      "sourceSha256": "3f61cffcf768b6ecb2aace91a0dc573ca581961da25429a1277701d8cd8a3b66",
+      "records": 8188,
+      "bytes": 637132,
+      "sourceBytes": 5242871,
+      "sha256": "a658c19c399ed3f3a5f86c3e64ff16ce64e2024a8357dca437c7985e332a4675",
+      "sourceSha256": "2e8eaf825c0f15c044a41f35cc023bd339003543a7240dc19b350d4e0eefcbd9",
       "encoding": "gzip",
       "mediaType": "application/x-ndjson",
       "minColId": "45QFZ",
-      "maxColId": "58FJD"
+      "maxColId": "58FJ6"
     },
     {
       "path": "fish/fishbase-002.jsonl.gz",
       "records": 8191,
-      "bytes": 665102,
-      "sourceBytes": 5242648,
-      "sha256": "9120142af10fe378f8fba789a440a60ce07786f492815d1bcef6f0518c063db4",
-      "sourceSha256": "5579cb7b25e1cfa99357e1885230d1c879075674d18c8bbb47097678c2e6ceea",
+      "bytes": 665196,
+      "sourceBytes": 5242734,
+      "sha256": "95a98bccb7b157f6f65e432693b994a0b0ff51020e27c51f257bdbc184b23e58",
+      "sourceSha256": "5db925320362477954166c5d0b8d88ca67f5ce18fb906c59ddf627f236558bcf",
       "encoding": "gzip",
       "mediaType": "application/x-ndjson",
-      "minColId": "58FJF",
-      "maxColId": "6ZFY9"
+      "minColId": "58FJ7",
+      "maxColId": "6ZFNS"
     },
     {
       "path": "fish/fishbase-003.jsonl.gz",
       "records": 8107,
-      "bytes": 652653,
-      "sourceBytes": 5242371,
-      "sha256": "23b4e82453483f32a7cd3550768f7b12cfd4f6540540a28cd6012ed417a1ec2b",
-      "sourceSha256": "fe4aed5ff1006a5a1856b8d93a67a03c7953c755ee05667f06521ccdd317bbcb",
+      "bytes": 652715,
+      "sourceBytes": 5242342,
+      "sha256": "965b47b83ee7e3cb7d095f78c25830faebb818c324f56b3032cea2f3ddc33810",
+      "sourceSha256": "5a8f68f6e6a205bfbac7e7b1514fd46ea42e83cb813c522397357fef8db29241",
       "encoding": "gzip",
       "mediaType": "application/x-ndjson",
-      "minColId": "6ZG22",
-      "maxColId": "J4GY"
+      "minColId": "6ZFNX",
+      "maxColId": "J4GN"
     },
     {
       "path": "fish/fishbase-004.jsonl.gz",
-      "records": 4751,
-      "bytes": 378319,
-      "sourceBytes": 3045944,
-      "sha256": "ca120c6eac65d8a12e1fe29dffcf30f235cce8a888afca7ec0e57fd0c1bfe27a",
-      "sourceSha256": "a7232fd2a5b4795185eae8255367db6756a9c35dff4f5033aa6f1df2b1a32e12",
+      "records": 4758,
+      "bytes": 378770,
+      "sourceBytes": 3050484,
+      "sha256": "a5a5a3180e7fe13293674fb050ff8ca8ac5000be591f575287982d26a2831bf5",
+      "sourceSha256": "e43f04ad98eba3e86de147dde4a475821131d6d623b26972acd566a1ebf7a504",
       "encoding": "gzip",
       "mediaType": "application/x-ndjson",
-      "minColId": "J4H2",
+      "minColId": "J4GP",
       "maxColId": "ZZBN"
     }
   ],
-  "totalCompressedBytes": 2969333,
-  "totalSourceBytes": 24015782,
+  "totalCompressedBytes": 2970063,
+  "totalSourceBytes": 24020982,
   "upstreamOnly": {
     "status": "not-enumerated",
     "files": [],
@@ -138,11 +139,11 @@
     "This is a COL26.8 release-scoped identifier crosswalk, not a complete FishBase database or a claim that fish taxonomy or described diversity is complete.",
     "FishBase COLDP metadata identifies the source archive as CC BY-NC; no FishBase archive, descriptive fields, references, distributions, media or other source content is copied.",
     "Catalog of Fishes is used by FishBase as its nomenclatural authority, but its public service exposed no verified bulk redistribution license in this audit; no Catalog of Fishes content is copied.",
-    "The four root scopes are disjoint in COL26.8. COL has no Petromyzontida node; Petromyzontiformes (3SP) is the exact species-bearing release node used for that requested scope."
+    "The five root scopes are disjoint in COL26.8. COL has no Petromyzontida node; Petromyzontiformes (3SP) is the exact species-bearing release node used for that requested scope."
   ],
   "integration": {
     "standalone": true,
-      "targetManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/manifest.json",
+    "targetManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/manifest.json",
     "clientParityRequirement": "After parent integration, every listed shard must be copied byte-for-byte into Web-light metadata/native-full Android/iOS assets; Web-light need only retain this descriptor and aggregate counts.",
     "lookup": {
       "strategy": "lexicographic-colId-range-v1",

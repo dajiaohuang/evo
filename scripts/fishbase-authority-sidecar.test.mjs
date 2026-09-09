@@ -24,25 +24,29 @@ function readJsonGzip(path) {
 }
 
 describe('FishBase authority sidecar', () => {
-  it('pins all four disjoint COL26.8 fish roots and source endpoint responses', () => {
+  it('pins all five disjoint COL26.8 fish roots and source endpoint responses', () => {
     const snapshot = readJsonGzip(CROSSWALK)
     expect(snapshot.source.catalogueRelease).toBe('COL26.8')
     expect(snapshot.source.sourceDatasetKey).toBe(1010)
     expect(snapshot.source.sourceDatasetLicense).toBe('CC-BY-NC-4.0')
     expect(snapshot.counts).toEqual({
-      eligible: 37428,
-      resolved: 37428,
-      direct: 37428,
+      eligible: 37436,
+      resolved: 37436,
+      direct: 37436,
       redirect: 0,
       ambiguous: 0,
       unmatched: 0,
       withheld: 0,
       upstreamOnly: 0,
-      byScope: { actinopterygii: 35928, chondrichthyes: 1359, myxini: 92, petromyzontida: 49 },
+      byScope: { actinopterygii: 35928, chondrichthyes: 1359, myxini: 92, petromyzontida: 49, sarcopterygii: 8 },
     })
-    expect(snapshot.records).toHaveLength(37428)
-    expect(new Set(snapshot.records.map((record) => record.colId)).size).toBe(37428)
-    expect(new Set(snapshot.records.map((record) => record.fishBaseId)).size).toBe(37428)
+    expect(snapshot.records).toHaveLength(37436)
+    expect(new Set(snapshot.records.map((record) => record.colId)).size).toBe(37436)
+    expect(new Set(snapshot.records.map((record) => record.fishBaseId)).size).toBe(37436)
+    expect(snapshot.records.filter((record) => record.scopeId === 'sarcopterygii')).toHaveLength(8)
+    expect(snapshot.records.filter((record) => record.scopeId === 'sarcopterygii').every((record) => (
+      record.scopeRootColId === '8VSMX' && record.colPackage === 'tetrapod-transition'
+    ))).toBe(true)
     expect(snapshot.records.every((record) => (
       record.mappingBasis === 'checklistbank-source-record'
       && record.sourceDatasetId === '1010'
@@ -65,7 +69,7 @@ describe('FishBase authority sidecar', () => {
       for (const name of Object.keys(firstBytes)) expect(secondBytes[name]).toEqual(firstBytes[name])
       const shards = first.files
       expect(shards.length).toBeGreaterThan(1)
-      expect(shards.reduce((sum, file) => sum + file.records, 0)).toBe(37428)
+      expect(shards.reduce((sum, file) => sum + file.records, 0)).toBe(37436)
       for (let index = 1; index < shards.length; index += 1) {
         expect(compareStableIds(shards[index - 1].maxColId, shards[index].minColId)).toBeLessThan(0)
       }
