@@ -961,6 +961,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
       }
     } else if (packageId === 'protists-chromists') {
       const foraminifera = extensions.find((candidate) => candidate.id === 'foraminifera-wfd-identifiers')
+      const speciesFungorum = extensions.find((candidate) => candidate.id === 'species-fungorum-oomycota-identifiers')
       const expectedItis = {
         'itis-ciliophora-tsn-crosswalk': { eligible: 8507, records: 8665, accepted: 246, redirects: 6, ambiguous: 0, unmatched: 8255, upstreamOnly: 158, nonApplicable: 53011, files: 4 },
         'itis-apicomplexa-tsn-crosswalk': { eligible: 21, records: 21, accepted: 21, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61497, files: 1 },
@@ -1008,7 +1009,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
         }
       }
       const canonicalItisFiles = Object.values(expectedItis).reduce((sum, counts) => sum + counts.files, 0)
-      if (extensions.length !== Object.keys(expectedItis).length + 6 || !foraminifera || !radiozoa || !trichomycetes
+      if (extensions.length !== Object.keys(expectedItis).length + 7 || !foraminifera || !radiozoa || !trichomycetes || !speciesFungorum
         || foraminifera.provider !== 'World Foraminifera Database (WoRMS) through ChecklistBank'
         || foraminifera.source?.license !== 'CC-BY-4.0'
         || foraminifera.source?.sourceDatasetKey !== 1157
@@ -1030,9 +1031,21 @@ if (catalogue.resourcePacks?.packageCount !== 7
         || trichomycetes.delivery?.completeRows !== false || trichomycetes.files?.length !== 0
         || trichomycetes.upstreamOnlyFiles?.length !== 0 || trichomycetes.delivery?.publishedFileCount !== 0
         || trichomycetes.delivery?.canonicalFileCount !== 1 || trichomycetes.canonicalFileInventory?.length !== 1
-        || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== canonicalItisFiles + 13
-          || [...foraminifera.canonicalFileInventory, ...radiozoa.canonicalFileInventory, ...trichomycetes.canonicalFileInventory].some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
-        failures.push('protists-chromists: Pages must publish the complete Foraminifera, Radiozoa and Trichomycetes authority summaries and hashes without row shards')
+        || speciesFungorum.provider !== 'Species Fungorum / Index Fungorum (Royal Botanic Gardens, Kew)'
+        || speciesFungorum.recordType !== 'external-name-identifier-crosswalk'
+        || speciesFungorum.source?.sourceDatasetKey !== '2073' || speciesFungorum.source?.sourceDatasetLicense !== 'CC-BY-4.0'
+        || speciesFungorum.source?.rootColUsageId !== '5K'
+        || speciesFungorum.counts?.eligible !== 1673 || speciesFungorum.counts?.resolved !== 1673
+        || speciesFungorum.counts?.accepted !== 1673 || speciesFungorum.counts?.redirects !== 0
+        || speciesFungorum.counts?.ambiguous !== 0 || speciesFungorum.counts?.unmatched !== 0
+        || speciesFungorum.counts?.withheld !== 0 || speciesFungorum.counts?.upstreamOnly !== 0
+        || speciesFungorum.delivery?.profile !== 'web-light' || speciesFungorum.delivery?.completeRows !== false
+        || speciesFungorum.files?.length !== 0 || speciesFungorum.upstreamOnlyFiles?.length !== 0
+        || speciesFungorum.delivery?.publishedFileCount !== 0 || speciesFungorum.delivery?.canonicalFileCount !== 1
+        || speciesFungorum.canonicalFileInventory?.length !== 1
+        || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== canonicalItisFiles + 14
+          || [...foraminifera.canonicalFileInventory, ...radiozoa.canonicalFileInventory, ...trichomycetes.canonicalFileInventory, ...speciesFungorum.canonicalFileInventory].some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
+        failures.push('protists-chromists: Pages must publish the complete Foraminifera, Radiozoa, Trichomycetes and Species Fungorum authority summaries and hashes without row shards')
       }
       for (const [id, counts] of Object.entries(expectedItis)) {
         const authority = extensions.find((candidate) => candidate.id === id)
