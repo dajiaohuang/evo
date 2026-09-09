@@ -831,7 +831,7 @@ final class AppConfigurationTests: XCTestCase {
                 let expectedFiles = [4, 1, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0]
                 let expectedRecords = [8_665, 21, 1_110, 276, 52, 90, 3_399, 1_337, 1_616, 1_536, 0, 0, 53, 0, 0, 0, 0, 0, 1_416, 4, 0, 0, 0, 0, 0]
                 let itisAuthorities = extensions.filter { ($0["provider"] as? String) == "Integrated Taxonomic Information System" }
-                XCTAssertEqual(extensions.count, expectedIds.count + 6)
+                XCTAssertEqual(extensions.count, expectedIds.count + 7)
                 XCTAssertEqual(itisAuthorities.count, expectedIds.count)
                 for extensionIndex in expectedIds.indices {
                     let itisAuthority = try XCTUnwrap(itisAuthorities.first { ($0["id"] as? String) == expectedIds[extensionIndex] }, "ITIS protists/chromists authority missing")
@@ -853,6 +853,23 @@ final class AppConfigurationTests: XCTestCase {
                     }
                     XCTAssertEqual(authorityRecords, expectedRecords[extensionIndex])
                     protistsItisRecords += authorityRecords
+                }
+                let oomycotaSpeciesFungorum = try XCTUnwrap(extensions.first { ($0["id"] as? String) == "species-fungorum-oomycota-identifiers" })
+                XCTAssertEqual(oomycotaSpeciesFungorum["provider"] as? String, "Species Fungorum / Index Fungorum (Royal Botanic Gardens, Kew)")
+                let oomycotaDelivery = try XCTUnwrap(oomycotaSpeciesFungorum["delivery"] as? [String: Any])
+                XCTAssertEqual(oomycotaDelivery["profile"] as? String, "native-full")
+                XCTAssertEqual(oomycotaDelivery["completeRows"] as? Bool, true)
+                XCTAssertEqual(oomycotaDelivery["canonicalFileCount"] as? Int, 1)
+                XCTAssertEqual(oomycotaDelivery["publishedFileCount"] as? Int, 1)
+                let oomycotaFiles = try XCTUnwrap(oomycotaSpeciesFungorum["files"] as? [[String: Any]])
+                XCTAssertEqual(oomycotaFiles.count, 1)
+                for oomycotaFile in oomycotaFiles {
+                    let path = try XCTUnwrap(oomycotaFile["url"] as? String)
+                    let inventoryRecord = try XCTUnwrap(files.first { ($0["url"] as? String) == path }, "Oomycota Species Fungorum shard missing from native release inventory")
+                    XCTAssertEqual(oomycotaFile["bytes"] as? Int, inventoryRecord["bytes"] as? Int)
+                    XCTAssertEqual(oomycotaFile["sha256"] as? String, inventoryRecord["sha256"] as? String)
+                    try verifyBundled(record: inventoryRecord, below: dataRoot)
+                    XCTAssertEqual(oomycotaFile["records"] as? Int, 1673)
                 }
             } else if packageId == "viruses" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
