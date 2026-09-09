@@ -59,6 +59,11 @@ service count and must not be substituted for the pinned 37,428 COL boundary.
   is `90a0c76e57ce8af757fdb995b7876fc1c176e09be9e49737e94c66ae8ad81304`.
 - `data/catalogue-of-life/releases/2026-08-20/resource-packs/fish/fishbase-extension.json`
   describes the standalone sidecar and its rights boundary.
+- The standalone supplement is registered under `fishBaseIdentifiers` in
+  `data/catalogue-of-life/releases/2026-08-20/resource-packs/manifest.json`.
+  It is intentionally not counted as an eighth base resource pack: its 37,428
+  fish usages are already routed to the existing vertebrate package boundaries,
+  while frontend/native publication remains a separate follow-up integration.
 - `scripts/fetch-fishbase-authority-crosswalk.mjs` walks the four roots and
   fetches every source record. It writes output only after every request has
   passed the dataset and identifier checks; retries do not turn failures into

@@ -165,7 +165,7 @@ export function buildFishbaseAuthoritySidecar({ crosswalkPath = DEFAULT_CROSSWAL
     ],
     integration: {
       standalone: true,
-      targetManifestPath: 'data/catalogue-of-life/releases/2026-08-20/resource-packs/fish/manifest.json',
+      targetManifestPath: 'data/catalogue-of-life/releases/2026-08-20/resource-packs/manifest.json',
       clientParityRequirement: 'After parent integration, every listed shard must be copied byte-for-byte into Web-light metadata/native-full Android/iOS assets; Web-light need only retain this descriptor and aggregate counts.',
       lookup: {
         strategy: 'lexicographic-colId-range-v1',
