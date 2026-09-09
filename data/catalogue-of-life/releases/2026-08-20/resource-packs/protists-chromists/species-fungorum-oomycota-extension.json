@@ -1,0 +1,123 @@
+{
+  "id": "species-fungorum-oomycota-identifiers",
+  "recordType": "external-name-identifier-crosswalk",
+  "provider": "Species Fungorum / Index Fungorum (Royal Botanic Gardens, Kew)",
+  "source": {
+    "provider": "Species Fungorum / Index Fungorum through ChecklistBank source links",
+    "catalogueRelease": "COL26.8",
+    "catalogueReleaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "sourceDatasetKey": "2073",
+    "sourceDatasetTitle": "Species Fungorum Plus",
+    "sourceDatasetVersion": "Apr 2024",
+    "sourceDatasetIssued": "2024-04-28",
+    "sourceDatasetDoi": "10.48580/d4hj.v14",
+    "sourceDatasetLicense": "CC-BY-4.0",
+    "sourceDatasetLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "retrievedAt": "2026-09-09",
+    "rootColUsageId": "5K",
+    "rootColScientificName": "Oomycota",
+    "eligibleSpecies": 1673,
+    "checklistBankSourceEndpointTemplate": "https://api.checklistbank.org/dataset/316115/nameusage/{colId}/source",
+    "indexFungorumEndpointTemplate": "https://www.indexfungorum.org/ixfwebservice/fungus.asmx/NameByKey?NameKey={sourceId}",
+    "rightsEvidence": {
+      "speciesFungorumDataUrl": "https://www.speciesfungorum.org/Data.asp",
+      "kewTermsUrl": "https://www.kew.org/science/collections-and-resources/data-and-digital/terms-of-use",
+      "boundary": "Kew permits software applications to use site data, requires attribution where CC-BY applies, asks extracted re-use to state that Kew cannot warrant quality or accuracy, and prohibits endorsement claims. No bulk database or page content is copied; only the declared identifier/name/status fields and request hashes are retained."
+    },
+    "canonicalCrosswalkPath": "data/sources/oomycota-species-fungorum-crosswalk-col26.8.json.gz",
+    "canonicalCrosswalkBytes": 245734,
+    "canonicalCrosswalkSha256": "fbebe20eaafd75801aa9ba362021767bc5cceb8eb0945cca08a914de542f536a",
+    "canonicalCrosswalkSourceBytes": 2333516,
+    "canonicalCrosswalkSourceSha256": "8a81d4b3bf7734455a2b1b34c62aff71cc3c89171f485c51c22666913c7829b8",
+    "requestIntegrity": {
+      "algorithm": "sha256",
+      "requestCount": 3346,
+      "requestLedgerSha256": "6fcf403c957a5c2ee91c0ab8a5c32c1cdc3bf1f5dcf9ff3eef1c939aca719b97",
+      "recordLedgerSha256": "c7370395bc2f7229d5cf85ee1f581ba99719e51410bc98daa8cc3bcad1fd3eec"
+    }
+  },
+  "eligibility": "Every strict accepted COL26.8 species descending from exact Oomycota root 5K with sourceDatasetId=2073 (Species Fungorum Plus).",
+  "counts": {
+    "eligible": 1673,
+    "resolved": 1673,
+    "accepted": 1673,
+    "redirects": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "withheld": 0,
+    "upstreamOnly": 0
+  },
+  "fields": [
+    "colId",
+    "sourceDatasetId",
+    "scientificName",
+    "authorship",
+    "rank",
+    "status",
+    "indexFungorumId",
+    "indexFungorumUrl",
+    "indexFungorumName",
+    "indexFungorumAuthors",
+    "currentUse",
+    "taxonomicReferee",
+    "updatedDate",
+    "phylum",
+    "mappingBasis",
+    "checklistBankSourceEndpoint",
+    "checklistBankSourceResponseDate",
+    "checklistBankSourceResponseBytes",
+    "checklistBankSourceResponseSha256",
+    "indexFungorumEndpoint",
+    "indexFungorumResponseDate",
+    "indexFungorumResponseBytes",
+    "indexFungorumResponseSha256"
+  ],
+  "files": [
+    {
+      "path": "protists-chromists/species-fungorum-oomycota-000.jsonl.gz",
+      "records": 1673,
+      "bytes": 243153,
+      "sourceBytes": 2005535,
+      "sha256": "572fc391ca60794e2a3cc22ba5257a8a4508ab575e7e0154887bbc57bba8aa27",
+      "sourceSha256": "c7370395bc2f7229d5cf85ee1f581ba99719e51410bc98daa8cc3bcad1fd3eec",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson",
+      "minColId": "33PPP",
+      "maxColId": "YGGB"
+    }
+  ],
+  "totalCompressedBytes": 243153,
+  "totalSourceBytes": 2005535,
+  "deliveryProfiles": {
+    "web-light": {
+      "payload": "summary-only",
+      "files": [],
+      "records": 0
+    },
+    "native-full": {
+      "payload": "complete",
+      "files": [
+        "protists-chromists/species-fungorum-oomycota-000.jsonl.gz"
+      ],
+      "records": 1673
+    }
+  },
+  "limitations": [
+    "Release-scoped exact COL Oomycota identifier crosswalk; not a complete fungal taxonomy or biological dossier.",
+    "Index Fungorum NameByKey is a live endpoint. Response dates and hashes are retained; reruns may observe later edits.",
+    "The COL root scope is authoritative for eligibility; live Index Fungorum classification fields are observations and are not used to silently drop records when its phylum/current-use fields differ.",
+    "Attribution: Species Fungorum / Index Fungorum, Royal Botanic Gardens, Kew; Kew cannot warrant quality or accuracy of extracted data."
+  ],
+  "integration": {
+    "standalone": false,
+    "targetManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/manifest.json",
+    "clientParityRequirement": "The complete shard is copied unchanged to native Android/iOS assets; Web-light receives descriptor and aggregate counts only.",
+    "lookup": {
+      "strategy": "lexicographic-colId-range-v1",
+      "ordering": "Unicode code-unit ascending",
+      "requestPolicy": "A single-species query loads at most one shard.",
+      "forbiddenBehavior": "Do not download or parse the complete sidecar for a single-species query."
+    }
+  }
+}
