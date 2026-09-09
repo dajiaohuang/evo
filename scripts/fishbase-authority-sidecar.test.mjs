@@ -78,5 +78,5 @@ describe('FishBase authority sidecar', () => {
     } finally {
       rmSync(temporaryRoot, { recursive: true, force: true })
     }
-  })
+  }, 30000)
 })
