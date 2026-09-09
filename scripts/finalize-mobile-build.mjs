@@ -546,13 +546,15 @@ const expectedProtistAuthorities = {
   'itis-centrohelida-tsn-crosswalk': { files: 0, records: 0 },
   'itis-katablepharidota-tsn-crosswalk': { files: 0, records: 0 },
   'itis-hemimastigophora-tsn-crosswalk': { files: 0, records: 0 },
+  'species-fungorum-oomycota-identifiers': { files: 1, records: 1673, provider: 'Species Fungorum / Index Fungorum (Royal Botanic Gardens, Kew)' },
 }
 if (protistsManifest.extensions?.length !== Object.keys(expectedProtistAuthorities).length + 6) {
   throw new Error('Mobile build must stage every declared protists/chromists authority collection')
 }
 for (const [id, expected] of Object.entries(expectedProtistAuthorities)) {
   const authority = protistsManifest.extensions?.find((extension) => extension.id === id)
-  if (!authority || authority.provider !== 'Integrated Taxonomic Information System'
+  const expectedProvider = expected.provider ?? 'Integrated Taxonomic Information System'
+  if (!authority || authority.provider !== expectedProvider
     || authority.delivery?.profile !== 'native-full' || authority.delivery?.completeRows !== true
     || authority.files?.length !== expected.files || authority.delivery?.publishedFileCount !== expected.files
     || authority.delivery?.canonicalFileCount !== expected.files
