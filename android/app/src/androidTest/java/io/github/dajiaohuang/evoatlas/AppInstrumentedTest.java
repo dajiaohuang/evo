@@ -832,8 +832,8 @@ public class AppInstrumentedTest {
                 ictvIsolateRecords += counts.getInt("vmrIsolates");
             } else if (packageId.equals("other-plants")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
-                assertEquals(1, extensions.length());
-                JSONObject wfo = extensions.getJSONObject(0);
+                assertEquals(2, extensions.length());
+                JSONObject wfo = findCollection(extensions, "wfo-plant-list-crosswalk");
                 assertEquals("wfo-plant-list-crosswalk", wfo.getString("id"));
                 assertEquals("World Flora Online Plant List", wfo.getString("provider"));
                 JSONObject counts = wfo.getJSONObject("counts");
@@ -849,6 +849,23 @@ public class AppInstrumentedTest {
                     assertEquals(extensionFile.getString("sha256"), wfoInventoryRecord.getString("sha256"));
                     verifyAssetRecord(context, wfoInventoryRecord);
                     wfoSupplementRecords += extensionFile.getInt("records");
+                }
+                JSONObject bryonames = findCollection(extensions, "bryonames-archive-crosswalk");
+                assertNotNull("Bryonames extension must be bundled", bryonames);
+                assertEquals("Bryophyte Nomenclator (Bryonames) through ChecklistBank", bryonames.getString("provider"));
+                assertEquals("native-full", bryonames.getJSONObject("delivery").getString("profile"));
+                assertTrue(bryonames.getJSONObject("delivery").getBoolean("completeRows"));
+                assertEquals(698, bryonames.getJSONObject("counts").getInt("resolved"));
+                JSONArray bryonamesFiles = bryonames.getJSONArray("files");
+                assertEquals(1, bryonamesFiles.length());
+                for (int fileIndex = 0; fileIndex < bryonamesFiles.length(); fileIndex += 1) {
+                    JSONObject file = bryonamesFiles.getJSONObject(fileIndex);
+                    JSONObject inventoryRecord = findInventoryRecord(files, file.getString("url"));
+                    assertNotNull("Bryonames shard missing from release inventory", inventoryRecord);
+                    assertEquals(file.getInt("bytes"), inventoryRecord.getInt("bytes"));
+                    assertEquals(file.getString("sha256"), inventoryRecord.getString("sha256"));
+                    assertEquals(698, file.getInt("records"));
+                    verifyAssetRecord(context, inventoryRecord);
                 }
             } else {
                 assertTrue("only Archaea, Bacteria, Fungi, Viruses and Other Plants may carry resource-pack extensions", !pack.has("extensions"));
