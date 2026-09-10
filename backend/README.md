@@ -35,7 +35,7 @@ GET /v1/sync/files?profile=full&limit=500&cursor=...
 GET /v1/sync/files.ndjson?profile=full
 ```
 
-`/v1/resources` returns original bytes from `data/`, with a strong SHA-256 ETag, `Range`/`If-Range`, and immutable caching. Gzip payloads are deliberately served as bytes with `Content-Type: application/gzip`; clients decompress according to the descriptor's `encoding` field.
+`/v1/resources` returns original bytes from `data/`, with a strong SHA-256 ETag and `Range`/`If-Range`. Its fixed current-release URLs require cache revalidation, as does `/v1/catalogue/tree.ndjson`, so a release reload cannot leave clients using a year-old cached response. Gzip payloads are deliberately served as bytes with `Content-Type: application/gzip`; clients decompress according to the descriptor's `encoding` field.
 
 `/v1/catalogue/tree.ndjson` streams the complete resident catalogue hierarchy as newline-delimited JSON, one compact node record per line. It is intended for full native-client or backend-to-backend transfer and does not build the complete response in memory.
 

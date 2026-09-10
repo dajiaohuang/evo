@@ -23,6 +23,9 @@ async function loadTargetedPackageSnapshot(packageId: string): Promise<TargetedP
     const file = manifest.files.occurrenceSnapshot
     if (!file) throw new Error(`${packageId} package manifest is missing its targeted occurrence snapshot`)
     return loadRuntimeFile<TargetedPackageSnapshot>(file)
+  }).catch((error) => {
+    targetedPackageSnapshotPromises.delete(packageId)
+    throw error
   }))
   return targetedPackageSnapshotPromises.get(packageId)!
 }
@@ -50,19 +53,17 @@ interface EntityOccurrenceIndex {
 const entityOccurrenceIndex = entityOccurrenceIndexData as EntityOccurrenceIndex
 
 export async function getFossilsByInterval(period: string): Promise<FossilOccurrence[]> {
+  if (!FOSSIL_PERIODS.includes(period)) return []
   if (fossilStore[period]) return fossilStore[period]
   if (loadingPeriods.has(period)) return loadingPeriods.get(period)!
-  if (!FOSSIL_PERIODS.includes(period)) return []
 
   const promise = loadOccurrenceManifest().then(async (manifest) => {
     const shards = manifest.periods[period] ?? []
     const records = (await Promise.all(shards.map((file) => loadRuntimeFile<FossilOccurrence[]>(file)))).flat()
     fossilStore[period] = records
-    loadingPeriods.delete(period)
     return records
-  }, (error) => {
+  }).finally(() => {
     loadingPeriods.delete(period)
-    throw error
   })
   loadingPeriods.set(period, promise)
   return promise

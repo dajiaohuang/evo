@@ -2,7 +2,7 @@ import { strToU8, zipSync } from 'fflate'
 import manifest from '../../data/manifest.json'
 import references from '../../data/references.json'
 import type { FossilOccurrence } from '../types'
-import { FOSSIL_PERIODS, getAllFossils, getFossilsByInterval } from './localFossils'
+import { FOSSIL_PERIODS, getFossilsByInterval } from './localFossils'
 import { getSpatialPosition, hasSpatialPosition, type CoordinateMode } from '../utils/spatial'
 import { EARTH_HISTORY_TOTAL_MA } from '../constants'
 import { loadReleaseMetadata, localReleaseMetadata, type ReleaseMetadata } from './release'
@@ -86,7 +86,7 @@ export function validateLabQuery(query: LabQuery): void {
   }
   const unknownPeriod = query.periods.find((period) => !FOSSIL_PERIODS.includes(period))
   if (unknownPeriod) throw new LabQueryError('UNKNOWN_PERIOD', { period: unknownPeriod })
-  if (!Number.isFinite(query.limit) || query.limit < 1 || query.limit > 5000) {
+  if (!Number.isInteger(query.limit) || query.limit < 1 || query.limit > 5000) {
     throw new LabQueryError('RESULT_LIMIT_OUT_OF_RANGE', { max: 5000 })
   }
 }
@@ -116,19 +116,16 @@ function topCounts(values: string[], limit: number): Array<{ taxon: string; coun
 
 export async function runLabQuery(query: LabQuery): Promise<LabResult> {
   validateLabQuery(query)
-  const selectedPeriods = query.periods.length ? query.periods : [...FOSSIL_PERIODS]
-  const chunks = selectedPeriods.length === FOSSIL_PERIODS.length
-    ? await getAllFossils()
-    : (await Promise.all(selectedPeriods.map(getFossilsByInterval))).flat()
-  const matched = filterFossils(chunks, query)
+  const selectedPeriods = query.periods.length ? [...new Set(query.periods)] : [...FOSSIL_PERIODS]
+  const periodMatches = await Promise.all(selectedPeriods.map(async (period) => ({
+    period, records: filterFossils(await getFossilsByInterval(period), query),
+  })))
+  const matched = periodMatches.flatMap((entry) => entry.records)
   const records = matched
     .sort((a, b) => b.eag - a.eag || (a.tna || a.idn).localeCompare(b.tna || b.idn))
     .slice(0, Math.max(1, Math.min(query.limit, 5000)))
 
-  const countsByPeriod = await Promise.all(selectedPeriods.map(async (period) => {
-    const periodRecords = await getFossilsByInterval(period)
-    return { period, count: filterFossils(periodRecords, query).length }
-  }))
+  const countsByPeriod = periodMatches.map(({ period, records: sampled }) => ({ period, count: sampled.length }))
 
   const paleoCoordinates = matched.filter((record) => hasSpatialPosition(record, 'paleo')).length
   const modernCoordinates = matched.filter((record) => hasSpatialPosition(record, 'modern')).length
@@ -154,17 +151,22 @@ export async function runLabQuery(query: LabQuery): Promise<LabResult> {
 function csvCell(value: unknown): string {
   const raw = String(value ?? '')
   const text = typeof value === 'string' && /^[=+\-@]/.test(raw) ? `'${raw}` : raw
-  return /[",\n]/.test(text) ? `"${text.replaceAll('"', '""')}"` : text
+  return /[",\r\n]/.test(text) ? `"${text.replaceAll('"', '""')}"` : text
 }
 
 export function fossilsToCsv(records: FossilOccurrence[]): string {
   const headers = ['occurrence_id', 'accepted_name', 'identified_name', 'taxon_id', 'early_age_ma', 'late_age_ma', 'country', 'modern_lng', 'modern_lat', 'paleo_lng', 'paleo_lat', 'paleo_model', 'coordinate_precision', 'formation', 'member', 'environment', 'reference_id', 'collection_id']
-  const rows = records.map((record) => [
+  const rows = records.map((record) => {
+    const modern = getSpatialPosition(record, 'modern')
+    const paleo = getSpatialPosition(record, 'paleo')
+    return [
     record.oid, record.tna, record.idn, record.tid, record.eag, record.lag, record.cc2,
-    Number(record.lng), Number(record.lat), record.paleolng, record.paleolat, record.paleoModelId,
+    modern.mode === 'modern' ? modern.lng : null, modern.mode === 'modern' ? modern.lat : null,
+    paleo.mode === 'paleo' ? paleo.lng : null, paleo.mode === 'paleo' ? paleo.lat : null, record.paleoModelId,
     record.coordinatePrecision, record.formation, record.member, record.paleoenvironment,
     record.referenceId, record.cid,
-  ].map(csvCell).join(','))
+    ].map(csvCell).join(',')
+  })
   return [headers.join(','), ...rows].join('\n')
 }
 

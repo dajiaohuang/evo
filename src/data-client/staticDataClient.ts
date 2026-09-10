@@ -116,7 +116,11 @@ async function loadWithoutWorker<T>(file: RuntimeFile): Promise<T> {
   const bytes = await fetchVerifiedBytes(file)
   const byteView = new Uint8Array(bytes)
   const isGzip = byteView[0] === 0x1f && byteView[1] === 0x8b
-  const text = strFromU8(isGzip ? gunzipSync(byteView) : byteView)
+  const jsonBytes = isGzip ? gunzipSync(byteView) : byteView
+  if (isGzip && file.sourceSha256 && await digestHex(Uint8Array.from(jsonBytes).buffer) !== file.sourceSha256) {
+    throw new Error(`Decompressed checksum mismatch for ${file.url}`)
+  }
+  const text = strFromU8(jsonBytes)
   return (file.mediaType === 'application/x-ndjson'
     ? text.split('\n').filter(Boolean).map((line) => JSON.parse(line) as unknown)
     : JSON.parse(text)) as T

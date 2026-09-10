@@ -235,6 +235,9 @@ func TestResourceRangeAndETag(t *testing.T) {
 	if w.Code != 206 {
 		t.Fatalf("range status %d", w.Code)
 	}
+	if w.Header().Get("Cache-Control") != "public, no-cache" {
+		t.Fatal("current resource URLs must revalidate across releases")
+	}
 	if w.Header().Get("Accept-Ranges") != "bytes" {
 		t.Fatal("missing ranges")
 	}
@@ -252,6 +255,13 @@ func TestResourceRangeAndETag(t *testing.T) {
 	w = request(t, h, "GET", "/v1/resources/data/../manifest.json", nil)
 	if w.Code != 400 && w.Code != 404 {
 		t.Fatalf("traversal status %d", w.Code)
+	}
+}
+
+func TestCurrentCatalogueTreeRevalidates(t *testing.T) {
+	w := request(t, testHandler(t), "HEAD", "/v1/catalogue/tree.ndjson", nil)
+	if w.Code != 200 || w.Header().Get("Cache-Control") != "public, no-cache" {
+		t.Fatalf("current tree must revalidate: status=%d cache=%q", w.Code, w.Header().Get("Cache-Control"))
 	}
 }
 
