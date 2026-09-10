@@ -407,7 +407,7 @@ export function validatePlatform(scope = 'all') {
 }
 
 export function sourceRepositoryBytes() {
-  const excluded = new Set(['.git', 'node_modules', 'dist', 'dist-mobile', 'test-results', 'playwright-report'])
+  const excluded = new Set(['.git', 'node_modules', 'dist', 'dist-pages', 'dist-mobile', 'test-results', 'playwright-report'])
   const generatedNativePaths = new Set([
     'android/.gradle',
     'android/app/build',

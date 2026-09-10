@@ -66,6 +66,63 @@ final class AppConfigurationTests: XCTestCase {
         for file in files {
             XCTAssertGreaterThan(file["bytes"] as? Int ?? 0, 0, "Empty native payload: \(file["path"] as? String ?? "unknown")")
         }
+
+        let sqlAnswer = try await evaluateAsync("""
+        const wait = async (read) => {
+          const deadline = Date.now() + 45000;
+          while (Date.now() < deadline) { const value = read(); if (value) return value; await new Promise(resolve => setTimeout(resolve, 100)); }
+          throw new Error('Native SQL UI timed out: ' + (document.querySelector('.sql-error')?.textContent || 'missing element'));
+        };
+        location.hash = '#/lab';
+        (await wait(() => document.querySelector('.run-query:not(:disabled)'))).click();
+        const workspace = await wait(() => document.querySelector('.local-sql-workspace'));
+        workspace.open = true;
+        const input = workspace.querySelector('textarea');
+        Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set.call(input, 'SELECT 42 AS offline_answer');
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+        await new Promise(resolve => setTimeout(resolve, 100));
+        workspace.querySelector('.sql-actions button').click();
+        return await wait(() => workspace.querySelector('tbody td')?.textContent === '42' ? '42' : null);
+        """, in: webView)
+        XCTAssertEqual(sqlAnswer as? String, "42", "Bundled DuckDB must run inside the real WKWebView")
+
+        let parquetMagic = try await evaluateAsync("""
+        const workspace = document.querySelector('.local-sql-workspace');
+        const originalClick = HTMLAnchorElement.prototype.click;
+        let output;
+        HTMLAnchorElement.prototype.click = function () {
+          if (this.download.endsWith('.parquet')) {
+            output = fetch(this.href).then(response => response.arrayBuffer()).then(bytes =>
+              new TextDecoder().decode(new Uint8Array(bytes).slice(0, 4)));
+          } else originalClick.call(this);
+        };
+        try {
+          workspace.querySelectorAll('.sql-actions button')[1].click();
+          const deadline = Date.now() + 45000;
+          while (!output && Date.now() < deadline) {
+            const error = workspace.querySelector('.sql-error');
+            if (error) throw new Error(error.textContent);
+            await new Promise(resolve => setTimeout(resolve, 100));
+          }
+          if (!output) throw new Error('Native Parquet encoding timed out');
+          return await output;
+        } finally { HTMLAnchorElement.prototype.click = originalClick; }
+        """, in: webView)
+        XCTAssertEqual(parquetMagic as? String, "PAR1", "Bundled Parquet extension must encode inside WKWebView")
+    }
+
+    func testOfflineSqlRuntimeIsBundledWithoutModification() throws {
+        let root = try XCTUnwrap(Bundle.main.resourceURL).appendingPathComponent("public", isDirectory: true)
+        let manifest = try jsonObject(at: root.appendingPathComponent("native-runtime-manifest.json"))
+        let sql = try XCTUnwrap(manifest["sql"] as? [String: Any])
+        XCTAssertEqual(sql["variant"] as? String, "mvp")
+        let files = try XCTUnwrap(sql["files"] as? [[String: Any]])
+        XCTAssertEqual(files.count, 4)
+        for file in files {
+            var record = file
+            record["url"] = file["path"]
+            try verifyBundled(record: record, below: root)
+        }
     }
 
     func testCompleteScientificReleaseIsBundledForOfflineStartup() throws {

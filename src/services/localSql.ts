@@ -20,6 +20,7 @@ interface SqlRuntime {
   alive: boolean
   records?: readonly FossilOccurrence[]
   userJson?: string
+  parquetLoaded?: boolean
 }
 export interface LocalSqlOptions {
   signal?: AbortSignal
@@ -85,21 +86,39 @@ export function fossilsForSql(records: readonly FossilOccurrence[]): JsonRow[] {
 function runtime(): Promise<SqlRuntime> {
   if (runtimePromise) return runtimePromise
   const lease = import('@duckdb/duckdb-wasm').then(async (module) => {
-    const bundle = await module.selectBundle(module.getJsDelivrBundles())
+    const native = import.meta.env.VITE_NATIVE_APP === 'true'
+    const bundle = native ? {
+      mainModule: new URL('sql/duckdb-mvp.wasm', document.baseURI).href,
+      mainWorker: new URL('sql/duckdb-browser-mvp.worker.js', document.baseURI).href,
+      pthreadWorker: undefined,
+    } : await module.selectBundle(module.getJsDelivrBundles())
     if (cancelledRuntimes.has(lease)) throw new DOMException('SQL cancelled.', 'AbortError')
     if (!bundle.mainWorker) throw new Error('No compatible DuckDB-Wasm worker is available in this browser.')
-    const workerUrl = URL.createObjectURL(new Blob([`importScripts(${JSON.stringify(bundle.mainWorker)});`], { type: 'text/javascript' }))
+    let source = `importScripts(${JSON.stringify(bundle.mainWorker)});`
+    let nativeModuleUrl: string | undefined
+    if (native) {
+      const responses = await Promise.all([fetch(bundle.mainWorker), fetch(bundle.mainModule)])
+      if (responses.some(response => !response.ok)) throw new Error('Bundled SQL engine is unavailable. Reinstall this application build.')
+      source = await responses[0].text()
+      const wasm = await responses[1].arrayBuffer()
+      if (cancelledRuntimes.has(lease)) throw new DOMException('SQL cancelled.', 'AbortError')
+      // Blob URLs work in both Android HTTPS and iOS capacitor:// workers;
+      // the engine never has to fetch a custom-scheme URL from its own worker.
+      nativeModuleUrl = URL.createObjectURL(new Blob([wasm], { type: 'application/wasm' }))
+    }
+    const workerUrl = URL.createObjectURL(new Blob([source], { type: 'text/javascript' }))
     const worker = new Worker(workerUrl)
     const db = new module.AsyncDuckDB(new module.ConsoleLogger(module.LogLevel.WARNING), worker)
     const engine: SqlRuntime = { db, worker, alive: true }
     runtimeInstances.set(lease, engine)
     try {
-      await db.instantiate(bundle.mainModule, bundle.pthreadWorker)
+      await db.instantiate(nativeModuleUrl ?? bundle.mainModule, bundle.pthreadWorker)
     } catch (error) {
       release(engine)
       throw error
     } finally {
       URL.revokeObjectURL(workerUrl)
+      if (nativeModuleUrl) URL.revokeObjectURL(nativeModuleUrl)
     }
     return engine
   }).catch((error) => {
@@ -239,6 +258,19 @@ export function exportLocalSqlParquet(sql: string, records: readonly FossilOccur
     const connection = await prepareTables(engine, records, userRows)
     const output = `evo-sql-${crypto.randomUUID()}.parquet`
     try {
+      if (import.meta.env.VITE_NATIVE_APP === 'true' && !engine.parquetLoaded) {
+        const response = await fetch(new URL('sql/parquet.duckdb_extension.wasm', document.baseURI))
+        if (!response.ok) throw new Error('Bundled Parquet extension is unavailable. Reinstall this application build.')
+        const extensionUrl = URL.createObjectURL(new Blob([await response.arrayBuffer()], { type: 'application/wasm' }))
+        try {
+          // DuckDB derives the extension entry point from the final path name.
+          // The fragment preserves that name while fetching the same blob bytes.
+          await connection.query(`LOAD '${extensionUrl}#/parquet.duckdb_extension.wasm'`)
+        } finally {
+          URL.revokeObjectURL(extensionUrl)
+        }
+        engine.parquetLoaded = true
+      }
       await connection.query(`COPY (${query}) TO '${output}' (FORMAT parquet, COMPRESSION zstd)`)
       return await db.copyFileToBuffer(output)
     } finally {

@@ -3,6 +3,7 @@ import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, statSyn
 import { dirname, join, resolve, sep } from 'node:path'
 import { loadEnv } from 'vite'
 import { rootDir } from './data-lib.mjs'
+import { stageNativeSql } from './stage-native-sql.mjs'
 
 const outputRoot = resolve(rootDir, 'dist-mobile')
 const expectedOutputRoot = join(rootDir, 'dist-mobile')
@@ -588,10 +589,12 @@ for (const file of interactiveFiles) {
   }
 }
 
+await stageNativeSql(outputRoot)
 const files = filesBelow(outputRoot)
 const totalBytes = files.reduce((sum, file) => sum + statSync(file).size, 0)
-// RC146 flora-description resources measure up to 903.20 MiB; no source-only records are omitted.
-const limitMiB = 910
+// The existing full-data baseline plus 41.08 MiB of offline DuckDB and Parquet.
+// Scientific resources are unchanged; no source-only records are omitted.
+const limitMiB = 960
 const limitBytes = limitMiB * 1024 * 1024
 if (totalBytes > limitBytes) {
   throw new Error(`Mobile application resources are ${(totalBytes / 1024 / 1024).toFixed(2)} MiB; limit is ${limitMiB} MiB`)

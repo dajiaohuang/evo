@@ -4,21 +4,23 @@ import { basename, dirname, join } from 'node:path'
 import ts from 'typescript'
 import { readJson, rootDir } from './data-lib.mjs'
 
-const distRoot = join(rootDir, 'dist')
-if (!existsSync(join(distRoot, 'index.html'))) throw new Error('dist/index.html is missing; run the Vite build before generating static pages.')
+const staticPages = process.env.EVO_STATIC_PAGES === 'true'
+const distRoot = join(rootDir, staticPages ? 'dist-pages' : 'dist')
+if (!staticPages && !existsSync(join(distRoot, 'index.html'))) throw new Error('dist/index.html is missing; run the Vite build before generating static pages.')
 
 const origin = 'https://dajiaohuang.github.io'
 const basePath = '/evo'
 const baseUrl = `${origin}${basePath}`
 const repositoryUrl = 'https://github.com/dajiaohuang/evo'
 const manifest = readJson('data/manifest.json')
-const pagesPreview = process.env.VITE_PAGES_PREVIEW === 'true'
+const pagesPreview = !staticPages && process.env.VITE_PAGES_PREVIEW === 'true'
+const datasetManifestPath = staticPages ? 'data/manifest.json' : 'data/current.json'
 const previewDefinition = readJson('data/pages-preview.json')
 const previewPackageIds = new Set(previewDefinition.packageIds)
 const previewTaxonIds = new Set(previewDefinition.taxonIds)
 const previewEventIds = new Set(previewDefinition.eventIds)
 const previewStoryIds = new Set(previewDefinition.storyIds)
-const releaseHistory = existsSync(join(distRoot, 'data', 'releases.json')) ? readJson('dist/data/releases.json') : { releases: [{ datasetVersion: manifest.datasetVersion, generatedAt: manifest.generatedAt, bytes: 0, filesIndex: '' }] }
+const releaseHistory = !staticPages && existsSync(join(distRoot, 'data', 'releases.json')) ? readJson('dist/data/releases.json') : { releases: [{ datasetVersion: manifest.datasetVersion, generatedAt: manifest.generatedAt, bytes: 0, filesIndex: '' }] }
 const entities = readJson('data/registry/entities/entities.json').filter((entity) => !pagesPreview || previewTaxonIds.has(entity.id))
 const sourceRegistry = readJson('data/registry/package-registry.json')
 const registry = { ...sourceRegistry, packages: sourceRegistry.packages.filter((entry) => !pagesPreview || previewPackageIds.has(entry.id)) }
@@ -266,10 +268,22 @@ function pageHtml({ language, title, description, path, alternatePath, type = 'W
   const alternateUrl = `${baseUrl}/${alternatePath}`.replace(/\/+$/, '/')
   const alternateLanguage = language === 'en' ? 'zh-CN' : 'en'
   const structured = { '@context': 'https://schema.org', '@type': type, name: title, description, url, inLanguage: language === 'zh' ? 'zh-CN' : 'en', isPartOf: { '@type': 'WebSite', name: 'Evo Atlas', url: `${baseUrl}/` }, ...jsonLd }
-  const crumbHtml = breadcrumbs.map((entry, index) => `${index ? ' / ' : ''}<a href="${escapeHtml(entry.url)}">${escapeHtml(entry.label)}</a>`).join('')
+  const languageRoot = `${basePath}/${language === 'zh' ? 'zh/' : ''}`
+  const crumbHtml = breadcrumbs.map((entry, index) => {
+    const href = staticPages && entry.url.includes('/#/') ? `${languageRoot}taxa/` : entry.url
+    return `${index ? ' / ' : ''}<a href="${escapeHtml(href.replace(origin, ''))}">${escapeHtml(entry.label)}</a>`
+  }).join('')
+  const navigation = staticPages
+    ? `<a href="${languageRoot}">${text.home}</a><a href="${languageRoot}taxa/">${text.catalog}</a><a href="${languageRoot}stories/">${text.stories}</a><a href="${languageRoot}methods/">${text.methods}</a><a href="${languageRoot}apps/">${language === 'zh' ? '应用' : 'Apps'}</a>`
+    : `<a href="${basePath}/">${text.atlas}</a><a href="${basePath}/#/catalog">${text.catalog}</a><a href="${basePath}/#/stories">${text.stories}</a><a href="${basePath}/#/explore">${text.explorer}</a><a href="${basePath}/#/research">${text.research}</a><a href="${basePath}/#/data">${text.data}</a><a href="${basePath}/#/about">${text.about}</a>`
+  // Read-only pages do not offer nonfunctional SPA actions. Scientific prose,
+  // claims, citations and static cross-links remain the same generated content.
+  const renderedBody = staticPages
+    ? body.replace(/<a\b[^>]*href="[^"\s]*\/#\/[^"\s]*"[^>]*>[\s\S]*?<\/a>/g, '')
+    : body
   return `<!doctype html>
 <html lang="${language === 'zh' ? 'zh-CN' : 'en'}"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#081115"><meta name="color-scheme" content="dark"><title>${escapeHtml(title)} — Evo Atlas</title><meta name="description" content="${escapeHtml(description)}"><meta name="robots" content="${robots}"><link rel="canonical" href="${url}"><link rel="alternate" hreflang="${language === 'en' ? 'en' : 'zh-CN'}" href="${url}"><link rel="alternate" hreflang="${alternateLanguage}" href="${alternateUrl}"><link rel="alternate" hreflang="x-default" href="${language === 'en' ? url : alternateUrl}"><link rel="icon" href="${basePath}/favicon.svg"><link rel="stylesheet" href="${basePath}/static.css"><meta property="og:type" content="article"><meta property="og:site_name" content="Evo Atlas"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${baseUrl}/social-card.svg"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">${JSON.stringify(structured).replaceAll('<', '\\u003c')}</script></head>
-<body><header class="site"><a href="${basePath}/">EVO ATLAS</a><nav><a href="${basePath}/">${text.atlas}</a><a href="${basePath}/#/catalog">${text.catalog}</a><a href="${basePath}/#/stories">${text.stories}</a><a href="${basePath}/#/explore">${text.explorer}</a><a href="${basePath}/#/research">${text.research}</a><a href="${basePath}/#/data">${text.data}</a><a href="${basePath}/#/about">${text.about}</a></nav><span class="language"><a lang="en" href="${language === 'en' ? url : alternateUrl}">EN</a><a lang="zh-CN" href="${language === 'zh' ? url : alternateUrl}">中文</a></span></header><main class="page"><div class="crumbs" aria-label="${text.breadcrumbs}">${crumbHtml}</div>${body}</main><footer>EVO ATLAS / ${escapeHtml(manifest.datasetVersion)} · Static-first · Source-aware · Open data</footer></body></html>`
+<body><a class="skip-link" href="#content" tabindex="0">${language === 'zh' ? '跳到正文' : 'Skip to content'}</a><header class="site"><a href="${staticPages ? languageRoot : `${basePath}/`}">EVO ATLAS</a><nav aria-label="${language === 'zh' ? '主导航' : 'Main navigation'}">${navigation}</nav><span class="language"><a lang="en" href="${(language === 'en' ? url : alternateUrl).replace(origin, '')}">EN</a><a lang="zh-CN" href="${(language === 'zh' ? url : alternateUrl).replace(origin, '')}">中文</a></span></header><main class="page" id="content"><div class="crumbs" aria-label="${text.breadcrumbs}">${crumbHtml}</div>${renderedBody}</main><footer>EVO ATLAS / ${escapeHtml(manifest.datasetVersion)} · ${staticPages ? 'Static reading edition' : 'Static-first'} · Source-aware · Open data</footer></body></html>`
 }
 
 function referenceRecords(ids) {
@@ -657,7 +671,7 @@ for (const asset of media) {
     const isInterpretive = asset.contentOrigin === 'ai-assisted-interpretive-reconstruction'
     const packageId = entityById.get(asset.taxonId)?.packageId
     const assetUrl = isInterpretive && asset.asset && packageId
-      ? `${basePath}/data/releases/${manifest.datasetVersion}/packages/${packageId}/media/${basename(asset.asset.path)}`
+      ? (staticPages ? `${basePath}/illustrations/${basename(asset.asset.path)}` : `${basePath}/data/releases/${manifest.datasetVersion}/packages/${packageId}/media/${basename(asset.asset.path)}`)
       : null
     const rightsNotice = isInterpretive
       ? (language === 'zh' ? asset.interpretiveNoticeZh : asset.interpretiveNotice)
@@ -687,7 +701,7 @@ writeCollectionIndex({ kind: 'localities', titleEn: 'Fossil localities', titleZh
 writeCollectionIndex({ kind: 'traits', titleEn: 'Traits', titleZh: '性状', descriptionEn: 'Descriptive phrases extracted from curated taxon profiles, linked back to dossiers and references without claiming ontology normalization.', descriptionZh: '从策展类群档案提取并回链到档案和来源的描述性短语，不宣称已完成本体标准化。', items: traitGroups.map((trait) => ({ path: `traits/${trait.slug}/`, titleEn: trait.name, titleZh: localize('zh', trait.name), metaEn: `${trait.profiles.length} linked profile(s)`, metaZh: `${trait.profiles.length} 个关联档案` })) })
 writeCollectionIndex({ kind: 'references', titleEn: 'References', titleZh: '参考文献', descriptionEn: 'The source ledger used by published entities, claims, ranges, events and stories.', descriptionZh: '公开实体、主张、年代范围、事件和故事使用的来源账本。', items: references.map((reference) => ({ path: `references/${reference.id}/`, titleEn: reference.title, titleZh: reference.title, metaEn: `${reference.authors} · ${reference.publishedYear ?? reference.accessedAt ?? 'n.d.'}`, metaZh: `${reference.authors} · ${reference.publishedYear ?? reference.accessedAt ?? '无日期'}` })) })
 writeCollectionIndex({ kind: 'media', titleEn: 'Media', titleZh: '媒体', descriptionEn: 'Rights-aware external records and AI-assisted interpretive reconstructions whose page presentation always pairs each image with explicit uncertainty.', descriptionZh: '保留权利信息的外部记录，以及在页面展示中始终与 AI 辅助说明和明确不确定性配对的解释性复原。', items: media.map((asset) => ({ path: `media/${asset.id}/`, titleEn: asset.title, titleZh: asset.titleZh ?? localize('zh', asset.title), metaEn: `${asset.type} · ${asset.rightsStatus}`, metaZh: `${localize('zh', asset.type)} · ${localize('zh', asset.rightsStatus)}` })) })
-writeCollectionIndex({ kind: 'datasets', titleEn: 'Dataset releases', titleZh: '数据集版本', descriptionEn: 'Versioned static releases with scope, checksums, downloads and known limitations.', descriptionZh: '带有范围、校验和、下载及已知局限的版本化静态发布。', items: releaseHistory.releases.map((release) => ({ path: `datasets/${release.datasetVersion}/`, titleEn: release.datasetVersion, titleZh: release.datasetVersion, metaEn: `${release.generatedAt} · ${(release.bytes / 1024 / 1024).toFixed(2)} MiB retained artifacts`, metaZh: `${release.generatedAt} · ${(release.bytes / 1024 / 1024).toFixed(2)} MiB 保留产物` })) })
+writeCollectionIndex({ kind: 'datasets', titleEn: 'Dataset releases', titleZh: '数据集版本', descriptionEn: 'Versioned static releases with scope, checksums, downloads and known limitations.', descriptionZh: '带有范围、校验和、下载及已知局限的版本化静态发布。', items: releaseHistory.releases.map((release) => ({ path: `datasets/${release.datasetVersion}/`, titleEn: release.datasetVersion, titleZh: release.datasetVersion, metaEn: staticPages ? `${release.generatedAt} · source metadata` : `${release.generatedAt} · ${(release.bytes / 1024 / 1024).toFixed(2)} MiB retained artifacts`, metaZh: staticPages ? `${release.generatedAt} · 来源元数据` : `${release.generatedAt} · ${(release.bytes / 1024 / 1024).toFixed(2)} MiB 保留产物` })) })
 }
 
 for (const language of ['en', 'zh']) {
@@ -696,10 +710,44 @@ for (const language of ['en', 'zh']) {
   const alternatePath = language === 'en' ? 'zh/methods/' : 'methods/'
   const title = language === 'zh' ? '方法与证据边界' : 'Methods and evidence boundaries'
   const description = language === 'zh' ? 'Evo Atlas 的静态优先数据流程、采样边界、坐标模型与审阅准入。' : 'Evo Atlas static-first data workflow, sampling boundaries, coordinate models and review gates.'
-  const body = `<span class="eyebrow">${text.methods}</span><h1>${escapeHtml(title)}</h1><p class="dek">${escapeHtml(description)}</p><section><h2>${language === 'zh' ? '浏览器即研究工作区' : 'The browser is the research workspace'}</h2><p>${language === 'zh' ? 'GitHub Actions 生成版本化证据，GitHub Pages 提供不可变文件，浏览器完成筛选、关联与可视化。' : 'GitHub Actions prepares versioned evidence, GitHub Pages serves immutable files, and the browser performs filtering, linking and visualization.'}</p></section><section><h2>${text.limitations}</h2><ol>${manifest.limitations.map((limitation) => `<li>${escapeHtml(localize(language, limitation))}</li>`).join('')}</ol></section><div class="actions"><a class="button" href="${basePath}/#/methods">${text.open} ↗</a><a class="button secondary" href="${repositoryUrl}/blob/main/docs/data-methods.md">${language === 'zh' ? '查看完整方法文档' : 'Read full methods documentation'} ↗</a></div>`
+  let body = `<span class="eyebrow">${text.methods}</span><h1>${escapeHtml(title)}</h1><p class="dek">${escapeHtml(description)}</p><section><h2>${language === 'zh' ? '浏览器即研究工作区' : 'The browser is the research workspace'}</h2><p>${language === 'zh' ? 'GitHub Actions 生成版本化证据，GitHub Pages 提供不可变文件，浏览器完成筛选、关联与可视化。' : 'GitHub Actions prepares versioned evidence, GitHub Pages serves immutable files, and the browser performs filtering, linking and visualization.'}</p></section><section><h2>${text.limitations}</h2><ol>${manifest.limitations.map((limitation) => `<li>${escapeHtml(localize(language, limitation))}</li>`).join('')}</ol></section><div class="actions"><a class="button" href="${basePath}/#/methods">${text.open} ↗</a><a class="button secondary" href="${repositoryUrl}/blob/main/docs/data-methods.md">${language === 'zh' ? '查看完整方法文档' : 'Read full methods documentation'} ↗</a></div>`
+  if (staticPages) body = `<span class="eyebrow">${text.methods}</span><h1>${escapeHtml(title)}</h1><p class="dek">${language === 'zh' ? '本站在构建时从版本化来源生成可直接阅读的 HTML，保留原有主张、引用、审阅状态和局限。地图、数据查询与本地 SQL 属于完整应用，不在此静态阅读版运行。' : 'This site generates readable HTML from versioned sources at build time, preserving claims, citations, review status and limitations. Maps, data queries and local SQL belong to the full application and do not run in this reading edition.'}</p><section><h2>${text.limitations}</h2><ol>${manifest.limitations.map((limitation) => `<li>${escapeHtml(localize(language, limitation))}</li>`).join('')}</ol></section><div class="actions"><a class="button" href="${repositoryUrl}/blob/main/docs/data-methods.md">${language === 'zh' ? '完整方法文档' : 'Full methods documentation'}</a><a class="button secondary" href="${basePath}/${language === 'zh' ? 'zh/' : ''}apps/">${language === 'zh' ? '完整应用' : 'Full applications'}</a></div>`
   write(`${path}index.html`, pageHtml({ language, title, description, path, alternatePath, jsonLd: { about: ['paleontology', 'data provenance', 'sampling', 'scientific review'] }, breadcrumbs: [{ label: text.home, url: `${basePath}/` }, { label: text.methods, url: `${baseUrl}/${path}` }], body }))
 }
 sitemapUrls.add(`${baseUrl}/methods/`)
+
+if (staticPages) {
+  const collections = [
+    ['taxa', 'Taxa and evidence', '类群与证据', entities.length],
+    ['events', 'Evolutionary events', '演化事件', events.length],
+    ['stories', 'Guided stories', '引导故事', stories.length],
+    ['intervals', 'Geological time', '地质年代', timeScale.units.length],
+    ['formations', 'Formations', '地层组', formationGroups.length],
+    ['localities', 'Fossil localities', '化石采集地', localityGroups.length],
+    ['traits', 'Traits', '性状', traitGroups.length],
+    ['references', 'References', '参考文献', references.length],
+    ['media', 'Media and rights', '媒体与权利', media.length],
+    ['datasets', 'Dataset metadata', '数据集元数据', 1],
+  ]
+  for (const language of ['en', 'zh']) {
+    const zh = language === 'zh'
+    const prefix = zh ? 'zh/' : ''
+    const title = zh ? '从证据阅读生命演化' : 'Read evolution through its evidence'
+    const description = zh
+      ? 'Evo Atlas 静态阅读版：直接浏览类群、主张、故事与参考文献，无需加载完整交互应用。'
+      : 'The Evo Atlas reading edition: browse taxa, claims, stories and references without loading the full interactive application.'
+    const body = `<span class="eyebrow">EVO ATLAS / ${zh ? '静态阅读版' : 'READING EDITION'}</span><h1>${title}</h1><p class="dek">${description}</p><p class="notice">${zh ? '科学内容来自当前版本化数据。原有引用、不确定性与审阅状态保持可见；自动化校验不等于科学评审。' : 'Content comes from the current versioned dataset. Citations, uncertainty and review status remain visible; automated validation is not scientific review.'}</p><section><h2>${zh ? '浏览内容' : 'Browse the collection'}</h2><div class="edition-grid">${collections.map(([slug, en, cn, count]) => `<a href="${basePath}/${prefix}${slug}/"><strong>${zh ? cn : en}</strong><span>${count.toLocaleString()} ${zh ? '条目' : 'entries'}</span></a>`).join('')}</div></section><div class="actions"><a class="button" href="${basePath}/${prefix}methods/">${zh ? '方法与证据边界' : 'Methods and evidence boundaries'}</a><a class="button secondary" href="${basePath}/${prefix}apps/">${zh ? 'Web、Android 与 iOS' : 'Web, Android and iOS'}</a></div>`
+    write(`${prefix}index.html`, pageHtml({ language, title, description, path: prefix, alternatePath: zh ? '' : 'zh/', type: 'CollectionPage', body }))
+    const appsTitle = zh ? '完整应用与原生版本' : 'Full and native applications'
+    const appsDescription = zh
+      ? 'GitHub Pages 提供静态阅读；完整 Web 应用、Android 和 iOS 提供交互探索。'
+      : 'GitHub Pages provides static reading; the full Web, Android and iOS applications provide interactive exploration.'
+    const appsBody = `<span class="eyebrow">EVO ATLAS / ${zh ? '应用' : 'APPLICATIONS'}</span><h1>${appsTitle}</h1><p class="dek">${appsDescription}</p><section><h2>Web</h2><p>${zh ? '完整客户端包含地图、演化树、时间轴、搜索和本地 SQL，可按仓库说明自行构建和托管。本站不提供这些运行功能。' : 'The full client includes maps, trees, a timeline, search and local SQL. Build and host it using the repository instructions; these runtime features are not served by this reading site.'}</p><a href="${repositoryUrl}#readme">${zh ? '构建说明与源代码' : 'Build instructions and source'}</a></section><section><h2>Android</h2><p>${zh ? 'Android 使用本地 Capacitor 资源和完整数据。CI 提供调试 APK 用于安装验证；它不是 Play Store 发布版。下载 Actions 产物需要登录 GitHub。' : 'Android uses local Capacitor assets and the full data profile. CI provides a debug APK for installation testing, not a Play Store release. Downloading Actions artifacts requires GitHub sign-in.'}</p><a href="${repositoryUrl}/actions/workflows/native-android.yml">${zh ? 'Android 验证构建' : 'Android verification builds'}</a></section><section><h2>iOS</h2><p>${zh ? 'iOS 使用同一完整数据。CI 运行 iPhone 模拟器测试并生成未签名 Archive；安装到真机或发布到 App Store 仍需开发者签名与分发流程。' : 'iOS uses the same full data profile. CI runs iPhone simulator tests and creates an unsigned archive; device installation and App Store distribution still require developer signing and distribution.'}</p><a href="${repositoryUrl}/actions/workflows/native-ios.yml">${zh ? 'iOS 验证构建' : 'iOS verification builds'}</a></section><div class="actions"><a class="button secondary" href="${repositoryUrl}/blob/main/docs/mobile-apps.md">${zh ? '原生应用文档' : 'Native application documentation'}</a></div>`
+    write(`${prefix}apps/index.html`, pageHtml({ language, title: appsTitle, description: appsDescription, path: `${prefix}apps/`, alternatePath: `${zh ? '' : 'zh/'}apps/`, body: appsBody }))
+  }
+  sitemapUrls.add(`${baseUrl}/zh/`)
+  sitemapUrls.add(`${baseUrl}/apps/`)
+}
 
 if (!pagesPreview) {
 for (const language of ['en', 'zh']) {
@@ -708,8 +756,8 @@ for (const language of ['en', 'zh']) {
   const alternatePath = language === 'en' ? `zh/datasets/${manifest.datasetVersion}/` : `datasets/${manifest.datasetVersion}/`
   const title = `${text.dataset} ${manifest.datasetVersion}`
   const description = language === 'zh' ? 'Evo Atlas 当前静态数据集的范围、记录数、局限与机器可读入口。' : 'Scope, record counts, limitations and machine-readable entry points for the current Evo Atlas static dataset.'
-  const body = `<span class="eyebrow">${text.dataset}</span><h1>${escapeHtml(manifest.datasetVersion)}</h1><p class="dek">${escapeHtml(localize(language, manifest.scopeStatement))}</p><div class="facts"><div><small>${language === 'zh' ? '化石记录' : 'Fossil records'}</small><strong>${manifest.records.fossilOccurrences.toLocaleString()}</strong></div><div><small>${language === 'zh' ? '注册实体' : 'Registry entities'}</small><strong>${manifest.records.registryEntities}</strong></div><div><small>${language === 'zh' ? '内容包' : 'Content packages'}</small><strong>${manifest.records.dataPackages}</strong></div></div><section><h2>${text.evidence}</h2><p>${language === 'zh' ? '奇蹄目保留完整分页查询账本；其余内容包来自非随机、有界的 PBDB 教学样本。查询完整性不等于化石记录完整性。' : 'Perissodactyla preserves a complete paginated query ledger; other packages derive from a non-random bounded PBDB teaching sample. Query completeness is not fossil-record completeness.'}</p></section><section><h2>${text.limitations}</h2><ol>${manifest.limitations.map((limitation) => `<li>${escapeHtml(localize(language, limitation))}</li>`).join('')}</ol></section><div class="actions"><a class="button" href="${basePath}/#/data">${text.open} ↗</a><a class="button secondary" href="${basePath}/data/current.json">JSON ↗</a></div>`
-  write(`${path}index.html`, pageHtml({ language, title, description, path, alternatePath, type: 'Dataset', jsonLd: { version: manifest.datasetVersion, dateModified: manifest.generatedAt, creator: { '@type': 'Organization', name: 'Evo Atlas contributors', url: repositoryUrl }, license: `${repositoryUrl}/blob/main/DATA_LICENSES.md`, distribution: [{ '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: `${baseUrl}/data/current.json` }], temporalCoverage: '4567 Ma/Present', variableMeasured: Object.keys(manifest.records) }, breadcrumbs: [{ label: text.home, url: `${basePath}/` }, { label: text.dataset, url: `${baseUrl}/${path}` }], body }))
+  const body = `<span class="eyebrow">${text.dataset}</span><h1>${escapeHtml(manifest.datasetVersion)}</h1><p class="dek">${escapeHtml(localize(language, manifest.scopeStatement))}</p><div class="facts"><div><small>${language === 'zh' ? '化石记录' : 'Fossil records'}</small><strong>${manifest.records.fossilOccurrences.toLocaleString()}</strong></div><div><small>${language === 'zh' ? '注册实体' : 'Registry entities'}</small><strong>${manifest.records.registryEntities}</strong></div><div><small>${language === 'zh' ? '内容包' : 'Content packages'}</small><strong>${manifest.records.dataPackages}</strong></div></div><section><h2>${text.evidence}</h2><p>${language === 'zh' ? '奇蹄目保留完整分页查询账本；其余内容包来自非随机、有界的 PBDB 教学样本。查询完整性不等于化石记录完整性。' : 'Perissodactyla preserves a complete paginated query ledger; other packages derive from a non-random bounded PBDB teaching sample. Query completeness is not fossil-record completeness.'}</p></section><section><h2>${text.limitations}</h2><ol>${manifest.limitations.map((limitation) => `<li>${escapeHtml(localize(language, limitation))}</li>`).join('')}</ol></section><div class="actions"><a class="button" href="${basePath}/#/data">${text.open} ↗</a><a class="button secondary" href="${basePath}/${datasetManifestPath}">JSON ↗</a></div>`
+  write(`${path}index.html`, pageHtml({ language, title, description, path, alternatePath, type: 'Dataset', jsonLd: { version: manifest.datasetVersion, dateModified: manifest.generatedAt, creator: { '@type': 'Organization', name: 'Evo Atlas contributors', url: repositoryUrl }, license: `${repositoryUrl}/blob/main/DATA_LICENSES.md`, distribution: [{ '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: `${baseUrl}/${datasetManifestPath}` }], temporalCoverage: '4567 Ma/Present', variableMeasured: Object.keys(manifest.records) }, breadcrumbs: [{ label: text.home, url: `${basePath}/` }, { label: text.dataset, url: `${baseUrl}/${path}` }], body }))
   datasetPageCount += 1
 }
 sitemapUrls.add(`${baseUrl}/datasets/${manifest.datasetVersion}/`)
@@ -729,14 +777,16 @@ for (const release of releaseHistory.releases.filter((entry) => entry.datasetVer
 }
 }
 
-write('static.css', staticCss)
+write('static.css', staticCss + `\n.skip-link{position:absolute;top:-100px;left:12px;padding:12px;background:var(--bg);z-index:2}.skip-link:focus{top:0}:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.claim code{overflow-wrap:anywhere}.page{overflow-wrap:anywhere}` + (staticPages ? `\nheader.site{height:auto;min-height:64px;gap:24px;flex-wrap:wrap}header.site nav a,.language a{display:inline-flex;align-items:center;min-height:44px}.edition-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.edition-grid a{display:block;padding:20px;border:1px solid var(--line);text-decoration:none}.edition-grid strong,.edition-grid span{display:block}.edition-grid span{color:var(--muted);font-size:13px}@media(max-width:700px){header.site nav{display:flex;order:3;width:100%;flex-wrap:wrap;gap:6px 18px}.edition-grid{grid-template-columns:1fr}.page{padding-top:30px}h1{font-size:clamp(36px,10vw,64px)}}` : ''))
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...sitemapUrls].sort().map((url) => `  <url><loc>${xmlEscape(url)}</loc><lastmod>${manifest.generatedAt}</lastmod></url>`).join('\n')}\n</urlset>\n`)
 write('robots.txt', `User-agent: *\nAllow: ${basePath}/\nSitemap: ${baseUrl}/sitemap.xml\n`)
 const feedEntryPath = pagesPreview ? 'methods/' : `datasets/${manifest.datasetVersion}/`
 const feedEntryTitle = pagesPreview ? `${manifest.appVersion} GitHub Pages preview` : manifest.datasetVersion
 write('feed.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom"><title>Evo Atlas releases</title><id>${baseUrl}/feed.xml</id><updated>${manifest.generatedAt}T00:00:00Z</updated><link href="${baseUrl}/feed.xml" rel="self"/><entry><title>${xmlEscape(feedEntryTitle)}</title><id>${baseUrl}/${feedEntryPath}</id><updated>${manifest.generatedAt}T00:00:00Z</updated><link href="${baseUrl}/${feedEntryPath}"/><summary>${xmlEscape(manifest.scopeStatement)}</summary></entry></feed>\n`)
 write('404.html', `<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><link rel="stylesheet" href="${basePath}/static.css"><title>Page not found — Evo Atlas</title></head><body><main class="page"><span class="eyebrow">404 / Evo Atlas</span><h1>Evidence page not found.</h1><p class="dek">This static entry does not exist in the published dataset. You can continue in the catalog or Explorer.</p><div class="actions"><a class="button" href="${basePath}/#/catalog">Open catalog</a><a class="button secondary" href="${basePath}/#/explore">Open Explorer</a></div></main></body></html>`)
+if (staticPages) write('404.html', pageHtml({ language: 'en', title: 'Page not found', description: 'This static reading page does not exist.', path: '404.html', alternatePath: 'zh/', robots: 'noindex,follow', body: `<span class="eyebrow">404 / EVO ATLAS</span><h1>Page not found</h1><p class="dek">This address is not part of the static reading edition. / 此地址不属于静态阅读版。</p><div class="actions"><a class="button" href="${basePath}/">Browse in English</a><a class="button secondary" href="${basePath}/zh/">浏览中文内容</a></div>` }))
 const pageCounts = {
+  ...(staticPages ? { home: 2, apps: 2 } : {}),
   taxa: taxonPageCount,
   events: eventPageCount,
   stories: storyPageCount,
@@ -750,6 +800,6 @@ const pageCounts = {
   methods: 2,
   datasets: datasetPageCount,
 }
-write('static-pages-manifest.json', `${JSON.stringify({ schemaVersion: 3, datasetVersion: manifest.datasetVersion, generatedAt: manifest.generatedAt, pages: pageCounts, sitemapUrls: sitemapUrls.size }, null, 2)}\n`)
+write('static-pages-manifest.json', `${JSON.stringify({ schemaVersion: 3, ...(staticPages ? { edition: 'github-pages-static' } : {}), datasetVersion: manifest.datasetVersion, generatedAt: manifest.generatedAt, pages: pageCounts, sitemapUrls: sitemapUrls.size }, null, 2)}\n`)
 
 console.log(`Generated ${Object.values(pageCounts).reduce((sum, count) => sum + count, 0)} bilingual static knowledge pages and ${sitemapUrls.size} indexable sitemap URLs.`)

@@ -133,7 +133,9 @@ export function LocalResearchWorkspace({ result, query, userData, onRestoreQuery
       <details className="local-sql-workspace">
         <summary><span>{t('Local SQL / DuckDB-Wasm')}</span><small>{t('Loaded on demand · read only')}</small></summary>
         <p>{t('The occurrences table contains the returned result set. Importing local data adds a user_data table for joins; neither table is uploaded.')}</p>
-        <p className="sql-runtime-note">{t('The SQL engine downloads on first use from the version-pinned jsDelivr bundle. Query data remains in the browser worker.')}</p>
+        <p className="sql-runtime-note">{import.meta.env.VITE_NATIVE_APP === 'true'
+          ? (language === 'zh' ? 'SQL 引擎已内置，可离线运行。查询数据只留在设备上。' : 'The SQL engine is bundled for offline use. Query data stays on this device.')
+          : t('The SQL engine downloads on first use from the version-pinned jsDelivr bundle. Query data remains in the browser worker.')}</p>
         <div className="sql-table-list">
           <code>occurrences</code><span>{number(result.records.length)} {t('rows')}</span>
           <code>user_data</code><span>{number(userData?.recordCount ?? 0)} {t('rows')} {userData?.fields.length ? `· ${userData.fields.join(', ')}` : ''}</span>

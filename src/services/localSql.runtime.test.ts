@@ -29,7 +29,32 @@ describe('SQL runtime ownership', () => {
     vi.stubGlobal('Worker', class { terminate = mocks.terminate })
     vi.stubGlobal('URL', class extends URL { static createObjectURL() { return 'blob:test' } static revokeObjectURL() {} })
   })
-  afterEach(async () => { await vi.runOnlyPendingTimersAsync(); vi.useRealTimers(); vi.unstubAllGlobals() })
+  afterEach(async () => { await vi.runOnlyPendingTimersAsync(); vi.useRealTimers(); vi.unstubAllGlobals(); vi.unstubAllEnvs() })
+
+  it('loads native SQL only from the document root, then passes a blob module to the worker', async () => {
+    vi.stubEnv('VITE_NATIVE_APP', 'true')
+    vi.spyOn(document, 'baseURI', 'get').mockReturnValue('capacitor://localhost/')
+    const requests: string[] = []
+    const fetch = vi.fn(async (url: string) => {
+      requests.push(url)
+      return { ok: true, text: async () => '/* bundled worker */', arrayBuffer: async () => new ArrayBuffer(8) }
+    })
+    vi.stubGlobal('fetch', fetch)
+    const { runLocalSql } = await import('./localSql')
+    await runLocalSql('SELECT 1', records)
+    expect(requests).toEqual([
+      'capacitor://localhost/sql/duckdb-browser-mvp.worker.js', 'capacitor://localhost/sql/duckdb-mvp.wasm',
+    ])
+    expect(mocks.instantiate).toHaveBeenCalledWith('blob:test', undefined)
+  })
+
+  it('reports a missing bundled engine without falling back to a remote download', async () => {
+    vi.stubEnv('VITE_NATIVE_APP', 'true')
+    vi.stubGlobal('fetch', vi.fn(async () => ({ ok: false })))
+    const { runLocalSql } = await import('./localSql')
+    await expect(runLocalSql('SELECT 1', records)).rejects.toThrow('Bundled SQL engine is unavailable')
+    expect(mocks.instantiate).not.toHaveBeenCalled()
+  })
 
   it('reuses occurrences across queries and exports, and updates user data independently', async () => {
     const { runLocalSql, exportLocalSqlParquet } = await import('./localSql')

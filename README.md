@@ -2,9 +2,9 @@
 
 > 一个面向 Web、Android 与 iOS 的双语深时演化探索器。它把地质时间、古地理重建、化石记录、生命树、物种名录和逐条科学证据放进同一套可追溯界面。
 
-[在线打开综合看板](https://dajiaohuang.github.io/evo/#/home) · [更新记录](data/CHANGELOG.md) · [数据方法](docs/data-methods.md) · [移动端构建](docs/mobile-apps.md) · [参与维护](CONTRIBUTING.md) · [隐私说明](PRIVACY.md)
+[在线阅读静态图谱](https://dajiaohuang.github.io/evo/zh/) · [更新记录](data/CHANGELOG.md) · [数据方法](docs/data-methods.md) · [移动端构建](docs/mobile-apps.md) · [参与维护](CONTRIBUTING.md) · [隐私说明](PRIVACY.md)
 
-Evo Atlas 默认直接进入综合看板：地图、时间轴、生命树和化石样本共享一个时间上下文；首次使用时只需选择“直接进入”或“3 分钟教程”。综合看板不再陈列固定场景入口；用户拖动地质时间后，只有当前年代命中可展示范围、且范围与场景共享来源声明的资源包卡片才会在地图上浮现。
+GitHub Pages 提供无需 JavaScript 的中英文静态阅读版，包含实体、事件、故事、证据主张、方法和来源。完整交互功能保留在 Android/iOS 及可独立构建的 Web 客户端中：地图、时间轴、生命树和化石样本共享时间上下文。下文的交互功能说明适用于完整客户端。
 
 ## 当前状态
 
@@ -58,13 +58,14 @@ Current release versions, counts, and checksums are authoritative in [data/manif
 
 ## Web、Android 与 iOS
 
-三端共享 `src/` 中的 React/TypeScript 客户端和同一个数据协议。Web 按需读取发布数据；Android/iOS 在构建时从同一发布清单生成本地只读副本。
+Android/iOS 和交互式 Web 共享 `src/` 中的客户端与数据协议。GitHub Pages 从同一 canonical 内容生成独立静态文档；Android/iOS 从完整发布清单生成本地只读副本，科学源文件不因 Pages 缩减而删除。
 
 | 平台 | 工程 | 运行形态 | 当前边界 |
 | --- | --- | --- | --- |
-| Web / PWA | Vite + GitHub Pages | `/evo/` 下的静态应用、Service Worker 与按需数据缓存 | 可直接使用和安装 |
-| Android | `android/` + Capacitor 8 | API 24+ 原生壳、系统返回键、状态栏、启动资源、外链和 `evoatlas://` 深链 | 工程与应用级测试源已生成；尚未生成或发布 AAB，商店签名和发布凭据不入库 |
-| iOS / iPadOS | `ios/` + Capacitor 8 / Swift Package Manager | iOS 15+ WKWebView 原生壳、安全区、状态栏、启动资源、外链和 `evoatlas://` 深链 | 工程与应用级测试 target 已生成；尚未生成或发布 IPA/Archive，必须在 macOS + Xcode 完成验证与签名 |
+| GitHub Pages | `npm run pages:build` → `dist-pages/` | 中英文 HTML、CSS、少量图片和来源元数据，无客户端脚本 | 静态阅读；没有交互地图、研究工作区或 PWA 安装 |
+| Interactive Web / PWA | `npm run build` → `dist/` | 完整客户端、Service Worker 与按需数据缓存 | 可独立托管；GitHub Pages 不部署此产物 |
+| Android | `android/` + Capacitor 8 | API 24+，完整离线数据、离线 SQL、系统返回键和深链 | CI 生成可安装的调试 APK；商店 AAB 签名与发布另行配置 |
+| iOS / iPadOS | `ios/` + Capacitor 8 / Swift Package Manager | iOS 15+，完整离线数据、离线 SQL、安全区和深链 | macOS CI 执行模拟器应用测试并生成未签名设备 Archive；安装到真机需 Apple 签名 |
 
 移动端不是把线上网页作为远程首页打开的空壳：HTML、CSS、JavaScript、图标和当前不可变科学数据发布版都进入原生包。Android 与 iOS 使用和 Web 完全相同的路由、资源包注册表、化石分片、CAO2024 地图帧与 COL 名录；“数据”页直接报告内置文件数和体积，不会再把相同数据重复写入 WebView 缓存。详细工作流见 [`docs/mobile-apps.md`](docs/mobile-apps.md)。
 
@@ -79,6 +80,8 @@ npm run dev
 ```
 
 开发地址为 `http://localhost:5173/evo/`。
+
+静态站点独立运行 `npm run verify:pages`，检查链接、64 MiB 预算和禁用 JavaScript 的三浏览器阅读流程。Pages 部署只上传 `dist-pages/`。
 
 运行完整发布契约：
 
@@ -215,3 +218,5 @@ Evo Atlas 没有账号、广告、分析 SDK 或应用后端。笔记、收藏�
 ## English summary
 
 Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. It synchronizes geological time, CAO2024 geometry and typed observation layers, PaleoDEM surfaces, bounded fossil samples, a curated navigation tree and claim-level evidence without presenting model output as direct observation. The pinned COL26.8 registry routes every strictly accepted species to one resource owner; that is complete release-scoped nomenclature, not a claim that every species has a prose dossier, media, fossils, ecology or expert review. Android and iOS share the Capacitor client and the complete `native-full` inventory, while Web/Pages remains `web-light`. No account, analytics SDK, private API key, database or application server is required. Current versions, counts and checksums are recorded in [`data/manifest.json`](data/manifest.json), and all release notes are kept in [`data/CHANGELOG.md`](data/CHANGELOG.md).
+
+GitHub Pages is a separate script-free bilingual reading edition built into dist-pages/. It retains evidence documents and source metadata without shipping the interactive runtime or scientific shards. Android CI produces a debug APK; iOS CI runs hosted simulator tests and produces an unsigned device archive requiring Apple signing for installation. Canonical scientific data is preserved.

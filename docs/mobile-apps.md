@@ -1,6 +1,6 @@
 # Android 与 iOS 应用
 
-Evo Atlas 的 Web、Android 和 iOS 版本共享同一个 React/TypeScript 客户端。原生应用把 HTML、CSS、JavaScript、图标、启动资源和当前不可变科学数据发布版一并装入安装包，不把 Web 站点作为远程首页加载；Web 版仍从 GitHub Pages 读取同一份发布协议。
+Evo Atlas 的交互式 Web、Android 和 iOS 版本共享 React/TypeScript 客户端。GitHub Pages 单独发布缩减后的中英文静态阅读版，不加载客户端、科学运行时分片或 SQL 引擎。原生应用把 HTML、CSS、JavaScript、图标、启动资源、离线 SQL 引擎和当前不可变科学数据发布版装入安装包，不把线上站点作为远程首页加载。
 
 ## 工程结构
 
@@ -15,7 +15,7 @@ assets/logo.svg              # 原生图标和启动图源文件
 dist-mobile/                 # 临时生成的移动客户端壳，不提交
 ```
 
-移动构建关闭 Vite 的默认 `publicDir` 复制，先用 canonical `data/` 生成当前发布版，再由现有 `release-files.json` 选择全部交互文件并复制到 `dist-mobile/data/`。重复的 24 个资源包 ZIP 导出物不再复制，因为其科学内容已经作为交互文件内置。finalizer 会沿用发布清单的字节数与 SHA-256 逐项核对，拒绝缺失、串版或超过 850 MiB 的产物；这是一条构建契约，不是新的科学内容审查系统。
+移动构建关闭 Vite 的默认 `publicDir` 复制，先用 canonical `data/` 生成当前发布版，再由现有 `release-files.json` 选择全部交互文件并复制到 `dist-mobile/data/`。重复的 24 个资源包 ZIP 导出物不再复制，因为其科学内容已经作为交互文件内置。finalizer 沿用发布清单的字节数与 SHA-256 逐项核对，拒绝缺失、串版或超过 960 MiB 的产物；这是一条构建契约，不是新的科学内容审查系统。DuckDB MVP worker、Wasm 与固定版本 Parquet 扩展约占 41 MiB，来源和许可证见 `docs/licenses/`；原生查询与 Parquet 编码无需首次联网下载。
 
 应用 ID 是 `io.github.dajiaohuang.evoatlas`。Android 最低 API 为 24，iOS 最低版本为 15。原生工程使用 Capacitor 8；iOS 插件通过 Swift Package Manager 引入。
 
