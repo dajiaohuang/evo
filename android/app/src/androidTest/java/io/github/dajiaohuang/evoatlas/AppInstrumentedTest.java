@@ -860,12 +860,12 @@ public class AppInstrumentedTest {
                 assertEquals(1, bryonamesFiles.length());
                 for (int fileIndex = 0; fileIndex < bryonamesFiles.length(); fileIndex += 1) {
                     JSONObject file = bryonamesFiles.getJSONObject(fileIndex);
-                    JSONObject inventoryRecord = findInventoryRecord(files, file.getString("url"));
-                    assertNotNull("Bryonames shard missing from release inventory", inventoryRecord);
-                    assertEquals(file.getInt("bytes"), inventoryRecord.getInt("bytes"));
-                    assertEquals(file.getString("sha256"), inventoryRecord.getString("sha256"));
+                    JSONObject bryonamesInventoryRecord = findInventoryRecord(files, file.getString("url"));
+                    assertNotNull("Bryonames shard missing from release inventory", bryonamesInventoryRecord);
+                    assertEquals(file.getInt("bytes"), bryonamesInventoryRecord.getInt("bytes"));
+                    assertEquals(file.getString("sha256"), bryonamesInventoryRecord.getString("sha256"));
                     assertEquals(698, file.getInt("records"));
-                    verifyAssetRecord(context, inventoryRecord);
+                    verifyAssetRecord(context, bryonamesInventoryRecord);
                 }
             } else {
                 assertTrue("only Archaea, Bacteria, Fungi, Viruses and Other Plants may carry resource-pack extensions", !pack.has("extensions"));
