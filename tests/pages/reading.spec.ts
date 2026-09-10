@@ -28,6 +28,19 @@ test('edition boundaries and direct links stay readable on small screens', async
   await expect(page.getByText(/不在此静态阅读版运行/)).toBeVisible()
 })
 
+test('detail breadcrumbs return to their collection and retain the reading language', async ({ page }) => {
+  for (const language of ['', 'zh/']) {
+    for (const [collection, id] of [['stories', 'rise-and-fall-perissodactyls'], ['events', 'perissodactyl-radiation']]) {
+      await page.goto(`./${language}${collection}/${id}/`)
+      await expect(page.locator('.crumbs a').first()).toHaveAttribute('href', `/evo/${language}`)
+      await expect(page.locator('.crumbs a').nth(1)).toHaveAttribute('href', `/evo/${language}${collection}/`)
+      await page.locator('.crumbs a').nth(1).click()
+      await expect(page).toHaveURL(new RegExp(`/evo/${language}${collection}/$`))
+      await expect(page.getByRole('heading', { level: 1 })).toBeVisible()
+    }
+  }
+})
+
 test('missing pages return a real 404 with a working reading entry', async ({ page }) => {
   const response = await page.goto('./missing-static-page/')
   expect(response?.status()).toBe(404)
