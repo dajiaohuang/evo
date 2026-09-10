@@ -35,4 +35,4 @@ copyFileSync(join(rootDir, 'scripts/retire-pages-worker.js'), join(output, 'sw.j
 writeFileSync(join(output, '.nojekyll'), '')
 const release = JSON.parse(readFileSync(join(output, 'release.json'), 'utf8'))
 writeFileSync(join(output, 'release.json'), `${JSON.stringify({ ...release, edition: 'github-pages-static' }, null, 2)}\n`)
-console.log('Built the static Pages reading edition in dist-pages; no application runtime or scientific shards staged.')
+console.log('Built the Pages reading edition with lightweight SVG maps; no full application runtime or scientific shards staged.')

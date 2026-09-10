@@ -20,7 +20,7 @@ npx playwright install chromium firefox webkit
 npm run verify
 ```
 
-`verify:web` checks the interactive client and scientific data. `verify:pages` separately builds and tests the script-free GitHub Pages edition in three browsers. Native Android CI builds and verifies the debug APK and runs the native-data browser suite; Native iOS CI runs hosted application tests in an iOS simulator and produces an unsigned device archive. Passing browser checks alone does not certify native behavior. Generated registry projections must be produced by `npm run data:registry:build`; do not hand-edit files listed in `data/registry/generated-files.json`.
+`verify:web` checks the interactive client and scientific data. `verify:pages` separately builds and tests the GitHub Pages reading edition and its lightweight map controls in three browsers. Native Android CI builds and verifies the debug APK and runs the native-data browser suite; Native iOS CI runs hosted application tests in an iOS simulator and produces an unsigned device archive. Passing browser checks alone does not certify native behavior. Generated registry projections must be produced by `npm run data:registry:build`; do not hand-edit files listed in `data/registry/generated-files.json`.
 
 ## Scientific integrity
 

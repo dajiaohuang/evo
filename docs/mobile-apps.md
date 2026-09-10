@@ -1,6 +1,6 @@
 # Android 与 iOS 应用
 
-Evo Atlas 的交互式 Web、Android 和 iOS 版本共享 React/TypeScript 客户端。GitHub Pages 单独发布缩减后的中英文静态阅读版，不加载客户端、科学运行时分片或 SQL 引擎。原生应用把 HTML、CSS、JavaScript、图标、启动资源、离线 SQL 引擎和当前不可变科学数据发布版装入安装包，不把线上站点作为远程首页加载。
+Evo Atlas 的交互式 Web、Android 和 iOS 版本共享 React/TypeScript 客户端。GitHub Pages 单独发布缩减后的中英文静态阅读版，提供 13 个时点的轻量古地理地图、缩放和平移，不加载客户端、科学运行时分片或 SQL 引擎。原生应用把 HTML、CSS、JavaScript、图标、启动资源、离线 SQL 引擎和当前不可变科学数据发布版装入安装包，不把线上站点作为远程首页加载。
 
 ## 工程结构
 
