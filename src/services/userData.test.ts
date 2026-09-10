@@ -15,4 +15,16 @@ describe('local user dataset import', () => {
     expect(result.fields).toContain('coordinates')
     expect(result.matchedEntityIds).toContain('dinosauria')
   })
+
+  it('rejects extra CSV values instead of silently discarding user data', () => {
+    expect(() => parseUserDatasetText('taxon\nAlpha,extra', 'sample.csv')).toThrow('more values than column names')
+  })
+
+  it('reports real registry homonyms instead of silently choosing the last entity', () => {
+    const preview = parseUserDatasetText('taxon\nAnisian stem teleosteomorph', 'sample.csv')
+    expect(preview.matchedEntityIds).toEqual([])
+    expect(preview.issues).toContain('Ambiguous taxon name "Anisian stem teleosteomorph" matches 3 entities; supply an entityId to resolve it.')
+    const resolved = parseUserDatasetText('entityId,taxon\npseudopholidoctenus-germanicus,Anisian stem teleosteomorph', 'sample.csv')
+    expect(resolved.matchedEntityIds).toEqual(['pseudopholidoctenus-germanicus'])
+  })
 })

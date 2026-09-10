@@ -12,7 +12,10 @@ export function useCaoObservations(requestedDatasets: readonly CaoObservationDat
   const pending = useRef(new Set<CaoObservationDatasetId>())
   const mounted = useRef(true)
 
-  useEffect(() => () => { mounted.current = false }, [])
+  useEffect(() => {
+    mounted.current = true
+    return () => { mounted.current = false }
+  }, [])
 
   const requestedKey = useMemo(() => [...new Set(requestedDatasets)].sort().join('|'), [requestedDatasets])
   useEffect(() => {

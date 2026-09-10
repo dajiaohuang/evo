@@ -98,7 +98,11 @@ export function readNativeSyncProgress(): NativeSyncProgress {
 }
 
 function writeProgress(progress: NativeSyncProgress, onProgress?: (progress: NativeSyncProgress) => void): void {
-  if (typeof localStorage !== 'undefined') localStorage.setItem(STORAGE_KEY, JSON.stringify(progress))
+  try {
+    if (typeof localStorage !== 'undefined') localStorage.setItem(STORAGE_KEY, JSON.stringify(progress))
+  } catch {
+    // Storage quota/privacy failures must not interrupt the verified transfer.
+  }
   onProgress?.(progress)
 }
 
@@ -126,6 +130,7 @@ export async function streamNativeSyncManifest(options: StreamNativeSyncOptions 
   const decoder = new TextDecoder()
   let buffer = ''
   let header: NativeSyncManifestHeader | null = null
+  const seenPaths = new Set<string>()
   const consume = async (line: string) => {
     if (!line.trim()) return
     const record = parseNativeSyncLine(line)
@@ -135,20 +140,27 @@ export async function streamNativeSyncManifest(options: StreamNativeSyncOptions 
       progress = { ...progress, datasetVersion: record.datasetVersion, totalFiles: record.totalFiles, totalBytes: record.totalBytes }
     } else {
       if (!header || record.releaseVersion !== header.datasetVersion) throw new Error('Evo sync stream file precedes or mixes the manifest release')
+      if (seenPaths.has(record.path)) throw new Error('Evo sync stream contains a duplicate resource path')
+      seenPaths.add(record.path)
       progress = { ...progress, filesSeen: progress.filesSeen + 1, bytesSeen: progress.bytesSeen + record.bytes }
       await options.onFile?.(record)
     }
     writeProgress(progress, options.onProgress)
   }
-  while (true) {
-    const chunk = await reader.read()
-    buffer += decoder.decode(chunk.value, { stream: !chunk.done })
-    const lines = buffer.split('\n')
-    buffer = lines.pop() ?? ''
-    for (const line of lines) await consume(line)
-    if (chunk.done) break
+  try {
+    while (true) {
+      const chunk = await reader.read()
+      buffer += decoder.decode(chunk.value, { stream: !chunk.done })
+      const lines = buffer.split('\n')
+      buffer = lines.pop() ?? ''
+      for (const line of lines) await consume(line)
+      if (chunk.done) break
+    }
+    if (buffer.trim()) await consume(buffer)
+  } finally {
+    await reader.cancel().catch(() => undefined)
+    reader.releaseLock()
   }
-  if (buffer.trim()) await consume(buffer)
   const completedHeader = header as NativeSyncManifestHeader | null
   if (!completedHeader) throw new Error('Evo sync stream ended without a manifest header')
   if (progress.filesSeen !== completedHeader.totalFiles || progress.bytesSeen !== completedHeader.totalBytes) {

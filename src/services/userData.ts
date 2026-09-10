@@ -13,9 +13,15 @@ export interface UserDataPreview {
 }
 
 const registry = registryData as Array<{ id: string; names: { scientific: string; en: string; zh: string }; synonyms: string[] }>
-const entityByName = new Map(registry.flatMap((entity) => [entity.id, entity.names.scientific, entity.names.en, entity.names.zh, ...entity.synonyms]
-  .filter(Boolean)
-  .map((name) => [name.trim().toLocaleLowerCase(), entity.id] as const)))
+const entityIds = new Set(registry.map((entity) => entity.id))
+const entitiesByName = new Map<string, Set<string>>()
+for (const entity of registry) {
+  for (const name of [entity.id, entity.names.scientific, entity.names.en, entity.names.zh, ...entity.synonyms].filter(Boolean)) {
+    const key = name.trim().toLocaleLowerCase()
+    if (!entitiesByName.has(key)) entitiesByName.set(key, new Set())
+    entitiesByName.get(key)!.add(entity.id)
+  }
+}
 
 function parseCsv(text: string): Row[] {
   const rows: string[][] = []
@@ -44,7 +50,10 @@ function parseCsv(text: string): Row[] {
   if (!headers?.length) return []
   const normalizedHeaders = headers.map((header, index) => header.trim() || `column_${index + 1}`)
   if (new Set(normalizedHeaders).size !== normalizedHeaders.length) throw new Error('CSV column names must be unique.')
-  return body.map((values) => Object.fromEntries(normalizedHeaders.map((header, index) => [header, values[index] ?? ''])))
+  return body.map((values, rowIndex) => {
+    if (values.length > normalizedHeaders.length) throw new Error(`CSV row ${rowIndex + 2} has more values than column names.`)
+    return Object.fromEntries(normalizedHeaders.map((header, index) => [header, values[index] ?? '']))
+  })
 }
 
 function rowsFromJson(value: unknown): { format: UserDataPreview['format']; rows: Row[] } {
@@ -91,9 +100,17 @@ export function parseUserDatasetText(text: string, filename: string): UserDataPr
   for (const row of records) {
     const name = candidateName(row)
     if (!name) continue
-    const entityId = entityByName.get(name.toLocaleLowerCase())
-    if (entityId) matched.add(entityId)
-    else unmatched.add(name)
+    const explicitId = row.entityId ?? row.entity_id
+    if (typeof explicitId === 'string' && entityIds.has(explicitId.trim())) {
+      matched.add(explicitId.trim())
+      continue
+    }
+    const candidates = entitiesByName.get(name.toLocaleLowerCase())
+    if (candidates?.size === 1) matched.add([...candidates][0])
+    else {
+      if (candidates && !unmatched.has(name)) issues.push(`Ambiguous taxon name "${name}" matches ${candidates.size} entities; supply an entityId to resolve it.`)
+      unmatched.add(name)
+    }
   }
   if (!records.length) issues.push('No data records were found.')
   if (!fields.length) issues.push('No fields were found.')
@@ -109,5 +126,6 @@ export function parseUserDatasetText(text: string, filename: string): UserDataPr
 }
 
 export async function parseUserDataset(file: File): Promise<UserDataPreview> {
+  if (file.size > 20_000_000) throw new Error('Local imports are limited to 20 MB of text.')
   return parseUserDatasetText(await file.text(), file.name)
 }

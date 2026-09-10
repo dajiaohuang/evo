@@ -363,7 +363,7 @@ func (h *Handler) catalogueTreeStream(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	w.Header().Set("Content-Type", "application/x-ndjson; charset=utf-8")
-	w.Header().Set("Cache-Control", "public, max-age=31536000, immutable")
+	w.Header().Set("Cache-Control", "public, no-cache")
 	w.Header().Set("X-Content-Profile", "full")
 	w.Header().Set("X-Dataset-Version", s.Manifest.DatasetVersion)
 	w.WriteHeader(http.StatusOK)
@@ -683,7 +683,9 @@ func (h *Handler) resource(w http.ResponseWriter, r *http.Request) {
 	etag := `"` + file.SHA256 + `"`
 	w.Header().Set("ETag", etag)
 	w.Header().Set("Accept-Ranges", "bytes")
-	w.Header().Set("Cache-Control", "public, max-age=31536000, immutable")
+	// This URL selects the current snapshot, so it must revalidate after reload.
+	// The strong ETag still permits body-free validation of unchanged resources.
+	w.Header().Set("Cache-Control", "public, no-cache")
 	w.Header().Set("Content-Type", file.MediaType)
 	w.Header().Set("X-Content-Encoding", file.Encoding)
 	if r.Header.Get("If-None-Match") == etag {

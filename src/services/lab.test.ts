@@ -22,6 +22,19 @@ describe('lab query helpers', () => {
     expect(fossilsToGeoJson(records, 'modern').features).toHaveLength(2)
   })
 
+  it('exports missing coordinates as empty cells rather than zero', () => {
+    for (const lng of ['', ' ', 'NaN']) {
+      const cells = fossilsToCsv([{ ...records[0], lng, paleolat: 91 }]).split('\n')[1].split(',')
+      expect(cells.slice(7, 11)).toEqual(['', '', '', ''])
+    }
+    const cells = fossilsToCsv([{ ...records[0], lng: '0', lat: '0' }]).split('\n')[1].split(',')
+    expect(cells.slice(7, 9)).toEqual(['0', '0'])
+  })
+
+  it('rejects a fractional result limit', () => {
+    expect(() => validateLabQuery({ ...query, limit: 1.5 })).toThrow('RESULT_LIMIT_OUT_OF_RANGE')
+  })
+
   it('rejects a reversed age window', () => {
     try {
       validateLabQuery({ ...query, olderMa: 7, youngerMa: 11 })

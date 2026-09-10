@@ -52,7 +52,7 @@ export function DiversityView() {
           <div className="age-bin-chart" role="img" aria-label={t('Observed taxon names by age bin')}>
             {bins.map((bin) => (
               <div className="age-bin" key={`${bin.olderMa}-${bin.youngerMa}`}>
-                <div className="age-bin-bar" style={{ height: `${Math.max(2, bin.observedTaxa / maxBin * 100)}%` }} title={t('{names} observed names; {occurrences} occurrences', { names: number(bin.observedTaxa), occurrences: number(bin.occurrences) })} />
+                <div className="age-bin-bar" style={{ height: `${bin.observedTaxa ? Math.max(2, bin.observedTaxa / maxBin * 100) : 0}%` }} title={t('{names} observed names; {occurrences} occurrences', { names: number(bin.observedTaxa), occurrences: number(bin.occurrences) })} />
                 <small>{bin.olderMa.toFixed(0)}</small>
               </div>
             ))}
@@ -90,7 +90,7 @@ export function DiversityView() {
         <div><span>{t('Paleo coordinates')}</span><strong>{percentage(quality.paleoCoordinateCoverage)}</strong></div>
         <div><span>{t('Country metadata')}</span><strong>{percentage(quality.countryCoverage)}</strong></div>
         <div><span>{t('Age range ≤10 Ma')}</span><strong>{percentage(quality.narrowAgeCoverage)}</strong></div>
-        <div><span>{t('Median age range')}</span><strong>{quality.medianAgeUncertaintyMa.toFixed(1)} Ma</strong></div>
+        <div><span>{t('Median age range')}</span><strong>{quality.medianAgeUncertaintyMa === null ? t('Unavailable') : `${quality.medianAgeUncertaintyMa.toFixed(1)} Ma`}</strong></div>
       </section>
 
       <aside className="bias-callout">
