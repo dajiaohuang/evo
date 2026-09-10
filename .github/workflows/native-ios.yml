@@ -54,3 +54,21 @@ jobs:
           path: ios/AppTests.xcresult
           if-no-files-found: ignore
           retention-days: 7
+      - name: Archive the device application without signing
+        run: >-
+          xcodebuild archive
+          -project ios/App/App.xcodeproj
+          -scheme App
+          -configuration Release
+          -destination 'generic/platform=iOS'
+          -archivePath ios/EvoAtlas.xcarchive
+          CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO
+      - name: Package unsigned archive
+        run: ditto -c -k --sequesterRsrc --keepParent ios/EvoAtlas.xcarchive ios/EvoAtlas-unsigned.xcarchive.zip
+      - name: Upload unsigned device archive
+        uses: actions/upload-artifact@v7
+        with:
+          name: evo-ios-unsigned-archive
+          path: ios/EvoAtlas-unsigned.xcarchive.zip
+          compression-level: 0
+          retention-days: 7

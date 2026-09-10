@@ -20,7 +20,7 @@ npx playwright install chromium firefox webkit
 npm run verify
 ```
 
-`verify` is the full Web/native release contract. Current content maintenance CI runs `npm run verify:web`: the same data and Web checks, without building mobile resources or starting the native-data browser suite. Native work is paused, not certified by this Web gate; `npm run verify` retains those checks for a future full release. Generated registry projections must be produced by `npm run data:registry:build`; do not hand-edit files listed in `data/registry/generated-files.json`.
+`verify:web` checks the interactive client and scientific data. `verify:pages` separately builds and tests the script-free GitHub Pages edition in three browsers. Native Android CI builds and verifies the debug APK and runs the native-data browser suite; Native iOS CI runs hosted application tests in an iOS simulator and produces an unsigned device archive. Passing browser checks alone does not certify native behavior. Generated registry projections must be produced by `npm run data:registry:build`; do not hand-edit files listed in `data/registry/generated-files.json`.
 
 ## Scientific integrity
 

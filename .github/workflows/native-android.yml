@@ -1,0 +1,61 @@
+name: Native Android
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: native-android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  android-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Select installed JDK 21 and Android SDK
+        run: |
+          echo "JAVA_HOME=$JAVA_HOME_21_X64" >> "$GITHUB_ENV"
+          echo "$JAVA_HOME_21_X64/bin" >> "$GITHUB_PATH"
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-36" "build-tools;36.0.0"
+      - run: npm run mobile:sync
+      - name: Build application and instrumentation APKs
+        working-directory: android
+        run: bash gradlew --no-daemon :app:testDebugUnitTest :app:assembleDebug :app:assembleDebugAndroidTest
+      - name: Verify packaged scientific and SQL bytes
+        run: python3 scripts/verify-native-apk.py android/app/build/outputs/apk/debug/app-debug.apk
+      - name: Test native full-data behavior and offline SQL
+        run: |
+          npx playwright install --with-deps chromium
+          npm run test:e2e:native
+      - name: Upload debug APK and verification reports
+        if: success()
+        uses: actions/upload-artifact@v7
+        with:
+          name: evo-android-debug
+          path: |
+            android/app/build/outputs/apk/debug/app-debug.apk
+            android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
+            android/app/build/test-results/testDebugUnitTest
+          compression-level: 0
+          retention-days: 7
+      - name: Upload failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: android-test-failures
+          path: |
+            test-results
+            android/app/build/reports
+          if-no-files-found: ignore
+          retention-days: 7

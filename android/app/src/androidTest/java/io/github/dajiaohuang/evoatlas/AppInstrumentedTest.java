@@ -258,11 +258,11 @@ public class AppInstrumentedTest {
                 String[] expectedDescriptorShas = packageId.equals("crustaceans-insects")
                         ? new String[]{
                         "c168f706a7067fd6d95548777b6fe5cadf0c6b2b67b9442698d9350c521c2cdf",
-                        "9fb4271dce81e92f2df706da26c379053e649f21416d81ec1d8db6bb2031490b",
+                        "ca4818925357f905aad2e32ca7edd4c3304a5e0987d1b4ac2fed3691a23300c9",
                         "d2f836dc4b21afffb7fe1dbfcc9826556895a1fecff707ef514f69bc2053a296",
                         "bf90e217fa6871bb1e59807b721ed88403c47e9aa2712a782ef40146b906fdf2"}
                         : new String[]{"90383cc2bf44dc092b59c7ed131169317a0a613699aa6485c6f3e9b74decfa3c"};
-                assertEquals(expectedIds.length + (packageId.equals("crustaceans-insects") ? 3 : 2), collections.length());
+                assertEquals(expectedIds.length + (packageId.equals("crustaceans-insects") ? 4 : 2), collections.length());
                 for (int index = 0; index < expectedIds.length; index += 1) {
                     JSONObject collection = findCollection(collections, expectedIds[index]);
                     assertNotNull(packageId + " ITIS collection missing: " + expectedIds[index], collection);
@@ -757,7 +757,7 @@ public class AppInstrumentedTest {
                 };
                 int[] expectedFiles = new int[]{4, 1, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0};
                 int[] expectedRecords = new int[]{8665, 21, 1110, 276, 52, 90, 3399, 1337, 1616, 1536, 0, 0, 53, 0, 0, 0, 0, 0, 1416, 4, 0, 0, 0, 0, 0};
-                assertEquals(expectedIds.length + 6, extensions.length());
+                assertEquals(expectedIds.length + 7, extensions.length());
                 for (int extensionIndex = 0; extensionIndex < expectedIds.length; extensionIndex += 1) {
                     JSONObject itisAuthority = findCollection(extensions, expectedIds[extensionIndex]);
                     assertNotNull("ITIS protists/chromists authority missing", itisAuthority);
@@ -783,6 +783,23 @@ public class AppInstrumentedTest {
                     assertEquals(expectedRecords[extensionIndex], authorityRecords);
                     protistsItisRecords += authorityRecords;
                 }
+                JSONObject oomycota = findCollection(extensions, "species-fungorum-oomycota-identifiers");
+                assertNotNull("Oomycota Species Fungorum collection missing", oomycota);
+                assertEquals("Species Fungorum / Index Fungorum (Royal Botanic Gardens, Kew)", oomycota.getString("provider"));
+                JSONObject oomycotaDelivery = oomycota.getJSONObject("delivery");
+                assertEquals("native-full", oomycotaDelivery.getString("profile"));
+                assertTrue(oomycotaDelivery.getBoolean("completeRows"));
+                assertEquals(1, oomycotaDelivery.getInt("canonicalFileCount"));
+                assertEquals(1, oomycotaDelivery.getInt("publishedFileCount"));
+                JSONArray oomycotaFiles = oomycota.getJSONArray("files");
+                assertEquals(1, oomycotaFiles.length());
+                JSONObject oomycotaFile = oomycotaFiles.getJSONObject(0);
+                assertEquals(1673, oomycotaFile.getInt("records"));
+                JSONObject oomycotaInventory = findInventoryRecord(files, oomycotaFile.getString("url"));
+                assertNotNull("Oomycota Species Fungorum shard missing", oomycotaInventory);
+                assertEquals(oomycotaFile.getInt("bytes"), oomycotaInventory.getInt("bytes"));
+                assertEquals(oomycotaFile.getString("sha256"), oomycotaInventory.getString("sha256"));
+                verifyAssetRecord(context, oomycotaInventory);
             } else if (packageId.equals("viruses")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
                 assertEquals(1, extensions.length());

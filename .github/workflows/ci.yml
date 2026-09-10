@@ -24,6 +24,7 @@ jobs:
       - run: npm ci
       - run: npx playwright install --with-deps chromium firefox webkit
       - run: npm run verify:web
+      - run: npm run verify:pages
       - name: Upload Playwright failure artifacts
         if: failure()
         uses: actions/upload-artifact@v7

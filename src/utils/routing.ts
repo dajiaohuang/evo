@@ -37,3 +37,9 @@ export function getFiniteRouteNumber(params: URLSearchParams, key: string): numb
   const parsed = Number(raw)
   return Number.isFinite(parsed) ? parsed : null
 }
+
+export function explorationShareUrl(href: string, native: boolean): string {
+  if (!native) return href
+  const hash = new URL(href).hash
+  return `evoatlas://open/${hash.startsWith('#/') ? hash.slice(2) : 'home'}`
+}

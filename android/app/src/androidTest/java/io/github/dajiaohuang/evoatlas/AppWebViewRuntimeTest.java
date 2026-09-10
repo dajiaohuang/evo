@@ -60,7 +60,12 @@ public class AppWebViewRuntimeTest {
                             + "const current = await read('current.json'); const packageId = Object.keys(current.packages.manifests)[0];"
                             + "const packageManifest = await read(current.packages.manifests[packageId].url); const maps = await read(current.maps.manifest.url); const catalogue = await read(current.catalogue.manifest.url);"
                             + "const payload = Object.values(packageManifest.files).find(file => file.encoding === 'gzip'); const payloadBytes = payload ? await bytes(payload.url) : 0;"
-                            + "window.__nativeRuntimeSmoke = {ready: document.readyState, appRoot: !!document.querySelector('#root'), profile: current.deliveryProfile, datasetVersion: current.datasetVersion, packageId: packageManifest.packageId, packageFiles: Object.keys(packageManifest.files).length, payloadBytes: payloadBytes, observations: maps.observations.totalRecords, catalogueAlias: catalogue.releaseAlias};"
+                            + "const wait = async (read) => { const deadline = Date.now() + 45000; while (Date.now() < deadline) { const value = read(); if (value) return value; await new Promise(resolve => setTimeout(resolve, 100)); } throw new Error('SQL UI timed out: ' + (document.querySelector('.sql-error')?.textContent || 'missing element')); };"
+                            + "location.hash = '#/lab'; (await wait(() => document.querySelector('.run-query:not(:disabled)'))).click();"
+                            + "const workspace = await wait(() => document.querySelector('.local-sql-workspace')); workspace.open = true; const input = workspace.querySelector('textarea');"
+                            + "Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set.call(input, 'SELECT 42 AS offline_answer'); input.dispatchEvent(new Event('input', { bubbles: true })); await new Promise(resolve => setTimeout(resolve, 100)); workspace.querySelector('.sql-actions button').click();"
+                            + "const sqlAnswer = await wait(() => workspace.querySelector('tbody td')?.textContent === '42' ? '42' : null);"
+                            + "window.__nativeRuntimeSmoke = {ready: document.readyState, appRoot: !!document.querySelector('#root'), profile: current.deliveryProfile, datasetVersion: current.datasetVersion, packageId: packageManifest.packageId, packageFiles: Object.keys(packageManifest.files).length, payloadBytes: payloadBytes, observations: maps.observations.totalRecords, catalogueAlias: catalogue.releaseAlias, sqlAnswer: sqlAnswer};"
                             + "})().catch(error => { window.__nativeRuntimeSmoke = {error: String(error)}; });",
                                     ignored -> webView.post(resultPoll));
                                 else if (!cancelled.get()) webView.postDelayed(this, 200); });
@@ -68,7 +73,7 @@ public class AppWebViewRuntimeTest {
             };
             activePageReadyPoll.set(pageReadyPoll);
             webView.post(pageReadyPoll);
-            assertTrue("WebView data fetch timed out", completed.await(45, TimeUnit.SECONDS));
+            assertTrue("WebView data and SQL checks timed out", completed.await(120, TimeUnit.SECONDS));
             Object decoded = new JSONTokener(callback.get()).nextValue();
             assertTrue("WebView JavaScript result must be a JSON string", decoded instanceof String);
             JSONObject result = new JSONObject((String) decoded);
@@ -82,6 +87,7 @@ public class AppWebViewRuntimeTest {
             assertTrue("a bundled gzip payload must be fetchable", result.getInt("payloadBytes") > 0);
             assertTrue("map observations must be present", result.getInt("observations") > 0);
             assertTrue("catalogue release alias must be present", !result.getString("catalogueAlias").isEmpty());
+            assertEquals("Bundled SQL must execute in the real Android WebView", "42", result.getString("sqlAnswer"));
         } finally {
             InstrumentationRegistry.getInstrumentation().runOnMainSync(() -> {
                 cancelled.set(true);

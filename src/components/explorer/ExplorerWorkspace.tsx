@@ -9,7 +9,7 @@ import { getTaxonProfile } from '../../services/catalogProfiles'
 import { useCatalogContext } from '../../hooks/useCatalogContext'
 import { getEntityPublication } from '../../services/publication'
 import { periods, timeScaleUnits } from '../../services/geology'
-import { buildRouteHash, getFiniteRouteNumber, parseRouteHash } from '../../utils/routing'
+import { buildRouteHash, explorationShareUrl, getFiniteRouteNumber, parseRouteHash } from '../../utils/routing'
 import { MAX_MAP_ZOOM, MIN_MAP_ZOOM } from '../../constants'
 import { loadPackageForEntity } from '../../data-client/staticDataClient'
 import { useI18n } from '../../i18n'
@@ -108,6 +108,7 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
   const [mobilePanel, setMobilePanel] = useState<'navigator' | 'inspector' | null>(null)
   const [query, setQuery] = useState('')
   const [shareStatus, setShareStatus] = useState<'idle' | 'copied' | 'ready'>('idle')
+  const [shareUrl, setShareUrl] = useState('')
   const [guideMode, setGuideMode] = useState<GuideMode>(() => dashboard ? initialGuideMode() : 'hidden')
   const [guideStep, setGuideStep] = useState(0)
   const [detailsOpen, setDetailsOpen] = useState(!dashboard)
@@ -265,13 +266,15 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
   }
 
   const shareState = async () => {
+    const url = explorationShareUrl(window.location.href, import.meta.env.VITE_NATIVE_APP === 'true')
+    setShareUrl(url)
     try {
-      await navigator.clipboard.writeText(window.location.href)
+      await navigator.clipboard.writeText(url)
       setShareStatus('copied')
+      window.setTimeout(() => setShareStatus('idle'), 1600)
     } catch {
       setShareStatus('ready')
     }
-    window.setTimeout(() => setShareStatus('idle'), 1600)
   }
 
   const dismissGuide = () => {
@@ -404,6 +407,7 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
         <button className="share-button" onClick={shareState}>
           <span>↗</span> {t(shareStatus === 'copied' ? 'Link copied' : shareStatus === 'ready' ? 'URL is ready' : 'Share state')}
         </button>
+        {shareStatus === 'ready' && <input className="share-url" aria-label={language === 'zh' ? '复制分享链接' : 'Copy share link'} value={shareUrl} readOnly onFocus={event => event.currentTarget.select()} />}
         <div className="dataset-status" role="status">
           <span>{t('Dataset')}</span>
           <strong>{manifest.datasetVersion}</strong>

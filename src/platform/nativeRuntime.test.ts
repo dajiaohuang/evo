@@ -16,4 +16,14 @@ describe('native deep-link routing', () => {
     expect(routeHashFromAppUrl('https://example.org/evo/#/home')).toBeNull()
     expect(routeHashFromAppUrl('not a url')).toBeNull()
   })
+
+  it('opens static evidence in its matching native route and leaves other documents external', () => {
+    expect(routeHashFromAppUrl('https://dajiaohuang.github.io/evo/zh/taxa/perissodactyla/'))
+      .toBe('#/taxa?id=perissodactyla')
+    expect(routeHashFromAppUrl('https://dajiaohuang.github.io/evo/stories/rise-and-fall-perissodactyls/'))
+      .toBe('#/stories?id=rise-and-fall-perissodactyls')
+    expect(routeHashFromAppUrl('https://dajiaohuang.github.io/evo/methods/')).toBe('#/methods')
+    expect(routeHashFromAppUrl('https://dajiaohuang.github.io/evo/zh/apps/')).toBeNull()
+    expect(routeHashFromAppUrl('https://dajiaohuang.github.io/evo/references/pbdb/')).toBeNull()
+  })
 })

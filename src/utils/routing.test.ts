@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { buildRouteHash, getFiniteRouteNumber, parseRouteHash } from './routing'
+import { buildRouteHash, explorationShareUrl, getFiniteRouteNumber, parseRouteHash } from './routing'
 
 describe('route hash helpers', () => {
   it('defaults unknown and empty routes to home', () => {
@@ -26,6 +26,15 @@ describe('route hash helpers', () => {
   it('builds a stable shareable hash', () => {
     expect(buildRouteHash('explore', { age: 66, view: 'tree', taxon: null }))
       .toBe('#/explore?age=66&view=tree')
+  })
+
+  it('shares native state through the registered application scheme, never localhost', () => {
+    expect(explorationShareUrl('capacitor://localhost/#/explore?age=66&view=tree', true))
+      .toBe('evoatlas://open/explore?age=66&view=tree')
+    expect(explorationShareUrl('https://localhost/#/explore?age=66', true))
+      .toBe('evoatlas://open/explore?age=66')
+    expect(explorationShareUrl('https://example.org/evo/#/explore?age=66', false))
+      .toBe('https://example.org/evo/#/explore?age=66')
   })
 
   it('does not turn a missing or blank numeric parameter into zero', () => {

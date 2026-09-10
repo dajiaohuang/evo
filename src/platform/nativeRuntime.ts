@@ -28,7 +28,17 @@ export function routeHashFromAppUrl(rawUrl: string): string | null {
   }
 
   if (url.origin === WEB_APP_ORIGIN && url.pathname.startsWith(WEB_APP_PATH)) {
-    return normalizeHash(url.hash) ?? '#/home'
+    const hash = normalizeHash(url.hash)
+    if (hash) return hash
+    const path = url.pathname.slice(WEB_APP_PATH.length).replace(/^zh\//, '').replace(/\/+$/, '')
+    if (!path || path === 'index.html') return '#/home'
+    const match = /^(taxa|events|stories)\/([^/]+)$/.exec(path)
+    if (match) return `#/${match[1]}?id=${match[2]}`
+    if (path === 'taxa' || path === 'events') return '#/catalog'
+    if (path === 'stories' || path === 'methods') return `#/${path}`
+    // Other static documents have no equivalent native route. Open them as
+    // documents instead of silently replacing the user's destination with home.
+    return null
   }
 
   return null
