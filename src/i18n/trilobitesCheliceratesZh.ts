@@ -156,6 +156,21 @@ export const trilobitesCheliceratesZh: Record<string, string> = {
   "Large predatory ecology is inferred from massive chelicerae and body-plan comparisons; prey, behaviour and locomotor performance are not directly preserved.": "大型捕食生态来自巨型螯肢和体制比较的推断；猎物、行为和运动性能均未被直接保存。",
   "KUMIP 314091a,b directly preserves massive three-segmented chelicerae, five pseudobiramous post-cheliceral prosomal limb pairs and plate-like lamellae-bearing opisthosomal appendages.": "KUMIP 314091a,b 直接保存巨大的三节螯肢、五对拟双肢型螯肢后前体附肢及带板状片层的后体附肢。",
   "Bayesian and parsimony analyses recover Megachelicerax on the chelicerate stem between sampled Cambrian habeliids and post-Cambrian synziphosurines; this topology is not a direct ancestor–descendant sequence.": "贝叶斯与简约法分析将 Megachelicerax 恢复在取样的寒武纪 habeliid 与后寒武纪 synziphosurine 之间的螯肢动物干群上；该拓扑并非直接祖先—后代序列。",
+  "Carboniferous and younger spider fossil localities reviewed by Selden and Penney": "塞尔登与彭尼综述的石炭纪及更年轻蜘蛛化石地点",
+  "Broad living-spider target-gene sampling in Wheeler et al.": "Wheeler 等对现生蜘蛛开展的广泛目标基因取样",
+  "Araneae is represented by a fossil-origin review, a Carboniferous arachnid comparison and an extensive living-spider target-gene phylogeny; the combined record remains sampled and revisable.": "Araneae 由蜘蛛起源综述、石炭纪蛛形类比较和广泛的现生蜘蛛目标基因系统发育研究共同代表；合并记录仍受取样限制并可修订。",
+  "Not assigned by the cited phylogenetic and fossil-origin studies": "所引系统发育与蜘蛛起源化石研究未作赋值",
+  "Fossil localities and living samples provide context, not a complete habitat map": "化石地点和现生样本提供背景，但不是完整的栖息地分布图",
+  "Spinnerets and appendages are discussed, but locomotor performance is not measured": "研究讨论了纺器与附肢，但未测量运动性能",
+  "Not assigned as a complete comparative body-size dataset": "未作为完整的比较体型数据集赋值",
+  "No order-wide ecological guild is assigned from the cited evidence": "所引证据未为整个目级类群指定生态营养类群",
+  "Abdominal spinnerets controlling silk deployment": "控制丝线释放的腹部纺器",
+  "Carboniferous Idmonarachne comparison lacking true-spider spinnerets": "缺少真正蜘蛛纺器的石炭纪 Idmonarachne 比较",
+  "Extensive target-gene sampling of living spiders": "对现生蜘蛛的广泛目标基因取样",
+  "Wheeler et al. provide a sampled living-spider topology while Garwood et al. and the fossil review bound early spider evidence; ecological fields remain intentionally unassigned.": "Wheeler 等提供取样的现生蜘蛛拓扑，Garwood 等与化石综述则限定早期蜘蛛证据；生态字段仍有意不作赋值。",
+  "Wheeler et al. use extensive target-gene sampling to revise relationships among living spiders, while Garwood et al. distinguish the Carboniferous Idmonarachne from true spiders by its preserved appendages; the combined classification remains a sampled and revisable hypothesis.": "Wheeler 等利用广泛目标基因取样修订现生蜘蛛关系，Garwood 等则依据保存的附肢将石炭纪 Idmonarachne 与真正蜘蛛区分开；合并分类仍是基于取样且可修订的假说。",
+  "The spider fossil review records Carboniferous and younger occurrences, and Wheeler et al. sample living lineages broadly for target-gene phylogeny; these fossil localities and sampled species do not form a complete geographic distribution of Araneae.": "蜘蛛化石综述记录了石炭纪及更年轻的出现记录，Wheeler 等也广泛取样现生谱系进行目标基因系统发育；这些化石地点和取样物种并不构成 Araneae 的完整地理分布。",
+  "The cited spider phylogeny and fossil-origin studies test relationships and preserved anatomy rather than diet, habitat use, locomotor performance, body size or ecological guild; those fields remain unassigned for Araneae here.": "所引蜘蛛系统发育与起源化石研究检验的是关系和保存解剖，而非食性、栖息地利用、运动性能、体型或生态营养类群；这些字段在此对 Araneae 保留未赋值。",
 }
 
 export default trilobitesCheliceratesZh

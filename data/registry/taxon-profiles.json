@@ -1245,6 +1245,46 @@
     "rangeProvisional": true
   },
   {
+    "id": "araneae",
+    "treeNodeId": "araneae",
+    "pbdbTaxonId": "txn:57473",
+    "scientificName": "Araneae",
+    "commonName": "Spiders",
+    "commonNameZh": "蜘蛛目",
+    "rank": "order",
+    "parentName": "Arachnida",
+    "extinct": false,
+    "geography": [
+      "Carboniferous and younger spider fossil localities reviewed by Selden and Penney",
+      "Broad living-spider target-gene sampling in Wheeler et al."
+    ],
+    "overview": "Araneae is represented by a fossil-origin review, a Carboniferous arachnid comparison and an extensive living-spider target-gene phylogeny; the combined record remains sampled and revisable.",
+    "ecology": {
+      "diet": "Not assigned by the cited phylogenetic and fossil-origin studies",
+      "habitat": "Fossil localities and living samples provide context, not a complete habitat map",
+      "locomotion": "Spinnerets and appendages are discussed, but locomotor performance is not measured",
+      "bodySize": "Not assigned as a complete comparative body-size dataset",
+      "guild": "No order-wide ecological guild is assigned from the cited evidence"
+    },
+    "traits": [
+      "Abdominal spinnerets controlling silk deployment",
+      "Carboniferous Idmonarachne comparison lacking true-spider spinnerets",
+      "Extensive target-gene sampling of living spiders"
+    ],
+    "evidenceSummary": "Wheeler et al. provide a sampled living-spider topology while Garwood et al. and the fossil review bound early spider evidence; ecological fields remain intentionally unassigned.",
+    "confidence": "medium",
+    "referenceIds": [
+      "wheeler-2017-spider-tree",
+      "garwood-2016-idmonarachne",
+      "selden-penney-2010-spider-fossil-record"
+    ],
+    "firstAppearance": 315,
+    "lastAppearance": 0,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
     "id": "tokummia",
     "treeNodeId": "tokummia",
     "pbdbTaxonId": "txn:473103",
@@ -2808,6 +2848,45 @@
     ],
     "firstAppearance": 223.036,
     "lastAppearance": 218.043,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "caudata",
+    "treeNodeId": "caudata",
+    "pbdbTaxonId": null,
+    "scientificName": "Caudata",
+    "commonName": "Salamanders",
+    "commonNameZh": "蝾螈",
+    "rank": "order",
+    "parentName": "Lissamphibia",
+    "extinct": false,
+    "geography": [
+      "Tiaojishan Formation, western Liaoning, China (Beiyanerpeton sample)",
+      "Living salamander lineages sampled by Shen et al."
+    ],
+    "overview": "Caudata is represented by a 102-nuclear-marker phylogeny and the articulated Beiyanerpeton sample; these complementary data sets remain bounded and do not form a complete salamander history.",
+    "ecology": {
+      "diet": "Not assigned by the cited marker and fossil studies",
+      "habitat": "The Tiaojishan depositional setting and living samples provide context, not a complete habitat distribution",
+      "locomotion": "Skeletal anatomy is described, but locomotor performance is not measured",
+      "bodySize": "Not assigned as a complete comparative body-size dataset",
+      "guild": "No order-wide ecological guild is assigned from the cited evidence"
+    },
+    "traits": [
+      "102 nuclear markers used in a sampled salamander topology",
+      "Articulated cranial and postcranial Beiyanerpeton skeletons",
+      "Bony gill structures near the cheek region"
+    ],
+    "evidenceSummary": "Shen et al. test higher-level salamander relationships with nuclear markers, while Gao et al. provide a Jurassic salamandroid sample; taxonomy, ecology and range remain study-limited.",
+    "confidence": "medium",
+    "referenceIds": [
+      "shen-2013-caudata-markers",
+      "gao-2012-beiyanerpeton"
+    ],
+    "firstAppearance": 160,
+    "lastAppearance": 154,
     "rangeEvidenceLevel": "literature-synthesized",
     "rangeReviewStatus": "automated-audit-passed",
     "rangeProvisional": true

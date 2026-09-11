@@ -28420,5 +28420,173 @@
         "quoteLocator": "Review of competing fossil and molecular interpretations in Hymenoptera systematics"
       }
     ]
+  },
+  {
+    "id": "claim:taxon:araneae:taxonomy",
+    "subjectId": "taxon:araneae",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Wheeler et al. use extensive target-gene sampling to revise relationships among living spiders, while Garwood et al. distinguish the Carboniferous Idmonarachne from true spiders by its preserved appendages; the combined classification remains a sampled and revisable hypothesis.",
+    "confidence": "medium",
+    "confidenceRationale": "The primary phylogeny and fossil study directly report sampled characters and their interpretations, but taxon sampling and preservation limit a final order-wide classification.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-11",
+    "reviewedAgainstReferenceVersion": "Wheeler et al. 2017 DOI 10.1111/cla.12182; Garwood et al. 2016 DOI 10.1098/rspb.2016.0125; concrete locators audited 2026-09-11",
+    "referenceLinks": [
+      {
+        "referenceId": "wheeler-2017-spider-tree",
+        "relation": "supports",
+        "pages": "574–616",
+        "figure": "Figures 1–5; appendices and matrices",
+        "quoteLocator": "Taxon sampling, classification and topology"
+      },
+      {
+        "referenceId": "garwood-2016-idmonarachne",
+        "relation": "supports",
+        "pages": "20160125",
+        "figure": "Main-text figures",
+        "quoteLocator": "Preserved appendages and exclusion of Idmonarachne from true Araneae"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:araneae:biogeography",
+    "subjectId": "taxon:araneae",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The spider fossil review records Carboniferous and younger occurrences, and Wheeler et al. sample living lineages broadly for target-gene phylogeny; these fossil localities and sampled species do not form a complete geographic distribution of Araneae.",
+    "confidence": "medium",
+    "confidenceRationale": "Both studies identify their included fossil records or living taxa, but neither is a global presence–absence survey of spiders.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-11",
+    "reviewedAgainstReferenceVersion": "Selden and Penney 2010; Wheeler et al. 2017 DOI 10.1111/cla.12182; concrete locators audited 2026-09-11",
+    "referenceLinks": [
+      {
+        "referenceId": "selden-penney-2010-spider-fossil-record",
+        "relation": "supports",
+        "pages": "171–206",
+        "figure": "Table S1",
+        "quoteLocator": "Fossil spider localities and temporal occurrence review"
+      },
+      {
+        "referenceId": "wheeler-2017-spider-tree",
+        "relation": "supports",
+        "pages": "574–616",
+        "figure": "Figures 1–5; appendices and matrices",
+        "quoteLocator": "Extensive living-spider taxon sampling"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:araneae:ecology",
+    "subjectId": "taxon:araneae",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The cited spider phylogeny and fossil-origin studies test relationships and preserved anatomy rather than diet, habitat use, locomotor performance, body size or ecological guild; those fields remain unassigned for Araneae here.",
+    "confidence": "high",
+    "confidenceRationale": "The source designs are explicitly phylogenetic and anatomical, so withholding ecological fields avoids converting sampled relationships or fossil preservation into observed behaviour.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-11",
+    "reviewedAgainstReferenceVersion": "Wheeler et al. 2017 DOI 10.1111/cla.12182; Garwood et al. 2016 DOI 10.1098/rspb.2016.0125; concrete locators audited 2026-09-11",
+    "referenceLinks": [
+      {
+        "referenceId": "wheeler-2017-spider-tree",
+        "relation": "supports",
+        "pages": "574–616",
+        "figure": "Figures 1–5; appendices and matrices",
+        "quoteLocator": "Phylogenetic sampling and study scope"
+      },
+      {
+        "referenceId": "garwood-2016-idmonarachne",
+        "relation": "supports",
+        "pages": "20160125",
+        "figure": "Main-text figures",
+        "quoteLocator": "Preserved anatomy and spider-origin comparison, without direct behaviour observations"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:caudata:taxonomy",
+    "subjectId": "taxon:caudata",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Shen et al. test higher-level salamander relationships with 102 nuclear markers, while Gao et al. describe Beiyanerpeton as a salamandroid sample; the resulting Caudata classification is sampled evidence rather than a final tree or direct-ancestor sequence.",
+    "confidence": "medium",
+    "confidenceRationale": "The marker toolkit, sampled taxa and fossil diagnosis are directly reported, but the classification remains sensitive to matrix sampling and does not establish ancestor–descendant relationships.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-11",
+    "reviewedAgainstReferenceVersion": "Shen et al. 2013 DOI 10.1093/molbev/mst122; Gao and Shubin 2012 DOI 10.1073/pnas.1009828109; concrete locators audited 2026-09-11",
+    "referenceLinks": [
+      {
+        "referenceId": "shen-2013-caudata-markers",
+        "relation": "supports",
+        "pages": "2235–2248",
+        "figure": "Figures 1–5; supplementary markers",
+        "quoteLocator": "Marker development, taxon sampling and inferred Caudata topology"
+      },
+      {
+        "referenceId": "gao-2012-beiyanerpeton",
+        "relation": "supports",
+        "pages": "5767–5772",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Beiyanerpeton diagnosis and salamandroid assignment"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:caudata:biogeography",
+    "subjectId": "taxon:caudata",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "Gao et al. report Beiyanerpeton from the Tiaojishan Formation of western Liaoning, China, while Shen et al. sample living salamander lineages for markers; these records provide study localities and taxa, not a complete geographic distribution of Caudata.",
+    "confidence": "medium",
+    "confidenceRationale": "The fossil locality and molecular sampling are explicit in the primary sources, but neither source surveys presence and absence across all salamanders.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-11",
+    "reviewedAgainstReferenceVersion": "Gao and Shubin 2012 DOI 10.1073/pnas.1009828109; Shen et al. 2013 DOI 10.1093/molbev/mst122; concrete locators audited 2026-09-11",
+    "referenceLinks": [
+      {
+        "referenceId": "gao-2012-beiyanerpeton",
+        "relation": "supports",
+        "pages": "5767–5772",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Geological setting and western Liaoning locality"
+      },
+      {
+        "referenceId": "shen-2013-caudata-markers",
+        "relation": "supports",
+        "pages": "2235–2248",
+        "figure": "Figures 1–5; supplementary taxa",
+        "quoteLocator": "Living salamander taxon sampling"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:caudata:ecology",
+    "subjectId": "taxon:caudata",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The cited salamander marker study and Beiyanerpeton fossil description address relationships, anatomy and geological context rather than diet, habitat use, locomotion, body size or ecological guild; those fields remain unassigned for Caudata here.",
+    "confidence": "high",
+    "confidenceRationale": "The primary sources state phylogenetic, anatomical and geological aims without an ecological behaviour dataset, so withholding these fields preserves the evidence boundary.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-11",
+    "reviewedAgainstReferenceVersion": "Shen et al. 2013 DOI 10.1093/molbev/mst122; Gao and Shubin 2012 DOI 10.1073/pnas.1009828109; concrete locators audited 2026-09-11",
+    "referenceLinks": [
+      {
+        "referenceId": "shen-2013-caudata-markers",
+        "relation": "supports",
+        "pages": "2235–2248",
+        "figure": "Figures 1–5; supplementary markers",
+        "quoteLocator": "Phylogenomic methods and stated study scope"
+      },
+      {
+        "referenceId": "gao-2012-beiyanerpeton",
+        "relation": "supports",
+        "pages": "5767–5772",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Specimen anatomy and geological setting, without direct behaviour observations"
+      }
+    ]
   }
 ]
