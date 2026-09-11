@@ -28246,5 +28246,179 @@
         "quoteLocator": "Calcaneal and talar anatomy; character mosaic; absence of dental association"
       }
     ]
+  },
+  {
+    "id": "claim:taxon:coleoptera:biogeography",
+    "subjectId": "taxon:coleoptera",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "Zhao et al. compare Permian and Triassic beetle elytra from a bounded fossil sample, while McKenna et al. sample 373 living beetles spanning about 67% of families; these records do not constitute a complete geographic distribution for Coleoptera.",
+    "confidence": "medium",
+    "confidenceRationale": "The two studies report their fossil localities and taxon sampling directly, but neither study surveys geographic presence and absence across the order.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-11",
+    "reviewedAgainstReferenceVersion": "Zhao et al. 2021 DOI 10.7554/eLife.72692; McKenna et al. 2019 DOI 10.1073/pnas.1909655116; concrete locators audited 2026-09-11",
+    "referenceLinks": [
+      {
+        "referenceId": "zhao-2021-beetle-evolution",
+        "relation": "supports",
+        "pages": "10:e72692",
+        "figure": "Figure 1 and source data",
+        "quoteLocator": "Fossil taxon sampling, localities and Permian–Triassic elytra dataset"
+      },
+      {
+        "referenceId": "mckenna-2019-beetle-diversity",
+        "relation": "supports",
+        "figure": "Figures 1–2; supplementary taxon sampling",
+        "quoteLocator": "373 sampled beetle species representing approximately 67% of families"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:coleoptera:ecology",
+    "subjectId": "taxon:coleoptera",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "Zhao et al. link Permian–Triassic beetle disparity changes to vegetation turnover after end-Permian deforestation and discuss plant associations in the sampled lineages; this is a historical ecological interpretation, not direct behaviour or a uniform ecology for living beetles.",
+    "confidence": "medium",
+    "confidenceRationale": "The study explicitly tests vegetation and beetle-disparity associations, while the ecological mechanism is reconstructed from fossils and sampled comparisons rather than observed behaviour.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-11",
+    "reviewedAgainstReferenceVersion": "Zhao et al. 2021 DOI 10.7554/eLife.72692; concrete locators audited 2026-09-11",
+    "referenceLinks": [
+      {
+        "referenceId": "zhao-2021-beetle-evolution",
+        "relation": "supports",
+        "pages": "10:e72692",
+        "figure": "Figures 2–4",
+        "quoteLocator": "Discussion of end-Permian deforestation, vegetation turnover, disparity and plant associations"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:hymenoptera:biogeography",
+    "subjectId": "taxon:hymenoptera",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "Peters et al. sample transcriptomes across major hymenopteran lineages and Zhang et al. compile named fossil occurrences including Triassic xyelids; the combined evidence is a study-bounded sample, not a complete geographic map of Hymenoptera.",
+    "confidence": "medium",
+    "confidenceRationale": "The primary phylogenomic sampling and systematic fossil review state their included lineages and records, but neither source is a global presence–absence census.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-11",
+    "reviewedAgainstReferenceVersion": "Peters et al. 2017 DOI 10.1016/j.cub.2017.01.027; Zhang et al. 2025 DOI 10.1111/syen.12645; concrete locators audited 2026-09-11",
+    "referenceLinks": [
+      {
+        "referenceId": "peters-2017-hymenoptera-history",
+        "relation": "supports",
+        "pages": "1013–1018",
+        "figure": "Figures 1–3; supplemental phylogenies",
+        "quoteLocator": "Transcriptomic taxon sampling across major hymenopteran lineages"
+      },
+      {
+        "referenceId": "zhang-2025-hymenoptera-divergence-dating",
+        "relation": "supports",
+        "pages": "1–31",
+        "figure": "Figure 2; Tables S2–S3",
+        "quoteLocator": "Fossil calibrations and named hymenopteran occurrences"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:hymenoptera:ecology",
+    "subjectId": "taxon:hymenoptera",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The sampled Hymenoptera include parasitoid, predatory and pollinating life-history contexts discussed by Peters et al.; those guild examples document ecological diversity in the sample and are not traits assigned to every hymenopteran.",
+    "confidence": "medium",
+    "confidenceRationale": "The study discusses ecological roles in relation to sampled lineages, but the transcriptomic design does not measure behaviour, habitat use or the full order-wide guild distribution.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-11",
+    "reviewedAgainstReferenceVersion": "Peters et al. 2017 DOI 10.1016/j.cub.2017.01.027; concrete locators audited 2026-09-11",
+    "referenceLinks": [
+      {
+        "referenceId": "peters-2017-hymenoptera-history",
+        "relation": "supports",
+        "pages": "1013–1018",
+        "figure": "Figure 1 and supplementary taxon table",
+        "quoteLocator": "Introduction and taxon sampling: parasitoid, predator and pollinator lineages"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:hymenoptera:morphology",
+    "subjectId": "taxon:hymenoptera",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Zhang et al. identify the oldest undisputed xyelid fossils using preserved hymenopteran body and wing characters; that Triassic fossil morphology is a bounded example and does not define one body plan shared by all Hymenoptera.",
+    "confidence": "medium",
+    "confidenceRationale": "The systematic review records the fossil evidence and its diagnostic context, while the sample is too narrow to support an order-wide anatomical generalization.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-11",
+    "reviewedAgainstReferenceVersion": "Zhang et al. 2025 DOI 10.1111/syen.12645; concrete locators audited 2026-09-11",
+    "referenceLinks": [
+      {
+        "referenceId": "zhang-2025-hymenoptera-divergence-dating",
+        "relation": "supports",
+        "pages": "1–31",
+        "figure": "Figure 2; Tables S2–S3",
+        "quoteLocator": "Brief History of Divergence Dating: oldest undisputed xyelid fossil morphology and 242–237 Ma record"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:coleoptera:taxonomy",
+    "subjectId": "taxon:coleoptera",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "McKenna et al. use a 373-taxon genomic sample to test beetle relationships and diversification, while Zhao et al. add a fossil elytral sample; the resulting classification is a sampled hypothesis rather than a complete or final Coleoptera taxonomy.",
+    "confidence": "medium",
+    "confidenceRationale": "Both primary studies report explicit taxon and character sampling, but unsampled families, missing data and alternative analyses limit order-wide taxonomic resolution.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-11",
+    "reviewedAgainstReferenceVersion": "McKenna et al. 2019 DOI 10.1073/pnas.1909655116; Zhao et al. 2021 DOI 10.7554/eLife.72692; concrete locators audited 2026-09-11",
+    "referenceLinks": [
+      {
+        "referenceId": "mckenna-2019-beetle-diversity",
+        "relation": "supports",
+        "pages": "24729–24737",
+        "figure": "Figures 1–4; supplementary phylogenies",
+        "quoteLocator": "Beetle taxon sampling, genomic phylogeny and diversification analysis"
+      },
+      {
+        "referenceId": "zhao-2021-beetle-evolution",
+        "relation": "supports",
+        "pages": "10:e72692",
+        "figure": "Figure 2 and source data",
+        "quoteLocator": "Fossil beetle sampling and elytral disparity dataset"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:hymenoptera:taxonomy",
+    "subjectId": "taxon:hymenoptera",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Peters et al. infer relationships among sampled hymenopteran lineages from transcriptomes and fossil calibrations, while Zhang et al. review competing fossil and molecular interpretations; the atlas retains this as a sampled, revisable classification rather than a single definitive tree.",
+    "confidence": "medium",
+    "confidenceRationale": "The phylogenomic matrix and systematic review directly support the bounded classification statement, but backbone relationships and calibration choices remain sensitive to sampling and model assumptions.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-11",
+    "reviewedAgainstReferenceVersion": "Peters et al. 2017 DOI 10.1016/j.cub.2017.01.027; Zhang et al. 2025 DOI 10.1111/syen.12645; concrete locators audited 2026-09-11",
+    "referenceLinks": [
+      {
+        "referenceId": "peters-2017-hymenoptera-history",
+        "relation": "supports",
+        "pages": "1013–1018",
+        "figure": "Figures 1–3; supplemental phylogenies",
+        "quoteLocator": "Transcriptomic matrix, inferred topology and fossil-calibrated relationships"
+      },
+      {
+        "referenceId": "zhang-2025-hymenoptera-divergence-dating",
+        "relation": "supports",
+        "pages": "1–31",
+        "figure": "Figure 2; Tables S2–S3",
+        "quoteLocator": "Review of competing fossil and molecular interpretations in Hymenoptera systematics"
+      }
+    ]
   }
 ]

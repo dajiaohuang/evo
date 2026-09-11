@@ -1514,6 +1514,84 @@
     "rangeProvisional": true
   },
   {
+    "id": "coleoptera",
+    "treeNodeId": "coleoptera",
+    "pbdbTaxonId": "txn:69148",
+    "scientificName": "Coleoptera",
+    "commonName": "Beetles",
+    "commonNameZh": "甲虫",
+    "rank": "order",
+    "parentName": "Insecta",
+    "extinct": false,
+    "geography": [
+      "Permian–Triassic beetle fossil localities sampled by Zhao et al.",
+      "McKenna et al. phylogenomic sample: 373 beetle species spanning approximately 67% of families"
+    ],
+    "overview": "Coleoptera combines a fossil disparity record built from elytra with a broad but sampled genomic analysis of living beetles; neither source is a complete order history.",
+    "ecology": {
+      "diet": "Plant associations and herbivory are discussed for sampled lineages; order-wide diet is not assigned",
+      "habitat": "Permian–Triassic vegetation settings and living samples provide context, not a complete habitat map",
+      "locomotion": "Elytra protect the hindwings; flight performance is not measured by the cited disparity and genomic studies",
+      "bodySize": "Not assigned as a complete comparative body-size dataset",
+      "guild": "Vegetation-associated ecological shifts are inferred in the fossil sample; no universal guild is assigned"
+    },
+    "traits": [
+      "Hardened forewing elytra",
+      "Permian–Triassic elytral disparity sample",
+      "373-taxon living genomic sample spanning approximately 67% of families"
+    ],
+    "evidenceSummary": "Zhao et al. document elytral disparity through the end-Permian vegetation transition, while McKenna et al. resolve a sampled genomic history; fossil ecology, topology and range remain bounded by each study.",
+    "confidence": "medium",
+    "referenceIds": [
+      "zhao-2021-beetle-evolution",
+      "mckenna-2019-beetle-diversity"
+    ],
+    "firstAppearance": 298,
+    "lastAppearance": 0,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "hymenoptera",
+    "treeNodeId": "hymenoptera",
+    "pbdbTaxonId": "txn:70707",
+    "scientificName": "Hymenoptera",
+    "commonName": "Ants, bees and wasps",
+    "commonNameZh": "蚂蚁、蜜蜂与胡蜂",
+    "rank": "order",
+    "parentName": "Insecta",
+    "extinct": false,
+    "geography": [
+      "Triassic xyelid and other hymenopteran fossil localities compiled by Zhang et al.",
+      "Peters et al. transcriptomic sample across major hymenopteran lineages"
+    ],
+    "overview": "Hymenoptera is represented here by a transcriptomic topology, a fossil-calibrated history and a systematic review of early fossils; these are complementary samples rather than a complete order census.",
+    "ecology": {
+      "diet": "Parasitoid, predatory and pollinating contexts occur among sampled lineages; no order-wide diet is assigned",
+      "habitat": "The cited fossil and genomic studies do not provide a complete habitat distribution",
+      "locomotion": "Winged adult anatomy is represented in fossil discussions, but locomotor performance is not measured",
+      "bodySize": "Not assigned as a complete comparative body-size dataset",
+      "guild": "Parasitoid, predator and pollinator guilds are sample-level ecological contexts, not universal traits"
+    },
+    "traits": [
+      "Xyelid fossil body and wing characters",
+      "Transcriptomic sampling across major hymenopteran lineages",
+      "Fossil-calibrated divergence framework"
+    ],
+    "evidenceSummary": "Peters et al. resolve many relationships from transcriptomes and Zhang et al. place the oldest undisputed xyelid fossils in a bounded Triassic interval; morphology, ecology and geography remain explicitly sample-limited.",
+    "confidence": "medium",
+    "referenceIds": [
+      "peters-2017-hymenoptera-history",
+      "zhang-2025-hymenoptera-divergence-dating"
+    ],
+    "firstAppearance": 242,
+    "lastAppearance": 0,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
     "id": "echinodermata",
     "treeNodeId": "echinodermata",
     "pbdbTaxonId": "txn:30739",

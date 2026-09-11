@@ -90,6 +90,18 @@ const markers = [
   'Saxonagrion forewing venation', 'Panodonata attribution proposed from the fossil wing',
   '478 targeted genomic loci in the living classification sample',
   'The primary study directly documents its locus and taxon sampling and an updated classification; ecological traits, fossil anatomy and exact origins remain outside its dataset.',
+  'Coleoptera combines', 'Permian–Triassic beetle fossil localities', 'McKenna et al. phylogenomic sample',
+  'Plant associations and herbivory', 'Permian–Triassic vegetation settings', 'Elytra protect the hindwings',
+  'Not assigned as a complete comparative body-size dataset', 'Vegetation-associated ecological shifts',
+  'Hardened forewing elytra', 'Permian–Triassic elytral disparity sample', '373-taxon living genomic sample',
+  'Zhao et al. document elytral disparity', 'Hymenoptera is represented', 'Triassic xyelid',
+  'Peters et al. transcriptomic sample', 'Parasitoid, predatory and pollinating contexts',
+  'The cited fossil and genomic studies', 'Winged adult anatomy', 'Parasitoid, predator and pollinator guilds',
+  'Xyelid fossil body and wing characters', 'Transcriptomic sampling across major hymenopteran lineages',
+  'Fossil-calibrated divergence framework', 'Peters et al. resolve many relationships',
+  'Zhao et al. compare Permian', 'Zhao et al. link Permian', 'Peters et al. sample transcriptomes',
+  'The sampled Hymenoptera include', 'Zhang et al. identify the oldest', 'McKenna et al. use a 373-taxon',
+  'Peters et al. infer relationships among sampled',
 ]
 
 export function hasCrustaceansInsectsTranslation(english: string): boolean {
