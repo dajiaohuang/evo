@@ -65,4 +65,3 @@ export function renderProjectedGrid(grid: { values: Int16Array; width: number; h
   }
   return rgba
 }
-
