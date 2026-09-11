@@ -1,6 +1,22 @@
 import { issue68Zh } from './issue68Zh'
 
 export const zh: Record<string, string> = {
+  'Projection': '投影',
+  'Map projection': '地图投影',
+  'Zoom in': '放大',
+  'Zoom out': '缩小',
+  'Reset view': '重置视图',
+  'Hide map panels': '收起地图面板',
+  'Show map panels': '显示地图面板',
+  'Mercator': '墨卡托',
+  'Equal Earth (equal-area)': 'Equal Earth（等面积）',
+  'View centre': '视中心',
+  'Live view projection; no live tectonic reconstruction': '实时视图投影；不实时重建板块运动',
+  'Drag the map to change its centre.': '拖动地图可改变视中心。',
+  'Interactive map: drag to change the view centre; arrow keys pan, plus/minus zoom, Home resets.': '交互地图：拖动改变视中心；方向键平移，加减键缩放，Home 键重置。',
+  'Equal Earth preserves relative areas and includes the poles. Dragging changes the projection centre; shapes and directions are distorted.': 'Equal Earth 保持相对面积并包含两极。拖动会改变投影中心；形状和方向存在畸变。',
+  'Terrain is reprojected from the same grid during dragging, with a coarse display preview refined when the drag ends.': '拖动时从同一网格重新投影地形，先显示粗略预览，结束拖动后细化显示。',
+  'Nearest nominal frame {selected} Ma for requested {requested} Ma; no temporal interpolation. A worker loads only this independent {resolution}° integer-metre grid and reprojects it into the current map view.': '请求 {requested} Ma 时采用最近的标称 {selected} Ma 帧，不进行时间插值。后台工作线程只加载这一幅独立的 {resolution}° 整数米网格，并重新投影到当前地图视图。',
   'The displayed 3.7 Ga boundary represents sampled biosignature evidence, not a resolved date for the origin of life or LUCA.': '显示的 37 亿年前边界代表已取样的生物标志证据，并非已经确定的生命起源或最后普遍共同祖先年代。',
   'Parioscorpio (affinity unresolved)': 'Parioscorpio（亲缘未定）',
   'CAO2024 observations and constraints': 'CAO2024 观测与约束',
@@ -2447,4 +2463,3 @@ export function compactAmphibianTranslation(english: string): string | undefined
   if (value.includes('living amphibian data') || value.includes('compare one frog genome')) return '比较现生基因组、变态实验与模型时间树，同时保留各自的样本和推断边界。'
   return undefined
 }
-

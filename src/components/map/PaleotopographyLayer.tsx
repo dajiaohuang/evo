@@ -1,104 +1,98 @@
-import { useEffect } from 'react'
-import { GridLayer, type Coords, type DoneCallback } from 'leaflet'
-import { useMap } from 'react-leaflet'
+import { useEffect, useLayoutEffect, useRef } from 'react'
 import { runtimeDataUrl } from '../../data-client/staticDataClient'
 import type { RuntimePaleotopographyCollection, RuntimePaleotopographyFrame } from '../../data-client/types'
-import { MAX_MAP_ZOOM } from '../../constants'
+import type { MapViewState } from '../../types'
+import type { MapProjectionId, MapViewport } from '../../utils/mapProjection'
+import type { ProjectedGridRequest } from '../../utils/paleotopographyRendering'
 
 interface Props {
   collection: RuntimePaleotopographyCollection
   frame: RuntimePaleotopographyFrame
+  projectionId: MapProjectionId
+  camera: MapViewState
+  viewport: MapViewport
+  interacting: boolean
   onStatus?: (status: 'loading' | 'ready' | 'error', error?: string) => void
 }
 
-interface PendingTile {
-  canvas: HTMLCanvasElement
-  done: DoneCallback
+interface Engine {
+  worker: Worker
+  ready: boolean
+  busy: boolean
+  lastSent: number
+  latest: ProjectedGridRequest | null
+  send: () => void
 }
 
-export function PaleotopographyLayer({ collection, frame, onStatus }: Props) {
-  const map = useMap()
+/** Keep one verified grid in its worker; only camera snapshots cross on drag. */
+export function PaleotopographyLayer({ collection, frame, projectionId, camera, viewport, interacting, onStatus }: Props) {
+  const canvasRef = useRef<HTMLCanvasElement>(null)
+  const engineRef = useRef<Engine | null>(null)
+  const sequence = useRef(0)
 
   useEffect(() => {
-    const tileSize = collection.visualization.tileSize
-    const pending = new Map<number, PendingTile>()
-    let requestId = 0
     let disposed = false
     const worker = new Worker(new URL('../../workers/paleotopography.worker.ts', import.meta.url), { type: 'module' })
-    class CanvasGridLayer extends GridLayer {
-      override createTile(coords: Coords, done: DoneCallback) {
-        const canvas = document.createElement('canvas')
-        canvas.width = tileSize
-        canvas.height = tileSize
-        canvas.setAttribute('role', 'presentation')
-        const id = ++requestId
-        pending.set(id, { canvas, done })
-        worker.postMessage({ type: 'render', id, z: coords.z, x: coords.x, y: coords.y, tileSize })
-        return canvas
-      }
-    }
-    const layer = new CanvasGridLayer({
-      tileSize,
-      minZoom: 0,
-      maxNativeZoom: collection.visualization.maximumNativeZoom,
-      maxZoom: MAX_MAP_ZOOM,
-      noWrap: true,
-      opacity: 0.78,
-      updateWhenIdle: true,
-      keepBuffer: 1,
-    })
-
-    worker.onmessage = (event: MessageEvent<{ type: string; id?: number; rgba?: ArrayBuffer; error?: string }>) => {
+    const engine: Engine = { worker, ready: false, busy: false, latest: null, lastSent: -1, send: () => {
+      if (!engine.ready || engine.busy || !engine.latest || engine.latest.id === engine.lastSent) return
+      engine.busy = true
+      engine.lastSent = engine.latest.id
+      worker.postMessage(engine.latest)
+    } }
+    engineRef.current = engine
+    worker.onmessage = (event: MessageEvent<{ type: string; id?: number; width?: number; height?: number; rgba?: ArrayBuffer; error?: string }>) => {
       if (disposed) return
-      if (event.data.type === 'ready') {
+      const message = event.data
+      if (message.type === 'ready') { engine.ready = true; engine.send(); return }
+      if (message.type === 'error' || message.type === 'render-error') {
+        engine.ready = false
+        onStatus?.('error', message.error ?? 'PaleoDEM render failed')
+        return
+      }
+      engine.busy = false
+      const canvas = canvasRef.current
+      const latest = engine.latest
+      // A completed old camera must never cover the current vectors.
+      if (canvas && latest && message.id === latest.id && message.rgba && message.width && message.height) {
+        canvas.width = message.width; canvas.height = message.height
+        const context = canvas.getContext('2d')
+        if (!context) { onStatus?.('error', 'Canvas 2D context is unavailable'); return }
+        context.putImageData(new ImageData(new Uint8ClampedArray(message.rgba), message.width, message.height), 0, 0)
+        canvas.dataset.projection = latest.projectionId
+        canvas.dataset.center = latest.camera.center.join(',')
+        canvas.dataset.renderId = String(message.id)
+        canvas.hidden = false
         onStatus?.('ready')
-        return
       }
-      if (event.data.type === 'error') {
-        onStatus?.('error', event.data.error)
-        for (const tile of pending.values()) tile.done(new Error(event.data.error ?? 'PaleoDEM worker failed'), tile.canvas)
-        pending.clear()
-        return
-      }
-      if (event.data.id === undefined) return
-      const tile = pending.get(event.data.id)
-      if (!tile) return
-      pending.delete(event.data.id)
-      if (event.data.type === 'tile-error' || !event.data.rgba) {
-        tile.done(new Error(event.data.error ?? 'PaleoDEM tile render failed'), tile.canvas)
-        return
-      }
-      const context = tile.canvas.getContext('2d')
-      if (!context) {
-        tile.done(new Error('Canvas 2D context is unavailable'), tile.canvas)
-        return
-      }
-      context.putImageData(new ImageData(new Uint8ClampedArray(event.data.rgba), tileSize, tileSize), 0, 0)
-      tile.done(undefined, tile.canvas)
+      engine.send()
     }
-    worker.onerror = (event) => {
-      if (!disposed) onStatus?.('error', event.message || 'PaleoDEM worker failed')
-    }
-
+    worker.onerror = (event) => { if (!disposed) onStatus?.('error', event.message || 'PaleoDEM worker failed') }
     onStatus?.('loading')
     worker.postMessage({
-      type: 'initialize',
-      url: new URL(runtimeDataUrl(frame.grid.url), document.baseURI).href,
-      sha256: frame.grid.sha256,
-      decodedSha256: frame.grid.sourceSha256,
-      decodedBytes: frame.grid.sourceBytes,
-      width: frame.grid.width,
-      height: frame.grid.height,
+      type: 'initialize', url: new URL(runtimeDataUrl(frame.grid.url), document.baseURI).href,
+      sha256: frame.grid.sha256, decodedSha256: frame.grid.sourceSha256,
+      decodedBytes: frame.grid.sourceBytes, width: frame.grid.width, height: frame.grid.height,
     })
-    layer.addTo(map)
+    return () => { disposed = true; worker.terminate(); if (engineRef.current === engine) engineRef.current = null }
+  }, [collection, frame, onStatus])
 
-    return () => {
-      disposed = true
-      layer.removeFrom(map)
-      worker.terminate()
-      pending.clear()
+  useLayoutEffect(() => {
+    if (canvasRef.current) canvasRef.current.hidden = true
+    if (engineRef.current) engineRef.current.latest = null
+  }, [camera, viewport, projectionId, frame])
+
+  useEffect(() => {
+    const engine = engineRef.current
+    if (!engine || viewport.width < 2 || viewport.height < 2) return
+    // A coarse, freshly reprojected drag preview is replaced by the full viewport
+    // on release. This changes display sampling, never the verified source grid.
+    const ratio = Math.min(1, (interacting ? 192 : 1000) / viewport.width, (interacting ? 128 : 800) / viewport.height)
+    engine.latest = {
+      type: 'render', id: ++sequence.current, projectionId, camera, viewport,
+      width: Math.max(1, Math.round(viewport.width * ratio)), height: Math.max(1, Math.round(viewport.height * ratio)),
     }
-  }, [collection, frame, map, onStatus])
+    engine.send()
+  }, [camera, viewport, projectionId, interacting, collection, frame, onStatus])
 
-  return null
+  return <canvas ref={canvasRef} className="projected-map__terrain" aria-hidden="true" hidden />
 }

@@ -55,7 +55,7 @@ test('home search keyboard access and mobile evidence do not require detailed mo
 
 test('playing time commits advancing map requests before pause', async ({ page }) => {
   await page.goto('./#/explore?age=34')
-  await expect(page.locator('.leaflet-container')).toBeVisible()
+  await expect(page.locator('.projected-map__vectors')).toBeVisible()
   const initial = await page.getByRole('spinbutton', { name: 'Age in millions of years' }).inputValue()
   await page.getByRole('button', { name: 'Play toward the present' }).click()
   await expect.poll(() => page.url()).not.toContain(`age=${Number(initial).toFixed(1)}&`)

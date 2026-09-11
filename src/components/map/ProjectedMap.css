@@ -1,0 +1,18 @@
+.projected-map{position:relative;width:100%;height:100%;min-height:200px;background:#07171c;overflow:hidden}
+.projected-map__viewport{position:absolute;inset:88px 0 0}
+.projected-map__vectors,.projected-map__terrain{position:absolute;inset:0;width:100%;height:100%}
+.projected-map__vectors{touch-action:none;cursor:grab;z-index:1}
+.projected-map__vectors:active{cursor:grabbing}
+.projected-map__vectors:focus-visible{outline:2px solid #b9d8bd;outline-offset:-3px}
+.projected-map__terrain{pointer-events:none;opacity:.78}
+.projected-map__controls{position:absolute;left:0;right:0;top:0;height:88px;z-index:1002;display:grid;grid-template-columns:minmax(130px,1fr) auto;align-items:end;gap:5px 10px;padding:8px 12px;background:#0b1d23;border-bottom:1px solid #2a4248;color:#dce7df;font-size:11px}
+.projected-map__controls label{display:flex;flex-direction:column;gap:5px}
+.projected-map__controls select,.projected-map__controls button{min-height:36px;border:1px solid #45635f;border-radius:3px;background:#132c30;color:inherit;font:inherit;padding:4px 8px}
+.projected-map__zoom{display:flex;gap:5px;align-items:end}
+.projected-map__zoom button{min-width:36px;cursor:pointer}
+.projected-map__zoom button:disabled{opacity:.4;cursor:default}
+.projected-map__controls output{font-variant-numeric:tabular-nums}
+.projected-map__controls small{font-size:10px;color:#a0b3ae}
+.paleo-map .map-layer-control{top:96px;max-height:calc(100% - 108px);overflow:auto}
+.projected-map__tooltip{position:absolute;z-index:3;max-width:230px;padding:7px 9px;background:#09171f;border:1px solid #61756b;color:#e6edf3;font-size:11px;pointer-events:none}
+@media(max-width:700px){.projected-map__controls{grid-template-columns:minmax(115px,1fr) auto;font-size:10px;padding:6px;gap:3px}.projected-map__zoom{gap:3px}.projected-map__controls select,.projected-map__controls button{min-height:44px;padding:3px 5px}.projected-map__controls output{grid-column:1/-1}.projected-map__controls small{display:none}.paleo-map .map-layer-control{top:96px;bottom:auto}}

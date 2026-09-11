@@ -63,7 +63,7 @@ test('native full-resolution PaleoDEM loads from the document data directory and
   })
   await page.goto('./#/explore?view=map&age=65')
   await page.getByLabel('PALEOMAP elevation and bathymetry').check()
-  await expect.poll(() => page.locator('canvas.leaflet-tile').evaluateAll((canvases) => canvases.some((canvas) => {
+  await expect.poll(() => page.locator('canvas.projected-map__terrain').evaluateAll((canvases) => canvases.some((canvas) => {
     const tile = canvas as HTMLCanvasElement
     const pixels = tile.getContext('2d')?.getImageData(0, 0, tile.width, tile.height).data
     return pixels ? pixels.some((value, index) => index % 4 === 3 && value !== 0) : false

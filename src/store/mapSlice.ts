@@ -2,11 +2,14 @@ import type { MapViewState } from '../types'
 import type { AppState } from './index'
 import { DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM } from '../constants'
 import type { CoordinateMode } from '../utils/spatial'
+import { normalizeMapView, type MapProjectionId } from '../utils/mapProjection'
 
 export type FossilMarkerMode = 'clusters' | 'points' | 'density'
 
 export interface MapSlice {
   viewState: MapViewState
+  mapProjection: MapProjectionId
+  setMapProjection: (projection: MapProjectionId) => void
   highlightedTaxonId: string | null
   highlightedOccurrenceIds: string[]
   selectedOccurrenceId: string | null
@@ -26,6 +29,8 @@ export const createMapSlice = (
   get: () => AppState
 ): MapSlice => ({
   viewState: { center: DEFAULT_MAP_CENTER, zoom: DEFAULT_MAP_ZOOM },
+  mapProjection: 'mercator',
+  setMapProjection: (mapProjection) => set({ mapProjection, viewState: normalizeMapView(get().viewState, mapProjection) }),
   highlightedTaxonId: null,
   highlightedOccurrenceIds: [],
   selectedOccurrenceId: null,
