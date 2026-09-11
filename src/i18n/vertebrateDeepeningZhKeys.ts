@@ -102,6 +102,18 @@ const vertebrateDeepeningMarkers = [
   'The phylogenetic placement is a sampled analysis', 'Silurian–Carboniferous specimen dossiers',
   'Broad-snouted Devonian symmoriiform', 'Operculate Mississippian symmoriiform', 'symmoriiform Chondrichthyes',
   'broad rostrum', 'Most skeletons', 'CT reconstruction', 'Cosmoselachus',
+  'Tiaojishan Formation, western Liaoning, China (Beiyanerpeton sample)',
+  'Living salamander lineages sampled by Shen et al.',
+  'Caudata is represented by a 102-nuclear-marker phylogeny and the articulated Beiyanerpeton sample; these complementary data sets remain bounded and do not form a complete salamander history.',
+  'Not assigned by the cited marker and fossil studies',
+  'The Tiaojishan depositional setting and living samples provide context, not a complete habitat distribution',
+  'Skeletal anatomy is described, but locomotor performance is not measured',
+  'Not assigned as a complete comparative body-size dataset',
+  'No order-wide ecological guild is assigned from the cited evidence',
+  '102 nuclear markers used in a sampled salamander topology',
+  'Articulated cranial and postcranial Beiyanerpeton skeletons',
+  'Bony gill structures near the cheek region',
+  'Shen et al. test higher-level salamander relationships with nuclear markers, while Gao et al. provide a Jurassic salamandroid sample; taxonomy, ecology and range remain study-limited.',
 ]
 
 export function hasVertebrateDeepeningTranslation(english: string): boolean {
