@@ -37,7 +37,7 @@ GitHub Pages has a 650 MiB deployment gate and does not publish the 109 full gri
 
 Android and iOS use the `native-full` profile. Both bundles include all 109 original-resolution 3601×1801 0.1° lossless grids and the same complete metadata/hash inventory. Pages-light and browser-offline contain the lightweight previews and omit duplicate downloadable package ZIPs; local native-full builds can still generate those exports. The canonical repository retains both grid profiles. A profile label, resolution and total bytes are visible in the runtime manifest and UI, so the Web preview is not presented as native resolution.
 
-The map chooses the nearest nominal 5 Ma frame, with ties resolved to the younger frame, and performs no temporal interpolation. A worker fetches and verifies only that frame, then dynamically colours visible canvas tiles. No 341-tile-per-frame pyramid is generated. Web Mercator display ends at approximately ±85.051° latitude; full source/native grids and the exact-decimation previews retain their polar rows even though the map cannot display the caps.
+The map chooses the nearest nominal 5 Ma frame, with ties resolved to the younger frame, and performs no temporal interpolation. A worker fetches and verifies only that frame, then dynamically colours and reprojects the current viewport. No 341-tile-per-frame pyramid is generated. Web Mercator display ends at approximately ±85.051° latitude; full source/native grids and the exact-decimation previews retain their polar rows and the selectable Equal Earth view can display the caps.
 
 ## Reproducibility
 

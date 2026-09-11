@@ -124,6 +124,8 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
   const selectSubject = useAppStore((state) => state.selectSubject)
   const loadOccurrencesForInterval = useAppStore((state) => state.loadOccurrencesForInterval)
   const viewState = useAppStore((state) => state.viewState)
+  const mapProjection = useAppStore((state) => state.mapProjection)
+  const setMapProjection = useAppStore((state) => state.setMapProjection)
   const markerMode = useAppStore((state) => state.markerMode)
   const coordinateMode = useAppStore((state) => state.coordinateMode)
   const treeMode = useAppStore((state) => state.treeMode)
@@ -179,6 +181,8 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
     const lat = getFiniteRouteNumber(params, 'lat')
     const lng = getFiniteRouteNumber(params, 'lng')
     const zoom = getFiniteRouteNumber(params, 'zoom')
+    const projection = params.get('projection')
+    if (projection === 'mercator' || projection === 'equal-earth') setMapProjection(projection)
     if (lat !== null && lng !== null && lat >= -90 && lat <= 90 && lng >= -180 && lng <= 180) {
       setViewState({ center: [lat, lng] })
     }
@@ -246,6 +250,7 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
       lat: viewState.center[0].toFixed(3),
       lng: viewState.center[1].toFixed(3),
       zoom: viewState.zoom.toFixed(2),
+      projection: mapProjection,
       markers: markerMode,
       coords: coordinateMode,
       treeMode,
@@ -256,7 +261,7 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
     historySelection.current = selection
     if (window.location.hash !== hash) window.history[method](window.history.state, '', `${window.location.pathname}${window.location.search}${hash}`)
     appliedHash.current = hash
-  }, [context, coordinateMode, currentAge, dashboard, datasetAccepted, hydratedRoute, initialRoute, markerMode, selectedNodeId, selectedOccurrence?.oid, treeMode, view, viewState])
+  }, [context, coordinateMode, currentAge, dashboard, datasetAccepted, hydratedRoute, initialRoute, mapProjection, markerMode, selectedNodeId, selectedOccurrence?.oid, treeMode, view, viewState])
 
   const chooseNode = (node: FlatNode) => {
     if (isPagesPreview && !isPreviewTaxonAllowed(node.id)) return

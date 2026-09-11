@@ -1,17 +1,14 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { MapContainer, GeoJSON, Polyline, Tooltip } from 'react-leaflet'
-import type { Map as LeafletMap } from 'leaflet'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useAppStore } from '../../store'
 import { usePaleogeography } from '../../hooks/usePaleogeography'
 import { useCaoObservations } from '../../hooks/useCaoObservations'
-import { FossilMarkers, type MarkerMode } from './FossilMarkers'
-import { CaoObservationLayers } from './CaoObservationLayers'
+import type { FossilMarkerMode as MarkerMode } from '../../store/mapSlice'
 import { getSpatialPosition, hasSpatialPosition, type CoordinateMode } from '../../utils/spatial'
 import { observationsToGeoJson, visibleCaoObservations } from '../../utils/caoObservations'
 import { resolvePaleotopographyFrame, runtimeDataUrl } from '../../data-client/staticDataClient'
-import { PaleotopographyLayer } from './PaleotopographyLayer'
+import { ProjectedMap } from './ProjectedMap'
+import { vectorShapes, fossilPoints, observationPoints, type MapShape } from './mapScene'
 import { TemporalPackageCards } from './TemporalPackageCards'
-import { MIN_MAP_ZOOM, MAX_MAP_ZOOM, DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM } from '../../constants'
 import { useI18n } from '../../i18n'
 import { CAO_OBSERVATION_DATASET_IDS, type CaoObservationDatasetId, type CaoObservationRecord, type FossilOccurrence, type PaleogeographyLayerId } from '../../types'
 import type { RuntimeMapObservationDataset } from '../../data-client/types'
@@ -76,6 +73,7 @@ function formatObservationPositions(positions: CaoObservationRecord['sourcePosit
 export function PaleoMap() {
   const { number, t } = useI18n()
   const [showTrajectory, setShowTrajectory] = useState(false)
+  const [showMapPanels, setShowMapPanels] = useState(true)
   const [showPlatePolygons, setShowPlatePolygons] = useState(true)
   const [showPlateBoundaries, setShowPlateBoundaries] = useState(true)
   const [showContinentalCrust, setShowContinentalCrust] = useState(false)
@@ -100,7 +98,10 @@ export function PaleoMap() {
   const occurrencesByInterval = useAppStore((s) => s.occurrencesByInterval)
   const occurrencesByTaxonQuery = useAppStore((s) => s.occurrencesByTaxonQuery)
   const selectedNodeId = useAppStore((s) => s.selectedNodeId)
-  const mapRef = useRef<LeafletMap | null>(null)
+  const mapProjection = useAppStore((s) => s.mapProjection)
+  const setMapProjection = useAppStore((s) => s.setMapProjection)
+  const highlightedOccurrenceIds = useAppStore((s) => s.highlightedOccurrenceIds)
+  const selectFossilOccurrence = useAppStore((s) => s.selectFossilOccurrence)
   const requestedPaleogeographyLayers = useMemo(() => [
     ...(showContinents ? ['coastlines'] as const : []),
     ...(showPlatePolygons ? ['platePolygons'] as const : []),
@@ -136,38 +137,6 @@ export function PaleoMap() {
       loadOccurrencesForInterval(currentPeriod)
     }
   }, [currentPeriod, loadOccurrencesForInterval])
-
-  useEffect(() => {
-    const map = mapRef.current
-    if (!map) return
-    const handler = () => {
-      const c = map.getCenter()
-      const z = map.getZoom()
-      const current = useAppStore.getState().viewState
-      if (
-        Math.abs(current.center[0] - c.lat) > 0.0001
-        || Math.abs(current.center[1] - c.lng) > 0.0001
-        || Math.abs(current.zoom - z) > 0.0001
-      ) {
-        setViewState({ center: [c.lat, c.lng], zoom: z })
-      }
-    }
-    map.on('moveend', handler)
-    return () => { map.off('moveend', handler) }
-  }, [setViewState])
-
-  useEffect(() => {
-    const map = mapRef.current
-    if (!map) return
-    const center = map.getCenter()
-    if (
-      Math.abs(center.lat - viewState.center[0]) > 0.0001
-      || Math.abs(center.lng - viewState.center[1]) > 0.0001
-      || Math.abs(map.getZoom() - viewState.zoom) > 0.0001
-    ) {
-      map.setView(viewState.center, viewState.zoom, { animate: false })
-    }
-  }, [viewState])
 
   const records = useMemo(() => currentPeriod ? (occurrencesByInterval[currentPeriod] ?? []) : [], [currentPeriod, occurrencesByInterval])
   const fossilCount = records.length
@@ -232,133 +201,35 @@ export function PaleoMap() {
     downloadJson(`evo-cao2024-observations-${currentAge.toFixed(3)}-ma.geojson`, { type: 'FeatureCollection', features })
   }
 
-  return (
-    <div style={{ height: '100%', width: '100%', position: 'relative' }}>
-      <MapContainer
-        center={viewState.center ?? DEFAULT_MAP_CENTER}
-        zoom={viewState.zoom ?? DEFAULT_MAP_ZOOM}
-        minZoom={MIN_MAP_ZOOM}
-        maxZoom={MAX_MAP_ZOOM}
-        zoomControl={true}
-        attributionControl={false}
-        preferCanvas={true}
-        style={{ height: '100%', width: '100%', background: '#07171c' }}
-        ref={mapRef}
-      >
-        {showPaleotopography && paleotopographyAvailable && paleotopographyCollection && paleotopographyFrame && (
-          <PaleotopographyLayer
-            key={paleotopographyFrame.id}
-            collection={paleotopographyCollection}
-            frame={paleotopographyFrame}
-            onStatus={handlePaleotopographyStatus}
-          />
-        )}
-        {showStaticPolygons && landLayerAvailable && layers?.staticPolygons && (
-          <GeoJSON
-            key={mapSelections.staticPolygons?.frame.url ?? 'static-polygons'}
-            data={layers.staticPolygons}
-            style={(feature) => {
-              const pid = Number(feature?.properties?.pid ?? 0)
-              const palette = ['#645e76', '#536f78', '#6e6550', '#526d60']
-              return { color: palette[Math.abs(pid) % palette.length], weight: .55, opacity: .38, fillColor: palette[Math.abs(pid) % palette.length], fillOpacity: .035, dashArray: '2 5' }
-            }}
-            onEachFeature={(feature, layer) => {
-              const label = [t('Static reconstruction partition'), feature.properties?.name, feature.properties?.pid ? `${t('Plate')} ${feature.properties.pid}` : null].filter(Boolean).join(' · ')
-              layer.bindTooltip(label, { sticky: true })
-            }}
-          />
-        )}
-        {showPlatePolygons && landLayerAvailable && layers?.platePolygons && (
-          <GeoJSON
-            key={mapSelections.platePolygons?.frame.url ?? 'plate-polygons'}
-            data={layers.platePolygons}
-            style={(feature) => {
-              const pid = Number(feature?.properties?.pid ?? 0)
-              const palette = ['#516d7c', '#59657d', '#536f69', '#6d6256', '#5d6670']
-              return {
-                color: palette[Math.abs(pid) % palette.length],
-                weight: 0.8,
-                opacity: 0.65,
-                fillColor: palette[Math.abs(pid) % palette.length],
-                fillOpacity: 0.08,
-              }
-            }}
-            onEachFeature={(feature, layer) => {
-              const label = [feature.properties?.name, feature.properties?.pid ? `${t('Plate')} ${feature.properties.pid}` : null].filter(Boolean).join(' · ')
-              if (label) layer.bindTooltip(label, { sticky: true })
-            }}
-          />
-        )}
-        {showContinents && landLayerAvailable && layers?.coastlines && (
-          <GeoJSON
-            key={mapSelections.coastlines?.frame.url ?? 'coastlines'}
-            data={layers.coastlines}
-            style={() => ({
-              color: '#5a957d',
-              weight: 1.5,
-              fillColor: '#24463c',
-              fillOpacity: 0.7,
-            })}
-          />
-        )}
-        {showContinentalCrust && landLayerAvailable && layers?.continentalPolygons && (
-          <GeoJSON
-            key={mapSelections.continentalPolygons?.frame.url ?? 'continental-crust'}
-            data={layers.continentalPolygons}
-            style={() => ({ color: '#b8a270', weight: .8, opacity: .58, fillColor: '#8b7548', fillOpacity: .12 })}
-            onEachFeature={(feature, layer) => {
-              const label = [t('Modelled continental crust'), feature.properties?.type ? t(feature.properties.type) : null, feature.properties?.name, feature.properties?.pid ? `${t('Plate')} ${feature.properties.pid}` : null].filter(Boolean).join(' · ')
-              layer.bindTooltip(label, { sticky: true })
-            }}
-          />
-        )}
-        {showContinentOceanBoundaries && landLayerAvailable && layers?.continentOceanBoundaries && (
-          <GeoJSON
-            key={mapSelections.continentOceanBoundaries?.frame.url ?? 'continent-ocean-boundaries'}
-            data={layers.continentOceanBoundaries}
-            style={() => ({ color: '#74a9cf', weight: 1.3, opacity: .78, fillOpacity: 0, dashArray: '7 4' })}
-            onEachFeature={(feature, layer) => {
-              const label = [t('Continent–ocean transition boundary'), feature.properties?.type ? t(feature.properties.type) : null, feature.properties?.name, feature.properties?.pid ? `${t('Plate')} ${feature.properties.pid}` : null].filter(Boolean).join(' · ')
-              layer.bindTooltip(label, { sticky: true })
-            }}
-          />
-        )}
-        {showPlateBoundaries && landLayerAvailable && layers?.plateBoundaries && (
-          <GeoJSON
-            key={mapSelections.plateBoundaries?.frame.url ?? 'plate-boundaries'}
-            data={layers.plateBoundaries}
-            style={(feature) => {
-              const boundaryType = String(feature?.properties?.type ?? 'UnclassifiedFeature')
-              const styles = {
-                MidOceanRidge: { color: '#efb65a', weight: 1.5, dashArray: '5 3' },
-                SubductionZone: { color: '#e27a73', weight: 1.8 },
-                Transform: { color: '#79b9c6', weight: 1.35, dashArray: '2 3' },
-                ContinentalRift: { color: '#c6a6d9', weight: 1.35, dashArray: '6 3' },
-                TerraneBoundary: { color: '#b8aa86', weight: 1.1, dashArray: '1 3' },
-              }
-              return { ...(styles[boundaryType as keyof typeof styles] ?? { color: '#83969e', weight: 1, dashArray: '3 4' }), opacity: 0.9 }
-            }}
-            onEachFeature={(feature, layer) => {
-              const boundaryType = String(feature.properties?.type ?? t('Unclassified boundary'))
-              const polarity = feature.properties?.polarity ? t('GPlates polarity: {polarity}', { polarity: t(feature.properties.polarity) }) : null
-              const label = [t(boundaryType), polarity, feature.properties?.name, feature.properties?.pid ? `${t('Plate')} ${feature.properties.pid}` : null].filter(Boolean).join(' · ')
-              layer.bindTooltip(label, { sticky: true })
-            }}
-          />
-        )}
-        <CaoObservationLayers
-          ageMa={currentAge}
-          datasetIds={requestedObservationDatasets}
-          collections={observationCollections}
-          descriptors={observationDescriptors}
-          onSelect={(record, descriptor) => setSelectedObservation({ record, descriptor })}
-        />
-        <FossilMarkers mode={markerMode} coordinateMode={coordinateMode} />
-        {showTrajectory && trajectory.length > 1 && <Polyline positions={trajectory.map((bin) => [bin.latitude, bin.longitude])} pathOptions={{ color: '#d8aa68', weight: 2, dashArray: '5 5', opacity: .9 }}><Tooltip sticky><div>{t('Sample centroid trajectory')}<br />{t('{count} time bins · latitude change {shift}°', { count: trajectory.length, shift: `${latitudinalShift! >= 0 ? '+' : ''}${latitudinalShift!.toFixed(1)}` })}</div></Tooltip></Polyline>}
-      </MapContainer>
+  const shapes = useMemo(() => {
+    const result = vectorShapes(layers, requestedPaleogeographyLayers, t)
+    if (showTrajectory && trajectory.length > 1) result.push({
+      geometry: { type: 'LineString', coordinates: trajectory.map((bin) => [bin.longitude, bin.latitude]) },
+      stroke: '#d8aa68', width: 2, dash: [5, 5], opacity: .9,
+      label: t('Sample centroid trajectory'),
+    } satisfies MapShape)
+    return result
+  }, [layers, requestedPaleogeographyLayers, showTrajectory, trajectory, t])
+  const mapFossils = useMemo(() => fossilPoints(records, coordinateMode, highlightedOccurrenceIds, t), [records, coordinateMode, highlightedOccurrenceIds, t])
+  const mapObservations = useMemo(() => observationPoints(visibleObservationRecords), [visibleObservationRecords])
 
+  return (
+    <div className="paleo-map" style={{ height: '100%', width: '100%', position: 'relative' }}>
+      <ProjectedMap
+        projectionId={mapProjection} view={viewState} onViewChange={setViewState} onProjectionChange={setMapProjection}
+        panelsVisible={showMapPanels} onTogglePanels={() => setShowMapPanels((visible) => !visible)}
+        shapes={shapes} fossils={mapFossils} observations={mapObservations} markerMode={markerMode}
+        onSelect={(point) => {
+          if (point.occurrence) selectFossilOccurrence(point.occurrence)
+          if (point.observation) setSelectedObservation(point.observation)
+        }}
+        terrain={showPaleotopography && paleotopographyCollection && paleotopographyFrame ? { collection: paleotopographyCollection, frame: paleotopographyFrame } : undefined}
+        onTerrainStatus={handlePaleotopographyStatus}
+      />
+
+      <div hidden={!showMapPanels}>
       <div style={{
-        position: 'absolute', top: 8, left: 12, zIndex: 1000,
+        position: 'absolute', top: 96, left: 12, zIndex: 1000,
         background: 'rgba(8, 17, 21, 0.88)', borderRadius: 3,
         padding: '6px 12px', fontSize: 12, color: '#e6edf3',
         border: '1px solid #2a4248', pointerEvents: 'none',
@@ -427,9 +298,10 @@ export function PaleoMap() {
             onChange={(event) => setShowPaleotopography(event.target.checked)}
           /> {t('PALEOMAP elevation and bathymetry')}
         </label>
-        {paleotopographyFrame && paleotopographyCollection && <small>{t('Nearest nominal frame {selected} Ma for requested {requested} Ma; no temporal interpolation. A worker loads only this independent {resolution}° integer-metre grid and colours visible Web Mercator canvas tiles.', { selected: paleotopographyFrame.archiveNominalAgeMa, requested: currentAge, resolution: paleotopographyCollection.delivery.resolutionDegrees })}</small>}
+        {paleotopographyFrame && paleotopographyCollection && <small>{t('Nearest nominal frame {selected} Ma for requested {requested} Ma; no temporal interpolation. A worker loads only this independent {resolution}° integer-metre grid and reprojects it into the current map view.', { selected: paleotopographyFrame.archiveNominalAgeMa, requested: currentAge, resolution: paleotopographyCollection.delivery.resolutionDegrees })}</small>}
         {paleotopographyCollection?.delivery.profile === 'web-preview' && <small>{t('Web and browser-offline use a checksummed 0.3° exact every-third-cell preview. Android and iOS bundle every independent lossless 0.1° source grid.')}</small>}
-        {paleotopographyFrame && <small>{t('Web Mercator display ends at ±85.051° latitude; the source and native grids retain both polar rows.')}</small>}
+        {paleotopographyFrame && <small>{t(mapProjection === 'mercator' ? 'Web Mercator display ends at ±85.051° latitude; the source and native grids retain both polar rows.' : 'Equal Earth preserves relative areas and includes the poles. Dragging changes the projection centre; shapes and directions are distorted.')}</small>}
+        {showPaleotopography && <small>{t('Terrain is reprojected from the same grid during dragging, with a coarse display preview refined when the drag ends.')}</small>}
         {paleotopographyFrame && <small>{t('Internal NetCDF description: {description}', { description: paleotopographyFrame.internalDescription })}</small>}
         {showPaleotopography && paleotopographyStatus === 'loading' && <small role="status">{t('Loading one checksum-verified PALEOMAP grid…')}</small>}
         {showPaleotopography && paleotopographyStatus === 'error' && <small role="alert" title={paleotopographyError ?? undefined}>{t('The selected PALEOMAP grid is unavailable; other verified layers remain visible.')}</small>}
@@ -467,7 +339,7 @@ export function PaleoMap() {
           <div><dt>{t('Requested age')}</dt><dd>{number(currentAge)} Ma</dd></div>
           {requestedPaleogeographyLayers.map((layerId) => <div key={layerId}><dt>{t(layerId)}</dt><dd>{mapSelections[layerId] ? `${number(mapSelections[layerId]!.selectedAgeMa)} Ma · Δ ${number(mapSelections[layerId]!.deltaMa)} Myr` : t('unavailable')}</dd></div>)}
           <div><dt>{t('Paleo points')}</dt><dd>{t('PBDB bundled field')}</dd></div>
-          <div><dt>{t('Runtime')}</dt><dd>{t('no live reconstruction')}</dd></div>
+          <div><dt>{t('Runtime')}</dt><dd>{t('Live view projection; no live tectonic reconstruction')}</dd></div>
           {mapManifest && <div><dt>{t('Source')}</dt><dd><a href={mapManifest.source.url} target="_blank" rel="noreferrer">Cao et al. 2024 · {mapManifest.source.license}</a></dd></div>}
           {paleotopographyFrame && <div><dt>{t('Terrain source')}</dt><dd><a href={mapManifest?.paleotopography?.source.recordUrl} target="_blank" rel="noreferrer">Scotese &amp; Wright 2018 · {mapManifest?.paleotopography?.source.license}</a></dd></div>}
         </dl>
@@ -561,6 +433,7 @@ export function PaleoMap() {
           {trajectory.length > 1 && <><h3>{t('Selected-taxon latitude summary')}</h3><p>{t('These are time-binned occurrence centroids, not inferred migration paths or biological range limits.')}</p><table><thead><tr><th>{t('Mean age')}</th><th>{t('Age window')}</th><th>{t('Latitude')}</th><th>{t('Longitude')}</th><th>{t('Records')}</th></tr></thead><tbody>{trajectory.map((bin) => <tr key={`${bin.olderMa}-${bin.youngerMa}`}><td>{bin.ageMa.toFixed(2)} Ma</td><td>{bin.olderMa.toFixed(2)}–{bin.youngerMa.toFixed(2)} Ma</td><td>{bin.latitude.toFixed(2)}</td><td>{bin.longitude.toFixed(2)}</td><td>{number(bin.records)}</td></tr>)}</tbody></table></>}
         </div>
       </details>
+      </div>
     </div>
   )
 }

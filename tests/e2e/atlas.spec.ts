@@ -487,7 +487,7 @@ test('dense CAO2024 coastlines select and request distinct frames within the Cre
   await context.close()
 })
 
-test('the complete PaleoDEM series loads one Web preview grid per selected age and renders canvas tiles', async ({ browser, baseURL }) => {
+test('the complete PaleoDEM series loads one Web preview grid per selected age and renders projected terrain', async ({ browser, baseURL }) => {
   const context = await browser.newContext({ baseURL, locale: 'en-US', serviceWorkers: 'block' })
   const page = await context.newPage()
   await page.addInitScript(() => {
@@ -511,7 +511,7 @@ test('the complete PaleoDEM series loads one Web preview grid per selected age a
   await expect(page.getByText(/Web Mercator display ends at ±85.051° latitude/)).toBeVisible()
   await expect(page.getByText(/independent of CAO2024 geometry, CAO2024 observations and PBDB palaeocoordinates/)).toBeVisible()
   await expect.poll(() => gridRequests.filter((url) => url.includes('ma-0065.preview-03deg.i16.gz')).length).toBe(1)
-  await expect.poll(() => page.locator('canvas.leaflet-tile').evaluateAll((canvases) => canvases.some((canvas) => {
+  await expect.poll(() => page.locator('canvas.projected-map__terrain').evaluateAll((canvases) => canvases.some((canvas) => {
     const context = (canvas as HTMLCanvasElement).getContext('2d')
     if (!context) return false
     const pixels = context.getImageData(0, 0, (canvas as HTMLCanvasElement).width, (canvas as HTMLCanvasElement).height).data
