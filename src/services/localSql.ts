@@ -1,5 +1,6 @@
 import type { FossilOccurrence } from '../types'
 import { resolvePeriodInfo } from './geology'
+import { sqlTextAndCode } from '../utils/sqlText'
 
 type DuckDbModule = typeof import('@duckdb/duckdb-wasm')
 type DuckDbInstance = InstanceType<DuckDbModule['AsyncDuckDB']>
@@ -33,19 +34,17 @@ let operation = Promise.resolve()
 let idleTimer: ReturnType<typeof setTimeout> | undefined
 const EMPTY_ROWS: JsonRow[] = []
 
-function withoutComments(sql: string): string {
-  return sql.replace(/\/\*[\s\S]*?\*\//g, ' ').replace(/--.*$/gm, ' ')
-}
-
 export function validateReadOnlySql(sql: string): string {
   if (sql.length > MAX_SQL_LENGTH) throw new Error(`SQL is limited to ${MAX_SQL_LENGTH.toLocaleString()} characters.`)
-  const normalized = withoutComments(sql).trim().replace(/;\s*$/, '').trim()
-  if (!/^(select|with)\b/i.test(normalized)) throw new Error('Only SELECT or WITH queries are allowed in the local workspace.')
-  if (normalized.includes(';')) throw new Error('Run one read-only SQL statement at a time.')
-  if (/\b(insert|update|delete|drop|alter|create|copy|export|import|install|load|attach|detach|call|pragma|vacuum)\b/i.test(normalized)) {
+  const { text, code } = sqlTextAndCode(sql)
+  const trailingSemicolon = text.search(/;\s*$/)
+  const executable = trailingSemicolon < 0 ? code : code.slice(0, trailingSemicolon)
+  if (!/^\s*(select|with)\b/i.test(executable)) throw new Error('Only SELECT or WITH queries are allowed in the local workspace.')
+  if (executable.includes(';')) throw new Error('Run one read-only SQL statement at a time.')
+  if (/\b(insert|update|delete|drop|alter|create|copy|export|import|install|load|attach|detach|call|pragma|vacuum)\b/i.test(executable)) {
     throw new Error('Mutating, file-writing and extension-management SQL is disabled.')
   }
-  return normalized
+  return (trailingSemicolon < 0 ? text : text.slice(0, trailingSemicolon)).trim()
 }
 
 function finiteNumber(value: unknown): number | null {

@@ -36,6 +36,14 @@ For the flagship perissodactyl catalog, a separate evidence ledger stores select
 
 ## Local workspace and media
 
+Query packages include `summary.json` for statistics and chart counts over all
+locally matched records before the result limit. CSV/JSON rows contain the
+returned subset after sorting and limiting; GeoJSON additionally requires valid
+coordinates. The SVG uses the exported full-match summary. Source-period file
+counts are distinct from the SQL period column's numerical-age midpoint bins.
+Counts describe this bounded sample and cannot be interpreted as biological
+abundance or unbiased diversity.
+
 Recent Data Lab query definitions are stored in browser IndexedDB, capped to 20 entries and never uploaded. The service worker precaches the app shell and compressed Core registry; package, occurrence and map data is cached only when requested. Saving all packages is an explicit Data-page action. Museum media records link to institutional source pages instead of copying images without verified reuse terms; each entry carries a license reminder.
 
 ## Reproducibility and validation

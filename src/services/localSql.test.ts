@@ -22,6 +22,26 @@ describe('local SQL safety and projection', () => {
     })
   })
 
+  it.each([
+    "SELECT 'O''Brien -- Basin; /* sample */' AS formation",
+    'SELECT "update" FROM user_data WHERE note = \'load; export\'',
+    "SELECT $$A--B; /* keep */$$ AS note",
+    "SELECT $sample$O'Brien; -- sample$sample$ AS note",
+    "SELECT E'O\\'Brien -- Basin' AS note",
+  ])('preserves quoted scientific text in %s', (sql) => {
+    expect(validateReadOnlySql(sql)).toBe(sql)
+  })
+
+  it('handles nested comments without confusing a trailing comment with query text', () => {
+    expect(validateReadOnlySql('/* outside /* inside */ outside */ SELECT 1; -- note')).toBe('SELECT 1')
+    expect(() => validateReadOnlySql("SELECT 'safe'; /* comment */ DROP TABLE occurrences")).toThrow(/one read-only/)
+    expect(() => validateReadOnlySql("SELECT 1; 'trailing value'")).toThrow(/one read-only/)
+  })
+
+  it.each(["SELECT 'missing", 'SELECT "missing', 'SELECT $$missing', 'SELECT 1 /* missing'])('rejects unterminated SQL syntax: %s', (sql) => {
+    expect(() => validateReadOnlySql(sql)).toThrow(/Unterminated/)
+  })
+
   it.each([null, undefined, '', '  ', false, true, 'unknown', Number.NaN])('keeps missing numeric value %s unknown', (value) => {
     const record = { oid: 'occ:missing', eag: value, lag: value, lng: value, lat: value, paleolng: value, paleolat: value } as unknown as FossilOccurrence
     expect(fossilsForSql([record])[0]).toMatchObject({

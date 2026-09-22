@@ -216,7 +216,7 @@ function resultChartSvg(result: LabResult): string {
     const y = height - padding - barHeight
     return `<g><rect x="${x.toFixed(2)}" y="${y.toFixed(2)}" width="${Math.max(1, slot * 0.72).toFixed(2)}" height="${barHeight.toFixed(2)}" fill="#4f9f82"/><text x="${(x + slot * 0.36).toFixed(2)}" y="${height - 28}" text-anchor="middle" font-size="11">${entry.period.slice(0, 3)}</text><text x="${(x + slot * 0.36).toFixed(2)}" y="${Math.max(18, y - 7).toFixed(2)}" text-anchor="middle" font-size="10">${entry.count}</text></g>`
   }).join('')
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc"><title id="title">Evo Atlas query counts by geological period</title><desc id="desc">Counts come from the bounded returned query and do not estimate biological diversity.</desc><rect width="100%" height="100%" fill="#f7faf8"/><line x1="${padding}" y1="${height - padding}" x2="${width - padding}" y2="${height - padding}" stroke="#21342c"/>${bars}<text x="${padding}" y="22" font-family="sans-serif" font-size="14" font-weight="700">Bounded occurrence counts by period</text></svg>`
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc"><title id="title">Evo Atlas query counts by geological period</title><desc id="desc">Counts describe all ${result.stats.totalMatched} matched records before the result limit; see summary.json. They do not estimate biological diversity.</desc><rect width="100%" height="100%" fill="#f7faf8"/><line x1="${padding}" y1="${height - padding}" x2="${width - padding}" y2="${height - padding}" stroke="#21342c"/>${bars}<text x="${padding}" y="22" font-family="sans-serif" font-size="14" font-weight="700">All matched occurrence counts before the result limit</text></svg>`
 }
 
 async function sha256(bytes: Uint8Array): Promise<string> {
@@ -245,7 +245,8 @@ async function createQueryPackageFiles(result: LabResult, release: ReleaseMetada
     'Paleo and modern coordinates are exported separately and are never used to fill missing halves of another coordinate pair.',
   ].join('\n')
 
-  const citationRecords = references.filter((reference) => ['pbdb-api-2016', 'ics-2026-06'].includes(reference.id) || result.records.some((record) => record.referenceId === reference.id))
+  const referenceIds = new Set(['pbdb-api-2016', 'ics-2026-06', ...result.records.map((record) => record.referenceId)])
+  const citationRecords = references.filter((reference) => referenceIds.has(reference.id))
   const methods = [
     '# Methods',
     '',
@@ -253,11 +254,18 @@ async function createQueryPackageFiles(result: LabResult, release: ReleaseMetada
     `Sampling frame: ${result.samplingMethod}`,
     '',
     'Records were filtered locally by selected geological periods, intersecting numerical age bounds, accepted/identified-name text, country code, formation/member text, and collection identifier.',
-    'The result limit is applied after matching. Range-through endpoints and chart counts describe only returned or matched records, not origination, extinction, abundance, or true diversity.',
+    'summary.json contains statistics, countsByPeriod and topTaxa for all locally matched records before the result limit; chart.svg uses those countsByPeriod. Period counts refer to source period files, not midpoint-based rebinning.',
+    'results.json and results.csv contain only the returned rows after sorting and limiting. Each GeoJSON further omits rows without a valid pair of coordinates in its coordinate mode. A truncated row export cannot independently reproduce the full-match aggregates; use query.json against the pinned dataset to replay them.',
+    'These counts describe the bounded non-random source sample, not origination, extinction, abundance, or true diversity.',
     'Paleocoordinates and modern collection coordinates remain separate representations and are never substituted for one another.',
   ].join('\n')
   const files: Record<string, Uint8Array> = {
     'query.json': strToU8(JSON.stringify(result.query, null, 2)),
+    'summary.json': strToU8(JSON.stringify({
+      schemaVersion: 1, statisticsScope: 'all-matched-before-limit', recordsScope: 'returned-after-limit',
+      periodGrouping: 'source-period-file', stats: result.stats, countsByPeriod: result.countsByPeriod,
+      topTaxa: result.topTaxa, truncated: result.truncated, samplingMethod: result.samplingMethod,
+    }, null, 2)),
     'results.csv': strToU8(fossilsToCsv(result.records)),
     'results.json': strToU8(JSON.stringify(result.records, null, 2)),
     'results-paleo.geojson': strToU8(JSON.stringify(fossilsToGeoJson(result.records, 'paleo'), null, 2)),

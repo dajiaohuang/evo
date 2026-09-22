@@ -24,16 +24,23 @@ const palette = [
   [3600, [232, 226, 209]],
 ] as const
 
-function color(elevation: number): readonly number[] {
-  if (elevation <= palette[0][0]) return palette[0][1]
-  for (let index = 1; index < palette.length; index += 1) {
-    const [upperValue, upperColor] = palette[index]
-    const [lowerValue, lowerColor] = palette[index - 1]
-    if (elevation > upperValue) continue
-    const ratio = (elevation - lowerValue) / (upperValue - lowerValue)
-    return upperColor.map((channel, channelIndex) => Math.round(lowerColor[channelIndex] + ratio * (channel - lowerColor[channelIndex])))
+function writeColor(elevation: number, rgba: Uint8ClampedArray, offset: number): void {
+  let rgb: readonly number[] = palette[palette.length - 1][1]
+  if (elevation <= palette[0][0]) rgb = palette[0][1]
+  else {
+    for (let index = 1; index < palette.length; index += 1) {
+      const [upperValue, upperColor] = palette[index]
+      const [lowerValue, lowerColor] = palette[index - 1]
+      if (elevation > upperValue) continue
+      const ratio = (elevation - lowerValue) / (upperValue - lowerValue)
+      for (let channel = 0; channel < 3; channel += 1) {
+        rgba[offset + channel] = Math.round(lowerColor[channel] + ratio * (upperColor[channel] - lowerColor[channel]))
+      }
+      rgba[offset + 3] = 255
+      return
+    }
   }
-  return palette.at(-1)![1]
+  rgba[offset] = rgb[0]; rgba[offset + 1] = rgb[1]; rgba[offset + 2] = rgb[2]; rgba[offset + 3] = 255
 }
 
 function sample(values: Int16Array, width: number, height: number, latitude: number, longitude: number): number {
@@ -58,9 +65,8 @@ export function renderProjectedGrid(grid: { values: Int16Array; width: number; h
     for (let x = 0; x < width; x += 1) {
       const point = invertMapPoint(projection, projectionId, [(x + .5) * viewport.width / width, (y + .5) * viewport.height / height])
       if (!point) continue
-      const rgb = color(sample(grid.values, grid.width, grid.height, point[1], point[0]))
       const offset = (y * width + x) * 4
-      rgba[offset] = rgb[0]; rgba[offset + 1] = rgb[1]; rgba[offset + 2] = rgb[2]; rgba[offset + 3] = 255
+      writeColor(sample(grid.values, grid.width, grid.height, point[1], point[0]), rgba, offset)
     }
   }
   return rgba

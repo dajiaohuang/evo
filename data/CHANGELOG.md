@@ -1,5 +1,17 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc149 — 2026-09-22
+
+- Corrected the GOBE review DOI and the 2016 coelacanth paper title; reconciled
+  four stale claim audit markers with their actual supporting references.
+- Rebuilt package references, registry projections and checksums from canonical
+  inputs. Scientific statements, source archives and human review states are
+  unchanged; the coelacanth locator now identifies the correct outgroup study.
+- Added explicit full-match aggregates to query exports, preserved quoted SQL
+  text, and reduced terrain color allocations with byte-identical image output.
+- Reconciled every closed, unmerged PR (#317–324): no missing source identities,
+  COL IDs, claims, profiles or research scenes. Deployment remains deferred.
+
 ## 2026.09-static-v5-rc148 — 2026-09-22
 
 - App 0.21.0 / Android and iOS build 70 adds bilingual directory discovery,

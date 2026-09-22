@@ -72,4 +72,23 @@ describe('lab query helpers', () => {
     expect(Object.keys(files)).toContain('methods.md')
     expect(JSON.parse(strFromU8(files['release.json'])).datasetVersion).toBe(manifest.datasetVersion)
   })
+
+  it('exports the full-match aggregates separately from capped result rows', async () => {
+    const payload = await createQueryPackage({
+      query: { ...query, limit: 1 }, records: records.slice(0, 1),
+      stats: { totalMatched: 2, returned: 1, uniqueTaxa: 2, countries: 2, paleoCoordinateCoverage: 0.5, modernCoordinateCoverage: 1 },
+      countsByPeriod: [{ period: 'Neogene', count: 2 }], topTaxa: [{ taxon: 'Hipparion', count: 1 }, { taxon: 'Teleoceras', count: 1 }],
+      truncated: true, samplingMethod: 'bounded non-random PBDB API prefix sample',
+    })
+    const files = unzipSync(payload)
+    const summary = JSON.parse(strFromU8(files['summary.json']))
+    expect(summary).toMatchObject({
+      schemaVersion: 1, statisticsScope: 'all-matched-before-limit', recordsScope: 'returned-after-limit',
+      truncated: true, stats: { totalMatched: 2, returned: 1 }, countsByPeriod: [{ period: 'Neogene', count: 2 }],
+    })
+    expect(JSON.parse(strFromU8(files['results.json']))).toHaveLength(1)
+    expect(strFromU8(files['chart.svg'])).toContain('all 2 matched records before the result limit')
+    expect(strFromU8(files['checksums.txt'])).toContain('  summary.json')
+    expect(strFromU8(files['methods.md'])).toContain('summary.json')
+  })
 })
