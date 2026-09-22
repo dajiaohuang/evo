@@ -1,4 +1,5 @@
 import { expect, test } from '@playwright/test'
+import AxeBuilder from '@axe-core/playwright'
 
 test('reading trails and geological entries retain actual source destinations without JavaScript', async ({ page }) => {
   await page.goto('./zh/')
@@ -14,6 +15,14 @@ test('reading trails and geological entries retain actual source destinations wi
 
 test.describe('optional directory controls', () => {
   test.use({ javaScriptEnabled: true })
+
+  test('home and directory have no serious automated accessibility violations', async ({ page }) => {
+    for (const path of ['zh/', 'zh/taxa/?q=Perissodactyla']) {
+      await page.goto(`./${path}`)
+      const result = await new AxeBuilder({ page }).analyze()
+      expect(result.violations.filter(item => ['serious', 'critical'].includes(item.impact ?? ''))).toEqual([])
+    }
+  })
 
   test('mix languages, share and restore a query, clear to source order', async ({ page }) => {
     const payloads: string[] = []
