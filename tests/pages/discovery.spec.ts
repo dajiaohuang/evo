@@ -19,6 +19,11 @@ test.describe('optional directory controls', () => {
   test('home and directory have no serious automated accessibility violations', async ({ page }) => {
     for (const path of ['zh/', 'zh/taxa/?q=Perissodactyla']) {
       await page.goto(`./${path}`)
+      await expect(page.locator('body')).toHaveCSS('color', 'rgb(230, 238, 233)')
+      if (path.includes('/taxa/')) {
+        await expect(page.getByRole('status')).toHaveText('显示 1 / 403 条')
+        await expect(page.getByRole('combobox')).toHaveCSS('color', 'rgb(230, 238, 233)')
+      }
       const result = await new AxeBuilder({ page }).analyze()
       expect(result.violations.filter(item => ['serious', 'critical'].includes(item.impact ?? ''))).toEqual([])
     }

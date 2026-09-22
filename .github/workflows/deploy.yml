@@ -1,10 +1,7 @@
 name: Deploy to GitHub Pages
 
 on:
-  workflow_run:
-    workflows: [CI]
-    types: [completed]
-    branches: [main]
+  workflow_dispatch:
 
 concurrency:
   group: pages-main
@@ -12,19 +9,30 @@ concurrency:
 
 jobs:
   deploy:
-    if: github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push'
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      actions: read
       pages: write
       id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Require successful CI for this exact main revision
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EXPECTED_SHA: ${{ github.sha }}
+        run: |
+          status="$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/ci.yml/runs?head_sha=$EXPECTED_SHA&event=push&per_page=1" --jq '.workflow_runs[0].conclusion')"
+          if [ "$status" != "success" ]; then
+            echo "Deployment requires successful CI for $EXPECTED_SHA; found $status."
+            exit 1
+          fi
       - uses: actions/checkout@v7
         with:
-          ref: ${{ github.event.workflow_run.head_sha }}
+          ref: ${{ github.sha }}
       - uses: actions/setup-node@v7
         with:
           node-version: 22
@@ -33,7 +41,7 @@ jobs:
       - name: Build the verified deployment revision
         run: npm run pages:build
         env:
-          DEPLOYMENT_COMMIT_SHA: ${{ github.event.workflow_run.head_sha }}
+          DEPLOYMENT_COMMIT_SHA: ${{ github.sha }}
       - run: npm run pages:check
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5

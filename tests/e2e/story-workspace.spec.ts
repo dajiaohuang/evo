@@ -25,6 +25,14 @@ test('@cross-browser story workspace rejects a malformed shared draft and suppor
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
   const audit = await new AxeBuilder({ page }).analyze()
   expect(audit.violations.filter(item => ['serious', 'critical'].includes(item.impact ?? ''))).toEqual([])
+  const shared = await page.evaluate(() => {
+    const draft = JSON.parse(localStorage.getItem('evo-local-story-draft-v1')!)
+    draft.title = 'Next shared lesson'
+    return draft
+  })
+  const encoded = Buffer.from(JSON.stringify(shared)).toString('base64url')
+  await page.evaluate(hash => { location.hash = hash }, `#/stories?id=builder&draft=${encoded}`)
+  await expect(page.getByLabel('English title', { exact: true })).toHaveValue('Next shared lesson')
 })
 
 test('@cross-browser failed story import retains the edited workspace', async ({ page }) => {

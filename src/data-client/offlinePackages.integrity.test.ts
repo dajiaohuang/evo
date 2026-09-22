@@ -55,6 +55,19 @@ it('revalidates a good cached file without fetching its payload again', async ()
   expect(fetchMock.mock.calls.some(([url]) => url === dataUrl(file.url))).toBe(false)
 })
 
+it('updates the stable startup cache only after the new release content is present', async () => {
+  const old = new Response(JSON.stringify({ datasetVersion: 'old' }))
+  const pointers = new Map([[dataUrl('current.json'), old]])
+  const cacheFor = (map: Map<string, Response>) => ({ match: async (url: string) => map.get(url)?.clone(), delete: async (url: string) => map.delete(url), put: async (url: string, response: Response) => {
+    if (url.endsWith('current.json')) expect(stored.has(dataUrl(file.url))).toBe(true)
+    map.set(url, response.clone())
+  } })
+  vi.stubGlobal('caches', { open: async (name: string) => cacheFor(name === 'evo-bootstrap-v2' ? pointers : stored) })
+  await saveCompleteAtlasOffline()
+  expect(await pointers.get(dataUrl('current.json'))!.json()).toEqual(current)
+  expect(stored.has(dataUrl('current.json'))).toBe(false)
+})
+
 it.each([
   [{ ...file, url: 'releases/other/one.json' }], [file, file], [{ ...file, bytes: -1 }], [{ ...file, url: 'releases/test/../other.json' }],
 ].map(files => ({ files })))('rejects invalid release inventory before network transfer: %j', async ({ files }) => {

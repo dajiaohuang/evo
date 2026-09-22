@@ -22,7 +22,8 @@
     let visible = 0
     for (const entry of entries) {
       const matches = tokens.every(token => entry.search.includes(token))
-      entry.node.hidden = !matches
+      const hidden = !matches
+      if (entry.node.hidden !== hidden) entry.node.hidden = hidden
       if (matches) visible++
     }
     if (ordering !== sort.value) {
@@ -74,7 +75,11 @@
     input.focus()
   })
   window.addEventListener('popstate', restore)
-  window.addEventListener('pageshow', restore)
-  restore()
-  form.hidden = false
+  window.addEventListener('pageshow', event => { if (event.persisted) restore() })
+  // Batch the initial filtering with rendering. Hiding hundreds of entries
+  // during deferred-script evaluation can invalidate inherited styles in WebKit.
+  requestAnimationFrame(() => {
+    restore()
+    form.hidden = false
+  })
 })()

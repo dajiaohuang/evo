@@ -39,3 +39,14 @@ it('prevents a late fallback response from repopulating a cleared cache', async 
   fetchMock.mockResolvedValue(new Response('{"value":"new"}'))
   await expect(loadRuntimeFile({ url: 'current-record.json' })).resolves.toEqual({ value: 'new' })
 })
+
+it('prefers the explicitly saved bootstrap over an older retained package cache when offline', async () => {
+  const current = { datasetVersion: 'new', releaseBase: 'releases/new/' }
+  const old = { datasetVersion: 'old', releaseBase: 'releases/old/' }
+  const match = vi.fn(async () => new Response(JSON.stringify(current)))
+  vi.stubGlobal('caches', { open: vi.fn(async () => ({ match })), match: vi.fn(async () => new Response(JSON.stringify(old))) })
+  vi.stubGlobal('fetch', vi.fn().mockRejectedValue(new Error('offline')))
+  const { loadCurrentManifest } = await import('./staticDataClient')
+  await expect(loadCurrentManifest()).resolves.toMatchObject(current)
+  expect(caches.open).toHaveBeenCalledWith('evo-bootstrap-v2')
+})

@@ -422,7 +422,7 @@ function EventDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
 
 export function StoriesPage({ id, params, onNavigate }: CatalogPageProps) {
   const { language, t } = useI18n()
-  if (id === 'builder') return <StoryBuilder encodedDraft={params?.get('draft')} onNavigate={onNavigate} />
+  if (id === 'builder') return <StoryBuilder key={params?.get('draft') ?? 'local'} encodedDraft={params?.get('draft')} onNavigate={onNavigate} />
   const story = getEvolutionStory(id)
   if (!story) return <StoryDirectory onNavigate={onNavigate} />
   if (story.evidenceStatus === 'blocked-pending-step-evidence') {

@@ -184,6 +184,16 @@
 
 @media (max-width: 1080px) {
   .topbar__nav button { padding-inline: 10px; }
-  .global-search-trigger { width: 42px; font-size: 0; justify-content: center; }
+  .topbar__utilities .global-search-trigger { width: 44px; height: 44px; flex: 0 0 44px; padding: 0; font-size: 0; justify-content: center; }
   .global-search-trigger kbd { display: none; }
+}
+
+@media (max-width: 720px) {
+  .topbar { gap: 12px; }
+  .topbar__utilities { gap: 6px; }
+  .language-switch button { min-width: 40px; min-height: 40px; padding: 4px; font-size: 11px; white-space: nowrap; }
+  .topbar__nav button { min-height: 44px; font-size: 12px; }
+}
+@media (max-width: 360px) {
+  .brand__text small { display: none; }
 }

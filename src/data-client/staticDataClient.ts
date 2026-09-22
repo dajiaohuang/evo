@@ -108,7 +108,8 @@ async function fetchBootstrapResponse(relativeUrl: string): Promise<Response> {
   } catch {
     // A complete-atlas download keeps bootstrap files in Cache Storage for native/offline startup.
   }
-  const cached = await cachedResponse(url)
+  const bootstrap = typeof caches !== 'undefined' && typeof caches.open === 'function' ? await caches.open('evo-bootstrap-v2') : undefined
+  const cached = await bootstrap?.match(url) ?? await cachedResponse(url)
   if (cached) return cached
   throw new Error(`Static data request failed for ${relativeUrl}`)
 }

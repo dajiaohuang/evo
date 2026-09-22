@@ -173,7 +173,10 @@ export async function saveCompleteAtlasOffline(
   const failed = results.find(result => result.status === 'rejected')
   if (failed?.status === 'rejected') throw failed.reason
   // Publish startup pointers only after the advertised content was verified.
-  for (const [url, response] of [...bootstrap.entries()].reverse()) await cache.put(url, response)
+  // Match the service worker's stable bootstrap cache. Retained package caches
+  // can contain older pointers and must not shadow the newly verified release.
+  const bootstrapCache = await caches.open('evo-bootstrap-v2')
+  for (const [url, response] of [...bootstrap.entries()].reverse()) await bootstrapCache.put(url, response)
   return plan
 }
 
