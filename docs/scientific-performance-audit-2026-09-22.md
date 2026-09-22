@@ -136,8 +136,24 @@ canonical inputs.
 
 During editing: 39 targeted Lab/SQL tests, 47 numerical/map/tree tests, TypeScript
 checking, full data/platform validation and review freshness checks. New tests
-first reproduced the SQL and missing-summary failures. Final integration runs
-one normal CI cycle; the task receipt records its exact head and result.
+first reproduced the SQL and missing-summary failures.
+
+Final code/data head: `cd8d7b916212a788621c4b53bac7e4d463b581a4`. One full CI
+cycle passed without reruns:
+
+- [CI](https://github.com/dajiaohuang/evo/actions/runs/35738801263): 173 unit-test
+  files / 742 tests, 127 Web browser tests and 39 reading-edition tests; Go vet
+  and race tests; Windows determinism, data and type checks. All three jobs pass.
+- [Android](https://github.com/dajiaohuang/evo/actions/runs/35738801232): APK
+  builds and 62 full-data/offline-SQL browser tests pass.
+- [iOS](https://github.com/dajiaohuang/evo/actions/runs/35738801261): five hosted
+  AppTests and unsigned archive build pass.
+
+Local full-app and reading-edition builds also pass. Both preview release
+descriptors identify RC149 and this code/data head; 7,011 reading-edition HTML
+pages pass the link/source checks. The final follow-up commit changes only this
+audit report (CI receipts and the independently changed issue status), so it
+does not repeat the full CI cycle. Native CI is not physical-device acceptance.
 
 The 24 package review states are unchanged: 23 not-reviewed; Perissodactyla's
 existing in-review snapshot is stale and remains disclosed. This automated audit
@@ -145,7 +161,11 @@ is not a claim that every scientific statement has received independent expert
 or complete new full-text review. The approximately 2.18 million accepted names
 remain a nomenclatural catalogue, not 2.18 million scientific dossiers.
 
-[Issue #167](https://github.com/dajiaohuang/evo/issues/167) remains open for the
-separate 0.05° palaeophysiography source/permission problem. The verified PALEOMAP
-and CAO datasets above do not resolve that issue. Live deployment and release
-publication were not performed.
+[Issue #167](https://github.com/dajiaohuang/evo/issues/167) was closed on
+2026-09-22 at 12:28 UTC. Its closing state does not supply the missing permission
+and full-resolution source-integrity evidence described in the existing issue
+comments. No new grant or full-source manifest was found during this audit;
+the separate 0.05° palaeophysiography layer therefore remains outside the
+unrestricted app bundle. The verified PALEOMAP and CAO datasets above do not
+resolve that dependency. At the final repository check, no issues or PRs were
+open. Live deployment and release publication were not performed.
