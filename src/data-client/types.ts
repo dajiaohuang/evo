@@ -1663,7 +1663,34 @@ export interface CatalogueFdacDescriptionRecord {
   }>
 }
 
+export interface CatalogueKnowledgeProfile {
+  colId: string
+  scientificName: string
+  rank: string
+  sourceDatasetId: string
+  name: { zh: string; en: string }
+  reviewStatus: 'source-linked'
+  checkedAt: string
+  sections: Array<{ topic: string; text: { zh: string; en: string }; sourceIds: string[] }>
+  sources: Array<{ id: string; title: string; url: string; scope: { zh: string; en: string } }>
+  limitations: { zh: string; en: string }
+}
+
+export interface CatalogueKnowledgeRecord {
+  colId: string
+  descriptionCollections: string[]
+  profile?: CatalogueKnowledgeProfile
+  subtree?: { acceptedSpecies: number; describedSpecies: number; profiledSpecies: number }
+}
+
 export interface CatalogueRuntimeManifest {
+  knowledge?: {
+    schemaVersion: 1
+    releaseAlias: string
+    counts: { hierarchyNodes: number; ranks: Record<string, number>; describedSpecies: number; profilesByRank: Record<string, number> }
+    routes: Record<string, string[]>
+    files: CatalogueRuntimeFile[]
+  }
   nicaraguaDescriptions?: {
     source: { provider: string; title: string; sourceVersion: string; retrievedAt: string; license: string; licenseUrl: string; sourceUrl: string; limitations: string[] }
     routes: Record<string, string[]>

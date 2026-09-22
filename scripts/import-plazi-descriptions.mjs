@@ -15,7 +15,7 @@ const inputs = {
   plant: '992bbf943121da325c517ea3a6fb733eed10aeb99e99f657f9c8e9b1d7d6d7df',
   syspira: '9a42abf9927f8e55c787a46edcae955e06a447c8ba55fc1ce4cca8774d9af623',
   lycianthes: '6720ee722d1d93828434eb0264d2b7b4d43dbec62135bb02313298afeba1788e',
-  cestrum: '8d65840a84893d1380a620712ef6332a60fe9b7a9d60a84e90c4d93cd18d505b',
+  cestrum: 'd537fae106dacae4a578e876d96a480d282029a09d241628c071e1f841883251',
 }
 const species = new Map()
 for (const [name, expected] of Object.entries(inputs)) {
@@ -52,6 +52,7 @@ const ledger = {
   provider: 'Plazi TreatmentBank', title: 'Selected original taxonomic descriptions',
   retrievedAt: '2026-09-08', license: 'CC0 1.0', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/',
   sourceUrl: 'https://plazi.org/treatmentbank/treatment-data-access/', inputs,
+  identityCorrections: [JSON.parse(readFileSync(resolve(root, 'data/sources/authority-link-evidence/plazi-cestrum-col26.8.json'), 'utf8'))],
   output, outputBytes: compressed.length, outputSha256: hash(compressed),
   species: records.length, descriptions: records.reduce((sum, row) => sum + row.descriptions.length, 0),
   limitations: ['Article-scoped extracted text, not global species dossiers.', 'Archive CC0 declarations do not license linked publication PDFs or images.', 'Author-variant mappings are individually reviewed bibliographic inferences; strict WFO crosswalk is unchanged.', 'Source wording, language and specimen qualifiers retained; no synthetic traits or current conservation status inferred.'],

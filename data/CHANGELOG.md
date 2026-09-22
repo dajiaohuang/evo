@@ -1,5 +1,24 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc150 — 2026-09-23
+
+- Repaired eight Cestrum accepted IDs and two explicit synonym redirects against
+  the pinned COL26.8 hierarchy. All 99 Plazi paragraphs and non-ID evidence fields
+  are unchanged; the original 40-row candidate checksum was reproduced first.
+- Added 31 source-linked bilingual catalogue introductions for Perissodactyla:
+  one order, all three families, eight genera and 19 accepted species entries.
+  Domestic forms, changed tapir combinations and source scope remain explicit.
+  These introductory accounts do not claim complete dossiers or expert review.
+- Built content availability and descendant coverage across all 2,429,092 nodes,
+  including 1,607 orders and 2,183,133 accepted species. The 14 imported text
+  collections now resolve to 80,838 distinct accepted species. Every content ID
+  is checked against the real hierarchy before delivery.
+- Species pages read one bounded knowledge shard and only matching source-text
+  collections. Nicaragua and Panama excerpts are now visible with original
+  language, citations, missing-reference boundaries and rights. Go-backed pages
+  attach the same content only when dataset and catalogue release both match.
+- Deployment and release publication remain deferred.
+
 ## 2026.09-static-v5-rc149 — 2026-09-22
 
 - Corrected the GOBE review DOI and the 2016 coelacanth paper title; reconciled

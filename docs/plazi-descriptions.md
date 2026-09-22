@@ -8,6 +8,13 @@ attributed treatment excerpts, not complete biological dossiers or a global
 coverage claim. Lazy Web delivery is implemented and focused loader/component
 checks pass; deployed browser acceptance remains unverified.
 
+RC150 repairs eight Cestrum accepted identifiers and two synonym usage IDs that
+were not present in the retained COL26.8 release. The exact name, authorship,
+source dataset 1141 and explicit redirect evidence are recorded in
+`data/sources/authority-link-evidence/plazi-cestrum-col26.8.json`. The 40 original
+candidate rows were reconstructed to their previous SHA-256 before changing
+identifiers; all 99 paragraph bodies and non-ID evidence fields remain unchanged.
+
 ## Rights and provenance
 
 The reviewed Darwin Core Archives declare CC0 for the extracted data in their

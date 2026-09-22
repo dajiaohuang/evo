@@ -2,6 +2,22 @@ import { afterEach, describe, expect, it, vi } from 'vitest'
 import { readFileSync } from 'node:fs'
 import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueLpsnIdentifierRecord, CatalogueNomenclaturalRecord, CatalogueRecord, CatalogueResourcePackManifest, CatalogueSourceChecklist, CatalogueSpeciesOwnership, CatalogueTargetRecord, RuntimeItisPackageScope, RuntimeMapManifest, RuntimeMapSnapshot, RuntimePaleotopographyCollection } from './types'
 
+it('loads one knowledge shard, reuses it and rejects an incomplete route', async () => {
+  const { loadCatalogueKnowledge } = await import('./staticDataClient')
+  const record = { colId: '623DW', descriptionCollections: [], subtree: { acceptedSpecies: 19, describedSpecies: 0, profiledSpecies: 19 } }
+  const { fetchMock } = await installCatalogueFixture({ knowledge: [record] })
+  await expect(loadCatalogueKnowledge('623DW')).resolves.toMatchObject(record)
+  await loadCatalogueKnowledge('623DW')
+  expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/knowledge-'))).toHaveLength(1)
+  await expect(loadCatalogueKnowledge('not-a-complete-route')).rejects.toThrow('route is incomplete')
+})
+
+it('rejects knowledge from a different catalogue release', async () => {
+  const { loadCatalogueKnowledge } = await import('./staticDataClient')
+  await installCatalogueFixture({ knowledge: [{ colId: '623DW', descriptionCollections: [] }], knowledgeRelease: 'OTHER-COL' })
+  await expect(loadCatalogueKnowledge('623DW')).rejects.toThrow('release mismatch')
+})
+
 function responseFor(value: unknown) {
   const bytes = new TextEncoder().encode(JSON.stringify(value))
   return {
@@ -50,6 +66,8 @@ async function installCatalogueFixture({
   turkey,
   floraChina,
   pakistan,
+  knowledge,
+  knowledgeRelease = 'TEST-COL',
 }: {
   nodes?: CatalogueHierarchyNodeRecord[]
   children?: CatalogueHierarchyChildRecord[]
@@ -68,13 +86,15 @@ async function installCatalogueFixture({
   turkey?: import('./types').CatalogueTurkeyDescriptionRecord[]
   floraChina?: import('./types').CatalogueFloraChinaDescriptionRecord[]
   pakistan?: import('./types').CataloguePakistanDescriptionRecord[]
+  knowledge?: import('./types').CatalogueKnowledgeRecord[]
+  knowledgeRelease?: string
 }) {
   Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
   const { catalogueRoutePrefix } = await import('./staticDataClient')
   const payloads = new Map<string, ReturnType<typeof responseFor> | ReturnType<typeof textResponseFor>>()
 
   async function hierarchyLayer<T extends { id: string }>(
-    layer: 'nodes' | 'children' | 'targets' | 'sanbi' | 'plazi' | 'foa' | 'meso' | 'fdac' | 'moss' | 'moss-china' | 'fna' | 'brazil-flora' | 'turkey' | 'flora-china' | 'pakistan',
+    layer: 'nodes' | 'children' | 'targets' | 'sanbi' | 'plazi' | 'foa' | 'meso' | 'fdac' | 'moss' | 'moss-china' | 'fna' | 'brazil-flora' | 'turkey' | 'flora-china' | 'pakistan' | 'knowledge',
     records: T[],
     routeId: (record: T) => string,
   ) {
@@ -105,6 +125,7 @@ async function installCatalogueFixture({
   }
 
   const nodeLayer = await hierarchyLayer('nodes', nodes, (record) => record.id)
+  const knowledgeLayer = knowledge ? await hierarchyLayer('knowledge', knowledge.map(record => ({ ...record, id: record.colId })), record => record.colId) : undefined
   const childLayer = await hierarchyLayer('children', children, (record) => (record as CatalogueHierarchyChildRecord).parentId)
   const targetLayer = await hierarchyLayer('targets', targets, (record) => record.id)
   const sanbiLayer = await hierarchyLayer('sanbi', sanbi.map((record) => ({ ...record, id: record.colId })), (record) => record.colId)
@@ -154,6 +175,7 @@ async function installCatalogueFixture({
   const catalogueManifest = {
     releaseAlias: 'TEST-COL',
     counts: { acceptedSpecies },
+    ...(knowledgeLayer ? { knowledge: { ...knowledgeLayer, schemaVersion: 1, releaseAlias: knowledgeRelease } } : {}),
     sourceChecklists: sourceFile,
     search: { minimumQueryLength: 3, routes: searchRoutes, files: searchFiles },
     acceptedTargets: targetLayer,

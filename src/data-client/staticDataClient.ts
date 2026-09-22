@@ -1186,6 +1186,20 @@ export async function loadCatalogueSanbiDescriptions(id: string): Promise<Catalo
   return records.find((record) => record.colId === id) ?? null
 }
 
+export async function loadCatalogueKnowledge(id: string): Promise<import('./types').CatalogueKnowledgeRecord | null> {
+  const manifest = await loadCatalogueManifest()
+  const collection = manifest.knowledge
+  if (!collection) return null
+  if (collection.releaseAlias !== manifest.releaseAlias) throw new Error('Knowledge catalogue release mismatch')
+  // Missing routes are corruption here: every SHA-256 prefix is present, even
+  // when empty. Never report an unreadable index as confirmed missing content.
+  const prefix = await catalogueRoutePrefix(id)
+  const urls = collection.routes[prefix]
+  if (!urls?.length || urls.some(url => !collection.files.some(file => file.url === url))) throw new Error('Knowledge route is incomplete')
+  const records = await loadCatalogueRoute<import('./types').CatalogueKnowledgeRecord>(collection.routes, collection.files, id)
+  return records.find(record => record.colId === id) ?? null
+}
+
 export async function loadCatalogueMesoDescriptions(id: string): Promise<import('./types').CatalogueMesoDescriptionRecord | null> {
   const manifest = await loadCatalogueManifest()
   const collection = manifest.mesoDescriptions

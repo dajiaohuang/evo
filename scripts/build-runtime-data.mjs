@@ -7,6 +7,7 @@ import { flattenTree, readJson, rootDir } from './data-lib.mjs'
 import { evaluatePackageReview } from './check-review-freshness.mjs'
 import { deterministicGzip, deterministicZip } from './archive-determinism.mjs'
 import { partitionSanbiDescriptions } from './sanbi-description-shards.mjs'
+import { buildCatalogueKnowledge } from './catalogue-knowledge.mjs'
 
 const args = process.argv.slice(2)
 const outputIndex = args.indexOf('--out')
@@ -1746,8 +1747,30 @@ const plaziFiles = partitionSanbiDescriptions(plaziRecords).map(([prefix, record
   plaziRoutes[prefix] = [file.url]
   return file
 })
+function* knowledgeNodes() {
+  for (const file of catalogueSourceManifest.hierarchy.nodes.files) {
+    for (const line of gunzipSync(readFileSync(join(catalogueSourceRoot, file.path))).toString('utf8').trim().split('\n')) yield JSON.parse(line)
+  }
+}
+const knowledge = buildCatalogueKnowledge({
+  releaseAlias: catalogueSourceManifest.releaseAlias,
+  profiles: readJson('data/knowledge/catalogue-profiles.json'),
+  collections: { sanbiDescriptions: sanbiRecords, plaziDescriptions: plaziRecords, foaDescriptions: foaRecords, mesoDescriptions: mesoRecords, fdacDescriptions: fdacRecords, mossDescriptions: mossRecords, pakistanDescriptions: pakistanRecords, mossChinaDescriptions: mossChinaRecords, fnaDescriptions: fnaRecords, brazilFloraDescriptions: brazilFloraRecords, nicaraguaDescriptions: nicaraguaRecords, panamaDescriptions: panamaRecords, turkeyDescriptions: turkeyRecords, floraChinaDescriptions: floraChinaRecords },
+  nodes: knowledgeNodes(),
+})
+if (knowledge.counts.hierarchyNodes !== catalogueSourceManifest.hierarchy.counts.nodes) throw new Error('Knowledge index does not cover the complete hierarchy')
+const knowledgePartitions = new Map(partitionSanbiDescriptions(knowledge.records))
+const knowledgeRoutes = {}
+const knowledgeFiles = Array.from({ length: 256 }, (_, n) => n.toString(16).padStart(2, '0')).map(prefix => {
+  const records = knowledgePartitions.get(prefix) ?? []
+  const path = `catalogue/knowledge/${prefix}.json.gz`
+  const file = { ...writeGzipJson(path, records), prefix, path, records: records.length }
+  knowledgeRoutes[prefix] = [file.url]
+  return file
+})
 catalogueRuntimeManifest = {
   ...catalogueSourceManifest,
+  knowledge: { schemaVersion: 1, releaseAlias: catalogueSourceManifest.releaseAlias, counts: knowledge.counts, routes: knowledgeRoutes, files: knowledgeFiles },
   plaziDescriptions: { source: plaziSource, routes: plaziRoutes, files: plaziFiles },
   foaDescriptions: { source: foaSource, routes: foaRoutes, files: foaFiles },
   mesoDescriptions: { source: mesoSource, routes: mesoRoutes, files: mesoFiles },
@@ -1891,7 +1914,8 @@ const current = {
       + (catalogueRuntimeManifest.panamaDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.turkeyDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
       + (catalogueRuntimeManifest.floraChinaDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
-      + (catalogueRuntimeManifest.plaziDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0),
+      + (catalogueRuntimeManifest.plaziDescriptions?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0)
+      + (catalogueRuntimeManifest.knowledge?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0),
     pagesLimitBytes: 650 * 1024 * 1024,
   },
   evidenceBoundary: {

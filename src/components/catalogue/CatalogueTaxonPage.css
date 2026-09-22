@@ -1,4 +1,16 @@
 .catalogue-taxon-page { min-height: calc(100vh - var(--topbar-height)); padding-bottom: 100px; overflow: auto; background: radial-gradient(circle at 85% 10%, rgba(89, 179, 153, .08), transparent 26%), var(--color-bg); }
+.catalogue-source-card.catalogue-knowledge { margin-block: 24px; max-width: 90ch; padding: 24px; border: 1px solid var(--color-border); background: var(--color-surface); }
+.catalogue-source-card.catalogue-knowledge div { display: block; margin-top: 0; }
+.catalogue-source-card.catalogue-knowledge p { font-size: 15px; line-height: 1.8; }
+.catalogue-source-card.catalogue-knowledge span { display: inline; }
+.catalogue-source-card.catalogue-knowledge .catalogue-status { display: inline-block; }
+.catalogue-source-card.catalogue-knowledge a, .catalogue-source-card.catalogue-knowledge small { font-size: 11px; line-height: 1.6; text-transform: none; overflow-wrap: anywhere; }
+.catalogue-knowledge details { margin-top: 16px; }
+.catalogue-knowledge summary { cursor: pointer; }
+.catalogue-knowledge summary:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 4px; }
+.catalogue-knowledge-counts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 16px; margin-block: 20px; }
+.catalogue-knowledge-counts dt { font-size: 12px; color: var(--color-text-muted); }
+.catalogue-knowledge-counts dd { margin: 6px 0 0; color: var(--color-text); font-size: 24px; font-variant-numeric: tabular-nums; }
 .catalogue-taxon-page--message { display: grid; place-items: center; padding: 40px 24px; }
 .catalogue-authority-disclosure { margin-top: 20px; max-width: 72ch; overflow-wrap: anywhere; }
 .catalogue-authority-disclosure > summary { cursor: pointer; color: var(--color-text); line-height: 1.6; }

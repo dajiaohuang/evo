@@ -12,11 +12,11 @@
     "plant": "992bbf943121da325c517ea3a6fb733eed10aeb99e99f657f9c8e9b1d7d6d7df",
     "syspira": "9a42abf9927f8e55c787a46edcae955e06a447c8ba55fc1ce4cca8774d9af623",
     "lycianthes": "6720ee722d1d93828434eb0264d2b7b4d43dbec62135bb02313298afeba1788e",
-    "cestrum": "8d65840a84893d1380a620712ef6332a60fe9b7a9d60a84e90c4d93cd18d505b"
+    "cestrum": "d537fae106dacae4a578e876d96a480d282029a09d241628c071e1f841883251"
   },
   "output": "data/sources/plazi-descriptions.jsonl.gz",
-  "outputBytes": 53234,
-  "outputSha256": "a854d7cc363560e39c6b5179b7dc0c6822b71d5fc12d1b04642935490d7ba73b",
+  "outputBytes": 51512,
+  "outputSha256": "466773ce5eca7e77627dd13903e074c6446eb2d91ba3eaaa53c79f10ebd3cda0",
   "species": 27,
   "descriptions": 99,
   "limitations": [
@@ -24,5 +24,59 @@
     "Archive CC0 declarations do not license linked publication PDFs or images.",
     "Author-variant mappings are individually reviewed bibliographic inferences; strict WFO crosswalk is unchanged.",
     "Source wording, language and specimen qualifiers retained; no synthetic traits or current conservation status inferred."
+  ],
+  "identityCorrections": [
+    {
+      "source": "Cestrum Plazi descriptions",
+      "catalogueRelease": "COL26.8",
+      "catalogueDatasetKey": 316115,
+      "sourceDatasetId": "1141",
+      "correctedAt": "2026-09-22",
+      "previousInputSha256": "8d65840a84893d1380a620712ef6332a60fe9b7a9d60a84e90c4d93cd18d505b",
+      "correctedInputSha256": "d537fae106dacae4a578e876d96a480d282029a09d241628c071e1f841883251",
+      "basis": "Exact scientific name, authorship, World Plants source 1141 and explicit synonym redirects in the committed release search and hierarchy. Forty original text rows replay the previous input checksum exactly; only usage identifiers change.",
+      "usageIds": [
+        {
+          "previousId": "0b959879-6895-5d6f-8bf3-c1f4bddfeef5",
+          "id": "69MZK"
+        },
+        {
+          "previousId": "0d16fe64-e8a6-513f-ad3c-8834d6e4ecf8",
+          "id": "T5NF"
+        },
+        {
+          "previousId": "23f91f4a-5716-5265-9b23-46152031b6de",
+          "id": "T5LM"
+        },
+        {
+          "previousId": "243d9536-a3c5-5c75-9fbe-c19c2d569407",
+          "id": "T5QG"
+        },
+        {
+          "previousId": "298203cf-9f1f-5a31-8cd3-c69182216d33",
+          "id": "5XMXP"
+        },
+        {
+          "previousId": "4f7e9de7-3d31-5d71-b0c6-cfd7584d123e",
+          "id": "T5PL"
+        },
+        {
+          "previousId": "75b17e82-a871-5ab7-a610-93dd791183b2",
+          "id": "T5L4"
+        },
+        {
+          "previousId": "d0708292-b7e2-56cf-ae09-2d7abfd12010",
+          "id": "69MXV"
+        },
+        {
+          "previousId": "acf80a10-0520-58f3-8d7e-c0d320e8596b",
+          "id": "T5NW"
+        },
+        {
+          "previousId": "e587d515-073a-5baa-b61e-5d28e62f08c0",
+          "id": "T5W9"
+        }
+      ]
+    }
   ]
 }

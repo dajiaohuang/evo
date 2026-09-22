@@ -11,6 +11,7 @@ import {
 import type { AppRoute } from '../../utils/routing'
 import { useI18n } from '../../i18n'
 import { deriveCatalogueNodeIntroduction } from './catalogueNodeIntroduction'
+import { BackendCatalogueContent } from './BackendCatalogueContent'
 import './BackendCatalogueTaxonPage.css'
 
 interface BackendCatalogueTaxonPageProps {
@@ -24,7 +25,11 @@ function displayedName(node: Pick<BackendTreeNodeSummary, 'scientificName' | 'au
   return node.scientificName.slice(0, -node.authorship.length).trim()
 }
 
-export function BackendCatalogueTaxonPage({ release, id, onNavigate }: BackendCatalogueTaxonPageProps) {
+export function BackendCatalogueTaxonPage(props: BackendCatalogueTaxonPageProps) {
+  return <BackendCatalogueTaxonRecord key={`${props.release ?? ''}:${props.id ?? ''}`} {...props} />
+}
+
+function BackendCatalogueTaxonRecord({ release, id, onNavigate }: BackendCatalogueTaxonPageProps) {
   const { language } = useI18n()
   const zh = language === 'zh'
   const [status, setStatus] = useState<'loading' | 'ready' | 'error' | 'invalid' | 'release-mismatch' | 'not-found'>('loading')
@@ -113,6 +118,7 @@ export function BackendCatalogueTaxonPage({ release, id, onNavigate }: BackendCa
       <div className="catalogue-taxon-heading"><div><span className="catalogue-status catalogue-status--accepted">{node.status}</span><h1><i>{displayedName(node)}</i>{node.authorship ? <small>{node.authorship}</small> : null}</h1></div><dl><div><dt>{zh ? '等级' : 'Rank'}</dt><dd>{node.rank}</dd></div><div><dt>{zh ? '精确 ID' : 'Exact ID'}</dt><dd><code>{node.id}</code></dd></div><div><dt>{zh ? '直接子级' : 'Direct children'}</dt><dd>{node.childCount.toLocaleString(zh ? 'zh-CN' : 'en-US')}</dd></div></dl></div>
       <p className="catalogue-provisional-note">{zh ? nodeIntroduction.zh : nodeIntroduction.en}</p>
       <p className="backend-catalogue-page__note">{zh ? '此页面通过当前 Go 分类服务读取节点摘要与直接子级。' : 'This page reads node summaries and direct children from the current Go catalogue service.'}</p>
+      <BackendCatalogueContent key={`${capabilities.datasetVersion}:${node.id}`} id={node.id} rank={node.rank} release={capabilities.treeIndex.releaseAlias} datasetVersion={capabilities.datasetVersion} zh={zh} />
     </header>
     <section className="catalogue-taxon-grid"><article className="catalogue-children-panel"><div className="catalogue-section-heading"><div><span>01</span><h2>{zh ? '直接子级' : 'Direct children'}</h2></div></div>{childrenStatus === 'loading' && <p className="catalogue-section-note">{zh ? '正在读取可见子级…' : 'Loading the visible child page…'}</p>}{childrenStatus === 'error' && <p className="catalogue-section-note catalogue-inline-error">{zh ? '子级读取失败。' : 'The child page failed to load.'}</p>}{childrenStatus === 'ready' && !children.length && <p className="catalogue-section-note">{zh ? '此节点没有直接子级。' : 'This node has no direct children.'}</p>}{children.length > 0 && <><div className="catalogue-children-summary">{zh ? `已加载 ${children.length.toLocaleString('zh-CN')} / 全部 ${node.childCount.toLocaleString('zh-CN')}` : `${children.length.toLocaleString()} of ${node.childCount.toLocaleString()} children loaded`}</div><ol className="catalogue-child-list">{children.map((child) => <li key={child.id}><button onClick={() => onNavigate('registry', { release: capabilities.treeIndex.releaseAlias, id: child.id })}><span><i>{displayedName(child)}</i>{child.authorship ? <small>{child.authorship}</small> : null}</span><span><small>{child.rank} · {child.status}</small><code>{child.id}</code></span></button></li>)}</ol>{nextCursor && <button className="catalogue-show-more" onClick={() => void loadMore()}>{zh ? '读取下一页' : 'Load next page'}</button>}</>}</article><aside className="catalogue-source-panel"><section><span>02</span><h2>{zh ? '索引状态' : 'Index state'}</h2><dl><div><dt>{zh ? '驻留节点' : 'Indexed nodes'}</dt><dd>{capabilities.treeIndex.nodeCount.toLocaleString(zh ? 'zh-CN' : 'en-US')}</dd></div><div><dt>{zh ? '分页大小' : 'Page size'}</dt><dd>{BACKEND_TREE_PAGE_SIZE.toLocaleString(zh ? 'zh-CN' : 'en-US')}</dd></div><div><dt>{zh ? '数据版本' : 'Dataset'}</dt><dd>{capabilities.datasetVersion}</dd></div></dl></section><section><span>03</span><h2>{zh ? '访问边界' : 'Access boundary'}</h2><p>{zh ? '全树可访问不等于全树同时绘制。展开分支按需分页，视口之外的行不进入 DOM。' : 'A fully accessible tree does not require drawing every node at once. Branches page on demand, and rows outside the viewport never enter the DOM.'}</p></section></aside></section>
   </main>
