@@ -91,7 +91,7 @@ test('global search lazily resolves accepted Catalogue of Life species without c
   await expect(page.locator('.catalogue-lineage')).toContainText('outside the accepted-species ancestor closure')
   await expect(page.locator('.catalogue-ownership-section')).toContainText('not forced into accepted-species resource partitions')
   await expect(page.locator('.catalogue-owner-card')).toHaveCount(0)
-  await expect(page.locator('.catalogue-source-card')).toContainText('Synonymic Checklists of the Vascular Plants of the World')
+  await expect(page.locator('.catalogue-source-panel .catalogue-source-card')).toContainText('Synonymic Checklists of the Vascular Plants of the World')
 
   await page.goto('./#/catalog')
   await page.locator('.global-search-trigger').click()
