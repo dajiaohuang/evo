@@ -4,7 +4,7 @@ import { getReferences, getTaxonProfile } from '../../services/catalog'
 import type { EvolutionStory } from '../../types'
 import type { AppRoute } from '../../utils/routing'
 import { useI18n } from '../../i18n'
-import { decodeStoryDraft, nextStoryStepId, parseStoryDraft, readStoryDraft, STORY_DRAFT_MAX_BYTES, STORY_DRAFT_MAX_STEPS, storyDraftShareUrl, storyIframe, storyStepReady, type LocalStoryDraft, type LocalStoryStep, type StoryView } from '../../services/storyDraft'
+import { decodeStoryDraft, nextStoryStepId, readStoryDraft, serializeStoryDraft, StoryDraftError, STORY_DRAFT_MAX_BYTES, STORY_DRAFT_MAX_STEPS, storyDraftShareUrl, storyIframe, storyStepReady, type LocalStoryDraft, type LocalStoryStep, type StoryView } from '../../services/storyDraft'
 import './StoryStudio.css'
 
 const STORAGE_KEY = 'evo-local-story-draft-v1'
@@ -65,11 +65,15 @@ export function StoryBuilder({ encodedDraft, onNavigate }: StoryBuilderProps) {
 
   const saveLocal = () => {
     try {
-      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(parseStoryDraft(draft)))
+      window.localStorage.setItem(STORAGE_KEY, serializeStoryDraft(draft))
       setMessage('Saved in this browser')
-    } catch {
-      setMessage('Could not save in this browser. Your edits remain open; use Export JSON to keep a copy.')
+    } catch (error) {
+      setMessage(error instanceof StoryDraftError ? error.message : 'Could not save in this browser. Your edits remain open; use Export JSON to keep a copy.')
     }
+  }
+  const exportDraft = () => {
+    try { download('evo-story-draft.json', serializeStoryDraft(draft), 'application/json') }
+    catch (error) { setMessage(error instanceof Error ? error.message : 'Unsupported story draft structure') }
   }
   const importDraft = async (event: ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0]
@@ -90,7 +94,7 @@ export function StoryBuilder({ encodedDraft, onNavigate }: StoryBuilderProps) {
       await navigator.clipboard.writeText(embed ? storyIframe(draft.title, url) : url)
       setMessage(embed ? 'Story embed copied' : 'Teacher share link copied')
     } catch (error) {
-      setMessage(error instanceof Error && /draft|structure/.test(error.message) ? error.message : 'Could not copy to the clipboard. Use Export JSON to share this draft.')
+      setMessage(error instanceof StoryDraftError ? error.message : 'Could not copy to the clipboard. Use Export JSON to share this draft.')
     }
   }
   const moveStep = (from: number, target: number) => setDraft(current => {
@@ -124,7 +128,7 @@ export function StoryBuilder({ encodedDraft, onNavigate }: StoryBuilderProps) {
 
       <div className="story-studio__toolbar">
         <button onClick={saveLocal}>{t('Save locally')}</button>
-        <button onClick={() => download('evo-story-draft.json', `${JSON.stringify(draft, null, 2)}\n`, 'application/json')}>{t('Export JSON')}</button>
+        <button onClick={exportDraft}>{t('Export JSON')}</button>
         <label><input type="file" accept=".json,application/json" onChange={(event) => void importDraft(event)} /><span>{t('Import JSON')}</span></label>
         <button onClick={() => void copyShare()}>{t('Copy teacher share link')}</button>
         <button onClick={() => void copyShare(true)}>{t('Copy iframe embed')}</button>

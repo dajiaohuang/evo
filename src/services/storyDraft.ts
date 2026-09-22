@@ -22,7 +22,8 @@ export interface LocalStoryDraft {
 export const STORY_DRAFT_MAX_BYTES = 1_000_000
 export const STORY_DRAFT_MAX_STEPS = 100
 const SHARE_MAX_LENGTH = 64_000
-const invalid = () => new Error('Unsupported story draft structure')
+export class StoryDraftError extends Error {}
+const invalid = () => new StoryDraftError('Unsupported story draft structure')
 const text = (value: unknown, max: number): value is string => typeof value === 'string' && value.length <= max
 const age = (value: unknown): value is number => typeof value === 'number' && Number.isFinite(value) && value >= 0 && value <= 4567
 
@@ -48,8 +49,18 @@ export function parseStoryDraft(value: unknown): LocalStoryDraft {
   return { schemaVersion: 1, kind: 'evo-local-story-draft', title: draft.title, titleZh: draft.titleZh, dek: draft.dek, steps }
 }
 
+function assertDraftSize(text: string): void {
+  if (new TextEncoder().encode(text).byteLength > STORY_DRAFT_MAX_BYTES) throw new StoryDraftError('Story drafts are limited to 1 MB. Export smaller drafts separately.')
+}
+
+export function serializeStoryDraft(draft: LocalStoryDraft): string {
+  const json = `${JSON.stringify(parseStoryDraft(draft), null, 2)}\n`
+  assertDraftSize(json)
+  return json
+}
+
 export function readStoryDraft(text: string): LocalStoryDraft {
-  if (new TextEncoder().encode(text).byteLength > STORY_DRAFT_MAX_BYTES) throw new Error('Story drafts are limited to 1 MB. Export smaller drafts separately.')
+  assertDraftSize(text)
   return parseStoryDraft(JSON.parse(text))
 }
 
@@ -64,7 +75,7 @@ export function storyDraftShareUrl(baseUrl: string, draft: LocalStoryDraft): str
   const json = JSON.stringify(parseStoryDraft(draft))
   const bytes = new TextEncoder().encode(json)
   // Bound before constructing a large binary string. JSON export remains available.
-  if (baseUrl.length + Math.ceil(bytes.length / 3) * 4 > SHARE_MAX_LENGTH) throw new Error('This draft is too large for a share link. Use Export JSON instead.')
+  if (baseUrl.length + Math.ceil(bytes.length / 3) * 4 > SHARE_MAX_LENGTH) throw new StoryDraftError('This draft is too large for a share link. Use Export JSON instead.')
   let binary = ''
   for (const byte of bytes) binary += String.fromCharCode(byte)
   return baseUrl + btoa(binary).replaceAll('+', '-').replaceAll('/', '_').replace(/=+$/, '')

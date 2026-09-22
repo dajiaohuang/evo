@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { decodeStoryDraft, nextStoryStepId, parseStoryDraft, readStoryDraft, storyDraftShareUrl, storyIframe, storyStepReady, type LocalStoryDraft } from './storyDraft'
+import { decodeStoryDraft, nextStoryStepId, parseStoryDraft, readStoryDraft, serializeStoryDraft, storyDraftShareUrl, storyIframe, storyStepReady, type LocalStoryDraft } from './storyDraft'
 
 const draft: LocalStoryDraft = { schemaVersion: 1, kind: 'evo-local-story-draft', title: 'Evidence', titleZh: '证据 🦕', dek: 'Draft', steps: [
   { id: 'step-1', title: 'State', text: 'A bounded explanation with an explicit evidence claim.', age: 66, olderMa: 70, youngerMa: 60, taxonId: 'dinosauria', view: 'tree', claimId: 'known' },
@@ -28,6 +28,12 @@ describe('local story trust boundary', () => {
     for (const patch of [{ olderMa: Infinity }, { olderMa: 4568 }, { age: 80 }, { youngerMa: -1 }, { taxonId: ' ' }]) {
       expect(storyStepReady({ ...draft.steps[0], ...patch }, new Set(['known']))).toBe(false)
     }
+  })
+  it('only serializes drafts that can be imported again, counting UTF-8 and JSON formatting', () => {
+    expect(readStoryDraft(serializeStoryDraft(draft))).toEqual(draft)
+    const large = { ...draft, steps: Array.from({ length: 17 }, (_, i) => ({ ...draft.steps[0], id: String(i), text: '证'.repeat(20_000) })) }
+    expect(() => parseStoryDraft(large)).not.toThrow()
+    expect(() => serializeStoryDraft(large)).toThrow('1 MB')
   })
   it('creates distinct IDs after deletions and emits inert iframe attributes', () => {
     expect(nextStoryStepId([draft.steps[0], { ...draft.steps[0], id: 'step-3' }])).toBe('step-4')

@@ -38,3 +38,17 @@ it('reorders with buttons and allows adding after deleting a middle step', () =>
   expect(screen.getAllByLabelText('Step title')[1]).toHaveValue('Move me')
   expect(screen.getAllByLabelText('Step title')[2]).toHaveValue('Evidence state 3')
 })
+
+it('keeps the previous saved draft when new edits exceed the import byte limit', () => {
+  const saved = JSON.stringify({ schemaVersion: 1, kind: 'evo-local-story-draft', title: 'Large lesson', titleZh: '', dek: '', steps: Array.from({ length: 16 }, (_, index) => ({
+    id: `step-${index + 1}`, title: 'State', text: '证'.repeat(20_000), age: 66, olderMa: 70, youngerMa: 60, taxonId: 'dinosauria', view: 'tree', claimId: '',
+  })) })
+  localStorage.setItem('evo-local-story-draft-v1', saved)
+  render(<StoryBuilder onNavigate={vi.fn()} />)
+  fireEvent.click(screen.getByRole('button', { name: 'Add Explorer state' }))
+  fireEvent.change(screen.getAllByLabelText('Explanation')[16], { target: { value: '证'.repeat(20_000) } })
+  fireEvent.click(screen.getByRole('button', { name: 'Save locally' }))
+  expect(screen.getByRole('status')).toHaveTextContent('1 MB')
+  expect(localStorage.getItem('evo-local-story-draft-v1')).toBe(saved)
+  expect(screen.getAllByLabelText('Explanation')).toHaveLength(17)
+})
