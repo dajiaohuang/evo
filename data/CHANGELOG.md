@@ -1,5 +1,18 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc147 — 2026-09-22
+
+- Added a separately pinned COL26.9 comparison snapshot and the complete,
+  reproducible record comparison against COL26.8. The active species registry,
+  package ownership, authority row data and scientific assertions remain on
+  their existing source snapshots. The release envelope and automated version
+  stamps advance without promoting human review.
+- Published bilingual comparison pages with exact-release source links,
+  explicit unresolved correspondence, and 31 downloadable, deterministic
+  difference shards. Two full archive runs produced identical output bytes.
+- App 0.20.66 / Android and iOS build 69. Existing data and delivery budgets
+  remain unchanged. See [comparison methods](../docs/catalogue-release-comparison.md).
+
 ## 2026.09-static-v5-rc146 — 2026-09-08
 
 - Added the complete CC0 ChecklistBank ITIS dataset `2144` as a neutral global

@@ -4,6 +4,7 @@ import { basename, dirname, join } from 'node:path'
 import ts from 'typescript'
 import { readJson, rootDir } from './data-lib.mjs'
 import { generateReadingMaps, readingMapCss } from './generate-reading-maps.mjs'
+import { generateCatalogueChanges, catalogueChangesCss } from './generate-catalogue-changes.mjs'
 
 const staticPages = process.env.EVO_STATIC_PAGES === 'true'
 const distRoot = join(rootDir, staticPages ? 'dist-pages' : 'dist')
@@ -238,10 +239,12 @@ const reviewLabels = {
 }
 const externalExpertLabels = { en: 'External expert review not performed', zh: '未进行外部专家审阅' }
 
-const staticCss = `
+const baseStaticCss = `
   :root{color-scheme:dark;--bg:#081115;--surface:#0e1b20;--line:#2a4248;--muted:#91a29a;--text:#e6eee9;--accent:#6ddab1;--warn:#d7b68c;font-family:Inter,ui-sans-serif,system-ui,sans-serif}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 82% 0,rgba(109,218,177,.07),transparent 28%),var(--bg);color:var(--text);line-height:1.65}a{color:var(--accent)}header.site{height:58px;padding:0 max(20px,calc((100vw - 1120px)/2));display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #1a2d32;background:rgba(8,17,21,.94)}header.site>a{font:700 14px Georgia,serif;letter-spacing:.14em;text-decoration:none}nav{display:flex;gap:15px}nav a{color:var(--muted);font-size:11px;text-decoration:none}.page{width:min(920px,calc(100% - 36px));margin:auto;padding:68px 0 110px}.crumbs{color:var(--muted);font:11px ui-monospace,monospace}.crumbs a{color:var(--muted)}h1{margin:35px 0 0;font:500 clamp(46px,8vw,82px)/1 Georgia,serif;letter-spacing:-.045em}h1 em{color:#a8dec8}.dek{max-width:760px;margin:28px 0;color:#b8c6bf;font:17px/1.75 Georgia,serif}.status{display:grid;grid-template-columns:1fr auto;gap:8px 20px;margin:34px 0;padding:16px;border:1px solid #7a684e;background:rgba(215,182,140,.045)}.status strong{font:500 16px Georgia,serif}.pills{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px}.pill{padding:4px 7px;border:1px solid var(--line);color:var(--muted);font:700 9px ui-monospace,monospace;text-transform:uppercase}.pill.warn{color:var(--warn);border-color:#7a684e}.pill.good{color:var(--accent);border-color:#3b8068}.facts{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid #1a2d32}.facts div{padding:18px;border-right:1px solid #1a2d32}.facts div:last-child{border:0}.facts small,.eyebrow{display:block;color:var(--muted);font:9px ui-monospace,monospace;text-transform:uppercase}.facts strong{display:block;margin-top:5px;font:500 16px Georgia,serif}section{margin-top:58px;padding-top:34px;border-top:1px solid #1a2d32}h2{font:500 31px Georgia,serif}.claim{margin:10px 0;padding:18px;border:1px solid #1a2d32;background:var(--surface)}.claim small{color:var(--accent);font:9px ui-monospace,monospace;text-transform:uppercase}.claim p{margin:9px 0;color:#c3cec8}.claim code{color:var(--muted);font-size:10px}.refs,.directory{padding:0;list-style:none}.refs li,.directory li{padding:14px 0;border-bottom:1px solid #1a2d32}.refs strong,.refs span,.directory strong,.directory span{display:block}.refs span,.directory span{color:var(--muted);font-size:11px}.directory a{text-decoration:none}.actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:34px}.button{display:inline-flex;min-height:44px;align-items:center;padding:0 16px;border:1px solid var(--accent);background:var(--accent);color:#07130f;font-weight:750;text-decoration:none}.button.secondary{border-color:var(--line);background:var(--surface);color:var(--text)}.language{margin-left:auto;color:var(--muted);font:10px ui-monospace,monospace}.language a{margin-left:9px}.notice{padding:18px;border-left:2px solid var(--warn);background:var(--surface);color:var(--muted)}footer{padding:30px max(20px,calc((100vw - 1120px)/2));border-top:1px solid #1a2d32;color:var(--muted);font:10px ui-monospace,monospace}@media(max-width:700px){header.site{height:auto;min-height:58px;align-items:flex-start;padding-block:15px;gap:15px}nav{display:none}.page{padding-top:42px}.status{grid-template-columns:1fr}.pills{justify-content:flex-start}.facts{grid-template-columns:1fr}.facts div{border-right:0;border-bottom:1px solid #1a2d32}.actions{flex-direction:column}.button{justify-content:center}}@media print{header.site,.language,.actions,footer{display:none}.page{width:100%;padding:0;color:#111}body{background:#fff;color:#111}.status,.claim,.notice{background:#fff;border-color:#bbb}.dek,.refs span,.directory span{color:#333}a{color:#111;text-decoration:none}}
   .hero-media{width:100%;height:auto;aspect-ratio:8/5;display:block;border:1px solid var(--line);background:var(--surface);object-fit:cover}
 `
+
+const staticCss = baseStaticCss + catalogueChangesCss
 
 function escapeHtml(value) {
   return String(value ?? '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#39;')
@@ -460,6 +463,7 @@ let traitPageCount = 0
 let mediaPageCount = 0
 let datasetPageCount = 0
 let indexPageCount = 0
+const comparisonPageCount = pagesPreview ? 0 : generateCatalogueChanges({ write, pageHtml, basePath, baseUrl, repositoryUrl, sitemapUrls })
 
 for (const entity of entities) {
   const profile = profileByEntityId.get(entity.id)
@@ -737,6 +741,7 @@ if (staticPages) {
     ['references', 'References', '参考文献', references.length],
     ['media', 'Media and rights', '媒体与权利', media.length],
     ['datasets', 'Dataset metadata', '数据集元数据', 1],
+    ['catalogue-changes', 'Checklist release comparison', '名录版本对比', 2],
   ]
   for (const language of ['en', 'zh']) {
     const zh = language === 'zh'
@@ -807,6 +812,7 @@ const pageCounts = {
   media: mediaPageCount,
   collectionIndexes: indexPageCount,
   methods: 2,
+  catalogueComparisons: comparisonPageCount,
   datasets: datasetPageCount,
 }
 write('static-pages-manifest.json', `${JSON.stringify({ schemaVersion: 3, ...(staticPages ? { edition: 'github-pages-static' } : {}), datasetVersion: manifest.datasetVersion, generatedAt: manifest.generatedAt, pages: pageCounts, sitemapUrls: sitemapUrls.size }, null, 2)}\n`)
