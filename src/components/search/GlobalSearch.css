@@ -92,3 +92,27 @@
 .catalogue-search-note { padding: 12px 10px; color: var(--color-text-faint); font-size: 9px; }
 .catalogue-search-note--error { color: #f0a18f; }
 .catalogue-search-result .search-result-copy strong { font-style: normal; }
+
+/* Keep the discovery surface readable within both the desktop and native shell. */
+.global-search-close { flex: 0 0 44px; width: 44px; height: 44px; border: 1px solid var(--color-border); background: transparent; color: var(--color-text); font: 26px var(--font-sans); cursor: pointer; }
+.global-search-summary { flex-wrap: wrap; gap: 8px; font-size: 11px; letter-spacing: 0; text-transform: none; }
+.global-search-help { margin: 0; padding: 10px 18px 2px; color: var(--color-text-muted); font-size: 12px; }
+.global-search-results > button { min-height: 64px; }
+.search-kind { font-size: 10px; }
+.search-result-copy strong { font-size: 15px; }
+.search-result-copy small { font-size: 12px; white-space: normal; overflow-wrap: anywhere; }
+.search-result-copy .search-maturity { font-size: 10px; }
+.catalogue-search-heading { flex-direction: column; gap: 6px; font-size: 12px; text-transform: none; letter-spacing: 0; }
+.catalogue-search-heading small { text-align: left; }
+.catalogue-search-note, .global-search-empty { font-size: 14px; }
+.global-search-results > .global-search-retry { display: block; min-height: 44px; width: auto; margin: 8px 10px; border-color: var(--color-accent); color: var(--color-accent); font-size: 14px; }
+.global-search-panel button:focus-visible { outline: 2px solid var(--color-accent); outline-offset: -2px; background: var(--color-surface-raised); }
+.global-search-input:focus-within { box-shadow: inset 0 -2px var(--color-accent); }
+@media (max-width: 600px) {
+  .global-search-overlay { padding-top: max(20px, env(safe-area-inset-top)); }
+  .global-search-panel { max-height: calc(100dvh - 40px - env(safe-area-inset-top) - env(safe-area-inset-bottom)); }
+  .global-search-input { padding-inline: 12px; gap: 8px; }
+  .global-search-input input { font-size: 16px; }
+  .global-search-results > button { grid-template-columns: 46px minmax(0, 1fr) 16px; gap: 8px; }
+  .search-result-copy strong { white-space: normal; overflow-wrap: anywhere; }
+}

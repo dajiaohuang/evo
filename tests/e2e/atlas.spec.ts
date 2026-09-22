@@ -227,6 +227,10 @@ test('global search distinguishes registry verification failures from no matches
   await page.getByPlaceholder('Search taxa, intervals, events, places…').fill('Homo sapiens')
   await expect(page.getByText('The species registry is unavailable, or shard verification failed.')).toBeVisible()
   await expect(page.getByText(/No catalog entry matches/)).toHaveCount(0)
+  await page.unroute('**/catalogue/**')
+  await page.getByRole('button', { name: 'Retry search' }).click()
+  await expect(page.locator('button.catalogue-search-result', { hasText: 'Homo sapiens' }).first()).toBeVisible()
+  await expect(page.getByRole('button', { name: 'Retry search' })).toHaveCount(0)
   await context.close()
 })
 

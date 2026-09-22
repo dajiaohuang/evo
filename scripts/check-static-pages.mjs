@@ -17,15 +17,18 @@ const bytes = files.reduce((sum, file) => sum + statSync(file).size, 0)
 if (bytes > 64 * 1024 * 1024) failures.add('Static site exceeds its 64 MiB budget')
 for (const file of files) {
   const path = relative(output, file).replaceAll('\\', '/')
-  if (/\.(?:js|mjs|wasm|gz|zip)$/i.test(path) && !['sw.js', 'map-controls.js'].includes(path)) failures.add(`Runtime payload shipped: ${path}`)
+  if (/\.(?:js|mjs|wasm|gz|zip)$/i.test(path) && !['sw.js', 'map-controls.js', 'directory-controls.js'].includes(path)) failures.add(`Runtime payload shipped: ${path}`)
   if (path === 'map-controls.js' && statSync(file).size > 8 * 1024) failures.add('Map enhancement exceeds 8 KiB')
+  if (path === 'directory-controls.js' && statSync(file).size > 8 * 1024) failures.add('Directory enhancement exceeds 8 KiB')
   if (/^(?:assets|data\/releases|node_modules)\//.test(path)) failures.add(`Runtime directory shipped: ${path}`)
 }
 for (const file of htmlFiles) {
   const html = readFileSync(file, 'utf8')
   const path = relative(output, file)
   const isMap = /^(?:zh\/)?map\/(?:[a-z]+\/)?index\.html$/.test(path.replaceAll('\\', '/'))
-  const checkedHtml = isMap ? html.replace('<script src="/evo/map-controls.js" defer></script>', '') : html
+  const isDirectory = /^(?:zh\/)?(?:taxa|events|stories|intervals|formations|localities|traits|references|media|datasets)\/index\.html$/.test(path.replaceAll('\\', '/'))
+  let checkedHtml = isMap ? html.replace('<script src="/evo/map-controls.js" defer></script>', '') : html
+  if (isDirectory) checkedHtml = checkedHtml.replace('<script src="/evo/directory-controls.js" defer></script>', '')
   if (/<script(?!\s+type="application\/ld\+json")\b/i.test(checkedHtml)) failures.add(`Unexpected executable script in ${path}`)
   if (/\bhref="[^"\s]*\/#\//.test(html)) failures.add(`SPA link in ${path}`)
   if (!/<html lang="(?:en|zh-CN)"/.test(html)) failures.add(`Missing language in ${path}`)

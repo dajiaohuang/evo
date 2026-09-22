@@ -1,5 +1,19 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc148 — 2026-09-22
+
+- App 0.21.0 / Android and iOS build 70 adds bilingual directory discovery,
+  source-backed reading trails and geological navigation. A single optional
+  script filters existing HTML entries, retains shareable query/sort state,
+  and leaves complete reading/navigation available without JavaScript.
+- Full-client search gains keyboard result navigation, composition-safe
+  shortcuts, focus restoration, cancellation and an explicit retry action.
+  Reading text and touch controls are enlarged within the existing shell.
+- This envelope advances automated version stamps and delivery metadata;
+  scientific claims, source archives, release-scoped authority ownership,
+  uncertainty and human review states are unchanged. The active registry
+  remains COL26.8; the separate COL26.9 comparison remains available.
+
 ## 2026.09-static-v5-rc147 — 2026-09-22
 
 - Added a separately pinned COL26.9 comparison snapshot and the complete,

@@ -5,6 +5,7 @@ import ts from 'typescript'
 import { readJson, rootDir } from './data-lib.mjs'
 import { generateReadingMaps, readingMapCss } from './generate-reading-maps.mjs'
 import { generateCatalogueChanges, catalogueChangesCss } from './generate-catalogue-changes.mjs'
+import { directoryTools, readingHome, readingDiscoveryCss } from './reading-discovery.mjs'
 
 const staticPages = process.env.EVO_STATIC_PAGES === 'true'
 const distRoot = join(rootDir, staticPages ? 'dist-pages' : 'dist')
@@ -244,7 +245,7 @@ const baseStaticCss = `
   .hero-media{width:100%;height:auto;aspect-ratio:8/5;display:block;border:1px solid var(--line);background:var(--surface);object-fit:cover}
 `
 
-const staticCss = baseStaticCss + catalogueChangesCss
+const staticCss = baseStaticCss + catalogueChangesCss + (staticPages ? readingDiscoveryCss : '')
 
 function escapeHtml(value) {
   return String(value ?? '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#39;')
@@ -266,7 +267,7 @@ function issueUrl({ entityId = null, claimId = null, pageUrl }) {
   return `${repositoryUrl}/issues/new?${new URLSearchParams({ title: `[Evidence] ${subject}`, body, labels: 'scientific-review,evidence' })}`
 }
 
-function pageHtml({ language, title, description, path, alternatePath, type = 'WebPage', robots = 'index,follow', jsonLd = {}, breadcrumbs = [], body, mapControls = false }) {
+function pageHtml({ language, title, description, path, alternatePath, type = 'WebPage', robots = 'index,follow', jsonLd = {}, breadcrumbs = [], body, mapControls = false, directoryControls = false }) {
   const text = labels[language]
   const url = `${baseUrl}/${path}`.replace(/\/+$/, '/')
   const alternateUrl = `${baseUrl}/${alternatePath}`.replace(/\/+$/, '/')
@@ -291,7 +292,7 @@ function pageHtml({ language, title, description, path, alternatePath, type = 'W
     ? body.replace(/<a\b[^>]*href="[^"\s]*\/#\/[^"\s]*"[^>]*>[\s\S]*?<\/a>/g, '')
     : body
   return `<!doctype html>
-<html lang="${language === 'zh' ? 'zh-CN' : 'en'}"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#081115"><meta name="color-scheme" content="dark"><title>${escapeHtml(title)} — Evo Atlas</title><meta name="description" content="${escapeHtml(description)}"><meta name="robots" content="${robots}"><link rel="canonical" href="${url}"><link rel="alternate" hreflang="${language === 'en' ? 'en' : 'zh-CN'}" href="${url}"><link rel="alternate" hreflang="${alternateLanguage}" href="${alternateUrl}"><link rel="alternate" hreflang="x-default" href="${language === 'en' ? url : alternateUrl}"><link rel="icon" href="${basePath}/favicon.svg"><link rel="stylesheet" href="${basePath}/static.css"><meta property="og:type" content="article"><meta property="og:site_name" content="Evo Atlas"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${baseUrl}/social-card.svg"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">${JSON.stringify(structured).replaceAll('<', '\\u003c')}</script>${mapControls ? `<script src="${basePath}/map-controls.js" defer></script>` : ''}</head>
+<html lang="${language === 'zh' ? 'zh-CN' : 'en'}"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#081115"><meta name="color-scheme" content="dark"><title>${escapeHtml(title)} — Evo Atlas</title><meta name="description" content="${escapeHtml(description)}"><meta name="robots" content="${robots}"><link rel="canonical" href="${url}"><link rel="alternate" hreflang="${language === 'en' ? 'en' : 'zh-CN'}" href="${url}"><link rel="alternate" hreflang="${alternateLanguage}" href="${alternateUrl}"><link rel="alternate" hreflang="x-default" href="${language === 'en' ? url : alternateUrl}"><link rel="icon" href="${basePath}/favicon.svg"><link rel="stylesheet" href="${basePath}/static.css"><meta property="og:type" content="article"><meta property="og:site_name" content="Evo Atlas"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${baseUrl}/social-card.svg"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">${JSON.stringify(structured).replaceAll('<', '\\u003c')}</script>${mapControls ? `<script src="${basePath}/map-controls.js" defer></script>` : ''}${directoryControls ? `<script src="${basePath}/directory-controls.js" defer></script>` : ''}</head>
 <body><a class="skip-link" href="#content" tabindex="0">${language === 'zh' ? '跳到正文' : 'Skip to content'}</a><header class="site"><a href="${staticPages ? languageRoot : `${basePath}/`}">EVO ATLAS</a><nav aria-label="${language === 'zh' ? '主导航' : 'Main navigation'}">${navigation}</nav><span class="language"><a lang="en" href="${(language === 'en' ? url : alternateUrl).replace(origin, '')}">EN</a><a lang="zh-CN" href="${(language === 'zh' ? url : alternateUrl).replace(origin, '')}">中文</a></span></header><main class="page" id="content"><div class="crumbs" aria-label="${text.breadcrumbs}">${crumbHtml}</div>${renderedBody}</main><footer>EVO ATLAS / ${escapeHtml(manifest.datasetVersion)} · ${staticPages ? 'Static reading edition' : 'Static-first'} · Source-aware · Open data</footer></body></html>`
 }
 
@@ -442,10 +443,11 @@ function writeCollectionIndex({ kind, titleEn, titleZh, descriptionEn, descripti
       const label = language === 'zh' ? item.titleZh ?? item.titleEn : item.titleEn
       const href = `${basePath}/${language === 'zh' ? 'zh/' : ''}${item.path}`
       const meta = language === 'zh' ? item.metaZh ?? item.metaEn : item.metaEn
-      return `<li><a href="${escapeHtml(href)}"><strong>${escapeHtml(label)}</strong><span>${escapeHtml(meta ?? '')}</span></a></li>`
+      const discovery = staticPages ? ` data-label="${escapeHtml(label)}" data-search="${escapeHtml([item.titleEn, item.titleZh, item.metaEn, item.metaZh, item.path].filter(Boolean).join(' '))}"` : ''
+      return `<li${discovery}><a href="${escapeHtml(href)}"><strong>${escapeHtml(label)}</strong><span>${escapeHtml(meta ?? '')}</span></a></li>`
     }).join('')
-    const body = `<span class="eyebrow">${text.catalog} / ${escapeHtml(kind)}</span><h1>${escapeHtml(title)}</h1><p class="dek">${escapeHtml(description)}</p><div class="facts"><div><small>${language === 'zh' ? '条目' : 'Entries'}</small><strong>${items.length}</strong></div><div><small>${language === 'zh' ? '数据版本' : 'Dataset version'}</small><strong>${escapeHtml(manifest.datasetVersion)}</strong></div><div><small>${language === 'zh' ? '出版形式' : 'Publication form'}</small><strong>HTML + JSON-LD</strong></div></div><section><h2>${language === 'zh' ? '全部条目' : 'All entries'}</h2><ol class="directory">${list}</ol></section>`
-    write(`${path}index.html`, pageHtml({ language, title, description, path, alternatePath, type: 'CollectionPage', jsonLd: { mainEntity: { '@type': 'ItemList', numberOfItems: items.length, itemListElement: items.map((item, index) => ({ '@type': 'ListItem', position: index + 1, name: language === 'zh' ? item.titleZh ?? item.titleEn : item.titleEn, url: `${baseUrl}/${language === 'zh' ? 'zh/' : ''}${item.path}` })) }, dateModified: manifest.generatedAt }, breadcrumbs: [{ label: text.home, url: `${basePath}/` }, { label: title, url: `${baseUrl}/${path}` }], body }))
+    const body = `<span class="eyebrow">${text.catalog} / ${escapeHtml(kind)}</span><h1>${escapeHtml(title)}</h1><p class="dek">${escapeHtml(description)}</p>${staticPages ? `<p class="directory-context">${items.length} ${language === 'zh' ? '条目 · 数据版本' : 'entries · Dataset'} <a href="${basePath}/${language === 'zh' ? 'zh/' : ''}datasets/${escapeHtml(manifest.datasetVersion)}/">${escapeHtml(manifest.datasetVersion)}</a></p>${directoryTools(language)}` : `<div class="facts"><div><small>${language === 'zh' ? '条目' : 'Entries'}</small><strong>${items.length}</strong></div><div><small>${language === 'zh' ? '数据版本' : 'Dataset version'}</small><strong>${escapeHtml(manifest.datasetVersion)}</strong></div><div><small>${language === 'zh' ? '出版形式' : 'Publication form'}</small><strong>HTML + JSON-LD</strong></div></div>`}<section class="directory-entries"><h2>${language === 'zh' ? '目录条目' : 'Directory entries'}</h2><ol class="directory"${staticPages ? ' data-directory' : ''}>${list}</ol></section>`
+    write(`${path}index.html`, pageHtml({ language, title, description, path, alternatePath, type: 'CollectionPage', directoryControls: staticPages, jsonLd: { mainEntity: { '@type': 'ItemList', numberOfItems: items.length, itemListElement: items.map((item, index) => ({ '@type': 'ListItem', position: index + 1, name: language === 'zh' ? item.titleZh ?? item.titleEn : item.titleEn, url: `${baseUrl}/${language === 'zh' ? 'zh/' : ''}${item.path}` })) }, dateModified: manifest.generatedAt }, breadcrumbs: [{ label: text.home, url: `${basePath}/` }, { label: title, url: `${baseUrl}/${path}` }], body }))
   }
   sitemapUrls.add(`${baseUrl}/${kind}/`)
   indexPageCount += 2
@@ -729,6 +731,8 @@ sitemapUrls.add(`${baseUrl}/methods/`)
 let readingMapCount = 0
 if (staticPages) {
   readingMapCount = generateReadingMaps({ write, pageHtml, localize, basePath, baseUrl, sitemapUrls })
+  write('directory-controls.js', readFileSync(join(rootDir, 'scripts/reading-directory-controls.js'), 'utf8'))
+  const mapFrame = JSON.parse(readFileSync(join(distRoot, 'map/manifest.json'), 'utf8')).frames.find(frame => frame.slug === 'cambrian')
   const collections = [
     ['map', 'Lightweight map', '轻量地图', 13],
     ['taxa', 'Taxa and evidence', '类群与证据', entities.length],
@@ -750,7 +754,7 @@ if (staticPages) {
     const description = zh
       ? 'Evo Atlas 静态阅读版：直接浏览类群、主张、故事与参考文献，无需加载完整交互应用。'
       : 'The Evo Atlas reading edition: browse taxa, claims, stories and references without loading the full interactive application.'
-    const body = `<span class="eyebrow">EVO ATLAS / ${zh ? '静态阅读版' : 'READING EDITION'}</span><h1>${title}</h1><p class="dek">${description}</p><p class="notice">${zh ? '科学内容来自当前版本化数据。原有引用、不确定性与审阅状态保持可见；自动化校验不等于科学评审。' : 'Content comes from the current versioned dataset. Citations, uncertainty and review status remain visible; automated validation is not scientific review.'}</p><section><h2>${zh ? '浏览内容' : 'Browse the collection'}</h2><div class="edition-grid">${collections.map(([slug, en, cn, count]) => `<a href="${basePath}/${prefix}${slug}/"><strong>${zh ? cn : en}</strong><span>${count.toLocaleString()} ${zh ? '条目' : 'entries'}</span></a>`).join('')}</div></section><div class="actions"><a class="button" href="${basePath}/${prefix}methods/">${zh ? '方法与证据边界' : 'Methods and evidence boundaries'}</a><a class="button secondary" href="${basePath}/${prefix}apps/">${zh ? 'Web、Android 与 iOS' : 'Web, Android and iOS'}</a></div>`
+    const body = readingHome({ language, basePath, title, description, collections, stories, periods: periodUnits, mapFrame })
     write(`${prefix}index.html`, pageHtml({ language, title, description, path: prefix, alternatePath: zh ? '' : 'zh/', type: 'CollectionPage', body }))
     const appsTitle = zh ? '完整应用与原生版本' : 'Full and native applications'
     const appsDescription = zh

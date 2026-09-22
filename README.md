@@ -64,7 +64,7 @@ Android/iOS 和交互式 Web 共享 `src/` 中的客户端与数据协议。GitH
 
 | 平台 | 工程 | 运行形态 | 当前边界 |
 | --- | --- | --- | --- |
-| GitHub Pages | `npm run pages:build` → `dist-pages/` | 中英文 HTML、CSS、少量图片和来源元数据，无客户端脚本 | 静态阅读；没有交互地图、研究工作区或 PWA 安装 |
+| GitHub Pages | `npm run pages:build` → `dist-pages/` | 中英文 HTML、13 帧轻量地图、来源元数据；目录筛选与地图缩放为可选增强 | 无 JavaScript 可阅读和导航；研究工作区、完整地形与 PWA 属于完整应用 |
 | Interactive Web / PWA | `npm run build` → `dist/` | 完整客户端、Service Worker 与按需数据缓存 | 可独立托管；GitHub Pages 不部署此产物 |
 | Android | `android/` + Capacitor 8 | API 24+，完整离线数据、离线 SQL、系统返回键和深链 | CI 生成可安装的调试 APK；商店 AAB 签名与发布另行配置 |
 | iOS / iPadOS | `ios/` + Capacitor 8 / Swift Package Manager | iOS 15+，完整离线数据、离线 SQL、安全区和深链 | macOS CI 执行模拟器应用测试并生成未签名设备 Archive；安装到真机需 Apple 签名 |
@@ -84,6 +84,8 @@ npm run dev
 开发地址为 `http://localhost:5173/evo/`。
 
 静态站点独立运行 `npm run verify:pages`，检查链接、64 MiB 预算和禁用 JavaScript 的三浏览器阅读流程。Pages 部署只上传 `dist-pages/`。
+
+阅读首页提供三条证据故事路线和 12 个纪的年代导航。10 类目录支持中文、英文、学名与编号混合搜索，以及名称排序；复制带 `q` / `sort` 的地址即可分享结果，语言切换保留筛选条件。增强脚本只搜索当前 HTML，不下载完整登记册。完整应用搜索支持方向键、Enter、Esc、中文输入法与失败重试。设计和验证边界见 [`docs/discovery-experience.md`](docs/discovery-experience.md)。
 
 运行完整发布契约：
 
