@@ -49,10 +49,11 @@ const MAP_CACHE_LIMIT = 18
 const WINDOW_CACHE_LIMIT = 12
 let worker: Worker | null = null
 let requestId = 0
+let cacheGeneration = 0
 const workerRequests = new Map<number, { resolve: (data: unknown) => void; reject: (error: Error) => void }>()
 
 function cacheKey(file: RuntimeFile): string {
-  return `${file.url}#${file.sha256 ?? 'unverified'}`
+  return `${file.url}#${file.sha256 ?? 'unverified'}#${file.sourceSha256 ?? ''}#${file.mediaType ?? ''}`
 }
 
 function dataUrl(relativeUrl: string): string {
@@ -148,12 +149,17 @@ function runtimeWorker(): Worker | null {
 }
 
 async function loadWithWorker<T>(file: RuntimeFile, query?: RuntimeRowQuery, signal?: AbortSignal): Promise<T> {
+  const generation = cacheGeneration
+  const stillCurrent = (data: T): T => {
+    if (generation !== cacheGeneration) throw new DOMException('Runtime cache was cleared', 'AbortError')
+    return data
+  }
   signal?.throwIfAborted()
   const activeWorker = runtimeWorker()
   if (!activeWorker) {
     const data = await loadWithoutWorker<T>(file)
     signal?.throwIfAborted()
-    return query ? createRuntimeRowIndex(data as unknown[])(query) as T : data
+    return stillCurrent(query ? createRuntimeRowIndex(data as unknown[])(query) as T : data)
   }
   const id = ++requestId
   return new Promise<T>((resolve, reject) => {
@@ -174,7 +180,7 @@ async function loadWithWorker<T>(file: RuntimeFile, query?: RuntimeRowQuery, sig
     // Resolve native ./data against the document, not the worker's assets/ URL.
     const url = new URL(dataUrl(file.url), document.baseURI).href
     activeWorker.postMessage({ id, url, sha256: file.sha256, sourceSha256: file.sourceSha256, mediaType: file.mediaType, ...(query ? { query } : {}) })
-  })
+  }).then(stillCurrent)
 }
 
 export async function loadRuntimeFile<T>(file: RuntimeFile): Promise<T> {
@@ -185,10 +191,10 @@ export async function loadRuntimeFile<T>(file: RuntimeFile): Promise<T> {
   if (pending) return pending as Promise<T>
   const request = loadWithWorker<T>(file).then((data) => {
     jsonCache.set(key, data)
-    inFlight.delete(key)
+    if (inFlight.get(key) === request) inFlight.delete(key)
     return data
   }, (error) => {
-    inFlight.delete(key)
+    if (inFlight.get(key) === request) inFlight.delete(key)
     throw error
   })
   inFlight.set(key, request)
@@ -206,7 +212,7 @@ async function loadWindowedRuntimeFile<T>(file: RuntimeFile): Promise<T> {
   const pending = windowInFlight.get(key)
   if (pending) return pending as Promise<T>
   const request = loadWithWorker<T>(file).then((data) => {
-    windowInFlight.delete(key)
+    if (windowInFlight.get(key) === request) windowInFlight.delete(key)
     windowJsonCache.delete(key)
     windowJsonCache.set(key, data)
     while (windowJsonCache.size > WINDOW_CACHE_LIMIT) {
@@ -216,7 +222,7 @@ async function loadWindowedRuntimeFile<T>(file: RuntimeFile): Promise<T> {
     }
     return data
   }, (error) => {
-    windowInFlight.delete(key)
+    if (windowInFlight.get(key) === request) windowInFlight.delete(key)
     throw error
   })
   windowInFlight.set(key, request)
@@ -234,7 +240,7 @@ async function loadMapRuntimeFile<T>(file: RuntimeFile): Promise<T> {
   const pending = mapInFlight.get(key)
   if (pending) return pending as Promise<T>
   const request = loadWithWorker<T>(file).then((data) => {
-    mapInFlight.delete(key)
+    if (mapInFlight.get(key) === request) mapInFlight.delete(key)
     mapJsonCache.set(key, data)
     while (mapJsonCache.size > MAP_CACHE_LIMIT) {
       const oldest = mapJsonCache.keys().next().value
@@ -243,7 +249,7 @@ async function loadMapRuntimeFile<T>(file: RuntimeFile): Promise<T> {
     }
     return data
   }, (error) => {
-    mapInFlight.delete(key)
+    if (mapInFlight.get(key) === request) mapInFlight.delete(key)
     throw error
   })
   mapInFlight.set(key, request)
@@ -251,11 +257,13 @@ async function loadMapRuntimeFile<T>(file: RuntimeFile): Promise<T> {
 }
 
 async function loadBootstrapManifest(): Promise<CurrentRuntimeManifest> {
+  const generation = cacheGeneration
   const key = 'current.json#bootstrap'
   const cached = jsonCache.get(key)
   if (cached !== undefined) return cached as CurrentRuntimeManifest
   const response = await fetchBootstrapResponse('current.json')
   const data = await response.json() as CurrentRuntimeManifest
+  if (generation !== cacheGeneration) throw new DOMException('Runtime cache was cleared', 'AbortError')
   const expectedReleaseBase = `releases/${data.datasetVersion}/`
   if (data.releaseBase !== expectedReleaseBase) {
     throw new Error(`Runtime bootstrap release mismatch: expected ${expectedReleaseBase}, received ${data.releaseBase}`)
@@ -269,11 +277,13 @@ export function loadCurrentManifest(): Promise<CurrentRuntimeManifest> {
 }
 
 async function loadBootstrapJson<T>(relativeUrl: string): Promise<T> {
+  const generation = cacheGeneration
   const key = `${relativeUrl}#bootstrap`
   const cached = jsonCache.get(key)
   if (cached !== undefined) return cached as T
   const response = await fetchBootstrapResponse(relativeUrl)
   const data = await response.json() as T
+  if (generation !== cacheGeneration) throw new DOMException('Runtime cache was cleared', 'AbortError')
   jsonCache.set(key, data)
   return data
 }
@@ -1474,7 +1484,10 @@ export function runtimeDataUrl(relativeUrl: string): string {
 }
 
 export function clearRuntimeMemoryCache(): void {
+  cacheGeneration++
   worker?.postMessage({ clearIndexes: true })
+  for (const request of workerRequests.values()) request.reject(new DOMException('Runtime cache was cleared', 'AbortError'))
+  workerRequests.clear()
   jsonCache.clear()
   inFlight.clear()
   windowJsonCache.clear()

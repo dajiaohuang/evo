@@ -1,4 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
+import { createHash } from 'node:crypto'
 
 function jsonResponse(value: unknown): Response {
   return new Response(JSON.stringify(value), { status: 200, headers: { 'content-type': 'application/json' } })
@@ -56,6 +57,12 @@ describe('complete Atlas offline storage', () => {
       [files[3].url, 'duplicate export'],
       [files[4].url, [{ colId: 'example', descriptions: [] }]],
     ])
+    for (const file of files) {
+      const payload = JSON.stringify(responses.get(file.url))
+      file.bytes = new TextEncoder().encode(payload).byteLength
+      file.sha256 = createHash('sha256').update(payload).digest('hex')
+    }
+    const totalBytes = files.filter(file => !file.url.includes('/downloads/')).reduce((sum, file) => sum + file.bytes, 0)
     const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
       const url = String(input)
       const entry = [...responses.entries()].find(([suffix]) => url.endsWith(suffix))
@@ -79,11 +86,11 @@ describe('complete Atlas offline storage', () => {
     vi.stubGlobal('Worker', undefined)
 
     const { getCompleteAtlasOfflinePlan, saveCompleteAtlasOffline } = await import('./offlinePackages')
-    await expect(getCompleteAtlasOfflinePlan()).resolves.toEqual({ datasetVersion, fileCount: 4, totalBytes: 57 })
+    await expect(getCompleteAtlasOfflinePlan()).resolves.toEqual({ datasetVersion, fileCount: 4, totalBytes })
     const progress = vi.fn()
-    await expect(saveCompleteAtlasOffline(progress)).resolves.toEqual({ datasetVersion, fileCount: 4, totalBytes: 57 })
+    await expect(saveCompleteAtlasOffline(progress)).resolves.toEqual({ datasetVersion, fileCount: 4, totalBytes })
 
-    expect(progress).toHaveBeenLastCalledWith({ datasetVersion, fileCount: 4, totalBytes: 57, completedFiles: 4, completedBytes: 57 })
+    expect(progress).toHaveBeenLastCalledWith({ datasetVersion, fileCount: 4, totalBytes, completedFiles: 4, completedBytes: totalBytes })
     expect([...stored.keys()].some((url) => url.endsWith('current.json'))).toBe(true)
     expect([...stored.keys()].some((url) => url.endsWith('releases.json'))).toBe(true)
     expect([...stored.keys()].some((url) => url.endsWith('release-files.json'))).toBe(true)

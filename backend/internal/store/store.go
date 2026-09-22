@@ -581,6 +581,9 @@ func indexFiles(s *Snapshot) error {
 		if err != nil {
 			return err
 		}
+		if !info.Mode().IsRegular() {
+			return fmt.Errorf("data inventory contains a non-regular file: %s", filePath)
+		}
 		rel, err := filepath.Rel(s.Root, filePath)
 		if err != nil {
 			return err

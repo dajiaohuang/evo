@@ -4,30 +4,8 @@ import { getReferences, getTaxonProfile } from '../../services/catalog'
 import type { EvolutionStory } from '../../types'
 import type { AppRoute } from '../../utils/routing'
 import { useI18n } from '../../i18n'
+import { decodeStoryDraft, nextStoryStepId, parseStoryDraft, readStoryDraft, STORY_DRAFT_MAX_BYTES, STORY_DRAFT_MAX_STEPS, storyDraftShareUrl, storyIframe, storyStepReady, type LocalStoryDraft, type LocalStoryStep, type StoryView } from '../../services/storyDraft'
 import './StoryStudio.css'
-
-type StoryView = 'map' | 'tree' | 'diversity' | 'evidence'
-
-interface LocalStoryStep {
-  id: string
-  title: string
-  text: string
-  age: number
-  olderMa: number
-  youngerMa: number
-  taxonId: string
-  view: StoryView
-  claimId: string
-}
-
-interface LocalStoryDraft {
-  schemaVersion: 1
-  kind: 'evo-local-story-draft'
-  title: string
-  titleZh: string
-  dek: string
-  steps: LocalStoryStep[]
-}
 
 const STORAGE_KEY = 'evo-local-story-draft-v1'
 const claimIds = new Set(evidenceClaims.map((claim) => claim.id))
@@ -41,42 +19,19 @@ const emptyDraft: LocalStoryDraft = {
   steps: [{ id: 'step-1', title: 'First evidence state', text: 'Explain what this bounded Explorer state shows and which uncertainty remains visible.', age: 66, olderMa: 70, youngerMa: 60, taxonId: 'dinosauria', view: 'tree', claimId: '' }],
 }
 
-function isDraft(value: unknown): value is LocalStoryDraft {
-  if (!value || typeof value !== 'object') return false
-  const draft = value as Partial<LocalStoryDraft>
-  return draft.schemaVersion === 1 && draft.kind === 'evo-local-story-draft' && typeof draft.title === 'string' && typeof draft.titleZh === 'string' && typeof draft.dek === 'string' && Array.isArray(draft.steps)
-}
-
-function encodeDraft(draft: LocalStoryDraft): string {
-  const bytes = new TextEncoder().encode(JSON.stringify(draft))
-  let binary = ''
-  for (const byte of bytes) binary += String.fromCharCode(byte)
-  return btoa(binary).replaceAll('+', '-').replaceAll('/', '_').replace(/=+$/, '')
-}
-
-function decodeDraft(encoded: string): LocalStoryDraft {
-  const base64 = encoded.replaceAll('-', '+').replaceAll('_', '/')
-  const binary = atob(base64.padEnd(Math.ceil(base64.length / 4) * 4, '='))
-  const bytes = Uint8Array.from(binary, (character) => character.charCodeAt(0))
-  const value: unknown = JSON.parse(new TextDecoder().decode(bytes))
-  if (!isDraft(value)) throw new Error('The shared story draft has an unsupported structure.')
-  return value
-}
-
-function initialDraft(encodedDraft?: string | null): LocalStoryDraft {
+function initialDraft(encodedDraft?: string | null): { draft: LocalStoryDraft; message: string } {
   try {
-    if (encodedDraft) return decodeDraft(encodedDraft)
+    if (encodedDraft) return { draft: decodeStoryDraft(encodedDraft), message: '' }
     const stored = window.localStorage.getItem(STORAGE_KEY)
-    if (stored) {
-      const value: unknown = JSON.parse(stored)
-      if (isDraft(value)) return value
-    }
-  } catch { /* Fall back to a new local draft. */ }
-  return structuredClone(emptyDraft)
+    if (stored) return { draft: readStoryDraft(stored), message: '' }
+  } catch {
+    return { draft: structuredClone(emptyDraft), message: 'The draft could not be opened. A new draft is shown; saved data has not been overwritten.' }
+  }
+  return { draft: structuredClone(emptyDraft), message: '' }
 }
 
 function stepReady(step: LocalStoryStep): boolean {
-  return step.title.trim().length > 0 && step.text.trim().length >= 20 && Number.isFinite(step.age) && step.olderMa >= step.age && step.age >= step.youngerMa && step.youngerMa >= 0 && claimIds.has(step.claimId)
+  return storyStepReady(step, claimIds)
 }
 
 function download(name: string, text: string, type: string) {
@@ -95,50 +50,60 @@ interface StoryBuilderProps {
 
 export function StoryBuilder({ encodedDraft, onNavigate }: StoryBuilderProps) {
   const { number, t } = useI18n()
-  const [draft, setDraft] = useState<LocalStoryDraft>(() => initialDraft(encodedDraft))
-  const [message, setMessage] = useState('')
+  const [initial] = useState(() => initialDraft(encodedDraft))
+  const [draft, setDraft] = useState<LocalStoryDraft>(initial.draft)
+  const [message, setMessage] = useState(initial.message)
   const [draggedIndex, setDraggedIndex] = useState<number | null>(null)
   const linkedClaims = useMemo(() => evidenceClaims.filter((claim) => draft.steps.some((step) => step.claimId === claim.id)), [draft.steps])
   const linkedReferences = useMemo(() => getReferences([...new Set(linkedClaims.flatMap((claim) => claim.referenceLinks.map((link) => link.referenceId)))]), [linkedClaims])
   const readySteps = draft.steps.filter(stepReady).length
-  const encoded = useMemo(() => encodeDraft(draft), [draft])
-  const shareUrl = `${window.location.origin}${import.meta.env.BASE_URL}#/stories?id=builder&draft=${encoded}`
+  const shareBase = `${window.location.origin}${import.meta.env.BASE_URL}#/stories?id=builder&draft=`
 
   const updateStep = (index: number, patch: Partial<LocalStoryStep>) => setDraft((current) => ({ ...current, steps: current.steps.map((step, stepIndex) => stepIndex === index ? { ...step, ...patch } : step) }))
-  const addStep = () => setDraft((current) => ({ ...current, steps: [...current.steps, { ...emptyDraft.steps[0], id: `step-${current.steps.length + 1}`, title: `Evidence state ${current.steps.length + 1}` }] }))
+  const addStep = () => setDraft((current) => current.steps.length >= STORY_DRAFT_MAX_STEPS ? current : ({ ...current, steps: [...current.steps, { ...emptyDraft.steps[0], id: nextStoryStepId(current.steps), title: `Evidence state ${current.steps.length + 1}` }] }))
   const removeStep = (index: number) => setDraft((current) => ({ ...current, steps: current.steps.filter((_, stepIndex) => stepIndex !== index) }))
 
   const saveLocal = () => {
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(draft))
-    setMessage(t('Saved in this browser'))
+    try {
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(parseStoryDraft(draft)))
+      setMessage('Saved in this browser')
+    } catch {
+      setMessage('Could not save in this browser. Your edits remain open; use Export JSON to keep a copy.')
+    }
   }
   const importDraft = async (event: ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0]
     if (!file) return
     try {
-      const value: unknown = JSON.parse(await file.text())
-      if (!isDraft(value)) throw new Error(t('Unsupported story draft structure'))
-      setDraft(value)
-      setMessage(t('Draft imported locally'))
+      if (file.size > STORY_DRAFT_MAX_BYTES) throw new Error('Story drafts are limited to 1 MB. Export smaller drafts separately.')
+      setDraft(readStoryDraft(await file.text()))
+      setMessage('Draft imported locally')
     } catch (caught) {
       setMessage(caught instanceof Error ? caught.message : t('Import failed'))
     } finally {
       event.target.value = ''
     }
   }
-  const copyShare = async () => {
-    await navigator.clipboard.writeText(shareUrl)
-    setMessage(t('Teacher share link copied'))
+  const copyShare = async (embed = false) => {
+    try {
+      const url = storyDraftShareUrl(shareBase, draft)
+      await navigator.clipboard.writeText(embed ? storyIframe(draft.title, url) : url)
+      setMessage(embed ? 'Story embed copied' : 'Teacher share link copied')
+    } catch (error) {
+      setMessage(error instanceof Error && /draft|structure/.test(error.message) ? error.message : 'Could not copy to the clipboard. Use Export JSON to share this draft.')
+    }
   }
+  const moveStep = (from: number, target: number) => setDraft(current => {
+    if (from < 0 || target < 0 || from >= current.steps.length || target >= current.steps.length) return current
+    const steps = [...current.steps]
+    const [moved] = steps.splice(from, 1)
+    steps.splice(target, 0, moved)
+    return { ...current, steps }
+  })
   const dropStep = (event: DragEvent<HTMLElement>, targetIndex: number) => {
     event.preventDefault()
     if (draggedIndex === null || draggedIndex === targetIndex) return
-    setDraft((current) => {
-      const steps = [...current.steps]
-      const [moved] = steps.splice(draggedIndex, 1)
-      steps.splice(targetIndex, 0, moved)
-      return { ...current, steps }
-    })
+    moveStep(draggedIndex, targetIndex)
     setDraggedIndex(null)
   }
 
@@ -162,10 +127,10 @@ export function StoryBuilder({ encodedDraft, onNavigate }: StoryBuilderProps) {
         <button onClick={() => download('evo-story-draft.json', `${JSON.stringify(draft, null, 2)}\n`, 'application/json')}>{t('Export JSON')}</button>
         <label><input type="file" accept=".json,application/json" onChange={(event) => void importDraft(event)} /><span>{t('Import JSON')}</span></label>
         <button onClick={() => void copyShare()}>{t('Copy teacher share link')}</button>
-        <button onClick={() => void navigator.clipboard.writeText(`<iframe title="${draft.title}" src="${shareUrl}" loading="lazy"></iframe>`)}>{t('Copy iframe embed')}</button>
-        <button onClick={addStep}>{t('Add Explorer state')}</button>
+        <button onClick={() => void copyShare(true)}>{t('Copy iframe embed')}</button>
+        <button onClick={addStep} disabled={draft.steps.length >= STORY_DRAFT_MAX_STEPS}>{t('Add Explorer state')}</button>
       </div>
-      {message && <p className="story-studio__message" role="status">{message}</p>}
+      {message && <p className="story-studio__message" role="status">{t(message)}</p>}
 
       <section className="story-studio__readiness">
         <div><strong>{number(readySteps)}/{number(draft.steps.length)}</strong><span>{t('steps pass local evidence checks')}</span></div>
@@ -177,8 +142,8 @@ export function StoryBuilder({ encodedDraft, onNavigate }: StoryBuilderProps) {
       <datalist id="story-claim-ids">{evidenceClaims.map((claim) => <option value={claim.id} key={claim.id}>{claim.statement}</option>)}</datalist>
       <div className="story-studio__steps">
         {draft.steps.map((step, index) => (
-          <article key={step.id} draggable onDragStart={() => setDraggedIndex(index)} onDragOver={(event) => event.preventDefault()} onDrop={(event) => dropStep(event, index)} className={stepReady(step) ? 'is-ready' : ''}>
-            <header><span>↕ {String(index + 1).padStart(2, '0')}</span><strong>{stepReady(step) ? t('Evidence linked') : t('Draft incomplete')}</strong><button onClick={() => removeStep(index)} disabled={draft.steps.length === 1}>{t('Remove')}</button></header>
+          <article key={step.id} draggable onDragStart={() => setDraggedIndex(index)} onDragEnd={() => setDraggedIndex(null)} onDragOver={(event) => event.preventDefault()} onDrop={(event) => dropStep(event, index)} className={stepReady(step) ? 'is-ready' : ''}>
+            <header><span>↕ {String(index + 1).padStart(2, '0')}</span><strong>{stepReady(step) ? t('Evidence linked') : t('Draft incomplete')}</strong><button onClick={() => moveStep(index, index - 1)} disabled={index === 0} aria-label={`${t('Move step up')} ${index + 1}`}>↑</button><button onClick={() => moveStep(index, index + 1)} disabled={index === draft.steps.length - 1} aria-label={`${t('Move step down')} ${index + 1}`}>↓</button><button onClick={() => removeStep(index)} disabled={draft.steps.length === 1}>{t('Remove')}</button></header>
             <div className="story-studio__step-grid">
               <label className="wide"><span>{t('Step title')}</span><input value={step.title} onChange={(event) => updateStep(index, { title: event.target.value })} /></label>
               <label className="wide"><span>{t('Explanation')}</span><textarea value={step.text} onChange={(event) => updateStep(index, { text: event.target.value })} /></label>
@@ -200,10 +165,17 @@ export function StoryBuilder({ encodedDraft, onNavigate }: StoryBuilderProps) {
 export function StoryLearningPanel({ story }: { story: EvolutionStory }) {
   const { language, number, t } = useI18n()
   const [answer, setAnswer] = useState<number | null>(null)
+  const [shareMessage, setShareMessage] = useState('')
   const profiles = [...new Set(story.steps.flatMap((step) => step.taxonIds))].map(getTaxonProfile).filter((profile) => profile !== null)
   const claims = evidenceClaims.filter((claim) => story.steps.some((step) => step.claimLinks.some((link) => link.claimId === claim.id)))
   const references = getReferences([...new Set(claims.flatMap((claim) => claim.referenceLinks.map((link) => link.referenceId)))])
   const shareUrl = `${window.location.origin}${import.meta.env.BASE_URL}#/stories?id=${encodeURIComponent(story.id)}`
+  const copy = async (embed: boolean) => {
+    try {
+      await navigator.clipboard.writeText(embed ? storyIframe(story.title, shareUrl) : shareUrl)
+      setShareMessage(embed ? 'Story embed copied' : 'Teacher share link copied')
+    } catch { setShareMessage('Could not copy to the clipboard. Copy the page address from your browser instead.') }
+  }
   const choices = [
     'A bounded Explorer state linked to explicit claims',
     'A complete record of biological diversity',
@@ -216,7 +188,8 @@ export function StoryLearningPanel({ story }: { story: EvolutionStory }) {
         <article><small>{t('Glossary')}</small><h2>{t('Key taxa in this story')}</h2>{profiles.map((profile) => <details key={profile.id}><summary>{language === 'zh' ? profile.commonNameZh : profile.commonName}</summary><p>{t(profile.overview)}</p></details>)}</article>
         <article><small>{t('Quick check')}</small><h2>{t('What does a story step represent?')}</h2>{choices.map((choice, index) => <button className={answer === index ? 'is-selected' : ''} key={choice} onClick={() => setAnswer(index)}>{t(choice)}</button>)}{answer !== null && <p role="status">{answer === 0 ? t('Correct: the state is reproducible, but its data and claims retain explicit limits.') : t('Not quite: a story state is bounded and evidence-linked, not a completeness or expert-consensus claim.')}</p>}</article>
       </div>
-      <div className="story-learning__share"><button onClick={() => void navigator.clipboard.writeText(shareUrl)}>{t('Copy teacher link')}</button><button onClick={() => void navigator.clipboard.writeText(`<iframe title="${story.title}" src="${shareUrl}" loading="lazy"></iframe>`)}>{t('Copy embeddable story card')}</button></div>
+      <div className="story-learning__share"><button onClick={() => void copy(false)}>{t('Copy teacher link')}</button><button onClick={() => void copy(true)}>{t('Copy embeddable story card')}</button></div>
+      {shareMessage && <p role="status">{t(shareMessage)}</p>}
     </section>
   )
 }

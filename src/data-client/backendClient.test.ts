@@ -62,4 +62,59 @@ describe('backend packed-adjacency client', () => {
 
     await expect(loadBackendCatalogueTaxon(root.id)).rejects.toThrow('mixed dataset versions')
   })
+
+  it('retries capabilities after a transient failure', async () => {
+    const fetchMock = vi.fn().mockRejectedValueOnce(new Error('offline')).mockResolvedValue(response(capability))
+    vi.stubGlobal('fetch', fetchMock)
+    const { loadBackendCapabilities } = await import('./backendClient')
+    await expect(loadBackendCapabilities()).rejects.toThrow('offline')
+    await expect(loadBackendCapabilities()).resolves.toMatchObject({ datasetVersion: 'dataset-current' })
+  })
+
+  it('keeps a shared request alive for another subscriber when the first cancels', async () => {
+    let finish!: (value: ReturnType<typeof response>) => void
+    const fetchMock = vi.fn((input: RequestInfo | URL, init?: RequestInit) => {
+      if (String(input).endsWith('/v1/capabilities')) return Promise.resolve(response(capability))
+      return new Promise<ReturnType<typeof response>>((resolve, reject) => {
+        finish = resolve
+        init?.signal?.addEventListener('abort', () => reject(new DOMException('Aborted', 'AbortError')), { once: true })
+      })
+    })
+    vi.stubGlobal('fetch', fetchMock)
+    const { loadBackendCatalogueTaxon } = await import('./backendClient')
+    const first = new AbortController()
+    const second = new AbortController()
+    const cancelled = loadBackendCatalogueTaxon(root.id, first.signal)
+    const surviving = loadBackendCatalogueTaxon(root.id, second.signal)
+    first.abort()
+    await expect(cancelled).rejects.toMatchObject({ name: 'AbortError' })
+    finish(response({ ...capability, entityId: root.id, record: root }))
+    await expect(surviving).resolves.toEqual(root)
+    expect(fetchMock).toHaveBeenCalledTimes(2)
+  })
+
+  it('does not refill a cleared cache with a late response from the previous release', async () => {
+    let finish!: (value: ReturnType<typeof response>) => void
+    const fetchMock = vi.fn((input: RequestInfo | URL) => {
+      if (String(input).endsWith('/v1/capabilities')) return Promise.resolve(response(capability))
+      return new Promise<ReturnType<typeof response>>(resolve => { finish = resolve })
+    })
+    vi.stubGlobal('fetch', fetchMock)
+    const { clearBackendMemoryCache, loadBackendCatalogueTaxon } = await import('./backendClient')
+    const old = loadBackendCatalogueTaxon(root.id)
+    clearBackendMemoryCache()
+    finish(response({ ...capability, entityId: root.id, record: root }))
+    await expect(old).rejects.toMatchObject({ name: 'AbortError' })
+    fetchMock.mockResolvedValue(response({ ...capability, entityId: root.id, record: { ...root, scientificName: 'Current' } }))
+    await expect(loadBackendCatalogueTaxon(root.id)).resolves.toMatchObject({ scientificName: 'Current' })
+  })
+
+  it('does not serve a cached value to a caller whose signal is already aborted', async () => {
+    vi.stubGlobal('fetch', vi.fn(async () => response({ ...capability, entityId: root.id, record: root })))
+    const { loadBackendCatalogueTaxon } = await import('./backendClient')
+    await loadBackendCatalogueTaxon(root.id)
+    const controller = new AbortController()
+    controller.abort()
+    await expect(loadBackendCatalogueTaxon(root.id, controller.signal)).rejects.toMatchObject({ name: 'AbortError' })
+  })
 })

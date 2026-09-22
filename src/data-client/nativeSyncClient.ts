@@ -51,6 +51,11 @@ export interface NativeSyncResourceOptions {
 }
 
 const STORAGE_KEY = 'evo-native-sync-progress-v1'
+const MAX_MANIFEST_LINE = 64 * 1024
+const manifestLineBytes = (line: string) => new TextEncoder().encode(line).byteLength
+const safeResourcePath = (path: unknown): path is string => typeof path === 'string' && path.startsWith('data/')
+  && !/[\\?#%]/.test(path) && ![...path].some(character => character.charCodeAt(0) < 32)
+  && path.split('/').every(part => part !== '' && part !== '.' && part !== '..')
 
 const emptyProgress = (): NativeSyncProgress => ({
   status: 'disabled', datasetVersion: null, filesSeen: 0, bytesSeen: 0, totalFiles: null, totalBytes: null, error: null,
@@ -67,18 +72,18 @@ export function parseNativeSyncLine(line: string): NativeSyncManifestHeader | Na
   const record = value as Record<string, unknown>
   if (record.kind === 'manifest') {
     if (record.schemaVersion !== 1 || record.apiVersion !== 'v1' || record.protocolVersion !== 'v1'
-      || typeof record.datasetVersion !== 'string' || record.releaseVersion !== record.datasetVersion
-      || record.profile !== 'full' || record.complete !== true || !Number.isInteger(record.totalFiles) || (record.totalFiles as number) < 0
-      || !Number.isInteger(record.totalBytes) || (record.totalBytes as number) < 0 || record.resourceBase !== '/v1/resources/') {
+      || typeof record.datasetVersion !== 'string' || !record.datasetVersion || record.releaseVersion !== record.datasetVersion
+      || record.profile !== 'full' || record.complete !== true || !Number.isSafeInteger(record.totalFiles) || (record.totalFiles as number) < 0
+      || !Number.isSafeInteger(record.totalBytes) || (record.totalBytes as number) < 0 || record.resourceBase !== '/v1/resources/') {
       throw new Error('Evo sync stream manifest is not the current full-release contract')
     }
     return record as unknown as NativeSyncManifestHeader
   }
   if (record.kind === 'file') {
-    if (record.profile !== 'full' || typeof record.path !== 'string' || !record.path.startsWith('data/')
-      || !Number.isInteger(record.bytes) || (record.bytes as number) < 0 || typeof record.sha256 !== 'string' || !/^[a-f0-9]{64}$/.test(record.sha256)
+    if (record.profile !== 'full' || !safeResourcePath(record.path)
+      || !Number.isSafeInteger(record.bytes) || (record.bytes as number) < 0 || typeof record.sha256 !== 'string' || !/^[a-f0-9]{64}$/.test(record.sha256)
       || typeof record.mediaType !== 'string' || typeof record.encoding !== 'string'
-      || typeof record.releaseVersion !== 'string' || typeof record.url !== 'string' || !record.url.startsWith('/v1/resources/data/')) {
+      || typeof record.releaseVersion !== 'string' || !record.releaseVersion || record.url !== `/v1/resources/${record.path}`) {
       throw new Error('Evo sync stream file is not a valid current full-release descriptor')
     }
     return record as unknown as NativeSyncFileDescriptor
@@ -87,8 +92,8 @@ export function parseNativeSyncLine(line: string): NativeSyncManifestHeader | Na
 }
 
 export function readNativeSyncProgress(): NativeSyncProgress {
-  if (typeof localStorage === 'undefined') return emptyProgress()
   try {
+    if (typeof localStorage === 'undefined') return emptyProgress()
     const value = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '') as Partial<NativeSyncProgress>
     if (value.status && typeof value.filesSeen === 'number' && typeof value.bytesSeen === 'number') return { ...emptyProgress(), ...value }
   } catch {
@@ -132,6 +137,8 @@ export async function streamNativeSyncManifest(options: StreamNativeSyncOptions 
   let header: NativeSyncManifestHeader | null = null
   const seenPaths = new Set<string>()
   const consume = async (line: string) => {
+    options.signal?.throwIfAborted()
+    if (manifestLineBytes(line) > MAX_MANIFEST_LINE) throw new Error('Evo sync stream line exceeds 64 KiB')
     if (!line.trim()) return
     const record = parseNativeSyncLine(line)
     if (record.kind === 'manifest') {
@@ -141,6 +148,7 @@ export async function streamNativeSyncManifest(options: StreamNativeSyncOptions 
     } else {
       if (!header || record.releaseVersion !== header.datasetVersion) throw new Error('Evo sync stream file precedes or mixes the manifest release')
       if (seenPaths.has(record.path)) throw new Error('Evo sync stream contains a duplicate resource path')
+      if (progress.filesSeen + 1 > header.totalFiles || progress.bytesSeen + record.bytes > header.totalBytes) throw new Error('Evo sync stream exceeds its advertised inventory')
       seenPaths.add(record.path)
       progress = { ...progress, filesSeen: progress.filesSeen + 1, bytesSeen: progress.bytesSeen + record.bytes }
       await options.onFile?.(record)
@@ -153,6 +161,7 @@ export async function streamNativeSyncManifest(options: StreamNativeSyncOptions 
       buffer += decoder.decode(chunk.value, { stream: !chunk.done })
       const lines = buffer.split('\n')
       buffer = lines.pop() ?? ''
+      if (manifestLineBytes(buffer) > MAX_MANIFEST_LINE) throw new Error('Evo sync stream line exceeds 64 KiB')
       for (const line of lines) await consume(line)
       if (chunk.done) break
     }
@@ -172,15 +181,27 @@ export async function streamNativeSyncManifest(options: StreamNativeSyncOptions 
 }
 
 export function resetNativeSyncProgress(): void {
-  if (typeof localStorage !== 'undefined') localStorage.removeItem(STORAGE_KEY)
+  try {
+    if (typeof localStorage !== 'undefined') localStorage.removeItem(STORAGE_KEY)
+  } catch { /* An unavailable progress marker must not prevent a new transfer. */ }
 }
 
 export async function openNativeSyncResource(options: NativeSyncResourceOptions): Promise<Response> {
   if (!frontendContract.native || !isBackendConfigured()) throw new Error('Evo native resource sync is not configured')
-  const startByte = Math.max(0, Math.trunc(options.startByte ?? 0))
+  parseNativeSyncLine(JSON.stringify(options.descriptor))
+  const startByte = options.startByte ?? 0
+  if (!Number.isSafeInteger(startByte) || startByte < 0 || (startByte > 0 && startByte >= options.descriptor.bytes)) throw new Error('Evo native sync resume offset is outside the resource')
   const headers: Record<string, string> = { Accept: options.descriptor.mediaType, 'If-Range': options.descriptor.sha256 }
   if (startByte > 0) headers.Range = `bytes=${startByte}-`
   const response = await fetch(backendUrl(`/v1/resources/${options.descriptor.path}`), { headers, signal: options.signal })
   if (!response.ok) throw new Error(`Evo native resource sync failed (${response.status}) for ${options.descriptor.path}`)
+  const etag = response.headers.get('ETag')
+  const expectedRange = `bytes ${startByte}-${options.descriptor.bytes - 1}/${options.descriptor.bytes}`
+  if (etag !== `"${options.descriptor.sha256}"` || (startByte > 0
+    ? response.status !== 206 || response.headers.get('Content-Range') !== expectedRange
+    : response.status !== 200)) {
+    await response.body?.cancel().catch(() => undefined)
+    throw new Error('Evo native sync resource changed or returned an invalid byte range; refresh the manifest before resuming')
+  }
   return response
 }

@@ -15,7 +15,7 @@ interface RuntimeWorkerRequest {
 }
 
 const indexes = new Map<string, { query: ReturnType<typeof createRuntimeRowIndex>; weight: number }>()
-const active = new Set<number>()
+const active = new Map<number, AbortController>()
 // An input-size budget, not a claim about measured JS heap use.
 const INDEX_SOURCE_BUDGET = 24 * 1024 * 1024
 
@@ -25,6 +25,7 @@ async function digestHex(bytes: ArrayBuffer): Promise<string> {
 }
 
 async function evictUrlFromCaches(url: string): Promise<void> {
+  if (typeof caches === 'undefined') return
   const cacheNames = await caches.keys()
   await Promise.all(cacheNames.map(async (cacheName) => {
     const cache = await caches.open(cacheName)
@@ -32,18 +33,21 @@ async function evictUrlFromCaches(url: string): Promise<void> {
   }))
 }
 
-async function fetchVerifiedBytes(url: string, sha256?: string, sourceSha256?: string, retry = true): Promise<ArrayBuffer> {
-  const cached = retry && typeof caches.match === 'function' ? await caches.match(url) : undefined
-  const response = cached ?? await fetch(url, retry ? undefined : { cache: 'reload' })
+async function fetchVerifiedBytes(url: string, sha256: string | undefined, sourceSha256: string | undefined, signal: AbortSignal, retry = true): Promise<ArrayBuffer> {
+  signal.throwIfAborted()
+  const cached = retry && typeof caches !== 'undefined' && typeof caches.match === 'function' ? await caches.match(url) : undefined
+  signal.throwIfAborted()
+  const response = cached ?? await fetch(url, { signal, ...(retry ? {} : { cache: 'reload' }) })
   if (!response.ok) throw new Error(`Static data request failed (${response.status}) for ${url}`)
   const bytes = await response.arrayBuffer()
+  signal.throwIfAborted()
   const byteView = new Uint8Array(bytes)
   const isGzip = byteView[0] === 0x1f && byteView[1] === 0x8b
   const expectedChecksum = isGzip ? sha256 : sourceSha256 ?? sha256
   if (expectedChecksum && await digestHex(bytes) !== expectedChecksum) {
     if (retry) {
       await evictUrlFromCaches(url)
-      return fetchVerifiedBytes(url, sha256, sourceSha256, false)
+      return fetchVerifiedBytes(url, sha256, sourceSha256, signal, false)
     }
     throw new Error(`Checksum mismatch for ${url} after network refetch`)
   }
@@ -51,11 +55,17 @@ async function fetchVerifiedBytes(url: string, sha256?: string, sourceSha256?: s
 }
 
 self.onmessage = async (event: MessageEvent<RuntimeWorkerRequest>) => {
-  if (event.data.clearIndexes) { indexes.clear(); return }
+  if (event.data.clearIndexes) {
+    for (const controller of active.values()) controller.abort()
+    active.clear()
+    indexes.clear()
+    return
+  }
   const { id, url, sha256, sourceSha256, mediaType, query, cancel } = event.data
-  if (cancel) { active.delete(id); return }
-  active.add(id)
-  const key = `${url}#${sha256 ?? ''}#${sourceSha256 ?? ''}`
+  if (cancel) { active.get(id)?.abort(); active.delete(id); return }
+  const controller = new AbortController()
+  active.set(id, controller)
+  const key = `${url}#${sha256 ?? ''}#${sourceSha256 ?? ''}#${mediaType ?? ''}`
   try {
     const cached = query ? indexes.get(key) : undefined
     if (cached && query) {
@@ -63,7 +73,7 @@ self.onmessage = async (event: MessageEvent<RuntimeWorkerRequest>) => {
       self.postMessage({ id, data: cached.query(query) })
       return
     }
-    const bytes = await fetchVerifiedBytes(url, sha256, sourceSha256)
+    const bytes = await fetchVerifiedBytes(url, sha256, sourceSha256, controller.signal)
     if (!active.has(id)) return
     const byteView = new Uint8Array(bytes)
     const isGzip = byteView[0] === 0x1f && byteView[1] === 0x8b
@@ -90,7 +100,7 @@ self.onmessage = async (event: MessageEvent<RuntimeWorkerRequest>) => {
       self.postMessage({ id, data: index.query(query) })
     } else self.postMessage({ id, data })
   } catch (error) {
-    self.postMessage({ id, error: error instanceof Error ? error.message : String(error) })
+    if (!controller.signal.aborted) self.postMessage({ id, error: error instanceof Error ? error.message : String(error) })
   } finally {
     active.delete(id)
   }

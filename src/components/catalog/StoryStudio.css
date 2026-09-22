@@ -4,14 +4,14 @@
 .story-studio__hero p { max-width: 680px; margin-top: 24px; color: var(--color-text-muted); font: 14px/1.7 var(--font-serif); }
 .story-studio__meta, .story-studio__toolbar, .story-studio__readiness, .story-studio__steps { width: min(1120px, calc(100% - 36px)); margin-inline: auto; }
 .story-studio__meta { margin-top: 44px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.story-studio label { display: flex; flex-direction: column; gap: 7px; color: var(--color-text-faint); font: 8px var(--font-mono); text-transform: uppercase; }
+.story-studio label { display: flex; flex-direction: column; gap: 7px; color: var(--color-text-muted); font: 12px var(--font-sans); }
 .story-studio label.wide { grid-column: 1 / -1; }
-.story-studio input, .story-studio textarea, .story-studio select { width: 100%; min-height: 42px; padding: 10px; border: 1px solid var(--color-border-subtle); background: var(--color-bg-elevated); color: var(--color-text); font: 11px var(--font-sans); }
+.story-studio input, .story-studio textarea, .story-studio select { width: 100%; min-width: 0; min-height: 44px; padding: 10px; border: 1px solid var(--color-border-subtle); background: var(--color-bg-elevated); color: var(--color-text); font: 16px var(--font-sans); }
 .story-studio textarea { min-height: 88px; resize: vertical; }
 .story-studio__toolbar { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 7px; }
-.story-studio__toolbar button, .story-studio__toolbar label { min-height: 38px; padding: 0 12px; display: grid; place-items: center; border: 1px solid var(--color-border-subtle); background: var(--color-surface); color: var(--color-text-muted); cursor: pointer; font: 8px var(--font-mono); text-transform: uppercase; }
+.story-studio__toolbar button, .story-studio__toolbar label { min-height: 44px; padding: 0 12px; display: grid; place-items: center; border: 1px solid var(--color-border-subtle); background: var(--color-surface); color: var(--color-text-muted); cursor: pointer; font: 12px var(--font-sans); }
 .story-studio__toolbar input { position: absolute; width: 1px; height: 1px; opacity: 0; }
-.story-studio__message { width: min(1120px, calc(100% - 36px)); margin: 10px auto 0; color: var(--color-accent); font-size: 9px; }
+.story-studio__message { width: min(1120px, calc(100% - 36px)); margin: 10px auto 0; color: var(--color-accent); font-size: 14px; overflow-wrap: anywhere; }
 .story-studio__readiness { margin-top: 28px; padding: 20px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; border: 1px solid var(--color-border-subtle); }
 .story-studio__readiness div strong, .story-studio__readiness div span { display: block; }
 .story-studio__readiness div strong { font: 500 28px var(--font-display); }
@@ -20,9 +20,12 @@
 .story-studio__steps { margin-top: 18px; display: grid; gap: 12px; }
 .story-studio__steps > article { padding: 20px; border: 1px solid var(--color-border-subtle); background: var(--color-surface); }
 .story-studio__steps > article.is-ready { border-color: var(--color-accent-dim); }
-.story-studio__steps > article > header { display: flex; align-items: center; gap: 12px; color: var(--color-text-faint); font: 8px var(--font-mono); text-transform: uppercase; }
+.story-studio__steps > article > header { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; color: var(--color-text-faint); font: 8px var(--font-mono); text-transform: uppercase; }
 .story-studio__steps > article > header strong { color: var(--color-accent); }
-.story-studio__steps > article > header button { margin-left: auto; border: 0; background: none; color: var(--color-text-faint); cursor: pointer; }
+.story-studio__steps > article > header button { min-width: 44px; min-height: 44px; border: 0; background: none; color: var(--color-text-faint); cursor: pointer; }
+.story-studio__steps > article > header button:first-of-type { margin-left: auto; }
+.story-studio button:disabled { opacity: .5; cursor: default; }
+.story-studio__toolbar label:focus-within { outline: 2px solid var(--color-accent); outline-offset: 3px; }
 .story-studio__step-grid { margin-top: 18px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
 .story-studio__preview { margin-top: 15px; min-height: 38px; padding: 0 12px; border: 1px solid var(--color-accent-dim); background: transparent; color: var(--color-accent); cursor: pointer; }
 .story-learning { width: min(1120px, calc(100% - 36px)); margin: 40px auto 110px; padding-top: 40px; border-top: 1px solid var(--color-border-subtle); }

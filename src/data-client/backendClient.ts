@@ -94,12 +94,67 @@ const SEARCH_PAGE_CACHE_LIMIT = 24
 export const BACKEND_TREE_PAGE_SIZE = FRONTEND_TREE_PAGE_SIZE
 
 let capabilityPromise: Promise<BackendCapabilities> | null = null
+let cacheGeneration = 0
+interface PendingRead<T> {
+  controller: AbortController
+  promise: Promise<T>
+  subscribers: number
+}
 const nodeCache = new Map<string, BackendTreeNodeSummary>()
-const nodeInFlight = new Map<string, Promise<BackendTreeNodeSummary>>()
+const nodeInFlight = new Map<string, PendingRead<BackendTreeNodeSummary>>()
 const childPageCache = new Map<string, BackendCatalogueChildrenResponse>()
-const childPageInFlight = new Map<string, Promise<BackendCatalogueChildrenResponse>>()
+const childPageInFlight = new Map<string, PendingRead<BackendCatalogueChildrenResponse>>()
 const searchPageCache = new Map<string, BackendNameSearchResponse>()
-const searchPageInFlight = new Map<string, Promise<BackendNameSearchResponse>>()
+const searchPageInFlight = new Map<string, PendingRead<BackendNameSearchResponse>>()
+
+const abortedRead = () => new DOMException('Evo backend read cancelled', 'AbortError')
+
+function cachedRead<T>(cache: Map<string, T>, pending: Map<string, PendingRead<T>>, key: string, limit: number,
+  signal: AbortSignal | undefined, load: (signal: AbortSignal) => Promise<T>, remember?: (value: T) => void): Promise<T> {
+  if (signal?.aborted) return Promise.reject(signal.reason ?? abortedRead())
+  const cached = cache.get(key)
+  if (cached !== undefined) return Promise.resolve(touch(cache, key, cached, limit))
+  let entry = pending.get(key)
+  if (!entry) {
+    const generation = cacheGeneration
+    const controller = new AbortController()
+    const created: PendingRead<T> = { controller, subscribers: 0, promise: undefined! }
+    created.promise = load(controller.signal).then(value => {
+      if (generation !== cacheGeneration || controller.signal.aborted) throw abortedRead()
+      remember?.(value)
+      return touch(cache, key, value, limit)
+    }).finally(() => {
+      if (pending.get(key) === created) pending.delete(key)
+    })
+    pending.set(key, created)
+    entry = created
+  }
+  const shared = entry
+  shared.subscribers++
+  return new Promise<T>((resolve, reject) => {
+    let settled = false
+    const finish = () => {
+      if (settled) return false
+      settled = true
+      signal?.removeEventListener('abort', cancel)
+      shared.controller.signal.removeEventListener('abort', cancel)
+      shared.subscribers--
+      return true
+    }
+    const cancel = () => {
+      if (!finish()) return
+      reject(signal?.reason ?? abortedRead())
+      // One view unmounting must not cancel another view's shared transfer.
+      if (shared.subscribers === 0) {
+        if (pending.get(key) === shared) pending.delete(key)
+        shared.controller.abort()
+      }
+    }
+    signal?.addEventListener('abort', cancel, { once: true })
+    shared.controller.signal.addEventListener('abort', cancel, { once: true })
+    shared.promise.then(value => { if (finish()) resolve(value) }, error => { if (finish()) reject(error) })
+  })
+}
 
 export function isBackendConfigured(): boolean {
   return frontendContract.backend.configured
@@ -169,7 +224,9 @@ function assertDataset(value: { datasetVersion: string }, capabilities: BackendC
 export async function loadBackendCapabilities(): Promise<BackendCapabilities> {
   if (!isBackendConfigured()) throw new Error('Evo backend is not configured for this edition')
   if (!capabilityPromise) {
-    capabilityPromise = requestJson<BackendCapabilities>('/v1/capabilities').then((value) => {
+    const generation = cacheGeneration
+    const request = requestJson<BackendCapabilities>('/v1/capabilities').then((value) => {
+      if (generation !== cacheGeneration) throw abortedRead()
       const requiredRecordFields = ['id', 'parentId', 'scientificName', 'authorship', 'rank', 'status', 'sourceDatasetId', 'childCount']
       if (value.treeIndex?.representation !== 'packed-adjacency' || typeof value.treeIndex.releaseAlias !== 'string' || !value.treeIndex.releaseAlias
         || value.treeIndex.paging !== 'offset-cursor' || value.treeIndex.children !== 'direct-children' || value.treeIndex.windowed !== true
@@ -186,7 +243,11 @@ export async function loadBackendCapabilities(): Promise<BackendCapabilities> {
       }
       const roots = value.treeRoots.map(assertNodeSummary)
       return { ...value, treeRoots: roots }
+    }).catch(error => {
+      if (capabilityPromise === request) capabilityPromise = null
+      throw error
     })
+    capabilityPromise = request
   }
   return capabilityPromise
 }
@@ -200,50 +261,36 @@ export async function loadBackendCatalogueRoots(): Promise<{
 }
 
 export async function loadBackendCatalogueTaxon(id: string, signal?: AbortSignal): Promise<BackendTreeNodeSummary> {
-  const cached = nodeCache.get(id)
-  if (cached) {
-    touch(nodeCache, id, cached, NODE_CACHE_LIMIT)
-    return cached
-  }
-  const pending = nodeInFlight.get(id)
-  if (pending) return pending
-  const request = Promise.all([loadBackendCapabilities(), requestJson<BackendCatalogueTaxonResponse>(`/v1/catalogue/taxa/${encodeURIComponent(id)}`, signal)])
+  return cachedRead(nodeCache, nodeInFlight, id, NODE_CACHE_LIMIT, signal, sharedSignal =>
+    Promise.all([loadBackendCapabilities(), requestJson<BackendCatalogueTaxonResponse>(`/v1/catalogue/taxa/${encodeURIComponent(id)}`, sharedSignal)])
     .then(([capabilities, response]) => {
       assertDataset(response, capabilities)
-      if (response.entityId !== id || response.record.id !== id) throw new Error(`Evo backend returned the wrong tree node for ${id}`)
-      return touch(nodeCache, id, assertNodeSummary(response.record), NODE_CACHE_LIMIT)
-    })
-    .finally(() => nodeInFlight.delete(id))
-  nodeInFlight.set(id, request)
-  return request
+      const record = assertNodeSummary(response.record)
+      if (response.entityId !== id || record.id !== id) throw new Error(`Evo backend returned the wrong tree node for ${id}`)
+      return record
+    }))
 }
 
 export async function loadBackendCatalogueChildren(
   parentId: string,
   options: { cursor?: string; limit?: number; signal?: AbortSignal } = {},
 ): Promise<BackendCatalogueChildrenResponse> {
-  const limit = Math.max(1, Math.min(500, Math.trunc(options.limit ?? BACKEND_TREE_PAGE_SIZE)))
+  const limit = pageLimit(options.limit, BACKEND_TREE_PAGE_SIZE, 500)
   const cursor = options.cursor ?? ''
-  const key = `${parentId}:${cursor}:${limit}`
-  const cached = childPageCache.get(key)
-  if (cached) return touch(childPageCache, key, cached, CHILD_PAGE_CACHE_LIMIT)
-  const pending = childPageInFlight.get(key)
-  if (pending) return pending
+  const key = JSON.stringify([parentId, cursor, limit])
   const query = new URLSearchParams({ limit: String(limit) })
   if (cursor) query.set('cursor', cursor)
-  const request = Promise.all([loadBackendCapabilities(), requestJson<BackendCatalogueChildrenResponse>(`/v1/catalogue/taxa/${encodeURIComponent(parentId)}/children?${query}`, options.signal)])
+  return cachedRead(childPageCache, childPageInFlight, key, CHILD_PAGE_CACHE_LIMIT, options.signal, sharedSignal =>
+    Promise.all([loadBackendCapabilities(), requestJson<BackendCatalogueChildrenResponse>(`/v1/catalogue/taxa/${encodeURIComponent(parentId)}/children?${query}`, sharedSignal)])
     .then(([capabilities, response]) => {
       assertDataset(response, capabilities)
-      if (response.parentId !== parentId || !Array.isArray(response.records) || response.records.some((record) => record.parentId !== parentId)) {
+      if (response.parentId !== parentId || !Array.isArray(response.records)) {
         throw new Error(`Evo backend returned an invalid child page for ${parentId}`)
       }
       const normalized = { ...response, records: response.records.map(assertNodeSummary) }
-      normalized.records.forEach((record) => touch(nodeCache, record.id, record, NODE_CACHE_LIMIT))
-      return touch(childPageCache, key, normalized, CHILD_PAGE_CACHE_LIMIT)
-    })
-    .finally(() => childPageInFlight.delete(key))
-  childPageInFlight.set(key, request)
-  return request
+      if (normalized.records.some(record => record.parentId !== parentId)) throw new Error(`Evo backend returned an invalid child page for ${parentId}`)
+      return normalized
+    }), value => value.records.forEach(record => touch(nodeCache, record.id, record, NODE_CACHE_LIMIT)))
 }
 
 export async function loadBackendCataloguePath(id: string, signal?: AbortSignal): Promise<BackendTreeNodeSummary[]> {
@@ -265,30 +312,32 @@ export async function searchBackendNames(
   query: string,
   options: { cursor?: string; limit?: number; signal?: AbortSignal } = {},
 ): Promise<BackendNameSearchResponse> {
-  const limit = Math.max(1, Math.min(100, Math.trunc(options.limit ?? 24)))
+  const limit = pageLimit(options.limit, 24, 100)
   const cursor = options.cursor ?? ''
-  const key = `${query}:${cursor}:${limit}`
-  const cached = searchPageCache.get(key)
-  if (cached) return touch(searchPageCache, key, cached, SEARCH_PAGE_CACHE_LIMIT)
-  const pending = searchPageInFlight.get(key)
-  if (pending) return pending
+  const key = JSON.stringify([query, cursor, limit])
   const params = new URLSearchParams({ q: query, limit: String(limit) })
   if (cursor) params.set('cursor', cursor)
-  const request = Promise.all([loadBackendCapabilities(), requestJson<BackendNameSearchResponse>(`/v1/search/names?${params}`, options.signal)])
+  return cachedRead(searchPageCache, searchPageInFlight, key, SEARCH_PAGE_CACHE_LIMIT, options.signal, sharedSignal =>
+    Promise.all([loadBackendCapabilities(), requestJson<BackendNameSearchResponse>(`/v1/search/names?${params}`, sharedSignal)])
     .then(([capabilities, response]) => {
       assertDataset(response, capabilities)
-      if (!Array.isArray(response.records) || response.records.some((record) => typeof record.id !== 'string' || typeof record.title !== 'string')) {
+      if (!Array.isArray(response.records) || response.records.some((record) => !record || typeof record.id !== 'string' || typeof record.title !== 'string')) {
         throw new Error('Evo backend returned an invalid name-search page')
       }
-      return touch(searchPageCache, key, response, SEARCH_PAGE_CACHE_LIMIT)
-    })
-    .finally(() => searchPageInFlight.delete(key))
-  searchPageInFlight.set(key, request)
-  return request
+      return response
+    }))
+}
+
+function pageLimit(value: number | undefined, fallback: number, max: number): number {
+  return value !== undefined && Number.isFinite(value) ? Math.max(1, Math.min(max, Math.trunc(value))) : fallback
 }
 
 export function clearBackendMemoryCache(): void {
+  cacheGeneration++
   capabilityPromise = null
+  for (const requests of [nodeInFlight, childPageInFlight, searchPageInFlight]) {
+    for (const request of requests.values()) request.controller.abort()
+  }
   nodeCache.clear()
   nodeInFlight.clear()
   childPageCache.clear()
