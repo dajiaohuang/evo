@@ -250,3 +250,14 @@ The selected Plazi descriptions in `data/sources/plazi-descriptions.jsonl.gz` ar
 Except for explicitly licensed descriptive-text collections documented above, scientific references are metadata and links, not redistributed article text. See `THIRD_PARTY_NOTICES.md`, `MEDIA_ATTRIBUTION.json`, `data/sources/pbdb-occurrence-bundle.json` and `data/manifest.json` for the exact snapshot and limitations.
 
 Files generated under `dist/data/` or ignored `public/data/` are compact runtime projections of these canonical sources. They do not change the upstream or compilation licenses. Pages-light omits duplicate package ZIPs; when a local native-full build generates ZIPs, they contain the same runtime representation and its manifest, not an independently relicensed dataset.
+## Catalogue of Life comparison snapshots
+
+The COL26.8 → COL26.9 record comparison derives from the official Catalogue
+of Life Base releases of 2026-08-20 (DOI `10.48580/dgywk`) and 2026-09-11
+(DOI `10.48580/dgz5n`), published by the Catalogue of Life Foundation. Preserve
+both citations and the per-source metadata member hashes in the comparison
+manifest. COL26.9 metadata declares raw `cc by`; source-specific declarations
+are not replaced with an inferred license version. The comparison distributes
+minimal nomenclatural before/after records and attribution, not source archives,
+media, referenced publications or species dossiers. See
+[comparison provenance and reproduction](docs/catalogue-release-comparison.md).

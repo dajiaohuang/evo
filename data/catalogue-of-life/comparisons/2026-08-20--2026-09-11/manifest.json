@@ -1,0 +1,3362 @@
+{
+  "schemaVersion": 1,
+  "comparisonStatus": "complete-record-comparison",
+  "fromRelease": "COL26.8",
+  "toRelease": "COL26.9",
+  "inputs": [
+    {
+      "provenance": {
+        "schemaVersion": 1,
+        "registryType": "nomenclatural-and-taxonomic-checklist",
+        "title": "Catalogue of Life",
+        "releaseFlavor": "base",
+        "releaseAlias": "COL26.8",
+        "releaseDate": "2026-08-20",
+        "checklistBankDatasetKey": 316115,
+        "checklistBankSourceKey": 3,
+        "origin": "release",
+        "doi": "10.48580/dgywk",
+        "doiUrl": "https://doi.org/10.48580/dgywk",
+        "publisher": "Catalogue of Life Foundation",
+        "publisherLocation": "Amsterdam, Netherlands",
+        "citation": "Bánki, O., Roskov, Y., Döring, M., Ower, G., Hernández Robles, D. R., Plata Corredor, C. A., Stjernegaard Jeppesen, T., Örn, A., Pape, T., Hobern, D., Garnett, S., Little, H., DeWalt, R. E., Miller, J., Orrell, T., Aalbu, R., Abbott, J., Aedo, C., Aescht, E., et al. (2026). Catalogue of Life (Version 2026-08-20). Catalogue of Life Foundation, Amsterdam, Netherlands. https://doi.org/10.48580/dgywk",
+        "metadataUrl": "https://api.checklistbank.org/dataset/316115",
+        "nameUsageCount": 5425409,
+        "acceptedSpeciesCount": 2183133,
+        "provisionallyAcceptedSpeciesCount": 82483,
+        "sourceChecklistCount": 160,
+        "upstreamReportedCompletenessPercent": 80,
+        "licenseRaw": "cc by",
+        "licenseLabel": "CC BY 4.0",
+        "licenseSpdx": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "archive": {
+          "format": "Darwin Core Archive",
+          "url": "https://download.checklistbank.org/col/monthly/2026-08-20_dwca.zip",
+          "mediaType": "application/zip",
+          "contentLengthBytes": 511590750,
+          "lastModified": "2026-08-21T18:18:10Z",
+          "etag": "\"1e7e415e-65992a8b2329a\"",
+          "upstreamChecksum": null,
+          "computedSha256": "6f558a1d35164afbd48838122d01e044189d20431b702f1d72ee1df0f42b53af",
+          "checksumScope": "Exact HTTP response body",
+          "checksumSource": "Computed locally from the official immutable monthly archive",
+          "taxonFile": "Taxon.tsv",
+          "taxonFileBytes": 1887854057,
+          "taxonFileSha256": "0f2fb6632234d849243f1745626d7e12cf57c9a5ecee6fe9a3914de642bb9e11"
+        },
+        "retrievedAt": "2026-08-29",
+        "snapshotBoundary": "Only taxonRank=species and taxonomicStatus=accepted are counted as accepted species. Species rows with acceptedNameUsageID and status synonym, ambiguous synonym, or misapplied are retained as resolving name usages. Provisionally accepted names are reported but excluded from the accepted baseline.",
+        "scientificLimitations": [
+          "Catalogue of Life reports this Base Release as about 80% complete; it is a versioned authoritative checklist baseline, not a claim that all living species have been discovered or described.",
+          "Nomenclatural coverage is independent of Evo Atlas dossier, evidence, media, fossil, ecology, translation, and expert-review maturity.",
+          "Two accepted species rows have no source checklist datasetID in the upstream archive; their stable Catalogue of Life IDs are retained and the missing lineage is reported.",
+          "Changes in later Catalogue of Life releases require an explicit new snapshot and concept-level diff; this immutable release is never silently rewritten.",
+          "Catalogue of Life usage IDs are authoritative locators within this snapshot but are not guaranteed to remain unchanged across sector resynchronizations; future release diffs must also compare source checklist and name-concept fields."
+        ]
+      },
+      "audit": {
+        "bytes": 511590750,
+        "sha256": "6f558a1d35164afbd48838122d01e044189d20431b702f1d72ee1df0f42b53af",
+        "nameUsages": 5425409,
+        "speciesStatuses": {
+          "accepted": 2183133,
+          "ambiguous synonym": 130689,
+          "misapplied": 3611,
+          "provisionally accepted": 82483,
+          "synonym": 1931136
+        },
+        "taxonMember": {
+          "path": "Taxon.tsv",
+          "bytes": 1887854057,
+          "sha256": "0f2fb6632234d849243f1745626d7e12cf57c9a5ecee6fe9a3914de642bb9e11"
+        },
+        "sourceMembers": [
+          {
+            "path": "dataset/1005.xml",
+            "bytes": 4468,
+            "sha256": "0be9e2608070a3751a63a6a39eb986e8004c8018089af302cbb30e652a82bf24"
+          },
+          {
+            "path": "dataset/1008.xml",
+            "bytes": 3272,
+            "sha256": "74562b3b86e18ebcfa3067b7f5bc17299589e9ab867f0b3c34ca5d55c669534a"
+          },
+          {
+            "path": "dataset/1010.xml",
+            "bytes": 3775,
+            "sha256": "5d8d78eeab16cdc22e835f539a6e98553cbe1a4279a58af532a636ca3fcfbd7a"
+          },
+          {
+            "path": "dataset/1014.xml",
+            "bytes": 9121,
+            "sha256": "97d0d68506525cd970bdc435281b91d56e31b6666834e38ca1d306bf2ab8cffc"
+          },
+          {
+            "path": "dataset/1021.xml",
+            "bytes": 5376,
+            "sha256": "60c4746f6b9704278b4d108af89253b25f810f3d6997bdc7f7ae1fe0c3097a66"
+          },
+          {
+            "path": "dataset/1026.xml",
+            "bytes": 4408,
+            "sha256": "266f71c053a597dba7e925cf851b44994bd64fd7c6158e2edf3efe90c07642d5"
+          },
+          {
+            "path": "dataset/1027.xml",
+            "bytes": 3420,
+            "sha256": "4ca8b6c40da50ad52bd17a2781ee68cf8b1091a74ba583a60d1ca225e76a36b1"
+          },
+          {
+            "path": "dataset/1030.xml",
+            "bytes": 3568,
+            "sha256": "11dd644cf0028d20c0bdd58a065da7c0e2f82641f2196b3e6ca3fccf30ec842b"
+          },
+          {
+            "path": "dataset/1031.xml",
+            "bytes": 3328,
+            "sha256": "9b0539ec0bea88ec4569d80c075266f077edd6829ed3feb83da8b7a1899f3cd9"
+          },
+          {
+            "path": "dataset/1032.xml",
+            "bytes": 4438,
+            "sha256": "c5e8ab011a9f415fda74589b8b38bed62a6f252557f15006e17ecbc7b20edd68"
+          },
+          {
+            "path": "dataset/1033.xml",
+            "bytes": 2670,
+            "sha256": "0c11830f166d4d36e49ee64ecaed3b982f88028acffd92f0399cc734191fb1d7"
+          },
+          {
+            "path": "dataset/1037.xml",
+            "bytes": 4461,
+            "sha256": "93949aff4fdd6a59dfed3af7147c4a9010ca1fe6289f4e5eb059022d735c2453"
+          },
+          {
+            "path": "dataset/1039.xml",
+            "bytes": 4641,
+            "sha256": "0207e5e569bcaa961a1e5e2d91b6917d3b0150a9d49742f8ec88579b2de62ac2"
+          },
+          {
+            "path": "dataset/1042.xml",
+            "bytes": 3315,
+            "sha256": "d89d103bcf8b54ef321927037627c84a8b61e8f9fa966917326f23ef32bd2c16"
+          },
+          {
+            "path": "dataset/1044.xml",
+            "bytes": 13796,
+            "sha256": "18127b21c890a0a6cecf9d2f56129f4697b58a5628195418abea826e7807b70b"
+          },
+          {
+            "path": "dataset/1046.xml",
+            "bytes": 4320,
+            "sha256": "be15c9ab1ff6bc81de22dd6445363f314c01dd2f912a74dd776c58c27cdd29cf"
+          },
+          {
+            "path": "dataset/1048.xml",
+            "bytes": 3197,
+            "sha256": "f3e2bd658cc52b916056c64d55b36cfccf2c44fc4241563394b95154156617aa"
+          },
+          {
+            "path": "dataset/1049.xml",
+            "bytes": 5222,
+            "sha256": "36a40e61064d9af1d4b00257df309e1c8c00db7931d308696e99138f346bd4ab"
+          },
+          {
+            "path": "dataset/1050.xml",
+            "bytes": 5893,
+            "sha256": "8e3d00ad6428f5d1cc26414be6f42c5d8b92696717e4a62418ece87bb053a15e"
+          },
+          {
+            "path": "dataset/1053.xml",
+            "bytes": 3368,
+            "sha256": "ea6c3eef761347c6d4c00cb1706e0fed52122c2283dd2191b4ffa1e0fe9bce87"
+          },
+          {
+            "path": "dataset/1054.xml",
+            "bytes": 3464,
+            "sha256": "0953aae756705798a502af24e313bf9c5ff5d190844e5dd641f8f3160a4ac88b"
+          },
+          {
+            "path": "dataset/1055.xml",
+            "bytes": 3588,
+            "sha256": "854d50c12ec6edce26b3eeb8987322af00ce4da983267235b2361b26056ad2f5"
+          },
+          {
+            "path": "dataset/1058.xml",
+            "bytes": 3909,
+            "sha256": "f619c43e83e4eec5e0ccb5b4aefe04619c889ab4710aeba0b7cbd40f683ea3e6"
+          },
+          {
+            "path": "dataset/1059.xml",
+            "bytes": 4453,
+            "sha256": "e4dde99bb90aae655db739da5b968dc8f5f537135d894c77cb060189aacb5689"
+          },
+          {
+            "path": "dataset/1061.xml",
+            "bytes": 3767,
+            "sha256": "39dd88e93a0fc8e4bdc29cb7b02520ede51d0a691e87196771c46415e602f78a"
+          },
+          {
+            "path": "dataset/1062.xml",
+            "bytes": 4658,
+            "sha256": "7fbc7c75a801627a69b39b1b706cf526098c5a5536237260355e65618f89292a"
+          },
+          {
+            "path": "dataset/1065.xml",
+            "bytes": 5803,
+            "sha256": "60496669c1439e5304357fe8fed5b710a9dce3d80e5444bdec6a515d0b14ddad"
+          },
+          {
+            "path": "dataset/1068.xml",
+            "bytes": 3080,
+            "sha256": "e197290cefbadd972499f7057738ac63c29ac0b27f53d637819334905f82df05"
+          },
+          {
+            "path": "dataset/1070.xml",
+            "bytes": 3850,
+            "sha256": "7dde719c5b7e6ec1db0556ab540f92340d9faa8008c50736d7995b8379430e1b"
+          },
+          {
+            "path": "dataset/1078.xml",
+            "bytes": 4945,
+            "sha256": "8bc5dfbf1ca4d17269ac97b92db3972de49a531740a54f4714c137b3c96c8fef"
+          },
+          {
+            "path": "dataset/1080.xml",
+            "bytes": 3665,
+            "sha256": "1c98ff1cbb5890fa445382c6b1b4251194045a18fcb920611d9c5cd902d5d614"
+          },
+          {
+            "path": "dataset/1081.xml",
+            "bytes": 3611,
+            "sha256": "1b30e7aaa35e3d7bbb167e279dc5733e6e2b15af605b5092fd45ba0624f66319"
+          },
+          {
+            "path": "dataset/1082.xml",
+            "bytes": 3738,
+            "sha256": "5b70ab17d598541d4833a232b4b8c041d3097993bfc47998213ecd821c514587"
+          },
+          {
+            "path": "dataset/1085.xml",
+            "bytes": 5034,
+            "sha256": "a14c477b371de6c38ff3968ba4bfdee36b3ac519013dd979723f0e5958d51ca3"
+          },
+          {
+            "path": "dataset/1086.xml",
+            "bytes": 3308,
+            "sha256": "25245e1ca644069ce4ea32d26bb5e67d827441dd23b1e7fc53158e1dce42155a"
+          },
+          {
+            "path": "dataset/1087.xml",
+            "bytes": 3306,
+            "sha256": "6d7f363cece8bdc4809be269a77e94e8acf7b7c6bee561ebe0c9968eeaa17f7f"
+          },
+          {
+            "path": "dataset/1088.xml",
+            "bytes": 3318,
+            "sha256": "d81c6847f76ae7fc909ff713f14e15e066436c69e04c9158af4c85dc4d48cad7"
+          },
+          {
+            "path": "dataset/1090.xml",
+            "bytes": 3400,
+            "sha256": "a9e71ffb8ca44e30b84cd7601eab279b84776da3e8add030d7c00c02d7e7a8a5"
+          },
+          {
+            "path": "dataset/1091.xml",
+            "bytes": 3843,
+            "sha256": "a544b155904781465af25872eb45dfa4f5bc9937b28a02aa846a7189c4eb7b0a"
+          },
+          {
+            "path": "dataset/1092.xml",
+            "bytes": 4212,
+            "sha256": "721ddceaa7ae6d6a4b749ea2878e4a6c3b2df42eb6e3cd120bfdf828fb751442"
+          },
+          {
+            "path": "dataset/1093.xml",
+            "bytes": 3888,
+            "sha256": "10fcfd92ad38ae276e6efe79570de3fe852218d673e21030695e1133c4b460ed"
+          },
+          {
+            "path": "dataset/1094.xml",
+            "bytes": 7037,
+            "sha256": "19ab98dbe140d299a8b15265a9bcc833603f7b2e1a8f151c83cc950129be5342"
+          },
+          {
+            "path": "dataset/1095.xml",
+            "bytes": 3569,
+            "sha256": "3287d677977bbbd319e83dc40e0f28b3eb3690d9ef3018cf35b5cbf9b29bd261"
+          },
+          {
+            "path": "dataset/1099.xml",
+            "bytes": 4208,
+            "sha256": "ae9f6d5f7146ede8d1fe1d2042e1de837acd4eed0330fda337216de32109174d"
+          },
+          {
+            "path": "dataset/1100.xml",
+            "bytes": 3331,
+            "sha256": "03eddc522c3bdd97417add4a8f743d0e97222eeaebc0020e2e08ce4e91cf3297"
+          },
+          {
+            "path": "dataset/1101.xml",
+            "bytes": 4258,
+            "sha256": "7da7b1ffc3dc0de8b8cbb55745513c5aa6a76973d0eb0e2deb014f273a0f4a46"
+          },
+          {
+            "path": "dataset/1103.xml",
+            "bytes": 3881,
+            "sha256": "b1e6a57ba3c4f589552dc6379ce07759eca3965bdd2236094e9242d5b907d2d8"
+          },
+          {
+            "path": "dataset/1104.xml",
+            "bytes": 3096,
+            "sha256": "3ca2e3d681f54aab3a50577f8e8f5fb14e40178993ef9bf3fdbd63aa50331400"
+          },
+          {
+            "path": "dataset/1105.xml",
+            "bytes": 3549,
+            "sha256": "cec9841832ccddb33a2f491473c7e4d58c96efd671f2d1e939dbcd6cb2aa0cc9"
+          },
+          {
+            "path": "dataset/1106.xml",
+            "bytes": 4006,
+            "sha256": "d4d600376b974491969ef0812dbe7c8cafc8a89f3c3154378c3d1e170108f658"
+          },
+          {
+            "path": "dataset/1107.xml",
+            "bytes": 4465,
+            "sha256": "61a378072ef53aaf6796137f3706bc76b9eaf52b1b378bc523c78a84894f57a1"
+          },
+          {
+            "path": "dataset/1108.xml",
+            "bytes": 3772,
+            "sha256": "5412d11481aaec1312a71881076764ff97fb90942870ba2f281ddf87b466d55e"
+          },
+          {
+            "path": "dataset/1109.xml",
+            "bytes": 3292,
+            "sha256": "21525dd660eda7339307e2c92e33e059ae70a96371e3f28a1dcb75a355488adc"
+          },
+          {
+            "path": "dataset/1110.xml",
+            "bytes": 4822,
+            "sha256": "f007147e4055f49898b1c88abb472293876ba55b85ed65ec0552053115d13a90"
+          },
+          {
+            "path": "dataset/1112.xml",
+            "bytes": 6258,
+            "sha256": "8d1092d60eac9d87ecdc5466405999145168c7e8a9231ebc922c1414d1402f3b"
+          },
+          {
+            "path": "dataset/1113.xml",
+            "bytes": 3266,
+            "sha256": "b1d825643fd823da634c4efa96b2dc71b5f92fc5c63f99722448a00c415bd96f"
+          },
+          {
+            "path": "dataset/1118.xml",
+            "bytes": 3689,
+            "sha256": "490510f5f19a2475e84ef3e0b77a2bf28ecd6b338ae43f8d880633808c83ec76"
+          },
+          {
+            "path": "dataset/1119.xml",
+            "bytes": 3268,
+            "sha256": "70f5f2973a028018c6f7560c836f234589c86677cc8be44b10898bd6fd14b47e"
+          },
+          {
+            "path": "dataset/1120.xml",
+            "bytes": 3343,
+            "sha256": "c7229a77054fae1da25059a4bf31e3981d0f47bcc453b8b0eabd462076676b92"
+          },
+          {
+            "path": "dataset/1122.xml",
+            "bytes": 3832,
+            "sha256": "2dc3641d5056edaf53725a0ef642259adae42f7e2a5f8e036444a606fca10cfd"
+          },
+          {
+            "path": "dataset/1123.xml",
+            "bytes": 4591,
+            "sha256": "42c64f2ecac39f1caa1c1cb258e1876fb6164c3153ff856456c18b438ba0480c"
+          },
+          {
+            "path": "dataset/1124.xml",
+            "bytes": 3246,
+            "sha256": "517a85e3f2d7cb4e57b9d5dcfcd5f7f5bbe15e58d127653e341e81ac8186e485"
+          },
+          {
+            "path": "dataset/1125.xml",
+            "bytes": 3169,
+            "sha256": "eebe5f086c0a3675777f4f191cc057411f60004329c177b6ba3388fc7c82620e"
+          },
+          {
+            "path": "dataset/1126.xml",
+            "bytes": 3732,
+            "sha256": "7cfbf123598fb84d7208921d01b206a73b4bb4df6564b1d25e980d2a4029fe1b"
+          },
+          {
+            "path": "dataset/1127.xml",
+            "bytes": 3210,
+            "sha256": "3c8b9e668ce3255a38fff934ea8538ca98a4fe50324e9a15d88bbd0cf1e31e70"
+          },
+          {
+            "path": "dataset/1128.xml",
+            "bytes": 3940,
+            "sha256": "8f5dc4bcddf0b4a0ece031ed62fb9049744d1061a2ee54904860d3f997112470"
+          },
+          {
+            "path": "dataset/1129.xml",
+            "bytes": 4316,
+            "sha256": "59f3b9a52e55e04f20a095f333e35e4563d205cd0fe4e341322010b541fc99d4"
+          },
+          {
+            "path": "dataset/1130.xml",
+            "bytes": 3010,
+            "sha256": "ea4367484763b7e2d53ef0a9c19eeaf21fb1ca28ac844048de6753f305f77d9d"
+          },
+          {
+            "path": "dataset/1131.xml",
+            "bytes": 5439,
+            "sha256": "30093008c1566c51b0da99559d5d88463fbb6d574cd3eefc38439dcdbb0e4a91"
+          },
+          {
+            "path": "dataset/1132.xml",
+            "bytes": 3572,
+            "sha256": "368e695f15cc2e2ff10c6d524c60432786f079f208d6ece915460e53c00d787a"
+          },
+          {
+            "path": "dataset/1133.xml",
+            "bytes": 5113,
+            "sha256": "6660b1f6ccf1267b904c9770eb4cdd7d1c21bf3c044d0c470853a6eddb902303"
+          },
+          {
+            "path": "dataset/1134.xml",
+            "bytes": 3926,
+            "sha256": "ef846b50738246e0c8697666ab550eab2255d6676523f85e321bc9d93d91054b"
+          },
+          {
+            "path": "dataset/1138.xml",
+            "bytes": 3375,
+            "sha256": "73ad04126a7ed4c12fa14d261147cd88f89efe7cb37a7983211a3d70d843348e"
+          },
+          {
+            "path": "dataset/1139.xml",
+            "bytes": 3123,
+            "sha256": "c2f04cb19f6ae8b806b693c5c7307997f3af4d4f751f2830cfcc6280bd535f94"
+          },
+          {
+            "path": "dataset/1140.xml",
+            "bytes": 6290,
+            "sha256": "c90de2574d38a54d3d02803eb966a04ae987aa08c328a439ce787764fdc74ca6"
+          },
+          {
+            "path": "dataset/1141.xml",
+            "bytes": 5989,
+            "sha256": "471531d697d0e199ae846e749d8c1755258dd3697cbaf8ae45e76b76a6cee545"
+          },
+          {
+            "path": "dataset/1142.xml",
+            "bytes": 3893,
+            "sha256": "67bd40656b240d1455834ddf1d10da126d4b8299efe2fef6e4c740c5e3074e94"
+          },
+          {
+            "path": "dataset/1143.xml",
+            "bytes": 3358,
+            "sha256": "145bba02b012b21f2ee472c0cb42aa9c9fc2eaa241971ad6fbab7eb2522c90df"
+          },
+          {
+            "path": "dataset/1144.xml",
+            "bytes": 2971,
+            "sha256": "3ca82c66f481b9d09095e82dbe8e4059ebae28f662af444de957f8e20153ab59"
+          },
+          {
+            "path": "dataset/1146.xml",
+            "bytes": 3327,
+            "sha256": "0e3dd60cda6fef4ae93cd9b83e4cf9070f6b1a8702034a05274280b1638cfa5f"
+          },
+          {
+            "path": "dataset/1148.xml",
+            "bytes": 2996,
+            "sha256": "18705cc7c81320607e5ceb2357b5ccc44cfc9e50ebe0d2edf636022249d7f8f3"
+          },
+          {
+            "path": "dataset/1149.xml",
+            "bytes": 3017,
+            "sha256": "f077696930cc521de182bb1c9f5214cbd9bad2691fc059eea15944b9066a98f3"
+          },
+          {
+            "path": "dataset/1150.xml",
+            "bytes": 3004,
+            "sha256": "a65db53f372401c8ce069e9f85042a5ffd8be42c52e4ff8681a6c139b0156107"
+          },
+          {
+            "path": "dataset/1152.xml",
+            "bytes": 3650,
+            "sha256": "7c154d155c6731f8409254e82eb742720fb7de57a06d8634f7bee772f7c70e33"
+          },
+          {
+            "path": "dataset/1153.xml",
+            "bytes": 4625,
+            "sha256": "e55224f785e8f007b5d5c5e90684e2226ac0479365c9c25b83eac67f5d30ae51"
+          },
+          {
+            "path": "dataset/1154.xml",
+            "bytes": 3116,
+            "sha256": "e24dd374ea8361c7bbbdd1cfc6b8ed6ee381fb64e4ee874711f61df93d397660"
+          },
+          {
+            "path": "dataset/1157.xml",
+            "bytes": 6058,
+            "sha256": "c6554c54d6adeaf6d73db6a3121ac88fef18c54336ec174ec4299dab6f0eeaf9"
+          },
+          {
+            "path": "dataset/1158.xml",
+            "bytes": 4792,
+            "sha256": "3e2a80cda55314b4bae8896781dd84015fcd8f1f609ab4f79b876b5a550ab47b"
+          },
+          {
+            "path": "dataset/1161.xml",
+            "bytes": 3258,
+            "sha256": "b93dff5caa3cfdf2fe4371a9740ac3f54958b42971556e97a3241d38227bee6b"
+          },
+          {
+            "path": "dataset/1162.xml",
+            "bytes": 4728,
+            "sha256": "c541b02e5400ba876e02b6a91b0183fbf105da1910072d39029ec8e20d029aab"
+          },
+          {
+            "path": "dataset/1163.xml",
+            "bytes": 4102,
+            "sha256": "f8cdd8c54ae3835b5fa067478825060550cf729e0e496bafb8cc0ed0e8d8e6ad"
+          },
+          {
+            "path": "dataset/1164.xml",
+            "bytes": 3926,
+            "sha256": "b1554cc74f460310a10da124215c3c1a75b09f3af14fef09af69187bb06780b4"
+          },
+          {
+            "path": "dataset/1166.xml",
+            "bytes": 6940,
+            "sha256": "69dcf11059b316c944ab70967f6793757546445d8c9bf19ea22b3f9663eeb5e9"
+          },
+          {
+            "path": "dataset/1169.xml",
+            "bytes": 4921,
+            "sha256": "7c5286090040a8ee642978a970b5e5b28ebbc9cd0637ddf01adaa9ad24e51b94"
+          },
+          {
+            "path": "dataset/1171.xml",
+            "bytes": 3207,
+            "sha256": "78e7336fadc9e4aff8e3422d1e8a848e83cad7b0db70f82ba7eb127d791e7a7e"
+          },
+          {
+            "path": "dataset/1172.xml",
+            "bytes": 3624,
+            "sha256": "7785ea521ab9e556701a4440d706cd701354d9c8e3ae0a6ce04be770aaa49994"
+          },
+          {
+            "path": "dataset/1173.xml",
+            "bytes": 4296,
+            "sha256": "009fd07f1ef9623f72de7c81ba6d28950f4e9f195f147332c6ab0ca5ca9f5c3e"
+          },
+          {
+            "path": "dataset/1175.xml",
+            "bytes": 7693,
+            "sha256": "6fe3e843ab4dbed3ca6d5737040450cedf7e736ac68b3d19073f5d1acadff3a6"
+          },
+          {
+            "path": "dataset/1176.xml",
+            "bytes": 3953,
+            "sha256": "f339c73e6a677faf3d229844b51e987bd0d942deb9a57686983aec079b308f1e"
+          },
+          {
+            "path": "dataset/1177.xml",
+            "bytes": 2932,
+            "sha256": "820716f912663d8caaaf4915bb18d4c731ffdacc68f0413171f39e9a0e1d7aba"
+          },
+          {
+            "path": "dataset/1178.xml",
+            "bytes": 3195,
+            "sha256": "736d9de4a7b634bb91c876cddefecdf671800494a677bc24bd188226e88d249d"
+          },
+          {
+            "path": "dataset/1179.xml",
+            "bytes": 3265,
+            "sha256": "b27fee1ff823c7956e1d902dc9f7c21b4abc4fa52a4b981a464212f19d2bb959"
+          },
+          {
+            "path": "dataset/1180.xml",
+            "bytes": 3288,
+            "sha256": "486d3084b2eb7137e07fe47d386ff78e6f0d371548c6f12651c6e9be36e808f8"
+          },
+          {
+            "path": "dataset/1181.xml",
+            "bytes": 3270,
+            "sha256": "6d92bf123e567b86efcc076b2169851100ebd2cd3a4ef899715f3a816b4f1aaa"
+          },
+          {
+            "path": "dataset/1182.xml",
+            "bytes": 3741,
+            "sha256": "fd7f4c6acc392cc2dbefaf3615cc919638f28e2f6e6e60d6be8748be1863b856"
+          },
+          {
+            "path": "dataset/1183.xml",
+            "bytes": 4444,
+            "sha256": "d93a3db1e97d3f8f28bb4f22c32c640b0f149730968ccd65d8101142b4b88145"
+          },
+          {
+            "path": "dataset/1184.xml",
+            "bytes": 4327,
+            "sha256": "cae056d0ba26ded8f97e5119672c534451afb6228a906d9dc48d9874cec3ca33"
+          },
+          {
+            "path": "dataset/1185.xml",
+            "bytes": 3652,
+            "sha256": "ef7a2e5824273f1ffa25817fab972cf3f1449c67d0f1954b7d64f76812da54d2"
+          },
+          {
+            "path": "dataset/1186.xml",
+            "bytes": 6353,
+            "sha256": "12b869a99e8cd4e636bd3542db641dd8c25c1feebdd3ded7b1efa9c24f293863"
+          },
+          {
+            "path": "dataset/1188.xml",
+            "bytes": 3752,
+            "sha256": "53972b82a322c803a72b1cd4e9f8fda726e2957bc7a375d1cbc9bac39df9375e"
+          },
+          {
+            "path": "dataset/1190.xml",
+            "bytes": 3226,
+            "sha256": "33214e3fdc33a6a5502239da20b2f18763e9894c112e0d7581c69d4b84a1e1ac"
+          },
+          {
+            "path": "dataset/1191.xml",
+            "bytes": 3993,
+            "sha256": "b74aeee6c9b211ebe01a069e59ab5f5470a9c1cfc2c3df09725a9371d97fb37f"
+          },
+          {
+            "path": "dataset/1193.xml",
+            "bytes": 5002,
+            "sha256": "01b1fbddc4ed17fc59103a4cf5e39d33743acbb7e11bbe9c1bf826abaddcf53d"
+          },
+          {
+            "path": "dataset/1194.xml",
+            "bytes": 3806,
+            "sha256": "abf3079bea57cba0d7275603fcb720e91ce0616d9175c454c2113ad600e572a2"
+          },
+          {
+            "path": "dataset/1195.xml",
+            "bytes": 3467,
+            "sha256": "2c83de8d923ee11eb1b63b7194c600f8111368aa5e0b77239d8fb231b371b305"
+          },
+          {
+            "path": "dataset/1196.xml",
+            "bytes": 4546,
+            "sha256": "07fd4b8dc84036c7bc6cfc445481967d82d0785c97730722845642df8e93375f"
+          },
+          {
+            "path": "dataset/1197.xml",
+            "bytes": 3743,
+            "sha256": "4e86bd8c31f7e822b052787f7704a682045ad0a913e6a247fc2e5659de1d6d39"
+          },
+          {
+            "path": "dataset/1199.xml",
+            "bytes": 4635,
+            "sha256": "767dfd08e6d43265446220ea7ea12d9bcd5d3b02ed04f5d6af9073f8e48b2571"
+          },
+          {
+            "path": "dataset/1200.xml",
+            "bytes": 8660,
+            "sha256": "24fc80b98e6d981d7a3cfaa69ae08bc2748b20bb6f67a38ba4143f748ba1e8ba"
+          },
+          {
+            "path": "dataset/1201.xml",
+            "bytes": 2820,
+            "sha256": "186aff76dbbceb38f00c47da930d7fff1122bbe8fec9193c94941c5b1e3be4e0"
+          },
+          {
+            "path": "dataset/1202.xml",
+            "bytes": 18577,
+            "sha256": "86f73881d10796b16cdf58499f154c26c08f653e05f9d7dff33e3735c708debb"
+          },
+          {
+            "path": "dataset/1203.xml",
+            "bytes": 5726,
+            "sha256": "0c3baff7215322ea64735cfc72d4488be8e0e9814c5dfa4b0c64c25e21892811"
+          },
+          {
+            "path": "dataset/1204.xml",
+            "bytes": 3690,
+            "sha256": "c7d6d79191863ec3afa7a8a71cf86f62328027fa2c27062b9cd523f99a703b77"
+          },
+          {
+            "path": "dataset/1206.xml",
+            "bytes": 6000,
+            "sha256": "dcff222effeb7429c06fdcf597ef776ad5a9c22dfa19a0a66ee1292aaa3d3b6c"
+          },
+          {
+            "path": "dataset/124661.xml",
+            "bytes": 5308,
+            "sha256": "31101efd3673389d843906a95cb871327bab4c58c43ce25c6259fcb1ee9caa3c"
+          },
+          {
+            "path": "dataset/125101.xml",
+            "bytes": 7076,
+            "sha256": "99a811c4b7a81f4b104e27977feff7ee1d2a5934ac24601c622c17c8b953f600"
+          },
+          {
+            "path": "dataset/170394.xml",
+            "bytes": 5479,
+            "sha256": "44b781622fc477b4b6c2e59bf93cc3deb705a77afa36af495b425cfd43134ea7"
+          },
+          {
+            "path": "dataset/185410.xml",
+            "bytes": 11375,
+            "sha256": "d95ed8fd60be6cdeba56c1ce6cfd798470120662d7c1f66d267a7b2ea2e1e11f"
+          },
+          {
+            "path": "dataset/2004.xml",
+            "bytes": 4868,
+            "sha256": "58a13e28c7c56d8bb374b00f493be545e0fdb43fa1f93b61e7e8532f3c3fe94b"
+          },
+          {
+            "path": "dataset/2007.xml",
+            "bytes": 3649,
+            "sha256": "dcfc584bbf724f53db3d4aaee2e026d4363943c39ee7b7567785d64d4c40274c"
+          },
+          {
+            "path": "dataset/2015.xml",
+            "bytes": 5408,
+            "sha256": "2990c8aaf603d422fe5cc1fb9ba871316aff6a7994eb3152b5d12ad19c8461ef"
+          },
+          {
+            "path": "dataset/2073.xml",
+            "bytes": 3574,
+            "sha256": "6767268af4efa1734ff98dd4569220282da050e4eff521590b12d46f03078518"
+          },
+          {
+            "path": "dataset/2130.xml",
+            "bytes": 3216,
+            "sha256": "a59dc061032b5bd8b875b0853af1f4afc4fbeecdd8f736dd8e1cf98cf6c407ba"
+          },
+          {
+            "path": "dataset/2141.xml",
+            "bytes": 2962,
+            "sha256": "f71f944b11ac4f389b410ab6ce5f8ff905b775ef120a125e5a996f0904c74b33"
+          },
+          {
+            "path": "dataset/2144.xml",
+            "bytes": 6721,
+            "sha256": "8b5e0e95c51f044ceaed8b4a30da9d570b9f462b56fc3b0b30d76aadeb13195f"
+          },
+          {
+            "path": "dataset/219318.xml",
+            "bytes": 7561,
+            "sha256": "6985b128a96520d0c058bdd2e7fa3b41ecc9b3f58fa2165f9f808ac3a3caf855"
+          },
+          {
+            "path": "dataset/2207.xml",
+            "bytes": 4615,
+            "sha256": "324c993d7ddab7fd7a83a1744ff120a9bc4c3fd3a2d8bb7f9b2f35240d244d74"
+          },
+          {
+            "path": "dataset/2232.xml",
+            "bytes": 47997,
+            "sha256": "a4ed79fd41a1999b76839008d4e7fdacd56706cfdaa2d742daed2ead25399a4b"
+          },
+          {
+            "path": "dataset/2256.xml",
+            "bytes": 7829,
+            "sha256": "5b86bff917f9e7fd427c9a15fc0bc604d78a6f2f5364c507a0b647f12f146b09"
+          },
+          {
+            "path": "dataset/2299.xml",
+            "bytes": 3355,
+            "sha256": "f5ff6983e72ca4e531731a17428fc36377e07d570253af91738b301cc38fffa3"
+          },
+          {
+            "path": "dataset/2300.xml",
+            "bytes": 5433,
+            "sha256": "abed64355c52474b9019c85946a3832230e8fe0e59098e4298b9bac12dbb26a1"
+          },
+          {
+            "path": "dataset/2301.xml",
+            "bytes": 3506,
+            "sha256": "c10c9996e99421940ba654fa50117df67ffaa63e4fef8c32a73605d9c1c83f54"
+          },
+          {
+            "path": "dataset/2302.xml",
+            "bytes": 3558,
+            "sha256": "be7a866c8116e51bb998e44db1e93e759794acc8f9795166930f0984605e99fc"
+          },
+          {
+            "path": "dataset/2304.xml",
+            "bytes": 26333,
+            "sha256": "fbc6ad15220b69aec1fa72a7e423abbe125213f6de0ee17c462eb57ab57015dc"
+          },
+          {
+            "path": "dataset/2317.xml",
+            "bytes": 4582,
+            "sha256": "a9e5b024f387dc99e3074be54c43744944eb47c3865c007f3491558e5b5379f5"
+          },
+          {
+            "path": "dataset/2362.xml",
+            "bytes": 4675,
+            "sha256": "72c5e34949f5796d30ae14b4ee2af25a1c52dd90d3d9ab11647910d9ee69e3c6"
+          },
+          {
+            "path": "dataset/265709.xml",
+            "bytes": 8524,
+            "sha256": "fce3dd6c87eb73975e97a6797d5f24d7e0ab3a7ea4db9a27c9d2d88e35e68962"
+          },
+          {
+            "path": "dataset/268676.xml",
+            "bytes": 3058,
+            "sha256": "3541e20137e675250795e71fa152c536a54d611b80be4c7b5c30b791f8cd3eb5"
+          },
+          {
+            "path": "dataset/290628.xml",
+            "bytes": 5390,
+            "sha256": "9173876a9b2e53277fade5f6a3080e036551d35b722c14da02a095e72d3468a5"
+          },
+          {
+            "path": "dataset/296427.xml",
+            "bytes": 2422,
+            "sha256": "7685d208750ff3c128bea48a2bcbb106d38f4895a61acd2f729d9204b449bde0"
+          },
+          {
+            "path": "dataset/298081.xml",
+            "bytes": 4730,
+            "sha256": "bb6052b9823870a1aa58ca0fa6c895e0d75f79cabac6e56b3e1ac47990ca06b7"
+          },
+          {
+            "path": "dataset/307245.xml",
+            "bytes": 4723,
+            "sha256": "278af5083fc01a23bf8949d8032ef2c1df038a6d5e6eeebc247ac7bca36d9045"
+          },
+          {
+            "path": "dataset/308389.xml",
+            "bytes": 5008,
+            "sha256": "9607d5f5e717e33a06e2266abb643c49c1585149728e40eb5631ff42e4eccbaa"
+          },
+          {
+            "path": "dataset/315175.xml",
+            "bytes": 3282,
+            "sha256": "f860a2dffdc98eb536be1612d4f6eb993b82db5f6ff47091c1d95ab96ec8165e"
+          },
+          {
+            "path": "dataset/315660.xml",
+            "bytes": 2750,
+            "sha256": "632e2c9f337941203719f4894f7dd5bf29662251abe9c6968d488cb5364ab9dd"
+          },
+          {
+            "path": "dataset/54170.xml",
+            "bytes": 4309,
+            "sha256": "5b6bafcd8d1ec8890732bb52165e1c309b12551ba347d0f9bb3b633ad107ff64"
+          },
+          {
+            "path": "dataset/54937.xml",
+            "bytes": 2052,
+            "sha256": "67c7924404d8ce68b506797c986fcf171cc46ca38353eb854e2322c08b1eb680"
+          },
+          {
+            "path": "dataset/55353.xml",
+            "bytes": 2948,
+            "sha256": "aad8d1a2b774173f03b2962d370349e89598282316200a8884a8d418d4b9ac3b"
+          },
+          {
+            "path": "dataset/55434.xml",
+            "bytes": 126073,
+            "sha256": "3b3e5dfbadf56e590ae8f9cb16f9685f47c20abffb27a99d16f590cb1315f7d1"
+          },
+          {
+            "path": "dataset/56185.xml",
+            "bytes": 9721,
+            "sha256": "a77a7761584ef5142778f0500341a8219b0b51a02839ad9301d038889f23e92a"
+          }
+        ]
+      }
+    },
+    {
+      "provenance": {
+        "schemaVersion": 1,
+        "registryType": "nomenclatural-and-taxonomic-checklist",
+        "releaseFlavor": "base",
+        "origin": "release",
+        "releaseAlias": "COL26.9",
+        "releaseDate": "2026-09-11",
+        "checklistBankDatasetKey": 316321,
+        "checklistBankSourceKey": 3,
+        "doi": "10.48580/dgz5n",
+        "doiUrl": "https://doi.org/10.48580/dgz5n",
+        "citation": "Bánki, O., Roskov, Y., Döring, M., Ower, G., Hernández Robles, D. R., Plata Corredor, C. A., Stjernegaard Jeppesen, T., Örn, A., Pape, T., Hobern, D., Garnett, S., Little, H., DeWalt, R. E., Miller, J., Orrell, T., Aalbu, R., Abbott, J., Aedo, C., Aescht, E., et al. (2026). Catalogue of Life (Version 2026-09-11). Catalogue of Life Foundation, Amsterdam, Netherlands. https://doi.org/10.48580/dgz5n",
+        "publisher": "Catalogue of Life Foundation",
+        "licenseRaw": "cc by",
+        "nameUsageCount": 5432444,
+        "sourceChecklistCount": 160,
+        "metadataUrl": "https://api.checklistbank.org/dataset/316321",
+        "metadataResponseSha256": "6576ac661a5081f6a0f546b0740bf23927852e0e51da89fc89a6fc2010d692b3",
+        "retrievedAt": "2026-09-22",
+        "adoption": "comparison-only",
+        "archive": {
+          "format": "Darwin Core Archive",
+          "url": "https://download.checklistbank.org/col/monthly/2026-09-11_dwca.zip",
+          "contentLengthBytes": 545685985,
+          "computedSha256": "d50f75ae601e6657f08f45144226f3187d893f42aa74d7a99836e345294787f5",
+          "checksumSource": "Computed locally from the exact official monthly archive response",
+          "upstreamChecksum": null,
+          "lastModified": "2026-09-11T12:17:12Z",
+          "etag": "\"208681e1-65b341072df56\""
+        },
+        "snapshotBoundary": "Only taxonRank=species and taxonomicStatus=accepted count as strictly accepted species; provisional status remains separate.",
+        "scientificLimitations": [
+          "Comparison-only adoption: the active runtime and all authority sidecars remain pinned to COL26.8.",
+          "The upstream website species total includes provisional statuses; strict accepted counts are computed from the pinned archive.",
+          "Raw source licensing declarations are retained, without inferring a license version from cc by alone."
+        ]
+      },
+      "audit": {
+        "bytes": 545685985,
+        "sha256": "d50f75ae601e6657f08f45144226f3187d893f42aa74d7a99836e345294787f5",
+        "nameUsages": 5432444,
+        "speciesStatuses": {
+          "accepted": 2186768,
+          "ambiguous synonym": 130542,
+          "misapplied": 3222,
+          "provisionally accepted": 82665,
+          "synonym": 1932230
+        },
+        "taxonMember": {
+          "path": "Taxon.tsv",
+          "bytes": 1893916425,
+          "sha256": "f38ded06ef8f96c956af603af71e1a7f8a7922e60ca4fddbf7a37e030267df74"
+        },
+        "sourceMembers": [
+          {
+            "path": "dataset/1005.xml",
+            "bytes": 4215,
+            "sha256": "10cd5817927f4f8304987ad3d27e72088cf060002e6b9e419a90c3e90b0adaa9"
+          },
+          {
+            "path": "dataset/1008.xml",
+            "bytes": 3019,
+            "sha256": "7ec7dd0ca7733b2b30722c4154f33545dd8d3864c09dc2780494cbc975afe940"
+          },
+          {
+            "path": "dataset/1010.xml",
+            "bytes": 3522,
+            "sha256": "d70ee18a2bd793450f30386a6fd423ad4615a02e152ccb200ebb1eb7de6a9eed"
+          },
+          {
+            "path": "dataset/1014.xml",
+            "bytes": 8868,
+            "sha256": "e759e89b5019991206c9b71f8fbe173a2a5d0728cc9584524d1770391f705da2"
+          },
+          {
+            "path": "dataset/1021.xml",
+            "bytes": 5123,
+            "sha256": "882d553d3dee82febeef7f09761192eee667fade1625495de2aa80c4e7b1910c"
+          },
+          {
+            "path": "dataset/1027.xml",
+            "bytes": 3167,
+            "sha256": "eda5de63b71220da3180579e541b338f01c3f12b147cace4b3049d63c2155ef6"
+          },
+          {
+            "path": "dataset/1030.xml",
+            "bytes": 3315,
+            "sha256": "62729cfa1999ce025938fbe3d2e4231414af6d83f3e9bf8d2dbb447a248dc291"
+          },
+          {
+            "path": "dataset/1031.xml",
+            "bytes": 3075,
+            "sha256": "29567b74674722a111b4722738deb78203670c7f774dcab24e3599307e82fe9f"
+          },
+          {
+            "path": "dataset/1032.xml",
+            "bytes": 4185,
+            "sha256": "28105149fda22eaed7d70e6f99fa2ce4e4bf15a52bf1c196e20a2e137bf23001"
+          },
+          {
+            "path": "dataset/1033.xml",
+            "bytes": 2670,
+            "sha256": "0c11830f166d4d36e49ee64ecaed3b982f88028acffd92f0399cc734191fb1d7"
+          },
+          {
+            "path": "dataset/1037.xml",
+            "bytes": 4461,
+            "sha256": "93949aff4fdd6a59dfed3af7147c4a9010ca1fe6289f4e5eb059022d735c2453"
+          },
+          {
+            "path": "dataset/1039.xml",
+            "bytes": 4388,
+            "sha256": "cf0e129abc8efab8e160d1054f0e1a959e6c5d6a64fcc080f45579a08f23f124"
+          },
+          {
+            "path": "dataset/1042.xml",
+            "bytes": 3062,
+            "sha256": "0b4bb7e3bf0dc0bb0f4677a07feb3eef3923864e4b9a3c53d36257b24997ffe7"
+          },
+          {
+            "path": "dataset/1044.xml",
+            "bytes": 13543,
+            "sha256": "1e8e87dac860f7e534afdb4a1aa099fa602c720805b0e4ece0b89c927b655789"
+          },
+          {
+            "path": "dataset/1046.xml",
+            "bytes": 4067,
+            "sha256": "b55b99aabaf2de1342a7c6c467f50729378c60b78cba0b42460a4f3505646973"
+          },
+          {
+            "path": "dataset/1048.xml",
+            "bytes": 2944,
+            "sha256": "1a81d5d022c2653b838cc4c05ca47aa8fd449690fea7e8925c13b8c410c2bade"
+          },
+          {
+            "path": "dataset/1049.xml",
+            "bytes": 4969,
+            "sha256": "6acb454c4a908ae87afa74bbda7b3b666fa7cef1586925e158bd82b57309e7e6"
+          },
+          {
+            "path": "dataset/1050.xml",
+            "bytes": 5640,
+            "sha256": "610cb3001362e23e63190a4af5a363c620b245e4fdec14b9de3d161ec760e41b"
+          },
+          {
+            "path": "dataset/1053.xml",
+            "bytes": 3368,
+            "sha256": "ea6c3eef761347c6d4c00cb1706e0fed52122c2283dd2191b4ffa1e0fe9bce87"
+          },
+          {
+            "path": "dataset/1054.xml",
+            "bytes": 3211,
+            "sha256": "f8905ea5c80ad125e247e625e27e8a6b9a405b5f0679709fff4cc38e0f109751"
+          },
+          {
+            "path": "dataset/1055.xml",
+            "bytes": 3335,
+            "sha256": "b70d4170405281c219a3790dabfbdd0b7928f931fce41b0436bcf2204c48ec03"
+          },
+          {
+            "path": "dataset/1058.xml",
+            "bytes": 3656,
+            "sha256": "77d6dc6b685c79c2287bae9b11cb19adabee913c4cd7e39cc8c42f0576470f65"
+          },
+          {
+            "path": "dataset/1059.xml",
+            "bytes": 4200,
+            "sha256": "576f03ade99e82e4306109354327cd81ea1fdcf5a8fa979ab73eeea0e90a58a4"
+          },
+          {
+            "path": "dataset/1061.xml",
+            "bytes": 3514,
+            "sha256": "c64df5a4ace2eb5766502ac61bf9cad90c8f4423868111346b03261736dd7bc4"
+          },
+          {
+            "path": "dataset/1062.xml",
+            "bytes": 4405,
+            "sha256": "ee07bac9c51916b14c878c4c20bd886b1ccdaceb985a9973c56f5867ec029c84"
+          },
+          {
+            "path": "dataset/1065.xml",
+            "bytes": 5550,
+            "sha256": "4f701bae0adc3a3f5809842f6f1e7a53a71deb1d7a8d8b487f44cc7920aba6df"
+          },
+          {
+            "path": "dataset/1068.xml",
+            "bytes": 2827,
+            "sha256": "91e525221a57d30c5bbc24272f083a4305e7a2f21d149b021e34ef4424c752ea"
+          },
+          {
+            "path": "dataset/1070.xml",
+            "bytes": 3597,
+            "sha256": "1508f9f1473e0128acf137168cf1b3e07347f86c488acf8257fc863827f240f0"
+          },
+          {
+            "path": "dataset/1078.xml",
+            "bytes": 4692,
+            "sha256": "5b9ebe2a38af4f27629f7b3cae2b7582ea3068e865b658b7851e1c6148e1b89d"
+          },
+          {
+            "path": "dataset/1080.xml",
+            "bytes": 3412,
+            "sha256": "f5d759fefe1e09d7005d9e23739e3fb770b550f36557bc560b82b8ec0c237c12"
+          },
+          {
+            "path": "dataset/1081.xml",
+            "bytes": 3358,
+            "sha256": "ccc9f20d8019f4384310d079bd4d5fdce6be40cb42fe1bf853ce38c5becdc6a5"
+          },
+          {
+            "path": "dataset/1082.xml",
+            "bytes": 3485,
+            "sha256": "234823c94c38a84724542bb09bf994027c7f582d6ab8daed136f875da223f302"
+          },
+          {
+            "path": "dataset/1085.xml",
+            "bytes": 4781,
+            "sha256": "75358b900ccf277d5fc6701c51e7527711985ae40d4f17643f03889da4651010"
+          },
+          {
+            "path": "dataset/1086.xml",
+            "bytes": 3055,
+            "sha256": "fec708e59c7d51b6704f934ebefc1caa9cb655cbe980975bb5895c2dd49a5d76"
+          },
+          {
+            "path": "dataset/1087.xml",
+            "bytes": 3053,
+            "sha256": "2b26a128a75e34fc75ad8cff229e7ea63830589ed34566ee63fbd04cef911cc0"
+          },
+          {
+            "path": "dataset/1088.xml",
+            "bytes": 3065,
+            "sha256": "04ee0c9a71f47aa799a8e580e770f9d7ab1b0dfe47340632ecda9bd5c167509a"
+          },
+          {
+            "path": "dataset/1090.xml",
+            "bytes": 3147,
+            "sha256": "fab5f774b478e1f515bcecf57771dcba112b3e575e118e0dcc82e74210924f71"
+          },
+          {
+            "path": "dataset/1091.xml",
+            "bytes": 3590,
+            "sha256": "6013750ad39009d7d68fe827e11d8a576e6e81acea84a8e85e2aad1c291a3333"
+          },
+          {
+            "path": "dataset/1092.xml",
+            "bytes": 3959,
+            "sha256": "508ebb47b200126e531dddd1b718ae1c92519fd90186762efc3b2d3e06fe6441"
+          },
+          {
+            "path": "dataset/1093.xml",
+            "bytes": 3635,
+            "sha256": "a8f19e6ab8f3cfc588fe90a9be8d62a2f4951b76163668b2f8297ff397ef8ee7"
+          },
+          {
+            "path": "dataset/1094.xml",
+            "bytes": 6784,
+            "sha256": "c9816e791a3f65bd71ab0bf788889681b1638aa74dbbcd938549b95e029e7412"
+          },
+          {
+            "path": "dataset/1095.xml",
+            "bytes": 3316,
+            "sha256": "26d7cf6b709f971efcd4a305febff4b56ab010e097b2398e52563f0e5f21e36a"
+          },
+          {
+            "path": "dataset/1099.xml",
+            "bytes": 3955,
+            "sha256": "ae3e2d19915a06d0e1d0a9688b038d4932f7533f84077b2f3746b55ddba7b089"
+          },
+          {
+            "path": "dataset/1100.xml",
+            "bytes": 3078,
+            "sha256": "2db79681a221956a2e14117cffa06429582567d6147231377426bee95df5e31e"
+          },
+          {
+            "path": "dataset/1101.xml",
+            "bytes": 4005,
+            "sha256": "a28d88414b95dad09ed7f569ed43ab33b33f50bca800b1bb1323990186d08bd3"
+          },
+          {
+            "path": "dataset/1103.xml",
+            "bytes": 3628,
+            "sha256": "2b11d9742dd5cf1f2dd8704bbfee9ad0899dcd136fa3a7ed9aaf19aa6d1cdfa7"
+          },
+          {
+            "path": "dataset/1104.xml",
+            "bytes": 2843,
+            "sha256": "d548cd3661a681bb6caae888a19ad7ae4331c67cf5831eb8ea0fdd805d0f399b"
+          },
+          {
+            "path": "dataset/1105.xml",
+            "bytes": 3296,
+            "sha256": "e5d9f6722bb41eae1ace9a107462dd4178eac4f1efb8a7c95fc9a8a276438995"
+          },
+          {
+            "path": "dataset/1106.xml",
+            "bytes": 3753,
+            "sha256": "e233961ea7612e88f43d6e97c38725e741c5ab857c56a1278b0619a9a9fd9b88"
+          },
+          {
+            "path": "dataset/1107.xml",
+            "bytes": 4212,
+            "sha256": "b4eb397a47a4527b3710d1a78fd90ff4a3e8fa3dbde0031c6d9e0704153cc679"
+          },
+          {
+            "path": "dataset/1108.xml",
+            "bytes": 3519,
+            "sha256": "9229e3b1a9e06fe350772344b56528138b7689f82b7bc9f1b4ebccbd949837c0"
+          },
+          {
+            "path": "dataset/1109.xml",
+            "bytes": 3039,
+            "sha256": "a50d777ccd9d39e6ef913a51634e1f44b2b409a4e67b3a915aaca07b04cb63f7"
+          },
+          {
+            "path": "dataset/1110.xml",
+            "bytes": 4569,
+            "sha256": "32bf94ad82d23924eef32743648209be61127d6b6c2863fb7dd3eecd8c693847"
+          },
+          {
+            "path": "dataset/1112.xml",
+            "bytes": 6005,
+            "sha256": "d735972ca2448f14a6c8b0cc4b2c37c8217ee100fb33c918a6e1f5939549b2d5"
+          },
+          {
+            "path": "dataset/1113.xml",
+            "bytes": 3013,
+            "sha256": "55ef9456d7bd17c40e1b2e5d93bae81a7bf0a08fdc875a3d1c73a888a78557a1"
+          },
+          {
+            "path": "dataset/1118.xml",
+            "bytes": 3436,
+            "sha256": "ca07b5f08857019a99fbb29d70b5a91a75e33a1c0df0f8b7322e7f77db91e885"
+          },
+          {
+            "path": "dataset/1119.xml",
+            "bytes": 3015,
+            "sha256": "cad339f935acc2539148470696b2111197c30fa359f5a6a0b9481ddbbcf9e5f5"
+          },
+          {
+            "path": "dataset/1120.xml",
+            "bytes": 3090,
+            "sha256": "1d4c6f45c6a8fb7592dff1395b43adf0d0d518577809b91ec1292d83e89acbc4"
+          },
+          {
+            "path": "dataset/1122.xml",
+            "bytes": 3579,
+            "sha256": "a56e5bd2719da70667585fd08c3f57408e6b94f92f21d525573625d1d8c7c597"
+          },
+          {
+            "path": "dataset/1123.xml",
+            "bytes": 4338,
+            "sha256": "a66162a8e1833929fd42c88bb8a76c69c26b333e1b5aeb551ad6544d6447af42"
+          },
+          {
+            "path": "dataset/1124.xml",
+            "bytes": 2993,
+            "sha256": "2428b65e7d85ecbe02cb06340d9f3ab04b4be0987e43ec9a6d49c8cb6263d721"
+          },
+          {
+            "path": "dataset/1125.xml",
+            "bytes": 2916,
+            "sha256": "b31daa123471cbccf9a50decc6aad3d81c6c2a56e787b224e4d81b3b94cbe0a1"
+          },
+          {
+            "path": "dataset/1126.xml",
+            "bytes": 3479,
+            "sha256": "a510edc6d329a56093bb9705012a125cde8fbd36e0c807d57104412c73f76519"
+          },
+          {
+            "path": "dataset/1127.xml",
+            "bytes": 2957,
+            "sha256": "b633362d920a54f9ce4ed833a782408f9eee811b1809fd5570405c5111ba28e6"
+          },
+          {
+            "path": "dataset/1128.xml",
+            "bytes": 3687,
+            "sha256": "fe66fb00558f350e3891ab2eb741fb0baa7f9c7860cf03b3d422baebedcea9a3"
+          },
+          {
+            "path": "dataset/1129.xml",
+            "bytes": 4063,
+            "sha256": "1a912ba71ca29e37dc16d62a89b99ca8b7061bac8ee00377b2edbfcf11ff9530"
+          },
+          {
+            "path": "dataset/1130.xml",
+            "bytes": 2757,
+            "sha256": "080448de2b542afc0a9477425c2f1e0cac08e19c9286f8af4e8c0af0bd884b30"
+          },
+          {
+            "path": "dataset/1131.xml",
+            "bytes": 5186,
+            "sha256": "0f329454a0d5be10401e68095d16eae55a8a0c11cdc069aade8b38944003d8fd"
+          },
+          {
+            "path": "dataset/1132.xml",
+            "bytes": 3319,
+            "sha256": "3aab6607e47d3246177bb4d395f9ae6ec009c33da7f7774e8f97b422089089c8"
+          },
+          {
+            "path": "dataset/1133.xml",
+            "bytes": 4860,
+            "sha256": "642ecf92503968654761f2c4d80a0d48224fcb2604bf877d56c0e3dc1c1e3c1e"
+          },
+          {
+            "path": "dataset/1134.xml",
+            "bytes": 3673,
+            "sha256": "9f71d0f31368b3361da99ac5429ddfadf72604f253dc51bd70d5bfef6de7f35f"
+          },
+          {
+            "path": "dataset/1138.xml",
+            "bytes": 3122,
+            "sha256": "72ee5bb6503eeca56a0b96dc95134cd53ffcb94f57415a728eb39c18277b1b53"
+          },
+          {
+            "path": "dataset/1139.xml",
+            "bytes": 2870,
+            "sha256": "5f2b38362adc3c9411ec090af10c09185209f897b1d93757067447e976e21605"
+          },
+          {
+            "path": "dataset/1140.xml",
+            "bytes": 6037,
+            "sha256": "fd7327e288e855d3fc51c50e6c05721d77bd588ed108d67160531f9a0984676c"
+          },
+          {
+            "path": "dataset/1141.xml",
+            "bytes": 5736,
+            "sha256": "acbcaa6a1ba1eafc4e6c9c6d257875006ab9e73f5b405228c966b86a09323bcb"
+          },
+          {
+            "path": "dataset/1142.xml",
+            "bytes": 3640,
+            "sha256": "bf291a3432d6907881a1b8b3e52bef8b8e5fb67157cf9d88b9ac726f68f23a8f"
+          },
+          {
+            "path": "dataset/1143.xml",
+            "bytes": 3105,
+            "sha256": "29e419492d8ee03332c1c3fe8109db6ba8354925cd86b23d5f1be274f1e413b8"
+          },
+          {
+            "path": "dataset/1144.xml",
+            "bytes": 2718,
+            "sha256": "3ff5a16b0ebecb8885e45e83a94cd25e025762ea97a41496296c816af2414a55"
+          },
+          {
+            "path": "dataset/1146.xml",
+            "bytes": 3074,
+            "sha256": "e10b3fe4c24c6ad0fa2a349b8f0704d5c88a63942d8d3911a68ddff2b3ec5f61"
+          },
+          {
+            "path": "dataset/1148.xml",
+            "bytes": 2743,
+            "sha256": "5b365f39da8c0b7f2cf33d60a5ff1c4863b5c8ae08c2db6571e8ada687af31cf"
+          },
+          {
+            "path": "dataset/1149.xml",
+            "bytes": 2764,
+            "sha256": "dd98ddec217cfa2ad3809f51f1721179af0c16c5441fd31f8d1b3891b86de0cf"
+          },
+          {
+            "path": "dataset/1150.xml",
+            "bytes": 2751,
+            "sha256": "9fced38d7b20fa2d30920f5d26dff295a29c0aa8edaf09c8c534873c8a335490"
+          },
+          {
+            "path": "dataset/1152.xml",
+            "bytes": 3397,
+            "sha256": "2d734703050dac0f33326f34d7cb494b0fc0db5e3af9a0eb865fecdc1ba9c679"
+          },
+          {
+            "path": "dataset/1153.xml",
+            "bytes": 4372,
+            "sha256": "149eadc84d6eb1db0dfaa5034aa24d2fc30051d0b7599cf567cfec3be34234aa"
+          },
+          {
+            "path": "dataset/1154.xml",
+            "bytes": 2863,
+            "sha256": "386958fb6ba4f885f79d10eab63eef4c9f328948ca02fa14fc97fe8bdc7fe0e3"
+          },
+          {
+            "path": "dataset/1157.xml",
+            "bytes": 5805,
+            "sha256": "2b61fbbcb5894b34595326f966272deb9d001bbddb67012c4f6dde4db5f960b7"
+          },
+          {
+            "path": "dataset/1158.xml",
+            "bytes": 4539,
+            "sha256": "af0396ead87ce838e59b0102b47740db5ad28f2d1ba398fa75291e85554acf11"
+          },
+          {
+            "path": "dataset/1161.xml",
+            "bytes": 3005,
+            "sha256": "a11340bc6c3c3fd5798ec44f963934f3a1f69f3f1803bd17b163463a35b0ea9a"
+          },
+          {
+            "path": "dataset/1162.xml",
+            "bytes": 4475,
+            "sha256": "5684165eab83f782295864c6e5e66efb3c03c98f587e89d2b3b766e8564557f5"
+          },
+          {
+            "path": "dataset/1163.xml",
+            "bytes": 3849,
+            "sha256": "cb309bf9828993321d705398236711af1f22cbcfe07a80778041ea904a848812"
+          },
+          {
+            "path": "dataset/1164.xml",
+            "bytes": 3673,
+            "sha256": "dbdabe334b3117153bc6735b91998d82425d8bf321280f5b7d7e57e6254de02d"
+          },
+          {
+            "path": "dataset/1166.xml",
+            "bytes": 6687,
+            "sha256": "176588acc8d0baabb91c1aa3b42d8b40fed1cc477a37555b91a7b3cef20a6dec"
+          },
+          {
+            "path": "dataset/1169.xml",
+            "bytes": 4668,
+            "sha256": "5781f86bddc629febb35f3ca028ea379598fe6555c25cbe6d7c6d073bbea6272"
+          },
+          {
+            "path": "dataset/1171.xml",
+            "bytes": 2954,
+            "sha256": "996d6998f4747b07178acf5d9da1fbab795d673fe7ed58c1e4b6d66bb2394e6e"
+          },
+          {
+            "path": "dataset/1172.xml",
+            "bytes": 3371,
+            "sha256": "d6dd69721a1068443d6fde5daf68b885555ec7a88fc9807c8b9a12284eff9ca1"
+          },
+          {
+            "path": "dataset/1173.xml",
+            "bytes": 4043,
+            "sha256": "0a11386cadb3f5b51626e6789a70823a5b13b948e0670e71325f4569db9af75a"
+          },
+          {
+            "path": "dataset/1175.xml",
+            "bytes": 7440,
+            "sha256": "a21faab2b001b7b85072e5d89300737b25eeff3cb45989546aa1fbe76564bcc3"
+          },
+          {
+            "path": "dataset/1176.xml",
+            "bytes": 3700,
+            "sha256": "655800bd4b6a10c94deded46f91d3f0d83e9cf38792d8d3903f0e74ba1774266"
+          },
+          {
+            "path": "dataset/1177.xml",
+            "bytes": 2679,
+            "sha256": "05129135020d46df8682b53f8bc02758a387d42930f756ce273e2dd7ed86b523"
+          },
+          {
+            "path": "dataset/1178.xml",
+            "bytes": 2942,
+            "sha256": "7d34d02517852b80c410717c610f6fd9ed1bdcaadf18c3e51697eeff150ebb73"
+          },
+          {
+            "path": "dataset/1179.xml",
+            "bytes": 3012,
+            "sha256": "015853e2f1220db107b51ea9b969d4c78f53d50e7bbbf9b801ac23b921759ab5"
+          },
+          {
+            "path": "dataset/1180.xml",
+            "bytes": 3035,
+            "sha256": "0d3e504499d0a0621e88700fd1ae5575fab4b066133547a15217cb2db7b8128e"
+          },
+          {
+            "path": "dataset/1181.xml",
+            "bytes": 3017,
+            "sha256": "1c8659bf88f83f72a20bd48a5886baae1afb4314e16020d4f5d6db7741fec1e3"
+          },
+          {
+            "path": "dataset/1182.xml",
+            "bytes": 3488,
+            "sha256": "a8f8297a32211c4db8f592012727321fe75205f43fa2b7adda0793c56ff40c45"
+          },
+          {
+            "path": "dataset/1183.xml",
+            "bytes": 4191,
+            "sha256": "d4c772a12c55051b333348f9de4fcc02311eb56feffd9cbc67bdadc3c732a434"
+          },
+          {
+            "path": "dataset/1184.xml",
+            "bytes": 4074,
+            "sha256": "17efaa6ac2a8fc4ac221f3671e7118a7befef809942f9a3f124defb72839c6af"
+          },
+          {
+            "path": "dataset/1185.xml",
+            "bytes": 3399,
+            "sha256": "b8fcbdba8acca928ffb0784c064be8ac19fabb8cf6e45cd16723bde8e6511e19"
+          },
+          {
+            "path": "dataset/1186.xml",
+            "bytes": 6100,
+            "sha256": "03929533accda830ab06ce1d8152e9b346c5de267ceb8fce48879f15c2b60062"
+          },
+          {
+            "path": "dataset/1188.xml",
+            "bytes": 3499,
+            "sha256": "be4623dddaa0a89afa3853fba0a89dc769f86c33a1809d4e1262a7969102fec7"
+          },
+          {
+            "path": "dataset/1190.xml",
+            "bytes": 2973,
+            "sha256": "8667d96f5d82b4947e2bf977d492ec54ea5d57cc5510d192be4d4155e9ee8566"
+          },
+          {
+            "path": "dataset/1191.xml",
+            "bytes": 3740,
+            "sha256": "a8ad8d06ba4cafff23e0f0e4aa496048fc5b9a8a68d545af079ec917c08513e0"
+          },
+          {
+            "path": "dataset/1193.xml",
+            "bytes": 4749,
+            "sha256": "bd47e6f946fec3f311d03c76104d89f0c9c9ea95038cdcccf5794aba660383d6"
+          },
+          {
+            "path": "dataset/1194.xml",
+            "bytes": 3553,
+            "sha256": "1a99706f41f68e470014188e02f0cf9ac64078ab6d3c24432111cab4c3d9eeb4"
+          },
+          {
+            "path": "dataset/1195.xml",
+            "bytes": 3214,
+            "sha256": "ef162a6f798648c7f20173367b684140012a677be002bb4600574de62cb4d1c2"
+          },
+          {
+            "path": "dataset/1196.xml",
+            "bytes": 4293,
+            "sha256": "f3583b1eac7b1227f1db6455f174b5f95e2e39b10f11e1bef64fb2f01188adf4"
+          },
+          {
+            "path": "dataset/1197.xml",
+            "bytes": 3490,
+            "sha256": "09e475ebe8182d9fde3e5be7180e34bce489057efe99a319e71e7540b5e66ec3"
+          },
+          {
+            "path": "dataset/1199.xml",
+            "bytes": 4382,
+            "sha256": "abe48fcdda7ea3e2bf1ba922a150119cd4a578e894c3f766af14b22e46685571"
+          },
+          {
+            "path": "dataset/1200.xml",
+            "bytes": 8407,
+            "sha256": "7356e116d27bbb2b3c264709306c54217d2acf1393e4f3fd9c776e4708368975"
+          },
+          {
+            "path": "dataset/1201.xml",
+            "bytes": 2820,
+            "sha256": "186aff76dbbceb38f00c47da930d7fff1122bbe8fec9193c94941c5b1e3be4e0"
+          },
+          {
+            "path": "dataset/1202.xml",
+            "bytes": 18324,
+            "sha256": "4db99c8b3d5fafb9e97316a719ebcec0e47277a2ac2a1a681fb01b0c2b22ce45"
+          },
+          {
+            "path": "dataset/1203.xml",
+            "bytes": 5473,
+            "sha256": "e0a056ca88eb43b0d945f7a60189d695a553957a595cceeec222b3dcf3857347"
+          },
+          {
+            "path": "dataset/1204.xml",
+            "bytes": 3437,
+            "sha256": "3e0aff47860097f7381c111d09eef0970086b5b9658b72efaf72b84b8b054d01"
+          },
+          {
+            "path": "dataset/1206.xml",
+            "bytes": 6000,
+            "sha256": "dcff222effeb7429c06fdcf597ef776ad5a9c22dfa19a0a66ee1292aaa3d3b6c"
+          },
+          {
+            "path": "dataset/124661.xml",
+            "bytes": 5308,
+            "sha256": "efac1f3a177a7865180322e2b748dfb8a73d9544831efc6d7b611220ef3b19a7"
+          },
+          {
+            "path": "dataset/125101.xml",
+            "bytes": 7076,
+            "sha256": "56b80bfaaf4d1658d6368ceb74d59c81113e5477a0e10e01446d379acbb14411"
+          },
+          {
+            "path": "dataset/170394.xml",
+            "bytes": 5479,
+            "sha256": "ab115714e17421d1d0fce0f438bca34d06d87e39265d3e11ac82b6d7b5352a25"
+          },
+          {
+            "path": "dataset/185410.xml",
+            "bytes": 11122,
+            "sha256": "e45b66af2a2d0ef57c055a9c9e703aa6fa01867cf489d55b8ad8805054be3f42"
+          },
+          {
+            "path": "dataset/2004.xml",
+            "bytes": 4615,
+            "sha256": "602a77ba20eb4ae081eadc16412cde0fd1e3e1c2186a72b30f5f26e493f22ba3"
+          },
+          {
+            "path": "dataset/2007.xml",
+            "bytes": 3396,
+            "sha256": "2f167c19f74acabcea0e98b54a2982f4e4c0928a95bdb7a29f8b6c107e09f894"
+          },
+          {
+            "path": "dataset/2015.xml",
+            "bytes": 5155,
+            "sha256": "765cd806a50d1bceb4fc955f890e88e1971d0463bdf0ce9ad9253e5d911b186e"
+          },
+          {
+            "path": "dataset/2073.xml",
+            "bytes": 3574,
+            "sha256": "6767268af4efa1734ff98dd4569220282da050e4eff521590b12d46f03078518"
+          },
+          {
+            "path": "dataset/2130.xml",
+            "bytes": 2963,
+            "sha256": "b5eaa2daa08232ec7dc5b0d84d543f75095e99fc645d15e8a3f467e2e4e37dd1"
+          },
+          {
+            "path": "dataset/2141.xml",
+            "bytes": 2962,
+            "sha256": "f71f944b11ac4f389b410ab6ce5f8ff905b775ef120a125e5a996f0904c74b33"
+          },
+          {
+            "path": "dataset/2144.xml",
+            "bytes": 6468,
+            "sha256": "64e2730706f518d95c03c18d8d43ffb617e303c5a614e52a445083eb6766af01"
+          },
+          {
+            "path": "dataset/219318.xml",
+            "bytes": 7561,
+            "sha256": "6985b128a96520d0c058bdd2e7fa3b41ecc9b3f58fa2165f9f808ac3a3caf855"
+          },
+          {
+            "path": "dataset/2207.xml",
+            "bytes": 4362,
+            "sha256": "29f5edd4898d0b7c89d92a897c0e0041aa1e5ce545cda230d81d672a0eac5b29"
+          },
+          {
+            "path": "dataset/2232.xml",
+            "bytes": 47744,
+            "sha256": "eb580dba76ed342ebec54304f8688c0685d5a4c05afc6b61bb5e19c34fb15e3d"
+          },
+          {
+            "path": "dataset/2256.xml",
+            "bytes": 7829,
+            "sha256": "75866a793494c62ee4b44d98b50341728e6a09ceb6e0dbc2b66c68583c9bf685"
+          },
+          {
+            "path": "dataset/2299.xml",
+            "bytes": 3102,
+            "sha256": "cae5374fd8780b2c541fb6cb9326a12f0c4f544020f5708c9d6d4c53e3bdc822"
+          },
+          {
+            "path": "dataset/2300.xml",
+            "bytes": 5180,
+            "sha256": "9d6efbfd4f7fdb29ba5296603b0ac1b0ea874b5cc0cfb4144e1dfc2ba56bf9e3"
+          },
+          {
+            "path": "dataset/2301.xml",
+            "bytes": 3253,
+            "sha256": "9c08f8b2a3a31f2771b0634809457915a1fe6548cda8d26e4511e046c48b0fb4"
+          },
+          {
+            "path": "dataset/2302.xml",
+            "bytes": 3305,
+            "sha256": "2ef82b5b98486fa4d90987fefe00cc525c8d020fcf717a86ab956c66ecc455b8"
+          },
+          {
+            "path": "dataset/2304.xml",
+            "bytes": 26333,
+            "sha256": "fbc6ad15220b69aec1fa72a7e423abbe125213f6de0ee17c462eb57ab57015dc"
+          },
+          {
+            "path": "dataset/2317.xml",
+            "bytes": 4329,
+            "sha256": "b92a310e6b31188e5a719d18edbf5ee3907782afe7eaa5c4231d7beb9f6e7a7a"
+          },
+          {
+            "path": "dataset/2362.xml",
+            "bytes": 4675,
+            "sha256": "72c5e34949f5796d30ae14b4ee2af25a1c52dd90d3d9ab11647910d9ee69e3c6"
+          },
+          {
+            "path": "dataset/265709.xml",
+            "bytes": 8271,
+            "sha256": "f4089ae86779f1e6cb5120d91f877291f0d8e5c067d363f2bfccec15816e5bad"
+          },
+          {
+            "path": "dataset/268676.xml",
+            "bytes": 2805,
+            "sha256": "7dad1cc6874c0e545ef8b174c9b87f1437475cda64d73138b9c40d1bb16b8372"
+          },
+          {
+            "path": "dataset/290628.xml",
+            "bytes": 5390,
+            "sha256": "9173876a9b2e53277fade5f6a3080e036551d35b722c14da02a095e72d3468a5"
+          },
+          {
+            "path": "dataset/296427.xml",
+            "bytes": 2422,
+            "sha256": "7685d208750ff3c128bea48a2bcbb106d38f4895a61acd2f729d9204b449bde0"
+          },
+          {
+            "path": "dataset/298081.xml",
+            "bytes": 4730,
+            "sha256": "bb6052b9823870a1aa58ca0fa6c895e0d75f79cabac6e56b3e1ac47990ca06b7"
+          },
+          {
+            "path": "dataset/307245.xml",
+            "bytes": 4470,
+            "sha256": "1e09f271237b6fdaeab1777535cb83fba53348311a43e73232a31c0d5825f6ab"
+          },
+          {
+            "path": "dataset/308389.xml",
+            "bytes": 4755,
+            "sha256": "5eff348a376f73e89227f39fb46ec265414ded5dc67ebe275648dc123353cbb9"
+          },
+          {
+            "path": "dataset/315175.xml",
+            "bytes": 3282,
+            "sha256": "b0817abfeafb161f5ac2f84308e642eabe638d1b158d14be7046d954e3fd87e3"
+          },
+          {
+            "path": "dataset/315660.xml",
+            "bytes": 2497,
+            "sha256": "78c2ef4f9e25f980b6d6eb2a7bbd3dbb0f61b30bf3e6aace38e1fd1d62e87ff0"
+          },
+          {
+            "path": "dataset/315880.xml",
+            "bytes": 7849,
+            "sha256": "cfe664437caf05c0d9122f0ef528b39bb220cd2b4e37098bbc0646b278e6a527"
+          },
+          {
+            "path": "dataset/54170.xml",
+            "bytes": 4309,
+            "sha256": "5b6bafcd8d1ec8890732bb52165e1c309b12551ba347d0f9bb3b633ad107ff64"
+          },
+          {
+            "path": "dataset/54937.xml",
+            "bytes": 2052,
+            "sha256": "67c7924404d8ce68b506797c986fcf171cc46ca38353eb854e2322c08b1eb680"
+          },
+          {
+            "path": "dataset/55353.xml",
+            "bytes": 2948,
+            "sha256": "aad8d1a2b774173f03b2962d370349e89598282316200a8884a8d418d4b9ac3b"
+          },
+          {
+            "path": "dataset/55434.xml",
+            "bytes": 130167,
+            "sha256": "f34f9f3d4cd90c46c0f6d282c94b7dbd58a164836597a390af1827cffa8d068d"
+          },
+          {
+            "path": "dataset/56185.xml",
+            "bytes": 9721,
+            "sha256": "d7d9b1ec2b0d1289e9ae956d3f0b1da8d307db2099721e501d68cf4f62532975"
+          }
+        ]
+      }
+    }
+  ],
+  "counts": {
+    "acceptedBefore": 2183133,
+    "acceptedAfter": 2186768,
+    "acceptedNetChange": 3635,
+    "matchedRecords": {
+      "same-source-usage-id": 5337317,
+      "unique-exact-source-name-status": 57055
+    },
+    "sharedIdsWithDifferentSources": 15235
+  },
+  "summary": {
+    "addedAccepted": 12658,
+    "idReplacedOrUnstable": 45387,
+    "nameOrAuthorshipChanged": 932,
+    "noLongerAccepted": 9023,
+    "parentRecordChanged": 18435,
+    "resolvingStatusChanged": 536,
+    "synonymRepointed": 6627,
+    "synonymTargetIdReplaced": 342,
+    "synonymTargetUnresolved": 1622,
+    "synonymized": 1395
+  },
+  "files": [
+    {
+      "path": "changes-0000.jsonl.gz",
+      "records": 2340,
+      "bytes": 108584,
+      "sourceBytes": 1048343,
+      "sha256": "569138fca2fc11bbdf6073e19721c1e8970a59e18228285ee2dd22791eea829c",
+      "sourceSha256": "39c59968d3cd84c810c352eac9727dbb5d47bc9e12cb07622976862f2d3a33a5"
+    },
+    {
+      "path": "changes-0001.jsonl.gz",
+      "records": 2351,
+      "bytes": 84774,
+      "sourceBytes": 1048293,
+      "sha256": "fcb5d0aa6c35dd56a50043621cfdef79e04c8e8b5f5b9f4be7821709333b924b",
+      "sourceSha256": "86c6b858822aa2c9b4f598409e8c61445fba7b4d6b16fb6d4c926629f482bc3b"
+    },
+    {
+      "path": "changes-0002.jsonl.gz",
+      "records": 2360,
+      "bytes": 90268,
+      "sourceBytes": 1048544,
+      "sha256": "511682012dc542312eeee4595cd35b56cfc12bb765923e82e4798ef15d2977ea",
+      "sourceSha256": "940cff618f26f8126344286efd1bc4dbad7a669cccd55252b8e40ad15f77a05a"
+    },
+    {
+      "path": "changes-0003.jsonl.gz",
+      "records": 2347,
+      "bytes": 92334,
+      "sourceBytes": 1048305,
+      "sha256": "5ce4f22ffc8e957b920d3e17e8786ed16aaaf2b1d2522e2ba3839a508bd0ebc9",
+      "sourceSha256": "5d5911d45378d493314bd25ff49fb20e3d57e8d6ed1c6cffa9d604e91aaa3be5"
+    },
+    {
+      "path": "changes-0004.jsonl.gz",
+      "records": 2349,
+      "bytes": 86553,
+      "sourceBytes": 1048463,
+      "sha256": "678f68a000c293dfe548ec08ac711ae55b621e9fd6c13b10a2d7af0f4063dc10",
+      "sourceSha256": "a6444acfbcfb81f3c0e92fb6b832eccd205ee4527ffddd117673f336bf2c0f9b"
+    },
+    {
+      "path": "changes-0005.jsonl.gz",
+      "records": 2370,
+      "bytes": 88713,
+      "sourceBytes": 1048349,
+      "sha256": "74a52a4d08c840fd141459d68166dccc5bbec0230f3f67fd10463b603138c38c",
+      "sourceSha256": "afbcf1f6b3f19d95d618db2603ff374df6d005e8e39200a31fc032a889f0d4c5"
+    },
+    {
+      "path": "changes-0006.jsonl.gz",
+      "records": 2351,
+      "bytes": 92387,
+      "sourceBytes": 1048499,
+      "sha256": "85784def56455be5744a0b178542f4819be1244d72b6e693e007cada635fb6fc",
+      "sourceSha256": "a7df9317ec34842772154fd8b107316b213448c50c2daa04e075d6e00655837c"
+    },
+    {
+      "path": "changes-0007.jsonl.gz",
+      "records": 2359,
+      "bytes": 95414,
+      "sourceBytes": 1048241,
+      "sha256": "83005a3494d8a825ceadf0af97a828e423f5889a4fae5e5d4daf21b34b74b5da",
+      "sourceSha256": "ec827377cdbb4d3a841fad10745ec703b84ee7518368991de983ac4e574e93f7"
+    },
+    {
+      "path": "changes-0008.jsonl.gz",
+      "records": 2361,
+      "bytes": 92650,
+      "sourceBytes": 1048355,
+      "sha256": "17d32911b0090ce139303a7165e815853190f0d03f7f7152cfb8a47f47c49781",
+      "sourceSha256": "3c523f2a0509e213283b136be497b272ccf80ae5cefd59f4e9295f7c4e788420"
+    },
+    {
+      "path": "changes-0009.jsonl.gz",
+      "records": 2349,
+      "bytes": 102484,
+      "sourceBytes": 1048347,
+      "sha256": "bff6872b9eb4b7611a5f50cc40109ee8eefdee71afe28787f7240223fb458059",
+      "sourceSha256": "f61abaa4ebfe9576e445a98e2d89e1e7132bd05c8bd896cb3c29ea87a149a38b"
+    },
+    {
+      "path": "changes-0010.jsonl.gz",
+      "records": 2345,
+      "bytes": 94147,
+      "sourceBytes": 1048265,
+      "sha256": "aa49ace68b53edd1eeb8a8253bb52c4159e4ed59b2fcefeb4e43b5525d4bfcb6",
+      "sourceSha256": "990cf2b744e1c4509b3a715009036f2c724e3b0b8fb0ae4380b81ceab0583d50"
+    },
+    {
+      "path": "changes-0011.jsonl.gz",
+      "records": 2298,
+      "bytes": 94365,
+      "sourceBytes": 1048362,
+      "sha256": "179b05811f5ee80cfb1151d5cb0c7a07e9c5283ea76cee7fb580e6d2cba5af5f",
+      "sourceSha256": "bb6d39dae725801791d07a05d82f58d64b2d6053d19729a99a35857d7cbb08e7"
+    },
+    {
+      "path": "changes-0012.jsonl.gz",
+      "records": 2320,
+      "bytes": 83986,
+      "sourceBytes": 1048220,
+      "sha256": "efb6ce3b139dc2ca2c3a0ec6cdeaf61a50f0d34d9c8a334777c495989ba7dec3",
+      "sourceSha256": "e68e37f2a1b953847374ebb067e75dac66f4d325f5df27eb9754efc789eb6fcb"
+    },
+    {
+      "path": "changes-0013.jsonl.gz",
+      "records": 2345,
+      "bytes": 94232,
+      "sourceBytes": 1048496,
+      "sha256": "f49863955a17b1b5257861ba2552984f343c86f3853949128dabf2f0190c0a80",
+      "sourceSha256": "7c78771dc9788daaf69e79ccfba2bcbc2db1a1703baf24f322ddb7ae4eee04a9"
+    },
+    {
+      "path": "changes-0014.jsonl.gz",
+      "records": 2333,
+      "bytes": 98878,
+      "sourceBytes": 1048352,
+      "sha256": "f2dce68c83e27d661b294ac2ef31f960cd5bcef140aae318304f23480224a404",
+      "sourceSha256": "65e6dd5466183343ca5f380ee6027636a3b4fe8563fed2614771a18222a3e0d9"
+    },
+    {
+      "path": "changes-0015.jsonl.gz",
+      "records": 2336,
+      "bytes": 97173,
+      "sourceBytes": 1048553,
+      "sha256": "7177b7f52de08c95f2b90c6c45bb0f4bf87d8ab1e11aa3d7b5af92906aa997e0",
+      "sourceSha256": "fb875df5e703e959fd3caae5ea9c2bc0c58ee369f3532a2ac11cbb29e6b81b09"
+    },
+    {
+      "path": "changes-0016.jsonl.gz",
+      "records": 2326,
+      "bytes": 121871,
+      "sourceBytes": 1048464,
+      "sha256": "7ff953d843577601b1bc5eb0f464c0c2d22a713a60d6faa41c65dff1968a3244",
+      "sourceSha256": "5eadc9552c242dd00da87550675f5bf6796ac04e625f9aa134d10a3e0d27aa85"
+    },
+    {
+      "path": "changes-0017.jsonl.gz",
+      "records": 2345,
+      "bytes": 113680,
+      "sourceBytes": 1048258,
+      "sha256": "552d81e57fa25a086342d5e9c7c43520fffd209b8d94c9741866e6d3d5788b87",
+      "sourceSha256": "f0a3853cba711fb93e1b10cbe3722cdeef686c78a9e5b63ec43b1d7d106672ed"
+    },
+    {
+      "path": "changes-0018.jsonl.gz",
+      "records": 2342,
+      "bytes": 120558,
+      "sourceBytes": 1048192,
+      "sha256": "5b7c594442b61f8308f2d70d23f4429778a10040efbe04b7fd5eefc3966b740e",
+      "sourceSha256": "c9ac5a1855a80122c99ed17006513b3952ffa561838d3accf7f5ada2c37ddc72"
+    },
+    {
+      "path": "changes-0019.jsonl.gz",
+      "records": 2365,
+      "bytes": 95424,
+      "sourceBytes": 1048242,
+      "sha256": "ed45b6301d43d09435a3ec2defc144ffcaba250d5645f51e3f485670cfe797fc",
+      "sourceSha256": "893c8a3de5bc2f3d2cfb9894e5e199ca8f3f934ce09622d688560cf4e6a5a96d"
+    },
+    {
+      "path": "changes-0020.jsonl.gz",
+      "records": 2336,
+      "bytes": 116803,
+      "sourceBytes": 1048308,
+      "sha256": "e7980aa75842c738bf8c81419694563fe11180fc01bc9166948fe5b177870ed6",
+      "sourceSha256": "ac87e7158c1f22033f9ea468c5816a297d5fd187c844cba9e513c1e4a416051c"
+    },
+    {
+      "path": "changes-0021.jsonl.gz",
+      "records": 2341,
+      "bytes": 124431,
+      "sourceBytes": 1048243,
+      "sha256": "29f8cd01b871ee1b1976f61a566fe867cab519819057ef3f2a56722f38d57d15",
+      "sourceSha256": "0ed2d14f7a73833aecea39cef27615f908bf65241a555a9e2b5e149a1d89c8c9"
+    },
+    {
+      "path": "changes-0022.jsonl.gz",
+      "records": 2334,
+      "bytes": 135451,
+      "sourceBytes": 1048379,
+      "sha256": "ef83dc460023e1f4f955d6d9fc18682de20d868c5e5d1b9d70ab713e1e75753e",
+      "sourceSha256": "0ddc94786e3968026e2b21d6291fcf979c0409ff7aa1cc145e06be91ed5f58d0"
+    },
+    {
+      "path": "changes-0023.jsonl.gz",
+      "records": 2334,
+      "bytes": 135049,
+      "sourceBytes": 1048374,
+      "sha256": "0253d92cb16d83d4d24f5e899825a3ce29578b2810a2c19eb2a2f57bec34d235",
+      "sourceSha256": "d81851b246c7e4759eba14f3035bda4840213164885b5e84db6c7daea9c5ef00"
+    },
+    {
+      "path": "changes-0024.jsonl.gz",
+      "records": 2530,
+      "bytes": 127777,
+      "sourceBytes": 1048460,
+      "sha256": "3da9832d8fc768986da5c30bc7623f6d2c0c50439c3821188dc1fa3aa1e66469",
+      "sourceSha256": "67a0536f7838a0dd90008f5c1efe41f1d5c4c9b38d39074902ca745433cb9267"
+    },
+    {
+      "path": "changes-0025.jsonl.gz",
+      "records": 3811,
+      "bytes": 81123,
+      "sourceBytes": 1048332,
+      "sha256": "c5465157076881b357938e32a37b844809d32ec1a748163928eb169b2ac4c54e",
+      "sourceSha256": "0a44b341d52c90fa94c1a25e4b6ceb9903e252ac44e3d210dbd9ad1ceee106dc"
+    },
+    {
+      "path": "changes-0026.jsonl.gz",
+      "records": 3819,
+      "bytes": 87161,
+      "sourceBytes": 1048543,
+      "sha256": "9086be289f001364b6a8e1507164e91cc40a142d1de4352fad1ad6c2b4a2ace8",
+      "sourceSha256": "953b320975035b4a1a9208c9b05af4a70fc5e92c2210e4580b7552ce02c80898"
+    },
+    {
+      "path": "changes-0027.jsonl.gz",
+      "records": 3818,
+      "bytes": 83545,
+      "sourceBytes": 1048566,
+      "sha256": "0336bee6e758756a55565f21e3c82e98444d1ea6023951964d2df326fcd35905",
+      "sourceSha256": "c0b3243e1e4cc9be0865eac1b2e278819cd58c8103f0c8e405a389338b51e758"
+    },
+    {
+      "path": "changes-0028.jsonl.gz",
+      "records": 3768,
+      "bytes": 88680,
+      "sourceBytes": 1048346,
+      "sha256": "dd4b6a5deb03780e291c710173d5b6a8493783eb51137ed0d8b5ed09711056a6",
+      "sourceSha256": "20c15ec5c45b13c4244a2a91fb3fad27fe43247a8a51cc8a45ac1ed9ecd6f541"
+    },
+    {
+      "path": "changes-0029.jsonl.gz",
+      "records": 3713,
+      "bytes": 104116,
+      "sourceBytes": 1048385,
+      "sha256": "facae95eaca79c1f28b11aac5fbf6ace03829cd2c5e0bcdafaf4479928a31405",
+      "sourceSha256": "527e525aca5b227ddbd82e52a4d56002881b51af819f0fec3f7a100c3ba3d938"
+    },
+    {
+      "path": "changes-0030.jsonl.gz",
+      "records": 59,
+      "bytes": 1640,
+      "sourceBytes": 16131,
+      "sha256": "e666ce152b6eca9ee1229ef55504827795f980a293732c8dd93ecf62ce728258",
+      "sourceSha256": "6ee7c41509d9fa9903289a2edeb659bc935adf802cb294dfe132472606b2e619"
+    }
+  ],
+  "examples": {
+    "addedAccepted": [
+      {
+        "changes": [
+          "addedAccepted"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "35464",
+          "source": "1141",
+          "rank": "species",
+          "name": "Desmos subbiglandulosus (Miq.) Merr.",
+          "authorship": "(Miq.) Merr.",
+          "status": "synonym",
+          "target": "3544Z",
+          "parent": ""
+        },
+        "after": {
+          "id": "35464",
+          "source": "1141",
+          "rank": "species",
+          "name": "Desmos subbiglandulosus (Miq.) Merr.",
+          "authorship": "(Miq.) Merr.",
+          "status": "accepted",
+          "target": "",
+          "parent": "C6YJB"
+        }
+      },
+      {
+        "changes": [
+          "addedAccepted"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "365SC",
+          "source": "1108",
+          "rank": "species",
+          "name": "Dilocarcinus (Dilocarcinus) spinifer H. Milne Edwards, 1853",
+          "authorship": "H. Milne Edwards, 1853",
+          "status": "synonym",
+          "target": "365SD",
+          "parent": ""
+        },
+        "after": {
+          "id": "365SC",
+          "source": "1108",
+          "rank": "species",
+          "name": "Dilocarcinus spinifer H. Milne Edwards, 1854",
+          "authorship": "H. Milne Edwards, 1854",
+          "status": "accepted",
+          "target": "",
+          "parent": "45H8"
+        }
+      },
+      {
+        "changes": [
+          "addedAccepted"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "36VMG",
+          "source": "1141",
+          "rank": "species",
+          "name": "Disphyma australe (Aiton) J.M.Black",
+          "authorship": "(Aiton) J.M.Black",
+          "status": "ambiguous synonym",
+          "target": "5GXM2",
+          "parent": ""
+        },
+        "after": {
+          "id": "36VMG",
+          "source": "1141",
+          "rank": "species",
+          "name": "Disphyma australe (Sol. ex Aiton) N.E.Br.",
+          "authorship": "(Sol. ex Aiton) N.E.Br.",
+          "status": "accepted",
+          "target": "",
+          "parent": "46WC"
+        }
+      },
+      {
+        "changes": [
+          "addedAccepted"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "37BTR",
+          "source": "1032",
+          "rank": "species",
+          "name": "Dorcadion (Compsodorcadion) crassipes Ballion, 1878",
+          "authorship": "Ballion, 1878",
+          "status": "synonym",
+          "target": "BRNH5",
+          "parent": ""
+        },
+        "after": {
+          "id": "37BTR",
+          "source": "1032",
+          "rank": "species",
+          "name": "Dorcadion crassipes Ballion, 1878",
+          "authorship": "Ballion, 1878",
+          "status": "accepted",
+          "target": "",
+          "parent": "BJ9K7"
+        }
+      },
+      {
+        "changes": [
+          "addedAccepted"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "37HXV",
+          "source": "1141",
+          "rank": "species",
+          "name": "Draba barbata Pohle",
+          "authorship": "Pohle",
+          "status": "synonym",
+          "target": "37J2G",
+          "parent": ""
+        },
+        "after": {
+          "id": "37HXV",
+          "source": "1141",
+          "rank": "species",
+          "name": "Draba barbata Pohle",
+          "authorship": "Pohle",
+          "status": "accepted",
+          "target": "",
+          "parent": "C6ZMJ"
+        }
+      }
+    ],
+    "idReplacedOrUnstable": [
+      {
+        "changes": [
+          "idReplacedOrUnstable",
+          "parentRecordChanged"
+        ],
+        "correspondence": "unique-exact-source-name-status",
+        "before": {
+          "id": "--O1XPRaBgND7xa_4Ldyk2",
+          "source": "1014",
+          "rank": "species",
+          "name": "Mamastrovirus bovisamericaense",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "msuKTmwg1Mcm0CHqbeLRX0"
+        },
+        "after": {
+          "id": "VR7GY",
+          "source": "1014",
+          "rank": "species",
+          "name": "Mamastrovirus bovisamericaense",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "5KQW"
+        }
+      },
+      {
+        "changes": [
+          "idReplacedOrUnstable",
+          "parentRecordChanged"
+        ],
+        "correspondence": "unique-exact-source-name-status",
+        "before": {
+          "id": "--VjIXE4HyuyBpPtxoUTD1",
+          "source": "1014",
+          "rank": "species",
+          "name": "Fagihovirus chthonovivens",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "YwleWyNS6lsXDCpEf2wDM"
+        },
+        "after": {
+          "id": "8TTGW",
+          "source": "1014",
+          "rank": "species",
+          "name": "Fagihovirus chthonovivens",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "8TRVD"
+        }
+      },
+      {
+        "changes": [
+          "idReplacedOrUnstable",
+          "parentRecordChanged"
+        ],
+        "correspondence": "unique-exact-source-name-status",
+        "before": {
+          "id": "--ZgtZtoFmd9DCgwM1C0W0",
+          "source": "1014",
+          "rank": "species",
+          "name": "Novosibovirus RS1pmA",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "DtuFjKb9-Ous7lxlv8SGV1"
+        },
+        "after": {
+          "id": "KYX2W",
+          "source": "1014",
+          "rank": "species",
+          "name": "Novosibovirus RS1pmA",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "65QH"
+        }
+      },
+      {
+        "changes": [
+          "idReplacedOrUnstable",
+          "parentRecordChanged"
+        ],
+        "correspondence": "unique-exact-source-name-status",
+        "before": {
+          "id": "-04VI5XDDrPd-KBlbYI0b0",
+          "source": "1014",
+          "rank": "species",
+          "name": "Begomovirus caricaprimi",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "2ZyQAC5zDPO_ChyzxVz8Z0"
+        },
+        "after": {
+          "id": "KSJD2",
+          "source": "1014",
+          "rank": "species",
+          "name": "Begomovirus caricaprimi",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "62F33"
+        }
+      },
+      {
+        "changes": [
+          "idReplacedOrUnstable",
+          "parentRecordChanged"
+        ],
+        "correspondence": "unique-exact-source-name-status",
+        "before": {
+          "id": "-0WJzuvqDzdn9Oix6_Sok1",
+          "source": "1014",
+          "rank": "species",
+          "name": "Hodnevirus chorohabitans",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "Lip1DQ3MRgQu94v_CidPf1"
+        },
+        "after": {
+          "id": "KT2V2",
+          "source": "1014",
+          "rank": "species",
+          "name": "Hodnevirus chorohabitans",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "KT2NZ"
+        }
+      }
+    ],
+    "nameOrAuthorshipChanged": [
+      {
+        "changes": [
+          "nameOrAuthorshipChanged"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "322KS",
+          "source": "1130",
+          "rank": "species",
+          "name": "Cryptospira trailli (Reeve, 1865)",
+          "authorship": "(Reeve, 1865)",
+          "status": "accepted",
+          "target": "",
+          "parent": "7P2JZ"
+        },
+        "after": {
+          "id": "322KS",
+          "source": "1130",
+          "rank": "species",
+          "name": "Cryptospira traillii (Reeve, 1865)",
+          "authorship": "(Reeve, 1865)",
+          "status": "accepted",
+          "target": "",
+          "parent": "7P2JZ"
+        }
+      },
+      {
+        "changes": [
+          "nameOrAuthorshipChanged"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "325Y2",
+          "source": "1130",
+          "rank": "species",
+          "name": "Ctenoides philippinarum Masahito & Habe, 1978",
+          "authorship": "Masahito & Habe, 1978",
+          "status": "accepted",
+          "target": "",
+          "parent": "7NTY8"
+        },
+        "after": {
+          "id": "325Y2",
+          "source": "1130",
+          "rank": "species",
+          "name": "Ctenoides philippinarum Masahito & T. Habe, 1978",
+          "authorship": "Masahito & T. Habe, 1978",
+          "status": "accepted",
+          "target": "",
+          "parent": "7NTY8"
+        }
+      },
+      {
+        "changes": [
+          "nameOrAuthorshipChanged"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "32SWV",
+          "source": "1058",
+          "rank": "species",
+          "name": "Cyclaspis granulata (Radha Devi & Kurian, 1981)",
+          "authorship": "(Radha Devi & Kurian, 1981)",
+          "status": "accepted",
+          "target": "",
+          "parent": "7NV36"
+        },
+        "after": {
+          "id": "32SWV",
+          "source": "1058",
+          "rank": "species",
+          "name": "Cyclaspis granulata (Radhadevi & Kurian, 1981)",
+          "authorship": "(Radhadevi & Kurian, 1981)",
+          "status": "accepted",
+          "target": "",
+          "parent": "7NV36"
+        }
+      },
+      {
+        "changes": [
+          "nameOrAuthorshipChanged"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "32SXJ",
+          "source": "1058",
+          "rank": "species",
+          "name": "Cyclaspis mexicansis (Radha Devi & Kurian, 1981)",
+          "authorship": "(Radha Devi & Kurian, 1981)",
+          "status": "accepted",
+          "target": "",
+          "parent": "7NV36"
+        },
+        "after": {
+          "id": "32SXJ",
+          "source": "1058",
+          "rank": "species",
+          "name": "Cyclaspis mexicansis (Radhadevi & Kurian, 1981)",
+          "authorship": "(Radhadevi & Kurian, 1981)",
+          "status": "accepted",
+          "target": "",
+          "parent": "7NV36"
+        }
+      },
+      {
+        "changes": [
+          "nameOrAuthorshipChanged"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "32SYK",
+          "source": "1058",
+          "rank": "species",
+          "name": "Cyclaspis sculptilis Roccatagliata, 1989",
+          "authorship": "Roccatagliata, 1989",
+          "status": "accepted",
+          "target": "",
+          "parent": "7NV36"
+        },
+        "after": {
+          "id": "32SYK",
+          "source": "1058",
+          "rank": "species",
+          "name": "Cyclaspis sculptilis Roccatagliata & Moreira, 1987",
+          "authorship": "Roccatagliata & Moreira, 1987",
+          "status": "accepted",
+          "target": "",
+          "parent": "7NV36"
+        }
+      }
+    ],
+    "noLongerAccepted": [
+      {
+        "changes": [
+          "noLongerAccepted",
+          "synonymized"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "32FPJ",
+          "source": "55434",
+          "rank": "species",
+          "name": "Cupido clara (Edwards, 1870)",
+          "authorship": "(Edwards, 1870)",
+          "status": "accepted",
+          "target": "",
+          "parent": "9CKGL"
+        },
+        "after": {
+          "id": "32FPJ",
+          "source": "55434",
+          "rank": "species",
+          "name": "Cupido clara Kirby, 1871",
+          "authorship": "Kirby, 1871",
+          "status": "synonym",
+          "target": "VR2GK",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "noLongerAccepted",
+          "synonymized"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "3336H",
+          "source": "1158",
+          "rank": "species",
+          "name": "Cylindrogaster bicyclurus (de Miranda Ribeiro, 1937)",
+          "authorship": "(de Miranda Ribeiro, 1937)",
+          "status": "accepted",
+          "target": "",
+          "parent": "8MRG8"
+        },
+        "after": {
+          "id": "3336H",
+          "source": "1158",
+          "rank": "species",
+          "name": "Cylindrogaster bicyclurus (de Miranda Ribeiro, 1937)",
+          "authorship": "(de Miranda Ribeiro, 1937)",
+          "status": "synonym",
+          "target": "66ZBW",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "noLongerAccepted",
+          "synonymized"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "33YQL",
+          "source": "1193",
+          "rank": "species",
+          "name": "Daku riegeri Hooge & Tyler, 2008",
+          "authorship": "Hooge & Tyler, 2008",
+          "status": "accepted",
+          "target": "",
+          "parent": "7NVF4"
+        },
+        "after": {
+          "id": "33YQL",
+          "source": "1193",
+          "rank": "species",
+          "name": "Daku riegeri Hooge & Tyler, 2008",
+          "authorship": "Hooge & Tyler, 2008",
+          "status": "synonym",
+          "target": "VR5SH",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "noLongerAccepted",
+          "synonymized"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "33YQM",
+          "source": "1193",
+          "rank": "species",
+          "name": "Daku woorimensis Hooge, 2003",
+          "authorship": "Hooge, 2003",
+          "status": "accepted",
+          "target": "",
+          "parent": "7NVF4"
+        },
+        "after": {
+          "id": "33YQM",
+          "source": "1193",
+          "rank": "species",
+          "name": "Daku woorimensis Hooge, 2003",
+          "authorship": "Hooge, 2003",
+          "status": "synonym",
+          "target": "VR5SL",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "noLongerAccepted",
+          "synonymized"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "34H78",
+          "source": "1090",
+          "rank": "species",
+          "name": "Delosites anterodentatus Kozur, 1972",
+          "authorship": "Kozur, 1972",
+          "status": "accepted",
+          "target": "",
+          "parent": "8TLZX"
+        },
+        "after": {
+          "id": "34H78",
+          "source": "1090",
+          "rank": "species",
+          "name": "Delosites anterodentatus Kozur, 1972",
+          "authorship": "Kozur, 1972",
+          "status": "synonym",
+          "target": "VR4F7",
+          "parent": ""
+        }
+      }
+    ],
+    "parentRecordChanged": [
+      {
+        "changes": [
+          "idReplacedOrUnstable",
+          "parentRecordChanged"
+        ],
+        "correspondence": "unique-exact-source-name-status",
+        "before": {
+          "id": "--O1XPRaBgND7xa_4Ldyk2",
+          "source": "1014",
+          "rank": "species",
+          "name": "Mamastrovirus bovisamericaense",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "msuKTmwg1Mcm0CHqbeLRX0"
+        },
+        "after": {
+          "id": "VR7GY",
+          "source": "1014",
+          "rank": "species",
+          "name": "Mamastrovirus bovisamericaense",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "5KQW"
+        }
+      },
+      {
+        "changes": [
+          "idReplacedOrUnstable",
+          "parentRecordChanged"
+        ],
+        "correspondence": "unique-exact-source-name-status",
+        "before": {
+          "id": "--VjIXE4HyuyBpPtxoUTD1",
+          "source": "1014",
+          "rank": "species",
+          "name": "Fagihovirus chthonovivens",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "YwleWyNS6lsXDCpEf2wDM"
+        },
+        "after": {
+          "id": "8TTGW",
+          "source": "1014",
+          "rank": "species",
+          "name": "Fagihovirus chthonovivens",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "8TRVD"
+        }
+      },
+      {
+        "changes": [
+          "idReplacedOrUnstable",
+          "parentRecordChanged"
+        ],
+        "correspondence": "unique-exact-source-name-status",
+        "before": {
+          "id": "--ZgtZtoFmd9DCgwM1C0W0",
+          "source": "1014",
+          "rank": "species",
+          "name": "Novosibovirus RS1pmA",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "DtuFjKb9-Ous7lxlv8SGV1"
+        },
+        "after": {
+          "id": "KYX2W",
+          "source": "1014",
+          "rank": "species",
+          "name": "Novosibovirus RS1pmA",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "65QH"
+        }
+      },
+      {
+        "changes": [
+          "idReplacedOrUnstable",
+          "parentRecordChanged"
+        ],
+        "correspondence": "unique-exact-source-name-status",
+        "before": {
+          "id": "-04VI5XDDrPd-KBlbYI0b0",
+          "source": "1014",
+          "rank": "species",
+          "name": "Begomovirus caricaprimi",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "2ZyQAC5zDPO_ChyzxVz8Z0"
+        },
+        "after": {
+          "id": "KSJD2",
+          "source": "1014",
+          "rank": "species",
+          "name": "Begomovirus caricaprimi",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "62F33"
+        }
+      },
+      {
+        "changes": [
+          "idReplacedOrUnstable",
+          "parentRecordChanged"
+        ],
+        "correspondence": "unique-exact-source-name-status",
+        "before": {
+          "id": "-0WJzuvqDzdn9Oix6_Sok1",
+          "source": "1014",
+          "rank": "species",
+          "name": "Hodnevirus chorohabitans",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "Lip1DQ3MRgQu94v_CidPf1"
+        },
+        "after": {
+          "id": "KT2V2",
+          "source": "1014",
+          "rank": "species",
+          "name": "Hodnevirus chorohabitans",
+          "authorship": "",
+          "status": "accepted",
+          "target": "",
+          "parent": "KT2NZ"
+        }
+      }
+    ],
+    "resolvingStatusChanged": [
+      {
+        "changes": [
+          "resolvingStatusChanged"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "33GTT",
+          "source": "1130",
+          "rank": "species",
+          "name": "Cypraea amygdalina Grateloup, 1846",
+          "authorship": "Grateloup, 1846",
+          "status": "ambiguous synonym",
+          "target": "3WSFX",
+          "parent": ""
+        },
+        "after": {
+          "id": "33GTT",
+          "source": "1130",
+          "rank": "species",
+          "name": "Cypraea amygdalina Grateloup, 1847",
+          "authorship": "Grateloup, 1847",
+          "status": "synonym",
+          "target": "3WSFX",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "synonymRepointed",
+          "resolvingStatusChanged"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "33H5Y",
+          "source": "1130",
+          "rank": "species",
+          "name": "Cypraea retusa Parona, 1909",
+          "authorship": "Parona, 1909",
+          "status": "synonym",
+          "target": "CRBMJ",
+          "parent": ""
+        },
+        "after": {
+          "id": "33H5Y",
+          "source": "1130",
+          "rank": "species",
+          "name": "Cypraea retusa J. Sowerby, 1822",
+          "authorship": "J. Sowerby, 1822",
+          "status": "ambiguous synonym",
+          "target": "595YH",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "resolvingStatusChanged"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "345JB",
+          "source": "1141",
+          "rank": "species",
+          "name": "Daphnidium caesium (Reinw. ex Blume) Nees",
+          "authorship": "(Reinw. ex Blume) Nees",
+          "status": "ambiguous synonym",
+          "target": "72FZT",
+          "parent": ""
+        },
+        "after": {
+          "id": "345JB",
+          "source": "1141",
+          "rank": "species",
+          "name": "Daphnidium caesium Nees",
+          "authorship": "Nees",
+          "status": "synonym",
+          "target": "72FZT",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "resolvingStatusChanged"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "36PQV",
+          "source": "56185",
+          "rank": "species",
+          "name": "Dipoena maculata Keyserling, 1891",
+          "authorship": "Keyserling, 1891",
+          "status": "synonym",
+          "target": "36PS9",
+          "parent": ""
+        },
+        "after": {
+          "id": "36PQV",
+          "source": "56185",
+          "rank": "species",
+          "name": "Dipoena maculata Keyserling, 1891",
+          "authorship": "Keyserling, 1891",
+          "status": "ambiguous synonym",
+          "target": "36PS9",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "resolvingStatusChanged"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "36S7V",
+          "source": "1110",
+          "rank": "species",
+          "name": "Discapseudes holthuisi Escobar-Briones et al., 1999 not Bacescu & Gutu, 1975",
+          "authorship": "Escobar-Briones et al., 1999",
+          "status": "ambiguous synonym",
+          "target": "36S7Y",
+          "parent": ""
+        },
+        "after": {
+          "id": "36S7V",
+          "source": "1110",
+          "rank": "species",
+          "name": "Discapseudes holthuisi Escobar-Briones et al., 1999 not Bacescu & Gutu, 1975",
+          "authorship": "Escobar-Briones et al., 1999 not Bacescu & Gutu, 1975",
+          "status": "synonym",
+          "target": "36S7Y",
+          "parent": ""
+        }
+      }
+    ],
+    "synonymRepointed": [
+      {
+        "changes": [
+          "synonymRepointed"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "32FFQ",
+          "source": "1141",
+          "rank": "species",
+          "name": "Cuphea speciosa (A.Anderson ex Lindl.) Kuntze",
+          "authorship": "(A.Anderson ex Lindl.) Kuntze",
+          "status": "ambiguous synonym",
+          "target": "6C3DW",
+          "parent": ""
+        },
+        "after": {
+          "id": "32FFQ",
+          "source": "1141",
+          "rank": "species",
+          "name": "Cuphea speciosa Koehne",
+          "authorship": "Koehne",
+          "status": "ambiguous synonym",
+          "target": "6BS53",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "synonymRepointed"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "32FFR",
+          "source": "1141",
+          "rank": "species",
+          "name": "Cuphea speciosa Koehne",
+          "authorship": "Koehne",
+          "status": "ambiguous synonym",
+          "target": "6BS53",
+          "parent": ""
+        },
+        "after": {
+          "id": "32FFR",
+          "source": "1141",
+          "rank": "species",
+          "name": "Cuphea speciosa (A.Anderson ex Lindl.) Kuntze",
+          "authorship": "(A.Anderson ex Lindl.) Kuntze",
+          "status": "ambiguous synonym",
+          "target": "6C3DW",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "synonymRepointed"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "32H7Z",
+          "source": "1166",
+          "rank": "species",
+          "name": "Curculio gracilis Beck L., 1817",
+          "authorship": "Beck L., 1817",
+          "status": "ambiguous synonym",
+          "target": "B7MJG",
+          "parent": ""
+        },
+        "after": {
+          "id": "32H7Z",
+          "source": "1166",
+          "rank": "species",
+          "name": "Curculio gracilis Beck L., 1817",
+          "authorship": "Beck L., 1817",
+          "status": "ambiguous synonym",
+          "target": "B7MMX",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "synonymRepointed"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "32H82",
+          "source": "1166",
+          "rank": "species",
+          "name": "Curculio gracilis Beck L., 1817",
+          "authorship": "Beck L., 1817",
+          "status": "ambiguous synonym",
+          "target": "B7MMX",
+          "parent": ""
+        },
+        "after": {
+          "id": "32H82",
+          "source": "1166",
+          "rank": "species",
+          "name": "Curculio gracilis Beck L., 1817",
+          "authorship": "Beck L., 1817",
+          "status": "ambiguous synonym",
+          "target": "B7MJG",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "synonymRepointed"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "32JL3",
+          "source": "1039",
+          "rank": "species",
+          "name": "Curculio sulcatus Gmelin, J.F., 1790",
+          "authorship": "Gmelin, J.F., 1790",
+          "status": "ambiguous synonym",
+          "target": "32HGG",
+          "parent": ""
+        },
+        "after": {
+          "id": "32JL3",
+          "source": "1039",
+          "rank": "species",
+          "name": "Curculio sulcatus Gmelin, J.F., 1790",
+          "authorship": "Gmelin, J.F., 1790",
+          "status": "ambiguous synonym",
+          "target": "5ZTCH",
+          "parent": ""
+        }
+      }
+    ],
+    "synonymTargetIdReplaced": [
+      {
+        "changes": [
+          "synonymTargetIdReplaced"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "342KG",
+          "source": "1193",
+          "rank": "species",
+          "name": "Dalyellia infundibuliformis (Fuhrmann, 1894) Graff, 1905",
+          "authorship": "(Fuhrmann, 1894) Graff, 1905",
+          "status": "synonym",
+          "target": "6KFLS",
+          "parent": ""
+        },
+        "after": {
+          "id": "342KG",
+          "source": "1193",
+          "rank": "species",
+          "name": "Dalyellia infundibuliformis (Fuhrmann, 1894) Graff, 1905",
+          "authorship": "(Fuhrmann, 1894) Graff, 1905",
+          "status": "synonym",
+          "target": "PH83M",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "synonymTargetIdReplaced"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "342M4",
+          "source": "1193",
+          "rank": "species",
+          "name": "Dalyellia succincta Hofsten, 1907",
+          "authorship": "Hofsten, 1907",
+          "status": "synonym",
+          "target": "6KFLS",
+          "parent": ""
+        },
+        "after": {
+          "id": "342M4",
+          "source": "1193",
+          "rank": "species",
+          "name": "Dalyellia succincta Hofsten, 1907",
+          "authorship": "Hofsten, 1907",
+          "status": "synonym",
+          "target": "PH83M",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "idReplacedOrUnstable",
+          "synonymTargetIdReplaced"
+        ],
+        "correspondence": "unique-exact-source-name-status",
+        "before": {
+          "id": "3F6VZ",
+          "source": "2144",
+          "rank": "species",
+          "name": "Gallinula mortierii (Du Bus de Gisignies, 1840)",
+          "authorship": "(Du Bus de Gisignies, 1840)",
+          "status": "synonym",
+          "target": "586DC",
+          "parent": ""
+        },
+        "after": {
+          "id": "NX5N4",
+          "source": "2144",
+          "rank": "species",
+          "name": "Gallinula mortierii (Du Bus de Gisignies, 1840)",
+          "authorship": "(Du Bus de Gisignies, 1840)",
+          "status": "synonym",
+          "target": "TLPSG",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "synonymTargetIdReplaced"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "3GBM4",
+          "source": "2073",
+          "rank": "species",
+          "name": "Gloeoporus taxicola (Pers.) Gilb. & Ryvarden",
+          "authorship": "(Pers.) Gilb. & Ryvarden",
+          "status": "synonym",
+          "target": "3ZX22",
+          "parent": ""
+        },
+        "after": {
+          "id": "3GBM4",
+          "source": "2073",
+          "rank": "species",
+          "name": "Gloeoporus taxicola (Pers.) Gilb. & Ryvarden",
+          "authorship": "(Pers.) Gilb. & Ryvarden",
+          "status": "synonym",
+          "target": "QNMSR",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "synonymTargetIdReplaced"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "3KDGH",
+          "source": "1130",
+          "rank": "species",
+          "name": "Helix (Cochlogena) montivaga A. d'Orbigny, 1835",
+          "authorship": "A. d'Orbigny, 1835",
+          "status": "synonym",
+          "target": "45K7Z",
+          "parent": ""
+        },
+        "after": {
+          "id": "3KDGH",
+          "source": "1130",
+          "rank": "species",
+          "name": "Helix (Cochlogena) montivaga A. d'Orbigny, 1835",
+          "authorship": "A. d'Orbigny, 1835",
+          "status": "synonym",
+          "target": "QL7HS",
+          "parent": ""
+        }
+      }
+    ],
+    "synonymTargetUnresolved": [
+      {
+        "changes": [
+          "synonymTargetUnresolved"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "32QR8",
+          "source": "1141",
+          "rank": "species",
+          "name": "Cyathocalyx filiformis Ast",
+          "authorship": "Ast",
+          "status": "synonym",
+          "target": "C73C8",
+          "parent": ""
+        },
+        "after": {
+          "id": "32QR8",
+          "source": "1141",
+          "rank": "species",
+          "name": "Cyathocalyx filiformis Ast",
+          "authorship": "Ast",
+          "status": "synonym",
+          "target": "NKDXT",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "synonymTargetUnresolved"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "32QS4",
+          "source": "1141",
+          "rank": "species",
+          "name": "Cyathocalyx samarensis R.J.Wang & R.M.K.Saunders",
+          "authorship": "R.J.Wang & R.M.K.Saunders",
+          "status": "synonym",
+          "target": "37MCX",
+          "parent": ""
+        },
+        "after": {
+          "id": "32QS4",
+          "source": "1141",
+          "rank": "species",
+          "name": "Cyathocalyx samarensis R.J.Wang & R.M.K.Saunders",
+          "authorship": "R.J.Wang & R.M.K.Saunders",
+          "status": "synonym",
+          "target": "NKF59",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "synonymTargetUnresolved"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "32ZZN",
+          "source": "1141",
+          "rank": "species",
+          "name": "Cylicodaphne mollis (Blume) Meisn.",
+          "authorship": "(Blume) Meisn.",
+          "status": "synonym",
+          "target": "3VN9S",
+          "parent": ""
+        },
+        "after": {
+          "id": "32ZZN",
+          "source": "1141",
+          "rank": "species",
+          "name": "Cylicodaphne mollis (Miq.) Meisn.",
+          "authorship": "(Miq.) Meisn.",
+          "status": "synonym",
+          "target": "PWSWS",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "synonymTargetUnresolved"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "33MRG",
+          "source": "1193",
+          "rank": "species",
+          "name": "Cyrtomorpha saliens Graff L., 1882",
+          "authorship": "Graff L., 1882",
+          "status": "synonym",
+          "target": "4G4K5",
+          "parent": ""
+        },
+        "after": {
+          "id": "33MRG",
+          "source": "1193",
+          "rank": "species",
+          "name": "Cyrtomorpha saliens Graff L., 1882",
+          "authorship": "Graff L., 1882",
+          "status": "synonym",
+          "target": "VR5SG",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "synonymTargetUnresolved"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "3475T",
+          "source": "1141",
+          "rank": "species",
+          "name": "Dasiphora subacaulis (L.) Raf.",
+          "authorship": "(L.) Raf.",
+          "status": "synonym",
+          "target": "94JL7",
+          "parent": ""
+        },
+        "after": {
+          "id": "3475T",
+          "source": "1141",
+          "rank": "species",
+          "name": "Dasiphora subacaulis (L.) Raf.",
+          "authorship": "(L.) Raf.",
+          "status": "synonym",
+          "target": "4M563",
+          "parent": ""
+        }
+      }
+    ],
+    "synonymized": [
+      {
+        "changes": [
+          "noLongerAccepted",
+          "synonymized"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "32FPJ",
+          "source": "55434",
+          "rank": "species",
+          "name": "Cupido clara (Edwards, 1870)",
+          "authorship": "(Edwards, 1870)",
+          "status": "accepted",
+          "target": "",
+          "parent": "9CKGL"
+        },
+        "after": {
+          "id": "32FPJ",
+          "source": "55434",
+          "rank": "species",
+          "name": "Cupido clara Kirby, 1871",
+          "authorship": "Kirby, 1871",
+          "status": "synonym",
+          "target": "VR2GK",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "noLongerAccepted",
+          "synonymized"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "3336H",
+          "source": "1158",
+          "rank": "species",
+          "name": "Cylindrogaster bicyclurus (de Miranda Ribeiro, 1937)",
+          "authorship": "(de Miranda Ribeiro, 1937)",
+          "status": "accepted",
+          "target": "",
+          "parent": "8MRG8"
+        },
+        "after": {
+          "id": "3336H",
+          "source": "1158",
+          "rank": "species",
+          "name": "Cylindrogaster bicyclurus (de Miranda Ribeiro, 1937)",
+          "authorship": "(de Miranda Ribeiro, 1937)",
+          "status": "synonym",
+          "target": "66ZBW",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "noLongerAccepted",
+          "synonymized"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "33YQL",
+          "source": "1193",
+          "rank": "species",
+          "name": "Daku riegeri Hooge & Tyler, 2008",
+          "authorship": "Hooge & Tyler, 2008",
+          "status": "accepted",
+          "target": "",
+          "parent": "7NVF4"
+        },
+        "after": {
+          "id": "33YQL",
+          "source": "1193",
+          "rank": "species",
+          "name": "Daku riegeri Hooge & Tyler, 2008",
+          "authorship": "Hooge & Tyler, 2008",
+          "status": "synonym",
+          "target": "VR5SH",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "noLongerAccepted",
+          "synonymized"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "33YQM",
+          "source": "1193",
+          "rank": "species",
+          "name": "Daku woorimensis Hooge, 2003",
+          "authorship": "Hooge, 2003",
+          "status": "accepted",
+          "target": "",
+          "parent": "7NVF4"
+        },
+        "after": {
+          "id": "33YQM",
+          "source": "1193",
+          "rank": "species",
+          "name": "Daku woorimensis Hooge, 2003",
+          "authorship": "Hooge, 2003",
+          "status": "synonym",
+          "target": "VR5SL",
+          "parent": ""
+        }
+      },
+      {
+        "changes": [
+          "noLongerAccepted",
+          "synonymized"
+        ],
+        "correspondence": "same-source-usage-id",
+        "before": {
+          "id": "34H78",
+          "source": "1090",
+          "rank": "species",
+          "name": "Delosites anterodentatus Kozur, 1972",
+          "authorship": "Kozur, 1972",
+          "status": "accepted",
+          "target": "",
+          "parent": "8TLZX"
+        },
+        "after": {
+          "id": "34H78",
+          "source": "1090",
+          "rank": "species",
+          "name": "Delosites anterodentatus Kozur, 1972",
+          "authorship": "Kozur, 1972",
+          "status": "synonym",
+          "target": "VR4F7",
+          "parent": ""
+        }
+      }
+    ]
+  },
+  "interpretation": [
+    "This is a comparison of versioned nomenclatural records, not biological species-concept equivalence or evolutionary change.",
+    "Same IDs are joined only within the same nonempty source dataset. Remaining records require a globally unique, exact source/rank/name/authorship/status key in each release; no fuzzy matching is used.",
+    "Unresolved correspondence contributes unmatched additions or losses; these are not claims of newly discovered species or extinction.",
+    "Name/authorship changes are reported verbatim; recombination is not asserted without an explicit nomenclatural relation.",
+    "Synonym targets are compared through the record correspondence, so target ID churn alone is not a synonym reassignment. Missing correspondence is reported separately.",
+    "The active application registry, package ownership, sources, authority sidecars and dossier maturity remain pinned to their existing release.",
+    "Change categories may overlap. Parent-record differences are raw identifier changes, not a phylogenetic inference."
+  ]
+}
