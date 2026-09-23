@@ -160,3 +160,6 @@ Two *Metalasia* species were additionally checked against their individual print
 
 
 A third *Metalasia* account is *M. acuta* (COL `6RCXW`, WFO `wfo-0000065668`, Strelitzia 29 p. 395, archive rows 10286/26222). The printed page directly supports partial morphology, flowering months, habitat/elevation and regional distribution. Its source licensing is recorded under the same stricter CC BY-SA 4.0 item-level metadata noted above.
+
+
+Nine more individual *Metalasia* accounts on p. 395 were checked against the official PDF and separate archive rows: *M. erubescens* (COL `6RCY2`, WFO `wfo-0000029616`, rows 10304/26241), *M. serrata* (`6RCYV`, `wfo-0000040930`, 10327/26267), *M. serrulata* (`6RCZ7`, `wfo-0000133359`, 10328/26268), *M. albescens* (`73CXW`, `wfo-0000072560`, 10289/26225), *M. brevifolia* (`73CY7`, `wfo-0000045950`, 10293/26229), *M. seriphiifolia* (`73CYW`, `wfo-0000043535`, 10326/26266), *M. rogersii* (`73CYX`, `wfo-0000034131`, 10325/26265), *M. phillipsii* (`73CZD`, `wfo-0000116290`, 10337/26257), and *M. erectifolia* (`73D9R`, `wfo-0000040983`, 10303/26240). Each dossier keeps morphology, flowering time, habitat and regional distribution partial; evolution, fossil and conservation remain unassessed.
