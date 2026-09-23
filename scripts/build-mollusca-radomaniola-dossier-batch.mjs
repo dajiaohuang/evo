@@ -33,7 +33,7 @@ const wormsSource = {
 }
 const paperSource = {
   id: 'paper', title: 'Jaszczyńska et al. 2025. Five new species of Radomaniola Szarowska, 2006 (Truncatelloidea: Hydrobiidae). Zootaxa 5716(2):207–233.',
-  url: paper, version: 'Published 2025-10-30; DOI 10.11646/zootaxa.5716.2.2; accessed 2026-09-24', publishedAt: '2025-10-30', accessedAt: checkedAt,
+  url: paper, stableId: '10.11646/zootaxa.5716.2.2', version: 'Published 2025-10-30; DOI 10.11646/zootaxa.5716.2.2; accessed 2026-09-24', publishedAt: '2025-10-30', accessedAt: checkedAt,
   locator: 'Species account pages listed per claim; publisher identifies PDF as subscription or fee access',
   license: 'No item-level reuse license verified; publisher PDF is subscription/fee access; no article text or figures redistributed.', rightsHolder: 'Not established from the accessible article record', licenseAssessment: 'unknown',
   scope: 'Original taxonomic paper describing five species; biological claims are paraphrased from the corresponding species account only.'
