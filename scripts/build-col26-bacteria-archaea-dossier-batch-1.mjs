@@ -83,7 +83,7 @@ const compressedPath = `${rawPath}.br`
 const compressed = brotliCompressSync(Buffer.from(jsonl))
 const sha = value => createHash('sha256').update(value).digest('hex')
 mkdirSync('data/knowledge', { recursive: true })
-writeFileSync(rawPath, jsonl)
+writeFileSync(rawPath, jsonl, { encoding: 'utf8' })
 writeFileSync(compressedPath, compressed)
 writeFileSync(`${rawPath}.manifest.json`, `${JSON.stringify({
   releaseAlias: batch.releaseAlias,
@@ -91,5 +91,5 @@ writeFileSync(`${rawPath}.manifest.json`, `${JSON.stringify({
   decodedSha256: sha(jsonl),
   compressedSha256: sha(compressed),
   colIds: records.map(record => record.colId)
-}, null, 2)}\n`)
+}, null, 2)}\n`, { encoding: 'utf8' })
 process.stdout.write(JSON.stringify({ rawPath, compressedPath, recordCount: records.length, decodedSha256: sha(jsonl), compressedSha256: sha(compressed) }) + '\n')
