@@ -15621,6 +15621,499 @@
       "expertReview": {
         "status": "not-reviewed"
       }
+    },
+    {
+      "colId": "3R96F",
+      "scientificName": "Klattia partita Baker",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 3R96F, name, authorship, rank, and source dataset 2232 checked against the pinned taxon; WFO 2026-06 crosswalk maps it to wfo-0000784551 by exact accepted name and authorship.",
+        "scope": "Klattia partita Baker as represented by COL26.8 usage 3R96F; SANBI regional flora and national assessment retain their separate southern African/South African scopes."
+      },
+      "lifeStatusScope": {
+        "wild": "Claims concern wild populations described by the regional flora or South African national assessment.",
+        "domesticated": "Cultivation is not covered by the cited claims; no domestication claim is made.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "license": "CC BY 4.0 for the pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, and source-dataset identity only; not biological evidence.",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/3R96F",
+          "locator": "Accepted taxon usage 3R96F"
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; not biological evidence.",
+          "url": "https://list.worldfloraonline.org/wfo-0000784551-2026-06",
+          "locator": "Crosswalk row COL 3R96F / WFO wfo-0000784551"
+        },
+        {
+          "id": "sanbi2020",
+          "title": "Goldblatt, P. & Manning, J.C. 2020. Iridaceae of southern Africa. Strelitzia 42. SANBI.",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2020_Strelitzia42.pdf",
+          "version": "Published 2020; SANBI Opus item 20.500.12143/7671; accessed 2026-09-23",
+          "license": "Copyright SANBI 2020; the publication states all rights reserved. Only facts are paraphrased; no source text or images redistributed.",
+          "scope": "Regional taxonomic flora treatment of southern African Iridaceae; species accounts are not global assessments.",
+          "locator": "Klattia account, printed p. 57; morphology, flowering time, and distribution and ecology paragraphs"
+        },
+        {
+          "id": "redlist-3r96f",
+          "title": "SANBI Red List of South African Plants, Klattia partita Baker",
+          "url": "https://redlist.sanbi.org/species.php?species=1516-3",
+          "version": "National assessment dated 2018-10-02; page identifies Red List dataset version 2024.1; accessed 2026-09-23",
+          "locator": "National status and criteria; assessment history; distribution; habitat and ecology; population trend",
+          "license": "SANBI © 2024; no reuse license stated on the assessment page. Facts are paraphrased; page text and images are not redistributed.",
+          "scope": "South African national assessment only; assessment date is distinct from the dataset version and does not establish a current global status."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "An evergreen shrub up to about 1 m, arising from a woody base, with deep-green, narrowly lanceolate leaves about 90–120 mm long and generally 3–5 mm wide. Its dark blackish-purple tepals are unusually long (about 55–64 mm); the style is shorter than or nearly as long as the tepals.",
+              "textZh": "常绿灌木，高至约 1 m，基部木质；叶深绿、狭披针形，约长 90–120 mm、宽 3–5 mm。花被片呈深黑紫色，长度约 55–64 mm；花柱短于或近等长于花被片。",
+              "sourceIds": [
+                "sanbi2020"
+              ],
+              "locator": "Strelitzia 42 (2020), Klattia account, printed p. 57, species morphological description",
+              "placeTimeScope": "Species-level account in a 2020 southern African flora; locality and period are limited to the source account.",
+              "lifeStatus": "Wild regional flora/account evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "The regional or national account is partial evidence only; a systematic, scope-complete review of morphology for this species has not been completed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The 2020 account reports flowering October–December; it does not provide a full life-cycle or reproductive study.",
+              "textZh": "2020 年账户记载其花期为 October–December；账户未提供完整生活史或繁殖研究。",
+              "sourceIds": [
+                "sanbi2020"
+              ],
+              "locator": "Strelitzia 42 (2020), Klattia account, printed p. 57, flowering-time entry",
+              "placeTimeScope": "Species-level account in a 2020 southern African flora; locality and period are limited to the source account.",
+              "lifeStatus": "Wild regional flora/account evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "The regional or national account is partial evidence only; a systematic, scope-complete review of lifeHistory for this species has not been completed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The 2020 account places this montane endemic on cool, south-facing seep and marsh margins above 600 m, in the Western Cape. It describes year-round moisture and good drainage as apparent survival requirements; sunbird adaptation is presented as a belief that remains unconfirmed.",
+              "textZh": "2020 年账户记载该西开普山地特有种生于海拔 600 m 以上较凉爽的南向坡面渗水处和沼泽边缘；全年湿润且排水良好似乎是其生存条件。账户称其可能适应由太阳鸟传粉，但尚未证实。",
+              "sourceIds": [
+                "sanbi2020"
+              ],
+              "locator": "Strelitzia 42 (2020), Klattia account, printed p. 57, distribution and ecology",
+              "placeTimeScope": "Species-level account in a 2020 southern African flora; locality and period are limited to the source account.",
+              "lifeStatus": "Wild regional flora/account evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "The regional or national account is partial evidence only; a systematic, scope-complete review of ecology for this species has not been completed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The 2020 flora account reports scattered Western Cape localities from the Kogelberg–Hottentots Holland mountain complex east to the Langeberg near Riversdale. It explicitly regards records from the Cape Peninsula and Clanwilliam as incorrect; this is a regional flora summary, not a current global range inventory.",
+              "textZh": "2020 年植物志记载其在西开普 Kogelberg–Hottentots Holland 山系至 Riversdale 附近 Langeberg 有零散分布，并明确认为开普半岛与 Clanwilliam 的记录有误。这是区域植物志摘要，不是当前全球分布清单。",
+              "sourceIds": [
+                "sanbi2020"
+              ],
+              "locator": "Strelitzia 42 (2020), Klattia account, printed p. 57, distribution and ecology",
+              "placeTimeScope": "Species-level account in a 2020 southern African flora; locality and period are limited to the source account.",
+              "lifeStatus": "Wild regional flora/account evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "The regional or national account is partial evidence only; a systematic, scope-complete review of distribution for this species has not been completed."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "SANBI lists the South African national assessment as Least Concern (LC), assessed 2018-10-02. The assessment describes a South African endemic in the Western Cape, known from at least 20 locations, with stable trend; it notes potential groundwater abstraction and invasive-plant threats.",
+              "textZh": "SANBI 南非国家评估列为无危（LC），评估日期为 2018-10-02。该评估将其记为西开普南非特有种，至少已知 20 个地点，种群趋势稳定；潜在威胁包括地下水抽取和入侵植物。",
+              "sourceIds": [
+                "redlist-3r96f"
+              ],
+              "locator": "National status and criteria; assessment history; distribution; habitat and ecology; population trend",
+              "placeTimeScope": "South African national assessment dated 2018-10-02; page version 2024.1. This is not a global assessment or a new assessment in 2024.",
+              "lifeStatus": "Wild South African populations within the assessment scope."
+            }
+          ],
+          "gaps": [
+            "The regional or national account is partial evidence only; a systematic, scope-complete review of conservation for this species has not been completed."
+          ]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Five facets have limited regional or national evidence; evolution and fossil occurrence remain unassessed.",
+          "No reproducible global literature and occurrence search, fossil review, or external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      }
+    },
+    {
+      "colId": "6NKCG",
+      "scientificName": "Klattia flava (G.J.Lewis) Goldblatt",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 6NKCG, name, authorship, rank, and source dataset 2232 checked against the pinned taxon; WFO 2026-06 crosswalk maps it to wfo-0000784557 by exact accepted name and authorship.",
+        "scope": "Klattia flava (G.J.Lewis) Goldblatt as represented by COL26.8 usage 6NKCG; SANBI regional flora and national assessment retain their separate southern African/South African scopes."
+      },
+      "lifeStatusScope": {
+        "wild": "Claims concern wild populations described by the regional flora or South African national assessment.",
+        "domesticated": "Cultivation is not covered by the cited claims; no domestication claim is made.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "license": "CC BY 4.0 for the pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, and source-dataset identity only; not biological evidence.",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/6NKCG",
+          "locator": "Accepted taxon usage 6NKCG"
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; not biological evidence.",
+          "url": "https://list.worldfloraonline.org/wfo-0000784557-2026-06",
+          "locator": "Crosswalk row COL 6NKCG / WFO wfo-0000784557"
+        },
+        {
+          "id": "sanbi2020",
+          "title": "Goldblatt, P. & Manning, J.C. 2020. Iridaceae of southern Africa. Strelitzia 42. SANBI.",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2020_Strelitzia42.pdf",
+          "version": "Published 2020; SANBI Opus item 20.500.12143/7671; accessed 2026-09-23",
+          "license": "Copyright SANBI 2020; the publication states all rights reserved. Only facts are paraphrased; no source text or images redistributed.",
+          "scope": "Regional taxonomic flora treatment of southern African Iridaceae; species accounts are not global assessments.",
+          "locator": "Klattia account, printed p. 57; morphology, flowering time, and distribution and ecology paragraphs"
+        },
+        {
+          "id": "redlist-6nkcg",
+          "title": "SANBI Red List of South African Plants, Klattia flava (G.J.Lewis) Goldblatt",
+          "url": "https://redlist.sanbi.org/species.php?species=1516-1",
+          "version": "National assessment dated 2007-07-28; page identifies Red List dataset version 2024.1; accessed 2026-09-23",
+          "locator": "National status and criteria; assessment date; justification; distribution; habitat and ecology; population trend",
+          "license": "SANBI © 2024; no reuse license stated on the assessment page. Facts are paraphrased; page text and images are not redistributed.",
+          "scope": "South African national assessment only; assessment date is distinct from the dataset version and does not establish a current global status."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "An evergreen shrub about 0.9–1.3 m tall, with long, mostly straight stems and glaucous to pale-green leaves that may be densely papillose. The yellow tepals are about 42–48 mm long; the style ultimately projects about 3–4 mm beyond them.",
+              "textZh": "常绿灌木，高约 0.9–1.3 m，茎长且多直立；叶呈带白粉至浅绿色，部分种群叶面密布乳突。黄色花被片长约 42–48 mm；花柱最终超出花被片约 3–4 mm。",
+              "sourceIds": [
+                "sanbi2020"
+              ],
+              "locator": "Strelitzia 42 (2020), Klattia account, printed p. 57, species morphological description",
+              "placeTimeScope": "Species-level account in a 2020 southern African flora; locality and period are limited to the source account.",
+              "lifeStatus": "Wild regional flora/account evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "The regional or national account is partial evidence only; a systematic, scope-complete review of morphology for this species has not been completed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The 2020 account reports flowering mid-November–December; it does not provide a full life-cycle or reproductive study.",
+              "textZh": "2020 年账户记载其花期为 mid-November–December；账户未提供完整生活史或繁殖研究。",
+              "sourceIds": [
+                "sanbi2020"
+              ],
+              "locator": "Strelitzia 42 (2020), Klattia account, printed p. 57, flowering-time entry",
+              "placeTimeScope": "Species-level account in a 2020 southern African flora; locality and period are limited to the source account.",
+              "lifeStatus": "Wild regional flora/account evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "The regional or national account is partial evidence only; a systematic, scope-complete review of lifeHistory for this species has not been completed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The 2020 account records damp slopes, seeps and gullies, often near perennial streams above 800 m, in the Hottentots Holland, Groenland and Bain’s Kloof mountains of the Western Cape; summer cloud and precipitation are frequent there.",
+              "textZh": "2020 年账户记载其生于西开普 Hottentots Holland、Groenland 与 Bain’s Kloof 山地海拔 800 m 以上的湿坡、渗水处和沟谷，常靠近常年溪流；当地夏季云雾和降水频繁。",
+              "sourceIds": [
+                "sanbi2020"
+              ],
+              "locator": "Strelitzia 42 (2020), Klattia account, printed p. 57, distribution and ecology",
+              "placeTimeScope": "Species-level account in a 2020 southern African flora; locality and period are limited to the source account.",
+              "lifeStatus": "Wild regional flora/account evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "The regional or national account is partial evidence only; a systematic, scope-complete review of ecology for this species has not been completed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The 2020 flora account centres the species around Grabouw in the southwestern Western Cape, in the Hottentots Holland and Groenland mountains, with a northern extension to the Bain’s Kloof mountains. This is a dated regional account, not a current global range inventory.",
+              "textZh": "2020 年植物志将其分布中心记为西开普西南部 Grabouw 周边的 Hottentots Holland 与 Groenland 山地，向北延伸至 Bain’s Kloof 山地。这是有年代的区域性记载，不是当前全球分布清单。",
+              "sourceIds": [
+                "sanbi2020"
+              ],
+              "locator": "Strelitzia 42 (2020), Klattia account, printed p. 57, distribution and ecology",
+              "placeTimeScope": "Species-level account in a 2020 southern African flora; locality and period are limited to the source account.",
+              "lifeStatus": "Wild regional flora/account evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "The regional or national account is partial evidence only; a systematic, scope-complete review of distribution for this species has not been completed."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "SANBI lists the South African national assessment as Vulnerable D1+2, assessed 2007-07-28 and shown in Red List version 2024.1. The assessment describes a South African endemic with EOO 400 km², AOO under 20 km² and fewer than 1,000 mature individuals; groundwater extraction is a potential threat and the recorded trend is stable.",
+              "textZh": "SANBI 南非国家评估列为易危 D1+2，评估日期为 2007-07-28，页面列入 Red List 2024.1。评估记载其为南非特有种，分布范围（EOO）400 km²、占域面积（AOO）小于 20 km²、成熟个体少于 1,000；地下水抽取是潜在威胁，所记录的趋势为稳定。",
+              "sourceIds": [
+                "redlist-6nkcg"
+              ],
+              "locator": "National status and criteria; assessment date; justification; distribution; habitat and ecology; population trend",
+              "placeTimeScope": "South African national assessment dated 2007-07-28; page version 2024.1. This is not a global assessment or a new assessment in 2024.",
+              "lifeStatus": "Wild South African populations within the assessment scope."
+            }
+          ],
+          "gaps": [
+            "The regional or national account is partial evidence only; a systematic, scope-complete review of conservation for this species has not been completed."
+          ]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Five facets have limited regional or national evidence; evolution and fossil occurrence remain unassessed.",
+          "No reproducible global literature and occurrence search, fossil review, or external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      }
+    },
+    {
+      "colId": "3R96G",
+      "scientificName": "Klattia stokoei L.Guthrie",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 3R96G, name, authorship, rank, and source dataset 2232 checked against the pinned taxon; WFO 2026-06 crosswalk maps it to wfo-0000784550 by exact accepted name and authorship.",
+        "scope": "Klattia stokoei L.Guthrie as represented by COL26.8 usage 3R96G; SANBI regional flora and national assessment retain their separate southern African/South African scopes."
+      },
+      "lifeStatusScope": {
+        "wild": "Claims concern wild populations described by the regional flora or South African national assessment.",
+        "domesticated": "Cultivation is not covered by the cited claims; no domestication claim is made.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "license": "CC BY 4.0 for the pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, and source-dataset identity only; not biological evidence.",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/3R96G",
+          "locator": "Accepted taxon usage 3R96G"
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; not biological evidence.",
+          "url": "https://list.worldfloraonline.org/wfo-0000784550-2026-06",
+          "locator": "Crosswalk row COL 3R96G / WFO wfo-0000784550"
+        },
+        {
+          "id": "sanbi2020",
+          "title": "Goldblatt, P. & Manning, J.C. 2020. Iridaceae of southern Africa. Strelitzia 42. SANBI.",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2020_Strelitzia42.pdf",
+          "version": "Published 2020; SANBI Opus item 20.500.12143/7671; accessed 2026-09-23",
+          "license": "Copyright SANBI 2020; the publication states all rights reserved. Only facts are paraphrased; no source text or images redistributed.",
+          "scope": "Regional taxonomic flora treatment of southern African Iridaceae; species accounts are not global assessments.",
+          "locator": "Klattia account, printed p. 58; morphology, flowering time, and distribution and ecology paragraphs"
+        },
+        {
+          "id": "redlist-3r96g",
+          "title": "SANBI Red List of South African Plants, Klattia stokoei L.Guthrie",
+          "url": "https://redlist.sanbi.org/species.php?species=1516-4",
+          "version": "National assessment dated 2007-07-28; page identifies Red List dataset version 2024.1; accessed 2026-09-23",
+          "locator": "National status and criteria; assessment date; justification; distribution; habitat and ecology; population trend",
+          "license": "SANBI © 2024; no reuse license stated on the assessment page. Facts are paraphrased; page text and images are not redistributed.",
+          "scope": "South African national assessment only; assessment date is distinct from the dataset version and does not establish a current global status."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "A shrub about 0.5–1.2 m tall with dark-green, linear-lanceolate leaves, often somewhat sickle-shaped, and conspicuous crimson-red inflorescence bracts and orange-red tepals. The style exceeds the tepals by about 1–5 mm.",
+              "textZh": "灌木高约 0.5–1.2 m，叶深绿、线状披针形，常略呈镰刀状；显著的花序苞片为深红色，花被片橙红色。花柱超出花被片约 1–5 mm。",
+              "sourceIds": [
+                "sanbi2020"
+              ],
+              "locator": "Strelitzia 42 (2020), Klattia account, printed p. 58, species morphological description",
+              "placeTimeScope": "Species-level account in a 2020 southern African flora; locality and period are limited to the source account.",
+              "lifeStatus": "Wild regional flora/account evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "The regional or national account is partial evidence only; a systematic, scope-complete review of morphology for this species has not been completed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The 2020 account reports flowering mid-December–early February; it does not provide a full life-cycle or reproductive study.",
+              "textZh": "2020 年账户记载其花期为 mid-December–early February；账户未提供完整生活史或繁殖研究。",
+              "sourceIds": [
+                "sanbi2020"
+              ],
+              "locator": "Strelitzia 42 (2020), Klattia account, printed p. 58, flowering-time entry",
+              "placeTimeScope": "Species-level account in a 2020 southern African flora; locality and period are limited to the source account.",
+              "lifeStatus": "Wild regional flora/account evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "The regional or national account is partial evidence only; a systematic, scope-complete review of lifeHistory for this species has not been completed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The 2020 account records damp south-trending slopes, seeps and streambanks in peaty sand within the Kogelberg mountain complex of the Western Cape. SANBI’s regional plant account also records sunbird visits near Pringle Bay; this observation is local, not a full pollination study.",
+              "textZh": "2020 年账户记载其生于西开普 Kogelberg 山系泥炭质砂土上的湿润南向坡、渗水处及溪岸。SANBI 区域植物条目还记载 Pringle Bay 附近有太阳鸟访花；这是局部观察，并非完整传粉研究。",
+              "sourceIds": [
+                "sanbi2020",
+                "redlist-3r96g"
+              ],
+              "locator": "Strelitzia 42 (2020), Klattia account, printed p. 58, distribution and ecology",
+              "placeTimeScope": "Species-level account in a 2020 southern African flora; locality and period are limited to the source account.",
+              "lifeStatus": "Wild regional flora/account evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "The regional or national account is partial evidence only; a systematic, scope-complete review of ecology for this species has not been completed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The 2020 flora account restricts the species to the Kogelberg mountain complex of the southwestern Western Cape, from ridges above Steenbras Dam east toward Betty’s Bay and the mountains above Kleinmond. The account is a regional treatment, not a current global range inventory.",
+              "textZh": "2020 年植物志将该种限定于西开普西南部 Kogelberg 山系，从 Steenbras Dam 上方山脊向东至 Betty’s Bay 及 Kleinmond 上方山地。这是区域性记载，不是当前全球分布清单。",
+              "sourceIds": [
+                "sanbi2020"
+              ],
+              "locator": "Strelitzia 42 (2020), Klattia account, printed p. 58, distribution and ecology",
+              "placeTimeScope": "Species-level account in a 2020 southern African flora; locality and period are limited to the source account.",
+              "lifeStatus": "Wild regional flora/account evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "The regional or national account is partial evidence only; a systematic, scope-complete review of distribution for this species has not been completed."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "SANBI lists the South African national assessment as Endangered D, assessed 2007-07-28 and shown in Red List version 2024.1. It describes a Kogelberg endemic with 10 subpopulations, each with fewer than 10 individuals, fewer than 250 mature individuals in total, and a stable recorded trend; groundwater extraction is a potential threat.",
+              "textZh": "SANBI 南非国家评估列为濒危 D，评估日期为 2007-07-28，页面列入 Red List 2024.1。评估记载其为 Kogelberg 特有种，有 10 个亚种群且每群少于 10 个个体，成熟个体总数少于 250，记录的趋势稳定；地下水抽取是潜在威胁。",
+              "sourceIds": [
+                "redlist-3r96g"
+              ],
+              "locator": "National status and criteria; assessment date; justification; distribution; habitat and ecology; population trend",
+              "placeTimeScope": "South African national assessment dated 2007-07-28; page version 2024.1. This is not a global assessment or a new assessment in 2024.",
+              "lifeStatus": "Wild South African populations within the assessment scope."
+            }
+          ],
+          "gaps": [
+            "The regional or national account is partial evidence only; a systematic, scope-complete review of conservation for this species has not been completed."
+          ]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Five facets have limited regional or national evidence; evolution and fossil occurrence remain unassessed.",
+          "No reproducible global literature and occurrence search, fossil review, or external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      }
     }
   ]
 }

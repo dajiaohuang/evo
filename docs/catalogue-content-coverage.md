@@ -26,6 +26,7 @@ RC155 生成的来源标签筛查计数为：形态 48,482 种、生态 41,445 �
 16. 补齐 SANBI `13878.0` 中 14 个 Bobartia 接受种账户，以 Strelitzia 29 pp.129–130 的逐种账户核对花期和区域分布，并引用对应形态/生境 archive 行；四主题部分支持，其余主题未评估。
 17. 新增 7 个 Iridaceae 种级档案：Crocosmia `ZKPK`、Dierama `36282`、Dietes `362RF`、Melasphaerula `3ZCNT`、Pillansia `77KJM`、Witsenia `7G7KQ`、Xenoscapa `5CBK6`；逐个核对 Strelitzia 29 pp.131、154、164、175–176 账户，并绑定 SANBI archive 形态/生境行。
 18. 完整补齐 COL26.8 接受分类中 Chasmanthe 全属 3 种（`TPZY`、`TPZZ`、`TQ23`），逐种核对 Strelitzia 29 pp.130–131 账户，并绑定 SANBI archive 形态/生境行。
+19. 新增 Klattia 全属 3 种（`3R96F`、`6NKCG`、`3R96G`）的档案，逐种绑定 COL26.8/WFO 身份、Strelitzia 42 (2020) 物种账户和 SANBI 南非 Red List 评估。形态、花期、生态、区域分布及国家保育评估有局部证据；演化与化石仍未评估，三份档案均未达完整标准。
 
 ## 覆盖含义与尚未完成的内容
 
