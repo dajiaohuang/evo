@@ -96,15 +96,19 @@ not treat the page-range locator as proof of a globally exhaustive account.
 See `data/knowledge/catalogue-dossiers.json` for the exact identity, source
 versions, rights note, scope and claims.
 
-## RC157 source triage
+## RC157–RC158 source triage
 
-A reproducible metadata screen found 4,973 distinct COL taxa / 6,168
+A reproducible metadata screen found 4,960 distinct COL taxa / 6,149
 source-ID pairs where the imported SANBI record has both Morphology and
 Habitat rows with the same exact citation string and a parsed page range no
 longer than four pages. This is a triage queue only: it does not verify the
 publication's concept against COL, item-level rights, the exact passage, or
 whether the text supports a complete dossier facet. These pairs must not be
-counted as reviewed claims or completed species.
+counted as reviewed claims or completed species. Recompute the queue from the
+pinned projection with `rtk node scripts/sanbi-locator-triage.mjs`; add
+`--list` to emit each candidate taxon/source/citation tuple. The final numeric
+page range is only a locator heuristic and still requires inspecting the
+actual page.
 
 One exact one-page account was inspected directly: COL `32DNH`, *Cullumia
 cirsioides* DC., maps to WFO `wfo-0000077220` by the pinned 2026-06 exact
@@ -119,17 +123,20 @@ was checked at the cited account. The archive EML declares CC BY 4.0, but the
 individual publication's license version has not been independently
 inspected; only attributed paraphrases are recorded.
 
-A second account, *Cullumia decurrens* Less. (COL `32DNJ`), maps to WFO
-`wfo-0000136608` by the pinned 2026-06 exact accepted-name-and-authorship
-crosswalk. Its SANBI Morphology and Habitat rows (11353 and 25919) share source
-ID `14129.0` and cite the same one-page *Strelitzia 29* account on p. 367. The
-account directly reports diagnostic morphology, flowering in August–January,
-sandstone slopes often near streams, and a regional locality span from the
-Swartberg and Cloete's Pass to Port Elizabeth. The new dossier keeps these as
-four partial facets and leaves evolution, fossil and conservation unassessed.
-The earlier broad genus chapter entry for *Cullen tomentosum* was excluded:
-its cited page actually presents *C. obtusifolia*, so the shared chapter
-citation did not prove species-level identity.
+The same page contains four further species accounts promoted only after
+checking each exact WFO crosswalk and its separate species entry: *Cullumia
+decurrens* (COL `32DNJ`, rows 11353/25919), *C. floccosa* (`32DNK`, rows
+11354/25920), *C. reticulata* (`32DNV`, rows 9242/25923) and *C. rigida*
+(`32DNW`, rows 11357/25924). Their archive records share source ID `14129.0`
+and the p. 367 citation. The printed account independently supplies each
+species' morphology, flowering months, habitat and regional locality codes.
+Those four facets are partial only; evolution, fossil and conservation remain
+unassessed. As with the other dossier, the archive EML's CC BY 4.0 declaration
+does not independently establish the item-level license version of the book.
+
+The broad genus chapter entry for *Cullen tomentosum* was excluded: the cited
+page actually describes *C. obtusifolia*. A shared chapter citation alone did
+not establish species-level identity.
 
 ## Runtime delivery
 
