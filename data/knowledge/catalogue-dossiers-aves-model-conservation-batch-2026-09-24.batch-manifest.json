@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "batchId": "aves-model-conservation-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "releaseDate": "2026-08-20",
+  "checklistBankDatasetKey": 316115,
+  "sourceDatasetId": "2144",
+  "scope": "Two bounded Aves dossier additions: one California condor conservation-monitoring claim and one zebra finch comparative-genomics claim. Only directly supported facets are partial; all remaining facets are not assessed. This is not full Aves coverage or a systematic review.",
+  "generator": "scripts/build-aves-model-conservation-dossier-batch.mjs",
+  "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+  "sourceSha256": "d8e147aa8026b26a536aea963f2d1136e3f6113512fbcde79a631d1c012b48d1",
+  "output": {
+    "path": "data/knowledge/catalogue-dossiers-aves-model-conservation-batch-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 2,
+    "decodedSha256": "6c0536165925626bcc3b3f127c51b22337a43cb1edb5dcab40f25c72aea2ba15",
+    "compressedSha256": "64eeab7f23c826bb1551e94b0be5197e799e8469a5158367631e16fb8d77182f"
+  },
+  "records": [
+    {
+      "colId": "3HSM2",
+      "scientificName": "Gymnogyps californianus (Shaw, 1797)",
+      "rank": "species",
+      "sourceDatasetId": "2144"
+    },
+    {
+      "colId": "54HRJ",
+      "scientificName": "Taeniopygia guttata (Vieillot, 1817)",
+      "rank": "species",
+      "sourceDatasetId": "2144"
+    }
+  ]
+}

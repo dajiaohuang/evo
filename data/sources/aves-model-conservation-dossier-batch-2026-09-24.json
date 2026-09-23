@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "releaseAlias": "COL26.8",
+  "batchId": "aves-model-conservation-2026-09-24",
+  "scope": "Two bounded Aves dossier additions: one California condor conservation-monitoring claim and one zebra finch comparative-genomics claim. Only directly supported facets are partial; all remaining facets are not assessed. This is not full Aves coverage or a systematic review.",
+  "records": [
+    {
+      "colId": "3HSM2",
+      "scientificName": "Gymnogyps californianus (Shaw, 1797)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-09-24",
+      "identity": {
+        "method": "Exact COL26.8 pinned registry search row checked for usage ID, verbatim accepted scientific name including authorship, species rank, accepted status, source dataset ID, and Aves classification.",
+        "scope": "Nominal accepted species usage 3HSM2 in COL26.8. The federal recovery report names Gymnogyps californianus and reports its managed world population; this record does not reconcile every external species concept or infer a current legal or global extinction-risk category.",
+        "sourceIds": ["col26"]
+      },
+      "lifeStatusScope": {
+        "wild": "The 2025 population report separates the reported wild free-flying total from captive birds; the claim preserves that distinction and its December 31, 2025 reference date.",
+        "domesticated": "Domestication has not been assessed; captive breeding is not treated as domestication.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col26",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source dataset 2144 ITIS",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/3HSM2",
+          "stableId": "COL26.8:3HSM2",
+          "version": "COL26.8 release 2026-08-20; ChecklistBank dataset 316115; source dataset ITIS version 2026-07-28",
+          "publishedAt": "2026-08-20",
+          "accessedAt": "2026-09-24",
+          "locator": "Pinned registry search row 3HSM2: exact scientificName, rank species, status accepted, sourceDatasetId 2144, classification includes Aves",
+          "license": "CC BY 4.0 for the COL release; underlying ITIS source dataset 2144 is Public Domain (CC0 1.0). This record uses the pinned names and classification for identity only and reproduces no source text.",
+          "licenseVersion": "COL release CC BY 4.0; ITIS CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsHolder": "Catalogue of Life Foundation; underlying ITIS dataset rights statement as recorded in the pinned COL source manifest",
+          "licenseAppliesTo": "Identity and classification metadata only; no biological prose is copied.",
+          "attribution": "Catalogue of Life (2026), COL26.8, ChecklistBank dataset 316115, taxon usage 3HSM2; underlying source dataset ITIS 2144.",
+          "licenseAssessment": "identity-only",
+          "scope": "Accepted-name identity, authorship, rank, status, source dataset, and Aves classification only; not biological evidence."
+        },
+        {
+          "id": "usfws2025",
+          "title": "U.S. Fish and Wildlife Service, California Condor Recovery Program. 2025 Annual Population Status",
+          "url": "https://www.fws.gov/sites/default/files/documents/2026-02/2025-california-condor-population-status_508-compliant.pdf",
+          "stableId": "FWS media record: 2025-california-condor-population-status-report",
+          "version": "Report covers population status as of 2025-12-31; published 2026-02-25; accessed 2026-09-24",
+          "publishedAt": "2026-02-25",
+          "accessedAt": "2026-09-24",
+          "locator": "PDF p. 1, lines 0-15: total world population 607 and wild population 392 as of 2025-12-31; p. 1, lines 39-42: captive population 215 and its scope",
+          "license": "Public Domain, as explicitly declared in the USFWS media record for this report; no images or third-party material are reproduced.",
+          "licenseVersion": "Public Domain (USFWS media metadata)",
+          "licenseUrl": "https://www.fws.gov/media/2025-california-condor-population-status-report",
+          "rightsHolder": "U.S. Fish and Wildlife Service",
+          "licenseAppliesTo": "Report text and tabulated population figures as listed on the USFWS media record; excludes any third-party material if separately identified.",
+          "attribution": "U.S. Fish and Wildlife Service, California Condor Recovery Program. 2025 Annual Population Status. Published 2026-02-25.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Recovery-program population accounting across the world population, including free-flying wild and captive birds; dated 2025-12-31. Counts are not a formal threat-category assessment."
+        }
+      ],
+      "facets": {
+        "morphology": { "status": "not-assessed", "gaps": ["No species-level morphology or identification evidence was assessed in this bounded batch."] },
+        "lifeHistory": { "status": "not-assessed", "gaps": ["No life-history or reproductive evidence was assessed in this bounded batch."] },
+        "ecology": { "status": "not-assessed", "gaps": ["Population accounting alone does not assess ecological interactions, habitat, or diet."] },
+        "evolution": { "status": "not-assessed", "gaps": ["No species-level evolutionary or phylogenetic study was assessed in this bounded batch."] },
+        "distribution": { "status": "not-assessed", "gaps": ["The report's management totals do not establish a complete geographic range or locality inventory."] },
+        "fossil": { "status": "not-assessed", "gaps": ["No bounded fossil-record search was conducted."] },
+        "conservation": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The California Condor Recovery Program's annual status report counted 607 birds in the world population, including 392 wild free-flying birds and 215 captive birds, as of December 31, 2025. These are dated program counts, not a formal extinction-risk assessment or a current legal-listing conclusion.",
+              "originalLanguage": "en",
+              "translationStatus": "untranslated",
+              "sourceIds": ["usfws2025"],
+              "locator": "PDF p. 1, lines 0-15 and 39-42",
+              "placeTimeScope": "World population managed by the recovery program; reference date 2025-12-31. The report separately identifies wild free-flying birds and captive birds.",
+              "lifeStatus": "Mixed global program total: 392 wild free-flying and 215 captive birds; not a domesticated population claim."
+            }
+          ],
+          "gaps": ["A current formal global or national extinction-risk assessment, criteria, and assessment date have not been reviewed; the report is population monitoring, not a status-category assessment."]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": ["Only bounded population-monitoring evidence was assessed for conservation; six facets remain not assessed.", "A systematic literature search and external expert review have not been completed."]
+      },
+      "expertReview": { "status": "not-reviewed", "reviewers": [], "reviewDigest": null }
+    },
+    {
+      "colId": "54HRJ",
+      "scientificName": "Taeniopygia guttata (Vieillot, 1817)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-09-24",
+      "identity": {
+        "method": "Exact COL26.8 pinned registry search row checked for usage ID, verbatim accepted scientific name including authorship, species rank, accepted status, source dataset ID, and Aves classification.",
+        "scope": "Nominal accepted species usage 54HRJ in COL26.8. The genome study explicitly names Taeniopygia guttata; no additional synonym or population-wide concept reconciliation is asserted.",
+        "sourceIds": ["col26"]
+      },
+      "lifeStatusScope": {
+        "wild": "The cited genome study used a male zebra finch; wild or captive origin is not assigned by the claim locator and is left unresolved.",
+        "domesticated": "Domestication has not been assessed; the paper's laboratory genome material is not evidence of domestication.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col26",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source dataset 2144 ITIS",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/54HRJ",
+          "stableId": "COL26.8:54HRJ",
+          "version": "COL26.8 release 2026-08-20; ChecklistBank dataset 316115; source dataset ITIS version 2026-07-28",
+          "publishedAt": "2026-08-20",
+          "accessedAt": "2026-09-24",
+          "locator": "Pinned registry search row 54HRJ: exact scientificName, rank species, status accepted, sourceDatasetId 2144, classification includes Aves",
+          "license": "CC BY 4.0 for the COL release; underlying ITIS source dataset 2144 is Public Domain (CC0 1.0). This record uses the pinned names and classification for identity only and reproduces no source text.",
+          "licenseVersion": "COL release CC BY 4.0; ITIS CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsHolder": "Catalogue of Life Foundation; underlying ITIS dataset rights statement as recorded in the pinned COL source manifest",
+          "licenseAppliesTo": "Identity and classification metadata only; no biological prose is copied.",
+          "attribution": "Catalogue of Life (2026), COL26.8, ChecklistBank dataset 316115, taxon usage 54HRJ; underlying source dataset ITIS 2144.",
+          "licenseAssessment": "identity-only",
+          "scope": "Accepted-name identity, authorship, rank, status, source dataset, and Aves classification only; not biological evidence."
+        },
+        {
+          "id": "warren2010",
+          "title": "Warren et al. 2010. The genome of a songbird. Nature 464(7289):757-762",
+          "url": "https://doi.org/10.1038/nature08819",
+          "stableId": "PMCID:PMC3187626",
+          "version": "Version of record published 2010-04-01; author manuscript available in PMC 2011-10-05; PMC full text accessed 2026-09-24",
+          "publishedAt": "2010-04-01",
+          "accessedAt": "2026-09-24",
+          "locator": "Methods/Results, genome assembly and comparative chromosome analysis; PMC full-text lines 712-717; published pages 757-762",
+          "license": "Creative Commons Attribution-Non-Commercial-Share Alike (CC BY-NC-SA); PMC full-text rights statement does not display the license version. Only attributed factual paraphrase is recorded; article text and media are not redistributed.",
+          "licenseVersion": "Not stated in the PMC full-text rights notice",
+          "licenseUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3187626/",
+          "rightsHolder": "The Authors",
+          "licenseAppliesTo": "Article text under its stated CC BY-NC-SA terms; no article text, figures, or supplementary material are redistributed.",
+          "attribution": "Warren, W. C., et al. 2010. The genome of a songbird. Nature 464(7289):757-762. https://doi.org/10.1038/nature08819",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Comparative analysis of a male zebra-finch draft genome and the chicken genome, including sequence alignment and fluorescent in situ hybridization; this source supports only the stated study comparison."
+        }
+      ],
+      "facets": {
+        "morphology": { "status": "not-assessed", "gaps": ["No morphological description or identification study was assessed in this bounded batch."] },
+        "lifeHistory": { "status": "not-assessed", "gaps": ["No life-history or reproductive evidence was assessed in this bounded batch."] },
+        "ecology": { "status": "not-assessed", "gaps": ["No ecological interaction or habitat evidence was assessed in this bounded batch."] },
+        "evolution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "A comparative genome study assembled a draft genome from a male zebra finch and compared its chromosomes with chicken using sequence alignment and fluorescent in situ hybridization. The study reported overall conservation of synteny and karyotype, alongside a high rate of intrachromosomal rearrangement; this is a two-lineage genomic comparison, not a complete species phylogeny.",
+              "originalLanguage": "en",
+              "translationStatus": "untranslated",
+              "sourceIds": ["warren2010"],
+              "locator": "Results, chromosome comparison; PMC full-text lines 712-717; published pages 757-762",
+              "placeTimeScope": "Genome comparison reported in 2010; sampled zebra-finch genome was male and compared with chicken. Source locator does not establish wild/captive origin or represent all zebra-finch populations.",
+              "lifeStatus": "A single male genome sample; source provenance as wild or captive was not confirmed from the cited methods/results locator."
+            }
+          ],
+          "gaps": ["No species-level phylogeny, divergence estimate, population-genomic variation, or synthesis of later comparative studies was assessed."]
+        },
+        "distribution": { "status": "not-assessed", "gaps": ["No geographic distribution or population-locality source was assessed."] },
+        "fossil": { "status": "not-assessed", "gaps": ["No bounded fossil-record search was conducted."] },
+        "conservation": { "status": "not-assessed", "gaps": ["No current global or national conservation assessment was assessed."] }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": ["Only one bounded comparative-genomics study was assessed for evolution; six facets remain not assessed.", "A systematic literature search and external expert review have not been completed.", "The cited article's license version is not shown in its PMC rights notice and remains unresolved."]
+      },
+      "expertReview": { "status": "not-reviewed", "reviewers": [], "reviewDigest": null }
+    }
+  ]
+}
