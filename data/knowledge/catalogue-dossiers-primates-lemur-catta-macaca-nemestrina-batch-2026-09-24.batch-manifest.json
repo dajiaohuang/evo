@@ -4,23 +4,23 @@
   "releaseAlias": "COL26.8",
   "input": {
     "path": "data/sources/primates-lemur-catta-macaca-nemestrina-batch-2026-09-24.json",
-    "bytes": 7447,
-    "sha256": "623c5da7d3f65c884aad6835055b377a67016c35c522ca3cd8ab576f3a1078f1"
+    "bytes": 7611,
+    "sha256": "e6d25eca009a1dc25c5a3ed475dce2587560a16d74c7bd6efd54dd0567830c37"
   },
   "raw": {
     "path": "data/knowledge/raw-dossiers/primates-lemur-catta-macaca-nemestrina-batch-2026-09-24.jsonl",
-    "bytes": 12005,
-    "sha256": "d6412cb856237467a6540c56b9a5c270282e1e4a1c89cc18153fc584a8b1aa5c",
+    "bytes": 12009,
+    "sha256": "9492095ac91c75bed10f8f073b5e023bb482c82d2edf5618d839a47566f1b8ec",
     "lineEnding": "LF"
   },
   "shard": {
     "path": "data/knowledge/catalogue-dossiers-primates-lemur-catta-macaca-nemestrina-batch-2026-09-24.jsonl.br",
     "encoding": "brotli-jsonl",
     "recordCount": 2,
-    "decodedBytes": 12005,
-    "decodedSha256": "d6412cb856237467a6540c56b9a5c270282e1e4a1c89cc18153fc584a8b1aa5c",
+    "decodedBytes": 12009,
+    "decodedSha256": "9492095ac91c75bed10f8f073b5e023bb482c82d2edf5618d839a47566f1b8ec",
     "compressedBytes": 2494,
-    "compressedSha256": "96f31103e1397cf9dd1cbc9ce7fb0e86a0e15670c79e9aca311266d2b6d59bf8",
+    "compressedSha256": "73db289747f4eaf84797e3e158a1b8afec4bd2b4d7c822bdd885c8a65dfb4eab",
     "byteExactRoundTrip": true,
     "brotliParameters": {
       "mode": "text",
@@ -28,7 +28,7 @@
     }
   },
   "generationSource": "data/sources/primates-lemur-catta-macaca-nemestrina-batch-2026-09-24.json",
-  "generationSourceSha256": "623c5da7d3f65c884aad6835055b377a67016c35c522ca3cd8ab576f3a1078f1",
+  "generationSourceSha256": "e6d25eca009a1dc25c5a3ed475dce2587560a16d74c7bd6efd54dd0567830c37",
   "generator": "scripts/build-primates-lemur-macaca-batch.mjs",
   "duplicateGuard": {
     "indexedShardManifest": "data/knowledge/catalogue-dossier-shards.json",
@@ -38,6 +38,9 @@
       "6TM9B"
     ]
   },
+  "sourceChecksums": {
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
   "identities": [
     {
       "colId": "3T528",
@@ -45,7 +48,24 @@
       "authorship": "Linnaeus, 1758",
       "rank": "species",
       "status": "accepted",
-      "sourceDatasetId": "2144"
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Vertebrata",
+        "Gnathostomata",
+        "Osteichthyes",
+        "Tetrapoda",
+        "Mammalia",
+        "Theria",
+        "Eutheria",
+        "Primates",
+        "Strepsirrhini",
+        "Lemuriformes",
+        "Lemuroidea",
+        "Lemuridae",
+        "Lemur"
+      ]
     },
     {
       "colId": "3WWNT",
@@ -53,7 +73,26 @@
       "authorship": "(Linnaeus, 1766)",
       "rank": "species",
       "status": "accepted",
-      "sourceDatasetId": "2144"
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Vertebrata",
+        "Gnathostomata",
+        "Osteichthyes",
+        "Tetrapoda",
+        "Mammalia",
+        "Theria",
+        "Eutheria",
+        "Primates",
+        "Haplorrhini",
+        "Simiiformes",
+        "Cercopithecoidea",
+        "Cercopithecidae",
+        "Cercopithecinae",
+        "Papionini",
+        "Macaca"
+      ]
     }
   ]
 }

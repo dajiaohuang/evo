@@ -3,7 +3,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs"
 import { dirname, resolve } from "node:path"
 import { execFileSync } from "node:child_process"
 import { fileURLToPath } from "node:url"
-import { brotliCompressSync, brotliDecompressSync, constants as zlibConstants } from "node:zlib"
+import { brotliCompressSync, brotliDecompressSync, constants as zlibConstants, gunzipSync } from "node:zlib"
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..")
 const sourcePath = resolve(root, "data/sources/primates-lemur-catta-macaca-nemestrina-batch-2026-09-24.json")
@@ -19,10 +19,45 @@ const expected = new Map([
 ])
 const openPr357Ids = new Set(["3WWNQ", "3WWP6", "6TM9B"])
 const facets = ["morphology", "lifeHistory", "ecology", "evolution", "distribution", "fossil", "conservation"]
+const colRoot = resolve(root, "data/catalogue-of-life/releases/2026-08-20/registry")
+const colManifestBytes = readFileSync(resolve(colRoot, "manifest.json"))
+const colManifest = JSON.parse(colManifestBytes.toString("utf8"))
+if (colManifest.releaseAlias !== "COL26.8" || String(colManifest.checklistBankDatasetKey) !== "316115") fail("COL registry manifest is not the pinned COL26.8 dataset")
+const registryShards = new Map()
+const registryNode = id => {
+  const shard = createHash("sha256").update(id).digest("hex").slice(0, 2)
+  if (!registryShards.has(shard)) {
+    const path = resolve(colRoot, `hierarchy/nodes/id-${shard}.jsonl.gz`)
+    const rows = gunzipSync(readFileSync(path)).toString("utf8").trimEnd().split(/\r?\n/).map(JSON.parse)
+    registryShards.set(shard, new Map(rows.map(row => [row.id, row])))
+  }
+  const node = registryShards.get(shard).get(id)
+  if (!node) fail(`COL26.8 hierarchy node not found: ${id}`)
+  return node
+}
+const classificationName = node => {
+  if (!node.authorship) return node.scientificName
+  if (!node.scientificName.endsWith(node.authorship)) fail(`Cannot separate COL authorship from classification name: ${node.id}`)
+  return node.scientificName.slice(0, -node.authorship.length).trimEnd()
+}
+const exactClassification = entry => {
+  const chain = []
+  const seen = new Set()
+  let node = registryNode(entry.colId)
+  while (node) {
+    if (seen.has(node.id)) fail(`COL26.8 parent cycle for ${entry.colId}`)
+    seen.add(node.id)
+    chain.push(node)
+    if (!node.parentId) break
+    node = registryNode(node.parentId)
+  }
+  if (node.parentId !== null) fail(`COL26.8 root missing for ${entry.colId}`)
+  return chain.reverse().filter(item => item.rank !== "domain" && item.rank !== "species").map(classificationName)
+}
 
 const sourceBytes = readFileSync(sourcePath)
 const sourceSha256 = sha256(sourceBytes)
-const expectedSourceSha256 = "623c5da7d3f65c884aad6835055b377a67016c35c522ca3cd8ab576f3a1078f1"
+const expectedSourceSha256 = "e6d25eca009a1dc25c5a3ed475dce2587560a16d74c7bd6efd54dd0567830c37"
 if (sourceSha256 !== expectedSourceSha256) fail(`Source JSON SHA-256 mismatch: ${sourceSha256}`)
 const source = JSON.parse(sourceBytes.toString("utf8"))
 if (source.releaseAlias !== "COL26.8" || source.datasetKey !== 316115 || source.records?.length !== expected.size) fail("Source document is not the pinned COL26.8 batch")
@@ -30,8 +65,10 @@ if (source.releaseAlias !== "COL26.8" || source.datasetKey !== 316115 || source.
 const records = source.records.map(entry => {
   const identity = expected.get(entry.colId)
   if (!identity || openPr357Ids.has(entry.colId)) fail(`Unexpected or already-covered COL ID: ${entry.colId}`)
-  if (entry.scientificName !== identity.name || entry.authorship !== identity.authorship || entry.rank !== identity.rank || entry.status !== identity.status || String(entry.sourceDatasetId) !== identity.sourceDatasetId || !entry.classification.includes(identity.order)) fail(`COL identity mismatch for ${entry.colId}`)
-  if (entry.classification.at(-1) !== (entry.colId === "3T528" ? "Lemur" : "Macaca")) fail(`COL parent/genus classification mismatch for ${entry.colId}`)
+  const colNode = registryNode(entry.colId)
+  if (entry.scientificName !== identity.name || entry.scientificName !== colNode.scientificName || entry.authorship !== identity.authorship || entry.authorship !== colNode.authorship || entry.rank !== identity.rank || entry.rank !== colNode.rank || entry.status !== identity.status || entry.status !== colNode.status || String(entry.sourceDatasetId) !== identity.sourceDatasetId || String(entry.sourceDatasetId) !== String(colNode.sourceDatasetId)) fail(`COL identity mismatch for ${entry.colId}`)
+  const colClassification = exactClassification(entry)
+  if (JSON.stringify(entry.classification) !== JSON.stringify(colClassification)) fail(`COL26.8 exact parent classification mismatch for ${entry.colId}: expected ${JSON.stringify(colClassification)}`)
   const article = entry.article
   const claims = entry.claims ?? {}
   if (!article?.id || article.licenseAssessment !== "item-level-verified" || article.licenseVersion !== "CC BY 4.0" || !article.locator || !article.attribution) fail(`Missing source rights or locator for ${entry.colId}`)
@@ -51,7 +88,7 @@ const records = source.records.map(entry => {
     stableId: `col:${entry.colId}@COL26.8`,
     publishedAt: "2026-08-20",
     accessedAt: source.checkedAt,
-    locator: `Accepted species usage ${entry.colId}; exact scientific name, authorship, rank, accepted status, sourceDatasetId 2144 and Primates classification`,
+    locator: `Accepted species usage ${entry.colId}; exact scientific name, authorship, rank, accepted status, sourceDatasetId 2144 and full classification chain`,
     license: "CC BY 4.0 nomenclatural metadata; no biological text reused",
     licenseAssessment: "identity-only",
     scope: "Identity only: pinned COL26.8 taxonomic record and classification.",
@@ -98,17 +135,19 @@ const records = source.records.map(entry => {
 if (records.length !== expected.size || new Set(records.map(record => record.colId)).size !== expected.size) fail("Batch does not contain exactly two distinct expected COL usages")
 
 const index = JSON.parse(readFileSync(resolve(root, "data/knowledge/catalogue-dossier-shards.json"), "utf8"))
-const indexedIds = new Set()
+const indexedRecords = new Map()
 for (const shard of index.shards) {
   const decoded = brotliDecompressSync(readFileSync(resolve(root, shard.path)))
   if (sha256(decoded) !== shard.decodedSha256) fail(`Existing indexed shard hash mismatch: ${shard.path}`)
   for (const line of decoded.toString("utf8").trimEnd().split(/\r?\n/)) {
     const record = JSON.parse(line)
-    indexedIds.add(record.colId)
+    if (indexedRecords.has(record.colId)) fail(`Duplicate ID already present in dossier index: ${record.colId}`)
+    indexedRecords.set(record.colId, { record, shardPath: shard.path })
   }
 }
 for (const record of records) {
-  if (indexedIds.has(record.colId) || openPr357Ids.has(record.colId)) fail(`Duplicate indexed/open-PR dossier: ${record.colId}`)
+  const existing = indexedRecords.get(record.colId)
+  if (openPr357Ids.has(record.colId) || (existing && existing.shardPath !== rel(shardPath))) fail(`Duplicate indexed/open-PR dossier: ${record.colId}`)
 }
 
 const rawBytes = Buffer.from(records.map(record => JSON.stringify(record)).join("\n") + "\n", "utf8")
@@ -137,7 +176,8 @@ const manifest = {
   generationSourceSha256: sourceSha256,
   generator: rel(fileURLToPath(import.meta.url)),
   duplicateGuard: { indexedShardManifest: "data/knowledge/catalogue-dossier-shards.json", excludedOpenPr357Ids: [...openPr357Ids].sort() },
-  identities: source.records.map(entry => ({ colId: entry.colId, scientificName: entry.scientificName, authorship: entry.authorship, rank: entry.rank, status: entry.status, sourceDatasetId: entry.sourceDatasetId })),
+  sourceChecksums: { colRegistryManifestSha256: sha256(colManifestBytes) },
+  identities: source.records.map(entry => ({ colId: entry.colId, scientificName: entry.scientificName, authorship: entry.authorship, rank: entry.rank, status: entry.status, sourceDatasetId: entry.sourceDatasetId, classification: entry.classification })),
 }
 mkdirSync(dirname(rawPath), { recursive: true })
 mkdirSync(dirname(shardPath), { recursive: true })
