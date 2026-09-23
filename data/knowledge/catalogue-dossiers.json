@@ -18293,5 +18293,930 @@
         "reviewDigest": null
       }
     }
+  ,
+    {
+      "colId": "542J7",
+      "scientificName": "Syringodea bifucata M.P.de Vos",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 542J7, name, authorship, rank, and source dataset 2232; exact accepted-name-and-authorship WFO 2026-06 crosswalk to wfo-0000786154.",
+        "scope": "Syringodea bifucata M.P.de Vos as represented by COL26.8 usage 542J7; biological claims retain the cited South African regional scope."
+      },
+      "lifeStatusScope": {
+        "wild": "Claims concern wild populations described by the cited regional flora or national assessment.",
+        "domesticated": "Cultivation is not covered by cited claims; no domestication claim is made.",
+        "fossil": "No fossil occurrence claim is made; fossil evidence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/542J7",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 542J7",
+          "license": "CC BY 4.0 for pinned checklist record; used for identity only.",
+          "scope": "Accepted name, authorship, rank, status, and source dataset only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000786154-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; DOI 10.5281/zenodo.20782718",
+          "locator": "Exact accepted COL 542J7 / WFO wfo-0000786154 crosswalk",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only, not biological evidence."
+        },
+        {
+          "id": "sanbi-archive",
+          "title": "SANBI e-Flora Iridaceae description archive, source 18638.0",
+          "url": "https://files.worldfloraonline.org/Files/South_Africa/dwca-flora_descriptions.zip",
+          "version": "e-Flora archive v1.36, issued 2022-06-06; retrieved 2026-09-05; exact COL/WFO crosswalk retained in archive",
+          "locator": "Morphology row 98943; diagnostic row 95193; habitat row 97655",
+          "license": "CC BY 4.0 as stated in archive metadata; paraphrased with attribution.",
+          "scope": "South African flora morphology, diagnostic, and habitat fields only."
+        },
+        {
+          "id": "sanbi2019",
+          "title": "Bredenkamp & Magwaza 2019. Iridaceae. A Flora of the Eastern Cape Province. Strelitzia 41(3). SANBI.",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2019_Strelitzia-41_volume_3.pdf",
+          "version": "Published 2019; SANBI online PDF accessed 2026-09-23",
+          "locator": "Syringodea bifucata M.P.de Vos account, flowering-time entry",
+          "license": "CC BY as stated in SANBI flora source metadata; paraphrased with attribution.",
+          "scope": "Eastern Cape regional flora evidence; phenology does not imply year-round or global flowering."
+        },
+        {
+          "id": "redlist",
+          "title": "SANBI Red List of South African Plants, Syringodea bifucata M.P.de Vos",
+          "url": "https://redlist.sanbi.org/species.php?species=1542-2",
+          "version": "National assessment dated 2023-02-14; Red List dataset version 2024.1",
+          "locator": "National status, criteria, assessment date, range, and population/habitat fields where cited",
+          "license": "SANBI; no reuse license stated on the assessment page. Facts paraphrased; no page text or images redistributed.",
+          "scope": "South African national assessment only; not a global status."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The SANBI e-Flora morphology field describes Syringodea bifucata M.P.de Vos: plants 60–250 mm high, with 4–8 linear-channelled leaves and pale to deep violet or sometimes white flowers with a yellow or orange throat.",
+              "textZh": "SANBI e-Flora 形态字段记载 Syringodea bifucata M.P.de Vos：株高 60–250 mm，具 4–8 枚线形槽状叶；花色由浅紫至深紫、偶为白色，喉部黄色或橙色。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, morphology row 98943",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            },
+            {
+              "text": "The archive distinguishes it from Syringodea concolor by its yellow or orange throat and coarsely sculptured brown seeds, and from S. flanaganii by generally larger flowers.",
+              "textZh": "档案以黄色或橙色花喉及粗雕纹的褐色种子将其与 Syringodea concolor 区分，并以通常较大的花与 S. flanaganii 区分。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, diagnostic row 95193",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of morphology has not been completed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The 2019 Eastern Cape flora reports flowering September–June; this is a regional flowering-time observation, not a full life-history study.",
+              "textZh": "2019 年东开普植物志记载花期为 9 月至次年 6 月；这是区域花期记载，不构成完整生活史研究。",
+              "sourceIds": [
+                "sanbi2019"
+              ],
+              "locator": "Strelitzia 41(3), species flowering-time entry",
+              "placeTimeScope": "Eastern Cape flora treatment published 2019; regional flowering season only.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of lifeHistory has not been completed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Washes or seasonal drainage lines on clay flats in karroid scrub and open grassland.",
+              "textZh": "SANBI e-Flora 生境字段记载：喀拉哈里灌丛和开阔草地中的黏土平地冲沟或季节性排水线。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, habitat row 97655",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of ecology has not been completed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The SANBI national assessment reports the species scattered through the eastern Great and Upper Karoo, from Willowmore and De Aar through central Eastern Cape and central Free State to Heidelberg in Gauteng.",
+              "textZh": "SANBI 南非国家评估记载其散布于东部大卡鲁和上卡鲁，从 Willowmore、De Aar 经东开普中部和自由州中部至豪登省 Heidelberg。",
+              "sourceIds": [
+                "redlist"
+              ],
+              "locator": "South African national distribution and geographic range fields",
+              "placeTimeScope": "SANBI national assessment 2023-02-14; distribution within South Africa only.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of distribution has not been completed."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The SANBI national assessment lists Least Concern (LC), assessed 2023-02-14; it notes widespread occurrence despite local habitat loss. This is a South African national status, not a global assessment.",
+              "textZh": "SANBI 南非国家评估列为无危（LC），评估日期 2023-02-14；页面指出该种分布广，尽管部分栖地损失仍然常见。这是南非国家等级，不是全球评估。",
+              "sourceIds": [
+                "redlist"
+              ],
+              "locator": "National category, criteria, assessment date, scope, and stated caveats.",
+              "placeTimeScope": "SANBI South African national assessment dated 2023-02-14; not global.",
+              "lifeStatus": "Wild South African populations within the national assessment scope."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of conservation has not been completed."
+          ]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "The available evidence is regional; evolution and fossil occurrence remain unassessed, and not all themes have a scope-complete evidence review.",
+          "No reproducible global literature and occurrence search or external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      }
+    },
+    {
+      "colId": "542JH",
+      "scientificName": "Syringodea concolor (Baker) M.P.de Vos",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 542JH, name, authorship, rank, and source dataset 2232; exact accepted-name-and-authorship WFO 2026-06 crosswalk to wfo-0000786201.",
+        "scope": "Syringodea concolor (Baker) M.P.de Vos as represented by COL26.8 usage 542JH; biological claims retain the cited South African regional scope."
+      },
+      "lifeStatusScope": {
+        "wild": "Claims concern wild populations described by the cited regional flora or national assessment.",
+        "domesticated": "Cultivation is not covered by cited claims; no domestication claim is made.",
+        "fossil": "No fossil occurrence claim is made; fossil evidence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/542JH",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 542JH",
+          "license": "CC BY 4.0 for pinned checklist record; used for identity only.",
+          "scope": "Accepted name, authorship, rank, status, and source dataset only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000786201-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; DOI 10.5281/zenodo.20782718",
+          "locator": "Exact accepted COL 542JH / WFO wfo-0000786201 crosswalk",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only, not biological evidence."
+        },
+        {
+          "id": "sanbi-archive",
+          "title": "SANBI e-Flora Iridaceae description archive, source 18638.0",
+          "url": "https://files.worldfloraonline.org/Files/South_Africa/dwca-flora_descriptions.zip",
+          "version": "e-Flora archive v1.36, issued 2022-06-06; retrieved 2026-09-05; exact COL/WFO crosswalk retained in archive",
+          "locator": "Morphology row 98942; diagnostic row 95192; habitat row 97654",
+          "license": "CC BY 4.0 as stated in archive metadata; paraphrased with attribution.",
+          "scope": "South African flora morphology, diagnostic, and habitat fields only."
+        },
+        {
+          "id": "sanbi2019",
+          "title": "Bredenkamp & Magwaza 2019. Iridaceae. A Flora of the Eastern Cape Province. Strelitzia 41(3). SANBI.",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2019_Strelitzia-41_volume_3.pdf",
+          "version": "Published 2019; SANBI online PDF accessed 2026-09-23",
+          "locator": "Syringodea concolor (Baker) M.P.de Vos account, flowering-time entry",
+          "license": "CC BY as stated in SANBI flora source metadata; paraphrased with attribution.",
+          "scope": "Eastern Cape regional flora evidence; phenology does not imply year-round or global flowering."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The SANBI e-Flora morphology field describes Syringodea concolor (Baker) M.P.de Vos: plants 30–250 mm high, with 4–8 linear-channelled leaves and pale to deep violet flowers, sometimes darker at the tepal base, with a white throat.",
+              "textZh": "SANBI e-Flora 形态字段记载 Syringodea concolor (Baker) M.P.de Vos：株高 30–250 mm，具 4–8 枚线形槽状叶；花浅紫至深紫，花被片基部有时较深，喉部白色。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, morphology row 98942",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            },
+            {
+              "text": "Among summer-rainfall species with a narrowly funnel-shaped perianth tube, the archive distinguishes it by relatively large violet flowers with a white throat.",
+              "textZh": "在具狭漏斗形花被管的夏雨区种类中，档案以较大的紫花和白色花喉作为识别特征。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, diagnostic row 95192",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of morphology has not been completed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The 2019 Eastern Cape flora reports flowering January–May; this is a regional flowering-time observation, not a full life-history study.",
+              "textZh": "2019 年东开普植物志记载花期为 1–5 月；这是区域花期记载，不构成完整生活史研究。",
+              "sourceIds": [
+                "sanbi2019"
+              ],
+              "locator": "Strelitzia 41(3), species flowering-time entry",
+              "placeTimeScope": "Eastern Cape flora treatment published 2019; regional flowering season only.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of lifeHistory has not been completed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Washes or seasonal drainage lines on clay flats in karroid scrub and open grassland.",
+              "textZh": "SANBI e-Flora 生境字段记载：喀拉哈里灌丛和开阔草地中的黏土平地冲沟或季节性排水线。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, habitat row 97654",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of ecology has not been completed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "not-assessed"
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "The available evidence is regional; evolution and fossil occurrence remain unassessed, and not all themes have a scope-complete evidence review.",
+          "No reproducible global literature and occurrence search or external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      }
+    },
+    {
+      "colId": "542JS",
+      "scientificName": "Syringodea derustensis M.P.de Vos",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 542JS, name, authorship, rank, and source dataset 2232; exact accepted-name-and-authorship WFO 2026-06 crosswalk to wfo-0000786202.",
+        "scope": "Syringodea derustensis M.P.de Vos as represented by COL26.8 usage 542JS; biological claims retain the cited South African regional scope."
+      },
+      "lifeStatusScope": {
+        "wild": "Claims concern wild populations described by the cited regional flora or national assessment.",
+        "domesticated": "Cultivation is not covered by cited claims; no domestication claim is made.",
+        "fossil": "No fossil occurrence claim is made; fossil evidence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/542JS",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 542JS",
+          "license": "CC BY 4.0 for pinned checklist record; used for identity only.",
+          "scope": "Accepted name, authorship, rank, status, and source dataset only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000786202-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; DOI 10.5281/zenodo.20782718",
+          "locator": "Exact accepted COL 542JS / WFO wfo-0000786202 crosswalk",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only, not biological evidence."
+        },
+        {
+          "id": "sanbi-archive",
+          "title": "SANBI e-Flora Iridaceae description archive, source 18638.0",
+          "url": "https://files.worldfloraonline.org/Files/South_Africa/dwca-flora_descriptions.zip",
+          "version": "e-Flora archive v1.36, issued 2022-06-06; retrieved 2026-09-05; exact COL/WFO crosswalk retained in archive",
+          "locator": "Morphology row 98948; diagnostic row 95197; habitat row 97659",
+          "license": "CC BY 4.0 as stated in archive metadata; paraphrased with attribution.",
+          "scope": "South African flora morphology, diagnostic, and habitat fields only."
+        },
+        {
+          "id": "sanbi2009",
+          "title": "Raimondo et al. 2009. Red List of South African Plants. Strelitzia 25. SANBI.",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2009_Strelitzia25.pdf",
+          "version": "Published 2009; historical national assessment",
+          "locator": "Syringodea derustensis account, printed p. 174; range and status",
+          "license": "SANBI publication; facts paraphrased, no text or images redistributed.",
+          "scope": "Historical South African national assessment; not current and not global."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The SANBI e-Flora morphology field describes Syringodea derustensis M.P.de Vos: plants 50–80 mm high, with 3–5 spreading, linear to lanceolate leaves 30–60 mm long and conspicuous violet flowers.",
+              "textZh": "SANBI e-Flora 形态字段记载 Syringodea derustensis M.P.de Vos：株高 50–80 mm，具 3–5 枚开展的线形至披针形叶，长 30–60 mm；花显著，紫色。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, morphology row 98948",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            },
+            {
+              "text": "The archive diagnoses it by 3–5 linear to lanceolate leaves 3–6 mm wide and flowers with a 25–35 mm perianth tube and obovate tepals.",
+              "textZh": "档案以 3–5 枚宽 3–6 mm 的线形至披针形叶，以及花被管长 25–35 mm、花被片倒卵形作为识别特征。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, diagnostic row 95197",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of morphology has not been completed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "not-assessed"
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Stony washes on quartzite slopes.",
+              "textZh": "SANBI e-Flora 生境字段记载：石英岩坡地的多石冲沟。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, habitat row 97659",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of ecology has not been completed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "A 2009 SANBI national Red List account records the range as Dysselsdorp to De Rust in the Western Cape; this is a historical regional account, not a current global range inventory.",
+              "textZh": "SANBI 2009 年南非国家红色名录账户记载其分布于西开普 Dysselsdorp 至 De Rust；这是历史区域记录，不是当前全球分布清单。",
+              "sourceIds": [
+                "sanbi2009"
+              ],
+              "locator": "Strelitzia 25 (2009), printed p. 174, eDistribution",
+              "placeTimeScope": "Historical 2009 South African national account; not a current or global range inventory.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of distribution has not been completed."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The 2009 SANBI national account listed Vulnerable B1ab(ii,iii,iv,v), with a range from Dysselsdorp to De Rust. This is a historical South African assessment and must not be represented as current.",
+              "textZh": "SANBI 2009 年南非國家账户列为易危（VU）B1ab(ii,iii,iv,v)，分布范围为 Dysselsdorp 至 De Rust。这是历史性南非评估，不应表述为当前等级。",
+              "sourceIds": [
+                "sanbi2009"
+              ],
+              "locator": "Historical national category, criteria, date, and geographic scope.",
+              "placeTimeScope": "SANBI national assessment published 2009; historical result, not current.",
+              "lifeStatus": "Wild South African populations within the historical assessment scope."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of conservation has not been completed."
+          ]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "The available evidence is regional; evolution and fossil occurrence remain unassessed, and not all themes have a scope-complete evidence review.",
+          "No reproducible global literature and occurrence search or external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      }
+    },
+    {
+      "colId": "542KB",
+      "scientificName": "Syringodea flanaganii Baker",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 542KB, name, authorship, rank, and source dataset 2232; exact accepted-name-and-authorship WFO 2026-06 crosswalk to wfo-0000786205.",
+        "scope": "Syringodea flanaganii Baker as represented by COL26.8 usage 542KB; biological claims retain the cited South African regional scope."
+      },
+      "lifeStatusScope": {
+        "wild": "Claims concern wild populations described by the cited regional flora or national assessment.",
+        "domesticated": "Cultivation is not covered by cited claims; no domestication claim is made.",
+        "fossil": "No fossil occurrence claim is made; fossil evidence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/542KB",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 542KB",
+          "license": "CC BY 4.0 for pinned checklist record; used for identity only.",
+          "scope": "Accepted name, authorship, rank, status, and source dataset only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000786205-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; DOI 10.5281/zenodo.20782718",
+          "locator": "Exact accepted COL 542KB / WFO wfo-0000786205 crosswalk",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only, not biological evidence."
+        },
+        {
+          "id": "sanbi-archive",
+          "title": "SANBI e-Flora Iridaceae description archive, source 18638.0",
+          "url": "https://files.worldfloraonline.org/Files/South_Africa/dwca-flora_descriptions.zip",
+          "version": "e-Flora archive v1.36, issued 2022-06-06; retrieved 2026-09-05; exact COL/WFO crosswalk retained in archive",
+          "locator": "Morphology row 98944; diagnostic row 95194; habitat row 97656",
+          "license": "CC BY 4.0 as stated in archive metadata; paraphrased with attribution.",
+          "scope": "South African flora morphology, diagnostic, and habitat fields only."
+        },
+        {
+          "id": "redlist",
+          "title": "SANBI Red List of South African Plants, Syringodea flanaganii Baker",
+          "url": "https://redlist.sanbi.org/species.php?species=1542-6",
+          "version": "National assessment dated 2022-09-27; Red List dataset version 2024.1",
+          "locator": "National status, criteria, assessment date, range, and population/habitat fields where cited",
+          "license": "SANBI; no reuse license stated on the assessment page. Facts paraphrased; no page text or images redistributed.",
+          "scope": "South African national assessment only; not a global status."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The SANBI e-Flora morphology field describes Syringodea flanaganii Baker: plants 30–120 mm high, with 5–9 linear-channelled leaves and pale to deep violet flowers marked yellow or orange in the throat.",
+              "textZh": "SANBI e-Flora 形态字段记载 Syringodea flanaganii Baker：株高 30–120 mm，具 5–9 枚线形槽状叶；花浅紫至深紫，喉部有黄色或橙色斑纹。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, morphology row 98944",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            },
+            {
+              "text": "The archive separates it from S. bifucata by its smaller flowers (less than 16 mm in diameter), smaller tepals, and shorter style branches.",
+              "textZh": "档案以较小的花（直径小于 16 mm）、较小的花被片和较短的花柱分枝将其与 S. bifucata 区分。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, diagnostic row 95194",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of morphology has not been completed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "not-assessed"
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Rock sheets and stony flats in open grassland.",
+              "textZh": "SANBI e-Flora 生境字段记载：开阔草地中的岩石平面和多石平地。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, habitat row 97656",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of ecology has not been completed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The 2022 SANBI national assessment reports occurrence from Port Elizabeth to Komga and Cathcart in the Eastern Cape; the page notes that it is rarely recorded and may be overlooked.",
+              "textZh": "SANBI 2022 年南非国家评估记载其分布于东开普 Port Elizabeth 至 Komga 和 Cathcart；页面指出该种记录稀少，可能被忽略。",
+              "sourceIds": [
+                "redlist"
+              ],
+              "locator": "South African national distribution and geographic range fields",
+              "placeTimeScope": "SANBI national assessment 2022-09-27; distribution within South Africa only.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of distribution has not been completed."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The SANBI national assessment lists Vulnerable (VU) B1ab(i,ii,iii,iv,v), assessed 2022-09-27. The assessment is national, not global, and reports possible local extinction around Port Elizabeth.",
+              "textZh": "SANBI 南非国家评估列为易危（VU）B1ab(i,ii,iii,iv,v)，评估日期 2022-09-27。该评估为国家尺度，不代表全球等级；页面称其在 Port Elizabeth 周边可能已局部灭绝。",
+              "sourceIds": [
+                "redlist"
+              ],
+              "locator": "National category, criteria, assessment date, scope, and stated caveats.",
+              "placeTimeScope": "SANBI South African national assessment dated 2022-09-27; not global.",
+              "lifeStatus": "Wild South African populations within the national assessment scope."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of conservation has not been completed."
+          ]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "The available evidence is regional; evolution and fossil occurrence remain unassessed, and not all themes have a scope-complete evidence review.",
+          "No reproducible global literature and occurrence search or external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      }
+    },
+    {
+      "colId": "542KW",
+      "scientificName": "Syringodea longituba (Klatt) Kuntze",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 542KW, name, authorship, rank, and source dataset 2232; exact accepted-name-and-authorship WFO 2026-06 crosswalk to wfo-0000786209.",
+        "scope": "Syringodea longituba (Klatt) Kuntze as represented by COL26.8 usage 542KW; biological claims retain the cited South African regional scope."
+      },
+      "lifeStatusScope": {
+        "wild": "Claims concern wild populations described by the cited regional flora or national assessment.",
+        "domesticated": "Cultivation is not covered by cited claims; no domestication claim is made.",
+        "fossil": "No fossil occurrence claim is made; fossil evidence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/542KW",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 542KW",
+          "license": "CC BY 4.0 for pinned checklist record; used for identity only.",
+          "scope": "Accepted name, authorship, rank, status, and source dataset only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000786209-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; DOI 10.5281/zenodo.20782718",
+          "locator": "Exact accepted COL 542KW / WFO wfo-0000786209 crosswalk",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only, not biological evidence."
+        },
+        {
+          "id": "sanbi-archive",
+          "title": "SANBI e-Flora Iridaceae description archive, source 18638.0",
+          "url": "https://files.worldfloraonline.org/Files/South_Africa/dwca-flora_descriptions.zip",
+          "version": "e-Flora archive v1.36, issued 2022-06-06; retrieved 2026-09-05; exact COL/WFO crosswalk retained in archive",
+          "locator": "Morphology row 98946; diagnostic row 95196; habitat row 97658",
+          "license": "CC BY 4.0 as stated in archive metadata; paraphrased with attribution.",
+          "scope": "South African flora morphology, diagnostic, and habitat fields only."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The SANBI e-Flora morphology field describes Syringodea longituba (Klatt) Kuntze: plants mostly 40–100 mm high, solitary or clumped, with several often loosely coiled or helically twisted leaves and pale to deep violet flowers with a white or orange throat.",
+              "textZh": "SANBI e-Flora 形态字段记载 Syringodea longituba (Klatt) Kuntze：株高通常 40–100 mm，单生或成丛；具数枚常松散盘绕或螺旋扭曲的叶，花浅紫至深紫，喉部白色或橙色。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, morphology row 98946",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            },
+            {
+              "text": "The archive distinguishes it by numerous often twisted leaves, mostly less than 2 mm in diameter, and relatively small flowers.",
+              "textZh": "档案记载其以多枚常扭曲、直径通常小于 2 mm 的叶及相对较小的花为识别特征。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, diagnostic row 95196",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of morphology has not been completed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "not-assessed"
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Stony flats and rock sheets in karroid or other open scrub.",
+              "textZh": "SANBI e-Flora 生境字段记载：喀拉哈里或其他开阔灌丛中的多石平地和岩石平面。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, habitat row 97658",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of ecology has not been completed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "not-assessed"
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "The available evidence is regional; evolution and fossil occurrence remain unassessed, and not all themes have a scope-complete evidence review.",
+          "No reproducible global literature and occurrence search or external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      }
+    },
+    {
+      "colId": "542LS",
+      "scientificName": "Syringodea saxatilis M.P.de Vos",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 542LS, name, authorship, rank, and source dataset 2232; exact accepted-name-and-authorship WFO 2026-06 crosswalk to wfo-0000786216.",
+        "scope": "Syringodea saxatilis M.P.de Vos as represented by COL26.8 usage 542LS; biological claims retain the cited South African regional scope."
+      },
+      "lifeStatusScope": {
+        "wild": "Claims concern wild populations described by the cited regional flora or national assessment.",
+        "domesticated": "Cultivation is not covered by cited claims; no domestication claim is made.",
+        "fossil": "No fossil occurrence claim is made; fossil evidence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/542LS",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 542LS",
+          "license": "CC BY 4.0 for pinned checklist record; used for identity only.",
+          "scope": "Accepted name, authorship, rank, status, and source dataset only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000786216-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; DOI 10.5281/zenodo.20782718",
+          "locator": "Exact accepted COL 542LS / WFO wfo-0000786216 crosswalk",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only, not biological evidence."
+        },
+        {
+          "id": "sanbi-archive",
+          "title": "SANBI e-Flora Iridaceae description archive, source 18638.0",
+          "url": "https://files.worldfloraonline.org/Files/South_Africa/dwca-flora_descriptions.zip",
+          "version": "e-Flora archive v1.36, issued 2022-06-06; retrieved 2026-09-05; exact COL/WFO crosswalk retained in archive",
+          "locator": "Morphology row 98949; diagnostic row 95198; habitat row 97660",
+          "license": "CC BY 4.0 as stated in archive metadata; paraphrased with attribution.",
+          "scope": "South African flora morphology, diagnostic, and habitat fields only."
+        },
+        {
+          "id": "redlist",
+          "title": "SANBI Red List of South African Plants, Syringodea saxatilis M.P.de Vos",
+          "url": "https://redlist.sanbi.org/species.php?species=1542-11",
+          "version": "National assessment dated 2022-10-03; Red List dataset version 2024.1",
+          "locator": "National status, criteria, assessment date, range, and population/habitat fields where cited",
+          "license": "SANBI; no reuse license stated on the assessment page. Facts paraphrased; no page text or images redistributed.",
+          "scope": "South African national assessment only; not a global status."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The SANBI e-Flora morphology field describes Syringodea saxatilis M.P.de Vos: plants 40–80 mm high, with a solitary falcate leaf that is unifacial and subcylindrical distally but bifacial and folded basally; flowers pale to deep violet.",
+              "textZh": "SANBI e-Flora 形态字段记载 Syringodea saxatilis M.P.de Vos：株高 40–80 mm，具一枚镰形叶，叶片远端单面、近圆柱形，基部双面并对折；花浅紫至深紫。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, morphology row 98949",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            },
+            {
+              "text": "The archive identifies it as unique in the genus for its solitary falcate leaf; juvenile plants have an entirely unifacial, terete leaf.",
+              "textZh": "档案指出其在属内独特地具一枚镰形叶；幼株叶片完全为单面、圆柱形。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, diagnostic row 95198",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of morphology has not been completed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "not-assessed"
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Stony washes on low quartzite or sandstone outcrops.",
+              "textZh": "SANBI e-Flora 生境字段记载：低矮石英岩或砂岩露头上的多石冲沟。",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora source 18638.0, habitat row 97660",
+              "placeTimeScope": "SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of ecology has not been completed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The 2022 SANBI national assessment places it around Ladismith and along the southern foothills of the Anysberg in the Western Cape; it is described as a small, cryptic, autumn-flowering species.",
+              "textZh": "SANBI 2022 年南非国家评估记载其分布于西开普 Ladismith 周边及 Anysberg 南麓；页面称其为体型小、隐蔽、秋季开花的种。",
+              "sourceIds": [
+                "redlist"
+              ],
+              "locator": "South African national distribution and geographic range fields",
+              "placeTimeScope": "SANBI national assessment 2022-10-03; distribution within South Africa only.",
+              "lifeStatus": "Wild regional-flora evidence; cultivated status is not assessed."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of distribution has not been completed."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The SANBI national assessment lists Vulnerable (VU) B1ab(ii,iii)+2ab(ii,iii), assessed 2022-10-03; it estimates six known locations and notes uncertainty that additional subpopulations may exist. This is a South African national status, not global.",
+              "textZh": "SANBI 南非国家评估列为易危（VU）B1ab(ii,iii)+2ab(ii,iii)，评估日期 2022-10-03；评估估计已知 6 个地点，并指出可能还存在其他亚种群的不确定性。这是南非国家等级，不代表全球。",
+              "sourceIds": [
+                "redlist"
+              ],
+              "locator": "National category, criteria, assessment date, scope, and stated caveats.",
+              "placeTimeScope": "SANBI South African national assessment dated 2022-10-03; not global.",
+              "lifeStatus": "Wild South African populations within the national assessment scope."
+            }
+          ],
+          "gaps": [
+            "Regional evidence is partial; a scope-complete review of conservation has not been completed."
+          ]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "The available evidence is regional; evolution and fossil occurrence remain unassessed, and not all themes have a scope-complete evidence review.",
+          "No reproducible global literature and occurrence search or external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      }
+    }
   ]
 }
