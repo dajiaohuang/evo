@@ -13,7 +13,7 @@ const MANIFEST_PATH = join(ROOT, 'data', 'knowledge', 'catalogue-dossiers-primat
 const REGISTRY_ROOT = join(ROOT, 'data', 'catalogue-of-life', 'releases', '2026-08-20', 'registry')
 const DOSSIER_INDEX_PATH = join(ROOT, 'data', 'knowledge', 'catalogue-dossier-shards.json')
 const FACETS = ['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation']
-const EXPECTED_SOURCE_SHA256 = 'b1a338dce9afd0bb258252d071139e23b420ae8e218d064d42bf3b52e89c5074'
+const EXPECTED_SOURCE_SHA256 = '88ebde8dc45be414dea7b2e2fc6fdc7a4d6854723fc91b75e816fcbe17559d21'
 const EXPECTED_REGISTRY_SHA256 = '8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151'
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex')
 const normalize = value => value.normalize('NFKD').replace(/\p{M}/gu, '').toLocaleLowerCase('en-US').replace(/[^a-z0-9]+/gu, ' ').trim()
