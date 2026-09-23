@@ -119,6 +119,18 @@ was checked at the cited account. The archive EML declares CC BY 4.0, but the
 individual publication's license version has not been independently
 inspected; only attributed paraphrases are recorded.
 
+A second account, *Cullumia decurrens* Less. (COL `32DNJ`), maps to WFO
+`wfo-0000136608` by the pinned 2026-06 exact accepted-name-and-authorship
+crosswalk. Its SANBI Morphology and Habitat rows (11353 and 25919) share source
+ID `14129.0` and cite the same one-page *Strelitzia 29* account on p. 367. The
+account directly reports diagnostic morphology, flowering in August–January,
+sandstone slopes often near streams, and a regional locality span from the
+Swartberg and Cloete's Pass to Port Elizabeth. The new dossier keeps these as
+four partial facets and leaves evolution, fossil and conservation unassessed.
+The earlier broad genus chapter entry for *Cullen tomentosum* was excluded:
+its cited page actually presents *C. obtusifolia*, so the shared chapter
+citation did not prove species-level identity.
+
 ## Runtime delivery
 
 Full-Web data generation emits 256 SHA-256 COL-ID-prefix shards, keeping each
