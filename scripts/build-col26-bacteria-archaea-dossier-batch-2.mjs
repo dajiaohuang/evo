@@ -5,6 +5,13 @@ import { brotliCompressSync, brotliDecompressSync, constants } from 'node:zlib'
 const batch = JSON.parse(readFileSync('data/sources/col26.8-bacteria-archaea-dossiers-batch-2.json', 'utf8'))
 const hash = bytes => createHash('sha256').update(bytes).digest('hex')
 
+for (const candidate of batch.candidates) {
+  const morphology = candidate.claims?.morphology
+  if (morphology && (!morphology.text || !morphology.locator || !/\b(Gram|motile|cells|colony|colonies|spore|hyphae|filament)/i.test(morphology.text))) {
+    throw new Error(`Morphology claim needs a concrete observation and locator: ${candidate.colId}`)
+  }
+}
+
 function makeRecord(t) {
   const sources = [
     { id: 'col', title: 'Catalogue of Life COL26.8 / ChecklistBank dataset 316115', version: 'COL26.8 pinned 2026-08-20; accepted usage checked 2026-09-24', license: batch.catalogue.license, licenseVersion: batch.catalogue.license, licenseUrl: batch.catalogue.licenseUrl, rightsHolder: batch.catalogue.rightsHolder, licenseAppliesTo: 'COL26.8 nomenclatural usage only', attribution: 'Catalogue of Life (2026), COL26.8, ChecklistBank dataset 316115, DOI 10.48580/dgywk', licenseAssessment: 'identity-only', scope: batch.catalogue.scope, url: `https://www.checklistbank.org/dataset/316115/taxon/${t.colId}`, stableId: t.colId, locator: `Pinned COL26.8 API usage ${t.colId}: exact name, authorship, species rank, accepted status and sourceDatasetId 2015` },
