@@ -2170,6 +2170,7 @@ Object.assign(zh, {
   'selected dossiers': '个已选档案',
   'Selected Perissodactyla evidence remains available in this preview edition.': '已选的奇蹄目证据在此预览版中可用。',
   'Selected Perissodactyla evidence remains available in this core edition.': '核心内容版仍提供已选的奇蹄目证据。',
+  'A curated primate pathway covers key branches, bounded fossil samples and ancient genomes.': '灵长目精选路径涵盖主要支系、范围明确的化石样本与古基因组。',
   'curated dossiers': '个策展档案',
   'Morphology, ecology, range evidence, claims and references.': '形态、生态、年代范围证据、主张与参考文献。',
   'Events': '事件',

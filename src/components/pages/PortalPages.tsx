@@ -89,6 +89,7 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
         <div className="portal-card-grid portal-card-grid--catalog">
           {isPagesPreview ? <>
             <a href={isNativeCore ? '#/taxa?id=perissodactyla' : `${staticCatalogBase}taxa/perissodactyla/`}><small>{t('Taxa')}</small><h3>{flagshipProfileCount} {t('selected dossiers')}</h3><p>{t('Selected Perissodactyla evidence remains available in this core edition.')}</p><i>→</i></a>
+            <a href={isNativeCore ? '#/taxa?id=primates' : `${staticCatalogBase}taxa/primates/`}><small>{t('Taxa')}</small><h3>{t('Primates')}</h3><p>{t('A curated primate pathway covers key branches, bounded fossil samples and ancient genomes.')}</p><i>→</i></a>
             <a href={isNativeCore ? '#/events' : `${staticCatalogBase}events/`}><small>{t('Events')}</small><h3>{evolutionEvents.length} {t('selected events')}</h3><p>{t('Selected event context remains available in this core edition.')}</p><i>→</i></a>
             {previewLockedCards.map(([label, title, description]) => <article className="portal-card portal-card--locked" key={label} aria-disabled="true"><small>{t(label)}</small><h3>{t(title)}</h3><p>{t(description)}</p><i aria-hidden="true">—</i></article>)}
           </> : <>
