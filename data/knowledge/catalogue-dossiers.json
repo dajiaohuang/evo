@@ -538,6 +538,99 @@
         ]
       },
       "expertReview": { "status": "not-reviewed" }
+    },
+    {
+      "colId": "32DNK",
+      "scientificName": "Cullumia floccosa E.Mey. ex DC.",
+      "rank": "species",
+      "sourceDatasetId": "1141",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted node 32DNK checked for name, authorship, rank, status and source dataset ID; pinned WFO 2026-06 crosswalk maps it to wfo-0000137573 by exact accepted name and authorship.",
+        "scope": "Cullumia floccosa as represented by COL26.8 usage 32DNK; the Greater Cape flora account is regional evidence and does not establish a globally identical circumscription."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        { "id": "col", "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141", "url": "https://www.checklistbank.org/dataset/316115/taxon/32DNK", "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115", "locator": "Accepted taxon usage 32DNK", "license": "CC BY 4.0 for the pinned checklist record; cited for identity only", "scope": "Accepted identity and source-dataset relation only; no COL biological text copied." },
+        { "id": "wfo", "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk", "url": "https://list.worldfloraonline.org/wfo-0000137573-2026-06", "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718", "locator": "Crosswalk row COL 32DNK / WFO wfo-0000137573", "license": "CC0-1.0", "scope": "Exact accepted name and authorship identity link only." },
+        { "id": "sanbi", "title": "Manning & Goldblatt. 2012. Asteraceae: Cullumia. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29", "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf", "version": "Published 2012; SANBI e-Flora archive v1.36 issued 2022-06-06; archive accessed 2026-09-23", "locator": "Cullumia floccosa account, p. 367; source ID 14129.0; Morphology row 11354 and Habitat row 25920", "license": "SANBI e-Flora archive EML declares CC BY 4.0; citation marks [CC BY]. Individual publication license version not independently inspected; attributed facts are paraphrased.", "scope": "Greater Cape Floristic Region flora account, not a global range assessment." }
+      ],
+      "facets": {
+        "morphology": { "status": "partially-supported", "claims": [{ "text": "The account describes a prickly, densely leafy shrublet to 90 cm, cobwebby in the upper leaf axils, with ascending oblanceolate leaves, thickened two-row bristly margins and radiate yellow flower heads.", "textZh": "该条目描述一种高至 90 cm、带刺且叶片密集的灌木状小灌木，上部叶腋有蛛丝状毛；叶片向上、倒披针形，边缘增厚并具两列刚毛，头状花序为黄色辐射状。", "sourceIds": ["sanbi"], "locator": "Strelitzia 29 (2012), C. floccosa account, p. 367; archive Morphology row 11354", "placeTimeScope": "Greater Cape regional flora account published 2012; no sample size or measurement protocol given.", "lifeStatus": "Regional flora description; wild native and naturalised plants are not distinguished." }], "gaps": ["Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."] },
+        "lifeHistory": { "status": "partially-supported", "claims": [{ "text": "The account reports flowering in November and December.", "textZh": "该条目记载花期为 11 月至 12 月。", "sourceIds": ["sanbi"], "locator": "Strelitzia 29 (2012), C. floccosa account, p. 367, flowering-time entry", "placeTimeScope": "Regional account published 2012; reported months are not a global phenology analysis.", "lifeStatus": "The source does not distinguish phenology of wild native and naturalised plants." }], "gaps": ["Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."] },
+        "ecology": { "status": "partially-supported", "claims": [{ "text": "The account records sandstone slopes as habitat.", "textZh": "该条目记载其生境为砂岩坡地。", "sourceIds": ["sanbi"], "locator": "Strelitzia 29 (2012), C. floccosa account, p. 367; archive Habitat row 25920", "placeTimeScope": "Regional habitat statement without dated sites, frequency or sampling frame.", "lifeStatus": "The source does not state whether observations concern wild native or naturalised populations." }], "gaps": ["Species interactions, resource use and population-level ecology have not been assessed."] },
+        "evolution": { "status": "not-assessed" },
+        "distribution": { "status": "partially-supported", "claims": [{ "text": "The account places the species in its NW regional unit and gives the Olifants River Mountains and Piketberg as localities.", "textZh": "该条目将其列入来源所用的 NW 区域单元，并给出 Olifants River Mountains 与 Piketberg 地点。", "sourceIds": ["sanbi"], "locator": "Strelitzia 29 (2012), C. floccosa account, p. 367, distribution entry", "placeTimeScope": "Greater Cape Floristic Region summary published 2012; not a current global range polygon.", "lifeStatus": "The source does not separately label native, introduced, cultivated or naturalised occurrences." }], "gaps": ["Current occurrence records, status and unsampled areas have not been reconciled."] },
+        "fossil": { "status": "not-assessed" }, "conservation": { "status": "not-assessed" }
+      },
+      "completeness": { "status": "incomplete", "reasons": ["Four facets have only partial regional evidence and three remain unassessed.", "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."] },
+      "expertReview": { "status": "not-reviewed" }
+    },
+    {
+      "colId": "32DNV",
+      "scientificName": "Cullumia reticulata (L.) Greuter, M.V.Agab. & Wagenitz",
+      "rank": "species",
+      "sourceDatasetId": "1141",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted node 32DNV checked for name, authorship, rank, status and source dataset ID; pinned WFO 2026-06 crosswalk maps it to wfo-0000005477 by exact accepted name and authorship.",
+        "scope": "Cullumia reticulata as represented by COL26.8 usage 32DNV. The account explicitly lists this combination and its synonym Cullumia ciliaris; the accepted COL/WFO combination is retained as the dossier concept."
+      },
+      "lifeStatusScope": {
+        "wild": "The regional flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; the source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        { "id": "col", "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141", "url": "https://www.checklistbank.org/dataset/316115/taxon/32DNV", "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115", "locator": "Accepted taxon usage 32DNV", "license": "CC BY 4.0 for pinned checklist record; cited for identity only", "scope": "Accepted identity and source-dataset relation only." },
+        { "id": "wfo", "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk", "url": "https://list.worldfloraonline.org/wfo-0000005477-2026-06", "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718", "locator": "Crosswalk row COL 32DNV / WFO wfo-0000005477", "license": "CC0-1.0", "scope": "Exact accepted name and authorship identity link only." },
+        { "id": "sanbi", "title": "Manning & Goldblatt. 2012. Asteraceae: Cullumia. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29", "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf", "version": "Published 2012; SANBI e-Flora archive v1.36 issued 2022-06-06; archive accessed 2026-09-23", "locator": "Cullumia reticulata account, p. 367; source ID 14129.0; Morphology row 9242 and Habitat row 25923", "license": "SANBI e-Flora archive EML declares CC BY 4.0; citation marks [CC BY]. Individual publication license version not independently inspected; attributed facts are paraphrased.", "scope": "Greater Cape Floristic Region flora account, not a global range assessment." }
+      ],
+      "facets": {
+        "morphology": { "status": "partially-supported", "claims": [{ "text": "The account describes a prickly, straggling, densely leafy shrublet to 60 cm, with ascending ovate leaves, thickened two-row bristly margins, pungent reflexed tips and mostly solitary yellow radiate heads at branch tips.", "textZh": "该条目描述一种高至 60 cm、带刺、蔓散且叶片密集的灌木状小灌木；叶片向上、卵形，边缘增厚并具两列刚毛，尖端刺状且反折，枝端多为单生黄色辐射状头状花序。", "sourceIds": ["sanbi"], "locator": "Strelitzia 29 (2012), C. reticulata account, p. 367; archive Morphology row 9242", "placeTimeScope": "Greater Cape regional flora account published 2012; sample size and measurement protocol are not given.", "lifeStatus": "Regional flora description; wild native and naturalised plants are not distinguished." }], "gaps": ["Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."] },
+        "lifeHistory": { "status": "partially-supported", "claims": [{ "text": "The account reports flowering from July through November.", "textZh": "该条目记载花期为 7 月至 11 月。", "sourceIds": ["sanbi"], "locator": "Strelitzia 29 (2012), C. reticulata account, p. 367, flowering-time entry", "placeTimeScope": "Regional account published 2012; not a global phenology analysis.", "lifeStatus": "The source does not distinguish phenology of wild native and naturalised plants." }], "gaps": ["Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."] },
+        "ecology": { "status": "partially-supported", "claims": [{ "text": "The account records lower sandstone slopes as habitat.", "textZh": "该条目记载其生境为较低处的砂岩坡地。", "sourceIds": ["sanbi"], "locator": "Strelitzia 29 (2012), C. reticulata account, p. 367; archive Habitat row 25923", "placeTimeScope": "Regional habitat statement without dated sites, frequency or sampling frame.", "lifeStatus": "The source does not state whether observations concern wild native or naturalised populations." }], "gaps": ["Species interactions, resource use and population-level ecology have not been assessed."] },
+        "evolution": { "status": "not-assessed" },
+        "distribution": { "status": "partially-supported", "claims": [{ "text": "The account lists its NW and SW regional units and gives a locality span from the Olifants River Valley to the Hottentots Holland Mountains.", "textZh": "该条目列出来源所用的 NW、SW 区域单元，地点范围自 Olifants River Valley 至 Hottentots Holland Mountains。", "sourceIds": ["sanbi"], "locator": "Strelitzia 29 (2012), C. reticulata account, p. 367, distribution entry", "placeTimeScope": "Greater Cape Floristic Region summary published 2012; not a current global range polygon.", "lifeStatus": "The source does not separately label native, introduced, cultivated or naturalised occurrences." }], "gaps": ["Current occurrence records, status and unsampled areas have not been reconciled."] },
+        "fossil": { "status": "not-assessed" }, "conservation": { "status": "not-assessed" }
+      },
+      "completeness": { "status": "incomplete", "reasons": ["Four facets have only partial regional evidence and three remain unassessed.", "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."] },
+      "expertReview": { "status": "not-reviewed" }
+    },
+    {
+      "colId": "32DNW",
+      "scientificName": "Cullumia rigida DC.",
+      "rank": "species",
+      "sourceDatasetId": "1141",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted node 32DNW checked for name, authorship, rank, status and source dataset ID; pinned WFO 2026-06 crosswalk maps it to wfo-0000087678 by exact accepted name and authorship.",
+        "scope": "Cullumia rigida as represented by COL26.8 usage 32DNW; the Greater Cape flora account is regional evidence, not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        { "id": "col", "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141", "url": "https://www.checklistbank.org/dataset/316115/taxon/32DNW", "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115", "locator": "Accepted taxon usage 32DNW", "license": "CC BY 4.0 for pinned checklist record; cited for identity only", "scope": "Accepted identity and source-dataset relation only." },
+        { "id": "wfo", "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk", "url": "https://list.worldfloraonline.org/wfo-0000087678-2026-06", "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718", "locator": "Crosswalk row COL 32DNW / WFO wfo-0000087678", "license": "CC0-1.0", "scope": "Exact accepted name and authorship identity link only." },
+        { "id": "sanbi", "title": "Manning & Goldblatt. 2012. Asteraceae: Cullumia. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29", "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf", "version": "Published 2012; SANBI e-Flora archive v1.36 issued 2022-06-06; archive accessed 2026-09-23", "locator": "Cullumia rigida account, p. 367; source ID 14129.0; Morphology row 11357 and Habitat row 25924", "license": "SANBI e-Flora archive EML declares CC BY 4.0; citation marks [CC BY]. Individual publication license version not independently inspected; attributed facts are paraphrased.", "scope": "Greater Cape Floristic Region flora account, not a global range assessment." }
+      ],
+      "facets": {
+        "morphology": { "status": "partially-supported", "claims": [{ "text": "The account diagnoses C. rigida by comparison with C. setosa and reports plants over 1 m tall, with stiff leathery leaves and an apical spine that is not reflexed.", "textZh": "该条目以 C. setosa 作比较来鉴别 C. rigida，并记载其植株高于 1 m，叶片坚硬如革，顶端刺不反折。", "sourceIds": ["sanbi"], "locator": "Strelitzia 29 (2012), C. rigida account, p. 367; archive Morphology row 11357", "placeTimeScope": "Greater Cape regional flora account published 2012; no sample size or measurement protocol given.", "lifeStatus": "Regional flora description; wild native and naturalised plants are not distinguished." }], "gaps": ["The comparator's full character set, population variation, developmental stages and independent specimen-based diagnosis remain unassessed."] },
+        "lifeHistory": { "status": "partially-supported", "claims": [{ "text": "The account reports flowering from September through December.", "textZh": "该条目记载花期为 9 月至 12 月。", "sourceIds": ["sanbi"], "locator": "Strelitzia 29 (2012), C. rigida account, p. 367, flowering-time entry", "placeTimeScope": "Regional account published 2012; not a global phenology analysis.", "lifeStatus": "The source does not distinguish phenology of wild native and naturalised plants." }], "gaps": ["Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."] },
+        "ecology": { "status": "partially-supported", "claims": [{ "text": "The account records sandstone slopes up to 1,500 m as habitat.", "textZh": "该条目记载其生境为海拔最高约 1,500 m 的砂岩坡地。", "sourceIds": ["sanbi"], "locator": "Strelitzia 29 (2012), C. rigida account, p. 367; archive Habitat row 25924", "placeTimeScope": "Regional habitat and elevation summary; no dated observation sites, frequency or sampling frame are given.", "lifeStatus": "The source does not state whether observations concern wild native or naturalised populations." }], "gaps": ["Species interactions, resource use and population-level ecology have not been assessed."] },
+        "evolution": { "status": "not-assessed" },
+        "distribution": { "status": "partially-supported", "claims": [{ "text": "The account lists its NW and KM regional units and names the Kamiesberg, Bokkeveld Mountains and Little Karoo.", "textZh": "该条目列出来源所用的 NW、KM 区域单元，并给出 Kamiesberg、Bokkeveld Mountains 与 Little Karoo 地点。", "sourceIds": ["sanbi"], "locator": "Strelitzia 29 (2012), C. rigida account, p. 367, distribution entry", "placeTimeScope": "Greater Cape Floristic Region summary published 2012; not a current global range polygon.", "lifeStatus": "The source does not separately label native, introduced, cultivated or naturalised occurrences." }], "gaps": ["Current occurrence records, status and unsampled areas have not been reconciled."] },
+        "fossil": { "status": "not-assessed" }, "conservation": { "status": "not-assessed" }
+      },
+      "completeness": { "status": "incomplete", "reasons": ["Four facets have only partial regional evidence and three remain unassessed.", "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."] },
+      "expertReview": { "status": "not-reviewed" }
     }
   ]
 }
