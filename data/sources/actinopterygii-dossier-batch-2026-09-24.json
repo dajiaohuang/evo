@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "releaseAlias": "COL26.8",
+  "batchId": "actinopterygii-parabembras-2026-09-24",
+  "scope": "Three incomplete species dossiers derived from one item-level CC BY 4.0 genus revision. This is a bounded taxonomic evidence batch, not complete coverage of Actinopterygii or a systematic literature review.",
+  "records": [
+    {
+      "colId": "4CMB4",
+      "scientificName": "Parabembras curta (Temminck & Schlegel, 1843)",
+      "rank": "species",
+      "sourceDatasetId": "1010",
+      "checkedAt": "2026-09-24",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage, verbatim scientific name, rank, status, source dataset and Teleostei classification verified against the pinned registry search record.",
+        "scope": "Nominal species as represented by COL26.8 usage 4CMB4. Kai and Fricke's 2018 revision redescribes P. curta in a genus-level comparison; its treatment is not a complete species life-history, ecology or conservation account.",
+        "sourceIds": ["col"]
+      },
+      "lifeStatusScope": {
+        "wild": "The taxonomic revision concerns examined and previously reported fish specimens; it does not report captive biology or behavioral experiments.",
+        "domesticated": "Domestication and captive history have not been assessed.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1010",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4CMB4",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "stableId": "col:4CMB4@COL26.8",
+          "publishedAt": "2026-08-20",
+          "accessedAt": "2026-09-24",
+          "locator": "Accepted species usage 4CMB4; sourceDatasetId 1010; Teleostei classification",
+          "license": "CC BY 4.0 nomenclatural metadata; no biological text reused",
+          "licenseAssessment": "identity-only",
+          "scope": "Identity only: accepted name, authorship, rank, status, sourceDatasetId and classification in the pinned COL26.8 registry.",
+          "rightsHolder": "Catalogue of Life Foundation",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Pinned nomenclatural and taxonomic checklist metadata only.",
+          "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 4CMB4. https://doi.org/10.48580/dgywk"
+        },
+        {
+          "id": "kai_fricke_2018",
+          "title": "Kai & Fricke (2018), Taxonomic review of the deep water flathead genus Parabembras with description of the new species Parabembras multisquamata from the western Pacific Ocean",
+          "url": "https://doi.org/10.3897/zookeys.740.21729",
+          "rightsEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5904489/",
+          "version": "ZooKeys 740: 59–76; version of record published 2018-02-27",
+          "stableId": "doi:10.3897/zookeys.740.21729",
+          "publishedAt": "2018-02-27",
+          "accessedAt": "2026-09-24",
+          "locator": "Abstract, p. 59; redescription and material for P. curta, pp. 59–62",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated for this open-access article",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Peer-reviewed taxonomic revision of Parabembras; this dossier uses only the species-specific diagnosis and published northwestern Pacific range statement for P. curta.",
+          "rightsHolder": "Yoshiaki Kai and Ronald Fricke, the authors named in the article copyright notice.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Article text licensed under CC BY 4.0; separately credited third-party material remains subject to its own notice. No figures or images are reused.",
+          "attribution": "Kai Y, Fricke R (2018). Taxonomic review of the deep water flathead genus Parabembras with description of the new species Parabembras multisquamata from the western Pacific Ocean (Teleostei, Parabembridae). ZooKeys 740: 59–76. https://doi.org/10.3897/zookeys.740.21729. Claims here are paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "In the revision's comparison with P. multisquamata, P. curta is described as having 8–9 first dorsal-fin spines, 6–8 supraocular spines, 34–39 pored lateral-line scales, and a pectoral fin that does not reach the anus.",
+              "sourceIds": ["kai_fricke_2018"],
+              "locator": "Abstract, p. 59; P. curta redescription, pp. 59–62; comparison/key",
+              "placeTimeScope": "Taxonomic diagnosis in a genus revision published in 2018; the count ranges are diagnostic data summarized by the authors, not estimates of within-population variation.",
+              "lifeStatus": "Morphological evidence from examined and taxonomically reported fish specimens; developmental and captive effects are not assessed.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["The revision supplies selected diagnostic characters, not a complete description of anatomy, ontogenetic change, sexual dimorphism or intraspecific variation."]
+        },
+        "lifeHistory": {"status": "not-assessed"},
+        "ecology": {"status": "not-assessed"},
+        "evolution": {"status": "not-assessed"},
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The authors summarize P. curta as known from the northwestern Pacific, from southern Japan to the South China Sea.",
+              "sourceIds": ["kai_fricke_2018"],
+              "locator": "Abstract, p. 59; P. curta material and remarks, pp. 59–62",
+              "placeTimeScope": "Regional summary of records cited in the 2018 revision; no dates, complete locality inventory or abundance estimate are implied.",
+              "lifeStatus": "The taxonomic revision concerns fish specimens and historical species records; no current occupancy or population trend is inferred.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["This published range summary is not a georeferenced, exhaustive, dated distribution dataset and does not establish current occupancy across the full range."]
+        },
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": ["Only partial morphology and regional distribution evidence from one taxonomic revision has been assessed; five facets remain unassessed.", "No systematic literature search or full comparison with the complete COL26.8 species concept has been completed.", "No independent expert review has been completed."]
+      },
+      "expertReview": {"status": "not-reviewed"}
+    },
+    {
+      "colId": "4CMB5",
+      "scientificName": "Parabembras robinsoni Regan, 1921",
+      "rank": "species",
+      "sourceDatasetId": "1010",
+      "checkedAt": "2026-09-24",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage, verbatim scientific name, rank, status, source dataset and Teleostei classification verified against the pinned registry search record.",
+        "scope": "Nominal species as represented by COL26.8 usage 4CMB5. Kai and Fricke's 2018 revision redescribes P. robinsoni in a genus-level comparison; its treatment is not a complete biological account.",
+        "sourceIds": ["col"]
+      },
+      "lifeStatusScope": {
+        "wild": "The taxonomic revision concerns examined and previously reported fish specimens; it does not report captive biology or behavioral experiments.",
+        "domesticated": "Domestication and captive history have not been assessed.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1010",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4CMB5",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "stableId": "col:4CMB5@COL26.8",
+          "publishedAt": "2026-08-20",
+          "accessedAt": "2026-09-24",
+          "locator": "Accepted species usage 4CMB5; sourceDatasetId 1010; Teleostei classification",
+          "license": "CC BY 4.0 nomenclatural metadata; no biological text reused",
+          "licenseAssessment": "identity-only",
+          "scope": "Identity only: accepted name, authorship, rank, status, sourceDatasetId and classification in the pinned COL26.8 registry.",
+          "rightsHolder": "Catalogue of Life Foundation",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Pinned nomenclatural and taxonomic checklist metadata only.",
+          "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 4CMB5. https://doi.org/10.48580/dgywk"
+        },
+        {
+          "id": "kai_fricke_2018",
+          "title": "Kai & Fricke (2018), Taxonomic review of the deep water flathead genus Parabembras with description of the new species Parabembras multisquamata from the western Pacific Ocean",
+          "url": "https://doi.org/10.3897/zookeys.740.21729",
+          "rightsEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5904489/",
+          "version": "ZooKeys 740: 59–76; version of record published 2018-02-27",
+          "stableId": "doi:10.3897/zookeys.740.21729",
+          "publishedAt": "2018-02-27",
+          "accessedAt": "2026-09-24",
+          "locator": "Abstract, p. 59; redescription and material for P. robinsoni, pp. 62–65",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated for this open-access article",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Peer-reviewed taxonomic revision of Parabembras; this dossier uses only the species-specific diagnosis and published southwestern Indian Ocean range statement for P. robinsoni.",
+          "rightsHolder": "Yoshiaki Kai and Ronald Fricke, the authors named in the article copyright notice.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Article text licensed under CC BY 4.0; separately credited third-party material remains subject to its own notice. No figures or images are reused.",
+          "attribution": "Kai Y, Fricke R (2018). Taxonomic review of the deep water flathead genus Parabembras with description of the new species Parabembras multisquamata from the western Pacific Ocean (Teleostei, Parabembridae). ZooKeys 740: 59–76. https://doi.org/10.3897/zookeys.740.21729. Claims here are paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The revision distinguishes P. robinsoni by eleven first dorsal-fin spines, a distinct symphyseal knob on the lower jaw, two preocular spines and one lachrymal spine.",
+              "sourceIds": ["kai_fricke_2018"],
+              "locator": "Abstract, p. 59; P. robinsoni redescription, pp. 62–65; comparison/key",
+              "placeTimeScope": "Taxonomic diagnosis in a genus revision published in 2018; the characters summarize the examined and compared specimens.",
+              "lifeStatus": "Morphological evidence from examined and taxonomically reported fish specimens; developmental and captive effects are not assessed.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["The revision supplies selected diagnostic characters, not a complete description of anatomy, ontogenetic change, sexual dimorphism or intraspecific variation."]
+        },
+        "lifeHistory": {"status": "not-assessed"},
+        "ecology": {"status": "not-assessed"},
+        "evolution": {"status": "not-assessed"},
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The authors summarize P. robinsoni as occurring in the southwestern Indian Ocean from South Africa to Mozambique.",
+              "sourceIds": ["kai_fricke_2018"],
+              "locator": "Abstract, p. 59; P. robinsoni material and remarks, pp. 62–65",
+              "placeTimeScope": "Regional summary of records cited in the 2018 revision; no dates, complete locality inventory or abundance estimate are implied.",
+              "lifeStatus": "The taxonomic revision concerns fish specimens and historical species records; no current occupancy or population trend is inferred.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["This published range summary is not a georeferenced, exhaustive, dated distribution dataset and does not establish current occupancy across the full range."]
+        },
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": ["Only partial morphology and regional distribution evidence from one taxonomic revision has been assessed; five facets remain unassessed.", "No systematic literature search or full comparison with the complete COL26.8 species concept has been completed.", "No independent expert review has been completed."]
+      },
+      "expertReview": {"status": "not-reviewed"}
+    },
+    {
+      "colId": "D57BP",
+      "scientificName": "Parabembras multisquamata Kai & Fricke, 2018",
+      "rank": "species",
+      "sourceDatasetId": "1010",
+      "checkedAt": "2026-09-24",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage, verbatim scientific name, rank, status, source dataset and Teleostei classification verified against the pinned registry search record.",
+        "scope": "Nominal species as represented by COL26.8 usage D57BP. Kai and Fricke's 2018 original description and genus-level review provide a taxonomic diagnosis and type-record scope, not a complete biological account.",
+        "sourceIds": ["col"]
+      },
+      "lifeStatusScope": {
+        "wild": "The original description concerns collected specimens; it does not report captive biology or behavioral experiments.",
+        "domesticated": "Domestication and captive history have not been assessed.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1010",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/D57BP",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "stableId": "col:D57BP@COL26.8",
+          "publishedAt": "2026-08-20",
+          "accessedAt": "2026-09-24",
+          "locator": "Accepted species usage D57BP; sourceDatasetId 1010; Teleostei classification",
+          "license": "CC BY 4.0 nomenclatural metadata; no biological text reused",
+          "licenseAssessment": "identity-only",
+          "scope": "Identity only: accepted name, authorship, rank, status, sourceDatasetId and classification in the pinned COL26.8 registry.",
+          "rightsHolder": "Catalogue of Life Foundation",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Pinned nomenclatural and taxonomic checklist metadata only.",
+          "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage D57BP. https://doi.org/10.48580/dgywk"
+        },
+        {
+          "id": "kai_fricke_2018",
+          "title": "Kai & Fricke (2018), Taxonomic review of the deep water flathead genus Parabembras with description of the new species Parabembras multisquamata from the western Pacific Ocean",
+          "url": "https://doi.org/10.3897/zookeys.740.21729",
+          "rightsEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5904489/",
+          "version": "ZooKeys 740: 59–76; version of record published 2018-02-27",
+          "stableId": "doi:10.3897/zookeys.740.21729",
+          "publishedAt": "2018-02-27",
+          "accessedAt": "2026-09-24",
+          "locator": "Abstract, p. 59; original description and material for P. multisquamata, pp. 65–66",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated for this open-access article",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Peer-reviewed original species description and genus-level review; this dossier uses diagnostic characters and the paper's reported collection localities for P. multisquamata.",
+          "rightsHolder": "Yoshiaki Kai and Ronald Fricke, the authors named in the article copyright notice.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Article text licensed under CC BY 4.0; separately credited third-party material remains subject to its own notice. No figures or images are reused.",
+          "attribution": "Kai Y, Fricke R (2018). Taxonomic review of the deep water flathead genus Parabembras with description of the new species Parabembras multisquamata from the western Pacific Ocean (Teleostei, Parabembridae). ZooKeys 740: 59–76. https://doi.org/10.3897/zookeys.740.21729. Claims here are paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The revision distinguishes P. multisquamata from P. curta by usually having ten first dorsal-fin spines, 9–11 supraocular spines and 40–44 pored lateral-line scales; its pectoral fin extends beyond the anus.",
+              "sourceIds": ["kai_fricke_2018"],
+              "locator": "Abstract, p. 59; original description of P. multisquamata, pp. 65–66; comparison/key",
+              "placeTimeScope": "Species diagnosis published in 2018 from specimens examined by the authors; the counts are diagnostic ranges reported in the paper.",
+              "lifeStatus": "Morphological evidence from examined fish specimens; developmental and captive effects are not assessed.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["The original description supplies selected diagnostic characters and does not establish all anatomical features or variation across the species' full range."]
+        },
+        "lifeHistory": {"status": "not-assessed"},
+        "ecology": {"status": "not-assessed"},
+        "evolution": {"status": "not-assessed"},
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The revision reports P. multisquamata from Vanuatu, Papua New Guinea and the Philippines; the newly examined type-series specimens were collected at 299–444 m.",
+              "sourceIds": ["kai_fricke_2018"],
+              "locator": "Abstract, p. 59; original description, geographical distribution and material examined, pp. 65–66",
+              "placeTimeScope": "Western Pacific records summarized in the 2018 description; the stated depth is attached to the reported collection material, not a full depth envelope.",
+              "lifeStatus": "The evidence is from collected specimens; current occupancy, abundance and population trend are not inferred.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["The type and cited records do not establish an exhaustive distribution, full depth range, current occupancy or population trend."]
+        },
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": ["Only partial morphology and reported collection-range evidence from the original taxonomic description has been assessed; five facets remain unassessed.", "No systematic literature search or full comparison with the complete COL26.8 species concept has been completed.", "No independent expert review has been completed."]
+      },
+      "expertReview": {"status": "not-reviewed"}
+    }
+  ]
+}

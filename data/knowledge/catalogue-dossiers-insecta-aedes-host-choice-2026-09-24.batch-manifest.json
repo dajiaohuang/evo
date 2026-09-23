@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "batchId": "insecta-aedes-host-choice-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/knowledge/raw-dossiers/insecta-aedes-host-choice-2026-09-24.jsonl",
+    "bytes": 10728,
+    "sha256": "930821d7b23aae3f0014f9d5d2697a1ae6083617be04346fabad4ad9e75ad93a"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-insecta-aedes-host-choice-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 2,
+    "decodedBytes": 10728,
+    "decodedSha256": "930821d7b23aae3f0014f9d5d2697a1ae6083617be04346fabad4ad9e75ad93a",
+    "compressedBytes": 2038,
+    "compressedSha256": "c39fde6eba0ce42cbac321f70f0496561394d1d3acb1c0f2e2ef062f7b591020",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    }
+  },
+  "generator": "scripts/build-insecta-aedes-host-choice-batch.mjs"
+}
