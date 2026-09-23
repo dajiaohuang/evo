@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-homo-sapiens-south-african-genomes-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/knowledge/raw-dossiers/primates-homo-sapiens-south-african-genomes-2026-09-24.jsonl",
+    "bytes": 7526,
+    "sha256": "811614ee50d25d3e4a0cce33e4305c9b6adc4f77148fcf5340a84cdb370531d9"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-homo-sapiens-south-african-genomes-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 7526,
+    "decodedSha256": "811614ee50d25d3e4a0cce33e4305c9b6adc4f77148fcf5340a84cdb370531d9",
+    "compressedBytes": 2133,
+    "compressedSha256": "118d6324fb903c54e1f54f288b417a96702246c847053349393e8d5d3ba54148",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    }
+  },
+  "generator": "scripts/build-primates-homo-sapiens-south-african-genomes-batch.mjs"
+}
