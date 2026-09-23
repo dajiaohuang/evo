@@ -1681,7 +1681,7 @@ export interface CatalogueSpeciesDossier {
   sources: Array<{ id: string; title: string; url: string; version: string; locator: string; license: string; scope: string }>
   facets: Record<string, {
     status: 'supported' | 'partially-supported' | 'searched-no-evidence' | 'conflicted' | 'not-assessed'
-    claims?: Array<{ text: string; textZh: string; sourceIds: string[]; locator: string; placeTimeScope: string; lifeStatus: string }>
+    claims?: Array<{ text: string; textZh?: string; translationStatus?: 'verified' | 'untranslated'; sourceIds: string[]; locator: string; placeTimeScope: string; lifeStatus: string }>
     gaps?: string[]
     search?: { date: string; scope: string; method: string }
   }>

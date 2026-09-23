@@ -48,7 +48,9 @@ export function CatalogueKnowledge({ record, status, zh }: Props) {
         {Object.entries(dossier.facets).map(([facet, assessment]) => <section key={facet}>
           <h4>{facetNames[facet] ?? facet} <small>— {facetStatus(assessment.status)}</small></h4>
           {assessment.claims?.map((claim, index) => <div key={`${facet}:${index}`}>
-            <p>{zh ? claim.textZh : claim.text}</p>
+            {zh && claim.translationStatus === 'untranslated'
+              ? <><p>{claim.text}</p><small>当前仅有英文记录，中文译文尚未核验。</small></>
+              : <p>{zh ? claim.textZh : claim.text}</p>}
             <small>{claim.sourceIds.map((id, sourceIndex) => {
               const source = dossier.sources.find(item => item.id === id)
               return source ? <span key={id}>{sourceIndex ? ' · ' : ''}<a href={source.url}>{source.title}</a> ({claim.locator})</span> : null
