@@ -2,7 +2,7 @@ import assert from 'node:assert/strict'
 import { createHash } from 'node:crypto'
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
-import { brotliCompressSync, constants as zlibConstants } from 'node:zlib'
+import { brotliCompressSync, brotliDecompressSync, constants as zlibConstants } from 'node:zlib'
 
 const root = resolve(import.meta.dirname, '..')
 const inputPath = resolve(root, 'data/sources/primates-dossiers-batch-2.json')
@@ -72,6 +72,7 @@ for (const id of expected.keys()) assert.ok(ids.has(id), `Missing expected speci
 
 const decoded = Buffer.from(input.records.map(record => JSON.stringify(record)).join('\n') + '\n', 'utf8')
 const compressed = brotliCompressSync(decoded, { params: { [zlibConstants.BROTLI_PARAM_QUALITY]: 11 } })
+assert.deepEqual(brotliDecompressSync(compressed), decoded, 'Brotli round-trip must preserve exact shard bytes')
 const metadata = {
   schemaVersion: 1,
   shardType: 'independent-col26.8-species-dossiers',
