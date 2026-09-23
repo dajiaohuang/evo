@@ -37,7 +37,7 @@ export default defineConfig({
     },
     {
       name: 'native-data-browser',
-      testMatch: /native-runtime\.spec\.ts/,
+      testMatch: /(^|[\\/])native-runtime\.spec\.ts$/,
       use: { ...devices['Desktop Chrome'], baseURL: nativeBaseUrl, serviceWorkers: 'block' },
     },
   ],
