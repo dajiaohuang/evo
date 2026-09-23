@@ -1,0 +1,116 @@
+{
+  "checkedAt": "2026-09-24",
+  "releaseAlias": "COL26.8",
+  "catalogue": {
+    "datasetKey": 316115,
+    "releaseDate": "2026-08-20",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsHolder": "Catalogue of Life Foundation",
+    "scope": "Name usage identity fields only: taxon ID, accepted scientific name, authorship, rank, status, and source dataset ID. No biological claims are derived from COL."
+  },
+  "externalCrosswalk": {
+    "provider": "LPSN",
+    "file": "data/sources/bacteria-lpsn-crosswalk-col26.8.json.gz",
+    "archaeaFile": "data/sources/archaea-lpsn-crosswalk-col26.8.json",
+    "sourceDatasetKey": 2015,
+    "sourceDatasetVersion": "2026-07-26",
+    "retrievedAt": "2026-08-31",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Freese et al. (2026), List of Prokaryotic names with Standing in Nomenclature (LPSN), https://doi.org/10.1093/nar/gkaf1110",
+    "scope": "The exact release-pinned COL ID to LPSN ID mapping and name usage nomenclature only; no biological claims or complete species-concept equivalence are inferred."
+  },
+  "candidates": [
+    {
+      "colId": "VQ56S",
+      "name": "Paenibacillus hubeiensis",
+      "authorship": "Kong et al., 2025",
+      "lpsnId": "66675",
+      "crosswalkResponseSha256": "6315e7d456581879a3a48ffedb89826c0a61874884bb56434c638cea49231cfd",
+      "group": "bacteria",
+      "paper": {
+        "title": "Paenibacillus hubeiensis sp. nov.: A Novel Selenium-Resistant Bacterium Isolated from the Rhizosphere of Galinsoga parviflora in a Selenium-Rich Region of Enshi, Hubei Province",
+        "authors": "Kong et al.",
+        "publishedAt": "2025-07-02",
+        "doi": "10.3390/microorganisms13071559",
+        "pmid": "40732068",
+        "pmcid": "PMC12300063",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12300063/",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "rightsHolder": "The authors; published by MDPI",
+        "licenseScope": "Article text and original article material under the article's stated CC BY 4.0 license; third-party material may have separate terms. Claims here are paraphrases with attribution."
+      },
+      "facets": {
+        "morphology": { "status": "partially-supported", "text": "The type strain ES5-4T is described as Gram-positive, motile, aerobic and rod-shaped. The authors also report milky, circular, moist, smooth colonies after three days on TSA at 28 °C.", "locator": "Species description, section ‘Description of Paenibacillus hubeiensis sp. nov.’; type strain ES5-4T", "scope": "The cultured type strain and the conditions stated in the species description.", "gap": "This is a bounded type-strain description, not a survey of morphology across populations, developmental states or environmental conditions." },
+        "lifeHistory": { "status": "not-assessed", "gap": "The cited taxonomic treatment is not a life-history study. Reproductive, developmental, behavioral and lifespan claims were not assessed." },
+        "ecology": { "status": "partially-supported", "text": "The type strain was isolated from the rhizosphere of Galinsoga parviflora in a selenium-rich ore area of Enshi, Hubei Province, China. The paper reports laboratory tolerance of selenite up to 5000 mg/L; that assay result is not evidence of a field threshold or ecological function.", "locator": "Abstract; species description and strain isolation account", "scope": "One cultured type strain and the paper's stated collection context; the selenite value is an in-vitro assay result.", "gap": "No population ecology, interaction network, abundance, field exposure distribution or complete habitat survey was assessed." },
+        "evolution": { "status": "partially-supported", "text": "The authors place ES5-4T within Paenibacillus using 16S rRNA and a bac120 phylogenomic tree, and report ANI and dDDH values below their stated species-level cutoffs against close type strains. This records the authors' taxonomic evidence, not a comprehensive or independently reviewed species-tree conclusion.", "locator": "Abstract; phylogenetic and genomic comparison sections; bac120 tree and ANI/dDDH results", "scope": "The strains, markers, genome comparisons and methods analyzed in this 2025 paper.", "gap": "Alternative taxon sampling, later revisions, gene-tree discordance and independent phylogenomic review were not assessed." },
+        "distribution": { "status": "partially-supported", "text": "The paper reports the type strain from the Galinsoga parviflora rhizosphere in the selenium-rich ore area of Enshi, Hubei Province, China.", "locator": "Abstract; strain isolation account", "scope": "The reported type-strain collection locality only; this is not a global range claim.", "gap": "No additional localities, native or introduced range, georeferenced boundary or sampling completeness were established." },
+        "fossil": { "status": "not-assessed", "gap": "No paleontological or fossil database search was conducted; no fossil-presence or fossil-absence conclusion is made." },
+        "conservation": { "status": "not-assessed", "gap": "No conservation assessment or current formal Red List record was assessed." }
+      }
+    },
+    {
+      "colId": "V4TXN",
+      "name": "Pseudodesulfovibrio methanolicus",
+      "authorship": "Bidzhieva et al., 2025",
+      "lpsnId": "66881",
+      "crosswalkResponseSha256": "109f28c38b474db368b2976c2bda26e054fbf07e388e3c9e14365a74d2909b96",
+      "group": "bacteria",
+      "paper": {
+        "title": "Phenotypic and Genomic Characterization of a Sulfate-Reducing Bacterium Pseudodesulfovibrio methanolicus sp. nov. Isolated from a Petroleum Reservoir in Russia",
+        "authors": "Bidzhieva et al.",
+        "publishedAt": "2024-10-25",
+        "doi": "10.3390/biology13100800",
+        "pmid": "39452109",
+        "pmcid": "PMC11505543",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11505543/",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "rightsHolder": "The authors; published by MDPI",
+        "licenseScope": "OpenAlex reports the item-level work license as CC BY; MDPI article landing page and article record identify the open-access paper. Claims here are paraphrases with attribution; third-party material may have separate terms."
+      },
+      "facets": {
+        "morphology": { "status": "partially-supported", "text": "The type strain 5S69T is reported as Gram-negative, strictly anaerobic, non-spore-forming, and straight or slightly curved rods measuring 0.35–0.45 × 1.0–2.0 μm; cells are motile by a single polar flagellum.", "locator": "Section 3.1, ‘Phenotypic Characteristics of Strain 5S69T’", "scope": "The cultured type strain in the exponential-growth phase under study conditions.", "gap": "These observations do not characterize population variation or all growth phases and environments." },
+        "lifeHistory": { "status": "not-assessed", "gap": "No life-history study or systematic search was performed; reproduction, development, behavior and lifespan are not characterized." },
+        "ecology": { "status": "partially-supported", "text": "The authors isolated strain 5S69T from injection water collected at the Vostochno-Anzirskoe oil field in Tatarstan, Russia, and characterize it as sulfate-reducing. These observations do not establish a measured field-scale role in carbon or sulfur cycling.", "locator": "Abstract; sections 3.1 and 4; strain isolation context", "scope": "The single cultured type strain and the sampled oil-field water described in the article.", "gap": "No in-situ abundance, activity rate, interaction network or reservoir-wide survey was assessed." },
+        "evolution": { "status": "partially-supported", "text": "The study uses 16S rRNA, 120 conserved single-copy proteins and genomic relatedness indices to support placement of 5S69T as a distinct Pseudodesulfovibrio species. It reports this as the authors' taxonomic conclusion.", "locator": "Abstract; phylogenetic and genomic index analyses; conclusions", "scope": "The type strain and comparator strains in the 2024 study.", "gap": "Alternative taxon sampling, later nomenclatural changes and independent phylogenomic review were not assessed." },
+        "distribution": { "status": "partially-supported", "text": "The paper reports the type strain from injection water collected at the Vostochno-Anzirskoe oil field, Tatarstan, Russia.", "locator": "Title; abstract; strain isolation section", "scope": "One reported collection locality only; no wider range is implied.", "gap": "No further localities, global range, georeferenced boundary or sampling completeness were assessed." },
+        "fossil": { "status": "not-assessed", "gap": "No fossil or paleontological literature/database search was performed; no fossil-presence or fossil-absence conclusion is made." },
+        "conservation": { "status": "not-assessed", "gap": "No conservation assessment or current formal Red List record was assessed." }
+      }
+    },
+    {
+      "colId": "V4V2H",
+      "name": "Pseudodesulfovibrio karagichevae",
+      "authorship": "Bidzhieva et al., 2025",
+      "lpsnId": "66912",
+      "crosswalkResponseSha256": "39d75c9f3e9832321ea96762832ed3e081cb91e5a3597108f01b266efa268bfb",
+      "group": "bacteria",
+      "paper": {
+        "title": "Sulfate-Reducing Bacteria Isolated from an Oil Field in Kazakhstan and a Description of Pseudodesulfovibrio karagichevae sp. nov.",
+        "authors": "Bidzhieva et al.",
+        "publishedAt": "2024-12-11",
+        "doi": "10.3390/microorganisms12122552",
+        "pmid": "39770754",
+        "pmcid": "PMC11678503",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11678503/",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "rightsHolder": "The authors; published by MDPI",
+        "licenseScope": "Article states that it is open access under CC BY 4.0; third-party material may have separate terms. Claims here are paraphrases with attribution."
+      },
+      "facets": {
+        "morphology": { "status": "partially-supported", "text": "The article provides scanning and transmission electron micrographs of strain 9FUS-T cells, including a flagellum and an ultrathin section. The microscopy caption states that the strain was grown in lactate/sulfate medium for seven days at 25 C.", "locator": "Figure 1 caption; microscopy of strain 9FUS-T", "scope": "One cultured type strain under the stated preparation and growth conditions.", "gap": "No population-level morphology survey, developmental stages or environmental variation were assessed." },
+        "lifeHistory": { "status": "not-assessed", "gap": "No life-history search was performed; reproduction, development, behavior and lifespan are not characterized." },
+        "ecology": { "status": "partially-supported", "text": "Strain 9FUS-T was isolated from formation water at the Karazhanbas oil field in Kazakhstan and characterized as sulfate-reducing. The article discusses petroleum-industry sulfidogenesis; it does not measure field-scale activity of the species.", "locator": "Abstract; strain isolation and characterization sections", "scope": "One cultured isolate and the sampled formation-water context described in the paper.", "gap": "No in-situ abundance, activity rate, ecological interaction or reservoir-wide survey was assessed." },
+        "evolution": { "status": "partially-supported", "text": "The study compares 16S rRNA and a tree based on 120 conserved single-copy proteins, and reports ANI and dDDH comparisons supporting the authors' proposed distinct species placement. This is the study's taxonomic inference.", "locator": "Abstract; Figures 2 and 3; genomic relatedness results", "scope": "The strain and comparator genomes included in the 2024 paper.", "gap": "Alternative broader taxon sampling, later revisions and independent phylogenomic review were not assessed." },
+        "distribution": { "status": "partially-supported", "text": "The type strain was isolated from formation water at the Karazhanbas oil field, Kazakhstan.", "locator": "Title; abstract; strain isolation section", "scope": "The type-strain collection site only; no wider range is implied.", "gap": "No additional localities, global range or sampling completeness were assessed." },
+        "fossil": { "status": "not-assessed", "gap": "No fossil or paleontological literature/database search was performed; no fossil-presence or fossil-absence conclusion is made." },
+        "conservation": { "status": "not-assessed", "gap": "No conservation assessment or current formal Red List record was assessed." }
+      }
+    }
+  ]
+}
