@@ -12499,6 +12499,1938 @@
       "expertReview": {
         "status": "not-reviewed"
       }
+    },
+    {
+      "colId": "5WLTS",
+      "scientificName": "Bobartia robusta Baker",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 5WLTS, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000788344 by exact accepted name and authorship.",
+        "scope": "Bobartia robusta Baker as represented by COL26.8 usage 5WLTS; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/5WLTS",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 5WLTS",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000788344-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL 5WLTS / WFO wfo-0000788344",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Goldblatt & Manning. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "locator": "Strelitzia 29 (2012), Bobartia robusta Baker account, pp. 129–130; morphology archive row 7287, habitat archive row 29047; source ID 13878.0",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Southern African flora treatment; range statements refer to its regional scope."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional account characterizes the species as follows: A rhizomatous perennial 70–210 cm tall, with terete leaves and dense yellow flower clusters; its ovary and capsules are tuberculate.",
+              "textZh": "区域性植物志的形态记载：根茎多年生植物，高 70–210 cm，叶圆柱形，黄色花簇密集；子房和蒴果具瘤状突起。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia robusta Baker account, pp. 129–130; archive Morphology row 7287",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in Mainly August–October.",
+              "textZh": "该区域性植物志记载花期为Mainly 8月–10月。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia robusta Baker account, pp. 129–130, flowering-time entry",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records coastal and lower mountain slopes. as habitat.",
+              "textZh": "该条目记载的生境为海岸及山地下部坡地。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia robusta Baker account, pp. 129–130; archive Habitat row 29047",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as LB, SE (Riversdale to George).",
+              "textZh": "该条目列出的区域分布为LB、SE（Riversdale 至 George）。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia robusta Baker account, pp. 129–130, distribution entry",
+              "placeTimeScope": "Regional distribution summary published 2012; not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "5WM5S",
+      "scientificName": "Bobartia rufa Strid",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 5WM5S, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000788345 by exact accepted name and authorship.",
+        "scope": "Bobartia rufa Strid as represented by COL26.8 usage 5WM5S; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/5WM5S",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 5WM5S",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000788345-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL 5WM5S / WFO wfo-0000788345",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Goldblatt & Manning. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "locator": "Strelitzia 29 (2012), Bobartia rufa Strid account, pp. 129–130; morphology archive row 7288, habitat archive row 29048; source ID 13878.0",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Southern African flora treatment; range statements refer to its regional scope."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional account characterizes the species as follows: A rhizomatous perennial 50–90 cm tall, with terete leaves, pale-brown fibrous spathes and compact yellow flower clusters.",
+              "textZh": "区域性植物志的形态记载：根茎多年生植物，高 50–90 cm，叶圆柱形，佛焰苞浅棕且具纤维，黄色花簇紧密。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia rufa Strid account, pp. 129–130; archive Morphology row 7288",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in September–November.",
+              "textZh": "该区域性植物志记载花期为9月–11月。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia rufa Strid account, pp. 129–130, flowering-time entry",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records mountain fynbos. as habitat.",
+              "textZh": "该条目记载的生境为山地 fynbos。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia rufa Strid account, pp. 129–130; archive Habitat row 29048",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as NW (Cedarberg to Hex River Mountains).",
+              "textZh": "该条目列出的区域分布为NW（Cedarberg 至 Hex River 山区）。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia rufa Strid account, pp. 129–130, distribution entry",
+              "placeTimeScope": "Regional distribution summary published 2012; not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "68M5T",
+      "scientificName": "Bobartia longicyma J.B.Gillett",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 68M5T, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0001067184 by exact accepted name and authorship.",
+        "scope": "Bobartia longicyma J.B.Gillett as represented by COL26.8 usage 68M5T; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/68M5T",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 68M5T",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0001067184-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL 68M5T / WFO wfo-0001067184",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Goldblatt & Manning. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "locator": "Strelitzia 29 (2012), Bobartia longicyma J.B.Gillett account, pp. 129–130; morphology archive row 7291, habitat archive row 29041; source ID 13878.0",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Southern African flora treatment; range statements refer to its regional scope."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional account characterizes the species as follows: A robust rhizomatous perennial to 1.8 m, with terete leaves and long yellow cymes; the capsule is obovoid.",
+              "textZh": "区域性植物志的形态记载：粗壮的根茎多年生植物高可达 1.8 m，叶圆柱形，黄色聚伞花序较长；蒴果倒卵形。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia longicyma J.B.Gillett account, pp. 129–130; archive Morphology row 7291",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in August–December.",
+              "textZh": "该区域性植物志记载花期为8月–12月。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia longicyma J.B.Gillett account, pp. 129–130, flowering-time entry",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records sandy flats and lower slopes. as habitat.",
+              "textZh": "该条目记载的生境为沙质平地和较低坡地。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia longicyma J.B.Gillett account, pp. 129–130; archive Habitat row 29041",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as SW, AP (Kuils River to Potberg).",
+              "textZh": "该条目列出的区域分布为SW、AP（Kuils River 至 Potberg）。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia longicyma J.B.Gillett account, pp. 129–130, distribution entry",
+              "placeTimeScope": "Regional distribution summary published 2012; not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "M89H",
+      "scientificName": "Bobartia aphylla (L.f.) Ker Gawl.",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage M89H, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000788318 by exact accepted name and authorship.",
+        "scope": "Bobartia aphylla (L.f.) Ker Gawl. as represented by COL26.8 usage M89H; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/M89H",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage M89H",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000788318-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL M89H / WFO wfo-0000788318",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Goldblatt & Manning. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "locator": "Strelitzia 29 (2012), Bobartia aphylla (L.f.) Ker Gawl. account, pp. 129–130; morphology archive row 7279, habitat archive row 29035; source ID 13878.0",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Southern African flora treatment; range statements refer to its regional scope."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional account characterizes the species as follows: A slender rhizomatous perennial 30–60 cm tall, with terete leaves and narrow yellow flower clusters; ovary and capsules are tuberculate.",
+              "textZh": "区域性植物志的形态记载：纤细的根茎多年生植物，高 30–60 cm，叶圆柱形，黄色花簇狭窄；子房和蒴果具瘤状突起。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia aphylla (L.f.) Ker Gawl. account, pp. 129–130; archive Morphology row 7279",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in Mainly November–March.",
+              "textZh": "该区域性植物志记载花期为Mainly 11月–3月。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia aphylla (L.f.) Ker Gawl. account, pp. 129–130, flowering-time entry",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records grassy mainly coastal slopes. as habitat.",
+              "textZh": "该条目记载的生境为多见于草地、尤其海岸坡地。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia aphylla (L.f.) Ker Gawl. account, pp. 129–130; archive Habitat row 29035",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as LB, SE (Mossel Bay to Plettenberg Bay).",
+              "textZh": "该条目列出的区域分布为LB、SE（Mossel Bay 至 Plettenberg Bay）。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia aphylla (L.f.) Ker Gawl. account, pp. 129–130, distribution entry",
+              "placeTimeScope": "Regional distribution summary published 2012; not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "M89K",
+      "scientificName": "Bobartia fasciculata J.B.Gillett ex Strid",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage M89K, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000788321 by exact accepted name and authorship.",
+        "scope": "Bobartia fasciculata J.B.Gillett ex Strid as represented by COL26.8 usage M89K; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/M89K",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage M89K",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000788321-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL M89K / WFO wfo-0000788321",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Goldblatt & Manning. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "locator": "Strelitzia 29 (2012), Bobartia fasciculata J.B.Gillett ex Strid account, pp. 129–130; morphology archive row 7280, habitat archive row 29036; source ID 13878.0",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Southern African flora treatment; range statements refer to its regional scope."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional account characterizes the species as follows: A rhizomatous perennial 80–150 cm tall, with terete leaves and a dense, distinctly clustered yellow inflorescence.",
+              "textZh": "区域性植物志的形态记载：根茎多年生植物，高 80–150 cm，叶圆柱形，黄色花序密集并明显成簇。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia fasciculata J.B.Gillett ex Strid account, pp. 129–130; archive Morphology row 7280",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in August–November.",
+              "textZh": "该区域性植物志记载花期为8月–11月。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia fasciculata J.B.Gillett ex Strid account, pp. 129–130, flowering-time entry",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records mountain slopes. as habitat.",
+              "textZh": "该条目记载的生境为山坡。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia fasciculata J.B.Gillett ex Strid account, pp. 129–130; archive Habitat row 29036",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as NW, SW (Porterville and Olifants River Mountains).",
+              "textZh": "该条目列出的区域分布为NW、SW（Porterville 和 Olifants River 山区）。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia fasciculata J.B.Gillett ex Strid account, pp. 129–130, distribution entry",
+              "placeTimeScope": "Regional distribution summary published 2012; not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "M89L",
+      "scientificName": "Bobartia filiformis (L.f.) Ker Gawl.",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage M89L, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000788322 by exact accepted name and authorship.",
+        "scope": "Bobartia filiformis (L.f.) Ker Gawl. as represented by COL26.8 usage M89L; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/M89L",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage M89L",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000788322-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL M89L / WFO wfo-0000788322",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Goldblatt & Manning. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "locator": "Strelitzia 29 (2012), Bobartia filiformis (L.f.) Ker Gawl. account, pp. 129–130; morphology archive row 7281, habitat archive row 29037; source ID 13878.0",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Southern African flora treatment; range statements refer to its regional scope."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional account characterizes the species as follows: A slender rhizomatous perennial 15–55 cm tall with subterete to linear leaves and yellow flowers in a greatly reduced cluster.",
+              "textZh": "区域性植物志的形态记载：纤细的根茎多年生植物，高 15–55 cm，叶近圆柱形至线形；黄色花序大幅缩减。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia filiformis (L.f.) Ker Gawl. account, pp. 129–130; archive Morphology row 7281",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in September–December, mostly after fire.",
+              "textZh": "该区域性植物志记载花期为9月–12月, mostly after fire。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia filiformis (L.f.) Ker Gawl. account, pp. 129–130, flowering-time entry",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records sandy lower to middle slopes in fynbos. as habitat.",
+              "textZh": "该条目记载的生境为fynbos 中砂质的下部至中部坡地。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia filiformis (L.f.) Ker Gawl. account, pp. 129–130; archive Habitat row 29037",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as SW, AP (Paardeberg, Michell’s Pass, Agulhas and Riviersonderend Mountains).",
+              "textZh": "该条目列出的区域分布为SW、AP（Paardeberg、Michell’s Pass、Agulhas 和 Riviersonderend 山区）。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia filiformis (L.f.) Ker Gawl. account, pp. 129–130, distribution entry",
+              "placeTimeScope": "Regional distribution summary published 2012; not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "M89M",
+      "scientificName": "Bobartia gladiata (L.f.) Ker Gawl.",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage M89M, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000788323 by exact accepted name and authorship.",
+        "scope": "Bobartia gladiata (L.f.) Ker Gawl. as represented by COL26.8 usage M89M; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/M89M",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage M89M",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000788323-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL M89M / WFO wfo-0000788323",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Goldblatt & Manning. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "locator": "Strelitzia 29 (2012), Bobartia gladiata (L.f.) Ker Gawl. account, pp. 129–130; morphology archive row 7290, habitat archive row 29038; source ID 13878.0",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Southern African flora treatment; range statements refer to its regional scope."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional account characterizes the species as follows: A rhizomatous perennial 20–80 cm tall, usually with flattened stems, linear leaves and a flattened cluster of yellow cymes.",
+              "textZh": "区域性植物志的形态记载：根茎多年生植物，高 20–80 cm，茎通常扁平，叶线形，黄色聚伞花序呈扁平排列。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia gladiata (L.f.) Ker Gawl. account, pp. 129–130; archive Morphology row 7290",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in September–December.",
+              "textZh": "该区域性植物志记载花期为9月–12月。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia gladiata (L.f.) Ker Gawl. account, pp. 129–130, flowering-time entry",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records mountain slopes and coastal flats, in fynbos. as habitat.",
+              "textZh": "该条目记载的生境为fynbos 中的山坡和海岸平地。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia gladiata (L.f.) Ker Gawl. account, pp. 129–130; archive Habitat row 29038",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as SW (Cape Peninsula and Bain’s Kloof to Hermanus).",
+              "textZh": "该条目列出的区域分布为SW（Cape Peninsula、Bain’s Kloof 至 Hermanus）。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia gladiata (L.f.) Ker Gawl. account, pp. 129–130, distribution entry",
+              "placeTimeScope": "Regional distribution summary published 2012; not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "M89P",
+      "scientificName": "Bobartia indica L.",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage M89P, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000788328 by exact accepted name and authorship.",
+        "scope": "Bobartia indica L. as represented by COL26.8 usage M89P; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/M89P",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage M89P",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000788328-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL M89P / WFO wfo-0000788328",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Goldblatt & Manning. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "locator": "Strelitzia 29 (2012), Bobartia indica L. account, pp. 129–130; morphology archive row 7282, habitat archive row 29039; source ID 13878.0",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Southern African flora treatment; range statements refer to its regional scope."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional account characterizes the species as follows: A rhizomatous perennial 50–100 cm tall, with terete leaves longer than the stems and a dense yellow inflorescence.",
+              "textZh": "区域性植物志的形态记载：根茎多年生植物，高 50–100 cm，圆柱形叶长于茎，黄色花序密集。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia indica L. account, pp. 129–130; archive Morphology row 7282",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in Mainly October–March.",
+              "textZh": "该区域性植物志记载花期为Mainly 10月–3月。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia indica L. account, pp. 129–130, flowering-time entry",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records sandy flats and slopes. as habitat.",
+              "textZh": "该条目记载的生境为沙质平地和坡地。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia indica L. account, pp. 129–130; archive Habitat row 29039",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as SW, AP (Mamre to Caledon).",
+              "textZh": "该条目列出的区域分布为SW、AP（Mamre 至 Caledon）。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia indica L. account, pp. 129–130, distribution entry",
+              "placeTimeScope": "Regional distribution summary published 2012; not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "M89S",
+      "scientificName": "Bobartia lilacina G.J.Lewis",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage M89S, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000788331 by exact accepted name and authorship.",
+        "scope": "Bobartia lilacina G.J.Lewis as represented by COL26.8 usage M89S; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/M89S",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage M89S",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000788331-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL M89S / WFO wfo-0000788331",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Goldblatt & Manning. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "locator": "Strelitzia 29 (2012), Bobartia lilacina G.J.Lewis account, pp. 129–130; morphology archive row 7283, habitat archive row 29040; source ID 13878.0",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Southern African flora treatment; range statements refer to its regional scope."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional account characterizes the species as follows: A rhizomatous perennial 30–70 cm tall with laxly branched stems sticky below the nodes, narrow sword-shaped leaves and purple flowers.",
+              "textZh": "区域性植物志的形态记载：根茎多年生植物，高 30–70 cm，茎疏松分枝且节下具黏性，叶狭剑形，花紫色。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia lilacina G.J.Lewis account, pp. 129–130; archive Morphology row 7283",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in January–March.",
+              "textZh": "该区域性植物志记载花期为1月–3月。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia lilacina G.J.Lewis account, pp. 129–130, flowering-time entry",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records mountain slopes on shale, 600-1500 m. as habitat.",
+              "textZh": "该条目记载的生境为海拔 600–1,500 m 的页岩山坡。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia lilacina G.J.Lewis account, pp. 129–130; archive Habitat row 29040",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as SW (Bain’s Kloof to Franschhoek Mountains).",
+              "textZh": "该条目列出的区域分布为SW（Bain’s Kloof 至 Franschhoek 山区）。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia lilacina G.J.Lewis account, pp. 129–130, distribution entry",
+              "placeTimeScope": "Regional distribution summary published 2012; not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "M89V",
+      "scientificName": "Bobartia macrocarpa Strid",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage M89V, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000788335 by exact accepted name and authorship.",
+        "scope": "Bobartia macrocarpa Strid as represented by COL26.8 usage M89V; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/M89V",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage M89V",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000788335-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL M89V / WFO wfo-0000788335",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Goldblatt & Manning. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "locator": "Strelitzia 29 (2012), Bobartia macrocarpa Strid account, pp. 129–130; morphology archive row 7284, habitat archive row 29042; source ID 13878.0",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Southern African flora treatment; range statements refer to its regional scope."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional account characterizes the species as follows: A robust rhizomatous perennial to 1 m, with terete leaves and a slender, shortly stalked cluster of yellow cymes.",
+              "textZh": "区域性植物志的形态记载：粗壮的根茎多年生植物高可达 1 m，叶圆柱形，黄色聚伞花序纤细且具短花梗。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia macrocarpa Strid account, pp. 129–130; archive Morphology row 7284",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in August–February.",
+              "textZh": "该区域性植物志记载花期为8月–2月。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia macrocarpa Strid account, pp. 129–130, flowering-time entry",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records grassy slopes. as habitat.",
+              "textZh": "该条目记载的生境为草地坡地。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia macrocarpa Strid account, pp. 129–130; archive Habitat row 29042",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as SE (Humansdorp to Eastern Cape).",
+              "textZh": "该条目列出的区域分布为SE（Humansdorp 至 Eastern Cape）。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia macrocarpa Strid account, pp. 129–130, distribution entry",
+              "placeTimeScope": "Regional distribution summary published 2012; not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "M89W",
+      "scientificName": "Bobartia macrospatha Baker",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage M89W, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000788336 by exact accepted name and authorship.",
+        "scope": "Bobartia macrospatha Baker as represented by COL26.8 usage M89W; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/M89W",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage M89W",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000788336-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL M89W / WFO wfo-0000788336",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Goldblatt & Manning. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "locator": "Strelitzia 29 (2012), Bobartia macrospatha Baker account, pp. 129–130; morphology archive row 7289, habitat archive row 29043; source ID 13878.0",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Southern African flora treatment; range statements refer to its regional scope."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional account characterizes the species as follows: A rhizomatous perennial 50–110 cm tall, with terete to linear leaves and fibrous, widened spathes; yellow flowers bear a perianth tube.",
+              "textZh": "区域性植物志的形态记载：根茎多年生植物，高 50–110 cm，叶圆柱形至线形，佛焰苞具纤维且扩展；黄色花具花被管。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia macrospatha Baker account, pp. 129–130; archive Morphology row 7289",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in Mainly August–November.",
+              "textZh": "该区域性植物志记载花期为Mainly 8月–11月。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia macrospatha Baker account, pp. 129–130, flowering-time entry",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records mountain slopes in fynbos. as habitat.",
+              "textZh": "该条目记载的生境为fynbos 中的山坡。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia macrospatha Baker account, pp. 129–130; archive Habitat row 29043",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as AP, LB, SE (Swellendam to Humansdorp).",
+              "textZh": "该条目列出的区域分布为AP、LB、SE（Swellendam 至 Humansdorp）。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia macrospatha Baker account, pp. 129–130, distribution entry",
+              "placeTimeScope": "Regional distribution summary published 2012; not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "M89X",
+      "scientificName": "Bobartia orientalis J.B.Gillett",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage M89X, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0001067185 by exact accepted name and authorship.",
+        "scope": "Bobartia orientalis J.B.Gillett as represented by COL26.8 usage M89X; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/M89X",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage M89X",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0001067185-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL M89X / WFO wfo-0001067185",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Goldblatt & Manning. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "locator": "Strelitzia 29 (2012), Bobartia orientalis J.B.Gillett account, pp. 129–130; morphology archive row 7292, habitat archive row 29044; source ID 13878.0",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Southern African flora treatment; range statements refer to its regional scope."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional account characterizes the species as follows: A rhizomatous perennial 40–130 cm tall with terete leaves and dense yellow clusters composed of many short cymes.",
+              "textZh": "区域性植物志的形态记载：根茎多年生植物，高 40–130 cm，叶圆柱形，黄色密集花序由许多短聚伞花序组成。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia orientalis J.B.Gillett account, pp. 129–130; archive Morphology row 7292",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in Mainly August–November.",
+              "textZh": "该区域性植物志记载花期为Mainly 8月–11月。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia orientalis J.B.Gillett account, pp. 129–130, flowering-time entry",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records mainly dry, stony, sandstone slopes. as habitat.",
+              "textZh": "该条目记载的生境为多见于干燥、石质的砂岩坡地。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia orientalis J.B.Gillett account, pp. 129–130; archive Habitat row 29044",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as NW, SW, LB, SE (Piketberg and Riviersonderend Mountains to Transkei).",
+              "textZh": "该条目列出的区域分布为NW、SW、LB、SE（Piketberg 和 Riviersonderend 山区至 Transkei）。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia orientalis J.B.Gillett account, pp. 129–130, distribution entry",
+              "placeTimeScope": "Regional distribution summary published 2012; not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "M89Y",
+      "scientificName": "Bobartia paniculata G.J.Lewis",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage M89Y, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000788340 by exact accepted name and authorship.",
+        "scope": "Bobartia paniculata G.J.Lewis as represented by COL26.8 usage M89Y; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/M89Y",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage M89Y",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000788340-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL M89Y / WFO wfo-0000788340",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Goldblatt & Manning. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "locator": "Strelitzia 29 (2012), Bobartia paniculata G.J.Lewis account, pp. 129–130; morphology archive row 7285, habitat archive row 29045; source ID 13878.0",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Southern African flora treatment; range statements refer to its regional scope."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional account characterizes the species as follows: A rhizomatous perennial 40–100 cm tall, with linear leaves and stems branched above but sticky below the nodes; yellow cymes cluster near stem tips.",
+              "textZh": "区域性植物志的形态记载：根茎多年生植物，高 40–100 cm，叶线形；茎上部有分枝、节下具黏性，黄色聚伞花序聚集在茎顶附近。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia paniculata G.J.Lewis account, pp. 129–130; archive Morphology row 7285",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in November–February.",
+              "textZh": "该区域性植物志记载花期为11月–2月。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia paniculata G.J.Lewis account, pp. 129–130, flowering-time entry",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records middle to upper slopes in dry fynbos. as habitat.",
+              "textZh": "该条目记载的生境为干燥 fynbos 的中部至上部坡地。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia paniculata G.J.Lewis account, pp. 129–130; archive Habitat row 29045",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as KM (Kammanassie Mountains).",
+              "textZh": "该条目列出的区域分布为KM（Kammanassie 山区）。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia paniculata G.J.Lewis account, pp. 129–130, distribution entry",
+              "placeTimeScope": "Regional distribution summary published 2012; not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "M89Z",
+      "scientificName": "Bobartia parva J.B.Gillett",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage M89Z, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000788341 by exact accepted name and authorship.",
+        "scope": "Bobartia parva J.B.Gillett as represented by COL26.8 usage M89Z; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/M89Z",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage M89Z",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000788341-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL M89Z / WFO wfo-0000788341",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Goldblatt & Manning. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "locator": "Strelitzia 29 (2012), Bobartia parva J.B.Gillett account, pp. 129–130; morphology archive row 7286, habitat archive row 29046; source ID 13878.0",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Southern African flora treatment; range statements refer to its regional scope."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional account characterizes the species as follows: A slender rhizomatous perennial 15–40 cm tall, with terete leaves and a small yellow inflorescence of several cymes.",
+              "textZh": "区域性植物志的形态记载：纤细的根茎多年生植物，高 15–40 cm，叶圆柱形，黄色小花序由数个聚伞花序组成。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia parva J.B.Gillett account, pp. 129–130; archive Morphology row 7286",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in November–February.",
+              "textZh": "该区域性植物志记载花期为11月–2月。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia parva J.B.Gillett account, pp. 129–130, flowering-time entry",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records moist mountain slopes. as habitat.",
+              "textZh": "该条目记载的生境为湿润的山坡。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia parva J.B.Gillett account, pp. 129–130; archive Habitat row 29046",
+              "placeTimeScope": "Southern African flora account published 2012; not a global species synthesis. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as LB (Langeberg: Swellendam to Lemoenshoek).",
+              "textZh": "该条目列出的区域分布为LB（Langeberg：Swellendam 至 Lemoenshoek）。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Bobartia parva J.B.Gillett account, pp. 129–130, distribution entry",
+              "placeTimeScope": "Regional distribution summary published 2012; not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
     }
   ]
 }
