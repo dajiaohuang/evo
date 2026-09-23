@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "batchId": "fungi-postfire-cereal-pathogen-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "recordCount": 2,
+  "colIds": [
+    "47BC7",
+    "6JSTK"
+  ],
+  "duplicateAudit": {
+    "mainCommit": "cac8b494a7192e8c1a5050eb4a1552202cd97b9e",
+    "openPullRequestsAtAudit": [
+      {
+        "number": 357,
+        "headSha": "845b8c3db1d96bb34d3986bda668949ba2cfe9b2"
+      }
+    ],
+    "previousFungiBatchIds": [
+      "4TWCR",
+      "4VCRL"
+    ],
+    "currentOpenPrInventory": "PR #357 was the only open PR at audit time; its catalogue-dossier-shards.json index was scanned at the pinned head above.",
+    "candidateIdsChecked": [
+      "47BC7",
+      "6JSTK"
+    ]
+  },
+  "files": {
+    "source": {
+      "path": "data/sources/fungi-postfire-cereal-pathogen-dossiers-2026-09-24.json",
+      "sha256": "b34840ec6d988d53a1dc81fe18098ad946452abd505c783c9742b4b999a5dcd6"
+    },
+    "rawJsonl": {
+      "path": "data/knowledge/raw-dossiers/fungi-postfire-cereal-pathogen-dossiers-2026-09-24.jsonl",
+      "sha256": "a70a9ad6ae177a6dc11d231653e202aae724457ce451d692ab959483bc4d4ca8",
+      "bytes": 13688,
+      "lineEnding": "LF"
+    },
+    "shard": {
+      "path": "data/knowledge/catalogue-dossiers-fungi-postfire-cereal-pathogen-dossiers-2026-09-24.jsonl.br",
+      "decodedSha256": "a70a9ad6ae177a6dc11d231653e202aae724457ce451d692ab959483bc4d4ca8",
+      "compressedSha256": "0744916e7c106545f4df6061fb341d8cbbe38efaf7a44c10961da7c2fda73e67",
+      "decodedBytes": 13688,
+      "compressedBytes": 3164
+    },
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "mainShardIndexSha256": "8b12cc91e0d986f15e02c1f9341c252b0a7e3610368ecf0d6610c948b832c4c8",
+    "auditedOpenPrs": [
+      {
+        "number": 357,
+        "headSha": "845b8c3db1d96bb34d3986bda668949ba2cfe9b2",
+        "shardIndexSha256": "edf2514186eea587c11bc99911f451dac2a3a91b07928461a442fc58d5a23d77"
+      }
+    ]
+  }
+}
