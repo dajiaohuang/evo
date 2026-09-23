@@ -8,6 +8,7 @@ import { evaluatePackageReview } from './check-review-freshness.mjs'
 import { deterministicGzip, deterministicZip } from './archive-determinism.mjs'
 import { partitionSanbiDescriptions } from './sanbi-description-shards.mjs'
 import { buildCatalogueKnowledge } from './catalogue-knowledge.mjs'
+import { readCatalogueDossiers } from './catalogue-dossier-store.mjs'
 
 const args = process.argv.slice(2)
 const outputIndex = args.indexOf('--out')
@@ -1755,7 +1756,7 @@ function* knowledgeNodes() {
 const knowledge = buildCatalogueKnowledge({
   releaseAlias: catalogueSourceManifest.releaseAlias,
   profiles: readJson('data/knowledge/catalogue-profiles.json'),
-  dossiers: readJson('data/knowledge/catalogue-dossiers.json'),
+  dossiers: readCatalogueDossiers(),
   collections: { sanbiDescriptions: sanbiRecords, plaziDescriptions: plaziRecords, foaDescriptions: foaRecords, mesoDescriptions: mesoRecords, fdacDescriptions: fdacRecords, mossDescriptions: mossRecords, pakistanDescriptions: pakistanRecords, mossChinaDescriptions: mossChinaRecords, fnaDescriptions: fnaRecords, brazilFloraDescriptions: brazilFloraRecords, nicaraguaDescriptions: nicaraguaRecords, panamaDescriptions: panamaRecords, turkeyDescriptions: turkeyRecords, floraChinaDescriptions: floraChinaRecords },
   nodes: knowledgeNodes(),
 })
