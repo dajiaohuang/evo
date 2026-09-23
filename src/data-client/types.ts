@@ -1678,15 +1678,18 @@ export interface CatalogueKnowledgeProfile {
 
 export interface CatalogueSpeciesDossier {
   checkedAt: string
-  sources: Array<{ id: string; title: string; url: string; version: string; locator: string; license: string; licenseAssessment?: 'item-level-verified' | 'aggregate-declaration-only' | 'identity-only' | 'unknown'; scope: string }>
+  identity: { method: string; scope: string; sourceIds?: string[] }
+  lifeStatusScope: { wild: string; domesticated: string; fossil: string }
+  sources: Array<{ id: string; title: string; url: string; stableId?: string; version: string; publishedAt?: string; accessedAt?: string; locator: string; license: string; licenseVersion?: string; licenseUrl?: string; rightsHolder?: string; licenseAppliesTo?: string; attribution?: string; licenseAssessment?: 'item-level-verified' | 'aggregate-declaration-only' | 'identity-only' | 'unknown'; scope: string }>
   facets: Record<string, {
     status: 'supported' | 'partially-supported' | 'searched-no-evidence' | 'conflicted' | 'not-assessed'
-    claims?: Array<{ text: string; textZh?: string; translationStatus?: 'verified' | 'untranslated'; sourceIds: string[]; locator: string; placeTimeScope: string; lifeStatus: string }>
+    claims?: Array<{ text: string; textZh?: string; originalLanguage?: string; translationStatus?: 'verified' | 'untranslated'; sourceIds: string[]; locator: string; placeTimeScope: string; lifeStatus: string }>
     gaps?: string[]
-    search?: { date: string; scope: string; method: string }
+    search?: { date: string; scope: string; method: string; queryOrPath?: string; inclusionCriteria?: string; exclusionCriteria?: string; searcher?: string }
   }>
   completeness: { status: 'incomplete' | 'complete'; reasons?: string[] }
-  expertReview: { status: 'not-reviewed' | 'maintainer-reviewed' | 'externally-reviewed' }
+  systematicSearch?: { date: string; scope: string; method: string; queryOrPath?: string; inclusionCriteria?: string; exclusionCriteria?: string; searcher?: string }
+  expertReview: { status: 'not-reviewed' | 'maintainer-reviewed' | 'externally-reviewed'; reviewers?: Array<{ name: string; expertise: string; conflictOfInterest: string }>; reviewDigest?: string; date?: string; opinion?: string; resolutionLog?: Array<{ finding: string; disposition: string }> }
 }
 
 export interface CatalogueKnowledgeRecord {
