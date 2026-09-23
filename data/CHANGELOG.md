@@ -1,5 +1,20 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc151 — 2026-09-23
+
+- Added 14 original bilingual source-linked insect introductions: five orders
+  (Coleoptera, Diptera, Lepidoptera, Hymenoptera, Hemiptera), five families and
+  four species. Catalogue introductions now total 45: six orders, eight
+  families, eight genera and 23 species. Imported source-text coverage remains
+  80,838 species; an ancestor introduction does not fill descendant dossiers.
+- Preserved exact COL26.8 names including subgenera. Hymenoptera and Hemiptera
+  retain null source dataset IDs instead of inventing an authority assignment.
+- Distinguished Heteroptera from the whole Hemiptera, parasitoids from colony
+  lifestyles, and regional observations from global species facts. Historical
+  counts, conservation claims, treatment thresholds and images are not imported.
+- Local verification is restricted to focused tests, types and data generation;
+  no full local test suite, deployment or release publication is performed.
+
 ## 2026.09-static-v5-rc150 — 2026-09-23
 
 - Repaired eight Cestrum accepted IDs and two explicit synonym redirects against

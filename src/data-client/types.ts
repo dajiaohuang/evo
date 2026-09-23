@@ -1667,7 +1667,7 @@ export interface CatalogueKnowledgeProfile {
   colId: string
   scientificName: string
   rank: string
-  sourceDatasetId: string
+  sourceDatasetId: string | null
   name: { zh: string; en: string }
   reviewStatus: 'source-linked'
   checkedAt: string
