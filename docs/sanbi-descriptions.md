@@ -138,6 +138,41 @@ The broad genus chapter entry for *Cullen tomentosum* was excluded: the cited
 page actually describes *C. obtusifolia*. A shared chapter citation alone did
 not establish species-level identity.
 
+## Triraphis species-account audit (2026-09-23)
+
+The COL26.8 plant registry contains six accepted species under *Triraphis*.
+Four species have exact COL-to-WFO 2026-06 accepted-name-and-authorship
+crosswalk records and SANBI e-Flora v1.36 source rows from item `15590.0`,
+which cites Moeaha & Fish's 2015 species treatment in *Strelitzia* 36: 726–729:
+
+| COL ID / accepted name | WFO 2026-06 ID | Printed account | Archive morphology / habitat rows |
+| --- | --- | --- | --- |
+| `58ZYY` *T. andropogonoides* (Steud.) E.Phillips | `wfo-0000904851` | p. 727 | 80468 / 80188 |
+| `59225` *T. purpurea* Hack. | `wfo-0000904875` | pp. 727–728 | 80469 / 80189 |
+| `59226` *T. ramosissima* Hack. | `wfo-0000904876` | p. 728 | 80470 / 80190 |
+| `5922C` *T. schinzii* Hack. | `wfo-0000904879` | pp. 728–729 | 80471 / 80191 |
+
+All four dossier records retain only paraphrases, original source row numbers,
+printed account locators, regional scope, and the archive's CC BY 4.0 EML / item
+`[CC BY]` notices; the underlying item license version was not independently
+inspected. The species statements are not promoted to global range or complete
+life-history claims. Flowering and printed distribution statements are
+included only where the species-level account was directly checked. The
+*T. ramosissima* SANBI Red List record (account 1181-6) is separately dated
+2005-06-30 and explicitly described as automated; it is recorded as historical
+South African evidence, not a current detailed or global assessment.
+
+Two other accepted *Triraphis* species are not covered by this batch. Their
+absence from these exact archive rows is not evidence that biological
+information is unavailable; no genus-wide coverage claim is made. The four
+new dossiers remain incomplete, with evolution and fossil facets unassessed,
+and no external expert review recorded.
+
+The authority for printed page locators is the [official SANBI Strelitzia 36
+PDF](https://www.sanbi.org/wp-content/uploads/2024/05/2015_Strelitzia36.pdf).
+The [SANBI Red List page for *T. ramosissima*](https://redlist.sanbi.org/species.php?species=1181-6)
+is the primary source for the dated historical national record.
+
 ## Runtime delivery
 
 Full-Web data generation emits 256 SHA-256 COL-ID-prefix shards, keeping each

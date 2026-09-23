@@ -31,12 +31,13 @@ RC155 生成的来源标签筛查计数为：形态 48,482 种、生态 41,445 �
 21. 补齐 Cyathocoma 全属 3 个接受种（32QTH、32QTJ、32QTK）：逐种核对 COL26.8/WFO 2026-06 精确映射，并绑定 SANBI e-Flora 原始形态/生境行及 Strelitzia 29 (2012) p.86 物种账户。C. bachmannii 另有 2013 年南非国家 VU 评估；C. hexandra 单独记录 Verboom (2006) 仅对该种取样的叶绿体系统发育证据。三个档案均不完整；未采样物种的演化、化石及其余未证实的保育评估保持未评估。
 22. 补齐 Trianoptiles 全属 3 个接受种（585HD、7CP59、585HF）：逐种核对 COL26.8/WFO 精确映射及 SANBI e-Flora 形态、生境行，并链接 Strelitzia 29 (2012) p.96 账户。T. capensis 有 2013 年南非 NT 国家评估，T. solitaria 有 2015 年 EN 国家评估并单独记录其一处 trnL–trnF 系统发育证据；T. stipitata 保育评估未确认。三种档案均不完整，化石主题未评估。
 23. 补齐 Geochloa 全属 3 个 COL26.8 接受种（3FP45、3FP46、3FP47）：核对对应 WFO 2026-06 精确映射，关联 SANBI e-Flora 物种级形态/生境原文及 Strelitzia 36（2015）pp.356–358、Strelitzia 29（2012）p.212 账户；Linder 等（2010）提供属级系统发育与地生形态论述。形态、生活史、生态、演化、分布仅部分支持；化石和保育未评估，三份档案均不完整。
+24. 补充四个 Triraphis 接受种档案（`58ZYY`、`59225`、`59226`、`5922C`）。逐种核对 COL26.8 接受名/作者与 WFO 2026-06 精确映射，并引用 Strelitzia 36（2015）逐种账户及 SANBI e-Flora v1.36 原始行（形态/生境行号依次为 80468/80188、80469/80189、80470/80190、80471/80191）。形态和生态部分支持；其中三种有该区域账户的花期/分布陈述，`T. ramosissima` 另记录 2005 年自动生成的南非历史 LC。固定版 Triraphis 共 6 种，本批仅 4 种达到本次来源定位核验要求，不宣称全属覆盖；演化和化石未评估，四档均不完整且未经外部专家评审。
 
 ## 覆盖含义与尚未完成的内容
 
 “全树可查询、可查看缺口”已经落地；“全树所有物种都有全面科学档案”没有完成。
 逐物种完整档案的固定准入标准见[COL26.8 物种科学档案准入标准](species-dossier-standard.md)。该标准明确七个科学主题、证据与权利记录、未知状态处理以及完整档案和专家评审的独立计量；后续覆盖数字应按该标准生成。
-当前 55 条概述属于有来源的入门介绍，尚不是完整生活史、系统发育、化石、性状、分布、保育与媒体档案。逐主题档案包括红狐、Ctenium concinnum、八种 Cullumia、四十八种 Metalasia、十一种 Nivenia、十一种 Thereianthus、十三种 Freesia、十四种 Bobartia、七种新增 Iridaceae、三种 Chasmanthe、三种 Klattia、七种 Micranthus、七种 Codonorhiza、六种 Syringodea、两种 Radinosiphon、一种 Duthiastrum、三种 Cyathocoma、三种 Trianoptiles及三种 Geochloa，共 152 种；部分主题证据不等于完整档案。完整档案与外部领域专家评审仍为 0。
+当前 55 条概述属于有来源的入门介绍，尚不是完整生活史、系统发育、化石、性状、分布、保育与媒体档案。逐主题档案包括红狐、Ctenium concinnum、八种 Cullumia、四十八种 Metalasia、十一种 Nivenia、十一种 Thereianthus、十三种 Freesia、十四种 Bobartia、七种新增 Iridaceae、三种 Chasmanthe、三种 Klattia、七种 Micranthus、七种 Codonorhiza、六种 Syringodea、两种 Radinosiphon、一种 Duthiastrum、三种 Cyathocoma、三种 Trianoptiles及三种 Geochloa及四种 Triraphis，共 156 种；部分主题证据不等于完整档案。完整档案与外部领域专家评审仍为 0。
 来源字段标签筛查另行报告，不得与“有原文”或“有逐主题证据档案”相加；字段可能缺少段落级定位、范围限定及概念等同性审查。
 这些新概述的计数仅指精确关联到 COL ID 的本层内容；原有 133 份导航档案仍保留在资源包体系内，不能用同名自动合并物种概念。
 
