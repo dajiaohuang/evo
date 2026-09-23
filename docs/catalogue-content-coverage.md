@@ -33,7 +33,7 @@ RC155 生成的来源标签筛查计数为：形态 48,482 种、生态 41,445 �
 
 “全树可查询、可查看缺口”已经落地；“全树所有物种都有全面科学档案”没有完成。
 逐物种完整档案的固定准入标准见[COL26.8 物种科学档案准入标准](species-dossier-standard.md)。该标准明确七个科学主题、证据与权利记录、未知状态处理以及完整档案和专家评审的独立计量；后续覆盖数字应按该标准生成。
-当前 55 条概述属于有来源的入门介绍，尚不是完整生活史、系统发育、化石、性状、分布、保育与媒体档案。逐主题档案包括红狐、`Ctenium concinnum`、八种 Cullumia、四十八种 Metalasia、十一种 Nivenia、十一种 Thereianthus、十三种 Freesia、十四种 Bobartia、七种新增 Iridaceae、三种 Chasmanthe、三种 Klattia及七种 Micranthus，共 127 种；部分主题证据不等于完整档案。完整档案与外部领域专家评审仍为 0。
+当前 55 条概述属于有来源的入门介绍，尚不是完整生活史、系统发育、化石、性状、分布、保育与媒体档案。逐主题档案包括红狐、`Ctenium concinnum`、八种 Cullumia、四十八种 Metalasia、十一种 Nivenia、十一种 Thereianthus、十三种 Freesia、十四种 Bobartia、七种新增 Iridaceae、三种 Chasmanthe、三种 Klattia、七种 Micranthus及七种 Codonorhiza，共 134 种；部分主题证据不等于完整档案。完整档案与外部领域专家评审仍为 0。
 来源字段标签筛查另行报告，不得与“有原文”或“有逐主题证据档案”相加；字段可能缺少段落级定位、范围限定及概念等同性审查。
 这些新概述的计数仅指精确关联到 COL ID 的本层内容；原有 133 份导航档案仍保留在资源包体系内，不能用同名自动合并物种概念。
 
