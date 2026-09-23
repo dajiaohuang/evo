@@ -59,6 +59,7 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
     for (const source of dossier.sources) {
       assert.match(source.url, /^https:\/\//, `Dossier source URL required: ${dossier.colId}`)
       assert.ok(source.version && source.locator && source.license && source.scope, `Dossier source provenance incomplete: ${dossier.colId}/${source.id}`)
+      if (source.licenseAssessment !== undefined) assert.ok(['item-level-verified', 'aggregate-declaration-only', 'identity-only', 'unknown'].includes(source.licenseAssessment), `Invalid source license assessment: ${dossier.colId}/${source.id}`)
     }
     for (const [facet, assessment] of Object.entries(dossier.facets)) {
       assert.ok(FACET_STATUSES.includes(assessment.status), `Invalid ${facet} status in ${dossier.colId}`)
@@ -77,7 +78,11 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
     if (dossier.completeness.status === 'complete') {
       assert.ok(DOSSIER_FACETS.every(facet => ['supported', 'searched-no-evidence', 'conflicted'].includes(dossier.facets[facet].status)), `Incomplete facet cannot count as complete: ${dossier.colId}`)
       assert.ok(!DOSSIER_FACETS.some(facet => (dossier.facets[facet].claims ?? []).some(claim => claim.translationStatus === 'untranslated')), `Untranslated claims cannot count as complete: ${dossier.colId}`)
-      assert.ok(!dossier.sources.some(source => source.license.toLowerCase().includes('not stated')), `Unresolved source rights cannot count as complete: ${dossier.colId}`)
+      const claimSourceIds = new Set(DOSSIER_FACETS.flatMap(facet => (dossier.facets[facet].claims ?? []).flatMap(claim => claim.sourceIds)))
+      for (const sourceId of claimSourceIds) {
+        const source = dossier.sources.find(item => item.id === sourceId)
+        assert.equal(source?.licenseAssessment, 'item-level-verified', `Claim source license is not verified at item level: ${dossier.colId}/${sourceId}`)
+      }
       assert.ok(dossier.systematicSearch?.date && dossier.systematicSearch?.scope && dossier.systematicSearch?.method, `Complete dossier requires a systematic search record: ${dossier.colId}`)
     }
     assert.ok(['not-reviewed', 'maintainer-reviewed', 'externally-reviewed'].includes(dossier.expertReview?.status), `Dossier review state required: ${dossier.colId}`)

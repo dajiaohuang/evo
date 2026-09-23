@@ -1678,7 +1678,7 @@ export interface CatalogueKnowledgeProfile {
 
 export interface CatalogueSpeciesDossier {
   checkedAt: string
-  sources: Array<{ id: string; title: string; url: string; version: string; locator: string; license: string; scope: string }>
+  sources: Array<{ id: string; title: string; url: string; version: string; locator: string; license: string; licenseAssessment?: 'item-level-verified' | 'aggregate-declaration-only' | 'identity-only' | 'unknown'; scope: string }>
   facets: Record<string, {
     status: 'supported' | 'partially-supported' | 'searched-no-evidence' | 'conflicted' | 'not-assessed'
     claims?: Array<{ text: string; textZh?: string; translationStatus?: 'verified' | 'untranslated'; sourceIds: string[]; locator: string; placeTimeScope: string; lifeStatus: string }>
