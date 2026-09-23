@@ -7,7 +7,7 @@ import { buildEvidenceIssueUrl, getEntityPublication, getPackagePublication, pub
 import type { AppRoute } from '../../utils/routing'
 import { useI18n } from '../../i18n'
 import { EvidenceStatus } from '../common/EvidenceStatus'
-import { isPagesPreview, isPreviewPackageAllowed } from '../../config/pagesPreview'
+import { isNativeCore, isPagesPreview, isPreviewPackageAllowed } from '../../config/pagesPreview'
 import './PortalPages.css'
 
 interface PortalPageProps {
@@ -88,8 +88,8 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
         <div className="portal-section__heading"><span>02</span><div><small>{t('Ways in')}</small><h2>{t('Choose the object you need')}</h2></div></div>
         <div className="portal-card-grid portal-card-grid--catalog">
           {isPagesPreview ? <>
-            <a href={`${staticCatalogBase}taxa/perissodactyla/`}><small>{t('Taxa')}</small><h3>{flagshipProfileCount} {t('selected dossiers')}</h3><p>{t('Selected Perissodactyla evidence remains available in this preview edition.')}</p><i>→</i></a>
-            <a href={`${staticCatalogBase}events/`}><small>{t('Events')}</small><h3>{evolutionEvents.length} {t('selected events')}</h3><p>{t('Selected event context remains available in this preview edition.')}</p><i>→</i></a>
+            <a href={isNativeCore ? '#/taxa?id=perissodactyla' : `${staticCatalogBase}taxa/perissodactyla/`}><small>{t('Taxa')}</small><h3>{flagshipProfileCount} {t('selected dossiers')}</h3><p>{t('Selected Perissodactyla evidence remains available in this core edition.')}</p><i>→</i></a>
+            <a href={isNativeCore ? '#/events' : `${staticCatalogBase}events/`}><small>{t('Events')}</small><h3>{evolutionEvents.length} {t('selected events')}</h3><p>{t('Selected event context remains available in this core edition.')}</p><i>→</i></a>
             {previewLockedCards.map(([label, title, description]) => <article className="portal-card portal-card--locked" key={label} aria-disabled="true"><small>{t(label)}</small><h3>{t(title)}</h3><p>{t(description)}</p><i aria-hidden="true">—</i></article>)}
           </> : <>
           <a href={`${staticCatalogBase}taxa/`}><small>{t('Taxa')}</small><h3>{manifest.records.registryEntities} {t('stable entries')}</h3><p>{t('Definitions, ranges, package ownership and evidence boundaries.')}</p><i>→</i></a>

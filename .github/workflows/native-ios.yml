@@ -23,7 +23,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - name: Stage full mobile data
+      - name: Stage selected native core content
         run: npm run mobile:sync
       - name: Select an available iPhone simulator
         id: simulator

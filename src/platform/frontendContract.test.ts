@@ -20,9 +20,9 @@ describe('shared frontend capability contract', () => {
     for (const nativePlatform of ['android', 'ios']) {
       const contract = resolveFrontendContract({ mode: 'mobile', nativeApp: 'true', nativePlatform, backendBaseUrl: 'https://api.example.test' })
       expect(contract.target).toBe(nativePlatform)
-      expect(contract.edition).toBe('native-full')
+      expect(contract.edition).toBe('native-core')
       expect(contract.native).toBe(true)
-      expect(contract.content).toMatchObject({ profile: 'native-full', scope: 'full' })
+      expect(contract.content).toMatchObject({ profile: 'web-light', scope: 'selected-preview' })
       expect(contract.backend).toMatchObject({ protocolVersion: 'v1', configured: true })
     }
   })
@@ -38,9 +38,9 @@ describe('shared frontend capability contract', () => {
     })
   })
 
-  it('does not let the Pages flag reduce a native build', () => {
+  it('keeps native builds in the selected core scope regardless of the Pages flag', () => {
     const contract = resolveFrontendContract({ mode: 'mobile', pagesPreview: 'true', nativeApp: 'true', nativePlatform: 'ios' })
-    expect(contract.edition).toBe('native-full')
-    expect(contract.content.scope).toBe('full')
+    expect(contract.edition).toBe('native-core')
+    expect(contract.content.scope).toBe('selected-preview')
   })
 })

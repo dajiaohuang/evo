@@ -1890,7 +1890,7 @@ export interface CurrentRuntimeManifest {
   datasetVersion: string
   appVersion: string
   publication: string
-  edition?: 'full-web' | 'github-pages-preview'
+  edition?: 'full-web' | 'native-core' | 'github-pages-preview'
   previewScope?: {
     packageIds: string[]
     taxonIds: string[]

@@ -16,8 +16,9 @@ targets:
   stay out of the artifact and are also blocked in the client.
 
 The ordinary Web build remains `full-web` with the `web-light` delivery profile.
-Mobile builds remain `native-full`; the Pages flag does not change mobile
-behavior.
+Android and iOS always use `native-core`, generated from the selected core
+scope. Full catalogue rows, all-species dossiers, authority archives, full
+resolution map data and complete package downloads stay outside the App.
 
 These boundaries are represented by the shared frontend capability contract in
 `src/platform/frontendContract.ts`. It is the single runtime description of
@@ -42,8 +43,8 @@ contracts and scientific data semantics, not duplicated scientific facts:
 | Frontend | Primary delivery | Local data policy | Backend use |
 | --- | --- | --- | --- |
 | Web | Vite/PWA and static host | Full Web or explicit Pages preview edition | Optional online enrichment; static release remains usable |
-| Android | Native shell and native interaction layer | Full offline release, local index and resumable sync | Release discovery, entity/evidence queries, sync and optional search |
-| iOS | Native shell and native interaction layer | Full offline release, local index and resumable sync | Same protocol as Android |
+| Android | Native shell and native interaction layer | Selected core release only; no full-data sync or persistent scientific archive | Optional on-demand queries where the configured service supports them |
+| iOS | Native shell and native interaction layer | Selected core release only; no full-data sync or persistent scientific archive | Same protocol as Android |
 
 The independent adapter seam in `src/platform/frontendAdapters.ts` exposes the
 same v1 operations to Web, Android and iOS: capabilities, name search, one
@@ -88,12 +89,10 @@ enrichment. The first contract is intentionally read-oriented:
   `Accept-Ranges`, `Content-Range`, `ETag` and `If-Range`.
 - `GET /v1/sync/files` returns `path`, `profile`, `bytes`, `sha256`,
   `mediaType`, `releaseVersion` and optional `deltaFrom` entries.
-- Native startup uses the current `GET /v1/sync/files.ndjson?profile=full`
-  stream when a backend is configured. It consumes one manifest header and one
-  file descriptor at a time, persists only progress metadata, and exposes
-  `streaming`, `ready` or `error` state. Resource bytes remain on-demand and
-  resumable through `/v1/resources/{path}`; the client never claims a full
-  offline sync from a partial stream.
+- Native startup does not call full-release sync endpoints. The App keeps only
+  its selected core release; complete-release sync remains a server/operator
+  transfer capability and is not an App download path. Online queries are
+  separate, on-demand requests and do not persist full datasets in App storage.
 
 Every client should treat a release manifest and its hashes as the authority
 for offline data. A server response must not silently mix dataset versions;
@@ -104,8 +103,8 @@ result.
 
 The Pages edition keeps the web preview paleotopography series and its 109
 source frames, but advertises the web-preview 0.3-degree sampling boundary.
-The native-full profile retains the finer release payload. Neither delivery
-profile implies that a coarse preview is co-registered with the native grid or
+The native-core profile retains the selected 0.3-degree core payload. Neither
+delivery profile implies that a coarse preview is co-registered with the native grid or
 that a modelled reconstruction is a direct observation. CAO occurrence
 coordinates and PaleoDEM/model layers remain separate evidence types in every
 frontend.

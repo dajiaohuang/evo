@@ -41,9 +41,9 @@ GET /v1/sync/files.ndjson?profile=full
 
 `/v1/sources/{authority}/{sourceID}` returns the current release's source title, citation and identifiers from a small in-memory registry. Catalogue-of-Life source checklist IDs use the explicit `ChecklistBank` namespace; authority sidecars contribute their declared aliases/provider namespaces when present. Unknown keys return `404`; null source IDs are never resolved by inference.
 
-The full offline profile is the native client data contract. Sync is stable-path paginated, so an interrupted download resumes from `nextCursor` and each file can resume with `Range`. If `since` equals the current dataset version, the response is an empty up-to-date set.
+The App does not use the full offline profile: Android and iOS ship only the selected `native-core` release and never invoke full-release sync at startup. The `full` sync endpoints remain available for explicit server/operator transfer and verification workflows. Stable-path pagination and byte-range resume apply to those callers; this does not authorize or trigger App-side persistence of the full dataset.
 
-`/v1/sync/files.ndjson` is the current-release streaming sync manifest. It emits a bounded manifest header followed by one descriptor per line, allowing native clients to enqueue the complete release incrementally. It intentionally rejects non-current `since` values; historical release compatibility is not part of the backend contract.
+`/v1/sync/files.ndjson` is the current-release streaming full-data manifest for explicit transfer clients. It emits a bounded manifest header followed by one descriptor per line and intentionally rejects non-current `since` values; the native App does not consume it.
 
 To exercise the real full-release transfer path locally, including descriptor SHA-256 verification and a two-part `Range` resume against the largest resource, run:
 

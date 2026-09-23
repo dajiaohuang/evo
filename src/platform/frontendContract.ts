@@ -1,8 +1,8 @@
 import { Capacitor } from '@capacitor/core'
 
 export type FrontendTarget = 'web' | 'android' | 'ios'
-export type FrontendEdition = 'full-web' | 'native-full' | 'github-pages-preview'
-export type FrontendDataProfile = 'web-light' | 'native-full'
+export type FrontendEdition = 'full-web' | 'native-core' | 'github-pages-preview'
+export type FrontendDataProfile = 'web-light'
 
 export const FRONTEND_CONTRACT_SCHEMA_VERSION = 1 as const
 export const FRONTEND_BACKEND_PROTOCOL_VERSION = 'v1' as const
@@ -61,7 +61,7 @@ export function resolveFrontendContract(input: FrontendContractInput = {}): Fron
   const target = resolveFrontendTarget(input.nativePlatform)
   const native = normalize(input.nativeApp) === 'true' || target === 'android' || target === 'ios'
   const pagesPreview = normalize(input.pagesPreview) === 'true' && input.mode !== 'mobile' && !native
-  const edition: FrontendEdition = pagesPreview ? 'github-pages-preview' : native ? 'native-full' : 'full-web'
+  const edition: FrontendEdition = native ? 'native-core' : pagesPreview ? 'github-pages-preview' : 'full-web'
   const backendConfigured = Boolean(input.backendBaseUrl?.trim()) && edition !== 'github-pages-preview'
 
   return {
@@ -70,8 +70,8 @@ export function resolveFrontendContract(input: FrontendContractInput = {}): Fron
     edition,
     native,
     content: {
-      profile: native ? 'native-full' : 'web-light',
-      scope: pagesPreview ? 'selected-preview' : 'full',
+      profile: 'web-light',
+      scope: native || pagesPreview ? 'selected-preview' : 'full',
       timelineSceneCards: 'map-overlay',
     },
     backend: {

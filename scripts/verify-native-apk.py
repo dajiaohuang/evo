@@ -8,16 +8,22 @@ import zipfile
 def verify(apk_path):
     with zipfile.ZipFile(apk_path) as apk:
         current = json.loads(apk.read('assets/public/data/current.json'))
-        if current['deliveryProfile'] != 'native-full':
-            raise ValueError('APK does not contain native-full data')
+        if current['edition'] != 'native-core' or current['deliveryProfile'] != 'web-light':
+            raise ValueError('APK does not contain the selected native-core profile')
+        if current.get('previewScope', {}).get('catalogue') != 'omitted':
+            raise ValueError('APK includes the full Catalogue of Life registry')
         index = json.loads(apk.read('assets/public/data/' + current['releaseBase'] + 'release-files.json'))
         if index['datasetVersion'] != current['datasetVersion']:
             raise ValueError('APK contains mixed dataset versions')
         records = [('assets/public/data/' + f['url'], f) for f in index['files'] if '/downloads/' not in f['url']]
-        sql = json.loads(apk.read('assets/public/native-runtime-manifest.json'))['sql']
-        if sql['variant'] != 'mvp' or len(sql['files']) != 4:
-            raise ValueError('Missing offline SQL runtime contract')
-        records += [('assets/public/' + f['path'], f) for f in sql['files']]
+        if len(records) != len(index['files']):
+            raise ValueError('APK release inventory includes package download archives')
+        if any('/catalogue/hierarchy/' in f['url'] or '/catalogue/search/' in f['url']
+               or '/catalogue/source-checklists/' in f['url'] or '/catalogue/resource-packs/' in f['url']
+               for f in index['files']):
+            raise ValueError('APK includes full nomenclature or authority source rows')
+        if any(name.startswith('assets/public/sql/') for name in apk.namelist()):
+            raise ValueError('APK includes the full-data SQL research runtime')
         for path, record in records:
             digest = hashlib.sha256()
             size = 0
@@ -32,7 +38,7 @@ def verify(apk_path):
             raise ValueError('APK loads a remote application shell')
         if config['appId'] != 'io.github.dajiaohuang.evoatlas':
             raise ValueError('Wrong application identity')
-        print(f"APK verified: {len(records)} scientific and runtime files; {current['datasetVersion']}; offline DuckDB {sql['version']}")
+        print(f"APK verified: {len(records)} core files; {current['datasetVersion']}; full scientific datasets excluded")
 
 
 if __name__ == '__main__':
