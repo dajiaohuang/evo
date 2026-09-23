@@ -1,9 +1,29 @@
 import assert from 'node:assert/strict'
+import { createHash } from 'node:crypto'
 
 // Build one sparse, release-specific index. No invented species descriptions and
 // no need to retain millions of species nodes in memory while rolling up coverage.
 const DOSSIER_FACETS = ['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation']
 const FACET_STATUSES = ['supported', 'partially-supported', 'searched-no-evidence', 'conflicted', 'not-assessed']
+const isNonEmptyText = value => typeof value === 'string' && value.trim().length > 0
+const isCalendarDate = value => {
+  if (typeof value !== 'string' || value.length !== 10 || value[4] !== '-' || value[7] !== '-') return false
+  const parsed = new Date(`${value}T00:00:00Z`)
+  return !Number.isNaN(parsed.getTime()) && parsed.toISOString().slice(0, 10) === value
+}
+const hasReproducibleSearch = search => isCalendarDate(search?.date)
+  && ['scope', 'method', 'queryOrPath', 'inclusionCriteria', 'exclusionCriteria', 'searcher'].every(key => isNonEmptyText(search?.[key]))
+const isLanguageTag = value => typeof value === 'string' && /^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$/.test(value)
+const canonicalJson = value => {
+  if (Array.isArray(value)) return `[${value.map(canonicalJson).join(',')}]`
+  if (value && typeof value === 'object') return `{${Object.keys(value).filter(key => value[key] !== undefined).sort().map(key => `${JSON.stringify(key)}:${canonicalJson(value[key])}`).join(',')}}`
+  return JSON.stringify(value)
+}
+
+export function catalogueDossierContentDigest(dossier) {
+  const { expertReview, ...content } = dossier
+  return createHash('sha256').update(canonicalJson(content)).digest('hex')
+}
 // Only source-declared field labels with a stable, narrow meaning are projected.
 // Generic "general", "description", "biology", and diagnostic fields stay unmapped.
 const SOURCE_TYPE_FACETS = new Map([
@@ -49,6 +69,7 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
   }
   for (const dossier of dossiers.records) {
     assert.ok(dossier.colId, 'Dossier is missing a COL identity')
+    assert.ok(isCalendarDate(dossier.checkedAt), `Dossier checkedAt must be a real ISO calendar date: ${dossier.colId}`)
     const record = recordFor(dossier.colId)
     assert.ok(!record.dossier, `Duplicate dossier ${dossier.colId}`)
     assert.ok(dossier.identity?.method && dossier.identity?.scope, `Dossier identity method and scope required: ${dossier.colId}`)
@@ -72,21 +93,35 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
       }
       if (assessment.status === 'supported' || assessment.status === 'conflicted') assert.ok(assessment.claims?.length, `Evidence claims required for ${dossier.colId}/${facet}`)
       if (assessment.status === 'partially-supported') assert.ok(assessment.claims?.length && assessment.gaps?.length, `Partial facet must disclose evidence and gaps: ${dossier.colId}/${facet}`)
-      if (assessment.status === 'searched-no-evidence') assert.ok(assessment.search?.date && assessment.search?.scope && assessment.search?.method, `Search log required for ${dossier.colId}/${facet}`)
+      if (assessment.status === 'searched-no-evidence') assert.ok(hasReproducibleSearch(assessment.search), `Reproducible search protocol required for ${dossier.colId}/${facet}`)
     }
     assert.ok(['incomplete', 'complete'].includes(dossier.completeness?.status), `Dossier completeness status required: ${dossier.colId}`)
     if (dossier.completeness.status === 'complete') {
       assert.ok(DOSSIER_FACETS.every(facet => ['supported', 'searched-no-evidence', 'conflicted'].includes(dossier.facets[facet].status)), `Incomplete facet cannot count as complete: ${dossier.colId}`)
       assert.ok(!DOSSIER_FACETS.some(facet => (dossier.facets[facet].claims ?? []).some(claim => claim.translationStatus === 'untranslated')), `Untranslated claims cannot count as complete: ${dossier.colId}`)
+      assert.ok(Array.isArray(dossier.identity.sourceIds) && dossier.identity.sourceIds.length > 0 && dossier.identity.sourceIds.every(id => sourceIds.has(id)), `Complete dossier identity must cite resolvable source IDs: ${dossier.colId}`)
       const claimSourceIds = new Set(DOSSIER_FACETS.flatMap(facet => (dossier.facets[facet].claims ?? []).flatMap(claim => claim.sourceIds)))
+      assert.ok(claimSourceIds.size > 0, `Complete dossier must include source-linked biological claims: ${dossier.colId}`)
+      for (const facet of DOSSIER_FACETS) {
+        for (const claim of dossier.facets[facet].claims ?? []) {
+          assert.ok(isLanguageTag(claim.originalLanguage), `Complete claim must identify its source language: ${dossier.colId}/${facet}`)
+        }
+      }
       for (const sourceId of claimSourceIds) {
         const source = dossier.sources.find(item => item.id === sourceId)
         assert.equal(source?.licenseAssessment, 'item-level-verified', `Claim source license is not verified at item level: ${dossier.colId}/${sourceId}`)
+        assert.ok(isNonEmptyText(source.stableId) && (source.publishedAt === 'undated' || isCalendarDate(source.publishedAt)) && isCalendarDate(source.accessedAt), `Claim source stable identity and publication/access dates required: ${dossier.colId}/${sourceId}`)
+        assert.ok(isNonEmptyText(source.rightsHolder) && isNonEmptyText(source.licenseVersion) && /^https:\/\//.test(source.licenseUrl ?? '') && isNonEmptyText(source.licenseAppliesTo) && isNonEmptyText(source.attribution), `Claim source item-level rights and attribution record required: ${dossier.colId}/${sourceId}`)
       }
-      assert.ok(dossier.systematicSearch?.date && dossier.systematicSearch?.scope && dossier.systematicSearch?.method, `Complete dossier requires a systematic search record: ${dossier.colId}`)
+      assert.ok(hasReproducibleSearch(dossier.systematicSearch), `Complete dossier requires a reproducible systematic search record: ${dossier.colId}`)
     }
     assert.ok(['not-reviewed', 'maintainer-reviewed', 'externally-reviewed'].includes(dossier.expertReview?.status), `Dossier review state required: ${dossier.colId}`)
-    if (dossier.expertReview.status === 'externally-reviewed') assert.ok(dossier.expertReview.reviewers?.length && dossier.expertReview.reviewDigest && dossier.expertReview.date, `External review evidence required: ${dossier.colId}`)
+    if (dossier.expertReview.status === 'externally-reviewed') {
+      assert.ok(Array.isArray(dossier.expertReview.reviewers) && dossier.expertReview.reviewers.length > 0 && dossier.expertReview.reviewers.every(reviewer => isNonEmptyText(reviewer?.name) && isNonEmptyText(reviewer?.expertise) && isNonEmptyText(reviewer?.conflictOfInterest)), `Named expert, expertise, and conflict declaration required: ${dossier.colId}`)
+      assert.ok(/^[a-f\d]{64}$/i.test(dossier.expertReview.reviewDigest ?? '') && isCalendarDate(dossier.expertReview.date), `External review must bind a content SHA-256 and valid date: ${dossier.colId}`)
+      assert.equal(dossier.expertReview.reviewDigest, catalogueDossierContentDigest(dossier), `External review content digest is stale: ${dossier.colId}`)
+      assert.ok(isNonEmptyText(dossier.expertReview.opinion) && Array.isArray(dossier.expertReview.resolutionLog) && dossier.expertReview.resolutionLog.every(entry => isNonEmptyText(entry?.finding) && isNonEmptyText(entry?.disposition)), `External review opinion and finding disposition log required: ${dossier.colId}`)
+    }
     record.dossier = dossier
   }
   const expected = new Set(records.keys())
