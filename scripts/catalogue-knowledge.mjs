@@ -59,11 +59,15 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
     for (const source of dossier.sources) {
       assert.match(source.url, /^https:\/\//, `Dossier source URL required: ${dossier.colId}`)
       assert.ok(source.version && source.locator && source.license && source.scope, `Dossier source provenance incomplete: ${dossier.colId}/${source.id}`)
+      if (source.licenseAssessment !== undefined) assert.ok(['item-level-verified', 'aggregate-declaration-only', 'identity-only', 'unknown'].includes(source.licenseAssessment), `Invalid source license assessment: ${dossier.colId}/${source.id}`)
     }
     for (const [facet, assessment] of Object.entries(dossier.facets)) {
       assert.ok(FACET_STATUSES.includes(assessment.status), `Invalid ${facet} status in ${dossier.colId}`)
       for (const claim of assessment.claims ?? []) {
-        assert.ok(claim.text && claim.textZh && claim.locator && claim.placeTimeScope && claim.lifeStatus, `Claim scope/locator/translation incomplete: ${dossier.colId}/${facet}`)
+        const hasChineseTranslation = typeof claim.textZh === 'string' && claim.textZh.trim().length > 0
+        assert.ok(claim.text && (hasChineseTranslation || claim.translationStatus === 'untranslated') && claim.locator && claim.placeTimeScope && claim.lifeStatus, `Claim scope/locator/translation incomplete: ${dossier.colId}/${facet}`)
+        if (claim.translationStatus === 'untranslated') assert.ok(!hasChineseTranslation, `Untranslated claim must not carry placeholder text: ${dossier.colId}/${facet}`)
+        if (claim.translationStatus === 'verified') assert.ok(hasChineseTranslation, `Verified translation is missing: ${dossier.colId}/${facet}`)
         assert.ok(claim.sourceIds.length && claim.sourceIds.every(id => sourceIds.has(id)), `Unresolved dossier source: ${dossier.colId}/${facet}`)
       }
       if (assessment.status === 'supported' || assessment.status === 'conflicted') assert.ok(assessment.claims?.length, `Evidence claims required for ${dossier.colId}/${facet}`)
@@ -73,7 +77,12 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
     assert.ok(['incomplete', 'complete'].includes(dossier.completeness?.status), `Dossier completeness status required: ${dossier.colId}`)
     if (dossier.completeness.status === 'complete') {
       assert.ok(DOSSIER_FACETS.every(facet => ['supported', 'searched-no-evidence', 'conflicted'].includes(dossier.facets[facet].status)), `Incomplete facet cannot count as complete: ${dossier.colId}`)
-      assert.ok(!dossier.sources.some(source => source.license.toLowerCase().includes('not stated')), `Unresolved source rights cannot count as complete: ${dossier.colId}`)
+      assert.ok(!DOSSIER_FACETS.some(facet => (dossier.facets[facet].claims ?? []).some(claim => claim.translationStatus === 'untranslated')), `Untranslated claims cannot count as complete: ${dossier.colId}`)
+      const claimSourceIds = new Set(DOSSIER_FACETS.flatMap(facet => (dossier.facets[facet].claims ?? []).flatMap(claim => claim.sourceIds)))
+      for (const sourceId of claimSourceIds) {
+        const source = dossier.sources.find(item => item.id === sourceId)
+        assert.equal(source?.licenseAssessment, 'item-level-verified', `Claim source license is not verified at item level: ${dossier.colId}/${sourceId}`)
+      }
       assert.ok(dossier.systematicSearch?.date && dossier.systematicSearch?.scope && dossier.systematicSearch?.method, `Complete dossier requires a systematic search record: ${dossier.colId}`)
     }
     assert.ok(['not-reviewed', 'maintainer-reviewed', 'externally-reviewed'].includes(dossier.expertReview?.status), `Dossier review state required: ${dossier.colId}`)
