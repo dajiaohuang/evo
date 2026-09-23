@@ -1,5 +1,9 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc152 — 2026-09-23
+
+- Added four source-linked bilingual introductions tracing Carnivora through Canidae and Vulpes to the red fox under the pinned COL26.8 hierarchy. The accounts distinguish taxonomic names from diet, genus-level habitat contrasts from species-level ranges, and native from introduced records. ADW's old counts, quantitative size ranges, conservation assessments and divergence dates were not reused.
+
 ## 2026.09-static-v5-rc151 — 2026-09-23
 
 - Added 14 original bilingual source-linked insect introductions: five orders
@@ -1194,3 +1198,4 @@ This changelog describes the bundled atlas snapshot, not upstream database relea
 - Preserved the complete 86,094-record, 87-page WFD nameusage acquisition ledger and the 47,975 source-record response hashes. The 179 observed accepted WFD records without a COL source relationship remain an audit count only and are explicitly not asserted as a complete upstream-only inventory because no immutable complete upstream archive was available.
 - Added five deterministic, non-overlapping COL-ID JSONL gzip ranges totalling 4,046,631 bytes. Pages `web-light` publishes the full descriptor and canonical hash inventory but no row shard; Android and iOS build `20` use `native-full`, contain byte-identical copies of all five files and verify them against the release inventory. A species lookup reads at most one range shard.
 - Kept the complete 109-frame native PaleoDEM series, AviList birds and Amphibia ITIS authority rows unchanged in both native applications while retaining the bounded Pages deployment profile.
+
