@@ -18,10 +18,10 @@ const paleotopographyIndex = args.indexOf('--paleotopography')
 const deliveryProfileIndex = args.indexOf('--profile')
 const editionIndex = args.indexOf('--edition')
 const edition = editionIndex >= 0 ? args[editionIndex + 1] : 'full-web'
-if (edition !== 'full-web' && edition !== 'pages-preview') {
-  throw new Error('--edition must be full-web or pages-preview')
+if (edition !== 'full-web' && edition !== 'pages-preview' && edition !== 'native-core') {
+  throw new Error('--edition must be full-web, pages-preview or native-core')
 }
-const pagesPreview = edition === 'pages-preview'
+const pagesPreview = edition !== 'full-web'
 const deliveryProfile = deliveryProfileIndex >= 0
   ? args[deliveryProfileIndex + 1]
   : (paleotopographyIndex >= 0 && args[paleotopographyIndex + 1] === 'native-full' ? 'native-full' : 'web-light')
@@ -1363,7 +1363,7 @@ function publishPaleotopographySeries() {
       profile: paleotopographyDelivery,
       resolutionDegrees: nativeFull ? 0.1 : grid.webPreview.resolutionDegrees,
       gridBytes: expectedRuntimeBytes,
-      fullResolutionAvailableInNativeApps: true,
+      fullResolutionAvailableInNativeApps: deliveryProfile === 'native-full',
     },
     visualization: {
       ...visualization,
@@ -1416,11 +1416,11 @@ let catalogueManifestFile
 if (pagesPreview) {
   catalogueRuntimeManifest = {
     schemaVersion: 1,
-    edition: 'github-pages-preview',
-    releaseAlias: 'PAGES-PREVIEW',
+    edition: edition === 'native-core' ? 'native-core' : 'github-pages-preview',
+    releaseAlias: edition === 'native-core' ? 'NATIVE-CORE' : 'PAGES-PREVIEW',
     releaseDate: sourceManifest.generatedAt,
     relationshipToAtlas: 'The nomenclatural registry is intentionally omitted from the GitHub Pages preview edition.',
-    provenance: { edition: 'github-pages-preview', source: 'omitted-by-preview-scope' },
+    provenance: { edition: edition === 'native-core' ? 'native-core' : 'github-pages-preview', source: 'omitted-by-preview-scope' },
     sourceChecklists: { files: [] },
     counts: { acceptedSpecies: 0, resolvingNameUsages: {} },
     search: { files: [], routes: {}, totalCompressedBytes: 0 },
@@ -1831,8 +1831,8 @@ const current = {
   schemaVersion: 5,
   datasetVersion: sourceManifest.datasetVersion,
   appVersion: sourceManifest.appVersion,
-  publication: 'GitHub Pages static data platform',
-  edition: pagesPreview ? 'github-pages-preview' : 'full-web',
+  publication: edition === 'native-core' ? 'Evo Atlas native core bundle' : pagesPreview ? 'GitHub Pages static data platform' : 'Evo Atlas full Web data platform',
+  edition: pagesPreview ? (edition === 'native-core' ? 'native-core' : 'github-pages-preview') : 'full-web',
   ...(pagesPreview ? {
     previewScope: {
       packageIds: [...previewPackageIds],

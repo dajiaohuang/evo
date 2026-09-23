@@ -29,7 +29,7 @@ function sources(): FrontendAdapterSources {
 describe('independent frontend adapters', () => {
   it('exposes the same v1 flow with explicit Web, Android and iOS boundaries', async () => {
     const web = createWebFrontendAdapter(sources()); const android = createAndroidFrontendAdapter(sources()); const ios = createIosFrontendAdapter(sources())
-    expect(web.contract.target).toBe('web'); expect(android.contract.target).toBe('android'); expect(ios.contract.target).toBe('ios'); expect(android.contract.content.profile).toBe('native-full')
+    expect(web.contract.target).toBe('web'); expect(android.contract.target).toBe('android'); expect(ios.contract.target).toBe('ios'); expect(android.contract.content.profile).toBe('web-light')
     await expect(web.searchNames('minor')).resolves.toMatchObject({ records: [{ id: 'child' }] }); await expect(android.loadTreePage('root')).resolves.toMatchObject({ records: [child] }); await expect(ios.loadNode('child')).resolves.toEqual(child)
   })
   it('covers search, tree page, detail and timeline scene-card flow', async () => {

@@ -1,6 +1,6 @@
 # Android 与 iOS 应用
 
-Evo Atlas 的交互式 Web、Android 和 iOS 版本共享 React/TypeScript 客户端。GitHub Pages 单独发布缩减后的中英文静态阅读版，提供 13 个时点的轻量古地理地图、缩放和平移，不加载客户端、科学运行时分片或 SQL 引擎。原生应用把 HTML、CSS、JavaScript、图标、启动资源、离线 SQL 引擎和当前不可变科学数据发布版装入安装包，不把线上站点作为远程首页加载。
+Evo Atlas 的交互式 Web、Android 和 iOS 版本共享 React/TypeScript 客户端。原生 App 永远只内置 `native-core`：应用壳、精选核心页面与资料、0.3° 预览地图；完整 COL 目录、全物种科学档案、权威来源行、全分辨率地图、完整下载包和 SQL 研究引擎均留在 App 安装包之外。App 不把线上站点作为远程首页加载，核心页面仍可离线打开；完整数据通过 Web 或受支持的在线服务访问，不自动同步或持久化到 App。
 
 ## 工程结构
 
@@ -15,13 +15,17 @@ assets/logo.svg              # 原生图标和启动图源文件
 dist-mobile/                 # 临时生成的移动客户端壳，不提交
 ```
 
-移动构建关闭 Vite 的默认 `publicDir` 复制，先用 canonical `data/` 生成当前发布版，再由现有 `release-files.json` 选择全部交互文件并复制到 `dist-mobile/data/`。重复的 24 个资源包 ZIP 导出物不再复制，因为其科学内容已经作为交互文件内置。finalizer 沿用发布清单的字节数与 SHA-256 逐项核对，拒绝缺失、串版或超过 960 MiB 的产物；这是一条构建契约，不是新的科学内容审查系统。DuckDB MVP worker、Wasm 与固定版本 Parquet 扩展约占 41 MiB，来源和许可证见 `docs/licenses/`；原生查询与 Parquet 编码无需首次联网下载。
+移动构建关闭 Vite 的默认 `publicDir` 复制，用 `data/pages-preview.json` 固定的核心范围生成 `native-core` 发布版，再按 `release-files.json` 逐文件复制并核对字节数与 SHA-256。finalizer 拒绝全量目录/权威侧车/下载包、错版数据以及超过 384 MiB 的 App 资源。移动版不加入离线 SQL 引擎，也不启动全量发布同步；不允许以提高包体上限来容纳全物种数据。
 
 应用 ID 是 `io.github.dajiaohuang.evoatlas`。Android 最低 API 为 24，iOS 最低版本为 15。原生工程使用 Capacitor 8；iOS 插件通过 Swift Package Manager 引入。
 
 仓库中的 Android Studio 与 Xcode 项目是可复现的原生壳源工程，不是商店发布证明。应用级 Android/iOS 测试源随工程维护，但 AAB、IPA、签名 Archive、Play Console 和 App Store Connect 发布物均不在仓库中；只有在相应平台工具链、模拟器/真机和商店流程完成后才能声称原生版本已发布。
 
 ## 数据与离线边界
+
+当前原生数据边界：精选范围由 `data/pages-preview.json` 固定，生成 4 个核心资源包及选择条目。完整物种注册表和后续全物种档案继续维护在 canonical 数据与服务端/Web 发布中；它们不会进入 Android/iOS 安装包。安装包检查会拒绝完整 COL hierarchy/search、命名来源记录和 ZIP 下载文件，并以 384 MiB 作为硬上限。
+
+以下 `rc*` 条目记录的是历史版本交付事实；其中 `native-full` 描述旧版行为，不代表当前或未来 App 的打包策略。
 
 rc114 / app `0.20.65` / build `68` 重新生成 Haptophyta 来源记录，将失效的旧本机工作区路径替换为仓库相对输入及实际摘要。90 条 ITIS 来源独有记录及其压缩字节不变；Pages 仍仅提供摘要，Android/iOS 继续包含全部明细。本次是可复现来源追溯修复，不是新增物种或科学审查。
 

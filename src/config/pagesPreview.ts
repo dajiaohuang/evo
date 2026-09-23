@@ -2,12 +2,13 @@ import type { AppRoute } from '../utils/routing'
 import previewDefinition from '../../data/pages-preview.json'
 import { frontendContract, resolveFrontendContract } from '../platform/frontendContract'
 
-/** Pages is an intentionally explicit preview build; normal Web and native stay full. */
+/** Pages and native builds use the explicit selected-core content definition. */
 export function isPagesPreviewEnvironment(env: { PAGES_PREVIEW?: string; mode?: string }): boolean {
   return resolveFrontendContract({ pagesPreview: env.PAGES_PREVIEW, mode: env.mode }).edition === 'github-pages-preview'
 }
 
-export const isPagesPreview = frontendContract.edition === 'github-pages-preview'
+export const isNativeCore = frontendContract.edition === 'native-core'
+export const isPagesPreview = frontendContract.edition === 'github-pages-preview' || isNativeCore
 
 export const pagesPreviewPackageIds = new Set(previewDefinition.packageIds)
 const PREVIEW_TAXA = new Set(previewDefinition.taxonIds)
@@ -61,13 +62,13 @@ export function isPreviewRouteLocked(route: AppRoute, params: URLSearchParams, p
 
 export const pagesPreviewCopy = {
   en: {
-    eyebrow: 'GitHub Pages preview edition',
-    title: 'This entry is available in the full Web edition.',
-    body: 'The preview keeps the atlas dashboard, tutorial, time/map scenes and selected resource dossiers. Open the full Web edition to browse the complete catalogue and research tools.',
+    eyebrow: 'Selected core edition',
+    title: 'This entry is outside the included core content.',
+    body: 'The core edition includes the atlas dashboard, tutorial, selected time/map scenes and selected resource dossiers. Browse the full Web edition for the complete catalogue and research tools.',
   },
   zh: {
-    eyebrow: 'GitHub Pages 预览版',
-    title: '此入口请在完整版 Web 中打开。',
-    body: '预览版保留综合看板、教程、时间/地图场景和精选资源档案。完整目录与研究工具请使用完整版 Web。',
+    eyebrow: '核心内容版',
+    title: '此入口不包含在 App 核心内容中。',
+    body: '核心版仅内置综合看板、教程、精选时间/地图场景和精选资源档案。完整分类目录与研究工具请通过完整版 Web 浏览。',
   },
 } as const
