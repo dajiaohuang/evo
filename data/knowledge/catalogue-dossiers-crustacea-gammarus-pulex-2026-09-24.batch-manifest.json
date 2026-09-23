@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "batchId": "crustacea-gammarus-pulex-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "recordCount": 1,
+  "colIds": [
+    "3F8JD"
+  ],
+  "duplicateAudit": {
+    "baseHead": "cac8b494a7192e8c1a5050eb4a1552202cd97b9e",
+    "mainIndexedRecordCount": 6901,
+    "openPullRequests": [
+      {
+        "number": 357,
+        "head": "845b8c3db1d96bb34d3986bda668949ba2cfe9b2",
+        "indexedRecordCount": 6907
+      }
+    ],
+    "candidateColIds": [
+      "3F8JD"
+    ],
+    "candidateNames": [
+      "Gammarus pulex (Linnaeus, 1758)"
+    ],
+    "matches": [],
+    "excludedColIds": [
+      "6CCSV"
+    ],
+    "result": "Candidate 3F8JD was absent from every COL26.8 dossier shard indexed on origin/main and PR #357 head 845b8c3; the PR contains Crustacea usage 6CCSV, which was excluded. PR #357 was the only open pull request at audit time."
+  },
+  "files": {
+    "source": {
+      "path": "data/sources/crustacea-gammarus-pulex-batch-2026-09-24.json",
+      "sha256": "fba71ad7f0e6a767e9d4f133df94f0d8e47ab11fe5c945c9c8a66e882bab7c4b"
+    },
+    "rawJsonl": {
+      "path": "data/knowledge/raw-dossiers/crustacea-gammarus-pulex-2026-09-24.jsonl",
+      "encoding": "utf-8-jsonl-lf",
+      "sha256": "bc032675079604d6d386a548498ba932e2d88fe333121991743249c9e7b2d3b2",
+      "bytes": 5269
+    },
+    "shard": {
+      "path": "data/knowledge/catalogue-dossiers-crustacea-gammarus-pulex-2026-09-24.jsonl.br",
+      "encoding": "brotli-jsonl",
+      "decodedSha256": "bc032675079604d6d386a548498ba932e2d88fe333121991743249c9e7b2d3b2",
+      "compressedSha256": "e2698eb3fccba85176a952707dfb93665a150db05d59e70a160ad724217c122d",
+      "decodedBytes": 5269,
+      "compressedBytes": 1649,
+      "roundTrip": "exact-byte-match"
+    },
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-crustacea-gammarus-pulex-batch.mjs"
+}
