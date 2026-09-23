@@ -28,13 +28,14 @@ RC155 生成的来源标签筛查计数为：形态 48,482 种、生态 41,445 �
 18. 完整补齐 COL26.8 接受分类中 Chasmanthe 全属 3 种（`TPZY`、`TPZZ`、`TQ23`），逐种核对 Strelitzia 29 pp.130–131 账户，并绑定 SANBI archive 形态/生境行。
 19. 新增 Klattia 全属 3 种（`3R96F`、`6NKCG`、`3R96G`）的档案，逐种绑定 COL26.8/WFO 身份、Strelitzia 42 (2020) 物种账户和 SANBI 南非 Red List 评估。形态、花期、生态、区域分布及国家保育评估有局部证据；演化与化石仍未评估，三份档案均未达完整标准。
 20. 新增 Micranthus 全属 7 种（`42QJN`、`42QHX`、`42QJH`、`42QHS`、`42QJK`、`42QJC`、`42QHV`）的档案，逐种核对 COL26.8/WFO 身份，并链接 Strelitzia 42 物种账户及 SANBI e-Flora 形态、生境行。四个主题有区域材料支持；`M. cruciatus` 另有一项有日期的南非国家评估。所有记录仍不完整，演化与化石未评估，其他物种保育状态也未评估。
-21. 补齐 Cyathocoma 全属 3 个接受种（`32QTH`、`32QTJ`、`32QTK）：逐种核对 COL26.8/WFO 2026-06 精确映射，并绑定 SANBI e-Flora 原始形态/生境行及 Strelitzia 29 (2012) p.86 物种账户。`C. bachmannii` 另有 2013 年南非国家 VU 评估；`C. hexandra` 单独记录 Verboom (2006) 仅对该种取样的叶绿体系统发育证据。三个档案均不完整；未采样物种的演化、化石及其余未证实的保育评估保持未评估。
+21. 补齐 Cyathocoma 全属 3 个接受种（32QTH、32QTJ、32QTK）：逐种核对 COL26.8/WFO 2026-06 精确映射，并绑定 SANBI e-Flora 原始形态/生境行及 Strelitzia 29 (2012) p.86 物种账户。C. bachmannii 另有 2013 年南非国家 VU 评估；C. hexandra 单独记录 Verboom (2006) 仅对该种取样的叶绿体系统发育证据。三个档案均不完整；未采样物种的演化、化石及其余未证实的保育评估保持未评估。
+22. 补齐 Trianoptiles 全属 3 个接受种（585HD、7CP59、585HF）：逐种核对 COL26.8/WFO 精确映射及 SANBI e-Flora 形态、生境行，并链接 Strelitzia 29 (2012) p.96 账户。T. capensis 有 2013 年南非 NT 国家评估，T. solitaria 有 2015 年 EN 国家评估并单独记录其一处 trnL–trnF 系统发育证据；T. stipitata 保育评估未确认。三种档案均不完整，化石主题未评估。
 
 ## 覆盖含义与尚未完成的内容
 
 “全树可查询、可查看缺口”已经落地；“全树所有物种都有全面科学档案”没有完成。
 逐物种完整档案的固定准入标准见[COL26.8 物种科学档案准入标准](species-dossier-standard.md)。该标准明确七个科学主题、证据与权利记录、未知状态处理以及完整档案和专家评审的独立计量；后续覆盖数字应按该标准生成。
-当前 55 条概述属于有来源的入门介绍，尚不是完整生活史、系统发育、化石、性状、分布、保育与媒体档案。逐主题档案包括红狐、`Ctenium concinnum`、八种 Cullumia、四十八种 Metalasia、十一种 Nivenia、十一种 Thereianthus、十三种 Freesia、十四种 Bobartia、七种新增 Iridaceae、三种 Chasmanthe、三种 Klattia、七种 Micranthus、七种 Codonorhiza、六种 Syringodea、两种 Radinosiphon、一种 Duthiastrum及三种 Cyathocoma，共 146 种；部分主题证据不等于完整档案。完整档案与外部领域专家评审仍为 0。
+当前 55 条概述属于有来源的入门介绍，尚不是完整生活史、系统发育、化石、性状、分布、保育与媒体档案。逐主题档案包括红狐、Ctenium concinnum、八种 Cullumia、四十八种 Metalasia、十一种 Nivenia、十一种 Thereianthus、十三种 Freesia、十四种 Bobartia、七种新增 Iridaceae、三种 Chasmanthe、三种 Klattia、七种 Micranthus、七种 Codonorhiza、六种 Syringodea、两种 Radinosiphon、一种 Duthiastrum、三种 Cyathocoma及三种 Trianoptiles，共 149 种；部分主题证据不等于完整档案。完整档案与外部领域专家评审仍为 0。
 来源字段标签筛查另行报告，不得与“有原文”或“有逐主题证据档案”相加；字段可能缺少段落级定位、范围限定及概念等同性审查。
 这些新概述的计数仅指精确关联到 COL ID 的本层内容；原有 133 份导航档案仍保留在资源包体系内，不能用同名自动合并物种概念。
 
