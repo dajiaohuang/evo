@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "batchId": "crustacea-daphnia-magna-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/crustacea-daphnia-magna-batch-2026-09-24.json",
+    "sha256": "d6c4cf241b0c63cf439a3a7787cc06d402ca1ddba7477d654c3bd944bfb44168"
+  },
+  "duplicateCheck": {
+    "baseHead": "e9b06233",
+    "prNumber": 356,
+    "prHead": "9f52939690ebb480603f5e0de6c3b76004728359",
+    "indexedRecordCount": 6901,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/crustacea-daphnia-magna-2026-09-24.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 5089,
+    "sha256": "226b7c625aa7b4b2290802b6067d97e5ff3358004eeb0d97bc61f67e1f5f42e3"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-crustacea-daphnia-magna-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 5089,
+    "decodedSha256": "226b7c625aa7b4b2290802b6067d97e5ff3358004eeb0d97bc61f67e1f5f42e3",
+    "compressedBytes": 1572,
+    "compressedSha256": "531ccd758756c99c9b95748eb804226f0073d92f71e16263ba4b33997cafbd78",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-crustacea-daphnia-magna-batch.mjs"
+}
