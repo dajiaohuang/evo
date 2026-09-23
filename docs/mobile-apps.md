@@ -15,7 +15,7 @@ assets/logo.svg              # 原生图标和启动图源文件
 dist-mobile/                 # 临时生成的移动客户端壳，不提交
 ```
 
-移动构建关闭 Vite 的默认 `publicDir` 复制，用 `data/pages-preview.json` 固定的核心范围生成 `native-core` 发布版，再按 `release-files.json` 逐文件复制并核对字节数与 SHA-256。finalizer 拒绝全量目录/权威侧车/下载包、错版数据以及超过 384 MiB 的 App 资源。移动版不加入离线 SQL 引擎，也不启动全量发布同步；不允许以提高包体上限来容纳全物种数据。
+移动构建关闭 Vite 的默认 `publicDir` 复制，用 `data/pages-preview.json` 固定的核心范围生成 `native-core` 发布版；GitHub Pages 预览与原生 App 共用这份核心清单，再按 `release-files.json` 逐文件复制并核对字节数与 SHA-256。finalizer 拒绝全量目录/权威侧车/下载包、错版数据以及超过 384 MiB 的 App 资源。移动版不加入离线 SQL 引擎，也不启动全量发布同步；不允许以提高包体上限来容纳全物种数据。
 
 应用 ID 是 `io.github.dajiaohuang.evoatlas`。Android 最低 API 为 24，iOS 最低版本为 15。原生工程使用 Capacitor 8；iOS 插件通过 Swift Package Manager 引入。
 
@@ -23,7 +23,7 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
-当前原生数据边界：精选范围由 `data/pages-preview.json` 固定，生成 4 个核心资源包及选择条目。完整物种注册表和后续全物种档案继续维护在 canonical 数据与服务端/Web 发布中；它们不会进入 Android/iOS 安装包。安装包检查会拒绝完整 COL hierarchy/search、命名来源记录和 ZIP 下载文件，并以 384 MiB 作为硬上限。
+当前原生数据边界：精选范围由 `data/pages-preview.json` 固定，包含 Atlas 核心以及奇蹄目、鲸偶蹄目、恐龙和灵长目四个重点路径；同一份清单定义 GitHub Pages 预览版内容。完整物种注册表和后续全物种档案继续维护在 canonical 数据与服务端/Web 发布中；它们不会进入 Android/iOS 安装包。安装包检查会拒绝完整 COL hierarchy/search、命名来源记录和 ZIP 下载文件，并以 384 MiB 作为硬上限。
 
 以下 `rc*` 条目记录的是历史版本交付事实；其中 `native-full` 描述旧版行为，不代表当前或未来 App 的打包策略。
 
