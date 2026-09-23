@@ -93,8 +93,11 @@ Habitat and Morphology fields point to rows 80373 and 80653, both source ID
 taxon and page citations. The dossier records only paraphrased morphology and
 habitat claims as partial, leaves the other five facets unassessed, and does
 not treat the page-range locator as proof of a globally exhaustive account.
-See `data/knowledge/catalogue-dossiers.json` for the exact identity, source
-versions, rights note, scope and claims.
+See `data/knowledge/catalogue-dossiers.json` and the checksummed
+`data/knowledge/catalogue-dossier-shards.json` index for exact identities,
+source versions, rights notes, scopes and claims. Large source-linked dossier
+batches are stored as Brotli JSONL shards and expanded by the runtime builder;
+the index records decoded and compressed SHA-256 checksums and record counts.
 
 ## RC157–RC158 source triage
 
