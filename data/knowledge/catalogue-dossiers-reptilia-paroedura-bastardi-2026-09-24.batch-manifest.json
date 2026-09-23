@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "batchId": "reptilia-paroedura-bastardi-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/knowledge/raw-dossiers/reptilia-paroedura-bastardi-2026-09-24.jsonl",
+    "bytes": 17014,
+    "sha256": "49a529a95e45dd153d83397e0bb733a13419b726a35f490f05aeb8e39b193018"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-reptilia-paroedura-bastardi-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 2,
+    "decodedBytes": 17014,
+    "decodedSha256": "49a529a95e45dd153d83397e0bb733a13419b726a35f490f05aeb8e39b193018",
+    "compressedBytes": 3304,
+    "compressedSha256": "ff037d92744675d140b8e11351ddb7ea995ce2a6e13d07ca69fcfe1902d6cc3a",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    }
+  },
+  "generator": "scripts/build-reptilia-paroedura-bastardi-batch.mjs"
+}
