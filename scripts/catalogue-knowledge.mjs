@@ -4,13 +4,20 @@ import assert from 'node:assert/strict'
 // no need to retain millions of species nodes in memory while rolling up coverage.
 const DOSSIER_FACETS = ['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation']
 const FACET_STATUSES = ['supported', 'partially-supported', 'searched-no-evidence', 'conflicted', 'not-assessed']
+// Only source-declared field labels with a stable, narrow meaning are projected.
+// Generic "general", "description", "biology", and diagnostic fields stay unmapped.
+const SOURCE_TYPE_FACETS = new Map([
+  ['morphology', 'morphology'], ['Morphology', 'morphology'], ['habit', 'morphology'],
+  ['habitat', 'ecology'], ['Habitat', 'ecology'], ['Ecology', 'ecology'], ['biology_ecology', 'ecology'],
+  ['distribution', 'distribution'],
+])
 
 export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, dossiers = { releaseAlias, records: [] }, nodes }) {
   assert.equal(profiles.releaseAlias, releaseAlias, 'Knowledge profiles must match the catalogue release')
   assert.equal(dossiers.releaseAlias, releaseAlias, 'Species dossiers must match the catalogue release')
   const records = new Map()
   const recordFor = colId => {
-    if (!records.has(colId)) records.set(colId, { colId, descriptionCollections: [] })
+    if (!records.has(colId)) records.set(colId, { colId, descriptionCollections: [], sourceFacetEvidence: [] })
     return records.get(colId)
   }
   for (const [key, rows] of Object.entries(collections)) {
@@ -20,6 +27,11 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
       const record = recordFor(row.colId)
       assert.ok(row.colId, `Missing identity in ${key}`)
       if (!record.descriptionCollections.includes(key)) record.descriptionCollections.push(key)
+      for (const part of row.descriptions ?? [row]) {
+        if (!(typeof part.text === 'string' && part.text.trim())) continue
+        const facet = SOURCE_TYPE_FACETS.get(part.type)
+        if (facet && !record.sourceFacetEvidence.includes(facet)) record.sourceFacetEvidence.push(facet)
+      }
     }
   }
   for (const profile of profiles.records) {
@@ -73,6 +85,7 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
   const direct = new Map()
   const ranks = {}
   const profilesByRank = {}
+  const sourceFacetCounts = Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, 0]))
   let describedSpecies = 0
   let dossierSpecies = 0
   let completeDossierSpecies = 0
@@ -80,13 +93,17 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
   const facetCounts = Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, {}]))
   const add = (id, field, value = 1) => {
     if (!id) return
-    if (!direct.has(id)) direct.set(id, { acceptedSpecies: 0, describedSpecies: 0, profiledSpecies: 0, dossierSpecies: 0, completeDossierSpecies: 0, expertReviewedSpecies: 0, dossierFacets: Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, {}])) })
+    if (!direct.has(id)) direct.set(id, { acceptedSpecies: 0, describedSpecies: 0, profiledSpecies: 0, dossierSpecies: 0, completeDossierSpecies: 0, expertReviewedSpecies: 0, dossierFacets: Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, {}])), sourceFacetEvidenceSpecies: Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, 0])) })
     direct.get(id)[field] += value
   }
   const addFacet = (id, facet, status) => {
     if (!direct.has(id)) add(id, 'acceptedSpecies', 0)
     const counts = direct.get(id).dossierFacets[facet]
     counts[status] = (counts[status] ?? 0) + 1
+  }
+  const addSourceFacet = (id, facet) => {
+    if (!direct.has(id)) add(id, 'acceptedSpecies', 0)
+    direct.get(id).sourceFacetEvidenceSpecies[facet]++
   }
   for (const node of nodes) {
     ranks[node.rank] = (ranks[node.rank] ?? 0) + 1
@@ -121,6 +138,10 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
       add(node.parentId, 'acceptedSpecies')
       if (record?.descriptionCollections.length) add(node.parentId, 'describedSpecies')
       if (record?.profile) add(node.parentId, 'profiledSpecies')
+      if (record?.sourceFacetEvidence.length) for (const facet of record.sourceFacetEvidence) {
+        sourceFacetCounts[facet]++
+        addSourceFacet(node.parentId, facet)
+      }
       if (record?.dossier) {
         add(node.parentId, 'dossierSpecies')
         if (record.dossier.completeness.status === 'complete') add(node.parentId, 'completeDossierSpecies')
@@ -141,11 +162,16 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
     if (completed.has(id)) return records.get(id).subtree
     assert.ok(!visiting.has(id), `Hierarchy cycle at ${id}`)
     visiting.add(id)
-    const total = { acceptedSpecies: 0, describedSpecies: 0, profiledSpecies: 0, dossierSpecies: 0, completeDossierSpecies: 0, expertReviewedSpecies: 0, dossierFacets: Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, {}])), ...direct.get(id) }
+    const total = { acceptedSpecies: 0, describedSpecies: 0, profiledSpecies: 0, dossierSpecies: 0, completeDossierSpecies: 0, expertReviewedSpecies: 0, dossierFacets: Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, {}])), sourceFacetEvidenceSpecies: Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, 0])), ...direct.get(id) }
     for (const childId of children.get(id) ?? []) {
       const child = rollup(childId)
       for (const key of ['acceptedSpecies', 'describedSpecies', 'profiledSpecies', 'dossierSpecies', 'completeDossierSpecies', 'expertReviewedSpecies']) total[key] += child[key]
-      for (const facet of DOSSIER_FACETS) for (const [status, count] of Object.entries(child.dossierFacets[facet])) total.dossierFacets[facet][status] = (total.dossierFacets[facet][status] ?? 0) + count
+      for (const facet of DOSSIER_FACETS) total.sourceFacetEvidenceSpecies[facet] += child.sourceFacetEvidenceSpecies[facet]
+      // "not-assessed" is derived at this node from its accepted-species total.
+      // Summing children's derived gaps here would count them as assessed twice.
+      for (const facet of DOSSIER_FACETS) for (const [status, count] of Object.entries(child.dossierFacets[facet])) {
+        if (status !== 'not-assessed') total.dossierFacets[facet][status] = (total.dossierFacets[facet][status] ?? 0) + count
+      }
     }
     for (const facet of DOSSIER_FACETS) {
       const assessed = Object.values(total.dossierFacets[facet]).reduce((sum, count) => sum + count, 0)
@@ -165,6 +191,6 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
   }
   return {
     records: [...records.values()].map(record => ({ ...record, descriptionCollections: record.descriptionCollections.sort() })).sort((a, b) => a.colId.localeCompare(b.colId)),
-    counts: { hierarchyNodes: Object.values(ranks).reduce((a, b) => a + b, 0), ranks, describedSpecies, profilesByRank, dossierSpecies, completeDossierSpecies, expertReviewedSpecies, dossierFacets: facetCounts },
+    counts: { hierarchyNodes: Object.values(ranks).reduce((a, b) => a + b, 0), ranks, describedSpecies, profilesByRank, sourceFacetEvidenceSpecies: sourceFacetCounts, dossierSpecies, completeDossierSpecies, expertReviewedSpecies, dossierFacets: facetCounts },
   }
 }

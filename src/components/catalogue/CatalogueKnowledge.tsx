@@ -63,6 +63,7 @@ export function CatalogueKnowledge({ record, status, zh }: Props) {
         </details>
       </div>}
       {!!record?.descriptionCollections.length && <p>{zh ? `本条目收录 ${number(record.descriptionCollections.length)} 套来源原文，见下方各来源；地域与年代范围分别保留。` : `${number(record.descriptionCollections.length)} source-text collections are available below, each retaining its geographic and temporal scope.`}</p>}
+      {!!record?.sourceFacetEvidence?.length && <p>{zh ? `来源标签初筛（不代表完整科学证据）：${record.sourceFacetEvidence.map(facet => facetNames[facet] ?? facet).join('、')}。` : `Source-label screening only (not complete scientific evidence): ${record.sourceFacetEvidence.map(facet => facetNames[facet] ?? facet).join(', ')}.`}</p>}
       {!record?.descriptionCollections.length && !subtree && <p>{zh ? '本版未收录此条目的来源原文；这不表示该物种在科学文献中没有研究。' : 'This release has no imported source text for this taxon; this does not mean the species is unstudied.'}</p>}
       {subtree && <div>
         <h3>{zh ? '此分支的实际覆盖' : 'Coverage within this branch'}</h3>
@@ -71,6 +72,7 @@ export function CatalogueKnowledge({ record, status, zh }: Props) {
           <div><dt>{zh ? '有来源原文' : 'With imported source text'}</dt><dd>{number(subtree.describedSpecies)}</dd></div>
           <div><dt>{zh ? '已关联双语概述' : 'Linked bilingual introductions'}</dt><dd>{number(subtree.profiledSpecies)}</dd></div>
           <div><dt>{zh ? '有逐项证据档案' : 'With facet evidence records'}</dt><dd>{number(subtree.dossierSpecies ?? 0)}</dd></div>
+          {Object.entries(subtree.sourceFacetEvidenceSpecies ?? {}).filter(([, count]) => count > 0).map(([facet, count]) => <div key={`source:${facet}`}><dt>{zh ? `${facetNames[facet] ?? facet}：来源明确标注` : `${facetNames[facet] ?? facet}: explicitly labeled source text`}</dt><dd>{number(count)}</dd></div>)}
           <div><dt>{zh ? '完整科学档案' : 'Complete scientific dossiers'}</dt><dd>{number(subtree.completeDossierSpecies ?? 0)}</dd></div>
           <div><dt>{zh ? '外部专家评审' : 'External expert reviews'}</dt><dd>{number(subtree.expertReviewedSpecies ?? 0)}</dd></div>
         </dl>

@@ -1702,14 +1702,16 @@ export interface CatalogueKnowledgeRecord {
     completeDossierSpecies?: number
     expertReviewedSpecies?: number
     dossierFacets?: Record<string, Record<string, number>>
+    sourceFacetEvidenceSpecies?: Record<string, number>
   }
+  sourceFacetEvidence?: string[]
 }
 
 export interface CatalogueRuntimeManifest {
   knowledge?: {
     schemaVersion: 1
     releaseAlias: string
-    counts: { hierarchyNodes: number; ranks: Record<string, number>; describedSpecies: number; profilesByRank: Record<string, number> }
+    counts: { hierarchyNodes: number; ranks: Record<string, number>; describedSpecies: number; profilesByRank: Record<string, number>; sourceFacetEvidenceSpecies?: Record<string, number>; dossierSpecies?: number; completeDossierSpecies?: number; expertReviewedSpecies?: number; dossierFacets?: Record<string, Record<string, number>> }
     routes: Record<string, string[]>
     files: CatalogueRuntimeFile[]
   }
