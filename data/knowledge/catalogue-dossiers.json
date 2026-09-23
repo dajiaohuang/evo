@@ -19686,6 +19686,525 @@
         "reviewers": [],
         "reviewDigest": null
       }
+    },
+    {
+      "colId": "32QTH",
+      "scientificName": "Cyathocoma bachmannii (Kük.) C.Archer",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 32QTH, scientific name, authorship, rank and source dataset 2232 checked against the pinned COL node; WFO 2026-06 crosswalk maps it to wfo-0000367203 by exact accepted name and authorship.",
+        "scope": "Cyathocoma bachmannii (Kük.) C.Archer as represented by COL26.8 usage 32QTH; biological claims retain their cited regional and sampling limits."
+      },
+      "lifeStatusScope": {
+        "wild": "Claims concern wild populations or wild herbarium vouchers within each source's stated regional scope.",
+        "domesticated": "Cultivation is not covered by the cited claims; no domestication claim is made.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/32QTH",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 32QTH",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no biological text copied.",
+          "scope": "Accepted name, authorship, rank, status, and source-dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000367203-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Exact accepted COL 32QTH / WFO wfo-0000367203 crosswalk row",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; not biological evidence."
+        },
+        {
+          "id": "sanbi-archive",
+          "title": "SANBI e-Flora of South Africa description archive, source 13861.0 and 3079.0/18492.0 where listed",
+          "url": "https://files.worldfloraonline.org/Files/South_Africa/dwca-flora_descriptions.zip",
+          "version": "e-Flora archive v1.36, issued 2022-06-06; retrieved 2026-09-05",
+          "locator": "Exact COL/WFO-linked rows: morphology: 83889; habitat: 83680; morphology2019: 90467; habitat2019: 92030",
+          "license": "CC BY 4.0 as stated in archive metadata; attributed and paraphrased.",
+          "scope": "South African flora description fields only; not a global account."
+        },
+        {
+          "id": "strelitzia29",
+          "title": "Archer, C. & Muasya, M. 2012. Cyperaceae. In Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29. SANBI.",
+          "url": "https://www.sanbi.org/sites/default/files/documents/documents/strelitzia-29-2012.pdf",
+          "version": "Published 2012; accessed 2026-09-23",
+          "locator": "Cyathocoma account, printed p. 86; species morphology, flowering period, habitat and range",
+          "license": "SANBI publication; no reuse license asserted here; facts paraphrased and linked.",
+          "scope": "Regional Greater Cape flora account; not a current global range or conservation assessment."
+        },
+        {
+          "id": "strelitzia41",
+          "title": "Archer, C. 2019. Cyperaceae. In A Flora of the Eastern Cape Province. Strelitzia 41(3). SANBI.",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2019_Strelitzia-41_volume_3.pdf",
+          "version": "Published 2019; accessed 2026-09-23",
+          "locator": "Cyperaceae account; linked species morphology and habitat rows retained from e-Flora source 18492.0",
+          "license": "CC BY as stated by the e-Flora citation; attributed and paraphrased.",
+          "scope": "Eastern Cape regional flora evidence only."
+        },
+        {
+          "id": "sanbi-redlist",
+          "title": "von Staden, L. 2013. Cyathocoma bachmannii. SANBI Red List of South African Plants, version 2024.1.",
+          "url": "https://redlist.sanbi.org/species.php?species=5197-3",
+          "version": "Assessment dated 2013-07-23; page accessed 2026-09-23",
+          "locator": "National status, criteria, justification, distribution, habitat and population trend",
+          "license": "SANBI Red List page; page-specific reuse terms not established here; facts paraphrased and linked.",
+          "scope": "South African national conservation assessment, not a global status."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional flora describes a slenderly tufted perennial sedge 0.3–0.5 m tall, with inrolled leaves, a narrow panicle and brown spikelets. Its detailed species description also records the achene, style base and six bristle-like perianth segments.",
+              "textZh": "区域植物志对该接受种的形态记载：The regional flora describes a slenderly tufted perennial sedge 0.3–0.5 m tall, with inrolled leaves, a narrow panicle and brown spikelets. Its detailed species description also records the achene, style base and six bristle-like perianth segments.",
+              "sourceIds": [
+                "sanbi-archive",
+                "strelitzia29"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 86; SANBI e-Flora rows morphology: 83889; habitat: 83680; morphology2019: 90467; habitat2019: 92030",
+              "placeTimeScope": "Southern African regional flora evidence; descriptive scope is limited to the cited species account and archive fields.",
+              "lifeStatus": "Wild flora description; cultivated material is not covered."
+            }
+          ],
+          "gaps": [
+            "Regional descriptions are partial; no scope-complete review of morphology has been completed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The 2019 Eastern Cape flora lists flowering in March, July and August; this is a regional flora observation and does not establish a complete range-wide flowering season.",
+              "textZh": "区域植物志记录：The 2019 Eastern Cape flora lists flowering in March, July and August; this is a regional flora observation and does not establish a complete range-wide flowering season.",
+              "sourceIds": [
+                "strelitzia29",
+                "strelitzia41"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 86; where noted, Strelitzia 41(3) (2019) Eastern Cape account",
+              "placeTimeScope": "Published regional flora observation; not a complete current or global life-history study.",
+              "lifeStatus": "Wild flora evidence; cultivation is not covered."
+            }
+          ],
+          "gaps": [
+            "Flowering time alone does not establish a full life cycle, reproductive biology or scope-complete life-history account."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The 1997 species account describes wet to damp heavy black soils beside streamlets or small isolated vleis in freshwater drainage systems. The 2019 Eastern Cape flora separately records marshy grassland in the Indian Ocean Coastal Belt.",
+              "textZh": "区域植物志的生境记录：The 1997 species account describes wet to damp heavy black soils beside streamlets or small isolated vleis in freshwater drainage systems. The 2019 Eastern Cape flora separately records marshy grassland in the Indian Ocean Coastal Belt.",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora habitat rows 83680 and 92030",
+              "placeTimeScope": "Regional South African habitat descriptions; not a global ecological niche assessment.",
+              "lifeStatus": "Wild habitat evidence; cultivation is not covered."
+            }
+          ],
+          "gaps": [
+            "Regional habitat statements are partial; ecological interactions and a scope-complete ecology review remain unassessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "SANBI's national assessment reports this South African endemic from Eastern Cape and KwaZulu-Natal, ranging from Maputaland to Port St Johns. This is the scope of that regional assessment, not a global occurrence inventory.",
+              "textZh": "区域分布记录：SANBI's national assessment reports this South African endemic from Eastern Cape and KwaZulu-Natal, ranging from Maputaland to Port St Johns. This is the scope of that regional assessment, not a global occurrence inventory.",
+              "sourceIds": [
+                "strelitzia29",
+                "sanbi-redlist"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 86; where specified, SANBI Red List distribution fields",
+              "placeTimeScope": "Regional flora or national assessment scope as stated by the source; not a current global occurrence inventory.",
+              "lifeStatus": "Wild native-range evidence; cultivation and introduced populations are not covered."
+            }
+          ],
+          "gaps": [
+            "Regional distribution evidence is partial; a current, scope-complete global range review has not been completed."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "SANBI's national assessment assigns Vulnerable B2ab(iii,v), assessed 2013-07-23. Its assessment reports an estimated AOO below 200 km², five known locations (suspected up to ten), and ongoing decline from habitat loss and degradation. This is a South African national assessment, not a global status.",
+              "textZh": "SANBI 国家评估将该种列为易危（VU B2ab(iii,v)）；评估日期为 2013-07-23。其说明记录 AOO 估计低于 200 km²、已知 5 个地点（推测最多 10 个），并指出栖地丧失与退化造成持续下降。该结论限于南非国家评估，不代表全球等级。",
+              "sourceIds": [
+                "sanbi-redlist"
+              ],
+              "locator": "SANBI Red List, national status and criteria; assessment date 2013-07-23; justification",
+              "placeTimeScope": "South African national assessment dated 2013; the estimate and trend are assessment-era values, not current census results.",
+              "lifeStatus": "Wild South African populations; domesticated or cultivated plants are outside the assessment."
+            }
+          ],
+          "gaps": [
+            "The cited assessment is regional and dated; no current global conservation assessment has been established in this dossier."
+          ]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Regional evidence is partial; one or more of evolution, fossil occurrence or conservation remain unassessed, and no global scope-complete synthesis has been completed.",
+          "No reproducible global literature and occurrence review, fossil review, or external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      }
+    },
+    {
+      "colId": "32QTJ",
+      "scientificName": "Cyathocoma ecklonii Nees",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 32QTJ, scientific name, authorship, rank and source dataset 2232 checked against the pinned COL node; WFO 2026-06 crosswalk maps it to wfo-0000367207 by exact accepted name and authorship.",
+        "scope": "Cyathocoma ecklonii Nees as represented by COL26.8 usage 32QTJ; biological claims retain their cited regional and sampling limits."
+      },
+      "lifeStatusScope": {
+        "wild": "Claims concern wild populations or wild herbarium vouchers within each source's stated regional scope.",
+        "domesticated": "Cultivation is not covered by the cited claims; no domestication claim is made.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/32QTJ",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 32QTJ",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no biological text copied.",
+          "scope": "Accepted name, authorship, rank, status, and source-dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000367207-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Exact accepted COL 32QTJ / WFO wfo-0000367207 crosswalk row",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; not biological evidence."
+        },
+        {
+          "id": "sanbi-archive",
+          "title": "SANBI e-Flora of South Africa description archive, source 13861.0 and 3079.0/18492.0 where listed",
+          "url": "https://files.worldfloraonline.org/Files/South_Africa/dwca-flora_descriptions.zip",
+          "version": "e-Flora archive v1.36, issued 2022-06-06; retrieved 2026-09-05",
+          "locator": "Exact COL/WFO-linked rows: morphology: 9258; habitat: 27183",
+          "license": "CC BY 4.0 as stated in archive metadata; attributed and paraphrased.",
+          "scope": "South African flora description fields only; not a global account."
+        },
+        {
+          "id": "strelitzia29",
+          "title": "Archer, C. & Muasya, M. 2012. Cyperaceae. In Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29. SANBI.",
+          "url": "https://www.sanbi.org/sites/default/files/documents/documents/strelitzia-29-2012.pdf",
+          "version": "Published 2012; accessed 2026-09-23",
+          "locator": "Cyathocoma account, printed p. 86; species morphology, flowering period, habitat and range",
+          "license": "SANBI publication; no reuse license asserted here; facts paraphrased and linked.",
+          "scope": "Regional Greater Cape flora account; not a current global range or conservation assessment."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional flora describes a robust perennial to 1.25 m with pale yellow-brown spikelets.",
+              "textZh": "区域植物志对该接受种的形态记载：The regional flora describes a robust perennial to 1.25 m with pale yellow-brown spikelets.",
+              "sourceIds": [
+                "sanbi-archive",
+                "strelitzia29"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 86; SANBI e-Flora rows morphology: 9258; habitat: 27183",
+              "placeTimeScope": "Southern African regional flora evidence; descriptive scope is limited to the cited species account and archive fields.",
+              "lifeStatus": "Wild flora description; cultivated material is not covered."
+            }
+          ],
+          "gaps": [
+            "Regional descriptions are partial; no scope-complete review of morphology has been completed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The species account gives a flowering period of November–April.",
+              "textZh": "区域植物志记录：The species account gives a flowering period of November–April.",
+              "sourceIds": [
+                "strelitzia29"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 86; where noted, Strelitzia 41(3) (2019) Eastern Cape account",
+              "placeTimeScope": "Published regional flora observation; not a complete current or global life-history study.",
+              "lifeStatus": "Wild flora evidence; cultivation is not covered."
+            }
+          ],
+          "gaps": [
+            "Flowering time alone does not establish a full life cycle, reproductive biology or scope-complete life-history account."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The species account records seeps on mountain slopes below 1,500 m.",
+              "textZh": "区域植物志的生境记录：The species account records seeps on mountain slopes below 1,500 m.",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora habitat rows 27183",
+              "placeTimeScope": "Regional South African habitat descriptions; not a global ecological niche assessment.",
+              "lifeStatus": "Wild habitat evidence; cultivation is not covered."
+            }
+          ],
+          "gaps": [
+            "Regional habitat statements are partial; ecological interactions and a scope-complete ecology review remain unassessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The species account gives the regional range as Cedarberg to Tulbagh in northwestern and southwestern Cape regions; this is not a global occurrence inventory.",
+              "textZh": "区域分布记录：The species account gives the regional range as Cedarberg to Tulbagh in northwestern and southwestern Cape regions; this is not a global occurrence inventory.",
+              "sourceIds": [
+                "strelitzia29"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 86; where specified, SANBI Red List distribution fields",
+              "placeTimeScope": "Regional flora or national assessment scope as stated by the source; not a current global occurrence inventory.",
+              "lifeStatus": "Wild native-range evidence; cultivation and introduced populations are not covered."
+            }
+          ],
+          "gaps": [
+            "Regional distribution evidence is partial; a current, scope-complete global range review has not been completed."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Regional evidence is partial; one or more of evolution, fossil occurrence or conservation remain unassessed, and no global scope-complete synthesis has been completed.",
+          "No reproducible global literature and occurrence review, fossil review, or external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      }
+    },
+    {
+      "colId": "32QTK",
+      "scientificName": "Cyathocoma hexandra (Nees) Browning",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 32QTK, scientific name, authorship, rank and source dataset 2232 checked against the pinned COL node; WFO 2026-06 crosswalk maps it to wfo-0000367214 by exact accepted name and authorship.",
+        "scope": "Cyathocoma hexandra (Nees) Browning as represented by COL26.8 usage 32QTK; biological claims retain their cited regional and sampling limits."
+      },
+      "lifeStatusScope": {
+        "wild": "Claims concern wild populations or wild herbarium vouchers within each source's stated regional scope.",
+        "domesticated": "Cultivation is not covered by the cited claims; no domestication claim is made.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/32QTK",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 32QTK",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no biological text copied.",
+          "scope": "Accepted name, authorship, rank, status, and source-dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000367214-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Exact accepted COL 32QTK / WFO wfo-0000367214 crosswalk row",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; not biological evidence."
+        },
+        {
+          "id": "sanbi-archive",
+          "title": "SANBI e-Flora of South Africa description archive, source 13861.0 and 3079.0/18492.0 where listed",
+          "url": "https://files.worldfloraonline.org/Files/South_Africa/dwca-flora_descriptions.zip",
+          "version": "e-Flora archive v1.36, issued 2022-06-06; retrieved 2026-09-05",
+          "locator": "Exact COL/WFO-linked rows: morphology: 12241; habitat: 27184; morphology2019: 90468; habitat2019: 92031",
+          "license": "CC BY 4.0 as stated in archive metadata; attributed and paraphrased.",
+          "scope": "South African flora description fields only; not a global account."
+        },
+        {
+          "id": "strelitzia29",
+          "title": "Archer, C. & Muasya, M. 2012. Cyperaceae. In Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29. SANBI.",
+          "url": "https://www.sanbi.org/sites/default/files/documents/documents/strelitzia-29-2012.pdf",
+          "version": "Published 2012; accessed 2026-09-23",
+          "locator": "Cyathocoma account, printed p. 86; species morphology, flowering period, habitat and range",
+          "license": "SANBI publication; no reuse license asserted here; facts paraphrased and linked.",
+          "scope": "Regional Greater Cape flora account; not a current global range or conservation assessment."
+        },
+        {
+          "id": "strelitzia41",
+          "title": "Archer, C. 2019. Cyperaceae. In A Flora of the Eastern Cape Province. Strelitzia 41(3). SANBI.",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2019_Strelitzia-41_volume_3.pdf",
+          "version": "Published 2019; accessed 2026-09-23",
+          "locator": "Cyperaceae account; linked species morphology and habitat rows retained from e-Flora source 18492.0",
+          "license": "CC BY as stated by the e-Flora citation; attributed and paraphrased.",
+          "scope": "Eastern Cape regional flora evidence only."
+        },
+        {
+          "id": "verboom2006",
+          "title": "Verboom, G.A. 2006. A phylogeny of the schoenoid sedges (Cyperaceae: Schoeneae) based on plastid DNA sequences, with special reference to the genera found in Africa. Molecular Phylogenetics and Evolution 38: 79–89.",
+          "url": "https://doi.org/10.1016/j.ympev.2005.05.012",
+          "version": "Published 2006; accessed 2026-09-23",
+          "locator": "Table 2 (p. 82), Figs. 1–2 (pp. 85–86), and discussion (pp. 86–87)",
+          "license": "Copyright Elsevier; no reuse license declared. Facts paraphrased; article text and figures are not redistributed.",
+          "scope": "Three plastid loci and sampled herbarium voucher Verboom 648; the study samples only C. hexandra from this three-species genus."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional flora describes a robust perennial 50–150 cm tall with dark red spikelets. Its 2019 Eastern Cape treatment further describes stout, shortly rhizomatous plants and a compact panicle.",
+              "textZh": "区域植物志对该接受种的形态记载：The regional flora describes a robust perennial 50–150 cm tall with dark red spikelets. Its 2019 Eastern Cape treatment further describes stout, shortly rhizomatous plants and a compact panicle.",
+              "sourceIds": [
+                "sanbi-archive",
+                "strelitzia29"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 86; SANBI e-Flora rows morphology: 12241; habitat: 27184; morphology2019: 90468; habitat2019: 92031",
+              "placeTimeScope": "Southern African regional flora evidence; descriptive scope is limited to the cited species account and archive fields.",
+              "lifeStatus": "Wild flora description; cultivated material is not covered."
+            }
+          ],
+          "gaps": [
+            "Regional descriptions are partial; no scope-complete review of morphology has been completed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The 2012 regional flora gives August–March; the 2019 Eastern Cape flora gives August–November. These source-specific intervals are retained without treating either as a complete global season.",
+              "textZh": "区域植物志记录：The 2012 regional flora gives August–March; the 2019 Eastern Cape flora gives August–November. These source-specific intervals are retained without treating either as a complete global season.",
+              "sourceIds": [
+                "strelitzia29",
+                "strelitzia41"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 86; where noted, Strelitzia 41(3) (2019) Eastern Cape account",
+              "placeTimeScope": "Published regional flora observation; not a complete current or global life-history study.",
+              "lifeStatus": "Wild flora evidence; cultivation is not covered."
+            }
+          ],
+          "gaps": [
+            "Flowering time alone does not establish a full life cycle, reproductive biology or scope-complete life-history account."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional flora records marshes and watercourses on mountain slopes below 800 m. The 2019 Eastern Cape treatment separately describes marshy places at low altitude in Eastern Fynbos–Renosterveld.",
+              "textZh": "区域植物志的生境记录：The regional flora records marshes and watercourses on mountain slopes below 800 m. The 2019 Eastern Cape treatment separately describes marshy places at low altitude in Eastern Fynbos–Renosterveld.",
+              "sourceIds": [
+                "sanbi-archive"
+              ],
+              "locator": "SANBI e-Flora habitat rows 27184 and 92031",
+              "placeTimeScope": "Regional South African habitat descriptions; not a global ecological niche assessment.",
+              "lifeStatus": "Wild habitat evidence; cultivation is not covered."
+            }
+          ],
+          "gaps": [
+            "Regional habitat statements are partial; ecological interactions and a scope-complete ecology review remain unassessed."
+          ]
+        },
+        "evolution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Verboom's plastid-DNA study sampled C. hexandra (voucher Verboom 648, BOL; sequences for trnL–trnF, rbcL and rps16). In the study's phylogeny, sampled Cyathocoma and Capeobolus were sister taxa within the largely extra-African Oreobolus clade. This is a result for the sampled taxon and study tree, not a species-wide genomic history or a divergence-time estimate.",
+              "textZh": "一项叶绿体 DNA 系统发育研究仅采样了本属的 C. hexandra，记录其在该研究树中的位置；这不是全基因组或分歧时间研究。",
+              "sourceIds": [
+                "verboom2006"
+              ],
+              "locator": "Verboom 2006, Table 2 p. 82; Figs. 1–2 pp. 85–86; discussion pp. 86–87",
+              "placeTimeScope": "One 2006 plastid-DNA phylogenetic study, one sampled species and voucher; no divergence date is inferred.",
+              "lifeStatus": "Wild voucher-based molecular evidence."
+            }
+          ],
+          "gaps": [
+            "One sampled species and one plastid study do not establish a complete species-level evolutionary history or genome-wide relationships."
+          ]
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional flora gives Cape Peninsula to Humansdorp in southwestern, Agulhas Plain, Langeberg and southeastern Cape regions. This is not a global occurrence inventory.",
+              "textZh": "区域分布记录：The regional flora gives Cape Peninsula to Humansdorp in southwestern, Agulhas Plain, Langeberg and southeastern Cape regions. This is not a global occurrence inventory.",
+              "sourceIds": [
+                "strelitzia29"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 86; where specified, SANBI Red List distribution fields",
+              "placeTimeScope": "Regional flora or national assessment scope as stated by the source; not a current global occurrence inventory.",
+              "lifeStatus": "Wild native-range evidence; cultivation and introduced populations are not covered."
+            }
+          ],
+          "gaps": [
+            "Regional distribution evidence is partial; a current, scope-complete global range review has not been completed."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Regional evidence is partial; one or more of evolution, fossil occurrence or conservation remain unassessed, and no global scope-complete synthesis has been completed.",
+          "No reproducible global literature and occurrence review, fossil review, or external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      }
     }
   ]
 }
