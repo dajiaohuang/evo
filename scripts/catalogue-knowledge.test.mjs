@@ -17,12 +17,23 @@ test('rolls up every branch without inventing absent ranks or double-counting so
     dossierSpecies: 0,
     completeDossierSpecies: 0,
     expertReviewedSpecies: 0,
+    sourceFacetEvidenceSpecies: Object.fromEntries(['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation'].map(facet => [facet, 0])),
     dossierFacets: Object.fromEntries(['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation'].map(facet => [facet, { 'not-assessed': 2 }])),
   })
   expect(result.records.find(row => row.colId === 'order').subtree.acceptedSpecies).toBe(1)
   expect(result.records.find(row => row.colId === 'a').descriptionCollections).toEqual(['oneDescriptions', 'twoDescriptions'])
   expect(result.records.some(row => row.colId === 'b')).toBe(false)
   expect(result.counts.describedSpecies).toBe(1)
+})
+
+test('counts only explicit narrow source labels once per taxon and facet', () => {
+  const result = build([node('root', 'kingdom'), node('a', 'species', 'root')], {
+    firstDescriptions: [{ colId: 'a', descriptions: [{ type: 'Morphology', text: 'form' }, { type: 'general', text: 'general account' }, { type: 'habitat', text: 'forest' }] }],
+    secondDescriptions: [{ colId: 'a', descriptions: [{ type: 'morphology', text: 'form again' }, { type: 'Ecology', text: 'forest again' }] }],
+  })
+  expect(result.counts.sourceFacetEvidenceSpecies).toMatchObject({ morphology: 1, ecology: 1, distribution: 0 })
+  expect(result.records.find(row => row.colId === 'root').subtree.sourceFacetEvidenceSpecies).toMatchObject({ morphology: 1, ecology: 1 })
+  expect(result.records.find(row => row.colId === 'a').sourceFacetEvidence).toEqual(['morphology', 'ecology'])
 })
 
 test('fails a wrong release, dangling content identity and cyclic tree', () => {

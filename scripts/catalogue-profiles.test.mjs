@@ -32,7 +32,16 @@ test('the Perissodactyla pilot covers the real pinned order, every family, genus
   expect(pilot.records.map(row => row.colId).sort()).toEqual(expected.map(row => row.id).sort())
   const result = buildCatalogueKnowledge({ releaseAlias: manifest.releaseAlias, collections: {}, profiles: pilot, nodes })
   expect(result.counts.profilesByRank).toEqual({ order: 1, family: 3, genus: 8, species: 19 })
-  expect(result.records.find(row => row.colId === order.id).subtree).toEqual({ acceptedSpecies: 19, describedSpecies: 0, profiledSpecies: 19 })
+  expect(result.records.find(row => row.colId === order.id).subtree).toEqual({
+    acceptedSpecies: 19,
+    describedSpecies: 0,
+    profiledSpecies: 19,
+    dossierSpecies: 0,
+    completeDossierSpecies: 0,
+    expertReviewedSpecies: 0,
+    sourceFacetEvidenceSpecies: Object.fromEntries(['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation'].map(facet => [facet, 0])),
+    dossierFacets: Object.fromEntries(['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation'].map(facet => [facet, { 'not-assessed': 19 }])),
+  })
 }, 20000)
 
 test('every introduction resolves to its exact pinned identity and citations, including unassigned source IDs', () => {
