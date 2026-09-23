@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "releaseAlias": "COL26.8",
+  "batchId": "crustacea-daphnia-magna-2026-09-24",
+  "scope": "One source-linked, incomplete Crustacea species dossier. The batch records one bounded laboratory reproductive observation; it is not a complete species account or systematic review.",
+  "duplicateAudit": {
+    "baseHead": "e9b06233",
+    "prNumber": 356,
+    "prHead": "9f52939690ebb480603f5e0de6c3b76004728359",
+    "checkedIndexRecords": 6901,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "records": [
+    {
+      "colId": "6CCSV",
+      "scientificName": "Daphnia (Ctenodaphnia) magna Straus, 1820",
+      "authorship": "Straus, 1820",
+      "rank": "species",
+      "sourceDatasetId": "1138",
+      "checkedAt": "2026-09-24",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage, verbatim scientific name including subgenus, authorship, rank, status, source dataset and higher classification verified against the pinned registry search record.",
+        "scope": "Nominal species as represented by COL26.8 usage 6CCSV. The cited laboratory study uses a cultured stock from the National Institute of Environmental Research, Korea, and does not compare populations or establish a complete species concept.",
+        "sourceIds": ["col"]
+      },
+      "lifeStatusScope": {
+        "wild": "Wild population ecology and life history have not been assessed; the biological claim is from laboratory-cultured animals.",
+        "domesticated": "Domestication has not been assessed; laboratory culture is not treated as domestication.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1138",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/6CCSV",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "stableId": "col:6CCSV@COL26.8",
+          "publishedAt": "2026-08-20",
+          "accessedAt": "2026-09-24",
+          "locator": "Accepted species usage 6CCSV; verbatim scientificName Daphnia (Ctenodaphnia) magna Straus, 1820; sourceDatasetId 1138; classification includes Animalia, Arthropoda, Branchiopoda",
+          "license": "CC BY 4.0 nomenclatural metadata; no checklist text reused",
+          "licenseAssessment": "identity-only",
+          "scope": "Identity only: accepted name, authorship, rank, status, sourceDatasetId and classification in the pinned COL26.8 registry.",
+          "rightsHolder": "Catalogue of Life Foundation",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Pinned nomenclatural and taxonomic checklist metadata only.",
+          "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 6CCSV. https://doi.org/10.48580/dgywk"
+        },
+        {
+          "id": "lee2019",
+          "title": "Lee et al. (2019), Live observation of the oviposition process in Daphnia magna",
+          "url": "https://doi.org/10.1371/journal.pone.0224388",
+          "version": "PLOS ONE 14(11), e0224388; version of record published 2019-11-04",
+          "stableId": "doi:10.1371/journal.pone.0224388",
+          "publishedAt": "2019-11-04",
+          "accessedAt": "2026-09-24",
+          "locator": "Results, 'Formation of the vitelline envelope in parthenogenetic eggs'; Fig. 4B; Discussion",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), as stated in article copyright notice and PLOS licensing terms",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Microscopy study of cultured Daphnia magna obtained from the National Institute of Environmental Research, Incheon, Korea; claim is restricted to parthenogenetic eggs observed under the study conditions. No figures, images or supporting media are reused.",
+          "rightsHolder": "The authors, who retain copyright under the PLOS article license.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Article text under the article's CC BY 4.0 notice; separately credited third-party material is excluded. Only the result is paraphrased here.",
+          "attribution": "Lee D, Nah JS, Yoon J, Kim W, Rhee K (2019). Live observation of the oviposition process in Daphnia magna. PLOS ONE 14(11): e0224388. https://doi.org/10.1371/journal.pone.0224388. Claim paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {"status": "not-assessed"},
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "In the laboratory study, vitelline-envelope formation in parthenogenetic Daphnia magna eggs began about 20 minutes after oviposition and took about 20 minutes to complete.",
+              "sourceIds": ["lee2019"],
+              "locator": "Results, 'Formation of the vitelline envelope in parthenogenetic eggs'; Fig. 4B; Discussion",
+              "placeTimeScope": "Cultured animals obtained from the National Institute of Environmental Research, Incheon, Korea; study published in 2019. Timing applies to the observed laboratory parthenogenetic eggs.",
+              "lifeStatus": "Observed in cultured, parthenogenetic females and eggs under the reported laboratory conditions; not generalized to wild populations or other egg types.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["The study does not establish variation among genotypes, populations, environments or other reproductive modes, and does not provide a complete life-history account."]
+        },
+        "ecology": {"status": "not-assessed"},
+        "evolution": {"status": "not-assessed"},
+        "distribution": {"status": "not-assessed"},
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": ["Only one laboratory reproductive observation was assessed; six facets remain not-assessed.", "The source is not a systematic review or complete account of the COL26.8 species concept.", "No independent expert review has been completed."]
+      },
+      "expertReview": {"status": "not-reviewed"}
+    }
+  ]
+}
