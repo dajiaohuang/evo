@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "batchId": "fungi-model-yeasts-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "recordCount": 2,
+  "colIds": [
+    "4TWCR",
+    "4VCRL"
+  ],
+  "duplicateAudit": {
+    "mainCommit": "e9b06233046733050f980d267573b25c0058a1ef",
+    "openPullRequest": 356,
+    "openPullRequestHead": "9f52939690ebb480603f5e0de6c3b76004728359",
+    "candidateIdsChecked": [
+      "4TWCR",
+      "4VCRL"
+    ],
+    "result": "Neither candidate COL ID occurred under data/knowledge or data/sources on main or PR #356."
+  },
+  "files": {
+    "source": {
+      "path": "data/sources/fungi-model-yeasts-dossier-batch-2026-09-24.json",
+      "sha256": "d039f363e377bcc73a4c5aa7768d4290e2dfffe5d9bf1115dd7e5152ca13c66a"
+    },
+    "rawJsonl": {
+      "path": "data/knowledge/raw-dossiers/fungi-model-yeasts-dossier-batch-2026-09-24.jsonl",
+      "sha256": "a7ef57184c1845cb2944ae8c34b82484a32cccc21b1e612be09e1df8cd3d7f82",
+      "bytes": 14422,
+      "lineEnding": "LF"
+    },
+    "shard": {
+      "path": "data/knowledge/catalogue-dossiers-fungi-model-yeasts-dossier-batch-2026-09-24.jsonl.br",
+      "decodedSha256": "a7ef57184c1845cb2944ae8c34b82484a32cccc21b1e612be09e1df8cd3d7f82",
+      "compressedSha256": "65c0b057893f1f2f117c2c53f3bc2949fcc607d72d2b096330015171d395dbb1",
+      "decodedBytes": 14422,
+      "compressedBytes": 3332
+    },
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  }
+}
