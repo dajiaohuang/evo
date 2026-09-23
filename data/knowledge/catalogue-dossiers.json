@@ -16148,6 +16148,15 @@
           "locator": "Morphological description, habitat, distribution, flowering time, altitude and SANBI status sections; claims retain the underlying flora citation displayed by SANBI.",
           "license": "The entry attributes the flora-derived description to SANBI Strelitzia 42 and marks it CC BY; facts are paraphrased with attribution and no page text or images are redistributed.",
           "scope": "Regional southern African flora account for the named taxon; not a global synthesis, full occurrence review or population assessment."
+        },
+        {
+          "id": "sanbi-redlist",
+          "title": "SANBI Threatened Species Programme, Red List of South African Plants, Duthiastrum linifolium assessment record",
+          "url": "https://redlist.sanbi.org/species.php?species=1529-1",
+          "version": "National assessment dated 2005-06-30; page identifies Red List version 2024.1 and accessed 2026-09-23",
+          "locator": "Assessment date and justification; assessment history entry under Duthiastrum linifolium; taxon heading uses the variant spelling Duthieastrum linifolium",
+          "license": "No reuse license stated on the assessment page; status facts are paraphrased and no text or image is redistributed.",
+          "scope": "South African national assessment record only. The page says Least Concern was assigned automatically after screening and was not a detailed assessment; not a current reassessment or global status."
         }
       ],
       "facets": {
@@ -16209,7 +16218,20 @@
           "gaps": ["A dated, specimen-backed range review across the full native and any introduced range has not been completed."]
         },
         "fossil": {"status": "not-assessed"},
-        "conservation": {"status": "not-assessed"}
+        "conservation": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "SANBI's South African Red List page records a 2005-06-30 national assessment as Least Concern. The page states that this was an automated status assigned after the taxon was not selected for detailed assessment; its assessment history lists Duthiastrum linifolium, although the current page heading uses the spelling Duthieastrum. This is historical national evidence, not a current detailed or global assessment.",
+              "textZh": "SANBI 南非红色名录页面记录该物种于 2005-06-30 的国家评估状态为无危（LC）。页面说明该等级是在该分类单元未被筛选进入详细评估后自动赋予；评估历史将其列作 Duthiastrum linifolium，但当前页面标题拼作 Duthieastrum。本记录是历史国家层级证据，不是当前详细评估或全球评估。",
+              "sourceIds": ["sanbi-redlist"],
+              "locator": "SANBI Red List assessment page, assessment date, automated-status justification and assessment history spelling Duthiastrum linifolium",
+              "placeTimeScope": "South African national scope; assessment date 2005-06-30, surfaced on Red List version 2024.1; not a global range assessment.",
+              "lifeStatus": "Assessment concerns the wild national taxon; domesticated or cultivated populations are not assessed."
+            }
+          ],
+          "gaps": ["The cited LC entry was assigned automatically rather than through detailed assessment; current population evidence and global conservation status remain unreviewed."]
+        }
       },
       "completeness": {
         "status": "incomplete",
