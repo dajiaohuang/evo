@@ -9,6 +9,12 @@
   "generator": "scripts/build-aves-model-conservation-dossier-batch.mjs",
   "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
   "sourceSha256": "d8e147aa8026b26a536aea963f2d1136e3f6113512fbcde79a631d1c012b48d1",
+  "validation": {
+    "brotliRoundTrip": "passed",
+    "roundTripDecodedByteLength": 12083,
+    "roundTripDecodedSha256": "6c0536165925626bcc3b3f127c51b22337a43cb1edb5dcab40f25c72aea2ba15",
+    "byteForByteMatchesSourceJsonl": true
+  },
   "output": {
     "path": "data/knowledge/catalogue-dossiers-aves-model-conservation-batch-2026-09-24.jsonl.br",
     "encoding": "brotli-jsonl",

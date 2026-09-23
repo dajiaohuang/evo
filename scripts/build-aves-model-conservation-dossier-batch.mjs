@@ -123,6 +123,8 @@ const decodedBytes = Buffer.from(`${records.map(record => JSON.stringify(record)
 const compressedBytes = brotliCompressSync(decodedBytes, {
   params: { [zlibConstants.BROTLI_PARAM_MODE]: zlibConstants.BROTLI_MODE_TEXT, [zlibConstants.BROTLI_PARAM_QUALITY]: 11 },
 })
+const roundTripBytes = brotliDecompressSync(compressedBytes)
+assert.deepEqual(roundTripBytes, decodedBytes, 'Brotli shard must decompress byte-for-byte to the source JSONL serialization')
 writeFileSync(OUTPUT_PATH, compressedBytes)
 const manifest = {
   schemaVersion: 1,
@@ -135,6 +137,12 @@ const manifest = {
   generator: 'scripts/build-aves-model-conservation-dossier-batch.mjs',
   registryManifestSha256: sha256(registryManifestBytes),
   sourceSha256: sha256(inputBytes),
+  validation: {
+    brotliRoundTrip: 'passed',
+    roundTripDecodedByteLength: roundTripBytes.length,
+    roundTripDecodedSha256: sha256(roundTripBytes),
+    byteForByteMatchesSourceJsonl: true,
+  },
   output: {
     path: 'data/knowledge/catalogue-dossiers-aves-model-conservation-batch-2026-09-24.jsonl.br',
     encoding: 'brotli-jsonl',
@@ -145,4 +153,4 @@ const manifest = {
   records: records.map(record => ({ colId: record.colId, scientificName: record.scientificName, rank: record.rank, sourceDatasetId: record.sourceDatasetId })),
 }
 writeFileSync(MANIFEST_PATH, `${JSON.stringify(manifest, null, 2)}\n`)
-console.log(JSON.stringify({ output: manifest.output.path, manifest: 'data/knowledge/catalogue-dossiers-aves-model-conservation-batch-2026-09-24.batch-manifest.json', count: records.length, colIds: records.map(record => record.colId), decodedSha256: manifest.output.decodedSha256, compressedSha256: manifest.output.compressedSha256 }, null, 2))
+console.log(JSON.stringify({ output: manifest.output.path, manifest: 'data/knowledge/catalogue-dossiers-aves-model-conservation-batch-2026-09-24.batch-manifest.json', count: records.length, colIds: records.map(record => record.colId), roundTrip: manifest.validation, decodedSha256: manifest.output.decodedSha256, compressedSha256: manifest.output.compressedSha256 }, null, 2))
