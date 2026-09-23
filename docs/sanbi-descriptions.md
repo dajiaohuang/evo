@@ -96,6 +96,29 @@ not treat the page-range locator as proof of a globally exhaustive account.
 See `data/knowledge/catalogue-dossiers.json` for the exact identity, source
 versions, rights note, scope and claims.
 
+## RC157 source triage
+
+A reproducible metadata screen found 4,973 distinct COL taxa / 6,168
+source-ID pairs where the imported SANBI record has both Morphology and
+Habitat rows with the same exact citation string and a parsed page range no
+longer than four pages. This is a triage queue only: it does not verify the
+publication's concept against COL, item-level rights, the exact passage, or
+whether the text supports a complete dossier facet. These pairs must not be
+counted as reviewed claims or completed species.
+
+One exact one-page account was inspected directly: COL `32DNH`, *Cullumia
+cirsioides* DC., maps to WFO `wfo-0000077220` by the pinned 2026-06 exact
+accepted-name-and-authorship crosswalk. Manning & Goldblatt's 2012 *Strelitzia
+29* account is on p. 367; archive rows 11352 and 25918 share source ID
+`14129.0` and the same citation. The account supports partial morphology,
+flowering period, sandstone-slope habitat and a southeastern Cape locality
+summary. The dossier retains those narrow regional scopes, leaves evolution,
+fossil and conservation unassessed, and does not infer native status. The
+official [SANBI Strelitzia 29 PDF](https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf)
+was checked at the cited account. The archive EML declares CC BY 4.0, but the
+individual publication's license version has not been independently
+inspected; only attributed paraphrases are recorded.
+
 ## Runtime delivery
 
 Full-Web data generation emits 256 SHA-256 COL-ID-prefix shards, keeping each

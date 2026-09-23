@@ -308,6 +308,121 @@
         ]
       },
       "expertReview": { "status": "not-reviewed" }
+    },
+    {
+      "colId": "32DNH",
+      "scientificName": "Cullumia cirsioides DC.",
+      "rank": "species",
+      "sourceDatasetId": "1141",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted node 32DNH checked for name, authorship, rank, status and source dataset ID; pinned WFO 2026-06 crosswalk maps it to wfo-0000077220 by exact accepted name and authorship.",
+        "scope": "Cullumia cirsioides as represented by COL26.8 usage 32DNH. The regional flora account is retained in its southern African scope; exact name matching does not by itself prove identical global circumscriptions."
+      },
+      "lifeStatusScope": {
+        "wild": "The regional flora account describes plants and habitats but does not state whether all observations concern native wild or naturalised populations.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/32DNH",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 32DNH",
+          "license": "CC BY 4.0 for the pinned checklist record; cited for identity only, no COL biological text copied",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000077220-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL 32DNH / WFO wfo-0000077220",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Manning & Goldblatt. 2012. Asteraceae: Cullumia. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI e-Flora archive v1.36 issued 2022-06-06; archive accessed 2026-09-23",
+          "locator": "Cullumia cirsioides account, p. 367; SANBI/WFO archive source identifier 14129.0, Morphology row 11352 and Habitat row 25918",
+          "license": "SANBI e-Flora archive EML declares CC BY 4.0; source citation marks the item [CC BY]. Attribution required. Facts are paraphrased; individual publication license version has not been independently inspected.",
+          "scope": "Regional Cape flora account. The source reports sandstone slopes and a southeastern regional distribution; it is not a global range assessment."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account describes C. cirsioides as a prickly, densely leafy shrublet to 60 cm, with reflexed lanceolate leaves, slightly revolute bristly margins, and solitary yellow radiate heads at branch tips.",
+              "textZh": "该条目将 C. cirsioides 描述为高至 60 cm、带刺且叶片密集的灌木状小灌木；叶片反折、披针形，边缘略外卷并具刚毛，枝端有单生黄色辐射状头状花序。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), C. cirsioides account, p. 367; archive Morphology row 11352, source identifier 14129.0",
+              "placeTimeScope": "Greater Cape Floristic Region flora account published 2012; the excerpt gives no specimen sample size or measurement protocol.",
+              "lifeStatus": "Regional flora description; the account does not distinguish wild native from naturalised plants at claim level."
+            }
+          ],
+          "gaps": ["Population variation, developmental stages, specimen-based measurements and independent diagnostic comparisons remain unassessed."]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional flora account gives a flowering period of July through November.",
+              "textZh": "该区域植物志条目记载其花期为 7 月至 11 月。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), C. cirsioides account, p. 367, flowering-time entry",
+              "placeTimeScope": "Greater Cape Floristic Region account published 2012; months are the source's regional summary and are not a global phenology analysis.",
+              "lifeStatus": "The source does not specify whether phenology observations distinguish native wild from naturalised populations."
+            }
+          ],
+          "gaps": ["Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records sandstone slopes as habitat.",
+              "textZh": "该条目记载其生境为砂岩坡地。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), C. cirsioides account, p. 367; archive Habitat row 25918, source identifier 14129.0",
+              "placeTimeScope": "Regional flora habitat statement; no dated observation sites, frequency or sampling frame is supplied in the excerpt.",
+              "lifeStatus": "The account does not establish whether every habitat observation concerns native wild or naturalised populations."
+            }
+          ],
+          "gaps": ["No resource use, species interactions, local environmental measurements or population-level ecology has been assessed."]
+        },
+        "evolution": { "status": "not-assessed" },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional account places the species in the southeastern Cape, from Humansdorp to Port Elizabeth.",
+              "textZh": "该区域条目将其分布记为开普地区东南部，范围自 Humansdorp 至 Port Elizabeth。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), C. cirsioides account, p. 367, distribution entry",
+              "placeTimeScope": "The source's Greater Cape Floristic Region account, published 2012; this locality summary is not a current global range polygon.",
+              "lifeStatus": "The source does not separately label native, introduced, cultivated or naturalised occurrences."
+            }
+          ],
+          "gaps": ["Current locality records, range boundaries, occurrence status and unsampled areas have not been reconciled."]
+        },
+        "fossil": { "status": "not-assessed" },
+        "conservation": { "status": "not-assessed" }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets contain only partial regional evidence and three facets remain unassessed.",
+          "The regional source concept has not been comprehensively compared with global taxonomic treatments.",
+          "No systematic literature search, fossil review, global distribution synthesis, conservation assessment or external expert review has been completed."
+        ]
+      },
+      "expertReview": { "status": "not-reviewed" }
     }
   ]
 }
