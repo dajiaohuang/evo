@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-lemur-catta-macaca-nemestrina-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-lemur-catta-macaca-nemestrina-batch-2026-09-24.json",
+    "bytes": 7447,
+    "sha256": "623c5da7d3f65c884aad6835055b377a67016c35c522ca3cd8ab576f3a1078f1"
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-lemur-catta-macaca-nemestrina-batch-2026-09-24.jsonl",
+    "bytes": 12005,
+    "sha256": "d6412cb856237467a6540c56b9a5c270282e1e4a1c89cc18153fc584a8b1aa5c",
+    "lineEnding": "LF"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-lemur-catta-macaca-nemestrina-batch-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 2,
+    "decodedBytes": 12005,
+    "decodedSha256": "d6412cb856237467a6540c56b9a5c270282e1e4a1c89cc18153fc584a8b1aa5c",
+    "compressedBytes": 2494,
+    "compressedSha256": "96f31103e1397cf9dd1cbc9ce7fb0e86a0e15670c79e9aca311266d2b6d59bf8",
+    "byteExactRoundTrip": true,
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    }
+  },
+  "generationSource": "data/sources/primates-lemur-catta-macaca-nemestrina-batch-2026-09-24.json",
+  "generationSourceSha256": "623c5da7d3f65c884aad6835055b377a67016c35c522ca3cd8ab576f3a1078f1",
+  "generator": "scripts/build-primates-lemur-macaca-batch.mjs",
+  "duplicateGuard": {
+    "indexedShardManifest": "data/knowledge/catalogue-dossier-shards.json",
+    "excludedOpenPr357Ids": [
+      "3WWNQ",
+      "3WWP6",
+      "6TM9B"
+    ]
+  },
+  "identities": [
+    {
+      "colId": "3T528",
+      "scientificName": "Lemur catta Linnaeus, 1758",
+      "authorship": "Linnaeus, 1758",
+      "rank": "species",
+      "status": "accepted",
+      "sourceDatasetId": "2144"
+    },
+    {
+      "colId": "3WWNT",
+      "scientificName": "Macaca nemestrina (Linnaeus, 1766)",
+      "authorship": "(Linnaeus, 1766)",
+      "rank": "species",
+      "status": "accepted",
+      "sourceDatasetId": "2144"
+    }
+  ]
+}
