@@ -14431,6 +14431,839 @@
       "expertReview": {
         "status": "not-reviewed"
       }
+    },
+    {
+      "colId": "ZKPK",
+      "scientificName": "Crocosmia aurea (Pappe ex Hook.) Planch.",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage ZKPK, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000788480 by exact accepted name and authorship.",
+        "scope": "Crocosmia aurea (Pappe ex Hook.) Planch. as represented by COL26.8 usage ZKPK; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account marks the occurrence near George as possibly naturalised; it does not otherwise separate wild and introduced populations.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/ZKPK",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage ZKPK",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000788480-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL ZKPK / WFO wfo-0000788480",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Manning & Goldblatt. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Core Cape regional flora treatment; geographic and ecological statements retain regional and temporal limits.",
+          "locator": "Strelitzia 29 (2012), Crocosmia aurea account, p. 131; morphology archive row 7470, habitat archive row 29052; source ID 13878.0"
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "A cormous geophyte 40–130 cm tall, with linear-lanceolate leaves and nodding orange flowers.",
+              "textZh": "球茎型多年生植物，高 40–130 cm，叶线状披针形，花橙色、下垂。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Crocosmia aurea account, p. 131; archive Morphology row 7470",
+              "placeTimeScope": "Southern African flora account published 2012; its range extends beyond the Cape and includes an explicitly uncertain naturalised occurrence near George. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in Mainly February–March.",
+              "textZh": "该区域性植物志记载花期为主要为 2–3 月。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Crocosmia aurea account, p. 131, flowering-time entry",
+              "placeTimeScope": "Southern African flora account published 2012; its range extends beyond the Cape and includes an explicitly uncertain naturalised occurrence near George. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records forest margins as habitat.",
+              "textZh": "森林边缘。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Crocosmia aurea account, p. 131; archive Habitat row 29052",
+              "placeTimeScope": "Southern African flora account published 2012; its range extends beyond the Cape and includes an explicitly uncertain naturalised occurrence near George. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Species interactions, resource use and population-level ecology have not been assessed."]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as SE (Eastern Cape to tropical Africa; possibly naturalised near George).",
+              "textZh": "该条目列出的区域分布为SE（东开普至热带非洲；George 附近可能为归化）。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Crocosmia aurea account, p. 131, distribution entry",
+              "placeTimeScope": "Southern African flora account published 2012; its range extends beyond the Cape and includes an explicitly uncertain naturalised occurrence near George. The account is not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Current occurrence records, status and unsampled areas have not been reconciled."]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": ["Four facets have only partial regional evidence and three remain unassessed.", "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "36282",
+      "scientificName": "Dierama pendulum (L.f.) Baker",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 36282, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000789326 by exact accepted name and authorship.",
+        "scope": "Dierama pendulum (L.f.) Baker as represented by COL26.8 usage 36282; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/36282",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 36282",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000789326-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL 36282 / WFO wfo-0000789326",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Manning & Goldblatt. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Core Cape regional flora treatment; geographic and ecological statements retain regional and temporal limits.",
+          "locator": "Strelitzia 29 (2012), Dierama pendulum account, p. 131; morphology archive row 6890, habitat archive row 29053; source ID 13878.0"
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "A cormous perennial 70–110 cm tall, with slender wiry laxly branched stems, linear fibrotic leaves, and pink nodding flowers on drooping spikes.",
+              "textZh": "球茎多年生植物，高 70–110 cm，茎纤细坚韧、疏分枝；叶线形、纤维质，粉色花下垂并着生于弯垂穗状花序。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Dierama pendulum account, p. 131; archive Morphology row 6890",
+              "placeTimeScope": "Core Cape regional treatment published 2012; range is the account’s regional summary, not a current global range. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in October–December.",
+              "textZh": "该区域性植物志记载花期为10–12 月。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Dierama pendulum account, p. 131, flowering-time entry",
+              "placeTimeScope": "Core Cape regional treatment published 2012; range is the account’s regional summary, not a current global range. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records rocky sandstone slopes and flats as habitat.",
+              "textZh": "岩质砂岩坡地和平地。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Dierama pendulum account, p. 131; archive Habitat row 29053",
+              "placeTimeScope": "Core Cape regional treatment published 2012; range is the account’s regional summary, not a current global range. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Species interactions, resource use and population-level ecology have not been assessed."]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as SE (Knysna to Grahamstown).",
+              "textZh": "该条目列出的区域分布为SE（Knysna 至 Grahamstown）。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Dierama pendulum account, p. 131, distribution entry",
+              "placeTimeScope": "Core Cape regional treatment published 2012; range is the account’s regional summary, not a current global range. The account is not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Current occurrence records, status and unsampled areas have not been reconciled."]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": ["Four facets have only partial regional evidence and three remain unassessed.", "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "362RF",
+      "scientificName": "Dietes iridioides (L.) Sweet ex Klatt",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 362RF, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000789349 by exact accepted name and authorship.",
+        "scope": "Dietes iridioides (L.) Sweet ex Klatt as represented by COL26.8 usage 362RF; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/362RF",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 362RF",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000789349-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL 362RF / WFO wfo-0000789349",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Manning & Goldblatt. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Core Cape regional flora treatment; geographic and ecological statements retain regional and temporal limits.",
+          "locator": "Strelitzia 29 (2012), Dietes iridioides account, p. 131; morphology archive row 7495, habitat archive row 29054; source ID 13878.0"
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "An evergreen rhizomatous perennial 30–50 cm tall, with sword-shaped leaves and white flowers with violet style arms and yellow markings; each flower lasts one day.",
+              "textZh": "常绿根茎多年生植物，高 30–50 cm，叶剑形；白花具紫色花柱臂和黄色斑纹，单朵花持续一天。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Dietes iridioides account, p. 131; archive Morphology row 7495",
+              "placeTimeScope": "The account gives a broad southern-to-eastern African range; the named Cape centres are retained as printed and are not converted to a global polygon. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in Mainly August–December.",
+              "textZh": "该区域性植物志记载花期为主要为 8–12 月。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Dietes iridioides account, p. 131, flowering-time entry",
+              "placeTimeScope": "The account gives a broad southern-to-eastern African range; the named Cape centres are retained as printed and are not converted to a global polygon. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records evergreen forests and margins as habitat.",
+              "textZh": "常绿森林及其边缘。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Dietes iridioides account, p. 131; archive Habitat row 29054",
+              "placeTimeScope": "The account gives a broad southern-to-eastern African range; the named Cape centres are retained as printed and are not converted to a global polygon. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Species interactions, resource use and population-level ecology have not been assessed."]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as SW, LB, SE (Riversonderend Mountains to East Africa).",
+              "textZh": "该条目列出的区域分布为SW、LB、SE（Riversonderend 山脉至东非）。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Dietes iridioides account, p. 131, distribution entry",
+              "placeTimeScope": "The account gives a broad southern-to-eastern African range; the named Cape centres are retained as printed and are not converted to a global polygon. The account is not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Current occurrence records, status and unsampled areas have not been reconciled."]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": ["Four facets have only partial regional evidence and three remain unassessed.", "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "3ZCNT",
+      "scientificName": "Melasphaerula graminea (L.f.) Ker Gawl.",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 3ZCNT, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000785245 by exact accepted name and authorship.",
+        "scope": "Melasphaerula graminea (L.f.) Ker Gawl. as represented by COL26.8 usage 3ZCNT; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/3ZCNT",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 3ZCNT",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000785245-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL 3ZCNT / WFO wfo-0000785245",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Manning & Goldblatt. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Core Cape regional flora treatment; geographic and ecological statements retain regional and temporal limits.",
+          "locator": "Strelitzia 29 (2012), Melasphaerula graminea account, p. 154; morphology archive row 6667, habitat archive row 29347; source ID 13878.0"
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "A cormous geophyte 30–60 cm tall, diffusely branched, with lax wiry spikes of small bilabiate cream to pale-yellow sour-smelling flowers; lower tepals have a red-brown midline streak.",
+              "textZh": "球茎型多年生植物，高 30–60 cm，分枝疏散；疏松的纤维状穗上有小型乳白至淡黄色双唇花，气味酸；下部花被片中央具红褐色条纹。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Melasphaerula graminea account, p. 154; archive Morphology row 6667",
+              "placeTimeScope": "Regional flora summary published 2012; distribution is the stated southern African range, not a current global range polygon. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in July–September.",
+              "textZh": "该区域性植物志记载花期为7–9 月。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Melasphaerula graminea account, p. 154, flowering-time entry",
+              "placeTimeScope": "Regional flora summary published 2012; distribution is the stated southern African range, not a current global range polygon. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records mostly sheltered sites on sandstone or limestone slopes as habitat.",
+              "textZh": "多见于砂岩或石灰岩坡地的避风处。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Melasphaerula graminea account, p. 154; archive Habitat row 29347",
+              "placeTimeScope": "Regional flora summary published 2012; distribution is the stated southern African range, not a current global range polygon. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Species interactions, resource use and population-level ecology have not been assessed."]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as NW, SW, AP, KM, SE (southern Namibia to Baviaanskloof Mountains).",
+              "textZh": "该条目列出的区域分布为NW、SW、AP、KM、SE（纳米比亚南部至Baviaanskloof山脉）。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Melasphaerula graminea account, p. 154, distribution entry",
+              "placeTimeScope": "Regional flora summary published 2012; distribution is the stated southern African range, not a current global range polygon. The account is not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Current occurrence records, status and unsampled areas have not been reconciled."]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": ["Four facets have only partial regional evidence and three remain unassessed.", "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "77KJM",
+      "scientificName": "Pillansia templemannii (Baker) L.Bolus",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 77KJM, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000785708 by exact accepted name and authorship.",
+        "scope": "Pillansia templemannii (Baker) L.Bolus as represented by COL26.8 usage 77KJM; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/77KJM",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 77KJM",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000785708-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL 77KJM / WFO wfo-0000785708",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Manning & Goldblatt. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Core Cape regional flora treatment; geographic and ecological statements retain regional and temporal limits.",
+          "locator": "Strelitzia 29 (2012), Pillansia templemannii account, p. 164; morphology archive row 6663, habitat archive row 29467; source ID 13878.0"
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "An evergreen cormous perennial 60–90 cm tall, with loosely twisted fibrotic strap-shaped leaves lacking a midrib and orange rotate flowers in flat-topped panicles.",
+              "textZh": "常绿球茎多年生植物，高 60–90 cm；带状叶疏松扭曲、具纤维质且无中脉；橙色辐射状花组成平顶圆锥花序。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Pillansia templemannii account, p. 164; archive Morphology row 6663",
+              "placeTimeScope": "Core Cape regional flora treatment published 2012; post-fire habitat association is reported without a fire interval or population-level study. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in October–November.",
+              "textZh": "该区域性植物志记载花期为10–11 月。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Pillansia templemannii account, p. 164, flowering-time entry",
+              "placeTimeScope": "Core Cape regional flora treatment published 2012; post-fire habitat association is reported without a fire interval or population-level study. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records sandstone slopes after fire as habitat.",
+              "textZh": "火后砂岩坡地。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Pillansia templemannii account, p. 164; archive Habitat row 29467",
+              "placeTimeScope": "Core Cape regional flora treatment published 2012; post-fire habitat association is reported without a fire interval or population-level study. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Species interactions, resource use and population-level ecology have not been assessed."]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as SW (Kogelberg to Kleinrivier Mountains).",
+              "textZh": "该条目列出的区域分布为SW（Kogelberg 至 Kleinrivier 山脉）。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Pillansia templemannii account, p. 164, distribution entry",
+              "placeTimeScope": "Core Cape regional flora treatment published 2012; post-fire habitat association is reported without a fire interval or population-level study. The account is not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Current occurrence records, status and unsampled areas have not been reconciled."]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": ["Four facets have only partial regional evidence and three remain unassessed.", "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "7G7KQ",
+      "scientificName": "Witsenia maura (L.) Thunb.",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 7G7KQ, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000787267 by exact accepted name and authorship.",
+        "scope": "Witsenia maura (L.) Thunb. as represented by COL26.8 usage 7G7KQ; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/7G7KQ",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 7G7KQ",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000787267-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL 7G7KQ / WFO wfo-0000787267",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Manning & Goldblatt. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Core Cape regional flora treatment; geographic and ecological statements retain regional and temporal limits.",
+          "locator": "Strelitzia 29 (2012), Witsenia maura account, p. 175; morphology archive row 7471, habitat archive row 29612; source ID 13878.0"
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "A slender woody shrub to 2 m, with narrowly lanceolate leaves and paired tubular flowers whose connivent tepals are dark green with velvety yellow tips.",
+              "textZh": "纤细木本灌木，高至 2 m，叶狭披针形；成对管状花的花被片靠合，深绿色并具绒状黄色尖端。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Witsenia maura account, p. 175; archive Morphology row 7471",
+              "placeTimeScope": "Core Cape regional flora account published 2012; elevational limit and regional range are retained as printed. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in Mainly April–August.",
+              "textZh": "该区域性植物志记载花期为主要为 4–8 月。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Witsenia maura account, p. 175, flowering-time entry",
+              "placeTimeScope": "Core Cape regional flora account published 2012; elevational limit and regional range are retained as printed. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records marshy coastal flats and mountain slopes, to 1,250 m as habitat.",
+              "textZh": "沼泽海岸平地及山坡，海拔至 1,250 m。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Witsenia maura account, p. 175; archive Habitat row 29612",
+              "placeTimeScope": "Core Cape regional flora account published 2012; elevational limit and regional range are retained as printed. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Species interactions, resource use and population-level ecology have not been assessed."]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as SW, LB (Cape Peninsula to Swellendam).",
+              "textZh": "该条目列出的区域分布为SW、LB（Cape Peninsula 至 Swellendam）。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Witsenia maura account, p. 175, distribution entry",
+              "placeTimeScope": "Core Cape regional flora account published 2012; elevational limit and regional range are retained as printed. The account is not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Current occurrence records, status and unsampled areas have not been reconciled."]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": ["Four facets have only partial regional evidence and three remain unassessed.", "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "5CBK6",
+      "scientificName": "Xenoscapa fistulosa (Spreng. ex Klatt) Goldblatt & J.C.Manning",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 5CBK6, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000787335 by exact accepted name and authorship.",
+        "scope": "Xenoscapa fistulosa (Spreng. ex Klatt) Goldblatt & J.C.Manning as represented by COL26.8 usage 5CBK6; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/5CBK6",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 5CBK6",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000787335-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL 5CBK6 / WFO wfo-0000787335",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Manning & Goldblatt. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Core Cape regional flora treatment; geographic and ecological statements retain regional and temporal limits.",
+          "locator": "Strelitzia 29 (2012), Xenoscapa fistulosa account, p. 176; morphology archive row 7509, habitat archive row 29613; source ID 13878.0"
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "A cormous geophyte 3–20 cm tall, with prostrate ovate leaves and small white long-tubed flowers.",
+              "textZh": "球茎型地生植物，高 3–20 cm，叶卵形、平伏；花小、白色且具长筒。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Xenoscapa fistulosa account, p. 176; archive Morphology row 7509",
+              "placeTimeScope": "Southern African regional account published 2012; geographic abbreviations and range are retained as printed. No population sampling or measurement protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in August–October.",
+              "textZh": "该区域性植物志记载花期为8–10 月。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Xenoscapa fistulosa account, p. 176, flowering-time entry",
+              "placeTimeScope": "Southern African regional account published 2012; geographic abbreviations and range are retained as printed. No multi-year or population-level phenology analysis is supplied.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records damp clay soil, sometimes on granite as habitat.",
+              "textZh": "潮湿黏土，有时生于花岗岩上。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Xenoscapa fistulosa account, p. 176; archive Habitat row 29613",
+              "placeTimeScope": "Southern African regional account published 2012; geographic abbreviations and range are retained as printed. No dated observation sites, frequency or sampling frame is given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Species interactions, resource use and population-level ecology have not been assessed."]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as NW, SW, KM (southern Namibia and western Karoo to Montagu, Vredenburg and Cape Peninsula).",
+              "textZh": "该条目列出的区域分布为NW、SW、KM（纳米比亚南部和西开普卡鲁至Montagu、Vredenburg及Cape Peninsula）。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Xenoscapa fistulosa account, p. 176, distribution entry",
+              "placeTimeScope": "Southern African regional account published 2012; geographic abbreviations and range are retained as printed. The account is not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished unless the source explicitly identifies uncertainty."
+            }
+          ],
+          "gaps": ["Current occurrence records, status and unsampled areas have not been reconciled."]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": ["Four facets have only partial regional evidence and three remain unassessed.", "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
     }
   ]
 }
