@@ -16114,6 +16114,111 @@
         "reviewers": [],
         "reviewDigest": null
       }
+    },
+    {
+      "colId": "384SV",
+      "scientificName": "Duthiastrum linifolium (E.Phillips) M.P.de Vos",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 384SV, name, authorship, rank and source dataset 2232; the pinned WFO plant crosswalk records exact accepted-name-and-authorship mapping to wfo-0000789360 (2026-06 snapshot).",
+        "scope": "Duthiastrum linifolium (E.Phillips) M.P.de Vos as represented by COL26.8 usage 384SV. SANBI flora-derived claims remain limited to the regional account and its attributed southern African treatment."
+      },
+      "lifeStatusScope": {
+        "wild": "Biological claims derive from a regional flora treatment of wild populations; occurrence records are not treated as a complete range survey.",
+        "domesticated": "The cited SANBI treatment does not provide a cultivation or domestication account; no such conclusion is made.",
+        "fossil": "No fossil occurrence claim is made; fossil evidence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col-wfo-crosswalk",
+          "title": "COL26.8 accepted usage and pinned WFO plant crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000789360-2026-06",
+          "version": "COL26.8 released 2026-08-20; WFO 2026-06 snapshot; local crosswalk record 384SV",
+          "locator": "COL ID 384SV; exact accepted-name-and-authorship mapping to WFO wfo-0000789360",
+          "license": "COL identity is cited only for nomenclatural linkage; WFO source licensing follows the pinned crosswalk metadata. No biological facts are taken from this record.",
+          "scope": "Identity and crosswalk only; it does not establish species-concept equivalence or biological coverage."
+        },
+        {
+          "id": "sanbi-flora",
+          "title": "Goldblatt, P. & Manning, J.C. 2020. Iridaceae of southern Africa. Strelitzia 42. SANBI, via Biodiversity Advisor species entry.",
+          "url": "https://biodiversityadvisor.sanbi.org/search/detail/873f6018-59f7-4ddd-b3db-959a48890e1b",
+          "version": "Underlying flora published 2020; SANBI Biodiversity Advisor entry accessed 2026-09-23",
+          "locator": "Morphological description, habitat, distribution, flowering time, altitude and SANBI status sections; claims retain the underlying flora citation displayed by SANBI.",
+          "license": "The entry attributes the flora-derived description to SANBI Strelitzia 42 and marks it CC BY; facts are paraphrased with attribution and no page text or images are redistributed.",
+          "scope": "Regional southern African flora account for the named taxon; not a global synthesis, full occurrence review or population assessment."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The SANBI flora-derived entry describes plants 60–150 mm high, with a 10–15 mm corm, mostly basal linear to narrowly lanceolate leaves, and one- or two-flowered spikes. Flowers are bright yellow, rarely dull orange with a yellow centre; capsules are ellipsoid and stalked, 20–25 mm long.",
+              "textZh": "SANBI 植物志条目记载植株高 60–150 mm，球茎直径 10–15 mm，叶多基生、线形至狭披针形，花穗具 1–2 朵花。花鲜黄色，少数为暗橙色且中心黄色；蒴果椭圆形、有柄，长 20–25 mm。",
+              "sourceIds": ["sanbi-flora"],
+              "locator": "SANBI Biodiversity Advisor, Morphological description; source attribution to Goldblatt & Manning 2020, Strelitzia 42",
+              "placeTimeScope": "Regional taxon description in the 2020 southern African flora; dimensions apply to the described taxon and are not a global population survey.",
+              "lifeStatus": "Wild flora description; cultivated variation is not covered."
+            }
+          ],
+          "gaps": ["The regional account is not a scope-complete review of intraspecific variation, developmental stages or diagnostic comparisons."]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The SANBI flora-derived account reports flowers opening around midday and closing at dusk, and a flowering period of March to May. It does not provide a full annual life cycle or reproductive-system account.",
+              "textZh": "SANBI 植物志条目记载花约在正午开放、黄昏闭合，花期为 3–5 月；该来源未提供完整年度生活史或繁殖系统描述。",
+              "sourceIds": ["sanbi-flora"],
+              "locator": "SANBI Biodiversity Advisor, Morphological description (daily flower opening/closing) and Flowering time",
+              "placeTimeScope": "Phenology in the regional flora account; the stated March–May period is not assumed to apply outside the source's geographic scope.",
+              "lifeStatus": "Wild regional-flora observation; cultivation timing is not covered."
+            }
+          ],
+          "gaps": ["Seed germination, full seasonal cycle, pollination, mating system and population-level reproductive variation remain unreviewed."]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The regional flora account places the species in alluvial washes, mainly in lime-rich silt or on chalky flats; it also reports a regional altitude range of 0–1370 m.",
+              "textZh": "区域植物志记载其生境为冲积水道，主要见于富石灰的粉砂或白垩质平地；该条目报告的区域海拔范围为 0–1370 m。",
+              "sourceIds": ["sanbi-flora"],
+              "locator": "SANBI Biodiversity Advisor, Habitat and Altitude sections; source attribution to Goldblatt & Manning 2020, Strelitzia 42",
+              "placeTimeScope": "Habitat and elevation statements from the 2020 southern African flora account; they are not inferred to cover every population or season.",
+              "lifeStatus": "Wild habitat description; no cultivated ecology is inferred."
+            }
+          ],
+          "gaps": ["Interactions, soils beyond the reported substrate description, disturbance response and ecological variation have not been comprehensively reviewed."]
+        },
+        "evolution": {"status": "not-assessed"},
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The SANBI flora account describes a scattered range in central South Africa within the Vaal–Orange drainage basin, from Kimberley in Northern Cape to Mmbatho in North West and eastward to Kroonstad in Free State. It mentions a recent but unconfirmed sight record near Devon, Gauteng; this regional account is not an exhaustive global range assessment.",
+              "textZh": "SANBI 植物志将其描述为零散分布于南非中部瓦尔河—奥兰治河流域，范围从 Northern Cape 的 Kimberley 至 North West 的 Mmbatho，并向东至 Free State 的 Kroonstad。条目另提及 Gauteng 的 Devon 附近一条近期但未确认的目击记录；该区域记录不是穷尽的全球分布评估。",
+              "sourceIds": ["sanbi-flora"],
+              "locator": "SANBI Biodiversity Advisor, Distribution section; Devon record explicitly described as unconfirmed in the source",
+              "placeTimeScope": "Regional range statement from the 2020 flora account; no date-resolved occurrence completeness or extra-regional range is inferred.",
+              "lifeStatus": "Wild distribution account; horticultural or introduced occurrences are not assessed."
+            }
+          ],
+          "gaps": ["A dated, specimen-backed range review across the full native and any introduced range has not been completed."]
+        },
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Evolution, fossil occurrence and conservation have not been assessed; the regional flora-derived material only partially supports morphology, life history, ecology and distribution.",
+          "No reproducible global literature and occurrence review or external expert review has been completed."
+        ]
+      },
+      "expertReview": {"status": "not-reviewed", "reviewers": [], "reviewDigest": null}
     }
   ,
     {
