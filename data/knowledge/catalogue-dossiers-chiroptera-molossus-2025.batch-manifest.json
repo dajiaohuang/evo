@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "batchId": "chiroptera-molossus-2025",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/knowledge/raw-dossiers/chiroptera-molossus-2025.jsonl",
+    "bytes": 44382,
+    "sha256": "52f096be3d3c7e0d436c5623d8713b654544464f75331e1c5bfcf930d96714e4"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-chiroptera-molossus-2025.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 5,
+    "decodedBytes": 44382,
+    "decodedSha256": "52f096be3d3c7e0d436c5623d8713b654544464f75331e1c5bfcf930d96714e4",
+    "compressedBytes": 3179,
+    "compressedSha256": "45ef56ac9211b3e7f41d0a6b2e2fd2fbb67e924539695dc2d02412256573c09c",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    }
+  },
+  "identityAudit": [
+    {
+      "colId": "43YHH",
+      "scientificName": "Molossus aztecus Saussure, 1860",
+      "rank": "species",
+      "status": "accepted",
+      "sourceDatasetId": "2144",
+      "parentId": "63BKR",
+      "itisScientificName": "Molossus aztecus",
+      "itisUsage": "valid",
+      "itisTsn": "946101",
+      "mappingBasis": "pinned COL-ID crosswalk row with exact normalized binomial and valid ITIS usage; no fuzzy match"
+    },
+    {
+      "colId": "43YHQ",
+      "scientificName": "Molossus currentium Thomas, 1901",
+      "rank": "species",
+      "status": "accepted",
+      "sourceDatasetId": "2144",
+      "parentId": "63BKR",
+      "itisScientificName": "Molossus currentium",
+      "itisUsage": "valid",
+      "itisTsn": "946104",
+      "mappingBasis": "pinned COL-ID crosswalk row with exact normalized binomial and valid ITIS usage; no fuzzy match"
+    },
+    {
+      "colId": "8P9GS",
+      "scientificName": "Molossus milleri Johnson, 1952",
+      "rank": "species",
+      "status": "accepted",
+      "sourceDatasetId": "2144",
+      "parentId": "63BKR",
+      "itisScientificName": "Molossus milleri",
+      "itisUsage": "valid",
+      "itisTsn": "947108",
+      "mappingBasis": "pinned COL-ID crosswalk row with exact normalized binomial and valid ITIS usage; no fuzzy match"
+    },
+    {
+      "colId": "8QF9S",
+      "scientificName": "Molossus fluminensis Lataste, 1891",
+      "rank": "species",
+      "status": "accepted",
+      "sourceDatasetId": "2144",
+      "parentId": "63BKR",
+      "itisScientificName": "Molossus fluminensis",
+      "itisUsage": "valid",
+      "itisTsn": "1159237",
+      "mappingBasis": "pinned COL-ID crosswalk row with exact normalized binomial and valid ITIS usage; no fuzzy match"
+    },
+    {
+      "colId": "8QFLX",
+      "scientificName": "Molossus melini Montani, Tomasco, Barberis, Romano, Barquez & Díaz, 2021",
+      "rank": "species",
+      "status": "accepted",
+      "sourceDatasetId": "2144",
+      "parentId": "63BKR",
+      "itisScientificName": "Molossus melini",
+      "itisUsage": "valid",
+      "itisTsn": "1159244",
+      "mappingBasis": "pinned COL-ID crosswalk row with exact normalized binomial and valid ITIS usage; no fuzzy match"
+    }
+  ],
+  "sourceChecksums": {
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "itisCrosswalkCompressedSha256": "018c6feea9485c8abf984706c79ef8ed144f527d05476bef02660c2963a953af"
+  },
+  "generator": "scripts/build-chiroptera-molossus-2025-batch.mjs",
+  "generatedBy": {
+    "predicate": "COL26.8 rank=species AND status=accepted AND sourceDatasetId=2144; ITIS exact crosswalk status=accepted and currentName.usage=valid",
+    "duplicateCheck": "All base and indexed dossier shards were read and candidate COL IDs were absent before generation."
+  }
+}

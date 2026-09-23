@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "batchId": "chiroptera-histiotus-alienus-2023",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/knowledge/raw-dossiers/chiroptera-histiotus-alienus-2023.jsonl",
+    "bytes": 10768,
+    "sha256": "595c0537d4cd647eecfc7f1372c0b43c591652435f0f9496ccfc25c557388c39"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-chiroptera-histiotus-alienus-2023.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 10768,
+    "decodedSha256": "595c0537d4cd647eecfc7f1372c0b43c591652435f0f9496ccfc25c557388c39",
+    "compressedBytes": 3242,
+    "compressedSha256": "9436f934643f2a08c5ab25b07997c54cb2ea1e5381f61c1d1ea430c23ab4bf2c",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    }
+  },
+  "identityAudit": {
+    "colId": "3M5GD",
+    "scientificName": "Histiotus alienus Thomas, 1916",
+    "rank": "species",
+    "status": "accepted",
+    "sourceDatasetId": "2144",
+    "parentId": "4XN2",
+    "itisScientificName": "Histiotus alienus",
+    "itisUsage": "valid",
+    "itisTsn": "631982",
+    "mappingBasis": "pinned COL-ID crosswalk row with exact normalized binomial and valid ITIS usage; no fuzzy match"
+  },
+  "sourceChecksums": {
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "itisCrosswalkCompressedSha256": "018c6feea9485c8abf984706c79ef8ed144f527d05476bef02660c2963a953af"
+  },
+  "generator": "scripts/build-chiroptera-histiotus-alienus-2023-batch.mjs",
+  "generatedBy": {
+    "predicate": "COL26.8 rank=species AND status=accepted AND sourceDatasetId=2144; ITIS exact crosswalk status=accepted and currentName.usage=valid",
+    "duplicateCheck": "All base and indexed dossier shards were read and candidate COL ID was absent before generation."
+  }
+}
