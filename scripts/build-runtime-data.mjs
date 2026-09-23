@@ -1755,6 +1755,7 @@ function* knowledgeNodes() {
 const knowledge = buildCatalogueKnowledge({
   releaseAlias: catalogueSourceManifest.releaseAlias,
   profiles: readJson('data/knowledge/catalogue-profiles.json'),
+  dossiers: readJson('data/knowledge/catalogue-dossiers.json'),
   collections: { sanbiDescriptions: sanbiRecords, plaziDescriptions: plaziRecords, foaDescriptions: foaRecords, mesoDescriptions: mesoRecords, fdacDescriptions: fdacRecords, mossDescriptions: mossRecords, pakistanDescriptions: pakistanRecords, mossChinaDescriptions: mossChinaRecords, fnaDescriptions: fnaRecords, brazilFloraDescriptions: brazilFloraRecords, nicaraguaDescriptions: nicaraguaRecords, panamaDescriptions: panamaRecords, turkeyDescriptions: turkeyRecords, floraChinaDescriptions: floraChinaRecords },
   nodes: knowledgeNodes(),
 })

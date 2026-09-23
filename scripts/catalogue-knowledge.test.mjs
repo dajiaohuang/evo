@@ -10,7 +10,15 @@ test('rolls up every branch without inventing absent ranks or double-counting so
     oneDescriptions: [{ colId: 'a', descriptions: [{ text: 'first' }] }],
     twoDescriptions: [{ colId: 'a', descriptions: [{ text: 'second' }] }, { colId: 'b', descriptions: [{ text: '' }] }],
   })
-  expect(result.records.find(row => row.colId === 'root').subtree).toEqual({ acceptedSpecies: 2, describedSpecies: 1, profiledSpecies: 0 })
+  expect(result.records.find(row => row.colId === 'root').subtree).toEqual({
+    acceptedSpecies: 2,
+    describedSpecies: 1,
+    profiledSpecies: 0,
+    dossierSpecies: 0,
+    completeDossierSpecies: 0,
+    expertReviewedSpecies: 0,
+    dossierFacets: Object.fromEntries(['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation'].map(facet => [facet, { 'not-assessed': 2 }])),
+  })
   expect(result.records.find(row => row.colId === 'order').subtree.acceptedSpecies).toBe(1)
   expect(result.records.find(row => row.colId === 'a').descriptionCollections).toEqual(['oneDescriptions', 'twoDescriptions'])
   expect(result.records.some(row => row.colId === 'b')).toBe(false)

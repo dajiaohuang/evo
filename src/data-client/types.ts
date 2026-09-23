@@ -1676,11 +1676,33 @@ export interface CatalogueKnowledgeProfile {
   limitations: { zh: string; en: string }
 }
 
+export interface CatalogueSpeciesDossier {
+  checkedAt: string
+  sources: Array<{ id: string; title: string; url: string; version: string; locator: string; license: string; scope: string }>
+  facets: Record<string, {
+    status: 'supported' | 'partially-supported' | 'searched-no-evidence' | 'conflicted' | 'not-assessed'
+    claims?: Array<{ text: string; textZh: string; sourceIds: string[]; locator: string; placeTimeScope: string; lifeStatus: string }>
+    gaps?: string[]
+    search?: { date: string; scope: string; method: string }
+  }>
+  completeness: { status: 'incomplete' | 'complete'; reasons?: string[] }
+  expertReview: { status: 'not-reviewed' | 'maintainer-reviewed' | 'externally-reviewed' }
+}
+
 export interface CatalogueKnowledgeRecord {
   colId: string
   descriptionCollections: string[]
   profile?: CatalogueKnowledgeProfile
-  subtree?: { acceptedSpecies: number; describedSpecies: number; profiledSpecies: number }
+  dossier?: CatalogueSpeciesDossier
+  subtree?: {
+    acceptedSpecies: number
+    describedSpecies: number
+    profiledSpecies: number
+    dossierSpecies?: number
+    completeDossierSpecies?: number
+    expertReviewedSpecies?: number
+    dossierFacets?: Record<string, Record<string, number>>
+  }
 }
 
 export interface CatalogueRuntimeManifest {

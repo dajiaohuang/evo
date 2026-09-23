@@ -2,8 +2,12 @@ import assert from 'node:assert/strict'
 
 // Build one sparse, release-specific index. No invented species descriptions and
 // no need to retain millions of species nodes in memory while rolling up coverage.
-export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, nodes }) {
+const DOSSIER_FACETS = ['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation']
+const FACET_STATUSES = ['supported', 'partially-supported', 'searched-no-evidence', 'conflicted', 'not-assessed']
+
+export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, dossiers = { releaseAlias, records: [] }, nodes }) {
   assert.equal(profiles.releaseAlias, releaseAlias, 'Knowledge profiles must match the catalogue release')
+  assert.equal(dossiers.releaseAlias, releaseAlias, 'Species dossiers must match the catalogue release')
   const records = new Map()
   const recordFor = colId => {
     if (!records.has(colId)) records.set(colId, { colId, descriptionCollections: [] })
@@ -31,16 +35,58 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, n
     }
     record.profile = profile
   }
+  for (const dossier of dossiers.records) {
+    assert.ok(dossier.colId, 'Dossier is missing a COL identity')
+    const record = recordFor(dossier.colId)
+    assert.ok(!record.dossier, `Duplicate dossier ${dossier.colId}`)
+    assert.ok(dossier.identity?.method && dossier.identity?.scope, `Dossier identity method and scope required: ${dossier.colId}`)
+    assert.ok(dossier.lifeStatusScope?.wild && dossier.lifeStatusScope?.domesticated && dossier.lifeStatusScope?.fossil, `Dossier life-status scope required: ${dossier.colId}`)
+    assert.deepEqual(Object.keys(dossier.facets).sort(), [...DOSSIER_FACETS].sort(), `Dossier must assess all seven facets: ${dossier.colId}`)
+    const sourceIds = new Set(dossier.sources.map(source => source.id))
+    assert.equal(sourceIds.size, dossier.sources.length, `Duplicate dossier source ${dossier.colId}`)
+    for (const source of dossier.sources) {
+      assert.match(source.url, /^https:\/\//, `Dossier source URL required: ${dossier.colId}`)
+      assert.ok(source.version && source.locator && source.license && source.scope, `Dossier source provenance incomplete: ${dossier.colId}/${source.id}`)
+    }
+    for (const [facet, assessment] of Object.entries(dossier.facets)) {
+      assert.ok(FACET_STATUSES.includes(assessment.status), `Invalid ${facet} status in ${dossier.colId}`)
+      for (const claim of assessment.claims ?? []) {
+        assert.ok(claim.text && claim.textZh && claim.locator && claim.placeTimeScope && claim.lifeStatus, `Claim scope/locator/translation incomplete: ${dossier.colId}/${facet}`)
+        assert.ok(claim.sourceIds.length && claim.sourceIds.every(id => sourceIds.has(id)), `Unresolved dossier source: ${dossier.colId}/${facet}`)
+      }
+      if (assessment.status === 'supported' || assessment.status === 'conflicted') assert.ok(assessment.claims?.length, `Evidence claims required for ${dossier.colId}/${facet}`)
+      if (assessment.status === 'partially-supported') assert.ok(assessment.claims?.length && assessment.gaps?.length, `Partial facet must disclose evidence and gaps: ${dossier.colId}/${facet}`)
+      if (assessment.status === 'searched-no-evidence') assert.ok(assessment.search?.date && assessment.search?.scope && assessment.search?.method, `Search log required for ${dossier.colId}/${facet}`)
+    }
+    assert.ok(['incomplete', 'complete'].includes(dossier.completeness?.status), `Dossier completeness status required: ${dossier.colId}`)
+    if (dossier.completeness.status === 'complete') {
+      assert.ok(DOSSIER_FACETS.every(facet => ['supported', 'searched-no-evidence', 'conflicted'].includes(dossier.facets[facet].status)), `Incomplete facet cannot count as complete: ${dossier.colId}`)
+      assert.ok(!dossier.sources.some(source => source.license.toLowerCase().includes('not stated')), `Unresolved source rights cannot count as complete: ${dossier.colId}`)
+      assert.ok(dossier.systematicSearch?.date && dossier.systematicSearch?.scope && dossier.systematicSearch?.method, `Complete dossier requires a systematic search record: ${dossier.colId}`)
+    }
+    assert.ok(['not-reviewed', 'maintainer-reviewed', 'externally-reviewed'].includes(dossier.expertReview?.status), `Dossier review state required: ${dossier.colId}`)
+    if (dossier.expertReview.status === 'externally-reviewed') assert.ok(dossier.expertReview.reviewers?.length && dossier.expertReview.reviewDigest && dossier.expertReview.date, `External review evidence required: ${dossier.colId}`)
+    record.dossier = dossier
+  }
   const expected = new Set(records.keys())
   const higher = new Map()
   const direct = new Map()
   const ranks = {}
   const profilesByRank = {}
   let describedSpecies = 0
+  let dossierSpecies = 0
+  let completeDossierSpecies = 0
+  let expertReviewedSpecies = 0
+  const facetCounts = Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, {}]))
   const add = (id, field, value = 1) => {
     if (!id) return
-    if (!direct.has(id)) direct.set(id, { acceptedSpecies: 0, describedSpecies: 0, profiledSpecies: 0 })
+    if (!direct.has(id)) direct.set(id, { acceptedSpecies: 0, describedSpecies: 0, profiledSpecies: 0, dossierSpecies: 0, completeDossierSpecies: 0, expertReviewedSpecies: 0, dossierFacets: Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, {}])) })
     direct.get(id)[field] += value
+  }
+  const addFacet = (id, facet, status) => {
+    if (!direct.has(id)) add(id, 'acceptedSpecies', 0)
+    const counts = direct.get(id).dossierFacets[facet]
+    counts[status] = (counts[status] ?? 0) + 1
   }
   for (const node of nodes) {
     ranks[node.rank] = (ranks[node.rank] ?? 0) + 1
@@ -57,12 +103,30 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, n
         assert.equal(node.status, 'accepted')
         profilesByRank[node.rank] = (profilesByRank[node.rank] ?? 0) + 1
       }
+      if (record.dossier) {
+        for (const key of ['scientificName', 'rank', 'sourceDatasetId']) assert.equal(record.dossier[key], node[key], `Dossier ${key}: ${node.id}`)
+        assert.equal(node.rank, 'species', `Dossier rank ${node.id}`)
+        assert.equal(node.status, 'accepted', `Dossier status ${node.id}`)
+        dossierSpecies++
+        if (record.dossier.completeness.status === 'complete') completeDossierSpecies++
+        if (record.dossier.expertReview.status === 'externally-reviewed') expertReviewedSpecies++
+        for (const facet of DOSSIER_FACETS) {
+          const status = record.dossier.facets[facet].status
+          facetCounts[facet][status] = (facetCounts[facet][status] ?? 0) + 1
+        }
+      }
     }
     if (node.rank === 'species') {
       assert.equal(node.status, 'accepted')
       add(node.parentId, 'acceptedSpecies')
       if (record?.descriptionCollections.length) add(node.parentId, 'describedSpecies')
       if (record?.profile) add(node.parentId, 'profiledSpecies')
+      if (record?.dossier) {
+        add(node.parentId, 'dossierSpecies')
+        if (record.dossier.completeness.status === 'complete') add(node.parentId, 'completeDossierSpecies')
+        if (record.dossier.expertReview.status === 'externally-reviewed') add(node.parentId, 'expertReviewedSpecies')
+        for (const facet of DOSSIER_FACETS) addFacet(node.parentId, facet, record.dossier.facets[facet].status)
+      }
     } else higher.set(node.id, node)
   }
   assert.equal(expected.size, 0, `Content identities outside the pinned hierarchy: ${[...expected].join(', ')}`)
@@ -77,10 +141,16 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, n
     if (completed.has(id)) return records.get(id).subtree
     assert.ok(!visiting.has(id), `Hierarchy cycle at ${id}`)
     visiting.add(id)
-    const total = { acceptedSpecies: 0, describedSpecies: 0, profiledSpecies: 0, ...direct.get(id) }
+    const total = { acceptedSpecies: 0, describedSpecies: 0, profiledSpecies: 0, dossierSpecies: 0, completeDossierSpecies: 0, expertReviewedSpecies: 0, dossierFacets: Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, {}])), ...direct.get(id) }
     for (const childId of children.get(id) ?? []) {
       const child = rollup(childId)
-      for (const key of Object.keys(total)) total[key] += child[key]
+      for (const key of ['acceptedSpecies', 'describedSpecies', 'profiledSpecies', 'dossierSpecies', 'completeDossierSpecies', 'expertReviewedSpecies']) total[key] += child[key]
+      for (const facet of DOSSIER_FACETS) for (const [status, count] of Object.entries(child.dossierFacets[facet])) total.dossierFacets[facet][status] = (total.dossierFacets[facet][status] ?? 0) + count
+    }
+    for (const facet of DOSSIER_FACETS) {
+      const assessed = Object.values(total.dossierFacets[facet]).reduce((sum, count) => sum + count, 0)
+      assert.ok(assessed <= total.acceptedSpecies, `Facet count exceeds accepted species in ${id}/${facet}`)
+      total.dossierFacets[facet]['not-assessed'] = total.acceptedSpecies - assessed
     }
     recordFor(id).subtree = total
     visiting.delete(id)
@@ -88,8 +158,13 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, n
     return total
   }
   for (const id of higher.keys()) rollup(id)
+  for (const facet of DOSSIER_FACETS) {
+    const assessed = Object.values(facetCounts[facet]).reduce((sum, count) => sum + count, 0)
+    assert.ok(assessed <= (ranks.species ?? 0), `Facet count exceeds accepted species for ${facet}`)
+    facetCounts[facet]['not-assessed'] = (ranks.species ?? 0) - assessed
+  }
   return {
     records: [...records.values()].map(record => ({ ...record, descriptionCollections: record.descriptionCollections.sort() })).sort((a, b) => a.colId.localeCompare(b.colId)),
-    counts: { hierarchyNodes: Object.values(ranks).reduce((a, b) => a + b, 0), ranks, describedSpecies, profilesByRank },
+    counts: { hierarchyNodes: Object.values(ranks).reduce((a, b) => a + b, 0), ranks, describedSpecies, profilesByRank, dossierSpecies, completeDossierSpecies, expertReviewedSpecies, dossierFacets: facetCounts },
   }
 }
