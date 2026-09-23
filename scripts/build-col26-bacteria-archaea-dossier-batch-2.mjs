@@ -1,11 +1,25 @@
 import { createHash } from 'node:crypto'
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
-import { brotliCompressSync, brotliDecompressSync, constants } from 'node:zlib'
+import { brotliCompressSync, brotliDecompressSync, gunzipSync, constants } from 'node:zlib'
 
 const batch = JSON.parse(readFileSync('data/sources/col26.8-bacteria-archaea-dossiers-batch-2.json', 'utf8'))
 const hash = bytes => createHash('sha256').update(bytes).digest('hex')
 
 for (const candidate of batch.candidates) {
+  const route = createHash('sha256').update(candidate.colId).digest('hex').slice(0, 2)
+  const registryPath = `data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes/id-${route}.jsonl.gz`
+  const matches = gunzipSync(readFileSync(registryPath)).toString('utf8').split('\n').filter(Boolean)
+    .map(line => JSON.parse(line)).filter(node => node.id === candidate.colId)
+  if (matches.length !== 1) throw new Error(`Expected one pinned COL26.8 usage for ${candidate.colId}; found ${matches.length}`)
+  const usage = matches[0]
+  for (const [field, actual, expected] of [
+    ['scientificName', candidate.scientificName ?? candidate.name, usage.scientificName],
+    ['rank', 'species', usage.rank],
+    ['status', 'accepted', usage.status],
+    ['sourceDatasetId', String(candidate.sourceDatasetId), String(usage.sourceDatasetId)],
+  ]) {
+    if (actual !== expected) throw new Error(`COL26.8 exact identity mismatch ${candidate.colId} ${field}: ${JSON.stringify(actual)} != ${JSON.stringify(expected)}`)
+  }
   const morphology = candidate.claims?.morphology
   if (morphology && (!morphology.text || !morphology.locator || !/\b(Gram|motile|cells|colony|colonies|spore|hyphae|filament)/i.test(morphology.text))) {
     throw new Error(`Morphology claim needs a concrete observation and locator: ${candidate.colId}`)
