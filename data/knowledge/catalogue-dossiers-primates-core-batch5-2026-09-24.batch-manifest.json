@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-core-batch5-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-core-batch5-2026-09-24.json",
+    "sha256": "88ebde8dc45be414dea7b2e2fc6fdc7a4d6854723fc91b75e816fcbe17559d21"
+  },
+  "duplicateCheck": {
+    "baseHead": "d8d99201dcdc0426e27a4b842bbe3dc54cf119ed",
+    "openPullRequests": [],
+    "indexedRecordCount": 6912,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-core-batch5-2026-09-24.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 2,
+    "bytes": 16179,
+    "sha256": "624ed912b79ee3a48c6f146c265554539f777378cef49717db4b645c47c77687"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-core-batch5-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 2,
+    "decodedBytes": 16179,
+    "decodedSha256": "624ed912b79ee3a48c6f146c265554539f777378cef49717db4b645c47c77687",
+    "compressedBytes": 3105,
+    "compressedSha256": "ad8e7fe58f864ce4cdd9710604658fbee35b1c4f4438164908f81c33f8031d0c",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-primates-core-batch5.mjs"
+}
