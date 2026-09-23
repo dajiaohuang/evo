@@ -15264,6 +15264,363 @@
       "expertReview": {
         "status": "not-reviewed"
       }
+    },
+    {
+      "colId": "TPZY",
+      "scientificName": "Chasmanthe aethiopica (L.) N.E.Br.",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage TPZY, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000788429 by exact accepted name and authorship.",
+        "scope": "Chasmanthe aethiopica (L.) N.E.Br. as represented by COL26.8 usage TPZY; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The regional flora does not distinguish wild native from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/TPZY",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage TPZY",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000788429-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL TPZY / WFO wfo-0000788429",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Manning & Goldblatt. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Core Cape regional flora treatment; geographic and ecological statements retain regional and temporal limits.",
+          "locator": "Strelitzia 29 (2012), Chasmanthe aethiopica account, p. 130; morphology archive row 6664, habitat archive row 29049; source ID 13878.0"
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "A cormous geophyte 40–65 cm tall, with papery corm tunics, unbranched stems, sword-shaped leaves, and an orange flower spike held nearly horizontally; the perianth tube flares abruptly and is pouched below.",
+              "textZh": "球茎型地生植物，高 40–65 cm，球茎外皮纸质，茎不分枝，叶剑形；橙色花穗近水平伸展，花被管突然扩张且下部略呈囊状。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Chasmanthe aethiopica account, p. 130; archive Morphology row 6664",
+              "placeTimeScope": "Core Cape regional flora treatment published 2012; distribution is the account’s regional summary, not a current global range. No population sampling, multi-year phenology, or dated site sampling protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": ["Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in April–July.",
+              "textZh": "该区域性植物志记载花期为4–7 月。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Chasmanthe aethiopica account, p. 130, flowering-time entry",
+              "placeTimeScope": "Core Cape regional flora treatment published 2012; distribution is the account’s regional summary, not a current global range. No population sampling, multi-year phenology, or dated site sampling protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": ["Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records hills and flats on granite, sandstone or shale, mainly coastal in bush or forest margins as habitat.",
+              "textZh": "该条目记载的生境为花岗岩、砂岩或页岩丘陵和平地，多见于沿海灌丛或森林边缘。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Chasmanthe aethiopica account, p. 130; archive Habitat row 29049",
+              "placeTimeScope": "Core Cape regional flora treatment published 2012; distribution is the account’s regional summary, not a current global range. No population sampling, multi-year phenology, or dated site sampling protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": ["Species interactions, resource use and population-level ecology have not been assessed."]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as SW, AP, LB, SE (Darling to Eastern Cape).",
+              "textZh": "该条目列出的区域分布为SW、AP、LB、SE（Darling 至东开普）。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Chasmanthe aethiopica account, p. 130, distribution entry",
+              "placeTimeScope": "Core Cape regional flora treatment published 2012; distribution is the account’s regional summary, not a current global range. The account is not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": ["Current occurrence records, status and unsampled areas have not been reconciled."]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": ["Four facets have only partial regional evidence and three remain unassessed.", "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "TPZZ",
+      "scientificName": "Chasmanthe bicolor (Gasp.) N.E.Br.",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage TPZZ, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000788430 by exact accepted name and authorship.",
+        "scope": "Chasmanthe bicolor (Gasp.) N.E.Br. as represented by COL26.8 usage TPZZ; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The regional flora does not distinguish wild native from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/TPZZ",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage TPZZ",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000788430-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL TPZZ / WFO wfo-0000788430",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Manning & Goldblatt. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Core Cape regional flora treatment; geographic and ecological statements retain regional and temporal limits.",
+          "locator": "Strelitzia 29 (2012), Chasmanthe bicolor account, p. 130; morphology archive row 6665, habitat archive row 29050; source ID 13878.0"
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "A cormous geophyte 70–90 cm tall, with papery corm tunics, usually branched stems and sword-shaped leaves; its flower spike has orange-red flowers with green markings and a gradually flaring tube.",
+              "textZh": "球茎型地生植物，高 70–90 cm，球茎外皮纸质，茎通常分枝、叶剑形；花穗上的花橙红色并具绿色斑纹，花被管渐次扩张。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Chasmanthe bicolor account, p. 130; archive Morphology row 6665",
+              "placeTimeScope": "Core Cape regional flora treatment published 2012; distribution is the account’s regional summary, not a current global range. No population sampling, multi-year phenology, or dated site sampling protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": ["Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in July–August.",
+              "textZh": "该区域性植物志记载花期为7–8 月。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Chasmanthe bicolor account, p. 130, flowering-time entry",
+              "placeTimeScope": "Core Cape regional flora treatment published 2012; distribution is the account’s regional summary, not a current global range. No population sampling, multi-year phenology, or dated site sampling protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": ["Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records sheltered ravines, in bush as habitat.",
+              "textZh": "该条目记载的生境为灌丛中的避风沟谷。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Chasmanthe bicolor account, p. 130; archive Habitat row 29050",
+              "placeTimeScope": "Core Cape regional flora treatment published 2012; distribution is the account’s regional summary, not a current global range. No population sampling, multi-year phenology, or dated site sampling protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": ["Species interactions, resource use and population-level ecology have not been assessed."]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as SW, LB (Robertson to Swellendam).",
+              "textZh": "该条目列出的区域分布为SW、LB（Robertson 至 Swellendam）。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Chasmanthe bicolor account, p. 130, distribution entry",
+              "placeTimeScope": "Core Cape regional flora treatment published 2012; distribution is the account’s regional summary, not a current global range. The account is not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": ["Current occurrence records, status and unsampled areas have not been reconciled."]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": ["Four facets have only partial regional evidence and three remain unassessed.", "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "TQ23",
+      "scientificName": "Chasmanthe floribunda (Salisb.) N.E.Br.",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage TQ23, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000788433 by exact accepted name and authorship.",
+        "scope": "Chasmanthe floribunda (Salisb.) N.E.Br. as represented by COL26.8 usage TQ23; the regional flora account is not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The regional flora does not distinguish wild native from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/TQ23",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage TQ23",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no COL biological text copied.",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000788433-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL TQ23 / WFO wfo-0000788433",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Manning & Goldblatt. 2012. Iridaceae. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; e-Flora archive citation labels the treatment [CC BY]. Stricter item-specific CC BY-SA 4.0 recorded; claims are paraphrased with attribution.",
+          "scope": "Core Cape regional flora treatment; geographic and ecological statements retain regional and temporal limits.",
+          "locator": "Strelitzia 29 (2012), Chasmanthe floribunda account, p. 131; morphology archive row 6666, habitat archive row 29051; source ID 13878.0"
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "A cormous geophyte 45–100 cm tall, with firm papery corm tunics that become fibrous with age and branched stems; orange-red, rarely yellow flowers occur in a two-ranked spike with a gradually flaring tube.",
+              "textZh": "球茎型地生植物，高 45–100 cm；球茎外皮坚韧纸质、随年龄转为纤维质，茎分枝；橙红色、少数黄色的花排列成二列穗状花序，花被管渐次扩张。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Chasmanthe floribunda account, p. 131; archive Morphology row 6666",
+              "placeTimeScope": "Core Cape regional flora treatment published 2012; distribution is the account’s regional summary, not a current global range. No population sampling, multi-year phenology, or dated site sampling protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": ["Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering in July–September.",
+              "textZh": "该区域性植物志记载花期为7–9 月。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Chasmanthe floribunda account, p. 131, flowering-time entry",
+              "placeTimeScope": "Core Cape regional flora treatment published 2012; distribution is the account’s regional summary, not a current global range. No population sampling, multi-year phenology, or dated site sampling protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": ["Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records coastal and montane sites on sandstone and granite as habitat.",
+              "textZh": "该条目记载的生境为砂岩和花岗岩上的沿海及山地生境。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Chasmanthe floribunda account, p. 131; archive Habitat row 29051",
+              "placeTimeScope": "Core Cape regional flora treatment published 2012; distribution is the account’s regional summary, not a current global range. No population sampling, multi-year phenology, or dated site sampling protocol is stated.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": ["Species interactions, resource use and population-level ecology have not been assessed."]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account gives the regional range as NW, SW (southern Namaqualand and Bokkeveld Mountains to Hermanus).",
+              "textZh": "该条目列出的区域分布为NW、SW（纳马夸兰南部和Bokkeveld山脉至Hermanus）。",
+              "sourceIds": ["sanbi"],
+              "locator": "Strelitzia 29 (2012), Chasmanthe floribunda account, p. 131, distribution entry",
+              "placeTimeScope": "Core Cape regional flora treatment published 2012; distribution is the account’s regional summary, not a current global range. The account is not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": ["Current occurrence records, status and unsampled areas have not been reconciled."]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": ["Four facets have only partial regional evidence and three remain unassessed.", "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
     }
   ]
 }

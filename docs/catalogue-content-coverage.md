@@ -24,13 +24,14 @@ RC155 生成的来源标签筛查计数为：形态 48,482 种、生态 41,445 �
 14. 补齐 SANBI `13878.0` 中 11 个 Thereianthus 接受种账户，按 Strelitzia 29 p.170 的逐种账户和物种级 archive 形态/生境行建立档案；四主题部分支持，其他三主题未评估。COL/WFO 身份及段落定位见 [SANBI 来源审计](sanbi-descriptions.md)。
 15. 补齐 SANBI `13878.0` 中 13 个 Freesia 接受种账户，以 Strelitzia 29 pp.132–133 逐种核对花期和区域分布，并与准确的 COL/WFO 接受名及形态/生境 archive 行关联；四主题部分支持，其余主题未评估。
 16. 补齐 SANBI `13878.0` 中 14 个 Bobartia 接受种账户，以 Strelitzia 29 pp.129–130 的逐种账户核对花期和区域分布，并引用对应形态/生境 archive 行；四主题部分支持，其余主题未评估。
-17. 新增 7 个 Iridaceae 单种属候选：Crocosmia `ZKPK`、Dierama `36282`、Dietes `362RF`、Melasphaerula `3ZCNT`、Pillansia `77KJM`、Witsenia `7G7KQ`、Xenoscapa `5CBK6`；逐个核对 Strelitzia 29 pp.131、154、164、175–176 账户，并绑定 SANBI archive 形态/生境行。
+17. 新增 7 个 Iridaceae 种级档案：Crocosmia `ZKPK`、Dierama `36282`、Dietes `362RF`、Melasphaerula `3ZCNT`、Pillansia `77KJM`、Witsenia `7G7KQ`、Xenoscapa `5CBK6`；逐个核对 Strelitzia 29 pp.131、154、164、175–176 账户，并绑定 SANBI archive 形态/生境行。
+18. 完整补齐 COL26.8 接受分类中 Chasmanthe 全属 3 种（`TPZY`、`TPZZ`、`TQ23`），逐种核对 Strelitzia 29 pp.130–131 账户，并绑定 SANBI archive 形态/生境行。
 
 ## 覆盖含义与尚未完成的内容
 
 “全树可查询、可查看缺口”已经落地；“全树所有物种都有全面科学档案”没有完成。
 逐物种完整档案的固定准入标准见[COL26.8 物种科学档案准入标准](species-dossier-standard.md)。该标准明确七个科学主题、证据与权利记录、未知状态处理以及完整档案和专家评审的独立计量；后续覆盖数字应按该标准生成。
-当前 55 条概述属于有来源的入门介绍，尚不是完整生活史、系统发育、化石、性状、分布、保育与媒体档案。逐主题档案目前有红狐、`Ctenium concinnum`、八种 Cullumia、四十八种 Metalasia、十一种 Nivenia、十一种 Thereianthus、十三种 Freesia、十四种 Bobartia，以及七种新增 Iridaceae，共 114 种；植物档案只有四个部分支持主题，其他三项未评估。完整档案与外部领域专家评审仍为 0。
+当前 55 条概述属于有来源的入门介绍，尚不是完整生活史、系统发育、化石、性状、分布、保育与媒体档案。逐主题档案目前有红狐、`Ctenium concinnum`、八种 Cullumia、四十八种 Metalasia、十一种 Nivenia、十一种 Thereianthus、十三种 Freesia、十四种 Bobartia，以及七种新增 Iridaceae，共 117 种；植物档案只有四个部分支持主题，其他三项未评估。完整档案与外部领域专家评审仍为 0。
 来源字段标签筛查另行报告，不得与“有原文”或“有逐主题证据档案”相加；字段可能缺少段落级定位、范围限定及概念等同性审查。
 这些新概述的计数仅指精确关联到 COL ID 的本层内容；原有 133 份导航档案仍保留在资源包体系内，不能用同名自动合并物种概念。
 
