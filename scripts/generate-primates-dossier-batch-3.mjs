@@ -10,6 +10,7 @@ const rawPath = resolve(root, 'data/knowledge/raw-dossiers/primates-dossiers-bat
 const shardPath = resolve(root, 'data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br')
 const manifestPath = resolve(root, 'data/knowledge/catalogue-dossiers-primates-batch-3.metadata.json')
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex')
+const expectedGenerationSourceSha256 = '765de77ae1f3b3d44f271df100d3bfa2fdd9c8be97cfdb59a797eaf7568d8d83'
 const excludedIds = new Set(['6MB3T', '4C92G', '3H3C9', '4LTSY'])
 const expected = new Map([
   ['3WWNQ', {
@@ -33,7 +34,10 @@ const expected = new Map([
 ])
 const facets = ['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation']
 const allowedStatuses = new Set(['supported', 'partially-supported', 'searched-no-evidence', 'conflicted', 'not-assessed'])
-const source = JSON.parse(readFileSync(sourcePath, 'utf8'))
+const sourceBytes = readFileSync(sourcePath)
+const generationSourceSha256 = sha256(sourceBytes)
+assert.equal(generationSourceSha256, expectedGenerationSourceSha256, 'Generation source JSON bytes changed; review provenance and update the pinned source digest deliberately')
+const source = JSON.parse(sourceBytes.toString('utf8'))
 assert.equal(source.schemaVersion, 1)
 assert.equal(source.releaseAlias, 'COL26.8')
 assert.equal(source.checklistBankDatasetKey, 316115)
@@ -122,10 +126,12 @@ const manifest = {
   compressedBytes: compressed.length,
   checkedAt: source.checkedAt,
   generationSource: 'data/sources/primates-dossiers-batch-3.json',
+  generationSourceSha256,
 }
+assert.equal(manifest.generationSourceSha256, sha256(sourceBytes), 'Manifest must record the exact source JSON byte digest')
 
 mkdirSync(resolve(root, 'data/knowledge/raw-dossiers'), { recursive: true })
 writeFileSync(rawPath, rawBytes)
 writeFileSync(shardPath, compressed)
 writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8')
-process.stdout.write(`${JSON.stringify({ recordCount: manifest.recordCount, ids: manifest.ids, rawPath: manifest.rawPath, path: manifest.path, rawSha256: manifest.rawSha256, decodedSha256: manifest.decodedSha256, compressedSha256: manifest.compressedSha256, byteRoundTrip: decoded.equals(rawBytes) })}\n`)
+process.stdout.write(`${JSON.stringify({ recordCount: manifest.recordCount, ids: manifest.ids, rawPath: manifest.rawPath, path: manifest.path, generationSourceSha256: manifest.generationSourceSha256, rawSha256: manifest.rawSha256, decodedSha256: manifest.decodedSha256, compressedSha256: manifest.compressedSha256, byteRoundTrip: decoded.equals(rawBytes) })}\n`)
