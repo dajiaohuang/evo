@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "releaseAlias": "COL26.8",
+  "batchId": "fungi-postfire-cereal-pathogen-2026-09-24",
+  "scope": "Two incomplete COL26.8 species dossiers with narrowly bounded original-study evidence: Neurospora crassa substrate-decay microcosms and Fusarium graminearum North American cereal-crop population genomics.",
+  "duplicateAudit": {
+    "mainCommit": "cac8b494a7192e8c1a5050eb4a1552202cd97b9e",
+    "openPullRequestsAtAudit": [
+      {
+        "number": 357,
+        "headSha": "845b8c3db1d96bb34d3986bda668949ba2cfe9b2"
+      }
+    ],
+    "previousFungiBatchIds": [
+      "4TWCR",
+      "4VCRL"
+    ],
+    "currentOpenPrInventory": "PR #357 was the only open PR at audit time; its catalogue-dossier-shards.json index was scanned at the pinned head above.",
+    "candidateIdsChecked": [
+      "47BC7",
+      "6JSTK"
+    ]
+  },
+  "records": [
+    {
+      "colId": "47BC7",
+      "scientificName": "Neurospora crassa Shear & B.O. Dodge",
+      "rank": "species",
+      "sourceDatasetId": "2073",
+      "checkedAt": "2026-09-24",
+      "identity": {
+        "method": "Exact COL26.8 accepted usage, verbatim scientific name including authorship, rank, status, sourceDatasetId, and Fungi classification were checked in the pinned registry release.",
+        "scope": "Nominal accepted usage 47BC7. Biological evidence is limited to one 2025 controlled substrate-decay study and does not describe all natural populations or the complete species concept.",
+        "sourceIds": [
+          "col"
+        ]
+      },
+      "lifeStatusScope": {
+        "wild": "The cited experiment used controlled single-strain microcosms with sterilized plant substrates; it does not establish wild population performance.",
+        "domesticated": "No domestication or cultivation history is assessed.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; underlying fungal source dataset 2073",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/47BC7",
+          "stableId": "col:47BC7@COL26.8",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "publishedAt": "2026-08-20",
+          "accessedAt": "2026-09-24",
+          "locator": "Accepted species usage 47BC7; name and authorship; rank species; sourceDatasetId 2073; Fungi classification",
+          "license": "Identity-only use of pinned checklist metadata; no biological prose reused",
+          "licenseAssessment": "identity-only",
+          "scope": "Accepted name, authorship, rank, status, sourceDatasetId, and classification only.",
+          "rightsHolder": "Catalogue of Life Foundation",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Pinned nomenclatural and taxonomic checklist metadata only.",
+          "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 47BC7. https://doi.org/10.48580/dgywk"
+        },
+        {
+          "id": "simpsonSchilling2025",
+          "title": "Saprotrophic Capabilities of Neurospora crassa on Charred Plant Biomass",
+          "url": "https://doi.org/10.1111/1462-2920.70132",
+          "rightsEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12186714/",
+          "stableId": "doi:10.1111/1462-2920.70132",
+          "version": "Environmental Microbiology 27(6):e70132; version of record published 2025-06-24",
+          "publishedAt": "2025-06-24",
+          "accessedAt": "2026-09-24",
+          "locator": "Abstract; Experimental Procedures, sections 2.1–2.2; Results on mass loss of wood and grass substrates",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated on the article page",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original controlled substrate-decay study; only the named N. crassa strain and tested microcosm substrates are described.",
+          "rightsHolder": "The Author(s), 2025",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Article text under CC BY 4.0; no figures or third-party material are reproduced.",
+          "attribution": "Simpson HJ, Schilling JS (2025). Saprotrophic Capabilities of Neurospora crassa on Charred Plant Biomass. Environmental Microbiology 27(6):e70132. https://doi.org/10.1111/1462-2920.70132. Claims paraphrased."
+        }
+      ],
+      "systematicSearch": {
+        "date": "2026-09-24",
+        "scope": "Pinned COL26.8 identity verification and bounded reading of one primary study for substrate-decay evidence.",
+        "method": "Matched the exact COL usage in the pinned registry and read the primary article's abstract, methods, and reported substrate-decay results. No comprehensive ecology, morphology, life-history, range, fossil, or conservation review was performed.",
+        "queryOrPath": "COL26.8 usage 47BC7; DOI 10.1111/1462-2920.70132",
+        "inclusionCriteria": "Claims explicitly reported from the N. crassa microcosm assays and their tested substrates.",
+        "exclusionCriteria": "Prior literature cited by the article, untested field mechanisms, whole-species physiological generalization, and unassessed facets.",
+        "searcher": "Evo source audit"
+      },
+      "facets": {
+        "morphology": {
+          "status": "not-assessed",
+          "gaps": [
+            "The cited study does not provide a species-level morphological assessment."
+          ]
+        },
+        "lifeHistory": {
+          "status": "not-assessed",
+          "gaps": [
+            "The microcosm study does not assess reproduction or a complete developmental life history."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "In controlled assays, N. crassa did not show enhanced decay of pyrolyzed wood or grass relative to the tested non-fire-associated fungi; it degraded untreated grass substrates by more than 20% mass loss but struggled to degrade wood, with less than 6% mass loss. These are results for the tested strain and lab microcosms, not measurements of its field performance after fires.",
+              "originalLanguage": "en",
+              "translationStatus": "untranslated",
+              "sourceIds": [
+                "simpsonSchilling2025"
+              ],
+              "locator": "Abstract; Results, decay mass loss for wood and grass substrates; Experimental Procedures, single-strain microcosm design",
+              "placeTimeScope": "Laboratory microcosm assays using untreated and pyrolyzed substrates, including 225°C and 350°C heat treatments; the claim is limited to the study's experimental conditions.",
+              "lifeStatus": "A controlled cultured strain was assessed; the study does not characterize wild population abundance, seasonal activity, or field colonization."
+            }
+          ],
+          "gaps": [
+            "The article tests substrate decay in controlled microcosms; natural post-fire colonization, population dynamics, broader substrate use, and interactions in field communities remain unassessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed",
+          "gaps": [
+            "No species-level evolutionary or population-genomic analysis is used for this dossier."
+          ]
+        },
+        "distribution": {
+          "status": "not-assessed",
+          "gaps": [
+            "The experiment is not a georeferenced distribution survey."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed",
+          "gaps": [
+            "No fossil or paleontological search was performed."
+          ]
+        },
+        "conservation": {
+          "status": "not-assessed",
+          "gaps": [
+            "No formal conservation assessment or population-trend review was performed."
+          ]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Only one bounded substrate-decay result from a controlled primary study has been assessed; morphology, life history, evolution, distribution, fossil, and conservation facets remain not-assessed.",
+          "No systematic literature search or complete comparison with the COL26.8 species concept has been completed.",
+          "No independent expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      }
+    },
+    {
+      "colId": "6JSTK",
+      "scientificName": "Fusarium graminearum Schwabe",
+      "rank": "species",
+      "sourceDatasetId": "2073",
+      "checkedAt": "2026-09-24",
+      "identity": {
+        "method": "Exact COL26.8 accepted usage, verbatim scientific name including authorship, rank, status, sourceDatasetId, and Fungi classification were checked in the pinned registry release.",
+        "scope": "Nominal accepted usage 6JSTK. Biological claims describe the 60 North American cereal-crop isolates and analyses in Kelly and Ward (2018), not all isolates or the complete species concept.",
+        "sourceIds": [
+          "col"
+        ]
+      },
+      "lifeStatusScope": {
+        "wild": "The source isolates were collected from cereal crops; their source category does not establish unmanaged wild populations.",
+        "domesticated": "The study samples a pathogen associated with agricultural crop systems but does not assess domestication of the fungus.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; underlying fungal source dataset 2073",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/6JSTK",
+          "stableId": "col:6JSTK@COL26.8",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "publishedAt": "2026-08-20",
+          "accessedAt": "2026-09-24",
+          "locator": "Accepted species usage 6JSTK; name and authorship; rank species; sourceDatasetId 2073; Fungi classification",
+          "license": "Identity-only use of pinned checklist metadata; no biological prose reused",
+          "licenseAssessment": "identity-only",
+          "scope": "Accepted name, authorship, rank, status, sourceDatasetId, and classification only.",
+          "rightsHolder": "Catalogue of Life Foundation",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Pinned nomenclatural and taxonomic checklist metadata only.",
+          "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 6JSTK. https://doi.org/10.48580/dgywk"
+        },
+        {
+          "id": "kellyWard2018",
+          "title": "Population genomics of Fusarium graminearum reveals signatures of divergent evolution within a major cereal pathogen",
+          "url": "https://doi.org/10.1371/journal.pone.0194616",
+          "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194616",
+          "stableId": "doi:10.1371/journal.pone.0194616",
+          "version": "PLOS ONE 13(3):e0194616; version of record published 2018-03-27",
+          "publishedAt": "2018-03-27",
+          "accessedAt": "2026-09-24",
+          "locator": "Abstract; Results, Population genomic structure; Figure 1; Materials and Methods, Genome sequencing",
+          "license": "Creative Commons CC0 1.0 Universal public domain dedication, stated on the article page",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original whole-genome population study of three North American F. graminearum cereal-crop isolate groups; dossier statements are limited to the sampled isolates.",
+          "rightsHolder": "Amy C. Kelly and Todd J. Ward; article released under CC0 1.0",
+          "licenseVersion": "CC0 1.0 Universal",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "licenseAppliesTo": "Article and its text under CC0 1.0; separately credited material may carry separate terms. No figures are reproduced.",
+          "attribution": "Kelly AC, Ward TJ (2018). PLOS ONE 13(3):e0194616. https://doi.org/10.1371/journal.pone.0194616. Claims paraphrased."
+        }
+      ],
+      "systematicSearch": {
+        "date": "2026-09-24",
+        "scope": "Pinned COL26.8 identity verification and bounded reading of one primary whole-genome population study.",
+        "method": "Matched the exact COL usage in the pinned registry and read the article abstract, population-genomics results, Figure 1 description, and sample collection methods. No comprehensive global distribution, ecological, fossil, or conservation review was performed.",
+        "queryOrPath": "COL26.8 usage 6JSTK; DOI 10.1371/journal.pone.0194616",
+        "inclusionCriteria": "Claims directly reported for the paper's North American cereal-crop isolates and genome analyses.",
+        "exclusionCriteria": "Secondary-source range statements, inference beyond the sampled groups, claims from other Fusarium species, and unassessed facets.",
+        "searcher": "Evo source audit"
+      },
+      "facets": {
+        "morphology": {
+          "status": "not-assessed",
+          "gaps": [
+            "The cited genomic study does not provide a species-level morphological assessment."
+          ]
+        },
+        "lifeHistory": {
+          "status": "not-assessed",
+          "gaps": [
+            "The cited study does not directly assess the complete reproductive or developmental life history."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The study's population-genomic panel comprised 60 F. graminearum isolates collected from cereal crops in the northern United States and southern Canada: 20 NA1/15ADON, 20 NA2/3ADON, and 20 NX-2 isolates. This describes the source and structure of that sample, not their prevalence across the species' range or all host plants.",
+              "originalLanguage": "en",
+              "translationStatus": "untranslated",
+              "sourceIds": [
+                "kellyWard2018"
+              ],
+              "locator": "Abstract; Materials and Methods, Genome sequencing; Figure 1",
+              "placeTimeScope": "North American cereal-crop isolates selected for the 2018 population-genomic analysis; exact dates and exhaustive site coverage are not claimed here.",
+              "lifeStatus": "Crop-associated field isolates; the study does not resolve wild-host populations or fungal domestication."
+            }
+          ],
+          "gaps": [
+            "This selected population-genomic panel is not a comprehensive host, habitat, or geographic survey; the broader ecological niches and field prevalence remain unassessed."
+          ]
+        },
+        "evolution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Bayesian clustering and phylogenomic analyses of the 60 sampled isolates supported three North American populations (NA1, NA2, and NA3); eight NX-2 isolates had admixed ancestry across the groups. This is population structure in the study panel, not a species-wide phylogeny or global evolutionary history.",
+              "originalLanguage": "en",
+              "translationStatus": "untranslated",
+              "sourceIds": [
+                "kellyWard2018"
+              ],
+              "locator": "Abstract; Results, Population genomic structure; Figure 1 and its legend",
+              "placeTimeScope": "Whole-genome data from 60 cereal-crop isolates sampled across North America; group assignments follow the authors' 2018 analyses.",
+              "lifeStatus": "Molecular evidence from archived crop-associated isolates; no current population status is inferred."
+            }
+          ],
+          "gaps": [
+            "The study is geographically limited and does not establish a global species phylogeny, divergence dates, or the present distribution of each population."
+          ]
+        },
+        "distribution": {
+          "status": "not-assessed",
+          "gaps": [
+            "The study samples selected North American isolates and does not establish a complete native, introduced, or global range."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed",
+          "gaps": [
+            "No fossil or paleontological search was performed."
+          ]
+        },
+        "conservation": {
+          "status": "not-assessed",
+          "gaps": [
+            "No formal conservation assessment or population-trend review was performed."
+          ]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Only study-bounded crop-isolate sampling and population-genomic evidence from one primary study have been assessed; morphology, life history, distribution, fossil, and conservation facets remain not-assessed.",
+          "No systematic literature search or complete comparison with the COL26.8 species concept has been completed.",
+          "No independent expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      }
+    }
+  ]
+}
