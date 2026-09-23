@@ -1,11 +1,16 @@
 import { createHash } from 'node:crypto'
 import { readFileSync, writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
-import { brotliCompressSync, constants as zlibConstants, gunzipSync } from 'node:zlib'
+import { brotliCompressSync, brotliDecompressSync, constants as zlibConstants, gunzipSync } from 'node:zlib'
 
 const root = process.cwd()
 const sourcePath = resolve(root, 'data/knowledge/plant-model-dossier-batch-1.json')
-const outputPath = resolve(root, 'data/knowledge/catalogue-dossiers-plants-models-batch-1.jsonl.br')
+const rawRelativePath = 'data/knowledge/catalogue-dossiers-plants-models-batch-1.jsonl'
+const compressedRelativePath = 'data/knowledge/catalogue-dossiers-plants-models-batch-1.jsonl.br'
+const manifestRelativePath = 'data/knowledge/catalogue-dossiers-plants-models-batch-1.manifest.json'
+const rawPath = resolve(root, rawRelativePath)
+const compressedPath = resolve(root, compressedRelativePath)
+const manifestPath = resolve(root, manifestRelativePath)
 const registryRoot = resolve(root, 'data/catalogue-of-life/releases/2026-08-20/registry/search')
 const requiredIdentities = new Map([
   ['G26R', { file: 'name-ar.jsonl.gz', scientificName: 'Arabidopsis thaliana (L.) Heynh.', authorship: '(L.) Heynh.', sourceDatasetId: '1141' }],
@@ -59,14 +64,41 @@ try {
     }
   }
 
-  const decoded = Buffer.from(`${batch.records.map(record => JSON.stringify(record)).join('\n')}\n`, 'utf8')
-  const compressed = brotliCompressSync(decoded, { params: { [zlibConstants.BROTLI_PARAM_QUALITY]: 11 } })
-  writeFileSync(outputPath, compressed)
-  console.log(JSON.stringify({
-    output: 'data/knowledge/catalogue-dossiers-plants-models-batch-1.jsonl.br',
+  const raw = Buffer.from(`${batch.records.map(record => JSON.stringify(record)).join('\n')}\n`, 'utf8')
+  const compressed = brotliCompressSync(raw, { params: { [zlibConstants.BROTLI_PARAM_QUALITY]: 11 } })
+  const roundTripped = brotliDecompressSync(compressed)
+  if (!roundTripped.equals(raw)) throw new Error('Brotli output does not round-trip to the exact raw JSONL bytes')
+
+  const rawSha256 = createHash('sha256').update(raw).digest('hex')
+  const compressedSha256 = createHash('sha256').update(compressed).digest('hex')
+  writeFileSync(rawPath, raw)
+  writeFileSync(compressedPath, compressed)
+  const manifest = {
+    schemaVersion: 1,
+    releaseAlias: 'COL26.8',
+    encoding: 'brotli-jsonl',
     recordCount: batch.records.length,
-    decodedSha256: createHash('sha256').update(decoded).digest('hex'),
-    compressedSha256: createHash('sha256').update(compressed).digest('hex'),
+    shards: [{
+      path: compressedRelativePath,
+      decodedPath: rawRelativePath,
+      recordCount: batch.records.length,
+      decodedBytes: raw.byteLength,
+      compressedBytes: compressed.byteLength,
+      decodedSha256: rawSha256,
+      compressedSha256,
+    }],
+  }
+  writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8')
+  console.log(JSON.stringify({
+    rawOutput: rawRelativePath,
+    compressedOutput: compressedRelativePath,
+    manifestOutput: manifestRelativePath,
+    recordCount: batch.records.length,
+    decodedBytes: raw.byteLength,
+    compressedBytes: compressed.byteLength,
+    decodedSha256: rawSha256,
+    compressedSha256,
+    roundTrip: roundTripped.equals(raw),
   }, null, 2))
 } catch (error) {
   fail(error instanceof Error ? error.message : String(error))
