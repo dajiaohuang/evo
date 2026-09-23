@@ -20205,6 +20205,565 @@
         "reviewers": [],
         "reviewDigest": null
       }
+    },
+    {
+      "colId": "585HD",
+      "scientificName": "Trianoptiles capensis (Steud.) Harv.",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 585HD, name, authorship, rank and source dataset 2232 checked against the pinned taxon; WFO 2026-06 crosswalk maps it to wfo-0000590862 by exact accepted name and authorship.",
+        "scope": "Trianoptiles capensis (Steud.) Harv. as represented by COL26.8; regional biological sources do not establish global coverage."
+      },
+      "lifeStatusScope": {
+        "wild": "Biological claims concern wild regional-flora populations and wild national-assessment scope.",
+        "domesticated": "Cultivation is not covered by the cited claims; no domestication claim is made.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/585HD",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 585HD",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no biological text copied.",
+          "scope": "Accepted name, authorship, rank, status, and source-dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000590862-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Exact accepted COL 585HD / WFO wfo-0000590862 crosswalk row",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; not biological evidence."
+        },
+        {
+          "id": "sanbi-archive",
+          "title": "SANBI e-Flora of South Africa description archive, source 13861.0",
+          "url": "https://files.worldfloraonline.org/Files/South_Africa/dwca-flora_descriptions.zip",
+          "version": "e-Flora archive v1.36, issued 2022-06-06; retrieved 2026-09-05",
+          "locator": "Exact COL/WFO-linked morphology row 9189 and habitat row 27416",
+          "license": "CC BY 4.0 as stated in archive metadata; attributed and paraphrased.",
+          "scope": "South African flora description fields only; not a global account."
+        },
+        {
+          "id": "strelitzia29",
+          "title": "Archer, C. & Muasya, M. 2012. Cyperaceae. In Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29. SANBI.",
+          "url": "https://www.sanbi.org/sites/default/files/documents/documents/strelitzia-29-2012.pdf",
+          "version": "Published 2012; accessed 2026-09-23",
+          "locator": "Trianoptiles genus account, printed p. 96; species morphology, flowering period, habitat and range",
+          "license": "CC BY 4.0 as stated in the SANBI e-Flora source citation; attributed and paraphrased.",
+          "scope": "Regional Greater Cape flora account; not a current global range or conservation assessment."
+        },
+        {
+          "id": "plantzafrica",
+          "title": "SANBI PlantZAfrica. Trianoptiles Fenzl.",
+          "url": "https://pza.sanbi.org/trianoptiles",
+          "version": "Page accessed 2026-09-23; page update date not stated",
+          "locator": "Description and ecology sections; genus-level annual habit and amphicarpy account",
+          "license": "No page-specific reuse license established; facts paraphrased and linked, no text or images redistributed.",
+          "scope": "SANBI genus-level account for three Trianoptiles species; regional South African treatment, not a global survey."
+        },
+        {
+          "id": "sanbi-redlist",
+          "title": "Muasya, M. & von Staden, L. 2013. Trianoptiles capensis. SANBI Red List of South African Plants, version 2024.1.",
+          "url": "https://redlist.sanbi.org/species.php?species=2483-1",
+          "version": "Assessment dated 2013-11-29; page accessed 2026-09-23",
+          "locator": "National status and criteria, assessment date, justification, distribution, habitat and trend",
+          "license": "SANBI Red List page; page-specific reuse terms not established here; facts paraphrased and linked.",
+          "scope": "South African national conservation assessment, not a global status."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Strelitzia 29 describes a grass-like annual 6–25 cm tall with greenish spikelets. The linked e-Flora morphology row gives the same size and spikelet colour.",
+              "textZh": "SANBI 区域植物志的物种形态记载：Strelitzia 29 describes a grass-like annual 6–25 cm tall with greenish spikelets. The linked e-Flora morphology row gives the same size and spikelet colour.",
+              "sourceIds": [
+                "sanbi-archive",
+                "strelitzia29"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 96; SANBI e-Flora morphology row 9189",
+              "placeTimeScope": "Southern African regional flora evidence; limited to the cited species description.",
+              "lifeStatus": "Wild flora description; cultivation is not covered."
+            }
+          ],
+          "gaps": [
+            "Regional descriptions are partial; no scope-complete review of morphology and identification has been completed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Strelitzia 29 records flowering August–November. SANBI's genus account describes Trianoptiles species as annuals and amphicarpic, with bisexual aerial spikelets and female partly subterranean spikelets near the plant base; the account does not supply species-specific reproductive rates or a complete life cycle.",
+              "textZh": "花期记录：Strelitzia 29 records flowering August–November. SANBI 属级条目称 Trianoptiles 各种均为一年生并具双型结实，具有地上两性小穗及植株基部部分地下的雌性小穗；该条目未提供种级繁殖率或完整生活史。",
+              "sourceIds": [
+                "strelitzia29",
+                "plantzafrica"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 96; SANBI PlantZAfrica, Description and Ecology",
+              "placeTimeScope": "Regional flora account and SANBI genus-level page accessed 2026-09-23; claims retain the stated taxonomic and seasonal scope.",
+              "lifeStatus": "Wild South African flora account; cultivation is not covered."
+            }
+          ],
+          "gaps": [
+            "Reproductive observations are incomplete; seed output, germination, demographic rates and full life-cycle stages have not been reviewed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The source-specific habitat description is: The linked SANBI habitat field records damp flats or lower slopes.",
+              "textZh": "区域生境记录：The linked SANBI habitat field records damp flats or lower slopes.",
+              "sourceIds": [
+                "sanbi-archive",
+                "strelitzia29",
+                "sanbi-redlist"
+              ],
+              "locator": "SANBI e-Flora habitat row 27416; Strelitzia 29 (2012), printed p. 96; where listed, SANBI Red List habitat fields",
+              "placeTimeScope": "Regional southern African flora or national assessment scope; not a global ecological niche analysis.",
+              "lifeStatus": "Wild habitat evidence; cultivation is not covered."
+            }
+          ],
+          "gaps": [
+            "Habitat statements are partial; ecological interactions and a scope-complete ecology review remain unassessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The SANBI national assessment gives the South African range as Piketberg and Tulbagh to the Cape Peninsula and east to Knysna. Strelitzia 29 gives Ceres to the Cape Peninsula to Knysna. These are regional flora and national-assessment ranges, not global occurrence inventories.",
+              "textZh": "区域分布记录：The SANBI national assessment gives the South African range as Piketberg and Tulbagh to the Cape Peninsula and east to Knysna. Strelitzia 29 gives Ceres to the Cape Peninsula to Knysna. These are regional flora and national-assessment ranges, not global occurrence inventories.",
+              "sourceIds": [
+                "strelitzia29",
+                "sanbi-redlist"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 96; where listed, SANBI Red List distribution fields",
+              "placeTimeScope": "Regional flora and national-assessment records dated 2012 or 2013/2015; not a current global occurrence inventory.",
+              "lifeStatus": "Wild native-range evidence; the Australian mention for T. solitaria is retained as unclassified by the cited account."
+            }
+          ],
+          "gaps": [
+            "Regional distribution is partial; no current global occurrence review has been completed."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "SANBI's national assessment assigns Near Threatened B2ab(ii,iii,iv,v), assessed 2013-11-29. The assessment reports a wide extent of occurrence (46,139 km²), area of occupancy estimated below 500 km², and an estimated 10–20 remaining locations continuing to decline. These are South African assessment-era estimates, not a current census or global status.",
+              "textZh": "SANBI 南非国家评估列为近危（NT B2ab(ii,iii,iv,v)），评估日期为 2013-11-29；评估报告 EOO 46,139 km²、AOO 估计低于 500 km²，仍在下降的剩余地点估计为 10–20 个。上述为南非评估期数据，不是当前普查或全球等级。",
+              "sourceIds": [
+                "sanbi-redlist"
+              ],
+              "locator": "SANBI Red List, National Status and Criteria; assessment date and justification",
+              "placeTimeScope": "South African national assessment dated 2013; area and location estimates are assessment-era values.",
+              "lifeStatus": "Wild South African populations; cultivated plants are outside the assessment."
+            }
+          ],
+          "gaps": [
+            "The cited assessment is regional and dated; no current global conservation assessment has been established in this dossier."
+          ]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Regional evidence is partial; fossil occurrence and one or more of evolution or conservation remain unassessed, and no global scope-complete synthesis has been completed.",
+          "No reproducible global literature and occurrence review, fossil review, or external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      }
+    },
+    {
+      "colId": "7CP59",
+      "scientificName": "Trianoptiles solitaria (C.B.Clarke) Levyns",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 7CP59, name, authorship, rank and source dataset 2232 checked against the pinned taxon; WFO 2026-06 crosswalk maps it to wfo-0000590865 by exact accepted name and authorship.",
+        "scope": "Trianoptiles solitaria (C.B.Clarke) Levyns as represented by COL26.8; regional biological sources do not establish global coverage."
+      },
+      "lifeStatusScope": {
+        "wild": "Biological claims concern wild regional-flora populations and wild national-assessment scope.",
+        "domesticated": "Cultivation is not covered by the cited claims; no domestication claim is made.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/7CP59",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 7CP59",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no biological text copied.",
+          "scope": "Accepted name, authorship, rank, status, and source-dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000590865-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Exact accepted COL 7CP59 / WFO wfo-0000590865 crosswalk row",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; not biological evidence."
+        },
+        {
+          "id": "sanbi-archive",
+          "title": "SANBI e-Flora of South Africa description archive, source 13861.0",
+          "url": "https://files.worldfloraonline.org/Files/South_Africa/dwca-flora_descriptions.zip",
+          "version": "e-Flora archive v1.36, issued 2022-06-06; retrieved 2026-09-05",
+          "locator": "Exact COL/WFO-linked morphology row 9190 and habitat row 27417",
+          "license": "CC BY 4.0 as stated in archive metadata; attributed and paraphrased.",
+          "scope": "South African flora description fields only; not a global account."
+        },
+        {
+          "id": "strelitzia29",
+          "title": "Archer, C. & Muasya, M. 2012. Cyperaceae. In Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29. SANBI.",
+          "url": "https://www.sanbi.org/sites/default/files/documents/documents/strelitzia-29-2012.pdf",
+          "version": "Published 2012; accessed 2026-09-23",
+          "locator": "Trianoptiles genus account, printed p. 96; species morphology, flowering period, habitat and range",
+          "license": "CC BY 4.0 as stated in the SANBI e-Flora source citation; attributed and paraphrased.",
+          "scope": "Regional Greater Cape flora account; not a current global range or conservation assessment."
+        },
+        {
+          "id": "plantzafrica",
+          "title": "SANBI PlantZAfrica. Trianoptiles Fenzl.",
+          "url": "https://pza.sanbi.org/trianoptiles",
+          "version": "Page accessed 2026-09-23; page update date not stated",
+          "locator": "Description and ecology sections; genus-level annual habit and amphicarpy account",
+          "license": "No page-specific reuse license established; facts paraphrased and linked, no text or images redistributed.",
+          "scope": "SANBI genus-level account for three Trianoptiles species; regional South African treatment, not a global survey."
+        },
+        {
+          "id": "verboom2006",
+          "title": "Verboom, G.A. 2006. A phylogeny of the schoenoid sedges (Cyperaceae: Schoeneae) based on plastid DNA sequences, with special reference to the genera found in Africa. Molecular Phylogenetics and Evolution 38: 79–89.",
+          "url": "https://doi.org/10.1016/j.ympev.2005.05.012",
+          "version": "Published 2006; accessed 2026-09-23",
+          "locator": "Table 2 p. 83; combined phylogenetic results, Figs. 1–2 and discussion, pp. 85–87",
+          "license": "Copyright Elsevier; no reuse license declared. Facts paraphrased; article text and figures are not redistributed.",
+          "scope": "T. solitaria is represented by one trnL–trnF sequence attributed to Zhang et al. (2004); not genome-wide sampling."
+        },
+        {
+          "id": "sanbi-redlist",
+          "title": "von Witt, C., Raimondo, D. & van der Colff, D. 2015. Trianoptiles solitaria. SANBI Red List of South African Plants, version 2024.1.",
+          "url": "https://redlist.sanbi.org/species.php?species=2483-2",
+          "version": "Assessment dated 2015-05-13; page accessed 2026-09-23",
+          "locator": "National status and criteria, assessment date, justification, distribution, habitat and threats",
+          "license": "SANBI Red List page; page-specific reuse terms not established here; facts paraphrased and linked.",
+          "scope": "South African national conservation assessment, not a global status."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Strelitzia 29 describes a grass-like annual 10–30 cm tall with greenish spikelets.",
+              "textZh": "SANBI 区域植物志的物种形态记载：Strelitzia 29 describes a grass-like annual 10–30 cm tall with greenish spikelets.",
+              "sourceIds": [
+                "sanbi-archive",
+                "strelitzia29"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 96; SANBI e-Flora morphology row 9190",
+              "placeTimeScope": "Southern African regional flora evidence; limited to the cited species description.",
+              "lifeStatus": "Wild flora description; cultivation is not covered."
+            }
+          ],
+          "gaps": [
+            "Regional descriptions are partial; no scope-complete review of morphology and identification has been completed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Strelitzia 29 records flowering August–October. SANBI's genus account describes Trianoptiles species as annuals and amphicarpic, with bisexual aerial spikelets and female partly subterranean spikelets near the plant base; the account does not supply species-specific reproductive rates or a complete life cycle.",
+              "textZh": "花期记录：Strelitzia 29 records flowering August–October. SANBI 属级条目称 Trianoptiles 各种均为一年生并具双型结实，具有地上两性小穗及植株基部部分地下的雌性小穗；该条目未提供种级繁殖率或完整生活史。",
+              "sourceIds": [
+                "strelitzia29",
+                "plantzafrica"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 96; SANBI PlantZAfrica, Description and Ecology",
+              "placeTimeScope": "Regional flora account and SANBI genus-level page accessed 2026-09-23; claims retain the stated taxonomic and seasonal scope.",
+              "lifeStatus": "Wild South African flora account; cultivation is not covered."
+            }
+          ],
+          "gaps": [
+            "Reproductive observations are incomplete; seed output, germination, demographic rates and full life-cycle stages have not been reviewed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The source-specific habitat description is: The regional flora records damp flats; the SANBI national assessment specifies damp depressions in acid sands.",
+              "textZh": "区域生境记录：The regional flora records damp flats; the SANBI national assessment specifies damp depressions in acid sands.",
+              "sourceIds": [
+                "sanbi-archive",
+                "strelitzia29",
+                "sanbi-redlist"
+              ],
+              "locator": "SANBI e-Flora habitat row 27417; Strelitzia 29 (2012), printed p. 96; where listed, SANBI Red List habitat fields",
+              "placeTimeScope": "Regional southern African flora or national assessment scope; not a global ecological niche analysis.",
+              "lifeStatus": "Wild habitat evidence; cultivation is not covered."
+            }
+          ],
+          "gaps": [
+            "Habitat statements are partial; ecological interactions and a scope-complete ecology review remain unassessed."
+          ]
+        },
+        "evolution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Verboom's 2006 plastid phylogeny includes T. solitaria as a trnL–trnF sequence terminal inherited from Zhang et al. (2004). In the analyses, Trianoptiles and Carpha form a sister grouping to the remaining taxa in the relevant clade (bootstrap 93%, posterior probability 1.00). This is a single-locus inherited sequence and a study-tree result, not a genome-wide species history or divergence-time estimate.",
+              "textZh": "Verboom (2006) 的叶绿体系统发育分析纳入 T. solitaria 的单个 trnL–trnF 序列（引自 Zhang 等 2004），并在其采样树中得到 Trianoptiles 与 Carpha 的姐妹群关系（bootstrap 93%，posterior probability 1.00）。这是单个位点和该研究树的结果，不代表全基因组亲缘或分歧时间。",
+              "sourceIds": [
+                "verboom2006"
+              ],
+              "locator": "Verboom 2006, Table 2 p. 83; Figs. 1–2 pp. 85–86; results pp. 84–85",
+              "placeTimeScope": "One inherited plastid locus for T. solitaria in a 2006 multi-taxon study; no divergence date inferred.",
+              "lifeStatus": "Wild voucher-derived sequence evidence as reported by the cited study."
+            }
+          ],
+          "gaps": [
+            "One inherited plastid sequence and study-tree topology do not establish a genome-wide or complete species evolutionary history."
+          ]
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The SANBI national assessment gives the South African range as the Cape Peninsula to Perdeberg south of Malmesbury. Strelitzia 29 lists Cold Bokkeveld Mountains, Paardeberg and Cape Flats, and separately notes Australia; the regional account does not specify the biogeographic status of that Australian record, so it is not used to infer a native or introduced range.",
+              "textZh": "区域分布记录：The SANBI national assessment gives the South African range as the Cape Peninsula to Perdeberg south of Malmesbury. Strelitzia 29 lists Cold Bokkeveld Mountains, Paardeberg and Cape Flats, and separately notes Australia; the regional account does not specify the biogeographic status of that Australian record, so it is not used to infer a native or introduced range.",
+              "sourceIds": [
+                "strelitzia29",
+                "sanbi-redlist"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 96; where listed, SANBI Red List distribution fields",
+              "placeTimeScope": "Regional flora and national-assessment records dated 2012 or 2013/2015; not a current global occurrence inventory.",
+              "lifeStatus": "Wild native-range evidence; the Australian mention for T. solitaria is retained as unclassified by the cited account."
+            }
+          ],
+          "gaps": [
+            "Regional distribution is partial; no current global occurrence review has been completed."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "SANBI's national assessment assigns Endangered B1ab(i,ii,iii,iv,v), assessed 2015-05-13. The assessment reports an extent of occurrence of 400 km², area of occupancy below 230 km², four known locations, and threats including habitat degradation by invasive alien plants and eutrophication. This is a South African assessment, not a global status.",
+              "textZh": "SANBI 南非国家评估列为濒危（EN B1ab(i,ii,iii,iv,v)），评估日期为 2015-05-13；评估报告 EOO 400 km²、AOO 低于 230 km²、已知 4 个地点，并记录入侵植物导致的生境退化及富营养化等威胁。此为南非国家评估，不是全球等级。",
+              "sourceIds": [
+                "sanbi-redlist"
+              ],
+              "locator": "SANBI Red List, National Status and Criteria; assessment date and justification",
+              "placeTimeScope": "South African national assessment dated 2015; area and location estimates are assessment-era values.",
+              "lifeStatus": "Wild South African populations; cultivated plants are outside the assessment."
+            }
+          ],
+          "gaps": [
+            "The cited assessment is regional and dated; no current global conservation assessment has been established in this dossier."
+          ]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Regional evidence is partial; fossil occurrence and one or more of evolution or conservation remain unassessed, and no global scope-complete synthesis has been completed.",
+          "No reproducible global literature and occurrence review, fossil review, or external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      }
+    },
+    {
+      "colId": "585HF",
+      "scientificName": "Trianoptiles stipitata Levyns",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage 585HF, name, authorship, rank and source dataset 2232 checked against the pinned taxon; WFO 2026-06 crosswalk maps it to wfo-0000590875 by exact accepted name and authorship.",
+        "scope": "Trianoptiles stipitata Levyns as represented by COL26.8; regional biological sources do not establish global coverage."
+      },
+      "lifeStatusScope": {
+        "wild": "Biological claims concern wild regional-flora populations and wild national-assessment scope.",
+        "domesticated": "Cultivation is not covered by the cited claims; no domestication claim is made.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/585HF",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 585HF",
+          "license": "CC BY 4.0 for pinned checklist record; cited for identity only, no biological text copied.",
+          "scope": "Accepted name, authorship, rank, status, and source-dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000590875-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Exact accepted COL 585HF / WFO wfo-0000590875 crosswalk row",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; not biological evidence."
+        },
+        {
+          "id": "sanbi-archive",
+          "title": "SANBI e-Flora of South Africa description archive, source 13861.0",
+          "url": "https://files.worldfloraonline.org/Files/South_Africa/dwca-flora_descriptions.zip",
+          "version": "e-Flora archive v1.36, issued 2022-06-06; retrieved 2026-09-05",
+          "locator": "Exact COL/WFO-linked morphology row 9191 and habitat row 27418",
+          "license": "CC BY 4.0 as stated in archive metadata; attributed and paraphrased.",
+          "scope": "South African flora description fields only; not a global account."
+        },
+        {
+          "id": "strelitzia29",
+          "title": "Archer, C. & Muasya, M. 2012. Cyperaceae. In Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29. SANBI.",
+          "url": "https://www.sanbi.org/sites/default/files/documents/documents/strelitzia-29-2012.pdf",
+          "version": "Published 2012; accessed 2026-09-23",
+          "locator": "Trianoptiles genus account, printed p. 96; species morphology, flowering period, habitat and range",
+          "license": "CC BY 4.0 as stated in the SANBI e-Flora source citation; attributed and paraphrased.",
+          "scope": "Regional Greater Cape flora account; not a current global range or conservation assessment."
+        },
+        {
+          "id": "plantzafrica",
+          "title": "SANBI PlantZAfrica. Trianoptiles Fenzl.",
+          "url": "https://pza.sanbi.org/trianoptiles",
+          "version": "Page accessed 2026-09-23; page update date not stated",
+          "locator": "Description and ecology sections; genus-level annual habit and amphicarpy account",
+          "license": "No page-specific reuse license established; facts paraphrased and linked, no text or images redistributed.",
+          "scope": "SANBI genus-level account for three Trianoptiles species; regional South African treatment, not a global survey."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Strelitzia 29 diagnoses the species as like T. capensis but with a stalked ovary.",
+              "textZh": "SANBI 区域植物志的物种形态记载：Strelitzia 29 diagnoses the species as like T. capensis but with a stalked ovary.",
+              "sourceIds": [
+                "sanbi-archive",
+                "strelitzia29"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 96; SANBI e-Flora morphology row 9191",
+              "placeTimeScope": "Southern African regional flora evidence; limited to the cited species description.",
+              "lifeStatus": "Wild flora description; cultivation is not covered."
+            }
+          ],
+          "gaps": [
+            "Regional descriptions are partial; no scope-complete review of morphology and identification has been completed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Strelitzia 29 records flowering August–October. SANBI's genus account describes Trianoptiles species as annuals and amphicarpic, with bisexual aerial spikelets and female partly subterranean spikelets near the plant base; the account does not supply species-specific reproductive rates or a complete life cycle.",
+              "textZh": "花期记录：Strelitzia 29 records flowering August–October. SANBI 属级条目称 Trianoptiles 各种均为一年生并具双型结实，具有地上两性小穗及植株基部部分地下的雌性小穗；该条目未提供种级繁殖率或完整生活史。",
+              "sourceIds": [
+                "strelitzia29",
+                "plantzafrica"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 96; SANBI PlantZAfrica, Description and Ecology",
+              "placeTimeScope": "Regional flora account and SANBI genus-level page accessed 2026-09-23; claims retain the stated taxonomic and seasonal scope.",
+              "lifeStatus": "Wild South African flora account; cultivation is not covered."
+            }
+          ],
+          "gaps": [
+            "Reproductive observations are incomplete; seed output, germination, demographic rates and full life-cycle stages have not been reviewed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The source-specific habitat description is: The regional flora records sandy flats and plateaus.",
+              "textZh": "区域生境记录：The regional flora records sandy flats and plateaus.",
+              "sourceIds": [
+                "sanbi-archive",
+                "strelitzia29"
+              ],
+              "locator": "SANBI e-Flora habitat row 27418; Strelitzia 29 (2012), printed p. 96; where listed, SANBI Red List habitat fields",
+              "placeTimeScope": "Regional southern African flora or national assessment scope; not a global ecological niche analysis.",
+              "lifeStatus": "Wild habitat evidence; cultivation is not covered."
+            }
+          ],
+          "gaps": [
+            "Habitat statements are partial; ecological interactions and a scope-complete ecology review remain unassessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Strelitzia 29 gives the regional range as Gifberg to the Cape Peninsula and Hottentots Holland Mountains in northwestern and southwestern Cape regions; this is not a global occurrence inventory.",
+              "textZh": "区域分布记录：Strelitzia 29 gives the regional range as Gifberg to the Cape Peninsula and Hottentots Holland Mountains in northwestern and southwestern Cape regions; this is not a global occurrence inventory.",
+              "sourceIds": [
+                "strelitzia29"
+              ],
+              "locator": "Strelitzia 29 (2012), printed p. 96; where listed, SANBI Red List distribution fields",
+              "placeTimeScope": "Regional flora and national-assessment records dated 2012 or 2013/2015; not a current global occurrence inventory.",
+              "lifeStatus": "Wild native-range evidence; the Australian mention for T. solitaria is retained as unclassified by the cited account."
+            }
+          ],
+          "gaps": [
+            "Regional distribution is partial; no current global occurrence review has been completed."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Regional evidence is partial; fossil occurrence and one or more of evolution or conservation remain unassessed, and no global scope-complete synthesis has been completed.",
+          "No reproducible global literature and occurrence review, fossil review, or external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      }
     }
   ]
 }
