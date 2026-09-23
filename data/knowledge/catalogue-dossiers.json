@@ -1321,6 +1321,144 @@
       "expertReview": {
         "status": "not-reviewed"
       }
+    },
+    {
+      "colId": "6RCXW",
+      "scientificName": "Metalasia acuta P.O.Karis",
+      "rank": "species",
+      "sourceDatasetId": "1141",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted node 6RCXW checked for name, authorship, rank, status and source dataset ID; pinned WFO 2026-06 crosswalk maps it to wfo-0000065668 by exact accepted name and authorship.",
+        "scope": "Metalasia acuta as represented by COL26.8 usage 6RCXW; the Greater Cape flora account is regional evidence, not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/6RCXW",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 6RCXW",
+          "license": "CC BY 4.0 for the pinned checklist record; cited for identity only, no COL biological text copied",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000065668-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL 6RCXW / WFO wfo-0000065668",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Manning & Goldblatt. 2012. Asteraceae: Metalasia R.Br. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI Opus item-specific license metadata checked 2026-09-23; e-Flora archive v1.36 issued 2022-06-06",
+          "locator": "Metalasia acuta account, p. 395; source ID 14179.0; Morphology row 10286 and Habitat row 26222",
+          "license": "SANBI Opus publication record declares CC BY-SA 4.0; SANBI e-Flora archive citation labels the treatment [CC BY]. The stricter item-level CC BY-SA 4.0 is recorded; facts are paraphrased with attribution.",
+          "scope": "Greater Cape Floristic Region flora account, not a global range assessment."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "A rigid, white-woolly shrub to 1.5 m, with pungent twisted leaves 3–15 mm long and axillary tufts; its discoid flower heads occur in dense terminal clusters and have erect, serrate, white inner petaloid bracts.",
+              "textZh": "植株为坚硬、白色绵毛灌木，高至 1.5 m；叶具刺、扭曲，长 3–15 mm，叶腋有簇毛；盘状头状花序密集排列于顶生簇中，内层花瓣状苞片直立、具锯齿且白色。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Metalasia acuta account, p. 395; archive Morphology row 10286",
+              "placeTimeScope": "Greater Cape regional flora account published 2012; no sample size or measurement protocol given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering from November through April.",
+              "textZh": "该条目记载花期为 11 月至 4 月。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Metalasia acuta account, p. 395, flowering-time entry",
+              "placeTimeScope": "Regional account published 2012; not a global phenology analysis.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records sandy and clay flats and slopes up to 1,300 m as habitat.",
+              "textZh": "该条目记载生境为海拔最高 1,300 m 的沙质与黏土平地及坡地。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Metalasia acuta account, p. 395; archive Habitat row 26222",
+              "placeTimeScope": "Regional habitat and elevation summary; no dated observation sites, frequency or sampling frame are given.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account lists source regional codes SW, AP, KM and LB, and localities from Cape Hangklip to George.",
+              "textZh": "该条目列出来源区域代码 SW、AP、KM、LB，以及从 Cape Hangklip 至 George 的地点范围。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Metalasia acuta account, p. 395, distribution entry",
+              "placeTimeScope": "Greater Cape Floristic Region summary published 2012; not a current global range polygon.",
+              "lifeStatus": "Regional flora account; wild native and naturalised populations are not distinguished at claim level."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
     }
   ]
 }

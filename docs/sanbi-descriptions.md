@@ -157,3 +157,6 @@ The archive also maps COL `32DNP` *Cullumia micracantha* to WFO `wfo-0000080801`
 
 
 Two *Metalasia* species were additionally checked against their individual printed accounts in the official Strelitzia 29 PDF: *M. divergens* (COL `6RCXR`, WFO `wfo-0000029921`, p. 397, archive rows 10336/26238) and *M. cymbifolia* (COL `6RCXS`, WFO `wfo-0000030968`, p. 395, rows 10299/26235). The printed accounts give morphology, flowering months, habitat and regional distribution; all four facets remain partial. The SANBI Opus item record states CC BY-SA 4.0 while the e-Flora archive citation labels the treatment [CC BY]; the dossier follows the stricter item-level license and records only attributed paraphrases.
+
+
+A third *Metalasia* account is *M. acuta* (COL `6RCXW`, WFO `wfo-0000065668`, Strelitzia 29 p. 395, archive rows 10286/26222). The printed page directly supports partial morphology, flowering months, habitat/elevation and regional distribution. Its source licensing is recorded under the same stricter CC BY-SA 4.0 item-level metadata noted above.
