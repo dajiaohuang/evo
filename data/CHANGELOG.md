@@ -1,5 +1,9 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc153 — 2026-09-23
+
+- Added six source-linked bilingual introductions from order Araneae through Atracidae and Atrax to three Sydney-region funnel-web species. The 2025 morphological and molecular reassessment is bounded to its sampled species complex; regional ranges and withheld localities remain explicit. Historical source counts, venom rankings, clinical guidance and conservation judgments were excluded.
+
 ## 2026.09-static-v5-rc152 — 2026-09-23
 
 - Added four source-linked bilingual introductions tracing Carnivora through Canidae and Vulpes to the red fox under the pinned COL26.8 hierarchy. The accounts distinguish taxonomic names from diet, genus-level habitat contrasts from species-level ranges, and native from introduced records. ADW's old counts, quantitative size ranges, conservation assessments and divergence dates were not reused.
