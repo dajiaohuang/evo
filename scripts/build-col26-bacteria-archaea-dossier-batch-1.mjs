@@ -46,9 +46,9 @@ function makeRecord(t) {
   ]))
 
   return {
-    colId: t.colId, scientificName: t.name, rank: 'species', sourceDatasetId, checkedAt,
+    colId: t.colId, scientificName: t.acceptedScientificName ?? t.name, rank: 'species', sourceDatasetId, checkedAt,
     identity: {
-      method: `Exact COL26.8 accepted usage ${t.colId} was checked by API fields for full scientific name ${t.name}, authorship ${t.authorship}, species rank, accepted status and source dataset 2015. The pinned COL26.8 LPSN source-record crosswalk maps this exact COL ID to LPSN record ${t.lpsnId}; the linked LPSN record was checked for matching name usage and nomenclatural status. No name-only or fuzzy join was used.`,
+      method: `Exact COL26.8 accepted usage ${t.colId} was checked by API fields for full scientific name ${t.acceptedScientificName ?? t.name}, authorship ${t.authorship}, species rank, accepted status and source dataset 2015. The pinned COL26.8 LPSN source-record crosswalk maps this exact COL ID to LPSN record ${t.lpsnId}; the linked LPSN record was checked for matching name usage and nomenclatural status. No name-only or fuzzy join was used.`,
       scope: 'This establishes a nomenclatural usage crosswalk only; it does not establish full biological species-concept equivalence.',
       sourceIds: ['col', 'lpsn']
     },
