@@ -631,6 +631,420 @@
       },
       "completeness": { "status": "incomplete", "reasons": ["Four facets have only partial regional evidence and three remain unassessed.", "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."] },
       "expertReview": { "status": "not-reviewed" }
+    },
+    {
+      "colId": "32DNX",
+      "scientificName": "Cullumia selago Roessler",
+      "rank": "species",
+      "sourceDatasetId": "1141",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted node 32DNX checked for name, authorship, rank, status and source dataset ID; pinned WFO 2026-06 crosswalk maps it to wfo-0000085810 by exact accepted name and authorship.",
+        "scope": "Cullumia selago Roessler as represented by COL26.8 usage 32DNX; the Greater Cape flora account is regional evidence, not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/32DNX",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 32DNX",
+          "license": "CC BY 4.0 for the pinned checklist record; cited for identity only, no COL biological text copied",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000085810-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL 32DNX / WFO wfo-0000085810",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Manning & Goldblatt. 2012. Asteraceae: Cullumia. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI e-Flora archive v1.36 issued 2022-06-06; archive accessed 2026-09-23",
+          "locator": "Cullumia selago Roessler account, p. 367; SANBI/WFO archive source identifier 14129.0, Morphology row 11358 and Habitat row 25925",
+          "license": "SANBI e-Flora archive EML declares CC BY 4.0; source citation marks the item [CC BY]. Attribution required. Facts are paraphrased; individual publication license version has not been independently inspected.",
+          "scope": "Regional Cape flora account. The source reports sandstone slopes and a southeastern regional distribution; it is not a global range assessment."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "A prickly, densely leafy shrublet to 20 cm; leaves incurved, elliptic, bristly in two rows, pungent and inflexed; flower heads radiate and yellow.",
+              "textZh": "植株为高至 20 cm、密叶且多刺的小灌木；叶内弯、椭圆，边缘两列具刚毛，先端尖且内折；头状花序辐射状、黄色。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Cullumia selago Roessler account, p. 367; archive Morphology row 11358",
+              "placeTimeScope": "Greater Cape regional flora account published 2012; no sample size or measurement protocol given.",
+              "lifeStatus": "The regional source does not distinguish wild native and naturalised plants."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering Mainly December.",
+              "textZh": "该条目记载花期为 Mainly December。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Cullumia selago Roessler account, p. 367, flowering-time entry",
+              "placeTimeScope": "Regional account published 2012; not a global phenology analysis.",
+              "lifeStatus": "The regional source does not distinguish wild native and naturalised plants."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records Stony slopes as habitat.",
+              "textZh": "该条目记载生境为Stony slopes。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Cullumia selago Roessler account, p. 367; archive Habitat row 25925",
+              "placeTimeScope": "Regional habitat summary; no dated observation sites, frequency or sampling frame are given.",
+              "lifeStatus": "The regional source does not distinguish wild native and naturalised plants."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account lists the regional units/localities SW (Caledon).",
+              "textZh": "该条目列出的区域单元/地点为 SW (Caledon)。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Cullumia selago Roessler account, p. 367, distribution entry",
+              "placeTimeScope": "Greater Cape Floristic Region summary published 2012; not a current global range polygon.",
+              "lifeStatus": "The regional source does not distinguish wild native and naturalised plants."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "6BPSJ",
+      "scientificName": "Cullumia aculeata (Houtt.) Roessler",
+      "rank": "species",
+      "sourceDatasetId": "1141",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted node 6BPSJ checked for name, authorship, rank, status and source dataset ID; pinned WFO 2026-06 crosswalk maps it to wfo-0000059420 by exact accepted name and authorship.",
+        "scope": "Cullumia aculeata (Houtt.) Roessler as represented by COL26.8 usage 6BPSJ; the Greater Cape flora account is regional evidence, not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/6BPSJ",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 6BPSJ",
+          "license": "CC BY 4.0 for the pinned checklist record; cited for identity only, no COL biological text copied",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000059420-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL 6BPSJ / WFO wfo-0000059420",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Manning & Goldblatt. 2012. Asteraceae: Cullumia. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI e-Flora archive v1.36 issued 2022-06-06; archive accessed 2026-09-23",
+          "locator": "Cullumia aculeata (Houtt.) Roessler account, p. 367; SANBI/WFO archive source identifier 14129.0, Morphology row 11360 and Habitat row 25915",
+          "license": "SANBI e-Flora archive EML declares CC BY 4.0; source citation marks the item [CC BY]. Attribution required. Facts are paraphrased; individual publication license version has not been independently inspected.",
+          "scope": "Regional Cape flora account. The source reports sandstone slopes and a southeastern regional distribution; it is not a global range assessment."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "A prickly, erect, densely leafy shrub to 1 m, sometimes cobwebby; leaves ascending, oblanceolate and decurrent, with slightly revolute margins and two unequal bristle rows; flower heads radiate, small and pale yellow.",
+              "textZh": "植株直立、多刺、密叶，高至 1 m，有时具蛛丝状毛；叶上举、倒披针形并下延，边缘略反卷且有两列不等长刚毛；头状花序辐射状、小、浅黄色。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Cullumia aculeata (Houtt.) Roessler account, p. 367; archive Morphology row 11360",
+              "placeTimeScope": "Greater Cape regional flora account published 2012; no sample size or measurement protocol given.",
+              "lifeStatus": "The regional source does not distinguish wild native and naturalised plants."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering Mainly September–March.",
+              "textZh": "该条目记载花期为 Mainly September–March。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Cullumia aculeata (Houtt.) Roessler account, p. 367, flowering-time entry",
+              "placeTimeScope": "Regional account published 2012; not a global phenology analysis.",
+              "lifeStatus": "The regional source does not distinguish wild native and naturalised plants."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records Dry sandstone slopes as habitat.",
+              "textZh": "该条目记载生境为Dry sandstone slopes。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Cullumia aculeata (Houtt.) Roessler account, p. 367; archive Habitat row 25915",
+              "placeTimeScope": "Regional habitat summary; no dated observation sites, frequency or sampling frame are given.",
+              "lifeStatus": "The regional source does not distinguish wild native and naturalised plants."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account lists the regional units/localities LB, SE (Langeberg: Garcia’s Pass to George).",
+              "textZh": "该条目列出的区域单元/地点为 LB, SE (Langeberg: Garcia’s Pass to George)。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Cullumia aculeata (Houtt.) Roessler account, p. 367, distribution entry",
+              "placeTimeScope": "Greater Cape Floristic Region summary published 2012; not a current global range polygon.",
+              "lifeStatus": "The regional source does not distinguish wild native and naturalised plants."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    },
+    {
+      "colId": "6BQ4J",
+      "scientificName": "Cullumia carlinoides DC.",
+      "rank": "species",
+      "sourceDatasetId": "1141",
+      "checkedAt": "2026-09-23",
+      "identity": {
+        "method": "Exact COL26.8 accepted node 6BQ4J checked for name, authorship, rank, status and source dataset ID; pinned WFO 2026-06 crosswalk maps it to wfo-0000069829 by exact accepted name and authorship.",
+        "scope": "Cullumia carlinoides DC. as represented by COL26.8 usage 6BQ4J; the Greater Cape flora account is regional evidence, not a global species synthesis."
+      },
+      "lifeStatusScope": {
+        "wild": "The flora account does not distinguish native wild from naturalised populations at claim level.",
+        "domesticated": "No cultivated or domesticated claim is made; this source does not assess domestication.",
+        "fossil": "No fossil claim is made; fossil occurrence has not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/6BQ4J",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "locator": "Accepted taxon usage 6BQ4J",
+          "license": "CC BY 4.0 for the pinned checklist record; cited for identity only, no COL biological text copied",
+          "scope": "Accepted name, authorship, rank, status and source dataset identity only."
+        },
+        {
+          "id": "wfo",
+          "title": "World Flora Online Plant List, version 2026-06, exact COL crosswalk",
+          "url": "https://list.worldfloraonline.org/wfo-0000069829-2026-06",
+          "version": "WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718",
+          "locator": "Crosswalk row COL 6BQ4J / WFO wfo-0000069829",
+          "license": "CC0-1.0",
+          "scope": "Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence."
+        },
+        {
+          "id": "sanbi",
+          "title": "Manning & Goldblatt. 2012. Asteraceae: Cullumia. Plants of the Greater Cape Floristic Region 1: The Core Cape flora. Strelitzia 29",
+          "url": "https://www.sanbi.org/wp-content/uploads/2024/05/2012_Strelitzia29.pdf",
+          "version": "Published 2012; SANBI e-Flora archive v1.36 issued 2022-06-06; archive accessed 2026-09-23",
+          "locator": "Cullumia carlinoides DC. account, p. 367; SANBI/WFO archive source identifier 14129.0, Morphology row 11351 and Habitat row 25917",
+          "license": "SANBI e-Flora archive EML declares CC BY 4.0; source citation marks the item [CC BY]. Attribution required. Facts are paraphrased; individual publication license version has not been independently inspected.",
+          "scope": "Regional Cape flora account. The source reports sandstone slopes and a southeastern regional distribution; it is not a global range assessment."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Like C. cirsioides, but with narrowly lanceolate leaves.",
+              "textZh": "与 C. cirsioides 相似，但叶片狭披针形。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Cullumia carlinoides DC. account, p. 367; archive Morphology row 11351",
+              "placeTimeScope": "Greater Cape regional flora account published 2012; no sample size or measurement protocol given.",
+              "lifeStatus": "The regional source does not distinguish wild native and naturalised plants."
+            }
+          ],
+          "gaps": [
+            "Population variation, developmental stages and independent specimen-based diagnosis remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account reports flowering June–September.",
+              "textZh": "该条目记载花期为 June–September。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Cullumia carlinoides DC. account, p. 367, flowering-time entry",
+              "placeTimeScope": "Regional account published 2012; not a global phenology analysis.",
+              "lifeStatus": "The regional source does not distinguish wild native and naturalised plants."
+            }
+          ],
+          "gaps": [
+            "Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account records Coastal sands and limestones as habitat.",
+              "textZh": "该条目记载生境为Coastal sands and limestones。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Cullumia carlinoides DC. account, p. 367; archive Habitat row 25917",
+              "placeTimeScope": "Regional habitat summary; no dated observation sites, frequency or sampling frame are given.",
+              "lifeStatus": "The regional source does not distinguish wild native and naturalised plants."
+            }
+          ],
+          "gaps": [
+            "Species interactions, resource use and population-level ecology have not been assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The account lists the regional units/localities AP, LB, SE (De Hoop to George).",
+              "textZh": "该条目列出的区域单元/地点为 AP, LB, SE (De Hoop to George)。",
+              "sourceIds": [
+                "sanbi"
+              ],
+              "locator": "Strelitzia 29 (2012), Cullumia carlinoides DC. account, p. 367, distribution entry",
+              "placeTimeScope": "Greater Cape Floristic Region summary published 2012; not a current global range polygon.",
+              "lifeStatus": "The regional source does not distinguish wild native and naturalised plants."
+            }
+          ],
+          "gaps": [
+            "Current occurrence records, status and unsampled areas have not been reconciled."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Four facets have only partial regional evidence and three remain unassessed.",
+          "No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
     }
   ]
 }

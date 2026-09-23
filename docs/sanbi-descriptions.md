@@ -149,3 +149,8 @@ complete-Atlas offline action includes it. Saving an individual rich package
 is a different action and does not promise this catalogue-level collection.
 The Pages-preview edition omits the full collection. Source text is never
 compiled into Core or added to default precache.
+
+
+Three additional exact accounts on p. 367 were verified against separate archive rows and pinned accepted-name crosswalks: *Cullumia selago* (COL `32DNX`, WFO `wfo-0000085810`, rows 11358/25925), *C. aculeata* (COL `6BPSJ`, WFO `wfo-0000059420`, rows 11360/25915), and *C. carlinoides* (COL `6BQ4J`, WFO `wfo-0000069829`, rows 11351/25917). Each has four partial regional facets only; evolution, fossil and conservation remain unassessed.
+
+The archive also maps COL `32DNP` *Cullumia micracantha* to WFO `wfo-0000080801`, but the printed p. 367 account spells the name *micrantha* (without “c”). Because the accepted-name mapping and printed account are not reconciled, this candidate is excluded from the dossiers pending resolution. The page and archive records are not treated as proof that these sources exhaust any species-level topic.
