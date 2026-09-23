@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "releaseAlias": "COL26.8",
+  "batchId": "primates-hylobates-lar-batch6-2026-09-24",
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "duplicateAudit": {
+    "baseHead": "1a4e9e465e80f89bf87a45fc2237e864de495cb9",
+    "openPullRequests": [],
+    "checkedIndexRecords": 6914,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "records": [
+    {
+      "colId": "3NFRS",
+      "scientificName": "Hylobates lar (Linnaeus, 1771)",
+      "authorship": "(Linnaeus, 1771)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-09-24",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage verified against the pinned search and hierarchy registries, including verbatim name, authorship, rank, sourceDatasetId and every accepted parent node.",
+        "scope": "Nominal species as represented by COL26.8 usage 3NFRS. The biological source studies free-ranging lar gibbons at one Thai field site and does not establish a complete species account.",
+        "sourceIds": ["col"]
+      },
+      "classificationPath": [
+        {"id":"CS5HF","scientificName":"Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978","authorship":"(Chatton, 1925) Whittaker & Margulis, 1978","rank":"domain","status":"accepted","sourceDatasetId":null},
+        {"id":"N","scientificName":"Animalia","authorship":null,"rank":"kingdom","status":"accepted","sourceDatasetId":null},
+        {"id":"CH2","scientificName":"Chordata","authorship":null,"rank":"phylum","status":"accepted","sourceDatasetId":null},
+        {"id":"8V4V3","scientificName":"Vertebrata","authorship":null,"rank":"subphylum","status":"accepted","sourceDatasetId":null},
+        {"id":"8V4V5","scientificName":"Gnathostomata","authorship":null,"rank":"infraphylum","status":"accepted","sourceDatasetId":null},
+        {"id":"8VVWB","scientificName":"Osteichthyes","authorship":null,"rank":"parvphylum","status":"accepted","sourceDatasetId":null},
+        {"id":"9CK8W","scientificName":"Tetrapoda","authorship":null,"rank":"megaclass","status":"accepted","sourceDatasetId":null},
+        {"id":"6224G","scientificName":"Mammalia Linnaeus, 1758","authorship":"Linnaeus, 1758","rank":"class","status":"accepted","sourceDatasetId":"2144"},
+        {"id":"6226C","scientificName":"Theria Parker & Haswell, 1897","authorship":"Parker & Haswell, 1897","rank":"subclass","status":"accepted","sourceDatasetId":"2144"},
+        {"id":"LG","scientificName":"Eutheria Gill, 1872","authorship":"Gill, 1872","rank":"infraclass","status":"accepted","sourceDatasetId":"2144"},
+        {"id":"3W7","scientificName":"Primates Linnaeus, 1758","authorship":"Linnaeus, 1758","rank":"order","status":"accepted","sourceDatasetId":"2144"},
+        {"id":"4DT","scientificName":"Haplorrhini Pocock, 1918","authorship":"Pocock, 1918","rank":"suborder","status":"accepted","sourceDatasetId":"2144"},
+        {"id":"4PM","scientificName":"Simiiformes Haeckel, 1866","authorship":"Haeckel, 1866","rank":"infraorder","status":"accepted","sourceDatasetId":"2144"},
+        {"id":"58L","scientificName":"Hominoidea Gray, 1825","authorship":"Gray, 1825","rank":"superfamily","status":"accepted","sourceDatasetId":"2144"},
+        {"id":"B9K","scientificName":"Hylobatidae Gray, 1871","authorship":"Gray, 1871","rank":"family","status":"accepted","sourceDatasetId":"2144"},
+        {"id":"5237","scientificName":"Hylobates Illiger, 1811","authorship":"Illiger, 1811","rank":"genus","status":"accepted","sourceDatasetId":"2144"},
+        {"id":"3NFRS","scientificName":"Hylobates lar (Linnaeus, 1771)","authorship":"(Linnaeus, 1771)","rank":"species","status":"accepted","sourceDatasetId":"2144"}
+      ],
+      "lifeStatusScope": {
+        "wild": "The biological evidence concerns free-ranging lar gibbons observed in natural forest at Mo Singto, Khao Yai National Park, Thailand.",
+        "domesticated": "Domestication and captive populations have not been assessed; no captive subjects are used for the claim.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/3NFRS",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "stableId": "col:3NFRS@COL26.8",
+          "publishedAt": "2026-08-20",
+          "accessedAt": "2026-09-24",
+          "locator": "Accepted species usage 3NFRS; verbatim scientificName Hylobates lar (Linnaeus, 1771); sourceDatasetId 2144; parent chain includes order Primates (3W7)",
+          "license": "CC BY 4.0 nomenclatural metadata; no checklist text reused",
+          "licenseAssessment": "identity-only",
+          "scope": "Identity only: accepted name, authorship, rank, status, sourceDatasetId and parent classification in the pinned COL26.8 registry.",
+          "rightsHolder": "Catalogue of Life Foundation",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Pinned nomenclatural and taxonomic checklist metadata only.",
+          "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 3NFRS. https://doi.org/10.48580/dgywk"
+        },
+        {
+          "id": "clarke2015",
+          "title": "Clarke, Reichard & Zuberbühler (2015), Context-specific close-range ‘hoo’ calls in wild gibbons (Hylobates lar)",
+          "url": "https://doi.org/10.1186/s12862-015-0332-2",
+          "version": "BMC Evolutionary Biology 15, article 56; version of record published 2015-04-08",
+          "stableId": "doi:10.1186/s12862-015-0332-2",
+          "publishedAt": "2015-04-08",
+          "accessedAt": "2026-09-24",
+          "locator": "Abstract; Methods, Study site and subjects; Results, Sample size and Context-specific call variants; Discussion; Conclusion",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the article copyright and license notice",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Field acoustic study of free-ranging lar gibbons in natural forest at Mo Singto, Khao Yai National Park, Thailand. Only paraphrased article text findings are used; no recordings, figures or third-party material are reused.",
+          "rightsHolder": "Clarke, Reichard and Zuberbühler",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Published article text under the item-level CC BY 4.0 notice; separately credited third-party material and the separately dedicated data are not reused.",
+          "attribution": "Clarke E, Reichard UH, Zuberbühler K (2015). BMC Evolutionary Biology 15:56. https://doi.org/10.1186/s12862-015-0332-2. Claim paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {"status":"not-assessed","gaps":["No morphology evidence was assessed in this batch."]},
+        "lifeHistory": {"status":"not-assessed","gaps":["Reproduction, development, lifespan and other life-history traits have not been assessed."]},
+        "ecology": {
+          "status":"partially-supported",
+          "claims":[
+            {
+              "text":"Researchers extracted 462 close-range ‘hoo’ calls from 14 males and 11 females across nine contexts. In the adequately sampled contexts included in the main analyses, acoustic parameters varied by context in both sexes; for example, raptor-context calls had lower peak and low frequencies than duet calls. The authors note that playback tests are needed to determine whether recipients discriminate these variants.",
+              "sourceIds":["clarke2015"],
+              "locator":"Results, Sample size and Context-specific call variants; Discussion; Conclusion",
+              "placeTimeScope":"Mo Singto, Khao Yai National Park, northeastern Thailand; observations totalled 117 field days and approximately 600 hours. Analysis used 462 calls from nine contexts; alert, separation and snake contexts had too few samples for the main analyses.",
+              "lifeStatus":"Free-ranging wild adult male and female gibbons; no captive animals are included.",
+              "translationStatus":"untranslated",
+              "originalLanguage":"en"
+            }
+          ],
+          "gaps":["The study is limited to one field site and a finite call sample; it does not establish geographic or population-wide variation, and receiver comprehension was not tested by playback."]
+        },
+        "evolution": {"status":"not-assessed","gaps":["No phylogenetic or evolutionary evidence was assessed."]},
+        "distribution": {"status":"not-assessed","gaps":["The study site is not a species-wide range inventory or locality history."]},
+        "fossil": {"status":"not-assessed","gaps":["No fossil evidence or geological age was assessed."]},
+        "conservation": {"status":"not-assessed","gaps":["No threat status, population trend or range-wide conservation assessment was assessed."]}
+      },
+      "completeness": {"status":"incomplete","reasons":["Only one bounded field acoustic study was assessed; six facets remain not-assessed.","Evidence is limited to sampled callers, contexts and one Thai study site; this is not a systematic review or complete species account.","No independent expert review has been completed."]},
+      "expertReview": {"status":"not-reviewed"}
+    }
+  ]
+}
