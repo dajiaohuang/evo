@@ -167,7 +167,11 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
       const child = rollup(childId)
       for (const key of ['acceptedSpecies', 'describedSpecies', 'profiledSpecies', 'dossierSpecies', 'completeDossierSpecies', 'expertReviewedSpecies']) total[key] += child[key]
       for (const facet of DOSSIER_FACETS) total.sourceFacetEvidenceSpecies[facet] += child.sourceFacetEvidenceSpecies[facet]
-      for (const facet of DOSSIER_FACETS) for (const [status, count] of Object.entries(child.dossierFacets[facet])) total.dossierFacets[facet][status] = (total.dossierFacets[facet][status] ?? 0) + count
+      // "not-assessed" is derived at this node from its accepted-species total.
+      // Summing children's derived gaps here would count them as assessed twice.
+      for (const facet of DOSSIER_FACETS) for (const [status, count] of Object.entries(child.dossierFacets[facet])) {
+        if (status !== 'not-assessed') total.dossierFacets[facet][status] = (total.dossierFacets[facet][status] ?? 0) + count
+      }
     }
     for (const facet of DOSSIER_FACETS) {
       const assessed = Object.values(total.dossierFacets[facet]).reduce((sum, count) => sum + count, 0)
