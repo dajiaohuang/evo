@@ -65,6 +65,37 @@ saves a further 1,280,419 bytes. Published runtime shards still use gzip.
 Runtime delivery and rendering
 must be verified separately before reporting this as user-accessible coverage.
 
+## RC156 locator and rights audit
+
+The checked-in projection contains 30,951 Morphology and 27,186 Habitat text
+records for 15,211 and 14,214 COL IDs, respectively. Every record has a
+`sourceId`, its citation string, and the original description `rowNumber`. The
+citation includes a page range for 28,826 Morphology rows and 25,490 Habitat
+rows. The source row number identifies the imported Darwin Core record; where
+the citation lacks pagination, it does not substitute for a locator in the
+publication. Those rows need individual source resolution before use as
+page-located dossier claims. The separate 7,002 Diagnostic records are not
+automatically classified as morphology evidence.
+
+The SANBI e-Flora EML declares CC BY 4.0, while individual bibliographic
+citations use `[CC BY]`; the exact license version of every underlying work has
+not been independently checked. Preserve the archive's attribution and the
+record's own citation, and paraphrase rather than republish the original text
+when a claim is linked without an independently checked item-level license.
+This license finding applies to this SANBI archive only.
+
+One record was promoted to a deliberately incomplete dossier as a provenance
+trace: COL `3254C`, *Ctenium concinnum* Nees, maps to WFO `wfo-0000860837` by
+the pinned WFO 2026-06 exact accepted-name and authorship match. Moeaha's 2015
+Strelitzia 36 account identifies the species on pp. 182-183; the archived
+Habitat and Morphology fields point to rows 80373 and 80653, both source ID
+`15446.0`. The official SANBI account page independently displays the same
+taxon and page citations. The dossier records only paraphrased morphology and
+habitat claims as partial, leaves the other five facets unassessed, and does
+not treat the page-range locator as proof of a globally exhaustive account.
+See `data/knowledge/catalogue-dossiers.json` for the exact identity, source
+versions, rights note, scope and claims.
+
 ## Runtime delivery
 
 Full-Web data generation emits 256 SHA-256 COL-ID-prefix shards, keeping each
