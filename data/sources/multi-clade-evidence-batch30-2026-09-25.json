@@ -1,0 +1,838 @@
+{
+  "schemaVersion": 1,
+  "batchId": "multi-clade-evidence-batch30-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "duplicateAudit": {
+    "baseHead": "47b27496c893d6e3f2f342dd471e2f7623c288ff",
+    "checkedIndexRecords": 6938,
+    "openPullRequests": [],
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "records": [
+    {
+      "colId": "3FCKT",
+      "scientificName": "Gasterosteus aculeatus Linnaeus, 1758",
+      "authorship": "Linnaeus, 1758",
+      "rank": "species",
+      "sourceDatasetId": "1010",
+      "checkedAt": "2026-09-25",
+      "identity": {
+        "method": "Exact accepted COL26.8 usage 3FCKT verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.",
+        "scope": "Nominal species represented by COL26.8 accepted usage 3FCKT. The cited study used wild-bred North Uist ecotypes, then incubated their embryos under a specified laboratory temperature; results are not species-wide developmental constants.",
+        "sourceIds": [
+          "col"
+        ]
+      },
+      "lifeStatusScope": {
+        "wild": "Breeding adult fish of both ecotypes were collected from a North Uist saltwater lagoon in 2023.",
+        "domesticated": "Domestication was not assessed.",
+        "captive": "Embryos were incubated and observed in laboratory dishes at 14 degrees Celsius; no captive adult population was studied.",
+        "fossil": "No fossil occurrence or geological age was assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1010",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/3FCKT",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "stableId": "col:3FCKT@COL26.8",
+          "publishedAt": "2026-08-20",
+          "accessedAt": "2026-09-25",
+          "locator": "Accepted species usage 3FCKT; exact name, authorship, rank, status, sourceDatasetId 1010, and full accepted parent chain.",
+          "license": "CC BY 4.0 nomenclatural metadata; no checklist prose reused.",
+          "licenseAssessment": "identity-only",
+          "scope": "Pinned COL26.8 nomenclatural identity and accepted classification only.",
+          "rightsHolder": "Catalogue of Life Foundation",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Pinned nomenclatural and taxonomic checklist metadata only.",
+          "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 3FCKT. https://doi.org/10.48580/dgywk"
+        },
+        {
+          "id": "barnes2024",
+          "title": "Barnes, Chakrabarti & MacColl (2024), Development of resident and migratory three-spined stickleback, Gasterosteus aculeatus",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0295485",
+          "version": "Version of record; PLOS ONE 19(7):e0295485, published 2024-07-18",
+          "stableId": "doi:10.1371/journal.pone.0295485",
+          "publishedAt": "2024-07-18",
+          "accessedAt": "2026-09-25",
+          "locator": "Abstract; Methods > Fish collection and crosses; Results > Hatching success and time to hatch; Results > Development of embryos; Figures 1, 3–5; Tables 1–2.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), linked from the article copyright notice.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Primary embryo-development study of migratory and lagoon-resident North Uist ecotypes; the article text is paraphrased, without reusing figures or third-party material.",
+          "rightsHolder": "Barnes, Chakrabarti and MacColl",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Article text under its article-level CC BY 4.0 notice; separately credited third-party material is excluded.",
+          "attribution": "Barnes M, Chakrabarti L, MacColl ADC (2024). PLOS ONE 19(7):e0295485. https://doi.org/10.1371/journal.pone.0295485. Claims paraphrased from article text."
+        }
+      ],
+      "systematicSearch": {
+        "date": "2026-09-25",
+        "scope": "Exact COL26.8 identity and a focused review of one primary study describing North Uist stickleback embryos and hatching at 14 degrees Celsius; this is not a seven-facet literature review.",
+        "method": "Verified accepted COL26.8 usage and parent chain in the pinned registry. Read the publisher article's collection, incubation, results, limitations and item-level rights notice. No multi-database or facet-by-facet species review was completed.",
+        "queryOrPath": "Pinned COL26.8 dataset 316115 usage 3FCKT; PLOS ONE DOI 10.1371/journal.pone.0295485.",
+        "inclusionCriteria": "Primary article naming Gasterosteus aculeatus and reporting the fish source, ecotypes, laboratory temperature, embryo observations, hatching results and item-level reuse terms.",
+        "exclusionCriteria": "Species-wide developmental constants, unstudied populations, causal explanation, global distribution, phylogeny, fossil, and conservation claims; secondary-source claims not independently verified at their originals.",
+        "searcher": "Evo source audit"
+      },
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "In the North Uist lagoon-resident clutches incubated at 14 degrees Celsius, daily observations recorded a visible heartbeat by day 5; by day 7 yolk-sac circulation and developing pectoral fins could be seen. This is an embryo-stage description under the study's incubation conditions, not a diagnostic description of adult morphology.",
+              "sourceIds": [
+                "barnes2024"
+              ],
+              "locator": "Results > Development of embryos, days 5 and 7; Figures 3–4; embryos staged from fertilisation at daily intervals.",
+              "placeTimeScope": "Laboratory observations of embryos from breeding crosses made with North Uist saltwater-lagoon fish collected 30 April–19 May 2023; incubation at 14 degrees Celsius.",
+              "lifeStatus": "Wild-bred parents; embryos incubated in laboratory dishes.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "Only selected embryonic stages under one temperature and source population are described; adult diagnostic morphology, sexes, age classes, variation across populations, and identification limits remain unassessed."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "At 14 degrees Celsius, embryos from six migratory and six lagoon-resident North Uist crosses hatched earlier in the migratory ecotype: mean first hatch was 11.7 versus 13.2 days after fertilisation, and mean 50-percent-clutch hatch was 12.2 versus 13.7 days. Hatching success did not differ significantly in this small clutch experiment; these timings do not establish a species-wide rate.",
+              "sourceIds": [
+                "barnes2024"
+              ],
+              "locator": "Methods > Fish collection and crosses; Results > Hatching success and time to hatch; Figure 1; Table 1.",
+              "placeTimeScope": "Crosses using breeding fish collected at Loch an Duin, North Uist, Scotland, 30 April–19 May 2023; embryos raised at 14 degrees Celsius; six clutches per ecotype.",
+              "lifeStatus": "Wild-bred parents; eggs and embryos were maintained under laboratory conditions.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The study covers embryonic development to hatching in two local ecotypes only; other life stages, reproduction in natural nests, survival, lifespan, and replication across environments remain unassessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The study collected breeding migratory and lagoon-resident three-spined stickleback from the same North Uist saltwater lagoon, Loch an Duin, during the 2023 breeding season, and established separate crosses for each ecotype. This establishes local co-occurrence at the collection site and period only; it is not a distribution estimate.",
+              "sourceIds": [
+                "barnes2024"
+              ],
+              "locator": "Methods > Fish collection and crosses; Abstract, description of two sympatric saltwater ecotypes.",
+              "placeTimeScope": "Loch an Duin, a saltwater lagoon in northeast North Uist, Scotland; fieldwork 30 April–19 May 2023.",
+              "lifeStatus": "Wild breeding adults were caught for crosses; embryos were subsequently incubated in laboratory dishes.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "One breeding-season collection does not describe habitat breadth, diet, species interactions, migration routes, or other populations."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "No species-specific phylogenetic or comparative evolutionary analysis was assessed."
+          ]
+        },
+        "distribution": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "The collection site is not a global or range-wide distribution assessment."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "No fossil evidence or bounded fossil-record search was assessed."
+          ]
+        },
+        "conservation": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "No current assessment, population trend, or threat analysis was reviewed."
+          ]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "One primary study supports only selected embryonic, hatching, and collection-site facts.",
+          "Four facets remain not assessed; results are limited to two local ecotypes and a laboratory temperature.",
+          "No multi-source species review or independent external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      },
+      "classificationPath": [
+        {
+          "id": "CS5HF",
+          "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+          "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+          "rank": "domain",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "N",
+          "scientificName": "Animalia",
+          "authorship": null,
+          "rank": "kingdom",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "CH2",
+          "scientificName": "Chordata",
+          "authorship": null,
+          "rank": "phylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "8V4V3",
+          "scientificName": "Vertebrata",
+          "authorship": null,
+          "rank": "subphylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "8V4V5",
+          "scientificName": "Gnathostomata",
+          "authorship": null,
+          "rank": "infraphylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "8VVWB",
+          "scientificName": "Osteichthyes",
+          "authorship": null,
+          "rank": "parvphylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "8VR36",
+          "scientificName": "Actinopterygii",
+          "authorship": null,
+          "rank": "gigaclass",
+          "status": "accepted",
+          "sourceDatasetId": "1010"
+        },
+        {
+          "id": "KTWM8",
+          "scientificName": "Actinopteri",
+          "authorship": null,
+          "rank": "superclass",
+          "status": "accepted",
+          "sourceDatasetId": "1010"
+        },
+        {
+          "id": "8V4VD",
+          "scientificName": "Teleostei",
+          "authorship": null,
+          "rank": "class",
+          "status": "accepted",
+          "sourceDatasetId": "1010"
+        },
+        {
+          "id": "PC",
+          "scientificName": "Perciformes",
+          "authorship": null,
+          "rank": "order",
+          "status": "accepted",
+          "sourceDatasetId": "1010"
+        },
+        {
+          "id": "KVB4B",
+          "scientificName": "Gasterosteoidei",
+          "authorship": null,
+          "rank": "suborder",
+          "status": "accepted",
+          "sourceDatasetId": "1010"
+        },
+        {
+          "id": "KV98H",
+          "scientificName": "Gasterosteidae Bonaparte, 1831",
+          "authorship": "Bonaparte, 1831",
+          "rank": "family",
+          "status": "accepted",
+          "sourceDatasetId": "1010"
+        },
+        {
+          "id": "KVB4C",
+          "scientificName": "Gasterosteus Linnaeus, 1758",
+          "authorship": "Linnaeus, 1758",
+          "rank": "genus",
+          "status": "accepted",
+          "sourceDatasetId": "1010"
+        },
+        {
+          "id": "3FCKT",
+          "scientificName": "Gasterosteus aculeatus Linnaeus, 1758",
+          "authorship": "Linnaeus, 1758",
+          "rank": "species",
+          "status": "accepted",
+          "sourceDatasetId": "1010"
+        }
+      ]
+    },
+    {
+      "colId": "4TZJS",
+      "scientificName": "Saimiri boliviensis (I. Geoffroy Saint-Hilaire & de Blainville, 1834)",
+      "authorship": "(I. Geoffroy Saint-Hilaire & de Blainville, 1834)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-09-25",
+      "identity": {
+        "method": "Exact accepted COL26.8 usage 4TZJS verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.",
+        "scope": "Nominal species represented by COL26.8 accepted usage 4TZJS. The evidence concerns captive Saimiri boliviensis participating in one apparatus-based social-learning study; it is not evidence of wild behavior or a species-wide cognitive capacity.",
+        "sourceIds": [
+          "col"
+        ]
+      },
+      "lifeStatusScope": {
+        "wild": "No wild animals participated in the cited social-learning experiment.",
+        "domesticated": "Domestication was not assessed.",
+        "captive": "The claim concerns socially housed monkeys at the UT MD Anderson Cancer Center Keeling Center in Bastrop, Texas; exact experiment dates are not stated in the article locators used.",
+        "fossil": "No fossil occurrence or geological age was assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4TZJS",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "stableId": "col:4TZJS@COL26.8",
+          "publishedAt": "2026-08-20",
+          "accessedAt": "2026-09-25",
+          "locator": "Accepted species usage 4TZJS; exact name, authorship, rank, status, sourceDatasetId 2144, and full accepted parent chain.",
+          "license": "CC BY 4.0 nomenclatural metadata; no checklist prose reused.",
+          "licenseAssessment": "identity-only",
+          "scope": "Pinned COL26.8 nomenclatural identity and accepted classification only.",
+          "rightsHolder": "Catalogue of Life Foundation",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Pinned nomenclatural and taxonomic checklist metadata only.",
+          "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 4TZJS. https://doi.org/10.48580/dgywk"
+        },
+        {
+          "id": "hopper2013",
+          "title": "Hopper, Holmes, Williams & Brosnan (2013), Dissecting the mechanisms of squirrel monkey (Saimiri boliviensis) social learning",
+          "url": "https://peerj.com/articles/13/",
+          "version": "Version of record; PeerJ 1:e13, published 2013-02-12",
+          "stableId": "doi:10.7717/peerj.13",
+          "publishedAt": "2013-02-12",
+          "accessedAt": "2026-09-25",
+          "locator": "Methods > Subjects and housing and Experimental group open diffusion; Results > Experimental group open diffusion and control conditions; Figures 2–3.",
+          "license": "Creative Commons Attribution 3.0 Unported (CC BY 3.0), stated in the article's publisher PDF.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Primary captive social-learning experiments on Saimiri boliviensis at the UT MD Anderson Cancer Center Keeling Center; only article text is paraphrased.",
+          "rightsHolder": "Hopper, Holmes, Williams and Brosnan",
+          "licenseVersion": "CC BY 3.0 Unported",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+          "licenseAppliesTo": "Article text under the article-level CC BY 3.0 notice; separately credited third-party material is excluded.",
+          "attribution": "Hopper LM, Holmes AN, Williams LE, Brosnan SF (2013). PeerJ 1:e13. https://doi.org/10.7717/peerj.13. Claims paraphrased from article text."
+        }
+      ],
+      "systematicSearch": {
+        "date": "2026-09-25",
+        "scope": "Exact COL26.8 identity and a focused review of one primary captive social-learning article; this is not a seven-facet literature review.",
+        "method": "Verified accepted COL26.8 usage and parent chain in the pinned registry. Read the article's subject and housing, open-diffusion results, controls, figures, and item-level license notice. No multi-database or facet-by-facet species review was completed.",
+        "queryOrPath": "Pinned COL26.8 dataset 316115 usage 4TZJS; PeerJ DOI 10.7717/peerj.13.",
+        "inclusionCriteria": "Primary article naming Saimiri boliviensis and describing the captive sample, task protocol, outcomes, controls, and article-specific reuse terms.",
+        "exclusionCriteria": "Wild behavior, species-wide cognitive traits, causal or evolutionary claims, global distribution, fossil, and conservation claims not established by this study; secondary-source claims not checked at their originals.",
+        "searcher": "Evo source audit"
+      },
+      "facets": {
+        "morphology": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "The social-learning experiment did not assess diagnostic morphology, measurements, or species-level variation."
+          ]
+        },
+        "lifeHistory": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "The study did not assess development, reproduction, survival, or lifespan."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "In the captive open-diffusion experiment, two social groups included 23 Saimiri boliviensis overall; among 21 observers, 12 solved the apparatus task at least once. The paper reports that solvers preferentially used the response direction modeled by a demonstrator. This is a result from one captive task and does not establish wild social learning or a species-wide cognitive capacity.",
+              "sourceIds": [
+                "hopper2013"
+              ],
+              "locator": "Methods > Experimental group open diffusion; Results > Experimental group open diffusion; Figures 2–3; control-condition results.",
+              "placeTimeScope": "UT MD Anderson Cancer Center Keeling Center, Bastrop, Texas; one captive apparatus-based experiment reported in the 2013 version of record; exact trial dates not specified in the cited sections.",
+              "lifeStatus": "Socially housed captive monkeys; no wild animals participated.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "A captive task does not establish the frequency, function, or ecological context of social learning in wild populations; no broader species-level inference is supported."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "No species-specific phylogenetic or comparative evolutionary analysis was assessed."
+          ]
+        },
+        "distribution": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "The captive study site is not a native-range record; no distribution source was reviewed."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "No fossil evidence or bounded fossil-record search was assessed."
+          ]
+        },
+        "conservation": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "No current assessment, population trend, or threat analysis was reviewed."
+          ]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "One captive experiment supports only a narrow apparatus-based social-learning claim.",
+          "Six facets remain not assessed and the study cannot establish wild or species-wide behavior.",
+          "No multi-source species review or independent external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      },
+      "classificationPath": [
+        {
+          "id": "CS5HF",
+          "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+          "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+          "rank": "domain",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "N",
+          "scientificName": "Animalia",
+          "authorship": null,
+          "rank": "kingdom",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "CH2",
+          "scientificName": "Chordata",
+          "authorship": null,
+          "rank": "phylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "8V4V3",
+          "scientificName": "Vertebrata",
+          "authorship": null,
+          "rank": "subphylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "8V4V5",
+          "scientificName": "Gnathostomata",
+          "authorship": null,
+          "rank": "infraphylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "8VVWB",
+          "scientificName": "Osteichthyes",
+          "authorship": null,
+          "rank": "parvphylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "9CK8W",
+          "scientificName": "Tetrapoda",
+          "authorship": null,
+          "rank": "megaclass",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "6224G",
+          "scientificName": "Mammalia Linnaeus, 1758",
+          "authorship": "Linnaeus, 1758",
+          "rank": "class",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "6226C",
+          "scientificName": "Theria Parker & Haswell, 1897",
+          "authorship": "Parker & Haswell, 1897",
+          "rank": "subclass",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "LG",
+          "scientificName": "Eutheria Gill, 1872",
+          "authorship": "Gill, 1872",
+          "rank": "infraclass",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "3W7",
+          "scientificName": "Primates Linnaeus, 1758",
+          "authorship": "Linnaeus, 1758",
+          "rank": "order",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "4DT",
+          "scientificName": "Haplorrhini Pocock, 1918",
+          "authorship": "Pocock, 1918",
+          "rank": "suborder",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "4PM",
+          "scientificName": "Simiiformes Haeckel, 1866",
+          "authorship": "Haeckel, 1866",
+          "rank": "infraorder",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "7TZ",
+          "scientificName": "Cebidae Bonaparte, 1831",
+          "authorship": "Bonaparte, 1831",
+          "rank": "family",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "628NK",
+          "scientificName": "Saimiriinae Miller, 1812",
+          "authorship": "Miller, 1812",
+          "rank": "subfamily",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "7BQ9",
+          "scientificName": "Saimiri Voigt in G. Cuvier, 1831",
+          "authorship": "Voigt in G. Cuvier, 1831",
+          "rank": "genus",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "4TZJS",
+          "scientificName": "Saimiri boliviensis (I. Geoffroy Saint-Hilaire & de Blainville, 1834)",
+          "authorship": "(I. Geoffroy Saint-Hilaire & de Blainville, 1834)",
+          "rank": "species",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        }
+      ]
+    },
+    {
+      "colId": "6WR99",
+      "scientificName": "Rana temporaria Linnaeus, 1758",
+      "authorship": "Linnaeus, 1758",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-09-25",
+      "identity": {
+        "method": "Exact accepted COL26.8 usage 6WR99 verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.",
+        "scope": "Nominal species represented by COL26.8 accepted usage 6WR99. The evidence is local wild-spawn monitoring in Skåne, Sweden, and does not establish global or species-wide breeding phenology.",
+        "sourceIds": [
+          "col"
+        ]
+      },
+      "lifeStatusScope": {
+        "wild": "The study monitored spawning at wild breeding ponds in Skåne, southern Sweden.",
+        "domesticated": "Domestication was not assessed.",
+        "captive": "No captive frogs were used in the monitored wild-spawn study.",
+        "fossil": "No fossil occurrence or geological age was assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/6WR99",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "stableId": "col:6WR99@COL26.8",
+          "publishedAt": "2026-08-20",
+          "accessedAt": "2026-09-25",
+          "locator": "Accepted species usage 6WR99; exact name, authorship, rank, status, sourceDatasetId 2144, and full accepted parent chain.",
+          "license": "CC BY 4.0 nomenclatural metadata; no checklist prose reused.",
+          "licenseAssessment": "identity-only",
+          "scope": "Pinned COL26.8 nomenclatural identity and accepted classification only.",
+          "rightsHolder": "Catalogue of Life Foundation",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Pinned nomenclatural and taxonomic checklist metadata only.",
+          "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 6WR99. https://doi.org/10.48580/dgywk"
+        },
+        {
+          "id": "loman2016",
+          "title": "Loman (2016), Breeding phenology in Rana temporaria. Local variation is due to pond temperature and population size",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/ece3.2356",
+          "version": "Version of record; Ecology and Evolution 6(17):6202–6209, published 2016-08-03",
+          "stableId": "doi:10.1002/ece3.2356",
+          "publishedAt": "2016-08-03",
+          "accessedAt": "2026-09-25",
+          "locator": "Abstract; Methods > Monitoring frog spawn and Temperature measurements in ponds; Results > pond and year effects and average breeding time; Figure 5.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), version-of-record license recorded in Crossref and PMC article metadata.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Primary wild breeding-phenology monitoring in Skåne, southern Sweden; only article text is paraphrased, without reusing figures or third-party material.",
+          "rightsHolder": "Jon Loman",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "The version-of-record article text under its item-level CC BY 4.0 license; separately credited third-party material is excluded.",
+          "attribution": "Loman J (2016). Ecology and Evolution 6:6202–6209. https://doi.org/10.1002/ece3.2356. Claims paraphrased from article text."
+        }
+      ],
+      "systematicSearch": {
+        "date": "2026-09-25",
+        "scope": "Exact COL26.8 identity and a focused review of one primary wild-spawn monitoring article from southern Sweden; this is not a seven-facet literature review.",
+        "method": "Verified accepted COL26.8 usage and parent chain in the pinned registry. Read the publisher article's methods, results, local sampling limits, and version-of-record license metadata. No multi-database or facet-by-facet species review was completed.",
+        "queryOrPath": "Pinned COL26.8 dataset 316115 usage 6WR99; Wiley DOI 10.1002/ece3.2356; Crossref version-of-record license metadata.",
+        "inclusionCriteria": "Primary article naming Rana temporaria and describing the wild pond monitoring, period, temperature/logger subset, results, and item-level reuse terms.",
+        "exclusionCriteria": "Global distribution, adult morphology, causal mechanism, species-wide phenology, phylogeny, fossil, and conservation claims not established by this study; secondary-source claims not checked at their originals.",
+        "searcher": "Evo source audit"
+      },
+      "facets": {
+        "morphology": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "The breeding-phenology study did not assess diagnostic morphology or species-level variation."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "In the author's Skåne monitoring series, start of breeding among local Rana temporaria populations varied by as much as three weeks within a year. The observations span 1990–2015, with the number of monitored ponds varying from 29 to 84 and the most distant ponds separated by 60 kilometres; this is a local monitoring series, not a species-wide phenology estimate.",
+              "sourceIds": [
+                "loman2016"
+              ],
+              "locator": "Abstract; Methods > Monitoring frog spawn.",
+              "placeTimeScope": "Skåne province, southern Sweden; monitoring from 1990 through 2015; 29–84 ponds depending on year, maximum pond separation 60 km.",
+              "lifeStatus": "Wild breeding populations observed through their spawn at ponds.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "This local time series does not cover the species' range, other life stages, survival, or reproduction outside the monitored ponds and years."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "For 19 Skåne ponds with logger data in 2011–2015, earlier mean breeding time was associated with warmer average logged pond temperatures and larger average breeding congregations, estimated from spawn-clump counts; the reported temperature and congregation terms were statistically significant. Substantial residual pond variation remained, and this observational association does not identify a causal mechanism.",
+              "sourceIds": [
+                "loman2016"
+              ],
+              "locator": "Methods > Temperature measurements in ponds; Results paragraph beginning ‘There were effects of pond temperature’; Figure 5.",
+              "placeTimeScope": "19 logger ponds in Skåne, southern Sweden; breeding and temperature subset from 2011–2015. Spawn-clump count was used as the breeding-congregation estimate.",
+              "lifeStatus": "Wild breeding populations; no captive frogs were studied.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "A local pond association does not establish mechanism, diet, habitat use across the range, or ecological interactions beyond breeding-site temperature and congregation size."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "No species-specific phylogenetic or comparative evolutionary analysis was assessed."
+          ]
+        },
+        "distribution": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "The Skåne study area is not a range-wide distribution assessment."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "No fossil evidence or bounded fossil-record search was assessed."
+          ]
+        },
+        "conservation": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "No current assessment, population trend, or threat analysis was reviewed."
+          ]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "One regional monitoring study supports only local spawning phenology and pond-level associations.",
+          "Five facets remain not assessed; the study does not provide global or species-wide coverage.",
+          "No multi-source species review or independent external expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed",
+        "reviewers": [],
+        "reviewDigest": null
+      },
+      "classificationPath": [
+        {
+          "id": "CS5HF",
+          "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+          "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+          "rank": "domain",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "N",
+          "scientificName": "Animalia",
+          "authorship": null,
+          "rank": "kingdom",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "CH2",
+          "scientificName": "Chordata",
+          "authorship": null,
+          "rank": "phylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "8V4V3",
+          "scientificName": "Vertebrata",
+          "authorship": null,
+          "rank": "subphylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "8V4V5",
+          "scientificName": "Gnathostomata",
+          "authorship": null,
+          "rank": "infraphylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "8VVWB",
+          "scientificName": "Osteichthyes",
+          "authorship": null,
+          "rank": "parvphylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "9CK8W",
+          "scientificName": "Tetrapoda",
+          "authorship": null,
+          "rank": "megaclass",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "PH",
+          "scientificName": "Amphibia",
+          "authorship": null,
+          "rank": "class",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "PW",
+          "scientificName": "Anura",
+          "authorship": null,
+          "rank": "order",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "FJM",
+          "scientificName": "Ranidae Batsch, 1796",
+          "authorship": "Batsch, 1796",
+          "rank": "family",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "642HY",
+          "scientificName": "Rana Linnaeus, 1758",
+          "authorship": "Linnaeus, 1758",
+          "rank": "genus",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "6WR99",
+          "scientificName": "Rana temporaria Linnaeus, 1758",
+          "authorship": "Linnaeus, 1758",
+          "rank": "species",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        }
+      ]
+    }
+  ]
+}
