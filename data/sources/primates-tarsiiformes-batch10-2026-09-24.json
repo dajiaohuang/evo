@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "releaseAlias": "COL26.8",
+  "batchId": "primates-tarsiiformes-batch10-2026-09-24",
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "duplicateAudit": {
+    "baseHead": "bffdd53234868f7e8388b604135c5ea7d9133894",
+    "openPullRequests": [],
+    "checkedIndexRecords": 6915,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "records": [
+    {
+      "colId": "5XBRB",
+      "scientificName": "Carlito syrichta (Linnaeus, 1758)",
+      "authorship": "(Linnaeus, 1758)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-09-24",
+      "identity": {
+        "method": "Exact COL26.8 accepted species usage verified against pinned search and hierarchy registries, including verbatim scientific name, authorship, rank, sourceDatasetId and every accepted parent node.",
+        "scope": "Nominal species as represented by COL26.8 usage 5XBRB. The cited field study documents local observations and habitat plots at Mt. Bontoc, Hindang, Leyte; it does not establish species-wide abundance, population viability, or a complete range.",
+        "sourceIds": [
+          "col"
+        ]
+      },
+      "classificationPath": [
+        {
+          "id": "CS5HF",
+          "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+          "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+          "rank": "domain",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "N",
+          "scientificName": "Animalia",
+          "authorship": null,
+          "rank": "kingdom",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "CH2",
+          "scientificName": "Chordata",
+          "authorship": null,
+          "rank": "phylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "8V4V3",
+          "scientificName": "Vertebrata",
+          "authorship": null,
+          "rank": "subphylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "8V4V5",
+          "scientificName": "Gnathostomata",
+          "authorship": null,
+          "rank": "infraphylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "8VVWB",
+          "scientificName": "Osteichthyes",
+          "authorship": null,
+          "rank": "parvphylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "9CK8W",
+          "scientificName": "Tetrapoda",
+          "authorship": null,
+          "rank": "megaclass",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "6224G",
+          "scientificName": "Mammalia Linnaeus, 1758",
+          "authorship": "Linnaeus, 1758",
+          "rank": "class",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "6226C",
+          "scientificName": "Theria Parker & Haswell, 1897",
+          "authorship": "Parker & Haswell, 1897",
+          "rank": "subclass",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "LG",
+          "scientificName": "Eutheria Gill, 1872",
+          "authorship": "Gill, 1872",
+          "rank": "infraclass",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "3W7",
+          "scientificName": "Primates Linnaeus, 1758",
+          "authorship": "Linnaeus, 1758",
+          "rank": "order",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "4DT",
+          "scientificName": "Haplorrhini Pocock, 1918",
+          "authorship": "Pocock, 1918",
+          "rank": "suborder",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "4QB",
+          "scientificName": "Tarsiiformes Gregory, 1915",
+          "authorship": "Gregory, 1915",
+          "rank": "infraorder",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "GXL",
+          "scientificName": "Tarsiidae Gray, 1825",
+          "authorship": "Gray, 1825",
+          "rank": "family",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "3HNV",
+          "scientificName": "Carlito Groves & Shekelle, 2010",
+          "authorship": "Groves & Shekelle, 2010",
+          "rank": "genus",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "5XBRB",
+          "scientificName": "Carlito syrichta (Linnaeus, 1758)",
+          "authorship": "(Linnaeus, 1758)",
+          "rank": "species",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        }
+      ],
+      "lifeStatusScope": {
+        "wild": "The ecological observations concern free-ranging tarsiers observed in Mt. Bontoc forest fragment, Hindang, Leyte, Philippines.",
+        "domesticated": "Domestication has not been assessed; no domesticated animals are included in the ecological claims.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/5XBRB",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "stableId": "col:5XBRB@COL26.8",
+          "publishedAt": "2026-08-20",
+          "accessedAt": "2026-09-24",
+          "locator": "Accepted species usage 5XBRB; verbatim scientificName Carlito syrichta (Linnaeus, 1758); sourceDatasetId 2144; accepted parent chain includes infraorder Tarsiiformes (4QB)",
+          "license": "CC BY 4.0 nomenclatural metadata; no checklist text reused",
+          "licenseAssessment": "identity-only",
+          "scope": "Identity only: accepted name, authorship, rank, status, sourceDatasetId and parent classification in pinned COL26.8 registry.",
+          "rightsHolder": "Catalogue of Life Foundation",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Pinned nomenclatural and taxonomic checklist metadata only.",
+          "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 5XBRB. https://doi.org/10.48580/dgywk"
+        },
+        {
+          "id": "torrefiel2023",
+          "title": "Torrefiel et al. (2023), A detailed assessment of threats to tarsiers and its habitat: The case of a forest fragment-confined population of Philippine Tarsiers Carlito syrichta in Hindang, Leyte",
+          "url": "https://doi.org/10.5281/zenodo.7308755",
+          "version": "Journal of Wildlife and Biodiversity 7(3):80–95 (2023); published online 2022-11-09",
+          "stableId": "doi:10.5281/zenodo.7308755",
+          "publishedAt": "2023",
+          "accessedAt": "2026-09-24",
+          "locator": "Abstract; Materials and methods §§Study Site and Tarsier Documentation and Habitat Survey; Results §§Tarsier sightings and Habitat Characteristics; Tables 1–2",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0) under the journal policy applying the license to published works",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Primary field observations, camera trapping, vegetation plots, and stakeholder discussions about a localized population at Mt. Bontoc, Hindang, Leyte. Surveys and observations reported for August 2021 and January–February 2022. Only paraphrased article text results are used; figures and third-party material are excluded.",
+          "rightsHolder": "The authors, under the Journal of Wildlife and Biodiversity publication license",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Published article text under the journal policy applying CC BY 4.0 to published works; separately credited third-party material is excluded.",
+          "attribution": "Torrefiel JT et al. (2023). Journal of Wildlife and Biodiversity 7(3):80–95. https://doi.org/10.5281/zenodo.7308755. Claims paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "not-assessed",
+          "gaps": [
+            "No morphology evidence was assessed in this batch."
+          ]
+        },
+        "lifeHistory": {
+          "status": "not-assessed",
+          "gaps": [
+            "Reproduction, development, lifespan and other life-history traits have not been assessed."
+          ]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "At Mt. Bontoc, five tarsiers were opportunistically observed in August 2021 and six were recorded during January–February 2022 (two direct sightings and four camera-trap records); the authors could not confirm that the records represented distinct individuals, and they stated that population viability was unknown.",
+              "sourceIds": [
+                "torrefiel2023"
+              ],
+              "locator": "Results, Tarsier sightings; Discussion, Tarsiers in Mt. Bontoc, Hindang",
+              "placeTimeScope": "Mt. Bontoc forest fragment, Hindang, Leyte, Philippines; opportunistic records in August 2021 and targeted camera trapping/field visits in January–February 2022 after Typhoon Rai (Odette) in December 2021.",
+              "lifeStatus": "Free-ranging tarsiers recorded by direct observation and camera traps; the number of unique individuals was not confirmed. No captive or domesticated individuals were included.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            },
+            {
+              "text": "At five plots around confirmed tarsier sightings in Mt. Bontoc, researchers measured 612 stems; the samples had mean diameter at breast height of 2.5 cm and mean height of 5.0 m. The authors described the site as regenerating secondary forest over limestone.",
+              "sourceIds": [
+                "torrefiel2023"
+              ],
+              "locator": "Materials and methods, Tarsier Documentation and Habitat Survey; Results, Habitat Characteristics and Table 1",
+              "placeTimeScope": "Five 5-m-radius plots around sighting trees/saplings in Mt. Bontoc, Hindang, Leyte; vegetation was surveyed in the study period reported for 2021–2022.",
+              "lifeStatus": "Habitat measurements were made at locations where free-ranging tarsiers were confirmed; measurements do not represent all habitats used by the species.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "This is a localized survey from one forest fragment; it does not establish species-wide habitat use or a complete geographic range.",
+            "The study did not estimate population size or viability, and the observed records may not represent distinct individuals.",
+            "Reproduction, morphology, evolution, fossil evidence and independent conservation assessments were not assessed in this batch."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed",
+          "gaps": [
+            "No phylogenetic or evolutionary evidence was assessed."
+          ]
+        },
+        "distribution": {
+          "status": "not-assessed",
+          "gaps": [
+            "A species-wide distribution inventory was not assessed; observations at Mt. Bontoc do not define the species range."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed",
+          "gaps": [
+            "No fossil evidence or geological age was assessed."
+          ]
+        },
+        "conservation": {
+          "status": "not-assessed",
+          "gaps": [
+            "No threat status, trend or range-wide conservation assessment was assessed."
+          ]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "One localized field study provides bounded ecological observations; other facets remain not-assessed.",
+          "The observations do not establish unique population counts, population viability or a species-wide account.",
+          "No independent expert review has been completed."
+        ]
+      },
+      "expertReview": {
+        "status": "not-reviewed"
+      }
+    }
+  ]
+}
