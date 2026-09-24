@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-gorilla-gorilla-demography-batch25-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-25",
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "target": {
+    "colId": "3H3C9",
+    "scientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+    "authorship": "(Savage & Wyman, 1847)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "parentId": "62SMC"
+  },
+  "article": {
+    "id": "mcmanus2015gorillagenome",
+    "title": "Inference of Gorilla Demographic and Selective History from Whole-Genome Sequence Data",
+    "url": "https://academic.oup.com/mbe/article/32/3/600/981274",
+    "doi": "10.1093/molbev/msu394",
+    "version": "Molecular Biology and Evolution 32(3):600–612; published online 2015-01-21",
+    "publishedAt": "2015-01-21",
+    "accessedAt": "2026-09-25",
+    "license": "Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0), as stated on the publisher article page.",
+    "licenseVersion": "CC BY-NC 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "licenseAssessment": "item-level-verified",
+    "rightsHolder": "The Author(s); published by Oxford University Press on behalf of the Society for Molecular Biology and Evolution.",
+    "rightsEvidenceLocator": "Author Notes: Open Access article under the Creative Commons Attribution Non-Commercial License; commercial reuse requires permission.",
+    "licenseAppliesTo": "Article text only. The dossier paraphrases the article and redistributes no figures, tables, images, or supplementary datasets.",
+    "attribution": "McManus KF, Kelley JL, Song S, Veeramah KR, Woerner AE, Stevison LS, Ryder OA, Great Ape Genome Project, Kidd JM, Wall JD, Bustamante CD, Hammer MF (2015). Inference of Gorilla Demographic and Selective History from Whole-Genome Sequence Data. Molecular Biology and Evolution 32(3):600–612. https://doi.org/10.1093/molbev/msu394. Claim paraphrased; CC BY-NC 4.0.",
+    "scope": "Whole-genome sequence analysis of 14 western lowland, 2 eastern lowland, and 1 Cross River gorilla. The demographic claim uses a single-population model of the genome-wide site-frequency spectrum from the 14 western lowland samples. The article says samples were mostly blood from wild-caught zoo specimens; individual origins were diverse and some could not be precisely confirmed. The model does not estimate a current census or the histories of all Gorilla gorilla subspecies."
+  },
+  "claim": {
+    "facet": "evolution",
+    "text": "Using a diffusion-approximation model of the genome-wide site-frequency spectrum from 14 western lowland gorilla genomes, McManus et al. inferred an ancestral effective-population-size expansion of about 1.4-fold near 970 ka, followed by a 5.6-fold contraction near 23 ka. This is a model-based estimate for the sampled western-lowland lineage, not a current census or an estimate for every Gorilla gorilla subspecies; the authors state that the causes are unclear.",
+    "textZh": "麦克马纳斯等人使用 14 只西部低地大猩猩的全基因组位点频率谱进行扩散近似建模，推断其祖先有效种群规模在约 97 万年前扩大约 1.4 倍，随后在约 2.3 万年前收缩约 5.6 倍。这是针对所采样西部低地谱系的模型估计，不是当前种群普查数量，也不能代表 *Gorilla gorilla* 的所有亚种；作者指出这些变化的成因尚不清楚。",
+    "locator": "Abstract; Results, Gorilla Population Structure and Western Gorilla Demographic Inference; Table 2; Methods, Samples and Demographic Inference of Western Lowland Gorilla.",
+    "placeTimeScope": "A diffusion-approximation analysis of the genome-wide site-frequency spectrum from 14 western lowland gorilla genomes, based on 4,554,752 SNPs with at least 8× coverage in every sample. The inferred expansion and contraction are model dates near 970 ka and 23 ka, respectively; their causes are unresolved.",
+    "lifeStatus": "The paper says gorilla samples were mostly blood from wild-caught zoo specimens. The sample origins were diverse and some could not be precisely confirmed; this is not a contemporary field sample of free-ranging populations."
+  },
+  "updateAudit": {
+    "mode": "add-one-source-linked-evolution-claim-to-existing-incomplete-species-dossier",
+    "baseHead": "9dc40947a5d2b0441c5e709f9dffc22c303ccdec",
+    "indexedRecordCountAtAudit": 6935,
+    "indexedShardCountAtAudit": 50,
+    "rawDossierFileCountAtAudit": 34,
+    "targetColId": "3H3C9",
+    "targetScientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "rawPath": "data/knowledge/raw-dossiers/primates-batch-2.jsonl",
+    "metadataPath": "data/knowledge/catalogue-dossiers-primates-batch-2.metadata.json",
+    "previousRawSha256": "64df5a1782b945fbbed7c4977ab30428c59a2cdc2fbd8b4625d7f71ddf4ea0dd",
+    "previousCompressedSha256": "45b32b743063c157ff3e1ef012b75dab1e89026913509d516ebe0a7ea7e3a93e",
+    "previousTargetRecordSha256": "e5ecaf9a97881a627c6e0f1ed58e58f571140005f24094fe858aaf54b799aa55",
+    "duplicateSourceIdInTargetBeforeUpdate": false,
+    "duplicateClaimBeforeUpdate": false
+  }
+}
