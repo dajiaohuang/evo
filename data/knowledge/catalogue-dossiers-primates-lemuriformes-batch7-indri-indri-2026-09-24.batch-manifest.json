@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-lemuriformes-batch7-indri-indri-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-lemuriformes-batch7-indri-indri-2026-09-24.json",
+    "sha256": "dbab92065eaaf2080ac40fbb3d5cf4447329a1c0a3388ef31b90c8f48da6d64c"
+  },
+  "duplicateCheck": {
+    "baseHead": "bffdd53234868f7e8388b604135c5ea7d9133894",
+    "openPullRequests": [],
+    "indexedRecordCount": 6915,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-lemuriformes-batch7-indri-indri-2026-09-24.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 10267,
+    "sha256": "b8bc2015ce526a98450e238583052b5f067318f60c25b67097dd74e045208f2c"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-lemuriformes-batch7-indri-indri-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 10267,
+    "decodedSha256": "b8bc2015ce526a98450e238583052b5f067318f60c25b67097dd74e045208f2c",
+    "compressedBytes": 2716,
+    "compressedSha256": "d19d950aeaaf6f26c624d7a373a3f9f951944e0ef83ec1b6d7d879fb827e7d30",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-primates-lemuriformes-batch7-indri-indri.mjs"
+}

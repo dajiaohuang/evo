@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-platyrrhini-batch9-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-platyrrhini-batch9-2026-09-24.json",
+    "sha256": "ce51777f4dfdffb33245253701d5e71a412e54608d9a7a76716468433c5717a1"
+  },
+  "duplicateCheck": {
+    "baseHead": "bffdd53234868f7e8388b604135c5ea7d9133894",
+    "openPullRequests": [],
+    "indexedRecordCount": 6915,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-platyrrhini-batch9-2026-09-24.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 8455,
+    "sha256": "a7a813d5ef9212bede584ed7e4f9f6d8908940f938641a2347fad944f8e4fdca"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-platyrrhini-batch9-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 8455,
+    "decodedSha256": "a7a813d5ef9212bede584ed7e4f9f6d8908940f938641a2347fad944f8e4fdca",
+    "compressedBytes": 2318,
+    "compressedSha256": "af3b1e7c13128a9b11007fa9b6fa000f0c990567a7b820d9eeca1756bf59423c",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-primates-platyrrhini-batch9.mjs"
+}
