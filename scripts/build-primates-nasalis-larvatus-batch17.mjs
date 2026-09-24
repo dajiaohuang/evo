@@ -11,7 +11,7 @@ const rawPath = join(root, 'data/knowledge/raw-dossiers/primates-nasalis-larvatu
 const shardPath = join(root, 'data/knowledge/catalogue-dossiers-primates-nasalis-larvatus-batch17-2026-09-24.jsonl.br')
 const manifestPath = join(root, 'data/knowledge/catalogue-dossiers-primates-nasalis-larvatus-batch17-2026-09-24.batch-manifest.json')
 const registryRoot = join(root, 'data/catalogue-of-life/releases/2026-08-20/registry')
-const EXPECTED_SOURCE_SHA256 = 'e2fe87a79977ce8a91be04e6f05b6678a191370ca11125dd36eea35666495358'
+const EXPECTED_SOURCE_SHA256 = 'e32c61f4dc088ebd5cf9997914ca5e00686a738de375415e59a3e074467f6cbf'
 const sha = b => createHash('sha256').update(b).digest('hex')
 const normalize = s => s.normalize('NFKD').replace(/\p{M}/gu, '').toLocaleLowerCase('en-US').replace(/[^a-z0-9]+/gu, ' ').trim()
 const jsonl = p => gunzipSync(readFileSync(join(registryRoot, p))).toString('utf8').split('\n').filter(Boolean).map(JSON.parse)
