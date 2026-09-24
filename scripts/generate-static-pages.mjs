@@ -29,6 +29,7 @@ const entities = readJson('data/registry/entities/entities.json').filter((entity
 const sourceRegistry = readJson('data/registry/package-registry.json')
 const registry = { ...sourceRegistry, packages: sourceRegistry.packages.filter((entry) => !coreContentEdition || previewPackageIds.has(entry.id)) }
 const profiles = readJson('data/registry/taxon-profiles.json').filter((profile) => !coreContentEdition || previewTaxonIds.has(profile.id) || (profile.treeNodeId && previewTaxonIds.has(profile.treeNodeId)))
+const events = readJson('data/events.json').filter((event) => !coreContentEdition || previewEventIds.has(event.id))
 const storyPriority = new Map(previewDefinition.storyIds.map((id, index) => [id, index]))
 const stories = readJson('data/stories.json')
   .filter((story) => story.evidenceStatus === 'available-with-limitations' && (!coreContentEdition || previewStoryIds.has(story.id)))
