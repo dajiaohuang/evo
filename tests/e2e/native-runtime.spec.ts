@@ -22,7 +22,7 @@ test('native app bundles the selected core and gates full-catalogue routes', asy
   expect(bundle.current.edition).toBe('native-core')
   expect(bundle.current.deliveryProfile).toBe('web-light')
   expect(bundle.current.previewScope.catalogue).toBe('omitted')
-  expect(bundle.current.previewScope.packageIds).toEqual(['atlas-core', 'perissodactyla', 'cetartiodactyla', 'dinosauria', 'primates'])
+  expect(bundle.current.previewScope.packageIds).toEqual(['atlas-core', 'primates', 'perissodactyla', 'cetartiodactyla', 'dinosauria'])
   expect(bundle.files.some((file) => file.url.includes('/downloads/'))).toBe(false)
   expect(bundle.files.some((file) => /catalogue\/(hierarchy|search|source-checklists)\//.test(file.url))).toBe(false)
   expect(bundle.files.some((file) => file.url.includes('catalogue/resource-packs/'))).toBe(false)
