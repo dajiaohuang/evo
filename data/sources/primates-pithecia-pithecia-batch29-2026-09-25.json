@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-pithecia-pithecia-batch29-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "duplicateAudit": {
+    "baseHead": "534154b315773a56e7abd14c4faab64ddbc65bda",
+    "checkedIndexRecords": 6937,
+    "openPullRequests": [],
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "records": [
+    {
+      "colId": "4JBHF",
+      "scientificName": "Pithecia pithecia (Linnaeus, 1766)",
+      "authorship": "(Linnaeus, 1766)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-09-25",
+      "identity": {
+        "method": "Exact accepted COL26.8 usage 4JBHF verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.",
+        "scope": "Nominal species represented by COL26.8 accepted usage 4JBHF. The biological evidence is one experiment on five captive-born adults at Furuviksparken and cannot establish wild feeding or species-wide behavior.",
+        "sourceIds": ["col"]
+      },
+      "classificationPath": [
+        { "id": "CS5HF", "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978", "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978", "rank": "domain", "status": "accepted", "sourceDatasetId": null },
+        { "id": "N", "scientificName": "Animalia", "authorship": null, "rank": "kingdom", "status": "accepted", "sourceDatasetId": null },
+        { "id": "CH2", "scientificName": "Chordata", "authorship": null, "rank": "phylum", "status": "accepted", "sourceDatasetId": null },
+        { "id": "8V4V3", "scientificName": "Vertebrata", "authorship": null, "rank": "subphylum", "status": "accepted", "sourceDatasetId": null },
+        { "id": "8V4V5", "scientificName": "Gnathostomata", "authorship": null, "rank": "infraphylum", "status": "accepted", "sourceDatasetId": null },
+        { "id": "8VVWB", "scientificName": "Osteichthyes", "authorship": null, "rank": "parvphylum", "status": "accepted", "sourceDatasetId": null },
+        { "id": "9CK8W", "scientificName": "Tetrapoda", "authorship": null, "rank": "megaclass", "status": "accepted", "sourceDatasetId": null },
+        { "id": "6224G", "scientificName": "Mammalia Linnaeus, 1758", "authorship": "Linnaeus, 1758", "rank": "class", "status": "accepted", "sourceDatasetId": "2144" },
+        { "id": "6226C", "scientificName": "Theria Parker & Haswell, 1897", "authorship": "Parker & Haswell, 1897", "rank": "subclass", "status": "accepted", "sourceDatasetId": "2144" },
+        { "id": "LG", "scientificName": "Eutheria Gill, 1872", "authorship": "Gill, 1872", "rank": "infraclass", "status": "accepted", "sourceDatasetId": "2144" },
+        { "id": "3W7", "scientificName": "Primates Linnaeus, 1758", "authorship": "Linnaeus, 1758", "rank": "order", "status": "accepted", "sourceDatasetId": "2144" },
+        { "id": "4DT", "scientificName": "Haplorrhini Pocock, 1918", "authorship": "Pocock, 1918", "rank": "suborder", "status": "accepted", "sourceDatasetId": "2144" },
+        { "id": "4PM", "scientificName": "Simiiformes Haeckel, 1866", "authorship": "Haeckel, 1866", "rank": "infraorder", "status": "accepted", "sourceDatasetId": "2144" },
+        { "id": "625NB", "scientificName": "Pitheciidae Mivart, 1865", "authorship": "Mivart, 1865", "rank": "family", "status": "accepted", "sourceDatasetId": "2144" },
+        { "id": "K62", "scientificName": "Pitheciinae Mivart, 1865", "authorship": "Mivart, 1865", "rank": "subfamily", "status": "accepted", "sourceDatasetId": "2144" },
+        { "id": "6QYQ", "scientificName": "Pithecia Desmarest, 1804", "authorship": "Desmarest, 1804", "rank": "genus", "status": "accepted", "sourceDatasetId": "2144" },
+        { "id": "4JBHF", "scientificName": "Pithecia pithecia (Linnaeus, 1766)", "authorship": "(Linnaeus, 1766)", "rank": "species", "status": "accepted", "sourceDatasetId": "2144" }
+      ],
+      "lifeStatusScope": {
+        "wild": "No wild individuals were studied in the primary food-choice experiment.",
+        "domesticated": "Domestication was not assessed.",
+        "captive": "The claim concerns five captive-born adult sakis housed at Furuviksparken in Furuvik, Sweden; the article does not state the experiment dates.",
+        "fossil": "No fossil occurrence or geological age was assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4JBHF",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "stableId": "col:4JBHF@COL26.8",
+          "publishedAt": "2026-08-20",
+          "accessedAt": "2026-09-25",
+          "locator": "Accepted species usage 4JBHF; exact name, authorship, rank, status, sourceDatasetId 2144, and full accepted parent chain.",
+          "license": "CC BY 4.0 nomenclatural metadata; no checklist prose reused.",
+          "licenseAssessment": "identity-only",
+          "scope": "Pinned COL26.8 nomenclatural identity and accepted classification only.",
+          "rightsHolder": "Catalogue of Life Foundation",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Pinned nomenclatural and taxonomic checklist metadata only.",
+          "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 4JBHF. https://doi.org/10.48580/dgywk"
+        },
+        {
+          "id": "martins2023",
+          "title": "Martins, Magnusson & Laska (2023), Go for Lipids! Food Preferences and Nutrient Composition in Zoo-Housed White-Faced Sakis, Pithecia pithecia",
+          "url": "https://link.springer.com/article/10.1007/s10764-022-00344-5",
+          "version": "Version of record published 2022-12-14; International Journal of Primatology 44:341–356 (2023)",
+          "stableId": "doi:10.1007/s10764-022-00344-5",
+          "publishedAt": "2022-12-14",
+          "accessedAt": "2026-09-25",
+          "locator": "Abstract; Methods > Animals, Procedures, and Data Analysis; Results > Rankings Derived from the Food Preferences and Food Preference Rankings and Nutritional Content; Tables I–III; Discussion; Limitations of Our Study.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated on the article's Rights and Permissions page.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Primary two-choice food-preference experiment on five captive-born adult Pithecia pithecia at Furuviksparken, Sweden. Only article text is paraphrased; no figures, tables, study data, or separately credited third-party material are reused.",
+          "rightsHolder": "The Author(s)",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Article text under its item-level CC BY 4.0 notice; separately credited third-party material is excluded.",
+          "attribution": "Martins VA, Magnusson N, Laska M (2023). International Journal of Primatology 44:341–356. https://doi.org/10.1007/s10764-022-00344-5. Claims paraphrased from article text."
+        }
+      ],
+      "systematicSearch": {
+        "date": "2026-09-25",
+        "scope": "Exact COL26.8 identity and a focused review of one primary open-access study of white-faced saki food preferences under human care; this is not a seven-facet literature review.",
+        "method": "Resolved usage 4JBHF and its complete parent chain in the pinned COL26.8 search and hierarchy registry. Read the publisher's full article, including sampling, procedure, results, limitations, and item-level rights notice. No facet-by-facet or multi-database systematic review was completed.",
+        "queryOrPath": "Pinned COL26.8 dataset 316115 usage 4JBHF; Springer Nature DOI 10.1007/s10764-022-00344-5.",
+        "inclusionCriteria": "Exact species identity in a primary article that reports the captive sample, experimental protocol, results, limitations, and article-specific reuse terms.",
+        "exclusionCriteria": "Wild-population, whole-species, causal, evolutionary, distribution, conservation, life-history, and fossil claims not tested by the experiment; secondary sources not independently checked at their originals.",
+        "searcher": "Evo source audit"
+      },
+      "facets": {
+        "morphology": { "status": "not-assessed", "claims": [], "gaps": ["The experiment did not assess diagnostic morphology or species-level variation."] },
+        "lifeHistory": { "status": "not-assessed", "claims": [], "gaps": ["The experiment did not assess development, reproduction, or survival history."] },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "At Furuviksparken, five captive-born adult white-faced sakis (three females and two males) were individually offered all 105 pairwise combinations of 15 familiar foods from their human-care diet, with each pair presented ten times. Their group preference ranking correlated positively with the foods' total energy content; among carbohydrates, protein, and lipids, lipid content showed the strongest positive correlation. The 5,250 choices were repeated presentations to the same five animals. The authors state that this small zoo sample cannot support species-level generalization and does not represent feeding by wild individuals.",
+              "sourceIds": ["martins2023"],
+              "locator": "Methods > Animals, Procedures, and Data Analysis; Results > Rankings Derived from the Food Preferences and Food Preference Rankings and Nutritional Content; Tables II–III; Limitations of Our Study.",
+              "placeTimeScope": "Furuviksparken, Furuvik, Sweden. The paper does not report the experiment dates; the version of record was published 2022-12-14. Five captive-born adults (two males, three females) participated.",
+              "lifeStatus": "All five participants were captive-born and housed under human care; no wild animals were included.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["Evidence is from one zoo group of five animals and repeated choice trials using provisioned foods; no wild diet, natural resource use, habitat interaction, or species-wide feeding pattern is established."]
+        },
+        "evolution": { "status": "not-assessed", "claims": [], "gaps": ["No species-specific phylogenetic or comparative evolutionary analysis was assessed."] },
+        "distribution": { "status": "not-assessed", "claims": [], "gaps": ["The zoo study site is not a native-range record; no distribution source was reviewed."] },
+        "fossil": { "status": "not-assessed", "claims": [], "gaps": ["No fossil evidence or bounded fossil-record search was assessed."] },
+        "conservation": { "status": "not-assessed", "claims": [], "gaps": ["No current assessment, population trend, or threat analysis was reviewed."] }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "One small captive food-choice experiment supports only a tightly bounded ecology claim.",
+          "Six facets remain not assessed; the source explicitly cautions against species-level generalization.",
+          "No multi-source species review or independent external expert review has been completed."
+        ]
+      },
+      "expertReview": { "status": "not-reviewed", "reviewers": [], "reviewDigest": null }
+    }
+  ]
+}
