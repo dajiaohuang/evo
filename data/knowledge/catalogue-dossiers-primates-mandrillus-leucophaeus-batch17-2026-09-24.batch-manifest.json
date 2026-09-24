@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-mandrillus-leucophaeus-batch17-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-mandrillus-leucophaeus-batch17-2026-09-24.json",
+    "sha256": "b22d92a207b3446aea0d23860440970d178da46168e7ffcbcc9e479c78d41feb"
+  },
+  "duplicateCheck": {
+    "baseHead": "36b6961f8fb380c23a0c884529ce2e85bf32eddb",
+    "indexedRecordCount": 6926,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-mandrillus-leucophaeus-batch17-2026-09-24.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 8998,
+    "sha256": "4a9e6ba687de17e3abd2b004343e1579f30368f237732cc78ae96f85dcf01d5a"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-mandrillus-leucophaeus-batch17-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 8998,
+    "decodedSha256": "4a9e6ba687de17e3abd2b004343e1579f30368f237732cc78ae96f85dcf01d5a",
+    "compressedBytes": 2405,
+    "compressedSha256": "df2b7ba132c133ac944dc84a47cf063d8462993223405b5ad2bf636bcf1916e5",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-primates-mandrillus-leucophaeus-batch17.mjs"
+}
