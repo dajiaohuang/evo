@@ -11,11 +11,13 @@ const rawPath = join(root, 'data/knowledge/raw-dossiers/primates-nasalis-larvatu
 const shardPath = join(root, 'data/knowledge/catalogue-dossiers-primates-nasalis-larvatus-batch17-2026-09-24.jsonl.br')
 const manifestPath = join(root, 'data/knowledge/catalogue-dossiers-primates-nasalis-larvatus-batch17-2026-09-24.batch-manifest.json')
 const registryRoot = join(root, 'data/catalogue-of-life/releases/2026-08-20/registry')
+const EXPECTED_SOURCE_SHA256 = 'e2fe87a79977ce8a91be04e6f05b6678a191370ca11125dd36eea35666495358'
 const sha = b => createHash('sha256').update(b).digest('hex')
 const normalize = s => s.normalize('NFKD').replace(/\p{M}/gu, '').toLocaleLowerCase('en-US').replace(/[^a-z0-9]+/gu, ' ').trim()
 const jsonl = p => gunzipSync(readFileSync(join(registryRoot, p))).toString('utf8').split('\n').filter(Boolean).map(JSON.parse)
 
 const sourceBytes = readFileSync(sourcePath)
+assert.equal(sha(sourceBytes), EXPECTED_SOURCE_SHA256, 'Source dossier JSON SHA-256 mismatch')
 const source = JSON.parse(sourceBytes)
 const registryBytes = readFileSync(join(registryRoot, 'manifest.json'))
 const registry = JSON.parse(registryBytes)
