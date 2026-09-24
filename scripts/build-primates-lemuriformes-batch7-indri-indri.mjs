@@ -13,7 +13,7 @@ const SHARD_PATH = join(ROOT, 'data', 'knowledge', `catalogue-dossiers-${BATCH_I
 const MANIFEST_PATH = join(ROOT, 'data', 'knowledge', `catalogue-dossiers-${BATCH_ID}.batch-manifest.json`)
 const REGISTRY_ROOT = join(ROOT, 'data', 'catalogue-of-life', 'releases', '2026-08-20', 'registry')
 const FACETS = ['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation']
-const EXPECTED_SOURCE_SHA256 = '2f0c97308fc3d5f00e19e13ae2d19f97dbf0aeafc418b15bae2edc48391f2a79'
+const EXPECTED_SOURCE_SHA256 = 'dbab92065eaaf2080ac40fbb3d5cf4447329a1c0a3388ef31b90c8f48da6d64c'
 const EXPECTED_REGISTRY_SHA256 = '8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151'
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex')
 const normalize = value => value.normalize('NFKD').replace(/\p{M}/gu, '').toLocaleLowerCase('en-US').replace(/[^a-z0-9]+/gu, ' ').trim()
