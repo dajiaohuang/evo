@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-propithecus-verreauxi-batch21-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-propithecus-verreauxi-batch21-2026-09-24.json",
+    "sha256": "9c4f0eace5d2757fe9f9eb2ec86fd25974e0723db80c30539d9136afe17519bc"
+  },
+  "duplicateCheck": {
+    "baseHead": "8db03f8d1270d8465ddf4a9f33460f0d4ad94e71",
+    "indexedRecordCount": 6932,
+    "colId": "77XPX",
+    "scientificName": "Propithecus verreauxi Grandidier, 1867",
+    "matchedColIds": [],
+    "matchedNames": [],
+    "openPullRequests": []
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-propithecus-verreauxi-batch21-2026-09-24.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 14704,
+    "sha256": "f2c24d7b323495f2458829a21dab3af7ad6d48bce749fc1510134dd193f01057"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-propithecus-verreauxi-batch21-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 14704,
+    "decodedSha256": "f2c24d7b323495f2458829a21dab3af7ad6d48bce749fc1510134dd193f01057",
+    "compressedBytes": 3699,
+    "compressedSha256": "6e2f0855c141c8f9600adf4c0fc57e23bb2e2ffc9831c855cc74b7a422f5b3d9",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-primates-propithecus-verreauxi-batch21.mjs"
+}
