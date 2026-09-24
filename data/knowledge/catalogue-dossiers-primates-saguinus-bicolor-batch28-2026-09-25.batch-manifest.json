@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-saguinus-bicolor-batch28-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-saguinus-bicolor-batch28-2026-09-25.json",
+    "sha256": "f483743da1f9df4fa8fd603aa3d9d5c8ca56da31907e5bd3b1f94d13496ee820"
+  },
+  "duplicateCheck": {
+    "baseHead": "3f8b4c78a82ee08cdd86130c2e6d2fb0b642e8fc",
+    "openPullRequests": [],
+    "indexedRecordCount": 6936,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-saguinus-bicolor-batch28-2026-09-25.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 9801,
+    "sha256": "1e46a1f0262c0d738083954e3648ecaaeec08dada1c5a4a7e5c67159eff82a4a"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-saguinus-bicolor-batch28-2026-09-25.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 9801,
+    "decodedSha256": "1e46a1f0262c0d738083954e3648ecaaeec08dada1c5a4a7e5c67159eff82a4a",
+    "compressedBytes": 2680,
+    "compressedSha256": "acc11868c95424108c99fa2a196a93f56a90d8c3c5d6fa89f7db669c5cd0467c",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-primates-saguinus-bicolor-batch28.mjs"
+}
