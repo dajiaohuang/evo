@@ -9,6 +9,7 @@ const sourcePath = resolve(root, 'data/sources/primates-cercopithecoidea-batch-8
 const rawPath = resolve(root, 'data/knowledge/raw-dossiers/primates-cercopithecoidea-batch-8.jsonl')
 const shardPath = resolve(root, 'data/knowledge/catalogue-dossiers-primates-cercopithecoidea-batch-8.jsonl.br')
 const manifestPath = resolve(root, 'data/knowledge/catalogue-dossiers-primates-cercopithecoidea-batch-8.batch-manifest.json')
+const indexPath = resolve(root, 'data/knowledge/catalogue-dossier-shards.json')
 const registryRoot = resolve(root, 'data/catalogue-of-life/releases/2026-08-20/registry')
 const facets = ['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation']
 const expectedChain = [
@@ -25,6 +26,13 @@ const source = JSON.parse(sourceBytes.toString('utf8'))
 assert.equal(source.releaseAlias, 'COL26.8')
 assert.equal(source.checklistBankDatasetKey, 316115)
 assert.equal(source.records.length, 1)
+assert.equal(source.updateAudit.baseHead, '16fa64a21645a79551d6be678bdb474d2c7f6dca')
+assert.equal(source.updateAudit.indexedRecordCountAtAudit, 6934)
+assert.equal(source.updateAudit.targetColId, '3WWND')
+assert.equal(source.updateAudit.targetScientificName, 'Macaca fascicularis (Raffles, 1821)')
+assert.equal(source.updateAudit.targetRecordCountBeforeUpdate, 1)
+assert.deepEqual(source.updateAudit.openPullRequests, [])
+assert.equal(source.updateAudit.mode, 'in-place-enrichment-of-existing-record')
 const dossier = source.records[0]
 assert.equal(dossier.colId, '3WWND')
 assert.equal(dossier.scientificName, 'Macaca fascicularis (Raffles, 1821)')
@@ -58,6 +66,7 @@ assert.equal(record.parentId, '5HYC')
 assert.ok(record.classification.includes('Cercopithecoidea') && record.classification.includes('Primates'))
 assert.equal(registryManifest.releaseAlias, 'COL26.8')
 assert.equal(registryManifest.releaseDate, '2026-08-20')
+assert.equal(sha256(registryManifestBytes), '8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151')
 const hierarchyRows = [['3WWND', dossier.scientificName, 'species'], ...expectedChain.map(([id, name, authorship, rank]) => [id, authorship ? `${name} ${authorship}` : name, rank])]
 const hierarchyRecords = []
 for (let i = 0; i < hierarchyRows.length; i++) {
@@ -78,6 +87,18 @@ for (let i = 0; i < hierarchyRows.length; i++) {
 assert.equal(hierarchyRecords[0].sourceDatasetId, '2144')
 
 assert.ok(dossier.sources.find(sourceItem => sourceItem.id === 'bailey2023')?.licenseAssessment === 'item-level-verified')
+const foragingSource = dossier.sources.find(sourceItem => sourceItem.id === 'reinegger2023')
+assert.equal(foragingSource?.stableId, 'doi:10.1007/s10764-022-00324-9')
+assert.equal(foragingSource?.licenseAssessment, 'item-level-verified')
+assert.equal(foragingSource?.licenseVersion, 'CC BY 4.0')
+assert.equal(foragingSource?.licenseUrl, 'https://creativecommons.org/licenses/by/4.0/')
+assert.ok(foragingSource?.rightsEvidenceUrl && foragingSource?.rightsEvidenceLocator)
+assert.equal(dossier.facets.ecology.status, 'partially-supported')
+assert.equal(dossier.facets.ecology.claims.length, 2)
+assert.ok(dossier.facets.ecology.claims.every(claim => claim.sourceIds.length === 1 && claim.sourceIds[0] === 'reinegger2023'))
+assert.ok(dossier.facets.ecology.claims[0].text.includes('one-group, one-site seasonal result'))
+assert.ok(dossier.facets.ecology.claims[1].text.includes('do not measure germination, seedling recruitment, or realized plant-invasion rates'))
+assert.equal(dossier.facets.distribution.status, 'not-assessed', 'A single introduced study site is not a species-range inventory')
 for (const [facet, assessment] of Object.entries(dossier.facets)) {
   assert.ok(['supported', 'partially-supported', 'searched-no-evidence', 'conflicted', 'not-assessed'].includes(assessment.status))
   if (assessment.status === 'not-assessed') assert.equal(assessment.claims?.length ?? 0, 0)
@@ -88,23 +109,59 @@ for (const [facet, assessment] of Object.entries(dossier.facets)) {
   }
 }
 
-const index = JSON.parse(readFileSync(resolve(root, 'data/knowledge/catalogue-dossier-shards.json'), 'utf8'))
+const index = JSON.parse(readFileSync(indexPath, 'utf8'))
+assert.equal(index.recordCount, source.updateAudit.indexedRecordCountAtAudit, 'In-place enrichment must preserve the audited dossier count')
+const indexedIds = new Set()
+const indexedNames = new Set()
+const targetRows = []
+let indexedCount = 0
 for (const shard of index.shards) {
-  const existing = brotliDecompressSync(readFileSync(resolve(root, shard.path))).toString('utf8')
-  for (const line of existing.split('\n')) {
-    if (!line) continue
-    assert.notEqual(JSON.parse(line).colId, dossier.colId, `COL ID already indexed in ${shard.path}`)
+  const compressedShard = readFileSync(resolve(root, shard.path))
+  assert.equal(sha256(compressedShard), shard.compressedSha256, `Compressed hash mismatch: ${shard.path}`)
+  const decodedShard = brotliDecompressSync(compressedShard)
+  assert.equal(sha256(decodedShard), shard.decodedSha256, `Decoded hash mismatch: ${shard.path}`)
+  const rows = decodedShard.toString('utf8').trimEnd().split('\n').map(JSON.parse)
+  assert.equal(rows.length, shard.recordCount, `Record count mismatch: ${shard.path}`)
+  indexedCount += rows.length
+  for (const row of rows) {
+    assert.ok(row.colId && row.scientificName, `Missing identity in ${shard.path}`)
+    assert.ok(!indexedIds.has(row.colId), `Duplicate indexed COL ID ${row.colId}`)
+    const normalizedName = row.scientificName.normalize('NFKD').replace(/\p{M}/gu, '').toLocaleLowerCase('en-US').replace(/[^a-z0-9]+/gu, ' ').trim()
+    assert.ok(!indexedNames.has(normalizedName), `Duplicate indexed scientific name ${row.scientificName}`)
+    indexedIds.add(row.colId)
+    indexedNames.add(normalizedName)
+    if (row.colId === dossier.colId) targetRows.push({ shard, row, decodedShard })
   }
 }
+assert.equal(indexedCount, index.recordCount)
+assert.equal(indexedCount, source.updateAudit.indexedRecordCountAtAudit)
+assert.equal(targetRows.length, source.updateAudit.targetRecordCountBeforeUpdate, 'In-place enrichment must resolve exactly one existing record')
+assert.equal(targetRows[0].shard.path, source.updateAudit.targetShardPath, 'The record must remain in its original shard')
+assert.equal(targetRows[0].row.scientificName, dossier.scientificName)
 
 const rawBytes = Buffer.from(`${JSON.stringify(dossier)}\n`, 'utf8')
 assert.ok(!rawBytes.includes(0x0d), 'Raw JSONL must use LF only')
 const compressed = brotliCompressSync(rawBytes, { params: { [zlibConstants.BROTLI_PARAM_QUALITY]: 11 } })
 const decoded = brotliDecompressSync(compressed)
 assert.deepEqual(decoded, rawBytes, 'Brotli round-trip must preserve exact raw JSONL bytes')
+const currentRawBytes = readFileSync(rawPath)
+const currentCompressedBytes = readFileSync(shardPath)
+const currentDecodedBytes = brotliDecompressSync(currentCompressedBytes)
+assert.deepEqual(currentDecodedBytes, currentRawBytes, 'Existing raw record and indexed shard must match before update')
+const currentRawSha256 = sha256(currentRawBytes)
+const currentShardSha256 = sha256(currentCompressedBytes)
+assert.ok(currentRawSha256 === source.updateAudit.previousRawSha256 || currentRawBytes.equals(rawBytes), 'Existing raw record differs from the audited baseline and deterministic update')
+assert.ok(currentShardSha256 === source.updateAudit.previousShardSha256 || currentCompressedBytes.equals(compressed), 'Existing shard differs from the audited baseline and deterministic update')
+assert.ok(targetRows[0].decodedShard.equals(currentRawBytes), 'Indexed target shard must be exactly the existing target record')
+
+const indexShard = index.shards.find(item => item.path === source.updateAudit.targetShardPath)
+assert.ok(indexShard, 'The original target shard must remain in the catalogue index')
+indexShard.decodedSha256 = sha256(decoded)
+indexShard.compressedSha256 = sha256(compressed)
 const manifest = {
   schemaVersion: 1,
   shardType: 'independent-col26.8-species-dossiers',
+  batchId: source.batchId,
   releaseAlias: source.releaseAlias,
   datasetKey: source.checklistBankDatasetKey,
   datasetDoi: source.checklistBankDoi,
@@ -121,9 +178,21 @@ const manifest = {
   generationSource: 'data/sources/primates-cercopithecoidea-batch-8.json',
   generationSourceSha256: sha256(sourceBytes),
   registryManifestSha256: sha256(registryManifestBytes),
+  duplicateCheck: {
+    mode: 'in-place-update',
+    baseHead: source.updateAudit.baseHead,
+    openPullRequests: source.updateAudit.openPullRequests,
+    indexedRecordCount: indexedCount,
+    colId: dossier.colId,
+    scientificName: dossier.scientificName,
+    existingRecordCount: targetRows.length,
+  },
+  updateAudit: { ...source.updateAudit, indexedRecordCountAfterUpdate: index.recordCount },
+  updateMode: 'rebuild-one-existing-record-in-place',
 }
 mkdirSync(resolve(root, 'data/knowledge/raw-dossiers'), { recursive: true })
 writeFileSync(rawPath, rawBytes)
 writeFileSync(shardPath, compressed)
+writeFileSync(indexPath, `${JSON.stringify(index, null, 2)}\n`, 'utf8')
 writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8')
-console.log(JSON.stringify({ ...manifest, roundTrip: decoded.equals(rawBytes) }, null, 2))
+console.log(JSON.stringify({ ...manifest, roundTrip: decoded.equals(rawBytes), indexedCount }, null, 2))

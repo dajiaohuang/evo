@@ -6,7 +6,19 @@
   "releaseDate": "2026-08-20",
   "checkedAt": "2026-09-24",
   "batchId": "primates-cercopithecoidea-batch-8-2026-09-24",
-  "scope": "One incomplete dossier for an accepted COL26.8 Cercopithecoidea species, supported by one item-level verified primary genomic study. The batch is not a systematic literature review or complete species assessment.",
+  "scope": "In-place enrichment of one existing incomplete dossier for an accepted COL26.8 Cercopithecoidea species. A primary genomic study and one bounded field study inform evolution and local ecology; the batch is not a systematic literature review or complete species assessment.",
+  "updateAudit": {
+    "baseHead": "16fa64a21645a79551d6be678bdb474d2c7f6dca",
+    "indexedRecordCountAtAudit": 6934,
+    "targetColId": "3WWND",
+    "targetScientificName": "Macaca fascicularis (Raffles, 1821)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-cercopithecoidea-batch-8.jsonl.br",
+    "previousRawSha256": "cfcb521ce8d0e26e6fa9f9bd1c900196518772a1293b3233c2ec10d98cf89d5b",
+    "previousShardSha256": "783abe605fe8e4a65762eb057aae65431e0314baca578a0dcd59133b26bbc3ff",
+    "openPullRequests": [],
+    "mode": "in-place-enrichment-of-existing-record"
+  },
   "records": [
     {
       "colId": "3WWND",
@@ -29,7 +41,7 @@
         ]
       },
       "lifeStatusScope": {
-        "wild": "The primary study analyzed whole-genome samples assigned to allopatric or parapatric population groups; the claim is limited to the study's sample grouping and does not establish a species-wide ecological or population account.",
+        "wild": "The ecological study observed one free-ranging introduced (non-native) group in Mauritius; the genomic study analyzed selected allopatric and parapatric samples. Neither source establishes a species-wide ecological or population account.",
         "domesticated": "Domestication has not been assessed.",
         "fossil": "Fossil evidence has not been assessed."
       },
@@ -70,12 +82,55 @@
           "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
           "licenseAppliesTo": "Article text under the stated CC BY 4.0 license; separately credited third-party material is excluded.",
           "attribution": "Bailey N, Ruiz C, Tosi A, Stevison L. (2023). Genomic analysis of the rhesus macaque (Macaca mulatta) and the cynomolgus macaque (Macaca fascicularis) uncover polygenic signatures of reinforcement speciation. Ecology and Evolution 13(10):e10571. https://doi.org/10.1002/ece3.10571. Claims are paraphrased."
+        },
+        {
+          "id": "reinegger2023",
+          "title": "Reinegger et al. (2023), Foraging Strategies of Invasive Macaca fascicularis may Promote Plant Invasion in Mauritius",
+          "url": "https://doi.org/10.1007/s10764-022-00324-9",
+          "rightsEvidenceUrl": "https://link.springer.com/article/10.1007/s10764-022-00324-9",
+          "rightsEvidenceLocator": "Article page, Rights and permissions: open access under Creative Commons Attribution 4.0 International; separately credited third-party material may be excluded.",
+          "version": "International Journal of Primatology 44:140–170; version of record published 2023-02; first published online 2022-08-25",
+          "stableId": "doi:10.1007/s10764-022-00324-9",
+          "publishedAt": "2022-08-25",
+          "accessedAt": "2026-09-24",
+          "locator": "Methods, Study Site; Study Group and Habituation Process; Data Collection; Results, Effects of Fruit Availability on Home Range; Effects of Food Availability on Diet; Tables I, II and S2; Figure 3.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated on the publisher article page.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Primary field study of one partially habituated, free-ranging introduced group at Mt Calebasses, Mauritius, from December 2019 to December 2020. Claims are limited to this site and group; the study is not a native-range survey, species-wide diet or distribution assessment, or measurement of realized plant-invasion outcomes. Article text is paraphrased; no figures, maps, or supplementary tables are reproduced.",
+          "rightsHolder": "The Author(s)",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Article text under the stated CC BY 4.0 license; separately credited third-party material is excluded.",
+          "attribution": "Reinegger N, Oleksy R, Gazagne E, Jones C. (2023). Foraging Strategies of Invasive Macaca fascicularis may Promote Plant Invasion in Mauritius. International Journal of Primatology 44:140–170. https://doi.org/10.1007/s10764-022-00324-9. Claims are paraphrased."
         }
       ],
       "facets": {
         "morphology": { "status": "not-assessed", "gaps": ["The selected comparative-genomics study does not assess anatomical morphology or diagnostic variation."] },
         "lifeHistory": { "status": "not-assessed", "gaps": ["No life-cycle, reproductive, growth, survival, or longevity evidence was assessed."] },
-        "ecology": { "status": "not-assessed", "gaps": ["Genomic signals and population labels do not establish habitat use, diet, interactions, or ecological adaptations."] },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "At Mt Calebasses, Mauritius, one group of 19–23 long-tailed macaques had a 34.9-ha total home range during the study. Its mean monthly range was 10.6 ± 3.0 ha during the high-fruit period (February–June 2020) and 17.8 ± 5.6 ha outside that period; monthly range was negatively correlated with fruit availability (r = −0.65, adjusted p = 0.037). This is a one-group, one-site seasonal result, not a species-wide estimate.",
+              "sourceIds": ["reinegger2023"],
+              "locator": "Results, Effects of Fruit Availability on Home Range; paragraphs beginning ‘Our study group had a total home range’; Figure 3.",
+              "placeTimeScope": "Mt Calebasses, Mauritius; one study group observed from December 2019 to December 2020, with the high-fruit period defined as February–June 2020.",
+              "lifeStatus": "One free-ranging introduced (non-native) group; not representative of native-range populations.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            },
+            {
+              "text": "In feeding observations at this site, invasive plants accounted for 98% of plant-feeding scans and 97% of fruit-feeding scans; recorded fruit consumption was concentrated in invasive Litsea sp. (40.2%), Psidium cattleyanum (39.3%), and Flacourtia indica (9.5%). The authors discuss possible seed-dispersal effects, but the observations do not measure germination, seedling recruitment, or realized plant-invasion rates.",
+              "sourceIds": ["reinegger2023"],
+              "locator": "Results, Effects of Food Availability on Diet; paragraphs beginning ‘The macaques spent the largest percentage’ and ‘Macaques consumed plant parts’; Table S2.",
+              "placeTimeScope": "Mt Calebasses, Mauritius; feeding observations of one study group during the December 2019–December 2020 field study.",
+              "lifeStatus": "One free-ranging introduced (non-native) group; no inference to other populations or the native range.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["One field study covers one introduced group at one Mauritius site; species-wide habitat use and diet, population variation, and causal or realized effects on plant invasion remain unassessed."]
+        },
         "evolution": {
           "status": "partially-supported",
           "claims": [
@@ -97,7 +152,7 @@
       },
       "completeness": {
         "status": "incomplete",
-        "reasons": ["Only one comparative genomic study was assessed; six facets remain not-assessed and evolution is partial.", "No systematic literature search or independent expert review has been completed."]
+        "reasons": ["Two studies support only bounded claims in ecology and evolution; five facets remain not-assessed, and both assessed facets are partial.", "No systematic literature search or independent expert review has been completed."]
       },
       "expertReview": { "status": "not-reviewed", "reviewers": [], "reviewDigest": null }
     }
