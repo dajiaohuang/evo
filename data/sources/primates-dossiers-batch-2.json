@@ -5,6 +5,21 @@
   "checklistBankDoi": "10.48580/dgywk",
   "releaseDate": "2026-08-20",
   "checkedAt": "2026-09-24",
+  "batchId": "primates-gorilla-gorilla-enrichment-2026-09-24",
+  "scope": "In-place enrichment of one existing COL26.8 primate dossier. The primary field study supports only local ecology for one habituated western lowland gorilla group; the batch remains incomplete and is not a systematic species assessment.",
+  "updateAudit": {
+    "baseHead": "e7dc9569f8042c2baab7126645e04857cb43fc75",
+    "indexedRecordCountAtAudit": 6934,
+    "targetColId": "3H3C9",
+    "targetScientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "previousDecodedSha256": "42df0d9e92fe70b821724597a97fcbc6d2b8d74a0d09cf616ff7ef4a1701875f",
+    "previousCompressedSha256": "0cdcf4faf3756de07b37e872e51358a0f6798e08c58ca0582ffd1cb1799b8752",
+    "previousTargetRecordSha256": "8460a0bd5840abb5791b2135a3749090f08b17f454df8007ea2e3e4f2852fb54",
+    "openPullRequests": [],
+    "mode": "in-place-enrichment-of-existing-record"
+  },
   "records": [
     {
       "colId": "4C92G",
@@ -91,7 +106,7 @@
       "checkedAt": "2026-09-24",
       "identity": {
         "method": "Exact accepted COL26.8 usage record queried at ChecklistBank dataset 316115; name, authorship, species rank, accepted status, source sector, and parent chain were checked from the taxon endpoint.",
-        "scope": "COL26.8 usage 3H3C9 only. The ecological observations cited below concern named western lowland gorilla groups and locations and do not establish species-wide dietary proportions.",
+        "scope": "COL26.8 usage 3H3C9 only. The ecological study concerns western lowland gorillas (G. g. gorilla) in one habituated group at Loango and does not establish diet or behavior across all Gorilla gorilla populations.",
         "parentChain": [
           { "id": "62SMC", "name": "Gorilla", "authorship": "I. Geoffroy Saint-Hilaire, 1852", "rank": "genus", "status": "accepted" },
           { "id": "JPH", "name": "Homininae", "authorship": "Gray, 1825", "rank": "subfamily", "status": "accepted" },
@@ -103,7 +118,7 @@
         ]
       },
       "lifeStatusScope": {
-        "wild": "The cited feeding observations are from one habituated free-ranging group and published comparisons with two other western gorilla field sites.",
+        "wild": "The cited feeding observations are from one habituated, free-ranging Atananga group of western lowland gorillas at Loango National Park, Gabon; they are not a species-wide estimate.",
         "domesticated": "No domesticated or captive observations are included; domestication has not been assessed.",
         "fossil": "No fossil evidence is assessed in this record."
       },
@@ -119,42 +134,61 @@
         },
         {
           "id": "ortmann2022",
-          "title": "Robbins, Ortmann & Seiler. 2022. Dietary variability of western gorillas (Gorilla gorilla gorilla). PLOS ONE 17(8):e0271576",
+          "title": "Robbins MM, Ortmann S, Seiler N. (2022), Dietary variability of western gorillas (Gorilla gorilla gorilla). PLOS ONE 17(8):e0271576",
           "url": "https://doi.org/10.1371/journal.pone.0271576",
+          "stableId": "doi:10.1371/journal.pone.0271576",
           "version": "Published 2022-08-24; PLOS ONE volume 17, issue 8; DOI 10.1371/journal.pone.0271576",
-          "locator": "Abstract; Methods, “Study site and data collection”; Results, “Dietary composition”; Table 1 and Figure 2.",
-          "license": "Creative Commons Attribution 4.0 (CC BY 4.0), as stated by the article.",
-          "scope": "Ten gorillas in the Atananga Group, Loango National Park, Gabon, observed January 2018–July 2020; comparisons are bounded to three western gorilla study sites."
+          "publishedAt": "2022-08-24",
+          "accessedAt": "2026-09-24",
+          "locator": "Methods, Study site and data collection; Dietary composition based on feeding time; Results, Dietary composition; Fruit availability and frugivory per month; Table 2; Figure 1; Supporting Information Tables S2 and S5.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the article copyright notice.",
+          "licenseAssessment": "item-level-verified",
+          "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0271576",
+          "rightsEvidenceLocator": "Article copyright notice: open access under the Creative Commons Attribution License; original author and source must be credited.",
+          "rightsHolder": "Robbins et al. (2022)",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Article text; this dossier paraphrases the text and reproduces no figures, tables, or supplementary data.",
+          "attribution": "Robbins MM, Ortmann S, Seiler N. (2022). Dietary variability of western gorillas (Gorilla gorilla gorilla). PLOS ONE 17(8):e0271576. https://doi.org/10.1371/journal.pone.0271576. CC BY 4.0. Claims are paraphrased; no figures, tables, or supplementary data are reproduced.",
+          "scope": "Primary dietary field study of one habituated group of 10 western lowland gorillas at Loango National Park, Gabon, from January 2018 to July 2020. Diet values are feeding-time estimates from scan sampling; cross-site comparisons are not used as species-wide means."
         }
       ],
       "facets": {
-        "morphology": { "status": "not-assessed" },
-        "lifeHistory": { "status": "not-assessed" },
+        "morphology": { "status": "not-assessed", "gaps": ["The dietary study does not assess anatomical morphology or diagnostic variation."] },
+        "lifeHistory": { "status": "not-assessed", "gaps": ["The dietary study does not assess reproduction, development, survival, or longevity."] },
         "ecology": {
           "status": "partially-supported",
           "claims": [
             {
-              "text": "Across the Loango, Bai Hokou, and Mondika study sites, Robbins et al. report that western gorillas spent roughly half of feeding time on herbaceous vegetation and tree leaves and about 35% on fruit. At Loango, nuts accounted for about 10% of feeding time; insects were recorded at the other two sites instead. The study documents site variation and does not estimate a range-wide species average.",
-              "textZh": "Robbins 等人报告，在 Loango、Bai Hokou 和 Mondika 研究点，西部大猩猩约一半的取食时间用于草本植物和树叶，约 35% 用于果实。在 Loango，坚果约占取食时间的 10%；另外两个地点则记录到昆虫。该研究展示了地点间差异，并未估算全分布区的物种平均值。",
+              "text": "At Loango National Park, Gabon, a study followed one habituated Atananga group of 10 western lowland gorillas from January 2018 to July 2020, collecting 5,896 observation hours over 652 days. Across the two complete years, mean feeding time was 31% fruit, 21% herbs, 31% tree foods, 10% nuts, and 0% insects. These are scan-based estimates for one group and site, not a species-wide diet.",
+              "textZh": "在加蓬 Loango 国家公园，研究人员于 2018 年 1 月至 2020 年 7 月跟踪一群经习惯化的 Atananga 西部低地大猩猩（10 只），累计观察 652 天、5,896 小时。两个完整年度的平均取食时间中，果实占 31%、草本植物占 21%、树类食物占 31%、坚果占 10%、昆虫占 0%。这些是基于扫描观察的单群体、单地点估计，不能代表整个物种的饮食。",
               "sourceIds": ["ortmann2022"],
-              "locator": "Abstract; Results, “Dietary composition”; Figure 2.",
-              "placeTimeScope": "Three western gorilla field sites in Gabon, Central African Republic, and Republic of the Congo; Loango observations covered January 2018–July 2020. Percentages refer to feeding time in the study samples.",
-              "lifeStatus": "Wild western lowland gorillas; one habituated Loango group and published comparisons at Bai Hokou and Mondika."
+              "locator": "Methods, Study site and data collection; Dietary composition based on feeding time; Results, Dietary composition; Table 2.",
+              "placeTimeScope": "One Atananga group in Loango National Park, Gabon; field observations from January 2018 to July 2020. Annual food-type values average the two complete years; 2020 was excluded from annual feeding-time summaries because it was incomplete.",
+              "lifeStatus": "Free-ranging, wild western lowland gorillas (Gorilla gorilla gorilla) in one habituated group; not representative of all Gorilla gorilla populations."
+            },
+            {
+              "text": "Across 31 monthly observations at Loango, fruit availability and the group's proportion of feeding scans spent eating fruit were positively correlated (Pearson r = 0.623, t = 4.209, df = 28, p < 0.001). This is an association observed in one group at one site; it does not establish causation or a species-wide seasonal pattern.",
+              "textZh": "在 Loango 的 31 个月度观察中，果实可获得性与该群体用于取食果实的扫描记录比例呈正相关（Pearson r = 0.623，t = 4.209，df = 28，p < 0.001）。这是单一地点、单一群体中的相关关系，不能证明因果关系或代表整个物种的季节规律。",
+              "sourceIds": ["ortmann2022"],
+              "locator": "Methods, Fruit availability index and Statistical analysis; Results, Fruit availability and frugivory per month; Figure 1; Supporting Information Table S5.",
+              "placeTimeScope": "Monthly observations for one group at Loango National Park, Gabon, spanning 31 months during 2018–2020.",
+              "lifeStatus": "Free-ranging, wild western lowland gorillas in one habituated group; no inference to other populations or the full species range."
             }
           ],
           "gaps": [
-            "Site and group samples do not establish a range-wide diet, season-by-season variation, or all ecological interactions for COL usage 3H3C9."
+            "One field study covers one habituated group at one western lowland site; other populations, broader ecological interactions, and causal mechanisms remain unassessed."
           ]
         },
-        "evolution": { "status": "not-assessed" },
-        "distribution": { "status": "not-assessed" },
-        "fossil": { "status": "not-assessed" },
-        "conservation": { "status": "not-assessed" }
+        "evolution": { "status": "not-assessed", "gaps": ["The dietary study does not assess phylogeny, divergence history, or population introgression."] },
+        "distribution": { "status": "not-assessed", "gaps": ["One field site is not a current or historical range inventory for Gorilla gorilla."] },
+        "fossil": { "status": "not-assessed", "gaps": ["The dietary study does not assess the fossil record."] },
+        "conservation": { "status": "not-assessed", "gaps": ["No formal species-level conservation assessment, population trend, or risk category was reviewed."] }
       },
       "completeness": {
         "status": "incomplete",
         "reasons": [
-          "Only one bounded ecological study was assessed; six facets remain not-assessed and ecology is partial.",
+          "One field study supports only local ecology; six facets remain not-assessed and ecology is partial.",
           "No systematic literature search, range-wide ecological synthesis, or global conservation assessment has been completed."
         ]
       },

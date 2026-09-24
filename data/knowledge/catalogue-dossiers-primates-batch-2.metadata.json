@@ -1,13 +1,46 @@
 {
   "schemaVersion": 1,
   "shardType": "independent-col26.8-species-dossiers",
+  "batchId": "primates-gorilla-gorilla-enrichment-2026-09-24",
   "releaseAlias": "COL26.8",
   "datasetKey": 316115,
   "datasetDoi": "10.48580/dgywk",
   "recordCount": 3,
+  "updatedRecordCount": 1,
+  "updatedIds": [
+    "3H3C9"
+  ],
   "path": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
-  "decodedSha256": "42df0d9e92fe70b821724597a97fcbc6d2b8d74a0d09cf616ff7ef4a1701875f",
-  "compressedSha256": "0cdcf4faf3756de07b37e872e51358a0f6798e08c58ca0582ffd1cb1799b8752",
+  "rawPath": "data/knowledge/raw-dossiers/primates-batch-2.jsonl",
+  "rawSha256": "100d1f27adc23015bdcb3ac27083469ae6cffd7dfaeaf2634b9682876b563141",
+  "decodedSha256": "100d1f27adc23015bdcb3ac27083469ae6cffd7dfaeaf2634b9682876b563141",
+  "compressedSha256": "b5ed06024a3c5207a4daf2fda0061985374a02112e20ab85f5cd8cdb85a50656",
   "checkedAt": "2026-09-24",
-  "generationSource": "data/sources/primates-dossiers-batch-2.json"
+  "generationSource": "data/sources/primates-dossiers-batch-2.json",
+  "generationSourceSha256": "c2309b860464ca7a1c0707f6388740e3dd6563d74470666edecaa5624eabb503",
+  "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+  "duplicateCheck": {
+    "mode": "in-place-update",
+    "baseHead": "e7dc9569f8042c2baab7126645e04857cb43fc75",
+    "openPullRequests": [],
+    "indexedRecordCount": 6934,
+    "colId": "3H3C9",
+    "scientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+    "existingRecordCount": 1
+  },
+  "updateAudit": {
+    "baseHead": "e7dc9569f8042c2baab7126645e04857cb43fc75",
+    "indexedRecordCountAtAudit": 6934,
+    "targetColId": "3H3C9",
+    "targetScientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "previousDecodedSha256": "42df0d9e92fe70b821724597a97fcbc6d2b8d74a0d09cf616ff7ef4a1701875f",
+    "previousCompressedSha256": "0cdcf4faf3756de07b37e872e51358a0f6798e08c58ca0582ffd1cb1799b8752",
+    "previousTargetRecordSha256": "8460a0bd5840abb5791b2135a3749090f08b17f454df8007ea2e3e4f2852fb54",
+    "openPullRequests": [],
+    "mode": "in-place-enrichment-of-existing-record",
+    "indexedRecordCountAfterUpdate": 6934
+  },
+  "updateMode": "rebuild-one-existing-record-in-place"
 }
