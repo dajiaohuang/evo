@@ -1,5 +1,17 @@
 # Dataset changelog
 
+## Unreleased dossier evidence correction — 2026-09-24
+
+- Reconciled the distribution evidence for COL26.8 `Trachypithecus francoisi`
+  usage `57SDB`. The 2013 nominal-species range account and the 2026 literature
+  summary do not establish a species-level Laos conflict because the cited Lao
+  review covers `T. francoisi sensu lato`; Laos remains unconfirmed for `57SDB`.
+  The dossier stays incomplete and not reviewed, and the indexed record count
+  remains unchanged.
+- The native App core and GitHub Pages preview continue to use the same selected
+  package set, including Primates. Full species dossier data remains outside the
+  native App bundle.
+
 ## 2026.09-static-v5-rc153 — 2026-09-23
 
 - Added six source-linked bilingual introductions from order Araneae through Atracidae and Atrax to three Sydney-region funnel-web species. The 2025 morphological and molecular reassessment is bounded to its sampled species complex; regional ranges and withheld localities remain explicit. Historical source counts, venom rankings, clinical guidance and conservation judgments were excluded.

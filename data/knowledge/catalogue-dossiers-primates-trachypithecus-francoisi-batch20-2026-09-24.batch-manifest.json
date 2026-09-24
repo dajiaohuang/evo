@@ -2,33 +2,45 @@
   "schemaVersion": 1,
   "batchId": "primates-trachypithecus-francoisi-batch20-2026-09-24",
   "releaseAlias": "COL26.8",
-  "input": {
+  "baseInput": {
     "path": "data/sources/primates-trachypithecus-francoisi-batch20-2026-09-24.json",
     "sha256": "efdf60460b27c164718639a5eec9c01ce494082602a61de8d6bda44feae9ed0e"
   },
+  "revisionInput": {
+    "path": "data/sources/primates-trachypithecus-francoisi-scope-audit-2026-09-24.json",
+    "sha256": "aaf868dce01f6e8a87eae7debe954b5229c2a6ce14d7bff2f8a64f2bc50a5e56",
+    "revisionId": "primates-trachypithecus-francoisi-scope-audit-2026-09-24",
+    "reviewedAt": "2026-09-24"
+  },
+  "priorArtifacts": {
+    "rawSha256": "b0c3a1252755f6b52748f40a282a7776eee7c9ecd97a5dc53a97918f32caf792",
+    "compressedSha256": "164c84c11637a4cdf4f99983dff42c2fa1c8384e6365429005b777734aed8788",
+    "indexedRecordCount": 6934,
+    "targetShardRecordCount": 1
+  },
   "duplicateCheck": {
-    "baseHead": "b0aed43289798ab41ba46b627a866af224b46959",
-    "indexedRecordCount": 6931,
+    "indexedRecordCount": 6934,
     "colId": "57SDB",
     "scientificName": "Trachypithecus francoisi (de Pousargues, 1898)",
     "matchedColIds": [],
-    "matchedNames": []
+    "matchedNames": [],
+    "targetShardReplacedInPlace": true
   },
   "raw": {
     "path": "data/knowledge/raw-dossiers/primates-trachypithecus-francoisi-batch20-2026-09-24.jsonl",
     "encoding": "utf-8-jsonl-lf",
     "recordCount": 1,
-    "bytes": 24095,
-    "sha256": "b0c3a1252755f6b52748f40a282a7776eee7c9ecd97a5dc53a97918f32caf792"
+    "bytes": 27918,
+    "sha256": "9e7581196bcb341093795dfd41e469e5cca6efbf2a05fd9c6237a64121bb9865"
   },
   "shard": {
     "path": "data/knowledge/catalogue-dossiers-primates-trachypithecus-francoisi-batch20-2026-09-24.jsonl.br",
     "encoding": "brotli-jsonl",
     "recordCount": 1,
-    "decodedBytes": 24095,
-    "decodedSha256": "b0c3a1252755f6b52748f40a282a7776eee7c9ecd97a5dc53a97918f32caf792",
-    "compressedBytes": 5799,
-    "compressedSha256": "164c84c11637a4cdf4f99983dff42c2fa1c8384e6365429005b777734aed8788",
+    "decodedBytes": 27918,
+    "decodedSha256": "9e7581196bcb341093795dfd41e469e5cca6efbf2a05fd9c6237a64121bb9865",
+    "compressedBytes": 6903,
+    "compressedSha256": "a377276cc3143f8decb9d5704e4acfbf8bdf38db826d0f6d4ef768cc34741cf6",
     "brotliParameters": {
       "mode": "text",
       "quality": 11
@@ -41,5 +53,10 @@
     "checklistBankDatasetKey": 316115,
     "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
   },
-  "generator": "scripts/build-primates-trachypithecus-francoisi-batch20.mjs"
+  "scopeDecision": {
+    "previousDistributionStatus": "conflicted",
+    "newDistributionStatus": "partially-supported",
+    "dossierCountChanged": false
+  },
+  "generator": "scripts/revise-primates-trachypithecus-francoisi-scope-audit.mjs"
 }
