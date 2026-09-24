@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-papionini-parent-chain-correction-batch26-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-25",
+  "checklistBankDatasetKey": 316115,
+  "checklistBankDoi": "10.48580/dgywk",
+  "releaseDate": "2026-08-20",
+  "identitySource": {
+    "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "hierarchyNodeDirectory": "data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes",
+    "shardRule": "id-<first two hex digits of SHA-256(COL usage ID)>.jsonl.gz",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsHolder": "Catalogue of Life Foundation",
+    "scope": "Identity and accepted parent-chain metadata only; no biological text reused.",
+    "attribution": "Catalogue of Life (2026), Version 2026-08-20, ChecklistBank dataset 316115, DOI 10.48580/dgywk."
+  },
+  "correction": {
+    "operation": "in-place accepted parent-chain correction",
+    "insertedNodeId": "L4C",
+    "insertedNodeName": "Papionini",
+    "insertedNodeRank": "tribe",
+    "reason": "The immutable COL26.8 hierarchy places accepted tribe Papionini (L4C) between the Papio or Macaca genus and Cercopithecinae (JB3); three existing dossier parent chains had omitted this node."
+  },
+  "records": [
+    {
+      "colId": "3WWNQ",
+      "scientificName": "Macaca mulatta (Zimmermann, 1780)",
+      "sourceDatasetId": "2144",
+      "recordedParentPathIds": [
+        "5HYC",
+        "JB3",
+        "7X9",
+        "4X9",
+        "4PM",
+        "4DT",
+        "3W7"
+      ],
+      "pinnedParentPathIds": [
+        "5HYC",
+        "L4C",
+        "JB3",
+        "7X9",
+        "4X9",
+        "4PM",
+        "4DT",
+        "3W7"
+      ]
+    },
+    {
+      "colId": "3WWP6",
+      "scientificName": "Macaca silenus (Linnaeus, 1758)",
+      "sourceDatasetId": "2144",
+      "recordedParentPathIds": [
+        "5HYC",
+        "JB3",
+        "7X9",
+        "4X9",
+        "4PM",
+        "4DT",
+        "3W7"
+      ],
+      "pinnedParentPathIds": [
+        "5HYC",
+        "L4C",
+        "JB3",
+        "7X9",
+        "4X9",
+        "4PM",
+        "4DT",
+        "3W7"
+      ]
+    },
+    {
+      "colId": "6TM9B",
+      "scientificName": "Papio anubis (Lesson, 1827)",
+      "sourceDatasetId": "2144",
+      "recordedParentPathIds": [
+        "6DGR",
+        "JB3",
+        "7X9",
+        "4X9",
+        "4PM",
+        "4DT",
+        "3W7"
+      ],
+      "pinnedParentPathIds": [
+        "6DGR",
+        "L4C",
+        "JB3",
+        "7X9",
+        "4X9",
+        "4PM",
+        "4DT",
+        "3W7"
+      ]
+    }
+  ],
+  "sourceSha256": "19bdd416c7bc40a76c1c5085c500036072e1ae027aaf85d239c5c8ef8487a51a",
+  "baseHead": "185991b70b4d14634df756676bc744f4e6f59aa5",
+  "indexedRecordCountBefore": 6935,
+  "totalIndexedRecordsBeforeAndAfter": 6935,
+  "previousRawSha256": "9162d45243902613b95744f9ee1cf01e41626815ea159d1c50076789676dcd48",
+  "rawSha256": "7a0fb455da0c677d549db56e23dd0ec32d6c06fd8bfae26fd370239b6bd9eb92",
+  "previousCompressedSha256": "3c0a1d22a2246d8e7f6907b6c093f92d49bf309a992f32b450b5b36f39d8dcbb",
+  "compressedSha256": "b8f53767b9505d8a3d105c419594a7d13102112e4f28c55a61d99b3fa4aac4d7",
+  "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+  "registryNodeShards": [
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes/id-09.jsonl.gz",
+      "sha256": "10bf76236e822aba85e8274e322f628b8e24760d5cae98d3a5f8e3d2202d145a"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes/id-0d.jsonl.gz",
+      "sha256": "5aa590099356ea28bc8df1cea0326a547490fda93e4146e4028f16486eb77dde"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes/id-39.jsonl.gz",
+      "sha256": "4c5b40410dcd1f96e284c954147169456cf479dbb697970a1c0e11be0ccd15c2"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes/id-49.jsonl.gz",
+      "sha256": "f9ddafdc0ca83afa21468eee6e0168da1b3b549c53134431b67a8f81fa469126"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes/id-84.jsonl.gz",
+      "sha256": "dbfbbe6217649db951ba9da26b487d897e27cd73097599abdd5d8c6ff500efcf"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes/id-9b.jsonl.gz",
+      "sha256": "f329cc5fbdf2e052fd35e21c2363dd09bb172770d0c02088500c70647eea2504"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes/id-a6.jsonl.gz",
+      "sha256": "14f169263f5d1bbac54ac1901b948e0e3e71fe7445a9e39488261c75ee184af7"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes/id-a8.jsonl.gz",
+      "sha256": "27d0229d27bab38e81680e4282b28425d9bdb6ba34fd58aea5ba1d41265b8f4d"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes/id-b4.jsonl.gz",
+      "sha256": "7ebe23fc8d714bfd549f3ef72220c209bcd1be2fcc529a24a6f41eeeae2040a0"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes/id-bb.jsonl.gz",
+      "sha256": "49444b3c55a06ffef8402b8d6de184f6bd429e273fa1d9e27f8b227948ab3c66"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes/id-ca.jsonl.gz",
+      "sha256": "c7bd6c958762f29744c88cdb02fef76dd0c61978298ecb7cc86e76f6a0de3ec5"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes/id-f7.jsonl.gz",
+      "sha256": "04e0c4bcb8dba73eeb5e188f324d3e633e9c747a05ac1f8e1a077ac14c237af5"
+    }
+  ],
+  "targetRecordHashesBefore": {
+    "3WWNQ": "6dcf8b52c5aa3494c92b413572c3b245fa27c6a1496f704b8d222fed5e657161",
+    "3WWP6": "8b24b419b917d53c2c9eb3dcbbd7b8eb70e2517ed727d9bc088e1dde38159ba2",
+    "6TM9B": "5af7b0ea4b7ebd7be81ee5a0bd88bcc1ef134431471487a04e50568738aabcf7"
+  },
+  "targetRecordHashesAfter": {
+    "3WWNQ": "a0f9eac3456bf356404e8503ce199e68dec869acc1b49a8118178c65e8cbb047",
+    "3WWP6": "1749c46713d2922e19fa6f547e6f65798e87234586dd6c91db5debdcb51975e7",
+    "6TM9B": "378b2650babb7e2ff56d74e22fb41b0a0dbff712a72a319e0f9219991f48fe64"
+  },
+  "parentPaths": {
+    "3WWNQ": [
+      {
+        "id": "5HYC",
+        "name": "Macaca",
+        "authorship": "Lacépède, 1799",
+        "rank": "genus",
+        "status": "accepted"
+      },
+      {
+        "id": "L4C",
+        "name": "Papionini",
+        "authorship": null,
+        "rank": "tribe",
+        "status": "accepted"
+      },
+      {
+        "id": "JB3",
+        "name": "Cercopithecinae",
+        "authorship": "Gray, 1821",
+        "rank": "subfamily",
+        "status": "accepted"
+      },
+      {
+        "id": "7X9",
+        "name": "Cercopithecidae",
+        "authorship": "Gray, 1821",
+        "rank": "family",
+        "status": "accepted"
+      },
+      {
+        "id": "4X9",
+        "name": "Cercopithecoidea",
+        "authorship": "Gray, 1821",
+        "rank": "superfamily",
+        "status": "accepted"
+      },
+      {
+        "id": "4PM",
+        "name": "Simiiformes",
+        "authorship": "Haeckel, 1866",
+        "rank": "infraorder",
+        "status": "accepted"
+      },
+      {
+        "id": "4DT",
+        "name": "Haplorrhini",
+        "authorship": "Pocock, 1918",
+        "rank": "suborder",
+        "status": "accepted"
+      },
+      {
+        "id": "3W7",
+        "name": "Primates",
+        "authorship": "Linnaeus, 1758",
+        "rank": "order",
+        "status": "accepted"
+      }
+    ],
+    "3WWP6": [
+      {
+        "id": "5HYC",
+        "name": "Macaca",
+        "authorship": "Lacépède, 1799",
+        "rank": "genus",
+        "status": "accepted"
+      },
+      {
+        "id": "L4C",
+        "name": "Papionini",
+        "authorship": null,
+        "rank": "tribe",
+        "status": "accepted"
+      },
+      {
+        "id": "JB3",
+        "name": "Cercopithecinae",
+        "authorship": "Gray, 1821",
+        "rank": "subfamily",
+        "status": "accepted"
+      },
+      {
+        "id": "7X9",
+        "name": "Cercopithecidae",
+        "authorship": "Gray, 1821",
+        "rank": "family",
+        "status": "accepted"
+      },
+      {
+        "id": "4X9",
+        "name": "Cercopithecoidea",
+        "authorship": "Gray, 1821",
+        "rank": "superfamily",
+        "status": "accepted"
+      },
+      {
+        "id": "4PM",
+        "name": "Simiiformes",
+        "authorship": "Haeckel, 1866",
+        "rank": "infraorder",
+        "status": "accepted"
+      },
+      {
+        "id": "4DT",
+        "name": "Haplorrhini",
+        "authorship": "Pocock, 1918",
+        "rank": "suborder",
+        "status": "accepted"
+      },
+      {
+        "id": "3W7",
+        "name": "Primates",
+        "authorship": "Linnaeus, 1758",
+        "rank": "order",
+        "status": "accepted"
+      }
+    ],
+    "6TM9B": [
+      {
+        "id": "6DGR",
+        "name": "Papio",
+        "authorship": "Erxleben, 1777",
+        "rank": "genus",
+        "status": "accepted"
+      },
+      {
+        "id": "L4C",
+        "name": "Papionini",
+        "authorship": null,
+        "rank": "tribe",
+        "status": "accepted"
+      },
+      {
+        "id": "JB3",
+        "name": "Cercopithecinae",
+        "authorship": "Gray, 1821",
+        "rank": "subfamily",
+        "status": "accepted"
+      },
+      {
+        "id": "7X9",
+        "name": "Cercopithecidae",
+        "authorship": "Gray, 1821",
+        "rank": "family",
+        "status": "accepted"
+      },
+      {
+        "id": "4X9",
+        "name": "Cercopithecoidea",
+        "authorship": "Gray, 1821",
+        "rank": "superfamily",
+        "status": "accepted"
+      },
+      {
+        "id": "4PM",
+        "name": "Simiiformes",
+        "authorship": "Haeckel, 1866",
+        "rank": "infraorder",
+        "status": "accepted"
+      },
+      {
+        "id": "4DT",
+        "name": "Haplorrhini",
+        "authorship": "Pocock, 1918",
+        "rank": "suborder",
+        "status": "accepted"
+      },
+      {
+        "id": "3W7",
+        "name": "Primates",
+        "authorship": "Linnaeus, 1758",
+        "rank": "order",
+        "status": "accepted"
+      }
+    ]
+  },
+  "previousIndexSha256": "ac2dd8035c13a0f592e97ffa1f93abef2147aaebb310604aaa8353a5796d32bf",
+  "indexSha256": "f93a750e7ff20eaecf86323d13c1ed6649bff8d65d4ece9f1bd50430d0b8ef8d",
+  "updatedIds": [
+    "3WWNQ",
+    "3WWP6",
+    "6TM9B"
+  ],
+  "shardRecordCountBeforeAndAfter": 3
+}
