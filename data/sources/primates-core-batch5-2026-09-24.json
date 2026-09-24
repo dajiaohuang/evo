@@ -15,6 +15,17 @@
     "matchedColIds": [],
     "matchedNames": []
   },
+  "updateAudit": {
+    "baseHead": "c6933e86d7ab9c1b913856210ca736dc2d176049",
+    "indexedRecordCountAtAudit": 6933,
+    "targetColId": "J8P6",
+    "targetScientificName": "Ateles geoffroyi Kuhl, 1820",
+    "targetRecordCountBeforeUpdate": 1,
+    "previousParsedTargetSha256": "3b34b18397d5415fba3e0588f91227c047f235c4a4b55ccf930e86de47bfa3f2",
+    "previousShardSha256": "ad8e7fe58f864ce4cdd9710604658fbee35b1c4f4438164908f81c33f8031d0c",
+    "openPullRequests": [],
+    "mode": "in-place-enrichment-of-existing-record"
+  },
   "records": [
     {
       "colId": "J8P6",
@@ -25,7 +36,7 @@
       "checkedAt": "2026-09-24",
       "identity": {
         "method": "Exact COL26.8 accepted species usage verified against the pinned search and hierarchy registries, including verbatim name, authorship, rank, sourceDatasetId and every accepted parent node.",
-        "scope": "Nominal species as represented by COL26.8 usage J8P6. The cited field study is restricted to sites and observations in southwestern Costa Rica and does not establish a complete species account.",
+        "scope": "Nominal species as represented by COL26.8 usage J8P6. Evidence about Ateles is limited to observations at Sector Santa Rosa in Costa Rica, one tracked female at Barro Colorado Island in Panama, and museum CT specimens with unreported provenance. The comparative sniffing model also uses supplemental Alouatta palliata observations from Isla Agaltepec, Mexico; this does not extend the Ateles sample there.",
         "sourceIds": ["col"]
       },
       "classificationPath": [
@@ -48,7 +59,7 @@
         {"id":"J8P6","scientificName":"Ateles geoffroyi Kuhl, 1820","authorship":"Kuhl, 1820","rank":"species","status":"accepted","sourceDatasetId":"2144"}
       ],
       "lifeStatusScope": {
-        "wild": "The biological evidence is from free-ranging spider monkeys and vertebrate visitors at field sites in Costa Rica.",
+        "wild": "The behavioral and movement studies concern free-ranging Ateles geoffroyi at Sector Santa Rosa, Costa Rica, and Barro Colorado Island, Panama. The comparative CT specimens have no reported geographic provenance or wild/captive status.",
         "domesticated": "Domestication has not been assessed; no domesticated population evidence is used.",
         "fossil": "Fossil occurrence and geological age have not been assessed."
       },
@@ -88,10 +99,62 @@
           "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
           "licenseAppliesTo": "Article text under the item-level CC BY 4.0 notice; separately credited third-party material is excluded.",
           "attribution": "Whitworth A, Beirne C, MacLennan SD, et al. (2019). Animals 9(12):1052. https://doi.org/10.3390/ani9121052. Claims paraphrased."
+        },
+        {
+          "id": "melin2022",
+          "title": "Anatomy and dietary specialization influence sensory behaviour among sympatric primates",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9382214/",
+          "version": "Proceedings of the Royal Society B 289(1981):20220847, version of record first published online 2022-08-17",
+          "stableId": "doi:10.1098/rspb.2022.0847",
+          "publishedAt": "2022-08-17",
+          "accessedAt": "2026-09-24",
+          "locator": "Methods §§2(a), 2(c)(i), 2(e)(ii); Abstract; Results §§3(a)(ii)–3(a)(iii), Figs. 2b and 3a, Fig. S3a and Table S5; Supplementary Results S1; Copyright and License Information.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "licenseAssessment": "item-level-verified",
+          "rightsHolder": "The Authors",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9382214/",
+          "rightsEvidenceLocator": "Version-of-record front matter, Copyright and License Information: © 2022 The Authors; published by the Royal Society under the Creative Commons Attribution License (CC BY 4.0).",
+          "licenseAppliesTo": "The version-of-record article; separately credited third-party material remains subject to its own credit line. This dossier paraphrases findings and does not reuse figures or source data files.",
+          "attribution": "Melin AD, Veilleux CC, Janiak MC, Hiramatsu C, Sánchez-Solano KG, Lundeen IK, Webb SE, Williamson RE, Mah MA, Murillo-Chacon E, Schaffner CM, Hernández-Salazar L, Aureli F, Kawamura S. 2022. Anatomy and dietary specialization influence sensory behaviour among sympatric primates. Proceedings of the Royal Society B 289(1981):20220847. https://doi.org/10.1098/rspb.2022.0847. CC BY 4.0. Claims paraphrased; changes made.",
+          "scope": "Comparative study of wild Ateles geoffroyi focal observations at Sector Santa Rosa, northwestern Costa Rica, with supplemental Alouatta palliata observations from Isla Agaltepec, Mexico. CT scans of 15 Ateles specimens had no reported locality, collection date or wild/captive status."
+        },
+        {
+          "id": "mclean2016",
+          "title": "Movement patterns of three arboreal primates in a Neotropical moist forest explained by LiDAR-estimated canopy structure",
+          "url": "https://link.springer.com/article/10.1007/s10980-016-0367-9",
+          "version": "Landscape Ecology 31:1849–1862, version of record published online 2016-03-29; issue dated October 2016",
+          "stableId": "doi:10.1007/s10980-016-0367-9",
+          "publishedAt": "2016-03-29",
+          "accessedAt": "2026-09-24",
+          "locator": "Methods, “Animal movement patterns”; Results, “Movement patterns and forest structure”; Table 2; publisher Rights and permissions block.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "licenseAssessment": "item-level-verified",
+          "rightsHolder": "Springer Science+Business Media Dordrecht 2016, as named in the version-of-record front matter",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsEvidenceUrl": "https://link.springer.com/article/10.1007/s10980-016-0367-9",
+          "rightsEvidenceLocator": "Publisher page > Rights and permissions states that the article is licensed under Creative Commons Attribution 4.0 International and excludes separately credited third-party material; version-of-record PDF front matter p. 1 names Springer Science+Business Media Dordrecht 2016 as copyright holder.",
+          "licenseAppliesTo": "The version-of-record article under CC BY 4.0; third-party material not included in the license is excluded.",
+          "attribution": "McLean KA, Trainor AM, Asner GP, Crofoot MC, Hopkins ME, Campbell CJ, Martin RE, Knapp DE, Jansen PA. 2016. Movement patterns of three arboreal primates in a Neotropical moist forest explained by LiDAR-estimated canopy structure. Landscape Ecology 31:1849–1862. https://doi.org/10.1007/s10980-016-0367-9. CC BY 4.0. Claims paraphrased; changes made.",
+          "scope": "Primary movement and LiDAR study at Barro Colorado Island, Panama. The Ateles geoffroyi analysis is limited to one subadult female tracked for six months in 2011 and LiDAR collected in September 2009; no species-wide movement estimate is claimed."
         }
       ],
       "facets": {
-        "morphology": {"status":"not-assessed","gaps":["No morphology evidence was assessed in this batch."]},
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [{
+            "text": "A comparative CT study found smaller nasal-turbinate surface area in 15 Ateles geoffroyi specimens than in eight Alouatta palliata specimens (Dunn post hoc p = 0.0001); the difference persisted after adjustment for skull size. The Ateles specimens' geographic provenance, collection dates and wild/captive status were not reported, so this sample does not establish species-wide anatomical variation.",
+            "sourceIds": ["melin2022"],
+            "locator": "Methods §2(c)(i); Results §3(a)(ii), “Sensory anatomy”; Fig. 2b and Fig. S3a. The study measured CT scans from 15 A. geoffroyi, eight A. palliata and two Cebus imitator specimens.",
+            "placeTimeScope": "Comparative CT specimen sample identified as Ateles geoffroyi; locality, collection dates and provenance of the 15 specimens are not reported in the article.",
+            "lifeStatus": "Museum CT specimens; the study does not report whether the source animals were wild or captive.",
+            "translationStatus": "untranslated",
+            "originalLanguage": "en"
+          }],
+          "gaps": ["Only a comparative nasal-turbinate measure is supported. Specimen provenance and life status, diagnostic morphology, age-sex variation and broader anatomical variation remain unassessed; this sample is not a species-wide survey."]
+        },
         "lifeHistory": {"status":"not-assessed","gaps":["Reproduction, development, lifespan and other life-history traits have not been assessed."]},
         "ecology": {
           "status":"partially-supported",
@@ -104,16 +167,34 @@
               "lifeStatus":"Free-ranging Ateles geoffroyi and vertebrate visitors at wild forest sites; no captive or domesticated animals are included.",
               "translationStatus":"untranslated",
               "originalLanguage":"en"
+            },
+            {
+              "text": "Among trichromatic individuals in the comparative analysis of fruit-foraging sequences, Ateles geoffroyi had the highest fruit-sniffing rate of the three study species: A. geoffroyi, Cebus imitator and Alouatta palliata. Alouatta sampling combined Sector Santa Rosa observations with supplemental records from Isla Agaltepec; the result is limited to study samples and does not establish a species-wide rate.",
+              "sourceIds": ["melin2022"],
+              "locator": "Abstract; Methods §§2(a), 2(e)(ii); Results §3(a)(iii), Fig. 3a and Table S5; Supplementary Results S1; Discussion §4(a)(i).",
+              "placeTimeScope": "Focal observations include Sector Santa Rosa, Área de Conservación Guanacaste, Costa Rica, and supplemental Alouatta palliata observations from Isla Agaltepec, Mexico; continuous focal samples lasted 1–10 minutes. This comparison is limited to study samples and does not assign a species-wide frequency.",
+              "lifeStatus": "Wild, free-ranging Ateles geoffroyi observed while foraging; captive animals are not included.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            },
+            {
+              "text": "For one subadult female Ateles geoffroyi at Barro Colorado Island, movement-step selection was positively associated with canopy height, distance from canopy gaps using an 8-m vegetation cutoff, and crown thickness. The spider-monkey model had a mean cross-validation Spearman correlation of 0.94; this is an individual-level model result, not a species-wide estimate.",
+              "sourceIds": ["mclean2016"],
+              "locator": "Methods, “Animal movement patterns”; Results, “Movement patterns and forest structure”; Table 2. GPS tracking used 15-minute fixes over six months; the retained data set contained 5,537 positions.",
+              "placeTimeScope": "Barro Colorado Island, Panama; one subadult female tracked for six months in 2011 from roughly sunrise to sunset; LiDAR data were collected in September 2009.",
+              "lifeStatus": "One free-ranging subadult female; no other age-sex classes or populations are represented by the movement track.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
             }
           ],
-          "gaps":["The study does not establish species-wide effects across the full geographic range, seasons or forest types; causal contribution and long-term population consequences were not assessed."]
+          "gaps":["The studies cover selected Costa Rican sites and one tracked individual in Panama. Range-wide habitat use, seasonal and population variation, causal effects, and long-term population consequences remain unassessed."]
         },
         "evolution": {"status":"not-assessed","gaps":["No phylogenetic or evolutionary evidence was assessed."]},
         "distribution": {"status":"not-assessed","gaps":["A species-wide range inventory and locality history were not assessed; study-site location alone is not a range account."]},
         "fossil": {"status":"not-assessed","gaps":["No fossil evidence or geological age was assessed."]},
         "conservation": {"status":"not-assessed","gaps":["No threat status, trend or range-wide conservation assessment was assessed."]}
       },
-      "completeness": {"status":"incomplete","reasons":["Only one bounded field ecology study was assessed; six facets remain not-assessed.","The evidence concerns selected Costa Rican study sites and is not a systematic review or complete species account.","No independent expert review has been completed."]},
+      "completeness": {"status":"incomplete","reasons":["Three source-linked studies support limited morphology and field ecology; life history, evolution, distribution, fossil and conservation facets remain not-assessed.","The evidence concerns one CT sample, selected Costa Rican study sites and one tracked female in Panama; it is not a systematic review or complete species account.","No independent expert review has been completed."]},
       "expertReview": {"status":"not-reviewed"}
     },
     {

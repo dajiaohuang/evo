@@ -4,30 +4,57 @@
   "releaseAlias": "COL26.8",
   "input": {
     "path": "data/sources/primates-core-batch5-2026-09-24.json",
-    "sha256": "88ebde8dc45be414dea7b2e2fc6fdc7a4d6854723fc91b75e816fcbe17559d21"
+    "sha256": "3af7f2d7e606637d3087ea98de94d3766a7431aa339bac33de287062839d0f19"
   },
   "duplicateCheck": {
+    "mode": "in-place-update",
+    "baseHead": "c6933e86d7ab9c1b913856210ca736dc2d176049",
+    "openPullRequests": [],
+    "indexedRecordCount": 6933,
+    "colId": "J8P6",
+    "scientificName": "Ateles geoffroyi Kuhl, 1820",
+    "existingRecordCount": 1,
+    "matchedColIds": [
+      "J8P6"
+    ],
+    "matchedNames": [
+      "ateles geoffroyi kuhl 1820"
+    ]
+  },
+  "initialDuplicateAudit": {
     "baseHead": "d8d99201dcdc0426e27a4b842bbe3dc54cf119ed",
     "openPullRequests": [],
-    "indexedRecordCount": 6912,
+    "checkedIndexRecords": 6912,
     "matchedColIds": [],
     "matchedNames": []
+  },
+  "updateAudit": {
+    "baseHead": "c6933e86d7ab9c1b913856210ca736dc2d176049",
+    "indexedRecordCountAtAudit": 6933,
+    "targetColId": "J8P6",
+    "targetScientificName": "Ateles geoffroyi Kuhl, 1820",
+    "targetRecordCountBeforeUpdate": 1,
+    "previousParsedTargetSha256": "3b34b18397d5415fba3e0588f91227c047f235c4a4b55ccf930e86de47bfa3f2",
+    "previousShardSha256": "ad8e7fe58f864ce4cdd9710604658fbee35b1c4f4438164908f81c33f8031d0c",
+    "openPullRequests": [],
+    "mode": "in-place-enrichment-of-existing-record",
+    "indexedRecordCountAfterUpdate": 6933
   },
   "raw": {
     "path": "data/knowledge/raw-dossiers/primates-core-batch5-2026-09-24.jsonl",
     "encoding": "utf-8-jsonl-lf",
     "recordCount": 2,
-    "bytes": 16179,
-    "sha256": "624ed912b79ee3a48c6f146c265554539f777378cef49717db4b645c47c77687"
+    "bytes": 24025,
+    "sha256": "1e0d5bacab1a41029f5c37116f785300bd1a5e6dbae1f7d755492776fe4adfc9"
   },
   "shard": {
     "path": "data/knowledge/catalogue-dossiers-primates-core-batch5-2026-09-24.jsonl.br",
     "encoding": "brotli-jsonl",
     "recordCount": 2,
-    "decodedBytes": 16179,
-    "decodedSha256": "624ed912b79ee3a48c6f146c265554539f777378cef49717db4b645c47c77687",
-    "compressedBytes": 3105,
-    "compressedSha256": "ad8e7fe58f864ce4cdd9710604658fbee35b1c4f4438164908f81c33f8031d0c",
+    "decodedBytes": 24025,
+    "decodedSha256": "1e0d5bacab1a41029f5c37116f785300bd1a5e6dbae1f7d755492776fe4adfc9",
+    "compressedBytes": 5083,
+    "compressedSha256": "87a14ad38ca7a2968753f2ed10529b0feae04516478f24ebd626c1f0fec44281",
     "brotliParameters": {
       "mode": "text",
       "quality": 11
@@ -40,5 +67,6 @@
     "checklistBankDatasetKey": 316115,
     "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
   },
-  "generator": "scripts/build-primates-core-batch5.mjs"
+  "generator": "scripts/build-primates-core-batch5.mjs",
+  "updateMode": "rebuild-one-existing-record-in-place"
 }
