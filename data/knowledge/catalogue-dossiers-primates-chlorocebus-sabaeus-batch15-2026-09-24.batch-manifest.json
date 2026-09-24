@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-chlorocebus-sabaeus-batch15-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-chlorocebus-sabaeus-batch15-2026-09-24.json",
+    "sha256": "a4a7b274af0b7a803b8601d1aa564f058d9e3fd1186c255dad384b43126c12fe"
+  },
+  "duplicateCheck": {
+    "baseHead": "e0f5dee96fe4652c1af9dd854b8fe92c62f4379a",
+    "indexedRecordCount": 6922,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-chlorocebus-sabaeus-batch15-2026-09-24.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 11326,
+    "sha256": "b5f4fad41d92c72c01aacf438c8e3164240fa33cac1a96bc0a30ad400c7dcb61"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-chlorocebus-sabaeus-batch15-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 11326,
+    "decodedSha256": "b5f4fad41d92c72c01aacf438c8e3164240fa33cac1a96bc0a30ad400c7dcb61",
+    "compressedBytes": 2911,
+    "compressedSha256": "0e2b0c1fca541416420e8bc84325a053c139b482358cdb86cd6522a6309480cc",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-primates-chlorocebus-sabaeus-batch15.mjs"
+}
