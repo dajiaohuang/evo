@@ -1,5 +1,9 @@
 export const primatesZhKeys = new Set<string>([
   "Hominidae",
+  "Simians",
+  "Marmosets and Tamarins",
+  "Marmosets",
+  "Common Marmoset",
   "Crown-primate relaxed-clock interval",
   "Purgatorius Garbani Channel tarsals",
   "Altiatlasius dental hypodigm and placement boundary",

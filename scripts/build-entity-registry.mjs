@@ -13,6 +13,11 @@ const profileSourceEntries = packageDefinitions.flatMap((definition) => {
 })
 const profileSourceByPackageId = new Map(profileSourceEntries.map((entry) => [entry.definition.id, entry]))
 const profileSources = profileSourceEntries.flatMap((entry) => entry.profiles)
+const researchExampleSourceEntries = packageDefinitions.flatMap((definition) => {
+  const relativePath = `data/packages/${definition.path}/research-examples.source.json`
+  return existsSync(join(rootDir, relativePath)) ? [{ definition, relativePath }] : []
+})
+const researchExampleSourceByPackageId = new Map(researchExampleSourceEntries.map((entry) => [entry.definition.id, entry]))
 const phylogenySourceEntries = packageDefinitions.flatMap((definition) => {
   const directory = `data/packages/${definition.path}/phylogeny`
   const collectionPath = `${directory}/hypotheses.source.json`
@@ -508,8 +513,12 @@ const entities = flattenTree(ontology).map((node) => {
       evidenceLevel: globalRange.evidenceLevel,
       provisional: globalRange.evidenceLevel !== 'expert-reviewed',
     },
-    externalIds: node.taxonId ? { pbdb: node.taxonId } : {},
-    referenceIds: [...new Set([...ranges.flatMap((range) => range.referenceLocators.map((locator) => locator.referenceId)), ...evidence.references, ...(summaryClaim?.referenceLinks.map((link) => link.referenceId) ?? []), ...(node.taxonId ? ['pbdb-taxa-2026-07-19'] : [])])],
+    externalIds: {
+      ...(node.taxonId ? { pbdb: node.taxonId } : {}),
+      ...(node.colUsageId ? { col: node.colUsageId } : {}),
+      ...(node.colDatasetId ? { colDataset: node.colDatasetId } : {}),
+    },
+    referenceIds: [...new Set([...ranges.flatMap((range) => range.referenceLocators.map((locator) => locator.referenceId)), ...evidence.references, ...(summaryClaim?.referenceLinks.map((link) => link.referenceId) ?? []), ...(node.taxonId ? ['pbdb-taxa-2026-07-19'] : []), ...(node.colUsageId ? ['col-2026-checklistbank-316115'] : [])])],
     evidenceStatus: evidence.support,
     limitations: [
       evidence.conflicts,
@@ -576,6 +585,24 @@ for (const definition of packageDefinitions) {
   const packageClaims = claims.filter((claim) => ownerForClaim(claim) === definition.id)
   const packageProfiles = profiles.filter((profile) => packageEntityIds.has(profile.treeNodeId))
   const profileSourceEntry = profileSourceByPackageId.get(definition.id)
+  const researchExampleSourceEntry = researchExampleSourceByPackageId.get(definition.id)
+  const researchExampleSource = researchExampleSourceEntry ? readJson(researchExampleSourceEntry.relativePath) : null
+  const sourceResearchExamples = researchExampleSource?.examples ?? []
+  if (researchExampleSource && (researchExampleSource.schemaVersion !== 1 || researchExampleSource.packageId !== definition.id || !Array.isArray(sourceResearchExamples))) {
+    throw new Error(`Package ${definition.id} research-example source has an invalid package envelope`)
+  }
+  for (const example of sourceResearchExamples) {
+    if (!example.entityIds?.length || !example.entityIds.every((entityId) => packageEntityIds.has(entityId))) {
+      throw new Error(`Package ${definition.id} research example ${example.id} references an out-of-package entity`)
+    }
+    if (!example.claimIds?.length || !example.claimIds.every((claimId) => packageClaims.some((claim) => claim.id === claimId))) {
+      throw new Error(`Package ${definition.id} research example ${example.id} references an out-of-package claim`)
+    }
+    const linkedClaims = example.claimIds.map((claimId) => packageClaims.find((claim) => claim.id === claimId))
+    if (linkedClaims.some((claim) => claim.subjectId.startsWith('taxon:') && !example.entityIds.includes(claim.subjectId.slice('taxon:'.length)))) {
+      throw new Error(`Package ${definition.id} research example ${example.id} links a claim outside its listed taxon entities`)
+    }
+  }
   const phylogenySourceEntry = phylogenySourceByPackageId.get(definition.id)
   const packageRanges = canonicalRanges.filter((range) => packageEntityIds.has(range.entityId))
   const packageStoryIds = publishedStories
@@ -728,6 +755,7 @@ for (const definition of packageDefinitions) {
       references: 'data/references.json',
       occurrences: 'data/fossils/*.json',
       ...(profileSourceEntry ? { profilesSource: profileSourceEntry.relativePath } : {}),
+      ...(researchExampleSourceEntry ? { researchExamplesSource: researchExampleSourceEntry.relativePath } : {}),
       ...(phylogenySourceEntry ? {
         phylogenySource: phylogenySourceEntry.relativePath,
       } : {}),
@@ -744,7 +772,7 @@ for (const definition of packageDefinitions) {
   writeJson(`data/packages/${definition.path}/provenance.json`, {
     packageId: definition.id,
     version: DATASET_PACKAGE_VERSION,
-    canonicalInputs: ['data/navigation/atlas-ontology.json', 'data/ranges/range-evidence.json', 'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json', 'data/references.json', ...(targetedOccurrenceSnapshot ? [targetedOccurrenceSnapshotPath] : []), ...(profileSourceEntry ? [profileSourceEntry.relativePath] : []), ...(phylogenySourceEntry ? [phylogenySourceEntry.relativePath] : [])],
+    canonicalInputs: ['data/navigation/atlas-ontology.json', 'data/ranges/range-evidence.json', 'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json', 'data/references.json', ...(targetedOccurrenceSnapshot ? [targetedOccurrenceSnapshotPath] : []), ...(profileSourceEntry ? [profileSourceEntry.relativePath] : []), ...(researchExampleSourceEntry ? [researchExampleSourceEntry.relativePath] : []), ...(phylogenySourceEntry ? [phylogenySourceEntry.relativePath] : [])],
     occurrenceSnapshot: targetedOccurrenceSnapshot ? targetedOccurrenceSnapshotPath : 'data/sources/pbdb-occurrence-bundle.json',
     generatedProjection: true,
     notes: ['Package registry, taxonomy, range and locale files are generated projections. review.json is maintained separately as the single package review record. Canonical entity concepts, ranges, evidence and external-resolution decisions live in the listed canonical inputs.'],
@@ -768,7 +796,7 @@ for (const definition of packageDefinitions) {
   writeJson(`data/packages/${definition.path}/stories.json`, packageStoryIds)
   writeJson(`data/packages/${definition.path}/media.json`, packageMediaIds)
   writeJson(`data/packages/${definition.path}/references.json`, packageReferences)
-  writeJson(`data/packages/${definition.path}/research-examples.json`, {
+  const packageResearchExamples = {
     schemaVersion: 1,
     packageId: definition.id,
     examples: definition.id === 'perissodactyla'
@@ -786,8 +814,11 @@ for (const definition of packageDefinitions) {
           evidenceStatus: 'available-with-limitations',
           limitations: ['Comparison fields inherit each claim, range and occurrence source boundary; visible differences are not tests of evolutionary causation.'],
         }, ...sourceBoundResearchScenes]
-      : [sourceBoundResearchExample, ...sourceBoundResearchScenes],
-  })
+      : [sourceBoundResearchExample, ...sourceBoundResearchScenes, ...sourceResearchExamples],
+  }
+  const duplicateResearchExampleIds = packageResearchExamples.examples.filter((example, index) => packageResearchExamples.examples.findIndex((candidate) => candidate.id === example.id) !== index).map((example) => example.id)
+  if (duplicateResearchExampleIds.length) throw new Error(`Package ${definition.id} has duplicate research example IDs: ${[...new Set(duplicateResearchExampleIds)].join(', ')}`)
+  writeJson(`data/packages/${definition.path}/research-examples.json`, packageResearchExamples)
   writeJson(`data/packages/${definition.path}/phylogeny/status.json`, phylogenySourceEntry
     ? {
         schemaVersion: 1,
@@ -880,6 +911,7 @@ writeJson('data/registry/generated-files.json', {
     'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json',
     'data/evidence/claims.json', 'data/evidence/claim-rationales.zh.json',
     ...profileSourceEntries.map((entry) => entry.relativePath),
+    ...researchExampleSourceEntries.map((entry) => entry.relativePath),
     ...phylogenySourceEntries.map((entry) => entry.relativePath),
     'data/references.json',
   ],
