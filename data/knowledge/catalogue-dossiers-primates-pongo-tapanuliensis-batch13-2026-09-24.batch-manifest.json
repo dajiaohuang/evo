@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-pongo-tapanuliensis-batch13-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-pongo-tapanuliensis-batch13-2026-09-24.json",
+    "sha256": "3e37f81190e4dc3e834f51b7cdf2a14b787f367ea8e174b9d42500b00c39bcc0"
+  },
+  "duplicateCheck": {
+    "baseHead": "a4c20d0130fe043a84623d59bca3f7a5bd69151b",
+    "indexedRecordCount": 6919,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-pongo-tapanuliensis-batch13-2026-09-24.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 10695,
+    "sha256": "9e93653e83c2696da2fe2d472ec3584164e54e84dfcc9d5ba87c5bdb07b10597"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-pongo-tapanuliensis-batch13-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 10695,
+    "decodedSha256": "9e93653e83c2696da2fe2d472ec3584164e54e84dfcc9d5ba87c5bdb07b10597",
+    "compressedBytes": 2743,
+    "compressedSha256": "7a3fbf91791d9beb0485ffd3bba4ed4a7fb58f54c5d4245b90760bd7742b6855",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-primates-pongo-tapanuliensis-batch13.mjs"
+}
