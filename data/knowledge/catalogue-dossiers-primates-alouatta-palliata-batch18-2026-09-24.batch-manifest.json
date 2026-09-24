@@ -4,32 +4,50 @@
   "releaseAlias": "COL26.8",
   "input": {
     "path": "data/sources/primates-alouatta-palliata-batch18-2026-09-24.json",
-    "sha256": "ea574a086a2ea3983b296199f2b4d1952e6d3185ce713e3668617c729df1efba"
+    "sha256": "64894e7dc737c23f5211bee5c28a4a1ac4fd1bfffa7092ab6e687399b7d0b056"
   },
   "duplicateCheck": {
-    "baseHead": "e9e65ea39f6be739016ecc388b495cb796426831",
+    "mode": "in-place-update",
+    "baseHead": "3e675a28967da714aff3cfa8f25a63de59a5df8e",
     "openPullRequests": [],
-    "indexedRecordCount": 6929,
+    "indexedRecordCount": 6933,
     "colId": "C5QJ",
     "scientificName": "Alouatta palliata (Gray, 1849)",
-    "matchedColIds": [],
-    "matchedNames": []
+    "existingRecordCount": 1,
+    "matchedColIds": [
+      "C5QJ"
+    ],
+    "matchedNames": [
+      "alouatta palliata gray 1849"
+    ]
+  },
+  "updateAudit": {
+    "baseHead": "3e675a28967da714aff3cfa8f25a63de59a5df8e",
+    "indexedRecordCountAtAudit": 6933,
+    "targetColId": "C5QJ",
+    "targetScientificName": "Alouatta palliata (Gray, 1849)",
+    "targetRecordCountBeforeUpdate": 1,
+    "previousRawSha256": "b7b16bf9d92cc4738b6d61ab04f6f69d767fa4a2cfe186faf778b1f99105bb8f",
+    "previousShardSha256": "8ffd80bff5c713be635360fa9310fe764451c230a953ecfa705519bb6f0d36e5",
+    "openPullRequests": [],
+    "mode": "in-place-enrichment-of-existing-record",
+    "indexedRecordCountAfterUpdate": 6933
   },
   "raw": {
     "path": "data/knowledge/raw-dossiers/primates-alouatta-palliata-batch18-2026-09-24.jsonl",
     "encoding": "utf-8-jsonl-lf",
     "recordCount": 1,
-    "bytes": 12786,
-    "sha256": "b7b16bf9d92cc4738b6d61ab04f6f69d767fa4a2cfe186faf778b1f99105bb8f"
+    "bytes": 23736,
+    "sha256": "7f12ae4b8804184a8fb4a08c3d6d47d0f8d1f5c4472ef4938be3a327cb5f4a7b"
   },
   "shard": {
     "path": "data/knowledge/catalogue-dossiers-primates-alouatta-palliata-batch18-2026-09-24.jsonl.br",
     "encoding": "brotli-jsonl",
     "recordCount": 1,
-    "decodedBytes": 12786,
-    "decodedSha256": "b7b16bf9d92cc4738b6d61ab04f6f69d767fa4a2cfe186faf778b1f99105bb8f",
-    "compressedBytes": 2926,
-    "compressedSha256": "8ffd80bff5c713be635360fa9310fe764451c230a953ecfa705519bb6f0d36e5",
+    "decodedBytes": 23736,
+    "decodedSha256": "7f12ae4b8804184a8fb4a08c3d6d47d0f8d1f5c4472ef4938be3a327cb5f4a7b",
+    "compressedBytes": 5538,
+    "compressedSha256": "10b0a7ce9c1041da1db173c62b4ab1e356cf67e85650b89a642f5fa9099811f0",
     "brotliParameters": {
       "mode": "text",
       "quality": 11
@@ -42,5 +60,6 @@
     "checklistBankDatasetKey": 316115,
     "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
   },
-  "generator": "scripts/build-primates-alouatta-palliata-batch18.mjs"
+  "generator": "scripts/build-primates-alouatta-palliata-batch18.mjs",
+  "updateMode": "rebuild-one-existing-record-in-place"
 }
