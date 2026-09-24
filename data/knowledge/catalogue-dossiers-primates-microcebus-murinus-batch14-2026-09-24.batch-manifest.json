@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-microcebus-murinus-batch14-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-microcebus-murinus-batch14-2026-09-24.json",
+    "sha256": "257659827012804c8d7d01b8af04c1088cf3cba885774b9a4616eb5ba9ddd92b"
+  },
+  "duplicateCheck": {
+    "baseHead": "e0f5dee96fe4652c1af9dd854b8fe92c62f4379a",
+    "indexedRecordCount": 6922,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-microcebus-murinus-batch14-2026-09-24.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 10163,
+    "sha256": "dbf648184f37fe8107c81ca2f2a1119ccdceffe42be188f4e95b36253d3ccf03"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-microcebus-murinus-batch14-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 10163,
+    "decodedSha256": "dbf648184f37fe8107c81ca2f2a1119ccdceffe42be188f4e95b36253d3ccf03",
+    "compressedBytes": 2743,
+    "compressedSha256": "3d0e2b79db0d77086cf0bf1830e35c242b1a44be34494f305af6741fbdb7f368",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115
+  },
+  "generator": "scripts/build-primates-microcebus-murinus-batch14.mjs"
+}
