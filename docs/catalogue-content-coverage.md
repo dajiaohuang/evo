@@ -47,7 +47,7 @@ RC155 生成的来源标签筛查计数为：形态 48,482 种、生态 41,445 �
 
 “全树可查询、可查看缺口”已经落地；“全树所有物种都有全面科学档案”没有完成。
 逐物种完整档案的固定准入标准见[COL26.8 物种科学档案准入标准](species-dossier-standard.md)。该标准明确七个科学主题、证据与权利记录、未知状态处理以及完整档案和专家评审的独立计量；后续覆盖数字应按该标准生成。
-当前覆盖计数（固定 COL26.8）：层级索引覆盖 2,183,133 个接受种；来源原文关联 80,838 种；有来源双语入门概述 55 种；校验分片中有 6,914 个唯一种级档案条目，全部 incomplete、全部 not-reviewed。七主题在这 6,914 条档案中的部分支持数分别为：形态 6,888、生活史 168、生态 6,896、演化 45、分布 197、化石 1、保育 29；每个主题的其余条目为 not-assessed。另有 2,176,219 个接受种没有档案条目。完整科学档案为 0，外部领域专家评审为 0。档案条目数不表示主题完整或研究覆盖；权威身份集合见[档案分片索引](../data/knowledge/catalogue-dossier-shards.json)。新增 Cyclopia 档案的物种清单及定位见 [SANBI 来源记录](sanbi-descriptions.md#cyclopia-individual-species-accounts)。
+截至 2026-09-24 的当前覆盖计数（固定 COL26.8）：层级索引覆盖 2,183,133 个接受种；来源原文关联 80,838 种；有来源双语入门概述 55 种。档案分片索引列出 49 个分片，共 6,934 条唯一种级档案记录；逐片校验的行数及压缩/解压 SHA-256 均与索引一致。6,934 条均为 incomplete、均为 not-reviewed；完整科学档案为 0，外部领域专家评审为 0。七主题状态计数如下（未列状态为 0）：形态 partial 6,891、not-assessed 43；生活史 partial 174、not-assessed 6,760；生态 partial 6,913、not-assessed 21；演化 partial 48、not-assessed 6,886；分布 partial 201、conflicted 1、not-assessed 6,732；化石 partial 1、not-assessed 6,933；保育 partial 29、not-assessed 6,905。另有 2,176,199 个接受种没有档案记录。档案条目数和 partial 主题都不表示完整科学覆盖；权威身份集合见[档案分片索引](../data/knowledge/catalogue-dossier-shards.json)。新增 Cyclopia 档案的物种清单及定位见 [SANBI 来源记录](sanbi-descriptions.md#cyclopia-individual-species-accounts)。
 来源字段标签筛查另行报告，不得与“有原文”或“有逐主题证据档案”相加；字段可能缺少段落级定位、范围限定及概念等同性审查。
 这些新概述的计数仅指精确关联到 COL ID 的本层内容；原有 133 份导航档案仍保留在资源包体系内，不能用同名自动合并物种概念。
 
