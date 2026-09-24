@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-cebus-capucinus-batch16-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-cebus-capucinus-batch16-2026-09-24.json",
+    "sha256": "607668ae23fcb455cb538ab774ab4f278a1cc04e15778978a2efe4b7ad109045"
+  },
+  "duplicateCheck": {
+    "baseHead": "e0f5dee96fe4652c1af9dd854b8fe92c62f4379a",
+    "indexedRecordCount": 6922,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-cebus-capucinus-batch16-2026-09-24.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 9809,
+    "sha256": "d4b731e9ab8812f79d30ff3e67f2a954307b84aa8f0e3d3844a2f1780f8cf4da"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-cebus-capucinus-batch16-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 9809,
+    "decodedSha256": "d4b731e9ab8812f79d30ff3e67f2a954307b84aa8f0e3d3844a2f1780f8cf4da",
+    "compressedBytes": 2609,
+    "compressedSha256": "4b815a628505b5cf3a6dfd6a58ac11cb43fc246c3ba56d87124d9b3fe30ca237",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-primates-cebus-capucinus-batch16.mjs"
+}
