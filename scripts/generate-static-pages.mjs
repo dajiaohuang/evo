@@ -17,6 +17,7 @@ const baseUrl = `${origin}${basePath}`
 const repositoryUrl = 'https://github.com/dajiaohuang/evo'
 const manifest = readJson('data/manifest.json')
 const pagesPreview = !staticPages && process.env.VITE_PAGES_PREVIEW === 'true'
+const coreContentEdition = staticPages || pagesPreview
 const datasetManifestPath = staticPages ? 'data/manifest.json' : 'data/current.json'
 const previewDefinition = readJson('data/pages-preview.json')
 const previewPackageIds = new Set(previewDefinition.packageIds)
@@ -24,24 +25,47 @@ const previewTaxonIds = new Set(previewDefinition.taxonIds)
 const previewEventIds = new Set(previewDefinition.eventIds)
 const previewStoryIds = new Set(previewDefinition.storyIds)
 const releaseHistory = !staticPages && existsSync(join(distRoot, 'data', 'releases.json')) ? readJson('dist/data/releases.json') : { releases: [{ datasetVersion: manifest.datasetVersion, generatedAt: manifest.generatedAt, bytes: 0, filesIndex: '' }] }
-const entities = readJson('data/registry/entities/entities.json').filter((entity) => !pagesPreview || previewTaxonIds.has(entity.id))
+const entities = readJson('data/registry/entities/entities.json').filter((entity) => !coreContentEdition || previewTaxonIds.has(entity.id))
 const sourceRegistry = readJson('data/registry/package-registry.json')
-const registry = { ...sourceRegistry, packages: sourceRegistry.packages.filter((entry) => !pagesPreview || previewPackageIds.has(entry.id)) }
-const profiles = readJson('data/registry/taxon-profiles.json').filter((profile) => !pagesPreview || previewTaxonIds.has(profile.id) || (profile.treeNodeId && previewTaxonIds.has(profile.treeNodeId)))
-const events = readJson('data/events.json').filter((event) => !pagesPreview || previewEventIds.has(event.id))
-const stories = readJson('data/stories.json').filter((story) => story.evidenceStatus === 'available-with-limitations' && (!pagesPreview || previewStoryIds.has(story.id)))
-const claims = readJson('data/evidence/claims.json')
+const registry = { ...sourceRegistry, packages: sourceRegistry.packages.filter((entry) => !coreContentEdition || previewPackageIds.has(entry.id)) }
+const profiles = readJson('data/registry/taxon-profiles.json').filter((profile) => !coreContentEdition || previewTaxonIds.has(profile.id) || (profile.treeNodeId && previewTaxonIds.has(profile.treeNodeId)))
+const events = readJson('data/events.json').filter((event) => !coreContentEdition || previewEventIds.has(event.id))
+const storyPriority = new Map(previewDefinition.storyIds.map((id, index) => [id, index]))
+const stories = readJson('data/stories.json')
+  .filter((story) => story.evidenceStatus === 'available-with-limitations' && (!coreContentEdition || previewStoryIds.has(story.id)))
+  .sort((left, right) => coreContentEdition ? (storyPriority.get(left.id) ?? Number.MAX_SAFE_INTEGER) - (storyPriority.get(right.id) ?? Number.MAX_SAFE_INTEGER) : 0)
+const storyClaimIds = new Set(stories.flatMap((story) => story.steps.flatMap((step) => step.claimLinks.map((link) => link.claimId))))
+const claims = readJson('data/evidence/claims.json').filter((claim) => {
+  if (!coreContentEdition || storyClaimIds.has(claim.id)) return true
+  const [kind, ...subjectParts] = claim.subjectId.split(':')
+  const subjectId = subjectParts.join(':')
+  return (kind === 'taxon' && previewTaxonIds.has(subjectId)) || (kind === 'event' && previewEventIds.has(subjectId))
+})
 const claimStatementsZh = readJson('data/evidence/claim-statements.zh.json')
 const chineseTranslations = loadChineseTranslations()
-const references = readJson('data/references.json')
+const allReferences = readJson('data/references.json')
 const timeScale = readJson('data/time-scale.json')
-const media = readJson('data/media.json')
+const media = readJson('data/media.json').filter((asset) => !coreContentEdition || previewTaxonIds.has(asset.taxonId))
 const periodUnits = timeScale.units.filter((unit) => unit.itp === 'period')
-const occurrences = periodUnits.flatMap((period) => readJson(`data/fossils/${period.nam.toLowerCase()}.json`)
-  .filter((record) => !pagesPreview || previewPackageIds.has(record.packageId ?? 'atlas-core'))
-  .map((record) => ({ ...record, period: period.nam })))
-
 const entityById = new Map(entities.map((entry) => [entry.id, entry]))
+const packageForPbdbTaxon = new Map(entities.flatMap((entity) => entity.externalIds.pbdb ? [[entity.externalIds.pbdb, entity.packageId]] : []))
+const occurrences = periodUnits.flatMap((period) => readJson(`data/fossils/${period.nam.toLowerCase()}.json`)
+  .filter((record) => !coreContentEdition || previewPackageIds.has(record.packageId ?? packageForPbdbTaxon.get(record.tid) ?? 'atlas-core'))
+  .map((record) => ({ ...record, period: period.nam })))
+const citedReferenceIds = new Set([
+  ...entities.flatMap((entity) => entity.referenceIds ?? []),
+  ...profiles.flatMap((profile) => profile.referenceIds ?? []),
+  ...events.flatMap((event) => event.referenceIds ?? []),
+  ...stories.flatMap((story) => story.referenceIds ?? []),
+  ...claims.flatMap((claim) => claim.referenceLinks.map((link) => link.referenceId)),
+  ...media.flatMap((asset) => asset.referenceIds ?? []),
+  ...periodUnits.flatMap((period) => period.referenceIds ?? []),
+  timeScale.source.referenceId,
+  ...occurrences.map((record) => record.referenceId).filter(Boolean),
+  ...registry.packages.flatMap((entry) => entry.referenceIds ?? []),
+])
+const references = coreContentEdition ? allReferences.filter((reference) => citedReferenceIds.has(reference.id)) : allReferences
+
 const packageById = new Map(registry.packages.map((entry) => [entry.id, entry]))
 const profileByEntityId = new Map(profiles.flatMap((profile) => [[profile.id, profile], [profile.treeNodeId, profile]]))
 const referenceById = new Map(references.map((entry) => [entry.id, entry]))
@@ -465,7 +489,7 @@ let traitPageCount = 0
 let mediaPageCount = 0
 let datasetPageCount = 0
 let indexPageCount = 0
-const comparisonPageCount = pagesPreview ? 0 : generateCatalogueChanges({ write, pageHtml, basePath, baseUrl, repositoryUrl, sitemapUrls })
+const comparisonPageCount = coreContentEdition ? 0 : generateCatalogueChanges({ write, pageHtml, basePath, baseUrl, repositoryUrl, sitemapUrls })
 
 for (const entity of entities) {
   const profile = profileByEntityId.get(entity.id)
@@ -745,23 +769,28 @@ if (staticPages) {
     ['references', 'References', '参考文献', references.length],
     ['media', 'Media and rights', '媒体与权利', media.length],
     ['datasets', 'Dataset metadata', '数据集元数据', 1],
-    ['catalogue-changes', 'Checklist release comparison', '名录版本对比', 2],
+    ...(!coreContentEdition ? [['catalogue-changes', 'Checklist release comparison', '名录版本对比', 2]] : []),
   ]
   for (const language of ['en', 'zh']) {
     const zh = language === 'zh'
     const prefix = zh ? 'zh/' : ''
     const title = zh ? '从证据阅读生命演化' : 'Read evolution through its evidence'
     const description = zh
-      ? 'Evo Atlas 静态阅读版：直接浏览类群、主张、故事与参考文献，无需加载完整交互应用。'
-      : 'The Evo Atlas reading edition: browse taxa, claims, stories and references without loading the full interactive application.'
+      ? 'Evo Atlas 精选核心静态预览：灵长目、恐龙、鲸类与奇蹄目等重点内容与原生核心使用同一清单。'
+      : 'The Evo Atlas selected-core reading preview: primates, dinosaurs, whales and perissodactyls use the same content selection as native core.'
     const body = readingHome({ language, basePath, title, description, collections, stories, periods: periodUnits, mapFrame })
     write(`${prefix}index.html`, pageHtml({ language, title, description, path: prefix, alternatePath: zh ? '' : 'zh/', type: 'CollectionPage', body }))
     const appsTitle = zh ? '完整应用与原生版本' : 'Full and native applications'
     const appsDescription = zh
-      ? 'GitHub Pages 提供静态阅读；完整 Web 应用、Android 和 iOS 提供交互探索。'
-      : 'GitHub Pages provides static reading; the full Web, Android and iOS applications provide interactive exploration.'
+      ? 'GitHub Pages 静态预览与 Android/iOS 使用同一精选核心清单，分别提供静态阅读和离线核心交互。'
+      : 'GitHub Pages static preview and Android/iOS use the same selected core content, in reading and offline app formats.'
     const appsBody = `<span class="eyebrow">EVO ATLAS / ${zh ? '应用' : 'APPLICATIONS'}</span><h1>${appsTitle}</h1><p class="dek">${appsDescription}</p><section><h2>Web</h2><p>${zh ? '完整客户端包含地图、演化树、时间轴、搜索和本地 SQL，可按仓库说明自行构建和托管。本站仅提供轻量地图及静态阅读，完整交互功能需使用完整客户端。' : 'The full client includes maps, trees, a timeline, search and local SQL. Build and host it using the repository instructions; this reading site provides the lightweight map, while the complete runtime remains in the full client.'}</p><a href="${repositoryUrl}#readme">${zh ? '构建说明与源代码' : 'Build instructions and source'}</a></section><section><h2>Android</h2><p>${zh ? 'Android 使用本地 Capacitor 资源和完整数据。CI 提供调试 APK 用于安装验证；它不是 Play Store 发布版。下载 Actions 产物需要登录 GitHub。' : 'Android uses local Capacitor assets and the full data profile. CI provides a debug APK for installation testing, not a Play Store release. Downloading Actions artifacts requires GitHub sign-in.'}</p><a href="${repositoryUrl}/actions/workflows/native-android.yml">${zh ? 'Android 验证构建' : 'Android verification builds'}</a></section><section><h2>iOS</h2><p>${zh ? 'iOS 使用同一完整数据。CI 运行 iPhone 模拟器测试并生成未签名 Archive；安装到真机或发布到 App Store 仍需开发者签名与分发流程。' : 'iOS uses the same full data profile. CI runs iPhone simulator tests and creates an unsigned archive; device installation and App Store distribution still require developer signing and distribution.'}</p><a href="${repositoryUrl}/actions/workflows/native-ios.yml">${zh ? 'iOS 验证构建' : 'iOS verification builds'}</a></section><div class="actions"><a class="button secondary" href="${repositoryUrl}/blob/main/docs/mobile-apps.md">${zh ? '原生应用文档' : 'Native application documentation'}</a></div>`
-    write(`${prefix}apps/index.html`, pageHtml({ language, title: appsTitle, description: appsDescription, path: `${prefix}apps/`, alternatePath: `${zh ? '' : 'zh/'}apps/`, body: appsBody }))
+    const coreAwareAppsBody = appsBody
+      .replace('Android 使用本地 Capacitor 资源和完整数据。CI 提供调试 APK', 'Android 使用本地 Capacitor 资源和精选核心内容，与 Pages 预览共用清单。CI 提供调试 APK')
+      .replace('Android uses local Capacitor assets and the full data profile. CI provides a debug APK', 'Android uses local Capacitor assets and the selected core content shared with the Pages preview. CI provides a debug APK')
+      .replace('iOS 使用同一完整数据。CI 运行', 'iOS 使用同一精选核心内容。CI 运行')
+      .replace('iOS uses the same full data profile. CI runs', 'iOS uses the same selected core content. CI runs')
+    write(`${prefix}apps/index.html`, pageHtml({ language, title: appsTitle, description: appsDescription, path: `${prefix}apps/`, alternatePath: `${zh ? '' : 'zh/'}apps/`, body: coreAwareAppsBody }))
   }
   sitemapUrls.add(`${baseUrl}/zh/`)
   sitemapUrls.add(`${baseUrl}/apps/`)
@@ -798,8 +827,8 @@ for (const release of releaseHistory.releases.filter((entry) => entry.datasetVer
 write('static.css', staticCss + (staticPages ? readingMapCss : '') + `\n.skip-link{position:absolute;top:-100px;left:12px;padding:12px;background:var(--bg);z-index:2}.skip-link:focus{top:0}:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.claim code{overflow-wrap:anywhere}.page{overflow-wrap:anywhere}` + (staticPages ? `\nheader.site{height:auto;min-height:64px;gap:24px;flex-wrap:wrap}header.site nav a,.language a{display:inline-flex;align-items:center;min-height:44px}.edition-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.edition-grid a{display:block;padding:20px;border:1px solid var(--line);text-decoration:none}.edition-grid strong,.edition-grid span{display:block}.edition-grid span{color:var(--muted);font-size:13px}@media(max-width:700px){header.site nav{display:flex;order:3;width:100%;flex-wrap:wrap;gap:6px 18px}.edition-grid{grid-template-columns:1fr}.page{padding-top:30px}h1{font-size:clamp(36px,10vw,64px)}}` : ''))
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...sitemapUrls].sort().map((url) => `  <url><loc>${xmlEscape(url)}</loc><lastmod>${manifest.generatedAt}</lastmod></url>`).join('\n')}\n</urlset>\n`)
 write('robots.txt', `User-agent: *\nAllow: ${basePath}/\nSitemap: ${baseUrl}/sitemap.xml\n`)
-const feedEntryPath = pagesPreview ? 'methods/' : `datasets/${manifest.datasetVersion}/`
-const feedEntryTitle = pagesPreview ? `${manifest.appVersion} GitHub Pages preview` : manifest.datasetVersion
+const feedEntryPath = coreContentEdition ? 'methods/' : `datasets/${manifest.datasetVersion}/`
+const feedEntryTitle = coreContentEdition ? `${manifest.appVersion} GitHub Pages core preview` : manifest.datasetVersion
 write('feed.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom"><title>Evo Atlas releases</title><id>${baseUrl}/feed.xml</id><updated>${manifest.generatedAt}T00:00:00Z</updated><link href="${baseUrl}/feed.xml" rel="self"/><entry><title>${xmlEscape(feedEntryTitle)}</title><id>${baseUrl}/${feedEntryPath}</id><updated>${manifest.generatedAt}T00:00:00Z</updated><link href="${baseUrl}/${feedEntryPath}"/><summary>${xmlEscape(manifest.scopeStatement)}</summary></entry></feed>\n`)
 write('404.html', `<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><link rel="stylesheet" href="${basePath}/static.css"><title>Page not found — Evo Atlas</title></head><body><main class="page"><span class="eyebrow">404 / Evo Atlas</span><h1>Evidence page not found.</h1><p class="dek">This static entry does not exist in the published dataset. You can continue in the catalog or Explorer.</p><div class="actions"><a class="button" href="${basePath}/#/catalog">Open catalog</a><a class="button secondary" href="${basePath}/#/explore">Open Explorer</a></div></main></body></html>`)
 if (staticPages) write('404.html', pageHtml({ language: 'en', title: 'Page not found', description: 'This static reading page does not exist.', path: '404.html', alternatePath: 'zh/', robots: 'noindex,follow', body: `<span class="eyebrow">404 / EVO ATLAS</span><h1>Page not found</h1><p class="dek">This address is not part of the static reading edition. / 此地址不属于静态阅读版。</p><div class="actions"><a class="button" href="${basePath}/">Browse in English</a><a class="button secondary" href="${basePath}/zh/">浏览中文内容</a></div>` }))
@@ -819,6 +848,6 @@ const pageCounts = {
   catalogueComparisons: comparisonPageCount,
   datasets: datasetPageCount,
 }
-write('static-pages-manifest.json', `${JSON.stringify({ schemaVersion: 3, ...(staticPages ? { edition: 'github-pages-static' } : {}), datasetVersion: manifest.datasetVersion, generatedAt: manifest.generatedAt, pages: pageCounts, sitemapUrls: sitemapUrls.size }, null, 2)}\n`)
+write('static-pages-manifest.json', `${JSON.stringify({ schemaVersion: 3, ...(staticPages ? { edition: 'github-pages-static' } : {}), ...(coreContentEdition ? { previewScope: { packageIds: previewDefinition.packageIds, taxonIds: previewDefinition.taxonIds, storyIds: previewDefinition.storyIds, eventIds: previewDefinition.eventIds } } : {}), datasetVersion: manifest.datasetVersion, generatedAt: manifest.generatedAt, pages: pageCounts, sitemapUrls: sitemapUrls.size }, null, 2)}\n`)
 
 console.log(`Generated ${Object.values(pageCounts).reduce((sum, count) => sum + count, 0)} bilingual static knowledge pages and ${sitemapUrls.size} indexable sitemap URLs.`)

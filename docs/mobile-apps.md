@@ -1,6 +1,6 @@
 # Android 与 iOS 应用
 
-Evo Atlas 的交互式 Web、Android 和 iOS 版本共享 React/TypeScript 客户端。原生 App 永远只内置 `native-core`：应用壳、精选核心页面与资料、0.3° 预览地图；完整 COL 目录、全物种科学档案、权威来源行、全分辨率地图、完整下载包和 SQL 研究引擎均留在 App 安装包之外。App 不把线上站点作为远程首页加载，核心页面仍可离线打开；完整数据通过 Web 或受支持的在线服务访问，不自动同步或持久化到 App。
+Evo Atlas 的交互式 Web、Android 和 iOS 版本共享 React/TypeScript 客户端。原生 App 永远只内置 `native-core`：应用壳、精选核心页面与资料、0.3° 预览地图；完整 COL 目录、全物种科学档案、权威来源行、全分辨率地图、完整下载包和 SQL 研究引擎均留在 App 安装包之外。App 不把线上站点作为远程首页加载，核心页面仍可离线打开；完整数据通过 Web 或受支持的在线服务访问，不自动同步或持久化到 App。GitHub Pages 静态预览与原生核心使用同一精选范围，页面形式不同，内容清单一致。
 
 ## 工程结构
 
@@ -23,7 +23,7 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
-当前原生数据边界：精选范围由 `data/pages-preview.json` 固定，包含 Atlas 核心以及奇蹄目、鲸偶蹄目、恐龙和灵长目四个重点路径；同一份清单定义 GitHub Pages 预览版内容。完整物种注册表和后续全物种档案继续维护在 canonical 数据与服务端/Web 发布中；它们不会进入 Android/iOS 安装包。安装包检查会拒绝完整 COL hierarchy/search、命名来源记录和 ZIP 下载文件，并以 384 MiB 作为硬上限。
+当前核心内容边界：`data/pages-preview.json` 是 App 与 GitHub Pages 静态预览共用的唯一精选清单，包含 Atlas 核心、灵长目重点包、奇蹄目、鲸偶蹄目和恐龙。灵长目排在核心优先故事和内容包前列。当前范围为 5 个内容包、102 个类群/导航节点、8 个故事和 44 个事件；七份灵长目策展档案与精选灵长类故事属于核心内容。6,937 条全物种来源档案分片、完整物种注册表和权威来源行继续留在 canonical/Web 侧，不进入 Android/iOS 安装包或 Pages 静态预览。安装包检查会拒绝完整 COL hierarchy/search、命名来源记录和 ZIP 下载文件，并以 384 MiB 作为硬上限。
 
 以下 `rc*` 条目记录的是历史版本交付事实；其中 `native-full` 描述旧版行为，不代表当前或未来 App 的打包策略。
 

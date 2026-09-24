@@ -41,14 +41,21 @@ for (const file of htmlFiles) {
     if (!target.startsWith(output) || !existsSync(target) || !statSync(target).isFile()) failures.add(`Missing ${url.pathname} linked by ${path}`)
   }
 }
-for (const path of ['index.html', 'zh/index.html', 'map/index.html', 'zh/map/index.html', 'apps/index.html', 'zh/apps/index.html', 'taxa/perissodactyla/index.html', 'methods/index.html', '404.html']) {
+for (const path of ['index.html', 'zh/index.html', 'map/index.html', 'zh/map/index.html', 'apps/index.html', 'zh/apps/index.html', 'taxa/primates/index.html', 'taxa/perissodactyla/index.html', 'stories/primates-evidence-without-an-ancestor-ladder/index.html', 'methods/index.html', '404.html']) {
   if (!existsSync(join(output, path))) failures.add(`Missing required page: ${path}`)
 }
 const manifest = JSON.parse(readFileSync(join(output, 'static-pages-manifest.json'), 'utf8'))
+const selectedCore = JSON.parse(readFileSync(join(rootDir, 'data/pages-preview.json'), 'utf8'))
 const maps = JSON.parse(readFileSync(join(output, 'map/manifest.json'), 'utf8'))
 if (maps.frames.length !== 13 || manifest.pages.maps !== 26) failures.add('Expected 13 bilingual reading map frames')
 if (maps.frames.some((frame) => frame.bytes > 2 * 1024 * 1024)) failures.add('Reading map exceeds 2 MiB per frame')
 if (manifest.edition !== 'github-pages-static') failures.add('Missing static edition marker')
+if (JSON.stringify(manifest.previewScope) !== JSON.stringify({
+  packageIds: selectedCore.packageIds,
+  taxonIds: selectedCore.taxonIds,
+  storyIds: selectedCore.storyIds,
+  eventIds: selectedCore.eventIds,
+})) failures.add('Pages static content scope differs from the shared App core selection')
 if (!readFileSync(join(output, 'data/manifest.json')).equals(readFileSync(join(rootDir, 'data/manifest.json')))) failures.add('Published source metadata changed')
 if (failures.size) {
   console.error([...failures].slice(0, 30).join('\n'))

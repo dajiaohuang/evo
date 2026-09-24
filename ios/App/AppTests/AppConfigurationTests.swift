@@ -72,7 +72,7 @@ final class AppConfigurationTests: XCTestCase {
         XCTAssertEqual(state["catalogueScope"] as? String, "omitted")
         XCTAssertEqual(state["downloadsAvailable"] as? Bool, false)
         let packageIds = try XCTUnwrap(state["packageIds"] as? [String])
-        XCTAssertEqual(packageIds, ["atlas-core", "perissodactyla", "cetartiodactyla", "dinosauria", "primates"])
+        XCTAssertEqual(packageIds, ["atlas-core", "primates", "perissodactyla", "cetartiodactyla", "dinosauria"])
         XCTAssertEqual(state["mapProfile"] as? String, "web-preview")
         XCTAssertEqual(state["mapResolutionDegrees"] as? Double, 0.3)
         let files = try XCTUnwrap(state["files"] as? [[String: Any]])
@@ -95,7 +95,7 @@ final class AppConfigurationTests: XCTestCase {
         XCTAssertEqual(current["deliveryProfile"] as? String, "web-light")
         let scope = try XCTUnwrap(current["previewScope"] as? [String: Any])
         XCTAssertEqual(scope["catalogue"] as? String, "omitted")
-        XCTAssertEqual(scope["packageIds"] as? [String], ["atlas-core", "perissodactyla", "cetartiodactyla", "dinosauria", "primates"])
+        XCTAssertEqual(scope["packageIds"] as? [String], ["atlas-core", "primates", "perissodactyla", "cetartiodactyla", "dinosauria"])
         let downloads = try XCTUnwrap(current["downloads"] as? [String: Any])
         XCTAssertEqual(downloads["available"] as? Bool, false)
 

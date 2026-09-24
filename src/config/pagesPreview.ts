@@ -11,6 +11,7 @@ export const isNativeCore = frontendContract.edition === 'native-core'
 export const isPagesPreview = frontendContract.edition === 'github-pages-preview' || isNativeCore
 
 export const pagesPreviewPackageIds = new Set(previewDefinition.packageIds)
+export const pagesPreviewStoryIds = previewDefinition.storyIds
 const PREVIEW_TAXA = new Set(previewDefinition.taxonIds)
 const PREVIEW_STORIES = new Set(previewDefinition.storyIds)
 const PREVIEW_EVENTS = new Set(previewDefinition.eventIds)
