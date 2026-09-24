@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-cercopithecus-diana-batch18-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-cercopithecus-diana-batch18-2026-09-24.json",
+    "sha256": "e269f9da011d6e0a351e92e57752a929af7e94dfa4ff20db5d6ae8afbbecc0e7"
+  },
+  "duplicateCheck": {
+    "baseHead": "6a854e5cb8684d538f4ada02ac5eba97d48ba1c9",
+    "indexedRecordCount": 6928,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-cercopithecus-diana-batch18-2026-09-24.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 11896,
+    "sha256": "6c1e9c404499a9b20902b9f5c7d6dcc71474fe95100dc14fe00aa734a6a9f6a7"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-cercopithecus-diana-batch18-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 11896,
+    "decodedSha256": "6c1e9c404499a9b20902b9f5c7d6dcc71474fe95100dc14fe00aa734a6a9f6a7",
+    "compressedBytes": 3052,
+    "compressedSha256": "52768ddfdca8bcee26580bd4c050d8276c24221e2e540690d672b955644196bf",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-primates-cercopithecus-diana-batch18.mjs"
+}
