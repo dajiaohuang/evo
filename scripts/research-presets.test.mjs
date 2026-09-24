@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs'
+import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
 import { packageDefinitions, researchPresetDefinitions, researchSceneDefinitions } from './package-definitions.mjs'
@@ -56,7 +56,13 @@ describe('source-bound package research presets', () => {
         expect(example.route).toContain(`taxon=${encodeURIComponent(expected.entityId)}`)
       }
 
-      expect(research.examples.slice(1).map((scene) => scene.id)).toEqual(researchSceneDefinitions[definition.id].scenes.map((scene) => scene.id))
+      const curatedScenes = researchSceneDefinitions[definition.id].scenes
+      const sourcePath = join(rootDir, `data/packages/${definition.path}/research-examples.source.json`)
+      const sourceExamples = existsSync(sourcePath)
+        ? JSON.parse(readFileSync(sourcePath, 'utf8')).examples
+        : []
+      expect(research.examples.slice(1, 1 + curatedScenes.length).map((scene) => scene.id)).toEqual(curatedScenes.map((scene) => scene.id))
+      expect(research.examples.slice(1 + curatedScenes.length).map((example) => example.id)).toEqual(sourceExamples.map((example) => example.id))
 
       for (const scene of research.examples) {
         expect(scene.evidenceStatus).toBe('available-with-limitations')
@@ -71,7 +77,7 @@ describe('source-bound package research presets', () => {
         }
       }
     }
-    expect(publishedSceneCount).toBe(312)
+    expect(publishedSceneCount).toBe(313)
   })
 
   it('does not promote navigation context into package phylogenies', () => {
