@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "releaseAlias": "COL26.8",
+  "releaseDate": "2026-08-20",
+  "checkedAt": "2026-09-24",
+  "batchId": "primates-propithecus-verreauxi-batch21-2026-09-24",
+  "scope": "One incomplete dossier for the exact accepted COL26.8 species usage 77XPX. Two item-level license-verified open-access primary studies support bounded infant-development, local ecological, and feeding/visual-genotype claims. Morphology, species-wide distribution, evolution, species-level fossil occurrence, current formal conservation status, and independent expert review remain unassessed.",
+  "duplicateAudit": {
+    "baseHead": "8db03f8d1270d8465ddf4a9f33460f0d4ad94e71",
+    "checkedIndexRecords": 6932,
+    "matchedColIds": [],
+    "matchedNames": [],
+    "openPullRequests": []
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "records": [
+    {
+      "colId": "77XPX",
+      "scientificName": "Propithecus verreauxi Grandidier, 1867",
+      "authorship": "Grandidier, 1867",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-09-24",
+      "identity": {
+        "method": "Exact accepted COL26.8 name-search and acceptedTargets usages were checked for the verbatim name, authorship, species rank, accepted status, parent 6WXL, and sourceDatasetId 2144; the accepted hierarchy was followed by stable ID through Primates.",
+        "scope": "This record is for the pinned COL26.8 accepted species usage 77XPX. Biological claims are limited to the named wild study populations, cohorts, methods, and dates; no study is treated as a complete species-wide account.",
+        "sourceIds": ["col"]
+      },
+      "classificationPath": [],
+      "lifeStatusScope": {
+        "wild": "All biological claims used in this record concern free-ranging wild sifakas at the specific Kirindy Forest/CNFEREF or Kirindy Mitea study populations described in each claim.",
+        "domesticated": "Domesticated or captive populations have not been assessed. Captive and wild genomes mentioned in unlicensed comparative literature are not used as claims here.",
+        "fossil": "Species-level fossil occurrence has not been assessed. A located comparative study of fragmentary subfossil material is not used because the version-of-record item-level license remains unverified."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/77XPX",
+          "stableId": "col:77XPX@COL26.8",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank release dataset 316115",
+          "publishedAt": "2026-08-20",
+          "accessedAt": "2026-09-24",
+          "locator": "Pinned accepted species usage 77XPX; verbatim scientific name Propithecus verreauxi Grandidier, 1867, authorship, species rank, accepted status, parent 6WXL, sourceDatasetId 2144, and accepted path through Primates.",
+          "license": "CC BY 4.0 nomenclatural metadata; cited for identity only",
+          "licenseAssessment": "identity-only",
+          "scope": "Accepted nomenclatural identity and classification only; no biological claims are taken from this record.",
+          "rightsHolder": "Catalogue of Life Foundation",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Pinned checklist nomenclatural and taxonomic metadata only.",
+          "attribution": "Catalogue of Life (2026), COL26.8, ChecklistBank dataset 316115, usage 77XPX. https://doi.org/10.48580/dgywk"
+        },
+        {
+          "id": "malalaharivony2021",
+          "title": "Malalaharivony et al. (2021), Maternal stress effects on infant development in wild Verreaux's sifaka (Propithecus verreauxi)",
+          "url": "https://link.springer.com/article/10.1007/s00265-021-03085-2",
+          "stableId": "doi:10.1007/s00265-021-03085-2",
+          "version": "Behavioral Ecology and Sociobiology 75, article 143; version of record published 2021-09-25",
+          "publishedAt": "2021-09-25",
+          "accessedAt": "2026-09-24",
+          "locator": "Abstract; Methods > Study site and subjects; Methods > Behavioral and morphometric data and Phenology and climatic variables; Results on maternal fecal glucocorticoid metabolites and infant development; Discussion; Rights and permissions.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Primary field study of maternal fecal glucocorticoid metabolites and development of 12 wild infants from two birth cohorts at Kirindy Forest/CNFEREF, central western Madagascar, during the 2017 and 2018 breeding seasons. Claims are restricted to these cohorts, the local study population, and the measured observational associations.",
+          "rightsHolder": "The article authors",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsEvidenceUrl": "https://link.springer.com/article/10.1007/s00265-021-03085-2",
+          "rightsEvidenceLocator": "Official Springer article page > Rights and permissions: the version-of-record article is licensed under Creative Commons Attribution 4.0 International; the notice states that separately credited third-party material may have different terms.",
+          "licenseAppliesTo": "The version-of-record article under CC BY 4.0; separately credited third-party material remains subject to its own credit line.",
+          "attribution": "Malalaharivony HS, Fichtel C, Heistermann M, et al. (2021). Maternal stress effects on infant development in wild Verreaux's sifaka (Propithecus verreauxi). Behavioral Ecology and Sociobiology 75:143. https://doi.org/10.1007/s00265-021-03085-2. Claims paraphrased; changes made. CC BY 4.0."
+        },
+        {
+          "id": "veilleux2016",
+          "title": "Veilleux et al. (2016), Group benefit associated with polymorphic trichromacy in a Malagasy primate (Propithecus verreauxi)",
+          "url": "https://www.nature.com/articles/srep38418",
+          "stableId": "doi:10.1038/srep38418",
+          "version": "Scientific Reports 6, article 38418; version of record published 2016-12-02",
+          "publishedAt": "2016-12-02",
+          "accessedAt": "2026-09-24",
+          "locator": "Abstract; Methods > M/LWS opsin genotyping and feeding behavior; Results on genotype, body mass index, and fruit feeding; Discussion; publisher license statement.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0); Crossref deposits the same license for the version of record",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Primary study of one wild population at Kirindy Mitea National Park, Madagascar. Genotype and feeding comparisons use the article's marked animals and observed groups; claims are local and do not establish a species-wide behavioral invariant or retinal anatomy.",
+          "rightsHolder": "The article authors",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsEvidenceUrl": "https://api.crossref.org/works/10.1038/srep38418",
+          "rightsEvidenceLocator": "Crossref work record > message.license: version-of-record (content-version vor) license URL is https://creativecommons.org/licenses/by/4.0/ with start date 2016-12-02; the publisher article page also states CC BY 4.0.",
+          "licenseAppliesTo": "The Scientific Reports version-of-record article under CC BY 4.0; separately credited third-party material, if any, remains subject to its credit line.",
+          "attribution": "Veilleux CC, Scarry CJ, Di Fiore A, Kirk EC, Bolnick DA, Lewis RJ (2016). Group benefit associated with polymorphic trichromacy in a Malagasy primate (Propithecus verreauxi). Scientific Reports 6:38418. https://doi.org/10.1038/srep38418. Claims paraphrased; changes made. CC BY 4.0."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "not-assessed",
+          "gaps": ["No diagnostic species-wide anatomical survey was assessed. A paper on fragmentary subfossil bones was located, but the version-of-record license and the broader taxonomic interpretation were not verified for claim use."]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "At Kirindy Forest/CNFEREF, the study measured development of 12 wild infants from two birth cohorts during the first six postnatal months, but follow-up differed by cohort: the 2017 cohort was monitored through February, while the 2018 cohort's observations ended in December before a full six-month window. Infants whose mothers had higher prenatal fecal glucocorticoid metabolite concentrations showed faster growth and more independent foraging and play. These are observational associations from one local population; they do not establish a causal effect or a species-wide developmental rate.",
+              "sourceIds": ["malalaharivony2021"],
+              "locator": "Abstract; Methods > Study site and subjects; Results on maternal fecal glucocorticoid metabolites and infant development; Discussion on limits to distinguishing adaptive programming from infant-condition effects.",
+              "placeTimeScope": "Kirindy Forest/CNFEREF, central western Madagascar; two successive breeding seasons in 2017 and 2018; 12 infants in two birth cohorts with different follow-up windows. The 2018 cohort was observed only through December, before a full six-month postnatal window.",
+              "lifeStatus": "Wild, free-ranging mothers and infants from the monitored Kirindy population.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["This study does not establish species-wide age at maturity, gestation, birth interval, adult survival, or lifespan; those parameters remain unassessed here."]
+        },
+        "evolution": {
+          "status": "not-assessed",
+          "gaps": ["No species-level evolutionary or population-genomic claim is included; a comparative genome paper was located but its item-level license still requires publisher-page verification."]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "At Kirindy Mitea National Park, the authors reported M/LWS opsin genotype variation consistent with polymorphic trichromacy in one wild sifaka population. Individuals in groups containing trichromats had higher body-mass indices and more fruit-feeding time, with longer fruit-feeding bouts, than individuals in dichromat-only groups. These are study-specific associations; genotype is a proxy for color-vision phenotype, not a retinal anatomical measurement, and a proposed dry-season fruit-detection advantage is the authors' hypothesis.",
+              "sourceIds": ["veilleux2016"],
+              "locator": "Abstract; Methods > M/LWS opsin genotyping and Feeding behavior; Results comparing group composition, body-mass index, and fruit-feeding measures; Discussion of the proposed mutual-benefit hypothesis.",
+              "placeTimeScope": "One wild population at Kirindy Mitea National Park, southwestern Madagascar; genotyped and behaviorally observed animals/groups from the study's nine-year research interval.",
+              "lifeStatus": "Wild, free-ranging animals; the claim is limited to the sampled population and observed groups.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            },
+            {
+              "text": "In the 2017–2018 Kirindy study, maternal fecal glucocorticoid metabolite concentrations were higher during periods of low rainfall and during late pregnancy than in the early-to-mid prenatal period. The authors used rainfall as a local proxy for food availability; this observational result is limited to the study population and does not define the species' climate niche or demonstrate causation.",
+              "sourceIds": ["malalaharivony2021"],
+              "locator": "Abstract; Methods > Phenology and climatic variables; Results > Predictors of variation in fGCM concentrations; Discussion. The model uses 359 hormone observations and rainfall as a proxy for food availability.",
+              "placeTimeScope": "Kirindy Forest/CNFEREF, central western Madagascar; two breeding seasons in 2017 and 2018; local rainfall and seasonal measurements for the monitored mothers.",
+              "lifeStatus": "Wild, free-ranging adult females in the monitored population.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["The study does not show that group-level feeding patterns apply across the full range or establish a causal effect of color-vision genotype on fitness.", "Rainfall was a local proxy in one study population; no range-wide habitat, climate envelope, or species-level environmental vulnerability assessment was conducted."]
+        },
+        "distribution": {
+          "status": "not-assessed",
+          "gaps": ["Localities in the Kirindy studies are not a species-wide distribution estimate. A current, source-located range assessment was not completed."]
+        },
+        "fossil": {
+          "status": "not-assessed",
+          "gaps": ["No species-level fossil occurrence or geological range extension is asserted. A published fragmentary subfossil comparison remains outside this dossier pending item-level license and taxonomic-scope verification."]
+        },
+        "conservation": {
+          "status": "not-assessed",
+          "gaps": ["The current formal conservation category, assessment date, criteria, and rationale were not verified from the official item-level assessment record; a 2020 status statement in secondary study context is not treated as current status."]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Only two item-level license-verified open-access primary studies were used, supporting bounded local claims in life history and ecology.",
+          "Morphology, evolution, species-wide distribution, species-level fossil occurrence, and current formal conservation status remain unassessed.",
+          "No systematic seven-facet review or independent external expert review has been completed."
+        ]
+      },
+      "expertReview": { "status": "not-reviewed" }
+    }
+  ]
+}
