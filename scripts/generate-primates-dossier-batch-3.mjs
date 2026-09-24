@@ -134,9 +134,18 @@ const manifest = {
   generationSourceSha256,
 }
 assert.equal(manifest.generationSourceSha256, sha256(sourceBytes), 'Manifest must record the exact source JSON byte digest')
+const indexedShard = shardIndex.shards.find(item => item.path === manifest.path)
+assert.ok(indexedShard, `Target shard is missing from ${indexPath}`)
+Object.assign(indexedShard, {
+  recordCount: manifest.recordCount,
+  decodedSha256: manifest.decodedSha256,
+  compressedSha256: manifest.compressedSha256,
+})
+assert.equal(shardIndex.shards.reduce((sum, item) => sum + item.recordCount, 0), shardIndex.recordCount, 'Dossier shard counts must sum to the indexed record count')
 
 mkdirSync(resolve(root, 'data/knowledge/raw-dossiers'), { recursive: true })
 writeFileSync(rawPath, rawBytes)
 writeFileSync(shardPath, compressed)
 writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8')
+writeFileSync(indexPath, `${JSON.stringify(shardIndex, null, 2)}\n`, 'utf8')
 process.stdout.write(`${JSON.stringify({ recordCount: manifest.recordCount, ids: manifest.ids, rawPath: manifest.rawPath, path: manifest.path, generationSourceSha256: manifest.generationSourceSha256, rawSha256: manifest.rawSha256, decodedSha256: manifest.decodedSha256, compressedSha256: manifest.compressedSha256, byteRoundTrip: decoded.equals(rawBytes) })}\n`)
