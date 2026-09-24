@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-symphalangus-syndactylus-batch24-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-symphalangus-syndactylus-batch24-2026-09-24.json",
+    "sha256": "1082678887201da5aca0110b59ad516e520bc17c5b89f4bd7e7ac1d4f363d0b0"
+  },
+  "duplicateCheck": {
+    "baseHead": "edbc14fb9bf7f763e0234687229075017366aef5",
+    "indexedRecordCount": 6934,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-symphalangus-syndactylus-batch24-2026-09-24.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 10689,
+    "sha256": "f1d990c8f65add3ca01b46d2cc77335c1bcf798f79a081f00d509a767c1527bd"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-symphalangus-syndactylus-batch24-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 10689,
+    "decodedSha256": "f1d990c8f65add3ca01b46d2cc77335c1bcf798f79a081f00d509a767c1527bd",
+    "compressedBytes": 2909,
+    "compressedSha256": "25356d89971ddb4fea4b65bd216806476e3189b0b8ce6b447aa6a78e7570b322",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-primates-symphalangus-syndactylus-batch24.mjs"
+}
