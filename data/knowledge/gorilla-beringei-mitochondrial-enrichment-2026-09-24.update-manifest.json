@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "batchId": "gorilla-beringei-mitochondrial-enrichment-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/gorilla-beringei-mitochondrial-enrichment-2026-09-24.json",
+    "sha256": "2f2ec3e8618b0ae721286be70b94d6e1491c6d7f02cc30cd58f9596391de56ea"
+  },
+  "updateAudit": {
+    "baseHead": "ff307cdfd64fc0d5809ae170f8875acce34ffcbc",
+    "openPullRequests": [],
+    "indexedRecordCountAtAudit": 6934,
+    "mode": "in-place-enrichment-of-one-existing-accepted-species-dossier",
+    "targets": [
+      {
+        "colId": "3H3C3",
+        "scientificName": "Gorilla beringei Matschie, 1903",
+        "targetShardPath": "data/knowledge/catalogue-dossiers-primates-gorilla-beringei-batch12-2026-09-24.jsonl.br",
+        "previousDecodedSha256": "eb968e30ef72028161e56543af50d97c01d266c175068f355359b06a61354766",
+        "previousCompressedSha256": "076495db401746e7a646ff4bc675ef9b7d109d45bae289e0a48050d4f1f771ea",
+        "previousTargetRecordSha256": "d783e4a743cd64fd28df9dd92257786a0ffdc7a1b9abbb1d377fa97e44e6f1cb"
+      }
+    ]
+  },
+  "indexedRecordCount": 6934,
+  "targetCount": 1,
+  "claimCount": 3,
+  "targets": [
+    {
+      "colId": "3H3C3",
+      "scientificName": "Gorilla beringei Matschie, 1903",
+      "targetShardPath": "data/knowledge/catalogue-dossiers-primates-gorilla-beringei-batch12-2026-09-24.jsonl.br",
+      "updatedRecordSha256": "0124c8f0c601ea72b5583dab65d3dfd149b442e07150b8c79b092e963f33c240"
+    }
+  ],
+  "shards": [
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-gorilla-beringei-batch12-2026-09-24.jsonl.br",
+      "recordCount": 1,
+      "decodedBytes": 19754,
+      "decodedSha256": "aa0475351df640c7c0a5ca6a5ac5948bea5d7f0f2e3fb87cef31d484f6cc5e1a",
+      "compressedBytes": 5330,
+      "compressedSha256": "5abd9b1d32590a83a8399905d8b6ffc9adb1efc0f62bdacb8a2c4fe426e5362e",
+      "rawPath": "data/knowledge/raw-dossiers/primates-gorilla-beringei-batch12-2026-09-24.jsonl",
+      "metadataPath": "data/knowledge/catalogue-dossiers-primates-gorilla-beringei-batch12-2026-09-24.batch-manifest.json"
+    }
+  ],
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/update-gorilla-beringei-mitochondrial-enrichment.mjs",
+  "updateMode": "rebuild-one-existing-dossier-in-place-with-exact-sibling-preservation"
+}
