@@ -12,12 +12,34 @@
   ],
   "path": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
   "rawPath": "data/knowledge/raw-dossiers/primates-dossiers-batch-3.jsonl",
-  "rawSha256": "9a409af62fc1d7b9125726b9e5af8434fe2b5b1a86c39b1fce212dbaffba87f0",
-  "decodedSha256": "9a409af62fc1d7b9125726b9e5af8434fe2b5b1a86c39b1fce212dbaffba87f0",
-  "compressedSha256": "f02140ef0fef4fa533e8686721ff14a9637e3e57ceebe79403bde65c5f39f1e3",
-  "decodedBytes": 27228,
-  "compressedBytes": 5806,
+  "rawSha256": "9162d45243902613b95744f9ee1cf01e41626815ea159d1c50076789676dcd48",
+  "decodedSha256": "9162d45243902613b95744f9ee1cf01e41626815ea159d1c50076789676dcd48",
+  "compressedSha256": "3c0a1d22a2246d8e7f6907b6c093f92d49bf309a992f32b450b5b36f39d8dcbb",
+  "decodedBytes": 31207,
+  "compressedBytes": 6823,
   "checkedAt": "2026-09-24",
   "generationSource": "data/sources/primates-dossiers-batch-3.json",
-  "generationSourceSha256": "f950f3d0af0905f136be4356a6b33a62daec577b1be271ae8578a4aa32c41905"
+  "generationSourceSha256": "f950f3d0af0905f136be4356a6b33a62daec577b1be271ae8578a4aa32c41905",
+  "updatedIds": [
+    "3WWNQ"
+  ],
+  "updatedRecordCount": 1,
+  "supplementalUpdates": [
+    {
+      "batchId": "primates-core-flagship-enrichment-2026-09-24",
+      "sourcePath": "data/sources/primates-core-flagship-enrichment-2026-09-24.json",
+      "sourceSha256": "807ff3d360b9aa9d6566ac7553325078fea479773c8e4ab3c75f1bca4e1f0149",
+      "generator": "scripts/update-primates-core-flagship-enrichment.mjs",
+      "baseHead": "10eb0bdf21ad33ece49cf359ff2f2420024f4d03",
+      "indexedRecordCountAtAudit": 6934,
+      "targetColIds": [
+        "3WWNQ"
+      ],
+      "previousDecodedSha256": "9a409af62fc1d7b9125726b9e5af8434fe2b5b1a86c39b1fce212dbaffba87f0",
+      "previousCompressedSha256": "f02140ef0fef4fa533e8686721ff14a9637e3e57ceebe79403bde65c5f39f1e3",
+      "decodedSha256": "9162d45243902613b95744f9ee1cf01e41626815ea159d1c50076789676dcd48",
+      "compressedSha256": "3c0a1d22a2246d8e7f6907b6c093f92d49bf309a992f32b450b5b36f39d8dcbb",
+      "mode": "in-place-enrichment-of-existing-records"
+    }
+  ]
 }
