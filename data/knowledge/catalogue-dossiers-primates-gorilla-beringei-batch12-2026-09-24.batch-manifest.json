@@ -16,17 +16,17 @@
     "path": "data/knowledge/raw-dossiers/primates-gorilla-beringei-batch12-2026-09-24.jsonl",
     "encoding": "utf-8-jsonl-lf",
     "recordCount": 1,
-    "bytes": 10516,
-    "sha256": "eb968e30ef72028161e56543af50d97c01d266c175068f355359b06a61354766"
+    "bytes": 19754,
+    "sha256": "aa0475351df640c7c0a5ca6a5ac5948bea5d7f0f2e3fb87cef31d484f6cc5e1a"
   },
   "shard": {
     "path": "data/knowledge/catalogue-dossiers-primates-gorilla-beringei-batch12-2026-09-24.jsonl.br",
     "encoding": "brotli-jsonl",
     "recordCount": 1,
-    "decodedBytes": 10516,
-    "decodedSha256": "eb968e30ef72028161e56543af50d97c01d266c175068f355359b06a61354766",
-    "compressedBytes": 2728,
-    "compressedSha256": "076495db401746e7a646ff4bc675ef9b7d109d45bae289e0a48050d4f1f771ea",
+    "decodedBytes": 19754,
+    "decodedSha256": "aa0475351df640c7c0a5ca6a5ac5948bea5d7f0f2e3fb87cef31d484f6cc5e1a",
+    "compressedBytes": 5330,
+    "compressedSha256": "5abd9b1d32590a83a8399905d8b6ffc9adb1efc0f62bdacb8a2c4fe426e5362e",
     "brotliParameters": {
       "mode": "text",
       "quality": 11
@@ -39,5 +39,31 @@
     "checklistBankDatasetKey": 316115,
     "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
   },
-  "generator": "scripts/build-primates-gorilla-beringei-batch12.mjs"
+  "generator": "scripts/build-primates-gorilla-beringei-batch12.mjs",
+  "supplementalUpdates": [
+    {
+      "batchId": "gorilla-beringei-mitochondrial-enrichment-2026-09-24",
+      "sourcePath": "data/sources/gorilla-beringei-mitochondrial-enrichment-2026-09-24.json",
+      "sourceSha256": "2f2ec3e8618b0ae721286be70b94d6e1491c6d7f02cc30cd58f9596391de56ea",
+      "generator": "scripts/update-gorilla-beringei-mitochondrial-enrichment.mjs",
+      "baseHead": "ff307cdfd64fc0d5809ae170f8875acce34ffcbc",
+      "indexedRecordCountAtAudit": 6934,
+      "targetColIds": [
+        "3H3C3"
+      ],
+      "sourceIds": [
+        "vanderValk2018mtDNA"
+      ],
+      "facets": [
+        "evolution",
+        "conservation",
+        "distribution"
+      ],
+      "previousDecodedSha256": "eb968e30ef72028161e56543af50d97c01d266c175068f355359b06a61354766",
+      "previousCompressedSha256": "076495db401746e7a646ff4bc675ef9b7d109d45bae289e0a48050d4f1f771ea",
+      "decodedSha256": "aa0475351df640c7c0a5ca6a5ac5948bea5d7f0f2e3fb87cef31d484f6cc5e1a",
+      "compressedSha256": "5abd9b1d32590a83a8399905d8b6ffc9adb1efc0f62bdacb8a2c4fe426e5362e",
+      "mode": "in-place-enrichment-of-existing-record"
+    }
+  ]
 }
