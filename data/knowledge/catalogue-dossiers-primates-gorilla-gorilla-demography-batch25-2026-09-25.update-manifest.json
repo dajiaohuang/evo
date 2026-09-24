@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-gorilla-gorilla-demography-batch25-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-gorilla-gorilla-demography-batch25-2026-09-25.json",
+    "sha256": "3abfc3493319f47316bf362908b8febf409b41b8049a6f0006579c50c35a62aa"
+  },
+  "updateAudit": {
+    "mode": "add-one-source-linked-evolution-claim-to-existing-incomplete-species-dossier",
+    "baseHead": "9dc40947a5d2b0441c5e709f9dffc22c303ccdec",
+    "indexedRecordCountAtAudit": 6935,
+    "indexedShardCountAtAudit": 50,
+    "rawDossierFileCountAtAudit": 34,
+    "targetColId": "3H3C9",
+    "targetScientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "rawPath": "data/knowledge/raw-dossiers/primates-batch-2.jsonl",
+    "metadataPath": "data/knowledge/catalogue-dossiers-primates-batch-2.metadata.json",
+    "previousRawSha256": "64df5a1782b945fbbed7c4977ab30428c59a2cdc2fbd8b4625d7f71ddf4ea0dd",
+    "previousCompressedSha256": "45b32b743063c157ff3e1ef012b75dab1e89026913509d516ebe0a7ea7e3a93e",
+    "previousTargetRecordSha256": "e5ecaf9a97881a627c6e0f1ed58e58f571140005f24094fe858aaf54b799aa55",
+    "duplicateSourceIdInTargetBeforeUpdate": false,
+    "duplicateClaimBeforeUpdate": false
+  },
+  "indexedRecordCount": 6935,
+  "targetCount": 1,
+  "targets": [
+    {
+      "colId": "3H3C9",
+      "scientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+      "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+      "updatedRecordSha256": "289ec657b76289ed7ccd6d0143cbf45a1ce0a9044c5f823c280322a16339d543"
+    }
+  ],
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "rawPath": "data/knowledge/raw-dossiers/primates-batch-2.jsonl",
+    "metadataPath": "data/knowledge/catalogue-dossiers-primates-batch-2.metadata.json",
+    "recordCount": 3,
+    "decodedBytes": 32915,
+    "decodedSha256": "db3c76ee2433658d1e2acfec7f17b3f8b518951f1c3b8e48d022db2f2284e2e9",
+    "compressedBytes": 8188,
+    "compressedSha256": "aa662fd8dcfb5e6d3c1c296020b19315a0ae77609e06950b55547ae9da7597da"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-primates-gorilla-gorilla-demography-batch25.mjs",
+  "updateMode": "rebuild-one-existing-species-record-in-place-with-exact-sibling-preservation"
+}

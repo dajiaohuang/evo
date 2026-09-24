@@ -13,10 +13,10 @@
   ],
   "path": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
   "rawPath": "data/knowledge/raw-dossiers/primates-batch-2.jsonl",
-  "rawSha256": "64df5a1782b945fbbed7c4977ab30428c59a2cdc2fbd8b4625d7f71ddf4ea0dd",
-  "decodedSha256": "64df5a1782b945fbbed7c4977ab30428c59a2cdc2fbd8b4625d7f71ddf4ea0dd",
-  "compressedSha256": "45b32b743063c157ff3e1ef012b75dab1e89026913509d516ebe0a7ea7e3a93e",
-  "checkedAt": "2026-09-24",
+  "rawSha256": "db3c76ee2433658d1e2acfec7f17b3f8b518951f1c3b8e48d022db2f2284e2e9",
+  "decodedSha256": "db3c76ee2433658d1e2acfec7f17b3f8b518951f1c3b8e48d022db2f2284e2e9",
+  "compressedSha256": "aa662fd8dcfb5e6d3c1c296020b19315a0ae77609e06950b55547ae9da7597da",
+  "checkedAt": "2026-09-25",
   "generationSource": "data/sources/primates-dossiers-batch-2.json",
   "generationSourceSha256": "c8b917c5ff80a680585b05612793099e1dbdecdb0ae66f961ae6a28e6edc46ec",
   "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
@@ -44,8 +44,8 @@
     "indexedRecordCountAfterUpdate": 6934
   },
   "updateMode": "rebuild-one-existing-record-in-place",
-  "decodedBytes": 28460,
-  "compressedBytes": 7064,
+  "decodedBytes": 32915,
+  "compressedBytes": 8188,
   "supplementalUpdates": [
     {
       "batchId": "primates-core-flagship-enrichment-2026-09-24",
@@ -62,6 +62,23 @@
       "decodedSha256": "64df5a1782b945fbbed7c4977ab30428c59a2cdc2fbd8b4625d7f71ddf4ea0dd",
       "compressedSha256": "45b32b743063c157ff3e1ef012b75dab1e89026913509d516ebe0a7ea7e3a93e",
       "mode": "in-place-enrichment-of-existing-records"
+    },
+    {
+      "batchId": "primates-gorilla-gorilla-demography-batch25-2026-09-25",
+      "sourcePath": "data/sources/primates-gorilla-gorilla-demography-batch25-2026-09-25.json",
+      "sourceSha256": "3abfc3493319f47316bf362908b8febf409b41b8049a6f0006579c50c35a62aa",
+      "generator": "scripts/build-primates-gorilla-gorilla-demography-batch25.mjs",
+      "baseHead": "9dc40947a5d2b0441c5e709f9dffc22c303ccdec",
+      "indexedRecordCountAtAudit": 6935,
+      "targetColIds": [
+        "3H3C9"
+      ],
+      "previousDecodedSha256": "64df5a1782b945fbbed7c4977ab30428c59a2cdc2fbd8b4625d7f71ddf4ea0dd",
+      "previousCompressedSha256": "45b32b743063c157ff3e1ef012b75dab1e89026913509d516ebe0a7ea7e3a93e",
+      "previousTargetRecordSha256": "e5ecaf9a97881a627c6e0f1ed58e58f571140005f24094fe858aaf54b799aa55",
+      "decodedSha256": "db3c76ee2433658d1e2acfec7f17b3f8b518951f1c3b8e48d022db2f2284e2e9",
+      "compressedSha256": "aa662fd8dcfb5e6d3c1c296020b19315a0ae77609e06950b55547ae9da7597da",
+      "mode": "in-place-add-one-evolution-claim-with-exact-sibling-preservation"
     }
   ]
 }
