@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-alouatta-palliata-batch18-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-24",
+  "duplicateAudit": {
+    "baseHead": "e9e65ea39f6be739016ecc388b495cb796426831",
+    "openPullRequests": [],
+    "checkedIndexRecords": 6929,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "record": {
+    "colId": "C5QJ",
+    "scientificName": "Alouatta palliata (Gray, 1849)",
+    "authorship": "(Gray, 1849)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "checkedAt": "2026-09-24",
+    "identity": {
+      "method": "Exact COL26.8 accepted usage C5QJ checked for verbatim name, authorship, species rank, accepted status and sourceDatasetId 2144; each accepted parent node was followed by stable ID through the pinned hierarchy registry to the root.",
+      "scope": "COL26.8 accepted species usage C5QJ. The cited study identifies its monitored monkeys as the subspecies Alouatta palliata mexicana; its claims are retained at that study-specific subspecies and population scope and are not generalized across the accepted species.",
+      "sourceIds": ["col"]
+    },
+    "lifeStatusScope": {
+      "wild": "The cited demographic study identifies the study animals as Alouatta palliata mexicana and monitored wild groups in a fragmented landscape in Los Tuxtlas, Mexico, from 2000 to 2011.",
+      "domesticated": "Domesticated or captive populations were not assessed by this dossier.",
+      "fossil": "Fossil occurrence was not assessed by this dossier."
+    },
+    "evidence": {
+      "title": "A demographic history of a population of howler monkeys (Alouatta palliata) living in a fragmented landscape in Mexico",
+      "doi": "10.7717/peerj.3547",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5571790/",
+      "publishedAt": "2017-08-22",
+      "accessedAt": "2026-09-24",
+      "version": "PeerJ 5:e3547, version of record published 2017-08-22",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "rightsHolder": "Cristóbal Azkarate, Dunn, Domingo Balcells and Veà Baró",
+      "rightsEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5571790/",
+      "rightsEvidenceLocator": "Article front matter, Copyright and License block immediately below Received/Accepted dates (PMC5571790): ©2017 Cristóbal Azkarate et al.; the article states that it is distributed under the Creative Commons Attribution License. The linked license resolves to CC BY 4.0 at https://creativecommons.org/licenses/by/4.0/.",
+      "licenseAppliesTo": "The PeerJ version-of-record article text authored by the listed authors. Third-party material is excluded unless separately marked as CC BY 4.0.",
+      "attribution": "Cristóbal Azkarate J, Dunn JC, Domingo Balcells C, Veà Baró J. 2017. A demographic history of a population of howler monkeys (Alouatta palliata) living in a fragmented landscape in Mexico. PeerJ 5:e3547. https://doi.org/10.7717/peerj.3547. CC BY 4.0. Paraphrased; no figures or third-party material reused.",
+      "locator": "Full text at PMC5571790; item-level reuse notice: article front matter, Copyright and License block immediately below Received/Accepted dates; see rightsEvidenceLocator for the exact notice and linked license.",
+      "scope": "A longitudinal field study of 10 groups in the Los Tuxtlas region of Mexico, with 454 monthly group visits from 2000 through 2011. Findings are specific to the monitored population, time interval and methods; they are not a species-wide demographic estimate."
+    },
+    "facets": {
+      "morphology": {"status": "not-assessed", "gaps": ["No diagnostic morphology, measurements, age-sex variation or comparative identification evidence was assessed."]},
+      "lifeHistory": {
+        "status": "partially-supported",
+        "claims": [{
+          "text": "For the monitored Los Tuxtlas population, the authors infer that most conceptions leading to births occurred from April to June and weaning peaked in April-May; conceptions were fewer than expected during the November-March energetic-stress period. These seasonal patterns describe this study population and period.",
+          "originalLanguage": "en",
+          "translationStatus": "untranslated",
+          "sourceIds": ["peerj2017"],
+          "locator": "Abstract, paragraph opening “Long-term field studies are critical...” (seasonality sentence opening “In particular, the period of lowest temperatures...”); Results > Births, paragraph opening “Although we observed births throughout the whole year...” and next paragraph opening “As the gestation time of howler monkeys is 6 months...”; Discussion, paragraph opening “This suggests that the majority of conceptions that lead to births...”. The Abstract and Results > Births paragraphs give the study-specific seasonal timing; Discussion provides the authors’ interpretation.",
+          "placeTimeScope": "Study-identified subspecies A. p. mexicana; ten groups in Los Tuxtlas, Veracruz, Mexico; 454 monthly group visits from 2000 to 2011. Seasonal associations are specific to this monitored population and period and are not asserted species-wide.",
+          "lifeStatus": "Wild free-ranging groups; no captive or domesticated animals are included in this claim."
+        }],
+        "gaps": ["The study is a population-level longitudinal sample and does not provide a complete species-wide life-cycle account or establish that seasonal timing generalizes across the range."]
+      },
+      "ecology": {
+        "status": "partially-supported",
+        "claims": [{
+          "text": "The study followed 10 howler monkey groups in an anthropogenically fragmented Los Tuxtlas landscape and reported that the monitored population remained relatively stable overall from 2000 to 2011, with an increase in total individuals. This is not a current or range-wide population trend.",
+          "originalLanguage": "en",
+          "translationStatus": "untranslated",
+          "sourceIds": ["peerj2017"],
+          "locator": "Abstract, paragraph opening “Long-term field studies are critical...” (sentences beginning “Here, we present long-term demographic data...” and “The population remained relatively stable...”); Methods > Study site, paragraph opening “The Los Tuxtlas Biosphere Reserve represents...” (study area); Results, paragraph opening “Overall, we observed an increase in the number of individuals...”. The Results paragraph reports the bounded 2000–2011 trend.",
+          "placeTimeScope": "Study-identified subspecies A. p. mexicana; Los Tuxtlas, Veracruz, Mexico; 10 groups monitored monthly from 2000 through 2011 in a fragmented landscape.",
+          "lifeStatus": "Wild groups; captive and domesticated animals were not part of the study."
+        }],
+        "gaps": ["No range-wide habitat synthesis, diet, species interactions, habitat selection comparison, or current demographic monitoring was assessed."]
+      },
+      "evolution": {"status": "not-assessed", "gaps": ["No phylogenetic, population-genetic or evolutionary analysis was assessed."]},
+      "distribution": {"status": "not-assessed", "gaps": ["The local Los Tuxtlas study site does not establish the species-wide distribution, native status or range limits."]},
+      "fossil": {"status": "not-assessed", "gaps": ["No fossil record search or geological evidence was assessed."]},
+      "conservation": {"status": "not-assessed", "gaps": ["No formal conservation assessment, threat category, population viability analysis or current trend was assessed."]}
+    },
+    "completeness": {"status": "incomplete", "reasons": ["Only bounded life-history and local population ecology evidence from one study was assessed; five facets remain unassessed and the two assessed facets are partial.", "Findings apply to ten groups in one Mexican fragmented landscape during 2000-2011 and cannot be generalized to the full species range.", "No systematic multi-source search or independent expert review has been completed."]},
+    "expertReview": {"status": "not-reviewed"}
+  }
+}
