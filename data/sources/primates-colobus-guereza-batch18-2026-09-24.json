@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "releaseAlias": "COL26.8",
+  "checklistBankDatasetKey": 316115,
+  "checklistBankDoi": "10.48580/dgywk",
+  "releaseDate": "2026-08-20",
+  "checkedAt": "2026-09-24",
+  "batchId": "primates-colobus-guereza-batch18-2026-09-24",
+  "scope": "One incomplete dossier for accepted COL26.8 Colobus guereza, supported by one item-level license-verified primary field study. This is not a systematic literature review or complete species assessment.",
+  "duplicateAudit": {
+    "baseHead": "3dc13fe070b0af8b88d2d38249edcd5c8cbd339b",
+    "checkedIndexRecords": 6927,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "records": [
+    {
+      "colId": "5ZN3P",
+      "scientificName": "Colobus guereza Rüppell, 1835",
+      "authorship": "Rüppell, 1835",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-09-24",
+      "identity": {
+        "method": "Exact accepted COL26.8 species usage 5ZN3P verified in the pinned search registry and followed through all accepted nodes in the pinned hierarchy registry.",
+        "scope": "Nominal species as represented by accepted COL26.8 usage 5ZN3P. The field study concerns one habituated family group at Kalinzu Forest, Uganda and is not a species-wide dietary or ecological account.",
+        "sourceIds": ["col"]
+      },
+      "classificationPath": [],
+      "lifeStatusScope": {
+        "wild": "The primary study followed a habituated, identifiable free-ranging group at Kalinzu Forest, Uganda.",
+        "domesticated": "Domestication has not been assessed; the cited study concerns wild animals.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/5ZN3P",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+          "stableId": "col:5ZN3P@COL26.8",
+          "publishedAt": "2026-08-20",
+          "accessedAt": "2026-09-24",
+          "locator": "Accepted species usage 5ZN3P; exact name and authorship, species rank, accepted status, sourceDatasetId 2144, and accepted parent chain through Colobus and Primates.",
+          "license": "CC BY 4.0 taxonomic metadata; no checklist text reused",
+          "licenseAssessment": "identity-only",
+          "scope": "Identity only: accepted COL26.8 name, authorship, rank, status, dataset, and classification.",
+          "rightsHolder": "Catalogue of Life Foundation",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Pinned nomenclatural and taxonomic checklist metadata only.",
+          "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 5ZN3P. https://doi.org/10.48580/dgywk"
+        },
+        {
+          "id": "matsuda2022",
+          "title": "Matsuda et al. (2022), Dietary Choices of a Foregut-Fermenting Primate, Colobus guereza: A Comprehensive Approach Including Leaf Chemical and Mechanical Properties, Digestibility and Abundance",
+          "url": "https://doi.org/10.3389/fevo.2022.795015",
+          "version": "Frontiers in Ecology and Evolution 10, published 2022-03-14; DOI version of record",
+          "stableId": "doi:10.3389/fevo.2022.795015",
+          "publishedAt": "2022-03-14",
+          "accessedAt": "2026-09-24",
+          "locator": "Abstract; Materials and Methods, Study Site and Collection of Behavioral Data; Results; Discussion; article copyright and license statement.",
+          "license": "Creative Commons Attribution License, item-level article statement; CC BY 4.0",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Primary field study of dietary choice by one habituated family group at Kalinzu Forest, western Uganda; observations November 2013–April 2016, with vegetation surveys. Only paraphrased article text is used; separately credited third-party material is excluded.",
+          "rightsHolder": "Matsuda, Hashimoto, Ihobe, Yumoto, Baranga, Clauss and Hummel",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "The article states it is open access under the Creative Commons Attribution License; separately credited third-party material is excluded.",
+          "attribution": "Matsuda I, Hashimoto C, Ihobe H, Yumoto T, Baranga D, Clauss M, Hummel J (2022). Dietary Choices of a Foregut-Fermenting Primate, Colobus guereza: A Comprehensive Approach Including Leaf Chemical and Mechanical Properties, Digestibility and Abundance. Frontiers in Ecology and Evolution 10:795015. https://doi.org/10.3389/fevo.2022.795015. Claims paraphrased; changes made."
+        }
+      ],
+      "facets": {
+        "morphology": {"status":"not-assessed","gaps":["The field study did not assess anatomical morphology or diagnostic variation."]},
+        "lifeHistory": {"status":"not-assessed","gaps":["The field study does not assess reproduction, development, survival, or longevity."]},
+        "ecology": {"status":"partially-supported","claims":[{"text":"At Kalinzu Forest, the study followed one habituated family group for 4,308 hours between November 2013 and April 2016. The observed group devoted 87.0% of feeding time to young leaves, 9.8% to fruits, and smaller proportions to flowers, bark, soil, and unspecified foods. In fine-grained analyses of selected leaf items, crude protein content, digestibility, and toughness were associated with dietary choices; the evaluated factors did not explain whether specific leaf items were consumed at the broader eaten-versus-not-eaten level. These findings are limited to this group, site, methods, and study period.","sourceIds":["matsuda2022"],"locator":"Abstract ¶1; Materials and Methods > Study Site and Collection of Behavioral Data ¶¶2–5; Results > Dietary Choice ¶¶1–3 and Tables 3–4; Discussion > Selection Between Eaten and Not Eaten Leaves ¶1 / Selection Within the Eaten Leaves ¶1.","placeTimeScope":"Kalinzu Forest, western Uganda; behavioral observations November 2013–April 2016 (4,308 hours); one group, originally identified as 11 individuals. The claim concerns observed group-level feeding and study analyses, not a population-wide estimate.","lifeStatus":"Habituated, free-ranging wild animals; no captive or domesticated animals included.","translationStatus":"untranslated","originalLanguage":"en"}],"gaps":["Single-group evidence cannot establish species-wide dietary composition or generality across populations, seasons, and habitats.","This batch assessed one ecological facet from one primary study; interactions, broad habitat use, and other ecological dimensions remain unreviewed."]},
+        "evolution": {"status":"not-assessed","gaps":["No phylogeny, divergence estimate, or comparative evolutionary analysis was assessed."]},
+        "distribution": {"status":"not-assessed","gaps":["A single study location is not a reviewed current or historical range inventory."]},
+        "fossil": {"status":"not-assessed","gaps":["No fossil occurrence or geological age evidence was assessed."]},
+        "conservation": {"status":"not-assessed","gaps":["No formal conservation assessment, population trend, or risk category was reviewed."]}
+      },
+      "completeness": {"status":"incomplete","reasons":["Only one field study and one ecological facet were assessed; six facets remain not-assessed.","The one-group study cannot represent species-wide ecology or distribution.","No systematic literature search or independent expert review has been completed."]},
+      "expertReview": {"status":"not-reviewed","reviewers":[],"reviewDigest":null}
+    }
+  ]
+}

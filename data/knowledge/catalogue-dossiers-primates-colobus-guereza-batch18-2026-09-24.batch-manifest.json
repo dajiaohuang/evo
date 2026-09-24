@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-colobus-guereza-batch18-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-colobus-guereza-batch18-2026-09-24.json",
+    "sha256": "cb88f8b0444e1f1b531ca8f3848623354aaae2fdaa8ba9cb0a6548078ea65a60"
+  },
+  "duplicateCheck": {
+    "baseHead": "3dc13fe070b0af8b88d2d38249edcd5c8cbd339b",
+    "indexedRecordCount": 6927,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-colobus-guereza-batch18-2026-09-24.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 9282,
+    "sha256": "3c77876534f8283073a12843ead6eb56538c4fe504462148e5ff388e98e923c9"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-colobus-guereza-batch18-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 9282,
+    "decodedSha256": "3c77876534f8283073a12843ead6eb56538c4fe504462148e5ff388e98e923c9",
+    "compressedBytes": 2544,
+    "compressedSha256": "2a14fabbf79fc1125674294fe1b99015b9f9f35b0f34d929888f9c4478a6cf1d",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-primates-colobus-guereza-batch18.mjs"
+}
