@@ -1,5 +1,6 @@
 import manifest from '../../../data/manifest.json'
 import storiesData from '../../../data/stories.json'
+import { isPagesPreview, pagesPreviewStoryIds } from '../../config/pagesPreview'
 import { useAppStore } from '../../store'
 import { periods } from '../../services/geology'
 import type { AppRoute } from '../../utils/routing'
@@ -10,7 +11,12 @@ interface HomePageProps {
   onNavigate: (route: AppRoute, params?: Record<string, string>) => void
 }
 
-const featuredStories = storiesData.filter((story) => story.featured).slice(0, 3)
+const featuredStories = isPagesPreview
+  ? pagesPreviewStoryIds.flatMap((id) => {
+      const story = storiesData.find((entry) => entry.id === id)
+      return story?.featured ? [story] : []
+    }).slice(0, 3)
+  : storiesData.filter((story) => story.featured).slice(0, 3)
 
 export function HomePage({ onNavigate }: HomePageProps) {
   const { language, number, t } = useI18n()

@@ -8,13 +8,9 @@ export function directoryTools(language) {
 export function readingHome({ language, basePath, title, description, collections, stories, periods, mapFrame }) {
   const zh = language === 'zh'
   const prefix = `${basePath}/${zh ? 'zh/' : ''}`
-  // Editorial selection changes navigation only; titles, durations and evidence
-  // remain those of the published stories. Missing stories fail the build.
-  const chosen = ['early-land-plant-evidence-trail', 'tetrapods-onto-land', 'rise-and-fall-perissodactyls'].map(id => {
-    const story = stories.find(entry => entry.id === id)
-    if (!story) throw new Error(`Published reading trail missing: ${id}`)
-    return story
-  })
+  // The caller orders featured stories from the shared edition selection.
+  const chosen = stories.filter(story => story.featured).slice(0, 3)
+  if (chosen.length !== 3) throw new Error('Three featured reading trails are required.')
   const trail = chosen.map((story, index) => `<li><span class="trail-number" aria-hidden="true">0${index + 1}</span><div><a href="${prefix}stories/${escape(story.id)}/"><h3>${escape(zh ? story.titleZh : story.title)}</h3></a><p>${story.durationMinutes} ${zh ? '分钟' : 'min'} · ${story.steps.length} ${zh ? '个证据步骤' : 'evidence steps'}</p></div><span aria-hidden="true">↗</span></li>`).join('')
   const times = [...periods].sort((a, b) => b.eag - a.eag).map(period => {
     if (!/^#[\da-f]{6}$/i.test(period.col)) throw new Error(`Invalid period color: ${period.oid}`)
