@@ -2,6 +2,10 @@
 
 ## Unreleased dossier evidence correction — 2026-09-24
 
+- Added one bounded ecology claim to the COL26.8 rhesus macaque dossier `3WWNQ`
+  from a 64-individual free-ranging troop observed at Buxa Tiger Reserve in
+  2013–2014. The study reports seasonal differences in frugivory and daily range;
+  ecology remains partial, and the dossier remains incomplete and not reviewed.
 - Reconciled the distribution evidence for COL26.8 `Trachypithecus francoisi`
   usage `57SDB`. The 2013 nominal-species range account and the 2026 literature
   summary do not establish a species-level Laos conflict because the cited Lao
