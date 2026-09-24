@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-core-flagship-enrichment-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "updateAudit": {
+    "baseHead": "10eb0bdf21ad33ece49cf359ff2f2420024f4d03",
+    "openPullRequests": [],
+    "indexedRecordCountAtAudit": 6934,
+    "mode": "in-place-enrichment-of-four-existing-accepted-species-dossiers",
+    "targets": [
+      {
+        "colId": "3H3C9",
+        "scientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+        "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+        "previousDecodedSha256": "8820d96b9cc67d3d5cbad86685eb995c68583ca733a6cc2b59cb33a8df0c3fcb",
+        "previousCompressedSha256": "6a62ec9a36a591cef106f27d771a64865f2efd71833ff26b7922aef2d16691eb",
+        "previousTargetRecordSha256": "f3af78b3808a2df243fa5ff750289fcfd41429f3b069211e1c95a5f50383bd8e"
+      },
+      {
+        "colId": "3WWNQ",
+        "scientificName": "Macaca mulatta (Zimmermann, 1780)",
+        "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+        "previousDecodedSha256": "9a409af62fc1d7b9125726b9e5af8434fe2b5b1a86c39b1fce212dbaffba87f0",
+        "previousCompressedSha256": "f02140ef0fef4fa533e8686721ff14a9637e3e57ceebe79403bde65c5f39f1e3",
+        "previousTargetRecordSha256": "99daecf6b2b389b14c6b6b06705d5393bf09b69f2517251880be14e9b747e405"
+      },
+      {
+        "colId": "3NFRS",
+        "scientificName": "Hylobates lar (Linnaeus, 1771)",
+        "targetShardPath": "data/knowledge/catalogue-dossiers-primates-hylobates-lar-batch6-2026-09-24.jsonl.br",
+        "previousDecodedSha256": "2a4e0ff45fd3b9de70efcdc4507b68afed3740f61a4c5a210bcd157327f76d88",
+        "previousCompressedSha256": "0ddb52e672d10d5596487840f3be9aac3b4ff16c7b9e7b89d7ca0776feda7b93",
+        "previousTargetRecordSha256": "60df9259ed16485a9dda84db657d942c9efc244b66b4f871b6e8ca3e0a3ed700"
+      },
+      {
+        "colId": "4C92F",
+        "scientificName": "Pan paniscus Schwarz, 1929",
+        "targetShardPath": "data/knowledge/catalogue-dossiers-primates-pan-paniscus-batch11-2026-09-24.jsonl.br",
+        "previousDecodedSha256": "19096c977ca7d5e16c030c9c5527a08eebc6bcb424789238323e0e64ff4a2913",
+        "previousCompressedSha256": "664d11e6cb43fb40f80a8be1b5145d4efbc8299596d49da023c344b24802472c",
+        "previousTargetRecordSha256": "c4e8616cc96b11701912d5a83bf242d613bd401f41727aacab7410c93f7ad248"
+      }
+    ]
+  },
+  "updates": [
+    {
+      "colId": "3H3C9",
+      "scientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+      "facet": "ecology",
+      "source": {
+        "id": "breuer2005tool",
+        "title": "Breuer T, Ndoundou-Hockemba M, Fishlock V. (2005). First Observation of Tool Use in Wild Gorillas. PLoS Biology 3(11): e380.",
+        "url": "https://doi.org/10.1371/journal.pbio.0030380",
+        "stableId": "doi:10.1371/journal.pbio.0030380",
+        "version": "Published 2005-10-01; PLoS Biology 3(11):e380; DOI 10.1371/journal.pbio.0030380",
+        "publishedAt": "2005-10-01",
+        "accessedAt": "2026-09-24",
+        "locator": "Abstract; Results, observations of Leah on 9 October 2004 and Efi on 21 November 2004; Methods, Mbeli Bai; Acknowledgments.",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), reported in Crossref DOI license metadata; the article states Creative Commons Attribution License.",
+        "licenseAssessment": "item-level-verified",
+        "rightsEvidenceUrl": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0030380",
+      "rightsEvidenceLocator": "The article copyright notice states open access under the Creative Commons Attribution License; Crossref DOI metadata reports https://creativecommons.org/licenses/by/4.0/ for this work.",
+        "rightsHolder": "Breuer, Ndoundou-Hockemba & Fishlock (2005)",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAppliesTo": "Article text; claims are paraphrased and no figures, tables, or images are reproduced.",
+      "attribution": "Breuer T, Ndoundou-Hockemba M, Fishlock V. (2005). First Observation of Tool Use in Wild Gorillas. PLoS Biology 3(11):e380. https://doi.org/10.1371/journal.pbio.0030380. CC BY 4.0. Claims are paraphrased and no figures are reproduced.",
+        "scope": "Two observations of wild adult female western gorillas from different habituated groups at the 12.9-ha Mbeli Bai swampy forest clearing in Nouabalé-Ndoki National Park, Republic of Congo: Leah on 2004-10-09 and Efi on 2004-11-21. The authors acknowledge park-work permission from the Ministry of Forestry and the Nouabalé-Ndoki Project; no permit number is stated. The study does not estimate behavior prevalence or establish how the behavior was acquired."
+      },
+      "claim": {
+        "text": "At Mbeli Bai, Republic of Congo, two wild adult female western gorillas from different groups used detached plant material for support in swamp water: on 9 October 2004 Leah used a branch to probe depth and steady herself while crossing an elephant pool; on 21 November 2004 Efi used a shrub trunk to stabilize food processing and then as a short bridge over swampy ground. These two observations do not estimate how often the behavior occurs or how it is acquired.",
+        "textZh": "在刚果共和国 Mbeli Bai，两只来自不同群体的野生成体雌性西部大猩猩在沼泽水域中使用脱落的植物材料支撑身体：2004 年 10 月 9 日，Leah 用树枝探测水深并在穿越象池时保持稳定；2004 年 11 月 21 日，Efi 用灌木树干支撑取食，随后将其当作跨越沼泽地面的短桥。这两次观察不能估计该行为的发生频率，也不能说明其习得方式。",
+        "sourceIds": ["breuer2005tool"],
+        "locator": "Abstract; Results, observations of Leah on 9 October 2004 and Efi on 21 November 2004; Discussion; Methods, Mbeli Bai.",
+        "placeTimeScope": "Mbeli Bai, a 12.9-ha swampy forest clearing in Nouabalé-Ndoki National Park, Republic of Congo; two observations on 2004-10-09 and 2004-11-21, one adult female from each of two habituated groups.",
+        "lifeStatus": "Free-ranging wild western gorillas; both cases concern adult females observed at one monitored site. No captive or domesticated animals are included.",
+        "translationStatus": "translated",
+        "originalLanguage": "en"
+      },
+      "identityScope": "COL26.8 usage 3H3C9 only. The ecology evidence combines a Loango diet study of one Atananga feeding group with two Mbeli Bai tool-use observations from two habituated groups. These site- and study-specific records do not establish diet or behavior across all Gorilla gorilla populations.",
+      "remainingGap": "Diet evidence is from one Atananga feeding group at Loango; tool-use evidence consists of two events, one in each of two habituated groups at Mbeli Bai. Frequency, other populations, causal mechanisms, and the full ecological repertoire remain unassessed.",
+      "replaceExistingFacetGaps": true,
+      "completenessReason": "One site-specific diet study and two tool-use observations support bounded ecology only; morphology, life history, evolution, distribution, fossil evidence, and conservation remain unassessed.",
+      "residualReviewGap": "No systematic literature search, species-wide ecological synthesis, or independent expert review has been completed."
+    },
+    {
+      "colId": "3WWNQ",
+      "scientificName": "Macaca mulatta (Zimmermann, 1780)",
+      "facet": "lifeHistory",
+      "source": {
+        "id": "sobral2024reproduction",
+        "title": "Sobral G, Dubuc C, Winters S, Ruiz-Lambides A, Emery Thompson M, Maestripieri D, Milich KM. (2024). Facial and genital color ornamentation, testosterone, and reproductive output in high-ranking male rhesus macaques. Scientific Reports 14:2621.",
+        "url": "https://doi.org/10.1038/s41598-024-52400-0",
+        "stableId": "doi:10.1038/s41598-024-52400-0",
+        "version": "Scientific Reports volume 14, article 2621 (2024); DOI 10.1038/s41598-024-52400-0",
+        "publishedAt": "2024-01-31",
+        "accessedAt": "2026-09-24",
+        "locator": "Abstract; Methods, Study animals and offspring-paternity calculations; Results, Effect of androgen and color ornamentation on mating and reproductive output; Discussion.",
+        "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the article.",
+        "licenseAssessment": "item-level-verified",
+        "rightsEvidenceUrl": "https://www.nature.com/articles/s41598-024-52400-0",
+        "rightsEvidenceLocator": "Article copyright notice states open access under CC BY 4.0; Article also reports IACUC protocol A0100108.",
+        "rightsHolder": "Sobral et al. (2024)",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAppliesTo": "Article text; claims are paraphrased and no figures, tables, or supplementary files are reproduced.",
+        "attribution": "Sobral G, Dubuc C, Winters S, Ruiz-Lambides A, Emery Thompson M, Maestripieri D, Milich KM. (2024). Facial and genital color ornamentation, testosterone, and reproductive output in high-ranking male rhesus macaques. Scientific Reports 14:2621. https://doi.org/10.1038/s41598-024-52400-0. CC BY 4.0. Claims are paraphrased.",
+        "scope": "A study of 21 high-ranking adult male rhesus macaques aged 7–21 years in nine groups of the semi-free-ranging, food- and water-provisioned Cayo Santiago population, Puerto Rico; mating-season records were collected in February–July 2013. Reproductive success used paternity samples taken when offspring were yearlings, so infants dying before sampling were not assigned to sires. University of Puerto Rico Medical Sciences Campus IACUC protocol A0100108 is stated; no separate field permit is reported in the article."
+      },
+      "claim": {
+        "text": "Among 21 high-ranking adult male rhesus macaques aged 7–21 years in nine groups at the provisioned, semi-free-ranging Cayo Santiago population, age predicted the number of offspring recorded for the 2013 mating-season study, with older males siring fewer offspring. Paternity sampling occurred at the yearling stage; infants that died before sampling were not assigned to sires, so the result is limited to offspring counted by the study protocol.",
+        "textZh": "在波多黎各圣地亚哥岛一个有补饲的半自由活动群体中，研究了来自 9 个群体、年龄为 7–21 岁的 21 只高等级成年雄性恒河猴。年龄可预测 2013 年交配季研究记录的后代数量，年龄较大的雄性记录到的后代较少。亲子鉴定样本在幼体达到一岁时采集；采样前死亡的幼体无法归属父亲，因此结论仅适用于该研究流程记录到的后代。",
+        "sourceIds": ["sobral2024reproduction"],
+        "locator": "Abstract; Methods, Study animals and offspring-paternity calculations; Results, Effect of androgen and color ornamentation on mating and reproductive output; Discussion.",
+        "placeTimeScope": "Cayo Santiago, Puerto Rico; 21 high-ranking adult males from nine social groups; behavioral and biological data for the 2013 mating season, February–July 2013.",
+        "lifeStatus": "Semi-free-ranging rhesus macaques in a managed island population provisioned with food and water; this is not an unprovisioned wild population or a species-wide demographic estimate.",
+        "translationStatus": "translated",
+        "originalLanguage": "en"
+      },
+      "remainingGap": "The result is limited to high-ranking males, one provisioned island population, one mating season, and paternity records for offspring surviving to yearling sampling; it does not establish species-wide reproductive aging or lifetime fecundity.",
+      "replaceExistingFacetGaps": true,
+      "completenessReason": "One Cayo Santiago reproductive study supplements local Indian troop ecology and Chinese population-genomic evidence; morphology, fossil evidence, and conservation remain unassessed, while other supported facets remain partial.",
+      "residualReviewGap": "No full life-history synthesis, systematic species-wide literature review, or independent expert review has been completed."
+    },
+    {
+      "colId": "3NFRS",
+      "scientificName": "Hylobates lar (Linnaeus, 1771)",
+      "facet": "ecology",
+      "source": {
+        "id": "andrieu2020songplayback",
+        "title": "Andrieu J, Larkin RM, Raguet-Schofield M, et al. (2020). Song discrimination and antipredator responses in white-handed gibbons (Hylobates lar). PeerJ 8:e9477.",
+        "url": "https://doi.org/10.7717/peerj.9477",
+        "stableId": "doi:10.7717/peerj.9477",
+        "version": "PeerJ volume 8, article e9477 (2020); DOI 10.7717/peerj.9477",
+        "publishedAt": "2020-08-03",
+        "accessedAt": "2026-09-24",
+        "locator": "Methods, Study site and subjects, Playback procedure, and Field study permissions; Results, Vocal behaviour and Antipredator behaviour; Ethics statement; Competing interests.",
+        "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), as stated by the article.",
+        "licenseAssessment": "item-level-verified",
+        "rightsEvidenceUrl": "https://peerj.com/articles/9477/",
+        "rightsEvidenceLocator": "Publisher article license statement identifies CC BY 4.0; publisher article also reports ethics approval, research permit, funding roles, and competing interests.",
+        "rightsHolder": "Andrieu et al. (2020)",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAppliesTo": "Article text; claims are paraphrased and no media, figures, or supplementary files are reproduced.",
+        "attribution": "Andrieu J, Larkin RM, Raguet-Schofield M, et al. (2020). Song discrimination and antipredator responses in white-handed gibbons (Hylobates lar). PeerJ 8:e9477. https://doi.org/10.7717/peerj.9477. CC BY 4.0. Claims are paraphrased.",
+        "scope": "Playback experiment in six habituated groups at Mo Singto–Klong E-Tau, Khao Yai National Park, Thailand, within a field population monitored from December 2012 to August 2014. Each group heard duet-song and predator-song playback in 12 total trials. University of St Andrews ethics approval 16112011 and Thai National Research Council permit 0002/5841 are stated; authors declare no competing interests and report that funders had no role in study design, data collection, analysis, or publication."
+      },
+      "claim": {
+        "text": "In 12 playback trials involving six habituated groups at Khao Yai National Park, five groups counter-sang after duet-song playback, while predator-song playback elicited antipredator responses but no duet-singing responses. These results support context-specific responses under the tested playback protocol in one Thai population.",
+        "textZh": "在泰国考艾国家公园一个种群的 12 次播放实验中，6 个经习惯化群体里有 5 个在听到二重唱播放后以对唱回应；捕食者歌曲播放引发了反捕食行为，但没有引发二重唱回应。这些结果支持该泰国种群在所测试播放条件下表现出情境相关的反应。",
+        "sourceIds": ["andrieu2020songplayback"],
+        "locator": "Methods, Study site and subjects and Playback procedure; Results, Vocal behaviour and Antipredator behaviour; Discussion.",
+        "placeTimeScope": "Mo Singto–Klong E-Tau, Khao Yai National Park, Thailand; six habituated groups in 12 playback trials during the study period December 2012–August 2014.",
+        "lifeStatus": "Free-ranging, habituated white-handed gibbons in one Thai population; playback responses do not establish behavior across the full species range or human-like language comprehension.",
+        "translationStatus": "translated",
+        "originalLanguage": "en"
+      },
+      "remainingGap": "The playback evidence covers six groups and 12 trials at one habituated Thai site, using duet and predator-song exemplars. It does not establish interpretation across the full natural call repertoire, variation in other populations, or language-like syntax.",
+      "replaceExistingFacetGaps": true,
+      "completenessReason": "One Thai playback experiment supplements one local vocalization study; morphology, life history, evolution, distribution, fossil evidence, and conservation remain unassessed.",
+      "residualReviewGap": "No systematic literature search, range-wide synthesis, or independent expert review has been completed."
+    },
+    {
+      "colId": "4C92F",
+      "scientificName": "Pan paniscus Schwarz, 1929",
+      "facet": "ecology",
+      "source": {
+        "id": "wegdell2025vocal",
+        "title": "Wegdell F, Schamberg I, Berthet M, Rothacher Y, Dellwo V, Surbeck M, Townsend SW. (2025). An updated vocal repertoire of wild adult bonobos (Pan paniscus). PLoS ONE 20(9):e0330250.",
+        "url": "https://doi.org/10.1371/journal.pone.0330250",
+        "stableId": "doi:10.1371/journal.pone.0330250",
+        "version": "Published 2025-09-10; PLoS ONE 20(9):e0330250; DOI 10.1371/journal.pone.0330250",
+        "publishedAt": "2025-09-10",
+        "accessedAt": "2026-09-24",
+        "locator": "Abstract; Methods, Ethics statement, Data collection and Call type classification; Results; Discussion.",
+        "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), as stated by the article.",
+        "licenseAssessment": "item-level-verified",
+        "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0330250",
+        "rightsEvidenceLocator": "Article copyright notice states open access under the Creative Commons Attribution License; the article reports data/code availability, funding role, and competing interests.",
+        "rightsHolder": "Wegdell et al. (2025)",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAppliesTo": "Article text; claims are paraphrased and no spectrograms, tables, audio, or supplementary files are reproduced.",
+        "attribution": "Wegdell F, Schamberg I, Berthet M, Rothacher Y, Dellwo V, Surbeck M, Townsend SW. (2025). An updated vocal repertoire of wild adult bonobos (Pan paniscus). PLoS ONE 20(9):e0330250. https://doi.org/10.1371/journal.pone.0330250. CC BY 4.0. Claims are paraphrased.",
+        "scope": "Quantitative vocal-repertoire analysis of 1,509 known-caller vocalizations from 53 wild adult bonobos recorded at two sites and four communities in the Democratic Republic of the Congo over 33 recording months (2,107 recording hours) during 2011–2022. The authors report non-invasive ethics permission from the Institut Congolais pour la Conservation de la Nature and DRC Ministry of Research and Technology, and village access for Kokolopori; data and code are linked from OSF. Funders had no role and no competing interests were declared."
+      },
+      "claim": {
+        "text": "In a quantitative analysis of 1,509 known-caller vocalizations from 53 wild adult bonobos in four Democratic Republic of the Congo communities, supervised random-forest classification reliably distinguished 11 of 15 previously defined call types; acoustic overlap remained, so the authors describe the vocal repertoire as graded. The result concerns sampled adult calls and the study’s predefined categories, not call meaning or a complete range-wide inventory.",
+        "textZh": "在对刚果民主共和国四个群体中 53 只野生成体倭黑猩猩的 1,509 条已知发声者录音进行定量分析时，监督式随机森林分类可靠地区分了 15 种既有叫声类别中的 11 种；声学重叠仍然存在，因此作者将其发声谱系描述为渐变型。该结果仅涉及抽样的成体叫声及研究预先设定的类别，不代表叫声含义，也不是全分布区的完整清单。",
+        "sourceIds": ["wegdell2025vocal"],
+        "locator": "Abstract; Methods, Data collection and Call type classification; Results; Discussion.",
+        "placeTimeScope": "Kokolopori Bonobo Reserve and LuiKotale field site, Democratic Republic of the Congo; four communities; 33 recording months and 2,107 recording hours over 2011–2022.",
+        "lifeStatus": "Habituated free-ranging wild adult bonobos; immature callers and unknown-caller recordings were excluded from the quantitative analysis.",
+        "translationStatus": "translated",
+        "originalLanguage": "en"
+      },
+      "remainingGap": "The analysis is adult-only, restricted to four communities at two sites and previously defined call categories; rare calls and immature calls were not represented, acoustic overlap persists, and call function or meaning was not tested.",
+      "completenessReason": "One localized isotope study and one multi-community vocal study provide bounded ecology and behavior evidence; morphology, life history, evolution, distribution, fossil evidence, and conservation remain unassessed.",
+      "residualReviewGap": "No systematic literature search, complete range-wide biological synthesis, or independent expert review has been completed."
+    }
+  ]
+}

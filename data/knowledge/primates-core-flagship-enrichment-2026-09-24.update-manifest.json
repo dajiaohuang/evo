@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-core-flagship-enrichment-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-core-flagship-enrichment-2026-09-24.json",
+    "sha256": "807ff3d360b9aa9d6566ac7553325078fea479773c8e4ab3c75f1bca4e1f0149"
+  },
+  "updateAudit": {
+    "baseHead": "10eb0bdf21ad33ece49cf359ff2f2420024f4d03",
+    "openPullRequests": [],
+    "indexedRecordCountAtAudit": 6934,
+    "mode": "in-place-enrichment-of-four-existing-accepted-species-dossiers",
+    "targets": [
+      {
+        "colId": "3H3C9",
+        "scientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+        "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+        "previousDecodedSha256": "8820d96b9cc67d3d5cbad86685eb995c68583ca733a6cc2b59cb33a8df0c3fcb",
+        "previousCompressedSha256": "6a62ec9a36a591cef106f27d771a64865f2efd71833ff26b7922aef2d16691eb",
+        "previousTargetRecordSha256": "f3af78b3808a2df243fa5ff750289fcfd41429f3b069211e1c95a5f50383bd8e"
+      },
+      {
+        "colId": "3WWNQ",
+        "scientificName": "Macaca mulatta (Zimmermann, 1780)",
+        "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+        "previousDecodedSha256": "9a409af62fc1d7b9125726b9e5af8434fe2b5b1a86c39b1fce212dbaffba87f0",
+        "previousCompressedSha256": "f02140ef0fef4fa533e8686721ff14a9637e3e57ceebe79403bde65c5f39f1e3",
+        "previousTargetRecordSha256": "99daecf6b2b389b14c6b6b06705d5393bf09b69f2517251880be14e9b747e405"
+      },
+      {
+        "colId": "3NFRS",
+        "scientificName": "Hylobates lar (Linnaeus, 1771)",
+        "targetShardPath": "data/knowledge/catalogue-dossiers-primates-hylobates-lar-batch6-2026-09-24.jsonl.br",
+        "previousDecodedSha256": "2a4e0ff45fd3b9de70efcdc4507b68afed3740f61a4c5a210bcd157327f76d88",
+        "previousCompressedSha256": "0ddb52e672d10d5596487840f3be9aac3b4ff16c7b9e7b89d7ca0776feda7b93",
+        "previousTargetRecordSha256": "60df9259ed16485a9dda84db657d942c9efc244b66b4f871b6e8ca3e0a3ed700"
+      },
+      {
+        "colId": "4C92F",
+        "scientificName": "Pan paniscus Schwarz, 1929",
+        "targetShardPath": "data/knowledge/catalogue-dossiers-primates-pan-paniscus-batch11-2026-09-24.jsonl.br",
+        "previousDecodedSha256": "19096c977ca7d5e16c030c9c5527a08eebc6bcb424789238323e0e64ff4a2913",
+        "previousCompressedSha256": "664d11e6cb43fb40f80a8be1b5145d4efbc8299596d49da023c344b24802472c",
+        "previousTargetRecordSha256": "c4e8616cc96b11701912d5a83bf242d613bd401f41727aacab7410c93f7ad248"
+      }
+    ]
+  },
+  "indexedRecordCount": 6934,
+  "targetCount": 4,
+  "targets": [
+    {
+      "colId": "3H3C9",
+      "scientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+      "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+      "updatedRecordSha256": "e5ecaf9a97881a627c6e0f1ed58e58f571140005f24094fe858aaf54b799aa55"
+    },
+    {
+      "colId": "3NFRS",
+      "scientificName": "Hylobates lar (Linnaeus, 1771)",
+      "targetShardPath": "data/knowledge/catalogue-dossiers-primates-hylobates-lar-batch6-2026-09-24.jsonl.br",
+      "updatedRecordSha256": "102aee2eacafec2bec826af11147cc60354f18228b3a55b25005f97abf119f2a"
+    },
+    {
+      "colId": "3WWNQ",
+      "scientificName": "Macaca mulatta (Zimmermann, 1780)",
+      "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+      "updatedRecordSha256": "6dcf8b52c5aa3494c92b413572c3b245fa27c6a1496f704b8d222fed5e657161"
+    },
+    {
+      "colId": "4C92F",
+      "scientificName": "Pan paniscus Schwarz, 1929",
+      "targetShardPath": "data/knowledge/catalogue-dossiers-primates-pan-paniscus-batch11-2026-09-24.jsonl.br",
+      "updatedRecordSha256": "7d9b449ea209f732232720235573bacd8d70fb908f6a83b88cdb1b56f1c31312"
+    }
+  ],
+  "shards": [
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+      "rawPath": "data/knowledge/raw-dossiers/primates-batch-2.jsonl",
+      "metadataPath": "data/knowledge/catalogue-dossiers-primates-batch-2.metadata.json",
+      "recordCount": 3,
+      "decodedBytes": 28460,
+      "decodedSha256": "64df5a1782b945fbbed7c4977ab30428c59a2cdc2fbd8b4625d7f71ddf4ea0dd",
+      "compressedBytes": 7064,
+      "compressedSha256": "45b32b743063c157ff3e1ef012b75dab1e89026913509d516ebe0a7ea7e3a93e"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+      "rawPath": "data/knowledge/raw-dossiers/primates-dossiers-batch-3.jsonl",
+      "metadataPath": "data/knowledge/catalogue-dossiers-primates-batch-3.metadata.json",
+      "recordCount": 3,
+      "decodedBytes": 31207,
+      "decodedSha256": "9162d45243902613b95744f9ee1cf01e41626815ea159d1c50076789676dcd48",
+      "compressedBytes": 6823,
+      "compressedSha256": "3c0a1d22a2246d8e7f6907b6c093f92d49bf309a992f32b450b5b36f39d8dcbb"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-hylobates-lar-batch6-2026-09-24.jsonl.br",
+      "rawPath": "data/knowledge/raw-dossiers/primates-hylobates-lar-batch6-2026-09-24.jsonl",
+      "metadataPath": "data/knowledge/catalogue-dossiers-primates-hylobates-lar-batch6-2026-09-24.batch-manifest.json",
+      "recordCount": 1,
+      "decodedBytes": 11547,
+      "decodedSha256": "a52213c0f7c95b4ee93600d6d242b4ca2ef2f695849c7a46e4730908f73e7de2",
+      "compressedBytes": 3164,
+      "compressedSha256": "2f08cfaaff12737a422b79b062d9fa36cc6351b4236c50cb348ef8b593e01a2a"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-pan-paniscus-batch11-2026-09-24.jsonl.br",
+      "rawPath": "data/knowledge/raw-dossiers/primates-pan-paniscus-batch11-2026-09-24.jsonl",
+      "metadataPath": "data/knowledge/catalogue-dossiers-primates-pan-paniscus-batch11-2026-09-24.batch-manifest.json",
+      "recordCount": 1,
+      "decodedBytes": 12467,
+      "decodedSha256": "792a06a3fc94bfb4736c3f198581109cba2cda02fd8814eeaa7f593fb275589c",
+      "compressedBytes": 3433,
+      "compressedSha256": "008fbdb4b0bc16d7b69db0e93cd59eee7332afa005f869b0e1ba3eaa9a47cf1b"
+    }
+  ],
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/update-primates-core-flagship-enrichment.mjs",
+  "updateMode": "rebuild-four-existing-dossier-records-in-place-with-exact-sibling-preservation"
+}

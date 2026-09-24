@@ -17,17 +17,17 @@
     "path": "data/knowledge/raw-dossiers/primates-pan-paniscus-batch11-2026-09-24.jsonl",
     "encoding": "utf-8-jsonl-lf",
     "recordCount": 1,
-    "bytes": 8588,
-    "sha256": "19096c977ca7d5e16c030c9c5527a08eebc6bcb424789238323e0e64ff4a2913"
+    "bytes": 12467,
+    "sha256": "792a06a3fc94bfb4736c3f198581109cba2cda02fd8814eeaa7f593fb275589c"
   },
   "shard": {
     "path": "data/knowledge/catalogue-dossiers-primates-pan-paniscus-batch11-2026-09-24.jsonl.br",
     "encoding": "brotli-jsonl",
     "recordCount": 1,
-    "decodedBytes": 8588,
-    "decodedSha256": "19096c977ca7d5e16c030c9c5527a08eebc6bcb424789238323e0e64ff4a2913",
-    "compressedBytes": 2304,
-    "compressedSha256": "664d11e6cb43fb40f80a8be1b5145d4efbc8299596d49da023c344b24802472c",
+    "decodedBytes": 12467,
+    "decodedSha256": "792a06a3fc94bfb4736c3f198581109cba2cda02fd8814eeaa7f593fb275589c",
+    "compressedBytes": 3433,
+    "compressedSha256": "008fbdb4b0bc16d7b69db0e93cd59eee7332afa005f869b0e1ba3eaa9a47cf1b",
     "brotliParameters": {
       "mode": "text",
       "quality": 11
@@ -40,5 +40,23 @@
     "checklistBankDatasetKey": 316115,
     "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
   },
-  "generator": "scripts/build-primates-pan-paniscus-batch11.mjs"
+  "generator": "scripts/build-primates-pan-paniscus-batch11.mjs",
+  "supplementalUpdates": [
+    {
+      "batchId": "primates-core-flagship-enrichment-2026-09-24",
+      "sourcePath": "data/sources/primates-core-flagship-enrichment-2026-09-24.json",
+      "sourceSha256": "807ff3d360b9aa9d6566ac7553325078fea479773c8e4ab3c75f1bca4e1f0149",
+      "generator": "scripts/update-primates-core-flagship-enrichment.mjs",
+      "baseHead": "10eb0bdf21ad33ece49cf359ff2f2420024f4d03",
+      "indexedRecordCountAtAudit": 6934,
+      "targetColIds": [
+        "4C92F"
+      ],
+      "previousDecodedSha256": "19096c977ca7d5e16c030c9c5527a08eebc6bcb424789238323e0e64ff4a2913",
+      "previousCompressedSha256": "664d11e6cb43fb40f80a8be1b5145d4efbc8299596d49da023c344b24802472c",
+      "decodedSha256": "792a06a3fc94bfb4736c3f198581109cba2cda02fd8814eeaa7f593fb275589c",
+      "compressedSha256": "008fbdb4b0bc16d7b69db0e93cd59eee7332afa005f869b0e1ba3eaa9a47cf1b",
+      "mode": "in-place-enrichment-of-existing-records"
+    }
+  ]
 }
