@@ -27,6 +27,10 @@ assert.equal(source.releaseAlias, 'COL26.8')
 assert.equal(source.batchId, 'primates-alouatta-palliata-batch18-2026-09-24')
 assert.equal(source.duplicateAudit.baseHead, 'e9e65ea39f6be739016ecc388b495cb796426831')
 assert.equal(source.duplicateAudit.checkedIndexRecords, 6929)
+assert.equal(source.updateAudit.baseHead, '3e675a28967da714aff3cfa8f25a63de59a5df8e')
+assert.equal(source.updateAudit.targetColId, 'C5QJ')
+assert.equal(source.updateAudit.targetRecordCountBeforeUpdate, 1)
+assert.equal(source.updateAudit.mode, 'in-place-enrichment-of-existing-record')
 assert.equal(registry.releaseAlias, 'COL26.8')
 assert.equal(registry.releaseDate, '2026-08-20')
 assert.equal(registry.checklistBankDatasetKey, 316115)
@@ -60,6 +64,7 @@ dossier.classificationPath = classificationPath
 
 const index = JSON.parse(readFileSync(indexPath, 'utf8'))
 const existingIds = new Set(), existingNames = new Set()
+const targetRows = []
 let indexedCount = 0
 for (const shard of index.shards) {
   const compressed = readFileSync(resolve(root, shard.path))
@@ -69,12 +74,21 @@ for (const shard of index.shards) {
   const rows = decoded.toString('utf8').trimEnd().split('\n').map(JSON.parse)
   assert.equal(rows.length, shard.recordCount)
   indexedCount += rows.length
-  for (const row of rows) { existingIds.add(row.colId); existingNames.add(normalize(row.scientificName)) }
+  for (const row of rows) {
+    const name = normalize(row.scientificName)
+    assert.ok(!existingIds.has(row.colId), `Duplicate indexed COL ID ${row.colId}`)
+    assert.ok(!existingNames.has(name), `Duplicate indexed scientific name ${row.scientificName}`)
+    existingIds.add(row.colId)
+    existingNames.add(name)
+    if (row.colId === dossier.colId) targetRows.push({ shard, row, decoded })
+  }
 }
 assert.equal(indexedCount, index.recordCount)
-assert.equal(indexedCount, source.duplicateAudit.checkedIndexRecords)
-assert.ok(!existingIds.has(dossier.colId), `COL ID already indexed: ${dossier.colId}`)
-assert.ok(!existingNames.has(normalize(dossier.scientificName)), 'Scientific name already indexed')
+assert.ok(indexedCount >= source.updateAudit.indexedRecordCountAtAudit, 'Indexed record count predates the update audit')
+assert.equal(targetRows.length, 1, 'An in-place update must resolve exactly one existing target record')
+assert.equal(targetRows[0].shard.path, relative(shardPath), 'The target must remain in its original indexed shard')
+assert.equal(targetRows[0].row.scientificName, dossier.scientificName)
+assert.ok(existingNames.has(normalize(dossier.scientificName)))
 
 const identitySource = {
   id: 'col', title: 'Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist 2144',
@@ -95,13 +109,35 @@ const biologicalSource = {
   rightsEvidenceUrl: dossier.evidence.rightsEvidenceUrl, rightsEvidenceLocator: dossier.evidence.rightsEvidenceLocator,
   licenseAppliesTo: dossier.evidence.licenseAppliesTo, attribution: dossier.evidence.attribution, scope: dossier.evidence.scope
 }
-dossier.sources = [identitySource, biologicalSource]
+dossier.sources = [identitySource, biologicalSource, ...source.supplementalSources]
+const sourceIds = new Set(dossier.sources.map(item => item.id))
+assert.equal(sourceIds.size, dossier.sources.length, 'Source IDs must be unique')
+assert.deepEqual(Object.keys(dossier.facets).sort(), ['conservation', 'distribution', 'ecology', 'evolution', 'fossil', 'lifeHistory', 'morphology'].sort(), 'Dossier must use exactly the seven supported facets')
+assert.deepEqual(source.supplementalSources.map(item => item.id).sort(), ['mclean2016', 'melin2022', 'urbani2020'].sort(), 'Unexpected supplemental source set')
+for (const assessment of Object.values(dossier.facets)) {
+  if (assessment.status === 'not-assessed') assert.ok(assessment.gaps?.length, 'Not-assessed facets need explicit gaps')
+  for (const claim of assessment.claims ?? []) {
+    assert.ok(claim.text && claim.locator && claim.placeTimeScope && claim.lifeStatus)
+    assert.equal(claim.translationStatus, 'untranslated')
+    assert.ok(claim.sourceIds.length && claim.sourceIds.every(id => sourceIds.has(id)))
+    for (const id of claim.sourceIds) {
+      const claimSource = dossier.sources.find(item => item.id === id)
+      assert.equal(claimSource.licenseAssessment, 'item-level-verified', `Claim source license is not item-level verified: ${id}`)
+      assert.equal(claimSource.licenseVersion, 'CC BY 4.0')
+      assert.ok(claimSource.rightsEvidenceUrl && claimSource.rightsEvidenceLocator && claimSource.attribution)
+    }
+  }
+}
 assert.ok(dossier.facets.lifeHistory.claims.every(claim => claim.sourceIds.includes('peerj2017')))
-assert.ok(dossier.facets.ecology.claims.every(claim => claim.sourceIds.includes('peerj2017')))
+assert.ok(dossier.facets.ecology.claims.some(claim => claim.sourceIds.includes('peerj2017')))
 assert.equal(biologicalSource.licenseAssessment, 'item-level-verified')
 assert.equal(biologicalSource.licenseVersion, 'CC BY 4.0')
 assert.equal(biologicalSource.licenseUrl, 'https://creativecommons.org/licenses/by/4.0/')
 assert.ok(biologicalSource.rightsEvidenceUrl && biologicalSource.rightsEvidenceLocator.toLowerCase().includes('article front matter'))
+assert.ok(dossier.facets.morphology.claims.some(claim => claim.text.includes('eight Alouatta palliata specimens') && claim.placeTimeScope.includes('museum')))
+assert.ok(dossier.facets.ecology.claims.some(claim => claim.text.includes('54 of 55') && claim.sourceIds.includes('urbani2020')))
+assert.ok(dossier.facets.ecology.claims.some(claim => claim.text.includes('three times the rate') && claim.sourceIds.includes('melin2022')))
+assert.ok(dossier.facets.ecology.claims.some(claim => claim.text.includes('did not exceed random selection') && claim.text.includes('abstract and Discussion') && claim.sourceIds.includes('mclean2016')))
 
 const rawBytes = Buffer.from(`${JSON.stringify(dossier)}\n`, 'utf8')
 assert.ok(!rawBytes.includes(0x0d), 'JSONL must use LF line endings')
@@ -109,17 +145,34 @@ const compressed = brotliCompressSync(rawBytes, { params: { [constants.BROTLI_PA
 const decoded = brotliDecompressSync(compressed)
 assert.deepEqual(decoded, rawBytes, 'Brotli round-trip must exactly reproduce raw JSONL')
 assert.deepEqual(JSON.parse(decoded.toString('utf8')), dossier)
+const previousRawBytes = readFileSync(rawPath)
+const previousCompressedBytes = readFileSync(shardPath)
+const previousShardBytes = brotliDecompressSync(previousCompressedBytes)
+assert.deepEqual(previousShardBytes, previousRawBytes, 'Existing raw record and Brotli shard must match before update')
+const previousDossier = JSON.parse(previousRawBytes.toString('utf8'))
+const previousIsThisEnrichment = previousDossier.colId === dossier.colId &&
+  ['urbani2020', 'melin2022', 'mclean2016'].every(id => previousDossier.sources?.some(item => item.id === id)) &&
+  previousDossier.facets?.morphology?.status === 'partially-supported'
+assert.ok(sha(previousRawBytes) === source.updateAudit.previousRawSha256 || previousRawBytes.equals(rawBytes) || previousIsThisEnrichment, 'Existing record differs from the audited baseline and generated update')
+assert.ok(sha(previousCompressedBytes) === source.updateAudit.previousShardSha256 || previousCompressedBytes.equals(compressed) || previousIsThisEnrichment, 'Existing shard differs from the audited baseline and generated update')
 mkdirSync(dirname(rawPath), { recursive: true })
 writeFileSync(rawPath, rawBytes)
 writeFileSync(shardPath, compressed)
+const indexShard = index.shards.find(item => item.path === relative(shardPath))
+assert.ok(indexShard, 'The original Alouatta shard must stay in the catalogue index')
+indexShard.decodedSha256 = sha(rawBytes)
+indexShard.compressedSha256 = sha(compressed)
+writeFileSync(indexPath, `${JSON.stringify(index, null, 2)}\n`)
 const manifest = {
   schemaVersion: 1, batchId: source.batchId, releaseAlias: source.releaseAlias,
   input: { path: relative(sourcePath), sha256: sha(sourceBytes) },
-  duplicateCheck: { baseHead: source.duplicateAudit.baseHead, openPullRequests: source.duplicateAudit.openPullRequests, indexedRecordCount: indexedCount, colId: dossier.colId, scientificName: dossier.scientificName, matchedColIds: [], matchedNames: [] },
+  duplicateCheck: { mode: 'in-place-update', baseHead: source.updateAudit.baseHead, openPullRequests: source.updateAudit.openPullRequests, indexedRecordCount: indexedCount, colId: dossier.colId, scientificName: dossier.scientificName, existingRecordCount: targetRows.length, matchedColIds: [dossier.colId], matchedNames: [normalize(dossier.scientificName)] },
+  updateAudit: { ...source.updateAudit, indexedRecordCountAfterUpdate: index.recordCount },
   raw: { path: relative(rawPath), encoding: 'utf-8-jsonl-lf', recordCount: 1, bytes: rawBytes.length, sha256: sha(rawBytes) },
   shard: { path: relative(shardPath), encoding: 'brotli-jsonl', recordCount: 1, decodedBytes: decoded.length, decodedSha256: sha(decoded), compressedBytes: compressed.length, compressedSha256: sha(compressed), brotliParameters: { mode: 'text', quality: 11 }, roundTrip: 'exact-byte-match' },
   registry: { path: 'data/catalogue-of-life/releases/2026-08-20/registry/manifest.json', releaseDate: registry.releaseDate, checklistBankDatasetKey: registry.checklistBankDatasetKey, manifestSha256: sha(registryBytes) },
-  generator: 'scripts/build-primates-alouatta-palliata-batch18.mjs'
+  generator: 'scripts/build-primates-alouatta-palliata-batch18.mjs',
+  updateMode: 'rebuild-one-existing-record-in-place'
 }
 writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`)
-process.stdout.write(`${JSON.stringify({ recordCount: 1, colId: dossier.colId, name: dossier.scientificName, indexedCount, rawSha256: manifest.raw.sha256, compressedSha256: manifest.shard.compressedSha256, byteRoundTrip: decoded.equals(rawBytes) })}\n`)
+process.stdout.write(`${JSON.stringify({ recordCount: index.recordCount, targetRecordCount: 1, colId: dossier.colId, name: dossier.scientificName, indexedCount, rawSha256: manifest.raw.sha256, compressedSha256: manifest.shard.compressedSha256, byteRoundTrip: decoded.equals(rawBytes), updateMode: manifest.updateMode })}\n`)
