@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "batchId": "pongo-pygmaeus-evolution-2026-09-24",
+  "releaseAlias": "COL26.8",
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "duplicateAudit": {
+    "baseHead": "d5b102d62a4c763959b24d6b7fadba50b85a9b3c",
+    "indexedRecordCount": 6934,
+    "openPullRequests": [],
+    "targetColId": "4LTT2",
+    "targetScientificName": "Pongo pygmaeus (Linnaeus, 1760)",
+    "existingRecordCount": 1,
+    "sourceStableId": "doi:10.1038/srep22026",
+    "sourceOccurrencesBeforeUpdate": 0
+  },
+  "updateAudit": {
+    "baseHead": "d5b102d62a4c763959b24d6b7fadba50b85a9b3c",
+    "indexedRecordCountAtAudit": 6934,
+    "targetColId": "4LTT2",
+    "targetScientificName": "Pongo pygmaeus (Linnaeus, 1760)",
+    "targetRecordCountBeforeUpdate": 1,
+    "previousParsedTargetSha256": "3110a20a9de25050396fc6c6acd9a7352ab947073bf761a45f73560fa615503d",
+    "previousShardSha256": "87a14ad38ca7a2968753f2ed10529b0feae04516478f24ebd626c1f0fec44281",
+    "openPullRequests": [],
+    "mode": "in-place-enrichment-of-existing-record"
+  },
+  "source": {
+    "id": "banes2016",
+    "title": "Banes, Galdikas and Vigilant (2016), Reintroduction of confiscated and displaced mammals risks outbreeding and introgression in natural populations, as evidenced by orang-utans of divergent subspecies",
+    "url": "https://doi.org/10.1038/srep22026",
+    "version": "Scientific Reports 6, article 22026; version of record published 2016-02-25",
+    "stableId": "doi:10.1038/srep22026",
+    "publishedAt": "2016-02-25",
+    "accessedAt": "2026-09-24",
+    "locator": "Abstract; Methods, faecal sample collection and mtDNA analysis; Results, mtDNA haplotypes and parentage; Discussion",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the article rights notice",
+    "licenseAssessment": "item-level-verified",
+    "scope": "Camp Leakey, Tanjung Puting National Park, Central Kalimantan: mitochondrial DNA evidence from historical reintroduced orangutans and their descendants. The study documents one human-mediated reintroduction history and does not estimate natural range-wide gene flow. The article discloses that coauthor B.M.F.G. continued to manage Camp Leakey and a nearby rehabilitation centre.",
+    "rightsHolder": "Banes, Galdikas and Vigilant",
+    "licenseVersion": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseAppliesTo": "Article text under the item-level CC BY 4.0 notice; separately credited third-party material is excluded.",
+    "attribution": "Banes GL, Galdikas BMF, Vigilant L (2016). Scientific Reports 6:22026. https://doi.org/10.1038/srep22026. Claims are paraphrased."
+  },
+  "claim": {
+    "text": "At Camp Leakey in Tanjung Puting National Park, the study analyzed mtDNA from 10 presumed unrelated adults reintroduced during the 1970s and 1980s, plus one first-generation offspring sequence used to represent a deceased reintroduced female. Of the 11 mtDNA profiles representing founder lineages, nine clustered with the local P. p. wurmbii mtDNA clade, while two females clustered with P. p. pygmaeus mtDNA from northern West Kalimantan or Sarawak. Both females reproduced with local males; the paper documented at least 22 hybridized or introgressed descendants, of which at least 15 were considered living when published in 2016. This is a human-mediated lineage-mixing history at one site, not evidence of natural species-wide gene flow or a range-wide evolutionary pattern.",
+    "textZh": "在印度尼西亚中加里曼丹丹戎普丁国家公园的 Camp Leakey 放归点，研究分析了 10 只在 20 世纪 70 至 80 年代放归、推定彼此无亲缘关系的成年个体的线粒体 DNA，并用一只第一代后代的序列代表一只已死亡的放归雌体。代表 11 条放归创始谱系的 mtDNA 序列中，9 条与当地 P. p. wurmbii 线粒体 DNA 支系聚类，另两只雌体则与西加里曼丹北部或砂捞越的 P. p. pygmaeus 聚类。两只雌体都与当地雄性繁殖；截至论文 2016 年发表时，研究记录了至少 22 个杂交或渐渗后代，其中至少 15 个被认为仍存活。这是单一地点的人为介入谱系混合史，不代表自然的全种基因流或整个分布区的演化格局。",
+    "sourceIds": [
+      "banes2016"
+    ],
+    "locator": "Abstract; Methods, faecal sample collection and mtDNA analysis; Results, mtDNA haplotypes and parentage; Discussion",
+    "placeTimeScope": "Camp Leakey, Tanjung Puting National Park, Central Kalimantan, Indonesia; founder releases occurred in the 1970s and 1980s. The study analyzed 10 presumed unrelated adult reintroduced orangutans plus one offspring sequence representing a deceased reintroduced female; descendant counts are those reported in 2016.",
+    "lifeStatus": "Orangutans sampled through faeces from a free-ranging, historically reintroduced population and descendants; the evidence includes human-mediated translocation and is not a captive-only sample.",
+    "translationStatus": "translated",
+    "originalLanguage": "en"
+  },
+  "evolutionGaps": [
+    "Evidence is limited to mitochondrial lineages and descendants from one historical reintroduction site; it does not characterize genome-wide ancestry, natural range-wide gene flow, or the evolutionary history of all populations."
+  ],
+  "completenessReasons": [
+    "Only two targeted studies were assessed; morphology, life history, distribution, fossil and conservation facets remain not-assessed, while ecology and evolution are partial.",
+    "The evidence covers a local nest-survey landscape and one human-mediated reintroduction history, not a systematic review or complete species account.",
+    "No independent expert review has been completed."
+  ]
+}

@@ -3,22 +3,24 @@
   "batchId": "primates-core-batch5-2026-09-24",
   "releaseAlias": "COL26.8",
   "input": {
-    "path": "data/sources/primates-core-batch5-2026-09-24.json",
-    "sha256": "3af7f2d7e606637d3087ea98de94d3766a7431aa339bac33de287062839d0f19"
+    "path": "data/sources/primates-pongo-pygmaeus-evolution-2026-09-24.json",
+    "sha256": "7ddb348c3326f9979a969e04454bcb9b1bfebe922ea57703365b6bd5b42daa08"
   },
   "duplicateCheck": {
-    "mode": "in-place-update",
-    "baseHead": "c6933e86d7ab9c1b913856210ca736dc2d176049",
+    "baseHead": "d5b102d62a4c763959b24d6b7fadba50b85a9b3c",
+    "indexedRecordCount": 6934,
     "openPullRequests": [],
-    "indexedRecordCount": 6933,
-    "colId": "J8P6",
-    "scientificName": "Ateles geoffroyi Kuhl, 1820",
+    "targetColId": "4LTT2",
+    "targetScientificName": "Pongo pygmaeus (Linnaeus, 1760)",
     "existingRecordCount": 1,
+    "sourceStableId": "doi:10.1038/srep22026",
+    "sourceOccurrencesBeforeUpdate": 0,
+    "mode": "in-place-update",
     "matchedColIds": [
-      "J8P6"
+      "4LTT2"
     ],
     "matchedNames": [
-      "ateles geoffroyi kuhl 1820"
+      "pongo pygmaeus linnaeus 1760"
     ]
   },
   "initialDuplicateAudit": {
@@ -28,7 +30,7 @@
     "matchedColIds": [],
     "matchedNames": []
   },
-  "updateAudit": {
+  "previousUpdateAudit": {
     "baseHead": "c6933e86d7ab9c1b913856210ca736dc2d176049",
     "indexedRecordCountAtAudit": 6933,
     "targetColId": "J8P6",
@@ -40,21 +42,34 @@
     "mode": "in-place-enrichment-of-existing-record",
     "indexedRecordCountAfterUpdate": 6933
   },
+  "updateAudit": {
+    "baseHead": "d5b102d62a4c763959b24d6b7fadba50b85a9b3c",
+    "indexedRecordCountAtAudit": 6934,
+    "targetColId": "4LTT2",
+    "targetScientificName": "Pongo pygmaeus (Linnaeus, 1760)",
+    "targetRecordCountBeforeUpdate": 1,
+    "previousParsedTargetSha256": "3110a20a9de25050396fc6c6acd9a7352ab947073bf761a45f73560fa615503d",
+    "previousShardSha256": "87a14ad38ca7a2968753f2ed10529b0feae04516478f24ebd626c1f0fec44281",
+    "openPullRequests": [],
+    "mode": "in-place-enrichment-of-existing-record",
+    "sourceStableId": "doi:10.1038/srep22026",
+    "indexedRecordCountAfterUpdate": 6934
+  },
   "raw": {
     "path": "data/knowledge/raw-dossiers/primates-core-batch5-2026-09-24.jsonl",
     "encoding": "utf-8-jsonl-lf",
     "recordCount": 2,
-    "bytes": 24025,
-    "sha256": "1e0d5bacab1a41029f5c37116f785300bd1a5e6dbae1f7d755492776fe4adfc9"
+    "bytes": 28198,
+    "sha256": "a9292b721afa4cb96227ded03c54f2890943de59d559e7da02ac29bb383b84df"
   },
   "shard": {
     "path": "data/knowledge/catalogue-dossiers-primates-core-batch5-2026-09-24.jsonl.br",
     "encoding": "brotli-jsonl",
     "recordCount": 2,
-    "decodedBytes": 24025,
-    "decodedSha256": "1e0d5bacab1a41029f5c37116f785300bd1a5e6dbae1f7d755492776fe4adfc9",
-    "compressedBytes": 5083,
-    "compressedSha256": "87a14ad38ca7a2968753f2ed10529b0feae04516478f24ebd626c1f0fec44281",
+    "decodedBytes": 28198,
+    "decodedSha256": "a9292b721afa4cb96227ded03c54f2890943de59d559e7da02ac29bb383b84df",
+    "compressedBytes": 6363,
+    "compressedSha256": "89770a25eea6522c8eecea5c39428d66f2c37ef95298a72baaff6b2db45bb6ed",
     "brotliParameters": {
       "mode": "text",
       "quality": 11
@@ -67,6 +82,6 @@
     "checklistBankDatasetKey": 316115,
     "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
   },
-  "generator": "scripts/build-primates-core-batch5.mjs",
+  "generator": "scripts/update-pongo-pygmaeus-evolution.mjs",
   "updateMode": "rebuild-one-existing-record-in-place"
 }
