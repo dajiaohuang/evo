@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-papionini-parent-chain-correction-batch26-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-25",
+  "checklistBankDatasetKey": 316115,
+  "checklistBankDoi": "10.48580/dgywk",
+  "releaseDate": "2026-08-20",
+  "identitySource": {
+    "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "hierarchyNodeDirectory": "data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes",
+    "shardRule": "id-<first two hex digits of SHA-256(COL usage ID)>.jsonl.gz",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsHolder": "Catalogue of Life Foundation",
+    "scope": "Identity and accepted parent-chain metadata only; no biological text reused.",
+    "attribution": "Catalogue of Life (2026), Version 2026-08-20, ChecklistBank dataset 316115, DOI 10.48580/dgywk."
+  },
+  "correction": {
+    "operation": "in-place accepted parent-chain correction",
+    "insertedNodeId": "L4C",
+    "insertedNodeName": "Papionini",
+    "insertedNodeRank": "tribe",
+    "reason": "The immutable COL26.8 hierarchy places accepted tribe Papionini (L4C) between the Papio or Macaca genus and Cercopithecinae (JB3); three existing dossier parent chains had omitted this node."
+  },
+  "records": [
+    {
+      "colId": "3WWNQ",
+      "scientificName": "Macaca mulatta (Zimmermann, 1780)",
+      "sourceDatasetId": "2144",
+      "recordedParentPathIds": ["5HYC", "JB3", "7X9", "4X9", "4PM", "4DT", "3W7"],
+      "pinnedParentPathIds": ["5HYC", "L4C", "JB3", "7X9", "4X9", "4PM", "4DT", "3W7"]
+    },
+    {
+      "colId": "3WWP6",
+      "scientificName": "Macaca silenus (Linnaeus, 1758)",
+      "sourceDatasetId": "2144",
+      "recordedParentPathIds": ["5HYC", "JB3", "7X9", "4X9", "4PM", "4DT", "3W7"],
+      "pinnedParentPathIds": ["5HYC", "L4C", "JB3", "7X9", "4X9", "4PM", "4DT", "3W7"]
+    },
+    {
+      "colId": "6TM9B",
+      "scientificName": "Papio anubis (Lesson, 1827)",
+      "sourceDatasetId": "2144",
+      "recordedParentPathIds": ["6DGR", "JB3", "7X9", "4X9", "4PM", "4DT", "3W7"],
+      "pinnedParentPathIds": ["6DGR", "L4C", "JB3", "7X9", "4X9", "4PM", "4DT", "3W7"]
+    }
+  ]
+}

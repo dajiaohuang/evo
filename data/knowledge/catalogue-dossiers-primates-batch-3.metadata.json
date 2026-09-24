@@ -12,11 +12,11 @@
   ],
   "path": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
   "rawPath": "data/knowledge/raw-dossiers/primates-dossiers-batch-3.jsonl",
-  "rawSha256": "9162d45243902613b95744f9ee1cf01e41626815ea159d1c50076789676dcd48",
-  "decodedSha256": "9162d45243902613b95744f9ee1cf01e41626815ea159d1c50076789676dcd48",
-  "compressedSha256": "3c0a1d22a2246d8e7f6907b6c093f92d49bf309a992f32b450b5b36f39d8dcbb",
-  "decodedBytes": 31207,
-  "compressedBytes": 6823,
+  "rawSha256": "7a0fb455da0c677d549db56e23dd0ec32d6c06fd8bfae26fd370239b6bd9eb92",
+  "decodedSha256": "7a0fb455da0c677d549db56e23dd0ec32d6c06fd8bfae26fd370239b6bd9eb92",
+  "compressedSha256": "b8f53767b9505d8a3d105c419594a7d13102112e4f28c55a61d99b3fa4aac4d7",
+  "decodedBytes": 32044,
+  "compressedBytes": 6897,
   "checkedAt": "2026-09-24",
   "generationSource": "data/sources/primates-dossiers-batch-3.json",
   "generationSourceSha256": "f950f3d0af0905f136be4356a6b33a62daec577b1be271ae8578a4aa32c41905",
@@ -40,6 +40,24 @@
       "decodedSha256": "9162d45243902613b95744f9ee1cf01e41626815ea159d1c50076789676dcd48",
       "compressedSha256": "3c0a1d22a2246d8e7f6907b6c093f92d49bf309a992f32b450b5b36f39d8dcbb",
       "mode": "in-place-enrichment-of-existing-records"
+    },
+    {
+      "batchId": "primates-papionini-parent-chain-correction-batch26-2026-09-25",
+      "sourcePath": "data/sources/primates-papionini-parent-chain-correction-batch26-2026-09-25.json",
+      "sourceSha256": "19bdd416c7bc40a76c1c5085c500036072e1ae027aaf85d239c5c8ef8487a51a",
+      "generator": "scripts/build-primates-papionini-parent-chain-correction-batch26.mjs",
+      "checkedAt": "2026-09-25",
+      "indexedRecordCountAtAudit": 6935,
+      "targetColIds": [
+        "3WWNQ",
+        "3WWP6",
+        "6TM9B"
+      ],
+      "previousDecodedSha256": "9162d45243902613b95744f9ee1cf01e41626815ea159d1c50076789676dcd48",
+      "previousCompressedSha256": "3c0a1d22a2246d8e7f6907b6c093f92d49bf309a992f32b450b5b36f39d8dcbb",
+      "decodedSha256": "7a0fb455da0c677d549db56e23dd0ec32d6c06fd8bfae26fd370239b6bd9eb92",
+      "compressedSha256": "b8f53767b9505d8a3d105c419594a7d13102112e4f28c55a61d99b3fa4aac4d7",
+      "mode": "in-place-correction-of-accepted-parent-chains"
     }
   ]
 }
