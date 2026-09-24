@@ -43,6 +43,7 @@ RC155 生成的来源标签筛查计数为：形态 48,482 种、生态 41,445 �
 31. 再新增 5 个 COL26.8 接受种档案：灵长目 `Lemur catta`（`3T528`）与 `Macaca nemestrina`（`3WWNT`）、真菌 `Neurospora crassa`（`47BC7`）与 `Fusarium graminearum`（`6JSTK`），以及端足目 `Gammarus pulex`（`3F8JD`）。灵长目来源记录现以固定注册树完整核对全部父级分类路径，并记录注册清单校验和；主张继续限定于引文的样本、地点与方法，未评估主题保持 not-assessed。五份档案均 incomplete、not-reviewed。本批只扩充来源档案索引，不扩大 App / GitHub Pages 的精选核心包；两端仍共用包含灵长目在内的同一精选内容。
 32. 新增两份重点灵长目档案：蜘蛛猴 `Ateles geoffroyi`（`J8P6`）与婆罗洲猩猩 `Pongo pygmaeus`（`4LTT2`）。前者仅记录哥斯达黎加奥萨半岛栖息点研究中的访客、幼苗与粪金龟比较；后者仅记录 Danau Sentarum 周边巢调查的局地模型估计。来源许可、完整 COL26.8 父链及注册清单校验和均已记录；每种仅生态主题部分支持，其余六主题未评估。两份档案均 incomplete、not-reviewed，不新增 App / GitHub Pages 内容。
 33. 修订灵长目法郎叶猴 Trachypithecus francoisi（COL26.8 57SDB）分布证据：2013 年研究描述中国西南部和越南北部的名义种范围；2026 年研究的老挝范围句引用的是 T. francoisi sensu lato 综述，而其野外取样只在贵州。固定分类中 T. laotum、T. ebenus、T. hatinhensis 是另列接受种。现将分布主题从 conflicted 调整为 partially-supported；老挝对 57SDB 仍未确认，既不作存在也不作缺席判断。记录数不变，档案仍 incomplete、not-reviewed；App 与 Pages 精选包不变。
+34. 补强黑猩猩（`4C92G`）局地生态证据：新增 Bossou 野生西部黑猩猩群体 2012–2013 年栖地选择研究，许可核验为 CC BY 4.0。生态仍为 partially-supported，主张明确限于单一地点、群体和观察期；生活史、形态、分布、化石及保育保持 not-assessed，演化仍是模型研究的部分证据。总档案数不变。App 与 GitHub Pages 继续共用 `data/pages-preview.json` 的精选核心清单，包含灵长目；种级档案分片仍不进入原生 App 核心包。来源、许可和精确范围随 [黑猩猩档案生成输入](../data/sources/primates-dossiers-batch-2.json)记录。
 
 ## 覆盖含义与尚未完成的内容
 

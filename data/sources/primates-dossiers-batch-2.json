@@ -5,18 +5,18 @@
   "checklistBankDoi": "10.48580/dgywk",
   "releaseDate": "2026-08-20",
   "checkedAt": "2026-09-24",
-  "batchId": "primates-gorilla-gorilla-enrichment-2026-09-24",
-  "scope": "In-place enrichment of one existing COL26.8 primate dossier. The primary field study supports only local ecology for one habituated western lowland gorilla group; the batch remains incomplete and is not a systematic species assessment.",
+  "batchId": "primates-pan-troglodytes-ecology-enrichment-2026-09-24",
+  "scope": "In-place enrichment of the existing COL26.8 Pan troglodytes dossier with one locally bounded Bossou field study; all other facets remain incomplete and the batch is not a systematic species assessment.",
   "updateAudit": {
-    "baseHead": "e7dc9569f8042c2baab7126645e04857cb43fc75",
+    "baseHead": "1678ce0be7ccd4ee026d33c40efee5cc35fddb1e",
     "indexedRecordCountAtAudit": 6934,
-    "targetColId": "3H3C9",
-    "targetScientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+    "targetColId": "4C92G",
+    "targetScientificName": "Pan troglodytes (Blumenbach, 1775)",
     "targetRecordCountBeforeUpdate": 1,
     "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
-    "previousDecodedSha256": "42df0d9e92fe70b821724597a97fcbc6d2b8d74a0d09cf616ff7ef4a1701875f",
-    "previousCompressedSha256": "0cdcf4faf3756de07b37e872e51358a0f6798e08c58ca0582ffd1cb1799b8752",
-    "previousTargetRecordSha256": "8460a0bd5840abb5791b2135a3749090f08b17f454df8007ea2e3e4f2852fb54",
+    "previousDecodedSha256": "100d1f27adc23015bdcb3ac27083469ae6cffd7dfaeaf2634b9682876b563141",
+    "previousCompressedSha256": "b5ed06024a3c5207a4daf2fda0061985374a02112e20ab85f5cd8cdb85a50656",
+    "previousTargetRecordSha256": "3d15cfc81117b881db2cd0a50eb9f063cce0897a4dcbe07ca3e26733bfa8d17e",
     "openPullRequests": [],
     "mode": "in-place-enrichment-of-existing-record"
   },
@@ -29,7 +29,7 @@
       "checkedAt": "2026-09-24",
       "identity": {
         "method": "Exact accepted COL26.8 usage record queried at ChecklistBank dataset 316115; name, authorship, species rank, accepted status, source sector, and parent chain were checked from the taxon endpoint.",
-        "scope": "COL26.8 usage 4C92G only. The cited genomic findings concern sampled chimpanzee lineages and model-based population history, not every population or a complete species phylogeny.",
+        "scope": "COL26.8 usage 4C92G only. The genomic claim concerns sampled chimpanzee lineages and model-based population history; the ecology claim concerns one western chimpanzee community at Bossou. Neither is a complete species phylogeny or range-wide ecological synthesis.",
         "parentChain": [
           { "id": "6D2G", "name": "Pan", "authorship": "Oken, 1816", "rank": "genus", "status": "accepted" },
           { "id": "JPH", "name": "Homininae", "authorship": "Gray, 1825", "rank": "subfamily", "status": "accepted" },
@@ -41,7 +41,7 @@
         ]
       },
       "lifeStatusScope": {
-        "wild": "The biological claim uses sequenced samples from wild chimpanzee lineages; it does not estimate a current population census.",
+        "wild": "The genomic claim uses wild chimpanzee lineages; the ecology claim uses community-level field observations of wild P. t. verus at Bossou. Neither estimates a current species-wide population census.",
         "domesticated": "No domesticated or captive observations are included; domestication has not been assessed.",
         "fossil": "No fossil evidence is assessed in this record."
       },
@@ -63,12 +63,53 @@
           "locator": "Abstract; Methods, “Genomic Data”; Results, “Introgression from Western into Eastern Chimpanzees”; Table 1 and Figure 4.",
           "license": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND 4.0), as stated by the article.",
           "scope": "Site-pattern analysis of whole-genome data from all five extant Pan lineages; model-based deep population history, not a species-wide census or consensus phylogeny."
+        },
+        {
+          "id": "brysonMorrison2017",
+          "title": "Bryson-Morrison, Tzanopoulos, Matsuzawa & Humle. 2017. Activity and Habitat Use of Chimpanzees (Pan troglodytes verus) in the Anthropogenic Landscape of Bossou, Guinea, West Africa. International Journal of Primatology 38:282–302",
+          "url": "https://doi.org/10.1007/s10764-016-9947-4",
+          "stableId": "doi:10.1007/s10764-016-9947-4",
+          "version": "Published 2017-01-30; International Journal of Primatology volume 38, pages 282–302; DOI 10.1007/s10764-016-9947-4",
+          "publishedAt": "2017-01-30",
+          "accessedAt": "2026-09-24",
+          "locator": "Abstract; Methods, Behavioral Observations and Feeding Event Locations; Results, Habitat Use and Preferences and Distance of Feeding Events in Noncultivated Habitat Relative to Cultivated Fields and Routes; Table II.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), verified from the University of Kent repository record for the publisher PDF.",
+          "licenseAssessment": "item-level-verified",
+          "rightsEvidenceUrl": "https://kar.kent.ac.uk/60186/",
+          "rightsEvidenceLocator": "Repository item 60186 identifies the item as the publisher PDF and explicitly states the work is licensed under Creative Commons Attribution 4.0 International.",
+          "rightsHolder": "Bryson-Morrison, Tzanopoulos, Matsuzawa & Humle (2017)",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "The publisher article text; this dossier paraphrases findings and reproduces no figures, tables, or supplementary material.",
+          "attribution": "Bryson-Morrison N, Tzanopoulos J, Matsuzawa T, Humle T. (2017). Activity and Habitat Use of Chimpanzees (Pan troglodytes verus) in the Anthropogenic Landscape of Bossou, Guinea, West Africa. International Journal of Primatology 38:282–302. https://doi.org/10.1007/s10764-016-9947-4. CC BY 4.0. Claims are paraphrased; no figures, tables, or supplementary material are reproduced.",
+          "scope": "Community-level field study of wild P. t. verus at Bossou, Guinea. Daily follows were conducted for up to six hours from April 2012 to March 2013; 10 adult focal individuals were sampled. Feeding-event distance analyses excluded crop foraging inside cultivated fields."
         }
       ],
       "facets": {
-        "morphology": { "status": "not-assessed" },
-        "lifeHistory": { "status": "not-assessed" },
-        "ecology": { "status": "not-assessed" },
+        "morphology": {
+          "status": "not-assessed",
+          "gaps": ["No morphological source was reviewed for this revision; species-level anatomy and population variation remain unassessed."]
+        },
+        "lifeHistory": {
+          "status": "not-assessed",
+          "gaps": ["No developmental or reproductive life-history study was assessed in this revision."]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "At Bossou, Guinea, daily behavioral follows of the local wild P. t. verus community (up to 6 h/day; April 2012–March 2013) found mature forest was the most selected habitat overall. Recorded feeding events in noncultivated habitat occurred more often than expected by chance more than 200 m from cultivated fields and less often than expected within 0–100 m and 101–200 m bands. The authors suggested field-associated risk may influence feeding locations. These results describe one site and community, not species-wide habitat use.",
+              "textZh": "在几内亚 Bossou 对当地野生西部黑猩猩群体的每日行为跟踪（每天至多 6 小时，2012 年 4 月至 2013 年 3 月）发现，成熟森林在总体活动中是选择比例最高的栖地类型。在非耕地栖地记录的取食事件中，距耕地超过 200 米的次数高于随机预期，0–100 米和 101–200 米范围内的次数低于预期。作者提出，与耕地相关的风险可能影响取食地点。这些结果描述的是单一地点和群体，不能代表全物种的栖地利用。",
+              "sourceIds": ["brysonMorrison2017"],
+              "locator": "Methods, Behavioral Observations and Feeding Event Locations; Results, Habitat Use and Preferences and Distance of Feeding Events in Noncultivated Habitat Relative to Cultivated Fields and Routes; Table II.",
+              "placeTimeScope": "Bossou, Guinea, West Africa; community-level observations from April 2012 to March 2013, with up to six hours of daily follows and 10 adult focal individuals. Distance analyses concern feeding events in noncultivated habitat.",
+              "lifeStatus": "Wild Pan troglodytes verus observed in a free-ranging community; no captive or fossil observations are included."
+            }
+          ],
+          "gaps": [
+            "This is one community at one site over one year. Other chimpanzee populations and subspecies, range-wide habitat use, and long-term ecological trends remain unassessed."
+          ]
+        },
         "evolution": {
           "status": "partially-supported",
           "claims": [
@@ -85,14 +126,23 @@
             "This is one model-comparison study. Its lineage history has not been reconciled here with later genome-wide analyses, fossil evidence, or every chimpanzee population; no general phylogenetic placement or trait-evolution synthesis is claimed."
           ]
         },
-        "distribution": { "status": "not-assessed" },
-        "fossil": { "status": "not-assessed" },
-        "conservation": { "status": "not-assessed" }
+        "distribution": {
+          "status": "not-assessed",
+          "gaps": ["The Bossou field study is not a current or historical range inventory for Pan troglodytes."]
+        },
+        "fossil": {
+          "status": "not-assessed",
+          "gaps": ["No fossil evidence was reviewed or assigned to this species in this revision."]
+        },
+        "conservation": {
+          "status": "not-assessed",
+          "gaps": ["No current range-wide population assessment or formal species-level conservation evaluation was reviewed."]
+        }
       },
       "completeness": {
         "status": "incomplete",
         "reasons": [
-          "Only one model-based evolutionary study was assessed; six facets remain not-assessed and the evolution facet is partial.",
+          "One local field study supports only partial ecology and one model-based study supports partial evolution; morphology, life history, distribution, fossil, and conservation remain not-assessed.",
           "No systematic literature search or global evidence synthesis has been completed."
         ]
       },

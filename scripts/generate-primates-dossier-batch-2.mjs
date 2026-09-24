@@ -13,13 +13,13 @@ const rawPath = resolve(root, 'data/knowledge/raw-dossiers/primates-batch-2.json
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex')
 const normalizeName = value => value.normalize('NFKD').replace(/\p{M}/gu, '').toLocaleLowerCase('en-US').replace(/[^a-z0-9]+/gu, ' ').trim()
 const expected = new Map([
-  ['4C92G', { scientificName: 'Pan troglodytes (Blumenbach, 1775)', sourceDatasetId: '2144', parentChain: [
+  ['4C92G', { scientificName: 'Pan troglodytes (Blumenbach, 1775)', authorship: '(Blumenbach, 1775)', parentId: '6D2G', sourceDatasetId: '2144', parentChain: [
     ['6D2G', 'Pan', 'Oken, 1816', 'genus'], ['JPH', 'Homininae', 'Gray, 1825', 'subfamily'], ['6256T', 'Hominidae', 'Gray, 1825', 'family'], ['58L', 'Hominoidea', 'Gray, 1825', 'superfamily'], ['4PM', 'Simiiformes', 'Haeckel, 1866', 'infraorder'], ['4DT', 'Haplorrhini', 'Pocock, 1918', 'suborder'], ['3W7', 'Primates', 'Linnaeus, 1758', 'order'],
   ] }],
-  ['3H3C9', { scientificName: 'Gorilla gorilla (Savage & Wyman, 1847)', sourceDatasetId: '2144', parentChain: [
+  ['3H3C9', { scientificName: 'Gorilla gorilla (Savage & Wyman, 1847)', authorship: '(Savage & Wyman, 1847)', parentId: '62SMC', sourceDatasetId: '2144', parentChain: [
     ['62SMC', 'Gorilla', 'I. Geoffroy Saint-Hilaire, 1852', 'genus'], ['JPH', 'Homininae', 'Gray, 1825', 'subfamily'], ['6256T', 'Hominidae', 'Gray, 1825', 'family'], ['58L', 'Hominoidea', 'Gray, 1825', 'superfamily'], ['4PM', 'Simiiformes', 'Haeckel, 1866', 'infraorder'], ['4DT', 'Haplorrhini', 'Pocock, 1918', 'suborder'], ['3W7', 'Primates', 'Linnaeus, 1758', 'order'],
   ] }],
-  ['4LTSY', { scientificName: 'Pongo abelii Lesson, 1827', sourceDatasetId: '2144', parentChain: [
+  ['4LTSY', { scientificName: 'Pongo abelii Lesson, 1827', authorship: 'Lesson, 1827', parentId: '63NZX', sourceDatasetId: '2144', parentChain: [
     ['63NZX', 'Pongo', 'Lacépède, 1799', 'genus'], ['K72', 'Ponginae', 'Elliot, 1913', 'subfamily'], ['6256T', 'Hominidae', 'Gray, 1825', 'family'], ['58L', 'Hominoidea', 'Gray, 1825', 'superfamily'], ['4PM', 'Simiiformes', 'Haeckel, 1866', 'infraorder'], ['4DT', 'Haplorrhini', 'Pocock, 1918', 'suborder'], ['3W7', 'Primates', 'Linnaeus, 1758', 'order'],
   ] }],
 ])
@@ -32,16 +32,16 @@ assert.equal(input.checklistBankDatasetKey, 316115)
 assert.equal(input.checklistBankDoi, '10.48580/dgywk')
 assert.equal(input.releaseDate, '2026-08-20')
 assert.equal(input.checkedAt, '2026-09-24')
-assert.equal(input.batchId, 'primates-gorilla-gorilla-enrichment-2026-09-24')
-assert.equal(input.updateAudit.baseHead, 'e7dc9569f8042c2baab7126645e04857cb43fc75')
+assert.equal(input.batchId, 'primates-pan-troglodytes-ecology-enrichment-2026-09-24')
+assert.equal(input.updateAudit.baseHead, '1678ce0be7ccd4ee026d33c40efee5cc35fddb1e')
 assert.equal(input.updateAudit.indexedRecordCountAtAudit, 6934)
-assert.equal(input.updateAudit.targetColId, '3H3C9')
-assert.equal(input.updateAudit.targetScientificName, 'Gorilla gorilla (Savage & Wyman, 1847)')
+assert.equal(input.updateAudit.targetColId, '4C92G')
+assert.equal(input.updateAudit.targetScientificName, 'Pan troglodytes (Blumenbach, 1775)')
 assert.equal(input.updateAudit.targetRecordCountBeforeUpdate, 1)
 assert.equal(input.updateAudit.targetShardPath, 'data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br')
-assert.equal(input.updateAudit.previousDecodedSha256, '42df0d9e92fe70b821724597a97fcbc6d2b8d74a0d09cf616ff7ef4a1701875f')
-assert.equal(input.updateAudit.previousCompressedSha256, '0cdcf4faf3756de07b37e872e51358a0f6798e08c58ca0582ffd1cb1799b8752')
-assert.equal(input.updateAudit.previousTargetRecordSha256, '8460a0bd5840abb5791b2135a3749090f08b17f454df8007ea2e3e4f2852fb54')
+assert.equal(input.updateAudit.previousDecodedSha256, '100d1f27adc23015bdcb3ac27083469ae6cffd7dfaeaf2634b9682876b563141')
+assert.equal(input.updateAudit.previousCompressedSha256, 'b5ed06024a3c5207a4daf2fda0061985374a02112e20ab85f5cd8cdb85a50656')
+assert.equal(input.updateAudit.previousTargetRecordSha256, '3d15cfc81117b881db2cd0a50eb9f063cce0897a4dcbe07ca3e26733bfa8d17e')
 assert.deepEqual(input.updateAudit.openPullRequests, [])
 assert.equal(input.updateAudit.mode, 'in-place-enrichment-of-existing-record')
 assert.equal(input.records.length, 3, 'This shard is limited to three primate species')
@@ -71,6 +71,7 @@ for (const dossier of input.records) {
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...facets].sort())
   for (const [facet, assessment] of Object.entries(dossier.facets)) {
     assert.ok(allowedStatuses.has(assessment.status), `Invalid status ${dossier.colId}/${facet}`)
+    if (dossier.colId === input.updateAudit.targetColId && assessment.status === 'not-assessed') assert.ok(assessment.gaps?.length, `Missing explicit evidence gap ${dossier.colId}/${facet}`)
     for (const claim of assessment.claims ?? []) {
       assert.ok(claim.text && claim.textZh && claim.locator && claim.placeTimeScope && claim.lifeStatus)
       assert.ok(claim.sourceIds.length && claim.sourceIds.every(id => sourceIds.has(id)))
@@ -87,17 +88,30 @@ for (const id of expected.keys()) assert.ok(ids.has(id), `Missing expected speci
 
 const dossier = input.records.find(record => record.colId === input.updateAudit.targetColId)
 assert.equal(dossier.scientificName, input.updateAudit.targetScientificName)
-const dietSource = dossier.sources.find(source => source.id === 'ortmann2022')
+const gorillaDossier = input.records.find(record => record.colId === '3H3C9')
+assert.ok(gorillaDossier, 'The preserved gorilla dossier must remain in this shard')
+const dietSource = gorillaDossier.sources.find(source => source.id === 'ortmann2022')
 assert.equal(dietSource?.stableId, 'doi:10.1371/journal.pone.0271576')
 assert.equal(dietSource?.licenseAssessment, 'item-level-verified')
 assert.equal(dietSource?.licenseVersion, 'CC BY 4.0')
 assert.equal(dietSource?.licenseUrl, 'https://creativecommons.org/licenses/by/4.0/')
 assert.ok(dietSource?.rightsEvidenceUrl && dietSource?.rightsEvidenceLocator && dietSource?.attribution)
-assert.equal(dossier.facets.ecology.status, 'partially-supported')
-assert.equal(dossier.facets.ecology.claims.length, 2)
-assert.ok(dossier.facets.ecology.claims.every(claim => claim.sourceIds.length === 1 && claim.sourceIds[0] === 'ortmann2022'))
-assert.ok(dossier.facets.ecology.claims[0].text.includes('two complete years'))
-assert.ok(dossier.facets.ecology.claims[1].text.includes('one group at one site'))
+assert.equal(gorillaDossier.facets.ecology.status, 'partially-supported')
+assert.equal(gorillaDossier.facets.ecology.claims.length, 2)
+assert.ok(gorillaDossier.facets.ecology.claims.every(claim => claim.sourceIds.length === 1 && claim.sourceIds[0] === 'ortmann2022'))
+assert.ok(gorillaDossier.facets.ecology.claims[0].text.includes('two complete years'))
+assert.ok(gorillaDossier.facets.ecology.claims[1].text.includes('one group at one site'))
+const chimpDossier = input.records.find(record => record.colId === '4C92G')
+const ecologySource = chimpDossier.sources.find(source => source.id === 'brysonMorrison2017')
+assert.equal(ecologySource?.stableId, 'doi:10.1007/s10764-016-9947-4')
+assert.equal(ecologySource?.licenseAssessment, 'item-level-verified')
+assert.equal(ecologySource?.licenseVersion, 'CC BY 4.0')
+assert.equal(ecologySource?.licenseUrl, 'https://creativecommons.org/licenses/by/4.0/')
+assert.ok(ecologySource?.rightsEvidenceUrl && ecologySource?.rightsEvidenceLocator && ecologySource?.attribution)
+const chimpEcology = chimpDossier.facets.ecology
+assert.equal(chimpEcology.status, 'partially-supported')
+assert.equal(chimpEcology.claims.length, 1)
+assert.deepEqual(chimpEcology.claims[0].sourceIds, ['brysonMorrison2017'])
 
 const registryRoot = resolve(root, 'data/catalogue-of-life/releases/2026-08-20/registry')
 const registryBytes = readFileSync(resolve(registryRoot, 'manifest.json'))
@@ -112,8 +126,9 @@ for (const route of registryManifest.search.routes[routeKey] ?? []) {
   acceptedMatches.push(...rows.filter(row => row.id === dossier.colId))
 }
 assert.equal(acceptedMatches.length, 1, 'Expected one exact accepted COL26.8 usage')
+const targetIdentity = expected.get(dossier.colId)
 for (const [key, expectedValue] of Object.entries({
-  scientificName: dossier.scientificName, authorship: '(Savage & Wyman, 1847)', rank: 'species', status: 'accepted', sourceDatasetId: '2144', parentId: '62SMC',
+  scientificName: targetIdentity.scientificName, authorship: targetIdentity.authorship, rank: 'species', status: 'accepted', sourceDatasetId: targetIdentity.sourceDatasetId, parentId: targetIdentity.parentId,
 })) assert.equal(String(acceptedMatches[0][key]), String(expectedValue), `Pinned COL ${key} mismatch`)
 
 const index = JSON.parse(readFileSync(indexPath, 'utf8'))
