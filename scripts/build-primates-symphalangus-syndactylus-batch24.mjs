@@ -11,6 +11,8 @@ const rawPath = join(root, 'data/knowledge/raw-dossiers/primates-symphalangus-sy
 const shardPath = join(root, 'data/knowledge/catalogue-dossiers-primates-symphalangus-syndactylus-batch24-2026-09-24.jsonl.br')
 const batchManifestPath = join(root, 'data/knowledge/catalogue-dossiers-primates-symphalangus-syndactylus-batch24-2026-09-24.batch-manifest.json')
 const indexPath = join(root, 'data/knowledge/catalogue-dossier-shards.json')
+const relative = absolutePath => absolutePath.slice(root.length + 1).replaceAll('\\', '/')
+const shardRelativePath = relative(shardPath)
 const registryRoot = join(root, 'data/catalogue-of-life/releases/2026-08-20/registry')
 const EXPECTED_SOURCE_SHA256 = '1082678887201da5aca0110b59ad516e520bc17c5b89f4bd7e7ac1d4f363d0b0'
 const EXPECTED_REGISTRY_SHA256 = '8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151'
@@ -55,6 +57,21 @@ assert.ok(classificationPath.some(node => node.id === '3W7' && node.rank === 'or
 
 const index = JSON.parse(readFileSync(indexPath))
 assert.equal(index.releaseAlias, 'COL26.8')
+const existingOwnShards = index.shards.filter(shard => shard.path === shardRelativePath)
+assert.ok(existingOwnShards.length <= 1, 'Own shard path is indexed more than once')
+if (existingOwnShards.length === 1) {
+  const existing = existingOwnShards[0]
+  const compressed = readFileSync(join(root, existing.path))
+  assert.equal(sha(compressed), existing.compressedSha256, 'Existing own shard compressed hash mismatch')
+  const decoded = brotliDecompressSync(compressed)
+  assert.equal(sha(decoded), existing.decodedSha256, 'Existing own shard decoded hash mismatch')
+  const rows = decoded.toString('utf8').trimEnd().split('\n').filter(Boolean).map(JSON.parse)
+  assert.equal(rows.length, 1, 'Existing own shard must contain exactly one record')
+  assert.equal(rows[0].colId, target.colId, 'Existing own shard has a different COL usage')
+  assert.equal(normalize(rows[0].scientificName), normalize(target.scientificName), 'Existing own shard has a different scientific name')
+  index.shards = index.shards.filter(shard => shard.path !== shardRelativePath)
+  index.recordCount -= rows.length
+}
 const indexedIds = new Set()
 const indexedNames = new Set()
 let indexedCount = 0
@@ -125,7 +142,7 @@ const sources = [
 const claim = {
   text: target.claim.text,
   originalLanguage: 'en',
-  translationStatus: 'translated',
+  translationStatus: 'untranslated',
   sourceIds: ['sariyati2024siamangmtDNA'],
   locator: target.claim.locator,
   placeTimeScope: target.claim.scope,
@@ -194,7 +211,6 @@ mkdirSync(dirname(rawPath), { recursive: true })
 writeFileSync(rawPath, rawBytes)
 writeFileSync(shardPath, compressed)
 
-const relative = absolutePath => absolutePath.slice(root.length + 1).replaceAll('\\', '/')
 const batchManifest = {
   schemaVersion: 1,
   batchId: source.batchId,
