@@ -6,7 +6,7 @@
   "releaseDate": "2026-08-20",
   "checkedAt": "2026-09-24",
   "batchId": "primates-dossiers-batch-3-2026-09-24",
-  "scope": "Three incomplete species dossiers from exact accepted COL26.8 primate usages, each linked to one item-level verified CC BY 4.0 primary study. This bounded batch is not a systematic literature review or complete species assessment.",
+  "scope": "Three incomplete species dossiers from exact accepted COL26.8 primate usages; each links to at least one item-level verified CC BY 4.0 primary study, and the Macaca mulatta dossier now includes a second bounded ecological study. This batch is not a systematic literature review or complete species assessment.",
   "records": [
     {
       "colId": "3WWNQ",
@@ -16,7 +16,7 @@
       "checkedAt": "2026-09-24",
       "identity": {
         "method": "Exact accepted COL26.8 species usage 3WWNQ verified against ChecklistBank dataset 316115 search and taxon endpoints; verbatim name, authorship, species rank, accepted status, sourceDatasetId 2144, and Primates parent classification were checked.",
-        "scope": "Nominal species as represented by COL26.8 accepted usage 3WWNQ. The biological claims concern wild Chinese rhesus macaque samples and do not describe every population or the full species range.",
+        "scope": "Nominal species as represented by COL26.8 accepted usage 3WWNQ. The biological claims concern wild Chinese samples and one free-ranging troop in Buxa, India; they do not describe every population or the full species range.",
         "parentChain": [
           { "id": "5HYC", "name": "Macaca", "authorship": "Lacépède, 1799", "rank": "genus", "status": "accepted" },
           { "id": "JB3", "name": "Cercopithecinae", "authorship": "Gray, 1821", "rank": "subfamily", "status": "accepted" },
@@ -28,7 +28,7 @@
         ]
       },
       "lifeStatusScope": {
-        "wild": "The primary study analyzed geo-referenced wild Chinese rhesus macaques sampled at 17 locations; captive research populations are discussed as context, not as the source of the focal wild sample.",
+        "wild": "Liu et al. analyzed geo-referenced wild Chinese rhesus macaques from 17 locations; Sengupta et al. observed one free-ranging, seasonally provisioned troop in Buxa Tiger Reserve, India. No captive animals were the subject of the ecological study.",
         "domesticated": "Domestication has not been assessed.",
         "fossil": "Fossil evidence has not been assessed."
       },
@@ -69,12 +69,46 @@
           "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
           "licenseAppliesTo": "Article text under the stated CC BY 4.0 license; separately credited third-party material is excluded.",
           "attribution": "Liu Z, Tan X, Orozco-terWengel P, et al. (2018). Population genomics of wild Chinese rhesus macaques reveals a dynamic demographic history and local adaptation, with implications for biomedical research. GigaScience 7(9):giy106. https://doi.org/10.1093/gigascience/giy106. Claims are paraphrased."
+        },
+        {
+          "id": "sengupta2015",
+          "title": "Sengupta et al. (2015), Primates, Provisioning and Plants: Impacts of Human Cultural Behaviours on Primate Ecological Functions",
+          "url": "https://doi.org/10.1371/journal.pone.0140961",
+          "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140961",
+          "version": "PLOS ONE 10(11):e0140961; version of record published 2015-11-04",
+          "stableId": "doi:10.1371/journal.pone.0140961",
+          "publishedAt": "2015-11-04",
+          "accessedAt": "2026-09-24",
+          "locator": "Abstract; Methods, Study Area, Study Troop, and Dietary observations and seed handling mechanisms; Results, Fruit availability, degree of provisioning and degree of frugivory, Sites of seed deposition; Table 3.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), linked from the article copyright notice.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Primary field study of one 64-individual free-ranging rhesus macaque troop in Damanpur Block, Buxa Tiger Reserve buffer zone, West Bengal, India, observed October 2013 to September 2014. Claims are paraphrased and limited to this troop and study period; no figures or third-party material are reused.",
+          "rightsHolder": "Sengupta, McConkey, and Radhakrishna",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Article text under the linked CC BY 4.0 license; separately credited third-party material is excluded.",
+          "attribution": "Sengupta A, McConkey KR, Radhakrishna S (2015). Primates, Provisioning and Plants: Impacts of Human Cultural Behaviours on Primate Ecological Functions. PLoS ONE 10(11):e0140961. https://doi.org/10.1371/journal.pone.0140961. Claims are paraphrased."
         }
       ],
       "facets": {
         "morphology": { "status": "not-assessed", "gaps": ["The selected population-genomics study does not assess species-level anatomical morphology or its full variation."] },
         "lifeHistory": { "status": "not-assessed", "gaps": ["No life-cycle, reproductive, growth, survival, or longevity evidence was assessed."] },
-        "ecology": { "status": "not-assessed", "gaps": ["Candidate genomic signals do not establish a bounded account of the species' ecological interactions or realized adaptations."] },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "In one free-ranging troop of 64 rhesus macaques in the buffer zone of Buxa Tiger Reserve, West Bengal, India, observed from October 2013 to September 2014, fruit comprised 70.8% of the diet in the study-defined non-provisioning period (May–September) and 28.8% in the provisioning period (October–April). Mean daily range was 4.72 km and 2.58 km for those periods, respectively. These are seasonal observations of one troop and do not isolate provisioning from every seasonal influence or describe the species as a whole.",
+              "textZh": "在印度西孟加拉邦布克萨虎保护区缓冲区一个由 64 只恒河猴组成的自由活动群体中，研究于 2013 年 10 月至 2014 年 9 月进行观察。按研究定义，5–9 月为无投喂期、10–4 月为投喂期；水果分别占这两个时期饮食的 70.8% 和 28.8%，平均日活动距离分别为 4.72 千米和 2.58 千米。这是对单一群体的季节性观察，无法排除所有季节影响，也不能代表整个物种。",
+              "sourceIds": ["sengupta2015"],
+              "locator": "Methods, Study Area and Study Troop; Results, Fruit availability, degree of provisioning and degree of frugivory and Sites of seed deposition; Table 3.",
+              "placeTimeScope": "Damanpur Block in the buffer zone of Buxa Tiger Reserve, West Bengal, India; one troop observed October 2013–September 2014. The article defines May–September as non-provisioning and October–April as provisioning.",
+              "lifeStatus": "One free-ranging troop exposed to seasonal tourist and local food provisioning; no captive animals were studied.",
+              "translationStatus": "translated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["The study covers one troop and one annual cycle; broader populations, geographic variation, and causal effects independent of season remain unassessed."]
+        },
         "evolution": {
           "status": "partially-supported",
           "claims": [
@@ -112,7 +146,7 @@
       },
       "completeness": {
         "status": "incomplete",
-        "reasons": ["Only Chinese population-genomic samples and site records from one primary study were assessed; five facets remain not-assessed and evolution and distribution are partial.", "No systematic literature search or independent expert review has been completed."]
+        "reasons": ["Only one Chinese population-genomic study and one site-specific ecological study of a single Indian troop were assessed; four facets remain not-assessed and ecology, evolution, and distribution are partial.", "No systematic literature search or independent expert review has been completed."]
       },
       "expertReview": { "status": "not-reviewed", "reviewers": [], "reviewDigest": null }
     },

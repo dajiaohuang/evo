@@ -10,7 +10,7 @@ const rawPath = resolve(root, 'data/knowledge/raw-dossiers/primates-dossiers-bat
 const shardPath = resolve(root, 'data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br')
 const manifestPath = resolve(root, 'data/knowledge/catalogue-dossiers-primates-batch-3.metadata.json')
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex')
-const expectedGenerationSourceSha256 = '765de77ae1f3b3d44f271df100d3bfa2fdd9c8be97cfdb59a797eaf7568d8d83'
+const expectedGenerationSourceSha256 = 'f950f3d0af0905f136be4356a6b33a62daec577b1be271ae8578a4aa32c41905'
 const excludedIds = new Set(['6MB3T', '4C92G', '3H3C9', '4LTSY'])
 const expected = new Map([
   ['3WWNQ', {
@@ -69,10 +69,12 @@ for (const dossier of source.records) {
     assert.ok(item.title && item.version && item.locator && item.license && item.scope, `Incomplete source provenance in ${dossier.colId}/${item.id}`)
   }
   const biologicalSources = dossier.sources.filter(item => item.licenseAssessment === 'item-level-verified')
-  assert.equal(biologicalSources.length, 1, `Expected one item-level verified biological source for ${dossier.colId}`)
-  assert.equal(biologicalSources[0].licenseVersion, 'CC BY 4.0')
-  assert.equal(biologicalSources[0].licenseUrl, 'https://creativecommons.org/licenses/by/4.0/')
-  assert.ok(biologicalSources[0].rightsEvidenceUrl)
+  assert.equal(biologicalSources.length, dossier.colId === '3WWNQ' ? 2 : 1, `Unexpected item-level verified biological source count for ${dossier.colId}`)
+  for (const biologicalSource of biologicalSources) {
+    assert.equal(biologicalSource.licenseVersion, 'CC BY 4.0')
+    assert.equal(biologicalSource.licenseUrl, 'https://creativecommons.org/licenses/by/4.0/')
+    assert.ok(biologicalSource.rightsEvidenceUrl)
+  }
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...facets].sort())
   for (const [facet, assessment] of Object.entries(dossier.facets)) {
     assert.ok(allowedStatuses.has(assessment.status), `Invalid status ${dossier.colId}/${facet}`)
@@ -95,9 +97,12 @@ const shardIndex = JSON.parse(readFileSync(indexPath, 'utf8'))
 assert.equal(shardIndex.releaseAlias, source.releaseAlias)
 for (const item of shardIndex.shards) {
   const existing = brotliDecompressSync(readFileSync(resolve(root, item.path))).toString('utf8')
-  for (const line of existing.split('\n')) {
-    if (!line) continue
-    const record = JSON.parse(line)
+  const existingRecords = existing.split('\n').filter(Boolean).map(line => JSON.parse(line))
+  if (item.path === 'data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br') {
+    assert.deepEqual(existingRecords.map(record => record.colId).sort(), [...ids].sort(), 'Target shard identity set differs from the source batch')
+    continue
+  }
+  for (const record of existingRecords) {
     assert.ok(!ids.has(record.colId), `COL ID ${record.colId} already exists in indexed shard ${item.path}`)
   }
 }
@@ -129,9 +134,18 @@ const manifest = {
   generationSourceSha256,
 }
 assert.equal(manifest.generationSourceSha256, sha256(sourceBytes), 'Manifest must record the exact source JSON byte digest')
+const indexedShard = shardIndex.shards.find(item => item.path === manifest.path)
+assert.ok(indexedShard, `Target shard is missing from ${indexPath}`)
+Object.assign(indexedShard, {
+  recordCount: manifest.recordCount,
+  decodedSha256: manifest.decodedSha256,
+  compressedSha256: manifest.compressedSha256,
+})
+assert.equal(shardIndex.shards.reduce((sum, item) => sum + item.recordCount, 0), shardIndex.recordCount, 'Dossier shard counts must sum to the indexed record count')
 
 mkdirSync(resolve(root, 'data/knowledge/raw-dossiers'), { recursive: true })
 writeFileSync(rawPath, rawBytes)
 writeFileSync(shardPath, compressed)
 writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8')
+writeFileSync(indexPath, `${JSON.stringify(shardIndex, null, 2)}\n`, 'utf8')
 process.stdout.write(`${JSON.stringify({ recordCount: manifest.recordCount, ids: manifest.ids, rawPath: manifest.rawPath, path: manifest.path, generationSourceSha256: manifest.generationSourceSha256, rawSha256: manifest.rawSha256, decodedSha256: manifest.decodedSha256, compressedSha256: manifest.compressedSha256, byteRoundTrip: decoded.equals(rawBytes) })}\n`)
