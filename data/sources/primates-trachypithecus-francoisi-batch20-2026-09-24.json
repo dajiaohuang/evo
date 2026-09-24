@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "releaseAlias": "COL26.8",
+  "checklistBankDatasetKey": 316115,
+  "checklistBankDoi": "10.48580/dgywk",
+  "releaseDate": "2026-08-20",
+  "checkedAt": "2026-09-24",
+  "batchId": "primates-trachypithecus-francoisi-batch20-2026-09-24",
+  "scope": "One incomplete, source-audited dossier for the exact accepted COL26.8 Trachypithecus francoisi usage 57SDB. Four item-level open-access primary studies support bounded morphology, life-history, ecology, evolutionary, and publication-era distribution claims. Current formal conservation status and species-level fossil occurrence remain unassessed; the dossier is not a systematic review or expert review.",
+  "duplicateAudit": {
+    "baseHead": "b0aed43289798ab41ba46b627a866af224b46959",
+    "checkedIndexRecords": 6931,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "records": [
+    {
+      "colId": "57SDB",
+      "scientificName": "Trachypithecus francoisi (de Pousargues, 1898)",
+      "authorship": "(de Pousargues, 1898)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-09-24",
+      "identity": {
+        "method": "Exact COL26.8 release-scoped usage 57SDB was checked in the pinned name-search registry and followed through the accepted hierarchy registry; scientific name, authorship, species rank, accepted status, parent 7YDX, and sourceDatasetId 2144 match. The row is in the release hierarchy/search projections but not the smaller acceptedTargets projection; no external checklist ID was substituted.",
+        "scope": "Nominal accepted species usage 57SDB in the frozen COL26.8 release. Biological findings are limited to cited study samples, places, dates, and life-status scopes; they do not establish a complete current range or a species-wide trait value.",
+        "sourceIds": ["col"]
+      },
+      "classificationPath": [],
+      "lifeStatusScope": {
+        "wild": "The field claims concern free-ranging groups or fecal samples from Mayanghe, Dashahe, Encheng, Kuankuoshui, Nonggang, or mapped study populations as individually specified. Population-genetic evidence includes wild fecal/tissue material and some captive-institution hair/blood samples; it is not treated as a wild-only sample.",
+        "domesticated": "Domestication has not been assessed. Captive specimens in the 2013 genetic study are distinguished from the wild behavioral, feeding, and fecal-sample claims.",
+        "fossil": "Species-level fossil occurrences and geological ages have not been assessed; no fossil absence is inferred."
+      },
+      "sources": [
+        {
+          "id": "col",
+          "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/57SDB",
+          "version": "COL26.8 released 2026-08-20; ChecklistBank release dataset 316115",
+          "stableId": "col:57SDB@COL26.8",
+          "publishedAt": "2026-08-20",
+          "accessedAt": "2026-09-24",
+          "locator": "Pinned accepted usage 57SDB in the name-search shard and hierarchy node; exact scientific name, authorship, species rank, accepted status, sourceDatasetId 2144, parent 7YDX, and accepted path through Trachypithecus and Primates. The hierarchy node is not a member of the acceptedTargets projection.",
+          "license": "CC BY 4.0 nomenclatural metadata; identity only",
+          "licenseAssessment": "identity-only",
+          "scope": "Accepted name, authorship, rank, status, source-dataset relation, and classification only; no biological claims are taken from the checklist.",
+          "rightsHolder": "Catalogue of Life Foundation",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseAppliesTo": "Pinned nomenclatural and taxonomic checklist metadata only.",
+          "attribution": "Catalogue of Life (2026), COL26.8, ChecklistBank dataset 316115, usage 57SDB. https://doi.org/10.48580/dgywk"
+        },
+        {
+          "id": "liu2013",
+          "title": "Liu et al. (2013), Relatively Recent Evolution of Pelage Coloration in Colobinae: Phylogeny and Phylogeography of Three Closely Related Langur Species",
+          "url": "https://doi.org/10.1371/journal.pone.0061659",
+          "version": "PLoS ONE 8(4):e61659; version of record published 2013-04-17",
+          "stableId": "doi:10.1371/journal.pone.0061659",
+          "publishedAt": "2013-04-17",
+          "accessedAt": "2026-09-24",
+          "locator": "Abstract; Introduction paragraphs describing T. francoisi pelage and range; Materials and Methods > Sample Collection and Amplification and Sequencing of Mitochondrial DNA; Results > Phylogenetic Analysis; Figure 2; Copyright statement.",
+          "license": "Creative Commons Attribution License (CC BY); article page does not state a version number",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Primary phylogeographic study of mitochondrial control-region sequence data from 178 T. francoisi individuals and two separately treated related taxa. Its sample set includes wild fecal material and some captive-institution hair/blood; all biological claims here are limited to the paper's samples and stated publication-era range. Only paraphrased findings are retained; no article text, tables, or figures are redistributed.",
+          "rightsHolder": "The article authors",
+          "licenseVersion": "CC BY; version not stated in article copyright statement",
+          "licenseUrl": "https://creativecommons.org/licenses/by/",
+          "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061659",
+          "rightsEvidenceLocator": "Article front matter > Copyright: open-access article under the Creative Commons Attribution License; the page does not specify a version number.",
+          "licenseAppliesTo": "The article's text and content under its stated Creative Commons Attribution License; third-party material, if separately credited, remains subject to its credit line.",
+          "attribution": "Liu Z, Wang B, Nadler T, Liu G, Sun T, Huang C, Zhou Q, Zhou J, Que T, Wang Z, Roos C, Li M (2013). Relatively Recent Evolution of Pelage Coloration in Colobinae: Phylogeny and Phylogeography of Three Closely Related Langur Species. PLoS ONE 8(4):e61659. https://doi.org/10.1371/journal.pone.0061659. Claims paraphrased; changes made."
+        },
+        {
+          "id": "yao2024",
+          "title": "Yao et al. (2024), Feeding adaptation of François' langurs (Trachypithecus francoisi) to the fragmented limestone habitats in Southwest China",
+          "url": "https://doi.org/10.1002/ece3.11269",
+          "version": "Ecology and Evolution 14(4):e11269; version of record first published 2024-04-22",
+          "stableId": "doi:10.1002/ece3.11269",
+          "publishedAt": "2024-04-22",
+          "accessedAt": "2026-09-24",
+          "locator": "Abstract; Methods > Study Site and Subject and Field Data Collection; Results > Diet Composition and Seasonal Changes; Crossref deposited license metadata for the version of record.",
+          "license": "Creative Commons Attribution 4.0 International; publisher-deposited Crossref license metadata and open-access article page",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Primary ten-month feeding study of one free-ranging group at Encheng National Nature Reserve, Guangxi, China, July 2019–June 2020. Claims are restricted to this group, study period, and fragmented karst site. Only paraphrased findings are retained; no article text or figures are redistributed.",
+          "rightsHolder": "The article authors",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsEvidenceUrl": "https://api.crossref.org/works/10.1002/ece3.11269",
+          "rightsEvidenceLocator": "Crossref work record > message.license[0]: version-of-record license URL is CC BY 4.0, start date 2024-04-22; publisher page identifies the article as Open Access.",
+          "licenseAppliesTo": "The version-of-record article under its deposited CC BY 4.0 license; separately credited third-party material may have separate terms.",
+          "attribution": "Yao W, Huang CM, Zhao JX, Huang R, Li WH, Fan PL, Zhou QH (2024). Feeding adaptation of François' langurs (Trachypithecus francoisi) to the fragmented limestone habitats in Southwest China. Ecology and Evolution 14(4):e11269. https://doi.org/10.1002/ece3.11269. Claims paraphrased; changes made."
+        },
+        {
+          "id": "deng2023",
+          "title": "Deng et al. (2023), A preliminary study on home range and daily travel distance of François' langur in a high-altitude area",
+          "url": "https://doi.org/10.1007/s10329-022-01041-w",
+          "version": "Primates 64:247–259; version of record published 2022-12-29, issue date 2023-03",
+          "stableId": "doi:10.1007/s10329-022-01041-w",
+          "publishedAt": "2022-12-29",
+          "accessedAt": "2026-09-24",
+          "locator": "Abstract; Methods > Study Site and Subject and Data Collection; Results > Home-range Size and Daily Travel Distance; Discussion; Rights and Permissions.",
+          "license": "Creative Commons Attribution 4.0 International; article-level rights statement",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Primary field-tracking study at Kuankuoshui National Nature Reserve, Guizhou, China, April 2008–March 2009, including one focal free-ranging group in high-altitude habitat. Home-range measurements depend on estimator; only the stated grid-cell estimates are used in the claim, and the conflicting annual MCP figures are retained as unresolved.",
+          "rightsHolder": "The article authors",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsEvidenceUrl": "https://link.springer.com/article/10.1007/s10329-022-01041-w",
+          "rightsEvidenceLocator": "Article front matter > Rights and permissions: the article is licensed under Creative Commons Attribution 4.0 International; separately credited third-party material is excluded.",
+          "licenseAppliesTo": "The article under its stated CC BY 4.0 license; separately credited third-party items are subject to their own credit lines.",
+          "attribution": "Deng H, Hong W, Zhou J, Li J, et al. (2023). A preliminary study on home range and daily travel distance of François' langur in a high-altitude area. Primates 64:247–259. https://doi.org/10.1007/s10329-022-01041-w. Claims paraphrased; changes made."
+        },
+        {
+          "id": "cao2026",
+          "title": "Cao et al. (2026), Geographical diet variations and microbial diversity: insights into François' langur's adaptive strategies",
+          "url": "https://doi.org/10.1128/msphere.00594-25",
+          "version": "mSphere 11(3):e00594-25; published online 2026-02-24, issue date 2026-03-31",
+          "stableId": "doi:10.1128/msphere.00594-25",
+          "publishedAt": "2026-02-24",
+          "accessedAt": "2026-09-24",
+          "locator": "Abstract; Introduction > species-range literature context; Methods > Study Area and Sample Collection; Results > Diet Diversity and Diet Composition in Different Regions; Copyright.",
+          "license": "Creative Commons Attribution 4.0 International; article-level rights statement",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Primary dietary metabarcoding study in Mayanghe and Dashahe national nature reserves, Guizhou, China. Diet claims use 27 fresh fecal samples from four wild populations collected in March 2022 and do not represent all populations, seasons, or the full geographic range. The introduction's broader country list is treated only as literature context, not a field-verified range record.",
+          "rightsHolder": "The article authors",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "rightsEvidenceUrl": "https://journals.asm.org/doi/10.1128/msphere.00594-25",
+          "rightsEvidenceLocator": "Article information > Copyright: open-access article under the Creative Commons Attribution 4.0 International license.",
+          "licenseAppliesTo": "The article under its stated CC BY 4.0 license; separately credited third-party material may be excluded by its credit line.",
+          "attribution": "Cao H, Yang X, Hu L, Zou Q, Li G, Gou W, Su H (2026). Geographical diet variations and microbial diversity: insights into François' langur's adaptive strategies. mSphere 11(3):e00594-25. https://doi.org/10.1128/msphere.00594-25. Claims paraphrased; changes made."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "In the populations sampled for the mitochondrial phylogeography study, the authors report no observed variability in T. francoisi pelage coloration and describe the species as mostly black with white cheek sideburns. This is a qualitative, study-era pelage observation, not a sex-structured morphometric or anatomical survey.",
+              "sourceIds": ["liu2013"],
+              "locator": "Introduction paragraph describing François' langur and Figure 1 caption; Abstract and Discussion paragraph on pelage variation in the sampled T. francoisi populations.",
+              "placeTimeScope": "The geographic sampling framework published in 2013: Figure 2 lots 01–13 for T. francoisi across the study's southwestern China and northern Vietnam localities. The paper reports sample-population pelage consistency; it does not provide a complete anatomical diagnosis.",
+              "lifeStatus": "The paper's sample set mixes wild fecal/tissue material and some captive-institution hair/blood; the qualitative trait is reported for sampled T. francoisi populations, not for a life-status-separated cohort.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["No comprehensive sex-, age-, and population-stratified morphometric dataset was assessed.", "Pelage description is qualitative and should not be treated as a diagnostic key or species-wide anatomical survey."]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "At Encheng National Nature Reserve, the single monitored wild group comprised six langurs at the start of the July 2019–June 2020 study (two adult males and four adult females) and eight by its end after two infants were born. This records two births in one group over the study period; it does not estimate a species-wide birth rate or interval.",
+              "sourceIds": ["yao2024"],
+              "locator": "Methods > Study Site and Subject: group composition at study start and two births before study end; Abstract and Methods > Field Data Collection for the 10-month study period.",
+              "placeTimeScope": "One free-ranging group at Encheng National Nature Reserve, southwestern Guangxi, China; July 2019–June 2020.",
+              "lifeStatus": "Free-ranging wild group; not a captive breeding cohort.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["Development, age at maturity, reproductive intervals, survival, longevity, and life-history variation across populations remain unassessed."]
+        },
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "In a 10-month study of one free-ranging Encheng group, the authors recorded consumption of 101 plant species plus cliff minerals and at least one insect species. During food-scarce periods, fruit and young-leaf consumption declined as availability declined, while mature leaves and seeds were used as alternative foods. These are local observations from one fragmented karst site and group.",
+              "sourceIds": ["yao2024"],
+              "locator": "Abstract; Methods > Field Data Collection; Results > Diet Composition and Seasonal Changes; Discussion paragraphs interpreting seasonal food availability.",
+              "placeTimeScope": "Encheng National Nature Reserve, southwestern Guangxi, China; observations July 2019–June 2020; one monitored group.",
+              "lifeStatus": "Free-ranging wild group.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            },
+            {
+              "text": "At Mayanghe and Dashahe reserves in Guizhou, dietary metabarcoding of 27 fresh fecal samples from four wild populations collected in March 2022 identified 134 plant families and 336 genera across the two sites; the authors found significant regional differences in composition. The same-season, two-reserve sample does not establish year-round or whole-range diet differences.",
+              "sourceIds": ["cao2026"],
+              "locator": "Abstract; Methods > Study Area and Sample Collection; Results > Diet Diversity and Diet Composition in Different Regions, including Figs. 2–5.",
+              "placeTimeScope": "Mayanghe and Dashahe National Nature Reserves, Guizhou Province, China; 27 fresh fecal samples collected in March 2022 from four populations during the same season.",
+              "lifeStatus": "Wild populations; fecal samples collected at night-roosting sites.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            },
+            {
+              "text": "At Kuankuoshui National Nature Reserve, one free-ranging group in high-altitude habitat (800–1400 m) was followed during April 2008–March 2009. The study's grid-cell estimator gave a 50.7 ha annual home range and seasonal estimates of 37.7 ha in winter–spring versus 27.7 ha in summer–autumn. The paper reports a larger annual minimum-convex-polygon estimate but gives 140.4 ha in the abstract/results and 150.6 ha in the discussion; this discrepancy remains unresolved, so only the grid-cell estimator is quoted here.",
+              "sourceIds": ["deng2023"],
+              "locator": "Abstract and Results > Home-range Size, paragraphs reporting 102 observation days, 918 locations, and the grid-cell estimates; Discussion reports annual MCP 150.6 ha while Abstract and preceding Results report 140.4 ha.",
+              "placeTimeScope": "Kuankuoshui National Nature Reserve, Guizhou, China, 800–1400 m; April 2008–March 2009; one focal group. Estimates vary by estimator and the annual MCP figures conflict within the article.",
+              "lifeStatus": "Free-ranging wild group.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["Diet, habitat use, activity, social organization, and seasonal responses have not been systematically compared across the full range.", "Local reserve and group studies do not establish species-wide ecological values."]
+        },
+        "evolution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "A 2013 mitochondrial control-region study sequenced a 395-bp fragment from 178 T. francoisi individuals sampled from forest lots 01–13 and identified 29 haplotypes. The authors' full 17-lot framework also included T. leucocephalus in lots 14–16 and T. poliocephalus in lot 17. Their mitochondrial phylogenies recovered T. francoisi as polyphyletic relative to the sampled T. leucocephalus and T. poliocephalus clades; the authors explicitly noted that a maternally inherited marker alone was insufficient and called for nuclear-locus studies. This is that study's phylogenetic result, not a revision of the pinned COL26.8 accepted taxonomy.",
+              "sourceIds": ["liu2013"],
+              "locator": "Abstract; Methods > Sample Collection and Amplification and Sequencing of Mitochondrial DNA; Results > Phylogenetic Analysis and Divergence Time Estimation; Discussion paragraph noting nuclear loci are needed.",
+              "placeTimeScope": "The 178 T. francoisi individuals came from forest lots 01–13; the paper's full three-taxon framework includes T. leucocephalus lots 14–16 and T. poliocephalus lot 17. The sample set included wild fecal material and some captive-institution specimens. Single mitochondrial HVI marker only.",
+              "lifeStatus": "Mixed provenance: wild samples plus some captive-institution hair/blood; not a wild-only demographic estimate.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["Nuclear or genome-wide population data linked to comparable, range-wide wild sampling were not evaluated here.", "The 2013 study's taxonomic interpretation predates the pinned COL26.8 release and is not treated as accepted-name evidence."]
+        },
+        "distribution": {
+          "status": "conflicted",
+          "claims": [
+            {
+              "text": "A 2013 phylogeography paper described T. francoisi as endemic to karst hills in southwestern China (Guizhou and Guangxi) and northern Vietnam and mapped its sampled forest lots 01–13. This is the paper's publication-era range statement and sampling frame, not a current range boundary.",
+              "sourceIds": ["liu2013"],
+              "locator": "Introduction paragraph describing the François' langur range; Figure 2 caption and map of T. francoisi lots 01–13.",
+              "placeTimeScope": "Range statement and geographic sample framework published in 2013; southwestern China and northern Vietnam as described by the authors.",
+              "lifeStatus": "Wild population localities and specimens; some captive samples were also included in genetic work but do not constitute occurrence records.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            },
+            {
+              "text": "A 2026 diet paper's introduction lists China, Vietnam, and Laos in its literature-based distribution summary, but its own field sampling is limited to two reserves in Guizhou, China. The paper therefore does not directly verify Lao occurrence; this broader literature statement conflicts in geographic scope with the 2013 range description and remains unresolved here.",
+              "sourceIds": ["cao2026"],
+              "locator": "Introduction paragraph on distribution; compare Methods > Study Area and Sample Collection, which reports field sampling only in Mayanghe and Dashahe, Guizhou.",
+              "placeTimeScope": "Literature-context statement published in 2026; the study's own field evidence is only from Mayanghe and Dashahe reserves in Guizhou, China, with samples collected March 2022.",
+              "lifeStatus": "The introduction discusses a literature-based wild range; the study's direct samples are from wild populations in two Chinese reserves.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["A current authoritative range assessment and direct confirmation of all country-level occurrences, especially the Laos range statement, were not reviewed.", "Neither the 2013 sample map nor the 2026 two-reserve study defines a complete contemporary range or population distribution."]
+        },
+        "fossil": {
+          "status": "not-assessed",
+          "gaps": ["Species-level fossil occurrences, taxonomic identification, provenance, and geological ages have not been systematically searched or verified; no fossil absence is inferred."]
+        },
+        "conservation": {
+          "status": "not-assessed",
+          "gaps": ["The current primary IUCN assessment, criteria, population trend, and threats were not verified. A 2026 study's introduction cites an earlier Endangered assessment, but that secondary citation is not treated as the current formal status.", "No current range-wide population census or trend was established by the cited local studies."]
+        }
+      },
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "This is a bounded primary-source dossier, not a reproducible systematic literature search; it does not cover all populations or all seven facets.",
+          "Morphology is limited to qualitative pelage evidence, and life history to two births in one observed group.",
+          "The range literature statements differ on geographic scope; current distribution and formal conservation assessment remain unresolved.",
+          "Species-level fossil evidence was not assessed, and no independent expert review was completed."
+        ]
+      },
+      "expertReview": {"status": "not-reviewed", "reviewers": [], "reviewDigest": null}
+    }
+  ]
+}
