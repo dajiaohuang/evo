@@ -42,12 +42,13 @@ RC155 生成的来源标签筛查计数为：形态 48,482 种、生态 41,445 �
 30. 新增 6 个 COL26.8 接受种档案：灵长目 3 种（`3WWNQ`、`3WWP6`、`6TM9B`）、酵母 2 种（`4TWCR`、`4VCRL`）及枝角类 `Daphnia magna`（`6CCSV`）。每条均精确匹配固定版接受种 ID、学名、rank 和 sourceDatasetId；主张限定于所引研究中的种群、菌株、样本与方法，未评估主题保持 not-assessed。六份档案均 incomplete、not-reviewed。本批只扩充来源档案索引；App 与 GitHub Pages 继续共用同一精选核心内容。
 31. 再新增 5 个 COL26.8 接受种档案：灵长目 `Lemur catta`（`3T528`）与 `Macaca nemestrina`（`3WWNT`）、真菌 `Neurospora crassa`（`47BC7`）与 `Fusarium graminearum`（`6JSTK`），以及端足目 `Gammarus pulex`（`3F8JD`）。灵长目来源记录现以固定注册树完整核对全部父级分类路径，并记录注册清单校验和；主张继续限定于引文的样本、地点与方法，未评估主题保持 not-assessed。五份档案均 incomplete、not-reviewed。本批只扩充来源档案索引，不扩大 App / GitHub Pages 的精选核心包；两端仍共用包含灵长目在内的同一精选内容。
 32. 新增两份重点灵长目档案：蜘蛛猴 `Ateles geoffroyi`（`J8P6`）与婆罗洲猩猩 `Pongo pygmaeus`（`4LTT2`）。前者仅记录哥斯达黎加奥萨半岛栖息点研究中的访客、幼苗与粪金龟比较；后者仅记录 Danau Sentarum 周边巢调查的局地模型估计。来源许可、完整 COL26.8 父链及注册清单校验和均已记录；每种仅生态主题部分支持，其余六主题未评估。两份档案均 incomplete、not-reviewed，不新增 App / GitHub Pages 内容。
+33. 修订灵长目法郎叶猴 Trachypithecus francoisi（COL26.8 57SDB）分布证据：2013 年研究描述中国西南部和越南北部的名义种范围；2026 年研究的老挝范围句引用的是 T. francoisi sensu lato 综述，而其野外取样只在贵州。固定分类中 T. laotum、T. ebenus、T. hatinhensis 是另列接受种。现将分布主题从 conflicted 调整为 partially-supported；老挝对 57SDB 仍未确认，既不作存在也不作缺席判断。记录数不变，档案仍 incomplete、not-reviewed；App 与 Pages 精选包不变。
 
 ## 覆盖含义与尚未完成的内容
 
 “全树可查询、可查看缺口”已经落地；“全树所有物种都有全面科学档案”没有完成。
 逐物种完整档案的固定准入标准见[COL26.8 物种科学档案准入标准](species-dossier-standard.md)。该标准明确七个科学主题、证据与权利记录、未知状态处理以及完整档案和专家评审的独立计量；后续覆盖数字应按该标准生成。
-截至 2026-09-24 的当前覆盖计数（固定 COL26.8）：层级索引覆盖 2,183,133 个接受种；来源原文关联 80,838 种；有来源双语入门概述 55 种。档案分片索引列出 49 个分片，共 6,934 条唯一种级档案记录；逐片校验的行数及压缩/解压 SHA-256 均与索引一致。6,934 条均为 incomplete、均为 not-reviewed；完整科学档案为 0，外部领域专家评审为 0。七主题状态计数如下（未列状态为 0）：形态 partial 6,891、not-assessed 43；生活史 partial 174、not-assessed 6,760；生态 partial 6,913、not-assessed 21；演化 partial 48、not-assessed 6,886；分布 partial 201、conflicted 1、not-assessed 6,732；化石 partial 1、not-assessed 6,933；保育 partial 29、not-assessed 6,905。另有 2,176,199 个接受种没有档案记录。档案条目数和 partial 主题都不表示完整科学覆盖；权威身份集合见[档案分片索引](../data/knowledge/catalogue-dossier-shards.json)。新增 Cyclopia 档案的物种清单及定位见 [SANBI 来源记录](sanbi-descriptions.md#cyclopia-individual-species-accounts)。
+截至 2026-09-24 的当前覆盖计数（固定 COL26.8）：层级索引覆盖 2,183,133 个接受种；来源原文关联 80,838 种；有来源双语入门概述 55 种。档案分片索引列出 49 个分片，共 6,934 条唯一种级档案记录；逐片校验的行数及压缩/解压 SHA-256 均与索引一致。6,934 条均为 incomplete、均为 not-reviewed；完整科学档案为 0，外部领域专家评审为 0。七主题状态计数如下（未列状态为 0）：形态 partial 6,891、not-assessed 43；生活史 partial 174、not-assessed 6,760；生态 partial 6,913、not-assessed 21；演化 partial 48、not-assessed 6,886；分布 partial 202、not-assessed 6,732；化石 partial 1、not-assessed 6,933；保育 partial 29、not-assessed 6,905。另有 2,176,199 个接受种没有档案记录。档案条目数和 partial 主题都不表示完整科学覆盖；权威身份集合见[档案分片索引](../data/knowledge/catalogue-dossier-shards.json)。新增 Cyclopia 档案的物种清单及定位见 [SANBI 来源记录](sanbi-descriptions.md#cyclopia-individual-species-accounts)。
 来源字段标签筛查另行报告，不得与“有原文”或“有逐主题证据档案”相加；字段可能缺少段落级定位、范围限定及概念等同性审查。
 这些新概述的计数仅指精确关联到 COL ID 的本层内容；原有 133 份导航档案仍保留在资源包体系内，不能用同名自动合并物种概念。
 

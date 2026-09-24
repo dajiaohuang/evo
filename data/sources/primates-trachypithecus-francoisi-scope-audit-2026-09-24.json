@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "revisionId": "primates-trachypithecus-francoisi-scope-audit-2026-09-24",
+  "reviewedAt": "2026-09-24",
+  "target": {
+    "releaseAlias": "COL26.8",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "colId": "57SDB",
+    "scientificName": "Trachypithecus francoisi (de Pousargues, 1898)",
+    "parentGenusId": "7YDX",
+    "baseBatchId": "primates-trachypithecus-francoisi-batch20-2026-09-24"
+  },
+  "decision": {
+    "previousDistributionStatus": "conflicted",
+    "newDistributionStatus": "partially-supported",
+    "summary": "The apparent Laos conflict compares a 2013 nominal-species range statement with a 2026 secondary range sentence whose cited Lao source is explicitly about the broader T. francoisi sensu lato group. COL26.8 accepts T. laotum, T. ebenus, and T. hatinhensis as separate species. The available sources do not verify presence or absence of COL26.8 usage 57SDB in Laos.",
+    "notClaimed": [
+      "Laos is confirmed distribution for COL26.8 usage 57SDB.",
+      "COL26.8 usage 57SDB is absent from Laos.",
+      "The reviewed range sources establish a complete or current global range."
+    ]
+  },
+  "classificationEvidence": {
+    "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "searchShardPath": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-tra.jsonl.gz",
+    "acceptedRelatedTaxa": [
+      {
+        "id": "57SDB",
+        "scientificName": "Trachypithecus francoisi (de Pousargues, 1898)"
+      },
+      {
+        "id": "57SDG",
+        "scientificName": "Trachypithecus laotum (Thomas, 1921)"
+      },
+      {
+        "id": "7CKVK",
+        "scientificName": "Trachypithecus ebenus (Brandon-Jones, 1995)"
+      },
+      {
+        "id": "7CL7K",
+        "scientificName": "Trachypithecus hatinhensis (Dao, 1970)"
+      }
+    ],
+    "interpretation": "The pinned registry establishes accepted-name boundaries only; it is not occurrence evidence."
+  },
+  "sourceUpdates": {
+    "colLocator": "Pinned COL26.8 usage 57SDB in the accepted name-search shard and hierarchy node; exact name, authorship, species rank, status, sourceDatasetId 2144, parent genus 7YDX, and accepted path through Primates. In the same pinned genus search shard, T. laotum (57SDG), T. ebenus (7CKVK), and T. hatinhensis (7CL7K) are separate accepted species. These checklist records establish taxonomic scope, not occurrence.",
+    "cao2026Locator": "Abstract; Introduction, opening paragraph with the China/Vietnam/Laos range statement; Methods > Study Area and Sample Collection, which limits direct field sampling to Mayanghe and Dashahe reserves in Guizhou; References no. 5, Duckworth et al. (2010), whose title specifies T. francoisi sensu lato in Lao PDR; Copyright.",
+    "cao2026Scope": "Primary dietary metabarcoding study in Mayanghe and Dashahe national nature reserves, Guizhou, China. Diet claims use 27 fresh fecal samples from four wild populations collected in March 2022 and do not represent all populations, seasons, or the full geographic range. The introduction's broader country list is literature context, not a direct occurrence record. Its cited Lao review is explicitly scoped to T. francoisi sensu lato; the pinned COL26.8 release recognizes related Lao forms as separate accepted species."
+  },
+  "referenceOnlySources": [
+    {
+      "id": "duckworth2010-scope",
+      "title": "Duckworth et al. (2010), A Review of François' leaf monkey Trachypithecus francoisi (sensu lato) in Lao PDR",
+      "url": "https://doi.org/10.1896/052.025.0111",
+      "version": "Primate Conservation 25:61–79 (2010)",
+      "stableId": "doi:10.1896/052.025.0111",
+      "publishedAt": "2010",
+      "accessedAt": "2026-09-24",
+      "locator": "Article title and Abstract; the title explicitly scopes the review to T. francoisi sensu lato in Lao PDR. Included to document the historical concept referenced by Cao et al. (2026), not as a species-specific occurrence source for COL26.8 usage 57SDB.",
+      "license": "No item-level reuse license verified from the accessible publisher and repository records; citation-only and no article text, tables, or figures reused.",
+      "licenseAssessment": "unknown",
+      "scope": "Taxonomic-scope crosswalk only. Its historical sensu lato treatment is not imported as a biological claim for the COL26.8 accepted species 57SDB.",
+      "rightsHolder": "Not established for the article from accessible item-level terms; the Mahidol repository record identifies Mahidol University in its rights metadata.",
+      "licenseVersion": "Unknown",
+      "licenseUrl": null,
+      "rightsEvidenceUrl": "https://repository.li.mahidol.ac.th/entities/publication/954924a3-8f22-462d-bec3-ffc3baa0dab5",
+      "rightsEvidenceLocator": "Mahidol repository item metadata > Rights; no article-level Creative Commons or other open reuse license was found in the accessed record.",
+      "licenseAppliesTo": "No reuse permission is asserted. The dossier retains bibliographic metadata and a short scope note only; source text, tables, and figures are not redistributed.",
+      "attribution": "Duckworth JW, Boonratana R, Robichaud WG. 2010. A Review of François' leaf monkey Trachypithecus francoisi (sensu lato) in Lao PDR. Primate Conservation 25:61–79. https://doi.org/10.1896/052.025.0111."
+    }
+  ],
+  "distribution": {
+    "status": "partially-supported",
+    "claims": [
+      {
+        "text": "A 2013 phylogeography paper describes T. francoisi as endemic to karst hills in tropical and subtropical southwestern China (Guizhou and Guangxi) and northern Vietnam, and maps sampled forest lots 01–13. The authors sequenced 178 T. francoisi individuals; this is a publication-era range statement and sample frame, not a current complete range boundary.",
+        "sourceIds": [
+          "liu2013"
+        ],
+        "locator": "Introduction, paragraph beginning “The François’s langur”; Figure 2 caption and map of T. francoisi lots 01–13; Methods > Sample Collection and Amplification and Sequencing of Mitochondrial DNA.",
+        "placeTimeScope": "Range statement and sample framework published in 2013; southwestern China and northern Vietnam as described by the authors. The study represented 178 T. francoisi individuals from its sample locations.",
+        "lifeStatus": "Wild fecal and tissue samples plus captive-institution hair and blood samples were used; only identified wild localities support the geographic sample frame.",
+        "translationStatus": "untranslated",
+        "originalLanguage": "en"
+      },
+      {
+        "text": "A 2026 mSphere introduction gives China, Vietnam, and Laos in a literature-based range sentence, but its field sampling covers only Mayanghe and Dashahe reserves in Guizhou. Its reference 5 is Duckworth et al. (2010), whose title explicitly concerns T. francoisi sensu lato in Lao PDR. The pinned COL26.8 registry lists T. laotum (57SDG), T. ebenus (7CKVK), and T. hatinhensis (7CL7K) as separate accepted species alongside T. francoisi (57SDB). Treating the Laos sentence as broad-complex context rather than a confirmed occurrence of 57SDB is an inference from the article's citation scope and the pinned taxonomy; this review did not verify either presence or absence of 57SDB in Laos.",
+        "sourceIds": [
+          "cao2026",
+          "col"
+        ],
+        "locator": "Cao et al. (2026), Introduction, opening range paragraph; Methods > Study Area and Sample Collection; References no. 5. Compare the pinned COL26.8 registry manifest and name-tra.jsonl.gz accepted rows for 57SDB, 57SDG, 7CKVK, and 7CL7K.",
+        "placeTimeScope": "The range sentence is literature context in a 2026 article; direct field data are from wild langurs in Mayanghe and Dashahe reserves, Guizhou, collected in March 2022. Taxon identities follow COL26.8 released 2026-08-20.",
+        "lifeStatus": "The article's country list refers to literature-described wild populations; its own samples were from wild populations at two Chinese reserves. No Lao specimen or field observation was collected by this study.",
+        "translationStatus": "untranslated",
+        "originalLanguage": "en"
+      }
+    ],
+    "gaps": [
+      "A current authoritative species-level range assessment and complete country-level occurrence inventory were not reviewed.",
+      "No direct occurrence evidence for COL26.8 usage 57SDB in Lao PDR was reviewed. Laos remains unconfirmed for this fixed species concept, not established as absent.",
+      "Neither the 2013 sample map nor the 2026 two-reserve study defines complete contemporary occupancy or population distribution."
+    ]
+  },
+  "completenessReasons": [
+    "This remains a bounded source dossier, not a reproducible systematic literature search; it does not cover all populations or all seven facets.",
+    "Morphology is limited to qualitative pelage evidence, and life history to two births in one observed group.",
+    "Distribution is only partially supported: the reviewed Laos statement is broad-complex literature context, and the complete current species-level range remains unverified. Formal conservation assessment details also remain unverified.",
+    "Species-level fossil evidence was not assessed, and no independent expert review was completed."
+  ]
+}
