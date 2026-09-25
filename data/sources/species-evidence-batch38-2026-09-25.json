@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "batchId": "species-evidence-batch38-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-25",
+  "baseAudit": {
+    "baseHead": "c9b01194a3876ac23afc68e2fe30d2cc6f284160",
+    "indexedRecordCount": 6963,
+    "indexedShardCount": 61,
+    "openPullRequests": [],
+    "newRecordColIds": ["TVGD", "3GF5W", "4KF7P"],
+    "updatedColIds": [],
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "newRecords": [
+    {
+      "colId": "TVGD",
+      "scientificName": "Chelonia mydas (Linnaeus, 1758)",
+      "authorship": "(Linnaeus, 1758)",
+      "rank": "species",
+      "sourceDatasetId": "1008",
+      "identityScope": "Exact accepted COL26.8 species usage TVGD. The biological evidence concerns nesting green turtles observed at Rose Atoll National Wildlife Refuge, American Samoa, during 2012–2019; it is not a species-wide abundance or distribution estimate.",
+      "facet": "lifeHistory",
+      "claim": {
+        "text": "Rapid nesting surveys at Rose Atoll National Wildlife Refuge in American Samoa from 2012 through 2019 recorded 218 total female green turtles, with a minimum of 138 unique nesting females confirmed by permanent tags. The authors treat 138 as a minimum because annual surveys averaged 7.6 days and limited survey time could miss nesters. This describes the nesting population at this rookery during those eight seasons, not the species globally.",
+        "textZh": "2012 至 2019 年间，在美属萨摩亚玫瑰环礁国家野生动物保护区开展的快速筑巢调查记录了 218 只雌性绿海龟；永久标记至少确认其中有 138 只不同的筑巢雌龟。作者将 138 只视为最低数量，因为每年平均调查 7.6 天，有限的调查时间可能漏掉部分筑巢个体。该结果描述的是这八个繁殖季中该筑巢地的种群，不代表全球物种数量。",
+        "locator": "Abstract; §2.2.1–2.2.2 for rapid survey effort and tagging; §4 Discussion for the minimum count and detection limitations.",
+        "placeTimeScope": "Rose Atoll National Wildlife Refuge, American Samoa; nesting seasons from 2012 through 2019; free-living nesting females.",
+        "lifeStatus": "Wild nesting females at one rookery; captive, domesticated, and fossil evidence was not assessed."
+      },
+      "facetGap": "An eight-season rapid-survey minimum at one rookery does not establish the full reproductive life history, lifetime fecundity, population trend, or species-wide nesting abundance.",
+      "lifeStatusScope": {
+        "wild": "The claim concerns free-living nesting females at Rose Atoll during 2012–2019.",
+        "domesticated": "No domesticated population was studied.",
+        "captive": "No captive population was studied.",
+        "fossil": "Fossil occurrence and geological age were not assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary nesting study; not a complete species life-history, distribution, or conservation review.",
+        "method": "Verified the accepted COL26.8 usage and every accepted parent node in the pinned hierarchy; reviewed the article abstract, nesting survey methods, tagging and observation limits, discussion of the minimum nester count, and article copyright notice.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage TVGD; DOI 10.3389/fmars.2024.1403240.",
+        "inclusionCriteria": "Primary research article directly identifying Chelonia mydas and reporting an explicitly bounded nesting-female count with survey period and site.",
+        "exclusionCriteria": "Global abundance, other rookeries, full reproductive history, morphology, evolution, broad distribution, fossils, and conservation status not established by the bounded count."
+      },
+      "unassessedFacetGaps": {
+        "morphology": "The selected nesting-abundance result does not document diagnostic morphology or species-level anatomical variation.",
+        "ecology": "The selected claim is a rookery-specific nesting count and does not establish diet, habitat relationships, or ecological interactions.",
+        "evolution": "The selected study does not analyze phylogeny or evolutionary history.",
+        "distribution": "One nesting site does not establish the species' global or regional distribution.",
+        "fossil": "The selected study does not assess fossil occurrences or geological age.",
+        "conservation": "The selected local nesting count is not a species-wide or population-unit conservation assessment."
+      },
+      "source": {
+        "id": "murakawa2024roseatollgreen-turtle",
+        "title": "Abundance, production, and migrations of nesting green turtles at Rose Atoll, American Samoa, a regionally important rookery in the Central South Pacific Ocean",
+        "url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1403240/full",
+        "stableId": "doi:10.3389/fmars.2024.1403240",
+        "version": "Frontiers in Marine Science 11 (2024), article 1403240",
+        "publishedAt": "2024-07-17",
+        "locator": "Abstract; §§2.1–2.2, 4; copyright and license statement.",
+        "license": "Article notice identifies © 2024 Murakawa et al. and states it is distributed under the Creative Commons Attribution License (CC BY 4.0).",
+        "rightsHolder": "Shawn K. Murakawa, Alexander R. Gaos, Devin S. Johnson, Brian Peck, Mark MacDonald, Elyse Sachs, Frank Pendleton, Camryn D. Allen, Marylou K. Staman, Shelbie Ishimaru, Kyle S. Van Houtan, Alphina Liusamoa, T. Todd Jones, and Summer L. Martin",
+        "licenseEvidenceUrl": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1403240/full",
+        "licenseEvidenceLocator": "Article copyright statement: © 2024 Murakawa et al.; Creative Commons Attribution License (CC BY), linking to CC BY 4.0.",
+        "licenseAppliesTo": "The article text under its item-level CC BY 4.0 notice; claim paraphrased and no table, figure, or supplementary dataset is reproduced.",
+        "attribution": "Murakawa SK, Gaos AR, Johnson DS, Peck B, MacDonald M, Sachs E, Pendleton F, Allen CD, Staman MK, Ishimaru S, Van Houtan KS, Liusamoa A, Jones TT, Martin SL (2024). Abundance, production, and migrations of nesting green turtles at Rose Atoll, American Samoa, a regionally important rookery in the Central South Pacific Ocean. Front. Mar. Sci. 11:1403240. https://doi.org/10.3389/fmars.2024.1403240. CC BY 4.0. Claim paraphrased.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "Minimum count of nesting females at Rose Atoll over eight survey seasons; not a global abundance estimate or complete reproductive-life-history account."
+      }
+    },
+    {
+      "colId": "3GF5W",
+      "scientificName": "Glycine max (L.) Merr.",
+      "authorship": "(L.) Merr.",
+      "rank": "species",
+      "sourceDatasetId": "2304",
+      "identityScope": "Exact accepted COL26.8 species usage 3GF5W. The biological evidence concerns grain yield in one cultivated soybean field in Goiás, Brazil, during summer 2019/2020; it is not a species-wide productivity or ecology estimate.",
+      "facet": "ecology",
+      "claim": {
+        "text": "In Field 2 of a soybean field experiment in Goiás, Brazil, during the 2019/2020 summer crop, Table 4 reports grain productivity of 3,440.63 ± 30.80 kg/ha for the control and 4,007.29 ± 99.71 kg/ha for the SAF9 rhizobacteria treatment. These are the reported means and variation for that field, season, and treatment comparison; they do not establish yield effects across cultivars, soils, regions, or seasons.",
+        "textZh": "在巴西戈亚斯州一项大豆田间试验的 2019/2020 年夏季作物中，表 4 报告 Field 2 对照组产量为 3,440.63 ± 30.80 千克/公顷，SAF9 根际促生菌处理组为 4,007.29 ± 99.71 千克/公顷。这些数值是该地块、该季节和该处理比较中报告的均值及变异，不足以推断不同品种、土壤、地区或季节的产量效应。",
+        "locator": "Results, Table 4, Field 2, summer crop 2019/2020; Methods for field location, treatments, and experimental design.",
+        "placeTimeScope": "Field 2, Goiás, Brazil; summer crop 2019/2020; cultivated soybean under the control and SAF9 inoculation treatments.",
+        "lifeStatus": "Cultivated crop in a managed field experiment; wild populations were not studied."
+      },
+      "facetGap": "One field, season, and treatment comparison does not establish species-wide yield potential, crop ecology, or consistent response across cultivars, soils, and regions.",
+      "lifeStatusScope": {
+        "wild": "The study concerns cultivated soybean fields, not wild populations.",
+        "domesticated": "A cultivated crop was studied; the paper does not assess the full history or breadth of domestication.",
+        "captive": "Not applicable; this is a crop-field experiment.",
+        "fossil": "Fossil occurrence and geological age were not assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary field experiment; not a complete species ecology, agronomy, or seven-facet review.",
+        "method": "Verified the exact accepted usage and every accepted parent node in the pinned COL26.8 hierarchy; reviewed the study design, field and season descriptions, Table 4 treatment values, and item-level article license statement.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage 3GF5W; DOI 10.3390/microorganisms10040691.",
+        "inclusionCriteria": "Primary research article directly naming Glycine max and reporting a localized field productivity comparison with a defined treatment.",
+        "exclusionCriteria": "Wild ecology, productivity beyond the sampled field and season, global crop performance, morphology, life history, evolution, range, fossils, and conservation claims not established by this trial."
+      },
+      "unassessedFacetGaps": {
+        "morphology": "The field-yield comparison does not document diagnostic morphology or species-level anatomical variation.",
+        "lifeHistory": "The study does not assess a complete plant life cycle, phenology, or reproductive history.",
+        "evolution": "The selected field experiment does not analyze phylogeny or evolutionary history.",
+        "distribution": "A cultivated field location does not establish wild distribution or crop geography.",
+        "fossil": "The selected experiment does not assess fossil occurrences or geological age.",
+        "conservation": "The selected crop-yield comparison does not assess wild population status or conservation categories."
+      },
+      "source": {
+        "id": "fiuza2022soybean-rhizobacteria",
+        "title": "Effect of Rhizobacteria Inoculation via Soil and Seeds on Glycine max L. Plants Grown on Soils with Different Cropping History",
+        "url": "https://www.mdpi.com/2076-2607/10/4/691",
+        "stableId": "doi:10.3390/microorganisms10040691",
+        "version": "Microorganisms 10(4):691 (2022)",
+        "publishedAt": "2022-03-23",
+        "locator": "Methods §§2.1–2.4; Results and Table 4; article copyright and license statement.",
+        "license": "Article is © 2022 by Denise Almeida Fonseca Fiuza and coauthors and is distributed under the Creative Commons Attribution License (CC BY 4.0).",
+        "rightsHolder": "Denise Almeida Fonseca Fiuza, Luciana Cristina Vitorino, Edson Luiz Souchie, Moacir Ribeiro Neto, Layara Alexandre Bessa, Cintia Faria da Silva, and Natasha Taline Trombela",
+        "licenseEvidenceUrl": "https://www.mdpi.com/2076-2607/10/4/691",
+        "licenseEvidenceLocator": "Publisher item record and article copyright/license notice; Crossref item license metadata lists https://creativecommons.org/licenses/by/4.0/.",
+        "licenseAppliesTo": "The article text under its item-level CC BY 4.0 notice; claim paraphrased from reported results and no table or figure is reproduced.",
+        "attribution": "Fiuza DAF, Vitorino LC, Souchie EL, Ribeiro Neto M, Bessa LA, Silva CF, Trombela NT (2022). Effect of Rhizobacteria Inoculation via Soil and Seeds on Glycine max L. Plants Grown on Soils with Different Cropping History. Microorganisms 10(4):691. https://doi.org/10.3390/microorganisms10040691. CC BY 4.0. Claim paraphrased.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "Grain yield in a specified Goiás field during one summer season for the reported control and SAF9 comparison; not a general yield claim."
+      }
+    },
+    {
+      "colId": "4KF7P",
+      "scientificName": "Pleurotus pulmonarius (Fr.) Quél.",
+      "authorship": "(Fr.) Quél.",
+      "rank": "species",
+      "sourceDatasetId": "2073",
+      "identityScope": "Exact accepted COL26.8 species usage 4KF7P. The biological evidence concerns reported total yield from one managed bag-cultivation experiment using strain Hangxiu 1; it does not characterize wild populations or other strains and cultivation systems.",
+      "facet": "ecology",
+      "claim": {
+        "text": "In one managed bag-cultivation experiment with the Hangxiu 1 strain, the A3 substrate treatment replacing 20% of cottonseed shell with camellia shell produced a reported total yield of 407.83 ± 24.93 g per bag and biological efficiency of 72.83 ± 4.45% (mean ± SD, n=3). The article reports no significant yield or biological-efficiency difference among the tested 0–20% replacement treatments. The result is limited to this cultivation experiment and strain.",
+        "textZh": "在一项使用 Hangxiu 1 菌株的袋式人工栽培试验中，A3 基质以山茶壳替代 20% 棉籽壳，报告的总产量为每袋 407.83 ± 24.93 克，生物学效率为 72.83 ± 4.45%（均值 ± 标准差，n=3）。文章报告，在所测 0–20% 替代处理之间，产量或生物学效率差异均未达到显著水平。该结果仅适用于这一菌株和栽培试验。",
+        "locator": "Methods §§2.1–2.2 for strain, substrate, and experimental design; Results Tables 1–2 for total yield, biological efficiency, and treatment comparisons.",
+        "placeTimeScope": "Trial location and dates are not stated; the Hangxiu 1 strain was supplied by Hangzhou Academy of Agricultural Sciences and camellia shells were sourced from Quzhou, Zhejiang, China.",
+        "lifeStatus": "Cultivated mushrooms grown in prepared substrate bags; wild populations were not studied."
+      },
+      "facetGap": "One strain and managed substrate trial does not establish wild ecology, natural substrate use, or cultivation performance across strains, sites, seasons, and systems.",
+      "lifeStatusScope": {
+        "wild": "No wild populations or field ecological interactions were studied.",
+        "domesticated": "The article tests cultivation performance and does not assess the full history or breadth of domestication.",
+        "captive": "Not applicable; this is managed fungal cultivation.",
+        "fossil": "Fossil occurrence and geological age were not assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary managed cultivation experiment; not a complete species ecology or seven-facet review.",
+        "method": "Verified the accepted usage and each accepted parent node in the pinned COL26.8 hierarchy; reviewed strain and substrate methods, treatment tables, replicate basis, significance statements, and item-level article copyright/license notice.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage 4KF7P; DOI 10.3390/foods13182946.",
+        "inclusionCriteria": "Primary research article directly naming Pleurotus pulmonarius and reporting a defined cultivation treatment, yield outcome, and replicate basis.",
+        "exclusionCriteria": "Wild habitat, natural substrate use, ecology beyond managed cultivation, morphology, life history, evolution, distribution, fossils, and conservation claims not established by this cultivation experiment."
+      },
+      "unassessedFacetGaps": {
+        "morphology": "The substrate-yield experiment does not document diagnostic morphology or species-level anatomical variation.",
+        "lifeHistory": "The study does not assess a full life cycle, wild development, or reproduction outside managed cultivation.",
+        "evolution": "The study does not analyze phylogeny or evolutionary history.",
+        "distribution": "The trial does not establish a geographic range; its cultivation setting is not stated.",
+        "fossil": "The selected study does not assess fossil occurrences or geological age.",
+        "conservation": "The cultivation experiment does not assess wild population status, threats, or conservation categories."
+      },
+      "source": {
+        "id": "huang2024pleurotus-camellia-shell",
+        "title": "The Role of Camellia Shell Substrates in Modulating the Nutritional Characteristics of Pleurotus pulmonarius",
+        "url": "https://www.mdpi.com/2304-8158/13/18/2946",
+        "stableId": "doi:10.3390/foods13182946",
+        "version": "Foods 13(18):2946 (2024)",
+        "publishedAt": "2024-09-18",
+        "locator": "Methods §§2.1–2.2; Results Tables 1–2; article copyright and license statement.",
+        "license": "Article is © 2024 by Yikai Huang and coauthors and is distributed under the Creative Commons Attribution License (CC BY 4.0).",
+        "rightsHolder": "Yikai Huang, Weike Wang, Na Lu, Jing Yu, Shaoning Chen, and Zongsuo Liang",
+        "licenseEvidenceUrl": "https://www.mdpi.com/2304-8158/13/18/2946",
+        "licenseEvidenceLocator": "Publisher article page copyright/license notice; Crossref item license metadata lists https://creativecommons.org/licenses/by/4.0/.",
+        "licenseAppliesTo": "The article text under its item-level CC BY 4.0 notice; claim paraphrased and no table or figure is reproduced.",
+        "attribution": "Huang Y, Wang W, Lu N, Yu J, Chen S, Liang Z (2024). The Role of Camellia Shell Substrates in Modulating the Nutritional Characteristics of Pleurotus pulmonarius. Foods 13(18):2946. https://doi.org/10.3390/foods13182946. CC BY 4.0. Claim paraphrased.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "Reported total yield and biological efficiency from one three-replicate bag-cultivation trial with the Hangxiu 1 strain; trial location and dates are not reported."
+      }
+    }
+  ],
+  "updates": []
+}
