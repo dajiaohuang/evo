@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "batchId": "species-evidence-batch32-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/species-evidence-batch32-2026-09-25.json",
+    "sha256": "9fce1dad81bd00167b1ac38e46e30269786ae19aafced7dfd0b9ab32cb9e3617"
+  },
+  "duplicateCheck": {
+    "baseHead": "c708bcc7489b79fceb6956e72161e32d7dec5a5a",
+    "openPullRequests": [],
+    "indexedRecordCount": 6944,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/species-evidence-batch32-2026-09-25.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 6,
+    "bytes": 49837,
+    "sha256": "1c191271302f934165b0863b6ae53c8ffc3a96361ebf00e14bf0a18898829fed"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-species-evidence-batch32-2026-09-25.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 6,
+    "decodedBytes": 49837,
+    "decodedSha256": "1c191271302f934165b0863b6ae53c8ffc3a96361ebf00e14bf0a18898829fed",
+    "compressedBytes": 6906,
+    "compressedSha256": "37455a23c30a3677fd4c667228078f89d60b1a311317e47de83feef14c6e8733",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-species-evidence-batch32.mjs"
+}
