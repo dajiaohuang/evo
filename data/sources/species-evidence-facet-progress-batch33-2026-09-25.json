@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "batchId": "species-evidence-facet-progress-batch33-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-25",
+  "baseAudit": {
+    "baseHead": "787dd287b290f9b26c3ea64cf4d71c87e9885597",
+    "indexedRecordCount": 6950,
+    "indexedShardCount": 56,
+    "openPullRequests": [],
+    "newRecordColIds": ["4JT63"],
+    "updatedColIds": ["4C92G", "6SZF3"],
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "updates": [
+    {
+      "colId": "4C92G",
+      "scientificName": "Pan troglodytes (Blumenbach, 1775)",
+      "sourceDatasetId": "2144",
+      "facet": "conservation",
+      "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+      "rawPath": "data/knowledge/raw-dossiers/primates-batch-2.jsonl",
+      "metadataPath": "data/knowledge/catalogue-dossiers-primates-batch-2.metadata.json",
+      "baseline": {
+        "rawSha256": "db3c76ee2433658d1e2acfec7f17b3f8b518951f1c3b8e48d022db2f2284e2e9",
+        "compressedSha256": "aa662fd8dcfb5e6d3c1c296020b19315a0ae77609e06950b55547ae9da7597da",
+        "targetRecordSha256": "ee19f5bf0399f1e2da6f4542e6ba67e8f657b508a1ad3cc5dd742b451023f81a",
+        "recordCount": 3
+      },
+      "claims": [
+        {
+          "text": "A spatial model estimated 128,760 weaned central chimpanzees (Pan troglodytes troglodytes) in Western Equatorial Africa in 2013 (95% CI 114,208–317,039). The study estimated that 80.7% of this subspecies in the modeled region occurred outside the protected-area network. These are regional model results for one subspecies, not a current abundance or conservation-status estimate for all Pan troglodytes.",
+          "textZh": "一项空间模型估算，2013 年西赤道非洲的中部黑猩猩亚种（Pan troglodytes troglodytes）有 128,760 只已断奶个体（95% 置信区间：114,208–317,039）；研究还估算该模型区域内 80.7% 的该亚种个体位于保护区网络之外。这些是针对一个亚种的区域模型结果，不代表整个 Pan troglodytes 物种的当前数量或保育等级。",
+          "locator": "Abstract; Results, Abundance estimates and Table 1; Discussion, protected-area network estimate; Methods, nest surveys and spatial models.",
+          "placeTimeScope": "The model estimates 2013 abundance across the central chimpanzee range in Western Equatorial Africa. Survey data came from 59 sites in five countries during 2003–2013; the modeled region also included Angola (Cabinda), where the paper reports no survey data.",
+          "lifeStatus": "The estimates concern free-ranging, weaned central chimpanzees inferred from nest-survey data. They do not include captive populations."
+        }
+      ],
+      "facetGap": "This source covers only the P. t. troglodytes subspecies in one Western Equatorial Africa model and estimates conditions in 2013. It does not establish a current status, a global population estimate for all P. troglodytes subspecies, or an updated IUCN assessment.",
+      "source": {
+        "id": "strindberg2018",
+        "title": "Guns, germs, and trees determine density and distribution of gorillas and chimpanzees in Western Equatorial Africa",
+        "url": "https://doi.org/10.1126/sciadv.aar2964",
+        "stableId": "doi:10.1126/sciadv.aar2964",
+        "version": "Science Advances 4(4):eaar2964 (2018)",
+        "publishedAt": "2018-04-25",
+        "locator": "Abstract; Results, Abundance estimates and Table 1; Discussion, protected-area network estimate; Methods, nest surveys and spatial models.",
+        "license": "Article-level Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0), stated in the article rights notice.",
+        "rightsHolder": "The Authors; exclusive licensee American Association for the Advancement of Science",
+        "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5916511/",
+        "licenseEvidenceLocator": "Article front matter, Copyright and License information: © 2018 The Authors; explicitly states CC BY-NC 4.0 and noncommercial reuse conditions.",
+        "licenseAppliesTo": "Article text; separately credited third-party material may be excluded. Claims are paraphrased; no figure or table is reused.",
+        "attribution": "Strindberg S., Maisels F., Williamson E.A. et al. (2018). Science Advances 4(4):eaar2964. https://doi.org/10.1126/sciadv.aar2964. CC BY-NC 4.0. Claims paraphrased; no figures or tables reused.",
+        "licenseVersion": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "Primary source supports one historical, model-based conservation result for the central chimpanzee subspecies only."
+      }
+    },
+    {
+      "colId": "6SZF3",
+      "scientificName": "Oryza sativa L.",
+      "sourceDatasetId": "2232",
+      "facet": "distribution",
+      "targetShardPath": "data/knowledge/catalogue-dossiers-plants-models-batch-1.jsonl.br",
+      "rawPath": "data/knowledge/catalogue-dossiers-plants-models-batch-1.jsonl",
+      "metadataPath": "data/knowledge/catalogue-dossiers-plants-models-batch-1.manifest.json",
+      "baseline": {
+        "rawSha256": "6b7c2dbc6ce7881ece857d7d319b7ea904d6ce0b3bdf0e271ff8575cd263ec61",
+        "compressedSha256": "bfe1478440b69009fab4800cc9f87449043f02b7bf9973a10c7a49c079867e11",
+        "targetRecordSha256": "c964804644f5421c13ee960ec3e9af0e184f4d781639b80609a84e7c116895b3",
+        "recordCount": 2
+      },
+      "claims": [
+        {
+          "text": "A 2015 genebank study analyzed 107 aromatic and quality Oryza sativa accessions. Passport information placed the sampled accessions in Assam (54), Nagaland (21), Manipur (16), Mizoram (9), Sikkim (5), and Arunachal Pradesh (2), in Northeast India. These are origins recorded for a selected cultivated germplasm sample, not a complete or current range map for rice.",
+          "textZh": "一项 2015 年的种质库研究分析了 107 份香型及优质 Oryza sativa 种质材料。护照信息将这些样本的来源地记为印度东北部的阿萨姆邦（54 份）、那加兰邦（21 份）、曼尼普尔邦（16 份）、米佐拉姆邦（9 份）、锡金邦（5 份）和阿鲁纳恰尔邦（2 份）。这些是精选栽培种质样本的来源记录，并非水稻完整或当前分布图。",
+          "locator": "Materials and Methods, Plant materials; Fig. 1 and accompanying caption.",
+          "placeTimeScope": "The article was published 2015-06-12. The 107 accessions were sampled from the National Genebank, NBPGR using characterization and passport data; original collection dates are not reported in the cited methods.",
+          "lifeStatus": "Cultivated aromatic and quality landrace accessions held ex situ in the National Genebank. The study does not report wild O. sativa occurrences; its O. rufipogon comparisons are outside this claim."
+        }
+      ],
+      "facetGap": "The article documents selected germplasm origins in six Northeast Indian states, not the complete present-day cultivated range, wild distribution, abundance, or geographic coverage of all Oryza sativa groups.",
+      "source": {
+        "id": "roy2015neindiarice",
+        "title": "Genetic Diversity and Population Structure in Aromatic and Quality Rice (Oryza sativa L.) Landraces from North-Eastern India",
+        "url": "https://doi.org/10.1371/journal.pone.0129607",
+        "stableId": "doi:10.1371/journal.pone.0129607",
+        "version": "PLOS ONE 10(6):e0129607 (2015)",
+        "publishedAt": "2015-06-12",
+        "locator": "Materials and Methods, Plant materials; Fig. 1 and accompanying caption.",
+        "license": "Article-level Creative Commons Attribution 4.0 International license, stated in the article copyright notice and linked license.",
+        "rightsHolder": "Somnath Roy et al.",
+        "licenseEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0129607",
+        "licenseEvidenceLocator": "Article Copyright notice before Introduction; its Creative Commons Attribution License link resolves to CC BY 4.0.",
+        "licenseAppliesTo": "Article text; separately credited third-party material may be excluded. Claims are paraphrased; no figure is reused.",
+        "attribution": "Roy S., Banerjee A., Mawkhlieng B., Misra A.K., Pattanayak A. et al. (2015). PLOS ONE 10(6):e0129607. https://doi.org/10.1371/journal.pone.0129607. CC BY 4.0. Claims paraphrased; no figures reused.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "One source supports regional provenance of a selected ex-situ cultivated rice germplasm sample only."
+      }
+    }
+  ],
+  "newRecords": [
+    {
+      "colId": "4JT63",
+      "scientificName": "Platynereis dumerilii (Audouin & Milne Edwards, 1833)",
+      "authorship": "(Audouin & Milne Edwards, 1833)",
+      "rank": "species",
+      "sourceDatasetId": "1090",
+      "identityScope": "Exact accepted COL26.8 species usage 4JT63. The cited article demonstrates laboratory culture reproduction under controlled conditions and does not establish wild population life history.",
+      "facet": "lifeHistory",
+      "claim": {
+        "text": "Using their controlled culture system, the authors raised mature Platynereis dumerilii that spawned and produced viable embryos for experiments and replenishing culture populations. This demonstrates reproduction in the reported laboratory cultures, not reproduction rates or reproductive timing in wild populations.",
+        "textZh": "在受控培养系统中，研究者培育出了成熟的 Platynereis dumerilii 个体；这些个体能够产卵并产生可用于实验及补充培养群体的存活胚胎。这证明的是所报告实验室培养条件下的繁殖，不代表野外种群的繁殖率或繁殖时间规律。",
+        "locator": "Abstract, final sentence; Methods, Water types and filtering, Collecting embryos for sustaining cultures, and Temperature control and monitoring.",
+        "placeTimeScope": "Laboratory cultures at the Marine Biological Laboratory in Woods Hole, Massachusetts, and experiments at Max Perutz Labs in Vienna; paper published 2019-12-05. No field reproductive observations or collection dates are established by these locators.",
+        "lifeStatus": "Laboratory-reared worms held in full-strength natural filtered seawater; salinity was 32–34 ppt at MBL and 34–35 ppt for Vienna experiments. No wild reproductive population was observed."
+      },
+      "facetGap": "The study demonstrates successful reproduction in specified laboratory cultures only; it does not establish a complete natural life-history account, wild reproductive behavior or rates, or variation across wild populations.",
+      "lifeStatusScope": {
+        "wild": "Wild population occurrence and reproduction were not assessed by this laboratory-culture study.",
+        "domesticated": "Domestication was not studied; laboratory cultures are not treated as domesticated populations.",
+        "captive": "The evidence concerns captive laboratory cultures maintained in filtered seawater at MBL and Vienna.",
+        "fossil": "Fossil occurrence and geological age were not assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary laboratory culture-methods article; not a complete life-history or seven-facet review.",
+        "method": "Verified the accepted species usage and each accepted parent node in the pinned COL26.8 registry; reviewed the article abstract, culture-water and embryo-collection methods, temperature conditions, and article-level rights notice.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage 4JT63; DOI 10.1371/journal.pone.0226156.",
+        "inclusionCriteria": "Primary article directly naming P. dumerilii and reporting controlled laboratory reproduction, culture conditions, source locators, and an item-level reuse notice.",
+        "exclusionCriteria": "Wild life-history generalization, full natural distribution, morphology, ecology, evolution, fossils, and conservation claims not established by this culture study."
+      },
+      "unassessedFacetGaps": {
+        "morphology": "This focused culture-system article does not assess species morphology or diagnose variation across wild populations.",
+        "ecology": "Laboratory culture conditions do not establish the species' natural ecological relationships or habitat use.",
+        "evolution": "This article does not analyze phylogeny, evolutionary history, or population-level evolutionary patterns.",
+        "distribution": "The laboratory sites are not a species range assessment; geographic distribution remains unassessed.",
+        "fossil": "This article does not assess fossil occurrences or geological age.",
+        "conservation": "This article does not assess wild population trends, threats, or conservation status."
+      },
+      "source": {
+        "id": "kuehn2019",
+        "title": "A scalable culturing system for the marine annelid Platynereis dumerilii",
+        "url": "https://doi.org/10.1371/journal.pone.0226156",
+        "stableId": "doi:10.1371/journal.pone.0226156",
+        "version": "PLOS ONE 14(12):e0226156 (2019)",
+        "publishedAt": "2019-12-05",
+        "locator": "Abstract, final sentence; Methods, Water types and filtering, Collecting embryos for sustaining cultures, and Temperature control and monitoring.",
+        "license": "Article-level Creative Commons Attribution 4.0 International license; the article copyright notice links to CC BY 4.0.",
+        "rightsHolder": "Emily Kuehn, Alexander W. Stockinger, Jerome Girard, Florian Raible, and B. Duygu Özpolat",
+        "licenseEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0226156",
+        "licenseEvidenceLocator": "Article Copyright notice before Introduction; the Creative Commons Attribution License link resolves to CC BY 4.0.",
+        "licenseAppliesTo": "Article text; separately credited third-party material may be excluded. Claims are paraphrased; no figures or tables are reused.",
+        "attribution": "Kuehn E., Stockinger A.W., Girard J., Raible F., Özpolat B.D. (2019). PLOS ONE 14(12):e0226156. https://doi.org/10.1371/journal.pone.0226156. CC BY 4.0. Claims paraphrased; no figures or tables reused.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "One laboratory reproduction claim bounded to the described culture protocols and sites."
+      }
+    }
+  ]
+}

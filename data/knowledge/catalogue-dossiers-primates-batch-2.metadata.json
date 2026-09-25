@@ -13,9 +13,9 @@
   ],
   "path": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
   "rawPath": "data/knowledge/raw-dossiers/primates-batch-2.jsonl",
-  "rawSha256": "db3c76ee2433658d1e2acfec7f17b3f8b518951f1c3b8e48d022db2f2284e2e9",
-  "decodedSha256": "db3c76ee2433658d1e2acfec7f17b3f8b518951f1c3b8e48d022db2f2284e2e9",
-  "compressedSha256": "aa662fd8dcfb5e6d3c1c296020b19315a0ae77609e06950b55547ae9da7597da",
+  "rawSha256": "724a0377f57dba380c8d37b53890953d2fb5f33908d9ae673b4a82faf2b2234e",
+  "decodedSha256": "724a0377f57dba380c8d37b53890953d2fb5f33908d9ae673b4a82faf2b2234e",
+  "compressedSha256": "25fb964e7d8d411378fb0b9b57e864f03d92b8e321b193533874a97c273c7872",
   "checkedAt": "2026-09-25",
   "generationSource": "data/sources/primates-dossiers-batch-2.json",
   "generationSourceSha256": "c8b917c5ff80a680585b05612793099e1dbdecdb0ae66f961ae6a28e6edc46ec",
@@ -44,8 +44,8 @@
     "indexedRecordCountAfterUpdate": 6934
   },
   "updateMode": "rebuild-one-existing-record-in-place",
-  "decodedBytes": 32915,
-  "compressedBytes": 8188,
+  "decodedBytes": 36321,
+  "compressedBytes": 9071,
   "supplementalUpdates": [
     {
       "batchId": "primates-core-flagship-enrichment-2026-09-24",
@@ -79,6 +79,23 @@
       "decodedSha256": "db3c76ee2433658d1e2acfec7f17b3f8b518951f1c3b8e48d022db2f2284e2e9",
       "compressedSha256": "aa662fd8dcfb5e6d3c1c296020b19315a0ae77609e06950b55547ae9da7597da",
       "mode": "in-place-add-one-evolution-claim-with-exact-sibling-preservation"
+    },
+    {
+      "batchId": "species-evidence-facet-progress-batch33-2026-09-25",
+      "sourcePath": "data/sources/species-evidence-facet-progress-batch33-2026-09-25.json",
+      "sourceSha256": "8f985bd9673f249bfa0a9b97447c51ff4d8c79cf91d60334ab52bf4dc3956083",
+      "generator": "scripts/build-species-evidence-facet-progress-batch33.mjs",
+      "baseHead": "787dd287b290f9b26c3ea64cf4d71c87e9885597",
+      "indexedRecordCountAtAudit": 6950,
+      "targetColIds": [
+        "4C92G"
+      ],
+      "previousDecodedSha256": "db3c76ee2433658d1e2acfec7f17b3f8b518951f1c3b8e48d022db2f2284e2e9",
+      "previousCompressedSha256": "aa662fd8dcfb5e6d3c1c296020b19315a0ae77609e06950b55547ae9da7597da",
+      "previousTargetRecordSha256": "ee19f5bf0399f1e2da6f4542e6ba67e8f657b508a1ad3cc5dd742b451023f81a",
+      "decodedSha256": "724a0377f57dba380c8d37b53890953d2fb5f33908d9ae673b4a82faf2b2234e",
+      "compressedSha256": "25fb964e7d8d411378fb0b9b57e864f03d92b8e321b193533874a97c273c7872",
+      "mode": "in-place-add-one-source-bounded-conservation-claim"
     }
   ]
 }
