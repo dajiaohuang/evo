@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "batchId": "flagship-species-evidence-batch31-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/flagship-species-evidence-batch31-2026-09-25.json",
+    "sha256": "19d0d68828e2a075bc9845d35aa24f0d069f1744767ebcd6d0edadb18c8c74d3"
+  },
+  "duplicateCheck": {
+    "baseHead": "7be16e928d31d9883e2b3377b69d8ec55f501781",
+    "openPullRequests": [],
+    "indexedRecordCount": 6941,
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/flagship-species-evidence-batch31-2026-09-25.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 3,
+    "bytes": 26206,
+    "sha256": "c2e43df6b068dcf2d1f86061c05b806f0f670740a638de57f9e0e663d208a77f"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-flagship-species-evidence-batch31-2026-09-25.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 26206,
+    "decodedSha256": "c2e43df6b068dcf2d1f86061c05b806f0f670740a638de57f9e0e663d208a77f",
+    "compressedBytes": 5009,
+    "compressedSha256": "4ef91e4d5cfeda921a19c38bed6d46e49947a5571afbd3a34d32eb653c3bd628",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-flagship-species-evidence-batch31.mjs"
+}
