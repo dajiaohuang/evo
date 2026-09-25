@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-pan-troglodytes-facets-batch41-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-25",
+  "target": {
+    "colId": "4C92G",
+    "scientificName": "Pan troglodytes (Blumenbach, 1775)",
+    "rank": "species",
+    "sourceDatasetId": "2144"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "audit": {
+    "baseHead": "c341aecf97dcd0c42a7f10b3e2a9655cc3d5c433",
+    "indexedRecordCount": 6969,
+    "targetRecordCount": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "previousRawSha256": "724a0377f57dba380c8d37b53890953d2fb5f33908d9ae673b4a82faf2b2234e",
+    "previousShardDecodedSha256": "724a0377f57dba380c8d37b53890953d2fb5f33908d9ae673b4a82faf2b2234e",
+    "previousShardCompressedSha256": "25fb964e7d8d411378fb0b9b57e864f03d92b8e321b193533874a97c273c7872",
+    "previousTargetRecordSha256": "8130ed31519290e1421b3d33c4a4bd9b7e6dee81a0a3d2557c48064de43f4443",
+    "siblingColIds": ["3H3C9", "4LTSY"]
+  },
+  "sources": [
+    {
+      "id": "curry2023",
+      "title": "Curry et al. 2023. Body mass and growth rates in captive chimpanzees (Pan troglodytes) cared for in African wildlife sanctuaries, zoological institutions, and research facilities. Zoo Biology 42(1):98–106",
+      "url": "https://doi.org/10.1002/zoo.21718",
+      "stableId": "doi:10.1002/zoo.21718",
+      "version": "Zoo Biology 42(1):98–106 (2023); first published online 2022-07-11; DOI 10.1002/zoo.21718",
+      "publishedAt": "2022-07-11",
+      "accessedAt": "2026-09-25",
+      "locator": "Abstract; Methods, data collection for African sanctuary, zoological, and research populations; Results, §§3.1.1–3.1.2; Tables 2–3 and Figure 1.",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the open-access article and repository copy.",
+      "licenseAssessment": "item-level-verified",
+      "rightsEvidenceUrl": "https://researchportal.northumbria.ac.uk/files/70744231/Curry_2021_Zoo_Biology_Manuscript_Repository.pdf",
+      "rightsEvidenceLocator": "Article front matter states the work is open access under the Creative Commons Attribution License; © 2022 The Authors.",
+      "rightsHolder": "Curry et al. (2022)",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseAppliesTo": "The article text; this dossier paraphrases reported results and reproduces no table, figure, or individual-level data.",
+      "attribution": "Curry BA et al. (2023). Zoo Biology 42(1):98–106. https://doi.org/10.1002/zoo.21718. CC BY 4.0. Claims are paraphrased; no tables, figures, or individual-level data are reproduced.",
+      "scope": "Body-mass and growth comparisons across African wildlife sanctuaries, zoological institutions, and research facilities. Subspecies were mixed or unavailable in the captive cohorts; this is not a wild-population body-size estimate."
+    },
+    {
+      "id": "walker2018",
+      "title": "Walker, Walker, Goodall & Pusey. 2018. Maturation is prolonged and variable in female chimpanzees. Journal of Human Evolution 114:131–140",
+      "url": "https://doi.org/10.1016/j.jhevol.2017.10.010",
+      "stableId": "doi:10.1016/j.jhevol.2017.10.010",
+      "version": "Journal of Human Evolution 114:131–140 (2018); published online 2017-11-20; DOI 10.1016/j.jhevol.2017.10.010",
+      "publishedAt": "2017-11-20",
+      "accessedAt": "2026-09-25",
+      "locator": "Abstract; Methods, §2.1 Study site and subjects; Results, §3 Maturation milestones, Table 2 and Figure 1; Discussion.",
+      "license": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0), stated in the article front matter.",
+      "licenseAssessment": "item-level-verified",
+      "rightsEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5819610/",
+      "rightsEvidenceLocator": "Article front matter identifies © 2017 The Authors and the CC BY-NC-ND 4.0 open-access license.",
+      "rightsHolder": "Walker, Walker, Goodall & Pusey (2017)",
+      "licenseVersion": "CC BY-NC-ND 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "licenseAppliesTo": "The article text; this dossier paraphrases the study results and reproduces no figures, tables, or article text beyond factual summaries.",
+      "attribution": "Walker KK, Walker CS, Goodall J, Pusey AE. (2018). Journal of Human Evolution 114:131–140. https://doi.org/10.1016/j.jhevol.2017.10.010. CC BY-NC-ND 4.0. Claims are paraphrased; no figures or tables are reproduced.",
+      "scope": "A life-history study of 36 known-age wild female chimpanzees at Gombe National Park, Tanzania; first-birth timing was available for a smaller subset and was subject to censoring and dispersal-related sample bias."
+    },
+    {
+      "id": "humle2016",
+      "title": "Humle, Maisels, Oates, Plumptre & Williamson. 2016. Pan troglodytes (errata version published in 2018). The IUCN Red List of Threatened Species 2016: e.T15933A17964454",
+      "url": "https://doi.org/10.2305/IUCN.UK.2016-2.RLTS.T15933A17964454.en",
+      "stableId": "doi:10.2305/IUCN.UK.2016-2.RLTS.T15933A17964454.en",
+      "version": "IUCN Red List version 2016-2; 2016 assessment with errata version published in 2018; assessment ID e.T15933A17964454",
+      "publishedAt": "2016",
+      "accessedAt": "2026-09-25",
+      "locator": "Assessment Information; Geographic Range, Range Description (PDF p. 2); assessment record and errata version.",
+      "license": "The assessment states copyright © IUCN and permits educational and non-commercial reproduction with full acknowledgement; resale, reposting, or commercial use requires permission.",
+      "licenseAssessment": "item-level-verified",
+      "rightsEvidenceUrl": "https://dspace.stir.ac.uk/handle/1893/26837",
+      "rightsEvidenceLocator": "The assessment PDF's reuse notice and the repository record identify the 2016 IUCN item and its non-commercial acknowledgement conditions.",
+      "rightsHolder": "International Union for Conservation of Nature (IUCN)",
+      "licenseVersion": "IUCN Red List assessment reuse notice (2017 item copyright; errata deposited 2018)",
+      "licenseUrl": "https://dspace.stir.ac.uk/handle/1893/26837",
+      "licenseAppliesTo": "The assessment text and map. This dossier paraphrases the assessment's range and category only and does not reproduce its map or wording; commercial redistribution requires separate permission.",
+      "attribution": "Humle T, Maisels F, Oates JF, Plumptre A, Williamson EA. (2016; errata version published 2018). Pan troglodytes. The IUCN Red List of Threatened Species 2016: e.T15933A17964454. https://doi.org/10.2305/IUCN.UK.2016-2.RLTS.T15933A17964454.en. Assessment statements are paraphrased; no map is reproduced.",
+      "scope": "Species-level IUCN assessment frozen to its 2016 version (errata published in 2018). Its range and Endangered category are historical assessment findings, not verified as the current 2026 assessment."
+    }
+  ],
+  "claims": {
+    "morphology": {
+      "text": "Across the study's three captive settings, adult zoological and research chimpanzees had greater body mass than African sanctuary chimpanzees in both sexes; sanctuary chimpanzees also had slower estimated growth rates. The cohorts included mixed or unknown subspecies, and care-setting differences cannot be treated as wild-species morphology or as a subspecies comparison.",
+      "textZh": "在该研究比较的三类圈养环境中，动物园和研究机构的成年黑猩猩（雌雄均如此）体重高于非洲野生动物救护中心个体；救护中心个体的估计生长速度也较慢。队列包含不同或未知亚种，照护环境差异不能当作野生全种形态或亚种间比较。",
+      "translationStatus": "translated",
+      "originalLanguage": "en",
+      "sourceIds": ["curry2023"],
+      "locator": "Abstract; Results, §3.1.1 Adult body mass and §3.1.2 Growth parameters; Tables 2–3 and Figure 1.",
+      "placeTimeScope": "Three captive cohorts: 298 chimpanzees from African sanctuaries, 1,030 zoological chimpanzees, and 442 research-facility chimpanzees. Adult comparisons were adjusted for age; the research data repository was accessed in November 2020.",
+      "lifeStatus": "Captive and sanctuary-housed animals only; no free-ranging wild body-mass cohort is measured in this comparison."
+    },
+    "lifeHistory": {
+      "text": "Among 36 known-age wild female chimpanzees studied at Gombe National Park, mean age at sexual maturity was 11.5 years (range 8.5–13.9), and mean age at first birth was 14.9 years (range 11.1–22.1). First-birth estimates came from a smaller, censored subset and were likely biased low because non-dispersing females were overrepresented; these are population-specific estimates, not fixed species constants.",
+      "textZh": "在贡贝国家公园研究的 36 只已知年龄野生雌性黑猩猩中，性成熟平均年龄为 11.5 岁（范围 8.5–13.9 岁），首次生育平均年龄为 14.9 岁（范围 11.1–22.1 岁）。首次生育估计来自更小且包含删失记录的子样本；由于未迁出的雌性比例偏高，估计值可能偏低。这些是特定种群的估计，不是全物种固定常数。",
+      "translationStatus": "translated",
+      "originalLanguage": "en",
+      "sourceIds": ["walker2018"],
+      "locator": "Abstract; Results, §3 Maturation milestones, Table 2 and Figure 1; Discussion.",
+      "placeTimeScope": "Gombe National Park, western Tanzania; known-age wild females followed across long-term community records. The study sample contained 36 females for maturation analysis; first-birth timing was known for fewer animals and includes censored observations.",
+      "lifeStatus": "Free-ranging wild females; no captive reproductive cohort or fossil inference is included."
+    },
+    "distribution": {
+      "text": "The 2016 IUCN assessment described a discontinuous chimpanzee range of more than 2.6 million km² from southern Senegal across the forest belt north of the Congo River to western Tanzania and western Uganda, between about 13°N and 7°S. It described four subspecies ranges; this is the assessment's dated range account, not a current range map.",
+      "textZh": "2016 年 IUCN 评估记载，黑猩猩分布区不连续，面积超过 260 万平方公里，从塞内加尔南部沿刚果河以北的森林带延伸至坦桑尼亚西部和乌干达西部，约介于北纬 13° 至南纬 7°。评估分别描述了四个亚种的分布；这是有明确年代的范围记述，不是当前分布图。",
+      "translationStatus": "translated",
+      "originalLanguage": "en",
+      "sourceIds": ["humle2016"],
+      "locator": "Geographic Range, Range Description (assessment PDF p. 2).",
+      "placeTimeScope": "Global species assessment, 2016 version with errata published in 2018; mapped range and four-subspecies treatment reflect that assessment version.",
+      "lifeStatus": "Geographic range of the extant species; not a captive-distribution inventory or fossil occurrence claim."
+    },
+    "conservation": {
+      "text": "The 2016 IUCN assessment (errata version published in 2018) classified Pan troglodytes as Endangered and expected declines to continue. This is a historical, assessment-version-specific category and rationale; it is not asserted here as the current 2026 Red List status.",
+      "textZh": "IUCN 2016 年评估（2018 年发布勘误版）将 Pan troglodytes 列为濒危（Endangered），并预计下降趋势会持续。此处记录的是特定版本的历史评估类别及依据，不将其宣称为 2026 年当前红色名录等级。",
+      "translationStatus": "translated",
+      "originalLanguage": "en",
+      "sourceIds": ["humle2016"],
+      "locator": "Assessment Information; assessment record e.T15933A17964454.",
+      "placeTimeScope": "Global species-level Red List assessment, version 2016-2; errata version published in 2018. The assessment rationale concerns declines reported for the preceding 20–30 years and projected over the following 30–40 years at publication time.",
+      "lifeStatus": "Wild species conservation assessment; no captive population or fossil status is implied."
+    }
+  },
+  "gaps": {
+    "morphology": [
+      "The source measures body mass and growth in captive settings only; wild body size, skeletal and external morphology, geographic variation, and subspecies-specific patterns remain unassessed."
+    ],
+    "lifeHistory": [
+      "The study is one long-term population and focuses on females; male development, interbirth intervals, longevity, and cross-population variation require additional source review."
+    ],
+    "distribution": [
+      "The range account is an older assessment snapshot; current boundaries, local extirpations, and within-range occupancy have not been reassessed here."
+    ],
+    "conservation": [
+      "The IUCN category is a historical 2016 assessment version. A current global assessment, current population trend, and current threat synthesis were not verified in this revision."
+    ]
+  }
+}
