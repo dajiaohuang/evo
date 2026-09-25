@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "batchId": "species-evidence-batch34-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/species-evidence-batch34-2026-09-25.json",
+    "sha256": "f3c9349d20f119f46d948836ed951a163b9a63f65d4d94a488085c7d07996925"
+  },
+  "baseAudit": {
+    "baseHead": "b13b4cf7d9293e4a482cd20d3eedf0535f2bc282",
+    "indexedRecordCount": 6951,
+    "indexedShardCount": 57,
+    "openPullRequests": [],
+    "newRecordColIds": [
+      "3WWP8",
+      "58HL4",
+      "5CXX5"
+    ],
+    "updatedColIds": [],
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "updatedRecords": [],
+  "newRecords": [
+    {
+      "colId": "3WWP8",
+      "scientificName": "Macaca sylvanus (Linnaeus, 1758)"
+    },
+    {
+      "colId": "58HL4",
+      "scientificName": "Trichoplax adhaerens Schulze, 1883"
+    },
+    {
+      "colId": "5CXX5",
+      "scientificName": "Zea mays L."
+    }
+  ],
+  "indexedRecordCount": 6954,
+  "newShard": {
+    "path": "data/knowledge/catalogue-dossiers-species-evidence-batch34-2026-09-25.jsonl.br",
+    "rawPath": "data/knowledge/raw-dossiers/species-evidence-batch34-2026-09-25.jsonl",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 27226,
+    "decodedSha256": "405efc261ef6b5f37d1bc9e2427ae7311e17366f427cc7e9236e7f8ab182ebef",
+    "compressedBytes": 5584,
+    "compressedSha256": "f107adb52087fbf480bfc2a3b73fcf948a5e8d486c939fd077f1123cc9695927",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-species-evidence-batch34.mjs"
+}

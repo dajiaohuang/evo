@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "batchId": "species-evidence-batch34-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-25",
+  "baseAudit": {
+    "baseHead": "b13b4cf7d9293e4a482cd20d3eedf0535f2bc282",
+    "indexedRecordCount": 6951,
+    "indexedShardCount": 57,
+    "openPullRequests": [],
+    "newRecordColIds": ["3WWP8", "58HL4", "5CXX5"],
+    "updatedColIds": [],
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "updates": [],
+  "newRecords": [
+    {
+      "colId": "3WWP8",
+      "scientificName": "Macaca sylvanus (Linnaeus, 1758)",
+      "authorship": "(Linnaeus, 1758)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "identityScope": "Exact accepted COL26.8 species usage 3WWP8. The cited observation covers two free-ranging groups at one Algerian site for one annual cycle, not a complete species-wide ecology account.",
+      "facet": "ecology",
+      "claim": {
+        "text": "In Gouraya National Park, Algeria, observations from April 2007 through March 2008 reported higher annual dietary species diversity for the peri-urban Les Oliviers group (13.8) than for the non-urban Cap Carbon group (10.4; F=5.51, df=1, P<0.05). This comparison concerns those two observed groups and that annual cycle; it does not establish a species-wide diet pattern or explain the difference causally.",
+        "textZh": "在阿尔及利亚古拉亚国家公园，2007 年 4 月至 2008 年 3 月的观察报告称，城郊 Les Oliviers 群体的年度食物物种多样性（13.8）高于非城郊 Cap Carbon 群体（10.4；F=5.51，df=1，P<0.05）。该比较仅涉及这两个观察群体和这一年度周期，不能代表整个物种的饮食模式，也不能据此解释差异成因。",
+        "locator": "Results, Dietary composition—Dietary species richness and diversity; Methods, Study sites, macaque groups and periods of observation; Data collection and analyses.",
+        "placeTimeScope": "Gouraya National Park, eastern Algeria; two groups observed between April 2007 and March 2008. The peri-urban and non-urban groups were reported as 31–34 and 40–46 individuals, respectively. Dietary analysis excluded unweaned infants.",
+        "lifeStatus": "Free-ranging wild macaques in two observational groups; not captive, domesticated, or fossil evidence."
+      },
+      "facetGap": "One population, two groups, and one annual observation period do not establish species-wide ecological patterns, causal effects of urban proximity, or current conditions.",
+      "lifeStatusScope": {
+        "wild": "Evidence concerns two free-ranging groups observed in Gouraya National Park, Algeria, in 2007–2008.",
+        "domesticated": "Domesticated populations were not studied.",
+        "captive": "Captive populations were not studied.",
+        "fossil": "Fossil occurrence and geological age were not assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary field-observation article; not a complete species ecology or seven-facet review.",
+        "method": "Verified the accepted species usage and every accepted parent node in the pinned COL26.8 registry; reviewed study sites, observation period, diet-diversity methods and results, and article rights notice.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage 3WWP8; DOI 10.1371/journal.pone.0118596.",
+        "inclusionCriteria": "Primary study directly naming M. sylvanus and reporting comparative diet-diversity results for identified wild groups with observation-period and site scope.",
+        "exclusionCriteria": "Species-wide causal claims, current conservation status, complete geographic range, and morphology, evolution, fossils, or other facets not established by this study."
+      },
+      "unassessedFacetGaps": {
+        "morphology": "This field study does not assess species morphology or diagnostic variation.",
+        "lifeHistory": "The cited diet observations do not establish a complete life-history account or demographic rates.",
+        "evolution": "This study does not analyze phylogeny, domestication, or evolutionary history.",
+        "distribution": "One park population is not a complete geographic range assessment.",
+        "fossil": "This study does not assess fossil occurrences or geological age.",
+        "conservation": "The diet comparison does not establish current population trends, threats, or conservation status."
+      },
+      "source": {
+        "id": "maibeche2015",
+        "title": "Is Diet Flexibility an Adaptive Life Trait for Relictual and Peri-Urban Populations of the Endangered Primate Macaca sylvanus?",
+        "url": "https://doi.org/10.1371/journal.pone.0118596",
+        "stableId": "doi:10.1371/journal.pone.0118596",
+        "version": "PLOS ONE 10(2):e0118596 (2015)",
+        "publishedAt": "2015-02-25",
+        "locator": "Results, Dietary composition—Dietary species richness and diversity; article copyright notice.",
+        "license": "Article-level Creative Commons Attribution 4.0 International license, stated in the article copyright notice and linked license.",
+        "rightsHolder": "Yasmina Maibeche, Aissa Moali, Nassima Yahi, and Nelly Menard",
+        "licenseEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118596",
+        "licenseEvidenceLocator": "Article copyright notice; linked Creative Commons Attribution license resolves to CC BY 4.0.",
+        "licenseAppliesTo": "Article text; separately credited third-party material may be excluded. Claim paraphrased; no figure or table reused.",
+        "attribution": "Maibeche Y., Moali A., Yahi N., Menard N. (2015). PLOS ONE 10(2):e0118596. https://doi.org/10.1371/journal.pone.0118596. CC BY 4.0. Claim paraphrased; no figures or tables reused.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "One historical diet-diversity comparison between two named wild groups at one Algerian site."
+      }
+    },
+    {
+      "colId": "58HL4",
+      "scientificName": "Trichoplax adhaerens Schulze, 1883",
+      "authorship": "Schulze, 1883",
+      "rank": "species",
+      "sourceDatasetId": "1123",
+      "identityScope": "Exact accepted COL26.8 species usage 58HL4. The cited article reports behavior in laboratory-cultured animals under controlled food-present and food-absent conditions, not wild behavior.",
+      "facet": "ecology",
+      "claim": {
+        "text": "In laboratory observations, 90% of Trichoplax animals observed with microalgae present (n=30) paused within the first 17 minutes, compared with 22% without food (n=76). Animals observed with food spent an average 39% of observation time paused (12 animals; 5.8 hours total), versus 2.6% without food (65 animals; 33.5 hours total). These are results from the reported culture conditions, not estimates of wild feeding behavior or species-wide rates.",
+        "textZh": "在实验室观察中，有微藻时观察到的 Trichoplax 个体有 90%（n=30）在前 17 分钟内暂停运动；无食物时为 22%（n=76）。有食物时，个体平均有 39% 的观察时间处于暂停状态（12 个体，共 5.8 小时）；无食物时为 2.6%（65 个体，共 33.5 小时）。这些结果仅适用于论文报告的培养条件，不能视为野外行为或整个物种的发生率估计。",
+        "locator": "Results, Trichoplax stops movements and ciliary beating in the presence of food, paragraphs beginning ‘Some animals moved continually’ and ‘Trichoplax paused more frequently’; Methods, Animals.",
+        "placeTimeScope": "Laboratory observations comparing food-present and food-absent conditions; the reported food was the microalga Rhodamonas salina. The paper does not give field locations or a wild collection period for these measurements.",
+        "lifeStatus": "Laboratory-cultured animals observed on a glass substrate; no wild population was observed for this claim."
+      },
+      "facetGap": "One laboratory strain and food treatment do not establish wild behavior, geographic or seasonal variation, natural diet breadth, or species-wide feeding rates.",
+      "lifeStatusScope": {
+        "wild": "Wild occurrence and behavior were not assessed by these laboratory observations.",
+        "domesticated": "Domestication was not studied; laboratory culture is not treated as domestication.",
+        "captive": "Evidence concerns laboratory-cultured animals observed under controlled food conditions.",
+        "fossil": "Fossil occurrence and geological age were not assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary laboratory behavior article; not a complete species ecology or seven-facet review.",
+        "method": "Verified the accepted usage and each accepted parent node in the pinned COL26.8 registry; reviewed laboratory methods, food-present and food-absent results, and the item-level rights notice.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage 58HL4; DOI 10.1371/journal.pone.0136098.",
+        "inclusionCriteria": "Primary study directly identifying Trichoplax and reporting quantitative observations under defined food-present and food-absent laboratory conditions.",
+        "exclusionCriteria": "Wild feeding generalization, complete natural diet or distribution, morphology, evolution, fossil, and conservation claims not established by this laboratory study."
+      },
+      "unassessedFacetGaps": {
+        "morphology": "This behavior experiment does not assess species morphology or diagnostic variation.",
+        "lifeHistory": "The reported feeding pauses do not establish a complete natural life-history account or reproduction.",
+        "evolution": "This article does not analyze phylogeny or evolutionary history.",
+        "distribution": "Laboratory cultures do not establish a geographic range or wild occurrence map.",
+        "fossil": "This article does not assess fossil occurrences or geological age.",
+        "conservation": "This laboratory study does not assess wild population trends, threats, or conservation status."
+      },
+      "source": {
+        "id": "smith2015trichoplax",
+        "title": "Coordinated Feeding Behavior in Trichoplax, an Animal without Synapses",
+        "url": "https://doi.org/10.1371/journal.pone.0136098",
+        "stableId": "doi:10.1371/journal.pone.0136098",
+        "version": "PLOS ONE 10(9):e0136098 (2015)",
+        "publishedAt": "2015-09-02",
+        "locator": "Results, Trichoplax stops movements and ciliary beating in the presence of food; article rights notice.",
+        "license": "The article identifies its text as dedicated to the public domain under CC0 1.0 Universal.",
+        "rightsHolder": "Carolyn L. Smith, Natalia Pivovarova, and Thomas S. Reese",
+        "licenseEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0136098",
+        "licenseEvidenceLocator": "Article-level rights notice states the CC0 1.0 Universal public-domain dedication.",
+        "licenseAppliesTo": "Article text as designated in the rights notice. Claim paraphrased; no figure, movie, or table reused.",
+        "attribution": "Smith C.L., Pivovarova N., Reese T.S. (2015). PLOS ONE 10(9):e0136098. https://doi.org/10.1371/journal.pone.0136098. CC0 1.0. Claim paraphrased; no figures, movies, or tables reused.",
+        "licenseVersion": "CC0 1.0 Universal",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "Quantitative food-associated pauses in one laboratory culture context only."
+      }
+    },
+    {
+      "colId": "5CXX5",
+      "scientificName": "Zea mays L.",
+      "authorship": "L.",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "identityScope": "Exact accepted COL26.8 species usage 5CXX5. The cited study makes a population-genetic inference from sampled maize lines and teosinte accessions, not a complete evolutionary account for the species.",
+      "facet": "evolution",
+      "claim": {
+        "text": "In a population-genomic sample of 982 maize inbred lines and 190 teosinte accessions, the study's neighbor-joining tree grouped the sampled maize lines into a monophyletic clade, with sampled Central Balsas Zea mays ssp. parviglumis accessions closest to maize. The authors interpreted this pattern as support for one maize domestication event and the Balsas River valley as its center. This is an inference from sampled germplasm, not a direct observation of domestication or a complete evolutionary account.",
+        "textZh": "在一项包含 982 个玉米自交系和 190 份大刍草种质的群体基因组样本中，邻接法系统树将所采样的玉米材料聚为一个单系支，并显示采自中央巴尔萨斯地区的 Zea mays ssp. parviglumis 材料与玉米最近。作者将这一模式解释为支持玉米发生过一次驯化、且巴尔萨斯河谷是驯化中心。这是基于抽样种质的推断，不是对驯化过程的直接观察，也不是完整的物种进化史。",
+        "locator": "Results, Genetic structure within the genus Zea; Methods, Plant material and Genotyping and SNP quality control.",
+        "placeTimeScope": "Genome-wide analysis of 982 maize inbred lines and 190 teosinte accessions sampled from Mexico and Central America; article published 2022-02-18. The claim is limited to the sampled lines and the study's population-genetic interpretation.",
+        "lifeStatus": "Evidence includes cultivated maize inbred lines and sampled teosinte accessions; it is not a census of wild populations."
+      },
+      "facetGap": "A population-genomic analysis of sampled germplasm supports a bounded relationship and domestication inference but does not provide a complete evolutionary history, full subspecies coverage, or direct archaeological observation.",
+      "lifeStatusScope": {
+        "wild": "The study includes teosinte accessions but is not a census of wild populations or current wild occurrence.",
+        "domesticated": "The sampled maize inbred lines represent cultivated germplasm; this study analyzes ancestry and selection rather than the full domestication process.",
+        "captive": "Captive populations were not studied.",
+        "fossil": "Fossil evidence and geological age were not assessed in this claim."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary population-genomic study; not a complete species evolution or seven-facet review.",
+        "method": "Verified the accepted COL usage and every accepted parent node in the pinned COL26.8 registry; reviewed sampled materials, SNP methods, neighbor-joining result, authors' interpretation, and item-level rights notice.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage 5CXX5; DOI 10.1186/s12870-022-03427-w.",
+        "inclusionCriteria": "Primary genomic study directly including Zea mays and reporting phylogenetic or population-genetic results with sample scope and interpretation.",
+        "exclusionCriteria": "Direct observation of ancient domestication, exhaustive ancestry, full species-wide phylogeny, morphology, life history, ecology, distribution, fossils, and conservation not established by this study."
+      },
+      "unassessedFacetGaps": {
+        "morphology": "This population-genomic study does not assess diagnostic morphology across the accepted species usage.",
+        "lifeHistory": "The study does not assess the species' complete life history or demographic rates.",
+        "ecology": "The population-genomic analysis does not establish ecological relationships or habitat use.",
+        "distribution": "Sampled accessions from Mexico and Central America are not a complete current range map.",
+        "fossil": "This article does not analyze fossil occurrences or geological age.",
+        "conservation": "The study does not establish current wild population trends, threats, or conservation status."
+      },
+      "source": {
+        "id": "xu2022zea",
+        "title": "Population genomics of Zea species identifies selection signatures during maize domestication and adaptation",
+        "url": "https://doi.org/10.1186/s12870-022-03427-w",
+        "stableId": "doi:10.1186/s12870-022-03427-w",
+        "version": "BMC Plant Biology 22:72 (2022)",
+        "publishedAt": "2022-02-18",
+        "locator": "Results, Genetic structure within the genus Zea; Rights and permissions.",
+        "license": "Article-level Creative Commons Attribution 4.0 International license, stated in Rights and permissions.",
+        "rightsHolder": "Gen Xu, Xuan Zhang, Wenkang Chen, and coauthors",
+        "licenseEvidenceUrl": "https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-022-03427-w",
+        "licenseEvidenceLocator": "Rights and permissions states CC BY 4.0 and identifies conditions for separately credited third-party material.",
+        "licenseAppliesTo": "Article text unless excluded by a third-party credit line. Claim paraphrased; no figure or table reused.",
+        "attribution": "Xu G., Zhang X., Chen W. et al. (2022). BMC Plant Biology 22:72. https://doi.org/10.1186/s12870-022-03427-w. CC BY 4.0. Claim paraphrased; no figures or tables reused.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "One population-genomic phylogenetic interpretation for the study's sampled maize and teosinte germplasm."
+      }
+    }
+  ]
+}
