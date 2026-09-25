@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "batchId": "species-evidence-batch37-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-25",
+  "baseAudit": {
+    "baseHead": "9216738d328e4c856e317be0f0d8fa1c83676c4b",
+    "indexedRecordCount": 6960,
+    "indexedShardCount": 60,
+    "openPullRequests": [],
+    "newRecordColIds": ["4KF6G", "9XW87", "4S9ML"],
+    "updatedColIds": [],
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "newRecords": [
+    {
+      "colId": "4KF6G",
+      "scientificName": "Pleurotus ostreatus (Jacq.) P. Kumm.",
+      "authorship": "(Jacq.) P. Kumm.",
+      "rank": "species",
+      "sourceDatasetId": "2073",
+      "identityScope": "Exact accepted COL26.8 species usage 4KF6G. The biological evidence concerns one managed bag-cultivation experiment in Bangladesh; it does not characterize wild populations or all cultivation systems.",
+      "facet": "ecology",
+      "claim": {
+        "text": "In a managed bag-cultivation experiment at the National Mushroom Development Institute in Savar, Bangladesh, a substrate containing 50% waste tea leaves and 50% sawdust produced a reported total biological yield of 189.50 ± 3.31 g per packet across two flushes, with 79% biological efficiency. The table reports means from three replicates. This result is limited to the tested cultivation setup and does not describe wild fungal ecology or performance across other substrates and conditions.",
+        "textZh": "在孟加拉国萨瓦尔国家蘑菇发展研究所开展的一项袋式人工栽培试验中，含 50% 废茶叶和 50% 锯末的基质在两潮采收中的总生物产量报告为每袋 189.50 ± 3.31 克，生物学效率为 79%。表中数据为三次重复的均值。该结果仅适用于所测试的栽培设置，不能描述野生生态，也不能代表其他基质和条件下的表现。",
+        "locator": "Results §3.3 and Table 3 (50% sawdust + 50% waste tea leaves; total yield and biological efficiency; table note reports three replicates); Methods §§2.1–2.3 for managed bag cultivation and study setting.",
+        "placeTimeScope": "National Mushroom Development Institute, Savar, Bangladesh; managed bag-cultivation experiment; study dates not stated in the article.",
+        "lifeStatus": "Cultivated mushrooms grown in prepared substrate bags; wild populations were not studied."
+      },
+      "facetGap": "One managed substrate trial does not establish natural habitat, wild ecological interactions, or performance across strains, farms, seasons, and cultivation conditions.",
+      "lifeStatusScope": {
+        "wild": "No wild populations or field ecological interactions were studied.",
+        "domesticated": "The article studies cultivation performance; it does not establish the full history or breadth of domestication.",
+        "captive": "Not applicable; this is a managed fungal cultivation experiment.",
+        "fossil": "Fossil occurrence and geological age were not assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary managed cultivation experiment; not a complete species ecology or seven-facet review.",
+        "method": "Verified the accepted usage and each accepted parent node in the pinned COL26.8 registry; reviewed the article's cultivation setting, substrate treatments, two-flush yield table, replicate note, and item-level copyright/license statement.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage 4KF6G; DOI 10.3389/fsufs.2023.1308053.",
+        "inclusionCriteria": "Primary research article directly naming P. ostreatus and reporting a defined cultivation treatment, yield outcome, and replicate basis.",
+        "exclusionCriteria": "Wild habitat, natural substrate use, species-wide ecological relationships, morphology, life history, evolution, distribution, fossils, and conservation claims not established by this cultivation experiment."
+      },
+      "unassessedFacetGaps": {
+        "morphology": "The substrate-yield experiment does not document diagnostic morphology or species-level anatomical variation.",
+        "lifeHistory": "The study does not assess a full life cycle, wild development, or reproduction outside managed cultivation.",
+        "evolution": "The study does not analyze phylogeny or evolutionary history.",
+        "distribution": "The cultivation location is not a geographic range assessment.",
+        "fossil": "The study does not assess fossil occurrences or geological age.",
+        "conservation": "The experiment does not assess wild population status, threats, or conservation categories."
+      },
+      "source": {
+        "id": "ahmed2024pleurotuswastetea",
+        "title": "Optimizing tea waste as a sustainable substrate for oyster mushroom (Pleurotus ostreatus) cultivation: a comprehensive study on biological efficiency and nutritional aspect",
+        "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1308053/full",
+        "stableId": "doi:10.3389/fsufs.2023.1308053",
+        "version": "Frontiers in Sustainable Food Systems 7:1308053 (published 2024-01-17)",
+        "publishedAt": "2024-01-17",
+        "locator": "Methods §§2.1–2.3; Results §3.3; Table 3; article copyright block.",
+        "license": "Article states © 2024 Ahmed, Niloy, Islam, Reza, Yesmin, Rasul and Khandakar and is distributed under the Creative Commons Attribution License (CC BY 4.0).",
+        "rightsHolder": "Raisa Ahmed, Md. Asif Hasan Mazumder Niloy, Md. Shafiqul Islam, Md. Selim Reza, Sabina Yesmin, Shahriar Bin Rasul, and Jebunnahar Khandakar",
+        "licenseEvidenceUrl": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1308053/full",
+        "licenseEvidenceLocator": "Article page Copyright block: © 2024 Ahmed, Niloy, Islam, Reza, Yesmin, Rasul and Khandakar; Creative Commons Attribution License (CC BY).",
+        "licenseAppliesTo": "Article text under the item-level CC BY 4.0 notice; separately credited third-party content is excluded. Claim paraphrased; no table or figure is reproduced.",
+        "attribution": "Ahmed R, Niloy MAHM, Islam MS, Reza MS, Yesmin S, Rasul SB, Khandakar J (2024). Optimizing tea waste as a sustainable substrate for oyster mushroom (Pleurotus ostreatus) cultivation: a comprehensive study on biological efficiency and nutritional aspect. Front. Sustain. Food Syst. 7:1308053. https://doi.org/10.3389/fsufs.2023.1308053. CC BY 4.0. Claim paraphrased.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "Yield from a defined tea-waste/sawdust substrate in a three-replicate managed cultivation experiment; not evidence of wild ecology or general performance across conditions."
+      }
+    },
+    {
+      "colId": "9XW87",
+      "scientificName": "Penaeus vannamei Boone, 1931",
+      "authorship": "Boone, 1931",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "identityScope": "Exact accepted COL26.8 species usage 9XW87. The biological evidence concerns cultured juveniles in one replicated 30-day tank experiment; it does not characterize wild populations or all aquaculture systems.",
+      "facet": "ecology",
+      "claim": {
+        "text": "In a 30-day tank experiment, juvenile P. vannamei sourced from an aquaculture farm in Pingtan, Fujian, China, were stocked at 30 shrimp per tank in two triplicate groups. Tanks receiving Bacillus licheniformis strain FS051 in the water every five days (5 × 10^4 CFU/mL) had significantly higher reported length, weight, survival, and yield and lower feed conversion ratio than control tanks (p < 0.05). The result applies to this cultured stock, dose, and tank experiment, not to wild shrimp or aquaculture systems generally.",
+        "textZh": "在一项为期 30 天的水槽试验中，来自中国福建平潭某养殖场的凡纳滨对虾幼体按每槽 30 尾分为两个各有三次重复的处理组。每五天向水中添加地衣芽孢杆菌 FS051（5 × 10^4 CFU/mL）的水槽，相较对照槽报告了显著更高的体长、体重、存活率和产量，以及更低的饲料系数（p < 0.05）。该结果仅适用于这批养殖个体、该剂量和水槽试验，不代表野生对虾或一般养殖系统。",
+        "locator": "Methods §§2.1.2–2.2 for juvenile source, tank replication, stocking density, trial duration, and treatment; Results §3.2 and Table 1 for growth indices and significance.",
+        "placeTimeScope": "Juveniles obtained from an aquaculture farm in Pingtan, Fujian, China; controlled tank experiment at approximately 13‰ salinity; 30 days; trial dates not reported.",
+        "lifeStatus": "Cultured juvenile shrimp; the experiment did not study wild populations."
+      },
+      "facetGap": "A single 30-day tank trial with one source lot, one probiotic strain and dose, and three replicate tanks per group does not establish species-wide ecology or outcomes across farms and environments.",
+      "lifeStatusScope": {
+        "wild": "No wild populations were studied; juveniles were obtained from an aquaculture farm.",
+        "domesticated": "The study concerns cultured juveniles and does not examine domestication history or the full range of farmed stocks.",
+        "captive": "Cultured in experimental tanks for 30 days at approximately 13‰ salinity.",
+        "fossil": "Fossil occurrence and geological age were not assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary replicated aquaculture experiment; not a complete species ecology or seven-facet review.",
+        "method": "Verified the accepted usage and each accepted parent node in the pinned COL26.8 registry; reviewed shrimp source, tank design, treatment dose and schedule, salinity, duration, growth outcomes, and item-level copyright/license statement.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage 9XW87; DOI 10.3389/fmicb.2025.1595680.",
+        "inclusionCriteria": "Primary research article directly naming P. vannamei and reporting defined cultured shrimp, treatment and control conditions, replication, and measured outcomes.",
+        "exclusionCriteria": "Wild ecology, natural population growth, global distribution, general aquaculture efficacy, morphology, evolution, fossils, and conservation claims not established by this trial."
+      },
+      "unassessedFacetGaps": {
+        "morphology": "Growth measurements under one treatment do not establish diagnostic morphology or population-level anatomical variation.",
+        "lifeHistory": "A 30-day juvenile growth trial does not cover the full life cycle or reproduction.",
+        "evolution": "The study does not analyze phylogeny or evolutionary history.",
+        "distribution": "The juvenile source farm is not a geographic range assessment.",
+        "fossil": "The study does not assess fossil occurrences or geological age.",
+        "conservation": "The aquaculture experiment does not provide a wild population or conservation assessment."
+      },
+      "source": {
+        "id": "zheng2025penaeusvannamei",
+        "title": "Effects of Bacillus licheniformis on the water quality, growth performance and bacterial community in Penaeus vannamei aquaculture system",
+        "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1595680/full",
+        "stableId": "doi:10.3389/fmicb.2025.1595680",
+        "version": "Frontiers in Microbiology 16:1595680 (published 2025-06-02)",
+        "publishedAt": "2025-06-02",
+        "locator": "Methods §§2.1.2–2.2; Results §3.2; Table 1; article copyright block.",
+        "license": "Article states © 2025 Zheng, Wu, Tang, Li, Fan and He and is distributed under the Creative Commons Attribution License (CC BY 4.0).",
+        "rightsHolder": "Yi Zheng, Yan Wu, Shuang Tang, Jing Li, Li Fan, and Wen He",
+        "licenseEvidenceUrl": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2025.1595680/full",
+        "licenseEvidenceLocator": "Article page Copyright block: © 2025 Zheng, Wu, Tang, Li, Fan and He; Creative Commons Attribution License (CC BY).",
+        "licenseAppliesTo": "Article text under the item-level CC BY 4.0 notice; separately credited third-party content is excluded. Claim paraphrased; no table or figure is reproduced.",
+        "attribution": "Zheng Y, Wu Y, Tang S, Li J, Fan L, He W (2025). Effects of Bacillus licheniformis on the water quality, growth performance and bacterial community in Penaeus vannamei aquaculture system. Front. Microbiol. 16:1595680. https://doi.org/10.3389/fmicb.2025.1595680. CC BY 4.0. Claim paraphrased.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "Measured results for cultured juveniles in triplicate control and Bacillus-treatment tanks during one 30-day experiment; no inference to wild stocks or all farms."
+      }
+    },
+    {
+      "colId": "4S9ML",
+      "scientificName": "Rhinopithecus bieti A. Milne-Edwards, 1897",
+      "authorship": "A. Milne-Edwards, 1897",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "identityScope": "Exact accepted COL26.8 species usage 4S9ML. The biological evidence concerns age-specific body-mass observations of wild monkeys in one monitored reserve population in Yunnan; it does not establish range-wide sexual dimorphism or population-level survival and behavior.",
+      "facet": "morphology",
+      "claim": {
+        "text": "For eight-year-old wild black-and-white snub-nosed monkeys monitored at Baimaxueshan National Nature Reserve, the study reports a sexual dimorphism in body mass ratio of 1.85: males averaged 21.8 ± 2.2 kg (n=35) and females 11.8 ± 1.2 kg (n=116), with p < 0.001. The age-sex category counts are study observations, not counts of distinct animals: the methods treat repeated annual records of the same monkey as separate samples. This result is bounded to that monitored population and measurement design.",
+        "textZh": "在云南白马雪山国家级自然保护区监测的野生黑白仰鼻猴中，研究报告八岁年龄组的体重性二型比为 1.85：雄性平均 21.8 ± 2.2 千克（n=35），雌性平均 11.8 ± 1.2 千克（n=116），p < 0.001。年龄—性别组样本数是研究观测记录数，并非不同个体的数量；方法部分将同一只猴子跨年度的重复记录分别作为样本。该结果受限于这一监测种群和测量设计。",
+        "locator": "Abstract; Results §3.1 and Figure 5 for the age-eight ratio, body-mass means, sample sizes and significance; Methods for study locality, record period, and repeated annual observations.",
+        "placeTimeScope": "Baimaxueshan National Nature Reserve, Weixi County, Yunnan, China; body-mass records collected January 2010–March 2013; wild monkeys in the monitored study population.",
+        "lifeStatus": "Wild monkeys observed in one monitored reserve population; age-specific category counts may include repeated annual records of individuals."
+      },
+      "facetGap": "Body-mass sexual dimorphism at one age in one monitored reserve population does not establish range-wide variation; reported category sample sizes include repeated annual observations and are not unique-animal counts.",
+      "lifeStatusScope": {
+        "wild": "The study monitored wild monkeys at Baimaxueshan National Nature Reserve, Yunnan, China, from January 2010 to March 2013; repeated annual records of the same individuals were treated as separate samples.",
+        "domesticated": "Domesticated populations were not studied.",
+        "captive": "Captive individuals were not studied.",
+        "fossil": "Fossil occurrence and geological age were not assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary age-specific body-mass study in a monitored wild population; not a complete species morphology or seven-facet review.",
+        "method": "Verified the accepted usage and each accepted parent node in the pinned COL26.8 registry; reviewed the article's age-eight body-mass comparison, sample definitions, reserve locality, observation dates, repeated-record method, and item-level copyright/license statement.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage 4S9ML; DOI 10.3390/ani13091576; PMC10177520.",
+        "inclusionCriteria": "Primary research article directly naming R. bieti and reporting an age- and sex-specific body-mass comparison with a defined wild population and observation method.",
+        "exclusionCriteria": "Range-wide morphology, distinct-individual population counts, behavior, survival, life history, evolution, distribution, fossils, and conservation conclusions not established by this one study."
+      },
+      "unassessedFacetGaps": {
+        "lifeHistory": "The body-mass comparison does not establish a full life cycle, reproductive biology, or survival trajectory.",
+        "ecology": "A reserve population and body-mass dataset do not characterize habitat use, diet, or ecological interactions.",
+        "evolution": "The study does not analyze phylogeny or evolutionary history.",
+        "distribution": "One reserve locality is not a geographic range assessment.",
+        "fossil": "The study does not assess fossil occurrences or geological age.",
+        "conservation": "The body-mass study does not provide a dated conservation assessment or population trend analysis."
+      },
+      "source": {
+        "id": "li2023rhinopithecusbietibodymass",
+        "title": "Ontogenetic Development of Sexual Dimorphism in Body Mass of Wild Black-and-White Snub-Nosed Monkey (Rhinopithecus bieti)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10177520/",
+        "stableId": "doi:10.3390/ani13091576",
+        "version": "Animals 13(9):1576 (published 2023-05-08; PMC10177520)",
+        "publishedAt": "2023-05-08",
+        "locator": "Abstract; Results §3.1; Figure 5; Methods on study population, record dates, and repeated annual samples; article license statement.",
+        "license": "Article states © 2023 by the authors and is distributed under the Creative Commons Attribution 4.0 International License.",
+        "rightsHolder": "Yan-Peng Li, Zhi-Peng Huang, Yan Yang, Xiao-Bing He, Rong-Li Pan, Xiao-Ming He, Guang-Wen Yang, Hui Wu, Li-Wen Cui, and Wei Xiao",
+        "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10177520/",
+        "licenseEvidenceLocator": "Article metadata and license block identify © 2023 by the authors and link to the Creative Commons Attribution 4.0 International License.",
+        "licenseAppliesTo": "Article text under the item-level CC BY 4.0 notice; separately credited third-party content is excluded. Claim paraphrased; no figure or table is reproduced.",
+        "attribution": "Li Y-P, Huang Z-P, Yang Y, He X-B, Pan R-L, He X-M, Yang G-W, Wu H, Cui L-W, Xiao W (2023). Ontogenetic Development of Sexual Dimorphism in Body Mass of Wild Black-and-White Snub-Nosed Monkey (Rhinopithecus bieti). Animals 13(9):1576. https://doi.org/10.3390/ani13091576. CC BY 4.0. Claim paraphrased.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "Age-specific body-mass observations from wild monkeys monitored at one reserve in Yunnan from January 2010 to March 2013; category sample sizes can include repeated annual observations of individuals."
+      }
+    }
+  ],
+  "updates": []
+}

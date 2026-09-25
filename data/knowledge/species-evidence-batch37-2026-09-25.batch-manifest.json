@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "batchId": "species-evidence-batch37-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/species-evidence-batch37-2026-09-25.json",
+    "sha256": "b151fbe349685f173bcdfa905b89848b24b3f613ffed2d6b3291ba2a5343e0da"
+  },
+  "baseAudit": {
+    "baseHead": "9216738d328e4c856e317be0f0d8fa1c83676c4b",
+    "indexedRecordCount": 6960,
+    "indexedShardCount": 60,
+    "openPullRequests": [],
+    "newRecordColIds": [
+      "4KF6G",
+      "9XW87",
+      "4S9ML"
+    ],
+    "updatedColIds": [],
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "updatedRecords": [],
+  "newRecords": [
+    {
+      "colId": "4KF6G",
+      "scientificName": "Pleurotus ostreatus (Jacq.) P. Kumm."
+    },
+    {
+      "colId": "9XW87",
+      "scientificName": "Penaeus vannamei Boone, 1931"
+    },
+    {
+      "colId": "4S9ML",
+      "scientificName": "Rhinopithecus bieti A. Milne-Edwards, 1897"
+    }
+  ],
+  "indexedRecordCount": 6963,
+  "newShard": {
+    "path": "data/knowledge/catalogue-dossiers-species-evidence-batch37-2026-09-25.jsonl.br",
+    "rawPath": "data/knowledge/raw-dossiers/species-evidence-batch37-2026-09-25.jsonl",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 29476,
+    "decodedSha256": "ec0dae2d26529e45a10957960ce4eacefe1476a21599ba888046bad2533bbb4d",
+    "compressedBytes": 5977,
+    "compressedSha256": "9dc741e2119e72c3ada57fbaa47883fcf6b1e3e923a35675ca657dbcdeb26d98",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-species-evidence-batch37.mjs"
+}
