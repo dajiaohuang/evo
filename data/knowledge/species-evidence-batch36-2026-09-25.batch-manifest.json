@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "batchId": "species-evidence-batch36-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/species-evidence-batch36-2026-09-25.json",
+    "sha256": "17a31b0357843d5801c05244bcf4d51180bcf423243e2f345ded2652ce1ecdcf"
+  },
+  "baseAudit": {
+    "baseHead": "20ec9bfebafc4d0d4a4cef030edb72dcec62c411",
+    "indexedRecordCount": 6957,
+    "indexedShardCount": 59,
+    "openPullRequests": [],
+    "newRecordColIds": [
+      "5944Q",
+      "699T3",
+      "48KQY"
+    ],
+    "updatedColIds": [],
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "updatedRecords": [],
+  "newRecords": [
+    {
+      "colId": "5944Q",
+      "scientificName": "Triticum aestivum L."
+    },
+    {
+      "colId": "699T3",
+      "scientificName": "Candida albicans (C.P. Robin) Berkhout"
+    },
+    {
+      "colId": "48KQY",
+      "scientificName": "Octopus vulgaris Cuvier, 1797"
+    }
+  ],
+  "indexedRecordCount": 6960,
+  "newShard": {
+    "path": "data/knowledge/catalogue-dossiers-species-evidence-batch36-2026-09-25.jsonl.br",
+    "rawPath": "data/knowledge/raw-dossiers/species-evidence-batch36-2026-09-25.jsonl",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 26843,
+    "decodedSha256": "e16b0497c55fea9a13327bdbcd1ba4f87b0bf73d19fee3ff93ed5eadf7a50023",
+    "compressedBytes": 5572,
+    "compressedSha256": "57d0563220f0c25fc34e7418d8739782484d42dca87d43a624bf19a0ab58aafe",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-species-evidence-batch36.mjs"
+}

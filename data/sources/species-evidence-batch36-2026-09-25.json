@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "batchId": "species-evidence-batch36-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-25",
+  "baseAudit": {
+    "baseHead": "20ec9bfebafc4d0d4a4cef030edb72dcec62c411",
+    "indexedRecordCount": 6957,
+    "indexedShardCount": 59,
+    "openPullRequests": [],
+    "newRecordColIds": [
+      "5944Q",
+      "699T3",
+      "48KQY"
+    ],
+    "updatedColIds": [],
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "newRecords": [
+    {
+      "colId": "5944Q",
+      "scientificName": "Triticum aestivum L.",
+      "authorship": "L.",
+      "rank": "species",
+      "sourceDatasetId": "2232",
+      "identityScope": "Exact accepted COL26.8 species usage 5944Q. The biological evidence concerns 11 cultivated genotypes in one rain-fed 2022/23 multi-location trial in South Ethiopia; it does not characterize all cultivars, wild populations, or the species' global productivity.",
+      "facet": "ecology",
+      "claim": {
+        "text": "In a rain-fed multi-location field trial on smallholder fields across four districts in South Ethiopia during the 2022/23 main cropping season, 11 bread-wheat genotypes were tested. G11 had the highest reported mean grain yield (2.83 t/ha), but its yield was not statistically distinguishable from G8, G9, and G10. This result applies to those trial entries, sites, and season; it is not a global yield estimate or a species-wide ranking.",
+        "textZh": "在 2022/23 年主要种植季于南埃塞俄比亚四个地区的小农田开展的一项雨养多地点田间试验中，研究测试了 11 个面包小麦基因型。G11 报告的平均籽粒产量最高（2.83 吨/公顷），但在籽粒产量比较中与 G8、G9 和 G10 无统计学显著差异。该结果仅适用于这些试验材料、地点和季节；它不是全球产量估计，也不构成物种层面的排名。",
+        "locator": "Results §3.2, Table 7, mean grain yield across the four locations; Methods §§2.1–2.2 describe the 2022/23 rain-fed trial and 11 genotypes.",
+        "placeTimeScope": "Humbo, Sodo Zuria, Boloso Sore, and Damot Gale districts, South Ethiopia; rain-fed main cropping season 2022/23.",
+        "lifeStatus": "Cultivated bread-wheat genotypes grown in rain-fed field plots on smallholder farms; the trial did not study wild populations."
+      },
+      "facetGap": "One season, four districts, and 11 trial genotypes do not establish yield across the species' global range, all cultivars, years, or production systems.",
+      "lifeStatusScope": {
+        "wild": "No wild populations were studied.",
+        "domesticated": "The study tested cultivated genotypes; it did not investigate the history or full breadth of wheat domestication.",
+        "captive": "Not applicable; this was an agricultural field trial.",
+        "fossil": "Fossil occurrence and geological age were not assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary multi-location field trial on grain yield; not a complete species productivity or seven-facet review.",
+        "method": "Verified the accepted usage and each accepted parent node in the pinned COL26.8 registry; reviewed trial locations, season, rain-fed management, tested genotypes, mean-yield comparison, and the article copyright/license notice.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage 5944Q; DOI 10.1371/journal.pone.0318559.",
+        "inclusionCriteria": "Primary field study directly naming Triticum aestivum and reporting a quantified grain-yield comparison with defined sites, season, trial entries, and statistical interpretation.",
+        "exclusionCriteria": "Global or species-wide yield ranking, other cultivars or seasons, wild wheat ecology, morphology, life history, evolution, distribution, fossils, and conservation claims not established by this trial."
+      },
+      "unassessedFacetGaps": {
+        "morphology": "The selected yield trial does not assess species-level morphology or diagnostic variation.",
+        "lifeHistory": "The yield trial does not provide a complete life-history account, reproductive biology, or demographic rates.",
+        "evolution": "The trial does not analyze phylogeny or the species' evolutionary history.",
+        "distribution": "Four trial districts are not a complete geographic range assessment.",
+        "fossil": "The study does not assess fossil occurrences or geological age.",
+        "conservation": "The trial does not establish wild population trends, threats, or a conservation assessment."
+      },
+      "source": {
+        "id": "alemayehu2025wheat",
+        "title": "AMMI analysis of elite bread wheat (Triticum aestivum L.) selections for genotype by environment interaction and stability of grain yield in Southern Ethiopia",
+        "url": "https://doi.org/10.1371/journal.pone.0318559",
+        "stableId": "doi:10.1371/journal.pone.0318559",
+        "version": "PLOS ONE 20(1): e0318559 (2025)",
+        "publishedAt": "2025-01-30",
+        "locator": "Results §3.2 and Table 7; Methods §§2.1–2.2; article copyright notice and linked license.",
+        "license": "The item-level copyright notice states that the article is distributed under the Creative Commons Attribution License; its linked deed identifies CC BY 4.0.",
+        "rightsHolder": "Alemayehu et al.",
+        "licenseEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0318559",
+        "licenseEvidenceLocator": "Article copyright notice names © 2025 Alemayehu et al. and links to the Creative Commons Attribution License; the linked license URL resolves to CC BY 4.0.",
+        "licenseAppliesTo": "Article text under the item-level CC BY 4.0 notice; separately credited third-party content is excluded. Claim paraphrased; no table or figure is reproduced.",
+        "attribution": "Alemayehu L, Kebede M, Wada E (2025). AMMI analysis of elite bread wheat (Triticum aestivum L.) selections for genotype by environment interaction and stability of grain yield in Southern Ethiopia. PLoS ONE 20(1):e0318559. https://doi.org/10.1371/journal.pone.0318559. CC BY 4.0. Claim paraphrased.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "One 2022/23 rain-fed field trial of 11 cultivated genotypes at four South Ethiopian districts; the claim is limited to this trial's sites, entries, and season."
+      }
+    },
+    {
+      "colId": "699T3",
+      "scientificName": "Candida albicans (C.P. Robin) Berkhout",
+      "authorship": "(C.P. Robin) Berkhout",
+      "rank": "species",
+      "sourceDatasetId": "2073",
+      "identityScope": "Exact accepted COL26.8 species usage 699T3. The biological result concerns laboratory strain SC5314 in an eight-day chemotherapy mouse model; it does not describe natural fungal ecology or human clinical outcomes.",
+      "facet": "ecology",
+      "claim": {
+        "text": "In an eight-day chemotherapy mouse model, tongue samples from 6–9-week-old female C57BL/6 mice receiving 5-fluorouracil plus daily Candida albicans SC5314 had higher endogenous bacterial loads than samples from mice receiving 5-fluorouracil alone. Both CFU and 16S rRNA gene-copy assays showed the difference at day 8 (p=0.008; 4–10 mice per group across 1–2 experiments). This is specific to the laboratory strain and perturbed mouse model; it does not establish natural fungal ecology or human clinical outcomes.",
+        "textZh": "在为期八天的化疗小鼠模型中，接受 5-氟尿嘧啶并每日给予白色念珠菌 SC5314 的 6–9 周龄雌性 C57BL/6 小鼠，其舌部样本的内源细菌负荷高于仅接受 5-氟尿嘧啶的小鼠。CFU 和 16S rRNA 基因拷贝数检测均显示第 8 天存在差异（p=0.008；每组 4–10 只小鼠，来自 1–2 次独立实验）。该结果仅适用于这一实验室菌株和受扰动的小鼠模型，不能据此推断自然真菌生态或人类临床结局。",
+        "locator": "Figure 1D caption and Results describing oral bacterial loads; Methods, animal model and C. albicans inoculation.",
+        "placeTimeScope": "Eight-day laboratory chemotherapy mouse experiment; the article reports no study-facility location for this model.",
+        "lifeStatus": "Laboratory strain SC5314 was administered in drinking water to laboratory mice; no wild fungal population or human clinical cohort was studied."
+      },
+      "facetGap": "One chemotherapy-perturbed mouse model with strain SC5314 does not establish natural fungal ecology, other host contexts, geographic distribution, or human clinical outcomes.",
+      "lifeStatusScope": {
+        "wild": "Wild C. albicans populations were not studied.",
+        "domesticated": "Domestication was not assessed.",
+        "captive": "The study concerns laboratory mice and a laboratory fungal strain, not a captive-bred fungal population.",
+        "fossil": "Fossil occurrence and geological age were not assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary experimental study on mucosal bacterial loads in a chemotherapy mouse model; not a complete species ecology or seven-facet review.",
+        "method": "Verified the accepted usage and each accepted parent node in the pinned COL26.8 registry; reviewed the mouse strain, host age/sex, chemotherapy and fungal exposure, day-8 assays, sample sizes, results, and item-level copyright/license notice.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage 699T3; DOI 10.1371/journal.ppat.1007717.",
+        "inclusionCriteria": "Primary experiment directly naming C. albicans SC5314 and reporting a defined host model, treatment comparison, assay, sampling time, and quantitative bacterial-load result.",
+        "exclusionCriteria": "Natural fungal ecology, effects in unperturbed hosts, human clinical outcomes, species-wide host interactions, morphology, life history, evolution, distribution, fossils, and conservation claims not established by this model."
+      },
+      "unassessedFacetGaps": {
+        "morphology": "The chemotherapy mouse experiment does not assess fungal morphology or diagnostic variation.",
+        "lifeHistory": "The study does not assess life-cycle, reproduction, growth, survival, or a complete life-history account.",
+        "evolution": "The experiment does not analyze phylogeny or evolutionary history.",
+        "distribution": "A laboratory mouse model provides no geographic range assessment.",
+        "fossil": "The study does not assess fossil occurrences or geological age.",
+        "conservation": "The experiment does not establish environmental population trends, threats, or a conservation assessment."
+      },
+      "source": {
+        "id": "bertolini2019candida",
+        "title": "Candida albicans induces mucosal bacterial dysbiosis that promotes invasive infection",
+        "url": "https://doi.org/10.1371/journal.ppat.1007717",
+        "stableId": "doi:10.1371/journal.ppat.1007717",
+        "version": "PLOS Pathogens 15(4): e1007717 (2019)",
+        "publishedAt": "2019-04-22",
+        "locator": "Figure 1D caption and Results on oral bacterial loads; Methods, mouse chemotherapy model; article copyright notice.",
+        "license": "The item-level copyright notice identifies a Creative Commons Attribution License; its linked deed identifies CC BY 4.0.",
+        "rightsHolder": "Bertolini et al.",
+        "licenseEvidenceUrl": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1007717",
+        "licenseEvidenceLocator": "Article copyright notice names © 2019 Bertolini et al. and links to the Creative Commons Attribution License; the linked license URL resolves to CC BY 4.0.",
+        "licenseAppliesTo": "Article text under the item-level CC BY 4.0 notice; separately credited third-party content is excluded. Claim paraphrased; no figure is reproduced.",
+        "attribution": "Bertolini M, Ranjan A, Thompson A, et al. (2019). Candida albicans induces mucosal bacterial dysbiosis that promotes invasive infection. PLoS Pathog 15(4):e1007717. https://doi.org/10.1371/journal.ppat.1007717. CC BY 4.0. Claim paraphrased.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "Day-8 endogenous tongue bacterial-load comparison in female C57BL/6 mice receiving 5-fluorouracil with or without laboratory C. albicans SC5314; study location not stated."
+      }
+    },
+    {
+      "colId": "48KQY",
+      "scientificName": "Octopus vulgaris Cuvier, 1797",
+      "authorship": "Cuvier, 1797",
+      "rank": "species",
+      "sourceDatasetId": "1130",
+      "identityScope": "Exact accepted COL26.8 species usage 48KQY. The reproductive evidence concerns wild-caught sub-adults subsequently maintained as captive broodstock in a recirculating aquaculture system; it does not estimate wild fecundity.",
+      "facet": "lifeHistory",
+      "claim": {
+        "text": "In a captive broodstock experiment, females fed a mixed-crustacean diet produced 78.1±6.5 egg clusters per kg body weight, compared with 31.1±13.3 in the mixed-fish diet group; each diet group contained four females. The broodstock originated as wild sub-adults caught in the Ionian Sea near Gallipoli, Italy, and were then kept in a recirculating aquaculture system in Cesenatico. This diet-group result describes captive reproduction, not fecundity in wild populations.",
+        "textZh": "在一项圈养亲本实验中，混合甲壳类饲料组雌性每千克体重产卵团数为 78.1±6.5，混合鱼类饲料组为 31.1±13.3；每种饲料组均有四只雌性。亲本为从意大利加利波利附近爱奥尼亚海捕获的野生亚成体，之后在切塞纳蒂科的循环水养殖系统中饲养。该饲料组结果描述的是圈养繁殖，并非野外种群的繁殖力。",
+        "locator": "Abstract; Results, “Regarding egg clusters”; Table 2; Methods, Animals and feeding-group design.",
+        "placeTimeScope": "Wild sub-adults were caught at the end of February in the Ionian Sea near Gallipoli, Puglia, Italy, and transferred to a recirculating aquaculture system in Cesenatico. The article does not specify the collection/trial calendar year.",
+        "lifeStatus": "Wild-caught sub-adults became captive broodstock; the reproductive outcome was measured under managed feeding in a recirculating aquaculture system."
+      },
+      "facetGap": "A single captive broodstock comparison with four females per diet does not establish wild fecundity, lifetime reproductive output, natural diet effects, or geographic variation.",
+      "lifeStatusScope": {
+        "wild": "Wild sub-adults were captured near Gallipoli, Italy, as broodstock founders; the measured reproductive result is from captivity.",
+        "domesticated": "The source does not assess domestication or a domesticated population.",
+        "captive": "Captive broodstock were maintained in a recirculating aquaculture system and assigned mixed-fish or mixed-crustacean diets.",
+        "fossil": "Fossil occurrence and geological age were not assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary captive-broodstock diet experiment on reproductive performance; not a complete species life-history or seven-facet review.",
+        "method": "Verified the accepted usage and each accepted parent node in the pinned COL26.8 registry; reviewed broodstock origin, collection location, captivity and diet design, sample size, egg-cluster result, article version/correction, and item-level license notice.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage 48KQY; DOI 10.1038/s41598-020-72151-y.",
+        "inclusionCriteria": "Primary study directly naming O. vulgaris and reporting reproductive outcomes for defined broodstock, diet groups, and sample sizes.",
+        "exclusionCriteria": "Wild fecundity, natural diet effects, global reproductive rates, distribution, complete ecological relationships, morphology, evolution, fossils, and conservation claims not established by this captive experiment."
+      },
+      "unassessedFacetGaps": {
+        "morphology": "The diet experiment does not assess diagnostic morphology or species-level anatomical variation.",
+        "ecology": "Captive feeding groups do not establish natural diet, habitat use, or field ecological interactions.",
+        "evolution": "The study does not analyze phylogeny or evolutionary history.",
+        "distribution": "Collection near Gallipoli is not a geographic range inventory.",
+        "fossil": "The study does not assess fossil occurrences or geological age.",
+        "conservation": "The captive trial does not establish wild population trends, threats, or a conservation assessment."
+      },
+      "source": {
+        "id": "casalini2020octopus",
+        "title": "Evaluation of reproductive performances of the common octopus (Octopus vulgaris) reared in water recirculation systems and fed different diets",
+        "url": "https://doi.org/10.1038/s41598-020-72151-y",
+        "stableId": "doi:10.1038/s41598-020-72151-y",
+        "version": "Scientific Reports 10:15261 (published 2020-09-17; author correction 2022-08-01)",
+        "publishedAt": "2020-09-17",
+        "locator": "Abstract; Results, “Regarding egg clusters”; Table 2; Methods, Animals and feeding-group design; item-level full-text license statement.",
+        "license": "The full-text permissions block identifies the article as CC BY 4.0 and states © The Author(s) 2020; the article records an author correction published in 2022.",
+        "rightsHolder": "The Author(s)",
+        "licenseEvidenceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7498605/fullTextXML",
+        "licenseEvidenceLocator": "The full-text article license block states Creative Commons Attribution 4.0 International and © The Author(s) 2020; the article page identifies an author correction published 2022-08-01.",
+        "licenseAppliesTo": "Article text under the item-level CC BY 4.0 notice; separately credited third-party content is excluded. Claim paraphrased; no figure or table is reproduced.",
+        "attribution": "Casalini A, Roncarati A, Emmanuele P, et al. (2020). Evaluation of reproductive performances of the common octopus (Octopus vulgaris) reared in water recirculation systems and fed different diets. Scientific Reports 10:15261. https://doi.org/10.1038/s41598-020-72151-y. CC BY 4.0. Claim paraphrased.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "Egg-cluster output from four female captive broodstock per diet in a recirculating system; broodstock were wild-caught sub-adults, so this is not a wild fecundity estimate."
+      }
+    }
+  ],
+  "updates": []
+}
