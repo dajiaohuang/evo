@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "batchId": "species-evidence-batch39-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/species-evidence-batch39-2026-09-25.json",
+    "sha256": "0d2a5b5ed7a15f1e9772312475e6dc086668203c4a885518af5a96f4881ae7f3"
+  },
+  "baseAudit": {
+    "baseHead": "bdcdac2261ac4722c48eaddd77db024a386ba0df",
+    "indexedRecordCount": 6966,
+    "indexedShardCount": 62,
+    "openPullRequests": [],
+    "newRecordColIds": [
+      "4S9MN",
+      "WVWV",
+      "6LZDS"
+    ],
+    "updatedColIds": [],
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "updatedRecords": [],
+  "newRecords": [
+    {
+      "colId": "4S9MN",
+      "scientificName": "Rhinopithecus roxellana (A. Milne-Edwards, 1870)"
+    },
+    {
+      "colId": "WVWV",
+      "scientificName": "Coffea arabica L."
+    },
+    {
+      "colId": "6LZDS",
+      "scientificName": "Holothuria scabra Jaeger, 1833"
+    }
+  ],
+  "indexedRecordCount": 6969,
+  "newShard": {
+    "path": "data/knowledge/catalogue-dossiers-species-evidence-batch39-2026-09-25.jsonl.br",
+    "rawPath": "data/knowledge/raw-dossiers/species-evidence-batch39-2026-09-25.jsonl",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 30664,
+    "decodedSha256": "7c921ae45087a4c522727d302c547c6c872421969767e042c0e622b4b305674b",
+    "compressedBytes": 6578,
+    "compressedSha256": "79c6c53bd87010a32751b412b1c92d37a76421688d2b44c341c9a5a3cef259ad",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-species-evidence-batch39.mjs"
+}
