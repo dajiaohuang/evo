@@ -8,10 +8,30 @@
       "path": "data/knowledge/catalogue-dossiers-plants-models-batch-1.jsonl.br",
       "decodedPath": "data/knowledge/catalogue-dossiers-plants-models-batch-1.jsonl",
       "recordCount": 2,
-      "decodedBytes": 14559,
-      "compressedBytes": 4265,
-      "decodedSha256": "6b7c2dbc6ce7881ece857d7d319b7ea904d6ce0b3bdf0e271ff8575cd263ec61",
-      "compressedSha256": "bfe1478440b69009fab4800cc9f87449043f02b7bf9973a10c7a49c079867e11"
+      "decodedBytes": 17807,
+      "compressedBytes": 5320,
+      "decodedSha256": "1c3d22f9936c9999751c7d845b180d0f8240696d90f20c03ae82b3c2b7cdef5e",
+      "compressedSha256": "7ea0a5c2b132594813f1ea321f136a68500e526604885f6c8b3078f2bd8f3274"
     }
-  ]
+  ],
+  "supplementalUpdates": [
+    {
+      "batchId": "species-evidence-facet-progress-batch33-2026-09-25",
+      "sourcePath": "data/sources/species-evidence-facet-progress-batch33-2026-09-25.json",
+      "sourceSha256": "8f985bd9673f249bfa0a9b97447c51ff4d8c79cf91d60334ab52bf4dc3956083",
+      "generator": "scripts/build-species-evidence-facet-progress-batch33.mjs",
+      "baseHead": "787dd287b290f9b26c3ea64cf4d71c87e9885597",
+      "indexedRecordCountAtAudit": 6950,
+      "targetColIds": [
+        "6SZF3"
+      ],
+      "previousDecodedSha256": "6b7c2dbc6ce7881ece857d7d319b7ea904d6ce0b3bdf0e271ff8575cd263ec61",
+      "previousCompressedSha256": "bfe1478440b69009fab4800cc9f87449043f02b7bf9973a10c7a49c079867e11",
+      "previousTargetRecordSha256": "c964804644f5421c13ee960ec3e9af0e184f4d781639b80609a84e7c116895b3",
+      "decodedSha256": "1c3d22f9936c9999751c7d845b180d0f8240696d90f20c03ae82b3c2b7cdef5e",
+      "compressedSha256": "7ea0a5c2b132594813f1ea321f136a68500e526604885f6c8b3078f2bd8f3274",
+      "mode": "in-place-add-one-source-bounded-distribution-claim"
+    }
+  ],
+  "checkedAt": "2026-09-25"
 }
