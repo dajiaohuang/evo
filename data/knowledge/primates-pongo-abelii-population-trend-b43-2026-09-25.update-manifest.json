@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-pongo-abelii-population-trend-batch43-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-pongo-abelii-population-trend-b43-2026-09-25.json",
+    "sha256": "8663ebd553671f7d1d17ea1d60f1069d1f1799ee859799b2874fcff72ef45f63"
+  },
+  "duplicateCheck": {
+    "mode": "in-place-update",
+    "indexedRecordCount": 6969,
+    "sourceStableIds": [
+      "doi:10.1016/j.gecco.2026.e04302"
+    ],
+    "sourceOccurrencesBeforeUpdate": 0,
+    "matchedColIds": [
+      "4LTSY"
+    ],
+    "matchedNames": [
+      "pongo abelii lesson 1827"
+    ],
+    "openPullRequests": []
+  },
+  "previousUpdateAudit": {
+    "baseHead": "e8259495de0553d4a954cbd40744aa3e86549891",
+    "indexedRecordCountAtAudit": 6969,
+    "targetColId": "3H3C9",
+    "targetScientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "previousRawSha256": "7bbb0d8f65e036982d1ceec1f0c2b62c7e342dcb86740578b6786f06b18c0681",
+    "previousDecodedSha256": "7bbb0d8f65e036982d1ceec1f0c2b62c7e342dcb86740578b6786f06b18c0681",
+    "previousCompressedSha256": "9943ec8b4bf91b1480e2b5466bedce4e2ed04eb82ccf9a7bef46a01e8d691aad",
+    "previousTargetRecordSha256": "289ec657b76289ed7ccd6d0143cbf45a1ce0a9044c5f823c280322a16339d543",
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "query": "3H3C9",
+      "checkedAt": "2026-09-25",
+      "returned": 0
+    },
+    "mode": "in-place-add-one-site-bounded-life-history-source-to-existing-record",
+    "indexedRecordCountAfterUpdate": 6969,
+    "outputRawSha256": "bfbc22ecc265636d6a094f282bf12deb8af4d22627c8025738d25b2e8c27d784",
+    "outputDecodedSha256": "bfbc22ecc265636d6a094f282bf12deb8af4d22627c8025738d25b2e8c27d784",
+    "outputCompressedSha256": "6a0be1a805c5cf7fff07bcd49f476269bbd496ac0b440402f3d449da9e224b76"
+  },
+  "updateAudit": {
+    "baseHead": "fec8970e8cc580eefd6d42ffe79d6be4e94ca111",
+    "indexedRecordCountAtAudit": 6969,
+    "targetColId": "4LTSY",
+    "targetScientificName": "Pongo abelii Lesson, 1827",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "previousRawSha256": "bfbc22ecc265636d6a094f282bf12deb8af4d22627c8025738d25b2e8c27d784",
+    "previousDecodedSha256": "bfbc22ecc265636d6a094f282bf12deb8af4d22627c8025738d25b2e8c27d784",
+    "previousCompressedSha256": "6a0be1a805c5cf7fff07bcd49f476269bbd496ac0b440402f3d449da9e224b76",
+    "previousTargetRecordSha256": "52d9aa8fef0729f03c5c6e7e3352ae9ded998d0b9552e0565399fc23aef7f27a",
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "query": "4LTSY",
+      "checkedAt": "2026-09-25",
+      "returned": 0
+    },
+    "mode": "in-place-add-one-sourced-population-trend-to-existing-record",
+    "indexedRecordCountAfterUpdate": 6969,
+    "outputRawSha256": "cc6238998f3b861d4c96bcde6ca61d58432fef07de1595170fbdae2c1670fbc1",
+    "outputDecodedSha256": "cc6238998f3b861d4c96bcde6ca61d58432fef07de1595170fbdae2c1670fbc1",
+    "outputCompressedSha256": "132c57e22d0aba3c8a0b76fdf7b0956e15636423e16c353fae1115fe3ccad7b7"
+  },
+  "sources": [
+    {
+      "id": "hadi2026orangutanstatus",
+      "stableId": "doi:10.1016/j.gecco.2026.e04302",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY-NC-ND 4.0",
+      "rightsHolder": "Hadi et al. (2026)"
+    }
+  ],
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-batch-2.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 3,
+    "bytes": 58133,
+    "sha256": "cc6238998f3b861d4c96bcde6ca61d58432fef07de1595170fbdae2c1670fbc1"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 58133,
+    "decodedSha256": "cc6238998f3b861d4c96bcde6ca61d58432fef07de1595170fbdae2c1670fbc1",
+    "compressedBytes": 14280,
+    "compressedSha256": "132c57e22d0aba3c8a0b76fdf7b0956e15636423e16c353fae1115fe3ccad7b7",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "datasetDoi": "10.48580/dgywk",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "preservedSiblingColIds": [
+    "3H3C9",
+    "4C92G"
+  ],
+  "generator": "scripts/update-primates-pongo-abelii-population-trend-b43.mjs",
+  "updateMode": "in-place-enrichment-of-one-existing-record",
+  "appAndPagesPreviewManifestChanged": false
+}

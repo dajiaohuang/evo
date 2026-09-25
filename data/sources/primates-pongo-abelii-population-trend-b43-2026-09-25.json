@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-pongo-abelii-population-trend-batch43-2026-09-25",
+  "checkedAt": "2026-09-25",
+  "releaseAlias": "COL26.8",
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "datasetDoi": "10.48580/dgywk",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "target": {
+    "colId": "4LTSY",
+    "scientificName": "Pongo abelii Lesson, 1827",
+    "rank": "species",
+    "sourceDatasetId": "2144"
+  },
+  "audit": {
+    "baseHead": "fec8970e8cc580eefd6d42ffe79d6be4e94ca111",
+    "indexedRecordCount": 6969,
+    "targetRecordCount": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "siblingColIds": [
+      "3H3C9",
+      "4C92G"
+    ],
+    "previousRawSha256": "bfbc22ecc265636d6a094f282bf12deb8af4d22627c8025738d25b2e8c27d784",
+    "previousShardDecodedSha256": "bfbc22ecc265636d6a094f282bf12deb8af4d22627c8025738d25b2e8c27d784",
+    "previousShardCompressedSha256": "6a0be1a805c5cf7fff07bcd49f476269bbd496ac0b440402f3d449da9e224b76",
+    "previousTargetRecordSha256": "52d9aa8fef0729f03c5c6e7e3352ae9ded998d0b9552e0565399fc23aef7f27a"
+  },
+  "sources": [
+    {
+      "id": "hadi2026orangutanstatus",
+      "title": "Hadi AN et al. (2026). Population status of Sumatran and Tapanuli orangutans: A comprehensive assessment 2021–2023. Global Ecology and Conservation 69:e04302.",
+      "url": "https://doi.org/10.1016/j.gecco.2026.e04302",
+      "stableId": "doi:10.1016/j.gecco.2026.e04302",
+      "version": "Published version; Global Ecology and Conservation 69 (2026), article e04302; published online 2026-06-19",
+      "publishedAt": "2026-06-19",
+      "accessedAt": "2026-09-25",
+      "locator": "Abstract; Methods §§2.1–2.3, survey design, distance sampling, and spatial prediction; Results §3.3 and Table 3, current-range population estimate; Discussion §4.1 and Table 5, matched-distribution 2011–2023 comparison.",
+      "license": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0), specified in the published-version PDF footer. The repository record displays a less-specific Attribution Non-commercial label.",
+      "licenseAssessment": "item-level-verified",
+      "rightsEvidenceUrl": "https://researchonline.ljmu.ac.uk/id/eprint/28898/7/Population%20status%20of%20Sumatran%20and%20Tapanuli%20orangutans_%20A%20comprehensive%20assessment%202021%E2%80%932023.pdf",
+      "rightsEvidenceLocator": "Published-version PDF, first-page license footer: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0; repository record https://researchonline.ljmu.ac.uk/id/eprint/28898 identifies this as the published version.",
+      "rightsHolder": "Hadi et al. (2026)",
+      "licenseVersion": "CC BY-NC-ND 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "licenseAppliesTo": "Published article. This record contains an independently worded summary of reported facts and attribution only; it reproduces no article prose, table layout, figure, image, or supplementary data. Do not redistribute adapted or translated article expression under this license.",
+      "attribution": "Hadi AN et al. (2026). Population status of Sumatran and Tapanuli orangutans: A comprehensive assessment 2021–2023. Global Ecology and Conservation 69:e04302. https://doi.org/10.1016/j.gecco.2026.e04302. Claim independently paraphrased; CC BY-NC-ND 4.0; no article prose, figures, tables, or supplementary data reproduced.",
+      "scope": "A northern-Sumatra range assessment using 208 systematic line-transect nest surveys totaling 198 km during 2021–2023 across the Sumatran and Tapanuli orangutan ranges. The Sumatran orangutan estimate of 11,694 (95% CI 10,949–12,518) uses the IUCN 2023 range and eight meta-populations. The 19.5% decline is a separate model-based matched-distribution comparison with 2011, not the current-boundary total. Tripa was not directly surveyed because of permit restrictions and its estimate is model-derived; Jantho and Bukit Tigapuluh reintroduction sites were excluded."
+    }
+  ],
+  "claims": {
+    "conservation": {
+      "text": "A 2021–2023 northern-Sumatra assessment using 208 systematic line-transect nest surveys totaling 198 km estimated 11,694 Sumatran orangutans (Pongo abelii; 95% CI 10,949–12,518) across eight meta-populations under the IUCN 2023 range boundary. A separate matched-distribution comparison estimated a 19.5% decline from 2011 to 2023 (about 1.8% per year). These are model-derived estimates, not direct counts; the current-boundary total and fixed-range trend use different spatial bases, and Tripa was not directly surveyed.",
+      "textZh": "一项于 2021—2023 年在苏门答腊北部开展的评估，使用 208 条系统巢址线样带、总调查长度 198 公里，按 IUCN 2023 年分布边界估计苏门答腊猩猩（*Pongo abelii*）数量为 11,694 只（95% 置信区间 10,949—12,518 只），分布于 8 个元种群。另一项采用匹配分布范围的比较估计其 2011—2023 年数量下降 19.5%（约每年 1.8%）。这些是基于模型的估计，并非直接普查；当前边界总量和固定范围趋势使用不同空间基准，且未直接调查 Tripa。",
+      "sourceIds": [
+        "hadi2026orangutanstatus"
+      ],
+      "locator": "Abstract; Methods §§2.1–2.3; Results §3.3 and Table 3; Discussion §4.1 and Table 5.",
+      "placeTimeScope": "Northern Sumatra, Indonesia; field nest transects from 2021–2023. The 2023-range estimate covers eight Sumatran orangutan meta-populations. The temporal comparison uses a matched spatial distribution for 2011 and 2023. The survey covered both Pongo abelii and P. tapanuliensis; claim values are specifically for P. abelii.",
+      "lifeStatus": "Wild Sumatran orangutans; abundance was modeled from nest transects rather than direct individual counts. Tripa was not surveyed directly due to permit restrictions and was estimated by spatial extrapolation. Reintroduction sites Jantho and Bukit Tigapuluh were outside the survey scope; no captive or fossil population is included.",
+      "translationStatus": "translated",
+      "originalLanguage": "en"
+    }
+  },
+  "gaps": {
+    "conservation": [
+      "The abundance and trend estimates depend on modeled nest-survey data, spatial boundaries, and coverage choices; local abundance in Tripa was extrapolated without direct survey access.",
+      "This single 2021–2023 assessment does not constitute ongoing monitoring, a full threat-response evaluation, or independent expert review of current conservation status."
+    ]
+  },
+  "appAndPagesPreviewManifestChanged": false
+}
