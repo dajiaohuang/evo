@@ -17,17 +17,17 @@
     "path": "data/knowledge/raw-dossiers/primates-callithrix-jacchus-batch27-2026-09-25.jsonl",
     "encoding": "utf-8-jsonl-lf",
     "recordCount": 1,
-    "bytes": 9331,
-    "sha256": "5dea2899c7b99d4dacf4bca5ed0f15ba6998cb9da6be53f840cdc98e031047d9"
+    "bytes": 25166,
+    "sha256": "87d2908923c64de62a04d33a51a18a41e41c512de1efa3cbc5666aa9186b72b4"
   },
   "shard": {
     "path": "data/knowledge/catalogue-dossiers-primates-callithrix-jacchus-batch27-2026-09-25.jsonl.br",
     "encoding": "brotli-jsonl",
     "recordCount": 1,
-    "decodedBytes": 9331,
-    "decodedSha256": "5dea2899c7b99d4dacf4bca5ed0f15ba6998cb9da6be53f840cdc98e031047d9",
-    "compressedBytes": 2498,
-    "compressedSha256": "74c898f55f63cf6e6bea978069bbf9c887eb56e3f65aba9ffd5b33d55bea25a3",
+    "decodedBytes": 25166,
+    "decodedSha256": "87d2908923c64de62a04d33a51a18a41e41c512de1efa3cbc5666aa9186b72b4",
+    "compressedBytes": 7041,
+    "compressedSha256": "fd014021247aad64701b4acb52e22ac097f53eb288aaa7991e352b562054bdff",
     "brotliParameters": {
       "mode": "text",
       "quality": 11
@@ -40,5 +40,50 @@
     "checklistBankDatasetKey": 316115,
     "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
   },
-  "generator": "scripts/build-primates-callithrix-jacchus-batch27.mjs"
+  "generator": "scripts/build-primates-callithrix-jacchus-batch27.mjs",
+  "checkedAt": "2026-09-25",
+  "supplementalUpdates": [
+    {
+      "batchId": "primates-callithrix-jacchus-evidence-expansion-b40-2026-09-25",
+      "sourcePath": "data/sources/primates-callithrix-jacchus-evidence-expansion-b40-2026-09-25.json",
+      "inputSha256": "b6a9e937c75f5e480cca2bf972ba295214d1a0bfab8eadea83d97f1afd0bd1bd",
+      "generator": "scripts/build-primates-callithrix-jacchus-evidence-expansion-b40.mjs",
+      "baseHead": "3bbed94471c84359cae56de9ec83bb61e4e17dd3",
+      "indexedRecordCountAtAudit": 6969,
+      "targetColId": "697NS",
+      "previousDecodedSha256": "5dea2899c7b99d4dacf4bca5ed0f15ba6998cb9da6be53f840cdc98e031047d9",
+      "previousCompressedSha256": "74c898f55f63cf6e6bea978069bbf9c887eb56e3f65aba9ffd5b33d55bea25a3",
+      "previousTargetRecordSha256": "751d582d5a842c687860ef66c5e1291c90546875f5184a6cccf60559f2d776c7",
+      "decodedSha256": "87d2908923c64de62a04d33a51a18a41e41c512de1efa3cbc5666aa9186b72b4",
+      "compressedSha256": "fd014021247aad64701b4acb52e22ac097f53eb288aaa7991e352b562054bdff",
+      "targetRecordSha256": "027c8e3589492ef4bc86157f271ac1c21f250d8e60181ba160bf359e32386f5e",
+      "changedFacets": [
+        {
+          "facet": "morphology",
+          "status": "partially-supported"
+        },
+        {
+          "facet": "lifeHistory",
+          "status": "partially-supported"
+        },
+        {
+          "facet": "ecology",
+          "status": "partially-supported"
+        },
+        {
+          "facet": "evolution",
+          "status": "partially-supported"
+        },
+        {
+          "facet": "distribution",
+          "status": "partially-supported"
+        },
+        {
+          "facet": "fossil",
+          "status": "searched-no-evidence"
+        }
+      ],
+      "mode": "in-place-expand-one-primates-dossier-with-item-level-licensed-evidence-and-bounded-fossil-search"
+    }
+  ]
 }
