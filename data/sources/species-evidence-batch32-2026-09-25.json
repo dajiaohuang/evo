@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "batchId": "species-evidence-batch32-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "duplicateAudit": {
+    "baseHead": "c708bcc7489b79fceb6956e72161e32d7dec5a5a",
+    "checkedIndexRecords": 6944,
+    "openPullRequests": [],
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "records": [
+    {
+      "colId": "3G3B3",
+      "scientificName": "Ginkgo biloba L.",
+      "authorship": "L.",
+      "rank": "species",
+      "sourceDatasetId": "1141",
+      "facet": "evolution",
+      "identityScope": "COL26.8 accepted species usage 3G3B3. The cited population-genomic study supports bounded inferences from sampled trees and models; it does not establish a complete current range or census.",
+      "claim": {
+        "text": "Genome resequencing of 545 sampled trees from 51 populations in nine countries was used to infer three refugia in China and multiple human-aided introductions from eastern China to other continents. These are study-level population-history inferences from the sampled trees, not a complete census or proof that every sampled tree was wild.",
+        "locator": "Abstract; Results, sections Four ancient genetic components and three refugia of ginkgo and Human-aided dispersal of ginkgo out of China; Methods, Sample collection and resequencing and Analysis of population genetics and phylogeny.",
+        "placeTimeScope": "Samples came from 51 populations in nine countries and were selected to represent most known localities of large Ginkgo trees. The cited methods locator does not establish collection dates or resolve wild versus planted status for every sampled tree.",
+        "lifeStatus": "Tree samples; the cited source does not resolve wild versus cultivated or ornamental status for every sampled individual. No captive animal setting applies."
+      },
+      "facetGap": "The study supports population-history inferences for its sampled trees, but it is not a comprehensive species-level evolutionary synthesis and does not establish a complete present-day distribution.",
+      "lifeStatusScope": {
+        "wild": "The source sampled trees from populations, but the cited methods do not resolve wild versus planted status for each tree.",
+        "domesticated": "Cultivated and ornamental status is not resolved for every sampled tree.",
+        "captive": "No captive animal setting applies; the source analyzed tree samples.",
+        "fossil": "The paper's phrase living fossil is descriptive and is not direct evidence of a fossil occurrence; no fossil specimen or geological age is assessed here."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary population-genomic study; not a seven-facet literature review.",
+        "method": "Verified accepted usage and its complete parent chain in the pinned COL26.8 registry; reviewed the article's sample methods, population-history results, and item-level rights notice.",
+        "queryOrPath": "Pinned COL26.8 dataset 316115 usage 3G3B3; DOI 10.1038/s41467-019-12133-5.",
+        "inclusionCriteria": "Primary article directly studying Ginkgo biloba and reporting sample scope, population-genomic analyses, source locators, and reuse terms.",
+        "exclusionCriteria": "Unverified global range, complete census, per-tree wild/cultivated status, diagnostic morphology, life history, fossil occurrences, and conservation claims not established by the cited study."
+      },
+      "source": {
+        "id": "zhao2019",
+        "title": "Resequencing 545 ginkgo genomes across the world reveals the evolutionary history of the living fossil",
+        "url": "https://doi.org/10.1038/s41467-019-12133-5",
+        "version": "Version of record; Nature Communications 10, article 4201 (2019)",
+        "stableId": "doi:10.1038/s41467-019-12133-5",
+        "publishedAt": "2019-09-13",
+        "locator": "Abstract; Results, Four ancient genetic components and three refugia of ginkgo (paragraphs reporting refugia); Results, Human-aided dispersal of ginkgo out of China; Methods, Sample collection and resequencing.",
+        "license": "Article-level Creative Commons Attribution 4.0 International license, stated in the article rights notice.",
+        "rightsHolder": "Yun-Peng Zhao et al.",
+        "licenseEvidenceUrl": "https://www.nature.com/articles/s41467-019-12133-5",
+        "licenseEvidenceLocator": "Article Rights and permissions section, lines 592–595.",
+        "licenseAppliesTo": "Article text; separately credited third-party material is excluded. No figures or tables are reused.",
+        "attribution": "Zhao Y-P et al. (2019). Nature Communications 10:4201. https://doi.org/10.1038/s41467-019-12133-5. CC BY 4.0. Claims paraphrased; no figures or tables reused."
+      }
+    },
+    {
+      "colId": "3MJBG",
+      "scientificName": "Hoolock tianxing Peng-Fei Fan, Kai He, Xing Chen et al., 2017",
+      "authorship": "Peng-Fei Fan, Kai He, Xing Chen et al., 2017",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "facet": "distribution",
+      "identityScope": "COL26.8 accepted species usage 3MJBG. The cited field surveys confirm occurrence at surveyed localities in Myanmar; they do not provide a complete range-wide census.",
+      "claim": {
+        "text": "Acoustic surveys at six sites in Kachin State and three in Shan State, Myanmar, recorded 23 gibbon groups in Kachin and 21 in Shan; genetic identification from skin and saliva samples matched Hoolock tianxing at 99.54–100% identity. These detections confirm occurrence at surveyed localities and are not a range-wide population estimate.",
+        "locator": "Abstract; Methods, site selection and survey methods; Results, Population Surveys; Discussion; Fig. 2.",
+        "placeTimeScope": "Field surveys in Kachin and Shan States, Myanmar, December 2021 through March 2023. Kayah and Kayin sites were inaccessible, so the sampled sites do not represent a complete range-wide survey.",
+        "lifeStatus": "Free-ranging gibbons were acoustically detected and identified using non-invasive field samples; no captive animals were used for these detections."
+      },
+      "facetGap": "Presence is confirmed only at the surveyed localities; inaccessible areas and unsurveyed habitat prevent treating these counts as a complete range or population estimate.",
+      "lifeStatusScope": {
+        "wild": "The claim concerns free-ranging gibbons recorded at surveyed forest sites in Kachin and Shan States, Myanmar.",
+        "domesticated": "Domestication was not studied.",
+        "captive": "No captive animals were used for the reported field detections.",
+        "fossil": "The article discusses a separate 1913 museum skin specimen; this is not a fossil occurrence. No geological fossil evidence is assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary field survey; not a seven-facet literature review.",
+        "method": "Verified accepted usage and complete parent chain in the pinned COL26.8 registry; reviewed the survey design, site access limits, population-survey results, and publisher rights notice.",
+        "queryOrPath": "Pinned COL26.8 dataset 316115 usage 3MJBG; DOI 10.1007/s10764-024-00418-6.",
+        "inclusionCriteria": "Primary field article that directly identifies Hoolock tianxing and reports surveyed localities, dates, methods, results, and item-level reuse terms.",
+        "exclusionCriteria": "Unsurveyed areas, complete range estimates, species-wide abundance, captive populations, and facets not established by the field survey."
+      },
+      "source": {
+        "id": "aung2024",
+        "title": "Confirmation of Skywalker Hoolock Gibbon (Hoolock tianxing) in Myanmar Extends Known Geographic Range of an Endangered Primate",
+        "url": "https://doi.org/10.1007/s10764-024-00418-6",
+        "version": "Version of record; International Journal of Primatology 45:810–833 (2024)",
+        "stableId": "doi:10.1007/s10764-024-00418-6",
+        "publishedAt": "2024-02-14",
+        "locator": "Abstract; Methods, site selection and survey methods; Results, Population Surveys; Discussion; Fig. 2.",
+        "license": "Article-level Creative Commons Attribution 4.0 International license, stated in Rights and permissions.",
+        "rightsHolder": "Pyae Phyo Aung et al.",
+        "licenseEvidenceUrl": "https://link.springer.com/article/10.1007/s10764-024-00418-6",
+        "licenseEvidenceLocator": "Rights and permissions section, lines 535–537.",
+        "licenseAppliesTo": "Article text; third-party material is excluded when separately credited. No figures or images are reused.",
+        "attribution": "Aung P.P., Lwin N., Aung T.H. et al. (2024). International Journal of Primatology 45:810–833. https://doi.org/10.1007/s10764-024-00418-6. CC BY 4.0. Claims paraphrased; no figures reused."
+      }
+    },
+    {
+      "colId": "3WWNF",
+      "scientificName": "Macaca fuscata (Blyth, 1875)",
+      "authorship": "(Blyth, 1875)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "facet": "ecology",
+      "identityScope": "COL26.8 accepted species usage 3WWNF. The cited behavioral study supports results for one habituated and provisioned field population, not a species-wide behavioral estimate.",
+      "claim": {
+        "text": "For the Koshima population tested in winter and spring 2013, the novel-object caution component had modest but non-significant repeatability, while the novel-food consummatory and caution components had moderate, significant repeatability. These results describe the tested population and protocol, not a species-wide behavioral estimate.",
+        "locator": "Abstract; Methods, Study population and behavioral-test descriptions; Results, Tables 2 and 4 and accompanying text.",
+        "placeTimeScope": "Koshima Island, southern Japan (31°N, 131°E); 70 macaques were tested during winter and spring 2013. Test participation differed by protocol; the study population was habituated and provisioned.",
+        "lifeStatus": "Free-ranging wild macaques from a habituated and provisioned island population; no captive animals were tested."
+      },
+      "facetGap": "One habituated and provisioned population and a defined behavioral protocol do not establish species-wide behavior or environmental interactions across populations.",
+      "lifeStatusScope": {
+        "wild": "The study describes a free-ranging population on Koshima Island, Japan, habituated to observers and provisioned.",
+        "domesticated": "Domestication was not studied.",
+        "captive": "The macaques were not a captive population; no captive animals were tested.",
+        "fossil": "No fossil evidence or geological age was assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary field behavioral study; not a seven-facet literature review.",
+        "method": "Verified accepted usage and complete parent chain in the pinned COL26.8 registry; reviewed the population and test methods, statistical results, and publisher rights notice.",
+        "queryOrPath": "Pinned COL26.8 dataset 316115 usage 3WWNF; DOI 10.1007/s10329-016-0572-9.",
+        "inclusionCriteria": "Primary article directly studying Macaca fuscata and reporting study population, test protocol, results, and item-level reuse terms.",
+        "exclusionCriteria": "Species-wide personality or causal claims, other populations, diagnostic morphology, life history, complete distribution, fossils, and conservation claims not established by this study."
+      },
+      "source": {
+        "id": "arnaud2016",
+        "title": "Genes, social transmission, but not maternal effects influence responses of wild Japanese macaques (Macaca fuscata) to novel-object and novel-food tests",
+        "url": "https://doi.org/10.1007/s10329-016-0572-9",
+        "version": "Version of record; Primates 58:103–113 (2017); first published 2016-09-12",
+        "stableId": "doi:10.1007/s10329-016-0572-9",
+        "publishedAt": "2016-09-12",
+        "locator": "Abstract; Methods, Study population and behavioral tests; Results, Tables 2 and 4 and accompanying text.",
+        "license": "Article-level Creative Commons Attribution 4.0 International license, stated in the publisher's open-access article record.",
+        "rightsHolder": "Coline M. Arnaud et al.",
+        "licenseEvidenceUrl": "https://link.springer.com/article/10.1007/s10329-016-0572-9",
+        "licenseEvidenceLocator": "Rights and permissions section, lines 318–320.",
+        "licenseAppliesTo": "Article text; separately credited third-party material is excluded. No figures or tables are reused.",
+        "attribution": "Arnaud C.M., Suzumura T., Inoue E., Adams M.J. et al. (2017). Primates 58:103–113. https://doi.org/10.1007/s10329-016-0572-9. CC BY 4.0. Claims paraphrased; no figures or tables reused."
+      }
+    },
+    {
+      "colId": "4QPKQ",
+      "scientificName": "Pygoscelis adeliae (Hombron & Jacquinot, 1841)",
+      "authorship": "(Hombron & Jacquinot, 1841)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "facet": "lifeHistory",
+      "identityScope": "COL26.8 accepted species usage 4QPKQ. The cited demographic result concerns monitored wild nests at Windmill Islands camera sites, not species-wide reproductive success.",
+      "claim": {
+        "text": "Across 450 nests monitored at five Windmill Islands camera sites over ten breeding seasons, mean breeding success was 0.96 ± 0.76 SD chicks crèched per nest; annual site-sample values ranged from 0.68 in 2014/15 to 1.3 in 2017/18 and 2020/21. This is a local wild-colony result, not a species-wide productivity estimate.",
+        "locator": "Methods §§2.1–2.3; Results §3.1, Year and site differences in reproductive success; Fig. 4.",
+        "placeTimeScope": "Five remotely monitored camera sites in the Windmill Islands, East Antarctica; breeding seasons 2011/12 through 2020/21.",
+        "lifeStatus": "Wild breeding nests monitored by remotely operated cameras; no captive birds were studied."
+      },
+      "facetGap": "The sampled colonies and breeding seasons do not establish reproductive success across the species' entire range or all years.",
+      "lifeStatusScope": {
+        "wild": "The evidence concerns wild breeding nests monitored in the Windmill Islands, East Antarctica.",
+        "domesticated": "Domestication was not studied.",
+        "captive": "No captive birds were studied.",
+        "fossil": "No fossil evidence or geological age was assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary ten-season nest-monitoring study; not a seven-facet literature review.",
+        "method": "Verified accepted usage and complete parent chain in the pinned COL26.8 registry; reviewed camera-site and season methods, reproductive-success results, and article-level rights evidence.",
+        "queryOrPath": "Pinned COL26.8 dataset 316115 usage 4QPKQ; DOI 10.1002/ece3.10988.",
+        "inclusionCriteria": "Primary article directly studying Pygoscelis adeliae with reported nest sample, sites, breeding seasons, outcome values, and reuse terms.",
+        "exclusionCriteria": "Species-wide productivity, unsampled colonies, unstudied years, full range, morphology, evolution, fossils, and conservation claims not established by this study."
+      },
+      "source": {
+        "id": "mclatchie2024",
+        "title": "Delay in Adélie penguin nest occupation restricts parental investment in nest construction and reduces reproductive output",
+        "url": "https://doi.org/10.1002/ece3.10988",
+        "version": "Version of record; Ecology and Evolution 14, e10988 (2024)",
+        "stableId": "doi:10.1002/ece3.10988",
+        "publishedAt": "2024-03-11",
+        "locator": "Methods §§2.1–2.3; Results §3.1, Year and site differences in reproductive success; Fig. 4.",
+        "license": "Article-level Creative Commons Attribution 4.0 International license, verified for this open-access article.",
+        "rightsHolder": "Madi J. McLatchie et al.",
+        "licenseEvidenceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10928351/fullTextXML",
+        "licenseEvidenceLocator": "article/front/article-meta/permissions/license/license-p (CC BY 4.0).",
+        "licenseAppliesTo": "Article text; separately credited third-party material is excluded. No figures or tables are reused.",
+        "attribution": "McLatchie M.J., Emmerson L., Wotherspoon S., Southwell C. (2024). Ecology and Evolution 14:e10988. https://doi.org/10.1002/ece3.10988. CC BY 4.0. Claims paraphrased; no figures reused."
+      }
+    },
+    {
+      "colId": "HC3H",
+      "scientificName": "Aspergillus fumigatus Fresen.",
+      "authorship": "Fresen.",
+      "rank": "species",
+      "sourceDatasetId": "2073",
+      "facet": "lifeHistory",
+      "identityScope": "COL26.8 accepted species usage HC3H. The cited paper examines light-responsive development in a defined in-vitro isolate panel; it does not establish a species-wide field response.",
+      "claim": {
+        "text": "A controlled study of 15 Aspergillus fumigatus isolates found heterogeneous light responses in culture: most isolates showed light-associated hyphal pigmentation or conidiation, while at least one tested isolate showed no overt response. The outcomes varied among strain backgrounds and are limited to the reported culture conditions.",
+        "locator": "Abstract; Results, photopigmentation and photoconidiation sections; Fig. 1 and Figs. S1–S2; strain list in Table S1.",
+        "placeTimeScope": "Laboratory cultures incubated on GMM or RPMI 1640 under constant darkness or white light, with reported assays at 37°C for 48 hours or three days. Field location and collection dates for all isolates are not established by these experiment locators.",
+        "lifeStatus": "The article tested laboratory cultures from a mix of commonly used laboratory, clinical, and environmental isolates; no field community was observed in these experiments."
+      },
+      "facetGap": "The culture assays establish strain-dependent responses under specified laboratory conditions, not a uniform response or phenotype frequency in natural populations.",
+      "lifeStatusScope": {
+        "wild": "Some isolates had environmental origins, but the experiments used laboratory cultures rather than observing wild populations.",
+        "domesticated": "Domestication was not studied.",
+        "captive": "No captive animal setting applies; fungal isolates were cultured in vitro.",
+        "fossil": "No fossil evidence or geological age was assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary in-vitro photobiology study; not a seven-facet literature review.",
+        "method": "Verified accepted usage and complete parent chain in the pinned COL26.8 registry; reviewed isolate-panel methods, light-response results, supplementary strain context, and the publisher license notice.",
+        "queryOrPath": "Pinned COL26.8 dataset 316115 usage HC3H; DOI 10.1128/mbio.01517-16.",
+        "inclusionCriteria": "Primary article directly testing Aspergillus fumigatus isolates and reporting isolate scope, culture conditions, outcome, and item-level reuse terms.",
+        "exclusionCriteria": "Natural-population frequencies, field ecology, virulence generalization, diagnostic morphology, species-wide development, distribution, fossils, and conservation claims not established by this assay."
+      },
+      "source": {
+        "id": "fuller2016",
+        "title": "Aspergillus fumigatus Photobiology Illuminates the Marked Heterogeneity between Isolates",
+        "url": "https://doi.org/10.1128/mBio.01517-16",
+        "version": "Version of record; mBio 7(5):e01517-16 (2016)",
+        "stableId": "doi:10.1128/mbio.01517-16",
+        "publishedAt": "2016-09-20",
+        "locator": "Abstract; Results, light-response sections; Fig. 1 and Figs. S1–S2; Table S1.",
+        "license": "Article-level Creative Commons Attribution 4.0 International license, stated in the publisher rights notice.",
+        "rightsHolder": "Kevin K. Fuller et al.",
+        "licenseEvidenceUrl": "https://journals.asm.org/doi/10.1128/mbio.01517-16",
+        "licenseEvidenceLocator": "Article copyright and license notice, lines 124–127.",
+        "licenseAppliesTo": "Article text; third-party material is excluded when separately credited. No figures or supplemental files are reused.",
+        "attribution": "Fuller K.K., Cramer R.A., Zegans M.E., Dunlap J.C., Loros J.J. (2016). mBio 7(5):e01517-16. https://doi.org/10.1128/mbio.01517-16. CC BY 4.0. Claims paraphrased; no figures reused."
+      }
+    },
+    {
+      "colId": "MGPB",
+      "scientificName": "Bombyx mori Linnaeus, 1758",
+      "authorship": "Linnaeus, 1758",
+      "rank": "species",
+      "sourceDatasetId": "55434",
+      "facet": "morphology",
+      "identityScope": "COL26.8 accepted species usage MGPB. The evidence concerns cocoon properties of a laboratory-reared domesticated silkworm strain experiment, not wild populations.",
+      "claim": {
+        "text": "In a controlled experiment on spinning Bombyx mori, temperature treatments affected cocoon morphology, stiffness, and strength, while relative humidity affected cocoon colouration. These are measured outcomes for the tested laboratory-reared silkworm groups, not species-wide or wild-population estimates.",
+        "locator": "Abstract; Methods, silkworm rearing and experimental design; Results on cocoon morphology and mechanical properties; Fig. 1.",
+        "placeTimeScope": "Ninety larvae from one four-way polyhybrid cross were assigned to nine temperature and humidity groups. The article does not report the experiment's location or dates in the cited methods locator.",
+        "lifeStatus": "Captive laboratory rearing of domesticated Bombyx mori larvae; no wild silkworms were studied."
+      },
+      "facetGap": "One laboratory cross and controlled environmental treatments do not establish species-wide cocoon variation across strains or wild populations.",
+      "lifeStatusScope": {
+        "wild": "No wild silkworm population was studied.",
+        "domesticated": "The experiment used domesticated Bombyx mori larvae from one four-way polyhybrid cross.",
+        "captive": "Larvae were maintained under controlled laboratory rearing conditions; exact experiment location and dates were not reported by the cited locator.",
+        "fossil": "No fossil evidence or geological age was assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary controlled cocoon experiment; not a seven-facet literature review.",
+        "method": "Verified accepted usage and complete parent chain in the pinned COL26.8 registry; reviewed the rearing design, environmental treatments, measured cocoon outcomes, and item-level rights evidence.",
+        "queryOrPath": "Pinned COL26.8 dataset 316115 usage MGPB; DOI 10.1007/s10853-016-0298-5.",
+        "inclusionCriteria": "Primary article directly studying Bombyx mori and reporting experimental group, environmental conditions, cocoon outcome, and reuse terms.",
+        "exclusionCriteria": "Wild population behavior, all-strain generalization, range, unrelated life-history claims, phylogeny, fossils, and conservation claims not established by this controlled experiment."
+      },
+      "source": {
+        "id": "offord2016",
+        "title": "Environmental effects on the construction and physical properties of Bombyx mori cocoons",
+        "url": "https://doi.org/10.1007/s10853-016-0298-5",
+        "version": "Version of record; Journal of Materials Science 51:10863–10872 (2016)",
+        "stableId": "doi:10.1007/s10853-016-0298-5",
+        "publishedAt": "2016-08-24",
+        "locator": "Abstract; Methods, silkworm rearing and experimental design; Results on cocoon morphology and mechanical properties; Fig. 1.",
+        "license": "Creative Commons Attribution 4.0 International identified in the University of Leeds White Rose repository record for this article.",
+        "rightsHolder": "C. Offord, F. Vollrath, and C. Holland",
+        "licenseEvidenceUrl": "https://eprints.whiterose.ac.uk/id/eprint/104588/",
+        "licenseEvidenceLocator": "Repository item record identifies the article as CC BY 4.0.",
+        "licenseAppliesTo": "Article text under the repository's item-level CC BY 4.0 record; separately credited third-party material is excluded. No figures are reused.",
+        "attribution": "Offord C., Vollrath F., Holland C. (2016). Journal of Materials Science 51:10863–10872. https://doi.org/10.1007/s10853-016-0298-5. CC BY 4.0. Claims paraphrased; no figures reused."
+      }
+    }
+  ]
+}
