@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-gorilla-gorilla-lifehistory-batch42-2026-09-25",
+  "checkedAt": "2026-09-25",
+  "releaseAlias": "COL26.8",
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "datasetDoi": "10.48580/dgywk",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "target": {
+    "colId": "3H3C9",
+    "scientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+    "rank": "species",
+    "sourceDatasetId": "2144"
+  },
+  "audit": {
+    "baseHead": "e8259495de0553d4a954cbd40744aa3e86549891",
+    "indexedRecordCount": 6969,
+    "targetRecordCount": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "siblingColIds": [
+      "4C92G",
+      "4LTSY"
+    ],
+    "previousRawSha256": "7bbb0d8f65e036982d1ceec1f0c2b62c7e342dcb86740578b6786f06b18c0681",
+    "previousShardDecodedSha256": "7bbb0d8f65e036982d1ceec1f0c2b62c7e342dcb86740578b6786f06b18c0681",
+    "previousShardCompressedSha256": "9943ec8b4bf91b1480e2b5466bedce4e2ed04eb82ccf9a7bef46a01e8d691aad",
+    "previousTargetRecordSha256": "289ec657b76289ed7ccd6d0143cbf45a1ce0a9044c5f823c280322a16339d543"
+  },
+  "sources": [
+    {
+      "id": "robbins2023gorillalifehistory",
+      "title": "Robbins MM et al. (2023). Comparative life history patterns of female gorillas. American Journal of Biological Anthropology 181(4):564–574.",
+      "url": "https://doi.org/10.1002/ajpa.24792",
+      "stableId": "doi:10.1002/ajpa.24792",
+      "version": "Publisher version; first published 2023-06-21; American Journal of Biological Anthropology 181(4):564–574",
+      "publishedAt": "2023-06-21",
+      "accessedAt": "2026-09-25",
+      "locator": "Methods §2.1, Study sites and data collection; §2.2, interval and surviving-birth-rate definitions; Results §3, age at first parturition, interbirth intervals, and surviving birth rate; Table 3, Mbeli western gorilla column and note.",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), listed for the publisher version in the Max Planck PuRe item record.",
+      "licenseAssessment": "item-level-verified",
+      "rightsEvidenceUrl": "https://pure.mpg.de/pubman/item/item_3517901_4",
+      "rightsEvidenceLocator": "Max Planck PuRe item record identifies the publisher version and lists https://creativecommons.org/licenses/by/4.0/ as its license; the article PDF states that it is open access under the Creative Commons Attribution License.",
+      "rightsHolder": "Robbins et al. (2023)",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseAppliesTo": "Article text only; this dossier paraphrases the results and reproduces no figures, tables, or supplementary data.",
+      "attribution": "Robbins MM, Akantorana M, Arinaitwe J, Breuer T, Manguette M, McFarlin S, Meder A, Parnell R, Richardson JL, Stephan C, Stokes EJ, Stoinski TS, Vecellio V, Robbins AM (2023). Comparative life history patterns of female gorillas. American Journal of Biological Anthropology 181(4):564–574. https://doi.org/10.1002/ajpa.24792. CC BY 4.0. Claim paraphrased; no figures, tables, or supplementary data are reproduced.",
+      "scope": "Female life-history estimates from one monitored western lowland gorilla population at Mbeli Bai, Nouabalé-Ndoki National Park, Republic of Congo. The long-term demographic database included 525 gorillas in 101 social units observed February 1995–May 2020. Estimates are site-specific and do not establish values across all Gorilla gorilla populations or subspecies."
+    }
+  ],
+  "claims": {
+    "lifeHistory": {
+      "text": "At Mbeli Bai, the monitored western lowland gorilla population (Gorilla gorilla gorilla) had a mean female age at first parturition of 12.2 ± 0.6 years (n = 7). Mean interbirth interval was 5.4 ± 0.9 years (n = 54 intervals; the analysis included intervals whose offspring survived to age three), and the rate of offspring surviving to age three was 0.121 per adult female-year. These are estimates for this site and study population, not species-wide values.",
+      "textZh": "在 Mbeli Bai 受监测的西部低地大猩猩种群（*Gorilla gorilla gorilla*）中，雌性初次分娩的平均年龄为 12.2 ± 0.6 岁（n = 7）。平均产间隔为 5.4 ± 0.9 年（n = 54 个间隔；分析纳入其后代存活至 3 岁的间隔）；后代存活至 3 岁的出生率为每成年雌性年 0.121。这些是该地点和研究种群的估计，不代表全物种数值。",
+      "sourceIds": [
+        "robbins2023gorillalifehistory"
+      ],
+      "locator": "Methods §2.1, Study sites and data collection; §2.2, interbirth interval and surviving-birth-rate definitions; Results §3; Table 3, Mbeli western gorilla column and note.",
+      "placeTimeScope": "Mbeli Bai, a swampy clearing in Nouabalé-Ndoki National Park, Republic of Congo. The western-gorilla demographic database included 525 gorillas in 101 social units observed February 1995–May 2020. First-parturition and interval estimates concern female subsets; intervals were limited to offspring surviving to age three for the interbirth-interval analysis.",
+      "lifeStatus": "Free-ranging wild western lowland gorillas (Gorilla gorilla gorilla) at one long-term monitored site. The claim does not cover captive animals, other gorilla populations, or every Gorilla gorilla subspecies.",
+      "translationStatus": "translated",
+      "originalLanguage": "en"
+    }
+  },
+  "gaps": {
+    "lifeHistory": [
+      "Life-history estimates are from one western lowland gorilla population at Mbeli Bai and from specific female subsamples; development, lifespan, and life-history variation across other Gorilla gorilla populations and subspecies remain unassessed."
+    ]
+  },
+  "appAndPagesPreviewManifestChanged": false
+}
