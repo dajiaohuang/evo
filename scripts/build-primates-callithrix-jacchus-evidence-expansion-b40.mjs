@@ -8,7 +8,7 @@ import { brotliCompressSync, brotliDecompressSync, constants as zlibConstants } 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const INPUT = 'data/sources/primates-callithrix-jacchus-evidence-expansion-b40-2026-09-25.json'
 const OUTPUT = 'data/knowledge/primates-callithrix-jacchus-evidence-expansion-b40-2026-09-25.batch-manifest.json'
-const EXPECTED_INPUT_SHA256 = 'b6a9e937c75f5e480cca2bf972ba295214d1a0bfab8eadea83d97f1afd0bd1bd'
+const EXPECTED_INPUT_SHA256 = 'eada223ab3b03fecc1178d936571be00490330a6ad8b6f442ba8a8cf0bffe09c'
 const FACETS = ['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation']
 
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex')
@@ -80,7 +80,7 @@ assert.deepEqual(Object.keys(target.facets).sort(), [...FACETS].sort())
 const sourceMap = new Map(target.sources.map(source => [source.id, source]))
 assert.equal(sourceMap.size, target.sources.length, 'Existing dossier has duplicate source IDs')
 for (const source of input.sources) {
-  for (const key of ['id', 'title', 'url', 'stableId', 'version', 'publishedAt', 'license', 'rightsHolder', 'licenseEvidenceUrl', 'licenseEvidenceLocator', 'licenseAppliesTo', 'attribution', 'licenseVersion', 'licenseUrl', 'licenseAssessment', 'scope']) {
+  for (const key of ['id', 'title', 'url', 'locator', 'stableId', 'version', 'publishedAt', 'license', 'rightsHolder', 'licenseEvidenceUrl', 'licenseEvidenceLocator', 'licenseAppliesTo', 'attribution', 'licenseVersion', 'licenseUrl', 'licenseAssessment', 'scope']) {
     assert.ok(source[key], 'Missing item-level source metadata ' + key + ' for ' + source.id)
   }
   assert.equal(source.licenseAssessment, 'item-level-verified')
@@ -93,7 +93,7 @@ assert.equal(updateMap.size, input.facetUpdates.length, 'Duplicate facet update'
 for (const claim of input.claims) {
   assert.ok(FACETS.includes(claim.facet), 'Invalid claim facet ' + claim.facet)
   assert.ok(claim.text && claim.textZh && claim.locator && claim.placeTimeScope && claim.lifeStatus && claim.originalLanguage, 'Claim missing source, translation, scope, or locator')
-  assert.equal(claim.translationStatus, 'translated')
+  assert.equal(claim.translationStatus, 'verified')
   assert.ok(sourceMap.has(claim.sourceId), 'Claim references an unknown source ' + claim.sourceId)
   assert.equal(sourceMap.get(claim.sourceId).licenseAssessment, 'item-level-verified')
   assert.ok(updateMap.has(claim.facet), 'Claim has no facet update: ' + claim.facet)
@@ -108,6 +108,7 @@ for (const update of input.facetUpdates) {
   assert.equal(assessment.status, update.expectedStatus, 'Unexpected starting status for ' + update.facet)
   assessment.status = update.status
   assessment.gaps = [...update.gaps]
+  if (update.search) assessment.search = { ...update.search }
 }
 for (const claim of input.claims) {
   const { facet, sourceId, ...claimData } = claim
@@ -125,9 +126,14 @@ assert.equal(target.facets.fossil.claims.length, 0, 'No positive fossil claim sh
 for (const [facet, assessment] of Object.entries(target.facets)) {
   assert.ok(FACETS.includes(facet))
   assert.ok(assessment.gaps?.length, 'Every facet must retain explicit scope/gaps: ' + facet)
+  if (assessment.status === 'searched-no-evidence') {
+    for (const key of ['date', 'scope', 'method', 'queryOrPath', 'inclusionCriteria', 'exclusionCriteria', 'searcher']) {
+      assert.ok(assessment.search?.[key], 'No-evidence facet is missing reproducibility field ' + facet + '/' + key)
+    }
+  }
   for (const claim of assessment.claims ?? []) {
     assert.ok(claim.text && claim.locator && claim.placeTimeScope && claim.lifeStatus && claim.originalLanguage)
-    if (claim.translationStatus === 'translated') assert.ok(claim.textZh, 'Translated claim is missing its reviewed Chinese text')
+    if (claim.translationStatus === 'verified') assert.ok(claim.textZh, 'Verified claim is missing its reviewed Chinese text')
     else assert.equal(claim.translationStatus, 'untranslated', 'Claim translation state must be explicit')
     assert.ok(claim.sourceIds?.length && claim.sourceIds.every(id => sourceMap.has(id)), 'Claim references an unknown source in ' + facet)
   }
