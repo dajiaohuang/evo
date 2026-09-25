@@ -13,9 +13,9 @@
   ],
   "path": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
   "rawPath": "data/knowledge/raw-dossiers/primates-batch-2.jsonl",
-  "rawSha256": "7bbb0d8f65e036982d1ceec1f0c2b62c7e342dcb86740578b6786f06b18c0681",
-  "decodedSha256": "7bbb0d8f65e036982d1ceec1f0c2b62c7e342dcb86740578b6786f06b18c0681",
-  "compressedSha256": "9943ec8b4bf91b1480e2b5466bedce4e2ed04eb82ccf9a7bef46a01e8d691aad",
+  "rawSha256": "bfbc22ecc265636d6a094f282bf12deb8af4d22627c8025738d25b2e8c27d784",
+  "decodedSha256": "bfbc22ecc265636d6a094f282bf12deb8af4d22627c8025738d25b2e8c27d784",
+  "compressedSha256": "6a0be1a805c5cf7fff07bcd49f476269bbd496ac0b440402f3d449da9e224b76",
   "checkedAt": "2026-09-25",
   "generationSource": "data/sources/primates-dossiers-batch-2.json",
   "generationSourceSha256": "c8b917c5ff80a680585b05612793099e1dbdecdb0ae66f961ae6a28e6edc46ec",
@@ -30,26 +30,31 @@
     "existingRecordCount": 1
   },
   "updateAudit": {
-    "baseHead": "c341aecf97dcd0c42a7f10b3e2a9655cc3d5c433",
+    "baseHead": "e8259495de0553d4a954cbd40744aa3e86549891",
     "indexedRecordCountAtAudit": 6969,
-    "targetColId": "4C92G",
-    "targetScientificName": "Pan troglodytes (Blumenbach, 1775)",
+    "targetColId": "3H3C9",
+    "targetScientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
     "targetRecordCountBeforeUpdate": 1,
     "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
-    "previousRawSha256": "724a0377f57dba380c8d37b53890953d2fb5f33908d9ae673b4a82faf2b2234e",
-    "previousDecodedSha256": "724a0377f57dba380c8d37b53890953d2fb5f33908d9ae673b4a82faf2b2234e",
-    "previousCompressedSha256": "25fb964e7d8d411378fb0b9b57e864f03d92b8e321b193533874a97c273c7872",
-    "previousTargetRecordSha256": "8130ed31519290e1421b3d33c4a4bd9b7e6dee81a0a3d2557c48064de43f4443",
+    "previousRawSha256": "7bbb0d8f65e036982d1ceec1f0c2b62c7e342dcb86740578b6786f06b18c0681",
+    "previousDecodedSha256": "7bbb0d8f65e036982d1ceec1f0c2b62c7e342dcb86740578b6786f06b18c0681",
+    "previousCompressedSha256": "9943ec8b4bf91b1480e2b5466bedce4e2ed04eb82ccf9a7bef46a01e8d691aad",
+    "previousTargetRecordSha256": "289ec657b76289ed7ccd6d0143cbf45a1ce0a9044c5f823c280322a16339d543",
     "openPullRequests": [],
-    "mode": "in-place-add-four-facet-evidence-sources-to-existing-record",
+    "openPullRequestSearch": {
+      "query": "3H3C9",
+      "checkedAt": "2026-09-25",
+      "returned": 0
+    },
+    "mode": "in-place-add-one-site-bounded-life-history-source-to-existing-record",
     "indexedRecordCountAfterUpdate": 6969,
-    "outputRawSha256": "7bbb0d8f65e036982d1ceec1f0c2b62c7e342dcb86740578b6786f06b18c0681",
-    "outputDecodedSha256": "7bbb0d8f65e036982d1ceec1f0c2b62c7e342dcb86740578b6786f06b18c0681",
-    "outputCompressedSha256": "9943ec8b4bf91b1480e2b5466bedce4e2ed04eb82ccf9a7bef46a01e8d691aad"
+    "outputRawSha256": "bfbc22ecc265636d6a094f282bf12deb8af4d22627c8025738d25b2e8c27d784",
+    "outputDecodedSha256": "bfbc22ecc265636d6a094f282bf12deb8af4d22627c8025738d25b2e8c27d784",
+    "outputCompressedSha256": "6a0be1a805c5cf7fff07bcd49f476269bbd496ac0b440402f3d449da9e224b76"
   },
   "updateMode": "rebuild-one-existing-record-in-place",
-  "decodedBytes": 47707,
-  "compressedBytes": 12027,
+  "decodedBytes": 52223,
+  "compressedBytes": 12919,
   "supplementalUpdates": [
     {
       "batchId": "primates-core-flagship-enrichment-2026-09-24",
@@ -116,6 +121,22 @@
       "decodedSha256": "7bbb0d8f65e036982d1ceec1f0c2b62c7e342dcb86740578b6786f06b18c0681",
       "compressedSha256": "9943ec8b4bf91b1480e2b5466bedce4e2ed04eb82ccf9a7bef46a01e8d691aad",
       "mode": "in-place-add-four-facet-evidence-sources-to-existing-record"
+    },
+    {
+      "batchId": "primates-gorilla-gorilla-lifehistory-batch42-2026-09-25",
+      "sourcePath": "data/sources/primates-gorilla-gorilla-lifehistory-b42-2026-09-25.json",
+      "sourceSha256": "31b8cd6b86a6ab1d37f42344d6445e7701d66cb35813c7ca89809b8576a1e6da",
+      "generator": "scripts/update-primates-gorilla-gorilla-lifehistory-batch42.mjs",
+      "baseHead": "e8259495de0553d4a954cbd40744aa3e86549891",
+      "indexedRecordCountAtAudit": 6969,
+      "targetColIds": [
+        "3H3C9"
+      ],
+      "previousDecodedSha256": "7bbb0d8f65e036982d1ceec1f0c2b62c7e342dcb86740578b6786f06b18c0681",
+      "previousCompressedSha256": "9943ec8b4bf91b1480e2b5466bedce4e2ed04eb82ccf9a7bef46a01e8d691aad",
+      "decodedSha256": "bfbc22ecc265636d6a094f282bf12deb8af4d22627c8025738d25b2e8c27d784",
+      "compressedSha256": "6a0be1a805c5cf7fff07bcd49f476269bbd496ac0b440402f3d449da9e224b76",
+      "mode": "in-place-add-one-site-bounded-life-history-source-to-existing-record"
     }
   ]
 }
