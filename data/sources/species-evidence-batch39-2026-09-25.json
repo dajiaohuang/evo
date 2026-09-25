@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "batchId": "species-evidence-batch39-2026-09-25",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-25",
+  "baseAudit": {
+    "baseHead": "bdcdac2261ac4722c48eaddd77db024a386ba0df",
+    "indexedRecordCount": 6966,
+    "indexedShardCount": 62,
+    "openPullRequests": [],
+    "newRecordColIds": ["4S9MN", "WVWV", "6LZDS"],
+    "updatedColIds": [],
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "newRecords": [
+    {
+      "colId": "4S9MN",
+      "scientificName": "Rhinopithecus roxellana (A. Milne-Edwards, 1870)",
+      "authorship": "(A. Milne-Edwards, 1870)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "identityScope": "Exact accepted COL26.8 species usage 4S9MN. The evidence concerns the Sichuan regional distribution account and current period 2001–2023 in one published study; it is not the full species range throughout China.",
+      "facet": "distribution",
+      "claim": {
+        "text": "A Sichuan Province distribution study integrating field surveys, protected-area records, and historical records defined its current period as 2001–2023. For that region, the authors report the Sichuan golden snub-nosed monkey's current distribution as confined to elevations of 1,000–4,000 m in the Qionglai and Minshan ranges; the study also reports no current presence in four northeastern Sichuan areas below 1,000 m. This is a Sichuan-only regional assessment, not the full distribution of Rhinopithecus roxellana across China.",
+        "textZh": "一项四川省分布研究整合了野外调查、保护区记录和历史资料，并将当前时期界定为 2001–2023 年。作者报告，在该研究区域内，四川金丝猴当前分布限于邛崃山和岷山两大山系海拔 1,000–4,000 米范围；研究还报告四川东北部四个海拔低于 1,000 米的区域目前没有该猴分布。这是四川省范围内的区域评估，不代表川金丝猴（Rhinopithecus roxellana）在中国全境的分布。",
+        "locator": "Abstract for integrated evidence sources, period definitions, current mountain/elevation limits, and northeastern low-elevation areas; Methods for GIS period and regional scope.",
+        "placeTimeScope": "Sichuan Province, China; current distribution period 2001–2023, compared with 1980–2000 and a historical Mid-to-Late Pleistocene period; free-living monkeys.",
+        "lifeStatus": "Wild regional populations as represented by field surveys, protected areas, and historical records; captive, domesticated, and fossil evidence was not assessed by this distribution claim."
+      },
+      "facetGap": "This GIS synthesis bounds a Sichuan regional range for selected periods; it does not establish the full China-wide species distribution, fine-scale occupancy, or current status of every local population.",
+      "lifeStatusScope": {
+        "wild": "The claim concerns free-living regional populations represented in Sichuan survey and protected-area records.",
+        "domesticated": "No domesticated populations were assessed.",
+        "captive": "Captive populations were not assessed.",
+        "fossil": "The paper includes a historical Mid-to-Late Pleistocene comparison, but this claim addresses current distribution only; a fossil facet was not assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary GIS distribution study; not a complete species-wide distribution or seven-facet review.",
+        "method": "Verified the accepted COL usage and every accepted parent node in the pinned hierarchy; reviewed the article abstract, periods, evidence inputs, Sichuan geographic limits, elevations, and item-level open-license statement.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage 4S9MN; DOI 10.1002/ece3.11270; full-text XML PMCID PMC11021920.",
+        "inclusionCriteria": "Primary research article directly naming Rhinopithecus roxellana and reporting an explicit current regional distribution synthesis with a defined spatial and temporal boundary.",
+        "exclusionCriteria": "China-wide species limits, unsampled localities, population abundance, morphology, life history, ecology, phylogeny, direct fossil claims, and conservation categories are not inferred from the Sichuan distribution summary."
+      },
+      "unassessedFacetGaps": {
+        "morphology": "The distribution synthesis does not document diagnostic morphology or species-level anatomical variation.",
+        "lifeHistory": "The selected distribution result does not assess reproduction, survival, or a complete life history.",
+        "ecology": "The GIS range summary does not establish diet, habitat relationships, or ecological interactions.",
+        "evolution": "The selected study does not analyze phylogeny or evolutionary history.",
+        "fossil": "Although the paper compares historical distribution periods, this dossier claim does not assess fossil specimens, deposits, or geological evidence.",
+        "conservation": "The regional distribution summary is not an independent population trend or formal conservation-status assessment."
+      },
+      "source": {
+        "id": "dai2024sichuan-snub-nosed-range",
+        "title": "Historical changes in the distribution of the Sichuan golden snub-nosed monkey (Rhinopithecus roxellana) in Sichuan Province, China",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/ece3.11270",
+        "stableId": "doi:10.1002/ece3.11270",
+        "version": "Ecology and Evolution 14(4):e11270 (2024)",
+        "publishedAt": "2024-04",
+        "locator": "Abstract; §§2 methods and 3 results; copyright and open-access license statement.",
+        "license": "Article states © 2024 The Authors and is open access under the Creative Commons Attribution License (CC BY 4.0).",
+        "rightsHolder": "Yunchuan Dai, Wancai Xia, Yujing Zhu, Charlotte Hacker, Xueyu Wang, and Dayong Li",
+        "licenseEvidenceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11021920/fullTextXML",
+        "licenseEvidenceLocator": "Article full-text permissions and copyright statements: © 2024 The Authors; open access under CC BY 4.0, permitting reuse with proper citation.",
+        "licenseAppliesTo": "The article text under its item-level CC BY 4.0 notice; the claim is paraphrased and no table, figure, or third-party material is reproduced.",
+        "attribution": "Dai Y, Xia W, Zhu Y, Hacker C, Wang X, Li D (2024). Historical changes in the distribution of the Sichuan golden snub-nosed monkey (Rhinopithecus roxellana) in Sichuan Province, China. Ecology and Evolution 14(4):e11270. https://doi.org/10.1002/ece3.11270. CC BY 4.0. Claim paraphrased.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "One historical/current GIS synthesis for Sichuan Province; claim covers current period 2001–2023 and does not generalize to the species' complete China-wide range."
+      }
+    },
+    {
+      "colId": "WVWV",
+      "scientificName": "Coffea arabica L.",
+      "authorship": "L.",
+      "rank": "species",
+      "sourceDatasetId": "1141",
+      "identityScope": "Exact accepted COL26.8 species usage WVWV. The evidence concerns five cultivated Coffea arabica genotypes in one rainfall-reduction agroforestry field trial in Son La, Vietnam; it is not evidence for wild populations or all Arabica genotypes.",
+      "facet": "ecology",
+      "claim": {
+        "text": "At the NOMAFSI Mai Son Research Centre in Son La Province, northwestern Vietnam (780 m elevation), a shaded agroforestry field trial compared five cultivated Coffea arabica genotypes under rain-fed control and rainfall-reduction treatments for two successive production years. The rainfall-reduction treatment lowered soil water content by 14% over those years, and yields under that treatment were 16–75% lower than controls across the tested genotypes. These results are bounded to this site, treatment, period, and set of five genotypes.",
+        "textZh": "在越南西北部山罗省 NOMAFSI Mai Son 研究中心（海拔 780 米），一项遮荫农林复合田间试验对五个栽培阿拉比卡咖啡基因型进行了两年雨养对照与减雨处理比较。减雨处理使这两个连续生产年度的土壤含水量降低 14%，五个受测基因型在该处理下的产量比对照低 16–75%。这些结果仅适用于该试验地点、处理、时间段和五个受测基因型。",
+        "locator": "Abstract for treatment duration, 14% soil-water reduction, and 16–75% yield comparison; §2.2 for site, elevation, agroforestry design, and rainfall-reduction treatment; Results for genotype comparisons.",
+        "placeTimeScope": "NOMAFSI Mai Son Research Centre, Son La Province, northwestern Vietnam, 780 m; shaded agroforestry field trial initiated in 2018; rainfall-reduction production observations span two successive years through 2022.",
+        "lifeStatus": "Cultivated fruit-bearing coffee trees in a managed field trial; wild populations were not studied."
+      },
+      "facetGap": "A rainfall manipulation at one agroforestry research site in five cultivated genotypes does not establish wild coffee ecology or responses across Arabica populations, farms, climates, and management systems.",
+      "lifeStatusScope": {
+        "wild": "The experiment studied planted coffee genotypes, not wild populations.",
+        "domesticated": "Cultivated coffee was studied; this trial does not establish the species-wide domestication history.",
+        "captive": "Not applicable; this is a plant-field experiment.",
+        "fossil": "Fossil occurrence and geological age were not assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary rainfall-reduction field experiment; not a complete species ecology or seven-facet review.",
+        "method": "Verified the accepted usage and every accepted parent node in the pinned hierarchy; reviewed the trial location, elevation, five genotypes, treatment period, abstract outcomes, results, and article copyright/license notice.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage WVWV; DOI 10.3389/fpls.2024.1443900.",
+        "inclusionCriteria": "Primary field study directly naming Coffea arabica and reporting quantified outcomes for a defined environmental treatment, site, and genotype set.",
+        "exclusionCriteria": "Wild populations, all cultivated Arabica, global climate responses, morphology, complete life history, evolution, range, fossils, and conservation claims are not inferred from one field experiment."
+      },
+      "unassessedFacetGaps": {
+        "morphology": "The drought-response experiment does not document diagnostic morphology or species-level anatomical variation.",
+        "lifeHistory": "The study does not assess a complete life cycle, reproductive history, or lifetime production.",
+        "evolution": "The study does not analyze phylogeny or evolutionary history.",
+        "distribution": "One experimental location does not establish the species' geographic distribution.",
+        "fossil": "The experiment does not assess fossil occurrences or geological age.",
+        "conservation": "The trial does not assess wild population status, threats, or conservation categories."
+      },
+      "source": {
+        "id": "sarzynski2024coffea-drought",
+        "title": "Contrasted agronomical and physiological responses of five Coffea arabica genotypes under soil water deficit in field conditions",
+        "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1443900/full",
+        "stableId": "doi:10.3389/fpls.2024.1443900",
+        "version": "Frontiers in Plant Science 15:1443900 (2024)",
+        "publishedAt": "2024-10-08",
+        "locator": "Abstract; §§2.1–2.2; Results and Discussion; article copyright and license statement.",
+        "license": "Article notice identifies © 2024 Sarzynski et al. and states it is distributed under the Creative Commons Attribution License (CC BY 4.0).",
+        "rightsHolder": "Thuan Sarzynski, Philippe Vaast, Clément Rigal, Pierre Marraccini, Boris Delahaie, Frédéric Georget, Chang Thi Quynh Nguyen, Hung Phi Nguyen, Hai Thi Thanh Nguyen, Quyen Luu Ngoc, Giang Khong Ngan, Laurent Bossolasco, and Hervé Etienne",
+        "licenseEvidenceUrl": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1443900/full",
+        "licenseEvidenceLocator": "Article copyright statement names Sarzynski and coauthors and applies the Creative Commons Attribution License (CC BY 4.0).",
+        "licenseAppliesTo": "The article text under its item-level CC BY 4.0 notice; the claim is paraphrased and no figure or table is reproduced.",
+        "attribution": "Sarzynski T, Vaast P, Rigal C, Marraccini P, Delahaie B, Georget F, Nguyen CTQ, Nguyen HP, Nguyen HTT, Ngoc QL, Ngan GK, Bossolasco L, Etienne H (2024). Contrasted agronomical and physiological responses of five Coffea arabica genotypes under soil water deficit in field conditions. Front. Plant Sci. 15:1443900. https://doi.org/10.3389/fpls.2024.1443900. CC BY 4.0. Claim paraphrased.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "Five cultivated genotypes in one shaded agroforestry rainfall-reduction trial in Son La, Vietnam over two successive production years; not evidence for wild populations or every cultivated genotype."
+      }
+    },
+    {
+      "colId": "6LZDS",
+      "scientificName": "Holothuria scabra Jaeger, 1833",
+      "authorship": "Jaeger, 1833",
+      "rank": "species",
+      "sourceDatasetId": "1107",
+      "identityScope": "Exact accepted COL26.8 species usage 6LZDS. The evidence concerns survival after experimental releases of hatchery-cultured juveniles into four seagrass sea pens near Kavieng, Papua New Guinea; it does not estimate survival for wild-born sandfish or the whole species.",
+      "facet": "ecology",
+      "claim": {
+        "text": "At the first recovery measurement after releases of hatchery-cultured juvenile Holothuria scabra into 100 m² seagrass sea pens near Kavieng, Papua New Guinea, overall survival was 93.5% at Limanak 1, 84.6% at Limanak 2, and 52.7% at Enuk; no juveniles were found at the fourth site, Ungakum. These site-level results combine the study's free-release, one-day cage, and seven-day cage treatments and describe this short ranching experiment only.",
+        "textZh": "在巴布亚新几内亚卡维恩附近的 100 平方米海草围栏中放流人工孵化幼参后进行的首次回收测量显示，Limanak 1、Limanak 2 和 Enuk 的总体存活率分别为 93.5%、84.6% 和 52.7%；在第四个地点 Ungakum 未发现幼参。这些地点级结果合并了研究中的直接放流、笼护 1 天和笼护 7 天处理，仅描述这项短期海参牧场试验。",
+        "locator": "Abstract for hatchery origin, approximate juvenile size, sites, and total-loss limitation; §2.4 and Table 1 for release dates and protection treatments; §3.2 Results and Fig. 3 for first-recovery site survival and no recovery at Ungakum.",
+        "placeTimeScope": "Limanak 1, Limanak 2, Enuk, and Ungakum, seagrass meadows near Kavieng, New Ireland Province, Papua New Guinea; releases on 22 March, 15 May, and 15 July 2014; first recovery approximately two months after release.",
+        "lifeStatus": "Hatchery-cultured juveniles released into natural seagrass habitats within experimental sea pens; not wild-born individuals or an unmanipulated wild population."
+      },
+      "facetGap": "Short-term recovery of hatchery juveniles at four experimental sites does not establish natural survival, long-term population recruitment, species-wide habitat suitability, or regional wild population status.",
+      "lifeStatusScope": {
+        "wild": "Released juveniles occupied natural seagrass habitats in sea pens, but were hatchery-cultured and not a wild-born cohort.",
+        "domesticated": "The study concerns cultured juveniles used in a ranching experiment; it does not assess the history or breadth of domestication.",
+        "captive": "Juveniles were temporarily protected in open sea pens under three release treatments; this is not a captive life-history study.",
+        "fossil": "Fossil occurrence and geological age were not assessed."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary sea-ranching release experiment; not a complete species ecology or seven-facet review.",
+        "method": "Verified the accepted usage and each accepted parent node in the pinned hierarchy; reviewed the release design, dates, sites, first-recovery survival results, limitations, article copyright notice, and institutional repository license metadata.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage 6LZDS; DOI 10.1016/j.aqrep.2016.03.004; WorldFish archived article and license record.",
+        "inclusionCriteria": "Primary research article directly naming Holothuria scabra and reporting a site-bounded survival result for cultured juveniles with defined release and recovery methods.",
+        "exclusionCriteria": "Natural survival, wild recruitment, population abundance, all seagrass habitats, morphology, full life history, evolution, range, fossils, and conservation status are not inferred from this ranching trial."
+      },
+      "unassessedFacetGaps": {
+        "morphology": "The release-survival study does not document diagnostic morphology or species-level anatomical variation.",
+        "lifeHistory": "Short-term juvenile survival after experimental release is not a complete life cycle, reproduction history, or lifespan account.",
+        "evolution": "The study does not analyze phylogeny or evolutionary history.",
+        "distribution": "Four experimental release sites do not establish the species' geographic range.",
+        "fossil": "The study does not assess fossil occurrences or geological age.",
+        "conservation": "The release experiment is not a wild population assessment or conservation-status evaluation."
+      },
+      "source": {
+        "id": "hair2016holothuria-release-survival",
+        "title": "Optimising methods for community-based sea cucumber ranching: Experimental releases of cultured juvenile Holothuria scabra into seagrass meadows in Papua New Guinea",
+        "url": "https://doi.org/10.1016/j.aqrep.2016.03.004",
+        "stableId": "doi:10.1016/j.aqrep.2016.03.004",
+        "version": "Aquaculture Reports 3:198–208 (2016)",
+        "publishedAt": "2016-05",
+        "locator": "Abstract; §§2.2–2.4 and Table 1 for sites, release design, and dates; §3.2 and Fig. 3 for survival results; article copyright and license statement.",
+        "license": "The article states © 2016 The Authors, published by Elsevier B.V., and is open access under the Creative Commons Attribution License (CC BY 4.0).",
+        "rightsHolder": "Cathy Hair, David J. Mills, Rowan McIntyre, and Paul C. Southgate",
+        "licenseEvidenceUrl": "https://worldfishcenter.org/publication/optimising-methods-community-based-sea-cucumber-ranching-experimental-releases-cultured",
+        "licenseEvidenceLocator": "WorldFish repository record identifies Copyright CC BY 4.0 and links the author article PDF, whose article front matter names The Authors and CC BY 4.0.",
+        "licenseAppliesTo": "The article text under its item-level CC BY 4.0 notice; claim paraphrased and no figure or table is reproduced.",
+        "attribution": "Hair C, Mills DJ, McIntyre R, Southgate PC (2016). Optimising methods for community-based sea cucumber ranching: Experimental releases of cultured juvenile Holothuria scabra into seagrass meadows in Papua New Guinea. Aquaculture Reports 3:198–208. https://doi.org/10.1016/j.aqrep.2016.03.004. CC BY 4.0. Claim paraphrased.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "First-recovery survival of hatchery-cultured juveniles after releases at four 100 m² seagrass sea pens near Kavieng in 2014; short local ranching results, not natural survival or a species-wide estimate."
+      }
+    }
+  ],
+  "updates": []
+}
