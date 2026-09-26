@@ -16,7 +16,7 @@
     "dossierBasePath": "data/knowledge/catalogue-dossiers.json",
     "dossierBaseSha256": "88def9f9997c16f6eba9c51aca5c134b4af198442ae941baa284e6dd0c86beb5",
     "dossierIndexPath": "data/knowledge/catalogue-dossier-shards.json",
-    "dossierIndexSha256": "169c22606e7d03647b7458c1680bc1e9ae424b2e07a9e390fa7b7a3af0cbd4e7",
+    "dossierIndexSha256": "23348759744652931e79db513f708b668637e2d0b67ccd3927e62fe37ec38f36",
     "dossierShards": [
       {
         "path": "data/knowledge/catalogue-dossiers-all.jsonl.br",
@@ -407,6 +407,12 @@
         "recordCount": 1,
         "compressedSha256": "bea6dd03ec325fb5c89bcdd3258926b07998b893cda0861784ada33b106c1b3c",
         "decodedSha256": "52396b6e1d09bf3d606b97c5d69eac62b3cdff2e0c8b0e216eed8b2d927c76ee"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-fna-pinus-albicaulis-dossier-batch-2026-09-27.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "42ff38127087b9beeb96358071aaf60d84784c882f61d21f5dfa90e62de64308",
+        "decodedSha256": "8321708ec9a6b71ddf46fc3cddd194b1a57b1394453f5d33447b86864d86b149"
       }
     ],
     "sourceOriginalCollections": [
@@ -556,12 +562,12 @@
     "acceptedSpecies": 2183133,
     "sourceOriginalAssociatedSpecies": 80838,
     "introductorySummarySpecies": 27,
-    "dossierSpecies": 6971,
+    "dossierSpecies": 6972,
     "completeDossierSpecies": 0,
     "externallyReviewedSpecies": 0,
     "speciesWithAnyEvidenceStage": 80975,
     "speciesWithoutAnyEvidenceStage": 2102158,
-    "speciesWithoutDossier": 2176162,
+    "speciesWithoutDossier": 2176161,
     "sourceOriginalCollectionSpecies": {
       "brazilFloraDescriptions": 28896,
       "fdacDescriptions": 4156,
@@ -585,36 +591,36 @@
       "species": 27
     },
     "dossierStatuses": {
-      "missing": 2176162,
-      "incomplete": 6971,
+      "missing": 2176161,
+      "incomplete": 6972,
       "complete": 0
     },
     "expertReviewStatuses": {
-      "no-dossier": 2176162,
-      "not-reviewed": 6971,
+      "no-dossier": 2176161,
+      "not-reviewed": 6972,
       "maintainer-reviewed": 0,
       "externally-reviewed": 0
     },
     "claimSourceRightsStatuses": {
-      "not-assessed": 2176162,
+      "not-assessed": 2176161,
       "no-biological-claim-sources": 0,
-      "item-level-verified": 119,
+      "item-level-verified": 120,
       "claim-source-rights-unresolved": 6852
     },
     "facetStatuses": {
       "morphology": {
         "supported": 0,
-        "partially-supported": 6904,
+        "partially-supported": 6905,
         "searched-no-evidence": 0,
         "conflicted": 0,
-        "not-assessed": 2176229
+        "not-assessed": 2176228
       },
       "lifeHistory": {
         "supported": 0,
-        "partially-supported": 188,
+        "partially-supported": 189,
         "searched-no-evidence": 0,
         "conflicted": 0,
-        "not-assessed": 2182945
+        "not-assessed": 2182944
       },
       "ecology": {
         "supported": 0,
@@ -671,10 +677,10 @@
       "prefix": "1",
       "path": "data/knowledge/species-evidence-queue/1.jsonl.br",
       "recordCount": 136976,
-      "decodedBytes": 98161142,
-      "decodedSha256": "d7179040e5522dbd0cebf8497884c037ce95b8b181f4ec206be91dacf0581d6e",
-      "compressedBytes": 4678220,
-      "compressedSha256": "df1360dd0ca8e41837d5709b445a08ca17ce21142a51e8271a8d547d6c2179ed",
+      "decodedBytes": 98161221,
+      "decodedSha256": "13e5dd71dc584da993d9798757c43190514766bdb9941e2ded04ffcab6291c64",
+      "compressedBytes": 4678332,
+      "compressedSha256": "71bd859baad668220e1e9c416c654c5ef2df9e0c564d5797e11ab748b3dd1694",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
