@@ -157,4 +157,13 @@ export const primatesZh: Record<string, string> = {
   'Shanghuang and Yuanqu locality sample': '上黄与垣曲地点样本',
   'Mosaic of tarsal characters used in an anthropoid-affinity test': '用于类人猿亲缘检验的跗骨镶嵌性状',
   'Gebo and colleagues report the isolated tarsals and their sampled character comparisons on pp. 276–278, Figure 1 and Supplementary Tables 1–2. Attribution and stem-anthropoid placement are matrix-dependent inferences; the bones are not directly associated with the dental hypodigm.': 'Gebo 等人在第 276–278 页、图 1 与补充表 1–2 中报告孤立跗骨及其采样性状比较。归属与类人猿干群位置是依赖矩阵的推断；这些骨骼并未与牙齿标本系列直接关联。',
+  'Buxa Tiger Reserve, West Bengal, India (one troop study site)': '印度西孟加拉邦布克萨虎保护区（单一猕猴群体研究地点）',
+  'Cayo Santiago, Puerto Rico (managed free-ranging morphology study population)': '波多黎各卡约圣地亚哥（人工管理的自由活动形态研究群体）',
+  'At Buxa, fruit accounted for 70.8% of recorded diet in the study-defined May–September non-provisioning period and 28.8% in the October–April provisioning period for one 64-individual troop.': '在布克萨，一个由 64 只个体组成的群体在研究划定的 5–9 月非投喂期，水果占记录食物的 70.8%；在 10 月至次年 4 月投喂期，占 28.8%。',
+  'The selected Buxa troop home range included patches of natural forest, mixed-species plantations and residential settlements; this is one local study setting, not a full habitat account.': '所选布克萨猕猴群体的家域包含天然森林、混合树种种植林和居民点；这只是一个地方研究环境，并非完整的栖息地描述。',
+  'Not assessed in the selected studies.': '所选研究未评估。',
+  'The Buxa ecology study did not estimate species-wide body size; see the separate Cayo Santiago morphology claim for its measured cohort.': '布克萨生态研究未估计全物种体型；已测群体见卡约圣地亚哥的独立形态学主张。',
+  'In one 2015 Cayo Santiago pedigree sample, most measured male morphometric traits were heritable under the study’s pooled models; this cohort result is not species-wide.': '在 2015 年卡约圣地亚哥的一组谱系样本中，按研究合并模型，多数已测雄性形态性状表现出遗传率；此样本结果不代表全物种。',
+  'The core profile links one source-bounded ecology study and one source-bounded morphology analysis. Life history, conservation and global distribution remain unassessed; no temporal range is exposed.': '核心档案链接一项来源范围明确的生态研究与一项来源范围明确的形态分析。生活史、保护状况和全球分布仍未评估；未展示年代范围。',
+  'Rhesus Macaque': '恒河猴',
 }
