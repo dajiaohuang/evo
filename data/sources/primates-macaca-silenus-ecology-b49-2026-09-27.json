@@ -1,0 +1,73 @@
+{
+  "batchId": "primates-macaca-silenus-ecology-batch49-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-27",
+  "appAndPagesPreviewManifestChanged": false,
+  "target": {
+    "colId": "3WWP6",
+    "scientificName": "Macaca silenus (Linnaeus, 1758)",
+    "rank": "species",
+    "sourceDatasetId": "2144"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "audit": {
+    "baseHead": "53a6cdfbf40406eca9c9ff8f7db68e8ca6a35f8e",
+    "indexedRecordCount": 6970,
+    "targetRecordCount": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+    "previousRawSha256": "a4071de7d32581fd24f42d37cf513cd5ee1f1d6ba60f5fed43dc2fe1868ad16c",
+    "previousShardDecodedSha256": "a4071de7d32581fd24f42d37cf513cd5ee1f1d6ba60f5fed43dc2fe1868ad16c",
+    "previousShardCompressedSha256": "fa173fe30d8465632bda5cdb7fb8afc7952822057da81d3ffbc3e18a4ebdfb34",
+    "previousTargetRecordSha256": "1749c46713d2922e19fa6f547e6f65798e87234586dd6c91db5debdcb51975e7",
+    "siblingColIds": ["3WWNQ", "6TM9B"],
+    "sourceOccurrenceCountBeforeUpdate": 0,
+    "openPullRequestSearch": {
+      "queries": ["3WWP6", "10.1371/journal.pone.0238695"],
+      "checkedAt": "2026-09-27",
+      "returned": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "dhawale2020",
+      "title": "Dhawale et al. (2020), Changing ecologies, shifting behaviours: Behavioural responses of a rainforest primate, the lion-tailed macaque Macaca silenus, to a matrix of anthropogenic habitats in southern India",
+      "url": "https://doi.org/10.1371/journal.pone.0238695",
+      "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0238695",
+      "rightsEvidenceLocator": "Article copyright notice states open access under the Creative Commons Attribution License; the linked license resolves to CC BY 4.0. Separately credited third-party material is excluded.",
+      "version": "PLOS ONE 15(9): e0238695; version of record published 2020-09-23",
+      "stableId": "doi:10.1371/journal.pone.0238695",
+      "publishedAt": "2020-09-23",
+      "accessedAt": "2026-09-27",
+      "locator": "Methods—Study area, Study troop and individuals, and Field methods; Results—Ecological and behavioural responses of lion-tailed macaques to habitat types; Fig. 3.",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), identified by the item-linked license URL in the article copyright notice.",
+      "licenseAssessment": "item-level-verified",
+      "scope": "Primary field study of one habituated, free-ranging troop in the Puthuthottam forest fragment on the Valparai plateau, Tamil Nadu, India. Behaviour was sampled February–May 2016 in four local habitat types; observations covered over 480 follow-hours. Claims are paraphrased; article text, figures, and supplementary files are not reproduced.",
+      "rightsHolder": "Dhawale, Kumar, and Sinha, as identified by the article copyright notice.",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseAppliesTo": "Article text under the item-linked CC BY 4.0 license; separately credited third-party material is excluded.",
+      "attribution": "Dhawale AK, Kumar MA, Sinha A (2020). Changing ecologies, shifting behaviours: Behavioural responses of a rainforest primate, the lion-tailed macaque Macaca silenus, to a matrix of anthropogenic habitats in southern India. PLoS ONE 15(9):e0238695. https://doi.org/10.1371/journal.pone.0238695. Claims are paraphrased."
+    }
+  ],
+  "claims": {
+    "ecology": {
+      "text": "From February to May 2016, researchers followed one habituated, free-ranging troop of lion-tailed macaques at Puthuthottam in the Valparai plateau, Tamil Nadu, recording over 480 follow-hours across forest interior, forest edge, an open forest patch, and a human settlement. In this troop, active foraging was higher in the open patch and forest edge, and lower in the human settlement, than in the forest interior; its time-activity budget also differed between the interior and settlement. This dry-season study of one troop does not establish a species-wide response to human-modified habitat.",
+      "textZh": "2016 年 2 月至 5 月，研究者在泰米尔纳德邦瓦尔帕赖高原的普图托坦，跟踪观察了一群已习惯观察者、自由活动的狮尾猕猴，在林内、林缘、开阔林地斑块和人类居住地四种栖息地累计记录了 480 多小时。在这群猴中，与林内相比，开阔斑块和林缘的主动觅食更多，人类居住地的主动觅食更少；林内与居住地之间的活动时间预算也有差异。这项旱季单群体研究不能证明该物种对人为改造栖息地具有普遍反应。",
+      "sourceIds": ["dhawale2020"],
+      "locator": "Methods—Study area, Study troop and individuals, and Field methods; Results—Ecological and behavioural responses of lion-tailed macaques to habitat types; Fig. 3.",
+      "placeTimeScope": "One Puthuthottam troop on the Valparai plateau, Anamalai Hills, Tamil Nadu, southern Western Ghats; observations in four habitat types during February–May 2016, the dry season; over 480 follow-hours.",
+      "lifeStatus": "Free-ranging wild troop; one troop and dry-season observations only.",
+      "translationStatus": "translated",
+      "originalLanguage": "en"
+    }
+  },
+  "gaps": {
+    "ecology": [
+      "This study covers one troop at one forest fragment during the dry season. It does not establish annual or species-wide diet, habitat use, or behavioural responses across populations."
+    ]
+  }
+}
