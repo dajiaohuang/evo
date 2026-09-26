@@ -12,12 +12,12 @@
   ],
   "path": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
   "rawPath": "data/knowledge/raw-dossiers/primates-dossiers-batch-3.jsonl",
-  "rawSha256": "a4071de7d32581fd24f42d37cf513cd5ee1f1d6ba60f5fed43dc2fe1868ad16c",
-  "decodedSha256": "a4071de7d32581fd24f42d37cf513cd5ee1f1d6ba60f5fed43dc2fe1868ad16c",
-  "compressedSha256": "fa173fe30d8465632bda5cdb7fb8afc7952822057da81d3ffbc3e18a4ebdfb34",
-  "decodedBytes": 49105,
-  "compressedBytes": 11054,
-  "checkedAt": "2026-09-26",
+  "rawSha256": "7be7f2bf119f62e571b3c33a9f86af253a787ea163862942c4c26fee37c641e4",
+  "decodedSha256": "7be7f2bf119f62e571b3c33a9f86af253a787ea163862942c4c26fee37c641e4",
+  "compressedSha256": "973454bb5615203895ea2947432aaad269ab90ba5624659e3142aace5f01e756",
+  "decodedBytes": 53204,
+  "compressedBytes": 11952,
+  "checkedAt": "2026-09-27",
   "generationSource": "data/sources/primates-dossiers-batch-3.json",
   "generationSourceSha256": "f950f3d0af0905f136be4356a6b33a62daec577b1be271ae8578a4aa32c41905",
   "updatedIds": [
@@ -106,35 +106,43 @@
       "decodedSha256": "a4071de7d32581fd24f42d37cf513cd5ee1f1d6ba60f5fed43dc2fe1868ad16c",
       "compressedSha256": "fa173fe30d8465632bda5cdb7fb8afc7952822057da81d3ffbc3e18a4ebdfb34",
       "mode": "in-place-add-cayo-santiago-morphology-and-selection-evidence-to-existing-record"
+    },
+    {
+      "batchId": "primates-macaca-silenus-ecology-batch49-2026-09-27",
+      "sourcePath": "data/sources/primates-macaca-silenus-ecology-b49-2026-09-27.json",
+      "sourceSha256": "e9457a12f242908de2f5828bdc0e844fd3496eb9f83fddf726ecd5c77ff9c852",
+      "generator": "scripts/update-primates-macaca-silenus-ecology-b49.mjs",
+      "baseHead": "53a6cdfbf40406eca9c9ff8f7db68e8ca6a35f8e",
+      "indexedRecordCountAtAudit": 6970,
+      "targetColIds": [
+        "3WWP6"
+      ],
+      "previousDecodedSha256": "a4071de7d32581fd24f42d37cf513cd5ee1f1d6ba60f5fed43dc2fe1868ad16c",
+      "previousCompressedSha256": "fa173fe30d8465632bda5cdb7fb8afc7952822057da81d3ffbc3e18a4ebdfb34",
+      "decodedSha256": "7be7f2bf119f62e571b3c33a9f86af253a787ea163862942c4c26fee37c641e4",
+      "compressedSha256": "973454bb5615203895ea2947432aaad269ab90ba5624659e3142aace5f01e756",
+      "mode": "in-place-add-bounded-wild-habitat-use-and-foraging-evidence"
     }
   ],
   "updateAudit": {
-    "batchId": "primates-macaca-mulatta-morphology-batch46-2026-09-26",
-    "baseHead": "b59a9ff11f12160a8b6816ef8f61020f56dd6b3e",
-    "indexedRecordCountAtAudit": 6969,
-    "targetColId": "3WWNQ",
-    "targetScientificName": "Macaca mulatta (Zimmermann, 1780)",
+    "batchId": "primates-macaca-silenus-ecology-batch49-2026-09-27",
+    "baseHead": "53a6cdfbf40406eca9c9ff8f7db68e8ca6a35f8e",
+    "indexedRecordCountAtAudit": 6970,
+    "targetColId": "3WWP6",
+    "targetScientificName": "Macaca silenus (Linnaeus, 1758)",
     "targetRecordCountBeforeUpdate": 1,
     "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
-    "previousRawSha256": "98954d5e1c01f24ad18bc34c7562ddb4a2c03f189de4dd9c330832be5a06b6d6",
-    "previousDecodedSha256": "98954d5e1c01f24ad18bc34c7562ddb4a2c03f189de4dd9c330832be5a06b6d6",
-    "previousCompressedSha256": "13b42ce27f1514ee1276e80be5286394ce5c2e420133486e7d9ec1e3a51634a5",
-    "previousTargetRecordSha256": "a0f9eac3456bf356404e8503ce199e68dec869acc1b49a8118178c65e8cbb047",
-    "openPullRequests": [],
-    "openPullRequestSearch": {
-      "queries": [
-        "3WWNQ",
-        "10.1038/s41598-019-52633-4"
-      ],
-      "checkedAt": "2026-09-26",
-      "returned": 0
-    },
-    "sourceStableId": "doi:10.1038/s41598-019-52633-4",
+    "previousRawSha256": "a4071de7d32581fd24f42d37cf513cd5ee1f1d6ba60f5fed43dc2fe1868ad16c",
+    "previousDecodedSha256": "a4071de7d32581fd24f42d37cf513cd5ee1f1d6ba60f5fed43dc2fe1868ad16c",
+    "previousCompressedSha256": "fa173fe30d8465632bda5cdb7fb8afc7952822057da81d3ffbc3e18a4ebdfb34",
+    "previousTargetRecordSha256": "1749c46713d2922e19fa6f547e6f65798e87234586dd6c91db5debdcb51975e7",
+    "sourceStableId": "doi:10.1371/journal.pone.0238695",
     "sourceOccurrenceCountBeforeUpdate": 0,
-    "mode": "in-place-add-cayo-santiago-morphology-and-selection-evidence-to-existing-record",
-    "indexedRecordCountAfterUpdate": 6969,
-    "outputRawSha256": "a4071de7d32581fd24f42d37cf513cd5ee1f1d6ba60f5fed43dc2fe1868ad16c",
-    "outputDecodedSha256": "a4071de7d32581fd24f42d37cf513cd5ee1f1d6ba60f5fed43dc2fe1868ad16c",
-    "outputCompressedSha256": "fa173fe30d8465632bda5cdb7fb8afc7952822057da81d3ffbc3e18a4ebdfb34"
+    "openPullRequests": [],
+    "mode": "in-place-add-bounded-wild-habitat-use-and-foraging-evidence",
+    "indexedRecordCountAfterUpdate": 6970,
+    "outputRawSha256": "7be7f2bf119f62e571b3c33a9f86af253a787ea163862942c4c26fee37c641e4",
+    "outputDecodedSha256": "7be7f2bf119f62e571b3c33a9f86af253a787ea163862942c4c26fee37c641e4",
+    "outputCompressedSha256": "973454bb5615203895ea2947432aaad269ab90ba5624659e3142aace5f01e756"
   }
 }
