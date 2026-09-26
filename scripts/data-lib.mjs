@@ -30,7 +30,9 @@ function manifestFilesBelow(directory) {
 }
 
 export function dataFiles() {
-  return manifestFilesBelow('data').filter((path) => path !== 'data/manifest.json')
+  return manifestFilesBelow('data').filter((path) =>
+    path !== 'data/manifest.json'
+    && !path.startsWith('data/knowledge/species-evidence-queue/'))
 }
 
 export function sha256(path) {
@@ -68,6 +70,7 @@ export function collectDataSummary() {
   const editorialDecisions = readJson('data/evidence/editorial-decisions.json')
   const entityRegistry = readJson('data/registry/entities/entities.json')
   const packageRegistry = readJson('data/registry/package-registry.json')
+  const speciesEvidenceQueue = readJson('data/knowledge/species-evidence-queue/manifest.json')
   const paleogeography = readJson('data/paleogeography/provenance.json')
   const caoObservations = readJson('data/paleogeography/observations/manifest.json')
   const catalogue = readJson('data/catalogue-of-life/releases/2026-08-20/registry/manifest.json')
@@ -109,6 +112,21 @@ export function collectDataSummary() {
       bilingualRegistryEntities: entityRegistry.filter((entity) => entity.names.en && entity.names.zh).length,
       packageOwnedEntities: entityRegistry.filter((entity) => entity.packageId).length,
       acceptedSpeciesNames: catalogue.counts.acceptedSpecies,
+      speciesEvidenceQueueAcceptedSpecies: speciesEvidenceQueue.counts.acceptedSpecies,
+      speciesSourceOriginalAssociated: speciesEvidenceQueue.counts.sourceOriginalAssociatedSpecies,
+      speciesWithIntroductorySummary: speciesEvidenceQueue.counts.introductorySummarySpecies,
+      speciesWithDossier: speciesEvidenceQueue.counts.dossierSpecies,
+      speciesWithCompleteDossier: speciesEvidenceQueue.counts.completeDossierSpecies,
+      speciesWithExternalReview: speciesEvidenceQueue.counts.externallyReviewedSpecies,
+      speciesWithAnyEvidenceStage: speciesEvidenceQueue.counts.speciesWithAnyEvidenceStage,
+      speciesWithoutAnyEvidenceStage: speciesEvidenceQueue.counts.speciesWithoutAnyEvidenceStage,
+      speciesWithoutDossier: speciesEvidenceQueue.counts.speciesWithoutDossier,
+      ...Object.fromEntries(Object.entries(speciesEvidenceQueue.counts.facetStatuses).flatMap(([facet, statuses]) =>
+        Object.entries(statuses).map(([status, count]) => {
+          const facetKey = `${facet[0].toUpperCase()}${facet.slice(1)}`
+          const statusKey = status.split('-').map(part => `${part[0].toUpperCase()}${part.slice(1)}`).join('')
+          return [`speciesFacet${facetKey}${statusKey}`, count]
+        }))),
       resolvingSpeciesNameUsages: Object.values(catalogue.counts.resolvingNameUsages).reduce((sum, count) => sum + count, 0),
       catalogueSourceChecklists: catalogue.sourceChecklists.count,
     },
