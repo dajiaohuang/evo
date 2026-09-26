@@ -1,0 +1,80 @@
+{
+  "batchId": "primates-macaca-fascicularis-morphology-batch47-2026-09-26",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-26",
+  "appAndPagesPreviewManifestChanged": false,
+  "target": {
+    "colId": "3WWND",
+    "scientificName": "Macaca fascicularis (Raffles, 1821)",
+    "rank": "species",
+    "sourceDatasetId": "2144"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "audit": {
+    "baseHead": "8a49f9298bdbcd6faf1d42fe7d81d95da9eddf5e",
+    "indexedRecordCount": 6969,
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-cercopithecoidea-batch-8.jsonl.br",
+    "previousRawSha256": "11ead00133a69c500779846ca4dcfc0a5e34386f102149fe2534326f2db23c3e",
+    "previousShardDecodedSha256": "11ead00133a69c500779846ca4dcfc0a5e34386f102149fe2534326f2db23c3e",
+    "previousShardCompressedSha256": "ab673b690241b7238caf60493f4ed9b1a4018f7dcbe53acd0f2be272c9145695",
+    "previousTargetRecordSha256": "bc393a4c7805f5671679c1611a7bda15daf6807e59f38c7eb749e2cab0a7c0ec",
+    "sourceOccurrenceCountBeforeUpdate": 0,
+    "siblingColIds": [],
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "queries": [
+        "3WWND",
+        "10.1016/j.archoralbio.2024.106067"
+      ],
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "chapple2024patterning",
+      "title": "Chapple, Smith & Skinner (2024), Testing the patterning cascade model of cusp development in Macaca fascicularis mandibular molars",
+      "url": "https://doi.org/10.1016/j.archoralbio.2024.106067",
+      "rightsEvidenceUrl": "https://kar.kent.ac.uk/106845/",
+      "rightsEvidenceLocator": "Kent Academic Repository identifies the item as the publisher PDF and states Creative Commons Attribution 4.0 International.",
+      "version": "Archives of Oral Biology 167 (2024), article 106067; first published online 2024-08-08; publisher PDF deposited in the Kent Academic Repository.",
+      "stableId": "doi:10.1016/j.archoralbio.2024.106067",
+      "publishedAt": "2024-08-08",
+      "accessedAt": "2026-09-26",
+      "locator": "Abstract—Design, Results and Conclusions; Methods §2.1—Study sample; Results on accessory-cusp patterning.",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated on the Kent Academic Repository record for the publisher PDF.",
+      "licenseAssessment": "item-level-verified",
+      "scope": "Primary micro-CT and geometric-morphometric analysis of 13 selected Macaca fascicularis mandibular second molars. This specimen sample does not estimate population-wide or species-wide variation. Claims are independently paraphrased; no article prose, figures, images, or specimen-level data are reproduced.",
+      "rightsHolder": "The Authors",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseAppliesTo": "The publisher PDF identified in the Kent repository record; separately credited third-party material may be excluded.",
+      "attribution": "Chapple SA, Smith TM, Skinner MM. (2024). Testing the patterning cascade model of cusp development in Macaca fascicularis mandibular molars. Archives of Oral Biology 167:106067. https://doi.org/10.1016/j.archoralbio.2024.106067. Claims are paraphrased."
+    }
+  ],
+  "claims": {
+    "morphology": {
+      "text": "In a micro-CT and geometric-morphometric analysis of 13 selected Macaca fascicularis mandibular second molars (M2s), molars with accessory cusps were larger and had shorter relative cusp heights than molars without accessory cusps; peripheral-cusp presence was associated with more centrally positioned primary cusps. These sample patterns were broadly consistent with the patterning-cascade model, but the authors state that the model did not explain every form of accessory-cusp expression in this sample.",
+      "textZh": "一项对 13 颗经筛选的长尾猕猴下颌第二臼齿（M2）进行的微型 CT 与几何形态测量研究发现，带附加牙尖的臼齿体积较大、相对牙尖高度较短；周缘牙尖的出现与主要牙尖位置更居中相关。样本中的这些模式总体符合模式级联模型，但作者指出，该模型无法解释本样本中所有附加牙尖的表现。",
+      "sourceIds": [
+        "chapple2024patterning"
+      ],
+      "locator": "Abstract—Design, Results and Conclusions; Methods §2.1—Study sample.",
+      "placeTimeScope": "Specimen-based study from a single primate-centre collection; the cited abstract does not provide specimen collection dates. The article first appeared online 2024-08-08 and was published in the November 2024 issue.",
+      "lifeStatus": "Specimen-based rather than a live field-population sample; the cited abstract does not establish the wild or captive history of each specimen.",
+      "translationStatus": "translated",
+      "originalLanguage": "en"
+    }
+  },
+  "gaps": {
+    "morphology": [
+      "The evidence is limited to 13 selected mandibular second molars from one research collection; it does not establish variation across populations, ages, dental positions, or the full species range, and it does not resolve all accessory-cusp expression."
+    ]
+  },
+  "mode": "in-place-add-bounded-specimen-level-molar-morphology-evidence"
+}
