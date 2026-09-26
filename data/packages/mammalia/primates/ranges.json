@@ -1020,5 +1020,31 @@
       }
     ],
     "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:macaca_mulatta:global",
+    "entityId": "macaca_mulatta",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Macaca mulatta accepted COL26.8 usage 3WWNQ; numerical temporal and geographic range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed; selected study sites do not define the species range",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Zero values are non-display placeholders; the selected checklist and studies do not establish fossil endpoints or a complete wild-distribution inventory."
+    },
+    "evidenceBasis": "COL26.8 supports accepted identity and classification; the selected Buxa ecology and Cayo Santiago morphology papers study living populations and do not estimate a temporal fossil range.",
+    "evidenceLevel": "withheld-no-range-evidence",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "col-2026-checklistbank-316115",
+        "locator": "COL26.8 dataset 316115; accepted usage 3WWNQ and parent chain (identity/classification only)"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]
