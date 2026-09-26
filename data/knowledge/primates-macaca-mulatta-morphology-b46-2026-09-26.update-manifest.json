@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-macaca-mulatta-morphology-batch46-2026-09-26",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-macaca-mulatta-morphology-b46-2026-09-26.json",
+    "sha256": "0015009c90ff8d2f9852209993e8e7fb48ee9a60a8c895dbd98289025887b765"
+  },
+  "duplicateCheck": {
+    "mode": "in-place-update",
+    "indexedRecordCount": 6969,
+    "sourceStableIds": [
+      "doi:10.1038/s41598-019-52633-4"
+    ],
+    "sourceOccurrencesBeforeUpdate": 0,
+    "matchedColIds": [
+      "3WWNQ"
+    ],
+    "matchedNames": [
+      "macaca mulatta zimmermann 1780"
+    ],
+    "openPullRequests": []
+  },
+  "previousUpdateAudit": {
+    "batchId": "primates-papio-anubis-miscarriage-batch45-2026-09-26",
+    "baseHead": "c9dd62be118a28c8d4cd67dba575213baef87940",
+    "indexedRecordCountAtAudit": 6969,
+    "targetColId": "6TM9B",
+    "targetScientificName": "Papio anubis (Lesson, 1827)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+    "previousRawSha256": "c71e55e1d273f95d83c40823a9ce76262e771af2641ee462dfc37f9b51739864",
+    "previousDecodedSha256": "c71e55e1d273f95d83c40823a9ce76262e771af2641ee462dfc37f9b51739864",
+    "previousCompressedSha256": "baa4f8f1ae2d95228192dd0b294f8b55fc62315e3c616ebd27343e7e5fcc9fac",
+    "previousTargetRecordSha256": "8677b4092c1f9f66e2a56c99458a8ae6169e0cccdf4c827c0337dba99f696902",
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "queries": [
+        "6TM9B",
+        "10.1038/s41598-021-83175-3"
+      ],
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    },
+    "sourceStableId": "doi:10.1038/s41598-021-83175-3",
+    "sourceOccurrenceCountBeforeUpdate": 0,
+    "mode": "in-place-add-wild-reproductive-and-social-ecology-evidence-to-existing-record",
+    "indexedRecordCountAfterUpdate": 6969,
+    "outputRawSha256": "98954d5e1c01f24ad18bc34c7562ddb4a2c03f189de4dd9c330832be5a06b6d6",
+    "outputDecodedSha256": "98954d5e1c01f24ad18bc34c7562ddb4a2c03f189de4dd9c330832be5a06b6d6",
+    "outputCompressedSha256": "13b42ce27f1514ee1276e80be5286394ce5c2e420133486e7d9ec1e3a51634a5"
+  },
+  "updateAudit": {
+    "batchId": "primates-macaca-mulatta-morphology-batch46-2026-09-26",
+    "baseHead": "b59a9ff11f12160a8b6816ef8f61020f56dd6b3e",
+    "indexedRecordCountAtAudit": 6969,
+    "targetColId": "3WWNQ",
+    "targetScientificName": "Macaca mulatta (Zimmermann, 1780)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+    "previousRawSha256": "98954d5e1c01f24ad18bc34c7562ddb4a2c03f189de4dd9c330832be5a06b6d6",
+    "previousDecodedSha256": "98954d5e1c01f24ad18bc34c7562ddb4a2c03f189de4dd9c330832be5a06b6d6",
+    "previousCompressedSha256": "13b42ce27f1514ee1276e80be5286394ce5c2e420133486e7d9ec1e3a51634a5",
+    "previousTargetRecordSha256": "a0f9eac3456bf356404e8503ce199e68dec869acc1b49a8118178c65e8cbb047",
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "queries": [
+        "3WWNQ",
+        "10.1038/s41598-019-52633-4"
+      ],
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    },
+    "sourceStableId": "doi:10.1038/s41598-019-52633-4",
+    "sourceOccurrenceCountBeforeUpdate": 0,
+    "mode": "in-place-add-cayo-santiago-morphology-and-selection-evidence-to-existing-record",
+    "indexedRecordCountAfterUpdate": 6969,
+    "outputRawSha256": "a4071de7d32581fd24f42d37cf513cd5ee1f1d6ba60f5fed43dc2fe1868ad16c",
+    "outputDecodedSha256": "a4071de7d32581fd24f42d37cf513cd5ee1f1d6ba60f5fed43dc2fe1868ad16c",
+    "outputCompressedSha256": "fa173fe30d8465632bda5cdb7fb8afc7952822057da81d3ffbc3e18a4ebdfb34"
+  },
+  "sources": [
+    {
+      "id": "kimock2019",
+      "stableId": "doi:10.1038/s41598-019-52633-4",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "rightsHolder": "The Authors, as identified in the article's Creative Commons license statement."
+    }
+  ],
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-dossiers-batch-3.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 3,
+    "bytes": 49105,
+    "sha256": "a4071de7d32581fd24f42d37cf513cd5ee1f1d6ba60f5fed43dc2fe1868ad16c"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 49105,
+    "decodedSha256": "a4071de7d32581fd24f42d37cf513cd5ee1f1d6ba60f5fed43dc2fe1868ad16c",
+    "compressedBytes": 11054,
+    "compressedSha256": "fa173fe30d8465632bda5cdb7fb8afc7952822057da81d3ffbc3e18a4ebdfb34",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "preservedSiblingColIds": [
+    "3WWP6",
+    "6TM9B"
+  ],
+  "generator": "scripts/update-primates-macaca-mulatta-morphology-b46.mjs",
+  "updateMode": "in-place-enrichment-of-one-existing-record",
+  "appAndPagesPreviewManifestChanged": false
+}

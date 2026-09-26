@@ -1,0 +1,86 @@
+{
+  "batchId": "primates-macaca-mulatta-morphology-batch46-2026-09-26",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-26",
+  "appAndPagesPreviewManifestChanged": false,
+  "target": {
+    "colId": "3WWNQ",
+    "scientificName": "Macaca mulatta (Zimmermann, 1780)",
+    "rank": "species",
+    "sourceDatasetId": "2144"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "audit": {
+    "baseHead": "b59a9ff11f12160a8b6816ef8f61020f56dd6b3e",
+    "indexedRecordCount": 6969,
+    "targetRecordCount": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+    "previousRawSha256": "98954d5e1c01f24ad18bc34c7562ddb4a2c03f189de4dd9c330832be5a06b6d6",
+    "previousShardDecodedSha256": "98954d5e1c01f24ad18bc34c7562ddb4a2c03f189de4dd9c330832be5a06b6d6",
+    "previousShardCompressedSha256": "13b42ce27f1514ee1276e80be5286394ce5c2e420133486e7d9ec1e3a51634a5",
+    "previousTargetRecordSha256": "a0f9eac3456bf356404e8503ce199e68dec869acc1b49a8118178c65e8cbb047",
+    "siblingColIds": ["3WWP6", "6TM9B"],
+    "sourceOccurrenceCountBeforeUpdate": 0,
+    "openPullRequestSearch": {
+      "queries": ["3WWNQ", "10.1038/s41598-019-52633-4"],
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "kimock2019",
+      "title": "Kimock et al. (2019), Male morphological traits are heritable but do not predict reproductive success in a sexually-dimorphic primate",
+      "url": "https://doi.org/10.1038/s41598-019-52633-4",
+      "rightsEvidenceUrl": "https://www.nature.com/articles/s41598-019-52633-4",
+      "rightsEvidenceLocator": "Article Rights and permissions statement identifies the work as Open Access under Creative Commons Attribution 4.0 International; separately credited third-party material may be excluded.",
+      "version": "Scientific Reports 9:19794; version of record published 2019-12-24",
+      "stableId": "doi:10.1038/s41598-019-52633-4",
+      "publishedAt": "2019-12-24",
+      "accessedAt": "2026-09-26",
+      "locator": "Abstract; Methods—Field site and subjects, Morphometric data collection, Genetic parentage information, and Statistical analyses; Results—Trait heritability and Selection on traits; Discussion.",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the article Rights and permissions section.",
+      "licenseAssessment": "item-level-verified",
+      "scope": "Primary quantitative-genetic and selection study of a managed free-ranging rhesus macaque population on Cayo Santiago, Puerto Rico. Morphometric measurements were collected in 2015 from 125 adult males and 21 related females. Claims are paraphrased; article prose, figures, tables, and supplementary data are not reproduced.",
+      "rightsHolder": "The Authors, as identified in the article's Creative Commons license statement.",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseAppliesTo": "Article text under the stated CC BY 4.0 license; separately credited third-party material is excluded.",
+      "attribution": "Kimock CM, Dubuc C, Brent LJN, Higham JP (2019). Male morphological traits are heritable but do not predict reproductive success in a sexually-dimorphic primate. Scientific Reports 9:19794. https://doi.org/10.1038/s41598-019-52633-4. Claims are paraphrased."
+    }
+  ],
+  "claims": {
+    "morphology": {
+      "text": "During the 15 October–15 December 2015 capture-release period on Cayo Santiago, Puerto Rico, researchers measured 125 free-ranging adult males aged six years or older and 21 female relatives. In pedigree models that combined male and female data, body mass, crown-rump length, canine length, and upper abdominal skinfold thickness met the authors' heritability threshold (h² ≥ 0.1); the testis-volume estimate was below that threshold. The authors caution that heritability intervals were wide. These measurements describe a managed island population and selected traits, not morphological variation across the full species range.",
+      "textZh": "在波多黎各圣地亚哥岛，研究者于 2015 年 10 月 15 日至 12 月 15 日的捕捉—释放期测量了 125 只年龄至少六岁的自由活动成年雄性恒河猴，以及 21 只与雄性样本有亲缘关系的雌性。在合并雌雄数据的谱系模型中，体重、头臀长、犬齿长度和上腹部皮褶厚度达到作者采用的遗传率阈值（h² ≥ 0.1）；睾丸体积估计值低于该阈值。作者提醒遗传率区间较宽。这些测量描述的是管理型岛屿种群和所选性状，不代表整个物种分布区内的形态变异。",
+      "sourceIds": ["kimock2019"],
+      "locator": "Abstract; Methods—Field site and subjects, Morphometric data collection, and Genetic parentage information; Results—Trait heritability; Discussion on confidence intervals.",
+      "placeTimeScope": "Cayo Santiago, Puerto Rico; morphometric capture-release sample collected 2015-10-15 to 2015-12-15. The island population descended from animals introduced from India in 1938; this claim concerns the later managed island population.",
+      "lifeStatus": "Free-ranging rhesus macaques in a managed island population; not a captive laboratory sample or a native-range population sample.",
+      "translationStatus": "translated",
+      "originalLanguage": "en"
+    },
+    "evolution": {
+      "text": "Using pedigree and reproductive records from the Cayo Santiago population, the authors tested whether male morphometric traits predicted average annual offspring production, a proxy rather than lifetime reproductive success. They found no definitive evidence of directional, stabilizing, disruptive, or correlational selection on the measured traits. The analysis therefore does not establish that these traits are never selected; the authors note limits in the proxy and alternative selection mechanisms.",
+      "textZh": "研究者使用圣地亚哥岛种群的谱系和繁殖记录，检验雄性形态测量性状能否预测年均后代产量；该指标是替代量，并非终生繁殖成功。研究未发现测量性状存在明确的定向、稳定化、分裂或相关选择证据。因此，该分析不能证明这些性状从不受选择；作者指出了替代指标的限制以及其他可能的选择机制。",
+      "sourceIds": ["kimock2019"],
+      "locator": "Methods—Genetic parentage information and Statistical analyses; Results—Selection on traits; Discussion on selection gradients and limits of reproductive-success measures.",
+      "placeTimeScope": "Cayo Santiago, Puerto Rico; morphometric data collected in October–December 2015 and evaluated against pedigree-linked reproductive records. Annual offspring count was used as a proxy; lifetime reproductive success was unavailable for most subjects.",
+      "lifeStatus": "Managed free-ranging island population; results do not estimate selection across the native range or all rhesus macaque populations.",
+      "translationStatus": "translated",
+      "originalLanguage": "en"
+    }
+  },
+  "gaps": {
+    "morphology": [
+      "The study measured selected traits in one managed island population and does not characterize female morphology, full ontogenetic change, or variation across native-range and other populations. Heritability intervals were wide."
+    ],
+    "evolution": [
+      "One island-population study using average annual offspring production does not resolve lifetime fitness, all forms of selection, or species-wide evolutionary history."
+    ]
+  }
+}
