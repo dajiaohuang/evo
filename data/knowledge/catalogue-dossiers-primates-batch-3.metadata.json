@@ -12,12 +12,12 @@
   ],
   "path": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
   "rawPath": "data/knowledge/raw-dossiers/primates-dossiers-batch-3.jsonl",
-  "rawSha256": "7a0fb455da0c677d549db56e23dd0ec32d6c06fd8bfae26fd370239b6bd9eb92",
-  "decodedSha256": "7a0fb455da0c677d549db56e23dd0ec32d6c06fd8bfae26fd370239b6bd9eb92",
-  "compressedSha256": "b8f53767b9505d8a3d105c419594a7d13102112e4f28c55a61d99b3fa4aac4d7",
-  "decodedBytes": 32044,
-  "compressedBytes": 6897,
-  "checkedAt": "2026-09-24",
+  "rawSha256": "c71e55e1d273f95d83c40823a9ce76262e771af2641ee462dfc37f9b51739864",
+  "decodedSha256": "c71e55e1d273f95d83c40823a9ce76262e771af2641ee462dfc37f9b51739864",
+  "compressedSha256": "baa4f8f1ae2d95228192dd0b294f8b55fc62315e3c616ebd27343e7e5fcc9fac",
+  "decodedBytes": 37082,
+  "compressedBytes": 8144,
+  "checkedAt": "2026-09-26",
   "generationSource": "data/sources/primates-dossiers-batch-3.json",
   "generationSourceSha256": "f950f3d0af0905f136be4356a6b33a62daec577b1be271ae8578a4aa32c41905",
   "updatedIds": [
@@ -58,6 +58,51 @@
       "decodedSha256": "7a0fb455da0c677d549db56e23dd0ec32d6c06fd8bfae26fd370239b6bd9eb92",
       "compressedSha256": "b8f53767b9505d8a3d105c419594a7d13102112e4f28c55a61d99b3fa4aac4d7",
       "mode": "in-place-correction-of-accepted-parent-chains"
+    },
+    {
+      "batchId": "primates-papio-anubis-ontogeny-batch44-2026-09-26",
+      "sourcePath": "data/sources/primates-papio-anubis-ontogeny-b44-2026-09-26.json",
+      "sourceSha256": "b79c02335b6b6e6a1157b56920f9775ed5d0ed19d5d287f06bd373c31b7b1cf3",
+      "generator": "scripts/update-primates-papio-anubis-ontogeny-b44.mjs",
+      "baseHead": "606d1c03c2f02a906f87d1f7b78697ffb083e6d3",
+      "indexedRecordCountAtAudit": 6969,
+      "targetColIds": [
+        "6TM9B"
+      ],
+      "previousDecodedSha256": "7a0fb455da0c677d549db56e23dd0ec32d6c06fd8bfae26fd370239b6bd9eb92",
+      "previousCompressedSha256": "b8f53767b9505d8a3d105c419594a7d13102112e4f28c55a61d99b3fa4aac4d7",
+      "decodedSha256": "c71e55e1d273f95d83c40823a9ce76262e771af2641ee462dfc37f9b51739864",
+      "compressedSha256": "baa4f8f1ae2d95228192dd0b294f8b55fc62315e3c616ebd27343e7e5fcc9fac",
+      "mode": "in-place-add-captive-ontogeny-morphology-and-growth-evidence-to-existing-record"
     }
-  ]
+  ],
+  "updateAudit": {
+    "batchId": "primates-papio-anubis-ontogeny-batch44-2026-09-26",
+    "baseHead": "606d1c03c2f02a906f87d1f7b78697ffb083e6d3",
+    "indexedRecordCountAtAudit": 6969,
+    "targetColId": "6TM9B",
+    "targetScientificName": "Papio anubis (Lesson, 1827)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+    "previousRawSha256": "7a0fb455da0c677d549db56e23dd0ec32d6c06fd8bfae26fd370239b6bd9eb92",
+    "previousDecodedSha256": "7a0fb455da0c677d549db56e23dd0ec32d6c06fd8bfae26fd370239b6bd9eb92",
+    "previousCompressedSha256": "b8f53767b9505d8a3d105c419594a7d13102112e4f28c55a61d99b3fa4aac4d7",
+    "previousTargetRecordSha256": "378b2650babb7e2ff56d74e22fb41b0a0dbff712a72a319e0f9219991f48fe64",
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "queries": [
+        "6TM9B",
+        "10.1111/joa.12602"
+      ],
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    },
+    "sourceStableId": "doi:10.1111/joa.12602",
+    "sourceOccurrenceCountBeforeUpdate": 0,
+    "mode": "in-place-add-captive-ontogeny-morphology-and-growth-evidence-to-existing-record",
+    "indexedRecordCountAfterUpdate": 6969,
+    "outputRawSha256": "c71e55e1d273f95d83c40823a9ce76262e771af2641ee462dfc37f9b51739864",
+    "outputDecodedSha256": "c71e55e1d273f95d83c40823a9ce76262e771af2641ee462dfc37f9b51739864",
+    "outputCompressedSha256": "baa4f8f1ae2d95228192dd0b294f8b55fc62315e3c616ebd27343e7e5fcc9fac"
+  }
 }

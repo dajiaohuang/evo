@@ -1,0 +1,96 @@
+{
+  "batchId": "primates-papio-anubis-ontogeny-batch44-2026-09-26",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-26",
+  "appAndPagesPreviewManifestChanged": false,
+  "target": {
+    "colId": "6TM9B",
+    "scientificName": "Papio anubis (Lesson, 1827)",
+    "rank": "species",
+    "sourceDatasetId": "2144"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "audit": {
+    "baseHead": "606d1c03c2f02a906f87d1f7b78697ffb083e6d3",
+    "indexedRecordCount": 6969,
+    "targetRecordCount": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+    "previousRawSha256": "7a0fb455da0c677d549db56e23dd0ec32d6c06fd8bfae26fd370239b6bd9eb92",
+    "previousShardDecodedSha256": "7a0fb455da0c677d549db56e23dd0ec32d6c06fd8bfae26fd370239b6bd9eb92",
+    "previousShardCompressedSha256": "b8f53767b9505d8a3d105c419594a7d13102112e4f28c55a61d99b3fa4aac4d7",
+    "previousTargetRecordSha256": "378b2650babb7e2ff56d74e22fb41b0a0dbff712a72a319e0f9219991f48fe64",
+    "siblingColIds": [
+      "3WWNQ",
+      "3WWP6"
+    ],
+    "sourceOccurrenceCountBeforeUpdate": 0,
+    "openPullRequestSearch": {
+      "queries": [
+        "6TM9B",
+        "10.1111/joa.12602"
+      ],
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "druelle2017",
+      "title": "Druelle et al. (2017), Segmental morphometrics of the olive baboon (Papio anubis): a longitudinal study from birth to adulthood",
+      "url": "https://doi.org/10.1111/joa.12602",
+      "rightsEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5442150/",
+      "rightsEvidenceLocator": "Article copyright line identifies © 2017 The Authors; the article license statement and license link specify Creative Commons Attribution 4.0 International.",
+      "version": "Journal of Anatomy 230(6):805–819; version of record, first published 2017-03-14",
+      "stableId": "doi:10.1111/joa.12602",
+      "publishedAt": "2017-03-14",
+      "accessedAt": "2026-09-26",
+      "locator": "Abstract; Materials and methods—Study site and subjects; Results—Changes in morphotypes (dimensionless segment lengths and masses) with age; Discussion—Sex-related differences.",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the article license record and Crossref version-of-record metadata.",
+      "licenseAssessment": "item-level-verified",
+      "scope": "Primary longitudinal body-morphometry study of 14 female and 16 male captive olive baboons at the CNRS Primatology Station, Rousset-sur-Arc, France. Claims are paraphrased; article prose, figures, tables, and supplementary data are not reproduced.",
+      "rightsHolder": "The Authors, as stated in the article copyright line.",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseAppliesTo": "Article text under the stated CC BY 4.0 license; separately credited third-party material, if any, is excluded.",
+      "attribution": "Druelle F, Aerts P, D'Août K, Moulin V, Berillon G (2017). Segmental morphometrics of the olive baboon (Papio anubis): a longitudinal study from birth to adulthood. Journal of Anatomy 230(6):805–819. https://doi.org/10.1111/joa.12602. Claims are paraphrased."
+    }
+  ],
+  "claims": {
+    "morphology": {
+      "text": "In a seven-year longitudinal sample of captive olive baboons at the CNRS Primatology Station in Rousset-sur-Arc, France, females and males were similar in measured size and shape at birth; differing growth rates and durations later produced substantial size differences while measured body shape remained similar. This finding describes the studied cohort, not wild populations.",
+      "textZh": "在法国鲁塞特-苏尔-阿克 CNRS 灵长类研究站开展的一项为期七年的圈养橄榄狒狒纵向研究中，雌雄个体出生时的测量体型与身体形状相近；此后生长速度和持续时间不同，形成明显体型差异，而测量的身体形状仍相近。该发现仅适用于所研究的群体，不代表野外种群。",
+      "sourceIds": [
+        "druelle2017"
+      ],
+      "locator": "Abstract; Materials and methods—Study site and subjects; Results—Changes in morphotypes (dimensionless segment lengths and masses) with age; Discussion—Sex-related differences.",
+      "placeTimeScope": "One captive cohort at the CNRS Primatology Station, Rousset-sur-Arc, France; the reported longitudinal study lasted seven years. The article metadata gives first publication as 2017-03-14; calendar start and end years for cohort measurements are not specified here.",
+      "lifeStatus": "Captive olive baboons; not a wild-population comparison.",
+      "translationStatus": "translated",
+      "originalLanguage": "en"
+    },
+    "lifeHistory": {
+      "text": "The study followed 14 female and 16 male captive olive baboons from infancy (minimum age two months) to adulthood over seven years. The largest measured changes in body morphometrics occurred during the first two years and involved distal body parts.",
+      "textZh": "该研究对 14 只雌性和 16 只雄性圈养橄榄狒狒进行了为期七年的追踪，个体从幼年（最小起始年龄为两个月）随访至成年。身体形态测量变化最大集中在前两年，并涉及身体远端部位。",
+      "sourceIds": [
+        "druelle2017"
+      ],
+      "locator": "Abstract; Materials and methods—Study site and subjects; Results—Changes in morphotypes (dimensionless segment lengths and masses) with age.",
+      "placeTimeScope": "One captive cohort at the CNRS Primatology Station, Rousset-sur-Arc, France; ages from at least two months to adulthood across a seven-year study. Calendar sampling years are not reported in the cited study sections.",
+      "lifeStatus": "Captive cohort; these growth observations do not establish wild growth trajectories.",
+      "translationStatus": "translated",
+      "originalLanguage": "en"
+    }
+  },
+  "gaps": {
+    "morphology": [
+      "Morphometric evidence is limited to one captive cohort and does not describe variation across wild populations or the full accepted species concept."
+    ],
+    "lifeHistory": [
+      "This cohort does not establish wild growth trajectories and does not assess reproduction, survival, or longevity."
+    ]
+  }
+}
