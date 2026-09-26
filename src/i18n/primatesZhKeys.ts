@@ -197,4 +197,13 @@ export const primatesZhKeys = new Set<string>([
   "Shanghuang and Yuanqu locality sample",
   "Mosaic of tarsal characters used in an anthropoid-affinity test",
   "Gebo and colleagues report the isolated tarsals and their sampled character comparisons on pp. 276–278, Figure 1 and Supplementary Tables 1–2. Attribution and stem-anthropoid placement are matrix-dependent inferences; the bones are not directly associated with the dental hypodigm.",
+  "Buxa Tiger Reserve, West Bengal, India (one troop study site)",
+  "Cayo Santiago, Puerto Rico (managed free-ranging morphology study population)",
+  "At Buxa, fruit accounted for 70.8% of recorded diet in the study-defined May–September non-provisioning period and 28.8% in the October–April provisioning period for one 64-individual troop.",
+  "The selected Buxa troop home range included patches of natural forest, mixed-species plantations and residential settlements; this is one local study setting, not a full habitat account.",
+  "Not assessed in the selected studies.",
+  "The Buxa ecology study did not estimate species-wide body size; see the separate Cayo Santiago morphology claim for its measured cohort.",
+  "In one 2015 Cayo Santiago pedigree sample, most measured male morphometric traits were heritable under the study’s pooled models; this cohort result is not species-wide.",
+  "The core profile links one source-bounded ecology study and one source-bounded morphology analysis. Life history, conservation and global distribution remain unassessed; no temporal range is exposed.",
+  "Rhesus Macaque",
 ])

@@ -343,6 +343,7 @@
         "papionini",
         "macaca",
         "macaca_radiata",
+        "macaca_mulatta",
         "anthropoidea",
         "eosimias",
         "catarrhini",
@@ -8794,6 +8795,7 @@
         "papionini",
         "macaca",
         "macaca_radiata",
+        "macaca_mulatta",
         "anthropoidea",
         "eosimias",
         "catarrhini",
@@ -9801,6 +9803,7 @@
         "papionini",
         "macaca",
         "macaca_radiata",
+        "macaca_mulatta",
         "anthropoidea",
         "eosimias",
         "catarrhini",
@@ -10948,6 +10951,7 @@
         "papionini",
         "macaca",
         "macaca_radiata",
+        "macaca_mulatta",
         "anthropoidea",
         "eosimias",
         "catarrhini",
@@ -12146,6 +12150,7 @@
         "papionini",
         "macaca",
         "macaca_radiata",
+        "macaca_mulatta",
         "anthropoidea",
         "eosimias",
         "catarrhini",
@@ -12513,6 +12518,7 @@
         "papionini",
         "macaca",
         "macaca_radiata",
+        "macaca_mulatta",
         "anthropoidea",
         "eosimias",
         "catarrhini",
@@ -13035,6 +13041,7 @@
         "papionini",
         "macaca",
         "macaca_radiata",
+        "macaca_mulatta",
         "anthropoidea",
         "eosimias",
         "catarrhini",
@@ -13977,6 +13984,7 @@
         "papionini",
         "macaca",
         "macaca_radiata",
+        "macaca_mulatta",
         "anthropoidea",
         "eosimias",
         "catarrhini",
@@ -14223,6 +14231,7 @@
         "papionini",
         "macaca",
         "macaca_radiata",
+        "macaca_mulatta",
         "anthropoidea",
         "eosimias",
         "catarrhini",
@@ -14559,6 +14568,7 @@
         "papionini",
         "macaca",
         "macaca_radiata",
+        "macaca_mulatta",
         "anthropoidea",
         "eosimias",
         "catarrhini",
@@ -14785,6 +14795,7 @@
         "papionini",
         "macaca",
         "macaca_radiata",
+        "macaca_mulatta",
         "anthropoidea",
         "eosimias",
         "catarrhini",
@@ -15391,6 +15402,7 @@
         "papionini",
         "macaca",
         "macaca_radiata",
+        "macaca_mulatta",
         "anthropoidea",
         "eosimias",
         "catarrhini",
@@ -15764,6 +15776,7 @@
         "papionini",
         "macaca",
         "macaca_radiata",
+        "macaca_mulatta",
         "anthropoidea",
         "eosimias",
         "catarrhini",
@@ -19100,6 +19113,7 @@
         "papionini",
         "macaca",
         "macaca_radiata",
+        "macaca_mulatta",
         "anthropoidea",
         "eosimias",
         "catarrhini",
@@ -19288,6 +19302,7 @@
         "papionini",
         "macaca",
         "macaca_radiata",
+        "macaca_mulatta",
         "anthropoidea",
         "eosimias",
         "catarrhini",
@@ -19629,6 +19644,7 @@
         "papionini",
         "macaca",
         "macaca_radiata",
+        "macaca_mulatta",
         "anthropoidea",
         "eosimias",
         "catarrhini",
@@ -19753,7 +19769,8 @@
         "cercopithecinae",
         "papionini",
         "macaca",
-        "macaca_radiata"
+        "macaca_radiata",
+        "macaca_mulatta"
       ]
     },
     "temporalRange": {
@@ -19977,7 +19994,8 @@
         "cercopithecinae",
         "papionini",
         "macaca",
-        "macaca_radiata"
+        "macaca_radiata",
+        "macaca_mulatta"
       ]
     },
     "temporalRange": {
@@ -20035,7 +20053,8 @@
         "cercopithecinae",
         "papionini",
         "macaca",
-        "macaca_radiata"
+        "macaca_radiata",
+        "macaca_mulatta"
       ]
     },
     "temporalRange": {
@@ -20092,7 +20111,8 @@
       "descendantEntityIds": [
         "papionini",
         "macaca",
-        "macaca_radiata"
+        "macaca_radiata",
+        "macaca_mulatta"
       ]
     },
     "temporalRange": {
@@ -20148,7 +20168,8 @@
       "includesSelf": true,
       "descendantEntityIds": [
         "macaca",
-        "macaca_radiata"
+        "macaca_radiata",
+        "macaca_mulatta"
       ]
     },
     "temporalRange": {
@@ -20203,7 +20224,8 @@
     "compositionScope": {
       "includesSelf": true,
       "descendantEntityIds": [
-        "macaca_radiata"
+        "macaca_radiata",
+        "macaca_mulatta"
       ]
     },
     "temporalRange": {
@@ -20285,6 +20307,59 @@
     "dataAvailability": {
       "narrativeProfile": "unavailable",
       "ecology": "unknown",
+      "media": "unavailable",
+      "topologyHypothesis": "unmapped"
+    },
+    "version": "2026.09-static-v5-rc154"
+  },
+  {
+    "id": "macaca_mulatta",
+    "entityKind": "taxon",
+    "contentLevel": "dossier",
+    "externalResolutionStatus": "not-applicable",
+    "packageId": "primates",
+    "parentId": "macaca",
+    "parentRelationshipKind": "taxonomic-parent",
+    "names": {
+      "scientific": "Macaca mulatta",
+      "en": "Rhesus Macaque",
+      "zh": "恒河猴"
+    },
+    "synonyms": [],
+    "rank": "species",
+    "definition": {
+      "en": "COL26.8 dataset 316115 records accepted species usage 3WWNQ as Macaca mulatta (Zimmermann, 1780), with Macaca usage 5HYC as its immediate parent. This records checklist identity and classification only. This navigation entry is not a phylogeny or a complete taxon dossier.",
+      "zh": "COL26.8 数据集 316115 将 3WWNQ 记录为接受的 Macaca mulatta（Zimmermann, 1780）种级用名，其直接父级为 Macaca 用名 5HYC。此陈述仅记录清单身份和分类位置。 此导航摘要不表示系统发育或完整的类群档案。"
+    },
+    "compositionScope": {
+      "includesSelf": true,
+      "descendantEntityIds": []
+    },
+    "temporalRange": {
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "COL26.8 supports accepted identity and classification; the selected Buxa ecology and Cayo Santiago morphology papers study living populations and do not estimate a temporal fossil range.",
+      "evidenceLevel": "withheld-no-range-evidence",
+      "provisional": true
+    },
+    "externalIds": {
+      "col": "3WWNQ",
+      "colDataset": "2144"
+    },
+    "referenceIds": [
+      "col-2026-checklistbank-316115",
+      "open-tree",
+      "pbdb-api-2016"
+    ],
+    "evidenceStatus": "contextual",
+    "limitations": [
+      "A missing branch or fossil occurrence does not imply biological absence. Internal nodes are not calibrated divergence estimates.",
+      "PBDB external identifier withheld: not-reconciled-against-pinned-PBDB-snapshot."
+    ],
+    "dataAvailability": {
+      "narrativeProfile": "available",
+      "ecology": "available",
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
