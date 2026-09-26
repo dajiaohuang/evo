@@ -1046,5 +1046,57 @@
       }
     ],
     "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:papio:global",
+    "entityId": "papio",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Papio accepted COL26.8 usage 6DGR; numerical temporal and geographic range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed; selected study sites do not define the taxon range",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Zero values are non-display placeholders; the pinned checklist and selected population studies do not establish fossil endpoints or a complete wild-distribution inventory."
+    },
+    "evidenceBasis": "COL26.8 supports accepted identity and classification of Papio; selected living-population studies do not estimate a temporal fossil range or complete geographic range.",
+    "evidenceLevel": "withheld-no-range-evidence",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "col-2026-checklistbank-316115",
+        "locator": "COL26.8 dataset 316115; accepted usage 6DGR, with Papionini parent classification (identity and classification only)"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:papio_anubis:global",
+    "entityId": "papio_anubis",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Papio anubis accepted COL26.8 usage 6TM9B; numerical temporal and geographic range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed; selected study sites do not define the taxon range",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Zero values are non-display placeholders; the pinned checklist and selected population studies do not establish fossil endpoints or a complete wild-distribution inventory."
+    },
+    "evidenceBasis": "COL26.8 supports accepted identity and classification of Papio anubis; selected living-population studies do not estimate a temporal fossil range or complete geographic range.",
+    "evidenceLevel": "withheld-no-range-evidence",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "col-2026-checklistbank-316115",
+        "locator": "COL26.8 dataset 316115; accepted usage 6TM9B, with Papio parent classification (identity and classification only)"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]
