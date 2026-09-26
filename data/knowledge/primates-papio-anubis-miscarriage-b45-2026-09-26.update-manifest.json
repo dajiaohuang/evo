@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-papio-anubis-miscarriage-batch45-2026-09-26",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-papio-anubis-miscarriage-b45-2026-09-26.json",
+    "sha256": "18e671a0c49ba28791d83271d2e6c25e984ccdcb9f4944ad13fba7f34da11c37"
+  },
+  "duplicateCheck": {
+    "mode": "in-place-update",
+    "indexedRecordCount": 6969,
+    "sourceStableIds": [
+      "doi:10.1038/s41598-021-83175-3"
+    ],
+    "sourceOccurrencesBeforeUpdate": 0,
+    "matchedColIds": [
+      "6TM9B"
+    ],
+    "matchedNames": [
+      "papio anubis lesson 1827"
+    ],
+    "openPullRequests": []
+  },
+  "previousUpdateAudit": {
+    "batchId": "primates-papio-anubis-ontogeny-batch44-2026-09-26",
+    "baseHead": "606d1c03c2f02a906f87d1f7b78697ffb083e6d3",
+    "indexedRecordCountAtAudit": 6969,
+    "targetColId": "6TM9B",
+    "targetScientificName": "Papio anubis (Lesson, 1827)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+    "previousRawSha256": "7a0fb455da0c677d549db56e23dd0ec32d6c06fd8bfae26fd370239b6bd9eb92",
+    "previousDecodedSha256": "7a0fb455da0c677d549db56e23dd0ec32d6c06fd8bfae26fd370239b6bd9eb92",
+    "previousCompressedSha256": "b8f53767b9505d8a3d105c419594a7d13102112e4f28c55a61d99b3fa4aac4d7",
+    "previousTargetRecordSha256": "378b2650babb7e2ff56d74e22fb41b0a0dbff712a72a319e0f9219991f48fe64",
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "queries": [
+        "6TM9B",
+        "10.1111/joa.12602"
+      ],
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    },
+    "sourceStableId": "doi:10.1111/joa.12602",
+    "sourceOccurrenceCountBeforeUpdate": 0,
+    "mode": "in-place-add-captive-ontogeny-morphology-and-growth-evidence-to-existing-record",
+    "indexedRecordCountAfterUpdate": 6969,
+    "outputRawSha256": "c71e55e1d273f95d83c40823a9ce76262e771af2641ee462dfc37f9b51739864",
+    "outputDecodedSha256": "c71e55e1d273f95d83c40823a9ce76262e771af2641ee462dfc37f9b51739864",
+    "outputCompressedSha256": "baa4f8f1ae2d95228192dd0b294f8b55fc62315e3c616ebd27343e7e5fcc9fac"
+  },
+  "updateAudit": {
+    "batchId": "primates-papio-anubis-miscarriage-batch45-2026-09-26",
+    "baseHead": "c9dd62be118a28c8d4cd67dba575213baef87940",
+    "indexedRecordCountAtAudit": 6969,
+    "targetColId": "6TM9B",
+    "targetScientificName": "Papio anubis (Lesson, 1827)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+    "previousRawSha256": "c71e55e1d273f95d83c40823a9ce76262e771af2641ee462dfc37f9b51739864",
+    "previousDecodedSha256": "c71e55e1d273f95d83c40823a9ce76262e771af2641ee462dfc37f9b51739864",
+    "previousCompressedSha256": "baa4f8f1ae2d95228192dd0b294f8b55fc62315e3c616ebd27343e7e5fcc9fac",
+    "previousTargetRecordSha256": "8677b4092c1f9f66e2a56c99458a8ae6169e0cccdf4c827c0337dba99f696902",
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "queries": [
+        "6TM9B",
+        "10.1038/s41598-021-83175-3"
+      ],
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    },
+    "sourceStableId": "doi:10.1038/s41598-021-83175-3",
+    "sourceOccurrenceCountBeforeUpdate": 0,
+    "mode": "in-place-add-wild-reproductive-and-social-ecology-evidence-to-existing-record",
+    "indexedRecordCountAfterUpdate": 6969,
+    "outputRawSha256": "98954d5e1c01f24ad18bc34c7562ddb4a2c03f189de4dd9c330832be5a06b6d6",
+    "outputDecodedSha256": "98954d5e1c01f24ad18bc34c7562ddb4a2c03f189de4dd9c330832be5a06b6d6",
+    "outputCompressedSha256": "13b42ce27f1514ee1276e80be5286394ce5c2e420133486e7d9ec1e3a51634a5"
+  },
+  "sources": [
+    {
+      "id": "bailey2021",
+      "stableId": "doi:10.1038/s41598-021-83175-3",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "rightsHolder": "The article authors, under the article's CC BY 4.0 license statement."
+    }
+  ],
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-dossiers-batch-3.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 3,
+    "bytes": 42920,
+    "sha256": "98954d5e1c01f24ad18bc34c7562ddb4a2c03f189de4dd9c330832be5a06b6d6"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 42920,
+    "decodedSha256": "98954d5e1c01f24ad18bc34c7562ddb4a2c03f189de4dd9c330832be5a06b6d6",
+    "compressedBytes": 9664,
+    "compressedSha256": "13b42ce27f1514ee1276e80be5286394ce5c2e420133486e7d9ec1e3a51634a5",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "preservedSiblingColIds": [
+    "3WWNQ",
+    "3WWP6"
+  ],
+  "generator": "scripts/update-primates-papio-anubis-miscarriage-b45.mjs",
+  "updateMode": "in-place-enrichment-of-one-existing-record",
+  "appAndPagesPreviewManifestChanged": false
+}
