@@ -13,6 +13,13 @@ const profileSourceEntries = packageDefinitions.flatMap((definition) => {
 })
 const profileSourceByPackageId = new Map(profileSourceEntries.map((entry) => [entry.definition.id, entry]))
 const profileSources = profileSourceEntries.flatMap((entry) => entry.profiles)
+const fieldClaimOverrideEntries = packageDefinitions.flatMap((definition) => {
+  const relativePath = `data/packages/${definition.path}/evidence/field-claim-overrides.source.json`
+  return existsSync(join(rootDir, relativePath))
+    ? [{ definition, relativePath, source: readJson(relativePath) }]
+    : []
+})
+const fieldClaimOverridesByPackageId = new Map(fieldClaimOverrideEntries.map((entry) => [entry.definition.id, entry.source.profiles ?? {}]))
 const researchExampleSourceEntries = packageDefinitions.flatMap((definition) => {
   const relativePath = `data/packages/${definition.path}/research-examples.source.json`
   return existsSync(join(rootDir, relativePath)) ? [{ definition, relativePath }] : []
@@ -855,6 +862,7 @@ for (const definition of packageDefinitions) {
   })
   if (packageProfiles.length) {
     const claimBySubjectAndType = new Map(packageClaims.map((claim) => [`${claim.subjectId}|${claim.claimType}`, claim]))
+    const fieldClaimOverrides = fieldClaimOverridesByPackageId.get(definition.id) ?? {}
     const claimTypeForField = (field) => field === 'firstAppearance' || field === 'lastAppearance' || field.startsWith('regionalRanges')
       ? 'fossil-range'
       : field === 'geography'
@@ -890,6 +898,23 @@ for (const definition of packageDefinitions) {
         ]
         return Object.fromEntries(fieldNames.map((field) => {
           const claimType = claimTypeForField(field)
+          const override = fieldClaimOverrides[profile.id]?.[field]
+          if (override?.status === 'not-assessed') return [field, {
+            claimId: null,
+            claimType,
+            relation: 'not-assessed',
+            sourceLocators: [],
+            confidence: 'low',
+            reviewStatus: 'not-assessed',
+            contentOrigin: 'unavailable',
+          }]
+          if (override?.claimId) {
+            const overriddenClaim = packageClaims.find((claim) => claim.id === override.claimId)
+            if (!overriddenClaim || overriddenClaim.subjectId !== `taxon:${profile.id}`) {
+              throw new Error(`Profile ${profile.id}/${field} field-claim override ${override.claimId} is missing or belongs to another subject`)
+            }
+            return [field, { ...fieldLink(overriddenClaim, field), contentOrigin: 'editorial-synthesis' }]
+          }
           const claim = claimBySubjectAndType.get(`taxon:${profile.id}|${claimType}`)
           if (!claim) throw new Error(`Profile ${profile.id}/${field} is missing a ${claimType} claim`)
           return [field, {
@@ -912,6 +937,7 @@ writeJson('data/registry/generated-files.json', {
     'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json',
     'data/evidence/claims.json', 'data/evidence/claim-rationales.zh.json',
     ...profileSourceEntries.map((entry) => entry.relativePath),
+    ...fieldClaimOverrideEntries.map((entry) => entry.relativePath),
     ...researchExampleSourceEntries.map((entry) => entry.relativePath),
     ...phylogenySourceEntries.map((entry) => entry.relativePath),
     'data/references.json',

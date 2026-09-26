@@ -217,6 +217,8 @@ function packageFailures() {
       else {
         const links = readJson(fieldLinksPath)
         const claimsById = new Map(readJson('data/evidence/claims.json').map((claim) => [claim.id, claim]))
+        const overridePath = `${entry.canonicalPath}/evidence/field-claim-overrides.source.json`
+        const fieldClaimOverrides = existsSync(join(rootDir, overridePath)) ? (readJson(overridePath).profiles ?? {}) : {}
         const profiles = readJson(profilesPath)
         for (const profile of profiles) {
           if (!links.some((link) => link.profileId === profile.id)) failures.push(`profile ${profile.id}: missing field claim link record`)
@@ -232,12 +234,21 @@ function packageFailures() {
           for (const field of expectedFields) if (!link.fields[field]) failures.push(`profile ${link.profileId}: visible field ${field} has no claim link`)
           for (const [field, fieldLink] of Object.entries(link.fields)) {
             const claim = claimsById.get(fieldLink.claimId)
-            if (!claim) failures.push(`profile ${link.profileId}/${field}: unknown field claim ${fieldLink.claimId}`)
-            if (!fieldLink.sourceLocators?.length) failures.push(`profile ${link.profileId}/${field}: field claim has no source locator`)
             if (!['source-derived-fact', 'editorial-synthesis', 'automated-text', 'unavailable'].includes(fieldLink.contentOrigin)) failures.push(`profile ${link.profileId}/${field}: content origin is missing or invalid`)
             const expectedClaimType = field === 'firstAppearance' || field === 'lastAppearance' || field.startsWith('regionalRanges')
               ? 'fossil-range' : field === 'geography' ? 'biogeography' : field.startsWith('ecology.') ? 'ecology' : field.startsWith('traits') ? 'morphology' : 'taxonomy'
-            if (fieldLink.relation !== 'supports' || fieldLink.claimType !== expectedClaimType || claim?.claimType !== expectedClaimType || claim?.subjectId !== `taxon:${link.profileId}`) failures.push(`profile ${link.profileId}/${field}: field requires a matching supports ${expectedClaimType} claim`)
+            const override = fieldClaimOverrides[link.profileId]?.[field]
+            if (override?.status === 'not-assessed') {
+              if (fieldLink.relation !== 'not-assessed' || fieldLink.claimId !== null || fieldLink.claimType !== expectedClaimType || fieldLink.sourceLocators?.length !== 0 || fieldLink.contentOrigin !== 'unavailable' || fieldLink.reviewStatus !== 'not-assessed') failures.push(`profile ${link.profileId}/${field}: not-assessed override must have no claim or source locator and use unavailable content origin`)
+              continue
+            }
+            const overriddenClaim = override?.claimId ? claimsById.get(override.claimId) : null
+            if (override?.claimId && !overriddenClaim) failures.push(`profile ${link.profileId}/${field}: field-claim override references unknown claim ${override.claimId}`)
+            if (!claim) failures.push(`profile ${link.profileId}/${field}: unknown field claim ${fieldLink.claimId}`)
+            if (!fieldLink.sourceLocators?.length) failures.push(`profile ${link.profileId}/${field}: field claim has no source locator`)
+            const requiredClaimType = overriddenClaim?.claimType ?? expectedClaimType
+            if (override?.claimId && fieldLink.claimId !== override.claimId) failures.push(`profile ${link.profileId}/${field}: field claim does not match curated override ${override.claimId}`)
+            if (fieldLink.relation !== 'supports' || fieldLink.claimType !== requiredClaimType || claim?.claimType !== requiredClaimType || claim?.subjectId !== `taxon:${link.profileId}`) failures.push(`profile ${link.profileId}/${field}: field requires a matching supports ${requiredClaimType} claim`)
           }
         }
       }

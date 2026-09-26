@@ -29218,5 +29218,163 @@
         "quoteLocator": "Living-cohort morphology study; no temporal fossil-range estimate"
       }
     ]
+  },
+  {
+    "id": "claim:taxon:papio:taxonomy-col26-8-papio-path",
+    "subjectId": "taxon:papio",
+    "claimType": "taxonomy",
+    "claimKind": "scientific",
+    "statement": "COL26.8 accepted species usage 6TM9B places Papio (genus usage 6DGR) immediately above the species and below Papionini (tribe usage L4C). This records checklist classification only.",
+    "confidence": "medium",
+    "confidenceRationale": "The pinned COL26.8 accepted parent chain explicitly records Papio usage 6DGR below Papionini usage L4C. This is checklist classification, not a phylogenetic result.",
+    "reviewedBy": "Evo Atlas source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "COL26.8 ChecklistBank dataset 316115; accepted usage 6TM9B and parent chain checked 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "col-2026-checklistbank-316115",
+        "relation": "supports",
+        "pages": "Accepted species usage 6TM9B; immediate genus usage 6DGR and Papionini tribe usage L4C"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:papio_anubis:taxonomy",
+    "subjectId": "taxon:papio_anubis",
+    "claimType": "taxonomy",
+    "claimKind": "scientific",
+    "statement": "COL26.8 dataset 316115 records accepted species usage 6TM9B as Papio anubis (Lesson, 1827), with Papio usage 6DGR as its immediate parent. This records checklist identity and classification only.",
+    "confidence": "medium",
+    "confidenceRationale": "The pinned accepted usage and immediate parent are explicitly recorded in COL26.8. This statement is limited to checklist identity and classification.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "COL26.8 ChecklistBank dataset 316115; accepted usage 6TM9B, source dataset 2144, and parent chain checked 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "col-2026-checklistbank-316115",
+        "relation": "supports",
+        "pages": "Accepted species usage 6TM9B; immediate parent Papio usage 6DGR; parent chain through Papionini L4C and Primates 3W7"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:papio_anubis:biogeography",
+    "subjectId": "taxon:papio_anubis",
+    "claimType": "biogeography",
+    "claimKind": "scientific",
+    "statement": "The selected studies sampled a captive cohort at the CNRS Primatology Station in Rousset-sur-Arc, France, wild baboons at Gombe National Park, Tanzania, and road-transect populations at Lake Manyara National Park, Tanzania. These study locations do not define the species’ geographic range.",
+    "confidence": "high",
+    "confidenceRationale": "Each cited primary study directly identifies its sampled location and captive or wild study status. The statement explicitly does not infer a geographic range.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "Druelle et al. 2017 DOI 10.1111/joa.12602; Bailey et al. 2021 DOI 10.1038/s41598-021-83175-3; Kiffner et al. 2022 DOI 10.1371/journal.pone.0263314; study locations checked 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "druelle-2017-olive-baboon-growth",
+        "relation": "supports",
+        "quoteLocator": "Materials and methods, Study site and subjects"
+      },
+      {
+        "referenceId": "bailey-2021-gombe-baboon-reproduction",
+        "relation": "supports",
+        "quoteLocator": "Methods, Study area and population"
+      },
+      {
+        "referenceId": "kiffner-2022-lake-manyara-baboon-distance",
+        "relation": "supports",
+        "quoteLocator": "Methods, Study site"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:papio_anubis:morphology",
+    "subjectId": "taxon:papio_anubis",
+    "claimType": "morphology",
+    "claimKind": "scientific",
+    "statement": "In a seven-year longitudinal study of 14 female and 16 male captive olive baboons at the CNRS Primatology Station in Rousset-sur-Arc, France, measured size and shape were similar at birth; later differences in growth rate and duration produced substantial size differences while measured body shape remained similar. This result is limited to that cohort, not wild populations.",
+    "confidence": "medium",
+    "confidenceRationale": "The source describes its captive cohort, seven-year longitudinal design, measured segment morphometrics, and age- and sex-related results directly. The conclusion is restricted to that cohort.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "Druelle et al. 2017 DOI 10.1111/joa.12602; Abstract; Materials and methods; Results and Discussion checked against the source-linked article record 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "druelle-2017-olive-baboon-growth",
+        "relation": "supports",
+        "pages": "Abstract; Materials and methods, Study site and subjects; Results, Changes in morphotypes with age; Discussion, Sex-related differences"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:papio_anubis:ecology",
+    "subjectId": "taxon:papio_anubis",
+    "claimType": "ecology",
+    "claimKind": "scientific",
+    "statement": "At Lake Manyara National Park, Tanzania, road-transect distance sampling from 2011–2019 produced an abundance estimate more than three times the upper-limit estimate derived from sleeping-site counts and average group size. The authors identify baboons’ use of roads as a possible source of bias and caution against inferring density from constrained road transects; this is a site- and method-specific result, not a species-wide density estimate.",
+    "confidence": "medium",
+    "confidenceRationale": "The paper reports the survey years, constrained road design, sleeping-site comparison, and possible road-use bias. It reports poor detection-model fit, so this selected result remains method- and site-specific.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "Kiffner et al. 2022 DOI 10.1371/journal.pone.0263314; Abstract; Methods; Results and Discussion checked against the CC BY 4.0 version of record on 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "kiffner-2022-lake-manyara-baboon-distance",
+        "relation": "supports",
+        "pages": "Abstract; Methods, Line distance surveys and abundance maximum; Results and Discussion; Tables 1–3"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:papio_anubis:reproductive-ecology",
+    "subjectId": "taxon:papio_anubis",
+    "claimType": "ecology",
+    "claimKind": "scientific",
+    "statement": "In Gombe National Park, Tanzania, records from 1972–2002 covered 732 pregnancies among 175 females of known rank, including 65 miscarriages. In a time-dependent analysis, higher-ranking pregnant females exposed to immigrant males that reached top rank within a year had higher miscarriage hazards outside drought conditions; the rank pattern largely disappeared when two-year mean rainfall was below about 1,100 mm. Exposure to new immigrants overall did not show the same association. This conditional result from one wild population is not a species-wide rate or proof of deliberate male-caused pregnancy loss.",
+    "confidence": "medium",
+    "confidenceRationale": "The primary study reports the Gombe observation period, pregnancy sample, rank and rainfall interaction, and difference between rapid-rising males and immigrant males overall. It is observational and conditional; it does not show a species-wide rate or prove deliberate causation.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "Bailey et al. 2021 DOI 10.1038/s41598-021-83175-3; Abstract; Results; Methods, Study area and population and Miscarriage analyses checked against the CC BY 4.0 version of record on 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "bailey-2021-gombe-baboon-reproduction",
+        "relation": "supports",
+        "pages": "Abstract; Results, rank, rainfall and miscarriage interaction; Methods, Study area and population and Miscarriage data and analyses"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:papio_anubis:fossil-range",
+    "subjectId": "taxon:papio_anubis",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The selected COL26.8 checklist and the cited living-population studies do not estimate geographic-range limits or temporal fossil-range endpoints for Papio anubis; numerical ranges remain withheld.",
+    "confidence": "medium",
+    "confidenceRationale": "The checklist establishes identity and classification, while the selected biological papers concern living populations and do not estimate a complete geographic range or temporal fossil endpoints. Those ranges therefore remain withheld.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "COL26.8 dataset 316115 usage 6TM9B; Druelle et al. 2017, Bailey et al. 2021, and Kiffner et al. 2022 study scopes checked 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "col-2026-checklistbank-316115",
+        "relation": "supports",
+        "pages": "Accepted species usage 6TM9B; identity and classification only"
+      },
+      {
+        "referenceId": "druelle-2017-olive-baboon-growth",
+        "relation": "contextualizes",
+        "quoteLocator": "Captive living-cohort morphometry study; no range endpoint estimate"
+      },
+      {
+        "referenceId": "bailey-2021-gombe-baboon-reproduction",
+        "relation": "contextualizes",
+        "quoteLocator": "Wild Gombe reproductive study; no range endpoint estimate"
+      },
+      {
+        "referenceId": "kiffner-2022-lake-manyara-baboon-distance",
+        "relation": "contextualizes",
+        "quoteLocator": "Wild Lake Manyara monitoring study; no range endpoint estimate"
+      }
+    ]
   }
 ]
