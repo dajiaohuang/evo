@@ -1,9 +1,9 @@
 import { sourceRepositoryBytes } from './platform-validation-lib.mjs'
 
 const bytes = sourceRepositoryBytes()
-// This source-only allowance includes the pinned archives and lossless projections.
-// It is separate from the App and Pages deployment budgets, which remain unchanged.
-const limitMiB = 1130.1
+// The 2026-09-26 measured source footprint is 1130.1 MiB; reserve 19.9 MiB for
+// incremental, audited scientific records. App and Pages budgets remain separate.
+const limitMiB = 1150
 const limit = limitMiB * 1024 * 1024
 if (bytes > limit) {
   console.error(`Source repository data/code footprint is ${(bytes / 1024 / 1024).toFixed(2)} MiB; budget is ${limitMiB} MiB.`)
