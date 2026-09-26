@@ -174,7 +174,7 @@ const rangeClaimId = `claim:taxon:${entityId}:fossil-range`
 const taxonomyStatement = 'COL26.8 dataset 316115 records accepted species usage 3WWNQ as Macaca mulatta (Zimmermann, 1780), with Macaca usage 5HYC as its immediate parent. This records checklist identity and classification only.'
 const geographyStatement = 'Buxa Tiger Reserve, West Bengal, India, is the site of the selected ecology study; Cayo Santiago, Puerto Rico, is the study population for the selected morphology analysis. These are study locations, not a species-wide distribution estimate.'
 const ecologyStatement = 'At Buxa Tiger Reserve, West Bengal, one 64-individual troop was observed from October 2013 to September 2014; its home range included patches of natural forest, mixed-species plantations and residential settlements. Fruit accounted for 70.8% of recorded diet in the study-defined non-provisioning period (May–September) and 28.8% in the provisioning period (October–April); mean daily range was 4.72 km and 2.58 km respectively. These observational comparisons describe one troop and do not isolate provisioning as a controlled cause or estimate species-wide ecology.'
-const morphologyStatement = 'On Cayo Santiago, researchers measured 125 adult males and 21 related females captured in 2015. In the study pedigree models, most measured male morphometric traits showed heritable variation, but the measured traits did not predict the study’s relative annual reproductive-success proxy. This managed free-ranging cohort and model do not establish species-wide heritability or absence of selection.'
+const morphologyStatement = 'On Cayo Santiago, researchers measured 125 adult males and 21 related females captured in 2015. In the study pedigree models, most measured male morphometric traits showed heritable variation. This managed free-ranging cohort and model do not establish species-wide heritability.'
 const rangeStatement = 'The selected COL26.8 checklist and the Buxa ecology and Cayo Santiago morphology studies do not estimate temporal fossil-range endpoints for Macaca mulatta; a numerical interval remains withheld.'
 
 const ecologyReference = {
@@ -207,7 +207,7 @@ const morphologyReference = {
   sourceRole: 'primary-study',
   fitnessFor: ['morphology'],
   metadataAssignment: 'curator-reviewed',
-  note: 'Primary study measuring a selected Cayo Santiago free-ranging cohort in 2015. Heritability and reproductive-success conclusions are bounded to the sampled pedigree, traits and models; the article states CC BY 4.0.',
+  note: 'Primary study measuring a selected Cayo Santiago free-ranging cohort in 2015. Heritability conclusions are bounded to the sampled pedigree, measured traits and models; the article states CC BY 4.0.',
 }
 appendArrayRecords('data/references.json', '', [ecologyReference, morphologyReference])
 
@@ -289,7 +289,7 @@ for (const claim of [
     claimKind: 'scientific',
     statement: morphologyStatement,
     confidence: 'medium',
-    confidenceRationale: 'The source directly states its 2015 Cayo Santiago capture cohort, measured traits and model results. The conclusion is bounded to the sampled population, pedigree, measured traits and annual offspring-count proxy.',
+    confidenceRationale: 'The source directly states its 2015 Cayo Santiago capture cohort, measured traits and pedigree-model results. The conclusion is bounded to the sampled population, pedigree and measured traits.',
     reviewedBy: 'Evo Atlas primary-source audit',
     reviewedAt: today,
     reviewedAgainstReferenceVersion: 'Kimock et al. 2019 DOI 10.1038/s41598-019-52633-4; Abstract, Morphometric Data Collection and Results checked against the CC BY 4.0 article on 2026-09-27',
@@ -319,14 +319,14 @@ appendObjectEntries('data/evidence/claim-statements.zh.json', {
   [taxonomyStatement]: 'COL26.8 数据集 316115 将 3WWNQ 记录为接受的 Macaca mulatta（Zimmermann, 1780）种级用名，其直接父级为 Macaca 用名 5HYC。此陈述仅记录清单身份和分类位置。',
   [geographyStatement]: '所选生态研究的地点是印度西孟加拉邦的布克萨虎保护区；所选形态分析的研究群体位于波多黎各的卡约圣地亚哥。这些是研究取样地点，不是全物种分布估计。',
   [ecologyStatement]: '2013 年 10 月至 2014 年 9 月，研究者在印度西孟加拉邦布克萨虎保护区观察了一个由 64 只猕猴组成的群体；其家域包括天然森林、混合树种种植林和居民点。研究记录的食物中，水果在研究划定的非投喂期（5–9 月）占 70.8%，在投喂期（10 月–次年 4 月）占 28.8%；群体平均日移动距离分别为 4.72 公里和 2.58 公里。这些观察比较仅描述一个群体，不能分离出投喂的受控因果效应，也不代表全物种生态。',
-  [morphologyStatement]: '研究者在卡约圣地亚哥对 2015 年捕获的 125 只成年雄性和 21 只相关雌性进行了测量。在研究采用的谱系模型中，多数已测雄性形态性状表现出可遗传变异，但这些性状未能预测研究使用的相对年度繁殖成功指标。该人工管理的自由活动群体及模型结果不能证明全物种的遗传率或不存在选择。',
+  [morphologyStatement]: '研究者在卡约圣地亚哥对 2015 年捕获的 125 只成年雄性和 21 只相关雌性进行了测量。在研究采用的谱系模型中，多数已测雄性形态性状表现出可遗传变异。该人工管理的自由活动群体及模型结果不能用于推断全物种的遗传率。',
   [rangeStatement]: '所选 COL26.8 清单以及布克萨生态研究和卡约圣地亚哥形态研究均未估计 Macaca mulatta 的化石年代范围端点；数值区间继续隐藏。',
 })
 appendObjectEntries('data/evidence/claim-rationales.zh.json', {
   [taxonomyClaimId]: '固定版接受用名及直接父级由 COL26.8 明确记录。本陈述仅限清单身份，不推断生物学特征或系统发育。',
   [geographyClaimId]: '两篇一手研究均直接列出其取样地点；陈述保留研究地点范围，不扩展为全物种分布。',
   [ecologyClaimId]: '论文直接报告群体规模、研究时段、食物比例和平均日移动距离。研究仅观察一个群体，不能证明受控因果效应或全物种生态。',
-  [morphologyClaimId]: '来源直接说明 2015 年卡约圣地亚哥取样群体、测量性状和模型结果。结论仅适用于取样群体、谱系、测量性状及年度后代数指标。',
+  [morphologyClaimId]: '来源直接说明 2015 年卡约圣地亚哥取样群体、测量性状和谱系模型结果。结论仅适用于取样群体、谱系和测量性状。',
   [rangeClaimId]: '清单用于身份分类，所引论文研究现生群体，均未提供化石年代范围端点，因此数值区间保持隐藏。',
 })
 
