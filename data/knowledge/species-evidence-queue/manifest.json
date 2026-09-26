@@ -16,7 +16,7 @@
     "dossierBasePath": "data/knowledge/catalogue-dossiers.json",
     "dossierBaseSha256": "88def9f9997c16f6eba9c51aca5c134b4af198442ae941baa284e6dd0c86beb5",
     "dossierIndexPath": "data/knowledge/catalogue-dossier-shards.json",
-    "dossierIndexSha256": "8d3c68808c6a0288895b8f477f05e10d936581c129439846b82e7ebf150ce9c5",
+    "dossierIndexSha256": "169c22606e7d03647b7458c1680bc1e9ae424b2e07a9e390fa7b7a3af0cbd4e7",
     "dossierShards": [
       {
         "path": "data/knowledge/catalogue-dossiers-all.jsonl.br",
@@ -401,6 +401,12 @@
         "recordCount": 1,
         "compressedSha256": "8e16b83ce3c7a741dd9a4500be1ba80d332c12afc323e90dbb4b349f48330f94",
         "decodedSha256": "998364cd9d03be5338ca63eea0a1ca91550d3749c408bfbd5bd98f7e7c61a19e"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-fna-pinus-longaeva-dossier-batch-2026-09-27.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "bea6dd03ec325fb5c89bcdd3258926b07998b893cda0861784ada33b106c1b3c",
+        "decodedSha256": "52396b6e1d09bf3d606b97c5d69eac62b3cdff2e0c8b0e216eed8b2d927c76ee"
       }
     ],
     "sourceOriginalCollections": [
@@ -550,12 +556,12 @@
     "acceptedSpecies": 2183133,
     "sourceOriginalAssociatedSpecies": 80838,
     "introductorySummarySpecies": 27,
-    "dossierSpecies": 6970,
+    "dossierSpecies": 6971,
     "completeDossierSpecies": 0,
     "externallyReviewedSpecies": 0,
     "speciesWithAnyEvidenceStage": 80975,
     "speciesWithoutAnyEvidenceStage": 2102158,
-    "speciesWithoutDossier": 2176163,
+    "speciesWithoutDossier": 2176162,
     "sourceOriginalCollectionSpecies": {
       "brazilFloraDescriptions": 28896,
       "fdacDescriptions": 4156,
@@ -579,29 +585,29 @@
       "species": 27
     },
     "dossierStatuses": {
-      "missing": 2176163,
-      "incomplete": 6970,
+      "missing": 2176162,
+      "incomplete": 6971,
       "complete": 0
     },
     "expertReviewStatuses": {
-      "no-dossier": 2176163,
-      "not-reviewed": 6970,
+      "no-dossier": 2176162,
+      "not-reviewed": 6971,
       "maintainer-reviewed": 0,
       "externally-reviewed": 0
     },
     "claimSourceRightsStatuses": {
-      "not-assessed": 2176163,
+      "not-assessed": 2176162,
       "no-biological-claim-sources": 0,
-      "item-level-verified": 118,
+      "item-level-verified": 119,
       "claim-source-rights-unresolved": 6852
     },
     "facetStatuses": {
       "morphology": {
         "supported": 0,
-        "partially-supported": 6903,
+        "partially-supported": 6904,
         "searched-no-evidence": 0,
         "conflicted": 0,
-        "not-assessed": 2176230
+        "not-assessed": 2176229
       },
       "lifeHistory": {
         "supported": 0,
@@ -654,10 +660,10 @@
       "prefix": "0",
       "path": "data/knowledge/species-evidence-queue/0.jsonl.br",
       "recordCount": 135942,
-      "decodedBytes": 97432167,
-      "decodedSha256": "5dbdc5e3590dc6bc8cb18f852a4354325779c0cf431a52144106409ba0d7318e",
-      "compressedBytes": 4650975,
-      "compressedSha256": "b2fa2cf17720117578175509533e38f3b6f9b0b45497a55aee0a60dbeb747a53",
+      "decodedBytes": 97432239,
+      "decodedSha256": "3d91c3647e0987a5e19a04af6497dfe1793e2689e788b39273899eb5e0ddd7fd",
+      "compressedBytes": 4651067,
+      "compressedSha256": "d319b9d35dbd66f3dc4ca39778a138cca423d946ddb9f6722766bb7732d5c55b",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
