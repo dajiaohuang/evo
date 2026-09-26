@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict'
 import { createHash } from 'node:crypto'
 import { createReadStream, createWriteStream, existsSync, mkdirSync, readFileSync, readdirSync, renameSync, statSync, writeFileSync } from 'node:fs'
-import { join, resolve, sep } from 'node:path'
+import { isAbsolute, join, resolve, sep } from 'node:path'
 import { once } from 'node:events'
 import { createInterface } from 'node:readline'
 import { Transform } from 'node:stream'
@@ -59,7 +59,7 @@ function readBytes(relativePath) {
 
 function safePath(relativePath, allowedRoot, allowedPrefix, label) {
   assert.equal(typeof relativePath, 'string', `${label} path must be text`)
-  assert.ok(!resolve(relativePath).startsWith(sep), `${label} path must be relative: ${relativePath}`)
+  assert.ok(!isAbsolute(relativePath) && !/^[a-zA-Z]:[\\/]/.test(relativePath) && !relativePath.startsWith('\\\\'), `${label} path must be relative: ${relativePath}`)
   const path = resolve(allowedRoot, relativePath)
   assert.ok(path.startsWith(allowedPrefix), `${label} path escapes its input root: ${relativePath}`)
   return path
