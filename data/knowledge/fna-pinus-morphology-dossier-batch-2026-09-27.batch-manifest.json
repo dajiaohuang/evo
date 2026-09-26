@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "batchId": "fna-pinus-morphology-dossier-batch-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/fna-pinus-morphology-dossier-batch-2026-09-27.json",
+    "sha256": "d4ad08b371e069fc243fcb13e4cec03e1c23f24bcea37a290ec1502c61d4d70c"
+  },
+  "baseAudit": {
+    "baseHead": "c4fe98e621f2496c12096656264e4d2f762a76ed",
+    "indexedRecordCount": 6972,
+    "indexedShardCount": 66,
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "openPullRequests": []
+  },
+  "updatedRecords": [],
+  "newRecords": [
+    {
+      "colId": "4J22N",
+      "scientificName": "Pinus aristata Engelm."
+    },
+    {
+      "colId": "4J237",
+      "scientificName": "Pinus banksiana Lamb."
+    },
+    {
+      "colId": "4J24Y",
+      "scientificName": "Pinus contorta Douglas ex Loudon"
+    },
+    {
+      "colId": "4J254",
+      "scientificName": "Pinus coulteri D.Don"
+    },
+    {
+      "colId": "4J269",
+      "scientificName": "Pinus edulis Engelm."
+    },
+    {
+      "colId": "4J26G",
+      "scientificName": "Pinus engelmannii Carrière"
+    },
+    {
+      "colId": "4J273",
+      "scientificName": "Pinus flexilis E.James"
+    },
+    {
+      "colId": "4J29V",
+      "scientificName": "Pinus lambertiana Douglas"
+    },
+    {
+      "colId": "4J2C7",
+      "scientificName": "Pinus monophylla Torr. & Frém."
+    },
+    {
+      "colId": "4J2DX",
+      "scientificName": "Pinus palustris Mill."
+    },
+    {
+      "colId": "4J2FP",
+      "scientificName": "Pinus radiata D.Don"
+    },
+    {
+      "colId": "77L5J",
+      "scientificName": "Pinus attenuata Lemmon"
+    }
+  ],
+  "indexedRecordCount": 6984,
+  "newShard": {
+    "path": "data/knowledge/catalogue-dossiers-fna-pinus-morphology-dossier-batch-2026-09-27.jsonl.br",
+    "rawPath": "data/knowledge/raw-dossiers/fna-pinus-morphology-dossier-batch-2026-09-27.jsonl",
+    "encoding": "brotli-jsonl",
+    "recordCount": 12,
+    "decodedBytes": 115739,
+    "decodedSha256": "b468f7e429135ebf569ae7dc0c536ce3da67d650bd7d90addc98922d731a3f4c",
+    "compressedBytes": 5291,
+    "compressedSha256": "51764252efcef9bb07df1f8ec30f0b0efddc2118a3b9441a8a9755b4c4f260c0",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "sourceArchive": {
+    "path": "data/sources/fna-descriptions.jsonl.br",
+    "sha256": "f6000a5956207c9e300d1009c791951b83e865661e9edeba4aba4c66ff3dcbf1",
+    "archiveLicenseLedger": "data/sources/fna-descriptions-import-ledger.json"
+  },
+  "generator": "scripts/build-fna-pinus-morphology-dossier-batch.mjs"
+}
