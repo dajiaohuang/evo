@@ -1,5 +1,9 @@
 import { expect, test } from '@playwright/test'
 import AxeBuilder from '@axe-core/playwright'
+import coreContentDefinition from '../../data/pages-preview.json'
+import entities from '../../data/registry/entities/entities.json'
+
+const coreDirectoryCount = entities.filter(entity => coreContentDefinition.taxonIds.includes(entity.id)).length
 
 test('reading trails and geological entries retain actual source destinations without JavaScript', async ({ page }) => {
   await page.goto('./zh/')
@@ -21,7 +25,7 @@ test.describe('optional directory controls', () => {
       await page.goto(`./${path}`)
       await expect(page.locator('body')).toHaveCSS('color', 'rgb(230, 238, 233)')
       if (path.includes('/taxa/')) {
-        await expect(page.getByRole('status')).toHaveText('显示 1 / 112 条')
+        await expect(page.getByRole('status')).toHaveText(`显示 1 / ${coreDirectoryCount} 条`)
         await expect(page.getByRole('combobox')).toHaveCSS('color', 'rgb(230, 238, 233)')
       }
       const result = await new AxeBuilder({ page }).analyze()
@@ -37,7 +41,7 @@ test.describe('optional directory controls', () => {
     const first = await page.locator('.directory li a').first().getAttribute('href')
     await input.fill('奇蹄 Perissodactyla')
     await expect(page.locator('.directory li:visible')).toHaveCount(1)
-    await expect(page.getByRole('status')).toHaveText('显示 1 / 112 条')
+    await expect(page.getByRole('status')).toHaveText(`显示 1 / ${coreDirectoryCount} 条`)
     await page.getByLabel('排列顺序').selectOption('name-desc')
     await expect(page).toHaveURL(/sort=name-desc/)
     await page.reload()
@@ -51,7 +55,7 @@ test.describe('optional directory controls', () => {
     await expect(input).toBeFocused()
     await expect(page.locator('.directory li a').first()).toHaveAttribute('href', first!)
     await expect(page).toHaveURL(/\/zh\/taxa\/$/)
-    await expect(page.locator('.directory li:visible')).toHaveCount(112)
+    await expect(page.locator('.directory li:visible')).toHaveCount(coreDirectoryCount)
     await page.getByLabel('排列顺序').selectOption('name')
     const alphabeticalLast = await page.locator('.directory li').last().getAttribute('data-label')
     await page.getByLabel('排列顺序').selectOption('name-desc')
@@ -85,7 +89,7 @@ test.describe('optional directory controls', () => {
       element.dispatchEvent(new InputEvent('input', { bubbles: true, isComposing: true, data: '奇蹄 Perissodactyla' }))
     })
     await expect(page).toHaveURL(/\/zh\/taxa\/$/)
-    await expect(page.locator('.directory li:visible')).toHaveCount(112)
+    await expect(page.locator('.directory li:visible')).toHaveCount(coreDirectoryCount)
     await input.dispatchEvent('compositionend')
     await expect(page.locator('.directory li:visible')).toHaveCount(1)
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true)
