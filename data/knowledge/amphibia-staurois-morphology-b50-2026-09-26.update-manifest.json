@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "batchId": "amphibia-staurois-morphology-batch50-2026-09-26",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/amphibia-staurois-morphology-b50-2026-09-26.json",
+    "sha256": "b1a06c3294f3da656dd76cf629c9b844a1392b628e1c59ae45d05a69f81f8060"
+  },
+  "duplicateCheck": {
+    "mode": "in-place-update",
+    "indexedShardCount": 64,
+    "indexedRecordCount": 6970,
+    "sourceStableIds": [
+      "doi:10.1155/ijz/8862952"
+    ],
+    "sourceOccurrencesBeforeUpdate": 0,
+    "matchedColIds": [
+      "4ZMCC"
+    ],
+    "matchedNames": [
+      "staurois parvus inger & haile, 1959"
+    ],
+    "openPullRequests": []
+  },
+  "updateAudit": {
+    "baseHead": "53a6cdfb",
+    "indexedShardCountAtAudit": 64,
+    "indexedRecordCountAtAudit": 6970,
+    "targetColId": "4ZMCC",
+    "targetScientificName": "Staurois parvus Inger & Haile, 1959",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-amphibia-batch-2026-09-24.jsonl.br",
+    "previousRawSha256": "b2058b058221dfc5ffe8ad21d315b50f58476aa7364716272174684994cb4be6",
+    "previousCompressedSha256": "9ca99e9baf040e10fb7603987f23b85f72ef64470f4e36b956b858accfe2ed0d",
+    "previousTargetRecordSha256": "e7274b16bdc6cff42fb1679ba5294b848e691b2e660c18a2242b761d4721a29e",
+    "sourceOccurrencesBeforeUpdate": 0,
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "queries": [
+        "4ZMCC",
+        "10.1155/ijz/8862952"
+      ],
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    },
+    "mode": "in-place-add-captive-development-series-bounded-larval-morphology-source",
+    "indexedRecordCountAfterUpdate": 6970,
+    "outputRawSha256": "c15e879d3c80cb299e009f045ccbeb8ed92d277e5ea0d635e0e500faba8298c9",
+    "outputCompressedSha256": "ada530c3879b815c3de38912209a575c2b36dec9ae7d91515eae8d65f3e7b105"
+  },
+  "sources": [
+    {
+      "id": "lukas2026staurois",
+      "stableId": "doi:10.1155/ijz/8862952",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "rightsHolder": "Paul Lukas (2026); article copyright notice applies under the Creative Commons Attribution License."
+    }
+  ],
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-amphibia-batch-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 5,
+    "decodedBytes": 33463,
+    "decodedSha256": "c15e879d3c80cb299e009f045ccbeb8ed92d277e5ea0d635e0e500faba8298c9",
+    "compressedBytes": 6521,
+    "compressedSha256": "ada530c3879b815c3de38912209a575c2b36dec9ae7d91515eae8d65f3e7b105",
+    "brotliParameters": {
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "datasetDoi": "10.48580/dgywk",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "preservedSiblingColIds": [
+    "3SLRG",
+    "736LN",
+    "CQ4M",
+    "J8YL"
+  ],
+  "generator": "scripts/update-amphibia-staurois-morphology-batch50.mjs",
+  "updateMode": "in-place-enrichment-of-one-existing-record",
+  "appAndPagesPreviewManifestChanged": false
+}

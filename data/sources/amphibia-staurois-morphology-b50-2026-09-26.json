@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "batchId": "amphibia-staurois-morphology-batch50-2026-09-26",
+  "checkedAt": "2026-09-26",
+  "releaseAlias": "COL26.8",
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "datasetDoi": "10.48580/dgywk",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "target": {
+    "colId": "4ZMCC",
+    "scientificName": "Staurois parvus Inger & Haile, 1959",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "parentId": "7M2T",
+    "classification": ["Animalia", "Chordata", "Amphibia", "Anura", null, "Ranidae", null, null, null, "Staurois"]
+  },
+  "audit": {
+    "baseHead": "53a6cdfb",
+    "indexedShardCount": 64,
+    "indexedRecordCount": 6970,
+    "targetRecordCount": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-amphibia-batch-2026-09-24.jsonl.br",
+    "previousRawSha256": "b2058b058221dfc5ffe8ad21d315b50f58476aa7364716272174684994cb4be6",
+    "previousCompressedSha256": "9ca99e9baf040e10fb7603987f23b85f72ef64470f4e36b956b858accfe2ed0d",
+    "previousTargetRecordSha256": "e7274b16bdc6cff42fb1679ba5294b848e691b2e660c18a2242b761d4721a29e",
+    "siblingColIds": ["3SLRG", "736LN", "CQ4M", "J8YL"],
+    "sourceOccurrencesBeforeUpdate": 0,
+    "sourceStableId": "doi:10.1155/ijz/8862952",
+    "openPullRequestSearch": {
+      "queries": ["4ZMCC", "10.1155/ijz/8862952"],
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    }
+  },
+  "source": {
+    "id": "lukas2026staurois",
+    "title": "Lukas (2026), Waving Through Ontogeny: The Larval Chondrocranial Development of Staurois parvus",
+    "url": "https://doi.org/10.1155/ijz/8862952",
+    "version": "International Journal of Zoology 2026, Article 8862952; version of record first published 2026-03-31",
+    "stableId": "doi:10.1155/ijz/8862952",
+    "publishedAt": "2026-03-31",
+    "accessedAt": "2026-09-26",
+    "locator": "Results §3.1 (observation at 27Go); Discussion §4.1 (absence of larval otic process and need for further taxonomic investigation); Methods §§2.1–2.2 (116 larvae, stages 19–27, Vienna Zoo Schönbrunn breeding facility)",
+    "license": "Creative Commons Attribution License, CC BY 4.0; article copyright notice and item-level license statement in the open-access full text",
+    "licenseAssessment": "item-level-verified",
+    "scope": "Larval chondrocranial description and developmental observations from 116 larvae spanning Gosner stages 19–27; the article describes stage 27 morphology. Larvae were provided by the Vienna Zoo Schönbrunn breeding facility. Sample collection dates are not reported.",
+    "rightsHolder": "Paul Lukas (2026); article copyright notice applies under the Creative Commons Attribution License.",
+    "licenseVersion": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseAppliesTo": "Article text and content under its Creative Commons Attribution License; third-party material separately credited is excluded. This dossier paraphrases article text and does not reuse figures.",
+    "attribution": "Lukas P (2026). Waving Through Ontogeny: The Larval Chondrocranial Development of Staurois parvus. International Journal of Zoology 2026:8862952. https://doi.org/10.1155/ijz/8862952. Claims paraphrased."
+  },
+  "claim": {
+    "text": "In the described larval chondrocranium at Gosner stage 27, Staurois parvus lacked a larval otic process; the author identifies this as a possible distinguishing feature whose taxonomic level needs investigation in other ranids.",
+    "sourceIds": ["lukas2026staurois"],
+    "locator": "Results §3.1; Discussion §4.1",
+    "placeTimeScope": "Vienna Zoo Schönbrunn breeding facility, Austria; one developmental series of 116 larvae across Gosner stages 19–27, including 11 stage-27 larvae. Article first published 2026-03-31; sample collection dates are not stated.",
+    "lifeStatus": "Larvae were provided by a zoo breeding facility. This is captive-facility material and does not describe wild-collected larvae or population-level variation.",
+    "translationStatus": "untranslated",
+    "originalLanguage": "en"
+  },
+  "gaps": ["The developmental series is from one breeding facility; it does not establish variation among wild populations, species-wide prevalence, or the taxonomic diagnostic value of the observed feature."]
+}
