@@ -1,0 +1,830 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/build-species-evidence-queue.mjs",
+  "releaseAlias": "COL26.8",
+  "identityBoundary": "Accepted species are exactly rank=species and status=accepted in the pinned COL26.8 hierarchy; every queue row is keyed by the verbatim COL usage ID.",
+  "coverageBoundary": "Source-original associations, introductory profiles, dossiers, facet states, and external review are separate per-species stages. Missing evidence is not a negative biological finding.",
+  "notIncludedInRuntime": true,
+  "inputs": {
+    "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "hierarchyNodeFiles": 256,
+    "hierarchyNodeCount": 2429092,
+    "profilePath": "data/knowledge/catalogue-profiles.json",
+    "profileSha256": "afad8d7232410b38ac8a5454060822b8d57e1e4f37452d7bc9e535e80ebd1854",
+    "profileRecordCount": 55,
+    "dossierBasePath": "data/knowledge/catalogue-dossiers.json",
+    "dossierBaseSha256": "88def9f9997c16f6eba9c51aca5c134b4af198442ae941baa284e6dd0c86beb5",
+    "dossierIndexPath": "data/knowledge/catalogue-dossier-shards.json",
+    "dossierIndexSha256": "8d3c68808c6a0288895b8f477f05e10d936581c129439846b82e7ebf150ce9c5",
+    "dossierShards": [
+      {
+        "path": "data/knowledge/catalogue-dossiers-all.jsonl.br",
+        "recordCount": 3841,
+        "compressedSha256": "eca89b99e5703ddd9c1c2d178b9afab940f2d6f66b882471294807e18fa5cee2",
+        "decodedSha256": "05224298f9a4992e06addb64f1da7f9586df622769382b6b66177134fa4eb13d"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-sanbi-1141-batch-1.jsonl.br",
+        "recordCount": 3000,
+        "compressedSha256": "38f457203bc715138428484333b4b9852921c692255e2293707340e325b77e9a",
+        "decodedSha256": "0e7e162ff818aed611ace4add4cc9f8bb548b24b18d59be508051c1fc0f1be50"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-sanbi-cyclopia.jsonl.br",
+        "recordCount": 5,
+        "compressedSha256": "d2086987ab302f6f67b03948f13e167640ac5a41739dfaef945da545e36164e8",
+        "decodedSha256": "b6a833af26f9025720c75bc9b4a4b4a4673235a7b6304bab756fd0b1418ec859"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-mollusca-radomaniola-batch-1.jsonl.br",
+        "recordCount": 5,
+        "compressedSha256": "3d7e6032649e776d782002f42d1fc077d45db258b13c5b424da0969612fc6be6",
+        "decodedSha256": "14cc037dd1087056d1232ebc7581dceb8aab655bf9d7399222432a6345d0eef4"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-amanita-vaginatae-2023.jsonl.br",
+        "recordCount": 4,
+        "compressedSha256": "c61ef06a8946697387d2e19d8a29387f95f1e0be2e9579737db3e0af31019550",
+        "decodedSha256": "ab48003091877c601f0c281cbb6402aa9796e325b66beb8ece5e29f6204c8a08"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-sanbi-agathosma.jsonl.br",
+        "recordCount": 5,
+        "compressedSha256": "e8976cf5ed964fc64b1a8f28593c64cdf574c1f4e6b5bcbf542fcf7ff2a8d5ee",
+        "decodedSha256": "c3cc47c292d2135b555cf83a042314e86cb743246cc1559d1b2594f3e8f836cb"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-amphibia-batch-2026-09-24.jsonl.br",
+        "recordCount": 5,
+        "compressedSha256": "ada530c3879b815c3de38912209a575c2b36dec9ae7d91515eae8d65f3e7b105",
+        "decodedSha256": "c15e879d3c80cb299e009f045ccbeb8ed92d277e5ea0d635e0e500faba8298c9"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-aves-batch-1.jsonl.br",
+        "recordCount": 2,
+        "compressedSha256": "75766de7b2595e4817efae13671a1c81544ceb3ad4e2e641b517ff5ce796827e",
+        "decodedSha256": "4344080bbfe2afefb414e72a1450bab771536c83c9304177ef1a14d6a219eaad"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-aves-north-pacific.jsonl.br",
+        "recordCount": 2,
+        "compressedSha256": "1a78b1a10cc7b770fc3901a9ca2e9b306c0c8ad2f4e0a9b9b205c92a6cb4e01c",
+        "decodedSha256": "04266cd12130151f3d5bb2f66937c14ceccbb5fc9caf767fa9364f7ea320e15c"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-insecta-aedes-host-choice-2026-09-24.jsonl.br",
+        "recordCount": 2,
+        "compressedSha256": "c39fde6eba0ce42cbac321f70f0496561394d1d3acb1c0f2e2ef062f7b591020",
+        "decodedSha256": "930821d7b23aae3f0014f9d5d2697a1ae6083617be04346fabad4ad9e75ad93a"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-tatraea-2024.jsonl.br",
+        "recordCount": 4,
+        "compressedSha256": "aa1cec0ff96835e8be4e819e1bb878cad4f185f16ea0a433649d4a3476844b29",
+        "decodedSha256": "05e932976f8ddcc4bd81a30e9a752d2bf5a4b2a489c74197cd2b7a72e483dd51"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-actinopterygii-batch-2026-09-24.jsonl.br",
+        "recordCount": 3,
+        "compressedSha256": "5bc542f36170adf0122c64efe5cb49f5569fc9dba68cbd0f76c882dd3966b156",
+        "decodedSha256": "578d759402e9200bbd35b71c40a64bc35d23ed59a89e3bbd132b89010b38eb2e"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-col26-bacteria-archaea-batch-1.jsonl.br",
+        "recordCount": 3,
+        "compressedSha256": "421a143ce196c55c501d32477a0c355fc7682cd1ccbb27df6c90f58d672417e7",
+        "decodedSha256": "1fa533659bc8d54223fb35133df8ce0074ae493516618a3ca257a2a6f3341c19"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-reptilia-paroedura-bastardi-2026-09-24.jsonl.br",
+        "recordCount": 2,
+        "compressedSha256": "ff037d92744675d140b8e11351ddb7ea995ce2a6e13d07ca69fcfe1902d6cc3a",
+        "decodedSha256": "49a529a95e45dd153d83397e0bb733a13419b726a35f490f05aeb8e39b193018"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-chiroptera-molossus-2025.jsonl.br",
+        "recordCount": 5,
+        "compressedSha256": "45ef56ac9211b3e7f41d0a6b2e2fd2fbb67e924539695dc2d02412256573c09c",
+        "decodedSha256": "52f096be3d3c7e0d436c5623d8713b654544464f75331e1c5bfcf930d96714e4"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-chiroptera-histiotus-alienus-2023.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "9436f934643f2a08c5ab25b07997c54cb2ea1e5381f61c1d1ea430c23ab4bf2c",
+        "decodedSha256": "595c0537d4cd647eecfc7f1372c0b43c591652435f0f9496ccfc25c557388c39"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-col26-bacteria-archaea-batch-2.jsonl.br",
+        "recordCount": 3,
+        "compressedSha256": "88b039e48df110fdbbe8fceb7841c6ac50634cf7a0f9cdd03f5d20827ba5c9bb",
+        "decodedSha256": "d2c2b8eec3977a9003698f9aceb7125fa08cba02123d2cfae65304a94762f4eb"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-oomycota-saprolegnia-parasitica-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "9946fb399ba15b3cbc82468f5a3f6dcbc9fbfde164795bd94dec6a2cc7c64353",
+        "decodedSha256": "7b3a64617a4612b0c835b3dc41f98762d08bd350371df3ae0bc61e35bec508a3"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-plants-models-batch-1.jsonl.br",
+        "recordCount": 2,
+        "compressedSha256": "7ea0a5c2b132594813f1ea321f136a68500e526604885f6c8b3078f2bd8f3274",
+        "decodedSha256": "1c3d22f9936c9999751c7d845b180d0f8240696d90f20c03ae82b3c2b7cdef5e"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-homo-sapiens-south-african-genomes-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "118d6324fb903c54e1f54f288b417a96702246c847053349393e8d5d3ba54148",
+        "decodedSha256": "811614ee50d25d3e4a0cce33e4305c9b6adc4f77148fcf5340a84cdb370531d9"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+        "recordCount": 3,
+        "compressedSha256": "a6b6340b41afbb64bfaa13667f36f921a90d14d354dc28d258e224710301cf41",
+        "decodedSha256": "6cc0cffebf0ce2133d39805e22095cb813d31de7912c26fe8f7a1c688ff1f36d"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-aves-model-conservation-batch-2026-09-24.jsonl.br",
+        "recordCount": 2,
+        "compressedSha256": "64eeab7f23c826bb1551e94b0be5197e799e8469a5158367631e16fb8d77182f",
+        "decodedSha256": "6c0536165925626bcc3b3f127c51b22337a43cb1edb5dcab40f25c72aea2ba15"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+        "recordCount": 3,
+        "compressedSha256": "973454bb5615203895ea2947432aaad269ab90ba5624659e3142aace5f01e756",
+        "decodedSha256": "7be7f2bf119f62e571b3c33a9f86af253a787ea163862942c4c26fee37c641e4"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-fungi-model-yeasts-dossier-batch-2026-09-24.jsonl.br",
+        "recordCount": 2,
+        "compressedSha256": "65c0b057893f1f2f117c2c53f3bc2949fcc607d72d2b096330015171d395dbb1",
+        "decodedSha256": "a7ef57184c1845cb2944ae8c34b82484a32cccc21b1e612be09e1df8cd3d7f82"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-crustacea-daphnia-magna-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "531ccd758756c99c9b95748eb804226f0073d92f71e16263ba4b33997cafbd78",
+        "decodedSha256": "226b7c625aa7b4b2290802b6067d97e5ff3358004eeb0d97bc61f67e1f5f42e3"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-crustacea-gammarus-pulex-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "e2698eb3fccba85176a952707dfb93665a150db05d59e70a160ad724217c122d",
+        "decodedSha256": "bc032675079604d6d386a548498ba932e2d88fe333121991743249c9e7b2d3b2"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-lemur-catta-macaca-nemestrina-batch-2026-09-24.jsonl.br",
+        "recordCount": 2,
+        "compressedSha256": "73db289747f4eaf84797e3e158a1b8afec4bd2b4d7c822bdd885c8a65dfb4eab",
+        "decodedSha256": "9492095ac91c75bed10f8f073b5e023bb482c82d2edf5618d839a47566f1b8ec"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-fungi-postfire-cereal-pathogen-dossiers-2026-09-24.jsonl.br",
+        "recordCount": 2,
+        "compressedSha256": "0744916e7c106545f4df6061fb341d8cbbe38efaf7a44c10961da7c2fda73e67",
+        "decodedSha256": "a70a9ad6ae177a6dc11d231653e202aae724457ce451d692ab959483bc4d4ca8"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-core-batch5-2026-09-24.jsonl.br",
+        "recordCount": 2,
+        "compressedSha256": "89770a25eea6522c8eecea5c39428d66f2c37ef95298a72baaff6b2db45bb6ed",
+        "decodedSha256": "a9292b721afa4cb96227ded03c54f2890943de59d559e7da02ac29bb383b84df"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-hylobates-lar-batch6-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "2f08cfaaff12737a422b79b062d9fa36cc6351b4236c50cb348ef8b593e01a2a",
+        "decodedSha256": "a52213c0f7c95b4ee93600d6d242b4ca2ef2f695849c7a46e4730908f73e7de2"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-lemuriformes-batch7-indri-indri-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "d19d950aeaaf6f26c624d7a373a3f9f951944e0ef83ec1b6d7d879fb827e7d30",
+        "decodedSha256": "b8bc2015ce526a98450e238583052b5f067318f60c25b67097dd74e045208f2c"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-cercopithecoidea-batch-8.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "e225079f5b48875636868f3a5dc73de223207d2a142d4b268bc5212095d7d420",
+        "decodedSha256": "e28cdb9b45e8097d606dbd432dfc01712e51bc4a9e248632dd5063c4997b7ab9"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-platyrrhini-batch9-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "af3b1e7c13128a9b11007fa9b6fa000f0c990567a7b820d9eeca1756bf59423c",
+        "decodedSha256": "a7a813d5ef9212bede584ed7e4f9f6d8908940f938641a2347fad944f8e4fdca"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-tarsiiformes-batch10-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "0ac9b2d436bc25849e5d63991e729e47e0a4decc77add57ff4208c76a808d139",
+        "decodedSha256": "ca2d93bc6aa768d72c7725c91479694f745f3644ae070b4cb212f05d9d48109c"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-gorilla-beringei-batch12-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "5abd9b1d32590a83a8399905d8b6ffc9adb1efc0f62bdacb8a2c4fe426e5362e",
+        "decodedSha256": "aa0475351df640c7c0a5ca6a5ac5948bea5d7f0f2e3fb87cef31d484f6cc5e1a"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-pan-paniscus-batch11-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "008fbdb4b0bc16d7b69db0e93cd59eee7332afa005f869b0e1ba3eaa9a47cf1b",
+        "decodedSha256": "792a06a3fc94bfb4736c3f198581109cba2cda02fd8814eeaa7f593fb275589c"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-pongo-tapanuliensis-batch13-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "7a3fbf91791d9beb0485ffd3bba4ed4a7fb58f54c5d4245b90760bd7742b6855",
+        "decodedSha256": "9e93653e83c2696da2fe2d472ec3584164e54e84dfcc9d5ba87c5bdb07b10597"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-microcebus-murinus-batch14-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "3d0e2b79db0d77086cf0bf1830e35c242b1a44be34494f305af6741fbdb7f368",
+        "decodedSha256": "dbf648184f37fe8107c81ca2f2a1119ccdceffe42be188f4e95b36253d3ccf03"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-chlorocebus-sabaeus-batch15-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "0e2b0c1fca541416420e8bc84325a053c139b482358cdb86cd6522a6309480cc",
+        "decodedSha256": "b5f4fad41d92c72c01aacf438c8e3164240fa33cac1a96bc0a30ad400c7dcb61"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-cebus-capucinus-batch16-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "4b815a628505b5cf3a6dfd6a58ac11cb43fc246c3ba56d87124d9b3fe30ca237",
+        "decodedSha256": "d4b731e9ab8812f79d30ff3e67f2a954307b84aa8f0e3d3844a2f1780f8cf4da"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-nasalis-larvatus-batch17-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "10efb5e2546663b64cf458ed22d930244c9ef173cd7b7037d43e21c26c60ed3a",
+        "decodedSha256": "9f416ca92bc31a4e547f61f07b8392be7ad3a470c64fce105413171d4f7c5f8e"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-mandrillus-leucophaeus-batch17-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "df2b7ba132c133ac944dc84a47cf063d8462993223405b5ad2bf636bcf1916e5",
+        "decodedSha256": "4a9e6ba687de17e3abd2b004343e1579f30368f237732cc78ae96f85dcf01d5a"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-colobus-guereza-batch18-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "2a14fabbf79fc1125674294fe1b99015b9f9f35b0f34d929888f9c4478a6cf1d",
+        "decodedSha256": "3c77876534f8283073a12843ead6eb56538c4fe504462148e5ff388e98e923c9"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-cercopithecus-diana-batch18-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "52768ddfdca8bcee26580bd4c050d8276c24221e2e540690d672b955644196bf",
+        "decodedSha256": "6c1e9c404499a9b20902b9f5c7d6dcc71474fe95100dc14fe00aa734a6a9f6a7"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-alouatta-palliata-batch18-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "10b0a7ce9c1041da1db173c62b4ab1e356cf67e85650b89a642f5fa9099811f0",
+        "decodedSha256": "7f12ae4b8804184a8fb4a08c3d6d47d0f8d1f5c4472ef4938be3a327cb5f4a7b"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-macaca-nigra-batch19-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "b8caca613cab7e6c1a2ae0faeb64b82aed9672b80b7d2f9aa32a10333646dee1",
+        "decodedSha256": "41dbec5cbf9a7471838ebf7a5615d9d932a328e5ccc1731aea0236f07b2538bb"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-trachypithecus-francoisi-batch20-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "a377276cc3143f8decb9d5704e4acfbf8bdf38db826d0f6d4ef768cc34741cf6",
+        "decodedSha256": "9e7581196bcb341093795dfd41e469e5cca6efbf2a05fd9c6237a64121bb9865"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-propithecus-verreauxi-batch21-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "6e2f0855c141c8f9600adf4c0fc57e23bb2e2ffc9831c855cc74b7a422f5b3d9",
+        "decodedSha256": "f2c24d7b323495f2458829a21dab3af7ad6d48bce749fc1510134dd193f01057"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-hylobates-agilis-batch22-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "ed82b199a1b361ed2eed77c6d716c3bf13be0e063b60a654433ad32e8466248c",
+        "decodedSha256": "1da71249af2041e571ae3a5f96c4680daa87fbed28f3e143974ea0930846954c"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-symphalangus-syndactylus-batch24-2026-09-24.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "25356d89971ddb4fea4b65bd216806476e3189b0b8ce6b447aa6a78e7570b322",
+        "decodedSha256": "f1d990c8f65add3ca01b46d2cc77335c1bcf798f79a081f00d509a767c1527bd"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-callithrix-jacchus-batch27-2026-09-25.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "cd15136ba1e7eb6a83ff029164a5647b529665624ddda922c22d3134781dfd2c",
+        "decodedSha256": "91954393d34f599acaed4055167602b637c3a0363c714a9213ecad68b74132be"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-saguinus-bicolor-batch28-2026-09-25.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "acc11868c95424108c99fa2a196a93f56a90d8c3c5d6fa89f7db669c5cd0467c",
+        "decodedSha256": "1e46a1f0262c0d738083954e3648ecaaeec08dada1c5a4a7e5c67159eff82a4a"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-pithecia-pithecia-batch29-2026-09-25.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "38e6ebcbe41ac98b405aa17294d21de9219f63156467dc9b93d1c8958b7756ce",
+        "decodedSha256": "321176c84aff959af85c0dfb3a4aa228477f4eba9d968fd76caceaf3ae4899bc"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-multi-clade-evidence-batch30-2026-09-25.jsonl.br",
+        "recordCount": 3,
+        "compressedSha256": "067b885d01b6fa81bcaf88d6c2f447a8f8d858a5805be9a945641ac5ced1e9b1",
+        "decodedSha256": "3f7d0eb50957cca651dea7c7da200a5939907c0b61ea34bbf801c49066e2c76c"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-flagship-species-evidence-batch31-2026-09-25.jsonl.br",
+        "recordCount": 3,
+        "compressedSha256": "4ef91e4d5cfeda921a19c38bed6d46e49947a5571afbd3a34d32eb653c3bd628",
+        "decodedSha256": "c2e43df6b068dcf2d1f86061c05b806f0f670740a638de57f9e0e663d208a77f"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-species-evidence-batch32-2026-09-25.jsonl.br",
+        "recordCount": 6,
+        "compressedSha256": "37455a23c30a3677fd4c667228078f89d60b1a311317e47de83feef14c6e8733",
+        "decodedSha256": "1c191271302f934165b0863b6ae53c8ffc3a96361ebf00e14bf0a18898829fed"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-species-evidence-facet-progress-batch33-2026-09-25.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "f480f80db9a8500fdb9229caae32cab02dcaeb96ae664637525a18d530082d3f",
+        "decodedSha256": "8c40f68c8a4c4544072d2c60906e266d4d7ce305098a6026a27ce321bc9a9b8a"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-species-evidence-batch34-2026-09-25.jsonl.br",
+        "recordCount": 3,
+        "compressedSha256": "f107adb52087fbf480bfc2a3b73fcf948a5e8d486c939fd077f1123cc9695927",
+        "decodedSha256": "405efc261ef6b5f37d1bc9e2427ae7311e17366f427cc7e9236e7f8ab182ebef"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-species-evidence-batch35-2026-09-25.jsonl.br",
+        "recordCount": 3,
+        "compressedSha256": "b682142704b0c0c6f8caebfe513b31d563cdd41a4725fc764f7a7a11046b2178",
+        "decodedSha256": "a921a1236eab081bbd7a40b7ecbbb3bf17b1fd4ecd34583daf8a903e3a3f11f0"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-species-evidence-batch36-2026-09-25.jsonl.br",
+        "recordCount": 3,
+        "compressedSha256": "cfaa34e2de1e064c9e1a61f545ca07e8f0c3297a93a7991a443aa08c07354650",
+        "decodedSha256": "9105850d69cce7cbad25a399beabdef05b3624abf923f8f3827fcb354f803226"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-species-evidence-batch37-2026-09-25.jsonl.br",
+        "recordCount": 3,
+        "compressedSha256": "9dc741e2119e72c3ada57fbaa47883fcf6b1e3e923a35675ca657dbcdeb26d98",
+        "decodedSha256": "ec0dae2d26529e45a10957960ce4eacefe1476a21599ba888046bad2533bbb4d"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-species-evidence-batch38-2026-09-25.jsonl.br",
+        "recordCount": 3,
+        "compressedSha256": "fd7db13ab7d1922182099b19437c6aa86eb5b361c18f0463d610cd1a9e700529",
+        "decodedSha256": "53aa67ff1fd031f8dfb8994f26a6ed137228df16a4b270bc6717237e97004b2b"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-species-evidence-batch39-2026-09-25.jsonl.br",
+        "recordCount": 3,
+        "compressedSha256": "79c6c53bd87010a32751b412b1c92d37a76421688d2b44c341c9a5a3cef259ad",
+        "decodedSha256": "7c921ae45087a4c522727d302c547c6c872421969767e042c0e622b4b305674b"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-macaca-radiata-core-2026-09-26.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "8e16b83ce3c7a741dd9a4500be1ba80d332c12afc323e90dbb4b349f48330f94",
+        "decodedSha256": "998364cd9d03be5338ca63eea0a1ca91550d3749c408bfbd5bd98f7e7c61a19e"
+      }
+    ],
+    "sourceOriginalCollections": [
+      {
+        "collection": "brazilFloraDescriptions",
+        "ledgerPath": "data/sources/brazil-flora-descriptions-import-ledger.json",
+        "ledgerSha256": "b6899ca2a9e8349f0680f82ae679cbee3a3c57093c67ec17beb780a488c259b8",
+        "outputPath": "data/sources/brazil-flora-descriptions.jsonl.br",
+        "outputSha256": "87c4eb263ae64e21b1c7f009276eb941c6c51a892fe79ec3e46c5779200b879d",
+        "outputBytes": 4394603,
+        "textRecordCount": 28896,
+        "distinctSpeciesIds": 28896
+      },
+      {
+        "collection": "fdacDescriptions",
+        "ledgerPath": "data/sources/fdac-descriptions-import-ledger.json",
+        "ledgerSha256": "b7e2dc5c1f511db4c171bdf8a0a5fd95601f7d441d1d00089bc0dda8a6a75cad",
+        "outputPath": "data/sources/fdac-descriptions.jsonl.br",
+        "outputSha256": "1f8cece86971918066ddbddc570b5b4758d0d95d3cb70df61071af1b31bbfebd",
+        "outputBytes": 1219910,
+        "textRecordCount": 4156,
+        "distinctSpeciesIds": 4156
+      },
+      {
+        "collection": "floraChinaDescriptions",
+        "ledgerPath": "data/sources/flora-china-descriptions-import-ledger.json",
+        "ledgerSha256": "30432acc24117eb20ae3d1426d317d792954ec3878d12b58364e1c9b71c19929",
+        "outputPath": "data/sources/flora-china-descriptions.jsonl.br",
+        "outputSha256": "7c293a3e50fe6b5499e149039d1129acc10c0b2347e04222ed402e1e029c13fa",
+        "outputBytes": 4812044,
+        "textRecordCount": 20049,
+        "distinctSpeciesIds": 20049
+      },
+      {
+        "collection": "nicaraguaDescriptions",
+        "ledgerPath": "data/sources/flora-nicaragua-descriptions-import-ledger.json",
+        "ledgerSha256": "b2b3d0e97352cfeb1eba3f60ea23761bd51b67f3d33217737b9bab4ae48abb49",
+        "outputPath": "data/sources/flora-nicaragua-descriptions.jsonl.br",
+        "outputSha256": "1da45c711ef2156d6836a190434cf500638fe426495e6cbac4b7af062cf6457d",
+        "outputBytes": 1520202,
+        "textRecordCount": 4917,
+        "distinctSpeciesIds": 4917
+      },
+      {
+        "collection": "panamaDescriptions",
+        "ledgerPath": "data/sources/flora-panama-descriptions-import-ledger.json",
+        "ledgerSha256": "4c0484ba9ae409c70831ea567840e9654398b7c9340d4bf923f35a44892ec057",
+        "outputPath": "data/sources/flora-panama-descriptions.jsonl.br",
+        "outputSha256": "9a0eab290c6b2d092bd9027c5132d8497328cfd76f755e21a982907b519baa87",
+        "outputBytes": 1190406,
+        "textRecordCount": 2898,
+        "distinctSpeciesIds": 2898
+      },
+      {
+        "collection": "fnaDescriptions",
+        "ledgerPath": "data/sources/fna-descriptions-import-ledger.json",
+        "ledgerSha256": "e434a5918b7dc8dca92ab0ee8831f3645ad9695ebf0c0f7901abb6957f6d2597",
+        "outputPath": "data/sources/fna-descriptions.jsonl.br",
+        "outputSha256": "f6000a5956207c9e300d1009c791951b83e865661e9edeba4aba4c66ff3dcbf1",
+        "outputBytes": 1783112,
+        "textRecordCount": 7960,
+        "distinctSpeciesIds": 7960
+      },
+      {
+        "collection": "foaDescriptions",
+        "ledgerPath": "data/sources/foa-descriptions-import-ledger.json",
+        "ledgerSha256": "e5803798a3f2c77f6c7035271f02f8890f403456adf4c4f4593a55b5b32ad125",
+        "outputPath": "data/sources/foa-descriptions.jsonl.gz",
+        "outputSha256": "7e98b8a5819d4cc63325bd7045ef4b78abdd1e07ed54fed0ebe478dd4365898d",
+        "outputBytes": 18241,
+        "textRecordCount": 46,
+        "distinctSpeciesIds": 46
+      },
+      {
+        "collection": "mesoDescriptions",
+        "ledgerPath": "data/sources/meso-descriptions-import-ledger.json",
+        "ledgerSha256": "60783a7ee7b8fc882c61230b80c6963d9842c1f45593c4eb7964f1a968d56986",
+        "outputPath": "data/sources/meso-descriptions.jsonl.br",
+        "outputSha256": "0e205f5ca52dd210a80ff7171a12aee2627d5cba202a168b3378cfca82c8b424",
+        "outputBytes": 1919552,
+        "textRecordCount": 4850,
+        "distinctSpeciesIds": 4850
+      },
+      {
+        "collection": "mossChinaDescriptions",
+        "ledgerPath": "data/sources/moss-china-descriptions-import-ledger.json",
+        "ledgerSha256": "428ca3a3ad94926335269eb1ea9b63b20f1805bce65632045b68bed173618ae2",
+        "outputPath": "data/sources/moss-china-descriptions.jsonl.gz",
+        "outputSha256": "0cc850df1c999998faaa38a3c5901f1ec709db8f4b39197ec427c5cc5f556f49",
+        "outputBytes": 317367,
+        "textRecordCount": 739,
+        "distinctSpeciesIds": 739
+      },
+      {
+        "collection": "mossDescriptions",
+        "ledgerPath": "data/sources/moss-descriptions-import-ledger.json",
+        "ledgerSha256": "74e6e8f0194868ea1ba077700845bda3c4a652abacc17715065609fdbf4ffdcf",
+        "outputPath": "data/sources/moss-descriptions.jsonl.gz",
+        "outputSha256": "62c1ddc7dd3d666867930353adc15ace903b89634a28c437ca6b337988ce23c2",
+        "outputBytes": 136852,
+        "textRecordCount": 276,
+        "distinctSpeciesIds": 276
+      },
+      {
+        "collection": "pakistanDescriptions",
+        "ledgerPath": "data/sources/pakistan-descriptions-import-ledger.json",
+        "ledgerSha256": "1ffa1ac50fed958684a544655c9bc1bbce5cd38cf4e9ae8e003daae4ee1cc90f",
+        "outputPath": "data/sources/pakistan-descriptions.jsonl.gz",
+        "outputSha256": "96eef4e1fa6bc718bad427ee16631d584393e7132fbd7b75dc9a4dbb3f2f35a2",
+        "outputBytes": 750619,
+        "textRecordCount": 2657,
+        "distinctSpeciesIds": 2657
+      },
+      {
+        "collection": "plaziDescriptions",
+        "ledgerPath": "data/sources/plazi-descriptions-import-ledger.json",
+        "ledgerSha256": "9ca65b85d7cf2b016ce36b04af7c7c2797561c87a4faa7ff52a88d9fe54e4016",
+        "outputPath": "data/sources/plazi-descriptions.jsonl.gz",
+        "outputSha256": "466773ce5eca7e77627dd13903e074c6446eb2d91ba3eaaa53c79f10ebd3cda0",
+        "outputBytes": 51512,
+        "textRecordCount": 27,
+        "distinctSpeciesIds": 27
+      },
+      {
+        "collection": "sanbiDescriptions",
+        "ledgerPath": "data/sources/sanbi-descriptions-import-ledger.json",
+        "ledgerSha256": "85e898ef622b607396fe0bcd1436ecaf4879273057f81492bfcd93669c171522",
+        "outputPath": "data/sources/sanbi-descriptions.jsonl.br",
+        "outputSha256": "84b73be06fc988fdc1b1a50000fb0657aa2210a599ee8fb7ca84b49a068f373e",
+        "outputBytes": 6019652,
+        "textRecordCount": 15211,
+        "distinctSpeciesIds": 15211
+      },
+      {
+        "collection": "turkeyDescriptions",
+        "ledgerPath": "data/sources/turkey-descriptions-import-ledger.json",
+        "ledgerSha256": "8f479e955b3b17a07a9f692ee449bd9809ed18bc635ba556c8b21005625fa699",
+        "outputPath": "data/sources/turkey-descriptions.jsonl.br",
+        "outputSha256": "b0bdab2eb11c397d48f1e79736d7f25087729179d7ebb2c65de90d55d109561c",
+        "outputBytes": 77121,
+        "textRecordCount": 262,
+        "distinctSpeciesIds": 262
+      }
+    ]
+  },
+  "counts": {
+    "acceptedSpecies": 2183133,
+    "sourceOriginalAssociatedSpecies": 80838,
+    "introductorySummarySpecies": 27,
+    "dossierSpecies": 6970,
+    "completeDossierSpecies": 0,
+    "externallyReviewedSpecies": 0,
+    "speciesWithAnyEvidenceStage": 80975,
+    "speciesWithoutAnyEvidenceStage": 2102158,
+    "speciesWithoutDossier": 2176163,
+    "sourceOriginalCollectionSpecies": {
+      "brazilFloraDescriptions": 28896,
+      "fdacDescriptions": 4156,
+      "floraChinaDescriptions": 20049,
+      "fnaDescriptions": 7960,
+      "foaDescriptions": 46,
+      "mesoDescriptions": 4850,
+      "mossChinaDescriptions": 739,
+      "mossDescriptions": 276,
+      "nicaraguaDescriptions": 4917,
+      "pakistanDescriptions": 2657,
+      "panamaDescriptions": 2898,
+      "plaziDescriptions": 27,
+      "sanbiDescriptions": 15211,
+      "turkeyDescriptions": 262
+    },
+    "profileRanks": {
+      "family": 10,
+      "genus": 10,
+      "order": 8,
+      "species": 27
+    },
+    "dossierStatuses": {
+      "missing": 2176163,
+      "incomplete": 6970,
+      "complete": 0
+    },
+    "expertReviewStatuses": {
+      "no-dossier": 2176163,
+      "not-reviewed": 6970,
+      "maintainer-reviewed": 0,
+      "externally-reviewed": 0
+    },
+    "claimSourceRightsStatuses": {
+      "not-assessed": 2176163,
+      "no-biological-claim-sources": 0,
+      "item-level-verified": 118,
+      "claim-source-rights-unresolved": 6852
+    },
+    "facetStatuses": {
+      "morphology": {
+        "supported": 0,
+        "partially-supported": 6903,
+        "searched-no-evidence": 0,
+        "conflicted": 0,
+        "not-assessed": 2176230
+      },
+      "lifeHistory": {
+        "supported": 0,
+        "partially-supported": 188,
+        "searched-no-evidence": 0,
+        "conflicted": 0,
+        "not-assessed": 2182945
+      },
+      "ecology": {
+        "supported": 0,
+        "partially-supported": 6938,
+        "searched-no-evidence": 0,
+        "conflicted": 0,
+        "not-assessed": 2176195
+      },
+      "evolution": {
+        "supported": 0,
+        "partially-supported": 56,
+        "searched-no-evidence": 0,
+        "conflicted": 0,
+        "not-assessed": 2183077
+      },
+      "distribution": {
+        "supported": 0,
+        "partially-supported": 207,
+        "searched-no-evidence": 0,
+        "conflicted": 0,
+        "not-assessed": 2182926
+      },
+      "fossil": {
+        "supported": 0,
+        "partially-supported": 1,
+        "searched-no-evidence": 1,
+        "conflicted": 0,
+        "not-assessed": 2183131
+      },
+      "conservation": {
+        "supported": 0,
+        "partially-supported": 32,
+        "searched-no-evidence": 0,
+        "conflicted": 0,
+        "not-assessed": 2183101
+      }
+    },
+    "sourceOriginalTextRecords": 92944,
+    "sourceOriginalDistinctSpecies": 80838
+  },
+  "shards": [
+    {
+      "prefix": "0",
+      "path": "data/knowledge/species-evidence-queue/0.jsonl.br",
+      "recordCount": 135942,
+      "decodedBytes": 97432167,
+      "decodedSha256": "5dbdc5e3590dc6bc8cb18f852a4354325779c0cf431a52144106409ba0d7318e",
+      "compressedBytes": 4650975,
+      "compressedSha256": "b2fa2cf17720117578175509533e38f3b6f9b0b45497a55aee0a60dbeb747a53",
+      "encoding": "brotli-jsonl",
+      "brotliQuality": 8
+    },
+    {
+      "prefix": "1",
+      "path": "data/knowledge/species-evidence-queue/1.jsonl.br",
+      "recordCount": 136976,
+      "decodedBytes": 98161142,
+      "decodedSha256": "d7179040e5522dbd0cebf8497884c037ce95b8b181f4ec206be91dacf0581d6e",
+      "compressedBytes": 4678220,
+      "compressedSha256": "df1360dd0ca8e41837d5709b445a08ca17ce21142a51e8271a8d547d6c2179ed",
+      "encoding": "brotli-jsonl",
+      "brotliQuality": 8
+    },
+    {
+      "prefix": "2",
+      "path": "data/knowledge/species-evidence-queue/2.jsonl.br",
+      "recordCount": 136881,
+      "decodedBytes": 98094765,
+      "decodedSha256": "bb8c29137a72d371e1f216a561ebb2e2a33be0e61ebbedcbbff9aa1ffcb1b3a0",
+      "compressedBytes": 4676353,
+      "compressedSha256": "f9107e9c9928b302b286c5137d0f4f7ffeb3ea8a3444156568a97a81314ae331",
+      "encoding": "brotli-jsonl",
+      "brotliQuality": 8
+    },
+    {
+      "prefix": "3",
+      "path": "data/knowledge/species-evidence-queue/3.jsonl.br",
+      "recordCount": 136169,
+      "decodedBytes": 97588441,
+      "decodedSha256": "144656da5fce24d40b66081d1bec0321bb22eb4d78cc7dcc39e901eacd115737",
+      "compressedBytes": 4657022,
+      "compressedSha256": "3d87fb5ea69d847ade81ca911b1a729cc85b7e74b0a2410853d2b4fb5a6022c4",
+      "encoding": "brotli-jsonl",
+      "brotliQuality": 8
+    },
+    {
+      "prefix": "4",
+      "path": "data/knowledge/species-evidence-queue/4.jsonl.br",
+      "recordCount": 136426,
+      "decodedBytes": 97771305,
+      "decodedSha256": "e208e852e5528fbfc0b0c4608c2667006088e439856584cb4cf779f9fc87c2ba",
+      "compressedBytes": 4659982,
+      "compressedSha256": "9b2e3154a90a37a72228252745041ebc9b97f59a8eaca74aa4011199f8575018",
+      "encoding": "brotli-jsonl",
+      "brotliQuality": 8
+    },
+    {
+      "prefix": "5",
+      "path": "data/knowledge/species-evidence-queue/5.jsonl.br",
+      "recordCount": 136354,
+      "decodedBytes": 97710163,
+      "decodedSha256": "b929d28aa2076215b55cca1101487b5d53a13d4f1307e21ee8ea080d0018bebd",
+      "compressedBytes": 4658365,
+      "compressedSha256": "4eaa6c2f5b3cad2303ddd7fe2471df3bf6cf9661958c3022db62452ed748d370",
+      "encoding": "brotli-jsonl",
+      "brotliQuality": 8
+    },
+    {
+      "prefix": "6",
+      "path": "data/knowledge/species-evidence-queue/6.jsonl.br",
+      "recordCount": 136391,
+      "decodedBytes": 97752108,
+      "decodedSha256": "4cf22f248642f0aad86684fade9bee1b3d6aabec65ab9636a4cfb8aa5da43e2b",
+      "compressedBytes": 4664415,
+      "compressedSha256": "0efaa0cc9638b8538c3d87e296359cb8f1b72d26e639d03371d0d04b35959b73",
+      "encoding": "brotli-jsonl",
+      "brotliQuality": 8
+    },
+    {
+      "prefix": "7",
+      "path": "data/knowledge/species-evidence-queue/7.jsonl.br",
+      "recordCount": 136584,
+      "decodedBytes": 97887586,
+      "decodedSha256": "abde479603a7fdbe6e4e8bd1b5fb1c59fc5e84e3fe69ced6c297c376f2ad6f75",
+      "compressedBytes": 4668984,
+      "compressedSha256": "3453019f32024bfeee22a9c2f5b9c4da11f1a71b9ec476f76ebfc4111317c75f",
+      "encoding": "brotli-jsonl",
+      "brotliQuality": 8
+    },
+    {
+      "prefix": "8",
+      "path": "data/knowledge/species-evidence-queue/8.jsonl.br",
+      "recordCount": 136479,
+      "decodedBytes": 97802627,
+      "decodedSha256": "9151b36883ae7259dfb18a92be5a05433ef0b260c8ae6821d63341d50e86d95f",
+      "compressedBytes": 4661466,
+      "compressedSha256": "0809f6f5f63f59ae4af1d0062c86291a516647cf5040b40794a708ca689f13e0",
+      "encoding": "brotli-jsonl",
+      "brotliQuality": 8
+    },
+    {
+      "prefix": "9",
+      "path": "data/knowledge/species-evidence-queue/9.jsonl.br",
+      "recordCount": 136401,
+      "decodedBytes": 97752463,
+      "decodedSha256": "7f5d3ecee746cef2f4325bd268f190a5014b731897d977645e22bd7a12f54f28",
+      "compressedBytes": 4660531,
+      "compressedSha256": "d7f9ff87bc1081f65f11e8a29148778ccdf5f1119d072213d33c87d871676548",
+      "encoding": "brotli-jsonl",
+      "brotliQuality": 8
+    },
+    {
+      "prefix": "a",
+      "path": "data/knowledge/species-evidence-queue/a.jsonl.br",
+      "recordCount": 136281,
+      "decodedBytes": 97664308,
+      "decodedSha256": "aa1d60cd12231017e246e433c09d9103386ce5a15a7df3133dde2b38e9c8c27e",
+      "compressedBytes": 4656919,
+      "compressedSha256": "c7aea12f6ed27adaa72c3597d98b73cdf6097a79d6285427ed1b029676bd5867",
+      "encoding": "brotli-jsonl",
+      "brotliQuality": 8
+    },
+    {
+      "prefix": "b",
+      "path": "data/knowledge/species-evidence-queue/b.jsonl.br",
+      "recordCount": 135951,
+      "decodedBytes": 97434881,
+      "decodedSha256": "e68989573b83decf17659ec2bfa2b7d6edf0e4ba91139bcb1e9f7b481c2d00c4",
+      "compressedBytes": 4646022,
+      "compressedSha256": "871f294f8881e3f448288c5f41b07882798a83cc702cc7b3ea9d443988dfe68c",
+      "encoding": "brotli-jsonl",
+      "brotliQuality": 8
+    },
+    {
+      "prefix": "c",
+      "path": "data/knowledge/species-evidence-queue/c.jsonl.br",
+      "recordCount": 136532,
+      "decodedBytes": 97846009,
+      "decodedSha256": "fc58385144299538188523c7546d3988d14178a40a70e0ba7f6c7210fff2e886",
+      "compressedBytes": 4664069,
+      "compressedSha256": "a4f4d6fb323889493efaaf0a923a4cf05a6701725c7550760bde67eef82d2fc0",
+      "encoding": "brotli-jsonl",
+      "brotliQuality": 8
+    },
+    {
+      "prefix": "d",
+      "path": "data/knowledge/species-evidence-queue/d.jsonl.br",
+      "recordCount": 136588,
+      "decodedBytes": 97884779,
+      "decodedSha256": "9ab1d6dca9672101ac9e374cc94b0ca37c034c1c45d9090372f72870a963d2d8",
+      "compressedBytes": 4666053,
+      "compressedSha256": "d6522189bc472f6c2d73dfc8173a797763cc6d138517b325acea31294d09fc51",
+      "encoding": "brotli-jsonl",
+      "brotliQuality": 8
+    },
+    {
+      "prefix": "e",
+      "path": "data/knowledge/species-evidence-queue/e.jsonl.br",
+      "recordCount": 136267,
+      "decodedBytes": 97658120,
+      "decodedSha256": "9d6cd70fdcfda1d94f6219c22233ecb0b3f095db5bfead6bb19e7bf9b02b70ce",
+      "compressedBytes": 4655434,
+      "compressedSha256": "831daa56a00715e6f0bab7fedde399e76a79d00f10a5e14bfc1af89b0983bd54",
+      "encoding": "brotli-jsonl",
+      "brotliQuality": 8
+    },
+    {
+      "prefix": "f",
+      "path": "data/knowledge/species-evidence-queue/f.jsonl.br",
+      "recordCount": 136911,
+      "decodedBytes": 98114467,
+      "decodedSha256": "71f88c70d7356d9fed7cc233ecbf012cedc289369fa463c9e62fda9c737b13a9",
+      "compressedBytes": 4675532,
+      "compressedSha256": "31dfcda8ccd5817fa52fef2eb88b30fd4b8eba1265ba71cc5faec3faffb79d2a",
+      "encoding": "brotli-jsonl",
+      "brotliQuality": 8
+    }
+  ]
+}
