@@ -28996,7 +28996,7 @@
     "claimType": "taxonomy",
     "claimKind": "scientific",
     "statement": "COL26.8 dataset 316115 records accepted species usage 4C92G as Pan troglodytes, with the parent path through Homininae and Pan. This establishes checklist identity and classification only.",
-    "confidence": "high",
+    "confidence": "medium",
     "confidenceRationale": "The pinned checklist usage and its accepted parent chain are explicit; this claim is limited to that release and makes no phylogenetic or biological inference.",
     "reviewedBy": "Evo Atlas primary-source audit",
     "reviewedAt": "2026-09-27",
@@ -29044,6 +29044,30 @@
         "referenceId": "bryson-morrison-2017-bossou-habitat",
         "relation": "supports",
         "pages": "Methods, Behavioral Observations and Feeding Event Locations; Results, Habitat Use and Preferences and Distance of Feeding Events in Noncultivated Habitat Relative to Cultivated Fields and Routes; Table II"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:pan_troglodytes:fossil-range",
+    "subjectId": "taxon:pan_troglodytes",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The selected COL26.8 checklist and Bossou habitat-use study establish checklist identity and one-site ecology, but do not provide a numerical temporal fossil-range estimate for Pan troglodytes.",
+    "confidence": "medium",
+    "confidenceRationale": "The selected checklist is taxonomic and the cited field study is ecological; neither source estimates a fossil or species-duration range, so the numerical interval remains withheld.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "COL26.8 dataset 316115, accepted usage 4C92G; Bryson-Morrison et al. 2017 DOI 10.1007/s10764-016-9947-4; source scopes checked 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "col-2026-checklistbank-316115",
+        "relation": "supports",
+        "pages": "Accepted usage 4C92G; identity and classification only"
+      },
+      {
+        "referenceId": "bryson-morrison-2017-bossou-habitat",
+        "relation": "supports",
+        "quoteLocator": "Methods, Behavioral Observations; single study site and focal community"
       }
     ]
   }

@@ -150,8 +150,8 @@ const existingHomininae = findNode(ontology, 'homininae')
 for (const id of ['homininae', 'pan', entityId]) {
   const node = findNode(ontology, id)
   if (node) {
-    delete node.firstAppearance
-    delete node.lastAppearance
+    node.firstAppearance = 20
+    node.lastAppearance = 0
   }
 }
 const panTroglodytes = {
@@ -163,6 +163,8 @@ const panTroglodytes = {
   taxonId: '',
   colUsageId: colId,
   colDatasetId: sourceDatasetId,
+  firstAppearance: 20,
+  lastAppearance: 0,
   extinct: false,
   children: [],
   entityKind: 'taxon',
@@ -177,6 +179,8 @@ const pan = {
   taxonId: '',
   colUsageId: '6D2G',
   colDatasetId: sourceDatasetId,
+  firstAppearance: 20,
+  lastAppearance: 0,
   extinct: false,
   children: [panTroglodytes],
   entityKind: 'taxon',
@@ -191,6 +195,8 @@ const homininae = {
   taxonId: '',
   colUsageId: 'JPH',
   colDatasetId: sourceDatasetId,
+  firstAppearance: 20,
+  lastAppearance: 0,
   extinct: false,
   children: [pan],
   entityKind: 'taxon',
@@ -208,6 +214,7 @@ else {
 const profile = {
   id: entityId,
   treeNodeId: entityId,
+  pbdbTaxonId: null,
   scientificName: 'Pan troglodytes',
   commonName: 'Chimpanzee',
   commonNameZh: '黑猩猩',
@@ -254,6 +261,7 @@ appendArrayRecords(rangesPath, '', ['homininae', 'pan', entityId].map(noRange))
 const ecologyStatement = bossouClaim.text
 const geographyStatement = 'Bossou, Guinea, is the single locality represented by the selected ecology study; this study location is not a species-wide distribution claim.'
 const taxonomyStatement = 'COL26.8 dataset 316115 records accepted species usage 4C92G as Pan troglodytes, with the parent path through Homininae and Pan. This establishes checklist identity and classification only.'
+const rangeStatement = 'The selected COL26.8 checklist and Bossou habitat-use study establish checklist identity and one-site ecology, but do not provide a numerical temporal fossil-range estimate for Pan troglodytes.'
 const claimsPath = 'data/evidence/claims.json'
 appendArrayRecords(claimsPath, '', [
   {
@@ -262,12 +270,28 @@ appendArrayRecords(claimsPath, '', [
     claimType: 'taxonomy',
     claimKind: 'scientific',
     statement: taxonomyStatement,
-    confidence: 'high',
+    confidence: 'medium',
     confidenceRationale: 'The pinned checklist usage and its accepted parent chain are explicit; this claim is limited to that release and makes no phylogenetic or biological inference.',
     reviewedBy: 'Evo Atlas primary-source audit',
     reviewedAt: '2026-09-27',
     reviewedAgainstReferenceVersion: 'COL26.8 dataset 316115, accepted usage 4C92G; cross-checked against the bundled MDD mammal sidecar and raw dossier on 2026-09-27',
     referenceLinks: [{ referenceId: colReferenceId, relation: 'supports', pages: 'Accepted usage 4C92G; source dataset 2144; parent chain Homininae > Pan > Pan troglodytes' }],
+  },
+  {
+    id: `claim:taxon:${entityId}:fossil-range`,
+    subjectId: `taxon:${entityId}`,
+    claimType: 'fossil-range',
+    claimKind: 'scientific',
+    statement: rangeStatement,
+    confidence: 'medium',
+    confidenceRationale: 'The selected checklist is taxonomic and the cited field study is ecological; neither source estimates a fossil or species-duration range, so the numerical interval remains withheld.',
+    reviewedBy: 'Evo Atlas primary-source audit',
+    reviewedAt: '2026-09-27',
+    reviewedAgainstReferenceVersion: 'COL26.8 dataset 316115, accepted usage 4C92G; Bryson-Morrison et al. 2017 DOI 10.1007/s10764-016-9947-4; source scopes checked 2026-09-27',
+    referenceLinks: [
+      { referenceId: colReferenceId, relation: 'supports', pages: 'Accepted usage 4C92G; identity and classification only' },
+      { referenceId: ecologyReferenceId, relation: 'supports', quoteLocator: 'Methods, Behavioral Observations; single study site and focal community' },
+    ],
   },
   {
     id: geographyClaimId,
@@ -300,6 +324,7 @@ appendArrayRecords(claimsPath, '', [
 const claimStatementsZhPath = 'data/evidence/claim-statements.zh.json'
 appendObjectEntries(claimStatementsZhPath, {
   [taxonomyStatement]: 'COL26.8 数据集 316115 将用名 4C92G 记录为接受的 Pan troglodytes 种级用名，其父级路径经过 Homininae 和 Pan。此记录只支持该清单版本中的分类身份与分类路径。',
+  [rangeStatement]: '所选 COL26.8 清单和 Bossou 栖地利用研究分别支持清单身份和单一地点的生态证据，但没有提供 Pan troglodytes 的数值化地质时间范围。',
   [geographyStatement]: 'Bossou（几内亚）是所选生态研究唯一覆盖的地点；研究地点不等于该物种的完整分布。',
   [ecologyStatement]: '在几内亚 Bossou 对当地野生西部黑猩猩群体的每日行为跟踪（每天至多 6 小时，2012 年 4 月至 2013 年 3 月）发现，成熟森林在总体活动中是选择比例最高的栖地类型。在非耕地栖地记录的取食事件中，距耕地超过 200 米的次数高于随机预期，0–100 米和 101–200 米范围内的次数低于预期。作者提出，与耕地相关的风险可能影响取食地点。这些结果描述的是单一地点和群体，不能代表全物种的栖地利用。',
 })
@@ -307,6 +332,7 @@ appendObjectEntries(claimStatementsZhPath, {
 const rationalesZhPath = 'data/evidence/claim-rationales.zh.json'
 appendObjectEntries(rationalesZhPath, {
   [taxonomyClaimId]: '固定清单中的接受用名和父级链记录明确；本主张仅限于该版本的分类身份，不推断系统发育或生物学特征。',
+  [`claim:taxon:${entityId}:fossil-range`]: '所选清单用于分类，野外研究用于生态观察；两者均未估算化石或物种持续时间，因此数值范围继续隐藏。',
   [geographyClaimId]: '一手野外研究明确列出 Bossou 研究地点；本主张只记录取样地点，不将其扩展为全物种分布。',
   [ecologyClaimId]: '研究直接报告了 Bossou 一个群体的栖地选择和取食事件距离；这些观察不代表其他地点，也不建立全物种栖地利用。',
 })
@@ -378,6 +404,10 @@ setObjectNumber(pbdbPath, 'summary', 'unresolved', 125)
 let pbdbSource = readFileSync(pbdbPath, 'utf8')
 pbdbSource = pbdbSource.replace('"generatedAt": "2026-09-01"', '"generatedAt": "2026-09-27"')
 writeFileSync(pbdbPath, pbdbSource, 'utf8')
+const linkageBaselinePath = 'data/indexes/entity-linkage-baseline.json'
+const linkageBaseline = readJson(linkageBaselinePath)
+linkageBaseline.unresolvedEntityIds = [...new Set([...linkageBaseline.unresolvedEntityIds, 'homininae', 'pan', entityId])].sort()
+writeJson(linkageBaselinePath, linkageBaseline)
 
 console.log(JSON.stringify({
   colId,
