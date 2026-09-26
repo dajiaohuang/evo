@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "batchId": "octopus-vulgaris-evolution-b50-2026-09-26",
+  "checkedAt": "2026-09-26",
+  "releaseAlias": "COL26.8",
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "datasetDoi": "10.48580/dgywk",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "target": {
+    "colId": "48KQY",
+    "scientificName": "Octopus vulgaris Cuvier, 1797",
+    "rank": "species",
+    "sourceDatasetId": "1130"
+  },
+  "audit": {
+    "baseHead": "53a6cdfbf40406eca9c9ff8f7db68e8ca6a35f8e",
+    "indexedShardCount": 64,
+    "indexedRecordCount": 6970,
+    "targetRecordCount": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-species-evidence-batch36-2026-09-25.jsonl.br",
+    "rawPath": "data/knowledge/raw-dossiers/species-evidence-batch36-2026-09-25.jsonl",
+    "siblingColIds": ["5944Q", "699T3"],
+    "previousRawSha256": "e16b0497c55fea9a13327bdbcd1ba4f87b0bf73d19fee3ff93ed5eadf7a50023",
+    "previousShardCompressedSha256": "57d0563220f0c25fc34e7418d8739782484d42dca87d43a624bf19a0ab58aafe",
+    "previousTargetRecordSha256": "5b2621e56225b52fa17d3d8bb97b852ae4098442e5a90c7ff8683d46ad109c74",
+    "sourceOccurrencesBeforeUpdate": 0,
+    "openPullRequests": [413],
+    "openPullRequestSearch": {
+      "queries": ["48KQY", "10.1371/journal.pone.0149496"],
+      "checkedAt": "2026-09-26",
+      "returned": 0,
+      "unrelatedOpenPr": 413
+    }
+  },
+  "sources": [
+    {
+      "id": "deluca2016octopuspopulation",
+      "title": "Octopus vulgaris (Cuvier, 1797) in the Mediterranean Sea: Genetic Diversity and Population Structure",
+      "url": "https://doi.org/10.1371/journal.pone.0149496",
+      "stableId": "doi:10.1371/journal.pone.0149496",
+      "version": "PLOS ONE 11(2): e0149496; published 2016-02-16",
+      "publishedAt": "2016-02-16",
+      "accessedAt": "2026-09-26",
+      "locator": "Abstract; Materials and Methods > Sampling; Results > Genetic diversity and population structure; Discussion; Table 1 and Fig. 2.",
+      "license": "Creative Commons Attribution License (CC BY 4.0), stated in the article-level copyright notice.",
+      "licenseAssessment": "item-level-verified",
+      "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149496",
+      "rightsEvidenceLocator": "Article page, copyright notice directly following the abstract: © 2016 De Luca et al.; open access under the Creative Commons Attribution License linked to CC BY 4.0.",
+      "rightsHolder": "De Luca et al. (2016), under the article's Creative Commons Attribution License.",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseAppliesTo": "Article content covered by its license; separately credited third-party material remains governed by its credit line. This record paraphrases article text and reproduces no figures or tables.",
+      "attribution": "De Luca D, Catanese G, Procaccini G, Fiorito G (2016). Octopus vulgaris (Cuvier, 1797) in the Mediterranean Sea: Genetic Diversity and Population Structure. PLoS ONE 11(2):e0149496. https://doi.org/10.1371/journal.pone.0149496. CC BY 4.0. Claim paraphrased; no figures or tables reproduced.",
+      "scope": "Population-genetic study of 193 adult octopuses from seven Mediterranean localities and one nearby Atlantic locality, using 13 microsatellite loci and COI barcoding. Population differentiation applies to these sampled localities and markers, not to all populations or the debated O. vulgaris species complex."
+    }
+  ],
+  "claims": {
+    "evolution": {
+      "text": "In a study of 193 adult Octopus vulgaris collected by local fishers at seven Mediterranean localities and one nearby Atlantic locality, analysis of 13 microsatellite loci distinguished the Ria Formosa Atlantic sample and the Strait of Messina sample from the other sampled groups; the authors reported 23 private alleles in Ria Formosa versus 2–7 in each Mediterranean sample. This is population structure among these samples, not a species-wide phylogeny or a resolution of the debated O. vulgaris complex.",
+      "textZh": "一项研究分析了当地渔民在地中海七个地点及附近大西洋一个地点采集的 193 只成年普通章鱼。对 13 个微卫星位点的分析显示，葡萄牙里亚福尔摩萨的大西洋样本和墨西拿海峡样本与其他受采样群体有所区分；作者报告里亚福尔摩萨样本有 23 个私有等位基因，而各地中海样本为 2–7 个。该结果描述的是这些样本之间的种群结构，不是物种范围内的系统发育结论，也没有解决 O. vulgaris 复合群的分类争议。",
+      "sourceIds": ["deluca2016octopuspopulation"],
+      "locator": "Abstract; Materials and Methods > Sampling; Results > DNA Barcoding and Genetic diversity; Discussion; Table 1 and Fig. 2.",
+      "placeTimeScope": "Seven localities across the Mediterranean Sea and one nearby Atlantic locality (Ria Formosa, Portugal); the article gives the Spanish sample as collected during MEDITS_ES_2014 but does not report collection dates for all samples. Adults were caught near the coast by local fishers.",
+      "lifeStatus": "Wild-caught adult specimens were received as preserved or freshly dead material; no live animals were used in the study.",
+      "translationStatus": "translated",
+      "originalLanguage": "en"
+    }
+  },
+  "gaps": {
+    "evolution": [
+      "This marker and locality sample does not establish a range-wide species phylogeny, resolve the debated Octopus vulgaris complex, or infer the timing or cause of population differentiation."
+    ]
+  },
+  "appAndPagesPreviewManifestChanged": false
+}

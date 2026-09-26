@@ -40,10 +40,10 @@
     "rawPath": "data/knowledge/raw-dossiers/species-evidence-batch36-2026-09-25.jsonl",
     "encoding": "brotli-jsonl",
     "recordCount": 3,
-    "decodedBytes": 26843,
-    "decodedSha256": "e16b0497c55fea9a13327bdbcd1ba4f87b0bf73d19fee3ff93ed5eadf7a50023",
-    "compressedBytes": 5572,
-    "compressedSha256": "57d0563220f0c25fc34e7418d8739782484d42dca87d43a624bf19a0ab58aafe",
+    "decodedBytes": 30700,
+    "decodedSha256": "9105850d69cce7cbad25a399beabdef05b3624abf923f8f3827fcb354f803226",
+    "compressedBytes": 6638,
+    "compressedSha256": "cfaa34e2de1e064c9e1a61f545ca07e8f0c3297a93a7991a443aa08c07354650",
     "brotliParameters": {
       "mode": "text",
       "quality": 11
@@ -56,5 +56,24 @@
     "checklistBankDatasetKey": 316115,
     "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
   },
-  "generator": "scripts/build-species-evidence-batch36.mjs"
+  "generator": "scripts/build-species-evidence-batch36.mjs",
+  "supplementalUpdates": [
+    {
+      "batchId": "octopus-vulgaris-evolution-b50-2026-09-26",
+      "sourcePath": "data/sources/octopus-vulgaris-evolution-b50-2026-09-26.json",
+      "sourceSha256": "85a2224f3d66d08986f54da0dfc0e7e39b362c0071b798c7e8d9fd8928b3c111",
+      "generator": "scripts/update-octopus-vulgaris-evolution-b50.mjs",
+      "baseHead": "53a6cdfbf40406eca9c9ff8f7db68e8ca6a35f8e",
+      "indexedRecordCountAtAudit": 6970,
+      "targetColIds": [
+        "48KQY"
+      ],
+      "previousDecodedSha256": "e16b0497c55fea9a13327bdbcd1ba4f87b0bf73d19fee3ff93ed5eadf7a50023",
+      "previousCompressedSha256": "57d0563220f0c25fc34e7418d8739782484d42dca87d43a624bf19a0ab58aafe",
+      "previousTargetRecordSha256": "5b2621e56225b52fa17d3d8bb97b852ae4098442e5a90c7ff8683d46ad109c74",
+      "decodedSha256": "9105850d69cce7cbad25a399beabdef05b3624abf923f8f3827fcb354f803226",
+      "compressedSha256": "cfaa34e2de1e064c9e1a61f545ca07e8f0c3297a93a7991a443aa08c07354650",
+      "mode": "in-place-add-one-source-bounded-evolution-claim"
+    }
+  ]
 }
