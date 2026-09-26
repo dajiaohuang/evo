@@ -33,7 +33,7 @@ const taxonomyClaims = taxonomyNodes.map(node => {
     claimType: 'taxonomy',
     statement,
     confidence: 'medium',
-    confidenceRationale: "The pinned COL26.8 usage records establish this exact accepted checklist path. The claim describes the checklist's classification and does not assert that it is a universal or phylogenetic consensus.",
+    confidenceRationale: `Pinned COL26.8 usage ${node.colUsageId} directly establishes ${node.name} (${node.rank}) at this point in the accepted checklist path. This claim describes that dataset's classification and does not assert universal consensus or phylogenetic relationships.`,
     reviewedBy: 'Evo Atlas source audit',
     reviewedAt: '2026-09-26',
     reviewedAgainstReferenceVersion: reviewedAgainstCol,
@@ -106,7 +106,10 @@ const resolutions = resolutionSpecs.map(([entityId, localName, localRank, parent
   curatorReviewedAt: null, curatorReviewer: null, occurrenceCount: null, referenceNo: null, snapshotModifiedAt: null,
 }))
 const rationales = Object.fromEntries([
-  ...taxonomyClaims.map(claim => [claim.id, '固定版 COL26.8 直接给出这条已接受清单路径；该声明仅描述本数据集的分类，不推断普遍共识或系统发育关系。']),
+  ...taxonomyClaims.map((claim, index) => {
+    const node = taxonomyNodes[index]
+    return [claim.id, `固定版 COL26.8 用名 ${node.colUsageId} 直接支持 ${node.name}（${node.rank}）在该已接受清单路径中的位置；此声明只描述该数据集的分类，不推断普遍共识或系统发育关系。`]
+  }),
   [ecologyClaim.id, '论文直接报告了特定道路路段的局地计数与复查距离；该范围受地点和栖息环境限制，不能作为全物种种群估计或单独的因果检验。'],
 ])
 const translations = Object.fromEntries([
@@ -140,18 +143,42 @@ function findArrayClose(text, key) {
   throw new Error(`Missing array closer ${key ?? '<root>'}`)
 }
 
-function appendArrayRecords(path, records, key, identity) {
-  const original = readFileSync(path, 'utf8')
+function appendArrayRecords(path, records, key, identity, mutableFields = []) {
+  let original = readFileSync(path, 'utf8')
   const parsed = JSON.parse(original)
   const items = key ? parsed[key] : parsed
   if (!Array.isArray(items)) throw new Error(`${path} does not contain the expected array`)
   const existing = new Map(items.map(item => [identity(item), item]))
   const missing = records.filter(item => !existing.has(identity(item)))
+  const updates = []
   for (const item of records) {
     const current = existing.get(identity(item))
-    if (current && JSON.stringify(current) !== JSON.stringify(item)) throw new Error(`Conflicting existing ${identity(item)} in ${path}`)
+    if (!current) continue
+    const stableCurrent = Object.fromEntries(Object.entries(current).filter(([field]) => !mutableFields.includes(field)))
+    const stableIncoming = Object.fromEntries(Object.entries(item).filter(([field]) => !mutableFields.includes(field)))
+    if (JSON.stringify(stableCurrent) !== JSON.stringify(stableIncoming)) throw new Error(`Conflicting existing ${identity(item)} in ${path}`)
+    if (mutableFields.some(field => current[field] !== item[field])) updates.push({ id: identity(item), current, item })
   }
-  if (!missing.length) return
+  for (const { id, current, item } of updates) {
+    const marker = `"id": ${JSON.stringify(id)}`
+    const markerAt = original.indexOf(marker)
+    if (markerAt < 0) throw new Error(`Cannot locate existing ${id} in ${path}`)
+    const start = original.lastIndexOf('\n  {', markerAt)
+    const end = original.indexOf('\n  }', markerAt)
+    if (start < 0 || end < 0) throw new Error(`Cannot locate record bounds for ${id} in ${path}`)
+    let record = original.slice(start, end)
+    for (const field of mutableFields) {
+      if (current[field] === item[field]) continue
+      const before = `${JSON.stringify(field)}: ${JSON.stringify(current[field])}`
+      if (!record.includes(before)) throw new Error(`Cannot locate ${field} for ${id} in ${path}`)
+      record = record.replace(before, `${JSON.stringify(field)}: ${JSON.stringify(item[field])}`)
+    }
+    original = `${original.slice(0, start)}${record}${original.slice(end)}`
+  }
+  if (!missing.length) {
+    if (updates.length) writeFileSync(path, original, 'utf8')
+    return
+  }
   const close = findArrayClose(original, key)
   const lineStart = original.lastIndexOf('\n', close) + 1
   const closeIndent = original.slice(lineStart, close)
@@ -165,16 +192,25 @@ function appendArrayRecords(path, records, key, identity) {
   writeFileSync(path, text, 'utf8')
 }
 
-function upsertObjectFields(path, entries) {
-  const original = readFileSync(path, 'utf8')
+function upsertObjectFields(path, entries, replaceableExistingValues = []) {
+  let original = readFileSync(path, 'utf8')
   const parsed = JSON.parse(original)
   const missing = []
+  let changed = false
   for (const [key, value] of Object.entries(entries)) {
     if (Object.hasOwn(parsed, key)) {
-      if (parsed[key] !== value) throw new Error(`Conflicting translation or rationale key ${key} in ${path}`)
+      if (parsed[key] === value) continue
+      if (!replaceableExistingValues.includes(parsed[key])) throw new Error(`Conflicting translation or rationale key ${key} in ${path}`)
+      const before = `${JSON.stringify(key)}: ${JSON.stringify(parsed[key])}`
+      if (!original.includes(before)) throw new Error(`Cannot locate existing field ${key} in ${path}`)
+      original = original.replace(before, `${JSON.stringify(key)}: ${JSON.stringify(value)}`)
+      changed = true
     } else missing.push([key, value])
   }
-  if (!missing.length) return
+  if (!missing.length) {
+    if (changed) writeFileSync(path, original, 'utf8')
+    return
+  }
   const close = original.lastIndexOf('}')
   const lineStart = original.lastIndexOf('\n', close) + 1
   const closeIndent = original.slice(lineStart, close)
@@ -186,12 +222,75 @@ function upsertObjectFields(path, entries) {
   writeFileSync(path, text, 'utf8')
 }
 
-appendArrayRecords('data/evidence/claims.json', [...taxonomyClaims, ecologyClaim], null, item => item.id)
+function updateNestedObjectFields(path, objectKey, entries) {
+  let original = readFileSync(path, 'utf8')
+  const parsed = JSON.parse(original)
+  const values = parsed[objectKey]
+  if (!values || typeof values !== 'object' || Array.isArray(values)) throw new Error(`${path} is missing object ${objectKey}`)
+  const objectMarker = `${JSON.stringify(objectKey)}:`
+  const objectKeyAt = original.indexOf(objectMarker)
+  const open = original.indexOf('{', objectKeyAt + objectMarker.length)
+  let depth = 0
+  let quoted = false
+  let escaped = false
+  let close = -1
+  for (let index = open; index < original.length; index++) {
+    const char = original[index]
+    if (quoted) {
+      if (escaped) escaped = false
+      else if (char === '\\') escaped = true
+      else if (char === '"') quoted = false
+      continue
+    }
+    if (char === '"') quoted = true
+    else if (char === '{') depth++
+    else if (char === '}' && --depth === 0) { close = index; break }
+  }
+  if (close < 0) throw new Error(`Cannot locate object ${objectKey} in ${path}`)
+  let section = original.slice(open, close + 1)
+  for (const [key, value] of Object.entries(entries)) {
+    if (values[key] === value) continue
+    const before = `${JSON.stringify(key)}: ${JSON.stringify(values[key])}`
+    if (!section.includes(before)) throw new Error(`Cannot locate ${objectKey}.${key} in ${path}`)
+    section = section.replace(before, `${JSON.stringify(key)}: ${JSON.stringify(value)}`)
+  }
+  original = `${original.slice(0, open)}${section}${original.slice(close + 1)}`
+  writeFileSync(path, original, 'utf8')
+}
+
+function upsertSortedArray(path, key, values) {
+  const original = readFileSync(path, 'utf8')
+  const parsed = JSON.parse(original)
+  if (!Array.isArray(parsed[key])) throw new Error(`${path} is missing array ${key}`)
+  const merged = [...new Set([...parsed[key], ...values])].sort()
+  if (JSON.stringify(merged) === JSON.stringify(parsed[key])) return
+  const close = findArrayClose(original, key)
+  const keyAt = original.indexOf(JSON.stringify(key))
+  const open = original.indexOf('[', keyAt)
+  const closeLineStart = original.lastIndexOf('\n', close) + 1
+  const closeIndent = original.slice(closeLineStart, close)
+  const itemIndent = `${closeIndent}  `
+  const newline = original.includes('\r\n') ? '\r\n' : '\n'
+  const body = merged.map(item => `${itemIndent}${JSON.stringify(item)}`).join(`,${newline}`)
+  const text = `${original.slice(0, open + 1)}${newline}${body}${newline}${closeIndent}${original.slice(close)}`
+  JSON.parse(text)
+  writeFileSync(path, text, 'utf8')
+}
+
+appendArrayRecords('data/evidence/claims.json', [...taxonomyClaims, ecologyClaim], null, item => item.id, ['confidenceRationale'])
 appendArrayRecords('data/references.json', references, null, item => item.id)
 appendArrayRecords('data/ranges/range-evidence.json', ranges, null, item => item.id)
 appendArrayRecords('data/sources/pbdb-taxon-resolution.json', resolutions, 'resolutions', item => item.entityId)
 upsertObjectFields('data/evidence/claim-statements.zh.json', translations)
-upsertObjectFields('data/evidence/claim-rationales.zh.json', rationales)
+upsertObjectFields('data/evidence/claim-rationales.zh.json', rationales, ['固定版 COL26.8 直接给出这条已接受清单路径；该声明仅描述本数据集的分类，不推断普遍共识或系统发育关系。'])
+updateNestedObjectFields('data/sources/pbdb-taxon-resolution.json', 'summary', {
+  ontologyNodes: JSON.parse(readFileSync('data/sources/pbdb-taxon-resolution.json', 'utf8')).resolutions.length,
+  unresolved: JSON.parse(readFileSync('data/sources/pbdb-taxon-resolution.json', 'utf8')).resolutions.filter(item => item.resolutionStatus !== 'resolved').length,
+  resolved: JSON.parse(readFileSync('data/sources/pbdb-taxon-resolution.json', 'utf8')).resolutions.filter(item => item.resolutionStatus === 'resolved').length,
+  needsConceptReview: JSON.parse(readFileSync('data/sources/pbdb-taxon-resolution.json', 'utf8')).resolutions.filter(item => item.conceptReviewStatus === 'needs-concept-review').length,
+  humanCuratorDecisions: JSON.parse(readFileSync('data/sources/pbdb-taxon-resolution.json', 'utf8')).resolutions.filter(item => item.humanCuratorDecision).length,
+})
+upsertSortedArray('data/indexes/entity-linkage-baseline.json', 'unresolvedEntityIds', resolutions.map(item => item.entityId))
 
 appendArrayRecords('data/pages-preview.json', rangeEntities.map(([entityId]) => entityId), 'taxonIds', id => id)
 console.log(JSON.stringify({ taxonomyClaims: taxonomyClaims.length, ecologyClaims: 1, ranges: ranges.length, withheldPbdbMappings: resolutions.length }, null, 2))
