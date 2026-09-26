@@ -1,0 +1,86 @@
+{
+  "batchId": "primates-papio-anubis-miscarriage-batch45-2026-09-26",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-26",
+  "appAndPagesPreviewManifestChanged": false,
+  "target": {
+    "colId": "6TM9B",
+    "scientificName": "Papio anubis (Lesson, 1827)",
+    "rank": "species",
+    "sourceDatasetId": "2144"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "audit": {
+    "baseHead": "c9dd62be118a28c8d4cd67dba575213baef87940",
+    "indexedRecordCount": 6969,
+    "targetRecordCount": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+    "previousRawSha256": "c71e55e1d273f95d83c40823a9ce76262e771af2641ee462dfc37f9b51739864",
+    "previousShardDecodedSha256": "c71e55e1d273f95d83c40823a9ce76262e771af2641ee462dfc37f9b51739864",
+    "previousShardCompressedSha256": "baa4f8f1ae2d95228192dd0b294f8b55fc62315e3c616ebd27343e7e5fcc9fac",
+    "previousTargetRecordSha256": "8677b4092c1f9f66e2a56c99458a8ae6169e0cccdf4c827c0337dba99f696902",
+    "siblingColIds": ["3WWNQ", "3WWP6"],
+    "sourceOccurrenceCountBeforeUpdate": 0,
+    "openPullRequestSearch": {
+      "queries": ["6TM9B", "10.1038/s41598-021-83175-3"],
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "bailey2021",
+      "title": "Bailey, Eberly & Packer (2021), Contrasting effects of male immigration and rainfall on rank-related patterns of miscarriage in female olive baboons",
+      "url": "https://doi.org/10.1038/s41598-021-83175-3",
+      "rightsEvidenceUrl": "https://www.nature.com/articles/s41598-021-83175-3",
+      "rightsEvidenceLocator": "Article Rights and permissions statement identifies the work as Open Access under Creative Commons Attribution 4.0 International; separately credited third-party material may be excluded.",
+      "version": "Scientific Reports 11:4042; version of record published 2021-02-17",
+      "stableId": "doi:10.1038/s41598-021-83175-3",
+      "publishedAt": "2021-02-17",
+      "accessedAt": "2026-09-26",
+      "locator": "Abstract; Results—rank, rainfall, and miscarriage interaction; Methods—Study area and population, Miscarriage data, Miscarriage and infanticide analyses, and Wounding analysis; Discussion—limitations on interpreting male targeting.",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the article Rights and permissions section.",
+      "licenseAssessment": "item-level-verified",
+      "scope": "Primary observational study of wild olive baboons in Gombe National Park, Tanzania. Reproductive and miscarriage records span 1972–2002; the known-rank analysis included 732 pregnancies from 175 females, with 65 miscarriages. Claims are paraphrased; no article prose, figure, table, or dataset is reproduced.",
+      "rightsHolder": "The article authors, under the article's CC BY 4.0 license statement.",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseAppliesTo": "Article text under the stated CC BY 4.0 license; separately credited third-party material is excluded.",
+      "attribution": "Bailey A, Eberly LE, Packer C (2021). Contrasting effects of male immigration and rainfall on rank-related patterns of miscarriage in female olive baboons. Scientific Reports 11:4042. https://doi.org/10.1038/s41598-021-83175-3. Claims are paraphrased."
+    }
+  ],
+  "claims": {
+    "lifeHistory": {
+      "text": "In the Gombe National Park population of Tanzania, birth and miscarriage records from 1972–2002 included 732 pregnancies from 175 females with known rank; 65 pregnancies ended in miscarriage. In a time-dependent analysis, higher-ranking pregnant females exposed to immigrant males that reached top rank within one year had higher miscarriage hazards outside drought conditions. The rank-related pattern largely disappeared when mean rainfall over two years was below about 1,100 mm; exposure to new immigrants generally did not show the same association. This is a conditional result from one wild population, not a species-wide miscarriage rate or proof of deliberate male-caused pregnancy loss.",
+      "textZh": "在坦桑尼亚贡贝国家公园的种群中，1972—2002 年的出生与流产记录纳入 175 只已知等级雌性的 732 次妊娠，其中 65 次以流产告终。时变分析显示，在非干旱条件下，接触到移入后一年内升至群体最高等级雄性的高等级孕雌，其流产风险较高；两年平均降雨量低于约 1,100 毫米时，这种等级相关模式基本消失。一般移入雄性的接触并未显示相同关联。这是单一野生种群中的条件性结果，不代表全物种流产率，也不能证明雄性有意造成妊娠损失。",
+      "sourceIds": ["bailey2021"],
+      "locator": "Abstract; Results—three-way interaction and rainfall threshold; Methods—Miscarriage data and Fetal exposure to immigrant males.",
+      "placeTimeScope": "Gombe National Park, Tanzania; reproductive and miscarriage records from 1972–2002. Rainfall context uses two-year means; article published 2021-02-17.",
+      "lifeStatus": "Wild olive baboons in the Gombe study population; not captive animals or a range-wide sample.",
+      "translationStatus": "translated",
+      "originalLanguage": "en"
+    },
+    "ecology": {
+      "text": "In the Gombe study, pregnancies involving at least one visible wound had a higher modeled miscarriage hazard than pregnancies without a wound (hazard ratio 2.83, 95% CI 1.40–5.72). Pregnant females were wounded more often than expected after the arrival of a male who reached top rank within one year (24.7% observed versus 8.6% expected in the analysis of 768 pregnancies). The authors state that further observations are needed to establish selective targeting; these observational associations do not establish intent or causation.",
+      "textZh": "在贡贝研究中，至少出现一次可见伤口的妊娠，其模型估计的流产风险高于未受伤妊娠（风险比 2.83，95% 置信区间 1.40–5.72）。在针对 768 次妊娠的分析中，迅速升至群体最高等级的雄性移入后，孕雌受伤比例高于预期（观察值 24.7%，预期值 8.6%）。作者指出仍需更多观察才能确认是否存在选择性攻击；这些观察性关联不能证明行为意图或因果关系。",
+      "sourceIds": ["bailey2021"],
+      "locator": "Results—Wounding; Figure 2; Methods—Wounding analysis; Discussion—paragraph noting that further observational evidence is needed.",
+      "placeTimeScope": "Gombe National Park, Tanzania; pregnancy and wounding records analyzed from the long-term study, including the 1972–2002 miscarriage dataset; article published 2021-02-17.",
+      "lifeStatus": "Wild olive baboons; site-specific observational evidence, not a species-wide behavioral account.",
+      "translationStatus": "translated",
+      "originalLanguage": "en"
+    }
+  },
+  "gaps": {
+    "lifeHistory": [
+      "The captive CNRS morphometric cohort does not establish wild growth trajectories. The Gombe analysis concerns reproductive loss at one wild population; reproductive schedules, fertility rates, survival, and longevity across other populations remain unassessed."
+    ],
+    "ecology": [
+      "The Lake Manyara density study and Gombe social study cover two site-specific populations; neither establishes species-wide abundance, range-wide ecology, population variation, or a global population trend. The reported observational associations do not establish causal mechanisms."
+    ]
+  }
+}
