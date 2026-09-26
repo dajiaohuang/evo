@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-gorilla-gorilla-morphology-batch48-2026-09-26",
+  "checkedAt": "2026-09-26",
+  "releaseAlias": "COL26.8",
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "datasetDoi": "10.48580/dgywk",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "target": {
+    "colId": "3H3C9",
+    "scientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+    "rank": "species",
+    "sourceDatasetId": "2144"
+  },
+  "audit": {
+    "baseHead": "5270bd60e2ccf9ff38262193e92ae28baff414aa",
+    "indexedRecordCount": 6969,
+    "targetRecordCount": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "siblingColIds": ["4C92G", "4LTSY"],
+    "previousRawSha256": "cc6238998f3b861d4c96bcde6ca61d58432fef07de1595170fbdae2c1670fbc1",
+    "previousShardDecodedSha256": "cc6238998f3b861d4c96bcde6ca61d58432fef07de1595170fbdae2c1670fbc1",
+    "previousShardCompressedSha256": "132c57e22d0aba3c8a0b76fdf7b0956e15636423e16c353fae1115fe3ccad7b7",
+    "previousTargetRecordSha256": "1fdd31de72124bb125c933d4dc49546732c99ec81d8660dbc045cac4d1a062c9",
+    "sourceOccurrencesBeforeUpdate": 0,
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "queries": ["3H3C9", "10.1098/rspb.2021.2564"],
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "mcgrath2022facialasymmetry",
+      "title": "McGrath et al. (2022), Facial asymmetry tracks genetic diversity among Gorilla subspecies",
+      "url": "https://doi.org/10.1098/rspb.2021.2564",
+      "stableId": "doi:10.1098/rspb.2021.2564",
+      "version": "Publisher version; Proceedings of the Royal Society B: Biological Sciences 289(1969), article 20212564; published 2022-02-23",
+      "publishedAt": "2022-02-23",
+      "accessedAt": "2026-09-26",
+      "locator": "Abstract; the comparative analysis covers 114 crania from three Gorilla subspecies and reports fluctuating facial asymmetry as a proportion of total facial-shape variation for the western lowland sample.",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), identified in the UCL Discovery record for the publisher article.",
+      "licenseAssessment": "item-level-verified",
+      "rightsEvidenceUrl": "https://discovery.ucl.ac.uk/id/eprint/10145514/",
+      "rightsEvidenceLocator": "UCL Discovery item record, Additional information: © 2022 The Authors; published by the Royal Society under the Creative Commons Attribution License, with the CC BY 4.0 URL.",
+      "rightsHolder": "McGrath et al. (2022)",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseAppliesTo": "Article text. The dossier paraphrases the abstract and reproduces no figures, tables, or supplementary data.",
+      "attribution": "McGrath K, Eriksen AB, Garcia-Martinez D, Galbany J, Gomez-Robles A, et al. (2022). Facial asymmetry tracks genetic diversity among Gorilla subspecies. Proceedings of the Royal Society B: Biological Sciences 289(1969):20212564. https://doi.org/10.1098/rspb.2021.2564. CC BY 4.0. Claim paraphrased; no figures, tables, or supplementary data are reproduced.",
+      "scope": "Comparative 3D geometric-morphometric study of adult crania from three Gorilla subspecies. The target result is specific to the western lowland gorilla sample within the accepted species Gorilla gorilla; it is not a species-wide estimate. Precise specimen provenance and original wild/captive status are not documented for every target-sample skull."
+    }
+  ],
+  "claims": {
+    "morphology": {
+      "text": "In a 3D geometric-morphometric comparison of 114 crania from three Gorilla subspecies, facial fluctuating asymmetry (random departure from bilateral symmetry) explained 6% of total facial-shape variation in the western lowland gorilla sample. This is a comparative archival-skull result, not a species-wide estimate or a description of other anatomical regions.",
+      "textZh": "在一项对 3 个大猩猩亚种的 114 个头骨进行的 3D 几何形态测量比较中，西部低地大猩猩样本的面部波动不对称（偏离左右对称的随机变异）解释了总面部形状变异的 6%。这是馆藏头骨比较结果，不是全物种估计，也不描述其他解剖部位。",
+      "sourceIds": ["mcgrath2022facialasymmetry"],
+      "locator": "Abstract: comparative study sample, definition of fluctuating asymmetry and reported percentage of total facial-shape variation for the western lowland gorilla sample.",
+      "placeTimeScope": "Comparative archival study of 114 adult crania from three Gorilla subspecies. The claim concerns the western lowland gorilla sample; specimen-level collection localities are not available for every skull in this claim.",
+      "lifeStatus": "Archival crania. Original wild or captive status is not documented specimen by specimen for the target sample; no life-status category is inferred.",
+      "translationStatus": "translated",
+      "originalLanguage": "en"
+    }
+  },
+  "gaps": {
+    "morphology": [
+      "Evidence covers facial fluctuating asymmetry in one archival western-lowland cranial sample only; other cranial and postcranial anatomy, developmental and sex-related variation, population variation, and specimen-level provenance remain unassessed."
+    ]
+  },
+  "appAndPagesPreviewManifestChanged": false
+}
