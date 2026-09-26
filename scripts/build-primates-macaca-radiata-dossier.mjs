@@ -24,6 +24,7 @@ assert.equal(source.checklistBankDatasetKey, 316115)
 assert.equal(source.records.length, 1)
 const dossier = source.records[0]
 assert.equal(dossier.colId, '3WWP2')
+assert.equal(dossier.checkedAt, source.checkedAt)
 assert.equal(dossier.scientificName, 'Macaca radiata (É. Geoffroy Saint-Hilaire, 1812)')
 assert.equal(dossier.sourceDatasetId, '2144')
 assert.equal(dossier.rank, 'species')
@@ -74,62 +75,71 @@ const decodedBytes = brotliDecompressSync(compressedBytes)
 assert.deepEqual(decodedBytes, rawBytes, 'Brotli round-trip must preserve exact dossier JSONL bytes')
 assert.ok(!rawBytes.includes(0x0d), 'Dossier JSONL must use LF only')
 
+let updateMode
 if (existingShard) {
   assert.equal(matchingIds.length, 1, 'Existing target shard must be the only dossier with this COL ID')
   assert.equal(matchingNames.length, 1, 'Existing target shard must be the only dossier with this normalized name')
   const currentCompressed = readFileSync(resolve(root, shardRelativePath))
   const currentDecoded = brotliDecompressSync(currentCompressed)
-  assert.deepEqual(currentDecoded, rawBytes, 'Existing target shard differs from its curated source')
   assert.equal(sha256(currentCompressed), existingShard.compressedSha256)
   assert.equal(sha256(currentDecoded), existingShard.decodedSha256)
-  console.log(JSON.stringify({ alreadyIndexed: true, colId: dossier.colId, path: shardRelativePath }, null, 2))
+  const currentLines = currentDecoded.toString('utf8').split(/\r?\n/u).filter(Boolean)
+  assert.equal(currentLines.length, 1, 'The target shard must contain only this curated species record')
+  const priorRecord = JSON.parse(currentLines[0])
+  assert.equal(priorRecord.colId, dossier.colId)
+  assert.equal(priorRecord.scientificName, dossier.scientificName)
+  const currentRaw = readFileSync(resolve(root, rawRelativePath))
+  assert.deepEqual(currentRaw, currentDecoded, 'Existing raw dossier and indexed shard must match before update')
+  existingShard.decodedSha256 = sha256(decodedBytes)
+  existingShard.compressedSha256 = sha256(compressedBytes)
+  updateMode = currentDecoded.equals(rawBytes) ? 'already-current' : 'refresh-one-existing-record-shard'
 } else {
   assert.equal(matchingIds.length, 0, `COL ID ${dossier.colId} already exists in the dossier index`)
   assert.equal(matchingNames.length, 0, `Scientific name ${dossier.scientificName} already exists in the dossier index`)
-  const beforeCount = index.recordCount
-  const shardEntry = {
+  index.shards.push({
     path: shardRelativePath,
     recordCount: 1,
     decodedSha256: sha256(decodedBytes),
     compressedSha256: sha256(compressedBytes),
-  }
-  index.shards.push(shardEntry)
+  })
   index.recordCount += 1
-  const manifest = {
-    schemaVersion: 1,
-    shardType: 'independent-col26.8-species-dossiers',
-    batchId: source.batchId,
-    releaseAlias: source.releaseAlias,
-    datasetKey: source.checklistBankDatasetKey,
-    datasetDoi: source.checklistBankDoi,
-    recordCount: 1,
-    ids: [dossier.colId],
-    path: shardRelativePath,
-    rawPath: rawRelativePath,
-    rawSha256: sha256(rawBytes),
-    decodedSha256: sha256(decodedBytes),
-    compressedSha256: sha256(compressedBytes),
-    decodedBytes: decodedBytes.length,
-    compressedBytes: compressedBytes.length,
-    checkedAt: source.checkedAt,
-    generationSource: sourceRelativePath,
-    generationSourceSha256: sha256(sourceBytes),
-    registryManifestSha256: sha256(readFileSync(resolve(registryRoot, 'manifest.json'))),
-    duplicateCheck: {
-      mode: 'new-record',
-      indexedRecordCountBefore: beforeCount,
-      existingColIdCount: matchingIds.length,
-      existingNormalizedNameCount: matchingNames.length,
-      colId: dossier.colId,
-      scientificName: dossier.scientificName,
-    },
-    updateMode: 'append-one-independent-species-record-shard',
-  }
-  mkdirSync(resolve(root, 'data/knowledge/raw-dossiers'), { recursive: true })
-  writeFileSync(resolve(root, rawRelativePath), rawBytes)
-  writeFileSync(resolve(root, shardRelativePath), compressedBytes)
-  writeFileSync(indexPath, `${JSON.stringify(index, null, 2)}\n`, 'utf8')
-  writeFileSync(resolve(root, manifestRelativePath), `${JSON.stringify(manifest, null, 2)}\n`, 'utf8')
-  if (!existsSync(resolve(root, shardRelativePath))) throw new Error('Generated dossier shard was not written')
-  console.log(JSON.stringify({ ...manifest, roundTrip: decodedBytes.equals(rawBytes), indexedShardCount: index.recordCount }, null, 2))
+  updateMode = 'append-one-independent-species-record-shard'
 }
+
+const manifest = {
+  schemaVersion: 1,
+  shardType: 'independent-col26.8-species-dossiers',
+  batchId: source.batchId,
+  releaseAlias: source.releaseAlias,
+  datasetKey: source.checklistBankDatasetKey,
+  datasetDoi: source.checklistBankDoi,
+  recordCount: 1,
+  ids: [dossier.colId],
+  path: shardRelativePath,
+  rawPath: rawRelativePath,
+  rawSha256: sha256(rawBytes),
+  decodedSha256: sha256(decodedBytes),
+  compressedSha256: sha256(compressedBytes),
+  decodedBytes: decodedBytes.length,
+  compressedBytes: compressedBytes.length,
+  checkedAt: source.checkedAt,
+  generationSource: sourceRelativePath,
+  generationSourceSha256: sha256(sourceBytes),
+  registryManifestSha256: sha256(readFileSync(resolve(registryRoot, 'manifest.json'))),
+  duplicateCheck: {
+    mode: existingShard ? 'in-place-update' : 'new-record',
+    indexedRecordCount: index.recordCount,
+    existingColIdCount: matchingIds.length,
+    existingNormalizedNameCount: matchingNames.length,
+    colId: dossier.colId,
+    scientificName: dossier.scientificName,
+  },
+  updateMode,
+}
+mkdirSync(resolve(root, 'data/knowledge/raw-dossiers'), { recursive: true })
+writeFileSync(resolve(root, rawRelativePath), rawBytes)
+writeFileSync(resolve(root, shardRelativePath), compressedBytes)
+writeFileSync(indexPath, `${JSON.stringify(index, null, 2)}\n`, 'utf8')
+writeFileSync(resolve(root, manifestRelativePath), `${JSON.stringify(manifest, null, 2)}\n`, 'utf8')
+if (!existsSync(resolve(root, shardRelativePath))) throw new Error('Generated dossier shard was not written')
+console.log(JSON.stringify({ ...manifest, roundTrip: decodedBytes.equals(rawBytes), indexedShardCount: index.recordCount }, null, 2))
