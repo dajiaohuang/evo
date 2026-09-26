@@ -61,8 +61,14 @@ const profiles = profileSources.map((source) => {
   const ranges = rangesByEntityId.get(profile.treeNodeId) ?? []
   const globalRange = ranges.find((range) => range.rangeKind === 'global-composite')
   if (!globalRange) throw new Error(`Profile ${profile.id} has no canonical global range`)
-  profile.firstAppearance = globalRange.olderMa
-  profile.lastAppearance = globalRange.youngerMa
+  const hasFossilRangeClaim = claims.some((claim) => claim.subjectId === `taxon:${profile.id}` && claim.claimType === 'fossil-range')
+  if (globalRange.evidenceLevel === 'withheld-no-range-evidence' && !hasFossilRangeClaim) {
+    delete profile.firstAppearance
+    delete profile.lastAppearance
+  } else {
+    profile.firstAppearance = globalRange.olderMa
+    profile.lastAppearance = globalRange.youngerMa
+  }
   profile.rangeEvidenceLevel = globalRange.evidenceLevel
   profile.rangeReviewStatus = globalRange.reviewStatus
   profile.rangeProvisional = globalRange.evidenceLevel !== 'expert-reviewed'
@@ -882,7 +888,8 @@ for (const definition of packageDefinitions) {
       profileId: profile.id,
       fields: (() => {
         const fieldNames = [
-          'firstAppearance', 'lastAppearance', 'geography', 'overview', 'evidenceSummary', 'confidence',
+          ...(profile.firstAppearance === undefined || profile.lastAppearance === undefined ? [] : ['firstAppearance', 'lastAppearance']),
+          'geography', 'overview', 'evidenceSummary', 'confidence',
           ...Object.keys(profile.ecology).map((key) => `ecology.${key}`),
           ...profile.traits.map((_, index) => `traits[${index}]`),
           ...(profile.regionalRanges ?? []).map((_, index) => `regionalRanges[${index}]`),

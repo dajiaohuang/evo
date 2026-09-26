@@ -224,7 +224,8 @@ function packageFailures() {
         for (const link of links) {
           const profile = profiles.find((candidate) => candidate.id === link.profileId)
           const expectedFields = profile ? [
-            'firstAppearance', 'lastAppearance', 'geography', 'overview', 'evidenceSummary', 'confidence',
+            ...(profile.firstAppearance === undefined || profile.lastAppearance === undefined ? [] : ['firstAppearance', 'lastAppearance']),
+            'geography', 'overview', 'evidenceSummary', 'confidence',
             ...Object.keys(profile.ecology).map((key) => `ecology.${key}`),
             ...profile.traits.map((_, index) => `traits[${index}]`),
             ...(profile.regionalRanges ?? []).map((_, index) => `regionalRanges[${index}]`),
