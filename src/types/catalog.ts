@@ -56,6 +56,7 @@ export interface TaxonProfile {
     guild: string
   }
   traits: string[]
+  traitsAssessmentStatus?: 'assessed' | 'not-assessed'
   evidenceSummary: string
   confidence: ConfidenceLevel
   referenceIds: string[]

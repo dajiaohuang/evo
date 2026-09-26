@@ -882,7 +882,8 @@ for (const definition of packageDefinitions) {
       profileId: profile.id,
       fields: (() => {
         const fieldNames = [
-          'firstAppearance', 'lastAppearance', 'geography', 'overview', 'evidenceSummary', 'confidence',
+          'firstAppearance', 'lastAppearance',
+          'geography', 'overview', 'evidenceSummary', 'confidence',
           ...Object.keys(profile.ecology).map((key) => `ecology.${key}`),
           ...profile.traits.map((_, index) => `traits[${index}]`),
           ...(profile.regionalRanges ?? []).map((_, index) => `regionalRanges[${index}]`),

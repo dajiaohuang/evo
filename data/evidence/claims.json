@@ -28989,5 +28989,124 @@
         "quoteLocator": "Methods §2.6 Roadside survey; Results §3.5.1 Population dynamics."
       }
     ]
+  },
+  {
+    "id": "claim:taxon:pan_troglodytes:taxonomy",
+    "subjectId": "taxon:pan_troglodytes",
+    "claimType": "taxonomy",
+    "claimKind": "scientific",
+    "statement": "COL26.8 dataset 316115 records accepted species usage 4C92G as Pan troglodytes, with the parent path through Homininae and Pan. This establishes checklist identity and classification only.",
+    "confidence": "medium",
+    "confidenceRationale": "The pinned checklist usage and its accepted parent chain are explicit; this claim is limited to that release and makes no phylogenetic or biological inference.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "COL26.8 dataset 316115, accepted usage 4C92G; cross-checked against the bundled MDD mammal sidecar and raw dossier on 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "col-2026-checklistbank-316115",
+        "relation": "supports",
+        "pages": "Accepted usage 4C92G; source dataset 2144; parent chain Homininae > Pan > Pan troglodytes"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:pan_troglodytes:biogeography",
+    "subjectId": "taxon:pan_troglodytes",
+    "claimType": "biogeography",
+    "claimKind": "scientific",
+    "statement": "Bossou, Guinea, is the single locality represented by the selected ecology study; this study location is not a species-wide distribution claim.",
+    "confidence": "high",
+    "confidenceRationale": "The primary field study identifies Bossou as its site; the claim deliberately records only a sampled locality and not the species range.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "Bryson-Morrison et al. 2017 DOI 10.1007/s10764-016-9947-4; source dossier license and study-scope record checked 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "bryson-morrison-2017-bossou-habitat",
+        "relation": "supports",
+        "quoteLocator": "Methods, Behavioral Observations; study site and focal community"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:pan_troglodytes:ecology",
+    "subjectId": "taxon:pan_troglodytes",
+    "claimType": "ecology",
+    "claimKind": "scientific",
+    "statement": "At Bossou, Guinea, daily behavioral follows of the local wild P. t. verus community (up to 6 h/day; April 2012–March 2013) found mature forest was the most selected habitat overall. Recorded feeding events in noncultivated habitat occurred more often than expected by chance more than 200 m from cultivated fields and less often than expected within 0–100 m and 101–200 m bands. The authors suggested field-associated risk may influence feeding locations. These results describe one site and community, not species-wide habitat use.",
+    "confidence": "medium",
+    "confidenceRationale": "The study directly reports habitat selection and feeding-event distances for one Bossou community. The observations do not represent other sites or establish species-wide habitat use.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "Bryson-Morrison et al. 2017 DOI 10.1007/s10764-016-9947-4; Methods, Results and Table II checked against the item-level CC BY 4.0 dossier record on 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "bryson-morrison-2017-bossou-habitat",
+        "relation": "supports",
+        "pages": "Methods, Behavioral Observations and Feeding Event Locations; Results, Habitat Use and Preferences and Distance of Feeding Events in Noncultivated Habitat Relative to Cultivated Fields and Routes; Table II"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:pan_troglodytes:fossil-range",
+    "subjectId": "taxon:pan_troglodytes",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The selected COL26.8 checklist and Bossou habitat-use study establish checklist identity and one-site ecology, but do not provide a numerical temporal fossil-range estimate for Pan troglodytes.",
+    "confidence": "medium",
+    "confidenceRationale": "The selected checklist is taxonomic and the cited field study is ecological; neither source estimates a fossil or species-duration range, so the numerical interval remains withheld.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "COL26.8 dataset 316115, accepted usage 4C92G; Bryson-Morrison et al. 2017 DOI 10.1007/s10764-016-9947-4; source scopes checked 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "col-2026-checklistbank-316115",
+        "relation": "supports",
+        "pages": "Accepted usage 4C92G; identity and classification only"
+      },
+      {
+        "referenceId": "bryson-morrison-2017-bossou-habitat",
+        "relation": "supports",
+        "quoteLocator": "Methods, Behavioral Observations; single study site and focal community"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:homininae:taxonomy",
+    "subjectId": "taxon:homininae",
+    "claimType": "taxonomy",
+    "claimKind": "scientific",
+    "statement": "COL26.8 accepted usage 4C92G places Pan troglodytes beneath Homininae (parent usage JPH). This records the checklist classification only.",
+    "confidence": "medium",
+    "confidenceRationale": "The accepted COL26.8 species record carries the Homininae parent usage JPH. This is one release-specific classification statement, not a claim of universal consensus or phylogeny.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "COL26.8 dataset 316115, accepted usage 4C92G and parent usage JPH; cross-checked against the raw dossier on 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "col-2026-checklistbank-316115",
+        "relation": "supports",
+        "pages": "Accepted usage 4C92G; accepted parent usage JPH, Homininae"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:pan:taxonomy",
+    "subjectId": "taxon:pan",
+    "claimType": "taxonomy",
+    "claimKind": "scientific",
+    "statement": "COL26.8 accepted usage 4C92G places Pan troglodytes in Pan (parent usage 6D2G). This records the checklist classification only.",
+    "confidence": "medium",
+    "confidenceRationale": "The accepted COL26.8 species record carries the Pan parent usage 6D2G. This is one release-specific classification statement, not a claim of universal consensus or phylogeny.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "COL26.8 dataset 316115, accepted usage 4C92G and parent usage 6D2G; cross-checked against the raw dossier on 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "col-2026-checklistbank-316115",
+        "relation": "supports",
+        "pages": "Accepted usage 4C92G; accepted parent usage 6D2G, Pan"
+      }
+    ]
   }
 ]
