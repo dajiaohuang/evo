@@ -1,6 +1,15 @@
 import { issue68Zh } from './issue68Zh'
 
 export const zh: Record<string, string> = {
+  'Bossou, Guinea (study site)': '几内亚 Bossou（研究地点）',
+  'The selected study records feeding locations but does not provide a species-wide diet synthesis.': '所选研究记录了取食地点，但未综合全物种的食性。',
+  'At Bossou, mature forest was the most selected habitat overall in the sampled wild community; this is a site-level result.': '在 Bossou，当地受研究野生群体总体上最常选择成熟森林作为栖地；这是单一地点的结果。',
+  'Not assessed in the selected habitat-use study.': '所选栖地利用研究未评估。',
+  'Not established by the selected one-site habitat-use study.': '所选单地点栖地利用研究未确定。',
+  'A year of daily follows at Bossou sampled one local community, including 10 adult focal individuals. These observations do not establish species-wide habitat use or a current range-wide synthesis.': '为期一年的每日跟踪研究在 Bossou 覆盖当地一个群体，其中包括 10 只成年焦点个体。这些观察不能说明全物种栖地利用，也不是当前的全分布综述。',
+  'African Apes': '非洲类人猿',
+  'Chimpanzees': '黑猩猩属',
+  'Chimpanzee': '黑猩猩',
   'Projection': '投影',
   'Map projection': '地图投影',
   'Zoom in': '放大',
@@ -798,6 +807,7 @@ export const zh: Record<string, string> = {
   'Open PBDB collection ↗': '打开 PBDB 采集记录 ↗',
   'Species Detail': '类群详情',
   'Temporal Range': '时间范围',
+  'Range unavailable': '区间暂无可发布证据',
   'Status': '状态',
   'Extinct †': '已灭绝 †',
   'Extant': '现生',

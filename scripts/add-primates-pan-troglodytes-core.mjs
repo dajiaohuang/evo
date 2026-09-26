@@ -106,6 +106,8 @@ const entityId = 'pan_troglodytes'
 const colReferenceId = 'col-2026-checklistbank-316115'
 const ecologyReferenceId = 'bryson-morrison-2017-bossou-habitat'
 const ecologyClaimId = `claim:taxon:${entityId}:ecology`
+const panTaxonomyClaimId = 'claim:taxon:pan:taxonomy'
+const homininaeTaxonomyClaimId = 'claim:taxon:homininae:taxonomy'
 const geographyClaimId = `claim:taxon:${entityId}:biogeography`
 const taxonomyClaimId = `claim:taxon:${entityId}:taxonomy`
 const rawDossierPath = 'data/knowledge/raw-dossiers/primates-batch-2.jsonl'
@@ -152,6 +154,7 @@ for (const id of ['homininae', 'pan', entityId]) {
   if (node) {
     node.firstAppearance = 20
     node.lastAppearance = 0
+    node.rangeEvidenceLevel = 'withheld-no-range-evidence'
   }
 }
 const panTroglodytes = {
@@ -165,6 +168,7 @@ const panTroglodytes = {
   colDatasetId: sourceDatasetId,
   firstAppearance: 20,
   lastAppearance: 0,
+  rangeEvidenceLevel: 'withheld-no-range-evidence',
   extinct: false,
   children: [],
   entityKind: 'taxon',
@@ -181,6 +185,7 @@ const pan = {
   colDatasetId: sourceDatasetId,
   firstAppearance: 20,
   lastAppearance: 0,
+  rangeEvidenceLevel: 'withheld-no-range-evidence',
   extinct: false,
   children: [panTroglodytes],
   entityKind: 'taxon',
@@ -197,6 +202,7 @@ const homininae = {
   colDatasetId: sourceDatasetId,
   firstAppearance: 20,
   lastAppearance: 0,
+  rangeEvidenceLevel: 'withheld-no-range-evidence',
   extinct: false,
   children: [pan],
   entityKind: 'taxon',
@@ -231,6 +237,7 @@ const profile = {
     guild: 'Not established by the selected one-site habitat-use study.',
   },
   traits: [],
+  traitsAssessmentStatus: 'not-assessed',
   evidenceSummary: 'A year of daily follows at Bossou sampled one local community, including 10 adult focal individuals. These observations do not establish species-wide habitat use or a current range-wide synthesis.',
   confidence: 'medium',
   referenceIds: [colReferenceId, ecologyReferenceId],
@@ -262,8 +269,36 @@ const ecologyStatement = bossouClaim.text
 const geographyStatement = 'Bossou, Guinea, is the single locality represented by the selected ecology study; this study location is not a species-wide distribution claim.'
 const taxonomyStatement = 'COL26.8 dataset 316115 records accepted species usage 4C92G as Pan troglodytes, with the parent path through Homininae and Pan. This establishes checklist identity and classification only.'
 const rangeStatement = 'The selected COL26.8 checklist and Bossou habitat-use study establish checklist identity and one-site ecology, but do not provide a numerical temporal fossil-range estimate for Pan troglodytes.'
+const homininaeTaxonomyStatement = 'COL26.8 accepted usage 4C92G places Pan troglodytes beneath Homininae (parent usage JPH). This records the checklist classification only.'
+const panTaxonomyStatement = 'COL26.8 accepted usage 4C92G places Pan troglodytes in Pan (parent usage 6D2G). This records the checklist classification only.'
 const claimsPath = 'data/evidence/claims.json'
 appendArrayRecords(claimsPath, '', [
+  {
+    id: homininaeTaxonomyClaimId,
+    subjectId: 'taxon:homininae',
+    claimType: 'taxonomy',
+    claimKind: 'scientific',
+    statement: homininaeTaxonomyStatement,
+    confidence: 'medium',
+    confidenceRationale: 'The accepted COL26.8 species record carries the Homininae parent usage JPH. This is one release-specific classification statement, not a claim of universal consensus or phylogeny.',
+    reviewedBy: 'Evo Atlas primary-source audit',
+    reviewedAt: '2026-09-27',
+    reviewedAgainstReferenceVersion: 'COL26.8 dataset 316115, accepted usage 4C92G and parent usage JPH; cross-checked against the raw dossier on 2026-09-27',
+    referenceLinks: [{ referenceId: colReferenceId, relation: 'supports', pages: 'Accepted usage 4C92G; accepted parent usage JPH, Homininae' }],
+  },
+  {
+    id: panTaxonomyClaimId,
+    subjectId: 'taxon:pan',
+    claimType: 'taxonomy',
+    claimKind: 'scientific',
+    statement: panTaxonomyStatement,
+    confidence: 'medium',
+    confidenceRationale: 'The accepted COL26.8 species record carries the Pan parent usage 6D2G. This is one release-specific classification statement, not a claim of universal consensus or phylogeny.',
+    reviewedBy: 'Evo Atlas primary-source audit',
+    reviewedAt: '2026-09-27',
+    reviewedAgainstReferenceVersion: 'COL26.8 dataset 316115, accepted usage 4C92G and parent usage 6D2G; cross-checked against the raw dossier on 2026-09-27',
+    referenceLinks: [{ referenceId: colReferenceId, relation: 'supports', pages: 'Accepted usage 4C92G; accepted parent usage 6D2G, Pan' }],
+  },
   {
     id: taxonomyClaimId,
     subjectId: `taxon:${entityId}`,
@@ -323,6 +358,8 @@ appendArrayRecords(claimsPath, '', [
 
 const claimStatementsZhPath = 'data/evidence/claim-statements.zh.json'
 appendObjectEntries(claimStatementsZhPath, {
+  [homininaeTaxonomyStatement]: 'COL26.8 接受用名 4C92G 将 Pan troglodytes 置于 Homininae 之下（父级用名 JPH）。此陈述仅记录该清单版本中的分类位置。',
+  [panTaxonomyStatement]: 'COL26.8 接受用名 4C92G 将 Pan troglodytes 置于 Pan 属中（父级用名 6D2G）。此陈述仅记录该清单版本中的分类位置。',
   [taxonomyStatement]: 'COL26.8 数据集 316115 将用名 4C92G 记录为接受的 Pan troglodytes 种级用名，其父级路径经过 Homininae 和 Pan。此记录只支持该清单版本中的分类身份与分类路径。',
   [rangeStatement]: '所选 COL26.8 清单和 Bossou 栖地利用研究分别支持清单身份和单一地点的生态证据，但没有提供 Pan troglodytes 的数值化地质时间范围。',
   [geographyStatement]: 'Bossou（几内亚）是所选生态研究唯一覆盖的地点；研究地点不等于该物种的完整分布。',
@@ -331,6 +368,8 @@ appendObjectEntries(claimStatementsZhPath, {
 
 const rationalesZhPath = 'data/evidence/claim-rationales.zh.json'
 appendObjectEntries(rationalesZhPath, {
+  [homininaeTaxonomyClaimId]: 'COL26.8 接受种级记录包含 Homininae 父级用名 JPH。本陈述仅限该版本的分类记录，不表示普遍共识或系统发育关系。',
+  [panTaxonomyClaimId]: 'COL26.8 接受种级记录包含 Pan 父级用名 6D2G。本陈述仅限该版本的分类记录，不表示普遍共识或系统发育关系。',
   [taxonomyClaimId]: '固定清单中的接受用名和父级链记录明确；本主张仅限于该版本的分类身份，不推断系统发育或生物学特征。',
   [`claim:taxon:${entityId}:fossil-range`]: '所选清单用于分类，野外研究用于生态观察；两者均未估算化石或物种持续时间，因此数值范围继续隐藏。',
   [geographyClaimId]: '一手野外研究明确列出 Bossou 研究地点；本主张只记录取样地点，不将其扩展为全物种分布。',

@@ -140,7 +140,7 @@ export function EvoTree() {
       : perissodactylHypothesisData.root as TreeNode
     const root = d3.hierarchy<TreeNode>(sourceTree, (node) => collapsedIds.has(node.id) ? undefined : node.children)
     const descendants = root.descendants()
-    const maxAge = Math.max(1, ...descendants.map((node) => node.data.firstAppearance)) * 1.08
+    const maxAge = Math.max(1, ...descendants.filter((node) => node.data.rangeEvidenceLevel !== 'withheld-no-range-evidence').map((node) => node.data.firstAppearance)) * 1.08
     const selectedHierarchyNode = selectedNodeId ? descendants.find((node) => node.data.id === selectedNodeId) : null
     const lineageIds = new Set(selectedHierarchyNode?.ancestors().map((node) => node.data.id) ?? [])
     const inLineage = (node: d3.HierarchyNode<TreeNode>) => !traceLineage || !selectedHierarchyNode || lineageIds.has(node.data.id)
@@ -233,6 +233,9 @@ export function EvoTree() {
     }
 
     if (mode === 'first-appearance') {
+      const temporalNodes = root.descendants().filter((node) => node.data.rangeEvidenceLevel !== 'withheld-no-range-evidence')
+      const temporalNodeIds = new Set(temporalNodes.map((node) => node.data.id))
+      const temporalLinks = root.links().filter((link) => temporalNodeIds.has(link.source.data.id) && temporalNodeIds.has(link.target.data.id))
       const layoutHeight = Math.max(viewportHeight - 70, descendants.length * 5)
       d3.tree<TreeNode>().size([layoutHeight, 1])(root)
       const timeX = d3.scaleLinear().domain([maxAge, 0]).range([55, width - 125])
@@ -244,14 +247,14 @@ export function EvoTree() {
       svg.append('g').attr('class', 'tree-time-axis').attr('transform', 'translate(0,28)').call(axis)
       svg.append('line').attr('class', 'tree-current-line').attr('data-max-age', maxAge).attr('data-start', 55).attr('data-end', width - 125).attr('x1', timeX(Math.min(currentAge, maxAge))).attr('x2', timeX(Math.min(currentAge, maxAge))).attr('y1', 28).attr('y2', viewportHeight)
 
-      g.selectAll('path').data(root.links()).join('path').attr('class', 'tree-link')
+      g.selectAll('path').data(temporalLinks).join('path').attr('class', 'tree-link')
         .attr('d', (link) => {
           const source = link.source as d3.HierarchyPointNode<TreeNode>
           const target = link.target as d3.HierarchyPointNode<TreeNode>
           return `M${xFor(source)},${yFor(source)}H${xFor(target)}V${yFor(target)}`
         }).style('opacity', linkOpacity)
 
-      const nodes = g.selectAll<SVGGElement, d3.HierarchyNode<TreeNode>>('g.node').data(root.descendants()).join('g').attr('class', 'node')
+      const nodes = g.selectAll<SVGGElement, d3.HierarchyNode<TreeNode>>('g.node').data(temporalNodes).join('g').attr('class', 'node')
         .attr('transform', (node) => {
           const point = node as d3.HierarchyPointNode<TreeNode>
           return `translate(${xFor(point)},${yFor(point)})`

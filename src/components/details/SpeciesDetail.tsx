@@ -8,7 +8,7 @@ import treeEvidenceData from '../../../data/tree/evidence.json'
 import references from '../../../data/references.json'
 import { getSpatialPosition } from '../../utils/spatial'
 import { useI18n } from '../../i18n'
-import { getTaxonProfile } from '../../services/catalogProfiles'
+import { getTaxonProfile, hasPublishedRange } from '../../services/catalogProfiles'
 import { getClaimsForSubject } from '../../services/evidence'
 import { getEntityPublication, getPackagePublication } from '../../services/publication'
 import { loadEntityIndex } from '../../data-client/staticDataClient'
@@ -51,6 +51,8 @@ export function SpeciesDetail() {
   }, [])
 
   const node = selectedNodeId ? findNode([treeData as TreeNode], selectedNodeId) : null
+  const profile = getTaxonProfile(node?.id ?? null)
+  const rangeAvailable = profile ? hasPublishedRange(profile) : node?.rangeEvidenceLevel !== 'withheld-no-range-evidence'
   const entity = node ? entityById.get(node.id) : undefined
   const evidenceCatalog = treeEvidenceData as TreeEvidenceCatalog
   const nodeEvidence: TreeEvidenceRecord | null = node ? {
@@ -165,7 +167,7 @@ export function SpeciesDetail() {
       {node ? (
         <>
           <h2 style={{ fontSize: 18, fontWeight: 700, marginBottom: 2, color: 'var(--color-accent)' }}>
-            {language === 'zh' ? (getTaxonProfile(node.id)?.commonNameZh ?? node.commonNameZh ?? node.commonName ?? node.name) : (node.commonName || node.name)}
+            {language === 'zh' ? (profile?.commonNameZh ?? node.commonNameZh ?? node.commonName ?? node.name) : (node.commonName || node.name)}
           </h2>
           <p style={{ fontSize: 12, color: 'var(--color-text-muted)', marginBottom: 12 }}>
             {node.name}{node.rank ? ` · ${t(node.rank)}` : ''}
@@ -181,16 +183,18 @@ export function SpeciesDetail() {
 
             <div style={{ padding: 10, background: 'var(--color-surface-alt)', borderRadius: 6 }}>
               <div style={{ color: 'var(--color-text-muted)', marginBottom: 2 }}>{t('Temporal Range')}</div>
-              <div style={{ fontFamily: 'var(--font-mono)' }}>
-                {node.firstAppearance.toFixed(1)} – {node.lastAppearance === 0 ? t('Present') : node.lastAppearance.toFixed(1)} Ma
-              </div>
-              <div style={{ marginTop: 6, height: 6, background: 'var(--color-border)', borderRadius: 3, overflow: 'hidden', position: 'relative' }}>
-                <div style={{
-                  position: 'absolute', left: 0, top: 0, bottom: 0,
-                  background: 'var(--color-accent)', opacity: 0.6,
-                  width: `${Math.max(2, ((node.firstAppearance - node.lastAppearance) / 4567) * 100)}%`,
-                }} />
-              </div>
+              {rangeAvailable ? <>
+                <div style={{ fontFamily: 'var(--font-mono)' }}>
+                  {node.firstAppearance.toFixed(1)} – {node.lastAppearance === 0 ? t('Present') : node.lastAppearance.toFixed(1)} Ma
+                </div>
+                <div style={{ marginTop: 6, height: 6, background: 'var(--color-border)', borderRadius: 3, overflow: 'hidden', position: 'relative' }}>
+                  <div style={{
+                    position: 'absolute', left: 0, top: 0, bottom: 0,
+                    background: 'var(--color-accent)', opacity: 0.6,
+                    width: `${Math.max(2, ((node.firstAppearance - node.lastAppearance) / 4567) * 100)}%`,
+                  }} />
+                </div>
+              </> : <div>{t('Range unavailable')}</div>}
             </div>
 
             <div style={{ padding: 10, background: 'var(--color-surface-alt)', borderRadius: 6 }}>
