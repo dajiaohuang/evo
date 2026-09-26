@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "batchId": "amphibia-axolotl-ecology-batch49-2026-09-26",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/amphibia-axolotl-ecology-b49-2026-09-26.json",
+    "sha256": "eb70f8f5aac2e6db100511fd97bc6426206d7503796d674eeef8931018443b50"
+  },
+  "duplicateCheck": {
+    "mode": "in-place-update",
+    "indexedShardCount": 63,
+    "indexedRecordCount": 6969,
+    "sourceStableIds": [
+      "doi:10.1371/journal.pone.0314257"
+    ],
+    "sourceOccurrencesBeforeUpdate": 0,
+    "matchedColIds": [
+      "CQ4M"
+    ],
+    "matchedNames": [
+      "ambystoma mexicanum shaw nodder 1798"
+    ],
+    "openPullRequests": []
+  },
+  "updateAudit": {
+    "baseHead": "2726f10955fb3e9c6b7eea00547432bed380dc37",
+    "indexedShardCountAtAudit": 63,
+    "indexedRecordCountAtAudit": 6969,
+    "targetColId": "CQ4M",
+    "targetScientificName": "Ambystoma mexicanum (Shaw & Nodder, 1798)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-amphibia-batch-2026-09-24.jsonl.br",
+    "previousRawSha256": "5a81a9deac7af67d372f4ce46d9172d48ce6602593da2d58b868c5f07d4eca0c",
+    "previousCompressedSha256": "d9d216db4f9edc8cb5fc64f7ba4031a38c3d9751605bcb02a729ad5bf39042bd",
+    "previousTargetRecordSha256": "a6adb8f5e0e504fb954ac12f2454b14ff8ca52bfdd56237e3c96825898b184e6",
+    "sourceOccurrencesBeforeUpdate": 0,
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "queries": [
+        "CQ4M",
+        "10.1371/journal.pone.0314257"
+      ],
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    },
+    "mode": "in-place-add-two-site-bounded-ecology-source-to-existing-record",
+    "indexedRecordCountAfterUpdate": 6969,
+    "outputRawSha256": "b2058b058221dfc5ffe8ad21d315b50f58476aa7364716272174684994cb4be6",
+    "outputCompressedSha256": "9ca99e9baf040e10fb7603987f23b85f72ef64470f4e36b956b858accfe2ed0d"
+  },
+  "sources": [
+    {
+      "id": "ramos2025axolotlmovement",
+      "stableId": "doi:10.1371/journal.pone.0314257",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "rightsHolder": "Ramos et al. (2025), under the article's Creative Commons Attribution License."
+    }
+  ],
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-amphibia-batch-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 5,
+    "decodedBytes": 30531,
+    "decodedSha256": "b2058b058221dfc5ffe8ad21d315b50f58476aa7364716272174684994cb4be6",
+    "compressedBytes": 5894,
+    "compressedSha256": "9ca99e9baf040e10fb7603987f23b85f72ef64470f4e36b956b858accfe2ed0d",
+    "brotliParameters": {
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "datasetDoi": "10.48580/dgywk",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "preservedSiblingColIds": [
+    "3SLRG",
+    "4ZMCC",
+    "736LN",
+    "J8YL"
+  ],
+  "generator": "scripts/update-amphibia-axolotl-ecology-batch49.mjs",
+  "updateMode": "in-place-enrichment-of-one-existing-record",
+  "appAndPagesPreviewManifestChanged": false
+}
