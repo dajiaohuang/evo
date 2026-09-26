@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "batchId": "amphibia-axolotl-ecology-batch49-2026-09-26",
+  "checkedAt": "2026-09-26",
+  "releaseAlias": "COL26.8",
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "datasetDoi": "10.48580/dgywk",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "target": {
+    "colId": "CQ4M",
+    "scientificName": "Ambystoma mexicanum (Shaw & Nodder, 1798)",
+    "rank": "species",
+    "sourceDatasetId": "2144"
+  },
+  "audit": {
+    "baseHead": "2726f10955fb3e9c6b7eea00547432bed380dc37",
+    "indexedShardCount": 63,
+    "indexedRecordCount": 6969,
+    "targetRecordCount": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-amphibia-batch-2026-09-24.jsonl.br",
+    "siblingColIds": ["3SLRG", "4ZMCC", "736LN", "J8YL"],
+    "previousRawSha256": "5a81a9deac7af67d372f4ce46d9172d48ce6602593da2d58b868c5f07d4eca0c",
+    "previousShardCompressedSha256": "d9d216db4f9edc8cb5fc64f7ba4031a38c3d9751605bcb02a729ad5bf39042bd",
+    "previousTargetRecordSha256": "a6adb8f5e0e504fb954ac12f2454b14ff8ca52bfdd56237e3c96825898b184e6",
+    "sourceOccurrencesBeforeUpdate": 0,
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "queries": ["CQ4M", "10.1371/journal.pone.0314257"],
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "ramos2025axolotlmovement",
+      "title": "Ramos et al. (2025), Movement ecology of captive-bred axolotls in restored and artificial wetlands: Conservation insights for amphibian reintroductions and translocations",
+      "url": "https://doi.org/10.1371/journal.pone.0314257",
+      "stableId": "doi:10.1371/journal.pone.0314257",
+      "version": "PLOS ONE 20(4), e0314257; version of record published 2025-04-30",
+      "publishedAt": "2025-04-30",
+      "accessedAt": "2026-09-26",
+      "locator": "Abstract for site-level mean home-range comparison; Methods §§Study areas, Ethics statement, Study species and transmitters, and Data collection for locations, captive origin, sample sizes and telemetry dates; Results §Home range size for method and estimates.",
+      "license": "Creative Commons Attribution License (CC BY 4.0), stated in the article-level copyright notice.",
+      "licenseAssessment": "item-level-verified",
+      "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0314257",
+      "rightsEvidenceLocator": "Article page, copyright and data-availability notice directly following the abstract: open access under the Creative Commons Attribution License.",
+      "rightsHolder": "Ramos et al. (2025), under the article's Creative Commons Attribution License.",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseAppliesTo": "Article content covered by its license; any third-party exclusions remain governed by individual credit lines. This record paraphrases article text and reproduces no figures or tables.",
+      "attribution": "Ramos AG, Mena H, Schneider D, Zambrano L (2025). Movement ecology of captive-bred axolotls in restored and artificial wetlands: Conservation insights for amphibian reintroductions and translocations. PLoS ONE 20(4):e0314257. https://doi.org/10.1371/journal.pone.0314257. Claim paraphrased; no figures or tables reproduced.",
+      "scope": "VHF telemetry study of 18 laboratory-born and captive-raised axolotls released to two aquatic sites in southern Mexico City. The claim is limited to post-release home-range estimates at these sites and study windows; it is not a range-wide ecology estimate or evidence of a self-sustaining wild population."
+    }
+  ],
+  "claims": {
+    "ecology": {
+      "text": "After release of 18 captive-bred axolotls into two aquatic sites in southern Mexico City, VHF telemetry produced total MCP home-range estimates averaging 2,747 m² for the eight tracked at the artificial La Cantera Oriente wetland and 382 m² for the ten tracked at a restored chinampa in Lake Xochimilco; the difference was statistically significant (p < 0.001).",
+      "textZh": "18 只圈养繁殖的美西螈被放归到墨西哥城南部两处水域后，VHF 遥测所得总 MCP 家域估计值中，拉坎特拉东方人工湿地 8 只个体的平均值为 2,747 m²，索奇米尔科湖一处修复 chinampa（水上农田湿地）10 只个体的平均值为 382 m²；差异具有统计学显著性（p < 0.001）。",
+      "sourceIds": ["ramos2025axolotlmovement"],
+      "locator": "Abstract; Methods, Study areas and Data collection; Results, Home range size.",
+      "placeTimeScope": "Two aquatic sites in southern Mexico City. Eight animals at La Cantera Oriente were tracked from 2017-10-27 to 2017-12-07; ten animals at a restored Lake Xochimilco chinampa were released on 2018-03-12 and monitored through 2018-04-20. VHF telemetry; sites and seasons differed.",
+      "lifeStatus": "All 18 study animals were born and raised in captivity before release into the study wetlands. The short post-release monitoring does not establish wild-born ecology, long-term establishment, or a self-sustaining population.",
+      "translationStatus": "translated",
+      "originalLanguage": "en"
+    }
+  },
+  "gaps": {
+    "ecology": [
+      "This short, small-sample post-release study does not establish range-wide habitat use, seasonal or geographic variation, a wild-born baseline, long-term survival and reproduction, or whether site differences caused the home-range contrast."
+    ]
+  },
+  "appAndPagesPreviewManifestChanged": false
+}
