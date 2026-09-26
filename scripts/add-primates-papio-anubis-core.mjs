@@ -38,6 +38,31 @@ function appendObjectEntries(path, entries) {
   JSON.parse(source)
   writeFileSync(path, source, 'utf8')
 }
+function appendTsDictionaryEntries(path, entries) {
+  let source = readFileSync(path, 'utf8')
+  const missing = Object.entries(entries).filter(([key, value]) => {
+    const existing = source.split('\n').find(line => line.trim().startsWith(`'${key}':`) || line.trim().startsWith(`"${key}":`))
+    if (!existing) return true
+    assert.equal(existing.trim(), `'${key}': '${value}',`, `Conflicting ${path} entry ${key}`)
+    return false
+  })
+  if (!missing.length) return
+  const objectEnd = source.lastIndexOf('\n}')
+  assert.notEqual(objectEnd, -1, `Missing TypeScript object close in ${path}`)
+  const rendered = missing.map(([key, value]) => `  '${key}': '${value}',`).join('\n')
+  source = `${source.slice(0, objectEnd)}\n${rendered}${source.slice(objectEnd)}`
+  writeFileSync(path, source, 'utf8')
+}
+function appendTsSetEntries(path, entries) {
+  let source = readFileSync(path, 'utf8')
+  const missing = entries.filter(key => !source.split('\n').some(line => line.trim() === `${JSON.stringify(key)},`))
+  if (!missing.length) return
+  const setEnd = source.lastIndexOf('])')
+  assert.notEqual(setEnd, -1, `Missing TypeScript set close in ${path}`)
+  const rendered = missing.map(key => `  ${JSON.stringify(key)},`).join('\n')
+  source = `${source.slice(0, setEnd)}${rendered}\n${source.slice(setEnd)}`
+  writeFileSync(path, source, 'utf8')
+}
 function findNode(node, id) {
   if (node.id === id) return node
   for (const child of node.children ?? []) {
@@ -377,6 +402,21 @@ for (const [key, value] of [
   else locale.strings[key] = value
 }
 writeJson(localePath, locale)
+
+const papioTranslations = {
+  'Baboons': '狒狒类',
+  'Olive Baboon': '橄榄狒狒',
+  'Lake Manyara National Park, Tanzania (wild road-transect study, 2011–2019)': '坦桑尼亚曼雅拉湖国家公园（2011—2019 年野外道路样线研究）',
+  'Gombe National Park, Tanzania (wild reproductive records, 1972–2002)': '坦桑尼亚贡贝国家公园（1972—2002 年野外繁殖记录）',
+  'CNRS Primatology Station, Rousset-sur-Arc, France (captive longitudinal cohort)': '法国鲁塞特-苏尔-阿克 CNRS 灵长类研究站（圈养纵向研究群体）',
+  'Not assessed in the selected core studies.': '所选核心研究未评估。',
+  'The Lake Manyara paper compares road-transect estimates with a sleeping-site-based upper limit; roads are a possible source of sampling bias, not a full habitat account.': '曼雅拉湖研究将道路样线估计值与基于夜宿地点的数量上限进行比较；道路可能造成抽样偏差，因此这并非完整的栖息地描述。',
+  'A seven-year captive cohort study measured segmental morphometrics from infancy to adulthood; its growth pattern is not a species-wide body-size estimate.': '一项为期七年的圈养群体研究从幼年到成年测量身体分段形态；其生长模式不能代表该物种整体的体型估计。',
+  'In one seven-year captive cohort, measured size and shape were similar at birth; later differences in growth rate and duration produced substantial size differences while measured body shape remained similar.': '在一项七年圈养群体研究中，个体出生时的测量体型和形状相近；此后生长速度与持续时间差异带来显著体型差异，而测得的身体形状仍相近。',
+  'The selected profile links primary evidence for morphology, reproduction, and a site-specific population-monitoring bias. Global distribution, fossil record, formal conservation status, and species-wide evolutionary synthesis remain unassessed; this dossier is incomplete and has not received independent expert review.': '该档案链接了形态、繁殖生态和特定地点种群监测偏差的一手证据。全球分布、化石记录、正式保护状况及全物种演化综述仍未评估；本档案不完整，且尚未经独立专家评审。',
+}
+appendTsDictionaryEntries('src/i18n/primatesZh.ts', papioTranslations)
+appendTsSetEntries('src/i18n/primatesZhKeys.ts', Object.keys(papioTranslations))
 
 const pbdbPath = 'data/sources/pbdb-taxon-resolution.json'
 const pbdb = readJson(pbdbPath)
