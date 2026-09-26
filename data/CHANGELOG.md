@@ -1,5 +1,16 @@
 # Dataset changelog
 
+## Unreleased FNA dossier increment — 2026-09-27
+
+- Added an incomplete, source-bounded dossier for *Pinus albicaulis* (COL26.8
+  `4J224`) from FNA row 6701. Morphology and animal-mediated cone opening are
+  partially supported; the other five facets remain not assessed. The exact
+  accepted COL identity, source row, CC BY 4.0 item declaration and archive
+  attribution are retained. Live eFloras and WFO fetches returned 502, so the
+  claims use only the hash-pinned archived row; no verified Chinese translation
+  is published. The canonical dossier remains outside App and GitHub Pages
+  preview payloads.
+
 ## Unreleased dossier evidence correction — 2026-09-24
 
 - Added one bounded ecology claim to the COL26.8 rhesus macaque dossier `3WWNQ`

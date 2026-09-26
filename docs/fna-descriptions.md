@@ -39,16 +39,21 @@ and is retained only as history. It is not an input to this importer.
 
 ## Audited species dossier
 
-The 2026-09-27 increment links *Pinus longaeva* (`COL26.8` `77L64`; WFO
-`wfo-0000481202`) to FNA description row 9926, source identifier
-`8B9ADD07-8A9F-4AAF-BBD9-E83C0E9B8011`, cited as Bailey (2003). The accepted
-COL name, authorship, rank, source dataset, and complete parent chain are
-verified from the pinned COL26.8 registry. The dossier records only one
-partially supported morphology facet; its other six facets remain not assessed,
-and the account's North American flora scope is not treated as a global range
-assessment. The row's CC BY 4.0 declaration and archive-level license metadata
-are both retained with attribution. The eFloras species page timed out during
-this audit, so the claim is based on the exact hash-pinned archived row and its
-stored citation rather than a fresh live-page read. The dossier stays in the
-canonical evidence store; FNA source descriptions remain excluded from App and
-GitHub Pages preview payloads.
+The 2026-09-27 increments link two accepted species to exact FNA rows. *Pinus
+longaeva* (`COL26.8` `77L64`; WFO `wfo-0000481202`) uses row 9926, source
+identifier `8B9ADD07-8A9F-4AAF-BBD9-E83C0E9B8011`, cited as Bailey (2003).
+*Pinus albicaulis* (`COL26.8` `4J224`; WFO `wfo-0000482599`) uses row 6701,
+source identifier `8BCF01AB-57A3-4F43-82EC-BF64C0F41BD4`, cited as Engelmann
+(2003). For each species, the accepted COL name, authorship, rank, source
+dataset, and complete parent chain are verified from the pinned COL26.8
+registry. *P. longaeva* has one partially supported morphology facet. *P.
+albicaulis* has partially supported morphology and life-history facets, limited
+to selected structural measurements and animal-mediated cone opening; its other
+five facets remain not assessed. Its Chinese translation is not verified and is
+not published. Neither North American flora account is treated as a global range
+assessment. Each row's CC BY 4.0 declaration and the archive
+license metadata are retained with attribution. Direct eFloras and WFO resource
+fetches returned 502 for *P. albicaulis* during this audit; its claims use only
+the exact hash-pinned archived row and stored citation. Both dossiers remain in
+the canonical evidence store; FNA source descriptions remain excluded from App
+and GitHub Pages preview payloads.

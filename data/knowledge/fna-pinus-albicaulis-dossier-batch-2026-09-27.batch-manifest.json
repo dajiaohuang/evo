@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "batchId": "fna-pinus-albicaulis-dossier-batch-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/fna-pinus-albicaulis-dossier-batch-2026-09-27.json",
+    "sha256": "9f0b872555fba30eec7dfc8d811324f908d304a28763f511720abcc140bc1abb"
+  },
+  "baseAudit": {
+    "baseHead": "f34291a5ba6eb97dc496f40e5ac0ccc5947755ec",
+    "indexedRecordCount": 6971,
+    "indexedShardCount": 65,
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "openPullRequests": []
+  },
+  "updatedRecords": [],
+  "newRecords": [
+    {
+      "colId": "4J224",
+      "scientificName": "Pinus albicaulis Engelm."
+    }
+  ],
+  "indexedRecordCount": 6972,
+  "newShard": {
+    "path": "data/knowledge/catalogue-dossiers-fna-pinus-albicaulis-dossier-batch-2026-09-27.jsonl.br",
+    "rawPath": "data/knowledge/raw-dossiers/fna-pinus-albicaulis-dossier-batch-2026-09-27.jsonl",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 10064,
+    "decodedSha256": "8321708ec9a6b71ddf46fc3cddd194b1a57b1394453f5d33447b86864d86b149",
+    "compressedBytes": 2828,
+    "compressedSha256": "42ff38127087b9beeb96358071aaf60d84784c882f61d21f5dfa90e62de64308",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-fna-pinus-albicaulis-dossier-batch.mjs"
+}
