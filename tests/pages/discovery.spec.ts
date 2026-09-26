@@ -1,7 +1,9 @@
 import { expect, test } from '@playwright/test'
 import AxeBuilder from '@axe-core/playwright'
-import coreContentDefinition from '../../data/pages-preview.json'
-import entities from '../../data/registry/entities/entities.json'
+import { readFileSync } from 'node:fs'
+
+const coreContentDefinition = JSON.parse(readFileSync(new URL('../../data/pages-preview.json', import.meta.url), 'utf8')) as { taxonIds: string[] }
+const entities = JSON.parse(readFileSync(new URL('../../data/registry/entities/entities.json', import.meta.url), 'utf8')) as { id: string }[]
 
 const coreDirectoryCount = entities.filter(entity => coreContentDefinition.taxonIds.includes(entity.id)).length
 
