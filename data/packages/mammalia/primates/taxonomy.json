@@ -80,6 +80,36 @@
       "relationshipKind": "taxonomic-parent"
     },
     {
+      "id": "cercopithecoidea",
+      "parentId": "simiiformes",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "cercopithecidae",
+      "parentId": "cercopithecoidea",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "cercopithecinae",
+      "parentId": "cercopithecidae",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "papionini",
+      "parentId": "cercopithecinae",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "macaca",
+      "parentId": "papionini",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "macaca_radiata",
+      "parentId": "macaca",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
       "id": "anthropoidea",
       "parentId": "haplorhini",
       "relationshipKind": "navigation-parent"
