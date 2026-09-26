@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-gorilla-gorilla-morphology-batch48-2026-09-26",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-gorilla-gorilla-morphology-b48-2026-09-26.json",
+    "sha256": "ed52fdc9728f9b7147296f5ddf221a918069d09a0cf596713c00acee4396d3a5"
+  },
+  "duplicateCheck": {
+    "mode": "in-place-update",
+    "indexedRecordCount": 6969,
+    "sourceStableIds": [
+      "doi:10.1098/rspb.2021.2564"
+    ],
+    "sourceOccurrencesBeforeUpdate": 0,
+    "matchedColIds": [
+      "3H3C9"
+    ],
+    "matchedNames": [
+      "gorilla gorilla savage wyman 1847"
+    ],
+    "openPullRequests": []
+  },
+  "previousUpdateAudit": {
+    "baseHead": "fec8970e8cc580eefd6d42ffe79d6be4e94ca111",
+    "indexedRecordCountAtAudit": 6969,
+    "targetColId": "4LTSY",
+    "targetScientificName": "Pongo abelii Lesson, 1827",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "previousRawSha256": "bfbc22ecc265636d6a094f282bf12deb8af4d22627c8025738d25b2e8c27d784",
+    "previousDecodedSha256": "bfbc22ecc265636d6a094f282bf12deb8af4d22627c8025738d25b2e8c27d784",
+    "previousCompressedSha256": "6a0be1a805c5cf7fff07bcd49f476269bbd496ac0b440402f3d449da9e224b76",
+    "previousTargetRecordSha256": "52d9aa8fef0729f03c5c6e7e3352ae9ded998d0b9552e0565399fc23aef7f27a",
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "query": "4LTSY",
+      "checkedAt": "2026-09-25",
+      "returned": 0
+    },
+    "mode": "in-place-add-one-sourced-population-trend-to-existing-record",
+    "indexedRecordCountAfterUpdate": 6969,
+    "outputRawSha256": "cc6238998f3b861d4c96bcde6ca61d58432fef07de1595170fbdae2c1670fbc1",
+    "outputDecodedSha256": "cc6238998f3b861d4c96bcde6ca61d58432fef07de1595170fbdae2c1670fbc1",
+    "outputCompressedSha256": "132c57e22d0aba3c8a0b76fdf7b0956e15636423e16c353fae1115fe3ccad7b7"
+  },
+  "updateAudit": {
+    "baseHead": "5270bd60e2ccf9ff38262193e92ae28baff414aa",
+    "indexedRecordCountAtAudit": 6969,
+    "targetColId": "3H3C9",
+    "targetScientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "previousRawSha256": "cc6238998f3b861d4c96bcde6ca61d58432fef07de1595170fbdae2c1670fbc1",
+    "previousDecodedSha256": "cc6238998f3b861d4c96bcde6ca61d58432fef07de1595170fbdae2c1670fbc1",
+    "previousCompressedSha256": "132c57e22d0aba3c8a0b76fdf7b0956e15636423e16c353fae1115fe3ccad7b7",
+    "previousTargetRecordSha256": "1fdd31de72124bb125c933d4dc49546732c99ec81d8660dbc045cac4d1a062c9",
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "query": "3H3C9",
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    },
+    "mode": "in-place-add-one-sample-bounded-morphology-source-to-existing-record",
+    "indexedRecordCountAfterUpdate": 6969,
+    "outputRawSha256": "6cc0cffebf0ce2133d39805e22095cb813d31de7912c26fe8f7a1c688ff1f36d",
+    "outputDecodedSha256": "6cc0cffebf0ce2133d39805e22095cb813d31de7912c26fe8f7a1c688ff1f36d",
+    "outputCompressedSha256": "a6b6340b41afbb64bfaa13667f36f921a90d14d354dc28d258e224710301cf41"
+  },
+  "sources": [
+    {
+      "id": "mcgrath2022facialasymmetry",
+      "stableId": "doi:10.1098/rspb.2021.2564",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "rightsHolder": "McGrath et al. (2022)"
+    }
+  ],
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-batch-2.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 3,
+    "bytes": 62049,
+    "sha256": "6cc0cffebf0ce2133d39805e22095cb813d31de7912c26fe8f7a1c688ff1f36d"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 62049,
+    "decodedSha256": "6cc0cffebf0ce2133d39805e22095cb813d31de7912c26fe8f7a1c688ff1f36d",
+    "compressedBytes": 15141,
+    "compressedSha256": "a6b6340b41afbb64bfaa13667f36f921a90d14d354dc28d258e224710301cf41",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "datasetDoi": "10.48580/dgywk",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "preservedSiblingColIds": [
+    "4C92G",
+    "4LTSY"
+  ],
+  "generator": "scripts/update-primates-gorilla-gorilla-morphology-batch48.mjs",
+  "updateMode": "in-place-enrichment-of-one-existing-record",
+  "appAndPagesPreviewManifestChanged": false
+}
