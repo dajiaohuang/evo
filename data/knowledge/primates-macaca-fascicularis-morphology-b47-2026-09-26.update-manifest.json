@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-macaca-fascicularis-morphology-batch47-2026-09-26",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-macaca-fascicularis-morphology-b47-2026-09-26.json",
+    "sha256": "7fb2d4adcb21a6f5d974351c8f7619609365cfb71daf4f40ac37cb0e705e59da"
+  },
+  "duplicateCheck": {
+    "mode": "in-place-update",
+    "indexedRecordCount": 6969,
+    "sourceStableIds": [
+      "doi:10.1016/j.archoralbio.2024.106067"
+    ],
+    "sourceOccurrencesBeforeUpdate": 0,
+    "matchedColIds": [
+      "3WWND"
+    ],
+    "matchedNames": [
+      "macaca fascicularis raffles 1821"
+    ],
+    "openPullRequests": []
+  },
+  "updateAudit": {
+    "batchId": "primates-macaca-fascicularis-morphology-batch47-2026-09-26",
+    "baseHead": "8a49f9298bdbcd6faf1d42fe7d81d95da9eddf5e",
+    "indexedRecordCountAtAudit": 6969,
+    "targetColId": "3WWND",
+    "targetScientificName": "Macaca fascicularis (Raffles, 1821)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-cercopithecoidea-batch-8.jsonl.br",
+    "previousRawSha256": "11ead00133a69c500779846ca4dcfc0a5e34386f102149fe2534326f2db23c3e",
+    "previousDecodedSha256": "11ead00133a69c500779846ca4dcfc0a5e34386f102149fe2534326f2db23c3e",
+    "previousCompressedSha256": "ab673b690241b7238caf60493f4ed9b1a4018f7dcbe53acd0f2be272c9145695",
+    "previousTargetRecordSha256": "bc393a4c7805f5671679c1611a7bda15daf6807e59f38c7eb749e2cab0a7c0ec",
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "queries": [
+        "3WWND",
+        "10.1016/j.archoralbio.2024.106067"
+      ],
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    },
+    "sourceStableId": "doi:10.1016/j.archoralbio.2024.106067",
+    "sourceOccurrenceCountBeforeUpdate": 0,
+    "mode": "in-place-add-bounded-specimen-level-molar-morphology-evidence",
+    "indexedRecordCountAfterUpdate": 6969,
+    "outputRawSha256": "e28cdb9b45e8097d606dbd432dfc01712e51bc4a9e248632dd5063c4997b7ab9",
+    "outputDecodedSha256": "e28cdb9b45e8097d606dbd432dfc01712e51bc4a9e248632dd5063c4997b7ab9",
+    "outputCompressedSha256": "e225079f5b48875636868f3a5dc73de223207d2a142d4b268bc5212095d7d420"
+  },
+  "sources": [
+    {
+      "id": "chapple2024patterning",
+      "stableId": "doi:10.1016/j.archoralbio.2024.106067",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "rightsHolder": "The Authors"
+    }
+  ],
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-cercopithecoidea-batch-8.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 14845,
+    "sha256": "e28cdb9b45e8097d606dbd432dfc01712e51bc4a9e248632dd5063c4997b7ab9"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-cercopithecoidea-batch-8.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 14845,
+    "decodedSha256": "e28cdb9b45e8097d606dbd432dfc01712e51bc4a9e248632dd5063c4997b7ab9",
+    "compressedBytes": 4110,
+    "compressedSha256": "e225079f5b48875636868f3a5dc73de223207d2a142d4b268bc5212095d7d420",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "preservedSiblingColIds": [],
+  "generator": "scripts/update-primates-macaca-fascicularis-morphology-b47.mjs",
+  "updateMode": "in-place-enrichment-of-one-existing-record",
+  "appAndPagesPreviewManifestChanged": false
+}

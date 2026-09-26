@@ -11,12 +11,12 @@
   ],
   "path": "data/knowledge/catalogue-dossiers-primates-cercopithecoidea-batch-8.jsonl.br",
   "rawPath": "data/knowledge/raw-dossiers/primates-cercopithecoidea-batch-8.jsonl",
-  "rawSha256": "11ead00133a69c500779846ca4dcfc0a5e34386f102149fe2534326f2db23c3e",
-  "decodedSha256": "11ead00133a69c500779846ca4dcfc0a5e34386f102149fe2534326f2db23c3e",
-  "compressedSha256": "ab673b690241b7238caf60493f4ed9b1a4018f7dcbe53acd0f2be272c9145695",
-  "decodedBytes": 10826,
-  "compressedBytes": 3101,
-  "checkedAt": "2026-09-24",
+  "rawSha256": "e28cdb9b45e8097d606dbd432dfc01712e51bc4a9e248632dd5063c4997b7ab9",
+  "decodedSha256": "e28cdb9b45e8097d606dbd432dfc01712e51bc4a9e248632dd5063c4997b7ab9",
+  "compressedSha256": "e225079f5b48875636868f3a5dc73de223207d2a142d4b268bc5212095d7d420",
+  "decodedBytes": 14845,
+  "compressedBytes": 4110,
+  "checkedAt": "2026-09-26",
   "generationSource": "data/sources/primates-cercopithecoidea-batch-8.json",
   "generationSourceSha256": "736a88bd7797da991b6a7315f89640f0b59363d501b6ebff6bc8b8d177f19ca8",
   "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
@@ -30,19 +30,51 @@
     "existingRecordCount": 1
   },
   "updateAudit": {
-    "baseHead": "16fa64a21645a79551d6be678bdb474d2c7f6dca",
-    "indexedRecordCountAtAudit": 6934,
+    "batchId": "primates-macaca-fascicularis-morphology-batch47-2026-09-26",
+    "baseHead": "8a49f9298bdbcd6faf1d42fe7d81d95da9eddf5e",
+    "indexedRecordCountAtAudit": 6969,
     "targetColId": "3WWND",
     "targetScientificName": "Macaca fascicularis (Raffles, 1821)",
     "targetRecordCountBeforeUpdate": 1,
     "targetShardPath": "data/knowledge/catalogue-dossiers-primates-cercopithecoidea-batch-8.jsonl.br",
-    "previousRawSha256": "cfcb521ce8d0e26e6fa9f9bd1c900196518772a1293b3233c2ec10d98cf89d5b",
-    "previousShardSha256": "783abe605fe8e4a65762eb057aae65431e0314baca578a0dcd59133b26bbc3ff",
-    "priorGeneratedRawSha256": "c0d05e75a3b79bc7d847f935da42109b7a082bd21005a469679e7efc01e58782",
-    "priorGeneratedShardSha256": "b9f51c5101c0d727fd0b4b6281e5ba87907af878a4f109ac5ff9af1064527747",
+    "previousRawSha256": "11ead00133a69c500779846ca4dcfc0a5e34386f102149fe2534326f2db23c3e",
+    "previousDecodedSha256": "11ead00133a69c500779846ca4dcfc0a5e34386f102149fe2534326f2db23c3e",
+    "previousCompressedSha256": "ab673b690241b7238caf60493f4ed9b1a4018f7dcbe53acd0f2be272c9145695",
+    "previousTargetRecordSha256": "bc393a4c7805f5671679c1611a7bda15daf6807e59f38c7eb749e2cab0a7c0ec",
     "openPullRequests": [],
-    "mode": "in-place-enrichment-of-existing-record",
-    "indexedRecordCountAfterUpdate": 6934
+    "openPullRequestSearch": {
+      "queries": [
+        "3WWND",
+        "10.1016/j.archoralbio.2024.106067"
+      ],
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    },
+    "sourceStableId": "doi:10.1016/j.archoralbio.2024.106067",
+    "sourceOccurrenceCountBeforeUpdate": 0,
+    "mode": "in-place-add-bounded-specimen-level-molar-morphology-evidence",
+    "indexedRecordCountAfterUpdate": 6969,
+    "outputRawSha256": "e28cdb9b45e8097d606dbd432dfc01712e51bc4a9e248632dd5063c4997b7ab9",
+    "outputDecodedSha256": "e28cdb9b45e8097d606dbd432dfc01712e51bc4a9e248632dd5063c4997b7ab9",
+    "outputCompressedSha256": "e225079f5b48875636868f3a5dc73de223207d2a142d4b268bc5212095d7d420"
   },
-  "updateMode": "rebuild-one-existing-record-in-place"
+  "updateMode": "rebuild-one-existing-record-in-place",
+  "supplementalUpdates": [
+    {
+      "batchId": "primates-macaca-fascicularis-morphology-batch47-2026-09-26",
+      "sourcePath": "data/sources/primates-macaca-fascicularis-morphology-b47-2026-09-26.json",
+      "sourceSha256": "7fb2d4adcb21a6f5d974351c8f7619609365cfb71daf4f40ac37cb0e705e59da",
+      "generator": "scripts/update-primates-macaca-fascicularis-morphology-b47.mjs",
+      "targetColIds": [
+        "3WWND"
+      ],
+      "sourceStableId": "doi:10.1016/j.archoralbio.2024.106067",
+      "previousRawSha256": "11ead00133a69c500779846ca4dcfc0a5e34386f102149fe2534326f2db23c3e",
+      "previousDecodedSha256": "11ead00133a69c500779846ca4dcfc0a5e34386f102149fe2534326f2db23c3e",
+      "previousCompressedSha256": "ab673b690241b7238caf60493f4ed9b1a4018f7dcbe53acd0f2be272c9145695",
+      "outputRawSha256": "e28cdb9b45e8097d606dbd432dfc01712e51bc4a9e248632dd5063c4997b7ab9",
+      "outputDecodedSha256": "e28cdb9b45e8097d606dbd432dfc01712e51bc4a9e248632dd5063c4997b7ab9",
+      "outputCompressedSha256": "e225079f5b48875636868f3a5dc73de223207d2a142d4b268bc5212095d7d420"
+    }
+  ]
 }
