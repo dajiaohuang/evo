@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "releaseAlias": "COL26.8",
+  "batchId": "araneae-caerostris-darwini-genomics-batch-2026-09-28",
+  "checkedAt": "2026-09-28",
+  "target": {
+    "colId": "68T95",
+    "scientificName": "Caerostris darwini Kuntner & Agnarsson, 2010",
+    "authorship": "Kuntner & Agnarsson, 2010",
+    "rank": "species",
+    "sourceDatasetId": "56185"
+  },
+  "audit": {
+    "baseHead": "789d8bcb82605364ebf801e733c716e5012e702e",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "dossierIndexSha256": "2eceb71701c1c53bb14aeab0856fa848bd0a3fd4219260827fbf9f91ffeae656",
+    "dossierIndexRecordCount": 36330,
+    "queueManifestSha256": "f1a0678e489f0a0d7da677766878d82e50f4181e37e1a4d954c05f5bac07e19b",
+    "queueShardPath": "data/knowledge/species-evidence-queue/9.jsonl.br",
+    "queueShardDecodedSha256": "97ddf91bef332b2b648d32c75ddb5ad949b94064b664557d92983e11919f318f",
+    "queueRowSha256": "8fd9f87c7d062f3add141b844d5719d7c542f5385bf72e40b85ce0ae29d86e71",
+    "classificationPathIds": ["CS5HF", "N", "RT", "KZWYC", "CCQKT", "RN", "CTR7N", "CTT7G", "68T95"],
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "duplicateAudit": {
+      "checkedDossierRecords": 36330,
+      "matchedColIds": [],
+      "matchedScientificNames": [],
+      "matchedStableIds": [],
+      "searchedOpenPullRequests": ["68T95", "Caerostris darwini", "10.1371/journal.pone.0268660"],
+      "openPullRequestMatches": 0,
+      "checkedAt": "2026-09-28"
+    }
+  },
+  "sourceRef": {
+    "id": "babb2022",
+    "title": "Babb et al. (2022), Characterization of the genome and silk-gland transcriptomes of Darwin's bark spider (Caerostris darwini)",
+    "url": "https://doi.org/10.1371/journal.pone.0268660",
+    "stableId": "doi:10.1371/journal.pone.0268660",
+    "version": "PLOS ONE 17(6):e0268660; version of record published 2022-06-06",
+    "publishedAt": "2022-06-06",
+    "accessedAt": "2026-09-28",
+    "locator": "Abstract; Results, 'Characterization of the spidroin sequences in the C. darwini genome' and 'A catalog of spidroin repetitive motifs and cassettes in C. darwini'; Methods, 'Spider specimens'.",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), verified from the PLOS article copyright notice and its linked canonical license.",
+    "licenseAssessment": "item-level-verified",
+    "rightsHolder": "Babb et al. (2022), as identified by the PLOS article copyright notice.",
+    "licenseVersion": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0268660",
+    "licenseEvidenceLocator": "Article copyright notice; publisher page links the Creative Commons Attribution License to the CC BY 4.0 canonical deed.",
+    "licenseAppliesTo": "Published article text; separately credited third-party material and article images are not reused. Claims here paraphrase findings and do not redistribute sequence data.",
+    "attribution": "Babb PL, Gregorič M, Lahens NF, Nicholson DN, Hayashi CY, Higgins L, et al. (2022). Characterization of the genome and silk-gland transcriptomes of Darwin's bark spider (Caerostris darwini). PLOS ONE 17(6):e0268660. https://doi.org/10.1371/journal.pone.0268660. Findings paraphrased.",
+    "scope": "Original comparative genome and silk-gland transcriptome study of Caerostris darwini; the biological claim is bounded to the paper's wild-caught adult sample and reported analyses."
+  },
+  "claim": {
+    "facet": "evolution",
+    "text": "Using draft genome and silk-gland transcriptome assemblies for Caerostris darwini, the study reported at least 31 putative spidroin genes and expansions of several spidroin gene classes relative to Trichonephila clavipes. It also detected sex- and gland-specific expression patterns in the sampled tissues. The proposed connection between these patterns and exceptional dragline-silk toughness is presented by the authors as a hypothesis, not as a demonstrated causal result.",
+    "originalLanguage": "en",
+    "translationStatus": "untranslated",
+    "sourceIds": ["babb2022"],
+    "locator": "Abstract; Results, 'Characterization of the spidroin sequences in the C. darwini genome', especially the comparison with T. clavipes; see also the abstract's expression-analysis summary.",
+    "placeTimeScope": "Wild-caught adult Caerostris darwini from Andasibe-Mantadia National Park, Madagascar. Methods report genome-sequencing DNA from two females, RNA-sequencing material from three further females, and qPCR validation material from three further females and three males. The article does not state specimen-collection dates, so the sampling time is unknown; the version of record was published 2022-06-06.",
+    "lifeStatus": "Specimen-derived genomic and transcriptomic evidence from wild-caught adults. The study does not use captive, domesticated, or fossil specimens and does not report field population frequencies.",
+    "gaps": [
+      "This is one study-specific genome and transcriptome analysis; within-species population variation, independent population replication, and broader phylogenomic context remain unassessed in this dossier.",
+      "The proposed contribution of expression or protein composition to silk toughness is a hypothesis in the source and is not treated as a demonstrated mechanism here."
+    ]
+  }
+}
