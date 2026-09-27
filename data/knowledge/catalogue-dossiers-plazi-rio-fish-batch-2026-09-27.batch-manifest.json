@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "batchId": "plazi-rio-fish-dossier-batch-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/plazi-rio-fish-dossier-batch-2026-09-27.json",
+    "sha256": "b0c789613ceb274cdd76bc6bb396f68aef0d052c99b7f1412d8268c0b8760464"
+  },
+  "sourceProjection": {
+    "path": "data/sources/plazi-descriptions.jsonl.gz",
+    "sha256": "466773ce5eca7e77627dd13903e074c6446eb2d91ba3eaaa53c79f10ebd3cda0",
+    "rowsReviewed": 6,
+    "claimRowReferences": 6
+  },
+  "sourceLedger": {
+    "path": "data/sources/plazi-descriptions-import-ledger.json",
+    "archiveInputKey": "fish",
+    "archiveInputSha256": "78dea6e79bcd40ae8528d73e431e5c39624bc64a67e50c70d7d4d5831fb98491",
+    "license": "CC0 1.0",
+    "licenseAssessment": "aggregate-declaration-only"
+  },
+  "sourceArchives": [
+    {
+      "colId": "3M86Z",
+      "treatmentId": "B865879AFFCAC57BFC5E29ADFAF7F974",
+      "sourceArchive": "033dea15-2311-43cb-8a89-cbb8e73e7988.zip",
+      "archiveSha256": "4b4c7d3cc01622331792cca5ac524ff0bf497472ac43123de5873cf7d495a01f",
+      "zipAvailableInCheckout": false,
+      "emlRechecked": false
+    },
+    {
+      "colId": "6RGPT",
+      "treatmentId": "03B8FF3BA628895BFED2FC433E406821",
+      "sourceArchive": "95e56920-147b-4e47-bf6f-858c13683b7f.zip",
+      "archiveSha256": "75f4e69193f65cfa0e32a728ae690f065ed0c860d58e1760adfbd8ca6d3d107e",
+      "zipAvailableInCheckout": false,
+      "emlRechecked": false
+    }
+  ],
+  "articles": [
+    {
+      "colId": "3M86Z",
+      "doi": "10.1590/S1679-62252013000400004",
+      "license": "Not established at article level",
+      "licenseAssessment": "unknown"
+    },
+    {
+      "colId": "6RGPT",
+      "doi": "10.1590/S1679-62252013000300004",
+      "license": "Not established at article level",
+      "licenseAssessment": "unknown"
+    }
+  ],
+  "baseIndexSha256": "1ac5351252a6c349dfb24b63f6f7fcf2378e78b8bc0637336421a2a4eb0292c9",
+  "finalIndexSha256": "49533e213c48068c5cf6ac1c410bf0ebecdc4c1ca512a4e6bb129d0c8952b7b1",
+  "newRecords": [
+    {
+      "colId": "3M86Z",
+      "scientificName": "Hollandichthys taramandahy Bertaco & Malabarba, 2013",
+      "authorship": "Bertaco & Malabarba, 2013",
+      "partialFacets": [
+        "morphology",
+        "ecology"
+      ],
+      "notAssessedFacets": [
+        "lifeHistory",
+        "evolution",
+        "distribution",
+        "fossil",
+        "conservation"
+      ]
+    },
+    {
+      "colId": "6RGPT",
+      "scientificName": "Microglanis lundbergi Jarduli & Shibatta, 2013",
+      "authorship": "Jarduli & Shibatta, 2013",
+      "partialFacets": [
+        "morphology",
+        "ecology"
+      ],
+      "notAssessedFacets": [
+        "lifeHistory",
+        "evolution",
+        "distribution",
+        "fossil",
+        "conservation"
+      ]
+    }
+  ],
+  "sourceRows": [
+    {
+      "colId": "3M86Z",
+      "sourceArchive": "033dea15-2311-43cb-8a89-cbb8e73e7988.zip",
+      "archiveSha256": "4b4c7d3cc01622331792cca5ac524ff0bf497472ac43123de5873cf7d495a01f",
+      "treatmentId": "B865879AFFCAC57BFC5E29ADFAF7F974",
+      "reviewedRows": [
+        4,
+        5,
+        8
+      ],
+      "claimRows": [
+        4,
+        5,
+        8
+      ]
+    },
+    {
+      "colId": "6RGPT",
+      "sourceArchive": "95e56920-147b-4e47-bf6f-858c13683b7f.zip",
+      "archiveSha256": "75f4e69193f65cfa0e32a728ae690f065ed0c860d58e1760adfbd8ca6d3d107e",
+      "treatmentId": "03B8FF3BA628895BFED2FC433E406821",
+      "reviewedRows": [
+        4,
+        5,
+        7
+      ],
+      "claimRows": [
+        4,
+        5,
+        7
+      ]
+    }
+  ],
+  "rights": {
+    "claimSourceRightsUnresolved": 2,
+    "completeDossiersAdded": 0,
+    "externallyReviewedDossiersAdded": 0
+  },
+  "newShard": {
+    "path": "data/knowledge/catalogue-dossiers-plazi-rio-fish-batch-2026-09-27.jsonl.br",
+    "rawPath": "data/knowledge/raw-dossiers/plazi-rio-fish-batch-2026-09-27.jsonl",
+    "encoding": "brotli-jsonl",
+    "recordCount": 2,
+    "decodedBytes": 23924,
+    "decodedSha256": "911905c2c020593b68de47028fec9368c34cb50973f36b54b08adc372757b1a2",
+    "compressedBytes": 4340,
+    "compressedSha256": "39461403008e8ee20b0d26ae9afb7117f913e111ae1cd312124ee8c59c3e6fc2",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-plazi-rio-fish-dossier-batch.mjs"
+}

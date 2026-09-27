@@ -202,6 +202,51 @@
       "claimPolicy": "Two incomplete accepted-species dossiers with comparative morphology and locality-bounded ecology only; source spelling/usage redirect retained; article-level rights unknown; CC0 applies only to extracted Plazi archive rows; source ZIP EML not rechecked.",
       "completeDossiersAdded": 0,
       "externallyReviewedDossiersAdded": 0
+    },
+    {
+      "batchId": "plazi-rio-fish-dossier-batch-2026-09-27",
+      "input": "data/sources/plazi-rio-fish-dossier-batch-2026-09-27.json",
+      "inputSha256": "b0c789613ceb274cdd76bc6bb396f68aef0d052c99b7f1412d8268c0b8760464",
+      "generator": "scripts/build-plazi-rio-fish-dossier-batch.mjs",
+      "manifest": "data/knowledge/catalogue-dossiers-plazi-rio-fish-batch-2026-09-27.batch-manifest.json",
+      "authoredDossiers": 2,
+      "sourceRows": [
+        {
+          "colId": "3M86Z",
+          "sourceArchive": "033dea15-2311-43cb-8a89-cbb8e73e7988.zip",
+          "archiveSha256": "4b4c7d3cc01622331792cca5ac524ff0bf497472ac43123de5873cf7d495a01f",
+          "treatmentId": "B865879AFFCAC57BFC5E29ADFAF7F974",
+          "reviewedRows": [
+            4,
+            5,
+            8
+          ],
+          "claimRows": [
+            4,
+            5,
+            8
+          ]
+        },
+        {
+          "colId": "6RGPT",
+          "sourceArchive": "95e56920-147b-4e47-bf6f-858c13683b7f.zip",
+          "archiveSha256": "75f4e69193f65cfa0e32a728ae690f065ed0c860d58e1760adfbd8ca6d3d107e",
+          "treatmentId": "03B8FF3BA628895BFED2FC433E406821",
+          "reviewedRows": [
+            4,
+            5,
+            7
+          ],
+          "claimRows": [
+            4,
+            5,
+            7
+          ]
+        }
+      ],
+      "claimPolicy": "Two incomplete accepted-species dossiers with comparative morphology and sample-bounded ecology only; each source archive retains its own name and SHA-256; source ZIP EML was not rechecked; article item-level rights unknown; CC0 applies only to extracted Plazi rows.",
+      "completeDossiersAdded": 0,
+      "externallyReviewedDossiersAdded": 0
     }
   ]
 }

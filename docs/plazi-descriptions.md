@@ -113,6 +113,18 @@ source name and usage ID remain visible. This is one accepted species, not two;
 the description retains the publication's original spelling. Unmatched
 Chamaepinnularia mirim is not assigned a fabricated release-scoped ID.
 
+The 2026-09-27 Rio fish batch adds incomplete, not-reviewed dossiers for the
+direct accepted COL26.8 usages `3M86Z` (*Hollandichthys taramandahy*) and
+`6RGPT` (*Microglanis lundbergi*). Claims are limited to treatment rows 4/5/8
+and 4/5/7, respectively, with specimen, comparison-sample, locality, and
+label-source boundaries recorded in each dossier locator. The two source
+archives retain separate names and SHA-256 values. Their ZIP files are absent
+from this checkout and embedded EML was not rechecked; the ledger's CC0
+declaration applies only to extracted Plazi rows, while article item-level
+reuse rights remain unknown. Five facets per dossier remain not assessed.
+Details are recorded in the [batch manifest](../data/knowledge/catalogue-dossiers-plazi-rio-fish-batch-2026-09-27.batch-manifest.json)
+and [reviewed input](../data/sources/plazi-rio-fish-dossier-batch-2026-09-27.json).
+
 Wittmackia aurantiolilacina uses accepted COL26.8 VBWPB. The source's
 `Leme, E. Fernandez & Amorim 2025` and the catalogue's `Leme, E.P.Fern. & Amorim`
 are linked by an individually reviewed binomial, lineage and protologue match,
