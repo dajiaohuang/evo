@@ -25,5 +25,30 @@
     "quality": 11,
     "originalSha256": "f0f4f2c60727c746c7fdc05421e0defef0130ab02c54f5ff177de2a92ba929c4",
     "decodedSha256": "c63c17526ce28115e8c478512405d06bb6a529c89233dbefa471df9a66cf6629"
-  }
+  },
+  "auditedDossierBatches": [
+    {
+      "batchId": "fna-stratified-morphology-dossier-batch-2026-09-27",
+      "input": "data/sources/fna-stratified-morphology-dossier-batch-2026-09-27.json",
+      "inputSha256": "f6f94b2566360eaad5abf42ae58a8968b117be7c72a1c12004ee5679d82c0262",
+      "generator": "scripts/build-fna-stratified-morphology-dossier-batch-2026-09-27.mjs",
+      "manifest": "data/knowledge/fna-stratified-morphology-dossier-batch-2026-09-27.batch-manifest.json",
+      "sampledAcceptedSpeciesWithoutDossier": 100,
+      "authoredDossiers": 99,
+      "excluded": [
+        {
+          "colId": "4RHKL",
+          "reason": "Excluded after item-level semantic review: the row only states the number of varieties and broad regions (“e North America; West Indies”); it supplies no direct morphology claim for the accepted species and is insufficiently scoped for a distribution claim."
+        }
+      ],
+      "selectionRule": {
+        "population": "FNA source rows whose COL ID is absent from the complete indexed dossier store at base audit state",
+        "order": "ascending COL ID using English ordinal string order",
+        "populationCount": 7284,
+        "strata": 100,
+        "selection": "zero-based position floor((i + 0.5) * populationCount / strata) for i=0..99"
+      },
+      "claimPolicy": "morphology only; English excerpts remain untranslated; other six facets not assessed; all records incomplete and not reviewed"
+    }
+  ]
 }

@@ -86,3 +86,35 @@ albicaulis* during its audit; those claims use only the hash-pinned archived row
 and its citation. All thirty-two dossiers remain in the canonical evidence store;
 FNA source descriptions remain excluded from App and GitHub Pages preview
 payloads.
+
+## Deterministic stratified morphology batch
+
+The 2026-09-27 semantic audit sampled 100 of the 7,284 FNA-linked accepted COL
+species that had no dossier in the base evidence index. It sorted COL IDs in
+ordinal order, divided that ordered population into 100 equal-rank strata, and
+selected position `floor((i + 0.5) * 7,284 / 100)` in each stratum (zero-based
+`i`). Ninety-nine rows directly support a bounded morphology excerpt and were
+added as incomplete, not-reviewed dossiers. `4RHKL` (*Ranunculus recurvatus*)
+was excluded: its row only states a variety count and broad regions, without a
+species-level morphology claim or a sufficiently scoped distribution claim.
+
+The exact 100 sampled IDs, source row numbers and IDs, citations, item rights
+fields, excerpt text, exclusion rationale, baseline dossier-ID digest, and input
+digest are retained in
+`data/sources/fna-stratified-morphology-dossier-batch-2026-09-27.json`.
+Rebuild the archive records and manifest with
+`node scripts/build-fna-stratified-morphology-dossier-batch-2026-09-27.mjs`.
+The output dossier shard remains in the audit evidence store and is not a
+measure of coverage for unsampled FNA rows. Each dossier records one
+partially-supported morphology facet; life history, ecology, evolution,
+distribution, fossils, and conservation remain not assessed. English excerpts
+remain untranslated.
+
+## Shared App and Pages preview selection
+
+App native-core and GitHub Pages preview use the same curated content selection.
+Primates remain a priority within that shared selection. The complete FNA source,
+this stratified evidence batch, and the full species evidence queue remain audit
+assets; none is an App native-core or Pages preview payload. A dossier may enter
+the shared selection only through the curated package/profile selection used by
+both editions.

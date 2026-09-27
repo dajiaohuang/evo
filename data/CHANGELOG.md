@@ -1,5 +1,15 @@
 # Dataset changelog
 
+## Unreleased FNA stratified morphology batch — 2026-09-27
+
+- Added 99 COL26.8 accepted-species dossiers from a reproducible, equally
+  stratified sample of 100 FNA source rows among the 7,284-row base cohort
+  without dossiers. Excluded 4RHKL (*Ranunculus recurvatus*) after review found
+  no species-scoped morphology passage. All new records remain incomplete and
+  not reviewed; morphology alone is partially supported, with the other six
+  facets not assessed. The full FNA archive, dossier batch, and evidence queue
+  remain outside App native-core and GitHub Pages preview.
+
 ## Unreleased Brazil Flora dossier increment — 2026-09-27
 
 - Added 27,593 incomplete COL26.8 species dossiers from exact Brazilian Flora

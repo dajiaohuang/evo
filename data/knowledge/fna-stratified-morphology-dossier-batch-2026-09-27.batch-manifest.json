@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 1,
+  "batchId": "fna-stratified-morphology-dossier-batch-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/fna-stratified-morphology-dossier-batch-2026-09-27.json",
+    "sha256": "f6f94b2566360eaad5abf42ae58a8968b117be7c72a1c12004ee5679d82c0262"
+  },
+  "sampleRule": {
+    "population": "FNA source rows whose COL ID is absent from the complete indexed dossier store at base audit state",
+    "order": "ascending COL ID using English ordinal string order",
+    "populationCount": 7284,
+    "strata": 100,
+    "selection": "zero-based position floor((i + 0.5) * populationCount / strata) for i=0..99"
+  },
+  "baseAudit": {
+    "indexedRecordCount": 36214,
+    "indexedShardCount": 70,
+    "dossierIdsSha256": "6501247d05d1b4a7e49a340c7d41206ad31d0331ee2d15467f4352327919cbe8",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "newRecords": [
+    {
+      "colId": "33CFQ",
+      "scientificName": "Cyperus houghtonii Torr."
+    },
+    {
+      "colId": "34JJ7",
+      "scientificName": "Delphinium parishii A.Gray"
+    },
+    {
+      "colId": "36D8R",
+      "scientificName": "Dioscorea sansibarensis Pax"
+    },
+    {
+      "colId": "37JCQ",
+      "scientificName": "Draba palanderiana Kjellm."
+    },
+    {
+      "colId": "38GSR",
+      "scientificName": "Echinocereus enneacanthus Engelm."
+    },
+    {
+      "colId": "39MSB",
+      "scientificName": "Encalypta rhaptocarpa Schwägr."
+    },
+    {
+      "colId": "3B4N4",
+      "scientificName": "Eriogonum elegans Greene"
+    },
+    {
+      "colId": "3B4V8",
+      "scientificName": "Eriogonum rixfordii S.Stokes"
+    },
+    {
+      "colId": "3BFGQ",
+      "scientificName": "Erythronium rostratum W.Wolf"
+    },
+    {
+      "colId": "3CPQK",
+      "scientificName": "Euphorbia meganaesos Featherm."
+    },
+    {
+      "colId": "3FBSL",
+      "scientificName": "Garrya fremontii Torr."
+    },
+    {
+      "colId": "3K4JC",
+      "scientificName": "Helenium bolanderi A.Gray"
+    },
+    {
+      "colId": "3LDJN",
+      "scientificName": "Heterosavia bahamensis (Britton) Petra Hoffm."
+    },
+    {
+      "colId": "3NJ7C",
+      "scientificName": "Hymenocallis rotata (Ker Gawl.) Herb."
+    },
+    {
+      "colId": "3PZSC",
+      "scientificName": "Iris innominata L.F.Hend."
+    },
+    {
+      "colId": "3QTLP",
+      "scientificName": "Juncus confusus Coville"
+    },
+    {
+      "colId": "3SNXX",
+      "scientificName": "Layia fremontii (Torr. & A.Gray) A.Gray"
+    },
+    {
+      "colId": "3WDRD",
+      "scientificName": "Luina serpentina Cronquist"
+    },
+    {
+      "colId": "3XV3M",
+      "scientificName": "Manihot davisiae Croizat"
+    },
+    {
+      "colId": "3ZSL7",
+      "scientificName": "Mentzelia paradoxensis J.J.Schenk & L.Hufford"
+    },
+    {
+      "colId": "43LJ9",
+      "scientificName": "Mirabilis rotundifolia (Greene) Standl."
+    },
+    {
+      "colId": "47T3W",
+      "scientificName": "Notholaena aschenborniana Klotzsch"
+    },
+    {
+      "colId": "4CJK3",
+      "scientificName": "Papaver somniferum L."
+    },
+    {
+      "colId": "4FXPG",
+      "scientificName": "Phedimus aizoon (L.) 't Hart"
+    },
+    {
+      "colId": "4HG3G",
+      "scientificName": "Physaria hitchcockii (Munz) O'Kane & Al-Shehbaz"
+    },
+    {
+      "colId": "4JD7J",
+      "scientificName": "Pityopsis ruthii (Small) Small"
+    },
+    {
+      "colId": "4LBHX",
+      "scientificName": "Polymnia laevigata Beadle"
+    },
+    {
+      "colId": "4M58P",
+      "scientificName": "Potentilla demotica Ertter"
+    },
+    {
+      "colId": "4NGX4",
+      "scientificName": "Pseudabutilon thurberi (A.Gray) Fryxell"
+    },
+    {
+      "colId": "4R583",
+      "scientificName": "Quercus incana W.Bartram"
+    },
+    {
+      "colId": "4STB6",
+      "scientificName": "Rhynchospora nivea Boeckeler"
+    },
+    {
+      "colId": "4TCZZ",
+      "scientificName": "Rosa carolina L."
+    },
+    {
+      "colId": "4TYQD",
+      "scientificName": "Sagittaria isoetiformis J.G.Sm."
+    },
+    {
+      "colId": "4W9N7",
+      "scientificName": "Sedum nuttallii Torr. & E.James ex Eaton"
+    },
+    {
+      "colId": "4WZZ6",
+      "scientificName": "Sesuvium trianthemoides Correll"
+    },
+    {
+      "colId": "4XDFW",
+      "scientificName": "Silene vulgaris (Moench) Garcke"
+    },
+    {
+      "colId": "4Y7BV",
+      "scientificName": "Solidago kralii Semple"
+    },
+    {
+      "colId": "4Z6R4",
+      "scientificName": "Spiraea splendens Baumann ex K.Koch"
+    },
+    {
+      "colId": "52XFQ",
+      "scientificName": "Streptanthus hesperidis Jeps."
+    },
+    {
+      "colId": "53Q92",
+      "scientificName": "Symphyotrichum porteri (A.Gray) G.L.Nesom"
+    },
+    {
+      "colId": "5688F",
+      "scientificName": "Thelesperma nuecense B.L.Turner"
+    },
+    {
+      "colId": "57L7R",
+      "scientificName": "Townsendia eximia A.Gray"
+    },
+    {
+      "colId": "59BM3",
+      "scientificName": "Tropidocarpum californicum (Al-Shehbaz) Al-Shehbaz"
+    },
+    {
+      "colId": "5BM7V",
+      "scientificName": "Vitis vulpina L."
+    },
+    {
+      "colId": "5TVJF",
+      "scientificName": "Allium campanulatum S.Watson"
+    },
+    {
+      "colId": "5WN57",
+      "scientificName": "Bolboschoenus fluviatilis (Torr.) Soják"
+    },
+    {
+      "colId": "5XBJG",
+      "scientificName": "Carex austrina Mack."
+    },
+    {
+      "colId": "5YD2B",
+      "scientificName": "Chorizanthe fimbriata Nutt."
+    },
+    {
+      "colId": "653V7",
+      "scientificName": "Adiantum aleuticum (Rupr.) C.A.Paris"
+    },
+    {
+      "colId": "669LF",
+      "scientificName": "Alyssum simplex Rudolphi"
+    },
+    {
+      "colId": "68LS4",
+      "scientificName": "Blindia acuta (Hedw.) Bruch & Schimp."
+    },
+    {
+      "colId": "69BFX",
+      "scientificName": "Carex lemmonii W.Boott"
+    },
+    {
+      "colId": "6BB52",
+      "scientificName": "Crataegus collina Chapm."
+    },
+    {
+      "colId": "6CPLC",
+      "scientificName": "Deutzia scabra Thunb."
+    },
+    {
+      "colId": "6F2MK",
+      "scientificName": "Eleocharis quadrangulata (Michx.) Roem. & Schult."
+    },
+    {
+      "colId": "6GN7M",
+      "scientificName": "Ericameria discoidea (Nutt.) G.L.Nesom"
+    },
+    {
+      "colId": "6GQ93",
+      "scientificName": "Erigeron trifidus Hook."
+    },
+    {
+      "colId": "6H3CJ",
+      "scientificName": "Eriogonum tiehmii Reveal"
+    },
+    {
+      "colId": "6JDKR",
+      "scientificName": "Fontinalis dalecarlica Bruch & Schimp."
+    },
+    {
+      "colId": "6KG6R",
+      "scientificName": "Geum peckii Pursh"
+    },
+    {
+      "colId": "6M8Z5",
+      "scientificName": "Hieracium traillii Greene"
+    },
+    {
+      "colId": "6NGZ9",
+      "scientificName": "Juncus vaseyi Engelm."
+    },
+    {
+      "colId": "6PBWJ",
+      "scientificName": "Lepidospartum latisquamum S.Watson"
+    },
+    {
+      "colId": "6R2P6",
+      "scientificName": "Lysimachia clethroides Duby"
+    },
+    {
+      "colId": "6V5F3",
+      "scientificName": "Persicaria glabra (Willd.) M.Gómez"
+    },
+    {
+      "colId": "6X3R2",
+      "scientificName": "Quercus arkansana Sarg."
+    },
+    {
+      "colId": "6XHT2",
+      "scientificName": "Samolus parviflorus Raf."
+    },
+    {
+      "colId": "6YQMY",
+      "scientificName": "Silphium albiflorum A.Gray"
+    },
+    {
+      "colId": "6ZXXT",
+      "scientificName": "Streptanthus barbiger Greene"
+    },
+    {
+      "colId": "7358Y",
+      "scientificName": "Malus baccata (L.) Borkh."
+    },
+    {
+      "colId": "75VX7",
+      "scientificName": "Pavonia paludicola Nicolson ex Fryxell"
+    },
+    {
+      "colId": "77ZZ3",
+      "scientificName": "Prunus fremontii S.Watson"
+    },
+    {
+      "colId": "799R2",
+      "scientificName": "Rudbeckia laciniata L."
+    },
+    {
+      "colId": "79WDR",
+      "scientificName": "Schoenoplectus torreyi (Olney) Palla"
+    },
+    {
+      "colId": "7CQKY",
+      "scientificName": "Tribulus cistoides L."
+    },
+    {
+      "colId": "7FZLL",
+      "scientificName": "Xyris tennesseensis Kral"
+    },
+    {
+      "colId": "8SBJ",
+      "scientificName": "Acalypha radians Torr."
+    },
+    {
+      "colId": "9LF6F",
+      "scientificName": "Fissidens osmundioides Hedw."
+    },
+    {
+      "colId": "9XL4D",
+      "scientificName": "Crataegus roribacca Ashe"
+    },
+    {
+      "colId": "BJNMZ",
+      "scientificName": "Drummondia prorepens (Hedw.) Trevis."
+    },
+    {
+      "colId": "CPPB",
+      "scientificName": "Ambrosia grayi (A.Nelson) Shinners"
+    },
+    {
+      "colId": "GBLS",
+      "scientificName": "Arctostaphylos canescens Eastw."
+    },
+    {
+      "colId": "GT3M",
+      "scientificName": "Arnica discoidea Benth."
+    },
+    {
+      "colId": "HLPN",
+      "scientificName": "Asplenium trichomanes L."
+    },
+    {
+      "colId": "KSV8",
+      "scientificName": "Bartramia stricta Brid."
+    },
+    {
+      "colId": "M93R",
+      "scientificName": "Boechera dispar (M.E.Jones) Al-Shehbaz"
+    },
+    {
+      "colId": "MPK9",
+      "scientificName": "Botrychium pinnatum H.St.John"
+    },
+    {
+      "colId": "PXB2",
+      "scientificName": "Calochortus invenustus Greene"
+    },
+    {
+      "colId": "R4C5",
+      "scientificName": "Cardamine cordifolia A.Gray"
+    },
+    {
+      "colId": "R8FM",
+      "scientificName": "Carex brunnescens (Pers.) Poir."
+    },
+    {
+      "colId": "R9FF",
+      "scientificName": "Carex glareosa Schkuhr ex Wahlenb."
+    },
+    {
+      "colId": "RBK6",
+      "scientificName": "Carex richardsonii R.Br."
+    },
+    {
+      "colId": "RCKN",
+      "scientificName": "Carex vulpinoidea Michx."
+    },
+    {
+      "colId": "S6FY",
+      "scientificName": "Centaurea diffusa Lam."
+    },
+    {
+      "colId": "VDN8",
+      "scientificName": "Cinclidium stygium Sw."
+    },
+    {
+      "colId": "VL7GR",
+      "scientificName": "Sphagnum subnitens Russow & Warnst."
+    },
+    {
+      "colId": "VY9G",
+      "scientificName": "Clematis occidentalis (Hornem.) DC."
+    },
+    {
+      "colId": "YGJT",
+      "scientificName": "Cornus florida L."
+    },
+    {
+      "colId": "ZJRS",
+      "scientificName": "Crocanthemum canadense (L.) Britton"
+    }
+  ],
+  "excluded": {
+    "colId": "4RHKL",
+    "scientificName": "Ranunculus recurvatus Poir.",
+    "rowNumber": 9355,
+    "sourceId": "ECB1B19B-ED43-4526-9CF1-05992066435E",
+    "citation": "Ranunculus recurvatus Poiret in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+    "reason": "Excluded after item-level semantic review: the row only states the number of varieties and broad regions (“e North America; West Indies”); it supplies no direct morphology claim for the accepted species and is insufficiently scoped for a distribution claim."
+  },
+  "indexedRecordCount": 36313,
+  "newShard": {
+    "path": "data/knowledge/catalogue-dossiers-fna-stratified-morphology-dossier-batch-2026-09-27.jsonl.br",
+    "rawPath": "data/knowledge/raw-dossiers/fna-stratified-morphology-dossier-batch-2026-09-27.jsonl",
+    "encoding": "brotli-jsonl",
+    "recordCount": 99,
+    "decodedBytes": 902541,
+    "decodedSha256": "4f78e6acc238560e7e2b0fd4baef4af1db8b99a44c90232767d9cc5682d18d5c",
+    "compressedBytes": 28571,
+    "compressedSha256": "9d81b19f279c096f73cb85da7cdda1d3c39d4acbb5ad8fa47e87738cc0148907",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "sourceArchive": {
+    "path": "data/sources/fna-descriptions.jsonl.br",
+    "sha256": "f6000a5956207c9e300d1009c791951b83e865661e9edeba4aba4c66ff3dcbf1",
+    "archiveLicenseLedger": "data/sources/fna-descriptions-import-ledger.json"
+  },
+  "generator": "scripts/build-fna-stratified-morphology-dossier-batch-2026-09-27.mjs"
+}

@@ -424,6 +424,12 @@ function build() {
 
   const current = loadCurrentIndex()
   const currentShard = currentGeneratedIds(current.index)
+  const currentShardIndex = current.index.shards.findIndex(shard => shard.path === SHARD_PATH)
+  const currentBatchManifest = currentShard.shard ? readJson(MANIFEST_PATH) : null
+  if (currentBatchManifest) {
+    assert.match(currentBatchManifest.baseIndexSha256, /^[a-f0-9]{64}$/, 'Brazilian Flora batch manifest has an invalid base index digest')
+    assert.match(currentBatchManifest.finalIndexSha256, /^[a-f0-9]{64}$/, 'Brazilian Flora batch manifest has an invalid final index digest')
+  }
   const currentRecords = readCatalogueDossiers().records
   const priorIds = new Set(currentRecords.filter(record => !currentShard.ids.has(record.colId)).map(record => record.colId))
   const baseIndex = { ...current.index, shards: current.index.shards.filter(shard => shard.path !== SHARD_PATH), recordCount: current.index.recordCount - (currentShard.shard?.recordCount ?? 0) }
@@ -474,7 +480,9 @@ function build() {
     decodedSha256: sha256(decoded),
     compressedSha256: sha256(compressed),
   }
-  const nextIndex = { ...baseIndex, shards: [...baseIndex.shards, shardMetadata], recordCount: baseIndex.recordCount + records.length }
+  const nextShards = [...baseIndex.shards]
+  nextShards.splice(currentShardIndex < 0 ? nextShards.length : currentShardIndex, 0, shardMetadata)
+  const nextIndex = { ...baseIndex, shards: nextShards, recordCount: baseIndex.recordCount + records.length }
   const nextIndexBytes = jsonBytes(nextIndex)
   const duplicateQuarantine = duplicateGroups.map(group => ({ textSha256: group.textSha256, rows: group.rows }))
   const manifest = {
@@ -537,8 +545,9 @@ function build() {
       acceptedSpeciesMappingsVerified: records.length,
       parentChainsFrozenFromPinnedRegistry: records.length,
     },
-    baseIndexSha256: sha256(baseIndexBytes),
-    finalIndexSha256: sha256(nextIndexBytes),
+    // Keep historical index digests stable when later dossier batches append shards.
+    baseIndexSha256: currentBatchManifest?.baseIndexSha256 ?? sha256(baseIndexBytes),
+    finalIndexSha256: currentBatchManifest?.finalIndexSha256 ?? sha256(nextIndexBytes),
     dossierShard: {
       ...shardMetadata,
       decodedBytes: decoded.length,
