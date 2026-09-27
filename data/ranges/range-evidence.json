@@ -12608,5 +12608,31 @@
       }
     ],
     "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:macaca_silenus:global",
+    "entityId": "macaca_silenus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Macaca silenus accepted COL26.8 usage 3WWP6; numerical temporal and geographic range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed; sampled Western Ghats locations are not a complete current range inventory",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Zero values are non-display placeholders; the selected mitochondrial and single-troop studies do not establish temporal fossil endpoints or a complete wild-distribution inventory."
+    },
+    "evidenceBasis": "COL26.8 supports accepted identity and classification; Ram et al. report regional mitochondrial sampling and Dhawale et al. report one living troop, neither a complete fossil-range or current distribution study.",
+    "evidenceLevel": "withheld-no-range-evidence",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "col-2026-checklistbank-316115",
+        "locator": "COL26.8 dataset 316115; accepted usage 3WWP6 and parent classification (identity only)"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]

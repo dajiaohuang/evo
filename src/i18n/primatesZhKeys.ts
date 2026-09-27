@@ -223,4 +223,11 @@ export const primatesZhKeys = new Set<string>([
   "At Parambikulam, 54 groups were detected in 33 of 64 grid cells and modelled mean occupancy was 0.51 ± 0.08 (SE); this is one forest survey, not a complete habitat account.",
   "Not assessed as a broader species-level ecological guild.",
   "Selected evidence comes from one 2017 study: a single-forest occupancy survey, a historical temple/tourist-site comparison and roadside counts on roads connected to Mysore. Morphology, life history, evolution, species-range limits, fossil record and current formal conservation status remain unassessed; this profile is incomplete and has not received independent expert review.",
+  "Lion-tailed Macaque",
+  "Western Ghats, Karnataka, Kerala and Tamil Nadu, India (15 named sampling sites, 2010–2012; wild fecal samples)",
+  "Puthuthottam forest fragment, Valparai plateau, Tamil Nadu, India (one troop; February–May 2016 study site)",
+  "COL26.8 accepted species usage 3WWP6 identifies Macaca silenus (Linnaeus, 1758).",
+  "At Puthuthottam, the studied troop consumed plant parts from 19 plant species and other non-plant foods; plant feeding was greater in the forest interior than at the forest edge, while invertebrate feeding was greater in the open patch than in the interior. This is a single-troop dry-season result.",
+  "During over 480 follow-hours in one habituated troop, active foraging was higher in the open forest patch and forest edge, and lower in the human settlement than in the forest interior; the activity budget differed between interior and settlement. One troop was observed from February to May 2016.",
+  "The ecological profile is based on one habituated troop observed during the 2016 dry season. These local observations are incomplete species evidence, not a range-wide or annual ecological synthesis.",
 ])
