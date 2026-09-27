@@ -27,6 +27,15 @@
   package set, including Primates. Full species dossier data remains outside the
   native App bundle.
 
+## Unreleased full-Web retention budget — 2026-09-27
+
+- Kept all source-linked species dossiers in the full-Web catalogue runtime. CI
+  measured 654.88 MiB of lazy runtime data after this dossier batch, so its
+  release-retention allowance is now 700 MiB. The native-core and GitHub Pages preview editions retain their
+  650 MiB allowance and the same selected taxon scope; the Pages deployment
+  total limit remains 650 MiB. No full dossier archive or queue is added to
+  either selected edition.
+
 ## 2026.09-static-v5-rc153 — 2026-09-23
 
 - Added six source-linked bilingual introductions from order Araneae through Atracidae and Atrax to three Sydney-region funnel-web species. The 2025 morphological and molecular reassessment is bounded to its sampled species complex; regional ranges and withheld localities remain explicit. Historical source counts, venom rankings, clinical guidance and conservation judgments were excluded.
