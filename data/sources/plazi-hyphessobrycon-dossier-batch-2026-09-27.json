@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "plazi-hyphessobrycon-dossier-batch-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-27",
+  "source": {
+    "provider": "Plazi TreatmentBank",
+    "projectionPath": "data/sources/plazi-descriptions.jsonl.gz",
+    "projectionSha256": "466773ce5eca7e77627dd13903e074c6446eb2d91ba3eaaa53c79f10ebd3cda0",
+    "archiveInputKey": "fish",
+    "archiveInputSha256": "78dea6e79bcd40ae8528d73e431e5c39624bc64a67e50c70d7d4d5831fb98491",
+    "archiveSha256": "5a0fd2206af2b824dd67882f2fee9ac1cd4f7f1713fa831cbf3e7f35aad87d84",
+    "sourceArchive": "092ca7be-074f-46be-9e1f-3580ecb289e6.zip",
+    "license": "CC0 1.0",
+    "licenseAssessment": "aggregate-declaration-only",
+    "archiveZipAvailableInCheckout": false,
+    "rightsBoundary": "The committed Plazi import ledger declares CC0 1.0 for extracted archive rows. The original ZIP is absent from this checkout, so its embedded EML was not independently rechecked for this batch. This declaration does not establish item-level reuse rights for the cited journal article, DOI landing page, PDF, or figures; article rights remain unknown."
+  },
+  "article": {
+    "title": "A new species of Hyphessobrycon Durbin (Characiformes: Characidae) from the rio Juruena basin, Central Brazil, with notes on H. loweae Costa & Géry",
+    "authors": "Leonardo F. S. Ingenito, Flávio C. T. Lima, and Paulo A. Buckup",
+    "doi": "10.1590/S1679-62252013000100004",
+    "url": "https://doi.org/10.1590/S1679-62252013000100004",
+    "citation": "Ingenito, Leonardo F. S., Lima, Flávio C. T., Buckup, Paulo A. (2013): A new species of Hyphessobrycon Durbin (Characiformes: Characidae) from the rio Juruena basin, Central Brazil, with notes on H. loweae Costa & Géry. Neotropical Ichthyology 11 (1): 33-44.",
+    "publishedAt": "2013",
+    "license": "Unknown at article level",
+    "licenseAssessment": "unknown",
+    "locator": "Two taxon treatments: Hyphessobrycon peugeoti source treatment pages 34-37; H. loweae treatment pages 38-40. Claim-level DOI pages and Plazi description-extension row locators are recorded on each facet."
+  },
+  "records": [
+    {
+      "colId": "3NRY9",
+      "scientificName": "Hyphessobrycon loweae",
+      "sourceName": "Hyphessobrycon loweae",
+      "sourceUsageId": "3NRY9",
+      "treatmentId": "03D2C41AD050FFB7FF28FF17FEFAF17E",
+      "reviewedRows": [10, 11, 12],
+      "claims": {
+        "morphology": {
+          "rows": [10, 11],
+          "pages": "article pp. 38-40",
+          "text": "The treatment's comparative diagnosis describes mature male Hyphessobrycon loweae with an elongated, filamentous dorsal fin. Compared with H. peugeoti, the examined H. loweae material is reported with six to seven horizontal scale rows from dorsal-fin origin to lateral line and 17-21 branched anal-fin rays (mode 20), versus five rows and 21-24 rays (mode 22) for H. peugeoti. These are treatment-level diagnostic comparisons, not estimates of all populations.",
+          "placeTimeScope": "Comparative diagnosis and meristic description in the 2013 treatment, pp. 38-40, Plazi rows 10-11. The fin character is explicitly restricted to mature males; the counts describe examined taxonomic material and do not quantify all populations.",
+          "lifeStatus": "The diagnosis and counts concern specimens described in the taxonomic treatment. Broader population, age-class, and life-status coverage was not assessed."
+        },
+        "ecology": {
+          "rows": [12],
+          "pages": "article p. 40",
+          "text": "The authors report clear, slow-flowing streams with abundant submerged vegetation at named H. loweae localities, including Córrego Xavante, upper rio das Mortes, and rio Culuene tributaries near Gaúcha do Norte. They also cite paratypes from the small, densely vegetated Lago do Leo. These are locality-specific reports, not a complete or uniform habitat rule for the species.",
+          "placeTimeScope": "Habitat notes in the 2013 treatment, p. 40, Plazi row 12. The cited basis varies by locality and includes personal communications, an author observation, and an earlier published account; dates are not supplied for these habitat observations. The article separately reports upper rio Xingu and upper rio das Mortes drainage records.",
+          "lifeStatus": "The paragraph concerns reported habitat observations and taxonomic collection localities. Cultivated, escaped, and unsampled populations were not assessed."
+        }
+      }
+    },
+    {
+      "colId": "3NRZH",
+      "scientificName": "Hyphessobrycon peugeotorum",
+      "sourceName": "Hyphessobrycon peugeoti",
+      "sourceUsageId": "KVD6K",
+      "acceptedRedirectId": "3NRZH",
+      "sourceStatus": "synonym",
+      "treatmentId": "03D2C41AD054FFBBFC77FE36FBF4F1CB",
+      "reviewedRows": [4, 5, 6],
+      "sourceMappingNote": "COL26.8 source usage KVD6K is the synonym Hyphessobrycon peugeoti and explicitly redirects to accepted usage 3NRZH, Hyphessobrycon peugeotorum. Keep the source spelling and source usage on every linked claim; do not count this as a second accepted species.",
+      "claims": {
+        "morphology": {
+          "rows": [4, 5],
+          "pages": "article pp. 34-37",
+          "text": "The treatment describes source-named Hyphessobrycon peugeoti with an elongated, filamentous dorsal fin in mature males and red coloration in life, contrasted with golden H. loweae. Its diagnosis reports five horizontal scale rows from dorsal-fin origin to lateral line and 21-24 branched anal-fin rays (mode 22), compared with six to seven rows and 17-21 rays (mode 20) in H. loweae. These are comparative diagnosis and examined-material values, not estimates across all populations.",
+          "placeTimeScope": "Diagnosis and description in the 2013 treatment, pp. 34-37, Plazi rows 4-5. The fin and live-color comparison concerns mature males / reported live coloration; Table 1 morphometrics use 24 specimens, while individual meristic counts have character-specific counts.",
+          "lifeStatus": "The morphology summarizes type and examined specimens in the cited treatment; it does not establish variation across all populations or life stages."
+        },
+        "ecology": {
+          "rows": [6],
+          "pages": "article pp. 34, 37",
+          "text": "The authors report specimens collected in shallow areas under one metre deep in the early dry season, but the recorded sites differ: the type locality was a swampy, deforested roadside area beside preserved forest; MNRJ 29609 came from below a recently breached dam; the single MNRJ 29503 specimen came from a clear, sandy-bottom flowing stream with sparse aquatic vegetation; and named paratypes came from a flooded area beside the rio Juruena. These collection settings do not define a uniform species-wide niche.",
+          "placeTimeScope": "Habitat and ecological notes in the 2013 treatment, p. 37, Plazi row 6; associated examined-material dates are listed on p. 34. The Fazenda São Nicolau type-locality material includes 5-6 May 2006 collections; ZUEC 6362 is dated 25-26 July 1997. Sites and dates refer to reported lots only; the article describes the species distribution as tributaries of the middle rio Juruena, upper rio Tapajós basin, Mato Grosso, Brazil.",
+          "lifeStatus": "The claim reports wild collection localities and field observations in the taxonomic treatment. It does not infer habitat preference, seasonal use beyond the cited collections, or conditions at unreported sites."
+        }
+      }
+    }
+  ],
+  "facetGaps": {
+    "morphology": "Only comparative diagnoses and selected meristic / specimen description data from one taxonomic article are represented; population-wide variation, additional life stages, and unreported characters remain unassessed.",
+    "lifeHistory": "The cited specimen collection dates and early-dry-season collection note do not establish a full reproductive calendar, development, lifespan, or complete life cycle.",
+    "ecology": "Evidence is limited to the article's named locality and collection-site observations. Habitat preference, environmental tolerances, interactions, sampling completeness, and unsampled populations remain unassessed.",
+    "evolution": "No phylogenetic or population-genetic evidence is assessed in this source slice.",
+    "distribution": "Article-scoped drainage and locality statements are not a current, exhaustive range assessment or temporal trend.",
+    "fossil": "No fossil evidence is assessed in this source slice.",
+    "conservation": "No conservation assessment, population trend, or threat evaluation is assessed in this source slice."
+  }
+}

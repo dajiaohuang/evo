@@ -157,6 +157,51 @@
       "claimPolicy": "Two bounded partial facets per species; five facets not assessed; S. tigrina palp conflict excluded; article item-level rights unknown; CC0 applies only to extracted Plazi records.",
       "completeDossiersAdded": 0,
       "externallyReviewedDossiersAdded": 0
+    },
+    {
+      "batchId": "plazi-hyphessobrycon-dossier-batch-2026-09-27",
+      "input": "data/sources/plazi-hyphessobrycon-dossier-batch-2026-09-27.json",
+      "inputSha256": "139f47253d6fadffbb12412877a3d4d7395e2ee5b20ece84ce4daebe76a958ec",
+      "generator": "scripts/build-plazi-hyphessobrycon-dossier-batch.mjs",
+      "manifest": "data/knowledge/catalogue-dossiers-plazi-hyphessobrycon-batch-2026-09-27.batch-manifest.json",
+      "authoredDossiers": 2,
+      "sourceRows": [
+        {
+          "colId": "3NRY9",
+          "sourceColUsageId": "3NRY9",
+          "sourceScientificName": "Hyphessobrycon loweae",
+          "treatmentId": "03D2C41AD050FFB7FF28FF17FEFAF17E",
+          "reviewedRows": [
+            10,
+            11,
+            12
+          ],
+          "claimRows": [
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "colId": "3NRZH",
+          "sourceColUsageId": "KVD6K",
+          "sourceScientificName": "Hyphessobrycon peugeoti",
+          "treatmentId": "03D2C41AD054FFBBFC77FE36FBF4F1CB",
+          "reviewedRows": [
+            4,
+            5,
+            6
+          ],
+          "claimRows": [
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "claimPolicy": "Two incomplete accepted-species dossiers with comparative morphology and locality-bounded ecology only; source spelling/usage redirect retained; article-level rights unknown; CC0 applies only to extracted Plazi archive rows; source ZIP EML not rechecked.",
+      "completeDossiersAdded": 0,
+      "externallyReviewedDossiersAdded": 0
     }
   ]
 }
