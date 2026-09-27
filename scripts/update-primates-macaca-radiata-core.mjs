@@ -161,6 +161,15 @@ const profile = {
   referenceIds: [colRef, paperRef],
   traitsAssessmentStatus: 'not-assessed',
 }
+const profileTranslations = {
+  [profile.geography[0]]: '印度卡纳塔克邦迈索尔相连道路样线（2003 与 2015 年对比计数；研究地点）',
+  [profile.geography[1]]: '印度喀拉拉邦 Parambikulam 景观（单一森林占域调查）',
+  [profile.geography[2]]: '南印度寺庙/旅游地点（历史地点状态比较）',
+  'Not assessed in the selected study.': '所选研究未评估。',
+  [profile.ecology.habitat]: '在 Parambikulam，研究者在 64 个网格中的 33 个检测到 54 个群体，模型估计平均占域率为 0.51 ± 0.08（标准误）；这仅来自一个森林调查，不是完整栖息地综述。',
+  [profile.ecology.guild]: '尚未评估该物种层级的整体生态类群。',
+  [profile.evidenceSummary]: '所选证据来自一项 2017 年研究：单一森林占域调查、寺庙/旅游地点历史比较，以及迈索尔相连道路的计数。形态、生活史、演化、物种分布边界、化石记录和当前正式保护状态仍未评估；本简介不完整，也未经过独立专家评审。',
+}
 const rangeEntities = [
   ['cercopithecoidea', 'Cercopithecoidea accepted usage 4X9'],
   ['cercopithecidae', 'Cercopithecidae accepted usage 7X9'],
@@ -331,6 +340,33 @@ function upsertObjectFields(path, entries, replaceableExistingValues = []) {
   writeFileSync(path, text, 'utf8')
 }
 
+function appendTsDictionaryEntries(path, entries) {
+  let source = readFileSync(path, 'utf8')
+  const missing = Object.entries(entries).filter(([key, value]) => {
+    const existing = source.split('\n').find(line => line.trim().startsWith(`'${key}':`) || line.trim().startsWith(`"${key}":`))
+    if (!existing) return true
+    if (existing.trim() !== `'${key}': '${value}',`) throw new Error(`Conflicting translation ${key} in ${path}`)
+    return false
+  })
+  if (!missing.length) return
+  const objectEnd = source.lastIndexOf('\n}')
+  if (objectEnd < 0) throw new Error(`Missing TypeScript object close in ${path}`)
+  const rendered = missing.map(([key, value]) => `  '${key}': '${value}',`).join('\n')
+  source = `${source.slice(0, objectEnd)}\n${rendered}${source.slice(objectEnd)}`
+  writeFileSync(path, source, 'utf8')
+}
+
+function appendTsSetEntries(path, entries) {
+  let source = readFileSync(path, 'utf8')
+  const missing = entries.filter(key => !source.split('\n').some(line => line.trim() === `${JSON.stringify(key)},`))
+  if (!missing.length) return
+  const setEnd = source.lastIndexOf('])')
+  if (setEnd < 0) throw new Error(`Missing TypeScript set close in ${path}`)
+  const rendered = missing.map(key => `  ${JSON.stringify(key)},`).join('\n')
+  source = `${source.slice(0, setEnd)}${rendered}\n${source.slice(setEnd)}`
+  writeFileSync(path, source, 'utf8')
+}
+
 function updateNestedObjectFields(path, objectKey, entries) {
   let original = readFileSync(path, 'utf8')
   const parsed = JSON.parse(original)
@@ -393,6 +429,8 @@ appendArrayRecords('data/ranges/range-evidence.json', ranges, null, item => item
 appendArrayRecords('data/sources/pbdb-taxon-resolution.json', resolutions, 'resolutions', item => item.entityId)
 upsertObjectFields('data/evidence/claim-statements.zh.json', translations)
 upsertObjectFields('data/evidence/claim-rationales.zh.json', rationales, ['固定版 COL26.8 直接给出这条已接受清单路径；该声明仅描述本数据集的分类，不推断普遍共识或系统发育关系。'])
+appendTsDictionaryEntries('src/i18n/primatesZh.ts', profileTranslations)
+appendTsSetEntries('src/i18n/primatesZhKeys.ts', Object.keys(profileTranslations))
 updateNestedObjectFields('data/sources/pbdb-taxon-resolution.json', 'summary', {
   ontologyNodes: JSON.parse(readFileSync('data/sources/pbdb-taxon-resolution.json', 'utf8')).resolutions.length,
   unresolved: JSON.parse(readFileSync('data/sources/pbdb-taxon-resolution.json', 'utf8')).resolutions.filter(item => item.resolutionStatus !== 'resolved').length,

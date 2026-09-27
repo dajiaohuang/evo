@@ -216,4 +216,11 @@ export const primatesZhKeys = new Set<string>([
   "A seven-year captive cohort study measured segmental morphometrics from infancy to adulthood; its growth pattern is not a species-wide body-size estimate.",
   "In one seven-year captive cohort, measured size and shape were similar at birth; later differences in growth rate and duration produced substantial size differences while measured body shape remained similar.",
   "The selected profile links primary evidence for morphology, reproduction, and a site-specific population-monitoring bias. Global distribution, fossil record, formal conservation status, and species-wide evolutionary synthesis remain unassessed; this dossier is incomplete and has not received independent expert review.",
+  "Mysore-connected roadside transects, Karnataka, India (comparative counts, 2003 and 2015; study site)",
+  "Parambikulam landscape, Kerala, India (one forest occupancy survey)",
+  "Southern Indian temple/tourist locations (historical site-status comparison)",
+  "Not assessed in the selected study.",
+  "At Parambikulam, 54 groups were detected in 33 of 64 grid cells and modelled mean occupancy was 0.51 ± 0.08 (SE); this is one forest survey, not a complete habitat account.",
+  "Not assessed as a broader species-level ecological guild.",
+  "Selected evidence comes from one 2017 study: a single-forest occupancy survey, a historical temple/tourist-site comparison and roadside counts on roads connected to Mysore. Morphology, life history, evolution, species-range limits, fossil record and current formal conservation status remain unassessed; this profile is incomplete and has not received independent expert review.",
 ])

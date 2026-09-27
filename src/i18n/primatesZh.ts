@@ -176,4 +176,11 @@ export const primatesZh: Record<string, string> = {
   'A seven-year captive cohort study measured segmental morphometrics from infancy to adulthood; its growth pattern is not a species-wide body-size estimate.': '一项为期七年的圈养群体研究从幼年到成年测量身体分段形态；其生长模式不能代表该物种整体的体型估计。',
   'In one seven-year captive cohort, measured size and shape were similar at birth; later differences in growth rate and duration produced substantial size differences while measured body shape remained similar.': '在一项七年圈养群体研究中，个体出生时的测量体型和形状相近；此后生长速度与持续时间差异带来显著体型差异，而测得的身体形状仍相近。',
   'The selected profile links primary evidence for morphology, reproduction, and a site-specific population-monitoring bias. Global distribution, fossil record, formal conservation status, and species-wide evolutionary synthesis remain unassessed; this dossier is incomplete and has not received independent expert review.': '该档案链接了形态、繁殖生态和特定地点种群监测偏差的一手证据。全球分布、化石记录、正式保护状况及全物种演化综述仍未评估；本档案不完整，且尚未经独立专家评审。',
+  'Mysore-connected roadside transects, Karnataka, India (comparative counts, 2003 and 2015; study site)': '印度卡纳塔克邦迈索尔相连道路样线（2003 与 2015 年对比计数；研究地点）',
+  'Parambikulam landscape, Kerala, India (one forest occupancy survey)': '印度喀拉拉邦 Parambikulam 景观（单一森林占域调查）',
+  'Southern Indian temple/tourist locations (historical site-status comparison)': '南印度寺庙/旅游地点（历史地点状态比较）',
+  'Not assessed in the selected study.': '所选研究未评估。',
+  'At Parambikulam, 54 groups were detected in 33 of 64 grid cells and modelled mean occupancy was 0.51 ± 0.08 (SE); this is one forest survey, not a complete habitat account.': '在 Parambikulam，研究者在 64 个网格中的 33 个检测到 54 个群体，模型估计平均占域率为 0.51 ± 0.08（标准误）；这仅来自一个森林调查，不是完整栖息地综述。',
+  'Not assessed as a broader species-level ecological guild.': '尚未评估该物种层级的整体生态类群。',
+  'Selected evidence comes from one 2017 study: a single-forest occupancy survey, a historical temple/tourist-site comparison and roadside counts on roads connected to Mysore. Morphology, life history, evolution, species-range limits, fossil record and current formal conservation status remain unassessed; this profile is incomplete and has not received independent expert review.': '所选证据来自一项 2017 年研究：单一森林占域调查、寺庙/旅游地点历史比较，以及迈索尔相连道路的计数。形态、生活史、演化、物种分布边界、化石记录和当前正式保护状态仍未评估；本简介不完整，也未经过独立专家评审。',
 }
