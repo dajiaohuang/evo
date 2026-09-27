@@ -1,0 +1,280 @@
+{
+  "releaseAlias": "COL26.8",
+  "batchId": "cross-clade-priority-species-evidence-batch-2026-09-28",
+  "checkedAt": "2026-09-28",
+  "audit": {
+    "baseHead": "cf558ec99ea1c5baec016f55828fd783fa2bb509",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "dossierIndexSha256": "ccfe3c0606f16b56ff7091e42df2de7738dca45e2ab262ffce0f1798eded5cbc",
+    "dossierIndexRecordCount": 36334,
+    "queueManifestSha256": "73d8c5bee89bff5874bc6814493a88904c3ec066e151ae4c781d89fac3d955b1",
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "duplicateAudit": {
+      "repository": "https://github.com/dajiaohuang/evo",
+      "checkedAt": "2026-09-28",
+      "methods": [
+        "Exact COL26.8 queue rows and all 80 dossier index shards checked for existing dossiers, names, and stable source IDs.",
+        "Repository text and source indexes searched for each COL ID, scientific name, article title, and DOI.",
+        "Public GitHub issues and pull requests searched across all states for each COL ID, scientific name, and DOI."
+      ],
+      "matches": [],
+      "limitations": "This audit covers the selected repository and public issue/PR search results at the checked time; it is not a claim that no related research exists."
+    },
+    "candidates": [
+      {
+        "colId": "7F2J9",
+        "queueShardPath": "data/knowledge/species-evidence-queue/2.jsonl.br",
+        "queueShardCompressedSha256": "9a991e41b50e1ee54419dca19867f75bf264bbcd0dd6182a2681f68415e64cb0",
+        "queueShardDecodedSha256": "9c037bcefbb08c0a7d4d4ed321ad7bf162cb3601deb0b58feeb48e7abb1d5b95",
+        "queueRowSha256": "e42c85258b78e4afbede3adafda52f05e098bca4681cb4e4e6aa66a67c6c6fce",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "6224G", "6226C", "LG", "VS", "4CT", "HQQ", "63VHR", "7F2J9"]
+      },
+      {
+        "colId": "4HPXM",
+        "queueShardPath": "data/knowledge/species-evidence-queue/d.jsonl.br",
+        "queueShardCompressedSha256": "22145dd502b23f9da392fe132d8c12c5d43dec3c9dd46ece19f36577606b0036",
+        "queueShardDecodedSha256": "dd47856f8d7ddfcdb3ba24340a9d35a2a616d73d8173e1caac6190bdf7e237e5",
+        "queueRowSha256": "78d7628338848423e5bb79af3d7244de5e16fea5cff9b6bc6eb516cff6320aef",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "V2", "3RL", "8L6", "63MBS", "4HPXM"]
+      },
+      {
+        "colId": "5BX2Q",
+        "queueShardPath": "data/knowledge/species-evidence-queue/d.jsonl.br",
+        "queueShardCompressedSha256": "22145dd502b23f9da392fe132d8c12c5d43dec3c9dd46ece19f36577606b0036",
+        "queueShardDecodedSha256": "dd47856f8d7ddfcdb3ba24340a9d35a2a616d73d8173e1caac6190bdf7e237e5",
+        "queueRowSha256": "ca451a58085a127998a53b1e340c4499065fe7f726fd2aefd36041bcb14dc8a4",
+        "classificationPathIds": ["CS5HF", "P", "CMQ8S", "TP", "C7ZVJ", "C7CGK", "C8NGJ", "C8MQF", "8W4P5", "5BX2Q"]
+      }
+    ]
+  },
+  "species": [
+    {
+      "target": {
+        "colId": "7F2J9",
+        "scientificName": "Ursus maritimus Phipps, 1774",
+        "authorship": "Phipps, 1774",
+        "rank": "species",
+        "sourceDatasetId": "2144"
+      },
+      "audit": {
+        "queueShardPath": "data/knowledge/species-evidence-queue/2.jsonl.br",
+        "queueShardCompressedSha256": "9a991e41b50e1ee54419dca19867f75bf264bbcd0dd6182a2681f68415e64cb0",
+        "queueShardDecodedSha256": "9c037bcefbb08c0a7d4d4ed321ad7bf162cb3601deb0b58feeb48e7abb1d5b95",
+        "queueRowSha256": "e42c85258b78e4afbede3adafda52f05e098bca4681cb4e4e6aa66a67c6c6fce",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "6224G", "6226C", "LG", "VS", "4CT", "HQQ", "63VHR", "7F2J9"]
+      },
+      "scope": "Evidence is limited to a 2012–2018 age-structured capture–recapture case study of independent, free-ranging polar bears in western Hudson Bay. It does not establish species-wide survival or the status of the whole subpopulation.",
+      "lifeStatusScope": {
+        "wild": "The claim uses individually marked, free-ranging polar bears sampled by helicopter surveys in western Hudson Bay.",
+        "domesticated": "Domesticated populations have not been assessed.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "hostetter2021",
+          "title": "Hostetter, Lunn, Richardson, Regehr & Converse (2021), Age-structured Jolly-Seber model expands inference and improves parameter estimation from capture-recapture data",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252748",
+          "stableId": "doi:10.1371/journal.pone.0252748",
+          "version": "PLOS ONE 16(6): e0252748; version of record published 2021-06-09",
+          "publishedAt": "2021-06-09",
+          "accessedAt": "2026-09-28",
+          "locator": "Abstract; Materials and Methods, Case study; Results, Case study and Fig. 3; Discussion, limitations of the western Hudson Bay case study.",
+          "license": "CC0 1.0 public domain dedication; the publisher states that the article is free of copyright and may be modified or reused for any lawful purpose.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original research applying an age-structured Jolly–Seber model to capture–recapture data for western Hudson Bay polar bears from 2012–2018.",
+          "rightsHolder": "Hostetter et al.; the article is released under the CC0 1.0 public domain dedication.",
+          "licenseVersion": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "licenseEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252748",
+          "licenseEvidenceLocator": "Article copyright and license statement says the work is free of all copyright and made available under the Creative Commons CC0 public domain dedication.",
+          "licenseAppliesTo": "The published article text and its stated findings; this dossier paraphrases results and does not reproduce third-party material.",
+          "attribution": "Hostetter NJ, Lunn NJ, Richardson ES, Regehr EV, Converse SJ (2021). Age-structured Jolly-Seber model expands inference and improves parameter estimation from capture-recapture data. PLOS ONE 16(6):e0252748. https://doi.org/10.1371/journal.pone.0252748. Findings paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {"status": "not-assessed"},
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "For independent polar bears aged at least two years in a western Hudson Bay case study, an age-structured Jolly–Seber model with quadratic age-dependent survival estimated median survival above 0.95 for ages 7–22, followed by decline at older ages. The model estimated near-zero survival above age 30, but observed ages in the analyzed sample ranged from 2 to 30 years; estimates beyond that range are model results rather than direct observations.",
+              "sourceIds": ["hostetter2021"],
+              "locator": "Methods, Case study; Results, Case study and Fig. 3; Abstract.",
+              "placeTimeScope": "Western Hudson Bay, Canada; 2012–2018; annual capture–recapture sampling in fall (August–September). The analyzed histories cover 296 independent bears and 427 capture events; observed ages ranged from 2 to 30 years.",
+              "lifeStatus": "Free-ranging individuals marked during helicopter surveys; the study analyzed independent females and males aged at least two years. No captive or domesticated bears are represented.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The authors describe the analyzed records as a subset and simplified model case study, not an estimate of the status of the entire western Hudson Bay subpopulation or a management assessment.",
+            "The model's older-age survival values beyond the observed age range are extrapolations; individual and temporal variation in several demographic processes was simplified.",
+            "Species-wide survival, broader ecology, evolution, distribution, fossils, and conservation status remain unassessed; systematic search and independent expert review are incomplete."
+          ]
+        },
+        "ecology": {"status": "not-assessed"},
+        "evolution": {"status": "not-assessed"},
+        "distribution": {"status": "not-assessed"},
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completenessReasons": [
+        "Only one age-dependent survival result from a regional case study is partially supported; the study does not establish species-wide survival or population status.",
+        "The sample is limited to independent bears aged at least two years in western Hudson Bay from 2012–2018, and older-age estimates extend beyond the observed-age range.",
+        "A reproducible systematic search and independent expert review have not been completed."
+      ]
+    },
+    {
+      "target": {
+        "colId": "4HPXM",
+        "scientificName": "Pica pica (Linnaeus, 1758)",
+        "authorship": "(Linnaeus, 1758)",
+        "rank": "species",
+        "sourceDatasetId": "2144"
+      },
+      "audit": {
+        "queueShardPath": "data/knowledge/species-evidence-queue/d.jsonl.br",
+        "queueShardCompressedSha256": "22145dd502b23f9da392fe132d8c12c5d43dec3c9dd46ece19f36577606b0036",
+        "queueShardDecodedSha256": "dd47856f8d7ddfcdb3ba24340a9d35a2a616d73d8173e1caac6190bdf7e237e5",
+        "queueRowSha256": "78d7628338848423e5bb79af3d7244de5e16fea5cff9b6bc6eb516cff6320aef",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "V2", "3RL", "8L6", "63MBS", "4HPXM"]
+      },
+      "scope": "Evidence is limited to free-living Eurasian magpies observed in public green spaces in Prague during one breeding season. The study used human approach trials as a simulated predation threat and does not establish demographic effects.",
+      "lifeStatusScope": {
+        "wild": "The claim uses observations of free-living magpies foraging in urban public green spaces and human approach trials; no captive birds are used.",
+        "domesticated": "Domesticated populations have not been assessed.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "abouzeid2024",
+          "title": "Abou-Zeid et al. (2024), Urban noise slows down the antipredator reaction of Eurasian Magpies",
+          "url": "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2024.1345971/full",
+          "stableId": "doi:10.3389/fevo.2024.1345971",
+          "version": "Frontiers in Ecology and Evolution 12, article 1345971; version of record published 2024",
+          "publishedAt": "2024",
+          "accessedAt": "2026-09-28",
+          "locator": "Abstract; Methods §§2.1–2.2 (study area and sampling); Results (alert distance and flight initiation distance).",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), as stated on the publisher article page.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original field study of urban Eurasian magpie antipredator responses and environmental noise in public green spaces in Prague.",
+          "rightsHolder": "The Authors, as identified by the Frontiers article page.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseEvidenceUrl": "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2024.1345971/full",
+          "licenseEvidenceLocator": "Publisher article copyright and license notice identifies the work as CC BY 4.0.",
+          "licenseAppliesTo": "The published article text; this dossier paraphrases the stated methods and results and does not reproduce figures or separately credited third-party material.",
+          "attribution": "Abou-Zeid A et al. (2024). Urban noise slows down the antipredator reaction of Eurasian Magpies. Frontiers in Ecology and Evolution 12:1345971. https://doi.org/10.3389/fevo.2024.1345971. Findings paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {"status": "not-assessed"},
+        "lifeHistory": {"status": "not-assessed"},
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "In an urban Prague sample of Eurasian magpies, ambient noise level did not significantly predict alert distance, while higher noise was associated with a lower adjusted flight-initiation-distance-to-alert-distance ratio. This is a bounded association in the study sample and is consistent with a slower escape response after threat detection; it does not show that noise caused the behavior.",
+              "sourceIds": ["abouzeid2024"],
+              "locator": "Abstract; Methods §§2.1–2.2; Results, models of alert distance and adjusted flight-initiation-distance/alert-distance ratio.",
+              "placeTimeScope": "Public green spaces in Prague, Czech Republic, during one breeding season; the publication's analyzed sample was 167 birds (138 adults and 29 juveniles) at 11 sites after excluding single-observation sites. Exact calendar dates are not stated in the audited study record.",
+              "lifeStatus": "Free-living urban magpies observed while ground-foraging; researchers approached birds to measure alert and flight-initiation distances. No captive subjects were used.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The field association does not establish a causal effect of noise and may be affected by uncontrolled differences among sites or individuals.",
+            "A single city and breeding-season sample does not characterize rural populations, other seasons, population trends, survival, or reproductive effects.",
+            "Morphology, life history, evolution, complete distribution, fossils, and conservation remain unassessed; systematic search and independent expert review are incomplete."
+          ]
+        },
+        "evolution": {"status": "not-assessed"},
+        "distribution": {"status": "not-assessed"},
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completenessReasons": [
+        "Only one urban behavioral association from a single breeding-season field study is partially supported; causation and demographic consequences are not established.",
+        "The study is geographically limited to Prague and does not characterize rural, seasonal, or species-wide patterns.",
+        "A reproducible systematic search and independent expert review have not been completed."
+      ]
+    },
+    {
+      "target": {
+        "colId": "5BX2Q",
+        "scientificName": "Welwitschia mirabilis Hook.f.",
+        "authorship": "Hook.f.",
+        "rank": "species",
+        "sourceDatasetId": "2004"
+      },
+      "audit": {
+        "queueShardPath": "data/knowledge/species-evidence-queue/d.jsonl.br",
+        "queueShardCompressedSha256": "22145dd502b23f9da392fe132d8c12c5d43dec3c9dd46ece19f36577606b0036",
+        "queueShardDecodedSha256": "dd47856f8d7ddfcdb3ba24340a9d35a2a616d73d8173e1caac6190bdf7e237e5",
+        "queueRowSha256": "ca451a58085a127998a53b1e340c4499065fe7f726fd2aefd36041bcb14dc8a4",
+        "classificationPathIds": ["CS5HF", "P", "CMQ8S", "TP", "C7ZVJ", "C7CGK", "C8NGJ", "C8MQF", "8W4P5", "5BX2Q"]
+      },
+      "scope": "Evidence is limited to one published reference genome assembly for Welwitschia mirabilis, based on genomic DNA from one male ex-situ botanical-garden accession. It does not describe species-wide genetic variation, field populations, or observed lifespan.",
+      "lifeStatusScope": {
+        "wild": "The genome claim uses one plant accession maintained at Shenzhen Fairy Lake Botanical Garden; it is not a direct sample of a documented wild population.",
+        "domesticated": "Domestication has not been assessed; the ex-situ garden specimen is not treated as evidence of domestication.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "wan2021",
+          "title": "Wan et al. (2021), The Welwitschia genome reveals a unique biology underpinning extreme longevity in deserts",
+          "url": "https://www.nature.com/articles/s41467-021-24528-4",
+          "stableId": "doi:10.1038/s41467-021-24528-4",
+          "version": "Nature Communications 12:4247; version of record published 2021",
+          "publishedAt": "2021",
+          "accessedAt": "2026-09-28",
+          "locator": "Methods, Plant materials; Results, Genome sequencing and annotation; publisher Rights and permissions statement.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), as stated in the publisher rights and permissions notice.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original genome-sequencing and comparative analysis of Welwitschia mirabilis; the cited assembly metrics refer to the single genomic DNA accession described in Plant materials.",
+          "rightsHolder": "The Authors, as identified by the Nature Communications article.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseEvidenceUrl": "https://www.nature.com/articles/s41467-021-24528-4",
+          "licenseEvidenceLocator": "Publisher Rights and permissions section states that the article is licensed under Creative Commons Attribution 4.0 International.",
+          "licenseAppliesTo": "The published article text; this dossier paraphrases assembly results and does not reproduce figures or separately credited third-party content.",
+          "attribution": "Wan T et al. (2021). The Welwitschia genome reveals a unique biology underpinning extreme longevity in deserts. Nature Communications 12:4247. https://doi.org/10.1038/s41467-021-24528-4. Findings paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {"status": "not-assessed"},
+        "lifeHistory": {"status": "not-assessed"},
+        "ecology": {"status": "not-assessed"},
+        "evolution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The published Welwitschia mirabilis reference assembly is 6.86 Gb and was estimated by the authors to cover 98% of an estimated 7.0-Gb genome. The genomic DNA came from one male plant accession maintained at Shenzhen Fairy Lake Botanical Garden; these assembly statistics do not measure genetic variation across the species.",
+              "sourceIds": ["wan2021"],
+              "locator": "Methods, Plant materials; Results, Genome sequencing and annotation.",
+              "placeTimeScope": "The reference-genome plant was accession SZBG 00052740 at Shenzhen Fairy Lake Botanical Garden, China. The article does not report a collection date for this individual; other transcriptome materials described in the paper are excluded from this claim.",
+              "lifeStatus": "One ex-situ botanical-garden male plant accession supplied genomic DNA; this claim is not based on a population survey or a direct observation of longevity.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The assembly is based on one accession and cannot establish within-species genetic variation, population structure, or the prevalence of genomic features across natural populations.",
+            "Genome assembly statistics are not direct measurements of lifespan, field ecology, or population-level evolutionary history.",
+            "Morphology, life history, ecology, complete distribution, fossils, and conservation remain unassessed; systematic search and independent expert review are incomplete."
+          ]
+        },
+        "distribution": {"status": "not-assessed"},
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completenessReasons": [
+        "Only reference-genome assembly statistics from one ex-situ accession are partially supported; population-wide genetic variation and evolutionary mechanisms are not established by this claim.",
+        "Other biological facets and complete geographic, fossil, and conservation coverage remain unassessed.",
+        "A reproducible systematic search and independent expert review have not been completed."
+      ]
+    }
+  ]
+}
