@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "batchId": "araneae-caerostris-darwini-genomics-batch-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/araneae-caerostris-darwini-genomics-batch1-2026-09-28.json",
+    "sha256": "fe4ea46193adc50a6ba315c3f94cdaed68c5f0ec9e6e8de5c2733c769e1ec5cc"
+  },
+  "duplicateAudit": {
+    "checkedDossierRecords": 36330,
+    "matchedColIds": [],
+    "matchedScientificNames": [],
+    "matchedStableIds": [],
+    "searchedOpenPullRequests": [
+      "68T95",
+      "Caerostris darwini",
+      "10.1371/journal.pone.0268660"
+    ],
+    "openPullRequestMatches": 0,
+    "checkedAt": "2026-09-28"
+  },
+  "identity": {
+    "colId": "68T95",
+    "scientificName": "Caerostris darwini Kuntner & Agnarsson, 2010",
+    "sourceDatasetId": "56185",
+    "classificationPathIds": [
+      "CS5HF",
+      "N",
+      "RT",
+      "KZWYC",
+      "CCQKT",
+      "RN",
+      "CTR7N",
+      "CTT7G",
+      "68T95"
+    ],
+    "classificationPathRanks": [
+      "domain",
+      "kingdom",
+      "phylum",
+      "subphylum",
+      "class",
+      "order",
+      "family",
+      "genus",
+      "species"
+    ],
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "source": {
+    "stableId": "doi:10.1371/journal.pone.0268660",
+    "licenseAssessment": "item-level-verified",
+    "licenseVersion": "CC BY 4.0",
+    "evidenceLocator": "Abstract; Results, 'Characterization of the spidroin sequences in the C. darwini genome', especially the comparison with T. clavipes; see also the abstract's expression-analysis summary."
+  },
+  "coverage": {
+    "partialFacets": [
+      "evolution"
+    ],
+    "notAssessedFacets": [
+      "morphology",
+      "lifeHistory",
+      "ecology",
+      "distribution",
+      "fossil",
+      "conservation"
+    ],
+    "completeDossiersAdded": 0,
+    "externallyReviewedDossiersAdded": 0
+  },
+  "queueAudit": {
+    "queueManifestSha256Before": "f1a0678e489f0a0d7da677766878d82e50f4181e37e1a4d954c05f5bac07e19b",
+    "shardPath": "data/knowledge/species-evidence-queue/9.jsonl.br",
+    "rowSha256Before": "8fd9f87c7d062f3add141b844d5719d7c542f5385bf72e40b85ce0ae29d86e71",
+    "statusBefore": "missing"
+  },
+  "appAndPagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+  "appAndPagesPreviewManifestChanged": false,
+  "baseDossierIndexSha256": "2eceb71701c1c53bb14aeab0856fa848bd0a3fd4219260827fbf9f91ffeae656",
+  "finalDossierIndexSha256": "377155977d4ef563394ed4b41c044f730a5890aa896bb66c045c4e20b79dc4ba",
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/araneae-caerostris-darwini-batch-2026-09-28.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 7866,
+    "sha256": "9978c15f4f27353919cacc60c8ee3179fc89f396195471853fc2e9434a24230b"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-araneae-caerostris-darwini-batch-2026-09-28.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 7866,
+    "decodedSha256": "9978c15f4f27353919cacc60c8ee3179fc89f396195471853fc2e9434a24230b",
+    "compressedBytes": 2272,
+    "compressedSha256": "5979bf86c83f9a1d83b8d6b3fad202181c2ba92b8e85509da89248a928602404",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "dossierCountBefore": 36330,
+  "dossierCountAfter": 36331,
+  "generator": "scripts/build-araneae-caerostris-darwini-genomics-batch1.mjs",
+  "fullDossierCountAdded": 0,
+  "expertReviewedDossierCountAdded": 0
+}

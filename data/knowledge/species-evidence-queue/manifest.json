@@ -16,7 +16,7 @@
     "dossierBasePath": "data/knowledge/catalogue-dossiers.json",
     "dossierBaseSha256": "88def9f9997c16f6eba9c51aca5c134b4af198442ae941baa284e6dd0c86beb5",
     "dossierIndexPath": "data/knowledge/catalogue-dossier-shards.json",
-    "dossierIndexSha256": "2eceb71701c1c53bb14aeab0856fa848bd0a3fd4219260827fbf9f91ffeae656",
+    "dossierIndexSha256": "377155977d4ef563394ed4b41c044f730a5890aa896bb66c045c4e20b79dc4ba",
     "dossierShards": [
       {
         "path": "data/knowledge/catalogue-dossiers-actinopterygii-batch-2026-09-24.jsonl.br",
@@ -497,6 +497,12 @@
         "recordCount": 4,
         "compressedSha256": "aa1cec0ff96835e8be4e819e1bb878cad4f185f16ea0a433649d4a3476844b29",
         "decodedSha256": "05e932976f8ddcc4bd81a30e9a752d2bf5a4b2a489c74197cd2b7a72e483dd51"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-araneae-caerostris-darwini-batch-2026-09-28.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "5979bf86c83f9a1d83b8d6b3fad202181c2ba92b8e85509da89248a928602404",
+        "decodedSha256": "9978c15f4f27353919cacc60c8ee3179fc89f396195471853fc2e9434a24230b"
       }
     ],
     "sourceOriginalCollections": [
@@ -646,12 +652,12 @@
     "acceptedSpecies": 2183133,
     "sourceOriginalAssociatedSpecies": 80838,
     "introductorySummarySpecies": 27,
-    "dossierSpecies": 36330,
+    "dossierSpecies": 36331,
     "completeDossierSpecies": 0,
     "externallyReviewedSpecies": 0,
-    "speciesWithAnyEvidenceStage": 80982,
-    "speciesWithoutAnyEvidenceStage": 2102151,
-    "speciesWithoutDossier": 2146803,
+    "speciesWithAnyEvidenceStage": 80983,
+    "speciesWithoutAnyEvidenceStage": 2102150,
+    "speciesWithoutDossier": 2146802,
     "sourceOriginalCollectionSpecies": {
       "brazilFloraDescriptions": 28896,
       "fdacDescriptions": 4156,
@@ -675,20 +681,20 @@
       "species": 27
     },
     "dossierStatuses": {
-      "missing": 2146803,
-      "incomplete": 36330,
+      "missing": 2146802,
+      "incomplete": 36331,
       "complete": 0
     },
     "expertReviewStatuses": {
-      "no-dossier": 2146803,
-      "not-reviewed": 36330,
+      "no-dossier": 2146802,
+      "not-reviewed": 36331,
       "maintainer-reviewed": 0,
       "externally-reviewed": 0
     },
     "claimSourceRightsStatuses": {
-      "not-assessed": 2146803,
+      "not-assessed": 2146802,
       "no-biological-claim-sources": 0,
-      "item-level-verified": 256,
+      "item-level-verified": 257,
       "claim-source-rights-unresolved": 36074
     },
     "facetStatuses": {
@@ -715,10 +721,10 @@
       },
       "evolution": {
         "supported": 0,
-        "partially-supported": 59,
+        "partially-supported": 60,
         "searched-no-evidence": 0,
         "conflicted": 0,
-        "not-assessed": 2183074
+        "not-assessed": 2183073
       },
       "distribution": {
         "supported": 0,
@@ -849,10 +855,10 @@
       "prefix": "9",
       "path": "data/knowledge/species-evidence-queue/9.jsonl.br",
       "recordCount": 136401,
-      "decodedBytes": 97949470,
-      "decodedSha256": "97ddf91bef332b2b648d32c75ddb5ad949b94064b664557d92983e11919f318f",
-      "compressedBytes": 4669720,
-      "compressedSha256": "bfe948c6be5862df520d9d93cdab49fe5f7cac4c28e3d3f21993d6d04e06f313",
+      "decodedBytes": 97949511,
+      "decodedSha256": "6dcc6afacd73bc07ce903cb42f2e8e2f0d51acabcf6afe2b0a219a096ff2d247",
+      "compressedBytes": 4669765,
+      "compressedSha256": "d4c71d0d9ea6d9bc8dbfcaba665936e9ff0900885d69544c7b41052af7e033c4",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },

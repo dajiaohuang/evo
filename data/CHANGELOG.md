@@ -1,5 +1,16 @@
 # Dataset changelog
 
+## Unreleased Caerostris darwini genomic evidence — 2026-09-28
+
+- Added the first incomplete COL26.8 dossier for *Caerostris darwini* (`68T95`),
+  with a source-bounded comparative spidroin gene-family and expression claim
+  from Babb et al. (2022). The paper is CC BY 4.0; its studied material was
+  wild-caught adults from Andasibe-Mantadia National Park, Madagascar, and the
+  article does not state specimen-collection dates. Six facets remain not
+  assessed, and the dossier is not externally reviewed. App native-core and
+  GitHub Pages preview selections are unchanged; the full dossier stays outside
+  both editions.
+
 ## Unreleased primate diet evidence — 2026-09-28
 
 - Added one habitat-bounded ecology observation to the existing COL26.8
