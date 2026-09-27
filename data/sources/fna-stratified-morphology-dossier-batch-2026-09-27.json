@@ -1,0 +1,1918 @@
+{
+  "schemaVersion": 1,
+  "batchId": "fna-stratified-morphology-dossier-batch-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-27",
+  "sampleRule": {
+    "population": "FNA source rows whose COL ID is absent from the complete indexed dossier store at base audit state",
+    "order": "ascending COL ID using English ordinal string order",
+    "populationCount": 7284,
+    "strata": 100,
+    "selection": "zero-based position floor((i + 0.5) * populationCount / strata) for i=0..99"
+  },
+  "baseAudit": {
+    "indexedRecordCount": 36214,
+    "indexedShardCount": 70,
+    "dossierIdsSha256": "6501247d05d1b4a7e49a340c7d41206ad31d0331ee2d15467f4352327919cbe8",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "sourceArchive": {
+    "path": "data/sources/fna-descriptions.jsonl.br",
+    "sha256": "f6000a5956207c9e300d1009c791951b83e865661e9edeba4aba4c66ff3dcbf1",
+    "ledger": "data/sources/fna-descriptions-import-ledger.json"
+  },
+  "sampledIds": [
+    "33CFQ",
+    "34JJ7",
+    "36D8R",
+    "37JCQ",
+    "38GSR",
+    "39MSB",
+    "3B4N4",
+    "3B4V8",
+    "3BFGQ",
+    "3CPQK",
+    "3FBSL",
+    "3K4JC",
+    "3LDJN",
+    "3NJ7C",
+    "3PZSC",
+    "3QTLP",
+    "3SNXX",
+    "3WDRD",
+    "3XV3M",
+    "3ZSL7",
+    "43LJ9",
+    "47T3W",
+    "4CJK3",
+    "4FXPG",
+    "4HG3G",
+    "4JD7J",
+    "4LBHX",
+    "4M58P",
+    "4NGX4",
+    "4R583",
+    "4RHKL",
+    "4STB6",
+    "4TCZZ",
+    "4TYQD",
+    "4W9N7",
+    "4WZZ6",
+    "4XDFW",
+    "4Y7BV",
+    "4Z6R4",
+    "52XFQ",
+    "53Q92",
+    "5688F",
+    "57L7R",
+    "59BM3",
+    "5BM7V",
+    "5TVJF",
+    "5WN57",
+    "5XBJG",
+    "5YD2B",
+    "653V7",
+    "669LF",
+    "68LS4",
+    "69BFX",
+    "6BB52",
+    "6CPLC",
+    "6F2MK",
+    "6GN7M",
+    "6GQ93",
+    "6H3CJ",
+    "6JDKR",
+    "6KG6R",
+    "6M8Z5",
+    "6NGZ9",
+    "6PBWJ",
+    "6R2P6",
+    "6V5F3",
+    "6X3R2",
+    "6XHT2",
+    "6YQMY",
+    "6ZXXT",
+    "7358Y",
+    "75VX7",
+    "77ZZ3",
+    "799R2",
+    "79WDR",
+    "7CQKY",
+    "7FZLL",
+    "8SBJ",
+    "9LF6F",
+    "9XL4D",
+    "BJNMZ",
+    "CPPB",
+    "GBLS",
+    "GT3M",
+    "HLPN",
+    "KSV8",
+    "M93R",
+    "MPK9",
+    "PXB2",
+    "R4C5",
+    "R8FM",
+    "R9FF",
+    "RBK6",
+    "RCKN",
+    "S6FY",
+    "VDN8",
+    "VL7GR",
+    "VY9G",
+    "YGJT",
+    "ZJRS"
+  ],
+  "exclusion": {
+    "colId": "4RHKL",
+    "scientificName": "Ranunculus recurvatus Poir.",
+    "rowNumber": 9355,
+    "sourceId": "ECB1B19B-ED43-4526-9CF1-05992066435E",
+    "citation": "Ranunculus recurvatus Poiret in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+    "reason": "Excluded after item-level semantic review: the row only states the number of varieties and broad regions (“e North America; West Indies”); it supplies no direct morphology claim for the accepted species and is insufficiently scoped for a distribution claim."
+  },
+  "newRecords": [
+    {
+      "colId": "33CFQ",
+      "wfoId": "wfo-0000374889",
+      "rowNumber": 10398,
+      "sourceId": "DCF65726-D6CB-4827-928B-71FCCB6BAF71",
+      "citation": "Cyperus houghtonii Torrey in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Culms trigonous, 5–50 cm × 0.5–1.5 mm, glabrous. Leaves V-shaped, 12–30 cm × 1–6 mm.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "34JJ7",
+      "wfoId": "wfo-0000640515",
+      "rowNumber": 9045,
+      "sourceId": "8B3A02FE-5A5D-488F-8207-C71626775249",
+      "citation": "Delphinium parishii A. Gray in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaf blade pentagonal, 0.7-5 × 1-8 cm, glabrous to puberulent",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "36D8R",
+      "wfoId": "wfo-0000394950",
+      "rowNumber": 16140,
+      "sourceId": "BA063982-1658-40C2-B97C-FB99AF1DDFE5",
+      "citation": "Dioscorea sansibarensis Pax in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves alternate at basal nodes, opposite distally, 6–27 × 7–42 cm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "37JCQ",
+      "wfoId": "wfo-0000655908",
+      "rowNumber": 177,
+      "sourceId": "098F858B-1F42-40EC-82AC-64AFD8A46246",
+      "citation": "Draba palanderiana Kjellman in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2010. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems unbranched, 0.2-1.1(-1.5) dm, pubescent proximally, trichomes 2-9-rayed, 0.05-0.2 mm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "38GSR",
+      "wfoId": "wfo-0000661258",
+      "rowNumber": 6717,
+      "sourceId": "0F1297AE-3FCA-4A9E-8C90-BCF59A910159",
+      "citation": "Echinocereus enneacanthus Engelmann in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2004. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems some-what lax often sprawling, longest stems sometimes prostrate, cylindric, 8-40(-100?) × 3.2-15 cm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "39MSB",
+      "wfoId": "wfo-0001183144",
+      "rowNumber": 16054,
+      "sourceId": "796B7BC4-B0F2-4101-B9C0-F7ED839F188C",
+      "citation": "Encalypta rhaptocarpa Schweagr. in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2007. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves oblong-lanceolate, 2.5-3.5 mm, apices acute to short-acuminate, mucronate to hair-pointed",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "3B4N4",
+      "wfoId": "wfo-0000674765",
+      "rowNumber": 11337,
+      "sourceId": "019210AA-06E4-4BEA-8071-7438C8D0E425",
+      "citation": "Eriogonum elegans Greene in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2005. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves basal; petiole 0.3-3 cm, thinly tomentose; blade oblong or rounded to subcordate, 0.3-1.5 × 0.3-1.5 cm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "3B4V8",
+      "wfoId": "wfo-0000675371",
+      "rowNumber": 12867,
+      "sourceId": "FE0AEB50-21F5-4D9E-9F60-D91DEC1C5AC0",
+      "citation": "Eriogonum rixfordii S. Stokes in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2005. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves basal; petiole 1-3(-5) cm, floccose; blade cordate to orbiculate, (0.5-)1-3 × (0.5-)1-3 cm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "3BFGQ",
+      "wfoId": "wfo-0000766972",
+      "rowNumber": 1839,
+      "sourceId": "B91CC900-6C14-4473-A151-B30C3F1334B5",
+      "citation": "Erythronium rostratum W. Wolf in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Bulbs ovoid, 10–20 mm;",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "3CPQK",
+      "wfoId": "wfo-0000920575",
+      "rowNumber": 5652,
+      "sourceId": "3FC4C627-0FB8-4913-A8C7-F2EA524BB41C",
+      "citation": "Euphorbia meganaesos Featherman in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2017. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems prostrate to ascending, drooping at tips, 15–30 cm, glabrous.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "3FBSL",
+      "wfoId": "wfo-0000428269",
+      "rowNumber": 10388,
+      "sourceId": "4EDA5DED-6476-46E8-A384-624E8EEB0C46",
+      "citation": "Garrya fremontii Torrey in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2017. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves: blade green abaxially, bright green adaxially, generally flat, ovate-elliptic to broadly lanceolate",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "3K4JC",
+      "wfoId": "wfo-0000003569",
+      "rowNumber": 8636,
+      "sourceId": "D2932298-22B2-43D1-BCC5-58AB1EE896DE",
+      "citation": "Helenium bolanderi A. Gray in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems usually 1, usually unbranched distally, weakly winged, glabrous proximally, sparsely to moderately hairy distally.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "3LDJN",
+      "wfoId": "wfo-0000835709",
+      "rowNumber": 5339,
+      "sourceId": "66298182-19C1-4DBF-B6B9-EB38AF9EF5A8",
+      "citation": "Heterosavia bahamensis (Britton) Petra Hoffmann in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2017. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "blade usually obovate or elliptic, sometimes oblong",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "3NJ7C",
+      "wfoId": "wfo-0000667750",
+      "rowNumber": 807,
+      "sourceId": "796F0C17-31C3-4E05-B23B-3FAFBAB2F06E",
+      "citation": "Hymenocallis rotata (Ker Gawler) Herbert in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Bulb rhizomatous, broadly ovoid, 6–8 × 3–6 cm; basal plate 3–6 cm; neck 3–5 cm; tunic grayish brown.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "3PZSC",
+      "wfoId": "wfo-0000783477",
+      "rowNumber": 7574,
+      "sourceId": "538A49DE-0222-457D-94B4-D61D01E69106",
+      "citation": "Iris innominata L. F. Henderson in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Rhizomes freely branching, forming compact tufts, slender, 0.3–0.4 cm diam., covered with remains of old leaves; roots fibrous.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "3QTLP",
+      "wfoId": "wfo-0000776250",
+      "rowNumber": 6126,
+      "sourceId": "154C5DF5-B0FF-45EE-BCC0-7062754FC6BF",
+      "citation": "Juncus confusus Coville in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Culms (1--)5--15(--25). Cataphylls 1--3.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "3SNXX",
+      "wfoId": "wfo-0000022232",
+      "rowNumber": 4392,
+      "sourceId": "9B1770B9-0353-452D-B0BE-C25E20690A1C",
+      "citation": "Layia fremontii (Torrey & A. Gray) A. Gray in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaf blades lanceolate or oblanceolate to linear, 6–70(–90) mm, margins (basal leaves) lobed (pinnatifid).",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "3WDRD",
+      "wfoId": "wfo-0000044993",
+      "rowNumber": 12632,
+      "sourceId": "32A99B91-E3BD-41D9-9879-60A4D71B3F24",
+      "citation": "Luina serpentina Cronquist in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves petiolate; blades lanceolate, 50–120 × 6–20 mm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "3XV3M",
+      "wfoId": "wfo-0000235481",
+      "rowNumber": 11941,
+      "sourceId": "8E776DBE-9E97-4923-920F-7BD9E070DB79",
+      "citation": "Manihot davisiae Croizat in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2017. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves: stipules lanceolate, entire; petiole 2–9 cm; blade basally attached, 5–7-lobed",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "3ZSL7",
+      "wfoId": "wfo-0000749824",
+      "rowNumber": 5670,
+      "sourceId": "7C6C128D-D6E1-4474-B983-AF89D22EE638",
+      "citation": "Mentzelia paradoxensis J. J. Schenk & L. Hufford in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2017. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems solitary, erect, straight; branches distal or along entire stem",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "43LJ9",
+      "wfoId": "wfo-0001086701",
+      "rowNumber": 4062,
+      "sourceId": "E9EA77CF-8862-4631-A880-8555D2638B92",
+      "citation": "Mirabilis rotundifolia (Greene) Standley in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2004. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems erect or ascending, 2-3 dm, leafy mostly in proximal 1/2, openly forked distally",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "47T3W",
+      "wfoId": "wfo-0001109181",
+      "rowNumber": 13235,
+      "sourceId": "053BB8DB-AFDE-457A-892A-1779A22DD0A5",
+      "citation": "Notholaena aschenborniana Klotzsch in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stem scales concolored, margins black, undifferentiated, thick, ciliate.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "4CJK3",
+      "wfoId": "wfo-0000480963",
+      "rowNumber": 14786,
+      "sourceId": "62E10C4A-E3A2-4CC4-9D93-CC0E7C03C602",
+      "citation": "Papaver somniferum Linnaeus in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves to 30 cm; blade sometimes sparsely setose abaxially on midrib; margins usually shallowly to deeply toothed.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "4FXPG",
+      "wfoId": "wfo-0000396525",
+      "rowNumber": 1975,
+      "sourceId": "59BB46F7-2ABB-49BF-A816-38D6B715A2B7",
+      "citation": "Phedimus aizoon (Linnaeus) 't Hart in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2009. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves alternate; blade elliptic-lanceolate, 4-8 cm, margins not glandular, those of distal leaves irregularly serrate.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "4HG3G",
+      "wfoId": "wfo-0001266245",
+      "rowNumber": 43,
+      "sourceId": "00B51248-50E3-4236-8095-AB3B878B2B22",
+      "citation": "Physaria hitchcockii (Munz) O’Kane & Al-Shehbaz in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2010. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems few to several from base, prostrate to erect or spreading, 0.05-0.5(-1.2) dm.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "4JD7J",
+      "wfoId": "wfo-0000026009",
+      "rowNumber": 10657,
+      "sourceId": "23FE94EB-D6BE-4EA2-B3BC-59D3B8C56899",
+      "citation": "Pityopsis ruthii (Small) Small in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems 1–20, erect, green to brown beneath hairs, simple, slender, densely silvery-sericeous",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "4LBHX",
+      "wfoId": "wfo-0000036934",
+      "rowNumber": 4720,
+      "sourceId": "8918FF45-8C61-4144-A52F-EEA885C44EED",
+      "citation": "Polymnia laevigata Beadle in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems glabrous or glabrate. Leaves: petioles 3–10+ cm, seldom, if ever, winged",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "4M58P",
+      "wfoId": "wfo-0001014319",
+      "rowNumber": 15872,
+      "sourceId": "F8DE159B-EFA0-4ED8-91D2-26AFA8F5FC73",
+      "citation": "Potentilla demotica Ertter in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2015. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Basal leaves usually palmate, sometimes ternate, 2–8 cm; petiole 1–7 cm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "4NGX4",
+      "wfoId": "wfo-0001241655",
+      "rowNumber": 11406,
+      "sourceId": "33D3C602-CDB9-4BC1-B2A6-34F0C8D79827",
+      "citation": "Pseudabutilon thurberi (A. Gray) Fryxell in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2016. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems sparsely setose, hairs spreading, glabrescent, rarely also with few appressed, stellate hairs.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "4R583",
+      "wfoId": "wfo-0000291346",
+      "rowNumber": 10839,
+      "sourceId": "898DEC69-1BA9-45A8-812C-0850839FB1BE",
+      "citation": "Quercus incana W. Bartram in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Bark dark brown to black with square plates. Twigs brown to reddish brown, 1-2.5 mm diam., tomentose to sparsely pubescent.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "4STB6",
+      "wfoId": "wfo-0000519128",
+      "rowNumber": 8231,
+      "sourceId": "CCFEA290-0322-4BBF-A7B2-DABABC7C3898",
+      "citation": "Rhynchospora nivea Boeckeler in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Culms erect to spreading-ascending, leafy based, trigonous or compressed, ribbed.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "4TCZZ",
+      "wfoId": "wfo-0001014358",
+      "rowNumber": 8018,
+      "sourceId": "B4178C66-5592-4B6B-8B25-571F4DCC107B",
+      "citation": "Rosa carolina L. in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2015. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems spreading and weak, sometimes erect, slender, 3–10(–13) dm, openly branched",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "4TYQD",
+      "wfoId": "wfo-0000736783",
+      "rowNumber": 15900,
+      "sourceId": "9B6CDBBE-0FAB-42C1-B802-3C50CE637357",
+      "citation": "Sagittaria isoetiformis J. G. Smith in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "phyllodial or rarely dilated apically, flattened, 4--40 cm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "4W9N7",
+      "wfoId": "wfo-0000507950",
+      "rowNumber": 213,
+      "sourceId": "9821831A-1A08-4BF0-916E-E5EB44415B06",
+      "citation": "Sedum nuttallii Torrey & E. James ex Eaton in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2009. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves alternate, widely divergent, sessile; blade pale or bluish green, not glaucous, narrowly lanceolate-elliptic or oblong",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "4WZZ6",
+      "wfoId": "wfo-0000433234",
+      "rowNumber": 9865,
+      "sourceId": "10947617-17F6-48C2-A832-4FE3D55AE6DB",
+      "citation": "Sesuvium trianthemoides Correll in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2004. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems prostrate, branched, 1-4 dm.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "4XDFW",
+      "wfoId": "wfo-0000440200",
+      "rowNumber": 97,
+      "sourceId": "EDB4CF52-557A-4758-9B29-B8CC30BAD3C8",
+      "citation": "Silene vulgaris (Moench) Garcke in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2005. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves mainly cauline, 2 per node, sessile, almost clasping, reduced proximal to inflorescence",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "4Y7BV",
+      "wfoId": "wfo-0000027847",
+      "rowNumber": 15359,
+      "sourceId": "40B7176E-3BD7-465E-9542-499DCA7F651D",
+      "citation": "Solidago kralii Semple in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems 1–10(–50), ascending to erect, glabrous or sparsely strigillose, copiously viscid-resinous in arrays.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "4Z6R4",
+      "wfoId": "wfo-0001015340",
+      "rowNumber": 5074,
+      "sourceId": "732BAE13-D277-4634-99A1-DA5CB9CA9F73",
+      "citation": "Spiraea splendens E. N. Baumann ex K. Koch in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2015. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves: petiole 1–4 mm; blade ovate to elliptic, 1–4 × 1–2(–3) cm, chartaceous",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "52XFQ",
+      "wfoId": "wfo-0001217347",
+      "rowNumber": 7473,
+      "sourceId": "920EA7BE-CB55-4E74-9D09-EB390C808C54",
+      "citation": "Streptanthus hesperidis Jepson in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2010. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Cauline leaves: blade (mostly yellowish), ovate to lanceolate, 1-4 cm × 5-15 mm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "53Q92",
+      "wfoId": "wfo-0000122463",
+      "rowNumber": 13081,
+      "sourceId": "ACEEDA37-2DD3-4E8F-BCB1-5445A507AF52",
+      "citation": "Symphyotrichum porteri (A. Gray) G. L. Nesom in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems 1–4+, ascending to erect (straight), glabrous. Leaves thin, margins usually entire, sometimes very sparsely serrulate distally, scabrous, apices acute, mucronulate, faces glabrous",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "5688F",
+      "wfoId": "wfo-0000126964",
+      "rowNumber": 12295,
+      "sourceId": "0086D0A9-382D-4A46-8A36-99841F6FCB33",
+      "citation": "Thelesperma nuecense B. L. Turner in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Ray florets 8; laminae yellow to golden",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "57L7R",
+      "wfoId": "wfo-0000066744",
+      "rowNumber": 8751,
+      "sourceId": "5CE90410-66B6-407F-AB31-B67B0A9A917E",
+      "citation": "Townsendia eximia A. Gray in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems ± erect; internodes 6–8(–25) mm, ± strigose. Leaves basal and cauline, blades spatulate to oblanceolate",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "59BM3",
+      "wfoId": "wfo-0001270274",
+      "rowNumber": 3640,
+      "sourceId": "778437CD-9423-4C16-A6BD-8802D32E1F2A",
+      "citation": "Tropidocarpum californicum (Al-Shehbaz) Al-Shehbaz in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2010. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Cauline leaves: (proximal) petiole to 1 cm or (distal and bracts) subsessile; blade 2.5-4.5 cm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "5BM7V",
+      "wfoId": "wfo-0000421880",
+      "rowNumber": 8146,
+      "sourceId": "4309F04F-0844-4028-9B36-D5E35170476C",
+      "citation": "Vitis vulpina L. in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2017. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Branches: bark exfoliating in shreds; nodal diaphragms 1–2.5 mm thick;",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "5TVJF",
+      "wfoId": "wfo-0000755872",
+      "rowNumber": 425,
+      "sourceId": "B8437088-5EF6-4C79-AC9E-D10EE7311319",
+      "citation": "Allium campanulatum S. Watson in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "outer coats enclosing 1 or more bulbs, brown to gray, membranous, cellular-reticulate",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "5WN57",
+      "wfoId": "wfo-0000341686",
+      "rowNumber": 8204,
+      "sourceId": "E694EEBE-78F7-4C4E-A42C-EF904EB49B51",
+      "citation": "Bolboschoenus fluviatilis (Torrey) Soják in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Culms 100–200 cm × 5–15 mm. Leaves: sheaths reaching to middle of culm or higher, fronts convex (to concave)",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "5XBJG",
+      "wfoId": "wfo-0000344767",
+      "rowNumber": 13250,
+      "sourceId": "12108A5F-B18F-4D2D-A46A-19F8012BB1EA",
+      "citation": "Carex austrina Mackenzie in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Culms 20–90 cm, 1.5–3 mm wide basally, 0.9–1.1 mm wide distally.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "5YD2B",
+      "wfoId": "wfo-0000603470",
+      "rowNumber": 8855,
+      "sourceId": "6E6DF1CE-A5B5-45C5-BE9D-25D123DBF4C6",
+      "citation": "Chorizanthe fimbriata Nuttall in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2005. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves basal; petiole 0.5-3(-5) cm; blade elliptic to obovate or spatulate, 1-3(-3.5) × 0.2-1(-2.5) cm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "653V7",
+      "wfoId": "wfo-0001114717",
+      "rowNumber": 4340,
+      "sourceId": "73BEDC46-6931-4205-A9E9-CE33170FA8A4",
+      "citation": "Adiantum aleuticum (Ruprecht) Paris in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2015. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems short-creeping or suberect; scales bronzy deep yellow, concolored, margins entire.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "669LF",
+      "wfoId": "wfo-0000529874",
+      "rowNumber": 13352,
+      "sourceId": "F0C6A14C-BF74-4615-8819-FC57735CBC08",
+      "citation": "Alyssum simplex Rudolphi in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2010. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Cauline leaves subsessile or (proximal) attenuate to petiolelike base (to 0.4 cm); blade oblanceolate",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "68LS4",
+      "wfoId": "wfo-0001154601",
+      "rowNumber": 16037,
+      "sourceId": "F4F395DF-B87A-40B0-AC22-AA053B82ECCB",
+      "citation": "Blindia acuta (Hedw.) Bruch & Schimp. in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2007. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "leaf cells (1-)3:1, quadrate to rectangular-elliptic; perichaetial leaves abruptly subulate.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "69BFX",
+      "wfoId": "wfo-0000348221",
+      "rowNumber": 9199,
+      "sourceId": "CA52AA3D-00E2-4D54-8AC2-DB6BF86B6686",
+      "citation": "Carex lemmonii W. Boott in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Culms to 80 cm. Leaves: blades 1.5–3(–4) mm wide.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "6BB52",
+      "wfoId": "wfo-0001011266",
+      "rowNumber": 9859,
+      "sourceId": "0111B898-D728-457E-955B-88982FE01357",
+      "citation": "Crataegus collina Chapm. in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2015. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "blade rhombic-obovate or broadly elliptic",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "6CPLC",
+      "wfoId": "wfo-0000642673",
+      "rowNumber": 1656,
+      "sourceId": "8A0B22C4-2220-4F06-ADA8-E569BC558C95",
+      "citation": "Deutzia scabra Thunb. in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2017. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves: petiole 1–3 mm, sparsely to densely stellate-pubescent; blade ovate-lanceolate to ovate",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "6F2MK",
+      "wfoId": "wfo-0000405839",
+      "rowNumber": 7811,
+      "sourceId": "5D8208F2-AC0A-455B-9CC4-29E855CAE634",
+      "citation": "Eleocharis quadrangulata (Michaux) Roemer & Schultes in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Culms acutely quadrangular, (30–)45–105 cm × (1–)2–5.4 mm, soft to firm, internally spongy, transverse septa incomplete;",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "6GN7M",
+      "wfoId": "wfo-0000117920",
+      "rowNumber": 14619,
+      "sourceId": "FD924C75-3570-4B6C-AF96-89C23365FB55",
+      "citation": "Ericameria discoidea (Nuttall) G. L. Nesom in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves ascending to spreading; blades linear or oblong to oblanceolate (flat), 10–35 × 2–7 mm, midnerves evident",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "6GQ93",
+      "wfoId": "wfo-0000128505",
+      "rowNumber": 12583,
+      "sourceId": "D5B880D5-6A33-41D9-A45D-D888169F4A80",
+      "citation": "Erigeron trifidus Hooker in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "blades spatulate to obovate-spatulate, 8–30 × 3–6 mm, margins usually 3-lobed, sometimes 2-lobed or entire",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "6H3CJ",
+      "wfoId": "wfo-0000675530",
+      "rowNumber": 13776,
+      "sourceId": "DCFC78A0-1ACC-45F5-B8B1-F016EDCAE3CB",
+      "citation": "Eriogonum tiehmii Reveal in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2005. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves basal, fasciculate in terminal tufts; petiole 0.5-1.6(-2) cm, tomentose; blade elliptic to oblong",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "6JDKR",
+      "wfoId": "wfo-0001182075",
+      "rowNumber": 11459,
+      "sourceId": "48D03ACB-1D8C-4649-9DE7-F5AAF61AED2B",
+      "citation": "Fontinalis dalecarlica Schimper in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2015. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems slender, rigid; stem and branch apices tightly long-attenuate; axillary hairs 250-300µm, 5-8 cells",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "6KG6R",
+      "wfoId": "wfo-0001004216",
+      "rowNumber": 16419,
+      "sourceId": "E9BBC8CB-5C97-466D-B5AA-B1288942AA57",
+      "citation": "Geum peckii Pursh in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2015. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves: basal 5–15 cm, blade strongly lyrate-pinnate, major leaflet 1, minor leaflets 4–10, terminal leaflet much larger than minor laterals;",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "6M8Z5",
+      "wfoId": "wfo-0000116355",
+      "rowNumber": 11630,
+      "sourceId": "08F2D119-D113-4DAA-AED4-A4BF88B932BB",
+      "citation": "Hieracium traillii Greene in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves: basal 5–6+, cauline 0(–1+); blades oblanceolate to spatulate, 40–80 × 18–45+ mm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "6NGZ9",
+      "wfoId": "wfo-0000777539",
+      "rowNumber": 6776,
+      "sourceId": "8CEDECCF-2A74-4041-96E2-0C0EB94AC188",
+      "citation": "Juncus vaseyi Engelmann in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Culms 1--15(--25). Cataphylls 1--2(--3).",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "6PBWJ",
+      "wfoId": "wfo-0000041597",
+      "rowNumber": 503,
+      "sourceId": "9A30BAB5-357E-40D8-AEFB-5CF839476ACB",
+      "citation": "Lepidospartum latisquamum S. Watson in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Involucres turbinate to cylindric, 6–8 mm. Phyllaries 8–13, lanceolate to ovate, tomentose, glabrescent.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "6R2P6",
+      "wfoId": "wfo-0000442839",
+      "rowNumber": 6328,
+      "sourceId": "A389ABFE-5BCB-4F43-ABD2-576B0C46BC54",
+      "citation": "Lysimachia clethroides Duby in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2009. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems erect, simple or sometimes branched apically, 3-10 dm, stipitate-glandular, especially distally",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "6V5F3",
+      "wfoId": "wfo-0000488415",
+      "rowNumber": 12483,
+      "sourceId": "B1E5DA4A-0326-4801-8DCC-8EC986B2E76D",
+      "citation": "Persicaria glabra (Willdenow) M. Gómez in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2005. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems decumbent to erect, usually branched distally, without noticeable ribs, glabrous or, rarely, pubescent distally",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "6X3R2",
+      "wfoId": "wfo-0000289626",
+      "rowNumber": 859,
+      "sourceId": "7D764F44-EB92-4329-BC3B-0880C2466A2F",
+      "citation": "Quercus arkansana Sargent in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Bark black with long rough ridges separated by deep furrows.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "6XHT2",
+      "wfoId": "wfo-0000503448",
+      "rowNumber": 82,
+      "sourceId": "C126DAFE-9C59-4073-BD51-CB5884F55F14",
+      "citation": "Samolus parviflorus Raf. in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2009. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves basal and cauline or all cauline, sessile or petiolate; blade obovate or broadly spatulate to elliptic, 1.5-15 cm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "6YQMY",
+      "wfoId": "wfo-0000132596",
+      "rowNumber": 8735,
+      "sourceId": "63764ECF-04B6-4000-B32F-F89F7281D6D7",
+      "citation": "Silphium albiflorum A. Gray in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems terete, glabrous, hirsute, hispid, or scabrous.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "6ZXXT",
+      "wfoId": "wfo-0001216801",
+      "rowNumber": 11571,
+      "sourceId": "9BD510DF-56F7-4CA6-8A5C-71142A318AFA",
+      "citation": "Streptanthus barbiger Greene in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2010. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Cauline leaves: blade linear to linear-lanceolate, (1.5-)3-9(-10) cm × 0.5-2 mm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "7358Y",
+      "wfoId": "wfo-0001013564",
+      "rowNumber": 7622,
+      "sourceId": "0FE71BC8-A602-4FBC-A8C6-5A2A50EA3EF9",
+      "citation": "Malus baccata (Linn.) Borkh. in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2015. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Buds reddish brown, ovoid, 3–4 mm, scale margins tomentose.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "75VX7",
+      "wfoId": "wfo-0000473779",
+      "rowNumber": 16072,
+      "sourceId": "BCCE0610-D8F4-4F76-B609-1826DAC35FB5",
+      "citation": "Pavonia paludicola Nicolson in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2016. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems minutely stellate-hairy.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "77ZZ3",
+      "wfoId": "wfo-0001013851",
+      "rowNumber": 834,
+      "sourceId": "DAAFE13F-4644-436B-956A-8BF8E4BC7C32",
+      "citation": "Prunus fremontii S. Watson in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2015. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "blade elliptic, ovate, or suborbiculate, 0.6–3 × 0.5–2 cm, base obtuse to rounded, subcordate, or truncate",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "799R2",
+      "wfoId": "wfo-0000029196",
+      "rowNumber": 883,
+      "sourceId": "097A0271-08C7-43C7-975C-32C8AC66A4D8",
+      "citation": "Rudbeckia laciniata Linn. in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves green, blades broadly ovate to lanceolate, all but distalmost 1–2-pinnatifid or pinnately compound",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "79WDR",
+      "wfoId": "wfo-0000528444",
+      "rowNumber": 7828,
+      "sourceId": "E98E2CD5-2B9B-4275-B7E5-92523641357F",
+      "citation": "Schoenoplectus torreyi (Olney) Palla in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Culms sharply trigonous, sides concave distally, 0.4–1.5 m × 1.5–5 mm.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "7CQKY",
+      "wfoId": "wfo-0000457802",
+      "rowNumber": 14925,
+      "sourceId": "78B9F5E9-04CE-40EE-916D-3E5B57C97404",
+      "citation": "Tribulus cistoides Linnaeus in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2017. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves 2.5–8.5 × 1–2.6 cm; stipules 3–9 × 1–4 mm; leaflets 12–16(–20), obliquely oblong to elliptic",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "7FZLL",
+      "wfoId": "wfo-0000614537",
+      "rowNumber": 7551,
+      "sourceId": "490DD9EE-3F6A-4676-901E-5DFC0085BCB4",
+      "citation": "Xyris tennesseensis Kral in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves ascending, 15--45 cm; sheaths soft, base pink or red; blade deep green, linear, flattened, somewhat twisted, 5--10 mm wide",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "8SBJ",
+      "wfoId": "wfo-0000223950",
+      "rowNumber": 10395,
+      "sourceId": "39752007-4C1E-4011-AAC1-07926C47A4AD",
+      "citation": "Acalypha radians Torrey in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2017. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves: petiole 0.4–1.6 cm; blade reniform or suborbiculate, 0.5–1.5 × 0.8–2 cm, base cordate or rounded",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "9LF6F",
+      "wfoId": "wfo-0001178925",
+      "rowNumber": 11166,
+      "sourceId": "810E3509-A473-485B-A752-D4106802B56A",
+      "citation": "Fissidens osmundioides Hedwig in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2007. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stem sparingly branched; axillary hyaline nodules absent; central strand present. Leaves in as many as 20 pairs, obovate to lanceolate",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "9XL4D",
+      "wfoId": "wfo-0000987166",
+      "rowNumber": 4488,
+      "sourceId": "BC1E28AD-BA16-4B44-ADBC-B3F91C5312F7",
+      "citation": "Crataegus roribacca Ashe in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2015. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "blade ovate to broadly elliptic",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "BJNMZ",
+      "wfoId": "wfo-0001165298",
+      "rowNumber": 7145,
+      "sourceId": "E9B7AA61-562B-4352-8A75-9F15CD6A4314",
+      "citation": "Drummondia prorepens (Hedw.) Britt. in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2015. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stem leaves channeled, concave, 1.1-1.8 mm; apex sometimes incurved; costa broadly channeled;",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "CPPB",
+      "wfoId": "wfo-0000086618",
+      "rowNumber": 13568,
+      "sourceId": "1C03FDA1-9889-44F2-997D-397D8DCE7253",
+      "citation": "Ambrosia grayi (A. Nelson) Shinners in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves mostly alternate; petioles 10–45+ mm; blades elliptic to ovate, 45–60(–100+) × 30–45(–75+) mm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "GBLS",
+      "wfoId": "wfo-0000543466",
+      "rowNumber": 6482,
+      "sourceId": "94F4C697-921C-42B4-B96C-3F21348A6880",
+      "citation": "Arctostaphylos canescens Eastwood in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2009. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves: petiole 3-10 mm; blade whitish gray, dull, orbiculate-ovate, ovate, or elliptic, 2-5 × 1-3 cm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "GT3M",
+      "wfoId": "wfo-0000086917",
+      "rowNumber": 4793,
+      "sourceId": "753E2B67-89E3-4B11-85B1-D6155308DE34",
+      "citation": "Arnica discoidea Bentham in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves 3–7 pairs, sometimes crowded at stem bases",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "HLPN",
+      "wfoId": "wfo-0001109364",
+      "rowNumber": 13809,
+      "sourceId": "0777429D-ACA4-41FD-9D02-459B62ABD59D",
+      "citation": "Asplenium trichomanes Linnaeus in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems short-creeping, often branched; scales black throughout or with brown borders, lanceolate, 2--5 × 0.2--0.5 mm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "KSV8",
+      "wfoId": "wfo-0001154489",
+      "rowNumber": 11112,
+      "sourceId": "E632850A-BC01-4F2D-95D7-7D7C61FB01BB",
+      "citation": "Bartramia stricta Bridel in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2015. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaves stiffly erect-appressed when dry, erect-spreading when moist, narrowly lanceolate, 2.5-4 mm",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "M93R",
+      "wfoId": "wfo-0000567274",
+      "rowNumber": 1438,
+      "sourceId": "3BA05DF7-0E5D-4E8A-B40E-4741F50BD981",
+      "citation": "Boechera dispar (M. E. Jones) Al-Shehbaz in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2010. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Basal leaves: blade linear-oblanceolate, 2-5 mm wide, margins entire, not ciliate",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "MPK9",
+      "wfoId": "wfo-0001110255",
+      "rowNumber": 11721,
+      "sourceId": "3D76258E-654E-4315-A251-591C7BA99915",
+      "citation": "Botrychium pinnatum H. St. John in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Trophophore stalk 0--2 mm, 0 to 0.1 times length of trophophore rachis; blade bright shiny green, oblong-deltate, 1--2-pinnate, to 8 × 5 cm, papery.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "PXB2",
+      "wfoId": "wfo-0000762738",
+      "rowNumber": 11385,
+      "sourceId": "79201529-E7C3-4F2A-9AC6-AFDE1154B968",
+      "citation": "Calochortus invenustus Greene in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Flowers erect; perianth open, campanulate; sepals lanceolate-ovate, 2–3 cm, apex acuminate;",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "R4C5",
+      "wfoId": "wfo-0000586662",
+      "rowNumber": 8761,
+      "sourceId": "7D826B4E-C47D-44A4-B008-AB7237662858",
+      "citation": "Cardamine cordifolia A. Gray in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2010. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Rhizomes cylindrical, slender or stout, 1.5-3 mm diam., (not fleshy).",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "R8FM",
+      "wfoId": "wfo-0000345156",
+      "rowNumber": 7829,
+      "sourceId": "8BDCD1D5-9EDF-4C27-BBAE-51C6656846A8",
+      "citation": "Carex brunnescens (Persoon) Poiret in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Culms erect to arching, slender, 15–90 cm.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "R9FF",
+      "wfoId": "wfo-0000347006",
+      "rowNumber": 11729,
+      "sourceId": "0BD69CFF-D4CF-41F9-B87D-C1334CC7B852",
+      "citation": "Carex glareosa Wahlenberg in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Culms often arching, weak, 10–40(–60) cm.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "RBK6",
+      "wfoId": "wfo-0000350692",
+      "rowNumber": 9464,
+      "sourceId": "24982D01-AF44-4EFC-9F34-C315D137E0CD",
+      "citation": "Carex richardsonii R. Brown in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Culms 14–32 cm. Leaves: basal sheaths dark purplish to reddish brown; blades mostly basal, pale green, shorter than culms, thick, 0.9–3.3 mm wide.",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "RCKN",
+      "wfoId": "wfo-0000352632",
+      "rowNumber": 12256,
+      "sourceId": "BB31698A-B52E-4D18-95F7-3ECC56C6AC71",
+      "citation": "Carex vulpinoidea A. Michaux in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Culms to 100 cm × 2 mm, scabrous. Leaves: sheath fronts spotted red-brown or pale brown, apex truncate or short-convex, membranous or hyaline, rugose;",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "S6FY",
+      "wfoId": "wfo-0000061575",
+      "rowNumber": 14987,
+      "sourceId": "48E49A3D-4FB1-4491-B8F8-21CA795F8804",
+      "citation": "Centaurea diffusa Lam. in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stems 1–several, much-branched throughout, puberulent and ± gray tomentose. Leaves hispidulous and ± short-tomentose;",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "VDN8",
+      "wfoId": "wfo-0001180506",
+      "rowNumber": 10222,
+      "sourceId": "0338A459-6120-4004-B28B-ADE06905408A",
+      "citation": "Cinclidium stygium Swartz in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2015. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "broadly elliptic, ovate, obovate, or rarely ± orbicular",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "VL7GR",
+      "wfoId": "wfo-0001190238",
+      "rowNumber": 15537,
+      "sourceId": "AC632AF9-59D7-46E7-AD14-BD3452280A87",
+      "citation": "Sphagnum subnitens Russ. & Warnst. ex Warnst. in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2007. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Stem leaves triangular to triangular-lingulate, 1.2-1.7 mm, apex acute to sometimes shortly cuspidate",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "VY9G",
+      "wfoId": "wfo-0000610362",
+      "rowNumber": 4078,
+      "sourceId": "CE1C8B93-1158-49DC-AA79-307E2D6F2726",
+      "citation": "Clematis occidentalis (Hornemann) de Candolle in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "Leaf blade 1-ternate",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "YGJT",
+      "wfoId": "wfo-0000924674",
+      "rowNumber": 8078,
+      "sourceId": "74F434DE-ED02-498B-85F7-06D116494080",
+      "citation": "Cornus florida L. in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2017. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "bark corky, forming rectangular plates 0.5–1 cm wide;",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    },
+    {
+      "colId": "ZJRS",
+      "wfoId": "wfo-0000626248",
+      "rowNumber": 4128,
+      "sourceId": "5457B9FC-4096-4B14-A3E3-CA3CD75C1653",
+      "citation": "Crocanthemum canadense (Linnaeus) Britton in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2016. Web. Accessed February 2018.",
+      "rightsHolder": "Flora of North America Association",
+      "rights": "Flora of North America Association",
+      "license": "http://creativecommons.org/licenses/by/4.0",
+      "sourceEndUnclosed": false,
+      "morphologyExcerpt": "blade oblanceolate-elliptic to narrowly elliptic",
+      "semanticReview": {
+        "status": "reviewed",
+        "facet": "morphology",
+        "decision": "include",
+        "rationale": "The exact quoted span was reviewed in this taxon-specific source row and directly describes plant structure, shape, or dimensions; no life-history, habitat, interaction, range, fossil, or conservation claim is drawn from it."
+      }
+    }
+  ]
+}

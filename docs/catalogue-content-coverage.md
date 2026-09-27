@@ -2,6 +2,12 @@
 
 RC169 / COL26.8（2026-08-20）。分类、来源原文、来源字段标签、入门概述、完整档案与专家评审分别计量，不能互相替代。
 
+## FNA 分层形态档案批次（2026-09-27）
+
+- 基线完整档案为 36,214 条；本批新增 99 条 COL26.8 accepted species，现为 36,313 条。100 条等距分层样本中，4RHKL (*Ranunculus recurvatus*) 因原文只给出变种数与宽泛区域而排除。
+- 99 条均为 incomplete、not-reviewed；只有 morphology 标为 partially-supported，其余 life history、ecology、evolution、distribution、fossil、conservation 均为 not-assessed。每条仅引用经语义复核的原文形态短句，不据此扩展生态、生活史或分布结论。
+- App native-core 与 GitHub Pages preview 继续共用精选核心内容范围，保留灵长目重点名单；FNA 原始全集、此分层批次及 dossier evidence queue 均不进入 App 包或 Pages preview。
+
 ## 已落地的顺序
 
 1. 修复 Cestrum 的八个接受名 ID 与两条异名链。全部 99 段 Plazi 正文及非 ID 证据字段保持一致；原始 40 行候选文件的旧 SHA-256 已精确复现。
