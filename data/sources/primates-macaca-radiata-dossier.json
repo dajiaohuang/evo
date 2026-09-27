@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "batchId": "primates-macaca-radiata-core-2026-09-26",
-  "checkedAt": "2026-09-26",
+  "checkedAt": "2026-09-27",
   "releaseAlias": "COL26.8",
   "checklistBankDatasetKey": 316115,
   "checklistBankDoi": "10.48580/dgywk",
-  "scope": "One incomplete source-linked dossier for the accepted COL26.8 species usage 3WWP2. It records one bounded roadside count comparison around Mysore, India; it is not a species-wide assessment.",
+  "scope": "One incomplete source-linked dossier for accepted COL26.8 species usage 3WWP2. It records bounded forest occupancy, temple/tourist-site history and roadside-count evidence from one 2017 primary study in southern India; it is not a species-wide assessment.",
   "records": [
     {
       "colId": "3WWP2",
-      "checkedAt": "2026-09-26",
+      "checkedAt": "2026-09-27",
       "scientificName": "Macaca radiata (É. Geoffroy Saint-Hilaire, 1812)",
       "rank": "species",
       "sourceDatasetId": "2144",
@@ -56,9 +56,9 @@
           "version": "PLOS ONE 12(8):e0182140; published 2017-08-23",
           "stableId": "doi:10.1371/journal.pone.0182140",
           "publishedAt": "2017-08-23",
-          "accessedAt": "2026-09-26",
+          "accessedAt": "2026-09-27",
           "attribution": "Erinjery JJ, Kumar S, Kumara HN, Mohan K, Dhananjaya T, Sundararaj P, Kent R, Singh M. (2017).",
-          "locator": "Methods §2.6 Roadside survey; Results §3.5.1 Population dynamics.",
+          "locator": "Methods §§2.3–2.6; Results §§3.2, 3.4, 3.5.1; Discussion conservation recommendation.",
           "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated on the article page.",
           "licenseAssessment": "item-level-verified",
           "licenseAppliesTo": "Article text under the stated CC BY 4.0 license; separately credited third-party material remains subject to its original rights.",
@@ -67,7 +67,7 @@
           "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0182140",
           "rightsEvidenceLocator": "Article page, copyright and Creative Commons Attribution License statement.",
           "rightsHolder": "The Authors",
-          "scope": "Primary study reporting bounded roadside counts and survey methods for roads connected to Mysore, India. The selected record does not reproduce article text and does not present these counts as a species-wide estimate or causal test."
+          "scope": "Primary study reporting bounded forest occupancy, temple/tourist-site history and roadside counts in southern India. The selected record does not reproduce article text or present any one sample as a current range-wide estimate."
         }
       ],
       "facets": {
@@ -84,18 +84,50 @@
               "lifeStatus": "Free-ranging roadside groups in the species' native range; the sample is local and habitat-specific, not range-wide.",
               "translationStatus": "untranslated",
               "originalLanguage": "en"
+            },
+            {
+              "text": "In the Parambikulam landscape of Kerala, the study detected 54 bonnet macaque groups in 33 of 64 sampled grid cells. A single-season occupancy model estimated mean cell occupancy at 0.51 ± 0.08 (SE) and detection probability at 0.25 ± 0.05 (SE). These are modelled results for one forest survey, not species-wide forest occupancy or abundance.",
+              "sourceIds": ["erinjery2017"],
+              "locator": "Methods §§2.3–2.4; Results §3.2 Occupancy modelling of bonnet macaques in forest areas.",
+              "placeTimeScope": "Parambikulam landscape, Kerala, India; 64 sampled grid cells in the study's single-season forest occupancy survey.",
+              "lifeStatus": "Free-ranging groups in one forest survey; site occupancy and detectability are modelled locally and are not a range-wide estimate.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            },
+            {
+              "text": "In its temple/tourist-site comparison and historical site records, the 2017 study reported bonnet macaques at about 31% of assessed locations, reappearance after translocation in about 20% of cases, and elimination or disappearance at more than 48%. The comparison draws on surveys and site histories from southern India; it is not current range-wide occupancy or abundance.",
+              "sourceIds": ["erinjery2017"],
+              "locator": "Methods §2.5 Survey of temple sites/tourist spots; Results §3.4.",
+              "placeTimeScope": "Temple/tourist locations in southern India; prior Karnataka comparison from 2001–2004 and resurvey period November 2009–September 2015, as described by the paper.",
+              "lifeStatus": "Free-ranging groups at human-use sites; the finding is a historical site-status summary rather than a contemporary range-wide survey.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
             }
           ],
-          "gaps": ["One local roadside comparison supports the count change and survey scope; roadside habitat, seasonal and population variation, wider ecology and causal mechanisms remain unassessed."]
+          "gaps": ["Evidence remains limited to one 2017 study and local survey frames; broader habitat, seasonal and population variation, range-wide ecology and causal mechanisms remain unassessed."]
         },
         "evolution": { "status": "not-assessed", "gaps": ["No evolutionary, genomic or phylogenetic literature review was completed for this record."] },
         "distribution": { "status": "not-assessed", "gaps": ["A local set of roadside survey routes is not a current or historical species-range inventory."] },
         "fossil": { "status": "not-assessed", "gaps": ["No fossil search or occurrence assessment was completed for this record."] },
-        "conservation": { "status": "not-assessed", "gaps": ["No current formal conservation assessment or range-wide population trend was reviewed."] }
+        "conservation": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "For the surveyed southern Indian landscapes, the authors proposed selected vegetated hillocks and temple/tourist locations as possible conservation reserves, based partly on local roadside persistence at Chamundi Hill and declines on other monitored roads. This is a 2017 study recommendation, not a statutory designation, current threat category or range-wide recovery plan.",
+              "sourceIds": ["erinjery2017"],
+              "locator": "Results §3.5.1; Discussion, conservation recommendation for hillocks and selected temple/tourist locations.",
+              "placeTimeScope": "Mysore-connected roadsides and selected southern Indian human-use sites discussed in the 2017 article; recommendation is based on local monitoring, with Chamundi Hill persistence reported over about 25 years.",
+              "lifeStatus": "Free-ranging populations in human-modified southern Indian settings; no formal taxon-wide status assessment is implied.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": ["Current formal conservation category, contemporary range-wide population trend and independently reviewed recovery actions remain unassessed."]
+        }
       },
       "completeness": {
         "status": "incomplete",
-        "reasons": ["One primary study supports a bounded local roadside ecology claim; six evidence facets remain not-assessed.", "No systematic literature search or independent expert review has been completed."]
+        "reasons": ["One 2017 primary study supports bounded ecology findings from three local sampling contexts and one local conservation recommendation; five evidence facets remain not-assessed.", "No systematic literature search or independent expert review has been completed."]
       },
       "expertReview": { "status": "not-reviewed", "reviewers": [], "reviewDigest": null }
     }
