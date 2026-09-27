@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-microcebus-ravelobensis-ecology-morphology-b60-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "preparedAgainst": {
+    "head": "8bbe4a94e427cd4ef8e074c66ba331749af8c594",
+    "baseRef": "origin/main"
+  },
+  "audit": {
+    "target": {
+      "colId": "42SBZ",
+      "scientificName": "Microcebus ravelobensis Zimmerman, Ehresmann, Zeitemann, Radespiel, Randrianambinina & Rakotoarison, 1997",
+      "authorship": "Zimmerman, Ehresmann, Zeitemann, Radespiel, Randrianambinina & Rakotoarison, 1997",
+      "rank": "species",
+      "sourceDatasetId": "2144"
+    },
+    "indexedRecordCount": 36329,
+    "targetRecordCountBeforeUpdate": 0,
+    "queueShardPath": "data/knowledge/species-evidence-queue/c.jsonl.br",
+    "queueRowSha256BeforeUpdate": "809a459c1982484180adc98df02294bf77a86099931014614c0ef4d2b08b61ba",
+    "sourceStableIdOccurrencesBeforeUpdate": 0,
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "openPullRequests": []
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115
+  },
+  "checkedAt": "2026-09-28",
+  "source": {
+    "id": "andriatsitohaina2020",
+    "title": "Andriatsitohaina et al. (2020), Effects of habitat edges on vegetation structure and the vulnerable golden-brown mouse lemur (Microcebus ravelobensis) in northwestern Madagascar",
+    "url": "https://link.springer.com/article/10.1186/s12898-020-00337-z",
+    "stableId": "doi:10.1186/s12898-020-00337-z",
+    "version": "BMC Ecology 20, article 69 (2020); version of record published 2020-12-17",
+    "publishedAt": "2020-12-17",
+    "accessedAt": "2026-09-28",
+    "locator": "Abstract; Methods §§Study site and period, Data collection, and Data analyses; Results §§Effects of edge habitats on M. ravelobensis abundance and body mass, Relationship between edge effects in vegetation and M. ravelobensis abundance and body mass; Discussion; article license statement.",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "licenseAssessment": "item-level-verified",
+    "rightsHolder": "Andriatsitohaina et al. (2020)",
+    "licenseVersion": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseAppliesTo": "Article text used for paraphrased research findings. No figures, photographs, or separately credited third-party material are reused; the publisher notes that some third-party material may have separate credit-line terms.",
+    "scope": "Primary field research on wild, free-ranging Microcebus ravelobensis sampled along four forest-edge transects in Mariarano Classified Forest, northwestern Madagascar, during 2017-2018. The measured responses are local capture-based abundance and body mass, not a species-wide range, population estimate, or diagnostic description.",
+    "attribution": "Andriatsitohaina B, Romero-Mujalli D, Ramsay MS, Kiene F, Rasoloharijaona S, Rakotondravony R, Lehman SM, Radespiel U (2020). BMC Ecology 20, 69. https://doi.org/10.1186/s12898-020-00337-z. Claims paraphrased; no figures reused."
+  },
+  "claims": {
+    "ecology": {
+      "text": "At Mariarano Classified Forest, four 1-km transects perpendicular to forest edges were sampled in 2017-2018 with 2,424 trap-nights, yielding 226 captured M. ravelobensis. A logistic model estimated a 340-m depth of edge influence for capture-based local abundance, but the overall edge-versus-interior abundance difference was not significant; the male-only difference was a statistical trend (p=0.082), and the female comparison was not significant (p=0.843). Within these transects, abundance was negatively associated with measured densities of large trees, small trees, and saplings. These results describe one local sample and do not establish a causal edge effect, total population size, or a species-wide pattern.",
+      "sourceIds": ["andriatsitohaina2020"],
+      "locator": "Abstract; Methods §§Study site and period and Data collection (four transects, 2,424 trap-nights, and abundance as unique captures per 100 m); Results §Effects of edge habitats on M. ravelobensis abundance and body mass (DEI 340 m and nonsignificant overall comparison); Results §Relationship between edge effects in vegetation and M. ravelobensis abundance and body mass (Fig. 6a-c and Table S4); Discussion §Edge effects on M. ravelobensis.",
+      "placeTimeScope": "Mariarano Classified Forest, near Mariarano village, about 80 km northeast of Mahajanga, northwestern Madagascar (15°24′S, 46°44′E; 20-90 m elevation). Transect C1 was sampled in June-July 2017; C2-C4 were sampled from mid-May to mid-August 2018. Four 1-km transects bordered different road, savannah, and agricultural matrices.",
+      "lifeStatus": "Wild, free-ranging field captures. Captured animals were handled briefly and released at dusk at their capture locations; no captive, domesticated, or fossil population is represented.",
+      "translationStatus": "untranslated",
+      "originalLanguage": "en"
+    },
+    "morphology": {
+      "text": "In the same wild Mariarano sample, captured M. ravelobensis were weighed and age-classified; adults were defined using body mass of at least 41 g together with other morphometric parameters. A logistic model estimated a 390-m depth of edge influence for local body-mass variation, but the overall edge-versus-interior body-mass difference was not significant; the female-only contrast was a statistical trend (p=0.052), with no corresponding male trend. This local response does not establish a species-wide body-mass range, diagnostic morphology, or sexual dimorphism.",
+      "sourceIds": ["andriatsitohaina2020"],
+      "locator": "Methods §Data collection (individual weighing and adult classification); Results §Effects of edge habitats on M. ravelobensis abundance and body mass (DEI 390 m and nonsignificant overall comparison); Fig. 5b and Table S3 (female-only p=0.052 trend); Discussion §Edge effects on M. ravelobensis.",
+      "placeTimeScope": "Wild captured animals at Mariarano Classified Forest, northwestern Madagascar, sampled on four 1-km forest-edge transects in June-July 2017 and mid-May-mid-August 2018. The paper reports a local modeled response and does not estimate a range-wide body-mass distribution.",
+      "lifeStatus": "Wild, free-ranging field captures. The study did not measure captive, domesticated, or fossil animals.",
+      "translationStatus": "untranslated",
+      "originalLanguage": "en"
+    }
+  },
+  "facetGaps": {
+    "ecology": [
+      "The evidence is limited to one forest and four transects with different matrix types. Overall edge-interior abundance differences were nonsignificant, and the authors discuss the small transect sample and moderate, spatially variable responses.",
+      "Trap captures per 100 m are a local abundance index, not an estimate of population density or total population size. Vegetation associations are observational and do not establish causal effects or a general species-wide response."
+    ],
+    "morphology": [
+      "Only body mass and an adult-classification threshold are reported for a local wild sample. The study does not establish a species-wide body-mass range, diagnostic morphology, ontogenetic pattern, or sexual dimorphism; overall edge-interior body-mass differences were nonsignificant."
+    ]
+  },
+  "identityScope": "The target is the exact accepted COL26.8 usage 42SBZ. The paper studies individuals identified as Microcebus ravelobensis at one northwestern Madagascar forest site; it does not define or compare subspecies, so none is inferred.",
+  "wildScope": "The cited biological data are from wild mouse lemurs captured at Mariarano Classified Forest on four 1-km transects in 2017-2018. Animals were briefly handled, weighed, and released at dusk at their capture sites. No captive, domesticated, or fossil evidence is included.",
+  "completenessReasons": [
+    "One primary field study supports only local ecology and body-mass response; it does not establish range-wide species patterns.",
+    "Life history, evolution, distribution, fossil evidence, and current conservation status remain unassessed.",
+    "No comprehensive multi-source review or independent expert review has been completed."
+  ]
+}

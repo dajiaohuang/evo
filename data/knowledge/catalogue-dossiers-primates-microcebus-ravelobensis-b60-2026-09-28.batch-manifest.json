@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-microcebus-ravelobensis-ecology-morphology-b60-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-microcebus-ravelobensis-ecology-morphology-b60-2026-09-28.json",
+    "sha256": "3b2070740aff3f13dc378767d670356a77e39d4d567b2bab84fea6c21927709d"
+  },
+  "preparedAgainst": {
+    "head": "8bbe4a94e427cd4ef8e074c66ba331749af8c594",
+    "baseRef": "origin/main"
+  },
+  "duplicateCheck": {
+    "indexedRecordCount": 36329,
+    "queueShardPath": "data/knowledge/species-evidence-queue/c.jsonl.br",
+    "queueRowSha256BeforeUpdate": "809a459c1982484180adc98df02294bf77a86099931014614c0ef4d2b08b61ba",
+    "sourceStableId": "doi:10.1186/s12898-020-00337-z",
+    "sourceStableIdOccurrencesBeforeUpdate": 0,
+    "targetRecordCountBeforeUpdate": 0,
+    "matchedColIds": [],
+    "matchedNames": [],
+    "openPullRequests": []
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115
+  },
+  "classificationPath": [
+    "CS5HF",
+    "N",
+    "CH2",
+    "8V4V3",
+    "8V4V5",
+    "8VVWB",
+    "9CK8W",
+    "6224G",
+    "6226C",
+    "LG",
+    "3W7",
+    "4FM",
+    "4LN",
+    "4XL",
+    "834",
+    "63B2M",
+    "42SBZ"
+  ],
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-microcebus-ravelobensis-b60-2026-09-28.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 13384,
+    "sha256": "2f2fd73478bca580e4ab9d0ce3b2ce99d30b7a48bc629eedb9556bd46dfe8b53"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-microcebus-ravelobensis-b60-2026-09-28.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 13384,
+    "decodedSha256": "2f2fd73478bca580e4ab9d0ce3b2ce99d30b7a48bc629eedb9556bd46dfe8b53",
+    "compressedBytes": 3512,
+    "compressedSha256": "e426abdfa4c2553d549f7222fb9c17d22d9cc8f5e99567eaa9e583476d0a8ecf",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "previousDossierIndexSha256": "db80c9ed1ceae3a488d747dbbe2de2988afe162748fae0f471d06cc356af9fa2",
+  "dossierIndexRecordCountAfterUpdate": 36330,
+  "dossierIndexShardCountAfterUpdate": 80,
+  "sources": [
+    {
+      "id": "andriatsitohaina2020",
+      "stableId": "doi:10.1186/s12898-020-00337-z",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "rightsHolder": "Andriatsitohaina et al. (2020)"
+    }
+  ],
+  "appAndPagesPreviewManifestChanged": false,
+  "appAndPagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+  "appAndPagesPreviewRuntimePolicy": "Selected core scope only; the full species-evidence queue and dossier archive are not included in native-core or github-pages-preview builds.",
+  "generator": "scripts/build-primates-microcebus-ravelobensis-b60.mjs"
+}
