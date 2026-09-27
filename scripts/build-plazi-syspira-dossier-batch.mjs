@@ -9,7 +9,7 @@ import { readCatalogueDossiers } from './catalogue-dossier-store.mjs'
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const BATCH_ID = 'plazi-syspira-dossier-batch-2026-09-27'
 const INPUT = 'data/sources/plazi-syspira-dossier-batch-2026-09-27.json'
-const EXPECTED_INPUT_SHA256 = '91e8e20648c7ac6c9f7a03f5ed210e0e19ec7a60349967f2814e652c77d5ad7c'
+const EXPECTED_INPUT_SHA256 = 'de87aff463284ddcf8f69d9a82bd23d890388c26e2cbca061da4bbffdac9e2ff'
 const PROJECTION = 'data/sources/plazi-descriptions.jsonl.gz'
 const LEDGER = 'data/sources/plazi-descriptions-import-ledger.json'
 const REGISTRY_ROOT = 'data/catalogue-of-life/releases/2026-08-20/registry'
@@ -148,6 +148,7 @@ function sourceList(item, usage) {
       stableId: `doi:${input.article.doi}`,
       version: 'Zootaxa 5722 (3): 301–325 (2025)',
       publishedAt: input.article.publishedAt,
+      locator: input.article.locator,
       license: input.article.license,
       licenseAssessment: input.article.licenseAssessment,
       licenseAppliesTo: 'Bibliographic citation only; no article PDF, article prose, or figures are redistributed.',
