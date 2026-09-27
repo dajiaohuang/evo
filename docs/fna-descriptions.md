@@ -39,7 +39,7 @@ and is retained only as history. It is not an input to this importer.
 
 ## Audited species dossiers
 
-The 2026-09-27 increments link fourteen accepted species to exact FNA rows.
+The 2026-09-27 increments link thirty-two accepted species to exact FNA rows.
 *Pinus longaeva* (`COL26.8` `77L64`; WFO `wfo-0000481202`) uses row 9926,
 source identifier `8B9ADD07-8A9F-4AAF-BBD9-E83C0E9B8011`, cited as Bailey
 (2003). *Pinus albicaulis* (`4J224`; WFO `wfo-0000482599`) uses row 6701,
@@ -54,19 +54,35 @@ source identifier `8BCF01AB-57A3-4F43-82EC-BF64C0F41BD4`, cited as Engelmann
 IDs, item citations, morphology fragments, and license declarations are pinned
 in the batch input and manifest.
 
+A second morphology-only batch links *P. cembroides* (`4J24K`, row 11863),
+*P. echinata* (`4J267`, row 15805), *P. glabra* (`4J27G`, row 3679),
+*P. monticola* (`4J2CG`, row 1950), *P. muricata* (`4J2CS`, row 9919),
+*P. ponderosa* (`4J2F3`, row 15414), *P. pungens* (`4J2FK`, row 14995),
+*P. quadrifolia* (`4J2FN`, row 15450), *P. resinosa* (`4J2G5`, row 9272),
+*P. rigida* (`4J2G9`, row 15807), *P. strobiformis* (`4J2HX`, row 6696),
+*P. strobus* (`4J2HY`, row 14780), *P. torreyana* (`4J2JZ`, row 16139),
+*P. virginiana* (`4J2KR`, row 15810), *P. serotina* (`6VKSL`, row 12269),
+*P. elliottii* (`77KTN`, row 10700), *P. sabiniana* (`C85JD`, row 1949), and
+*P. clausa* (`VM3L9`, row 15425). Exact FNA source identifiers, WFO IDs, item
+citations, morphology fragments, and license declarations are pinned in
+`data/sources/fna-pinus-morphology-dossier-batch-2-2026-09-27.json` and its
+manifest. Two other candidate rows were excluded because they describe
+varieties or geography, not species morphology: *P. sylvestris* (`4J2J5`, row
+14781) and *P. leiophylla* (`6VL5T`, row 880).
+
 For every dossier, the accepted COL name, authorship, rank, source dataset, and
 complete parent chain are verified from the pinned COL26.8 registry. Each
 record keeps only claims supported by its cited FNA account: *P. longaeva* has
 one partially supported morphology facet; *P. albicaulis* has partially
-supported morphology and life-history facets; the twelve-species batch has a
-partially supported seed-cone morphology facet only. All other facets remain
-not assessed. The English claims in the twelve-species batch remain marked
-untranslated. FNA measurements are account-level descriptions, not population
+supported morphology and life-history facets; both twelve- and eighteen-species
+batches have a partially supported seed-cone morphology facet only. All other
+facets remain not assessed. English claims in the two morphology batches remain
+marked untranslated. FNA measurements are account-level descriptions, not population
 means; none of these regional accounts is treated as a global range assessment
 or proof of identical species circumscription across checklist releases. Each
 row's CC BY 4.0 declaration and the archive license metadata are retained with
 attribution. Direct eFloras and WFO resource fetches returned 502 for *P.
 albicaulis* during its audit; those claims use only the hash-pinned archived row
-and its citation. All fourteen dossiers remain in the canonical evidence store;
+and its citation. All thirty-two dossiers remain in the canonical evidence store;
 FNA source descriptions remain excluded from App and GitHub Pages preview
 payloads.
