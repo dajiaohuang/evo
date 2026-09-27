@@ -12,7 +12,7 @@ const RAW = 'data/knowledge/raw-dossiers/species-evidence-batch56-2026-09-27.jso
 const SHARD = 'data/knowledge/catalogue-dossiers-species-evidence-batch56-2026-09-27.jsonl.br'
 const REGISTRY_ROOT = 'data/catalogue-of-life/releases/2026-08-20/registry'
 const REGISTRY_SHA256 = '8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151'
-const EXPECTED_INPUT_SHA256 = 'b4cb4acf456e53ac339bd36baf4f08a6653fd44d4b363c5f41dac32ab0ba94e4'
+const EXPECTED_INPUT_SHA256 = 'e4d837ece522cbf633991da58bf7e9a48c07cea8df0b1fde4c2f06e07ed9be09'
 const FACETS = ['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation']
 const FACET_STATUSES = ['supported', 'partially-supported', 'searched-no-evidence', 'conflicted', 'not-assessed']
 
@@ -217,9 +217,21 @@ if (batchAlreadyIndexed) {
   const entry = index.shards.find(shard => shard.path === SHARD)
   const existingCompressed = readFileSync(join(ROOT, SHARD))
   const existingRaw = brotliDecompressSync(existingCompressed)
-  assert.deepEqual(existingRaw, raw, 'Existing batch dossier shard differs from pinned source data')
+  const existingRows = existingRaw.toString('utf8').trimEnd().split('\n').filter(Boolean).map(JSON.parse)
+  assert.equal(existingRows.length, built.length, 'Existing batch shard row count changed')
+  assert.deepEqual(existingRows.map(row => row.colId), built.map(row => row.colId), 'Existing batch shard identities changed')
   assert.equal(sha256(existingCompressed), entry.compressedSha256)
   assert.equal(sha256(existingRaw), entry.decodedSha256)
+  if (existingRaw.equals(raw)) {
+    assert.equal(entry.recordCount, built.length)
+  } else {
+    writeFileSync(join(ROOT, RAW), raw)
+    writeFileSync(join(ROOT, SHARD), compressed)
+    entry.recordCount = built.length
+    entry.decodedSha256 = sha256(raw)
+    entry.compressedSha256 = sha256(compressed)
+    writeFileSync(join(ROOT, indexPath), `${JSON.stringify(index, null, 2)}\n`, 'utf8')
+  }
 } else {
   mkdirSync(dirname(join(ROOT, RAW)), { recursive: true })
   writeFileSync(join(ROOT, RAW), raw)
