@@ -13,10 +13,10 @@
   ],
   "path": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
   "rawPath": "data/knowledge/raw-dossiers/primates-batch-2.jsonl",
-  "rawSha256": "6cc0cffebf0ce2133d39805e22095cb813d31de7912c26fe8f7a1c688ff1f36d",
-  "decodedSha256": "6cc0cffebf0ce2133d39805e22095cb813d31de7912c26fe8f7a1c688ff1f36d",
-  "compressedSha256": "a6b6340b41afbb64bfaa13667f36f921a90d14d354dc28d258e224710301cf41",
-  "checkedAt": "2026-09-26",
+  "rawSha256": "20948f343138e241a71d5a980c967319465ff518a91abae5f3c56169183572d7",
+  "decodedSha256": "20948f343138e241a71d5a980c967319465ff518a91abae5f3c56169183572d7",
+  "compressedSha256": "826b9ed322a85876b716bea59fa74eca48f12ae92d2119a7dc121a2070c8a511",
+  "checkedAt": "2026-09-28",
   "generationSource": "data/sources/primates-dossiers-batch-2.json",
   "generationSourceSha256": "c8b917c5ff80a680585b05612793099e1dbdecdb0ae66f961ae6a28e6edc46ec",
   "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
@@ -30,31 +30,28 @@
     "existingRecordCount": 1
   },
   "updateAudit": {
-    "baseHead": "5270bd60e2ccf9ff38262193e92ae28baff414aa",
-    "indexedRecordCountAtAudit": 6969,
-    "targetColId": "3H3C9",
-    "targetScientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+    "baseHead": "e25aaed6622f688a60196114e1da280689dc378c",
+    "indexedRecordCountAtAudit": 36330,
+    "targetColId": "4C92G",
+    "targetScientificName": "Pan troglodytes (Blumenbach, 1775)",
     "targetRecordCountBeforeUpdate": 1,
     "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
-    "previousRawSha256": "cc6238998f3b861d4c96bcde6ca61d58432fef07de1595170fbdae2c1670fbc1",
-    "previousDecodedSha256": "cc6238998f3b861d4c96bcde6ca61d58432fef07de1595170fbdae2c1670fbc1",
-    "previousCompressedSha256": "132c57e22d0aba3c8a0b76fdf7b0956e15636423e16c353fae1115fe3ccad7b7",
-    "previousTargetRecordSha256": "1fdd31de72124bb125c933d4dc49546732c99ec81d8660dbc045cac4d1a062c9",
+    "previousRawSha256": "6cc0cffebf0ce2133d39805e22095cb813d31de7912c26fe8f7a1c688ff1f36d",
+    "previousDecodedSha256": "6cc0cffebf0ce2133d39805e22095cb813d31de7912c26fe8f7a1c688ff1f36d",
+    "previousCompressedSha256": "a6b6340b41afbb64bfaa13667f36f921a90d14d354dc28d258e224710301cf41",
+    "previousTargetRecordSha256": "e6b5c2c2856b4a26b37ebdde2d400840accfe0107591eab32c057ef60af04d75",
+    "queueRowSha256BeforeUpdate": "a1aa563f116e37219e64df4d4bd6b280b398844d707b0cb621e52815e0ee685e",
     "openPullRequests": [],
-    "openPullRequestSearch": {
-      "query": "3H3C9",
-      "checkedAt": "2026-09-26",
-      "returned": 0
-    },
-    "mode": "in-place-add-one-sample-bounded-morphology-source-to-existing-record",
-    "indexedRecordCountAfterUpdate": 6969,
-    "outputRawSha256": "6cc0cffebf0ce2133d39805e22095cb813d31de7912c26fe8f7a1c688ff1f36d",
-    "outputDecodedSha256": "6cc0cffebf0ce2133d39805e22095cb813d31de7912c26fe8f7a1c688ff1f36d",
-    "outputCompressedSha256": "a6b6340b41afbb64bfaa13667f36f921a90d14d354dc28d258e224710301cf41"
+    "mode": "in-place-add-two-bounded-behavior-claims-and-full-accepted-parent-chain",
+    "indexedRecordCountAfterUpdate": 36330,
+    "outputRawSha256": "20948f343138e241a71d5a980c967319465ff518a91abae5f3c56169183572d7",
+    "outputDecodedSha256": "20948f343138e241a71d5a980c967319465ff518a91abae5f3c56169183572d7",
+    "outputCompressedSha256": "826b9ed322a85876b716bea59fa74eca48f12ae92d2119a7dc121a2070c8a511",
+    "appAndPagesPreviewManifestChanged": false
   },
   "updateMode": "rebuild-one-existing-record-in-place",
-  "decodedBytes": 62049,
-  "compressedBytes": 15141,
+  "decodedBytes": 69364,
+  "compressedBytes": 16965,
   "supplementalUpdates": [
     {
       "batchId": "primates-core-flagship-enrichment-2026-09-24",
@@ -169,6 +166,22 @@
       "decodedSha256": "6cc0cffebf0ce2133d39805e22095cb813d31de7912c26fe8f7a1c688ff1f36d",
       "compressedSha256": "a6b6340b41afbb64bfaa13667f36f921a90d14d354dc28d258e224710301cf41",
       "mode": "in-place-add-one-sample-bounded-morphology-source-to-existing-record"
+    },
+    {
+      "batchId": "primates-pan-troglodytes-tool-use-batch61-2026-09-28",
+      "sourcePath": "data/sources/primates-pan-troglodytes-tool-use-b61-2026-09-28.json",
+      "sourceSha256": "d92757037f525f66a2b74e5d7a0a21f91233136436daf23c242bfa892259fadf",
+      "generator": "scripts/update-primates-pan-troglodytes-tool-use-b61.mjs",
+      "baseHead": "e25aaed6622f688a60196114e1da280689dc378c",
+      "indexedRecordCountAtAudit": 36330,
+      "targetColIds": [
+        "4C92G"
+      ],
+      "previousDecodedSha256": "6cc0cffebf0ce2133d39805e22095cb813d31de7912c26fe8f7a1c688ff1f36d",
+      "previousCompressedSha256": "a6b6340b41afbb64bfaa13667f36f921a90d14d354dc28d258e224710301cf41",
+      "decodedSha256": "20948f343138e241a71d5a980c967319465ff518a91abae5f3c56169183572d7",
+      "compressedSha256": "826b9ed322a85876b716bea59fa74eca48f12ae92d2119a7dc121a2070c8a511",
+      "mode": "in-place-add-two-bounded-behavior-claims-and-full-accepted-parent-chain"
     }
   ]
 }
