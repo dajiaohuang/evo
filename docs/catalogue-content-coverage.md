@@ -23,6 +23,11 @@ RC169 / COL26.8（2026-08-20）。分类、来源原文、来源字段标签、�
 - 在既有 COL26.8 accepted usage `4TWCR` 上原位补充一项有界形态证据。Kato 等（2021）对实验室菌株 W303-1A 与 BY4741 做静止期时间序列成像；细胞面积在 PI 阳性死亡时分别平均收缩 27.2% 与 27.0%，Phloxine B 条件下分别为 24.8% 与 27.9%。两株分别培养 2 天和 1 天至静止期，随后在约 24°C 下逐小时成像 30 小时。结论限定为两株在该批培养、染色和成像条件下的细胞面积变化，不表示细胞体积、基线形态或全物种变异。
 - 形态转为 partially-supported；其余主题、完整性和专家评审按证据继续保留缺口。队列总量仍为 36,322 份档案。原始来源、更新清单和可压缩分片分别由 [B53 来源记录](../data/sources/fungi-saccharomyces-cerevisiae-morphology-batch53-2026-09-27.json)、[更新审计清单](../data/knowledge/fungi-saccharomyces-cerevisiae-morphology-batch53-2026-09-27.update-manifest.json)及档案索引记录；App 与 GitHub Pages 继续共用含灵长目重点的精选核心范围，全量档案不加入 App/Pages 预览。原始论文：[Kato et al. (2021), mBio](https://journals.asm.org/doi/10.1128/mBio.03094-21)。
 
+## 普通松鼠猴演化证据切片（2026-09-28）
+
+- 为 COL26.8 accepted usage 4TZK2 增加一条来源限定档案。Baker et al. (2018) 在32只松鼠猴个体的DNA panel中检测382个 Alu 插入位点，其中110个呈有无多态；其中51个位点在论文定义的 S. sciureus 与 S. boliviensis 样本组之间呈作者所称的物种信息性等位基因频率分布。作者还报告两只标作 S. sciureus 的个体与 S. boliviensis 组聚类，因此档案保留样本标签限制，不推断完整种界、全球分布或全物种演化史。[出版社版本记录与CC BY 4.0许可](https://link.springer.com/article/10.1186/s13100-018-0114-7)
+- 七个主题中仅演化为 partially-supported，其余六项 not-assessed；完整档案和外部专家评审仍为 0。重新生成的固定版队列包含 2,183,133 个接受种、36,328 条档案、2,146,805 个无档案接受种。精选 app 核心和 GitHub Pages 预览继续读取同一份 data/pages-preview.json，包含灵长目；完整队列与全量档案不打入 app/Pages 预览包。
+
 ## 已落地的顺序
 
 1. 修复 Cestrum 的八个接受名 ID 与两条异名链。全部 99 段 Plazi 正文及非 ID 证据字段保持一致；原始 40 行候选文件的旧 SHA-256 已精确复现。
