@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "batchId": "cross-clade-priority-species-evidence-batch-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "baseHead": "cf558ec99ea1c5baec016f55828fd783fa2bb509",
+  "input": {
+    "path": "data/sources/cross-clade-priority-species-evidence-batch-2026-09-28.json",
+    "sha256": "14e3efc4015b5ce2ff019837299f22ed1ea3b9b8c711ea0e2ab41b28c1deffee"
+  },
+  "duplicateAudit": {
+    "repository": "https://github.com/dajiaohuang/evo",
+    "checkedAt": "2026-09-28",
+    "methods": [
+      "Exact COL26.8 queue rows and all 80 dossier index shards checked for existing dossiers, names, and stable source IDs.",
+      "Repository text and source indexes searched for each COL ID, scientific name, article title, and DOI.",
+      "Public GitHub issues and pull requests searched across all states for each COL ID, scientific name, and DOI."
+    ],
+    "matches": [],
+    "limitations": "This audit covers the selected repository and public issue/PR search results at the checked time; it is not a claim that no related research exists."
+  },
+  "identities": [
+    {
+      "colId": "4HPXM",
+      "scientificName": "Pica pica (Linnaeus, 1758)",
+      "sourceDatasetId": "2144",
+      "classificationPathIds": [
+        "CS5HF",
+        "N",
+        "CH2",
+        "8V4V3",
+        "8V4V5",
+        "8VVWB",
+        "9CK8W",
+        "V2",
+        "3RL",
+        "8L6",
+        "63MBS",
+        "4HPXM"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "subphylum",
+        "infraphylum",
+        "parvphylum",
+        "megaclass",
+        "class",
+        "order",
+        "family",
+        "genus",
+        "species"
+      ]
+    },
+    {
+      "colId": "5BX2Q",
+      "scientificName": "Welwitschia mirabilis Hook.f.",
+      "sourceDatasetId": "2004",
+      "classificationPathIds": [
+        "CS5HF",
+        "P",
+        "CMQ8S",
+        "TP",
+        "C7ZVJ",
+        "C7CGK",
+        "C8NGJ",
+        "C8MQF",
+        "8W4P5",
+        "5BX2Q"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "subkingdom",
+        "phylum",
+        "class",
+        "subclass",
+        "order",
+        "family",
+        "genus",
+        "species"
+      ]
+    },
+    {
+      "colId": "7F2J9",
+      "scientificName": "Ursus maritimus Phipps, 1774",
+      "sourceDatasetId": "2144",
+      "classificationPathIds": [
+        "CS5HF",
+        "N",
+        "CH2",
+        "8V4V3",
+        "8V4V5",
+        "8VVWB",
+        "9CK8W",
+        "6224G",
+        "6226C",
+        "LG",
+        "VS",
+        "4CT",
+        "HQQ",
+        "63VHR",
+        "7F2J9"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "subphylum",
+        "infraphylum",
+        "parvphylum",
+        "megaclass",
+        "class",
+        "subclass",
+        "infraclass",
+        "order",
+        "suborder",
+        "family",
+        "genus",
+        "species"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "colId": "4HPXM",
+      "sources": [
+        {
+          "stableId": "doi:10.3389/fevo.2024.1345971",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "colId": "5BX2Q",
+      "sources": [
+        {
+          "stableId": "doi:10.1038/s41467-021-24528-4",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "colId": "7F2J9",
+      "sources": [
+        {
+          "stableId": "doi:10.1371/journal.pone.0252748",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC0 1.0"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "dossiersAdded": 3,
+    "partialFacets": {
+      "morphology": [],
+      "lifeHistory": [
+        "7F2J9"
+      ],
+      "ecology": [
+        "4HPXM"
+      ],
+      "evolution": [
+        "5BX2Q"
+      ],
+      "distribution": [],
+      "fossil": [],
+      "conservation": []
+    },
+    "notAssessedFacets": [
+      {
+        "colId": "4HPXM",
+        "facets": [
+          "morphology",
+          "lifeHistory",
+          "evolution",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      },
+      {
+        "colId": "5BX2Q",
+        "facets": [
+          "morphology",
+          "lifeHistory",
+          "ecology",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      },
+      {
+        "colId": "7F2J9",
+        "facets": [
+          "morphology",
+          "ecology",
+          "evolution",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      }
+    ],
+    "completeDossiersAdded": 0,
+    "externallyReviewedDossiersAdded": 0
+  },
+  "queueAudit": {
+    "queueManifestSha256Before": "73d8c5bee89bff5874bc6814493a88904c3ec066e151ae4c781d89fac3d955b1",
+    "rowsBefore": [
+      {
+        "colId": "4HPXM",
+        "shardPath": "data/knowledge/species-evidence-queue/d.jsonl.br",
+        "rowSha256": "78d7628338848423e5bb79af3d7244de5e16fea5cff9b6bc6eb516cff6320aef",
+        "status": "missing"
+      },
+      {
+        "colId": "5BX2Q",
+        "shardPath": "data/knowledge/species-evidence-queue/d.jsonl.br",
+        "rowSha256": "ca451a58085a127998a53b1e340c4499065fe7f726fd2aefd36041bcb14dc8a4",
+        "status": "missing"
+      },
+      {
+        "colId": "7F2J9",
+        "shardPath": "data/knowledge/species-evidence-queue/2.jsonl.br",
+        "rowSha256": "e42c85258b78e4afbede3adafda52f05e098bca4681cb4e4e6aa66a67c6c6fce",
+        "status": "missing"
+      }
+    ]
+  },
+  "appAndPagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+  "appAndPagesPreviewManifestChanged": false,
+  "baseDossierIndexSha256": "ccfe3c0606f16b56ff7091e42df2de7738dca45e2ab262ffce0f1798eded5cbc",
+  "finalDossierIndexSha256": "5315c82a072dfa2faf9133bedf8174ad55ea5cd4ab717f7f30c8bc3f5ba99b58",
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/cross-clade-priority-species-evidence-batch-2026-09-28.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 3,
+    "bytes": 23475,
+    "sha256": "84a380b4a04980c352878885692b8e669b324ce22ab047240a242bd3c46c762c"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-cross-clade-priority-species-evidence-2026-09-28.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 23475,
+    "decodedSha256": "84a380b4a04980c352878885692b8e669b324ce22ab047240a242bd3c46c762c",
+    "compressedBytes": 4397,
+    "compressedSha256": "7f86597b19dca867425f05f045ab023774d7521255b2b44b5763f9b3f5c54640",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "dossierCountBefore": 36334,
+  "dossierCountAfter": 36337,
+  "generator": "scripts/build-cross-clade-priority-species-evidence-batch-2026-09-28.mjs",
+  "fullDossierCountAdded": 0,
+  "expertReviewedDossierCountAdded": 0
+}
