@@ -1,0 +1,6893 @@
+{
+  "schemaVersion": 1,
+  "batchId": "brazil-flora-dossier-batch-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "generator": "scripts/build-brazil-flora-dossier-batch.mjs",
+  "selection": {
+    "sourceAssociatedSpecies": 28896,
+    "sourceMorphologyPortugueseRows": 22191,
+    "sourceHabitatPortugueseRows": 26990,
+    "morphologyDuplicateTextGroupsQuarantined": 273,
+    "morphologyDuplicateSpeciesQuarantined": 1048,
+    "morphologyHabitatIntersectionDuplicateGroups": 177,
+    "morphologyHabitatIntersectionDuplicateSpecies": 595,
+    "exactTextDuplicateRule": "For the selected Portuguese morphology field, any exact full-text value present for more than one COL ID is quarantined for manual source review; raw source rows remain unchanged.",
+    "unknownHabitatRowsExcluded": 91,
+    "unknownHabitatRows": [
+      {
+        "colId": "385MD",
+        "rowNumber": 23431,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "385MF",
+        "rowNumber": 23435,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "3CR65",
+        "rowNumber": 56571,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "3H5KH",
+        "rowNumber": 61925,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "3M6QY",
+        "rowNumber": 25475,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "3M6S8",
+        "rowNumber": 25499,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "3RYHR",
+        "rowNumber": 20856,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "3YGGB",
+        "rowNumber": 12034,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "3YGKB",
+        "rowNumber": 12036,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "3YGKD",
+        "rowNumber": 12038,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "42N64",
+        "rowNumber": 62248,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "42N7R",
+        "rowNumber": 75795,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "42PS2",
+        "rowNumber": 62430,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "462F9",
+        "rowNumber": 21762,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "46RPJ",
+        "rowNumber": 27405,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "47DQP",
+        "rowNumber": 27646,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "4B8XP",
+        "rowNumber": 72461,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "4B8YN",
+        "rowNumber": 63513,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "4B9CW",
+        "rowNumber": 63558,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "4G7VC",
+        "rowNumber": 13910,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "4G827",
+        "rowNumber": 13975,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "4G87Z",
+        "rowNumber": 14069,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "4R6HY",
+        "rowNumber": 30494,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "4TMFX",
+        "rowNumber": 16437,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "4TMHM",
+        "rowNumber": 16477,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "4ZHNB",
+        "rowNumber": 17646,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "4ZQ3G",
+        "rowNumber": 41951,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "5BT6T",
+        "rowNumber": 46888,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "5BTBY",
+        "rowNumber": 46879,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "5WKVT",
+        "rowNumber": 19886,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "5WL6M",
+        "rowNumber": 19827,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "5WL6V",
+        "rowNumber": 19840,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "64TCQ",
+        "rowNumber": 19089,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "64TFF",
+        "rowNumber": 19151,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "64V5Z",
+        "rowNumber": 19510,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "64VCM",
+        "rowNumber": 19405,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "64VCP",
+        "rowNumber": 19407,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "64VCW",
+        "rowNumber": 19442,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "64VDN",
+        "rowNumber": 19454,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "655D5",
+        "rowNumber": 19098,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "657B2",
+        "rowNumber": 19322,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "657CJ",
+        "rowNumber": 19342,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "68KVV",
+        "rowNumber": 19909,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "68L8L",
+        "rowNumber": 19873,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "6BJDY",
+        "rowNumber": 21130,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "6BK4V",
+        "rowNumber": 21108,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "6DCTK",
+        "rowNumber": 38457,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "6F23D",
+        "rowNumber": 4470,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "6HQ7F",
+        "rowNumber": 56818,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "6RXRY",
+        "rowNumber": 27829,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "6V2BZ",
+        "rowNumber": 27928,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "6V2K3",
+        "rowNumber": 27757,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "6V2L2",
+        "rowNumber": 63895,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "6VLVD",
+        "rowNumber": 29490,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "6WY33",
+        "rowNumber": 16402,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "6YR3C",
+        "rowNumber": 46848,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "6ZGJS",
+        "rowNumber": 17650,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "7232L",
+        "rowNumber": 1934,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "72V6Q",
+        "rowNumber": 12074,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "73XSF",
+        "rowNumber": 27709,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "749SD",
+        "rowNumber": 52313,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "74X4H",
+        "rowNumber": 28203,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "76PFJ",
+        "rowNumber": 73878,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "76QGF",
+        "rowNumber": 27932,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "76QST",
+        "rowNumber": 73882,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "76QVK",
+        "rowNumber": 27857,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "76QVR",
+        "rowNumber": 73947,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "76R9X",
+        "rowNumber": 73953,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "772PS",
+        "rowNumber": 27964,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "772XX",
+        "rowNumber": 71013,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "78XR6",
+        "rowNumber": 16406,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "87YDF",
+        "rowNumber": 47052,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "87YFG",
+        "rowNumber": 47074,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "87YJB",
+        "rowNumber": 47122,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "87Z2J",
+        "rowNumber": 47287,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "87Z2N",
+        "rowNumber": 47289,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "87Z6W",
+        "rowNumber": 47341,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "9K7S2",
+        "rowNumber": 20280,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "C8WQ",
+        "rowNumber": 43040,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "C8XM",
+        "rowNumber": 43052,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "C95C",
+        "rowNumber": 43602,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "C973",
+        "rowNumber": 43093,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "HM4C",
+        "rowNumber": 37672,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "L7Q3",
+        "rowNumber": 47236,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "L8BX",
+        "rowNumber": 47339,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "QLYF",
+        "rowNumber": 20278,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "QLYJ",
+        "rowNumber": 20293,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "QLZ9",
+        "rowNumber": 20313,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "S2BG5",
+        "rowNumber": 73955,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "ZTYG",
+        "rowNumber": 21050,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      },
+      {
+        "colId": "ZTZY",
+        "rowNumber": 21104,
+        "valueSha256": "f08f3414e973f2a6d9ea825f8e592f5b5c97175369010c2d419abbf5e44d2e59"
+      }
+    ],
+    "habitFieldsUsedAsClaims": 0,
+    "excludedBecauseNoEligibleClaim": 498,
+    "eligibleSpeciesAlreadyHadDossiers": 805,
+    "newDossiers": 27593,
+    "newMorphologyClaimDossiers": 20548,
+    "newEcologyClaimDossiers": 23619,
+    "newEcologyClaimRows": 26130,
+    "newDossiersWithBothMorphologyAndEcology": 16574,
+    "completeDossiersAdded": 0,
+    "externallyReviewedDossiersAdded": 0,
+    "skippedExistingColIds": [
+      "329Q2",
+      "329TQ",
+      "32F4N",
+      "32G4F",
+      "32LNF",
+      "32M9H",
+      "32ZLZ",
+      "336S6",
+      "336W6",
+      "336YB",
+      "33BJH",
+      "33BLY",
+      "33BQR",
+      "33BWZ",
+      "33BYH",
+      "33C3B",
+      "33C3Z",
+      "33C6B",
+      "33C6P",
+      "33CGF",
+      "33CHV",
+      "33D3R",
+      "33DCV",
+      "33DJW",
+      "33DNT",
+      "33JMD",
+      "33ZZW",
+      "34B5W",
+      "34B6N",
+      "34B7C",
+      "34R42",
+      "34ZYY",
+      "352Z8",
+      "3533G",
+      "3535C",
+      "353K5",
+      "353LN",
+      "358Z9",
+      "35MSQ",
+      "35Z4H",
+      "3639Z",
+      "363LF",
+      "363NJ",
+      "363RV",
+      "363TS",
+      "363V6",
+      "36XDR",
+      "377LH",
+      "377LW",
+      "383PC",
+      "38GZD",
+      "38GZJ",
+      "38GZK",
+      "38H3S",
+      "38H48",
+      "38X7C",
+      "3976C",
+      "3977N",
+      "397CP",
+      "397HF",
+      "398HR",
+      "398JK",
+      "398KZ",
+      "39WYL",
+      "39Y8F",
+      "3B8Z3",
+      "3BDDB",
+      "3BFS5",
+      "3C3ZZ",
+      "3CNF9",
+      "3CNZN",
+      "3CP5Q",
+      "3CQ74",
+      "3CQCF",
+      "3DHXQ",
+      "3DHZV",
+      "3DJ44",
+      "3DJ47",
+      "3DJ58",
+      "3DJ5L",
+      "3DRCK",
+      "3F24X",
+      "3F55R",
+      "3F55T",
+      "3F74Y",
+      "3F8PR",
+      "3FL5N",
+      "3FQXJ",
+      "3FQY8",
+      "3GKKK",
+      "3GQGP",
+      "3GTHL",
+      "3HJD5",
+      "3HK2B",
+      "3HMM7",
+      "3HYTT",
+      "3JFKN",
+      "3JFKT",
+      "3JHH4",
+      "3JHJ8",
+      "3JVNZ",
+      "3JZP2",
+      "3K5TS",
+      "3K9LG",
+      "3K9MM",
+      "3KC9K",
+      "3KCDY",
+      "3KCJX",
+      "3KK99",
+      "3L8RD",
+      "3LCGJ",
+      "3LD24",
+      "3LY5K",
+      "3LZJR",
+      "3LZZR",
+      "3M7ZD",
+      "3MCQX",
+      "3MNZG",
+      "3MP3F",
+      "3N6G9",
+      "3N6R9",
+      "3N6SV",
+      "3NRGY",
+      "3P4WW",
+      "3P4XG",
+      "3P4XW",
+      "3P4YQ",
+      "3P55N",
+      "3P5B8",
+      "3P7K5",
+      "3PMPS",
+      "3PPJX",
+      "3PPN9",
+      "3PPRQ",
+      "3PPWK",
+      "3PPXS",
+      "3PVJV",
+      "3PVLD",
+      "3PVM5",
+      "3PVNQ",
+      "3PVRF",
+      "3PW7N",
+      "3PWH8",
+      "3PWHY",
+      "3PWJD",
+      "3PWL6",
+      "3PWQS",
+      "3PWZG",
+      "3PWZH",
+      "3PX3B",
+      "3Q6XF",
+      "3Q9F9",
+      "3Q9HS",
+      "3QGXQ",
+      "3QH35",
+      "3QJ2L",
+      "3QJW6",
+      "3QJWB",
+      "3QK4J",
+      "3QMGP",
+      "3QN84",
+      "3QN9R",
+      "3QTK3",
+      "3QTKK",
+      "3QTNS",
+      "3QTSV",
+      "3QTTY",
+      "3RT6G",
+      "3RWFV",
+      "3RXZ3",
+      "3S7LR",
+      "3SX6S",
+      "3T4RG",
+      "3T4RX",
+      "3VRP3",
+      "3VVXK",
+      "3VXYQ",
+      "3WDBT",
+      "3WDGT",
+      "3WVFS",
+      "3WW4K",
+      "3XKCM",
+      "3XRH2",
+      "3XV44",
+      "3Y6GB",
+      "3Y8KQ",
+      "3Y9QW",
+      "3ZDZL",
+      "3ZFKV",
+      "3ZFLC",
+      "3ZLX8",
+      "3ZLXL",
+      "3ZN6H",
+      "3ZPTC",
+      "3ZY3V",
+      "426R9",
+      "42L59",
+      "42MRF",
+      "42MV8",
+      "42MY8",
+      "42NH2",
+      "42NL9",
+      "42NXG",
+      "42P73",
+      "42TB4",
+      "437SL",
+      "43BJP",
+      "43GN7",
+      "43GPS",
+      "43K4C",
+      "43LGW",
+      "43NMT",
+      "43QK7",
+      "43TG3",
+      "44HQW",
+      "44HR4",
+      "4585C",
+      "458YG",
+      "45DC5",
+      "45KZB",
+      "45S9S",
+      "45SB7",
+      "47D3V",
+      "47D7F",
+      "486C9",
+      "486CT",
+      "48GB3",
+      "48HHN",
+      "48HV4",
+      "48XPC",
+      "48XQP",
+      "48XVS",
+      "48XXH",
+      "48Y3Q",
+      "499L7",
+      "4BGZ7",
+      "4BPCN",
+      "4BTZK",
+      "4C4K9",
+      "4C4LG",
+      "4C4X7",
+      "4CF2Q",
+      "4DN6J",
+      "4DW4Y",
+      "4DW5G",
+      "4DWHJ",
+      "4DWQG",
+      "4DY9K",
+      "4DYDM",
+      "4FDM5",
+      "4FRDM",
+      "4FRDR",
+      "4G2QS",
+      "4GQXX",
+      "4GZ5W",
+      "4GZ6K",
+      "4H36N",
+      "4H3GW",
+      "4H47G",
+      "4HFCY",
+      "4HFHS",
+      "4HFJV",
+      "4HFMJ",
+      "4HM9F",
+      "4HM9V",
+      "4HQJM",
+      "4HSTS",
+      "4HVHZ",
+      "4J27G",
+      "4J339",
+      "4J33C",
+      "4J377",
+      "4J39B",
+      "4J4S6",
+      "4J5MF",
+      "4J9VH",
+      "4JLMM",
+      "4JLPC",
+      "4JLQW",
+      "4K7LV",
+      "4KMJZ",
+      "4KMZW",
+      "4L3GD",
+      "4LHJN",
+      "4LTW3",
+      "4LVX5",
+      "4LYG8",
+      "4M3VG",
+      "4M3Y5",
+      "4MJT8",
+      "4N8DF",
+      "4NM6J",
+      "4NNGX",
+      "4NQ4D",
+      "4PFV7",
+      "4PFVD",
+      "4PNKC",
+      "4PP8V",
+      "4PPMX",
+      "4PVJR",
+      "4PVNF",
+      "4QPXZ",
+      "4QWMZ",
+      "4R29M",
+      "4RH3M",
+      "4RJXQ",
+      "4RKXB",
+      "4SSHW",
+      "4SSN7",
+      "4SSW5",
+      "4ST6F",
+      "4SZJD",
+      "4SZK2",
+      "4T27V",
+      "4TFXV",
+      "4TG94",
+      "4TGKN",
+      "4TH3X",
+      "4TH84",
+      "4TL25",
+      "4TLJ2",
+      "4TN4G",
+      "4TN7C",
+      "4TNDN",
+      "4TPGK",
+      "4TPLP",
+      "4TQPL",
+      "4V8GC",
+      "4V8H3",
+      "4V9YN",
+      "4VDS7",
+      "4VG4P",
+      "4VG58",
+      "4VNQ2",
+      "4W2JN",
+      "4W2JW",
+      "4WVWJ",
+      "4WW4D",
+      "4WW4M",
+      "4X2GH",
+      "4X2HZ",
+      "4X2LW",
+      "4X7SG",
+      "4X7Y3",
+      "4X84V",
+      "4X84Y",
+      "4X8DM",
+      "4X8G4",
+      "4X8JW",
+      "4XF25",
+      "4XKHG",
+      "4XN66",
+      "4XSR6",
+      "4XV5V",
+      "4Y2W2",
+      "4Y438",
+      "4Y46L",
+      "4YC4Z",
+      "4YC6L",
+      "4YCPK",
+      "4YJNW",
+      "4YVDB",
+      "4Z2RK",
+      "4Z2RN",
+      "4Z33Z",
+      "4Z9VV",
+      "4ZG74",
+      "4ZPFY",
+      "4ZSPD",
+      "4ZSSF",
+      "525TZ",
+      "52KXM",
+      "52SF5",
+      "537B6",
+      "53B4K",
+      "53B5N",
+      "549PR",
+      "54LM4",
+      "54LR2",
+      "54LRL",
+      "54M92",
+      "54NL3",
+      "54TFJ",
+      "55D57",
+      "55RTK",
+      "56HCP",
+      "56NV8",
+      "57FM9",
+      "57L3X",
+      "57SFK",
+      "57W25",
+      "57WSC",
+      "585L8",
+      "588NW",
+      "588RP",
+      "588YW",
+      "58NR4",
+      "58QMX",
+      "58ZYY",
+      "5944Q",
+      "595HD",
+      "595KS",
+      "595MB",
+      "59MNG",
+      "59MNL",
+      "59Q6J",
+      "5B2RT",
+      "5B773",
+      "5B786",
+      "5BDPV",
+      "5BK4Q",
+      "5BK63",
+      "5BKRT",
+      "5BL4F",
+      "5BNWN",
+      "5BRLW",
+      "5BV22",
+      "5BWQN",
+      "5C2XD",
+      "5C2XS",
+      "5CLZB",
+      "5CPCS",
+      "5CPF3",
+      "5CW5V",
+      "5CXX5",
+      "5D5LY",
+      "5D876",
+      "5V257",
+      "5V4BL",
+      "5VLXK",
+      "5VM9D",
+      "5VYHN",
+      "5VYZ7",
+      "5WLHJ",
+      "5WQRV",
+      "5WSJM",
+      "5X2VW",
+      "5X35T",
+      "5X4Z4",
+      "5X7SP",
+      "5XD5R",
+      "5XDBX",
+      "5XGM7",
+      "5XZXH",
+      "5Y8BC",
+      "5Y8C6",
+      "5Y8DH",
+      "5YGVV",
+      "5YH93",
+      "5YLZH",
+      "5ZRG8",
+      "5ZSD4",
+      "64QQR",
+      "64WXG",
+      "64WYS",
+      "64WZ5",
+      "652CQ",
+      "6599G",
+      "65BX7",
+      "65C55",
+      "65C8Z",
+      "65C9Y",
+      "65W94",
+      "66RPW",
+      "67GRD",
+      "67K5R",
+      "67YG8",
+      "67YVX",
+      "6857G",
+      "68G5K",
+      "68QX7",
+      "68TV2",
+      "68XTV",
+      "69CTF",
+      "69HCM",
+      "69S4N",
+      "6B2RP",
+      "6B4FT",
+      "6B7BM",
+      "6BJ2B",
+      "6BJD4",
+      "6BQJT",
+      "6BRRH",
+      "6BS2N",
+      "6BVV7",
+      "6BW2P",
+      "6BYDW",
+      "6BYZW",
+      "6C3PQ",
+      "6C3SN",
+      "6CNTM",
+      "6CVXN",
+      "6D6LW",
+      "6D8ZG",
+      "6DG9R",
+      "6DMM3",
+      "6F4HB",
+      "6F5HB",
+      "6F65W",
+      "6FBJ2",
+      "6FV9X",
+      "6FVXR",
+      "6FXVB",
+      "6FZBF",
+      "6FZD4",
+      "6FZHD",
+      "6FZPH",
+      "6FZSX",
+      "6G9VQ",
+      "6G9XL",
+      "6GR6C",
+      "6GRZX",
+      "6H8NG",
+      "6HGRP",
+      "6HVFP",
+      "6HX97",
+      "6HXWD",
+      "6HYKH",
+      "6HYN9",
+      "6HZN8",
+      "6J2CL",
+      "6J3YM",
+      "6J494",
+      "6J49K",
+      "6J49R",
+      "6JLX5",
+      "6JVJX",
+      "6K2D3",
+      "6LGYW",
+      "6LWCV",
+      "6MGP4",
+      "6MMR8",
+      "6MPLH",
+      "6MSTT",
+      "6MVLX",
+      "6MWFS",
+      "6MWH5",
+      "6MWTC",
+      "6N54D",
+      "6N7VB",
+      "6N8G6",
+      "6N95Z",
+      "6NDV3",
+      "6NF9X",
+      "6NGWJ",
+      "6NK3Z",
+      "6NWPG",
+      "6PWLF",
+      "6PYDV",
+      "6QLVQ",
+      "6QXRM",
+      "6QZ63",
+      "6R6GF",
+      "6RG79",
+      "6RKSB",
+      "6SG7Q",
+      "6SJ53",
+      "6SLJL",
+      "6SZF3",
+      "6T449",
+      "6T6T4",
+      "6TFCF",
+      "6THPT",
+      "6TMS7",
+      "6TSPL",
+      "6TTH4",
+      "6TTHT",
+      "6TTJ8",
+      "6V2MD",
+      "6V2MR",
+      "6V373",
+      "6V37F",
+      "6V5HJ",
+      "6VD7Z",
+      "6VGGW",
+      "6VMHZ",
+      "6W3C4",
+      "6W7FL",
+      "6WX82",
+      "6WY2T",
+      "6XD8B",
+      "6XLB2",
+      "6XRGD",
+      "6XWDR",
+      "6XWXV",
+      "6XZ38",
+      "6Y3HV",
+      "6YKG8",
+      "6YKHQ",
+      "6YMB6",
+      "6YNBB",
+      "6YVQ5",
+      "6Z5FQ",
+      "6ZCSW",
+      "72G3X",
+      "72MWC",
+      "72PWG",
+      "72PYN",
+      "72PYW",
+      "72SKV",
+      "72TSQ",
+      "736JM",
+      "73GFP",
+      "73KRM",
+      "747FV",
+      "74CR2",
+      "74NBD",
+      "74RRV",
+      "74V4F",
+      "74ZNC",
+      "75F5J",
+      "75SPM",
+      "75THC",
+      "75TJS",
+      "75VYF",
+      "764MV",
+      "765HD",
+      "765JK",
+      "76MG8",
+      "76PG7",
+      "76QL6",
+      "76SVY",
+      "76SWR",
+      "772NM",
+      "772R2",
+      "7738K",
+      "7738P",
+      "7758S",
+      "777GZ",
+      "77F2D",
+      "77KKJ",
+      "783PC",
+      "784QZ",
+      "78Q59",
+      "78RZC",
+      "79C8M",
+      "79RGL",
+      "79RHQ",
+      "7BQC4",
+      "7BSZ9",
+      "7BTSL",
+      "7C2C4",
+      "7C2WZ",
+      "7CLSL",
+      "7CN2V",
+      "7CZ6Q",
+      "7D7B6",
+      "7DHGP",
+      "7DTPF",
+      "7DTQ6",
+      "7DTT7",
+      "7F3FZ",
+      "7F4S3",
+      "7F4S9",
+      "7F4Y4",
+      "7F4Z5",
+      "7F584",
+      "7F5DC",
+      "7F5RF",
+      "7FTNN",
+      "7FVJ9",
+      "7FYCC",
+      "7FYQF",
+      "7G54T",
+      "7G6B8",
+      "7G9NZ",
+      "87Z8K",
+      "8MGH",
+      "8RPG",
+      "8S5X",
+      "8SHN",
+      "99GYV",
+      "9DM67",
+      "9JZH2",
+      "9KDFS",
+      "9LBG",
+      "B3GXS",
+      "B3Y26",
+      "B9NV",
+      "B9W5",
+      "BG7V",
+      "BJF6",
+      "BJH9",
+      "BRYG",
+      "BSGWQ",
+      "BSZX",
+      "CG57K",
+      "CH35",
+      "CH6S",
+      "CH7N",
+      "CHJM",
+      "CT3S",
+      "D3FX",
+      "D5FC",
+      "DXST",
+      "F99D",
+      "F99H",
+      "FRGH",
+      "GNQZ",
+      "GQ4M",
+      "GQCR",
+      "H3L8",
+      "H6BX",
+      "J77Z",
+      "K2GH",
+      "K2QJ",
+      "K326",
+      "K327",
+      "K35N",
+      "K4LX",
+      "K4MF",
+      "KJ7Z",
+      "KKSZ",
+      "KMH4",
+      "KYVW",
+      "KZV3Y",
+      "L2DPV",
+      "L2DQC",
+      "L4DL",
+      "M9CF",
+      "M9GY",
+      "M9KH",
+      "M9Q3",
+      "MBPL",
+      "MN94",
+      "NBY7",
+      "NBYD",
+      "NCVZ",
+      "ND36",
+      "NDZW",
+      "NSDR",
+      "NYJR",
+      "QT6C",
+      "R5RW",
+      "R5RX",
+      "RCZK",
+      "RJVT",
+      "RK2K",
+      "RLJX",
+      "RSFV",
+      "RYG4",
+      "RYGN",
+      "RZSY",
+      "RZZT",
+      "S2C6",
+      "S5F2",
+      "SBG3",
+      "SBHC",
+      "SBHQ",
+      "SBJC",
+      "TB9SW",
+      "TRVQ",
+      "VJWC",
+      "VJZF",
+      "VKR4",
+      "VLGTD",
+      "VLH6F",
+      "VLH8J",
+      "VLS5F",
+      "VLS5G",
+      "VLS5X",
+      "VLS9Q",
+      "VLSKY",
+      "VLXNR",
+      "VLXPG",
+      "VLXSS",
+      "VM39",
+      "VM3L9",
+      "VM4MY",
+      "VM63L",
+      "VM7ZP",
+      "VNJH",
+      "W42M",
+      "W47B",
+      "W9GN",
+      "WKNK",
+      "WKNR",
+      "WKT3",
+      "WKV6",
+      "WL69",
+      "WNL5",
+      "WVWV",
+      "WW3B",
+      "WWPQ",
+      "XCHP",
+      "XCQG",
+      "XFH9",
+      "XFJ4",
+      "XHZJ",
+      "XKQW",
+      "XPSX",
+      "YB6S",
+      "YBQR",
+      "Z2ZZ",
+      "ZF3R",
+      "ZJKP",
+      "ZNQK",
+      "ZNSH",
+      "ZNSZ",
+      "ZNXB",
+      "ZP3F",
+      "ZP97",
+      "ZQ8X",
+      "ZR3L",
+      "ZRBM"
+    ]
+  },
+  "semanticAudit": {
+    "method": "Deterministic stratified sample of 100 of 17,769 exact morphology+habitat COL IDs; language strata en=34, pt=33, es=33; sampled morphology rows were source-cited and row-located; habitat rows were dataset-scoped, with unknowns and multiple values retained as such.",
+    "sampleManifestSha256": "8ac68980aded372c09bf8fe22af0c1810fadc741c403b88baae1418c2cb4c037",
+    "allSampleIdsExactAccepted": 100,
+    "morphologyRowsWithDescriptionSourceCitation": 100,
+    "sampleHabitatRows": 108,
+    "sampleUnknownHabitatRows": 2,
+    "sampleSpeciesWithMultipleHabitatRows": 8,
+    "exclusion": "No duplicate-text morphology row is asserted per species in this batch; exact-text duplicate groups are separately hashed and listed below. Explicit unknown habitat values are not claims."
+  },
+  "duplicateTextQuarantine": [
+    {
+      "textSha256": "00b519c2aa9a405dd35dff26e464c8d4fe3a694a5c1981f48620e96d0f4326dc",
+      "rows": [
+        {
+          "colId": "9DMXV",
+          "rowNumber": 102871
+        },
+        {
+          "colId": "9DMXW",
+          "rowNumber": 101660
+        }
+      ]
+    },
+    {
+      "textSha256": "02860bc10ba1493a331181544f1d9c47cdcf7d932560577aa8d1721d953555c6",
+      "rows": [
+        {
+          "colId": "3GMCV",
+          "rowNumber": 92286
+        },
+        {
+          "colId": "6KMXM",
+          "rowNumber": 92283
+        }
+      ]
+    },
+    {
+      "textSha256": "03c4de1ca8a9b6b309d3042b6fea541738742f7775df6a019fb29412ddcf5dc6",
+      "rows": [
+        {
+          "colId": "5X3RR",
+          "rowNumber": 85810
+        },
+        {
+          "colId": "NQFG",
+          "rowNumber": 85828
+        },
+        {
+          "colId": "NQJL",
+          "rowNumber": 94385
+        },
+        {
+          "colId": "NQSR",
+          "rowNumber": 86893
+        },
+        {
+          "colId": "NQVN",
+          "rowNumber": 83603
+        },
+        {
+          "colId": "NQXH",
+          "rowNumber": 94169
+        },
+        {
+          "colId": "NQXV",
+          "rowNumber": 87215
+        },
+        {
+          "colId": "NQZS",
+          "rowNumber": 94170
+        },
+        {
+          "colId": "NR2Q",
+          "rowNumber": 93145
+        },
+        {
+          "colId": "NRC9",
+          "rowNumber": 88038
+        },
+        {
+          "colId": "NRP9",
+          "rowNumber": 88837
+        },
+        {
+          "colId": "NS2W",
+          "rowNumber": 94171
+        }
+      ]
+    },
+    {
+      "textSha256": "04461e96e07a7fc383880bcc666e796d9250bfa8669e8082435702135592cb7e",
+      "rows": [
+        {
+          "colId": "3F74N",
+          "rowNumber": 90692
+        },
+        {
+          "colId": "3F74P",
+          "rowNumber": 90693
+        },
+        {
+          "colId": "3F75F",
+          "rowNumber": 90695
+        }
+      ]
+    },
+    {
+      "textSha256": "04ac400f0a1e6bdcf1f79ee42b06456b39469873d4617a1e01f51e44560a73a3",
+      "rows": [
+        {
+          "colId": "3B64F",
+          "rowNumber": 79066
+        },
+        {
+          "colId": "3B64Y",
+          "rowNumber": 79067
+        }
+      ]
+    },
+    {
+      "textSha256": "078d9d806f3a08b22a3046bb71afcdf0630ae167b91767f65ae39c1eb6925142",
+      "rows": [
+        {
+          "colId": "6N5V6",
+          "rowNumber": 78232
+        },
+        {
+          "colId": "6N66P",
+          "rowNumber": 77072
+        }
+      ]
+    },
+    {
+      "textSha256": "09d137325937a7c3f1f5d23bf1614dbe17cbe5cb3504bb8d870a64757e5144fc",
+      "rows": [
+        {
+          "colId": "5D85W",
+          "rowNumber": 80167
+        },
+        {
+          "colId": "9DR4J",
+          "rowNumber": 102927
+        }
+      ]
+    },
+    {
+      "textSha256": "0b00ff8bcf1808db71e9af7bdb51ee56d166fa27b86ee82b24f6841d67c9dd5a",
+      "rows": [
+        {
+          "colId": "52TSB",
+          "rowNumber": 77033
+        },
+        {
+          "colId": "52TSF",
+          "rowNumber": 77343
+        }
+      ]
+    },
+    {
+      "textSha256": "0bab8d951220d44516588cce42a5311c81085f9735c92ee19326d60796bba481",
+      "rows": [
+        {
+          "colId": "6CVVM",
+          "rowNumber": 79064
+        },
+        {
+          "colId": "6CVXN",
+          "rowNumber": 80438
+        },
+        {
+          "colId": "6CW7Q",
+          "rowNumber": 79615
+        },
+        {
+          "colId": "6D7VS",
+          "rowNumber": 79616
+        },
+        {
+          "colId": "6D87Q",
+          "rowNumber": 79634
+        },
+        {
+          "colId": "6D87Y",
+          "rowNumber": 79614
+        },
+        {
+          "colId": "6D883",
+          "rowNumber": 96639
+        }
+      ]
+    },
+    {
+      "textSha256": "0d2110e157ae53408998baa47fc1d2eed49313b3ac4ba54136882d59e2ef3b62",
+      "rows": [
+        {
+          "colId": "35JX3",
+          "rowNumber": 95116
+        },
+        {
+          "colId": "35JX4",
+          "rowNumber": 95117
+        },
+        {
+          "colId": "35JY4",
+          "rowNumber": 94395
+        }
+      ]
+    },
+    {
+      "textSha256": "0d35083f0b185193bf1bcc5f4ecf9a0a43e88c8547b8c910f2f756e14f56f233",
+      "rows": [
+        {
+          "colId": "Z2RW",
+          "rowNumber": 94664
+        },
+        {
+          "colId": "Z2SJ",
+          "rowNumber": 94670
+        }
+      ]
+    },
+    {
+      "textSha256": "0d605203c85538c97772cb63063a26e80d19d7a611b2a9cce794b342b8d41eb1",
+      "rows": [
+        {
+          "colId": "3P58X",
+          "rowNumber": 80942
+        },
+        {
+          "colId": "3P5CG",
+          "rowNumber": 80966
+        },
+        {
+          "colId": "6N564",
+          "rowNumber": 80976
+        }
+      ]
+    },
+    {
+      "textSha256": "0eba2cf067ecbb2ae0a7f2553e7690ff0200dc517d84e4728cdbf7b762112c04",
+      "rows": [
+        {
+          "colId": "3JJQZ",
+          "rowNumber": 92466
+        },
+        {
+          "colId": "3JJR3",
+          "rowNumber": 91703
+        },
+        {
+          "colId": "3JJR5",
+          "rowNumber": 92468
+        },
+        {
+          "colId": "3JJRB",
+          "rowNumber": 92469
+        },
+        {
+          "colId": "3JJRD",
+          "rowNumber": 102399
+        },
+        {
+          "colId": "3JJRJ",
+          "rowNumber": 102400
+        },
+        {
+          "colId": "3JJRN",
+          "rowNumber": 92470
+        },
+        {
+          "colId": "3JJRT",
+          "rowNumber": 91707
+        },
+        {
+          "colId": "3JJRW",
+          "rowNumber": 102401
+        },
+        {
+          "colId": "3JJS2",
+          "rowNumber": 92035
+        },
+        {
+          "colId": "3JJS3",
+          "rowNumber": 92471
+        },
+        {
+          "colId": "3JJS4",
+          "rowNumber": 92472
+        },
+        {
+          "colId": "3JJS6",
+          "rowNumber": 92473
+        },
+        {
+          "colId": "3JJS7",
+          "rowNumber": 92474
+        },
+        {
+          "colId": "3JJS8",
+          "rowNumber": 92475
+        },
+        {
+          "colId": "3JJSB",
+          "rowNumber": 91709
+        },
+        {
+          "colId": "6LC6W",
+          "rowNumber": 92465
+        },
+        {
+          "colId": "6LC79",
+          "rowNumber": 92476
+        }
+      ]
+    },
+    {
+      "textSha256": "0fd57075ccd4d5303859726210c659407add2e2b7d303cd386e0677549bb2650",
+      "rows": [
+        {
+          "colId": "4YFYH",
+          "rowNumber": 82880
+        },
+        {
+          "colId": "4YFYZ",
+          "rowNumber": 82883
+        }
+      ]
+    },
+    {
+      "textSha256": "1029229c3a4018f376b3098c14e719e45be990796f4a0822689ce3a1f1ebd2eb",
+      "rows": [
+        {
+          "colId": "3ZLV4",
+          "rowNumber": 85579
+        },
+        {
+          "colId": "3ZLXF",
+          "rowNumber": 98873
+        },
+        {
+          "colId": "3ZLXV",
+          "rowNumber": 85584
+        },
+        {
+          "colId": "3ZLY7",
+          "rowNumber": 85582
+        },
+        {
+          "colId": "3ZLYV",
+          "rowNumber": 85585
+        },
+        {
+          "colId": "6QY8T",
+          "rowNumber": 98847
+        }
+      ]
+    },
+    {
+      "textSha256": "102e61d8cd5b95c20300e6a12e1b2ec0fa568be279a44fde4591b506430628b8",
+      "rows": [
+        {
+          "colId": "36CBD",
+          "rowNumber": 84287
+        },
+        {
+          "colId": "36D5X",
+          "rowNumber": 84410
+        }
+      ]
+    },
+    {
+      "textSha256": "126a49ee9643628cb2bdb5708e7675d7b30c815d30dcf994408ec182eac4a724",
+      "rows": [
+        {
+          "colId": "4FBGN",
+          "rowNumber": 92298
+        },
+        {
+          "colId": "4FBGP",
+          "rowNumber": 81952
+        },
+        {
+          "colId": "4FBGQ",
+          "rowNumber": 81953
+        },
+        {
+          "colId": "4FBGS",
+          "rowNumber": 92299
+        },
+        {
+          "colId": "4FBGX",
+          "rowNumber": 81955
+        },
+        {
+          "colId": "4FBGZ",
+          "rowNumber": 81956
+        },
+        {
+          "colId": "4FBH2",
+          "rowNumber": 92301
+        },
+        {
+          "colId": "4FBH3",
+          "rowNumber": 81957
+        },
+        {
+          "colId": "4FBH5",
+          "rowNumber": 92302
+        },
+        {
+          "colId": "76V9S",
+          "rowNumber": 81958
+        }
+      ]
+    },
+    {
+      "textSha256": "12d062470c16c881eac9339700f21c9b890407342e6aef27b1820a7c4ae728b2",
+      "rows": [
+        {
+          "colId": "3P58G",
+          "rowNumber": 80938
+        },
+        {
+          "colId": "3P5BS",
+          "rowNumber": 80963
+        }
+      ]
+    },
+    {
+      "textSha256": "13341ffc1ee8a6654e143795987ef515a1b441475773f6a3786e400b6ae412b4",
+      "rows": [
+        {
+          "colId": "5YQKX",
+          "rowNumber": 93486
+        },
+        {
+          "colId": "5YQNL",
+          "rowNumber": 93509
+        }
+      ]
+    },
+    {
+      "textSha256": "18ffc1e206270693c296305d9a4605909206acd64439e098c523f7f6ed2dc565",
+      "rows": [
+        {
+          "colId": "4XSLJ",
+          "rowNumber": 92100
+        },
+        {
+          "colId": "4XSST",
+          "rowNumber": 92142
+        }
+      ]
+    },
+    {
+      "textSha256": "1bb0fabbbdeaa036f92985bc45379485f642c1a6d42f6dee28d29306b4ec30df",
+      "rows": [
+        {
+          "colId": "6PV5W",
+          "rowNumber": 77060
+        },
+        {
+          "colId": "72768",
+          "rowNumber": 78487
+        }
+      ]
+    },
+    {
+      "textSha256": "1be905e3b7a6d1d19b5c3f667d8957a4b9ae13814e8a7fe50ebc2bea220624eb",
+      "rows": [
+        {
+          "colId": "6VQYY",
+          "rowNumber": 100449
+        },
+        {
+          "colId": "6VQYZ",
+          "rowNumber": 100451
+        }
+      ]
+    },
+    {
+      "textSha256": "1c41d570ca7a7765dd91e50899cea4d86b55d1efccbbbc8a6e49ed31a3018df5",
+      "rows": [
+        {
+          "colId": "HHMZ",
+          "rowNumber": 82519
+        },
+        {
+          "colId": "HHR3",
+          "rowNumber": 82552
+        }
+      ]
+    },
+    {
+      "textSha256": "1d0e51b3c5d2c241ecfacca211c9875caf44090faab2edadf598abf8b89c454e",
+      "rows": [
+        {
+          "colId": "36CK9",
+          "rowNumber": 84327
+        },
+        {
+          "colId": "6D8V8",
+          "rowNumber": 84460
+        }
+      ]
+    },
+    {
+      "textSha256": "1d4dc9541b9e08d00b0d78fa20e7d7eb333e2597dda39647473c219ffb965a4b",
+      "rows": [
+        {
+          "colId": "4KQ4R",
+          "rowNumber": 86629
+        },
+        {
+          "colId": "4KQ4Y",
+          "rowNumber": 86905
+        }
+      ]
+    },
+    {
+      "textSha256": "1f9e29ec0a8470c74ef2a80b71a74b8d7c37cbbb88d82309ed1c30ce3839f588",
+      "rows": [
+        {
+          "colId": "4K942",
+          "rowNumber": 78928
+        },
+        {
+          "colId": "4K95M",
+          "rowNumber": 78856
+        }
+      ]
+    },
+    {
+      "textSha256": "20cf8707c3a699566f3ff6e57f87affbd5f6f0c78441aafa041b1309d51205b6",
+      "rows": [
+        {
+          "colId": "4XSSL",
+          "rowNumber": 92098
+        },
+        {
+          "colId": "4XST8",
+          "rowNumber": 92099
+        }
+      ]
+    },
+    {
+      "textSha256": "211c1aa274b281cee00f16b82ca60cedd3a1a9aebfcab5161fe50d5e11a0f621",
+      "rows": [
+        {
+          "colId": "3GQRJ",
+          "rowNumber": 101644
+        },
+        {
+          "colId": "8WVW5",
+          "rowNumber": 103452
+        }
+      ]
+    },
+    {
+      "textSha256": "212c01667a7d2aa1eebc9adfc5ebdc8f115c52cb92c1453b4f8abb7897440416",
+      "rows": [
+        {
+          "colId": "NZYP",
+          "rowNumber": 88538
+        },
+        {
+          "colId": "NZZ5",
+          "rowNumber": 88543
+        }
+      ]
+    },
+    {
+      "textSha256": "222f4310d6b6a205966b0611d550622f8a3243a699f65751c38dbb575f29c359",
+      "rows": [
+        {
+          "colId": "K756",
+          "rowNumber": 77008
+        },
+        {
+          "colId": "K7FC",
+          "rowNumber": 101887
+        },
+        {
+          "colId": "K7G9",
+          "rowNumber": 78181
+        }
+      ]
+    },
+    {
+      "textSha256": "23296a9823c1f90446942e9c6a76e1ba0374edc2d05bb825cddb16fcd2cb280a",
+      "rows": [
+        {
+          "colId": "3CMQB",
+          "rowNumber": 95763
+        },
+        {
+          "colId": "3CNF9",
+          "rowNumber": 95776
+        },
+        {
+          "colId": "3CP2T",
+          "rowNumber": 92395
+        },
+        {
+          "colId": "3CP52",
+          "rowNumber": 95788
+        },
+        {
+          "colId": "3CPHC",
+          "rowNumber": 95800
+        },
+        {
+          "colId": "3CPNK",
+          "rowNumber": 95803
+        },
+        {
+          "colId": "3CPP5",
+          "rowNumber": 95804
+        },
+        {
+          "colId": "3CPSB",
+          "rowNumber": 95805
+        },
+        {
+          "colId": "3CQJT",
+          "rowNumber": 92396
+        },
+        {
+          "colId": "3CQZP",
+          "rowNumber": 95831
+        },
+        {
+          "colId": "6GZ9Q",
+          "rowNumber": 95798
+        },
+        {
+          "colId": "6GZYQ",
+          "rowNumber": 95816
+        }
+      ]
+    },
+    {
+      "textSha256": "234062a5e47856fd2da0f2b74ee0c963bf59255222288c2746bce2df6b74248c",
+      "rows": [
+        {
+          "colId": "6PVP7",
+          "rowNumber": 96261
+        },
+        {
+          "colId": "727P7",
+          "rowNumber": 96262
+        }
+      ]
+    },
+    {
+      "textSha256": "23415665b3206f5da3e82172c53c8a152b1e2f3a045f577d4c038a76ab20e656",
+      "rows": [
+        {
+          "colId": "64L7J",
+          "rowNumber": 78128
+        },
+        {
+          "colId": "9FC6",
+          "rowNumber": 78606
+        }
+      ]
+    },
+    {
+      "textSha256": "25b4f441ef706031e1a55838ab8923a53a5a00ce7960c306a50e6f6fef1fb49c",
+      "rows": [
+        {
+          "colId": "HBNV",
+          "rowNumber": 82438
+        },
+        {
+          "colId": "HBNZ",
+          "rowNumber": 82446
+        }
+      ]
+    },
+    {
+      "textSha256": "262d19e21eb11962b7457367d52ba41efb756620d34f53e51c429d641707e1b5",
+      "rows": [
+        {
+          "colId": "3JJR8",
+          "rowNumber": 91704
+        },
+        {
+          "colId": "6LC6X",
+          "rowNumber": 91708
+        }
+      ]
+    },
+    {
+      "textSha256": "26be0914bf18ab1496e4fa4e663b51fec4babd03e3276cbbf527ca2658b5b75c",
+      "rows": [
+        {
+          "colId": "64L7P",
+          "rowNumber": 77244
+        },
+        {
+          "colId": "64L7Q",
+          "rowNumber": 77634
+        },
+        {
+          "colId": "9FB3",
+          "rowNumber": 78249
+        },
+        {
+          "colId": "9FBV",
+          "rowNumber": 78668
+        }
+      ]
+    },
+    {
+      "textSha256": "26dbd933dfe79f2d069c0df8e8a9fecfaf1bd9eaef44d927fe0c3fc315279825",
+      "rows": [
+        {
+          "colId": "3BDF5",
+          "rowNumber": 80459
+        },
+        {
+          "colId": "6GRZC",
+          "rowNumber": 79307
+        }
+      ]
+    },
+    {
+      "textSha256": "270e197430dfafca37a40c7cbcfebc4d23f5434f1529b9845e9286da1f7dd2ad",
+      "rows": [
+        {
+          "colId": "9DR3R",
+          "rowNumber": 100788
+        },
+        {
+          "colId": "9DR49",
+          "rowNumber": 101576
+        }
+      ]
+    },
+    {
+      "textSha256": "282a85a912a274188f604a8351146effcdbd6fc79589ca207274a5c1fec7296a",
+      "rows": [
+        {
+          "colId": "5ZSBS",
+          "rowNumber": 94446
+        },
+        {
+          "colId": "XGP6",
+          "rowNumber": 94183
+        },
+        {
+          "colId": "XGPN",
+          "rowNumber": 94447
+        }
+      ]
+    },
+    {
+      "textSha256": "2896ad8cc59428d8411547cc7682caed5b89434aee67c27289d852e3915b5b0c",
+      "rows": [
+        {
+          "colId": "7CQJT",
+          "rowNumber": 83117
+        },
+        {
+          "colId": "7D2JP",
+          "rowNumber": 83122
+        },
+        {
+          "colId": "7D2JT",
+          "rowNumber": 83118
+        }
+      ]
+    },
+    {
+      "textSha256": "29ce175d4346247560fa8686ac81f1722571cae9db938abf37d26f3498f3369a",
+      "rows": [
+        {
+          "colId": "3B7F4",
+          "rowNumber": 90424
+        },
+        {
+          "colId": "6H389",
+          "rowNumber": 90428
+        }
+      ]
+    },
+    {
+      "textSha256": "2ca5f4e9e105f702a41c58777912c7205d3fe8b97f2444f4eb7127f90e3af73b",
+      "rows": [
+        {
+          "colId": "3WLSB",
+          "rowNumber": 101413
+        },
+        {
+          "colId": "8T29B",
+          "rowNumber": 100304
+        }
+      ]
+    },
+    {
+      "textSha256": "2cc8df75be967bda8feca350c56371419d7c88695529e2e53bd197326710aa55",
+      "rows": [
+        {
+          "colId": "5BGLF",
+          "rowNumber": 85169
+        },
+        {
+          "colId": "5BH9J",
+          "rowNumber": 85120
+        },
+        {
+          "colId": "5BHQ6",
+          "rowNumber": 85154
+        }
+      ]
+    },
+    {
+      "textSha256": "2d2ae159e5d9bf89afb8247d5fbae3cf8acd84fc5d77b46e48011c3ddafd7048",
+      "rows": [
+        {
+          "colId": "52TS8",
+          "rowNumber": 77275
+        },
+        {
+          "colId": "52TSC",
+          "rowNumber": 78385
+        },
+        {
+          "colId": "52TSG",
+          "rowNumber": 78464
+        }
+      ]
+    },
+    {
+      "textSha256": "2d5e68b31068c1174960b80d87cadf580bc756c3f1d7b5fd16bc5efae612f2d2",
+      "rows": [
+        {
+          "colId": "48C7H",
+          "rowNumber": 94438
+        },
+        {
+          "colId": "48C7L",
+          "rowNumber": 101558
+        },
+        {
+          "colId": "48C7N",
+          "rowNumber": 94437
+        },
+        {
+          "colId": "48C7R",
+          "rowNumber": 94431
+        }
+      ]
+    },
+    {
+      "textSha256": "2dcb430b0898cafa09c4f1e31c0f0790e750e241f0731e6e8089d0df9951dbfd",
+      "rows": [
+        {
+          "colId": "5X3CX",
+          "rowNumber": 94637
+        },
+        {
+          "colId": "N7VB",
+          "rowNumber": 84804
+        },
+        {
+          "colId": "N7VH",
+          "rowNumber": 84824
+        },
+        {
+          "colId": "N7VM",
+          "rowNumber": 84828
+        },
+        {
+          "colId": "N7VR",
+          "rowNumber": 84829
+        }
+      ]
+    },
+    {
+      "textSha256": "2e4c91b49ead5176e53464f3431614ea19bb2daab42d804d2bdd20ffd81856f9",
+      "rows": [
+        {
+          "colId": "43QJQ",
+          "rowNumber": 101466
+        },
+        {
+          "colId": "43QJS",
+          "rowNumber": 101467
+        }
+      ]
+    },
+    {
+      "textSha256": "303481eba5f6673a7ea971621ca7cf138debefb5da1974a083828148e5fd7062",
+      "rows": [
+        {
+          "colId": "N82B",
+          "rowNumber": 88455
+        },
+        {
+          "colId": "N82N",
+          "rowNumber": 88457
+        }
+      ]
+    },
+    {
+      "textSha256": "30ef2bb2ede8cb5616756677a5972c812129caf9aad2dae84411a53be5d8b1a3",
+      "rows": [
+        {
+          "colId": "5Y5KD",
+          "rowNumber": 92381
+        },
+        {
+          "colId": "5Y5MM",
+          "rowNumber": 92986
+        }
+      ]
+    },
+    {
+      "textSha256": "32bd2ccc8ba8bb10dd8ef183385c081832837a5332762c5ba664c25f62e7a457",
+      "rows": [
+        {
+          "colId": "6GRVS",
+          "rowNumber": 90479
+        },
+        {
+          "colId": "6H4DW",
+          "rowNumber": 90463
+        }
+      ]
+    },
+    {
+      "textSha256": "33948bcbbb5ed4509b229006bfba9d07da1429efea7d983f9855bc17b5091ee0",
+      "rows": [
+        {
+          "colId": "35JZG",
+          "rowNumber": 95129
+        },
+        {
+          "colId": "35JZK",
+          "rowNumber": 95131
+        }
+      ]
+    },
+    {
+      "textSha256": "33d0615d0293f60d4f1f6eeb9a90643d3ed5f062ecdbd9abd6cf917e8688ef9d",
+      "rows": [
+        {
+          "colId": "3GQQX",
+          "rowNumber": 102839
+        },
+        {
+          "colId": "3GQTX",
+          "rowNumber": 102852
+        }
+      ]
+    },
+    {
+      "textSha256": "33d153b49673fea7f8f28da48a27162797bfc8bef460f643e7bbc68dca7b13ab",
+      "rows": [
+        {
+          "colId": "4J6W2",
+          "rowNumber": 79407
+        },
+        {
+          "colId": "6VKN4",
+          "rowNumber": 79368
+        }
+      ]
+    },
+    {
+      "textSha256": "33d4ad95f2e2405f04e917e31718855ab74211074b35baf80f8cd8a2a5387046",
+      "rows": [
+        {
+          "colId": "3HKFX",
+          "rowNumber": 95982
+        },
+        {
+          "colId": "6L5FL",
+          "rowNumber": 95981
+        }
+      ]
+    },
+    {
+      "textSha256": "343412b3fc4250c5cbb04f734e0c00ce1fae4419f233e1162520d533abe304ff",
+      "rows": [
+        {
+          "colId": "3P4ZW",
+          "rowNumber": 80896
+        },
+        {
+          "colId": "3P54C",
+          "rowNumber": 80911
+        }
+      ]
+    },
+    {
+      "textSha256": "3499f94e1466f6600b07d90c25f7c551caa4e34af711558968b4e2907f2adf53",
+      "rows": [
+        {
+          "colId": "7B2DG",
+          "rowNumber": 80472
+        },
+        {
+          "colId": "7B2DR",
+          "rowNumber": 80412
+        }
+      ]
+    },
+    {
+      "textSha256": "34a8676e832123e19ebdf7afd16d807f92fa074f2755fce13306e17f4b2552ed",
+      "rows": [
+        {
+          "colId": "78KWR",
+          "rowNumber": 98341
+        },
+        {
+          "colId": "78L67",
+          "rowNumber": 96280
+        }
+      ]
+    },
+    {
+      "textSha256": "34c81549516f7dee8ae73dc4d8ff984b0df828fd6ec04aa7b1a316c27a4797ee",
+      "rows": [
+        {
+          "colId": "5TW63",
+          "rowNumber": 80579
+        },
+        {
+          "colId": "BG3H",
+          "rowNumber": 80451
+        },
+        {
+          "colId": "BG3V",
+          "rowNumber": 80461
+        },
+        {
+          "colId": "BG6W",
+          "rowNumber": 80533
+        },
+        {
+          "colId": "BG7G",
+          "rowNumber": 79714
+        }
+      ]
+    },
+    {
+      "textSha256": "356b394bab4bd89a75e99cd71cec3e8d54a8b64ca6dac45399caf755b9e67e1d",
+      "rows": [
+        {
+          "colId": "3MQGM",
+          "rowNumber": 91126
+        },
+        {
+          "colId": "3MQGV",
+          "rowNumber": 91128
+        }
+      ]
+    },
+    {
+      "textSha256": "37a71ce07a266f01778485f054cd459c1a9f9349b7942ec9bcb990979d7e64a3",
+      "rows": [
+        {
+          "colId": "5D87G",
+          "rowNumber": 79871
+        },
+        {
+          "colId": "5D87P",
+          "rowNumber": 79391
+        }
+      ]
+    },
+    {
+      "textSha256": "3a5df96aabfabea1bbd05f537f4680bf7162ed61b7b3dc7e03879b1659f414ee",
+      "rows": [
+        {
+          "colId": "6KSF2",
+          "rowNumber": 95969
+        },
+        {
+          "colId": "6KSGF",
+          "rowNumber": 85243
+        }
+      ]
+    },
+    {
+      "textSha256": "3a9d98e483ce73b6a38a549402af15a1d71291b12fa454b6546c31e732cfacc3",
+      "rows": [
+        {
+          "colId": "6J7JN",
+          "rowNumber": 77495
+        },
+        {
+          "colId": "6J7MB",
+          "rowNumber": 77742
+        }
+      ]
+    },
+    {
+      "textSha256": "3b0cacfea4aac0429d6b76028d9b5ad47a1111f544888cb4296f4e0f35c92e12",
+      "rows": [
+        {
+          "colId": "7DM3D",
+          "rowNumber": 96781
+        },
+        {
+          "colId": "C8LF5",
+          "rowNumber": 100834
+        }
+      ]
+    },
+    {
+      "textSha256": "3b7e20d211699e2f3972f23ede82e221e8afa68d8d8357767a8a4cbfccd84c87",
+      "rows": [
+        {
+          "colId": "3Y2SL",
+          "rowNumber": 97021
+        },
+        {
+          "colId": "7368B",
+          "rowNumber": 97020
+        }
+      ]
+    },
+    {
+      "textSha256": "3c27afb84dc9626a092ddc0f4588cf4659dfd97178cb753b32df7e2d19a7ceed",
+      "rows": [
+        {
+          "colId": "9D8JN",
+          "rowNumber": 87415
+        },
+        {
+          "colId": "9D8JS",
+          "rowNumber": 87416
+        }
+      ]
+    },
+    {
+      "textSha256": "3c878266c04170d0a21822a938ef0b9347aa23bf690054a44836cf87158b1008",
+      "rows": [
+        {
+          "colId": "36CK5",
+          "rowNumber": 84326
+        },
+        {
+          "colId": "36CVV",
+          "rowNumber": 84363
+        }
+      ]
+    },
+    {
+      "textSha256": "3d47c99e31c87e1ebaf26e9a0e7484d249fe95030f8364980fa37b82bbf87694",
+      "rows": [
+        {
+          "colId": "3P5CT",
+          "rowNumber": 80967
+        },
+        {
+          "colId": "6N566",
+          "rowNumber": 80954
+        }
+      ]
+    },
+    {
+      "textSha256": "3e1632b741130229f6ffbea7e83f78c0ee4b273f4a1040280d3cb3ded77ed6e7",
+      "rows": [
+        {
+          "colId": "NZZZ",
+          "rowNumber": 88555
+        },
+        {
+          "colId": "P25R",
+          "rowNumber": 88600
+        }
+      ]
+    },
+    {
+      "textSha256": "3f85452847d7c43883fc69e1f93318ffa5c593e271ba4d69a3e5b4ee5c7575d1",
+      "rows": [
+        {
+          "colId": "9XRQ7",
+          "rowNumber": 88190
+        },
+        {
+          "colId": "K4PQ",
+          "rowNumber": 88186
+        },
+        {
+          "colId": "K4QJ",
+          "rowNumber": 88188
+        },
+        {
+          "colId": "K4RL",
+          "rowNumber": 88189
+        }
+      ]
+    },
+    {
+      "textSha256": "401dbba0f96de4be1b73633daa546542ef71d6a29798a45b9d57917d01175afb",
+      "rows": [
+        {
+          "colId": "3P534",
+          "rowNumber": 80901
+        },
+        {
+          "colId": "3P563",
+          "rowNumber": 80923
+        },
+        {
+          "colId": "3P59F",
+          "rowNumber": 80949
+        }
+      ]
+    },
+    {
+      "textSha256": "406094b4801ed79434f240c5f3b3697000515271b2d2c7db3503d16d45a55ce7",
+      "rows": [
+        {
+          "colId": "56VH6",
+          "rowNumber": 78895
+        },
+        {
+          "colId": "56VJK",
+          "rowNumber": 100723
+        }
+      ]
+    },
+    {
+      "textSha256": "432b3b7a7a806f51ab7342024932269dd50b2a5e9fec80038bbb7ef65cd20d37",
+      "rows": [
+        {
+          "colId": "3QYGG",
+          "rowNumber": 101235
+        },
+        {
+          "colId": "3QYGT",
+          "rowNumber": 101232
+        },
+        {
+          "colId": "3QYM5",
+          "rowNumber": 101233
+        },
+        {
+          "colId": "3QYPK",
+          "rowNumber": 101234
+        },
+        {
+          "colId": "3QYPX",
+          "rowNumber": 101236
+        },
+        {
+          "colId": "3QYQ7",
+          "rowNumber": 101240
+        },
+        {
+          "colId": "6NJZK",
+          "rowNumber": 101238
+        },
+        {
+          "colId": "6NJZP",
+          "rowNumber": 101237
+        }
+      ]
+    },
+    {
+      "textSha256": "43fcf4f2691692f18f79bbcc7c88f7dc9cc43c584abf4d8035fd9218aacf353e",
+      "rows": [
+        {
+          "colId": "49GN8",
+          "rowNumber": 81853
+        },
+        {
+          "colId": "49GNF",
+          "rowNumber": 94270
+        },
+        {
+          "colId": "49GP3",
+          "rowNumber": 94272
+        },
+        {
+          "colId": "49GP5",
+          "rowNumber": 94273
+        },
+        {
+          "colId": "49GP8",
+          "rowNumber": 94274
+        },
+        {
+          "colId": "49GPJ",
+          "rowNumber": 94275
+        },
+        {
+          "colId": "49GQG",
+          "rowNumber": 81858
+        },
+        {
+          "colId": "49GR3",
+          "rowNumber": 81859
+        },
+        {
+          "colId": "49GRS",
+          "rowNumber": 81860
+        },
+        {
+          "colId": "49GS5",
+          "rowNumber": 81861
+        },
+        {
+          "colId": "49GSQ",
+          "rowNumber": 94276
+        },
+        {
+          "colId": "49GT3",
+          "rowNumber": 81863
+        },
+        {
+          "colId": "49GVR",
+          "rowNumber": 94278
+        },
+        {
+          "colId": "49GW5",
+          "rowNumber": 94452
+        },
+        {
+          "colId": "49GWL",
+          "rowNumber": 81866
+        },
+        {
+          "colId": "49GX5",
+          "rowNumber": 94279
+        },
+        {
+          "colId": "49GXJ",
+          "rowNumber": 94280
+        },
+        {
+          "colId": "49GZG",
+          "rowNumber": 81867
+        },
+        {
+          "colId": "49GZV",
+          "rowNumber": 94283
+        },
+        {
+          "colId": "49H29",
+          "rowNumber": 94284
+        },
+        {
+          "colId": "6SN2N",
+          "rowNumber": 81864
+        }
+      ]
+    },
+    {
+      "textSha256": "443e6db6a938a4016f55afe69b29451be58f89d391654376edd183354d72f0c0",
+      "rows": [
+        {
+          "colId": "6NLKV",
+          "rowNumber": 77958
+        },
+        {
+          "colId": "VLH6F",
+          "rowNumber": 77799
+        }
+      ]
+    },
+    {
+      "textSha256": "44a8c27683aadcdf987929414f815227d2c88614693bedf9f532d4f040ebd9c8",
+      "rows": [
+        {
+          "colId": "3672Y",
+          "rowNumber": 78072
+        },
+        {
+          "colId": "3673G",
+          "rowNumber": 77761
+        }
+      ]
+    },
+    {
+      "textSha256": "44d9e6ccdbe67ed3973f34278b821cb2a6e01229786ccc20b336ac6adc07500f",
+      "rows": [
+        {
+          "colId": "3P54D",
+          "rowNumber": 80912
+        },
+        {
+          "colId": "3P594",
+          "rowNumber": 80946
+        }
+      ]
+    },
+    {
+      "textSha256": "4750a11e019ed46a12daa2450090592611390e7c1fe075107ecb659f39f80ea9",
+      "rows": [
+        {
+          "colId": "5WSBY",
+          "rowNumber": 85574
+        },
+        {
+          "colId": "5X3RW",
+          "rowNumber": 86896
+        },
+        {
+          "colId": "5X3ST",
+          "rowNumber": 89183
+        },
+        {
+          "colId": "5X43Z",
+          "rowNumber": 86967
+        },
+        {
+          "colId": "68S54",
+          "rowNumber": 89326
+        },
+        {
+          "colId": "68S55",
+          "rowNumber": 89282
+        },
+        {
+          "colId": "6943T",
+          "rowNumber": 85795
+        },
+        {
+          "colId": "NQLN",
+          "rowNumber": 86106
+        },
+        {
+          "colId": "NQNT",
+          "rowNumber": 86377
+        },
+        {
+          "colId": "NQPD",
+          "rowNumber": 86452
+        },
+        {
+          "colId": "NQYL",
+          "rowNumber": 87241
+        },
+        {
+          "colId": "NR7G",
+          "rowNumber": 87733
+        },
+        {
+          "colId": "NR7Q",
+          "rowNumber": 87754
+        },
+        {
+          "colId": "NRD3",
+          "rowNumber": 88127
+        },
+        {
+          "colId": "NRK4",
+          "rowNumber": 88470
+        },
+        {
+          "colId": "NRLQ",
+          "rowNumber": 88707
+        },
+        {
+          "colId": "NRTP",
+          "rowNumber": 89242
+        },
+        {
+          "colId": "NRVL",
+          "rowNumber": 89544
+        },
+        {
+          "colId": "NS4H",
+          "rowNumber": 90036
+        },
+        {
+          "colId": "NS6Q",
+          "rowNumber": 90105
+        },
+        {
+          "colId": "NS89",
+          "rowNumber": 90212
+        }
+      ]
+    },
+    {
+      "textSha256": "47e8e20977beeb0a887aa6620b53eee3d002ebd46b8453f532ec689b7b67c071",
+      "rows": [
+        {
+          "colId": "4K92V",
+          "rowNumber": 78922
+        },
+        {
+          "colId": "4K95P",
+          "rowNumber": 100022
+        }
+      ]
+    },
+    {
+      "textSha256": "48f6b5f2418eb7833319d19fe23f473209fce23fb7a9d76c2e2bd26fdf77201a",
+      "rows": [
+        {
+          "colId": "3YTX9",
+          "rowNumber": 78731
+        },
+        {
+          "colId": "3YTXM",
+          "rowNumber": 78732
+        },
+        {
+          "colId": "3YTZJ",
+          "rowNumber": 78734
+        }
+      ]
+    },
+    {
+      "textSha256": "4924f91da8ee820d22413af4cec070c3290771a09209982d5b3fd8ddc48207fb",
+      "rows": [
+        {
+          "colId": "3P57N",
+          "rowNumber": 102966
+        },
+        {
+          "colId": "6N55T",
+          "rowNumber": 103583
+        }
+      ]
+    },
+    {
+      "textSha256": "49c272a4c849b7e23617cef2e0d0fbfe798342bb16de1344b9118c632f0ddcdd",
+      "rows": [
+        {
+          "colId": "35JXC",
+          "rowNumber": 95118
+        },
+        {
+          "colId": "35JZ5",
+          "rowNumber": 95127
+        }
+      ]
+    },
+    {
+      "textSha256": "4aafaddb849421374684d1746de65a3ab41f5903c06de5e11f40f56224a6389e",
+      "rows": [
+        {
+          "colId": "4578F",
+          "rowNumber": 81681
+        },
+        {
+          "colId": "45794",
+          "rowNumber": 81686
+        }
+      ]
+    },
+    {
+      "textSha256": "4b4514b67447d24f20f3dee9b99847953e35e0213ac8af4542ab836be096b808",
+      "rows": [
+        {
+          "colId": "4TXG7",
+          "rowNumber": 101474
+        },
+        {
+          "colId": "4TXG8",
+          "rowNumber": 82668
+        },
+        {
+          "colId": "4TXGB",
+          "rowNumber": 82670
+        },
+        {
+          "colId": "4TXGC",
+          "rowNumber": 82671
+        },
+        {
+          "colId": "6WZWS",
+          "rowNumber": 82669
+        }
+      ]
+    },
+    {
+      "textSha256": "4cf22ad70487c9b5dbf1ccfbc166361e49141857394d42442862ab4f97024c3a",
+      "rows": [
+        {
+          "colId": "3HHSM",
+          "rowNumber": 93732
+        },
+        {
+          "colId": "3HHSN",
+          "rowNumber": 93733
+        }
+      ]
+    },
+    {
+      "textSha256": "4cf680be8b7d8f750af81b04e9a5780b7c76213759d92a758881466a3eea8475",
+      "rows": [
+        {
+          "colId": "NRRL",
+          "rowNumber": 89006
+        },
+        {
+          "colId": "NRX4",
+          "rowNumber": 89706
+        },
+        {
+          "colId": "NS87",
+          "rowNumber": 90211
+        }
+      ]
+    },
+    {
+      "textSha256": "503a89376150282b1d399de726dc25bdf8164761170414c49a9eec4d85782be0",
+      "rows": [
+        {
+          "colId": "7F76T",
+          "rowNumber": 85100
+        },
+        {
+          "colId": "7F7GJ",
+          "rowNumber": 85118
+        }
+      ]
+    },
+    {
+      "textSha256": "5052b6d06cc6b4f49e454d709003bb47e6287c60c2f35866e87284f837eec483",
+      "rows": [
+        {
+          "colId": "3V9HZ",
+          "rowNumber": 94507
+        },
+        {
+          "colId": "3V9R8",
+          "rowNumber": 81121
+        },
+        {
+          "colId": "3V9WP",
+          "rowNumber": 81125
+        }
+      ]
+    },
+    {
+      "textSha256": "520948a63a86c7e07b4488fd24eaf5a9d84daffcc4baa8809d8b4ccfb0efd8af",
+      "rows": [
+        {
+          "colId": "4GTYQ",
+          "rowNumber": 82090
+        },
+        {
+          "colId": "4GTZ7",
+          "rowNumber": 82093
+        },
+        {
+          "colId": "4GTZB",
+          "rowNumber": 82096
+        }
+      ]
+    },
+    {
+      "textSha256": "530da93e0fa987b72e20c45214df3e1213a7a3b3991a434d74d1e2536c5fdf3f",
+      "rows": [
+        {
+          "colId": "3WH9X",
+          "rowNumber": 93825
+        },
+        {
+          "colId": "3WH9Z",
+          "rowNumber": 93826
+        }
+      ]
+    },
+    {
+      "textSha256": "534794f9a1154f7d40236db92ba1a1572b1eb4cc180e0f6903ce23946d407cb8",
+      "rows": [
+        {
+          "colId": "4ZM5L",
+          "rowNumber": 100584
+        },
+        {
+          "colId": "4ZM92",
+          "rowNumber": 85274
+        }
+      ]
+    },
+    {
+      "textSha256": "53c8f488a650ee2eae3b7110b26e0f054c3e00a12a0a651d443141d72f99102b",
+      "rows": [
+        {
+          "colId": "6TXHD",
+          "rowNumber": 77289
+        },
+        {
+          "colId": "75XHB",
+          "rowNumber": 78568
+        }
+      ]
+    },
+    {
+      "textSha256": "5412f35291564cd07f6a0cd4a7f65e3913d88d0f45d57c46a83d5a93eec5a4d9",
+      "rows": [
+        {
+          "colId": "3P4YY",
+          "rowNumber": 80889
+        },
+        {
+          "colId": "6MSS9",
+          "rowNumber": 80953
+        },
+        {
+          "colId": "6MT5L",
+          "rowNumber": 80977
+        }
+      ]
+    },
+    {
+      "textSha256": "55002f3d22f8c61ecbd2bc7bba2d4c3aba3788d0ccf315c38c4b26a14d0eaa01",
+      "rows": [
+        {
+          "colId": "3C4LZ",
+          "rowNumber": 95540
+        },
+        {
+          "colId": "3C4ZK",
+          "rowNumber": 103137
+        },
+        {
+          "colId": "3C5Y7",
+          "rowNumber": 95682
+        }
+      ]
+    },
+    {
+      "textSha256": "55af033ad4d1db0b32a2b89294eedca529a802067e3aa80cf82f60ab80da2153",
+      "rows": [
+        {
+          "colId": "5TWKB",
+          "rowNumber": 95376
+        },
+        {
+          "colId": "C5RN",
+          "rowNumber": 95365
+        },
+        {
+          "colId": "C5SB",
+          "rowNumber": 95382
+        },
+        {
+          "colId": "C5TJ",
+          "rowNumber": 95409
+        }
+      ]
+    },
+    {
+      "textSha256": "55e4daf8c16514374bbb4ab5ffff61d0c69e7f20462d137ca038f0fead432c84",
+      "rows": [
+        {
+          "colId": "4FVZP",
+          "rowNumber": 79827
+        },
+        {
+          "colId": "4FW22",
+          "rowNumber": 79828
+        },
+        {
+          "colId": "778SJ",
+          "rowNumber": 80519
+        }
+      ]
+    },
+    {
+      "textSha256": "566d21ab72446c67c66f7e423609fd5df49cb04705c158809cb7914cfba3a2b0",
+      "rows": [
+        {
+          "colId": "36DCQ",
+          "rowNumber": 84466
+        },
+        {
+          "colId": "6CWV2",
+          "rowNumber": 84480
+        }
+      ]
+    },
+    {
+      "textSha256": "5a968f0723a3bee3238bc28a00e5da0a3eff3bfd31fff5986e0f48f932d88907",
+      "rows": [
+        {
+          "colId": "4BB45",
+          "rowNumber": 97815
+        },
+        {
+          "colId": "6TF3G",
+          "rowNumber": 97798
+        }
+      ]
+    },
+    {
+      "textSha256": "5aa91a4d3f370d4e277e6e4acda4868ef31b5949e6d73ca12b1bab38d240961d",
+      "rows": [
+        {
+          "colId": "3ZXGM",
+          "rowNumber": 81500
+        },
+        {
+          "colId": "3ZXGR",
+          "rowNumber": 81502
+        }
+      ]
+    },
+    {
+      "textSha256": "5c23a989bb27d8122217c5aa94eff8478a41fd3ba6895f31300cef326259940c",
+      "rows": [
+        {
+          "colId": "4K93V",
+          "rowNumber": 78927
+        },
+        {
+          "colId": "4K957",
+          "rowNumber": 102445
+        },
+        {
+          "colId": "4K95D",
+          "rowNumber": 78932
+        },
+        {
+          "colId": "4K99R",
+          "rowNumber": 78943
+        }
+      ]
+    },
+    {
+      "textSha256": "5ca8d76520e44f72e821b1b83563032641c3e30d4d3feb1a9648a0cd32945cb1",
+      "rows": [
+        {
+          "colId": "5XDYV",
+          "rowNumber": 92698
+        },
+        {
+          "colId": "5XDZ3",
+          "rowNumber": 83749
+        },
+        {
+          "colId": "5XDZ8",
+          "rowNumber": 92673
+        },
+        {
+          "colId": "69DYQ",
+          "rowNumber": 92645
+        },
+        {
+          "colId": "69DYV",
+          "rowNumber": 92706
+        },
+        {
+          "colId": "69DZ2",
+          "rowNumber": 92653
+        },
+        {
+          "colId": "69DZ3",
+          "rowNumber": 92630
+        },
+        {
+          "colId": "69DZ7",
+          "rowNumber": 92713
+        },
+        {
+          "colId": "69DZ8",
+          "rowNumber": 94322
+        },
+        {
+          "colId": "8WS8V",
+          "rowNumber": 101544
+        },
+        {
+          "colId": "8WS8X",
+          "rowNumber": 101545
+        },
+        {
+          "colId": "8WS8Y",
+          "rowNumber": 101546
+        },
+        {
+          "colId": "8WS92",
+          "rowNumber": 102338
+        },
+        {
+          "colId": "RSVQ",
+          "rowNumber": 92600
+        },
+        {
+          "colId": "RSVS",
+          "rowNumber": 83748
+        },
+        {
+          "colId": "RSVT",
+          "rowNumber": 92601
+        },
+        {
+          "colId": "RSVV",
+          "rowNumber": 94630
+        },
+        {
+          "colId": "RSVX",
+          "rowNumber": 92607
+        },
+        {
+          "colId": "RSVY",
+          "rowNumber": 92608
+        },
+        {
+          "colId": "RSVZ",
+          "rowNumber": 92609
+        },
+        {
+          "colId": "RSW2",
+          "rowNumber": 92611
+        },
+        {
+          "colId": "RSW3",
+          "rowNumber": 92618
+        },
+        {
+          "colId": "RSW5",
+          "rowNumber": 92436
+        },
+        {
+          "colId": "RSW6",
+          "rowNumber": 92620
+        },
+        {
+          "colId": "RSW8",
+          "rowNumber": 83750
+        },
+        {
+          "colId": "RSW9",
+          "rowNumber": 92621
+        },
+        {
+          "colId": "RSWB",
+          "rowNumber": 92622
+        },
+        {
+          "colId": "RSWG",
+          "rowNumber": 92631
+        },
+        {
+          "colId": "RSWH",
+          "rowNumber": 83751
+        },
+        {
+          "colId": "RSWN",
+          "rowNumber": 83752
+        },
+        {
+          "colId": "RSWP",
+          "rowNumber": 92632
+        },
+        {
+          "colId": "RSWV",
+          "rowNumber": 92638
+        },
+        {
+          "colId": "RSWW",
+          "rowNumber": 92639
+        },
+        {
+          "colId": "RSX3",
+          "rowNumber": 92640
+        },
+        {
+          "colId": "RSX5",
+          "rowNumber": 92203
+        },
+        {
+          "colId": "RSX9",
+          "rowNumber": 92643
+        },
+        {
+          "colId": "RSXB",
+          "rowNumber": 92644
+        },
+        {
+          "colId": "RSXF",
+          "rowNumber": 94175
+        },
+        {
+          "colId": "RSXH",
+          "rowNumber": 101550
+        },
+        {
+          "colId": "RSXL",
+          "rowNumber": 92646
+        },
+        {
+          "colId": "RSXM",
+          "rowNumber": 92647
+        },
+        {
+          "colId": "RSXP",
+          "rowNumber": 92648
+        },
+        {
+          "colId": "RSXQ",
+          "rowNumber": 101551
+        },
+        {
+          "colId": "RSXR",
+          "rowNumber": 92649
+        },
+        {
+          "colId": "RSXS",
+          "rowNumber": 92651
+        },
+        {
+          "colId": "RSXT",
+          "rowNumber": 92652
+        },
+        {
+          "colId": "RSXW",
+          "rowNumber": 92654
+        },
+        {
+          "colId": "RSXZ",
+          "rowNumber": 92655
+        },
+        {
+          "colId": "RSY3",
+          "rowNumber": 92656
+        },
+        {
+          "colId": "RSY6",
+          "rowNumber": 92657
+        },
+        {
+          "colId": "RSY7",
+          "rowNumber": 93151
+        },
+        {
+          "colId": "RSY8",
+          "rowNumber": 92658
+        },
+        {
+          "colId": "RSYC",
+          "rowNumber": 92659
+        },
+        {
+          "colId": "RSYD",
+          "rowNumber": 102347
+        },
+        {
+          "colId": "RSYH",
+          "rowNumber": 92660
+        },
+        {
+          "colId": "RSYL",
+          "rowNumber": 92661
+        },
+        {
+          "colId": "RSYM",
+          "rowNumber": 92663
+        },
+        {
+          "colId": "RSYN",
+          "rowNumber": 92664
+        },
+        {
+          "colId": "RSYQ",
+          "rowNumber": 92665
+        },
+        {
+          "colId": "RSYR",
+          "rowNumber": 92666
+        },
+        {
+          "colId": "RSYX",
+          "rowNumber": 92667
+        },
+        {
+          "colId": "RSYY",
+          "rowNumber": 92668
+        },
+        {
+          "colId": "RSYZ",
+          "rowNumber": 93160
+        },
+        {
+          "colId": "RSZ3",
+          "rowNumber": 92669
+        },
+        {
+          "colId": "RSZ4",
+          "rowNumber": 94176
+        },
+        {
+          "colId": "RSZ5",
+          "rowNumber": 92670
+        },
+        {
+          "colId": "RSZ8",
+          "rowNumber": 92672
+        },
+        {
+          "colId": "RSZB",
+          "rowNumber": 93280
+        },
+        {
+          "colId": "RSZC",
+          "rowNumber": 92674
+        },
+        {
+          "colId": "RSZF",
+          "rowNumber": 103256
+        },
+        {
+          "colId": "RSZG",
+          "rowNumber": 92675
+        },
+        {
+          "colId": "RSZJ",
+          "rowNumber": 92678
+        },
+        {
+          "colId": "RSZM",
+          "rowNumber": 92680
+        },
+        {
+          "colId": "RSZS",
+          "rowNumber": 92685
+        },
+        {
+          "colId": "RSZW",
+          "rowNumber": 83754
+        },
+        {
+          "colId": "RSZX",
+          "rowNumber": 92686
+        },
+        {
+          "colId": "RSZY",
+          "rowNumber": 83755
+        },
+        {
+          "colId": "RSZZ",
+          "rowNumber": 92688
+        },
+        {
+          "colId": "RT23",
+          "rowNumber": 92205
+        },
+        {
+          "colId": "RT25",
+          "rowNumber": 92693
+        },
+        {
+          "colId": "RT26",
+          "rowNumber": 92694
+        },
+        {
+          "colId": "RT28",
+          "rowNumber": 92697
+        },
+        {
+          "colId": "RT2B",
+          "rowNumber": 92699
+        },
+        {
+          "colId": "RT2C",
+          "rowNumber": 92700
+        },
+        {
+          "colId": "RT2K",
+          "rowNumber": 92702
+        },
+        {
+          "colId": "RT2N",
+          "rowNumber": 83756
+        },
+        {
+          "colId": "RT2R",
+          "rowNumber": 92703
+        },
+        {
+          "colId": "RT2S",
+          "rowNumber": 92704
+        },
+        {
+          "colId": "RT2T",
+          "rowNumber": 92705
+        },
+        {
+          "colId": "RT2V",
+          "rowNumber": 92707
+        },
+        {
+          "colId": "RT2Z",
+          "rowNumber": 92709
+        },
+        {
+          "colId": "RT34",
+          "rowNumber": 92710
+        },
+        {
+          "colId": "RT35",
+          "rowNumber": 92711
+        },
+        {
+          "colId": "RT38",
+          "rowNumber": 83757
+        },
+        {
+          "colId": "RT39",
+          "rowNumber": 92712
+        },
+        {
+          "colId": "RT3C",
+          "rowNumber": 92714
+        },
+        {
+          "colId": "RT3F",
+          "rowNumber": 92715
+        },
+        {
+          "colId": "RT3G",
+          "rowNumber": 92716
+        },
+        {
+          "colId": "RT3H",
+          "rowNumber": 94177
+        },
+        {
+          "colId": "RT3J",
+          "rowNumber": 102331
+        },
+        {
+          "colId": "RT3K",
+          "rowNumber": 92717
+        },
+        {
+          "colId": "RT3P",
+          "rowNumber": 92718
+        },
+        {
+          "colId": "RT3Q",
+          "rowNumber": 103251
+        },
+        {
+          "colId": "RT3V",
+          "rowNumber": 92719
+        },
+        {
+          "colId": "RT3Y",
+          "rowNumber": 92723
+        },
+        {
+          "colId": "RT3Z",
+          "rowNumber": 101552
+        },
+        {
+          "colId": "RT43",
+          "rowNumber": 92727
+        }
+      ]
+    },
+    {
+      "textSha256": "5cc040c5f6378454569d69b73603699a1fd89656a3d42378dfb1b8c7b74a464f",
+      "rows": [
+        {
+          "colId": "6YRYR",
+          "rowNumber": 82862
+        },
+        {
+          "colId": "6YRZ4",
+          "rowNumber": 82865
+        },
+        {
+          "colId": "6Z3YS",
+          "rowNumber": 82866
+        },
+        {
+          "colId": "6Z3Z4",
+          "rowNumber": 82868
+        },
+        {
+          "colId": "6Z3Z6",
+          "rowNumber": 82861
+        }
+      ]
+    },
+    {
+      "textSha256": "5d8287b56bc2ff2ca006f3ce7605d2772664c8a8ca2a4476684fa0931d108f60",
+      "rows": [
+        {
+          "colId": "3YGCF",
+          "rowNumber": 81393
+        },
+        {
+          "colId": "3YGDB",
+          "rowNumber": 81398
+        },
+        {
+          "colId": "3YGG2",
+          "rowNumber": 97774
+        },
+        {
+          "colId": "3YGHV",
+          "rowNumber": 81418
+        },
+        {
+          "colId": "3YGHW",
+          "rowNumber": 103241
+        },
+        {
+          "colId": "3YGJW",
+          "rowNumber": 81421
+        },
+        {
+          "colId": "3YGKR",
+          "rowNumber": 81422
+        },
+        {
+          "colId": "3YGLR",
+          "rowNumber": 81425
+        },
+        {
+          "colId": "3YGM5",
+          "rowNumber": 81427
+        },
+        {
+          "colId": "3YGN7",
+          "rowNumber": 103238
+        },
+        {
+          "colId": "3YGND",
+          "rowNumber": 81434
+        },
+        {
+          "colId": "3YGNF",
+          "rowNumber": 81435
+        },
+        {
+          "colId": "3YGPM",
+          "rowNumber": 81440
+        },
+        {
+          "colId": "3YGQ8",
+          "rowNumber": 81443
+        },
+        {
+          "colId": "3YGQH",
+          "rowNumber": 81446
+        },
+        {
+          "colId": "3YGQR",
+          "rowNumber": 81448
+        },
+        {
+          "colId": "3YGS2",
+          "rowNumber": 81456
+        },
+        {
+          "colId": "3YGTV",
+          "rowNumber": 81467
+        },
+        {
+          "colId": "3YGVP",
+          "rowNumber": 81476
+        },
+        {
+          "colId": "3YGVY",
+          "rowNumber": 81479
+        },
+        {
+          "colId": "3YGWN",
+          "rowNumber": 81482
+        },
+        {
+          "colId": "3YGXB",
+          "rowNumber": 81484
+        },
+        {
+          "colId": "3YGXY",
+          "rowNumber": 81488
+        },
+        {
+          "colId": "72V6M",
+          "rowNumber": 81472
+        },
+        {
+          "colId": "736V4",
+          "rowNumber": 81431
+        },
+        {
+          "colId": "7376M",
+          "rowNumber": 81473
+        }
+      ]
+    },
+    {
+      "textSha256": "5e90f38b6a3e29639d5907ee964ad60b05ce56b4cb41928709f440f8b58d4dda",
+      "rows": [
+        {
+          "colId": "NMLQ",
+          "rowNumber": 88485
+        },
+        {
+          "colId": "NMLW",
+          "rowNumber": 88486
+        }
+      ]
+    },
+    {
+      "textSha256": "5faf42393ff9ea5f49eff06d1896ecfd427a0304fc79d8234c34aadb6c133275",
+      "rows": [
+        {
+          "colId": "TJMR",
+          "rowNumber": 93273
+        },
+        {
+          "colId": "TJN4",
+          "rowNumber": 93276
+        },
+        {
+          "colId": "TJNJ",
+          "rowNumber": 93277
+        },
+        {
+          "colId": "TJNK",
+          "rowNumber": 93278
+        },
+        {
+          "colId": "TJQL",
+          "rowNumber": 93279
+        },
+        {
+          "colId": "TJQQ",
+          "rowNumber": 93282
+        },
+        {
+          "colId": "TJSL",
+          "rowNumber": 93285
+        }
+      ]
+    },
+    {
+      "textSha256": "605dfb76471dac51fb660adb960840ba639db5b78c1bf9cd4e14d49c37cc606e",
+      "rows": [
+        {
+          "colId": "4P23C",
+          "rowNumber": 98547
+        },
+        {
+          "colId": "4P23G",
+          "rowNumber": 98546
+        },
+        {
+          "colId": "BB922",
+          "rowNumber": 100309
+        }
+      ]
+    },
+    {
+      "textSha256": "61316f307d33081937dd082ccf9cbc6e81bd84de65565decaf1e783450d24698",
+      "rows": [
+        {
+          "colId": "6FRTK",
+          "rowNumber": 95380
+        },
+        {
+          "colId": "6FRVF",
+          "rowNumber": 95397
+        },
+        {
+          "colId": "6FS67",
+          "rowNumber": 95393
+        },
+        {
+          "colId": "6FSHK",
+          "rowNumber": 95343
+        },
+        {
+          "colId": "6G3VW",
+          "rowNumber": 95412
+        }
+      ]
+    },
+    {
+      "textSha256": "623d28b42c41f43a1970c266e6f4dc8932454dce382b39cd4276dc6f82d1da10",
+      "rows": [
+        {
+          "colId": "5D84C",
+          "rowNumber": 80112
+        },
+        {
+          "colId": "5D84M",
+          "rowNumber": 79379
+        },
+        {
+          "colId": "5D86L",
+          "rowNumber": 79387
+        },
+        {
+          "colId": "5D877",
+          "rowNumber": 79389
+        },
+        {
+          "colId": "5D87M",
+          "rowNumber": 79390
+        },
+        {
+          "colId": "9DR3L",
+          "rowNumber": 85232
+        }
+      ]
+    },
+    {
+      "textSha256": "6265532651844e2d5539a74e5b36d17ceaa3c5c0af12dae99a398319ed3133c4",
+      "rows": [
+        {
+          "colId": "3B67L",
+          "rowNumber": 79800
+        },
+        {
+          "colId": "3B69G",
+          "rowNumber": 79304
+        }
+      ]
+    },
+    {
+      "textSha256": "6429a7ebfa9a59c39ace181bf886bcbec3e5f46cf880d92eb6658dfe9271a9a1",
+      "rows": [
+        {
+          "colId": "36P4Z",
+          "rowNumber": 78995
+        },
+        {
+          "colId": "36P59",
+          "rowNumber": 78997
+        },
+        {
+          "colId": "36P5D",
+          "rowNumber": 96665
+        }
+      ]
+    },
+    {
+      "textSha256": "643a5d67265d8b25c2400e19277b979a669b7ec5f82a19a4604ff1a5330ebbf0",
+      "rows": [
+        {
+          "colId": "6RY5T",
+          "rowNumber": 96178
+        },
+        {
+          "colId": "6S9S7",
+          "rowNumber": 96173
+        }
+      ]
+    },
+    {
+      "textSha256": "64ee8e35a5fbbb25cf8d912bf078b6ae272f7e4d3622496f078e2fb2204312fe",
+      "rows": [
+        {
+          "colId": "3ZWC3",
+          "rowNumber": 93846
+        },
+        {
+          "colId": "3ZWCD",
+          "rowNumber": 93854
+        }
+      ]
+    },
+    {
+      "textSha256": "667387aebe34d72d6c7afd13567b1ed5fa2afdd9a38ce3ad578eb3f54adf1e19",
+      "rows": [
+        {
+          "colId": "6RVVX",
+          "rowNumber": 81817
+        },
+        {
+          "colId": "6RW89",
+          "rowNumber": 81816
+        }
+      ]
+    },
+    {
+      "textSha256": "66afb6786441f8a398e4fb4c4493193a283f639642e01d18e6123ee10a5fd5dd",
+      "rows": [
+        {
+          "colId": "4SSN7",
+          "rowNumber": 80592
+        },
+        {
+          "colId": "4SSQN",
+          "rowNumber": 79029
+        }
+      ]
+    },
+    {
+      "textSha256": "66d2250bcd7d8bce4f531b5809d1e1d45622e9eee12f3577f00bca220ccb244a",
+      "rows": [
+        {
+          "colId": "35MXY",
+          "rowNumber": 102572
+        },
+        {
+          "colId": "35MYN",
+          "rowNumber": 84253
+        }
+      ]
+    },
+    {
+      "textSha256": "69b2fa38e5f12186665bc1364c8da82e26680cfec93f67dc9ffd11f3580db1e0",
+      "rows": [
+        {
+          "colId": "5D854",
+          "rowNumber": 79867
+        },
+        {
+          "colId": "5D87V",
+          "rowNumber": 79872
+        }
+      ]
+    },
+    {
+      "textSha256": "69f38b75a7257de218ac7aace6312ec1b1e8be48a737acaf896f3c10db710a7c",
+      "rows": [
+        {
+          "colId": "NMS9",
+          "rowNumber": 85448
+        },
+        {
+          "colId": "NMSC",
+          "rowNumber": 101572
+        }
+      ]
+    },
+    {
+      "textSha256": "6baa2d68eddb687a9c72ca29b5e7f366d149434da06a3594c2924cc613d1ad96",
+      "rows": [
+        {
+          "colId": "3C6PH",
+          "rowNumber": 95742
+        },
+        {
+          "colId": "6H878",
+          "rowNumber": 95723
+        }
+      ]
+    },
+    {
+      "textSha256": "6c0ba4387cc7775f94c26894b9bddd54d169f0439ef5fbf1b969299825f4268e",
+      "rows": [
+        {
+          "colId": "36CJ5",
+          "rowNumber": 84322
+        },
+        {
+          "colId": "36CNB",
+          "rowNumber": 84339
+        }
+      ]
+    },
+    {
+      "textSha256": "6c4ea46834eeacb8362399d45ee96e369c5be97de5045e7550ea02f6ef2af563",
+      "rows": [
+        {
+          "colId": "CD4SJ",
+          "rowNumber": 94695
+        },
+        {
+          "colId": "Z2TC",
+          "rowNumber": 94681
+        }
+      ]
+    },
+    {
+      "textSha256": "6c876ec4e185050bc7a35113aace86ba20a568009f5f4ac9965ad2d4ed43c3db",
+      "rows": [
+        {
+          "colId": "3V4RT",
+          "rowNumber": 83938
+        },
+        {
+          "colId": "3V4WB",
+          "rowNumber": 83936
+        }
+      ]
+    },
+    {
+      "textSha256": "6db30b32664f1d9e5b17135a8a47d5cfbf1c3d579d511f9eb910cfcf41fd40c1",
+      "rows": [
+        {
+          "colId": "36HNP",
+          "rowNumber": 98288
+        },
+        {
+          "colId": "36HQY",
+          "rowNumber": 78818
+        },
+        {
+          "colId": "36HR5",
+          "rowNumber": 98622
+        },
+        {
+          "colId": "36HRR",
+          "rowNumber": 100028
+        },
+        {
+          "colId": "36HZ4",
+          "rowNumber": 98312
+        },
+        {
+          "colId": "36J27",
+          "rowNumber": 98530
+        }
+      ]
+    },
+    {
+      "textSha256": "70770bd368185889c8fa4879f52673524a2ea7aaaaf82ef4df4dab93d0b624c3",
+      "rows": [
+        {
+          "colId": "6NLKC",
+          "rowNumber": 78390
+        },
+        {
+          "colId": "6NNCQ",
+          "rowNumber": 77416
+        },
+        {
+          "colId": "6NND2",
+          "rowNumber": 77681
+        }
+      ]
+    },
+    {
+      "textSha256": "7155c800a834ba0f75b87df33120a32ea57d05f1548ec5da20b8b29fc754e6d3",
+      "rows": [
+        {
+          "colId": "4J6XF",
+          "rowNumber": 80466
+        },
+        {
+          "colId": "6VKMR",
+          "rowNumber": 80562
+        }
+      ]
+    },
+    {
+      "textSha256": "7174d19384f6b14f594d67c25977d50e1536e194eda8b0bd2655ec3df1352131",
+      "rows": [
+        {
+          "colId": "3GQVB",
+          "rowNumber": 102999
+        },
+        {
+          "colId": "3GQYQ",
+          "rowNumber": 103009
+        },
+        {
+          "colId": "3GQYV",
+          "rowNumber": 103010
+        },
+        {
+          "colId": "3GQZ8",
+          "rowNumber": 103013
+        }
+      ]
+    },
+    {
+      "textSha256": "731a7b118d2d3ac698e6aceb53b55310420f3115975010dada3ac91e7e9331c3",
+      "rows": [
+        {
+          "colId": "336S4",
+          "rowNumber": 89992
+        },
+        {
+          "colId": "6BV6X",
+          "rowNumber": 89996
+        }
+      ]
+    },
+    {
+      "textSha256": "739ef41ad0fd7e8584e861586254076b7007a77c347005455f56bbf4efe328d2",
+      "rows": [
+        {
+          "colId": "3F9W3",
+          "rowNumber": 90700
+        },
+        {
+          "colId": "3F9WS",
+          "rowNumber": 90701
+        },
+        {
+          "colId": "3F9WY",
+          "rowNumber": 90702
+        },
+        {
+          "colId": "3F9Y9",
+          "rowNumber": 90703
+        },
+        {
+          "colId": "3F9Z4",
+          "rowNumber": 90706
+        }
+      ]
+    },
+    {
+      "textSha256": "74ac3f6a248e438b5165d27b37083db2b722ebb952b4cf956dd49c766d2b1d7b",
+      "rows": [
+        {
+          "colId": "4J6VD",
+          "rowNumber": 80467
+        },
+        {
+          "colId": "L2JM5",
+          "rowNumber": 80615
+        }
+      ]
+    },
+    {
+      "textSha256": "74b95ef571c31fcb48726e9f294dbe8ebb342ae5d648194cff8cd28149afc822",
+      "rows": [
+        {
+          "colId": "3YTXP",
+          "rowNumber": 98417
+        },
+        {
+          "colId": "3YTYX",
+          "rowNumber": 78733
+        },
+        {
+          "colId": "6QVPT",
+          "rowNumber": 98424
+        },
+        {
+          "colId": "6R7ZB",
+          "rowNumber": 98423
+        }
+      ]
+    },
+    {
+      "textSha256": "75345bba041710cb0e6e1795f44d8f584b9b496a25bc74aef1f177c045e47ee9",
+      "rows": [
+        {
+          "colId": "4SSFC",
+          "rowNumber": 79026
+        },
+        {
+          "colId": "4SSLV",
+          "rowNumber": 79845
+        },
+        {
+          "colId": "4SSLZ",
+          "rowNumber": 79846
+        },
+        {
+          "colId": "4SSR5",
+          "rowNumber": 79030
+        }
+      ]
+    },
+    {
+      "textSha256": "774501c87c62520642c78a9ccab9d88bc1fdafd866c074a82ae2d2856f09fe40",
+      "rows": [
+        {
+          "colId": "3ZWBD",
+          "rowNumber": 93829
+        },
+        {
+          "colId": "3ZWBV",
+          "rowNumber": 93840
+        }
+      ]
+    },
+    {
+      "textSha256": "7764119b6082c56b8efde0877091ad1dfb6e0f5c55291b0c7beeabaee1147ecd",
+      "rows": [
+        {
+          "colId": "7GGSH",
+          "rowNumber": 79865
+        },
+        {
+          "colId": "9DR4H",
+          "rowNumber": 91385
+        }
+      ]
+    },
+    {
+      "textSha256": "782b148e50b11805930f6abece6baff72a91b84fd6642a447fc19932b60da0fb",
+      "rows": [
+        {
+          "colId": "3ZWBQ",
+          "rowNumber": 93837
+        },
+        {
+          "colId": "3ZWC8",
+          "rowNumber": 93850
+        },
+        {
+          "colId": "3ZWCW",
+          "rowNumber": 93866
+        },
+        {
+          "colId": "6RB83",
+          "rowNumber": 93852
+        }
+      ]
+    },
+    {
+      "textSha256": "795b5bb3ea2d398417636f38ad6a92729116a89c111461dab0351cca8b11a4e9",
+      "rows": [
+        {
+          "colId": "3P52N",
+          "rowNumber": 92290
+        },
+        {
+          "colId": "3P5BQ",
+          "rowNumber": 80962
+        }
+      ]
+    },
+    {
+      "textSha256": "7a4b699cd1111727bcbe536eaf4a43a876b961bd7d9539bd24311b8c2460f111",
+      "rows": [
+        {
+          "colId": "4K972",
+          "rowNumber": 78938
+        },
+        {
+          "colId": "4K985",
+          "rowNumber": 78939
+        },
+        {
+          "colId": "4K98H",
+          "rowNumber": 103287
+        },
+        {
+          "colId": "4K98W",
+          "rowNumber": 102435
+        },
+        {
+          "colId": "4K99V",
+          "rowNumber": 103576
+        }
+      ]
+    },
+    {
+      "textSha256": "7c1f7cb477b0b378911195cccf9c06373f64d5c945d27e6f76dc42b41e9b1923",
+      "rows": [
+        {
+          "colId": "9DNGB",
+          "rowNumber": 100776
+        },
+        {
+          "colId": "9DNGM",
+          "rowNumber": 100750
+        },
+        {
+          "colId": "9DNHS",
+          "rowNumber": 96712
+        }
+      ]
+    },
+    {
+      "textSha256": "7c3a6011797369f62e0f942d2083eb95812addad1cd58fc664f9bc7c2559d800",
+      "rows": [
+        {
+          "colId": "P265",
+          "rowNumber": 88606
+        },
+        {
+          "colId": "P26N",
+          "rowNumber": 88613
+        }
+      ]
+    },
+    {
+      "textSha256": "7c91c6cb9a2b4aae0174d8fa88c84c8e8bc8150aac2b4377cd5bfdc38fa80f15",
+      "rows": [
+        {
+          "colId": "4TH3X",
+          "rowNumber": 84760
+        },
+        {
+          "colId": "4TH5J",
+          "rowNumber": 84786
+        }
+      ]
+    },
+    {
+      "textSha256": "7df71f2079f27d937fe56c4e5f81fc9d38d2d601654ad09fc95c12b0a0c3e1f7",
+      "rows": [
+        {
+          "colId": "4K96J",
+          "rowNumber": 78936
+        },
+        {
+          "colId": "9Y9YZ",
+          "rowNumber": 78940
+        }
+      ]
+    },
+    {
+      "textSha256": "7ec5c706ba2500f24b103677630e93c642dbe3760acc495d7aec9dcec7dd947b",
+      "rows": [
+        {
+          "colId": "5WRSS",
+          "rowNumber": 89303
+        },
+        {
+          "colId": "5X4C6",
+          "rowNumber": 85563
+        },
+        {
+          "colId": "NQTZ",
+          "rowNumber": 86948
+        },
+        {
+          "colId": "NRDR",
+          "rowNumber": 88167
+        },
+        {
+          "colId": "NRF8",
+          "rowNumber": 88182
+        },
+        {
+          "colId": "NS4V",
+          "rowNumber": 90067
+        }
+      ]
+    },
+    {
+      "textSha256": "7f25421759309e3352b47ca8a3bd5e1a09f5d0ff5c958ae597197ad2879c1691",
+      "rows": [
+        {
+          "colId": "78J73",
+          "rowNumber": 100281
+        },
+        {
+          "colId": "78JDX",
+          "rowNumber": 100275
+        }
+      ]
+    },
+    {
+      "textSha256": "7fa0eabff3799140710dbeae4881e76642418568659882ceb129757069bf24da",
+      "rows": [
+        {
+          "colId": "49GP7",
+          "rowNumber": 81854
+        },
+        {
+          "colId": "49GPZ",
+          "rowNumber": 81857
+        },
+        {
+          "colId": "49GSL",
+          "rowNumber": 81862
+        },
+        {
+          "colId": "49GY2",
+          "rowNumber": 94281
+        }
+      ]
+    },
+    {
+      "textSha256": "81122c3eab2a3707a8eef9227e83a7ac1cb6bb51eaca50ded467e1f9ad8a6c97",
+      "rows": [
+        {
+          "colId": "36H97",
+          "rowNumber": 102666
+        },
+        {
+          "colId": "36H9R",
+          "rowNumber": 98406
+        },
+        {
+          "colId": "36HWV",
+          "rowNumber": 78819
+        },
+        {
+          "colId": "36J2B",
+          "rowNumber": 78820
+        },
+        {
+          "colId": "36J3C",
+          "rowNumber": 78821
+        },
+        {
+          "colId": "6D9W2",
+          "rowNumber": 78815
+        }
+      ]
+    },
+    {
+      "textSha256": "82fe84f2d9953ca694b59c393e6553cef99fcff574dcb47918e0be3d8cb4e6ca",
+      "rows": [
+        {
+          "colId": "3B66D",
+          "rowNumber": 79069
+        },
+        {
+          "colId": "3B66Z",
+          "rowNumber": 79799
+        }
+      ]
+    },
+    {
+      "textSha256": "835a0307a6b51c1496ab6fa356668412be37e378c406aff340c4b925855f4f4b",
+      "rows": [
+        {
+          "colId": "7CQH9",
+          "rowNumber": 102936
+        },
+        {
+          "colId": "7CQJP",
+          "rowNumber": 83121
+        }
+      ]
+    },
+    {
+      "textSha256": "83f5e443b4b0dbd49c3ef5ae932bd0c3fb01e0e076db9f39c30a79a3aaae0330",
+      "rows": [
+        {
+          "colId": "FQTL",
+          "rowNumber": 94128
+        },
+        {
+          "colId": "FQTR",
+          "rowNumber": 94135
+        }
+      ]
+    },
+    {
+      "textSha256": "8411e3dc4abe2eb6294ab73c376f6d0e63411a85acc72c4163adcbb17cefa97e",
+      "rows": [
+        {
+          "colId": "3Y2T9",
+          "rowNumber": 85553
+        },
+        {
+          "colId": "6QTWF",
+          "rowNumber": 85554
+        }
+      ]
+    },
+    {
+      "textSha256": "846aff8bacda902818f93834e8fc022f4e0ce4ea6011f3df8a6e967ce9c8fa86",
+      "rows": [
+        {
+          "colId": "4ZM74",
+          "rowNumber": 96533
+        },
+        {
+          "colId": "4ZMB6",
+          "rowNumber": 85271
+        }
+      ]
+    },
+    {
+      "textSha256": "85b30ad395da62eb4380f25d0276736bdb89838e9efb5a07e2b6eb8b342d3e5c",
+      "rows": [
+        {
+          "colId": "52D95",
+          "rowNumber": 98853
+        },
+        {
+          "colId": "52DK2",
+          "rowNumber": 86927
+        }
+      ]
+    },
+    {
+      "textSha256": "860ddbbace3bdf653b743f9db5a233a7604c783e389cbf444b3e88b78bdfa72e",
+      "rows": [
+        {
+          "colId": "36732",
+          "rowNumber": 77158
+        },
+        {
+          "colId": "3673R",
+          "rowNumber": 77487
+        },
+        {
+          "colId": "6CVQR",
+          "rowNumber": 77855
+        }
+      ]
+    },
+    {
+      "textSha256": "860fa6436cdebf6ae26400f74e3314ad71ccf1ace7a066055919276356ca2252",
+      "rows": [
+        {
+          "colId": "36CSR",
+          "rowNumber": 84353
+        },
+        {
+          "colId": "36CYL",
+          "rowNumber": 84377
+        }
+      ]
+    },
+    {
+      "textSha256": "876362d007609e1b9000b81801e9d14cad7a125cc4e9db6ef889307b04c6fca8",
+      "rows": [
+        {
+          "colId": "3P4XG",
+          "rowNumber": 80882
+        },
+        {
+          "colId": "3P55R",
+          "rowNumber": 80921
+        }
+      ]
+    },
+    {
+      "textSha256": "887ad709b5da2a16ac79478420b851063717a2f76668bb56145863401c76282c",
+      "rows": [
+        {
+          "colId": "3WF58",
+          "rowNumber": 80816
+        },
+        {
+          "colId": "3WF65",
+          "rowNumber": 80817
+        },
+        {
+          "colId": "3WF6B",
+          "rowNumber": 80823
+        },
+        {
+          "colId": "3WFDY",
+          "rowNumber": 80741
+        },
+        {
+          "colId": "3WFG8",
+          "rowNumber": 80818
+        },
+        {
+          "colId": "3WFHK",
+          "rowNumber": 80016
+        },
+        {
+          "colId": "3WFHY",
+          "rowNumber": 80820
+        },
+        {
+          "colId": "3WFL5",
+          "rowNumber": 80824
+        },
+        {
+          "colId": "3WFLZ",
+          "rowNumber": 80021
+        },
+        {
+          "colId": "3WFP7",
+          "rowNumber": 80022
+        },
+        {
+          "colId": "3WFQ6",
+          "rowNumber": 80025
+        },
+        {
+          "colId": "L2BGF",
+          "rowNumber": 80024
+        },
+        {
+          "colId": "VK7YJ",
+          "rowNumber": 80018
+        }
+      ]
+    },
+    {
+      "textSha256": "8b7cc5ed87ed670eba97dae0c2a8e42bdd905e4f16c9a0ab441dcb5cc33c306b",
+      "rows": [
+        {
+          "colId": "36HDC",
+          "rowNumber": 98387
+        },
+        {
+          "colId": "36HP6",
+          "rowNumber": 78816
+        }
+      ]
+    },
+    {
+      "textSha256": "8bbb76830f70c0db87e1d90621c4fb79a48ab275b3b7ae2df5c27c085fca4be3",
+      "rows": [
+        {
+          "colId": "VGMC",
+          "rowNumber": 93601
+        },
+        {
+          "colId": "VGMD",
+          "rowNumber": 93605
+        },
+        {
+          "colId": "VGMJ",
+          "rowNumber": 93613
+        },
+        {
+          "colId": "VGMK",
+          "rowNumber": 93616
+        },
+        {
+          "colId": "VGMQ",
+          "rowNumber": 93618
+        },
+        {
+          "colId": "VGMR",
+          "rowNumber": 93621
+        }
+      ]
+    },
+    {
+      "textSha256": "8d150400b553e4ba78540a31f37ed5365b6db2815d42acb442ad085b343b2b2c",
+      "rows": [
+        {
+          "colId": "5D84H",
+          "rowNumber": 79377
+        },
+        {
+          "colId": "5D856",
+          "rowNumber": 79868
+        }
+      ]
+    },
+    {
+      "textSha256": "8ded737b85c7c57e1bfadd07e15618ed6b093f361306f14975eabf1a9ea3fcdf",
+      "rows": [
+        {
+          "colId": "7T7DW",
+          "rowNumber": 101899
+        },
+        {
+          "colId": "Q669",
+          "rowNumber": 88746
+        }
+      ]
+    },
+    {
+      "textSha256": "903de802a5ce0bbfe9f5ce45fec712bf738a8dcfef1b0f3093ebcb379ab9a499",
+      "rows": [
+        {
+          "colId": "4ZSPD",
+          "rowNumber": 86991
+        },
+        {
+          "colId": "4ZSQB",
+          "rowNumber": 98825
+        }
+      ]
+    },
+    {
+      "textSha256": "910afe57c6e30768648f58943cf54b84753c57f80aa4acc9c71162d678057528",
+      "rows": [
+        {
+          "colId": "3P59B",
+          "rowNumber": 80948
+        },
+        {
+          "colId": "6N548",
+          "rowNumber": 80952
+        }
+      ]
+    },
+    {
+      "textSha256": "91e52a51cdcc2d1ee7c384c224457850de37e68a780fccce40fa0e7457271a22",
+      "rows": [
+        {
+          "colId": "3WJBR",
+          "rowNumber": 81221
+        },
+        {
+          "colId": "3WJBY",
+          "rowNumber": 81222
+        },
+        {
+          "colId": "3WJC4",
+          "rowNumber": 81223
+        },
+        {
+          "colId": "72Q53",
+          "rowNumber": 81217
+        }
+      ]
+    },
+    {
+      "textSha256": "92636175e8bcc99cbce9bf98a45945ff34317c2d46864531316f271148c00d29",
+      "rows": [
+        {
+          "colId": "3GQSL",
+          "rowNumber": 101650
+        },
+        {
+          "colId": "3GQTL",
+          "rowNumber": 101624
+        }
+      ]
+    },
+    {
+      "textSha256": "940fb0613eb3e0ed4d12e76f0a0fbb7e7ebafb3595257123d92f52ee3f39e949",
+      "rows": [
+        {
+          "colId": "3YTX5",
+          "rowNumber": 98415
+        },
+        {
+          "colId": "3YTXT",
+          "rowNumber": 98418
+        },
+        {
+          "colId": "3YTY2",
+          "rowNumber": 98420
+        },
+        {
+          "colId": "3YTYK",
+          "rowNumber": 98422
+        },
+        {
+          "colId": "3YTZL",
+          "rowNumber": 78735
+        },
+        {
+          "colId": "3YTZZ",
+          "rowNumber": 78736
+        },
+        {
+          "colId": "6R7ZC",
+          "rowNumber": 78737
+        },
+        {
+          "colId": "6R7ZG",
+          "rowNumber": 98421
+        }
+      ]
+    },
+    {
+      "textSha256": "9438fb7011c73ba085200b95707216ac65042f7a21aedc88d0cddb278254b8fc",
+      "rows": [
+        {
+          "colId": "66DPT",
+          "rowNumber": 87788
+        },
+        {
+          "colId": "66DQ5",
+          "rowNumber": 87791
+        },
+        {
+          "colId": "CX32",
+          "rowNumber": 87786
+        },
+        {
+          "colId": "CX33",
+          "rowNumber": 101318
+        },
+        {
+          "colId": "CX35",
+          "rowNumber": 101319
+        },
+        {
+          "colId": "CX37",
+          "rowNumber": 101330
+        },
+        {
+          "colId": "CX38",
+          "rowNumber": 87787
+        },
+        {
+          "colId": "CX3C",
+          "rowNumber": 87789
+        },
+        {
+          "colId": "CX3D",
+          "rowNumber": 87790
+        },
+        {
+          "colId": "CX3F",
+          "rowNumber": 101332
+        },
+        {
+          "colId": "CX3G",
+          "rowNumber": 87792
+        }
+      ]
+    },
+    {
+      "textSha256": "94e93a31815d8210787fdae23d9acbd9571a81bd4c1d707b2f7e0e147fc5ecca",
+      "rows": [
+        {
+          "colId": "4C4C4",
+          "rowNumber": 100307
+        },
+        {
+          "colId": "4C4C6",
+          "rowNumber": 100308
+        },
+        {
+          "colId": "75JXH",
+          "rowNumber": 100305
+        },
+        {
+          "colId": "8T36Z",
+          "rowNumber": 98644
+        }
+      ]
+    },
+    {
+      "textSha256": "9503b191af1506b9ca30313bfc9d2e86cf51303cc247b5a10b46400aa095192a",
+      "rows": [
+        {
+          "colId": "3KC9K",
+          "rowNumber": 91019
+        },
+        {
+          "colId": "3KC9Q",
+          "rowNumber": 91020
+        },
+        {
+          "colId": "3KCLF",
+          "rowNumber": 99049
+        },
+        {
+          "colId": "3KCP5",
+          "rowNumber": 99047
+        }
+      ]
+    },
+    {
+      "textSha256": "95e5b7fa16731e8c1a2446555ce33185b12c02a0e50af6069fcd86e44ffaa425",
+      "rows": [
+        {
+          "colId": "69TL4",
+          "rowNumber": 92980
+        },
+        {
+          "colId": "69TN9",
+          "rowNumber": 92988
+        }
+      ]
+    },
+    {
+      "textSha256": "96b8d644f8ff4ca01d036ae0a11e57fa0cb44968d83f4f0ad4d351f3da43a1e4",
+      "rows": [
+        {
+          "colId": "NQKV",
+          "rowNumber": 86013
+        },
+        {
+          "colId": "NRBL",
+          "rowNumber": 87999
+        }
+      ]
+    },
+    {
+      "textSha256": "9a4e590c200f7a2da42856a158b2c2a50e1ade626920c29f409074e08b3e9db9",
+      "rows": [
+        {
+          "colId": "36CZP",
+          "rowNumber": 84381
+        },
+        {
+          "colId": "36D9H",
+          "rowNumber": 96580
+        }
+      ]
+    },
+    {
+      "textSha256": "9b43514050f427ea1ee2c0ff6eefab3f252f2b2dc3592159a0eed196d885ccf4",
+      "rows": [
+        {
+          "colId": "52GXK",
+          "rowNumber": 78392
+        },
+        {
+          "colId": "52H27",
+          "rowNumber": 78664
+        }
+      ]
+    },
+    {
+      "textSha256": "9bb5175b002f166927b998d767d4d2e4e3038e06ff953d7d924415432fbeb7fb",
+      "rows": [
+        {
+          "colId": "4SSLQ",
+          "rowNumber": 79028
+        },
+        {
+          "colId": "4SSQG",
+          "rowNumber": 80492
+        }
+      ]
+    },
+    {
+      "textSha256": "9d1d89a5ba7f2124d43f417f8a96857f5bebbeda109e749ba78d50cc97cef104",
+      "rows": [
+        {
+          "colId": "36CZT",
+          "rowNumber": 84383
+        },
+        {
+          "colId": "36D2G",
+          "rowNumber": 84386
+        },
+        {
+          "colId": "36D8T",
+          "rowNumber": 84446
+        },
+        {
+          "colId": "36D9F",
+          "rowNumber": 84455
+        },
+        {
+          "colId": "6CWTR",
+          "rowNumber": 84323
+        }
+      ]
+    },
+    {
+      "textSha256": "9f27878805a0ea247811833882f9d96c4c89e8b1a1d25fe37578ea72d642fe19",
+      "rows": [
+        {
+          "colId": "P24D",
+          "rowNumber": 88584
+        },
+        {
+          "colId": "P24V",
+          "rowNumber": 88590
+        }
+      ]
+    },
+    {
+      "textSha256": "a1acd62221df5527dc13f6b9763b9eb5cfe22d91e91ac438cc6bb283882e4f7d",
+      "rows": [
+        {
+          "colId": "4DN44",
+          "rowNumber": 80049
+        },
+        {
+          "colId": "4DN5V",
+          "rowNumber": 79362
+        }
+      ]
+    },
+    {
+      "textSha256": "a477e2ea99b12b535b005123bef1dc71a495cae8cf4e0851baadb15640a90430",
+      "rows": [
+        {
+          "colId": "56X92",
+          "rowNumber": 88521
+        },
+        {
+          "colId": "56XBC",
+          "rowNumber": 88527
+        },
+        {
+          "colId": "56XC8",
+          "rowNumber": 88530
+        },
+        {
+          "colId": "56XKD",
+          "rowNumber": 88691
+        },
+        {
+          "colId": "56XQ5",
+          "rowNumber": 88701
+        },
+        {
+          "colId": "56XQJ",
+          "rowNumber": 88705
+        },
+        {
+          "colId": "56XSB",
+          "rowNumber": 88713
+        },
+        {
+          "colId": "56XX6",
+          "rowNumber": 88749
+        },
+        {
+          "colId": "56XZM",
+          "rowNumber": 88761
+        },
+        {
+          "colId": "56Y6M",
+          "rowNumber": 88775
+        },
+        {
+          "colId": "56Y75",
+          "rowNumber": 88777
+        },
+        {
+          "colId": "56Y7M",
+          "rowNumber": 88779
+        },
+        {
+          "colId": "56Y8P",
+          "rowNumber": 88781
+        },
+        {
+          "colId": "56Y8R",
+          "rowNumber": 88783
+        },
+        {
+          "colId": "56Y9T",
+          "rowNumber": 88785
+        },
+        {
+          "colId": "7CBF7",
+          "rowNumber": 88793
+        },
+        {
+          "colId": "7CC57",
+          "rowNumber": 88528
+        },
+        {
+          "colId": "7CC5B",
+          "rowNumber": 88744
+        },
+        {
+          "colId": "7CC5Q",
+          "rowNumber": 88767
+        },
+        {
+          "colId": "7CC5Z",
+          "rowNumber": 88772
+        },
+        {
+          "colId": "7CC6H",
+          "rowNumber": 88710
+        },
+        {
+          "colId": "7CC75",
+          "rowNumber": 88739
+        },
+        {
+          "colId": "7CC77",
+          "rowNumber": 88715
+        }
+      ]
+    },
+    {
+      "textSha256": "a4a145c44d7f59e9d423644a326178275497f4394eba8243c3b004d5405c90ba",
+      "rows": [
+        {
+          "colId": "52DDD",
+          "rowNumber": 98855
+        },
+        {
+          "colId": "52DMH",
+          "rowNumber": 98857
+        },
+        {
+          "colId": "6ZPPC",
+          "rowNumber": 98874
+        },
+        {
+          "colId": "6ZRH2",
+          "rowNumber": 99762
+        }
+      ]
+    },
+    {
+      "textSha256": "a5bafe5c4b272c35f9f825698bfc1c9060282d138ad1f1e882bbf0f4fbf61d01",
+      "rows": [
+        {
+          "colId": "4XNP6",
+          "rowNumber": 92729
+        },
+        {
+          "colId": "4XNWW",
+          "rowNumber": 92738
+        }
+      ]
+    },
+    {
+      "textSha256": "a776a948113a2c7f75e668bbfd0937779c7161d76a06e7744f141dcc1c2de06d",
+      "rows": [
+        {
+          "colId": "668JZ",
+          "rowNumber": 102512
+        },
+        {
+          "colId": "C5SV",
+          "rowNumber": 95389
+        }
+      ]
+    },
+    {
+      "textSha256": "a7ae21575b59682ef2a58b2efb317a0adf80ffeaf752bbcec55db86cc76284ef",
+      "rows": [
+        {
+          "colId": "5WSBV",
+          "rowNumber": 85546
+        },
+        {
+          "colId": "NQBP",
+          "rowNumber": 85618
+        },
+        {
+          "colId": "NQJP",
+          "rowNumber": 85947
+        },
+        {
+          "colId": "NR9T",
+          "rowNumber": 87853
+        }
+      ]
+    },
+    {
+      "textSha256": "a7e595a04aa2797f3b80709d845943143a16bb22ac0d29e366a4c2b47f4906a8",
+      "rows": [
+        {
+          "colId": "39DCN",
+          "rowNumber": 89763
+        },
+        {
+          "colId": "39DCQ",
+          "rowNumber": 95259
+        },
+        {
+          "colId": "39DCR",
+          "rowNumber": 95260
+        },
+        {
+          "colId": "39DCT",
+          "rowNumber": 95261
+        },
+        {
+          "colId": "39DCV",
+          "rowNumber": 95262
+        },
+        {
+          "colId": "39DCW",
+          "rowNumber": 95263
+        },
+        {
+          "colId": "39DD2",
+          "rowNumber": 95264
+        },
+        {
+          "colId": "39DD3",
+          "rowNumber": 95265
+        }
+      ]
+    },
+    {
+      "textSha256": "a9145b5fb64ff654d03076974234b192c591ebf271bfb40ebf0f73f951c5de36",
+      "rows": [
+        {
+          "colId": "P23M",
+          "rowNumber": 88576
+        },
+        {
+          "colId": "P27R",
+          "rowNumber": 88627
+        }
+      ]
+    },
+    {
+      "textSha256": "a936f5299ad2e25e7073b4b9746cb14563ea8925d268ff21114ec0c5d868b36a",
+      "rows": [
+        {
+          "colId": "3ZWBZ",
+          "rowNumber": 93844
+        },
+        {
+          "colId": "3ZWC9",
+          "rowNumber": 93851
+        }
+      ]
+    },
+    {
+      "textSha256": "a9a26f03c656a24096c489eecde56be2137b8c35067d6a6491f99392c806ffdb",
+      "rows": [
+        {
+          "colId": "4TWQL",
+          "rowNumber": 94011
+        },
+        {
+          "colId": "4TWRY",
+          "rowNumber": 94012
+        }
+      ]
+    },
+    {
+      "textSha256": "aaff6e9a9fe8648715b9e26a67611646279a5445c2b3231192ca015c08622fd5",
+      "rows": [
+        {
+          "colId": "5BCKQ",
+          "rowNumber": 80795
+        },
+        {
+          "colId": "5BCMF",
+          "rowNumber": 80826
+        },
+        {
+          "colId": "5BCTL",
+          "rowNumber": 80797
+        },
+        {
+          "colId": "5BCZ6",
+          "rowNumber": 80800
+        },
+        {
+          "colId": "7G2QH",
+          "rowNumber": 80796
+        }
+      ]
+    },
+    {
+      "textSha256": "acba71c2f701345b4cbd858dfe7e5cb4f05bb9f94cb16c9940e699a5eec87765",
+      "rows": [
+        {
+          "colId": "3P4ZR",
+          "rowNumber": 80894
+        },
+        {
+          "colId": "3P53Y",
+          "rowNumber": 80904
+        },
+        {
+          "colId": "3P5F4",
+          "rowNumber": 80979
+        }
+      ]
+    },
+    {
+      "textSha256": "af8d5b093c9e8ef5add631e93384263de29bfb2292366890c075f29ad289497a",
+      "rows": [
+        {
+          "colId": "6YRYS",
+          "rowNumber": 82864
+        },
+        {
+          "colId": "6YRZ9",
+          "rowNumber": 82869
+        },
+        {
+          "colId": "6Z3YR",
+          "rowNumber": 82863
+        }
+      ]
+    },
+    {
+      "textSha256": "b03c541afd35e2e903f679392b85cdcc1b0987af3d8aaf48995a6f10502de816",
+      "rows": [
+        {
+          "colId": "3P4VK",
+          "rowNumber": 80871
+        },
+        {
+          "colId": "3P4ZK",
+          "rowNumber": 80893
+        },
+        {
+          "colId": "3P547",
+          "rowNumber": 80909
+        }
+      ]
+    },
+    {
+      "textSha256": "b04d91492c19c1e42047ffff376e320ea4a263a01af77a96da1106b231d5d4df",
+      "rows": [
+        {
+          "colId": "3B7F3",
+          "rowNumber": 90423
+        },
+        {
+          "colId": "3B7FS",
+          "rowNumber": 90435
+        }
+      ]
+    },
+    {
+      "textSha256": "b1e9331233b3e622a58109414d31a85c246ebde659ef515fb234f17a02590ed8",
+      "rows": [
+        {
+          "colId": "4DZ5K",
+          "rowNumber": 91448
+        },
+        {
+          "colId": "75SDP",
+          "rowNumber": 91447
+        }
+      ]
+    },
+    {
+      "textSha256": "b1eec58915712a0cc7388e800ac8e426d02e51e2ecbf9d37b55f8f0685b27650",
+      "rows": [
+        {
+          "colId": "5VZ3X",
+          "rowNumber": 77829
+        },
+        {
+          "colId": "K75C",
+          "rowNumber": 77650
+        }
+      ]
+    },
+    {
+      "textSha256": "b26efb663474be21b150698db157cf987bf1fdc838b8b899ef58fe4fe49b0832",
+      "rows": [
+        {
+          "colId": "3GQTR",
+          "rowNumber": 101625
+        },
+        {
+          "colId": "3GQWS",
+          "rowNumber": 102866
+        }
+      ]
+    },
+    {
+      "textSha256": "b2868ebe6433c0f8ec7ecc01872153631ff81d2b61368cda127fb509b5ea259e",
+      "rows": [
+        {
+          "colId": "56V8K",
+          "rowNumber": 102415
+        },
+        {
+          "colId": "56VGB",
+          "rowNumber": 102699
+        }
+      ]
+    },
+    {
+      "textSha256": "b554b30ed93d1a172f35ab03bd43d12ce8139960f1056e0a3ef6234120f5ca8b",
+      "rows": [
+        {
+          "colId": "ZNV8",
+          "rowNumber": 80746
+        },
+        {
+          "colId": "ZP9H",
+          "rowNumber": 80776
+        }
+      ]
+    },
+    {
+      "textSha256": "b558a9fe20767e7c58294c846ca06a4808368e9ada879305a155c9456a533bb9",
+      "rows": [
+        {
+          "colId": "43G2C",
+          "rowNumber": 79523
+        },
+        {
+          "colId": "43GLQ",
+          "rowNumber": 79967
+        }
+      ]
+    },
+    {
+      "textSha256": "b5ceec6e447f6fe5743379969cc26fcfd5c0c4f0c12150bf82cf172b41b27acb",
+      "rows": [
+        {
+          "colId": "4XSLK",
+          "rowNumber": 92104
+        },
+        {
+          "colId": "4XSW3",
+          "rowNumber": 92093
+        }
+      ]
+    },
+    {
+      "textSha256": "b6e22db53b13f93b8a487b6721baac530e7b4609a4edddd15f008452fa7d2e49",
+      "rows": [
+        {
+          "colId": "36CV6",
+          "rowNumber": 84361
+        },
+        {
+          "colId": "36CYJ",
+          "rowNumber": 84376
+        },
+        {
+          "colId": "6CX6Q",
+          "rowNumber": 84481
+        }
+      ]
+    },
+    {
+      "textSha256": "b711009ba80b8dfb02f582901230ab38d6313f7e09300ea5419da77a480228ec",
+      "rows": [
+        {
+          "colId": "44CHP",
+          "rowNumber": 96421
+        },
+        {
+          "colId": "73PLD",
+          "rowNumber": 96419
+        }
+      ]
+    },
+    {
+      "textSha256": "b94e589ccf3ad9f0cf76fa2669563d8c635e6dc02ef2e92e6fc90491f5c6779e",
+      "rows": [
+        {
+          "colId": "48GBK",
+          "rowNumber": 81835
+        },
+        {
+          "colId": "74G85",
+          "rowNumber": 81833
+        }
+      ]
+    },
+    {
+      "textSha256": "b98747a3c613e4653088984ef913c63540dcab28ea424b60113585b141e44789",
+      "rows": [
+        {
+          "colId": "4K94P",
+          "rowNumber": 78930
+        },
+        {
+          "colId": "4K98N",
+          "rowNumber": 100011
+        }
+      ]
+    },
+    {
+      "textSha256": "bc1f314e884bf27ead44915d6879d62ecebf50236506fb3807a6cbdf55d7bd06",
+      "rows": [
+        {
+          "colId": "36CNL",
+          "rowNumber": 84341
+        },
+        {
+          "colId": "36CNS",
+          "rowNumber": 84342
+        },
+        {
+          "colId": "6CWTZ",
+          "rowNumber": 84310
+        }
+      ]
+    },
+    {
+      "textSha256": "bc3523ab3fadcf6bf05d634b08bbaae1b3d857c1dd52465d274da2833e182ba7",
+      "rows": [
+        {
+          "colId": "NDQ8",
+          "rowNumber": 87387
+        },
+        {
+          "colId": "NDQB",
+          "rowNumber": 87390
+        }
+      ]
+    },
+    {
+      "textSha256": "c0142611f8ee46079f8d26ffef11eb9e68e797d5cbe665f78303ab797bd86ace",
+      "rows": [
+        {
+          "colId": "4RMV3",
+          "rowNumber": 85840
+        },
+        {
+          "colId": "6X598",
+          "rowNumber": 85843
+        }
+      ]
+    },
+    {
+      "textSha256": "c21a8c686c16f70e3a0dd0745051499d5d35cde2679f5639176f931d25c2d3f3",
+      "rows": [
+        {
+          "colId": "36CY4",
+          "rowNumber": 84375
+        },
+        {
+          "colId": "36DDS",
+          "rowNumber": 84474
+        }
+      ]
+    },
+    {
+      "textSha256": "c296f2c05b61cffbd12ca09023ed3eb65abce3563c3959bfbcdc99c062108280",
+      "rows": [
+        {
+          "colId": "6KT3Q",
+          "rowNumber": 101655
+        },
+        {
+          "colId": "6L4RN",
+          "rowNumber": 101656
+        }
+      ]
+    },
+    {
+      "textSha256": "c3959bce23f0dc467bfb887e5f7da9ba49507d0ba42e5fe12910fb400ca215ac",
+      "rows": [
+        {
+          "colId": "3TW9N",
+          "rowNumber": 77674
+        },
+        {
+          "colId": "3TW9P",
+          "rowNumber": 77949
+        }
+      ]
+    },
+    {
+      "textSha256": "c4118bba76ace49516dfa013c290894b8e3fb23efb923a3b8e629f0a409f466c",
+      "rows": [
+        {
+          "colId": "4KWY9",
+          "rowNumber": 80462
+        },
+        {
+          "colId": "4KWYG",
+          "rowNumber": 96686
+        }
+      ]
+    },
+    {
+      "textSha256": "c48373e0d9cf3fc78efe42b75a005067ce15be04bbe1a8c38cff8f008d0ab17c",
+      "rows": [
+        {
+          "colId": "3BB33",
+          "rowNumber": 90483
+        },
+        {
+          "colId": "3BB39",
+          "rowNumber": 90484
+        },
+        {
+          "colId": "3BB4C",
+          "rowNumber": 90489
+        },
+        {
+          "colId": "3BB4P",
+          "rowNumber": 90491
+        },
+        {
+          "colId": "3BB57",
+          "rowNumber": 90495
+        },
+        {
+          "colId": "3BB5B",
+          "rowNumber": 90496
+        },
+        {
+          "colId": "3BB6R",
+          "rowNumber": 90498
+        },
+        {
+          "colId": "6GSBF",
+          "rowNumber": 90445
+        },
+        {
+          "colId": "6GSDN",
+          "rowNumber": 90464
+        },
+        {
+          "colId": "6GSDS",
+          "rowNumber": 90460
+        },
+        {
+          "colId": "6GSDW",
+          "rowNumber": 90462
+        },
+        {
+          "colId": "6GSDZ",
+          "rowNumber": 90458
+        },
+        {
+          "colId": "6GSFJ",
+          "rowNumber": 90477
+        },
+        {
+          "colId": "6GSG8",
+          "rowNumber": 90470
+        },
+        {
+          "colId": "6H4CG",
+          "rowNumber": 90454
+        },
+        {
+          "colId": "6H4DT",
+          "rowNumber": 90459
+        },
+        {
+          "colId": "6H4FQ",
+          "rowNumber": 90475
+        },
+        {
+          "colId": "6H4G5",
+          "rowNumber": 90472
+        },
+        {
+          "colId": "6H4G8",
+          "rowNumber": 90471
+        }
+      ]
+    },
+    {
+      "textSha256": "c69677fdbad04ef608bd8c804a280bd51ed23265589496d1db892b5bf429087f",
+      "rows": [
+        {
+          "colId": "3P4VX",
+          "rowNumber": 80874
+        },
+        {
+          "colId": "3P57D",
+          "rowNumber": 80931
+        },
+        {
+          "colId": "3P5BB",
+          "rowNumber": 80959
+        }
+      ]
+    },
+    {
+      "textSha256": "c751e22303ace3ef74c401e4bd16a7d32dd3dc67084dbd3e8b6d6866ca308ee4",
+      "rows": [
+        {
+          "colId": "39PG9",
+          "rowNumber": 95267
+        },
+        {
+          "colId": "39PGJ",
+          "rowNumber": 95270
+        },
+        {
+          "colId": "39PGN",
+          "rowNumber": 95272
+        },
+        {
+          "colId": "39PHJ",
+          "rowNumber": 95279
+        },
+        {
+          "colId": "39PHR",
+          "rowNumber": 95282
+        },
+        {
+          "colId": "39PHS",
+          "rowNumber": 95283
+        },
+        {
+          "colId": "39PKC",
+          "rowNumber": 95291
+        },
+        {
+          "colId": "39PLN",
+          "rowNumber": 95299
+        }
+      ]
+    },
+    {
+      "textSha256": "c79fa9430c84f4d23f7b1360e6a8e959a18a9e8bb17e5cb9ce599651623a5a07",
+      "rows": [
+        {
+          "colId": "6H4F6",
+          "rowNumber": 90467
+        },
+        {
+          "colId": "6H4G2",
+          "rowNumber": 90476
+        }
+      ]
+    },
+    {
+      "textSha256": "c8d30493028cbc0bf6835cb68d4fcc50d7f5540f9fa6d6d75c9689e7a03df2c2",
+      "rows": [
+        {
+          "colId": "43GJW",
+          "rowNumber": 79958
+        },
+        {
+          "colId": "6RM4Y",
+          "rowNumber": 79999
+        }
+      ]
+    },
+    {
+      "textSha256": "cc159880a6c6cd489ca4ebc382834b01f33468b692bfe84c4c4e1bf513990114",
+      "rows": [
+        {
+          "colId": "3ZTX7",
+          "rowNumber": 102089
+        },
+        {
+          "colId": "6QZB8",
+          "rowNumber": 99781
+        }
+      ]
+    },
+    {
+      "textSha256": "cd45fcfdd67f8f172600a68c29f2ae89aaabb0647ead49aab8944399b5090dad",
+      "rows": [
+        {
+          "colId": "5D85K",
+          "rowNumber": 79384
+        },
+        {
+          "colId": "5D873",
+          "rowNumber": 80168
+        }
+      ]
+    },
+    {
+      "textSha256": "cf5f3416418754b9fefbf84c130794475f63b6d2cd47295255c3c6b8cb3aa7a3",
+      "rows": [
+        {
+          "colId": "36734",
+          "rowNumber": 77110
+        },
+        {
+          "colId": "36736",
+          "rowNumber": 77497
+        }
+      ]
+    },
+    {
+      "textSha256": "cf728ea1c013e37ec7d7bd4205706535399569b65fa5fbe2516e26acffb9923e",
+      "rows": [
+        {
+          "colId": "58HJR",
+          "rowNumber": 83124
+        },
+        {
+          "colId": "58HKB",
+          "rowNumber": 83127
+        },
+        {
+          "colId": "7D52L",
+          "rowNumber": 83126
+        }
+      ]
+    },
+    {
+      "textSha256": "d194400a5370a4964cfafb95af3fc6391d56f307a2c7485154e3093ff5e47c55",
+      "rows": [
+        {
+          "colId": "NZZ2",
+          "rowNumber": 88542
+        },
+        {
+          "colId": "P222",
+          "rowNumber": 88556
+        },
+        {
+          "colId": "P23J",
+          "rowNumber": 88573
+        },
+        {
+          "colId": "P23K",
+          "rowNumber": 88574
+        },
+        {
+          "colId": "P23L",
+          "rowNumber": 88575
+        },
+        {
+          "colId": "P27P",
+          "rowNumber": 88626
+        }
+      ]
+    },
+    {
+      "textSha256": "d1a6b32f23c05164acc608c0e4e64172ea56e8dc67fcfc335ed745eb5bd41cfe",
+      "rows": [
+        {
+          "colId": "6HVJJ",
+          "rowNumber": 90575
+        },
+        {
+          "colId": "6HVM9",
+          "rowNumber": 90578
+        },
+        {
+          "colId": "6HVV8",
+          "rowNumber": 90563
+        },
+        {
+          "colId": "6HVXK",
+          "rowNumber": 90568
+        },
+        {
+          "colId": "6HVXP",
+          "rowNumber": 90567
+        },
+        {
+          "colId": "6HVXS",
+          "rowNumber": 90566
+        },
+        {
+          "colId": "6HW93",
+          "rowNumber": 90564
+        },
+        {
+          "colId": "6HWQS",
+          "rowNumber": 97685
+        },
+        {
+          "colId": "6HX2N",
+          "rowNumber": 90608
+        },
+        {
+          "colId": "6HXH2",
+          "rowNumber": 90587
+        },
+        {
+          "colId": "6HXY2",
+          "rowNumber": 90627
+        },
+        {
+          "colId": "6HXYM",
+          "rowNumber": 90630
+        },
+        {
+          "colId": "6HXZG",
+          "rowNumber": 90633
+        },
+        {
+          "colId": "9XQFF",
+          "rowNumber": 90609
+        }
+      ]
+    },
+    {
+      "textSha256": "d1aee872f0f35787fc505a071fc23b1b1a4f442beb1dea2a5c2830be34ef793d",
+      "rows": [
+        {
+          "colId": "6NLKP",
+          "rowNumber": 77617
+        },
+        {
+          "colId": "6NNCL",
+          "rowNumber": 77912
+        }
+      ]
+    },
+    {
+      "textSha256": "d1b97c0c7d0335ee4b8c88cf176dff698ccb14b8767233cf9e2f8f493a69334f",
+      "rows": [
+        {
+          "colId": "4FJDR",
+          "rowNumber": 91357
+        },
+        {
+          "colId": "4FJDV",
+          "rowNumber": 87437
+        }
+      ]
+    },
+    {
+      "textSha256": "d22c00ef8573b49d9272b6a1e03146bb93fd62c3856b7973b931dc4b9516110a",
+      "rows": [
+        {
+          "colId": "3Y2RZ",
+          "rowNumber": 100216
+        },
+        {
+          "colId": "3Y2S4",
+          "rowNumber": 97015
+        }
+      ]
+    },
+    {
+      "textSha256": "d27f7677cb67a49f6f80d8f6f548f8daea66dcc7ad9f7e3216a2fe13fc956991",
+      "rows": [
+        {
+          "colId": "52GST",
+          "rowNumber": 77543
+        },
+        {
+          "colId": "6ZS2B",
+          "rowNumber": 77902
+        }
+      ]
+    },
+    {
+      "textSha256": "d344bd5b1e04a245cff843e8efe9b77ed2e0111ba0e7ca6af91d1758bb28fc6d",
+      "rows": [
+        {
+          "colId": "5WS58",
+          "rowNumber": 90073
+        },
+        {
+          "colId": "68RS7",
+          "rowNumber": 86956
+        },
+        {
+          "colId": "NQDY",
+          "rowNumber": 85784
+        },
+        {
+          "colId": "NQJ8",
+          "rowNumber": 85945
+        },
+        {
+          "colId": "NQJC",
+          "rowNumber": 85946
+        },
+        {
+          "colId": "NQY8",
+          "rowNumber": 87218
+        },
+        {
+          "colId": "NQYT",
+          "rowNumber": 87284
+        },
+        {
+          "colId": "NR5S",
+          "rowNumber": 87643
+        },
+        {
+          "colId": "NRC3",
+          "rowNumber": 88004
+        },
+        {
+          "colId": "NRDJ",
+          "rowNumber": 88159
+        },
+        {
+          "colId": "NRDZ",
+          "rowNumber": 88170
+        },
+        {
+          "colId": "NRMJ",
+          "rowNumber": 88764
+        },
+        {
+          "colId": "NRSB",
+          "rowNumber": 89013
+        }
+      ]
+    },
+    {
+      "textSha256": "d34ba6cf3b0f43d07faf75a6b54924cb34f7c44fcaa3e4d468625ce89d7401aa",
+      "rows": [
+        {
+          "colId": "M7NK",
+          "rowNumber": 88403
+        },
+        {
+          "colId": "M7P5",
+          "rowNumber": 88406
+        }
+      ]
+    },
+    {
+      "textSha256": "d3cf9d1fbc2cb9e9620dd4ed7b53fd9ce12a4ac3a06869e8d7fd4d2569dfd263",
+      "rows": [
+        {
+          "colId": "769DL",
+          "rowNumber": 77547
+        },
+        {
+          "colId": "VLGTD",
+          "rowNumber": 78117
+        }
+      ]
+    },
+    {
+      "textSha256": "d5affdf7c5770b7a36e5d4f6719b2c17e3cce6c875f99b047eb5da728798ad84",
+      "rows": [
+        {
+          "colId": "7S8ZV",
+          "rowNumber": 101888
+        },
+        {
+          "colId": "K74D",
+          "rowNumber": 101879
+        }
+      ]
+    },
+    {
+      "textSha256": "d6320994292aedbdd5e5c2be8d2ec92686cce74635a0a0ce680eee052a477afc",
+      "rows": [
+        {
+          "colId": "3672V",
+          "rowNumber": 77226
+        },
+        {
+          "colId": "3672Z",
+          "rowNumber": 76952
+        }
+      ]
+    },
+    {
+      "textSha256": "d7ce62391dbaa1e091fd88ab3797f4d9c8e1f685cdb3d68cf7c2b7f13126ce7e",
+      "rows": [
+        {
+          "colId": "LS3Z",
+          "rowNumber": 77447
+        },
+        {
+          "colId": "LSH8",
+          "rowNumber": 77602
+        }
+      ]
+    },
+    {
+      "textSha256": "da6e31100b00ffcdc0749b7e737d710c9e158483d19a09fc2be04931b52fbe88",
+      "rows": [
+        {
+          "colId": "3ZLV8",
+          "rowNumber": 98848
+        },
+        {
+          "colId": "3ZLW4",
+          "rowNumber": 100092
+        }
+      ]
+    },
+    {
+      "textSha256": "db95bf00c7464552f825417866f3311a4b22bd42d9e00f9e663915385a2307df",
+      "rows": [
+        {
+          "colId": "3ZLW9",
+          "rowNumber": 85576
+        },
+        {
+          "colId": "3ZLYH",
+          "rowNumber": 98851
+        },
+        {
+          "colId": "6R9X6",
+          "rowNumber": 85580
+        }
+      ]
+    },
+    {
+      "textSha256": "dcc6d9394472986a167be3604db5bf81f7a2a4b1740708d0da826ac08459c303",
+      "rows": [
+        {
+          "colId": "4KS96",
+          "rowNumber": 79837
+        },
+        {
+          "colId": "9DJ53",
+          "rowNumber": 100665
+        }
+      ]
+    },
+    {
+      "textSha256": "ddede7f65e39b5f340ca99b13ae1f4b8f745b40978cbc48a79c22d9b7c0ecb45",
+      "rows": [
+        {
+          "colId": "3Y2S3",
+          "rowNumber": 85548
+        },
+        {
+          "colId": "3Y2TH",
+          "rowNumber": 97017
+        },
+        {
+          "colId": "7369Z",
+          "rowNumber": 97022
+        }
+      ]
+    },
+    {
+      "textSha256": "de9802e6759e85aab64671e88a8698f36ae6d34ab37811a22473c384acc4ee38",
+      "rows": [
+        {
+          "colId": "6GSB8",
+          "rowNumber": 90442
+        },
+        {
+          "colId": "6GSCS",
+          "rowNumber": 90446
+        },
+        {
+          "colId": "6GSG7",
+          "rowNumber": 90469
+        },
+        {
+          "colId": "6H3W5",
+          "rowNumber": 90481
+        },
+        {
+          "colId": "6H4DC",
+          "rowNumber": 90466
+        },
+        {
+          "colId": "6H4FJ",
+          "rowNumber": 90478
+        }
+      ]
+    },
+    {
+      "textSha256": "e0f8ea572c4fe239a16489c4fe8a2981de03fd842fe1f3ca316eda0f6ea8e2bf",
+      "rows": [
+        {
+          "colId": "K98J",
+          "rowNumber": 88204
+        },
+        {
+          "colId": "K9B3",
+          "rowNumber": 88223
+        }
+      ]
+    },
+    {
+      "textSha256": "e114d93e98c0af0cda8facfeedbef6f5f9b0b4756f39f114e5d719e0b9b2f419",
+      "rows": [
+        {
+          "colId": "3BB4G",
+          "rowNumber": 90490
+        },
+        {
+          "colId": "6GSFP",
+          "rowNumber": 90474
+        }
+      ]
+    },
+    {
+      "textSha256": "e121bc81c3a8b5f3dcfcde1261f6b7a0b20bdce5855dc48e086835616b457ae8",
+      "rows": [
+        {
+          "colId": "3673F",
+          "rowNumber": 78495
+        },
+        {
+          "colId": "3673N",
+          "rowNumber": 78604
+        }
+      ]
+    },
+    {
+      "textSha256": "e142329b88647a0ff238030879ae652033217423d1cbd0566e2df59d44294b48",
+      "rows": [
+        {
+          "colId": "6GSCF",
+          "rowNumber": 90457
+        },
+        {
+          "colId": "6H3W2",
+          "rowNumber": 90493
+        },
+        {
+          "colId": "6H4DY",
+          "rowNumber": 90461
+        }
+      ]
+    },
+    {
+      "textSha256": "e1c45808e689db5be2155680ad345605b659150b5e5bfb52827f457bd88cce15",
+      "rows": [
+        {
+          "colId": "3P4XW",
+          "rowNumber": 80885
+        },
+        {
+          "colId": "3P55F",
+          "rowNumber": 80916
+        },
+        {
+          "colId": "3P55J",
+          "rowNumber": 80917
+        },
+        {
+          "colId": "3P55Q",
+          "rowNumber": 80920
+        },
+        {
+          "colId": "3P56F",
+          "rowNumber": 80927
+        },
+        {
+          "colId": "3P596",
+          "rowNumber": 80947
+        },
+        {
+          "colId": "3P5B7",
+          "rowNumber": 80957
+        },
+        {
+          "colId": "3P5B8",
+          "rowNumber": 80958
+        }
+      ]
+    },
+    {
+      "textSha256": "e246bbdae27b3e3bc72ee092a4d739045e4cb5db0cb7c31d42e333672938e2b6",
+      "rows": [
+        {
+          "colId": "4ZM76",
+          "rowNumber": 96534
+        },
+        {
+          "colId": "4ZM9Z",
+          "rowNumber": 87000
+        }
+      ]
+    },
+    {
+      "textSha256": "e2ac370266d752cd38e77a6535b1fe9186a27a3521f1aa29ab50988f02ccacf6",
+      "rows": [
+        {
+          "colId": "HKNK",
+          "rowNumber": 98102
+        },
+        {
+          "colId": "HL5P",
+          "rowNumber": 98361
+        }
+      ]
+    },
+    {
+      "textSha256": "e441d09598b0075772db5837159452318012c7ec4a1068cdcf3f424e73866fae",
+      "rows": [
+        {
+          "colId": "43GKY",
+          "rowNumber": 79962
+        },
+        {
+          "colId": "9DDC7",
+          "rowNumber": 99502
+        }
+      ]
+    },
+    {
+      "textSha256": "e44431044514e383272ecab8ce1c9e8cc74a1de811c7cc4ca0d14053426fc656",
+      "rows": [
+        {
+          "colId": "3P59J",
+          "rowNumber": 80950
+        },
+        {
+          "colId": "6MSTP",
+          "rowNumber": 80974
+        },
+        {
+          "colId": "6MT5P",
+          "rowNumber": 80975
+        }
+      ]
+    },
+    {
+      "textSha256": "e446264bb42c251d18c0ab78772ffc1df8845e185fdcefb7ef45c644f2dee45a",
+      "rows": [
+        {
+          "colId": "3SKSC",
+          "rowNumber": 80786
+        },
+        {
+          "colId": "3SKWL",
+          "rowNumber": 80789
+        },
+        {
+          "colId": "3SKYF",
+          "rowNumber": 80791
+        },
+        {
+          "colId": "3SKYR",
+          "rowNumber": 80821
+        },
+        {
+          "colId": "3SKZJ",
+          "rowNumber": 80792
+        },
+        {
+          "colId": "3SKZR",
+          "rowNumber": 79695
+        },
+        {
+          "colId": "3SL24",
+          "rowNumber": 80793
+        },
+        {
+          "colId": "3SL2W",
+          "rowNumber": 80794
+        },
+        {
+          "colId": "6P32R",
+          "rowNumber": 80788
+        },
+        {
+          "colId": "6P332",
+          "rowNumber": 80787
+        },
+        {
+          "colId": "6P346",
+          "rowNumber": 80822
+        },
+        {
+          "colId": "6P348",
+          "rowNumber": 80790
+        },
+        {
+          "colId": "L2BDK",
+          "rowNumber": 79690
+        }
+      ]
+    },
+    {
+      "textSha256": "e537df73a8c67720378613fb90b90ec1222af1bdc0ddb950414cd7627f461629",
+      "rows": [
+        {
+          "colId": "5WVJ4",
+          "rowNumber": 88738
+        },
+        {
+          "colId": "PZHG",
+          "rowNumber": 88741
+        }
+      ]
+    },
+    {
+      "textSha256": "e576e6bba7ee2503447000d02b3664e38225b5f750f67440c79b7d2273c56a79",
+      "rows": [
+        {
+          "colId": "3673K",
+          "rowNumber": 96414
+        },
+        {
+          "colId": "3673T",
+          "rowNumber": 77804
+        }
+      ]
+    },
+    {
+      "textSha256": "e6c2d5f40aacbfca79f573453c207d171f2c726a13d28469d77ad0bdf1096d62",
+      "rows": [
+        {
+          "colId": "545PT",
+          "rowNumber": 83037
+        },
+        {
+          "colId": "546D5",
+          "rowNumber": 83040
+        },
+        {
+          "colId": "546S2",
+          "rowNumber": 83042
+        }
+      ]
+    },
+    {
+      "textSha256": "e7e1c5914c0ab57b9a06db4937d9b61e48856d656bc34cf501a8449ce63959c8",
+      "rows": [
+        {
+          "colId": "43G6B",
+          "rowNumber": 80397
+        },
+        {
+          "colId": "43GJ7",
+          "rowNumber": 80396
+        }
+      ]
+    },
+    {
+      "textSha256": "e85f44a532bd8ba7324ccce0e06bc913e957eaa93478518ab59fc3e4fe2ef828",
+      "rows": [
+        {
+          "colId": "3NTNJ",
+          "rowNumber": 77624
+        },
+        {
+          "colId": "3NTNN",
+          "rowNumber": 78657
+        }
+      ]
+    },
+    {
+      "textSha256": "ea4e5a5e294fe15fa767f121f83ec8199694d3845dda2f087645431e59427923",
+      "rows": [
+        {
+          "colId": "6X84C",
+          "rowNumber": 79843
+        },
+        {
+          "colId": "797PZ",
+          "rowNumber": 79025
+        }
+      ]
+    },
+    {
+      "textSha256": "ea60a2ed3bcb41b205be851f0811354993a35ec4a6b986041f3722a0ac2aa53d",
+      "rows": [
+        {
+          "colId": "6BCLL",
+          "rowNumber": 96227
+        },
+        {
+          "colId": "9CZRW",
+          "rowNumber": 99185
+        }
+      ]
+    },
+    {
+      "textSha256": "eadf8c5052f0f93a27252dc38202a352360e8475f9248d9d88aec259d02ac99c",
+      "rows": [
+        {
+          "colId": "3ZWCT",
+          "rowNumber": 93864
+        },
+        {
+          "colId": "3ZWCV",
+          "rowNumber": 93865
+        }
+      ]
+    },
+    {
+      "textSha256": "eb4a8cf28509f4c7c2013c7fbafee315e2d9c458f3384550d02b7ba329ae0fa2",
+      "rows": [
+        {
+          "colId": "6W2N6",
+          "rowNumber": 78782
+        },
+        {
+          "colId": "6W2N7",
+          "rowNumber": 78784
+        }
+      ]
+    },
+    {
+      "textSha256": "ef2d585878a5dc870e0a0c862dde11f2d036f73eb62d2cfca247032676f52490",
+      "rows": [
+        {
+          "colId": "3P5DS",
+          "rowNumber": 80970
+        },
+        {
+          "colId": "6MSTT",
+          "rowNumber": 80955
+        }
+      ]
+    },
+    {
+      "textSha256": "f030afcb0c1ae936389a3fbac991e170f95de0e856f8dd5cb724068230fc2e61",
+      "rows": [
+        {
+          "colId": "4XSJS",
+          "rowNumber": 92111
+        },
+        {
+          "colId": "4XSKB",
+          "rowNumber": 92113
+        }
+      ]
+    },
+    {
+      "textSha256": "f0363c37aa676e84228305b3a5fabc3f50ca26385e788d0febb640d234ec6a05",
+      "rows": [
+        {
+          "colId": "43QHY",
+          "rowNumber": 81561
+        },
+        {
+          "colId": "43QJ3",
+          "rowNumber": 81562
+        }
+      ]
+    },
+    {
+      "textSha256": "f30e51e6ac68f20d2d3eb58fdb3dd91ccbd135d52418a0526aa1b3b07ac68976",
+      "rows": [
+        {
+          "colId": "3YTX7",
+          "rowNumber": 98416
+        },
+        {
+          "colId": "3YTXV",
+          "rowNumber": 98419
+        }
+      ]
+    },
+    {
+      "textSha256": "f316819a6788036bbc62e4050c9460b1f78374288741c8e490dbaa7c6f8c2817",
+      "rows": [
+        {
+          "colId": "4SSMS",
+          "rowNumber": 80054
+        },
+        {
+          "colId": "797SD",
+          "rowNumber": 79847
+        }
+      ]
+    },
+    {
+      "textSha256": "f427c478170e943db24800bd74d84cfc33d3984617433ac1155eb9778665958c",
+      "rows": [
+        {
+          "colId": "3HKD4",
+          "rowNumber": 95978
+        },
+        {
+          "colId": "3HKDZ",
+          "rowNumber": 95979
+        },
+        {
+          "colId": "3HKGD",
+          "rowNumber": 95984
+        }
+      ]
+    },
+    {
+      "textSha256": "f42cef3ca37c79b7f4b376ece3c855ff8f0b3791f82040e897ef509f25c8be4b",
+      "rows": [
+        {
+          "colId": "W9G5",
+          "rowNumber": 80634
+        },
+        {
+          "colId": "W9K9",
+          "rowNumber": 80639
+        }
+      ]
+    },
+    {
+      "textSha256": "f470bc022952932dc412ecc3d58a2f7833e713f968537c66e3f80a03c6b169d4",
+      "rows": [
+        {
+          "colId": "3P4VN",
+          "rowNumber": 80872
+        },
+        {
+          "colId": "3P523",
+          "rowNumber": 80898
+        }
+      ]
+    },
+    {
+      "textSha256": "f52fc9ad51a7de51b7d7fc9884889c9b53cf74890d99150bb92d43038c4eff0d",
+      "rows": [
+        {
+          "colId": "68FJV",
+          "rowNumber": 80815
+        },
+        {
+          "colId": "L3TS",
+          "rowNumber": 80116
+        },
+        {
+          "colId": "L3ZC",
+          "rowNumber": 80802
+        },
+        {
+          "colId": "L473",
+          "rowNumber": 80807
+        },
+        {
+          "colId": "L49S",
+          "rowNumber": 80812
+        },
+        {
+          "colId": "L4D8",
+          "rowNumber": 80813
+        }
+      ]
+    },
+    {
+      "textSha256": "f54c39722fcf47f45bc60e3c4efa502a6fa5c4985b6315ec0713a2090cb9aba8",
+      "rows": [
+        {
+          "colId": "44CHB",
+          "rowNumber": 96417
+        },
+        {
+          "colId": "44CHM",
+          "rowNumber": 96420
+        }
+      ]
+    },
+    {
+      "textSha256": "f5f71106a59416215f79ef4baf42552b09bf01c83676626900926aff57dd7c51",
+      "rows": [
+        {
+          "colId": "43G4N",
+          "rowNumber": 79698
+        },
+        {
+          "colId": "43G54",
+          "rowNumber": 79909
+        }
+      ]
+    },
+    {
+      "textSha256": "f633022508ddffe6e6ee9575f21c3b6b8e0ee45ee71111935472acd0f4b6ee40",
+      "rows": [
+        {
+          "colId": "7DLNR",
+          "rowNumber": 100831
+        },
+        {
+          "colId": "7DLRC",
+          "rowNumber": 100836
+        },
+        {
+          "colId": "7DM43",
+          "rowNumber": 84994
+        }
+      ]
+    },
+    {
+      "textSha256": "f7d469de7f00928f7276d5908145b975c2a0087087217a48bc61dc69cc27301e",
+      "rows": [
+        {
+          "colId": "3CVP2",
+          "rowNumber": 91319
+        },
+        {
+          "colId": "3CVQ8",
+          "rowNumber": 91320
+        },
+        {
+          "colId": "3CVQD",
+          "rowNumber": 91321
+        },
+        {
+          "colId": "3CVQN",
+          "rowNumber": 91322
+        },
+        {
+          "colId": "3CVQS",
+          "rowNumber": 91323
+        },
+        {
+          "colId": "3CVQY",
+          "rowNumber": 91324
+        },
+        {
+          "colId": "3CVQZ",
+          "rowNumber": 90547
+        },
+        {
+          "colId": "3CVRS",
+          "rowNumber": 91325
+        },
+        {
+          "colId": "3CVRX",
+          "rowNumber": 91326
+        },
+        {
+          "colId": "3CVRZ",
+          "rowNumber": 91327
+        },
+        {
+          "colId": "3CVS2",
+          "rowNumber": 91328
+        },
+        {
+          "colId": "3CVSF",
+          "rowNumber": 91330
+        },
+        {
+          "colId": "3CVSV",
+          "rowNumber": 91331
+        },
+        {
+          "colId": "6HD6B",
+          "rowNumber": 91329
+        },
+        {
+          "colId": "6HD6C",
+          "rowNumber": 87349
+        },
+        {
+          "colId": "7W564",
+          "rowNumber": 103200
+        }
+      ]
+    },
+    {
+      "textSha256": "fa3cb25dabc6f8c77e0f441856e3f18d56339de2daeb5cfd7d52866216472bd8",
+      "rows": [
+        {
+          "colId": "4K92S",
+          "rowNumber": 78921
+        },
+        {
+          "colId": "4K94G",
+          "rowNumber": 78929
+        },
+        {
+          "colId": "4K94T",
+          "rowNumber": 96433
+        }
+      ]
+    },
+    {
+      "textSha256": "fab0f83339e4e878fab07b17d8b9990cc3cdeff14f80e870c62bd9e6539c5a33",
+      "rows": [
+        {
+          "colId": "7C5V5",
+          "rowNumber": 83054
+        },
+        {
+          "colId": "7C66V",
+          "rowNumber": 83053
+        }
+      ]
+    },
+    {
+      "textSha256": "facee1bf2fab6cf002480e403003dde90277087d9f753d4ec330714bb1600158",
+      "rows": [
+        {
+          "colId": "3P54P",
+          "rowNumber": 80913
+        },
+        {
+          "colId": "3P56C",
+          "rowNumber": 80925
+        },
+        {
+          "colId": "3P57T",
+          "rowNumber": 80933
+        },
+        {
+          "colId": "3P582",
+          "rowNumber": 80934
+        },
+        {
+          "colId": "3P5DR",
+          "rowNumber": 80969
+        }
+      ]
+    },
+    {
+      "textSha256": "faf1ac395f5049ca816b34c211870267f706f777c7602920c0a3b74c363f7a30",
+      "rows": [
+        {
+          "colId": "4C69S",
+          "rowNumber": 92418
+        },
+        {
+          "colId": "4C69V",
+          "rowNumber": 81915
+        },
+        {
+          "colId": "4C69Y",
+          "rowNumber": 81916
+        },
+        {
+          "colId": "6TJQN",
+          "rowNumber": 81919
+        },
+        {
+          "colId": "75K2M",
+          "rowNumber": 81918
+        },
+        {
+          "colId": "75K2N",
+          "rowNumber": 81920
+        },
+        {
+          "colId": "7XTQ6",
+          "rowNumber": 81917
+        }
+      ]
+    },
+    {
+      "textSha256": "fcaf7b4397d9b411dcb8bd4011ac44da4342c2fbacd57b8e7a9af5751511892e",
+      "rows": [
+        {
+          "colId": "52DCQ",
+          "rowNumber": 100289
+        },
+        {
+          "colId": "52DD3",
+          "rowNumber": 98854
+        }
+      ]
+    },
+    {
+      "textSha256": "fd4c622b3b25ae4321f799154e39faf6ba19f0cf7441c3f140eb7504beee0e65",
+      "rows": [
+        {
+          "colId": "3Y2TT",
+          "rowNumber": 85555
+        },
+        {
+          "colId": "6R5WC",
+          "rowNumber": 85550
+        },
+        {
+          "colId": "6R5WF",
+          "rowNumber": 85549
+        }
+      ]
+    },
+    {
+      "textSha256": "fdf1b1b52deab2d20da39b6911e7e81a01fa4d4ec0fe56816d2f96fd5c346292",
+      "rows": [
+        {
+          "colId": "5WH4W",
+          "rowNumber": 96328
+        },
+        {
+          "colId": "5WH53",
+          "rowNumber": 97558
+        },
+        {
+          "colId": "5WH58",
+          "rowNumber": 99767
+        },
+        {
+          "colId": "LB25",
+          "rowNumber": 96327
+        },
+        {
+          "colId": "LB2C",
+          "rowNumber": 96330
+        },
+        {
+          "colId": "LB2G",
+          "rowNumber": 97500
+        },
+        {
+          "colId": "LB2K",
+          "rowNumber": 96332
+        }
+      ]
+    },
+    {
+      "textSha256": "fe6665aabbc333c110c41f232d2e2df5687fe47dd114a5a5f4f955c8e4e2f3ad",
+      "rows": [
+        {
+          "colId": "4ZM63",
+          "rowNumber": 96531
+        },
+        {
+          "colId": "4ZM6Z",
+          "rowNumber": 85258
+        }
+      ]
+    },
+    {
+      "textSha256": "ff0e842c5d852ece9a67e2c81d3611faa05ab8c8caf97f7b23cb8f4d8197ed0b",
+      "rows": [
+        {
+          "colId": "5D84L",
+          "rowNumber": 79378
+        },
+        {
+          "colId": "5D86G",
+          "rowNumber": 79385
+        },
+        {
+          "colId": "7GH4K",
+          "rowNumber": 80144
+        }
+      ]
+    },
+    {
+      "textSha256": "ff9ccf8e6fec0c75a18a87cbcc95fc0c079ebcf312e2ce7ad6c1f78342305b96",
+      "rows": [
+        {
+          "colId": "45VJK",
+          "rowNumber": 96733
+        },
+        {
+          "colId": "45VJL",
+          "rowNumber": 100374
+        },
+        {
+          "colId": "45VK2",
+          "rowNumber": 84154
+        }
+      ]
+    },
+    {
+      "textSha256": "ffea78617831e375f493113681d60987c4d93cc08e982e4363679790a1c25311",
+      "rows": [
+        {
+          "colId": "47SDH",
+          "rowNumber": 102509
+        },
+        {
+          "colId": "47SDM",
+          "rowNumber": 102472
+        }
+      ]
+    }
+  ],
+  "source": {
+    "path": "data/sources/brazil-flora-descriptions.jsonl.br",
+    "compressedSha256": "87c4eb263ae64e21b1c7f009276eb941c6c51a892fe79ec3e46c5779200b879d",
+    "decodedSha256": "7fbccc2e345c3d8d35af8299d8e25a95a39677e76bf221d7e3fc5bd57bcbc470",
+    "ledgerPath": "data/sources/brazil-flora-descriptions-import-ledger.json",
+    "ledgerSha256": "b6899ca2a9e8349f0680f82ae679cbee3a3c57093c67ec17beb780a488c259b8",
+    "archiveSha256": "79455efc837678d0812c4f83247c9f024ab4d8dae43fe72f5c40b2302d50c923",
+    "sourceVersion": "WFO Brazilian Flora 2020 archive; embedded EML v393.147",
+    "retrievedAt": "2026-09-06",
+    "datasetDoi": "10.15468/1mtkaw",
+    "declaredLicense": "CC BY 4.0",
+    "licenseAssessment": "aggregate-declaration-only"
+  },
+  "identity": {
+    "crosswalkPath": "data/sources/wfo-plant-crosswalk-col26.8.json.br",
+    "crosswalkDecodedSha256": "980144add135db3fa709392552534e19e33bc45605a97f5bafeb4d239d1621af",
+    "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "acceptedSpeciesMappingsVerified": 27593,
+    "parentChainsFrozenFromPinnedRegistry": 27593
+  },
+  "baseIndexSha256": "30ca9ab65886d29dea1a433b8d6248e93d705eafd57941c82a816ce518f20982",
+  "finalIndexSha256": "7a16ec1475ef106d23136c3c39e6af6984f0146567dd0b1e8df6a5e1612ee9b6",
+  "dossierShard": {
+    "path": "data/knowledge/catalogue-dossiers-brazil-flora-batch-2026-09-27.jsonl.br",
+    "recordCount": 27593,
+    "decodedSha256": "34762dbf46e6f0fc61e75782185b22748a43cf4a8c561067fe715adcb707d703",
+    "compressedSha256": "87d7b07eb5869cdbeca453074ed81fbb501c7c91aaba7085ae5de7b83b96a614",
+    "decodedBytes": 229112262,
+    "compressedBytes": 3784161,
+    "encoding": "brotli-jsonl",
+    "brotliQuality": 11
+  }
+}

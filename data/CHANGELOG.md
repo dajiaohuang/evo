@@ -1,5 +1,18 @@
 # Dataset changelog
 
+## Unreleased Brazil Flora dossier increment — 2026-09-27
+
+- Added 27,593 incomplete COL26.8 species dossiers from exact Brazilian Flora
+  2020 source-to-COL mappings. The batch retains one Portuguese source field per
+  morphology claim, uses concrete habitat rows only as partial ecology claims,
+  and leaves habit, unknown habitat values, and cross-species duplicate
+  morphology text out of biological claims. Duplicate text affecting 1,048
+  species is separately hashed for review. Dataset rights remain
+  aggregate-declaration-only; complete dossier and external review counts stay
+  at zero. The full queue and dossier archive remain outside App native-core
+  and GitHub Pages preview, which share the same curated selection including
+  Primates.
+
 ## Unreleased FNA dossier increment — 2026-09-27
 
 - Added an incomplete, source-bounded dossier for *Pinus albicaulis* (COL26.8
