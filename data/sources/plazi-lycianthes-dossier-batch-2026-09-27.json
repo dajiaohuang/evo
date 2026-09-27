@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "batchId": "plazi-lycianthes-dossier-batch-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-27",
+  "source": {
+    "provider": "Plazi TreatmentBank",
+    "projectionPath": "data/sources/plazi-descriptions.jsonl.gz",
+    "projectionSha256": "466773ce5eca7e77627dd13903e074c6446eb2d91ba3eaaa53c79f10ebd3cda0",
+    "archiveInputKey": "lycianthes",
+    "archiveInputSha256": "6720ee722d1d93828434eb0264d2b7b4d43dbec62135bb02313298afeba1788e",
+    "archiveSha256": "19af36d18abcf3f356cbb004c07efdd099e7f5fdd5c904a3b78fae53a4f057d8",
+    "license": "CC0 1.0 for extracted Plazi archive records, as declared in the committed import ledger; the linked publication license is unknown.",
+    "licenseAssessment": "aggregate-declaration-only",
+    "archiveZipAvailableInCheckout": false,
+    "rightsBoundary": "The source ZIP is absent from this checkout, so its embedded EML was not independently rechecked for this batch. The committed import ledger and source documentation retain the prior CC0 declaration for extracted archive records. This does not establish reuse rights for the cited article, PDF, or figures."
+  },
+  "article": {
+    "title": "Three new species of Lycianthes (Solanaceae) from Panama",
+    "authors": "Ellen Dean, Jennifer Poore, and Hannah Kang",
+    "citation": "Dean, Ellen, Poore, Jennifer, Kang, Hannah (2020): Three new species of Lycianthes (Solanaceae) from Panama. Phytotaxa 471 (2): 113-126.",
+    "doi": "10.11646/phytotaxa.471.2.2",
+    "url": "https://doi.org/10.11646/phytotaxa.471.2.2",
+    "publishedAt": "2020",
+    "license": "Unknown; item-level reuse rights for article text, PDF, and figures were not verified.",
+    "licenseAssessment": "unknown"
+  },
+  "claimPolicy": "Claims are concise English paraphrases of one exact Plazi description-extension row each. They retain the publication's stated comparison, localities, habitat, elevation, and voucher-month scope; they do not assert global range, full phenology, or whole-species variation. The DOI source is cited bibliographically with unknown item-level rights; no article prose, PDF, or figure is reproduced.",
+  "records": [
+    {
+      "colId": "7X2WL",
+      "scientificName": "Lycianthes coloradensis",
+      "sourceName": "Lycianthes coloradensis E. Dean and H. Kang",
+      "wfoId": "wfo-1000023513",
+      "treatmentId": "A31687B7FF91100DFF1F19C8D9CDA86B",
+      "claims": {
+        "morphology": {
+          "rowNumber": 3,
+          "sourceType": "diagnosis",
+          "text": "In the treatment's comparison with Lycianthes purpusii, L. coloradensis is distinguished by star-shaped hairs whose rays are often rebranched, shorter calyx appendages, nearly equal stamens, and smaller reported fruit (up to 12 mm long and 15 mm in diameter).",
+          "placeTimeScope": "Comparative diagnosis in the 2020 taxonomic treatment, pages 116-117. The traits are stated relative to L. purpusii and are not estimates of variation across all populations.",
+          "lifeStatus": "The claim is bounded to the taxonomic material discussed in the diagnosis; the paragraph does not characterize the provenance or life status of every individual."
+        },
+        "distribution": {
+          "rowNumber": 5,
+          "sourceType": "distribution",
+          "text": "The treatment reports L. coloradensis as endemic to Panama, with localities associated with the Ngäbe-Buglé comarca and the historical Bocas del Toro–Chiriquí provincial boundary.",
+          "placeTimeScope": "As-published distribution statement in the 2020 treatment, pages 116-117; it is not a current exhaustive range survey or an independently validated range map.",
+          "lifeStatus": "The article's endemicity and locality wording is reported as attributed; the source does not separately classify every occurrence as wild, cultivated, or escaped."
+        },
+        "ecology": {
+          "rowNumber": 5,
+          "sourceType": "distribution",
+          "text": "The article associates reported records with lower montane rainforest, cloud forest, and disturbed primary forest at 1,100-2,200 m elevation.",
+          "placeTimeScope": "Habitat and elevation reported for the treatment's cited localities in Panama, pages 116-117; this is not a complete ecological niche or sampling envelope.",
+          "lifeStatus": "The treatment describes forest settings and taxonomic collections; it does not assess cultivated or escaped populations."
+        },
+        "lifeHistory": {
+          "rowNumber": 6,
+          "sourceType": "biology_ecology",
+          "text": "The treatment reports flowering specimens collected in April and May and mature-fruit specimens collected from March through November.",
+          "placeTimeScope": "Collection-month summary for specimens cited in the 2020 treatment, pages 116-117; collection months do not establish continuous or complete annual phenology.",
+          "lifeStatus": "The statement concerns dated taxonomic specimens; population status and complete seasonal coverage were not assessed."
+        }
+      }
+    },
+    {
+      "colId": "7X2WM",
+      "scientificName": "Lycianthes fortunensis",
+      "sourceName": "Lycianthes fortunensis J. Poore & E. Dean",
+      "wfoId": "wfo-1000023514",
+      "treatmentId": "A31687B7FF971000FF1F1C6FDF42AC47",
+      "claims": {
+        "morphology": {
+          "rowNumber": 11,
+          "sourceType": "diagnosis",
+          "text": "In its comparison with Lycianthes multiflora, the treatment distinguishes L. fortunensis by a rounded flower-bud tip, an elongated scarious and lobed calyx margin, and absence of calyx appendages.",
+          "placeTimeScope": "Comparative diagnosis in the 2020 taxonomic treatment, pages 118-121. The traits are stated relative to L. multiflora and are not estimates of variation across all populations.",
+          "lifeStatus": "The claim is bounded to the taxonomic material discussed in the diagnosis; the paragraph does not characterize the provenance or life status of every individual."
+        },
+        "distribution": {
+          "rowNumber": 13,
+          "sourceType": "distribution",
+          "text": "The treatment reports L. fortunensis as endemic to Panama, with localities in Chiriquí, Veraguas, and the Ngäbe-Buglé comarca; an earlier locality was recorded under Bocas del Toro Province.",
+          "placeTimeScope": "As-published distribution statement in the 2020 treatment, pages 118-121; it is not a current exhaustive range survey or an independently validated range map.",
+          "lifeStatus": "The article's endemicity and locality wording is reported as attributed; the source does not separately classify every occurrence as wild, cultivated, or escaped."
+        },
+        "ecology": {
+          "rowNumber": 13,
+          "sourceType": "distribution",
+          "text": "The article associates reported records with cloud and premontane forests, often on slopes or beside roads and trails, at 730-1,645 m elevation.",
+          "placeTimeScope": "Habitat and elevation reported for the treatment's cited localities in Panama, pages 118-121; this is not a complete ecological niche or sampling envelope.",
+          "lifeStatus": "The treatment describes forest settings and taxonomic collections; it does not assess cultivated or escaped populations."
+        },
+        "lifeHistory": {
+          "rowNumber": 14,
+          "sourceType": "biology_ecology",
+          "text": "The treatment reports flowering specimens collected from February through April and mature-fruit specimens collected from January through September.",
+          "placeTimeScope": "Collection-month summary for specimens cited in the 2020 treatment, pages 118-121; collection months do not establish continuous or complete annual phenology.",
+          "lifeStatus": "The statement concerns dated taxonomic specimens; population status and complete seasonal coverage were not assessed."
+        }
+      }
+    },
+    {
+      "colId": "7X2WR",
+      "scientificName": "Lycianthes talamancensis",
+      "sourceName": "Lycianthes talamancensis E. Dean & J. Poore",
+      "wfoId": "wfo-1000023516",
+      "treatmentId": "A31687B7FF9B1005FF1F1B6BDBD0AE07",
+      "sourceMappingNote": "Plazi row 21 contains the source prose spelling talamancesis. The retained sourceColUsageId, treatment taxon ID, sourceScientificName, COL26.8 accepted usage, and WFO crosswalk all identify Lycianthes talamancensis; the dossier uses that exact accepted name without rewriting the retained source row.",
+      "claims": {
+        "morphology": {
+          "rowNumber": 19,
+          "sourceType": "diagnosis",
+          "text": "Compared with Lycianthes hortulana, the treatment describes L. talamancensis as having longer pedicels (15-22 mm in flower and 27-35 mm in fruit), an entire corolla with moderately hairy adaxial lobes, and longer stamen filaments (1-2 mm).",
+          "placeTimeScope": "Comparative diagnosis in the 2020 taxonomic treatment, pages 122-124. The traits are stated relative to L. hortulana and are not estimates of variation across all populations.",
+          "lifeStatus": "The claim is bounded to the taxonomic material discussed in the diagnosis; the paragraph does not characterize the provenance or life status of every individual."
+        },
+        "distribution": {
+          "rowNumber": 21,
+          "sourceType": "distribution",
+          "text": "The treatment reports L. talamancensis as endemic to Panama, with cited localities in Bocas del Toro and Chiriquí provinces.",
+          "placeTimeScope": "As-published distribution statement in the 2020 treatment, pages 122-124; it is not a current exhaustive range survey or an independently validated range map.",
+          "lifeStatus": "The article's endemicity and locality wording is reported as attributed; the source does not separately classify every occurrence as wild, cultivated, or escaped."
+        },
+        "ecology": {
+          "rowNumber": 21,
+          "sourceType": "distribution",
+          "text": "The treatment associates reported localities with cloud and wet forest at 2,200-2,850 m, and names Quercus, Podocarpus, Magnolia, Symplocos, and Chusquea in the understory context.",
+          "placeTimeScope": "Habitat and elevation reported for the treatment's cited localities in Panama, pages 122-124; the named plants are contextual co-occurrences, not asserted as obligate associates.",
+          "lifeStatus": "The treatment describes forest settings and taxonomic collections; it does not assess cultivated or escaped populations."
+        },
+        "lifeHistory": {
+          "rowNumber": 22,
+          "sourceType": "biology_ecology",
+          "text": "The treatment reports flowering specimens and nearly mature, still-green fruit specimens collected from January through March.",
+          "placeTimeScope": "Collection-month summary for specimens cited in the 2020 treatment, pages 122-124; collection months do not establish continuous or complete annual phenology.",
+          "lifeStatus": "The statement concerns dated taxonomic specimens; population status and complete seasonal coverage were not assessed."
+        }
+      }
+    }
+  ],
+  "facetGaps": {
+    "morphology": "Only a comparative taxonomic diagnosis is represented; within-species variation, ontogeny, broader populations, and additional anatomical systems remain unassessed.",
+    "lifeHistory": "Voucher collection months do not establish complete flowering or fruiting seasons, reproductive success, pollination, or a full life cycle.",
+    "ecology": "The treatment slice provides habitat and elevation context only; environmental tolerances, interactions, and sampling completeness remain unassessed.",
+    "evolution": "No phylogenetic or population-genetic evidence is assessed in this source slice.",
+    "distribution": "The article-scoped localities and endemicity statement do not establish a current, complete range or temporal trend.",
+    "fossil": "No fossil evidence is assessed in this source slice.",
+    "conservation": "No conservation assessment, population trend, or threat evaluation is assessed in this source slice."
+  }
+}

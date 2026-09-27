@@ -49,13 +49,33 @@ abbreviations are not interchangeable fields.
 
 The three Lycianthes species from Dean, Poore & Kang (2020) are exact accepted
 COL26.8 records 7X2WL, 7X2WM and 7X2WR, with WFO 2026-06 identifiers
-wfo-1000023513, wfo-1000023514 and wfo-1000023516. Their Plazi archive declares
-CC0 and contributes 24 English description rows. The original Plazi source
+wfo-1000023513, wfo-1000023514 and wfo-1000023516. The committed import ledger
+records CC0 for extracted archive data and contributes 24 English description
+rows. The original Plazi source
 types (materials_examined, diagnosis, description, distribution,
 biology_ecology, etymology and discussion), treatment IDs, reference IDs and
 page ranges are retained; canonical display types are accompanied by the
 original `sourceType`. This is article-scoped evidence, not a complete species
 dossier, and the linked figures and publication PDF are not redistributed.
+
+## Lycianthes species dossiers
+
+The 2026-09-27 batch adds incomplete, not-reviewed dossiers for all three
+accepted usages. Each has one comparative morphology claim, one voucher-month
+life-history claim, one habitat/elevation claim and one attributed distribution
+claim; the remaining three facets are not assessed. Exact rows, claim wording,
+COL/WFO identity links, source scopes and checksums are recorded in the
+[batch manifest](../data/knowledge/catalogue-dossiers-plazi-lycianthes-batch-2026-09-27.batch-manifest.json)
+and [reviewed input](../data/sources/plazi-lycianthes-dossier-batch-2026-09-27.json).
+
+For this dossier batch, the extracted-record CC0 declaration is taken from the
+committed Plazi import ledger and source documentation. The source ZIP is not
+present in this checkout, so its embedded EML was not rechecked during this
+batch. The cited article's item-level reuse rights remain unknown; claims are
+short paraphrases, and no article prose, PDF, or figures are redistributed.
+Plazi row 21 spells the prose name as `talamancesis`; its retained exact
+`sourceColUsageId`, treatment, authorship and WFO identifier map to accepted
+COL26.8 `Lycianthes talamancensis` (`7X2WR`), which is used in the dossier.
 
 The Cestrum treatment from Monro (2012), Plazi dataset
 `0879c1f1-55a2-47fb-8fa8-7ca0fa3e8e92`, contributes 40 English rows for eight

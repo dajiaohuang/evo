@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "batchId": "plazi-lycianthes-dossier-batch-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/plazi-lycianthes-dossier-batch-2026-09-27.json",
+    "sha256": "914572347021c9f2857e5c03249d0d1254a68254255978e69d802bce21ef4511"
+  },
+  "sourceProjection": {
+    "path": "data/sources/plazi-descriptions.jsonl.gz",
+    "sha256": "466773ce5eca7e77627dd13903e074c6446eb2d91ba3eaaa53c79f10ebd3cda0",
+    "rowsReviewed": 24,
+    "claimRowReferences": 12
+  },
+  "sourceArchive": {
+    "inputKey": "lycianthes",
+    "inputSha256": "6720ee722d1d93828434eb0264d2b7b4d43dbec62135bb02313298afeba1788e",
+    "archiveSha256": "19af36d18abcf3f356cbb004c07efdd099e7f5fdd5c904a3b78fae53a4f057d8",
+    "license": "CC0 1.0 for extracted Plazi archive records, as declared in the committed import ledger; the linked publication license is unknown.",
+    "licenseAssessment": "aggregate-declaration-only",
+    "originalZipAvailableInCheckout": false,
+    "limitation": "The source ZIP is absent from this checkout, so its embedded EML was not independently rechecked for this batch. The committed import ledger and source documentation retain the prior CC0 declaration for extracted archive records. This does not establish reuse rights for the cited article, PDF, or figures."
+  },
+  "article": {
+    "doi": "10.11646/phytotaxa.471.2.2",
+    "license": "Unknown; item-level reuse rights for article text, PDF, and figures were not verified.",
+    "licenseAssessment": "unknown"
+  },
+  "baseIndexSha256": "32f00dfd0aa475c19fa8fbf7dc0e8a5e665239b52de84c8fafef0b71cd85a842",
+  "finalIndexSha256": "fcb0f994518fe98e17e3e0f12f6a5d4a493bcb6bbd0498d78b0f9c27d65be20c",
+  "newRecords": [
+    {
+      "colId": "7X2WL",
+      "scientificName": "Lycianthes coloradensis E.Dean & H.Kang",
+      "authorship": "E.Dean & H.Kang",
+      "partialFacets": [
+        "morphology",
+        "lifeHistory",
+        "ecology",
+        "distribution"
+      ],
+      "notAssessedFacets": [
+        "evolution",
+        "fossil",
+        "conservation"
+      ]
+    },
+    {
+      "colId": "7X2WM",
+      "scientificName": "Lycianthes fortunensis J.Poore & E.Dean",
+      "authorship": "J.Poore & E.Dean",
+      "partialFacets": [
+        "morphology",
+        "lifeHistory",
+        "ecology",
+        "distribution"
+      ],
+      "notAssessedFacets": [
+        "evolution",
+        "fossil",
+        "conservation"
+      ]
+    },
+    {
+      "colId": "7X2WR",
+      "scientificName": "Lycianthes talamancensis E.Dean & J.Poore",
+      "authorship": "E.Dean & J.Poore",
+      "partialFacets": [
+        "morphology",
+        "lifeHistory",
+        "ecology",
+        "distribution"
+      ],
+      "notAssessedFacets": [
+        "evolution",
+        "fossil",
+        "conservation"
+      ]
+    }
+  ],
+  "sourceMappingNotes": [
+    {
+      "colId": "7X2WR",
+      "note": "Plazi row 21 contains the source prose spelling talamancesis. The retained sourceColUsageId, treatment taxon ID, sourceScientificName, COL26.8 accepted usage, and WFO crosswalk all identify Lycianthes talamancensis; the dossier uses that exact accepted name without rewriting the retained source row."
+    }
+  ],
+  "rights": {
+    "claimSourceRightsUnresolved": 3,
+    "completeDossiersAdded": 0,
+    "externallyReviewedDossiersAdded": 0
+  },
+  "newShard": {
+    "path": "data/knowledge/catalogue-dossiers-plazi-lycianthes-batch-2026-09-27.jsonl.br",
+    "rawPath": "data/knowledge/raw-dossiers/plazi-lycianthes-batch-2026-09-27.jsonl",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 37418,
+    "decodedSha256": "02dfd586ef8cd851e68e7f1d18f570644042a4a29744f8f207729986037d2a0c",
+    "compressedBytes": 3897,
+    "compressedSha256": "1de12db34d2d234447f4c092a1db3ab5dc570ba2f73f72516886105058f7e636",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-plazi-lycianthes-dossier-batch.mjs"
+}

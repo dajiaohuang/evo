@@ -1,5 +1,17 @@
 # Dataset changelog
 
+## Unreleased Plazi Lycianthes dossier batch — 2026-09-27
+
+- Added incomplete, not-reviewed dossiers for COL26.8 *Lycianthes coloradensis*,
+  *L. fortunensis*, and *L. talamancensis* from 12 exact Plazi rows. Each record
+  has bounded partial morphology, voucher-month life history, habitat, and
+  distribution facets; the other three facets remain not assessed. Plazi CC0
+  applies to extracted archive rows only; the cited article's item-level rights
+  are unknown, and its prose, PDF, and images are not redistributed. The source
+  ZIP was absent from this checkout and its EML was not rechecked for this batch.
+  Full dossiers and the evidence queue remain outside App native-core and the
+  GitHub Pages preview, whose shared curated core is unchanged.
+
 ## Unreleased FNA stratified morphology batch — 2026-09-27
 
 - Added 99 COL26.8 accepted-species dossiers from a reproducible, equally
