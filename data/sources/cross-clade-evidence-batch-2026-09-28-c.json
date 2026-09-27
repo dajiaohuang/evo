@@ -1,0 +1,298 @@
+{
+  "releaseAlias": "COL26.8",
+  "batchId": "cross-clade-evidence-batch-2026-09-28-c",
+  "checkedAt": "2026-09-28",
+  "audit": {
+    "baseHead": "e04f8bca234977c9a075e0f52065d268820f5b62",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "dossierIndexSha256": "5315c82a072dfa2faf9133bedf8174ad55ea5cd4ab717f7f30c8bc3f5ba99b58",
+    "dossierIndexRecordCount": 36337,
+    "queueManifestSha256": "38012aff02cd7933971d3a0616bed1ebc921cb0cda63f9b270e01410f54d4807",
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "duplicateAudit": {
+      "repository": "https://github.com/dajiaohuang/evo",
+      "checkedAt": "2026-09-28",
+      "methods": [
+        "Exact COL26.8 queue rows and all indexed dossier shards checked for existing dossier and source stable-ID duplicates.",
+        "Repository text and source files searched for each COL ID, scientific name, article title, and DOI.",
+        "Public GitHub issues and pull requests searched across all states for each COL ID, scientific name, and DOI."
+      ],
+      "matches": [],
+      "limitations": "This audit covers the selected repository and public issue/PR search results at the checked time; it is not a claim that no related research exists."
+    },
+    "candidates": [
+      {
+        "colId": "5V5QJ",
+        "queueShardPath": "data/knowledge/species-evidence-queue/2.jsonl.br",
+        "queueShardCompressedSha256": "1703d28e70d51a7e091f3fbed6a9e3698579becddb48f95931601ad7a949295b",
+        "queueShardDecodedSha256": "934f5e8ba10ea7191ac68c5e6326a4733e1dfecd6c9fad3566acfb399afb9c7b",
+        "queueRowSha256": "45dac6467f89744f927c6fe4fb24f84a655de7371e87a873fc051d3e8ff4b59a",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "RP", "45C", "87BW7", "C683T", "WQP", "5V5QJ"]
+      },
+      {
+        "colId": "37FV6",
+        "queueShardPath": "data/knowledge/species-evidence-queue/a.jsonl.br",
+        "queueShardCompressedSha256": "902c4fd1a8fcd318975387001b2e27e3fc5646013201e8b7fb787513144b1cac",
+        "queueShardDecodedSha256": "973abb38d861d0a932fce06445ec816b40ab93e8179e733d890d00949977ddfb",
+        "queueRowSha256": "eec3a1c500377244cee8d7f1d68a4cfc2c05fd4d2d71fa9f60b9aa2c8fc9628a",
+        "classificationPathIds": ["CS5HF", "N", "M2L", "7NF3H", "7NF54", "7NVXX", "3LT", "7NJJL", "7NXGQ", "37FV6"]
+      },
+      {
+        "colId": "5C86X",
+        "queueShardPath": "data/knowledge/species-evidence-queue/d.jsonl.br",
+        "queueShardCompressedSha256": "3208a2afcc17104b2232a9202013176f599e2f88ce06e7f3409c4a5bc48e3822",
+        "queueShardDecodedSha256": "20f7de89b8c8bcc0fd0d81c50ff4c5d45d17a7c058701d3cf11f54c7740a7e63",
+        "queueRowSha256": "f2d0603009363940b9f44e60052c42623d1764bd49f3392c915beadd922d9224",
+        "classificationPathIds": ["CS5HF", "F", "SM", "DM", "474", "GZ3", "88H3", "5C86X"]
+      }
+    ]
+  },
+  "species": [
+    {
+      "target": {
+        "colId": "5V5QJ",
+        "scientificName": "Anolis sagrei Duméril & Bibron, 1837",
+        "authorship": "Duméril & Bibron, 1837",
+        "rank": "species",
+        "sourceDatasetId": "1008"
+      },
+      "audit": {
+        "queueShardPath": "data/knowledge/species-evidence-queue/2.jsonl.br",
+        "queueShardCompressedSha256": "1703d28e70d51a7e091f3fbed6a9e3698579becddb48f95931601ad7a949295b",
+        "queueShardDecodedSha256": "934f5e8ba10ea7191ac68c5e6326a4733e1dfecd6c9fad3566acfb399afb9c7b",
+        "queueRowSha256": "45dac6467f89744f927c6fe4fb24f84a655de7371e87a873fc051d3e8ff4b59a",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "RP", "45C", "87BW7", "C683T", "WQP", "5V5QJ"]
+      },
+      "scope": "Evidence is limited to a controlled heat-shock tissue assay in Anolis sagrei. It does not establish field heat tolerance, thermal adaptation, survival limits, or a species-wide response.",
+      "lifeStatusScope": {
+        "wild": "The paper describes animals collected in Havana and some females imported from the United States; the heat-shock tissue assay itself was conducted on captive-held animals.",
+        "domesticated": "Domesticated populations have not been assessed.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "takii2017",
+          "title": "Takii et al. (2017), HSF1 and HSF3 cooperatively regulate the heat shock response in lizards",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0180776",
+          "stableId": "doi:10.1371/journal.pone.0180776",
+          "version": "PLOS ONE 12(7): e0180776; version of record published 2017-07-07",
+          "publishedAt": "2017-07-07",
+          "accessedAt": "2026-09-28",
+          "locator": "Methods, Care and treatment of lizards and frogs; Results, HSE-binding activity in lizard tissues; Fig. 4A-B; publisher copyright and license notice.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), linked from the publisher article license notice.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original study of heat-shock factors in lizard and frog tissues and cell systems; the cited tissue response is specific to the Anolis sagrei assay and conditions described.",
+          "rightsHolder": "Takii et al., as identified by the PLOS ONE article.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0180776",
+          "licenseEvidenceLocator": "Publisher copyright notice links the Creative Commons Attribution License to its canonical CC BY 4.0 URL.",
+          "licenseAppliesTo": "Published article text; this dossier paraphrases findings and does not reproduce figures or separately credited third-party material.",
+          "attribution": "Takii R, Fujimoto M, Matsuura Y, Wu F, Oshibe N, Takaki E, et al. (2017). HSF1 and HSF3 cooperatively regulate the heat shock response in lizards. PLOS ONE 12(7):e0180776. https://doi.org/10.1371/journal.pone.0180776. Findings paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {"status": "not-assessed"},
+        "lifeHistory": {"status": "not-assessed"},
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "In a controlled tissue assay, heat-shock-element binding activity in Anolis sagrei brain and heart extracts increased after 42°C for 1 hour and was reduced after 3 hours of recovery at 28°C. This molecular response does not establish a whole-animal thermal limit, field heat tolerance, or thermal adaptation.",
+              "sourceIds": ["takii2017"],
+              "locator": "Results, HSE-binding activity in lizard tissues; Fig. 4A-B.",
+              "placeTimeScope": "Laboratory assay: 42°C heat shock for 1 hour followed by recovery at 28°C for 3 hours. Methods describe Havana collections from 2009–2011 for RNA work and some females imported from the United States in 2013 for tissue extraction; the article does not link the plotted Fig. 4 tissue cohort to one exact collection subset.",
+              "lifeStatus": "Captive-held lizards during heat-shock treatment; not a measurement of free-ranging animals under natural temperatures. The paper does not report a sample size for the plotted tissue assay.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "A tissue-level molecular response is not a measured survival threshold, performance curve, or field thermal-tolerance estimate.",
+            "The article does not link the plotted tissue samples to an exact collection subset or report the sample size for that assay.",
+            "Morphology, life history, broader ecology, evolution, distribution, fossils, and conservation remain unassessed; systematic search and independent expert review are incomplete."
+          ]
+        },
+        "evolution": {"status": "not-assessed"},
+        "distribution": {"status": "not-assessed"},
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completenessReasons": [
+        "One tissue-level heat-shock response is partially supported; it does not measure organismal thermal limits or establish an adaptive response.",
+        "The collection subset and sample size for the plotted tissue assay are not resolved in the article.",
+        "Other biological facets and complete geographic, fossil, and conservation coverage remain unassessed; systematic search and external review are incomplete."
+      ]
+    },
+    {
+      "target": {
+        "colId": "37FV6",
+        "scientificName": "Doryteuthis pealeii (Lesueur, 1821)",
+        "authorship": "(Lesueur, 1821)",
+        "rank": "species",
+        "sourceDatasetId": "1130"
+      },
+      "audit": {
+        "queueShardPath": "data/knowledge/species-evidence-queue/a.jsonl.br",
+        "queueShardCompressedSha256": "902c4fd1a8fcd318975387001b2e27e3fc5646013201e8b7fb787513144b1cac",
+        "queueShardDecodedSha256": "973abb38d861d0a932fce06445ec816b40ab93e8179e733d890d00949977ddfb",
+        "queueRowSha256": "eec3a1c500377244cee8d7f1d68a4cfc2c05fd4d2d71fa9f60b9aa2c8fc9628a",
+        "classificationPathIds": ["CS5HF", "N", "M2L", "7NF3H", "7NF54", "7NVXX", "3LT", "7NJJL", "7NXGQ", "37FV6"]
+      },
+      "scope": "Evidence is limited to two laboratory trials that reared eggs from wild-caught adults to hatchlings (paralarvae) under controlled CO2 conditions at Woods Hole in 2011. It does not establish wild population effects, long-term survival, or recruitment.",
+      "lifeStatusScope": {
+        "wild": "Adult squid were trawled in Vineyard Sound; the egg and hatchling results were obtained after the adults and egg capsules were brought into laboratory culture.",
+        "domesticated": "Domesticated populations have not been assessed.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "kaplan2013",
+          "title": "Kaplan, Mooney, McCorkle & Cohen (2013), Adverse Effects of Ocean Acidification on Early Development of Squid (Doryteuthis pealeii)",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0063714",
+          "stableId": "doi:10.1371/journal.pone.0063714",
+          "version": "PLOS ONE 8(5): e63714; version of record published 2013-05-31",
+          "publishedAt": "2013-05-31",
+          "accessedAt": "2026-09-28",
+          "locator": "Abstract; Methods, Collection and husbandry, Experimental set-up and Measurement Protocol; Results on hatching, mantle length and statoliths; publisher copyright notice and publisher-deposited Crossref license metadata.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0); the article states the Creative Commons Attribution License and publisher-deposited Crossref Version of Record metadata specifies CC BY 4.0.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original laboratory study of Doryteuthis pealeii eggs and paralarvae under control and elevated CO2 conditions; claims refer only to the two trials and outcomes reported.",
+          "rightsHolder": "Kaplan et al., as identified by the PLOS ONE article.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseEvidenceUrl": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0063714",
+          "licenseEvidenceLocator": "Publisher article copyright notice identifies the Creative Commons Attribution License; Crossref DOI metadata deposited for the Version of Record specifies https://creativecommons.org/licenses/by/4.0/.",
+          "licenseAppliesTo": "Published article text; this dossier paraphrases findings and does not reproduce figures or separately credited third-party material.",
+          "attribution": "Kaplan MB, Mooney TA, McCorkle DC, Cohen AL (2013). Adverse Effects of Ocean Acidification on Early Development of Squid (Doryteuthis pealeii). PLOS ONE 8(5):e63714. https://doi.org/10.1371/journal.pone.0063714. Findings paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "In two laboratory trials, paralarvae reared under elevated CO2 had slightly shorter mantles than controls (1.78 ± 0.01 mm versus 1.81 ± 0.01 mm; the pooled difference was significant but small). Their statoliths had about 25% lower surface area and were more irregular and porous. These are early-stage laboratory measurements, not demonstrated effects on adult form or field performance.",
+              "sourceIds": ["kaplan2013"],
+              "locator": "Results, mantle-length comparison and statolith observations; Figs. 3–5.",
+              "placeTimeScope": "Woods Hole Oceanographic Institution, June–August 2011; eggs from Vineyard Sound adults; culture at approximately 20°C. Gas setpoints were 390 and 2200 μatm; measured gas concentrations averaged 394 ± 6 and 2267 ± 10 ppm, while seawater pCO2 calculations averaged 626 and 2440 μatm for control and treatment.",
+              "lifeStatus": "Laboratory-reared hatchlings from egg capsules laid by wild-caught adults; the study did not rear animals beyond the yolk-sac stage.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The observed size difference was small and does not establish consequences for wild behavior, survival, or adult morphology.",
+            "Statolith observations were made in laboratory-reared paralarvae; later development and recovery were not followed.",
+            "Life-history outcomes beyond hatching, ecology, evolution, distribution, fossils, and conservation remain unassessed; systematic search and independent expert review are incomplete."
+          ]
+        },
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Elevated-CO2 rearing delayed the hatching schedule of Doryteuthis pealeii paralarvae in both replicated trials: the time to 90% hatching was about 24 hours later in trial 1 and the delay was shorter than 24 hours in trial 2. The outcome is limited to laboratory hatching timing and does not demonstrate a change in natural recruitment.",
+              "sourceIds": ["kaplan2013"],
+              "locator": "Results, Hatching timeline for squid paralarvae; Fig. 2.",
+              "placeTimeScope": "Woods Hole Oceanographic Institution, June–August 2011; Vineyard Sound seawater; eggs from captive-laid capsules of trawled adults. Gas setpoints were 390 and 2200 μatm; measured gas concentrations averaged 394 ± 6 and 2267 ± 10 ppm, with calculated seawater pCO2 means of 626 and 2440 μatm.",
+              "lifeStatus": "Embryos in laboratory egg capsules and newly hatched paralarvae; adults were wild-caught, and paralarvae were not reared past the yolk-sac stage.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The experiment measures hatching time under controlled laboratory conditions, not wild hatching phenology or recruitment success.",
+            "The paralarvae were not followed beyond the yolk-sac stage, so subsequent survival and growth are unknown.",
+            "Other life-history stages and morphology, ecology, evolution, distribution, fossils, and conservation remain unassessed; systematic search and independent expert review are incomplete."
+          ]
+        },
+        "ecology": {"status": "not-assessed"},
+        "evolution": {"status": "not-assessed"},
+        "distribution": {"status": "not-assessed"},
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completenessReasons": [
+        "Two experimental findings on hatching timing and hatchling morphology are partially supported; both are limited to laboratory CO2 exposure.",
+        "The trials do not follow paralarvae beyond their yolk-sac stage or establish population-level survival and recruitment effects.",
+        "Other biological facets and complete geographic, fossil, and conservation coverage remain unassessed; systematic search and external review are incomplete."
+      ]
+    },
+    {
+      "target": {
+        "colId": "5C86X",
+        "scientificName": "Xanthoria parietina (L.) Th. Fr.",
+        "authorship": "(L.) Th. Fr.",
+        "rank": "species",
+        "sourceDatasetId": "2073"
+      },
+      "audit": {
+        "queueShardPath": "data/knowledge/species-evidence-queue/d.jsonl.br",
+        "queueShardCompressedSha256": "3208a2afcc17104b2232a9202013176f599e2f88ce06e7f3409c4a5bc48e3822",
+        "queueShardDecodedSha256": "20f7de89b8c8bcc0fd0d81c50ff4c5d45d17a7c058701d3cf11f54c7740a7e63",
+        "queueRowSha256": "f2d0603009363940b9f44e60052c42623d1764bd49f3392c915beadd922d9224",
+        "classificationPathIds": ["CS5HF", "F", "SM", "DM", "474", "GZ3", "88H3", "5C86X"]
+      },
+      "scope": "Evidence is limited to ferrichrome detection in tested lichen material and culture of one Xanthoria parietina mycobiont isolate, plus a growth assay using a separately sourced Trebouxia decolorans strain. It does not establish that the effect is universal across populations or symbiont pairings.",
+      "lifeStatusScope": {
+        "wild": "The study includes lichen thalli collected from Austrian field sites and laboratory cultures; the isolate and algal strain used in the experiments were not obtained from the same thallus.",
+        "domesticated": "Domesticated or intentionally cultivated lichen populations have not been assessed.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "happacher2026",
+          "title": "Happacher et al. (2026), Siderophore production by the lichen fungus Xanthoria parietina supports its algal symbiont",
+          "url": "https://www.nature.com/articles/s41467-026-74988-9",
+          "stableId": "doi:10.1038/s41467-026-74988-9",
+          "version": "Nature Communications 17:8234; version of record published 2026-07-02",
+          "publishedAt": "2026-07-02",
+          "accessedAt": "2026-09-28",
+          "locator": "Results on ferrichrome production and algal growth; Methods describing fungal isolate L2379 and Trebouxia decolorans strain MT603980; Version of Record PDF p. 15 and Supplementary Table S5.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), confirmed on the publisher Version of Record PDF.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original study of siderophore production by a Xanthoria parietina mycobiont isolate and the response of a tested algal photobiont strain; claims are limited to the reported materials and assays.",
+          "rightsHolder": "The Authors, as identified by the Nature Communications article.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseEvidenceUrl": "https://www.nature.com/articles/s41467-026-74988-9.pdf",
+          "licenseEvidenceLocator": "The publisher Version of Record PDF, page 15, states that the article is licensed under CC BY 4.0; separately credited material remains subject to its credit line.",
+          "licenseAppliesTo": "Published article text except separately credited third-party material; this dossier paraphrases results and does not reproduce figures or supplemental tables.",
+          "attribution": "Happacher P et al. (2026). Siderophore production by the lichen fungus Xanthoria parietina supports its algal symbiont. Nature Communications 17:8234. https://doi.org/10.1038/s41467-026-74988-9. Findings paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {"status": "not-assessed"},
+        "lifeHistory": {"status": "not-assessed"},
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The study detected ferrichrome in Xanthoria parietina thalli and in culture of a mycobiont isolate; ferrichrome addition promoted growth of the tested Trebouxia decolorans photobiont strain. This is a strain-level experimental result and does not show that all X. parietina populations or lichen symbioses respond in the same way.",
+              "sourceIds": ["happacher2026"],
+              "locator": "Results on ferrichrome production and algal growth; Methods describing fungal isolate L2379 and Trebouxia decolorans strain MT603980.",
+              "placeTimeScope": "Laboratory assays reported in 2026; study thalli include Austrian field samples. The article states the fungal isolate L2379 and the Trebouxia strain were not from the same thallus; L2379 is not linked to a specific Supplementary Table S5 site/date in the audited record.",
+              "lifeStatus": "Lichen thalli and an axenically cultured single-spore mycobiont isolate were studied alongside a separately cultured photobiont strain; no domesticated or fossil material is represented.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "One mycobiont isolate and one separately sourced photobiont strain do not establish the prevalence or magnitude of the interaction across the species or natural symbiont pairings.",
+            "The isolate is not linked to a unique wild collection site and date in the audited record, and the laboratory assay does not quantify field-level growth effects.",
+            "Morphology, life history, broader ecology, evolution, complete distribution, fossils, and conservation remain unassessed; systematic search and independent expert review are incomplete."
+          ]
+        },
+        "evolution": {"status": "not-assessed"},
+        "distribution": {"status": "not-assessed"},
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completenessReasons": [
+        "Ferrichrome production and a photobiont growth assay are partially supported for the tested materials; they do not establish species-wide interaction patterns.",
+        "The fungal isolate is not linked to one exact collection locality/date in the audited record, and the tested partners were not from the same thallus.",
+        "Other biological facets and complete geographic, fossil, and conservation coverage remain unassessed; systematic search and external review are incomplete."
+      ]
+    }
+  ]
+}

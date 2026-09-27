@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "batchId": "cross-clade-evidence-batch-2026-09-28-c",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "baseHead": "e04f8bca234977c9a075e0f52065d268820f5b62",
+  "input": {
+    "path": "data/sources/cross-clade-evidence-batch-2026-09-28-c.json",
+    "sha256": "3d4745186f50f12584b8009abf9550fcf7cdae322a7b637c58ffa424087e729f"
+  },
+  "duplicateAudit": {
+    "repository": "https://github.com/dajiaohuang/evo",
+    "checkedAt": "2026-09-28",
+    "methods": [
+      "Exact COL26.8 queue rows and all indexed dossier shards checked for existing dossier and source stable-ID duplicates.",
+      "Repository text and source files searched for each COL ID, scientific name, article title, and DOI.",
+      "Public GitHub issues and pull requests searched across all states for each COL ID, scientific name, and DOI."
+    ],
+    "matches": [],
+    "limitations": "This audit covers the selected repository and public issue/PR search results at the checked time; it is not a claim that no related research exists."
+  },
+  "identities": [
+    {
+      "colId": "37FV6",
+      "scientificName": "Doryteuthis pealeii (Lesueur, 1821)",
+      "sourceDatasetId": "1130",
+      "classificationPathIds": [
+        "CS5HF",
+        "N",
+        "M2L",
+        "7NF3H",
+        "7NF54",
+        "7NVXX",
+        "3LT",
+        "7NJJL",
+        "7NXGQ",
+        "37FV6"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "class",
+        "subclass",
+        "superorder",
+        "order",
+        "family",
+        "genus",
+        "species"
+      ]
+    },
+    {
+      "colId": "5C86X",
+      "scientificName": "Xanthoria parietina (L.) Th. Fr.",
+      "sourceDatasetId": "2073",
+      "classificationPathIds": [
+        "CS5HF",
+        "F",
+        "SM",
+        "DM",
+        "474",
+        "GZ3",
+        "88H3",
+        "5C86X"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "class",
+        "order",
+        "family",
+        "genus",
+        "species"
+      ]
+    },
+    {
+      "colId": "5V5QJ",
+      "scientificName": "Anolis sagrei Duméril & Bibron, 1837",
+      "sourceDatasetId": "1008",
+      "classificationPathIds": [
+        "CS5HF",
+        "N",
+        "CH2",
+        "8V4V3",
+        "8V4V5",
+        "8VVWB",
+        "9CK8W",
+        "RP",
+        "45C",
+        "87BW7",
+        "C683T",
+        "WQP",
+        "5V5QJ"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "subphylum",
+        "infraphylum",
+        "parvphylum",
+        "megaclass",
+        "class",
+        "order",
+        "suborder",
+        "family",
+        "genus",
+        "species"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "colId": "37FV6",
+      "sources": [
+        {
+          "stableId": "doi:10.1371/journal.pone.0063714",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "colId": "5C86X",
+      "sources": [
+        {
+          "stableId": "doi:10.1038/s41467-026-74988-9",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "colId": "5V5QJ",
+      "sources": [
+        {
+          "stableId": "doi:10.1371/journal.pone.0180776",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "dossiersAdded": 3,
+    "partialFacets": {
+      "morphology": [
+        "37FV6"
+      ],
+      "lifeHistory": [
+        "37FV6"
+      ],
+      "ecology": [
+        "5C86X",
+        "5V5QJ"
+      ],
+      "evolution": [],
+      "distribution": [],
+      "fossil": [],
+      "conservation": []
+    },
+    "notAssessedFacets": [
+      {
+        "colId": "37FV6",
+        "facets": [
+          "ecology",
+          "evolution",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      },
+      {
+        "colId": "5C86X",
+        "facets": [
+          "morphology",
+          "lifeHistory",
+          "evolution",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      },
+      {
+        "colId": "5V5QJ",
+        "facets": [
+          "morphology",
+          "lifeHistory",
+          "evolution",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      }
+    ],
+    "completeDossiersAdded": 0,
+    "externallyReviewedDossiersAdded": 0
+  },
+  "queueAudit": {
+    "queueManifestSha256Before": "38012aff02cd7933971d3a0616bed1ebc921cb0cda63f9b270e01410f54d4807",
+    "rowsBefore": [
+      {
+        "colId": "37FV6",
+        "shardPath": "data/knowledge/species-evidence-queue/a.jsonl.br",
+        "rowSha256": "eec3a1c500377244cee8d7f1d68a4cfc2c05fd4d2d71fa9f60b9aa2c8fc9628a",
+        "status": "missing"
+      },
+      {
+        "colId": "5C86X",
+        "shardPath": "data/knowledge/species-evidence-queue/d.jsonl.br",
+        "rowSha256": "f2d0603009363940b9f44e60052c42623d1764bd49f3392c915beadd922d9224",
+        "status": "missing"
+      },
+      {
+        "colId": "5V5QJ",
+        "shardPath": "data/knowledge/species-evidence-queue/2.jsonl.br",
+        "rowSha256": "45dac6467f89744f927c6fe4fb24f84a655de7371e87a873fc051d3e8ff4b59a",
+        "status": "missing"
+      }
+    ]
+  },
+  "appAndPagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+  "appAndPagesPreviewManifestChanged": false,
+  "baseDossierIndexSha256": "5315c82a072dfa2faf9133bedf8174ad55ea5cd4ab717f7f30c8bc3f5ba99b58",
+  "finalDossierIndexSha256": "0360c44086903f0b1335c7e5ac7b5acd54702846c575184216cfb0a37c9b40fa",
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/cross-clade-evidence-batch-2026-09-28-c.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 3,
+    "bytes": 24516,
+    "sha256": "26790fe5e34256756ecb6b3df226a76a5b94c5faadb0454e15f0756651a2e6e7"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-cross-clade-evidence-2026-09-28-c.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 24516,
+    "decodedSha256": "26790fe5e34256756ecb6b3df226a76a5b94c5faadb0454e15f0756651a2e6e7",
+    "compressedBytes": 4744,
+    "compressedSha256": "8e96e63b2b4592bb8b9e8a88cbb91340e0a8ae597758f82d9494169609f69cb0",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "dossierCountBefore": 36337,
+  "dossierCountAfter": 36340,
+  "generator": "scripts/build-cross-clade-evidence-batch-2026-09-28-c.mjs",
+  "fullDossierCountAdded": 0,
+  "expertReviewedDossierCountAdded": 0
+}
