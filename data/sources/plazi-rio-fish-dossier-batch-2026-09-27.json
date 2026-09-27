@@ -1,0 +1,103 @@
+{
+  "batchId": "plazi-rio-fish-dossier-batch-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-27",
+  "sourceProjection": {
+    "path": "data/sources/plazi-descriptions.jsonl.gz",
+    "sha256": "466773ce5eca7e77627dd13903e074c6446eb2d91ba3eaaa53c79f10ebd3cda0"
+  },
+  "sourceLedger": {
+    "path": "data/sources/plazi-descriptions-import-ledger.json",
+    "archiveInputKey": "fish",
+    "archiveInputSha256": "78dea6e79bcd40ae8528d73e431e5c39624bc64a67e50c70d7d4d5831fb98491",
+    "license": "CC0 1.0",
+    "licenseAssessment": "aggregate-declaration-only",
+    "archiveZipAvailableInCheckout": false,
+    "rightsBoundary": "The retained import ledger declares CC0 1.0 for the extracted Plazi records. The candidate source ZIPs are absent from this checkout and their embedded EML files were not rechecked for this batch. This declaration does not establish reuse rights for either cited journal article, PDF, or figures."
+  },
+  "facetGaps": {
+    "morphology": "Selected diagnostic and descriptive characters come from one taxonomic treatment and its stated comparative or examined samples; neither dossier assesses variation across all populations or life stages. The Microglanis lundbergi article's morphometric table reports n=9 while its listed type series totals 10 specimens; that difference is unresolved.",
+    "ecology": "Habitat and diet claims are limited to the selected treatment notes, collection labels, localities, and sample sizes. Sampling completeness, seasonal ecology, trophic importance, and species-wide habitat preferences remain unassessed.",
+    "lifeHistory": "No systematic reproductive, developmental, lifespan, or full behavioral life-history search was performed.",
+    "evolution": "No phylogenetic or population-genetic evidence is assessed in this source slice.",
+    "distribution": "Taxonomic article localities are retained only as reported collection context and do not establish a current, complete range or trend.",
+    "fossil": "No fossil or paleontological search was performed.",
+    "conservation": "No conservation assessment, population trend, or threat evaluation is assessed in this source slice."
+  },
+  "records": [
+    {
+      "colId": "3M86Z",
+      "scientificName": "Hollandichthys taramandahy",
+      "authorship": "Bertaco & Malabarba, 2013",
+      "sourceArchive": "033dea15-2311-43cb-8a89-cbb8e73e7988.zip",
+      "archiveSha256": "4b4c7d3cc01622331792cca5ac524ff0bf497472ac43123de5873cf7d495a01f",
+      "mappingBasis": "individually-reviewed-name-authorship-and-lineage",
+      "treatmentId": "B865879AFFCAC57BFC5E29ADFAF7F974",
+      "reviewedRows": [4, 5, 8],
+      "article": {
+        "sourceId": "bertaco_malabarba_2013",
+        "title": "A new species of the characid genus Hollandichthys Eigenmann from coastal rivers of southern Brazil (Teleostei: Characiformes) with a discussion on the diagnosis of the genus",
+        "doi": "10.1590/S1679-62252013000400004",
+        "url": "https://doi.org/10.1590/S1679-62252013000400004",
+        "citation": "Bertaco, Vinicius A., Malabarba, Luiz R. (2013): A new species of the characid genus Hollandichthys Eigenmann from coastal rivers of southern Brazil (Teleostei: Characiformes) with a discussion on the diagnosis of the genus. Neotropical Ichthyology 11 (4): 767-778.",
+        "publishedAt": "2013",
+        "locator": "Taxon diagnosis p. 769 (Plazi row 4); morphology and sexual dimorphism pp. 770-774 (row 5); ecological notes p. 774 (row 8). Material examined and locality/date for lot MCP 24621 are on p. 769.",
+        "license": "Not established at article level",
+        "licenseAssessment": "unknown"
+      },
+      "claims": {
+        "morphology": {
+          "rows": [4, 5],
+          "pages": "p. 769 (Plazi row 4) and pp. 770-774 (row 5)",
+          "text": "The treatment distinguishes Hollandichthys taramandahy from H. multifasciatus by a small black spot at the base of the median caudal-fin rays, lack of distinctive adipose-fin marks, and absence of a humeral spot in specimens over 60 mm SL. In the comparative diagnosis, dorsal and ventral procurrent caudal-fin ray counts were 8-11 (mode 10, n=20) and 7-8 (mode 8, n=20), respectively, versus 10-15 (mode 12, n=72) and 9-12 (mode 10, n=72) for H. multifasciatus. The description also reports retrorse bony hooks on the anal and pelvic fins of sexually mature males. Counts and traits are limited to the treatment's examined specimens and stated comparison samples.",
+          "placeTimeScope": "Comparative diagnosis on p. 769 and specimen description on pp. 770-774 in the 2013 treatment. Ray counts are the diagnosis's stated samples (n=20 for H. taramandahy and n=72 for H. multifasciatus); no population-wide variation estimate is inferred.",
+          "lifeStatus": "Morphology of specimens described in the taxonomic treatment; the male hook character is explicitly reported for sexually mature males. No universal claim about all individuals or life stages is made."
+        },
+        "ecology": {
+          "rows": [8],
+          "pages": "p. 774 (Plazi row 8); material and locality/date for MCP 24621 on p. 769",
+          "text": "For specimens reported in this treatment, the authors describe captures in lateral river puddles and very small tributaries with shallow, still black water, muddy and leaf-covered bottoms, and dense riparian vegetation. They report larger specimens (70-80 mm SL) found alone and smaller specimens (30-40 mm SL) collected in groups of 3-6. Stomach contents from three MCP 24621 specimens contained spiders, ants, beetles, and insect parts. These observations are limited to the article's collection and stomach-content samples, not a species-wide habitat or diet rule.",
+          "placeTimeScope": "Ecological notes on p. 774 refer to the paper's examined collections. The three stomach-content specimens are lot MCP 24621, listed on p. 769 from the rio do Ouro tributary at Maquiné, Rio Grande do Sul (type locality), collected 31 August 1999. Habitat observations are not extrapolated to unreported sites or all populations.",
+          "lifeStatus": "Wild collection observations and contents from three prepared specimens only; no species-wide trophic or behavioral inference is made."
+        }
+      }
+    },
+    {
+      "colId": "6RGPT",
+      "scientificName": "Microglanis lundbergi",
+      "authorship": "Jarduli & Shibatta, 2013",
+      "sourceArchive": "95e56920-147b-4e47-bf6f-858c13683b7f.zip",
+      "archiveSha256": "75f4e69193f65cfa0e32a728ae690f065ed0c860d58e1760adfbd8ca6d3d107e",
+      "mappingBasis": "individually-reviewed-name-authorship-and-lineage",
+      "treatmentId": "03B8FF3BA628895BFED2FC433E406821",
+      "reviewedRows": [4, 5, 7],
+      "article": {
+        "sourceId": "jarduli_shibatta_2013",
+        "title": "Description of a new species of Microglanis (Siluriformes: Pseudopimelodidae) from the Amazon basin, Amazonas State, Brazil",
+        "doi": "10.1590/S1679-62252013000300004",
+        "url": "https://doi.org/10.1590/S1679-62252013000300004",
+        "citation": "Jarduli, Lucas Ribeiro, Shibatta, Oscar Akio (2013): Description of a new species of Microglanis (Siluriformes: Pseudopimelodidae) from the Amazon basin, Amazonas State, Brazil. Neotropical Ichthyology 11 (3): 507-512.",
+        "publishedAt": "2013",
+        "locator": "Diagnosis p. 508 (Plazi row 4); description pp. 508-509 (row 5); label-based habitat note p. 510 (row 7).",
+        "license": "Not established at article level",
+        "licenseAssessment": "unknown"
+      },
+      "claims": {
+        "morphology": {
+          "rows": [4, 5],
+          "pages": "p. 508 (Plazi row 4) and pp. 508-509 (row 5)",
+          "text": "The diagnosis describes Microglanis lundbergi by a deeply notched forked caudal fin, two juxtaposed pale elliptical spots on the supraoccipital region, and an adipose-fin base 13.1-16.6% of SL. The description reports orange-brown coloration with pale supraoccipital spots and other preserved-color pattern details. These are treatment-level diagnostic and descriptive observations, not an assessment of variation across all populations. The morphometric table reports n=9, while the listed type series totals 10 specimens; this discrepancy is retained as unresolved.",
+          "placeTimeScope": "Diagnosis on p. 508, description on pp. 508-509, and morphometric table (n=9) in the 2013 treatment. The examined type series listed in that article totals 10; the source does not resolve the difference from the table sample, so no reconciliation is inferred.",
+          "lifeStatus": "Morphology and preserved coloration of specimens described in the treatment; no population-wide variation or live-color claim is made."
+        },
+        "ecology": {
+          "rows": [7],
+          "pages": "p. 510 (Plazi row 7)",
+          "text": "According to collection-lot labels, the reported individuals were collected in the main channel of the rio Amazonas, in white water, over a bottom rich in organic matter and pieces of wood. This is a label-based habitat observation from the cited treatment, not a species-wide habitat preference or complete distribution statement.",
+          "placeTimeScope": "Habitat note on p. 510 explicitly attributes the observation to collection-lot labels. It is limited to the reported material and location; other localities, dates, and habitat conditions were not inferred from this note.",
+          "lifeStatus": "Wild collection-label observations only; no broader ecological, abundance, or conservation conclusion is made."
+        }
+      }
+    }
+  ]
+}
