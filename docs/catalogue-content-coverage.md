@@ -2,6 +2,10 @@
 
 RC169 / COL26.8（2026-08-20）。分类、来源原文、来源字段标签、入门概述、完整档案与专家评审分别计量，不能互相替代。
 
+## 灵长目重点：狮尾猕猴食性证据（2026-09-28）
+
+- 为 `3WWP6`（*Macaca silenus*）现有档案补充一条 PLOS ONE 研究中的栖息地分层食性观察：瓦尔帕赖一群自由活动的猴在 2016 年旱季观察期间利用了 19 种植物的部分和非植物性食物；开阔林地斑块与林内、林内与林缘的记录食物组成不同。该项证据仍限于单群体、单地点和旱季，不代表物种完整食谱。期刊文章 CC BY 4.0 已逐篇核验；档案仍为 incomplete、not-reviewed。App native-core 与 GitHub Pages preview 继续共用精选清单，`primates` 已在其中；全量档案与证据队列留在 App 之外。详见[更新清单](../data/knowledge/primates-macaca-silenus-diet-b63-2026-09-28.update-manifest.json)。
+
 ## Plazi Lycianthes 档案批次（2026-09-27）
 
 - 新增 `7X2WL`（*Lycianthes coloradensis*）、`7X2WM`（*L. fortunensis*）和

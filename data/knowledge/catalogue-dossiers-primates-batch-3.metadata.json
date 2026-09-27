@@ -12,12 +12,12 @@
   ],
   "path": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
   "rawPath": "data/knowledge/raw-dossiers/primates-dossiers-batch-3.jsonl",
-  "rawSha256": "7be7f2bf119f62e571b3c33a9f86af253a787ea163862942c4c26fee37c641e4",
-  "decodedSha256": "7be7f2bf119f62e571b3c33a9f86af253a787ea163862942c4c26fee37c641e4",
-  "compressedSha256": "973454bb5615203895ea2947432aaad269ab90ba5624659e3142aace5f01e756",
-  "decodedBytes": 53204,
-  "compressedBytes": 11952,
-  "checkedAt": "2026-09-27",
+  "rawSha256": "c7ade4e4b3d6d99401f465e6b1971cd66706504489538baa4fd6fcdf987007e9",
+  "decodedSha256": "c7ade4e4b3d6d99401f465e6b1971cd66706504489538baa4fd6fcdf987007e9",
+  "compressedSha256": "e5322ed2df8195cac9649f5533600fac16f80ebdec254e12f277dd4968920c7c",
+  "decodedBytes": 54821,
+  "compressedBytes": 12373,
+  "checkedAt": "2026-09-28",
   "generationSource": "data/sources/primates-dossiers-batch-3.json",
   "generationSourceSha256": "f950f3d0af0905f136be4356a6b33a62daec577b1be271ae8578a4aa32c41905",
   "updatedIds": [
@@ -122,27 +122,51 @@
       "decodedSha256": "7be7f2bf119f62e571b3c33a9f86af253a787ea163862942c4c26fee37c641e4",
       "compressedSha256": "973454bb5615203895ea2947432aaad269ab90ba5624659e3142aace5f01e756",
       "mode": "in-place-add-bounded-wild-habitat-use-and-foraging-evidence"
+    },
+    {
+      "batchId": "primates-macaca-silenus-diet-batch63-2026-09-28",
+      "sourcePath": "data/sources/primates-macaca-silenus-diet-b63-2026-09-28.json",
+      "sourceSha256": "3eefc7ff62acdcddbaa0051b4617d392921e31f501cdeec73cb37d6cc2fa2ed0",
+      "generator": "scripts/update-primates-macaca-silenus-diet-b63.mjs",
+      "baseHead": "4750035ae242c70327a71123cdb25642c039a935",
+      "indexedRecordCountAtAudit": 36330,
+      "targetColIds": [
+        "3WWP6"
+      ],
+      "previousDecodedSha256": "7be7f2bf119f62e571b3c33a9f86af253a787ea163862942c4c26fee37c641e4",
+      "previousCompressedSha256": "973454bb5615203895ea2947432aaad269ab90ba5624659e3142aace5f01e756",
+      "decodedSha256": "c7ade4e4b3d6d99401f465e6b1971cd66706504489538baa4fd6fcdf987007e9",
+      "compressedSha256": "e5322ed2df8195cac9649f5533600fac16f80ebdec254e12f277dd4968920c7c",
+      "mode": "in-place-add-habitat-stratified-diet-evidence-to-existing-core-primate-dossier"
     }
   ],
   "updateAudit": {
-    "batchId": "primates-macaca-silenus-ecology-batch49-2026-09-27",
-    "baseHead": "53a6cdfbf40406eca9c9ff8f7db68e8ca6a35f8e",
-    "indexedRecordCountAtAudit": 6970,
+    "batchId": "primates-macaca-silenus-diet-batch63-2026-09-28",
+    "baseHead": "4750035ae242c70327a71123cdb25642c039a935",
+    "indexedRecordCountAtAudit": 36330,
     "targetColId": "3WWP6",
     "targetScientificName": "Macaca silenus (Linnaeus, 1758)",
     "targetRecordCountBeforeUpdate": 1,
     "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
-    "previousRawSha256": "a4071de7d32581fd24f42d37cf513cd5ee1f1d6ba60f5fed43dc2fe1868ad16c",
-    "previousDecodedSha256": "a4071de7d32581fd24f42d37cf513cd5ee1f1d6ba60f5fed43dc2fe1868ad16c",
-    "previousCompressedSha256": "fa173fe30d8465632bda5cdb7fb8afc7952822057da81d3ffbc3e18a4ebdfb34",
-    "previousTargetRecordSha256": "1749c46713d2922e19fa6f547e6f65798e87234586dd6c91db5debdcb51975e7",
+    "previousRawSha256": "7be7f2bf119f62e571b3c33a9f86af253a787ea163862942c4c26fee37c641e4",
+    "previousDecodedSha256": "7be7f2bf119f62e571b3c33a9f86af253a787ea163862942c4c26fee37c641e4",
+    "previousCompressedSha256": "973454bb5615203895ea2947432aaad269ab90ba5624659e3142aace5f01e756",
+    "previousTargetRecordSha256": "49e1064e4352754495d0242faee5ec1857152b24b9f227070339657117f2eacb",
     "sourceStableId": "doi:10.1371/journal.pone.0238695",
-    "sourceOccurrenceCountBeforeUpdate": 0,
-    "openPullRequests": [],
-    "mode": "in-place-add-bounded-wild-habitat-use-and-foraging-evidence",
-    "indexedRecordCountAfterUpdate": 6970,
-    "outputRawSha256": "7be7f2bf119f62e571b3c33a9f86af253a787ea163862942c4c26fee37c641e4",
-    "outputDecodedSha256": "7be7f2bf119f62e571b3c33a9f86af253a787ea163862942c4c26fee37c641e4",
-    "outputCompressedSha256": "973454bb5615203895ea2947432aaad269ab90ba5624659e3142aace5f01e756"
+    "sourceOccurrenceCountBeforeUpdate": 1,
+    "existingEcologyClaimCountFromSource": 1,
+    "openPullRequests": {
+      "queries": [
+        "Macaca silenus",
+        "3WWP6"
+      ],
+      "checkedAt": "2026-09-28",
+      "returned": 0
+    },
+    "mode": "in-place-add-habitat-stratified-diet-evidence-to-existing-core-primate-dossier",
+    "indexedRecordCountAfterUpdate": 36330,
+    "outputRawSha256": "c7ade4e4b3d6d99401f465e6b1971cd66706504489538baa4fd6fcdf987007e9",
+    "outputDecodedSha256": "c7ade4e4b3d6d99401f465e6b1971cd66706504489538baa4fd6fcdf987007e9",
+    "outputCompressedSha256": "e5322ed2df8195cac9649f5533600fac16f80ebdec254e12f277dd4968920c7c"
   }
 }

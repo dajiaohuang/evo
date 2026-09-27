@@ -1,5 +1,15 @@
 # Dataset changelog
 
+## Unreleased primate diet evidence — 2026-09-28
+
+- Added one habitat-bounded ecology observation to the existing COL26.8
+  *Macaca silenus* dossier (`3WWP6`). In one free-ranging Valparai troop during
+  the February–May 2016 dry season, the cited study recorded plant parts from
+  19 plant species and non-plant foods, with diet composition differing among
+  forest habitats. The dossier remains incomplete and not reviewed. The shared
+  App native-core / GitHub Pages selection, including Primates, is unchanged;
+  the full dossier archive and species-evidence queue remain outside App.
+
 ## Unreleased Plazi Syspira dossier batch — 2026-09-27
 
 - Added incomplete, not-reviewed dossiers for COL26.8 *Syspira longipes*
