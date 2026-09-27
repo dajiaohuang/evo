@@ -1,5 +1,16 @@
 # Dataset changelog
 
+## Unreleased Plazi Syspira dossier batch — 2026-09-27
+
+- Added incomplete, not-reviewed dossiers for COL26.8 *Syspira longipes*
+  (`5448F`) and *S. tigrina* (`5448K`) from Plazi rows 7, 8, 10, 14, 15 and
+  17. Each dossier has bounded partial morphology and ecology; five facets
+  remain not assessed. The diagnosis/description conflict for *S. tigrina*
+  embolus and cymbial-groove characters is excluded from unqualified claims.
+  The article's item-level rights are unknown; the source ZIP is absent and its
+  EML was not rechecked. No article prose, PDF or figures are redistributed.
+  App native-core and GitHub Pages preview selections are unchanged.
+
 ## Unreleased Plazi Lycianthes dossier batch — 2026-09-27
 
 - Added incomplete, not-reviewed dossiers for COL26.8 *Lycianthes coloradensis*,

@@ -68,6 +68,25 @@ COL/WFO identity links, source scopes and checksums are recorded in the
 [batch manifest](../data/knowledge/catalogue-dossiers-plazi-lycianthes-batch-2026-09-27.batch-manifest.json)
 and [reviewed input](../data/sources/plazi-lycianthes-dossier-batch-2026-09-27.json).
 
+## Syspira species dossiers
+
+The 2026-09-27 Syspira batch adds incomplete, not-reviewed records for accepted
+COL26.8 usages `5448F` (*Syspira longipes*) and `5448K` (*S. tigrina*). Each
+record has partial morphology and ecology facets; life history, evolution,
+distribution, fossil and conservation remain not assessed. Source rows 7, 8 and
+10 support the bounded *S. longipes* claims. For *S. tigrina*, rows 14, 15 and
+17 were checked: its morphology claim uses only the diagnosis's carapace pattern
+and live color, while the conflicting embolus and cymbial-groove wording in the
+description is explicitly excluded. Ecology remains limited to the article's
+reported microhabitats or cited, location-bound pitfall samples. Row locators,
+identity checks and checksums are recorded in the [batch manifest](../data/knowledge/catalogue-dossiers-plazi-syspira-batch-2026-09-27.batch-manifest.json)
+and [reviewed input](../data/sources/plazi-syspira-dossier-batch-2026-09-27.json).
+
+The source ZIP is absent from this checkout and its embedded EML was not
+rechecked for this batch. The retained archive CC0 declaration is scoped to
+extracted Plazi records; the article's item-level reuse rights remain unknown.
+No article prose, PDF, or figures are redistributed.
+
 For this dossier batch, the extracted-record CC0 declaration is taken from the
 committed Plazi import ledger and source documentation. The source ZIP is not
 present in this checkout, so its embedded EML was not rechecked during this
