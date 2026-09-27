@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-saimiri-sciureus-evidence-b57-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-saimiri-sciureus-evidence-2026-09-28.json",
+    "sha256": "f4c148627abca47da11d642a57e842161eb55355663a93397756193c3d277fa6"
+  },
+  "duplicateCheck": {
+    "baseHead": "0a7758cc9bc1d46096e7e553ba6236bc85f33342",
+    "checkedAt": "2026-09-28",
+    "openPullRequests": [],
+    "indexedRecordCountBeforeAdd": 36327,
+    "matchedColIds": [],
+    "matchedNames": [],
+    "baselineQueueRow": {
+      "path": "data/knowledge/species-evidence-queue/5.jsonl.br",
+      "colId": "4TZK2",
+      "sha256": "176099d384c63c6ae3742714a67212e29b25bbbc669b51df888bd0134766a6ac",
+      "statusBeforeAdd": "missing"
+    }
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-saimiri-sciureus-evidence-2026-09-28.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 10556,
+    "sha256": "703baec2e9d65cce52c6e8aa739aa5ab0da9934821046573cf770fe1eb8fc6c2"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-saimiri-sciureus-2026-09-28.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 10556,
+    "decodedSha256": "703baec2e9d65cce52c6e8aa739aa5ab0da9934821046573cf770fe1eb8fc6c2",
+    "compressedBytes": 2864,
+    "compressedSha256": "d21abf3304eba07ef21b98c8d14b5f6b6ee292d01a95170ea4dd75ed0ea94d82",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-primates-saimiri-sciureus-evidence-b57.mjs"
+}

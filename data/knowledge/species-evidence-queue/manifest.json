@@ -16,7 +16,7 @@
     "dossierBasePath": "data/knowledge/catalogue-dossiers.json",
     "dossierBaseSha256": "88def9f9997c16f6eba9c51aca5c134b4af198442ae941baa284e6dd0c86beb5",
     "dossierIndexPath": "data/knowledge/catalogue-dossier-shards.json",
-    "dossierIndexSha256": "d60e43d1cce874871d793f93d24666714633f7f143b9168f27a5f617a9252132",
+    "dossierIndexSha256": "fc3b9bb7c470999a1bf5a78f97e0c5b6bb1ba59d6b459d48b4a95d0b95201ad7",
     "dossierShards": [
       {
         "path": "data/knowledge/catalogue-dossiers-all.jsonl.br",
@@ -479,6 +479,12 @@
         "recordCount": 3,
         "compressedSha256": "4c793f0647a4370f752682d5629ab6a2a32049eea237a6aaebdb3baeeeffb96a",
         "decodedSha256": "3d079b9b2f678dc4a669070e2817f5ad4a878f6ea2ee24df95af8a06ccc5599f"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-saimiri-sciureus-2026-09-28.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "d21abf3304eba07ef21b98c8d14b5f6b6ee292d01a95170ea4dd75ed0ea94d82",
+        "decodedSha256": "703baec2e9d65cce52c6e8aa739aa5ab0da9934821046573cf770fe1eb8fc6c2"
       }
     ],
     "sourceOriginalCollections": [
@@ -628,12 +634,12 @@
     "acceptedSpecies": 2183133,
     "sourceOriginalAssociatedSpecies": 80838,
     "introductorySummarySpecies": 27,
-    "dossierSpecies": 36327,
+    "dossierSpecies": 36328,
     "completeDossierSpecies": 0,
     "externallyReviewedSpecies": 0,
-    "speciesWithAnyEvidenceStage": 80979,
-    "speciesWithoutAnyEvidenceStage": 2102154,
-    "speciesWithoutDossier": 2146806,
+    "speciesWithAnyEvidenceStage": 80980,
+    "speciesWithoutAnyEvidenceStage": 2102153,
+    "speciesWithoutDossier": 2146805,
     "sourceOriginalCollectionSpecies": {
       "brazilFloraDescriptions": 28896,
       "fdacDescriptions": 4156,
@@ -657,20 +663,20 @@
       "species": 27
     },
     "dossierStatuses": {
-      "missing": 2146806,
-      "incomplete": 36327,
+      "missing": 2146805,
+      "incomplete": 36328,
       "complete": 0
     },
     "expertReviewStatuses": {
-      "no-dossier": 2146806,
-      "not-reviewed": 36327,
+      "no-dossier": 2146805,
+      "not-reviewed": 36328,
       "maintainer-reviewed": 0,
       "externally-reviewed": 0
     },
     "claimSourceRightsStatuses": {
-      "not-assessed": 2146806,
+      "not-assessed": 2146805,
       "no-biological-claim-sources": 0,
-      "item-level-verified": 253,
+      "item-level-verified": 254,
       "claim-source-rights-unresolved": 36074
     },
     "facetStatuses": {
@@ -697,10 +703,10 @@
       },
       "evolution": {
         "supported": 0,
-        "partially-supported": 58,
+        "partially-supported": 59,
         "searched-no-evidence": 0,
         "conflicted": 0,
-        "not-assessed": 2183075
+        "not-assessed": 2183074
       },
       "distribution": {
         "supported": 0,
@@ -787,10 +793,10 @@
       "prefix": "5",
       "path": "data/knowledge/species-evidence-queue/5.jsonl.br",
       "recordCount": 136354,
-      "decodedBytes": 97911268,
-      "decodedSha256": "e074006b7decf62ca05fa8d9c7baef2562cb02a113eb61fc100b249d29391790",
-      "compressedBytes": 4668424,
-      "compressedSha256": "214a1e4148d44f1c395ba9745c5277e23c2f079063d96e6749c304d390b443d1",
+      "decodedBytes": 97911309,
+      "decodedSha256": "7e855667da3123949a36dc58355755003382a0d4ee9a60a8a7dfb90203aa4ff7",
+      "compressedBytes": 4668445,
+      "compressedSha256": "20794632011fcef16ef68841a4b1a1c8d38ce8aba026509b287199ef94cabd06",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },

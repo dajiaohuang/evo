@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-saimiri-sciureus-evidence-b57-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "preparedAgainst": {
+    "head": "0a7758cc9bc1d46096e7e553ba6236bc85f33342",
+    "openPullRequestsMatching": [
+      "Saimiri",
+      "4TZK2"
+    ],
+    "checkedAt": "2026-09-28"
+  },
+  "duplicateAudit": {
+    "colId": "4TZK2",
+    "scientificName": "Saimiri sciureus (Linnaeus, 1758)",
+    "queueShard": "data/knowledge/species-evidence-queue/5.jsonl.br",
+    "queueRowSha256BeforeDossier": "176099d384c63c6ae3742714a67212e29b25bbbc669b51df888bd0134766a6ac",
+    "openPullRequests": [],
+    "matchedColIds": [],
+    "matchedNames": []
+  },
+  "dossier": {
+    "colId": "4TZK2",
+    "scientificName": "Saimiri sciureus (Linnaeus, 1758)",
+    "authorship": "(Linnaeus, 1758)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "checkedAt": "2026-09-28",
+    "identity": {
+      "method": "Exact accepted COL26.8 usage 4TZK2 was verified in the release-pinned search registry for name, authorship, species rank, accepted status, and sourceDatasetId 2144; its accepted parent chain was followed by stable ID through the pinned hierarchy registry.",
+      "scope": "The dossier is keyed to accepted COL26.8 usage 4TZK2. The cited article compares author-labelled Saimiri sciureus and S. boliviensis sample groups and notes older or incomplete specimen labels; it does not independently establish the accepted species concept or override COL taxonomy.",
+      "sourceIds": [
+        "col"
+      ]
+    },
+    "lifeStatusScope": {
+      "wild": "The cited sections do not establish field collection for the full DNA panel; no wild-population inference is made.",
+      "domesticated": "Domestication was not assessed.",
+      "captive": "The authors report some S. boliviensis samples from a captive breeding colony; individual-level captive status is not fully mapped here.",
+      "fossil": "No fossil material or geological time was studied."
+    },
+    "sources": [
+      {
+        "id": "col",
+        "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+        "url": "https://www.checklistbank.org/dataset/316115/taxon/4TZK2",
+        "stableId": "col:4TZK2@COL26.8",
+        "version": "COL26.8 released 2026-08-20; ChecklistBank dataset 316115",
+        "publishedAt": "2026-08-20",
+        "accessedAt": "2026-09-28",
+        "locator": "Accepted species usage 4TZK2: verbatim name, authorship, rank, accepted status, sourceDatasetId 2144, and full accepted parent chain.",
+        "license": "CC BY 4.0 nomenclatural metadata; no checklist prose reused.",
+        "licenseAssessment": "identity-only",
+        "scope": "Pinned COL26.8 nomenclatural identity and accepted classification only.",
+        "rightsHolder": "Catalogue of Life Foundation",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAppliesTo": "Pinned nomenclatural and taxonomic checklist metadata only.",
+        "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 4TZK2. https://doi.org/10.48580/dgywk"
+      },
+      {
+        "id": "baker2018",
+        "title": "Baker et al. (2018), Recently integrated Alu insertions in the squirrel monkey (Saimiri) lineage and application for population analyses",
+        "url": "https://link.springer.com/article/10.1186/s13100-018-0114-7",
+        "stableId": "doi:10.1186/s13100-018-0114-7",
+        "version": "Mobile DNA 9, article 9; version of record published 2018-02-12",
+        "publishedAt": "2018-02-12",
+        "accessedAt": "2026-09-28",
+        "locator": "Abstract > Results; Methods > DNA samples; Results > Species informative Alu polymorphisms, paragraph preceding Table 4; Table 4.",
+        "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the publisher's article-level Rights and permissions notice.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "rightsHolder": "The article authors (Baker et al.); published by Springer Nature.",
+        "licenseAssessment": "item-level-verified",
+        "licenseAppliesTo": "The article text under its item-level CC BY 4.0 notice. No separately credited figures, images, or supplementary worksheets are reused.",
+        "rightsEvidenceUrl": "https://link.springer.com/article/10.1186/s13100-018-0114-7",
+        "scope": "One laboratory Alu insertion marker study on a mixed-provenance 32-individual squirrel-monkey DNA panel; its author-defined species groups and specimen-identification caveats are retained.",
+        "attribution": "Baker JN, Walker JA, Denham MW, et al. (2018). Recently integrated Alu insertions in the squirrel monkey (Saimiri) lineage and application for population analyses. Mobile DNA 9:9. https://doi.org/10.1186/s13100-018-0114-7. Claims paraphrased."
+      }
+    ],
+    "systematicSearch": {
+      "date": "2026-09-28",
+      "scope": "Exact COL26.8 identity and a focused review of one primary marker study with publisher-verified article-level reuse terms; this is not a multi-database, seven-facet, or range-wide systematic review.",
+      "method": "Verified the pinned accepted COL usage and parent chain by stable IDs. Reviewed the publisher version-of-record page, abstract, sample methods, species-informative polymorphism results, Table 4 locator, identity caveats, and item-level license notice.",
+      "queryOrPath": "Pinned COL26.8 dataset 316115 usage 4TZK2; Springer Nature version of record, DOI 10.1186/s13100-018-0114-7.",
+      "inclusionCriteria": "Primary-source statements explicitly reporting the 32-individual DNA panel and Alu insertion polymorphism results for the study-labelled S. sciureus and S. boliviensis groups.",
+      "exclusionCriteria": "Name-only matches; unverified specimen assignments; range-wide distribution; species-boundary or full phylogenetic conclusions; all unassessed facets; results from separately licensed figures or supplementary files.",
+      "searcher": "Evo source audit"
+    },
+    "facets": {
+      "morphology": {
+        "status": "not-assessed",
+        "claims": [],
+        "gaps": [
+          "The selected marker study does not assess diagnostic anatomy, measurements, or morphological variation."
+        ]
+      },
+      "lifeHistory": {
+        "status": "not-assessed",
+        "claims": [],
+        "gaps": [
+          "The selected marker study does not assess development, reproduction, survival, or lifespan."
+        ]
+      },
+      "ecology": {
+        "status": "not-assessed",
+        "claims": [],
+        "gaps": [
+          "The selected marker study does not assess habitat, behavior, food, predators, parasites, or ecological interactions."
+        ]
+      },
+      "evolution": {
+        "status": "partially-supported",
+        "claims": [
+          {
+            "text": "Within the authors’ 32-individual squirrel-monkey DNA panel, 110 of 382 tested Alu insertion loci were polymorphic for insertion presence or absence; among these, 51 showed the study’s species-informative allele-frequency distributions between its S. sciureus and S. boliviensis groups. The authors note that two specimens labelled S. sciureus clustered more closely with S. boliviensis, so this result is limited to that marker panel and those study assignments and does not independently resolve species boundaries.",
+            "sourceIds": [
+              "baker2018"
+            ],
+            "locator": "Abstract > Results; Methods > DNA samples; Results > Species informative Alu polymorphisms, paragraph preceding Table 4; Table 4; identity caveat in Results > Population structure.",
+            "placeTimeScope": "Laboratory analyses of a 32-individual mixed-provenance DNA panel; the article does not state collection dates in the cited sections. The result is limited to study-labelled S. sciureus and S. boliviensis groups, with the authors’ specimen-identification caveat retained.",
+            "lifeStatus": "Tissue and DNA obtained from museums and research centres, with some captive-colony material reported; individual wild/captive status is not resolved for the full panel. No live field observations are used.",
+            "translationStatus": "untranslated",
+            "originalLanguage": "en"
+          }
+        ],
+        "gaps": [
+          "This single marker panel supports a narrow result about recent insertion polymorphisms and sample-group allele-frequency patterns; it does not supply a full species phylogeny, divergence-time estimate, or independently resolved species boundary."
+        ]
+      },
+      "distribution": {
+        "status": "not-assessed",
+        "claims": [],
+        "gaps": [
+          "The study’s sample sources are not a range-wide distribution inventory; no native-range or change-through-time claim is made."
+        ]
+      },
+      "fossil": {
+        "status": "not-assessed",
+        "claims": [],
+        "gaps": [
+          "No fossil evidence review or bounded fossil-record search was performed."
+        ]
+      },
+      "conservation": {
+        "status": "not-assessed",
+        "claims": [],
+        "gaps": [
+          "The paper mentions potential relevance to conservation biology but does not provide a formal status, trend, or population-risk assessment."
+        ]
+      }
+    },
+    "completeness": {
+      "status": "incomplete",
+      "reasons": [
+        "Only one bounded molecular-marker result is supported; six facets remain not-assessed and evolution remains partial.",
+        "The sample panel includes historical specimen labels and unresolved individual assignments; no species-boundary conclusion is inferred.",
+        "No comprehensive facet-by-facet literature search or independent external expert review has been completed."
+      ]
+    },
+    "expertReview": {
+      "status": "not-reviewed",
+      "reviewers": [],
+      "reviewDigest": null
+    }
+  }
+}
