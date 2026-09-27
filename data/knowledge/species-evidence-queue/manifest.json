@@ -16,7 +16,7 @@
     "dossierBasePath": "data/knowledge/catalogue-dossiers.json",
     "dossierBaseSha256": "88def9f9997c16f6eba9c51aca5c134b4af198442ae941baa284e6dd0c86beb5",
     "dossierIndexPath": "data/knowledge/catalogue-dossier-shards.json",
-    "dossierIndexSha256": "fc3b9bb7c470999a1bf5a78f97e0c5b6bb1ba59d6b459d48b4a95d0b95201ad7",
+    "dossierIndexSha256": "f2fab18bcac91d440a8eba6f2107abc977a6e81af986b4e7d27f35deb40d8d67",
     "dossierShards": [
       {
         "path": "data/knowledge/catalogue-dossiers-all.jsonl.br",
@@ -485,6 +485,12 @@
         "recordCount": 1,
         "compressedSha256": "d21abf3304eba07ef21b98c8d14b5f6b6ee292d01a95170ea4dd75ed0ea94d82",
         "decodedSha256": "703baec2e9d65cce52c6e8aa739aa5ab0da9934821046573cf770fe1eb8fc6c2"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primates-microcebus-mamiratra-2026-09-28.jsonl.br",
+        "recordCount": 1,
+        "compressedSha256": "c0a0654b4410c824f93edced46e1772f44476a085ea98fb899cb6aa92b743d2d",
+        "decodedSha256": "06d21d3f8ac7c0b1ad342ced35108ce884dbcea7368479145ac3585d594536eb"
       }
     ],
     "sourceOriginalCollections": [
@@ -634,12 +640,12 @@
     "acceptedSpecies": 2183133,
     "sourceOriginalAssociatedSpecies": 80838,
     "introductorySummarySpecies": 27,
-    "dossierSpecies": 36328,
+    "dossierSpecies": 36329,
     "completeDossierSpecies": 0,
     "externallyReviewedSpecies": 0,
-    "speciesWithAnyEvidenceStage": 80980,
-    "speciesWithoutAnyEvidenceStage": 2102153,
-    "speciesWithoutDossier": 2146805,
+    "speciesWithAnyEvidenceStage": 80981,
+    "speciesWithoutAnyEvidenceStage": 2102152,
+    "speciesWithoutDossier": 2146804,
     "sourceOriginalCollectionSpecies": {
       "brazilFloraDescriptions": 28896,
       "fdacDescriptions": 4156,
@@ -663,20 +669,20 @@
       "species": 27
     },
     "dossierStatuses": {
-      "missing": 2146805,
-      "incomplete": 36328,
+      "missing": 2146804,
+      "incomplete": 36329,
       "complete": 0
     },
     "expertReviewStatuses": {
-      "no-dossier": 2146805,
-      "not-reviewed": 36328,
+      "no-dossier": 2146804,
+      "not-reviewed": 36329,
       "maintainer-reviewed": 0,
       "externally-reviewed": 0
     },
     "claimSourceRightsStatuses": {
-      "not-assessed": 2146805,
+      "not-assessed": 2146804,
       "no-biological-claim-sources": 0,
-      "item-level-verified": 254,
+      "item-level-verified": 255,
       "claim-source-rights-unresolved": 36074
     },
     "facetStatuses": {
@@ -696,10 +702,10 @@
       },
       "ecology": {
         "supported": 0,
-        "partially-supported": 30570,
+        "partially-supported": 30571,
         "searched-no-evidence": 0,
         "conflicted": 0,
-        "not-assessed": 2152563
+        "not-assessed": 2152562
       },
       "evolution": {
         "supported": 0,
@@ -870,10 +876,10 @@
       "prefix": "c",
       "path": "data/knowledge/species-evidence-queue/c.jsonl.br",
       "recordCount": 136532,
-      "decodedBytes": 98048050,
-      "decodedSha256": "964d27ddeb303a3d225571669b5ef05c16661cc782fcb6ca4e1f7014d2864345",
-      "compressedBytes": 4673236,
-      "compressedSha256": "2e7d7872901b2aa55af186f31ab73f4af4eab1daf024a0b312e152972bbbfeac",
+      "decodedBytes": 98048092,
+      "decodedSha256": "21edecd30d6c9e9fdd793b4fb7f0aee6046d17aac1369ff24094b932d70989e1",
+      "compressedBytes": 4673302,
+      "compressedSha256": "6a4d6f9e15ac65fade0e775f21a876f81bed49cb19704000a6d58af9726acfd4",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },

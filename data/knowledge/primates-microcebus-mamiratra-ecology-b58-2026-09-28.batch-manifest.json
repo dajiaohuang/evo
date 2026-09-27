@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-microcebus-mamiratra-ecology-b58-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-microcebus-mamiratra-ecology-b58-2026-09-28.json",
+    "sha256": "75b1ae0c5f00771c31d3d2802217b82d33862efdd332126709c8d120d198a68a"
+  },
+  "duplicateCheck": {
+    "baseHead": "1ba54bcb83a8f81a055a42032c538b22ba7bbedf",
+    "checkedAt": "2026-09-28",
+    "openPullRequests": [],
+    "indexedRecordCountBeforeAdd": 36328,
+    "matchedColIds": [],
+    "matchedNames": [],
+    "baselineQueueRow": {
+      "path": "data/knowledge/species-evidence-queue/c.jsonl.br",
+      "colId": "42SBS",
+      "sha256": "3fb22bdfe664eaa08664e779d247008cae55103b6a9bef94fbebb1ea3ce03c9f",
+      "statusBeforeAdd": "missing"
+    }
+  },
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-microcebus-mamiratra-ecology-b58-2026-09-28.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 11452,
+    "sha256": "06d21d3f8ac7c0b1ad342ced35108ce884dbcea7368479145ac3585d594536eb"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-microcebus-mamiratra-2026-09-28.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 11452,
+    "decodedSha256": "06d21d3f8ac7c0b1ad342ced35108ce884dbcea7368479145ac3585d594536eb",
+    "compressedBytes": 3058,
+    "compressedSha256": "c0a0654b4410c824f93edced46e1772f44476a085ea98fb899cb6aa92b743d2d",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-primates-microcebus-mamiratra-ecology-b58.mjs"
+}
