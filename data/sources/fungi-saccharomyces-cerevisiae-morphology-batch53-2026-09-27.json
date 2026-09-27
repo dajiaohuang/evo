@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "batchId": "fungi-saccharomyces-cerevisiae-morphology-batch53-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-27",
+  "target": {
+    "colId": "4TWCR",
+    "scientificName": "Saccharomyces cerevisiae (Desm.) Meyen",
+    "rank": "species",
+    "sourceDatasetId": "2073",
+    "status": "accepted",
+    "classification": [
+      "Fungi",
+      "Ascomycota",
+      "Saccharomycetes",
+      "Saccharomycetales",
+      null,
+      "Saccharomycetaceae",
+      null,
+      null,
+      null,
+      "Saccharomyces"
+    ]
+  },
+  "source": {
+    "id": "kato2021CellShrinkage",
+    "title": "Single-Cell Time-Lapse Observation Reveals Cell Shrinkage upon Cell Death in Batch Culture of Saccharomyces cerevisiae",
+    "url": "https://journals.asm.org/doi/10.1128/mBio.03094-21",
+    "stableId": "doi:10.1128/mBio.03094-21",
+    "version": "mBio version of record, published 2021-12-21",
+    "publishedAt": "2021-12-21",
+    "accessedAt": "2026-09-27",
+    "locator": "Abstract; Observation, cell-area shrinkage results; Fig. 2A-C; Materials and Methods, strain and culture condition and time-lapse imaging/data analysis",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the article copyright notice",
+    "licenseAssessment": "item-level-verified",
+    "scope": "Original time-lapse study of stationary-phase laboratory strains W303-1A and BY4741. The claim concerns measured cell-area change around dye-positive cell death under the reported batch-culture and imaging protocol.",
+    "rightsHolder": "Setsu Kato et al.",
+    "licenseVersion": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseAppliesTo": "Article text only. No figure, table, or supplemental video is reproduced; the article page states supplemental material has separate reuse terms.",
+    "rightsEvidenceUrl": "https://journals.asm.org/doi/10.1128/mBio.03094-21",
+    "rightsEvidenceLocator": "Copyright © 2021 Kato et al.; article page states CC BY 4.0; supplemental material reuse notice is separate.",
+    "attribution": "Kato S, Suzuki K, Kenjo T, Kato J, Aoi Y, Nakashimada Y (2021). mBio. https://doi.org/10.1128/mBio.03094-21. Claim paraphrased; no figures or supplemental material reused."
+  },
+  "claim": {
+    "text": "In the study's stationary-phase batch-culture time-lapse assays, measured cell area shrank around the onset of PI-positive death in laboratory strains W303-1A and BY4741: mean reductions were 27.2% and 27.0%, respectively. With phloxine B staining, the corresponding mean reductions were 24.8% and 27.9%. W303-1A was grown for 2 days and BY4741 for 1 day to stationary phase; both were imaged hourly for 30 hours at about 24°C. These measurements describe two laboratory strains under the reported protocol, not cell volume, baseline morphology, or species-wide variation.",
+    "originalLanguage": "en",
+    "translationStatus": "untranslated",
+    "sourceIds": [
+      "kato2021CellShrinkage"
+    ],
+    "locator": "Results, PI-associated cell-area shrinkage values for W303 and BY4741; Phloxine B values; Materials and Methods, strain/culture and time-lapse imaging including the 30-hour hourly interval and cell-area measurement windows",
+    "placeTimeScope": "Kato et al. 2021 laboratory batch-culture study. W303-1A and BY4741 reached stationary phase after 2 and 1 days, respectively; the time-lapse imaging was hourly for 30 hours at about 24°C.",
+    "lifeStatus": "Two laboratory strains and their reported culture conditions only; no wild or domesticated population status is inferred."
+  },
+  "gaps": [
+    "The dynamic cell-area observation is limited to two laboratory strains and the study's batch-culture, staining, and imaging protocol; it does not characterize baseline morphology, cell volume, other strain backgrounds, or environmental variation."
+  ],
+  "systematicSearch": {
+    "date": "2026-09-27",
+    "scope": "Exact COL26.8 identity verification and bounded assessment of one primary study for a cell-morphology claim.",
+    "method": "Matched the accepted COL usage in the pinned registry; read the article abstract, results, figures 1-2 descriptions, and methods. No comprehensive literature search or strain-diversity review was performed.",
+    "queryOrPath": "COL26.8 usage 4TWCR; DOI 10.1128/mBio.03094-21",
+    "inclusionCriteria": "Directly reported cell-area measurements for the named laboratory strains under the article's stated conditions.",
+    "exclusionCriteria": "Cell-volume claims, baseline/species-wide morphology, other strains or environments, and unassessed facets.",
+    "searcher": "Evo source audit"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "audit": {
+    "baseHead": "732afc39b99733558292be710517895563ec38ee",
+    "indexedShardCount": 75,
+    "indexedRecordCount": 36322,
+    "sourceOccurrencesBeforeUpdate": 0,
+    "previousRawSha256": "a7ef57184c1845cb2944ae8c34b82484a32cccc21b1e612be09e1df8cd3d7f82",
+    "previousCompressedSha256": "65c0b057893f1f2f117c2c53f3bc2949fcc607d72d2b096330015171d395dbb1",
+    "previousTargetRecordSha256": "8d2a2afb2964f2360546697cf91db534e5cb6e783d9ffbeea6acb72c48ffb064",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-fungi-model-yeasts-dossier-batch-2026-09-24.jsonl.br",
+    "siblingColIds": [
+      "4VCRL"
+    ],
+    "sourceStableId": "doi:10.1128/mBio.03094-21",
+    "openPullRequestSearch": {
+      "queries": [
+        "4TWCR",
+        "Saccharomyces cerevisiae",
+        "10.1128/mBio.03094-21"
+      ],
+      "checkedAt": "2026-09-27",
+      "returned": 0
+    }
+  },
+  "appAndPagesPreviewManifestChanged": false
+}
