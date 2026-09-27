@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "batchId": "brachypodium-drought-ecology-batch54-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-27",
+  "target": {
+    "colId": "5WQ6Q",
+    "scientificName": "Brachypodium distachyon (L.) P.Beauv.",
+    "rank": "species",
+    "sourceDatasetId": "2232",
+    "status": "accepted",
+    "classification": [
+      "Plantae",
+      "Tracheophyta",
+      "Liliopsida",
+      "Poales",
+      null,
+      "Poaceae",
+      null,
+      null,
+      null,
+      "Brachypodium"
+    ]
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "source": {
+    "id": "fisher2016BrachypodiumDrought",
+    "title": "Linking Dynamic Phenotyping with Metabolite Analysis to Study Natural Variation in Drought Responses of Brachypodium distachyon",
+    "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2016.01751/full",
+    "stableId": "doi:10.3389/fpls.2016.01751",
+    "version": "Frontiers in Plant Science 7:1751, version of record, published 2016-11-29",
+    "publishedAt": "2016-11-29",
+    "accessedAt": "2026-09-27",
+    "locator": "Materials and Methods: Plant Material and Phenotyping of Drought Induced Physiological Changes; Results: Phenotypic Analyses of 10 Selected Brachypodium Lines, including Fig. 4; Discussion: Screening and Ecotype Selection",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the article copyright notice",
+    "licenseAssessment": "item-level-verified",
+    "scope": "Controlled greenhouse and Smarthouse drought experiment. Although 10 ecotypes were selected for detailed phenotyping, the authors excluded flowering Bd21 from further phenotypic and metabolomic analyses; the claim concerns the remaining selected accessions under the stated treatment, not wild populations or species-wide field tolerance.",
+    "rightsHolder": "L.H.C. Fisher, J. Han, F.M.K. Corke, A. Akinyemi, T. Didion, K.K. Nielsen, J.H. Doonan, L.A.J. Mur, and M. Bosch",
+    "licenseVersion": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseAppliesTo": "Article text only. This dossier paraphrases the results and does not reproduce figures, tables, or supplemental material.",
+    "rightsEvidenceUrl": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2016.01751/full",
+    "rightsEvidenceLocator": "Article copyright notice: © 2016 Fisher et al.; the article is distributed under the Creative Commons Attribution License (CC BY).",
+    "attribution": "Fisher LHC, Han J, Corke FMK, Akinyemi A, Didion T, Nielsen KK, Doonan JH, Mur LAJ, Bosch M (2016). Linking Dynamic Phenotyping with Metabolite Analysis to Study Natural Variation in Drought Responses of Brachypodium distachyon. Front Plant Sci. 7:1751. https://doi.org/10.3389/fpls.2016.01751. Claims paraphrased."
+  },
+  "claim": {
+    "text": "In a controlled greenhouse and Smarthouse drought experiment, the nine selected Brachypodium distachyon ecotypes retained for phenotypic analyses separated by previously screened drought-response group under a 12-day treatment targeting 0% soil water content: the tolerant group showed greater plant height and side-view projected area, and fewer grey and yellow pixels, than the susceptible group. These results describe the selected accessions under this imposed treatment, not species-wide field drought tolerance.",
+    "textZh": "在温室与 Smarthouse 控水试验中，进入表型分析的九个 Brachypodium distachyon 选定生态型，在以土壤含水量 0% 为目标、持续 12 天的处理下，按前期筛选的干旱响应组表现出差异：耐受组的株高和侧视投影面积较大，灰色与黄色像素较少。该结果仅描述这些选定材料在此处理下的表现，不代表全物种的野外耐旱性。",
+    "sourceIds": [
+      "fisher2016BrachypodiumDrought"
+    ],
+    "locator": "Results, Phenotypic Analyses of 10 Selected Brachypodium Lines and Fig. 4; the article states Bd21 flowered and was excluded from further phenotypic analyses.",
+    "placeTimeScope": "National Plant Phenomics Centre, Aberystwyth University, Wales, UK; greenhouse/Smarthouse experiment before flowering. Daily imaging covered the 12-day treatment from days 34 to 45 after sowing; day/night temperatures were 22°C/20°C; the severe treatment targeted 0% soil water content.",
+    "lifeStatus": "Selected diploid inbred ecotypes grown under controlled glasshouse conditions. The experiment was not a field survey and does not directly characterize wild populations.",
+    "translationStatus": "translated",
+    "originalLanguage": "en"
+  },
+  "gaps": [
+    "The drought-response evidence comes from a controlled experiment on selected accessions and does not establish species-wide field tolerance, natural population frequencies, or performance across other life stages and environments."
+  ],
+  "audit": {
+    "baseHead": "48623e1ee79bf64b480502602ad3c4a0cbbc16f4",
+    "indexedShardCount": 75,
+    "indexedRecordCount": 36322,
+    "sourceStableId": "doi:10.3389/fpls.2016.01751",
+    "sourceOccurrencesBeforeUpdate": 0,
+    "openPullRequestSearch": {
+      "checkedAt": "2026-09-27",
+      "queries": [
+        "Brachypodium",
+        "10.3389/fpls.2016.01751",
+        "5WQ6Q"
+      ],
+      "returned": 0
+    },
+    "targetShardPath": "data/knowledge/catalogue-dossiers-all.jsonl.br",
+    "targetRecordCountBeforeUpdate": 1,
+    "previousRawSha256": "05224298f9a4992e06addb64f1da7f9586df622769382b6b66177134fa4eb13d",
+    "previousCompressedSha256": "eca89b99e5703ddd9c1c2d178b9afab940f2d6f66b882471294807e18fa5cee2",
+    "previousTargetRecordSha256": "89cbb701740d17b6ae345bbf469078e4061b7e4b299fd336942892b57b2ef6e8",
+    "otherRowsSha256": "80b3c3f23b78ff3f09d9a11d79f3fb5c47672d6c506ab412572d8f0cdcb58301"
+  },
+  "appAndPagesPreviewManifestChanged": false
+}
