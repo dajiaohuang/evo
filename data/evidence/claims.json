@@ -29471,5 +29471,115 @@
         "quoteLocator": "Methods §§2.3, 2.5–2.6; Results §§3.2, 3.4–3.5."
       }
     ]
+  },
+  {
+    "id": "claim:taxon:macaca_silenus:taxonomy",
+    "subjectId": "taxon:macaca_silenus",
+    "claimType": "taxonomy",
+    "claimKind": "scientific",
+    "statement": "COL26.8 dataset 316115 records accepted species usage 3WWP6 as Macaca silenus (Linnaeus, 1758), with Macaca usage 5HYC as its immediate parent. This records checklist identity and classification only.",
+    "confidence": "medium",
+    "confidenceRationale": "COL26.8 explicitly records accepted usage 3WWP6 and immediate parent usage 5HYC. The claim reports this checklist placement alone and makes no biological or phylogenetic inference.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "COL26.8 ChecklistBank dataset 316115; accepted usage 3WWP6, source dataset 2144 and immediate parent checked 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "col-2026-checklistbank-316115",
+        "relation": "supports",
+        "pages": "Accepted species usage 3WWP6; immediate parent usage 5HYC Macaca; accepted classification through Primates usage 3W7"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:macaca_silenus:biogeography-study-sites",
+    "subjectId": "taxon:macaca_silenus",
+    "claimType": "biogeography",
+    "claimKind": "scientific",
+    "statement": "The selected studies sampled wild lion-tailed macaques at 15 named Western Ghats sites across Karnataka, Kerala and Tamil Nadu during 2010–2012, and observed one troop at Puthuthottam, Tamil Nadu, in 2016. These are study locations, not a complete current range inventory.",
+    "confidence": "high",
+    "confidenceRationale": "Both primary studies identify their sampled locations directly. The statement retains study-site scope and makes no full-range inference.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "Ram et al. 2015 DOI 10.1371/journal.pone.0142597; Dhawale et al. 2020 DOI 10.1371/journal.pone.0238695; methods checked 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "ram-2015-lion-tailed-macaque-western-ghats",
+        "relation": "supports",
+        "pages": "Methods, Study area and Sample collection; Figure 1"
+      },
+      {
+        "referenceId": "dhawale-2020-lion-tailed-macaque-habitat-behaviour",
+        "relation": "supports",
+        "pages": "Methods, Study area and Study troop and individuals; Figure 1"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:macaca_silenus:ecology",
+    "subjectId": "taxon:macaca_silenus",
+    "claimType": "ecology",
+    "claimKind": "scientific",
+    "statement": "From February to May 2016, researchers followed one habituated, free-ranging troop at Puthuthottam for over 480 hours across forest interior, forest edge, an open forest patch and human settlement. In this troop, active foraging was higher in the open patch and forest edge, and lower in the settlement than the forest interior; the activity budget differed between the interior and settlement. This single-troop dry-season study does not establish species-wide ecology or a causal effect of habitat modification.",
+    "confidence": "medium",
+    "confidenceRationale": "The article reports the study troop, dates, follow-hours, habitat classes and modelled behaviour comparisons directly. The observations concern one troop in one dry-season study and do not establish species-wide ecology or causal effects.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "Dhawale et al. 2020 DOI 10.1371/journal.pone.0238695; Methods—Study area, Study troop and individuals, Field methods; Results—Ecological and behavioural responses, Figure 3 checked 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "dhawale-2020-lion-tailed-macaque-habitat-behaviour",
+        "relation": "supports",
+        "pages": "Methods—Study area, Study troop and individuals, Field methods; Results—Ecological and behavioural responses; Figure 3"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:macaca_silenus:divergence-time-mitochondrial-model",
+    "subjectId": "taxon:macaca_silenus",
+    "claimType": "divergence-time",
+    "claimKind": "scientific",
+    "statement": "Ram et al. recovered north- and south-of-Palghat-gap mitochondrial clades among sampled lion-tailed macaques. A fossil-calibrated analysis of 893 mitochondrial bases estimated a mean time to their most recent common ancestor of 2.11 Ma; this is a regional marker-based model estimate, not a genome-wide species split date.",
+    "confidence": "medium",
+    "confidenceRationale": "The sampled clades and model estimate are reported directly, but the date comes from a fossil-calibrated analysis of 893 mitochondrial bases and is not a genome-wide species split estimate.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "Ram et al. 2015 DOI 10.1371/journal.pone.0142597; Results, Figure 4 and Table 2 checked 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "ram-2015-lion-tailed-macaque-western-ghats",
+        "relation": "supports",
+        "pages": "Results, Genetic structure and diversity; Figure 4; Table 2"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:macaca_silenus:fossil-range",
+    "subjectId": "taxon:macaca_silenus",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The selected COL26.8 identity record and the cited living-population studies do not establish a numerical temporal fossil range or complete current geographic range for Macaca silenus; numerical range endpoints remain withheld.",
+    "confidence": "low",
+    "confidenceRationale": "The checklist establishes accepted identity and the selected sources study living populations or regional genetic history; none provides a reviewed temporal fossil-range endpoint or complete distribution inventory.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "COL26.8 usage 3WWP6; Ram et al. 2015 DOI 10.1371/journal.pone.0142597; Dhawale et al. 2020 DOI 10.1371/journal.pone.0238695; scope checked 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "col-2026-checklistbank-316115",
+        "relation": "supports",
+        "pages": "Accepted usage 3WWP6; identity and classification only"
+      },
+      {
+        "referenceId": "ram-2015-lion-tailed-macaque-western-ghats",
+        "relation": "supports",
+        "quoteLocator": "Regional mitochondrial study; no species fossil-range inventory"
+      },
+      {
+        "referenceId": "dhawale-2020-lion-tailed-macaque-habitat-behaviour",
+        "relation": "supports",
+        "quoteLocator": "Living-troop field study; no temporal fossil-range estimate"
+      }
+    ]
   }
 ]

@@ -344,6 +344,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis",
         "anthropoidea",
@@ -8798,6 +8799,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis",
         "anthropoidea",
@@ -9808,6 +9810,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis",
         "anthropoidea",
@@ -10958,6 +10961,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis",
         "anthropoidea",
@@ -12159,6 +12163,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis",
         "anthropoidea",
@@ -12529,6 +12534,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis",
         "anthropoidea",
@@ -13054,6 +13060,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis",
         "anthropoidea",
@@ -13999,6 +14006,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis",
         "anthropoidea",
@@ -14248,6 +14256,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis",
         "anthropoidea",
@@ -14587,6 +14596,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis",
         "anthropoidea",
@@ -14816,6 +14826,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis",
         "anthropoidea",
@@ -15425,6 +15436,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis",
         "anthropoidea",
@@ -15801,6 +15813,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis",
         "anthropoidea",
@@ -19140,6 +19153,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis",
         "anthropoidea",
@@ -19331,6 +19345,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis",
         "anthropoidea",
@@ -19675,6 +19690,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis",
         "anthropoidea",
@@ -19803,6 +19819,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis"
       ]
@@ -20030,6 +20047,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis"
       ]
@@ -20091,6 +20109,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis"
       ]
@@ -20151,6 +20170,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis"
       ]
@@ -20210,6 +20230,7 @@
         "macaca",
         "macaca_radiata",
         "macaca_mulatta",
+        "macaca_silenus",
         "papio",
         "papio_anubis"
       ]
@@ -20267,7 +20288,8 @@
       "includesSelf": true,
       "descendantEntityIds": [
         "macaca_radiata",
-        "macaca_mulatta"
+        "macaca_mulatta",
+        "macaca_silenus"
       ]
     },
     "temporalRange": {
@@ -20386,6 +20408,59 @@
     },
     "externalIds": {
       "col": "3WWNQ",
+      "colDataset": "2144"
+    },
+    "referenceIds": [
+      "col-2026-checklistbank-316115",
+      "open-tree",
+      "pbdb-api-2016"
+    ],
+    "evidenceStatus": "contextual",
+    "limitations": [
+      "A missing branch or fossil occurrence does not imply biological absence. Internal nodes are not calibrated divergence estimates.",
+      "PBDB external identifier withheld: not-reconciled-against-pinned-PBDB-snapshot."
+    ],
+    "dataAvailability": {
+      "narrativeProfile": "available",
+      "ecology": "available",
+      "media": "unavailable",
+      "topologyHypothesis": "unmapped"
+    },
+    "version": "2026.09-static-v5-rc154"
+  },
+  {
+    "id": "macaca_silenus",
+    "entityKind": "taxon",
+    "contentLevel": "dossier",
+    "externalResolutionStatus": "not-applicable",
+    "packageId": "primates",
+    "parentId": "macaca",
+    "parentRelationshipKind": "taxonomic-parent",
+    "names": {
+      "scientific": "Macaca silenus",
+      "en": "Lion-tailed Macaque",
+      "zh": "狮尾猕猴"
+    },
+    "synonyms": [],
+    "rank": "species",
+    "definition": {
+      "en": "COL26.8 dataset 316115 records accepted species usage 3WWP6 as Macaca silenus (Linnaeus, 1758), with Macaca usage 5HYC as its immediate parent. This records checklist identity and classification only. This navigation entry is not a phylogeny or a complete taxon dossier.",
+      "zh": "COL26.8 数据集 316115 将 3WWP6 记录为接受的 Macaca silenus（Linnaeus, 1758）种级用名，直接父级为 Macaca 用名 5HYC。此陈述仅记录清单身份与分类位置。 此导航摘要不表示系统发育或完整的类群档案。"
+    },
+    "compositionScope": {
+      "includesSelf": true,
+      "descendantEntityIds": []
+    },
+    "temporalRange": {
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "COL26.8 supports accepted identity and classification; Ram et al. report regional mitochondrial sampling and Dhawale et al. report one living troop, neither a complete fossil-range or current distribution study.",
+      "evidenceLevel": "withheld-no-range-evidence",
+      "provisional": true
+    },
+    "externalIds": {
+      "col": "3WWP6",
       "colDataset": "2144"
     },
     "referenceIds": [
