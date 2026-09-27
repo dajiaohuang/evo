@@ -78,5 +78,47 @@
         }
       ]
     }
+  ],
+  "auditedDossierBatches": [
+    {
+      "batchId": "plazi-lycianthes-dossier-batch-2026-09-27",
+      "input": "data/sources/plazi-lycianthes-dossier-batch-2026-09-27.json",
+      "inputSha256": "914572347021c9f2857e5c03249d0d1254a68254255978e69d802bce21ef4511",
+      "generator": "scripts/build-plazi-lycianthes-dossier-batch.mjs",
+      "manifest": "data/knowledge/catalogue-dossiers-plazi-lycianthes-batch-2026-09-27.batch-manifest.json",
+      "authoredDossiers": 3,
+      "sourceRows": [
+        {
+          "colId": "7X2WL",
+          "rows": [
+            "3",
+            "6",
+            "5",
+            "5"
+          ]
+        },
+        {
+          "colId": "7X2WM",
+          "rows": [
+            "11",
+            "14",
+            "13",
+            "13"
+          ]
+        },
+        {
+          "colId": "7X2WR",
+          "rows": [
+            "19",
+            "22",
+            "21",
+            "21"
+          ]
+        }
+      ],
+      "claimPolicy": "Four bounded partial facets per species; three facets not assessed; cited article item-level rights unknown; CC0 applies only to the extracted Plazi record declaration.",
+      "completeDossiersAdded": 0,
+      "externallyReviewedDossiersAdded": 0
+    }
   ]
 }
