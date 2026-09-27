@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "batchId": "species-evidence-batch55-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-27",
+  "baseAudit": {
+    "baseHead": "106a75352b67c10775cb0ac5eb765d2643187ae6",
+    "indexedRecordCount": 36322,
+    "indexedShardCount": 75,
+    "openPullRequests": [],
+    "newRecordColIds": ["35JV8", "KF8T"],
+    "updatedColIds": [],
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "queueRows": {
+      "35JV8": {
+        "shard": "data/knowledge/species-evidence-queue/8.jsonl.br",
+        "sha256": "c053eb96977e7c2eb0ba723134d0fa21f8c8f5802b457c265419468c0887f198",
+        "postDossierSha256": "b73d3e29d1cf91d473c000119c66068f30032ad60ed7b9abf872abf7e3ec27e2",
+        "dossierStatus": "missing"
+      },
+      "KF8T": {
+        "shard": "data/knowledge/species-evidence-queue/d.jsonl.br",
+        "sha256": "29bf734fd8b9b7affb21c73b67b31f7fb51a11bbb2e5ab637e95fea9b9ec02eb",
+        "postDossierSha256": "97b24c3073d03c3b465166c5a9c54f760a75063bf4e8e6abe70073cf0112419d",
+        "dossierStatus": "missing"
+      }
+    },
+    "sourceStableIdsCheckedAbsent": [
+      "doi:10.1038/s41467-021-22386-8",
+      "doi:10.1098/rspb.2022.1180"
+    ],
+    "sourceOccurrencesBeforeUpdate": 0,
+    "openPullRequestSearch": {
+      "checkedAt": "2026-09-27",
+      "queries": ["35JV8", "KF8T", "10.1038/s41467-021-22386-8", "10.1098/rspb.2022.1180"],
+      "returned": 0
+    }
+  },
+  "newRecords": [
+    {
+      "colId": "35JV8",
+      "scientificName": "Dicerorhinus sumatrensis (G. Fischer [von Waldheim], 1814)",
+      "authorship": "(G. Fischer [von Waldheim], 1814)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "identityScope": "Exact accepted COL26.8 species usage 35JV8. The claim concerns genomic population structure among sampled historical and modern specimens attributed to Sumatra, the Malay Peninsula, and Borneo; it does not establish a species-level phylogeny or formal management units.",
+      "facet": "evolution",
+      "claim": {
+        "text": "A pairwise-distance phylogeny and principal-component analysis of 21 historical and modern Sumatran rhinoceros genomes recovered three main population groups associated with Sumatra, the Malay Peninsula, and Borneo. The tree and clustering analyses also distinguished northeastern and southwestern lineages within Sumatra. The Malay Peninsula samples grouped together, contrasting with an earlier mitogenome result. These findings describe the sampled populations; they do not establish a species-level ancestry tree or formal conservation units.",
+        "textZh": "研究者对 21 份历史及现代苏门答腊犀基因组进行成对遗传距离系统发育分析和主成分分析，得到分别与苏门答腊、马来半岛和婆罗洲相关的三个主要种群群组。系统发育树和聚类分析还区分出苏门答腊岛东北部与西南部谱系。马来半岛样本归为同一群，与较早的线粒体基因组研究结果不同。这些发现描述的是本研究取样所见的种群结构，不代表物种级祖先关系树或正式保育单元。",
+        "locator": "Results, “Population structure and demographic history,” first paragraph and Fig. 1b; Methods, “Population structure.” The article reports 21 genomes in the population-structure analysis, including three additional lower-coverage genomes.",
+        "placeTimeScope": "Historical and modern genomic specimens attributed to Sumatran rhinoceros populations on Sumatra, the Malay Peninsula, and Borneo; analysis published in 2021. The result is limited to the sampled genomes and population labels.",
+        "lifeStatus": "Specimen-derived genomic evidence attributed to natural regional populations; this claim does not characterize captive, domesticated, or fossil individuals."
+      },
+      "facetGap": "This one genomic population-structure analysis does not establish species-level phylogenetic placement, divergence dates, formal conservation units, or the other six scientific facets.",
+      "lifeStatusScope": {
+        "wild": "The genomic samples are attributed by the article to regional Sumatran rhinoceros populations; this claim does not independently assess the collection status of every specimen.",
+        "domesticated": "No domesticated individuals were assessed.",
+        "captive": "Captive individuals are not identified as a scope of this population-structure claim.",
+        "fossil": "The analysis uses genomic specimens and does not constitute an assessment of fossil occurrences or geological deposits."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary whole-genome population-structure study; not a complete species-wide or seven-facet review.",
+        "method": "Verified the accepted usage and full accepted parent chain in the pinned COL26.8 registry; reviewed the article's genome sample, pairwise-distance tree, PCA, population labels, limitations, and item-level CC BY license statement.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage 35JV8; DOI 10.1038/s41467-021-22386-8; Nature Communications article and PDF.",
+        "inclusionCriteria": "Primary research directly analyzing Dicerorhinus sumatrensis genomes and reporting an explicit within-species population-structure result.",
+        "exclusionCriteria": "Species-level ancestry, unsampled populations, divergence dates, formal management units, morphology, life history, ecology, distribution, fossil history, and conservation status are not inferred from this claim."
+      },
+      "unassessedFacetGaps": {
+        "morphology": "The genomic population-structure analysis does not document diagnostic morphology or anatomical variation.",
+        "lifeHistory": "The selected genomic result does not assess reproduction, survival, development, or lifespan.",
+        "ecology": "The population-genomic analyses do not directly establish habitat use, diet, or species interactions.",
+        "distribution": "Sample localities and population labels do not establish the complete geographic range or current occupancy.",
+        "fossil": "The study does not assess fossil specimens, deposits, or geological occurrences.",
+        "conservation": "Although the article discusses conservation, this selected claim addresses population structure only and is not a formal status assessment or management-unit recommendation."
+      },
+      "source": {
+        "id": "vonSeth2021SumatranRhinocerosGenomics",
+        "title": "Genomic insights into the conservation status of the world's last remaining Sumatran rhinoceros populations",
+        "url": "https://www.nature.com/articles/s41467-021-22386-8",
+        "stableId": "doi:10.1038/s41467-021-22386-8",
+        "version": "Nature Communications 12, Article 2393 (2021)",
+        "publishedAt": "2021-04-26",
+        "locator": "Results, “Population structure and demographic history”; Fig. 1b; Methods, “Population structure”; article open-access license notice.",
+        "license": "The article is open access under CC BY 4.0. The claim is paraphrased with attribution; no figure or table is reproduced.",
+        "rightsHolder": "The article authors, led by Johanna von Seth and Love Dalén.",
+        "licenseEvidenceUrl": "https://www.nature.com/articles/s41467-021-22386-8",
+        "licenseEvidenceLocator": "Article open-access copyright and licensing notice; CC BY 4.0 license link.",
+        "licenseAppliesTo": "Article text under the article-level CC BY 4.0 license; no third-party figure or table content is reused.",
+        "attribution": "von Seth J et al. (2021). Genomic insights into the conservation status of the world's last remaining Sumatran rhinoceros populations. Nature Communications 12, 2393. https://doi.org/10.1038/s41467-021-22386-8. CC BY 4.0. Claim paraphrased.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "Within-species structure inferred from 21 historical and modern genomes representing sampled populations on Sumatra, the Malay Peninsula, and Borneo; not a species-level phylogeny or formal conservation assessment."
+      }
+    },
+    {
+      "colId": "KF8T",
+      "scientificName": "Balaenoptera musculus (Linnaeus, 1758)",
+      "authorship": "(Linnaeus, 1758)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "identityScope": "Exact accepted COL26.8 species usage KF8T. The ecological claim concerns selected tagged free-ranging individuals studied in the California Current System; it does not establish a species-wide foraging rule.",
+      "facet": "ecology",
+      "claim": {
+        "text": "In the California Current System, a 2016–2020 study using data from 10 tagged free-ranging blue whales selected from 23 deployments found that the whales foraged disproportionately within dynamic aggregative submesoscale surface-current features; estimated feeding rates also increased with feature strength. The result is bounded to the selected deployments and a modelled current-feature proxy, and does not establish a species-wide pattern across populations or seasons.",
+        "textZh": "在加利福尼亚洋流系统，一项 2016—2020 年研究从 23 次标签部署中选取 10 头自由活动蓝鲸的数据；研究发现，这些鲸更常在动态聚集型亚中尺度表层洋流特征内觅食，估算摄食率也随特征强度增加。该结果仅适用于所选部署和模型化洋流特征指标，不能据此确立跨种群或跨季节的全物种规律。",
+        "locator": "Abstract; Results §§3(b) “Feeding site selection” and 3(c) “Influence on feeding rates”; Methods §2(a) for study period and tagged-individual selection.",
+        "placeTimeScope": "California Current System, 2016–2020; ten selected tagged individuals from 23 deployments, with mean deployment duration 7.1 ± 5.0 days; free-ranging blue whales. Feeding habitat features were represented by modelled finite-time Lyapunov exponent (FTLE) values derived from surface-current observations.",
+        "lifeStatus": "Free-ranging, tagged animals in a regional field study; captive, domesticated, and fossil evidence was not assessed."
+      },
+      "facetGap": "This regional tag study does not establish feeding ecology across the species' global range, population-level prey availability, or a causal effect of surface-current features on prey density.",
+      "lifeStatusScope": {
+        "wild": "The claim concerns free-ranging blue whales tagged in the California Current System.",
+        "domesticated": "No domesticated animals were assessed.",
+        "captive": "No captive animals were included in the claim.",
+        "fossil": "The study does not assess fossil occurrences or geological deposits."
+      },
+      "search": {
+        "scope": "Exact COL26.8 identity and focused review of one primary biologging and ocean-current study; not a complete species ecology or seven-facet review.",
+        "method": "Verified the accepted usage and full accepted parent chain in the pinned COL26.8 registry; reviewed the study area, deployment inclusion, feeding-rate analysis, modelled FTLE proxy, article license notice, and stated scope.",
+        "queryOrPath": "Pinned COL26.8 ChecklistBank dataset 316115 usage KF8T; DOI 10.1098/rspb.2022.1180; Proceedings of the Royal Society B article and NOAA repository PDF.",
+        "inclusionCriteria": "Primary research directly measuring blue-whale foraging behavior alongside fine-scale surface-current features and reporting a bounded ecology result.",
+        "exclusionCriteria": "Global range, all-population diet, prey-density causality, population trends, morphology, life history, evolutionary history, fossils, and conservation status are not inferred from this regional tag study."
+      },
+      "unassessedFacetGaps": {
+        "morphology": "The foraging study does not document diagnostic morphology or anatomical variation.",
+        "lifeHistory": "Short tag deployments do not assess the full life cycle, reproduction, or lifespan.",
+        "evolution": "The study does not analyze phylogeny or evolutionary history.",
+        "distribution": "California Current tag locations do not establish the species' global geographic range.",
+        "fossil": "The study does not assess fossil specimens, deposits, or geological occurrences.",
+        "conservation": "The selected ecology result is not a population trend, threat assessment, or formal conservation-status evaluation."
+      },
+      "source": {
+        "id": "fahlbusch2022BlueWhaleFineScaleForaging",
+        "title": "Blue whales increase feeding rates at fine-scale ocean features",
+        "url": "https://doi.org/10.1098/rspb.2022.1180",
+        "stableId": "doi:10.1098/rspb.2022.1180",
+        "version": "Proceedings of the Royal Society B 289:20221180 (2022)",
+        "publishedAt": "2022",
+        "locator": "Abstract; Results §§3(b)–3(c); Methods §2(a); first-page CC BY 4.0 copyright notice.",
+        "license": "The article is published under the Creative Commons Attribution License (CC BY 4.0). The claim is paraphrased with author attribution; no figure or table is reproduced.",
+        "rightsHolder": "James A. Fahlbusch, Max F. Czapanskiy, John Calambokidis, David E. Cade, Briana Abrahms, Elliott L. Hazen, and Jeremy A. Goldbogen.",
+        "licenseEvidenceUrl": "https://repository.library.noaa.gov/view/noaa/53087/noaa_53087_DS1.pdf",
+        "licenseEvidenceLocator": "Article first-page copyright notice: © 2022 The Authors, published by the Royal Society under CC BY 4.0.",
+        "licenseAppliesTo": "Article text under its article-level CC BY 4.0 license; no third-party figure or table content is reused.",
+        "attribution": "Fahlbusch JA, Czapanskiy MF, Calambokidis J, Cade DE, Abrahms B, Hazen EL, Goldbogen JA (2022). Blue whales increase feeding rates at fine-scale ocean features. Proceedings of the Royal Society B 289:20221180. https://doi.org/10.1098/rspb.2022.1180. CC BY 4.0. Claim paraphrased.",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAssessment": "item-level-verified",
+        "scope": "Selected blue-whale tag deployments in the California Current System from 2016 to 2020; FTLE is a modelled proxy for aggregative surface-current features and is not a direct prey-density measurement."
+      }
+    }
+  ],
+  "updates": []
+}
