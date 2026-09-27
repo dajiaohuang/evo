@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "batchId": "fna-pinus-morphology-dossier-batch-2-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/fna-pinus-morphology-dossier-batch-2-2026-09-27.json",
+    "sha256": "b0bc3d1ec67a3e073f064c92657be17033d34436655a614b298f2f00cdb3e3d6"
+  },
+  "baseAudit": {
+    "baseHead": "a54625476d1fef9e3c447124471d5490d68db5a3",
+    "indexedRecordCount": 6984,
+    "indexedShardCount": 67,
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "openPullRequests": []
+  },
+  "updatedRecords": [],
+  "newRecords": [
+    {
+      "colId": "4J24K",
+      "scientificName": "Pinus cembroides Zucc."
+    },
+    {
+      "colId": "4J267",
+      "scientificName": "Pinus echinata Mill."
+    },
+    {
+      "colId": "4J27G",
+      "scientificName": "Pinus glabra Walter"
+    },
+    {
+      "colId": "4J2CG",
+      "scientificName": "Pinus monticola Douglas ex D.Don"
+    },
+    {
+      "colId": "4J2CS",
+      "scientificName": "Pinus muricata D.Don"
+    },
+    {
+      "colId": "4J2F3",
+      "scientificName": "Pinus ponderosa Douglas ex C.Lawson"
+    },
+    {
+      "colId": "4J2FK",
+      "scientificName": "Pinus pungens Lamb."
+    },
+    {
+      "colId": "4J2FN",
+      "scientificName": "Pinus quadrifolia Parl. ex Sudw."
+    },
+    {
+      "colId": "4J2G5",
+      "scientificName": "Pinus resinosa Aiton"
+    },
+    {
+      "colId": "4J2G9",
+      "scientificName": "Pinus rigida Mill."
+    },
+    {
+      "colId": "4J2HX",
+      "scientificName": "Pinus strobiformis Engelm."
+    },
+    {
+      "colId": "4J2HY",
+      "scientificName": "Pinus strobus L."
+    },
+    {
+      "colId": "4J2JZ",
+      "scientificName": "Pinus torreyana Parry ex Carrière"
+    },
+    {
+      "colId": "4J2KR",
+      "scientificName": "Pinus virginiana Mill."
+    },
+    {
+      "colId": "6VKSL",
+      "scientificName": "Pinus serotina Michx."
+    },
+    {
+      "colId": "77KTN",
+      "scientificName": "Pinus elliottii Engelm."
+    },
+    {
+      "colId": "C85JD",
+      "scientificName": "Pinus sabiniana Douglas"
+    },
+    {
+      "colId": "VM3L9",
+      "scientificName": "Pinus clausa (Chapm. ex Engelm.) Vasey ex Sarg."
+    }
+  ],
+  "indexedRecordCount": 7002,
+  "newShard": {
+    "path": "data/knowledge/catalogue-dossiers-fna-pinus-morphology-dossier-batch-2-2026-09-27.jsonl.br",
+    "rawPath": "data/knowledge/raw-dossiers/fna-pinus-morphology-dossier-batch-2-2026-09-27.jsonl",
+    "encoding": "brotli-jsonl",
+    "recordCount": 18,
+    "decodedBytes": 174579,
+    "decodedSha256": "e1516af852360e26a6892f63a302b34e30edd47d7dfbcf1588773282f810813e",
+    "compressedBytes": 6733,
+    "compressedSha256": "f9d9b8c756699fcbb2ec7ac6e78bebe199a97248b7283fc9d8e43e7106bacb92",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "sourceArchive": {
+    "path": "data/sources/fna-descriptions.jsonl.br",
+    "sha256": "f6000a5956207c9e300d1009c791951b83e865661e9edeba4aba4c66ff3dcbf1",
+    "archiveLicenseLedger": "data/sources/fna-descriptions-import-ledger.json"
+  },
+  "generator": "scripts/build-fna-pinus-morphology-dossier-batch-2.mjs"
+}
