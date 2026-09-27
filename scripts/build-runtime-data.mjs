@@ -1943,8 +1943,10 @@ const releaseFilesIndex = writeJson('release-files.json', {
   datasetVersion: sourceManifest.datasetVersion,
   files: releaseFiles,
 }, true)
-const retentionByteLimit = Math.max(previousReleaseHistory.retentionByteLimit ?? 0, 650 * 1024 * 1024)
 const currentReleaseBytes = releaseFiles.reduce((sum, file) => sum + file.bytes, 0) + releaseFilesIndex.bytes
+// Full-web releases are not Pages deployments; keep their retention allowance separate from preview editions.
+const editionRetentionByteLimit = (pagesPreview ? 650 : 700) * 1024 * 1024
+const retentionByteLimit = Math.max(previousReleaseHistory.retentionByteLimit ?? 0, editionRetentionByteLimit)
 const currentRelease = {
   datasetVersion: sourceManifest.datasetVersion,
   releaseBase: `${releasePrefix}/`,
