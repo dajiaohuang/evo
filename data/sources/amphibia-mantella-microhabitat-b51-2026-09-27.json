@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "batchId": "amphibia-mantella-microhabitat-batch51-2026-09-27",
+  "checkedAt": "2026-09-27",
+  "releaseAlias": "COL26.8",
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "datasetDoi": "10.48580/dgywk",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "target": {
+    "colId": "736LN",
+    "scientificName": "Mantella aurantiaca Mocquard, 1900",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "classification": ["Animalia", "Chordata", "Amphibia", "Anura", null, "Mantellidae", "Mantellinae", null, null, "Mantella"]
+  },
+  "audit": {
+    "baseHead": "7fbd4ad87ffa310cdb3f1eff5a83531024722323",
+    "indexedShardCount": 75,
+    "indexedRecordCount": 36322,
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-amphibia-batch-2026-09-24.jsonl.br",
+    "previousRawSha256": "c15e879d3c80cb299e009f045ccbeb8ed92d277e5ea0d635e0e500faba8298c9",
+    "previousCompressedSha256": "ada530c3879b815c3de38912209a575c2b36dec9ae7d91515eae8d65f3e7b105",
+    "previousTargetRecordSha256": "81153f6b6125a5edb4074e0ccd1cf9f1796a66babbe5327651951abb9ac6159c",
+    "siblingColIds": ["3SLRG", "4ZMCC", "CQ4M", "J8YL"],
+    "sourceOccurrencesBeforeUpdate": 0,
+    "sourceStableId": "doi:10.33256/hj29.4.207213",
+    "openPullRequestSearch": {
+      "queries": ["736LN", "10.33256/hj29.4.207213"],
+      "checkedAt": "2026-09-27",
+      "returned": 0
+    }
+  },
+  "source": {
+    "id": "edwards2019mantellamicrohabitat",
+    "title": "Edwards et al. (2019), Microhabitat preference of the critically endangered golden mantella frog in Madagascar",
+    "url": "https://doi.org/10.33256/hj29.4.207213",
+    "rightsEvidenceUrl": "https://kar.kent.ac.uk/77158/",
+    "rightsEvidenceLocator": "Kent Academic Repository record identifies the publisher PDF and states that the work is licensed under Creative Commons Attribution 4.0 International.",
+    "version": "Herpetological Journal 29(4):207-213 (2019); publisher PDF deposited in the Kent Academic Repository.",
+    "stableId": "doi:10.33256/hj29.4.207213",
+    "publishedAt": "2019",
+    "accessedAt": "2026-09-27",
+    "locator": "Methods: Data Collection; Results; generalized linear mixed model, Table 2; Discussion.",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated on the Kent Academic Repository item record for the publisher PDF.",
+    "licenseAssessment": "item-level-verified",
+    "scope": "Field survey of presence/absence and microhabitat variables at ten forested sites near known breeding ponds in the Mangabe-Ranomena-Sahasarotra protected area, Moramanga district, eastern Madagascar. Claims retain the study's quadrat, site, and survey limitations; they do not establish a complete range, population abundance, or species-wide habitat preference.",
+    "rightsHolder": "The authors",
+    "licenseVersion": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseAppliesTo": "The publisher PDF identified in the Kent repository record. This dossier paraphrases article text and does not reproduce figures, tables, or separately credited third-party material.",
+    "attribution": "Edwards WM, Griffiths RA, Bungard MJ, Rakotondrasoa EF, Razafimanahaka JH, Razafindraibe P, Andriantsimanarilafy RR, Randrianantoandro JC (2019). Microhabitat preference of the critically endangered golden mantella frog in Madagascar. Herpetological Journal 29(4):207-213. https://doi.org/10.33256/hj29.4.207213. Claims paraphrased."
+  },
+  "claim": {
+    "text": "Across ten forested sites near known breeding ponds in the Mangabe-Ranomena-Sahasarotra protected area of eastern Madagascar, Mantella aurantiaca detections in 1 m² quadrats were associated with leaf-litter cover, tree-root counts, and surface temperature. The fitted mixed model reported positive coefficients for litter cover and root count and a negative coefficient for surface temperature; the article's adjacent prose describes detections as lower in the densest-root plots and reports a mean of 1.73 roots in occupied quadrats. Because the root-count summaries differ by level of comparison within this study, this record does not infer one monotonic root preference. The authors also caution that counts could vary with survey-day activity and are not a direct estimate of abundance.",
+    "sourceIds": ["edwards2019mantellamicrohabitat"],
+    "locator": "Results and Table 2; Discussion on between-site counts and survey-day conditions.",
+    "placeTimeScope": "The survey covered ten forested sites in the Mangabe-Ranomena-Sahasarotra protected area near Moramanga, eastern Madagascar; each contained or bordered known breeding ponds. The article states that nine sites were surveyed from 28 November to 12 December 2014 and the tenth in March 2014. Surveys made one visit per site between 07:00 and 14:00; quadrats were placed along transects around breeding pools.",
+    "lifeStatus": "Wild field observations at forest sites near breeding ponds; detections and modeled associations apply to these sampled sites, quadrats, and visits.",
+    "translationStatus": "untranslated",
+    "originalLanguage": "en"
+  },
+  "gaps": [
+    "Ten local sites and single visits do not establish habitat use across the species' range, seasons, life stages, or populations; detection counts are not population abundance estimates.",
+    "The paper reports different root-count directions across its fitted model, within-site prose, and denser-root cross-site discussion; no single monotonic root preference is inferred.",
+    "The study does not assess diet, reproduction, long-term habitat change, current distribution, or conservation trend."
+  ]
+}

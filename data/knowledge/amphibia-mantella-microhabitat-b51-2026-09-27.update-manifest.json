@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "batchId": "amphibia-mantella-microhabitat-batch51-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/amphibia-mantella-microhabitat-b51-2026-09-27.json",
+    "sha256": "23a3ce5a9f17b63b95e13359a921a8ec67262c794f196b8569c563d5916b5e6c"
+  },
+  "duplicateCheck": {
+    "mode": "in-place-update",
+    "indexedShardCount": 75,
+    "indexedRecordCount": 36322,
+    "sourceStableIds": [
+      "doi:10.33256/hj29.4.207213"
+    ],
+    "sourceOccurrencesBeforeUpdate": 0,
+    "matchedColIds": [
+      "736LN"
+    ],
+    "matchedNames": [
+      "mantella aurantiaca mocquard, 1900"
+    ],
+    "openPullRequests": []
+  },
+  "updateAudit": {
+    "baseHead": "7fbd4ad87ffa310cdb3f1eff5a83531024722323",
+    "indexedShardCountAtAudit": 75,
+    "indexedRecordCountAtAudit": 36322,
+    "targetColId": "736LN",
+    "targetScientificName": "Mantella aurantiaca Mocquard, 1900",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-amphibia-batch-2026-09-24.jsonl.br",
+    "previousRawSha256": "c15e879d3c80cb299e009f045ccbeb8ed92d277e5ea0d635e0e500faba8298c9",
+    "previousCompressedSha256": "ada530c3879b815c3de38912209a575c2b36dec9ae7d91515eae8d65f3e7b105",
+    "previousTargetRecordSha256": "81153f6b6125a5edb4074e0ccd1cf9f1796a66babbe5327651951abb9ac6159c",
+    "sourceOccurrencesBeforeUpdate": 0,
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "queries": [
+        "736LN",
+        "10.33256/hj29.4.207213"
+      ],
+      "checkedAt": "2026-09-27",
+      "returned": 0
+    },
+    "mode": "in-place-add-sample-bounded-wild-microhabitat-ecology-source",
+    "indexedRecordCountAfterUpdate": 36322,
+    "outputRawSha256": "62b8fc750584e1caf663e129de25d76622b8e82c43a089664d4344172e72803f",
+    "outputCompressedSha256": "331192026db70dcbf077ff1be4a26ebe6b1112aff21c609b4952652a5639efe5"
+  },
+  "sources": [
+    {
+      "id": "edwards2019mantellamicrohabitat",
+      "stableId": "doi:10.33256/hj29.4.207213",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "rightsHolder": "The authors"
+    }
+  ],
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-amphibia-batch-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 5,
+    "decodedBytes": 37868,
+    "decodedSha256": "62b8fc750584e1caf663e129de25d76622b8e82c43a089664d4344172e72803f",
+    "compressedBytes": 7612,
+    "compressedSha256": "331192026db70dcbf077ff1be4a26ebe6b1112aff21c609b4952652a5639efe5",
+    "brotliParameters": {
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "datasetDoi": "10.48580/dgywk",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "preservedSiblingColIds": [
+    "3SLRG",
+    "4ZMCC",
+    "CQ4M",
+    "J8YL"
+  ],
+  "generator": "scripts/update-amphibia-mantella-microhabitat-batch51.mjs",
+  "updateMode": "in-place-enrichment-of-one-existing-record",
+  "appAndPagesPreviewManifestChanged": false
+}
