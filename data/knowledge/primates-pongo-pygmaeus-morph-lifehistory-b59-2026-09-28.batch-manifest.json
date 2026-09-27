@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-pongo-pygmaeus-morph-lifehistory-b59-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-pongo-pygmaeus-morph-lifehistory-b59-2026-09-28.json",
+    "sha256": "b5e04d655b408788fc06b1b92efeb87fe54cf1dbc2ce73d1188c3eded64969ea"
+  },
+  "preparedAgainst": {
+    "head": "1871b6961a95ba1ada578694f5db2705c62ae93f",
+    "openPullRequestsMatching": [],
+    "checkedAt": "2026-09-28"
+  },
+  "duplicateCheck": {
+    "indexedRecordCount": 36329,
+    "queueShardPath": "data/knowledge/species-evidence-queue/a.jsonl.br",
+    "queueRowSha256BeforeUpdate": "d7cc78bb68f8e4189091825c1c7525bea92993ee492a8c6296c65041b7cf21da",
+    "sourceStableId": "doi:10.1371/journal.pone.0296688",
+    "sourceStableIdOccurrencesBeforeUpdate": 0,
+    "targetRecordCountBeforeUpdate": 1,
+    "matchedColIds": [
+      "4LTT2"
+    ],
+    "matchedNames": [
+      "pongo pygmaeus linnaeus 1760"
+    ],
+    "openPullRequests": []
+  },
+  "previousDossierBatchManifest": {
+    "path": "data/knowledge/catalogue-dossiers-primates-core-batch5-2026-09-24.batch-manifest.json",
+    "sha256": "fed656550e4ad4eda1f0201d0f7d680a3bd1a9577b92dfba0565ee24b34467d7",
+    "batchId": "primates-core-batch5-2026-09-24"
+  },
+  "updateAudit": {
+    "baseHead": "1871b6961a95ba1ada578694f5db2705c62ae93f",
+    "indexedRecordCountAtAudit": 36329,
+    "targetColId": "4LTT2",
+    "targetScientificName": "Pongo pygmaeus (Linnaeus, 1760)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-core-batch5-2026-09-24.jsonl.br",
+    "previousRawSha256": "a9292b721afa4cb96227ded03c54f2890943de59d559e7da02ac29bb383b84df",
+    "previousShardDecodedSha256": "a9292b721afa4cb96227ded03c54f2890943de59d559e7da02ac29bb383b84df",
+    "previousShardCompressedSha256": "89770a25eea6522c8eecea5c39428d66f2c37ef95298a72baaff6b2db45bb6ed",
+    "previousTargetRecordSha256": "9173783d2d0332f8eeaae4e40bb35fd999c0166902d5324610d7d444b90719bf",
+    "indexedRecordCountAfterUpdate": 36329,
+    "outputRawSha256": "dab349a3ecf463d170d29c6f763cb80fbba8f745a69b3e8179ae730ef0925ae3",
+    "outputDecodedSha256": "dab349a3ecf463d170d29c6f763cb80fbba8f745a69b3e8179ae730ef0925ae3",
+    "outputCompressedSha256": "2492ff2d4545505f6fb4a20657f2e125be814d11d527184adfbfe0cecb43ca27",
+    "mode": "in-place-add-morphology-and-life-history-to-existing-record"
+  },
+  "sources": [
+    {
+      "id": "scott2024",
+      "stableId": "doi:10.1371/journal.pone.0296688",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "rightsHolder": "Scott et al. (2024)"
+    }
+  ],
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-core-batch5-2026-09-24.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 2,
+    "bytes": 32875,
+    "sha256": "dab349a3ecf463d170d29c6f763cb80fbba8f745a69b3e8179ae730ef0925ae3"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-core-batch5-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 2,
+    "decodedBytes": 32875,
+    "decodedSha256": "dab349a3ecf463d170d29c6f763cb80fbba8f745a69b3e8179ae730ef0925ae3",
+    "compressedBytes": 7502,
+    "compressedSha256": "2492ff2d4545505f6fb4a20657f2e125be814d11d527184adfbfe0cecb43ca27",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "preservedSiblingColIds": [
+    "J8P6"
+  ],
+  "generator": "scripts/update-primates-pongo-pygmaeus-morph-lifehistory-b59.mjs",
+  "updateMode": "in-place-enrichment-of-one-existing-record",
+  "appAndPagesPreviewManifestChanged": false
+}

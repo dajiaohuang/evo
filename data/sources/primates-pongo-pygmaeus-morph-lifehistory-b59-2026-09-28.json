@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-pongo-pygmaeus-morph-lifehistory-b59-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "preparedAgainst": {
+    "head": "1871b6961a95ba1ada578694f5db2705c62ae93f",
+    "openPullRequestsMatching": [],
+    "checkedAt": "2026-09-28"
+  },
+  "audit": {
+    "target": {
+      "colId": "4LTT2",
+      "scientificName": "Pongo pygmaeus (Linnaeus, 1760)",
+      "authorship": "(Linnaeus, 1760)",
+      "rank": "species",
+      "sourceDatasetId": "2144"
+    },
+    "indexedRecordCount": 36329,
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-core-batch5-2026-09-24.jsonl.br",
+    "previousRawSha256": "a9292b721afa4cb96227ded03c54f2890943de59d559e7da02ac29bb383b84df",
+    "previousShardDecodedSha256": "a9292b721afa4cb96227ded03c54f2890943de59d559e7da02ac29bb383b84df",
+    "previousShardCompressedSha256": "89770a25eea6522c8eecea5c39428d66f2c37ef95298a72baaff6b2db45bb6ed",
+    "previousTargetRecordSha256": "9173783d2d0332f8eeaae4e40bb35fd999c0166902d5324610d7d444b90719bf",
+    "queueShardPath": "data/knowledge/species-evidence-queue/a.jsonl.br",
+    "queueRowSha256BeforeUpdate": "d7cc78bb68f8e4189091825c1c7525bea92993ee492a8c6296c65041b7cf21da",
+    "openPullRequests": [],
+    "sourceStableIdOccurrencesBeforeUpdate": 0,
+    "preservedSiblingColIds": ["J8P6"]
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "checkedAt": "2026-09-28",
+  "source": {
+    "id": "scott2024",
+    "title": "Scott et al. (2024), Flanged males have higher reproductive success in a completely wild orangutan population",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0296688",
+    "stableId": "doi:10.1371/journal.pone.0296688",
+    "version": "PLOS ONE 19(2):e0296688; version of record published 2024-02-09",
+    "publishedAt": "2024-02-09",
+    "accessedAt": "2026-09-28",
+    "locator": "Abstract; Materials and methods §Study site and population and §Behavioral data collection; Results §Male reproductive success and Table 2.",
+    "license": "Creative Commons Attribution License; the publisher's license link resolves to Attribution 4.0 International (CC BY 4.0).",
+    "licenseAssessment": "item-level-verified",
+    "rightsHolder": "Scott et al. (2024)",
+    "licenseVersion": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseAppliesTo": "The article text used for paraphrased claims. No separately credited photographs, figures, or other third-party material are reused.",
+    "scope": "The article reports male morph descriptions and paternity findings from one free-ranging Pongo pygmaeus wurmbii population at Gunung Palung National Park, West Kalimantan. These site-specific findings are not a species-wide account.",
+    "attribution": "Scott AM, Banes GL, Setiadi W, Saragih JR, Susanto TW, Mitra Setia T, Knott CD (2024). PLOS ONE 19(2):e0296688. https://doi.org/10.1371/journal.pone.0296688. Claims paraphrased; no images reused."
+  },
+  "claims": {
+    "morphology": {
+      "text": "At the genus-level framing used in the article, male orangutans (Pongo spp.) are described as having flanged and unflanged morphs; flanged males are described as larger and as bearing secondary sexual characteristics absent in unflanged males. The article also studies one wild Bornean Pongo pygmaeus wurmbii population, but this background description is not a range-wide diagnosis or individual-level measurement for the COL usage.",
+      "sourceIds": ["scott2024"],
+      "locator": "Abstract, first two sentences; Materials and methods §Study site and population identifies the focal population as Pongo pygmaeus wurmbii.",
+      "placeTimeScope": "Male morphology is described in a 2024 article that reports research at Cabang Panti Research Station, Gunung Palung National Park, West Kalimantan, Indonesia. The description is limited to the article's Bornean orangutan context and is not a range-wide morphometric survey.",
+      "lifeStatus": "The morphology statement is framed for orangutans (Pongo spp.) and is not an assertion about captive, domesticated, or fossil forms. Separate paternity data in the article concern a free-ranging wild P. p. wurmbii population.",
+      "translationStatus": "untranslated",
+      "originalLanguage": "en"
+    },
+    "lifeHistory": {
+      "text": "At Gunung Palung National Park, during the article's stated 2009–2014 six-year period, four flanged males sired five offspring. In the broader offspring sample conceived during 2008–2019, paternity was assigned to five of seven offspring; an additional assigned case conceived before the sampling period had unknown sire flange status at conception. These are local paternity results from one population, not a species-wide reproductive rate.",
+      "sourceIds": ["scott2024"],
+      "locator": "Results §Male reproductive success, first paragraph and Table 2; Materials and methods §Study site and population and §Sample collection.",
+      "placeTimeScope": "Cabang Panti Research Station, Gunung Palung National Park, West Kalimantan, Indonesian Borneo. Paternity evidence covers offspring conceived during 2008–2019, including the stated 2009–2014 interval for the five offspring sired by four flanged males; field observations span 2008–2019 and the article was published in 2024.",
+      "lifeStatus": "The authors characterize the GPNP population as completely wild; the study site had no feeding stations, ex-captive orangutans, or veterinary care. Paternity was inferred from fecal DNA samples and long-term field observations, not captive breeding records.",
+      "translationStatus": "untranslated",
+      "originalLanguage": "en"
+    }
+  },
+  "facetGaps": {
+    "morphology": [
+      "This bounded male-morph description does not cover female or juvenile morphology, individual variation, diagnostic measurements, or the full species range."
+    ],
+    "lifeHistory": [
+      "The small paternity sample from one Bornean population does not establish species-wide fecundity, interbirth intervals, survival, lifespan, or reproduction across the full range."
+    ]
+  },
+  "identityScope": "COL26.8 accepted usage 4LTT2 only. Existing evidence concerns P. p. pygmaeus at Danau Sentarum and a human-mediated reintroduction history at Camp Leakey; this addition concerns a free-ranging P. p. wurmbii population at Gunung Palung. The subspecies-labelled sites and observations are not treated as a range-wide species synthesis or as a reassessment of COL taxonomy.",
+  "wildScope": "The dossier's biological evidence includes a free-ranging P. p. pygmaeus nest survey around Danau Sentarum, historically reintroduced and free-ranging orangutans at Camp Leakey, and the completely wild P. p. wurmbii population at Gunung Palung. Each claim retains its own site, time, and human-intervention limits.",
+  "completenessReasons": [
+    "The evidence now includes local nest-survey ecology, one historically reintroduced population's mitochondrial lineage history, male morph descriptions, and paternity observations from one completely wild Bornean population; none is a species-wide synthesis.",
+    "Life history, morphology, ecology, and evolution remain partial; current distribution, fossil evidence, and conservation assessment remain unassessed. No seven-facet systematic literature search or independent external expert review has been completed."
+  ]
+}
