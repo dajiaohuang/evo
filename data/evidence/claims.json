@@ -29581,5 +29581,81 @@
         "quoteLocator": "Living-troop field study; no temporal fossil-range estimate"
       }
     ]
+  },
+  {
+    "id": "claim:taxon:callithrix_jacchus:taxonomy-col26-8-identity",
+    "subjectId": "taxon:callithrix_jacchus",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "COL26.8 dataset 316115 records accepted species usage 697NS as Callithrix jacchus (Linnaeus, 1758), within the Callithrix classification path. This statement records checklist identity only.",
+    "confidence": "medium",
+    "confidenceRationale": "The pinned COL26.8 source explicitly records accepted usage 697NS and its classification path. The claim reproduces checklist identity and does not use it as an evolutionary hypothesis.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "COL26.8 dataset 316115; accepted usage 697NS, source dataset 2144 checked 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "col-2026-checklistbank-316115",
+        "relation": "supports",
+        "pages": "Accepted species usage 697NS; classification path only"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:callithrix_jacchus:distribution-presence-only-records",
+    "subjectId": "taxon:callithrix_jacchus",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "A presence-only occurrence synthesis for Brazil described northeastern coastal and inland records of Callithrix jacchus as native and records from São Paulo, Paraná, Rio de Janeiro and Minas Gerais as introduction areas. This bounded compilation does not establish exhaustive range limits or absence elsewhere; modeled suitability is separate from observed presence.",
+    "confidence": "medium",
+    "confidenceRationale": "The article describes a bounded presence-only occurrence compilation and keeps modeled suitability separate from records. Native and introduction labels follow the authors and do not define complete range limits.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "Benavides et al. 2022 DOI 10.1371/journal.pntd.0010254; occurrence results checked 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "benavides-2022-common-marmoset-rabies-brazil",
+        "relation": "supports",
+        "quoteLocator": "Results, ‘Occurrence of C. jacchus’; Fig. 4 and its caption; Abstract for the distinction between observed occurrence and model-predicted suitable habitat."
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:callithrix_jacchus:rabies-surveillance-2008-2020",
+    "subjectId": "taxon:callithrix_jacchus",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "Brazilian Ministry of Health passive surveillance reported 67 rabies outbreaks affecting Callithrix jacchus (91 cases) in 41 municipalities from January 2008 through October 2020. These are reported surveillance counts, not a census of infection prevalence, abundance or population trend across the species range.",
+    "confidence": "high",
+    "confidenceRationale": "The authors report official passive-surveillance totals and municipality counts. These values describe reported outbreaks through October 2020, not infection prevalence, abundance or a range-wide population trend.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "Benavides et al. 2022 DOI 10.1371/journal.pntd.0010254; abstract and results checked 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "benavides-2022-common-marmoset-rabies-brazil",
+        "relation": "supports",
+        "quoteLocator": "Abstract; Results, rabies surveillance and outbreak expansion; Fig. 3 and accompanying text."
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:callithrix_jacchus:mitochondrial-lineage-estimate",
+    "subjectId": "taxon:callithrix_jacchus",
+    "claimKind": "scientific",
+    "claimType": "divergence-time",
+    "statement": "A Callithrix mitogenomic study combining 49 newly sequenced marmoset mitogenomes with published sequences estimated that Callithrix jacchus and the Callithrix penicillata Caatinga clade were the most recently diverged sampled sister lineages, at about 0.51 Ma. This is a mitochondrial-lineage estimate under the study sampling and model, not a nuclear species-tree date or definitive species-origin date.",
+    "confidence": "medium",
+    "confidenceRationale": "The paper estimates divergence between sampled mitochondrial lineages under a stated sampling design and model. This cannot establish a nuclear species-tree date or a definitive species-origin date.",
+    "reviewedBy": "Evo Atlas primary-source audit",
+    "reviewedAt": "2026-09-27",
+    "reviewedAgainstReferenceVersion": "Malukiewicz et al. 2021 DOI 10.1186/s12864-021-07533-1; abstract and results checked 2026-09-27",
+    "referenceLinks": [
+      {
+        "referenceId": "malukiewicz-2021-callithrix-mitogenomic-phylogeny",
+        "relation": "supports",
+        "quoteLocator": "Abstract; Results, ‘Phylogenetic trees and divergence times of Callithrix mitochondrial clades’; Fig. 2 and Table 2."
+      }
+    ]
   }
 ]

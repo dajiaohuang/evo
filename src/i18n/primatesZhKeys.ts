@@ -230,4 +230,9 @@ export const primatesZhKeys = new Set<string>([
   "At Puthuthottam, the studied troop consumed plant parts from 19 plant species and other non-plant foods; plant feeding was greater in the forest interior than at the forest edge, while invertebrate feeding was greater in the open patch than in the interior. This is a single-troop dry-season result.",
   "During over 480 follow-hours in one habituated troop, active foraging was higher in the open forest patch and forest edge, and lower in the human settlement than in the forest interior; the activity budget differed between interior and settlement. One troop was observed from February to May 2016.",
   "The ecological profile is based on one habituated troop observed during the 2016 dry season. These local observations are incomplete species evidence, not a range-wide or annual ecological synthesis.",
+  "Brazil: northeastern coastal and inland records described by the selected study as native; southern records in São Paulo, Paraná, Rio de Janeiro and Minas Gerais described as introductions. Presence-only study compilation, not exhaustive range limits.",
+  "COL26.8 accepted usage 697NS identifies Callithrix jacchus (Linnaeus, 1758). Selected evidence covers one captive-colony offspring study, Brazilian passive rabies surveillance and sampled mitochondrial lineages; this is not a complete species review.",
+  "Not assessed in the selected core evidence.",
+  "The selected studies do not establish a species-wide habitat profile. Observed localities and modeled habitat suitability in the rabies study are distinct evidence.",
+  "The core profile links a captive-colony association between paternal responsiveness and infant outcomes, Brazilian passive rabies reports, and a model-based mitochondrial-lineage estimate. These sources do not establish wild life history, species-wide ecology, complete distribution, a nuclear-genome divergence date or formal conservation status.",
 ])
