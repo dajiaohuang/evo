@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "batchId": "brachypodium-drought-ecology-batch54-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/brachypodium-drought-ecology-batch54-2026-09-27.json",
+    "sha256": "568f554005a78aa2914f3bbb81790118cb28a8c01d198cf0c2db9e3b3aba8c95"
+  },
+  "duplicateCheck": {
+    "mode": "in-place-update",
+    "indexedShardCount": 75,
+    "indexedRecordCount": 36322,
+    "sourceStableIds": [
+      "doi:10.3389/fpls.2016.01751"
+    ],
+    "sourceOccurrencesBeforeUpdate": 0,
+    "matchedColIds": [
+      "5WQ6Q"
+    ],
+    "matchedNames": [
+      "brachypodium distachyon (l.) p.beauv."
+    ],
+    "openPullRequestSearch": {
+      "checkedAt": "2026-09-27",
+      "queries": [
+        "Brachypodium",
+        "10.3389/fpls.2016.01751",
+        "5WQ6Q"
+      ],
+      "returned": 0
+    }
+  },
+  "updateAudit": {
+    "baseHead": "48623e1ee79bf64b480502602ad3c4a0cbbc16f4",
+    "indexedShardCountAtAudit": 75,
+    "indexedRecordCountAtAudit": 36322,
+    "targetColId": "5WQ6Q",
+    "targetScientificName": "Brachypodium distachyon (L.) P.Beauv.",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-all.jsonl.br",
+    "previousRawSha256": "05224298f9a4992e06addb64f1da7f9586df622769382b6b66177134fa4eb13d",
+    "previousCompressedSha256": "eca89b99e5703ddd9c1c2d178b9afab940f2d6f66b882471294807e18fa5cee2",
+    "previousTargetRecordSha256": "89cbb701740d17b6ae345bbf469078e4061b7e4b299fd336942892b57b2ef6e8",
+    "preservedOtherRowCount": 3840,
+    "preservedOtherRowsSha256": "80b3c3f23b78ff3f09d9a11d79f3fb5c47672d6c506ab412572d8f0cdcb58301",
+    "sourceOccurrencesBeforeUpdate": 0,
+    "openPullRequestSearch": {
+      "checkedAt": "2026-09-27",
+      "queries": [
+        "Brachypodium",
+        "10.3389/fpls.2016.01751",
+        "5WQ6Q"
+      ],
+      "returned": 0
+    },
+    "mode": "in-place-add-selected-accession-controlled-drought-ecology-claim",
+    "indexedRecordCountAfterUpdate": 36322,
+    "outputRawSha256": "7d9aa0ad4c8c5a0fb234f350559a9eacbf865ae5da19e0de12d286bbad91000f",
+    "outputCompressedSha256": "2ac8676560b32a5b495b131bf769dfaf797930c62800ed1729d6c9788242b9c4"
+  },
+  "sources": [
+    {
+      "id": "fisher2016BrachypodiumDrought",
+      "stableId": "doi:10.3389/fpls.2016.01751",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "rightsHolder": "L.H.C. Fisher, J. Han, F.M.K. Corke, A. Akinyemi, T. Didion, K.K. Nielsen, J.H. Doonan, L.A.J. Mur, and M. Bosch"
+    }
+  ],
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-all.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3841,
+    "decodedBytes": 26445910,
+    "decodedSha256": "7d9aa0ad4c8c5a0fb234f350559a9eacbf865ae5da19e0de12d286bbad91000f",
+    "compressedBytes": 1101185,
+    "compressedSha256": "2ac8676560b32a5b495b131bf769dfaf797930c62800ed1729d6c9788242b9c4",
+    "brotliParameters": {
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/update-brachypodium-drought-ecology-batch54.mjs",
+  "updateMode": "in-place-enrichment-of-one-existing-record",
+  "appAndPagesPreviewManifestChanged": false
+}
