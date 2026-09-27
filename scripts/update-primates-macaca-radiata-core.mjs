@@ -3,6 +3,11 @@ import { readFileSync, writeFileSync } from 'node:fs'
 const paperRef = 'erinjery-kumar-kumara-2017-bonnet-macaque-roadside'
 const colRef = 'col-2026-checklistbank-316115'
 const ecologyStatement = 'Along the surveyed roadsides connecting Mysore, India, reported total counts fell from 889 bonnet macaques in 2003 to 407 in 2015 (46% of the earlier count). The January–February 2015 resurvey covered 464 km, and roadside strips were defined within 15 m from the road centre on each side. These local roadside counts are not a species-wide abundance estimate or a causal test.'
+const forestStatement = 'In the Parambikulam landscape of Kerala, the study detected 54 bonnet macaque groups in 33 of 64 sampled grid cells. A single-season occupancy model estimated mean cell occupancy at 0.51 ± 0.08 (SE) and detection probability at 0.25 ± 0.05 (SE). These are modelled results for one forest survey, not species-wide forest occupancy or abundance.'
+const templeStatement = 'In its 2009–2015 temple/tourist-site comparison and historical site records, the study reported bonnet macaques at about 31% of assessed locations, reappearance after translocation in about 20% of cases, and elimination or disappearance at more than 48%. This is a historical site-status summary, not current range-wide occupancy or abundance.'
+const conservationStatement = 'For the surveyed southern Indian landscapes, the authors proposed selected vegetated hillocks and temple/tourist locations as possible conservation reserves, based partly on local roadside persistence at Chamundi Hill and declines on other monitored roads. This is a 2017 study recommendation, not a statutory designation, current threat category or range-wide recovery plan.'
+const identityStatement = 'COL26.8 ChecklistBank dataset 316115 accepts Macaca radiata (É. Geoffroy Saint-Hilaire, 1812) as species usage 3WWP2 (source dataset 2144), with accepted parent Macaca usage 5HYC. This identifies the pinned checklist usage; it does not independently review biological circumscription.'
+const studySitesStatement = 'The selected 2017 study sampled roads connected to Mysore, Karnataka, forest grid cells in the Parambikulam landscape of Kerala, and temple/tourist locations in southern India. These are locations from bounded sampling contexts, not a full current species-range boundary.'
 const reviewedAgainstCol = 'COL26.8 ChecklistBank dataset 316115; accepted usage 3WWP2 and parent chain checked 2026-09-26'
 const taxonomyNodes = [
   { id: 'cercopithecoidea', name: 'Cercopithecoidea', rank: 'superfamily', colUsageId: '4X9', parentName: 'Simiiformes', parentRank: 'infraorder', parentUsageId: '4PM', childLabel: 'immediately below' },
@@ -23,6 +28,71 @@ const ecologyClaim = {
   reviewedAt: '2026-09-26',
   reviewedAgainstReferenceVersion: 'Erinjery et al. 2017 DOI 10.1371/journal.pone.0182140; PLOS full text inspected 2026-09-26',
   referenceLinks: [{ referenceId: paperRef, relation: 'supports', quoteLocator: 'Methods §2.6 Roadside survey; Results §3.5.1 Population dynamics.' }],
+}
+const forestClaim = {
+  id: 'claim:taxon:macaca_radiata:ecology-parambikulam-occupancy-2017',
+  subjectId: 'taxon:macaca_radiata',
+  claimKind: 'scientific',
+  claimType: 'ecology',
+  statement: forestStatement,
+  confidence: 'medium',
+  confidenceRationale: 'The paper directly reports detections, the sampled grid count and model estimates. The estimate is limited to one forest landscape and its sampling/model frame.',
+  reviewedBy: 'Evo Atlas primary-source audit',
+  reviewedAt: '2026-09-27',
+  reviewedAgainstReferenceVersion: 'Erinjery et al. 2017 DOI 10.1371/journal.pone.0182140; PLOS full text inspected 2026-09-27',
+  referenceLinks: [{ referenceId: paperRef, relation: 'supports', quoteLocator: 'Methods §§2.3–2.4; Results §3.2 Occupancy modelling of bonnet macaques in forest areas.' }],
+}
+const templeClaim = {
+  id: 'claim:taxon:macaca_radiata:ecology-temple-site-status-2017',
+  subjectId: 'taxon:macaca_radiata',
+  claimKind: 'scientific',
+  claimType: 'ecology',
+  statement: templeStatement,
+  confidence: 'medium',
+  confidenceRationale: 'The article reports these proportions from its temple/tourist-site comparison, but the evidence is a historical site-status and encounter-rate sample rather than a current population survey across the species range.',
+  reviewedBy: 'Evo Atlas primary-source audit',
+  reviewedAt: '2026-09-27',
+  reviewedAgainstReferenceVersion: 'Erinjery et al. 2017 DOI 10.1371/journal.pone.0182140; PLOS full text inspected 2026-09-27',
+  referenceLinks: [{ referenceId: paperRef, relation: 'supports', quoteLocator: 'Methods §2.5 Survey of temple sites/tourist spots; Results §3.4.' }],
+}
+const conservationClaim = {
+  id: 'claim:taxon:macaca_radiata:conservation-local-reserve-recommendation-2017',
+  subjectId: 'taxon:macaca_radiata',
+  claimKind: 'scientific',
+  claimType: 'ecology',
+  statement: conservationStatement,
+  confidence: 'medium',
+  confidenceRationale: 'The paper explicitly makes this recommendation from monitored Mysore roadside sites. Its local evidence and 2017 date do not establish current formal status, legal designation or a range-wide conservation plan.',
+  reviewedBy: 'Evo Atlas primary-source audit',
+  reviewedAt: '2026-09-27',
+  reviewedAgainstReferenceVersion: 'Erinjery et al. 2017 DOI 10.1371/journal.pone.0182140; PLOS full text inspected 2026-09-27',
+  referenceLinks: [{ referenceId: paperRef, relation: 'supports', quoteLocator: 'Results §3.5.1; Discussion, conservation recommendation for hillocks and selected temple/tourist locations.' }],
+}
+const identityClaim = {
+  id: 'claim:taxon:macaca_radiata:taxonomy-col26-8-identity',
+  subjectId: 'taxon:macaca_radiata',
+  claimKind: 'scientific',
+  claimType: 'taxonomy',
+  statement: identityStatement,
+  confidence: 'medium',
+  confidenceRationale: 'Pinned COL26.8 dataset records this accepted species usage, source checklist and accepted parent directly. The claim is limited to that checklist classification.',
+  reviewedBy: 'Evo Atlas source audit',
+  reviewedAt: '2026-09-27',
+  reviewedAgainstReferenceVersion: reviewedAgainstCol,
+  referenceLinks: [{ referenceId: colRef, relation: 'supports', quoteLocator: 'Accepted species usage 3WWP2; accepted status, sourceDatasetId 2144 and parentId 5HYC.' }],
+}
+const studySitesClaim = {
+  id: 'claim:taxon:macaca_radiata:biogeography-study-sites-2017',
+  subjectId: 'taxon:macaca_radiata',
+  claimKind: 'scientific',
+  claimType: 'biogeography',
+  statement: studySitesStatement,
+  confidence: 'medium',
+  confidenceRationale: 'The article names these local sampling contexts. It does not inventory the present or historical full species range.',
+  reviewedBy: 'Evo Atlas primary-source audit',
+  reviewedAt: '2026-09-27',
+  reviewedAgainstReferenceVersion: 'Erinjery et al. 2017 DOI 10.1371/journal.pone.0182140; PLOS full text inspected 2026-09-27',
+  referenceLinks: [{ referenceId: paperRef, relation: 'supports', quoteLocator: 'Methods §§2.3, 2.5–2.6; Results §§3.2, 3.4–3.5.' }],
 }
 const taxonomyClaims = taxonomyNodes.map(node => {
   const statement = `The COL26.8 accepted parent chain for Macaca radiata usage 3WWP2 places ${node.name} (${node.rank} usage ${node.colUsageId}) ${node.childLabel} ${node.parentName} (${node.parentRank} usage ${node.parentUsageId}); this records checklist placement, not a phylogenetic result.`
@@ -60,8 +130,37 @@ const references = [{
   sourceRole: 'primary-study',
   fitnessFor: ['ecology', 'methods'],
   metadataAssignment: 'curator-reviewed',
-  note: 'Primary study reporting roadside counts on surveyed roads connected to Mysore, India. Only the bounded 2003–2015 roadside count comparison and survey scope are summarized; it is not a species-wide abundance estimate or a causal test. Article states CC BY 4.0.',
+  note: 'Primary study supporting bounded forest occupancy, temple/tourist-site history, Mysore roadside counts and a local conservation recommendation. Each finding retains its place, time and sample limits; none is a current range-wide assessment. Article states CC BY 4.0.',
 }]
+const profile = {
+  id: 'macaca_radiata',
+  treeNodeId: 'macaca_radiata',
+  pbdbTaxonId: null,
+  scientificName: 'Macaca radiata',
+  commonName: 'Bonnet Macaque',
+  commonNameZh: '冠猕猴',
+  rank: 'species',
+  parentName: 'Macaca',
+  extinct: false,
+  geography: [
+    'Mysore-connected roadside transects, Karnataka, India (comparative counts, 2003 and 2015; study site)',
+    'Parambikulam landscape, Kerala, India (one forest occupancy survey)',
+    'Southern Indian temple/tourist locations (historical site-status comparison)',
+  ],
+  overview: 'COL26.8 accepted usage 3WWP2 identifies Macaca radiata. The selected 2017 primary study samples roadside counts around Mysore, forest occupancy at Parambikulam and temple/tourist-site histories in southern India; these bounded sites do not define a current range or species-wide population trend.',
+  ecology: {
+    diet: 'Not assessed in the selected study.',
+    habitat: 'At Parambikulam, 54 groups were detected in 33 of 64 grid cells and modelled mean occupancy was 0.51 ± 0.08 (SE); this is one forest survey, not a complete habitat account.',
+    locomotion: 'Not assessed in the selected study.',
+    bodySize: 'Not assessed in the selected study.',
+    guild: 'Not assessed as a broader species-level ecological guild.',
+  },
+  traits: [],
+  evidenceSummary: 'Selected evidence comes from one 2017 study: a single-forest occupancy survey, a historical temple/tourist-site comparison and roadside counts on roads connected to Mysore. Morphology, life history, evolution, species-range limits, fossil record and current formal conservation status remain unassessed; this profile is incomplete and has not received independent expert review.',
+  confidence: 'medium',
+  referenceIds: [colRef, paperRef],
+  traitsAssessmentStatus: 'not-assessed',
+}
 const rangeEntities = [
   ['cercopithecoidea', 'Cercopithecoidea accepted usage 4X9'],
   ['cercopithecidae', 'Cercopithecidae accepted usage 7X9'],
@@ -111,10 +210,20 @@ const rationales = Object.fromEntries([
     return [claim.id, `固定版 COL26.8 用名 ${node.colUsageId} 直接支持 ${node.name}（${node.rank}）在该已接受清单路径中的位置；此声明只描述该数据集的分类，不推断普遍共识或系统发育关系。`]
   }),
   [ecologyClaim.id, '论文直接报告了特定道路路段的局地计数与复查距离；该范围受地点和栖息环境限制，不能作为全物种种群估计或单独的因果检验。'],
+  [forestClaim.id, '论文直接报告单一森林景观中的网格检测与占域模型结果；该估计受局地采样及模型范围限制，不代表全物种森林占域或丰度。'],
+  [templeClaim.id, '论文报告的是历史寺庙/旅游点地点状态比例，不是当前调查或全分布区占域与丰度估计。'],
+  [conservationClaim.id, '这是 2017 年研究基于迈索尔监测路段提出的局地建议，不等于现行正式保护等级、法定保护地或全分布区恢复计划。'],
+  [identityClaim.id, '固定版 COL26.8 ChecklistBank 数据集 316115 将 Macaca radiata（É. Geoffroy Saint-Hilaire，1812）接受为物种用名 3WWP2（来源清单 2144），其已接受父级为 Macaca 用名 5HYC。该声明标识固定清单中的分类用名，不独立评估生物学 circumscription。'],
+  [studySitesClaim.id, '所选 2017 年研究在印度卡纳塔克邦迈索尔相连道路、喀拉拉邦 Parambikulam 景观的森林网格，以及南印度寺庙/旅游点取样。这些是有界调查样区，不是当前物种完整分布边界。'],
 ])
 const translations = Object.fromEntries([
   ...taxonomyClaims.map((claim, index) => [claim.statement, taxonomyStatementsZh[index]]),
   [ecologyStatement, '在印度迈索尔相连道路的调查路段，路旁总计数从 2003 年的 889 只降至 2015 年的 407 只（为早期计数的 46%）。2015 年 1 月至 2 月的复查覆盖 464 公里；路旁调查带按道路中心线两侧各 15 米界定。这些局地计数不是全物种丰度估计，也不能单独检验下降原因。'],
+  [forestStatement, '在喀拉拉邦 Parambikulam 景观，研究者在 64 个抽样网格中的 33 个网格检测到 54 个冠猕猴群体。单季占域模型估计网格平均占域率为 0.51 ± 0.08（标准误），检测概率为 0.25 ± 0.05（标准误）。这些是一个森林调查的模型结果，不代表全物种森林占域或丰度。'],
+  [templeStatement, '在其 2009–2015 年寺庙/旅游点比较及历史地点记录中，研究报告约 31% 的调查地点发现冠猕猴；转移后约 20% 的地点重新出现，超过 48% 的地点则被清除或消失。这是历史地点状态汇总，不是当前全分布区占域或丰度。'],
+  [conservationStatement, '针对所调查的南印度景观，作者建议将部分植被良好的小山丘和寺庙/旅游点作为潜在保护地；建议部分依据是 Chamundi Hill 局地路边种群持续存在、其他受监测道路出现下降。这是 2017 年研究建议，不是法定保护地、现行威胁等级或全分布区恢复计划。'],
+  [identityStatement, '固定版 COL26.8 ChecklistBank 数据集 316115 将 Macaca radiata（É. Geoffroy Saint-Hilaire，1812）接受为物种用名 3WWP2（来源清单 2144），其已接受父级为 Macaca 用名 5HYC。该声明标识固定清单中的分类用名，不独立评估物种的生物学界定。'],
+  [studySitesStatement, '所选 2017 年研究在印度卡纳塔克邦迈索尔相连道路、喀拉拉邦 Parambikulam 景观的森林网格，以及南印度寺庙/旅游点取样。这些是有界调查样区，不是当前物种完整分布边界。'],
 ])
 
 function findArrayClose(text, key) {
@@ -277,8 +386,9 @@ function upsertSortedArray(path, key, values) {
   writeFileSync(path, text, 'utf8')
 }
 
-appendArrayRecords('data/evidence/claims.json', [...taxonomyClaims, ecologyClaim], null, item => item.id, ['confidenceRationale'])
-appendArrayRecords('data/references.json', references, null, item => item.id)
+appendArrayRecords('data/evidence/claims.json', [...taxonomyClaims, ecologyClaim, forestClaim, templeClaim, conservationClaim, identityClaim, studySitesClaim], null, item => item.id, ['confidenceRationale'])
+appendArrayRecords('data/references.json', references, null, item => item.id, ['note'])
+appendArrayRecords('data/packages/mammalia/primates/profiles.source.json', [profile], null, item => item.id)
 appendArrayRecords('data/ranges/range-evidence.json', ranges, null, item => item.id)
 appendArrayRecords('data/sources/pbdb-taxon-resolution.json', resolutions, 'resolutions', item => item.entityId)
 upsertObjectFields('data/evidence/claim-statements.zh.json', translations)
@@ -293,4 +403,4 @@ updateNestedObjectFields('data/sources/pbdb-taxon-resolution.json', 'summary', {
 upsertSortedArray('data/indexes/entity-linkage-baseline.json', 'unresolvedEntityIds', resolutions.map(item => item.entityId))
 
 appendArrayRecords('data/pages-preview.json', rangeEntities.map(([entityId]) => entityId), 'taxonIds', id => id)
-console.log(JSON.stringify({ taxonomyClaims: taxonomyClaims.length, ecologyClaims: 1, ranges: ranges.length, withheldPbdbMappings: resolutions.length }, null, 2))
+console.log(JSON.stringify({ taxonomyClaims: taxonomyClaims.length + 1, biogeographyClaims: 1, ecologyClaims: 4, conservationFacetClaims: 1, primateProfiles: 1, ranges: ranges.length, withheldPbdbMappings: resolutions.length }, null, 2))
