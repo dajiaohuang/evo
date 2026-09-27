@@ -75,11 +75,8 @@ if (maps.paleotopography?.delivery?.profile !== 'web-preview'
 if (releaseFiles.files.some((file) => file.url.includes('/downloads/'))) {
   throw new Error('Mobile core bundle must not include complete downloadable package archives')
 }
-if (releaseFiles.files.some((file) => /catalogue\/(hierarchy|search|source-checklists)\//.test(file.url))) {
-  throw new Error('Mobile core bundle must not include the complete Catalogue of Life registry')
-}
-if (releaseFiles.files.some((file) => file.url.includes('catalogue/resource-packs/'))) {
-  throw new Error('Mobile core bundle must not include complete authority source-record packs')
+if (releaseFiles.files.some((file) => /(?:^|\/)catalogue\/(?!manifest\.json(?:[?#]|$))/i.test(file.url))) {
+  throw new Error('Mobile core bundle must not include Catalogue of Life shards, source rows, dossiers or authority records')
 }
 const interactiveFiles = releaseFiles.files.filter((file) => !file.url.includes('/downloads/'))
 const bootstrapFiles = ['current.json', 'releases.json', release.filesIndex]
