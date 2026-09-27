@@ -16,7 +16,7 @@
     "dossierBasePath": "data/knowledge/catalogue-dossiers.json",
     "dossierBaseSha256": "88def9f9997c16f6eba9c51aca5c134b4af198442ae941baa284e6dd0c86beb5",
     "dossierIndexPath": "data/knowledge/catalogue-dossier-shards.json",
-    "dossierIndexSha256": "fcb0f994518fe98e17e3e0f12f6a5d4a493bcb6bbd0498d78b0f9c27d65be20c",
+    "dossierIndexSha256": "5b6f369557d4ab4945a01063285321de0ebca5596c588d32e9288e298e6efe47",
     "dossierShards": [
       {
         "path": "data/knowledge/catalogue-dossiers-all.jsonl.br",
@@ -449,6 +449,12 @@
         "recordCount": 3,
         "compressedSha256": "1de12db34d2d234447f4c092a1db3ab5dc570ba2f73f72516886105058f7e636",
         "decodedSha256": "02dfd586ef8cd851e68e7f1d18f570644042a4a29744f8f207729986037d2a0c"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-plazi-syspira-batch-2026-09-27.jsonl.br",
+        "recordCount": 2,
+        "compressedSha256": "c3b68555ad9ffd6bd9bdc3451ec6716cf9634757f7169f819724e895acf3a3f6",
+        "decodedSha256": "705d7ec807d97565f6e907922fc1e4946447e2707d274df9b80d48900725e7eb"
       }
     ],
     "sourceOriginalCollections": [
@@ -565,7 +571,7 @@
       {
         "collection": "plaziDescriptions",
         "ledgerPath": "data/sources/plazi-descriptions-import-ledger.json",
-        "ledgerSha256": "d90b7b5be038c5aa7452610e7a8fbe23d4a9d23b58a247894875c98ca11dd896",
+        "ledgerSha256": "a035774cb695bfe14adac7ba6789bcda730ca3f42df0c7d5285de4a8c7a9ad2e",
         "outputPath": "data/sources/plazi-descriptions.jsonl.gz",
         "outputSha256": "466773ce5eca7e77627dd13903e074c6446eb2d91ba3eaaa53c79f10ebd3cda0",
         "outputBytes": 51512,
@@ -598,12 +604,12 @@
     "acceptedSpecies": 2183133,
     "sourceOriginalAssociatedSpecies": 80838,
     "introductorySummarySpecies": 27,
-    "dossierSpecies": 36316,
+    "dossierSpecies": 36318,
     "completeDossierSpecies": 0,
     "externallyReviewedSpecies": 0,
     "speciesWithAnyEvidenceStage": 80975,
     "speciesWithoutAnyEvidenceStage": 2102158,
-    "speciesWithoutDossier": 2146817,
+    "speciesWithoutDossier": 2146815,
     "sourceOriginalCollectionSpecies": {
       "brazilFloraDescriptions": 28896,
       "fdacDescriptions": 4156,
@@ -627,29 +633,29 @@
       "species": 27
     },
     "dossierStatuses": {
-      "missing": 2146817,
-      "incomplete": 36316,
+      "missing": 2146815,
+      "incomplete": 36318,
       "complete": 0
     },
     "expertReviewStatuses": {
-      "no-dossier": 2146817,
-      "not-reviewed": 36316,
+      "no-dossier": 2146815,
+      "not-reviewed": 36318,
       "maintainer-reviewed": 0,
       "externally-reviewed": 0
     },
     "claimSourceRightsStatuses": {
-      "not-assessed": 2146817,
+      "not-assessed": 2146815,
       "no-biological-claim-sources": 0,
       "item-level-verified": 248,
-      "claim-source-rights-unresolved": 36068
+      "claim-source-rights-unresolved": 36070
     },
     "facetStatuses": {
       "morphology": {
         "supported": 0,
-        "partially-supported": 29205,
+        "partially-supported": 29207,
         "searched-no-evidence": 0,
         "conflicted": 0,
-        "not-assessed": 2153928
+        "not-assessed": 2153926
       },
       "lifeHistory": {
         "supported": 0,
@@ -660,10 +666,10 @@
       },
       "ecology": {
         "supported": 0,
-        "partially-supported": 30560,
+        "partially-supported": 30562,
         "searched-no-evidence": 0,
         "conflicted": 0,
-        "not-assessed": 2152573
+        "not-assessed": 2152571
       },
       "evolution": {
         "supported": 0,
@@ -735,10 +741,10 @@
       "prefix": "3",
       "path": "data/knowledge/species-evidence-queue/3.jsonl.br",
       "recordCount": 136169,
-      "decodedBytes": 97794418,
-      "decodedSha256": "4881e049d2a8e500265125b13bab3a3f6e3d7b7b1b8145cdf70edf29a6dfc43a",
-      "compressedBytes": 4666433,
-      "compressedSha256": "dd202aed578b616b1b63eb3d7c3178260a6d1fbf2f29fb35a114ab2e6fe0fd35",
+      "decodedBytes": 97794592,
+      "decodedSha256": "3de0867bcd472a6d83231ec9f600b00175ac3c853bd2ed1ec099482f1096fac3",
+      "compressedBytes": 4666565,
+      "compressedSha256": "37e80509e4f8dd42952d6e1002a530d03603a56d4434d549494bb06fa5cd04f4",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -823,10 +829,10 @@
       "prefix": "b",
       "path": "data/knowledge/species-evidence-queue/b.jsonl.br",
       "recordCount": 135951,
-      "decodedBytes": 97633447,
-      "decodedSha256": "ac181c66248c78735ecef88c5e11a01f1b49c893cee09f6d8cd6670f0082af96",
-      "compressedBytes": 4655276,
-      "compressedSha256": "2ecf0827e6b43328f5c9f985a70fe9f1a322c9cb35e0c265a0edabffbe66343a",
+      "decodedBytes": 97633621,
+      "decodedSha256": "467c91d40ae6fd2a36e12f3aebcad3a5ff88256a628368bff4d49d188f2de727",
+      "compressedBytes": 4655333,
+      "compressedSha256": "459aa2bb8dfbd00eab7d4ee199d81a2b3fe9582b5870df3b9964b185d0c0edb1",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },

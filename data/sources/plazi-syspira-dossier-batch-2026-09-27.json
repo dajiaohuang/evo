@@ -1,0 +1,78 @@
+{
+  "batchId": "plazi-syspira-dossier-batch-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-27",
+  "source": {
+    "projectionPath": "data/sources/plazi-descriptions.jsonl.gz",
+    "projectionSha256": "466773ce5eca7e77627dd13903e074c6446eb2d91ba3eaaa53c79f10ebd3cda0",
+    "archiveInputKey": "syspira",
+    "archiveInputSha256": "9a42abf9927f8e55c787a46edcae955e06a447c8ba55fc1ce4cca8774d9af623",
+    "archiveSha256": "8b095aa0880e8b281b2e1de8d903e854553f6118e917b786e512ef099a1b9f54",
+    "sourceArchive": "93f023f7-828b-4f96-891e-f90cd2242b2f.zip",
+    "license": "CC0 1.0",
+    "licenseAssessment": "aggregate-declaration-only",
+    "archiveZipAvailableInCheckout": false,
+    "rightsBoundary": "The retained import ledger declares CC0 1.0 for the extracted Plazi records. The source ZIP is absent from this checkout and its embedded EML was not rechecked for this batch. This declaration does not establish reuse rights for the cited journal article, PDF, or figures."
+  },
+  "article": {
+    "title": "On the sympatric spiders from the Baja California Peninsula: Descriptions of the males of Syspira longipes Simon and S. tigrina Simon (Araneae: Miturgidae), with new synonyms",
+    "doi": "10.11646/zootaxa.5722.3.1",
+    "url": "https://doi.org/10.11646/zootaxa.5722.3.1",
+    "citation": "Valdez-Mondragón, Alejandro, Jiménez, Maria Luisa, Palacios-Cardiel, Carlos (2025): On the sympatric spiders from the Baja California Peninsula: Descriptions of the males of Syspira longipes Simon and S. tigrina Simon (Araneae: Miturgidae), with new synonyms. Zootaxa 5722 (3): 301-325.",
+    "publishedAt": "2025",
+    "locator": "Bibliographic record for Zootaxa 5722 (3): 301-325; taxon-specific pages are recorded in each claim locator.",
+    "license": "Not established at article level",
+    "licenseAssessment": "unknown"
+  },
+  "records": [
+    {
+      "colId": "5448F",
+      "scientificName": "Syspira longipes",
+      "treatmentId": "03B039019222AE2A88E7FE4973A12A48",
+      "reviewedRows": [7, 8, 10],
+      "claims": {
+        "morphology": {
+          "rows": [7, 8],
+          "text": "The taxonomic account describes reticulated carapace markings and light-grey coloration in living Syspira longipes, and provides male and female specimen descriptions with measurements and reported within-sample variation. These are account-level characters and specimen observations, not estimates of all species variation.",
+          "placeTimeScope": "Species account on p. 303, with figures 1–30 and 65–66; morphology and measurements are limited to the specimens described in the 2025 treatment.",
+          "lifeStatus": "The description distinguishes live coloration from preserved specimen descriptions; no population-wide life-status or variation inference is made."
+        },
+        "ecology": {
+          "rows": [10],
+          "text": "The authors report Syspira longipes from xeric areas of the Baja California Peninsula and list several microhabitats, including bare soil, fallen wood, leaf litter, gravel, cobbles, above-ground vegetation, beach areas, and sites near oases. This records the treatment's literature-based habitat observations, not an exclusive or complete niche.",
+          "placeTimeScope": "Natural-history account on p. 303; reported Baja California Peninsula microhabitats in the cited treatment and literature only.",
+          "lifeStatus": "Wild habitat observations as reported by the authors; cultivated, escaped, and unobserved populations were not assessed."
+        }
+      }
+    },
+    {
+      "colId": "5448K",
+      "scientificName": "Syspira tigrina",
+      "treatmentId": "03B03901922AAE3088E7FC7E72BE2854",
+      "reviewedRows": [14, 15, 17],
+      "claims": {
+        "morphology": {
+          "rows": [14],
+          "text": "The diagnosis describes a three-stripe dark carapace pattern and sand-colored living specimens of Syspira tigrina. This claim is restricted to those non-palpal characters; the diagnosis and description differ on embolus and cymbial-groove traits, which are not synthesized here.",
+          "placeTimeScope": "Species account on p. 311, with figures 31–64 and 67–68; diagnosis-level characters in the 2025 treatment only.",
+          "lifeStatus": "Live coloration is attributed to living specimens; broader life-stage, population, and geographic variation were not assessed."
+        },
+        "ecology": {
+          "rows": [17],
+          "text": "The authors describe Syspira tigrina as mainly active at night and cite pitfall-trap collections at study locations where it represented up to 50% of the cursorial spiders collected. The percentage is a local, method-specific sample result, not a species-wide abundance estimate.",
+          "placeTimeScope": "Natural-history account on p. 311; nocturnal activity and pitfall-trap result are limited to the locations and sampling context reported or cited by the treatment.",
+          "lifeStatus": "Wild-origin pitfall-trap samples and author-reported activity; no captive or species-wide behavior inference is made."
+        }
+      }
+    }
+  ],
+  "facetGaps": {
+    "morphology": "These are selected characters and descriptions from one taxonomic treatment, not a complete character matrix or assessment of variation across all populations. S. tigrina embolus and cymbial-groove statements conflict between diagnosis and description and are deliberately excluded from an unqualified claim.",
+    "lifeHistory": "No systematic reproductive, developmental, lifespan, or full behavioral life-history search was performed.",
+    "ecology": "Evidence is limited to the treatment's reported microhabitats, activity statement, and cited pitfall-trap samples; interactions, seasonal ecology, environmental tolerances, and sampling completeness remain unassessed.",
+    "evolution": "No phylogenetic or population-genetic evidence is assessed in this source slice.",
+    "distribution": "The cited account and local observations do not establish a current, complete range or trend.",
+    "fossil": "No fossil or paleontological search was performed.",
+    "conservation": "No conservation assessment, population trend, or threat evaluation is assessed in this source slice."
+  }
+}
