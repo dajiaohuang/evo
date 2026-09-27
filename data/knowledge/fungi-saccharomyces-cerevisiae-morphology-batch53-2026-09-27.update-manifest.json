@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "batchId": "fungi-saccharomyces-cerevisiae-morphology-batch53-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/fungi-saccharomyces-cerevisiae-morphology-batch53-2026-09-27.json",
+    "sha256": "4ea0d7046525c4ea0a4a79d39c7192f18b92f2ff2f7d062eb975bea3098438f3"
+  },
+  "duplicateCheck": {
+    "mode": "in-place-update",
+    "indexedShardCount": 75,
+    "indexedRecordCount": 36322,
+    "sourceStableIds": [
+      "doi:10.1128/mBio.03094-21"
+    ],
+    "sourceOccurrencesBeforeUpdate": 0,
+    "matchedColIds": [
+      "4TWCR"
+    ],
+    "matchedNames": [
+      "saccharomyces cerevisiae (desm.) meyen"
+    ],
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "queries": [
+        "4TWCR",
+        "Saccharomyces cerevisiae",
+        "10.1128/mBio.03094-21"
+      ],
+      "checkedAt": "2026-09-27",
+      "returned": 0
+    }
+  },
+  "updateAudit": {
+    "baseHead": "732afc39b99733558292be710517895563ec38ee",
+    "indexedShardCountAtAudit": 75,
+    "indexedRecordCountAtAudit": 36322,
+    "targetColId": "4TWCR",
+    "targetScientificName": "Saccharomyces cerevisiae (Desm.) Meyen",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-fungi-model-yeasts-dossier-batch-2026-09-24.jsonl.br",
+    "previousRawSha256": "a7ef57184c1845cb2944ae8c34b82484a32cccc21b1e612be09e1df8cd3d7f82",
+    "previousCompressedSha256": "65c0b057893f1f2f117c2c53f3bc2949fcc607d72d2b096330015171d395dbb1",
+    "previousTargetRecordSha256": "8d2a2afb2964f2360546697cf91db534e5cb6e783d9ffbeea6acb72c48ffb064",
+    "sourceOccurrencesBeforeUpdate": 0,
+    "openPullRequestSearch": {
+      "queries": [
+        "4TWCR",
+        "Saccharomyces cerevisiae",
+        "10.1128/mBio.03094-21"
+      ],
+      "checkedAt": "2026-09-27",
+      "returned": 0
+    },
+    "mode": "in-place-add-one-two-strain-bounded-cell-area-morphology-claim",
+    "indexedRecordCountAfterUpdate": 36322,
+    "outputRawSha256": "75746a8129de5ae4c9b1a972807cd9f4b19b1df97661838b5bc921aee5484d19",
+    "outputCompressedSha256": "e3a8d4d4fc3e2b733d7d601ea3f02862fb6ccc5810d1594bdfa9731a92bab52c"
+  },
+  "sources": [
+    {
+      "id": "kato2021CellShrinkage",
+      "stableId": "doi:10.1128/mBio.03094-21",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "rightsHolder": "Setsu Kato et al."
+    }
+  ],
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/fungi-model-yeasts-dossier-batch-2026-09-24.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 2,
+    "bytes": 18427,
+    "sha256": "75746a8129de5ae4c9b1a972807cd9f4b19b1df97661838b5bc921aee5484d19"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-fungi-model-yeasts-dossier-batch-2026-09-24.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 2,
+    "decodedBytes": 18427,
+    "decodedSha256": "75746a8129de5ae4c9b1a972807cd9f4b19b1df97661838b5bc921aee5484d19",
+    "compressedBytes": 4332,
+    "compressedSha256": "e3a8d4d4fc3e2b733d7d601ea3f02862fb6ccc5810d1594bdfa9731a92bab52c",
+    "brotliParameters": {
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "preservedSiblingColIds": [
+    "4VCRL"
+  ],
+  "generator": "scripts/update-fungi-saccharomyces-morphology-batch53.mjs",
+  "updateMode": "in-place-enrichment-of-one-existing-record",
+  "appAndPagesPreviewManifestChanged": false
+}
