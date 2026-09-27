@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-pan-troglodytes-tool-use-batch61-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-pan-troglodytes-tool-use-b61-2026-09-28.json",
+    "sha256": "d92757037f525f66a2b74e5d7a0a21f91233136436daf23c242bfa892259fadf"
+  },
+  "duplicateCheck": {
+    "mode": "in-place-update",
+    "indexedRecordCount": 36330,
+    "sourceStableIds": [
+      "doi:10.1371/journal.pbio.3002609"
+    ],
+    "sourceOccurrencesBeforeUpdate": 0,
+    "matchedColIds": [
+      "4C92G"
+    ],
+    "matchedNames": [
+      "pan troglodytes blumenbach 1775"
+    ]
+  },
+  "previousUpdateAudit": {
+    "baseHead": "5270bd60e2ccf9ff38262193e92ae28baff414aa",
+    "indexedRecordCountAtAudit": 6969,
+    "targetColId": "3H3C9",
+    "targetScientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "previousRawSha256": "cc6238998f3b861d4c96bcde6ca61d58432fef07de1595170fbdae2c1670fbc1",
+    "previousDecodedSha256": "cc6238998f3b861d4c96bcde6ca61d58432fef07de1595170fbdae2c1670fbc1",
+    "previousCompressedSha256": "132c57e22d0aba3c8a0b76fdf7b0956e15636423e16c353fae1115fe3ccad7b7",
+    "previousTargetRecordSha256": "1fdd31de72124bb125c933d4dc49546732c99ec81d8660dbc045cac4d1a062c9",
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "query": "3H3C9",
+      "checkedAt": "2026-09-26",
+      "returned": 0
+    },
+    "mode": "in-place-add-one-sample-bounded-morphology-source-to-existing-record",
+    "indexedRecordCountAfterUpdate": 6969,
+    "outputRawSha256": "6cc0cffebf0ce2133d39805e22095cb813d31de7912c26fe8f7a1c688ff1f36d",
+    "outputDecodedSha256": "6cc0cffebf0ce2133d39805e22095cb813d31de7912c26fe8f7a1c688ff1f36d",
+    "outputCompressedSha256": "a6b6340b41afbb64bfaa13667f36f921a90d14d354dc28d258e224710301cf41"
+  },
+  "updateAudit": {
+    "baseHead": "e25aaed6622f688a60196114e1da280689dc378c",
+    "indexedRecordCountAtAudit": 36330,
+    "targetColId": "4C92G",
+    "targetScientificName": "Pan troglodytes (Blumenbach, 1775)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "previousRawSha256": "6cc0cffebf0ce2133d39805e22095cb813d31de7912c26fe8f7a1c688ff1f36d",
+    "previousDecodedSha256": "6cc0cffebf0ce2133d39805e22095cb813d31de7912c26fe8f7a1c688ff1f36d",
+    "previousCompressedSha256": "a6b6340b41afbb64bfaa13667f36f921a90d14d354dc28d258e224710301cf41",
+    "previousTargetRecordSha256": "e6b5c2c2856b4a26b37ebdde2d400840accfe0107591eab32c057ef60af04d75",
+    "queueRowSha256BeforeUpdate": "a1aa563f116e37219e64df4d4bd6b280b398844d707b0cb621e52815e0ee685e",
+    "openPullRequests": [],
+    "mode": "in-place-add-two-bounded-behavior-claims-and-full-accepted-parent-chain",
+    "indexedRecordCountAfterUpdate": 36330,
+    "outputRawSha256": "20948f343138e241a71d5a980c967319465ff518a91abae5f3c56169183572d7",
+    "outputDecodedSha256": "20948f343138e241a71d5a980c967319465ff518a91abae5f3c56169183572d7",
+    "outputCompressedSha256": "826b9ed322a85876b716bea59fa74eca48f12ae92d2119a7dc121a2070c8a511",
+    "appAndPagesPreviewManifestChanged": false
+  },
+  "sources": [
+    {
+      "id": "malherbe2024",
+      "stableId": "doi:10.1371/journal.pbio.3002609",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "rightsHolder": "Malherbe et al. (2024)"
+    }
+  ],
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-batch-2.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 3,
+    "bytes": 69364,
+    "sha256": "20948f343138e241a71d5a980c967319465ff518a91abae5f3c56169183572d7"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 69364,
+    "decodedSha256": "20948f343138e241a71d5a980c967319465ff518a91abae5f3c56169183572d7",
+    "compressedBytes": 16965,
+    "compressedSha256": "826b9ed322a85876b716bea59fa74eca48f12ae92d2119a7dc121a2070c8a511",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "acceptedParentChain": [
+    {
+      "id": "6D2G",
+      "name": "Pan",
+      "authorship": "Oken, 1816",
+      "rank": "genus",
+      "status": "accepted",
+      "parentId": "JPH"
+    },
+    {
+      "id": "JPH",
+      "name": "Homininae",
+      "authorship": "Gray, 1825",
+      "rank": "subfamily",
+      "status": "accepted",
+      "parentId": "6256T"
+    },
+    {
+      "id": "6256T",
+      "name": "Hominidae",
+      "authorship": "Gray, 1825",
+      "rank": "family",
+      "status": "accepted",
+      "parentId": "58L"
+    },
+    {
+      "id": "58L",
+      "name": "Hominoidea",
+      "authorship": "Gray, 1825",
+      "rank": "superfamily",
+      "status": "accepted",
+      "parentId": "4PM"
+    },
+    {
+      "id": "4PM",
+      "name": "Simiiformes",
+      "authorship": "Haeckel, 1866",
+      "rank": "infraorder",
+      "status": "accepted",
+      "parentId": "4DT"
+    },
+    {
+      "id": "4DT",
+      "name": "Haplorrhini",
+      "authorship": "Pocock, 1918",
+      "rank": "suborder",
+      "status": "accepted",
+      "parentId": "3W7"
+    },
+    {
+      "id": "3W7",
+      "name": "Primates",
+      "authorship": "Linnaeus, 1758",
+      "rank": "order",
+      "status": "accepted",
+      "parentId": "LG"
+    },
+    {
+      "id": "LG",
+      "name": "Eutheria",
+      "authorship": "Gill, 1872",
+      "rank": "infraclass",
+      "status": "accepted",
+      "parentId": "6226C"
+    },
+    {
+      "id": "6226C",
+      "name": "Theria",
+      "authorship": "Parker & Haswell, 1897",
+      "rank": "subclass",
+      "status": "accepted",
+      "parentId": "6224G"
+    },
+    {
+      "id": "6224G",
+      "name": "Mammalia",
+      "authorship": "Linnaeus, 1758",
+      "rank": "class",
+      "status": "accepted",
+      "parentId": "9CK8W"
+    },
+    {
+      "id": "9CK8W",
+      "name": "Tetrapoda",
+      "authorship": null,
+      "rank": "megaclass",
+      "status": "accepted",
+      "parentId": "8VVWB"
+    },
+    {
+      "id": "8VVWB",
+      "name": "Osteichthyes",
+      "authorship": null,
+      "rank": "parvphylum",
+      "status": "accepted",
+      "parentId": "8V4V5"
+    },
+    {
+      "id": "8V4V5",
+      "name": "Gnathostomata",
+      "authorship": null,
+      "rank": "infraphylum",
+      "status": "accepted",
+      "parentId": "8V4V3"
+    },
+    {
+      "id": "8V4V3",
+      "name": "Vertebrata",
+      "authorship": null,
+      "rank": "subphylum",
+      "status": "accepted",
+      "parentId": "CH2"
+    },
+    {
+      "id": "CH2",
+      "name": "Chordata",
+      "authorship": null,
+      "rank": "phylum",
+      "status": "accepted",
+      "parentId": "N"
+    },
+    {
+      "id": "N",
+      "name": "Animalia",
+      "authorship": null,
+      "rank": "kingdom",
+      "status": "accepted",
+      "parentId": "CS5HF"
+    },
+    {
+      "id": "CS5HF",
+      "name": "Eukaryota",
+      "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+      "rank": "domain",
+      "status": "accepted",
+      "parentId": null
+    }
+  ],
+  "queueBaseline": {
+    "shardPath": "data/knowledge/species-evidence-queue/b.jsonl.br",
+    "rowSha256": "a1aa563f116e37219e64df4d4bd6b280b398844d707b0cb621e52815e0ee685e",
+    "dossierStatus": "incomplete",
+    "claimCount": 7,
+    "identityStatus": "method-and-scope-recorded",
+    "rightsStatus": "claim-source-rights-unresolved",
+    "systematicSearchRecorded": false,
+    "expertReviewStatus": "not-reviewed"
+  },
+  "preservedSiblingColIds": [
+    "3H3C9",
+    "4LTSY"
+  ],
+  "generator": "scripts/update-primates-pan-troglodytes-tool-use-b61.mjs",
+  "updateMode": "in-place-enrichment-of-one-existing-record",
+  "appAndPagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+  "appAndPagesPreviewManifestChanged": false
+}

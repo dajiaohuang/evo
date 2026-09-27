@@ -28,6 +28,11 @@ RC169 / COL26.8（2026-08-20）。分类、来源原文、来源字段标签、�
 - 为 COL26.8 accepted usage 4TZK2 增加一条来源限定档案。Baker et al. (2018) 在32只松鼠猴个体的DNA panel中检测382个 Alu 插入位点，其中110个呈有无多态；其中51个位点在论文定义的 S. sciureus 与 S. boliviensis 样本组之间呈作者所称的物种信息性等位基因频率分布。作者还报告两只标作 S. sciureus 的个体与 S. boliviensis 组聚类，因此档案保留样本标签限制，不推断完整种界、全球分布或全物种演化史。[出版社版本记录与CC BY 4.0许可](https://link.springer.com/article/10.1186/s13100-018-0114-7)
 - 七个主题中仅演化为 partially-supported，其余六项 not-assessed；完整档案和外部专家评审仍为 0。普通松鼠猴档案加入后，固定版队列包含 2,183,133 个接受种、36,328 条档案、2,146,805 个无档案接受种。精选 app 核心和 GitHub Pages 预览继续读取同一份 data/pages-preview.json，包含灵长目；完整队列与全量档案不打入 app/Pages 预览包。
 
+## 黑猩猩野外棍棒工具使用发育证据（2026-09-28）
+
+- 在 COL26.8 accepted usage `4C92G` *Pan troglodytes* 的既有档案中新增两条范围受限的生命史与生态主张，并把接受父链从 *Pan* 补齐至 Eukaryota。Malherbe et al. (2024) 编码了 Taï 国家公园三个相邻野生西部黑猩猩群体（*P. t. verus*）的 135 段视频、70 只个体和 1,460 次棍棒使用事件（2013-11 至 2020-04）。模型预测多指握法约在 5.2 岁成为最常见握法、15 岁时使用概率约 98%；45 岁以上数据仅来自一个群体的 3 只雌性。
+- 插入动作模型以 68 只个体的 1,386 条观察为基础，估计全手拇指握法与多指握法相对全手握法分别少 37% 和 31% 插入尝试。尝试次数只是论文定义的准确性代理指标；结果限于 Taï 的棍棒插入取食任务，不证明全物种发育规律、广义取食效率或认知因果。CC BY 4.0 已按出版社版权声明核验；生命史和生态保持 partially-supported，档案仍 incomplete、not-reviewed。[PLOS Biology 原文与许可](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002609)。输入、父链与队列基线、确定性生成器及分片摘要见 [B61 source](../data/sources/primates-pan-troglodytes-tool-use-b61-2026-09-28.json)、[manifest](../data/knowledge/primates-pan-troglodytes-tool-use-b61-2026-09-28.batch-manifest.json) 和 [generator](../scripts/update-primates-pan-troglodytes-tool-use-b61.mjs)。App native-core 与 GitHub Pages 仍共用 `data/pages-preview.json` 的灵长目精选范围；全量 dossier 不进入运行包。
+
 ## 克莱尔氏鼠狐猴生态证据切片（2026-09-28）
 
 - 为 COL26.8 accepted usage `42SBS`（*Microcebus mamiratra*）新增一条出版社原文支持的局部生态结果。Martin et al. (2025) 在 Nosy Be、Lokobe 国家公园内外的 15 条夜间样线中，于 2023-02-17 至 2023-04-04 记录 92 次目视检出；46.5 km 调查距离对应的距离抽样平均密度为 125.1 只/km²（95% CI 65.3–239.5）。约 4,700 只为向岛内范围森林面积外推的模型估计，不是普查，也不是该种全分布区估计。研究只支持野外自由活动个体及本地密度；圈养、家养和化石状态未由本文评估。[Cambridge 出版社版本记录与 CC BY 4.0 许可](https://www.cambridge.org/core/journals/oryx/article/first-density-estimates-of-the-endangered-claires-mouse-lemur-microcebus-mamiratra-and-recommendations-for-its-conservation/C244E596EA3EDF6C43AC07EC38CD2420)
