@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "batchId": "species-evidence-batch55-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/species-evidence-batch55-2026-09-27.json",
+    "sha256": "6e25448a450a4f5c9b70c0d8ec06d4f50b5ac860780923519339eca73056ccaf"
+  },
+  "baseAudit": {
+    "baseHead": "106a75352b67c10775cb0ac5eb765d2643187ae6",
+    "indexedRecordCount": 36322,
+    "indexedShardCount": 75,
+    "openPullRequests": [],
+    "newRecordColIds": [
+      "35JV8",
+      "KF8T"
+    ],
+    "updatedColIds": [],
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "queueRows": {
+      "35JV8": {
+        "shard": "data/knowledge/species-evidence-queue/8.jsonl.br",
+        "sha256": "c053eb96977e7c2eb0ba723134d0fa21f8c8f5802b457c265419468c0887f198",
+        "postDossierSha256": "b73d3e29d1cf91d473c000119c66068f30032ad60ed7b9abf872abf7e3ec27e2",
+        "dossierStatus": "missing"
+      },
+      "KF8T": {
+        "shard": "data/knowledge/species-evidence-queue/d.jsonl.br",
+        "sha256": "29bf734fd8b9b7affb21c73b67b31f7fb51a11bbb2e5ab637e95fea9b9ec02eb",
+        "postDossierSha256": "97b24c3073d03c3b465166c5a9c54f760a75063bf4e8e6abe70073cf0112419d",
+        "dossierStatus": "missing"
+      }
+    },
+    "sourceStableIdsCheckedAbsent": [
+      "doi:10.1038/s41467-021-22386-8",
+      "doi:10.1098/rspb.2022.1180"
+    ],
+    "sourceOccurrencesBeforeUpdate": 0,
+    "openPullRequestSearch": {
+      "checkedAt": "2026-09-27",
+      "queries": [
+        "35JV8",
+        "KF8T",
+        "10.1038/s41467-021-22386-8",
+        "10.1098/rspb.2022.1180"
+      ],
+      "returned": 0
+    }
+  },
+  "updatedRecords": [],
+  "newRecords": [
+    {
+      "colId": "35JV8",
+      "scientificName": "Dicerorhinus sumatrensis (G. Fischer [von Waldheim], 1814)"
+    },
+    {
+      "colId": "KF8T",
+      "scientificName": "Balaenoptera musculus (Linnaeus, 1758)"
+    }
+  ],
+  "indexedRecordCount": 36324,
+  "newShard": {
+    "path": "data/knowledge/catalogue-dossiers-species-evidence-batch55-2026-09-27.jsonl.br",
+    "rawPath": "data/knowledge/raw-dossiers/species-evidence-batch55-2026-09-27.jsonl",
+    "encoding": "brotli-jsonl",
+    "recordCount": 2,
+    "decodedBytes": 20574,
+    "decodedSha256": "defdd1058e30f4e28aeeca234d3d77d0615c2b1b71b9e6f71c8a9e008fd2de75",
+    "compressedBytes": 4509,
+    "compressedSha256": "7ac0e9263066b347d2058b303c483b5a4914eef3078a6433817c3326aef2bf15",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "generator": "scripts/build-species-evidence-batch55.mjs"
+}

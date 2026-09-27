@@ -16,7 +16,7 @@
     "dossierBasePath": "data/knowledge/catalogue-dossiers.json",
     "dossierBaseSha256": "88def9f9997c16f6eba9c51aca5c134b4af198442ae941baa284e6dd0c86beb5",
     "dossierIndexPath": "data/knowledge/catalogue-dossier-shards.json",
-    "dossierIndexSha256": "bf803acf68d416427bb62d8530fbfa7bf1a580964e1155f43d75d025f57ae126",
+    "dossierIndexSha256": "43dd012751e46987a6a11ad373b5dc107921a0940a7b959fa8480967629899ce",
     "dossierShards": [
       {
         "path": "data/knowledge/catalogue-dossiers-all.jsonl.br",
@@ -467,6 +467,12 @@
         "recordCount": 2,
         "compressedSha256": "39461403008e8ee20b0d26ae9afb7117f913e111ae1cd312124ee8c59c3e6fc2",
         "decodedSha256": "911905c2c020593b68de47028fec9368c34cb50973f36b54b08adc372757b1a2"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-species-evidence-batch55-2026-09-27.jsonl.br",
+        "recordCount": 2,
+        "compressedSha256": "7ac0e9263066b347d2058b303c483b5a4914eef3078a6433817c3326aef2bf15",
+        "decodedSha256": "defdd1058e30f4e28aeeca234d3d77d0615c2b1b71b9e6f71c8a9e008fd2de75"
       }
     ],
     "sourceOriginalCollections": [
@@ -616,12 +622,12 @@
     "acceptedSpecies": 2183133,
     "sourceOriginalAssociatedSpecies": 80838,
     "introductorySummarySpecies": 27,
-    "dossierSpecies": 36322,
+    "dossierSpecies": 36324,
     "completeDossierSpecies": 0,
     "externallyReviewedSpecies": 0,
-    "speciesWithAnyEvidenceStage": 80975,
-    "speciesWithoutAnyEvidenceStage": 2102158,
-    "speciesWithoutDossier": 2146811,
+    "speciesWithAnyEvidenceStage": 80976,
+    "speciesWithoutAnyEvidenceStage": 2102157,
+    "speciesWithoutDossier": 2146809,
     "sourceOriginalCollectionSpecies": {
       "brazilFloraDescriptions": 28896,
       "fdacDescriptions": 4156,
@@ -645,20 +651,20 @@
       "species": 27
     },
     "dossierStatuses": {
-      "missing": 2146811,
-      "incomplete": 36322,
+      "missing": 2146809,
+      "incomplete": 36324,
       "complete": 0
     },
     "expertReviewStatuses": {
-      "no-dossier": 2146811,
-      "not-reviewed": 36322,
+      "no-dossier": 2146809,
+      "not-reviewed": 36324,
       "maintainer-reviewed": 0,
       "externally-reviewed": 0
     },
     "claimSourceRightsStatuses": {
-      "not-assessed": 2146811,
+      "not-assessed": 2146809,
       "no-biological-claim-sources": 0,
-      "item-level-verified": 248,
+      "item-level-verified": 250,
       "claim-source-rights-unresolved": 36074
     },
     "facetStatuses": {
@@ -678,17 +684,17 @@
       },
       "ecology": {
         "supported": 0,
-        "partially-supported": 30567,
+        "partially-supported": 30568,
         "searched-no-evidence": 0,
         "conflicted": 0,
-        "not-assessed": 2152566
+        "not-assessed": 2152565
       },
       "evolution": {
         "supported": 0,
-        "partially-supported": 56,
+        "partially-supported": 57,
         "searched-no-evidence": 0,
         "conflicted": 0,
-        "not-assessed": 2183077
+        "not-assessed": 2183076
       },
       "distribution": {
         "supported": 0,
@@ -808,10 +814,10 @@
       "prefix": "8",
       "path": "data/knowledge/species-evidence-queue/8.jsonl.br",
       "recordCount": 136479,
-      "decodedBytes": 98003409,
-      "decodedSha256": "a3c3411269fc619ec4548c873b07071207ca5d0db299637f92fed1a7daf10d9d",
-      "compressedBytes": 4671091,
-      "compressedSha256": "416120010e3076e6c549c0ae428ba9f6b9eab03868d097259bc0fc1c13c91829",
+      "decodedBytes": 98003478,
+      "decodedSha256": "50a3889a3734c4a622fcdc328c5ea638c2bd60db45ac0fb5eb2e987ca2a46513",
+      "compressedBytes": 4671245,
+      "compressedSha256": "b6256ecf21975303b503272fa548508e7b0020574ba05800e8008a00005e2f0b",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -863,10 +869,10 @@
       "prefix": "d",
       "path": "data/knowledge/species-evidence-queue/d.jsonl.br",
       "recordCount": 136588,
-      "decodedBytes": 98087713,
-      "decodedSha256": "040ef4a3639a6bacb80e41ed3cd37251039603d43e17b637de43f59098b67b73",
-      "compressedBytes": 4676328,
-      "compressedSha256": "ab34c6798851b02d36bede97725b4e236f2b6bd98f8b262c0843a47e25013253",
+      "decodedBytes": 98087784,
+      "decodedSha256": "dd47856f8d7ddfcdb3ba24340a9d35a2a616d73d8173e1caac6190bdf7e237e5",
+      "compressedBytes": 4676383,
+      "compressedSha256": "22145dd502b23f9da392fe132d8c12c5d43dec3c9dd46ece19f36577606b0036",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
