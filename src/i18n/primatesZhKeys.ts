@@ -235,4 +235,9 @@ export const primatesZhKeys = new Set<string>([
   "Not assessed in the selected core evidence.",
   "The selected studies do not establish a species-wide habitat profile. Observed localities and modeled habitat suitability in the rabies study are distinct evidence.",
   "The core profile links a captive-colony association between paternal responsiveness and infant outcomes, Brazilian passive rabies reports, and a model-based mitochondrial-lineage estimate. These sources do not establish wild life history, species-wide ecology, complete distribution, a nuclear-genome divergence date or formal conservation status.",
+  "Archaeological sample sites south of the Limpopo River across central and southern South Africa; sampled individuals date to 10,200–150 calibrated years before present. These localities do not delimit the current species range.",
+  "COL26.8 accepted species usage 6MB3T identifies Homo sapiens (Linnaeus, 1758). The selected evidence concerns 28 ancient southern African individuals and their study-defined genomic comparisons; this is not a complete species review.",
+  "The selected genomic study does not establish a species-wide habitat profile.",
+  "A whole-genome study of 28 ancient southern African individuals dated 10,200–150 calibrated years before present found that samples older than 1,400 years fell outside the genetic-variation range of the study’s modern human comparison panel and carried many variants classified by the authors as Homo sapiens-specific. This is a sample-bounded population-genomic result, not a species-wide evolutionary history.",
+  "evolution",
 ])
