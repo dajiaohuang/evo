@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-callithrix-jacchus-pair-formation-batch62-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "target": {
+    "colId": "697NS",
+    "scientificName": "Callithrix jacchus (Linnaeus, 1758)",
+    "rank": "species",
+    "sourceDatasetId": "2144"
+  },
+  "audit": {
+    "baseHead": "20b3ede3372f98ac3d09685302c4a67e32d4fbd7",
+    "indexedRecordCount": 36330,
+    "targetRecordCount": 1,
+    "targetRawPath": "data/knowledge/raw-dossiers/primates-callithrix-jacchus-batch27-2026-09-25.jsonl",
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-callithrix-jacchus-batch27-2026-09-25.jsonl.br",
+    "previousRawSha256": "91954393d34f599acaed4055167602b637c3a0363c714a9213ecad68b74132be",
+    "previousShardCompressedSha256": "cd15136ba1e7eb6a83ff029164a5647b529665624ddda922c22d3134781dfd2c",
+    "previousTargetRecordSha256": "e29322f9477f77cd78c9207da369e1bbd131dc97ac38ff03da6858a29dd85082",
+    "queueShardPath": "data/knowledge/species-evidence-queue/8.jsonl.br",
+    "queueRowSha256": "e14152c4061474b33fdaf17bed7edfeeb98c819e32cad46ecbee801895cb0fca",
+    "queueBaseline": {
+      "dossierStatus": "incomplete",
+      "identityStatus": "source-linked",
+      "identitySourceIds": ["col"],
+      "sourceIds": ["benavides2022", "col", "malukiewicz2021", "malukiewicz2024", "takahashi2014", "ziegler2017"],
+      "claimCount": 6,
+      "rightsStatus": "item-level-verified",
+      "systematicSearchRecorded": true,
+      "ecologyStatus": "partially-supported",
+      "expertReviewStatus": "not-reviewed"
+    },
+    "openPullRequests": [],
+    "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "6224G", "6226C", "LG", "3W7", "4DT", "4PM", "7KR", "3FM4", "697NS"],
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "source": {
+    "id": "wienand2026",
+    "title": "Wienand L, Burkart JM, Wierucka K. Spatial and Sociosexual Behavior During Pair Formation in Common Marmosets (Callithrix jacchus).",
+    "url": "https://doi.org/10.1007/s10764-026-00553-2",
+    "stableId": "doi:10.1007/s10764-026-00553-2",
+    "version": "International Journal of Primatology 47, 698–719 (2026); version of record published 2026-04-10",
+    "publishedAt": "2026-04-10",
+    "accessedAt": "2026-09-28",
+    "locator": "Abstract; Methods §§ Subjects and Housing, Experimental Design, Spatial Proximity, Sociosexual Behavior; Results §§ Spatial Proximity, Sociosexual Behavior; Discussion and study limitations.",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the publisher's Rights and permissions section.",
+    "licenseAssessment": "item-level-verified",
+    "rightsEvidenceUrl": "https://link.springer.com/article/10.1007/s10764-026-00553-2",
+    "rightsEvidenceLocator": "Publisher Rights and permissions section states that the article is licensed under Creative Commons Attribution 4.0 International; separately credited third-party material may have different terms.",
+    "rightsHolder": "Luca Wienand, Judith M. Burkart, and Kaja Wierucka, as the article authors.",
+    "licenseVersion": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseAppliesTo": "Paraphrased article text only. No figure, table, image, or supplementary-file content is copied; separately credited third-party material is excluded.",
+    "attribution": "Wienand L, Burkart JM, Wierucka K. (2026). Spatial and Sociosexual Behavior During Pair Formation in Common Marmosets (Callithrix jacchus). International Journal of Primatology 47:698–719. https://doi.org/10.1007/s10764-026-00553-2. CC BY 4.0. Findings paraphrased; no figures or tables reproduced.",
+    "scope": "Captive adult common marmosets at the UZH Primate Station, Switzerland: three adult males and three adult females (six subjects), tested in eight mixed-sex dyads after excluding one sibling combination. The assigned-pair study used repeated short visual exposures and pair-housing tests from February through August 2022; partners were not chosen by the animals."
+  },
+  "claims": [
+    {
+      "facet": "ecology",
+      "sourceId": "wienand2026",
+      "text": "Before assigned pair formation, repeated short visual exposures of initially unfamiliar captive common marmosets were associated with a model-estimated 32.3% decrease in direct interindividual distance per exposure. After pair formation, mating status had no clear association with direct distance (P = 0.37). The result concerns eight mixed-sex dyads of six adults at one station and this short assay; it does not show that proximity is a general marker of pair-bond maintenance or describe wild grouping.",
+      "textZh": "在研究者安排配对前，圈养普通狨猴中原本陌生的个体经过多次短时视觉接触后，模型估计其直接个体间距离每增加一次接触减少 32.3%。配对形成后，配偶身份与直接距离之间未显示明确关联（P = 0.37）。结果来自单一研究站的 6 只成年个体、8 个混合性别配对及这一短时测验；它不能证明接近距离是维持配对关系的通用指标，也不描述野外群体结构。",
+      "originalLanguage": "en",
+      "translationStatus": "verified",
+      "locator": "Methods, Experimental Design; Results, Spatial Proximity (model estimate before pairing and mating-status comparison after pairing); Discussion, interpretation of proximity as a context-dependent measure.",
+      "placeTimeScope": "UZH Primate Station, Switzerland; data collected February–August 2022. Six captive adults (three males and three females) formed eight analyzed mixed-sex dyads; each dyad had six short visual-exposure sessions in the before- and after-pairing periods.",
+      "lifeStatus": "Captive adults in researcher-assigned pairs; no free-ranging, domesticated, or fossil observations are included."
+    },
+    {
+      "facet": "ecology",
+      "sourceId": "wienand2026",
+      "text": "In 91 analyzed recordings, the study recorded 436 sociosexual behaviors. A pooled model estimated about 1.2 more behavior scan-counts across the nine scans in a session before pair formation than after it (P = 0.023); after pairing, observed counts were lowest in pair-mate dyads and higher in less familiar extra-pair dyads. These are exploratory captive observations from assigned pairs, not estimates of wild mating behavior, sexual exclusivity, or population-wide social organization.",
+      "textZh": "在 91 段纳入分析的录像中，研究共记录 436 次性社交行为。合并模型估计，配对形成前每次会话的 9 个扫描点中，行为扫描计数比配对形成后约多 1.2 次（P = 0.023）；配对形成后，观察到的行为计数在配偶配对中最低，在较不熟悉的非配偶配对中较高。这些是研究者分配配偶后的圈养探索性观察，不是野外交配行为、性排他性或种群级社会组织的估计。",
+      "originalLanguage": "en",
+      "translationStatus": "verified",
+      "locator": "Methods, Sociosexual Behavior; Results, Sociosexual Behavior (91 recordings, 436 behaviors, pooled model and pair-mate/extra-pair comparison); Discussion, limits on interpreting sexual motivation and pair bonding.",
+      "placeTimeScope": "UZH Primate Station, Switzerland; observations collected February–August 2022. Pooled scan-count analysis used 91 recordings from captive common marmosets in the assigned-pair experiment; each five-minute session had nine 30-second scans.",
+      "lifeStatus": "Captive adults in researcher-assigned pairs; no free-ranging, domesticated, or fossil observations are included."
+    }
+  ],
+  "gaps": {
+    "ecology": [
+      "The added pair-formation evidence is one exploratory captive assay from six adults at a single station; partner assignment did not allow mate choice, and natural dispersal, mate choice, wild social relationships, and population variation remain unassessed."
+    ]
+  }
+}
