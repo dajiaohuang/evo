@@ -20,7 +20,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "items": { "enum": ["taxonomy", "topology", "range", "morphology", "ecology", "biogeography", "event-mechanism", "occurrence", "paleogeography", "geochronology", "methods"] }
+      "items": { "enum": ["taxonomy", "evolution", "topology", "range", "morphology", "ecology", "biogeography", "event-mechanism", "occurrence", "paleogeography", "geochronology", "methods"] }
     },
     "metadataAssignment": { "enum": ["automated", "curator-reviewed"] },
     "url": { "type": "string", "pattern": "^https://" },

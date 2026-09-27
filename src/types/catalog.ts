@@ -7,7 +7,7 @@ export interface ReferenceRecord {
   publishedYear?: number
   type: 'paper' | 'database' | 'dataset' | 'standard' | 'museum' | 'documentation'
   sourceRole: 'primary-study' | 'systematic-review' | 'taxonomic-database' | 'occurrence-database' | 'museum-overview' | 'documentation' | 'standard'
-  fitnessFor: Array<'taxonomy' | 'topology' | 'range' | 'morphology' | 'ecology' | 'biogeography' | 'event-mechanism' | 'occurrence' | 'paleogeography' | 'geochronology' | 'methods'>
+  fitnessFor: Array<'taxonomy' | 'evolution' | 'topology' | 'range' | 'morphology' | 'ecology' | 'biogeography' | 'event-mechanism' | 'occurrence' | 'paleogeography' | 'geochronology' | 'methods'>
   metadataAssignment: 'automated' | 'curator-reviewed'
   url: string
   doi?: string
@@ -159,7 +159,7 @@ export interface DivergenceEstimate {
   note: string
 }
 
-export type EvidenceClaimType = 'topology' | 'divergence-time' | 'fossil-range' | 'morphology' | 'ecology' | 'biogeography' | 'event-mechanism'
+export type EvidenceClaimType = 'taxonomy' | 'evolution' | 'topology' | 'divergence-time' | 'fossil-range' | 'morphology' | 'ecology' | 'biogeography' | 'event-mechanism'
 
 export interface EvidenceClaim {
   id: string

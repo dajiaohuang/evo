@@ -7,7 +7,7 @@
   "properties": {
     "id": { "type": "string", "pattern": "^claim:(?:event|taxon):" },
     "subjectId": { "type": "string", "pattern": "^(?:event|taxon):" },
-    "claimType": { "enum": ["taxonomy", "topology", "divergence-time", "fossil-range", "biogeography", "morphology", "ecology", "event-mechanism"] },
+    "claimType": { "enum": ["taxonomy", "evolution", "topology", "divergence-time", "fossil-range", "biogeography", "morphology", "ecology", "event-mechanism"] },
     "claimKind": { "enum": ["scientific", "editorial"] },
     "statement": { "type": "string", "minLength": 20 },
     "confidence": { "enum": ["high", "medium", "low", "contested"] },

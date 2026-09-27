@@ -9,7 +9,7 @@ const unique = (items) => new Set(items).size === items.length
 const scientificMaturityOrder = ['generated-scaffold', 'structured', 'source-linked', 'curated-draft', 'published']
 const scientificMaturityAtLeast = (value, minimum) => scientificMaturityOrder.indexOf(value) >= scientificMaturityOrder.indexOf(minimum)
 const scientificSourceRoles = new Set(['primary-study', 'systematic-review'])
-const claimFitness = { taxonomy: 'taxonomy', topology: 'topology', 'divergence-time': 'geochronology', 'fossil-range': 'range', biogeography: 'biogeography', morphology: 'morphology', ecology: 'ecology', 'event-mechanism': 'event-mechanism' }
+const claimFitness = { taxonomy: 'taxonomy', evolution: 'evolution', topology: 'topology', 'divergence-time': 'geochronology', 'fossil-range': 'range', biogeography: 'biogeography', morphology: 'morphology', ecology: 'ecology', 'event-mechanism': 'event-mechanism' }
 
 function schemaValidator(schemaPath) {
   const ajv = new Ajv2020({ allErrors: true, strict: true })
