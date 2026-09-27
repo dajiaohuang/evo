@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "batchId": "species-evidence-batch52-chelonia-ecology-2026-09-27",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/species-evidence-batch52-chelonia-ecology-2026-09-27.json",
+    "sha256": "473250ebead54f584541ed4ebc50a9b6a0ec73ed713f86931ed1aacd03b7818c"
+  },
+  "duplicateCheck": {
+    "mode": "in-place-update",
+    "indexedShardCount": 75,
+    "indexedRecordCount": 36322,
+    "sourceStableIds": [
+      "doi:10.1038/s41598-017-13142-4"
+    ],
+    "sourceOccurrencesBeforeUpdate": 0,
+    "matchedColIds": [
+      "TVGD"
+    ],
+    "matchedNames": [
+      "chelonia mydas (linnaeus, 1758)"
+    ],
+    "openPullRequests": []
+  },
+  "updateAudit": {
+    "baseHead": "3febbb4d6a198084b38728181e1bcc6bed22f275",
+    "indexedShardCountAtAudit": 75,
+    "indexedRecordCountAtAudit": 36322,
+    "targetColId": "TVGD",
+    "targetScientificName": "Chelonia mydas (Linnaeus, 1758)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-species-evidence-batch38-2026-09-25.jsonl.br",
+    "previousRawSha256": "53aa67ff1fd031f8dfb8994f26a6ed137228df16a4b270bc6717237e97004b2b",
+    "previousCompressedSha256": "fd7db13ab7d1922182099b19437c6aa86eb5b361c18f0463d610cd1a9e700529",
+    "previousTargetRecordSha256": "0c3d75145fe82258aae0bdc7c46cdb63aec29894542caa4dc2265c87e1acf5d7",
+    "sourceOccurrencesBeforeUpdate": 0,
+    "openPullRequests": [],
+    "openPullRequestSearch": {
+      "queries": [
+        "TVGD",
+        "10.1038/s41598-017-13142-4"
+      ],
+      "checkedAt": "2026-09-27",
+      "returned": 0
+    },
+    "mode": "in-place-add-one-site-bounded-green-turtle-grazing-ecology-claim",
+    "indexedRecordCountAfterUpdate": 36322,
+    "outputRawSha256": "e3a02fe16ffd7549b44bccfcf6f2eae5af33b86a9e795eb9df759a44fb7dddce",
+    "outputCompressedSha256": "360d309a4a501cf6401a5f838ebb63f2ab5fe001e897765daaed3bbedca0fa0e"
+  },
+  "sources": [
+    {
+      "id": "johnson2017greenturtlegrazingcarbon",
+      "stableId": "doi:10.1038/s41598-017-13142-4",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "rightsHolder": "The authors"
+    }
+  ],
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-species-evidence-batch38-2026-09-25.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 32327,
+    "decodedSha256": "e3a02fe16ffd7549b44bccfcf6f2eae5af33b86a9e795eb9df759a44fb7dddce",
+    "compressedBytes": 7176,
+    "compressedSha256": "360d309a4a501cf6401a5f838ebb63f2ab5fe001e897765daaed3bbedca0fa0e",
+    "brotliParameters": {
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "datasetDoi": "10.48580/dgywk",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "preservedSiblingColIds": [
+    "3GF5W",
+    "4KF7P"
+  ],
+  "generator": "scripts/update-chelonia-ecology-batch52.mjs",
+  "updateMode": "in-place-enrichment-of-one-existing-record",
+  "appAndPagesPreviewManifestChanged": false
+}
