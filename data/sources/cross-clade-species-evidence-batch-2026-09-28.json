@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "releaseAlias": "COL26.8",
+  "batchId": "cross-clade-species-evidence-batch-2026-09-28",
+  "checkedAt": "2026-09-28",
+  "audit": {
+    "baseHead": "1f6e0e85d9aebe1f518468c5f55923c580af17d1",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "dossierIndexSha256": "377155977d4ef563394ed4b41c044f730a5890aa896bb66c045c4e20b79dc4ba",
+    "dossierIndexRecordCount": 36331,
+    "queueManifestSha256": "3b58455edcb5a5529e5bbf2f310892622c06cbe55a563a202d9920103a8f19c2",
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "duplicateAudit": {
+      "checkedDossierRecords": 36331,
+      "matchedColIds": [],
+      "matchedScientificNames": [],
+      "matchedStableIds": [],
+      "searchedOpenPullRequests": [
+        "Neogobius melanostomus",
+        "10.1371/journal.pone.0310692",
+        "Oophaga pumilio",
+        "10.1371/journal.pone.0130571",
+        "Bombus terrestris",
+        "10.1371/journal.pone.0009559"
+      ],
+      "openPullRequestMatches": 0,
+      "checkedAt": "2026-09-28"
+    }
+  },
+  "species": [
+    {
+      "target": {
+        "colId": "6RW9X",
+        "scientificName": "Neogobius melanostomus (Pallas, 1814)",
+        "authorship": "(Pallas, 1814)",
+        "rank": "species",
+        "sourceDatasetId": "1010"
+      },
+      "audit": {
+        "queueShardPath": "data/knowledge/species-evidence-queue/9.jsonl.br",
+        "queueShardCompressedSha256": "d4c71d0d9ea6d9bc8dbfcaba665936e9ff0900885d69544c7b41052af7e033c4",
+        "queueShardDecodedSha256": "6dcc6afacd73bc07ce903cb42f2e8e2f0d51acabcf6afe2b0a219a096ff2d247",
+        "queueRowSha256": "21c18b07e25495413506b7f67c144e5fc3fb739af30b54231c1f6a88610b359a",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "8VR36", "KTWM8", "8V4VD", "KV992", "KV98Z", "KVBGR", "KVBK3", "6RW9X"]
+      },
+      "scope": "Nominal species as represented by the pinned COL26.8 accepted usage. The evidence below describes selected European invasive populations and does not constitute a complete species account.",
+      "lifeStatusScope": {
+        "wild": "The source sampled free-living fish in European rivers. Its field-collection methods state that gobiids were euthanized; the cited results are not from captive or domesticated populations.",
+        "domesticated": "Domestication and captive populations have not been assessed; no captive or domesticated specimens support these claims.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "lampert2024",
+          "title": "Lampert et al. (2024), Round gobies (Neogobius melanostomus) in the River Rhine: Population genetic support for invasion via two different routes",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0310692",
+          "stableId": "doi:10.1371/journal.pone.0310692",
+          "version": "PLOS ONE 19(9):e0310692; version of record published 2024-09-19",
+          "publishedAt": "2024-09-19",
+          "accessedAt": "2026-09-28",
+          "locator": "Methods, Field sampling and Molecular analyses; Results, sampling abundance and haplotypes; Discussion, limits on the number and timing of invasion events.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), verified from the article copyright notice and PLOS license policy.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original field abundance and mitochondrial d-loop population comparison for Lower Rhine, Upper Rhine, Danube, and Trave samples. Claims paraphrase article text; figures and third-party material are not reused.",
+          "rightsHolder": "Lampert et al. (2024), as identified by the PLOS article copyright notice.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseEvidenceUrl": "https://journals.plos.org/plosone/s/licenses-and-copyright?show=full",
+          "licenseEvidenceLocator": "PLOS License and Copyright policy, Reuse of PLOS Article Content; the article copyright notice links to the Creative Commons Attribution License.",
+          "licenseAppliesTo": "Published article text. Separately credited third-party material is excluded; this dossier paraphrases findings and does not redistribute figures or sequence files.",
+          "attribution": "Lampert KP, Heermann L, Storm S, Hirsch PE, Cerwenka AF, Heubel K, et al. (2024). Round gobies (Neogobius melanostomus) in the River Rhine: Population genetic support for invasion via two different routes. PLOS ONE 19(9):e0310692. https://doi.org/10.1371/journal.pone.0310692. Findings paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {"status": "not-assessed"},
+        "lifeHistory": {"status": "not-assessed"},
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Annual July angling surveys near Rees on the Lower Rhine from 2010 through 2020 collected 2,905 gobiids, of which 93.5% were Neogobius melanostomus. This is a site- and method-bounded proportion of goby catches, not a species-wide abundance or population estimate.",
+              "sourceIds": ["lampert2024"],
+              "locator": "Methods, Field sampling; Results, first paragraph and Fig. 2 caption.",
+              "placeTimeScope": "A groin field near Rees, Lower Rhine, Germany, sampled annually in July from 2010 to 2020. The result applies to the reported angling catches at that site and time; the article was published 2024-09-19.",
+              "lifeStatus": "Free-living fish caught in the field. The article states that captured gobiids were euthanized; no captive or domesticated fish support the claim.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "A catch proportion from one Lower Rhine site and a particular angling protocol does not estimate species-wide abundance or distribution.",
+            "Seasonal, habitat, and gear differences beyond the reported surveys remain unassessed."
+          ]
+        },
+        "evolution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "The study compared mitochondrial control-region sequences from 286 fish sampled at four European sites and reported three d-loop haplotypes. Rhine samples contained all three; the sampled Danube fish had haplotype A, while the sampled Trave fish had haplotypes B and C. The authors interpreted this pattern as support for two invasion routes into the Rhine. It is a bounded historical population inference from one mitochondrial region, not a species-wide phylogeny.",
+              "sourceIds": ["lampert2024"],
+              "locator": "Abstract; Methods, Molecular analyses; Results, haplotype counts and Fig. 3; Discussion, interpretation and remaining invasion-history uncertainty.",
+              "placeTimeScope": "Samples represent Rees in the Lower Rhine, Basel in the Upper Rhine, Deggendorf and Passau in the Danube, and the Trave near the Baltic Sea. Lower Rhine abundance sampling ran annually in July from 2010 to 2020; collection dates for the comparative genetic samples are not specified in the cited main-text methods and remain unknown.",
+              "lifeStatus": "Wild-caught European river fish. The source states that collected gobiids were euthanized; no captive or domesticated samples support the claim.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The inference uses a single mitochondrial control region and a limited set of European populations; nuclear and broader genomic evidence are not assessed here.",
+            "The authors state that their data do not resolve the number or timing of invasion waves from either direction."
+          ]
+        },
+        "distribution": {"status": "not-assessed"},
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completenessReasons": [
+        "Evidence covers a Lower Rhine catch result and a study-specific mitochondrial population comparison; morphology, life history, full distribution, fossils, and conservation remain unassessed.",
+        "The cited work is not a systematic review or a complete account of this species.",
+        "A reproducible systematic search and independent expert review have not been completed."
+      ]
+    },
+    {
+      "target": {
+        "colId": "49SSQ",
+        "scientificName": "Oophaga pumilio (Schmidt, 1857)",
+        "authorship": "(Schmidt, 1857)",
+        "rank": "species",
+        "sourceDatasetId": "2144"
+      },
+      "audit": {
+        "queueShardPath": "data/knowledge/species-evidence-queue/b.jsonl.br",
+        "queueShardCompressedSha256": "f0d120c50996df6fc77354b1c8fab5639ee5834f822c9e3daa00fd728ba6988b",
+        "queueShardDecodedSha256": "cf143a041189bfba0967179638d882dc758b9f56674bb05e20980174b270f7eb",
+        "queueRowSha256": "d1f4f890345c7b03afeb1209807a9f6435c243d0bf26caf3bbf05b7b2421625b",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "PH", "PW", "52K", "93G", "JF6", "68KL", "49SSQ"]
+      },
+      "scope": "Nominal species as represented by the pinned COL26.8 accepted usage. Evidence concerns measured coloration and clay-model predator interactions at six sampled Central American populations; it does not constitute a full species account.",
+      "lifeStatusScope": {
+        "wild": "Live frogs were measured in the field and released at their capture sites. The predation experiment used standardized non-toxic clay models placed in frog habitat; model attacks are not observations of live-frog survival.",
+        "domesticated": "Domestication and captive populations have not been assessed; no captive or domesticated frogs support these claims.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "dreher2015",
+          "title": "Dreher, Cummings & Pröhl (2015), An Analysis of Predator Selection to Affect Aposematic Coloration in a Poison Frog Species",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0130571",
+          "stableId": "doi:10.1371/journal.pone.0130571",
+          "version": "PLOS ONE 10(6):e0130571; version of record published 2015-06-25",
+          "publishedAt": "2015-06-25",
+          "accessedAt": "2026-09-28",
+          "locator": "Methods, Reflectance Measurements and Visual Modeling and Predation experiments; Results, Overall conspicuousness and Predation experiments.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), verified from the article copyright notice and PLOS license policy.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original live-frog skin reflectance and clay-model predation experiments across six populations in Costa Rica and Panama. Claims do not rely on figures or third-party material.",
+          "rightsHolder": "Dreher, Cummings & Pröhl (2015), as identified by the PLOS article copyright notice.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseEvidenceUrl": "https://journals.plos.org/plosone/s/licenses-and-copyright?show=full",
+          "licenseEvidenceLocator": "Article copyright notice links to the Creative Commons Attribution License; PLOS policy identifies CC BY 4.0 International as the article-content license.",
+          "licenseAppliesTo": "Published article text. Any separately credited third-party content is excluded; this dossier paraphrases findings and does not reuse images or figures.",
+          "attribution": "Dreher CE, Cummings ME, Pröhl H (2015). An Analysis of Predator Selection to Affect Aposematic Coloration in a Poison Frog Species. PLOS ONE 10(6):e0130571. https://doi.org/10.1371/journal.pone.0130571. Findings paraphrased."
+        },
+        {
+          "id": "plos2015correction",
+          "title": "The PLOS ONE Staff (2015), Correction: An Analysis of Predator Selection to Affect Aposematic Coloration in a Poison Frog Species",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134628",
+          "stableId": "doi:10.1371/journal.pone.0134628",
+          "version": "PLOS ONE 10(7):e0134628; correction published 2015-07-30",
+          "publishedAt": "2015-07-30",
+          "accessedAt": "2026-09-28",
+          "locator": "Correction notice: the first author's email and Fig. 4 were corrected. The claims in this dossier do not rely on Fig. 4.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), verified from the correction copyright notice and PLOS license policy.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Publisher correction associated with the 2015 Oophaga pumilio research article. It corrects Fig. 4 and the first author's email; it does not alter the Methods or Results passages cited for these claims.",
+          "rightsHolder": "The PLOS ONE Staff (2015), as identified by the correction notice.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134628",
+          "licenseEvidenceLocator": "Correction copyright notice links to the Creative Commons Attribution License; PLOS policy identifies CC BY 4.0 International as the article-content license.",
+          "licenseAppliesTo": "Correction notice text. The corrected figure and any separately credited third-party content are not reused.",
+          "attribution": "The PLOS ONE Staff (2015). Correction: An Analysis of Predator Selection to Affect Aposematic Coloration in a Poison Frog Species. PLOS ONE 10(7):e0134628. https://doi.org/10.1371/journal.pone.0134628. Correction notice paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "Researchers measured skin reflectance in 255 live Oophaga pumilio from six populations in Costa Rica and Panama between December 2008 and June 2011. Their visual models found population differences in color and brightness contrast among sampled dorsal and ventral coloration. These measurements describe the sampled populations; they do not establish that selection caused the divergence or characterize every population of the species.",
+              "sourceIds": ["dreher2015"],
+              "locator": "Methods, Reflectance Measurements and Visual Modeling; Results, Color Contrast, Brightness Contrast, and Overall conspicuousness.",
+              "placeTimeScope": "Six populations: Sarapiquí and Hitoy Cerere in Costa Rica; Río Gloria, Tierra Oscura, Isla Colón, and Isla Solarte in Panama. Field measurements were collected between December 2008 and June 2011; the article was published 2015-06-25.",
+              "lifeStatus": "Live, free-living frogs were measured in the field and released at their capture sites. No captive or domesticated frogs support the claim.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The study measures color and brightness contrasts, not all morphological traits or within-population variation across the species range.",
+            "A population comparison does not by itself establish the evolutionary causes of coloration differences."
+          ]
+        },
+        "lifeHistory": {"status": "not-assessed"},
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "In 20-day experiments at six sampled populations, researchers deployed 1,600 standardized clay frog models per population. Attack rates varied among populations and were higher at the two sampled Panama island populations than at several mainland populations; local versus non-local model origin had no significant overall effect. These are predator interactions with clay models, not mortality or survival measurements of live frogs.",
+              "sourceIds": ["dreher2015"],
+              "locator": "Methods, Predation experiments; Results, Predation experiments and Fig. 2 caption.",
+              "placeTimeScope": "The six model-placement populations were Sarapiquí, Hitoy Cerere, Río Gloria, Tierra Oscura, Isla Colón, and Isla Solarte in Costa Rica and Panama. The main article gives the live-frog field-work period as December 2008 to June 2011 but does not date each model experiment separately; exact experiment dates remain unknown.",
+              "lifeStatus": "The focal frogs are free-living; attacks were recorded on non-toxic clay models placed in their habitat, not on live or captive frogs.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "Clay-model attacks cannot estimate live-frog mortality, survival, or realized predator selection on natural populations.",
+            "Some imprints were classified only as potential bird marks; other predator classes had few observations, and the result is limited to six populations."
+          ]
+        },
+        "evolution": {"status": "not-assessed"},
+        "distribution": {"status": "not-assessed"},
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completenessReasons": [
+        "Only sampled coloration and clay-model predator-interaction facets are partially supported; life history, evolution, complete distribution, fossils, and conservation remain unassessed.",
+        "The study covers six selected populations and does not provide a complete species account or prove causal mechanisms of color divergence.",
+        "A reproducible systematic search and independent expert review have not been completed."
+      ]
+    },
+    {
+      "target": {
+        "colId": "MFWK",
+        "scientificName": "Bombus terrestris (Linnaeus, 1758)",
+        "authorship": "(Linnaeus, 1758)",
+        "rank": "species",
+        "sourceDatasetId": "2144"
+      },
+      "audit": {
+        "queueShardPath": "data/knowledge/species-evidence-queue/6.jsonl.br",
+        "queueShardCompressedSha256": "8018585d8e5018b92fdf7889b313278eb1d6eac6ee1b215d9d5d8f9962b4b77f",
+        "queueShardDecodedSha256": "70bf89c164212a68006b04661ab017272b16b9edffec10438ea23346e69718f1",
+        "queueRowSha256": "8a686304078b160d69d6fef99a9250006cae5603823a9fb1a60aa2709a0be10a",
+        "classificationPathIds": ["CS5HF", "N", "RT", "L2655", "H6", "HYM", "KZPW7", "KZMNP", "625GP", "6KD", "J5V", "KN5", "62H8K", "MFWK"]
+      },
+      "scope": "Nominal species as represented by the pinned COL26.8 accepted usage. The evidence here is limited to free-flying B. terrestris observed during one winter at Kew Gardens, London; the article's separate commercial-colony foraging experiments are excluded.",
+      "lifeStatusScope": {
+        "wild": "The claim uses transect observations of free-flying bees at Kew Gardens, London. It does not use the paper's separately described commercial colonies.",
+        "domesticated": "Domestication has not been assessed. The article's commercial colonies were B. terrestris dalmatinus and are not used as evidence for this claim.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "stelzer2010",
+          "title": "Stelzer, Chittka, Carlton & Ings (2010), Winter Active Bumblebees (Bombus terrestris) Achieve High Foraging Rates in Urban Britain",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009559",
+          "stableId": "doi:10.1371/journal.pone.0009559",
+          "version": "PLOS ONE 5(3):e9559; version of record published 2010-03-05",
+          "publishedAt": "2010-03-05",
+          "accessedAt": "2026-09-28",
+          "locator": "Methods, Transect Walks; Results, Transect Walks; Discussion, limits on evidence for a winter generation.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), verified from the article copyright notice and PLOS license policy.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original field transect observations of free-flying B. terrestris at Kew Gardens in winter 2007/08. The separate foraging experiments with commercial B. terrestris dalmatinus are not used in this dossier.",
+          "rightsHolder": "Stelzer et al. (2010), as identified by the PLOS article copyright notice.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseEvidenceUrl": "https://journals.plos.org/plosone/s/licenses-and-copyright?show=full",
+          "licenseEvidenceLocator": "Article copyright notice states Creative Commons Attribution; the PLOS license policy identifies CC BY 4.0 International for article content.",
+          "licenseAppliesTo": "Published article text. Separately credited third-party content is excluded; the claim paraphrases field observations and does not reproduce figures.",
+          "attribution": "Stelzer RJ, Chittka L, Carlton M, Ings TC (2010). Winter Active Bumblebees (Bombus terrestris) Achieve High Foraging Rates in Urban Britain. PLOS ONE 5(3):e9559. https://doi.org/10.1371/journal.pone.0009559. Findings paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {"status": "not-assessed"},
+        "lifeHistory": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "During 27 transect walks at Kew Gardens from October 2007 through March 2008, queens and workers of Bombus terrestris were observed throughout the winter. Worker observations rose in early December, peaked in January, and declined in late February or early March; males were observed only through early November. The observations establish winter activity at this site, but do not demonstrate successful reproduction or a second generation.",
+              "sourceIds": ["stelzer2010"],
+              "locator": "Methods, Transect Walks; Results, Transect Walks and Fig. 4 caption; Discussion, limits on inferring a successful winter generation.",
+              "placeTimeScope": "Royal Botanic Gardens, Kew, Surrey, London, United Kingdom; 27 fixed-transect walks from 2007-10-01 through 2008-03-28. The version of record was published 2010-03-05.",
+              "lifeStatus": "Free-flying bees observed in the field. This claim excludes separately tested commercial B. terrestris dalmatinus colonies and does not describe captive or domesticated populations.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The evidence is a single-site, single-winter transect series and cannot establish species-wide phenology or population trends.",
+            "The authors caution that the observations do not establish whether winter activity produced new queens or males; reproductive success remains unassessed.",
+            "The article's foraging-rate experiments used commercial B. terrestris dalmatinus and are excluded from this species-specific claim."
+          ]
+        },
+        "ecology": {"status": "not-assessed"},
+        "evolution": {"status": "not-assessed"},
+        "distribution": {"status": "not-assessed"},
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completenessReasons": [
+        "One field-observation study partially supports winter activity at Kew Gardens; morphology, broader ecology, evolution, full distribution, fossils, and conservation remain unassessed.",
+        "The cited transect series covers one site and one winter and does not establish successful reproduction or species-wide phenology.",
+        "A reproducible systematic search and independent expert review have not been completed."
+      ]
+    }
+  ]
+}

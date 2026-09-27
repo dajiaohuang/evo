@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "batchId": "cross-clade-species-evidence-batch-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "baseHead": "1f6e0e85d9aebe1f518468c5f55923c580af17d1",
+  "input": {
+    "path": "data/sources/cross-clade-species-evidence-batch-2026-09-28.json",
+    "sha256": "ea11a9b97b22e7d2171d615ae4e238c24771c4b5289acc9e8fc0c0a4cfc297e7"
+  },
+  "duplicateAudit": {
+    "checkedDossierRecords": 36331,
+    "matchedColIds": [],
+    "matchedScientificNames": [],
+    "matchedStableIds": [],
+    "searchedOpenPullRequests": [
+      "Neogobius melanostomus",
+      "10.1371/journal.pone.0310692",
+      "Oophaga pumilio",
+      "10.1371/journal.pone.0130571",
+      "Bombus terrestris",
+      "10.1371/journal.pone.0009559"
+    ],
+    "openPullRequestMatches": 0,
+    "checkedAt": "2026-09-28"
+  },
+  "identities": [
+    {
+      "colId": "49SSQ",
+      "scientificName": "Oophaga pumilio (Schmidt, 1857)",
+      "sourceDatasetId": "2144",
+      "classificationPathIds": [
+        "CS5HF",
+        "N",
+        "CH2",
+        "8V4V3",
+        "8V4V5",
+        "8VVWB",
+        "9CK8W",
+        "PH",
+        "PW",
+        "52K",
+        "93G",
+        "JF6",
+        "68KL",
+        "49SSQ"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "subphylum",
+        "infraphylum",
+        "parvphylum",
+        "megaclass",
+        "class",
+        "order",
+        "superfamily",
+        "family",
+        "subfamily",
+        "genus",
+        "species"
+      ]
+    },
+    {
+      "colId": "6RW9X",
+      "scientificName": "Neogobius melanostomus (Pallas, 1814)",
+      "sourceDatasetId": "1010",
+      "classificationPathIds": [
+        "CS5HF",
+        "N",
+        "CH2",
+        "8V4V3",
+        "8V4V5",
+        "8VVWB",
+        "8VR36",
+        "KTWM8",
+        "8V4VD",
+        "KV992",
+        "KV98Z",
+        "KVBGR",
+        "KVBK3",
+        "6RW9X"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "subphylum",
+        "infraphylum",
+        "parvphylum",
+        "gigaclass",
+        "superclass",
+        "class",
+        "order",
+        "family",
+        "subfamily",
+        "genus",
+        "species"
+      ]
+    },
+    {
+      "colId": "MFWK",
+      "scientificName": "Bombus terrestris (Linnaeus, 1758)",
+      "sourceDatasetId": "2144",
+      "classificationPathIds": [
+        "CS5HF",
+        "N",
+        "RT",
+        "L2655",
+        "H6",
+        "HYM",
+        "KZPW7",
+        "KZMNP",
+        "625GP",
+        "6KD",
+        "J5V",
+        "KN5",
+        "62H8K",
+        "MFWK"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "subphylum",
+        "class",
+        "order",
+        "suborder",
+        "infraorder",
+        "superfamily",
+        "family",
+        "subfamily",
+        "tribe",
+        "genus",
+        "species"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "colId": "49SSQ",
+      "sources": [
+        {
+          "stableId": "doi:10.1371/journal.pone.0130571",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        },
+        {
+          "stableId": "doi:10.1371/journal.pone.0134628",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "colId": "6RW9X",
+      "sources": [
+        {
+          "stableId": "doi:10.1371/journal.pone.0310692",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "colId": "MFWK",
+      "sources": [
+        {
+          "stableId": "doi:10.1371/journal.pone.0009559",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "dossiersAdded": 3,
+    "partialFacets": {
+      "morphology": [
+        "49SSQ"
+      ],
+      "lifeHistory": [
+        "MFWK"
+      ],
+      "ecology": [
+        "49SSQ",
+        "6RW9X"
+      ],
+      "evolution": [
+        "6RW9X"
+      ],
+      "distribution": [],
+      "fossil": [],
+      "conservation": []
+    },
+    "notAssessedFacets": [
+      {
+        "colId": "49SSQ",
+        "facets": [
+          "lifeHistory",
+          "evolution",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      },
+      {
+        "colId": "6RW9X",
+        "facets": [
+          "morphology",
+          "lifeHistory",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      },
+      {
+        "colId": "MFWK",
+        "facets": [
+          "morphology",
+          "ecology",
+          "evolution",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      }
+    ],
+    "completeDossiersAdded": 0,
+    "externallyReviewedDossiersAdded": 0
+  },
+  "queueAudit": {
+    "queueManifestSha256Before": "3b58455edcb5a5529e5bbf2f310892622c06cbe55a563a202d9920103a8f19c2",
+    "rowsBefore": [
+      {
+        "colId": "49SSQ",
+        "shardPath": "data/knowledge/species-evidence-queue/b.jsonl.br",
+        "rowSha256": "d1f4f890345c7b03afeb1209807a9f6435c243d0bf26caf3bbf05b7b2421625b",
+        "status": "missing"
+      },
+      {
+        "colId": "6RW9X",
+        "shardPath": "data/knowledge/species-evidence-queue/9.jsonl.br",
+        "rowSha256": "21c18b07e25495413506b7f67c144e5fc3fb739af30b54231c1f6a88610b359a",
+        "status": "missing"
+      },
+      {
+        "colId": "MFWK",
+        "shardPath": "data/knowledge/species-evidence-queue/6.jsonl.br",
+        "rowSha256": "8a686304078b160d69d6fef99a9250006cae5603823a9fb1a60aa2709a0be10a",
+        "status": "missing"
+      }
+    ]
+  },
+  "appAndPagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+  "appAndPagesPreviewManifestChanged": false,
+  "baseDossierIndexSha256": "377155977d4ef563394ed4b41c044f730a5890aa896bb66c045c4e20b79dc4ba",
+  "finalDossierIndexSha256": "ccfe3c0606f16b56ff7091e42df2de7738dca45e2ab262ffce0f1798eded5cbc",
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/cross-clade-species-evidence-batch-2026-09-28.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 3,
+    "bytes": 28617,
+    "sha256": "75388212926fd036536ed52f0b127705ef7c3126efb0c5998502c78be74f7039"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-cross-clade-species-evidence-2026-09-28.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 28617,
+    "decodedSha256": "75388212926fd036536ed52f0b127705ef7c3126efb0c5998502c78be74f7039",
+    "compressedBytes": 5216,
+    "compressedSha256": "cafb752d28653c5b76096884075ee6a9909e1b3dcf876e26635d4e1c80e0343c",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "dossierCountBefore": 36331,
+  "dossierCountAfter": 36334,
+  "generator": "scripts/build-cross-clade-species-evidence-batch-2026-09-28.mjs",
+  "fullDossierCountAdded": 0,
+  "expertReviewedDossierCountAdded": 0
+}
