@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "batchId": "cross-clade-evidence-batch-2026-09-28-e",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "baseHead": "65268251bb9bcb93176641c44cb5298b9c88f4ff",
+  "input": {
+    "path": "data/sources/cross-clade-evidence-batch-2026-09-28-e.json",
+    "sha256": "e93c02e2440e18e59c5616c914e2243507b37e3ebdc00c6af252a0632fa2d4e3"
+  },
+  "duplicateAudit": {
+    "repository": "https://github.com/dajiaohuang/evo",
+    "checkedAt": "2026-09-28",
+    "methods": [
+      "Exact COL26.8 queue rows and all indexed dossier shards checked for existing dossier and source stable-ID duplicates.",
+      "Repository text and source files searched for each COL ID, scientific name, article title, and DOI.",
+      "Public GitHub issues and pull requests searched across all states for each COL ID, scientific name, and DOI."
+    ],
+    "matches": [],
+    "limitations": "This audit covers the selected repository and public issue/PR search results at the checked time; it is not a claim that no related research exists."
+  },
+  "identities": [
+    {
+      "colId": "4CKZ5",
+      "scientificName": "Papio hamadryas (Linnaeus, 1758)",
+      "sourceDatasetId": "2144",
+      "classificationPathIds": [
+        "CS5HF",
+        "N",
+        "CH2",
+        "8V4V3",
+        "8V4V5",
+        "8VVWB",
+        "9CK8W",
+        "6224G",
+        "6226C",
+        "LG",
+        "3W7",
+        "4DT",
+        "4PM",
+        "4X9",
+        "7X9",
+        "JB3",
+        "L4C",
+        "6DGR",
+        "4CKZ5"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "subphylum",
+        "infraphylum",
+        "parvphylum",
+        "megaclass",
+        "class",
+        "subclass",
+        "infraclass",
+        "order",
+        "suborder",
+        "infraorder",
+        "superfamily",
+        "family",
+        "subfamily",
+        "tribe",
+        "genus",
+        "species"
+      ]
+    },
+    {
+      "colId": "DTFQG",
+      "scientificName": "Leucocarbo bougainvilliorum (R. P. Lesson, 1837)",
+      "sourceDatasetId": "2144",
+      "classificationPathIds": [
+        "CS5HF",
+        "N",
+        "CH2",
+        "8V4V3",
+        "8V4V5",
+        "8VVWB",
+        "9CK8W",
+        "V2",
+        "46J",
+        "62694",
+        "638ZH",
+        "DTFQG"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "subphylum",
+        "infraphylum",
+        "parvphylum",
+        "megaclass",
+        "class",
+        "order",
+        "family",
+        "genus",
+        "species"
+      ]
+    },
+    {
+      "colId": "DZD4",
+      "scientificName": "Angiopteris fokiensis Hieron.",
+      "sourceDatasetId": "1140",
+      "classificationPathIds": [
+        "CS5HF",
+        "P",
+        "CMQ8S",
+        "TP",
+        "GV",
+        "623CP",
+        "624K6",
+        "W5R",
+        "DZD4"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "subkingdom",
+        "phylum",
+        "class",
+        "order",
+        "family",
+        "genus",
+        "species"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "colId": "4CKZ5",
+      "sources": [
+        {
+          "stableId": "doi:10.1371/journal.pone.0354133",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "colId": "DTFQG",
+      "sources": [
+        {
+          "stableId": "doi:10.21142/SS-0601-2025-e121",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "colId": "DZD4",
+      "sources": [
+        {
+          "stableId": "doi:10.3390/biom15121649",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "dossiersAdded": 3,
+    "partialFacets": {
+      "morphology": [],
+      "lifeHistory": [],
+      "ecology": [
+        "4CKZ5",
+        "DTFQG"
+      ],
+      "evolution": [
+        "DZD4"
+      ],
+      "distribution": [],
+      "fossil": [],
+      "conservation": []
+    },
+    "notAssessedFacets": [
+      {
+        "colId": "4CKZ5",
+        "facets": [
+          "morphology",
+          "lifeHistory",
+          "evolution",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      },
+      {
+        "colId": "DTFQG",
+        "facets": [
+          "morphology",
+          "lifeHistory",
+          "evolution",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      },
+      {
+        "colId": "DZD4",
+        "facets": [
+          "morphology",
+          "lifeHistory",
+          "ecology",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      }
+    ],
+    "completeDossiersAdded": 0,
+    "externallyReviewedDossiersAdded": 0
+  },
+  "queueAudit": {
+    "queueManifestSha256Before": "5721da93e359d87c9c46dd77a29002b059a73ca6c357abf089790be15801cb61",
+    "rowsBefore": [
+      {
+        "colId": "4CKZ5",
+        "shardPath": "data/knowledge/species-evidence-queue/0.jsonl.br",
+        "rowSha256": "1170487e73bd40f08e0f6c7c9a48a640e23fe814e68357cba7300040f9cda286",
+        "status": "missing"
+      },
+      {
+        "colId": "DTFQG",
+        "shardPath": "data/knowledge/species-evidence-queue/0.jsonl.br",
+        "rowSha256": "0681d2fdfdc85978461352f1f424e08b5a575c785c02735033dc94fac229f833",
+        "status": "missing"
+      },
+      {
+        "colId": "DZD4",
+        "shardPath": "data/knowledge/species-evidence-queue/7.jsonl.br",
+        "rowSha256": "f8733b3605ebe32038d3844100b320961d491cc2cbe15f6ee8325a038c38b337",
+        "status": "missing"
+      }
+    ]
+  },
+  "appAndPagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+  "appAndPagesPreviewManifestChanged": false,
+  "baseDossierIndexSha256": "2cce4ece6a6f297e8400c4a9baf1ce6ecd36c389baebcfd94552ab58d885460e",
+  "finalDossierIndexSha256": "f4d14204a590f37287032a57f098a397c0934574e58f4e6fb3a1675815c14142",
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/cross-clade-evidence-batch-2026-09-28-e.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 3,
+    "bytes": 24624,
+    "sha256": "570ddc322ee0ab0f6146a0f7757de56111562dd80913773c2a7accc2a5d8b6b0"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-cross-clade-evidence-2026-09-28-e.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 24624,
+    "decodedSha256": "570ddc322ee0ab0f6146a0f7757de56111562dd80913773c2a7accc2a5d8b6b0",
+    "compressedBytes": 4731,
+    "compressedSha256": "8233e0082301b3c55aaafee81a4ce20a9ad512adcb04da33b028a2caef05a355",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "dossierCountBefore": 36343,
+  "dossierCountAfter": 36346,
+  "generator": "scripts/build-cross-clade-evidence-batch-2026-09-28-e.mjs",
+  "fullDossierCountAdded": 0,
+  "expertReviewedDossierCountAdded": 0
+}
