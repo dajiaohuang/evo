@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primate-evidence-batch-2026-09-28-f",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "baseHead": "4444e7f2681703b357650644cacc407dfe5635fc",
+  "input": {
+    "path": "data/sources/primate-evidence-batch-2026-09-28-f.json",
+    "sha256": "242469948e88048937ae6e0b42c2050f388460cf5b95b4a908e369bb676f5521"
+  },
+  "duplicateAudit": {
+    "repository": "https://github.com/dajiaohuang/evo",
+    "checkedAt": "2026-09-28",
+    "methods": [
+      "Re-read exact COL26.8 queue rows and pinned accepted usages after PR #456 merged; checked all indexed dossiers and source stable IDs for duplicate species and studies.",
+      "Searched repository source and data files for each COL ID, accepted scientific name, article title, and DOI.",
+      "Searched public GitHub issues and pull requests across all states for each COL ID, scientific name, common name where applicable, and DOI."
+    ],
+    "matches": [],
+    "limitations": "This audit covers the selected repository and public issue/PR search results at the checked time; it does not prove that no related research exists."
+  },
+  "identities": [
+    {
+      "colId": "3MJBF",
+      "scientificName": "Hoolock leuconedys (Groves, 1967)",
+      "sourceDatasetId": "2144",
+      "classificationPathIds": [
+        "CS5HF",
+        "N",
+        "CH2",
+        "8V4V3",
+        "8V4V5",
+        "8VVWB",
+        "9CK8W",
+        "6224G",
+        "6226C",
+        "LG",
+        "3W7",
+        "4DT",
+        "4PM",
+        "58L",
+        "B9K",
+        "4YHR",
+        "3MJBF"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "subphylum",
+        "infraphylum",
+        "parvphylum",
+        "megaclass",
+        "class",
+        "subclass",
+        "infraclass",
+        "order",
+        "suborder",
+        "infraorder",
+        "superfamily",
+        "family",
+        "genus",
+        "species"
+      ]
+    },
+    {
+      "colId": "42SBF",
+      "scientificName": "Microcebus berthae Rasoloarison, Goodman & Ganzhorn, 2000",
+      "sourceDatasetId": "2144",
+      "classificationPathIds": [
+        "CS5HF",
+        "N",
+        "CH2",
+        "8V4V3",
+        "8V4V5",
+        "8VVWB",
+        "9CK8W",
+        "6224G",
+        "6226C",
+        "LG",
+        "3W7",
+        "4FM",
+        "4LN",
+        "4XL",
+        "834",
+        "63B2M",
+        "42SBF"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "subphylum",
+        "infraphylum",
+        "parvphylum",
+        "megaclass",
+        "class",
+        "subclass",
+        "infraclass",
+        "order",
+        "suborder",
+        "infraorder",
+        "superfamily",
+        "family",
+        "genus",
+        "species"
+      ]
+    },
+    {
+      "colId": "X6S9",
+      "scientificName": "Colobus vellerosus (I. Geoffroy Saint-Hilaire, 1834)",
+      "sourceDatasetId": "2144",
+      "classificationPathIds": [
+        "CS5HF",
+        "N",
+        "CH2",
+        "8V4V3",
+        "8V4V5",
+        "8VVWB",
+        "9CK8W",
+        "6224G",
+        "6226C",
+        "LG",
+        "3W7",
+        "4DT",
+        "4PM",
+        "4X9",
+        "7X9",
+        "JCX",
+        "KQK",
+        "3SG4",
+        "X6S9"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "subphylum",
+        "infraphylum",
+        "parvphylum",
+        "megaclass",
+        "class",
+        "subclass",
+        "infraclass",
+        "order",
+        "suborder",
+        "infraorder",
+        "superfamily",
+        "family",
+        "subfamily",
+        "tribe",
+        "genus",
+        "species"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "colId": "3MJBF",
+      "sources": [
+        {
+          "stableId": "doi:10.11609/jott.o3869.7862-9",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "colId": "42SBF",
+      "sources": [
+        {
+          "stableId": "doi:10.3389/fevo.2021.585781",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "colId": "X6S9",
+      "sources": [
+        {
+          "stableId": "doi:10.11609/jott.8297.15.5.23200-23209",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "dossiersAdded": 3,
+    "partialFacets": {
+      "morphology": [],
+      "lifeHistory": [],
+      "ecology": [
+        "3MJBF",
+        "42SBF",
+        "X6S9"
+      ],
+      "evolution": [],
+      "distribution": [
+        "X6S9"
+      ],
+      "fossil": [],
+      "conservation": [
+        "X6S9"
+      ]
+    },
+    "notAssessedFacets": [
+      {
+        "colId": "3MJBF",
+        "facets": [
+          "morphology",
+          "lifeHistory",
+          "evolution",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      },
+      {
+        "colId": "42SBF",
+        "facets": [
+          "morphology",
+          "lifeHistory",
+          "evolution",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      },
+      {
+        "colId": "X6S9",
+        "facets": [
+          "morphology",
+          "lifeHistory",
+          "evolution",
+          "fossil"
+        ]
+      }
+    ],
+    "completeDossiersAdded": 0,
+    "externallyReviewedDossiersAdded": 0
+  },
+  "queueAudit": {
+    "queueManifestSha256Before": "c9020cd693d6de08a01f3c1732fe78cc14075111ead77cc8c4f2d50bcb07fc9f",
+    "rowsBefore": [
+      {
+        "colId": "3MJBF",
+        "shardPath": "data/knowledge/species-evidence-queue/e.jsonl.br",
+        "rowSha256": "ed54fa5e4aba6df94a40d174a2787915bad8b792d9c7117a2cec45a8a68749af",
+        "status": "missing"
+      },
+      {
+        "colId": "42SBF",
+        "shardPath": "data/knowledge/species-evidence-queue/a.jsonl.br",
+        "rowSha256": "dcafc9bce0b9a3417ebd356b7654749b9a8f4d0809c59b7f7ee1339f7f303d95",
+        "status": "missing"
+      },
+      {
+        "colId": "X6S9",
+        "shardPath": "data/knowledge/species-evidence-queue/e.jsonl.br",
+        "rowSha256": "810ff3e9388c3e316572134b362e428fa701f260310a709d97844a9e52f1b808",
+        "status": "missing"
+      }
+    ]
+  },
+  "appAndPagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+  "appAndPagesPreviewManifestChanged": false,
+  "baseDossierIndexSha256": "92c7cc1fe06f2b64a9e372f9e22a882ae2077b635287ca5d31e0a9db7e4deadb",
+  "finalDossierIndexSha256": "eb4efa0951d4bf7336fa2212c8190aaec88b516ee15488201e482a6a2b5d7417",
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primate-evidence-batch-2026-09-28-f.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 3,
+    "bytes": 27916,
+    "sha256": "f93e9fc67cffdd92f8872760bd7a2d1088ade98a33bce74909717bc1ff9c5e2a"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-f.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 27916,
+    "decodedSha256": "f93e9fc67cffdd92f8872760bd7a2d1088ade98a33bce74909717bc1ff9c5e2a",
+    "compressedBytes": 4708,
+    "compressedSha256": "17015f918a59715cfda9abcdf309107eb6af1dc62d0577fdbb0812f4c743c493",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "dossierCountBefore": 36346,
+  "dossierCountAfter": 36349,
+  "generator": "scripts/build-primate-evidence-batch-2026-09-28-f.mjs",
+  "fullDossierCountAdded": 0,
+  "expertReviewedDossierCountAdded": 0
+}
