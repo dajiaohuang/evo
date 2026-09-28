@@ -58,6 +58,7 @@
     "data:species-queue:build": "node scripts/build-species-evidence-queue.mjs",
     "data:species-queue:check": "node scripts/build-species-evidence-queue.mjs --check",
     "data:validate": "npm run data:brazil-flora-dossiers:check && npm run data:species-queue:check && node scripts/validate-data.mjs",
+    "data:validate:increment": "node scripts/validate-data-increment.mjs",
     "data:fetch:fossils": "node scripts/fetch-fossils.mjs",
     "data:fetch:maps": "node scripts/fetch-paleogeography.mjs",
     "data:enrich:fossils": "node scripts/enrich-bundled-fossils.mjs",
