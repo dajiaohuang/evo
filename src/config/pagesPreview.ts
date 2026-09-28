@@ -38,8 +38,14 @@ export function isPreviewStoryTaxonAllowed(storyId: string | null | undefined, t
   return PREVIEW_STORY_TAXA.get(storyId)?.has(taxonId) ?? false
 }
 
-export function isPreviewRouteLocked(route: AppRoute, params: URLSearchParams, preview = isPagesPreview): boolean {
+export function isPreviewRouteLocked(
+  route: AppRoute,
+  params: URLSearchParams,
+  preview = isPagesPreview,
+  allowRemoteRegistry = false,
+): boolean {
   if (!preview) return false
+  if (route === 'registry' && allowRemoteRegistry) return false
   if (route === 'taxa') return !params.get('id') || !isPreviewTaxonAllowed(params.get('id'))
   if (route === 'explore') {
     const taxon = params.get('taxon')

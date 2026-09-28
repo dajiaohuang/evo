@@ -5,7 +5,7 @@ import { parseRouteHash, type AppRoute } from '../../utils/routing'
 import type { SearchResult } from '../../types'
 import { useI18n } from '../../i18n'
 import { getPackagePublication, scientificMaturityLabel } from '../../services/publication'
-import { isPagesPreview, isPreviewRouteLocked } from '../../config/pagesPreview'
+import { isNativeCore, isPagesPreview, isPreviewRouteLocked } from '../../config/pagesPreview'
 import { isBackendConfigured, loadBackendCapabilities, searchBackendNames, type BackendNameSearchRecord } from '../../data-client/backendClient'
 import './GlobalSearch.css'
 
@@ -26,6 +26,7 @@ interface GlobalSearchProps {
 
 export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
   const { language, t } = useI18n()
+  const canSearchCompleteRegistry = !isPagesPreview || (isNativeCore && isBackendConfigured())
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
   const [attempt, setAttempt] = useState(0)
@@ -57,7 +58,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
           if (!entry.route) return false
           if (!isPagesPreview) return true
           const parsed = parseRouteHash(entry.route)
-          return !isPreviewRouteLocked(parsed.route, parsed.params)
+          return !isPreviewRouteLocked(parsed.route, parsed.params, isPagesPreview, canSearchCompleteRegistry)
         }).map((entry) => {
           const kind: SearchResultKind = entry.kind === 'event' ? 'event'
             : entry.kind === 'story' ? 'story'
@@ -81,7 +82,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
       }).catch(() => {
         if (!cancelled) { setStaticResults(null); setStaticError(true) }
       })
-      if (!isPagesPreview && normalized.length >= 3) {
+      if (canSearchCompleteRegistry && normalized.length >= 3) {
         setCatalogueLoading(true)
         setCatalogueError(false)
         if (isBackendConfigured()) {
@@ -124,7 +125,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
       controller.abort()
       window.clearTimeout(timer)
     }
-  }, [open, query, attempt, composing])
+  }, [open, query, attempt, composing, canSearchCompleteRegistry])
 
   useEffect(() => {
     const handler = (event: KeyboardEvent) => {
@@ -249,7 +250,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
                   <i aria-hidden="true">↗</i>
                 </button>
               ))}
-              {query.trim() && !isPagesPreview && (
+              {query.trim() && canSearchCompleteRegistry && (
                 <div className="catalogue-search-heading">
                   <span>{language === 'zh' ? 'Catalogue of Life 命名登记册' : 'Catalogue of Life nomenclatural registry'}</span>
                   <small>
@@ -262,10 +263,10 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
                   </small>
                 </div>
               )}
-              {!isPagesPreview && catalogueLoading && <div className="catalogue-search-note">{language === 'zh' ? '正在按需读取名称分片…' : 'Loading the relevant name shard…'}</div>}
-              {!isPagesPreview && catalogueError && <div className="catalogue-search-note catalogue-search-note--error">{language === 'zh' ? '物种注册表暂不可用，或分片完整性校验失败。' : 'The species registry is unavailable, or shard verification failed.'}</div>}
+              {canSearchCompleteRegistry && catalogueLoading && <div className="catalogue-search-note">{language === 'zh' ? '正在按需读取名称分片…' : 'Loading the relevant name shard…'}</div>}
+              {canSearchCompleteRegistry && catalogueError && <div className="catalogue-search-note catalogue-search-note--error">{language === 'zh' ? '物种注册表暂不可用，或分片完整性校验失败。' : 'The species registry is unavailable, or shard verification failed.'}</div>}
               {(staticError || catalogueError) && <button type="button" className="global-search-retry" onClick={() => { resetResults(); setAttempt(value => value + 1); inputRef.current?.focus() }}>{language === 'zh' ? '重试搜索' : 'Retry search'}</button>}
-              {!isPagesPreview && isBackendConfigured() && (backendCatalogueResults ?? []).map((record) => {
+              {canSearchCompleteRegistry && isBackendConfigured() && (backendCatalogueResults ?? []).map((record) => {
                 const targetId = record.acceptedId ?? record.id
                 return <button
                   type="button"
@@ -286,7 +287,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
                   <i aria-hidden="true">→</i>
                 </button>
               })}
-              {!isPagesPreview && !isBackendConfigured() && (catalogueResults ?? []).map((record) => {
+              {canSearchCompleteRegistry && !isBackendConfigured() && (catalogueResults ?? []).map((record) => {
                 const targetId = record.status === 'accepted' ? record.id : record.acceptedId ?? record.id
                 const target = catalogueTargets[targetId]
                 const classification = record.classification
@@ -320,7 +321,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
                   <i aria-hidden="true">→</i>
                 </button>
               })}
-              {!isPagesPreview && query.trim().length > 0 && query.trim().length < 3 && (
+              {canSearchCompleteRegistry && query.trim().length > 0 && query.trim().length < 3 && (
                 <div className="catalogue-search-note">{language === 'zh' ? '输入至少 3 个字符以搜索完整物种登记册。' : 'Type at least 3 characters to search the complete species registry.'}</div>
               )}
               {staticResults !== null && !staticError && results.length === 0 && (catalogueResults?.length ?? backendCatalogueResults?.length ?? 0) === 0 && !catalogueLoading && !catalogueError && query.trim().length >= 3 && (

@@ -25,6 +25,8 @@ jobs:
       - run: npm ci
       - name: Stage selected native core content
         run: npm run mobile:sync
+        env:
+          VITE_EVO_API_BASE_URL: ${{ vars.VITE_EVO_API_BASE_URL }}
       - name: Select an available iPhone simulator
         id: simulator
         shell: bash
