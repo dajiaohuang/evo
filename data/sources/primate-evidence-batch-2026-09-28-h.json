@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primate-evidence-batch-2026-09-28-h",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "audit": {
+    "baseHead": "da1eb49bf97ea8337d03927aaa8462d9532af936",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "dossierIndexSha256": "dacc09f119c8ae133abb7cff8d9a5557d4fcbd33a3ce830124c39cdae22b3cfc",
+    "dossierIndexRecordCount": 36352,
+    "queueManifestSha256": "1a046e63f788ef472477d358b95fb9f62bd0af47d1a03d9e4b0741499640d7ee",
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "duplicateAudit": {
+      "repository": "https://github.com/dajiaohuang/evo",
+      "checkedAt": "2026-09-28",
+      "methods": [
+        "Verified the exact COL26.8 accepted usage, accepted parent chain, missing dossier queue row, compressed queue shard, decoded shard, and exact row hash on post-PR-458 origin/main.",
+        "Checked all 88 dossier-index shards and 36,352 records for duplicate COL ID, binomial, DOI, and title; no Mico acariensis or article DOI match was found.",
+        "Searched public GitHub issues and pull requests across all states for COL ID 42MHS, Mico acariensis, and DOI 10.5194/pb-10-7-2023."
+      ],
+      "matches": [],
+      "limitations": "This audit covers the selected repository and public issue/PR search results at the checked time; it does not prove that no related research exists."
+    },
+    "candidates": [
+      {
+        "colId": "42MHS",
+        "queueShardPath": "data/knowledge/species-evidence-queue/0.jsonl.br",
+        "queueShardCompressedSha256": "813e24d655b210ec9f012cce8ece84df9e8ee7a5739e382fea3db4234ee99cb3",
+        "queueShardDecodedSha256": "fdb442e47860d0c231b574c8f224af0614d276839c37e70065feb83e7924efca",
+        "queueRowSha256": "942111acf045dfcec2abffb8ae5b56705fb8b9533de3db06a72ae0638c471082",
+        "classificationPathIds": [
+          "CS5HF",
+          "N",
+          "CH2",
+          "8V4V3",
+          "8V4V5",
+          "8VVWB",
+          "9CK8W",
+          "6224G",
+          "6226C",
+          "LG",
+          "3W7",
+          "4DT",
+          "4PM",
+          "7KR",
+          "63B9H",
+          "42MHS"
+        ]
+      }
+    ]
+  },
+  "species": [
+    {
+      "target": {
+        "colId": "42MHS",
+        "scientificName": "Mico acariensis (M. van Roosmalen, T. van Roosmalen, Mittermeier & Rylands, 2000)",
+        "authorship": "(M. van Roosmalen, T. van Roosmalen, Mittermeier & Rylands, 2000)",
+        "rank": "species",
+        "sourceDatasetId": "2144"
+      },
+      "audit": {
+        "queueShardPath": "data/knowledge/species-evidence-queue/0.jsonl.br",
+        "queueShardCompressedSha256": "813e24d655b210ec9f012cce8ece84df9e8ee7a5739e382fea3db4234ee99cb3",
+        "queueShardDecodedSha256": "fdb442e47860d0c231b574c8f224af0614d276839c37e70065feb83e7924efca",
+        "queueRowSha256": "942111acf045dfcec2abffb8ae5b56705fb8b9533de3db06a72ae0638c471082",
+        "classificationPathIds": [
+          "CS5HF",
+          "N",
+          "CH2",
+          "8V4V3",
+          "8V4V5",
+          "8VVWB",
+          "9CK8W",
+          "6224G",
+          "6226C",
+          "LG",
+          "3W7",
+          "4DT",
+          "4PM",
+          "7KR",
+          "63B9H",
+          "42MHS"
+        ]
+      },
+      "scope": "One 2023 field-based distribution account that compiles two previously reported localities and three new localities for Mico acariensis. The claim reports the authors' regional range delineation within the Acarí–Sucundurí interfluve; it is not a complete species-wide survey, abundance estimate, or conservation assessment.",
+      "lifeStatusScope": {
+        "wild": "The cited distribution account is based on occurrence localities and field expeditions in southern Amazonia; the claim concerns the reported wild-range delineation.",
+        "domesticated": "Captive or domesticated populations were not assessed by this claim.",
+        "fossil": "Fossil occurrence and geological age were not assessed."
+      },
+      "sources": [
+        {
+          "id": "costa_araujo2023micoacariensis",
+          "title": "Costa-Araújo et al. (2023), Notes on the distribution and habitat use of marmosets (Callitrichidae: Mico) from south-central Amazonia",
+          "url": "https://pb.copernicus.org/articles/10/7/2023/",
+          "stableId": "doi:10.5194/pb-10-7-2023",
+          "version": "Primate Biology 10:7–11; version of record published 2023-07-28.",
+          "publishedAt": "2023-07-28",
+          "accessedAt": "2026-09-28",
+          "locator": "Article title, publication date, DOI, and citation (publisher page lines 58–76 and 129–132); methods, ten field expeditions during 2015–2018 (lines 144–147); Results and discussion, M. acariensis occurrence records and approximate 17,480 km² regional delineation (lines 149–163).",
+          "license": "The publisher's article page states that the work is distributed under the Creative Commons Attribution 4.0 License.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original field-based account of marmoset occurrence, range delineation, and habitat use in south-central Amazonia; the claim is limited to the authors' mapped regional distribution inference for Mico acariensis.",
+          "rightsHolder": "Costa-Araújo, Bergamasco, Roos, Farias, and Hrbek, as identified on the article page.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseEvidenceUrl": "https://pb.copernicus.org/articles/10/7/2023/",
+          "licenseEvidenceLocator": "Publisher page lines 58–66: © Author(s) 2023; the work is distributed under the Creative Commons Attribution 4.0 License.",
+          "licenseAppliesTo": "Published article text. This dossier paraphrases the distribution account and does not reproduce Figure 2, the supplement, or third-party photographs.",
+          "attribution": "Costa-Araújo R, Bergamasco G, Roos C, Farias IP, Hrbek T. (2023). Notes on the distribution and habitat use of marmosets (Callitrichidae: Mico) from south-central Amazonia. Primate Biology 10:7–11. https://doi.org/10.5194/pb-10-7-2023. Findings paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {
+          "status": "not-assessed"
+        },
+        "lifeHistory": {
+          "status": "not-assessed"
+        },
+        "ecology": {
+          "status": "not-assessed"
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "In their 2023 account, two previously reported localities and three new localities support the authors' delineation of Mico acariensis as the only marmoset in the Acarí–Sucundurí interfluve. They delimit the reported distribution by the right bank of the Acarí River, the left bank of the Sucundurí River, and the area south to BR-230, covering approximately 17,480 km². This is a regional range inference from the occurrence records discussed in that paper, not a complete species-wide survey or an estimate of current abundance.",
+              "sourceIds": [
+                "costa_araujo2023micoacariensis"
+              ],
+              "locator": "Results and discussion, paragraph beginning 'Mico acariensis is among the less-known primates' (publisher page lines 158–163); field survey context in Material and methods (lines 144–147).",
+              "placeTimeScope": "Acarí–Sucundurí interfluve, south-central Amazonia, Brazil; occurrence records presented in the 2023 account, including field expeditions conducted during 2015–2018.",
+              "lifeStatus": "Wild-range occurrence records and an author-delineated regional distribution; no captive population or fossil record is included.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The reported area is a regional author-delineated range based on two previously reported and three new localities; the article does not establish a complete, range-wide census or current abundance.",
+            "The authors state that the remote region needs additional surveys to clarify geographic distribution, the proposed contact zone, and population dynamics.",
+            "Morphology, life history, ecology, evolution, fossils, conservation status, systematic evidence search, and external expert review remain unassessed."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
+      },
+      "completenessReasons": [
+        "One regional occurrence study supports a bounded distribution claim but does not establish complete species-wide coverage.",
+        "Most biological facets, systematic evidence search, and external expert review remain unassessed."
+      ]
+    }
+  ]
+}

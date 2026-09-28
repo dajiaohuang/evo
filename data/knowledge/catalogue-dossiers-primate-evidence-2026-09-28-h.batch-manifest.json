@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primate-evidence-batch-2026-09-28-h",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "baseHead": "da1eb49bf97ea8337d03927aaa8462d9532af936",
+  "input": {
+    "path": "data/sources/primate-evidence-batch-2026-09-28-h.json",
+    "sha256": "3a533f453f6a5cba4ddb2c6004f7e2b7bcd64e3fc3b2b2cf8c7ba763df316234"
+  },
+  "duplicateAudit": {
+    "repository": "https://github.com/dajiaohuang/evo",
+    "checkedAt": "2026-09-28",
+    "methods": [
+      "Verified the exact COL26.8 accepted usage, accepted parent chain, missing dossier queue row, compressed queue shard, decoded shard, and exact row hash on post-PR-458 origin/main.",
+      "Checked all 88 dossier-index shards and 36,352 records for duplicate COL ID, binomial, DOI, and title; no Mico acariensis or article DOI match was found.",
+      "Searched public GitHub issues and pull requests across all states for COL ID 42MHS, Mico acariensis, and DOI 10.5194/pb-10-7-2023."
+    ],
+    "matches": [],
+    "limitations": "This audit covers the selected repository and public issue/PR search results at the checked time; it does not prove that no related research exists."
+  },
+  "identities": [
+    {
+      "colId": "42MHS",
+      "scientificName": "Mico acariensis (M. van Roosmalen, T. van Roosmalen, Mittermeier & Rylands, 2000)",
+      "sourceDatasetId": "2144",
+      "classificationPathIds": [
+        "CS5HF",
+        "N",
+        "CH2",
+        "8V4V3",
+        "8V4V5",
+        "8VVWB",
+        "9CK8W",
+        "6224G",
+        "6226C",
+        "LG",
+        "3W7",
+        "4DT",
+        "4PM",
+        "7KR",
+        "63B9H",
+        "42MHS"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "subphylum",
+        "infraphylum",
+        "parvphylum",
+        "megaclass",
+        "class",
+        "subclass",
+        "infraclass",
+        "order",
+        "suborder",
+        "infraorder",
+        "family",
+        "genus",
+        "species"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "colId": "42MHS",
+      "sources": [
+        {
+          "stableId": "doi:10.5194/pb-10-7-2023",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "dossiersAdded": 1,
+    "partialFacets": {
+      "morphology": [],
+      "lifeHistory": [],
+      "ecology": [],
+      "evolution": [],
+      "distribution": [
+        "42MHS"
+      ],
+      "fossil": [],
+      "conservation": []
+    },
+    "notAssessedFacets": [
+      {
+        "colId": "42MHS",
+        "facets": [
+          "morphology",
+          "lifeHistory",
+          "ecology",
+          "evolution",
+          "fossil",
+          "conservation"
+        ]
+      }
+    ],
+    "completeDossiersAdded": 0,
+    "externallyReviewedDossiersAdded": 0
+  },
+  "queueAudit": {
+    "queueManifestSha256Before": "1a046e63f788ef472477d358b95fb9f62bd0af47d1a03d9e4b0741499640d7ee",
+    "rowsBefore": [
+      {
+        "colId": "42MHS",
+        "shardPath": "data/knowledge/species-evidence-queue/0.jsonl.br",
+        "rowSha256": "942111acf045dfcec2abffb8ae5b56705fb8b9533de3db06a72ae0638c471082",
+        "status": "missing"
+      }
+    ]
+  },
+  "appAndPagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+  "appAndPagesPreviewManifestChanged": false,
+  "baseDossierIndexSha256": "dacc09f119c8ae133abb7cff8d9a5557d4fcbd33a3ce830124c39cdae22b3cfc",
+  "finalDossierIndexSha256": "3f4f5ba2fea27ee01922d49db2fec57b57d049e15d135297545def7358fff2f9",
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primate-evidence-batch-2026-09-28-h.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 8872,
+    "sha256": "6e4fa6e4fdbb970d0523cc52f1cec7c303fc6e1a923f5352b38bec88e9d9458b"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-h.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 8872,
+    "decodedSha256": "6e4fa6e4fdbb970d0523cc52f1cec7c303fc6e1a923f5352b38bec88e9d9458b",
+    "compressedBytes": 2397,
+    "compressedSha256": "e03674b0d41fc41bd354c774720926d11ec8a712adb066e5f283f7d7cba08fc7",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "dossierCountBefore": 36352,
+  "dossierCountAfter": 36353,
+  "generator": "scripts/build-primate-evidence-batch-2026-09-28-h.mjs",
+  "fullDossierCountAdded": 0,
+  "expertReviewedDossierCountAdded": 0
+}
