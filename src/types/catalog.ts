@@ -19,6 +19,26 @@ export interface ReferenceRecord {
   note?: string
 }
 
+export interface TaxonProfileReaderSection {
+  id: string
+  title: { en: string; zh: string }
+  text: { en: string; zh: string }
+  sourceIds: string[]
+}
+
+export interface TaxonProfileReaderSource {
+  id: string
+  title: { en: string; zh: string }
+  url: string
+  scope: { en: string; zh: string }
+}
+
+export interface TaxonProfileReaderPageLink {
+  targetId: string
+  label: { en: string; zh: string }
+  context: { en: string; zh: string }
+}
+
 export interface TaxonProfile {
   id: string
   treeNodeId?: string
@@ -58,6 +78,14 @@ export interface TaxonProfile {
   traits: string[]
   traitsAssessmentStatus?: 'assessed' | 'not-assessed'
   evidenceSummary: string
+  readerLanguageStatus?: {
+    en: 'draft-ready' | 'translation-needed' | 'not-started'
+    zh: 'draft-ready' | 'translation-needed' | 'not-started'
+  }
+  readerSections?: TaxonProfileReaderSection[]
+  readerSources?: TaxonProfileReaderSource[]
+  readerRelatedPages?: TaxonProfileReaderPageLink[]
+  readerLimitations?: { en: string; zh: string }
   confidence: ConfidenceLevel
   referenceIds: string[]
 }

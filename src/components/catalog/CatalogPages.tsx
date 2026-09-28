@@ -165,6 +165,8 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
   const rangeAvailable = hasPublishedRange(profile)
   const midpoint = (profile.firstAppearance + profile.lastAppearance) / 2
   const references = getReferences(profile.referenceIds)
+  const locale = language === 'zh' ? 'zh' : 'en'
+  const readerSources = new Map((profile.readerSources ?? []).map((source) => [source.id, source]))
   const media = runtimeMedia?.entityId === profile.id ? runtimeMedia.assets : getMediaForTaxon(profile.id)
   const claims = getClaimsForSubject(`taxon:${profile.id}`)
   const publication = getEntityPublication(profile.treeNodeId ?? profile.id)
@@ -199,6 +201,36 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
           <button className="button button--ghost" onClick={() => onNavigate('compare', { left: profile.id })}>{t('Compare taxon')}</button>
         </div>
       </header>
+
+      {!!profile.readerSections?.length && <section id="reader" className="taxon-reader">
+        <span className="section-label">{locale === 'zh' ? '物种介绍' : 'Species introduction'}</span>
+        <h2>{locale === 'zh' ? '从已有研究认识这个物种' : 'Reading the species through selected studies'}</h2>
+        <div className="taxon-reader__sections">
+          {profile.readerSections.map((section) => (
+            <article key={section.id}>
+              <h3>{section.title[locale]}</h3>
+              <p>{section.text[locale]}</p>
+              <small>{section.sourceIds.map((sourceId, index) => {
+                const source = readerSources.get(sourceId)
+                return source ? <span key={sourceId}>{index > 0 ? ' · ' : ''}<a href={source.url} target="_blank" rel="noreferrer">{source.title[locale]} ↗</a></span> : null
+              })}</small>
+            </article>
+          ))}
+        </div>
+        {!!profile.readerRelatedPages?.length && <nav className="taxon-reader__related" aria-label={locale === 'zh' ? '相关阅读' : 'Related reading'}>
+          <h3>{locale === 'zh' ? '继续阅读灵长类' : 'Continue reading about primates'}</h3>
+          {profile.readerRelatedPages.map((page) => (
+            <button key={page.targetId} type="button" onClick={() => onNavigate('taxa', { id: page.targetId })}>
+              <span>{page.context[locale]}</span><strong>{page.label[locale]} →</strong>
+            </button>
+          ))}
+        </nav>}
+        <details className="taxon-reader__scope">
+          <summary>{locale === 'zh' ? '来源范围与尚未覆盖的问题' : 'Source scope and remaining questions'}</summary>
+          {profile.readerLimitations && <p>{profile.readerLimitations[locale]}</p>}
+          <ul>{(profile.readerSources ?? []).map((source) => <li key={source.id}><a href={source.url} target="_blank" rel="noreferrer">{source.title[locale]}</a> — {source.scope[locale]}</li>)}</ul>
+        </details>
+      </section>}
 
       {publication && <EvidenceStatus publication={publication} entityId={profile.id} />}
 
@@ -316,7 +348,7 @@ function TaxonDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
         <p>{t('Source-linked dossiers from multiple packages appear here; broader registry-only branches remain searchable in the tree.')}</p>
       </header>
       <div className="directory-grid">
-        {taxonProfiles.map((profile) => {
+        {[...taxonProfiles].sort((left, right) => Number(Boolean(right.readerSections?.length)) - Number(Boolean(left.readerSections?.length))).map((profile) => {
           const publication = getEntityPublication(profile.treeNodeId ?? profile.id)
           return (
             <button key={profile.id} onClick={() => onNavigate('taxa', { id: profile.id })}>

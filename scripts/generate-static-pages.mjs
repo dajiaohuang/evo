@@ -269,7 +269,23 @@ const baseStaticCss = `
   .hero-media{width:100%;height:auto;aspect-ratio:8/5;display:block;border:1px solid var(--line);background:var(--surface);object-fit:cover}
 `
 
-const staticCss = baseStaticCss + catalogueChangesCss + (staticPages ? readingDiscoveryCss : '')
+const staticCss = baseStaticCss + `.reader-article{margin-top:42px;padding:34px;border:1px solid var(--line);background:var(--surface)}
+.reader-article>h2{margin:8px 0 28px;font:500 32px Georgia,serif}
+.reader-sections{display:grid;gap:24px}
+.reader-section{max-width:760px;margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}
+.reader-section h3{margin:0 0 8px;font:500 23px Georgia,serif}
+.reader-section p{color:#c3cec8}
+.reader-citations,.reader-citations a{font-size:11px;color:var(--accent)}
+.reader-scope{margin-top:26px;padding-top:16px;border-top:1px solid var(--line)}
+.reader-scope summary{cursor:pointer}
+.reader-scope li{margin:12px 0;color:var(--muted);font-size:12px}
+.reader-limitations{color:var(--muted);font-size:13px}
+.reader-related{display:flex;flex-wrap:wrap;gap:10px;margin:28px 0}
+.reader-related a{display:block;min-width:220px;padding:13px 16px;border:1px solid var(--line);background:var(--surface);text-decoration:none}
+.reader-related a span,.reader-related a strong{display:block}
+.reader-related a span{color:var(--muted);font-size:11px}
+.reader-related a strong{margin-top:4px}
+@media(max-width:700px){.reader-article{padding:20px}.reader-article>h2{font-size:27px}}` + catalogueChangesCss + (staticPages ? readingDiscoveryCss : '')
 
 function escapeHtml(value) {
   return String(value ?? '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#39;')
@@ -322,6 +338,26 @@ function pageHtml({ language, title, description, path, alternatePath, type = 'W
 
 function referenceRecords(ids) {
   return [...new Set(ids)].flatMap((id) => referenceById.has(id) ? [referenceById.get(id)] : [])
+}
+
+function renderReaderArticle(profile, language) {
+  const sections = profile?.readerSections ?? []
+  if (!sections.length) return ''
+  const sources = new Map((profile.readerSources ?? []).map((source) => [source.id, source]))
+  const sectionHtml = sections.map((section) => {
+    const citations = section.sourceIds.map((sourceId) => {
+      const source = sources.get(sourceId)
+      return source ? '<a href="' + escapeHtml(source.url) + '" target="_blank" rel="noreferrer">' + escapeHtml(source.title[language]) + ' ↗</a>' : ''
+    }).filter(Boolean).join(' · ')
+    return '<article class="reader-section" id="reader-' + escapeHtml(section.id) + '"><h3>' + escapeHtml(section.title[language]) + '</h3><p>' + escapeHtml(section.text[language]) + '</p>' + (citations ? '<p class="reader-citations">' + citations + '</p>' : '') + '</article>'
+  }).join('')
+  const limitations = profile.readerLimitations?.[language]
+    ? '<p class="reader-limitations">' + escapeHtml(profile.readerLimitations[language]) + '</p>'
+    : ''
+  const relatedPages = (profile.readerRelatedPages ?? []).map((page) => '<a href="' + basePath + (language === 'zh' ? '/zh' : '') + '/taxa/' + escapeHtml(page.targetId) + '/"><span>' + escapeHtml(page.context[language]) + '</span><strong>' + escapeHtml(page.label[language]) + ' →</strong></a>').join('')
+  const relatedHtml = relatedPages ? '<nav class="reader-related" aria-label="' + (language === 'zh' ? '相关阅读' : 'Related reading') + '">' + relatedPages + '</nav>' : ''
+  const sourceHtml = (profile.readerSources ?? []).map((source) => '<li><a href="' + escapeHtml(source.url) + '" target="_blank" rel="noreferrer">' + escapeHtml(source.title[language]) + '</a> — ' + escapeHtml(source.scope[language]) + '</li>').join('')
+  return '<section class="reader-article" id="species-introduction"><span class="eyebrow">' + (language === 'zh' ? '物种介绍' : 'Species introduction') + '</span><h2>' + (language === 'zh' ? '从已有研究认识这个物种' : 'Reading the species through selected studies') + '</h2><div class="reader-sections">' + sectionHtml + '</div>' + relatedHtml + '<details class="reader-scope"><summary>' + (language === 'zh' ? '来源范围与尚未覆盖的问题' : 'Source scope and remaining questions') + '</summary>' + limitations + '<ul>' + sourceHtml + '</ul></details></section>'
 }
 
 function loadChineseTranslations() {
@@ -521,7 +557,7 @@ for (const entity of entities) {
     const rangeLabel = entity.temporalRange.evidenceLevel === 'withheld-no-range-evidence'
       ? (language === 'zh' ? '区间暂无可发布证据' : 'Range unavailable')
       : `${entity.temporalRange.olderMa}–${entity.temporalRange.youngerMa || (language === 'zh' ? '现今' : 'Present')} Ma`
-    const body = `<span class="eyebrow">${text.catalog} / ${escapeHtml(localize(language, entity.rank))}</span><h1><em>${escapeHtml(entity.names.scientific)}</em></h1><p class="dek">${escapeHtml(summary)}</p><aside class="status"><strong>${escapeHtml(language === 'zh' ? packageEntry?.titleZh : packageEntry?.title)}</strong><div class="pills"><span class="pill ${maturity === 'published' ? 'good' : maturity === 'generated-scaffold' ? '' : 'warn'}">${escapeHtml(maturityLabels[language][maturity])}</span><span class="pill">${text.automated}</span><span class="pill ${reviewClass}">${escapeHtml(reviewLabel)}</span><span class="pill">${externalExpertLabels[language]}</span></div><p>${escapeHtml(reviewBoundary(language, packageEntry))}</p></aside><div class="facts"><div><small>${text.range}</small><strong>${escapeHtml(rangeLabel)}</strong></div><div><small>${text.package}</small><strong>${escapeHtml(entity.packageId)}</strong></div><div><small>PBDB</small><strong>${escapeHtml(entity.externalIds.pbdb ?? (language === 'zh' ? '未关联' : 'Not linked'))}</strong></div></div><section><h2>${text.evidence}</h2><p>${escapeHtml(reviewBoundary(language, packageEntry))}</p></section><section><h2>${text.claims}</h2>${claimHtml}</section><section><h2>${text.limitations}</h2><ul>${entity.limitations.map((item) => `<li>${escapeHtml(localize(language, item))}</li>`).join('')}</ul></section><section><h2>${text.references}</h2>${renderReferences(records, language)}</section><div class="actions"><a class="button" href="${openUrl}">${text.open} ↗</a><a class="button secondary" href="${escapeHtml(issueUrl({ entityId: entity.id, pageUrl: canonicalUrl }))}">${text.report} ↗</a></div>`
+    const body = `<span class="eyebrow">${text.catalog} / ${escapeHtml(localize(language, entity.rank))}</span><h1><em>${escapeHtml(entity.names.scientific)}</em></h1><p class="dek">${escapeHtml(summary)}</p>${renderReaderArticle(profile, language)}<aside class="status"><strong>${escapeHtml(language === 'zh' ? packageEntry?.titleZh : packageEntry?.title)}</strong><div class="pills"><span class="pill ${maturity === 'published' ? 'good' : maturity === 'generated-scaffold' ? '' : 'warn'}">${escapeHtml(maturityLabels[language][maturity])}</span><span class="pill">${text.automated}</span><span class="pill ${reviewClass}">${escapeHtml(reviewLabel)}</span><span class="pill">${externalExpertLabels[language]}</span></div><p>${escapeHtml(reviewBoundary(language, packageEntry))}</p></aside><div class="facts"><div><small>${text.range}</small><strong>${escapeHtml(rangeLabel)}</strong></div><div><small>${text.package}</small><strong>${escapeHtml(entity.packageId)}</strong></div><div><small>PBDB</small><strong>${escapeHtml(entity.externalIds.pbdb ?? (language === 'zh' ? '未关联' : 'Not linked'))}</strong></div></div><section><h2>${text.evidence}</h2><p>${escapeHtml(reviewBoundary(language, packageEntry))}</p></section><section><h2>${text.claims}</h2>${claimHtml}</section><section><h2>${text.limitations}</h2><ul>${entity.limitations.map((item) => `<li>${escapeHtml(localize(language, item))}</li>`).join('')}</ul></section><section><h2>${text.references}</h2>${renderReferences(records, language)}</section><div class="actions"><a class="button" href="${openUrl}">${text.open} ↗</a><a class="button secondary" href="${escapeHtml(issueUrl({ entityId: entity.id, pageUrl: canonicalUrl }))}">${text.report} ↗</a></div>`
     write(`${path}index.html`, pageHtml({ language, title, description: summary, path, alternatePath, robots: indexable ? 'index,follow' : 'noindex,follow', jsonLd: { mainEntity: { '@type': 'DefinedTerm', name: entity.names.scientific, alternateName: [entity.names.en, entity.names.zh], identifier: entity.id }, citation: records.map((reference) => ({ '@type': 'CreativeWork', name: reference.title, url: reference.url, identifier: reference.doi ?? reference.id })) }, breadcrumbs: [{ label: text.home, url: `${basePath}/` }, { label: text.catalog, url: `${basePath}/#/catalog` }, { label: commonName, url: `${baseUrl}/${path}` }], body }))
     taxonPageCount += 1
   }
@@ -722,11 +758,12 @@ for (const asset of media) {
 
 }
 
+const taxonDirectoryEntities = [...entities].sort((left, right) => Number(Boolean(profileByEntityId.get(right.id)?.readerSections?.length)) - Number(Boolean(profileByEntityId.get(left.id)?.readerSections?.length)))
 writeCollectionIndex({
   kind: 'taxa', titleEn: 'Taxa', titleZh: '类群',
   descriptionEn: 'Every registered taxon and navigation concept, with maturity and evidence boundaries kept visible.',
   descriptionZh: '全部已注册类群与导航概念，并明确显示内容成熟度和证据边界。',
-  items: entities.map((entity) => { const packageEntry = packageById.get(entity.packageId); return { path: `taxa/${entity.id}/`, titleEn: `${entity.names.en} · ${entity.names.scientific}`, titleZh: `${entity.names.zh} · ${entity.names.scientific}`, metaEn: `${entity.rank} · ${maturityLabels.en[packageEntry?.scientificMaturity ?? 'generated-scaffold']}`, metaZh: `${localize('zh', entity.rank)} · ${maturityLabels.zh[packageEntry?.scientificMaturity ?? 'generated-scaffold']}` } }),
+  items: taxonDirectoryEntities.map((entity) => { const packageEntry = packageById.get(entity.packageId); return { path: `taxa/${entity.id}/`, titleEn: `${entity.names.en} · ${entity.names.scientific}`, titleZh: `${entity.names.zh} · ${entity.names.scientific}`, metaEn: `${entity.rank} · ${maturityLabels.en[packageEntry?.scientificMaturity ?? 'generated-scaffold']}`, metaZh: `${localize('zh', entity.rank)} · ${maturityLabels.zh[packageEntry?.scientificMaturity ?? 'generated-scaffold']}` } }),
 })
 writeCollectionIndex({ kind: 'events', titleEn: 'Evolutionary events', titleZh: '演化事件', descriptionEn: staticPages ? 'Bounded evolutionary transitions with claims, sources and uncertainty.' : 'Bounded evolutionary transitions with claims, sources, uncertainty and reproducible Explorer handoffs.', descriptionZh: staticPages ? '具有主张、来源和不确定性说明的演化转折。' : '具有主张、来源、不确定性和可复现探索器入口的演化转折。', items: events.map((event) => ({ path: `events/${event.id}/`, titleEn: event.title, titleZh: event.titleZh, metaEn: `${event.startAge}–${event.endAge} Ma · ${event.category}`, metaZh: `${event.startAge}–${event.endAge} Ma · ${localize('zh', event.category)}` })) })
 writeCollectionIndex({ kind: 'stories', titleEn: 'Guided stories', titleZh: '引导故事', descriptionEn: staticPages ? 'Published editorial narratives with named evidence claims and references.' : 'Published editorial narratives whose steps resolve to claims and reproducible Explorer states.', descriptionZh: staticPages ? '标明证据主张与参考文献的已发布编辑叙事。' : '每一步均解析到主张和可复现探索器状态的已发布编辑叙事。', items: stories.map((story) => ({ path: `stories/${story.id}/`, titleEn: story.title, titleZh: story.titleZh, metaEn: `${story.durationMinutes} min · ${story.steps.length} steps`, metaZh: `${story.durationMinutes} 分钟 · ${story.steps.length} 步` })) })

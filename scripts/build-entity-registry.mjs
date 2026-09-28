@@ -97,6 +97,41 @@ const duplicateProfileNodes = profiles.filter((profile, index) => profiles.findI
 if (duplicateProfileIds.length) throw new Error(`Duplicate profile IDs: ${[...new Set(duplicateProfileIds)].join(', ')}`)
 if (duplicateProfileNodes.length) throw new Error(`Multiple profiles target the same tree node: ${[...new Set(duplicateProfileNodes)].join(', ')}`)
 for (const profile of profiles) if (profile.id !== profile.treeNodeId) throw new Error(`Profile ${profile.id} must use its treeNodeId as its stable ID`)
+const profileIds = new Set(profiles.map((profile) => profile.treeNodeId))
+
+const readerProfiles = profiles.filter((profile) => profile.readerLanguageStatus || profile.readerSections || profile.readerSources || profile.readerRelatedPages || profile.readerLimitations)
+for (const profile of readerProfiles) {
+  const readyStates = ['draft-ready', 'translation-needed', 'not-started']
+  if (!profile.readerLanguageStatus || !readyStates.includes(profile.readerLanguageStatus.en) || !readyStates.includes(profile.readerLanguageStatus.zh)) {
+    throw new Error('Reader-language status is incomplete for ' + profile.id)
+  }
+  if (!Array.isArray(profile.readerSections) || profile.readerSections.length === 0 || !Array.isArray(profile.readerSources) || profile.readerSources.length === 0) {
+    throw new Error('Reader pages require sections and sources for ' + profile.id)
+  }
+  if (!profile.readerLimitations?.en || !profile.readerLimitations?.zh) throw new Error('Reader-page limitations must be bilingual for ' + profile.id)
+  const sources = new Map()
+  for (const source of profile.readerSources) {
+    if (!source.id || sources.has(source.id) || !/^https:\/\//.test(source.url) || !source.title?.en || !source.title?.zh || !source.scope?.en || !source.scope?.zh) {
+      throw new Error('Reader source is incomplete or duplicated for ' + profile.id)
+    }
+    sources.set(source.id, source)
+  }
+  const sectionIds = new Set()
+  for (const section of profile.readerSections) {
+    if (!section.id || sectionIds.has(section.id) || !section.title?.en || !section.title?.zh || !section.text?.en || !section.text?.zh || !section.sourceIds?.length) {
+      throw new Error('Reader section is incomplete or duplicated for ' + profile.id)
+    }
+    sectionIds.add(section.id)
+    if (!section.sourceIds.every((sourceId) => sources.has(sourceId))) throw new Error('Reader section has an unresolved source for ' + profile.id + '/' + section.id)
+  }
+  const relatedPageIds = new Set()
+  for (const relatedPage of profile.readerRelatedPages ?? []) {
+    if (!relatedPage.targetId || relatedPage.targetId === profile.id || relatedPageIds.has(relatedPage.targetId) || !profileIds.has(relatedPage.targetId) || !relatedPage.label?.en || !relatedPage.label?.zh || !relatedPage.context?.en || !relatedPage.context?.zh) {
+      throw new Error('Reader-page link is incomplete, duplicated or unresolved for ' + profile.id)
+    }
+    relatedPageIds.add(relatedPage.targetId)
+  }
+}
 
 function synchronizePhylogenyRanges(node) {
   for (const child of node.children ?? []) synchronizePhylogenyRanges(child)
@@ -119,7 +154,6 @@ for (const entry of phylogenySourceEntries) {
   entry.hypotheses = entry.source.hypotheses ?? [entry.source]
   for (const hypothesis of entry.hypotheses) synchronizePhylogenyRanges(hypothesis.root)
 }
-const profileIds = new Set(profiles.map((profile) => profile.treeNodeId))
 const topologyNodeIds = new Set(phylogenySourceEntries.flatMap((entry) => entry.hypotheses.flatMap((hypothesis) => flattenTree(hypothesis.root).map((node) => node.id))))
 const mediaIds = new Set(media.map((asset) => asset.taxonId))
 const periodNames = timeScale.units.filter((unit) => unit.itp === 'period').map((unit) => unit.nam)
