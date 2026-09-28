@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "batchId": "homo-sapiens-tam-pa-ling-fossil-evidence-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "input": {
+    "path": "data/sources/homo-sapiens-tam-pa-ling-fossil-evidence-2026-09-28.json",
+    "sha256": "ba1da928db0f251acc1095330ba612c1964fe4b4f78da1172a5eed4a10e2f305"
+  },
+  "target": {
+    "colId": "6MB3T",
+    "scientificName": "Homo sapiens Linnaeus, 1758",
+    "rank": "species",
+    "sourceDatasetId": "2144"
+  },
+  "duplicateAudit": {
+    "checkedAt": "2026-09-28",
+    "queries": [
+      "10.1038/s41467-023-38715-y",
+      "37311788",
+      "Early presence of Homo sapiens in Southeast Asia by 86-68 kyr at Tam Pa Ling"
+    ],
+    "dossierIndexRecordsScanned": 36354,
+    "dossierStableIdMatchesBeforeUpdate": 0,
+    "rawSourceTextMatchesBeforeUpdate": 0,
+    "githubPullRequests": {
+      "open": 0,
+      "closed": 0
+    },
+    "githubIssues": {
+      "open": 0,
+      "closed": 0
+    },
+    "limitations": "Exact DOI and title queries were checked in the selected repository and public GitHub issue/pull-request search; this does not prove that no related study or differently indexed discussion exists."
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "baseline": {
+    "rawSha256": "811614ee50d25d3e4a0cce33e4305c9b6adc4f77148fcf5340a84cdb370531d9",
+    "targetRecordSha256": "bb31f61a1295ac94c80b4712f21d681458f63e26f7c8f423d59cedc9e87abf6a",
+    "shardDecodedSha256": "811614ee50d25d3e4a0cce33e4305c9b6adc4f77148fcf5340a84cdb370531d9",
+    "shardCompressedSha256": "118d6324fb903c54e1f54f288b417a96702246c847053349393e8d5d3ba54148",
+    "dossierIndexRecordCount": 36354,
+    "dossierIndexSha256": "9d756e6658cf2de5ac0b29cb8a24c451a254c9e1179b38f187c620bf2d7cc778"
+  },
+  "coverage": {
+    "morphology": "partially-supported",
+    "fossil": "partially-supported",
+    "lifeHistory": "not-assessed",
+    "ecology": "not-assessed",
+    "evolution": "partially-supported",
+    "distribution": "partially-supported",
+    "conservation": "not-assessed",
+    "completeDossiersAdded": 0,
+    "externallyReviewedDossiersAdded": 0
+  },
+  "appAndPagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+  "appAndPagesPreviewManifestChanged": false,
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-homo-sapiens-south-african-genomes-2026-09-24.jsonl",
+    "bytes": 12599,
+    "sha256": "d1cf496fd40640e507fdeb4a4f06d71b09b5ae6409800e60284502ed8f507db1"
+  },
+  "rawNormalization": "The baseline JSONL had an extra trailing blank line; normalize it to one terminal LF while preserving the record.",
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-homo-sapiens-south-african-genomes-2026-09-24.jsonl.br",
+    "decodedSha256": "d1cf496fd40640e507fdeb4a4f06d71b09b5ae6409800e60284502ed8f507db1",
+    "compressedSha256": "39d5bc83af1e1a22a17ff52f328596a27b8412af65ee4998af38e207fcbd8b38",
+    "recordCount": 1
+  },
+  "dossierIndex": {
+    "path": "data/knowledge/catalogue-dossier-shards.json",
+    "beforeSha256": "9d756e6658cf2de5ac0b29cb8a24c451a254c9e1179b38f187c620bf2d7cc778",
+    "afterSha256": "f9d2b96ee3188ed57661510a0880b0abb644578cbd4f11962a74270a1b97e50b",
+    "recordCount": 36354
+  },
+  "generator": "scripts/update-homo-sapiens-tam-pa-ling-fossil.mjs",
+  "updateMode": "append-two-source-bounded-claims-to-existing-dossier"
+}

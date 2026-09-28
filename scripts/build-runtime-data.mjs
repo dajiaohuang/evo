@@ -62,7 +62,7 @@ const entities = readJson('data/registry/entities/entities.json')
 const ontology = readJson('data/navigation/atlas-ontology.json')
 const timeScale = readJson('data/time-scale.json')
 const profiles = readJson('data/registry/taxon-profiles.json')
-const claims = readJson('data/evidence/claims.json')
+let claims = readJson('data/evidence/claims.json')
 const references = readJson('data/references.json')
 const events = readJson('data/events.json')
 const stories = readJson('data/stories.json')
@@ -82,6 +82,13 @@ if (pagesPreview) {
   stories.splice(0, stories.length, ...stories.filter((story) => storyIds.has(story.id)))
   places.splice(0, places.length)
   media.splice(0, media.length, ...media.filter((asset) => taxonIds.has(asset.taxonId)))
+  const storyClaimIds = new Set(stories.flatMap((story) => story.steps.flatMap((step) => step.claimLinks.map((link) => link.claimId))))
+  claims = claims.filter((claim) => {
+    if (storyClaimIds.has(claim.id)) return true
+    const [kind, ...subjectParts] = claim.subjectId.split(':')
+    const subjectId = subjectParts.join(':')
+    return (kind === 'taxon' && taxonIds.has(subjectId)) || (kind === 'event' && eventIds.has(subjectId))
+  })
 }
 const publishedStories = stories.filter((story) => story.evidenceStatus === 'available-with-limitations')
 const calibrations = readJson('data/packages/mammalia/perissodactyla/phylogeny/calibrations.json')

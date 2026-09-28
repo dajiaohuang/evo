@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "batchId": "homo-sapiens-tam-pa-ling-fossil-evidence-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "target": {
+    "colId": "6MB3T",
+    "scientificName": "Homo sapiens Linnaeus, 1758",
+    "rank": "species",
+    "sourceDatasetId": "2144"
+  },
+  "audit": {
+    "baseHead": "725eb56f9d77a51f910b9952aab1b8fcb15b24c4",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "dossierIndexRecordCount": 36354,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-homo-sapiens-south-african-genomes-2026-09-24.jsonl.br",
+    "previousRawSha256": "811614ee50d25d3e4a0cce33e4305c9b6adc4f77148fcf5340a84cdb370531d9",
+    "previousShardDecodedSha256": "811614ee50d25d3e4a0cce33e4305c9b6adc4f77148fcf5340a84cdb370531d9",
+    "previousShardCompressedSha256": "118d6324fb903c54e1f54f288b417a96702246c847053349393e8d5d3ba54148",
+    "previousTargetRecordSha256": "bb31f61a1295ac94c80b4712f21d681458f63e26f7c8f423d59cedc9e87abf6a",
+    "previousDossierIndexSha256": "9d756e6658cf2de5ac0b29cb8a24c451a254c9e1179b38f187c620bf2d7cc778",
+    "rawNormalization": "The baseline JSONL had an extra trailing blank line; normalize it to one terminal LF while preserving the record.",
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "duplicateAudit": {
+      "checkedAt": "2026-09-28",
+      "queries": [
+        "10.1038/s41467-023-38715-y",
+        "37311788",
+        "Early presence of Homo sapiens in Southeast Asia by 86-68 kyr at Tam Pa Ling"
+      ],
+      "dossierIndexRecordsScanned": 36354,
+      "dossierStableIdMatchesBeforeUpdate": 0,
+      "rawSourceTextMatchesBeforeUpdate": 0,
+      "githubPullRequests": { "open": 0, "closed": 0 },
+      "githubIssues": { "open": 0, "closed": 0 },
+      "limitations": "Exact DOI and title queries were checked in the selected repository and public GitHub issue/pull-request search; this does not prove that no related study or differently indexed discussion exists."
+    }
+  },
+  "identityScope": "Exact accepted COL26.8 species usage 6MB3T. Biological evidence is limited to the selected ancient southern African genomic sample and the Tam Pà Ling fossils described in this batch; neither source is generalized to all human populations or to a complete species history.",
+  "fossilLifeStatusScope": "TPL 6 and TPL 7 are fossil human remains attributed to Homo sapiens at Tam Pà Ling cave, northern Laos. The article reports no wild/captive population status and does not establish global first- or last-occurrence limits.",
+  "source": {
+    "id": "freidline2023",
+    "title": "Freidline et al. (2023), Early presence of Homo sapiens in Southeast Asia by 86–68 kyr at Tam Pà Ling, Northern Laos",
+    "url": "https://doi.org/10.1038/s41467-023-38715-y",
+    "version": "Nature Communications 14, article 3193; version of record published 2023-06-13",
+    "stableId": "doi:10.1038/s41467-023-38715-y",
+    "publishedAt": "2023-06-13",
+    "accessedAt": "2026-09-28",
+    "locator": "Abstract; Results—Context and dating; Results—Morphological description of Tam Pà Ling 6 and 7; Figs. 1, 2 and 5; Rights and permissions",
+    "rightsEvidenceUrl": "https://www.nature.com/articles/s41467-023-38715-y",
+    "rightsEvidenceLocator": "Publisher article end matter, Rights and permissions: the open-access article notice specifies Creative Commons Attribution 4.0 International.",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the publisher's item-level article license notice.",
+    "licenseAssessment": "item-level-verified",
+    "scope": "Primary fossil and chronology study of Tam Pà Ling cave, northern Laos. Claims paraphrase article text only; no article prose, figures, tables, supplementary files or third-party material are redistributed.",
+    "rightsHolder": "The Authors",
+    "licenseVersion": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseAppliesTo": "Article text under the version-of-record CC BY 4.0 notice; separately credited third-party material is excluded.",
+    "attribution": "Freidline SE, Westaway KE, Joannes-Boyau R, et al. (2023). Early presence of Homo sapiens in Southeast Asia by 86–68 kyr at Tam Pà Ling, Northern Laos. Nature Communications 14:3193. https://doi.org/10.1038/s41467-023-38715-y. Claims paraphrased."
+  },
+  "claims": {
+    "morphology": {
+      "text": "The authors describe TPL 6 as a partial left frontal bone with a modest superciliary arch and no supraorbital torus, and TPL 7 as a proximal left tibial fragment with a fused tibial tuberosity. Taphonomic alteration precluded accurate osteometric analysis of TPL 7. These are descriptions of two fossil specimens, not a species-wide morphology profile.",
+      "textZh": "作者将 TPL 6 描述为左侧额骨残片，具有较弱的眉弓且没有眶上圆枕；将 TPL 7 描述为近端左胫骨碎片，其胫骨粗隆已经融合。埋藏改造使 TPL 7 无法进行准确的骨测量分析。这些描述仅针对两件化石标本，不代表全物种形态概况。",
+      "sourceIds": ["freidline2023"],
+      "locator": "Results—Morphological description of Tam Pà Ling 6 and 7; Figs. 1–2",
+      "placeTimeScope": "TPL cave, Huà Pan Province, northern Laos; the paper describes the two fossil specimens from the late Pleistocene cave sequence. Site chronology is modeled from sediments and associated dating evidence, not directly from these anatomical observations.",
+      "lifeStatus": "Fossil human remains attributed by the authors to Homo sapiens; the article does not assess a living population.",
+      "translationStatus": "translated",
+      "originalLanguage": "en"
+    },
+    "fossil": {
+      "text": "The study assigns the TPL 6 frontal bone and TPL 7 tibial fragment from Tam Pà Ling cave, northern Laos, to Homo sapiens. Its abstract reports presence by 70 ± 3 ka for TPL 6 and an extension to 77 ± 9 ka for TPL 7; these are site-context chronology estimates based on modeled sediment ages and associated dating, not direct dates on the hominin fragments. The authors note that TPL 7 may be older than the modeled estimate because the deepest sediment sample was collected 30 cm higher.",
+      "textZh": "该研究将来自老挝北部 Tam Pà Ling 洞穴的 TPL 6 额骨和 TPL 7 胫骨碎片归为 Homo sapiens。论文摘要报告，TPL 6 将该地人类出现时间确定到距今 70 ± 3 千年，TPL 7 则将记录延伸至 77 ± 9 千年；这些是基于沉积物年龄模型及相关测年证据的地点年代估计，并非直接测得人类化石本身的年龄。作者指出，由于最深处沉积物样本采集位置高出 30 厘米，TPL 7 的年代可能早于模型估计。",
+      "sourceIds": ["freidline2023"],
+      "locator": "Abstract; Results—Context and dating, especially the modeled TPL sequence and TPL 7 stratigraphic position; Fig. 5",
+      "placeTimeScope": "One fossil locality, Tam Pà Ling cave, northern Laos. The paper's 2-sigma site model places human material within a sequence extending approximately 77 ± 9 to 39 ± 9 ka; TPL 7 may predate the modeled oldest estimate. These are contextual depositional ages, not direct fossil dates.",
+      "lifeStatus": "Fossil human remains attributed to Homo sapiens; this claim does not describe living, wild or captive populations.",
+      "translationStatus": "translated",
+      "originalLanguage": "en"
+    }
+  },
+  "gaps": {
+    "morphology": [
+      "Morphology evidence is limited to a partial frontal bone and a tibial fragment from one locality; it does not describe variation across populations, ages or anatomical systems."
+    ],
+    "fossil": [
+      "One cave sequence does not establish a global Homo sapiens fossil range or first/last occurrence. TPL 7 may be older than the modeled site estimate, and no systematic fossil-record review was completed."
+    ]
+  },
+  "completenessReasons": [
+    "The dossier combines a sample-bounded genomic study with specimen-limited morphology and one site-limited fossil chronology; it is not a systematic species-wide synthesis.",
+    "Life history, ecology, formal conservation assessment and broad population-wide evidence remain unassessed or incomplete; distribution, evolution, morphology and fossil coverage remain partial.",
+    "A systematic current literature review and independent expert review have not been completed."
+  ]
+}

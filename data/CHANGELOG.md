@@ -1,5 +1,17 @@
 # Dataset changelog
 
+## Unreleased Homo sapiens Tam Pà Ling fossil evidence — 2026-09-28
+
+- Added source-bounded morphology and fossil claims to the incomplete COL26.8
+  *Homo sapiens* dossier (`6MB3T`) from Freidline et al. (2023), whose article
+  carries item-level CC BY 4.0. The observations concern the TPL 6 frontal
+  bone and TPL 7 tibial fragment at Tam Pà Ling, Laos. Their ages are modeled
+  site-context estimates, not direct dates on the hominin fragments; TPL 7 may
+  predate the modeled oldest estimate. The global fossil range remains
+  unresolved, and the dossier is not externally reviewed. App native-core and
+  GitHub Pages selections are unchanged; the full dossier archive remains
+  outside the App bundle.
+
 ## Unreleased Caerostris darwini genomic evidence — 2026-09-28
 
 - Added the first incomplete COL26.8 dossier for *Caerostris darwini* (`68T95`),
