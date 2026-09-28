@@ -117,22 +117,22 @@
   "appAndPagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
   "appAndPagesPreviewManifestChanged": false,
   "baseDossierIndexSha256": "dacc09f119c8ae133abb7cff8d9a5557d4fcbd33a3ce830124c39cdae22b3cfc",
-  "finalDossierIndexSha256": "7a53ac0d58245244d1ae7af6ba83ba1a6d0fb26ace6baa06e4636bf17a2df274",
+  "finalDossierIndexSha256": "5805f6ef51da16b39951e3e1076565de5422d150b46f028206989c93b04b28f2",
   "raw": {
     "path": "data/knowledge/raw-dossiers/primate-evidence-batch-2026-09-28-h.jsonl",
     "encoding": "utf-8-jsonl-lf",
     "recordCount": 1,
-    "bytes": 10286,
-    "sha256": "fc6ec36f4cf06b50c698f3ffe998ffab03b244357e83944998f96d3374909203"
+    "bytes": 10538,
+    "sha256": "9d4e2461d230633e176ab7423723f5e5b4278a5b2d32210ae3d5c9bbd40ca91c"
   },
   "shard": {
     "path": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-h.jsonl.br",
     "encoding": "brotli-jsonl",
     "recordCount": 1,
-    "decodedBytes": 10286,
-    "decodedSha256": "fc6ec36f4cf06b50c698f3ffe998ffab03b244357e83944998f96d3374909203",
-    "compressedBytes": 2703,
-    "compressedSha256": "15b39500a56e4f7217734681d50c80d9e073edc47fc6c9beaf16312614d9237b",
+    "decodedBytes": 10538,
+    "decodedSha256": "9d4e2461d230633e176ab7423723f5e5b4278a5b2d32210ae3d5c9bbd40ca91c",
+    "compressedBytes": 2737,
+    "compressedSha256": "29c65815a512260e130fa42798f4de2673b320bc0b5833e3c384ad0d6669cee2",
     "brotliParameters": {
       "mode": "text",
       "quality": 11
@@ -148,7 +148,7 @@
     {
       "batchId": "primates-mico-acariensis-evolution-b68-2026-09-28",
       "sourcePath": "data/sources/primates-mico-acariensis-evolution-b68-2026-09-28.json",
-      "sourceSha256": "cc95020c37d860aa870dc2d73743aa8364a511e4ebee9f78347ff8a7297c51f5",
+      "sourceSha256": "ff36f213eb733d58ccf4c9456a414925d8260ed358a318258f28819933ea009d",
       "generator": "scripts/update-primates-mico-acariensis-evolution-b68.mjs",
       "targetColIds": [
         "42MHS"
@@ -157,15 +157,15 @@
       "sourceReuse": true,
       "previousRawSha256": "6e4fa6e4fdbb970d0523cc52f1cec7c303fc6e1a923f5352b38bec88e9d9458b",
       "previousCompressedSha256": "e03674b0d41fc41bd354c774720926d11ec8a712adb066e5f283f7d7cba08fc7",
-      "rawSha256": "fc6ec36f4cf06b50c698f3ffe998ffab03b244357e83944998f96d3374909203",
-      "compressedSha256": "15b39500a56e4f7217734681d50c80d9e073edc47fc6c9beaf16312614d9237b",
-      "dossierIndexSha256": "7a53ac0d58245244d1ae7af6ba83ba1a6d0fb26ace6baa06e4636bf17a2df274",
+      "rawSha256": "9d4e2461d230633e176ab7423723f5e5b4278a5b2d32210ae3d5c9bbd40ca91c",
+      "compressedSha256": "29c65815a512260e130fa42798f4de2673b320bc0b5833e3c384ad0d6669cee2",
+      "dossierIndexSha256": "5805f6ef51da16b39951e3e1076565de5422d150b46f028206989c93b04b28f2",
       "claimCountForTarget": 1,
       "appAndPagesPreviewManifestChanged": false,
       "queueProjection": {
         "outputManifestPath": "data/knowledge/species-evidence-queue/manifest.json",
-        "outputManifestSha256": "9aebcf3733482d8ba3cf950738a17363c1f96919499f958c0bf1552fcc101fac",
-        "inputDossierIndexSha256": "7a53ac0d58245244d1ae7af6ba83ba1a6d0fb26ace6baa06e4636bf17a2df274",
+        "outputManifestSha256": "dbb5ccb2c706b1df4447a6341c325c26a19ecf133c3504c700a30b957d314e96",
+        "inputDossierIndexSha256": "5805f6ef51da16b39951e3e1076565de5422d150b46f028206989c93b04b28f2",
         "notIncludedInRuntime": true,
         "affectedShard": {
           "prefix": "0",
@@ -189,6 +189,13 @@
             "conservation": "not-assessed"
           }
         }
+      },
+      "revisedFromSourceSha256": "cc95020c37d860aa870dc2d73743aa8364a511e4ebee9f78347ff8a7297c51f5",
+      "previousRevision": {
+        "sourceSha256": "cc95020c37d860aa870dc2d73743aa8364a511e4ebee9f78347ff8a7297c51f5",
+        "rawSha256": "fc6ec36f4cf06b50c698f3ffe998ffab03b244357e83944998f96d3374909203",
+        "compressedSha256": "15b39500a56e4f7217734681d50c80d9e073edc47fc6c9beaf16312614d9237b",
+        "dossierIndexSha256": "7a53ac0d58245244d1ae7af6ba83ba1a6d0fb26ace6baa06e4636bf17a2df274"
       }
     }
   ]

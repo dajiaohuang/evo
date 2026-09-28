@@ -14,7 +14,8 @@ const REGISTRY_MANIFEST_PATH = join(ROOT, 'data', 'catalogue-of-life', 'releases
 const BATCH_MANIFEST_PATH = join(ROOT, 'data', 'knowledge', 'catalogue-dossiers-primate-evidence-2026-09-28-h.batch-manifest.json')
 const UPDATE_MANIFEST_PATH = join(ROOT, 'data', 'knowledge', 'primates-mico-acariensis-evolution-b68-2026-09-28.update-manifest.json')
 const FACETS = ['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation']
-const EXPECTED_SOURCE_SHA256 = 'cc95020c37d860aa870dc2d73743aa8364a511e4ebee9f78347ff8a7297c51f5'
+const PREVIOUS_SOURCE_SHA256 = 'cc95020c37d860aa870dc2d73743aa8364a511e4ebee9f78347ff8a7297c51f5'
+const EXPECTED_SOURCE_SHA256 = 'ff36f213eb733d58ccf4c9456a414925d8260ed358a318258f28819933ea009d'
 const sha256 = value => createHash('sha256').update(value).digest('hex')
 const relative = path => path.slice(ROOT.length + 1).replaceAll('\\', '/')
 const readJson = path => JSON.parse(readFileSync(path, 'utf8'))
@@ -29,6 +30,7 @@ assert.equal(source.sourceReuse.licenseAssessment, 'item-level-verified')
 assert.equal(source.sourceReuse.licenseVersion, 'CC BY 4.0')
 assert.equal(source.claim.sourceIds.length, 1)
 assert.deepEqual(source.claim.sourceIds, [source.sourceReuse.id])
+assert.ok(Array.isArray(source.facetGaps) && source.facetGaps.length > 0)
 const batchManifestBytesBefore = readFileSync(BATCH_MANIFEST_PATH)
 const batchManifest = JSON.parse(batchManifestBytesBefore.toString('utf8'))
 assert.equal(batchManifest.batchId, 'primate-evidence-batch-2026-09-28-h')
@@ -66,6 +68,11 @@ if (applied) {
   assert.equal(dossier.facets.evolution.status, 'partially-supported')
   assert.equal(existingEvolutionClaims.filter(item => item.text === source.claim.text).length, 1)
   assert.equal(existingEvolutionClaims.length, applied.claimCountForTarget)
+  if (applied.sourceSha256 === EXPECTED_SOURCE_SHA256) {
+    assert.deepEqual(dossier.facets.evolution.gaps, source.facetGaps)
+  } else {
+    assert.equal(applied.sourceSha256, PREVIOUS_SOURCE_SHA256, 'Only the recorded pre-CI B68 input revision may be upgraded')
+  }
   assert.equal(dossier.facets.distribution.gaps.includes('Morphology, life history, ecology, evolution, fossils, conservation status, systematic evidence search, and external expert review remain unassessed.'), false)
 } else {
   assert.equal(sha256(Buffer.from(JSON.stringify(dossier), 'utf8')), source.audit.targetRecordSha256)
@@ -131,7 +138,86 @@ function readTargetQueueRow(queueManifest) {
   return { entry, row: matches[0], compressed, decoded }
 }
 
-if (applied) {
+if (applied && applied.sourceSha256 === PREVIOUS_SOURCE_SHA256) {
+  assert.equal(applied.sourceSha256, PREVIOUS_SOURCE_SHA256)
+  assert.equal(sha256(rawBefore), applied.rawSha256, 'Pre-CI B68 raw JSONL changed before the facet-gap correction')
+  assert.equal(sha256(compressedBefore), applied.compressedSha256, 'Pre-CI B68 shard changed before the facet-gap correction')
+  assert.equal(sha256(indexBytesBefore), applied.dossierIndexSha256, 'Pre-CI B68 index changed before the facet-gap correction')
+  assert.equal(dossier.facets.evolution.gaps, undefined)
+  const correctedDossier = structuredClone(dossier)
+  correctedDossier.facets.evolution.gaps = structuredClone(source.facetGaps)
+  const correctedLines = originalLines.map(line => {
+    const row = JSON.parse(line)
+    if (row.colId === correctedDossier.colId) return JSON.stringify(correctedDossier)
+    assert.deepEqual(allDossiers.get(row.colId), row, 'Sibling dossier changed during the B68 schema correction: ' + row.colId)
+    return line
+  })
+  const rawAfter = Buffer.from(correctedLines.join('\n') + '\n', 'utf8')
+  assert.ok(!rawAfter.includes(0x0d), 'Corrected raw JSONL must use LF line endings')
+  const compressedAfter = brotliCompressSync(rawAfter, {
+    params: {
+      [zlibConstants.BROTLI_PARAM_MODE]: zlibConstants.BROTLI_MODE_TEXT,
+      [zlibConstants.BROTLI_PARAM_QUALITY]: 11,
+    },
+  })
+  assert.deepEqual(brotliDecompressSync(compressedAfter), rawAfter, 'B68 facet-gap correction Brotli round trip must preserve exact raw bytes')
+  targetShard.decodedSha256 = sha256(rawAfter)
+  targetShard.compressedSha256 = sha256(compressedAfter)
+  const indexBytesAfter = serialize(dossierIndex)
+  const rawEntry = {
+    path: relative(rawPath),
+    encoding: 'utf-8-jsonl-lf',
+    recordCount: originalRows.length,
+    bytes: rawAfter.length,
+    sha256: sha256(rawAfter),
+  }
+  const shardEntry = {
+    path: targetShard.path,
+    encoding: 'brotli-jsonl',
+    recordCount: originalRows.length,
+    decodedBytes: rawAfter.length,
+    decodedSha256: sha256(rawAfter),
+    compressedBytes: compressedAfter.length,
+    compressedSha256: sha256(compressedAfter),
+    brotliParameters: { mode: 'text', quality: 11 },
+    roundTrip: 'exact-byte-match',
+  }
+  const previousRevision = {
+    sourceSha256: applied.sourceSha256,
+    rawSha256: applied.rawSha256,
+    compressedSha256: applied.compressedSha256,
+    dossierIndexSha256: applied.dossierIndexSha256,
+  }
+  applied.revisedFromSourceSha256 = PREVIOUS_SOURCE_SHA256
+  applied.sourceSha256 = EXPECTED_SOURCE_SHA256
+  applied.previousRevision = previousRevision
+  applied.rawSha256 = sha256(rawAfter)
+  applied.compressedSha256 = sha256(compressedAfter)
+  applied.dossierIndexSha256 = sha256(indexBytesAfter)
+  applied.queueProjection = null
+  batchManifest.raw = rawEntry
+  batchManifest.shard = shardEntry
+  batchManifest.finalDossierIndexSha256 = sha256(indexBytesAfter)
+  const batchManifestBytesAfter = serialize(batchManifest)
+  const updateManifest = readJson(UPDATE_MANIFEST_PATH)
+  updateManifest.input.sha256 = EXPECTED_SOURCE_SHA256
+  updateManifest.output.raw = rawEntry
+  updateManifest.output.shard = shardEntry
+  updateManifest.output.dossierIndex = { path: relative(INDEX_PATH), recordCount: dossierIndex.recordCount, sha256: sha256(indexBytesAfter) }
+  updateManifest.output.batchManifest.sha256 = sha256(batchManifestBytesAfter)
+  updateManifest.queueProjection = null
+  updateManifest.schemaCorrection = {
+    reason: 'Remote Full-Web generation requires every partially-supported facet to include an explicit gaps array.',
+    previousRevision,
+    addedEvolutionGaps: source.facetGaps,
+  }
+  writeFileSync(rawPath, rawAfter)
+  writeFileSync(join(ROOT, targetShard.path), compressedAfter)
+  writeFileSync(INDEX_PATH, indexBytesAfter)
+  writeFileSync(BATCH_MANIFEST_PATH, batchManifestBytesAfter)
+  writeFileSync(UPDATE_MANIFEST_PATH, serialize(updateManifest))
+  console.log(JSON.stringify({ batchId: source.batchId, correctionApplied: true, targetColId: source.target.colId, evolutionGapCount: source.facetGaps.length, queueRebuildRequired: true }, null, 2))
+} else if (applied) {
   assert.equal(applied.sourceSha256, EXPECTED_SOURCE_SHA256, 'B68 source digest differs from prior application')
   assert.equal(sha256(rawBefore), applied.rawSha256, 'Updated raw JSONL changed after B68 application')
   assert.equal(sha256(compressedBefore), applied.compressedSha256, 'Updated compressed shard changed after B68 application')
@@ -189,6 +275,7 @@ if (applied) {
   updatedDossier.facets.evolution = {
     status: 'partially-supported',
     claims: [structuredClone(source.claim)],
+    gaps: structuredClone(source.facetGaps),
   }
   updatedDossier.facets.distribution.gaps = updatedDossier.facets.distribution.gaps.map(gap => gap === 'Morphology, life history, ecology, evolution, fossils, conservation status, systematic evidence search, and external expert review remain unassessed.'
     ? 'Morphology, life history, fossils, conservation status, systematic evidence search, and external expert review remain unassessed.'
