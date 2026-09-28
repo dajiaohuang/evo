@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-callithrix-jacchus-conservation-batch60-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "target": {
+    "colId": "697NS",
+    "scientificName": "Callithrix jacchus (Linnaeus, 1758)",
+    "rank": "species",
+    "sourceDatasetId": "2144"
+  },
+  "audit": {
+    "baseHead": "0919f1692ebd08e8d39c35f6f7a1e3c996fb297e",
+    "indexedRecordCount": 36354,
+    "targetRecordCount": 1,
+    "targetRawPath": "data/knowledge/raw-dossiers/primates-callithrix-jacchus-batch27-2026-09-25.jsonl",
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-callithrix-jacchus-batch27-2026-09-25.jsonl.br",
+    "previousRawSha256": "50f8066c1f591d85cb2313b51f7ef93dc4c7b1ba56d07860a7e42522f4b0cef2",
+    "previousShardCompressedSha256": "a66b154c0d88f2f7718b485291fad23edd70700ed7f3e845850933c620326351",
+    "previousTargetRecordSha256": "1eef2b8d49869e3be37365482d64ecfac2f4b1202c40c6835f856b31bb4054f0",
+    "queueShardPath": "data/knowledge/species-evidence-queue/8.jsonl.br",
+    "queueRowSha256": "a63c799a8c51fdcb6da0522a63167e1455ab0d16100ac27184f8cb92e5e234ab",
+    "queueBaseline": {
+      "dossierStatus": "incomplete",
+      "identityStatus": "source-linked",
+      "identitySourceIds": ["col"],
+      "sourceIds": ["benavides2022", "col", "malukiewicz2021", "malukiewicz2024", "takahashi2014", "wienand2026", "ziegler2017"],
+      "claimCount": 8,
+      "rightsStatus": "item-level-verified",
+      "systematicSearchRecorded": true,
+      "conservationStatus": "not-assessed",
+      "expertReviewStatus": "not-reviewed"
+    },
+    "openPullRequests": [],
+    "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "6224G", "6226C", "LG", "3W7", "4DT", "4PM", "7KR", "3FM4", "697NS"],
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "deduplication": {
+      "stableId": "doi:10.1038/s41598-021-04276-7",
+      "localSearch": "No match before addition in data/knowledge/raw-dossiers, data/sources, data/references.json, or docs.",
+      "githubAllStateIssueQueries": ["10.1038/s41598-021-04276-7", "35087079", "Callithrix aurita hybridization"],
+      "githubAllStatePullRequestQueries": ["10.1038/s41598-021-04276-7", "35087079", "Callithrix aurita hybridization"],
+      "matchingIssues": [],
+      "matchingPullRequests": []
+    }
+  },
+  "source": {
+    "id": "nogueira2022hybridization",
+    "title": "Nogueira DM, de Carvalho RS, de Oliveira AM, et al. Uniparental genetic markers to investigate hybridization in wild-born marmosets with a mixed phenotype among Callithrix aurita and invasive species.",
+    "url": "https://doi.org/10.1038/s41598-021-04276-7",
+    "stableId": "doi:10.1038/s41598-021-04276-7",
+    "version": "Scientific Reports 12, article 1487 (2022); version of record published 2022-01-27; PMID 35087079; PMCID PMC8795268",
+    "publishedAt": "2022-01-27",
+    "accessedAt": "2026-09-28",
+    "locator": "Abstract; Methods, Sampling location and SRY and COX2 analysis; Results, Sample data and COX2 analysis; Table 1; Figures 1 and 5; Discussion on hybridization and marker limits.",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the article's publisher Rights and permissions section and the final page of the publisher PDF.",
+    "licenseAssessment": "item-level-verified",
+    "rightsEvidenceUrl": "https://www.nature.com/articles/s41598-021-04276-7.pdf",
+    "rightsEvidenceLocator": "Publisher PDF, final page, Open Access: explicitly identifies CC BY 4.0 and notes that separately credited third-party material may have different terms.",
+    "rightsHolder": "The authors, as stated in the article copyright line.",
+    "licenseVersion": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseAppliesTo": "Paraphrased article text only. No figures, tables, photographs, or supplementary files are reproduced; separately credited third-party material is excluded.",
+    "attribution": "Nogueira DM, de Carvalho RS, de Oliveira AM, et al. (2022). Uniparental genetic markers to investigate hybridization in wild-born marmosets with a mixed phenotype among Callithrix aurita and invasive species. Scientific Reports 12:1487. https://doi.org/10.1038/s41598-021-04276-7. CC BY 4.0. Findings paraphrased; no figures or tables reproduced.",
+    "scope": "Primary genetic study of 18 free-living putative Callithrix hybrids captured during 2004-2013 at Biritiba Mirim (Sao Paulo) and Guapimirim, Teresopolis/PARNASO, and Petropolis (Rio de Janeiro), within southeastern Brazil's Atlantic Forest. The paper compares maternally inherited COX2 haplotypes and paternal SRY markers; it also used 15 positive-control animals. The five HCj observations are among the putative hybrid samples, not a representative sample of pure C. jacchus populations."
+  },
+  "claims": [
+    {
+      "facet": "conservation",
+      "sourceId": "nogueira2022hybridization",
+      "text": "Among 18 free-living putative marmoset hybrids sampled at four southeastern Brazilian localities during 2004-2013, the study identified the C. jacchus COX2 haplotype HCj in five individuals (Csp1-2 from Biritiba Mirim in 2004 and Csp9-11 from Nogueira in 2012). The paper discusses hybridization between native threatened C. aurita and introduced congeners including C. jacchus as a conservation concern. These mitochondrial observations document a C. jacchus maternal lineage in this sample; they do not estimate hybridization frequency in C. jacchus, quantify demographic impact, or establish this species' conservation status or population trend.",
+      "textZh": "在 2004–2013 年于巴西东南部四个地点采集的 18 只自由活动、外形疑似杂交的绒猴中，研究在 5 只个体（2004 年 Biritiba Mirim 的 Csp1–2，以及 2012 年 Nogueira 的 Csp9–11）检出归属于普通绒猴（C. jacchus）的 COX2 单倍型 HCj。论文将原生受威胁种 C. aurita 与包括普通绒猴在内的外来近缘种之间的杂交列为保育关注。该线粒体观察只记录了这一样本中的普通绒猴母系标记；它没有估计普通绒猴的杂交频率、量化种群影响，也没有确定该物种的保育状态或种群趋势。",
+      "originalLanguage": "en",
+      "translationStatus": "verified",
+      "locator": "Results, Sample data and COX2 analysis (18 free-living putative hybrids; five HCj samples); Table 1 and Fig. 1 (sample IDs, localities, capture years); Discussion (hybridization context and limitations of uniparental markers).",
+      "placeTimeScope": "Four Atlantic Forest localities in southeastern Brazil: Biritiba Mirim, Sao Paulo; Guapimirim, Teresopolis/PARNASO, and Petropolis, Rio de Janeiro. The 18 putative hybrid individuals were captured from 2004 through 2013; the five HCj records were from Biritiba Mirim in 2004 and Nogueira in 2012.",
+      "lifeStatus": "The relevant observations concern free-living putative hybrids with mixed phenotypes, not a representative sample of pure wild C. jacchus individuals; pure-species controls are distinct from the 18 hybrid samples."
+    }
+  ],
+  "gaps": {
+    "conservation": [
+      "This source documents C. jacchus maternal markers among a bounded sample of free-living putative hybrids in a conservation-relevant interaction with C. aurita. Current C. jacchus assessment status, population trend, the prevalence of such hybridization, and measured demographic or genetic impacts remain unassessed."
+    ]
+  }
+}

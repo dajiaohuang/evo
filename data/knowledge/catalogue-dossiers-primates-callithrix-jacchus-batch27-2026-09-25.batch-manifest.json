@@ -17,17 +17,17 @@
     "path": "data/knowledge/raw-dossiers/primates-callithrix-jacchus-batch27-2026-09-25.jsonl",
     "encoding": "utf-8-jsonl-lf",
     "recordCount": 1,
-    "bytes": 33045,
-    "sha256": "50f8066c1f591d85cb2313b51f7ef93dc4c7b1ba56d07860a7e42522f4b0cef2"
+    "bytes": 37745,
+    "sha256": "709b966605bc7deba60961059cef465163b7e9e8b74ef4b2d4a14ed2adbaaecc"
   },
   "shard": {
     "path": "data/knowledge/catalogue-dossiers-primates-callithrix-jacchus-batch27-2026-09-25.jsonl.br",
     "encoding": "brotli-jsonl",
     "recordCount": 1,
-    "decodedBytes": 33045,
-    "decodedSha256": "50f8066c1f591d85cb2313b51f7ef93dc4c7b1ba56d07860a7e42522f4b0cef2",
-    "compressedBytes": 8965,
-    "compressedSha256": "a66b154c0d88f2f7718b485291fad23edd70700ed7f3e845850933c620326351",
+    "decodedBytes": 37745,
+    "decodedSha256": "709b966605bc7deba60961059cef465163b7e9e8b74ef4b2d4a14ed2adbaaecc",
+    "compressedBytes": 10138,
+    "compressedSha256": "525bd3651717f2b4cf57db1da85a3959cea42cb19028e55d614f4ee275f53ce0",
     "brotliParameters": {
       "mode": "text",
       "quality": 11
@@ -107,6 +107,29 @@
         }
       ],
       "mode": "in-place-add-two-bounded-captive-pair-formation-ecology-claims"
+    },
+    {
+      "batchId": "primates-callithrix-jacchus-conservation-batch60-2026-09-28",
+      "sourcePath": "data/sources/primates-callithrix-jacchus-conservation-c60-2026-09-28.json",
+      "inputSha256": "20b479f2886d526148e4a34cd47ecb03d127380c2b90e2c892e9b493cc2e6f86",
+      "generator": "scripts/update-primates-callithrix-conservation-c60.mjs",
+      "baseHead": "0919f1692ebd08e8d39c35f6f7a1e3c996fb297e",
+      "indexedRecordCountAtAudit": 36354,
+      "targetColId": "697NS",
+      "previousDecodedSha256": "50f8066c1f591d85cb2313b51f7ef93dc4c7b1ba56d07860a7e42522f4b0cef2",
+      "previousCompressedSha256": "a66b154c0d88f2f7718b485291fad23edd70700ed7f3e845850933c620326351",
+      "previousTargetRecordSha256": "1eef2b8d49869e3be37365482d64ecfac2f4b1202c40c6835f856b31bb4054f0",
+      "queueRowSha256BeforeUpdate": "a63c799a8c51fdcb6da0522a63167e1455ab0d16100ac27184f8cb92e5e234ab",
+      "decodedSha256": "709b966605bc7deba60961059cef465163b7e9e8b74ef4b2d4a14ed2adbaaecc",
+      "compressedSha256": "525bd3651717f2b4cf57db1da85a3959cea42cb19028e55d614f4ee275f53ce0",
+      "targetRecordSha256": "6800d380069f8c6d051aac97b8a9a71d0f5310dd50fa4ea32c4b07c66dc48501",
+      "changedFacets": [
+        {
+          "facet": "conservation",
+          "status": "partially-supported"
+        }
+      ],
+      "mode": "in-place-add-one-bounded-conservation-interaction-claim"
     }
   ]
 }
