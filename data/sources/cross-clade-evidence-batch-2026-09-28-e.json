@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "batchId": "cross-clade-evidence-batch-2026-09-28-e",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "audit": {
+    "baseHead": "65268251bb9bcb93176641c44cb5298b9c88f4ff",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "dossierIndexSha256": "2cce4ece6a6f297e8400c4a9baf1ce6ecd36c389baebcfd94552ab58d885460e",
+    "dossierIndexRecordCount": 36343,
+    "queueManifestSha256": "5721da93e359d87c9c46dd77a29002b059a73ca6c357abf089790be15801cb61",
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "duplicateAudit": {
+      "repository": "https://github.com/dajiaohuang/evo",
+      "checkedAt": "2026-09-28",
+      "methods": [
+        "Exact COL26.8 queue rows and all indexed dossier shards checked for existing dossier and source stable-ID duplicates.",
+        "Repository text and source files searched for each COL ID, scientific name, article title, and DOI.",
+        "Public GitHub issues and pull requests searched across all states for each COL ID, scientific name, and DOI."
+      ],
+      "matches": [],
+      "limitations": "This audit covers the selected repository and public issue/PR search results at the checked time; it is not a claim that no related research exists."
+    },
+    "candidates": [
+      {
+        "colId": "4CKZ5",
+        "queueShardPath": "data/knowledge/species-evidence-queue/0.jsonl.br",
+        "queueShardCompressedSha256": "3ebe2a3e456df3ea3ca9467dcf8ab6bb7e02220aeb6f0d827906a1cb3e491b66",
+        "queueShardDecodedSha256": "09216eb853eb35b0d13fb0367582f09841f4225f5f127c537854c997ef50cc36",
+        "queueRowSha256": "1170487e73bd40f08e0f6c7c9a48a640e23fe814e68357cba7300040f9cda286",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "6224G", "6226C", "LG", "3W7", "4DT", "4PM", "4X9", "7X9", "JB3", "L4C", "6DGR", "4CKZ5"]
+      },
+      {
+        "colId": "DTFQG",
+        "queueShardPath": "data/knowledge/species-evidence-queue/0.jsonl.br",
+        "queueShardCompressedSha256": "3ebe2a3e456df3ea3ca9467dcf8ab6bb7e02220aeb6f0d827906a1cb3e491b66",
+        "queueShardDecodedSha256": "09216eb853eb35b0d13fb0367582f09841f4225f5f127c537854c997ef50cc36",
+        "queueRowSha256": "0681d2fdfdc85978461352f1f424e08b5a575c785c02735033dc94fac229f833",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "V2", "46J", "62694", "638ZH", "DTFQG"]
+      },
+      {
+        "colId": "DZD4",
+        "queueShardPath": "data/knowledge/species-evidence-queue/7.jsonl.br",
+        "queueShardCompressedSha256": "2bcd48e1af6c4f41846da8703ce2ec0cf38b0cd55cbf51d05d6652176eb0c717",
+        "queueShardDecodedSha256": "82be22e9fafd95f5cfc3caa7b903c5e15b44a4b78845cf65de96a241c713de2e",
+        "queueRowSha256": "f8733b3605ebe32038d3844100b320961d491cc2cbe15f6ee8325a038c38b337",
+        "classificationPathIds": ["CS5HF", "P", "CMQ8S", "TP", "GV", "623CP", "624K6", "W5R", "DZD4"]
+      }
+    ]
+  },
+  "species": [
+    {
+      "target": {
+        "colId": "4CKZ5",
+        "scientificName": "Papio hamadryas (Linnaeus, 1758)",
+        "authorship": "(Linnaeus, 1758)",
+        "rank": "species",
+        "sourceDatasetId": "2144"
+      },
+      "audit": {
+        "queueShardPath": "data/knowledge/species-evidence-queue/0.jsonl.br",
+        "queueShardCompressedSha256": "3ebe2a3e456df3ea3ca9467dcf8ab6bb7e02220aeb6f0d827906a1cb3e491b66",
+        "queueShardDecodedSha256": "09216eb853eb35b0d13fb0367582f09841f4225f5f127c537854c997ef50cc36",
+        "queueRowSha256": "1170487e73bd40f08e0f6c7c9a48a640e23fe814e68357cba7300040f9cda286",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "6224G", "6226C", "LG", "3W7", "4DT", "4PM", "4X9", "7X9", "JB3", "L4C", "6DGR", "4CKZ5"]
+      },
+      "scope": "Evidence is limited to GPS-tracked free-ranging adult male troop representatives in southwestern Saudi Arabia from August 2022 to May 2023; it does not establish female or juvenile movement, causal habitat effects, or species-wide movement patterns.",
+      "lifeStatusScope": {
+        "wild": "The study captured and GPS-collared free-ranging adult males in Saudi Arabia and monitored their return to their troops.",
+        "domesticated": "Domesticated populations have not been assessed.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "mir2026papio",
+          "title": "Mir et al. (2026), Effects of urban association on the movement ecology of hamadryas baboons (Papio hamadryas) in Saudi Arabia",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0354133",
+          "stableId": "doi:10.1371/journal.pone.0354133",
+          "version": "PLOS ONE 21(7): e0354133; version of record published 2026-07-23",
+          "publishedAt": "2026-07-23",
+          "accessedAt": "2026-09-28",
+          "locator": "Methods, Data collection (publisher article lines 219-225); Results, Daily path lengths (lines 279-293); article-level copyright notice (line 173).",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), linked from the publisher article copyright notice.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original GPS movement study of adult male hamadryas baboons representing troops classified as natural, semi-natural, and urban in southwestern Saudi Arabia; claims are limited to the nine usable collars and observed study period.",
+          "rightsHolder": "Mir et al., as identified by the PLOS ONE article.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0354133",
+          "licenseEvidenceLocator": "The article-level copyright notice states the Creative Commons Attribution License and links to the canonical CC BY 4.0 URL.",
+          "licenseAppliesTo": "Published article text; this dossier paraphrases findings and does not reproduce figures or separately credited third-party material.",
+          "attribution": "Mir ZR, Pebsworth P, Hardman J, Ala'amri S, Alahmari A, Almalki K, Boug A. (2026). Effects of urban association on the movement ecology of hamadryas baboons (Papio hamadryas) in Saudi Arabia. PLOS ONE 21(7):e0354133. https://doi.org/10.1371/journal.pone.0354133. Findings paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {"status": "not-assessed"},
+        "lifeHistory": {"status": "not-assessed"},
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "In one GPS study in southwestern Saudi Arabia, minimum daily path lengths for nine successfully tracked adult-male troop representatives differed among natural, semi-natural, and urban categories (Kruskal-Wallis chi-squared = 235.91, df = 2, p < 0.0001; all pairwise comparisons p < 0.001). The result describes the study's collared males and does not establish a causal habitat effect or a species-wide movement pattern.",
+              "sourceIds": ["mir2026papio"],
+              "locator": "Methods, Data collection and Minimum daily path lengths; Results, Daily path lengths (publisher article lines 279-293), including the Kruskal-Wallis and Bonferroni-corrected pairwise tests.",
+              "placeTimeScope": "Ten adult males were collared across ten locations in five regions of southwestern Saudi Arabia in August 2022; one collar malfunctioned after six days and was excluded. The remaining nine collars recorded 13,962 GPS locations and operated for an average of 256 days through May 2023.",
+              "lifeStatus": "Free-ranging adult males captured, collared, and released with their troops; females, juveniles, captive populations, and fossils were not assessed.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The movement comparison represents nine adult males, with one collared male serving as the representative for each troop; it does not measure all troop members independently.",
+            "Habitat category was observational and group size was not included as a predictor, so the reported differences do not establish causal effects of urbanization.",
+            "Morphology, life history, other ecology, evolution, distribution, fossils, conservation, systematic search, and independent review remain unassessed."
+          ]
+        },
+        "evolution": {"status": "not-assessed"},
+        "distribution": {"status": "not-assessed"},
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completenessReasons": [
+        "One GPS movement study supports a narrow comparison among observed adult-male troop representatives, not species-wide movement or a causal habitat effect.",
+        "Females, juveniles, other regions and seasons, and independent populations were not covered by this evidence slice.",
+        "Most biological facets, systematic search, and external expert review remain unassessed."
+      ]
+    },
+    {
+      "target": {
+        "colId": "DTFQG",
+        "scientificName": "Leucocarbo bougainvilliorum (R. P. Lesson, 1837)",
+        "authorship": "(R. P. Lesson, 1837)",
+        "rank": "species",
+        "sourceDatasetId": "2144"
+      },
+      "audit": {
+        "queueShardPath": "data/knowledge/species-evidence-queue/0.jsonl.br",
+        "queueShardCompressedSha256": "3ebe2a3e456df3ea3ca9467dcf8ab6bb7e02220aeb6f0d827906a1cb3e491b66",
+        "queueShardDecodedSha256": "09216eb853eb35b0d13fb0367582f09841f4225f5f127c537854c997ef50cc36",
+        "queueRowSha256": "0681d2fdfdc85978461352f1f424e08b5a575c785c02735033dc94fac229f833",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "V2", "46J", "62694", "638ZH", "DTFQG"]
+      },
+      "scope": "The source supports a pellet-based diet observation from one wild colony on Grande Pescadores Island in Peru, sampled before and after the January 2022 Ventanilla oil spill; it does not establish a species-wide diet or a causal spill effect.",
+      "lifeStatusScope": {
+        "wild": "Food boluses were collected from a wild guanay cormorant colony on Grande Pescadores Island; individual birds were not tracked or identified.",
+        "domesticated": "Domesticated or captive populations have not been assessed.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "estrada2025guanay",
+          "title": "Estrada-Grossmann et al. (2025), Diet of the guanay cormorant Leucocarbo bougainvilliorum (Lesson, 1837) on Pescadores Island after the Ventanilla oil spill in January 2022",
+          "url": "https://www.scielo.org.pe/scielo.php?pid=S2708-70772025000100002&script=sci_arttext",
+          "stableId": "doi:10.21142/SS-0601-2025-e121",
+          "version": "South Sustainability 6(1):e121; publisher record lists publication on 2025-05-13, while SciELO lists ePub on 2025-06-30",
+          "publishedAt": "2025-05-13",
+          "accessedAt": "2026-09-28",
+          "locator": "SciELO Methods §§2.1-2.3 (lines 120-128); Results and Table 1 (lines 154-172); Discussion (lines 175-177); publisher article record for 2025-05-13 publication date and license; SciELO record for 2025-06-30 ePub date.",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated on the publisher article record.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original Spanish-language study of regurgitated food boluses collected at one wild colony before and after an oil spill; claims are limited to the sampled colony, collection periods, and values as reported.",
+          "rightsHolder": "Estrada-Grossmann, Zavalaga, and Diaz-Santibanez, as identified by the publisher record.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseEvidenceUrl": "https://revistas.cientifica.edu.pe/index.php/southsustainability/article/view/2089",
+          "licenseEvidenceLocator": "The publisher article record identifies CC BY 4.0 International as the article license.",
+          "licenseAppliesTo": "Published article text; this dossier translates and paraphrases findings and does not reproduce figures, tables, or separately credited material.",
+          "attribution": "Estrada-Grossmann H, Zavalaga C, Diaz-Santibanez I. (2025). Diet of the guanay cormorant Leucocarbo bougainvilliorum (Lesson, 1837) on Pescadores Island after the Ventanilla oil spill in January 2022. South Sustainability 6(1):e121. https://doi.org/10.21142/SS-0601-2025-e121. Findings translated and paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {"status": "not-assessed"},
+        "lifeHistory": {"status": "not-assessed"},
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "At the wild Grande Pescadores Island colony, the study's pre-spill (2018) and post-spill (2022) food-bolus analysis identified Peruvian anchoveta (Engraulis ringens) as the predominant prey in both periods. Table 1 reports numerical proportions of 99.736% before and 99.168% after the spill, and occurrence proportions of 98.165% and 99.881%, respectively. The post-spill denominator is inconsistent within the article: Methods and Results report 998 boluses, whereas Table 1 reports N = 837; the percentages are transcribed as printed and not recalculated. This comparison does not establish a causal oil-spill effect.",
+              "sourceIds": ["estrada2025guanay"],
+              "locator": "SciELO Methods §§2.3 and 2.6 (lines 126-138); Results (lines 154-159); Table 1 (lines 160-172); Discussion on limits (lines 175-177).",
+              "placeTimeScope": "Grande Pescadores Island, Peru (-11.775277 S, -77.264166 W), about 7 km offshore from the coast near Ancon. The pre-spill sample was collected in November 2018; post-spill collections occurred in 2022 between August and November, 7-11 months after the January 2022 spill.",
+              "lifeStatus": "Regurgitated food boluses collected at a wild breeding colony; individual birds and their age or sex were not identified.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "es"
+            }
+          ],
+          "gaps": [
+            "The post-spill sample total conflicts within the article: the Methods and Results state 998 boluses, while Table 1 states N = 837; Table 2 monthly counts also do not exactly reconcile with 998.",
+            "Only one pre-spill collection month and three post-spill collection months from one colony were compared, and no samples were collected immediately after the spill; the design does not establish causality.",
+            "Morphology, life history, broader ecology, evolution, distribution, fossils, conservation, systematic search, and independent review remain unassessed."
+          ]
+        },
+        "evolution": {"status": "not-assessed"},
+        "distribution": {"status": "not-assessed"},
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completenessReasons": [
+        "The source supports a colony-level diet observation from limited pre-spill and post-spill sampling periods, with an unresolved post-spill sample denominator.",
+        "The design is observational and does not establish an oil-spill cause or a general diet pattern across the species range.",
+        "Most biological facets, systematic search, and external expert review remain unassessed."
+      ]
+    },
+    {
+      "target": {
+        "colId": "DZD4",
+        "scientificName": "Angiopteris fokiensis Hieron.",
+        "authorship": "Hieron.",
+        "rank": "species",
+        "sourceDatasetId": "1140"
+      },
+      "audit": {
+        "queueShardPath": "data/knowledge/species-evidence-queue/7.jsonl.br",
+        "queueShardCompressedSha256": "2bcd48e1af6c4f41846da8703ce2ec0cf38b0cd55cbf51d05d6652176eb0c717",
+        "queueShardDecodedSha256": "82be22e9fafd95f5cfc3caa7b903c5e15b44a4b78845cf65de96a241c713de2e",
+        "queueRowSha256": "f8733b3605ebe32038d3844100b320961d491cc2cbe15f6ee8325a038c38b337",
+        "classificationPathIds": ["CS5HF", "P", "CMQ8S", "TP", "GV", "623CP", "624K6", "W5R", "DZD4"]
+      },
+      "scope": "The source supports a genetic-marker survey of ten sampled wild populations in Guangdong, China; results are limited to those sampled populations and do not establish nationwide or species-wide population structure.",
+      "lifeStatusScope": {
+        "wild": "The paper reports leaf samples from ten wild populations in Guangdong Province; precise collection dates were not reported in the audited methods.",
+        "domesticated": "Cultivated populations have not been assessed.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "zhou2025angiopteris",
+          "title": "Zhou et al. (2025), Unveiling the Genetic Diversity and Population Structure of the Endangered Fern Angiopteris fokiensis Through Genome Survey and Genomic SSR Markers",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12730431/",
+          "stableId": "doi:10.3390/biom15121649",
+          "version": "Biomolecules 15(12):1649; version of record published 2025-11-24",
+          "publishedAt": "2025-11-24",
+          "accessedAt": "2026-09-28",
+          "locator": "Methods §2.1 (PMC lines 157-159); Figure 1 caption (line 164); Results Figure 4 caption (line 263) and §3.6 (lines 270-272); item-level license notice (lines 133-134).",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), as stated in the article license notice.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original genomic SSR marker survey using young-leaf samples from ten wild populations in Guangdong, China; findings are limited to the sampled sites and marker set.",
+          "rightsHolder": "Zhou et al., as identified by the Biomolecules article.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12730431/",
+          "licenseEvidenceLocator": "PMC article license statement at lines 133-134 identifies CC BY 4.0 and links to the canonical license.",
+          "licenseAppliesTo": "Published article text; this dossier paraphrases findings and does not reproduce figures, tables, or separately credited third-party material.",
+          "attribution": "Zhou et al. (2025). Unveiling the Genetic Diversity and Population Structure of the Endangered Fern Angiopteris fokiensis Through Genome Survey and Genomic SSR Markers. Biomolecules 15(12):1649. https://doi.org/10.3390/biom15121649. Findings paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {"status": "not-assessed"},
+        "lifeHistory": {"status": "not-assessed"},
+        "ecology": {"status": "not-assessed"},
+        "evolution": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "A genomic SSR survey analyzed 96 young-leaf samples from ten wild Angiopteris fokiensis populations in Guangdong Province using 15 markers. In the reported Mantel test, genetic distance was not significantly associated with geographic distance (r = -0.1287, p = 0.4033). This is a result for the sampled populations and markers, not evidence that isolation by distance is absent throughout the species.",
+              "sourceIds": ["zhou2025angiopteris"],
+              "locator": "Methods §2.1 (PMC lines 157-159) for the 96 samples and ten populations; Figure 4 caption (line 263) for the 15-marker panel; Results §3.6 (lines 270-272) for the Mantel test.",
+              "placeTimeScope": "Ten wild populations in Guangdong Province, China; the paper does not report the field sampling dates. The Mantel result applies to the sampled populations and marker panel only.",
+              "lifeStatus": "Young leaves sampled from wild populations; cultivated plants, other regions, and fossils were not assessed.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The survey covers ten populations in one Chinese province and does not establish genetic structure throughout the species range.",
+            "The Mantel test did not detect a significant association in this sample; this is not proof of no geographic genetic structure, particularly given the authors' discussion of statistical power.",
+            "Morphology, life history, ecology, distribution, fossils, conservation, systematic search, and independent review remain unassessed."
+          ]
+        },
+        "distribution": {"status": "not-assessed"},
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completenessReasons": [
+        "The population-genetic result is limited to 96 samples from ten Guangdong populations and one 15-marker panel.",
+        "Field sampling dates are not specified, and the Mantel test result does not prove absence of isolation by distance across the species.",
+        "Most biological facets, systematic search, and external expert review remain unassessed."
+      ]
+    }
+  ]
+}
