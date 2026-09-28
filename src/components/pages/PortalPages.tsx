@@ -107,7 +107,15 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
       </section>
 
       <section className="portal-section">
-        <div className="portal-section__heading"><span>03</span><div><small>{t('Research presets')}</small><h2>{t('Open a source-bound evidence inspection route')}</h2></div></div>
+        <div className="portal-section__heading"><span>03</span><div><small>{language === 'zh' ? '精选物种页' : 'Featured species pages'}</small><h2>{language === 'zh' ? '阅读灵长类' : 'Read the primates'}</h2></div></div>
+        <div className="portal-card-grid portal-card-grid--catalog">
+          <a href={isPagesPreview ? (isNativeCore ? '#/taxa?id=callithrix_jacchus' : staticCatalogBase + 'taxa/callithrix_jacchus/') : '#/taxa?id=callithrix_jacchus'}><small>{language === 'zh' ? '物种介绍' : 'Species introduction'}</small><h3>{language === 'zh' ? '普通狨' : 'Common marmoset'}</h3><p>{language === 'zh' ? '阅读形态、分布与研究案例，并查看各结论的来源范围。' : 'Read the morphology, range and research cases with their source scopes.'}</p><i>→</i></a>
+          <a href={isPagesPreview ? (isNativeCore ? '#/taxa?id=pan_troglodytes' : staticCatalogBase + 'taxa/pan_troglodytes/') : '#/taxa?id=pan_troglodytes'}><small>{language === 'zh' ? '物种介绍' : 'Species introduction'}</small><h3>{language === 'zh' ? '黑猩猩' : 'Chimpanzee'}</h3><p>{language === 'zh' ? '从栖地、工具使用、生活史和保育模型认识现有证据。' : 'Explore evidence on habitat, tool use, life history and conservation models.'}</p><i>→</i></a>
+        </div>
+      </section>
+
+      <section className="portal-section">
+        <div className="portal-section__heading"><span>04</span><div><small>{t('Research presets')}</small><h2>{t('Open a source-bound evidence inspection route')}</h2></div></div>
         <p className="research-preset-boundary">{t('These presets open the claims and occurrence context published by each package. They are not package-specific phylogenies or complete histories of the groups.')}</p>
         {researchPresetError
           ? <p className="research-preset-state" role="alert">{t('Research presets are temporarily unavailable.')}</p>
