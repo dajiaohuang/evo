@@ -240,4 +240,6 @@ export const primatesZhKeys = new Set<string>([
   "The selected genomic study does not establish a species-wide habitat profile.",
   "A whole-genome study of 28 ancient southern African individuals dated 10,200–150 calibrated years before present found that samples older than 1,400 years fell outside the genetic-variation range of the study’s modern human comparison panel and carried many variants classified by the authors as Homo sapiens-specific. This is a sample-bounded population-genomic result, not a species-wide evolutionary history.",
   "evolution",
+  "At Ilsenhöhle in Ranis, collagen isotopes from 10 human remains, interpreted with 52 animal remains, indicated a large-terrestrial-mammal diet in a cold steppe–tundra setting. This single cave sample does not describe Homo sapiens generally.",
+  "One-year monitoring of an 11-km NH-7 segment near Pench recorded 54 rhesus macaque road deaths in 2009–2010 (27 summer, 19 winter, 8 monsoon). Local associations with traffic and roadside feeding do not establish population mortality or current/global conservation status.",
 ])
