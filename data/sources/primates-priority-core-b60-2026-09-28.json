@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-priority-core-b60-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "preparedAgainst": {
+    "head": "b26cc2f5f454fb07124654a96a49c29679d0b842",
+    "openPullRequestsMatching": [],
+    "checkedAt": "2026-09-28"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "audit": {
+    "dossierIndexPath": "data/knowledge/catalogue-dossier-shards.json",
+    "dossierIndexRecordCount": 36354,
+    "dossierIndexSha256": "5805f6ef51da16b39951e3e1076565de5422d150b46f028206989c93b04b28f2",
+    "queueManifestPath": "data/knowledge/species-evidence-queue/manifest.json",
+    "queueManifestSha256": "dbb5ccb2c706b1df4447a6341c325c26a19ecf133c3504c700a30b957d314e96",
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "targets": {
+      "4LTT2": {
+        "targetRecordSha256": "5c8054ae6ba94c30931be55abb45739c28acb71ae1d24d7597b7b5404557173e",
+        "rawPath": "data/knowledge/raw-dossiers/primates-core-batch5-2026-09-24.jsonl",
+        "rawSha256": "dab349a3ecf463d170d29c6f763cb80fbba8f745a69b3e8179ae730ef0925ae3",
+        "shardPath": "data/knowledge/catalogue-dossiers-primates-core-batch5-2026-09-24.jsonl.br",
+        "shardCompressedSha256": "2492ff2d4545505f6fb4a20657f2e125be814d11d527184adfbfe0cecb43ca27",
+        "batchManifestPath": "data/knowledge/catalogue-dossiers-primates-core-batch5-2026-09-24.batch-manifest.json",
+        "batchManifestSha256": "fed656550e4ad4eda1f0201d0f7d680a3bd1a9577b92dfba0565ee24b34467d7",
+        "existingSourceStableIdOccurrences": [],
+        "queue": {
+          "prefix": "a",
+          "path": "data/knowledge/species-evidence-queue/a.jsonl.br",
+          "compressedSha256": "707b8a1e86ea780632b482dc6907dd9662f75a725942dc30074a6897dd33c013",
+          "decodedSha256": "9932dc46b98d59d51185b5472aca1dac2a8e5e2c3b3f82292e8694eaf38d9b6a",
+          "rowSha256": "8040c97544c82149fc7e73527fc8637b263aca0ce9e9ed633e060cb195fbaba4"
+        }
+      },
+      "3H3C3": {
+        "targetRecordSha256": "0124c8f0c601ea72b5583dab65d3dfd149b442e07150b8c79b092e963f33c240",
+        "rawPath": "data/knowledge/raw-dossiers/primates-gorilla-beringei-batch12-2026-09-24.jsonl",
+        "rawSha256": "aa0475351df640c7c0a5ca6a5ac5948bea5d7f0f2e3fb87cef31d484f6cc5e1a",
+        "shardPath": "data/knowledge/catalogue-dossiers-primates-gorilla-beringei-batch12-2026-09-24.jsonl.br",
+        "shardCompressedSha256": "5abd9b1d32590a83a8399905d8b6ffc9adb1efc0f62bdacb8a2c4fe426e5362e",
+        "batchManifestPath": "data/knowledge/catalogue-dossiers-primates-gorilla-beringei-batch12-2026-09-24.batch-manifest.json",
+        "batchManifestSha256": "6e41680cfce9624b7584c982c6602b350553a9a3fb5ad83a0d3214e375f41ff7",
+        "existingSourceStableIdOccurrences": ["3H3C9"],
+        "queue": {
+          "prefix": "9",
+          "path": "data/knowledge/species-evidence-queue/9.jsonl.br",
+          "compressedSha256": "eedd8c525e38cbacdc98467374d3a8fb5f7295ef333072f79482a9e66d1e0394",
+          "decodedSha256": "34b97a40d3fc7613f2d06649fb49a92b672b4ba6a4d0e115d861ae8b3a05da81",
+          "rowSha256": "5e7b6015cff571e321cb2a277d961a6c9ec39c10891413254888963721b30308"
+        }
+      }
+    }
+  },
+  "updates": [
+    {
+      "target": {
+        "colId": "4LTT2",
+        "scientificName": "Pongo pygmaeus (Linnaeus, 1760)",
+        "authorship": "(Linnaeus, 1760)",
+        "rank": "species",
+        "sourceDatasetId": "2144"
+      },
+      "facet": "distribution",
+      "source": {
+        "id": "ampeng2021usunapau",
+        "title": "Ampeng et al. (2021), First Bornean orangutan sighting in Usun Apau National Park, Sarawak",
+        "url": "https://doi.org/10.3897/BDJ.9.e60753",
+        "stableId": "doi:10.3897/BDJ.9.e60753",
+        "version": "Biodiversity Data Journal 9:e60753; version of record published 2021-01-22",
+        "publishedAt": "2021-01-22",
+        "accessedAt": "2026-09-28",
+        "locator": "Abstract; Short communication, field survey results; Discussion of the published Sarawak range and unresolved subspecies assignment.",
+        "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), explicitly stated in the article copyright and license notice.",
+        "licenseAssessment": "item-level-verified",
+        "rightsHolder": "Ampeng et al. (2021)",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAppliesTo": "Article text used for paraphrased claims; separately credited third-party material is excluded and no figures are reused.",
+        "scope": "A wildlife survey record from Usun Apau National Park, Sarawak, Malaysia, during surveys conducted October 2017–October 2020. The article describes one 2020 sighting and associated local observations; it is not a range-wide survey or evidence of an established population.",
+        "attribution": "Ampeng A, Liam J, Simpson B, Traelholt C, Md Nor S, Abdan-Saleman MSB, Osman S, Zakaria SA, Md-Zain BM (2021). First Bornean orangutan sighting in Usun Apau National Park, Sarawak. Biodiversity Data Journal 9:e60753. https://doi.org/10.3897/BDJ.9.e60753. Claims paraphrased; no figures reused."
+      },
+      "claim": {
+        "text": "Across 12 wildlife surveys conducted from October 2017 to October 2020, the authors reported one approximately one-minute observation of Pongo pygmaeus near Libut Camp, Usun Apau National Park, on 17 September 2020 at about 1,020 m elevation; they also reported four nearby nests (three new and one old) and two vocalizations. Relative to the distribution maps cited by the authors, they treated this as a locality record outside the published Sarawak range at that time. This single survey record does not establish a resident population or confirm a range expansion, and the observed individual was not assigned to a subspecies.",
+        "textZh": "在 2017 年 10 月至 2020 年 10 月开展的 12 次野外调查中，作者报告于 2020 年 9 月 17 日在砂捞越乌孙阿包国家公园 Libut Camp 附近、海拔约 1,020 米处观察到一只猩猩，持续约一分钟；他们还报告了附近 4 个巢（3 个新巢、1 个旧巢）及两次叫声。依据作者引用的分布图，该地点被作为当时已发表砂捞越分布范围以外的记录。单次调查记录不能证明当地存在稳定种群或确认分布范围扩张，观察到的个体也未被鉴定到亚种。",
+        "sourceIds": ["ampeng2021usunapau"],
+        "locator": "Abstract; Methods and results, 12 field surveys and the 17 September 2020 Libut Camp observation; Discussion, comparison with the then-published Sarawak range and subspecies uncertainty.",
+        "placeTimeScope": "Usun Apau National Park, Sarawak, Malaysian Borneo. Surveys ran October 2017–October 2020; the single reported sighting was on 17 September 2020 near Libut Camp at approximately 1,020 m. The cited range comparison reflects maps available to the authors in 2021.",
+        "lifeStatus": "Reported as a wild orangutan sighting during wildlife surveys. No captive or domesticated evidence is used; the observed individual's subspecies was unresolved.",
+        "translationStatus": "translated",
+        "originalLanguage": "en"
+      },
+      "gaps": [
+        "Evidence is a single locality record from one survey period; it does not establish current occupancy, a resident or breeding population, abundance, or a verified range expansion.",
+        "The authors could not assign the individual to P. p. pygmaeus or P. p. morio, and additional aerial and thermal surveys did not confirm other nests or orangutans; a complete current range remains unassessed."
+      ],
+      "identityScope": "COL26.8 accepted usage 4LTT2 only. The added locality observation is assigned only to the accepted species Pongo pygmaeus; it is not assigned to a COL subspecies and does not reassess the catalogue taxonomy.",
+      "wildScope": "The dossier combines local evidence from Danau Sentarum, historically reintroduced orangutans at Camp Leakey, a wild P. p. wurmbii population at Gunung Palung, and one 2020 wild sighting at Usun Apau. Each population, locality, and human-intervention history remains separately scoped.",
+      "completenessReasons": [
+        "The evidence includes local nest-survey ecology, one historically reintroduced population's mitochondrial lineage history, male-morph and paternity observations from one wild Bornean population, and one survey-period locality record; none is a species-wide synthesis.",
+        "Morphology, life history, ecology, and evolution remain partial; distribution is now locally supported but incomplete; fossil evidence and formal conservation assessment remain unassessed. No systematic seven-facet literature search or independent external expert review has been completed."
+      ]
+    },
+    {
+      "target": {
+        "colId": "3H3C3",
+        "scientificName": "Gorilla beringei Matschie, 1903",
+        "authorship": "Matschie, 1903",
+        "rank": "species",
+        "sourceDatasetId": "2144"
+      },
+      "facet": "lifeHistory",
+      "source": {
+        "id": "robbins2023gorillalifehistory",
+        "title": "Robbins et al. (2023), Comparative life history patterns of female gorillas",
+        "url": "https://doi.org/10.1002/ajpa.24792",
+        "stableId": "doi:10.1002/ajpa.24792",
+        "version": "American Journal of Biological Anthropology 181(4):564–574; publisher version first published 2023-06-21",
+        "publishedAt": "2023-06-21",
+        "accessedAt": "2026-09-28",
+        "locator": "Methods §2.1, Bwindi and Virunga study records; Results §3, age of first parturition, paragraph 1; Discussion §4.1.",
+        "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), verified for the publisher version from the article rights notice and publisher-version record.",
+        "licenseAssessment": "item-level-verified",
+        "rightsEvidenceUrl": "https://pure.mpg.de/pubman/item/item_3517901_4",
+        "rightsEvidenceLocator": "Max Planck PuRe item record identifies the publisher version and lists the CC BY 4.0 license; the article PDF states open access under the Creative Commons Attribution License.",
+        "rightsHolder": "Robbins et al. (2023)",
+        "licenseVersion": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseAppliesTo": "Article text paraphrased for this claim. No figures, tables, or supplementary material are reproduced.",
+        "scope": "The comparative article reports female life-history data from one western lowland gorilla population and two mountain gorilla populations. This dossier claim concerns first-parturition estimates for habituated, free-ranging G. b. beringei females at Virunga and Bwindi only; it does not represent all Gorilla beringei populations.",
+        "attribution": "Robbins MM, Akantorana M, Arinaitwe J, Breuer T, Manguette M, McFarlin S, Meder A, Parnell R, Richardson JL, Stephan C, Stokes EJ, Stoinski TS, Vecellio V, Robbins AM (2023). Comparative life history patterns of female gorillas. American Journal of Biological Anthropology 181(4):564–574. https://doi.org/10.1002/ajpa.24792. CC BY 4.0. Claim paraphrased; no figures, tables, or supplementary data reproduced."
+      },
+      "claim": {
+        "text": "Among female mountain gorillas identified as Gorilla beringei beringei, mean age at first parturition was 10.1 ± 1.7 years (n = 56) in the Virungas and 10.5 ± 1.3 years (n = 10) in Bwindi; the pairwise comparison was not statistically significant (p = 0.55). This result does not demonstrate equivalence between the two populations and does not cover Grauer's gorilla or every G. beringei population.",
+        "textZh": "在被鉴定为山地大猩猩 Gorilla beringei beringei 的雌性样本中，Virunga 的初次产仔平均年龄为 10.1 ± 1.7 岁（n = 56），Bwindi 为 10.5 ± 1.3 岁（n = 10）；两地的配对比较未达到统计显著（p = 0.55）。该结果不能证明两个种群等同，也不涵盖格劳尔大猩猩或 G. beringei 的所有种群。",
+        "sourceIds": ["robbins2023gorillalifehistory"],
+        "locator": "Results §3, first-parturition paragraph (Virunga and Bwindi means, sample sizes, and pairwise p value); Methods §2.1 for study sites and habituated population records.",
+        "placeTimeScope": "Virunga Massif/Volcanoes National Park, Rwanda (demographic records September 1967–December 2017; first-parturition subset n = 56) and Bwindi Impenetrable National Park, Uganda (records April 1993–May 2020; subset n = 10). Article published in 2023.",
+        "lifeStatus": "Free-ranging, habituated mountain gorillas observed in wild populations. No captive animals are included in this claim; the study samples only G. b. beringei at these two sites.",
+        "translationStatus": "translated",
+        "originalLanguage": "en"
+      },
+      "gaps": [
+        "The first-parturition comparison covers two habituated mountain-gorilla populations and small, unequal first-birth samples; p = 0.55 is not evidence of population equivalence.",
+        "This result does not characterize Grauer's gorilla, other Gorilla beringei populations, or the species-wide ranges of reproduction, development, lifespan, and survival."
+      ],
+      "identityScope": "COL26.8 accepted usage 3H3C3 only. The claim concerns the G. b. beringei populations named in the cited article and does not reassess COL taxonomy or transfer results to G. b. graueri.",
+      "wildScope": "Existing dossier evidence covers wild Grauer's gorilla and habituated mountain-gorilla populations; this life-history claim is limited to free-ranging G. b. beringei females at Bwindi and Virunga, with the study's date ranges and sample sizes retained.",
+      "completenessReasons": [
+        "The dossier draws on a bounded mitochondrial-genome study, two mountain-gorilla behavioral field sites, and one comparative life-history study; these data do not form a species-wide synthesis.",
+        "Life history is now partially supported for two G. b. beringei populations. Morphology and fossil evidence remain unassessed; ecology, evolution, distribution, and conservation are locally or study-limited partial facets. No systematic seven-facet literature search or independent external expert review has been completed."
+      ]
+    }
+  ]
+}

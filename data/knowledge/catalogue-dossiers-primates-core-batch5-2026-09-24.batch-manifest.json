@@ -59,17 +59,17 @@
     "path": "data/knowledge/raw-dossiers/primates-core-batch5-2026-09-24.jsonl",
     "encoding": "utf-8-jsonl-lf",
     "recordCount": 2,
-    "bytes": 28198,
-    "sha256": "a9292b721afa4cb96227ded03c54f2890943de59d559e7da02ac29bb383b84df"
+    "bytes": 36526,
+    "sha256": "0c8ccf04cf3d71777a4cd95fe644e60a7d1fd3025fec26e1bb692987c66d9114"
   },
   "shard": {
     "path": "data/knowledge/catalogue-dossiers-primates-core-batch5-2026-09-24.jsonl.br",
     "encoding": "brotli-jsonl",
     "recordCount": 2,
-    "decodedBytes": 28198,
-    "decodedSha256": "a9292b721afa4cb96227ded03c54f2890943de59d559e7da02ac29bb383b84df",
-    "compressedBytes": 6363,
-    "compressedSha256": "89770a25eea6522c8eecea5c39428d66f2c37ef95298a72baaff6b2db45bb6ed",
+    "decodedBytes": 36526,
+    "decodedSha256": "0c8ccf04cf3d71777a4cd95fe644e60a7d1fd3025fec26e1bb692987c66d9114",
+    "compressedBytes": 8507,
+    "compressedSha256": "d195635986107aabcd2c7a003adb2a5e66edc2bffaab40cedb9ae4a0111dba16",
     "brotliParameters": {
       "mode": "text",
       "quality": 11
@@ -83,5 +83,30 @@
     "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
   },
   "generator": "scripts/update-pongo-pygmaeus-evolution.mjs",
-  "updateMode": "rebuild-one-existing-record-in-place"
+  "updateMode": "rebuild-one-existing-record-in-place",
+  "supplementalUpdates": [
+    {
+      "batchId": "primates-priority-core-b60-2026-09-28",
+      "sourcePath": "data/sources/primates-priority-core-b60-2026-09-28.json",
+      "sourceSha256": "0be3f516719d4a939af33df0020ec558483dd33ccc5d27a4ebd631e93edbc027",
+      "generator": "scripts/update-primate-priority-core-b60.mjs",
+      "targetColIds": [
+        "4LTT2"
+      ],
+      "sourceIds": [
+        "ampeng2021usunapau"
+      ],
+      "facets": [
+        "distribution"
+      ],
+      "previousRawSha256": "dab349a3ecf463d170d29c6f763cb80fbba8f745a69b3e8179ae730ef0925ae3",
+      "previousCompressedSha256": "2492ff2d4545505f6fb4a20657f2e125be814d11d527184adfbfe0cecb43ca27",
+      "rawSha256": "0c8ccf04cf3d71777a4cd95fe644e60a7d1fd3025fec26e1bb692987c66d9114",
+      "compressedSha256": "d195635986107aabcd2c7a003adb2a5e66edc2bffaab40cedb9ae4a0111dba16",
+      "dossierIndexSha256": "5d3d75cafe813bc6d7552e8d9e848305c14bc14530220931d6b1e1f3b1ce058a",
+      "appAndPagesPreviewManifestChanged": false,
+      "fullEvidenceQueueIncludedInRuntime": false
+    }
+  ],
+  "finalDossierIndexSha256": "5d3d75cafe813bc6d7552e8d9e848305c14bc14530220931d6b1e1f3b1ce058a"
 }
