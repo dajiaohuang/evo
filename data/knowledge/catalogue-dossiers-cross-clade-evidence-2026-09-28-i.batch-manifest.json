@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "batchId": "cross-clade-evidence-batch-2026-09-28-i",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "baseHead": "e449200045978820c88f718c46fd2ebc11283bc3",
+  "input": {
+    "path": "data/sources/cross-clade-evidence-batch-2026-09-28-i.json",
+    "sha256": "6da26881fe793966db23801e126c5412869697efe689c9e5df989cdcb6d688e2"
+  },
+  "duplicateAudit": {
+    "repository": "https://github.com/dajiaohuang/evo",
+    "checkedAt": "2026-09-28",
+    "methods": [
+      "Verified the exact accepted COL26.8 usage and pinned accepted parent chain for COL ID 9M4BT.",
+      "Checked all 89 indexed dossier shards for COL ID, normalized scientific-name, and source DOI duplicates.",
+      "Searched repository source/data records and public GitHub issues and pull requests across all states for Physcomitrium patens, COL ID 9M4BT, and DOI 10.3389/fpls.2020.00643."
+    ],
+    "matches": [],
+    "limitations": "This audit covers the pinned COL26.8 registry, selected repository records, and public issue/PR search results at the checked time; it is not a claim that no other relevant research exists."
+  },
+  "identities": [
+    {
+      "colId": "9M4BT",
+      "scientificName": "Physcomitrium patens (Hedw.) Mitt.",
+      "sourceDatasetId": "170394",
+      "classificationPathIds": [
+        "CS5HF",
+        "P",
+        "9THX2",
+        "BJ5TM",
+        "CHTRW",
+        "9JHXV",
+        "L23DB",
+        "9JG2X",
+        "9JM69",
+        "9M4BT"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "subkingdom",
+        "phylum",
+        "class",
+        "subclass",
+        "order",
+        "family",
+        "genus",
+        "species"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "colId": "9M4BT",
+      "sources": [
+        {
+          "stableId": "doi:10.3389/fpls.2020.00643",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "dossiersAdded": 1,
+    "partialFacets": {
+      "morphology": [
+        "9M4BT"
+      ],
+      "lifeHistory": [],
+      "ecology": [],
+      "evolution": [],
+      "distribution": [],
+      "fossil": [],
+      "conservation": []
+    },
+    "notAssessedFacets": [
+      {
+        "colId": "9M4BT",
+        "facets": [
+          "lifeHistory",
+          "ecology",
+          "evolution",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      }
+    ],
+    "completeDossiersAdded": 0,
+    "externallyReviewedDossiersAdded": 0
+  },
+  "queueAudit": {
+    "queueManifestSha256Before": "bfea0020fab59d190f1ad6862e9ec03ed5e30bf283f29c7642e18ee543d2588f",
+    "rowsBefore": [
+      {
+        "colId": "9M4BT",
+        "shardPath": "data/knowledge/species-evidence-queue/4.jsonl.br",
+        "rowSha256": "cab8c83d5592fce2fa290f92c8c2b6c701d70a80f89453fb65cc8934098f28c2",
+        "status": "missing"
+      }
+    ]
+  },
+  "appAndPagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+  "appAndPagesPreviewManifestChanged": false,
+  "baseDossierIndexSha256": "3f4f5ba2fea27ee01922d49db2fec57b57d049e15d135297545def7358fff2f9",
+  "finalDossierIndexSha256": "0a1585330dcb597df1872488a0f3b3eb0de092651cfdfdaac47085961386d402",
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/cross-clade-evidence-batch-2026-09-28-i.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 1,
+    "bytes": 7762,
+    "sha256": "306d1f2ac12a98763d6940089ba641bc6158e29439362f4e85adeeabb375de06"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-cross-clade-evidence-2026-09-28-i.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 7762,
+    "decodedSha256": "306d1f2ac12a98763d6940089ba641bc6158e29439362f4e85adeeabb375de06",
+    "compressedBytes": 2228,
+    "compressedSha256": "28c34f68dccfac86c3bbc9903e687307922350a1f1cb2110a97d051117d01510",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "dossierCountBefore": 36353,
+  "dossierCountAfter": 36354,
+  "generator": "scripts/build-cross-clade-evidence-batch-2026-09-28-i.mjs",
+  "fullDossierCountAdded": 0,
+  "expertReviewedDossierCountAdded": 0
+}
