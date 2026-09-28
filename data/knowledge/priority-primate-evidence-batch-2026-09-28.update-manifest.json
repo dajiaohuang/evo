@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "batchId": "priority-primate-evidence-batch-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "input": {
+    "path": "data/sources/priority-primate-evidence-batch-2026-09-28.json",
+    "sha256": "869d4093dc17a2600cc31240ede06fd50fb86135bbac94f0cb277c35b1d207d2"
+  },
+  "baseHead": "be5c092abe7d73ecdc36f7b609f9e4bd076d36da",
+  "duplicateAudit": {
+    "checkedAt": "2026-09-28",
+    "repository": "Evo raw dossiers, sources, references, claims and active pull requests/issues searched by DOI, title and taxon.",
+    "matchingExistingBiologicalSourceCount": 0,
+    "matchingOpenPullRequestCount": 0,
+    "matchingOpenIssueCount": 0,
+    "notes": "The two primary sources were absent from the target dossiers. No matching active PR or issue was found for either proposed slice."
+  },
+  "targets": [
+    {
+      "colIds": [
+        "6MB3T"
+      ],
+      "rawPath": "data/knowledge/raw-dossiers/primates-homo-sapiens-south-african-genomes-2026-09-24.jsonl",
+      "shardPath": "data/knowledge/catalogue-dossiers-primates-homo-sapiens-south-african-genomes-2026-09-24.jsonl.br",
+      "baseline": {
+        "rawSha256": "fae59b0ef6a30214d2cf9ee920c5faa83ca71997c69cdfeeff230be23e9f37bf",
+        "decodedSha256": "fae59b0ef6a30214d2cf9ee920c5faa83ca71997c69cdfeeff230be23e9f37bf",
+        "compressedSha256": "fbb9e8b254b7c215c91226e1e2d00984e2c2dec7d7dab0be25b3ead9db766d8c"
+      },
+      "output": {
+        "rawSha256": "fae59b0ef6a30214d2cf9ee920c5faa83ca71997c69cdfeeff230be23e9f37bf",
+        "decodedSha256": "fae59b0ef6a30214d2cf9ee920c5faa83ca71997c69cdfeeff230be23e9f37bf",
+        "compressedSha256": "fbb9e8b254b7c215c91226e1e2d00984e2c2dec7d7dab0be25b3ead9db766d8c",
+        "bytes": 15717,
+        "compressedBytes": 4517,
+        "recordCount": 1
+      },
+      "mode": "in-place-enrichment-of-existing-primate-dossier"
+    },
+    {
+      "colIds": [
+        "3WWNQ"
+      ],
+      "rawPath": "data/knowledge/raw-dossiers/primates-dossiers-batch-3.jsonl",
+      "shardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+      "baseline": {
+        "rawSha256": "feed7df774871250f1dfaf34477369a181ae1ca33ce19c3c2e69a8970f94abf0",
+        "decodedSha256": "feed7df774871250f1dfaf34477369a181ae1ca33ce19c3c2e69a8970f94abf0",
+        "compressedSha256": "008727440c5c440b1d3333e9358638fa0dc8a2b3e94a0a06662c2977fc916f5a"
+      },
+      "output": {
+        "rawSha256": "feed7df774871250f1dfaf34477369a181ae1ca33ce19c3c2e69a8970f94abf0",
+        "decodedSha256": "feed7df774871250f1dfaf34477369a181ae1ca33ce19c3c2e69a8970f94abf0",
+        "compressedSha256": "008727440c5c440b1d3333e9358638fa0dc8a2b3e94a0a06662c2977fc916f5a",
+        "bytes": 67515,
+        "compressedBytes": 15344,
+        "recordCount": 3
+      },
+      "mode": "in-place-enrichment-of-existing-primate-dossier"
+    }
+  ],
+  "sharedSelector": {
+    "path": "data/pages-preview.json",
+    "sha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "selectedTaxonIds": [
+      "homo_sapiens",
+      "macaca_mulatta"
+    ],
+    "changed": false
+  },
+  "runtime": {
+    "fullSpeciesEvidenceQueueIncluded": false,
+    "selectionSharedByAppAndPages": true
+  },
+  "queueProjection": {
+    "manifestSha256": "ca5ca12b90ecfdbb614b19915a7811afdadac0106e04cc2d05de961c4fe4bc8d",
+    "dossierIndexSha256": "671feb22ea6c6824b98830a9e445962985f4ff24cc429da14c9eb40a240802ea",
+    "notIncludedInRuntime": true,
+    "shardCount": 16,
+    "acceptedSpeciesCount": 2183133
+  }
+}

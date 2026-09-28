@@ -4,17 +4,17 @@
   "releaseAlias": "COL26.8",
   "input": {
     "path": "data/knowledge/raw-dossiers/primates-homo-sapiens-south-african-genomes-2026-09-24.jsonl",
-    "bytes": 12599,
-    "sha256": "d1cf496fd40640e507fdeb4a4f06d71b09b5ae6409800e60284502ed8f507db1"
+    "bytes": 15717,
+    "sha256": "fae59b0ef6a30214d2cf9ee920c5faa83ca71997c69cdfeeff230be23e9f37bf"
   },
   "shard": {
     "path": "data/knowledge/catalogue-dossiers-primates-homo-sapiens-south-african-genomes-2026-09-24.jsonl.br",
     "encoding": "brotli-jsonl",
     "recordCount": 1,
-    "decodedBytes": 12599,
-    "decodedSha256": "d1cf496fd40640e507fdeb4a4f06d71b09b5ae6409800e60284502ed8f507db1",
-    "compressedBytes": 3654,
-    "compressedSha256": "39d5bc83af1e1a22a17ff52f328596a27b8412af65ee4998af38e207fcbd8b38",
+    "decodedBytes": 15717,
+    "decodedSha256": "fae59b0ef6a30214d2cf9ee920c5faa83ca71997c69cdfeeff230be23e9f37bf",
+    "compressedBytes": 4517,
+    "compressedSha256": "fbb9e8b254b7c215c91226e1e2d00984e2c2dec7d7dab0be25b3ead9db766d8c",
     "brotliParameters": {
       "mode": "text",
       "quality": 11
@@ -23,11 +23,15 @@
   },
   "generator": "scripts/build-primates-homo-sapiens-south-african-genomes-batch.mjs",
   "lastIncrementalUpdate": {
-    "batchId": "homo-sapiens-tam-pa-ling-fossil-evidence-2026-09-28",
-    "sourceStableId": "doi:10.1038/s41467-023-38715-y",
-    "targetColId": "6MB3T",
-    "targetRecordSha256": "3f49418cc1cd0f8c241415ee70b51f80eacb54aa8fc058069a34841f87e049bc",
+    "batchId": "priority-primate-evidence-batch-2026-09-28",
+    "sourceStableIds": [
+      "doi:10.1038/s41559-023-02303-6"
+    ],
+    "targetColIds": [
+      "6MB3T"
+    ],
+    "targetRecordSha256": "c1490d4145a8be2cbe241b3786e2e3a3594a3e6b25e1f963a5f4ea8fdb33b980",
     "appAndPagesPreviewManifestChanged": false,
-    "rawNormalization": "The baseline JSONL had an extra trailing blank line; normalize it to one terminal LF while preserving the record."
+    "mode": "in-place-add-site-limited-priority-primate-ecology-evidence"
   }
 }

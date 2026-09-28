@@ -1653,13 +1653,13 @@
         "contentOrigin": "editorial-synthesis"
       },
       "evidenceSummary": {
-        "claimId": "claim:taxon:macaca_mulatta:taxonomy",
-        "claimType": "taxonomy",
+        "claimId": "claim:taxon:macaca_mulatta:nh7-road-mortality",
+        "claimType": "ecology",
         "relation": "supports",
         "sourceLocators": [
           {
-            "referenceId": "col-2026-checklistbank-316115",
-            "locator": "Accepted species usage 3WWNQ; immediate parent usage 5HYC Macaca; accepted parent chain through Primates usage 3W7"
+            "referenceId": "pragatheesh-2011-nh7-rhesus-road-mortality",
+            "locator": "Abstract; Methods, Roadkill data collection; Results, Roadkills"
           }
         ],
         "confidence": "medium",
@@ -1681,13 +1681,13 @@
         "contentOrigin": "editorial-synthesis"
       },
       "ecology.diet": {
-        "claimId": "claim:taxon:macaca_mulatta:ecology",
+        "claimId": "claim:taxon:macaca_mulatta:nh7-road-mortality",
         "claimType": "ecology",
         "relation": "supports",
         "sourceLocators": [
           {
-            "referenceId": "sengupta-2015-buxa-provisioning-rhesus",
-            "locator": "Methods, Study Area and Study Troop; Results, Fruit availability, degree of provisioning and degree of frugivory; Sites of seed deposition; Table 3"
+            "referenceId": "pragatheesh-2011-nh7-rhesus-road-mortality",
+            "locator": "Abstract; Methods, Roadkill data collection; Results, Roadkills"
           }
         ],
         "confidence": "medium",
@@ -1695,13 +1695,13 @@
         "contentOrigin": "editorial-synthesis"
       },
       "ecology.habitat": {
-        "claimId": "claim:taxon:macaca_mulatta:ecology",
+        "claimId": "claim:taxon:macaca_mulatta:nh7-road-mortality",
         "claimType": "ecology",
         "relation": "supports",
         "sourceLocators": [
           {
-            "referenceId": "sengupta-2015-buxa-provisioning-rhesus",
-            "locator": "Methods, Study Area and Study Troop; Results, Fruit availability, degree of provisioning and degree of frugivory; Sites of seed deposition; Table 3"
+            "referenceId": "pragatheesh-2011-nh7-rhesus-road-mortality",
+            "locator": "Abstract; Methods, Roadkill data collection; Results, Roadkills"
           }
         ],
         "confidence": "medium",
@@ -1709,13 +1709,13 @@
         "contentOrigin": "editorial-synthesis"
       },
       "ecology.locomotion": {
-        "claimId": "claim:taxon:macaca_mulatta:ecology",
+        "claimId": "claim:taxon:macaca_mulatta:nh7-road-mortality",
         "claimType": "ecology",
         "relation": "supports",
         "sourceLocators": [
           {
-            "referenceId": "sengupta-2015-buxa-provisioning-rhesus",
-            "locator": "Methods, Study Area and Study Troop; Results, Fruit availability, degree of provisioning and degree of frugivory; Sites of seed deposition; Table 3"
+            "referenceId": "pragatheesh-2011-nh7-rhesus-road-mortality",
+            "locator": "Abstract; Methods, Roadkill data collection; Results, Roadkills"
           }
         ],
         "confidence": "medium",
@@ -1723,13 +1723,13 @@
         "contentOrigin": "editorial-synthesis"
       },
       "ecology.bodySize": {
-        "claimId": "claim:taxon:macaca_mulatta:ecology",
+        "claimId": "claim:taxon:macaca_mulatta:nh7-road-mortality",
         "claimType": "ecology",
         "relation": "supports",
         "sourceLocators": [
           {
-            "referenceId": "sengupta-2015-buxa-provisioning-rhesus",
-            "locator": "Methods, Study Area and Study Troop; Results, Fruit availability, degree of provisioning and degree of frugivory; Sites of seed deposition; Table 3"
+            "referenceId": "pragatheesh-2011-nh7-rhesus-road-mortality",
+            "locator": "Abstract; Methods, Roadkill data collection; Results, Roadkills"
           }
         ],
         "confidence": "medium",
@@ -1737,13 +1737,13 @@
         "contentOrigin": "editorial-synthesis"
       },
       "ecology.guild": {
-        "claimId": "claim:taxon:macaca_mulatta:ecology",
+        "claimId": "claim:taxon:macaca_mulatta:nh7-road-mortality",
         "claimType": "ecology",
         "relation": "supports",
         "sourceLocators": [
           {
-            "referenceId": "sengupta-2015-buxa-provisioning-rhesus",
-            "locator": "Methods, Study Area and Study Troop; Results, Fruit availability, degree of provisioning and degree of frugivory; Sites of seed deposition; Table 3"
+            "referenceId": "pragatheesh-2011-nh7-rhesus-road-mortality",
+            "locator": "Abstract; Methods, Roadkill data collection; Results, Roadkills"
           }
         ],
         "confidence": "medium",
@@ -2401,13 +2401,18 @@
         "contentOrigin": "editorial-synthesis"
       },
       "ecology.diet": {
-        "claimId": null,
+        "claimId": "claim:taxon:homo_sapiens:ranis-isotope-diet",
         "claimType": "ecology",
-        "relation": "not-assessed",
-        "sourceLocators": [],
-        "confidence": "low",
-        "reviewStatus": "not-assessed",
-        "contentOrigin": "unavailable"
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "smith-2024-ranis-early-human-diet",
+            "locator": "Abstract; Main, Ranis and LRJ layers 9–8; stable-isotope summary for 52 animal and 10 human remains"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
       },
       "ecology.habitat": {
         "claimId": null,
