@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primate-evidence-batch-2026-09-28-f",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "audit": {
+    "baseHead": "4444e7f2681703b357650644cacc407dfe5635fc",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "dossierIndexSha256": "92c7cc1fe06f2b64a9e372f9e22a882ae2077b635287ca5d31e0a9db7e4deadb",
+    "dossierIndexRecordCount": 36346,
+    "queueManifestSha256": "c9020cd693d6de08a01f3c1732fe78cc14075111ead77cc8c4f2d50bcb07fc9f",
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "duplicateAudit": {
+      "repository": "https://github.com/dajiaohuang/evo",
+      "checkedAt": "2026-09-28",
+      "methods": [
+        "Re-read exact COL26.8 queue rows and pinned accepted usages after PR #456 merged; checked all indexed dossiers and source stable IDs for duplicate species and studies.",
+        "Searched repository source and data files for each COL ID, accepted scientific name, article title, and DOI.",
+        "Searched public GitHub issues and pull requests across all states for each COL ID, scientific name, common name where applicable, and DOI."
+      ],
+      "matches": [],
+      "limitations": "This audit covers the selected repository and public issue/PR search results at the checked time; it does not prove that no related research exists."
+    },
+    "candidates": [
+      {
+        "colId": "42SBF",
+        "queueShardPath": "data/knowledge/species-evidence-queue/a.jsonl.br",
+        "queueShardCompressedSha256": "3871407caca7d6b74dbe28ff529daeea527dad4b153c10eb8937573ba12d637a",
+        "queueShardDecodedSha256": "fb138e0c5c6b0c21b47961ecc988a60b994fd7a3b0b9894ea1253cf134197c65",
+        "queueRowSha256": "dcafc9bce0b9a3417ebd356b7654749b9a8f4d0809c59b7f7ee1339f7f303d95",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "6224G", "6226C", "LG", "3W7", "4FM", "4LN", "4XL", "834", "63B2M", "42SBF"]
+      },
+      {
+        "colId": "X6S9",
+        "queueShardPath": "data/knowledge/species-evidence-queue/e.jsonl.br",
+        "queueShardCompressedSha256": "1eaac129a7c19f1d98d421f8903237d65395153343a051fce16515babf724f8c",
+        "queueShardDecodedSha256": "e957fa5e9e3b1f72b131f9cb0f80572cf40b3c85b67c12f556cf2ec024d6c127",
+        "queueRowSha256": "810ff3e9388c3e316572134b362e428fa701f260310a709d97844a9e52f1b808",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "6224G", "6226C", "LG", "3W7", "4DT", "4PM", "4X9", "7X9", "JCX", "KQK", "3SG4", "X6S9"]
+      },
+      {
+        "colId": "3MJBF",
+        "queueShardPath": "data/knowledge/species-evidence-queue/e.jsonl.br",
+        "queueShardCompressedSha256": "1eaac129a7c19f1d98d421f8903237d65395153343a051fce16515babf724f8c",
+        "queueShardDecodedSha256": "e957fa5e9e3b1f72b131f9cb0f80572cf40b3c85b67c12f556cf2ec024d6c127",
+        "queueRowSha256": "ed54fa5e4aba6df94a40d174a2787915bad8b792d9c7117a2cec45a8a68749af",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "6224G", "6226C", "LG", "3W7", "4DT", "4PM", "58L", "B9K", "4YHR", "3MJBF"]
+      }
+    ]
+  },
+  "species": [
+    {
+      "target": {
+        "colId": "42SBF",
+        "scientificName": "Microcebus berthae Rasoloarison, Goodman & Ganzhorn, 2000",
+        "authorship": "Rasoloarison, Goodman & Ganzhorn, 2000",
+        "rank": "species",
+        "sourceDatasetId": "2144"
+      },
+      "audit": {
+        "queueShardPath": "data/knowledge/species-evidence-queue/a.jsonl.br",
+        "queueShardCompressedSha256": "3871407caca7d6b74dbe28ff529daeea527dad4b153c10eb8937573ba12d637a",
+        "queueShardDecodedSha256": "fb138e0c5c6b0c21b47961ecc988a60b994fd7a3b0b9894ea1253cf134197c65",
+        "queueRowSha256": "dcafc9bce0b9a3417ebd356b7654749b9a8f4d0809c59b7f7ee1339f7f303d95",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "6224G", "6226C", "LG", "3W7", "4FM", "4LN", "4XL", "834", "63B2M", "42SBF"]
+      },
+      "scope": "Evidence is limited to a nocturnal transect study in Menabe Central, western Madagascar, and one habitat-season scenario; it does not establish species-wide interactions or causal competition.",
+      "lifeStatusScope": {
+        "wild": "The study recorded nocturnal sightings of free-ranging mouse lemurs in forest transects in Menabe Central.",
+        "domesticated": "Captive populations have not been assessed.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "schaffler2021microcebus",
+          "title": "Schäffler, Kappeler & Halley (2021), Mouse Lemurs in an Assemblage of Cheirogaleid Primates in Menabe Central, Western Madagascar – Three Reasons to Coexist",
+          "url": "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2021.585781/full",
+          "stableId": "doi:10.3389/fevo.2021.585781",
+          "version": "Frontiers in Ecology and Evolution 9:585781; version of record published 2021-03-22",
+          "publishedAt": "2021-03-22",
+          "accessedAt": "2026-09-28",
+          "locator": "Abstract (publisher lines 316-320); Materials and Methods, transect sampling and study design (lines 369-375); Results (lines 480-481); Table 4A (lines 501-505); Table 4 note (lines 580-582); article license statement (lines 1875-1878).",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the article license notice.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original nocturnal line-transect study of a four-species cheirogaleid assemblage in Menabe Central; findings are limited to the reported local sites, survey seasons, and scenarios.",
+          "rightsHolder": "Schäffler, Kappeler, and Halley, as identified in the article.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseEvidenceUrl": "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2021.585781/full",
+          "licenseEvidenceLocator": "The article copyright and licensing statement at lines 1875-1878 identifies the Creative Commons Attribution license and links to CC BY 4.0.",
+          "licenseAppliesTo": "Published article text; this dossier paraphrases the reported finding and does not reproduce figures or tables.",
+          "attribution": "Schäffler L, Kappeler PM, Halley JM. (2021). Mouse Lemurs in an Assemblage of Cheirogaleid Primates in Menabe Central, Western Madagascar – Three Reasons to Coexist. Frontiers in Ecology and Evolution 9:585781. https://doi.org/10.3389/fevo.2021.585781. Findings paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {"status": "not-assessed"},
+        "lifeHistory": {"status": "not-assessed"},
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "In the Menabe Central transect study, the within-transect spatial association between Microcebus berthae and M. murinus was negative and statistically significant in non-degraded forest during the dry season (ISIA T = -0.13, p = 0.013). This is a local pattern for one habitat-season scenario; it does not establish competition as a cause or generalize to other seasons, habitats, or the species range.",
+              "sourceIds": ["schaffler2021microcebus"],
+              "locator": "Results lines 480-481; Table 4A, non-degraded habitat/dry-season row (lines 501-505; T = -0.13, p = 0.013); Table 4 note (lines 580-582) defines negative T as spatial avoidance.",
+              "placeTimeScope": "Menabe Central, western Madagascar. Nocturnal surveys ran from 2003 to 2007 on 34 one-kilometre transects across four dry seasons and two wet-season survey periods; the study reports 786 Microcebus sightings, including 92 M. berthae. The claim concerns only non-degraded habitat in the dry season.",
+              "lifeStatus": "Free-ranging wild mouse lemurs detected during nocturnal transect walks; captive and fossil populations were not assessed.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The statistic describes one local habitat-season scenario and does not demonstrate a causal competitive interaction.",
+            "The study covers Menabe Central and its survey years, not all populations or the full species range.",
+            "Morphology, life history, other ecology, evolution, broader distribution, fossils, conservation, systematic search, and independent review remain unassessed."
+          ]
+        },
+        "evolution": {"status": "not-assessed"},
+        "distribution": {"status": "not-assessed"},
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completenessReasons": [
+        "One local association result supports a narrow ecology claim for a single habitat-season scenario.",
+        "Other populations, survey years, habitats, and seasons are not covered by this claim.",
+        "Most biological facets, systematic search, and external expert review remain unassessed."
+      ]
+    },
+    {
+      "target": {
+        "colId": "X6S9",
+        "scientificName": "Colobus vellerosus (I. Geoffroy Saint-Hilaire, 1834)",
+        "authorship": "(I. Geoffroy Saint-Hilaire, 1834)",
+        "rank": "species",
+        "sourceDatasetId": "2144"
+      },
+      "audit": {
+        "queueShardPath": "data/knowledge/species-evidence-queue/e.jsonl.br",
+        "queueShardCompressedSha256": "1eaac129a7c19f1d98d421f8903237d65395153343a051fce16515babf724f8c",
+        "queueShardDecodedSha256": "e957fa5e9e3b1f72b131f9cb0f80572cf40b3c85b67c12f556cf2ec024d6c127",
+        "queueRowSha256": "810ff3e9388c3e316572134b362e428fa701f260310a709d97844a9e52f1b808",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "6224G", "6226C", "LG", "3W7", "4DT", "4PM", "4X9", "7X9", "JCX", "KQK", "3SG4", "X6S9"]
+      },
+      "scope": "Evidence is limited to direct surveys and historical comparisons from Boabeng-Fiema Monkey Sanctuary, Ghana; it is not a global population estimate or a range-wide trend.",
+      "lifeStatusScope": {
+        "wild": "The study counted free-ranging animals in six forest patches within a Ghanaian sanctuary.",
+        "domesticated": "Captive populations have not been assessed.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "wiafe2023colobus",
+          "title": "Wiafe et al. (2023), Current populations of Colobus vellerosus (Geoffory, 1834) & Cercopithecus lowei (Thomas, 1923) and land-use, land cover changes in Boabeng-Fiema Monkey Sanctuary, Ghana",
+          "url": "https://threatenedtaxa.org/index.php/JoTT/article/view/8297",
+          "stableId": "doi:10.11609/jott.8297.15.5.23200-23209",
+          "version": "Journal of Threatened Taxa 15(5):23200-23209; published 2023-05-26; the article page lists version 1 on 2023-05-26 and updated version 2 on 2023-06-26",
+          "publishedAt": "2023-05-26",
+          "accessedAt": "2026-09-28",
+          "locator": "Methods (PDF lines 334-396); survey limitations (PDF lines 419-440); 2019 population counts (PDF lines 501-513); 2007-2019 comparison and caveat (PDF lines 531-535 and 720-723); publisher license statement (HTML lines 137-143).",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated on the JoTT article page and PDF.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original ground-survey and land-cover study at Boabeng-Fiema Monkey Sanctuary, Ghana; population counts and temporal comparison are limited to that site and the reported survey methods.",
+          "rightsHolder": "Wiafe, Akuoku, Sarkodie, and Boakye, as identified in the article.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseEvidenceUrl": "https://threatenedtaxa.org/index.php/JoTT/article/view/8297",
+          "licenseEvidenceLocator": "JoTT article page lines 137-143 identifies the article license as CC BY 4.0 International; the PDF copyright notice at lines 142-143 repeats it.",
+          "licenseAppliesTo": "Published article text; this dossier paraphrases findings and does not reproduce maps, tables, or separately credited material.",
+          "attribution": "Wiafe ED, Akuoku KK, Sarkodie I, Boakye MK. (2023). Current populations of Colobus vellerosus (Geoffory, 1834) & Cercopithecus lowei (Thomas, 1923) and land-use, land cover changes in Boabeng-Fiema Monkey Sanctuary, Ghana. Journal of Threatened Taxa 15(5):23200-23209. https://doi.org/10.11609/jott.8297.15.5.23200-23209. Findings paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {"status": "not-assessed"},
+        "lifeHistory": {"status": "not-assessed"},
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "A 2019 ground survey at Boabeng-Fiema Monkey Sanctuary recorded 602 Colobus vellerosus individuals in 34 groups across six forest patches. This is a site-level survey count, not a global abundance estimate.",
+              "sourceIds": ["wiafe2023colobus"],
+              "locator": "Results, 2019 survey population counts (PDF lines 501-513); survey design and transect effort (PDF lines 334-396).",
+              "placeTimeScope": "Boabeng-Fiema Monkey Sanctuary, Ghana, 2019; six forest patches, 17 transects of 500-1,000 m, and 71,050 m total walking distance over two survey rounds.",
+              "lifeStatus": "Free-ranging animals counted in forest patches; age, sex, captive populations, and fossils were not assessed.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The count covers one sanctuary and its surveyed patches and is not a species-wide abundance estimate.",
+            "Visibility, animal detection, and transect access constrained survey methods; the authors did not fit a DISTANCE model because of few effective sightings.",
+            "Morphology, life history, broader ecology, evolution, range-wide distribution, fossils, conservation status, systematic search, and independent review remain unassessed."
+          ]
+        },
+        "evolution": {"status": "not-assessed"},
+        "distribution": {"status": "partially-supported", "claims": [
+          {
+            "text": "In a 2019 survey at Boabeng-Fiema Monkey Sanctuary, Colobus vellerosus was recorded in six forest patches, with 34 groups and 602 individuals counted. The result documents occurrence at this site and does not map the species' full geographic range.",
+            "sourceIds": ["wiafe2023colobus"],
+            "locator": "Results, 2019 population counts (PDF lines 501-513); the six-patch survey design is described at PDF lines 334-396.",
+            "placeTimeScope": "Boabeng-Fiema Monkey Sanctuary, Ghana, 2019, across the six surveyed forest patches.",
+            "lifeStatus": "Free-ranging animals observed during ground surveys; captive and fossil occurrences were not assessed.",
+            "translationStatus": "untranslated",
+            "originalLanguage": "en"
+          }
+        ], "gaps": [
+          "This is one sanctuary record and does not establish the complete distribution or occupancy outside the survey area.",
+          "Other sites, survey years, and independent detection methods remain unassessed."
+        ]},
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "partially-supported", "claims": [
+          {
+            "text": "The article reports a 70% increase in estimated Colobus vellerosus density at Boabeng-Fiema between 2007 and 2019 (5.8% per year), while cautioning that the comparison involved different survey personnel and methods. It should not be read as a methodologically uniform or range-wide population trend.",
+            "sourceIds": ["wiafe2023colobus"],
+            "locator": "Results, 2007-2019 comparison (PDF lines 531-535); authors' methodological caveat (PDF lines 720-723).",
+            "placeTimeScope": "Boabeng-Fiema Monkey Sanctuary, Ghana, reported comparison between 2007 and 2019 survey estimates.",
+            "lifeStatus": "Wild sanctuary population estimates; the paper does not provide a captive or fossil trend.",
+            "translationStatus": "untranslated",
+            "originalLanguage": "en"
+          }
+        ], "gaps": [
+          "The reported increase is a local comparison and the authors identify differences in personnel and methods between survey periods.",
+          "Current threat drivers, demographic structure, wider-range trends, and independent population estimates remain unassessed."
+        ]}
+      },
+      "completenessReasons": [
+        "The available evidence describes a sanctuary-level survey and a methodologically qualified local comparison.",
+        "It does not establish range-wide distribution or abundance, nor a comparable trend across populations.",
+        "Most biological facets, systematic search, and external expert review remain unassessed."
+      ]
+    },
+    {
+      "target": {
+        "colId": "3MJBF",
+        "scientificName": "Hoolock leuconedys (Groves, 1967)",
+        "authorship": "(Groves, 1967)",
+        "rank": "species",
+        "sourceDatasetId": "2144"
+      },
+      "audit": {
+        "queueShardPath": "data/knowledge/species-evidence-queue/e.jsonl.br",
+        "queueShardCompressedSha256": "1eaac129a7c19f1d98d421f8903237d65395153343a051fce16515babf724f8c",
+        "queueShardDecodedSha256": "e957fa5e9e3b1f72b131f9cb0f80572cf40b3c85b67c12f556cf2ec024d6c127",
+        "queueRowSha256": "ed54fa5e4aba6df94a40d174a2787915bad8b792d9c7117a2cec45a8a68749af",
+        "classificationPathIds": ["CS5HF", "N", "CH2", "8V4V3", "8V4V5", "8VVWB", "9CK8W", "6224G", "6226C", "LG", "3W7", "4DT", "4PM", "58L", "B9K", "4YHR", "3MJBF"]
+      },
+      "scope": "Evidence comes from a short preliminary post-release activity and feeding study of three family groups at Mehao Wildlife Sanctuary in India; it does not establish the species' usual diet or behavior across its range.",
+      "lifeStatusScope": {
+        "wild": "The study observed free-ranging post-release family groups that had been translocated after rescue; they were not a representative sample of wild-born populations.",
+        "domesticated": "Captive populations have not been assessed as a separate group.",
+        "fossil": "Fossil occurrence and geological age have not been assessed."
+      },
+      "sources": [
+        {
+          "id": "roy2015hoolock",
+          "title": "Roy, Nautiyal & Dasgupta (2015), A preliminary study on the activity budget of post released Eastern Hoolock Gibbon Hoolock leuconedys (Mammalia: Primates: Hylobatidae) in Mehao Wildlife Sanctuary, Arunachal Pradesh, India",
+          "url": "https://www.threatenedtaxa.org/JoTT/article/download/2376/3424?inline=1",
+          "stableId": "doi:10.11609/jott.o3869.7862-9",
+          "version": "Journal of Threatened Taxa 7(12):7862-7869; version of record published 2015-10-26",
+          "publishedAt": "2015-10-26",
+          "accessedAt": "2026-09-28",
+          "locator": "Abstract (PDF lines 29-32); study context and groups (lines 47-65); diet observations (lines 90-96); study limitations (lines 104-110); article copyright/license notice (line 18).",
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated on the article's copyright page.",
+          "licenseAssessment": "item-level-verified",
+          "scope": "Original preliminary activity-budget study of translocated post-release Eastern Hoolock Gibbon family groups at Mehao Wildlife Sanctuary; findings are limited to the observed groups and short study period.",
+          "rightsHolder": "Roy, Nautiyal, and Dasgupta, as identified in the article.",
+          "licenseVersion": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseEvidenceUrl": "https://www.threatenedtaxa.org/JoTT/article/download/2376/3424?inline=1",
+          "licenseEvidenceLocator": "The article's copyright statement on PDF line 18 identifies CC BY 4.0 International.",
+          "licenseAppliesTo": "Published article text; this dossier paraphrases findings and does not reproduce figures, tables, or separately credited material.",
+          "attribution": "Roy K, Nautiyal H, Dasgupta S. (2015). A preliminary study on the activity budget of post released Eastern Hoolock Gibbon Hoolock leuconedys (Mammalia: Primates: Hylobatidae) in Mehao Wildlife Sanctuary, Arunachal Pradesh, India. Journal of Threatened Taxa 7(12):7862-7869. https://doi.org/10.11609/JoTT.o3869.7862-9. Findings paraphrased."
+        }
+      ],
+      "facets": {
+        "morphology": {"status": "not-assessed"},
+        "lifeHistory": {"status": "not-assessed"},
+        "ecology": {
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "In a short 2012 post-release study at Mehao Wildlife Sanctuary, feeding observations of three Eastern Hoolock Gibbon family groups recorded fruits and flowers at the Sally Lake groups; the 20 Kilo group also had leaves and animal matter recorded. These observations describe only those groups during the preliminary survey and do not establish the species' usual or range-wide diet.",
+              "sourceIds": ["roy2015hoolock"],
+              "locator": "Study groups and sites (PDF lines 47-65); diet observations (PDF lines 90-96); authors' limits (PDF lines 104-110).",
+              "placeTimeScope": "Mehao Wildlife Sanctuary, Arunachal Pradesh, India, February-May 2012; the claim covers two post-release family groups at Sally Lake and one at 20 Kilo, monitored for approximately two months per group.",
+              "lifeStatus": "Free-ranging post-release groups from rescued/translocated families; the paper does not establish diet for wild-born or captive populations.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The study was preliminary and short-term, with three post-release family groups at one sanctuary.",
+            "The authors note that detailed vegetation and phenology data were not collected; feeding observations do not establish habitat causes or usual species-wide diet.",
+            "Morphology, life history, other ecology, evolution, broader distribution, fossils, conservation, systematic search, and independent review remain unassessed."
+          ]
+        },
+        "evolution": {"status": "not-assessed"},
+        "distribution": {"status": "not-assessed"},
+        "fossil": {"status": "not-assessed"},
+        "conservation": {"status": "not-assessed"}
+      },
+      "completenessReasons": [
+        "One preliminary study describes feeding observations for three post-release family groups during a short period.",
+        "The study lacks detailed vegetation and phenology measurements and does not establish a species-wide diet or habitat effect.",
+        "Most biological facets, systematic search, and external expert review remain unassessed."
+      ]
+    }
+  ]
+}

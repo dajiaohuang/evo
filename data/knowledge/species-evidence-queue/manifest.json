@@ -16,7 +16,7 @@
     "dossierBasePath": "data/knowledge/catalogue-dossiers.json",
     "dossierBaseSha256": "88def9f9997c16f6eba9c51aca5c134b4af198442ae941baa284e6dd0c86beb5",
     "dossierIndexPath": "data/knowledge/catalogue-dossier-shards.json",
-    "dossierIndexSha256": "92c7cc1fe06f2b64a9e372f9e22a882ae2077b635287ca5d31e0a9db7e4deadb",
+    "dossierIndexSha256": "eb4efa0951d4bf7336fa2212c8190aaec88b516ee15488201e482a6a2b5d7417",
     "dossierShards": [
       {
         "path": "data/knowledge/catalogue-dossiers-actinopterygii-batch-2026-09-24.jsonl.br",
@@ -533,6 +533,12 @@
         "recordCount": 3,
         "compressedSha256": "1e3bfa34192eaed027bf83558a28d12c217c866072c9ca5ab9e0170802390b5e",
         "decodedSha256": "0d95f8f0a47cc383171f297df0ba3cc82a013de212f4ade638fe28e87e6b4fb1"
+      },
+      {
+        "path": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-f.jsonl.br",
+        "recordCount": 3,
+        "compressedSha256": "17015f918a59715cfda9abcdf309107eb6af1dc62d0577fdbb0812f4c743c493",
+        "decodedSha256": "f93e9fc67cffdd92f8872760bd7a2d1088ade98a33bce74909717bc1ff9c5e2a"
       }
     ],
     "sourceOriginalCollections": [
@@ -682,12 +688,12 @@
     "acceptedSpecies": 2183133,
     "sourceOriginalAssociatedSpecies": 80838,
     "introductorySummarySpecies": 27,
-    "dossierSpecies": 36346,
+    "dossierSpecies": 36349,
     "completeDossierSpecies": 0,
     "externallyReviewedSpecies": 0,
-    "speciesWithAnyEvidenceStage": 80997,
-    "speciesWithoutAnyEvidenceStage": 2102136,
-    "speciesWithoutDossier": 2146787,
+    "speciesWithAnyEvidenceStage": 81000,
+    "speciesWithoutAnyEvidenceStage": 2102133,
+    "speciesWithoutDossier": 2146784,
     "sourceOriginalCollectionSpecies": {
       "brazilFloraDescriptions": 28896,
       "fdacDescriptions": 4156,
@@ -711,20 +717,20 @@
       "species": 27
     },
     "dossierStatuses": {
-      "missing": 2146787,
-      "incomplete": 36346,
+      "missing": 2146784,
+      "incomplete": 36349,
       "complete": 0
     },
     "expertReviewStatuses": {
-      "no-dossier": 2146787,
-      "not-reviewed": 36346,
+      "no-dossier": 2146784,
+      "not-reviewed": 36349,
       "maintainer-reviewed": 0,
       "externally-reviewed": 0
     },
     "claimSourceRightsStatuses": {
-      "not-assessed": 2146787,
+      "not-assessed": 2146784,
       "no-biological-claim-sources": 0,
-      "item-level-verified": 272,
+      "item-level-verified": 275,
       "claim-source-rights-unresolved": 36074
     },
     "facetStatuses": {
@@ -744,10 +750,10 @@
       },
       "ecology": {
         "supported": 0,
-        "partially-supported": 30581,
+        "partially-supported": 30584,
         "searched-no-evidence": 0,
         "conflicted": 0,
-        "not-assessed": 2152552
+        "not-assessed": 2152549
       },
       "evolution": {
         "supported": 0,
@@ -758,10 +764,10 @@
       },
       "distribution": {
         "supported": 0,
-        "partially-supported": 1855,
+        "partially-supported": 1856,
         "searched-no-evidence": 0,
         "conflicted": 0,
-        "not-assessed": 2181278
+        "not-assessed": 2181277
       },
       "fossil": {
         "supported": 0,
@@ -772,10 +778,10 @@
       },
       "conservation": {
         "supported": 0,
-        "partially-supported": 33,
+        "partially-supported": 34,
         "searched-no-evidence": 0,
         "conflicted": 0,
-        "not-assessed": 2183100
+        "not-assessed": 2183099
       }
     },
     "sourceOriginalTextRecords": 92944,
@@ -896,10 +902,10 @@
       "prefix": "a",
       "path": "data/knowledge/species-evidence-queue/a.jsonl.br",
       "recordCount": 136281,
-      "decodedBytes": 97862909,
-      "decodedSha256": "fb138e0c5c6b0c21b47961ecc988a60b994fd7a3b0b9894ea1253cf134197c65",
-      "compressedBytes": 4666028,
-      "compressedSha256": "3871407caca7d6b74dbe28ff529daeea527dad4b153c10eb8937573ba12d637a",
+      "decodedBytes": 97862965,
+      "decodedSha256": "9932dc46b98d59d51185b5472aca1dac2a8e5e2c3b3f82292e8694eaf38d9b6a",
+      "compressedBytes": 4666046,
+      "compressedSha256": "707b8a1e86ea780632b482dc6907dd9662f75a725942dc30074a6897dd33c013",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -940,10 +946,10 @@
       "prefix": "e",
       "path": "data/knowledge/species-evidence-queue/e.jsonl.br",
       "recordCount": 136267,
-      "decodedBytes": 97855302,
-      "decodedSha256": "e957fa5e9e3b1f72b131f9cb0f80572cf40b3c85b67c12f556cf2ec024d6c127",
-      "compressedBytes": 4664357,
-      "compressedSha256": "1eaac129a7c19f1d98d421f8903237d65395153343a051fce16515babf724f8c",
+      "decodedBytes": 97855412,
+      "decodedSha256": "2fb0627c23b0b47f9c8f0a91df341840c6915471ed5e1277d669b0571bcb2c66",
+      "compressedBytes": 4664436,
+      "compressedSha256": "710602ef26b7baf9ecd4330d284a92ee25bdc973e299501e2f3c799495185407",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
