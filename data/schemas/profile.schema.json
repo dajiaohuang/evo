@@ -62,8 +62,70 @@
     "traits": { "type": "array", "minItems": 0, "items": { "type": "string", "minLength": 1 } },
     "traitsAssessmentStatus": { "enum": ["assessed", "not-assessed"] },
     "evidenceSummary": { "type": "string", "minLength": 20 },
+    "readerLanguageStatus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "zh"],
+      "properties": {
+        "en": { "enum": ["draft-ready", "translation-needed", "not-started"] },
+        "zh": { "enum": ["draft-ready", "translation-needed", "not-started"] }
+      }
+    },
+    "readerSections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "text", "sourceIds"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "title": { "$ref": "#/$defs/bilingualText" },
+          "text": { "$ref": "#/$defs/bilingualText" },
+          "sourceIds": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+        }
+      }
+    },
+    "readerSources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "url", "scope"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "title": { "$ref": "#/$defs/bilingualText" },
+          "url": { "type": "string", "minLength": 1 },
+          "scope": { "$ref": "#/$defs/bilingualText" }
+        }
+      }
+    },
+    "readerRelatedPages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["targetId", "label", "context"],
+        "properties": {
+          "targetId": { "type": "string", "minLength": 1 },
+          "label": { "$ref": "#/$defs/bilingualText" },
+          "context": { "$ref": "#/$defs/bilingualText" }
+        }
+      }
+    },
+    "readerLimitations": { "$ref": "#/$defs/bilingualText" },
     "confidence": { "enum": ["high", "medium", "low", "contested"] },
     "referenceIds": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+  },
+  "$defs": {
+    "bilingualText": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "zh"],
+      "properties": {
+        "en": { "type": "string", "minLength": 1 },
+        "zh": { "type": "string", "minLength": 1 }
+      }
+    }
   },
   "allOf": [
     {
