@@ -266,22 +266,22 @@
   "appAndPagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
   "appAndPagesPreviewManifestChanged": false,
   "baseDossierIndexSha256": "eb4efa0951d4bf7336fa2212c8190aaec88b516ee15488201e482a6a2b5d7417",
-  "finalDossierIndexSha256": "dacc09f119c8ae133abb7cff8d9a5557d4fcbd33a3ce830124c39cdae22b3cfc",
+  "finalDossierIndexSha256": "23b7140c83138833396c4dd27fe9bf28406cbaa32f5d9745bb712cbef38bbe6c",
   "raw": {
     "path": "data/knowledge/raw-dossiers/primate-evidence-batch-2026-09-28-g.jsonl",
     "encoding": "utf-8-jsonl-lf",
     "recordCount": 3,
-    "bytes": 28049,
-    "sha256": "fe017a8dcc812d533c09956bb504b105a379a30053c36d39b568f1fd099932f7"
+    "bytes": 30390,
+    "sha256": "f418538a844bf4f609823ef73c425b24536939f5ba90a5ca81d58fb075d05d33"
   },
   "shard": {
     "path": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-g.jsonl.br",
     "encoding": "brotli-jsonl",
     "recordCount": 3,
-    "decodedBytes": 28049,
-    "decodedSha256": "fe017a8dcc812d533c09956bb504b105a379a30053c36d39b568f1fd099932f7",
-    "compressedBytes": 5190,
-    "compressedSha256": "de89ea39ee48d4986f358311326c3c75dce2def5dc9cb83ee64a607ba4f19c99",
+    "decodedBytes": 30390,
+    "decodedSha256": "f418538a844bf4f609823ef73c425b24536939f5ba90a5ca81d58fb075d05d33",
+    "compressedBytes": 5915,
+    "compressedSha256": "e640e97952d2ebae294ca60844f41ae62065ce35660e164b0c3187e08a0d27ee",
     "brotliParameters": {
       "mode": "text",
       "quality": 11
@@ -292,5 +292,25 @@
   "dossierCountAfter": 36352,
   "generator": "scripts/build-primate-evidence-batch-2026-09-28-g.mjs",
   "fullDossierCountAdded": 0,
-  "expertReviewedDossierCountAdded": 0
+  "expertReviewedDossierCountAdded": 0,
+  "supplementalUpdates": [
+    {
+      "batchId": "primates-macaca-munzala-postglacial-expansion-b67-2026-09-28",
+      "sourcePath": "data/sources/primates-macaca-munzala-postglacial-expansion-b67-2026-09-28.json",
+      "sourceSha256": "6ecd12c8cf91f2fa40f3214b640d121f7a4d3a5be3c3b0ff5865a2a8cacd4e0e",
+      "generator": "scripts/update-primates-macaca-munzala-postglacial-expansion-b67.mjs",
+      "targetColIds": [
+        "3WWNS"
+      ],
+      "sourceStableId": "doi:10.1371/journal.pone.0097061",
+      "sourceReuse": true,
+      "previousRawSha256": "fe017a8dcc812d533c09956bb504b105a379a30053c36d39b568f1fd099932f7",
+      "previousCompressedSha256": "de89ea39ee48d4986f358311326c3c75dce2def5dc9cb83ee64a607ba4f19c99",
+      "rawSha256": "f418538a844bf4f609823ef73c425b24536939f5ba90a5ca81d58fb075d05d33",
+      "compressedSha256": "e640e97952d2ebae294ca60844f41ae62065ce35660e164b0c3187e08a0d27ee",
+      "dossierIndexSha256": "23b7140c83138833396c4dd27fe9bf28406cbaa32f5d9745bb712cbef38bbe6c",
+      "claimCountForTarget": 2,
+      "appAndPagesPreviewManifestChanged": false
+    }
+  ]
 }

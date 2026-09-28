@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-macaca-munzala-postglacial-expansion-b67-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-macaca-munzala-postglacial-expansion-b67-2026-09-28.json",
+    "sha256": "6ecd12c8cf91f2fa40f3214b640d121f7a4d3a5be3c3b0ff5865a2a8cacd4e0e"
+  },
+  "target": {
+    "colId": "3WWNS",
+    "scientificName": "Macaca munzala Sinha, Datta, Madhusudan & Mishra, 2005",
+    "sourceDatasetId": "2144",
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-g.jsonl.br",
+    "sourceStableIdReused": "doi:10.1371/journal.pone.0097061",
+    "sourceOccurrenceCountBeforeUpdate": 1,
+    "evolutionClaimCountBeforeUpdate": 1,
+    "evolutionClaimCountAfterUpdate": 2
+  },
+  "audit": {
+    "baseHead": "a8f9ee7a1b14b3f460248639f183e447e735fce3",
+    "indexedRecordCount": 36354,
+    "dossierIndexSha256": "93178f315b26ca91418f85ca184f00daa098131430c73250fc22f09215d90d57",
+    "queueManifestSha256": "901d8b291cb95de6f61d8bf883d69bea38e088f112ecaf91cef4bd8cad4ef622",
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "targetRawPath": "data/knowledge/raw-dossiers/primate-evidence-batch-2026-09-28-g.jsonl",
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-g.jsonl.br",
+    "targetRecordCount": 1,
+    "targetRawSha256": "fe017a8dcc812d533c09956bb504b105a379a30053c36d39b568f1fd099932f7",
+    "targetShardCompressedSha256": "de89ea39ee48d4986f358311326c3c75dce2def5dc9cb83ee64a607ba4f19c99",
+    "targetRecordSha256": "712c84e9b61dc417f23c7f16b53b6ae7110a7be6c6e9048db4e48d510b333103",
+    "sourceOccurrenceCount": 1,
+    "evolutionClaimCount": 1
+  },
+  "output": {
+    "raw": {
+      "path": "data/knowledge/raw-dossiers/primate-evidence-batch-2026-09-28-g.jsonl",
+      "encoding": "utf-8-jsonl-lf",
+      "recordCount": 3,
+      "bytes": 30390,
+      "sha256": "f418538a844bf4f609823ef73c425b24536939f5ba90a5ca81d58fb075d05d33"
+    },
+    "shard": {
+      "path": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-g.jsonl.br",
+      "encoding": "brotli-jsonl",
+      "recordCount": 3,
+      "decodedBytes": 30390,
+      "decodedSha256": "f418538a844bf4f609823ef73c425b24536939f5ba90a5ca81d58fb075d05d33",
+      "compressedBytes": 5915,
+      "compressedSha256": "e640e97952d2ebae294ca60844f41ae62065ce35660e164b0c3187e08a0d27ee",
+      "brotliParameters": {
+        "mode": "text",
+        "quality": 11
+      },
+      "roundTrip": "exact-byte-match"
+    },
+    "dossierIndex": {
+      "path": "data/knowledge/catalogue-dossier-shards.json",
+      "recordCount": 36354,
+      "sha256": "23b7140c83138833396c4dd27fe9bf28406cbaa32f5d9745bb712cbef38bbe6c"
+    },
+    "batchManifest": {
+      "path": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-g.batch-manifest.json",
+      "sha256": "5ffda1615057d342ad3b2de822eb1c02587350b214f1a9c53ac561c5fd5caa63"
+    }
+  },
+  "appAndPagesPreviewManifestChanged": false,
+  "notIncludedInRuntime": true,
+  "queueProjection": {
+    "inputManifestSha256BeforeUpdate": "901d8b291cb95de6f61d8bf883d69bea38e088f112ecaf91cef4bd8cad4ef622",
+    "outputManifestPath": "data/knowledge/species-evidence-queue/manifest.json",
+    "outputManifestSha256": "070f2e32bb7be1bde359722de11ad584872782d862b64fe77826e5534a8b9bf0",
+    "inputDossierIndexSha256": "23b7140c83138833396c4dd27fe9bf28406cbaa32f5d9745bb712cbef38bbe6c",
+    "notIncludedInRuntime": true,
+    "affectedShard": {
+      "prefix": "f",
+      "path": "data/knowledge/species-evidence-queue/f.jsonl.br",
+      "recordCount": 136911,
+      "compressedSha256": "d48c2c1a8d56ecf6169647c1eb5b886eff10ee876eec5a3ce3e2e6522cb94ec7",
+      "decodedSha256": "875d888b34dd6df151802cea991fa8fd0ed40308f702072b05aaf5c9bfd98cda"
+    },
+    "projectedTargetRow": {
+      "colId": "3WWNS",
+      "dossierStatus": "incomplete",
+      "claimCount": 2,
+      "facetStatuses": {
+        "morphology": "not-assessed",
+        "lifeHistory": "not-assessed",
+        "ecology": "not-assessed",
+        "evolution": "partially-supported",
+        "distribution": "not-assessed",
+        "fossil": "not-assessed",
+        "conservation": "not-assessed"
+      }
+    }
+  }
+}
