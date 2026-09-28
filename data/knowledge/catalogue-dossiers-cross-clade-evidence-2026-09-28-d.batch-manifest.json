@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "batchId": "cross-clade-evidence-batch-2026-09-28-d",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "baseHead": "fbcdbd04ec06dd3856c8982f77c4ce68c4c9f52a",
+  "input": {
+    "path": "data/sources/cross-clade-evidence-batch-2026-09-28-d.json",
+    "sha256": "dde6b01c803fca0cac014d8ee8f345377bfd32363740d6b2184dea31ec1dd5e4"
+  },
+  "duplicateAudit": {
+    "repository": "https://github.com/dajiaohuang/evo",
+    "checkedAt": "2026-09-28",
+    "methods": [
+      "Exact COL26.8 queue rows and all indexed dossier shards checked for existing dossier and source stable-ID duplicates.",
+      "Repository text and source files searched for each COL ID, scientific name, article title, and DOI.",
+      "Public GitHub issues and pull requests searched across all states for each COL ID, scientific name, and DOI."
+    ],
+    "matches": [],
+    "limitations": "This audit covers the selected repository and public issue/PR search results at the checked time; it is not a claim that no related research exists."
+  },
+  "identities": [
+    {
+      "colId": "4KV6Z",
+      "scientificName": "Pogona vitticeps (Ahl, 1926)",
+      "sourceDatasetId": "1008",
+      "classificationPathIds": [
+        "CS5HF",
+        "N",
+        "CH2",
+        "8V4V3",
+        "8V4V5",
+        "8VVWB",
+        "9CK8W",
+        "RP",
+        "45C",
+        "87BW7",
+        "64B",
+        "87CD5",
+        "63NN8",
+        "4KV6Z"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "subphylum",
+        "infraphylum",
+        "parvphylum",
+        "megaclass",
+        "class",
+        "order",
+        "suborder",
+        "family",
+        "subfamily",
+        "genus",
+        "species"
+      ]
+    },
+    {
+      "colId": "6SZHL",
+      "scientificName": "Oryzias latipes (Temminck & Schlegel, 1846)",
+      "sourceDatasetId": "1010",
+      "classificationPathIds": [
+        "CS5HF",
+        "N",
+        "CH2",
+        "8V4V3",
+        "8V4V5",
+        "8VVWB",
+        "8VR36",
+        "KTWM8",
+        "8V4VD",
+        "T6",
+        "KTWPF",
+        "KVL2X",
+        "KVL2W",
+        "6SZHL"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "subphylum",
+        "infraphylum",
+        "parvphylum",
+        "gigaclass",
+        "superclass",
+        "class",
+        "order",
+        "family",
+        "subfamily",
+        "genus",
+        "species"
+      ]
+    },
+    {
+      "colId": "YCG6",
+      "scientificName": "Cordyceps militaris (L.) Fr.",
+      "sourceDatasetId": "2073",
+      "classificationPathIds": [
+        "CS5HF",
+        "F",
+        "SM",
+        "J2",
+        "8K4",
+        "62MKV",
+        "YCG6"
+      ],
+      "classificationPathRanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "class",
+        "family",
+        "genus",
+        "species"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "colId": "4KV6Z",
+      "sources": [
+        {
+          "stableId": "doi:10.1371/journal.pone.0322682",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "colId": "6SZHL",
+      "sources": [
+        {
+          "stableId": "doi:10.1371/journal.pone.0229962",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "colId": "YCG6",
+      "sources": [
+        {
+          "stableId": "doi:10.1371/journal.pone.0051853",
+          "licenseAssessment": "item-level-verified",
+          "licenseVersion": "CC BY 4.0"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "dossiersAdded": 3,
+    "partialFacets": {
+      "morphology": [],
+      "lifeHistory": [
+        "YCG6"
+      ],
+      "ecology": [
+        "4KV6Z",
+        "6SZHL"
+      ],
+      "evolution": [],
+      "distribution": [],
+      "fossil": [],
+      "conservation": []
+    },
+    "notAssessedFacets": [
+      {
+        "colId": "4KV6Z",
+        "facets": [
+          "morphology",
+          "lifeHistory",
+          "evolution",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      },
+      {
+        "colId": "6SZHL",
+        "facets": [
+          "morphology",
+          "lifeHistory",
+          "evolution",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      },
+      {
+        "colId": "YCG6",
+        "facets": [
+          "morphology",
+          "ecology",
+          "evolution",
+          "distribution",
+          "fossil",
+          "conservation"
+        ]
+      }
+    ],
+    "completeDossiersAdded": 0,
+    "externallyReviewedDossiersAdded": 0
+  },
+  "queueAudit": {
+    "queueManifestSha256Before": "4171bc1b0330d88d4ec56debbc7afee065794a5ed8fe206b283dc23768c06e28",
+    "rowsBefore": [
+      {
+        "colId": "4KV6Z",
+        "shardPath": "data/knowledge/species-evidence-queue/3.jsonl.br",
+        "rowSha256": "51dcad143e6ac0d10fc1efa0bc24617442dee24c7433be300204e70b57ecdf97",
+        "status": "missing"
+      },
+      {
+        "colId": "6SZHL",
+        "shardPath": "data/knowledge/species-evidence-queue/b.jsonl.br",
+        "rowSha256": "893820cf7c15f97b98055da97c59048558807cd55fe027af60f81b9286d7f874",
+        "status": "missing"
+      },
+      {
+        "colId": "YCG6",
+        "shardPath": "data/knowledge/species-evidence-queue/2.jsonl.br",
+        "rowSha256": "0d02c02815f66e95b3fc2f348486324d41a496e5d5654d80b156dba04412ba16",
+        "status": "missing"
+      }
+    ]
+  },
+  "appAndPagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+  "appAndPagesPreviewManifestChanged": false,
+  "baseDossierIndexSha256": "0360c44086903f0b1335c7e5ac7b5acd54702846c575184216cfb0a37c9b40fa",
+  "finalDossierIndexSha256": "2cce4ece6a6f297e8400c4a9baf1ce6ecd36c389baebcfd94552ab58d885460e",
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/cross-clade-evidence-batch-2026-09-28-d.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 3,
+    "bytes": 22924,
+    "sha256": "f8a7c08eaee14e17bafa0500b15efdd578c3dbded9357da0362a0b0e12957965"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-cross-clade-evidence-2026-09-28-d.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 22924,
+    "decodedSha256": "f8a7c08eaee14e17bafa0500b15efdd578c3dbded9357da0362a0b0e12957965",
+    "compressedBytes": 4201,
+    "compressedSha256": "1479c8dc89bbed7064a5acc265b67a030275ce7c5b8a9eb6131d0f8041db94be",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "dossierCountBefore": 36340,
+  "dossierCountAfter": 36343,
+  "generator": "scripts/build-cross-clade-evidence-batch-2026-09-28-d.mjs",
+  "fullDossierCountAdded": 0,
+  "expertReviewedDossierCountAdded": 0
+}
