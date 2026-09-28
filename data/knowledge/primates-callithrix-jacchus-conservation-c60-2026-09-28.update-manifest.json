@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-callithrix-jacchus-conservation-batch60-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-callithrix-jacchus-conservation-c60-2026-09-28.json",
+    "sha256": "20b479f2886d526148e4a34cd47ecb03d127380c2b90e2c892e9b493cc2e6f86"
+  },
+  "baseAudit": {
+    "baseHead": "0919f1692ebd08e8d39c35f6f7a1e3c996fb297e",
+    "indexedRecordCount": 36354,
+    "openPullRequests": [],
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "queueRowSha256": "a63c799a8c51fdcb6da0522a63167e1455ab0d16100ac27184f8cb92e5e234ab",
+    "duplicateChecks": {
+      "stableId": "doi:10.1038/s41598-021-04276-7",
+      "localSearch": "No match before addition in data/knowledge/raw-dossiers, data/sources, data/references.json, or docs.",
+      "githubAllStateIssueQueries": [
+        "10.1038/s41598-021-04276-7",
+        "35087079",
+        "Callithrix aurita hybridization"
+      ],
+      "githubAllStatePullRequestQueries": [
+        "10.1038/s41598-021-04276-7",
+        "35087079",
+        "Callithrix aurita hybridization"
+      ],
+      "matchingIssues": [],
+      "matchingPullRequests": []
+    }
+  },
+  "target": {
+    "colId": "697NS",
+    "scientificName": "Callithrix jacchus (Linnaeus, 1758)",
+    "sourceDatasetId": "2144"
+  },
+  "addedSources": [
+    {
+      "id": "nogueira2022hybridization",
+      "stableId": "doi:10.1038/s41598-021-04276-7",
+      "licenseAssessment": "item-level-verified"
+    }
+  ],
+  "addedClaims": [
+    {
+      "facet": "conservation",
+      "sourceId": "nogueira2022hybridization",
+      "locator": "Results, Sample data and COX2 analysis (18 free-living putative hybrids; five HCj samples); Table 1 and Fig. 1 (sample IDs, localities, capture years); Discussion (hybridization context and limitations of uniparental markers)."
+    }
+  ],
+  "updatedFacets": [
+    {
+      "facet": "conservation",
+      "status": "partially-supported"
+    }
+  ],
+  "indexedRecordCount": 36354,
+  "updatedShard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-callithrix-jacchus-batch27-2026-09-25.jsonl.br",
+    "rawPath": "data/knowledge/raw-dossiers/primates-callithrix-jacchus-batch27-2026-09-25.jsonl",
+    "encoding": "brotli-jsonl",
+    "recordCount": 1,
+    "decodedBytes": 37745,
+    "decodedSha256": "709b966605bc7deba60961059cef465163b7e9e8b74ef4b2d4a14ed2adbaaecc",
+    "compressedBytes": 10138,
+    "compressedSha256": "525bd3651717f2b4cf57db1da85a3959cea42cb19028e55d614f4ee275f53ce0",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "classificationPathIds": [
+    "CS5HF",
+    "N",
+    "CH2",
+    "8V4V3",
+    "8V4V5",
+    "8VVWB",
+    "9CK8W",
+    "6224G",
+    "6226C",
+    "LG",
+    "3W7",
+    "4DT",
+    "4PM",
+    "7KR",
+    "3FM4",
+    "697NS"
+  ],
+  "queueBaseline": {
+    "path": "data/knowledge/species-evidence-queue/8.jsonl.br",
+    "rowSha256": "a63c799a8c51fdcb6da0522a63167e1455ab0d16100ac27184f8cb92e5e234ab",
+    "dossier": {
+      "dossierStatus": "incomplete",
+      "identityStatus": "source-linked",
+      "identitySourceIds": [
+        "col"
+      ],
+      "sourceIds": [
+        "benavides2022",
+        "col",
+        "malukiewicz2021",
+        "malukiewicz2024",
+        "takahashi2014",
+        "wienand2026",
+        "ziegler2017"
+      ],
+      "claimCount": 8,
+      "rightsStatus": "item-level-verified",
+      "systematicSearchRecorded": true,
+      "conservationStatus": "not-assessed",
+      "expertReviewStatus": "not-reviewed"
+    }
+  },
+  "generator": "scripts/update-primates-callithrix-conservation-c60.mjs",
+  "updateMode": "in-place-add-one-bounded-conservation-interaction-claim",
+  "appAndPagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+  "appAndPagesPreviewManifestChanged": false
+}
