@@ -4,7 +4,7 @@ import { ErrorBoundary } from './components/common/ErrorBoundary'
 import { AppShell } from './components/shell/AppShell'
 import { buildRouteHash, parseRouteHash, type AppRoute } from './utils/routing'
 import { useI18n } from './i18n'
-import { isPagesPreview, isPreviewRouteLocked } from './config/pagesPreview'
+import { isNativeCore, isPagesPreview, isPreviewRouteLocked } from './config/pagesPreview'
 import { isBackendConfigured } from './data-client/backendClient'
 import { PagesPreviewGate } from './components/common/PagesPreviewGate'
 
@@ -53,7 +53,12 @@ export default function App() {
   const exploring = route === 'home' || route === 'explore'
   const [explorerRoute, setExplorerRoute] = useState(exploring ? routeState : null)
   if (exploring && explorerRoute !== routeState) setExplorerRoute(routeState)
-  const previewLocked = isPagesPreview && isPreviewRouteLocked(route, routeState.params)
+  const previewLocked = isPreviewRouteLocked(
+    route,
+    routeState.params,
+    isPagesPreview,
+    isNativeCore && isBackendConfigured(),
+  )
   const loadIntervals = useAppStore((s) => s.loadIntervals)
 
   useEffect(() => {
