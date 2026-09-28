@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-priority-core-b60-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-priority-core-b60-2026-09-28.json",
+    "sha256": "0be3f516719d4a939af33df0020ec558483dd33ccc5d27a4ebd631e93edbc027"
+  },
+  "preparedAgainst": {
+    "head": "b26cc2f5f454fb07124654a96a49c29679d0b842",
+    "openPullRequestsMatching": [],
+    "checkedAt": "2026-09-28"
+  },
+  "audit": {
+    "dossierIndexPath": "data/knowledge/catalogue-dossier-shards.json",
+    "dossierIndexRecordCount": 36354,
+    "dossierIndexSha256": "5805f6ef51da16b39951e3e1076565de5422d150b46f028206989c93b04b28f2",
+    "queueManifestPath": "data/knowledge/species-evidence-queue/manifest.json",
+    "queueManifestSha256": "dbb5ccb2c706b1df4447a6341c325c26a19ecf133c3504c700a30b957d314e96",
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "targets": {
+      "4LTT2": {
+        "targetRecordSha256": "5c8054ae6ba94c30931be55abb45739c28acb71ae1d24d7597b7b5404557173e",
+        "rawPath": "data/knowledge/raw-dossiers/primates-core-batch5-2026-09-24.jsonl",
+        "rawSha256": "dab349a3ecf463d170d29c6f763cb80fbba8f745a69b3e8179ae730ef0925ae3",
+        "shardPath": "data/knowledge/catalogue-dossiers-primates-core-batch5-2026-09-24.jsonl.br",
+        "shardCompressedSha256": "2492ff2d4545505f6fb4a20657f2e125be814d11d527184adfbfe0cecb43ca27",
+        "batchManifestPath": "data/knowledge/catalogue-dossiers-primates-core-batch5-2026-09-24.batch-manifest.json",
+        "batchManifestSha256": "fed656550e4ad4eda1f0201d0f7d680a3bd1a9577b92dfba0565ee24b34467d7",
+        "existingSourceStableIdOccurrences": [],
+        "queue": {
+          "prefix": "a",
+          "path": "data/knowledge/species-evidence-queue/a.jsonl.br",
+          "compressedSha256": "707b8a1e86ea780632b482dc6907dd9662f75a725942dc30074a6897dd33c013",
+          "decodedSha256": "9932dc46b98d59d51185b5472aca1dac2a8e5e2c3b3f82292e8694eaf38d9b6a",
+          "rowSha256": "8040c97544c82149fc7e73527fc8637b263aca0ce9e9ed633e060cb195fbaba4"
+        }
+      },
+      "3H3C3": {
+        "targetRecordSha256": "0124c8f0c601ea72b5583dab65d3dfd149b442e07150b8c79b092e963f33c240",
+        "rawPath": "data/knowledge/raw-dossiers/primates-gorilla-beringei-batch12-2026-09-24.jsonl",
+        "rawSha256": "aa0475351df640c7c0a5ca6a5ac5948bea5d7f0f2e3fb87cef31d484f6cc5e1a",
+        "shardPath": "data/knowledge/catalogue-dossiers-primates-gorilla-beringei-batch12-2026-09-24.jsonl.br",
+        "shardCompressedSha256": "5abd9b1d32590a83a8399905d8b6ffc9adb1efc0f62bdacb8a2c4fe426e5362e",
+        "batchManifestPath": "data/knowledge/catalogue-dossiers-primates-gorilla-beringei-batch12-2026-09-24.batch-manifest.json",
+        "batchManifestSha256": "6e41680cfce9624b7584c982c6602b350553a9a3fb5ad83a0d3214e375f41ff7",
+        "existingSourceStableIdOccurrences": [
+          "3H3C9"
+        ],
+        "queue": {
+          "prefix": "9",
+          "path": "data/knowledge/species-evidence-queue/9.jsonl.br",
+          "compressedSha256": "eedd8c525e38cbacdc98467374d3a8fb5f7295ef333072f79482a9e66d1e0394",
+          "decodedSha256": "34b97a40d3fc7613f2d06649fb49a92b672b4ba6a4d0e115d861ae8b3a05da81",
+          "rowSha256": "5e7b6015cff571e321cb2a277d961a6c9ec39c10891413254888963721b30308"
+        }
+      }
+    }
+  },
+  "outputs": [
+    {
+      "colId": "4LTT2",
+      "scientificName": "Pongo pygmaeus (Linnaeus, 1760)",
+      "facet": "distribution",
+      "claimCount": 1,
+      "previousRawSha256": "dab349a3ecf463d170d29c6f763cb80fbba8f745a69b3e8179ae730ef0925ae3",
+      "outputRawSha256": "0c8ccf04cf3d71777a4cd95fe644e60a7d1fd3025fec26e1bb692987c66d9114",
+      "previousCompressedSha256": "2492ff2d4545505f6fb4a20657f2e125be814d11d527184adfbfe0cecb43ca27",
+      "outputCompressedSha256": "d195635986107aabcd2c7a003adb2a5e66edc2bffaab40cedb9ae4a0111dba16",
+      "raw": {
+        "path": "data/knowledge/raw-dossiers/primates-core-batch5-2026-09-24.jsonl",
+        "encoding": "utf-8-jsonl-lf",
+        "recordCount": 2,
+        "bytes": 36526,
+        "sha256": "0c8ccf04cf3d71777a4cd95fe644e60a7d1fd3025fec26e1bb692987c66d9114"
+      },
+      "shard": {
+        "path": "data/knowledge/catalogue-dossiers-primates-core-batch5-2026-09-24.jsonl.br",
+        "encoding": "brotli-jsonl",
+        "recordCount": 2,
+        "decodedBytes": 36526,
+        "decodedSha256": "0c8ccf04cf3d71777a4cd95fe644e60a7d1fd3025fec26e1bb692987c66d9114",
+        "compressedBytes": 8507,
+        "compressedSha256": "d195635986107aabcd2c7a003adb2a5e66edc2bffaab40cedb9ae4a0111dba16",
+        "brotliParameters": {
+          "mode": "text",
+          "quality": 11
+        },
+        "roundTrip": "exact-byte-match"
+      },
+      "batchManifest": {
+        "path": "data/knowledge/catalogue-dossiers-primates-core-batch5-2026-09-24.batch-manifest.json",
+        "sha256": "ee357264e8a85a2c77451328642ad41b5157eeeca715d503365c1cde4fb7a31f"
+      }
+    },
+    {
+      "colId": "3H3C3",
+      "scientificName": "Gorilla beringei Matschie, 1903",
+      "facet": "lifeHistory",
+      "claimCount": 1,
+      "previousRawSha256": "aa0475351df640c7c0a5ca6a5ac5948bea5d7f0f2e3fb87cef31d484f6cc5e1a",
+      "outputRawSha256": "6fb136c9652f2e068d05ef005e096d787fcda56d7f63c96ae87bf5f58e6e28e9",
+      "previousCompressedSha256": "5abd9b1d32590a83a8399905d8b6ffc9adb1efc0f62bdacb8a2c4fe426e5362e",
+      "outputCompressedSha256": "1a01644a5ad523f011673824321443369d6a029684d816a38d512bf4e901570f",
+      "raw": {
+        "path": "data/knowledge/raw-dossiers/primates-gorilla-beringei-batch12-2026-09-24.jsonl",
+        "encoding": "utf-8-jsonl-lf",
+        "recordCount": 1,
+        "bytes": 23606,
+        "sha256": "6fb136c9652f2e068d05ef005e096d787fcda56d7f63c96ae87bf5f58e6e28e9"
+      },
+      "shard": {
+        "path": "data/knowledge/catalogue-dossiers-primates-gorilla-beringei-batch12-2026-09-24.jsonl.br",
+        "encoding": "brotli-jsonl",
+        "recordCount": 1,
+        "decodedBytes": 23606,
+        "decodedSha256": "6fb136c9652f2e068d05ef005e096d787fcda56d7f63c96ae87bf5f58e6e28e9",
+        "compressedBytes": 6362,
+        "compressedSha256": "1a01644a5ad523f011673824321443369d6a029684d816a38d512bf4e901570f",
+        "brotliParameters": {
+          "mode": "text",
+          "quality": 11
+        },
+        "roundTrip": "exact-byte-match"
+      },
+      "batchManifest": {
+        "path": "data/knowledge/catalogue-dossiers-primates-gorilla-beringei-batch12-2026-09-24.batch-manifest.json",
+        "sha256": "367396f622477c68df4071417aab3c2fb8ca95837d1c7e69417320039b6079de"
+      }
+    }
+  ],
+  "dossierIndex": {
+    "path": "data/knowledge/catalogue-dossier-shards.json",
+    "recordCount": 36354,
+    "sha256": "5d3d75cafe813bc6d7552e8d9e848305c14bc14530220931d6b1e1f3b1ce058a"
+  },
+  "appAndPagesPreviewManifestChanged": false,
+  "appCorePackageIds": [
+    "atlas-core",
+    "primates",
+    "perissodactyla",
+    "cetartiodactyla",
+    "dinosauria"
+  ],
+  "fullEvidenceQueueIncludedInRuntime": false,
+  "queueRebuildRequired": false,
+  "queueProjection": {
+    "manifestPath": "data/knowledge/species-evidence-queue/manifest.json",
+    "manifestSha256": "d3900a329bd71913b8dcc7d7092848edd7066b18bdad50b50acafb63422a7b72",
+    "dossierIndexSha256": "5d3d75cafe813bc6d7552e8d9e848305c14bc14530220931d6b1e1f3b1ce058a",
+    "acceptedSpecies": 2183133,
+    "dossierSpecies": 36354,
+    "notIncludedInRuntime": true,
+    "targets": [
+      {
+        "colId": "4LTT2",
+        "prefix": "a",
+        "path": "data/knowledge/species-evidence-queue/a.jsonl.br",
+        "recordCount": 136281,
+        "compressedSha256": "16a2051ec256b6ddef8e1bb664b8ed7732e2f61ef36d43e31e03ffbbcc2c3830",
+        "decodedSha256": "a483163fec8e7661e8faa5d0c80d63bcd528a1cc6dbfadbe088dd46e21d0b9f6",
+        "dossierStatus": "incomplete",
+        "claimCount": 5,
+        "rightsStatus": "item-level-verified",
+        "facetStatuses": {
+          "morphology": "partially-supported",
+          "lifeHistory": "partially-supported",
+          "ecology": "partially-supported",
+          "evolution": "partially-supported",
+          "distribution": "partially-supported",
+          "fossil": "not-assessed",
+          "conservation": "not-assessed"
+        },
+        "sourceIds": [
+          "ampeng2021usunapau",
+          "banes2016",
+          "col",
+          "scott2024",
+          "yuliani2023"
+        ]
+      },
+      {
+        "colId": "3H3C3",
+        "prefix": "9",
+        "path": "data/knowledge/species-evidence-queue/9.jsonl.br",
+        "recordCount": 136401,
+        "compressedSha256": "b5f51ae5079f57709fcf7333f0c888b764dfbb42a30cf1c426061849ff602749",
+        "decodedSha256": "2406a7c83513172b3ef4dd6d2a033f611a2033a1309843982491fd33b93dc436",
+        "dossierStatus": "incomplete",
+        "claimCount": 6,
+        "rightsStatus": "item-level-verified",
+        "facetStatuses": {
+          "morphology": "not-assessed",
+          "lifeHistory": "partially-supported",
+          "ecology": "partially-supported",
+          "evolution": "partially-supported",
+          "distribution": "partially-supported",
+          "fossil": "not-assessed",
+          "conservation": "partially-supported"
+        },
+        "sourceIds": [
+          "col",
+          "robbins2016",
+          "robbins2023gorillalifehistory",
+          "vanderValk2018mtDNA"
+        ]
+      }
+    ]
+  }
+}
