@@ -1,8 +1,9 @@
 import { execFileSync } from 'node:child_process'
 import { createHash } from 'node:crypto'
-import { existsSync, readFileSync } from 'node:fs'
+import { createReadStream, existsSync, readFileSync, statSync } from 'node:fs'
 import { resolve } from 'node:path'
-import { brotliDecompressSync, gunzipSync } from 'node:zlib'
+import { createInterface } from 'node:readline'
+import { createBrotliDecompress, createGunzip } from 'node:zlib'
 
 const [base, head = 'HEAD'] = process.argv.slice(2)
 if (!base || !head) throw new Error('Usage: node scripts/validate-data-increment.mjs <base-sha> <head-sha>')
@@ -41,37 +42,35 @@ for (const relativePath of changedDataPaths) {
     continue
   }
 
-  const bytes = readFileSync(absolutePath)
-  verifiedBytes += bytes.length
+  const fileBytes = statSync(absolutePath).size
+  verifiedBytes += fileBytes
   const expected = checksums[relativePath]
   if (typeof expected !== 'string') {
     failures.push(`${relativePath}: added or changed file is missing from manifest checksums`)
   } else {
-    const actual = createHash('sha256').update(bytes).digest('hex')
+    const actual = await hashFile(absolutePath)
     if (actual !== expected) failures.push(`${relativePath}: manifest checksum is stale`)
   }
 
-  if (bytes.length > 16 * 1024 * 1024) {
-    hashOnlyFiles++
-    continue
-  }
-
-  try {
-    if (relativePath.endsWith('.json')) {
-      JSON.parse(bytes.toString('utf8'))
+  const jsonLinesEncoding = relativePath.endsWith('.jsonl.br') ? 'br'
+    : relativePath.endsWith('.jsonl.gz') ? 'gzip'
+      : relativePath.endsWith('.jsonl') ? 'identity' : null
+  if (jsonLinesEncoding) {
+    try {
+      await parseJsonLinesFile(absolutePath, jsonLinesEncoding)
       parsedFiles++
-    } else if (relativePath.endsWith('.jsonl')) {
-      parseJsonLines(bytes.toString('utf8'))
-      parsedFiles++
-    } else if (relativePath.endsWith('.jsonl.br')) {
-      parseJsonLines(brotliDecompressSync(bytes).toString('utf8'))
-      parsedFiles++
-    } else if (relativePath.endsWith('.jsonl.gz')) {
-      parseJsonLines(gunzipSync(bytes).toString('utf8'))
-      parsedFiles++
+    } catch (error) {
+      failures.push(`${relativePath}: ${error instanceof Error ? error.message : String(error)}`)
     }
-  } catch (error) {
-    failures.push(`${relativePath}: ${error instanceof Error ? error.message : String(error)}`)
+  } else if (fileBytes > 16 * 1024 * 1024) {
+    hashOnlyFiles++
+  } else if (relativePath.endsWith('.json')) {
+    try {
+      JSON.parse(readFileSync(absolutePath, 'utf8'))
+      parsedFiles++
+    } catch (error) {
+      failures.push(`${relativePath}: ${error instanceof Error ? error.message : String(error)}`)
+    }
   }
 }
 
@@ -83,14 +82,25 @@ if (failures.length > 0) {
   console.log(`Incremental data validation passed: ${changedDataPaths.length} changed data file(s), ${parsedFiles} parsed, ${hashOnlyFiles} large file(s) checksum-only, ${verifiedBytes.toLocaleString()} changed bytes.`)
 }
 
-function parseJsonLines(text) {
-  const lines = text.split(/\r?\n/)
-  for (let index = 0; index < lines.length; index++) {
-    if (!lines[index].trim()) continue
+async function hashFile(path) {
+  const hash = createHash('sha256')
+  for await (const chunk of createReadStream(path)) hash.update(chunk)
+  return hash.digest('hex')
+}
+
+async function parseJsonLinesFile(path, encoding) {
+  const input = createReadStream(path)
+  const decoded = encoding === 'br' ? input.pipe(createBrotliDecompress())
+    : encoding === 'gzip' ? input.pipe(createGunzip()) : input
+  const lines = createInterface({ input: decoded, crlfDelay: Infinity })
+  let index = 0
+  for await (const line of lines) {
+    index++
+    if (!line.trim()) continue
     try {
-      JSON.parse(lines[index])
+      JSON.parse(line)
     } catch (error) {
-      throw new Error(`invalid JSONL at line ${index + 1}: ${error instanceof Error ? error.message : String(error)}`)
+      throw new Error(`invalid JSONL at line ${index}: ${error instanceof Error ? error.message : String(error)}`)
     }
   }
 }
