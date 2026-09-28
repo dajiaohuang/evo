@@ -23,7 +23,7 @@ const BATCH_MANIFEST_PATH = 'data/knowledge/catalogue-dossiers-cross-clade-evide
 const FACETS = ['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation']
 const EXPECTED_TRANSLATION = {
   '4CKZ5': { translationStatus: 'untranslated', originalLanguage: 'en' },
-  DTFQG: { translationStatus: 'translated', originalLanguage: 'es' },
+  DTFQG: { translationStatus: 'untranslated', originalLanguage: 'es' },
   DZD4: { translationStatus: 'untranslated', originalLanguage: 'en' },
 }
 const checkMode = process.argv.includes('--check')
