@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-papio-anubis-evolution-batch66-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-papio-anubis-evolution-b66-2026-09-28.json",
+    "sha256": "54692bf55260738507ccac37331b4215b0e282a2bc42d0781e16a04d0c0b7050"
+  },
+  "duplicateCheck": {
+    "mode": "in-place-update",
+    "indexedRecordCount": 36354,
+    "sourceStableIds": [
+      "doi:10.1186/s13100-018-0118-3"
+    ],
+    "sourceOccurrencesBeforeUpdate": 0,
+    "matchedColIds": [
+      "6TM9B"
+    ],
+    "matchedNames": [
+      "Papio anubis (Lesson, 1827)"
+    ],
+    "repositoryMatches": 0,
+    "openPullRequests": {
+      "queries": [
+        {
+          "query": "6TM9B",
+          "state": "open",
+          "returned": 0
+        },
+        {
+          "query": "10.1186/s13100-018-0118-3",
+          "state": "all",
+          "returned": 0
+        }
+      ],
+      "checkedAt": "2026-09-28"
+    },
+    "openIssues": {
+      "queries": [
+        {
+          "query": "6TM9B",
+          "state": "open",
+          "returned": 0
+        },
+        {
+          "query": "10.1186/s13100-018-0118-3",
+          "state": "all",
+          "returned": 0
+        }
+      ],
+      "checkedAt": "2026-09-28"
+    }
+  },
+  "previousUpdateAudit": {
+    "batchId": "primates-macaca-silenus-ecology-batch64-2026-09-28",
+    "baseHead": "cec2f1bd74a94f8ab65066dbd906389aa3aa44f0",
+    "indexedRecordCountAtAudit": 36354,
+    "targetColId": "3WWP6",
+    "targetScientificName": "Macaca silenus (Linnaeus, 1758)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+    "previousRawSha256": "c7ade4e4b3d6d99401f465e6b1971cd66706504489538baa4fd6fcdf987007e9",
+    "previousDecodedSha256": "c7ade4e4b3d6d99401f465e6b1971cd66706504489538baa4fd6fcdf987007e9",
+    "previousCompressedSha256": "e5322ed2df8195cac9649f5533600fac16f80ebdec254e12f277dd4968920c7c",
+    "previousTargetRecordSha256": "fc14c75acf608b40e0f66090108b57d60de8a0674a24357736270029d0045734",
+    "sourceStableId": "doi:10.1101/2024.12.09.627456",
+    "sourceOccurrenceCountBeforeUpdate": 0,
+    "existingEcologyClaimCountFromSource": 0,
+    "openPullRequests": {
+      "queries": [
+        "10.1101/2024.12.09.627456",
+        "Macaca silenus",
+        "3WWP6"
+      ],
+      "checkedAt": "2026-09-28",
+      "returned": 0
+    },
+    "openIssues": {
+      "queries": [
+        "10.1101/2024.12.09.627456"
+      ],
+      "checkedAt": "2026-09-28",
+      "returned": 0
+    },
+    "mode": "in-place-add-age-sex-seed-dispersal-evidence-to-existing-core-primate-dossier",
+    "indexedRecordCountAfterUpdate": 36354,
+    "outputRawSha256": "01d357d09ecf175adb5762460fa4a01cc7506c85d70f9ea13a6457ac3c925fc1",
+    "outputDecodedSha256": "01d357d09ecf175adb5762460fa4a01cc7506c85d70f9ea13a6457ac3c925fc1",
+    "outputCompressedSha256": "668ce7ea3938491ded2ae6db6a8b67c67d70354fb3a43302fe34e5f760d556ae"
+  },
+  "updateAudit": {
+    "batchId": "primates-papio-anubis-evolution-batch66-2026-09-28",
+    "baseHead": "e488adcdd8f8053345403679a72fef5313fc10da",
+    "indexedRecordCountAtAudit": 36354,
+    "targetColId": "6TM9B",
+    "targetScientificName": "Papio anubis (Lesson, 1827)",
+    "targetRecordCountBeforeUpdate": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+    "previousRawSha256": "01d357d09ecf175adb5762460fa4a01cc7506c85d70f9ea13a6457ac3c925fc1",
+    "previousDecodedSha256": "01d357d09ecf175adb5762460fa4a01cc7506c85d70f9ea13a6457ac3c925fc1",
+    "previousCompressedSha256": "668ce7ea3938491ded2ae6db6a8b67c67d70354fb3a43302fe34e5f760d556ae",
+    "previousTargetRecordSha256": "23069804e109045b5169da0dbc07c64189f3f51e471179a8e1d48278eb9f29c7",
+    "sourceStableId": "doi:10.1186/s13100-018-0118-3",
+    "sourceOccurrenceCountBeforeUpdate": 0,
+    "openPullRequestSearch": {
+      "queries": [
+        {
+          "query": "6TM9B",
+          "state": "open",
+          "returned": 0
+        },
+        {
+          "query": "10.1186/s13100-018-0118-3",
+          "state": "all",
+          "returned": 0
+        }
+      ],
+      "checkedAt": "2026-09-28"
+    },
+    "openIssueSearch": {
+      "queries": [
+        {
+          "query": "6TM9B",
+          "state": "open",
+          "returned": 0
+        },
+        {
+          "query": "10.1186/s13100-018-0118-3",
+          "state": "all",
+          "returned": 0
+        }
+      ],
+      "checkedAt": "2026-09-28"
+    },
+    "mode": "in-place-add-panel-limited-alu-evolution-evidence-to-existing-papio-anubis-record",
+    "indexedRecordCountAfterUpdate": 36354,
+    "outputRawSha256": "ffae84e1871ad3f2ee892c064429207be50036910485e52bb54d8725db4c70b8",
+    "outputDecodedSha256": "ffae84e1871ad3f2ee892c064429207be50036910485e52bb54d8725db4c70b8",
+    "outputCompressedSha256": "47ca04c1746f125f16b035547b25212afd76080b88980e90e43b3627a9146eea"
+  },
+  "sources": [
+    {
+      "id": "jordan2018",
+      "stableId": "doi:10.1186/s13100-018-0118-3",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "rightsHolder": "Article authors and rights holders identified by the publisher's license notice."
+    }
+  ],
+  "raw": {
+    "path": "data/knowledge/raw-dossiers/primates-dossiers-batch-3.jsonl",
+    "encoding": "utf-8-jsonl-lf",
+    "recordCount": 3,
+    "bytes": 63637,
+    "sha256": "ffae84e1871ad3f2ee892c064429207be50036910485e52bb54d8725db4c70b8"
+  },
+  "shard": {
+    "path": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+    "encoding": "brotli-jsonl",
+    "recordCount": 3,
+    "decodedBytes": 63637,
+    "decodedSha256": "ffae84e1871ad3f2ee892c064429207be50036910485e52bb54d8725db4c70b8",
+    "compressedBytes": 14341,
+    "compressedSha256": "47ca04c1746f125f16b035547b25212afd76080b88980e90e43b3627a9146eea",
+    "brotliParameters": {
+      "mode": "text",
+      "quality": 11
+    },
+    "roundTrip": "exact-byte-match"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "preservedSiblingColIds": [
+    "3WWNQ",
+    "3WWP6"
+  ],
+  "generator": "scripts/update-primates-papio-anubis-evolution-b66.mjs",
+  "updateMode": "in-place-enrichment-of-one-existing-record",
+  "appAndPagesPreviewManifestChanged": false,
+  "queueProjection": {
+    "inputManifestSha256": "f3111bc6dc9360735dad4b1587ea3144bc4e0c838032fd6628a38c60a54730e6",
+    "outputManifestPath": "data/knowledge/species-evidence-queue/manifest.json",
+    "outputManifestSha256": "901d8b291cb95de6f61d8bf883d69bea38e088f112ecaf91cef4bd8cad4ef622",
+    "inputDossierIndexSha256": "93178f315b26ca91418f85ca184f00daa098131430c73250fc22f09215d90d57",
+    "generatedBy": "scripts/build-species-evidence-queue.mjs",
+    "notIncludedInRuntime": true,
+    "affectedShard": {
+      "prefix": "9",
+      "path": "data/knowledge/species-evidence-queue/9.jsonl.br",
+      "recordCount": 136401,
+      "compressedSha256": "eedd8c525e38cbacdc98467374d3a8fb5f7295ef333072f79482a9e66d1e0394",
+      "decodedSha256": "34b97a40d3fc7613f2d06649fb49a92b672b4ba6a4d0e115d861ae8b3a05da81"
+    }
+  }
+}
