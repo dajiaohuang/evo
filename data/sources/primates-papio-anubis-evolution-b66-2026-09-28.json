@@ -1,0 +1,91 @@
+{
+  "batchId": "primates-papio-anubis-evolution-batch66-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-28",
+  "appAndPagesPreviewManifestChanged": false,
+  "target": {
+    "colId": "6TM9B",
+    "scientificName": "Papio anubis (Lesson, 1827)",
+    "rank": "species",
+    "sourceDatasetId": "2144"
+  },
+  "registry": {
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "audit": {
+    "baseHead": "e488adcdd8f8053345403679a72fef5313fc10da",
+    "indexedRecordCount": 36354,
+    "dossierIndexSha256": "f9d2b96ee3188ed57661510a0880b0abb644578cbd4f11962a74270a1b97e50b",
+    "queueManifestSha256": "f3111bc6dc9360735dad4b1587ea3144bc4e0c838032fd6628a38c60a54730e6",
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "targetRecordCount": 1,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+    "previousRawSha256": "01d357d09ecf175adb5762460fa4a01cc7506c85d70f9ea13a6457ac3c925fc1",
+    "previousShardDecodedSha256": "01d357d09ecf175adb5762460fa4a01cc7506c85d70f9ea13a6457ac3c925fc1",
+    "previousShardCompressedSha256": "668ce7ea3938491ded2ae6db6a8b67c67d70354fb3a43302fe34e5f760d556ae",
+    "previousTargetRecordSha256": "23069804e109045b5169da0dbc07c64189f3f51e471179a8e1d48278eb9f29c7",
+    "siblingColIds": [
+      "3WWNQ",
+      "3WWP6"
+    ],
+    "sourceOccurrenceCountBeforeUpdate": 0,
+    "repositorySearch": {
+      "scope": "data, docs, and scripts",
+      "queries": [
+        "jordan2018",
+        "doi:10.1186/s13100-018-0118-3",
+        "A computational reconstruction of Papio phylogeny using Alu insertion polymorphisms"
+      ],
+      "matches": 0
+    },
+    "openPullRequestSearch": {
+      "queries": [
+        { "query": "6TM9B", "state": "open", "returned": 0 },
+        { "query": "10.1186/s13100-018-0118-3", "state": "all", "returned": 0 }
+      ],
+      "checkedAt": "2026-09-28"
+    },
+    "openIssueSearch": {
+      "queries": [
+        { "query": "6TM9B", "state": "open", "returned": 0 },
+        { "query": "10.1186/s13100-018-0118-3", "state": "all", "returned": 0 }
+      ],
+      "checkedAt": "2026-09-28"
+    }
+  },
+  "source": {
+    "id": "jordan2018",
+    "title": "Jordan et al. (2018), A computational reconstruction of Papio phylogeny using Alu insertion polymorphisms",
+    "url": "https://link.springer.com/article/10.1186/s13100-018-0118-3",
+    "stableId": "doi:10.1186/s13100-018-0118-3",
+    "version": "Mobile DNA 9, article 13 (2018); version of record published 2018-04-05",
+    "publishedAt": "2018-04-05",
+    "accessedAt": "2026-09-28",
+    "locator": "Methods—Samples; Results—Phylogenetically informative Alu insertions; Fig. 4a; Rights and permissions.",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the publisher's Rights and permissions section.",
+    "licenseAssessment": "item-level-verified",
+    "scope": "Comparative genomic analysis of Alu insertion polymorphisms among six extant Papio species, using two sampled individuals per species. The claim is limited to this 12-individual panel; no article text, figure, table, or supplementary file is reproduced.",
+    "rightsHolder": "Article authors and rights holders identified by the publisher's license notice.",
+    "licenseVersion": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsEvidenceUrl": "https://link.springer.com/article/10.1186/s13100-018-0118-3",
+    "rightsEvidenceLocator": "Rights and permissions: the article is distributed under the Creative Commons Attribution 4.0 International License.",
+    "licenseAppliesTo": "Article text under the stated CC BY 4.0 license; separately provided data are waived under CC0 unless otherwise stated. This dossier paraphrases the article and reproduces no third-party material.",
+    "attribution": "Jordan VE, Walker JA, Beckstrom TO, et al. (2018). A computational reconstruction of Papio phylogeny using Alu insertion polymorphisms. Mobile DNA 9:13. https://doi.org/10.1186/s13100-018-0118-3. Findings paraphrased."
+  },
+  "claim": {
+    "text": "In a comparative genomic analysis of two sampled individuals from each of the six extant Papio species, 4,645 Alu insertion polymorphisms were classified as indicative of P. anubis: they were present in both sampled P. anubis individuals and absent from the other sampled Papio individuals. This panel-relative count does not estimate variation across the species or resolve every reticulate relationship.",
+    "textZh": "一项比较基因组研究对六个现生 Papio 种各取两只个体进行分析。按论文定义，4,645 个 Alu 插入多态位点出现在两只取样的橄榄狒狒中，且未见于其他取样的 Papio 个体，因此被归为 P. anubis 指示位点。此面板内计数不能代表该物种的全部遗传变异，也不能单独解析所有网状演化关系。",
+    "sourceIds": ["jordan2018"],
+    "locator": "Methods—Samples; Results—Phylogenetically informative Alu insertions; Fig. 4a.",
+    "placeTimeScope": "Genome panel of 12 baboons, with two individuals from each of six extant Papio species; collection locations and dates are not specified in the cited sample description. Published 2018.",
+    "lifeStatus": "The cited sample description does not classify the 12 genomic samples as wild or captive; no ecological status is inferred.",
+    "translationStatus": "translated",
+    "originalLanguage": "en"
+  },
+  "gaps": [
+    "The marker count is defined relative to two sampled individuals per Papio species. It does not estimate range-wide or within-species genomic diversity and does not resolve the full reticulate evolutionary history."
+  ]
+}

@@ -12,6 +12,18 @@
   GitHub Pages selections are unchanged; the full dossier archive remains
   outside the App bundle.
 
+## Unreleased Papio anubis evolutionary evidence — 2026-09-28
+
+- Added one panel-limited Alu insertion marker claim to the incomplete COL26.8
+  olive baboon dossier (`6TM9B`) from Jordan et al. (2018). The CC BY 4.0
+  publisher license was verified at the article level. The marker count is
+  defined from two sampled individuals per extant *Papio* species; it does not
+  estimate species-wide genomic diversity or resolve all reticulate history.
+  The dossier remains incomplete and not externally reviewed. App native-core
+  and GitHub Pages selections are unchanged; full dossier data stays outside
+  the App bundle. Source and reproducible update details are in the
+  [B66 update manifest](knowledge/primates-papio-anubis-evolution-b66-2026-09-28.update-manifest.json).
+
 ## Unreleased Caerostris darwini genomic evidence — 2026-09-28
 
 - Added the first incomplete COL26.8 dossier for *Caerostris darwini* (`68T95`),
