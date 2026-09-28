@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-mico-acariensis-evolution-b68-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-mico-acariensis-evolution-b68-2026-09-28.json",
+    "sha256": "ff36f213eb733d58ccf4c9456a414925d8260ed358a318258f28819933ea009d"
+  },
+  "target": {
+    "colId": "42MHS",
+    "scientificName": "Mico acariensis (M. van Roosmalen, T. van Roosmalen, Mittermeier & Rylands, 2000)",
+    "sourceDatasetId": "2144",
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-h.jsonl.br",
+    "sourceStableIdReused": "doi:10.5194/pb-10-7-2023",
+    "sourceOccurrenceCountBeforeUpdate": 1,
+    "evolutionClaimCountBeforeUpdate": 0,
+    "evolutionClaimCountAfterUpdate": 1
+  },
+  "audit": {
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "dossierIndexSha256": "23b7140c83138833396c4dd27fe9bf28406cbaa32f5d9745bb712cbef38bbe6c",
+    "dossierIndexRecordCount": 36354,
+    "targetShardPath": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-h.jsonl.br",
+    "targetShardCompressedSha256": "e03674b0d41fc41bd354c774720926d11ec8a712adb066e5f283f7d7cba08fc7",
+    "targetShardDecodedSha256": "6e4fa6e4fdbb970d0523cc52f1cec7c303fc6e1a923f5352b38bec88e9d9458b",
+    "targetRawSha256": "6e4fa6e4fdbb970d0523cc52f1cec7c303fc6e1a923f5352b38bec88e9d9458b",
+    "targetRecordSha256": "ee4188114703e9a6bb0d911c0cde5c702fb121e3cc555a155e7426aea77d62d0",
+    "targetRecordCount": 1,
+    "evolutionClaimCount": 0,
+    "sourceOccurrenceCount": 1,
+    "batchManifestSha256": "f58629d4d6ff76623f59845290b7a1ab00ed73ec834702ccbcb7ee3c52112db4",
+    "queueManifestSha256": "070f2e32bb7be1bde359722de11ad584872782d862b64fe77826e5534a8b9bf0",
+    "queueShardPath": "data/knowledge/species-evidence-queue/0.jsonl.br",
+    "queueShardCompressedSha256": "b31dd3d9648cc2ead107c96fdcf91de7904e12eb857e9514006200e85179a464",
+    "queueShardDecodedSha256": "51a161be78b7f827e761e8b8dcd204b6bd5006c5f50ec8761b26ece8d2da75d9",
+    "queueRowSha256": "37ee6d9f29714b470cd55805b4c8e31a2331f054b1876bd1b70a628f8cf76eac",
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363"
+  },
+  "output": {
+    "raw": {
+      "path": "data/knowledge/raw-dossiers/primate-evidence-batch-2026-09-28-h.jsonl",
+      "encoding": "utf-8-jsonl-lf",
+      "recordCount": 1,
+      "bytes": 10538,
+      "sha256": "9d4e2461d230633e176ab7423723f5e5b4278a5b2d32210ae3d5c9bbd40ca91c"
+    },
+    "shard": {
+      "path": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-h.jsonl.br",
+      "encoding": "brotli-jsonl",
+      "recordCount": 1,
+      "decodedBytes": 10538,
+      "decodedSha256": "9d4e2461d230633e176ab7423723f5e5b4278a5b2d32210ae3d5c9bbd40ca91c",
+      "compressedBytes": 2737,
+      "compressedSha256": "29c65815a512260e130fa42798f4de2673b320bc0b5833e3c384ad0d6669cee2",
+      "brotliParameters": {
+        "mode": "text",
+        "quality": 11
+      },
+      "roundTrip": "exact-byte-match"
+    },
+    "dossierIndex": {
+      "path": "data/knowledge/catalogue-dossier-shards.json",
+      "recordCount": 36354,
+      "sha256": "5805f6ef51da16b39951e3e1076565de5422d150b46f028206989c93b04b28f2"
+    },
+    "batchManifest": {
+      "path": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-h.batch-manifest.json",
+      "sha256": "68b632c6089f0fd58f39d72fc51e68034b5da151c7163d9cac397a9ce6f48ccd"
+    }
+  },
+  "appAndPagesPreviewManifestChanged": false,
+  "notIncludedInRuntime": true,
+  "queueProjection": {
+    "outputManifestPath": "data/knowledge/species-evidence-queue/manifest.json",
+    "outputManifestSha256": "dbb5ccb2c706b1df4447a6341c325c26a19ecf133c3504c700a30b957d314e96",
+    "inputDossierIndexSha256": "5805f6ef51da16b39951e3e1076565de5422d150b46f028206989c93b04b28f2",
+    "notIncludedInRuntime": true,
+    "affectedShard": {
+      "prefix": "0",
+      "path": "data/knowledge/species-evidence-queue/0.jsonl.br",
+      "recordCount": 135942,
+      "compressedSha256": "7999d346d236a7fb084ede174b984d76409137eb29bfc4c911e48c43b1ba1bac",
+      "decodedSha256": "fc1ba67bd56ceb7e215a717dfe8dddc2e6cc0914a4580f9a9d27a366514228a8"
+    },
+    "projectedTargetRow": {
+      "colId": "42MHS",
+      "dossierStatus": "incomplete",
+      "claimCount": 2,
+      "rightsStatus": "item-level-verified",
+      "facetStatuses": {
+        "morphology": "not-assessed",
+        "lifeHistory": "not-assessed",
+        "ecology": "not-assessed",
+        "evolution": "partially-supported",
+        "distribution": "partially-supported",
+        "fossil": "not-assessed",
+        "conservation": "not-assessed"
+      }
+    }
+  },
+  "schemaCorrection": {
+    "reason": "Remote Full-Web generation requires every partially-supported facet to include an explicit gaps array.",
+    "previousRevision": {
+      "sourceSha256": "cc95020c37d860aa870dc2d73743aa8364a511e4ebee9f78347ff8a7297c51f5",
+      "rawSha256": "fc6ec36f4cf06b50c698f3ffe998ffab03b244357e83944998f96d3374909203",
+      "compressedSha256": "15b39500a56e4f7217734681d50c80d9e073edc47fc6c9beaf16312614d9237b",
+      "dossierIndexSha256": "7a53ac0d58245244d1ae7af6ba83ba1a6d0fb26ace6baa06e4636bf17a2df274"
+    },
+    "addedEvolutionGaps": [
+      "The proposed contact zone and potential hybridization were not confirmed in this account; the authors call for additional surveys, specimens, and samples to establish whether the zone exists and assess population dynamics and hybridization."
+    ]
+  }
+}
