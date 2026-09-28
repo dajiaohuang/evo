@@ -11,22 +11,38 @@
   ],
   "path": "data/knowledge/catalogue-dossiers-primates-macaca-radiata-core-2026-09-26.jsonl.br",
   "rawPath": "data/knowledge/raw-dossiers/primates-macaca-radiata-core-2026-09-26.jsonl",
-  "rawSha256": "d92647b876f44d9969e4885a2f44fa0776a7b4478c9c20a2e1b0e30c5abb5a93",
-  "decodedSha256": "d92647b876f44d9969e4885a2f44fa0776a7b4478c9c20a2e1b0e30c5abb5a93",
-  "compressedSha256": "1b4f470e18eae15961d6d61ce68a610daaf59e1f9bf32a7f42d301c2f9c40576",
-  "decodedBytes": 9117,
-  "compressedBytes": 2703,
-  "checkedAt": "2026-09-27",
+  "rawSha256": "4486d4e3fd2ec0fefb584887ab885546590d863b5157ca35adba3178dff03dfa",
+  "decodedSha256": "4486d4e3fd2ec0fefb584887ab885546590d863b5157ca35adba3178dff03dfa",
+  "compressedSha256": "bf6d330de9eaf3999019e976b25eed56f6813047de5c251b3a9c6d77b3930252",
+  "decodedBytes": 13694,
+  "compressedBytes": 4046,
+  "checkedAt": "2026-09-28",
   "generationSource": "data/sources/primates-macaca-radiata-dossier.json",
   "generationSourceSha256": "af853a8e0dbe4388abc49572db345e631e816021cdfda52cc33d249b4e5ae56d",
   "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
   "duplicateCheck": {
     "mode": "in-place-update",
-    "indexedRecordCount": 7002,
+    "indexedRecordCount": 36354,
     "existingColIdCount": 1,
     "existingNormalizedNameCount": 1,
     "colId": "3WWP2",
     "scientificName": "Macaca radiata (É. Geoffroy Saint-Hilaire, 1812)"
   },
-  "updateMode": "refresh-one-existing-record-shard"
+  "updateMode": "refresh-one-existing-record-shard",
+  "supplementalUpdates": [
+    {
+      "batchId": "primates-macaca-radiata-morphology-batch65-2026-09-28",
+      "sourcePath": "data/sources/primates-macaca-radiata-morphology-b65-2026-09-28.json",
+      "sourceSha256": "c206c008d5fc898810084a3c326747b0df8a2242b480a9c653e5db1457e62131",
+      "generator": "scripts/update-primates-macaca-radiata-morphology-b65.mjs",
+      "baseHead": "f0fd74295acbeefacee113deec7c099de0708f32",
+      "previousRawSha256": "d92647b876f44d9969e4885a2f44fa0776a7b4478c9c20a2e1b0e30c5abb5a93",
+      "previousCompressedSha256": "1b4f470e18eae15961d6d61ce68a610daaf59e1f9bf32a7f42d301c2f9c40576",
+      "rawSha256": "4486d4e3fd2ec0fefb584887ab885546590d863b5157ca35adba3178dff03dfa",
+      "compressedSha256": "bf6d330de9eaf3999019e976b25eed56f6813047de5c251b3a9c6d77b3930252",
+      "stableId": "doi:10.1002/ajpa.23439",
+      "facet": "morphology",
+      "appAndPagesPreviewManifestChanged": false
+    }
+  ]
 }
