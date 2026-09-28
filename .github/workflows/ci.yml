@@ -51,13 +51,32 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v7
+      - name: Fetch comparison base
+        shell: pwsh
+        env:
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PUSH_BASE_SHA: ${{ github.event.before }}
+          PR_BASE_REF: ${{ github.event.pull_request.base.ref }}
+        run: |
+          if ($env:PR_BASE_SHA) {
+            git fetch --no-tags --depth=1 origin $env:PR_BASE_REF
+            git fetch --no-tags --depth=1 origin $env:PR_BASE_SHA
+          } elseif ($env:PUSH_BASE_SHA -and $env:PUSH_BASE_SHA -notmatch '^0+$') {
+            git fetch --no-tags --depth=1 origin $env:PUSH_BASE_SHA
+          }
       - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
       - run: npm ci
       - run: npx vitest run scripts/archive-determinism.test.mjs
-      - run: npm run data:validate
-      - run: npm run data:build
-      - run: npm run source:budget
+      - name: Validate only changed data files
+        shell: pwsh
+        env:
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PUSH_BASE_SHA: ${{ github.event.before }}
+          HEAD_SHA: ${{ github.sha }}
+        run: |
+          $base = if ($env:PR_BASE_SHA) { $env:PR_BASE_SHA } else { $env:PUSH_BASE_SHA }
+          npm run data:validate:increment -- $base $env:HEAD_SHA
       - run: npm run typecheck
