@@ -12,11 +12,11 @@
   ],
   "path": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
   "rawPath": "data/knowledge/raw-dossiers/primates-dossiers-batch-3.jsonl",
-  "rawSha256": "c7ade4e4b3d6d99401f465e6b1971cd66706504489538baa4fd6fcdf987007e9",
-  "decodedSha256": "c7ade4e4b3d6d99401f465e6b1971cd66706504489538baa4fd6fcdf987007e9",
-  "compressedSha256": "e5322ed2df8195cac9649f5533600fac16f80ebdec254e12f277dd4968920c7c",
-  "decodedBytes": 54821,
-  "compressedBytes": 12373,
+  "rawSha256": "01d357d09ecf175adb5762460fa4a01cc7506c85d70f9ea13a6457ac3c925fc1",
+  "decodedSha256": "01d357d09ecf175adb5762460fa4a01cc7506c85d70f9ea13a6457ac3c925fc1",
+  "compressedSha256": "668ce7ea3938491ded2ae6db6a8b67c67d70354fb3a43302fe34e5f760d556ae",
+  "decodedBytes": 59809,
+  "compressedBytes": 13442,
   "checkedAt": "2026-09-28",
   "generationSource": "data/sources/primates-dossiers-batch-3.json",
   "generationSourceSha256": "f950f3d0af0905f136be4356a6b33a62daec577b1be271ae8578a4aa32c41905",
@@ -138,35 +138,59 @@
       "decodedSha256": "c7ade4e4b3d6d99401f465e6b1971cd66706504489538baa4fd6fcdf987007e9",
       "compressedSha256": "e5322ed2df8195cac9649f5533600fac16f80ebdec254e12f277dd4968920c7c",
       "mode": "in-place-add-habitat-stratified-diet-evidence-to-existing-core-primate-dossier"
+    },
+    {
+      "batchId": "primates-macaca-silenus-ecology-batch64-2026-09-28",
+      "sourcePath": "data/sources/primates-macaca-silenus-ecology-b64-2026-09-28.json",
+      "sourceSha256": "633134d7fbafdfad17bdb8eee872cb93269733680e46f19a515fad340a2ae1de",
+      "generator": "scripts/update-primates-macaca-silenus-ecology-b64.mjs",
+      "baseHead": "cec2f1bd74a94f8ab65066dbd906389aa3aa44f0",
+      "indexedRecordCountAtAudit": 36354,
+      "targetColIds": [
+        "3WWP6"
+      ],
+      "previousDecodedSha256": "c7ade4e4b3d6d99401f465e6b1971cd66706504489538baa4fd6fcdf987007e9",
+      "previousCompressedSha256": "e5322ed2df8195cac9649f5533600fac16f80ebdec254e12f277dd4968920c7c",
+      "decodedSha256": "01d357d09ecf175adb5762460fa4a01cc7506c85d70f9ea13a6457ac3c925fc1",
+      "compressedSha256": "668ce7ea3938491ded2ae6db6a8b67c67d70354fb3a43302fe34e5f760d556ae",
+      "mode": "in-place-add-age-sex-seed-dispersal-evidence-to-existing-core-primate-dossier"
     }
   ],
   "updateAudit": {
-    "batchId": "primates-macaca-silenus-diet-batch63-2026-09-28",
-    "baseHead": "4750035ae242c70327a71123cdb25642c039a935",
-    "indexedRecordCountAtAudit": 36330,
+    "batchId": "primates-macaca-silenus-ecology-batch64-2026-09-28",
+    "baseHead": "cec2f1bd74a94f8ab65066dbd906389aa3aa44f0",
+    "indexedRecordCountAtAudit": 36354,
     "targetColId": "3WWP6",
     "targetScientificName": "Macaca silenus (Linnaeus, 1758)",
     "targetRecordCountBeforeUpdate": 1,
     "targetShardPath": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
-    "previousRawSha256": "7be7f2bf119f62e571b3c33a9f86af253a787ea163862942c4c26fee37c641e4",
-    "previousDecodedSha256": "7be7f2bf119f62e571b3c33a9f86af253a787ea163862942c4c26fee37c641e4",
-    "previousCompressedSha256": "973454bb5615203895ea2947432aaad269ab90ba5624659e3142aace5f01e756",
-    "previousTargetRecordSha256": "49e1064e4352754495d0242faee5ec1857152b24b9f227070339657117f2eacb",
-    "sourceStableId": "doi:10.1371/journal.pone.0238695",
-    "sourceOccurrenceCountBeforeUpdate": 1,
-    "existingEcologyClaimCountFromSource": 1,
+    "previousRawSha256": "c7ade4e4b3d6d99401f465e6b1971cd66706504489538baa4fd6fcdf987007e9",
+    "previousDecodedSha256": "c7ade4e4b3d6d99401f465e6b1971cd66706504489538baa4fd6fcdf987007e9",
+    "previousCompressedSha256": "e5322ed2df8195cac9649f5533600fac16f80ebdec254e12f277dd4968920c7c",
+    "previousTargetRecordSha256": "fc14c75acf608b40e0f66090108b57d60de8a0674a24357736270029d0045734",
+    "sourceStableId": "doi:10.1101/2024.12.09.627456",
+    "sourceOccurrenceCountBeforeUpdate": 0,
+    "existingEcologyClaimCountFromSource": 0,
     "openPullRequests": {
       "queries": [
+        "10.1101/2024.12.09.627456",
         "Macaca silenus",
         "3WWP6"
       ],
       "checkedAt": "2026-09-28",
       "returned": 0
     },
-    "mode": "in-place-add-habitat-stratified-diet-evidence-to-existing-core-primate-dossier",
-    "indexedRecordCountAfterUpdate": 36330,
-    "outputRawSha256": "c7ade4e4b3d6d99401f465e6b1971cd66706504489538baa4fd6fcdf987007e9",
-    "outputDecodedSha256": "c7ade4e4b3d6d99401f465e6b1971cd66706504489538baa4fd6fcdf987007e9",
-    "outputCompressedSha256": "e5322ed2df8195cac9649f5533600fac16f80ebdec254e12f277dd4968920c7c"
+    "openIssues": {
+      "queries": [
+        "10.1101/2024.12.09.627456"
+      ],
+      "checkedAt": "2026-09-28",
+      "returned": 0
+    },
+    "mode": "in-place-add-age-sex-seed-dispersal-evidence-to-existing-core-primate-dossier",
+    "indexedRecordCountAfterUpdate": 36354,
+    "outputRawSha256": "01d357d09ecf175adb5762460fa4a01cc7506c85d70f9ea13a6457ac3c925fc1",
+    "outputDecodedSha256": "01d357d09ecf175adb5762460fa4a01cc7506c85d70f9ea13a6457ac3c925fc1",
+    "outputCompressedSha256": "668ce7ea3938491ded2ae6db6a8b67c67d70354fb3a43302fe34e5f760d556ae"
   }
 }
