@@ -242,4 +242,12 @@ export const primatesZhKeys = new Set<string>([
   "evolution",
   "At Ilsenhöhle in Ranis, collagen isotopes from 10 human remains, interpreted with 52 animal remains, indicated a large-terrestrial-mammal diet in a cold steppe–tundra setting. This single cave sample does not describe Homo sapiens generally.",
   "One-year monitoring of an 11-km NH-7 segment near Pench recorded 54 rhesus macaque road deaths in 2009–2010 (27 summer, 19 winter, 8 monsoon). Local associations with traffic and roadside feeding do not establish population mortality or current/global conservation status.",
+  "Selected evidence spans Chinese population genomics, one Buxa troop, managed Cayo Santiago cohorts and one NH-7 road segment. The 54 road deaths recorded in 2009–2010 are a local count, not a population mortality estimate or current conservation assessment.",
+  "Selected evidence includes a 2017 southern India survey and one 2018 interspecific craniodental comparison with 79 bonnet-macaque specimens. The latter does not establish within-species diagnostic variation; life history, species-range limits and current formal conservation status remain unassessed, and this profile has not received independent expert review.",
+  "The ecological observations come from one habituated troop during the 2016 dry season; genetic sampling and a separate four-group preprint have different scopes. Together these sources remain incomplete and do not provide a range-wide or annual ecological synthesis.",
+  "The selected profile links captive growth, Gombe reproductive records, a Lake Manyara survey-method comparison and a 12-individual Papio genomic panel. Global distribution, fossil record and formal conservation status remain unassessed; the dossier is incomplete and has not received independent expert review.",
+  "Archaeological sample sites south of the Limpopo River across central and southern South Africa; 28 sampled individuals date to 10,200–150 calibrated years before present.",
+  "Tam Pà Ling cave, northern Laos; TPL 6 and TPL 7 are associated with sediment-age models, not direct fossil dates.",
+  "Ilsenhöhle at Ranis, Germany; a cave diet study analyzed 10 human remains alongside 52 animal remains.",
+  "Selected ancient evidence includes two Tam Pà Ling fossils, a Ranis isotope sample, Ust’-Ishim 1 and a 28-person southern African genomic study. Their dates and sample designs differ; together they do not form a complete modern range, origin date or migration history.",
 ])
