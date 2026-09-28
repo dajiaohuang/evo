@@ -2,6 +2,10 @@
 
 RC169 / COL26.8（2026-08-20）。分类、来源原文、来源字段标签、入门概述、完整档案与专家评审分别计量，不能互相替代。
 
+## 灵长目重点：冠猕猴线粒体系统地理证据（2026-09-29）
+
+- 为 `3WWP2`（*Macaca radiata*）现有档案补充一条演化证据：Dixit et al.（2018）分析了印度南部 16 个地点、82 份粪便样本衍生的线粒体 D-loop 序列；所采湿区/旱区样本未分成不同 mtDNA 支系，单倍型没有地理聚集，隔离随距离关系较弱且不显著（r = 0.298，p = 0.09）。结果只限单一线粒体标记与研究取样框，不代表核/全基因组或全分布区结构；人为转移是作者假说而非已证实因果，另一个圈养样本队列不纳入本主张。期刊页 CC BY 4.0 已逐项核验；演化仍为 partially-supported，档案仍为 incomplete、not-reviewed。App 与 GitHub Pages 继续共用精选核心档案，完整数据仍在 App 之外。详见[更新清单](../data/knowledge/primates-macaca-radiata-evolution-b66-2026-09-28.update-manifest.json)。
+
 ## 灵长目重点：普通绒猴保育关联证据（2026-09-28）
 
 - 为 `697NS`（*Callithrix jacchus*）补充一条保育关联档案：在 2004–2013 年巴西东南部四个地点采集的 18 只自由活动、外形疑似杂交的绒猴中，5 只带有普通绒猴母系 COX2 单倍型。论文将普通绒猴等外来近缘种与原生受威胁种 *C. aurita* 的杂交列为保育关注；这项观察不估算普通绒猴杂交频率、种群影响或趋势。期刊文章 CC BY 4.0 已逐篇核验；此保育 facet 仅为 partially-supported，档案仍为 incomplete、not-reviewed。App native-core 与 GitHub Pages preview 继续共用精选清单，`primates` 与普通绒猴都在其中；完整档案和证据队列仍在 App 之外。详见[更新清单](../data/knowledge/primates-callithrix-jacchus-conservation-c60-2026-09-28.update-manifest.json)。

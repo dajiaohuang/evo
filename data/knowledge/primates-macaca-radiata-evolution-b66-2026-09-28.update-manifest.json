@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-macaca-radiata-evolution-b66-2026-09-28",
+  "releaseAlias": "COL26.8",
+  "input": {
+    "path": "data/sources/primates-macaca-radiata-evolution-b66-2026-09-28.json",
+    "sha256": "ffd420911e92fd71659eb0d664be3d30e968448e467c678e7ff0669a58a4e9ae"
+  },
+  "audit": {
+    "baseHead": "6a0b58b32a933f1ddd7d075da2f92cd85e103efc",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "pagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+    "previousRawSha256": "4486d4e3fd2ec0fefb584887ab885546590d863b5157ca35adba3178dff03dfa",
+    "previousCompressedSha256": "bf6d330de9eaf3999019e976b25eed56f6813047de5c251b3a9c6d77b3930252",
+    "previousTargetRecordSha256": "e078de11f68cb323987e873d4e31aefc505424eb1cf38be9bbc874911ff8ae47",
+    "queue": {
+      "shardPath": "data/knowledge/species-evidence-queue/8.jsonl.br",
+      "compressedSha256": "91521ade13baebc07f997327d7cbac350659e699b24246e18e0d8980d2f93446",
+      "rowSha256": "db3f4a8747f31b97231c783c1e1ed83fad71980ebce47cde4b801e465b1c1e56",
+      "claimCount": 5,
+      "evolutionStatus": "not-assessed"
+    },
+    "profileRecords": {
+      "data/packages/mammalia/primates/profiles.source.json": "6503b4a5eb51f6ec8e6f613bcd65beb869ac0b332e09290c9e750d8b4c124f52",
+      "data/packages/mammalia/primates/profiles.json": "4ba554c2c9c632b6921a23e69f0a8609d6b4ea177739819216918fa32233f4ab",
+      "data/registry/taxon-profiles.json": "4ba554c2c9c632b6921a23e69f0a8609d6b4ea177739819216918fa32233f4ab"
+    },
+    "rootCounts": {
+      "evidenceClaims": 1356,
+      "references": 502,
+      "speciesFacetEvolutionPartiallySupported": 66,
+      "speciesFacetEvolutionNotAssessed": 2183067
+    },
+    "stableId": "doi:10.1371/journal.pntd.0006801",
+    "classificationPathIds": [
+      "3WWP2",
+      "5HYC",
+      "L4C",
+      "JB3",
+      "7X9",
+      "4X9",
+      "4PM",
+      "4DT",
+      "3W7"
+    ]
+  },
+  "target": {
+    "colId": "3WWP2",
+    "scientificName": "Macaca radiata (É. Geoffroy Saint-Hilaire, 1812)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "previewPackageId": "primates",
+    "previewTaxonId": "macaca_radiata"
+  },
+  "source": {
+    "id": "dixit2018",
+    "stableId": "doi:10.1371/journal.pntd.0006801",
+    "licenseAssessment": "item-level-verified",
+    "licenseVersion": "CC BY 4.0",
+    "rightsHolder": "The Authors"
+  },
+  "previous": {
+    "rawSha256": "4486d4e3fd2ec0fefb584887ab885546590d863b5157ca35adba3178dff03dfa",
+    "compressedSha256": "bf6d330de9eaf3999019e976b25eed56f6813047de5c251b3a9c6d77b3930252",
+    "targetRecordSha256": "e078de11f68cb323987e873d4e31aefc505424eb1cf38be9bbc874911ff8ae47",
+    "queueCompressedSha256": "91521ade13baebc07f997327d7cbac350659e699b24246e18e0d8980d2f93446",
+    "queueTargetRowSha256": "db3f4a8747f31b97231c783c1e1ed83fad71980ebce47cde4b801e465b1c1e56"
+  },
+  "output": {
+    "rawSha256": "6833ec545d596f9f1a33a456236090e2da2f02b0a7592d43b65d3bf4688f5b7b",
+    "compressedSha256": "390f8b2ac9692814ef21d69dff8e3577570ed8798daa04a0fd105602a56a6119",
+    "recordCount": 1,
+    "roundTrip": "exact-byte-match",
+    "queue": {
+      "path": "data/knowledge/species-evidence-queue/8.jsonl.br",
+      "decodedBytes": 98003568,
+      "decodedSha256": "873b86ed934382a89fd9797dbf73b00b01c4679b0331df6e709480deea7210ae",
+      "compressedBytes": 4500362,
+      "compressedSha256": "88ddd2c20abfb184f1c776ad2f78a123d8e3e8f7e98d5a70a46dcca17e162635",
+      "targetRowSha256": "409c5b6eb039b8bc3d9ed939d30873d696e795eeb2fbc510d3fbd14568c7319a"
+    },
+    "queueInputDossierShard": {
+      "path": "data/knowledge/catalogue-dossiers-primates-macaca-radiata-core-2026-09-26.jsonl.br",
+      "recordCount": 1,
+      "decodedSha256": "6833ec545d596f9f1a33a456236090e2da2f02b0a7592d43b65d3bf4688f5b7b",
+      "compressedSha256": "390f8b2ac9692814ef21d69dff8e3577570ed8798daa04a0fd105602a56a6119"
+    },
+    "sharedCoreFiles": [
+      "data/packages/mammalia/primates/profiles.source.json",
+      "data/packages/mammalia/primates/profiles.json",
+      "data/registry/taxon-profiles.json",
+      "data/evidence/claims.json"
+    ]
+  },
+  "updateMode": "in-place-add-one-bounded-evolution-claim-and-update-shared-core-profile",
+  "appAndPagesPreviewManifestSha256": "76a95b78ad6117d799f0c01ba7a74920df940955f3be22c568a461880b68a363",
+  "appAndPagesPreviewManifestChanged": false
+}
