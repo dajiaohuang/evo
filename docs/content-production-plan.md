@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：灵长类已有 55/530 个接受种有读者页；继续为其余 475 个未建读者页的接受种寻找本地材料，并排查 476 个未命中 dossier 索引的种。主龙类继续覆盖余下 19 个鳄目接受种和 Aves，并扩展恐龙、翼龙及鳄形类的类群介绍与化石素材。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石分母分开统计。
+下一执行动作：本批后灵长类有 60/530 个接受种有读者页；继续为其余 470 个未建读者页的接受种寻找材料，并排查 476 个未命中 dossier 索引的种。主龙类继续覆盖余下 19 个鳄目接受种和 Aves，并扩展恐龙、翼龙及鳄形类的类群介绍与化石素材。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石分母分开统计。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -161,12 +161,15 @@ P0 两篇样板已通过 PR #474 合并；P1 七个核心现生种已通过 PR #
 | C5Q8 Alouatta caraya | 局部研究导读；阿根廷、巴拉圭和巴西 22 个地点的遗传多样性与水库淹没比较 | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=C5Q8` | 一个遗传学研究、有限地点与标记；尚无 dossier，不推断全域现状 | P3-6 |
 | X6R3 Colobus angolensis | 局部研究导读；乌干达纳布加博湖附近罗文佐里安哥拉疣猴群体的多层级社会组织 | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=X6R3` | 单一地点、亚种和一年观察，不推广为全种群社会结构 | P3-7 |
 | 3T6ZR Leontopithecus chrysomelas | 局部研究导读；南巴伊亚金头狮面狨群体的 Pourouma 种子传播观察与模型 | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=3T6ZR` | 焦点群体、树属和模型阈值有限，不外推为全域生态效应 | P3-8 |
+| PMLQ Callicebus nigrifrons | 局部研究导读；米纳斯吉拉斯阿尔费纳斯周边森林残片中的出现记录与片区面积 | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=PMLQ` | 限于 45 个残片及邻近 20 个验证样点；摘要与图注对验证模型的次级变量不一致 | P3-9 |
+| 68VNQ Callithrix aurita | 局部研究导读；阿尔费纳斯森林残片中的出现记录与候选模型验证 | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=68VNQ` | 45 个残片中记录到 15 片；第二地区没有验证出该种模型不等于缺席 | P3-9 |
+| 6XJW7 Sapajus nigritus | 局部研究导读；阿尔费纳斯森林残片中的出现记录与片区面积 | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6XJW7` | 45 个残片中记录到 9 片；摘要与图 6 对验证模型的次级变量说法不一 | P3-9 |
 
 主龙分母按现生与化石两条来源线记录。现生部分：COL26.8（2026-08-20）严格接受种快照中，Aves（COL ID `V2`）有 11,044 种，Crocodylia（COL ID `329`）有 27 种，合计 11,071 种；计数按发布版分类树后代统计 `rank=species AND status=accepted`。来源：`data/sources/snapshots/package-species-coverage-col26.8-rc72.json` 与 `data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/`。
 
 化石部分采用 Paleobiology Database（PBDB）作可复现的工作分母：2026-09-29 按 `base_name=Archosauria&rank=species&status=accepted&extant=no&pres=regular` 查询，返回 4,664 个已接受、非现生、常规化石记录种级分类单元（[查询](https://paleobiodb.org/data1.2/taxa/list.json?base_name=Archosauria&rank=species&status=accepted&extant=no&pres=regular&limit=10000)，[参数说明](https://paleobiodb.org/data1.2/taxa/list_doc.html)）。这表示该数据库和检索条件下的记录数，不等于完整或稳定的全球化石物种清单。另有 534 个 ichno（遗迹）分类单元和 628 个 form（形态）分类单元，单独登记，不并入生物种工作分母。PBDB 名称与 COL 现生鸟类、鳄目接受种有 70 个精确双名匹配；名称相同不证明分类概念相同，完成概念级对照前不从两边总数中相减。子类群查询（非鸟恐龙 1,794、含已灭绝鸟类的 Dinosauria 3,537、翼龙 276、鳄形类 672）存在包含/交叠关系，只用于分批盘点，不相加。鸟类属于现生恐龙谱系，因此鸟类既列在现生目录线，也会出现在 Dinosauria 化石分类查询中；汇总覆盖时须按分类概念对照去重。PBDB 数字为 2026-09-29 查询快照，之后应按同一参数重取并记录日期。
 
-P3-1 至 P3-5 五批共 48 个目录档案写入双语导读；P3-6 为 Alouatta caraya（COL ID `C5Q8`）新增一条由 CC BY 4.0 原始研究支持的局部导读，P3-7 为 Colobus angolensis（COL ID `X6R3`）新增一条根据罗文佐里安哥拉疣猴单一野外研究撰写的局部导读，P3-8 为 Leontopithecus chrysomelas（COL ID `3T6ZR`）新增一条依据南巴伊亚一支焦点群体的原始观察与模型撰写的局部导读；三者均未建立 dossier。与 P1 七个现生核心页对照后，发现 P3-3 的 Macaca radiata（COL ID `3WWP2`）重复；目前唯一有读者导读的接受种为 57/530（7 个核心静态页与 51 个目录详情中有 1 个种重合）。54 个 dossier-backed 种和 3 个 profile-only 种有读者导读；473 个接受种仍没有读者页，476 个种未命中 dossier 索引。早期灵长类化石 7 篇已由本地静态页构建确认可打开；以上均不表示完成专家评审或完整科学档案。
+P3-1 至 P3-5 五批共 48 个目录档案写入双语导读；P3-6 为 Alouatta caraya（COL ID `C5Q8`）新增一条由 CC BY 4.0 原始研究支持的局部导读，P3-7 为 Colobus angolensis（COL ID `X6R3`）新增一条根据罗文佐里安哥拉疣猴单一野外研究撰写的局部导读，P3-8 为 Leontopithecus chrysomelas（COL ID `3T6ZR`）新增一条依据南巴伊亚一支焦点群体的原始观察与模型撰写的局部导读；P3-9 为 Callicebus nigrifrons（`PMLQ`）、Callithrix aurita（`68VNQ`）和 Sapajus nigritus（`6XJW7`）新增三条基于同一篇 CC BY 研究的局地破碎化导读，并保留来源对验证模型次级变量的内部不一致；这六条新增档案均未建立 dossier。与 P1 七个现生核心页对照后，发现 P3-3 的 Macaca radiata（COL ID `3WWP2`）重复；目前唯一有读者导读的接受种为 60/530（7 个核心静态页与 54 个目录详情中有 1 个种重合）。54 个 dossier-backed 种和 6 个 profile-only 种有读者导读；470 个接受种仍没有读者页，476 个种未命中 dossier 索引。早期灵长类化石 7 篇已由本地静态页构建确认可打开；以上均不表示完成专家评审或完整科学档案。
 
 当前主龙物种级 `CatalogueKnowledge` 导读由本批前的 0 增至 2：`Alligator mississippiensis`（COL `BTRB`，Crocodylia）和 `Parus major`（COL `75SVV`，Aves）。因此现生主龙导读为鳄目 1/27、鸟类 1/11,044，共 2/11,071；两页均为局部研究导读，不是完整种志或 dossier。已有 15 条恐龙、鳄形类/鸟类、海生爬行动物/翼龙包级 profiles 及三条类群阅读路径是精选入口，不是全种覆盖。
 
