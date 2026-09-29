@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "batchId": "archosaur-crocodylia-zknh-bite-force-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "ZKNH",
+    "scientificName": "Crocodylus moreletii Duméril & Bibron, 1851",
+    "rank": "species",
+    "sourceDatasetId": "1008",
+    "identityScope": "Exact accepted COL26.8 species usage ZKNH; the profile summarizes a historical adult bite-force sample, not a full species account."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1008",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/ZKNH",
+      "stableId": "col:ZKNH@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId and Crocodylia classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "erickson2012",
+      "title": "Insights into the Ecology and Evolutionary Success of Crocodilians Revealed through Bite-Force and Tooth-Pressure Experimentation",
+      "url": "https://doi.org/10.1371/journal.pone.0031781",
+      "stableId": "doi:10.1371/journal.pone.0031781",
+      "version": "PLOS ONE 7(3):e31781; published 2012-03-14",
+      "publishedAt": "2012-03-14",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Methods—Data Collection and Raw Data (TIPS) Analyses; Results; Table 1; Discussion; copyright and license information.",
+      "scope": "Bite-force and tooth-pressure experiments on the 23 living crocodilian species recognized when the study was published; 83 sexually mature individuals came from research, conservation and display institutions. Supports Table 1 measurements and cross-species body-mass comparisons, not field performance, range-wide variation or current taxonomic concepts.",
+      "license": "Creative Commons Attribution License, stated in the article; no numbered version is specified in the article text.",
+      "licenseAssessment": "item-level-verified-version-unspecified",
+      "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0031781",
+      "rightsEvidenceLocator": "Copyright and License information; open-access statement under the Creative Commons Attribution License.",
+      "attribution": "Erickson GM, Gignac PM, Steppan SJ, Lappin AK, Vliet KA, Brueggen JD, Inouye BD, Kledzik D, Webb GJW (2012). Insights into the Ecology and Evolutionary Success of Crocodilians Revealed through Bite-Force and Tooth-Pressure Experimentation. PLoS ONE 7(3):e31781. https://doi.org/10.1371/journal.pone.0031781. Claims are paraphrased; no figures or tables reproduced."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "erickson2012",
+      "text": "Erickson et al. tested one sexually mature morelet's crocodile (n=1; sample mass about 110 kg) and reported a taxon-representative molariform bite force of 4399 N; the study cannot estimate within-species variation from one individual.",
+      "scope": "Taxon-representative molariform measurements from the paper's 2012 taxonomic treatment; not a current wild-population estimate."
+    },
+    {
+      "sourceId": "erickson2012",
+      "text": "The study used the highest of three to five bites per animal and identified body mass as the main predictor of bite force across its sampled crocodilian species.",
+      "scope": "Study methods and cross-species result; does not establish this species' natural diet, maximum force or current conservation status."
+    }
+  ],
+  "gaps": [
+    "No multi-source species dossier is added.",
+    "Current range, ecology, population status and any correspondence between the study sample's historic taxon usage and later taxonomic splits are not established here."
+  ]
+}

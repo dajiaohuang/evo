@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "batchId": "archosaur-crocodylia-bite-force-overview-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "329",
+    "scientificName": "Crocodylia",
+    "rank": "order",
+    "sourceDatasetId": "1008",
+    "identityScope": "Exact accepted COL26.8 order Crocodylia; the group guide summarizes a 2012 comparative bite-force experiment and preserves its historical taxonomic scope."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1008",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/329",
+      "stableId": "col:329@COL26.8",
+      "scope": "Identity only: accepted order name, rank and sourceDatasetId.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "erickson2012",
+      "title": "Insights into the Ecology and Evolutionary Success of Crocodilians Revealed through Bite-Force and Tooth-Pressure Experimentation",
+      "url": "https://doi.org/10.1371/journal.pone.0031781",
+      "stableId": "doi:10.1371/journal.pone.0031781",
+      "version": "PLOS ONE 7(3):e31781; published 2012-03-14",
+      "publishedAt": "2012-03-14",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Methods—Data Collection and Raw Data (TIPS) Analyses; Results; Tables 1 and 2; Discussion; copyright and license information.",
+      "scope": "Comparative adult bite-force and tooth-pressure study of the 23 living crocodilian species recognized by the authors in 2012, with 83 sexually mature individuals.",
+      "license": "Creative Commons Attribution License, stated in the article; no numbered version is specified in the article text.",
+      "licenseAssessment": "item-level-verified-version-unspecified",
+      "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0031781",
+      "rightsEvidenceLocator": "Copyright and License information; open-access statement under the Creative Commons Attribution License.",
+      "attribution": "Erickson GM, Gignac PM, Steppan SJ, Lappin AK, Vliet KA, Brueggen JD, Inouye BD, Kledzik D, Webb GJW (2012). Insights into the Ecology and Evolutionary Success of Crocodilians Revealed through Bite-Force and Tooth-Pressure Experimentation. PLoS ONE 7(3):e31781. https://doi.org/10.1371/journal.pone.0031781. Claims are paraphrased; no figures or tables reproduced."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "erickson2012",
+      "text": "The study measured 83 sexually mature individuals from 23 living crocodilian species recognized at publication; taxon-representative molariform bite-force values ranged from 900 N in Paleosuchus palpebrosus to 8,983 N in Crocodylus porosus.",
+      "scope": "Historical study sample and Table 1 taxon representatives; not the full modern COL26.8 accepted-species set."
+    },
+    {
+      "sourceId": "erickson2012",
+      "text": "Body mass was the primary determinant of bite-force generation (phylogenetically corrected R²=0.87); rostral proportions accounted for only a small part of the remaining size-standardized variance, and Gavialis gangeticus was the low-relative-force outlier.",
+      "scope": "Cross-species comparative inference within the study's 2012 taxonomic sample."
+    }
+  ],
+  "gaps": [
+    "The experiment does not determine diet, field bite performance, population-level distributions or current conservation status for every species.",
+    "The 2012 study's 23 species do not equal the 27 accepted living Crocodylia species in COL26.8; measurements under older taxon concepts are not reassigned to later-separated lineages."
+  ]
+}
