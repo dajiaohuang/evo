@@ -1672,7 +1672,7 @@ export interface CatalogueKnowledgeProfile {
   reviewStatus: 'source-linked'
   checkedAt: string
   sections: Array<{ topic: string; text: { zh: string; en: string }; sourceIds: string[] }>
-  sources: Array<{ id: string; title: string; url: string; scope: { zh: string; en: string } }>
+  sources: Array<{ id: string; title: string | { zh: string; en: string }; url: string; scope: { zh: string; en: string } }>
   limitations: { zh: string; en: string }
 }
 
