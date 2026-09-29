@@ -309,6 +309,28 @@ P4-5 后的现生主龙种级导读为鳄目 27/27、Aves 5/11,044，共 32/11,0
 | 4GK9K Phoebastria immutabilis | 西北夏威夷群岛的报告期繁殖比例及北太平洋活动范围 | USGS 2009 报告 DOI `10.3133/sir20095131`，公有领域但排除第三方材料；数据截至 2005 年 | 双语已写；复用既有 dossier；尚未经过外部领域专家评审 / P4-6 |
 | 4GK9M Phoebastria nigripes | 西北夏威夷群岛的报告期繁殖比例及历史兼捕威胁 | 同一 USGS 2009 报告；历史评估，不代表当前死亡率或保育等级 | 双语已写；复用既有 dossier；尚未经过外部领域专家评审 / P4-6 |
 
-P4-6 后现生主龙种级导读预计为鳄目 27/27、Aves 9/11,044，共 36/11,071；鸟类仍有 11,035 个接受种无读者页。非鸟类恐龙、翼龙与非现生鳄形类仍按化石 PBDB 工作分母另行推进。
+PR #494 于 2026-09-29 合并后，P4-6 现生主龙种级导读确认为鳄目 27/27、Aves 9/11,044，共 36/11,071；鸟类仍有 11,035 个接受种无读者页。非鸟类恐龙、翼龙与非现生鳄形类仍按化石 PBDB 工作分母另行推进。
+
+### P3-24 巴西亚马逊间河区灵长类范围图导读
+
+依据 Mourthé 等（2022）及其补充表 S1，为 11 个 COL26.8 灵长类接受种新增双语目录详情导读，并为吼猴属（COL ID `6295H`）增加一条区域比较研究导读。每个种页仅介绍 IUCN 范围图与十个主要间河区的相交结果；不把区域地图相交说成现场逐点发现、种群数量或完整分布区。主文表 2 的分组总数与比例有内部不一致（80/81 种；46 种对应 57%/58%），各页在来源限制中保留说明。补充表 S1 将 Alouatta nigerrima 的属名误拼为 “Aloautta”，该条按 COL26.8 接受名对应并标明原拼写。
+
+| COL ID / 接受种 | 补充表 S1 的间河区范围图相交 | 页面入口 | 状态 | 批次 |
+| --- | --- | --- | --- | --- |
+| C5QM Alouatta seniculus | 5：Rondônia、Inambari、Jaú、Napo、Imeri | COL26.8 目录详情 `#/registry?release=COL26.8&id=C5QM` | 双语区域研究导读；非完整种志 | P3-24 |
+| C5QF Alouatta macconnelli | 2：Pantepui-Duida、Guiana | COL26.8 目录详情 `#/registry?release=COL26.8&id=C5QF` | 双语区域研究导读；非完整种志 | P3-24 |
+| C5QG Alouatta nigerrima | 2：Rondônia、Inambari | COL26.8 目录详情 `#/registry?release=COL26.8&id=C5QG` | 双语区域研究导读；保留补充表拼写问题 | P3-24 |
+| F6FT Aotus nigriceps | 2：Rondônia、Inambari | COL26.8 目录详情 `#/registry?release=COL26.8&id=F6FT` | 双语区域研究导读；非完整种志 | P3-24 |
+| F6G5 Aotus trivirgatus | 2：Pantepui-Duida、Guiana | COL26.8 目录详情 `#/registry?release=COL26.8&id=F6G5` | 双语区域研究导读；非完整种志 | P3-24 |
+| F6G7 Aotus vociferans | 3：Jaú、Napo、Imeri | COL26.8 目录详情 `#/registry?release=COL26.8&id=F6G7` | 双语区域研究导读；非完整种志 | P3-24 |
+| 67VL6 Ateles belzebuth | 2：Imeri、Pantepui-Duida | COL26.8 目录详情 `#/registry?release=COL26.8&id=67VL6` | 双语区域研究导读；非完整种志 | P3-24 |
+| J8PD Ateles paniscus | 1：Guiana | COL26.8 目录详情 `#/registry?release=COL26.8&id=J8PD` | 双语区域研究导读；非完整种志 | P3-24 |
+| P4C8 Cacajao hosomi | 1：Pantepui-Duida | COL26.8 目录详情 `#/registry?release=COL26.8&id=P4C8` | 双语区域研究导读；非完整种志 | P3-24 |
+| P4C7 Cacajao calvus | 3：Inambari、Jaú、Napo | COL26.8 目录详情 `#/registry?release=COL26.8&id=P4C7` | 双语区域研究导读；非完整种志 | P3-24 |
+| P4C9 Cacajao melanocephalus | 3：Jaú、Napo、Imeri | COL26.8 目录详情 `#/registry?release=COL26.8&id=P4C9` | 双语区域研究导读；非完整种志 | P3-24 |
+
+吼猴属导读比较了研究表中五种成员的区域范围图相交数（A. belzebul 3、A. discolor 2、A. macconnelli 2、A. nigerrima 2、A. seniculus 5）；它是区域研究导读，不是完整属级自然史介绍。该批未新建 dossier，也未经过外部领域专家评审。
+
+P3-24 后灵长类接受种读者页合计为 105/530（58 个 dossier-backed、47 个 profile-only），425 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍待继续排查。
 
 
