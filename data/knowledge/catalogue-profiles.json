@@ -2824,6 +2824,389 @@
         "zh": "这是有来源的入门概述，尚未经过外部领域专家评审。新种资料发布于 2025 年且生物学研究有限；狭窄的已知记录区、未公开地点和报道中的收藏风险均不能替代正式保育评估。",
         "en": "Source-linked introductory account; not externally expert-reviewed. The species was described in 2025 and its biology is limited; a narrow known-record area, withheld localities and reported collecting risk do not substitute for a formal conservation assessment."
       }
+    },
+    {
+      "colId": "57SDB",
+      "scientificName": "Trachypithecus francoisi (de Pousargues, 1898)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": { "zh": "菲氏叶猴", "en": "François' langur" },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-29",
+      "sections": [
+        {
+          "topic": "ecology",
+          "text": {
+            "zh": "在广西 Encheng 自然保护区的一项十个月研究中，单个野生群体取食了 101 种植物，还摄入峭壁矿物和至少一种昆虫。食物短缺时期，果实和嫩叶的取食随可获得量下降，成熟叶和种子则作为替代食物。这些观察来自一个破碎化喀斯特地点和一个群体。",
+            "en": "In a ten-month study at Encheng Nature Reserve in Guangxi, one wild group ate 101 plant species, cliff minerals and at least one insect species. During food-scarce periods, fruit and young-leaf consumption declined as availability fell, while mature leaves and seeds served as alternatives. These observations come from one group at a fragmented karst site."
+          },
+          "sourceIds": ["yao2024"]
+        },
+        {
+          "topic": "ecology",
+          "text": {
+            "zh": "2022 年 3 月在贵州 Mayanghe 和 Dashahe 两处保护区采集的 27 份新鲜粪便样本，检出合计 134 个植物科和 336 个属；作者报告两地食物组成有差异。样本覆盖四个野生群体，但只取自同一季节，不能代表全年食谱或整个分布区。",
+            "en": "Dietary metabarcoding of 27 fresh fecal samples from four wild populations at the Mayanghe and Dashahe reserves in Guizhou, collected in March 2022, identified 134 plant families and 336 genera across the two sites. The authors reported regional differences in composition. The same-season sample does not describe year-round diet or the full range."
+          },
+          "sourceIds": ["cao2026"]
+        },
+        {
+          "topic": "ecology",
+          "text": {
+            "zh": "在贵州 Kuankuoshui，一个高海拔保护区群体于 2008 年 4 月至 2009 年 3 月接受跟踪。按网格单元估算的年度家域为 50.7 公顷，冬春季为 37.7 公顷，夏秋季为 27.7 公顷。论文不同段落给出的年度最小凸多边形估值互相冲突，因此这里仅报告网格估值。",
+            "en": "At Kuankuoshui in Guizhou, one group in high-altitude habitat was followed from April 2008 to March 2009. The grid-cell estimator gave an annual home range of 50.7 hectares, with seasonal estimates of 37.7 hectares in winter–spring and 27.7 hectares in summer–autumn. The paper gives conflicting annual minimum-convex-polygon values, so only the grid-cell estimates are reported here."
+          },
+          "sourceIds": ["deng2023"]
+        },
+        {
+          "topic": "evolution",
+          "text": {
+            "zh": "一项线粒体控制区研究对 178 只菲氏叶猴测序了 395 个碱基片段，识别出 29 种单倍型；其线粒体系统树将菲氏叶猴样本恢复为相对于两种近缘叶猴的多系群。作者指出，单一母系遗传标记不足以确定物种关系，并建议增加核基因位点。这是该研究的结果，不构成对 COL26.8 接受分类的修订。",
+            "en": "A mitochondrial control-region study sequenced a 395-base-pair fragment from 178 François' langurs and identified 29 haplotypes. Its mitochondrial trees recovered the sampled species as polyphyletic relative to two closely related langurs. The authors noted that one maternally inherited marker was insufficient to settle the relationships and called for nuclear loci. This is the study's result, not a revision of the COL26.8 accepted taxonomy."
+          },
+          "sourceIds": ["liu2013"]
+        }
+      ],
+      "sources": [
+        { "id": "yao2024", "title": "Yao et al. (2024) — Feeding adaptation of François' langurs to fragmented limestone habitats in Southwest China", "url": "https://doi.org/10.1002/ece3.11269", "scope": { "zh": "广西 Encheng 自然保护区一个野生群体，2019 年 7 月至 2020 年 6 月；食物记录限于该地点、群体和研究期。", "en": "One wild group at Encheng Nature Reserve, Guangxi, July 2019–June 2020; feeding records are limited to this site, group and study period." } },
+        { "id": "cao2026", "title": "Cao et al. (2026) — Geographical diet variations and microbial diversity in François' langurs", "url": "https://doi.org/10.1128/msphere.00594-25", "scope": { "zh": "贵州 Mayanghe 和 Dashahe 两处保护区的饮食宏条形码研究；27 份粪便样本于 2022 年 3 月采集。", "en": "Dietary metabarcoding at the Mayanghe and Dashahe reserves in Guizhou; 27 fecal samples were collected in March 2022." } },
+        { "id": "deng2023", "title": "Deng et al. (2023) — Home range and daily travel distance of François' langur in a high-altitude area", "url": "https://doi.org/10.1007/s10329-022-01041-w", "scope": { "zh": "贵州 Kuankuoshui 自然保护区一个野生群体，2008 年 4 月至 2009 年 3 月；家域估值受估算方法影响。", "en": "One wild group at Kuankuoshui Nature Reserve, Guizhou, April 2008–March 2009; home-range values depend on estimator." } },
+        { "id": "liu2013", "title": "Liu et al. (2013) — Phylogeny and phylogeography of three closely related langur species", "url": "https://doi.org/10.1371/journal.pone.0061659", "scope": { "zh": "基于线粒体控制区的三种近缘叶猴比较；本文所引菲氏叶猴样本及其研究期分类解释，不替代核基因证据。", "en": "Mitochondrial control-region comparison of three related langurs; the cited François' langur sample and study-era interpretation do not replace nuclear evidence." } },
+        { "id": "taxonomy", "title": "Catalogue of Life COL26.8 · source 2144", "url": "https://www.checklistbank.org/dataset/316115/taxon/57SDB", "scope": { "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。", "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence." } }
+      ],
+      "limitations": {
+        "zh": "这是由多项地方性研究组成的入门概述，未经过外部领域专家评审。食性和家域结果来自少数地点与群体；线粒体单标记结果不是物种分类修订。文献中的历史分布陈述和更广义类群记录不等于当前完整分布。",
+        "en": "Source-linked introduction based on several local studies; not externally expert-reviewed. Diet and home-range results come from a small number of sites and groups, and the single-marker mitochondrial result is not a taxonomic revision. Publication-era range statements and broader-complex records are not a complete current range."
+      }
+    },
+    {
+      "colId": "3H3C9",
+      "scientificName": "Gorilla gorilla (Savage & Wyman, 1847)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": { "zh": "西部大猩猩", "en": "Western gorilla" },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-29",
+      "sections": [
+        {
+          "topic": "ecology",
+          "text": {
+            "zh": "在加蓬 Loango 国家公园，一项研究跟踪了一个由 10 只西部低地大猩猩组成的群体，从 2018 年 1 月到 2020 年 7 月累计观察 5,896 小时、652 天。两个完整年份的取食扫描估计，取食时间约 31% 用于果实、21% 用于草本、31% 用于树木食物、10% 用于坚果，昆虫为 0%。这些是一个群体的地点性估计。",
+            "en": "At Loango National Park in Gabon, a study followed one group of 10 western lowland gorillas from January 2018 to July 2020, recording 5,896 observation hours over 652 days. Scan-based estimates for the two complete years assigned about 31% of feeding time to fruit, 21% to herbs, 31% to tree foods, 10% to nuts and 0% to insects. These are local estimates for one group."
+          },
+          "sourceIds": ["ortmann2022"]
+        },
+        {
+          "topic": "ecology",
+          "text": {
+            "zh": "同一 Loango 群体的 31 个月记录中，果实可获得量与用于取食果实的扫描比例呈正相关（Pearson r = 0.623，p < 0.001）。这说明该群体、该地点观察到两项指标共同变化；它不能单独证明因果关系，也不能代表全物种的季节性取食规律。",
+            "en": "Across 31 monthly observations of the same Loango group, fruit availability was positively correlated with the proportion of feeding scans spent eating fruit (Pearson r = 0.623, p < 0.001). This describes covariation at one site; it does not establish causation or a species-wide seasonal pattern."
+          },
+          "sourceIds": ["ortmann2022"]
+        },
+        {
+          "topic": "ecology",
+          "text": {
+            "zh": "Mbeli Bai 的两次野外记录显示，成年雌性西部大猩猩曾使用折断的植物材料辅助行动：2004 年 10 月 9 日，Leah 用树枝探测水深并在涉水时保持平衡；同年 11 月 21 日，Efi 用灌木干稳定取食，随后把它当作短桥越过沼地。这两例不能估算行为发生频率或习得过程。",
+            "en": "Two field observations at Mbeli Bai recorded adult female western gorillas using detached plant material to assist movement. On 9 October 2004, Leah used a branch to probe water depth and steady herself; on 21 November, Efi used a shrub trunk to stabilize food processing and then as a short bridge over swampy ground. Two cases cannot estimate frequency or how the behavior was acquired."
+          },
+          "sourceIds": ["breuer2005tool"]
+        },
+        {
+          "topic": "lifeHistory",
+          "text": {
+            "zh": "Mbeli Bai 长期监测资料给出的西部低地大猩猩雌性首次产仔平均年龄为 12.2 ± 0.6 岁（7 只雌性）；平均产间隔为 5.4 ± 0.9 年（54 个间隔，分析仅纳入幼体存活至 3 岁的间隔）。这些统计来自刚果共和国的一个研究地点和特定分析子集，不是所有种群的固定参数。",
+            "en": "At Mbeli Bai, long-term records for western lowland gorillas gave a mean female age at first parturition of 12.2 ± 0.6 years (7 females) and a mean interbirth interval of 5.4 ± 0.9 years (54 intervals; the analysis included intervals whose offspring survived to age three). These estimates describe one study population and defined subsets, not fixed values for all populations."
+          },
+          "sourceIds": ["robbins2023gorillalifehistory"]
+        }
+      ],
+      "sources": [
+        { "id": "ortmann2022", "title": "Robbins, Ortmann & Seiler (2022) — Dietary variability of western gorillas", "url": "https://doi.org/10.1371/journal.pone.0271576", "scope": { "zh": "加蓬 Loango 国家公园一个习惯化西部低地大猩猩群体，2018 年 1 月至 2020 年 7 月；取食值来自扫描观察。", "en": "One habituated western lowland gorilla group at Loango National Park, Gabon, January 2018–July 2020; feeding values are scan-based." } },
+        { "id": "breuer2005tool", "title": "Breuer, Ndoundou-Hockemba & Fishlock (2005) — First observation of tool use in wild gorillas", "url": "https://doi.org/10.1371/journal.pbio.0030380", "scope": { "zh": "刚果共和国 Mbeli Bai 两只自由活动成年雌性西部大猩猩于 2004 年的两次观察；未估算行为频率。", "en": "Two 2004 observations of free-ranging adult female western gorillas at Mbeli Bai, Republic of Congo; behavior frequency was not estimated." } },
+        { "id": "robbins2023gorillalifehistory", "title": "Robbins et al. (2023) — Comparative life-history patterns of female gorillas", "url": "https://doi.org/10.1002/ajpa.24792", "scope": { "zh": "刚果共和国 Mbeli Bai 一个长期监测的西部低地大猩猩种群；产仔年龄和产间隔来自不同雌性子集。", "en": "One long-term monitored western lowland gorilla population at Mbeli Bai, Republic of Congo; age-at-first-birth and interbirth estimates use different female subsets." } },
+        { "id": "taxonomy", "title": "Catalogue of Life COL26.8 · source 2144", "url": "https://www.checklistbank.org/dataset/316115/taxon/3H3C9", "scope": { "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。", "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence." } }
+      ],
+      "limitations": {
+        "zh": "未经过外部领域专家评审。本文把西部低地大猩猩的几个具体研究放在一起，不是西部大猩猩全物种的生态或生活史综述。关键结果分别来自 Loango 和 Mbeli Bai 的局部样本；行为观察不代表发生率，人口统计数值也不能无条件外推到其他亚种和地点。",
+        "en": "This introduction brings together selected studies of western lowland gorillas; it is not a full ecological or life-history review of Western gorilla. Key results come from local samples at Loango and Mbeli Bai. Observed behavior is not a prevalence estimate, and demographic values should not be transferred uncritically to other subspecies or sites. Source-linked and not externally expert-reviewed."
+      }
+    },
+    {
+      "colId": "3H3C3",
+      "scientificName": "Gorilla beringei Matschie, 1903",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": { "zh": "东部大猩猩", "en": "Eastern gorilla" },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-29",
+      "sections": [
+        {
+          "topic": "lifeHistory",
+          "text": {
+            "zh": "一项雌性大猩猩比较研究报告，山地大猩猩在 Virunga 的首次产仔平均年龄为 10.1 ± 1.7 岁（56 只雌性），在 Bwindi 为 10.5 ± 1.3 岁（10 只）。两地比较未达到统计显著（p = 0.55）；这并不证明两种群完全等同，也没有覆盖 Grauer 大猩猩或东部大猩猩的所有种群。",
+            "en": "A comparative study reported a mean age at first parturition of 10.1 ± 1.7 years for mountain gorillas in Virunga (56 females) and 10.5 ± 1.3 years in Bwindi (10 females). The difference was not statistically significant (p = 0.55); this does not demonstrate equivalence and does not cover Grauer's gorillas or every Eastern gorilla population."
+          },
+          "sourceIds": ["robbins2023gorillalifehistory"]
+        },
+        {
+          "topic": "evolution",
+          "text": {
+            "zh": "针对 Grauer 大猩猩的线粒体基因组比较中，历史样本有 20 种单倍型，现代样本有 11 种；作者报告现代样本的单倍型和核苷酸多样性较低。样本由 68 只历史个体和 29 只现代个体组成，代表线粒体标记而非核基因组；作者将变化解释为外围种群消失的结果，但这一推断限于所用样本和模型。",
+            "en": "In a mitochondrial-genome comparison focused on Grauer's gorillas, historical samples had 20 haplotypes and modern samples had 11; the authors reported lower haplotype and nucleotide diversity in the modern sample. The comparison included 68 historical and 29 modern individuals. It uses mitochondrial markers, not nuclear genomes; the authors attributed the change to peripheral-population loss, an inference bounded to their samples and model."
+          },
+          "sourceIds": ["vanderValk2018mtDNA"]
+        },
+        {
+          "topic": "distribution",
+          "text": {
+            "zh": "山地大猩猩生活史研究涉及 Virunga 火山山地和乌干达 Bwindi；Grauer 大猩猩遗传研究比较了历史博物馆材料与刚果民主共和国 Nkuba、Kahuzi-Biega 等地的现代样本。它们提供的是研究地点和采样史，不是一份覆盖东部大猩猩完整现今分布区的调查。",
+            "en": "Mountain-gorilla life-history research covered the Virunga volcanoes and Bwindi in Uganda. The Grauer's gorilla genetic study compared historical museum material with modern samples from places including Nkuba and Kahuzi-Biega in the Democratic Republic of the Congo. These are research sites and sampling histories, not a complete survey of the Eastern gorilla's current range."
+          },
+          "sourceIds": ["robbins2023gorillalifehistory", "vanderValk2018mtDNA"]
+        }
+      ],
+      "sources": [
+        { "id": "robbins2023gorillalifehistory", "title": "Robbins et al. (2023) — Comparative life-history patterns of female gorillas", "url": "https://doi.org/10.1002/ajpa.24792", "scope": { "zh": "Virunga 和 Bwindi 的山地大猩猩雌性首次产仔年龄估计；不代表 Grauer 大猩猩。", "en": "Female age-at-first-parturition estimates for mountain gorillas at Virunga and Bwindi; not estimates for Grauer's gorillas." } },
+        { "id": "vanderValk2018mtDNA", "title": "van der Valk et al. (2018) — Loss of mitochondrial diversity in eastern gorillas", "url": "https://doi.org/10.1038/s41598-018-24497-7", "scope": { "zh": "比较 Grauer 大猩猩与山地大猩猩的线粒体基因组；本文所引多样性结论特指 Grauer 大猩猩样本和该研究模型。", "en": "Mitochondrial-genome comparison of Grauer's and mountain gorillas; the cited diversity result is limited to Grauer's samples and the study model." } },
+        { "id": "taxonomy", "title": "Catalogue of Life COL26.8 · source 2144", "url": "https://www.checklistbank.org/dataset/316115/taxon/3H3C3", "scope": { "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。", "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence." } }
+      ],
+      "limitations": {
+        "zh": "未经过外部领域专家评审。这是对山地大猩猩生活史与 Grauer 大猩猩线粒体研究的选择性导读，不是东部大猩猩全物种综述。研究种群、地理地点和遗传标记各有边界；未测的种群数量、行为频率和现代保育状态不从这些结果推断。",
+        "en": "This is a selective guide to mountain-gorilla life history and Grauer's gorilla mitochondrial research, not a full Eastern gorilla review. Populations, locations and genetic markers have distinct limits; unmeasured population size, behavior frequency and current conservation status are not inferred from these results. Source-linked and not externally expert-reviewed."
+      }
+    },
+    {
+      "colId": "C5QJ",
+      "scientificName": "Alouatta palliata (Gray, 1849)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": { "zh": "披风吼猴", "en": "Mantled howler monkey" },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-29",
+      "sections": [
+        {
+          "topic": "lifeHistory",
+          "text": {
+            "zh": "在墨西哥 Los Tuxtlas，研究者于 2000–2011 年每月调查十个吼猴群体，共 454 次群体访问。监测种群整体相对稳定，个体总数有所增加；作者推断大多数后来产仔的受孕发生在 4–6 月，断奶高峰在 4–5 月。这里的季节模式来自受研究的墨西哥亚种种群，不能当作全物种的固定繁殖周期。",
+            "en": "At Los Tuxtlas in Mexico, researchers visited ten howler-monkey groups monthly from 2000 to 2011, making 454 group visits. The monitored population remained relatively stable overall while total individuals increased. The authors inferred that most conceptions leading to births occurred from April to June, with weaning peaking in April–May. These seasonal patterns come from the studied Mexican subspecies population, not a fixed species-wide cycle."
+          },
+          "sourceIds": ["peerj2017"]
+        },
+        {
+          "topic": "ecology",
+          "text": {
+            "zh": "尼加拉瓜 Ometepe 岛两群成年吼猴的夜间睡眠记录中，55 条披风吼猴记录有 54 条采用坐姿（98.2%）；76.4% 位于水平基底，83.6% 位于大树枝上。观察来自 2003–2004 年和 2006 年的特定夜晚与群体，不能据此估计全物种比例。",
+            "en": "Among night-time sleep records for two adult howler groups on Ometepe Island, Nicaragua, 54 of 55 mantled-howler records used a sit-in posture (98.2%); 76.4% were on horizontal substrates and 83.6% on large branches. Observations came from particular groups and nights in 2003–2004 and 2006, so they do not estimate species-wide proportions."
+          },
+          "sourceIds": ["urbani2020"]
+        },
+        {
+          "topic": "ecology",
+          "text": {
+            "zh": "一项比较食物探索行为的研究中，披风吼猴对共同食用植物的嗅闻频率约为白面卷尾猴（Cebus imitator）的三倍，但低于杰氏蜘蛛猴。该比较使用研究地点所观察到的个体和食物；不同地点的研究记录并未建立物种普遍的嗅觉机制或日常频率。",
+            "en": "In a comparative study of food investigation, mantled howlers sniffed shared food plants about three times as often as white-faced capuchins (Cebus imitator), but less often than Geoffroy's spider monkeys. The comparison uses animals and foods observed at study sites; records from those sites do not establish a species-wide sensory mechanism or everyday rate."
+          },
+          "sourceIds": ["melin2022"]
+        }
+      ],
+      "sources": [
+        { "id": "peerj2017", "title": "A demographic history of a population of howler monkeys living in a fragmented landscape in Mexico", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5571790/", "scope": { "zh": "墨西哥 Veracruz 的 Los Tuxtlas，十群体月度调查，2000–2011 年；繁殖季结论限于研究种群。", "en": "Ten groups surveyed monthly at Los Tuxtlas, Veracruz, Mexico, 2000–2011; reproductive-season results are limited to the study population." } },
+        { "id": "urbani2020", "title": "Urbani et al. (2020) — Postural behavior of howler monkeys during sleep", "url": "https://pb.copernicus.org/articles/7/25/2020/", "scope": { "zh": "尼加拉瓜 Ometepe 岛两群披风吼猴的睡眠姿势观察；该部分样本为 55 条成年个体记录。", "en": "Sleep-posture observations of two mantled-howler groups on Ometepe Island, Nicaragua; this sample contains 55 adult records." } },
+        { "id": "melin2022", "title": "Melin et al. (2022) — Anatomy and dietary specialization influence sensory behaviour among sympatric primates", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9382214/", "scope": { "zh": "哥斯达黎加与墨西哥多个研究地点的比较研究；嗅闻结果只适用于该研究的野外观察样本。", "en": "Comparative study at field sites in Costa Rica and Mexico; sniffing results apply only to the field samples in this study." } },
+        { "id": "taxonomy", "title": "Catalogue of Life COL26.8 · source 2144", "url": "https://www.checklistbank.org/dataset/316115/taxon/C5QJ", "scope": { "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。", "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence." } }
+      ],
+      "limitations": {
+        "zh": "未经过外部领域专家评审。这篇入门页汇集了墨西哥、尼加拉瓜和中美洲其他研究地点的特定样本，不是统一范围的物种调查。季节繁殖、睡姿和食物探索结果具有各自的地点、亚种、时间与采样边界；文中未据此估算全物种普遍值。",
+        "en": "This introduction combines specific samples from Mexico, Nicaragua and other Central American study sites; it is not a range-wide survey. Reproductive seasonality, sleep posture and food-investigation results each have their own site, subspecies, time and sampling limits, and no species-wide value is estimated here. Source-linked and not externally expert-reviewed."
+      }
+    },
+    {
+      "colId": "4LTT2",
+      "scientificName": "Pongo pygmaeus (Linnaeus, 1760)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": { "zh": "婆罗洲猩猩", "en": "Bornean orangutan" },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-29",
+      "sections": [
+        {
+          "topic": "lifeHistory",
+          "text": {
+            "zh": "在西加里曼丹 Gunung Palung 国家公园，2009–2014 年的研究记录显示，四只长颊雄性猩猩共生育五只后代。更广的 2008–2019 年样本中，七只后代有五只确定了父亲；这些是单个完全野生种群的亲子鉴定结果，不是整个物种的繁殖率。",
+            "en": "At Gunung Palung National Park in West Kalimantan, records from 2009–2014 showed that four flanged males sired five offspring. In the broader 2008–2019 sample, paternity was assigned for five of seven offspring. These are paternity results from one completely wild population, not a species-wide reproductive rate."
+          },
+          "sourceIds": ["scott2024"]
+        },
+        {
+          "topic": "ecology",
+          "text": {
+            "zh": "Danau Sentarum 国家公园及周边的巢穴样线调查使用更新后的巢穴衰减率建模估算猩猩数量：公园内约 202 只（95% CI 75.67–541.79），园外约 71 只（95% CI 20.76–244.63）。这是基于巢穴记录和模型的地方估计，不是直接清点；结果对衰减率和调查地点敏感。",
+            "en": "Nest transects in and around Danau Sentarum National Park used an updated nest-decay rate to model orangutan numbers: about 202 inside the park (95% CI 75.67–541.79) and about 71 outside it (95% CI 20.76–244.63). These are local model estimates from nest records, not direct counts, and depend on decay-rate assumptions and survey locations."
+          },
+          "sourceIds": ["yuliani2023"]
+        },
+        {
+          "topic": "evolution",
+          "text": {
+            "zh": "Camp Leakey 曾接收被重新安置的猩猩。线粒体研究发现，代表创始谱系的 11 个样本中，9 个与当地 P. p. wurmbii 支系聚类，另有两只雌性与西加里曼丹北部或砂拉越的 P. p. pygmaeus 聚类；两只都曾与当地雄性交配。研究记录的是一个人为转移地点的谱系混合历史，不是自然分布区内全物种的基因流估计。",
+            "en": "Camp Leakey received orangutans that had been reintroduced after displacement. A mitochondrial study found that, among 11 profiles representing founder lineages, nine clustered with the local P. p. wurmbii lineage, while two females clustered with P. p. pygmaeus from northern West Kalimantan or Sarawak; both reproduced with local males. This documents lineage mixing at one human-mediated release site, not gene flow across the species' natural range."
+          },
+          "sourceIds": ["banes2016"]
+        }
+      ],
+      "sources": [
+        { "id": "scott2024", "title": "Scott et al. (2024) — Flanged males have higher reproductive success in a completely wild orangutan population", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0296688", "scope": { "zh": "西加里曼丹 Gunung Palung 国家公园一个野生 P. p. wurmbii 种群的形态背景和亲子鉴定结果。", "en": "Morphological context and paternity results from one wild P. p. wurmbii population at Gunung Palung National Park, West Kalimantan." } },
+        { "id": "yuliani2023", "title": "Yuliani et al. (2023) — Bornean orangutan population estimate around Danau Sentarum National Park", "url": "https://doi.org/10.1111/csp2.12916", "scope": { "zh": "西加里曼丹 Danau Sentarum 国家公园内外的巢穴调查和模型估算；针对当地 P. p. pygmaeus 种群。", "en": "Nest surveys and model estimates inside and around Danau Sentarum National Park, West Kalimantan; focused on the local P. p. pygmaeus population." } },
+        { "id": "banes2016", "title": "Banes, Galdikas & Vigilant (2016) — Reintroduction risks outbreeding and introgression in orangutans", "url": "https://doi.org/10.1038/srep22026", "scope": { "zh": "中加里曼丹 Tanjung Puting 国家公园 Camp Leakey 的历史重引入猩猩及后代线粒体证据；仅涉及一个人为转移地点。", "en": "Mitochondrial evidence from historically reintroduced orangutans and descendants at Camp Leakey, Tanjung Puting National Park, Central Kalimantan; one human-mediated site only." } },
+        { "id": "taxonomy", "title": "Catalogue of Life COL26.8 · source 2144", "url": "https://www.checklistbank.org/dataset/316115/taxon/4LTT2", "scope": { "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。", "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence." } }
+      ],
+      "limitations": {
+        "zh": "未经过外部领域专家评审。本文把三个不同地点的研究作为婆罗洲猩猩的局部案例，不是全物种生活史或保育综述。亲子鉴定、巢穴模型和人为重引入线粒体研究采用不同样本，不能合并成单一分布区趋势或数量估计。",
+        "en": "This introduction treats studies from three locations as local cases involving Bornean orangutans, not a full species life-history or conservation review. Paternity, nest-based modelling and mitochondrial evidence from reintroduction use different samples and cannot be combined into one range-wide trend or population estimate. Source-linked and not externally expert-reviewed."
+      }
+    },
+    {
+      "colId": "3WWND",
+      "scientificName": "Macaca fascicularis (Raffles, 1821)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": { "zh": "长尾猕猴", "en": "Long-tailed macaque" },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-29",
+      "sections": [
+        {
+          "topic": "ecology",
+          "text": {
+            "zh": "在毛里求斯 Mt Calebasses，一个 19–23 只的长尾猕猴群体于 2019 年 12 月至 2020 年 12 月接受观察。高果期月均家域为 10.6 ± 3.0 公顷，其他月份为 17.8 ± 5.6 公顷；月家域与果实可获得量负相关（r = −0.65，调整后 p = 0.037）。这是单个引入种群的一年记录，不是原生分布区的物种平均值。",
+            "en": "At Mt Calebasses, Mauritius, one group of 19–23 long-tailed macaques was observed from December 2019 to December 2020. Mean monthly home range was 10.6 ± 3.0 hectares during the high-fruit period and 17.8 ± 5.6 hectares outside it; monthly range was negatively correlated with fruit availability (r = −0.65, adjusted p = 0.037). This is a one-year record from one introduced group, not a species mean from the native range."
+          },
+          "sourceIds": ["reinegger2023"]
+        },
+        {
+          "topic": "ecology",
+          "text": {
+            "zh": "同一毛里求斯群体的植物取食扫描中，入侵植物占 98%，果实取食扫描中占 97%；记录的果食主要来自入侵的 Litsea（40.2%）、Psidium cattleyanum（39.3%）和 Flacourtia indica（9.5%）。作者讨论了猕猴可能影响种子传播，但研究没有测量种子萌发、幼苗补充或实际植物入侵率。",
+            "en": "In plant-feeding scans of the same Mauritius group, invasive plants accounted for 98% of records and 97% of fruit-feeding scans. Recorded fruit feeding was concentrated in invasive Litsea (40.2%), Psidium cattleyanum (39.3%) and Flacourtia indica (9.5%). The authors discuss possible seed-dispersal effects, but the study did not measure germination, seedling recruitment or realized plant-invasion rates."
+          },
+          "sourceIds": ["reinegger2023"]
+        },
+        {
+          "topic": "morphology",
+          "text": {
+            "zh": "一项微型 CT 与几何形态测量研究比较了 13 颗长尾猕猴下颌第二臼齿。带副牙尖的臼齿体积较大、相对牙尖较短，牙冠边缘副尖的出现也与主要牙尖更居中相关；作者认为结果总体符合牙尖发育级联模型，但该模型不能解释样本中的所有副尖形态。样本来自单一灵长类中心收藏。",
+            "en": "A micro-CT and geometric-morphometric study compared 13 long-tailed macaque mandibular second molars. Molars with accessory cusps were larger and had shorter relative cusp heights, while peripheral-cusp presence was associated with more centrally positioned primary cusps. The pattern broadly fit the patterning-cascade model, but the model did not explain every accessory-cusp form in the sample, which came from one primate-centre collection."
+          },
+          "sourceIds": ["chapple2024patterning"]
+        },
+        {
+          "topic": "evolution",
+          "text": {
+            "zh": "一项恒河猴与长尾猕猴全基因组比较报告了 184 个与强化选择相关模式一致的候选基因，并发现 Y 染色体从恒河猴向长尾猕猴种群渗入的信号。作者将结果描述为与强化形成物种隔离的模型相容，而不是对该模型的证明；这也不是完整的物种系统树。",
+            "en": "A whole-genome comparison of rhesus and long-tailed macaque samples reported 184 candidate genes consistent with reinforcement-related patterns and a signal of Y-chromosome introgression from rhesus into long-tailed macaque populations. The authors described the findings as consistent with a model of reinforcement, not proof of it; the study is not a complete species phylogeny."
+          },
+          "sourceIds": ["bailey2023"]
+        }
+      ],
+      "sources": [
+        { "id": "reinegger2023", "title": "Reinegger et al. (2023) — Foraging strategies of invasive Macaca fascicularis in Mauritius", "url": "https://doi.org/10.1007/s10764-022-00324-9", "scope": { "zh": "毛里求斯 Mt Calebasses 一个自由活动引入群体，2019 年 12 月至 2020 年 12 月；不是原生分布区调查。", "en": "One free-ranging introduced group at Mt Calebasses, Mauritius, December 2019–December 2020; not a native-range survey." } },
+        { "id": "chapple2024patterning", "title": "Chapple, Smith & Skinner (2024) — Cusp development in Macaca fascicularis mandibular molars", "url": "https://doi.org/10.1016/j.archoralbio.2024.106067", "scope": { "zh": "单一灵长类中心收藏的 13 颗下颌第二臼齿微型 CT 与几何形态测量样本。", "en": "Micro-CT and geometric-morphometric sample of 13 mandibular second molars from one primate-centre collection." } },
+        { "id": "bailey2023", "title": "Bailey et al. (2023) — Genomic analysis of rhesus and cynomolgus macaques", "url": "https://doi.org/10.1002/ece3.10571", "scope": { "zh": "恒河猴和长尾猕猴异域与同域群体的比较全基因组分析；结果与强化选择模型相容，但不构成证明。", "en": "Comparative whole-genome analysis of allopatric and parapatric rhesus and cynomolgus groups; results are consistent with, but do not prove, a reinforcement model." } },
+        { "id": "taxonomy", "title": "Catalogue of Life COL26.8 · source 2144", "url": "https://www.checklistbank.org/dataset/316115/taxon/3WWND", "scope": { "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。", "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence." } }
+      ],
+      "limitations": {
+        "zh": "未经过外部领域专家评审。本文的主要生态材料来自毛里求斯一个引入群体，不能代表原生范围的典型饮食或家域。牙齿研究使用 13 颗标本，全基因组结论取决于异域与同域样本及其模型；均不是全物种综合。",
+        "en": "The main ecological evidence comes from one introduced group in Mauritius and does not represent typical diet or home range across the native range. Dental findings use 13 specimens, and genomic conclusions depend on allopatric and parapatric samples and their models; none is a complete species synthesis. Source-linked and not externally expert-reviewed."
+      }
+    },
+    {
+      "colId": "J8P6",
+      "scientificName": "Ateles geoffroyi Kuhl, 1820",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": { "zh": "杰氏蜘蛛猴", "en": "Geoffroy's spider monkey" },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-29",
+      "sections": [
+        {
+          "topic": "ecology",
+          "text": {
+            "zh": "哥斯达黎加 Osa 半岛的研究比较了蜘蛛猴睡眠地点周围的种子堆积区与对照地点。相机记录了脊椎动物到访，样点调查报告这些地点的幼苗数量和粪甲虫生物量较高。这些结果涉及所采样的林地和生态指标，不能直接推断整片雨林的更新速率或所有蜘蛛猴的作用。",
+            "en": "A study on Costa Rica's Osa Peninsula compared seed-laden latrine sites near spider-monkey sleeping locations with control sites. Camera traps recorded vertebrate visits, and sampling reported higher seedling abundance and dung-beetle biomass at those sites. The results concern sampled forest sites and indicators; they do not directly estimate forest-wide regeneration or the effects of all spider monkeys."
+          },
+          "sourceIds": ["whitworth2019"]
+        },
+        {
+          "topic": "ecology",
+          "text": {
+            "zh": "巴拿馬 Barro Colorado 島的一項追蹤研究分析了一只亚成体雌性杰氏蜘蛛猴六个月的移动记录。她选择的移动步段与树冠高度、距 8 米冠层空隙的距离和树冠厚度正相关；模型交叉验证平均 Spearman 相关系数为 0.94。这是一个体的模型结果，不是物种普遍的移动偏好。",
+            "en": "At Barro Colorado Island in Panama, a tracking study analyzed six months of movement by one subadult female Geoffroy's spider monkey. Selected movement steps were positively associated with canopy height, distance from canopy gaps using an 8-metre cutoff, and crown thickness. The model's mean cross-validation Spearman correlation was 0.94; this is an individual model result, not a species-wide movement preference."
+          },
+          "sourceIds": ["mclean2016"]
+        },
+        {
+          "topic": "ecology",
+          "text": {
+            "zh": "在比较果实探索行为的研究样本中，杰氏蜘蛛猴的嗅闻频率在三种灵长类中最高，高于白面卷尾猴和披风吼猴。研究还比较了鼻甲表面积，但其 15 件杰氏蜘蛛猴头骨样本没有报告具体地理来源、采集时间或野生/圈养状态，因此解剖差异不能解释成全物种变异。",
+            "en": "In the study's sample of fruit-investigation behavior, Geoffroy's spider monkeys had the highest sniffing rate among the three primates studied, above white-faced capuchins and mantled howlers. The study also compared nasal-turbinate area, but geographic provenance, collection dates and wild or captive status were not reported for its 15 spider-monkey skulls, so the anatomical sample does not describe species-wide variation."
+          },
+          "sourceIds": ["melin2022"]
+        }
+      ],
+      "sources": [
+        { "id": "whitworth2019", "title": "Whitworth et al. (2019) — Spider-monkey sleeping sites influence rainforest heterogeneity", "url": "https://doi.org/10.3390/ani9121052", "scope": { "zh": "哥斯达黎加 Osa 半岛的杰氏蜘蛛猴睡眠地点及其周边样点；结果限于采样地点和所测指标。", "en": "Geoffroy's spider-monkey sleeping sites and surrounding samples on Costa Rica's Osa Peninsula; results are limited to sampled sites and measured indicators." } },
+        { "id": "mclean2016", "title": "McLean et al. (2016) — Movement and LiDAR-estimated canopy structure in arboreal primates", "url": "https://link.springer.com/article/10.1007/s10980-016-0367-9", "scope": { "zh": "巴拿馬 Barro Colorado 島一只亚成体雌性杰氏蜘蛛猴，2011 年追踪六个月；不是物种层面移动估计。", "en": "One subadult female Geoffroy's spider monkey tracked for six months in 2011 at Barro Colorado Island, Panama; not a species-level movement estimate." } },
+        { "id": "melin2022", "title": "Melin et al. (2022) — Anatomy and dietary specialization influence sensory behaviour among sympatric primates", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9382214/", "scope": { "zh": "野外食物探索行为和博物馆头骨比较；头骨样本来源信息有限，行为结论限于研究样本。", "en": "Field observations of food investigation and museum skull comparisons; skull provenance is limited and behavioral results are sample-bounded." } },
+        { "id": "taxonomy", "title": "Catalogue of Life COL26.8 · source 2144", "url": "https://www.checklistbank.org/dataset/316115/taxon/J8P6", "scope": { "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。", "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence." } }
+      ],
+      "limitations": {
+        "zh": "未经过外部领域专家评审。这篇介绍由睡眠地点、单只个体移动和取食探索比较组成。各研究的地点、个体与指标不同；鼻甲标本的地理来源未知，移动模型也不能替代种群层面的栖地使用研究。",
+        "en": "This introduction combines sleeping-site, single-individual movement and comparative food-investigation studies. Sites, individuals and measures differ across the research; nasal-turbinate specimen provenance is unknown, and an individual movement model is not a population-level habitat-use study. Source-linked and not externally expert-reviewed."
+      }
+    },
+    {
+      "colId": "77XPX",
+      "scientificName": "Propithecus verreauxi Grandidier, 1867",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": { "zh": "韦氏冕狐猴", "en": "Verreaux's sifaka" },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-29",
+      "sections": [
+        {
+          "topic": "lifeHistory",
+          "text": {
+            "zh": "在马达加斯加 Kirindy 森林，研究者追踪了 2017、2018 两个繁殖季的 12 只野生幼体，观察母体孕期粪便糖皮质激素代谢物与幼体早期发育。母体指标较高的幼体呈现较快生长、较早独立觅食和玩耍的关联；2018 年队列未跟踪完整六个月。该观察性研究不能证明母体压力造成这些差异。",
+            "en": "At Kirindy Forest in Madagascar, researchers followed 12 wild infants from the 2017 and 2018 breeding seasons and compared maternal prenatal fecal glucocorticoid metabolites with early development. Higher maternal values were associated with faster growth and earlier independent foraging and play. The 2018 cohort was not followed for a full six months, and this observational study does not show that maternal stress caused the differences."
+          },
+          "sourceIds": ["malalaharivony2021"]
+        },
+        {
+          "topic": "ecology",
+          "text": {
+            "zh": "在西南马达加斯加 Kirindy Mitea 国家公园，一个野生种群的 M/LWS opsin 基因型显示与多态三色视觉相符的变异。含三色视觉基因型个体的群体中，个体体重指数和取食果实的时间、单次果食持续时间较高。基因型是视觉表型的代理指标；作者提出的旱季找果优势仍是待检验假说。",
+            "en": "At Kirindy Mitea National Park in southwestern Madagascar, M/LWS opsin genotypes in one wild population showed variation consistent with polymorphic trichromacy. Individuals in groups containing trichromats had higher body-mass indices and more fruit-feeding time, with longer fruit-feeding bouts. Genotype is a proxy for visual phenotype; the proposed dry-season fruit-detection advantage remains a hypothesis."
+          },
+          "sourceIds": ["veilleux2016"]
+        },
+        {
+          "topic": "ecology",
+          "text": {
+            "zh": "Kirindy 的同一类野外研究中，母体粪便糖皮质激素代谢物在低降雨时段和孕晚期较高。作者把降雨作为当地食物可获得性的代理变量；这一关联限于受监测母体、地点和两个繁殖季，不能定义物种的气候适生范围或证明因果关系。",
+            "en": "In the same field research at Kirindy, maternal fecal glucocorticoid metabolites were higher during low-rainfall periods and late pregnancy. The authors used rainfall as a local proxy for food availability. This association is limited to monitored mothers, the site and two breeding seasons; it does not define the species' climate niche or establish causation."
+          },
+          "sourceIds": ["malalaharivony2021"]
+        }
+      ],
+      "sources": [
+        { "id": "malalaharivony2021", "title": "Malalaharivony et al. (2021) — Maternal stress effects on infant development in wild Verreaux's sifaka", "url": "https://link.springer.com/article/10.1007/s00265-021-03085-2", "scope": { "zh": "马达加斯加中西部 Kirindy Forest/CNFEREF 两个繁殖季的 12 只野生幼体和母体观察；队列跟踪时间不同。", "en": "Observations of 12 wild infants and mothers across two breeding seasons at Kirindy Forest/CNFEREF, central-western Madagascar; cohort follow-up differed." } },
+        { "id": "veilleux2016", "title": "Veilleux et al. (2016) — Group benefit associated with polymorphic trichromacy in Verreaux's sifaka", "url": "https://www.nature.com/articles/srep38418", "scope": { "zh": "马达加斯加 Kirindy Mitea 国家公园一个野生种群的视觉基因型和取食观察；基因型不是视网膜解剖测量。", "en": "Visual-genotype and feeding observations from one wild population at Kirindy Mitea National Park, Madagascar; genotype is not a retinal anatomical measurement." } },
+        { "id": "taxonomy", "title": "Catalogue of Life COL26.8 · source 2144", "url": "https://www.checklistbank.org/dataset/316115/taxon/77XPX", "scope": { "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。", "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence." } }
+      ],
+      "limitations": {
+        "zh": "未经过外部领域专家评审。这是关于两个马达加斯加研究地点的专题入门页，不是韦氏冕狐猴完整物种综述。幼体研究的队列随访不完全相同；视力结论来自基因型代理与局部取食样本，作者提出的季节性优势不是已证实的普遍功能。",
+        "en": "This is a focused introduction to studies at two Madagascar sites, not a complete review of Verreaux's sifaka. Infant cohorts had different follow-up windows; visual findings rely on genotype proxies and local feeding samples, and the proposed seasonal advantage is not established as a general function. Source-linked and not externally expert-reviewed."
+      }
     }
   ]
 }
