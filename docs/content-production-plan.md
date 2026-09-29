@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-27 后，灵长类已有 137/530 个接受种具读者页（58 个 dossier-backed、79 个 profile-only）；393 个仍无读者页，476 个未命中 dossier 索引的接受种仍需排查。主龙现生种级导读为鳄目 27/27、Aves 9/11,044，共 36/11,071；继续补齐 11,035 个鸟类接受种，并扩展恐龙、翼龙及鳄形类的类群介绍与化石素材。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石分母分开统计。
+下一执行动作：P3-28 后，灵长类已有 147/530 个接受种具读者页（58 个 dossier-backed、89 个 profile-only）；383 个仍无读者页，476 个未命中 dossier 索引的接受种仍需排查。主龙现生种级导读为鳄目 27/27、Aves 9/11,044，共 36/11,071；继续补齐 11,035 个鸟类接受种，并扩展恐龙、翼龙及鳄形类的类群介绍与化石素材。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石分母分开统计。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -407,3 +407,25 @@ P3-26 未新建物种 dossier，页面均尚未经过外部领域专家评审。
 | 4K5Y4 Plecturocebus cupreus (Spix, 1823) | 1：Inambari | Coppery Titi | COL26.8 目录详情 `#/registry?release=COL26.8&id=4K5Y4` | 双语区域范围图导读；非完整种志 | P3-27 |
 
 本批 12 个种级分类单元均未在当前 dossier 分片中命中；新增为 profile-only 导读，没有新建 dossier，且尚未经过外部领域专家评审。合并后灵长类接受种读者页为 137/530（58 个 dossier-backed、79 个 profile-only），393 个接受种仍无种级读者页；476 个接受种仍未命中 dossier 索引。该批页面只覆盖这篇研究的区域范围图结果，不作为综合物种介绍计数。
+
+
+### P3-28 亚马逊范围图余项与苏拉威西猕猴实地研究导读（2026-09-30）
+
+为五个尚无物种页且仍为 COL26.8 接受种的巴西亚马逊灵长类补上 Mourthé 等（2022）补充表 S1 的区域范围图摘要；另据北苏拉威西 1987–1988 年调查、南苏拉威西 2006 年样线调查及 2022 年遗传研究，为五种 Macaca 建立来源边界明确的双语导读。亚马逊页只报告研究矩阵的地图相交；苏拉威西猕猴页保留历史地点、样点与作者解释，不将旧密度外推为现今种群。普通英文名仅用于 MDD 有接受名匹配的猕猴；其余五个亚马逊页以 COL 接受学名作为显示标签，不臆造普通名。另为 Cebus 与 Leontocebus 各增加一条属级矩阵阅读页；属页不计入 530 个种级分母。
+
+| COL ID / 接受分类单元 | 来源支持的局部主题 | 页面入口 | 状态 | 批次 |
+| --- | --- | --- | --- | --- |
+| 7S268 Cebus castaneus | S1：Guiana 范围图相交（1 区） | COL26.8 目录详情 `#/registry?release=COL26.8&id=7S268` | 双语区域范围图导读；非完整种志 | P3-28 |
+| RZ28 Cebus yuracus | S1：Napo 范围图相交（1 区） | COL26.8 目录详情 `#/registry?release=COL26.8&id=RZ28` | 双语区域范围图导读；非完整种志 | P3-28 |
+| 3T6RB Leontocebus fuscicollis | S1：Inambari 范围图相交（1 区） | COL26.8 目录详情 `#/registry?release=COL26.8&id=3T6RB` | 双语区域范围图导读；非完整种志 | P3-28 |
+| 3T6RC Leontocebus fuscus | S1：Jaú、Napo 范围图相交（2 区） | COL26.8 目录详情 `#/registry?release=COL26.8&id=3T6RC` | 双语区域范围图导读；非完整种志 | P3-28 |
+| 3T6RK Leontocebus nigricollis | S1：Napo 范围图相交（1 区） | COL26.8 目录详情 `#/registry?release=COL26.8&id=3T6RK` | 双语区域范围图导读；非完整种志 | P3-28 |
+| 3WWNG Macaca hecki | Sugardjito 等（1989）：Tangale、Panua 两处保护地的历史密度记录 | COL26.8 目录详情 `#/registry?release=COL26.8&id=3WWNG` | 双语历史样点导读；不是当前数量估计 | P3-28 |
+| 3WWNV Macaca nigrescens | Sugardjito 等（1989）：Dumoga-Bone 分区密度及当时估计 | COL26.8 目录详情 `#/registry?release=COL26.8&id=3WWNV` | 双语历史调查导读；不是当前普查 | P3-28 |
+| 3WWNX Macaca ochreata | Riley 等（2007）：Faruhumpenai 两处样点、群密度及分布扩展判断 | COL26.8 目录详情 `#/registry?release=COL26.8&id=3WWNX` | 双语局部样线导读；非全岛估计 | P3-28 |
+| 7336T Macaca tonkeana | Riley 等（2007）：Kasintuwu 对单种群与混群的现场记录 | COL26.8 目录详情 `#/registry?release=COL26.8&id=7336T` | 双语局部观察导读；未报告单种群密度 | P3-28 |
+| BMTBJ Macaca selai | Ghosh 等（2022）：系统发育区分、约 1.96 Ma 的作者估计及遗传保护单元 | COL26.8 目录详情 `#/registry?release=COL26.8&id=BMTBJ` | 双语遗传研究导读；非种群调查 | P3-28 |
+
+属级矩阵导读：Cebus 的 S1 六个表列分类单元共 8 个物种—间河区相交项；Leontocebus 的四个表列分类单元共 5 项。两页只比较该研究列出的区域范围图覆盖，不表示属内全部接受种、点位存在、丰度或过河行为。本批未新建 dossier，未把历史局部研究标为现今种群状态，也未经过外部领域专家评审。
+
+P3-28 后，灵长类种级读者页为 147/530（58 个 dossier-backed、89 个 profile-only）；383 个接受种仍无种级读者页，476 个接受种仍未命中 dossier 索引。五个亚马逊页和五个猕猴页均为 profile-only 导读；属级页另计。
