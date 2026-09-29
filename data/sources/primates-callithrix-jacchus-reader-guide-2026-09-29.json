@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-callithrix-jacchus-reader-guide-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "697NS",
+    "scientificName": "Callithrix jacchus (Linnaeus, 1758)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage 697NS; source-linked captive pair-formation guide only."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/697NS",
+      "stableId": "col:697NS@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Primates classification.",
+      "accessedAt": "2026-09-29",
+      "license": "CC BY 4.0 taxonomic metadata; no biological text reused.",
+      "licenseAssessment": "identity-only",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 697NS. https://doi.org/10.48580/dgywk"
+    },
+    {
+      "id": "wienand2026",
+      "title": "Spatial and Sociosexual Behavior During Pair Formation in Common Marmosets (Callithrix jacchus)",
+      "url": "https://doi.org/10.1007/s10764-026-00553-2",
+      "stableId": "doi:10.1007/s10764-026-00553-2",
+      "version": "International Journal of Primatology 47:698–719 (2026); published 2026-04-10",
+      "publishedAt": "2026-04-10",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Methods—Subjects and Housing, Experimental Design, Spatial Proximity, Sociosexual Behavior; Results; study limitations.",
+      "scope": "Captive adult common marmosets at the UZH Primate Station, Switzerland: three adult males and three adult females in eight analyzed mixed-sex dyads; partners were assigned by researchers and repeated short visual exposures were tested from February through August 2022.",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the publisher's Rights and permissions section.",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "rightsEvidenceUrl": "https://link.springer.com/article/10.1007/s10764-026-00553-2",
+      "rightsEvidenceLocator": "Publisher Rights and permissions section; separately credited third-party material may have different terms.",
+      "licenseAppliesTo": "Paraphrased article text only; no figures, tables, images, or supplementary-file content is copied.",
+      "attribution": "Wienand L, Burkart JM, Wierucka K. (2026). Spatial and Sociosexual Behavior During Pair Formation in Common Marmosets (Callithrix jacchus). International Journal of Primatology 47:698–719. https://doi.org/10.1007/s10764-026-00553-2. CC BY 4.0. Claims are paraphrased."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "wienand2026",
+      "text": "Before assigned pair formation, repeated short visual exposures of initially unfamiliar captive common marmosets were associated with a model-estimated 32.3% decrease in direct interindividual distance per exposure. After pair formation, mate status had no clear association with direct distance (P=0.37).",
+      "scope": "Eight mixed-sex dyads of six captive adults at one Swiss station; this short assay does not describe wild grouping or mate choice."
+    },
+    {
+      "sourceId": "wienand2026",
+      "text": "Across 91 analyzed recordings, the study recorded 436 sociosexual behaviors. A pooled model estimated about 1.2 more scan-counts across nine scans in a session before pair formation than after it (P=0.023); after pairing, observed counts were lower in pair-mate than less familiar extra-pair dyads.",
+      "scope": "Exploratory captive observations from researcher-assigned pairs, not estimates of wild mating behavior, sexual exclusivity, or population-wide social organization."
+    }
+  ],
+  "gaps": [
+    "The added pair-formation evidence is one exploratory captive assay from six adults at a single station; partner assignment did not allow mate choice.",
+    "Natural dispersal, wild social relationships, long-term pair maintenance, and population variation remain unassessed."
+  ]
+}
