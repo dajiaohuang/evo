@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "batchId": "crocodylia-p4-3-reader-guides-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "ZKNK",
+    "scientificName": "Crocodylus niloticus Laurenti, 1768",
+    "rank": "species",
+    "sourceDatasetId": "1008",
+    "identityScope": "Exact accepted COL26.8 species usage ZKNK; source-linked local ecology guide only."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1008",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/ZKNK",
+      "stableId": "col:ZKNK@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Crocodylidae classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "behangana2020",
+      "title": "Ontogenetic habitat use and seasonal activity of Nile crocodiles (Crocodylus niloticus) in the Lake Albert delta, East Africa",
+      "url": "https://doi.org/10.1016/j.jglr.2020.09.010",
+      "stableId": "doi:10.1016/j.jglr.2020.09.010",
+      "version": "Journal of Great Lakes Research 46(6):1776–1782 (2020)",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; study area; monthly transect observations; habitat use by size class.",
+      "scope": "One-year monthly transect observations of one Nile crocodile population in the Lake Albert delta, western Uganda; supports local observation patterns, not range-wide abundance or ecology.",
+      "attribution": "Behangana M, Magala R, Katumba R, Ochanda D, Kigoolo S, Mutebi S, Dendi D, Luiselli L, Hughes DF (2020). Ontogenetic habitat use and seasonal activity of Nile crocodiles (Crocodylus niloticus) in the Lake Albert delta, East Africa. Journal of Great Lakes Research 46(6):1776–1782. DOI 10.1016/j.jglr.2020.09.010. Claims are paraphrased.",
+      "publishedAt": "2020-12"
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "behangana2020",
+      "text": "Five monthly transects recorded 186 crocodile observations from October 2017 to September 2018; seasonal observation frequency and habitat use varied across size classes in the Lake Albert delta.",
+      "scope": "A single population and year; observation counts do not estimate true abundance or characterize the full species range."
+    }
+  ],
+  "gaps": [
+    "The local transect study does not provide a range-wide population estimate or a complete species ecology dossier.",
+    "Observation frequency should not be interpreted as abundance without accounting for detection probability."
+  ]
+}

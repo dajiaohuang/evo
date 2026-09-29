@@ -171,7 +171,7 @@ P0 两篇样板已通过 PR #474 合并；P1 七个核心现生种已通过 PR #
 
 P3-1 至 P3-5 五批共 48 个目录档案写入双语导读；P3-6 为 Alouatta caraya（COL ID `C5Q8`）新增一条由 CC BY 4.0 原始研究支持的局部导读，P3-7 为 Colobus angolensis（COL ID `X6R3`）新增一条根据罗文佐里安哥拉疣猴单一野外研究撰写的局部导读，P3-8 为 Leontopithecus chrysomelas（COL ID `3T6ZR`）新增一条依据南巴伊亚一支焦点群体的原始观察与模型撰写的局部导读；P3-9 为 Callicebus nigrifrons（`PMLQ`）、Callithrix aurita（`68VNQ`）和 Sapajus nigritus（`6XJW7`）新增三条基于同一篇 CC BY 研究的局地破碎化导读，并保留来源对验证模型次级变量的内部不一致；这六条新增档案均未建立 dossier。P3-10 为北豚尾猴 Macaca leonina（`3WWNK`）新增一条关于泰国单一野生群体习惯化的双语研究导读；文章结果部分称近 10 个月达到完全阶段，而摘要与结论称接近 13 个月，页面保留这一时间口径差异。该页没有新增 dossier。P3-11 为狮尾猴 Macaca silenus（COL ID 3WWP6）新增一条双语读者导读，整合既有西高止山脉线粒体 DNA 研究、一群猴的旱季行为研究和四群猴的 bioRxiv v1 预印本；不将局地取样外推为全种规律。未新建 dossier。P3-12 为橄榄狒狒 Papio anubis（COL ID 6TM9B）新增基于 2018 年 Alu 插入研究的双语导读；4,645 个指示位点仅是每种两只个体的 12 只样本面板计数。该页复用既有 dossier 和来源审计，没有扩大其样本推断。与 P1 七个现生核心页对照后，发现 P3-3 的 Macaca radiata（COL ID 3WWP2）重复。P3-13 为普通狨 Callithrix jacchus（COL ID 697NS）补充目录详情研究导读，依据六只圈养成年个体、八组研究者配对 dyad；P3-14 为恒河猴 Macaca mulatta（COL ID 3WWNQ）补充目录详情数量遗传导读，依据圣地亚哥岛管理种群的形态与谱系分析。两种均已有 P1 静态核心页与 dossier，本批目录详情复用已审计来源，不增加按 COL ID 去重的种级覆盖。P3-15 为白面卷尾猴 Cebus imitator（COL ID RYZL）新增基于 Melin et al.（2022）的双语研究导读：三种同域灵长类在 2,107 个取食行为段落中留下 26,094 次果实探索记录；白面卷尾猴在比较样本中最常用手触果实，果实比例介于另两种之间，但嗅闻少于两者。结论限于共享食物与局地群体，不外推为全种食谱或感觉机制；原文 CC BY 4.0，复用既有 Ateles 与 Alouatta 来源审计。合并后唯一有读者导读的接受种为 64/530（静态核心页与目录详情按 COL ID 去重）；其中 56 个 dossier-backed 种、8 个 profile-only 种，466 个接受种仍无读者页，476 个种未命中 dossier 索引。早期灵长类化石 7 篇已由本地静态页构建确认可打开；以上均不表示完成专家评审或完整科学档案。
 
-当前主龙物种级 `CatalogueKnowledge` 导读由本批前的 0 增至 2：`Alligator mississippiensis`（COL `BTRB`，Crocodylia）和 `Parus major`（COL `75SVV`，Aves）。因此现生主龙导读为鳄目 1/27、鸟类 1/11,044，共 2/11,071；两页均为局部研究导读，不是完整种志或 dossier。已有 15 条恐龙、鳄形类/鸟类、海生爬行动物/翼龙包级 profiles 及三条类群阅读路径是精选入口，不是全种覆盖。
+P4 现生主龙扩充批次开始前，已有 `CatalogueKnowledge` 物种级导读 2 条：`Alligator mississippiensis`（COL `BTRB`，Crocodylia）和 `Parus major`（COL `75SVV`，Aves）。当时覆盖鳄目 1/27、鸟类 1/11,044，共 2/11,071；两页均为局部研究导读，不是完整种志或 dossier。已有 15 条恐龙、鳄形类/鸟类、海生爬行动物/翼龙包级 profiles 及三条类群阅读路径是精选入口，不是全种覆盖。
 
 在上述两页基线上，本批再加入 7 个 COL26.8 鳄目接受种：扬子鳄、宽吻凯门鳄、澳洲淡水鳄、恒河鳄、湾鳄、美洲鳄和奥里诺科鳄。合并统计为鳄目 8/27、鸟类 1/11,044，共 9/11,071 个现生主龙物种页；这七页分别是比较咬力/牙压、迁放移动、群体遗传或区域栖地模型导读，不是完整种志或 dossier。咬力论文的实验样本覆盖当时认可的 23 种鳄类，与本计划采用的 COL26.8 现生分母 27 种口径不同，不能据此宣称完成了其余物种覆盖。
 
@@ -193,7 +193,7 @@ P3-1 至 P3-5 五批共 48 个目录档案写入双语导读；P3-6 为 Alouatta
 | 4C47J Paleosuchus palpebrosus | 磨牙区类群代表咬合力：n=3；900 N（样本范围 667–1,125 N） | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=4C47J` | 成年机构样本，不是全种统计或野外表现；不把后续拆分分类群的旧样本重新归类 | P4-1 |
 | 4C47K Paleosuchus trigonatus | 磨牙区类群代表咬合力：n=3；1,082 N（样本范围 1,058–1,125 N） | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=4C47K` | 成年机构样本，不是全种统计或野外表现；不把后续拆分分类群的旧样本重新归类 | P4-1 |
 
-合并统计为鳄目 23/27、Aves 1/11,044，共 24/11,071 个现生主龙种级导读。其余 4 个鳄目接受种暂不计完成：Crocodylus niloticus、C. novaeguineae、Mecistops cataphractus、Osteolaemus tetraspis 仍需研究旧分类名与现行 COL 概念的标本地点或凭证记录对照。P4-2 的 4 页均为局部形态或历史谱系研究，不是完整种志或 dossier。
+P4-2 合并后的阶段统计为鳄目 23/27、Aves 1/11,044，共 24/11,071 个现生主龙种级导读。当时剩余四个鳄目接受种为 Crocodylus niloticus、C. novaeguineae、Mecistops cataphractus、Osteolaemus tetraspis；P4-3 对它们新增局地生态、形态或谱系研究导读。P4-2 页面不是完整种志或 dossier。
 
 ### P4-2 现生鳄类分类形态与历史谱系导读
 
@@ -205,5 +205,18 @@ P3-1 至 P3-5 五批共 48 个目录档案写入双语导读；P3-6 为 Alouatta
 | 8GRXJ Crocodylus halli | 新几内亚南北种群头骨形态对比与新种诊断；DOI 10.1643/CG-19-240 | 已写 / 已写 | COL26.8 目录详情 #/registry?release=COL26.8&id=8GRXJ | 诊断限于比较标本和地点，不代表全岛生态调查 | P4-2 |
 | 8GPZP Mecistops leptorhynchus | 两种现生细吻鳄成年头骨的连续形态比较；DOI 10.1002/jmor.21365 | 已写 / 已写 | COL26.8 目录详情 #/registry?release=COL26.8&id=8GPZP | 头骨诊断不等于覆盖各年龄段的野外鉴定键 | P4-2 |
 | 8SBC9 Osteolaemus osborni | 刚果西北部一处同域记录及小样本核基因组比较；DOI 10.1098/rsbl.2023.0448 | 已写 / 已写 | COL26.8 目录详情 #/registry?release=COL26.8&id=8SBC9 | 单地点与少数个体不能估计全域共存或基因流 | P4-2 |
+
+### P4-3 现生鳄类栖息地、监测与矮鳄分类边界导读
+
+新增四个 COL26.8 Crocodylia 接受种的来源链接导读：乌干达阿尔伯特湖三角洲尼罗鳄生境观察、科特迪瓦西非细吻鳄重复调查、新几内亚鳄南北样本头骨比较，以及加蓬洞穴矮鳄食性与非洲矮鳄地理谱系研究。每页限定于论文所研究的地点、标本、时间和模型；Abanda 洞穴种群的旧用名与后续谱系框架之间仍缺少同批标本的直接对应，故不把其提升为独立种，也不把局地资料推广为全种种志。
+
+| COL ID / 接受种 | 页面内容与证据范围 | 双语 / 来源审计 | 身份链接 | 限制 | 批次 |
+| --- | --- | --- | --- | --- | --- |
+| ZKNK Crocodylus niloticus | 阿尔伯特湖三角洲五条样线、一年 186 次观察；体型阶段生境宽度与季节记录；DOI 10.1016/j.jglr.2020.09.010 | 已写 / 已写 | COL26.8 目录详情 #/registry?release=COL26.8&id=ZKNK | 单地点、单年观察；频次不是丰度估计 | P4-3 |
+| ZKNM Crocodylus novaeguineae | Sepik 与 Hunstein 北部标本和南部样本的头骨比较；DOI 10.1643/CG-19-240 | 已写 / 已写 | COL26.8 目录详情 #/registry?release=COL26.8&id=ZKNM | 比较标本支持分类诊断，不是全岛鉴定键或种群普查 | P4-3 |
+| 3YKJB Mecistops cataphractus | 科特迪瓦 38 个地点、195 次重复调查的探测概率与渔网遭遇关联；DOI 10.1002/ece3.8188 | 已写 / 已写 | COL26.8 目录详情 #/registry?release=COL26.8&id=3YKJB | 监测模型限定于研究地点和调查设计；探测率不是种群数量 | P4-3 |
+| 6TBCB Osteolaemus tetraspis | 加蓬 Abanda 洞穴与邻近森林的食性、体况局地比较；兼述非洲矮鳄三地理谱系研究；DOI 10.1111/aje.12365、10.1016/j.ympev.2008.11.009 | 已写 / 已写 | COL26.8 目录详情 #/registry?release=COL26.8&id=6TBCB | 洞穴群体分类位置未由同批标本在后续分类框架中直接验证；不外推为全种生态 | P4-3 |
+
+P4-3 后的现生主龙导读为鳄目 27/27、鸟类 1/11,044，共 28/11,071。其余鸟类页面仍须按 Aves 的固定接受种分母逐批补齐；包级精选页、单一研究导读和 fossil PBDB 条目均不替代各自种级覆盖。主龙化石工作分母仍为 2026-09-29 PBDB 查询的 4,664 个 accepted、非现生、常规种级分类单元，需按分类概念去重后另行批次推进。
 
 每页均有独立来源审计文件；原研究授权未在记录中核实，未复制图像。合并后覆盖为鳄目 23/27、鸟类 1/11,044，合计 24/11,071。

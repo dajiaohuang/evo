@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "batchId": "crocodylia-p4-3-reader-guides-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "6TBCB",
+    "scientificName": "Osteolaemus tetraspis Cope, 1861",
+    "rank": "species",
+    "sourceDatasetId": "1008",
+    "identityScope": "Exact accepted COL26.8 species usage 6TBCB; local cave-population ecology is attributed only as the original paper's taxonomic usage."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1008",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/6TBCB",
+      "stableId": "col:6TBCB@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Crocodylidae classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "shirley2017",
+      "title": "Diet and body condition of cave-dwelling dwarf crocodiles (Osteolaemus tetraspis, Cope 1861) in Gabon",
+      "url": "https://doi.org/10.1111/aje.12365",
+      "stableId": "doi:10.1111/aje.12365",
+      "version": "African Journal of Ecology 55(4):411–422 (2017; version of record online 2016-09-28)",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Abanda cave and surrounding forest comparison.",
+      "scope": "Local diet and body-condition comparison of cave and forest dwarf crocodiles in Gabon; uses the paper's O. tetraspis name and does not independently resolve later lineage placement.",
+      "attribution": "Shirley MH, Burtner B, Oslisly R, Sebag D, Testa O (2017). Diet and body condition of cave-dwelling dwarf crocodiles (Osteolaemus tetraspis, Cope 1861) in Gabon. African Journal of Ecology 55(4):411–422. DOI 10.1111/aje.12365. Claims are paraphrased.",
+      "publishedAt": "2017"
+    },
+    {
+      "id": "eaton2009",
+      "title": "Species-level diversification of African dwarf crocodiles (Genus Osteolaemus): a geographic and phylogenetic perspective",
+      "url": "https://doi.org/10.1016/j.ympev.2008.11.009",
+      "stableId": "doi:10.1016/j.ympev.2008.11.009",
+      "version": "Molecular Phylogenetics and Evolution 50(3):496–506 (2009)",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; type locality discussion; known-locality sampling and geographic clades.",
+      "scope": "Multilocus and limited morphological analysis of dwarf crocodiles from known localities; supports three geographic lineages and identifies the O. tetraspis type basin, but does not assign later Abanda cave specimens.",
+      "attribution": "Eaton MJ, Martin A, Thorbjarnarson J, Amato G (2009). Species-level diversification of African dwarf crocodiles (Genus Osteolaemus): a geographic and phylogenetic perspective. Molecular Phylogenetics and Evolution 50(3):496–506. DOI 10.1016/j.ympev.2008.11.009. Claims are paraphrased.",
+      "publishedAt": "2009-03"
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "shirley2017",
+      "text": "The Abanda cave crocodiles studied under the name O. tetraspis ate mainly cave crickets and bats; surrounding forest animals examined ate mainly freshwater crustaceans and insects. Juvenile cave crocodiles had higher body condition than forest juveniles, while the adult comparison was not statistically significant.",
+      "scope": "Local ecological comparison; small sample size limits adult body-condition inference and does not establish species-wide ecology."
+    },
+    {
+      "sourceId": "eaton2009",
+      "text": "Multilocus analyses supported three geographic lineages; the O. tetraspis type specimen originated from the Ogooué River basin in Gabon.",
+      "scope": "Broad lineage context and type-locality evidence, not a direct genetic assignment of the later Abanda cave samples."
+    }
+  ],
+  "gaps": [
+    "The relationship between the Abanda cave population and the later three-lineage framework has not been verified using the same specimens.",
+    "The cave ecology study does not support a complete species distribution or a range-wide ecological dossier."
+  ]
+}

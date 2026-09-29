@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "batchId": "crocodylia-p4-3-reader-guides-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "ZKNM",
+    "scientificName": "Crocodylus novaeguineae Schmidt, 1928",
+    "rank": "species",
+    "sourceDatasetId": "1008",
+    "identityScope": "Exact accepted COL26.8 species usage ZKNM; source-linked comparative morphology guide only."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1008",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/ZKNM",
+      "stableId": "col:ZKNM@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Crocodylidae classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "murray2019",
+      "title": "Divergent Morphology among Populations of the New Guinea Crocodile, Crocodylus novaeguineae (Schmidt, 1928): Diagnosis of an Independent Lineage and Description of a New Species",
+      "url": "https://doi.org/10.1643/CG-19-240",
+      "stableId": "doi:10.1643/CG-19-240",
+      "version": "Copeia 107(3):517–523 (2019)",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; material examined; comparative morphology and species diagnosis.",
+      "scope": "Comparison of northern and southern New Guinea specimens; supports a morphology-based diagnosis of sampled groups and the description of C. halli, not complete island-wide population ecology.",
+      "attribution": "Murray CM, Russo P, Zorrilla A, McMahan CD (2019). Divergent Morphology among Populations of the New Guinea Crocodile, Crocodylus novaeguineae (Schmidt, 1928): Diagnosis of an Independent Lineage and Description of a New Species. Copeia 107(3):517–523. DOI 10.1643/CG-19-240. Claims are paraphrased.",
+      "publishedAt": "2019-09-25"
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "murray2019",
+      "text": "The comparison included northern specimens from the Sepik River and Hunstein; the sampled northern group differed in relative maxilla and postcranial proportions from southern groups described as C. halli.",
+      "scope": "Specimen-based morphology comparison, not a field identification key validated for all ages or river systems."
+    }
+  ],
+  "gaps": [
+    "The specimen comparison does not inventory all New Guinea river populations or define all range boundaries.",
+    "The guide is not a multi-source species dossier."
+  ]
+}
