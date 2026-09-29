@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-colobus-angolensis-reader-intro-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "X6R3",
+    "scientificName": "Colobus angolensis Sclater, 1860",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage X6R3; the reader guide is based on a field study of the subspecies Colobus angolensis ruwenzorii and does not add a species dossier."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/X6R3",
+      "stableId": "col:X6R3@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Colobus/Primates classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "stead2019",
+      "title": "A multi-level society comprised of one-male and multi-male core units in an African colobine (Colobus angolensis ruwenzorii)",
+      "url": "https://doi.org/10.1371/journal.pone.0217666",
+      "stableId": "doi:10.1371/journal.pone.0217666",
+      "version": "PLOS ONE 14(10):e0217666; published 2019-10-16",
+      "publishedAt": "2019-10-16",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Materials and Methods, study population and data collection; Results, core units and non-random associations.",
+      "scope": "Primary field study of one Rwenzori Angolan colobus band at Lake Nabugabo, Uganda, using observations from August 2017 to July 2018; the studied taxon is the subspecies Colobus angolensis ruwenzorii.",
+      "license": "Creative Commons Attribution License, stated in the article copyright statement; the article does not specify a numbered version.",
+      "licenseAssessment": "item-level-verified-version-unspecified",
+      "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217666",
+      "rightsEvidenceLocator": "Copyright statement after the article citation; Creative Commons Attribution License.",
+      "attribution": "Stead SM, Teichroeb JA (2019). A multi-level society comprised of one-male and multi-male core units in an African colobine (Colobus angolensis ruwenzorii). PLoS ONE 14(10):e0217666. https://doi.org/10.1371/journal.pone.0217666. Claims are paraphrased."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "stead2019",
+      "text": "During a year of observations at Lake Nabugabo, the researchers identified 135 individuals in 12 core units ranging from 4 to 23 individuals.",
+      "scope": "One study band of Colobus angolensis ruwenzorii at one Ugandan site; observations were collected from August 2017 through July 2018."
+    },
+    {
+      "sourceId": "stead2019",
+      "text": "Association analyses found that some core units associated preferentially in two clans, supporting three observed levels of social organization: core unit, clan, and band.",
+      "scope": "A result from this studied subspecies and band; it is not evidence that all Colobus angolensis populations share the same organization."
+    }
+  ],
+  "gaps": [
+    "No multi-source species dossier is added.",
+    "This field study does not establish species-wide social organization, diet, range, abundance, or current conservation status."
+  ]
+}
