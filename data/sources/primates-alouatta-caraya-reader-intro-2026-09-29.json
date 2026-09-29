@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-alouatta-caraya-reader-intro-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "C5Q8",
+    "scientificName": "Alouatta caraya (Humboldt, 1812)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage C5Q8; the profile is source-linked but no dossier is added in this batch."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/C5Q8",
+      "stableId": "col:C5Q8@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Primates classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "oklander2022",
+      "title": "Gone With the Water: The Loss of Genetic Variability in Black and Gold Howler Monkeys (Alouatta caraya) Due to Dam Construction",
+      "url": "https://doi.org/10.3389/fevo.2022.768652",
+      "stableId": "doi:10.3389/fevo.2022.768652",
+      "version": "Frontiers in Ecology and Evolution 10:768652; version of record published 2022-03-10",
+      "publishedAt": "2022-03-10",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Materials and Methods, Study Sites Description and Sampling; Results; Discussion, Genetic Diversity Gone With the Water.",
+      "scope": "Primary population-genetics study of 256 individuals across 22 sites in Argentina, Paraguay, and Brazil, including four sites sampled before dam-linked flooding; microsatellite and mitochondrial markers. The authors explicitly state that sampling does not cover the entire species range.",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the article copyright and license section.",
+      "licenseAssessment": "item-level-verified",
+      "rightsHolder": "The authors",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseAppliesTo": "Article text; separately credited third-party material is excluded.",
+      "rightsEvidenceUrl": "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2022.768652/full",
+      "rightsEvidenceLocator": "Copyright and license statement at article end.",
+      "attribution": "Oklander LI, Caputo M, Fernández GP, Jerusalinsky L, de Oliveira SF, Bonatto SL, and Corach D (2022). Gone With the Water: The Loss of Genetic Variability in Black and Gold Howler Monkeys (Alouatta caraya) Due to Dam Construction. Frontiers in Ecology and Evolution 10:768652. https://doi.org/10.3389/fevo.2022.768652. Claims are paraphrased."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "oklander2022",
+      "text": "The study compared genetic structure across 22 sites. It evaluated microsatellite variability in 256 individuals and mitochondrial sequences in 112 individuals; four sites had been sampled before dam-linked flooding.",
+      "scope": "Study samples and markers only; not a complete census of the species range."
+    },
+    {
+      "sourceId": "oklander2022",
+      "text": "Samples from four flooded sites had higher genetic variability than samples from remaining studied sites. Fourteen mitochondrial haplotypes were reported at flooded sites; thirteen were not detected at the remaining sampled sites.",
+      "scope": "The paper says these lineages may have been lost locally, but notes incomplete range coverage; no claim is made that they are absent from all other populations."
+    }
+  ],
+  "gaps": [
+    "No multi-source species dossier is added.",
+    "Current range-wide distribution, population size, and conservation assessment are not addressed."
+  ]
+}
