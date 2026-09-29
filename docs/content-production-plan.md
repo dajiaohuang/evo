@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：PR #494 的 P3-21 至 P3-23、P4-4 至 P4-6 合并后，灵长类预计有 94/530 个接受种具读者页（58 个 dossier-backed、36 个 profile-only）；其余 436 个仍无读者页，476 个未命中 dossier 索引的接受种仍需排查。主龙现生种级导读为鳄目 27/27、Aves 9/11,044，共 36/11,071；鳄目现生种级页达到计划分母，继续补齐其余 11,035 个鸟类接受种，并扩展恐龙、翼龙及鳄形类的类群介绍与化石素材。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石分母分开统计。
+下一执行动作：P3-27 后，灵长类已有 137/530 个接受种具读者页（58 个 dossier-backed、79 个 profile-only）；393 个仍无读者页，476 个未命中 dossier 索引的接受种仍需排查。主龙现生种级导读为鳄目 27/27、Aves 9/11,044，共 36/11,071；继续补齐 11,035 个鸟类接受种，并扩展恐龙、翼龙及鳄形类的类群介绍与化石素材。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石分母分开统计。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -167,7 +167,9 @@ P0 两篇样板已通过 PR #474 合并；P1 七个核心现生种已通过 PR #
 
 主龙分母按现生与化石两条来源线记录。现生部分：COL26.8（2026-08-20）严格接受种快照中，Aves（COL ID `V2`）有 11,044 种，Crocodylia（COL ID `329`）有 27 种，合计 11,071 种；计数按发布版分类树后代统计 `rank=species AND status=accepted`。来源：`data/sources/snapshots/package-species-coverage-col26.8-rc72.json` 与 `data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/`。
 
-化石部分采用 Paleobiology Database（PBDB）作可复现的工作分母：2026-09-29 按 `base_name=Archosauria&rank=species&status=accepted&extant=no&pres=regular` 查询，返回 4,664 个已接受、非现生、常规化石记录种级分类单元（[查询](https://paleobiodb.org/data1.2/taxa/list.json?base_name=Archosauria&rank=species&status=accepted&extant=no&pres=regular&limit=10000)，[参数说明](https://paleobiodb.org/data1.2/taxa/list_doc.html)）。这表示该数据库和检索条件下的记录数，不等于完整或稳定的全球化石物种清单。另有 534 个 ichno（遗迹）分类单元和 628 个 form（形态）分类单元，单独登记，不并入生物种工作分母。PBDB 名称与 COL 现生鸟类、鳄目接受种有 70 个精确双名匹配；名称相同不证明分类概念相同，完成概念级对照前不从两边总数中相减。子类群查询（非鸟恐龙 1,794、含已灭绝鸟类的 Dinosauria 3,537、翼龙 276、鳄形类 672）存在包含/交叠关系，只用于分批盘点，不相加。鸟类属于现生恐龙谱系，因此鸟类既列在现生目录线，也会出现在 Dinosauria 化石分类查询中；汇总覆盖时须按分类概念对照去重。PBDB 数字为 2026-09-29 查询快照，之后应按同一参数重取并记录日期。
+化石部分采用 Paleobiology Database（PBDB）作可复现的工作分母：2026-09-30 按 `base_name=Archosauria&rank=species&status=accepted&extant=no&pres=regular` 查询，返回 4,664 个已接受、非现生、常规化石记录种级分类单元（[查询](https://paleobiodb.org/data1.2/taxa/list.json?base_name=Archosauria&rank=species&status=accepted&extant=no&pres=regular&limit=10000)，[参数说明](https://paleobiodb.org/data1.2/taxa/list_doc.html)）。本次接口返回 HTTP 200、无警告，结果数低于 10,000 上限。这是该数据库与条件下的记录数，不等于完整或稳定的全球化石物种清单。同一条件将 `pres` 改为 `ichno` 和 `form`，分别返回 534 个遗迹分类单元和 628 个形态分类单元，单独登记，不并入生物种工作分母。
+按同一检索条件分支统计：Dinosauria 3,537（包含 1,743 个 PBDB 非现生 Aves 条目），据此相减的非鸟恐龙为 1,794；Pterosauria 276；Crocodylomorpha 672。子类群包含与交叠，不相加为新总数。鸟类属于现生恐龙谱系，因此 PBDB 的已灭绝 Aves 会出现在 Dinosauria 查询中；现生鸟类仍按 COL26.8 的 Aves 分母单列。PBDB 与 COL 现生鸟类、鳄目接受种有 70 个精确双名匹配；名称相同不证明分类概念相同，完成概念级对照前不从两边总数中相减。
+PBDB 数字为 2026-09-30 检索快照；更新覆盖率前按相同参数重取。
 
 P3-1 至 P3-5 五批共 48 个目录档案写入双语导读；P3-6 为 Alouatta caraya（COL ID `C5Q8`）新增一条由 CC BY 4.0 原始研究支持的局部导读，P3-7 为 Colobus angolensis（COL ID `X6R3`）新增一条根据罗文佐里安哥拉疣猴单一野外研究撰写的局部导读，P3-8 为 Leontopithecus chrysomelas（COL ID `3T6ZR`）新增一条依据南巴伊亚一支焦点群体的原始观察与模型撰写的局部导读；P3-9 为 Callicebus nigrifrons（`PMLQ`）、Callithrix aurita（`68VNQ`）和 Sapajus nigritus（`6XJW7`）新增三条基于同一篇 CC BY 研究的局地破碎化导读，并保留来源对验证模型次级变量的内部不一致；这六条新增档案均未建立 dossier。P3-10 为北豚尾猴 Macaca leonina（`3WWNK`）新增一条关于泰国单一野生群体习惯化的双语研究导读；文章结果部分称近 10 个月达到完全阶段，而摘要与结论称接近 13 个月，页面保留这一时间口径差异。该页没有新增 dossier。P3-11 为狮尾猴 Macaca silenus（COL ID 3WWP6）新增一条双语读者导读，整合既有西高止山脉线粒体 DNA 研究、一群猴的旱季行为研究和四群猴的 bioRxiv v1 预印本；不将局地取样外推为全种规律。未新建 dossier。P3-12 为橄榄狒狒 Papio anubis（COL ID 6TM9B）新增基于 2018 年 Alu 插入研究的双语导读；4,645 个指示位点仅是每种两只个体的 12 只样本面板计数。该页复用既有 dossier 和来源审计，没有扩大其样本推断。与 P1 七个现生核心页对照后，发现 P3-3 的 Macaca radiata（COL ID 3WWP2）重复。P3-13 为普通狨 Callithrix jacchus（COL ID 697NS）补充目录详情研究导读，依据六只圈养成年个体、八组研究者配对 dyad；P3-14 为恒河猴 Macaca mulatta（COL ID 3WWNQ）补充目录详情数量遗传导读，依据圣地亚哥岛管理种群的形态与谱系分析。两种均已有 P1 静态核心页与 dossier，本批目录详情复用已审计来源，不增加按 COL ID 去重的种级覆盖。P3-15 为白面卷尾猴 Cebus imitator（COL ID RYZL）新增基于 Melin et al.（2022）的双语研究导读：三种同域灵长类在 2,107 个取食行为段落中留下 26,094 次果实探索记录；白面卷尾猴在比较样本中最常用手触果实，果实比例介于另两种之间，但嗅闻少于两者。结论限于共享食物与局地群体，不外推为全种食谱或感觉机制；原文 CC BY 4.0，复用既有 Ateles 与 Alouatta 来源审计。P3-20 后唯一有读者导读的接受种为 72/530（静态核心页与目录详情按 COL ID 去重）；其中 57 个 dossier-backed 种、15 个 profile-only 种，458 个接受种仍无读者页，476 个种未命中 dossier 索引。早期灵长类化石 7 篇已由本地静态页构建确认可打开；以上均不表示完成专家评审或完整科学档案。
 
@@ -384,3 +386,24 @@ P3-25 后灵长类接受种读者页合计为 113/530（58 个 dossier-backed、
 | 62JTZ Cebuella Gray, 1866 | Inambari 1；Jaú 1；Napo 1 | 2 行 | 属级矩阵导读；不外推为完整范围 | P3-26 |
 
 P3-26 未新建物种 dossier，页面均尚未经过外部领域专家评审。该批后灵长类接受种读者页合计为 125/530（58 个 dossier-backed、67 个 profile-only），405 个接受种仍无种级读者页；476 个接受种仍未命中 dossier 索引。
+
+### P3-27 亚马逊五属灵长类范围图导读
+
+依据 [Mourthé 等（2022）](https://doi.org/10.3389/fevo.2022.857920) 的[补充表 S1](https://public-pages-files-2025.frontiersin.org/articles/857920/file/Data_Sheet_1.pdf/857920_supplementary-materials_datasheets_1_pdf/2)，为 12 个 COL26.8 接受种新增双语局部研究导读。矩阵将 IUCN 范围图与巴西亚马逊十个间河区叠置；页面只报告研究表格中的区域相交，不把地图覆盖写成逐点野外记录、丰度或完整物种分布。接受名与身份采用 COL26.8；英文普通名标签取自 Mammal Diversity Database，中文名为编辑翻译。论文的 80/81 种及 57%/58% 内部差异仍列为限制。
+
+| COL ID / 接受种 | 补充表 S1 的间河区范围图相交 | 英文标签 | 页面入口 | 状态 | 批次 |
+| --- | --- | --- | --- | --- | --- |
+| RYYS Cebus albifrons (Humboldt, 1812) | 1：Pantepui-Duida | White-fronted Capuchin | COL26.8 目录详情 `#/registry?release=COL26.8&id=RYYS` | 双语区域范围图导读；非完整种志 | P3-27 |
+| RYZM Cebus kaapori Queiroz, 1992 | 1：Belém | Ka’apor Capuchin | COL26.8 目录详情 `#/registry?release=COL26.8&id=RYZM` | 双语区域范围图导读；非完整种志 | P3-27 |
+| RYZX Cebus olivaceus Schomburgk, 1848 | 1：Pantepui-Duida | Weeper Capuchin | COL26.8 目录详情 `#/registry?release=COL26.8&id=RYZX` | 双语区域范围图导读；非完整种志 | P3-27 |
+| TXQK Cheracebus lucifer (Thomas, 1914) | 2：Jaú、Napo | Yellow-handed Titi | COL26.8 目录详情 `#/registry?release=COL26.8&id=TXQK` | 双语区域范围图导读；非完整种志 | P3-27 |
+| TXQL Cheracebus lugens (Humboldt, 1811) | 2：Imeri、Pantepui-Duida | White-chested Titi | COL26.8 目录详情 `#/registry?release=COL26.8&id=TXQL` | 双语区域范围图导读；非完整种志 | P3-27 |
+| TXQP Cheracebus regulus (Thomas, 1927) | 1：Inambari | Rio Juruá Collared Titi | COL26.8 目录详情 `#/registry?release=COL26.8&id=TXQP` | 双语区域范围图导读；非完整种志 | P3-27 |
+| TXQQ Cheracebus torquatus (Hoffmannsegg, 1807) | 2：Jaú、Napo | White-collared Titi | COL26.8 目录详情 `#/registry?release=COL26.8&id=TXQQ` | 双语区域范围图导读；非完整种志 | P3-27 |
+| 5Y6KK Chiropotes chiropotes (Humboldt, 1811) | 2：Pantepui-Duida、Guiana | Rio Negro Bearded Saki | COL26.8 目录详情 `#/registry?release=COL26.8&id=5Y6KK` | 双语区域范围图导读；非完整种志 | P3-27 |
+| 5Y6KV Chiropotes satanas (Hoffmannsegg, 1807) | 1：Belém | Black Bearded Saki | COL26.8 目录详情 `#/registry?release=COL26.8&id=5Y6KV` | 双语区域范围图导读；非完整种志 | P3-27 |
+| 4TZJV Saimiri cassiquiarensis (Lesson, 1840) | 4：Jaú、Napo、Imeri、Pantepui-Duida | Humboldt’s Squirrel Monkey | COL26.8 目录详情 `#/registry?release=COL26.8&id=4TZJV` | 双语区域范围图导读；非完整种志 | P3-27 |
+| 4K5XZ Plecturocebus caligatus (Wagner, 1842) | 1：Inambari | Chestnut-bellied Titi | COL26.8 目录详情 `#/registry?release=COL26.8&id=4K5XZ` | 双语区域范围图导读；非完整种志 | P3-27 |
+| 4K5Y4 Plecturocebus cupreus (Spix, 1823) | 1：Inambari | Coppery Titi | COL26.8 目录详情 `#/registry?release=COL26.8&id=4K5Y4` | 双语区域范围图导读；非完整种志 | P3-27 |
+
+本批 12 个种级分类单元均未在当前 dossier 分片中命中；新增为 profile-only 导读，没有新建 dossier，且尚未经过外部领域专家评审。合并后灵长类接受种读者页为 137/530（58 个 dossier-backed、79 个 profile-only），393 个接受种仍无种级读者页；476 个接受种仍未命中 dossier 索引。该批页面只覆盖这篇研究的区域范围图结果，不作为综合物种介绍计数。
