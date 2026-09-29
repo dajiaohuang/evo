@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-sapajus-nigritus-reader-intro-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "6XJW7",
+    "scientificName": "Sapajus nigritus (Goldfuss, 1809)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage 6XJW7; the guide summarizes a local forest-fragment occurrence study, not a species dossier."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/6XJW7",
+      "stableId": "col:6XJW7@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Sapajus/Primates classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "silva2015",
+      "title": "Patch Size, Functional Isolation, Visibility and Matrix Permeability Influences Neotropical Primate Occurrence within Highly Fragmented Landscapes",
+      "url": "https://doi.org/10.1371/journal.pone.0114025",
+      "stableId": "doi:10.1371/journal.pone.0114025",
+      "version": "PLOS ONE 10(2):e0114025; published 2015-02-06",
+      "publishedAt": "2015-02-06",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Materials and Methods—study region, primate species, occurrence survey and model validation; Results; Figure 6 caption; article copyright statement.",
+      "scope": "Primary landscape study of three primate species in 45 Atlantic Forest fragments around Alfenas, Minas Gerais, Brazil, with candidate-model validation in 20 fragments near Poço Fundo.",
+      "license": "Creative Commons Attribution License, stated in the article copyright statement; the article does not specify a numbered version.",
+      "licenseAssessment": "item-level-verified-version-unspecified",
+      "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0114025",
+      "rightsEvidenceLocator": "Copyright statement following the article citation; Creative Commons Attribution License.",
+      "attribution": "da Silva LG, Ribeiro MC, Hasui É, da Costa CA, da Cunha RGT (2015). Patch Size, Functional Isolation, Visibility and Matrix Permeability Influences Neotropical Primate Occurrence within Highly Fragmented Landscapes. PLoS ONE 10(2):e0114025. https://doi.org/10.1371/journal.pone.0114025. Claims are paraphrased; no figures or tables reproduced."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "silva2015",
+      "text": "Playback surveys recorded Sapajus nigritus in 9 of 45 forest fragments around Alfenas during 2010–2013; patch area was the leading explanatory variable in the local occurrence models.",
+      "scope": "Occurrence records and candidate models from one highly fragmented Atlantic Forest landscape; not abundance or range-wide habitat preference."
+    },
+    {
+      "sourceId": "silva2015",
+      "text": "The article abstract names area and area-plus-visibility models among validated Sapajus nigritus candidates, while the Figure 6 caption names area and area-plus-matrix models.",
+      "scope": "An internal reporting discrepancy in one article; the guide retains the area result and does not choose which secondary-variable description is correct."
+    }
+  ],
+  "gaps": [
+    "No multi-source species dossier is added.",
+    "The article does not establish range-wide ecology, population size, current conservation status, or a species-wide occurrence model."
+  ]
+}

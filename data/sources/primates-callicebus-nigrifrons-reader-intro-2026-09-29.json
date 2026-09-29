@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-callicebus-nigrifrons-reader-intro-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "PMLQ",
+    "scientificName": "Callicebus nigrifrons (Spix, 1823)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage PMLQ; the guide summarizes a local forest-fragment occurrence study, not a species dossier."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/PMLQ",
+      "stableId": "col:PMLQ@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Callicebus/Primates classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "silva2015",
+      "title": "Patch Size, Functional Isolation, Visibility and Matrix Permeability Influences Neotropical Primate Occurrence within Highly Fragmented Landscapes",
+      "url": "https://doi.org/10.1371/journal.pone.0114025",
+      "stableId": "doi:10.1371/journal.pone.0114025",
+      "version": "PLOS ONE 10(2):e0114025; published 2015-02-06",
+      "publishedAt": "2015-02-06",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Materials and Methods—study region, primate species, occurrence survey and model validation; Results; Figure 6 caption; article copyright statement.",
+      "scope": "Primary landscape study of three primate species in 45 Atlantic Forest fragments around Alfenas, Minas Gerais, Brazil, with candidate-model validation in 20 fragments near Poço Fundo.",
+      "license": "Creative Commons Attribution License, stated in the article copyright statement; the article does not specify a numbered version.",
+      "licenseAssessment": "item-level-verified-version-unspecified",
+      "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0114025",
+      "rightsEvidenceLocator": "Copyright statement following the article citation; Creative Commons Attribution License.",
+      "attribution": "da Silva LG, Ribeiro MC, Hasui É, da Costa CA, da Cunha RGT (2015). Patch Size, Functional Isolation, Visibility and Matrix Permeability Influences Neotropical Primate Occurrence within Highly Fragmented Landscapes. PLoS ONE 10(2):e0114025. https://doi.org/10.1371/journal.pone.0114025. Claims are paraphrased; no figures or tables reproduced."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "silva2015",
+      "text": "Playback surveys recorded Callicebus nigrifrons in 28 of 45 forest fragments around Alfenas during fieldwork from July 2010 to January 2013; patch area was the leading explanatory variable in the local occurrence models.",
+      "scope": "Occurrence records and candidate models from one highly fragmented Atlantic Forest landscape; not abundance or range-wide habitat preference."
+    },
+    {
+      "sourceId": "silva2015",
+      "text": "Candidate models were tested in 20 fragments near Poço Fundo, but the article abstract and Figure 6 caption identify different secondary variables in the named validated model for Callicebus nigrifrons.",
+      "scope": "An internal reporting discrepancy in one article; the guide does not choose which model description is correct."
+    }
+  ],
+  "gaps": [
+    "No multi-source species dossier is added.",
+    "The article does not establish range-wide ecology, population size, current conservation status, or a species-wide occurrence model."
+  ]
+}
