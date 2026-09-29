@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-macaca-sinica-parasite-study-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "3WWP7",
+    "scientificName": "Macaca sinica (Linnaeus, 1771)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage 3WWP7; reader content is limited to one 2019 Sri Lankan fecal-parasite survey."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/3WWP7",
+      "stableId": "col:3WWP7@COL26.8",
+      "scope": "Identity only: pinned accepted name and authorship, species rank, accepted status, sourceDatasetId, and Primates classification.",
+      "accessedAt": "2026-09-29",
+      "license": "CC BY 4.0 taxonomic metadata; no biological text reused.",
+      "licenseAssessment": "identity-only",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 3WWP7. https://doi.org/10.48580/dgywk"
+    },
+    {
+      "id": "fernando2022",
+      "title": "Effect of urbanization on zoonotic gastrointestinal parasite prevalence in endemic toque macaque (Macaca sinica) from different climatic zones in Sri Lanka",
+      "url": "https://doi.org/10.1016/j.ijppaw.2021.12.007",
+      "version": "International Journal for Parasitology: Parasites and Wildlife 17 (2022): 100–109; first published online 2021-12-27",
+      "stableId": "doi:10.1016/j.ijppaw.2021.12.007",
+      "publishedAt": "2022",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Materials and Methods, Study sites and sample collection; Results, habitat-stratified prevalence for Macaca sinica sinica.",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "rightsEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8724921/",
+      "licenseAppliesTo": "The article is identified as CC BY 4.0 in its full-text record. This guide paraphrases results and does not reproduce article text, figures, or data files.",
+      "attribution": "Fernando SU, Udagama PV, Fernando SP. 2022. Effect of urbanization on zoonotic gastrointestinal parasite prevalence in endemic toque macaque (Macaca sinica) from different climatic zones in Sri Lanka. International Journal for Parasitology: Parasites and Wildlife 17:100–109. https://doi.org/10.1016/j.ijppaw.2021.12.007. CC BY 4.0. Claims paraphrased; changes made.",
+      "scope": "Cross-sectional fecal survey at 14 Sri Lankan sites from January to November 2019. The full sample comprised 180 specimens, 60 from each of three geographic subspecies and 20 per urban, suburban, and wild habitat within each subspecies. The habitat comparison described here is specifically the sampled Macaca sinica sinica subgroup, not the whole species or range."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "fernando2022",
+      "text": "The survey analyzed 180 fecal samples from 14 Sri Lankan sites between January and November 2019, with 60 samples assigned to each of three geographic subspecies and an equal 20-sample allocation among urban, suburban, and wild habitats within each subspecies.",
+      "scope": "Study design only; the sampled sites and period are not a national or year-round census."
+    },
+    {
+      "sourceId": "fernando2022",
+      "text": "For the sampled Macaca sinica sinica subgroup, parasite-positive fecal samples were 18/20 in urban sites, 14/20 in suburban sites, and 9/20 in wild sites. The urban–wild contrast was significant in the study (χ²=9.231, p=.002).",
+      "scope": "A local, cross-sectional habitat comparison for one subspecies subgroup; it does not demonstrate that urbanization caused infection or establish a species-wide prevalence."
+    },
+    {
+      "sourceId": "fernando2022",
+      "text": "Fecal parasite detection in this study does not by itself diagnose clinical disease in each macaque or demonstrate parasite transmission between macaques and humans.",
+      "scope": "Interpretive boundary of the sampling method and study design; no human transmission event was tested."
+    }
+  ],
+  "gaps": [
+    "The guide is a local research reading, not a general account of toque macaque morphology, distribution, diet, or life history.",
+    "The cross-sectional fecal survey does not establish causation, clinical disease burden, or transmission to people.",
+    "Results for the sampled Macaca sinica sinica subgroup must not be generalized to the other subspecies, unsampled populations, or later years."
+  ]
+}

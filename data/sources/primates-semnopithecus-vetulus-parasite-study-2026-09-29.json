@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-semnopithecus-vetulus-parasite-study-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "4WHJB",
+    "scientificName": "Semnopithecus vetulus (Erxleben, 1777)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage 4WHJB; reader content is limited to one Sri Lankan fecal-parasite study."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/4WHJB",
+      "stableId": "col:4WHJB@COL26.8",
+      "scope": "Identity only: pinned accepted name and authorship, species rank, accepted status, sourceDatasetId, and Primates classification.",
+      "accessedAt": "2026-09-29",
+      "license": "CC BY 4.0 taxonomic metadata; no biological text reused.",
+      "licenseAssessment": "identity-only",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 4WHJB. https://doi.org/10.48580/dgywk"
+    },
+    {
+      "id": "weerasekara2021",
+      "title": "Gastrointestinal parasites of endemic and endangered free-ranging purple-faced leaf monkey (Semnopithecus vetulus) in Sri Lanka: effect of host group size and habitat type",
+      "url": "https://doi.org/10.1007/s10329-021-00902-0",
+      "version": "Primates 62 (2021): 629–635; published 2021-03-26",
+      "stableId": "doi:10.1007/s10329-021-00902-0",
+      "publishedAt": "2021-03-26",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; study period, fecal sampling, parasite prevalence, host group-size and habitat comparisons.",
+      "license": "No open license confirmed in the consulted publisher preview; only paraphrased findings are used, with no article text, figures, or data files reproduced.",
+      "licenseAssessment": "license-not-confirmed-paraphrase-only",
+      "licenseAppliesTo": "The publisher preview exposes the abstract and identifies the full article as subscription content. This guide paraphrases the abstract-level findings only.",
+      "attribution": "Weerasekara L, Wijesooriya K, Ranawana K, Anupama T, Rajapakse J. 2021. Gastrointestinal parasites of endemic and endangered free-ranging purple-faced leaf monkey (Semnopithecus vetulus) in Sri Lanka: effect of host group size and habitat type. Primates 62:629–635. https://doi.org/10.1007/s10329-021-00902-0.",
+      "scope": "Fresh fecal samples collected from free-ranging Semnopithecus vetulus in Sri Lanka between December 2017 and April 2019; findings describe sampled groups and habitats, not the complete species range."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "weerasekara2021",
+      "text": "The study analyzed 78 fresh fecal samples collected in Sri Lanka from December 2017 through April 2019; 55% contained at least one gastrointestinal parasite type.",
+      "scope": "Sample-level detection in the surveyed free-ranging groups; not a clinical disease estimate for all purple-faced leaf monkeys."
+    },
+    {
+      "sourceId": "weerasekara2021",
+      "text": "Trichuris trichiura was the most prevalent helminth reported (15%). Its prevalence was significantly related to troop size; the study also reported habitat differences for T. trichiura and Ascaris lumbricoides.",
+      "scope": "Associations reported in the sampled groups; the design does not establish causal effects or species-wide patterns."
+    },
+    {
+      "sourceId": "weerasekara2021",
+      "text": "Fecal parasite findings do not demonstrate transmission between monkeys and people or diagnose clinical illness in an individual monkey.",
+      "scope": "Interpretive boundary; human infection and individual clinical outcomes were not established by the reported fecal survey."
+    }
+  ],
+  "gaps": [
+    "This is a local research guide, not a general account of purple-faced leaf monkey morphology, distribution, diet, or life history.",
+    "The surveyed groups do not establish current range-wide parasite prevalence or causal effects of troop size and habitat.",
+    "The publisher preview did not confirm an open license; this record supports attribution and paraphrase only."
+  ]
+}
