@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "batchId": "archosaur-gymnogyps-californianus-population-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "3HSM2",
+    "scientificName": "Gymnogyps californianus (Shaw, 1797)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage 3HSM2; this profile adds a dated recovery-program reading guide and reuses a partial conservation dossier."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/3HSM2",
+      "stableId": "col:3HSM2@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Aves classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "usfws2025",
+      "title": "U.S. Fish and Wildlife Service, California Condor Recovery Program — 2025 Annual Population Status",
+      "url": "https://www.fws.gov/sites/default/files/documents/2026-02/2025-california-condor-population-status_508-compliant.pdf",
+      "stableId": "FWS media record: 2025-california-condor-population-status-report",
+      "version": "Annual report published 2026-02-25; population reference date 2025-12-31",
+      "publishedAt": "2026-02-25",
+      "accessedAt": "2026-09-29",
+      "locator": "PDF p. 1: world/wild/regional/captive counts; p. 2: fledglings, releases, deaths and causes; pp. 3–4: cumulative lead deaths and population time series.",
+      "scope": "Recovery-program population accounting across the global managed program, including free-flying wild and captive birds, 2025 flows, and historical cause-of-death totals.",
+      "license": "Public Domain, explicitly listed in the U.S. Fish and Wildlife Service media record for the report; no figures or third-party material are reproduced.",
+      "licenseAssessment": "item-level-verified",
+      "rightsEvidenceUrl": "https://www.fws.gov/media/2025-california-condor-population-status-report",
+      "rightsEvidenceLocator": "Media usage rights/license field for the linked 2025 Annual Report states Public Domain.",
+      "attribution": "U.S. Fish and Wildlife Service, California Condor Recovery Program. 2025 Annual Population Status. Published 2026-02-25; counts as of 2025-12-31. Claims are paraphrased."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "usfws2025",
+      "text": "As of 2025-12-31, the program counted 607 condors worldwide: 392 in the wild and 215 captive. The wild count was allocated to AZ/UT 98, California 216, the experimental Pacific Northwest population 25, and Baja 53; the disjunct PNW population is excluded from the California total.",
+      "scope": "Annual recovery-program accounting and its population definitions."
+    },
+    {
+      "sourceId": "usfws2025",
+      "text": "The 2025 report recorded 16 wild-fledged chicks, 46 captive-to-wild releases, and 22 deaths in the free-flying wild population; nine deaths were confirmed as lead poisoning and nine awaited final necropsy.",
+      "scope": "One calendar/reporting year; two remote nests and early January 2026 fledging records are handled under the report's stated counting rule."
+    },
+    {
+      "sourceId": "usfws2025",
+      "text": "From 1992 through 2025, 161 lead-poisoning deaths were confirmed in the wild population, equal to 50% of deaths with known cause and 28% of all wild deaths in the report's cumulative accounting.",
+      "scope": "Historical program totals, not a future-risk forecast."
+    }
+  ],
+  "gaps": [
+    "The report is population accounting, not a formal extinction-risk assessment or population-viability analysis.",
+    "No complete species natural history or independent review is added by this page."
+  ]
+}

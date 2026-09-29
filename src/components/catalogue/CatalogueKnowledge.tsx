@@ -22,6 +22,7 @@ export function CatalogueKnowledge({ record, status, zh }: Props) {
     'not-assessed': zh ? '尚未评估' : 'Not assessed',
   }[state] ?? state)
   const number = (n: number) => n.toLocaleString(zh ? 'zh-CN' : 'en-US')
+  const sourceTitle = (title: string | { zh: string; en: string }) => typeof title === 'string' ? title : title[language]
   return <section className="catalogue-source-card catalogue-knowledge" aria-label={zh ? '内容与证据' : 'Content and evidence'}>
     <h2>{profile ? profile.name[language] : (zh ? '内容与证据' : 'Content and evidence')}</h2>
     {status === 'loading' && <p role="status">{zh ? '正在核对本条目的内容…' : 'Checking content for this taxon…'}</p>}
@@ -33,12 +34,12 @@ export function CatalogueKnowledge({ record, status, zh }: Props) {
           <p>{section.text[language]}</p>
           <small>{section.sourceIds.map((id, sourceIndex) => {
             const source = profile.sources.find(item => item.id === id)
-            return source ? <span key={id}>{sourceIndex > 0 ? ' · ' : ''}<a href={source.url}>{source.title}</a></span> : null
+            return source ? <span key={id}>{sourceIndex > 0 ? ' · ' : ''}<a href={source.url}>{sourceTitle(source.title)}</a></span> : null
           })}</small>
         </div>)}
         <details><summary>{zh ? '来源范围与待补证据' : 'Source scope and remaining evidence'}</summary>
           <p>{profile.limitations[language]}</p>
-          <ul>{profile.sources.map(source => <li key={source.id}><a href={source.url}>{source.title}</a> — {source.scope[language]}</li>)}</ul>
+          <ul>{profile.sources.map(source => <li key={source.id}><a href={source.url}>{sourceTitle(source.title)}</a> — {source.scope[language]}</li>)}</ul>
           <small>{zh ? '来源核对日期：' : 'Sources checked: '}{profile.checkedAt}</small>
         </details>
       </> : <p>{zh ? '本目录条目尚未关联独立的双语概述。下面的分类、原文与覆盖记录可分别核对。' : 'This catalogue entry has no linked bilingual introduction yet. Classification, source text and coverage can be checked separately below.'}</p>}

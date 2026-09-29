@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-xanthonycticebus-pygmaeus-captive-social-housing-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "BTCRT",
+    "scientificName": "Xanthonycticebus pygmaeus (Bonhote, 1907)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage BTCRT; the cited 2021 article uses the earlier genus name Nycticebus pygmaeus. The profile is source-linked but no species dossier is added."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/BTCRT",
+      "stableId": "col:BTCRT@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Primates classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "alejandro2021",
+      "title": "Behavioral Changes of Solitary Housed Female Pygmy Slow Lorises (Nycticebus pygmeaus) after Introduction into Group Enclosures",
+      "url": "https://doi.org/10.3390/ani11092751",
+      "stableId": "doi:10.3390/ani11092751; PMCID:PMC8466228",
+      "version": "Animals 11(9):2751; published 2021-09-20",
+      "publishedAt": "2021-09-20",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Simple Summary; Results and Discussion.",
+      "scope": "Primary before-and-after captive study of female pygmy slow lorises moved from solitary housing to group enclosures; measured behavior and fecal cortisol. The article uses the earlier genus Nycticebus.",
+      "license": "Creative Commons Attribution 4.0 International, stated in the PMC record and article open-access notice.",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "rightsEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8466228/",
+      "rightsEvidenceLocator": "Article front matter: open access under Creative Commons Attribution (CC BY) license.",
+      "attribution": "Alejandro J, Yamanashi Y, Nemoto K, et al. (2021). Behavioral Changes of Solitary Housed Female Pygmy Slow Lorises (Nycticebus pygmeaus) after Introduction into Group Enclosures. Animals 11(9):2751. https://doi.org/10.3390/ani11092751. Claims are paraphrased."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "alejandro2021",
+      "text": "The study observed captive female pygmy slow lorises before and after transfer from solitary housing into group enclosures, recording behavior and fecal cortisol.",
+      "scope": "Captive housing transition; the article uses the earlier genus name Nycticebus."
+    },
+    {
+      "sourceId": "alejandro2021",
+      "text": "Fecal cortisol levels were lower after social housing; one female showed stereotypic behavior while housed alone and no longer showed that behavior after introduction into a group enclosure.",
+      "scope": "Behavioral and hormonal results for captive female subjects; not evidence of wild social organization or a species-wide hormonal norm."
+    }
+  ],
+  "gaps": [
+    "No multi-source species dossier is added.",
+    "The study concerns captive housing and does not establish behavior, social organization, habitat, diet, or conservation status in wild populations."
+  ]
+}
