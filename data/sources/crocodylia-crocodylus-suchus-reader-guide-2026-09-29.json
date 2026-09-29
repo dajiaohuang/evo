@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "batchId": "crocodylia-crocodylus-suchus-reader-guide-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "ZKNT",
+    "scientificName": "Crocodylus suchus Geoffroy Saint-Hilaire, 1807",
+    "rank": "species",
+    "sourceDatasetId": "1008",
+    "identityScope": "Exact accepted COL26.8 species usage ZKNT; source-linked guide only."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1008",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/ZKNT",
+      "stableId": "col:ZKNT@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Crocodylidae classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "hekkala2011",
+      "title": "An ancient icon reveals new mysteries: mummy DNA resurrects a cryptic species within the Nile crocodile",
+      "url": "https://doi.org/10.1111/j.1365-294X.2011.05245.x",
+      "stableId": "doi:j.1365-294X.2011.05245.x",
+      "version": "Molecular Ecology 20(20):4199–4215 (2011)",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; phylogenetic results; analysis of Egyptian mummy haplotypes.",
+      "scope": "Phylogenetic study combining modern African crocodile samples, karyotypes and Egyptian mummy DNA; supports the cryptic-lineage and historical Nile findings, not current abundance or a complete range estimate.",
+      "attribution": "Hekkala E et al. (2011). An ancient icon reveals new mysteries: mummy DNA resurrects a cryptic species within the Nile crocodile. Molecular Ecology 20(20):4199–4215. DOI 10.1111/j.1365-294X.2011.05245.x. Claims are paraphrased."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "hekkala2011",
+      "text": "The study supported a cryptic lineage corresponding to Crocodylus suchus within the Nile crocodile complex and found mummy haplotypes consistent with historical occurrence of both crocodile lineages along the Nile.",
+      "scope": "Phylogenetic and historical-specimen evidence; not a present-day abundance or complete range assessment."
+    }
+  ],
+  "gaps": [
+    "No multi-source species dossier is added.",
+    "Historical Nile mummy evidence does not establish current distribution limits, abundance, or conservation status."
+  ]
+}

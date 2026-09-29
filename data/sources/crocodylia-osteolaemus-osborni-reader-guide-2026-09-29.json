@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "batchId": "crocodylia-osteolaemus-osborni-reader-guide-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "8SBC9",
+    "scientificName": "Osteolaemus osborni (Schmidt, 1919)",
+    "rank": "species",
+    "sourceDatasetId": "1008",
+    "identityScope": "Exact accepted COL26.8 species usage 8SBC9; source-linked guide only."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1008",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/8SBC9",
+      "stableId": "col:8SBC9@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Crocodylidae classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "gvozdik2024",
+      "title": "Central African dwarf crocodiles found in syntopy are comparably divergent to South American dwarf caimans",
+      "url": "https://doi.org/10.1098/rsbl.2023.0448",
+      "stableId": "doi:rsbl.2023.0448",
+      "version": "Biology Letters 20(5):20230448 (2024)",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; sampling; genomic results; discussion of hybridization.",
+      "scope": "Survey and genomic comparison of a small dwarf-crocodile sample from a syntopic site in northwestern Republic of the Congo; supports the local co-occurrence record and divergence comparison in the study sample, while the authors call for larger samples.",
+      "attribution": "Gvoždík L et al. (2024). Central African dwarf crocodiles found in syntopy are comparably divergent to South American dwarf caimans. Biology Letters 20(5):20230448. DOI 10.1098/rsbl.2023.0448. Claims are paraphrased."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "gvozdik2024",
+      "text": "The survey found Osteolaemus osborni and O. tetraspis at one forest-swamp site in northwestern Republic of the Congo; genomic comparisons used more than 400 nuclear loci and the authors requested larger samples to assess hybridization.",
+      "scope": "One site and a small genomic sample; not an estimate of range-wide co-occurrence, gene flow, or hybridization frequency."
+    }
+  ],
+  "gaps": [
+    "No multi-source species dossier is added.",
+    "The limited syntopic sample cannot support a range-wide frequency or gene-flow estimate."
+  ]
+}
