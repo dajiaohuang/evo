@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-30 当前批次写入后，待 PR 评审合并的灵长类读者页预计为 163/530（58 个 dossier-backed、105 个 profile-only）；367 个仍无读者页，476 个未命中 dossier 索引的接受种仍需排查。主龙现生种级导读为鳄目 27/27、Aves 9/11,044，共 36/11,071；继续补齐 11,035 个鸟类接受种，并扩展恐龙、翼龙及鳄形类的类群介绍与化石素材。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石分母分开统计。
+下一执行动作：P3-31 当前批次写入后，待 PR 评审合并的灵长类读者页预计为 174/530（58 个 dossier-backed、116 个 profile-only）；356 个仍无读者页，476 个未命中 dossier 索引的接受种仍需排查。主龙现生种级导读为鳄目 27/27、Aves 9/11,044，共 36/11,071；继续补齐 11,035 个鸟类接受种，并扩展恐龙、翼龙及鳄形类的类群介绍与化石素材。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石分母分开统计。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -464,3 +464,23 @@ P3-29 未新建物种 dossier；当前分支计入本批后，灵长类接受种
 | 6PC47 Lepilemur septentrionalis | 与 L. ankaranensis 的染色体及线粒体种界比较 | 不以染色体相似度单独决定分类 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PC47` | P3-30 |
 
 P3-30 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 163/530（58 个 dossier-backed、105 个 profile-only），367 个接受种仍无种级读者页。该计数待 PR #499 的 CI 与评审完成后再视为合并覆盖；未命中 dossier 索引的 476 个接受种仍需排查。
+
+### P3-31 十一种新描述 Lepilemur 形态与分布导读（2026-09-30）
+
+依据 Louis Jr. 等（2006）德州理工大学自然科学研究实验室专刊第 49 号，为 COL26.8 接受的 11 个 Lepilemur 新描述种补充双语 profile-only 导读。专著结合约 3,800 bp 线粒体序列片段、形态特征和当时采集的标本；页面只概述各自的描述样本特征、模式地点及作者当时认定的已知区域。样本小或原文明确待查的范围均保留不确定性，不把历史种界假说改写成现今种群或保育结论。英文普通名沿用 MDD，中文标签为编辑翻译；本批未新建 dossier，也尚未经过外部领域专家评审。
+
+| COL ID / 接受种 | 来源支持的局部主题 | 主要范围限制 | 页面入口 | 批次 |
+| --- | --- | --- | --- | --- |
+| 84HTK Lepilemur ahmansoni | Tsiombikibo 描述样本、体色与西北部亲缘比较 | 三只模式系列；南界未知 | COL26.8 目录详情 `#/registry?release=COL26.8&id=84HTK` | P3-31 |
+| 6PC4J Lepilemur betsileo | Fandriana 样本、黑尾形态与河流间记录 | 北、南界均待调查 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PC4J` | P3-31 |
+| 6PBSH Lepilemur fleuretae | Andohahela Manangotry 雨林与灰色被毛 | 原论文所列局部林地，范围待确认 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PBSH` | P3-31 |
+| 84HTL Lepilemur grewcocki | Anjiamangirana 样本、灰尾及河流间已知区域 | 单一区域描述；南界待查 | COL26.8 目录详情 `#/registry?release=COL26.8&id=84HTL` | P3-31 |
+| 6PC4F Lepilemur hubbardi | Zombitse 模式样本与三色被毛 | 2006 年描述范围，不含现今种群估计 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PC4F` | P3-31 |
+| 84HTM Lepilemur jamesi | Manombo 沿海低地雨林背景与棕色被毛 | 栖地背景不等于全种生态；界线待查 | COL26.8 目录详情 `#/registry?release=COL26.8&id=84HTM` | P3-31 |
+| 6PBSB Lepilemur milanoii | Daraina 形态及 Andrafiamena 共域记录 | 作者要求补充分布和种群调查 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PBSB` | P3-31 |
+| 6PBS9 Lepilemur petteri | Beza-Mahafaly 记录、体型比较与刺灌林 | 区域边界仍需调查 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PBS9` | P3-31 |
+| 6PC3V Lepilemur seali | Anjanaharibe-Sud 样本及 Mananara-Nord 暂定归属 | 潜在拆分为历史假说，不是现行接受分类 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PC3V` | P3-31 |
+| 6PBRW Lepilemur tymerlachsoni | Nosy Be、Lokobe 样本和背部条纹 | 局部取样，未形成现今岛屿普查 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PBRW` | P3-31 |
+| 6PBS8 Lepilemur wrighti | Kalambatritra 样本及可能的性别色型差异 | 色型观察仅五只个体，范围待查 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PBS8` | P3-31 |
+
+P3-31 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 174/530（58 个 dossier-backed、116 个 profile-only），356 个接受种仍无种级读者页。该计数待 PR #499 的 CI 与评审完成后再视为合并覆盖；未命中 dossier 索引的 476 个接受种仍需排查。
