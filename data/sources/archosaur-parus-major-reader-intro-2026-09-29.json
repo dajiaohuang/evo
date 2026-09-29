@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "batchId": "archosaur-parus-major-reader-intro-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "75SVV",
+    "scientificName": "Parus major Linnaeus, 1758",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage 75SVV; this profile is source-linked but no multi-source dossier is added."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/75SVV",
+      "stableId": "col:75SVV@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Aves classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "mols2007",
+      "title": "Great Tits (Parus major) Reduce Caterpillar Damage in Commercial Apple Orchards",
+      "url": "https://doi.org/10.1371/journal.pone.0000202",
+      "stableId": "doi:10.1371/journal.pone.0000202",
+      "version": "PLoS ONE 2(2):e202; published 2007-02-07",
+      "publishedAt": "2007-02-07",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Results; Materials and Methods, Experimental Design.",
+      "scope": "Primary field experiment in 12 commercial Dutch apple orchards (six integrated pest management, six organic) from 1997–2000; compared 2-hectare nest-box plots with breeding great tits against control plots.",
+      "license": "Creative Commons Attribution License, stated in the article copyright section; the article does not specify a numbered license version.",
+      "licenseAssessment": "item-level-verified-version-unspecified",
+      "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0000202",
+      "rightsEvidenceLocator": "Copyright statement after the article citation; Creative Commons Attribution License.",
+      "attribution": "Mols CMM, Visser ME (2007). Great Tits (Parus major) Reduce Caterpillar Damage in Commercial Apple Orchards. PLoS ONE 2(2):e202. https://doi.org/10.1371/journal.pone.0000202. Claims are paraphrased."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "mols2007",
+      "text": "Across 12 Dutch commercial apple orchards studied from 1997–2000, caterpillar damage in integrated-pest-management plots with breeding great tits was 2.9%, compared with 5.8% in controls; the study did not demonstrate a similar reduction in organic orchards.",
+      "scope": "Twelve orchards, two management regimes, paired study plots, and the study period only."
+    }
+  ],
+  "gaps": [
+    "No multi-source species dossier is added.",
+    "The study does not describe great-tit ecology outside the tested Dutch orchard settings."
+  ]
+}

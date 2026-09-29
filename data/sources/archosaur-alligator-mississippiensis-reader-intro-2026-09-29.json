@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "batchId": "archosaur-alligator-mississippiensis-reader-intro-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "BTRB",
+    "scientificName": "Alligator mississippiensis (Daudin, 1801)",
+    "rank": "species",
+    "sourceDatasetId": "1008",
+    "identityScope": "Exact accepted COL26.8 species usage BTRB; this profile is source-linked but no multi-source dossier is added."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1008",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/BTRB",
+      "stableId": "col:BTRB@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Crocodylia classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "strickland2016",
+      "title": "Scale-Dependent Habitat Selection and Size-Based Dominance in Adult Male American Alligators",
+      "url": "https://doi.org/10.1371/journal.pone.0161814",
+      "stableId": "doi:10.1371/journal.pone.0161814",
+      "version": "PLoS ONE 11(9):e0161814; published 2016-09-02",
+      "publishedAt": "2016-09-02",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Methods, Study Area and Radio-telemetry; Results; Discussion.",
+      "scope": "Primary field study of 17 adult male Alligator mississippiensis tracked along the Pearl River and Ross Barnett Reservoir in central Mississippi during 2012–2013; 1,145 locations were analyzed.",
+      "license": "CC0 public-domain dedication, stated in the article copyright section.",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0161814",
+      "rightsEvidenceLocator": "Copyright/license statement after article citation; CC0 dedication.",
+      "attribution": "Strickland BA, Vilella FJ, Belant JL (2016). Scale-Dependent Habitat Selection and Size-Based Dominance in Adult Male American Alligators. PLoS ONE 11(9):e0161814. https://doi.org/10.1371/journal.pone.0161814. Claims are paraphrased."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "strickland2016",
+      "text": "Seventeen adult males tracked on the Pearl River and Ross Barnett Reservoir in 2012–2013 contributed 1,145 locations to home-range and patch-scale habitat-selection analyses.",
+      "scope": "Adult males at one Mississippi river-reservoir system only."
+    },
+    {
+      "sourceId": "strickland2016",
+      "text": "Habitat selection differed across spatial scales; body size was not associated with home-range size or resource selection in this sample.",
+      "scope": "Study-area, sample, and time limits apply; no species-wide behavior or dominance claim."
+    }
+  ],
+  "gaps": [
+    "No multi-source species dossier is added.",
+    "The study does not assess females, juveniles, other populations, full distribution, or current conservation status."
+  ]
+}
