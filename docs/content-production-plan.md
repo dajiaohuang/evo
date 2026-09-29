@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：PR #494 待合并后，灵长类预计有 79/530 个接受种具读者页（57 个 dossier-backed、22 个 profile-only）；其余 451 个仍无读者页，476 个未命中 dossier 索引的接受种仍需排查。主龙现生种级导读为鳄目 27/27、Aves 5/11,044，共 32/11,071；鳄目现生种级页达到计划分母，继续补齐其余 11,039 个鸟类接受种，并扩展恐龙、翼龙及鳄形类的类群介绍与化石素材。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石分母分开统计。
+下一执行动作：PR #494 的 P3-21 与 P3-22 合并后，灵长类预计有 93/530 个接受种具读者页（57 个 dossier-backed、36 个 profile-only）；其余 437 个仍无读者页，476 个未命中 dossier 索引的接受种仍需排查。主龙现生种级导读为鳄目 27/27、Aves 5/11,044，共 32/11,071；鳄目现生种级页达到计划分母，继续补齐其余 11,039 个鸟类接受种，并扩展恐龙、翼龙及鳄形类的类群介绍与化石素材。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石分母分开统计。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -200,6 +200,29 @@ P3-20 为倭蜂猴 Xanthonycticebus pygmaeus（COL ID BTCRT）新增一条局地
 | 4TZJW Saimiri collinsi | Jamanxim、Tapajós 和 Teles Pires 河流区域记录及约 600 公里向西扩展估算 | 区域范围推断，不是完整调查或数量估计 | 已写 / 已写；尚未经过外部领域专家评审 | P3-21 |
 
 本批来源审计记录 7 个接受种的 COL26.8 名称、作者、等级与 Primates 父链，并标记来源分类概念与当前名录不匹配的部分。与 PR #494 已有两条新增灵长类页合并计算，合并后预计为 79/530（57 个 dossier-backed、22 个 profile-only），仍有 451 个接受种无种级读者页；本批没有新建 dossier。
+
+### P3-22 巴西亚马逊砍伐前沿补充记录导读（PR #494）
+
+沿用 P3-21 的原始研究，并新增核对出版方八页补充材料，增加 14 个 COL26.8 灵长类接受种的双语地方记录导读。补充表涵盖 192 条记录、22 个来源种或亚种和 56 个地点；页面只转述市镇与州级地点及记录类型，不复制坐标、表格或图件。补充材料封面标示 CC BY 4.0，同时提示个别组成部分许可可能不同，因此正文仅作来源归属明确的事实摘要，并保留组件级权利限制。四个旧用亚种／异名名称按 COL26.8 的当前父种映射说明；未把地方出现记录写成全域范围、数量或保育结论。
+
+| COL ID / 当前接受种 | 补充表来源名称 | 读者页地方记录 | 范围与分类限制 | 状态 / 批次 |
+| --- | --- | --- | --- | --- |
+| C5Q6 Alouatta belzebul | A. belzebul | Pará 的 Altamira、Anapu 两次观察 | 调查地点记录，不是范围图或数量估计 | 双语已写；尚未经过外部领域专家评审 / P3-22 |
+| F6F4 Aotus azarae | A. a. infulatus | Pará 的 Altamira 一次观察 | 依 COL26.8 归入接受种 A. azarae，保留来源亚种层级 | 双语已写；尚未经过外部领域专家评审 / P3-22 |
+| RZ22 Cebus unicolor | C. unicolor | Amazonas 的 Apuí 两次观察 | 地方出现，不界定全种分布或种群量 | 双语已写；尚未经过外部领域专家评审 / P3-22 |
+| 5Y6KP Chiropotes albinasus | C. albinasus | Pará、Amazonas、Mato Grosso、Rondônia；多市镇观察和鸣声记录 | 若干调查点，不作全域普查 | 双语已写；尚未经过外部领域专家评审 / P3-22 |
+| 6NTWV Lagothrix lagothricha | L. cana cana | Amazonas 与 Rondônia 多地记录 | COL26.8 将来源异名映射至接受种，并接受 L. l. cana | 双语已写；尚未经过外部领域专家评审 / P3-22 |
+| 3T6RQ Leontocebus weddelli | L. w. weddelli | Rondônia 两市镇各有观察 | 按当前接受种及亚种父链映射；不是全域调查 | 双语已写；尚未经过外部领域专家评审 / P3-22 |
+| 4JBH9 Pithecia mittermeieri | P. mittermeieri | Amazonas 两地及 Mato Grosso 一地记录 | 仅报告表列地点 | 双语已写；尚未经过外部领域专家评审 / P3-22 |
+| 4K5XX Plecturocebus bernhardi | P. bernhardi | Amazonas 的 Humaitá、Rondônia 的 Ji-Paraná | 地方出现，不界定完整范围 | 双语已写；尚未经过外部领域专家评审 / P3-22 |
+| 4K5XY Plecturocebus brunneus | P. brunneus | Rondônia 两市镇三次观察 | 调查记录，不是完整范围或数量普查 | 双语已写；尚未经过外部领域专家评审 / P3-22 |
+| 4K5Y3 Plecturocebus cinerascens | P. cinerascens | Amazonas 与 Mato Grosso 的记录，含鸣声 | 地方记录不代表全种分布或数量 | 双语已写；尚未经过外部领域专家评审 / P3-22 |
+| 84GMP Plecturocebus grovesi | P. grovesi | Mato Grosso 一次观察与一次鸣声记录 | 调查地点记录，不提供种群估计 | 双语已写；尚未经过外部领域专家评审 / P3-22 |
+| 4K5Y9 Plecturocebus miltoni | P. miltoni | Amazonas 的 Apuí、Novo Aripuanã | 地方记录，不作全种评估 | 双语已写；尚未经过外部领域专家评审 / P3-22 |
+| 4TZK4 Saimiri ustus | S. ustus | Amazonas、Rondônia、Mato Grosso 多地观察及鸣声记录 | 多地点仍不等于完整范围或丰度普查 | 双语已写；尚未经过外部领域专家评审 / P3-22 |
+| 6XJVY Sapajus apella | S. a. apella | Pará、Amazonas、Rondônia、Mato Grosso 多市镇记录 | 按 COL26.8 亚种父链归入接受种；不外推为全域普查 | 双语已写；尚未经过外部领域专家评审 / P3-22 |
+
+与 P3-21 的 7 页及 PR #494 已有两条新增灵长类页合计，合并后预计为 93/530（57 个 dossier-backed、36 个 profile-only），437 个接受种仍无种级读者页。本批没有新建 dossier；来源审计分别记录原文与补充材料的来源范围、许可陈述和组成部分权利提示。
 
 ### P4-1 现生鳄类咬合力导读（PR #485，2026-09-29 合并）
 
