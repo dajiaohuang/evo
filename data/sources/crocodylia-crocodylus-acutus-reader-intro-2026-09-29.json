@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "batchId": "crocodylia-crocodylus-acutus-reader-intro-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "ZKNB",
+    "scientificName": "Crocodylus acutus Cuvier, 1807",
+    "rank": "species",
+    "sourceDatasetId": "1008",
+    "identityScope": "Exact accepted COL26.8 species usage ZKNB; source-linked population-genetics guide only."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1008",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/ZKNB",
+      "stableId": "col:ZKNB@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Crocodylidae classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "rossi2020",
+      "title": "High levels of population genetic differentiation in the American crocodile (Crocodylus acutus)",
+      "url": "https://doi.org/10.1371/journal.pone.0235288",
+      "stableId": "doi:10.1371/journal.pone.0235288",
+      "version": "PLoS ONE 15(7):e0235288; published 2020-07-02",
+      "publishedAt": "2020-07-02",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Introduction; Sample collection; Results.",
+      "scope": "Population-genetic analysis across continental America and the Greater Antilles using mitochondrial control-region sequences and 11 nuclear microsatellite loci; new samples from five countries plus public sequences.",
+      "license": "CC0 public-domain dedication, stated in the article copyright section.",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0235288",
+      "rightsEvidenceLocator": "Copyright statement after article citation; CC0 public-domain dedication.",
+      "attribution": "Rossi NA, Menchaca-Rodriguez A, Antelo R, Wilson B, McLaren K, Mazzotti F, et al. (2020). High levels of population genetic differentiation in the American crocodile (Crocodylus acutus). PLoS ONE 15(7):e0235288. https://doi.org/10.1371/journal.pone.0235288. Claims are paraphrased."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "rossi2020",
+      "text": "The study found strong genetic differentiation among sampled American-crocodile localities, especially between continental and Greater Antillean samples, and reported three newly identified haplotypes in Venezuelan samples.",
+      "scope": "Genetic markers and sampled localities only; not a population census or abundance estimate."
+    }
+  ],
+  "gaps": [
+    "No multi-source species dossier is added.",
+    "The marker panel does not describe every population or establish current conservation status."
+  ]
+}

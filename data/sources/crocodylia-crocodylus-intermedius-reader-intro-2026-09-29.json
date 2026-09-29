@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "batchId": "crocodylia-crocodylus-intermedius-reader-intro-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "ZKND",
+    "scientificName": "Crocodylus intermedius Graves, 1819",
+    "rank": "species",
+    "sourceDatasetId": "1008",
+    "identityScope": "Exact accepted COL26.8 species usage ZKND; source-linked regional habitat-model guide only."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1008",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/ZKND",
+      "stableId": "col:ZKND@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Crocodylidae classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "balaguera2017",
+      "title": "Conservation status and regional habitat priorities for the Orinoco crocodile: Past, present, and future",
+      "url": "https://doi.org/10.1371/journal.pone.0172439",
+      "stableId": "doi:10.1371/journal.pone.0172439",
+      "version": "PLoS ONE 12(2):e0172439; published 2017-02-24",
+      "publishedAt": "2017-02-24",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Results; Materials and Methods, data sources and habitat-model thresholds.",
+      "scope": "Historical literature synthesis and potential-habitat model for Colombia and Venezuela using records through 2015; occurrence inputs included sightings and active nests.",
+      "license": "Creative Commons Attribution License, stated in the article copyright section; the article does not specify a numbered version.",
+      "licenseAssessment": "item-level-verified-version-unspecified",
+      "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172439",
+      "rightsEvidenceLocator": "Copyright statement after article citation; Creative Commons Attribution License.",
+      "attribution": "Balaguera-Reina SA, Espinosa-Blanco AS, Morales-Betancourt MA, Seijas AE, Lasso CA, Antelo R, et al. (2017). Conservation status and regional habitat priorities for the Orinoco crocodile: Past, present, and future. PLoS ONE 12(2):e0172439. https://doi.org/10.1371/journal.pone.0172439. Claims are paraphrased."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "balaguera2017",
+      "text": "The authors reviewed 289 documents published from 1900 to 2015 and compiled 1,334 sighting or active-nest locations; 125 spatially rarefied locations were used for model training. Under the study's higher suitability threshold, 23,621 km2 were estimated as suitable, with 10.8% within protected areas.",
+      "scope": "Historical Colombia–Venezuela records and a threshold-based habitat model; areas are estimates, not current occupied range."
+    }
+  ],
+  "gaps": [
+    "No multi-source species dossier is added.",
+    "The model does not provide a current census or replace a present-day conservation assessment."
+  ]
+}
