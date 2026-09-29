@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-macaca-leonina-reader-intro-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "3WWNK",
+    "scientificName": "Macaca leonina (Blyth, 1863)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage 3WWNK; source-linked field-study guide only, with no dossier added."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/3WWNK",
+      "stableId": "col:3WWNK@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Primates classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "gazagne2020",
+      "title": "Toward a better understanding of habituation process to human observer: A statistical approach in Macaca leonina (Primates: Cercopithecidea)",
+      "url": "https://doi.org/10.26107/RBZ-2020-0085",
+      "stableId": "doi:10.26107/RBZ-2020-0085",
+      "version": "Raffles Bulletin of Zoology 68:735–749; version of record published 2020-09-10",
+      "publishedAt": "2020-09-10",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Methods, Study site, Study troop, and Data collection; Results, Description of habituation stages; Discussion; Conclusion.",
+      "scope": "Primary field study of observer habituation in one wild-feeding troop at Sakaerat Biosphere Reserve, Thailand. A four-month pilot preceded 13 months of habituation data collection during 2016–2017. The results concern this troop, observer, site, and sampling design only.",
+      "license": "The official PDF states © National University of Singapore; it does not state an open-content license.",
+      "licenseAssessment": "unknown",
+      "rightsHolder": "National University of Singapore",
+      "rightsEvidenceUrl": "https://www.science.nus.edu.sg/wp-content/uploads/sites/11/2023/11/RBZ-2020-0085.pdf",
+      "rightsEvidenceLocator": "PDF page 1 (printed page 735), copyright line. No open-content license statement appears in the PDF.",
+      "attribution": "Gazagne E, Hambuckers A, Savini T, Poncin P, Huynen M-C, and Brotcorne F (2020). Toward a better understanding of habituation process to human observer: A statistical approach in Macaca leonina (Primates: Cercopithecidea). Raffles Bulletin of Zoology 68:735–749. https://doi.org/10.26107/RBZ-2020-0085. Claims are paraphrased; no figures or tables are reproduced."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "gazagne2020",
+      "text": "The study followed one wild-feeding troop of approximately 143 macaques at Sakaerat. After a four-month pilot, the authors collected 13 months of habituation data in 2016–2017 and defined five stages using encounter frequency, contact duration, responses to the observer, and data-collection progress. The paper reports two different timings for reaching full habituation: almost 10 months in the Results section and close to 13 months in its abstract and conclusion.",
+      "scope": "One troop and one forest fragment at Sakaerat; the article has an internal difference in reported timing, and neither value is a species-wide duration estimate."
+    },
+    {
+      "sourceId": "gazagne2020",
+      "text": "Scan-sampled activity data were collected only from the partial stage onward. Earlier observations overrepresented adult males and subadults and movement, while underrepresenting inactivity and social behavior. At the full stage, observed age-sex composition no longer differed significantly from troop demography.",
+      "scope": "Within-study comparison across habituation stages; the sample does not establish species-wide activity budgets or social composition."
+    }
+  ],
+  "gaps": [
+    "No multi-source species dossier is added.",
+    "The study does not establish range-wide ecology, current population size, or formal conservation status.",
+    "The official PDF does not state an open-content license; text and figures are not reproduced."
+  ]
+}
