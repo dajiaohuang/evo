@@ -353,3 +353,34 @@ P3-24 后灵长类接受种读者页合计为 105/530（58 个 dossier-backed、
 Mico 属导读汇总表内八种与 Tapajós（5）、Rondônia（4）、Xingu（1）的相交数；M. argentatus 与 M. melanurus 各跨两个区，故为 10 个种—间河区相交。该矩阵摘录不是属级完整分布综述，也未新建 dossier。
 
 P3-25 后灵长类接受种读者页合计为 113/530（58 个 dossier-backed、55 个 profile-only），417 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍待继续排查。
+
+
+### P3-26 亚马逊 Pithecia、Saguinus、Callimico 与 Cebuella 范围图导读
+
+依据 [Mourthé 等（2022）](https://doi.org/10.3389/fevo.2022.857920) 的补充表 S1，为 12 个 COL26.8 灵长类接受种新增双语区域研究导读，并为 Pithecia、Saguinus、Callimico 和 Cebuella 四属增加矩阵比较导读。来源把 IUCN 范围图叠置到巴西亚马逊十个主要间河区；页面只报告该矩阵的区域相交，不将地图重叠说成逐点野外发现、丰度或完整分布。普通英文名标签取自 Mammal Diversity Database；中文名为编辑翻译。主文表 2 的 80/81 种与 57%/58% 差异继续列为限制。
+
+| COL ID / 接受种 | 补充表 S1 的间河区范围图相交 | 英文标签 | 页面入口 | 状态 | 批次 |
+| --- | --- | --- | --- | --- | --- |
+| 77LPC Pithecia albicans Gray, 1860 | 1：Inambari | Buffy Saki | COL26.8 目录详情 `#/registry?release=COL26.8&id=77LPC` | 双语区域范围图导读；非完整种志 | P3-26 |
+| 4JBGW Pithecia cazuzai Marsh, 2014 | 1：Jaú | Cazuza's Saki | COL26.8 目录详情 `#/registry?release=COL26.8&id=4JBGW` | 双语区域范围图导读；非完整种志 | P3-26 |
+| 4JBGX Pithecia chrysocephala I. Geoffroy Saint-Hilaire, 1850 | 1：Guiana | Golden-faced Saki | COL26.8 目录详情 `#/registry?release=COL26.8&id=4JBGX` | 双语区域范围图导读；非完整种志 | P3-26 |
+| 4JBH2 Pithecia hirsuta Spix, 1823 | 1：Napo | Hairy Saki | COL26.8 目录详情 `#/registry?release=COL26.8&id=4JBH2` | 双语区域范围图导读；非完整种志 | P3-26 |
+| 4JBH4 Pithecia irrorata Gray, 1842 | 3：Tapajós、Rondônia、Inambari | Gray's Bald-faced Saki | COL26.8 目录详情 `#/registry?release=COL26.8&id=4JBH4` | 双语区域范围图导读；非完整种志 | P3-26 |
+| 6VLPB Pithecia monachus (É. Geoffroy Saint-Hilaire, 1812) | 1：Inambari | Monk Saki | COL26.8 目录详情 `#/registry?release=COL26.8&id=6VLPB` | 双语区域范围图导读；非完整种志 | P3-26 |
+| 4TZBW Saguinus martinsi (Thomas, 1912) | 1：Guiana | Martins's Bare-faced Tamarin | COL26.8 目录详情 `#/registry?release=COL26.8&id=4TZBW` | 双语区域范围图导读；非完整种志 | P3-26 |
+| 4TZBY Saguinus midas (Linnaeus, 1758) | 1：Guiana | Midas Tamarin | COL26.8 目录详情 `#/registry?release=COL26.8&id=4TZBY` | 双语区域范围图导读；非完整种志 | P3-26 |
+| 4TZC2 Saguinus niger (É. Geoffroy Saint-Hilaire, 1803) | 1：Xingu | Western Black-handed Tamarin | COL26.8 目录详情 `#/registry?release=COL26.8&id=4TZC2` | 双语区域范围图导读；非完整种志 | P3-26 |
+| PQG3 Callimico goeldii (Thomas, 1904) | 2：Inambari、Napo | Goeldi's Monkey | COL26.8 目录详情 `#/registry?release=COL26.8&id=PQG3` | 双语区域范围图导读；非完整种志 | P3-26 |
+| RYYP Cebuella niveiventris Lönnberg, 1940 | 1：Inambari | Southern Pygmy Marmoset | COL26.8 目录详情 `#/registry?release=COL26.8&id=RYYP` | 双语区域范围图导读；非完整种志 | P3-26 |
+| RYYQ Cebuella pygmaea (Spix, 1823) | 2：Jaú、Napo | Northern Pygmy Marmoset | COL26.8 目录详情 `#/registry?release=COL26.8&id=RYYQ` | 双语区域范围图导读；非完整种志 | P3-26 |
+
+四属导读汇总表内矩阵行与范围图相交数。Pithecia 的七行包括已写过的 P. pithecia；Saguinus 按研究时代的八行汇总，不把尚未逐项核对的旧名映射到当前 COL26.8 接受种；Callimico 矩阵只列 C. goeldii；Cebuella 的两行分别为 C. niveiventris（Inambari）与 C. pygmaea（Jaú、Napo）。这些都是研究矩阵的属级区域比较，不是完整属级范围综述。
+
+| COL ID / 属 | 间河区相交数 | 矩阵行数 | 范围 | 批次 |
+| --- | --- | --- | --- | --- |
+| 6QYQ Pithecia Desmarest, 1804 | Inambari 3；Guiana 2；Tapajós 1；Rondônia 1；Jaú 1；Napo 1 | 7 行 | 属级矩阵导读；不外推为完整范围 | P3-26 |
+| 7BP7 Saguinus Hoffmannsegg, 1807 | Guiana 3；Inambari 2；Jaú 2；Napo 2；Belém 1；Xingu 1；Imeri 1 | 8 行 | 属级矩阵导读；不外推为完整范围 | P3-26 |
+| 3FFQ Callimico Miranda Ribeiro, 1912 | Inambari 1；Napo 1 | 1 行 | 属级矩阵导读；不外推为完整范围 | P3-26 |
+| 62JTZ Cebuella Gray, 1866 | Inambari 1；Jaú 1；Napo 1 | 2 行 | 属级矩阵导读；不外推为完整范围 | P3-26 |
+
+P3-26 未新建物种 dossier，页面均尚未经过外部领域专家评审。该批后灵长类接受种读者页合计为 125/530（58 个 dossier-backed、67 个 profile-only），405 个接受种仍无种级读者页；476 个接受种仍未命中 dossier 索引。
