@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "batchId": "archosaur-taeniopygia-guttata-genome-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "54HRJ",
+    "scientificName": "Taeniopygia guttata (Vieillot, 1817)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage 54HRJ; this profile is source-linked and reuses a bounded genome dossier, not a complete species dossier."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/54HRJ",
+      "stableId": "col:54HRJ@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Aves classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "warren2010",
+      "title": "Warren et al. (2010) — The genome of a songbird",
+      "url": "https://doi.org/10.1038/nature08819",
+      "stableId": "doi:10.1038/nature08819; PMCID:PMC3187626",
+      "version": "Nature 464(7289):757–762; published 2010-04-01; author manuscript in PMC",
+      "publishedAt": "2010-04-01",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Genome assembly; Gene expression and evolution; chromosome comparison; song-responsive expression results.",
+      "scope": "Primary structural, functional, and comparative analysis based on one male zebra-finch draft genome, forebrain samples at 50 and 850 days post-hatch, and comparison with chicken.",
+      "license": "Creative Commons Attribution-NonCommercial-ShareAlike; license statement appears in the article, but the version number is not stated there.",
+      "licenseAssessment": "item-level-verified-version-unspecified",
+      "rightsEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3187626/",
+      "rightsEvidenceLocator": "Article end matter states distribution under the Creative Commons Attribution-Non-Commercial-Share Alike licence; no numbered version is given.",
+      "attribution": "Warren WC, Clayton DF, Ellegren H, et al. (2010). The genome of a songbird. Nature 464(7289):757–762. https://doi.org/10.1038/nature08819. Claims are paraphrased; no article text or media is redistributed."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "warren2010",
+      "text": "The study assembled a draft genome from one male zebra finch; of about 1.2 Gb, approximately 1.0 Gb was assigned to 33 chromosomes and three linkage groups.",
+      "scope": "A single male reference individual and the 2010 draft assembly."
+    },
+    {
+      "sourceId": "warren2010",
+      "text": "Forebrain expression data were sampled at 50 days post-hatch during the juvenile song-learning period and at 850 days in adults.",
+      "scope": "Two age points only; not a complete developmental series."
+    },
+    {
+      "sourceId": "warren2010",
+      "text": "Comparison with chicken found overall conservation of synteny and karyotype alongside many intrachromosomal rearrangements.",
+      "scope": "Two-lineage genomic comparison; not a complete account of variation across Aves."
+    }
+  ],
+  "gaps": [
+    "No new multi-source species dossier is added; the existing bounded dossier covers only genome evidence.",
+    "The study does not establish geographic variation, a current reference assembly, or a comprehensive natural-history account."
+  ]
+}
