@@ -193,4 +193,17 @@ P3-1 至 P3-5 五批共 48 个目录档案写入双语导读；P3-6 为 Alouatta
 | 4C47J Paleosuchus palpebrosus | 磨牙区类群代表咬合力：n=3；900 N（样本范围 667–1,125 N） | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=4C47J` | 成年机构样本，不是全种统计或野外表现；不把后续拆分分类群的旧样本重新归类 | P4-1 |
 | 4C47K Paleosuchus trigonatus | 磨牙区类群代表咬合力：n=3；1,082 N（样本范围 1,058–1,125 N） | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=4C47K` | 成年机构样本，不是全种统计或野外表现；不把后续拆分分类群的旧样本重新归类 | P4-1 |
 
-合并统计为鳄目 19/27、Aves 1/11,044，共 20/11,071 个现生主龙种级导读。其余 8 个鳄目接受种暂不计完成：四个研究旧分类名（Crocodylus niloticus、C. novaeguineae、Mecistops cataphractus、Osteolaemus tetraspis）需要标本地点或凭证记录的概念对照；另四个 COL26.8 接受种（C. suchus、C. halli、M. leptorhynchus、O. osborni）没有被该论文作为独立物种测量。
+合并统计为鳄目 23/27、Aves 1/11,044，共 24/11,071 个现生主龙种级导读。其余 4 个鳄目接受种暂不计完成：Crocodylus niloticus、C. novaeguineae、Mecistops cataphractus、Osteolaemus tetraspis 仍需研究旧分类名与现行 COL 概念的标本地点或凭证记录对照。P4-2 的 4 页均为局部形态或历史谱系研究，不是完整种志或 dossier。
+
+### P4-2 现生鳄类分类形态与历史谱系导读
+
+新增 4 个 COL26.8 Crocodylia 接受种页面，依据一篇谱系研究、两篇头骨形态研究和一篇局地基因组研究。正文将证据边界限定于历史标本、取样头骨或单一共域地点，不据此推断完整分布、当前数量或全域生态。
+
+| COL ID / 物种 | 局部研究导读 | 中英文 | 页面入口 | 限制 | 批次 |
+| --- | --- | --- | --- | --- | --- |
+| ZKNT Crocodylus suchus | 现生与埃及木乃伊 DNA 对比所支持的隐存谱系；DOI 10.1111/j.1365-294X.2011.05245.x | 已写 / 已写 | COL26.8 目录详情 #/registry?release=COL26.8&id=ZKNT | 历史谱系证据，不是现代分布或数量估计 | P4-2 |
+| 8GRXJ Crocodylus halli | 新几内亚南北种群头骨形态对比与新种诊断；DOI 10.1643/CG-19-240 | 已写 / 已写 | COL26.8 目录详情 #/registry?release=COL26.8&id=8GRXJ | 诊断限于比较标本和地点，不代表全岛生态调查 | P4-2 |
+| 8GPZP Mecistops leptorhynchus | 两种现生细吻鳄成年头骨的连续形态比较；DOI 10.1002/jmor.21365 | 已写 / 已写 | COL26.8 目录详情 #/registry?release=COL26.8&id=8GPZP | 头骨诊断不等于覆盖各年龄段的野外鉴定键 | P4-2 |
+| 8SBC9 Osteolaemus osborni | 刚果西北部一处同域记录及小样本核基因组比较；DOI 10.1098/rsbl.2023.0448 | 已写 / 已写 | COL26.8 目录详情 #/registry?release=COL26.8&id=8SBC9 | 单地点与少数个体不能估计全域共存或基因流 | P4-2 |
+
+每页均有独立来源审计文件；原研究授权未在记录中核实，未复制图像。合并后覆盖为鳄目 23/27、鸟类 1/11,044，合计 24/11,071。
