@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：继续 P3，覆盖扣除 7 个核心种和两批共 18 个新简介后的 29 个 dossier 物种；随后逐项排查其余 476 个接受种的其他本地来源。未命中 dossier 不等于已确认无资料。主龙类按现生接受种与化石分类清单分开统计。
+下一执行动作：54 个已有 dossier 的灵长类现均有读者导读；继续为其余 476 个尚未命中 dossier 的接受种查找可用原始材料，逐批增加读者页。P3-6 已新增 Alouatta caraya 局部研究导读，但该种尚无 dossier。未命中 dossier 不等于已确认无资料；未建读者页的物种仍不计完成。主龙类按现生接受种与化石分类清单分开统计，并开始类群页扩展。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -158,9 +158,10 @@ P0 两篇样板已通过 PR #474 合并；P1 七个核心现生种已通过 PR #
 | 3MJBG Hoolock tianxing | 局部研究导读；缅甸可达地点的声学和遗传记录 | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=3MJBG` | 调查地点受通行限制，不是全域估计 | P3-5 |
 | 4CKZ5 Papio hamadryas | 局部研究导读；沙特西南部雄性狒狒 GPS 移动 | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=4CKZ5` | 九只成年雄性和选定地点，不能推断因果或全域常态 | P3-5 |
 | 3MJBF Hoolock leuconedys | 局部研究导读；Mehao 保护区长臂猿放归后取食观察 | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=3MJBF` | 三个放归群体和短期观察，不代表通常食谱 | P3-5 |
+| C5Q8 Alouatta caraya | 局部研究导读；阿根廷、巴拉圭和巴西 22 个地点的遗传多样性与水库淹没比较 | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=C5Q8` | 一个遗传学研究、有限地点与标记；尚无 dossier，不推断全域现状 | P3-6 |
 
 主龙分母按现生与化石两条来源线记录。现生部分：COL26.8（2026-08-20）严格接受种快照中，Aves（COL ID `V2`）有 11,044 种，Crocodylia（COL ID `329`）有 27 种，合计 11,071 种；计数按发布版分类树后代统计 `rank=species AND status=accepted`。来源：`data/sources/snapshots/package-species-coverage-col26.8-rc72.json` 与 `data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/`。
 
 化石部分采用 Paleobiology Database（PBDB）作可复现的工作分母：2026-09-29 按 `base_name=Archosauria&rank=species&status=accepted&extant=no&pres=regular` 查询，返回 4,664 个已接受、非现生、常规化石记录种级分类单元（[查询](https://paleobiodb.org/data1.2/taxa/list.json?base_name=Archosauria&rank=species&status=accepted&extant=no&pres=regular&limit=10000)，[参数说明](https://paleobiodb.org/data1.2/taxa/list_doc.html)）。这表示该数据库和检索条件下的记录数，不等于完整或稳定的全球化石物种清单。另有 534 个 ichno（遗迹）分类单元和 628 个 form（形态）分类单元，单独登记，不并入生物种工作分母。PBDB 名称与 COL 现生鸟类、鳄目接受种有 70 个精确双名匹配；名称相同不证明分类概念相同，完成概念级对照前不从两边总数中相减。子类群查询（非鸟恐龙 1,794、含已灭绝鸟类的 Dinosauria 3,537、翼龙 276、鳄形类 672）存在包含/交叠关系，只用于分批盘点，不相加。鸟类属于现生恐龙谱系，因此鸟类既列在现生目录线，也会出现在 Dinosauria 化石分类查询中；汇总覆盖时须按分类概念对照去重。PBDB 数字为 2026-09-29 查询快照，之后应按同一参数重取并记录日期。
 
-P3 五批共 48 个档案将双语导读写入 `CatalogueKnowledge` 数据。与 P1 七个现生核心页对照后，发现 P3-3 的 Macaca radiata（COL ID `3WWP2`）与 P1 核心页重复；因此灵长类已有正文的唯一接受种为 54/530（7 个核心静态页与 48 个目录详情中有 1 个种重合）。54 个已有 dossier 的种现均有读者导读；另外 476 个种尚未在 dossier 索引中命中，仍需排查其他来源。早期灵长类化石 7 篇则已由本地静态页构建确认可打开；以上均不表示完成专家评审或完整科学档案。
+P3-1 至 P3-5 五批共 48 个目录档案写入双语导读；P3-6 另为 Alouatta caraya（COL ID `C5Q8`）新增一条由 CC BY 4.0 原始研究支持的局部导读，尚未建立 dossier。与 P1 七个现生核心页对照后，发现 P3-3 的 Macaca radiata（COL ID `3WWP2`）重复；目前唯一有读者导读的接受种为 55/530（7 个核心静态页与 49 个目录详情中有 1 个种重合）。54 个 dossier-backed 种和 1 个 profile-only 种有读者导读；475 个接受种仍没有读者页，476 个种未命中 dossier 索引。早期灵长类化石 7 篇已由本地静态页构建确认可打开；以上均不表示完成专家评审或完整科学档案。
