@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-cebus-imitator-reader-guide-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "RYZL",
+    "scientificName": "Cebus imitator Thomas, 1903",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage RYZL; source-linked local comparative fruit-foraging guide only."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/RYZL",
+      "stableId": "col:RYZL@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Primates classification.",
+      "accessedAt": "2026-09-29",
+      "license": "CC BY 4.0 taxonomic metadata; no biological text reused.",
+      "licenseAssessment": "identity-only",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage RYZL. https://doi.org/10.48580/dgywk"
+    },
+    {
+      "id": "melin2022",
+      "title": "Anatomy and dietary specialization influence sensory behaviour among sympatric primates",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9382214/",
+      "version": "Proceedings of the Royal Society B 289(1981):20220847, version of record first published online 2022-08-17",
+      "stableId": "doi:10.1098/rspb.2022.0847",
+      "publishedAt": "2022-08-17",
+      "accessedAt": "2026-09-24",
+      "locator": "Methods §§2(a), 2(c)(i), 2(e)(ii); Abstract; Results §§3(a)(ii)–3(a)(iii), Figs. 2b and 3a, Fig. S3a and Table S5; Supplementary Results S1; Copyright and License Information.",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "licenseAssessment": "item-level-verified",
+      "rightsHolder": "The Authors",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "rightsEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9382214/",
+      "rightsEvidenceLocator": "Version-of-record front matter, Copyright and License Information: © 2022 The Authors; published by the Royal Society under the Creative Commons Attribution License (CC BY 4.0).",
+      "licenseAppliesTo": "The version-of-record article; separately credited third-party material remains subject to its own credit line. This dossier paraphrases findings and does not reuse figures or source data files.",
+      "attribution": "Melin AD, Veilleux CC, Janiak MC, Hiramatsu C, Sánchez-Solano KG, Lundeen IK, Webb SE, Williamson RE, Mah MA, Murillo-Chacon E, Schaffner CM, Hernández-Salazar L, Aureli F, Kawamura S. 2022. Anatomy and dietary specialization influence sensory behaviour among sympatric primates. Proceedings of the Royal Society B 289(1981):20220847. https://doi.org/10.1098/rspb.2022.0847. CC BY 4.0. Claims paraphrased; changes made.",
+      "scope": "Comparative study of wild Ateles geoffroyi focal observations at Sector Santa Rosa, northwestern Costa Rica, with supplemental Alouatta palliata observations from Isla Agaltepec, Mexico. CT scans of 15 Ateles specimens had no reported locality, collection date or wild/captive status."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "melin2022",
+      "text": "The article combines 26,094 fruit-investigation sequences across 2,107 feeding bouts for three wild sympatric primates, and separately ranks average monthly fruit share using a literature review.",
+      "scope": "Shared-food observations at Sector Santa Rosa, Costa Rica; the howler sample is supplemented by Isla Agaltepec, Mexico. The fruit-share ranking is not a complete directly measured diet."
+    },
+    {
+      "sourceId": "melin2022",
+      "text": "Cebus imitator used manual touch more often than Ateles geoffroyi and Alouatta palliata in the comparative sample and had the highest sampled thumb-to-index ratio; its sniffing rate was below both species, including the less-frugivorous Alouatta.",
+      "scope": "A three-species, locality- and food-bounded observational comparison. Proposed links to dexterity are not causal findings."
+    },
+    {
+      "sourceId": "melin2022",
+      "text": "Across the species-controlled comparison, dichromats sniffed and bit/rejected fruit more often than trichromats, while trichromats touched cryptic fruit more often.",
+      "scope": "This is a pooled comparative colour-vision result, not a Cebus-only effect."
+    }
+  ],
+  "gaps": [
+    "The study covers three sympatric taxa and selected shared foods at a local site; it does not establish a range-wide Cebus diet or species-wide sensory mechanism.",
+    "The paper's manual-touch association does not establish that hand morphology causes a particular foraging strategy."
+  ]
+}
