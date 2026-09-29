@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-loris-tardigradus-survey-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "3W7FX",
+    "scientificName": "Loris tardigradus (Linnaeus, 1758)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage 3W7FX; biological content is restricted to records assigned to Loris tardigradus taxa in one 2001–2002 Sri Lankan survey."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/3W7FX",
+      "stableId": "col:3W7FX@COL26.8",
+      "scope": "Identity only: pinned accepted name and authorship, species rank, accepted status, sourceDatasetId, and Primates classification.",
+      "accessedAt": "2026-09-29",
+      "license": "CC BY 4.0 taxonomic metadata; no biological text reused.",
+      "licenseAssessment": "identity-only",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 3W7FX. https://doi.org/10.48580/dgywk"
+    },
+    {
+      "id": "nekaris-jayewardene-loris-survey",
+      "title": "Survey of the slender loris in Sri Lanka",
+      "url": "https://doi.org/10.1017/S0952836903004710",
+      "version": "Journal of Zoology 262(4):327–338; the publisher page gives issue year 2004 and first-published date 2006-02-28.",
+      "stableId": "doi:10.1017/S0952836903004710",
+      "publishedAt": "Issue year 2004; first published 2006-02-28",
+      "accessedAt": "2026-09-29",
+      "locator": "Publisher abstract: survey years and sites, survey effort, taxon-specific sightings, sightings-based density estimates, and habitat associations.",
+      "license": "No open license confirmed on the publisher page; abstract-level findings are paraphrased only, with no article text, figures, or data files reproduced.",
+      "licenseAssessment": "license-not-confirmed-paraphrase-only",
+      "licenseAppliesTo": "The consulted publisher page exposes the abstract and citation metadata. This guide paraphrases abstract-level results only.",
+      "attribution": "Nekaris KAI, Jayewardene J. Survey of the slender loris (Primates, Lorisidae Gray, 1821: Loris tardigradus Linnaeus, 1758 and Loris lydekkerianus Cabrera, 1908) in Sri Lanka. Journal of Zoology 262(4):327–338. Issue year 2004; first published online 2006-02-28. https://doi.org/10.1017/S0952836903004710.",
+      "scope": "Sri Lankan field surveys conducted in 2001 and 2002 at 31 sites across five ecological zones. The abstract reports approximately 766 km covered in 17 areas with no loris sightings and 192 km surveyed in 14 sites yielding 185 sightings across four study-era taxa. This entry uses only the two Loris tardigradus forms and their reported sightings."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "nekaris-jayewardene-loris-survey",
+      "text": "The 2001–2002 survey covered 31 Sri Lankan sites across five ecological zones; approximately 766 km in 17 areas yielded no loris sightings, while 192 km surveyed in 14 sites yielded 185 sightings across four slender-loris taxa.",
+      "scope": "Survey effort and observations reported in the publisher abstract; not a complete island-wide census or an estimate of distinct individuals."
+    },
+    {
+      "sourceId": "nekaris-jayewardene-loris-survey",
+      "text": "Under the study's taxon labels, Loris tardigradus tardigradus had 69 sightings and L. t. nycticeboides had one. A sightings-based density estimate of 0.86–13 animals/km was reported for L. t. tardigradus.",
+      "scope": "Counts and estimate belong to the study's survey routes, dates, taxonomic framework, and detection method; the single nycticeboides sighting does not support a density estimate."
+    }
+  ],
+  "gaps": [
+    "A survey from 2001–2002 does not establish current occupancy, abundance, or habitat condition.",
+    "The publisher page labels the issue year as 2004 while listing first publication in 2006; both dates are retained rather than silently normalized.",
+    "The paper's subspecies labels are treated as study-era usage and are not reinterpreted as a current range-wide taxonomic revision."
+  ]
+}
