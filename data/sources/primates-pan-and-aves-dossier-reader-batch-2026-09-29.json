@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "batchId": "pan-and-aves-dossier-reader-guides-2026-09-29",
+  "checkedAt": "2026-09-29",
+  "releaseAlias": "COL26.8",
+  "method": "Five reader profiles distilled from existing source-audited dossier records. The profiles reuse only the listed factual claims and their explicit study scopes; no source prose, coordinates, tables, figures, or images are reproduced.",
+  "targets": [
+    {
+      "colId": "4C92G",
+      "scientificName": "Pan troglodytes",
+      "dossierRecord": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br#4C92G",
+      "sections": [
+        { "topic": "ecology", "sourceId": "brysonMorrison2017", "locator": "Methods, Behavioral Observations and Feeding Event Locations; Results, Habitat Use and Preferences and Distance of Feeding Events in Noncultivated Habitat Relative to Cultivated Fields and Routes; Table II.", "scope": "Bossou, Guinea; April 2012–March 2013; one wild P. t. verus community and ten adult focal individuals." },
+        { "topic": "lifeHistory", "sourceId": "walker2018", "locator": "Abstract; Results, Maturation milestones, Table 2 and Figure 1; Discussion.", "scope": "Gombe National Park, Tanzania; known-age wild females; first-birth timing comes from a smaller censored subset and may be biased low." },
+        { "topic": "development", "sourceId": "malherbe2024", "locator": "Abstract; Methods (b); Results, Development of hand grips; Discussion.", "scope": "Taï National Park, Côte d’Ivoire; 70 wild western chimpanzees, 135 videos and 1,460 events from three neighboring communities; cross-sectional age data." }
+      ],
+      "rightsAndLimits": "Bryson-Morrison and Malherbe sources are CC BY 4.0; Walker is CC BY-NC-ND 4.0. The profile uses attributed factual paraphrases only. Site, population, age-sampling, and task boundaries remain visible; no range-wide inference is made."
+    },
+    {
+      "colId": "5BSLM",
+      "scientificName": "Vultur gryphus",
+      "dossierRecord": "data/knowledge/catalogue-dossiers-aves-batch-1.jsonl.br#5BSLM",
+      "sections": [
+        { "topic": "distribution", "sourceId": "kohn2016", "locator": "Materials and Methods, Geographic distribution and Gap analysis; Results, Geographic distribution; Fig. 1.", "scope": "Ecuador; 60 roosting locations from seven satellite-tagged birds and seven environmental predictors at 500 m resolution." },
+        { "topic": "conservation", "sourceId": "kohn2016", "locator": "Abstract; census methods; Results, Population size and Population viability; Discussion.", "scope": "Two-day synchronized census on 2015-09-29 and 2015-09-30; abundance extrapolation and viability scenarios concern Ecuador, not a current global reassessment." }
+      ],
+      "rightsAndLimits": "PLOS article states CC BY 4.0. Model areas, census counts, and viability results are limited to Ecuador and the study period; the guide does not state a current Red List category."
+    },
+    {
+      "colId": "FYD9",
+      "scientificName": "Aptenodytes forsteri",
+      "dossierRecord": "data/knowledge/catalogue-dossiers-aves-batch-1.jsonl.br#FYD9",
+      "sections": [
+        { "topic": "distribution", "sourceId": "cristofari2016", "locator": "Results, Genome-wide SNP typing; Methods, Sample collection; Fig. 1a.", "scope": "Six East Antarctic colonies; genetic material collected 2004–2012; locations are the study sampling frame." },
+        { "topic": "evolution", "sourceId": "cristofari2016", "locator": "Abstract; Results, Genome-wide SNP typing; Discussion; Methods, Sample collection.", "scope": "RAD-SNP data from 110 birds at six colonies; migration parameters average across generations." }
+      ],
+      "rightsAndLimits": "Nature Communications article states CC BY 4.0. Findings are bounded to the study's sampled colonies and coalescent model; no current census or instantaneous dispersal rate is inferred."
+    },
+    {
+      "colId": "4GK9K",
+      "scientificName": "Phoebastria immutabilis",
+      "dossierRecord": "data/knowledge/catalogue-dossiers-aves-north-pacific.jsonl.br#4GK9K",
+      "sections": [
+        { "topic": "distribution", "sourceId": "usgs2009", "locator": "Executive Summary; Geographic Distribution, Breeding Colonies.", "scope": "North Pacific synthesis with population and occurrence evidence through 2005; source-era breeding proportion, not a current global atlas." },
+        { "topic": "ecology", "sourceId": "usgs2009", "locator": "Executive Summary, first and second paragraphs; Geographic Distribution, Breeding Colonies.", "scope": "Historical review of open-ocean habits and bycatch in the assessment period; not a current mortality-rate estimate." }
+      ],
+      "rightsAndLimits": "U.S. Geological Survey report states public-domain status, excluding third-party material. The profile paraphrases report-level claims only and preserves the 2005 evidence cutoff."
+    },
+    {
+      "colId": "4GK9M",
+      "scientificName": "Phoebastria nigripes",
+      "dossierRecord": "data/knowledge/catalogue-dossiers-aves-north-pacific.jsonl.br#4GK9M",
+      "sections": [
+        { "topic": "distribution", "sourceId": "usgs2009", "locator": "Executive Summary; Geographic Distribution, Breeding Colonies.", "scope": "North Pacific synthesis with population and occurrence evidence through 2005; source-era breeding proportion, not a current global atlas." },
+        { "topic": "ecology", "sourceId": "usgs2009", "locator": "Executive Summary, first and second paragraphs; Geographic Distribution, Breeding Colonies.", "scope": "Historical review of open-ocean habits and bycatch in the assessment period; not a current mortality-rate estimate." }
+      ],
+      "rightsAndLimits": "U.S. Geological Survey report states public-domain status, excluding third-party material. The profile paraphrases report-level claims only and preserves the 2005 evidence cutoff."
+    }
+  ]
+}
