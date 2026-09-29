@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "batchId": "crocodylia-p4-3-reader-guides-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "3YKJB",
+    "scientificName": "Mecistops cataphractus (Cuvier, 1825)",
+    "rank": "species",
+    "sourceDatasetId": "1008",
+    "identityScope": "Exact accepted COL26.8 species usage 3YKJB; source-linked local monitoring guide only."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1008",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/3YKJB",
+      "stableId": "col:3YKJB@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Crocodylidae classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "ahizi2021",
+      "title": "Detectability and impact of repetitive surveys on threatened West African crocodylians",
+      "url": "https://doi.org/10.1002/ece3.8188",
+      "stableId": "doi:10.1002/ece3.8188",
+      "version": "Ecology and Evolution 11(21):15062–15076 (2021)",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; occupancy model; survey-effort estimates and effects of fishing-net encounters.",
+      "scope": "Repeated surveys at 38 sites in Côte d'Ivoire from 2014 to 2019, studying detection of M. cataphractus and C. suchus; conclusions are conditional on the study area and survey design.",
+      "attribution": "Ahizi MN, Kouman CY, Ouattara A, Kouamé NP, Dede A, Fairet E, Shirley MH (2021). Detectability and impact of repetitive surveys on threatened West African crocodylians. Ecology and Evolution 11(21):15062–15076. DOI 10.1002/ece3.8188. Claims are paraphrased.",
+      "publishedAt": "2021-10-07"
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "ahizi2021",
+      "text": "The occupancy-based model estimated mean M. cataphractus detection probability at 0.75; two surveys were needed to infer absence with 90% confidence under the modeled conditions, and fishing-net encounter rate negatively affected detection.",
+      "scope": "Model estimates for the sampled Côte d'Ivoire sites and covariates, not an abundance estimate or causal range-wide result."
+    }
+  ],
+  "gaps": [
+    "The study does not estimate population size across the species range.",
+    "Detection and fishing associations should not be interpreted as range-wide causal effects."
+  ]
+}
