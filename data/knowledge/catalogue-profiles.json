@@ -6469,6 +6469,54 @@
         "zh": "这是基于既有审计来源的双语导读，尚未经过外部领域专家评审。行为资料来自两个地点的少数猴群；四群体研究是未经同行评审的预印本。采样和线粒体结果不能代替全域普查、当前种群趋势、全基因组历史或完整生态评估。",
         "en": "This bilingual guide draws on already audited sources and is not externally expert-reviewed. Behavioural data come from a few troops at two sites; the four-troop study is a preprint not certified by peer review. These samples and mitochondrial findings do not replace a range-wide census, current population trends, genome-wide history, or a complete ecological assessment."
       }
+    },
+    {
+      "colId": "6TM9B",
+      "scientificName": "Papio anubis (Lesson, 1827)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "zh": "橄榄狒狒",
+        "en": "Olive baboon"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-29",
+      "sections": [
+        {
+          "topic": "populationGenetics",
+          "text": {
+            "zh": "Jordan 等比较了六个现生狒狒属物种的 Alu 插入多态位点，每种取样两只个体。按作者在这 12 只个体面板中的标准，4,645 个位点同时出现在两只橄榄狒狒样本中、而未见于其余狒狒样本，因此被归为 P. anubis 指示位点。这个计数依赖小型比较面板，不能代表橄榄狒狒的全部遗传变异，也不能单独解析狒狒属所有网状演化关系。",
+            "en": "Jordan et al. compared Alu insertion polymorphisms across six living Papio species, sampling two individuals per species. Under the authors' criterion for this 12-individual panel, 4,645 insertions occurred in both sampled olive baboons and were absent from the other sampled baboons, so they were classed as indicative of P. anubis. This count depends on a small comparative panel; it does not represent all genetic variation in olive baboons or resolve every reticulate relationship in Papio."
+          },
+          "sourceIds": [
+            "jordan2018"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "jordan2018",
+          "title": "Jordan et al. (2018) — A computational reconstruction of Papio phylogeny using Alu insertion polymorphisms",
+          "url": "https://doi.org/10.1186/s13100-018-0118-3",
+          "scope": {
+            "zh": "六个现生 Papio 物种、每种两只个体的 Alu 插入比较基因组面板；支持面板内的物种指示位点分类，不支持全种变异估计。",
+            "en": "Comparative Alu-insertion genomic panel of two individuals from each of six extant Papio species; supports the panel-relative classification of species-indicative insertions, not a species-wide variation estimate."
+          }
+        },
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 · source 2144",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/6TM9B",
+          "scope": {
+            "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。",
+            "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "这是来源链接的比较基因组导读，尚未经过外部领域专家评审。研究每个狒狒种仅取两只个体；4,645 是该面板中的指示位点计数，不是种内多态性或物种边界的全域估计。",
+        "en": "Source-linked comparative-genomics guide, not externally expert-reviewed. The study sampled only two individuals per baboon species; 4,645 is a panel-relative count of indicative insertions, not a range-wide estimate of within-species polymorphism or species boundaries."
+      }
     }
   ]
 }
