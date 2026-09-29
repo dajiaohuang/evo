@@ -334,3 +334,22 @@ PR #494 于 2026-09-29 合并后，P4-6 现生主龙种级导读确认为鳄目 
 P3-24 后灵长类接受种读者页合计为 105/530（58 个 dossier-backed、47 个 profile-only），425 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍待继续排查。
 
 
+
+### P3-25 亚马逊 Mico 狨属范围图导读
+
+依据 [Mourthé 等（2022）](https://doi.org/10.3389/fevo.2022.857920) 的补充表 S1，为八个 COL26.8 接受种增加双语区域研究导读，并为 Mico 属增加一条矩阵比较导读。论文将 IUCN 范围图叠置到巴西亚马逊十个主要间河区；本批只报告表格中的区域相交，不把地图相交写成逐点现场发现、种群数量或完整分布区。英文普通名取自 Mammal Diversity Database，中文名为编辑翻译；主文表 2 的种数与比例差异继续保留在限制说明中。
+
+| COL ID / 接受种 | 补充表 S1 的间河区范围图相交 | 页面入口 | 状态 | 批次 |
+| --- | --- | --- | --- | --- |
+| 42MHT Mico argentatus | 2：Xingu, Tapajós | COL26.8 目录详情 `#/registry?release=COL26.8&id=42MHT` | 双语区域研究导读；非完整种志 | P3-25 |
+| 42MHV Mico emiliae | 1：Tapajós | COL26.8 目录详情 `#/registry?release=COL26.8&id=42MHV` | 双语区域研究导读；非完整种志 | P3-25 |
+| 42MHW Mico humeralifer | 1：Rondônia | COL26.8 目录详情 `#/registry?release=COL26.8&id=42MHW` | 双语区域研究导读；非完整种志 | P3-25 |
+| 42MHZ Mico leucippe | 1：Tapajós | COL26.8 目录详情 `#/registry?release=COL26.8&id=42MHZ` | 双语区域研究导读；非完整种志 | P3-25 |
+| 42MJ5 Mico melanurus | 2：Tapajós, Rondônia | COL26.8 目录详情 `#/registry?release=COL26.8&id=42MJ5` | 双语区域研究导读；非完整种志 | P3-25 |
+| 84GMH Mico munduruku | 1：Tapajós | COL26.8 目录详情 `#/registry?release=COL26.8&id=84GMH` | 双语区域研究导读；非完整种志 | P3-25 |
+| 42MJ6 Mico nigriceps | 1：Rondônia | COL26.8 目录详情 `#/registry?release=COL26.8&id=42MJ6` | 双语区域研究导读；非完整种志 | P3-25 |
+| 42MJ7 Mico rondoni | 1：Rondônia | COL26.8 目录详情 `#/registry?release=COL26.8&id=42MJ7` | 双语区域研究导读；非完整种志 | P3-25 |
+
+Mico 属导读汇总表内八种与 Tapajós（5）、Rondônia（4）、Xingu（1）的相交数；M. argentatus 与 M. melanurus 各跨两个区，故为 10 个种—间河区相交。该矩阵摘录不是属级完整分布综述，也未新建 dossier。
+
+P3-25 后灵长类接受种读者页合计为 113/530（58 个 dossier-backed、55 个 profile-only），417 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍待继续排查。
