@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "batchId": "crocodylia-crocodylus-porosus-reader-intro-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "ZKNP",
+    "scientificName": "Crocodylus porosus Schneider, 1801",
+    "rank": "species",
+    "sourceDatasetId": "1008",
+    "identityScope": "Exact accepted COL26.8 species usage ZKNP; source-linked guides to one comparative biomechanics study and one Northern Territory movement study."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1008",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/ZKNP",
+      "stableId": "col:ZKNP@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Crocodylidae classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "erickson2012",
+      "title": "Insights into the Ecology and Evolutionary Success of Crocodilians Revealed through Bite-Force and Tooth-Pressure Experimentation",
+      "url": "https://doi.org/10.1371/journal.pone.0031781",
+      "stableId": "doi:10.1371/journal.pone.0031781",
+      "version": "PLoS ONE 7(3):e31781; published 2012-03-14",
+      "publishedAt": "2012-03-14",
+      "accessedAt": "2026-09-29",
+      "locator": "Results, adult bite-force values; Materials and Methods, Data Collection.",
+      "scope": "Comparative experiment on 83 sexually mature adults representing all 23 crocodilian species recognized in the study; jaw form, body mass, bite force and tooth pressure.",
+      "license": "Creative Commons Attribution License, stated in the article copyright section; the article does not specify a numbered version.",
+      "licenseAssessment": "item-level-verified-version-unspecified",
+      "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0031781",
+      "rightsEvidenceLocator": "Copyright statement after article citation; Creative Commons Attribution License.",
+      "attribution": "Erickson GM, Gignac PM, Steppan SJ, Lappin AK, Vliet KA, Brueggen JD, et al. (2012). Insights into the Ecology and Evolutionary Success of Crocodilians Revealed through Bite-Force and Tooth-Pressure Experimentation. PLoS ONE 7(3):e31781. https://doi.org/10.1371/journal.pone.0031781. Claims are paraphrased."
+    },
+    {
+      "id": "fukuda2019",
+      "title": "Translocation, genetic structure and homing ability confirm geographic barriers disrupt saltwater crocodile movement and dispersal",
+      "url": "https://doi.org/10.1371/journal.pone.0205862",
+      "stableId": "doi:10.1371/journal.pone.0205862",
+      "version": "PLoS ONE 14(8):e0205862; published 2019-08-28",
+      "publishedAt": "2019-08-28",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Materials and Methods; Results.",
+      "scope": "ARGOS tracking of five translocated adult males and three controls in the Northern Territory, paired with genetic analyses of coastal nest samples.",
+      "license": "Creative Commons Attribution License, stated in the article copyright section; the article does not specify a numbered version.",
+      "licenseAssessment": "item-level-verified-version-unspecified",
+      "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205862",
+      "rightsEvidenceLocator": "Copyright statement after article citation; Creative Commons Attribution License.",
+      "attribution": "Fukuda Y, Webb G, Manolis C, Lindner G, Banks S (2019). Translocation, genetic structure and homing ability confirm geographic barriers disrupt saltwater crocodile movement and dispersal. PLoS ONE 14(8):e0205862. https://doi.org/10.1371/journal.pone.0205862. Claims are paraphrased."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "erickson2012",
+      "text": "The study reports 8,983 N as the taxon-representative bite force at the molariform position for Crocodylus porosus and separately reports a 16,414 N measurement for one individual.",
+      "scope": "The individual maximum and taxon-representative statistic are distinct; the specimens were sexually mature adults in the comparative collection sample."
+    },
+    {
+      "sourceId": "fukuda2019",
+      "text": "Five translocated adult males released 100–320 km from capture sites moved at sea in the direction of those sites, but none completed homing around Cobourg Peninsula; one control crocodile later made a 900 km journey over six months and returned.",
+      "scope": "A small Northern Territory sample; the study also analyzed genetic structure from nests along that coastline."
+    }
+  ],
+  "gaps": [
+    "No multi-source species dossier is added.",
+    "The movement study does not represent females, juveniles, all populations, or every translocation context."
+  ]
+}
