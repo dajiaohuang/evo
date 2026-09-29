@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "batchId": "archosaur-cyanistes-caeruleus-glucocorticoid-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "32NH2",
+    "scientificName": "Cyanistes caeruleus (Linnaeus, 1758)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage 32NH2; this profile is source-linked but no multi-source dossier is added."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/32NH2",
+      "stableId": "col:32NH2@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Aves classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "henderson2017",
+      "title": "Do glucocorticoids predict fitness? Linking environmental conditions, corticosterone and reproductive success in the blue tit, Cyanistes caeruleus",
+      "url": "https://doi.org/10.1098/rsos.170875",
+      "stableId": "doi:10.1098/rsos.170875",
+      "version": "Royal Society Open Science 4(10):170875; published 2017-10-18",
+      "publishedAt": "2017-10-18",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Methods, Study population and field procedures; Results; Discussion.",
+      "scope": "Primary observational study of free-living blue tits during breeding over three years at a nest-box population near Loch Lomond, Scotland; measured brood-rearing conditions, parental baseline corticosterone, and reproductive outcomes.",
+      "license": "Creative Commons Attribution 4.0 International, stated on the published article PDF first page.",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "rightsEvidenceUrl": "https://eprints.whiterose.ac.uk/id/eprint/124035/1/170875.full.pdf",
+      "rightsEvidenceLocator": "Published-version PDF, first page: copyright and CC BY 4.0 statement.",
+      "attribution": "Henderson LJ, Evans NP, Heidinger BJ, Herborn KA, Arnold KE (2017). Do glucocorticoids predict fitness? Linking environmental conditions, corticosterone and reproductive success in the blue tit, Cyanistes caeruleus. Royal Society Open Science 4(10):170875. https://doi.org/10.1098/rsos.170875. Claims are paraphrased."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "henderson2017",
+      "text": "Across three breeding seasons, elevated parental baseline corticosterone was associated with lower temperatures, greater rainfall, and lower territory-scale oak density.",
+      "scope": "The study's free-living nest-box population near Loch Lomond, Scotland; associations do not establish causation."
+    },
+    {
+      "sourceId": "henderson2017",
+      "text": "Asynchrony with the caterpillar food peak was associated with lower nestling mass and fledging success, but not parental corticosterone; only low temperature was associated with both lower nestling mass and elevated parental corticosterone among the measured conditions.",
+      "scope": "Study-specific brood-rearing measures and three-year observation period."
+    },
+    {
+      "sourceId": "henderson2017",
+      "text": "Offspring of parents with elevated corticosterone were lighter in all study years, while parental corticosterone was positively associated with the number fledged in 2009.",
+      "scope": "Year-specific correlations in this population; not a general fitness rule or causal result."
+    }
+  ],
+  "gaps": [
+    "No multi-source species dossier is added.",
+    "The article is a local three-year study and does not provide a comprehensive account of blue-tit range, diet, morphology, conservation status, or life stages outside the breeding context."
+  ]
+}
