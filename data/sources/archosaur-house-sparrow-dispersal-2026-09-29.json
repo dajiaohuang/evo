@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "batchId": "archosaur-house-sparrow-dispersal-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "4DXXM",
+    "scientificName": "Passer domesticus (Linnaeus, 1758)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage 4DXXM; source-linked abstract-level guide only, with no dossier added."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/4DXXM",
+      "stableId": "col:4DXXM@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Aves classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "parn2012",
+      "title": "Pärn H, Ringsby TH, Jensen H, Sæther B-E. Spatial heterogeneity in the effects of climate and density-dependence on dispersal in a house sparrow metapopulation.",
+      "url": "https://doi.org/10.1098/rspb.2011.0673",
+      "stableId": "doi:10.1098/rspb.2011.0673",
+      "version": "Proceedings of the Royal Society B 279(1726):144–152; issue date 2012-01-07; DOI carries 2011",
+      "publishedAt": "2012-01-07",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; title and issue metadata on PMC record.",
+      "scope": "Long-term metapopulation study of house sparrows comparing island habitat quality; this guide uses only findings stated in the abstract.",
+      "license": "The accessible record displays Royal Society journal copyright; an item-level open license was not confirmed for this guide.",
+      "licenseAssessment": "license-not-confirmed-paraphrase-only",
+      "rightsHolder": "The Royal Society",
+      "rightsEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3223649/",
+      "rightsEvidenceLocator": "PMC record copyright information; the full article license page could not be opened in this batch.",
+      "attribution": "Pärn H, Ringsby TH, Jensen H, Sæther B-E. Spatial heterogeneity in the effects of climate and density-dependence on dispersal in a house sparrow metapopulation. Proceedings of the Royal Society B 279:144–152 (2012). https://doi.org/10.1098/rspb.2011.0673. Abstract-level claims are paraphrased."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "parn2012",
+      "text": "A long-term metapopulation study found that natal dispersal in house sparrows increased with spring temperature and population size on lower-quality islands without farms, while these factors were not associated with dispersal on higher-quality farm islands.",
+      "scope": "Abstract-level result for the studied island populations; habitat-specific observational associations do not establish causality or a universal species pattern."
+    }
+  ],
+  "gaps": [
+    "Full article methods, sample sizes, site names, and supporting analyses were not verified in this batch; the profile stays at abstract level.",
+    "No current range, population trend, or formal conservation assessment is added."
+  ]
+}

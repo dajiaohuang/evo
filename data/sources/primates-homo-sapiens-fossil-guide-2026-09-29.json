@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-homo-sapiens-fossil-guide-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "6MB3T",
+    "scientificName": "Homo sapiens Linnaeus, 1758",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage 6MB3T; source-linked research guide only, with no dossier changes."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/6MB3T",
+      "stableId": "col:6MB3T@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Primates classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "freidline2023",
+      "title": "Freidline SE, Westaway KE, Joannes-Boyau R, et al. (2023). Early presence of Homo sapiens in Southeast Asia by 86–68 kyr at Tam Pà Ling, Northern Laos. Nature Communications 14:3193.",
+      "url": "https://doi.org/10.1038/s41467-023-38715-y",
+      "stableId": "doi:10.1038/s41467-023-38715-y",
+      "version": "Nature Communications 14, article 3193; version of record published 2023-06-13",
+      "publishedAt": "2023-06-13",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Results—Context and dating; Results—Morphological description of Tam Pà Ling 6 and 7; Rights and permissions.",
+      "scope": "Primary fossil and chronology study of Tam Pà Ling cave, northern Laos. Site ages derive from modeled sediment and associated dating evidence; claims do not treat them as direct fossil dates.",
+      "license": "Creative Commons Attribution 4.0 International, confirmed on the publisher page.",
+      "licenseAssessment": "item-level-verified",
+      "rightsHolder": "The Authors",
+      "rightsEvidenceUrl": "https://www.nature.com/articles/s41467-023-38715-y",
+      "rightsEvidenceLocator": "Publisher article end matter, Rights and permissions.",
+      "attribution": "Freidline SE, Westaway KE, Joannes-Boyau R, et al. (2023). Early presence of Homo sapiens in Southeast Asia by 86–68 kyr at Tam Pà Ling, Northern Laos. Nature Communications 14:3193. https://doi.org/10.1038/s41467-023-38715-y. Claims are paraphrased; no figures or tables are reproduced."
+    },
+    {
+      "id": "smith2024ranis",
+      "title": "Smith GM, Ruebens K, Zavala EI, et al. (2024). The ecology, subsistence and diet of ~45,000-year-old Homo sapiens at Ilsenhöhle in Ranis, Germany. Nature Ecology & Evolution 8:564–577.",
+      "url": "https://doi.org/10.1038/s41559-023-02303-6",
+      "stableId": "doi:10.1038/s41559-023-02303-6",
+      "version": "Nature Ecology & Evolution 8(3):564–577; version of record published 2024-01-31",
+      "publishedAt": "2024-01-31",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Main—stable-isotope analysis and Ilsenhöhle stratigraphy; Rights and permissions.",
+      "scope": "Primary zooarchaeology and stable-isotope study at one cave in Ranis, Germany. The human diet inference is limited to 10 sampled human remains and their archaeological context.",
+      "license": "Creative Commons Attribution 4.0 International, as recorded in the repository dossier source audit.",
+      "licenseAssessment": "item-level-verified",
+      "rightsHolder": "The Authors",
+      "rightsEvidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10927544/",
+      "rightsEvidenceLocator": "PMC-hosted full text, Open Access notice; CC BY 4.0",
+      "attribution": "Smith GM, Ruebens K, Zavala EI, et al. (2024). The ecology, subsistence and diet of ~45,000-year-old Homo sapiens at Ilsenhöhle in Ranis, Germany. Nature Ecology & Evolution 8:564–577. https://doi.org/10.1038/s41559-023-02303-6. Claims are paraphrased; no figures or tables are reproduced."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "freidline2023",
+      "text": "The study assigns fossil remains TPL 6 and TPL 7 to Homo sapiens; the cave sequence model places TPL 6 at 70 ± 3 ka and extends the record with TPL 7 to 77 ± 9 ka. These are depositional-context estimates, not direct dates on the human fragments.",
+      "scope": "One cave sequence. TPL 7 may predate the modeled age because the deepest sediment sample was collected higher in the section."
+    },
+    {
+      "sourceId": "freidline2023",
+      "text": "TPL 6 is a partial left frontal bone with a modest superciliary arch and no supraorbital torus; geometric-morphometric projections place the reconstruction among relatively gracile frontal forms. Taphonomic alteration of TPL 7 prevents accurate osteometric analysis.",
+      "scope": "Descriptions concern two specimens from one locality and do not estimate species-wide anatomical variation."
+    },
+    {
+      "sourceId": "smith2024ranis",
+      "text": "Stable-isotope analysis of collagen from 10 human remains, interpreted with 52 animal remains, supports a dietary signal dominated by large terrestrial mammals for the sampled people at Ilsenhöhle in Ranis.",
+      "scope": "One cave and its archaeological context; isotope evidence does not prove every indicated animal taxon was consumed there or establish a general human diet."
+    }
+  ],
+  "gaps": [
+    "This is a selected research guide, not a systematic species-wide dossier or a global fossil-range review.",
+    "The evidence does not assess current distribution, population trend, life history, or formal conservation status."
+  ]
+}
