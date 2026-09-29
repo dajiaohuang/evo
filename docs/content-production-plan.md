@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-29 当前批次写入后，待 PR 评审合并的灵长类读者页预计为 155/530（58 个 dossier-backed、97 个 profile-only）；375 个仍无读者页，476 个未命中 dossier 索引的接受种仍需排查。主龙现生种级导读为鳄目 27/27、Aves 9/11,044，共 36/11,071；继续补齐 11,035 个鸟类接受种，并扩展恐龙、翼龙及鳄形类的类群介绍与化石素材。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石分母分开统计。
+下一执行动作：P3-30 当前批次写入后，待 PR 评审合并的灵长类读者页预计为 163/530（58 个 dossier-backed、105 个 profile-only）；367 个仍无读者页，476 个未命中 dossier 索引的接受种仍需排查。主龙现生种级导读为鳄目 27/27、Aves 9/11,044，共 36/11,071；继续补齐 11,035 个鸟类接受种，并扩展恐龙、翼龙及鳄形类的类群介绍与化石素材。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石分母分开统计。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -447,3 +447,20 @@ P3-28 后，灵长类种级读者页为 147/530（58 个 dossier-backed、89 个
 | 72R6T Macaca assamensis | Dampa Tiger Reserve 样线与海拔记录（2012–2014） | 保护区核心区的局部生态密度 | COL26.8 目录详情 `#/registry?release=COL26.8&id=72R6T` | P3-29 |
 
 P3-29 未新建物种 dossier；当前分支计入本批后，灵长类接受种读者页预计为 155/530（58 个 dossier-backed、97 个 profile-only），375 个接受种仍无种级读者页。该计数待 PR #499 的 CI 与评审完成后再视为合并覆盖；未命中 dossier 索引的 476 个接受种仍需排查。
+
+### P3-30 八种 Lepilemur 系统发育导读（2026-09-30）
+
+依据 Andriaholinirina 等（2006）对当时八个运动狐猴种的线粒体细胞色素 b 与细胞遗传比较，为 COL26.8 接受的八种 Lepilemur 补充双语 profile-only 导读。内容限定于该研究的树上关系、染色体差异和取样群体；历史拆分提议保留为论文观点，不改写为现行分类。线粒体片段结果不代表全基因组，也不是生态或种群普查。英文普通名取自 MDD，中文标签为编辑翻译；本批未新建 dossier，也尚未经过外部领域专家评审。
+
+| COL ID / 接受种 | 来源支持的局部主题 | 主要范围限制 | 页面入口 | 批次 |
+| --- | --- | --- | --- | --- |
+| 6PBSJ Lepilemur ankaranensis | 与 L. septentrionalis 的染色体及线粒体种界比较 | 转述 2006 年研究，不代表新分类修订 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PBSJ` | P3-30 |
+| 6PBSG Lepilemur dorsalis | Ambanja/Nosy Be、Sahamalaza 种群差异及历史拆分假说 | 线粒体局部标记；与 L. ankaranensis 的距离另列 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PBSG` | P3-30 |
+| 6PC4G Lepilemur edwardsi | 与 L. microdon 的主要线粒体分支关系 | 系统树关系受样本与标记范围限制 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PC4G` | P3-30 |
+| 6PBSD Lepilemur leucopus | 与 L. ruficaudatus 的主要分支关系 | 不描述种内完整遗传结构 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PBSD` | P3-30 |
+| 6PC4D Lepilemur microdon | 与 L. edwardsi 的主要分支关系 | 1,140 bp 细胞色素 b，不是全基因组 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PC4D` | P3-30 |
+| 6PBRZ Lepilemur mustelinus | 论文样本中较大的种间线粒体差异 | 只对应 2006 年片段和样本 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PBRZ` | P3-30 |
+| 6PBRY Lepilemur ruficaudatus | Kirindy、Andramasay、Anjahamena 三地理群体 | 论文提出的拆分未作为 COL26.8 接受分类 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PBRY` | P3-30 |
+| 6PC47 Lepilemur septentrionalis | 与 L. ankaranensis 的染色体及线粒体种界比较 | 不以染色体相似度单独决定分类 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PC47` | P3-30 |
+
+P3-30 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 163/530（58 个 dossier-backed、105 个 profile-only），367 个接受种仍无种级读者页。该计数待 PR #499 的 CI 与评审完成后再视为合并覆盖；未命中 dossier 索引的 476 个接受种仍需排查。
