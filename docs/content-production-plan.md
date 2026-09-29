@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-31 当前批次写入后，待 PR 评审合并的灵长类读者页预计为 174/530（58 个 dossier-backed、116 个 profile-only）；356 个仍无读者页，476 个未命中 dossier 索引的接受种仍需排查。主龙现生种级导读为鳄目 27/27、Aves 9/11,044，共 36/11,071；继续补齐 11,035 个鸟类接受种，并扩展恐龙、翼龙及鳄形类的类群介绍与化石素材。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石分母分开统计。
+下一执行动作：P3-32 当前批次写入后，待 PR 评审合并的灵长类读者页预计为 180/530（58 个 dossier-backed、122 个 profile-only）；350 个仍无读者页，476 个未命中 dossier 索引的接受种仍需排查。主龙现生种级导读为鳄目 27/27、Aves 9/11,044，共 36/11,071；继续补齐 11,035 个鸟类接受种，并扩展恐龙、翼龙及鳄形类的类群介绍与化石素材。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石分母分开统计。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -484,3 +484,19 @@ P3-30 未新建物种 dossier；计入本批后灵长类接受种读者页预计
 | 6PBS8 Lepilemur wrighti | Kalambatritra 样本及可能的性别色型差异 | 色型观察仅五只个体，范围待查 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PBS8` | P3-31 |
 
 P3-31 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 174/530（58 个 dossier-backed、116 个 profile-only），356 个接受种仍无种级读者页。该计数待 PR #499 的 CI 与评审完成后再视为合并覆盖；未命中 dossier 索引的 476 个接受种仍需排查。
+
+
+### P3-32 六种剩余 sportive lemur 读者页（2026-09-30）
+
+本批完成 Lepilemur 中 MDD 映射的最后六个缺页接受种。内容依据模式材料、描述样本和作者当时掌握的局部记录；对无法确定的边界保留原文的不确定性。三个历史在线名称由 2017 年纸本更正正式确立或校正，页面采用 COL26.8 接受名；命名更正不被写成新的分布或生态证据。本批均为双语 profile-only，没有新建 dossier，也尚未经过外部领域专家评审。
+
+| taxonId | 内容重点 | 来源边界 | 页面入口 | 批次 |
+| --- | --- | --- | --- | --- |
+| 6PBS7 Lepilemur scottorum | Masoala 样本、红褐被毛与 Masiaposa 记录 | 东、北边界仍待调查；不代表现今种群估计 | COL26.8 目录详情 #/registry?release=COL26.8&id=6PBS7 | P3-32 |
+| 6PBSF Lepilemur hollandorum | Mananara-Nord 的形态和两片低地雨林记录 | 南界缺少连续取样，北界也未定 | COL26.8 目录详情 #/registry?release=COL26.8&id=6PBSF | P3-32 |
+| 6PC2L Lepilemur aeeclis | Antafia 模式地点、变动的毛色特征与河间记录 | Mahavavy du Sud 河以南的延伸未知；有效拼写依据 2017 更正 | COL26.8 目录详情 #/registry?release=COL26.8&id=6PC2L | P3-32 |
+| 6PC3Y Lepilemur sahamalaza | 名称更正、模式系列及半岛记录 | Sambirano 河仅为可能北界，范围仍待调查 | COL26.8 目录详情 #/registry?release=COL26.8&id=6PC3Y | P3-32 |
+| 6PC3Z Lepilemur otto | Ambodimahabibo 样本形态与局部记录 | 完整分布未确定；2007 生物学描述与 2017 命名更正分开引用 | COL26.8 目录详情 #/registry?release=COL26.8&id=6PC3Z | P3-32 |
+| 6PC49 Lepilemur randrianasoloi | Andramasay/Bemaraha 样本及体型比较 | Tsiribihina、Manambaho、Mahavavy du Sud 边界均按假说表述；采用 2017 拼写 | COL26.8 目录详情 #/registry?release=COL26.8&id=6PC49 | P3-32 |
+
+P3-32 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 180/530（58 个 dossier-backed、122 个 profile-only），350 个接受种仍无种级读者页。MDD 映射内的 Lepilemur 物种页已补齐，但全体灵长类仍有 350 个缺页；待 PR #499 的 CI 与评审完成后再视为合并覆盖。476 个未命中 dossier 索引的接受种仍需逐项排查。
