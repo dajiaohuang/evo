@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-arc-deforestation-range-reader-batch-2026-09-29",
+  "checkedAt": "2026-09-29",
+  "releaseAlias": "COL26.8",
+  "source": {
+    "id": "costa_araujo2024_arc_deforestation",
+    "stableId": "doi:10.5194/pb-11-1-2024",
+    "title": "Costa-Araújo et al. (2024) — A dataset of new occurrence records of primates from the arc of deforestation, Brazil",
+    "url": "https://doi.org/10.5194/pb-11-1-2024",
+    "version": "Primate Biology 11:1–11; version of record published 2024-01-22.",
+    "publishedAt": "2024-01-22",
+    "accessedAt": "2026-09-29",
+    "attribution": "Costa-Araújo R, Canale GR, de Melo FR, da Silva RR, da Silva IB, de Alencar RM, da Silva LF, Jerusalinsky L, de Azevedo RB, Santos Júnior EM, Mourthé I, Ruz EJH, Silva-Jr. JdSe, Roos C, Farias IP, and Hrbek T. (2024). A dataset of new occurrence records of primates from the arc of deforestation, Brazil. Primate Biology 11:1–11. https://doi.org/10.5194/pb-11-1-2024. Findings paraphrased.",
+    "scope": "Ten field expeditions in southern Amazonia, Brazil, during 2015–2018 produced 192 occurrence records for 22 species and subspecies across 56 localities. The article discusses range records and taxonomic hypotheses for selected taxa; this batch reuses only its bounded occurrence and range statements.",
+    "locator": "Publisher article: Methods, 2015–2018 expeditions and identification methods; Results and discussion, paragraphs on the eight range-clarification taxa, the Juruena and Teles Pires records, titi-monkey range delimitation, and Saimiri collinsi; Conclusions on remaining taxonomy and field-data gaps.",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated on the publisher's article page.",
+    "licenseAssessment": "item-level-verified",
+    "licenseVersion": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseEvidenceUrl": "https://pb.copernicus.org/articles/11/1/2024/",
+    "licenseEvidenceLocator": "Publisher article page, copyright and license statement: © Author(s) 2024; distributed under the Creative Commons Attribution 4.0 License.",
+    "licenseAppliesTo": "Published article text. This batch paraphrases the text and does not reuse figures, photographs, or supplementary files.",
+    "rightsHolder": "The authors",
+    "rightsEvidenceUrl": "https://pb.copernicus.org/articles/11/1/2024/",
+    "rightsEvidenceLocator": "Publisher article copyright and license statement."
+  },
+  "identitySource": {
+    "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115",
+    "urlTemplate": "https://www.checklistbank.org/dataset/316115/taxon/{colId}",
+    "scope": "Taxonomic identity only: accepted species usage, authorship, rank, status, and parent classification through Primates usage 3W7. It does not support biological claims."
+  },
+  "targets": [
+    {
+      "colId": "65WK8",
+      "scientificName": "Alouatta discolor",
+      "authorship": "(Spix, 1823)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "scope": "The article discusses Alouatta discolor in relation to a historical locality record and a possible contact zone with the paper's Alouatta puruensis. COL26.8 does not return Alouatta puruensis as an accepted primate species; that source name is retained as a dated label and is not mapped to another accepted species here.",
+      "claim": "The authors describe a prior report of sympatry between A. discolor and the paper's A. puruensis in the Juruena–Teles Pires interfluve and suggest that nearby records may indicate a contact or hybridization zone. Hybridization and bidirectional gene flow remain hypotheses, not confirmed outcomes.",
+      "locator": "Results and discussion, paragraphs beginning 'Based on current knowledge...' and 'One of our records of Alouatta puruensis...'; Conclusions on additional records and genetic samples needed."
+    },
+    {
+      "colId": "J8NW",
+      "scientificName": "Ateles chamek",
+      "authorship": "(Humboldt, 1812)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "scope": "Two occurrence records from the right bank of the middle Teles Pires River in southern Amazonia; one overlaps a published Ateles marginatus record.",
+      "claim": "Two black-pelaged spider monkeys lacking the white forehead and cheek hairs characteristic of A. marginatus were identified as A. chamek on the right bank of the middle Teles Pires, within the mapped range of A. marginatus; one record overlaps an A. marginatus locality. The authors propose possible river-crossing dispersal and gene flow, which they say needs further field and genetic evidence.",
+      "locator": "Results and discussion, paragraph beginning 'Two of our records of Ateles chamek...'; Conclusions on refining taxonomy, extent of occurrence, and testing gene flow."
+    },
+    {
+      "colId": "J8P9",
+      "scientificName": "Ateles marginatus",
+      "authorship": "É. Geoffroy Saint-Hilaire, 1809",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "scope": "One A. marginatus locality overlaps a new Ateles chamek record in the middle Teles Pires region; evidence concerns the local range boundary.",
+      "claim": "The paper reports one A. chamek occurrence overlapping an A. marginatus locality on the right bank of the middle Teles Pires. The authors suggest that river islands could permit movement and gene flow between the populations, but explicitly call for more records and genetic samples to test this proposal.",
+      "locator": "Results and discussion, paragraph beginning 'Two of our records of Ateles chamek...'; Conclusions on additional records, specimens, and genetic samples."
+    },
+    {
+      "colId": "4K5YB",
+      "scientificName": "Plecturocebus moloch",
+      "authorship": "(Hoffmannsegg, 1807)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "scope": "A proposed regional range delimitation from occurrence records in southern Amazonia, considered alongside ranges assigned to Plecturocebus grovesi and P. vieirai.",
+      "claim": "The authors propose a revised regional range for P. moloch using their records and excluding areas assigned to P. grovesi and P. vieirai. They also state that the type locality, two historical synonyms, and titi taxonomy in the Jamanxim–Teles Pires interfluve still need clarification.",
+      "locator": "Results and discussion, paragraph beginning 'We propose a new delimitation...'; Conclusions on unresolved taxonomy and need for additional field data."
+    },
+    {
+      "colId": "4K5Y8",
+      "scientificName": "Plecturocebus hoffmannsi",
+      "authorship": "(Thomas, 1908)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "scope": "A local occurrence of Plecturocebus baptista within the area then attributed to P. hoffmannsi, in a region with limited taxonomic and distribution evidence.",
+      "claim": "The study records P. baptista within the range attributed to P. hoffmannsi and notes earlier records in the same area. It raises clinal phenotype variation as a possible explanation, while stating that molecular phylogenetic analyses are lacking and taxonomy remains unresolved.",
+      "locator": "Results and discussion, paragraph beginning 'We found a group of P. baptista...'; Conclusions on the need to clarify taxonomy, distribution, and evolutionary history."
+    },
+    {
+      "colId": "4K5XW",
+      "scientificName": "Plecturocebus baptista",
+      "authorship": "(Lönnberg, 1939)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "scope": "A local occurrence record within the area attributed by the article to Plecturocebus hoffmannsi; the paper discusses possible clinal variation but does not test species boundaries genetically.",
+      "claim": "The authors report P. baptista within the range assigned to P. hoffmannsi. Because the two forms are poorly studied, have not been evaluated together with molecular phylogenetic analyses, and lack an obvious geographic barrier to gene flow, the paper raises a single-species clinal-variation interpretation as a hypothesis rather than a taxonomic result.",
+      "locator": "Results and discussion, paragraph beginning 'We found a group of P. baptista...'; Conclusions on additional taxonomy and distribution work."
+    },
+    {
+      "colId": "4TZJW",
+      "scientificName": "Saimiri collinsi",
+      "authorship": "Osgood, 1916",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "scope": "Occurrence records from the Jamanxim, upper Tapajós, and lower Teles Pires river region in southern Amazonia, based on field expeditions during 2015–2018.",
+      "claim": "The authors recorded S. collinsi on the left bank of the Jamanxim River and on the right bank of the upper Tapajós and lower Teles Pires rivers. They estimated that these points extend the then-known range about 600 km west; this is a regional range inference, not a population census or current full-range survey.",
+      "locator": "Results and discussion, paragraph beginning 'Finally, we recorded Saimiri collinsi...'; Methods on expedition dates and occurrence-identification approach."
+    }
+  ],
+  "gaps": [
+    "These are regional occurrence and taxonomy-context guides, not complete species accounts, abundance estimates, or conservation assessments.",
+    "The source uses some species and subspecies concepts that differ from current COL26.8; Alouatta puruensis was not silently cross-mapped because an accepted COL26.8 primate usage was not verified.",
+    "The authors identify additional field records, specimens, and genetic samples as necessary for testing range boundaries, hybridization, and titi-monkey taxonomy.",
+    "The profiles are source-linked and not externally expert-reviewed; no species dossier is added."
+  ]
+}
