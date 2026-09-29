@@ -160,12 +160,13 @@ P0 两篇样板已通过 PR #474 合并；P1 七个核心现生种已通过 PR #
 | 3MJBF Hoolock leuconedys | 局部研究导读；Mehao 保护区长臂猿放归后取食观察 | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=3MJBF` | 三个放归群体和短期观察，不代表通常食谱 | P3-5 |
 | C5Q8 Alouatta caraya | 局部研究导读；阿根廷、巴拉圭和巴西 22 个地点的遗传多样性与水库淹没比较 | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=C5Q8` | 一个遗传学研究、有限地点与标记；尚无 dossier，不推断全域现状 | P3-6 |
 | X6R3 Colobus angolensis | 局部研究导读；乌干达纳布加博湖附近罗文佐里安哥拉疣猴群体的多层级社会组织 | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=X6R3` | 单一地点、亚种和一年观察，不推广为全种群社会结构 | P3-7 |
+| 3T6ZR Leontopithecus chrysomelas | 局部研究导读；南巴伊亚金头狮面狨群体的 Pourouma 种子传播观察与模型 | 已写 / 已写 | COL26.8 目录详情 `#/registry?release=COL26.8&id=3T6ZR` | 焦点群体、树属和模型阈值有限，不外推为全域生态效应 | P3-8 |
 
 主龙分母按现生与化石两条来源线记录。现生部分：COL26.8（2026-08-20）严格接受种快照中，Aves（COL ID `V2`）有 11,044 种，Crocodylia（COL ID `329`）有 27 种，合计 11,071 种；计数按发布版分类树后代统计 `rank=species AND status=accepted`。来源：`data/sources/snapshots/package-species-coverage-col26.8-rc72.json` 与 `data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/`。
 
 化石部分采用 Paleobiology Database（PBDB）作可复现的工作分母：2026-09-29 按 `base_name=Archosauria&rank=species&status=accepted&extant=no&pres=regular` 查询，返回 4,664 个已接受、非现生、常规化石记录种级分类单元（[查询](https://paleobiodb.org/data1.2/taxa/list.json?base_name=Archosauria&rank=species&status=accepted&extant=no&pres=regular&limit=10000)，[参数说明](https://paleobiodb.org/data1.2/taxa/list_doc.html)）。这表示该数据库和检索条件下的记录数，不等于完整或稳定的全球化石物种清单。另有 534 个 ichno（遗迹）分类单元和 628 个 form（形态）分类单元，单独登记，不并入生物种工作分母。PBDB 名称与 COL 现生鸟类、鳄目接受种有 70 个精确双名匹配；名称相同不证明分类概念相同，完成概念级对照前不从两边总数中相减。子类群查询（非鸟恐龙 1,794、含已灭绝鸟类的 Dinosauria 3,537、翼龙 276、鳄形类 672）存在包含/交叠关系，只用于分批盘点，不相加。鸟类属于现生恐龙谱系，因此鸟类既列在现生目录线，也会出现在 Dinosauria 化石分类查询中；汇总覆盖时须按分类概念对照去重。PBDB 数字为 2026-09-29 查询快照，之后应按同一参数重取并记录日期。
 
-P3-1 至 P3-5 五批共 48 个目录档案写入双语导读；P3-6 为 Alouatta caraya（COL ID `C5Q8`）新增一条由 CC BY 4.0 原始研究支持的局部导读，P3-7 为 Colobus angolensis（COL ID `X6R3`）新增一条根据罗文佐里安哥拉疣猴单一野外研究撰写的局部导读；两者均未建立 dossier。与 P1 七个现生核心页对照后，发现 P3-3 的 Macaca radiata（COL ID `3WWP2`）重复；目前唯一有读者导读的接受种为 56/530（7 个核心静态页与 50 个目录详情中有 1 个种重合）。54 个 dossier-backed 种和 2 个 profile-only 种有读者导读；474 个接受种仍没有读者页，476 个种未命中 dossier 索引。早期灵长类化石 7 篇已由本地静态页构建确认可打开；以上均不表示完成专家评审或完整科学档案。
+P3-1 至 P3-5 五批共 48 个目录档案写入双语导读；P3-6 为 Alouatta caraya（COL ID `C5Q8`）新增一条由 CC BY 4.0 原始研究支持的局部导读，P3-7 为 Colobus angolensis（COL ID `X6R3`）新增一条根据罗文佐里安哥拉疣猴单一野外研究撰写的局部导读，P3-8 为 Leontopithecus chrysomelas（COL ID `3T6ZR`）新增一条依据南巴伊亚一支焦点群体的原始观察与模型撰写的局部导读；三者均未建立 dossier。与 P1 七个现生核心页对照后，发现 P3-3 的 Macaca radiata（COL ID `3WWP2`）重复；目前唯一有读者导读的接受种为 57/530（7 个核心静态页与 51 个目录详情中有 1 个种重合）。54 个 dossier-backed 种和 3 个 profile-only 种有读者导读；473 个接受种仍没有读者页，476 个种未命中 dossier 索引。早期灵长类化石 7 篇已由本地静态页构建确认可打开；以上均不表示完成专家评审或完整科学档案。
 
 当前主龙物种级 `CatalogueKnowledge` 导读由本批前的 0 增至 2：`Alligator mississippiensis`（COL `BTRB`，Crocodylia）和 `Parus major`（COL `75SVV`，Aves）。因此现生主龙导读为鳄目 1/27、鸟类 1/11,044，共 2/11,071；两页均为局部研究导读，不是完整种志或 dossier。已有 15 条恐龙、鳄形类/鸟类、海生爬行动物/翼龙包级 profiles 及三条类群阅读路径是精选入口，不是全种覆盖。
 

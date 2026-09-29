@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-leontopithecus-chrysomelas-reader-intro-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "3T6ZR",
+    "scientificName": "Leontopithecus chrysomelas (Kuhl, 1820)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage 3T6ZR; the reader guide summarizes a Brazilian field study and seed-dispersal model, not a species dossier."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/3T6ZR",
+      "stableId": "col:3T6ZR@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Leontopithecus/Primates classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "raghunathan2020",
+      "title": "Deterministic modelling of seed dispersal based on observed behaviours of an endemic primate in Brazil",
+      "url": "https://doi.org/10.1371/journal.pone.0244220",
+      "stableId": "doi:10.1371/journal.pone.0244220",
+      "version": "PLOS ONE 15(12):e0244220; published 2020-12-28",
+      "publishedAt": "2020-12-28",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Methods, study sites and primate groups; Results, Colônia study site and Model of Seed Transfer.",
+      "scope": "Primary field study and deterministic seed-dispersal model focused on Leontopithecus chrysomelas in southern Bahia, Brazil; fieldwork on one Colônia group was conducted in 2015–2016, with movement records from two Una Biological Reserve groups taken from a separate 2006 study.",
+      "license": "Creative Commons Attribution License, stated in the article copyright statement; the article does not specify a numbered version.",
+      "licenseAssessment": "item-level-verified-version-unspecified",
+      "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0244220",
+      "rightsEvidenceLocator": "Copyright statement after the article citation; Creative Commons Attribution License.",
+      "attribution": "Raghunathan N, François L, Cazetta E, Pitance J-L, De Vleeschouwer K, Hambuckers A (2020). Deterministic modelling of seed dispersal based on observed behaviours of an endemic primate in Brazil. PLoS ONE 15(12):e0244220. https://doi.org/10.1371/journal.pone.0244220. Claims are paraphrased."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "raghunathan2020",
+      "text": "The field study focused on one Colônia group in southern Bahia, observed over 26 complete days during the Pourouma fruiting season; movement records from two groups at Una Biological Reserve came from a separate 2006 study and supplied 46 and 50 complete observation days.",
+      "scope": "Three study groups at two nearby Brazilian sites, with data collected in different years and for different purposes."
+    },
+    {
+      "sourceId": "raghunathan2020",
+      "text": "For the Colônia group, the seasonal average daily path was about 1,867 m, and observed Pourouma seeds were dispersed an average of 111 m from parent trees.",
+      "scope": "Observed values for one group at one site during one fruiting season; not a species-wide movement or dispersal estimate."
+    },
+    {
+      "sourceId": "raghunathan2020",
+      "text": "The MOST model reproduced observed movement and seed-deposition patterns approximately, but seed-deposition outputs were sensitive to selected mature-fruit and feeding-distance thresholds.",
+      "scope": "Model performance and sensitivity within the study area; not a measurement of regional forest regeneration."
+    }
+  ],
+  "gaps": [
+    "No multi-source species dossier is added.",
+    "The study does not establish range-wide ecology, population size, current conservation status, or a general species-wide seed-dispersal effect."
+  ]
+}
