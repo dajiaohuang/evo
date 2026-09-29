@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-macaca-mulatta-reader-guide-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "3WWNQ",
+    "scientificName": "Macaca mulatta (Zimmermann, 1780)",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage 3WWNQ; source-linked quantitative-genetics guide only."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/3WWNQ",
+      "stableId": "col:3WWNQ@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Primates classification.",
+      "accessedAt": "2026-09-29",
+      "license": "CC BY 4.0 taxonomic metadata; no biological text reused.",
+      "licenseAssessment": "identity-only",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 3WWNQ. https://doi.org/10.48580/dgywk"
+    },
+    {
+      "id": "kimock2019",
+      "title": "Male morphological traits are heritable but do not predict reproductive success in a sexually-dimorphic primate",
+      "url": "https://doi.org/10.1038/s41598-019-52633-4",
+      "stableId": "doi:10.1038/s41598-019-52633-4",
+      "version": "Scientific Reports 9:19794 (2019); published 2019-12-24",
+      "publishedAt": "2019-12-24",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Methods—Field site and subjects, Morphometric data collection, Genetic parentage information, Statistical analyses; Results—Trait heritability and Selection on traits; Discussion.",
+      "scope": "Primary quantitative-genetic and selection study of a managed free-ranging rhesus macaque population on Cayo Santiago; measurements collected in 2015 from 125 adult males and 21 related females.",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated in the article Rights and permissions section.",
+      "licenseAssessment": "item-level-verified",
+      "licenseVersion": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "rightsEvidenceUrl": "https://www.nature.com/articles/s41598-019-52633-4",
+      "rightsEvidenceLocator": "Article Rights and permissions statement; separately credited third-party material may be excluded.",
+      "licenseAppliesTo": "Paraphrased article text only; no article prose, figures, tables, or supplementary data are reproduced.",
+      "attribution": "Kimock CM, Dubuc C, Brent LJN, Higham JP (2019). Male morphological traits are heritable but do not predict reproductive success in a sexually-dimorphic primate. Scientific Reports 9:19794. https://doi.org/10.1038/s41598-019-52633-4. Claims are paraphrased."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "kimock2019",
+      "text": "In pedigree models combining male and female data, body mass, crown-rump length, canine length, and upper abdominal skinfold thickness met the authors' h²≥0.1 heritability threshold; the testis-volume estimate was below it. The 125 adult males and 21 related females were sampled in a managed island population, and heritability intervals were wide.",
+      "scope": "Selected traits in one introduced island population; not species-wide morphology or population-level genetic parameters across the native range."
+    },
+    {
+      "sourceId": "kimock2019",
+      "text": "The study found no definitive evidence of directional, stabilizing, disruptive, or correlational selection on the measured male traits when average annual offspring production was used as a proxy for reproductive success.",
+      "scope": "Annual offspring count is not lifetime fitness; non-detection does not establish absence of all forms of selection."
+    }
+  ],
+  "gaps": [
+    "The study concerns one managed island population and a male-heavy sample; it does not characterize female morphology or native-range variation.",
+    "Annual offspring production is a proxy, not lifetime reproductive success; no current population trend or conservation assessment is provided."
+  ]
+}
