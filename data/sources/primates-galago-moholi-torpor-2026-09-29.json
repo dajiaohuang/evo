@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "batchId": "primates-galago-moholi-torpor-2026-09-29",
+  "releaseAlias": "COL26.8",
+  "checkedAt": "2026-09-29",
+  "target": {
+    "colId": "3F2DD",
+    "scientificName": "Galago moholi A. Smith, 1836",
+    "rank": "species",
+    "sourceDatasetId": "2144",
+    "identityScope": "Exact accepted COL26.8 species usage 3F2DD; source-linked single-study guide only, with no dossier added."
+  },
+  "sources": [
+    {
+      "id": "col",
+      "title": "Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144",
+      "url": "https://www.checklistbank.org/dataset/316115/taxon/3F2DD",
+      "stableId": "col:3F2DD@COL26.8",
+      "scope": "Identity only: accepted name and authorship, species rank, accepted status, sourceDatasetId, and Primates classification.",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "id": "nowack2010",
+      "title": "Nowack J, Mzilikazi N, and Dausmann KH (2010). Torpor on Demand: Heterothermy in the Non-Lemur Primate Galago moholi. PLOS ONE 5(5):e10797.",
+      "url": "https://doi.org/10.1371/journal.pone.0010797",
+      "stableId": "doi:10.1371/journal.pone.0010797",
+      "version": "PLOS ONE 5(5):e10797; published 2010-05-24",
+      "publishedAt": "2010-05-24",
+      "accessedAt": "2026-09-29",
+      "locator": "Abstract; Materials and Methods; Results; Discussion.",
+      "scope": "Primary field and metabolic study at Nylsvley Nature Reserve, South Africa, March–August 2009. The paper measures free-ranging skin temperature and metabolic rate under laboratory or enclosure conditions; the guide separates the field observation from laboratory results.",
+      "license": "The article states that it is distributed under the Creative Commons Attribution License; the article page does not specify a version.",
+      "licenseAssessment": "item-level-verified-version-unspecified",
+      "rightsHolder": "Nowack et al.",
+      "rightsEvidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0010797",
+      "rightsEvidenceLocator": "Article copyright and license statement.",
+      "attribution": "Nowack J, Mzilikazi N, Dausmann KH (2010). Torpor on Demand: Heterothermy in the Non-Lemur Primate Galago moholi. PLOS ONE 5(5):e10797. https://doi.org/10.1371/journal.pone.0010797. Claims are paraphrased; no figures or tables are reproduced."
+    }
+  ],
+  "claims": [
+    {
+      "sourceId": "nowack2010",
+      "text": "The study captured 23 animals at Nylsvley from March to August 2009 and monitored skin temperature of free-ranging animals; the abstract reports torpor in 15% of 20 animals. Detailed results identify one free-ranging subadult male and two laboratory cases.",
+      "scope": "One reserve and one seasonal study; the abstract denominator and detailed field-versus-laboratory cases are retained as reported."
+    },
+    {
+      "sourceId": "nowack2010",
+      "text": "The free-ranging male entered torpor on six of nine monitored days in July for about four hours; the two laboratory cases occurred during metabolic measurements after food and water restriction. The authors conclude torpor is physiologically possible but not routine.",
+      "scope": "One wild male and two controlled cases do not establish population prevalence or species-wide behavior."
+    },
+    {
+      "sourceId": "nowack2010",
+      "text": "The authors discuss reproductive and territorial trade-offs as possible reasons for infrequent torpor.",
+      "scope": "Discussion hypotheses, not causal results tested by the study."
+    }
+  ],
+  "gaps": [
+    "No multi-source species dossier is added.",
+    "The study does not estimate range-wide torpor prevalence, current distribution, population trend, or formal conservation status.",
+    "Only one free-ranging animal showed torpor under natural conditions; the laboratory cases involved controlled food and water restriction."
+  ]
+}
