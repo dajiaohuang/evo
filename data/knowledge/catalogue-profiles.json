@@ -14285,7 +14285,7 @@
         "en": "Leontocebus"
       },
       "reviewStatus": "source-linked",
-      "checkedAt": "2026-09-30",
+      "checkedAt": "2026-10-01",
       "sections": [
         {
           "topic": "distribution",
@@ -14296,6 +14296,37 @@
           "sourceIds": [
             "mourthe2022",
             "mourthe2022_s1"
+          ]
+        },
+        {
+          "topic": "classification",
+          "text": {
+            "zh": "COL26.8 的 Leontocebus 属有十个接受种：*L. fuscicollis*、*L. fuscus*、*L. lagonotus*、*L. leucogenys*、*L. nigricollis*、*L. nigrifrons*、*L. tripartitus*、*L. weddelli*、*L. illigeri* 和 *L. cruzlimai*。Matauschek 等（2011）的线粒体研究讨论 nigricollis 类群的种界；Sampaio 等（2015）采用 Leontocebus 属级组合，而 Garbino 与 Martins-Junior（2018）基于综合表型与遗传证据把它处理为 Saguinus 的亚属。此处保留固定 COL26.8 层级，同时让分类来源的不同组合可见。",
+            "en": "COL26.8 lists ten accepted species in Leontocebus: *L. fuscicollis*, *L. fuscus*, *L. lagonotus*, *L. leucogenys*, *L. nigricollis*, *L. nigrifrons*, *L. tripartitus*, *L. weddelli*, *L. illigeri* and *L. cruzlimai*. Matauschek et al. (2011) examined species limits in the nigricollis group; Sampaio et al. (2015) used Leontocebus at genus rank, whereas Garbino and Martins-Junior (2018) treated it as a Saguinus subgenus using combined phenotypic and genetic evidence. This guide preserves the pinned COL26.8 rank while making the differing combinations visible."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "matauschek2011",
+            "garbino2018",
+            "sampaio2015"
+          ]
+        },
+        {
+          "topic": "readingPath",
+          "text": {
+            "zh": "先读既有的 *L. fuscicollis*、*L. fuscus*、*L. nigricollis* 与 *L. weddelli* 页面：它们比较的是亚马逊大间河区范围图相交，不是现场密度。再沿地点阅读：Río Pacaya 的 *L. illigeri* 单群长期观察；Panguana 的 *L. leucogenys* 林隙记录；Quebrada Blanco 的 *L. nigrifrons* 原生林与次生林取食研究。随后对读厄瓜多尔 *L. tripartitus* 与 *L. lagonotus* 的局地调查，并单独看 *L. lagonotus* 的观察者习惯化研究；最后读巴西 Purus 流域 *L. cruzlimai* 的新模式标本与样线记录。各地和方法不合并成统一属级生态规律。",
+            "en": "Begin with the existing pages for *L. fuscicollis*, *L. fuscus*, *L. nigricollis* and *L. weddelli*: they compare range-map intersections across major Amazonian interfluves, not field densities. Then follow the site-based studies: the long-term single-troop account of *L. illigeri* at Río Pacaya; gap observations of *L. leucogenys* at Panguana; and the primary-versus-secondary-forest foraging study of *L. nigrifrons* at Quebrada Blanco. Next compare the local Ecuadorian surveys of *L. tripartitus* and *L. lagonotus*, then read the separate observer-habituation study of *L. lagonotus*. Finish with the neotype and transect records for *L. cruzlimai* in Brazil’s Purus basin. Sites and methods are not combined into a single genus-wide ecological rule."
+          },
+          "sourceIds": [
+            "mourthe2022",
+            "mourthe2022_s1",
+            "soini1987",
+            "gobel2018",
+            "kupsch2014",
+            "delatorre2017",
+            "tirira2025",
+            "vicente2021",
+            "sampaio2015"
           ]
         }
       ],
@@ -14335,11 +14366,92 @@
             "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。",
             "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence."
           }
+        },
+        {
+          "id": "matauschek2011",
+          "title": "Matauschek, Roos & Heymann (2011) — Mitochondrial phylogeny of tamarins with taxonomic and biogeographic implications for the S. nigricollis species group",
+          "url": "https://doi.org/10.1002/ajpa.21445",
+          "scope": {
+            "zh": "线粒体细胞色素 b 与 D-loop 分析，样本主要来自秘鲁野生狨猴粪便；支持多个 nigricollis 类群谱系作为独立种的分类假说，不单独解决属级名称采用。",
+            "en": "Mitochondrial cytochrome-b and D-loop analysis, using mainly fecal samples from wild Peruvian tamarins; supports species-level hypotheses for several nigricollis-group lineages but does not alone settle genus-level naming."
+          }
+        },
+        {
+          "id": "garbino2018",
+          "title": "Garbino & Martins-Junior (2018) — Phenotypic evolution in marmoset and tamarin monkeys and a revised genus-level classification",
+          "url": "https://doi.org/10.1016/j.ympev.2017.10.002",
+          "scope": {
+            "zh": "结合遗传、骨骼、毛色与发声资料提出 Callitrichinae 分类方案；该方案把 Leontocebus 置于 Saguinus 的亚属层级，代表与 COL26.8 不同的属级处理。",
+            "en": "Combines genetic, osteological, pelage and vocal evidence in a Callitrichinae classification that treats Leontocebus as a subgenus of Saguinus, a genus-level treatment differing from pinned COL26.8."
+          }
+        },
+        {
+          "id": "soini1987",
+          "title": "Soini (1987) — Ecology of the saddle-back tamarin Saguinus fuscicollis illigeri on the Río Pacaya, northeastern Peru",
+          "url": "https://doi.org/10.1159/000156305",
+          "scope": {
+            "zh": "Río Pacaya 一群动物的间歇五年观察，定量资料主要取自 1979–1982 年；不是跨地点种群比较。",
+            "en": "Intermittent observations of one troop over five years at Río Pacaya, with quantitative data mainly from 1979 to 1982; not a multi-site population comparison."
+          }
+        },
+        {
+          "id": "gobel2018",
+          "title": "Göbel & Heymann (2018) — Ecological observations on the primates of Panguana, Peruvian Amazonia",
+          "url": "https://doi.org/10.62015/np.2018.v24.97",
+          "scope": {
+            "zh": "秘鲁 Panguana 私人保护地的一处系统调查；L. leucogenys 的观察与 35.7 公顷样地、林隙占地及群体记录有关，不外推到全分布区。",
+            "en": "A systematic survey at one Peruvian Panguana reserve; L. leucogenys observations relate to a 35.7-ha observation area, its gaps and local groups, not the full range."
+          }
+        },
+        {
+          "id": "kupsch2014",
+          "title": "Kupsch, Waltert & Heymann (2014) — Forest type affects prey foraging of saddleback tamarins, Saguinus nigrifrons",
+          "url": "https://doi.org/10.1007/s10329-014-0416-4",
+          "scope": {
+            "zh": "2011 年秘鲁东北部 Quebrada Blanco 两群比较，一群可进入十年生次生林、另一群只用原生林；猎物捕获结论受地点、季节和两群样本限制。",
+            "en": "A 2011 comparison of two groups at Quebrada Blanco in northeastern Peru: one had access to ten-year-old secondary forest and one used primary forest; prey-capture findings are limited to those groups, site and season."
+          }
+        },
+        {
+          "id": "delatorre2017",
+          "title": "De la Torre (2017) — Distribution and demography of Leontocebus spp. in Amazonian Ecuador",
+          "url": "https://doi.org/10.37002/biodiversidadebrasileira.v7i2.647",
+          "scope": {
+            "zh": "1989–2014 年 23 个厄瓜多尔亚马逊地点的一至两日调查；种群估计仅来自其中八处地点，适用于局地记录与方法范围说明，不是全分布区普查。",
+            "en": "One- to two-day surveys at 23 Ecuadorian Amazon sites from 1989 to 2014; population estimates came from only eight sites and are local records, not a full-range census."
+          }
+        },
+        {
+          "id": "tirira2025",
+          "title": "Tirira & Aguilar (2025) — Primate records in the Amazonian lowlands of the Morona River basin, Ecuador",
+          "url": "https://doi.org/10.15381/rpb.v32i2.29640",
+          "scope": {
+            "zh": "2019–2024 年 Morona 河流域观察与访谈记录；直接观察的 L. lagonotus 均在河流东南侧，访谈所称另一岸记录未获现场确认。",
+            "en": "Observations and interviews in the Morona basin from 2019 to 2024; direct L. lagonotus observations were on the southeast bank, while interview reports from the opposite bank were not field-confirmed."
+          }
+        },
+        {
+          "id": "vicente2021",
+          "title": "Vicente-Alonso, Sánchez-Sánchez & Álvarez Solas (2021) — Systematizing habituation in wild Leontocebus lagonotus",
+          "url": "https://doi.org/10.1007/s10329-020-00877-4",
+          "scope": {
+            "zh": "厄瓜多尔亚马逊两个野生群体、两个月的习惯化观察；记录了观察者在场时行为与空间使用变化，不代表全种固定行为。",
+            "en": "Two wild groups in the Ecuadorian Amazon followed for two months during habituation; documents behavior and space-use changes with observer exposure, not fixed species-wide behavior."
+          }
+        },
+        {
+          "id": "sampaio2015",
+          "title": "Sampaio et al. (2015) — Re-description and assessment of the taxonomic status of Saguinus fuscicollis cruzlimai",
+          "url": "https://doi.org/10.1007/s10329-015-0458-2",
+          "scope": {
+            "zh": "Purus National Forest 的 2011 年样线调查、后续地点观察及形态和分子分类比较；所报样线记录不是密度估计，完整边界仍未确定。",
+            "en": "2011 transect surveys, later locality observations and morphological and molecular taxonomic comparisons in Purus National Forest; transect counts are not a density estimate and complete boundaries remain unresolved."
+          }
         }
       ],
       "limitations": {
-        "zh": "这是对一篇巴西亚马逊范围图研究中所列属内分类单元作矩阵比较，不是完整属级分类清单、自然史综述或个体跨河观察。主文表 2 的物种数与比例存在内部差异；本页仅按补充表 S1 转述范围图相交。尚未经过外部领域专家评审。",
-        "en": "This is a matrix comparison of taxa in one Brazilian Amazon range-map study, not a complete genus checklist, natural-history review or observation of individuals crossing rivers. Main-text Table 2 has internal differences in species totals and percentages; this page reports only the range-map intersections in Supplementary Table S1. This guide is not externally expert-reviewed."
+        "zh": "这是对一篇巴西亚马逊范围图研究中所列属内分类单元作矩阵比较，不是完整属级分类清单、自然史综述或个体跨河观察。主文表 2 的物种数与比例存在内部差异；本页仅按补充表 S1 转述范围图相交。尚未经过外部领域专家评审。 本阅读路径连接固定 COL26.8 的十个属内接受种；局地研究与分类方案分别标出，不构成完整属级自然史或种界综述。",
+        "en": "This is a matrix comparison of taxa in one Brazilian Amazon range-map study, not a complete genus checklist, natural-history review or observation of individuals crossing rivers. Main-text Table 2 has internal differences in species totals and percentages; this page reports only the range-map intersections in Supplementary Table S1. This guide is not externally expert-reviewed. The reading path connects all ten accepted species in pinned COL26.8; local studies and taxonomic schemes remain separate and do not form a complete genus natural-history or species-delimitation review."
       }
     },
     {
@@ -39118,6 +39230,582 @@
       "limitations": {
         "zh": "本介绍严格覆盖固定 COL26.8 的七个接受种。本地 MDD v2.5 精确名称联接七项均未命中，不据此推断生物学分类。普通名为来源用名或编辑显示名；中文为编辑译名。内容尚未经外部领域专家评审。",
         "en": "This introduction is limited to the seven accepted species in pinned COL26.8. Exact-name joins to the local MDD v2.5 sidecar are unmatched for all seven; this is not used to infer biological taxonomy. Common names follow source usage or editorial display choices; Chinese renderings are editorial. Content has not received external expert review."
+      }
+    },
+    {
+      "colId": "3T6RF",
+      "scientificName": "Leontocebus lagonotus (Jiménez de la Espada, 1870)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "zh": "红披风鞍背狨",
+        "en": "Red-mantled Saddle-back Tamarin"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-10-01",
+      "sections": [
+        {
+          "topic": "overview",
+          "text": {
+            "zh": "COL26.8 将本种列为 *Leontocebus lagonotus*。2011 年线粒体系统研究把 lagonotus 视为与其他鞍背狨谱系相区别的分类单元；这里的野外资料来自厄瓜多尔亚马逊若干地点，不据此描绘完整现今分布。",
+            "en": "COL26.8 lists this species as *Leontocebus lagonotus*. A 2011 mitochondrial study treated lagonotus as a distinct saddle-back lineage; the field material summarized here comes from selected Ecuadorian Amazon sites and does not define a complete current range."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "matauschek2011",
+            "garbino2018"
+          ]
+        },
+        {
+          "topic": "fieldStudy",
+          "text": {
+            "zh": "De la Torre（2017）汇总了 1989–2014 年 23 个地点的一至两日调查，并在其中两处地点跟踪群体：Selva Viva 记录 30 天、Yanacocha 记录 15 天，各调查 50 公顷且各记录两群。估算密度为每平方公里 30 与 26 只，但作者未发现显著差异，样本也不足以代表全种。",
+            "en": "De la Torre (2017) assembled one- to two-day surveys at 23 sites from 1989 to 2014 and followed groups at two of them: 30 sampling days at Selva Viva and 15 at Yanacocha, each within a 50-ha area and each with two recorded groups. Estimated densities were 30 and 26 individuals per km², but the difference was not significant and the samples do not represent the whole species."
+          },
+          "sourceIds": [
+            "delatorre2017"
+          ]
+        },
+        {
+          "topic": "habitat",
+          "text": {
+            "zh": "2019–2024 年 Morona 流域调查记录了本种家族群，直接观察均在 Morona 河东南侧；访谈者称河流两岸都有，但另一岸未获现场确认。另一项两群、两个月的习惯化研究还显示，观察者出现频率与休息、取食和空间使用的变化有关，因此观测过程本身也是解释行为记录的一部分。",
+            "en": "Fieldwork in the Morona basin from 2019 to 2024 recorded family groups, with all direct observations on the river’s southeast bank; interviewees described both banks, but the opposite-bank reports were not field-confirmed. A separate two-month habituation study of two groups found changes in resting, foraging and space use associated with observer exposure, so the observation process itself matters when interpreting behavior."
+          },
+          "sourceIds": [
+            "tirira2025",
+            "vicente2021"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Leontocebus lagonotus (Jiménez de la Espada, 1870)",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/3T6RF",
+          "scope": {
+            "zh": "固定名录中的接受名、作者、等级和分类父链；不提供生物学正文。",
+            "en": "Pinned checklist identity, authorship, rank and parent links; not biological evidence."
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": "Mammal Diversity Database v2.5 — Saguinus lagonotus",
+          "url": "https://www.mammaldiversity.org/taxon/1000815/",
+          "scope": {
+            "zh": "本地 MDD v2.5 源记录使用 Saguinus lagonotus，置于 Saguinus 属、Leontocebus 亚属，并提供英文显示名 “Red-mantled Saddle-back Tamarin”；该记录与固定 COL26.8 ID 的交叉联接仍未命中，不能仅凭同一词尾改写分类身份。",
+            "en": "The local MDD v2.5 source row uses Saguinus lagonotus under genus Saguinus and subgenus Leontocebus, with the English display name “Red-mantled Saddle-back Tamarin”. Its join to the pinned COL26.8 ID is unmatched; a shared epithet alone is not used to rewrite taxonomic identity."
+          }
+        },
+        {
+          "id": "matauschek2011",
+          "title": "Matauschek, Roos & Heymann (2011) — Mitochondrial phylogeny of tamarins with taxonomic and biogeographic implications for the S. nigricollis species group",
+          "url": "https://doi.org/10.1002/ajpa.21445",
+          "scope": {
+            "zh": "线粒体细胞色素 b 与 D-loop 分析，样本主要来自秘鲁野生狨猴粪便；支持多个 nigricollis 类群谱系作为独立种的分类假说，不单独解决属级名称采用。",
+            "en": "Mitochondrial cytochrome-b and D-loop analysis, using mainly fecal samples from wild Peruvian tamarins; supports species-level hypotheses for several nigricollis-group lineages but does not alone settle genus-level naming."
+          }
+        },
+        {
+          "id": "garbino2018",
+          "title": "Garbino & Martins-Junior (2018) — Phenotypic evolution in marmoset and tamarin monkeys and a revised genus-level classification",
+          "url": "https://doi.org/10.1016/j.ympev.2017.10.002",
+          "scope": {
+            "zh": "结合遗传、骨骼、毛色与发声资料提出 Callitrichinae 分类方案；该方案把 Leontocebus 置于 Saguinus 的亚属层级，代表与 COL26.8 不同的属级处理。",
+            "en": "Combines genetic, osteological, pelage and vocal evidence in a Callitrichinae classification that treats Leontocebus as a subgenus of Saguinus, a genus-level treatment differing from pinned COL26.8."
+          }
+        },
+        {
+          "id": "delatorre2017",
+          "title": "De la Torre (2017) — Distribution and demography of Leontocebus spp. in Amazonian Ecuador",
+          "url": "https://doi.org/10.37002/biodiversidadebrasileira.v7i2.647",
+          "scope": {
+            "zh": "1989–2014 年 23 个厄瓜多尔亚马逊地点的一至两日调查；种群估计仅来自其中八处地点，适用于局地记录与方法范围说明，不是全分布区普查。",
+            "en": "One- to two-day surveys at 23 Ecuadorian Amazon sites from 1989 to 2014; population estimates came from only eight sites and are local records, not a full-range census."
+          }
+        },
+        {
+          "id": "tirira2025",
+          "title": "Tirira & Aguilar (2025) — Primate records in the Amazonian lowlands of the Morona River basin, Ecuador",
+          "url": "https://doi.org/10.15381/rpb.v32i2.29640",
+          "scope": {
+            "zh": "2019–2024 年 Morona 河流域观察与访谈记录；直接观察的 L. lagonotus 均在河流东南侧，访谈所称另一岸记录未获现场确认。",
+            "en": "Observations and interviews in the Morona basin from 2019 to 2024; direct L. lagonotus observations were on the southeast bank, while interview reports from the opposite bank were not field-confirmed."
+          }
+        },
+        {
+          "id": "vicente2021",
+          "title": "Vicente-Alonso, Sánchez-Sánchez & Álvarez Solas (2021) — Systematizing habituation in wild Leontocebus lagonotus",
+          "url": "https://doi.org/10.1007/s10329-020-00877-4",
+          "scope": {
+            "zh": "厄瓜多尔亚马逊两个野生群体、两个月的习惯化观察；记录了观察者在场时行为与空间使用变化，不代表全种固定行为。",
+            "en": "Two wild groups in the Ecuadorian Amazon followed for two months during habituation; documents behavior and space-use changes with observer exposure, not fixed species-wide behavior."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "COL26.8 的接受名与 ID 固定保留；MDD v2.5 源记录使用 Saguinus 属、Leontocebus 亚属，两个本地快照间的交叉联接未命中。河岸观察、访谈和局地密度分别按各自地点、年份和方法报告，不推成全种分布或丰度。本双语页尚未外审。 尚未经过外部领域专家评审。",
+        "en": "The COL26.8 accepted name and ID are retained. The MDD v2.5 source row uses Saguinus with Leontocebus as a subgenus, and the local cross-snapshot join is unmatched. Bank-side observations, interviews and local density estimates remain tied to their sites, years and methods, not generalized to a full range or abundance. This bilingual page has not received external expert review. This page has not been externally expert-reviewed."
+      }
+    },
+    {
+      "colId": "3T6RH",
+      "scientificName": "Leontocebus leucogenys (Gray, 1866)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "zh": "安第斯鞍背狨",
+        "en": "Andean Saddle-back Tamarin"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-10-01",
+      "sections": [
+        {
+          "topic": "overview",
+          "text": {
+            "zh": "COL26.8 接受名为 *Leontocebus leucogenys*。Matauschek 等（2011）以主要来自野外粪便的线粒体序列检验鞍背狨类群，支持 leucogenys 作为独立分类单元；后续不同名录对它的属级组合并不一致。",
+            "en": "COL26.8 accepts *Leontocebus leucogenys*. Matauschek et al. (2011) used mitochondrial sequences, mainly from wild fecal samples, to test saddle-back lineages and supported leucogenys as a distinct taxon; later authorities differ in its genus-level combination."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "matauschek2011",
+            "garbino2018"
+          ]
+        },
+        {
+          "topic": "fieldStudy",
+          "text": {
+            "zh": "Göbel 与 Heymann（2018）在秘鲁 Panguana 私人保护地开展首轮系统灵长类调查。该物种在 35.7 公顷观察区中比随机预期更常出现在林隙或林隙边缘；这里的“偏好”仅指该保护地、该样区和该次调查。论文记录的群体大小也来自局地观察，不应作为全种固定参数。",
+            "en": "Göbel and Heymann (2018) conducted the first systematic primate survey at Peru’s Panguana private reserve. Within a 35.7-ha observation area, this species was encountered around or within gaps more often than expected by chance; that pattern describes this reserve, area and survey only. Group sizes in the paper are likewise local observations, not fixed species-wide values."
+          },
+          "sourceIds": [
+            "gobel2018"
+          ]
+        },
+        {
+          "topic": "classification",
+          "text": {
+            "zh": "本地 MDD v2.5 源记录使用 *Saguinus leucogenys*，并把 Leontocebus 置于亚属层级；该记录与 COL26.8 的 *Leontocebus leucogenys* ID 未精确联接。本页保留固定 COL 身份，不从词尾相同推断跨名录映射。",
+            "en": "The local MDD v2.5 source row uses *Saguinus leucogenys* and places Leontocebus at subgenus rank; it has no exact join to the COL26.8 *Leontocebus leucogenys* ID. This page retains the pinned COL identity and does not infer a cross-list mapping from the shared epithet."
+          },
+          "sourceIds": [
+            "mdd_name",
+            "garbino2018"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Leontocebus leucogenys (Gray, 1866)",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/3T6RH",
+          "scope": {
+            "zh": "固定名录中的接受名、作者、等级和分类父链；不提供生物学正文。",
+            "en": "Pinned checklist identity, authorship, rank and parent links; not biological evidence."
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": "Mammal Diversity Database v2.5 — Saguinus leucogenys",
+          "url": "https://www.mammaldiversity.org/taxon/1000816/",
+          "scope": {
+            "zh": "本地 MDD v2.5 源记录使用 Saguinus leucogenys，置于 Saguinus 属、Leontocebus 亚属，并提供英文显示名 “Andean Saddle-back Tamarin”；该记录与固定 COL26.8 ID 的交叉联接仍未命中，不能仅凭同一词尾改写分类身份。",
+            "en": "The local MDD v2.5 source row uses Saguinus leucogenys under genus Saguinus and subgenus Leontocebus, with the English display name “Andean Saddle-back Tamarin”. Its join to the pinned COL26.8 ID is unmatched; a shared epithet alone is not used to rewrite taxonomic identity."
+          }
+        },
+        {
+          "id": "matauschek2011",
+          "title": "Matauschek, Roos & Heymann (2011) — Mitochondrial phylogeny of tamarins with taxonomic and biogeographic implications for the S. nigricollis species group",
+          "url": "https://doi.org/10.1002/ajpa.21445",
+          "scope": {
+            "zh": "线粒体细胞色素 b 与 D-loop 分析，样本主要来自秘鲁野生狨猴粪便；支持多个 nigricollis 类群谱系作为独立种的分类假说，不单独解决属级名称采用。",
+            "en": "Mitochondrial cytochrome-b and D-loop analysis, using mainly fecal samples from wild Peruvian tamarins; supports species-level hypotheses for several nigricollis-group lineages but does not alone settle genus-level naming."
+          }
+        },
+        {
+          "id": "garbino2018",
+          "title": "Garbino & Martins-Junior (2018) — Phenotypic evolution in marmoset and tamarin monkeys and a revised genus-level classification",
+          "url": "https://doi.org/10.1016/j.ympev.2017.10.002",
+          "scope": {
+            "zh": "结合遗传、骨骼、毛色与发声资料提出 Callitrichinae 分类方案；该方案把 Leontocebus 置于 Saguinus 的亚属层级，代表与 COL26.8 不同的属级处理。",
+            "en": "Combines genetic, osteological, pelage and vocal evidence in a Callitrichinae classification that treats Leontocebus as a subgenus of Saguinus, a genus-level treatment differing from pinned COL26.8."
+          }
+        },
+        {
+          "id": "gobel2018",
+          "title": "Göbel & Heymann (2018) — Ecological observations on the primates of Panguana, Peruvian Amazonia",
+          "url": "https://doi.org/10.62015/np.2018.v24.97",
+          "scope": {
+            "zh": "秘鲁 Panguana 私人保护地的一处系统调查；L. leucogenys 的观察与 35.7 公顷样地、林隙占地及群体记录有关，不外推到全分布区。",
+            "en": "A systematic survey at one Peruvian Panguana reserve; L. leucogenys observations relate to a 35.7-ha observation area, its gaps and local groups, not the full range."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "Panguana 是单一地点的生态观察；林隙关联不是对全分布区栖地偏好的估计。COL 与 MDD 的属级处理和 ID 联接分开记录；页面不据此解决分类争议。尚未外审。 尚未经过外部领域专家评审。",
+        "en": "Panguana is a single-site ecological survey; its gap association is not a range-wide habitat-preference estimate. COL and MDD genus-level treatments and ID joins are recorded separately; this page does not resolve the taxonomic debate. Not externally reviewed. This page has not been externally expert-reviewed."
+      }
+    },
+    {
+      "colId": "3T6RL",
+      "scientificName": "Leontocebus nigrifrons (I. Geoffroy Saint-Hilaire, 1850)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "zh": "杰弗罗瓦鞍背狨",
+        "en": "Geoffroy's Saddle-back Tamarin"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-10-01",
+      "sections": [
+        {
+          "topic": "overview",
+          "text": {
+            "zh": "COL26.8 列为 *Leontocebus nigrifrons*；较早生态论文使用 *Saguinus nigrifrons*，分类重审则把它与其他黑颈鞍背狨谱系分开。秘鲁 Quebrada Blanco 的两群观察提供了本页主要的取食与栖地材料。",
+            "en": "COL26.8 lists *Leontocebus nigrifrons*; earlier ecological papers used *Saguinus nigrifrons*, while taxonomic work separated it among the nigricollis-group lineages. A two-group study at Quebrada Blanco, Peru, supplies the main foraging and habitat evidence on this page."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "matauschek2011",
+            "garbino2018"
+          ]
+        },
+        {
+          "topic": "fieldStudy",
+          "text": {
+            "zh": "Kupsch 等（2014）在 2011 年雨季至旱季过渡期观察两群：一群可进入约十年生的次生林，另一群仅使用原生林。两群分别记录 202 与 191 小时。可进入次生林的群体在该林型捕获的猎物较小、捕获成功率较低，尽管夜间调查到的直翅目数量较多；研究结论受一个地点和两群样本限制。",
+            "en": "Kupsch et al. (2014) observed two groups during the 2011 wet-to-dry-season transition: one could enter roughly ten-year-old secondary forest and the other used primary forest only. The groups were recorded for 202 and 191 hours. In secondary forest, the access group captured smaller prey with lower success despite higher nocturnal Orthoptera counts; the result is limited to one site and two groups."
+          },
+          "sourceIds": [
+            "kupsch2014"
+          ]
+        },
+        {
+          "topic": "foraging",
+          "text": {
+            "zh": "这项研究比较的是同一物种两个群体的森林使用条件，而非“次生林对物种总体有害”的试验。作者观察到次生林内猎物搜索基质种类较少，捕捉率较低；栖地结构、时段、猎物可及性与混群关系都留在解释范围内。",
+            "en": "The study compared forest access for two groups of the same species; it was not a test that secondary forest is harmful to the species overall. Researchers observed fewer prey-search substrates and lower capture success in secondary forest, while habitat structure, time of day, prey accessibility and mixed-species association remain part of the interpretation."
+          },
+          "sourceIds": [
+            "kupsch2014"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Leontocebus nigrifrons (I. Geoffroy Saint-Hilaire, 1850)",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/3T6RL",
+          "scope": {
+            "zh": "固定名录中的接受名、作者、等级和分类父链；不提供生物学正文。",
+            "en": "Pinned checklist identity, authorship, rank and parent links; not biological evidence."
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": "Mammal Diversity Database v2.5 — Saguinus nigrifrons",
+          "url": "https://www.mammaldiversity.org/taxon/1000823/",
+          "scope": {
+            "zh": "本地 MDD v2.5 源记录使用 Saguinus nigrifrons，置于 Saguinus 属、Leontocebus 亚属，并提供英文显示名 “Geoffroy's Saddle-back Tamarin”；该记录与固定 COL26.8 ID 的交叉联接仍未命中，不能仅凭同一词尾改写分类身份。",
+            "en": "The local MDD v2.5 source row uses Saguinus nigrifrons under genus Saguinus and subgenus Leontocebus, with the English display name “Geoffroy's Saddle-back Tamarin”. Its join to the pinned COL26.8 ID is unmatched; a shared epithet alone is not used to rewrite taxonomic identity."
+          }
+        },
+        {
+          "id": "matauschek2011",
+          "title": "Matauschek, Roos & Heymann (2011) — Mitochondrial phylogeny of tamarins with taxonomic and biogeographic implications for the S. nigricollis species group",
+          "url": "https://doi.org/10.1002/ajpa.21445",
+          "scope": {
+            "zh": "线粒体细胞色素 b 与 D-loop 分析，样本主要来自秘鲁野生狨猴粪便；支持多个 nigricollis 类群谱系作为独立种的分类假说，不单独解决属级名称采用。",
+            "en": "Mitochondrial cytochrome-b and D-loop analysis, using mainly fecal samples from wild Peruvian tamarins; supports species-level hypotheses for several nigricollis-group lineages but does not alone settle genus-level naming."
+          }
+        },
+        {
+          "id": "garbino2018",
+          "title": "Garbino & Martins-Junior (2018) — Phenotypic evolution in marmoset and tamarin monkeys and a revised genus-level classification",
+          "url": "https://doi.org/10.1016/j.ympev.2017.10.002",
+          "scope": {
+            "zh": "结合遗传、骨骼、毛色与发声资料提出 Callitrichinae 分类方案；该方案把 Leontocebus 置于 Saguinus 的亚属层级，代表与 COL26.8 不同的属级处理。",
+            "en": "Combines genetic, osteological, pelage and vocal evidence in a Callitrichinae classification that treats Leontocebus as a subgenus of Saguinus, a genus-level treatment differing from pinned COL26.8."
+          }
+        },
+        {
+          "id": "kupsch2014",
+          "title": "Kupsch, Waltert & Heymann (2014) — Forest type affects prey foraging of saddleback tamarins, Saguinus nigrifrons",
+          "url": "https://doi.org/10.1007/s10329-014-0416-4",
+          "scope": {
+            "zh": "2011 年秘鲁东北部 Quebrada Blanco 两群比较，一群可进入十年生次生林、另一群只用原生林；猎物捕获结论受地点、季节和两群样本限制。",
+            "en": "A 2011 comparison of two groups at Quebrada Blanco in northeastern Peru: one had access to ten-year-old secondary forest and one used primary forest; prey-capture findings are limited to those groups, site and season."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "生态结论来自 Quebrada Blanco 一处地点、2011 年一个季节窗口和两群动物；旧属名与固定 COL 属名均保留在来源上下文中。MDD v2.5 的 Saguinus 亚属记录与 COL ID 未精确联接。尚未外审。 尚未经过外部领域专家评审。",
+        "en": "Ecological findings come from one Quebrada Blanco site, one 2011 seasonal window and two groups. Both the older genus name and the pinned COL combination are retained in source context. The MDD v2.5 Saguinus subgenus row has no exact join to the COL ID. Not externally reviewed. This page has not been externally expert-reviewed."
+      }
+    },
+    {
+      "colId": "3T6RP",
+      "scientificName": "Leontocebus tripartitus (A. Milne-Edwards, 1878)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "zh": "金披肩鞍背狨",
+        "en": "Golden-mantled Saddle-back Tamarin"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-10-01",
+      "sections": [
+        {
+          "topic": "overview",
+          "text": {
+            "zh": "COL26.8 接受 *Leontocebus tripartitus*。分子分类研究和区域记录支持将其作为鞍背狨类群中的独立分类单元；De la Torre（2017）在厄瓜多尔记录其分布于 Napo 河以南的多个地点，地点记录不是连续边界图。",
+            "en": "COL26.8 accepts *Leontocebus tripartitus*. Molecular taxonomy and regional records support treating it as a distinct saddle-back taxon; De la Torre (2017) recorded it at multiple Ecuadorian sites south of the Napo River, not as a continuous range boundary."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "matauschek2011",
+            "garbino2018"
+          ]
+        },
+        {
+          "topic": "fieldStudy",
+          "text": {
+            "zh": "2017 年论文汇总了 1989–2014 年 23 个厄瓜多尔亚马逊地点的一至两日调查。取食与密度记录集中在 Yasuní 的两个样区：Tiputini 记录 30 天、约 100 公顷内四群；Tambococha 记录 6 天、约 50 公顷内两群。两处估算密度均为每平方公里 20 只，平均群体大小约 5 只；样区与观察日不同，不能把相同估值解释为两地生态完全相同。",
+            "en": "The 2017 paper assembled one- to two-day surveys at 23 Ecuadorian Amazon sites from 1989 to 2014. Group and density records came from two Yasuní areas: four groups in about 100 ha at Tiputini over 30 sampling days, and two groups in about 50 ha at Tambococha over six days. Both estimates were 20 individuals per km² with mean groups of about five; the sites and sampling effort differed, so equal estimates do not imply identical ecology."
+          },
+          "sourceIds": [
+            "delatorre2017"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Leontocebus tripartitus (A. Milne-Edwards, 1878)",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/3T6RP",
+          "scope": {
+            "zh": "固定名录中的接受名、作者、等级和分类父链；不提供生物学正文。",
+            "en": "Pinned checklist identity, authorship, rank and parent links; not biological evidence."
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": "Mammal Diversity Database v2.5 — Saguinus tripartitus",
+          "url": "https://www.mammaldiversity.org/taxon/1000825/",
+          "scope": {
+            "zh": "本地 MDD v2.5 源记录使用 Saguinus tripartitus，置于 Saguinus 属、Leontocebus 亚属，并提供英文显示名 “Golden-mantled Saddle-back Tamarin”；该记录与固定 COL26.8 ID 的交叉联接仍未命中，不能仅凭同一词尾改写分类身份。",
+            "en": "The local MDD v2.5 source row uses Saguinus tripartitus under genus Saguinus and subgenus Leontocebus, with the English display name “Golden-mantled Saddle-back Tamarin”. Its join to the pinned COL26.8 ID is unmatched; a shared epithet alone is not used to rewrite taxonomic identity."
+          }
+        },
+        {
+          "id": "matauschek2011",
+          "title": "Matauschek, Roos & Heymann (2011) — Mitochondrial phylogeny of tamarins with taxonomic and biogeographic implications for the S. nigricollis species group",
+          "url": "https://doi.org/10.1002/ajpa.21445",
+          "scope": {
+            "zh": "线粒体细胞色素 b 与 D-loop 分析，样本主要来自秘鲁野生狨猴粪便；支持多个 nigricollis 类群谱系作为独立种的分类假说，不单独解决属级名称采用。",
+            "en": "Mitochondrial cytochrome-b and D-loop analysis, using mainly fecal samples from wild Peruvian tamarins; supports species-level hypotheses for several nigricollis-group lineages but does not alone settle genus-level naming."
+          }
+        },
+        {
+          "id": "garbino2018",
+          "title": "Garbino & Martins-Junior (2018) — Phenotypic evolution in marmoset and tamarin monkeys and a revised genus-level classification",
+          "url": "https://doi.org/10.1016/j.ympev.2017.10.002",
+          "scope": {
+            "zh": "结合遗传、骨骼、毛色与发声资料提出 Callitrichinae 分类方案；该方案把 Leontocebus 置于 Saguinus 的亚属层级，代表与 COL26.8 不同的属级处理。",
+            "en": "Combines genetic, osteological, pelage and vocal evidence in a Callitrichinae classification that treats Leontocebus as a subgenus of Saguinus, a genus-level treatment differing from pinned COL26.8."
+          }
+        },
+        {
+          "id": "delatorre2017",
+          "title": "De la Torre (2017) — Distribution and demography of Leontocebus spp. in Amazonian Ecuador",
+          "url": "https://doi.org/10.37002/biodiversidadebrasileira.v7i2.647",
+          "scope": {
+            "zh": "1989–2014 年 23 个厄瓜多尔亚马逊地点的一至两日调查；种群估计仅来自其中八处地点，适用于局地记录与方法范围说明，不是全分布区普查。",
+            "en": "One- to two-day surveys at 23 Ecuadorian Amazon sites from 1989 to 2014; population estimates came from only eight sites and are local records, not a full-range census."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "地点与群体密度来自厄瓜多尔局地调查，23 处地点的分布调查多数仅一至两日；不据此估算整个分布区的数量、趋势或保育状态。MDD v2.5 使用 Saguinus 亚属组合，COL26.8 ID 保持固定。尚未外审。 尚未经过外部领域专家评审。",
+        "en": "Site and group-density data come from local Ecuadorian surveys, and most of the 23 distribution sites were surveyed for only one or two days. They do not estimate range-wide abundance, trend or conservation status. MDD v2.5 uses a Saguinus subgeneric combination; the COL26.8 ID remains fixed. Not externally reviewed. This page has not been externally expert-reviewed."
+      }
+    },
+    {
+      "colId": "6P8JH",
+      "scientificName": "Leontocebus illigeri (Pucheran, 1845)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "zh": "伊利格鞍背狨",
+        "en": "Illiger's Saddle-back Tamarin"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-10-01",
+      "sections": [
+        {
+          "topic": "overview",
+          "text": {
+            "zh": "COL26.8 接受 *Leontocebus illigeri*。早期野外论文使用 *Saguinus fuscicollis illigeri*；Matauschek 等（2011）的线粒体分析把 illigeri 纳入建议提升为种级的 nigricollis 类群。属级名称在后续分类处理中仍有差异。",
+            "en": "COL26.8 accepts *Leontocebus illigeri*. Earlier field work used *Saguinus fuscicollis illigeri*; Matauschek et al. (2011) included illigeri among nigricollis-group taxa supported at species level. Later classifications still differ in genus-level treatment."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "matauschek2011",
+            "garbino2018"
+          ]
+        },
+        {
+          "topic": "fieldStudy",
+          "text": {
+            "zh": "Soini（1987）在秘鲁东北部 Río Pacaya 间歇观察一群五年，定量资料主要取自 1979–1982 年。该群常见规模为 6 只、观察范围 2–10 只，使用约 15.7–16.5 公顷家域；活动记录以昆虫觅食和低层林活动为主。研究是单群自然史，不是现代多地点物种平均值。",
+            "en": "Soini (1987) followed one troop intermittently for five years at Río Pacaya in northeastern Peru, with quantitative data mainly from 1979 to 1982. Modal troop size was six (observed range 2–10), and the troop used a 15.7–16.5 ha home range; activity records emphasized insect foraging and lower forest strata. This is single-troop natural history, not a modern multi-site species average."
+          },
+          "sourceIds": [
+            "soini1987"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Leontocebus illigeri (Pucheran, 1845)",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/6P8JH",
+          "scope": {
+            "zh": "固定名录中的接受名、作者、等级和分类父链；不提供生物学正文。",
+            "en": "Pinned checklist identity, authorship, rank and parent links; not biological evidence."
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": "Mammal Diversity Database v2.5 — Saguinus illigeri",
+          "url": "https://www.mammaldiversity.org/taxon/1000811/",
+          "scope": {
+            "zh": "本地 MDD v2.5 源记录使用 Saguinus illigeri，置于 Saguinus 属、Leontocebus 亚属，并提供英文显示名 “Illiger's Saddle-back Tamarin”；该记录与固定 COL26.8 ID 的交叉联接仍未命中，不能仅凭同一词尾改写分类身份。",
+            "en": "The local MDD v2.5 source row uses Saguinus illigeri under genus Saguinus and subgenus Leontocebus, with the English display name “Illiger's Saddle-back Tamarin”. Its join to the pinned COL26.8 ID is unmatched; a shared epithet alone is not used to rewrite taxonomic identity."
+          }
+        },
+        {
+          "id": "matauschek2011",
+          "title": "Matauschek, Roos & Heymann (2011) — Mitochondrial phylogeny of tamarins with taxonomic and biogeographic implications for the S. nigricollis species group",
+          "url": "https://doi.org/10.1002/ajpa.21445",
+          "scope": {
+            "zh": "线粒体细胞色素 b 与 D-loop 分析，样本主要来自秘鲁野生狨猴粪便；支持多个 nigricollis 类群谱系作为独立种的分类假说，不单独解决属级名称采用。",
+            "en": "Mitochondrial cytochrome-b and D-loop analysis, using mainly fecal samples from wild Peruvian tamarins; supports species-level hypotheses for several nigricollis-group lineages but does not alone settle genus-level naming."
+          }
+        },
+        {
+          "id": "garbino2018",
+          "title": "Garbino & Martins-Junior (2018) — Phenotypic evolution in marmoset and tamarin monkeys and a revised genus-level classification",
+          "url": "https://doi.org/10.1016/j.ympev.2017.10.002",
+          "scope": {
+            "zh": "结合遗传、骨骼、毛色与发声资料提出 Callitrichinae 分类方案；该方案把 Leontocebus 置于 Saguinus 的亚属层级，代表与 COL26.8 不同的属级处理。",
+            "en": "Combines genetic, osteological, pelage and vocal evidence in a Callitrichinae classification that treats Leontocebus as a subgenus of Saguinus, a genus-level treatment differing from pinned COL26.8."
+          }
+        },
+        {
+          "id": "soini1987",
+          "title": "Soini (1987) — Ecology of the saddle-back tamarin Saguinus fuscicollis illigeri on the Río Pacaya, northeastern Peru",
+          "url": "https://doi.org/10.1159/000156305",
+          "scope": {
+            "zh": "Río Pacaya 一群动物的间歇五年观察，定量资料主要取自 1979–1982 年；不是跨地点种群比较。",
+            "en": "Intermittent observations of one troop over five years at Río Pacaya, with quantitative data mainly from 1979 to 1982; not a multi-site population comparison."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "主要生态资料来自一群动物的旧属名研究；群体规模、家域和取食比例均不能外推成现今全种参数。MDD v2.5 使用 Saguinus 亚属组合，COL26.8 身份保留。尚未外审。 尚未经过外部领域专家评审。",
+        "en": "The main ecological source is an older study of one troop under a former genus combination; troop size, home range and feeding proportions are not generalized to the whole species. MDD v2.5 uses a Saguinus subgeneric combination; the COL26.8 identity is retained. Not externally reviewed. This page has not been externally expert-reviewed."
+      }
+    },
+    {
+      "colId": "6P8JK",
+      "scientificName": "Leontocebus cruzlimai (Hershkovitz, 1966)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "zh": "克鲁兹利马鞍背狨",
+        "en": "Cruz Lima's Saddle-back Tamarin"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-10-01",
+      "sections": [
+        {
+          "topic": "overview",
+          "text": {
+            "zh": "Hershkovitz 最初依据 Cruz Lima 1945 年图画描述此分类单元；画中动物来自上 Purus 河，但原始标本遗失且具体来源不明。Sampaio 等（2015）重述形态，并根据形态、线粒体资料与毛色提出种级处理及新模式标本。",
+            "en": "Hershkovitz originally described this taxon from a 1945 illustration by Cruz Lima; the animals were said to come from the upper Purus, but the specimen was lost and its precise provenance was unknown. Sampaio et al. (2015) redescribed its morphology and proposed species status and a neotype using morphology, mitochondrial evidence and pelage."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_name",
+            "sampaio2015",
+            "garbino2018"
+          ]
+        },
+        {
+          "topic": "fieldStudy",
+          "text": {
+            "zh": "2011 年在巴西亚马孙 Purus National Forest 的三个地点沿三条 5 公里样线调查，合计步行 120 公里，记录 13 群、73 只；另于 2012–2013 年在邻近地点观察到群体。论文将样线计数写为每 10 公里约 6.08 只，但它不是经探测概率校正的种群密度；分布边界仍不清楚。",
+            "en": "In 2011, three 5-km transects at three sites in Brazil’s Purus National Forest covered 120 km and recorded 13 groups and 73 animals; groups were also seen at nearby localities in 2012–2013. The paper reports about 6.08 animals per 10 km, but this transect count is not a detection-corrected population density, and range limits remain unclear."
+          },
+          "sourceIds": [
+            "sampaio2015"
+          ]
+        },
+        {
+          "topic": "classification",
+          "text": {
+            "zh": "新模式标本把原来无精确地点的图画名称锚定在 Cujuri 社区附近、Rio Inauini 左岸的保护林内。本页沿用 COL26.8 的作者年和 ID；MDD v2.5 将同一词尾列为 *Saguinus cruzlimai*，交叉联接仍未命中，不单靠词尾重标身份。",
+            "en": "The neotype anchors the formerly imprecise illustration-based name near Cujuri on the left bank of Rio Inauini within the forest reserve. This page follows the COL26.8 authorship year and ID; MDD v2.5 lists the shared epithet as *Saguinus cruzlimai*, but its crosswalk is unmatched, so the epithet alone is not used to relabel identity."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_name",
+            "sampaio2015"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Leontocebus cruzlimai (Hershkovitz, 1966)",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/6P8JK",
+          "scope": {
+            "zh": "固定名录中的接受名、作者、等级和分类父链；不提供生物学正文。",
+            "en": "Pinned checklist identity, authorship, rank and parent links; not biological evidence."
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": "Mammal Diversity Database v2.5 — Saguinus cruzlimai",
+          "url": "https://www.mammaldiversity.org/taxon/1000807/",
+          "scope": {
+            "zh": "本地 MDD v2.5 源记录使用 Saguinus cruzlimai，置于 Saguinus 属、Leontocebus 亚属，并提供英文显示名 “Cruz Lima's Saddle-back Tamarin”；该记录与固定 COL26.8 ID 的交叉联接仍未命中，不能仅凭同一词尾改写分类身份。",
+            "en": "The local MDD v2.5 source row uses Saguinus cruzlimai under genus Saguinus and subgenus Leontocebus, with the English display name “Cruz Lima's Saddle-back Tamarin”. Its join to the pinned COL26.8 ID is unmatched; a shared epithet alone is not used to rewrite taxonomic identity."
+          }
+        },
+        {
+          "id": "sampaio2015",
+          "title": "Sampaio et al. (2015) — Re-description and assessment of the taxonomic status of Saguinus fuscicollis cruzlimai",
+          "url": "https://doi.org/10.1007/s10329-015-0458-2",
+          "scope": {
+            "zh": "Purus National Forest 的 2011 年样线调查、后续地点观察及形态和分子分类比较；所报样线记录不是密度估计，完整边界仍未确定。",
+            "en": "2011 transect surveys, later locality observations and morphological and molecular taxonomic comparisons in Purus National Forest; transect counts are not a density estimate and complete boundaries remain unresolved."
+          }
+        },
+        {
+          "id": "garbino2018",
+          "title": "Garbino & Martins-Junior (2018) — Phenotypic evolution in marmoset and tamarin monkeys and a revised genus-level classification",
+          "url": "https://doi.org/10.1016/j.ympev.2017.10.002",
+          "scope": {
+            "zh": "结合遗传、骨骼、毛色与发声资料提出 Callitrichinae 分类方案；该方案把 Leontocebus 置于 Saguinus 的亚属层级，代表与 COL26.8 不同的属级处理。",
+            "en": "Combines genetic, osteological, pelage and vocal evidence in a Callitrichinae classification that treats Leontocebus as a subgenus of Saguinus, a genus-level treatment differing from pinned COL26.8."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "样线计数不能当作密度；原命名依据曾缺少可核查模式标本，2015 年新模式标本解决了地点锚定但没有提供完整分布边界或多地点生态。MDD v2.5 与 COL26.8 的属级组合和联接状态分开记录。尚未外审。 尚未经过外部领域专家评审。",
+        "en": "Transect counts are not density estimates. The original name lacked a verifiable type specimen; the 2015 neotype anchors a locality but does not establish complete range limits or multi-site ecology. MDD v2.5 and COL26.8 genus combinations and join status are recorded separately. Not externally reviewed. This page has not been externally expert-reviewed."
       }
     }
   ]
