@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-36 已追加到 PR #499；Windows 增量 CI 发现 catalogue-profiles.json 的 release checksum 过期，现已刷新 data/manifest.json，并通过同一 base-to-head 增量验证，下一步推送该修复并检查新 CI。计入本批后灵长类读者页预计为 210/530（58 个 dossier-backed、152 个 profile-only），320 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍需排查。主龙现生页面为鳄目 27/27、Aves 9/11,044，共 36/11,071；化石工作分母为 4,664，P4-8 后化石读者页为 7/4,664。后续继续扩展灵长类与主龙页面、类群介绍和阅读路径。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石来源分母分开统计，也不把跨目录同名条目直接去重。
+下一执行动作：P3-36 已追加到 PR #499；代码头 `41c3dfd` 的 Windows、Android、iOS、verify 四类检查均已通过。按 530 个 COL26.8 接受种 ID 重算，P3-36 后灵长类读者页为 206/530（54 个 dossier-backed、152 个 profile-only），324 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍需排查。主龙现生页面为鳄目 27/27、Aves 9/11,044，共 36/11,071；化石工作分母为 4,664，P4-8 后化石读者页为 7/4,664。接下来继续扩展灵长类和主龙页面、类群介绍及阅读路径。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石来源分母分开统计，也不把跨目录同名条目直接去重。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -171,7 +171,7 @@ P0 两篇样板已通过 PR #474 合并；P1 七个核心现生种已通过 PR #
 按同一检索条件分支统计：Dinosauria 3,537（包含 1,743 个 PBDB 非现生 Aves 条目），据此相减的非鸟恐龙为 1,794；Pterosauria 276；Crocodylomorpha 672。子类群包含与交叠，不相加为新总数。鸟类属于现生恐龙谱系，因此 PBDB 的已灭绝 Aves 会出现在 Dinosauria 查询中；现生鸟类仍按 COL26.8 的 Aves 分母单列。PBDB 与 COL 现生鸟类、鳄目接受种有 70 个精确双名匹配；名称相同不证明分类概念相同，完成概念级对照前不从两边总数中相减。
 PBDB 数字为 2026-09-30 检索快照；更新覆盖率前按相同参数重取。
 
-P3-1 至 P3-5 五批共 48 个目录档案写入双语导读；P3-6 为 Alouatta caraya（COL ID `C5Q8`）新增一条由 CC BY 4.0 原始研究支持的局部导读，P3-7 为 Colobus angolensis（COL ID `X6R3`）新增一条根据罗文佐里安哥拉疣猴单一野外研究撰写的局部导读，P3-8 为 Leontopithecus chrysomelas（COL ID `3T6ZR`）新增一条依据南巴伊亚一支焦点群体的原始观察与模型撰写的局部导读；P3-9 为 Callicebus nigrifrons（`PMLQ`）、Callithrix aurita（`68VNQ`）和 Sapajus nigritus（`6XJW7`）新增三条基于同一篇 CC BY 研究的局地破碎化导读，并保留来源对验证模型次级变量的内部不一致；这六条新增档案均未建立 dossier。P3-10 为北豚尾猴 Macaca leonina（`3WWNK`）新增一条关于泰国单一野生群体习惯化的双语研究导读；文章结果部分称近 10 个月达到完全阶段，而摘要与结论称接近 13 个月，页面保留这一时间口径差异。该页没有新增 dossier。P3-11 为狮尾猴 Macaca silenus（COL ID 3WWP6）新增一条双语读者导读，整合既有西高止山脉线粒体 DNA 研究、一群猴的旱季行为研究和四群猴的 bioRxiv v1 预印本；不将局地取样外推为全种规律。未新建 dossier。P3-12 为橄榄狒狒 Papio anubis（COL ID 6TM9B）新增基于 2018 年 Alu 插入研究的双语导读；4,645 个指示位点仅是每种两只个体的 12 只样本面板计数。该页复用既有 dossier 和来源审计，没有扩大其样本推断。与 P1 七个现生核心页对照后，发现 P3-3 的 Macaca radiata（COL ID 3WWP2）重复。P3-13 为普通狨 Callithrix jacchus（COL ID 697NS）补充目录详情研究导读，依据六只圈养成年个体、八组研究者配对 dyad；P3-14 为恒河猴 Macaca mulatta（COL ID 3WWNQ）补充目录详情数量遗传导读，依据圣地亚哥岛管理种群的形态与谱系分析。两种均已有 P1 静态核心页与 dossier，本批目录详情复用已审计来源，不增加按 COL ID 去重的种级覆盖。P3-15 为白面卷尾猴 Cebus imitator（COL ID RYZL）新增基于 Melin et al.（2022）的双语研究导读：三种同域灵长类在 2,107 个取食行为段落中留下 26,094 次果实探索记录；白面卷尾猴在比较样本中最常用手触果实，果实比例介于另两种之间，但嗅闻少于两者。结论限于共享食物与局地群体，不外推为全种食谱或感觉机制；原文 CC BY 4.0，复用既有 Ateles 与 Alouatta 来源审计。P3-20 后唯一有读者导读的接受种为 72/530（静态核心页与目录详情按 COL ID 去重）；其中 57 个 dossier-backed 种、15 个 profile-only 种，458 个接受种仍无读者页，476 个种未命中 dossier 索引。早期灵长类化石 7 篇已由本地静态页构建确认可打开；以上均不表示完成专家评审或完整科学档案。
+P3-1 至 P3-5 五批共 48 个目录档案写入双语导读；P3-6 为 Alouatta caraya（COL ID `C5Q8`）新增一条由 CC BY 4.0 原始研究支持的局部导读，P3-7 为 Colobus angolensis（COL ID `X6R3`）新增一条根据罗文佐里安哥拉疣猴单一野外研究撰写的局部导读，P3-8 为 Leontopithecus chrysomelas（COL ID `3T6ZR`）新增一条依据南巴伊亚一支焦点群体的原始观察与模型撰写的局部导读；P3-9 为 Callicebus nigrifrons（`PMLQ`）、Callithrix aurita（`68VNQ`）和 Sapajus nigritus（`6XJW7`）新增三条基于同一篇 CC BY 研究的局地破碎化导读，并保留来源对验证模型次级变量的内部不一致；这六条新增档案均未建立 dossier。P3-10 为北豚尾猴 Macaca leonina（`3WWNK`）新增一条关于泰国单一野生群体习惯化的双语研究导读；文章结果部分称近 10 个月达到完全阶段，而摘要与结论称接近 13 个月，页面保留这一时间口径差异。该页没有新增 dossier。P3-11 为狮尾猴 Macaca silenus（COL ID 3WWP6）新增一条双语读者导读，整合既有西高止山脉线粒体 DNA 研究、一群猴的旱季行为研究和四群猴的 bioRxiv v1 预印本；不将局地取样外推为全种规律。未新建 dossier。P3-12 为橄榄狒狒 Papio anubis（COL ID 6TM9B）新增基于 2018 年 Alu 插入研究的双语导读；4,645 个指示位点仅是每种两只个体的 12 只样本面板计数。该页复用既有 dossier 和来源审计，没有扩大其样本推断。与 P1 七个现生核心页对照后，发现 P3-3 的 Macaca radiata（COL ID 3WWP2）重复。P3-13 为普通狨 Callithrix jacchus（COL ID 697NS）补充目录详情研究导读，依据六只圈养成年个体、八组研究者配对 dyad；P3-14 为恒河猴 Macaca mulatta（COL ID 3WWNQ）补充目录详情数量遗传导读，依据圣地亚哥岛管理种群的形态与谱系分析。两种均已有 P1 静态核心页与 dossier，本批目录详情复用已审计来源，不增加按 COL ID 去重的种级覆盖。P3-15 为白面卷尾猴 Cebus imitator（COL ID RYZL）新增基于 Melin et al.（2022）的双语研究导读：三种同域灵长类在 2,107 个取食行为段落中留下 26,094 次果实探索记录；白面卷尾猴在比较样本中最常用手触果实，果实比例介于另两种之间，但嗅闻少于两者。结论限于共享食物与局地群体，不外推为全种食谱或感觉机制；原文 CC BY 4.0，复用既有 Ateles 与 Alouatta 来源审计。P3-20 后唯一有读者导读的接受种为 68/530（静态核心页与目录详情按 COL ID 去重）；其中 53 个 dossier-backed 种、15 个 profile-only 种，462 个接受种仍无读者页，476 个种未命中 dossier 索引。早期灵长类化石 7 篇已由本地静态页构建确认可打开；以上均不表示完成专家评审或完整科学档案。
 
 P4 现生主龙扩充批次开始前，已有 `CatalogueKnowledge` 物种级导读 2 条：`Alligator mississippiensis`（COL `BTRB`，Crocodylia）和 `Parus major`（COL `75SVV`，Aves）。当时覆盖鳄目 1/27、鸟类 1/11,044，共 2/11,071；两页均为局部研究导读，不是完整种志或 dossier。已有 15 条恐龙、鳄形类/鸟类、海生爬行动物/翼龙包级 profiles 及三条类群阅读路径是精选入口，不是全种覆盖。
 
@@ -201,7 +201,7 @@ P3-20 为倭蜂猴 Xanthonycticebus pygmaeus（COL ID BTCRT）新增一条局地
 | 4K5XW Plecturocebus baptista | 在传统 P. hoffmannsi 范围内的记录及待检验分类边界 | 单一地区记录，不能界定全种范围 | 已写 / 已写；尚未经过外部领域专家评审 | P3-21 |
 | 4TZJW Saimiri collinsi | Jamanxim、Tapajós 和 Teles Pires 河流区域记录及约 600 公里向西扩展估算 | 区域范围推断，不是完整调查或数量估计 | 已写 / 已写；尚未经过外部领域专家评审 | P3-21 |
 
-本批来源审计记录 7 个接受种的 COL26.8 名称、作者、等级与 Primates 父链，并标记来源分类概念与当前名录不匹配的部分。与 PR #494 已有两条新增灵长类页合并计算，合并后预计为 79/530（57 个 dossier-backed、22 个 profile-only），仍有 451 个接受种无种级读者页；本批没有新建 dossier。
+本批来源审计记录 7 个接受种的 COL26.8 名称、作者、等级与 Primates 父链，并标记来源分类概念与当前名录不匹配的部分。与 PR #494 已有两条新增灵长类页合并计算，合并后预计为 75/530（53 个 dossier-backed、22 个 profile-only），仍有 455 个接受种无种级读者页；本批没有新建 dossier。
 
 ### P3-22 巴西亚马逊砍伐前沿补充记录导读（PR #494）
 
@@ -224,7 +224,7 @@ P3-20 为倭蜂猴 Xanthonycticebus pygmaeus（COL ID BTCRT）新增一条局地
 | 4TZK4 Saimiri ustus | S. ustus | Amazonas、Rondônia、Mato Grosso 多地观察及鸣声记录 | 多地点仍不等于完整范围或丰度普查 | 双语已写；尚未经过外部领域专家评审 / P3-22 |
 | 6XJVY Sapajus apella | S. a. apella | Pará、Amazonas、Rondônia、Mato Grosso 多市镇记录 | 按 COL26.8 亚种父链归入接受种；不外推为全域普查 | 双语已写；尚未经过外部领域专家评审 / P3-22 |
 
-与 P3-21 的 7 页及 PR #494 已有两条新增灵长类页合计，合并后预计为 93/530（57 个 dossier-backed、36 个 profile-only），437 个接受种仍无种级读者页。本批没有新建 dossier；来源审计分别记录原文与补充材料的来源范围、许可陈述和组成部分权利提示。
+与 P3-21 的 7 页及 PR #494 已有两条新增灵长类页合计，合并后预计为 89/530（53 个 dossier-backed、36 个 profile-only），441 个接受种仍无种级读者页。本批没有新建 dossier；来源审计分别记录原文与补充材料的来源范围、许可陈述和组成部分权利提示。
 
 ### P3-23 黑猩猩研究导读（PR #494）
 
@@ -234,7 +234,7 @@ P3-20 为倭蜂猴 Xanthonycticebus pygmaeus（COL ID BTCRT）新增一条局地
 | --- | --- | --- | --- |
 | 4C92G Pan troglodytes | Bossou 栖地及取食地点；Gombe 雌性成熟年龄；Taï 三群体 1,460 次棍棒使用事件中的握法发育模型 | Bryson-Morrison et al. 2017（CC BY 4.0）；Walker et al. 2018（CC BY-NC-ND 4.0）；Malherbe et al. 2024（CC BY 4.0）。分开报告三个地点和任务，不外推全域 | 双语已写；复用既有 dossier；尚未经过外部领域专家评审 / P3-23 |
 
-PR #494 灵长类合并后预计为 94/530（58 个 dossier-backed、36 个 profile-only），436 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍待排查。
+PR #494 灵长类合并后预计为 90/530（54 个 dossier-backed、36 个 profile-only），440 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍待排查。
 
 ### P4-1 现生鳄类咬合力导读（PR #485，2026-09-29 合并）
 
@@ -333,7 +333,7 @@ PR #494 于 2026-09-29 合并后，P4-6 现生主龙种级导读确认为鳄目 
 
 吼猴属导读比较了研究表中五种成员的区域范围图相交数（A. belzebul 3、A. discolor 2、A. macconnelli 2、A. nigerrima 2、A. seniculus 5）；它是区域研究导读，不是完整属级自然史介绍。该批未新建 dossier，也未经过外部领域专家评审。
 
-P3-24 后灵长类接受种读者页合计为 105/530（58 个 dossier-backed、47 个 profile-only），425 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍待继续排查。
+P3-24 后灵长类接受种读者页合计为 101/530（54 个 dossier-backed、47 个 profile-only），429 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍待继续排查。
 
 
 
@@ -354,7 +354,7 @@ P3-24 后灵长类接受种读者页合计为 105/530（58 个 dossier-backed、
 
 Mico 属导读汇总表内八种与 Tapajós（5）、Rondônia（4）、Xingu（1）的相交数；M. argentatus 与 M. melanurus 各跨两个区，故为 10 个种—间河区相交。该矩阵摘录不是属级完整分布综述，也未新建 dossier。
 
-P3-25 后灵长类接受种读者页合计为 113/530（58 个 dossier-backed、55 个 profile-only），417 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍待继续排查。
+P3-25 后灵长类接受种读者页合计为 109/530（54 个 dossier-backed、55 个 profile-only），421 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍待继续排查。
 
 
 ### P3-26 亚马逊 Pithecia、Saguinus、Callimico 与 Cebuella 范围图导读
@@ -385,7 +385,7 @@ P3-25 后灵长类接受种读者页合计为 113/530（58 个 dossier-backed、
 | 3FFQ Callimico Miranda Ribeiro, 1912 | Inambari 1；Napo 1 | 1 行 | 属级矩阵导读；不外推为完整范围 | P3-26 |
 | 62JTZ Cebuella Gray, 1866 | Inambari 1；Jaú 1；Napo 1 | 2 行 | 属级矩阵导读；不外推为完整范围 | P3-26 |
 
-P3-26 未新建物种 dossier，页面均尚未经过外部领域专家评审。该批后灵长类接受种读者页合计为 125/530（58 个 dossier-backed、67 个 profile-only），405 个接受种仍无种级读者页；476 个接受种仍未命中 dossier 索引。
+P3-26 未新建物种 dossier，页面均尚未经过外部领域专家评审。该批后灵长类接受种读者页合计为 121/530（54 个 dossier-backed、67 个 profile-only），409 个接受种仍无种级读者页；476 个接受种仍未命中 dossier 索引。
 
 ### P3-27 亚马逊五属灵长类范围图导读
 
@@ -406,7 +406,7 @@ P3-26 未新建物种 dossier，页面均尚未经过外部领域专家评审。
 | 4K5XZ Plecturocebus caligatus (Wagner, 1842) | 1：Inambari | Chestnut-bellied Titi | COL26.8 目录详情 `#/registry?release=COL26.8&id=4K5XZ` | 双语区域范围图导读；非完整种志 | P3-27 |
 | 4K5Y4 Plecturocebus cupreus (Spix, 1823) | 1：Inambari | Coppery Titi | COL26.8 目录详情 `#/registry?release=COL26.8&id=4K5Y4` | 双语区域范围图导读；非完整种志 | P3-27 |
 
-本批 12 个种级分类单元均未在当前 dossier 分片中命中；新增为 profile-only 导读，没有新建 dossier，且尚未经过外部领域专家评审。合并后灵长类接受种读者页为 137/530（58 个 dossier-backed、79 个 profile-only），393 个接受种仍无种级读者页；476 个接受种仍未命中 dossier 索引。该批页面只覆盖这篇研究的区域范围图结果，不作为综合物种介绍计数。
+本批 12 个种级分类单元均未在当前 dossier 分片中命中；新增为 profile-only 导读，没有新建 dossier，且尚未经过外部领域专家评审。合并后灵长类接受种读者页为 133/530（54 个 dossier-backed、79 个 profile-only），397 个接受种仍无种级读者页；476 个接受种仍未命中 dossier 索引。该批页面只覆盖这篇研究的区域范围图结果，不作为综合物种介绍计数。
 
 
 ### P3-28 亚马逊范围图余项与苏拉威西猕猴实地研究导读（2026-09-30）
@@ -428,7 +428,7 @@ P3-26 未新建物种 dossier，页面均尚未经过外部领域专家评审。
 
 属级矩阵导读：Cebus 的 S1 六个表列分类单元共 8 个物种—间河区相交项；Leontocebus 的四个表列分类单元共 5 项。两页只比较该研究列出的区域范围图覆盖，不表示属内全部接受种、点位存在、丰度或过河行为。本批未新建 dossier，未把历史局部研究标为现今种群状态，也未经过外部领域专家评审。
 
-P3-28 后，灵长类种级读者页为 147/530（58 个 dossier-backed、89 个 profile-only）；383 个接受种仍无种级读者页，476 个接受种仍未命中 dossier 索引。五个亚马逊页和五个猕猴页均为 profile-only 导读；属级页另计。
+P3-28 后，灵长类种级读者页为 143/530（54 个 dossier-backed、89 个 profile-only）；387 个接受种仍无种级读者页，476 个接受种仍未命中 dossier 索引。五个亚马逊页和五个猕猴页均为 profile-only 导读；属级页另计。
 
 
 ### P3-29 八种 Macaca 局部野外研究导读（2026-09-30）
@@ -446,7 +446,7 @@ P3-28 后，灵长类种级读者页为 147/530（58 个 dossier-backed、89 个
 | 3WWP9 Macaca thibetana | 黄山一群猕猴的睡眠地点和取食斑块（2020–2021） | 单群行为研究，不外推至全种 | COL26.8 目录详情 `#/registry?release=COL26.8&id=3WWP9` | P3-29 |
 | 72R6T Macaca assamensis | Dampa Tiger Reserve 样线与海拔记录（2012–2014） | 保护区核心区的局部生态密度 | COL26.8 目录详情 `#/registry?release=COL26.8&id=72R6T` | P3-29 |
 
-P3-29 未新建物种 dossier；当前分支计入本批后，灵长类接受种读者页预计为 155/530（58 个 dossier-backed、97 个 profile-only），375 个接受种仍无种级读者页。该计数待 PR #499 的 CI 与评审完成后再视为合并覆盖；未命中 dossier 索引的 476 个接受种仍需排查。
+P3-29 未新建物种 dossier；当前分支计入本批后，灵长类接受种读者页预计为 151/530（54 个 dossier-backed、97 个 profile-only），379 个接受种仍无种级读者页。该计数待 PR #499 的 CI 与评审完成后再视为合并覆盖；未命中 dossier 索引的 476 个接受种仍需排查。
 
 ### P3-30 八种 Lepilemur 系统发育导读（2026-09-30）
 
@@ -463,7 +463,7 @@ P3-29 未新建物种 dossier；当前分支计入本批后，灵长类接受种
 | 6PBRY Lepilemur ruficaudatus | Kirindy、Andramasay、Anjahamena 三地理群体 | 论文提出的拆分未作为 COL26.8 接受分类 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PBRY` | P3-30 |
 | 6PC47 Lepilemur septentrionalis | 与 L. ankaranensis 的染色体及线粒体种界比较 | 不以染色体相似度单独决定分类 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PC47` | P3-30 |
 
-P3-30 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 163/530（58 个 dossier-backed、105 个 profile-only），367 个接受种仍无种级读者页。该计数待 PR #499 的 CI 与评审完成后再视为合并覆盖；未命中 dossier 索引的 476 个接受种仍需排查。
+P3-30 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 159/530（54 个 dossier-backed、105 个 profile-only），371 个接受种仍无种级读者页。该计数待 PR #499 的 CI 与评审完成后再视为合并覆盖；未命中 dossier 索引的 476 个接受种仍需排查。
 
 ### P3-31 十一种新描述 Lepilemur 形态与分布导读（2026-09-30）
 
@@ -483,7 +483,7 @@ P3-30 未新建物种 dossier；计入本批后灵长类接受种读者页预计
 | 6PBRW Lepilemur tymerlachsoni | Nosy Be、Lokobe 样本和背部条纹 | 局部取样，未形成现今岛屿普查 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PBRW` | P3-31 |
 | 6PBS8 Lepilemur wrighti | Kalambatritra 样本及可能的性别色型差异 | 色型观察仅五只个体，范围待查 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6PBS8` | P3-31 |
 
-P3-31 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 174/530（58 个 dossier-backed、116 个 profile-only），356 个接受种仍无种级读者页。该计数待 PR #499 的 CI 与评审完成后再视为合并覆盖；未命中 dossier 索引的 476 个接受种仍需排查。
+P3-31 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 170/530（54 个 dossier-backed、116 个 profile-only），360 个接受种仍无种级读者页。该计数待 PR #499 的 CI 与评审完成后再视为合并覆盖；未命中 dossier 索引的 476 个接受种仍需排查。
 
 
 ### P3-32 六种剩余 sportive lemur 读者页（2026-09-30）
@@ -499,7 +499,7 @@ P3-31 未新建物种 dossier；计入本批后灵长类接受种读者页预计
 | 6PC3Z Lepilemur otto | Ambodimahabibo 样本形态与局部记录 | 完整分布未确定；2007 生物学描述与 2017 命名更正分开引用 | COL26.8 目录详情 #/registry?release=COL26.8&id=6PC3Z | P3-32 |
 | 6PC49 Lepilemur randrianasoloi | Andramasay/Bemaraha 样本及体型比较 | Tsiribihina、Manambaho、Mahavavy du Sud 边界均按假说表述；采用 2017 拼写 | COL26.8 目录详情 #/registry?release=COL26.8&id=6PC49 | P3-32 |
 
-P3-32 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 180/530（58 个 dossier-backed、122 个 profile-only），350 个接受种仍无种级读者页。MDD 映射内的 Lepilemur 物种页已补齐，但全体灵长类仍有 350 个缺页；待 PR #499 的 CI 与评审完成后再视为合并覆盖。476 个未命中 dossier 索引的接受种仍需逐项排查。
+P3-32 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 176/530（54 个 dossier-backed、122 个 profile-only），354 个接受种仍无种级读者页。MDD 映射内的 Lepilemur 物种页已补齐，但全体灵长类仍有 354 个缺页；待 PR #499 的 CI 与评审完成后再视为合并覆盖。476 个未命中 dossier 索引的接受种仍需逐项排查。
 
 ### P3-33 五种 Plecturocebus 局地分布与分类导读（2026-09-30）
 
@@ -513,7 +513,7 @@ P3-32 未新建物种 dossier；计入本批后灵长类接受种读者页预计
 | 4K5YH Plecturocebus toppini | 2013 Atalaya 周边六周调查、样线与舟行调查量、重新评估历史标本 | 作者指出北界未明、河界为工作假说；不外推现今数量 | COL26.8 目录详情 #/registry?release=COL26.8&id=4K5YH | P3-33 |
 | 4K5YJ Plecturocebus urubambensis | 2015 描述中的局地标本形态和 Río Urubamba 流域记录 | 调查短，作者提出的河流间范围是工作假说而非屏障检验 | COL26.8 目录详情 #/registry?release=COL26.8&id=4K5YJ | P3-33 |
 
-P3-33 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 185/530（58 个 dossier-backed、127 个 profile-only），345 个接受种仍无种级读者页。以上数量待 PR #499 的 CI 与评审完成、并入主线后再计为正式覆盖；476 个未命中 dossier 索引的接受种仍需逐项排查。主龙现生种级导读维持鳄目 27/27、Aves 9/11,044；本批未扩充主龙。
+P3-33 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 181/530（54 个 dossier-backed、127 个 profile-only），349 个接受种仍无种级读者页。以上数量待 PR #499 的 CI 与评审完成、并入主线后再计为正式覆盖；476 个未命中 dossier 索引的接受种仍需逐项排查。主龙现生种级导读维持鳄目 27/27、Aves 9/11,044；本批未扩充主龙。
 
 
 ### P3-34 五种 Plecturocebus 行为、声学监测与地方记录导读（2026-09-30）
@@ -528,7 +528,7 @@ P3-33 未新建物种 dossier；计入本批后灵长类接受种读者页预计
 | 4K5YF Plecturocebus pallescens | 巴拉圭部门级标本与可靠记录、查科湿润地带和水道关联 | 旧标本较多、记录等级不一；仅总结巴拉圭材料 | COL26.8 目录详情 #/registry?release=COL26.8&id=4K5YF | P3-34 |
 | 4K5YK Plecturocebus vieirai | 巴西州级分布、生境及城市片林单群食性观察 | 食性证据仅来自一群；不采用评估中不一致的范围面积值 | COL26.8 目录详情 #/registry?release=COL26.8&id=4K5YK | P3-34 |
 
-P3-34 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 190/530（58 个 dossier-backed、132 个 profile-only），340 个接受种仍无种级读者页。以上数量待 PR #499 的 CI 与评审完成、并入主线后再计为正式覆盖；476 个未命中 dossier 索引的接受种仍需逐项排查。主龙现生种级导读维持鳄目 27/27、Aves 9/11,044；本批未扩充主龙。
+P3-34 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 186/530（54 个 dossier-backed、132 个 profile-only），344 个接受种仍无种级读者页。以上数量待 PR #499 的 CI 与评审完成、并入主线后再计为正式覆盖；476 个未命中 dossier 索引的接受种仍需逐项排查。主龙现生种级导读维持鳄目 27/27、Aves 9/11,044；本批未扩充主龙。
 
 ### P3-35 八种 Microcebus 鼠狐猴与属级阅读导读（2026-09-30）
 
@@ -545,7 +545,7 @@ P3-34 未新建物种 dossier；计入本批后灵长类接受种读者页预计
 | 42SBM *M. gerpi* | Sahafina 低地雨林海拔、三种线粒体基因与形态证据 | 单个研究区；不推断全岛范围或现今保育状态 | COL26.8 目录详情 #/registry?release=COL26.8&id=42SBM | P3-35 |
 | 42SBR *M. macarthurii* | 东北部低地样点及与近缘未命名谱系的形态比较 | 区域比较不能代替完整分布或自然史；普通名与 MDD 显示名不同 | COL26.8 目录详情 #/registry?release=COL26.8&id=42SBR | P3-35 |
 
-P3-35 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 198/530（58 个 dossier-backed、140 个 profile-only），332 个接受种仍无种级读者页。以上数量待 PR #499 的 CI 与评审完成、并入主线后再计为正式覆盖；476 个未命中 dossier 索引的接受种仍需逐项排查。属级介绍和阅读顺序可由 COL 属级目录页读取，但不计入 530 个种级分母。主龙现生种级导读维持鳄目 27/27、Aves 9/11,044；本批未扩充主龙。
+P3-35 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 194/530（54 个 dossier-backed、140 个 profile-only），336 个接受种仍无种级读者页。以上数量待 PR #499 的 CI 与评审完成、并入主线后再计为正式覆盖；476 个未命中 dossier 索引的接受种仍需逐项排查。属级介绍和阅读顺序可由 COL 属级目录页读取，但不计入 530 个种级分母。主龙现生种级导读维持鳄目 27/27、Aves 9/11,044；本批未扩充主龙。
 
 ### P3-36 十二种 Microcebus 鼠狐猴证据页与属级阅读路径扩展（2026-09-30）
 
@@ -566,7 +566,7 @@ P3-35 未新建物种 dossier；计入本批后灵长类接受种读者页预计
 | 73FMR *M. margotmarshae* | Antafondro Classified Forest 约 134 m 的类型地点 | 类型点不代表现今分布或森林状况 | COL26.8 目录详情 `#/registry?release=COL26.8&id=73FMR` | P3-36 |
 | 84JFB *M. jonahi* | Ambavala 类型地点、五处低地林样点和局部豆蔻植被观察 | 捕获和植被记录限于东北研究区 | COL26.8 目录详情 `#/registry?release=COL26.8&id=84JFB` | P3-36 |
 
-P3-36 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 210/530（58 个 dossier-backed、152 个 profile-only），320 个接受种仍无种级读者页。计数待 PR #499 的局部校验、CI 与评审完成并入主线后再计为正式覆盖；476 个未命中 dossier 索引的接受种仍需逐项排查。属级介绍与阅读顺序不计入种级分母。主龙现生和化石工作分母及覆盖计数维持 P4-7/P4-8 所列口径。
+P3-36 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 206/530（54 个 dossier-backed、152 个 profile-only），324 个接受种仍无种级读者页。计数待 PR #499 的局部校验、CI 与评审完成并入主线后再计为正式覆盖；476 个未命中 dossier 索引的接受种仍需逐项排查。属级介绍与阅读顺序不计入种级分母。主龙现生和化石工作分母及覆盖计数维持 P4-7/P4-8 所列口径。
 
 ### P4-7 主龙现生与化石工作分母冻结（2026-09-30）
 
