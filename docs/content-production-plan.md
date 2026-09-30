@@ -765,3 +765,5 @@ P4-8 后，化石物种页为非鸟恐龙 5/1,794、化石 Aves 1/1,743、Crocod
 八种均没有 species dossier；本批只新增 profile-only 页面，没有改变外部专家评审状态。英文普通名参考固定 MDD 交叉表，中文普通名为编辑译名。完成本批后，灵长类接受种读者页为 273/530（54 个 dossier-backed、219 个 profile-only），257 个接受种仍无种级读者页；476 个仍未命中 dossier 索引。各页均为研究导读，不代表完整自然史或现状评估。
 
 来源：[Banks, Ellis & Wright (2007)](https://doi.org/10.1111/j.1469-1795.2007.00102.x)、[Josoa et al. (2023)](https://ijpsat.org/index.php/ijpsat/article/view/5477)、[Quéméré et al. (2013)](https://doi.org/10.1371/journal.pone.0058971)、[Irwin (2008)](https://doi.org/10.1007/s10764-007-9222-9)、[Mills et al. (2021)](https://doi.org/10.1159/000520710)、[Gerber et al. (2012)](https://doi.org/10.1007/s10764-011-9576-x)、[Greene et al. (2021)](https://doi.org/10.1186/s42523-021-00093-5) 与 [Salmona et al. (2014)](https://doi.org/10.1896/052.028.0122)。
+聚焦校验通过：目录档案测试（2/2）、registry 漂移检查与验证、packages、claims、translations、provenance、review 和 16 分片物种证据队列检查。
+增量验证从 f5134486f3c53e929ce92fd7dbe4d2a9a69e8e32 到 c4ecc000c23e572eb895e43543d027032998bb77 通过：8 个数据文件变化，3 个解析，6 个大型 JSONL 仅校验哈希，共 29,598,323 字节。
