@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-62 已为固定名录中的六个 Sapajus 种级 ID 新增双语来源页，并为真实 COL 属级 ID 643NG 增加选择性阅读路径。灵长类现有 399/530 个种级页面记录（54 个 dossier-backed、345 个 profile-only）；131 个仍无种级页面，476 个仍未命中 dossier 索引。S. cucullatus 与 C. minusculus、P. lulindicus、A. jorgehernandezi 仅有分类史或局地材料，不计首轮综合内容标准；因此 395 个接受种达到首轮标准、135 个尚未达到。继续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-63 已为固定名录中的四个 Eulemur 种级 ID 新增双语来源页，并扩展真实 COL 属级 ID 4FSW 的阅读路径，连接全部十二个固定种级 ID。灵长类现有 403/530 个种级页面记录（54 个 dossier-backed、349 个 profile-only）；127 个仍无种级页面，476 个仍未命中 dossier 索引。C. minusculus、P. lulindicus、A. jorgehernandezi 与 S. cucullatus 仅有分类史或局地材料，不计首轮综合内容标准；因此 399 个接受种达到首轮标准、131 个尚未达到。继续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1126,3 +1126,21 @@ Sapajus 阅读路径先比较 *S. robustus* 与 *S. cay* 在栽培地/破碎林�
 来源：[Martins et al. (2022)](https://doi.org/10.1002/ajp.23413)、[Smith et al. (2022)](https://doi.org/10.1163/14219980-20210407)、[Flesher (2015)](https://doi.org/10.1007/s10764-015-9884-7)、[Lins & Ferreira (2019)](https://doi.org/10.1007/s10329-018-0698-z)、[Teixeira et al. (2024)](https://doi.org/10.1002/ajp.23665)、[IUCN 2020 assessment](https://doi.org/10.2305/IUCN.UK.2020-3.RLTS.T160945956A160945959.en) 与 [Rylands & Mittermeier (2024)](https://doi.org/10.3389/fcosc.2024.1391303)。
 
 依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影与清单。
+
+
+## P3-63 四种 Eulemur 狐猴属来源页与完整固定名录阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 / 分类差异 | 批次 |
+|---|---|---|---|
+| 6H9ML *E. albifrons* | Masoala Andranobe 2017—2022 年样线调查；Cyclone Eliakim 前后密度记录 | 密度不下降的结论限于该地点与时期；空隙关联是大型日行性狐猴的群组结果 | P3-63 |
+| 6H9NY *E. mongoz* | 马达加斯加与科摩罗的有日期调查、样线密度与栖地适宜性模型 | 模型规模不是当前普查；调查跨 2012 与 2017—2019 年 | P3-63 |
+| 6H9NZ *E. rufifrons* | Kirindy 四个群体的移动协调与生态季节性 | 2008—2010 年、1,898 小时观察；局地群体结果 | P3-63 |
+| 6GXNW *E. rufus* | Ranomafana 两篇历史野外研究中的食性、活动与栖地利用 | 论文使用 *E. fulvus rufus*；MDD 说明历史上包含 *E. rufifrons*，不直接外推至现行边界 | P3-63 |
+
+本批新增四个双语 profile-only 种级页面，并扩展 COL 属级 ID 4FSW 的阅读路径，使固定 COL26.8 名录的十二个 *Eulemur* 种级 ID 全部相连。四个新增 ID 在本地证据队列中均无 dossier；未新增 dossier 或外部领域专家评审。批次后灵长类种级页面为 403/530（54 个 dossier-backed、349 个 profile-only），127 个固定接受种仍无种级页；399 个达到首轮综合内容标准，131 个尚未达到，其中四项仍属来源不足或分类史页；476 个仍未命中 dossier 索引。英文普通名参考 Mammal Diversity Database v2.5，中文名为编辑译名。
+
+Eulemur 阅读路径先比较 *E. collaris* 沿海林片研究与 Ankarana 的 *E. coronatus*、*E. sanfordi* 调查，再阅读 *E. macaco* 活动节律、*E. fulvus* 视觉生态、*E. rubriventer* 种子传播、*E. cinereiceps* 的 Manombo 观察和 *E. flavifrons* 的 Ankarafa 计数；新增部分连接 *E. albifrons* 的气旋前后调查、*E. mongoz* 的历史调查与模型、*E. rufifrons* 的群体移动，以及使用旧名称的 *E. rufus* 野外记录。研究年代、地点和命名不同，不将其合并成属级生态画像。
+
+来源：[Andriamahaihavana 等（2026），*E. albifrons* 与 Masoala 林冠空隙调查](https://doi.org/10.1002/ajp.70180)；[Ibouroi 等（2022），*E. mongoz* 栖地与种群模型](https://doi.org/10.1007/s10764-022-00318-7)；[Pyritz、Kappeler 与 Fichtel（2011），*E. rufifrons* 群体移动](https://doi.org/10.1007/s10764-011-9549-0)；[Overdorff（1993），历史组合名 *E. fulvus rufus* 的食性](https://doi.org/10.1007/BF02192188)；[Overdorff（1996），*E. rubriventer* 与历史组合名 *E. fulvus rufus* 的活动和栖地利用](https://doi.org/10.1002/(SICI)1098-2345(1996)40:4%3C327::AID-AJP3%3E3.0.CO;2-%23)；[MDD v2.5：Rufous Brown Lemur](https://www.mammaldiversity.org/taxon/1001001/)。
+
+依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影与数据清单。
