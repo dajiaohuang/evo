@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-74 从剩余 75 个无种级页面的 COL26.8 接受种中盘点来源较充分的候选，继续以可读双语种页和属级阅读路径成批扩展。灵长类现有 455/530 个种级页面记录（54 个 dossier-backed、401 个 profile-only）；75 个仍无种级页面，476 个仍未命中 dossier 索引。438 个接受种达到首轮内容标准，17 个来源不足、分类证据有限或归属未决。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-75 从剩余 71 个无种级页面的 COL26.8 接受种中盘点来源较充分的候选，继续以可读双语种页和属级阅读路径成批扩展。灵长类现有 459/530 个种级页面记录（54 个 dossier-backed、405 个 profile-only）；71 个仍无种级页面，476 个仍未命中 dossier 索引。442 个接受种达到首轮内容标准，17 个来源不足、分类证据有限或归属未决。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1325,3 +1325,20 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 来源：[Printes、Rylands 与 Bicca-Marques（2011），金发蒂蒂猴东北部地点调查](https://doi.org/10.1017/S0030605311000111)；[金发蒂蒂猴回放计数与 N-mixture 模型研究（2020）](https://pubmed.ncbi.nlm.nih.gov/32227513/)；[Souza-Alves（2010），科英布拉蒂蒂猴单群饮食研究](https://ri.ufs.br/handle/riufs/24667)；[Marques 等（2013），Sergipe 新地点调查](https://www.biotaxa.org/cl/article/viewFile/14948/15580)；[Heiduck（2002），Bahia 东南部林型与资源使用研究](https://doi.org/10.1017/S0030605302000200)；[Fernandes（2013），城市公园面罩蒂蒂猴研究](https://repositorio.ufes.br/server/api/core/bitstreams/98ba94b5-ca33-4045-8f8e-1e216e41accb/content)；[da Silva 等（2015），黑额蒂蒂猴林片调查与模型比较](https://doi.org/10.1371/journal.pone.0114025)。
 
 依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影、注册表和数据清单。
+
+## P3-74 四种 Colobus 疣猴属页面与属级阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 | 批次 |
+|---|---|---|---|
+| 5ZMRQ C. polykomos | 塞拉利昂 Tiwai Island 高林与 5–12 年弃耕演替林的相对利用比较 | 单一岛屿研究，不推断其他地区或所有次生林年龄 | P3-74 |
+| X6RZ C. satanas | 喀麦隆单群 11 个月取食/移动研究；Lopé 1995–1996 年历史密度估算 | 群体样本与保护区历史数据分开；不代表当前数量或不同采伐强度 | P3-74 |
+| 84HZ4 C. caudatus | 肯尼亚 Kitobo 与 Loitokitok 快速调查；来源汇编的历史范围资料 | 原文使用 C. guereza caudatus 亚种等级，明确与固定 COL 种级身份的差异；不作当前状态判断 | P3-74 |
+| VQ4FT C. congoensis | 2026 年 Likweli 新种描述；2018–2022 年 114 次观察、群体与林型记录 | 已知范围和论文调查覆盖内的描述性结果，不作长期趋势或全域占域估计 | P3-74 |
+
+本批新增四个双语 profile-only 种级页面，并为真实 COL 属级 ID 3SG4 新增介绍与阅读路径，覆盖该属七个 COL26.8 接受种。页面按来源区分新种描述、单群生态、保护区历史估算、快速分布记录和局地栖地比较；MDD v2.5 精确联接只用于 C. polykomos 与 C. satanas 的普通名，其他 ID 不据未匹配结果作同物异名判断。英文普通名按精确联接记录或来源用名，中文普通名为编辑译名。本批未新建 dossier，也未经过外部领域专家评审。
+
+属级阅读顺序先读 Likweli 新种描述及其与 C. satanas 的比较，再分别读黑疣猴的喀麦隆单群研究与 Lopé 历史林地估算；随后读乞力马扎罗疣猴的肯尼亚记录并留意原文亚种等级，最后比较 C. polykomos 在 Tiwai 的两类林地。各研究的年代、地点、分类组合与样本单位不合并为全属统一结论。
+
+来源：[Dasilva（1994），Tiwai 林地利用研究](https://doi.org/10.1016/0006-3207(94)90173-2)；[McKey 与 Waterman（1982），Douala-Edea 单群研究](https://doi.org/10.1159/000156081)；[Brugière（1998），Lopé 黑疣猴调查](https://doi.org/10.1016/S0006-3207(98)00015-9)；[Butynski 与 de Jong（2015），乞力马扎罗疣猴记录](https://static1.1.sqspcdn.com/static/f/1200343/26725597/1449696826593/PC29_2015.pdf)；[Hart 等（2026），Likweli 新种描述](https://doi.org/10.1371/journal.pone.0349857)；[MDD C. polykomos](https://www.mammaldiversity.org/taxon/1000638/)；[MDD C. satanas](https://www.mammaldiversity.org/taxon/1000639/)。
+
+按照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影、注册表和数据清单。
