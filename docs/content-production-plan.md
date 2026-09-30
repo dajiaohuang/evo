@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-54 已为 Cercocebus 固定名录中的七个物种增加双语来源链接页，并建立真实 COL 属级 ID 3KZH 的阅读路径。灵长类现有 352/530 个种级页面记录（54 个 dossier-backed、298 个 profile-only）；P. minusculus 与 P. lulindicus 两页仍为 source-insufficient，不计入首轮正文达标数。因此 350 个接受种达到首轮内容标准，178 个仍无种级页面记录，476 个仍未命中 dossier 索引。新页面逐项保留调查地点、年代、方法和旧分类标签的边界。下一批继续补齐剩余灵长类，完成后回到主龙类；主龙类分母见本计划。纯内容变更不运行测试、内容/数据/增量校验或 CI。
+下一执行动作：P3-55 已为 Mico 固定名录中的七个剩余种级 ID 增加双语来源链接页，并扩展真实 COL 属级 ID 63B9H 的证据类型阅读路径。灵长类现有 359/530 个种级页面记录（54 个 dossier-backed、305 个 profile-only）；171 个仍无种级页面记录，476 个仍未命中 dossier 索引。P. minusculus 与 P. lulindicus 两页仍为 source-insufficient，因此 357 个接受种达到首轮内容标准，173 个尚未达到。新页区分历史观察、不同调查时期、范围图和有日期的国家评估；完成剩余灵长类后继续主龙类。计数待 PR #499 局部校验、评审与并入主线后再正式确认。纯内容变更不运行测试、内容/数据/增量校验或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -969,5 +969,25 @@ Pithecia 的分类处理在来源之间不一致：2019 年毛色比较把 *P. r
 本批新增七个 profile-only 物种页，并建立 COL 属级 ID 3KZH 的阅读路径。当前有 352/530 个种级页面记录（54 个 dossier-backed、298 个 profile-only）；178 个仍无种级页面记录，476 个仍未命中 dossier 索引。P. minusculus 与 P. lulindicus 仍为 source-insufficient，故 350 个接受种达到首轮内容标准，180 个尚未达到。七个物种的本地 dossier 队列均为 missing，introductorySummary 均为 absent；未新增 dossier 或外部领域专家评审。英文普通名参考 MDD v2.5，中文普通名为编辑译名。
 
 来源：[Paddock, Bruford & McCabe (2020)](https://doi.org/10.1002/ajp.23083)、[Quris (1975)](https://doi.org/10.3406/revec.1975.4894)、[Tibesar et al. (2026)](https://doi.org/10.3389/fevo.2026.1863007)、[Inogwabini & Thompson (2013)](https://doi.org/10.11609/JoTT.o3185.4069-75)、[Oguge, Karere & Kirathe (2004)](https://doi.org/10.1023/B:IJOP.0000019156.41782.53)、[Wieczkowski & Kinnaird (2008)](https://doi.org/10.1002/ajp.20495)、[Nolan et al. (2019)](https://chesterrep.openrepository.com/bitstream/10034/622149/4/Primate%20conservation%20manuscript_final_prepublication_version.pdf) 与 [Dolado, Cooke & Beltran (2016)](https://doi.org/10.1159/000449220)。
+
+依照 content-only 工作流，本批不运行测试、内容校验、数据校验、增量校验或 CI；仅为读者入口刷新运行时投影与数据清单。
+
+## P3-55 七种 Mico 绒猴来源页与属级证据阅读路径（2026-09-30）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 / 分类差异 | 批次 |
+|---|---|---|---|
+| 42MHX M. humilis | 两处矮绒猴新记录与长叫声分析 | 原文使用 Callibella humilis；两处记录不是完整范围或数量估计 | P3-55 |
+| 42MHY M. intermedius | Dardanelos 1978 年初步野外观察 | 历史组合名 Callithrix humeralifer intermedius；单地点、单时段 | P3-55 |
+| 42MJ3 M. marcai | 2012—2015 年 13 地点调查、距离抽样与森林损失情景 | 估计和情景均有日期；建议等级不当作当前重评 | P3-55 |
+| 42MJ4 M. mauesi | 2004 年野外行程的 8 条新增记录 | 7 条直接目击、1 条访谈；不推断当前连续分布 | P3-55 |
+| 42MJ8 M. saterei | ICMBio 2025 发布的巴西评估卡 | 评估日期为 2019-09-27；两种分布指标分开呈现 | P3-55 |
+| 6RGMY M. chrysoleucos | 2018 与 2023 年区域调查和范围更新 | 调查时段、地点、方法不同；范围记录不是数量趋势 | P3-55 |
+| BRBXZ M. schneideri | 2021 年形态、系统基因组和地点记录综合描述 | 结论限于研究样本与分析；无当前数量普查 | P3-55 |
+
+七个种级 ID 均属固定 COL26.8 分母；本地种级证据队列均显示 dossier missing、introductorySummary absent。新增七个 profile-only 页面，并扩展 COL 属级 ID 63B9H 的既有阅读路径；不新增 dossier 或外部领域专家评审。批次后预计为 359/530 个种级页面记录（54 个 dossier-backed、305 个 profile-only），171 个接受种仍无种级页面记录，476 个仍未命中 dossier 索引。P. minusculus 与 P. lulindicus 仍为 source-insufficient，故 357 个接受种达到首轮内容标准、173 个尚未达到。英文普通名参考 Mammal Diversity Database v2.5，中文普通名为编辑译名。
+
+Mico 阅读路径按证据类型串联范围图叠置、局地历史观察、不同年份的区域调查、有日期的国家评估和综合分类研究；不是完整属级目录、生态综合或系统发育树。Mico humilis 页面依 COL26.8 使用 Mico 组合，保留 2013 年文献的 Callibella humilis 原名；MDD 注记亦记录属级处理差异。
+
+来源：[Garbino, Silva & Davis (2013), M. humilis](https://doi.org/10.1007/s10329-013-0381-3)、[Rylands (1979), M. intermedius](https://www.scielo.br/j/aa/a/mnmJCbfQkn5v3p4PqCtLG7N/)、[Silva et al. (2020), M. marcai](https://doi.org/10.1017/S0030605318000303)、[Noronha et al. (2008), M. mauesi](https://doi.org/10.1896/044.015.0105)、[ICMBio SALVE (2025), M. saterei](https://doi.org/10.37002/salve.ficha.30173.2)、[Silva et al. (2018), M. chrysoleucos](https://doi.org/10.1007/s10329-018-0665-8)、[Costa-Araújo et al. (2023), M. chrysoleucos](https://doi.org/10.5194/pb-10-7-2023)、[Costa-Araújo et al. (2021), M. schneideri](https://doi.org/10.1038/s41598-021-93943-w)、MDD v2.5 [humilis](https://www.mammaldiversity.org/taxon/1000796/)、[intermedius](https://www.mammaldiversity.org/taxon/1000797/)、[marcai](https://www.mammaldiversity.org/taxon/1000799/)、[mauesi](https://www.mammaldiversity.org/taxon/1000800/)、[saterei](https://www.mammaldiversity.org/taxon/1000805/)、[chrysoleucos](https://www.mammaldiversity.org/taxon/1000793/) 与 [schneideri](https://www.mammaldiversity.org/taxon/1006579/)。
 
 依照 content-only 工作流，本批不运行测试、内容校验、数据校验、增量校验或 CI；仅为读者入口刷新运行时投影与数据清单。

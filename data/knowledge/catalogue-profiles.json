@@ -11296,11 +11296,19 @@
         {
           "topic": "overview",
           "text": {
-            "zh": "补充表 S1 列出的八个 Mico 种级条目中，范围图与塔帕若斯（Tapajós）相交 5 种、朗多尼亚（Rondônia）4 种、欣古（Xingu）1 种，共 10 个种—间河区相交；Mico argentatus 与 M. melanurus 各跨两个区。这个比较只概括该研究矩阵中的区域重叠，不代表 Mico 属全部成员的完整分布或种群数量。",
-            "en": "Among the eight Mico species listed in Supplementary Table S1, range maps overlap Tapajós for five, Rondônia for four and Xingu for one, for ten species-by-interfluve overlaps in total; Mico argentatus and M. melanurus each cross two areas. This comparison summarizes regional overlaps in that study matrix, not the complete distribution of every Mico species or population size."
+            "en": "Read this Mico guide by evidence type and study period. First, Mourthé et al. (2022) compared IUCN range-map overlaps across ten Amazonian interfluves; its supplement lists eight Mico species and ten species-by-interfluve overlaps, not point-level field confirmations. Then compare local studies: the 2018 and 2023 Mico chrysoleucos surveys in the middle Madeira and south-central Amazonia; 2004 field records for M. mauesi; Rylands' 1978 observations of M. intermedius at Dardanelos; the 2012–2015 Marmelos–Aripuanã survey of M. marcai; and the dated Brazilian M. saterei assessment published in 2025. Garbino et al. (2013) report two M. humilis records under the historical name Callibella humilis; Costa-Araújo et al. (2021) combine morphology, phylogenomics and locality records to describe M. schneideri. This is a path through selected materials, not a complete species checklist, genus-wide ecology review or phylogeny.",
+            "zh": "本导读按证据类型和研究时段阅读 Mico。先看 Mourthé 等（2022）对十个亚马孙间河区 IUCN 范围图相交情况的比较；其补充表列出八个 Mico 种名和十项“物种—间河区”相交，不是逐点野外确认。随后比较局地研究：中 Madeira 河与亚马孙南中部的 Mico chrysoleucos 2018、2023 年调查；M. mauesi 的 2004 年野外记录；Rylands 在 1978 年 Dardanelos 对 M. intermedius 的观察；M. marcai 的 2012—2015 年 Marmelos—Aripuanã 调查；以及 2025 年发布、有明确评估日期的巴西 M. saterei 评估。Garbino 等（2013）以历史名称 Callibella humilis 报告两条 M. humilis 记录；Costa-Araújo 等（2021）结合形态、系统基因组和地点记录描述 M. schneideri。本路径串联若干研究材料，不是完整物种目录、全属生态综述或系统发育树。"
           },
           "sourceIds": [
-            "mourthe2022"
+            "mourthe2022",
+            "chrysoleucos2018",
+            "chrysoleucos2023",
+            "mauesi2008",
+            "intermedius1979",
+            "marcai2020",
+            "saterei2025",
+            "humilis2013",
+            "schneideri2021"
           ]
         }
       ],
@@ -11328,11 +11336,107 @@
             "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。",
             "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence."
           }
+        },
+        {
+          "id": "intermedius1979",
+          "title": {
+            "en": "Rylands (1979) — Preliminary observations at Dardanelos",
+            "zh": "Rylands（1979）：Dardanelos 初步观察"
+          },
+          "url": "https://www.scielo.br/j/aa/a/mnmJCbfQkn5v3p4PqCtLG7N/",
+          "scope": {
+            "en": "Supports the 1978 single-site observation account.",
+            "zh": "支持 1978 年单地点观察记录。"
+          }
+        },
+        {
+          "id": "mauesi2008",
+          "title": {
+            "en": "Noronha et al. (2008) — Mico mauesi occurrence records",
+            "zh": "Noronha 等（2008）：Mico mauesi 出现记录"
+          },
+          "url": "https://doi.org/10.1896/044.015.0105",
+          "scope": {
+            "en": "Supports the 2004 field-trip records.",
+            "zh": "支持 2004 年野外行程记录。"
+          }
+        },
+        {
+          "id": "marcai2020",
+          "title": {
+            "en": "Silva et al. (2020) — Mico marcai field study",
+            "zh": "Silva 等（2020）：Mico marcai 野外研究"
+          },
+          "url": "https://doi.org/10.1017/S0030605318000303",
+          "scope": {
+            "en": "Supports the 2012–2015 field study and dated estimates.",
+            "zh": "支持 2012—2015 年野外研究及有日期的估计。"
+          }
+        },
+        {
+          "id": "saterei2025",
+          "title": {
+            "en": "Costa-Araújo et al. (2025) — ICMBio SALVE Mico saterei record",
+            "zh": "Costa-Araújo 等（2025）：ICMBio SALVE Mico saterei 评估卡"
+          },
+          "url": "https://doi.org/10.37002/salve.ficha.30173.2",
+          "scope": {
+            "en": "Supports the dated Brazilian national assessment.",
+            "zh": "支持有日期的巴西国家评估。"
+          }
+        },
+        {
+          "id": "chrysoleucos2018",
+          "title": {
+            "en": "Silva et al. (2018) — Mico chrysoleucos distribution study",
+            "zh": "Silva 等（2018）：Mico chrysoleucos 分布研究"
+          },
+          "url": "https://doi.org/10.1007/s10329-018-0665-8",
+          "scope": {
+            "en": "Supports the middle-Madeira regional survey.",
+            "zh": "支持中 Madeira 河区域调查。"
+          }
+        },
+        {
+          "id": "chrysoleucos2023",
+          "title": {
+            "en": "Costa-Araújo et al. (2023) — South-central Amazon Mico records",
+            "zh": "Costa-Araújo 等（2023）：亚马孙南中部 Mico 记录"
+          },
+          "url": "https://doi.org/10.5194/pb-10-7-2023",
+          "scope": {
+            "en": "Supports south-central Amazon locality records.",
+            "zh": "支持亚马孙南中部地点记录。"
+          }
+        },
+        {
+          "id": "humilis2013",
+          "title": {
+            "en": "Garbino, Silva & Davis (2013) — Callibella humilis records",
+            "zh": "Garbino、Silva 与 Davis（2013）：Callibella humilis 记录"
+          },
+          "url": "https://doi.org/10.1007/s10329-013-0381-3",
+          "scope": {
+            "en": "Supports two records under a historical genus combination.",
+            "zh": "支持以历史属名组合发表的两条记录。"
+          }
+        },
+        {
+          "id": "schneideri2021",
+          "title": {
+            "en": "Costa-Araújo et al. (2021) — Integrative description of Mico schneideri",
+            "zh": "Costa-Araújo 等（2021）：Mico schneideri 综合描述"
+          },
+          "url": "https://doi.org/10.1038/s41598-021-93943-w",
+          "scope": {
+            "en": "Supports the species description based on morphology, phylogenomics and locality records.",
+            "zh": "支持基于形态、系统基因组与地点记录的新种描述。"
+          }
         }
       ],
       "limitations": {
-        "zh": "本页只比较研究补充表 S1 中列出的八个 Mico 种级条目，不能当作属内全部成员的完整分布综述。论文摘要与方法称分析 80 种，主文表 2 的分类总数为 81，单一间河区的 46 种在正文写为 58%、表中写为 57%。间河区结果来自 IUCN 范围图叠置，不是逐点现场确认或种群数量；本页尚未经过外部领域专家评审。",
-        "en": "This page compares only the eight Mico species listed in Supplementary Table S1; it is not a complete range review of every member of the genus. The abstract and methods describe 80 study species, while main-text Table 2 sums to 81 and gives 57% for the 46 single-interfluve species versus 58% in the prose. Interfluve results come from IUCN range-map overlays, not point-level field confirmation or population counts. This guide is not externally expert-reviewed."
+        "en": "This guide links selected Mico studies and is not a complete species checklist, range map, ecological synthesis or phylogeny. Map overlays, historical local observations, later surveys, the dated national assessment and integrative taxonomy answer different questions and should not be collapsed into one evidence type. Source-linked; not externally expert-reviewed.",
+        "zh": "本导读串联若干 Mico 研究，不是完整物种目录、分布图、生态综合或系统发育树。范围图叠置、历史局地观察、后续调查、有日期的国家评估和综合分类研究回答的问题不同，不应合并为一种证据。本页有来源链接，尚未经过外部领域专家评审。"
       }
     },
     {
@@ -30512,6 +30616,556 @@
       "limitations": {
         "en": "This is a selective reading path, not a genus-wide scientific synthesis; it has not received external expert review. The included studies differ in date, site coverage, method and historical taxonomy.",
         "zh": "这是一条选择性阅读路径，不是属级科学综述，且尚未经过外部领域专家评审。所列研究在年代、地点覆盖、方法和历史分类上各不相同。"
+      }
+    },
+    {
+      "colId": "42MHX",
+      "scientificName": "Mico humilis (M. van Roosmalen, T. van Roosmalen, Mittermeier & de Fonseca, 1998)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "en": "Black-crowned Dwarf Marmoset",
+        "zh": "罗兹马伦矮绒猴"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-30",
+      "sections": [
+        {
+          "topic": "distribution",
+          "text": {
+            "en": "Garbino, Silva and Davis reported two additional records under the historical name Callibella humilis. One was observed and photographed in campinarana on the west bank of the Rio Madeirinha, extending the reported distribution about 270 km south to the west bank of the Rio Roosevelt. The second was a collected individual from the Rio Roosevelt mouth, less than 10 km from the type locality of Mico marcai. Two records do not provide an abundance estimate or a complete range survey.",
+            "zh": "Garbino、Silva 与 Davis 以历史名称 Callibella humilis 报告两条新记录。一条来自 Madeirinha 河西岸白沙矮林的观察与照片记录，使当时报告分布向南延伸约 270 公里，到达 Roosevelt 河西岸；另一条是 Roosevelt 河口采集的个体，距 Mico marcai 模式地点不足 10 公里。两条记录不能提供数量估计或完整分布调查。"
+          },
+          "sourceIds": [
+            "humilis2013"
+          ]
+        },
+        {
+          "topic": "vocalization",
+          "text": {
+            "en": "The same short paper presented the first sonogram analysis of the long call and compared note duration and frequency with Cebuella pygmaea and Mico argentatus. This is a call-structure comparison, not a broad communication survey.",
+            "zh": "同一短文首次分析了长叫声声谱图，并将音节时长和频率与 Cebuella pygmaea、Mico argentatus 比较。这是叫声结构比较，不是全面的交流调查。"
+          },
+          "sourceIds": [
+            "humilis2013"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "humilis2013",
+          "title": {
+            "en": "Garbino, Silva & Davis (2013) — Range extension and long-call analysis of Callibella humilis",
+            "zh": "Garbino、Silva 与 Davis（2013）：Callibella humilis 分布新记录与长叫声分析"
+          },
+          "url": "https://doi.org/10.1007/s10329-013-0381-3",
+          "scope": {
+            "en": "Supports two locality records, the approximate southward extension and the study's sonogram analysis; the paper uses Callibella humilis.",
+            "zh": "支持两处地点记录、大致向南延伸及声谱图分析；论文使用 Callibella humilis。"
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": {
+            "en": "ASM Mammal Diversity Database v2.5 · Black-crowned Dwarf Marmoset",
+            "zh": "Mammal Diversity Database v2.5 · Black-crowned Dwarf Marmoset"
+          },
+          "url": "https://www.mammaldiversity.org/taxon/1000796/",
+          "scope": {
+            "en": "Supports the English common name Black-crowned Dwarf Marmoset only; it does not support the field findings or replace the pinned COL identity.",
+            "zh": "仅支持英文普通名 Black-crowned Dwarf Marmoset；不支持野外结论，也不替代固定的 COL 分类身份。"
+          }
+        },
+        {
+          "id": "taxonomy",
+          "title": {
+            "en": "Catalogue of Life COL26.8 · source 2144",
+            "zh": "Catalogue of Life COL26.8 · source 2144"
+          },
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/42MHX",
+          "scope": {
+            "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence.",
+            "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。"
+          }
+        },
+        {
+          "id": "mdd_taxonomy",
+          "title": {
+            "en": "ASM Mammal Diversity Database v2.5 — taxonomy notes for Mico humilis",
+            "zh": "Mammal Diversity Database v2.5：Mico humilis 分类注记"
+          },
+          "url": "https://www.mammaldiversity.org/taxon/1000796/",
+          "scope": {
+            "en": "Supports the MDD-listed Callibella subgenus and its note that generic placement under Mico has been treated differently among sources; pinned COL26.8 remains the page identity.",
+            "zh": "支持 MDD 所列 Callibella 亚属以及其关于不同来源对 Mico 属级归属处理不一的注记；本页分类身份仍依固定 COL26.8。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "Source-linked introduction; not externally expert-reviewed. This page follows COL26.8 as Mico humilis, while the field article used Callibella humilis. MDD records Callibella as a subgenus and notes differing generic treatments. The range statement comes from two records, not a current full-range assessment.",
+        "zh": "这是有来源的入门页，尚未经过外部领域专家评审。本页依 COL26.8 使用 Mico humilis，野外论文使用 Callibella humilis。MDD 将 Callibella 记为亚属，并记录了不同的属级处理。分布陈述来自两条记录，不是当前完整分布评估。"
+      }
+    },
+    {
+      "colId": "42MHY",
+      "scientificName": "Mico intermedius (Hershkovitz, 1977)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "en": "Rio Aripuanã Marmoset",
+        "zh": "阿里普阿南河绒猴"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-30",
+      "sections": [
+        {
+          "topic": "field_observations",
+          "text": {
+            "en": "Rylands' preliminary account describes observations at Dardanelos on the Rio Aripuanã from May through November 1978. Published under the historical name Callithrix humeralifer intermedius, it reports groups of 4–13 animals and use of dense primary forest, secondary forest and campinarana. These observations describe one locality and period, not the species' full range or present-day group size.",
+            "zh": "Rylands 的初步记录描述了 1978 年 5 月至 11 月在阿里普阿南河 Dardanelos 的观察。论文以历史名称 Callithrix humeralifer intermedius 发表，报告群体为 4—13 只，并使用茂密原生林、次生林和白沙矮林。这些观察限于一个地点和时段，不代表全种分布或当前群体大小。"
+          },
+          "sourceIds": [
+            "intermedius1979"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "intermedius1979",
+          "title": {
+            "en": "Rylands (1979) — Preliminary observations on Callithrix humeralifer intermedius at Dardanelos",
+            "zh": "Rylands（1979）：Dardanelos 的 Callithrix humeralifer intermedius 初步观察"
+          },
+          "url": "https://www.scielo.br/j/aa/a/mnmJCbfQkn5v3p4PqCtLG7N/",
+          "scope": {
+            "en": "Supports preliminary observations at Dardanelos in 1978, reported group sizes and habitat types; the paper uses a historical subspecific combination.",
+            "zh": "支持 1978 年 Dardanelos 初步观察、群体大小和生境类型；原文使用历史亚种组合名。"
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": {
+            "en": "ASM Mammal Diversity Database v2.5 · Rio Aripuanã Marmoset",
+            "zh": "Mammal Diversity Database v2.5 · Rio Aripuanã Marmoset"
+          },
+          "url": "https://www.mammaldiversity.org/taxon/1000797/",
+          "scope": {
+            "en": "Supports the English common name Rio Aripuanã Marmoset only; it does not support the field findings or replace the pinned COL identity.",
+            "zh": "仅支持英文普通名 Rio Aripuanã Marmoset；不支持野外结论，也不替代固定的 COL 分类身份。"
+          }
+        },
+        {
+          "id": "taxonomy",
+          "title": {
+            "en": "Catalogue of Life COL26.8 · source 2144",
+            "zh": "Catalogue of Life COL26.8 · source 2144"
+          },
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/42MHY",
+          "scope": {
+            "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence.",
+            "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "Source-linked introduction; not externally expert-reviewed. The study is a preliminary 1978 account at Dardanelos and predates the current Mico combination; it cannot establish current abundance, full distribution or genus-wide habitat preference.",
+        "zh": "这是有来源的入门页，尚未经过外部领域专家评审。研究是 1978 年 Dardanelos 的初步记录，早于当前 Mico 组合名；它不能确定当前数量、完整分布或属级生境偏好。"
+      }
+    },
+    {
+      "colId": "42MJ3",
+      "scientificName": "Mico marcai (Alperin, 1993)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "en": "Marca's Marmoset",
+        "zh": "马尔凯绒猴"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-30",
+      "sections": [
+        {
+          "topic": "distribution",
+          "text": {
+            "en": "Silva and colleagues surveyed the Marmelos–Aripuanã interfluve during 2012–2015 and reported Mico marcai at 13 localities. Their record-based extent-of-occurrence estimate was 31,073 km². This describes that study's mapped evidence, not a complete present-day range survey.",
+            "zh": "Silva 等人在 2012—2015 年调查 Marmelos—Aripuanã 间河区，并报告在 13 处记录到 Mico marcai。基于记录的分布范围估计为 31,073 平方公里。这描述的是该研究绘制的证据，不是当前完整分布调查。"
+          },
+          "sourceIds": [
+            "marcai2020"
+          ]
+        },
+        {
+          "topic": "population_and_risk",
+          "text": {
+            "en": "Distance sampling estimated density at 8.31 individuals/km²; extrapolation gave 258,218 animals (95% confidence interval 150,705–441,860). A business-as-usual scenario projected loss of about 10,000 km², or 33% of the modeled range, over three generations (about 18 years). The authors recommended Vulnerable at publication. These dated estimates and scenario are not a current census or status reassessment.",
+            "zh": "距离抽样估计密度为每平方公里 8.31 只；外推总数为 258,218 只（95% 置信区间 150,705—441,860）。常发展情景预测三个世代（约 18 年）内损失约 10,000 平方公里、即模型范围的 33%。作者在论文发表时建议列为易危。这些有日期的估计与情景不是当前普查或保护等级重评。"
+          },
+          "sourceIds": [
+            "marcai2020"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "marcai2020",
+          "title": {
+            "en": "Silva et al. (2020) — The Roosevelt–Rondon expedition marmoset Mico marcai",
+            "zh": "Silva 等（2020）：罗斯福—隆东考察队绒猴 Mico marcai"
+          },
+          "url": "https://doi.org/10.1017/S0030605318000303",
+          "scope": {
+            "en": "Supports 2012–2015 surveys, 13 localities, distance-sampling density and population extrapolation, mapped extent and the authors' forest-loss scenario and recommendation.",
+            "zh": "支持 2012—2015 年调查、13 处记录、距离抽样密度与种群外推、范围界定及作者的森林损失情景和保护建议。"
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": {
+            "en": "ASM Mammal Diversity Database v2.5 · Marca's Marmoset",
+            "zh": "Mammal Diversity Database v2.5 · Marca's Marmoset"
+          },
+          "url": "https://www.mammaldiversity.org/taxon/1000799/",
+          "scope": {
+            "en": "Supports the English common name Marca's Marmoset only; it does not support the field findings or replace the pinned COL identity.",
+            "zh": "仅支持英文普通名 Marca's Marmoset；不支持野外结论，也不替代固定的 COL 分类身份。"
+          }
+        },
+        {
+          "id": "taxonomy",
+          "title": {
+            "en": "Catalogue of Life COL26.8 · source 2144",
+            "zh": "Catalogue of Life COL26.8 · source 2144"
+          },
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/42MJ3",
+          "scope": {
+            "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence.",
+            "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "Source-linked introduction; not externally expert-reviewed. Density, population size, extent and forest-loss projection are estimates tied to 2012–2015 fieldwork and the paper's assumptions. The recommendation is the authors' dated recommendation, not a present-day reassessment.",
+        "zh": "这是有来源的入门页，尚未经过外部领域专家评审。密度、种群数量、范围和森林损失预测均受 2012—2015 年调查及论文假设限制。文中建议是作者当时的建议，不代表当前重新评估。"
+      }
+    },
+    {
+      "colId": "42MJ4",
+      "scientificName": "Mico mauesi (Mittermeier, Schwarz & Ayres, 1992)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "en": "Maués Marmoset",
+        "zh": "毛埃斯绒猴"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-30",
+      "sections": [
+        {
+          "topic": "distribution",
+          "text": {
+            "en": "Noronha and colleagues used a 2004 field trip to update the distribution account and reported eight new occurrence records: seven direct sightings and one interview with a local informant. The survey covered the headwaters of the Maués, Abacaxis and Sucundurí rivers. These records refine a historical locality picture; they are not a present-day census or proof of continuous occupancy.",
+            "zh": "Noronha 等人利用 2004 年一次野外行程更新分布记录，报告 8 处新出现记录：7 处直接目击、1 处当地知情者访谈。调查涵盖 Maués、Abacaxis 和 Sucundurí 河的源头区域。这些记录补充历史地点资料，不是当前普查，也不能证明连续占域。"
+          },
+          "sourceIds": [
+            "mauesi2008"
+          ]
+        },
+        {
+          "topic": "habitat",
+          "text": {
+            "en": "The authors obtained records in terra firme primary forest, secondary growth and igapó. Identification used diagnostic characters from the description and comparisons with museum specimens. The observations apply to sampled sites only and do not establish a current trend.",
+            "zh": "作者在旱地原生林、次生植被和 igapó 洪泛林获得记录；鉴定依据为物种描述中的诊断特征，并与博物馆标本比较。观察结论只适用于调查地点，不能确定当前趋势。"
+          },
+          "sourceIds": [
+            "mauesi2008"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "mauesi2008",
+          "title": {
+            "en": "Noronha et al. (2008) — New occurrence records of Maués marmoset, Mico mauesi",
+            "zh": "Noronha 等（2008）：毛埃斯绒猴 Mico mauesi 新出现记录"
+          },
+          "url": "https://doi.org/10.1896/044.015.0105",
+          "scope": {
+            "en": "Supports the 2004 field trip, eight records, sighting/interview breakdown, survey area and observed habitat types.",
+            "zh": "支持 2004 年野外行程、8 处记录、目击/访谈构成、调查区和记录到的生境类型。"
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": {
+            "en": "ASM Mammal Diversity Database v2.5 · Maués Marmoset",
+            "zh": "Mammal Diversity Database v2.5 · Maués Marmoset"
+          },
+          "url": "https://www.mammaldiversity.org/taxon/1000800/",
+          "scope": {
+            "en": "Supports the English common name Maués Marmoset only; it does not support the field findings or replace the pinned COL identity.",
+            "zh": "仅支持英文普通名 Maués Marmoset；不支持野外结论，也不替代固定的 COL 分类身份。"
+          }
+        },
+        {
+          "id": "taxonomy",
+          "title": {
+            "en": "Catalogue of Life COL26.8 · source 2144",
+            "zh": "Catalogue of Life COL26.8 · source 2144"
+          },
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/42MJ4",
+          "scope": {
+            "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence.",
+            "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "Source-linked introduction; not externally expert-reviewed. Evidence comes from one 2004 field trip reported in 2008, and one record came from an interview rather than a direct sighting. No current presence, abundance or continuous range is inferred.",
+        "zh": "这是有来源的入门页，尚未经过外部领域专家评审。证据来自 2004 年一次野外行程并于 2008 年发表，其中一条为访谈而非直接目击。本页不推断当前出现、数量或连续分布。"
+      }
+    },
+    {
+      "colId": "42MJ8",
+      "scientificName": "Mico saterei (Silva Jr. & Noronha, 1998)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "en": "Sateré Marmoset",
+        "zh": "萨特雷绒猴"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-30",
+      "sections": [
+        {
+          "topic": "distribution",
+          "text": {
+            "en": "The 2025 Brazilian ICMBio assessment card describes the species as endemic to Amazonas and gives river-based limits from the original account: Abacaxis to the east, Canumã and Sucundurí to the west, and Paraná Urariá to the south. It notes that additional sampling is needed near the southern limit around Igarapé do Arreganhado. The card reports a minimum-convex-polygon extent of occurrence of 1,571.2 km² and a separate habitat-distribution estimate of 19,569.7 km²; the measures are not interchangeable.",
+            "zh": "巴西 ICMBio 于 2025 年发布的评估卡将该种描述为亚马孙州特有种，并依据原始资料列出河流边界：东至 Abacaxis 河，西至 Canumã 与 Sucundurí 河，南至 Paraná Urariá 河。卡片指出 Igarapé do Arreganhado 附近南界需要补充取样。卡片报告最小凸多边形计算的分布范围为 1,571.2 平方公里，另有 19,569.7 平方公里的生境分布估计；两项指标不可互换。"
+          },
+          "sourceIds": [
+            "saterei2025"
+          ]
+        },
+        {
+          "topic": "habitat_and_conservation",
+          "text": {
+            "en": "The card reports use of primary and secondary terra firme forest and igapó, and cites 0.05% habitat-area loss for 2002–2018. It records a Brazilian Least Concern category dated 27 September 2019, published in the 2025 card, while population trend is unknown. Mining-related habitat impacts are identified; ecology, population-size and threat-impact studies remain research needs.",
+            "zh": "卡片记载该种使用原生及次生旱地林和 igapó，并引用 2002—2018 年生境面积损失 0.05% 的估计。卡片记录巴西国家评估为无危，评估日期为 2019 年 9 月 27 日，卡片于 2025 年发布；种群趋势未知。评估指出采矿相关生境影响，并将生态、种群数量和威胁影响研究列为需求。"
+          },
+          "sourceIds": [
+            "saterei2025"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "saterei2025",
+          "title": {
+            "en": "Costa-Araújo et al. (2025) — Mico saterei, ICMBio SALVE assessment",
+            "zh": "Costa-Araújo 等（2025）：ICMBio SALVE 的 Mico saterei 评估卡"
+          },
+          "url": "https://doi.org/10.37002/salve.ficha.30173.2",
+          "scope": {
+            "en": "Supports the dated Brazilian assessment, river-bounded description, separate distribution measures, habitat notes and research needs; assessment date is 27 September 2019.",
+            "zh": "支持有日期的巴西评估、河流边界描述、不同分布指标、生境说明和研究需求；评估日期是 2019 年 9 月 27 日。"
+          }
+        },
+        {
+          "id": "saterei1998",
+          "title": {
+            "en": "Silva Júnior & Noronha (1998) — On a new species of bare-eared marmoset from central Amazonia",
+            "zh": "Silva Júnior 与 Noronha（1998）：亚马孙中部裸耳绒猴新种描述"
+          },
+          "url": "https://www.biodiversitylibrary.org/page/53463195",
+          "scope": {
+            "en": "Original description under Callithrix saterei; supports type material and locality cited by the assessment.",
+            "zh": "以 Callithrix saterei 发表的原始描述；支持评估卡引用的模式标本和地点。"
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": {
+            "en": "ASM Mammal Diversity Database v2.5 · Sateré Marmoset",
+            "zh": "Mammal Diversity Database v2.5 · Sateré Marmoset"
+          },
+          "url": "https://www.mammaldiversity.org/taxon/1000805/",
+          "scope": {
+            "en": "Supports the English common name Sateré Marmoset only; it does not support the field findings or replace the pinned COL identity.",
+            "zh": "仅支持英文普通名 Sateré Marmoset；不支持野外结论，也不替代固定的 COL 分类身份。"
+          }
+        },
+        {
+          "id": "taxonomy",
+          "title": {
+            "en": "Catalogue of Life COL26.8 · source 2144",
+            "zh": "Catalogue of Life COL26.8 · source 2144"
+          },
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/42MJ8",
+          "scope": {
+            "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence.",
+            "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "Source-linked introduction; not externally expert-reviewed. This is a dated Brazilian national assessment, not a new global assessment. Extent-of-occurrence and habitat-distribution figures use different methods and remain separate; trend is unknown.",
+        "zh": "这是有来源的入门页，尚未经过外部领域专家评审。此处引用有日期的巴西国家评估，不是新的全球评估。分布范围和生境分布数字采用不同方法，须分开呈现；种群趋势未知。"
+      }
+    },
+    {
+      "colId": "6RGMY",
+      "scientificName": "Mico chrysoleucos (Wagner, 1842)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "en": "Golden-white Tassel-ear Marmoset",
+        "zh": "金白簇耳绒猴"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-30",
+      "sections": [
+        {
+          "topic": "distribution",
+          "text": {
+            "en": "A 2018 multiyear survey reported 14 records from 44 survey days and extended the then-described southern distribution about 100 km to the Maracanã River. A later programme based on 2015–2018 fieldwork reported 12 additional records from Apuí, Maués, Novo Aripuanã and Urucurituba; it described an eastern extension onto Ilha Tupinambarana of about 160 km and a record-based distribution estimate of 46,800 km². These are study-era delineations, not abundance estimates or a complete current census.",
+            "zh": "一项 2018 年发表的多年调查报告在 44 个调查日内获得 14 条记录，并将当时所述南部分布向 Maracanã 河延伸约 100 公里。随后基于 2015—2018 年野外调查的研究，在 Apuí、Maués、Novo Aripuanã 和 Urucurituba 报告 12 条新增记录；作者称分布向东延伸至 Ilha Tupinambarana 约 160 公里，并给出基于记录的 46,800 平方公里分布估计。这些是研究时期的范围界定，不是数量估计或当前完整普查。"
+          },
+          "sourceIds": [
+            "chrysoleucos2018",
+            "chrysoleucos2023"
+          ]
+        },
+        {
+          "topic": "habitat",
+          "text": {
+            "en": "The 2018 study searched trails, roads and river margins in a 3,919 km² middle-Madeira study area across several seasons. The 2023 note drew on ten playback-focused expeditions across southern Amazonia and documented habitat use at recorded sites. The papers have different sampling windows and methods and should not be collapsed into one continuous survey.",
+            "zh": "2018 年研究在中 Madeira 河 3,919 平方公里研究区内，跨多个季节沿步道、道路和河岸调查。2023 年短文依据亚马孙南部 10 次以播放叫声为主的野外考察，记录了所到地点的生境利用。两篇论文的取样时段和方法不同，不应合并为一次连续调查。"
+          },
+          "sourceIds": [
+            "chrysoleucos2018",
+            "chrysoleucos2023"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "chrysoleucos2018",
+          "title": {
+            "en": "Silva et al. (2018) — Distribution and conservation status of Mico chrysoleucos",
+            "zh": "Silva 等（2018）：Mico chrysoleucos 分布与保护资料"
+          },
+          "url": "https://doi.org/10.1007/s10329-018-0665-8",
+          "scope": {
+            "en": "Supports the 44-day multiyear survey, 14 records and the reported southern extension in the middle Madeira region.",
+            "zh": "支持 44 个调查日、多年调查中的 14 条记录，以及中 Madeira 地区南向分布延伸报告。"
+          }
+        },
+        {
+          "id": "chrysoleucos2023",
+          "title": {
+            "en": "Costa-Araújo et al. (2023) — Distribution and habitat use of Mico marmosets in south-central Amazonia",
+            "zh": "Costa-Araújo 等（2023）：亚马孙南中部 Mico 绒猴分布与生境利用记录"
+          },
+          "url": "https://doi.org/10.5194/pb-10-7-2023",
+          "scope": {
+            "en": "Supports 12 new M. chrysoleucos records, eastern extension onto Ilha Tupinambarana and site-limited habitat observations from 2015–2018.",
+            "zh": "支持 12 条 M. chrysoleucos 新记录、向东延伸至 Ilha Tupinambarana 及 2015—2018 年地点范围内的生境观察。"
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": {
+            "en": "ASM Mammal Diversity Database v2.5 · Golden-white Tassel-ear Marmoset",
+            "zh": "Mammal Diversity Database v2.5 · Golden-white Tassel-ear Marmoset"
+          },
+          "url": "https://www.mammaldiversity.org/taxon/1000793/",
+          "scope": {
+            "en": "Supports the English common name Golden-white Tassel-ear Marmoset only; it does not support the field findings or replace the pinned COL identity.",
+            "zh": "仅支持英文普通名 Golden-white Tassel-ear Marmoset；不支持野外结论，也不替代固定的 COL 分类身份。"
+          }
+        },
+        {
+          "id": "taxonomy",
+          "title": {
+            "en": "Catalogue of Life COL26.8 · source 2144",
+            "zh": "Catalogue of Life COL26.8 · source 2144"
+          },
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/6RGMY",
+          "scope": {
+            "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence.",
+            "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "Source-linked introduction; not externally expert-reviewed. The two surveys use different periods, areas and methods. Record-based boundaries and extensions do not measure abundance, current occupancy or population trend.",
+        "zh": "这是有来源的入门页，尚未经过外部领域专家评审。两项调查的时段、区域和方法不同。基于记录的边界与延伸不能测量数量、当前占域或种群趋势。"
+      }
+    },
+    {
+      "colId": "BRBXZ",
+      "scientificName": "Mico schneideri Costa-Araújo, Silva-Jr., Boubli, Rossi, Hrbek & Farias, 2021",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "en": "Schneider's Marmoset",
+        "zh": "施奈德绒猴"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-30",
+      "sections": [
+        {
+          "topic": "taxonomy_and_distribution",
+          "text": {
+            "en": "Costa-Araújo and colleagues tested Juruena–Teles Pires marmosets with pelage morphology, phylogenomics and locality records. Their 2015–2018 programme included ten field expeditions and museum specimens and tissues. They described Mico schneideri as a distinct, fully supported lineage; sampled records were confined to the Juruena–Teles Pires interfluve, with no documented overlap with other Mico in that study. The holotype was an adult female collected on 2 April 2016 in an urban forest fragment at Paranaíta, on the left bank of the Teles Pires River. This is the paper's sampled distribution and species-delimitation result, not a complete current range census.",
+            "zh": "Costa-Araújo 等人结合被毛形态、系统基因组和地点记录检验 Juruena—Teles Pires 间河区绒猴。其 2015—2018 年研究包括 10 次野外考察，并检查博物馆标本和组织样本。论文将 Mico schneideri 描述为独立且在系统基因组树中获完全支持的谱系；该研究记录仅来自 Juruena—Teles Pires 间河区，未记录与其他 Mico 分布重叠。模式标本是一只成年雌性，于 2016 年 4 月 2 日采自 Paranaíta 市 Teles Pires 河左岸的城市森林碎片。这是论文的取样分布和种界结论，不是当前完整分布普查。"
+          },
+          "sourceIds": [
+            "schneideri2021"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "schneideri2021",
+          "title": {
+            "en": "Costa-Araújo et al. (2021) — Integrative description of Mico schneideri",
+            "zh": "Costa-Araújo 等（2021）：Mico schneideri 综合描述"
+          },
+          "url": "https://doi.org/10.1038/s41598-021-93943-w",
+          "scope": {
+            "en": "Supports the 2015–2018 field programme, morphology and phylogenomics, type specimen, localities and species-delimitation result.",
+            "zh": "支持 2015—2018 年野外研究、形态与系统基因组分析、模式标本、地点和种界结论。"
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": {
+            "en": "ASM Mammal Diversity Database v2.5 · Schneider's Marmoset",
+            "zh": "Mammal Diversity Database v2.5 · Schneider's Marmoset"
+          },
+          "url": "https://www.mammaldiversity.org/taxon/1006579/",
+          "scope": {
+            "en": "Supports the English common name Schneider's Marmoset only; it does not support the field findings or replace the pinned COL identity.",
+            "zh": "仅支持英文普通名 Schneider's Marmoset；不支持野外结论，也不替代固定的 COL 分类身份。"
+          }
+        },
+        {
+          "id": "taxonomy",
+          "title": {
+            "en": "Catalogue of Life COL26.8 · source 2144",
+            "zh": "Catalogue of Life COL26.8 · source 2144"
+          },
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/BRBXZ",
+          "scope": {
+            "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence.",
+            "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "Source-linked introduction; not externally expert-reviewed. Locality coverage, inferred range separation and species delimitation follow the 2021 study's specimens, field records and analyses; no current abundance or independent range reassessment is supplied.",
+        "zh": "这是有来源的入门页，尚未经过外部领域专家评审。地点覆盖、推定分布分隔和种界结论均限于 2021 年研究的标本、野外记录与分析；本页没有当前数量或独立范围重评。"
       }
     }
   ]
