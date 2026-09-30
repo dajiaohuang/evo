@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-56 已为 Aotus 固定名录中的七个种级 ID 增加双语来源页，并建立真实 COL 属级 ID 62D8D 的阅读路径。灵长类现有 366/530 个种级页面记录（54 个 dossier-backed、312 个 profile-only）；164 个仍无种级页面记录，476 个仍未命中 dossier 索引。P. minusculus、P. lulindicus 与 A. jorgehernandezi 的页面仅支持局地研究或分类史，不计首轮综合内容标准，因此 363 个接受种达到首轮内容标准，167 个尚未达到。新页区分单群观察、历史样线密度、模型结果和分类意见；完成剩余灵长类后继续主龙类。计数待 PR #499 评审与并入主线后再正式确认。纯内容变更不运行测试、内容/数据/增量校验或 CI。
+下一执行动作：P3-57 已为固定名录中的七个 Semnopithecus 种级 ID 新增双语来源页，并建立真实 COL 属级 ID 7FH7 的阅读路径。灵长类现有 373/530 个种级页面记录（54 个 dossier-backed、319 个 profile-only）；157 个仍无种级页面，476 个仍未命中 dossier 索引。P. minusculus、P. lulindicus 与 A. jorgehernandezi 仅有分类史或局地材料，不计首轮综合内容标准，因此 370 个接受种达到首轮标准、160 个尚未达到。接续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1011,3 +1011,24 @@ Aotus 阅读路径串联哥伦比亚低地与安第斯夜猴的单群研究、�
 来源：[Montilla 等（2021），哥伦比亚夜猴活动、食性与活动范围](https://doi.org/10.1007/s10764-020-00192-1)、[Carretero 与 Ortiz-Moreno（2024），A. brumbacki 巢位](https://doi.org/10.47603/mano.v10n2.465)、[Shanee 等（2015），A. miconax 分布调查](https://doi.org/10.11609/JoTT.o4184.6947-64)、[Aquino 与 Encarnación（1988），秘鲁东北部夜猴样线估算](https://www.iiap.gob.pe/Archivos/publicaciones/CDinvestigacion/unmsm/unmsm-i11/unmsm-i11.htm)、[Svensson 等（2010），A. zonalis 密度试点](https://doi.org/10.1002/ajp.20758)、[Defler 与 Bueno（2007），Aotus 多样性与物种问题](https://doi.org/10.1896/052.022.0104)、[Montilla 等（2025），A. jorgehernandezi 分类比较](https://doi.org/10.11646/bionomina.43.3.3)。
 
 依照 content-only 工作流，本批不运行测试、内容校验、数据校验、增量校验或 CI；仅为读者入口刷新运行时投影与数据清单。
+
+
+## P3-57 七种 Semnopithecus 灰叶猴来源页与属级阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 / 分类差异 | 批次 |
+|---|---|---|---|
+| 4WHH9 *S. ajax* | Chamba 两群猴的秋季食性与叶片取食 | 2020 年 9—11 月、71 次扫描；一处保护区，不代表全年食谱 | P3-57 |
+| 4WHHG *S. entellus* | Similipal 虎保护区的样线遇见记录 | 2004 年四天、122 公里；论文使用 S. entellus entellus，不是当前全域种群估算 | P3-57 |
+| 4WHHL *S. hector* | Dharan 周边十个样点的群体计数 | 2018—2019 年局地调查；不代表尼泊尔或全种现状 | P3-57 |
+| 4WHHN *S. hypoleucos* | 与 S. johnii 的南印度食性和活动预算比较 | 比较结论限于研究种群；食叶导致休息增加仍是解释假说 | P3-57 |
+| 4WHHP *S. johnii* | Silent Valley 1993—1996 年的 89 种食用植物记录 | 旧论文题名使用 Trachypithecus johnii；季节资料限于一个雨林公园 | P3-57 |
+| 4WHJ3 *S. priam* | Pothigaiadi 一群猴的活动时间与季节食谱 | 2019—2020 年 96 个全天观察；局地案例，不作全种平均值 | P3-57 |
+| 6YG9S *S. schistaceus* | Ramnagar 成年个体的食土与钠获取研究 | 21 只个体、一年观察；机制结论限于研究地点与样本 | P3-57 |
+
+本批新增七个 profile-only 物种页，并建立 COL 属级 ID 7FH7 的阅读路径；原有 S. vetulus 页一并纳入，固定名录中八个 Semnopithecus 种级 ID 现均有页面记录。本批七页的本地 dossier 队列均为 missing，introductorySummary 均为 absent；未新增 dossier 或外部领域专家评审。批次后为 373/530 个种级页面记录（54 个 dossier-backed、319 个 profile-only）；157 个接受种仍无种级页面记录。P. minusculus、P. lulindicus 与 A. jorgehernandezi 仍未达到首轮综合正文标准，因此 370 个接受种达到首轮标准、160 个尚未达到；476 个仍未命中 dossier 索引。英文普通名采用 Mammal Diversity Database v2.5，中文普通名为编辑译名。
+
+本属阅读路径按地区和问题串联秋季食性、短期样线、局地群体计数、叶食与休息比较、季节食谱和食土功能研究。研究时间与方法不同，局地结果不合并成全属规律。S. johnii 的 Silent Valley 论文使用 Trachypithecus johnii；页面按固定 COL26.8 使用 Semnopithecus johnii 并保留原文组合，不裁决属级处理。
+
+来源：[Thakur、Yardi 与 Ahuja（2022），S. ajax](https://doi.org/10.11609/jott.8120.14.10.21918-21927)、[Swain、Rout 与 Behura（2008），S. entellus](https://doi.org/10.36808/if/2008/v134i10/836)、[Tamang 等（2020），S. hector](https://doi.org/10.3126/hijost.v4i0.33866)、[Kavana、Erinjery 与 Singh（2015），S. hypoleucos 与 S. johnii 比较](https://doi.org/10.1159/000438990)、[Ramachandran 与 Joseph（2001），Silent Valley S. johnii](https://doi.org/10.36808/if/2001/v127i10/3070)、[Vanaraj 与 Pragasan（2021），S. priam](https://doi.org/10.1080/03949370.2021.1883119)、[Monaco 等（2019），S. schistaceus](https://doi.org/10.1002/ajpa.23733) 与 [Weerasekara 等（2021），S. vetulus](https://doi.org/10.1007/s10329-021-00902-0)。
+
+依照 content-only 工作流，本批不运行测试、内容校验、数据校验、增量校验、diff 检查或 CI；只为读者入口刷新运行时投影与数据清单。
