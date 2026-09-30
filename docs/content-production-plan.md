@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-35 已加入 PR #499，待 CI 与评审；灵长类页面预计为 198/530（58 个 dossier-backed、140 个 profile-only），332 个仍无读者页，476 个未命中 dossier 索引的接受种仍需排查。主龙现生页面为鳄目 27/27、Aves 9/11,044，共 36/11,071。P4-7 已冻结截至 2026-09-30 的 PBDB 化石物种工作分母 4,664；P4-8 新增六页后，化石读者页为 7/4,664（非鸟恐龙 5/1,794、化石 Aves 1/1,743、鳄形类 1/672），范围不全者仍逐页标为未评估。后续继续扩展鸟类、恐龙、翼龙、鳄形类并补类群介绍和阅读路径。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石来源分母分开统计，也不把跨目录同名条目直接去重。
+下一执行动作：P3-36 的 12 个 Microcebus profile 和属级阅读路径已完成本地编写，并通过 profile、registry、package、translation、provenance、review、species-evidence-queue 的局部校验；下一步追加至 PR #499 并检查新 CI。纳入本地草稿时灵长类页面预计为 210/530（58 个 dossier-backed、152 个 profile-only），320 个接受种仍无种级读者页；PR 当前已提交口径为 198/530。476 个未命中 dossier 索引的接受种仍需排查。主龙现生页面为鳄目 27/27、Aves 9/11,044，共 36/11,071；化石工作分母为 4,664，P4-8 后化石读者页为 7/4,664。后续继续扩展灵长类与主龙页面、类群介绍和阅读路径。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石来源分母分开统计，也不把跨目录同名条目直接去重。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -546,6 +546,27 @@ P3-34 未新建物种 dossier；计入本批后灵长类接受种读者页预计
 | 42SBR *M. macarthurii* | 东北部低地样点及与近缘未命名谱系的形态比较 | 区域比较不能代替完整分布或自然史；普通名与 MDD 显示名不同 | COL26.8 目录详情 #/registry?release=COL26.8&id=42SBR | P3-35 |
 
 P3-35 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 198/530（58 个 dossier-backed、140 个 profile-only），332 个接受种仍无种级读者页。以上数量待 PR #499 的 CI 与评审完成、并入主线后再计为正式覆盖；476 个未命中 dossier 索引的接受种仍需逐项排查。属级介绍和阅读顺序可由 COL 属级目录页读取，但不计入 530 个种级分母。主龙现生种级导读维持鳄目 27/27、Aves 9/11,044；本批未扩充主龙。
+
+### P3-36 十二种 Microcebus 鼠狐猴证据页与属级阅读路径扩展（2026-09-30）
+
+沿用固定 COL26.8 接受种身份，为十二个 *Microcebus* 接受种新增双语 profile-only 页面，并把同一个属级入口 `63B2M`" 的阅读顺序扩展到当前资料批次。内容只转写所引区域研究、类型地点和样本观察：西北部鼠狐猴分类研究、东部多位点修订、2016 年种界检验、2008 年北部描述及东北部五低地林样点。没有以局部地点代替完整分布，没有把捕获频次写成数量或偏好。MDD 当前条目把 *M. boraha* 记入 *M. simmonsi*，并注明 *M. ganzhorni* 与 *M. manitatra* 纳入 *M. murinus*；与固定 COL26.8 接受种分别保留。普通名为 MDD 英文显示名或编辑中文译名；本批未新建 dossier，尚未经过外部领域专家评审。
+
+| taxonId / 接受种 | 来源支持的局部主题 | 主要范围限制 | 页面入口 | 批次 |
+| --- | --- | --- | --- | --- |
+| 42SBG *M. bongolavensis* | 北部/西北部河间系统取样与线粒体、形态分类证据 | 样点和模型不构成现今全岛普查 | COL26.8 目录详情 `#/registry?release=COL26.8&id=42SBG` | P3-36 |
+| 42SBH *M. boraha* | Sainte-Marie 岛 Ikalalao Forest 类型系列和界定研究 | 类型地点不能代表岛内所有栖地；MDD 并入 simmonsi | COL26.8 目录详情 `#/registry?release=COL26.8&id=42SBH` | P3-36 |
+| 42SBK *M. danfossi* | Ambarijeby 附近森林斑块类型地点与区域线粒体分类 | 不能据类型点推断完整范围 | COL26.8 目录详情 `#/registry?release=COL26.8&id=42SBK` | P3-36 |
+| 42SBL *M. ganzhorni* | 多位点种界分析与形态比较 | MDD 当前把该名纳入 murinus；保留 COL 身份 | COL26.8 目录详情 `#/registry?release=COL26.8&id=42SBL` | P3-36 |
+| 42SBP *M. jollyae* | 东部样点、少量形态测量和类型材料 | 局地研究不足以界定现今分布；MDD 对相关名称另作合并 | COL26.8 目录详情 `#/registry?release=COL26.8&id=42SBP` | P3-36 |
+| 42SBQ *M. lehilahytsara* | 原始描述与后续低地样点记录 | 不把一个研究区或海拔记录视为完整生态边界 | COL26.8 目录详情 `#/registry?release=COL26.8&id=42SBQ` | P3-36 |
+| 42SBT *M. manitatra* | 多位点种界检验和采样地点 | MDD 当前把该名纳入 murinus；保留 COL 身份 | COL26.8 目录详情 `#/registry?release=COL26.8&id=42SBT` | P3-36 |
+| 42SC2 *M. rufus* | Ranomafana 16 个月标放再捕与捕获组成 | 单地点捕获不是全种密度或稳定性别比 | COL26.8 目录详情 `#/registry?release=COL26.8&id=42SC2` | P3-36 |
+| 42SC4 *M. simmonsi* | 东部修订、东北部记录与 Betampona 类型地点 | MDD 把 boraha 纳入；COL26.8 分列两个接受种 | COL26.8 目录详情 `#/registry?release=COL26.8&id=42SC4` | P3-36 |
+| 6RFN3 *M. arnholdi* | Montagne d'Ambre 约 990 m 的类型地点和正模 | 类型材料不界定现今完整范围 | COL26.8 目录详情 `#/registry?release=COL26.8&id=6RFN3` | P3-36 |
+| 73FMR *M. margotmarshae* | Antafondro Classified Forest 约 134 m 的类型地点 | 类型点不代表现今分布或森林状况 | COL26.8 目录详情 `#/registry?release=COL26.8&id=73FMR` | P3-36 |
+| 84JFB *M. jonahi* | Ambavala 类型地点、五处低地林样点和局部豆蔻植被观察 | 捕获和植被记录限于东北研究区 | COL26.8 目录详情 `#/registry?release=COL26.8&id=84JFB` | P3-36 |
+
+P3-36 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 210/530（58 个 dossier-backed、152 个 profile-only），320 个接受种仍无种级读者页。计数待 PR #499 的局部校验、CI 与评审完成并入主线后再计为正式覆盖；476 个未命中 dossier 索引的接受种仍需逐项排查。属级介绍与阅读顺序不计入种级分母。主龙现生和化石工作分母及覆盖计数维持 P4-7/P4-8 所列口径。
 
 ### P4-7 主龙现生与化石工作分母冻结（2026-09-30）
 
