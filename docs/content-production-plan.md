@@ -514,3 +514,18 @@ P3-32 未新建物种 dossier；计入本批后灵长类接受种读者页预计
 | 4K5YJ Plecturocebus urubambensis | 2015 描述中的局地标本形态和 Río Urubamba 流域记录 | 调查短，作者提出的河流间范围是工作假说而非屏障检验 | COL26.8 目录详情 #/registry?release=COL26.8&id=4K5YJ | P3-33 |
 
 P3-33 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 185/530（58 个 dossier-backed、127 个 profile-only），345 个接受种仍无种级读者页。以上数量待 PR #499 的 CI 与评审完成、并入主线后再计为正式覆盖；476 个未命中 dossier 索引的接受种仍需逐项排查。主龙现生种级导读维持鳄目 27/27、Aves 9/11,044；本批未扩充主龙。
+
+
+### P3-34 五种 Plecturocebus 行为、声学监测与地方记录导读（2026-09-30）
+
+依据一项玻利维亚城市公园噪声研究、一项两种玻利维亚特有绢毛猴的领地叫声研究、巴拉圭灵长类分布综述及巴西 ICMBio 物种评估，为五个 COL26.8 接受种新增双语 profile-only 页面。页面把群体行为、季节性鸣叫、地方记录和栖地描述限定在各来源实际调查范围内；不将叫声数当作种群密度，也不把省级或河流边界当作完整分布。Vieira 绢毛猴评估列出的一项食性观察只来自一个城市片林群体。本批未新建 dossier，中文普通名为编辑翻译，页面尚未经过外部领域专家评审。
+
+| taxonId / 接受种 | 来源支持的局部主题 | 主要范围限制 | 页面入口 | 批次 |
+| --- | --- | --- | --- | --- |
+| 4K5Y6 Plecturocebus donacophilus | 圣克鲁斯附近公园六群噪声梯度、活动及人体模型反应；粪便皮质醇结果 | 单一城市公园；噪声与人类活动共变，激素样本规模有限 | COL26.8 目录详情 #/registry?release=COL26.8&id=4K5Y6 | P3-34 |
+| 77QLM Plecturocebus modestus | 与 P. olallae 比较的林地连续性和旱季领地叫声差异 | 特定群体和调查期；叫声频率不是密度的直接换算 | COL26.8 目录详情 #/registry?release=COL26.8&id=77QLM | P3-34 |
+| 4K5YD Plecturocebus olallae | 与 P. modestus 比较的林地连续性和雨季领地叫声差异 | 特定群体和调查期；不更新现今分布或数量 | COL26.8 目录详情 #/registry?release=COL26.8&id=4K5YD | P3-34 |
+| 4K5YF Plecturocebus pallescens | 巴拉圭部门级标本与可靠记录、查科湿润地带和水道关联 | 旧标本较多、记录等级不一；仅总结巴拉圭材料 | COL26.8 目录详情 #/registry?release=COL26.8&id=4K5YF | P3-34 |
+| 4K5YK Plecturocebus vieirai | 巴西州级分布、生境及城市片林单群食性观察 | 食性证据仅来自一群；不采用评估中不一致的范围面积值 | COL26.8 目录详情 #/registry?release=COL26.8&id=4K5YK | P3-34 |
+
+P3-34 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 190/530（58 个 dossier-backed、132 个 profile-only），340 个接受种仍无种级读者页。以上数量待 PR #499 的 CI 与评审完成、并入主线后再计为正式覆盖；476 个未命中 dossier 索引的接受种仍需逐项排查。主龙现生种级导读维持鳄目 27/27、Aves 9/11,044；本批未扩充主龙。
