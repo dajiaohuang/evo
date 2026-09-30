@@ -4,6 +4,7 @@ import { readFileSync, writeFileSync } from 'node:fs'
 const targets = [
   {
     id: 'carnufex_carolinensis',
+    speciesName: 'Carnufex carolinensis',
     packagePath: 'data/packages/archosauria/crocodylomorphs-birds',
     sourceClaimIds: {
       taxonomy: 'claim:taxon:carnufex:taxonomy',
@@ -14,6 +15,7 @@ const targets = [
   },
   {
     id: 'asteriornis_maastrichtensis',
+    speciesName: 'Asteriornis maastrichtensis',
     packagePath: 'data/packages/archosauria/crocodylomorphs-birds',
     sourceClaimIds: {
       taxonomy: 'claim:taxon:asteriornis:taxonomy',
@@ -24,6 +26,7 @@ const targets = [
   },
   {
     id: 'ankylosaurus_magniventris',
+    speciesName: 'Ankylosaurus magniventris',
     packagePath: 'data/packages/archosauria/dinosauria',
     sourceClaimIds: {
       taxonomy: 'claim:taxon:ankylosaurus',
@@ -34,6 +37,7 @@ const targets = [
   },
   {
     id: 'buriolestes_schultzi',
+    speciesName: 'Buriolestes schultzi',
     packagePath: 'data/packages/archosauria/dinosauria',
     sourceClaimIds: {
       taxonomy: 'claim:taxon:buriolestes:profile-taxonomy',
@@ -44,6 +48,7 @@ const targets = [
   },
   {
     id: 'yinlong_downsi',
+    speciesName: 'Yinlong downsi',
     packagePath: 'data/packages/archosauria/dinosauria',
     sourceClaimIds: {
       taxonomy: 'claim:taxon:yinlong:profile-taxonomy',
@@ -54,6 +59,7 @@ const targets = [
   },
   {
     id: 'yutyrannus_huali',
+    speciesName: 'Yutyrannus huali',
     packagePath: 'data/packages/archosauria/dinosauria',
     sourceClaimIds: {
       taxonomy: 'claim:taxon:yutyrannus:profile-taxonomy',
@@ -66,11 +72,25 @@ const targets = [
 
 const claimsPath = 'data/evidence/claims.json'
 const rationalesPath = 'data/evidence/claim-rationales.zh.json'
+const speciesScopeEn = {
+  taxonomy: 'For the species-level page, this assessment applies to the named species and its cited diagnosis; it does not imply a broader genus sample.',
+  biogeography: 'For the species-level page, this assessment covers the cited occurrence or localities only and does not estimate a complete range.',
+  morphology: 'For the species-level page, this assessment covers the characters observed in the cited specimens; unsampled variation remains outside it.',
+  ecology: 'For the species-level page, this assessment covers only ecological inferences tied to the cited specimens; unmeasured fields remain unassigned.',
+}
+const speciesScopeZh = {
+  taxonomy: '本种级页面的判断仅适用于所引材料中的该种及其描述，不表示存在更广泛的属级样本。',
+  biogeography: '本种级页面的判断仅覆盖所引化石记录或地点，不据此估算完整分布。',
+  morphology: '本种级页面的判断仅覆盖所引标本中观察到的性状；未取样的种内变异不在此结论内。',
+  ecology: '本种级页面的判断仅覆盖与所引标本相关的生态推断；未测量字段继续保持未指定。',
+}
 const claims = JSON.parse(readFileSync(claimsPath, 'utf8'))
 const rationalesZh = JSON.parse(readFileSync(rationalesPath, 'utf8'))
 const claimsById = new Map(claims.map(claim => [claim.id, claim]))
 let added = 0
+let updatedClaims = 0
 let addedChineseRationales = 0
+let updatedChineseRationales = 0
 
 for (const target of targets) {
   const profile = JSON.parse(readFileSync(`${target.packagePath}/profiles.source.json`, 'utf8'))
@@ -90,16 +110,21 @@ for (const target of targets) {
     const claim = structuredClone(source)
     claim.id = `claim:taxon:${target.id}:${claimType}`
     claim.subjectId = `taxon:${target.id}`
+    claim.confidenceRationale = source.confidenceRationale + ' ' + target.speciesName + ': ' + speciesScopeEn[claimType]
     const sourceRationaleZh = rationalesZh[sourceClaimId]
     assert.ok(sourceRationaleZh, `Missing Chinese confidence rationale for ${sourceClaimId}`)
-    if (Object.hasOwn(rationalesZh, claim.id)) {
-      assert.equal(rationalesZh[claim.id], sourceRationaleZh, `Conflicting Chinese confidence rationale for ${claim.id}`)
-    } else {
-      rationalesZh[claim.id] = sourceRationaleZh
-      addedChineseRationales += 1
-    }
+    const speciesRationaleZh = sourceRationaleZh + ' ' + target.speciesName + '：' + speciesScopeZh[claimType]
+    if (!Object.hasOwn(rationalesZh, claim.id)) addedChineseRationales += 1
+    else if (rationalesZh[claim.id] !== speciesRationaleZh) updatedChineseRationales += 1
+    rationalesZh[claim.id] = speciesRationaleZh
     const existing = claimsById.get(claim.id)
-    if (existing) assert.deepEqual(existing, claim, `Conflicting claim ${claim.id}`)
+    if (existing) {
+      const comparable = structuredClone(existing)
+      comparable.confidenceRationale = claim.confidenceRationale
+      assert.deepEqual(comparable, claim, `Conflicting claim ${claim.id}`)
+      if (existing.confidenceRationale !== claim.confidenceRationale) updatedClaims += 1
+      Object.assign(existing, claim)
+    }
     else {
       claims.push(claim)
       claimsById.set(claim.id, claim)
@@ -110,4 +135,4 @@ for (const target of targets) {
 
 writeFileSync(claimsPath, `${JSON.stringify(claims, null, 2)}\n`, 'utf8')
 writeFileSync(rationalesPath, `${JSON.stringify(rationalesZh, null, 2)}\n`, 'utf8')
-console.log(JSON.stringify({ species: targets.map(target => target.id), addedClaims: added, addedChineseRationales }, null, 2))
+console.log(JSON.stringify({ species: targets.map(target => target.id), addedClaims: added, updatedClaims, addedChineseRationales, updatedChineseRationales }, null, 2))
