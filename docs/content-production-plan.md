@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-58 已为固定名录中的六个 Chlorocebus 种级 ID 新增双语来源页，并建立真实 COL 属级 ID 3NM7 的阅读路径。灵长类现有 379/530 个种级页面记录（54 个 dossier-backed、325 个 profile-only）；151 个仍无种级页面，476 个仍未命中 dossier 索引。C. minusculus、P. lulindicus 与 A. jorgehernandezi 仅有分类史或局地材料，不计首轮综合内容标准，因此 376 个接受种达到首轮标准、154 个尚未达到。接续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-59 已为固定名录中的五个 Nomascus 种级 ID 新增双语来源页，并建立真实 COL 属级 ID 64QQ 的阅读路径。灵长类现有 384/530 个种级页面记录（54 个 dossier-backed、330 个 profile-only）；146 个仍无种级页面，476 个仍未命中 dossier 索引。C. minusculus、P. lulindicus 与 A. jorgehernandezi 仅有分类史或局地材料，不计首轮综合内容标准，因此 381 个接受种达到首轮标准、149 个尚未达到。接续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1050,5 +1050,23 @@ Aotus 阅读路径串联哥伦比亚低地与安第斯夜猴的单群研究、�
 属级路径并列贝尔山猴的森林残片食谱、格里维猴的季节性取食、坦塔鲁斯猴的局地种子传播、草原绿猴的社会游戏、马布鲁克猴的跨境相机记录与德赖斯猴的林下相机调查。德赖斯猴的页面保留固定 COL26.8 名称，并单独说明论文的 *C. salongo* 处理；机构报告的相机指数与同行评审论文的样线、食性和行为证据分开呈现。
 
 来源：[Alelign 等（2023），*C. aethiops*](https://doi.org/10.1155/2023/5828576)；[Liuwa–Mussuma 景观范围界定报告，*C. cynosuros*](https://tfcaportal.org/repository/repository381.pdf)；[Grassham 等（2015），*C. tantalus*](https://static1.1.sqspcdn.com/static/f/1200343/26671565/1447432043637/African%2BPrimates%2BVol%2B10%2B2015%2BGrassham%2Bet%2Bal.pdf)；[Mekonnen 等（2018），*C. djamdjamensis*](https://doi.org/10.1186/s12898-018-0161-4)；[Rittler 等（2024），*C. pygerythrus*](https://doi.org/10.1016/j.anbehav.2024.05.016)；[Alempijevic 等（2022），*C. dryas*](https://doi.org/10.1017/S0030605320000575)；[Colmonero-Costeira 等（2025），*C. sabaeus*](https://doi.org/10.1007/s10764-025-00496-0)。
+
+依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影与数据清单。
+
+## P3-59 五种 Nomascus 冠长臂猿属来源页与属级阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 / 分类差异 | 批次 |
+|---|---|---|---|
+| 47NQK *N. annamensis* | Veun Sai–Siem Pang 两个旱季中的链锯噪声与行为观察 | 一群完全习惯化个体；扫描差异、休息差异和未显著的叫声趋势分别呈现 | P3-59 |
+| 47NQL *N. concolor* | 无量山一群多雌群的社会组织与长期群体观察 | 三群、单一地点；不概括全种社会结构 | P3-59 |
+| 47NQM *N. gabriellae* | Cát Tiên 一群三只个体的全年活动范围 | 一年、1,391 小时、168 天；局地家域不能外推 | P3-59 |
+| 47NQN *N. hainanus* | 霸王岭五群家域与栖息地适宜性模型 | 观察与模型分别注明研究期；不作为当前种群普查 | P3-59 |
+| 47NQR *N. siki* | Trường Sơn 重点区的多地点猴群调查 | 2018—2019 年四处调查结合 2016 年 Khe Nuoc Trong 调查；估计限于该重点区 | P3-59 |
+
+本批新增五个 profile-only 种级页，并新建 COL 属级 ID 64QQ 的阅读路径，纳入既有 *N. leucogenys* 与 *N. nasutus* 页面；固定名录的七个 Nomascus 种级 ID 现均有页面记录。五个新增 ID 的本地 dossier 队列均为 missing，introductorySummary 均为 absent；未新增 dossier 或外部领域专家评审。批次后为 384/530 个种级页面记录（54 个 dossier-backed、330 个 profile-only）；146 个接受种仍无种级页面，476 个仍未命中 dossier 索引。*C. minusculus*、*P. lulindicus* 与 *A. jorgehernandezi* 仍未达到首轮综合正文标准，因此 381 个接受种达到首轮标准、149 个尚未达到。英文普通名采用 Mammal Diversity Database v2.5，中文普通名为编辑译名。
+
+属级路径串联柬埔寨链锯噪声行为研究、云南多雌群观察、越南 Cát Tiên 季节性活动范围、海南霸王岭生境模型、Trường Sơn 猴群调查，以及既有高北白颊长臂猿跨境估计和北白颊长臂猿圈养发声页。各研究的地点、时间、方法与样本不同；本路径不是属级生态综合或分类修订。既有 *N. leucogenys* 页使用圈养发声资料，不代表野外叫声谱。
+
+来源：[McGrath、Malone 与 Behie（2024），*N. annamensis*](https://doi.org/10.1002/wlb3.01196)；[Fan 与 Jiang（2010），*N. concolor*](https://doi.org/10.1007/s10764-009-9375-9)；[Bach Thanh Hai 等（2020），*N. gabriellae*](https://static1.1.sqspcdn.com/static/f/1200343/28371987/1605632995340/VJP_3_2_pp1-22.pdf)；[He 等（2023），*N. hainanus*](https://doi.org/10.1111/1749-4877.12684)；[Duy 等（2020），*N. siki*](https://doi.org/10.15625/0866-7160/v42n1.14762)；[Wearn 等（2024），*N. nasutus*](https://doi.org/10.1038/s41598-023-50838-2)；[Hradec 等（2026），圈养 *N. leucogenys* 发声](https://doi.org/10.1007/s10764-026-00569-8)。
 
 依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影与数据清单。
