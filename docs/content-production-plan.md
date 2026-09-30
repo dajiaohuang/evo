@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-59 已为固定名录中的五个 Nomascus 种级 ID 新增双语来源页，并建立真实 COL 属级 ID 64QQ 的阅读路径。灵长类现有 384/530 个种级页面记录（54 个 dossier-backed、330 个 profile-only）；146 个仍无种级页面，476 个仍未命中 dossier 索引。C. minusculus、P. lulindicus 与 A. jorgehernandezi 仅有分类史或局地材料，不计首轮综合内容标准，因此 381 个接受种达到首轮标准、149 个尚未达到。接续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-60 已为固定名录中的四个 Papio 种级 ID 新增双语来源页，并建立真实 COL 属级 ID 6DGR 的阅读路径。灵长类现有 388/530 个种级页面记录（54 个 dossier-backed、334 个 profile-only）；142 个仍无种级页面，476 个仍未命中 dossier 索引。C. minusculus、P. lulindicus 与 A. jorgehernandezi 仅有分类史或局地材料，不计首轮综合内容标准，因此 385 个接受种达到首轮标准、145 个尚未达到。接续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1068,5 +1068,22 @@ Aotus 阅读路径串联哥伦比亚低地与安第斯夜猴的单群研究、�
 属级路径串联柬埔寨链锯噪声行为研究、云南多雌群观察、越南 Cát Tiên 季节性活动范围、海南霸王岭生境模型、Trường Sơn 猴群调查，以及既有高北白颊长臂猿跨境估计和北白颊长臂猿圈养发声页。各研究的地点、时间、方法与样本不同；本路径不是属级生态综合或分类修订。既有 *N. leucogenys* 页使用圈养发声资料，不代表野外叫声谱。
 
 来源：[McGrath、Malone 与 Behie（2024），*N. annamensis*](https://doi.org/10.1002/wlb3.01196)；[Fan 与 Jiang（2010），*N. concolor*](https://doi.org/10.1007/s10764-009-9375-9)；[Bach Thanh Hai 等（2020），*N. gabriellae*](https://static1.1.sqspcdn.com/static/f/1200343/28371987/1605632995340/VJP_3_2_pp1-22.pdf)；[He 等（2023），*N. hainanus*](https://doi.org/10.1111/1749-4877.12684)；[Duy 等（2020），*N. siki*](https://doi.org/10.15625/0866-7160/v42n1.14762)；[Wearn 等（2024），*N. nasutus*](https://doi.org/10.1038/s41598-023-50838-2)；[Hradec 等（2026），圈养 *N. leucogenys* 发声](https://doi.org/10.1007/s10764-026-00569-8)。
+
+依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影与数据清单。
+
+## P3-60 四种 Papio 狒狒属来源页与属级阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 / 分类差异 | 批次 |
+|---|---|---|---|
+| 4CKYY *P. cynocephalus* | Amboseli 幼年雌猴的膳食营养与终身繁殖预测 | 研究对象为当地幼年雌猴；模型关联不是因果实验或全种食谱 | P3-60 |
+| 4CKZ8 *P. kindae* | Kasanka 九年资料中的雌雄梳理、接近与长期关系 | 单一国家公园种群；不外推为全种固定社会模式 | P3-60 |
+| 4CKZP *P. ursinus* | 开普半岛天然取食群体的海洋食物、活动和移动 | 一个猴群、四季、13 个月；群体间对照不能单独确证因果 | P3-60 |
+| 75M9B *P. papio* | Niokolo Koba 水源地附近猴群经过空地时的分裂与融合 | 一个猴群、三个月固定点观察；不代表全种猴群结构 | P3-60 |
+
+本批新增四个 profile-only 种级页面，并建立 COL 属级 ID 6DGR 的阅读路径，串联上述四篇研究与既有 *P. hamadryas*、*P. anubis* 页面。固定名录中的六个 Papio 种级 ID 现均有页面记录。四个新增 ID 在本地 dossier 分片中均无命中；未新增 dossier 或外部领域专家评审。批次后为 388/530 个种级页面记录（54 个 dossier-backed、334 个 profile-only），142 个接受种仍无种级页面；*C. minusculus*、*P. lulindicus* 与 *A. jorgehernandezi* 仍未达到首轮综合正文标准，因此 385 个接受种达到首轮标准、145 个尚未达到；476 个仍未命中 dossier 索引。英文普通名参考 Mammal Diversity Database v2.5，中文名为编辑译名。
+
+Papio 阅读路径先比较黄狒狒幼年雌猴膳食营养与查克马狒狒天然取食群体的移动，再并读金达狒狒长期雌雄关系和几内亚狒狒猴群的分合观察，最后对照既有哈马狒狒 GPS 研究与橄榄狒狒的小样本 Alu 插入面板。地点、样本和研究问题不同，不据此合成属级平均值、统一生态规律或单一社会模型。
+
+来源：[Altmann（1991），黄狒狒膳食与终身适合度](https://doi.org/10.1073/pnas.88.2.420)；[Weyher 等（2025），金达狒狒雌雄社会关系](https://doi.org/10.1002/ajpa.25056)；[Lewis 与 O’Riain（2017），开普半岛查克马狒狒取食与移动](https://doi.org/10.1007/s10764-017-9978-5)；[Patzelt 等（2011），几内亚狒狒猴群组成](https://doi.org/10.1007/s10764-011-9493-z)；[MDD v2.5：黄狒狒](https://www.mammaldiversity.org/taxon/1000629/)、[金达狒狒](https://www.mammaldiversity.org/taxon/1000631/)、[查克马狒狒](https://www.mammaldiversity.org/taxon/1000633/) 与 [几内亚狒狒](https://www.mammaldiversity.org/taxon/1000632/)。
 
 依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影与数据清单。
