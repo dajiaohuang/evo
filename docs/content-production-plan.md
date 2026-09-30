@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-55 已为 Mico 固定名录中的七个剩余种级 ID 增加双语来源链接页，并扩展真实 COL 属级 ID 63B9H 的证据类型阅读路径。灵长类现有 359/530 个种级页面记录（54 个 dossier-backed、305 个 profile-only）；171 个仍无种级页面记录，476 个仍未命中 dossier 索引。P. minusculus 与 P. lulindicus 两页仍为 source-insufficient，因此 357 个接受种达到首轮内容标准，173 个尚未达到。新页区分历史观察、不同调查时期、范围图和有日期的国家评估；完成剩余灵长类后继续主龙类。计数待 PR #499 局部校验、评审与并入主线后再正式确认。纯内容变更不运行测试、内容/数据/增量校验或 CI。
+下一执行动作：P3-56 已为 Aotus 固定名录中的七个种级 ID 增加双语来源页，并建立真实 COL 属级 ID 62D8D 的阅读路径。灵长类现有 366/530 个种级页面记录（54 个 dossier-backed、312 个 profile-only）；164 个仍无种级页面记录，476 个仍未命中 dossier 索引。P. minusculus、P. lulindicus 与 A. jorgehernandezi 的页面仅支持局地研究或分类史，不计首轮综合内容标准，因此 363 个接受种达到首轮内容标准，167 个尚未达到。新页区分单群观察、历史样线密度、模型结果和分类意见；完成剩余灵长类后继续主龙类。计数待 PR #499 评审与并入主线后再正式确认。纯内容变更不运行测试、内容/数据/增量校验或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -989,5 +989,25 @@ Pithecia 的分类处理在来源之间不一致：2019 年毛色比较把 *P. r
 Mico 阅读路径按证据类型串联范围图叠置、局地历史观察、不同年份的区域调查、有日期的国家评估和综合分类研究；不是完整属级目录、生态综合或系统发育树。Mico humilis 页面依 COL26.8 使用 Mico 组合，保留 2013 年文献的 Callibella humilis 原名；MDD 注记亦记录属级处理差异。
 
 来源：[Garbino, Silva & Davis (2013), M. humilis](https://doi.org/10.1007/s10329-013-0381-3)、[Rylands (1979), M. intermedius](https://www.scielo.br/j/aa/a/mnmJCbfQkn5v3p4PqCtLG7N/)、[Silva et al. (2020), M. marcai](https://doi.org/10.1017/S0030605318000303)、[Noronha et al. (2008), M. mauesi](https://doi.org/10.1896/044.015.0105)、[ICMBio SALVE (2025), M. saterei](https://doi.org/10.37002/salve.ficha.30173.2)、[Silva et al. (2018), M. chrysoleucos](https://doi.org/10.1007/s10329-018-0665-8)、[Costa-Araújo et al. (2023), M. chrysoleucos](https://doi.org/10.5194/pb-10-7-2023)、[Costa-Araújo et al. (2021), M. schneideri](https://doi.org/10.1038/s41598-021-93943-w)、MDD v2.5 [humilis](https://www.mammaldiversity.org/taxon/1000796/)、[intermedius](https://www.mammaldiversity.org/taxon/1000797/)、[marcai](https://www.mammaldiversity.org/taxon/1000799/)、[mauesi](https://www.mammaldiversity.org/taxon/1000800/)、[saterei](https://www.mammaldiversity.org/taxon/1000805/)、[chrysoleucos](https://www.mammaldiversity.org/taxon/1000793/) 与 [schneideri](https://www.mammaldiversity.org/taxon/1006579/)。
+
+依照 content-only 工作流，本批不运行测试、内容校验、数据校验、增量校验或 CI；仅为读者入口刷新运行时投影与数据清单。
+
+## P3-56 七种 Aotus 夜猴来源页与属级阅读路径（2026-09-30）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 / 分类差异 | 批次 |
+|---|---|---|---|
+| 67L6F A. griseimembra | 哥伦比亚中部一群低地夜猴的活动、食性和活动范围 | 2018—2019 年、一个地点、一群五只；活动范围因估算方法而异 | P3-56 |
+| F6F8 A. brumbacki | 哥伦比亚东部 Llanos 四个景观的 24 处睡眠地点 | 普查与访谈辅助搜索混合；不是丰度估计或当前分布调查 | P3-56 |
+| F6FK A. jorgehernandezi | 2007 年核型描述与 2025 年次异名主张 | 模式标本未定位、来源地点不确定；COL26.8 与本地 MDD v2.5 保留独立记录；仅作分类史页，不计首轮综合内容达标 | P3-56 |
+| F6FN A. lemurinus | 哥伦比亚安第斯两处地点的三群夜猴研究 | 约一年观察；群体行为和食性不代表全种 | P3-56 |
+| F6FP A. miconax | 秘鲁东北部出现记录与生态位模型 | 地点统计合并多个 Aotus；历史适生区为模型结果 | P3-56 |
+| F6FS A. nancymai | 秘鲁东北部历史样线密度与地理记录 | 1988 年林型估算，不代表当前数量或完整分布 | P3-56 |
+| F6G8 A. zonalis | 巴拿马 Chagres 国家公园三地点样线试点 | 2008 年三个月调查，作者建议更长期验证 | P3-56 |
+
+本批新增七个 profile-only 种级页，并新建 COL 属级 ID 62D8D 的阅读路径；A. jorgehernandezi 仅有分类史材料，不计首轮综合内容达标。七个候选种的本地 dossier 队列均为 missing，introductorySummary 均为 absent；未新增 dossier 或外部领域专家评审。批次后为 366/530 个种级页面记录（54 个 dossier-backed、312 个 profile-only）；164 个接受种仍无种级页面记录，476 个仍未命中 dossier 索引。P. minusculus、P. lulindicus 与 A. jorgehernandezi 三页均为 source-insufficient 或分类史范围有限，故 363 个接受种达到首轮内容标准、167 个尚未达到。英文普通名参考 Mammal Diversity Database v2.5，中文普通名为编辑译名。
+
+Aotus 阅读路径串联哥伦比亚低地与安第斯夜猴的单群研究、巴拿马公园样线、Llanos 巢位记录、秘鲁东北部调查、历史密度估算和分类争议；并保留其余四个固定种级 ID 的间河区地图叠置入口。地图相交不等于逐点确认，早期密度不代表当前数量，2025 年异名主张也不覆盖固定 COL26.8 名录。此路径不是全属生态综述或系统发育树。
+
+来源：[Montilla 等（2021），哥伦比亚夜猴活动、食性与活动范围](https://doi.org/10.1007/s10764-020-00192-1)、[Carretero 与 Ortiz-Moreno（2024），A. brumbacki 巢位](https://doi.org/10.47603/mano.v10n2.465)、[Shanee 等（2015），A. miconax 分布调查](https://doi.org/10.11609/JoTT.o4184.6947-64)、[Aquino 与 Encarnación（1988），秘鲁东北部夜猴样线估算](https://www.iiap.gob.pe/Archivos/publicaciones/CDinvestigacion/unmsm/unmsm-i11/unmsm-i11.htm)、[Svensson 等（2010），A. zonalis 密度试点](https://doi.org/10.1002/ajp.20758)、[Defler 与 Bueno（2007），Aotus 多样性与物种问题](https://doi.org/10.1896/052.022.0104)、[Montilla 等（2025），A. jorgehernandezi 分类比较](https://doi.org/10.11646/bionomina.43.3.3)。
 
 依照 content-only 工作流，本批不运行测试、内容校验、数据校验、增量校验或 CI；仅为读者入口刷新运行时投影与数据清单。
