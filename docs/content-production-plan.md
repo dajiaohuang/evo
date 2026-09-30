@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-65 已为固定名录中的五个 Cacajao 种级 ID 新增双语来源页，并为真实 COL 属级 ID 62JQP 建立阅读路径。灵长类现有 412/530 个种级页面记录（54 个 dossier-backed、358 个 profile-only）；118 个仍无种级页面，476 个仍未命中 dossier 索引。除既有四项来源不足或分类史页外，C. novaesi 与 C. rubicundus 的现有资料仍不足以形成首轮综合生态页；因此 406 个接受种达到首轮标准、124 个尚未达到。继续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-66 已为四个 Tarsius 固定名录 ID 补充来源页，并扩展真实 COL 属级 ID 7SV5 的阅读路径。灵长类现有 416/530 个种级页面记录（54 个 dossier-backed、362 个 profile-only）；114 个仍无种级页面，476 个仍未命中 dossier 索引。三项有局地野外研究支持首轮综合内容标准；T. tarsier 的旧研究将 Selayar 与大陆 Patunuang 观察合并，故本页仅作分类与证据归属说明，未计入首轮标准。目前七项来源不足或仅有分类史材料，409 个接受种达到首轮标准。继续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1179,3 +1179,20 @@ Cacajao 阅读路径先读 2022 年秃乌卡里分子系统学与 *C. amuna* 描
 来源：[Silva 等（2022），Cacajao 分子系统学与新种](https://doi.org/10.1016/j.ympev.2022.107509)；[Boubli 等（2008），*C. ayresi* 分类重估](https://doi.org/10.1007/s10764-008-9248-7)；[Heymann 与 Aquino（2010），*C. ucayalii* 栖地记录](https://doi.org/10.1007/s10764-010-9425-3)；[León 与 Bowler（2026），*C. ucayalii* 声音研究](https://doi.org/10.1007/s10764-026-00543-4)；[IUCN（2021），*C. calvus rubicundus* 评估](https://doi.org/10.2305/IUCN.UK.2021-3.RLTS.T3422A206546924.en)。
 
 依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影与数据清单。
+
+## P3-66 四种 Tarsius 眼镜猴属页面与十二种阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 / 分类差异 | 批次 |
+|---|---|---|---|
+| 54XZC *T. pelengensis* | 2017—2018 年邦盖群岛四岛调查；Peleng 距离抽样估值及多种植被环境记录 | 225 小时接触；估值仅限 Peleng 样区与该研究方法；两岛未检出不证明缺席 | P3-66 |
+| 7BLTM *T. sangirensis* | Sangihe 1995—1997 年短期观察、六个睡眠点和受扰生境记录 | 非随机调查；2009 年潜在种群数来自近缘种密度模型，不是直接计数；COL 与 MDD 作者年份不同 | P3-66 |
+| 7BM5P *T. fuscus* | 南苏拉威西两个地点的睡眠巢基质和海拔 | 2020—2021 年、13 个巢；局地巢址观察，不代表全分布区或种群趋势 | P3-66 |
+| 54XZK *T. tarsier* | Selayar 限定分类与旧研究的证据归属说明 | 2008 年论文合并 Selayar 与大陆 Patunuang 观察，无法按现行分类拆分；不计首轮综合生态标准 | P3-66 |
+
+本批新增四个双语 profile-only 种级页面，并扩展 COL 属级 ID 7SV5 的阅读路径，连接固定名录中的十二个 Tarsius 种级 ID。四个新增 ID 在本地队列中均无 dossier 或导读摘要；未新增 dossier 或外部领域专家评审。批次后灵长类种级页面为 416/530（54 个 dossier-backed、362 个 profile-only），114 个固定接受种仍无种级页；409 个达到首轮综合内容标准，7 个尚未达到（包括已有六项来源不足或分类史材料，以及本批 T. tarsier 的归属限制）；476 个仍未命中 dossier 索引。英文普通名参考 MDD v2.5，中文名为编辑译名。
+
+Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的分岛调查，再阅读 T. sangirensis 的历史短期观察；T. tarsier 页面说明当前分类范围与旧研究合并样本之间的证据断点。随后连接已有的 T. pumilus、T. dentatus、T. lariang、T. wallacei、T. tumpara、T. niemitzi、T. spectrumgurskyae 和 T. supriatnai 页面。不同地点、时期与方法保持分开，不推导属级统一生态规律。
+
+来源：[Syahrullah 等（2023），T. pelengensis 邦盖群岛调查](https://doi.org/10.1038/s41598-023-30049-5)；[Shekelle（2013），Sangihe 野外观察](https://static1.1.sqspcdn.com/static/f/1200343/24562215/1395239388307/Article3_Shekelle_Ver5_2014Mar19.pdf)；[Shekelle 与 Salim（2009），Sangihe GIS 栖地评估](https://doi.org/10.1017/S0030605309000337)；[Andriyani 等（2021），T. fuscus 巢址调查](https://doi.org/10.1088/1755-1315/948/1/012034)；[Groves 与 Shekelle（2010），Tarsiidae 分类](https://doi.org/10.1007/s10764-010-9443-1)；[Wirdateti 与 Dahrudin（2008），旧名 T. tarsier 的 Selayar 与 Patunuang 观察](https://doi.org/10.13057/biodiv/d090215)。
+
+依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影、注册表和数据清单。
