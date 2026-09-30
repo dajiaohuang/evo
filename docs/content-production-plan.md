@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-64 已为固定名录中的四个 Callithrix 种级 ID 新增双语来源页，并为真实 COL 属级 ID 3FM4 新建阅读路径，连接全部六个固定种级 ID。灵长类现有 407/530 个种级页面记录（54 个 dossier-backed、353 个 profile-only）；123 个仍无种级页面，476 个仍未命中 dossier 索引。C. minusculus、P. lulindicus、A. jorgehernandezi 与 S. cucullatus 仍未达到首轮综合内容标准；因此 403 个接受种达到首轮标准、127 个尚未达到。继续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-65 已为固定名录中的五个 Cacajao 种级 ID 新增双语来源页，并为真实 COL 属级 ID 62JQP 建立阅读路径。灵长类现有 412/530 个种级页面记录（54 个 dossier-backed、358 个 profile-only）；118 个仍无种级页面，476 个仍未命中 dossier 索引。除既有四项来源不足或分类史页外，C. novaesi 与 C. rubicundus 的现有资料仍不足以形成首轮综合生态页；因此 406 个接受种达到首轮标准、124 个尚未达到。继续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1159,5 +1159,23 @@ Eulemur 阅读路径先比较 *E. collaris* 沿海林片研究与 Ankarana 的 *
 Callithrix 阅读路径先读 *C. kuhlii* 跨森林覆盖梯度的稳定同位素研究，再比较 *C. flaviceps* 局地样线调查与 *C. geoffroyi* 单群体取食记录；随后阅读 *C. penicillata* 联邦区野外观察，并对照较早的 *C. kuhli* 生态研究。不同地点、方法和样本量保持分开，不推导属级生态规律。
 
 来源：[Soto da Costa 等（2026），*C. kuhlii* 稳定同位素研究](https://doi.org/10.3389/fevo.2026.1893225)；[Rylands（1989），*C. kuhli* 与共域狮面狨](https://doi.org/10.1016/0047-2484(89)90100-0)；[Pinto 等（1993），*C. flaviceps* 样线调查](https://doi.org/10.1159/000156740)；[Passamani 与 Rylands（2000），*C. geoffroyi* 取食研究](https://doi.org/10.1007/BF02557459)；[de Miranda 与 de Faria（2001），*C. penicillata* 生态研究](https://doi.org/10.1590/S1519-69842001000300008)；MDD v2.5：[Wied’s](https://www.mammaldiversity.org/taxon/1000783/)、[buffy-headed](https://www.mammaldiversity.org/taxon/1000780/)、[Geoffroy’s tufted-ear](https://www.mammaldiversity.org/taxon/1000781/) 与 [black-tufted-ear](https://www.mammaldiversity.org/taxon/1000784/) marmosets。
+
+依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影与数据清单。
+
+## P3-65 五种 Cacajao 秃乌卡里属来源页与属级阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 / 分类差异 | 批次 |
+|---|---|---|---|
+| BMP3K *C. amuna* | 2022 年秃乌卡里系统学研究中的新种；Lago Itucumã 模式产地 | 先前种群曾归入 *C. calvus*；模式产地不等于完整分布 | P3-65 |
+| P4C6 *C. ayresi* | Rio Aracá 黑秃乌卡里的形态与分子分类重估 | 2008 年调查/标本证据；不是当前数量评估 | P3-65 |
+| BSD3J *C. ucayalii* | 秘鲁栖地记录重估与 2026 年声音 repertoire | 栖地来源采用旧组合 *C. calvus ucayalii*；声音研究来自一个野生种群 | P3-65 |
+| BSCYK *C. novaesi* | 旧亚种组合在 2022 年分子系统学论文中的使用 | 仅分类史/名称等级证据；现有来源不足以写本种生态 | P3-65 |
+| BSCWK *C. rubicundus* | COL/MDD 种级身份与 2021 年 IUCN 亚种评估之间的差异 | 评估称当时缺少野外生态资料；不推断完整分布或栖地 | P3-65 |
+
+本批新增五个双语 profile-only 种级页面，并为真实 COL 属级 ID 62JQP 建立阅读路径，连接全部五个固定种级 ID。五个新增 ID 在本地证据队列中均无 dossier；未新增 dossier 或外部领域专家评审。批次后灵长类种级页为 412/530（54 个 dossier-backed、358 个 profile-only），118 个固定接受种仍无种级页；406 个达到首轮综合内容标准，124 个尚未达到，其中六项来源不足或仅有分类史材料；476 个仍未命中 dossier 索引。英文普通名参考 Mammal Diversity Database v2.5，中文名为编辑译名。
+
+Cacajao 阅读路径先读 2022 年秃乌卡里分子系统学与 *C. amuna* 描述，再读 2008 年 Rio Aracá *C. ayresi* 分类重估；随后比较 *C. ucayalii* 的非洪泛林记录与较新的声音研究。*C. novaesi* 和 *C. rubicundus* 的页面保留旧组合名和等级差异；现有来源不支持将其扩写为完整种级生态叙述。
+
+来源：[Silva 等（2022），Cacajao 分子系统学与新种](https://doi.org/10.1016/j.ympev.2022.107509)；[Boubli 等（2008），*C. ayresi* 分类重估](https://doi.org/10.1007/s10764-008-9248-7)；[Heymann 与 Aquino（2010），*C. ucayalii* 栖地记录](https://doi.org/10.1007/s10764-010-9425-3)；[León 与 Bowler（2026），*C. ucayalii* 声音研究](https://doi.org/10.1007/s10764-026-00543-4)；[IUCN（2021），*C. calvus rubicundus* 评估](https://doi.org/10.2305/IUCN.UK.2021-3.RLTS.T3422A206546924.en)。
 
 依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影与数据清单。
