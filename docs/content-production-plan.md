@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-48 已新增十种 Trachypithecus 页面并扩展属级阅读路径；灵长类固定分母目前 298/530（54 个 dossier-backed、244 个 profile-only），232 个接受种仍无种级读者页，476 个仍未命中 dossier 索引。银叶猴群页面保留 2008 年短线粒体分析的分类边界；T. phayrei 与 T. popa 页面区分论文分类提案和 COL26.8 身份。下一批继续补齐剩余灵长类，完成后回到主龙类；主龙类分母见本计划。纯内容变更不运行测试、内容/数据/增量校验或 CI。
+下一执行动作：P3-49 已新增 11 种 Presbytis 页面并扩展属级阅读路径；灵长类固定分母目前 309/530（54 个 dossier-backed、255 个 profile-only），221 个接受种仍无种级读者页，476 个仍未命中 dossier 索引。页面分别保留旧分类组合、地区样本、短期调查和线粒体证据的边界。下一批继续补齐剩余灵长类，完成后回到主龙类；主龙类分母见本计划。纯内容变更不运行测试、内容/数据/增量校验或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -833,3 +833,30 @@ P4-8 后，化石物种页为非鸟恐龙 5/1,794、化石 Aves 1/1,743、Crocod
 本批只更新原创内容及必要的 registry/manifest 投影；根据用户指定的 content-only 工作流，没有运行测试、内容校验、数据校验、增量校验或 CI。
 
 来源：[Roos, Nadler & Walter (2008)](https://doi.org/10.1016/j.ympev.2008.03.006)、[Geissmann, Groves & Roos (2004)](https://repository.naturalis.nl/pub/534417)、[Ma et al. (2020)](https://doi.org/10.24272/j.issn.2095-8137.2020.047)、[Roos et al. (2020)](https://doi.org/10.24272/j.issn.2095-8137.2020.254) 与 [Gogoi et al. (2025)](https://doi.org/10.1016/j.japb.2025.06.001)。
+
+
+## P3-49 十一种 Presbytis 物种页与属级阅读路径补充（2026-09-30）
+
+新增 11 个 COL26.8 接受种的双语 source-linked 页面，并扩展真实属级 COL ID 6VKV 的阅读路径。此批将短期岛屿调查、局地生态观察、长期生活史和分类分子证据按各自样本与历史名称拆开呈现；Meyer 等人的属级线粒体研究作为分类背景，不替代完整系统修订。
+
+| COL ID / 接受种 | 本页证据主题 | 主要边界 | 批次 |
+| --- | --- | --- | --- |
+| 4MBBC *Presbytis natunae* | Bunguran 两个月调查中的群体与低地森林记录 | 2003 年短期调查，不是当前数量估计 | P3-49 |
+| 4MBBF *P. potenziani* | 北巴盖岛 10 群体的取食、上层冠层与移动 | 仅一个岛屿的原生林研究 | P3-49 |
+| 4MBBL *P. siberu* | 西伯鲁岛样本在旧组合 P. potenziani 下的栖冠和取食记录 | 旧分类标签的地点映射，不当作现代全种估计 | P3-49 |
+| 4MBBJ *P. sabana* | 北婆罗洲研究中的响亮叫声差异与分类讨论 | 研究主要聚焦 P. hosei | P3-49 |
+| 4MBBK *P. siamensis* | Bintan rhionis 四天调查及另外一份苏门答腊 cf. cana 粪样 | 地点、分类单位和数据类型不可合并 | P3-49 |
+| 4MBBM *P. sumatrana* | Martabe 邻近林地的家域重叠与冠层使用 | 一项 2024 年学士论文的局地结果 | P3-49 |
+| 4MBBP *P. thomasi* | 12.5 年生活史记录和稳定群体阶段比较 | 特定野外研究期和社会阶段 | P3-49 |
+| 6W99P *P. bicolor* | Indragiri 与 Batanghari 之间的记录、橡胶林取食 | 2016—2022 年地点与观察汇编 | P3-49 |
+| 77WXP *P. canicrus* | Wehea 两处矿物泉的观察与相机记录 | 2012 论文使用旧组合 P. hosei canicrus | P3-49 |
+| 84HVS *P. robinsoni* | 既有线粒体序列的分类比较 | 研究仅有一条公开序列，不是新种群采样 | P3-49 |
+| 84JLJ *P. percura* | 东苏门答腊粪样的首批线粒体基因组 | 少量母系标记；旧文献使用亚种组合 | P3-49 |
+
+本批 11 种均没有 species dossier，新增页面为 profile-only，没有改变外部领域专家评审状态。英文普通名使用本地 MDD v2.5 交叉表，中文普通名为编辑译名。固定灵长类读者页为 309/530（54 个 dossier-backed、255 个 profile-only）；221 个接受种仍无种级读者页，476 个仍未命中 dossier 索引。属级阅读路径串联选定证据，不是完整属级名录。
+
+根据用户指定的 content-only 工作流，本批未运行测试、内容校验、数据校验、增量校验或 CI；只为接入读者页面刷新 registry 与 manifest 投影。
+
+来源：[Lammertink, Nijman & Setiorini (2003)](https://doi.org/10.1017/S003060530300084X)、[Fuentes (1996)](https://doi.org/10.1007/BF02735190)、[Hadi et al. (2012)](https://doi.org/10.1007/s10764-011-9567-y)、[Iqbal et al. (2023)](https://doi.org/10.37828/em.2023.61.3) 与 [Lhota et al. (2012)](https://doi.org/10.1002/ajp.21983)。
+
+补充来源：[Ramlee (2013)](https://doi.org/10.25911/5d5e72535cf55)、[Karuniawati et al. (2024)](https://www.wildspace.sg/_files/ugd/58532a_7c36caf7f15a4af08793282662e95ca5.pdf)、[Ang et al. (2020)](https://doi.org/10.1038/s41598-020-66007-8)、[Afif, Rianti & Tanio (2024)](https://repository.ipb.ac.id/handle/123456789/153507)、[Steenbeek & van Schaik (2001)](https://doi.org/10.1007/s002650000286)、[Wich et al. (2007)](https://doi.org/10.1002/ajp.20386) 与 [Meyer et al. (2011)](https://doi.org/10.1016/j.ympev.2011.02.015)。
