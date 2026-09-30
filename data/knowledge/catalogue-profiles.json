@@ -23160,8 +23160,8 @@
         {
           "topic": "overview",
           "text": {
-            "en": "This guide connects eight selected COL26.8 species pages across West, Central and East Africa. Begin with the one-group 2016 encounter reported for Bouvier’s red colobus and the dated Niger Delta survey of P. epieni; compare feeding and local diet variation in Taï and around Kibale; then read the four-forest parasite sampling for P. gordonorum. The final group of pages follows habitat and hunting studies for P. rufomitratus and P. pennantii, followed by the 2017–2018 Unguja-wide assessment of P. kirkii. Sites, years, methods and taxonomic usages differ. This is a selective reading path, not a complete genus review or current status assessment.",
-            "zh": "这条阅读路径连接八个 COL26.8 物种页，地点横跨西非、中非和东非。先读布维耶红疣猴 2016 年调查中的单群记录和 P. epieni 有年代的尼日尔三角洲调查；比较 Taï 与 Kibale 周边的取食和局地食谱差异；再读 P. gordonorum 四片森林的寄生虫取样。最后阅读 P. rufomitratus 与 P. pennantii 的生境和猎捕研究，以及 P. kirkii 2017—2018 年覆盖 Unguja 的评估。各研究的地点、年代、方法和分类用名不同；这是选定阅读路径，不是完整属级综述或当前状态评估。"
+            "en": "This reading path now links pages for all 17 species IDs in the fixed COL26.8 Piliocolobus roster. Begin with the western lineage pages on Taï feeding, the Niger Delta survey and the historical record-based inference for Miss Waldron's red colobus; then compare the Kisangani rapid assessment, flooded-forest camera traps at Lac Télé, the sparse Semliki records and the single-group Salonga diet study. Finish with the site-bounded surveys and fragmented-forest work already linked for East African taxa. Two pages preserve taxonomic crosswalk differences; the lulindicus entry is a source-insufficient taxonomy note, while waldronae summarizes historical inference rather than verified present occurrence. Do not combine local samples into a current genus-wide range or status.",
+            "zh": "这条阅读路径现已连接固定 COL26.8 Piliocolobus 名录中的全部 17 个种级 ID。可先读西部类型的 Taï 取食研究、尼日尔三角洲调查，以及依据历史记录推断沃尔德伦红疣猴是否灭绝的论文；再比较基桑加尼快速评估、Lac Télé 淹水森林空地相机记录、稀疏的塞姆利基记录和 Salonga 单群食谱研究；最后阅读已链接的东非局地调查与森林碎片研究。两页保留分类交叉表差异；lulindicus 条目仅为资料不足的分类史记录，waldronae 则总结历史推断而非经确认的当前出现记录。不得把局地样本合并成当前属级分布或状态。"
           },
           "sourceIds": [
             "taxonomy",
@@ -23172,7 +23172,19 @@
             "davenport2019",
             "cronin2016",
             "rufomitratus2004",
-            "chapman1999"
+            "chapman1999",
+            "foai2020",
+            "red_colobus_plan2021",
+            "langi_rapid2020",
+            "oustaleti_camtrap2025",
+            "oustaleti_assessment2020",
+            "preussi_survey2025",
+            "semliki_assessment2020",
+            "tholloni_diet1994",
+            "waldronae_inference2006",
+            "lulindicus2020",
+            "mdd_foai",
+            "parmentieri_patrol2017"
           ]
         }
       ],
@@ -23257,11 +23269,119 @@
             "en": "Three-year comparison of red colobus diet, density and activity in six areas in or near Kibale National Park; all ranges and associations are site-specific.",
             "zh": "支持 Kibale 国家公园内外六处为期三年的红疣猴食谱、密度和活动比较；各范围和关联均限于研究地点。"
           }
+        },
+        {
+          "id": "foai2020",
+          "title": "Hart, Ting & Maisels (2020) — Piliocolobus foai, IUCN Red List assessment",
+          "url": "https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T18252A92659769.en",
+          "scope": {
+            "en": "A 2020 global assessment compiling the taxonomic circumscription and cited survey evidence available to its authors; its range/status summary is not a new census.",
+            "zh": "2020 年全球评估汇总作者当时可得的分类界定和所引调查资料；其中分布与状态总结不是新种群调查。"
+          }
+        },
+        {
+          "id": "lulindicus2020",
+          "title": "Hart, Maisels & Ting (2020) — Piliocolobus lulindicus, IUCN Red List assessment",
+          "url": "https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T18262A96192471.en",
+          "scope": {
+            "en": "A 2020 assessment documenting competing historical rank/synonym treatments and the assessors' precautionary decision to retain lulindicus as a species; it does not provide a dedicated modern ecological study.",
+            "zh": "2020 年评估记录了历史分类等级与异名处理的分歧，以及评估者基于预防原则保留 lulindicus 为种的决定；它不提供专门的现代生态研究。"
+          }
+        },
+        {
+          "id": "mdd_foai",
+          "title": "Mammal Diversity Database v2.5 — Piliocolobus foai",
+          "url": "https://www.mammaldiversity.org/taxon/1000644/",
+          "scope": {
+            "en": "Current crosswalk source listing lulindicus among names treated under P. foai; this documents a classification difference from the pinned COL26.8 species record.",
+            "zh": "当前名称交叉表将 lulindicus 列在 P. foai 的相关名称中；此处用于记录它与固定 COL26.8 种级条目的分类差异。"
+          }
+        },
+        {
+          "id": "red_colobus_plan2021",
+          "title": "Maisels et al. (2021) — Red colobus (Piliocolobus) conservation action plan 2021–2026",
+          "url": "https://portals.iucn.org/library/sites/library/files/documents/2021-015-En.pdf",
+          "scope": {
+            "en": "A conservation synthesis drawing on cited field reports and assessments through its publication period; species summaries are not new surveys.",
+            "zh": "一份汇集发表时已引用的野外报告与评估资料的保护综述；各物种摘要不是新调查。"
+          }
+        },
+        {
+          "id": "langi_rapid2020",
+          "title": "Hart et al. (2020) — Rapid assessment of the Kisangani red colobus",
+          "url": "https://www.bonoboincongo.com/wp-content/uploads/2020/03/2020-February-Kisangani-Red-Colobus-REPORT.pdf",
+          "scope": {
+            "en": "A 2019 rapid assessment over selected locations in the Kisangani red-colobus region; phenotype assignments and observations are limited to sampled sites and report-era taxonomy.",
+            "zh": "2019 年在基桑加尼红疣猴区域若干地点开展的快速评估；表型归属和观察仅限取样地点及报告所用分类。"
+          }
+        },
+        {
+          "id": "oustaleti_camtrap2025",
+          "title": "Brugière et al. (2025) — Camera-trap survey of the Lac Télé Community Reserve primate community",
+          "url": "https://static1.1.sqspcdn.com/static/f/1200343/28694543/1752180343813/AP%2BVol%2B19%2B1%2BBrugiere%2Bet%2Bal.pdf",
+          "scope": {
+            "en": "Camera-trap captures in nine seasonally flooded forest clearings from 2020 to 2023; capture rate and events describe those clearings, not reserve-wide abundance.",
+            "zh": "2020—2023 年九处季节性淹水森林空地的相机记录；捕获率和事件数只描述这些空地，不代表整个保护区的丰度。"
+          }
+        },
+        {
+          "id": "oustaleti_assessment2020",
+          "title": "Hart et al. (2020) — Piliocolobus oustaleti, IUCN Red List assessment",
+          "url": "https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T18255A166598553.en",
+          "scope": {
+            "en": "A 2018 global assessment amended in 2020, compiling reports and survey records from multiple regions; observations are dated and taxonomically scoped by the assessment.",
+            "zh": "一项 2018 年全球评估并于 2020 年修订，汇集多个地区报告和调查记录；观察均受评估所列年代与分类范围限制。"
+          }
+        },
+        {
+          "id": "preussi_survey2025",
+          "title": "Bowers-Sword et al. (2025) — Population status in the Ndokbou–Makombe forests",
+          "url": "https://doi.org/10.1007/s10764-025-00527-w",
+          "scope": {
+            "en": "Reconnaissance and passive-acoustic sampling in Makombe and Ndokbou forests in 2018–2019; no verified visual encounter was recorded, and one call was putative.",
+            "zh": "2018—2019 年在 Makombe 与 Ndokbou 森林开展的漫查和被动声学取样；未记录到经确认的目击，一次叫声记录为疑似。"
+          }
+        },
+        {
+          "id": "semliki_assessment2020",
+          "title": "Maisels & Ting (2020) — Piliocolobus semlikiensis, IUCN Red List assessment",
+          "url": "https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T92657343A92657454.en",
+          "scope": {
+            "en": "A 2020 global assessment that summarizes historical survey encounters and explicitly notes ambiguous records and unsettled taxonomic boundaries.",
+            "zh": "2020 年全球评估汇总历史调查记录，并明确指出记录归属不清和分类边界尚未解决。"
+          }
+        },
+        {
+          "id": "tholloni_diet1994",
+          "title": "Maisels, Gautier-Hion & Gautier (1994) — Diets of two sympatric colobines in Zaire",
+          "url": "https://doi.org/10.1007/BF02737427",
+          "scope": {
+            "en": "A 12-month diet study of one habituated red-colobus group at Botsima, Salonga; proportions are group- and site-specific and the paper uses the name Colobus badius tholloni.",
+            "zh": "在 Salonga 的 Botsima 对一个已习惯化红疣猴群开展的 12 个月食谱研究；比例只适用于该群和地点，论文使用 Colobus badius tholloni 这一名称。"
+          }
+        },
+        {
+          "id": "parmentieri_patrol2017",
+          "title": "Hart (2017) — Two red colobus on two sides of the Lomami River",
+          "url": "https://www.bonoboincongo.com/2017/06/12/two-red-colobus-two-sides-of-the-lomami-river/",
+          "scope": {
+            "en": "First-hand field notes report patrol-team sightings in and near Lomami National Park in 2016–2017; these observations are not a standardized abundance survey.",
+            "zh": "第一手野外记录转述巡护队在 2016—2017 年 Lomami 国家公园内及附近的目击；这些观察不是标准化丰度调查。"
+          }
+        },
+        {
+          "id": "waldronae_inference2006",
+          "title": "McGraw (2006) — Inferring extinction from biological records",
+          "url": "https://doi.org/10.1016/j.biocon.2005.09.033",
+          "scope": {
+            "en": "Four probabilistic methods applied to a chronological record of published sightings and museum specimens for the taxon then called Piliocolobus badius waldronae; inference does not confirm a living population.",
+            "zh": "以四种概率方法分析当时称作 Piliocolobus badius waldronae 的已发表目击年代记录和馆藏标本；统计推断不能确认仍有存活种群。"
+          }
         }
       ],
       "limitations": {
-        "en": "Only eight selected species pages are linked; many COL26.8 species remain uncovered. Research dates and local samples are not interchangeable. This source-linked guide is not externally expert-reviewed.",
-        "zh": "本页只连接八个选定物种条目，COL26.8 中仍有许多物种未覆盖。研究年代和局地样本不可互换。本属级阅读路径尚未经过外部领域专家评审。"
+        "en": "All 17 fixed COL26.8 species IDs now link to a page, but evidence depth varies. Lulindicus remains source-insufficient for a full ecology profile, and the waldronae page discusses historical inference rather than a verified recent animal. Dates, sites, methods and source taxonomy are not interchangeable. This selective reading path is not externally expert-reviewed.",
+        "zh": "固定 COL26.8 中全部 17 个种级 ID 现均有页面链接，但证据深度不同。lulindicus 仍缺乏撰写完整生态介绍的资料，waldronae 页讨论的是历史推断而非近期确认个体。不同来源的年代、地点、方法和分类名不能互换。本属级阅读路径尚未经过外部领域专家评审。"
       }
     },
     {
@@ -29278,6 +29398,567 @@
       "limitations": {
         "zh": "两篇分类研究所用材料和判断标准不同；接受名差异仍存在。这里不推断独立现生种群、完整范围或保育状态。中文名为编辑译名；尚未经过外部领域专家评审。",
         "en": "The two taxonomic studies use different material and criteria, and the accepted-name treatments still differ. This page does not infer a separate living population, complete range or conservation status. The Chinese name is editorial; this page has not received external expert review."
+      }
+    },
+    {
+      "colId": "4HTQM",
+      "scientificName": "Piliocolobus foai (de Pousargues, 1899)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "en": "Foa's Red Colobus",
+        "zh": "佛阿红疣猴"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-30",
+      "sections": [
+        {
+          "topic": "overview",
+          "text": {
+            "en": "Hart, Ting and Maisels's 2020 assessment treats Foa's red colobus as a Democratic Republic of the Congo montane lineage and reports only two isolated locations in the evidence available to that assessment. The 2021 red-colobus action plan places its boundaries near other Central African forms and calls for monitoring and genetic work. These are dated syntheses of uneven survey evidence, not a new range survey or a present-day population count.",
+            "zh": "Hart、Ting 与 Maisels 的 2020 年评估将佛阿红疣猴作为刚果民主共和国的山地谱系处理，并指出评估所能取得的资料只支持两个彼此隔离的地点。2021 年红疣猴行动计划把其边界放在邻近的中非类型之间，并提出监测和遗传研究需求。这些是对年代不一、覆盖不均的调查资料所作总结，不是新的分布调查或当前种群数量。"
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_name",
+            "foai2020",
+            "red_colobus_plan2021"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Piliocolobus foai (de Pousargues, 1899)",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4HTQM",
+          "scope": {
+            "en": "Pinned COL26.8 name, authorship, rank and parent identity; not biological evidence.",
+            "zh": "固定 COL26.8 中的名称、作者、等级和分类父链；不提供生物学证据。"
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": "Mammal Diversity Database v2.5 — Foa's Red Colobus",
+          "url": "https://www.mammaldiversity.org/taxon/1000644/",
+          "scope": {
+            "en": "Supports the current English common-name crosswalk used here; not occurrence, ecology or a complete range.",
+            "zh": "支持本页采用的当前英文普通名交叉表；不作为出现记录、生态或完整分布证据。"
+          }
+        },
+        {
+          "id": "foai2020",
+          "title": "Hart, Ting & Maisels (2020) — Piliocolobus foai, IUCN Red List assessment",
+          "url": "https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T18252A92659769.en",
+          "scope": {
+            "en": "A 2020 global assessment compiling the taxonomic circumscription and cited survey evidence available to its authors; its range/status summary is not a new census.",
+            "zh": "2020 年全球评估汇总作者当时可得的分类界定和所引调查资料；其中分布与状态总结不是新种群调查。"
+          }
+        },
+        {
+          "id": "red_colobus_plan2021",
+          "title": "Maisels et al. (2021) — Red colobus (Piliocolobus) conservation action plan 2021–2026",
+          "url": "https://portals.iucn.org/library/sites/library/files/documents/2021-015-En.pdf",
+          "scope": {
+            "en": "A conservation synthesis drawing on cited field reports and assessments through its publication period; species summaries are not new surveys.",
+            "zh": "一份汇集发表时已引用的野外报告与评估资料的保护综述；各物种摘要不是新调查。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "Range and taxonomic limits follow dated assessment-era evidence and remain incomplete; this source-linked draft is not externally expert-reviewed.",
+        "zh": "分布与分类边界依照有年代的评估资料，仍不完整；本页为有来源的初稿，尚未经过外部领域专家评审。"
+      }
+    },
+    {
+      "colId": "4HTQR",
+      "scientificName": "Piliocolobus langi (J. A. Allen, 1925)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "en": "Lang's Red Colobus",
+        "zh": "朗氏红疣猴"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-30",
+      "sections": [
+        {
+          "topic": "survey",
+          "text": {
+            "en": "A 2019 rapid assessment documented red colobus at six locations in the Kisangani region: living animals were observed at four locations during two reconnaissance walks, and three hunter-killed animals came from two other locations. Five locations showed a sharply marked coat pattern the authors matched to the type description of P. langi; two animals from the right bank of the Lindi River differed and were assigned to the variable form P. ellioti. The report leaves western range limits and the identity of some interfluve populations unresolved.",
+            "zh": "一项 2019 年快速评估在基桑加尼地区六处记录到红疣猴：两次漫查中有四处见到活体，另两处记录到三只被猎杀个体。五处记录呈现的毛色分界鲜明，作者认为符合 P. langi 的模式描述；Lindi 河右岸的两只个体不同，被归入毛色多变的 P. ellioti。报告仍未解决西部边界及若干河间地种群的身份。"
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_name",
+            "langi_rapid2020"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Piliocolobus langi (J. A. Allen, 1925)",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4HTQR",
+          "scope": {
+            "en": "Pinned COL26.8 name, authorship, rank and parent identity; not biological evidence.",
+            "zh": "固定 COL26.8 中的名称、作者、等级和分类父链；不提供生物学证据。"
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": "Mammal Diversity Database v2.5 — Lang's Red Colobus",
+          "url": "https://www.mammaldiversity.org/taxon/1000647/",
+          "scope": {
+            "en": "Supports the current English common-name crosswalk used here; not occurrence, ecology or a complete range.",
+            "zh": "支持本页采用的当前英文普通名交叉表；不作为出现记录、生态或完整分布证据。"
+          }
+        },
+        {
+          "id": "langi_rapid2020",
+          "title": "Hart et al. (2020) — Rapid assessment of the Kisangani red colobus",
+          "url": "https://www.bonoboincongo.com/wp-content/uploads/2020/03/2020-February-Kisangani-Red-Colobus-REPORT.pdf",
+          "scope": {
+            "en": "A 2019 rapid assessment over selected locations in the Kisangani red-colobus region; phenotype assignments and observations are limited to sampled sites and report-era taxonomy.",
+            "zh": "2019 年在基桑加尼红疣猴区域若干地点开展的快速评估；表型归属和观察仅限取样地点及报告所用分类。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "These are 2019 rapid-assessment observations and the report's phenotype assignments, not a complete species census; several neighboring populations remain taxonomically unresolved. This source-linked draft is not externally expert-reviewed.",
+        "zh": "这些是 2019 年快速评估的观察和报告中的表型归属，不是全种调查；邻近若干种群的分类仍未解决。本页为有来源的初稿，尚未经过外部领域专家评审。"
+      }
+    },
+    {
+      "colId": "4HTQS",
+      "scientificName": "Piliocolobus lulindicus Matschie, 1914",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "en": "Ulindi River Red Colobus",
+        "zh": "乌林迪河红疣猴"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-30",
+      "sections": [
+        {
+          "topic": "taxonomy",
+          "text": {
+            "en": "The 2020 Red List assessment records a long-running classification split: some authors treated lulindicus as a synonym of P. foai or as a form within broader red-colobus groupings, while others retained it separately. A 2016 workshop's precautionary approach kept it at species rank in that assessment. MDD v2.5 lists lulindicus under P. foai, whereas the pinned COL26.8 record accepts a separate species ID. This page preserves both catalog treatments; the material reviewed here is not enough for a full ecological account.",
+            "zh": "2020 年《红色名录》评估记录了长期分类分歧：一些作者把 lulindicus 并入 P. foai 或更广义的红疣猴类群，另一些作者则单独保留。该评估依照 2016 年研讨会的预防性处理维持其种级地位。MDD v2.5 将 lulindicus 列在 P. foai 名下，而固定的 COL26.8 记录保留独立种级 ID。本页并列保存两套目录处理；现有资料不足以写成完整生态介绍。"
+          },
+          "sourceIds": [
+            "taxonomy",
+            "lulindicus2020",
+            "mdd_foai"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Piliocolobus lulindicus Matschie, 1914",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4HTQS",
+          "scope": {
+            "en": "Pinned COL26.8 name, authorship, rank and parent identity; not biological evidence.",
+            "zh": "固定 COL26.8 中的名称、作者、等级和分类父链；不提供生物学证据。"
+          }
+        },
+        {
+          "id": "lulindicus2020",
+          "title": "Hart, Maisels & Ting (2020) — Piliocolobus lulindicus, IUCN Red List assessment",
+          "url": "https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T18262A96192471.en",
+          "scope": {
+            "en": "A 2020 assessment documenting competing historical rank/synonym treatments and the assessors' precautionary decision to retain lulindicus as a species; it does not provide a dedicated modern ecological study.",
+            "zh": "2020 年评估记录了历史分类等级与异名处理的分歧，以及评估者基于预防原则保留 lulindicus 为种的决定；它不提供专门的现代生态研究。"
+          }
+        },
+        {
+          "id": "mdd_foai",
+          "title": "Mammal Diversity Database v2.5 — Piliocolobus foai",
+          "url": "https://www.mammaldiversity.org/taxon/1000644/",
+          "scope": {
+            "en": "Current crosswalk source listing lulindicus among names treated under P. foai; this documents a classification difference from the pinned COL26.8 species record.",
+            "zh": "当前名称交叉表将 lulindicus 列在 P. foai 的相关名称中；此处用于记录它与固定 COL26.8 种级条目的分类差异。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "Source-insufficient for a full ecology or range profile: this page is a taxonomy-history note only. This source-linked draft is not externally expert-reviewed.",
+        "zh": "资料不足以形成完整生态或分布介绍：本页仅记录分类史。尚未经过外部领域专家评审。"
+      }
+    },
+    {
+      "colId": "4HTQT",
+      "scientificName": "Piliocolobus oustaleti (Trouessart, 1906)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "en": "Oustalet's Red Colobus",
+        "zh": "奥斯塔莱红疣猴"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-30",
+      "sections": [
+        {
+          "topic": "survey",
+          "text": {
+            "en": "At Lac Télé Community Reserve, 83 cameras sampled nine seasonally flooded forest clearings from January 2020 to May 2023. The survey reported 169 photographs in 11 events for Oustalet's red colobus across 6,399 camera-days; the species-specific capture rate was 0.17 in the authors' relative-abundance index. These records show use of sampled clearings in one reserve, not density or reserve-wide abundance. A separate 2020 assessment describes the species as highly variable and notes unresolved boundaries with adjacent forms.",
+            "zh": "在 Lac Télé 社区保护区，83 台相机于 2020 年 1 月至 2023 年 5 月对九处季节性淹水森林空地取样。调查在总计 6,399 个相机日中记录到奥斯塔莱红疣猴 169 张照片、11 个事件；作者的相对丰度指数中，该种捕获率为 0.17。这些记录说明其使用了该保护区被抽样的空地，不代表密度或整个保护区的丰度。另一份 2020 年评估指出该类群变异很大，且与邻近类型的边界仍未解决。"
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_name",
+            "oustaleti_camtrap2025",
+            "oustaleti_assessment2020"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Piliocolobus oustaleti (Trouessart, 1906)",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4HTQT",
+          "scope": {
+            "en": "Pinned COL26.8 name, authorship, rank and parent identity; not biological evidence.",
+            "zh": "固定 COL26.8 中的名称、作者、等级和分类父链；不提供生物学证据。"
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": "Mammal Diversity Database v2.5 — Oustalet's Red Colobus",
+          "url": "https://www.mammaldiversity.org/taxon/1000649/",
+          "scope": {
+            "en": "Supports the current English common-name crosswalk used here; not occurrence, ecology or a complete range.",
+            "zh": "支持本页采用的当前英文普通名交叉表；不作为出现记录、生态或完整分布证据。"
+          }
+        },
+        {
+          "id": "oustaleti_camtrap2025",
+          "title": "Brugière et al. (2025) — Camera-trap survey of the Lac Télé Community Reserve primate community",
+          "url": "https://static1.1.sqspcdn.com/static/f/1200343/28694543/1752180343813/AP%2BVol%2B19%2B1%2BBrugiere%2Bet%2Bal.pdf",
+          "scope": {
+            "en": "Camera-trap captures in nine seasonally flooded forest clearings from 2020 to 2023; capture rate and events describe those clearings, not reserve-wide abundance.",
+            "zh": "2020—2023 年九处季节性淹水森林空地的相机记录；捕获率和事件数只描述这些空地，不代表整个保护区的丰度。"
+          }
+        },
+        {
+          "id": "oustaleti_assessment2020",
+          "title": "Hart et al. (2020) — Piliocolobus oustaleti, IUCN Red List assessment",
+          "url": "https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T18255A166598553.en",
+          "scope": {
+            "en": "A 2018 global assessment amended in 2020, compiling reports and survey records from multiple regions; observations are dated and taxonomically scoped by the assessment.",
+            "zh": "一项 2018 年全球评估并于 2020 年修订，汇集多个地区报告和调查记录；观察均受评估所列年代与分类范围限制。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "Camera captures are limited to nine clearings and are not an abundance estimate; taxonomy follows each cited source's circumscription. This source-linked draft is not externally expert-reviewed.",
+        "zh": "相机记录仅来自九处空地，不是丰度估计；分类界定沿用各来源自身的处理。本页为有来源的初稿，尚未经过外部领域专家评审。"
+      }
+    },
+    {
+      "colId": "4HTQW",
+      "scientificName": "Piliocolobus preussi Matschie, 1900",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "en": "Preuss's Red Colobus",
+        "zh": "普鲁士红疣猴"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-30",
+      "sections": [
+        {
+          "topic": "survey",
+          "text": {
+            "en": "Reconnaissance teams covered 571.51 km and passive acoustic sensors recorded 12,347 hours in Makombe and Ndokbou forests during 2018–2019. The study found no verified visual encounter with Preuss's red colobus; one putative call was detected near Mt. Sinai in Ndokbou. The authors recommend another targeted search there. This is a detection record for two surveyed forests and a defined period, not proof of absence across the species' range.",
+            "zh": "2018—2019 年，调查队在 Makombe 与 Ndokbou 森林完成 571.51 公里漫查，被动声学传感器累计记录 12,347 小时。研究未取得经确认的普鲁士红疣猴目击；在 Ndokbou 的 Mt. Sinai 附近记录到一次疑似叫声。作者建议在该处进一步定向搜索。这是两个受调查森林在特定时期的探测记录，不能证明该种在整个分布区缺席。"
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_name",
+            "preussi_survey2025"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Piliocolobus preussi Matschie, 1900",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4HTQW",
+          "scope": {
+            "en": "Pinned COL26.8 name, authorship, rank and parent identity; not biological evidence.",
+            "zh": "固定 COL26.8 中的名称、作者、等级和分类父链；不提供生物学证据。"
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": "Mammal Diversity Database v2.5 — Preuss's Red Colobus",
+          "url": "https://www.mammaldiversity.org/taxon/1000652/",
+          "scope": {
+            "en": "Supports the current English common-name crosswalk used here; not occurrence, ecology or a complete range.",
+            "zh": "支持本页采用的当前英文普通名交叉表；不作为出现记录、生态或完整分布证据。"
+          }
+        },
+        {
+          "id": "preussi_survey2025",
+          "title": "Bowers-Sword et al. (2025) — Population status in the Ndokbou–Makombe forests",
+          "url": "https://doi.org/10.1007/s10764-025-00527-w",
+          "scope": {
+            "en": "Reconnaissance and passive-acoustic sampling in Makombe and Ndokbou forests in 2018–2019; no verified visual encounter was recorded, and one call was putative.",
+            "zh": "2018—2019 年在 Makombe 与 Ndokbou 森林开展的漫查和被动声学取样；未记录到经确认的目击，一次叫声记录为疑似。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "The study did not visually verify the species in its two survey forests; its possible call is uncertain, and neither result establishes range-wide presence or absence. This source-linked draft is not externally expert-reviewed.",
+        "zh": "研究未在两片调查森林中以目击确认该种；疑似叫声仍有不确定性，两者都不能确定全分布区的出现或缺席。本页为有来源的初稿，尚未经过外部领域专家评审。"
+      }
+    },
+    {
+      "colId": "4HTQZ",
+      "scientificName": "Piliocolobus semlikiensis (Colyn, 1991)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "en": "Semliki Red Colobus",
+        "zh": "塞姆利基红疣猴"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-30",
+      "sections": [
+        {
+          "topic": "distribution_habitat",
+          "text": {
+            "en": "The 2020 assessment compiles sparse, dated encounters rather than a continuous modern survey: eight records came from Maiko National Park in 2005 after 680 km of effort across two sectors; three red-colobus vocalizations were heard near the Ituri River in 2007, but observers could not determine which bank they came from; and one animal was seen in Usala after more than 200 km of reconnaissance. The assessment also notes conflicting use of semlikiensis and ellioti for neighboring, variable populations.",
+            "zh": "2020 年评估汇总的是稀疏且有年代的记录，而非连续的现代调查：2005 年 Maiko 国家公园两片区域共完成 680 公里调查后记录八次；2007 年在 Ituri 河附近听到三次红疣猴叫声，但无法确定来自哪一侧河岸；Usala 在超过 200 公里漫查后仅有一次目击。评估还指出，邻近的多变种群被不同作者分别称为 semlikiensis 或 ellioti。"
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_name",
+            "semliki_assessment2020",
+            "red_colobus_plan2021"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Piliocolobus semlikiensis (Colyn, 1991)",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4HTQZ",
+          "scope": {
+            "en": "Pinned COL26.8 name, authorship, rank and parent identity; not biological evidence.",
+            "zh": "固定 COL26.8 中的名称、作者、等级和分类父链；不提供生物学证据。"
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": "Mammal Diversity Database v2.5 — Semliki Red Colobus",
+          "url": "https://www.mammaldiversity.org/taxon/1000654/",
+          "scope": {
+            "en": "Supports the current English common-name crosswalk used here; not occurrence, ecology or a complete range.",
+            "zh": "支持本页采用的当前英文普通名交叉表；不作为出现记录、生态或完整分布证据。"
+          }
+        },
+        {
+          "id": "semliki_assessment2020",
+          "title": "Maisels & Ting (2020) — Piliocolobus semlikiensis, IUCN Red List assessment",
+          "url": "https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T92657343A92657454.en",
+          "scope": {
+            "en": "A 2020 global assessment that summarizes historical survey encounters and explicitly notes ambiguous records and unsettled taxonomic boundaries.",
+            "zh": "2020 年全球评估汇总历史调查记录，并明确指出记录归属不清和分类边界尚未解决。"
+          }
+        },
+        {
+          "id": "red_colobus_plan2021",
+          "title": "Maisels et al. (2021) — Red colobus (Piliocolobus) conservation action plan 2021–2026",
+          "url": "https://portals.iucn.org/library/sites/library/files/documents/2021-015-En.pdf",
+          "scope": {
+            "en": "A conservation synthesis drawing on cited field reports and assessments through its publication period; species summaries are not new surveys.",
+            "zh": "一份汇集发表时已引用的野外报告与评估资料的保护综述；各物种摘要不是新调查。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "The cited encounters are historical and sparse; the bank-level identity of the Ituri calls was unresolved, and nearby taxonomic boundaries remain fluid. This source-linked draft is not externally expert-reviewed.",
+        "zh": "所引记录年代较早且稀疏；Ituri 河叫声来自哪一岸尚不清楚，邻近分类边界也仍不稳定。本页为有来源的初稿，尚未经过外部领域专家评审。"
+      }
+    },
+    {
+      "colId": "4HTR4",
+      "scientificName": "Piliocolobus tholloni A. Milne-Edwards, 1886",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "en": "Tshuapa Red Colobus",
+        "zh": "楚阿帕红疣猴"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-30",
+      "sections": [
+        {
+          "topic": "feeding",
+          "text": {
+            "en": "At Botsima in Salonga National Park, Maisels and colleagues followed one habituated group of more than 60 red colobus across a 250-ha study area. Over 12 months of feeding observations, the paper reported a diet of 60.7% leaves, 30.8% seeds, 7.1% ripe fruit and 1.4% flowers. The article used the name Colobus badius tholloni. Its figures describe that group and site, not a genus-wide or fixed species diet.",
+            "zh": "在 Salonga 国家公园的 Botsima，Maisels 等人对一个超过 60 只的已习惯化红疣猴群进行了研究，活动范围覆盖 250 公顷样地。论文记录了 12 个月取食观察，报告食物中叶片占 60.7%、种子占 30.8%、成熟果实占 7.1%、花占 1.4%。文章使用 Colobus badius tholloni 这一名称。比例只描述该群和地点，不代表全属或全种固定食谱。"
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_name",
+            "tholloni_diet1994"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Piliocolobus tholloni A. Milne-Edwards, 1886",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4HTR4",
+          "scope": {
+            "en": "Pinned COL26.8 name, authorship, rank and parent identity; not biological evidence.",
+            "zh": "固定 COL26.8 中的名称、作者、等级和分类父链；不提供生物学证据。"
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": "Mammal Diversity Database v2.5 — Tshuapa Red Colobus",
+          "url": "https://www.mammaldiversity.org/taxon/1000656/",
+          "scope": {
+            "en": "Supports the current English common-name crosswalk used here; not occurrence, ecology or a complete range.",
+            "zh": "支持本页采用的当前英文普通名交叉表；不作为出现记录、生态或完整分布证据。"
+          }
+        },
+        {
+          "id": "tholloni_diet1994",
+          "title": "Maisels, Gautier-Hion & Gautier (1994) — Diets of two sympatric colobines in Zaire",
+          "url": "https://doi.org/10.1007/BF02737427",
+          "scope": {
+            "en": "A 12-month diet study of one habituated red-colobus group at Botsima, Salonga; proportions are group- and site-specific and the paper uses the name Colobus badius tholloni.",
+            "zh": "在 Salonga 的 Botsima 对一个已习惯化红疣猴群开展的 12 个月食谱研究；比例只适用于该群和地点，论文使用 Colobus badius tholloni 这一名称。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "Feeding proportions come from one habituated group at one site and the paper's taxonomic name differs from COL26.8. This source-linked draft is not externally expert-reviewed.",
+        "zh": "食物比例来自一个地点的一个已习惯化群体，论文分类名与 COL26.8 不同。本页为有来源的初稿，尚未经过外部领域专家评审。"
+      }
+    },
+    {
+      "colId": "4HTR5",
+      "scientificName": "Piliocolobus waldronae (Hayman, 1936)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "en": "Miss Waldron's Red Colobus",
+        "zh": "沃尔德伦红疣猴"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-30",
+      "sections": [
+        {
+          "topic": "taxonomy",
+          "text": {
+            "en": "McGraw's 2006 short communication tested four probabilistic methods against the dated sighting and museum-specimen record for the taxon then named Piliocolobus badius waldronae. Each method returned a probability above 0.05 for persistence at the time of the 2000 extinction claim; the author argued that the records were compatible with an extant but extremely rare form. This is an inference from historical records, not a confirmed later sighting. COL26.8 now carries waldronae as a species ID.",
+            "zh": "McGraw 2006 年的短篇论文用四种概率方法分析当时称为 Piliocolobus badius waldronae 的有日期目击和馆藏标本记录。相对于 2000 年提出灭绝时的资料，四种方法给出的持续存在概率均高于 0.05；作者认为这些记录与仍存但极为稀少的类型相容。这是基于历史记录的推断，不是后来确认的目击。COL26.8 现以独立种级 ID 收录 waldronae。"
+          },
+          "sourceIds": [
+            "taxonomy",
+            "waldronae_inference2006"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Piliocolobus waldronae (Hayman, 1936)",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4HTR5",
+          "scope": {
+            "en": "Pinned COL26.8 name, authorship, rank and parent identity; not biological evidence.",
+            "zh": "固定 COL26.8 中的名称、作者、等级和分类父链；不提供生物学证据。"
+          }
+        },
+        {
+          "id": "waldronae_inference2006",
+          "title": "McGraw (2006) — Inferring extinction from biological records",
+          "url": "https://doi.org/10.1016/j.biocon.2005.09.033",
+          "scope": {
+            "en": "Four probabilistic methods applied to a chronological record of published sightings and museum specimens for the taxon then called Piliocolobus badius waldronae; inference does not confirm a living population.",
+            "zh": "以四种概率方法分析当时称作 Piliocolobus badius waldronae 的已发表目击年代记录和馆藏标本；统计推断不能确认仍有存活种群。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "The paper analyzes historical records under a subspecies name; its statistical result does not verify a living population, and the exact MDD crosswalk does not match this COL name. This source-linked draft is not externally expert-reviewed.",
+        "zh": "论文按亚种名分析历史记录，统计结果并未确认存活种群；此 COL 名称在当前 MDD 交叉表中无精确匹配。本页为有来源的初稿，尚未经过外部领域专家评审。"
+      }
+    },
+    {
+      "colId": "77KJJ",
+      "scientificName": "Piliocolobus parmentieri (Colyn & Verheyen, 1987)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "en": "Lomami Red Colobus",
+        "zh": "洛马米红疣猴"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-09-30",
+      "sections": [
+        {
+          "topic": "survey",
+          "text": {
+            "en": "The type specimen was collected at Mabobi on the left bank of the Lualaba. Field notes report that patrol teams began recording red colobus identified as P. parmentieri in and near Lomami National Park in 2016–2017, extending the known local record southward. The 2021 action plan summarizes this as a range extension but also notes that the species was not found in 2007 surveys north of Ubundu and calls for more southern-range surveys. The record history remains patchy.",
+            "zh": "模式标本采自 Lualaba 河左岸的 Mabobi。野外记录称，巡护队在 2016—2017 年开始于 Lomami 国家公园内及附近记录到被鉴定为 P. parmentieri 的红疣猴，使已知局地记录向南延伸。2021 年行动计划将其总结为分布记录扩展，同时指出该种未在 Ubundu 北部 2007 年调查中发现，并建议进一步调查南部分布区。记录仍不连续。"
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_name",
+            "red_colobus_plan2021",
+            "parmentieri_patrol2017"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Piliocolobus parmentieri (Colyn & Verheyen, 1987)",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/77KJJ",
+          "scope": {
+            "en": "Pinned COL26.8 name, authorship, rank and parent identity; not biological evidence.",
+            "zh": "固定 COL26.8 中的名称、作者、等级和分类父链；不提供生物学证据。"
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": "Mammal Diversity Database v2.5 — Lomami Red Colobus",
+          "url": "https://www.mammaldiversity.org/taxon/1000650/",
+          "scope": {
+            "en": "Supports the current English common-name crosswalk used here; not occurrence, ecology or a complete range.",
+            "zh": "支持本页采用的当前英文普通名交叉表；不作为出现记录、生态或完整分布证据。"
+          }
+        },
+        {
+          "id": "red_colobus_plan2021",
+          "title": "Maisels et al. (2021) — Red colobus (Piliocolobus) conservation action plan 2021–2026",
+          "url": "https://portals.iucn.org/library/sites/library/files/documents/2021-015-En.pdf",
+          "scope": {
+            "en": "A conservation synthesis drawing on cited field reports and assessments through its publication period; species summaries are not new surveys.",
+            "zh": "一份汇集发表时已引用的野外报告与评估资料的保护综述；各物种摘要不是新调查。"
+          }
+        },
+        {
+          "id": "parmentieri_patrol2017",
+          "title": "Hart (2017) — Two red colobus on two sides of the Lomami River",
+          "url": "https://www.bonoboincongo.com/2017/06/12/two-red-colobus-two-sides-of-the-lomami-river/",
+          "scope": {
+            "en": "First-hand field notes report patrol-team sightings in and near Lomami National Park in 2016–2017; these observations are not a standardized abundance survey.",
+            "zh": "第一手野外记录转述巡护队在 2016—2017 年 Lomami 国家公园内及附近的目击；这些观察不是标准化丰度调查。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "Patrol sightings and a conservation synthesis do not establish a continuous range or population estimate; the profile is limited to the documented record history. This source-linked draft is not externally expert-reviewed.",
+        "zh": "巡护目击和保护综述不能建立连续分布或种群估计；本页限于记录历史。本页为有来源的初稿，尚未经过外部领域专家评审。"
       }
     }
   ]

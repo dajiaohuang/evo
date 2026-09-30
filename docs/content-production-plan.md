@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-52 已为八种 Pithecia 增加双语来源链接页，并扩展既有属级阅读路径；固定的 530 个灵长类物种中已有 336 个种级读者页记录（54 个 dossier-backed、282 个 profile-only），194 个仍无种级页面，476 个仍未命中 dossier 索引。Cheirogaleus 的 *C. minusculus* 仍仅有分类与证据史页面，不计为满足首轮正文标准。新增内容保留原始研究的分类、地点和样本边界。下一批继续补齐剩余灵长类，完成后回到主龙类；主龙类分母见本计划。纯内容变更不运行测试、内容/数据/增量校验或 CI。
+下一执行动作：P3-53 已为 Piliocolobus 固定名录中的九个剩余 ID 增加双语来源链接页，并补全 17 个种级 ID 的属级阅读路径。灵长类现有 345/530 个种级页面记录（54 个 dossier-backed、291 个 profile-only）；P. minusculus 与 P. lulindicus 两页仍为 source-insufficient，不计入首轮正文达标数。因此 343 个接受种达到首轮内容标准，185 个仍无种级页面记录，476 个仍未命中 dossier 索引。新增内容保留原始研究的分类、地点和样本边界。下一批继续补齐剩余灵长类，完成后回到主龙类；主龙类分母见本计划。纯内容变更不运行测试、内容/数据/增量校验或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -929,3 +929,26 @@ Pithecia 的分类处理在来源之间不一致：2019 年毛色比较把 *P. r
 依照用户指定的 content-only 工作流，本批不运行测试、内容校验、数据校验、增量校验或 CI；只为读者入口刷新运行时投影与数据清单。
 
 来源：[Marsh (2014)](https://doi.org/10.1896/044.021.0101)、[Aquino et al. (2014)](https://doi.org/10.1896/052.028.0103)、[Villalba, Páez & Palacios (2017)](https://doi.org/10.62015/np.2017.v23.116)、[Orsini, Nunes & Marsh (2017)](https://doi.org/10.15560/13.3.2123)、[Serrano-Villavicencio et al. (2019)](https://doi.org/10.1093/jmammal/gyy167)、[Tirira (2023)](https://doi.org/10.62015/np.2023.v29.782) 与 [Serrano-Villavicencio & Terra Garbino (2024)](https://doi.org/10.24841/fa.v33i1.729)。
+
+
+## P3-53 九种 Piliocolobus 物种页与属级阅读路径补全（2026-09-30）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 / 分类差异 | 批次 |
+|---|---|---|---|
+| 4HTQM Piliocolobus foai | 2020 年评估与 2021 年行动计划汇总的山地谱系记录 | 评估资料仅支持其当时识别的两个孤立地点，不代表当前全域调查 | P3-53 |
+| 4HTQR P. langi | 2019 年基桑加尼区域快速评估的六处记录 | 局地表型归属与边界仍有未定种群，按报告分类表达 | P3-53 |
+| 4HTQS P. lulindicus | 2020 年评估保留种级与 MDD 并入 P. foai 的目录差异 | 仅有分类史证据，列为 source-insufficient，不计首轮正文达标 | P3-53 |
+| 4HTQT P. oustaleti | Lac Télé 九处空地 2020—2023 年相机调查 | 83 台相机、6,399 相机日；11 个物种事件不代表保护区种群数量 | P3-53 |
+| 4HTQW P. preussi | 2018—2019 年 Makombe 与 Ndokbou 漫查和声学取样 | 571.51 公里、12,347 小时；未确认目击，一次叫声为疑似 | P3-53 |
+| 4HTQZ P. semlikiensis | 2020 年评估整理的 Maiko、Ituri 与 Usala 历史记录 | Ituri 河叫声的河岸归属不明；邻近类型边界有争议 | P3-53 |
+| 4HTR4 P. tholloni | Botsima 一群为期 12 个月的食谱研究 | 论文使用 Colobus badius tholloni；比例限于单群单地 | P3-53 |
+| 4HTR5 P. waldronae | 四种方法分析有日期的目击与馆藏记录 | 2006 年文章按亚种名推断极稀少型仍可能存在，不是现存目击 | P3-53 |
+| 77KJJ P. parmentieri | Mabobi 模式地点与 Lomami 巡护队 2016—2017 年局地记录 | 资料不连续，不能据此推定连续分布或种群数量 | P3-53 |
+
+本批新增九个 profile-only 页面，并将 COL 属级 ID 6QFS 的阅读路径扩展到固定名录中全部 17 个种级 ID。当前有 345/530 个种级页面记录（54 个 dossier-backed、291 个 profile-only）；185 个仍无种级页面记录，476 个仍未命中 dossier 索引。P. minusculus 与 P. lulindicus 页面仍属 source-insufficient，故有 343 个物种达到首轮内容标准、187 个尚未达到。未新增 dossier 或外部领域专家评审。
+
+固定 COL26.8 ID 与其他资料表的名称处理并不完全一致：MDD v2.5 将 P. lulindicus 列为 P. foai 的相关名称，而 2020 年 IUCN 评估基于预防原则保留其种级；P. waldronae 在本地 MDD 精确名称交叉表中未匹配，而 2006 年论文按 P. badius waldronae 进行历史灭绝推断。页面保留这些差异，不裁决分类。其余段落分别限定于 2019 年快速评估、特定保护区空地相机、既往调查汇编或单群食谱观察。
+
+依照用户指定的 content-only 工作流，本批不运行测试、内容校验、数据校验、增量校验或 CI；只为读者入口刷新运行时投影与数据清单。
+
+来源：[Hart, Ting & Maisels (2020), P. foai](https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T18252A92659769.en)、[Hart et al. (2020), P. lulindicus](https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T18262A96192471.en)、[IUCN 红疣猴行动计划（2021—2026）](https://portals.iucn.org/library/sites/library/files/documents/2021-015-En.pdf)、[基桑加尼快速评估报告（2019）](https://www.bonoboincongo.com/wp-content/uploads/2020/03/2020-February-Kisangani-Red-Colobus-REPORT.pdf)、[Brugière et al. (2025), Lac Télé 相机调查](https://static1.1.sqspcdn.com/static/f/1200343/28694543/1752180343813/AP%2BVol%2B19%2B1%2BBrugiere%2Bet%2Bal.pdf)、[Bowers-Sword et al. (2025)](https://doi.org/10.1007/s10764-025-00527-w)、[Maisels & Ting (2020), P. semlikiensis](https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T92657343A92657454.en)、[Maisels et al. (1994), P. tholloni](https://doi.org/10.1007/BF02737427)、[McGraw (2006), P. badius waldronae](https://doi.org/10.1016/j.biocon.2005.09.033)、[Hart (2017), Lomami 红疣猴巡护记录](https://www.bonoboincongo.com/2017/06/12/two-red-colobus-two-sides-of-the-lomami-river/)。
