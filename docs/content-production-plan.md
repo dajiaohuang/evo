@@ -786,3 +786,6 @@ P4-8 后，化石物种页为非鸟恐龙 5/1,794、化石 Aves 1/1,743、Crocod
 七种均没有 species dossier；本批新增 profile-only 页面，没有改变外部专家评审状态。英文普通名参照本地固定 MDD 交叉表，中文普通名为编辑译名。完成本批后，灵长类接受种读者页为 280/530（54 个 dossier-backed、226 个 profile-only），250 个接受种仍无种级读者页；476 个仍未命中 dossier 索引。属级路径串联所选研究，不是完整属级综述。
 
 来源：[Ahmad et al. (2021)](https://doi.org/10.2981/wlb.00771)、[Cheyne et al. (2008)](https://doi.org/10.1007/s10329-007-0063-0)、[Inoue, Sinun & Okanoya (2016)](https://doi.org/10.5281/zenodo.5355040)、[Tenaza (1976)](https://doi.org/10.1111/j.1439-0310.1976.tb00924.x)、[Mitani (1985)](https://doi.org/10.1111/j.1439-0310.1985.tb00513.x)、[Phoonjampa & Brockelman (2008)](https://doi.org/10.1017/S0030605308000306) 与 [Widyastuti et al. (2023)](https://doi.org/10.3897/BDJ.11.e100805)。
+
+聚焦校验通过：目录档案测试（2/2）、registry 漂移检查与验证、packages、claims、translations、provenance、review 和 16 分片物种证据队列检查。
+增量验证从 17e2a2df3a9068c4e2115311d6229fbe77986044 到 8c62187b2f18cfb145c684326e7dadf85cf40bce 通过：7 个数据文件变化，3 个解析，5 个大型 JSONL 仅校验哈希，共 24,992,818 字节。
