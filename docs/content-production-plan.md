@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-39 的七个 Nycticebus 物种页和属级阅读入口已加入当前分支；六页基于物种特定野外或分类资料，hilleri 页仅提供名称、模式材料及鉴定不确定性的来源限定记录。本批后灵长类接受种读者页预计 223/530（54 个 dossier-backed、169 个 profile-only），307 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍待排查。主龙现生页为鳄目 27/27、Aves 9/11,044，共 36/11,071；化石分母为 4,664，P4-8 后化石页 7/4,664。页面计数不代表专家评审或完成。
+下一执行动作：P3-40 的八个 Presbytis 物种页和属级阅读路径已加入当前分支；八页均为来源限定的 profile-only 初稿，固定分母内页面为 231/530（54 个 dossier-backed、177 个 profile-only），299 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍待排查。主龙现生页为鳄目 27/27、Aves 9/11,044，共 36/11,071；化石分母为 4,664，P4-8 后化石页 7/4,664。页面计数不代表专家评审或完成。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -650,3 +650,21 @@ P4-8 后，化石物种页为非鸟恐龙 5/1,794、化石 Aves 1/1,743、Crocod
 本批未新建 species dossier，七种均为 profile-only；中译普通名为编辑译名，页面尚未经过外部领域专家评审。计入本批后灵长类接受种读者页预计 223/530（54 个 dossier-backed、169 个 profile-only），307 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍待排查。hilleri 暂为模式与分类资料导读，缺少物种特定野外生态研究；婆罗洲四种仍需进一步对照形态分类与分子谱系。
 
 来源：[Swapna et al. (2010)](https://doi.org/10.1002/ajp.20760)、[Arismayanti, Perwitasari & Winarti (2020)](https://doi.org/10.29244/jsdh.4.2.28-41)、[Munds, Nekaris & Ford (2013)](https://doi.org/10.1002/ajp.22071)、[Blair et al. (2023)](https://doi.org/10.3390/genes14030643)、[Timm & Birney (1992)](https://doi.org/10.1007/BF02551259) 与 [Stone & Rehn (1902)](https://www.biodiversitylibrary.org/page/10309246)。
+## P3-40 八种 Presbytis 物种页与属级阅读路径（2026-09-30）
+
+新增八个 COL26.8 接受种的双语 source-linked 页面，并为真实属级 COL ID 6VKV 增加阅读路径。跨越新加坡、马来半岛、苏门答腊、婆罗洲与爪哇的局地研究；不同研究的年份、样本、地点和论文用名分别标明，不合并为全属或全种估计。
+
+| COL ID / 接受种 | 读者页证据 | 主要边界 | 批次 |
+| --- | --- | --- | --- |
+| 4MBB2 Presbytis femoralis | 柔佛单群 41 天食谱；新加坡幼体与出生观察 | 两处局地研究，不构成全种饮食或繁殖参数 | P3-40 |
+| 4MBB3 P. frontata | Cantung 流域 31 个记录点、72 只观测和栖地指标 | 2021 年局地漫查，不作全种密度或范围估算 | P3-40 |
+| 4MBB6 P. hosei | Kayan Mentarang 四类森林的群密度与生物量比较 | 四个月样线研究，非当前全种状态 | P3-40 |
+| 4MBB9 P. melalophos | HPPB 三群普查与取食记录；较早的比较食物研究 | 小型研究林和论文发表时的分类概念 | P3-40 |
+| 4MBBB P. mitrata | Merangin Geopark 河岸样区人口与植被记录 | 研究使用旧亚种组合 P. melalophos ssp. mitrata | P3-40 |
+| 4MBBG P. rubicunda | Sabangau、Danum 与八处婆罗洲地点的取食和地面活动研究 | 跨地点、跨样本；受扰动林关联不作因果解释 | P3-40 |
+| 788XP P. chrysomelas | Danau Sentarum 的 2021 年初步取食与林冠活动观察 | 原文针对 P. chrysomelas ssp. cruciger | P3-40 |
+| 7899P P. comata | Kuningan 19 片生产林样地的密度与局地相关分析 | 非随机选点；模型解释差异有限，不外推全爪哇 | P3-40 |
+
+八种均无 species dossier，本批只新增读者页，没有更改外部评审状态。中文普通名为编辑译名。完成本批后，COL26.8 灵长类接受种读者页为 231/530（54 个 dossier-backed、177 个 profile-only），299 种仍缺种级页面；476 种仍未命中 dossier 索引。
+
+来源：[Najmuddin et al. (2021)](https://doi.org/10.6620/ZS.2021.60-67)、[Ang, Ismail & Meier (2010)](https://lkcnhm.nus.edu.sg/app/uploads/2017/04/58rbz411-415.pdf)、[Darmaji et al. (2023)](https://doi.org/10.20527/es.v19i3.17274)、[Nijman (2004)](https://repository.naturalis.nl/pub/534367)、[Fitri, Rizaldi & Novarino (2014)](https://jbioua.fmipa.unand.ac.id/index.php/jbioua/article/view/34)、[Paiman et al. (2018)](https://doi.org/10.29244/medkon.23.1.92-98)、[Ehlers Smith et al. (2013)](https://doi.org/10.1002/ajp.22148)、[Ehlers Smith, Ehlers Smith & Cheyne (2013)](https://doi.org/10.1007/s10764-013-9715-7)、[Ehlers Smith et al. (2018)](https://doi.org/10.1007/s10329-018-0676-5)、[Santoso et al. (2023)](https://doi.org/10.11598/btb.2023.30.2.1850) and [Supartono et al. (2020)](https://static1.1.sqspcdn.com/static/f/1200343/28367909/1604697875233/PC34_Supartono_et_al_Presbytis_comata_W_Java.pdf).
