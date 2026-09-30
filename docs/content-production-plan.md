@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-41 的八个 Cercopithecus 物种页和属级阅读路径现已加入当前分支；八页均为来源限定的 profile-only 初稿，固定分母内页面为 239/530（54 个 dossier-backed、185 个 profile-only），291 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍待排查。主龙现生页为鳄目 27/27、Aves 9/11,044，共 36/11,071；化石分母为 4,664，P4-8 后化石页 7/4,664。页面计数不代表专家评审或完成。
+下一执行动作：P3-42 的十个 Cercopithecus 物种页和属级阅读路径已加入当前分支；十页均为来源限定的 profile-only 初稿，固定 530 种分母内为 249/530（54 个 dossier-backed、195 个 profile-only），281 个接受种仍无物种页，476 个仍未命中 dossier 索引。STGT C. wolfi 目前只能形成局地研究札记，专属生态材料仍不足，不能按综合介绍计为完成。主龙现生页为鳄目 27/27、Aves 9/11,044，共 36/11,071；化石分母为 4,664，P4-8 后化石页 7/4,664。页面数量不代表专家评审或科学档案完成。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -686,3 +686,25 @@ P4-8 后，化石物种页为非鸟恐龙 5/1,794、化石 Aves 1/1,743、Crocod
 - 英文普通名参照本地固定 MDD 交叉表；中文普通名为编辑译名。没有新增 dossier 或外部专家评审。完成本批后，530 个接受种中有 239 个种级读者页（54 个 dossier-backed、185 个 profile-only），291 种仍无种级页面；476 种仍未命中 dossier 索引。
 
 - Sources: [Bempah et al. (2021)](https://doi.org/10.3390/d13120610), [Curtin (2004)](https://doi.org/10.1007/0-306-48417-X_23), [Buzzard (2006)](https://doi.org/10.1007/s10764-006-9022-7), [Tutin (1999)](https://doi.org/10.1007/BF02557714), [Cronin et al. (2016)](https://doi.org/10.1016/j.biocon.2016.03.001), [Fournier et al. (2023)](https://doi.org/10.3390/ani13111819), [Takahashi et al. (2019)](https://doi.org/10.1002/ajp.23016), and [Struhsaker (2017)](https://doi.org/10.1007/s10764-017-9988-3).
+
+
+## P3-42 十种 Cercopithecus 物种页与属级阅读路径（2026-09-30）
+
+新增十个 COL26.8 接受种的双语 source-linked 页面，并扩展属 ID 3L2F 的阅读路径。内容来自不同的局地野外调查、行为实验、取食比较和栖地模型；保留各研究年代、样本及方法，不合成为全属画像。
+
+| COL ID / 接受种 | 本页证据主题 | 主要边界 | 批次 |
+| --- | --- | --- | --- |
+| 5XKBG *Cercopithecus erythrogaster* | 贝宁南部四片林地 22 个记录点及适宜生境模型 | 研究对象为亚种；模型预测不等于确认出现或完整分布 | P3-42 |
+| 69KC4 *C. denti* | Nyungwe 的林斑取食和垂直活动观察 | Cyamudongo 一处林斑、2017 年三个月 | P3-42 |
+| 69KCP *C. hamlyni* | Nyungwe 竹林与混合林样线、群体最小计数 | 难检出、地栖，样线会漏检或低估群体 | P3-42 |
+| STFG *C. mona* | Okomu 旱雨季植物食物和园外取食记录 | 37 日观察；未可靠测得群体组成或密度 | P3-42 |
+| STFK *C. neglectus* | Kafa 两森林六群的活动扫描和食物植物 | 2022–2023 年局地样本，不外推全分布区 | P3-42 |
+| STFM *C. nictitans* | Nouabalé-Ndoki 豹模型与群体警戒叫声实验 | 模拟威胁反应，不是自然攻击频率 | P3-42 |
+| STFT *C. petaurista* | Taï 森林三种 guenon 的食物与树冠层比较 | 每种两群、单一森林的 13 个月研究 | P3-42 |
+| STFZ *C. pogonias* | Makokou、Lopé 与 Makandé 食谱比较 | 不同地点与研究的汇总比例，不是统一样本 | P3-42 |
+| STGF *C. sclateri* | 尼日尔河三角洲占域方法与观察者检出差异 | 58 个样地、125 次调查；种群推断受少量检出限制 | P3-42 |
+| STGT *C. wolfi* | Lomako 多物种普查及 Lomami 一次地面相机检出 | 仅支持局地札记；物种专属生态与分布证据仍不足 | P3-42 |
+
+十种均没有 species dossier；新增页为 profile-only，未改变外部专家评审状态。英文普通名采用固定 MDD 交叉表备选；中文普通名为编辑译名。加入本批后，固定分母中的物种页为 249/530（54 个 dossier-backed、195 个 profile-only），281 种仍无页面；476 种仍未命中 dossier 索引。*C. wolfi* 的页只汇总有限局地记录，物种专属生态仍属资料不足项，不按综合介绍计完成。
+
+来源：[Zoffoun et al. (2022)](https://doi.org/10.6620/ZS.2022.61-47), [Clark & Kaplin (2023)](https://doi.org/10.1111/aje.13228), [Easton et al. (2011)](https://doi.org/10.1017/S0030605310001468), [Olaleru et al. (2020)](https://static1.1.sqspcdn.com/static/f/1200343/28390380/1609952265813/AP%2BVol%2B14%2B-%2BOlaleru%2Bet%2Bal.pdf), [Haile et al. (2026)](https://doi.org/10.1007/s00114-026-02115-1), [Mehon & Stephan (2021)](https://doi.org/10.1098/rsos.202135), [Buzzard (2006)](https://doi.org/10.1007/s10764-006-9022-7), [Chapman et al. (2004)](https://doi.org/10.1007/0-306-48417-X_22), [Tutin et al. (1997)](https://pubmed.ncbi.nlm.nih.gov/9108968/), [Baker et al. (2011)](https://doi.org/10.1007/s10144-011-0274-5), [McGraw (1994)](https://doi.org/10.1002/ajp.1350340402) 和 [Fournier et al. (2023)](https://doi.org/10.3390/ani13111819)。
