@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-50 已新增 10 种 Cheirogaleus 页面并补入属级导读；灵长类固定分母目前有 319/530 个种级读者页记录（54 个 dossier-backed、265 个 profile-only），211 个接受种仍无种级读者页，476 个仍未命中 dossier 索引。*C. minusculus* 目前仅有一件正模标本可支持分类史导读，生态正文资料不足，暂不计满足首轮正文标准。页面保留地点、年代、样本量与分类争议边界。下一批继续补齐剩余灵长类，完成后回到主龙类；主龙类分母见本计划。纯内容变更不运行测试、内容/数据/增量校验或 CI。
+下一执行动作：P3-51 已为九种 Avahi 增加双语来源链接页，并新增属级阅读导读；固定的 530 个灵长类物种中已有 328 个种级读者页记录（54 个 dossier-backed、274 个 profile-only），202 个仍无种级页面，476 个仍未命中 dossier 索引。Cheirogaleus 的 *C. minusculus* 仍仅有分类与证据史页面，不计为满足首轮正文标准。新增内容保留原始研究的分类、地点和样本边界。下一批继续补齐剩余灵长类，完成后回到主龙类；主龙类分母见本计划。纯内容变更不运行测试、内容/数据/增量校验或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -886,3 +886,24 @@ P4-8 后，化石物种页为非鸟恐龙 5/1,794、化石 Aves 1/1,743、Crocod
 来源：[Groeneveld et al. (2009)](https://doi.org/10.1186/1471-2148-9-30)、[Groeneveld et al. (2010)](https://doi.org/10.1016/j.ympev.2010.03.004)、[Lei et al. (2014)](https://doi.org/10.1896/052.028.0110)、[Thiele, Razafimahatratra & Hapke (2013)](https://doi.org/10.1016/j.ympev.2013.07.019)、[Lei et al. (2015)](https://doi.org/10.1896/052.029.0103)、[Frasier et al. (2016)](https://protectedareas.mg/document/show/166999)、[McLain et al. (2017)](https://protectedareas.mg/content/documents/b3bc5504-b040-4403-9d10-614202765df9/e33d839c92f54075b7a0343e11aa7339.pdf)。
 
 补充来源：[Dausmann et al. (2004)](https://doi.org/10.1038/429825a)、[Lahann (2007)](https://doi.org/10.1007/s10764-007-9163-3)、[Hyde Roberts et al. (2021)](https://doi.org/10.1007/s10764-021-00243-1)、[Hending et al. (2017)](https://doi.org/10.1159/000481531)、[Hending et al. (2023)](https://doi.org/10.1007/s10764-023-00363-w)、[Blanco et al. (2026)](https://doi.org/10.1163/14219980-bja10076) 与 [Natural History Museum specimen 1911.6.21.1](https://data.nhm.ac.uk/object/a49705d9-ee39-4373-8c8d-18065719ea4c)。
+
+
+## P3-51 九种 Avahi 物种页与属级阅读导读（2026-09-30）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 | 批次 |
+|---|---|---|---|
+| 5VZ73 Avahi peyrierasi | 2006 年东部毛狐猴比较与 Ranomafana 附近 Mahasoarivo 模式系列；后续论文记录两个线粒体类型 | 采集和分类材料不等于现代分布调查；类型标签不是额外接受种 | P3-51 |
+| K29N A. betsileo | Bemosary 森林三只成年个体的 2007 年描述 | 单一森林样本；作者称区域界限仍属暂定 | P3-51 |
+| K29P A. cleesei | 1991 年正模及 Bemaraha 的局地鸣声观察 | 历史观察不代表当前占域 | P3-51 |
+| K29Q A. laniger | 一只雄兽的早期跟踪研究；2026 年 18 片未保护森林调查 | 单兽行为观察与区域性样线调查不可外推成全种结论 | P3-51 |
+| K29R A. meridionalis | Sainte Luce、Andohahela 相关分类材料及后续种级处理 | 与邻近谱系的边界在原研究中仍待进一步研究 | P3-51 |
+| K29S A. mooreorum | Masoala 原始分类材料及半岛四类森林的局地距离抽样 | 33 公里重复样线所得密度估计不是全种数量 | P3-51 |
+| K29T A. occidentalis | 西部地理、毛色和博物馆材料比较 | 不确定边界保留为研究史，不代表当前占域地图 | P3-51 |
+| K29V A. ramanantsoavani | Manombo 模式系列及 2006 亚种、2007 提升为种的分类历程 | 沿用 COL26.8 拼写和等级，不外推完整分布 | P3-51 |
+| K29W A. unicolor | Ampasindava 区域材料的原始描述及后续序列比较 | 序列片段和地点有限；部分亲缘推断不一致 | P3-51 |
+
+本批为九种增加来源链接的双语种级页面，并在 COL26.8 属 ID 36NJ 下新增毛狐猴属阅读导读。固定灵长类名录页面记录为 328/530（54 个 dossier-backed、274 个 profile-only）；202 个接受种仍无种级页面，476 个仍未命中 dossier 索引。所有新增种页均为 profile-only，没有新增 dossier 或外部领域专家评审；MDD v2.5 支持英文普通名，中文普通名为编辑译名。
+
+内容分别限于 2006 年东部样本比较、2007 年属级修订、2008 年马苏阿拉描述、西部毛色材料、一只雄兽的行为跟踪，以及局地距离抽样和鸣声记录。旧分类处理与 COL26.8 当前接受等级并列说明；没有把历史分布或局地密度写成当前全种结论。纯内容变更不运行测试、内容/数据/增量校验或 CI；只刷新读者运行时投影与数据清单。
+
+来源：[Zaramody et al. (2006)](https://www.dpz.eu/fileadmin/user_upload/Bibliothek/Primate_Report/PDF/Primate_Report_74__2006_.pdf)、[Andriantompohavana et al. (2007)](https://www.depts.ttu.edu/nsrl/publications/downloads/SP51.pdf)、[Lei et al. (2008)](https://www.depts.ttu.edu/nsrl/publications/downloads/SP53.pdf)、[Thalmann & Geissmann (2000)](https://doi.org/10.1023/A:1005507028567)、[Thalmann & Geissmann (2005)](https://doi.org/10.1002/ajp.20191)、[Thalmann & Geissmann (2006)](https://static1.1.sqspcdn.com/static/f/1200343/18197739/1337026101357/PC21.cleesei.pdf)、[Harcourt (1991)](https://doi.org/10.1111/j.1469-7998.1991.tb04395.x)、[Rendigs et al. (2016)](https://doi.org/10.1007/s10329-016-0552-0)、[Schüßler et al. (2026)](https://doi.org/10.1163/14219980-bja10087)。
