@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-49 已新增 11 种 Presbytis 页面并扩展属级阅读路径；灵长类固定分母目前 309/530（54 个 dossier-backed、255 个 profile-only），221 个接受种仍无种级读者页，476 个仍未命中 dossier 索引。页面分别保留旧分类组合、地区样本、短期调查和线粒体证据的边界。下一批继续补齐剩余灵长类，完成后回到主龙类；主龙类分母见本计划。纯内容变更不运行测试、内容/数据/增量校验或 CI。
+下一执行动作：P3-50 已新增 10 种 Cheirogaleus 页面并补入属级导读；灵长类固定分母目前有 319/530 个种级读者页记录（54 个 dossier-backed、265 个 profile-only），211 个接受种仍无种级读者页，476 个仍未命中 dossier 索引。*C. minusculus* 目前仅有一件正模标本可支持分类史导读，生态正文资料不足，暂不计满足首轮正文标准。页面保留地点、年代、样本量与分类争议边界。下一批继续补齐剩余灵长类，完成后回到主龙类；主龙类分母见本计划。纯内容变更不运行测试、内容/数据/增量校验或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -860,3 +860,29 @@ P4-8 后，化石物种页为非鸟恐龙 5/1,794、化石 Aves 1/1,743、Crocod
 来源：[Lammertink, Nijman & Setiorini (2003)](https://doi.org/10.1017/S003060530300084X)、[Fuentes (1996)](https://doi.org/10.1007/BF02735190)、[Hadi et al. (2012)](https://doi.org/10.1007/s10764-011-9567-y)、[Iqbal et al. (2023)](https://doi.org/10.37828/em.2023.61.3) 与 [Lhota et al. (2012)](https://doi.org/10.1002/ajp.21983)。
 
 补充来源：[Ramlee (2013)](https://doi.org/10.25911/5d5e72535cf55)、[Karuniawati et al. (2024)](https://www.wildspace.sg/_files/ugd/58532a_7c36caf7f15a4af08793282662e95ca5.pdf)、[Ang et al. (2020)](https://doi.org/10.1038/s41598-020-66007-8)、[Afif, Rianti & Tanio (2024)](https://repository.ipb.ac.id/handle/123456789/153507)、[Steenbeek & van Schaik (2001)](https://doi.org/10.1007/s002650000286)、[Wich et al. (2007)](https://doi.org/10.1002/ajp.20386) 与 [Meyer et al. (2011)](https://doi.org/10.1016/j.ympev.2011.02.015)。
+
+
+## P3-50 十种 Cheirogaleus 物种页与属级导读（2026-09-30）
+
+新增 10 个 COL26.8 接受种的双语 source-linked 页面，并新增真实属级 COL ID 3MKB 的导读。阅读路径先并列 2009 年多位点低物种数解释与 2014 年扩大样本后的分类方案，再读 2013—2017 年几个局地原始描述，最后比较冬眠、沿海森林监测和 Tsinjoarivo 同地生态研究。2023 年生态位研究仅对九个名录种中的三个建模，因为其余六种的出现点不足；未建模不表示未分布。
+
+| COL ID / 接受种 | 本页证据主题 | 主要边界 / 待补项 | 批次 |
+| --- | --- | --- | --- |
+| 5XRNC *Cheirogaleus thomasi* | Sainte Luce 三个林片 2011—2018 年月度长期监测 | 只适用于受监测林片和年份，不外推为当前全种估计 | P3-50 |
+| 5XRNW *C. crossleyi* | Tsinjoarivo 与西布里侏狐猴的同地活动与取食比较 | 13 只个体、一个高海拔片段、2011—2014 年 | P3-50 |
+| 5XRNX *C. medius* | 树洞隔热与冬眠体温；并列不同属级种界解释 | 单项生理研究不代表全属；种界方案存在分歧 | P3-50 |
+| 5Y3NR *C. andysabini* | Montagne d'Ambre 原始遗传和形态描述 | 2005 年调查与 2015 年补充样本，不视为北部普查 | P3-50 |
+| 5Y3NW *C. lavasoensis* | 南部九处地点、51 只侏狐猴的多位点比较 | 51 是属级研究样本数，不是该种样本数 | P3-50 |
+| 5Y3NY *C. minusculus* | Ambositra 一件幼体正模及有限分类史 | 缺野外生态资料；不计满足首轮正文标准 | P3-50 |
+| 5Y3NZ *C. shethi* | 北部原始描述和 2017 年十处调查记录 | 新记录扩展已知地点，不代表完整连续范围 | P3-50 |
+| 69RNW *C. major* | Mandena 25 公顷样区两个雨季的家庭群与储脂观察 | 局地小样本；冬眠起止仍未确定 | P3-50 |
+| 69RNZ *C. sibreei* | Tsinjoarivo 同地比较中的夜间移动与空间使用 | 11 只个体、单一片段；完整样本家域差异不显著 | P3-50 |
+| 84JK2 *C. grovesi* | Ranomafana 与 Andringitra 材料的遗传和形态描述 | 两处采样地不等于完整现今分布 | P3-50 |
+
+本批 10 种均没有 species dossier，新增物种页均为 profile-only；属级导读另计，不进入 530 个种级分母。固定名录读者页记录为 319/530（54 个 dossier-backed、265 个 profile-only）；211 个接受种仍无种级读者页，476 个仍未命中 dossier 索引。*C. minusculus* 的材料只支持一页有限的命名与证据史，不计为满足首轮正文标准。英文普通名参照 MDD v2.5，中文名为编辑译名；本批没有外部领域专家评审。
+
+根据用户指定的 content-only 工作流，本批不运行测试、内容校验、数据校验、增量校验或 CI；只为接入读者页面刷新 registry 与 manifest 投影。
+
+来源：[Groeneveld et al. (2009)](https://doi.org/10.1186/1471-2148-9-30)、[Groeneveld et al. (2010)](https://doi.org/10.1016/j.ympev.2010.03.004)、[Lei et al. (2014)](https://doi.org/10.1896/052.028.0110)、[Thiele, Razafimahatratra & Hapke (2013)](https://doi.org/10.1016/j.ympev.2013.07.019)、[Lei et al. (2015)](https://doi.org/10.1896/052.029.0103)、[Frasier et al. (2016)](https://protectedareas.mg/document/show/166999)、[McLain et al. (2017)](https://protectedareas.mg/content/documents/b3bc5504-b040-4403-9d10-614202765df9/e33d839c92f54075b7a0343e11aa7339.pdf)。
+
+补充来源：[Dausmann et al. (2004)](https://doi.org/10.1038/429825a)、[Lahann (2007)](https://doi.org/10.1007/s10764-007-9163-3)、[Hyde Roberts et al. (2021)](https://doi.org/10.1007/s10764-021-00243-1)、[Hending et al. (2017)](https://doi.org/10.1159/000481531)、[Hending et al. (2023)](https://doi.org/10.1007/s10764-023-00363-w)、[Blanco et al. (2026)](https://doi.org/10.1163/14219980-bja10076) 与 [Natural History Museum specimen 1911.6.21.1](https://data.nhm.ac.uk/object/a49705d9-ee39-4373-8c8d-18065719ea4c)。
