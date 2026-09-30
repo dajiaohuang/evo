@@ -12,6 +12,7 @@ export const crocBirdZhKeys = new Set<string>([
   "Global fossil-calibrated phylogenetic model",
   "Effigia okeeffeae",
   "Suchia",
+  "Carnufex",
   "Carnufex carolinensis",
   "Junggarsuchus sloani",
   "Crocodylia",

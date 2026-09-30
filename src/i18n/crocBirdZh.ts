@@ -12,6 +12,7 @@ export const crocBirdZh: Record<string, string> = {
   'Global fossil-calibrated phylogenetic model': '全球化石校准系统发育模型',
   'Effigia okeeffeae': '奥氏艾菲鳄',
   'Suchia': '鳄类支系',
+  'Carnufex': '卡努菲克斯',
   'Carnufex carolinensis': '卡罗莱纳屠夫鳄',
   'Junggarsuchus sloani': '斯隆准噶尔鳄',
   'Crocodylia': '冠群鳄类',
