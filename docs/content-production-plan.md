@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-44 的八个 Eulemur 物种页和属级阅读路径已加入当前分支；八页均为来源限定的 profile-only 初稿，固定 530 种分母内为 265/530（54 个 dossier-backed、211 个 profile-only），265 个接受种仍无物种页，476 个仍未命中 dossier 索引。沿海林地、Ankarana、Manombo、Ankarafa 与 Ranomafana 的样本和年代均分别保留；继续补齐剩余灵长类后转向主龙类。主龙现生页为鳄目 27/27、Aves 9/11,044，共 36/11,071；化石分母为 4,664，P4-8 后化石页 7/4,664。页面数量不代表专家评审或科学档案完成。
+下一执行动作：P3-45 的八个 Propithecus 物种页和属级阅读路径已加入当前分支；页面覆盖局地调查、取食、睡眠地点、空间利用与肠道微生物组，固定 530 种分母内为 273/530（54 个 dossier-backed、219 个 profile-only），257 个接受种仍无种级读者页，476 个仍未命中 dossier 索引。各研究结论保留地点、年代与样本边界；继续补齐剩余灵长类后转向主龙类。主龙现生页为鳄目 27/27、Aves 9/11,044，共 36/11,071；化石分母为 4,664，P4-8 后化石页 7/4,664。页面数量不代表专家评审或科学档案完成。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -746,3 +746,22 @@ P4-8 后，化石物种页为非鸟恐龙 5/1,794、化石 Aves 1/1,743、Crocod
 八种均没有 species dossier；本批只新增 profile-only 页面，没有改变外部专家评审状态。英文普通名参考固定 MDD 交叉表，中文普通名为编辑译名。完成本批后，灵长类接受种读者页为 265/530（54 个 dossier-backed、211 个 profile-only），265 个接受种仍无种级读者页；476 个仍未命中 dossier 索引。属级阅读路径只串联选定研究，不是完整属级综述。
 
 来源：[Donati et al. (2011)](https://doi.org/10.1371/journal.pone.0019807)、[Volampeno, Masters & Downs (2011)](https://doi.org/10.1159/000322231)、[Colquhoun (1998)](https://doi.org/10.1159/000052696)、[Tonos et al. (2025)](https://doi.org/10.1111/1365-2435.14702)、[Gudiel et al. (2017)](https://aeecl.org/wp-content/uploads/2020/03/lemurnews2017_20.pdf)、[Ralainasolo, Ratsimbazafy & Stevens (2008)](https://doi.org/10.4314/mcd.v3i1.44134) 与 [Valenta et al. (2016)](https://doi.org/10.1111/1365-2435.12575)。
+
+## P3-45 八种 Propithecus 物种页与属级阅读路径（2026-09-30）
+
+新增八个 COL26.8 接受种的双语 source-linked 页面，并为真实属级 COL ID 6WXL 增加阅读路径。页面以局地调查、取食、睡眠地点、空间利用和肠道微生物组研究为入口；仅总结引用研究支持的内容。
+
+| COL ID / 接受种 | 本页证据主题 | 主要边界 | 批次 |
+| --- | --- | --- | --- |
+| 6VXQ9 *Propithecus perrieri* | Analabe 与 Ankavana 的样线及数量估算 | 2003—2004 年样线结果与 2007 年模型估算，不表示当前数量 | P3-45 |
+| 6W9PY *P. deckenii* | Tsimembo-Manambolomaty 与 Mandrozo 八群领地观察 | 2017—2018 年两个保护区的小样本，不外推全分布区 | P3-45 |
+| 6W9Q9 *P. tattersalli* | Daraina 96 个体旱季粪便 DNA 条形码 | 植物检出不是摄入生物量或全年食谱 | P3-45 |
+| 77XPY *P. diadema* | Tsinjoarivo 连续林与林斑四群取食比较 | 一处地点、四群、一年观察 | P3-45 |
+| 77Y49 *P. candidus* | Marojejy 一个群体的睡眠树选择 | 单群十个月，功能解释仍限于该研究 | P3-45 |
+| 789PY *P. edwardsi* | Ranomafana 受伐与未伐雨林群体的空间利用 | 七群、一年观察，不推断长期伐木效应 | P3-45 |
+| 789RX *P. coquereli* | 野外与圈养群体的肠道微生物组比较 | 不是野外食谱调查，不能单独确定差异原因 | P3-45 |
+| 789S9 *P. coronatus* | 西北部 19 处周边林斑、廊道调查及六处样线 | 2009—2010 年选定地点结果，不是当前全域总量 | P3-45 |
+
+八种均没有 species dossier；本批只新增 profile-only 页面，没有改变外部专家评审状态。英文普通名参考固定 MDD 交叉表，中文普通名为编辑译名。完成本批后，灵长类接受种读者页为 273/530（54 个 dossier-backed、219 个 profile-only），257 个接受种仍无种级读者页；476 个仍未命中 dossier 索引。各页均为研究导读，不代表完整自然史或现状评估。
+
+来源：[Banks, Ellis & Wright (2007)](https://doi.org/10.1111/j.1469-1795.2007.00102.x)、[Josoa et al. (2023)](https://ijpsat.org/index.php/ijpsat/article/view/5477)、[Quéméré et al. (2013)](https://doi.org/10.1371/journal.pone.0058971)、[Irwin (2008)](https://doi.org/10.1007/s10764-007-9222-9)、[Mills et al. (2021)](https://doi.org/10.1159/000520710)、[Gerber et al. (2012)](https://doi.org/10.1007/s10764-011-9576-x)、[Greene et al. (2021)](https://doi.org/10.1186/s42523-021-00093-5) 与 [Salmona et al. (2014)](https://doi.org/10.1896/052.028.0122)。
