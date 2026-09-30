@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-51 已为九种 Avahi 增加双语来源链接页，并新增属级阅读导读；固定的 530 个灵长类物种中已有 328 个种级读者页记录（54 个 dossier-backed、274 个 profile-only），202 个仍无种级页面，476 个仍未命中 dossier 索引。Cheirogaleus 的 *C. minusculus* 仍仅有分类与证据史页面，不计为满足首轮正文标准。新增内容保留原始研究的分类、地点和样本边界。下一批继续补齐剩余灵长类，完成后回到主龙类；主龙类分母见本计划。纯内容变更不运行测试、内容/数据/增量校验或 CI。
+下一执行动作：P3-52 已为八种 Pithecia 增加双语来源链接页，并扩展既有属级阅读路径；固定的 530 个灵长类物种中已有 336 个种级读者页记录（54 个 dossier-backed、282 个 profile-only），194 个仍无种级页面，476 个仍未命中 dossier 索引。Cheirogaleus 的 *C. minusculus* 仍仅有分类与证据史页面，不计为满足首轮正文标准。新增内容保留原始研究的分类、地点和样本边界。下一批继续补齐剩余灵长类，完成后回到主龙类；主龙类分母见本计划。纯内容变更不运行测试、内容/数据/增量校验或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -907,3 +907,25 @@ P4-8 后，化石物种页为非鸟恐龙 5/1,794、化石 Aves 1/1,743、Crocod
 内容分别限于 2006 年东部样本比较、2007 年属级修订、2008 年马苏阿拉描述、西部毛色材料、一只雄兽的行为跟踪，以及局地距离抽样和鸣声记录。旧分类处理与 COL26.8 当前接受等级并列说明；没有把历史分布或局地密度写成当前全种结论。纯内容变更不运行测试、内容/数据/增量校验或 CI；只刷新读者运行时投影与数据清单。
 
 来源：[Zaramody et al. (2006)](https://www.dpz.eu/fileadmin/user_upload/Bibliothek/Primate_Report/PDF/Primate_Report_74__2006_.pdf)、[Andriantompohavana et al. (2007)](https://www.depts.ttu.edu/nsrl/publications/downloads/SP51.pdf)、[Lei et al. (2008)](https://www.depts.ttu.edu/nsrl/publications/downloads/SP53.pdf)、[Thalmann & Geissmann (2000)](https://doi.org/10.1023/A:1005507028567)、[Thalmann & Geissmann (2005)](https://doi.org/10.1002/ajp.20191)、[Thalmann & Geissmann (2006)](https://static1.1.sqspcdn.com/static/f/1200343/18197739/1337026101357/PC21.cleesei.pdf)、[Harcourt (1991)](https://doi.org/10.1111/j.1469-7998.1991.tb04395.x)、[Rendigs et al. (2016)](https://doi.org/10.1007/s10329-016-0552-0)、[Schüßler et al. (2026)](https://doi.org/10.1163/14219980-bja10087)。
+
+
+## P3-52 八种 Pithecia 物种页与属级阅读路径扩展（2026-09-30）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 / 分类差异 | 批次 |
+|---|---|---|---|
+| 4JBGS *Pithecia aequatorialis* | 2014 年博物馆样本与 2023 年厄瓜多尔七条记录 | 七条记录来自 Pastaza 的标本与照片；边界仍待实地确认 | P3-52 |
+| 4JBH3 *P. inusta* | Marsh（2014）与 2024 年对 Spix 原始法文描述的重读 | COL/MDD 保留接受名；2024 文质疑 Ucayali/上 Juruá 种群归属并提出异名处理 | P3-52 |
+| 4JBH5 *P. isabela* | 新种原始描述、Santa Elena 正模及 Río Samiria 副模地点 | 模式系列只解释名称依据，不代表完整现今分布 | P3-52 |
+| 4JBH7 *P. milleri* | 哥伦比亚西部亚马孙的 77 条馆藏与观察记录 | 2007—2015 年不同来源记录；Caguán—Yarí 和接触区仍待调查 | P3-52 |
+| 4JBHB *P. napensis* | Río Curaray 610 公里样线中的 16 次局地目击 | 2012 年四地点；只在河流北岸观察到，不是全种估计 | P3-52 |
+| 4JBHJ *P. rylandsi* | 2017 年马托格罗索三次观察与 2019 年博物馆毛色比较 | COL 接受、当前 MDD 归作 *P. irrorata* 异名；并列保留 | P3-52 |
+| 4JBHL *P. vanzolinii* | 2014 年提升种级与 2019 年 54 张皮张的比较 | 群体来自九个馆藏；不等同野外遗传隔离实验 | P3-52 |
+| 77LPB *P. pissinattii* | 2014 年新种正模与 2019 年种组修订 | COL 接受、当前 MDD 归作 *P. irrorata* 异名；并列保留 | P3-52 |
+
+本批新增八个 profile-only 物种页，并扩展 COL 属级 ID 6QYQ 的既有阅读导读。固定灵长类名录读者页记录为 336/530（54 个 dossier-backed、282 个 profile-only）；194 个接受种仍无种级读者页，476 个仍未命中 dossier 索引。未新增 dossier 或外部领域专家评审。英语普通名采用 MDD 页面名称；中文普通名为编辑译名。
+
+Pithecia 的分类处理在来源之间不一致：2019 年毛色比较把 *P. rylandsi*、*P. pissinattii* 与 *P. mittermeieri* 归并至 *P. irrorata*；COL26.8 仍保留本批前两者为接受种，而当前 MDD 页面列作异名。2024 年对 *P. inusta* 模式地点的重读又提出不同种群归属。本批只并列记录来源，不裁决分类。其他段落分别限定于模式系列、区域馆藏、短期样线或历史观察。
+
+依照用户指定的 content-only 工作流，本批不运行测试、内容校验、数据校验、增量校验或 CI；只为读者入口刷新运行时投影与数据清单。
+
+来源：[Marsh (2014)](https://doi.org/10.1896/044.021.0101)、[Aquino et al. (2014)](https://doi.org/10.1896/052.028.0103)、[Villalba, Páez & Palacios (2017)](https://doi.org/10.62015/np.2017.v23.116)、[Orsini, Nunes & Marsh (2017)](https://doi.org/10.15560/13.3.2123)、[Serrano-Villavicencio et al. (2019)](https://doi.org/10.1093/jmammal/gyy167)、[Tirira (2023)](https://doi.org/10.62015/np.2023.v29.782) 与 [Serrano-Villavicencio & Terra Garbino (2024)](https://doi.org/10.24841/fa.v33i1.729)。
