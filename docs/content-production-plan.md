@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-43 的八个 Piliocolobus 物种页和属级阅读路径已加入当前分支；八页均为来源限定的 profile-only 初稿，固定 530 种分母内为 257/530（54 个 dossier-backed、203 个 profile-only），273 个接受种仍无物种页，476 个仍未命中 dossier 索引。P. bouvieri 单群记录、P. epieni 与 P. kirkii 的有年代调查数字均保留研究边界；继续补齐剩余灵长类后转向主龙类。主龙现生页为鳄目 27/27、Aves 9/11,044，共 36/11,071；化石分母为 4,664，P4-8 后化石页 7/4,664。页面数量不代表专家评审或科学档案完成。
+下一执行动作：P3-44 的八个 Eulemur 物种页和属级阅读路径已加入当前分支；八页均为来源限定的 profile-only 初稿，固定 530 种分母内为 265/530（54 个 dossier-backed、211 个 profile-only），265 个接受种仍无物种页，476 个仍未命中 dossier 索引。沿海林地、Ankarana、Manombo、Ankarafa 与 Ranomafana 的样本和年代均分别保留；继续补齐剩余灵长类后转向主龙类。主龙现生页为鳄目 27/27、Aves 9/11,044，共 36/11,071；化石分母为 4,664，P4-8 后化石页 7/4,664。页面数量不代表专家评审或科学档案完成。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -727,3 +727,22 @@ P4-8 后，化石物种页为非鸟恐龙 5/1,794、化石 Aves 1/1,743、Crocod
 八种均没有 species dossier；本批只新增 profile-only 页面，没有改变外部专家评审状态。英文普通名参考固定交叉表，中文普通名为编辑译名。完成本批后，灵长类接受种读者页为 257/530（54 个 dossier-backed、203 个 profile-only），273 个接受种仍无种级读者页；476 个仍未命中 dossier 索引。属级阅读路径只覆盖选定研究，不是完整属级综述。
 
 来源：[McGraw et al. (2016)](https://doi.org/10.1016/j.jhevol.2015.06.001)、[Ndzai, Malonga & Maisels (2019)](https://www.storre.stir.ac.uk/bitstream/1893/35968/1/Ndzai_et_al_2019%20Bouviers_red_colobus_in_the_Congo.pdf)、[Ikemeh (2015)](https://doi.org/10.1896/052.029.0104)、[Barelli et al. (2019)](https://doi.org/10.1371/journal.pone.0225142)、[Davenport et al. (2019)](https://doi.org/10.1017/S003060531700148X)、[Cronin et al. (2016)](https://doi.org/10.1016/j.biocon.2016.03.001)、[Tana River forest-fragment study (2004)](https://doi.org/10.1016/j.biocon.2003.07.009) 与 [Chapman & Chapman (1999)](https://doi.org/10.1007/BF02557712)。
+
+## P3-44 八种 Eulemur 物种页与属级阅读路径（2026-09-30）
+
+新增八个 COL26.8 接受种的双语 source-linked 页面，并为真实属级 COL ID 4FSW 增加阅读路径。研究横跨马达加斯加东南沿海林地、西北干燥林、北部石灰岩林和中部雨林；取食、密度、视觉和活动节律等不同证据类型分别标明。
+
+| COL ID / 接受种 | 本页证据主题 | 主要边界 | 批次 |
+| --- | --- | --- | --- |
+| 6GXMJ *Eulemur collaris* | Sainte Luce 与 Mandena 沿海林片的群体和取食比较 | 研究点及观察期局限，不作全种食谱或数量估计 | P3-44 |
+| 6GXMK *E. flavifrons* | Ankarafa 2007—2008 年标记个体总计数 | 228 只、29 群来自部分林区，不是当前全种计数 | P3-44 |
+| 6GXNY *E. macaco* | Ambato Massif 15 个月昼夜活动观察 | 论文使用亚种名，夜间活动为间接推断 | P3-44 |
+| 6GXNZ *E. rubriventer* | Ranomafana 两群果实取食、移动与种子传播 | 2018 年三个月样本和模型 | P3-44 |
+| 6H9MJ *E. coronatus* | Ankarana 三种森林的旱季密度样线 | 2012 年初步局地估计，历史对照地点不同 | P3-44 |
+| 6H9NW *E. sanfordi* | 与冠狐猴共域的 Ankarana 群体与密度比较 | 研究称为早期局地估计，不外推当前总量 | P3-44 |
+| 6H9MM *E. cinereiceps* | Manombo 森林 54 种植物的取食记录 | 论文括注旧名 E. albocollaris，结果限于一处森林 | P3-44 |
+| 6H9MK *E. fulvus* | Ankarafantsika 三群视觉生态及果实可视度模型 | 行为样本为三群，模型不等于直接知觉测试 | P3-44 |
+
+八种均没有 species dossier；本批只新增 profile-only 页面，没有改变外部专家评审状态。英文普通名参考固定 MDD 交叉表，中文普通名为编辑译名。完成本批后，灵长类接受种读者页为 265/530（54 个 dossier-backed、211 个 profile-only），265 个接受种仍无种级读者页；476 个仍未命中 dossier 索引。属级阅读路径只串联选定研究，不是完整属级综述。
+
+来源：[Donati et al. (2011)](https://doi.org/10.1371/journal.pone.0019807)、[Volampeno, Masters & Downs (2011)](https://doi.org/10.1159/000322231)、[Colquhoun (1998)](https://doi.org/10.1159/000052696)、[Tonos et al. (2025)](https://doi.org/10.1111/1365-2435.14702)、[Gudiel et al. (2017)](https://aeecl.org/wp-content/uploads/2020/03/lemurnews2017_20.pdf)、[Ralainasolo, Ratsimbazafy & Stevens (2008)](https://doi.org/10.4314/mcd.v3i1.44134) 与 [Valenta et al. (2016)](https://doi.org/10.1111/1365-2435.12575)。
