@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-32 当前批次写入后，待 PR 评审合并的灵长类读者页预计为 180/530（58 个 dossier-backed、122 个 profile-only）；350 个仍无读者页，476 个未命中 dossier 索引的接受种仍需排查。主龙现生种级导读为鳄目 27/27、Aves 9/11,044，共 36/11,071；继续补齐 11,035 个鸟类接受种，并扩展恐龙、翼龙及鳄形类的类群介绍与化石素材。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石分母分开统计。
+下一执行动作：P3-33 写入后，待 PR #499 评审合并的灵长类读者页预计为 185/530（58 个 dossier-backed、127 个 profile-only）；345 个仍无读者页，476 个未命中 dossier 索引的接受种仍需排查。主龙现生种级导读为鳄目 27/27、Aves 9/11,044，共 36/11,071；继续补齐鸟类接受种，并扩展恐龙、翼龙及鳄形类的类群介绍与化石素材。未命中 dossier 不等于已确认无资料；缺页条目不计完成，现生与化石分母分开统计。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -500,3 +500,17 @@ P3-31 未新建物种 dossier；计入本批后灵长类接受种读者页预计
 | 6PC49 Lepilemur randrianasoloi | Andramasay/Bemaraha 样本及体型比较 | Tsiribihina、Manambaho、Mahavavy du Sud 边界均按假说表述；采用 2017 拼写 | COL26.8 目录详情 #/registry?release=COL26.8&id=6PC49 | P3-32 |
 
 P3-32 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 180/530（58 个 dossier-backed、122 个 profile-only），350 个接受种仍无种级读者页。MDD 映射内的 Lepilemur 物种页已补齐，但全体灵长类仍有 350 个缺页；待 PR #499 的 CI 与评审完成后再视为合并覆盖。476 个未命中 dossier 索引的接受种仍需逐项排查。
+
+### P3-33 五种 Plecturocebus 局地分布与分类导读（2026-09-30）
+
+依据一篇新种描述、两篇 Mammalian Species 综述、秘鲁绢毛猴分类调查和 MDD 名录，为五个 COL26.8 接受种新增双语 profile-only 页面。每页分别标明已确认样点、局地调查范围、分类组合与作者的工作假说；不把历史出现记录写成完整分布、丰度或现况保育结论。Aureipalatii 的分类处理存在名录差异：本页遵循固定的 COL26.8 分母，同时明示 MDD 将其列为 P. toppini 的异名；不把一种名录强写成跨名录共识。本批没有新建 dossier，中文普通名为编辑翻译，尚未经过外部领域专家评审。
+
+| taxonId / 接受种 | 来源支持的局部主题 | 主要范围限制 | 页面入口 | 批次 |
+| --- | --- | --- | --- | --- |
+| 4K5XV Plecturocebus aureipalatii | Madidi 原始描述、贝尼河西侧初步范围与四处样线；COL26.8 与 MDD 对其接受名处理不同 | 初步范围和样线不构成全域普查；页面按 COL26.8 保留条目并明示 MDD 将其并入 P. toppini | COL26.8 目录详情 #/registry?release=COL26.8&id=4K5XV | P3-33 |
+| 4K5Y2 Plecturocebus caquetensis | 哥伦比亚 104 个确认地点、190–400 m，以及家庭群和以植物为主的已发表食性观察 | 地点记录不代表数量普查；繁殖及家域资料仍有限 | COL26.8 目录详情 #/registry?release=COL26.8&id=4K5Y2 | P3-33 |
+| 4K5YC Plecturocebus oenanthe | 圣马丁 Alto Mayo 与 Huallaga 河谷、200–1,000 m、群组与主要食物综述 | 局地样点和河流边界不应当作无缺口全域调查；来源标题沿用 Callicebus | COL26.8 目录详情 #/registry?release=COL26.8&id=4K5YC | P3-33 |
+| 4K5YH Plecturocebus toppini | 2013 Atalaya 周边六周调查、样线与舟行调查量、重新评估历史标本 | 作者指出北界未明、河界为工作假说；不外推现今数量 | COL26.8 目录详情 #/registry?release=COL26.8&id=4K5YH | P3-33 |
+| 4K5YJ Plecturocebus urubambensis | 2015 描述中的局地标本形态和 Río Urubamba 流域记录 | 调查短，作者提出的河流间范围是工作假说而非屏障检验 | COL26.8 目录详情 #/registry?release=COL26.8&id=4K5YJ | P3-33 |
+
+P3-33 未新建物种 dossier；计入本批后灵长类接受种读者页预计为 185/530（58 个 dossier-backed、127 个 profile-only），345 个接受种仍无种级读者页。以上数量待 PR #499 的 CI 与评审完成、并入主线后再计为正式覆盖；476 个未命中 dossier 索引的接受种仍需逐项排查。主龙现生种级导读维持鳄目 27/27、Aves 9/11,044；本批未扩充主龙。
