@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-69 为 COL 属级 ID 63JQJ Paragalago 属新增五个固定接受种页面并建立属级阅读路径。灵长类现有 434/530 个种级页面记录（54 个 dossier-backed、380 个 profile-only）；96 个仍无种级页面，476 个仍未命中 dossier 索引。肯尼亚海岸两处森林、南非两处地点和坦桑尼亚沿海森林的局地研究支持三页达到首轮综合内容标准；山地伽拉戈的部分记录仍为 cf. orinus，坦桑尼亚海岸种也缺少可按固定身份核对的野外生态资料，另两页不计入标准。目前 15 项来源不足、分类证据有限或分类单元归属未决，419 个接受种达到首轮标准。继续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-71 从剩余 89 个无种级页面的 COL26.8 接受种中盘点证据较充分的候选，优先继续制作有可读研究材料的小批，并明确首轮标准未达标项。灵长类现有 441/530 个种级页面记录（54 个 dossier-backed、387 个 profile-only）；89 个仍无种级页面，476 个仍未命中 dossier 索引。424 个接受种达到首轮标准，17 个来源不足、分类证据有限或归属未决。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1252,3 +1252,24 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 来源：[Harcourt 与 Nash（1986），肯尼亚沿岸伽拉戈社会组织研究](https://doi.org/10.1002/ajp.1350100406)；[Butynski 等（2006），东非三种矮伽拉戈的分类与分布回顾](https://doi.org/10.1896/0898-6207.21.1.63)；[Génin 等（2016），南非格兰特矮伽拉戈调查](https://doi.org/10.1080/15627020.2016.1232602)；[Mufindi 森林生物多样性调查](https://www.tfcg.org/wp-content/uploads/2018/05/TFCG-MTSN-Mufindi-Biodiversity-Survey-Report.pdf) 与 [Rovero 等（2009），Udzungwa 灵长类综述](https://www.isita-org.com/jass/Contents/2009%20vol87/PDF/Preview/JASs2009_04_Rovero.pdf)；[Perkin（2003），Pande Game Reserve 哺乳动物调查](https://www.tfcg.org/wp-content/uploads/2018/05/Pande-GR-Survey-report-Final.pdf)；[Gwegime 等（2014），Rondo Reserve 2012—2013 年生物多样性调查](https://www.tfcg.org/wp-content/uploads/2018/05/TFCG-Forest-Condition-Survey-Rondo-NR-2014-FINAL-Online-Version.pdf)；[Masters 等（2017），Paragalago 属级分类](https://doi.org/10.1093/zoolinnean/zlw028)；[Pozzi 等（2020），*P. zanzibaricus* 复合群的隐蔽多样性与物种界定](https://doi.org/10.1016/j.ympev.2020.106887)；[Taita Hills dwarf galagos 研究（2023）](https://doi.org/10.1007/s10764-023-00390-7)。
 
 依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影、注册表和数据清单。
+
+## P3-70 七种 Tamarinus 髭狨属页面与属级阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 / 分类差异 | 批次 |
+|---|---|---|---|
+| BSCW3 *T. mystax* | 四个野生群体家域中的气味标记空间分布 | 旧论文使用 *Saguinus mystax*；局地群体结果不外推全种 | P3-70 |
+| BSCX2 *T. pileatus* | 上 Urucu 河 terra firme 森林单个混群的觅食研究 | 原研究称 *S. mystax pileatus*；2023 年分类重审支持该谱系独立 | P3-70 |
+| BSCY4 *T. labiatus* | Pando 五个月野外观察、无线电定位和稳定混群 | 研究限于玻利维亚北部；不外推全种群体参数 | P3-70 |
+| BSCZ2 *T. inustus* | Caquetá 一群短期取食记录；Amanã 11 地点的季节调查 | 家域仅五个完整跟踪日；季节调查只支持地区记录 | P3-70 |
+| BSCZN *T. subgrisescens* | Pando 四个月调查的历史活动与栖地记录，加 2023 年种界证据 | 旧研究写作 *S. imperator*；后续分类研究将 Pando 材料归入 subgrisescens | P3-70 |
+| BSD27 *T. imperator* | 毛色、头骨与线粒体 DNA 比较及取样边界 | 名义种样本很少；接触带未知；不把旧 *S. imperator* 广域生态自动归入 | P3-70 |
+| BSD2X *T. kulina* | 2023 年新种描述、模式标本与 Baixo Juruá 模式产地 | COL 作者年列为 2022；原描述发表于 2023 且使用 *Saguinus kulina*；暂无种群生态研究 | P3-70 |
+
+本批新增七个双语 profile-only 种级页面，并为真实 COL 属级 ID 7S9R 新增属级介绍和阅读路径。七个 ID 在本地证据队列均无 dossier 或导读摘要；未新增 dossier 或外部领域专家评审。*T. mystax*、*T. pileatus*、*T. labiatus*、*T. inustus* 和 *T. subgrisescens* 以地点、样本和方法边界清楚的野外研究达到首轮综合内容标准；*T. imperator* 的名义种取样和野外归属不足，*T. kulina* 目前主要有分类描述和模式产地，二者不计入标准。批次后灵长类种级页为 441/530（54 个 dossier-backed、387 个 profile-only），89 个固定接受种仍无种级页；424 个达到首轮综合内容标准，17 个尚未达到；476 个仍未命中 dossier 索引。COL26.8 与本地 MDD v2.5 侧车的七个精确名称联接均未命中，不作同物异名推断；英文普通名依来源或编辑选择，中文为编辑译名。
+
+属级阅读路径从 *T. inustus* 的两处局地研究开始，再比较 *T. mystax* 与旧组合 *S. mystax pileatus* 的野外观察；之后读取 *T. labiatus* 和分类研究重新归属到 *T. subgrisescens* 的玻利维亚区域资料。末尾并列比较帝狨两支的分类证据与 *T. kulina* 的模式描述。属级排列来自分类文献；地点、年代与研究方法保持分开。
+
+来源：[Heymann（2000），*T. mystax* 气味标记研究](https://doi.org/10.1006/anbe.2000.1516)；[Lopes 等（2023），髭狨类群分类重审及 *T. kulina* 描述](https://doi.org/10.7717/peerj.14526)；[Peres（1993），旧组合 *S. mystax pileatus* 的取食生态](https://doi.org/10.1111/j.1469-7998.1993.tb02707.x)；[Buchanan-Smith（1990），玻利维亚 *S. labiatus* 野外混群研究](https://doi.org/10.1002/ajp.1350220306)；[Palacios 等（2004），下 Caquetá *S. inustus* 观察](https://doi.org/10.1896/1413-4705.12.3.123)；[Valsecchi 等（2010），Amanã *S. inustus* 地点记录](https://doi.org/10.1590/S1519-69842010000200001)；[Buchanan-Smith 等（2000），Pando 灵长类调查](https://doi.org/10.1023/A:1005483601403)；[Brcko 等（2022），髭狨分类和系统发育](https://doi.org/10.1016/j.ympev.2022.107504)；[Lopes 等（2023），Tamarinus 基因组系统学](https://doi.org/10.1111/zsc.12617)；[Gregorin 等（2023），帝狨分类比较](https://doi.org/10.11606/1807-0205/2023.63.005)。
+
+依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影、注册表和数据清单。
+
