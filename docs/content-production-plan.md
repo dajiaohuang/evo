@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-67 为 COL 属级 ID 7YDX 乌叶猴属补充六个固定接受种页面，并扩展属级阅读路径。灵长类现有 422/530 个种级页面记录（54 个 dossier-backed、368 个 profile-only）；108 个仍无种级页面，476 个仍未命中 dossier 索引。老挝、马来西亚、云南和越南四项局地研究支持首轮综合内容标准；T. ebenus 的分类史与稀少记录，以及 COL T. melamerus / MDD T. melamera 的未解决名称映射不计入标准。目前九项来源不足或仅有分类史、证据归属限制，413 个接受种达到首轮标准。继续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-68 为 COL 属级 ID 62K6B 卷尾猴属补充七个固定接受种页面，并扩展属级阅读路径。灵长类现有 429/530 个种级页面记录（54 个 dossier-backed、375 个 profile-only）；101 个仍无种级页面，476 个仍未命中 dossier 索引。西厄瓜多尔、秘鲁 Los Amigos 和哥伦比亚 Selva de Florencia 三项局地研究支持首轮综合内容标准；另外四页保留分类史、模型图层或名称归属限制，不计入标准。目前 13 项来源不足、分类证据有限或分类单元归属未决，416 个接受种达到首轮标准。继续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1212,7 +1212,27 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 本批新增六个双语 profile-only 种级页面，并向真实 COL 属级 ID 7YDX 的阅读路径接入六项新来源。四个局地研究支持首轮综合内容标准；*T. ebenus* 与 *T. melamerus* 页面分别保留分类资料不足和名称映射未决状态，不新增 dossier 或外部领域专家评审。批次后灵长类种级页面为 422/530（54 个 dossier-backed、368 个 profile-only），108 个固定接受种仍无种级页；413 个达到首轮综合内容标准，9 个尚未达到；476 个仍未命中 dossier 索引。英文普通名参照 MDD v2.5；对于 COL *T. melamerus*，本地 MDD 侧车未配对其与 MDD *T. melamera*，页面不将二者自动合并。中文名为编辑译名。
 
 乌叶猴属阅读路径先比较老挝保护区样线、马来西亚混合景观食谱、越南河静叶猴的粪便条形码结果和云南肖氏戴帽叶猴的访谈与现场记录，再读河静黑叶猴名称史与稀少记录，以及掸邦叶猴的 COL/MDD 拼写差异。地点、时期、样本单位和分类处理各自独立，不推导属级分布、现种群趋势或统一食性规律。
-
 来源：[Souwideth 等（2021），老挝叶猴 Phou Hin Poun 调查](https://doi.org/10.3390/d13060231)；[Ruslin、Matsuda 与 Md-Zain（2019），暗色叶猴与长尾猕猴食谱研究](https://doi.org/10.1007/s10329-018-00705-w)；[He 等（2016），肖氏戴帽叶猴中国分布调查](https://doi.org/10.1017/S0030605315000319)；[Van Truong 等（2026），河静叶猴等四种乌叶猴属 DNA 条形码饮食研究](https://doi.org/10.1002/ece3.73892)；[Duckworth 等（2010），老挝弗朗索瓦叶猴类群综述](https://doi.org/10.1896/052.025.0111)；[Roos 等（2020），乌叶猴属线粒体系统学与 *T. popa* 描述](https://doi.org/10.24272/j.issn.2095-8137.2020.254)；[MDD *T. ebenus*](https://www.mammaldiversity.org/taxon/1000701/)；[MDD *T. melamera*](https://www.mammaldiversity.org/taxon/1006507/)。
+
+依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影、注册表和数据清单。
+
+
+## P3-68 七种 Cebus 卷尾猴属页面与阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 / 分类差异 | 批次 |
+|---|---|---|---|
+| RYYR *C. aequatorialis* | 西厄瓜多尔 11 个森林地点的出现调查；五处保护地密度估值、Cerro Blanco 两群活动范围 | 2002—2007 年区域调查；Jauneche 138 公顷碎片的高估值为离群值，不代表现今全域数量或趋势 | P3-68 |
+| RYZ7 *C. cesarae* | 118 只旧分类框架白额卷尾猴的 COII 遗传群及后续分类争议 | 旧名群关系未解析；MDD v2.5 将 *C. cesarae* 置于 *C. albifrons* 异名下；不计首轮标准 | P3-68 |
+| RYZD *C. cuscinus* | 秘鲁 Los Amigos 2025 年 101 千米样线调查，与 2013 年研究的遭遇率对照 | 相对遭遇率来自单一站点，受探测率和群体规模影响；不代表绝对密度或全域趋势 | P3-68 |
+| RYZ2 *C. brunneus* | COL、MDD、IUCN 名录差异及名称模式与旧遗传样本之间的断点 | 2024 年综述指出旧遗传样本并非名称模式；不把其分布或生态归给固定 COL 身份，不计首轮标准 | P3-68 |
+| RZ24 *C. versicolor* | 哥伦比亚 Selva de Florencia 31 个样方占用模型及三种灵长类合并粪样研究 | 模型限于单一保护区，协变量方向未达显著；寄生虫比例不是本种单独感染率 | P3-68 |
+| RYZS *C. malitiosus* | 分类研究及哥伦比亚国家图集的潜在/剩余分布模型值 | 模型不是现场点位、连续占域或数量；独立野外生态不足，不计首轮标准 | P3-68 |
+| RYZN *C. leucocephalus* | 旧遗传群标签、国家图集模型表面与 2025 年资料缺口评估 | COL / MDD 作者年份及分类处理不同；模型不是现存占域确认，独立生态资料不足，不计首轮标准 | P3-68 |
+
+本批新增七个双语 profile-only 种级页面，并向真实 COL 属级 ID 62K6B 的阅读路径接入局地调查、分类研究和图集来源。三页达到首轮综合内容标准；*C. cesarae*、*C. brunneus*、*C. malitiosus* 与 *C. leucocephalus* 因分类历史、名称归属或生态证据不足而不计入。批次后灵长类种级页面为 429/530（54 个 dossier-backed、375 个 profile-only），101 个固定接受种仍无种级页；416 个达到首轮综合内容标准，13 个尚未达到；476 个仍未命中 dossier 索引。MDD v2.5 对 *C. aequatorialis*、*C. cesarae*、*C. cuscinus*、*C. versicolor*、*C. malitiosus* 与 *C. leucocephalus* 的处理均与固定 COL 身份不同；*C. brunneus* 的名称模式与旧研究遗传样本也不能直接对应。页面保留各来源当时使用的名称，不自动合并分类单元。尚未新增 dossier 或外部领域专家评审；普通名中的中文为编辑译名。
+
+卷尾猴属阅读路径先比较西厄瓜多尔 *C. aequatorialis*、秘鲁 Los Amigos 的 *C. cuscinus* 与哥伦比亚 Selva de Florencia 的 *C. versicolor* 三项局地研究；随后读 *C. cesarae*、*C. malitiosus* 和 *C. leucocephalus* 的旧名群或地图模型限制，以及 *C. brunneus* 的名称模式问题。既有 Mourthé 等（2022）范围图矩阵只覆盖六个分类单元；样线遭遇率、占用模型和模式标本比较分别回答不同问题，不合并为属级分布、数量或分类结论。
+
+来源：[Jack 与 Campos（2012），厄瓜多尔卷尾猴分布与空间生态](https://doi.org/10.1177/194008291200500207)；[Pottie 等（2025），秘鲁 Los Amigos 灵长类群落样线比较](https://www.researchgate.net/publication/398259142_Primate_Community_Recovery_Following_Historical_Hunting_Pressure_at_Los_Amigos_Biological_Station_Peru)；[Elizalde-Guerrero 等（2021），哥伦比亚 Selva de Florencia 占用模型](https://doi.org/10.15446/caldasia.v43n2.85431)；[Ruiz-García 等（2010）](https://doi.org/10.1016/j.ympev.2010.08.025) 与[（2019）](https://doi.org/10.1080/24701394.2019.1570174)，白额卷尾猴旧名群遗传分析；[Defler 与 Link（2020），哥伦比亚灵长类图集：*C. malitiosus*](https://www.conservationbridges.org/uploads/1/3/2/9/132967837/iavh___apc_2020_-_atlas_de_biodiversidad_de_colombia._primates_2.pdf) 与[*C. leucocephalus*](https://www.conservationbridges.org/uploads/1/3/2/9/132967837/iavh___apc_2020_-_atlas_de_biodiversidad_de_colombia._primates_3.pdf)；[Boubli 等（2012）](https://doi.org/10.1002/ajp.21998) 与 [Rylands、Mittermeier（2024）](https://doi.org/10.3389/fcosc.2024.1391303)，*C. brunneus* 分类与模式问题。
 
 依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影、注册表和数据清单。
