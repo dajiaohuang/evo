@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-75 从剩余 71 个无种级页面的 COL26.8 接受种中盘点来源较充分的候选，继续以可读双语种页和属级阅读路径成批扩展。灵长类现有 459/530 个种级页面记录（54 个 dossier-backed、405 个 profile-only）；71 个仍无种级页面，476 个仍未命中 dossier 索引。442 个接受种达到首轮内容标准，17 个来源不足、分类证据有限或归属未决。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-76 从剩余 68 个无种级页面的 COL26.8 接受种中盘点来源较充分的候选，继续以可读双语种页和属级阅读路径成批扩展。灵长类现有 462/530 个种级页面记录（54 个 dossier-backed、408 个 profile-only）；68 个仍无种级页面，476 个仍未命中 dossier 索引。445 个接受种达到首轮内容标准，17 个来源不足、分类证据有限或归属未决。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1340,5 +1340,21 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 属级阅读顺序先读 Likweli 新种描述及其与 C. satanas 的比较，再分别读黑疣猴的喀麦隆单群研究与 Lopé 历史林地估算；随后读乞力马扎罗疣猴的肯尼亚记录并留意原文亚种等级，最后比较 C. polykomos 在 Tiwai 的两类林地。各研究的年代、地点、分类组合与样本单位不合并为全属统一结论。
 
 来源：[Dasilva（1994），Tiwai 林地利用研究](https://doi.org/10.1016/0006-3207(94)90173-2)；[McKey 与 Waterman（1982），Douala-Edea 单群研究](https://doi.org/10.1159/000156081)；[Brugière（1998），Lopé 黑疣猴调查](https://doi.org/10.1016/S0006-3207(98)00015-9)；[Butynski 与 de Jong（2015），乞力马扎罗疣猴记录](https://static1.1.sqspcdn.com/static/f/1200343/26725597/1449696826593/PC29_2015.pdf)；[Hart 等（2026），Likweli 新种描述](https://doi.org/10.1371/journal.pone.0349857)；[MDD C. polykomos](https://www.mammaldiversity.org/taxon/1000638/)；[MDD C. satanas](https://www.mammaldiversity.org/taxon/1000639/)。
+
+按照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影、注册表和数据清单。
+
+## P3-75 三种 Pygathrix 白臀叶猴属页面与阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 | 批次 |
+|---|---|---|---|
+| 4QNHF P. nemaeus | Son Tra 11 年取食资料与一个研究种群的家域/移动记录 | 两项研究均限 Son Tra，样本与问题不同，不外推成全域食谱或普遍家域 | P3-75 |
+| 4QNHG P. nigripes | Nui Chua 与 Phuoc Binh 两座公园 2005 年湿、旱季取食观察 | 22 天、144 小时接触时间；不作为全分布区食谱或固定偏好 | P3-75 |
+| 792P7 P. cinerea | Kon Ka Kinh 取食观察；Gia Lai 两处保护森林历史调查 | 食谱与历史数量各自限于地点和年份，不推断当前全种数量 | P3-75 |
+
+本批新增三条双语 profile-only 种级页面，并为真实 COL 属级 ID 75SR 新增介绍和阅读顺序。三个种的英文普通名采用本地 MDD v2.5 精确联接记录，中文名为编辑译名。资料覆盖同属不同物种、不同地点和不同设计的取食及地方调查；各研究不跨地点合并为共同食谱、数量或趋势。本批未新建 dossier，也未经过外部领域专家评审。
+
+阅读路径先比较 P. nemaeus 在 Son Tra 的多年取食研究和同一保护区一个种群的移动研究；然后读 P. nigripes 在两座国家公园的季节取食观察；最后将 P. cinerea 的单点取食资料与 Gia Lai 两处保护森林的早期调查并读。重点是比较方法和证据单位，不是归纳属级统一生态规律。
+
+来源：[Lippold 等（2022），Son Tra 红腿白臀叶猴取食研究](https://static1.1.sqspcdn.com/static/f/1200343/28563608/1670694152677/PC36_Lippold_Red-shanked_douc_diet.pdf)；[Ulibarri 与 Gartland（2021），Son Tra 移动与家域研究](https://doi.org/10.1002/ajp.23292)；[Hoang Minh Duc、Baxter 与 Page（2009），越南南部黑腿白臀叶猴食谱](https://doi.org/10.1007/s10764-008-9325-y)；[Ha Thang Long（2020），Kon Ka Kinh 灰腿白臀叶猴食谱](https://static1.1.sqspcdn.com/static/f/1200343/28371992/1605632999833/VJP_3_2_pp59-83.pdf)；[Ha Thang Long（2007），Gia Lai 灰腿白臀叶猴分布与调查](https://static1.1.sqspcdn.com/static/f/1200343/18198236/1337026352973/VJP1.1.cinerea.status.pdf)。
 
 按照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影、注册表和数据清单。
