@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-61 已为固定名录中的五个 Alouatta 种级 ID 新增双语来源页，并扩展真实 COL 属级 ID 6295H 的选择性阅读路径。灵长类现有 393/530 个种级页面记录（54 个 dossier-backed、339 个 profile-only）；137 个仍无种级页面，476 个仍未命中 dossier 索引。C. minusculus、P. lulindicus 与 A. jorgehernandezi 仅有分类史或局地材料，不计首轮综合内容标准；因此 390 个接受种达到首轮标准、140 个尚未达到。继续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-62 已为固定名录中的六个 Sapajus 种级 ID 新增双语来源页，并为真实 COL 属级 ID 643NG 增加选择性阅读路径。灵长类现有 399/530 个种级页面记录（54 个 dossier-backed、345 个 profile-only）；131 个仍无种级页面，476 个仍未命中 dossier 索引。S. cucullatus 与 C. minusculus、P. lulindicus、A. jorgehernandezi 仅有分类史或局地材料，不计首轮综合内容标准；因此 395 个接受种达到首轮标准、135 个尚未达到。继续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1104,5 +1104,25 @@ Papio 阅读路径先比较黄狒狒幼年雌猴膳食营养与查克马狒狒�
 Alouatta 阅读路径先读 A. pigra 的果实斑块与取食尺度，再比较 A. sara 四处地点的种群记录，随后读 A. arctoidea 的历史计数和 A. guariba 的移动观察，最后并读 A. ululata 局地红树林研究与较早的潜在分布模型。不同地点、年代和方法保持分开，不据此合并成属级平均值或统一生态规律。
 
 来源：[Aponte-Fernandes 与 Bosque（2019），A. arctoidea](https://acfiman.org/wp-content/uploads/2023/01/primatologia-en-Venezuela-TOMO-II.pdf)；[Chaves-Diaz 等（2026），A. guariba](https://doi.org/10.1007/s10764-026-00558-x)；[Aristizabal 等（2019），A. pigra](https://doi.org/10.1038/s41598-019-55932-y)；[Goffard 等（2008），A. sara](https://www.redalyc.org/pdf/457/45716284015.pdf)；[Freire Filho 与 Palmeirim（2020），A. ululata](https://doi.org/10.1017/S0030605318001084)；[Carvalho（2024）硕士论文](https://sis.sig.uema.br/sigaa/public/programa/defesas.jsf?id=937&idcurso=122761&lc=lc%3Dlc%3Dlc%3Dlc%3Dlc%3Dlc%3Den_US)。
+
+依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影与清单。
+
+
+## P3-62 六种 Sapajus 卷尾猴属来源页与属级阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 / 分类差异 | 批次 |
+|---|---|---|---|
+| 6XK7V *Sapajus robustus* | Reserva Natural Vale 一群猴在森林与栽培地取食；56 种森林果实、6 种外来栽培植物；活动范围估算 | 单一受保护地点和一个群体；不外推到没有栽培果源的群体 | P3-62 |
+| 6XK7Y *S. cay* | 巴拉圭东部三个猴群在退化与近原生林片中的饮食可塑性 | 地区取食研究；风险较低时的机会性农作物取食不等于全域适应结论 | P3-62 |
+| 6XK87 *S. xanthosternos* | 巴伊亚南部 17 年、约 1,000 平方公里景观调查和狩猎压力 | 历史区域调查，不是当前全种数量或保护状态评估 | P3-62 |
+| 79JVY *S. flavius* | 270 公顷林片中 133 只猴的甘蔗取食与群内竞争 | 一个大群、一个林片、一个研究年 | P3-62 |
+| 79K7Y *S. libidinosus* | 巴西利亚国家公园七个月食性、粪便和种子萌发试验 | 单一塞拉多地点和有限时段，不概括全年或全分布区 | P3-62 |
+| 84J8Q *S. cucullatus* | COL26.8 接受种与 IUCN 2020 亚种处理、2024 综述种级处理的差异 | 固定 MDD 交叉表无对应名；分类史页，不计首轮综合内容标准 | P3-62 |
+
+本批新增六个双语 profile-only 种级页面并为真实属级 COL ID 643NG 建立阅读路径。批次后灵长类读者页为 399/530（54 个 dossier-backed、345 个 profile-only），131 个接受种仍无种级页；395 个接受种达到首轮综合内容标准，135 个尚未达到；476 个仍未命中 dossier 索引。前三项取食与景观研究各有特定样本、地点和时段；不得合并为属级平均生态。*S. cucullatus* 只记录分类处理差异；固定 COL26.8 身份与其他分类来源的等级不一致，且不具备本页的固定 MDD 普通名交叉项。中文普通名为编辑译名；全批未作外部领域专家评审。
+
+Sapajus 阅读路径先比较 *S. robustus* 与 *S. cay* 在栽培地/破碎林景观中的局地取食，再读 *S. flavius* 的甘蔗与竞争；随后比较 *S. libidinosus* 种子传播试验与 *S. xanthosternos* 的长期景观记录，最后并读 *S. cucullatus* 的分类史差异。各研究的地点、年代、样本和问题保持分开。
+
+来源：[Martins et al. (2022)](https://doi.org/10.1002/ajp.23413)、[Smith et al. (2022)](https://doi.org/10.1163/14219980-20210407)、[Flesher (2015)](https://doi.org/10.1007/s10764-015-9884-7)、[Lins & Ferreira (2019)](https://doi.org/10.1007/s10329-018-0698-z)、[Teixeira et al. (2024)](https://doi.org/10.1002/ajp.23665)、[IUCN 2020 assessment](https://doi.org/10.2305/IUCN.UK.2020-3.RLTS.T160945956A160945959.en) 与 [Rylands & Mittermeier (2024)](https://doi.org/10.3389/fcosc.2024.1391303)。
 
 依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影与清单。
