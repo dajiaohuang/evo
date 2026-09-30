@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-42 的十个 Cercopithecus 物种页和属级阅读路径已加入当前分支；十页均为来源限定的 profile-only 初稿，固定 530 种分母内为 249/530（54 个 dossier-backed、195 个 profile-only），281 个接受种仍无物种页，476 个仍未命中 dossier 索引。STGT C. wolfi 目前只能形成局地研究札记，专属生态材料仍不足，不能按综合介绍计为完成。主龙现生页为鳄目 27/27、Aves 9/11,044，共 36/11,071；化石分母为 4,664，P4-8 后化石页 7/4,664。页面数量不代表专家评审或科学档案完成。
+下一执行动作：P3-43 的八个 Piliocolobus 物种页和属级阅读路径已加入当前分支；八页均为来源限定的 profile-only 初稿，固定 530 种分母内为 257/530（54 个 dossier-backed、203 个 profile-only），273 个接受种仍无物种页，476 个仍未命中 dossier 索引。P. bouvieri 单群记录、P. epieni 与 P. kirkii 的有年代调查数字均保留研究边界；继续补齐剩余灵长类后转向主龙类。主龙现生页为鳄目 27/27、Aves 9/11,044，共 36/11,071；化石分母为 4,664，P4-8 后化石页 7/4,664。页面数量不代表专家评审或科学档案完成。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -708,3 +708,22 @@ P4-8 后，化石物种页为非鸟恐龙 5/1,794、化石 Aves 1/1,743、Crocod
 十种均没有 species dossier；新增页为 profile-only，未改变外部专家评审状态。英文普通名采用固定 MDD 交叉表备选；中文普通名为编辑译名。加入本批后，固定分母中的物种页为 249/530（54 个 dossier-backed、195 个 profile-only），281 种仍无页面；476 种仍未命中 dossier 索引。*C. wolfi* 的页只汇总有限局地记录，物种专属生态仍属资料不足项，不按综合介绍计完成。
 
 来源：[Zoffoun et al. (2022)](https://doi.org/10.6620/ZS.2022.61-47), [Clark & Kaplin (2023)](https://doi.org/10.1111/aje.13228), [Easton et al. (2011)](https://doi.org/10.1017/S0030605310001468), [Olaleru et al. (2020)](https://static1.1.sqspcdn.com/static/f/1200343/28390380/1609952265813/AP%2BVol%2B14%2B-%2BOlaleru%2Bet%2Bal.pdf), [Haile et al. (2026)](https://doi.org/10.1007/s00114-026-02115-1), [Mehon & Stephan (2021)](https://doi.org/10.1098/rsos.202135), [Buzzard (2006)](https://doi.org/10.1007/s10764-006-9022-7), [Chapman et al. (2004)](https://doi.org/10.1007/0-306-48417-X_22), [Tutin et al. (1997)](https://pubmed.ncbi.nlm.nih.gov/9108968/), [Baker et al. (2011)](https://doi.org/10.1007/s10144-011-0274-5), [McGraw (1994)](https://doi.org/10.1002/ajp.1350340402) 和 [Fournier et al. (2023)](https://doi.org/10.3390/ani13111819)。
+
+## P3-43 八种 Piliocolobus 物种页与属级阅读路径（2026-09-30）
+
+新增八个 COL26.8 接受种的双语 source-linked 页面，并为真实属级 COL ID 6QFS 增加阅读路径。研究跨越科特迪瓦、刚果共和国、尼日利亚、坦桑尼亚、比奥科岛、肯尼亚与乌干达；不同研究的样本、年代和分类用名分别标明。
+
+| COL ID / 接受种 | 本页证据主题 | 主要边界 | 批次 |
+| --- | --- | --- | --- |
+| 4HTQH *Piliocolobus badius* | Taï 国家公园已习惯化群体取食研究，取样期约 75% 为叶片 | 论文使用 Western red colobus；该比例不是全种食谱 | P3-43 |
+| 4HTQK *P. bouvieri* | Lesio-Louna 偏远河段的一次 2016 年单群记录 | 不构成种群估计或当前范围 | P3-43 |
+| 4HTQL *P. epieni* | 2013—2014 年尼日尔三角洲调查与森林覆盖分析 | “数百只”等为当时研究估计，不是当前普查 | P3-43 |
+| 4HTQN *P. gordonorum* | 乌曾古瓦四片森林 25 群、251 份粪便样本的寄生虫研究 | 检出结果受取样与实验方法限制 | P3-43 |
+| 4HTQQ *P. kirkii* | Unguja 4,725 小时系统调查及群体、占域估计 | 数量仅指 2017—2018 年调查结果 | P3-43 |
+| 4HTQV *P. pennantii* | 比奥科岛保护区三个区域的丰度与枪猎漫查 | 论文采用 Procolobus pennantii，结论限于比奥科调查 | P3-43 |
+| 4HTQX *P. rufomitratus* | 塔纳河森林碎片占域、局地密度与生境变量 | 历史地点级相关，不表示因果或当前全域状态 | P3-43 |
+| 4HTR3 *P. tephrosceles* | Kibale 周边六处、三年食谱与密度比较 | 局地密度跨度不代表全种密度 | P3-43 |
+
+八种均没有 species dossier；本批只新增 profile-only 页面，没有改变外部专家评审状态。英文普通名参考固定交叉表，中文普通名为编辑译名。完成本批后，灵长类接受种读者页为 257/530（54 个 dossier-backed、203 个 profile-only），273 个接受种仍无种级读者页；476 个仍未命中 dossier 索引。属级阅读路径只覆盖选定研究，不是完整属级综述。
+
+来源：[McGraw et al. (2016)](https://doi.org/10.1016/j.jhevol.2015.06.001)、[Ndzai, Malonga & Maisels (2019)](https://www.storre.stir.ac.uk/bitstream/1893/35968/1/Ndzai_et_al_2019%20Bouviers_red_colobus_in_the_Congo.pdf)、[Ikemeh (2015)](https://doi.org/10.1896/052.029.0104)、[Barelli et al. (2019)](https://doi.org/10.1371/journal.pone.0225142)、[Davenport et al. (2019)](https://doi.org/10.1017/S003060531700148X)、[Cronin et al. (2016)](https://doi.org/10.1016/j.biocon.2016.03.001)、[Tana River forest-fragment study (2004)](https://doi.org/10.1016/j.biocon.2003.07.009) 与 [Chapman & Chapman (1999)](https://doi.org/10.1007/BF02557712)。
