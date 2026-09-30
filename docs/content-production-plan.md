@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-47 的八个 Tarsius 物种页和属级阅读路径已加入当前分支；证据覆盖高地单群体观察、人类利用梯度、形态与鸣声描述、岛屿分类材料及局地巢树和声学研究。固定 530 种分母内为 288/530（54 个 dossier-backed、234 个 profile-only），242 个接受种仍无种级读者页，476 个仍未命中 dossier 索引。T. dentatus 的一项旧研究使用名称 T. dianae；本批分别标明分类映射、标本数量、地点和方法边界。所有页面仍为 source-linked，未经过外部领域专家评审。继续补齐剩余灵长类后转向主龙类。主龙现生页为鳄目 27/27、Aves 9/11,044，共 36/11,071；化石分母为 4,664，P4-8 后化石页 7/4,664。页面数量不代表专家评审或科学档案完成。
+下一执行动作：P3-48 已新增十种 Trachypithecus 页面并扩展属级阅读路径；灵长类固定分母目前 298/530（54 个 dossier-backed、244 个 profile-only），232 个接受种仍无种级读者页，476 个仍未命中 dossier 索引。银叶猴群页面保留 2008 年短线粒体分析的分类边界；T. phayrei 与 T. popa 页面区分论文分类提案和 COL26.8 身份。下一批继续补齐剩余灵长类，完成后回到主龙类；主龙类分母见本计划。纯内容变更不运行测试、内容/数据/增量校验或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -809,3 +809,27 @@ P4-8 后，化石物种页为非鸟恐龙 5/1,794、化石 Aves 1/1,743、Crocod
 八种均没有 species dossier；本批新增 profile-only 页面，没有改变外部专家评审状态。英文普通名参照本地固定 MDD 交叉表，中文普通名为编辑译名。完成本批后，灵长类接受种读者页为 288/530（54 个 dossier-backed、234 个 profile-only），242 个接受种仍无种级读者页；476 个仍未命中 dossier 索引。Tarsius 属级路径串联选定证据，不是完整属级综述。
 
 来源：[Merker, Yustian & Mühlenberg (2005)](https://doi.org/10.1017/S0030605305000438)、[Merker et al. (2009)](https://doi.org/10.1073/pnas.0900319106)、[Merker & Groves (2006)](https://doi.org/10.1007/s10764-006-9038-z)、[Grow & Gursky-Doyen (2010)](https://doi.org/10.1007/s10764-010-9456-9)、[Shekelle et al. (2017)](https://www.primate-sg.org/storage/pdf/PC31_Shekelle_et_al_Two_new_tarsiers.pdf)、[Clink et al. (2020)](https://doi.org/10.1093/cz/zoz035)、[Zakaria et al. (2022)](https://doi.org/10.13057/biodiv/d230762)、[Shekelle et al. (2008)](https://doi.org/10.1896/052.023.0106)、[Merker et al. (2010)](https://doi.org/10.1007/s10764-010-9452-0) 与 [Shekelle et al. (2019)](https://tahtamedia.co.id/index.php/issj/article/download/1200/1196/4407)。
+
+
+## P3-48 十种 Trachypithecus 物种页与属级阅读路径补充（2026-09-30）
+
+新增十个 COL26.8 接受种的双语 source-linked 页面，并扩展真实属级 COL ID 7YDX 的阅读路径。内容覆盖银叶猴群线粒体分类、动物园标本与历史地点、林层使用、*T. phayrei* 地理谱系、*T. popa* 模式标本描述，以及阿萨姆林斑占域调查。
+
+| COL ID / 接受种 | 本页证据主题 | 主要边界 | 批次 |
+| --- | --- | --- | --- |
+| 57SD5 *Trachypithecus auratus* | 115 只银叶猴的细胞色素 b 研究中所属的一个谱系 | 573 bp 线粒体片段；分化时间为五谱系层级估计 | P3-48 |
+| 57SD6 *T. barbei* | 动物园标本形态、有限分子证据及历史地点汇编 | 单个动物园标本，不是现今野外种群调查 | P3-48 |
+| 57SD7 *T. crepusculus* | 无量山一个群体的林层使用与地面活动 | 单地、单群观察，不外推全种 | P3-48 |
+| 57SDD *T. germaini* | 银叶猴群五个单系谱系之一 | 573 bp 线粒体片段；谱系间次序未解析 | P3-48 |
+| 57SDJ *T. margarita* | 银叶猴群五个单系谱系之一 | 有限来源地和单一线粒体标记 | P3-48 |
+| 57SDK *T. mauritius* | 银叶猴群谱系及作者提出的群体起源情景 | 群体层级假说不是本种直接迁徙记录 | P3-48 |
+| 57SDM *T. phayrei* | 41 个线粒体基因组中识别的三处地理谱系 | 中央边界与部分样点仍不确定；分类提案独立于 COL 身份 | P3-48 |
+| 57SDN *T. pileatus* | 上布拉马普特拉河谷 40 片林斑调查，11 片记录到该种 | 2019–2020 年区域占域调查，不是全种数量普查 | P3-48 |
+| 57SDQ *T. selangorensis* | 马来半岛样本与岛屿样本的线粒体分支比较 | 2008 年论文用亚种等级；页面身份遵循 COL26.8 接受种 | P3-48 |
+| 84HXM *T. popa* | 1913 年波帕山正模、馆藏比较和正式描述 | 东北分布边界未定；文中数量不是当前普查 | P3-48 |
+
+十种均无 species dossier；本批新增 profile-only 页面，没有改变外部领域专家评审状态。英文普通名参照本地 MDD 交叉表，中文普通名为编辑译名。固定灵长类页数为 298/530（54 个 dossier-backed、244 个 profile-only）；232 个接受种仍无种级读者页，476 个仍未命中 dossier 索引。属级阅读路径串联选定地点和证据，不是完整属级综述。
+
+本批只更新原创内容及必要的 registry/manifest 投影；根据用户指定的 content-only 工作流，没有运行测试、内容校验、数据校验、增量校验或 CI。
+
+来源：[Roos, Nadler & Walter (2008)](https://doi.org/10.1016/j.ympev.2008.03.006)、[Geissmann, Groves & Roos (2004)](https://repository.naturalis.nl/pub/534417)、[Ma et al. (2020)](https://doi.org/10.24272/j.issn.2095-8137.2020.047)、[Roos et al. (2020)](https://doi.org/10.24272/j.issn.2095-8137.2020.254) 与 [Gogoi et al. (2025)](https://doi.org/10.1016/j.japb.2025.06.001)。
