@@ -83,7 +83,7 @@ export const atlasArchosaurDeepeningZhEnglishKeys = [
   'Faunivory is inferred from serrated, recurved teeth rather than directly observed feeding',
   "Terrestrial Pekin Formation assemblage in the study's reconstruction",
   'Treated as terrestrial in the cited comparison; locomotor performance was not directly tested',
-  'Approximately 3 m in the study\'s reconstruction, with an immature femur-length estimate of 353–440 mm',
+  'Approximately 3 m in the study\'s reconstruction, with an immature femur-length estimate of 354–441 mm',
   'Top-tier terrestrial predator in the sampled Pekin Formation assemblage, as interpreted by the study',
   'NCSM 21558 preserves parts of the skull, vertebral column, ribs and left humerus',
   'The reconstructed skull is slender and ornamented, with an estimated length greater than 50 cm',
@@ -99,6 +99,16 @@ export const atlasArchosaurDeepeningZhEnglishKeys = [
   "The skull combines galliform-like and anseriform-like features in the authors' comparison",
   'Parsimony and tip-dated Bayesian analyses recover different near-galloanseran positions',
   'NHMM 2013 008, the 66.8–66.7 Ma horizon, CT anatomy and 394 g model estimate are source-bounded; crown position, possible littoral ecology and biogeographic implications remain analysis-dependent.',
+  "A Carnian sauropodomorph represented by the articulated holotype ULBRA-PVT280; its anatomy and faunivory inference are kept distinct from the study's topology-dependent reconstruction of ancestral diet.",
+  "Faunivorous early sauropodomorph in the study's character-based reconstruction",
+  "A Late Jurassic ceratopsian represented by the nearly complete holotype IVPP V14530 from the upper Shishugou Formation; its position in the study's character matrix is a test result, not an uncontested ancestry claim.",
+  "The named skeletons, Yixian Formation provenance and preserved filamentous integument are direct evidence. Their colour, complete body coverage, insulation or display function, behaviour and performance are not directly observed; phylogenetic position depends on the study's sampled analysis.",
+  "Carnufex carolinensis is documented by partial, skeletally immature holotype NCSM 21558 and referred humerus NCSM 21623. Its estimated size and placement among high-tier terrestrial predators are study reconstructions, not direct evidence of feeding behaviour or ancestry.",
+  "Asteriornis maastrichtensis is known from CT-imaged holotype NHMM 2013 008. Its near-galloanseran placement differs between parsimony and tip-dated analyses; this page does not treat it as a settled first appearance of crown birds.",
+  "Ankylosaurus magniventris is documented here through Carpenter’s redescription of named Western Interior material. The page reports skull and armor anatomy from that sample; the source does not resolve feeding, locomotion, or behaviour.",
+  "Buriolestes schultzi is represented by articulated holotype ULBRA-PVT280. Its recurved, serrated teeth inform a faunivory hypothesis, while both diet reconstruction and phylogenetic position remain analysis-dependent.",
+  "Yinlong downsi is known here from nearly complete holotype IVPP V14530. Its preserved anatomy is distinct from its analysis-dependent placement among early ceratopsians; neither result identifies a direct ancestor.",
+  "Yutyrannus huali is represented by three nearly complete skeletons from the Yixian Formation. Filamentous integument is preserved, but its colour, full-body coverage, function, behaviour, and locomotor performance are not directly observed.",
 ] as const
 
 export const atlasArchosaurDeepeningZhKeys = new Set<string>(atlasArchosaurDeepeningZhEnglishKeys)

@@ -320,5 +320,57 @@
       }
     ],
     "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:carnufex_carolinensis:global",
+    "entityId": "carnufex_carolinensis",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "PBDB accepted fossil species txn:321717 (Carnufex carolinensis); profile scope is the cited specimen record, not a global range synthesis",
+    "geographicScope": "Named source locality only; no complete global geographic-temporal range is assigned",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Zero values are non-display placeholders; the cited specimen study does not establish a complete global first and last appearance range."
+    },
+    "evidenceBasis": "The frozen PBDB roster supports accepted name, rank, OID and immediate parent. The selected literature supports the described specimen evidence, not a complete global range for Carnufex carolinensis.",
+    "evidenceLevel": "withheld-no-range-evidence",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "zanno-2015-carnufex",
+        "locator": "Cited named specimen and locality; no complete global range is claimed."
+      }
+    ],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "range:asteriornis_maastrichtensis:global",
+    "entityId": "asteriornis_maastrichtensis",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "PBDB accepted fossil species txn:413465 (Asteriornis maastrichtensis); profile scope is the cited specimen record, not a global range synthesis",
+    "geographicScope": "Named source locality only; no complete global geographic-temporal range is assigned",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Zero values are non-display placeholders; the cited specimen study does not establish a complete global first and last appearance range."
+    },
+    "evidenceBasis": "The frozen PBDB roster supports accepted name, rank, OID and immediate parent. The selected literature supports the described specimen evidence, not a complete global range for Asteriornis maastrichtensis.",
+    "evidenceLevel": "withheld-no-range-evidence",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "field-2020-asteriornis",
+        "locator": "Cited named specimen and locality; no complete global range is claimed."
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   }
 ]

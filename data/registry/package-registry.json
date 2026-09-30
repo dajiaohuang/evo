@@ -3,7 +3,7 @@
   "version": "2026.09-static-v5-rc154",
   "schemaStatus": "candidate",
   "packageCount": 24,
-  "entityCount": 420,
+  "entityCount": 426,
   "packages": [
     {
       "id": "atlas-core",
@@ -399,7 +399,7 @@
         "crocodylomorpha",
         "aves"
       ],
-      "entityCount": 11,
+      "entityCount": 13,
       "platformMaturity": "published",
       "scientificMaturity": "source-linked",
       "automatedReviewStatus": "passed",
@@ -415,7 +415,7 @@
       "rootEntityIds": [
         "dinosauria"
       ],
-      "entityCount": 30,
+      "entityCount": 34,
       "platformMaturity": "published",
       "scientificMaturity": "source-linked",
       "automatedReviewStatus": "passed",
@@ -800,6 +800,7 @@
     "archosauria": "atlas-core",
     "crocodylomorpha": "crocodylomorphs-birds",
     "carnufex": "crocodylomorphs-birds",
+    "carnufex_carolinensis": "crocodylomorphs-birds",
     "junggarsuchus": "crocodylomorphs-birds",
     "crocodylia": "crocodylomorphs-birds",
     "pterosauria": "marine-reptiles-pterosaurs",
@@ -811,9 +812,11 @@
     "stegosauria": "dinosauria",
     "ankylosauria": "dinosauria",
     "ankylosaurus": "dinosauria",
+    "ankylosaurus_magniventris": "dinosauria",
     "ceratopsia": "dinosauria",
     "triceratops": "dinosauria",
     "yinlong": "dinosauria",
+    "yinlong_downsi": "dinosauria",
     "hadrosauridae": "dinosauria",
     "edmontosaurus": "dinosauria",
     "eocursor": "dinosauria",
@@ -825,6 +828,7 @@
     "diplodocidae": "dinosauria",
     "titanosauria": "dinosauria",
     "buriolestes": "dinosauria",
+    "buriolestes_schultzi": "dinosauria",
     "mussaurus": "dinosauria",
     "ledumahadi": "dinosauria",
     "theropoda": "dinosauria",
@@ -839,9 +843,11 @@
     "neornithes": "crocodylomorphs-birds",
     "phorusrhacidae": "crocodylomorphs-birds",
     "asteriornis": "crocodylomorphs-birds",
+    "asteriornis_maastrichtensis": "crocodylomorphs-birds",
     "vegavis": "crocodylomorphs-birds",
     "neoaves": "crocodylomorphs-birds",
     "yutyrannus": "dinosauria",
+    "yutyrannus_huali": "dinosauria",
     "oviraptorosauria": "dinosauria"
   }
 }

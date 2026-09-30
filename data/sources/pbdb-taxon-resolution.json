@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-09-27",
+  "generatedAt": "2026-09-30",
   "policy": "PBDB name/rank resolution, automated lineage recommendations and human curator decisions are separate. Only taxonomic-parent edges use the complete pinned PBDB ancestor chain for compatibility; navigation and display edges do not assert taxonomic parentage.",
   "rankNormalization": {
     "clade": "unranked clade"
@@ -30,8 +30,8 @@
     }
   },
   "summary": {
-    "ontologyNodes": 420,
-    "resolved": 291,
+    "ontologyNodes": 426,
+    "resolved": 297,
     "unresolved": 129,
     "needsConceptReview": 28,
     "humanCuratorDecisions": 0
@@ -49616,6 +49616,1290 @@
       "curatorReviewer": null,
       "occurrenceCount": null,
       "referenceNo": null,
+      "snapshotModifiedAt": null
+    },
+    {
+      "entityId": "carnufex_carolinensis",
+      "localName": "Carnufex carolinensis",
+      "localRank": "species",
+      "previousPbdbId": null,
+      "resolutionStatus": "resolved",
+      "resolutionReason": "resolved-exact-name-rank-and-parent-in-frozen-PBDB-accepted-fossil-roster",
+      "externalResolutionStatus": "resolved-exact",
+      "pbdbId": "txn:321717",
+      "candidatePbdbId": "txn:321717",
+      "acceptedName": "Carnufex carolinensis",
+      "acceptedRank": "species",
+      "matchedTaxonName": "Carnufex carolinensis",
+      "pbdbParentName": "Carnufex",
+      "pbdbClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "NO_FAMILY_SPECIFIED"
+      },
+      "resolvedName": "Carnufex carolinensis",
+      "resolvedRank": "species",
+      "resolvedImmediateParent": "Carnufex",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "NO_FAMILY_SPECIFIED"
+      },
+      "resolvedAncestorChain": [
+        {
+          "pbdbId": "txn:321716",
+          "name": "Carnufex"
+        },
+        {
+          "pbdbId": "txn:53401",
+          "name": "Crocodylomorpha"
+        },
+        {
+          "pbdbId": "txn:97102",
+          "name": "Loricata"
+        },
+        {
+          "pbdbId": "txn:119059",
+          "name": "Paracrocodylomorpha"
+        },
+        {
+          "pbdbId": "txn:66478",
+          "name": "Suchia"
+        },
+        {
+          "pbdbId": "txn:54991",
+          "name": "Pseudosuchia"
+        },
+        {
+          "pbdbId": "txn:38215",
+          "name": "Archosauria"
+        },
+        {
+          "pbdbId": "txn:347458",
+          "name": "Eucrocopoda"
+        },
+        {
+          "pbdbId": "txn:57091",
+          "name": "Archosauriformes"
+        },
+        {
+          "pbdbId": "txn:347446",
+          "name": "Crocopoda"
+        },
+        {
+          "pbdbId": "txn:38182",
+          "name": "Archosauromorpha"
+        },
+        {
+          "pbdbId": "txn:37768",
+          "name": "Diapsida"
+        },
+        {
+          "pbdbId": "txn:99771",
+          "name": "Romeriida"
+        },
+        {
+          "pbdbId": "txn:92204",
+          "name": "Eureptilia"
+        },
+        {
+          "pbdbId": "txn:36322",
+          "name": "Reptilia"
+        },
+        {
+          "pbdbId": "txn:135358",
+          "name": "Sauropsida"
+        },
+        {
+          "pbdbId": "txn:53189",
+          "name": "Amniota"
+        },
+        {
+          "pbdbId": "txn:56749",
+          "name": "Cotylosauria"
+        },
+        {
+          "pbdbId": "txn:465406",
+          "name": "Amphibiosauria"
+        },
+        {
+          "pbdbId": "txn:37177",
+          "name": "Anthracosauria"
+        },
+        {
+          "pbdbId": "txn:125547",
+          "name": "Reptiliomorpha"
+        },
+        {
+          "pbdbId": "txn:53190",
+          "name": "Tetrapoda"
+        },
+        {
+          "pbdbId": "txn:77135",
+          "name": "Tetrapodomorpha"
+        },
+        {
+          "pbdbId": "txn:219195",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "pbdbId": "txn:67348",
+          "name": "Sarcopterygii"
+        },
+        {
+          "pbdbId": "txn:34881",
+          "name": "Osteichthyes"
+        },
+        {
+          "pbdbId": "txn:67344",
+          "name": "Gnathostomata"
+        },
+        {
+          "pbdbId": "txn:67149",
+          "name": "Vertebrata"
+        },
+        {
+          "pbdbId": "txn:33815",
+          "name": "Chordata"
+        },
+        {
+          "pbdbId": "txn:67145",
+          "name": "Deuterostomia"
+        },
+        {
+          "pbdbId": "txn:272902",
+          "name": "Eubilateria"
+        },
+        {
+          "pbdbId": "txn:67103",
+          "name": "Bilateria"
+        },
+        {
+          "pbdbId": "txn:67091",
+          "name": "Animalia"
+        },
+        {
+          "pbdbId": "txn:212579",
+          "name": "Opisthokonta"
+        },
+        {
+          "pbdbId": "txn:288516",
+          "name": "Eucarya"
+        },
+        {
+          "pbdbId": "txn:28595",
+          "name": "Life"
+        }
+      ],
+      "localExpectedParentConcept": "Carnufex",
+      "parentRelationshipKind": "taxonomic-parent",
+      "lineageCompatibility": "compatible-ancestor-chain",
+      "conceptReviewStatus": "compatible",
+      "automatedRecommendation": "accept-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": 1,
+      "referenceNo": "ref:55470",
+      "snapshotModifiedAt": null
+    },
+    {
+      "entityId": "asteriornis_maastrichtensis",
+      "localName": "Asteriornis maastrichtensis",
+      "localRank": "species",
+      "previousPbdbId": null,
+      "resolutionStatus": "resolved",
+      "resolutionReason": "resolved-exact-name-rank-and-parent-in-frozen-PBDB-accepted-fossil-roster",
+      "externalResolutionStatus": "resolved-exact",
+      "pbdbId": "txn:413465",
+      "candidatePbdbId": "txn:413465",
+      "acceptedName": "Asteriornis maastrichtensis",
+      "acceptedRank": "species",
+      "matchedTaxonName": "Asteriornis maastrichtensis",
+      "pbdbParentName": "Asteriornis",
+      "pbdbClassification": {
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "NO_FAMILY_SPECIFIED"
+      },
+      "resolvedName": "Asteriornis maastrichtensis",
+      "resolvedRank": "species",
+      "resolvedImmediateParent": "Asteriornis",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "NO_FAMILY_SPECIFIED"
+      },
+      "resolvedAncestorChain": [
+        {
+          "pbdbId": "txn:413463",
+          "name": "Asteriornis"
+        },
+        {
+          "pbdbId": "txn:413464",
+          "name": "Pangalloanserae"
+        },
+        {
+          "pbdbId": "txn:39305",
+          "name": "Neognathae"
+        },
+        {
+          "pbdbId": "txn:39241",
+          "name": "Neornithes"
+        },
+        {
+          "pbdbId": "txn:36616",
+          "name": "Aves"
+        },
+        {
+          "pbdbId": "txn:64113",
+          "name": "Paraves"
+        },
+        {
+          "pbdbId": "txn:55486",
+          "name": "Maniraptora"
+        },
+        {
+          "pbdbId": "txn:53940",
+          "name": "Coelurosauria"
+        },
+        {
+          "pbdbId": "txn:53374",
+          "name": "Tetanurae"
+        },
+        {
+          "pbdbId": "txn:92043",
+          "name": "Averostra"
+        },
+        {
+          "pbdbId": "txn:56397",
+          "name": "Neotheropoda"
+        },
+        {
+          "pbdbId": "txn:38513",
+          "name": "Theropoda"
+        },
+        {
+          "pbdbId": "txn:52775",
+          "name": "Dinosauria"
+        },
+        {
+          "pbdbId": "txn:53207",
+          "name": "Dinosauriformes"
+        },
+        {
+          "pbdbId": "txn:53366",
+          "name": "Dinosauromorpha"
+        },
+        {
+          "pbdbId": "txn:57250",
+          "name": "Ornithodira"
+        },
+        {
+          "pbdbId": "txn:144376",
+          "name": "Avemetatarsalia"
+        },
+        {
+          "pbdbId": "txn:38215",
+          "name": "Archosauria"
+        },
+        {
+          "pbdbId": "txn:347458",
+          "name": "Eucrocopoda"
+        },
+        {
+          "pbdbId": "txn:57091",
+          "name": "Archosauriformes"
+        },
+        {
+          "pbdbId": "txn:347446",
+          "name": "Crocopoda"
+        },
+        {
+          "pbdbId": "txn:38182",
+          "name": "Archosauromorpha"
+        },
+        {
+          "pbdbId": "txn:37768",
+          "name": "Diapsida"
+        },
+        {
+          "pbdbId": "txn:99771",
+          "name": "Romeriida"
+        },
+        {
+          "pbdbId": "txn:92204",
+          "name": "Eureptilia"
+        },
+        {
+          "pbdbId": "txn:36322",
+          "name": "Reptilia"
+        },
+        {
+          "pbdbId": "txn:135358",
+          "name": "Sauropsida"
+        },
+        {
+          "pbdbId": "txn:53189",
+          "name": "Amniota"
+        },
+        {
+          "pbdbId": "txn:56749",
+          "name": "Cotylosauria"
+        },
+        {
+          "pbdbId": "txn:465406",
+          "name": "Amphibiosauria"
+        },
+        {
+          "pbdbId": "txn:37177",
+          "name": "Anthracosauria"
+        },
+        {
+          "pbdbId": "txn:125547",
+          "name": "Reptiliomorpha"
+        },
+        {
+          "pbdbId": "txn:53190",
+          "name": "Tetrapoda"
+        },
+        {
+          "pbdbId": "txn:77135",
+          "name": "Tetrapodomorpha"
+        },
+        {
+          "pbdbId": "txn:219195",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "pbdbId": "txn:67348",
+          "name": "Sarcopterygii"
+        },
+        {
+          "pbdbId": "txn:34881",
+          "name": "Osteichthyes"
+        },
+        {
+          "pbdbId": "txn:67344",
+          "name": "Gnathostomata"
+        },
+        {
+          "pbdbId": "txn:67149",
+          "name": "Vertebrata"
+        },
+        {
+          "pbdbId": "txn:33815",
+          "name": "Chordata"
+        },
+        {
+          "pbdbId": "txn:67145",
+          "name": "Deuterostomia"
+        },
+        {
+          "pbdbId": "txn:272902",
+          "name": "Eubilateria"
+        },
+        {
+          "pbdbId": "txn:67103",
+          "name": "Bilateria"
+        },
+        {
+          "pbdbId": "txn:67091",
+          "name": "Animalia"
+        },
+        {
+          "pbdbId": "txn:212579",
+          "name": "Opisthokonta"
+        },
+        {
+          "pbdbId": "txn:288516",
+          "name": "Eucarya"
+        },
+        {
+          "pbdbId": "txn:28595",
+          "name": "Life"
+        }
+      ],
+      "localExpectedParentConcept": "Asteriornis",
+      "parentRelationshipKind": "taxonomic-parent",
+      "lineageCompatibility": "compatible-ancestor-chain",
+      "conceptReviewStatus": "compatible",
+      "automatedRecommendation": "accept-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": 1,
+      "referenceNo": "ref:71972",
+      "snapshotModifiedAt": null
+    },
+    {
+      "entityId": "ankylosaurus_magniventris",
+      "localName": "Ankylosaurus magniventris",
+      "localRank": "species",
+      "previousPbdbId": null,
+      "resolutionStatus": "resolved",
+      "resolutionReason": "resolved-exact-name-rank-and-parent-in-frozen-PBDB-accepted-fossil-roster",
+      "externalResolutionStatus": "resolved-exact",
+      "pbdbId": "txn:52793",
+      "candidatePbdbId": "txn:52793",
+      "acceptedName": "Ankylosaurus magniventris",
+      "acceptedRank": "species",
+      "matchedTaxonName": "Ankylosaurus magniventris",
+      "pbdbParentName": "Ankylosaurus",
+      "pbdbClassification": {
+        "phylum": "Chordata",
+        "class": "Ornithischia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Ankylosauridae"
+      },
+      "resolvedName": "Ankylosaurus magniventris",
+      "resolvedRank": "species",
+      "resolvedImmediateParent": "Ankylosaurus",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Ornithischia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Ankylosauridae"
+      },
+      "resolvedAncestorChain": [
+        {
+          "pbdbId": "txn:38837",
+          "name": "Ankylosaurus"
+        },
+        {
+          "pbdbId": "txn:52798",
+          "name": "Ankylosaurinae"
+        },
+        {
+          "pbdbId": "txn:38831",
+          "name": "Ankylosauridae"
+        },
+        {
+          "pbdbId": "txn:519897",
+          "name": "Euankylosauria"
+        },
+        {
+          "pbdbId": "txn:38816",
+          "name": "Ankylosauria"
+        },
+        {
+          "pbdbId": "txn:52779",
+          "name": "Eurypoda"
+        },
+        {
+          "pbdbId": "txn:52778",
+          "name": "Thyreophoroidea"
+        },
+        {
+          "pbdbId": "txn:52777",
+          "name": "Thyreophora"
+        },
+        {
+          "pbdbId": "txn:52776",
+          "name": "Genasauria"
+        },
+        {
+          "pbdbId": "txn:519896",
+          "name": "Prionodontia"
+        },
+        {
+          "pbdbId": "txn:519895",
+          "name": "Saphornithischia"
+        },
+        {
+          "pbdbId": "txn:519894",
+          "name": "Parapredentata"
+        },
+        {
+          "pbdbId": "txn:38712",
+          "name": "Ornithischia"
+        },
+        {
+          "pbdbId": "txn:52775",
+          "name": "Dinosauria"
+        },
+        {
+          "pbdbId": "txn:53207",
+          "name": "Dinosauriformes"
+        },
+        {
+          "pbdbId": "txn:53366",
+          "name": "Dinosauromorpha"
+        },
+        {
+          "pbdbId": "txn:57250",
+          "name": "Ornithodira"
+        },
+        {
+          "pbdbId": "txn:144376",
+          "name": "Avemetatarsalia"
+        },
+        {
+          "pbdbId": "txn:38215",
+          "name": "Archosauria"
+        },
+        {
+          "pbdbId": "txn:347458",
+          "name": "Eucrocopoda"
+        },
+        {
+          "pbdbId": "txn:57091",
+          "name": "Archosauriformes"
+        },
+        {
+          "pbdbId": "txn:347446",
+          "name": "Crocopoda"
+        },
+        {
+          "pbdbId": "txn:38182",
+          "name": "Archosauromorpha"
+        },
+        {
+          "pbdbId": "txn:37768",
+          "name": "Diapsida"
+        },
+        {
+          "pbdbId": "txn:99771",
+          "name": "Romeriida"
+        },
+        {
+          "pbdbId": "txn:92204",
+          "name": "Eureptilia"
+        },
+        {
+          "pbdbId": "txn:36322",
+          "name": "Reptilia"
+        },
+        {
+          "pbdbId": "txn:135358",
+          "name": "Sauropsida"
+        },
+        {
+          "pbdbId": "txn:53189",
+          "name": "Amniota"
+        },
+        {
+          "pbdbId": "txn:56749",
+          "name": "Cotylosauria"
+        },
+        {
+          "pbdbId": "txn:465406",
+          "name": "Amphibiosauria"
+        },
+        {
+          "pbdbId": "txn:37177",
+          "name": "Anthracosauria"
+        },
+        {
+          "pbdbId": "txn:125547",
+          "name": "Reptiliomorpha"
+        },
+        {
+          "pbdbId": "txn:53190",
+          "name": "Tetrapoda"
+        },
+        {
+          "pbdbId": "txn:77135",
+          "name": "Tetrapodomorpha"
+        },
+        {
+          "pbdbId": "txn:219195",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "pbdbId": "txn:67348",
+          "name": "Sarcopterygii"
+        },
+        {
+          "pbdbId": "txn:34881",
+          "name": "Osteichthyes"
+        },
+        {
+          "pbdbId": "txn:67344",
+          "name": "Gnathostomata"
+        },
+        {
+          "pbdbId": "txn:67149",
+          "name": "Vertebrata"
+        },
+        {
+          "pbdbId": "txn:33815",
+          "name": "Chordata"
+        },
+        {
+          "pbdbId": "txn:67145",
+          "name": "Deuterostomia"
+        },
+        {
+          "pbdbId": "txn:272902",
+          "name": "Eubilateria"
+        },
+        {
+          "pbdbId": "txn:67103",
+          "name": "Bilateria"
+        },
+        {
+          "pbdbId": "txn:67091",
+          "name": "Animalia"
+        },
+        {
+          "pbdbId": "txn:212579",
+          "name": "Opisthokonta"
+        },
+        {
+          "pbdbId": "txn:288516",
+          "name": "Eucarya"
+        },
+        {
+          "pbdbId": "txn:28595",
+          "name": "Life"
+        }
+      ],
+      "localExpectedParentConcept": "Ankylosaurus",
+      "parentRelationshipKind": "taxonomic-parent",
+      "lineageCompatibility": "compatible-ancestor-chain",
+      "conceptReviewStatus": "compatible",
+      "automatedRecommendation": "accept-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": 15,
+      "referenceNo": "ref:4210",
+      "snapshotModifiedAt": null
+    },
+    {
+      "entityId": "buriolestes_schultzi",
+      "localName": "Buriolestes schultzi",
+      "localRank": "species",
+      "previousPbdbId": null,
+      "resolutionStatus": "resolved",
+      "resolutionReason": "resolved-exact-name-rank-and-parent-in-frozen-PBDB-accepted-fossil-roster",
+      "externalResolutionStatus": "resolved-exact",
+      "pbdbId": "txn:347522",
+      "candidatePbdbId": "txn:347522",
+      "acceptedName": "Buriolestes schultzi",
+      "acceptedRank": "species",
+      "matchedTaxonName": "Buriolestes schultzi",
+      "pbdbParentName": "Buriolestes",
+      "pbdbClassification": {
+        "phylum": "Chordata",
+        "class": "Saurischia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "NO_FAMILY_SPECIFIED"
+      },
+      "resolvedName": "Buriolestes schultzi",
+      "resolvedRank": "species",
+      "resolvedImmediateParent": "Buriolestes",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Saurischia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "NO_FAMILY_SPECIFIED"
+      },
+      "resolvedAncestorChain": [
+        {
+          "pbdbId": "txn:347521",
+          "name": "Buriolestes"
+        },
+        {
+          "pbdbId": "txn:38633",
+          "name": "Sauropodomorpha"
+        },
+        {
+          "pbdbId": "txn:38505",
+          "name": "Saurischia"
+        },
+        {
+          "pbdbId": "txn:52775",
+          "name": "Dinosauria"
+        },
+        {
+          "pbdbId": "txn:53207",
+          "name": "Dinosauriformes"
+        },
+        {
+          "pbdbId": "txn:53366",
+          "name": "Dinosauromorpha"
+        },
+        {
+          "pbdbId": "txn:57250",
+          "name": "Ornithodira"
+        },
+        {
+          "pbdbId": "txn:144376",
+          "name": "Avemetatarsalia"
+        },
+        {
+          "pbdbId": "txn:38215",
+          "name": "Archosauria"
+        },
+        {
+          "pbdbId": "txn:347458",
+          "name": "Eucrocopoda"
+        },
+        {
+          "pbdbId": "txn:57091",
+          "name": "Archosauriformes"
+        },
+        {
+          "pbdbId": "txn:347446",
+          "name": "Crocopoda"
+        },
+        {
+          "pbdbId": "txn:38182",
+          "name": "Archosauromorpha"
+        },
+        {
+          "pbdbId": "txn:37768",
+          "name": "Diapsida"
+        },
+        {
+          "pbdbId": "txn:99771",
+          "name": "Romeriida"
+        },
+        {
+          "pbdbId": "txn:92204",
+          "name": "Eureptilia"
+        },
+        {
+          "pbdbId": "txn:36322",
+          "name": "Reptilia"
+        },
+        {
+          "pbdbId": "txn:135358",
+          "name": "Sauropsida"
+        },
+        {
+          "pbdbId": "txn:53189",
+          "name": "Amniota"
+        },
+        {
+          "pbdbId": "txn:56749",
+          "name": "Cotylosauria"
+        },
+        {
+          "pbdbId": "txn:465406",
+          "name": "Amphibiosauria"
+        },
+        {
+          "pbdbId": "txn:37177",
+          "name": "Anthracosauria"
+        },
+        {
+          "pbdbId": "txn:125547",
+          "name": "Reptiliomorpha"
+        },
+        {
+          "pbdbId": "txn:53190",
+          "name": "Tetrapoda"
+        },
+        {
+          "pbdbId": "txn:77135",
+          "name": "Tetrapodomorpha"
+        },
+        {
+          "pbdbId": "txn:219195",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "pbdbId": "txn:67348",
+          "name": "Sarcopterygii"
+        },
+        {
+          "pbdbId": "txn:34881",
+          "name": "Osteichthyes"
+        },
+        {
+          "pbdbId": "txn:67344",
+          "name": "Gnathostomata"
+        },
+        {
+          "pbdbId": "txn:67149",
+          "name": "Vertebrata"
+        },
+        {
+          "pbdbId": "txn:33815",
+          "name": "Chordata"
+        },
+        {
+          "pbdbId": "txn:67145",
+          "name": "Deuterostomia"
+        },
+        {
+          "pbdbId": "txn:272902",
+          "name": "Eubilateria"
+        },
+        {
+          "pbdbId": "txn:67103",
+          "name": "Bilateria"
+        },
+        {
+          "pbdbId": "txn:67091",
+          "name": "Animalia"
+        },
+        {
+          "pbdbId": "txn:212579",
+          "name": "Opisthokonta"
+        },
+        {
+          "pbdbId": "txn:288516",
+          "name": "Eucarya"
+        },
+        {
+          "pbdbId": "txn:28595",
+          "name": "Life"
+        }
+      ],
+      "localExpectedParentConcept": "Buriolestes",
+      "parentRelationshipKind": "taxonomic-parent",
+      "lineageCompatibility": "compatible-ancestor-chain",
+      "conceptReviewStatus": "compatible",
+      "automatedRecommendation": "accept-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": 1,
+      "referenceNo": "ref:60786",
+      "snapshotModifiedAt": null
+    },
+    {
+      "entityId": "yinlong_downsi",
+      "localName": "Yinlong downsi",
+      "localRank": "species",
+      "previousPbdbId": null,
+      "resolutionStatus": "resolved",
+      "resolutionReason": "resolved-exact-name-rank-and-parent-in-frozen-PBDB-accepted-fossil-roster",
+      "externalResolutionStatus": "resolved-exact",
+      "pbdbId": "txn:90118",
+      "candidatePbdbId": "txn:90118",
+      "acceptedName": "Yinlong downsi",
+      "acceptedRank": "species",
+      "matchedTaxonName": "Yinlong downsi",
+      "pbdbParentName": "Yinlong downsi",
+      "pbdbClassification": {
+        "phylum": "Chordata",
+        "class": "Ornithischia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Chaoyangsauridae"
+      },
+      "resolvedName": "Yinlong downsi",
+      "resolvedRank": "species",
+      "resolvedImmediateParent": "Yinlong downsi",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Ornithischia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Chaoyangsauridae"
+      },
+      "resolvedAncestorChain": [
+        {
+          "pbdbId": "txn:90117",
+          "name": "Yinlong downsi"
+        },
+        {
+          "pbdbId": "txn:66631",
+          "name": "Chaoyangsauridae"
+        },
+        {
+          "pbdbId": "txn:38842",
+          "name": "Ceratopsia"
+        },
+        {
+          "pbdbId": "txn:52814",
+          "name": "Marginocephalia"
+        },
+        {
+          "pbdbId": "txn:52800",
+          "name": "Cerapoda"
+        },
+        {
+          "pbdbId": "txn:519899",
+          "name": "Pyrodontia"
+        },
+        {
+          "pbdbId": "txn:71774",
+          "name": "Neornithischia"
+        },
+        {
+          "pbdbId": "txn:38712",
+          "name": "Ornithischia"
+        },
+        {
+          "pbdbId": "txn:52775",
+          "name": "Dinosauria"
+        },
+        {
+          "pbdbId": "txn:53207",
+          "name": "Dinosauriformes"
+        },
+        {
+          "pbdbId": "txn:53366",
+          "name": "Dinosauromorpha"
+        },
+        {
+          "pbdbId": "txn:57250",
+          "name": "Ornithodira"
+        },
+        {
+          "pbdbId": "txn:144376",
+          "name": "Avemetatarsalia"
+        },
+        {
+          "pbdbId": "txn:38215",
+          "name": "Archosauria"
+        },
+        {
+          "pbdbId": "txn:347458",
+          "name": "Eucrocopoda"
+        },
+        {
+          "pbdbId": "txn:57091",
+          "name": "Archosauriformes"
+        },
+        {
+          "pbdbId": "txn:347446",
+          "name": "Crocopoda"
+        },
+        {
+          "pbdbId": "txn:38182",
+          "name": "Archosauromorpha"
+        },
+        {
+          "pbdbId": "txn:37768",
+          "name": "Diapsida"
+        },
+        {
+          "pbdbId": "txn:99771",
+          "name": "Romeriida"
+        },
+        {
+          "pbdbId": "txn:92204",
+          "name": "Eureptilia"
+        },
+        {
+          "pbdbId": "txn:36322",
+          "name": "Reptilia"
+        },
+        {
+          "pbdbId": "txn:135358",
+          "name": "Sauropsida"
+        },
+        {
+          "pbdbId": "txn:53189",
+          "name": "Amniota"
+        },
+        {
+          "pbdbId": "txn:56749",
+          "name": "Cotylosauria"
+        },
+        {
+          "pbdbId": "txn:465406",
+          "name": "Amphibiosauria"
+        },
+        {
+          "pbdbId": "txn:37177",
+          "name": "Anthracosauria"
+        },
+        {
+          "pbdbId": "txn:125547",
+          "name": "Reptiliomorpha"
+        },
+        {
+          "pbdbId": "txn:53190",
+          "name": "Tetrapoda"
+        },
+        {
+          "pbdbId": "txn:77135",
+          "name": "Tetrapodomorpha"
+        },
+        {
+          "pbdbId": "txn:219195",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "pbdbId": "txn:67348",
+          "name": "Sarcopterygii"
+        },
+        {
+          "pbdbId": "txn:34881",
+          "name": "Osteichthyes"
+        },
+        {
+          "pbdbId": "txn:67344",
+          "name": "Gnathostomata"
+        },
+        {
+          "pbdbId": "txn:67149",
+          "name": "Vertebrata"
+        },
+        {
+          "pbdbId": "txn:33815",
+          "name": "Chordata"
+        },
+        {
+          "pbdbId": "txn:67145",
+          "name": "Deuterostomia"
+        },
+        {
+          "pbdbId": "txn:272902",
+          "name": "Eubilateria"
+        },
+        {
+          "pbdbId": "txn:67103",
+          "name": "Bilateria"
+        },
+        {
+          "pbdbId": "txn:67091",
+          "name": "Animalia"
+        },
+        {
+          "pbdbId": "txn:212579",
+          "name": "Opisthokonta"
+        },
+        {
+          "pbdbId": "txn:288516",
+          "name": "Eucarya"
+        },
+        {
+          "pbdbId": "txn:28595",
+          "name": "Life"
+        }
+      ],
+      "localExpectedParentConcept": "Yinlong downsi",
+      "parentRelationshipKind": "taxonomic-parent",
+      "lineageCompatibility": "compatible-ancestor-chain",
+      "conceptReviewStatus": "compatible",
+      "automatedRecommendation": "accept-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": 1,
+      "referenceNo": "ref:19282",
+      "snapshotModifiedAt": null
+    },
+    {
+      "entityId": "yutyrannus_huali",
+      "localName": "Yutyrannus huali",
+      "localRank": "species",
+      "previousPbdbId": null,
+      "resolutionStatus": "resolved",
+      "resolutionReason": "resolved-exact-name-rank-and-parent-in-frozen-PBDB-accepted-fossil-roster",
+      "externalResolutionStatus": "resolved-exact",
+      "pbdbId": "txn:230947",
+      "candidatePbdbId": "txn:230947",
+      "acceptedName": "Yutyrannus huali",
+      "acceptedRank": "species",
+      "matchedTaxonName": "Yutyrannus huali",
+      "pbdbParentName": "Yutyrannus huali",
+      "pbdbClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Proceratosauridae"
+      },
+      "resolvedName": "Yutyrannus huali",
+      "resolvedRank": "species",
+      "resolvedImmediateParent": "Yutyrannus huali",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Proceratosauridae"
+      },
+      "resolvedAncestorChain": [
+        {
+          "pbdbId": "txn:230946",
+          "name": "Yutyrannus huali"
+        },
+        {
+          "pbdbId": "txn:185194",
+          "name": "Proceratosauridae"
+        },
+        {
+          "pbdbId": "txn:58837",
+          "name": "Tyrannosauroidea"
+        },
+        {
+          "pbdbId": "txn:53940",
+          "name": "Coelurosauria"
+        },
+        {
+          "pbdbId": "txn:53374",
+          "name": "Tetanurae"
+        },
+        {
+          "pbdbId": "txn:92043",
+          "name": "Averostra"
+        },
+        {
+          "pbdbId": "txn:56397",
+          "name": "Neotheropoda"
+        },
+        {
+          "pbdbId": "txn:38513",
+          "name": "Theropoda"
+        },
+        {
+          "pbdbId": "txn:52775",
+          "name": "Dinosauria"
+        },
+        {
+          "pbdbId": "txn:53207",
+          "name": "Dinosauriformes"
+        },
+        {
+          "pbdbId": "txn:53366",
+          "name": "Dinosauromorpha"
+        },
+        {
+          "pbdbId": "txn:57250",
+          "name": "Ornithodira"
+        },
+        {
+          "pbdbId": "txn:144376",
+          "name": "Avemetatarsalia"
+        },
+        {
+          "pbdbId": "txn:38215",
+          "name": "Archosauria"
+        },
+        {
+          "pbdbId": "txn:347458",
+          "name": "Eucrocopoda"
+        },
+        {
+          "pbdbId": "txn:57091",
+          "name": "Archosauriformes"
+        },
+        {
+          "pbdbId": "txn:347446",
+          "name": "Crocopoda"
+        },
+        {
+          "pbdbId": "txn:38182",
+          "name": "Archosauromorpha"
+        },
+        {
+          "pbdbId": "txn:37768",
+          "name": "Diapsida"
+        },
+        {
+          "pbdbId": "txn:99771",
+          "name": "Romeriida"
+        },
+        {
+          "pbdbId": "txn:92204",
+          "name": "Eureptilia"
+        },
+        {
+          "pbdbId": "txn:36322",
+          "name": "Reptilia"
+        },
+        {
+          "pbdbId": "txn:135358",
+          "name": "Sauropsida"
+        },
+        {
+          "pbdbId": "txn:53189",
+          "name": "Amniota"
+        },
+        {
+          "pbdbId": "txn:56749",
+          "name": "Cotylosauria"
+        },
+        {
+          "pbdbId": "txn:465406",
+          "name": "Amphibiosauria"
+        },
+        {
+          "pbdbId": "txn:37177",
+          "name": "Anthracosauria"
+        },
+        {
+          "pbdbId": "txn:125547",
+          "name": "Reptiliomorpha"
+        },
+        {
+          "pbdbId": "txn:53190",
+          "name": "Tetrapoda"
+        },
+        {
+          "pbdbId": "txn:77135",
+          "name": "Tetrapodomorpha"
+        },
+        {
+          "pbdbId": "txn:219195",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "pbdbId": "txn:67348",
+          "name": "Sarcopterygii"
+        },
+        {
+          "pbdbId": "txn:34881",
+          "name": "Osteichthyes"
+        },
+        {
+          "pbdbId": "txn:67344",
+          "name": "Gnathostomata"
+        },
+        {
+          "pbdbId": "txn:67149",
+          "name": "Vertebrata"
+        },
+        {
+          "pbdbId": "txn:33815",
+          "name": "Chordata"
+        },
+        {
+          "pbdbId": "txn:67145",
+          "name": "Deuterostomia"
+        },
+        {
+          "pbdbId": "txn:272902",
+          "name": "Eubilateria"
+        },
+        {
+          "pbdbId": "txn:67103",
+          "name": "Bilateria"
+        },
+        {
+          "pbdbId": "txn:67091",
+          "name": "Animalia"
+        },
+        {
+          "pbdbId": "txn:212579",
+          "name": "Opisthokonta"
+        },
+        {
+          "pbdbId": "txn:288516",
+          "name": "Eucarya"
+        },
+        {
+          "pbdbId": "txn:28595",
+          "name": "Life"
+        }
+      ],
+      "localExpectedParentConcept": "Yutyrannus huali",
+      "parentRelationshipKind": "taxonomic-parent",
+      "lineageCompatibility": "compatible-ancestor-chain",
+      "conceptReviewStatus": "compatible",
+      "automatedRecommendation": "accept-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": 1,
+      "referenceNo": "ref:41024",
       "snapshotModifiedAt": null
     }
   ]
