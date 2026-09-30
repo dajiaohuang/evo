@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-57 已为固定名录中的七个 Semnopithecus 种级 ID 新增双语来源页，并建立真实 COL 属级 ID 7FH7 的阅读路径。灵长类现有 373/530 个种级页面记录（54 个 dossier-backed、319 个 profile-only）；157 个仍无种级页面，476 个仍未命中 dossier 索引。P. minusculus、P. lulindicus 与 A. jorgehernandezi 仅有分类史或局地材料，不计首轮综合内容标准，因此 370 个接受种达到首轮标准、160 个尚未达到。接续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验或 CI。
+下一执行动作：P3-58 已为固定名录中的六个 Chlorocebus 种级 ID 新增双语来源页，并建立真实 COL 属级 ID 3NM7 的阅读路径。灵长类现有 379/530 个种级页面记录（54 个 dossier-backed、325 个 profile-only）；151 个仍无种级页面，476 个仍未命中 dossier 索引。C. minusculus、P. lulindicus 与 A. jorgehernandezi 仅有分类史或局地材料，不计首轮综合内容标准，因此 376 个接受种达到首轮标准、154 个尚未达到。接续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1032,3 +1032,23 @@ Aotus 阅读路径串联哥伦比亚低地与安第斯夜猴的单群研究、�
 来源：[Thakur、Yardi 与 Ahuja（2022），S. ajax](https://doi.org/10.11609/jott.8120.14.10.21918-21927)、[Swain、Rout 与 Behura（2008），S. entellus](https://doi.org/10.36808/if/2008/v134i10/836)、[Tamang 等（2020），S. hector](https://doi.org/10.3126/hijost.v4i0.33866)、[Kavana、Erinjery 与 Singh（2015），S. hypoleucos 与 S. johnii 比较](https://doi.org/10.1159/000438990)、[Ramachandran 与 Joseph（2001），Silent Valley S. johnii](https://doi.org/10.36808/if/2001/v127i10/3070)、[Vanaraj 与 Pragasan（2021），S. priam](https://doi.org/10.1080/03949370.2021.1883119)、[Monaco 等（2019），S. schistaceus](https://doi.org/10.1002/ajpa.23733) 与 [Weerasekara 等（2021），S. vetulus](https://doi.org/10.1007/s10329-021-00902-0)。
 
 依照 content-only 工作流，本批不运行测试、内容校验、数据校验、增量校验、diff 检查或 CI；只为读者入口刷新运行时投影与数据清单。
+
+
+## P3-58 六种 Chlorocebus 绿猴属来源页与属级阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 / 分类差异 | 批次 |
+|---|---|---|---|
+| 5XW8T *C. aethiops* | Batiero 教堂森林的季节性取食与活动 | 2012—2013 年单一 45 公顷森林、偶遇猴群；不代表全种食谱 | P3-58 |
+| 5Y7WT *C. cynosuros* | Liuwa–Mussuma 跨境景观相机陷阱记录 | 2019—2024 年机构范围界定报告；事件数和相对指数不是种群估计 | P3-58 |
+| 5Y7X6 *C. tantalus* | Ngel Nyaki 森林边缘与草地的种子传播 | 三群猴、164 份粪样；估算使用圈养猴排便频率，侧重旱季 | P3-58 |
+| 5Y88T *C. djamdjamensis* | 连续森林和两处残片的食谱比较 | 四群猴、三个地点；各群食物比例不能外推全分布区 | P3-58 |
+| 69VWT *C. pygerythrus* | 南非三群猴的游戏伙伴选择 | 三年局地社会行为资料；不代表全种社会系统 | P3-58 |
+| 8H788 *C. dryas* | Lomami 两处森林的多层相机陷阱调查 | 仅支持局地出现和生境利用；论文将 *C. salongo* 作为次异名并注明仍需标本分析 | P3-58 |
+
+本批新增六个 profile-only 物种页和 COL 属级 ID 3NM7 的阅读路径，并纳入既有 *C. sabaeus* 页面；固定名录中的七个 Chlorocebus 种级 ID 现均有页面记录。全部六个新增种级 ID 的本地 dossier 队列状态为 missing，introductorySummary 为 absent；未新增 dossier 或外部领域专家评审。批次后为 379/530 个种级页面记录（54 个 dossier-backed、325 个 profile-only），151 个接受种仍无种级页面；*C. minusculus*、*P. lulindicus* 与 *A. jorgehernandezi* 仍未达到首轮综合正文标准，因此 376 个接受种达到首轮标准、154 个尚未达到；476 个仍未命中 dossier 索引。英文普通名采用 Mammal Diversity Database v2.5，中文普通名为编辑译名。
+
+属级路径并列贝尔山猴的森林残片食谱、格里维猴的季节性取食、坦塔鲁斯猴的局地种子传播、草原绿猴的社会游戏、马布鲁克猴的跨境相机记录与德赖斯猴的林下相机调查。德赖斯猴的页面保留固定 COL26.8 名称，并单独说明论文的 *C. salongo* 处理；机构报告的相机指数与同行评审论文的样线、食性和行为证据分开呈现。
+
+来源：[Alelign 等（2023），*C. aethiops*](https://doi.org/10.1155/2023/5828576)；[Liuwa–Mussuma 景观范围界定报告，*C. cynosuros*](https://tfcaportal.org/repository/repository381.pdf)；[Grassham 等（2015），*C. tantalus*](https://static1.1.sqspcdn.com/static/f/1200343/26671565/1447432043637/African%2BPrimates%2BVol%2B10%2B2015%2BGrassham%2Bet%2Bal.pdf)；[Mekonnen 等（2018），*C. djamdjamensis*](https://doi.org/10.1186/s12898-018-0161-4)；[Rittler 等（2024），*C. pygerythrus*](https://doi.org/10.1016/j.anbehav.2024.05.016)；[Alempijevic 等（2022），*C. dryas*](https://doi.org/10.1017/S0030605320000575)；[Colmonero-Costeira 等（2025），*C. sabaeus*](https://doi.org/10.1007/s10764-025-00496-0)。
+
+依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影与数据清单。
