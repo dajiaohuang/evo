@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-68 为 COL 属级 ID 62K6B 卷尾猴属补充七个固定接受种页面，并扩展属级阅读路径。灵长类现有 429/530 个种级页面记录（54 个 dossier-backed、375 个 profile-only）；101 个仍无种级页面，476 个仍未命中 dossier 索引。西厄瓜多尔、秘鲁 Los Amigos 和哥伦比亚 Selva de Florencia 三项局地研究支持首轮综合内容标准；另外四页保留分类史、模型图层或名称归属限制，不计入标准。目前 13 项来源不足、分类证据有限或分类单元归属未决，416 个接受种达到首轮标准。继续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-69 为 COL 属级 ID 63JQJ Paragalago 属新增五个固定接受种页面并建立属级阅读路径。灵长类现有 434/530 个种级页面记录（54 个 dossier-backed、380 个 profile-only）；96 个仍无种级页面，476 个仍未命中 dossier 索引。肯尼亚海岸两处森林、南非两处地点和坦桑尼亚沿海森林的局地研究支持三页达到首轮综合内容标准；山地伽拉戈的部分记录仍为 cf. orinus，坦桑尼亚海岸种也缺少可按固定身份核对的野外生态资料，另两页不计入标准。目前 15 项来源不足、分类证据有限或分类单元归属未决，419 个接受种达到首轮标准。继续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1234,5 +1234,21 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 卷尾猴属阅读路径先比较西厄瓜多尔 *C. aequatorialis*、秘鲁 Los Amigos 的 *C. cuscinus* 与哥伦比亚 Selva de Florencia 的 *C. versicolor* 三项局地研究；随后读 *C. cesarae*、*C. malitiosus* 和 *C. leucocephalus* 的旧名群或地图模型限制，以及 *C. brunneus* 的名称模式问题。既有 Mourthé 等（2022）范围图矩阵只覆盖六个分类单元；样线遭遇率、占用模型和模式标本比较分别回答不同问题，不合并为属级分布、数量或分类结论。
 
 来源：[Jack 与 Campos（2012），厄瓜多尔卷尾猴分布与空间生态](https://doi.org/10.1177/194008291200500207)；[Pottie 等（2025），秘鲁 Los Amigos 灵长类群落样线比较](https://www.researchgate.net/publication/398259142_Primate_Community_Recovery_Following_Historical_Hunting_Pressure_at_Los_Amigos_Biological_Station_Peru)；[Elizalde-Guerrero 等（2021），哥伦比亚 Selva de Florencia 占用模型](https://doi.org/10.15446/caldasia.v43n2.85431)；[Ruiz-García 等（2010）](https://doi.org/10.1016/j.ympev.2010.08.025) 与[（2019）](https://doi.org/10.1080/24701394.2019.1570174)，白额卷尾猴旧名群遗传分析；[Defler 与 Link（2020），哥伦比亚灵长类图集：*C. malitiosus*](https://www.conservationbridges.org/uploads/1/3/2/9/132967837/iavh___apc_2020_-_atlas_de_biodiversidad_de_colombia._primates_2.pdf) 与[*C. leucocephalus*](https://www.conservationbridges.org/uploads/1/3/2/9/132967837/iavh___apc_2020_-_atlas_de_biodiversidad_de_colombia._primates_3.pdf)；[Boubli 等（2012）](https://doi.org/10.1002/ajp.21998) 与 [Rylands、Mittermeier（2024）](https://doi.org/10.3389/fcosc.2024.1391303)，*C. brunneus* 分类与模式问题。
+
+依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影、注册表和数据清单。
+
+## P3-69 五种 Paragalago 矮伽拉戈属页面与阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 / 分类差异 | 批次 |
+|---|---|---|---|
+| 4CVFZ *P. cocos* | Diani、Gedi 两处肯尼亚海岸森林的标记重捕、无线电追踪和社会组织研究 | 1986 年论文沿用旧名；2006 年回顾将这批沿岸材料归入 *P. cocos*，不外推为现代全种生态 | P3-69 |
+| 4CVG2 *P. granti* | 南非 Tembe 与 Tshanini 24 个调查夜的睡眠点、树洞和觅食观察 | 两处南部分布边缘局地样本，不代表全分布区或种群趋势 | P3-69 |
+| 4CVG3 *P. orinus* | Mufindi 四处地点、76.5 小时夜间步行及 64 个叫声记录 | 该报告把记录暂定为 *G. cf. orinus*；Uluguru、Udzungwa 与 Taita 记录的身份不能自动合并 | P3-69 |
+| 4CVG4 *P. rondoensis* | Pande 2003 年粗略密度外推；Rondo 2012—2013 年六点调查的一笔夜间叫声 | 数量不是直接普查；旧调查与单点叫声均不表示当前全种状态或完整分布 | P3-69 |
+| 4CVG5 *P. zanzibaricus* | 2006 年旧名归属回顾及 2020 年复合群粒线体、核基因和物种界定分析 | 肯尼亚旧名研究不可直接作为本种生态资料；暂缺按固定身份核对的野外自然史，不计首轮标准 | P3-69 |
+
+本批新增五个双语 profile-only 种级页面，并为真实 COL 属级 ID 63JQJ 新增属级介绍和阅读路径。*P. cocos*、*P. granti* 与 *P. rondoensis* 有地点、方法和时间范围清楚的局地研究，达到首轮综合内容标准；*P. orinus* 的关键野外识别仍带 cf. 限定，*P. zanzibaricus* 的可核对材料以分类和名称史为主，二者不计入标准。批次后灵长类种级页面为 434/530（54 个 dossier-backed、380 个 profile-only），96 个固定接受种仍无种级页；419 个达到首轮综合内容标准，15 个尚未达到；476 个仍未命中 dossier 索引。属级路径先比较肯尼亚 *P. cocos* 与南非 *P. granti* 的局地研究，再读隆多森林的历史调查，最后比较山地记录鉴定限制和坦桑尼亚海岸种的分类边界。普通名参照 MDD v2.5；中文为编辑译名。尚未新增 dossier 或外部领域专家评审。
+
+来源：[Harcourt 与 Nash（1986），肯尼亚沿岸伽拉戈社会组织研究](https://doi.org/10.1002/ajp.1350100406)；[Butynski 等（2006），东非三种矮伽拉戈的分类与分布回顾](https://doi.org/10.1896/0898-6207.21.1.63)；[Génin 等（2016），南非格兰特矮伽拉戈调查](https://doi.org/10.1080/15627020.2016.1232602)；[Mufindi 森林生物多样性调查](https://www.tfcg.org/wp-content/uploads/2018/05/TFCG-MTSN-Mufindi-Biodiversity-Survey-Report.pdf) 与 [Rovero 等（2009），Udzungwa 灵长类综述](https://www.isita-org.com/jass/Contents/2009%20vol87/PDF/Preview/JASs2009_04_Rovero.pdf)；[Perkin（2003），Pande Game Reserve 哺乳动物调查](https://www.tfcg.org/wp-content/uploads/2018/05/Pande-GR-Survey-report-Final.pdf)；[Gwegime 等（2014），Rondo Reserve 2012—2013 年生物多样性调查](https://www.tfcg.org/wp-content/uploads/2018/05/TFCG-Forest-Condition-Survey-Rondo-NR-2014-FINAL-Online-Version.pdf)；[Masters 等（2017），Paragalago 属级分类](https://doi.org/10.1093/zoolinnean/zlw028)；[Pozzi 等（2020），*P. zanzibaricus* 复合群的隐蔽多样性与物种界定](https://doi.org/10.1016/j.ympev.2020.106887)；[Taita Hills dwarf galagos 研究（2023）](https://doi.org/10.1007/s10764-023-00390-7)。
 
 依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影、注册表和数据清单。
