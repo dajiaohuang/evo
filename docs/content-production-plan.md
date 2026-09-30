@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-60 已为固定名录中的四个 Papio 种级 ID 新增双语来源页，并建立真实 COL 属级 ID 6DGR 的阅读路径。灵长类现有 388/530 个种级页面记录（54 个 dossier-backed、334 个 profile-only）；142 个仍无种级页面，476 个仍未命中 dossier 索引。C. minusculus、P. lulindicus 与 A. jorgehernandezi 仅有分类史或局地材料，不计首轮综合内容标准，因此 385 个接受种达到首轮标准、145 个尚未达到。接续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-61 已为固定名录中的五个 Alouatta 种级 ID 新增双语来源页，并扩展真实 COL 属级 ID 6295H 的选择性阅读路径。灵长类现有 393/530 个种级页面记录（54 个 dossier-backed、339 个 profile-only）；137 个仍无种级页面，476 个仍未命中 dossier 索引。C. minusculus、P. lulindicus 与 A. jorgehernandezi 仅有分类史或局地材料，不计首轮综合内容标准；因此 390 个接受种达到首轮标准、140 个尚未达到。继续完成剩余灵长类，再转入主龙类。纯内容变更仅生成读者投影与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1087,3 +1087,22 @@ Papio 阅读路径先比较黄狒狒幼年雌猴膳食营养与查克马狒狒�
 来源：[Altmann（1991），黄狒狒膳食与终身适合度](https://doi.org/10.1073/pnas.88.2.420)；[Weyher 等（2025），金达狒狒雌雄社会关系](https://doi.org/10.1002/ajpa.25056)；[Lewis 与 O’Riain（2017），开普半岛查克马狒狒取食与移动](https://doi.org/10.1007/s10764-017-9978-5)；[Patzelt 等（2011），几内亚狒狒猴群组成](https://doi.org/10.1007/s10764-011-9493-z)；[MDD v2.5：黄狒狒](https://www.mammaldiversity.org/taxon/1000629/)、[金达狒狒](https://www.mammaldiversity.org/taxon/1000631/)、[查克马狒狒](https://www.mammaldiversity.org/taxon/1000633/) 与 [几内亚狒狒](https://www.mammaldiversity.org/taxon/1000632/)。
 
 依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影与数据清单。
+
+
+## P3-61 五种 Alouatta 吼猴属来源页与属级阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 / 分类差异 | 批次 |
+|---|---|---|---|
+| C5Q5 *A. arctoidea* | Hato Masaguaral 长期监测种群的历史计数比较 | 1999 与 2011—2012 年；单一种群，不作为当前状态估值 | P3-61 |
+| C5QC *A. guariba* | Carlos Botelho 一群棕吼猴的日行程与跨种相遇 | 2023—2024 年、一个猴群、六个月；观察关联不等于因果 | P3-61 |
+| C5QK *A. pigra* | Tabasco 两片森林残片中的叶果取食斑块 | 两群、0.8 与 2.1 公顷残片；局地细尺度结果 | P3-61 |
+| C5QL *A. sara* | Santa Cruz 一处保护区与三处牧场的种群调查 | 619 公顷、四处地点；不外推为全分布区普查 | P3-61 |
+| C5QN *A. ululata* | 东北巴西潜在分布模型与近期 Maranhão 红树林样线 | 旧记录模型与单市镇硕士论文分列，不代表现时种群普查 | P3-61 |
+
+本批新增五个 profile-only 种级页面，并扩展既有 COL 属级 ID 6295H 的阅读路径，串联五项研究与原有亚马逊间河区范围图比较。五个新增 ID 在本地 dossier 汇总中均未命中；未新增 dossier 或外部领域专家评审。批次后为 393/530 个种级页面记录（54 个 dossier-backed、339 个 profile-only），137 个接受种仍无种级页；390 个接受种达到首轮综合内容标准，140 个尚未达到；476 个仍未命中 dossier 索引。英文普通名参考 Mammal Diversity Database v2.5，中文名为编辑译名。
+
+Alouatta 阅读路径先读 A. pigra 的果实斑块与取食尺度，再比较 A. sara 四处地点的种群记录，随后读 A. arctoidea 的历史计数和 A. guariba 的移动观察，最后并读 A. ululata 局地红树林研究与较早的潜在分布模型。不同地点、年代和方法保持分开，不据此合并成属级平均值或统一生态规律。
+
+来源：[Aponte-Fernandes 与 Bosque（2019），A. arctoidea](https://acfiman.org/wp-content/uploads/2023/01/primatologia-en-Venezuela-TOMO-II.pdf)；[Chaves-Diaz 等（2026），A. guariba](https://doi.org/10.1007/s10764-026-00558-x)；[Aristizabal 等（2019），A. pigra](https://doi.org/10.1038/s41598-019-55932-y)；[Goffard 等（2008），A. sara](https://www.redalyc.org/pdf/457/45716284015.pdf)；[Freire Filho 与 Palmeirim（2020），A. ululata](https://doi.org/10.1017/S0030605318001084)；[Carvalho（2024）硕士论文](https://sis.sig.uema.br/sigaa/public/programa/defesas.jsf?id=937&idcurso=122761&lc=lc%3Dlc%3Dlc%3Dlc%3Dlc%3Dlc%3Den_US)。
+
+依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影与清单。
