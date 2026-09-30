@@ -42494,6 +42494,413 @@
         "zh": "属级接受种数依据固定 COL26.8 名录，不表示其他名录必须采用相同属级安排。野外论文常使用 Saguinus 组合；MDD 的本地精确名称联接对这三个 COL ID 均未匹配，因此页面不据名称相似性合并记录。中文属名与种名均为编辑译名；新建页面尚未经过外部领域专家评审。",
         "en": "The genus count follows the pinned COL26.8 checklist and does not imply that every checklist uses the same genus-level arrangement. Field papers commonly use Saguinus combinations; the local MDD exact-name crosswalk did not match these three COL IDs, so the pages do not merge records based on name similarity. Chinese genus and species names are editorial renderings; the new pages have not received external expert review."
       }
+    },
+    {
+      "colId": "4TZJX",
+      "scientificName": "Saimiri macrodon Elliot, 1907",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "zh": "厄瓜多尔松鼠猴",
+        "en": "Ecuadorian Squirrel Monkey"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-10-01",
+      "sections": [
+        {
+          "topic": "ecology",
+          "text": {
+            "zh": "秘鲁伊基托斯的 2013 年 Allpahuayo 研究中心学位论文使用扫描取样和瞬时取样，报告当地家域约 87.3 公顷、中层树冠使用最多，并记录 28 种食用植物和两种棕榈睡眠树。这是单个研究区域的生态观察，不代表全分布区。",
+            "en": "A 2013 thesis study at the Allpahuayo Research Center near Iquitos, Peru, used scan and instantaneous sampling. It reported a local home range of about 87.3 ha, greatest use of the middle canopy, 28 food plants and two palm species used as sleeping trees. These observations describe one study area, not the full range."
+          },
+          "sourceIds": [
+            "zambrano2015"
+          ]
+        },
+        {
+          "topic": "conservation",
+          "text": {
+            "zh": "Rowland 等（2024）在秘鲁相邻的 Villa Belén 与 Jaldar 原住民领地进行样线和距离抽样；论文将松鼠猴记录为 S. cassiquiarensis macrodon。两地密度估计分别为 192 与 107 只/平方公里，群体大小未见差异；灵长类物种丰富度估计为 7 与 11 种。结果限于这两个领地，不能单独说明伐木的因果效应或全种密度。",
+            "en": "Rowland et al. (2024) used line transects and distance sampling in the adjacent Villa Belén and Jaldar Indigenous territories in Peru; the paper calls the taxon S. cassiquiarensis macrodon. Estimated squirrel-monkey density was 192 versus 107 individuals/km², with no detected group-size difference; estimated primate richness was 7 versus 11 species. These results are local to the two territories and do not by themselves establish a causal logging effect or range-wide density."
+          },
+          "sourceIds": [
+            "rowland2024"
+          ]
+        },
+        {
+          "topic": "interpretation",
+          "text": {
+            "zh": "本页身份固定为 COL26.8 接受种 4TZJX Saimiri macrodon；部分野外论文沿用三名组合 S. cassiquiarensis macrodon。保留来源原名，并按固定 ID 组织页面，不据加词相同推断不同名录的种级概念完全一致。",
+            "en": "This page follows the COL26.8 accepted species ID 4TZJX, Saimiri macrodon. Some field papers retain the trinomial S. cassiquiarensis macrodon. The source combination is preserved, and similar epithets are not treated as proof that checklists use identical species concepts."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "rowland2024"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 · source 2144 — Saimiri macrodon Elliot, 1907",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4TZJX",
+          "scope": {
+            "zh": "支持固定 COL26.8 接受名、作者、等级和分类父链；不支持生物学正文。",
+            "en": "Supports the pinned COL26.8 accepted name, authorship, rank and parent chain; not biological claims."
+          }
+        },
+        {
+          "id": "mdd_label",
+          "title": "Mammal Diversity Database v2.5 — Ecuadorian Squirrel Monkey (MDD 1000853)",
+          "url": "https://www.mammaldiversity.org/taxon/1000853/",
+          "scope": {
+            "zh": "仅用于英文普通名标签；分类身份按 COL26.8 ID。中文名为编辑译名。",
+            "en": "Used only for the English common-name label; taxonomic identity follows the COL26.8 ID. The Chinese name is editorial."
+          }
+        },
+        {
+          "id": "zambrano2015",
+          "title": "Zambrano Mozombite & Daza Huañahui (2015) — Aspectos eco-etológicos del fraile Saimiri macrodon en Allpahuayo, Iquitos, Perú",
+          "url": "https://hdl.handle.net/20.500.12737/7554",
+          "scope": {
+            "zh": "支持 Allpahuayo 研究中心 2013 年 1–11 月的局地行为、垂直层使用、食物植物和睡眠树观察；学位论文材料。",
+            "en": "Supports local behavioral, forest-stratum, food-plant and sleeping-tree observations at Allpahuayo during January–November 2013; thesis research."
+          }
+        },
+        {
+          "id": "rowland2024",
+          "title": "Rowland et al. (2024) — Effect of historical logging pressure on squirrel monkey population density and primate species richness in the Peruvian Amazon",
+          "url": "https://doi.org/10.62015/np.2024.v30.800",
+          "scope": {
+            "zh": "支持 Villa Belén 与 Jaldar 两个秘鲁领地的样线距离抽样、局地密度和群落丰富度比较；论文使用 S. cassiquiarensis macrodon。",
+            "en": "Supports the line-transect distance-sampling comparison of local density and primate richness in two Peruvian territories; the paper uses S. cassiquiarensis macrodon."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "生态正文来自秘鲁伊基托斯附近的单一区域学位研究及两个原住民领地的距离抽样，不能代表完整分布区。COL26.8 接受名与部分文献的三名组合并列保留；MDD 精确联接用于英文标签，中文名为编辑译名。页面尚未经过外部领域专家评审。",
+        "en": "The ecological evidence comes from one thesis study area near Iquitos, Peru, and distance sampling in two Indigenous territories; it does not represent the full range. The COL26.8 accepted name and the trinomial used by some papers are both retained. The exact MDD join supplies only the English label; the Chinese name is editorial. The page has not received external expert review."
+      }
+    },
+    {
+      "colId": "4TZK5",
+      "scientificName": "Saimiri vanzolinii Ayres, 1985",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "zh": "黑头松鼠猴",
+        "en": "Black-headed Squirrel Monkey"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-10-01",
+      "sections": [
+        {
+          "topic": "feeding",
+          "text": {
+            "zh": "2012–2014 年间的两年研究在中央亚马逊泛滥林的九条 2 公里样线上，记录 205 种树木的果实物候，并观察未习惯化群体。高水期果实较多，猴群移动较少、进食较多；低水期果实更少时，取食选择更偏向果实。结果限于该泛滥林研究区和季节样本。",
+            "en": "A two-year study during 2012–2014 followed phenology in 205 tree species and observed unhabituated groups along nine 2-km transects in Central Amazon floodplain forest. Fruit availability was higher in high water, when monkeys travelled less and fed more; in low water, when fruit was scarcer, feeding choices shifted toward fruit. The results are limited to this floodplain study area and its seasonal samples."
+          },
+          "sourceIds": [
+            "paim2017"
+          ]
+        },
+        {
+          "topic": "monitoring",
+          "text": {
+            "zh": "Mamirauá 可持续发展保护区东南部九条 2 公里样线于 2009–2013 年重复调查；五年共覆盖 410 公里并记录 346 个社会单元。距离抽样的总体密度估计为 359 只/平方公里（95% 区间 293–439），年际比较未显示显著下降。该结果来自保护区内代表性样线，不是直接清点全种群。",
+            "en": "Nine 2-km trails in the southeastern Mamirauá Sustainable Development Reserve were repeatedly surveyed from 2009–2013; the five-year effort covered 410 km and recorded 346 social units. Distance sampling estimated an overall density of 359 individuals/km² (95% interval 293–439), with no significant decline among years. This is a reserve-trail estimate, not a direct census of the entire species population."
+          },
+          "sourceIds": [
+            "paim2019"
+          ]
+        },
+        {
+          "topic": "interpretation",
+          "text": {
+            "zh": "论文还按约 870 平方公里分布区外推总量，并以 S. collinsi 的 58% 成熟个体比例估算成熟种群；这些数值依赖空间外推和借用比例，不是样线直接计数。Mamirauá 的野外记录与多种松鼠猴共域，不能据此合并不同物种的密度。",
+            "en": "The paper also extrapolated a total using an approximately 870-km² mapped range and estimated mature animals with a 58% fraction borrowed from S. collinsi. Those figures depend on range extrapolation and a borrowed proportion; they are not direct trail counts. Several squirrel-monkey taxa occur in the Mamirauá study area, so their densities should not be combined."
+          },
+          "sourceIds": [
+            "paim2019",
+            "paim2013"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 · source 2144 — Saimiri vanzolinii Ayres, 1985",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4TZK5",
+          "scope": {
+            "zh": "支持固定 COL26.8 接受名、作者、等级和分类父链；不支持生物学正文。",
+            "en": "Supports the pinned COL26.8 accepted name, authorship, rank and parent chain; not biological claims."
+          }
+        },
+        {
+          "id": "mdd_label",
+          "title": "Mammal Diversity Database v2.5 — Black-headed Squirrel Monkey (MDD 1000857)",
+          "url": "https://www.mammaldiversity.org/taxon/1000857/",
+          "scope": {
+            "zh": "仅用于英文普通名标签；分类身份按 COL26.8 ID。中文名为编辑译名。",
+            "en": "Used only for the English common-name label; taxonomic identity follows the COL26.8 ID. The Chinese name is editorial."
+          }
+        },
+        {
+          "id": "paim2017",
+          "title": "Paim et al. (2017) — Does Resource Availability Affect the Diet and Behavior of the Vulnerable Squirrel Monkey, Saimiri vanzolinii?",
+          "url": "https://doi.org/10.1007/s10764-017-9968-7",
+          "scope": {
+            "zh": "支持中央亚马逊泛滥林九条样线、205 种树木物候和高水/低水季节的饮食与活动比较。",
+            "en": "Supports the comparison of diet and activity across high- and low-water periods on nine Central Amazon floodplain transects, with phenology recorded for 205 tree species."
+          }
+        },
+        {
+          "id": "paim2019",
+          "title": "Paim et al. (2019) — Long-term population monitoring of the threatened and endemic black-headed squirrel monkey in Amazonia",
+          "url": "https://doi.org/10.1002/ajp.22988",
+          "scope": {
+            "zh": "支持 2009–2013 年 Mamirauá 九条样线监测、距离抽样密度、年际变化与外推假设。",
+            "en": "Supports the 2009–2013 monitoring of nine Mamirauá trails, distance-sampling estimates, annual comparisons and population-extrapolation assumptions."
+          }
+        },
+        {
+          "id": "paim2013",
+          "title": "Paim et al. (2013) — Diversity, geographic distribution and conservation of squirrel monkeys in Central Amazon floodplain forests",
+          "url": "https://doi.org/10.1007/s10764-013-9714-8",
+          "scope": {
+            "zh": "支持中央亚马逊泛滥林内松鼠猴多样性、地理记录与保护研究背景；分类组合按论文原文保留。",
+            "en": "Supports the research context of squirrel-monkey diversity, geographic records and conservation in Central Amazon floodplain forests; source combinations are retained."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "取食与密度材料均来自中央亚马逊 Mamirauá 保护区的泛滥林样线。总体成熟种群估计依赖约 870 平方公里的分布面积和从 S. collinsi 借用的成熟比例，不等同于直接种群普查；中文名为编辑译名。页面尚未经过外部领域专家评审。",
+        "en": "Diet and density evidence comes from floodplain transects in the Mamirauá reserve, Central Amazonia. The mature-population estimate depends on an approximately 870-km² distribution area and a maturity fraction borrowed from S. collinsi; it is not a direct population census. The Chinese name is editorial. The page has not received external expert review."
+      }
+    },
+    {
+      "colId": "4TZJZ",
+      "scientificName": "Saimiri oerstedii (Reinhardt, 1872)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "zh": "中美松鼠猴",
+        "en": "Central American Squirrel Monkey"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-10-01",
+      "sections": [
+        {
+          "topic": "habitat",
+          "text": {
+            "zh": "哥斯达黎加野外研究记录中美松鼠猴偏用次生林；一支猴群的季节家域约为 79–110 公顷，11 个月累计使用面积约 176 公顷。研究还描述树枝基质和取食姿势的年龄、性别及情境差异。这些是单地群体观察，不是物种范围的固定参数。",
+            "en": "Costa Rican field studies reported a preference for secondary forest; one troop’s seasonal ranges were about 79–110 ha, with approximately 176 ha used across 11 months. The work also described age-, sex- and context-related differences in branch substrates and feeding postures. These are local troop observations, not fixed species-wide parameters."
+          },
+          "sourceIds": [
+            "boinski1987",
+            "boinski1989"
+          ]
+        },
+        {
+          "topic": "behavior",
+          "text": {
+            "zh": "一项野外鸣声研究连续记录 21 只标记成年雌猴，累计分析 18.6 小时样本和 3,080 张声谱图。邻近成年雌猴距离变大时，发声率上升；快速发声也与群体启动移动及处于前列的雌猴相关。样本只覆盖一个研究场景与有限时段。",
+            "en": "A field vocalization study continuously sampled 21 marked adult females, analyzing 18.6 hours of focal samples and 3,080 sonagrams. Vocalization rate increased as the nearest adult female was farther away; rapid calling was also associated with troop movement and females at the front. The sample covers one study context and limited observation time."
+          },
+          "sourceIds": [
+            "boinski1991"
+          ]
+        },
+        {
+          "topic": "distribution",
+          "text": {
+            "zh": "Ceballos 等在哥斯达黎加南部和中部做过多次野外调查，并把现存记录与 1992、2012 年森林图层结合；其研究估算哥斯达黎加历史分布区约 5,500 平方公里、当前约 2,250 平方公里，约缩小 60%。这是该研究的地图与记录口径，不是种群数量估计，也不覆盖巴拿马全境。",
+            "en": "Ceballos et al. combined repeated field surveys in southern and central Costa Rica with forest-cover layers from 1992 and 2012. Their mapping estimated a historical Costa Rican extent of occurrence of about 5,500 km² and a current extent near 2,250 km², a reduction of about 60%. These are the study’s map-and-record estimates, not a population count or a full survey of Panama."
+          },
+          "sourceIds": [
+            "ceballos2019"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 · source 2144 — Saimiri oerstedii (Reinhardt, 1872)",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4TZJZ",
+          "scope": {
+            "zh": "支持固定 COL26.8 接受名、作者、等级和分类父链；不支持生物学正文。",
+            "en": "Supports the pinned COL26.8 accepted name, authorship, rank and parent chain; not biological claims."
+          }
+        },
+        {
+          "id": "mdd_label",
+          "title": "Mammal Diversity Database v2.5 — Central American Squirrel Monkey (MDD 1000854)",
+          "url": "https://www.mammaldiversity.org/taxon/1000854/",
+          "scope": {
+            "zh": "仅用于英文普通名标签；分类身份按 COL26.8 ID。中文名为编辑译名。",
+            "en": "Used only for the English common-name label; taxonomic identity follows the COL26.8 ID. The Chinese name is editorial."
+          }
+        },
+        {
+          "id": "boinski1987",
+          "title": "Boinski (1987) — Habitat Use by Squirrel Monkeys (Saimiri oerstedii) in Costa Rica",
+          "url": "https://doi.org/10.1159/000156319",
+          "scope": {
+            "zh": "支持哥斯达黎加季节性食物可用度、栖地使用和家域的地方野外观察。",
+            "en": "Supports local Costa Rican field observations of seasonal food availability, habitat use and home range."
+          }
+        },
+        {
+          "id": "boinski1989",
+          "title": "Boinski (1989) — The Positional Behavior and Substrate Use of Squirrel Monkeys: Ecological Implications",
+          "url": "https://doi.org/10.1016/0047-2484(89)90099-7",
+          "scope": {
+            "zh": "支持一个哥斯达黎加野外猴群的姿势、树枝直径和情境相关取食观察。",
+            "en": "Supports posture, branch-diameter and context-related feeding observations from a wild Costa Rican troop."
+          }
+        },
+        {
+          "id": "boinski1991",
+          "title": "Boinski (1991) — The Coordination of Spatial Position: A Field Study of the Vocal Behaviour of Adult Female Squirrel Monkeys",
+          "url": "https://doi.org/10.1016/S0003-3472(05)80505-6",
+          "scope": {
+            "zh": "支持 21 只成年雌猴的焦点鸣声样本及其与邻猴距离、队伍移动的关联。",
+            "en": "Supports focal vocalization samples from 21 adult females and their associations with nearest-neighbor distance and troop movement."
+          }
+        },
+        {
+          "id": "ceballos2019",
+          "title": "Ceballos et al. (2019) — Conservation in Human-Dominated Landscapes: Lessons from the Distribution of the Central American Squirrel Monkey",
+          "url": "https://doi.org/10.1016/j.biocon.2019.06.008",
+          "scope": {
+            "zh": "支持哥斯达黎加 1999、2001、2002、2014、2015 年调查记录及 1992/2012 森林覆盖比较；不支持巴拿马全境种群估算。",
+            "en": "Supports Costa Rican survey records from 1999, 2001, 2002, 2014 and 2015 and forest-cover comparisons for 1992/2012; not a population estimate for all of Panama."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "栖地、家域和鸣声结果限于哥斯达黎加地方野外研究；分布缩减值来自该研究的历史记录、可达调查和森林斑块阈值。来源常将种加词拼作 S. oerstedi，本页按 COL26.8 ID 4TZJZ 固定名称。中文名为编辑译名；尚未经过外部领域专家评审。",
+        "en": "Habitat, home-range and vocal results are limited to local Costa Rican field studies. The range-change estimate depends on that study’s historical records, accessible surveys and forest-patch thresholds. Some sources spell the epithet S. oerstedi; this page follows COL26.8 ID 4TZJZ. The Chinese name is editorial, and the page has not received external expert review."
+      }
+    },
+    {
+      "colId": "7BQ9",
+      "scientificName": "Saimiri Voigt in G. Cuvier, 1831",
+      "rank": "genus",
+      "sourceDatasetId": "2144",
+      "name": {
+        "zh": "松鼠猴属",
+        "en": "Squirrel Monkeys"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-10-01",
+      "sections": [
+        {
+          "topic": "overview",
+          "text": {
+            "zh": "COL26.8 的固定灵长类名录在 Saimiri 属下列出八个接受种：S. boliviensis、S. cassiquiarensis、S. collinsi、S. macrodon、S. oerstedii、S. sciureus、S. ustus 与 S. vanzolinii。本页依该版本组织条目；不同研究的样本命名和属内种级方案可能不同。",
+            "en": "The pinned COL26.8 primate roster lists eight accepted species in Saimiri: S. boliviensis, S. cassiquiarensis, S. collinsi, S. macrodon, S. oerstedii, S. sciureus, S. ustus and S. vanzolinii. This guide follows that version; sample names and species-level treatments differ among studies."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "paim2013"
+          ]
+        },
+        {
+          "topic": "readingPath",
+          "text": {
+            "zh": "先读 S. macrodon 的伊基托斯局地生态研究和秘鲁领地距离抽样，再读 S. vanzolinii 的季节取食与 Mamirauá 五年监测；之后读 S. oerstedii 的哥斯达黎加栖地、鸣声和分布研究。已有的 S. boliviensis、S. cassiquiarensis、S. collinsi、S. sciureus 与 S. ustus 页面补上属内其他案例。地点、调查设计与作者使用的分类组合不同，不能把密度或行为值横向合并。",
+            "en": "Start with the local Iquitos ecology study and Peruvian-territory distance sampling for S. macrodon, then read seasonal feeding and five-year Mamirauá monitoring for S. vanzolinii. Continue with Costa Rican habitat, vocalization and distribution studies of S. oerstedii. Existing pages for S. boliviensis, S. cassiquiarensis, S. collinsi, S. sciureus and S. ustus complete the set. Sites, designs and source taxonomic combinations differ, so density and behavior values should not be pooled."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "rowland2024",
+            "paim2019",
+            "ceballos2019"
+          ]
+        },
+        {
+          "topic": "interpretation",
+          "text": {
+            "zh": "属级系统发育研究覆盖了广泛地域和样本，但不同标记与物种标注会产生不同的关系假说。这里的阅读顺序是连接固定接受名与局地原始研究，不裁决 Saimiri 的分类争论，也不把论文中的旧组合自动改写成 COL 接受种。",
+            "en": "Genus-level phylogenetic studies sample broad regions, but marker choice and specimen assignments produce differing relationship hypotheses. This reading path connects pinned accepted names to local primary studies; it does not resolve Saimiri taxonomy or automatically rewrite older source combinations as COL accepted species."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "lynch2015",
+            "ruizgarcia2015"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 · source 2144 — Saimiri Voigt in G. Cuvier, 1831",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/7BQ9",
+          "scope": {
+            "zh": "支持固定 COL26.8 接受名、作者、等级和分类父链；不支持生物学正文。",
+            "en": "Supports the pinned COL26.8 accepted name, authorship, rank and parent chain; not biological claims."
+          }
+        },
+        {
+          "id": "paim2013",
+          "title": "Paim et al. (2013) — Diversity, Geographic Distribution and Conservation of Squirrel Monkeys in the Floodplain Forests of Central Amazon",
+          "url": "https://doi.org/10.1007/s10764-013-9714-8",
+          "scope": {
+            "zh": "支持中央亚马逊泛滥林的松鼠猴多样性、地理记录与保护研究背景。",
+            "en": "Supports research context on squirrel-monkey diversity, geographic records and conservation in Central Amazon floodplain forests."
+          }
+        },
+        {
+          "id": "lynch2015",
+          "title": "Lynch Alfaro et al. (2015) — Biogeography of Squirrel Monkeys: South-Central Amazon Origin and Rapid Pan-Amazonian Diversification",
+          "url": "https://doi.org/10.1016/j.ympev.2014.09.004",
+          "scope": {
+            "zh": "支持属级分子地理研究的样本覆盖和区域历史背景，不裁定固定名录等级。",
+            "en": "Supports the sampling scope and regional context of genus-level molecular biogeography; it does not determine pinned checklist ranks."
+          }
+        },
+        {
+          "id": "ruizgarcia2015",
+          "title": "Ruiz-García et al. (2015) — Molecular Phylogenetics and Phylogeography of All the Saimiri Taxa Inferred from mt COI and COII Gene Sequences",
+          "url": "https://doi.org/10.1007/s10329-014-0452-0",
+          "scope": {
+            "zh": "支持基于线粒体标记的属内关系研究背景；结果依赖标记和样本分类标注。",
+            "en": "Supports context from mitochondrial-marker phylogenetic work within the genus; results depend on markers and specimen assignments."
+          }
+        },
+        {
+          "id": "rowland2024",
+          "title": "Rowland et al. (2024) — Effect of historical logging pressure on squirrel monkey population density and primate species richness in the Peruvian Amazon",
+          "url": "https://doi.org/10.62015/np.2024.v30.800",
+          "scope": {
+            "zh": "支持 S. cassiquiarensis macrodon 的地方研究案例，并显示来源组合可能与固定 COL26.8 接受名不同。",
+            "en": "Supports a local study example for S. cassiquiarensis macrodon and illustrates that source combinations may differ from pinned COL26.8 names."
+          }
+        },
+        {
+          "id": "paim2019",
+          "title": "Paim et al. (2019) — Long-term population monitoring of the threatened and endemic black-headed squirrel monkey in Amazonia",
+          "url": "https://doi.org/10.1002/ajp.22988",
+          "scope": {
+            "zh": "支持 S. vanzolinii 在 Mamirauá 的五年监测案例。",
+            "en": "Supports the five-year Mamirauá monitoring case for S. vanzolinii."
+          }
+        },
+        {
+          "id": "ceballos2019",
+          "title": "Ceballos et al. (2019) — Conservation in Human-Dominated Landscapes: Lessons from the Distribution of the Central American Squirrel Monkey",
+          "url": "https://doi.org/10.1016/j.biocon.2019.06.008",
+          "scope": {
+            "zh": "支持哥斯达黎加 S. oerstedii 的地方分布和栖地变化案例。",
+            "en": "Supports the Costa Rican local distribution and habitat-change case for S. oerstedii."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "属级介绍按 COL26.8 固定名录组织，不表示所有分类方案均采用相同种界。阅读路径连接不同地点和方法的研究，未对种群密度或社会行为作属间比较；中文属名为编辑译名，页面尚未经过外部领域专家评审。",
+        "en": "The genus guide follows the pinned COL26.8 roster and does not imply that all taxonomic treatments use the same species boundaries. It connects studies from different sites and methods without comparing population density or social behavior across the genus. The Chinese genus name is editorial; the page has not received external expert review."
+      }
     }
   ]
 }
