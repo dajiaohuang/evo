@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-40 的八个 Presbytis 物种页和属级阅读路径已加入当前分支；八页均为来源限定的 profile-only 初稿，固定分母内页面为 231/530（54 个 dossier-backed、177 个 profile-only），299 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍待排查。主龙现生页为鳄目 27/27、Aves 9/11,044，共 36/11,071；化石分母为 4,664，P4-8 后化石页 7/4,664。页面计数不代表专家评审或完成。
+下一执行动作：P3-41 的八个 Cercopithecus 物种页和属级阅读路径现已加入当前分支；八页均为来源限定的 profile-only 初稿，固定分母内页面为 239/530（54 个 dossier-backed、185 个 profile-only），291 个接受种仍无种级读者页；476 个未命中 dossier 索引的接受种仍待排查。主龙现生页为鳄目 27/27、Aves 9/11,044，共 36/11,071；化石分母为 4,664，P4-8 后化石页 7/4,664。页面计数不代表专家评审或完成。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -668,3 +668,21 @@ P4-8 后，化石物种页为非鸟恐龙 5/1,794、化石 Aves 1/1,743、Crocod
 八种均无 species dossier，本批只新增读者页，没有更改外部评审状态。中文普通名为编辑译名。完成本批后，COL26.8 灵长类接受种读者页为 231/530（54 个 dossier-backed、177 个 profile-only），299 种仍缺种级页面；476 种仍未命中 dossier 索引。
 
 来源：[Najmuddin et al. (2021)](https://doi.org/10.6620/ZS.2021.60-67)、[Ang, Ismail & Meier (2010)](https://lkcnhm.nus.edu.sg/app/uploads/2017/04/58rbz411-415.pdf)、[Darmaji et al. (2023)](https://doi.org/10.20527/es.v19i3.17274)、[Nijman (2004)](https://repository.naturalis.nl/pub/534367)、[Fitri, Rizaldi & Novarino (2014)](https://jbioua.fmipa.unand.ac.id/index.php/jbioua/article/view/34)、[Paiman et al. (2018)](https://doi.org/10.29244/medkon.23.1.92-98)、[Ehlers Smith et al. (2013)](https://doi.org/10.1002/ajp.22148)、[Ehlers Smith, Ehlers Smith & Cheyne (2013)](https://doi.org/10.1007/s10764-013-9715-7)、[Ehlers Smith et al. (2018)](https://doi.org/10.1007/s10329-018-0676-5)、[Santoso et al. (2023)](https://doi.org/10.11598/btb.2023.30.2.1850) and [Supartono et al. (2020)](https://static1.1.sqspcdn.com/static/f/1200343/28367909/1604697875233/PC34_Supartono_et_al_Presbytis_comata_W_Java.pdf).
+## P3-41 八种 Cercopithecus 物种页与属级阅读路径（2026-09-30）
+
+- 新增八个 COL26.8 接受种页面及属级阅读路径（属 ID 3L2F）。八种均为 profile-only，无新建 dossier；种级正文限于文献的地点、样本、年代和方法。
+
+| COL26.8 ID 与物种 | 本页证据主题 | 范围限制 |
+|---|---|---|
+| 5XKCR *Cercopithecus lowei* | Duasidan 保护区三个群体的季节性取食及人为食物 | 2017 年、约 1.8 公顷地点、312 小时观察 |
+| 69KD3 *C. roloway* | Bia 国家公园 1976—1977 年取食记录 | 原文使用历史组合名 *C. diana roloway*；不作当前分布外推 |
+| STDV *C. campbelli* | Taï 森林三种长尾猴的食物与冠层比较 | 每种两个群体、13 个月的局地研究 |
+| 5XKBR *C. cephus* | Lopé 保护区一个 9 公顷林斑的常驻群 | 一个群体与 17 个月观察，不是种群调查 |
+| 69KBG *C. erythrotis* | 比奥科岛三个区域的猎捕强度与丰度漫查 | 相对耐受性仅指研究内比较，不代表当前保护等级 |
+| STF9 *C. lomamiensis* | Lomami 的三轮地面相机调查 | 598 次独立事件不是个体数或密度估计 |
+| STFF *C. mitis* | Kakamega 成年雌性营养生态与食谱 | 24 只雌性、三个群体、九个月 |
+| STDP *C. ascanius* | Kibale 相邻群体的饮食差异与杂交比较 | 原文使用亚种名 *C. a. schmidti*；结果不外推 |
+
+- 英文普通名参照本地固定 MDD 交叉表；中文普通名为编辑译名。没有新增 dossier 或外部专家评审。完成本批后，530 个接受种中有 239 个种级读者页（54 个 dossier-backed、185 个 profile-only），291 种仍无种级页面；476 种仍未命中 dossier 索引。
+
+- Sources: [Bempah et al. (2021)](https://doi.org/10.3390/d13120610), [Curtin (2004)](https://doi.org/10.1007/0-306-48417-X_23), [Buzzard (2006)](https://doi.org/10.1007/s10764-006-9022-7), [Tutin (1999)](https://doi.org/10.1007/BF02557714), [Cronin et al. (2016)](https://doi.org/10.1016/j.biocon.2016.03.001), [Fournier et al. (2023)](https://doi.org/10.3390/ani13111819), [Takahashi et al. (2019)](https://doi.org/10.1002/ajp.23016), and [Struhsaker (2017)](https://doi.org/10.1007/s10764-017-9988-3).
