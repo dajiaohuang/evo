@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-53 已为 Piliocolobus 固定名录中的九个剩余 ID 增加双语来源链接页，并补全 17 个种级 ID 的属级阅读路径。灵长类现有 345/530 个种级页面记录（54 个 dossier-backed、291 个 profile-only）；P. minusculus 与 P. lulindicus 两页仍为 source-insufficient，不计入首轮正文达标数。因此 343 个接受种达到首轮内容标准，185 个仍无种级页面记录，476 个仍未命中 dossier 索引。新增内容保留原始研究的分类、地点和样本边界。下一批继续补齐剩余灵长类，完成后回到主龙类；主龙类分母见本计划。纯内容变更不运行测试、内容/数据/增量校验或 CI。
+下一执行动作：P3-54 已为 Cercocebus 固定名录中的七个物种增加双语来源链接页，并建立真实 COL 属级 ID 3KZH 的阅读路径。灵长类现有 352/530 个种级页面记录（54 个 dossier-backed、298 个 profile-only）；P. minusculus 与 P. lulindicus 两页仍为 source-insufficient，不计入首轮正文达标数。因此 350 个接受种达到首轮内容标准，178 个仍无种级页面记录，476 个仍未命中 dossier 索引。新页面逐项保留调查地点、年代、方法和旧分类标签的边界。下一批继续补齐剩余灵长类，完成后回到主龙类；主龙类分母见本计划。纯内容变更不运行测试、内容/数据/增量校验或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -952,3 +952,22 @@ Pithecia 的分类处理在来源之间不一致：2019 年毛色比较把 *P. r
 依照用户指定的 content-only 工作流，本批不运行测试、内容校验、数据校验、增量校验或 CI；只为读者入口刷新运行时投影与数据清单。
 
 来源：[Hart, Ting & Maisels (2020), P. foai](https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T18252A92659769.en)、[Hart et al. (2020), P. lulindicus](https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T18262A96192471.en)、[IUCN 红疣猴行动计划（2021—2026）](https://portals.iucn.org/library/sites/library/files/documents/2021-015-En.pdf)、[基桑加尼快速评估报告（2019）](https://www.bonoboincongo.com/wp-content/uploads/2020/03/2020-February-Kisangani-Red-Colobus-REPORT.pdf)、[Brugière et al. (2025), Lac Télé 相机调查](https://static1.1.sqspcdn.com/static/f/1200343/28694543/1752180343813/AP%2BVol%2B19%2B1%2BBrugiere%2Bet%2Bal.pdf)、[Bowers-Sword et al. (2025)](https://doi.org/10.1007/s10764-025-00527-w)、[Maisels & Ting (2020), P. semlikiensis](https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T92657343A92657454.en)、[Maisels et al. (1994), P. tholloni](https://doi.org/10.1007/BF02737427)、[McGraw (2006), P. badius waldronae](https://doi.org/10.1016/j.biocon.2005.09.033)、[Hart (2017), Lomami 红疣猴巡护记录](https://www.bonoboincongo.com/2017/06/12/two-red-colobus-two-sides-of-the-lomami-river/)。
+
+
+## P3-54 七种 Cercocebus 物种页与属级阅读路径（2026-09-30）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 / 分类差异 | 批次 |
+|---|---|---|---|
+| 69KQH C. sanjei | Udzungwa 两片森林 28 次声学调查及数量模型 | 3,167 只为 2020 年估计，含宽置信区间，不是当前普查 | P3-54 |
+| SSSY C. agilis | 加蓬东北部生态与社会组织早期野外研究 | 1975 年论文使用 C. galeritus agilis；按历史分类表述 | P3-54 |
+| SSSZ C. atys | Taï 单群成年雌性跨情境交流研究 | 226 次互动，年龄关联只出现在亲和互动，不外推至全种 | P3-54 |
+| SST2 C. chrysogaster | Salonga 周边三个地区的间断有无调查 | 1994—2007 年调查绘图不等于当前连续分布 | P3-54 |
+| SST8 C. galeritus | 下 Tana 河 73 片森林普查与单片森林食谱比较 | 数量来自 2001 年；饮食比较限于一个群体和 16.25 公顷森林 | P3-54 |
+| SSTC C. lunulatus | 加纳 Cape Three Points 保护区相机记录 | 2018 年四处地点、四次独立拍摄确认出现，不估算丰度 | P3-54 |
+| SSTF C. torquatus | South Loango 果实丰盛季的群体分合 | 一个种群、2014 年单季观察，不代表全年社会组织 | P3-54 |
+
+本批新增七个 profile-only 物种页，并建立 COL 属级 ID 3KZH 的阅读路径。当前有 352/530 个种级页面记录（54 个 dossier-backed、298 个 profile-only）；178 个仍无种级页面记录，476 个仍未命中 dossier 索引。P. minusculus 与 P. lulindicus 仍为 source-insufficient，故 350 个接受种达到首轮内容标准，180 个尚未达到。七个物种的本地 dossier 队列均为 missing，introductorySummary 均为 absent；未新增 dossier 或外部领域专家评审。英文普通名参考 MDD v2.5，中文普通名为编辑译名。
+
+来源：[Paddock, Bruford & McCabe (2020)](https://doi.org/10.1002/ajp.23083)、[Quris (1975)](https://doi.org/10.3406/revec.1975.4894)、[Tibesar et al. (2026)](https://doi.org/10.3389/fevo.2026.1863007)、[Inogwabini & Thompson (2013)](https://doi.org/10.11609/JoTT.o3185.4069-75)、[Oguge, Karere & Kirathe (2004)](https://doi.org/10.1023/B:IJOP.0000019156.41782.53)、[Wieczkowski & Kinnaird (2008)](https://doi.org/10.1002/ajp.20495)、[Nolan et al. (2019)](https://chesterrep.openrepository.com/bitstream/10034/622149/4/Primate%20conservation%20manuscript_final_prepublication_version.pdf) 与 [Dolado, Cooke & Beltran (2016)](https://doi.org/10.1159/000449220)。
+
+依照 content-only 工作流，本批不运行测试、内容校验、数据校验、增量校验或 CI；仅为读者入口刷新运行时投影与数据清单。
