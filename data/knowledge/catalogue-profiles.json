@@ -43711,90 +43711,835 @@
       "scientificName": "Allochrocebus lhoesti (Sclater, 1899)",
       "rank": "species",
       "sourceDatasetId": "2144",
-      "name": { "zh": "鲁氏猴", "en": "L'Hoest's Monkey" },
+      "name": {
+        "zh": "鲁氏猴",
+        "en": "L'Hoest's Monkey"
+      },
       "reviewStatus": "source-linked",
       "checkedAt": "2026-10-01",
       "sections": [
-        { "topic": "overview", "text": { "zh": "本页按 COL26.8 接受种 ID BVHG 组织；MDD v2.5 精确名称记录提供英文显示名 L'Hoest's Monkey。中文名为编辑译名。", "en": "This page follows COL26.8 accepted species ID BVHG. The exact MDD v2.5 name record supplies the display label L'Hoest's Monkey; the Chinese name is editorial." }, "sourceIds": ["taxonomy", "mdd_label"] },
-        { "topic": "fieldStudy", "text": { "zh": "Tashiro 在乌干达 Kalinzu 森林研究鲁氏猴与蓝猴的取食生态。观察中，鲁氏猴用于无脊椎动物取食的时间最高达进食时间的 66%，且主要在近地层取食。这是一个森林研究中的行为时间比例，不等于全年食谱或全域取食比例；原文使用 Cercopithecus lhoesti。", "en": "Tashiro studied L'Hoest's and blue monkeys in Uganda's Kalinzu Forest. In the observations, L'Hoest's monkeys spent up to 66% of feeding time on invertebrates and mainly foraged near the ground. This is a behavioral time budget from one forest, not a year-round diet or range-wide proportion; the paper uses Cercopithecus lhoesti." }, "sourceIds": ["tashiro2006"] },
-        { "topic": "phylogeography", "text": { "zh": "Tosi 比较当时称为 lhoesti 组的三种代表样本，分析两段 Y 染色体基因和一段 X 染色体间隔区；在这些序列的最大似然树中，lhoesti 与 preussi 聚在一起，与 solatus 分开。结果依赖有限标记和代表样本，不代替名录身份或全基因组关系。", "en": "Tosi compared representatives of the three taxa then called the lhoesti group using two Y-chromosomal genes and one X-chromosomal intergenic region. In maximum-likelihood trees from these sequences, lhoesti grouped with preussi to the exclusion of solatus. This depends on a limited marker set and representative samples, not a checklist identity or genome-wide relationship." }, "sourceIds": ["tosi2008"] }
+        {
+          "topic": "overview",
+          "text": {
+            "zh": "本页按 COL26.8 接受种 ID BVHG 组织；MDD v2.5 精确名称记录提供英文显示名 L'Hoest's Monkey。中文名为编辑译名。",
+            "en": "This page follows COL26.8 accepted species ID BVHG. The exact MDD v2.5 name record supplies the display label L'Hoest's Monkey; the Chinese name is editorial."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_label"
+          ]
+        },
+        {
+          "topic": "fieldStudy",
+          "text": {
+            "zh": "Tashiro 在乌干达 Kalinzu 森林研究鲁氏猴与蓝猴的取食生态。观察中，鲁氏猴用于无脊椎动物取食的时间最高达进食时间的 66%，且主要在近地层取食。这是一个森林研究中的行为时间比例，不等于全年食谱或全域取食比例；原文使用 Cercopithecus lhoesti。",
+            "en": "Tashiro studied L'Hoest's and blue monkeys in Uganda's Kalinzu Forest. In the observations, L'Hoest's monkeys spent up to 66% of feeding time on invertebrates and mainly foraged near the ground. This is a behavioral time budget from one forest, not a year-round diet or range-wide proportion; the paper uses Cercopithecus lhoesti."
+          },
+          "sourceIds": [
+            "tashiro2006"
+          ]
+        },
+        {
+          "topic": "phylogeography",
+          "text": {
+            "zh": "Tosi 比较当时称为 lhoesti 组的三种代表样本，分析两段 Y 染色体基因和一段 X 染色体间隔区；在这些序列的最大似然树中，lhoesti 与 preussi 聚在一起，与 solatus 分开。结果依赖有限标记和代表样本，不代替名录身份或全基因组关系。",
+            "en": "Tosi compared representatives of the three taxa then called the lhoesti group using two Y-chromosomal genes and one X-chromosomal intergenic region. In maximum-likelihood trees from these sequences, lhoesti grouped with preussi to the exclusion of solatus. This depends on a limited marker set and representative samples, not a checklist identity or genome-wide relationship."
+          },
+          "sourceIds": [
+            "tosi2008"
+          ]
+        }
       ],
       "sources": [
-        { "id": "taxonomy", "title": "Catalogue of Life COL26.8 · source 2144 — Allochrocebus lhoesti", "url": "https://www.checklistbank.org/dataset/316115/taxon/BVHG", "scope": { "zh": "支持固定接受名、作者、等级和父链；不支持生物学正文。", "en": "Supports the pinned accepted name, authorship, rank and parent link; not biological claims." } },
-        { "id": "mdd_label", "title": "Mammal Diversity Database v2.5 — L'Hoest's Monkey (MDD 1000560)", "url": "https://www.mammaldiversity.org/taxon/1000560/", "scope": { "zh": "仅支持英文普通名；条目身份按 COL26.8 ID，中文名为编辑译名。", "en": "Supports only the English common name; entry identity follows COL26.8 and the Chinese name is editorial." } },
-        { "id": "tashiro2006", "title": "Tashiro (2006) — Frequent insectivory by two guenons in Kalinzu Forest", "url": "https://doi.org/10.1007/s10329-005-0160-x", "scope": { "zh": "支持 Kalinzu 局地取食时间与近地层观察；不支持全域食谱或全年比例。", "en": "Supports local feeding-time and near-ground observations at Kalinzu; not a range-wide diet or annual proportion." } },
-        { "id": "tosi2008", "title": "Tosi (2008) — Forest monkeys and Pleistocene refugia: phylogeography of the lhoesti group", "url": "https://doi.org/10.1111/j.1096-3642.2008.00419.x", "scope": { "zh": "支持三种代表样本的有限性染色体标记比较；不决定接受名或全基因组关系。", "en": "Supports a limited sex-chromosome marker comparison of representatives of the three taxa; it does not determine accepted names or genome-wide relationships." } }
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 · source 2144 — Allochrocebus lhoesti",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/BVHG",
+          "scope": {
+            "zh": "支持固定接受名、作者、等级和父链；不支持生物学正文。",
+            "en": "Supports the pinned accepted name, authorship, rank and parent link; not biological claims."
+          }
+        },
+        {
+          "id": "mdd_label",
+          "title": "Mammal Diversity Database v2.5 — L'Hoest's Monkey (MDD 1000560)",
+          "url": "https://www.mammaldiversity.org/taxon/1000560/",
+          "scope": {
+            "zh": "仅支持英文普通名；条目身份按 COL26.8 ID，中文名为编辑译名。",
+            "en": "Supports only the English common name; entry identity follows COL26.8 and the Chinese name is editorial."
+          }
+        },
+        {
+          "id": "tashiro2006",
+          "title": "Tashiro (2006) — Frequent insectivory by two guenons in Kalinzu Forest",
+          "url": "https://doi.org/10.1007/s10329-005-0160-x",
+          "scope": {
+            "zh": "支持 Kalinzu 局地取食时间与近地层观察；不支持全域食谱或全年比例。",
+            "en": "Supports local feeding-time and near-ground observations at Kalinzu; not a range-wide diet or annual proportion."
+          }
+        },
+        {
+          "id": "tosi2008",
+          "title": "Tosi (2008) — Forest monkeys and Pleistocene refugia: phylogeography of the lhoesti group",
+          "url": "https://doi.org/10.1111/j.1096-3642.2008.00419.x",
+          "scope": {
+            "zh": "支持三种代表样本的有限性染色体标记比较；不决定接受名或全基因组关系。",
+            "en": "Supports a limited sex-chromosome marker comparison of representatives of the three taxa; it does not determine accepted names or genome-wide relationships."
+          }
+        }
       ],
-      "limitations": { "zh": "本页是 Kalinzu 局地取食和有限标记系统发育研究导读，不是完整物种志。来源不足以支持完整分布、全年食谱、种群趋势或当期保育评价。中文名为编辑译名，尚未经过外部领域专家评审。", "en": "This page guides readers through local Kalinzu feeding and limited-marker phylogenetic studies; it is not a complete species account. The sources do not support a complete range, year-round diet, population trend or current conservation assessment. The Chinese name is editorial; the page has not received external expert review." }
+      "limitations": {
+        "zh": "本页是 Kalinzu 局地取食和有限标记系统发育研究导读，不是完整物种志。来源不足以支持完整分布、全年食谱、种群趋势或当期保育评价。中文名为编辑译名，尚未经过外部领域专家评审。",
+        "en": "This page guides readers through local Kalinzu feeding and limited-marker phylogenetic studies; it is not a complete species account. The sources do not support a complete range, year-round diet, population trend or current conservation assessment. The Chinese name is editorial; the page has not received external expert review."
+      }
     },
     {
       "colId": "BVHH",
       "scientificName": "Allochrocebus preussi (Matschie, 1898)",
       "rank": "species",
       "sourceDatasetId": "2144",
-      "name": { "zh": "普鲁斯猴", "en": "Preuss's Monkey" },
+      "name": {
+        "zh": "普鲁斯猴",
+        "en": "Preuss's Monkey"
+      },
       "reviewStatus": "source-linked",
       "checkedAt": "2026-10-01",
       "sections": [
-        { "topic": "overview", "text": { "zh": "本页按 COL26.8 接受种 ID BVHH 组织；MDD v2.5 精确名称记录提供英文显示名 Preuss's Monkey。中文名为编辑译名。", "en": "This page follows COL26.8 accepted species ID BVHH. The exact MDD v2.5 name record supplies the display label Preuss's Monkey; the Chinese name is editorial." }, "sourceIds": ["taxonomy", "mdd_label"] },
-        { "topic": "localKnowledge", "text": { "zh": "Nkengbeza 等在喀麦隆 Ebo 森林周边 17 个村落对 262 户家庭开展半结构式访谈；村落按邻近森林及生计依赖等条件选取。研究记录当地居民的生态知识与看法，不是随机抽样的猴群普查。", "en": "Nkengbeza et al. conducted semi-structured interviews with 262 households in 17 villages around Cameroon's Ebo Forest. Villages were selected partly for proximity to the forest and dependence on it for livelihoods. The study records local ecological knowledge and perceptions, not a random census of monkeys." }, "sourceIds": ["nkengbeza2024"] },
-        { "topic": "recognitionAndUse", "text": { "zh": "受访者能从其他灵长类中辨认本种，并描述为黑色、多毛、喉部发白、会在地面和树上活动；论文记录当地称呼“Nten”。这是该研究访谈中的识别描述和用名，不是所有社区的统一称呼或正式形态诊断。", "en": "Interviewees distinguished this monkey from other primates and described a black, hairy animal with a pale throat seen on the ground and in trees; the paper records the local name “Nten.” These are descriptions and a name reported in this study, not a universal community name or formal morphological diagnosis." }, "sourceIds": ["nkengbeza2024"] },
-        { "topic": "reportedChange", "text": { "zh": "论文比较受访者的利用方式与其对数量变化的判断，报告不同利用类别对应不同的下降趋势感知；作者也记录部分以食用为目的的利用者表达保护支持。这些是访谈回答间的关联和态度，不是重复野外计数或因果分析。", "en": "The paper compared respondents' uses with their judgments about abundance change and reported different perceptions of decline across use categories; it also recorded conservation support among some subsistence users. These are associations and attitudes in interview responses, not repeated field counts or causal tests." }, "sourceIds": ["nkengbeza2024"] },
-        { "topic": "phylogeography", "text": { "zh": "Tosi 的比较研究纳入当时 lhoesti 组的 preussi 代表样本；有限的两段 Y 染色体基因和一段 X 染色体间隔区序列把它与 lhoesti 聚为一支、与 solatus 分开。该分析关注取样序列，不是现代地理范围调查。", "en": "Tosi's comparative study included representatives of preussi in the lhoesti group. A limited set of two Y-chromosomal genes and one X-chromosomal intergenic sequence grouped it with lhoesti, apart from solatus. The analysis concerns sampled sequences, not a modern range survey." }, "sourceIds": ["tosi2008"] }
+        {
+          "topic": "overview",
+          "text": {
+            "zh": "本页按 COL26.8 接受种 ID BVHH 组织；MDD v2.5 精确名称记录提供英文显示名 Preuss's Monkey。中文名为编辑译名。",
+            "en": "This page follows COL26.8 accepted species ID BVHH. The exact MDD v2.5 name record supplies the display label Preuss's Monkey; the Chinese name is editorial."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_label"
+          ]
+        },
+        {
+          "topic": "localKnowledge",
+          "text": {
+            "zh": "Nkengbeza 等在喀麦隆 Ebo 森林周边 17 个村落对 262 户家庭开展半结构式访谈；村落按邻近森林及生计依赖等条件选取。研究记录当地居民的生态知识与看法，不是随机抽样的猴群普查。",
+            "en": "Nkengbeza et al. conducted semi-structured interviews with 262 households in 17 villages around Cameroon's Ebo Forest. Villages were selected partly for proximity to the forest and dependence on it for livelihoods. The study records local ecological knowledge and perceptions, not a random census of monkeys."
+          },
+          "sourceIds": [
+            "nkengbeza2024"
+          ]
+        },
+        {
+          "topic": "recognitionAndUse",
+          "text": {
+            "zh": "受访者能从其他灵长类中辨认本种，并描述为黑色、多毛、喉部发白、会在地面和树上活动；论文记录当地称呼“Nten”。这是该研究访谈中的识别描述和用名，不是所有社区的统一称呼或正式形态诊断。",
+            "en": "Interviewees distinguished this monkey from other primates and described a black, hairy animal with a pale throat seen on the ground and in trees; the paper records the local name “Nten.” These are descriptions and a name reported in this study, not a universal community name or formal morphological diagnosis."
+          },
+          "sourceIds": [
+            "nkengbeza2024"
+          ]
+        },
+        {
+          "topic": "reportedChange",
+          "text": {
+            "zh": "论文比较受访者的利用方式与其对数量变化的判断，报告不同利用类别对应不同的下降趋势感知；作者也记录部分以食用为目的的利用者表达保护支持。这些是访谈回答间的关联和态度，不是重复野外计数或因果分析。",
+            "en": "The paper compared respondents' uses with their judgments about abundance change and reported different perceptions of decline across use categories; it also recorded conservation support among some subsistence users. These are associations and attitudes in interview responses, not repeated field counts or causal tests."
+          },
+          "sourceIds": [
+            "nkengbeza2024"
+          ]
+        },
+        {
+          "topic": "phylogeography",
+          "text": {
+            "zh": "Tosi 的比较研究纳入当时 lhoesti 组的 preussi 代表样本；有限的两段 Y 染色体基因和一段 X 染色体间隔区序列把它与 lhoesti 聚为一支、与 solatus 分开。该分析关注取样序列，不是现代地理范围调查。",
+            "en": "Tosi's comparative study included representatives of preussi in the lhoesti group. A limited set of two Y-chromosomal genes and one X-chromosomal intergenic sequence grouped it with lhoesti, apart from solatus. The analysis concerns sampled sequences, not a modern range survey."
+          },
+          "sourceIds": [
+            "tosi2008"
+          ]
+        }
       ],
       "sources": [
-        { "id": "taxonomy", "title": "Catalogue of Life COL26.8 · source 2144 — Allochrocebus preussi", "url": "https://www.checklistbank.org/dataset/316115/taxon/BVHH", "scope": { "zh": "支持固定接受名、作者、等级和父链；不支持生物学正文。", "en": "Supports the pinned accepted name, authorship, rank and parent link; not biological claims." } },
-        { "id": "mdd_label", "title": "Mammal Diversity Database v2.5 — Preuss's Monkey (MDD 1000561)", "url": "https://www.mammaldiversity.org/taxon/1000561/", "scope": { "zh": "仅支持英文普通名；条目身份按 COL26.8，中文名为编辑译名。", "en": "Supports only the English common name; entry identity follows COL26.8 and the Chinese name is editorial." } },
-        { "id": "nkengbeza2024", "title": "Nkengbeza et al. (2024) — Local ecological knowledge about Preuss's monkey in Ebo Forest", "url": "https://doi.org/10.15451/ec2024-03-13.11-1-19", "scope": { "zh": "支持 Ebo 周边 262 户、17 村访谈设计、受访者描述与报告态度；不支持种群普查或因果结论。", "en": "Supports the 262-household, 17-village interview design, respondent descriptions and reported attitudes around Ebo; not a census or causal result." } },
-        { "id": "tosi2008", "title": "Tosi (2008) — Forest monkeys and Pleistocene refugia: phylogeography of the lhoesti group", "url": "https://doi.org/10.1111/j.1096-3642.2008.00419.x", "scope": { "zh": "支持三种代表样本的有限性染色体标记比较；不决定接受名或全基因组关系。", "en": "Supports a limited sex-chromosome marker comparison of representatives of the three taxa; it does not determine accepted names or genome-wide relationships." } }
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 · source 2144 — Allochrocebus preussi",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/BVHH",
+          "scope": {
+            "zh": "支持固定接受名、作者、等级和父链；不支持生物学正文。",
+            "en": "Supports the pinned accepted name, authorship, rank and parent link; not biological claims."
+          }
+        },
+        {
+          "id": "mdd_label",
+          "title": "Mammal Diversity Database v2.5 — Preuss's Monkey (MDD 1000561)",
+          "url": "https://www.mammaldiversity.org/taxon/1000561/",
+          "scope": {
+            "zh": "仅支持英文普通名；条目身份按 COL26.8，中文名为编辑译名。",
+            "en": "Supports only the English common name; entry identity follows COL26.8 and the Chinese name is editorial."
+          }
+        },
+        {
+          "id": "nkengbeza2024",
+          "title": "Nkengbeza et al. (2024) — Local ecological knowledge about Preuss's monkey in Ebo Forest",
+          "url": "https://doi.org/10.15451/ec2024-03-13.11-1-19",
+          "scope": {
+            "zh": "支持 Ebo 周边 262 户、17 村访谈设计、受访者描述与报告态度；不支持种群普查或因果结论。",
+            "en": "Supports the 262-household, 17-village interview design, respondent descriptions and reported attitudes around Ebo; not a census or causal result."
+          }
+        },
+        {
+          "id": "tosi2008",
+          "title": "Tosi (2008) — Forest monkeys and Pleistocene refugia: phylogeography of the lhoesti group",
+          "url": "https://doi.org/10.1111/j.1096-3642.2008.00419.x",
+          "scope": {
+            "zh": "支持三种代表样本的有限性染色体标记比较；不决定接受名或全基因组关系。",
+            "en": "Supports a limited sex-chromosome marker comparison of representatives of the three taxa; it does not determine accepted names or genome-wide relationships."
+          }
+        }
       ],
-      "limitations": { "zh": "本页是 Ebo 周边访谈与有限标记系统发育研究导读，不是完整物种志。访谈不能估计野外密度或趋势，来源也未覆盖完整分布、全年生态或当期保育评价。中文名为编辑译名，尚未经过外部领域专家评审。", "en": "This page guides readers through interviews around Ebo and limited-marker phylogenetic research; it is not a complete species account. Interviews do not estimate field density or trends, and the sources do not cover the full range, year-round ecology or a current conservation assessment. The Chinese name is editorial; the page has not received external expert review." }
+      "limitations": {
+        "zh": "本页是 Ebo 周边访谈与有限标记系统发育研究导读，不是完整物种志。访谈不能估计野外密度或趋势，来源也未覆盖完整分布、全年生态或当期保育评价。中文名为编辑译名，尚未经过外部领域专家评审。",
+        "en": "This page guides readers through interviews around Ebo and limited-marker phylogenetic research; it is not a complete species account. Interviews do not estimate field density or trends, and the sources do not cover the full range, year-round ecology or a current conservation assessment. The Chinese name is editorial; the page has not received external expert review."
+      }
     },
     {
       "colId": "BVHJ",
       "scientificName": "Allochrocebus solatus (Harrison, 1988)",
       "rank": "species",
       "sourceDatasetId": "2144",
-      "name": { "zh": "日尾猴", "en": "Sun-tailed Monkey" },
+      "name": {
+        "zh": "日尾猴",
+        "en": "Sun-tailed Monkey"
+      },
       "reviewStatus": "source-linked",
       "checkedAt": "2026-10-01",
       "sections": [
-        { "topic": "overview", "text": { "zh": "本页按 COL26.8 接受种 ID BVHJ 组织；MDD v2.5 精确名称记录提供英文显示名 Sun-tailed Monkey。中文名为编辑译名。", "en": "This page follows COL26.8 accepted species ID BVHJ. The exact MDD v2.5 name record supplies the display label Sun-tailed Monkey; the Chinese name is editorial." }, "sourceIds": ["taxonomy", "mdd_label"] },
-        { "topic": "distributionSurvey", "text": { "zh": "Gautier 等的加蓬分布调查汇集 1985—1989 年间 38 周野外工作，并使用当地猎人访谈及村民信息。作者据此讨论当时已知分布和生态背景；这类资料组合并非统一设计的现今占域清点。", "en": "Gautier et al.'s Gabon survey combined 38 weeks of field work between 1985 and 1989 with interviews of local hunters and information from villagers. The authors discussed the range then known and its ecological context; this mix of evidence is not a standardized present-day occupancy census." }, "sourceIds": ["gautier1992"] },
-        { "topic": "rangeRevision", "text": { "zh": "Coad 等在 2010 年汇编当时所有已知野外观察；1999 年以来的记录把已知范围向南、东、西扩展，作者据此认为分布区很可能涉及三座国家公园，而非一座。这里描述的是该次汇编对当时记录的更新，不是 2010 年之后的完整调查。", "en": "Coad et al. compiled all field observations then known in 2010. Records since 1999 extended the known range south, east and west, leading the authors to conclude that the extent of occurrence almost certainly included three national parks rather than one. This describes that synthesis of records available at the time, not a complete survey after 2010." }, "sourceIds": ["coad2010"] },
-        { "topic": "phylogeography", "text": { "zh": "在 Tosi 对三种 lhoesti 组代表样本的有限性染色体标记分析中，solatus 序列与 lhoesti—preussi 分组相区分。该结果描述取样序列的关系，不把 2008 年标记研究转写为当前完整分类修订。", "en": "In Tosi's limited sex-chromosome marker analysis of representatives of the three lhoesti-group taxa, solatus sequences were distinct from the lhoesti–preussi grouping. This describes relationships in sampled sequences; the 2008 marker study is not presented as a current, complete taxonomic revision." }, "sourceIds": ["tosi2008"] }
+        {
+          "topic": "overview",
+          "text": {
+            "zh": "本页按 COL26.8 接受种 ID BVHJ 组织；MDD v2.5 精确名称记录提供英文显示名 Sun-tailed Monkey。中文名为编辑译名。",
+            "en": "This page follows COL26.8 accepted species ID BVHJ. The exact MDD v2.5 name record supplies the display label Sun-tailed Monkey; the Chinese name is editorial."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_label"
+          ]
+        },
+        {
+          "topic": "distributionSurvey",
+          "text": {
+            "zh": "Gautier 等的加蓬分布调查汇集 1985—1989 年间 38 周野外工作，并使用当地猎人访谈及村民信息。作者据此讨论当时已知分布和生态背景；这类资料组合并非统一设计的现今占域清点。",
+            "en": "Gautier et al.'s Gabon survey combined 38 weeks of field work between 1985 and 1989 with interviews of local hunters and information from villagers. The authors discussed the range then known and its ecological context; this mix of evidence is not a standardized present-day occupancy census."
+          },
+          "sourceIds": [
+            "gautier1992"
+          ]
+        },
+        {
+          "topic": "rangeRevision",
+          "text": {
+            "zh": "Coad 等在 2010 年汇编当时所有已知野外观察；1999 年以来的记录把已知范围向南、东、西扩展，作者据此认为分布区很可能涉及三座国家公园，而非一座。这里描述的是该次汇编对当时记录的更新，不是 2010 年之后的完整调查。",
+            "en": "Coad et al. compiled all field observations then known in 2010. Records since 1999 extended the known range south, east and west, leading the authors to conclude that the extent of occurrence almost certainly included three national parks rather than one. This describes that synthesis of records available at the time, not a complete survey after 2010."
+          },
+          "sourceIds": [
+            "coad2010"
+          ]
+        },
+        {
+          "topic": "phylogeography",
+          "text": {
+            "zh": "在 Tosi 对三种 lhoesti 组代表样本的有限性染色体标记分析中，solatus 序列与 lhoesti—preussi 分组相区分。该结果描述取样序列的关系，不把 2008 年标记研究转写为当前完整分类修订。",
+            "en": "In Tosi's limited sex-chromosome marker analysis of representatives of the three lhoesti-group taxa, solatus sequences were distinct from the lhoesti–preussi grouping. This describes relationships in sampled sequences; the 2008 marker study is not presented as a current, complete taxonomic revision."
+          },
+          "sourceIds": [
+            "tosi2008"
+          ]
+        }
       ],
       "sources": [
-        { "id": "taxonomy", "title": "Catalogue of Life COL26.8 · source 2144 — Allochrocebus solatus", "url": "https://www.checklistbank.org/dataset/316115/taxon/BVHJ", "scope": { "zh": "支持固定接受名、作者、等级和父链；不支持生物学正文。", "en": "Supports the pinned accepted name, authorship, rank and parent link; not biological claims." } },
-        { "id": "mdd_label", "title": "Mammal Diversity Database v2.5 — Sun-tailed Monkey (MDD 1000562)", "url": "https://www.mammaldiversity.org/taxon/1000562/", "scope": { "zh": "仅支持英文普通名；条目身份按 COL26.8，中文名为编辑译名。", "en": "Supports only the English common name; entry identity follows COL26.8 and the Chinese name is editorial." } },
-        { "id": "gautier1992", "title": "Gautier et al. (1992) — Distribution of Cercopithecus (lhoesti) solatus in Gabon", "url": "https://www.persee.fr/doc/revec_0249-7395_1992_num_47_4_2069", "scope": { "zh": "支持 1985—1989 年、38 周调查的资料来源与历史范围讨论；不代表现今完整分布。", "en": "Supports the evidence sources and historical range discussion from the 38-week 1985–1989 survey; not a complete present-day range." } },
-        { "id": "coad2010", "title": "Coad et al. (2010) — New range limits of the sun-tailed monkey in central Gabon", "url": "https://doi.org/10.1896/052.025.0108", "scope": { "zh": "支持已知观察记录汇编及当时范围扩展结果；不更新为当前占域评估。", "en": "Supports the compilation of known observations and range extensions reported at the time; not a current occupancy assessment." } },
-        { "id": "tosi2008", "title": "Tosi (2008) — Forest monkeys and Pleistocene refugia: phylogeography of the lhoesti group", "url": "https://doi.org/10.1111/j.1096-3642.2008.00419.x", "scope": { "zh": "支持三种代表样本的有限性染色体标记比较；不决定接受名或全基因组关系。", "en": "Supports a limited sex-chromosome marker comparison of representatives of the three taxa; it does not determine accepted names or genome-wide relationships." } }
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 · source 2144 — Allochrocebus solatus",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/BVHJ",
+          "scope": {
+            "zh": "支持固定接受名、作者、等级和父链；不支持生物学正文。",
+            "en": "Supports the pinned accepted name, authorship, rank and parent link; not biological claims."
+          }
+        },
+        {
+          "id": "mdd_label",
+          "title": "Mammal Diversity Database v2.5 — Sun-tailed Monkey (MDD 1000562)",
+          "url": "https://www.mammaldiversity.org/taxon/1000562/",
+          "scope": {
+            "zh": "仅支持英文普通名；条目身份按 COL26.8，中文名为编辑译名。",
+            "en": "Supports only the English common name; entry identity follows COL26.8 and the Chinese name is editorial."
+          }
+        },
+        {
+          "id": "gautier1992",
+          "title": "Gautier et al. (1992) — Distribution of Cercopithecus (lhoesti) solatus in Gabon",
+          "url": "https://www.persee.fr/doc/revec_0249-7395_1992_num_47_4_2069",
+          "scope": {
+            "zh": "支持 1985—1989 年、38 周调查的资料来源与历史范围讨论；不代表现今完整分布。",
+            "en": "Supports the evidence sources and historical range discussion from the 38-week 1985–1989 survey; not a complete present-day range."
+          }
+        },
+        {
+          "id": "coad2010",
+          "title": "Coad et al. (2010) — New range limits of the sun-tailed monkey in central Gabon",
+          "url": "https://doi.org/10.1896/052.025.0108",
+          "scope": {
+            "zh": "支持已知观察记录汇编及当时范围扩展结果；不更新为当前占域评估。",
+            "en": "Supports the compilation of known observations and range extensions reported at the time; not a current occupancy assessment."
+          }
+        },
+        {
+          "id": "tosi2008",
+          "title": "Tosi (2008) — Forest monkeys and Pleistocene refugia: phylogeography of the lhoesti group",
+          "url": "https://doi.org/10.1111/j.1096-3642.2008.00419.x",
+          "scope": {
+            "zh": "支持三种代表样本的有限性染色体标记比较；不决定接受名或全基因组关系。",
+            "en": "Supports a limited sex-chromosome marker comparison of representatives of the three taxa; it does not determine accepted names or genome-wide relationships."
+          }
+        }
       ],
-      "limitations": { "zh": "本页围绕两项加蓬分布资料组织，不能据旧访谈、历史记录或 2010 年汇编推断当前占域、种群数量或趋势。来源也未覆盖全域生态或当期保育评价。中文名为编辑译名，尚未经过外部领域专家评审。", "en": "This page centers on two Gabon range sources; historical interviews, records and the 2010 synthesis do not establish current occupancy, abundance or trend. The sources do not cover range-wide ecology or a current conservation assessment. The Chinese name is editorial; the page has not received external expert review." }
+      "limitations": {
+        "zh": "本页围绕两项加蓬分布资料组织，不能据旧访谈、历史记录或 2010 年汇编推断当前占域、种群数量或趋势。来源也未覆盖全域生态或当期保育评价。中文名为编辑译名，尚未经过外部领域专家评审。",
+        "en": "This page centers on two Gabon range sources; historical interviews, records and the 2010 synthesis do not establish current occupancy, abundance or trend. The sources do not cover range-wide ecology or a current conservation assessment. The Chinese name is editorial; the page has not received external expert review."
+      }
     },
     {
       "colId": "S7Y",
       "scientificName": "Allochrocebus Elliot, 1913",
       "rank": "genus",
       "sourceDatasetId": "2144",
-      "name": { "zh": "Allochrocebus 属", "en": "Allochrocebus Monkeys" },
+      "name": {
+        "zh": "Allochrocebus 属",
+        "en": "Allochrocebus Monkeys"
+      },
       "reviewStatus": "source-linked",
       "checkedAt": "2026-10-01",
       "sections": [
-        { "topic": "overview", "text": { "zh": "本阅读路径按 COL26.8 属级 ID S7Y 组织，固定接受种为 lhoesti、preussi 与 solatus。早期研究常用 Cercopithecus 或 Chlorocebus 组合；保留来源中的名字，再以 COL ID 对应本目录条目。", "en": "This reading path follows COL26.8 genus ID S7Y, whose accepted species are lhoesti, preussi and solatus. Earlier studies often used Cercopithecus or Chlorocebus combinations; retain the source names and use COL IDs to connect them to this catalogue." }, "sourceIds": ["taxonomy", "tosi2008"] },
-        { "topic": "readingPath", "text": { "zh": "先读 Tosi 对三种代表样本的性染色体标记比较，了解 lhoesti 与 preussi 在该数据中的聚类及 solatus 的分支位置；再读鲁氏猴在 Kalinzu 的取食观察。接着读普鲁斯猴 Ebo 周边访谈，区分当地生态知识与野外数量调查；最后把日尾猴 1985—1989 年调查与 1999 年后记录汇编并读，观察已知范围如何随新记录改变。", "en": "Begin with Tosi's sex-chromosome marker comparison of representatives of all three taxa, noting the lhoesti–preussi grouping and solatus in those data. Then read the Kalinzu feeding study for lhoesti. Continue with interviews around Ebo for preussi, separating local ecological knowledge from field abundance surveys. Finish by comparing the 1985–1989 solatus survey with the later compilation of post-1999 records to see how the known range changed as records accumulated." }, "sourceIds": ["tosi2008", "tashiro2006", "nkengbeza2024", "gautier1992", "coad2010"] },
-        { "topic": "interpretation", "text": { "zh": "这些证据回答不同问题：分子标记比较描述取样序列关系，Kalinzu 研究量化局地取食时间，Ebo 访谈记录居民识别与变化感知，加蓬分布论文汇总野外观察和地方信息。它们不是同一时段、同一采样框架，不能拼接成全属共同分布、生态或趋势结论。", "en": "These evidence types answer different questions: marker comparisons describe relationships among sampled sequences, the Kalinzu study measures local feeding time, Ebo interviews record residents' identification and perceptions, and Gabon range papers compile field observations and local information. They do not share a period or sampling frame and cannot be combined into one genus-wide range, ecology or trend." }, "sourceIds": ["tosi2008", "tashiro2006", "nkengbeza2024", "gautier1992", "coad2010"] }
+        {
+          "topic": "overview",
+          "text": {
+            "zh": "本阅读路径按 COL26.8 属级 ID S7Y 组织，固定接受种为 lhoesti、preussi 与 solatus。早期研究常用 Cercopithecus 或 Chlorocebus 组合；保留来源中的名字，再以 COL ID 对应本目录条目。",
+            "en": "This reading path follows COL26.8 genus ID S7Y, whose accepted species are lhoesti, preussi and solatus. Earlier studies often used Cercopithecus or Chlorocebus combinations; retain the source names and use COL IDs to connect them to this catalogue."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "tosi2008"
+          ]
+        },
+        {
+          "topic": "readingPath",
+          "text": {
+            "zh": "先读 Tosi 对三种代表样本的性染色体标记比较，了解 lhoesti 与 preussi 在该数据中的聚类及 solatus 的分支位置；再读鲁氏猴在 Kalinzu 的取食观察。接着读普鲁斯猴 Ebo 周边访谈，区分当地生态知识与野外数量调查；最后把日尾猴 1985—1989 年调查与 1999 年后记录汇编并读，观察已知范围如何随新记录改变。",
+            "en": "Begin with Tosi's sex-chromosome marker comparison of representatives of all three taxa, noting the lhoesti–preussi grouping and solatus in those data. Then read the Kalinzu feeding study for lhoesti. Continue with interviews around Ebo for preussi, separating local ecological knowledge from field abundance surveys. Finish by comparing the 1985–1989 solatus survey with the later compilation of post-1999 records to see how the known range changed as records accumulated."
+          },
+          "sourceIds": [
+            "tosi2008",
+            "tashiro2006",
+            "nkengbeza2024",
+            "gautier1992",
+            "coad2010"
+          ]
+        },
+        {
+          "topic": "interpretation",
+          "text": {
+            "zh": "这些证据回答不同问题：分子标记比较描述取样序列关系，Kalinzu 研究量化局地取食时间，Ebo 访谈记录居民识别与变化感知，加蓬分布论文汇总野外观察和地方信息。它们不是同一时段、同一采样框架，不能拼接成全属共同分布、生态或趋势结论。",
+            "en": "These evidence types answer different questions: marker comparisons describe relationships among sampled sequences, the Kalinzu study measures local feeding time, Ebo interviews record residents' identification and perceptions, and Gabon range papers compile field observations and local information. They do not share a period or sampling frame and cannot be combined into one genus-wide range, ecology or trend."
+          },
+          "sourceIds": [
+            "tosi2008",
+            "tashiro2006",
+            "nkengbeza2024",
+            "gautier1992",
+            "coad2010"
+          ]
+        }
       ],
       "sources": [
-        { "id": "taxonomy", "title": "Catalogue of Life COL26.8 · source 2144 — Allochrocebus", "url": "https://www.checklistbank.org/dataset/316115/taxon/S7Y", "scope": { "zh": "支持固定属名、作者、等级和接受种父链；不支持属级生态概括。", "en": "Supports the pinned genus name, authorship, rank and accepted-species parent links; not genus-wide ecological claims." } },
-        { "id": "tosi2008", "title": "Tosi (2008) — Forest monkeys and Pleistocene refugia: phylogeography of the lhoesti group", "url": "https://doi.org/10.1111/j.1096-3642.2008.00419.x", "scope": { "zh": "支持三种代表样本的有限性染色体标记比较；不决定接受名或全基因组关系。", "en": "Supports a limited sex-chromosome marker comparison of representatives of the three taxa; it does not determine accepted names or genome-wide relationships." } },
-        { "id": "tashiro2006", "title": "Tashiro (2006) — Insectivory by guenons at Kalinzu Forest", "url": "https://doi.org/10.1007/s10329-005-0160-x", "scope": { "zh": "支持鲁氏猴在 Kalinzu 的局地取食案例；不支持全属食性。", "en": "Supports the local Kalinzu feeding case for lhoesti; not a genus-wide diet." } },
-        { "id": "nkengbeza2024", "title": "Nkengbeza et al. (2024) — Local ecological knowledge about Preuss's monkey in Ebo Forest", "url": "https://doi.org/10.15451/ec2024-03-13.11-1-19", "scope": { "zh": "支持普鲁斯猴 Ebo 周边访谈案例与受访者报告；不支持全属普查或趋势。", "en": "Supports the preussi interview case around Ebo and respondent reports; not a genus-wide census or trend." } },
-        { "id": "gautier1992", "title": "Gautier et al. (1992) — Distribution of Cercopithecus (lhoesti) solatus in Gabon", "url": "https://www.persee.fr/doc/revec_0249-7395_1992_num_47_4_2069", "scope": { "zh": "支持日尾猴历史分布调查；不支持全属分布。", "en": "Supports the historical solatus distribution survey; not a genus-wide distribution." } },
-        { "id": "coad2010", "title": "Coad et al. (2010) — New range limits of the sun-tailed monkey in central Gabon", "url": "https://doi.org/10.1896/052.025.0108", "scope": { "zh": "支持日尾猴已知观察汇编和当时的范围扩展；不作当前评估。", "en": "Supports the solatus observation compilation and range extensions known at the time; not a current assessment." } }
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 · source 2144 — Allochrocebus",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/S7Y",
+          "scope": {
+            "zh": "支持固定属名、作者、等级和接受种父链；不支持属级生态概括。",
+            "en": "Supports the pinned genus name, authorship, rank and accepted-species parent links; not genus-wide ecological claims."
+          }
+        },
+        {
+          "id": "tosi2008",
+          "title": "Tosi (2008) — Forest monkeys and Pleistocene refugia: phylogeography of the lhoesti group",
+          "url": "https://doi.org/10.1111/j.1096-3642.2008.00419.x",
+          "scope": {
+            "zh": "支持三种代表样本的有限性染色体标记比较；不决定接受名或全基因组关系。",
+            "en": "Supports a limited sex-chromosome marker comparison of representatives of the three taxa; it does not determine accepted names or genome-wide relationships."
+          }
+        },
+        {
+          "id": "tashiro2006",
+          "title": "Tashiro (2006) — Insectivory by guenons at Kalinzu Forest",
+          "url": "https://doi.org/10.1007/s10329-005-0160-x",
+          "scope": {
+            "zh": "支持鲁氏猴在 Kalinzu 的局地取食案例；不支持全属食性。",
+            "en": "Supports the local Kalinzu feeding case for lhoesti; not a genus-wide diet."
+          }
+        },
+        {
+          "id": "nkengbeza2024",
+          "title": "Nkengbeza et al. (2024) — Local ecological knowledge about Preuss's monkey in Ebo Forest",
+          "url": "https://doi.org/10.15451/ec2024-03-13.11-1-19",
+          "scope": {
+            "zh": "支持普鲁斯猴 Ebo 周边访谈案例与受访者报告；不支持全属普查或趋势。",
+            "en": "Supports the preussi interview case around Ebo and respondent reports; not a genus-wide census or trend."
+          }
+        },
+        {
+          "id": "gautier1992",
+          "title": "Gautier et al. (1992) — Distribution of Cercopithecus (lhoesti) solatus in Gabon",
+          "url": "https://www.persee.fr/doc/revec_0249-7395_1992_num_47_4_2069",
+          "scope": {
+            "zh": "支持日尾猴历史分布调查；不支持全属分布。",
+            "en": "Supports the historical solatus distribution survey; not a genus-wide distribution."
+          }
+        },
+        {
+          "id": "coad2010",
+          "title": "Coad et al. (2010) — New range limits of the sun-tailed monkey in central Gabon",
+          "url": "https://doi.org/10.1896/052.025.0108",
+          "scope": {
+            "zh": "支持日尾猴已知观察汇编和当时的范围扩展；不作当前评估。",
+            "en": "Supports the solatus observation compilation and range extensions known at the time; not a current assessment."
+          }
+        }
       ],
-      "limitations": { "zh": "这是按 COL26.8 固定属级 ID 组织的短阅读路径，不是完整属综述。三种来源来自局地观察、访谈和有限分子标记，时间与采样框架不同；不能据此概括全属生态或当期保育状况。中文显示名保留拉丁属名，尚未经过外部领域专家评审。", "en": "This is a short reading path anchored to the fixed COL26.8 genus ID, not a complete genus review. Evidence comes from local observations, interviews and limited molecular markers with different periods and sampling frames; it cannot establish genus-wide ecology or current conservation status. The Chinese display name retains the Latin genus name; the guide has not received external expert review." }
+      "limitations": {
+        "zh": "这是按 COL26.8 固定属级 ID 组织的短阅读路径，不是完整属综述。三种来源来自局地观察、访谈和有限分子标记，时间与采样框架不同；不能据此概括全属生态或当期保育状况。中文显示名保留拉丁属名，尚未经过外部领域专家评审。",
+        "en": "This is a short reading path anchored to the fixed COL26.8 genus ID, not a complete genus review. Evidence comes from local observations, interviews and limited molecular markers with different periods and sampling frames; it cannot establish genus-wide ecology or current conservation status. The Chinese display name retains the Latin genus name; the guide has not received external expert review."
+      }
+    },
+    {
+      "colId": "4F78C",
+      "scientificName": "Perodicticus edwardsi Bouvier, 1879",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "zh": "中非树熊猴",
+        "en": "Central African Potto"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-10-01",
+      "sections": [
+        {
+          "topic": "overview",
+          "text": {
+            "zh": "本页按 COL26.8 接受种 ID 4F78C 组织。MDD v2.5 的英文显示名为 Central African Potto；其分类页也记录过去使用的 Perodicticus potto edwardsi 组合。这里保留来源中的旧组合，不以名称用法改动固定目录身份。",
+            "en": "This page follows COL26.8 accepted species ID 4F78C. MDD v2.5 supplies the display name Central African Potto and records the former combination Perodicticus potto edwardsi. The older usage is retained as source history, not used to change the pinned catalogue identity."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_label",
+            "pozzi2015"
+          ]
+        },
+        {
+          "topic": "fieldStudy",
+          "text": {
+            "zh": "Luhrs 等在安哥拉、喀麦隆、肯尼亚、尼日利亚、卢旺达和乌干达的十个地点比较中非与东非树熊猴，共记录 51 只 P. edwardsi。两种合并编码了既定懒猴科行为表中的 21 种姿势和 50 种行为中的 42 种；常见记录包括进食、移动、静止、休息和嗅探。51 是论文观察个体数，不是种群估计。",
+            "en": "Across ten sites in Angola, Cameroon, Kenya, Nigeria, Rwanda and Uganda, Luhrs et al. compared central and eastern pottos and reported 51 P. edwardsi. Across both species, they coded all 21 postures and 42 of 50 behaviours in an established lorisid ethogram; eating, locomotion, freezing, resting and sniffing were commonly recorded. The 51 animals are study observations, not a population estimate."
+          },
+          "sourceIds": [
+            "luhrs2018"
+          ]
+        },
+        {
+          "topic": "limits",
+          "text": {
+            "zh": "这项比较研究提供跨多个地点的短期行为资料，但摘要报告的是合并行为清单，不能据此判断中非树熊猴与东非树熊猴在每种行为上的差异，也不能推断密度、繁殖或种群趋势。",
+            "en": "The comparative study provides behavioural observations from multiple sites, but its abstract reports a pooled behaviour inventory. It does not establish species-specific differences in each behaviour, density, reproduction or population trend."
+          },
+          "sourceIds": [
+            "luhrs2018"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 · source 2144 — Perodicticus edwardsi",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4F78C",
+          "scope": {
+            "zh": "支持固定接受名、作者、等级与父链；不支持生物学正文。",
+            "en": "Supports the pinned accepted name, authorship, rank and parent link; not biological claims."
+          }
+        },
+        {
+          "id": "mdd_label",
+          "title": "Mammal Diversity Database v2.5 — Central African Potto (MDD 1001072)",
+          "url": "https://www.mammaldiversity.org/taxon/1001072/",
+          "scope": {
+            "zh": "仅支持英文显示名与页面明示的分类名称记录；条目身份仍按 COL26.8 固定 ID。",
+            "en": "Supports the English display label and taxonomic name record shown on the page; entry identity follows the pinned COL26.8 ID."
+          }
+        },
+        {
+          "id": "luhrs2018",
+          "title": "Luhrs, Svensson & Nekaris (2018) — Comparative ecology and behaviour of eastern and central pottos",
+          "url": "https://doi.org/10.2982/028.107.0104",
+          "scope": {
+            "zh": "支持十个地点的两种树熊猴比较观察及论文报告的观察数；不支持种群数量、全域代表性或长期趋势。",
+            "en": "Supports the comparative observations and observation counts reported for two potto species across ten sites; not population size, range-wide representativeness or long-term trend."
+          }
+        },
+        {
+          "id": "pozzi2015",
+          "title": "Pozzi et al. (2015) — Remarkable ancient divergences amongst neglected lorisiform primates",
+          "url": "https://doi.org/10.1111/zoj.12286",
+          "scope": {
+            "zh": "支持论文采用的三种树熊猴分类及有限线粒体标记关系；不替代 COL26.8 固定身份，也不代表全基因组关系。",
+            "en": "Supports the three-species treatment and limited mitochondrial-marker relationships used in the paper; it does not replace pinned COL26.8 identities or establish genome-wide relationships."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "资料主要来自一项跨十个地点的比较观察；观察数不是数量估计，论文摘要未给出各地点和行为的完整分层。本页不概括全域分布、食谱、当期保育状况或长期趋势。中文名为编辑译名，尚未经过外部领域专家评审。",
+        "en": "Evidence centers on one comparative observation study across ten sites. Observation counts are not abundance estimates, and the abstract does not provide a complete site-by-site or behaviour-by-species breakdown. This page does not summarize range-wide distribution, diet, current conservation status or long-term trend. The Chinese name is editorial; the page has not received external expert review."
+      }
+    },
+    {
+      "colId": "4F78F",
+      "scientificName": "Perodicticus ibeanus Thomas, 1910",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "zh": "东非树熊猴",
+        "en": "East African Potto"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-10-01",
+      "sections": [
+        {
+          "topic": "overview",
+          "text": {
+            "zh": "本页按 COL26.8 接受种 ID 4F78F 组织。MDD v2.5 的英文显示名为 East African Potto；MDD 记录它过去常作为 P. potto 的亚种。这里按固定 COL ID 保留现行页面身份，同时在阅读来源时留意旧组合。",
+            "en": "This page follows COL26.8 accepted species ID 4F78F. MDD v2.5 supplies the display name East African Potto and notes its former treatment as a subspecies of P. potto. The page keeps the pinned COL identity while preserving older combinations when reading the literature."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_label",
+            "pozzi2015"
+          ]
+        },
+        {
+          "topic": "fieldStudy",
+          "text": {
+            "zh": "Luhrs 等的十地点比较研究记录 28 只 P. ibeanus，并与 51 只中非树熊猴一同使用既定行为表编码。论文报告两种合计覆盖 21 种姿势及 50 种行为中的 42 种，并记录树皮咀嚼和此前未描述的发声；摘要没有把这些新记录分别归到某一物种。",
+            "en": "Luhrs et al.’s ten-site comparison reported 28 P. ibeanus, alongside 51 central pottos, using an established behavioural ethogram. Across both species the study covered 21 postures and 42 of 50 behaviours, and reported bark chewing and previously undescribed vocalisations; the abstract does not assign those novel records to one species alone."
+          },
+          "sourceIds": [
+            "luhrs2018"
+          ]
+        },
+        {
+          "topic": "limits",
+          "text": {
+            "zh": "28 是研究观察数，不能当作种群规模或地域代表性样本。行为清单为两种合并结果；来源没有提供可支持东非树熊猴独有行为、全域食性或种群趋势的结果。",
+            "en": "The 28 animals are study observations, not a population estimate or a range-representative sample. The behaviour inventory is pooled across two species; the source does not establish behaviours unique to the eastern potto, range-wide diet or population trend."
+          },
+          "sourceIds": [
+            "luhrs2018"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 · source 2144 — Perodicticus ibeanus",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4F78F",
+          "scope": {
+            "zh": "支持固定接受名、作者、等级与父链；不支持生物学正文。",
+            "en": "Supports the pinned accepted name, authorship, rank and parent link; not biological claims."
+          }
+        },
+        {
+          "id": "mdd_label",
+          "title": "Mammal Diversity Database v2.5 — East African Potto (MDD 1001073)",
+          "url": "https://www.mammaldiversity.org/taxon/1001073/",
+          "scope": {
+            "zh": "仅支持英文显示名与页面明示的分类名称记录；条目身份仍按 COL26.8 固定 ID。",
+            "en": "Supports the English display label and taxonomic name record shown on the page; entry identity follows the pinned COL26.8 ID."
+          }
+        },
+        {
+          "id": "luhrs2018",
+          "title": "Luhrs, Svensson & Nekaris (2018) — Comparative ecology and behaviour of eastern and central pottos",
+          "url": "https://doi.org/10.2982/028.107.0104",
+          "scope": {
+            "zh": "支持十个地点的两种树熊猴比较观察及论文报告的观察数；不支持种群数量、全域代表性或长期趋势。",
+            "en": "Supports the comparative observations and observation counts reported for two potto species across ten sites; not population size, range-wide representativeness or long-term trend."
+          }
+        },
+        {
+          "id": "pozzi2015",
+          "title": "Pozzi et al. (2015) — Remarkable ancient divergences amongst neglected lorisiform primates",
+          "url": "https://doi.org/10.1111/zoj.12286",
+          "scope": {
+            "zh": "支持论文采用的三种树熊猴分类及有限线粒体标记关系；不替代 COL26.8 固定身份，也不代表全基因组关系。",
+            "en": "Supports the three-species treatment and limited mitochondrial-marker relationships used in the paper; it does not replace pinned COL26.8 identities or establish genome-wide relationships."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "本页以一项比较行为研究为中心；观察数不是数量估计，论文摘要未将全部行为结果按物种拆分。本页不概括全域分布、独有食谱、当期保育状况或长期趋势。中文名为编辑译名，尚未经过外部领域专家评审。",
+        "en": "This page centers on one comparative behavioural study. Observation counts are not abundance estimates, and the abstract does not partition every behavioural result by species. This page does not summarize range-wide distribution, a species-specific diet, current conservation status or long-term trend. The Chinese name is editorial; the page has not received external expert review."
+      }
+    },
+    {
+      "colId": "4F78J",
+      "scientificName": "Perodicticus potto (Müller, 1766)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "zh": "西非树熊猴",
+        "en": "West African Potto"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-10-01",
+      "sections": [
+        {
+          "topic": "overview",
+          "text": {
+            "zh": "本页按 COL26.8 接受种 ID 4F78J 组织。MDD v2.5 提供 West African Potto 这一英文显示名，但其页面将作者年份写为 1776，而 COL26.8 固定记录为 1766；此处保留差异，不自行裁决。MDD 页面还将 P. juju 列入名称记录，地方研究中的 juju 用名因此单独说明。",
+            "en": "This page follows COL26.8 accepted species ID 4F78J. MDD v2.5 supplies the label West African Potto but renders the authority year as 1776, while pinned COL26.8 records 1766; this page preserves rather than resolves that difference. The MDD page also lists P. juju among associated names, so the local study’s use of juju is made explicit."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_label",
+            "iucn_juju"
+          ]
+        },
+        {
+          "topic": "fieldStudy",
+          "text": {
+            "zh": "Bearder 与 Oates 于 2009 年 1 月在尼日利亚 Okomu 国家公园及森林保护区的五处地点进行了 11 次夜间样线步行，共 16 小时。报告以 Perodicticus juju 记录五次目击；首次发现高度平均 13.6 米（9–19 米），多在较成熟森林，并比同场观察的丛猴使用更高树冠。作者没有把五次目击转成密度估计。",
+            "en": "In January 2009, Bearder and Oates made 11 nocturnal transect walks totalling 16 hours at five sites in Nigeria’s Okomu National Park and Forest Reserve. The report recorded five sightings as Perodicticus juju; first-sighting height averaged 13.6 m (range 9–19 m), and sightings occurred more often in mature forest and higher in the canopy than the galagos observed there. The authors did not convert five sightings into a density estimate."
+          },
+          "sourceIds": [
+            "bearder2009",
+            "iucn_juju"
+          ]
+        },
+        {
+          "topic": "historicalEcology",
+          "text": {
+            "zh": "Oates 1984 比较西非树熊猴的新野外观察与既有食性资料，提出它们会在树冠枝条上细致搜寻，树胶和缓慢移动的无脊椎动物是重要食物，果实稀少时树胶可能更重要。该文早于现行三种树熊猴的分类拆分，摘要未给出足以重建观察地点与样本的细节，因此只作为历史区域性研究观点，不转换为现行物种的定量食谱。",
+            "en": "Oates (1984) compared new field observations of West African pottos with earlier diet literature. He proposed careful searching along canopy branches, with gums and slow-moving invertebrates as important foods and gums potentially more important when fruit is scarce. The paper predates the current three-species split, and its abstract does not provide enough locality or sample detail to reconstruct the observations; it is retained as a historical regional interpretation, not a quantitative diet for the current species."
+          },
+          "sourceIds": [
+            "oates1984"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 · source 2144 — Perodicticus potto",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/4F78J",
+          "scope": {
+            "zh": "支持固定接受名、作者、等级与父链；不支持生物学正文。",
+            "en": "Supports the pinned accepted name, authorship, rank and parent link; not biological claims."
+          }
+        },
+        {
+          "id": "mdd_label",
+          "title": "Mammal Diversity Database v2.5 — West African Potto (MDD 1001074)",
+          "url": "https://www.mammaldiversity.org/taxon/1001074/",
+          "scope": {
+            "zh": "仅支持英文显示名与页面明示的分类名称记录；条目身份仍按 COL26.8 固定 ID。",
+            "en": "Supports the English display label and taxonomic name record shown on the page; entry identity follows the pinned COL26.8 ID."
+          }
+        },
+        {
+          "id": "bearder2009",
+          "title": "Bearder & Oates (2009 field survey; report posted 2014) — Nocturnal primates in Okomu National Park and Forest Reserve, Nigeria",
+          "url": "https://doi.org/10.13140/RG.2.1.1087.5600",
+          "scope": {
+            "zh": "支持 2009 年 1 月 Okomu 五地点、11 次样线步行、16 小时、五次以 P. juju 记录的目击及其观察高度/栖地描述；不支持密度或全域趋势。",
+            "en": "Supports the January 2009 Okomu survey: five sites, 11 transect walks, 16 hours, five sightings reported as P. juju, and their observed height/habitat descriptions; not density or range-wide trend."
+          }
+        },
+        {
+          "id": "oates1984",
+          "title": "Oates (1984) — The niche of the potto, Perodicticus potto",
+          "url": "https://doi.org/10.1007/BF02735147",
+          "scope": {
+            "zh": "支持作者对西非树熊猴取食观察与既有资料的历史性综合；文章早于现行分类拆分，摘要未提供可量化的现代物种样本框架。",
+            "en": "Supports the author’s historical synthesis of feeding observations on West African pottos; it predates the current taxonomic split and its abstract does not provide a quantifiable modern species sample."
+          }
+        },
+        {
+          "id": "pozzi2015",
+          "title": "Pozzi et al. (2015) — Remarkable ancient divergences amongst neglected lorisiform primates",
+          "url": "https://doi.org/10.1111/zoj.12286",
+          "scope": {
+            "zh": "支持论文采用的三种树熊猴分类及有限线粒体标记关系；不替代 COL26.8 固定身份，也不代表全基因组关系。",
+            "en": "Supports the three-species treatment and limited mitochondrial-marker relationships used in the paper; it does not replace pinned COL26.8 identities or establish genome-wide relationships."
+          }
+        },
+        {
+          "id": "iucn_juju",
+          "title": "Svensson et al. (2020) — West African Potto assessment and taxonomic notes",
+          "url": "https://doi.org/10.2305/IUCN.UK.2020-2.RLTS.T91995408A92248699.en",
+          "scope": {
+            "zh": "仅支持该评估将 P. p. juju 作为西非树熊猴下的亚种处理；不在本页导入其保育等级或趋势结论。",
+            "en": "Supports only the assessment’s treatment of P. p. juju as a subspecies of the West African potto; its conservation category and trend are not imported here."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "Okomu 记录仅五次目击、16 小时，并使用 P. juju 这一名称；MDD 与 IUCN 对 juju 的名称层级说明不完全相同。1984 年食性讨论也早于现行物种拆分且摘要样本细节有限。两项资料均不能代表现行 P. potto 全域的数量、食谱或趋势。COL 与 MDD 对作者年份的差异保留未决。中文名为编辑译名，尚未经过外部领域专家评审。",
+        "en": "The Okomu record comprises five sightings over 16 hours and uses the name P. juju; MDD and IUCN do not present the name at exactly the same rank. The 1984 diet discussion also predates the current species split and has limited sample detail in its abstract. Neither source represents abundance, diet or trend across the full range of current P. potto. The COL–MDD authority-year difference remains unresolved. The Chinese name is editorial; the page has not received external expert review."
+      }
+    },
+    {
+      "colId": "6LP3",
+      "scientificName": "Perodicticus Bennett, 1831",
+      "rank": "genus",
+      "sourceDatasetId": "2144",
+      "name": {
+        "zh": "Perodicticus 属",
+        "en": "Pottos"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-10-01",
+      "sections": [
+        {
+          "topic": "overview",
+          "text": {
+            "zh": "本阅读路径按 COL26.8 属级 ID 6LP3 连接三个固定接受种：P. edwardsi、P. ibeanus 和 P. potto。Pozzi 等的分子系统发育研究与形态资料支持三个深分化谱系的分类观点；部分旧研究仍采用一个物种或亚种组合。阅读时以 COL ID 连接目录条目，保留论文原用名。",
+            "en": "This reading path follows COL26.8 genus ID 6LP3 and links its three pinned species: P. edwardsi, P. ibeanus and P. potto. Pozzi et al.’s molecular phylogeny, together with morphological evidence they discuss, supports a three-lineage treatment; some older studies use one species or subspecific combinations. Use COL IDs to connect source names to catalogue entries without rewriting the names used in papers."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "pozzi2015"
+          ]
+        },
+        {
+          "topic": "readingPath",
+          "text": {
+            "zh": "先读 Pozzi 等 2015 年论文的分类依据，注意它报告的是有限分子标记关系；随后读 Luhrs 等 2018 年对中非、东非树熊猴的十地点行为比较，区分 51 与 28 只的研究观察数和种群数量；最后读 Okomu 2009 年夜行性灵长类报告，了解西非当地以 P. juju 记录的五次目击及较高树冠观察。Oates 1984 的取食讨论可作为拆分前的历史背景，不作现行种级食谱。",
+            "en": "Begin with Pozzi et al. (2015) for the taxonomic evidence, noting that the paper reports limited molecular-marker relationships. Then read Luhrs et al. (2018) for the ten-site behavioural comparison of central and eastern pottos, keeping the 51 and 28 study observations separate from population size. Finish with the 2009 Okomu nocturnal-primate report, which recorded five local sightings as P. juju and noted high-canopy observations. Oates (1984) offers historical feeding context from before the split, not a current species-level diet."
+          },
+          "sourceIds": [
+            "pozzi2015",
+            "luhrs2018",
+            "bearder2009",
+            "oates1984",
+            "iucn_juju"
+          ]
+        },
+        {
+          "topic": "interpretation",
+          "text": {
+            "zh": "这些来源回答不同问题：分类论文比较谱系，2018 年研究编码两种的行为，Okomu 报告记录短期夜间目击，1984 年文章综合旧名下的区域取食观察。它们的分类框架、时段和取样单位不同，不能拼接成全属分布、生态或种群趋势结论。",
+            "en": "The sources answer different questions: the taxonomic paper compares lineages, the 2018 study codes behaviour in two species, the Okomu report records short-term nocturnal sightings, and the 1984 article synthesizes regional feeding observations under older names. Their taxonomic frames, periods and sampling units differ and cannot be combined into genus-wide distribution, ecology or population trends."
+          },
+          "sourceIds": [
+            "pozzi2015",
+            "luhrs2018",
+            "bearder2009",
+            "oates1984"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 · source 2144 — Perodicticus",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/6LP3",
+          "scope": {
+            "zh": "支持固定接受名、作者、等级与父链；不支持生物学正文。",
+            "en": "Supports the pinned accepted name, authorship, rank and parent link; not biological claims."
+          }
+        },
+        {
+          "id": "pozzi2015",
+          "title": "Pozzi et al. (2015) — Remarkable ancient divergences amongst neglected lorisiform primates",
+          "url": "https://doi.org/10.1111/zoj.12286",
+          "scope": {
+            "zh": "支持论文采用的三种树熊猴分类及有限线粒体标记关系；不替代 COL26.8 固定身份，也不代表全基因组关系。",
+            "en": "Supports the three-species treatment and limited mitochondrial-marker relationships used in the paper; it does not replace pinned COL26.8 identities or establish genome-wide relationships."
+          }
+        },
+        {
+          "id": "luhrs2018",
+          "title": "Luhrs, Svensson & Nekaris (2018) — Comparative ecology and behaviour of eastern and central pottos",
+          "url": "https://doi.org/10.2982/028.107.0104",
+          "scope": {
+            "zh": "支持十个地点的两种树熊猴比较观察及论文报告的观察数；不支持种群数量、全域代表性或长期趋势。",
+            "en": "Supports the comparative observations and observation counts reported for two potto species across ten sites; not population size, range-wide representativeness or long-term trend."
+          }
+        },
+        {
+          "id": "bearder2009",
+          "title": "Bearder & Oates (2009 field survey; report posted 2014) — Nocturnal primates in Okomu National Park and Forest Reserve, Nigeria",
+          "url": "https://doi.org/10.13140/RG.2.1.1087.5600",
+          "scope": {
+            "zh": "支持 Okomu 夜间调查的地点、观察努力和当地 P. juju 记录；不是全属调查。",
+            "en": "Supports the Okomu nocturnal survey effort and local P. juju records; not a genus-wide survey."
+          }
+        },
+        {
+          "id": "oates1984",
+          "title": "Oates (1984) — The niche of the potto, Perodicticus potto",
+          "url": "https://doi.org/10.1007/BF02735147",
+          "scope": {
+            "zh": "支持西非树熊猴拆分前的历史取食讨论；不支持现行种级定量食谱。",
+            "en": "Supports historical pre-split discussion of West African potto feeding; not a quantitative diet for the current species."
+          }
+        },
+        {
+          "id": "iucn_juju",
+          "title": "Svensson et al. (2020) — West African Potto assessment and taxonomic notes",
+          "url": "https://doi.org/10.2305/IUCN.UK.2020-2.RLTS.T91995408A92248699.en",
+          "scope": {
+            "zh": "支持该评估的 juju 亚种处理说明；不导入保育等级。",
+            "en": "Supports the assessment’s taxonomic note on the juju subspecies; conservation category is not imported."
+          }
+        },
+        {
+          "id": "mdd_label",
+          "title": "Mammal Diversity Database v2.5 — Central African Potto (MDD 1001072)",
+          "url": "https://www.mammaldiversity.org/taxon/1001072/",
+          "scope": {
+            "zh": "仅支持英文显示名与页面明示的分类名称记录；条目身份仍按 COL26.8 固定 ID。",
+            "en": "Supports the English display label and taxonomic name record shown on the page; entry identity follows the pinned COL26.8 ID."
+          }
+        },
+        {
+          "id": "mdd_label",
+          "title": "Mammal Diversity Database v2.5 — East African Potto (MDD 1001073)",
+          "url": "https://www.mammaldiversity.org/taxon/1001073/",
+          "scope": {
+            "zh": "仅支持英文显示名与页面明示的分类名称记录；条目身份仍按 COL26.8 固定 ID。",
+            "en": "Supports the English display label and taxonomic name record shown on the page; entry identity follows the pinned COL26.8 ID."
+          }
+        },
+        {
+          "id": "mdd_label",
+          "title": "Mammal Diversity Database v2.5 — West African Potto (MDD 1001074)",
+          "url": "https://www.mammaldiversity.org/taxon/1001074/",
+          "scope": {
+            "zh": "仅支持英文显示名与页面明示的分类名称记录；条目身份仍按 COL26.8 固定 ID。",
+            "en": "Supports the English display label and taxonomic name record shown on the page; entry identity follows the pinned COL26.8 ID."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "这是三篇物种页的短阅读路径，不是属级综述。行为样本数、局地点位、历史取食综合和分类标记的分母各异；P. juju 的等级和 P. potto 作者年份差异均保留来源间差别。不得据此概括全属现时范围、总体生态或保育趋势。中文属名保留拉丁名，尚未经过外部领域专家评审。",
+        "en": "This is a short reading path across three species pages, not a genus review. Behaviour sample counts, local observations, historical feeding synthesis and taxonomic markers have different denominators; the sources’ differing rank treatments of P. juju and authority year for P. potto are retained. They do not establish present-day genus-wide range, ecology or conservation trend. The Chinese genus label retains the Latin name; the guide has not received external expert review."
+      }
     }
   ]
 }
