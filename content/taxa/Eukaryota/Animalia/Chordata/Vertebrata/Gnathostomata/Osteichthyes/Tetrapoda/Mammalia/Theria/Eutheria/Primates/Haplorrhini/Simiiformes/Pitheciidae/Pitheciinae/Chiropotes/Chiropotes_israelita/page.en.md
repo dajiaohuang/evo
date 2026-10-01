@@ -16,7 +16,7 @@ classification
 ## classification
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
-This page follows fixed COL26.8 accepted species ID 5Y6KL for Chiropotes israelita (Spix, 1823). Taxonomic treatments differ: MDD v2.5 treats israelita as a synonym of C. chiropotes, whereas an earlier morphological, karyotypic, and molecular study discussed the Rio Negro form as C. israelita. The page preserves the checklist ID and records this version-specific disagreement without merging source name rows.
+This page follows fixed COL26.8 accepted species ID 5Y6KL for Chiropotes israelita (Spix, 1823). Taxonomic treatments differ: MDD v2.5 treats israelita as a synonym of C. chiropotes, and a 2023 multilocus study likewise treats it as a junior synonym while endorsing five Chiropotes species. That study calls the form west of the Branco River C. chiropotes and the east-bank form C. sagulatus; support for separating these two was weaker in its nuclear-only analyses. The page preserves the checklist ID and reports the competing treatments without merging source name rows.
 <!-- /evo:text -->
 
 ## classification
@@ -29,6 +29,12 @@ taxonomy
 
 <!-- evo:text /records/catalogue-profile/sections/0/sourceIds/1 -->
 mdd_taxonomy
+<!-- /evo:text -->
+
+## classification
+
+<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/2 -->
+carneiro2023
 <!-- /evo:text -->
 
 ## taxonomicEvidence

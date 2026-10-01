@@ -49,8 +49,22 @@ MDD v2.5 lists the English common name Eastern Black-handed Tamarin, records lec
 mdd_name
 <!-- /evo:text -->
 
+## fieldParasiteStudy
+
+<!-- evo:text /records/catalogue-profile/sections/2/topic -->
+fieldParasiteStudy
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/en -->
+A 2026 study of free-ranging tamarins in the eastern Brazilian Amazon detected enteroparasites in 13 of 17 capture events; *Prosthenorchis* was detected in 10. The study reported no clinical abnormalities. This is a parasite observation from one region and two sampling periods: an event-level proportion is not a population-wide infection rate or a population trend. It adds field health evidence, but cannot stand in for range-wide natural-history research.
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/sourceIds/0 -->
+parasite2026
+<!-- /evo:text -->
+
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The available species-level material is mainly taxonomic and specimen-based, without enough species-specific field ecology, abundance, or trend evidence for the ecological first-round standard. This remains a source-linked taxonomic guide and is tracked below that standard. The Tocantins as a barrier to gene flow is the original authors' interpretation, not a mechanism independently tested here. The Chinese name is editorial, and the page has not received external expert review. This page is not externally expert-reviewed.
+Beyond taxonomic and specimen comparisons, the available species-specific field evidence includes a small, regional parasite study; it does not establish the species' overall diet, home range, abundance, or trend. The Tocantins as a barrier to gene flow is the original authors' interpretation, not a mechanism independently tested here. Evidence remains short of the first-round comprehensive ecology standard, so this page remains tracked for further work. The Chinese name is editorial, and the page has not received external expert review.
 <!-- /evo:text -->

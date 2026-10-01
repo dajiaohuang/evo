@@ -51429,6 +51429,16 @@
           "sourceIds": [
             "mdd_name"
           ]
+        },
+        {
+          "topic": "fieldParasiteStudy",
+          "text": {
+            "zh": "一项 2026 年发表的东部亚马孙自由活动个体研究，在 17 次捕获事件中有 13 次检出肠道寄生物，其中 10 次检出棘头虫属（*Prosthenorchis*）；研究未观察到动物临床异常。这是一个地点、两轮采样的寄生虫观察，捕获事件比例不能当作整个种群感染率，也不代表种群趋势。它为该种提供了实地健康生态资料，但仍不能代替跨区域的生活史研究。",
+            "en": "A 2026 study of free-ranging tamarins in the eastern Brazilian Amazon detected enteroparasites in 13 of 17 capture events; *Prosthenorchis* was detected in 10. The study reported no clinical abnormalities. This is a parasite observation from one region and two sampling periods: an event-level proportion is not a population-wide infection rate or a population trend. It adds field health evidence, but cannot stand in for range-wide natural-history research."
+          },
+          "sourceIds": [
+            "parasite2026"
+          ]
         }
       ],
       "sources": [
@@ -51467,11 +51477,20 @@
             "zh": "提供英文普通名、选模与显示的 Not Evaluated 类别等版本化字段；中文名为编辑译名。",
             "en": "Provides version-specific fields including the English common name, lectotype, and displayed Not Evaluated category; the Chinese name is an editorial translation."
           }
+        },
+        {
+          "id": "parasite2026",
+          "title": "Gastrointestinal Parasites in Free-Ranging Saguinus ursulus From the Eastern Brazilian Amazon: First Report of Prosthenorchis sp.",
+          "url": "https://doi.org/10.1111/jmp.70098",
+          "scope": {
+            "zh": "2026 年东部巴西亚马孙自由活动狨猴的两轮肠道寄生虫采样；17 次捕获事件中 13 次检出寄生物、10 次检出 Prosthenorchis sp.，未报告临床异常。事件比例不代表种群趋势或全分布区感染率。",
+            "en": "Two enteroparasite sampling periods in free-ranging tamarins from the eastern Brazilian Amazon in 2026; parasites were detected in 13 of 17 capture events and Prosthenorchis sp. in 10, with no clinical abnormalities reported. Event proportions do not establish a population trend or range-wide infection rate."
+          }
         }
       ],
       "limitations": {
-        "zh": "可用的种级材料主要是分类与标本比较，缺少足以形成首轮生态阅读页的物种特异野外研究、丰度或趋势资料。因此本页保持为有来源的分类导读，并列入首轮标准以下待补项。托坎廷斯河作为基因交流屏障是原作者的解释，不是本页独立验证的机制。中文名为编辑译名；页面未经过外部领域专家评审。",
-        "en": "The available species-level material is mainly taxonomic and specimen-based, without enough species-specific field ecology, abundance, or trend evidence for the ecological first-round standard. This remains a source-linked taxonomic guide and is tracked below that standard. The Tocantins as a barrier to gene flow is the original authors' interpretation, not a mechanism independently tested here. The Chinese name is editorial, and the page has not received external expert review. This page is not externally expert-reviewed."
+        "zh": "除分类和标本比较外，现有物种特异野外资料包括一项小样本、区域性的寄生虫观察；它不提供该种总体饮食、活动范围或种群趋势。托坎廷斯河作为基因交流屏障是原作者的解释，不是本页独立验证的机制。资料仍不足以构成首轮综合生态介绍，本页继续列为待补。中文名为编辑译名；页面未经过外部领域专家评审。",
+        "en": "Beyond taxonomic and specimen comparisons, the available species-specific field evidence includes a small, regional parasite study; it does not establish the species' overall diet, home range, abundance, or trend. The Tocantins as a barrier to gene flow is the original authors' interpretation, not a mechanism independently tested here. Evidence remains short of the first-round comprehensive ecology standard, so this page remains tracked for further work. The Chinese name is editorial, and the page has not received external expert review."
       }
     },
     {
@@ -51489,12 +51508,13 @@
         {
           "topic": "classification",
           "text": {
-            "zh": "此页按固定 COL26.8 接受种 ID 5Y6KL 记录 Chiropotes israelita（Spix, 1823）。分类意见并不一致：MDD v2.5 将 israelita 作为 C. chiropotes 的异名处理；较早的形态、核型和分子研究则把里奥内格罗河形态作为 C. israelita 讨论。保留清单 ID 与这项版本差异，不把不同来源的名称行合并。",
-            "en": "This page follows fixed COL26.8 accepted species ID 5Y6KL for Chiropotes israelita (Spix, 1823). Taxonomic treatments differ: MDD v2.5 treats israelita as a synonym of C. chiropotes, whereas an earlier morphological, karyotypic, and molecular study discussed the Rio Negro form as C. israelita. The page preserves the checklist ID and records this version-specific disagreement without merging source name rows."
+            "zh": "此页按固定 COL26.8 接受种 ID 5Y6KL 记录 Chiropotes israelita（Spix, 1823）。分类意见并不一致：MDD v2.5 将 israelita 作为 C. chiropotes 的异名；2023 年多位点研究也将其视为较晚异名，并认可五个 Chiropotes 种。该研究把布朗库河西岸形式称为 C. chiropotes、东岸形式称为 C. sagulatus；仅用核标记时，两者的分界支持较弱。保留固定清单 ID 与来源间差异，不将不同名称行合并。",
+            "en": "This page follows fixed COL26.8 accepted species ID 5Y6KL for Chiropotes israelita (Spix, 1823). Taxonomic treatments differ: MDD v2.5 treats israelita as a synonym of C. chiropotes, and a 2023 multilocus study likewise treats it as a junior synonym while endorsing five Chiropotes species. That study calls the form west of the Branco River C. chiropotes and the east-bank form C. sagulatus; support for separating these two was weaker in its nuclear-only analyses. The page preserves the checklist ID and reports the competing treatments without merging source name rows."
           },
           "sourceIds": [
             "taxonomy",
-            "mdd_taxonomy"
+            "mdd_taxonomy",
+            "carneiro2023"
           ]
         },
         {
@@ -51565,6 +51585,15 @@
           "scope": {
             "zh": "以历史出现记录和环境变量构建最大熵分布模型；是预测，不是逐点野外确认或种群评估。",
             "en": "Uses historical occurrence records and environmental variables in a maximum-entropy distribution model; it is predictive, not point-level field confirmation or a population assessment."
+          }
+        },
+        {
+          "id": "carneiro2023",
+          "title": "Molecular Evidence Supports Five Lineages within Chiropotes (Pitheciidae, Platyrrhini)",
+          "url": "https://doi.org/10.3390/genes14071309",
+          "scope": {
+            "zh": "对属内系统分类作多位点与物种界定分析，支持五个现存种；认为 C. israelita 是较晚异名，并建议布朗库河西、东岸种群分别使用 C. chiropotes 与 C. sagulatus。核标记的单独分析对两者的区分支持较弱。",
+            "en": "Multilocus and species-delimitation analysis of the genus supporting five living species; treats C. israelita as a junior synonym and assigns west- and east-bank populations of the Branco River to C. chiropotes and C. sagulatus, respectively. Nuclear-only analyses gave weaker support for separating the latter pair."
           }
         }
       ],

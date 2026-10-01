@@ -19,8 +19,22 @@ COL26.8 将 Saguinus ursula（4TZC8）列为接受种。Gregorin 与 de Vivo（2
 MDD v2.5 将英文普通名列为 Eastern Black-handed Tamarin，记录的选模标本为 ZMB 288、采自巴西贝伦附近，并显示 Not Evaluated。MDD 字段提供版本化名称与类型背景；它不补充现代种群调查或该种的野外生活史。
 <!-- /evo:text -->
 
+## fieldParasiteStudy
+
+<!-- evo:text /records/catalogue-profile/sections/2/topic -->
+fieldParasiteStudy
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+一项 2026 年发表的东部亚马孙自由活动个体研究，在 17 次捕获事件中有 13 次检出肠道寄生物，其中 10 次检出棘头虫属（*Prosthenorchis*）；研究未观察到动物临床异常。这是一个地点、两轮采样的寄生虫观察，捕获事件比例不能当作整个种群感染率，也不代表种群趋势。它为该种提供了实地健康生态资料，但仍不能代替跨区域的生活史研究。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/sourceIds/0 -->
+parasite2026
+<!-- /evo:text -->
+
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-可用的种级材料主要是分类与标本比较，缺少足以形成首轮生态阅读页的物种特异野外研究、丰度或趋势资料。因此本页保持为有来源的分类导读，并列入首轮标准以下待补项。托坎廷斯河作为基因交流屏障是原作者的解释，不是本页独立验证的机制。中文名为编辑译名；页面未经过外部领域专家评审。
+除分类和标本比较外，现有物种特异野外资料包括一项小样本、区域性的寄生虫观察；它不提供该种总体饮食、活动范围或种群趋势。托坎廷斯河作为基因交流屏障是原作者的解释，不是本页独立验证的机制。资料仍不足以构成首轮综合生态介绍，本页继续列为待补。中文名为编辑译名；页面未经过外部领域专家评审。
 <!-- /evo:text -->

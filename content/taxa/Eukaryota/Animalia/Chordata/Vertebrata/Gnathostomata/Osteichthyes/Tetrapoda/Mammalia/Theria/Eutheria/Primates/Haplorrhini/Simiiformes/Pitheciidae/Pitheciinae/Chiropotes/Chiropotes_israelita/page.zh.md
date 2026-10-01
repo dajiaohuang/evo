@@ -10,7 +10,7 @@ status: migrated-verbatim
 ## classification
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
-此页按固定 COL26.8 接受种 ID 5Y6KL 记录 Chiropotes israelita（Spix, 1823）。分类意见并不一致：MDD v2.5 将 israelita 作为 C. chiropotes 的异名处理；较早的形态、核型和分子研究则把里奥内格罗河形态作为 C. israelita 讨论。保留清单 ID 与这项版本差异，不把不同来源的名称行合并。
+此页按固定 COL26.8 接受种 ID 5Y6KL 记录 Chiropotes israelita（Spix, 1823）。分类意见并不一致：MDD v2.5 将 israelita 作为 C. chiropotes 的异名；2023 年多位点研究也将其视为较晚异名，并认可五个 Chiropotes 种。该研究把布朗库河西岸形式称为 C. chiropotes、东岸形式称为 C. sagulatus；仅用核标记时，两者的分界支持较弱。保留固定清单 ID 与来源间差异，不将不同名称行合并。
 <!-- /evo:text -->
 
 ## taxonomicEvidence

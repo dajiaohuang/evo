@@ -27,6 +27,8 @@ records:
             field: /records/catalogue-profile/sections/0/sourceIds/0
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/0/sourceIds/1
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/2
       - topic:
           markdown: page.en.md
           field: /records/catalogue-profile/sections/1/topic
@@ -119,6 +121,22 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-34125bdd-d7b1-481e-a8ed-e937571f77c0
+          metadataVariant: 0
+          sourceKey: carneiro2023
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
     limitations:
       zh:
         markdown: page.zh.md
@@ -176,4 +194,16 @@ Comparative analysis of 25 specimens from multiple Brazilian Amazon localities; 
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en -->
 Uses historical occurrence records and environmental variables in a maximum-entropy distribution model; it is predictive, not point-level field confirmation or a population assessment.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh -->
+对属内系统分类作多位点与物种界定分析，支持五个现存种；认为 C. israelita 是较晚异名，并建议布朗库河西、东岸种群分别使用 C. chiropotes 与 C. sagulatus。核标记的单独分析对两者的区分支持较弱。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en -->
+Multilocus and species-delimitation analysis of the genus supporting five living species; treats C. israelita as a junior synonym and assigns west- and east-bank populations of the Branco River to C. chiropotes and C. sagulatus, respectively. Nuclear-only analyses gave weaker support for separating the latter pair.
 <!-- /evo:text -->

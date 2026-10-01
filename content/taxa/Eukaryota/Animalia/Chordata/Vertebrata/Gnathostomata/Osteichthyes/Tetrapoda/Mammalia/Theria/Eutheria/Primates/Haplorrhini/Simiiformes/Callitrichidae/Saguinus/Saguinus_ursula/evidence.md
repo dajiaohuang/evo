@@ -40,6 +40,19 @@ records:
         sourceIds:
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/1/sourceIds/0
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/2/topic
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/sourceIds/0
     sources:
       referenceBindings:
         - referenceId: ref-96ff0cbf-6f4d-86cc-a344-00d00820c0f3
@@ -90,6 +103,22 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-82fab049-b19b-4ef5-8e5a-cef6442bcaa5
+          metadataVariant: 0
+          sourceKey: parasite2026
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/3/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
     limitations:
       zh:
         markdown: page.zh.md
@@ -135,4 +164,16 @@ Taxonomic comparison within the black-handed tamarin complex; supports sampled m
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/2/usage/scope/en -->
 Provides version-specific fields including the English common name, lectotype, and displayed Not Evaluated category; the Chinese name is an editorial translation.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/zh -->
+2026 年东部巴西亚马孙自由活动狨猴的两轮肠道寄生虫采样；17 次捕获事件中 13 次检出寄生物、10 次检出 Prosthenorchis sp.，未报告临床异常。事件比例不代表种群趋势或全分布区感染率。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en -->
+Two enteroparasite sampling periods in free-ranging tamarins from the eastern Brazilian Amazon in 2026; parasites were detected in 13 of 17 capture events and Prosthenorchis sp. in 10, with no clinical abnormalities reported. Event proportions do not establish a population trend or range-wide infection rate.
 <!-- /evo:text -->
