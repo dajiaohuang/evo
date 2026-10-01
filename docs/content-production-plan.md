@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-102 继续从剩余 13 个无种级页面的 COL26.8 接受种中，按现有野外材料与读者问题打包下一批双语种页和属级阅读路径。灵长类现有 517/530 个种级页面记录（54 个 dossier-backed、463 个 profile-only）；13 个仍无种级页面，476 个仍未命中 dossier 索引。498 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-103 从剩余 11 个无种级页面的 COL26.8 接受种中，按现有野外材料与读者问题打包下一批双语种页和属级阅读路径。灵长类现有 519/530 个种级页面记录（54 个 dossier-backed、465 个 profile-only）；11 个仍无种级页面，476 个仍未命中 dossier 索引。500 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1723,4 +1723,16 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 本批后固定灵长类种级页面为 517/530（54 个 dossier-backed、463 个 profile-only），13 个接受种仍无页面；498 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个仍未命中 dossier 索引。属级导读不计入 530 个种级分母。
 
 按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
+## P3-102 — Arctocebus
+
+- 为 COL26.8 接受种 *Arctocebus aureus*（5W3R4）与 *A. calabarensis*（5W42S）新增 profile-only 双语页，并为接受属 *Arctocebus*（32BW）新增属级阅读路径。MDD v2.5 分别使用 Golden Angwantibo 与 Calabar Angwantibo；中文名为编辑用名。
+- *A. aureus* 页连接 Charles-Dominique（1977）的加蓬夜行灵长类野外专著与 Hladik（1979）对马科库历史食性数据的整理；旧文献采用过 A. calabarensis aureus 组合名。食性比例只作为早期、局地且来源于胃内容物和野外观察的材料呈现，不外推到全分布区。
+- *A. calabarensis* 页连接 Jewell 与 Oates（1969）的尼日利亚东南部低地森林早期研究，以及 Omifolaji 等（2024）在 Cross River 国家公园 Oban Hills 区域所作的夜间距离抽样。后者记录 32 条样线、41 次目击，并描述树木和藤本的局地使用高度约 2–4 米；论文另报 pooled 与 global 两组不同的估值，本页仅写调查目击和局地栖息环境，不将其转写为全物种丰度。
+- 属级路径仅连接这两个接受种及所列研究；不代表完整属级名录或属级生态综合。本批未新增 dossier 或外部领域专家评审。
+- 来源：[Charles-Dominique（1977），加蓬夜行灵长类野外专著](https://cup.columbia.edu/book/ecology-and-behavior-of-nocturnal-primates/9780231043625/)；[Hladik（1979），狐猴型灵长类食性与生态](https://citeseerx.ist.psu.edu/document?doi=cf77bdb9d42365234fd5851b74dc86b2ee0683df&repid=rep1&type=pdf)；[Jewell 与 Oates（1969），非洲低地森林懒猴型灵长类生态观察](https://doi.org/10.1080/00445096.1969.11447373)；[Omifolaji 等（2024），Oban Hills 熊猴调查](https://doi.org/10.3390/ani14091374)；[MDD v2.5：Golden Angwantibo](https://www.mammaldiversity.org/taxon/1001070/)；[MDD v2.5：Calabar Angwantibo](https://www.mammaldiversity.org/taxon/1001071/)；[COL26.8：Arctocebus aureus](https://api.checklistbank.org/dataset/316115/taxon/5W3R4)；[COL26.8：Arctocebus calabarensis](https://api.checklistbank.org/dataset/316115/taxon/5W42S)；[COL26.8：Arctocebus](https://api.checklistbank.org/dataset/316115/taxon/32BW)。
+- 本批后固定灵长类种级页面为 519/530（54 个 dossier-backed、465 个 profile-only），11 个接受种仍无页面；500 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个仍未命中 dossier 索引。属级导读不计入 530 个种级分母。
+
+按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
 
