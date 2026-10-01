@@ -38398,13 +38398,14 @@
         {
           "topic": "taxonomy_and_evidence",
           "text": {
-            "zh": "本种的名称史与肯尼亚沿岸矮伽拉戈的名称史曾交叠。Butynski 等（2006）指出，许多早期以 *Galago zanzibaricus* 发表的 Diani、Gedi 行为和分布研究，实际对应的是现称 *P. cocos* 的北方沿岸类群；本页不把那些资料改贴到坦桑尼亚海岸种名下。",
-            "en": "The name history of this species has overlapped with that of the Kenya coastal galago. Butynski et al. (2006) noted that many early behavior and distribution studies published as *Galago zanzibaricus* at Diani and Gedi actually concerned the northern coastal form now called *P. cocos*. This page does not transfer those data to the Tanzania Coast species."
+            "zh": "本种的名称史与肯尼亚沿岸矮伽拉戈的名称史曾交叠。Butynski 等（2006）指出，许多早期以 *Galago zanzibaricus* 发表的 Diani、Gedi 行为和分布研究，实际对应的是现称 *P. cocos* 的北方沿岸类群；本页不把那些资料改贴到坦桑尼亚海岸种名下。相较之下，Kiwia（2006）在坦桑尼亚 Bagamoyo 的 Zaraninge 森林以旧组合 *Galagoides zanzibaricus* 记录本种；本页将其作为当地种级证据，不指定亚种。",
+            "en": "The name history of this species has overlapped with that of the Kenya coastal galago. Butynski et al. (2006) noted that many early behavior and distribution studies published as *Galago zanzibaricus* at Diani and Gedi actually concerned the northern coastal form now called *P. cocos*. This page does not transfer those data to the Tanzania Coast species. By contrast, Kiwia (2006) recorded the older combination *Galagoides zanzibaricus* at Zaraninge Forest in Bagamoyo, Tanzania; this page uses it as local species-level evidence without assigning a subspecies."
           },
           "sourceIds": [
             "taxonomy",
             "mdd_name",
-            "butynski2006"
+            "butynski2006",
+            "zaraninge2006"
           ]
         },
         {
@@ -38418,14 +38419,25 @@
           ]
         },
         {
+          "topic": "field ecology",
+          "text": {
+            "zh": "Kiwia（2006）在坦桑尼亚巴加莫约区的 Zaraninge 干燥常绿海岸林开展夜间样线调查。研究进行了 58 次眼镜猴计数、覆盖 223.8 公里；表中为“桑给巴尔伽拉戈”（*Galagoides zanzibaricus*）列出 73 次记录、88 只个体，并报告当地密度为 12.9 ± 10.5 只/平方公里。该估值来自一个林地样区，标准误较大。",
+            "en": "Kiwia (2006) conducted nocturnal transect surveys in Zaraninge’s dry evergreen coastal forest in Bagamoyo District, Tanzania. The study reports 58 galago counts over 223.8 km; its table lists 73 records and 88 individuals for Zanzibar galago (*Galagoides zanzibaricus*) and gives a local density estimate of 12.9 ± 10.5 individuals/km². This is a single-forest estimate with a large standard error."
+          },
+          "sourceIds": [
+            "zaraninge2006"
+          ]
+        },
+        {
           "topic": "evidence_limit",
           "text": {
-            "zh": "目前能安全整理的材料集中在分类辨识和旧名对照；旧沿岸研究不能直接作为本种野外生态样本。本页因此保持短篇，不填入未能按固定分类身份核对的种群、栖地或保育数字。",
-            "en": "The material that can be safely summarized here concerns taxonomic identification and historical name mapping. Older coastal studies cannot be treated directly as field samples of this species. The page remains brief and does not fill in population, habitat or conservation figures that cannot be checked against the pinned taxonomic identity."
+            "zh": "Zaraninge 是一处历史样区，不能据此推断当前全分布区丰度、种群趋势、完整栖地偏好或食性。Kiwia 使用旧组合名 *G. zanzibaricus*，但未指定亚种；肯尼亚 Diani、Gedi 的旧名资料仍按 *P. cocos* 处理，不并入本种。",
+            "en": "Zaraninge is one historical study site; its estimate does not establish current range-wide abundance, a population trend, complete habitat preferences or diet. Kiwia used the older combination *G. zanzibaricus* without specifying a subspecies. Older Diani and Gedi records from Kenya remain assigned to *P. cocos* and are not combined here."
           },
           "sourceIds": [
             "butynski2006",
-            "pozzi2020"
+            "pozzi2020",
+            "zaraninge2006"
           ]
         }
       ],
@@ -38465,11 +38477,20 @@
             "zh": "支持三个谱系的分子与界定分析结果；不提供本种完整分布或自然史。",
             "en": "Supports the molecular and delimitation results for three lineages; it does not provide a complete range or natural history of this species."
           }
+        },
+        {
+          "id": "zaraninge2006",
+          "title": "Kiwia (2006) — Species richness and abundance of large mammals in Zaraninge Forest, Coast Region, Tanzania",
+          "url": "https://doi.org/10.65085/2507-7961.1955",
+          "scope": {
+            "zh": "原始样线研究；支持坦桑尼亚 Zaraninge 林地的调查范围、旧组合名 *Galagoides zanzibaricus*、观测记录及局地密度估值；不支持全分布区数量或趋势。",
+            "en": "Primary transect study; supports survey effort, the older combination *Galagoides zanzibaricus*, observations and a local density estimate at Zaraninge Forest, Tanzania; it does not establish range-wide abundance or trend."
+          }
         }
       ],
       "limitations": {
-        "zh": "目前可核对的材料以名称辨识和系统分类为主；没有把历史上误用旧名的沿岸研究当成本种生态资料，故不计首轮综合内容标准。来源链接的双语初稿，尚未经过外部领域专家评审。",
-        "en": "The material that can be verified here is mainly nomenclatural and taxonomic. Older coastal studies using the wrong historical name are not treated as ecological evidence for this species, so this page does not meet the first-round content standard. Source-linked bilingual draft; not externally expert-reviewed."
+        "zh": "正文现包含一项坦桑尼亚海岸林的历史样线估值，但仍是单地点研究，不构成全分布区自然史、数量变化或当前趋势。本页尚未经过外部领域专家评审。",
+        "en": "The page now includes a historical line-transect estimate from one Tanzanian coastal forest. It remains a single-site account, not a range-wide natural history, abundance change or current trend. This page has not received external expert review."
       }
     },
     {

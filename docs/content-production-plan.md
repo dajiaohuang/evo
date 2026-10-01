@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-109 继续处理 22 个已建页但仍低于首轮来源限定标准或存在分类/归属待补项的 COL26.8 接受种，优先复查 *Trachypithecus melamera* 的地点归属、*Cheracebus aquinoi* 的野外调查归属及两种 *Paragalago* 的可用野外材料；资料不足的项目明确保留缺口。灵长类固定分母已有 530/530 个种级页面（54 个 dossier-backed、476 个 profile-only），无种级页 0 个；508 个达到首轮标准，22 个仍低于该标准，476 个仍未命中 dossier 索引。完成首轮缺口处置后再建立主龙类固定分母与覆盖计划。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-110 继续处理 21 个已建页但仍低于首轮来源限定标准或存在分类/归属待补项的 COL26.8 接受种，优先复查 *Trachypithecus melamerus* 与 *T. melamera* 的名称对应、*Cheracebus aquinoi* 的野外调查归属及 *P. orinus* 的 Uluguru 野外材料；资料不足的项目明确保留缺口。灵长类固定分母已有 530/530 个种级页面（54 个 dossier-backed、476 个 profile-only），无种级页 0 个；509 个达到首轮标准，21 个仍低于该标准，476 个仍未命中 dossier 索引。完成首轮缺口处置后再建立主龙类固定分母与覆盖计划。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1245,7 +1245,7 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 | 4CVG2 *P. granti* | 南非 Tembe 与 Tshanini 24 个调查夜的睡眠点、树洞和觅食观察 | 两处南部分布边缘局地样本，不代表全分布区或种群趋势 | P3-69 |
 | 4CVG3 *P. orinus* | Mufindi 四处地点、76.5 小时夜间步行及 64 个叫声记录 | 该报告把记录暂定为 *G. cf. orinus*；Uluguru、Udzungwa 与 Taita 记录的身份不能自动合并 | P3-69 |
 | 4CVG4 *P. rondoensis* | Pande 2003 年粗略密度外推；Rondo 2012—2013 年六点调查的一笔夜间叫声 | 数量不是直接普查；旧调查与单点叫声均不表示当前全种状态或完整分布 | P3-69 |
-| 4CVG5 *P. zanzibaricus* | 2006 年旧名归属回顾及 2020 年复合群粒线体、核基因和物种界定分析 | 肯尼亚旧名研究不可直接作为本种生态资料；暂缺按固定身份核对的野外自然史，不计首轮标准 | P3-69 |
+| 4CVG5 *P. zanzibaricus* | P3-69 初稿以分类与名称史为主；P3-109 增加坦桑尼亚 Zaraninge 样线调查 | Kiwia（2006）沿用 *Galagoides zanzibaricus*；保留坦桑尼亚局地估值，不指定亚种；肯尼亚旧名研究仍归入 *P. cocos* | P3-69 → P3-109 |
 
 本批新增五个双语 profile-only 种级页面，并为真实 COL 属级 ID 63JQJ 新增属级介绍和阅读路径。*P. cocos*、*P. granti* 与 *P. rondoensis* 有地点、方法和时间范围清楚的局地研究，达到首轮综合内容标准；*P. orinus* 的关键野外识别仍带 cf. 限定，*P. zanzibaricus* 的可核对材料以分类和名称史为主，二者不计入标准。批次后灵长类种级页面为 434/530（54 个 dossier-backed、380 个 profile-only），96 个固定接受种仍无种级页；419 个达到首轮综合内容标准，15 个尚未达到；476 个仍未命中 dossier 索引。属级路径先比较肯尼亚 *P. cocos* 与南非 *P. granti* 的局地研究，再读隆多森林的历史调查，最后比较山地记录鉴定限制和坦桑尼亚海岸种的分类边界。普通名参照 MDD v2.5；中文为编辑译名。尚未新增 dossier 或外部领域专家评审。
 
@@ -1530,6 +1530,16 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 来源：[Nascimento 等（2011），L. caissara 种群密度样线调查](https://doi.org/10.1896/044.018.0103)；[Nascimento 与 Schmidlin（2011），L. caissara 生境选择与承载力模型](https://doi.org/10.1017/S0030605310000943)；[Keuroghlian 与 Passos（2001），L. chrysopygus 猎物取食与季节性](https://doi.org/10.1590/S1519-69842001000300015)；[Felippi 等（2026），黑狮面狨树上相机研究](https://doi.org/10.1007/s10764-026-00552-3)；[MDD v2.5：L. caissara](https://www.mammaldiversity.org/taxon/1000787/)；[MDD v2.5：L. chrysopygus](https://www.mammaldiversity.org/taxon/1000789/)。
 
 本批后固定灵长类种级页面为 490/530（54 个 dossier-backed、436 个 profile-only），40 个接受种仍无种级页面；471 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。属级导读不计入 530 个种级分母。
+
+按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
+
+## P3-109 — Paragalago zanzibaricus 的坦桑尼亚样线记录（2026-10-01）
+
+- 修订 COL26.8 固定页面 4CVG5，增加坦桑尼亚 Zaraninge 森林的来源限定野外内容。Kiwia（2006）在 Bagamoyo 区的干燥常绿海岸林开展夜间样线调查；58 次眼镜猴计数覆盖 223.8 公里。论文表格将 Zanzibar galago 记录为 73 次、88 只，报告局地密度 12.9 ± 10.5 只/平方公里。
+- Kiwia 使用旧组合 *Galagoides zanzibaricus*，地点在坦桑尼亚；本页不指定亚种。Butynski 等（2006）指出，肯尼亚 Diani 与 Gedi 的多项旧名资料实际对应 *P. cocos*，本页继续排除这些记录。Zaraninge 单地点估值保留其大标准误和历史性质，不解释为当前全分布区数量或种群趋势。
+- 本批把 4CVG5 从分类与名称史页扩展为局地野外导读，达到首轮来源限定标准；不新增 dossier、属级页面或外部领域评审。灵长类页面总数维持 530/530（54 个 dossier-backed、476 个 profile-only），无页面种数为 0；达到首轮标准的页面增至 509，仍低于该标准或有分类/归属待补项的页面为 21，476 个仍未命中 dossier 索引。
+- 来源：[Kiwia（2006），Zaraninge 森林大型哺乳动物多样性与丰度](https://doi.org/10.65085/2507-7961.1955)；[Butynski 等（2006），东非三种矮伽拉戈分类与分布](https://doi.org/10.1896/0898-6207.21.1.63)；[Pozzi 等（2020），*P. zanzibaricus* 复合群物种界定](https://doi.org/10.1016/j.ympev.2020.106887)；[MDD v2.5：Tanzania Coast Dwarf Galago](https://www.mammaldiversity.org/taxon/1001055/)；[COL26.8：Paragalago zanzibaricus](https://api.checklistbank.org/dataset/316115/taxon/4CVG5)。
 
 按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
