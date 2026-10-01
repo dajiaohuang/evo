@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-81 从剩余 53 个无种级页面的 COL26.8 接受种中盘点来源较充分的候选，继续扩展双语物种页和属级阅读路径。灵长类现有 477/530 个种级页面记录（54 个 dossier-backed、423 个 profile-only）；53 个仍无种级页面，476 个仍未命中 dossier 索引。458 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项；本批两条分类争议页保留为来源链接页面但不计入首轮达标数。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-82 从剩余 50 个无种级页面的 COL26.8 接受种中盘点来源较充分的候选，继续扩展双语物种页和属级阅读路径。灵长类现有 480/530 个种级页面记录（54 个 dossier-backed、426 个 profile-only）；50 个仍无种级页面，476 个仍未命中 dossier 索引。461 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项；P3-80 的两条分类争议页保留为来源链接页面但不计入首轮达标数。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1442,5 +1442,23 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 来源：[Carrillo-Bilbao、Di Fiore 与 Fernández-Duque（2005），Yasuní 单群体研究](https://doi.org/10.1896/1413-4705.13.2.7)；[Papworth，Yasuní 2010 年绢毛猴距离抽样资料](https://doi.org/10.17637/rh.14179124)；[van Roosmalen 等（2002），Callicebus stephennashi 原始描述](https://doi.org/10.62015/np.2002.v10.503)；[Vermeer 等（2025），西北部绢毛猴分类与分布修订](https://www.primate-sg.org/storage/pdf/PC39_Vermeer_et_al_Distribution_taxonomy_NW_titis.pdf)；[MDD v2.4 分类变更记录](https://www.mammaldiversity.org/releases/diff-changes/2.4/)；[Byrne 等（2016），绢毛猴分子分类研究](https://doi.org/10.1186/s12983-016-0142-4)；[Quintero-Tapia 与 Carretero-Pinzón（2024），华丽绢毛猴两群体行为和食性研究](https://www.primate-sg.org/storage/pdf/PC38_Quintero-Tapia_Carretero-Pinzon_diet_ornate_titi.pdf)。
 
 本批后固定灵长类种级页面为 477/530（54 个 dossier-backed、423 个 profile-only），53 个接受种仍无种级页面；458 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。属级介绍不计入 530 个种级分母。
+
+按照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；仅按顺序生成读者投影、注册表和数据清单。
+
+## P3-81 三种 Allochrocebus 猴物种研究导读与属级阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 | 批次 |
+|---|---|---|---|
+| BVHG Allochrocebus lhoesti | 乌干达 Kalinzu 森林的无脊椎动物取食时间观察；三种 lhoesti 组代表样本的性染色体标记比较 | 取食结果限一处森林；标记结果限论文样本与位点，不代替完整食谱、全基因组关系或现行分类 | P3-81 |
+| BVHH A. preussi | 喀麦隆 Ebo 森林周边 17 村、262 户的生态知识访谈；受访者识别、利用和变化感知 | 访谈地点经过目的性选择；报告的趋势感知不是野外密度或趋势估计，利用关联不表示因果 | P3-81 |
+| BVHJ A. solatus | 加蓬 1985—1989 年分布调查与 1999 年后记录汇编 | 两篇论文记录的是不同年份的已知范围，不构成当前统一设计的全域占域调查 | P3-81 |
+
+本批新增三条双语 source-linked profile-only 物种研究导读，并为 COL26.8 属级 ID S7Y 新增介绍和阅读顺序。固定种级 ID、作者和父链取自 COL26.8；MDD v2.5 精确 ID 联接仅提供三个英文普通名，中文普通名为编辑译名，属级中文显示保留拉丁属名。野外研究使用 Cercopithecus 或 Chlorocebus 等旧组合时，正文保留来源用名，不据组合差异改写固定目录身份。本批未新增 dossier，也未经过外部领域专家评审。
+
+属级阅读先从 Tosi 的有限性染色体标记比较开始，再读 lhoesti 在 Kalinzu 的地方取食记录；接着读 preussi 在 Ebo 的社区访谈，注意它回答的是居民知识和判断；最后比较 solatus 的早期调查与后续观察汇编，追踪已知范围记录怎样扩展。标记序列、取食时间预算、访谈回答和范围记录的样本单位不同，不合并成全属生态或趋势结论。
+
+来源：[Tashiro（2006），Kalinzu 森林两种长尾猴的无脊椎动物取食](https://doi.org/10.1007/s10329-005-0160-x)；[Nkengbeza 等（2024），Ebo 森林普鲁斯猴的地方生态知识研究](https://doi.org/10.15451/ec2024-03-13.11-1-19)；[Tosi（2008），lhoesti 物种组系统地理研究](https://doi.org/10.1111/j.1096-3642.2008.00419.x)；[Gautier 等（1992），加蓬日尾猴分布调查](https://www.persee.fr/doc/revec_0249-7395_1992_num_47_4_2069)；[Coad 等（2010），日尾猴在加蓬中部的新范围记录](https://doi.org/10.1896/052.025.0108)；[MDD v2.5：L'Hoest's Monkey](https://www.mammaldiversity.org/taxon/1000560/)；[MDD v2.5：Preuss's Monkey](https://www.mammaldiversity.org/taxon/1000561/)；[MDD v2.5：Sun-tailed Monkey](https://www.mammaldiversity.org/taxon/1000562/)。
+
+本批后固定灵长类种级页面为 480/530（54 个 dossier-backed、426 个 profile-only），50 个接受种仍无种级页面；461 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。属级介绍不计入 530 个种级分母。
 
 按照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；仅按顺序生成读者投影、注册表和数据清单。
