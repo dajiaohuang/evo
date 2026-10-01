@@ -1892,3 +1892,17 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 
+
+
+### P4-9 Pygoscelis：帽带企鹅全球繁殖评估与巴布亚企鹅冬季食性
+
+为 COL26.8 接受种 *Pygoscelis papua*（78R2P）、*P. antarcticus*（4QPKS）新增双语物种页，并为接受属 Pygoscelis（75VG）新增阅读路径。巴布亚企鹅页只转述 South Georgia 的 Bird Island 在 2009 年异常偏暖冬季的一个繁殖地观察：55 只个体取得胃含物，43 份可分析样本呈现两性食物组成差异；不外推为典型食谱，也不解释同次调查发现的尸体死因。帽带企鹅页依据 2020 年综合 398 个地点、估计 375 个现存繁殖群共 342 万对的评估；约 35% 的繁殖群无法和历史计数比较，统计年份与精度不一，故不表述为同步普查或 2026 年现况。该论文使用 P. antarctica，而 COL26.8 接受名为 P. antarcticus；页面分别保留来源用名和固定名录身份。属级阅读路径列出三种 COL 接受种，但本批只链接帽带企鹅和巴布亚企鹅的研究页；阿德利企鹅尚无种级 reader profile，不计为已完成页面。中文显示名为编辑用名；两页及属级页均未经过外部领域专家评审。
+
+| COL26.8 ID | 物种 | 页面证据 | 范围与限制 | 批次 |
+| --- | --- | --- | --- | --- |
+| 78R2P | *Pygoscelis papua* | Bird Island 2009 年冬季食性、稳定同位素与两性差异 | 单一地点、异常年份；不能代表典型食谱或证明死亡原因 | P4-9 |
+| 4QPKS | *Pygoscelis antarcticus* | 398 个繁殖地点的文献、地面、无人机和卫星汇编 | 375 现存地点估值；35% 趋势不可比较，估算年份和精度不一；源文写作 *P. antarctica* | P4-9 |
+
+来源：[Xavier 等（2017），巴布亚企鹅异常冬季食性](https://doi.org/10.1371/journal.pone.0174850)；[Strycker 等（2020），帽带企鹅全球繁殖种群评估](https://doi.org/10.1038/s41598-020-76479-3)；[COL26.8 巴布亚企鹅 78R2P](https://api.checklistbank.org/dataset/316115/taxon/78R2P)；[COL26.8 帽带企鹅 4QPKS](https://api.checklistbank.org/dataset/316115/taxon/4QPKS)；[COL26.8 Pygoscelis 属 75VG](https://api.checklistbank.org/dataset/316115/taxon/75VG)。
+
+本批后按 `data/knowledge/catalogue-profiles.json` 中挂接到 `content/taxa/` 的 COL26.8 物种 profile 计数为 Aves 11/11,044，现生鳄目 27/27，合计 38/11,071；鸟类仍有 11,033 个接受种未进入种级 profile。仅有分类目录或 dossier、没有种级 reader profile 的项目不计入页面数；化石工作分母仍按 2026-09-30 PBDB `pres=regular` 查询冻结为 4,664，种群、属级阅读路径和 shared topics 分开计数。
