@@ -55,6 +55,19 @@ records:
         sourceIds:
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/2/sourceIds/0
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/3/topic
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/sourceIds/0
     sources:
       referenceBindings:
         - referenceId: ref-69495568-b884-8dc4-a0ac-134357e10818
@@ -74,7 +87,7 @@ records:
             - url
             - scope
         - referenceId: ref-be25a448-75ae-83bb-abe0-69c42bebd139
-          metadataVariant: 2
+          metadataVariant: 3
           sourceKey: mdd_taxonomy
           usage:
             scope:
@@ -137,6 +150,22 @@ records:
             - title
             - url
             - scope
+        - referenceId: chiropotes-rio-negro-2015-riverine-surveys
+          metadataVariant: 0
+          sourceKey: boubli2015
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
     limitations:
       zh:
         markdown: page.zh.md
@@ -163,13 +192,13 @@ Pins accepted species ID 5Y6KL, name, authorship, and genus parent.
 ## referenceBindings / usage / scope
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/1/usage/scope/zh -->
-记录 MDD v2.5 将 israelita 作为 C. chiropotes 异名的该版本处理；不替代固定 COL26.8 身份。
+记录 MDD 当前 *C. chiropotes* 页面将 israelita 列入名称与分类注记、并说明名称关系仍未完全厘清；该页面的分布概述针对 MDD 的 *C. chiropotes* 条目，不替代固定 COL26.8 身份。
 <!-- /evo:text -->
 
 ## referenceBindings / usage / scope
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/1/usage/scope/en -->
-Records the MDD v2.5 treatment of israelita as a synonym of C. chiropotes; it does not replace the fixed COL26.8 identity.
+Records that the current MDD *C. chiropotes* page includes israelita in its name and taxonomy notes while stating that the relationship is not fully resolved; that page's range summary applies to the MDD *C. chiropotes* entry and does not replace the fixed COL26.8 identity.
 <!-- /evo:text -->
 
 ## referenceBindings / usage / scope
@@ -206,4 +235,16 @@ Uses historical occurrence records and environmental variables in a maximum-entr
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en -->
 Multilocus and species-delimitation analysis of the genus supporting five living species; treats C. israelita as a junior synonym and assigns west- and east-bank populations of the Branco River to C. chiropotes and C. sagulatus, respectively. Nuclear-only analyses gave weaker support for separating the latter pair.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/scope/zh -->
+支持里奥内格罗河—布朗库河区域形态调查中 20 种日行灵长类记录、以及作者将旧名 *C. israelita* 列入两河间区域组合；论文系统发育样本数与调查物种数分别报告，不作种群或行为证据。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/scope/en -->
+Supports the 20 morphologically identified diurnal primate records in the Rio Negro–Rio Branco survey region and the authors' placement of the older name *C. israelita* in the interfluvial assemblage; phylogenetic sample counts and survey species counts are kept separate, and it is not population or behavioral evidence.
 <!-- /evo:text -->

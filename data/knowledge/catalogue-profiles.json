@@ -51615,8 +51615,8 @@
         {
           "topic": "classification",
           "text": {
-            "zh": "此页按固定 COL26.8 接受种 ID 5Y6KL 记录 Chiropotes israelita（Spix, 1823）。分类意见并不一致：MDD v2.5 将 israelita 作为 C. chiropotes 的异名；2023 年多位点研究也将其视为较晚异名，并认可五个 Chiropotes 种。该研究把布朗库河西岸形式称为 C. chiropotes、东岸形式称为 C. sagulatus；仅用核标记时，两者的分界支持较弱。保留固定清单 ID 与来源间差异，不将不同名称行合并。",
-            "en": "This page follows fixed COL26.8 accepted species ID 5Y6KL for Chiropotes israelita (Spix, 1823). Taxonomic treatments differ: MDD v2.5 treats israelita as a synonym of C. chiropotes, and a 2023 multilocus study likewise treats it as a junior synonym while endorsing five Chiropotes species. That study calls the form west of the Branco River C. chiropotes and the east-bank form C. sagulatus; support for separating these two was weaker in its nuclear-only analyses. The page preserves the checklist ID and reports the competing treatments without merging source name rows."
+            "zh": "此页按固定 COL26.8 接受种 ID 5Y6KL 记录 *Chiropotes israelita*（Spix, 1823）。MDD 当前 *C. chiropotes* 页面把 israelita 列在名称与分类注记中，并称这些名称的关系尚未完全厘清；其地理概述针对该 *C. chiropotes* 条目，不能直接当作固定 COL 身份的独立分布界线。Carneiro 等（2023）的多位点研究把 *C. israelita* 处理为较晚异名，并按布朗库河西、东岸分别使用 *C. chiropotes* 与 *C. sagulatus*；仅用核标记时，这一对的区分支持较弱。此页保留固定清单 ID 与来源间差异，不合并不同名称行。",
+            "en": "This page follows fixed COL26.8 accepted species ID 5Y6KL for *Chiropotes israelita* (Spix, 1823). The current MDD *C. chiropotes* page includes israelita in its name and taxonomy notes and says their relationship is not fully resolved; its range summary applies to that *C. chiropotes* entry and is not an independent range boundary for this fixed COL identity. Carneiro et al. (2023) treat *C. israelita* as a junior synonym and use *C. chiropotes* and *C. sagulatus* for forms west and east of the Branco River, respectively; support for this pair was weaker in nuclear-only analyses. The page preserves the checklist ID and reports competing treatments without merging name rows."
           },
           "sourceIds": [
             "taxonomy",
@@ -51643,6 +51643,16 @@
           "sourceIds": [
             "boubli2009"
           ]
+        },
+        {
+          "topic": "regional_survey",
+          "text": {
+            "zh": "Boubli 等（2015）在里奥内格罗河与布朗库河区域的日行灵长类调查中，以形态鉴定记录了 20 种；作者把 *C. israelita* 列入两河之间的区域组合。其比较系统发育分析使用 94 个细胞色素 *b* 样本，讨论多个河流分隔种群的关系；论文摘要将研究对象的采样表述为覆盖区域 20 种中的 19 种，因此不能把所有谱系关系说成均由这轮样本直接测得。这为旧名 *C. israelita* 提供了有地点范围的区域调查背景，但不是数量估计或行为、食性研究。",
+            "en": "Boubli et al. (2015) reported 20 diurnal primate species from surveys in the Rio Negro–Rio Branco region, identified morphologically; they listed *C. israelita* in the assemblage between the two rivers. Their comparative phylogenetic analysis discussed relationships among populations separated by major rivers and used 94 cytochrome-*b* samples. The abstract states that sampling covered 19 of the region’s 20 species, so not every lineage relationship should be described as directly measured in that survey. This adds a geographically bounded field-survey context for the older name *C. israelita*, but is not a population estimate or a study of behavior or diet."
+          },
+          "sourceIds": [
+            "boubli2015"
+          ]
         }
       ],
       "sources": [
@@ -51660,14 +51670,11 @@
         },
         {
           "id": "mdd_taxonomy",
-          "title": {
-            "zh": "Mammal Diversity Database v2.5 — Chiropotes chiropotes（1000898）",
-            "en": "Mammal Diversity Database v2.5 — Chiropotes chiropotes (1000898)"
-          },
+          "title": "Mammal Diversity Database — current profile: Chiropotes chiropotes (1000898)",
           "url": "https://www.mammaldiversity.org/taxon/1000898/",
           "scope": {
-            "zh": "记录 MDD v2.5 将 israelita 作为 C. chiropotes 异名的该版本处理；不替代固定 COL26.8 身份。",
-            "en": "Records the MDD v2.5 treatment of israelita as a synonym of C. chiropotes; it does not replace the fixed COL26.8 identity."
+            "zh": "记录 MDD 当前 *C. chiropotes* 页面将 israelita 列入名称与分类注记、并说明名称关系仍未完全厘清；该页面的分布概述针对 MDD 的 *C. chiropotes* 条目，不替代固定 COL26.8 身份。",
+            "en": "Records that the current MDD *C. chiropotes* page includes israelita in its name and taxonomy notes while stating that the relationship is not fully resolved; that page's range summary applies to the MDD *C. chiropotes* entry and does not replace the fixed COL26.8 identity."
           }
         },
         {
@@ -51702,11 +51709,20 @@
             "zh": "对属内系统分类作多位点与物种界定分析，支持五个现存种；认为 C. israelita 是较晚异名，并建议布朗库河西、东岸种群分别使用 C. chiropotes 与 C. sagulatus。核标记的单独分析对两者的区分支持较弱。",
             "en": "Multilocus and species-delimitation analysis of the genus supporting five living species; treats C. israelita as a junior synonym and assigns west- and east-bank populations of the Branco River to C. chiropotes and C. sagulatus, respectively. Nuclear-only analyses gave weaker support for separating the latter pair."
           }
+        },
+        {
+          "id": "boubli2015",
+          "title": "Boubli et al. (2015) — Rio Negro and Rio Branco primate surveys and riverine hypothesis",
+          "url": "https://doi.org/10.1016/j.ympev.2014.09.005",
+          "scope": {
+            "zh": "支持里奥内格罗河—布朗库河区域形态调查中 20 种日行灵长类记录、以及作者将旧名 *C. israelita* 列入两河间区域组合；论文系统发育样本数与调查物种数分别报告，不作种群或行为证据。",
+            "en": "Supports the 20 morphologically identified diurnal primate records in the Rio Negro–Rio Branco survey region and the authors' placement of the older name *C. israelita* in the interfluvial assemblage; phylogenetic sample counts and survey species counts are kept separate, and it is not population or behavioral evidence."
+          }
         }
       ],
       "limitations": {
-        "zh": "固定 COL26.8 与 MDD v2.5 在 israelita 是否单列为种上存在分类差异；页内原样呈现该差异。早期标本研究与最大熵模型提供分类/分布背景，但不构成当前物种种群估计、趋势或充分生活史资料，因此本页列为首轮标准以下待补项。模型边界仍需调查验证。中文名为描述性编辑用名，页面未经过外部领域专家评审。",
-        "en": "Fixed COL26.8 and MDD v2.5 differ on whether israelita is listed separately as a species; the page reports that difference. The earlier specimen study and maximum-entropy model provide taxonomic and distribution context, but not a current population estimate, trend, or sufficient life-history evidence, so this page is tracked below the first-round standard. Model boundaries remain to be checked with field surveys. The English and Chinese display names are editorial, and the page has not received external expert review. This page is not externally expert-reviewed."
+        "zh": "固定 COL26.8 与 MDD 当前 *C. chiropotes* 页面在 israelita 的组合与分类处理上不同；2023 年研究也提出另一种名称和河岸种群对应。此页把 2003 年标本分析、2009 年预测模型与 2015 年区域调查分开呈现。区域材料能说明 *C. israelita* 这一旧分类用名曾用于两河之间的调查记录，但不能解决名称模式、现行种界或该固定 COL 身份的完整分布，也没有当前种群估计、趋势、行为或食性数据。此页为来源限定的分类与区域记录介绍，不是种群或保护评估；模型边界仍需更多调查验证。中文名为描述性编辑用名，页面未经过外部领域专家评审。",
+        "en": "Fixed COL26.8 and the current MDD *C. chiropotes* page differ in the treatment of israelita, and a 2023 study proposes another correspondence between names and river-bank populations. This page separates the 2003 specimen analysis, 2009 predictive model and 2015 regional survey. The regional material shows that the older label *C. israelita* was used for survey records between the two rivers; it does not resolve type-based nomenclature, current species limits or the complete range of the fixed COL identity. It also provides no current population estimate, trend, behavior or diet data. This is a source-bounded introduction to taxonomy and regional records, not a population or conservation assessment; model boundaries need further field surveys. The display names are editorial, and the page has not received external expert review."
       }
     },
     {

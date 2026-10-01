@@ -22364,7 +22364,7 @@
   },
   {
     "id": "ref-be25a448-75ae-83bb-abe0-69c42bebd139",
-    "title": "Mammal Diversity Database: Rio Negro Bearded Saki (MDD 1000898)",
+    "title": "Mammal Diversity Database — Rio Negro Bearded Saki (1000898)",
     "titleTranslations": {
       "zh": "Mammal Diversity Database：Rio Negro Bearded Saki（MDD 1000898）",
       "en": "Mammal Diversity Database: Rio Negro Bearded Saki (MDD 1000898)"
@@ -22374,8 +22374,11 @@
     "authorsStatus": "unresolved",
     "type": "web-resource",
     "url": "https://www.mammaldiversity.org/taxon/1000898/",
-    "sourceRole": "unclassified",
-    "fitnessFor": [],
+    "sourceRole": "taxonomic-database",
+    "fitnessFor": [
+      "taxonomy",
+      "range"
+    ],
     "metadataAssignment": "automated",
     "metadataStatus": "imported-without-bibliographic-enrichment",
     "importedSourceMetadata": [
@@ -22395,6 +22398,10 @@
           "zh": "Mammal Diversity Database v2.5 — Chiropotes chiropotes（1000898）",
           "en": "Mammal Diversity Database v2.5 — Chiropotes chiropotes (1000898)"
         },
+        "url": "https://www.mammaldiversity.org/taxon/1000898/"
+      },
+      {
+        "title": "Mammal Diversity Database — current profile: Chiropotes chiropotes (1000898)",
         "url": "https://www.mammaldiversity.org/taxon/1000898/"
       }
     ]
@@ -110512,6 +110519,41 @@
       {
         "title": "Nguyen Hai Ha et al. (2020) — Photo evidence for the black ebenus morph in Phong Nha-Ke Bang",
         "url": "https://static1.1.sqspcdn.com/static/f/1200343/28371935/1605626534803/Vietnamese_J_Primatol_Vol_3-2_2020.pdf?token=RtLM3IG9scigSrPeuktdBYeQZ3U%3D"
+      }
+    ]
+  },
+  {
+    "id": "chiropotes-rio-negro-2015-riverine-surveys",
+    "title": "Spatial and temporal patterns of diversification on the Amazon: A test of the riverine hypothesis for all diurnal primates of Rio Negro and Rio Branco in Brazil",
+    "authors": [
+      "Boubli, J.P.",
+      "Ribas, C.",
+      "Lynch Alfaro, J.W.",
+      "Alfaro, M.E.",
+      "da Silva, M.N.F.",
+      "Pinho, G.M.",
+      "Farias, I.P."
+    ],
+    "authorsComplete": true,
+    "authorsStatus": "complete-verbatim",
+    "publishedYear": 2015,
+    "type": "paper",
+    "url": "https://doi.org/10.1016/j.ympev.2014.09.005",
+    "doi": "10.1016/j.ympev.2014.09.005",
+    "publisher": "Molecular Phylogenetics and Evolution",
+    "pages": "82(Pt B):400-412",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "local-occurrence",
+      "phylogeography",
+      "taxonomy"
+    ],
+    "metadataAssignment": "manual-source-review",
+    "metadataStatus": "bibliographic-fields-checked",
+    "importedSourceMetadata": [
+      {
+        "title": "Boubli et al. (2015) — Rio Negro and Rio Branco primate surveys and riverine hypothesis",
+        "url": "https://doi.org/10.1016/j.ympev.2014.09.005"
       }
     ]
   }
