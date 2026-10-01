@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-108 先处理 23 个已建页但仍低于首轮来源限定标准或存在分类/归属待补项的 COL26.8 接受种；逐项补充有来源支持的野外材料，资料不足的项目明确保留缺口。灵长类固定分母已有 530/530 个种级页面（54 个 dossier-backed、476 个 profile-only），无种级页 0 个；507 个达到首轮标准，23 个仍低于该标准，476 个仍未命中 dossier 索引。完成首轮缺口处置后再建立主龙类固定分母与覆盖计划。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-109 继续处理 22 个已建页但仍低于首轮来源限定标准或存在分类/归属待补项的 COL26.8 接受种，优先复查 *Trachypithecus melamera* 的地点归属、*Cheracebus aquinoi* 的野外调查归属及两种 *Paragalago* 的可用野外材料；资料不足的项目明确保留缺口。灵长类固定分母已有 530/530 个种级页面（54 个 dossier-backed、476 个 profile-only），无种级页 0 个；508 个达到首轮标准，22 个仍低于该标准，476 个仍未命中 dossier 索引。完成首轮缺口处置后再建立主龙类固定分母与覆盖计划。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1187,7 +1187,7 @@ Cacajao 阅读路径先读 2022 年秃乌卡里分子系统学与 *C. amuna* 描
 | 54XZC *T. pelengensis* | 2017—2018 年邦盖群岛四岛调查；Peleng 距离抽样估值及多种植被环境记录 | 225 小时接触；估值仅限 Peleng 样区与该研究方法；两岛未检出不证明缺席 | P3-66 |
 | 7BLTM *T. sangirensis* | Sangihe 1995—1997 年短期观察、六个睡眠点和受扰生境记录 | 非随机调查；2009 年潜在种群数来自近缘种密度模型，不是直接计数；COL 与 MDD 作者年份不同 | P3-66 |
 | 7BM5P *T. fuscus* | 南苏拉威西两个地点的睡眠巢基质和海拔 | 2020—2021 年、13 个巢；局地巢址观察，不代表全分布区或种群趋势 | P3-66 |
-| 54XZK *T. tarsier* | Selayar 限定分类与旧研究的证据归属说明 | 2008 年论文合并 Selayar 与大陆 Patunuang 观察，无法按现行分类拆分；不计首轮综合生态标准 | P3-66 |
+| 54XZK *T. tarsier* | P3-66 初稿仅作 Selayar 限定分类与证据归属说明；P3-108 增加 2008 年论文中明确标注 Selayar 的 Punagaan、Labau 野外记录 | 原文也包括大陆 Patunuang；仅使用明确定位的 Selayar 结果，不把两地汇总数值归给当前分类单元 | P3-66 → P3-108 |
 
 本批新增四个双语 profile-only 种级页面，并扩展 COL 属级 ID 7SV5 的阅读路径，连接固定名录中的十二个 Tarsius 种级 ID。四个新增 ID 在本地队列中均无 dossier 或导读摘要；未新增 dossier 或外部领域专家评审。批次后灵长类种级页面为 416/530（54 个 dossier-backed、362 个 profile-only），114 个固定接受种仍无种级页；409 个达到首轮综合内容标准，7 个尚未达到（包括已有六项来源不足或分类史材料，以及本批 T. tarsier 的归属限制）；476 个仍未命中 dossier 索引。英文普通名参考 MDD v2.5，中文名为编辑译名。
 
@@ -1530,6 +1530,16 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 来源：[Nascimento 等（2011），L. caissara 种群密度样线调查](https://doi.org/10.1896/044.018.0103)；[Nascimento 与 Schmidlin（2011），L. caissara 生境选择与承载力模型](https://doi.org/10.1017/S0030605310000943)；[Keuroghlian 与 Passos（2001），L. chrysopygus 猎物取食与季节性](https://doi.org/10.1590/S1519-69842001000300015)；[Felippi 等（2026），黑狮面狨树上相机研究](https://doi.org/10.1007/s10764-026-00552-3)；[MDD v2.5：L. caissara](https://www.mammaldiversity.org/taxon/1000787/)；[MDD v2.5：L. chrysopygus](https://www.mammaldiversity.org/taxon/1000789/)。
 
 本批后固定灵长类种级页面为 490/530（54 个 dossier-backed、436 个 profile-only），40 个接受种仍无种级页面；471 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。属级导读不计入 530 个种级分母。
+
+按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
+
+## P3-108 — Tarsius tarsier 的 Selayar 局地野外观察（2026-10-01）
+
+- 修订 COL26.8 固定页面 54XZK 的双语 profile-only 正文，在现有分类说明上增加 Selayar 局地野外介绍。Wirdateti 与 Dahrudin（2008）报告 2006 年 7 月 3—22 日探索性调查中的 Selayar 记录：Punagaan 三个巢位于玉米、椰子和香蕉种植地附近，每巢据报有 3—6 只个体、巢间距 200—500 米；Labau 观察到 2—3 只个体使用竹丛和河岸榕树睡眠点，并记录个体在竹丛间活动至约上午 10 时。作者描述当地环境包括次生林、林地农园和常用作睡眠场所的竹丛。
+- 该论文也包括大陆 Patunuang；本页只采用明确定位于 Selayar 的段落，不归并两地的巢位总数、植物清单或海拔范围。研究未采集食物样本、未鉴定猎物；当地所报取食嫩玉米尚未验证。上述短期局地记录不是全分布区调查、种群估值或趋势。
+- 本次修订把页面从分类/归属说明扩展为来源限定的局地野外导读；不新增 dossier、属级页面或外部领域评审。灵长类页面总数维持 530/530（54 个 dossier-backed、476 个 profile-only），无页面种数为 0；达到首轮来源限定标准的页面增至 508，仍低于该标准或有分类/归属待补项的页面为 22，476 个仍未命中 dossier 索引。
+- 来源：[Wirdateti 与 Dahrudin（2008），Selayar 与 Patunuang 眼镜猴栖地、食物和分布探索](https://doi.org/10.13057/biodiv/d090215)；[Groves 与 Shekelle（2010），Tarsiidae 分类](https://doi.org/10.1007/s10764-010-9443-1)；[MDD v2.5：Selayar Tarsier](https://www.mammaldiversity.org/taxon/1000926/)；[COL26.8：Tarsius tarsier](https://api.checklistbank.org/dataset/316115/taxon/54XZK)。
 
 按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
