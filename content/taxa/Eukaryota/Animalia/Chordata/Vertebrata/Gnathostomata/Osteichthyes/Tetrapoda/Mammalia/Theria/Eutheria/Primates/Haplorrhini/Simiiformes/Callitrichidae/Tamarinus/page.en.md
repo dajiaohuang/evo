@@ -100,7 +100,7 @@ readingPath
 ## readingPath
 
 <!-- evo:text /records/catalogue-profile/sections/2/text/en -->
-Start with the single-group Caquetá observations and seasonal Amanã surveys for *T. inustus*, comparing lower-forest foraging with new flooded-forest records. Then read the four-group scent-mark study of *T. mystax* and the Upper Urucu foraging study published under the older name *S. mystax pileatus*. Continue with the Pando mixed-group study of red-bellied tamarins and saddle-backs, then the Bolivian records later assigned to *T. subgrisescens*. Finish by comparing the sample and taxonomic evidence for the emperor-tamarin lineages, followed by the description of *T. kulina* and genus-level systematics. This path connects evidence types; it is not a complete genus review.
+Start with the single-group Caquetá observations and seasonal Amanã surveys for *T. inustus*, comparing lower-forest foraging with new flooded-forest records. Then read the four-group scent-mark study of *T. mystax* and the Upper Urucu foraging study published under the older name *S. mystax pileatus*. Continue with the Pando mixed-group study of red-bellied tamarins and saddle-backs, then the Bolivian records later assigned to *T. subgrisescens*. Finish by comparing the sample and taxonomic evidence for the emperor-tamarin lineages, then read the single-group artificial-feeding experiment for *T. imperator* in Rio Branco to distinguish taxonomic comparison from local route choice. Follow with the description of *T. kulina* and genus-level systematics. This path connects evidence types; it is not a complete genus review.
 <!-- /evo:text -->
 
 ## readingPath
@@ -155,6 +155,12 @@ lopes2023_peerj
 
 <!-- evo:text /records/catalogue-profile/sections/2/sourceIds/8 -->
 lopes2023_molecular
+<!-- /evo:text -->
+
+## readingPath
+
+<!-- evo:text /records/catalogue-profile/sections/2/sourceIds/9 -->
+bicca2006
 <!-- /evo:text -->
 
 ## catalogue-profile / limitations

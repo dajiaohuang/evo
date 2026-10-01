@@ -10,7 +10,7 @@ records:
       zh: 帝狨
       en: Emperor Tamarin
     reviewStatus: source-linked
-    checkedAt: 2026-10-01
+    checkedAt: 2026-10-02
     sections:
       - topic:
           markdown: page.en.md
@@ -44,6 +44,21 @@ records:
             field: /records/catalogue-profile/sections/1/sourceIds/0
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/1/sourceIds/1
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/2/topic
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/sourceIds/0
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/sourceIds/1
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -93,6 +108,38 @@ records:
               en:
                 markdown: evidence.md
                 field: /records/catalogue-profile/sources/referenceBindings/2/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+        - referenceId: ref-53e1f314-2c37-4ef4-8ce8-cf7086365b62
+          metadataVariant: 0
+          sourceKey: bicca2006
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/3/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+        - referenceId: ref-72b32bd9-61da-46c3-aef6-25e057b748ad
+          metadataVariant: 0
+          sourceKey: iucn2021
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en
           originalFields:
             - id
             - title
@@ -149,4 +196,28 @@ ddRAD 基因组研究支持 *T. imperator* 与 *T. subgrisescens* 的分类区�
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/2/usage/scope/en -->
 The ddRAD genomic study supports taxonomic separation of *T. imperator* and *T. subgrisescens*.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/zh -->
+里奥布朗库一群旧名 *Saguinus imperator imperator* 的人工香蕉取食站实验；支持取食点间路线选择，不代表自然食谱。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en -->
+Artificial banana-station experiment with one group published as *Saguinus imperator imperator* in Rio Branco; supports between-patch route choice, not natural diet.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh -->
+修订版评估说明旧名名义亚种提升为种并映射至 *Tamarinus imperator*；用于连接 2006 年研究使用的名称，不作为当前种群评估。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en -->
+The amended assessment identifies the former nominal subspecies as elevated to *Tamarinus imperator*; used to bridge the 2006 study name, not as a current population assessment.
 <!-- /evo:text -->

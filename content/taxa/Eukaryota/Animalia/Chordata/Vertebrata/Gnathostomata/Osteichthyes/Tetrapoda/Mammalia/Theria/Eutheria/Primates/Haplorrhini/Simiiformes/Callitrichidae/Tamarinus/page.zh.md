@@ -22,7 +22,7 @@ COL26.8 在 *Tamarinus* 属下列出七个接受种：*T. inustus*、*T. subgris
 ## readingPath
 
 <!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
-先读 *T. inustus* 的 Caquetá 单群观察和 Amanã 季节调查，比较低层林下取食与洪泛林新记录；随后阅读 *T. mystax* 四群气味标记研究，再对照 Upper Urucu 一群旧称 *S. mystax pileatus* 的觅食资料。接着读 Pando 红腹狨与鞍背狨混群研究，以及后由分类研究归入 *T. subgrisescens* 的玻利维亚记录。最后比较帝狨两支的样本和分类证据，并阅读 *T. kulina* 的新种描述与属级系统树。路径串联的是证据类型，不是完整属级物种综述。
+先读 *T. inustus* 的 Caquetá 单群观察和 Amanã 季节调查，比较低层林下取食与洪泛林新记录；随后阅读 *T. mystax* 四群气味标记研究，再对照 Upper Urucu 一群旧称 *S. mystax pileatus* 的觅食资料。接着读 Pando 红腹狨与鞍背狨混群研究，以及后由分类研究归入 *T. subgrisescens* 的玻利维亚记录。最后比较帝狨两支的样本和分类证据，再读 *T. imperator* 在里奥布朗库单群人工食物点实验，区分分类比较与局部路线选择；随后阅读 *T. kulina* 的新种描述与属级系统树。路径串联的是证据类型，不是完整属级物种综述。
 <!-- /evo:text -->
 
 ## catalogue-profile / limitations

@@ -10,7 +10,7 @@ records:
       zh: Tamarinus 属
       en: Tamarinus
     reviewStatus: source-linked
-    checkedAt: 2026-10-01
+    checkedAt: 2026-10-02
     sections:
       - topic:
           markdown: page.en.md
@@ -83,6 +83,8 @@ records:
             field: /records/catalogue-profile/sections/2/sourceIds/7
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/2/sourceIds/8
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/sourceIds/9
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -265,6 +267,22 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-53e1f314-2c37-4ef4-8ce8-cf7086365b62
+          metadataVariant: 0
+          sourceKey: bicca2006
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/11/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/11/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
     limitations:
       zh:
         markdown: page.zh.md
@@ -412,4 +430,16 @@ Pando 四个月区域调查；以当时的 *Saguinus imperator* 名称报告地�
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/10/usage/scope/en -->
 Four-month regional survey in Pando; reports local records and habitat use under the then-current name *Saguinus imperator*.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/11/usage/scope/zh -->
+里奥布朗库一群旧名 *Saguinus imperator imperator* 的人工香蕉取食站实验；用于阅读路线选择，不作为自然食性资料。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/11/usage/scope/en -->
+Artificial banana-station experiment with one group published as *Saguinus imperator imperator* in Rio Branco; included for route choice, not natural-diet evidence.
 <!-- /evo:text -->
