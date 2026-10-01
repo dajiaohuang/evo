@@ -10,7 +10,7 @@ records:
       en: Hernández-Camacho's Night Monkey
       zh: 埃尔南德斯-卡马乔夜猴
     reviewStatus: source-linked
-    checkedAt: 2026-09-30
+    checkedAt: 2026-10-02
     sections:
       - topic:
           markdown: page.en.md
@@ -29,6 +29,19 @@ records:
             field: /records/catalogue-profile/sections/0/sourceIds/1
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/0/sourceIds/2
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/1/topic
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/sourceIds/0
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -99,6 +112,22 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-aotus-quindio-2023
+          metadataVariant: 0
+          sourceKey: quindio2023
+          usage:
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
     limitations:
       en:
         markdown: page.en.md
@@ -156,6 +185,18 @@ Original taxonomic paper naming A. jorgehernandezi and describing the karyotype-
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en -->
 A later taxonomic comparison arguing for synonymy; presented here as the authors’ conclusion, not as a change to the pinned COL26.8 identity.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en -->
+Regional annotated checklist reporting the known captive 2n = 50 karyotypes, their unknown wild provenance, and the need for integrated taxonomic and distribution studies.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh -->
+区域注释名录记录已知的圈养 2n = 50 核型及其野外来源不明，并指出仍需综合分类和分布研究。
 <!-- /evo:text -->
 
 ## referenceBindings / usage / scope

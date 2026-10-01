@@ -37,8 +37,26 @@ jorge2025
 mdd_taxonomy
 <!-- /evo:text -->
 
+## karyotype_records
+
+<!-- evo:text /records/catalogue-profile/sections/1/topic -->
+karyotype records
+<!-- /evo:text -->
+
+## karyotype_records
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/en -->
+A 2023 annotated mammal list for Quindío likewise says that the taxon is known from its holotype alone: a captive animal of putative Los Nevados origin whose museum specimen could not be located. The authors also discuss a second captive Aotus at the Barquisimeto zoo in Venezuela with the same reported 2n = 50 karyotype but unknown provenance. A matching chromosome number is not a confirmed wild locality or proof that the animal belongs to the same species. The review calls for integrated karyotype, molecular, morphometric or morphological work to test taxonomic affinities and distribution.
+<!-- /evo:text -->
+
+## karyotype_records
+
+<!-- evo:text /records/catalogue-profile/sections/1/sourceIds/0 -->
+quindio2023
+<!-- /evo:text -->
+
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The material supports a nomenclatural and taxonomic-history note, not a current ecological species account. The 2025 synonym proposal conflicts with the pinned separate COL26.8 ID and the local MDD crosswalk; no resolution is imposed here. This page is not externally expert-reviewed.
+The sources support a taxonomic-history guide, not a current ecological species account: both karyotyped individuals discussed in the regional review were captive and of unknown wild provenance, and no population or habitat study tied to this catalogue concept is available here. The 2025 synonym proposal conflicts with the pinned separate COL26.8 ID and local MDD crosswalk; no resolution is imposed. This page remains source-insufficient for a species-level ecology guide and has not received external expert review.
 <!-- /evo:text -->
