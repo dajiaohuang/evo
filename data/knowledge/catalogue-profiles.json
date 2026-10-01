@@ -49631,6 +49631,162 @@
         "en": "This reading path links one accepted species page and three studies with distinct sites and methods; it is not an exhaustive Procolobus roster or a genus-wide synthesis, range assessment, or population estimate. COL26.8 ID 63Q4Q fixes the genus identity. No dossier or external expert review was added.",
         "zh": "本阅读路径连接一个接受种页面及三项地点和方法各异的研究；它不是完整的 Procolobus 名录，也不是属级综合、分布评估或种群估计。属级身份固定为 COL26.8 ID 63Q4Q。本批未新增 dossier，也未经过外部领域专家评审。"
       }
+    },
+    {
+      "colId": "SDLD",
+      "scientificName": "Cephalopachus bancanus (Horsfield, 1821)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-10-01",
+      "name": {
+        "en": "Western Tarsier",
+        "zh": "西方眼镜猴"
+      },
+      "reviewStatus": "source-linked",
+      "sections": [
+        {
+          "topic": "overview",
+          "text": {
+            "en": "COL26.8 accepts Cephalopachus bancanus (Horsfield, 1821) under fixed species ID SDLD and genus parent 3KFW. The Mammal Diversity Database uses the common name Western Tarsier and records the species from Borneo and several islands of Indonesia. Older literature often uses Tarsius bancanus; that historical name is not a different page identity here. The Chinese display name is editorial.",
+            "zh": "COL26.8 接受 Cephalopachus bancanus（Horsfield，1821），固定种级 ID 为 SDLD，属级父项为 3KFW。哺乳动物多样性数据库使用英文普通名 Western Tarsier，并记录其分布于婆罗洲和印度尼西亚若干岛屿。较早文献常用 Tarsius bancanus；本页仍以固定分类 ID 标识，不把旧组合名另建为页面。中文显示名为编辑用名。"
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd"
+          ]
+        },
+        {
+          "topic": "habitatUse",
+          "text": {
+            "en": "A 2021 undergraduate thesis studied the Belitung subspecies C. b. saltator at Bukit Peramun using concentration counts and vegetation analysis. It described use of secondary forest at 110–150 m elevation and identified local sleeping trees. This is a site-specific study of one named subspecies; it does not establish habitat use or abundance across C. bancanus as a whole.",
+            "zh": "一篇 2021 年本科毕业论文在 Bukit Peramun 研究 Belitung 亚种 C. b. saltator，采用集中计数和植被分析。论文描述了海拔 110–150 米的次生林利用情况，并记录当地的睡眠树。本研究限于一个地点和一个有名称的亚种，不能代表整个 C. bancanus 的栖息地利用或丰度。"
+          },
+          "sourceIds": [
+            "belitung2021"
+          ]
+        },
+        {
+          "topic": "physiology",
+          "text": {
+            "en": "Welman, Tuen, and Lovegrove captured 13 adult tarsiers in secondary forest at Sama Jaya Nature Reserve, Borneo, in 2014–2015. Laboratory respirometry and temperature measurements found no clear evidence of adaptive heterothermy. Free-ranging core-temperature records came from only one male and one female after most implanted loggers failed, so the field result has a very small individual sample.",
+            "zh": "Welman、Tuen 与 Lovegrove 于 2014–2015 年在婆罗洲 Sama Jaya 自然保护区的次生林捕获 13 只成年眼镜猴。实验室呼吸测量与体温测量未发现明确的适应性异温证据。野外核心体温记录仅来自一只雄性和一只雌性，其余植入式记录器大多失效，因此野外结果的个体样本很小。"
+          },
+          "sourceIds": [
+            "welman2017"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Cephalopachus bancanus",
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/SDLD",
+          "scope": {
+            "en": "Pins the accepted species name, authorship, rank, and genus parent under COL26.8 ID SDLD.",
+            "zh": "固定 COL26.8 下接受种名、作者、等级及属级父链（ID SDLD）。"
+          }
+        },
+        {
+          "id": "mdd",
+          "title": "Mammal Diversity Database v2.5 — Western Tarsier (1000916)",
+          "url": "https://www.mammaldiversity.org/taxon/1000916/",
+          "scope": {
+            "en": "Supports the English common name, coarse island distribution, and the versioned note about the Cephalopachus combination.",
+            "zh": "支持英文普通名、粗略岛屿分布及该版本关于 Cephalopachus 组合名的备注。"
+          }
+        },
+        {
+          "id": "belitung2021",
+          "title": "Tiassika & Mustari (2021) — Habitat, population, and distribution of the Belitung tarsier at Bukit Peramun",
+          "url": "https://repository.ipb.ac.id/handle/123456789/108155",
+          "scope": {
+            "en": "Undergraduate thesis on C. b. saltator at one Belitung site; local habitat and count results are not range-wide estimates.",
+            "zh": "关于 Belitung 一个地点 C. b. saltator 的本科毕业论文；局地栖息地和计数结果不是全分布区估计。"
+          }
+        },
+        {
+          "id": "welman2017",
+          "title": "Welman, Tuen & Lovegrove (2017) — Searching for the Haplorrhine Heterotherm: Field and Laboratory Data of Free-Ranging Tarsiers",
+          "url": "https://doi.org/10.3389/fphys.2017.00745",
+          "scope": {
+            "en": "Thermoregulatory measurements on 13 captured adults at Sama Jaya; free-ranging core-temperature data were recovered from one male and one female.",
+            "zh": "Sama Jaya 捕获 13 只成年个体的体温调节研究；成功取得的野外核心体温数据来自一雄一雌。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "This source-linked guide joins one local study of the Belitung subspecies C. b. saltator with a separate thermoregulation study at one Sarawak reserve. Their taxonomic scope, sites, methods, and sample sizes remain distinct. They do not establish species-wide habitat preference, abundance, population trend, a complete range account, or current conservation assessment. COL26.8 ID SDLD fixes the page identity; the Chinese display name is editorial. No dossier or external expert review was added.",
+        "zh": "本页连接 Belitung 亚种 C. b. saltator 的一项局地研究与砂拉越一处保护区的独立体温调节研究。两项研究的分类范围、地点、方法和样本量各不相同，不能确定全物种栖息地偏好、丰度、种群趋势、完整分布或当前保育状况。页面身份固定为 COL26.8 ID SDLD；中文显示名为编辑用名。本批未新增 dossier，也未经过外部领域专家评审。"
+      }
+    },
+    {
+      "colId": "3KFW",
+      "scientificName": "Cephalopachus Swainson, 1835",
+      "rank": "genus",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-10-01",
+      "name": {
+        "en": "Western tarsier genus",
+        "zh": "西方眼镜猴属"
+      },
+      "reviewStatus": "source-linked",
+      "sections": [
+        {
+          "topic": "readingPath",
+          "text": {
+            "en": "COL26.8 genus ID 3KFW links to the accepted C. bancanus page (SDLD). Read the Bukit Peramun study of the Belitung subspecies for a local habitat account, then compare it with the Sama Jaya thermoregulation study, which tested captured adults and recovered free-ranging temperature records from one male and one female. These sources address different questions and taxonomic scopes. This is a route through selected Cephalopachus evidence, not an exhaustive genus roster or a genus-wide habitat synthesis.",
+            "zh": "COL26.8 属级 ID 3KFW 连接接受种 C. bancanus 页面（SDLD）。可先读 Bukit Peramun 对 Belitung 亚种的栖息地研究，再比较 Sama Jaya 的体温调节研究；后者测试了捕获的成年个体，但成功取得的野外体温记录来自一雄一雌。这些来源的问题和分类范围不同。本页串联的是 Cephalopachus 的部分证据，不是完整属级名录或属级栖息地综合。"
+          },
+          "sourceIds": [
+            "taxonomy",
+            "speciesTaxonomy",
+            "belitung2021",
+            "welman2017"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Cephalopachus",
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/3KFW",
+          "scope": {
+            "en": "Pins the accepted genus name, authorship, and rank under COL26.8 ID 3KFW.",
+            "zh": "固定 COL26.8 下接受属名、作者和等级（ID 3KFW）。"
+          }
+        },
+        {
+          "id": "speciesTaxonomy",
+          "title": "Catalogue of Life COL26.8 — Cephalopachus bancanus",
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/SDLD",
+          "scope": {
+            "en": "Connects the accepted C. bancanus page SDLD under genus ID 3KFW.",
+            "zh": "将接受种 C. bancanus 页面 SDLD 接入属级 ID 3KFW。"
+          }
+        },
+        {
+          "id": "belitung2021",
+          "title": "Tiassika & Mustari (2021) — Habitat, population, and distribution of the Belitung tarsier at Bukit Peramun",
+          "url": "https://repository.ipb.ac.id/handle/123456789/108155",
+          "scope": {
+            "en": "Local undergraduate thesis on C. b. saltator linked from C. bancanus; not a genus-wide account.",
+            "zh": "连接自 C. bancanus 页的 C. b. saltator 局地本科研究；不是属级综述。"
+          }
+        },
+        {
+          "id": "welman2017",
+          "title": "Welman, Tuen & Lovegrove (2017) — Searching for the Haplorrhine Heterotherm: Field and Laboratory Data of Free-Ranging Tarsiers",
+          "url": "https://doi.org/10.3389/fphys.2017.00745",
+          "scope": {
+            "en": "Sama Jaya thermoregulation study linked from C. bancanus; field core-temperature sample was limited to one male and one female.",
+            "zh": "连接自 C. bancanus 页的 Sama Jaya 体温调节研究；野外核心体温样本限于一雄一雌。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "This route links one accepted species page and two studies with different taxonomic scopes, sites, and methods. It is not an exhaustive Cephalopachus roster, genus-wide ecological synthesis, or range assessment. COL26.8 ID 3KFW fixes the genus identity. No dossier or external expert review was added.",
+        "zh": "本路径连接一个接受种页面及两项分类范围、地点和方法各异的研究；它不是完整的 Cephalopachus 名录、属级生态综合或分布评估。属级身份固定为 COL26.8 ID 3KFW。本批未新增 dossier，也未经过外部领域专家评审。"
+      }
     }
   ]
 }

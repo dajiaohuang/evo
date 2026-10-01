@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-101 继续从剩余 14 个无种级页面的 COL26.8 接受种中，按现有野外材料与读者问题打包下一批双语种页和属级阅读路径。灵长类现有 516/530 个种级页面记录（54 个 dossier-backed、462 个 profile-only）；14 个仍无种级页面，476 个仍未命中 dossier 索引。497 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-102 继续从剩余 13 个无种级页面的 COL26.8 接受种中，按现有野外材料与读者问题打包下一批双语种页和属级阅读路径。灵长类现有 517/530 个种级页面记录（54 个 dossier-backed、463 个 profile-only）；13 个仍无种级页面，476 个仍未命中 dossier 索引。498 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1713,3 +1713,14 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 本批后固定灵长类种级页面为 516/530（54 个 dossier-backed、462 个 profile-only），14 个接受种仍无页面；497 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个仍未命中 dossier 索引。属级导读不计入 530 个种级分母。
 
 按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
+## P3-101 — Cephalopachus
+
+- 为 COL26.8 接受种 *Cephalopachus bancanus*（SDLD）新增 profile-only 双语页，并为接受属 *Cephalopachus*（3KFW）新增属级阅读路径。MDD v2.5 使用英文普通名 Western Tarsier，记录婆罗洲和印度尼西亚若干岛屿；中文名“西方眼镜猴”为编辑用名。
+- 物种页并列两项不同范围的研究：Tiassika 与 Mustari（2021）的本科论文研究 Belitung 亚种 C. b. saltator 在 Bukit Peramun 的局地栖息地；Welman、Tuen 与 Lovegrove（2017）在婆罗洲 Sama Jaya 用 13 只成年个体做体温调节研究，野外核心体温数据仅来自一雄一雌。两者不合并为全物种丰度、栖息地或生理结论。
+- 属级路径仅串联上述接受种和研究，不代表完整属级名录或属级综合。本批未新增 dossier 或外部领域专家评审。
+- 来源：[Tiassika 与 Mustari（2021），Belitung 眼镜猴栖息地研究](https://repository.ipb.ac.id/handle/123456789/108155)；[Welman 等（2017），自由活动眼镜猴野外与实验室体温研究](https://doi.org/10.3389/fphys.2017.00745)；[MDD v2.5：Western Tarsier](https://www.mammaldiversity.org/taxon/1000916/)；[COL26.8：Cephalopachus bancanus](https://api.checklistbank.org/dataset/316115/taxon/SDLD)；[COL26.8：Cephalopachus](https://api.checklistbank.org/dataset/316115/taxon/3KFW)。
+- 本批后固定灵长类种级页面为 517/530（54 个 dossier-backed、463 个 profile-only），13 个接受种仍无页面；498 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个仍未命中 dossier 索引。属级导读不计入 530 个种级分母。
+
+按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
