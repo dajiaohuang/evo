@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-88 从剩余 36 个无种级页面的 COL26.8 接受种中盘点来源较充分的候选，继续扩展双语物种页与属级阅读路径。灵长类现有 494/530 个种级页面记录（54 个 dossier-backed、440 个 profile-only）；36 个仍无种级页面，476 个仍未命中 dossier 索引。475 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-89 从剩余 33 个无种级页面的 COL26.8 接受种中盘点来源较充分的候选，继续扩展双语物种页与属级阅读路径。灵长类现有 497/530 个种级页面记录（54 个 dossier-backed、443 个 profile-only）；33 个仍无种级页面，476 个仍未命中 dossier 索引。478 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1566,5 +1566,23 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 来源：[Cervera 与 Griffith（2016），Manabí 的 A. fusciceps fusciceps 种群与分布记录](https://doi.org/10.1177/194008291600900109)；[Link 等（2012），A. hybridus 在 Las Quinchas 的取食研究](https://doi.org/10.1002/ajp.22066)；[Rimbach 等（2015），A. hybridus 社会网络与寄生虫传播动力学](https://doi.org/10.1098/rstb.2014.0110)；[MDD v2.5：A. fusciceps](https://www.mammaldiversity.org/taxon/1000769/)；[MDD v2.5：A. hybridus](https://www.mammaldiversity.org/taxon/1000771/)；[COL26.8：Ateles](https://www.checklistbank.org/dataset/316115/taxon/34V3)。
 
 本批后固定灵长类种级页面为 494/530（54 个 dossier-backed、440 个 profile-only），36 个接受种仍无种级页面；475 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。属级导读不计入 530 个种级分母。
+
+按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
+## P3-88 三种赤猴属接受种的野外记录与分类处理阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 | 批次 |
+|---|---|---|---|
+| 3BDH5 Erythrocebus patas | Murchison Falls 群体观察；Laikipia 亚种取食研究 | 旧研究与亚种资料分别按地点和原始名称限定；不拼成全种生态 | P3-88 |
+| 7TL9S E. baumstarki | 坦桑尼亚历史地点重建与后续肯尼亚记录 | 2009 年研究使用拆分前亚种名；数量与范围是有年代的综合估计，不是现状普查 | P3-88 |
+| 3BDH6 E. poliophaeus | 青尼罗河分类回顾与 Anbesa Chaka 两群体初步调查 | 2010 年记录以广义 E. patas 发表；物种级归属为后续解释，野外材料稀少 | P3-88 |
+
+本批新增三条双语 profile-only 物种页，并为 COL26.8 属级 ID 6343Y 新增赤猴属阅读路径。COL26.8 source 2144 固定接受身份、作者和父属；MDD v2.5 提供英文显示名。MDD 将 E. baumstarki 作者年份列为 1906，COL26.8 列为 1905；页面保留 COL 身份并说明差异。Yirga 等（2010）在 Anbesa Chaka 报告两群共 28 小时初步观察，原文以 E. patas 发表；Gippoliti（2017）后来将相关地点与照片用于讨论 E. poliophaeus 的南界，但指出该分类单元在原生地几乎未研究。E. baumstarki 两篇分布回顾分别使用拆分前组合名与后来物种名，所有数量和范围都标明来源年代。三页无新增 dossier、无外部领域专家评审；中文普通名为编辑译名。
+
+属级阅读路径先读 E. patas 的乌干达群体观察和肯尼亚亚种食性研究，再读 E. baumstarki 的两期分布重建，最后读 E. poliophaeus 的早期群体记录与后续分类回顾；对照时期、地点、分类名称和证据类型，不汇总为属级数量、范围或共同生态。
+
+来源：[Hall（1966），Murchison Falls 赤猴行为与生态观察](https://doi.org/10.1111/j.1469-7998.1966.tb02942.x)；[Isbell（1998），Laikipia patas 亚种取食研究](https://doi.org/10.1002/%28SICI%291098-2345%281998%2945%3A4%3C381%3A%3AAID-AJP5%3E3.0.CO%3B2-S)；[De Jong 等（2009），南方赤猴坦桑尼亚历史与当前分布回顾](https://doi.org/10.1017/S0030605309001719)；[De Jong 与 Butynski（2021），南方赤猴分类、分布与数量回顾](https://doi.org/10.1002/ajp.23316)；[Yirga 等（2010），Anbesa Chaka 初步调查](https://ejol.aau.edu.et/index.php/SINET/article/view/6975)；[Gippoliti（2017），Erythrocebus 分类回顾](https://static1.1.sqspcdn.com/static/f/1200343/27795196/1515432572007/PC31_Gippoliti_Patas_Ethiopia.pdf)；[MDD v2.5：E. patas](https://www.mammaldiversity.org/taxon/1000590/)；[MDD v2.5：E. baumstarki](https://www.mammaldiversity.org/taxon/1000589/)；[MDD v2.5：E. poliophaeus](https://www.mammaldiversity.org/taxon/1000591/)；[COL26.8：Erythrocebus](https://api.checklistbank.org/dataset/316115/taxon/6343Y)。
+
+本批后固定灵长类种级页面为 497/530（54 个 dossier-backed、443 个 profile-only），33 个接受种仍无种级页面；478 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。属级导读不计入 530 个种级分母。
 
 按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
