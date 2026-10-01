@@ -14,7 +14,7 @@ archives, fossils, maps and media in their independent structured stores.
 Legacy JSON/Brotli files are generated compatibility projections.
 
 For Primates, retain the 530 accepted species in pinned COL26.8 as the fixed
-species-level denominator. Address the remaining source or classification gaps
+species-level denominator. Address the remaining 18 source or classification gaps
 before declaring the first reading-page standard met. For Archosauria, establish
 a complete fixed denominator from local catalogues and the plan's scope,
 including birds, crocodile-line taxa, dinosaurs and pterosaurs where included.

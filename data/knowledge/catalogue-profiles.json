@@ -51423,11 +51423,33 @@
         {
           "topic": "typeAndStatus",
           "text": {
-            "zh": "MDD v2.5 将英文普通名列为 Eastern Black-handed Tamarin，记录的选模标本为 ZMB 288、采自巴西贝伦附近，并显示 Not Evaluated。MDD 字段提供版本化名称与类型背景；它不补充现代种群调查或该种的野外生活史。",
-            "en": "MDD v2.5 lists the English common name Eastern Black-handed Tamarin, records lectotype ZMB 288 from near Belém, Brazil, and displays the category Not Evaluated. These are version-specific name and type fields; they do not provide a modern population survey or field natural history for the species."
+            "zh": "MDD v2.5 将英文普通名列为 Eastern Black-handed Tamarin，记录的选模标本为 ZMB 288、采自巴西贝伦附近，并显示 Not Evaluated。巴西 ICMBio 的 2025 年 SALVE 评估以 *Saguinus ursulus* 为名，明确把 *S. ursula*（Hoffmannsegg，1807）列作旧名，给出的国家评估类别为近危（NT，评估日期 2019-09-27）。评估根据 2002—2020 年估算的 14.5% 栖地损失、未来栖地模型和捕捉威胁，推断三代内可能减少约 30%；这不是直接种群普查所得的趋势，且不能与 MDD 的字段混为一谈。",
+            "en": "MDD v2.5 lists the English common name Eastern Black-handed Tamarin, records lectotype ZMB 288 from near Belém, Brazil, and displays Not Evaluated. Brazil's ICMBio 2025 SALVE sheet uses Saguinus ursulus and explicitly lists S. ursula Hoffmannsegg, 1807 as an older name; its national category is Near Threatened (NT), with assessment date 27 September 2019. From estimated habitat loss of 14.5% in 2002–2020, future habitat models, and capture pressure, the assessment infers a possible reduction of about 30% over three generations. This is not a census-derived trend and is separate from MDD's field."
           },
           "sourceIds": [
-            "mdd_name"
+            "mdd_name",
+            "icmbio2025"
+          ]
+        },
+        {
+          "topic": "fieldEcology",
+          "text": {
+            "zh": "帕拉州 Paragominas 附近的一项研究跟踪了一个旧称 *Saguinus niger* 的自由活动群体；ICMBio 评估将该东亚亚马孙旧分类与现名 *S. ursulus* 对应。该群在原生林、择伐林和次生林间活动，雨季更多利用次生林、日移动距离较短，作者将季节差异与果源分布联系起来。同区另一饮食研究的扫描记录中，果物占 87.5%、无脊椎动物占 9.4%、*Parkia pendula* 渗出物占 3.1%；群体摄食 18 种植物果实，其中六种的种子被吞下，说明有潜在传播作用，但未直接量化森林更新结果。研究均限于局地群体。",
+            "en": "A study near Paragominas, Pará, followed one free-ranging group under the historical name Saguinus niger; ICMBio's assessment links the eastern-Amazonian taxon to current S. ursulus. The group used primary, selectively logged, and secondary forest; during the wet season it used more secondary forest and travelled shorter daily distances, which the authors related to fruit-source distribution. Scan samples in a separate local diet study were 87.5% fruit, 9.4% invertebrates, and 3.1% Parkia pendula exudate. The group fed on fruits from 18 plant species and swallowed seeds of six, indicating potential dispersal but not directly measuring forest-regeneration outcomes. These studies concern local groups."
+          },
+          "sourceIds": [
+            "habitat2008",
+            "seed2000"
+          ]
+        },
+        {
+          "topic": "localAbundance",
+          "text": {
+            "zh": "2013 年，研究人员在马拉尼昂州 Gurupi 生物保护区沿样线行走 320 公里，记录到 101 次五种灵长类的目击。*S. ursulus* 是当次调查最常遇到的种：每 10 公里约 1 个群，群体为 2—9 只、平均 4.81 只；估算密度为每平方公里 3.7 群（区间 2.15—6.37）。这些数值描述一个保护区和一次短期调查，不是全分布区丰度或长期趋势。",
+            "en": "In October 2013, researchers walked 320 km of transects in Gurupi Biological Reserve, Maranhão, and recorded 101 sightings of five primate species. S. ursulus was the most frequently encountered: about one group per 10 km. Groups contained 2–9 animals (mean 4.81); estimated density was 3.7 groups/km² (interval 2.15–6.37). These figures describe one reserve and a short survey, not range-wide abundance or a long-term trend."
+          },
+          "sourceIds": [
+            "gurupi2017"
           ]
         },
         {
@@ -51486,11 +51508,47 @@
             "zh": "2026 年东部巴西亚马孙自由活动狨猴的两轮肠道寄生虫采样；17 次捕获事件中 13 次检出寄生物、10 次检出 Prosthenorchis sp.，未报告临床异常。事件比例不代表种群趋势或全分布区感染率。",
             "en": "Two enteroparasite sampling periods in free-ranging tamarins from the eastern Brazilian Amazon in 2026; parasites were detected in 13 of 17 capture events and Prosthenorchis sp. in 10, with no clinical abnormalities reported. Event proportions do not establish a population trend or range-wide infection rate."
           }
+        },
+        {
+          "id": "icmbio2025",
+          "title": "Mendes-Oliveira and Garbino (2025) — Saguinus ursulus SALVE assessment sheet",
+          "url": "https://doi.org/10.37002/salve.ficha.30154.1",
+          "scope": {
+            "zh": "ICMBio 2025 巴西国家风险评估资料：用于核对 S. ursulus 与旧名 S. ursula 的对应、分布、栖地损失推断及国家近危类别；不是全分布区的同期种群普查。",
+            "en": "ICMBio's 2025 Brazilian national risk assessment; used for the S. ursulus/S. ursula name bridge, range, habitat-loss inference, and national Near Threatened category, not a synchronized range-wide population census."
+          }
+        },
+        {
+          "id": "habitat2008",
+          "title": "Habitat Exploitation by Free-ranging Saguinus niger in Eastern Amazonia",
+          "url": "https://doi.org/10.1007/s10764-008-9321-2",
+          "scope": {
+            "zh": "Paragominas 单群体季节性觅食与原生、择伐及次生林利用研究；样点受限，且原文沿用当时的 S. niger 名称。",
+            "en": "Seasonal foraging and primary, logged, and secondary forest use by one group near Paragominas; site-specific, and the paper used the historical name S. niger."
+          }
+        },
+        {
+          "id": "gurupi2017",
+          "title": "Abundância e densidade de primatas na Reserva Biológica do Gurupi, Maranhão, Brasil",
+          "url": "https://doi.org/10.37002/biodiversidadebrasileira.v7i2.721",
+          "scope": {
+            "zh": "Gurupi 生物保护区 2013 年线样调查的目击率、群体规模与密度；仅代表该保护区的一次调查。",
+            "en": "Encounter rate, group size, and density from a 2013 line-transect survey in Gurupi Biological Reserve; specific to that reserve and survey."
+          }
+        },
+        {
+          "id": "seed2000",
+          "title": "Seed dispersal by black-handed tamarins, Saguinus midas niger (Callitrichinae, Primates): implications for the regeneration of degraded forest habitats in eastern Amazonia",
+          "url": "https://doi.org/10.1017/S0266467400001668",
+          "scope": {
+            "zh": "旧分类名 S. midas niger 下的 Paragominas 群体果实摄食与潜在种子传播；通过 ICMBio 对旧名的对应使用，不能推作全物种功能量化。",
+            "en": "Fruit feeding and potential seed dispersal by a Paragominas group under the historical name S. midas niger; used with ICMBio's name crosswalk, not as a range-wide functional estimate."
+          }
         }
       ],
       "limitations": {
-        "zh": "除分类和标本比较外，现有物种特异野外资料包括一项小样本、区域性的寄生虫观察；它不提供该种总体饮食、活动范围或种群趋势。托坎廷斯河作为基因交流屏障是原作者的解释，不是本页独立验证的机制。资料仍不足以构成首轮综合生态介绍，本页继续列为待补。中文名为编辑译名；页面未经过外部领域专家评审。",
-        "en": "Beyond taxonomic and specimen comparisons, the available species-specific field evidence includes a small, regional parasite study; it does not establish the species' overall diet, home range, abundance, or trend. The Tocantins as a barrier to gene flow is the original authors' interpretation, not a mechanism independently tested here. Evidence remains short of the first-round comprehensive ecology standard, so this page remains tracked for further work. The Chinese name is editorial, and the page has not received external expert review."
+        "zh": "本页的野外生态、局地密度和风险资料来自不同时期与地点；单群觅食、保护区样线和国家风险评估各自回答不同问题，均不代表全分布区同步普查。托坎廷斯河可能阻断基因交流是原作者的解释，并非本页独立检验。中文名为编辑译名；页面未经过外部领域专家评审。",
+        "en": "The field ecology, local density, and risk sources describe different places and periods: one focal group, one protected-area transect survey, and a national assessment. None is a synchronized range-wide census. The Tocantins as a barrier to gene flow is the original authors' interpretation, not a mechanism independently tested here. The Chinese name is editorial, and the page has not received external expert review."
       }
     },
     {
