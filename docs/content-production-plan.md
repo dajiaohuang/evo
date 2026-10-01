@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-80 从剩余 56 个无种级页面的 COL26.8 接受种中盘点来源较充分的候选，继续以可读双语种页和属级阅读路径成批扩展。灵长类现有 474/530 个种级页面记录（54 个 dossier-backed、420 个 profile-only）；56 个仍无种级页面，476 个仍未命中 dossier 索引。457 个接受种达到首轮来源限定阅读页标准，17 个来源不足、分类证据有限或归属未决。三个小婴猴属页面均为局部研究导读，不表示完整分布、生活史或现行保育评估。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-81 从剩余 53 个无种级页面的 COL26.8 接受种中盘点来源较充分的候选，继续扩展双语物种页和属级阅读路径。灵长类现有 477/530 个种级页面记录（54 个 dossier-backed、423 个 profile-only）；53 个仍无种级页面，476 个仍未命中 dossier 索引。458 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项；本批两条分类争议页保留为来源链接页面但不计入首轮达标数。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1425,3 +1425,22 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 来源：[Ambrose 与 Perkin（1999–2000），比奥科岛 Moca 夜间原猴调查](https://static1.1.sqspcdn.com/static/f/1200343/18197162/1337025145880/AP4.1-2.pdf)；[Wickings、Ambrose 与 Bearder（1998），加蓬 Haut-Ogooué 同域群体研究](https://doi.org/10.1159/000052727)；[Masters 与 Couette（2015），小婴猴属颅齿形态测量](https://doi.org/10.1002/ajpa.22792)；[Svensson 等（2017），安哥拉小婴猴原始描述](https://doi.org/10.1002/ajpa.23175)。
 
 本批后固定灵长类种级页面为 474/530（54 个 dossier-backed、420 个 profile-only），56 个接受种仍无种级页面；457 个达到首轮来源限定阅读页标准，17 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。属级介绍不计入 530 个种级分母。
+
+
+## P3-80 三种绢毛猴物种页与属级阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 | 批次 |
+|---|---|---|---|
+| 4K5Y5 Plecturocebus discolor | Yasuní 旧名下的单群体生态记录；与 2025 年名称修订对读 | MDD v2.4 改列 P. leucometopus 并视 discolor 为 P. cupreus 异名，COL26.8 仍接受 4K5Y5；局地旧名记录不自动映射到新概念，暂不计首轮达标 | P3-80 |
+| 4K5YG P. stephennashi | 2002 原始模式与形态诊断；2025 馆藏形态比较和合并处理 | 模式地点不精确；MDD v2.4 并入 P. caligatus，COL26.8 仍接受 4K5YG；分类边界未协调，暂不计首轮达标 | P3-80 |
+| 782LM P. ornatus | 哥伦比亚亚诺斯两个景观中群体活动预算与食性比较 | 仅两个研究群体，不能推为全种破碎化因果效应或全域生态 | P3-80 |
+
+新增三条双语 source-linked profile-only 种级页面，并为 COL 属级 ID 6SDJ 增加介绍和阅读路径。前两页固定保留 COL26.8 ID，同时明确展示 MDD v2.4 与来源分类修订的不同处理；旧名下的 Yasuní 数据不强行映射到变更后的物种概念。P. stephennashi 页比较原始描述与 2025 年馆藏毛色解释，不声称解决分类问题。P. ornatus 的 2024 研究用扫描取样比较两个破碎化程度不同的亚诺斯景观群体，记录 35 种食用植物，活动预算有差异而水果在两处均为主要食物。本批未新增 dossier；各页均未经过外部领域专家评审。
+
+阅读路径先对照 4K5Y5 的 Yasuní 旧名研究与 2025 名称修订，再读 4K5YG 的 2002 模式描述和 2025 馆藏形态讨论，最后读 782LM 的两群体行为与食性研究。三者分别代表名称沿革、模式形态与局地行为；不拼合为属级分布、密度或生活史。
+
+来源：[Carrillo-Bilbao、Di Fiore 与 Fernández-Duque（2005），Yasuní 单群体研究](https://doi.org/10.1896/1413-4705.13.2.7)；[Papworth，Yasuní 2010 年绢毛猴距离抽样资料](https://doi.org/10.17637/rh.14179124)；[van Roosmalen 等（2002），Callicebus stephennashi 原始描述](https://doi.org/10.62015/np.2002.v10.503)；[Vermeer 等（2025），西北部绢毛猴分类与分布修订](https://www.primate-sg.org/storage/pdf/PC39_Vermeer_et_al_Distribution_taxonomy_NW_titis.pdf)；[MDD v2.4 分类变更记录](https://www.mammaldiversity.org/releases/diff-changes/2.4/)；[Byrne 等（2016），绢毛猴分子分类研究](https://doi.org/10.1186/s12983-016-0142-4)；[Quintero-Tapia 与 Carretero-Pinzón（2024），华丽绢毛猴两群体行为和食性研究](https://www.primate-sg.org/storage/pdf/PC38_Quintero-Tapia_Carretero-Pinzon_diet_ornate_titi.pdf)。
+
+本批后固定灵长类种级页面为 477/530（54 个 dossier-backed、423 个 profile-only），53 个接受种仍无种级页面；458 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。属级介绍不计入 530 个种级分母。
+
+按照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；仅按顺序生成读者投影、注册表和数据清单。
