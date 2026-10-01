@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-90 继续从剩余 32 个无种级页面的 COL26.8 接受种中盘点来源较充分的候选，扩展双语物种页与属级阅读路径。灵长类现有 498/530 个种级页面记录（54 个 dossier-backed、444 个 profile-only）；32 个仍无种级页面，476 个仍未命中 dossier 索引。479 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-91 继续从剩余 29 个无种级页面的 COL26.8 接受种中盘点来源较充分的候选，扩展双语物种页与属级阅读路径。灵长类现有 501/530 个种级页面记录（54 个 dossier-backed、447 个 profile-only）；29 个仍无种级页面，476 个仍未命中 dossier 索引。482 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1600,6 +1600,24 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 来源：[Fashing 等（2014），Guassa gelada 七年取食生态研究](https://doi.org/10.1002/ajpa.22559)；[Beehner 等（2007），Simien Mountains 国家公园内外数量清点](https://doi.org/10.4314/sinet.v30i2.18290)；[Kifle 等（2013），Wonchit Valley 种群与行为研究](https://doi.org/10.3923/pjbs.2013.1248.1259)；[Heliyon（2023），Tigray 山地片区分布与种群调查](https://doi.org/10.1016/j.heliyon.2023.e19346)；[MDD v2.5：Gelada](https://www.mammaldiversity.org/taxon/1000635/)；[COL26.8：Theropithecus gelada](https://api.checklistbank.org/dataset/316115/taxon/7C8JR)；[COL26.8：Theropithecus](https://api.checklistbank.org/dataset/316115/taxon/7VV8)。
 
 本批后固定灵长类种级页面为 498/530（54 个 dossier-backed、444 个 profile-only），32 个接受种仍无种级页面；479 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。属级导读不计入 530 个种级分母。
+
+按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
+## P3-90 三种长尾猴类群的清点、野外生态与阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 | 批次 |
+|---|---|---|---|
+| 4TQGL Rungwecebus kipunji | 坦桑尼亚两个种群中心的初次清点、南部高地复查与 Ndundulu 调查 | 调查时期、地理范围和设计不同；不合并为当前全种群数量 | P3-90 |
+| 3XTLH Mandrillus sphinx | 加蓬多地点取食记录、Lopé 单一大群活动范围、Moukalaba–Doudou 季节性食谱 | 各项结论分别限定于地点、时期和群体；Lopé 群体不是典型值 | P3-90 |
+| 6NTWY Lagothrix flavicauda | La Esperanza 两期密度比较、Huánuco 山地清查与 Río Huallaga 东侧新记录 | 地方密度不等于全种群；新记录是分布证据，不是总量普查 | P3-90 |
+
+本批新增三条双语 profile-only 物种页，并为 COL26.8 属级 ID 7B5R、62ZM2 和 63837 新增阅读路径。COL26.8 source 2144 固定接受身份、作者和父属；MDD v2.5 提供英文显示名。Rungwecebus 页并列 2008 年两种群初期清点、2022 年 Southern Highlands 完整清点与 2026 年 Ndundulu 扫查，各自保留时间和覆盖范围。Mandrillus sphinx 页区分 Lahm（1986）加蓬多地早期记录、White 等（2010）在 Lopé 跟踪的一个大型群体，以及 Hongo 等（2018）在 Moukalaba–Doudou 采集的季节性取食与栖息地记录。Lagothrix flavicauda 页区分 La Esperanza 两期密度比较、2014 年 Huánuco 微流域清查和 2016 年 Río Huallaga 东侧五群记录；整体密度变化本身未显著，新增分布记录也不是种群总量。无新增 dossier、无外部领域专家评审；中文显示名为编辑用名。
+
+属级阅读路径分别比较 Rungwecebus 不同时地的两种群清点，Mandrillus 中钻猴与山魈各自的页面，以及 Lagothrix 在巴西的 L. lagothricha 分布记录与秘鲁 L. flavicauda 山地调查。路径保留物种身份、时期、地理范围和采样单位，不归并为属级生态或数量结论。
+
+来源：[Davenport 等（2008），Kipunji 首次清点与保护状况评估](https://doi.org/10.1017/S0030605308000422)；[Davenport 等（2022），Southern Highlands 13 年复查](https://doi.org/10.1007/s10764-022-00281-3)；[Mcharo 等（2026），Udzungwa 的 Kipunji 群体清点](https://doi.org/10.1007/s10329-026-01250-7)；[Lahm（1986），加蓬山魈食性与栖息地选择](https://doi.org/10.1002/ajp.1350110103)；[White 等（2010），Lopé 野生山魈群活动范围](https://doi.org/10.1007/s10764-010-9417-3)；[Hongo 等（2018），野生山魈季节食性与栖息地利用](https://doi.org/10.1007/s10764-017-0007-5)；[Shanee 与 Shanee（2015），La Esperanza 黄尾绒毛猴密度复查](https://doi.org/10.1177/194008291500800114)；[Aquino 等（2015），Huánuco 山地灵长类清查](https://doi.org/10.22386/ca.v5i1.91)；[Aquino 等（2016），Río Huallaga 东侧黄尾绒毛猴新记录](https://static1.1.sqspcdn.com/static/f/1200343/27358076/1480544826523/PC30_Aquino_et_al_L_flavicauda_East_of_Rio_Huallaga.pdf)；[MDD v2.5：Kipunji](https://www.mammaldiversity.org/taxon/1000634/)；[MDD v2.5：Mandrill](https://www.mammaldiversity.org/taxon/1000627/)；[MDD v2.5：Yellow-tailed Woolly Monkey](https://www.mammaldiversity.org/taxon/1000776/)；[COL26.8：Rungwecebus kipunji](https://api.checklistbank.org/dataset/316115/taxon/4TQGL)；[COL26.8：Mandrillus sphinx](https://api.checklistbank.org/dataset/316115/taxon/3XTLH)；[COL26.8：Lagothrix flavicauda](https://api.checklistbank.org/dataset/316115/taxon/6NTWY)。
+
+本批后固定灵长类种级页面为 501/530（54 个 dossier-backed、447 个 profile-only），29 个接受种仍无种级页面；482 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。三条属级导读不计入 530 个种级分母。
 
 按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
