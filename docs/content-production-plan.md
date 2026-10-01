@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-99 继续从剩余 16 个无种级页面的 COL26.8 接受种中，按现有野外材料与读者问题打包下一批双语种页和属级阅读路径。灵长类现有 514/530 个种级页面记录（54 个 dossier-backed、460 个 profile-only）；16 个仍无种级页面，476 个仍未命中 dossier 索引。495 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-101 继续从剩余 14 个无种级页面的 COL26.8 接受种中，按现有野外材料与读者问题打包下一批双语种页和属级阅读路径。灵长类现有 516/530 个种级页面记录（54 个 dossier-backed、462 个 profile-only）；14 个仍无种级页面，476 个仍未命中 dossier 索引。497 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1516,8 +1516,6 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 
 本批后固定灵长类种级页面为 488/530（54 个 dossier-backed、434 个 profile-only），42 个接受种仍无种级页面；469 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。属级导读不计入 530 个种级分母。
 
-按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
-
 ## P3-85 两种狮面狨的种群、生境与季节取食导读（2026-10-01）
 
 | COL26.8 ID / taxon | 内容重点 | 证据边界 | 批次 |
@@ -1702,5 +1700,16 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 属级路径串联四个已有/新增物种页中的研究：圭亚那连续林地食性与社会行为、巴西亚马逊区域范围图叠置、砍伐前沿局地出现记录。它不是完整属级清单或生态综合。MDD 的版本化分类备注不改变当前页面 ID；清单中另列的固定行 5Y6KL 不与新页 5Y6L6 合并。
 - 来源：[Shaffer（2013），圭亚那北部胡须僧面猴食性](https://doi.org/10.1002/ajp.22134)；[Shaffer（2013），自由活动胡须僧面猴的活动与雄性结伴](https://doi.org/10.1007/s10764-013-9727-3)；[Boyle 等（2023），孤立林片中的空间生态](https://doi.org/10.3390/d15060731)；[MDD v2.5：Guianan Bearded Saki](https://www.mammaldiversity.org/taxon/1000899/)；[COL26.8：Chiropotes sagulatus](https://api.checklistbank.org/dataset/316115/taxon/5Y6L6)；[COL26.8：Chiropotes](https://api.checklistbank.org/dataset/316115/taxon/3NCR)。本批未新增 dossier 或外部领域专家评审。
 - 本批后固定灵长类种级页面为 515/530（54 个 dossier-backed、461 个 profile-only），15 个接受种仍无页面；496 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个仍未命中 dossier 索引。属级导读不计入 530 个种级分母。
+
+按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
+
+## P3-100 — Procolobus
+
+- 为 COL26.8 接受种 *Procolobus verus*（4MNYC）新增 profile-only 双语页，并为接受属 *Procolobus*（63Q4Q）新增属级阅读路径。COL26.8 API 固定接受种名、作者、等级和父链；MDD v2.5 使用英文普通名 Olive Colobus，并给出粗略西非分布。中文名“橄榄叶猴”为编辑用名。
+- 物种页整理三组地点限定证据：Oates（1988）主要系统观察 Tiwai 岛一支群体的取食；Djègo-Djossou 等（2019）用自由记录法比较贝宁南部连续森林与碎片林中四支未习惯人类接近的群体；Oates 与 Whitesides（1990）记录 Tiwai 岛一支橄榄叶猴群与戴安娜猴群伴行。各研究的样本、地点和方法分开呈现，不外推为全物种模式。
+- 属级路径连接该接受种和三项局地研究；它不是完整属级名录、生态综合或分布评估。本批未新增 dossier 或外部领域专家评审。
+- 来源：[Oates（1988），Tiwai 岛取食研究](https://doi.org/10.1007/BF02736220)；[Djègo-Djossou 等（2019），贝宁连续林与碎片林取食比较](https://bec.uac.bj/uploads/publication/b9ad089291cdc32e15938a5594c511b3.pdf)；[Oates 与 Whitesides（1990），塞拉利昂猴群伴行研究](https://doi.org/10.1002/ajp.1350210206)；[MDD v2.5：Olive Colobus](https://www.mammaldiversity.org/taxon/1000658/)；[COL26.8：Procolobus verus](https://api.checklistbank.org/dataset/316115/taxon/4MNYC)；[COL26.8：Procolobus](https://api.checklistbank.org/dataset/316115/taxon/63Q4Q)。
+- 本批后固定灵长类种级页面为 516/530（54 个 dossier-backed、462 个 profile-only），14 个接受种仍无页面；497 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个仍未命中 dossier 索引。属级导读不计入 530 个种级分母。
 
 按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
