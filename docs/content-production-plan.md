@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-111 继续处理 20 个已建页但仍低于首轮来源限定标准或存在分类/归属待补项的 COL26.8 接受种，优先复查 *Trachypithecus melamerus* 与 *T. melamera* 的名称对应、*Cheracebus aquinoi* 的野外调查归属及 *Chiropotes israelita* 的 COL/MDD 分类边界；资料不足的项目明确保留缺口。灵长类固定分母已有 530/530 个种级页面（54 个 dossier-backed、476 个 profile-only），无种级页 0 个；510 个达到首轮标准，20 个仍低于该标准，476 个仍未命中 dossier 索引。完成首轮缺口处置后再建立主龙类固定分母与覆盖计划。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-112 继续处理 20 个已建页但仍低于首轮来源限定标准或存在分类/归属待补项的 COL26.8 接受种，优先复查 *Trachypithecus melamerus* 与 *T. melamera* 的名称对应、*Chiropotes israelita* 的 COL/MDD 分类边界及 *Saguinus ursula* 的物种级野外证据；资料不足的项目明确保留缺口。灵长类固定分母已有 530/530 个种级页面（54 个 dossier-backed、476 个 profile-only），无种级页 0 个；510 个达到首轮标准，20 个仍低于该标准，476 个仍未命中 dossier 索引。完成首轮缺口处置后再建立主龙类固定分母与覆盖计划。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1534,6 +1534,16 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 
+## P3-111 — Cheracebus aquinoi 区域样线调查的归属边界（2026-10-01）
+
+- 修订固定 COL26.8 页面 VQ6J6，并更新属级路径 3MSD。新增 Aquino 等（2021）区域样线调查的读者背景：2019 年 5—11 月在 Itaya、Nanay 与 Tigre 三个流域的六个地点完成 1,659 公里、1,897 小时日间样线，观察到 32 群仍标记为 *Cheracebus sp.* 的个体，其中 17 群位于 Nanay 流域。
+- 该调查早于 *C. aquinoi* 的 2022 年描述，原论文未把群体重新鉴定到新种；样区还包括 Itaya。虽然 2022 年描述将 Nanay-Tigre 形态归为 *C. aquinoi*，现有材料没有建立 2019 年观测群体与该分类单元的一对一对应，因此不将数量、密度或威胁估计转贴至 VQ6J6。
+- 本批增加的是区域证据和分类归属边界，不满足种级丰度、趋势或完整生态所需的确认资料；*C. aquinoi* 仍低于首轮标准。固定灵长类分母维持 530/530 页，其中 510 个达到首轮来源限定标准、20 个仍低于标准，476 个未命中 dossier 索引。未新增 dossier 或外部领域评审。
+- 来源：[Aquino 等（2021），Tigre 与 Nanay 河间 *Cheracebus sp.* 现况调查](https://doi.org/10.15381/rpb.v28i2.20463)；[Rengifo 等（2022），*C. aquinoi* 原始描述](https://doi.org/10.3106/ms2022-0019)；[COL26.8：VQ6J6](https://api.checklistbank.org/dataset/316115/taxon/VQ6J6) 与 [3MSD](https://api.checklistbank.org/dataset/316115/taxon/3MSD)。
+
+按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
+
 ## P3-109 — Paragalago zanzibaricus 的坦桑尼亚样线记录（2026-10-01）
 
 - 修订 COL26.8 固定页面 4CVG5，增加坦桑尼亚 Zaraninge 森林的来源限定野外内容。Kiwia（2006）在 Bagamoyo 区的干燥常绿海岸林开展夜间样线调查；58 次眼镜猴计数覆盖 223.8 公里。论文表格将 Zanzibar galago 记录为 73 次、88 只，报告局地密度 12.9 ± 10.5 只/平方公里。
@@ -1579,7 +1589,7 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 
 - 为 COL26.8 接受种 *Cheracebus medemi*（TXQM）与 *C. aquinoi*（VQ6J6）新增 profile-only 双语种页，并为接受属 *Cheracebus*（3MSD）新增属级阅读路径。MDD v2.5 对应 ID 分别为 1000865 和 1006643；中文普通名为编辑译名。
 - *C. medemi* 页记录 Hershkovitz（1963）的原始组合 *Callicebus torquatus medemi* 及模式地点，并把 Palacios 与 Peres（2005）三个低地森林地点的历史样线估值保留在旧名称 *Callicebus torquatus* 下。该研究的 6.8、4.8、9.6 只/平方公里估值未被本页重新分配到当前种级分类单元。
-- *C. aquinoi* 页概述 Rengifo 等（2022）的形态比较与洛雷托地点资料，记录正模 MUSM 59736 及 Villa Belén 附近的模式地点。MDD v2.5 将其列为未评估；分类描述和地点记录不是种群普查或完整自然史。
+- *C. aquinoi* 页概述 Rengifo 等（2022）的形态比较与洛雷托地点资料，记录正模 MUSM 59736 及 Villa Belén 附近的模式地点。MDD v2.5 将其列为未评估；分类描述和地点记录不是种群普查或完整自然史。P3-111 补入 2019 年区域样线调查的未定种记录，但不把其数量重新归入 *C. aquinoi*。
 - 属级路径连接 COL26.8 的六个接受种 ID 与上述两项不同地点、分类范围的研究，不将旧分类名的区域数据和新种描述合并为属级分布、丰度或生态结论。两种新增页面都仍低于首轮来源限定阅读页标准：缺少足以写出当前种级丰度、趋势及完整生态的确认野外资料；将作为源材料不足/证据边界待补项保留。
 - 来源：[Hershkovitz（1963）](https://doi.org/10.1515/mamm.1963.27.1.1)、[Palacios 与 Peres（2005）](https://doi.org/10.1159/000084376)、[Rengifo 等（2022）](https://doi.org/10.3106/ms2022-0019)、[MDD Medem's Titi 1000865](https://www.mammaldiversity.org/taxon/1000865/)、[MDD Aquino's Titi 1006643](https://www.mammaldiversity.org/taxon/1006643/) 和 [COL26.8 TXQM](https://api.checklistbank.org/dataset/316115/taxon/TXQM)、[VQ6J6](https://api.checklistbank.org/dataset/316115/taxon/VQ6J6)、[3MSD](https://api.checklistbank.org/dataset/316115/taxon/3MSD)。本批未新增 dossier 或外部专家评审。
 - 本批后固定灵长类种级页面为 527/530（54 个 dossier-backed、473 个 profile-only），3 个接受种仍无种级页；506 个达到首轮来源限定阅读页标准，21 个仍低于该标准或存在分类/归属待补项，476 个仍未命中 dossier 索引。属级导读不计入 530 个种级分母。
