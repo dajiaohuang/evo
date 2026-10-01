@@ -50051,6 +50051,259 @@
         "en": "This path connects selected species pages and historical or local studies with different methods. It does not provide a complete Arctocebus roster, genus-wide range assessment, or ecological synthesis. COL26.8 ID 32BW fixes the genus identity. No dossier or external expert review was added.",
         "zh": "本路径连接部分物种页面，以及方法各异的历史或局地研究；它不提供完整的 Arctocebus 名录、属级分布评估或生态综合。属级身份固定为 COL26.8 ID 32BW。本批未新增 dossier，也未经过外部领域专家评审。"
       }
+    },
+    {
+      "colId": "3CHNL",
+      "scientificName": "Euoticus elegantulus (LeConte, 1857)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-10-01",
+      "name": {
+        "en": "Southern Needle-clawed Galago",
+        "zh": "南方针爪婴猴"
+      },
+      "reviewStatus": "source-linked",
+      "sections": [
+        {
+          "topic": "overview",
+          "text": {
+            "en": "COL26.8 accepts Euoticus elegantulus (LeConte, 1857) as species ID 3CHNL under genus ID 4G62. The Mammal Diversity Database (MDD) uses Southern Needle-clawed Galago and assesses it as Least Concern. Its distribution text names Gabon, the Republic of the Congo, Rio Muni and Cameroon south of the Sanaga River; its separate coarse country summary also lists the Democratic Republic of the Congo and a possible Central African Republic record. These are database-level country records, not a continuous range map. The Chinese display name is editorial.",
+            "zh": "COL26.8 接受 Euoticus elegantulus（LeConte，1857）为种级 ID 3CHNL，属级父项为 4G62。哺乳动物多样性数据库（MDD）使用英文普通名 Southern Needle-clawed Galago，评估等级为无危（Least Concern）。其分布说明列出加蓬、刚果共和国、里奥穆尼和喀麦隆萨纳加河以南地区；另一个粗略国家汇总还列出刚果民主共和国及可能存在的中非共和国记录。这些是数据库层面的国家记录，不表示连续分布区。中文显示名为编辑用名。"
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd"
+          ]
+        },
+        {
+          "topic": "fieldSurvey",
+          "text": {
+            "en": "Forbanka’s Cameroon survey used three transects totalling 8.5 km and recorded 56 encounters of E. elegantulus and E. pallidus combined. The paper reports an encounter rate of 9.9 individuals per kilometre for E. elegantulus. Transects were deliberately placed at sites where the animals had been seen or heard on earlier survey nights, so this is a detection result from selected locations, not a density estimate or a range-wide population measure.",
+            "zh": "Forbanka 在喀麦隆开展的调查设置了 3 条总长 8.5 公里的样线，共记录到 56 次 E. elegantulus 与 E. pallidus 的合并目击。论文报告 E. elegantulus 的遇见率为每公里 9.9 只。样线有意设在先前调查夜间已见到或听到动物的地点，因此这是针对选定地点的发现结果，不是密度估值或全分布区种群指标。"
+          },
+          "sourceIds": [
+            "forbanka2018survey"
+          ]
+        },
+        {
+          "topic": "habitatContext",
+          "text": {
+            "en": "A separate Cameroon vegetation study sampled 14 quadrats in forest areas selected after nocturnal observations of Euoticus. Tree density differed between its sampled primary and secondary forests. The authors described some flexibility across those forest types while associating Euoticus with tall, large-diameter trees. Because the study treated the two needle-clawed species together, it does not establish a species-specific habitat response for E. elegantulus.",
+            "zh": "另一项喀麦隆植被研究在夜间观察到 Euoticus 后，选择林地设置了 14 个样方。其抽样的原生林与次生林之间树木密度存在差异。作者认为针爪婴猴属在这些林型间有一定利用弹性，同时与高大、胸径较大的树木生境相关。该研究将两种针爪婴猴合并讨论，不能证明 E. elegantulus 的特定栖息地响应。"
+          },
+          "sourceIds": [
+            "forbanka2018microhabitat"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Euoticus elegantulus",
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/3CHNL",
+          "scope": {
+            "en": "Pins the accepted species name, authorship, rank and genus parent under COL26.8 ID 3CHNL.",
+            "zh": "固定 COL26.8 下接受种名、作者、等级及属级父链（ID 3CHNL）。"
+          }
+        },
+        {
+          "id": "mdd",
+          "title": "Mammal Diversity Database v2.5 — Southern Needle-clawed Galago (1001040)",
+          "url": "https://www.mammaldiversity.org/taxon/1001040/",
+          "scope": {
+            "en": "Supports the English common name, distribution text and coarse country records, including a qualified Central African Republic entry, and Least Concern label.",
+            "zh": "支持英文普通名、分布说明、含有条件限定的中非共和国在内的粗略国家记录及无危标签。"
+          }
+        },
+        {
+          "id": "forbanka2018survey",
+          "title": "Forbanka (2018) — Population surveys of fork-marked dwarf lemurs and needle-clawed galagos",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29882030/",
+          "scope": {
+            "en": "Reports a selected-site Cameroon transect survey of two Euoticus species, with 56 combined encounters and a 9.9 individuals/km encounter rate for E. elegantulus; not a species-wide abundance estimate.",
+            "zh": "报告喀麦隆选定地点的两种 Euoticus 样线调查、合计 56 次目击，以及 E. elegantulus 每公里 9.9 只的遇见率；不是全物种丰度估值。"
+          }
+        },
+        {
+          "id": "forbanka2018microhabitat",
+          "title": "Forbanka (2018) — Microhabitat utilization by fork-marked dwarf lemurs and needle-clawed galagos in primary and secondary forests",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29717507/",
+          "scope": {
+            "en": "Summarizes 14 Cameroon vegetation quadrats selected after Euoticus observations and pooled genus-level habitat findings; it does not resolve differences between the two Euoticus species.",
+            "zh": "汇总在观察到 Euoticus 后选择的 14 个喀麦隆植被样方及属级合并栖息地发现；未区分两种 Euoticus。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "The survey covers a few selected Cameroon sites and reports encounter rates, not densities or a range-wide population estimate. The microhabitat study pools the two Euoticus species. MDD’s country list is coarse and includes a qualified Central African Republic record. COL26.8 ID 3CHNL fixes page identity; the Chinese display name is editorial. No dossier or external expert review was added.",
+        "zh": "样线调查只覆盖喀麦隆少数选定地点，报告的是遇见率，不是密度或全分布区种群估值。微生境研究合并了两种 Euoticus。MDD 国家列表较粗略，并将中非共和国记录标为不确定。COL26.8 ID 3CHNL 固定页面身份；中文显示名为编辑用名。本批未新增 dossier，也未经过外部领域专家评审。"
+      }
+    },
+    {
+      "colId": "3CHNM",
+      "scientificName": "Euoticus pallidus (Gray, 1863)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-10-01",
+      "name": {
+        "en": "Northern Needle-clawed Galago",
+        "zh": "北方针爪婴猴"
+      },
+      "reviewStatus": "source-linked",
+      "sections": [
+        {
+          "topic": "overview",
+          "text": {
+            "en": "COL26.8 accepts Euoticus pallidus (Gray, 1863) as species ID 3CHNM under genus ID 4G62. The Mammal Diversity Database (MDD) uses Northern Needle-clawed Galago, lists Cameroon, Equatorial Guinea and Nigeria, and assesses it as Near Threatened. The Chinese display name is editorial.",
+            "zh": "COL26.8 接受 Euoticus pallidus（Gray，1863）为种级 ID 3CHNM，属级父项为 4G62。哺乳动物多样性数据库（MDD）使用英文普通名 Northern Needle-clawed Galago，列出喀麦隆、赤道几内亚和尼日利亚，并评估为近危（Near Threatened）。中文显示名为编辑用名。"
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd"
+          ]
+        },
+        {
+          "topic": "fieldSurvey",
+          "text": {
+            "en": "Forbanka’s Cameroon survey used three transects totalling 8.5 km and recorded 56 encounters of E. elegantulus and E. pallidus combined. The paper reports an encounter rate of 8.3 individuals per kilometre for E. pallidus from the Mount Kupe study site. Transects were deliberately placed at sites where the animals had been seen or heard on earlier survey nights, so this is a selected-site detection result, not a density estimate or a range-wide population measure.",
+            "zh": "Forbanka 在喀麦隆开展的调查设置了 3 条总长 8.5 公里的样线，共记录到 56 次 E. elegantulus 与 E. pallidus 的合并目击。论文报告 E. pallidus 在 Mount Kupe 研究地点的遇见率为每公里 8.3 只。样线有意设在先前调查夜间已见到或听到动物的地点，因此这是针对选定地点的发现结果，不是密度估值或全分布区种群指标。"
+          },
+          "sourceIds": [
+            "forbanka2018survey"
+          ]
+        },
+        {
+          "topic": "habitatContext",
+          "text": {
+            "en": "A separate Cameroon vegetation study sampled 14 quadrats in forest areas selected after nocturnal observations of Euoticus. Tree density differed between its sampled primary and secondary forests. The authors described some flexibility across those forest types while associating Euoticus with tall, large-diameter trees. Because the study treated the two needle-clawed species together, it does not establish a species-specific habitat response for E. pallidus.",
+            "zh": "另一项喀麦隆植被研究在夜间观察到 Euoticus 后，选择林地设置了 14 个样方。其抽样的原生林与次生林之间树木密度存在差异。作者认为针爪婴猴属在这些林型间有一定利用弹性，同时与高大、胸径较大的树木生境相关。该研究将两种针爪婴猴合并讨论，不能证明 E. pallidus 的特定栖息地响应。"
+          },
+          "sourceIds": [
+            "forbanka2018microhabitat"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Euoticus pallidus",
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/3CHNM",
+          "scope": {
+            "en": "Pins the accepted species name, authorship, rank and genus parent under COL26.8 ID 3CHNM.",
+            "zh": "固定 COL26.8 下接受种名、作者、等级及属级父链（ID 3CHNM）。"
+          }
+        },
+        {
+          "id": "mdd",
+          "title": "Mammal Diversity Database v2.5 — Northern Needle-clawed Galago (1001041)",
+          "url": "https://www.mammaldiversity.org/taxon/1001041/",
+          "scope": {
+            "en": "Supports the English common name, Cameroon, Equatorial Guinea and Nigeria country records, and Near Threatened label.",
+            "zh": "支持英文普通名、喀麦隆、赤道几内亚和尼日利亚国家记录及近危标签。"
+          }
+        },
+        {
+          "id": "forbanka2018survey",
+          "title": "Forbanka (2018) — Population surveys of fork-marked dwarf lemurs and needle-clawed galagos",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29882030/",
+          "scope": {
+            "en": "Reports a selected-site Cameroon transect survey of two Euoticus species, with 56 combined encounters and an 8.3 individuals/km encounter rate for E. pallidus; not a species-wide abundance estimate.",
+            "zh": "报告喀麦隆选定地点的两种 Euoticus 样线调查、合计 56 次目击，以及 E. pallidus 每公里 8.3 只的遇见率；不是全物种丰度估值。"
+          }
+        },
+        {
+          "id": "forbanka2018microhabitat",
+          "title": "Forbanka (2018) — Microhabitat utilization by fork-marked dwarf lemurs and needle-clawed galagos in primary and secondary forests",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29717507/",
+          "scope": {
+            "en": "Summarizes 14 Cameroon vegetation quadrats selected after Euoticus observations and pooled genus-level habitat findings; it does not resolve differences between the two Euoticus species.",
+            "zh": "汇总在观察到 Euoticus 后选择的 14 个喀麦隆植被样方及属级合并栖息地发现；未区分两种 Euoticus。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "The survey covers a few selected Cameroon sites and reports encounter rates, not densities or a range-wide population estimate. The microhabitat study pools the two Euoticus species. MDD’s country list is coarse. COL26.8 ID 3CHNM fixes page identity; the Chinese display name is editorial. No dossier or external expert review was added.",
+        "zh": "样线调查只覆盖喀麦隆少数选定地点，报告的是遇见率，不是密度或全分布区种群估值。微生境研究合并了两种 Euoticus。MDD 国家列表较粗略。COL26.8 ID 3CHNM 固定页面身份；中文显示名为编辑用名。本批未新增 dossier，也未经过外部领域专家评审。"
+      }
+    },
+    {
+      "colId": "4G62",
+      "scientificName": "Euoticus Gray, 1863",
+      "rank": "genus",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-10-01",
+      "name": {
+        "en": "Needle-clawed Galago genus",
+        "zh": "针爪婴猴属"
+      },
+      "reviewStatus": "source-linked",
+      "sections": [
+        {
+          "topic": "readingPath",
+          "text": {
+            "en": "COL26.8 genus ID 4G62 links the accepted E. elegantulus (3CHNL) and E. pallidus (3CHNM) pages. Start with the Cameroon transect survey to compare the reported encounter rates for the two species, then read the vegetation study for pooled genus-level context: its 14 Cameroon quadrats were selected after nocturnal Euoticus observations and showed a difference in tree density between sampled primary and secondary forests. The encounter rates come from selected sites and are not densities; the vegetation article does not distinguish habitat responses between the species. This is a path through selected evidence, not a complete genus roster or ecological synthesis.",
+            "zh": "COL26.8 属级 ID 4G62 连接接受种 E. elegantulus（3CHNL）和 E. pallidus（3CHNM）页面。可先读喀麦隆样线调查，对照两种的报告遇见率；再读植被研究了解属级合并背景：其 14 个喀麦隆样方是在夜间观察到 Euoticus 后选择的，抽样的原生林与次生林之间树木密度有差异。遇见率来自选定地点，不是密度；植被论文没有区分两种的栖息地响应。本页串联部分证据，不是完整属级名录或生态综合。"
+          },
+          "sourceIds": [
+            "taxonomy",
+            "speciesElegantulus",
+            "speciesPallidus",
+            "forbanka2018survey",
+            "forbanka2018microhabitat"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Euoticus",
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/4G62",
+          "scope": {
+            "en": "Pins the accepted genus name, authorship and rank under COL26.8 ID 4G62.",
+            "zh": "固定 COL26.8 下接受属名、作者和等级（ID 4G62）。"
+          }
+        },
+        {
+          "id": "speciesElegantulus",
+          "title": "Catalogue of Life COL26.8 — Euoticus elegantulus",
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/3CHNL",
+          "scope": {
+            "en": "Connects accepted species ID 3CHNL to genus ID 4G62.",
+            "zh": "将接受种级 ID 3CHNL 接入属级 ID 4G62。"
+          }
+        },
+        {
+          "id": "speciesPallidus",
+          "title": "Catalogue of Life COL26.8 — Euoticus pallidus",
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/3CHNM",
+          "scope": {
+            "en": "Connects accepted species ID 3CHNM to genus ID 4G62.",
+            "zh": "将接受种级 ID 3CHNM 接入属级 ID 4G62。"
+          }
+        },
+        {
+          "id": "forbanka2018survey",
+          "title": "Forbanka (2018) — Population surveys of fork-marked dwarf lemurs and needle-clawed galagos",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29882030/",
+          "scope": {
+            "en": "Compares encounter rates for both Euoticus species in a selected-site Cameroon survey; rates are not densities or range-wide abundance estimates.",
+            "zh": "比较两种 Euoticus 在喀麦隆选定地点调查中的遇见率；这些比率不是密度或全分布区丰度估值。"
+          }
+        },
+        {
+          "id": "forbanka2018microhabitat",
+          "title": "Forbanka (2018) — Microhabitat utilization by fork-marked dwarf lemurs and needle-clawed galagos in primary and secondary forests",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29717507/",
+          "scope": {
+            "en": "Reports selected Cameroon vegetation quadrats and pooled Euoticus habitat findings; it does not distinguish the two species.",
+            "zh": "报告喀麦隆选定植被样方及 Euoticus 合并栖息地发现；未区分两种。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "This path connects two accepted COL26.8 species IDs with a small set of Cameroon studies. It does not provide a complete genus roster, a range-wide assessment, or species-resolved habitat synthesis. No dossier or external expert review was added.",
+        "zh": "本路径将两个 COL26.8 接受种 ID 与少量喀麦隆研究相连；它不提供完整属级名录、全分布区评估或按物种区分的栖息地综合。本批未新增 dossier，也未经过外部领域专家评审。"
+      }
     }
   ]
 }

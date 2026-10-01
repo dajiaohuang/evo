@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-103 从剩余 11 个无种级页面的 COL26.8 接受种中，按现有野外材料与读者问题打包下一批双语种页和属级阅读路径。灵长类现有 519/530 个种级页面记录（54 个 dossier-backed、465 个 profile-only）；11 个仍无种级页面，476 个仍未命中 dossier 索引。500 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-104 从剩余 9 个无种级页面的 COL26.8 接受种中，按现有野外材料与读者问题打包下一批双语种页和属级阅读路径。灵长类现有 521/530 个种级页面记录（54 个 dossier-backed、467 个 profile-only）；9 个仍无种级页面，476 个仍未命中 dossier 索引。502 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1530,6 +1530,17 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 来源：[Nascimento 等（2011），L. caissara 种群密度样线调查](https://doi.org/10.1896/044.018.0103)；[Nascimento 与 Schmidlin（2011），L. caissara 生境选择与承载力模型](https://doi.org/10.1017/S0030605310000943)；[Keuroghlian 与 Passos（2001），L. chrysopygus 猎物取食与季节性](https://doi.org/10.1590/S1519-69842001000300015)；[Felippi 等（2026），黑狮面狨树上相机研究](https://doi.org/10.1007/s10764-026-00552-3)；[MDD v2.5：L. caissara](https://www.mammaldiversity.org/taxon/1000787/)；[MDD v2.5：L. chrysopygus](https://www.mammaldiversity.org/taxon/1000789/)。
 
 本批后固定灵长类种级页面为 490/530（54 个 dossier-backed、436 个 profile-only），40 个接受种仍无种级页面；471 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。属级导读不计入 530 个种级分母。
+
+按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
+## P3-103 — Euoticus
+
+- 为 COL26.8 接受种 *Euoticus elegantulus*（3CHNL）与 *E. pallidus*（3CHNM）新增 profile-only 双语页，并为接受属 *Euoticus*（4G62）新增属级阅读路径。MDD v2.5 分别使用 Southern Needle-clawed Galago（Least Concern）和 Northern Needle-clawed Galago（Near Threatened）；中文名为编辑用名。
+- Forbanka（2018）在喀麦隆设置 3 条总长 8.5 公里的样线，合计记录两种 Euoticus 56 次目击；论文摘要分别报告每公里 9.9 只和 8.3 只的物种遇见率。调查样线有意选择既往已发现动物的地点，页面将这些数字限定为选定地点的遇见率，不称作密度或全分布区丰度。
+- Forbanka（2018）的植被研究在喀麦隆夜间观察到 Euoticus 后选取林地设置 14 个样方，报告抽样原生林与次生林的树木密度差异，并讨论属级合并的林型利用情况。页面明确该研究未区分两种的栖息地响应。
+- 属级路径连接两个接受种页面，对照其喀麦隆遇见率，并将合并的植被研究作为有限背景；不代表完整属级名录或生态综合。本批未新增 dossier 或外部领域专家评审。
+- 来源：[Forbanka（2018），针爪婴猴种群样线调查](https://pubmed.ncbi.nlm.nih.gov/29882030/)；[Forbanka（2018），原生林和次生林微生境利用](https://pubmed.ncbi.nlm.nih.gov/29717507/)；[MDD v2.5：Southern Needle-clawed Galago](https://www.mammaldiversity.org/taxon/1001040/)；[MDD v2.5：Northern Needle-clawed Galago](https://www.mammaldiversity.org/taxon/1001041/)；[COL26.8：Euoticus elegantulus](https://api.checklistbank.org/dataset/316115/taxon/3CHNL)；[COL26.8：Euoticus pallidus](https://api.checklistbank.org/dataset/316115/taxon/3CHNM)；[COL26.8：Euoticus](https://api.checklistbank.org/dataset/316115/taxon/4G62)。
+- 本批后固定灵长类种级页面为 521/530（54 个 dossier-backed、467 个 profile-only），9 个接受种仍无页面；502 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个仍未命中 dossier 索引。属级导读不计入 530 个种级分母。
 
 按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
