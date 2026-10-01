@@ -10,7 +10,7 @@ status: migrated-verbatim
 ## overview
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
-本页按 COL26.8 固定接受种 ID 4K5YG 组织。分类处理存在差异：原始描述把它作为新种 Callicebus stephennashi 发表，Vermeer 等（2025）则认为相关毛色落在 P. caligatus 的表型变异范围内；MDD v2.4 将其并入 P. caligatus。COL26.8 仍将该 ID 列为接受种，本文保留两种处理，不替读者裁决。
+本页按 COL26.8 固定接受种 ID 4K5YG 组织。分类处理存在差异：原始描述把它作为新种 Callicebus stephennashi 发表，Vermeer 等（2025）则认为相关毛色落在 P. caligatus 的表型变异范围内；MDD v2.4 将其并入 P. caligatus。现行 MDD v2.5 的 P. caligatus 物种记录仍将 stephennashi 列为异名，v2.5 分类变更表也未列出取代 v2.4 处理的新变更。COL26.8 仍将该 ID 列为接受种，本文保留两种处理，不替读者裁决。
 <!-- /evo:text -->
 
 ## morphology
@@ -22,7 +22,7 @@ van Roosmalen 等（2002）以一件正模和四件副模描述该种。描述�
 ## interpretation
 
 <!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
-2025 年修订比较了馆藏标本，认为 Lago Canabouca 一带的材料与 stephennashi 模式相似，并把额带、背部和手足颜色差异解释为 P. caligatus 的表型变异。MDD v2.4 采用合并处理。读者可将原始描述与馆藏比较并读；在 COL26.8 身份和后续分类处理尚未协调前，不据此扩写该 ID 的全域生态、种群或保育结论。
+2025 年修订比较了馆藏标本，认为 Lago Canabouca 一带的材料与 stephennashi 模式相似，并把额带、背部和手足颜色差异解释为 P. caligatus 的表型变异。MDD v2.4 采用合并处理，v2.5 仍沿用。读者可将原始描述与馆藏比较并读；在 COL26.8 身份和后续分类处理尚未协调前，不据此扩写该 ID 的全域生态、种群或保育结论。
 <!-- /evo:text -->
 
 ## catalogue-profile / limitations

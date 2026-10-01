@@ -10,7 +10,7 @@ status: migrated-verbatim
 ## overview
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
-本页依照固定的 COL26.8 接受种 ID 4K5Y5 保留 Plecturocebus discolor。分类处理已出现实质分歧：Vermeer 等（2025）把过去称为 P. discolor 的白眉绢毛猴改称 P. leucometopus，并将名称 discolor 视为 P. cupreus 的异名；MDD v2.4 收录了这一处理。COL26.8 仍接受本页所用 ID，因此本页记录分类差异，不把不同名录中的名称自动视作同一概念。
+本页依照固定的 COL26.8 接受种 ID 4K5Y5 保留 Plecturocebus discolor。分类处理存在实质分歧：Vermeer 等（2025）把过去称为 P. discolor 的白眉绢毛猴改称 P. leucometopus，并将名称 discolor 视为 P. cupreus 的异名；MDD v2.4 收录了这一变更，现行 v2.5 分类变更表未列出取代它的新处理，当前物种记录仍把 P. discolor 置于 P. cupreus 之下。COL26.8 仍接受本页所用 ID，因此本页记录分类差异，不把不同名录中的名称自动视作同一概念。
 <!-- /evo:text -->
 
 ## fieldStudy
@@ -28,5 +28,5 @@ status: migrated-verbatim
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-英文显示名和中文名为编辑标签，不表示 MDD v2.4 接受 P. discolor 为独立种。旧组合下的 Yasuní 研究身份未在本页强行映射到现今不同分类概念；COL26.8 与 MDD 的种界差异仍待分类评议。本页有来源链接，但暂不计入首轮种级导读标准，尚无 dossier，未经过外部领域专家评审。
+英文显示名和中文名为编辑标签，不表示现行 MDD 接受 P. discolor 为独立种。旧组合下的 Yasuní 研究身份未在本页强行映射到现今不同分类概念；COL26.8 与 MDD 的种界差异仍待分类评议。本页有来源链接，但暂不计入首轮种级导读标准，尚无 dossier，未经过外部领域专家评审。
 <!-- /evo:text -->

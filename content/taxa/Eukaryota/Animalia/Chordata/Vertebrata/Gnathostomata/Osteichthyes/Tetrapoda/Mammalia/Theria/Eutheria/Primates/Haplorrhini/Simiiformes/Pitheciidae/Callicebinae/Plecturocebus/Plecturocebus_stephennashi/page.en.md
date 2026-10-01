@@ -16,7 +16,7 @@ overview
 ## overview
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
-This page follows fixed COL26.8 accepted-species ID 4K5YG. Taxonomic treatments differ: the original description introduced Callicebus stephennashi as a species, while Vermeer et al. (2025) interpret its pelage within the phenotypic variation of P. caligatus; MDD v2.4 lumps it into P. caligatus. COL26.8 still lists the ID as accepted, and this page presents both treatments without deciding between them.
+This page follows fixed COL26.8 accepted-species ID 4K5YG. Taxonomic treatments differ: the original description introduced Callicebus stephennashi as a species, while Vermeer et al. (2025) interpret its pelage within the phenotypic variation of P. caligatus; MDD v2.4 lumps it into P. caligatus. The current MDD v2.5 taxon record still lists stephennashi among the synonyms of P. caligatus, and the v2.5 taxonomy-change list contains no replacement for the v2.4 treatment. COL26.8 still lists the ID as accepted, and this page presents both treatments without deciding between them.
 <!-- /evo:text -->
 
 ## overview
@@ -41,6 +41,12 @@ vermeer2025
 
 <!-- evo:text /records/catalogue-profile/sections/0/sourceIds/3 -->
 mdd_v24
+<!-- /evo:text -->
+
+## overview
+
+<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/4 -->
+mdd_v25
 <!-- /evo:text -->
 
 ## morphology

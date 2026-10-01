@@ -16,7 +16,7 @@ overview
 ## overview
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
-This page follows the fixed COL26.8 accepted-species ID 4K5Y5, Plecturocebus discolor. Taxonomic treatments now differ: Vermeer et al. (2025) rename the white-browed titis formerly called P. discolor as P. leucometopus and treat discolor as a synonym of P. cupreus; MDD v2.4 records this treatment. COL26.8 still accepts the ID used here, so the page documents the disagreement without treating names in different lists as interchangeable concepts.
+This page follows the fixed COL26.8 accepted-species ID 4K5Y5, Plecturocebus discolor. Taxonomic treatments differ: Vermeer et al. (2025) rename the white-browed titis formerly called P. discolor as P. leucometopus and treat discolor as a synonym of P. cupreus. MDD v2.4 records that change, and the current MDD v2.5 taxonomy-change list contains no replacement for it; its current taxon records retain P. discolor under P. cupreus. COL26.8 still accepts the ID used here, so the page documents the disagreement without treating names in different lists as interchangeable concepts.
 <!-- /evo:text -->
 
 ## overview
@@ -35,6 +35,12 @@ vermeer2025
 
 <!-- evo:text /records/catalogue-profile/sections/0/sourceIds/2 -->
 mdd_v24
+<!-- /evo:text -->
+
+## overview
+
+<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/3 -->
+mdd_v25
 <!-- /evo:text -->
 
 ## fieldStudy
@@ -94,5 +100,5 @@ mdd_v24
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The English and Chinese display labels are editorial and do not imply that MDD v2.4 accepts P. discolor as a separate species. The Yasuní studies under the older combination are not forced onto a different current taxonomic concept. The COL26.8–MDD species-limit difference remains open for taxonomic review. This source-linked page is not yet counted at the first-round species-guide standard; there is no dossier or external expert review. This page is not externally expert-reviewed.
+The English and Chinese display labels are editorial and do not imply that current MDD accepts P. discolor as a separate species. The Yasuní studies under the older combination are not forced onto a different current taxonomic concept. The COL26.8–MDD species-limit difference remains open for taxonomic review. This source-linked page is not yet counted at the first-round species-guide standard; there is no dossier or external expert review. This page is not externally expert-reviewed.
 <!-- /evo:text -->

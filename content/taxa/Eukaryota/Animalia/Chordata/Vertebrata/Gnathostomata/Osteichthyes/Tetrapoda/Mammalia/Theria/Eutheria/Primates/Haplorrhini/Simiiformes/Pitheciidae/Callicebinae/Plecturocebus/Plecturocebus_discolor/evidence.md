@@ -10,7 +10,7 @@ records:
       zh: 杂色绢毛猴
       en: Discolor Titi
     reviewStatus: source-linked
-    checkedAt: 2026-10-01
+    checkedAt: 2026-10-02
     sections:
       - topic:
           markdown: page.en.md
@@ -29,6 +29,8 @@ records:
             field: /records/catalogue-profile/sections/0/sourceIds/1
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/0/sourceIds/2
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/3
       - topic:
           markdown: page.en.md
           field: /records/catalogue-profile/sections/1/topic
@@ -147,6 +149,38 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-1595c183-a8e1-82d5-a5a4-54fd3ef4b005
+          metadataVariant: 0
+          sourceKey: mdd25_cupreus
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+        - referenceId: ref-6a2b0b65-a878-4ad8-8a6e-4b3e2be7841a
+          metadataVariant: 0
+          sourceKey: mdd_v25
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/6/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/6/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
     limitations:
       zh:
         markdown: page.zh.md
@@ -222,4 +256,28 @@ Supports the authors’ taxonomic and distribution revision based on literature,
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en -->
 Supports the MDD v2.4 name change for P. discolor and the cited 2025 revision; used only to document differing taxonomic treatments.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/scope/zh -->
+支持现行 MDD P. cupreus 记录将 P. discolor 列作异名；该记录不能替代 COL26.8 的固定身份。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/scope/en -->
+Supports the current MDD P. cupreus record listing P. discolor as a synonym; this record does not replace the pinned COL26.8 identity.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/6/usage/scope/zh -->
+支持核对 MDD v2.5（2026-07-28）相对 v2.4 的分类变更表；该表未列出 P. discolor 的后续替换处理。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/6/usage/scope/en -->
+Supports checking MDD v2.5 (2026-07-28) taxonomy changes since v2.4; that list contains no later replacement treatment for P. discolor.
 <!-- /evo:text -->

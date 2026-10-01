@@ -10,7 +10,7 @@ records:
       zh: 纳什绢毛猴
       en: Stephen Nash's Titi
     reviewStatus: source-linked
-    checkedAt: 2026-10-01
+    checkedAt: 2026-10-02
     sections:
       - topic:
           markdown: page.en.md
@@ -31,6 +31,8 @@ records:
             field: /records/catalogue-profile/sections/0/sourceIds/2
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/0/sourceIds/3
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/4
       - topic:
           markdown: page.en.md
           field: /records/catalogue-profile/sections/1/topic
@@ -129,6 +131,38 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-94d84b02-8400-802b-afc8-eb4a31975528
+          metadataVariant: 0
+          sourceKey: mdd25_caligatus
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+        - referenceId: ref-6a2b0b65-a878-4ad8-8a6e-4b3e2be7841a
+          metadataVariant: 0
+          sourceKey: mdd_v25
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
     limitations:
       zh:
         markdown: page.zh.md
@@ -192,4 +226,28 @@ Supports the authors’ comparison of P. caligatus and stephennashi phenotypes a
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en -->
 Supports the MDD v2.4 release record lumping P. stephennashi into P. caligatus; used only to document differing taxonomic treatments.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh -->
+支持现行 MDD P. caligatus 记录将 stephennashi 列作异名；该记录不能替代 COL26.8 的固定身份。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en -->
+Supports the current MDD P. caligatus record listing stephennashi as a synonym; this record does not replace the pinned COL26.8 identity.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/scope/zh -->
+支持核对 MDD v2.5（2026-07-28）相对 v2.4 的分类变更表；该表未列出 stephennashi 并入 P. caligatus 后的后续替换处理。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/scope/en -->
+Supports checking MDD v2.5 (2026-07-28) taxonomy changes since v2.4; that list contains no later replacement of the stephennashi lump into P. caligatus.
 <!-- /evo:text -->

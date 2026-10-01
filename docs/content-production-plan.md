@@ -1947,3 +1947,10 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 补充 *Cacajao novaesi* 与 *C. rubicundus* 双语页中已引用的 Silva 等（2022）系统学研究样本信息，并完善共享参考文献的作者与期刊元数据。该研究在历史亚种分类下分别列出 *C. calvus novaesi* 的 5 条细胞色素 b 序列、以及 *C. calvus rubicundus* 的 8 条细胞色素 b 序列和 6 个 ddRAD 样本；其中 *novaesi* 的两个早期样本归属在原文中被质疑（一个上塔劳阿卡河未成年白秃乌卡里凭证标本，另一个无皮张/头骨、仅按地点归类且地点位于当时已知范围以北 350 多公里）。这些是旧分类标签下的系统学样本数，不是野外个体计数、普查或现行种界下的种群估计。
 - 保留 COL26.8 当前种级身份与 2021 年评估/2022 年论文使用旧亚种组合名之间的分类时间差；补充内容不提供可独立归属于现行种界的野外生态资料，故不关闭任何首轮缺口或改变物种分母/完成数。正文仍未经过外部领域专家评审。
 - 来源：[Silva 等（2022），秃乌卡里分子系统学与新种描述](https://doi.org/10.1016/j.ympev.2022.107509)；[大学开放仓储的作者接受稿与摘要](https://oars.uos.ac.uk/2771/)。
+
+## P3-124 — Plecturocebus 两个名称变更的现行版本核对（2026-10-02）
+
+- 更新 COL26.8 固定 ID 4K5Y5（*P. discolor*）和 4K5YG（*P. stephennashi*）的双语读者页及证据记录，补入现行 MDD v2.5（2026-07-28）分类变更表和当前 MDD 物种记录：v2.5 未列出对 v2.4 两项处理的后续替换，当前 MDD 仍将 *discolor* 列为 *P. cupreus* 异名、将 *stephennashi* 列为 *P. caligatus* 异名。
+- 固定名录仍保留两个接受种 ID；本批并列展示 COL26.8 与现行 MDD 的种界差异，不裁决两个概念是否等同。*P. discolor* 页面中的 Yasuní 研究继续限定为历史组合名下的局地单群/局地调查资料；*P. stephennashi* 继续限定为模式材料与馆藏形态比较，均不扩写为现行种界下的全域生态或保育信息。
+- 缺少 dossier 和外部领域专家评审，两项仍不计入首轮种级导读标准；本次不改变物种分母、已完成数或未解决缺口数。
+- 来源：[MDD v2.5 分类变更表](https://www.mammaldiversity.org/releases/diff-changes/2.5/)；[MDD *P. cupreus* 当前物种记录](https://www.mammaldiversity.org/taxon/1000875/)；[MDD *P. caligatus* 当前物种记录](https://www.mammaldiversity.org/taxon/1000872/)；[MDD v2.4 的相关名称变更](https://www.mammaldiversity.org/releases/diff-changes/2.4/)；[Vermeer 等（2025）修订](https://www.primate-sg.org/storage/pdf/PC39_Vermeer_et_al_Distribution_taxonomy_NW_titis.pdf)。
