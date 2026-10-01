@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-87 从剩余 38 个无种级页面的 COL26.8 接受种中盘点来源较充分的候选，继续扩展双语物种页与属级阅读路径。灵长类现有 492/530 个种级页面记录（54 个 dossier-backed、438 个 profile-only）；38 个仍无种级页面，476 个仍未命中 dossier 索引。473 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-88 从剩余 36 个无种级页面的 COL26.8 接受种中盘点来源较充分的候选，继续扩展双语物种页与属级阅读路径。灵长类现有 494/530 个种级页面记录（54 个 dossier-backed、440 个 profile-only）；36 个仍无种级页面，476 个仍未命中 dossier 索引。475 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1549,5 +1549,22 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 来源：[Martins（2005），南方绒毛蛛猴半落叶林群体生态研究](https://doi.org/10.62015/np.2005.v13.623)；[Strier 与 Ives（2025），北方绒毛蛛猴种群突变与模型预测](https://doi.org/10.1002/ecy.4487)；[MDD v2.5：B. arachnoides](https://www.mammaldiversity.org/taxon/1000774/)；[MDD v2.5：B. hypoxanthus](https://www.mammaldiversity.org/taxon/1000775/)；[COL26.8：Brachyteles](https://www.checklistbank.org/dataset/316115/taxon/3CLZ)。
 
 本批后固定灵长类种级页面为 492/530（54 个 dossier-backed、438 个 profile-only），38 个接受种仍无种级页面；473 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。属级导读不计入 530 个种级分母。
+
+按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
+## P3-87 两种蜘蛛猴的局地分布、取食与社会网络阅读路径（2026-10-01）
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 | 批次 |
+|---|---|---|---|
+| J8P5 Ateles fusciceps | 厄瓜多尔 Manabí 11 处森林残片的访谈、叫声回放和目视记录 | 研究对象具体为亚种 A. f. fusciceps；目视确认的 16 只不是总种群估计 | P3-87 |
+| J8P7 A. hybridus | Las Quinchas 单群体取食研究与 Hacienda San Juan de Carare 接触网络研究 | 两个地点、群体与问题不同；网络模型不等于感染或患病率证据 | P3-87 |
+
+本批新增两条双语 profile-only 物种页，并为 COL26.8 属级 ID 34V3 新增蜘蛛猴属阅读路径。COL26.8 source 2144 固定接受身份、作者与父属；MDD v2.5 提供英文显示名，中文名为编辑译名。Cervera 与 Griffith（2016）在 Manabí 一处约 1,500 平方公里、论文报告为 89% 已砍伐的景观中，访谈居民并于 2015 年用叫声回放调查六处残片，目视确认 16 个 A. f. fusciceps 个体；这是当地种群记录，不是总量普查。Link 等（2012）对 Las Quinchas 一个群体跟踪 2.5 年、记录 847 小时行为，报告至少 123 种取食植物和成熟果实占取食时间 92%。另一项接触网络研究分析 Hacienda San Juan de Carare 一个群体，不能当作寄生虫感染或患病率调查。MDD 将 A. hybridus 的作者年份列为 1828，COL26.8 列为 1829；页面保留 COL26.8 身份并明示差异。无新增 dossier、无外部领域专家评审。
+
+属级阅读路径先读 A. fusciceps 的厄瓜多尔局地分布记录，再读 A. hybridus 的 Las Quinchas 取食观察和另一地点的接触网络研究；比较地点、亚种称法、采样单位与指标，不归纳成全属的分布、食谱或丰度结论。
+
+来源：[Cervera 与 Griffith（2016），Manabí 的 A. fusciceps fusciceps 种群与分布记录](https://doi.org/10.1177/194008291600900109)；[Link 等（2012），A. hybridus 在 Las Quinchas 的取食研究](https://doi.org/10.1002/ajp.22066)；[Rimbach 等（2015），A. hybridus 社会网络与寄生虫传播动力学](https://doi.org/10.1098/rstb.2014.0110)；[MDD v2.5：A. fusciceps](https://www.mammaldiversity.org/taxon/1000769/)；[MDD v2.5：A. hybridus](https://www.mammaldiversity.org/taxon/1000771/)；[COL26.8：Ateles](https://www.checklistbank.org/dataset/316115/taxon/34V3)。
+
+本批后固定灵长类种级页面为 494/530（54 个 dossier-backed、440 个 profile-only），36 个接受种仍无种级页面；475 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。属级导读不计入 530 个种级分母。
 
 按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
