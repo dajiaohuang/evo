@@ -105,6 +105,34 @@ records:
             - licenseEvidenceLocator
             - licenseUrl
             - licenseAssessment
+        - referenceId: ref-7038596b-52b8-8b0a-a455-fbc40ba72f61
+          metadataVariant: 0
+          sourceKey: mclatchie2024
+          usage:
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/3/usage/scope/zh
+            license: CC BY 4.0
+            licenseEvidenceLocator: "Article license statement identifies Creative Commons Attribution 4.0 International."
+            licenseAppliesTo: "Article text; no figures or third-party materials are reused."
+            licenseUrl: https://creativecommons.org/licenses/by/4.0/
+            licenseAssessment: item-level-verified
+            attribution: "McLatchie, M. J. et al. (2024), Ecology and Evolution 14:e10988, https://doi.org/10.1002/ece3.10988"
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+            - license
+            - licenseAppliesTo
+            - attribution
+            - licenseEvidenceLocator
+            - licenseUrl
+            - licenseAssessment
     limitations:
       en:
         markdown: page.en.md
@@ -150,4 +178,16 @@ Combines field counts, drone and satellite imagery, and historical records to co
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/2/usage/scope/zh -->
 综合地面计数、无人机与卫星影像及历史记录，整理 398 个地点；估计 375 个现存繁殖群共有 342 万对。约 35% 的繁殖群缺少可用趋势比较，估值的调查年份与精度并不一致。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope / en
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en -->
+Reports breeding success and nest-survival associations from 450 monitored nests, five camera sites and ten breeding seasons at the Windmill Islands.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope / zh
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/zh -->
+报告 Windmill Islands 450 个受监测巢、五个相机点位和十个繁殖季的繁殖成功率及巢存活关联。
 <!-- /evo:text -->

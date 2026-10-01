@@ -1906,3 +1906,10 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 来源：[Xavier 等（2017），巴布亚企鹅异常冬季食性](https://doi.org/10.1371/journal.pone.0174850)；[Strycker 等（2020），帽带企鹅全球繁殖种群评估](https://doi.org/10.1038/s41598-020-76479-3)；[COL26.8 巴布亚企鹅 78R2P](https://api.checklistbank.org/dataset/316115/taxon/78R2P)；[COL26.8 帽带企鹅 4QPKS](https://api.checklistbank.org/dataset/316115/taxon/4QPKS)；[COL26.8 Pygoscelis 属 75VG](https://api.checklistbank.org/dataset/316115/taxon/75VG)。
 
 本批后按 `data/knowledge/catalogue-profiles.json` 中挂接到 `content/taxa/` 的 COL26.8 物种 profile 计数为 Aves 11/11,044，现生鳄目 27/27，合计 38/11,071；鸟类仍有 11,033 个接受种未进入种级 profile。仅有分类目录或 dossier、没有种级 reader profile 的项目不计入页面数；化石工作分母仍按 2026-09-30 PBDB `pres=regular` 查询冻结为 4,664，种群、属级阅读路径和 shared topics 分开计数。
+
+## P4-10 — Pygoscelis adeliae：Windmill Islands 十季繁殖监测（2026-10-02）
+
+- 将已有种级 dossier `4QPKQ` 的单项繁殖研究转为双语读者页，并更新 `Pygoscelis` 属级路径，使其连接属内三种接受种的研究页。繁殖成功率只报告 Windmill Islands 五个相机点位、十个繁殖季、450 个巢的测量；巢结构和较早占巢与雏鸟存活/繁殖成功的关系作为地点限定关联，不写成因果机制。
+- 研究期间部分相机年份数据缺失；该来源不能代替全物种分布、食性、迁徙或当前全球数量评估。正文及属级路径尚未经过外部领域专家评审。
+- 来源：[McLatchie 等（2024），阿德利企鹅巢占用时间与繁殖结果](https://doi.org/10.1002/ece3.10988)；[COL26.8 固定种 ID 4QPKQ](https://api.checklistbank.org/dataset/316115/taxon/4QPKQ)；[COL26.8 Pygoscelis 属 ID 75VG](https://api.checklistbank.org/dataset/316115/taxon/75VG)。
+- 本批后 Aves 种级 reader profile 为 12/11,044，现生鳄目仍为 27/27，共 39/11,071；鸟类仍有 11,032 个接受种无种级 profile。化石 PBDB 冻结分母与 reader-page 数维持 4,664 与 7/4,664。

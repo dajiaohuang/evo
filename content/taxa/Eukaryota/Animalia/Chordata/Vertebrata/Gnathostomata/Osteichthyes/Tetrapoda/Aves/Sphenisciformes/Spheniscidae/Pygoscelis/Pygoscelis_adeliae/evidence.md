@@ -2,6 +2,112 @@
 schemaVersion: 1
 kind: evidence
 records:
+  catalogue-profile:
+    scientificName: Pygoscelis adeliae (Hombron & Jacquinot, 1841)
+    rank: species
+    sourceDatasetId: "2144"
+    checkedAt: 2026-10-02
+    name:
+      en: Adélie Penguin
+      zh: 阿德利企鹅
+    reviewStatus: source-linked
+    sections:
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/0/topic
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/0
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/1
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/1/topic
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/sourceIds/0
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/2/topic
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/sourceIds/0
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+          metadataVariant: 0
+          sourceKey: taxonomy
+          usage:
+            title: COL26.8 ChecklistBank accepted species usage 4QPKQ
+            url: https://www.checklistbank.org/dataset/316115/taxon/4QPKQ
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+        - referenceId: ref-7038596b-52b8-8b0a-a455-fbc40ba72f61
+          metadataVariant: 0
+          sourceKey: mclatchie2024
+          usage:
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/1/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/1/usage/scope/zh
+            license: CC BY 4.0
+            licenseEvidenceLocator: "article/front/article-meta/permissions/license/license-p (CC BY 4.0)."
+            licenseAppliesTo: "Article text; no figures or third-party materials are reused."
+            licenseUrl: https://creativecommons.org/licenses/by/4.0/
+            licenseAssessment: item-level-verified
+            attribution: "McLatchie, M. J. et al. (2024), Ecology and Evolution 14:e10988, https://doi.org/10.1002/ece3.10988"
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+            - license
+            - licenseAppliesTo
+            - attribution
+            - licenseEvidenceLocator
+            - licenseUrl
+            - licenseAssessment
+    limitations:
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
   catalogue-dossier:
     scientificName: Pygoscelis adeliae (Hombron & Jacquinot, 1841)
     authorship: (Hombron & Jacquinot, 1841)
@@ -257,6 +363,30 @@ records:
 ---
 
 # Pygoscelis adeliae
+
+## referenceBindings / usage / scope / en
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/0/usage/scope/en -->
+Pins the COL26.8 accepted species identity and parent classification used by this page.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope / zh
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/0/usage/scope/zh -->
+固定本页采用的 COL26.8 接受种身份与父分类关系。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope / en
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/1/usage/scope/en -->
+Reports nest-monitoring results from five camera sites in the Windmill Islands across ten breeding seasons, with sample and site-year limits retained.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope / zh
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/1/usage/scope/zh -->
+报告 Windmill Islands 五个相机点位十个繁殖季的巢监测结果，并保留样本与地点年份限制。
+<!-- /evo:text -->
 
 ## catalogue-dossier / identity / method
 
