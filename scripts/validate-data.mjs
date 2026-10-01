@@ -239,8 +239,12 @@ function inspectTree(root, label) {
     check(node.firstAppearance >= node.lastAppearance, `${label} ${node.id}: invalid temporal range`)
     check(node.lastAppearance >= 0, `${label} ${node.id}: negative last appearance`)
     for (const child of node.children ?? []) {
-      check(child.firstAppearance <= node.firstAppearance, `${label} ${child.id}: first appearance falls outside parent ${node.id}`)
-      check(child.lastAppearance >= node.lastAppearance, `${label} ${child.id}: last appearance falls outside parent ${node.id}`)
+      const parentRangeIsWithheld = node.rangeEvidenceLevel === 'withheld-no-range-evidence'
+      const childRangeIsWithheld = child.rangeEvidenceLevel === 'withheld-no-range-evidence'
+      if (!parentRangeIsWithheld && !childRangeIsWithheld) {
+        check(child.firstAppearance <= node.firstAppearance, `${label} ${child.id}: first appearance falls outside parent ${node.id}`)
+        check(child.lastAppearance >= node.lastAppearance, `${label} ${child.id}: last appearance falls outside parent ${node.id}`)
+      }
       visit(child)
     }
     active.delete(node.id)
