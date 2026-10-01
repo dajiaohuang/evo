@@ -48829,6 +48829,202 @@
         "en": "The reading path connects three COL26.8 species pages and site-specific studies using different methods; their results are not a comparable genus-level ecological or population dataset. The Chinese display name is editorial. No dossier or external expert review was added.",
         "zh": "本阅读路径连接三个 COL26.8 物种页面及采用不同方法的局地研究；其结果不是可直接比较的属级生态或种群数据集。中文显示名为编辑用名。本页未新增 dossier，也未经过外部领域专家评审。"
       }
+    },
+    {
+      "colId": "BVDB",
+      "scientificName": "Allocebus trichotis (Günther, 1875)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-10-01",
+      "name": {
+        "en": "Hairy-eared Dwarf Lemur",
+        "zh": "毛耳鼠狐猴"
+      },
+      "reviewStatus": "source-linked",
+      "sections": [
+        {
+          "topic": "overview",
+          "text": {
+            "en": "COL26.8 accepts Allocebus trichotis as species ID BVDB under genus ID S7B. The pinned MDD v2.5 crosswalk matches the exact name to MDD 1000930 and supplies “Hairy-eared Dwarf Lemur” as the preferred English display name. The studies below concern rare sightings, modelled habitat and two groups at one reserve; none provides a species-wide population count.",
+            "zh": "COL26.8 接受 Allocebus trichotis 为种级 ID BVDB，隶属属级 ID S7B。固定的 MDD v2.5 交叉表将该精确名称对应到 MDD 1000930，并提供英文优先显示名 Hairy-eared Dwarf Lemur。下列研究涉及稀少的野外观察、模型化栖息地和一个保护区的两个群体；没有一项提供全物种种群数量。"
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_name"
+          ]
+        },
+        {
+          "topic": "northeasternSurvey",
+          "text": {
+            "en": "Schüßler and colleagues searched 109 nocturnal transects totaling 303.73 km across northeastern Madagascar during three periods in 2019, 2021 and 2022. They reported 23 direct observation occasions and compiled 31 locality records from earlier literature. These are sightings and mapped occurrence records, not counts of unique animals.",
+            "zh": "Schüßler 等人在马达加斯加东北部开展 109 条夜间样线调查，总长度 303.73 公里，分三个时段覆盖 2019、2021 和 2022 年。研究报告 23 次直接观察，并从早期文献汇编 31 条地点记录。这些是目击与绘图用的出现记录，不是独立个体计数。"
+          },
+          "sourceIds": [
+            "schussler2023"
+          ]
+        },
+        {
+          "topic": "habitatObservations",
+          "text": {
+            "en": "The survey recorded sightings in undisturbed, selectively logged and heavily logged primary forest, as well as in woody fallow and vanilla agroforestry; none was recorded in grass- or shrub-dominated fallows. The authors noted the small sample and did not statistically test the visually different vegetation structure. The records show where this survey found the lemur, not a general tolerance threshold for habitat disturbance.",
+            "zh": "调查在未受干扰、选择性采伐和重度采伐的原生林，以及木本休耕地和香草农林地记录到观察；草本或灌丛占优势的休耕地未记录到该种。作者指出样本量小，且没有对目测到的植被结构差异进行统计检验。这些记录说明本次调查在哪里发现该狐猴，不代表其对栖息地干扰程度的普遍耐受阈值。"
+          },
+          "sourceIds": [
+            "schussler2023"
+          ]
+        },
+        {
+          "topic": "analamazaotraHomeRange",
+          "text": {
+            "en": "Biebouw radiotracked animals at Analamazaotra Special Reserve in 2007. One complete sleeping group of four adults was followed for eight months and one partial group of two females for three months. Their group ranges were 35.5 and 16.0 ha by 100% minimum-convex-polygon estimates, or 15.2 and 7.1 ha by the 95% kernel method. These small-sample, site-specific estimates should be read with the method and group coverage attached.",
+            "zh": "Biebouw 于 2007 年在 Analamazaotra 特别保护区对个体开展无线电跟踪。一群由四只成体组成的完整睡眠群观察八个月，另一组两只雌性的部分群体观察三个月。按 100% 最小凸多边形估计，两群家域分别为 35.5 与 16.0 公顷；按 95% 核密度法则为 15.2 与 7.1 公顷。样本量小且地点有限的估计应与方法和群体覆盖范围一同阅读。"
+          },
+          "sourceIds": [
+            "biebouw2009range"
+          ]
+        },
+        {
+          "topic": "modelBoundary",
+          "text": {
+            "en": "The 2023 paper fitted separate ecological-niche models to literature records, new observations and both combined; predicted suitability differed with the input set. Its mapped areas are model outputs based on occurrence and environmental layers, not direct surveys of every predicted locality or a census. The separate Analamazaotra tree-hole study offers a site-specific follow-up on sleeping-site use.",
+            "zh": "2023 年论文分别使用文献记录、新观察记录及二者合并数据拟合生态位模型；预测适宜区会随输入数据集而变化。地图面积是基于出现记录和环境图层的模型输出，并非对每个预测地点的直接调查或种群普查。另有一项 Analamazaotra 树洞研究可补充阅读该地睡眠地点使用情况。"
+          },
+          "sourceIds": [
+            "schussler2023",
+            "biebouw2009treeholes"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Allocebus trichotis",
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/BVDB",
+          "scope": {
+            "en": "Pins accepted species ID BVDB, authorship and parent genus ID S7B.",
+            "zh": "固定接受种 ID BVDB、作者与父属 ID S7B。"
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": "Mammal Diversity Database v2.5 — Hairy-eared Dwarf Lemur (MDD 1000930)",
+          "url": "https://www.mammaldiversity.org/taxon/1000930/",
+          "scope": {
+            "en": "Supplies the preferred English display name for the exact accepted name; COL26.8 remains the page identity.",
+            "zh": "为该接受名提供优先英文显示名；页面身份仍以 COL26.8 为准。"
+          }
+        },
+        {
+          "id": "schussler2023",
+          "title": "Schüßler et al. (2023) — Habitat and ecological niche characteristics of the elusive Hairy-eared Dwarf Lemur with updated occurrence and geographic range data",
+          "url": "https://doi.org/10.1002/ajp.23473",
+          "scope": {
+            "en": "A literature-occurrence compilation and nocturnal-transect survey in northeastern Madagascar; direct sightings and presence-only niche models are kept distinct from population counts and confirmed range limits.",
+            "zh": "汇编文献出现记录，并在马达加斯加东北部开展夜间样线调查；直接观察与仅基于出现记录的生态位模型分开呈现，不等同于种群计数或确认分布边界。"
+          }
+        },
+        {
+          "id": "biebouw2009range",
+          "title": "Biebouw (2009) — Home Range Size and Use in Allocebus trichotis in Analamazaotra Special Reserve, Central Eastern Madagascar",
+          "url": "https://doi.org/10.1007/s10764-009-9349-y",
+          "scope": {
+            "en": "Radiotracking at Analamazaotra in 2007: one full four-adult sleeping group followed for eight months and one partial two-female group for three months; home-range values depend on MCP or kernel methods.",
+            "zh": "2007 年在 Analamazaotra 开展无线电跟踪：一群四只成体的完整睡眠群观察八个月，另一组两只雌性的部分群体观察三个月；家域数值取决于 MCP 或核密度方法。"
+          }
+        },
+        {
+          "id": "biebouw2009treeholes",
+          "title": "Biebouw, Bearder & Nekaris (2009) — Tree hole utilisation by the hairy-eared dwarf lemur in Analamazaotra Special Reserve",
+          "url": "https://doi.org/10.1159/000225905",
+          "scope": {
+            "en": "A local study of tree-hole characteristics and use, including sleeping-group composition, at Analamazaotra Special Reserve.",
+            "zh": "在 Analamazaotra 特别保护区研究树洞特征、使用方式与睡眠群组成的局地研究。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "The 2023 survey concerns northeastern Madagascar and 23 observation occasions; its niche models use presence records and environmental layers rather than animal counts. The 2007 home-range evidence is limited to two sleeping groups at Analamazaotra and varies by estimator. These sources do not establish current population size, trend or a complete confirmed range. The Chinese display name is editorial. No dossier or external expert review was added.",
+        "zh": "2023 年调查覆盖马达加斯加东北部，共报告 23 次观察；生态位模型使用出现记录与环境图层，而非个体计数。2007 年家域证据仅来自 Analamazaotra 的两个睡眠群，且估计值随方法改变。这些来源不能确定当前种群数量、趋势或已确认的完整分布区。中文显示名为编辑用名。本页未新增 dossier，也未经过外部领域专家评审。"
+      }
+    },
+    {
+      "colId": "S7B",
+      "scientificName": "Allocebus Petter-Rousseaux & Petter, 1967",
+      "rank": "genus",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-10-01",
+      "name": {
+        "en": "Hairy-eared dwarf lemur genus",
+        "zh": "毛耳鼠狐猴属"
+      },
+      "reviewStatus": "source-linked",
+      "sections": [
+        {
+          "topic": "readingPath",
+          "text": {
+            "en": "COL26.8 genus ID S7B links the accepted Allocebus trichotis page (BVDB). Start with the 2023 northeastern Madagascar survey to separate direct sightings from presence-only habitat models, then read the two Analamazaotra studies for radio-tracked home ranges and tree-hole use. Schüßler and colleagues describe Allocebus as a monotypic genus; the linked page is a species reading route, not a genus-wide ecological synthesis.",
+            "zh": "COL26.8 属级 ID S7B 连接接受种 Allocebus trichotis 页面（BVDB）。先读 2023 年马达加斯加东北部调查，区分直接观察与仅基于出现记录的栖息地模型；再读 Analamazaotra 的两项研究，了解无线电跟踪家域与树洞使用。Schüßler 等人将 Allocebus 描述为单型属；本页连接的是该物种的阅读路径，不是属级生态综合。"
+          },
+          "sourceIds": [
+            "taxonomy",
+            "speciesTaxonomy",
+            "schussler2023",
+            "biebouw2009range",
+            "biebouw2009treeholes"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "Catalogue of Life COL26.8 — Allocebus",
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/S7B",
+          "scope": {
+            "en": "Pins accepted genus ID S7B and its COL26.8 parent classification.",
+            "zh": "固定接受属 ID S7B 与 COL26.8 父级分类。"
+          }
+        },
+        {
+          "id": "speciesTaxonomy",
+          "title": "Catalogue of Life COL26.8 — Allocebus trichotis",
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/BVDB",
+          "scope": {
+            "en": "Links accepted species page BVDB into the genus reading path.",
+            "zh": "将接受种页面 BVDB 接入属级阅读路径。"
+          }
+        },
+        {
+          "id": "schussler2023",
+          "title": "Schüßler et al. (2023) — Habitat and ecological niche characteristics of the elusive Hairy-eared Dwarf Lemur with updated occurrence and geographic range data",
+          "url": "https://doi.org/10.1002/ajp.23473",
+          "scope": {
+            "en": "Northeastern Madagascar survey and occurrence-based habitat models.",
+            "zh": "马达加斯加东北部调查与基于出现记录的栖息地模型。"
+          }
+        },
+        {
+          "id": "biebouw2009range",
+          "title": "Biebouw (2009) — Home Range Size and Use in Allocebus trichotis in Analamazaotra Special Reserve, Central Eastern Madagascar",
+          "url": "https://doi.org/10.1007/s10764-009-9349-y",
+          "scope": {
+            "en": "A 2007 radio-tracking study of one full and one partial sleeping group at Analamazaotra.",
+            "zh": "2007 年在 Analamazaotra 对一个完整与一个部分睡眠群进行无线电跟踪。"
+          }
+        },
+        {
+          "id": "biebouw2009treeholes",
+          "title": "Biebouw, Bearder & Nekaris (2009) — Tree hole utilisation by the hairy-eared dwarf lemur in Analamazaotra Special Reserve",
+          "url": "https://doi.org/10.1159/000225905",
+          "scope": {
+            "en": "A local study of tree-hole characteristics and use at Analamazaotra.",
+            "zh": "在 Analamazaotra 研究树洞特征与使用方式的局地研究。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "The genus route rests on one accepted species page and studies from a limited set of sites and periods. It links the research records without combining them into a genus-wide ecology, current range or population trend. The Chinese display name is editorial. No dossier or external expert review was added.",
+        "zh": "属级路径基于一个接受种页面及少数地点、时期的研究。页面连接研究资料，但不将其合并为属级生态、当前分布区或种群趋势。中文显示名为编辑用名。本页未新增 dossier，也未经过外部领域专家评审。"
+      }
     }
   ]
 }
