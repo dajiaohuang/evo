@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-110 继续处理 21 个已建页但仍低于首轮来源限定标准或存在分类/归属待补项的 COL26.8 接受种，优先复查 *Trachypithecus melamerus* 与 *T. melamera* 的名称对应、*Cheracebus aquinoi* 的野外调查归属及 *P. orinus* 的 Uluguru 野外材料；资料不足的项目明确保留缺口。灵长类固定分母已有 530/530 个种级页面（54 个 dossier-backed、476 个 profile-only），无种级页 0 个；509 个达到首轮标准，21 个仍低于该标准，476 个仍未命中 dossier 索引。完成首轮缺口处置后再建立主龙类固定分母与覆盖计划。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-111 继续处理 20 个已建页但仍低于首轮来源限定标准或存在分类/归属待补项的 COL26.8 接受种，优先复查 *Trachypithecus melamerus* 与 *T. melamera* 的名称对应、*Cheracebus aquinoi* 的野外调查归属及 *Chiropotes israelita* 的 COL/MDD 分类边界；资料不足的项目明确保留缺口。灵长类固定分母已有 530/530 个种级页面（54 个 dossier-backed、476 个 profile-only），无种级页 0 个；510 个达到首轮标准，20 个仍低于该标准，476 个仍未命中 dossier 索引。完成首轮缺口处置后再建立主龙类固定分母与覆盖计划。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1243,7 +1243,7 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 |---|---|---|---|
 | 4CVFZ *P. cocos* | Diani、Gedi 两处肯尼亚海岸森林的标记重捕、无线电追踪和社会组织研究 | 1986 年论文沿用旧名；2006 年回顾将这批沿岸材料归入 *P. cocos*，不外推为现代全种生态 | P3-69 |
 | 4CVG2 *P. granti* | 南非 Tembe 与 Tshanini 24 个调查夜的睡眠点、树洞和觅食观察 | 两处南部分布边缘局地样本，不代表全分布区或种群趋势 | P3-69 |
-| 4CVG3 *P. orinus* | Mufindi 四处地点、76.5 小时夜间步行及 64 个叫声记录 | 该报告把记录暂定为 *G. cf. orinus*；Uluguru、Udzungwa 与 Taita 记录的身份不能自动合并 | P3-69 |
+| 4CVG3 *P. orinus* | Mufindi 暂定记录；P3-110 增加 Mkungwe 550 米野外记录及气候适生度模型 | Mufindi 仍为 *G. cf. orinus*，Uluguru 低海拔记录不等于种群估值；未来栖地变化是模型情景，不是观测 | P3-69 → P3-110 |
 | 4CVG4 *P. rondoensis* | Pande 2003 年粗略密度外推；Rondo 2012—2013 年六点调查的一笔夜间叫声 | 数量不是直接普查；旧调查与单点叫声均不表示当前全种状态或完整分布 | P3-69 |
 | 4CVG5 *P. zanzibaricus* | P3-69 初稿以分类与名称史为主；P3-109 增加坦桑尼亚 Zaraninge 样线调查 | Kiwia（2006）沿用 *Galagoides zanzibaricus*；保留坦桑尼亚局地估值，不指定亚种；肯尼亚旧名研究仍归入 *P. cocos* | P3-69 → P3-109 |
 
@@ -1540,6 +1540,16 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - Kiwia 使用旧组合 *Galagoides zanzibaricus*，地点在坦桑尼亚；本页不指定亚种。Butynski 等（2006）指出，肯尼亚 Diani 与 Gedi 的多项旧名资料实际对应 *P. cocos*，本页继续排除这些记录。Zaraninge 单地点估值保留其大标准误和历史性质，不解释为当前全分布区数量或种群趋势。
 - 本批把 4CVG5 从分类与名称史页扩展为局地野外导读，达到首轮来源限定标准；不新增 dossier、属级页面或外部领域评审。灵长类页面总数维持 530/530（54 个 dossier-backed、476 个 profile-only），无页面种数为 0；达到首轮标准的页面增至 509，仍低于该标准或有分类/归属待补项的页面为 21，476 个仍未命中 dossier 索引。
 - 来源：[Kiwia（2006），Zaraninge 森林大型哺乳动物多样性与丰度](https://doi.org/10.65085/2507-7961.1955)；[Butynski 等（2006），东非三种矮伽拉戈分类与分布](https://doi.org/10.1896/0898-6207.21.1.63)；[Pozzi 等（2020），*P. zanzibaricus* 复合群物种界定](https://doi.org/10.1016/j.ympev.2020.106887)；[MDD v2.5：Tanzania Coast Dwarf Galago](https://www.mammaldiversity.org/taxon/1001055/)；[COL26.8：Paragalago zanzibaricus](https://api.checklistbank.org/dataset/316115/taxon/4CVG5)。
+
+按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
+## P3-110 — Paragalago orinus 的 Uluguru 记录与气候适生度模型（2026-10-01）
+
+- 修订固定 COL26.8 页面 4CVG3。Uluguru Mountains Biodiversity Conservation Project 汇整的 2000 年调查资料记录 Mkungwe Forest Reserve 海拔 550 米处有 *Galagoides orinus*，距 *G. zanzibaricus* 约 50 米；报告称这是当时已知的最低海拔记录。该点位不提供数量估值或完整分布。
+- Miller（2025）用多来源出现点、约 5 公里气候栅格与三种全球气候模型建立 Maxent 适生度情景。相较模型当前基线，适生栖地面积预计在 2041—2060 年于 SSP245 下减少约 42%、SSP585 下减少约 56%；到 2061—2080 年分别减少约 56% 与 69%。Udzungwa 国家公园和 Ukwiva 森林保护区在研究评估的未来情景中保留最多模型适生及最适栖地。非系统搜集的异质出现点、低海拔地区可能的过度预测与未来气候假设均作为限制呈现；这些结果不是实测栖地损失或种群预测。
+- Mufindi 调查的主要伽拉戈仍为原报告所写的 *G. cf. orinus*，Taita 的 *Paragalago sp.* 也未被并入本种。本批把 4CVG3 扩展为包含局地点位与模型边界的来源限定导读，计入首轮标准；不新增 dossier 或外部领域评审。
+- 来源：[Uluguru Mountains Biodiversity Conservation Project，2000 年调查报告](https://www.tfcg.org/wp-content/uploads/2025/01/TFCG-WCST-Uluguru-Report-Part-I-FINAL.pdf)；[Miller（2025），山地矮伽拉戈气候适生度模型](https://www.researchgate.net/publication/392237537_Climate_Change_Raises_Concerns_for_the_Conservation_of_the_Threatened_Mountain_Dwarf_Galago_Paragalago_orinus)；[TFCG/MTSN，Mufindi 生物多样性调查](https://www.tfcg.org/wp-content/uploads/2018/05/TFCG-MTSN-Mufindi-Biodiversity-Survey-Report.pdf)；[Taita Hills *Paragalago* 研究（2023）](https://doi.org/10.1007/s10764-023-00390-7)；[COL26.8：4CVG3](https://api.checklistbank.org/dataset/316115/taxon/4CVG3)。
+- P3-110 后灵长类种级页面为 530/530（54 个 dossier-backed、476 个 profile-only），无页面 0 个；510 个达到首轮来源限定标准，20 个仍低于该标准或有分类/归属待补项，476 个仍未命中 dossier 索引。属级导读不计入 530 个种级分母。
 
 按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
 

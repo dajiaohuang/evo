@@ -38201,14 +38201,16 @@
         {
           "topic": "overview",
           "text": {
-            "zh": "山地矮伽拉戈与东非山地森林研究相关，但小型伽拉戈主要依叫声辨识，不同山块的叫声差异也会影响分类判定。这里的资料因此按研究地点和作者的鉴定措辞呈现，不把所有山地记录自动视为同一已确认族群。",
-            "en": "The Mountain Dwarf Galago is associated with studies of eastern African montane forests, but small galagos are identified largely through calls, and differences among mountain blocks affect taxonomic assignment. The evidence here is therefore tied to each study site and its identification wording; not every montane record is treated as a confirmed population of one taxon."
+            "zh": "山地矮伽拉戈与东非山地森林研究相关，但小型伽拉戈主要依叫声辨识，不同山块的叫声差异也会影响分类判定。本页并列 Mkungwe 森林保护区的一项低海拔记录与多来源出现点训练的气候适生度模型；模型预测不是实测种群变化。Mufindi 的伽拉戈仍由原报告暂定为 cf. orinus，Taita 身份也未定。",
+            "en": "The Mountain Dwarf Galago is associated with eastern African montane forests, but small galagos are identified largely through calls, and differences among mountain blocks affect taxonomic assignment. This page pairs a low-elevation record from Mkungwe Forest Reserve with a climate-suitability model built from occurrence records; the projections are not observed population changes. The Mufindi galago remains cf. orinus in its source, and the Taita population remains unresolved."
           },
           "sourceIds": [
             "taxonomy",
             "mdd_name",
             "rovero2009",
-            "mufindi_survey"
+            "mufindi_survey",
+            "uluguru2000",
+            "miller2025"
           ]
         },
         {
@@ -38222,6 +38224,16 @@
           ]
         },
         {
+          "topic": "local field record",
+          "text": {
+            "zh": "Uluguru Mountains Biodiversity Conservation Project 汇整的 2000 年调查资料记录：Mkungwe Forest Reserve 海拔 550 米处有 *Galagoides orinus*，距 *G. zanzibaricus* 约 50 米；报告称这是当时已知的最低海拔记录。该点位记录不提供数量估值，也不界定完整分布。",
+            "en": "The Uluguru Mountains Biodiversity Conservation Project report compiles 2000 survey records of *Galagoides orinus* at 550 m in Mkungwe Forest Reserve, about 50 m from *G. zanzibaricus*. The report called this the lowest known elevation record at the time. This locality record is not an abundance estimate or a complete range."
+          },
+          "sourceIds": [
+            "uluguru2000"
+          ]
+        },
+        {
           "topic": "taxonomy_and_evidence",
           "text": {
             "zh": "Udzungwa 山脉回顾指出，该地山地伽拉戈的叫声特征可能不同于其他已命名种群，需进一步工作确认分类地位。Taita Hills 的 dwarf galago 研究也明确保留未定分类身份；本页不将 Taita 记录并入 *P. orinus*。",
@@ -38230,6 +38242,16 @@
           "sourceIds": [
             "rovero2009",
             "taita2023"
+          ]
+        },
+        {
+          "topic": "habitat projections",
+          "text": {
+            "zh": "Miller（2025）以 Maxent 和约 5 公里分辨率的气候变量建立适生度模型，并以三种气候模型投影未来情景。相较模型当前基线，适生栖地面积预计在 2041—2060 年于 SSP245 下减少约 42%、SSP585 下减少约 56%；到 2061—2080 年分别减少约 56% 与 69%。研究预测 Udzungwa 国家公园与 Ukwiva 森林保护区在所评估的未来情景中保留最多适生及最适栖地；这些是模型输出，不是实际栖地损失或族群预测。",
+            "en": "Miller (2025) used Maxent and climate variables at roughly 5 km resolution, then projected suitability under three climate models. Relative to the modelled current baseline, suitable habitat area is projected to decline by about 42% under SSP245 and 56% under SSP585 in 2041–2060; by 2061–2080 the projected declines are about 56% and 69%. Udzungwa National Park and Ukwiva Forest Reserve retain the largest modelled suitable and optimal areas across the assessed futures. These are model outputs, not observed habitat loss or population forecasts."
+          },
+          "sourceIds": [
+            "miller2025"
           ]
         }
       ],
@@ -38278,11 +38300,29 @@
             "zh": "研究标题和正文保留 Paragalago sp.，支持本页不将 Taita 族群直接指派为 *P. orinus*。",
             "en": "The study retains the identification Paragalago sp. in its title and text, supporting this page’s decision not to assign the Taita population directly to P. orinus."
           }
+        },
+        {
+          "id": "uluguru2000",
+          "title": "Uluguru Mountains Biodiversity Conservation Project — Biodiversity surveys in ten forest reserves near the Uluguru Mountains",
+          "url": "https://www.tfcg.org/wp-content/uploads/2025/01/TFCG-WCST-Uluguru-Report-Part-I-FINAL.pdf",
+          "scope": {
+            "zh": "汇整 2000 年森林保护区调查；支持 Mkungwe 的低海拔同域记录，不是种群或完整分布调查。",
+            "en": "Compiles 2000 forest-reserve surveys; supports the low-elevation Mkungwe locality record, not a population or complete-range survey."
+          }
+        },
+        {
+          "id": "miller2025",
+          "title": "Miller (2025) — Climate Change Raises Concerns for the Conservation of the Threatened Mountain Dwarf Galago",
+          "url": "https://www.researchgate.net/publication/392237537_Climate_Change_Raises_Concerns_for_the_Conservation_of_the_Threatened_Mountain_Dwarf_Galago_Paragalago_orinus",
+          "scope": {
+            "zh": "支持以多来源出现点建立的 Maxent 气候适生度及未来情景投影；不是未来实测或种群数量模型。",
+            "en": "Supports a Maxent climate-suitability model and future scenario projections built from mixed occurrence sources; it is not an observation of future conditions or a population-size model."
+          }
         }
       ],
       "limitations": {
-        "zh": "现有页面材料中的 Mufindi 主要族群鉴定为 cf. orinus；不同山块的叫声与身份仍未解决。页面不给出完整分布、确定的跨山块种群连结或数量估计。来源链接的双语初稿，尚未经过外部领域专家评审。",
-        "en": "The Mufindi population in the available page evidence is identified as cf. orinus; call differences and identities among mountain blocks remain unresolved. This page does not claim a complete range, confirmed links among mountain populations or a population estimate. Source-linked bilingual draft; not externally expert-reviewed."
+        "zh": "Mufindi 伽拉戈仍只鉴定为 cf. orinus；不同山块的叫声与身份未完全解决。气候模型使用非系统搜集的异质出现点，约 5 公里网格，且研究提示低海拔保护区可能被过度预测；未来情景不是实测栖地损失或族群预测。本页不声称完整分布、跨山块种群连结或数量估值，尚未经过外部领域专家评审。",
+        "en": "The Mufindi galago remains identified only as cf. orinus, and call differences and identities among mountain blocks are unresolved. The climate model used a non-systematically assembled set of heterogeneous occurrences at roughly 5 km resolution; the study also notes possible overprediction in low-elevation reserves. Future scenarios are not observed habitat loss or population forecasts. This page does not claim a complete range, links among mountain populations or an abundance estimate, and has not received external expert review."
       }
     },
     {
@@ -38508,8 +38548,8 @@
         {
           "topic": "overview",
           "text": {
-            "zh": "COL26.8 在 Paragalago 属下列出五个接受种：*P. cocos*、*P. granti*、*P. orinus*、*P. rondoensis* 和 *P. zanzibaricus*。Masters 等（2017）根据东部与西部“矮伽拉戈”不是同一演化支的遗传证据，提出以 Paragalago 表示东部类群；2020 年分子研究又支持 *P. zanzibaricus* 复合群中的三条隐蔽谱系。阅读顺序先看肯尼亚与南非局地野外研究，再看隆多森林的历史调查；之后比较山地 *P. orinus* 暂定记录和坦桑尼亚沿岸种的名称／分类边界。不要把所有地方的“小型夜行伽拉戈”当成同一调查对象。",
-            "en": "COL26.8 lists five accepted Paragalago species: *P. cocos*, *P. granti*, *P. orinus*, *P. rondoensis* and *P. zanzibaricus*. Masters et al. (2017) proposed Paragalago for the eastern group based on genetic evidence that eastern and western “dwarf galagos” are not one clade; a 2020 molecular study supported three cryptic lineages within the *P. zanzibaricus* complex. Read the local field studies for Kenya and South Africa first, followed by historical surveys in Rondo forest. Then compare the provisional montane records of *P. orinus* with the name and taxonomic boundary around the Tanzania Coast species. Small nocturnal galagos from different places should not be treated as one survey target."
+            "zh": "COL26.8 在 Paragalago 属下列出五个接受种：*P. cocos*、*P. granti*、*P. orinus*、*P. rondoensis* 和 *P. zanzibaricus*。Masters 等（2017）根据东部与西部“矮伽拉戈”不是同一演化支的遗传证据，提出以 Paragalago 表示东部类群；2020 年分子研究又支持 *P. zanzibaricus* 复合群中的三条隐蔽谱系。阅读顺序先看肯尼亚与南非局地野外研究，再看隆多森林的历史调查；随后比较 *P. orinus* 在 Mkungwe 的低海拔记录、气候适生度模型，以及仍带 cf. 限定的 Mufindi 记录；最后读坦桑尼亚沿岸种的名称与分类边界。不要把所有地方的“小型夜行伽拉戈”当成同一调查对象。",
+            "en": "COL26.8 lists five accepted Paragalago species: *P. cocos*, *P. granti*, *P. orinus*, *P. rondoensis* and *P. zanzibaricus*. Masters et al. (2017) proposed Paragalago for the eastern group based on genetic evidence that eastern and western “dwarf galagos” are not one clade; a 2020 molecular study supported three cryptic lineages within the *P. zanzibaricus* complex. Read the local field studies for Kenya and South Africa first, followed by historical surveys in Rondo forest. Then compare the low-elevation Mkungwe record and climate-suitability model for *P. orinus* with the still-qualified Mufindi record, before reading the name and taxonomic boundary around the Tanzania Coast species. Small nocturnal galagos from different places should not be treated as one survey target."
           },
           "sourceIds": [
             "taxonomy",
@@ -38520,7 +38560,9 @@
             "genin2016",
             "mufindi_survey",
             "pande2003",
-            "rondo2014"
+            "rondo2014",
+            "uluguru2000",
+            "miller2025"
           ]
         },
         {
@@ -38633,6 +38675,24 @@
           "scope": {
             "zh": "标题保留 Paragalago sp.，用于说明不可强行把 Taita 记录合并至特定接受种。",
             "en": "Retains Paragalago sp. in the title and supports not forcing Taita records into a particular accepted species."
+          }
+        },
+        {
+          "id": "uluguru2000",
+          "title": "Uluguru Mountains Biodiversity Conservation Project — Biodiversity surveys in ten forest reserves near the Uluguru Mountains",
+          "url": "https://www.tfcg.org/wp-content/uploads/2025/01/TFCG-WCST-Uluguru-Report-Part-I-FINAL.pdf",
+          "scope": {
+            "zh": "汇整 2000 年保护区调查；支持属内山地矮伽拉戈的一项 Mkungwe 低海拔记录，不是种群调查。",
+            "en": "Compiles 2000 reserve surveys; supports one low-elevation Mkungwe record for the mountain dwarf galago, not a population survey."
+          }
+        },
+        {
+          "id": "miller2025",
+          "title": "Miller (2025) — Climate Change Raises Concerns for the Conservation of the Threatened Mountain Dwarf Galago",
+          "url": "https://www.researchgate.net/publication/392237537_Climate_Change_Raises_Concerns_for_the_Conservation_of_the_Threatened_Mountain_Dwarf_Galago_Paragalago_orinus",
+          "scope": {
+            "zh": "提供 *P. orinus* 的物种级气候适生度情景；未来模型结果不是本属所有接受种的研究。",
+            "en": "Provides species-level climate-suitability scenarios for P. orinus; the future model results do not cover every accepted species in this genus."
           }
         }
       ],
