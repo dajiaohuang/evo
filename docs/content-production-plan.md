@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-92 继续从剩余 27 个无种级页面的 COL26.8 接受种中盘点来源较充分的候选，扩展双语物种页与属级阅读路径。灵长类现有 503/530 个种级页面记录（54 个 dossier-backed、449 个 profile-only）；27 个仍无种级页面，476 个仍未命中 dossier 索引。484 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-93 继续盘点剩余 25 个无种级页面的 COL26.8 接受种，按同源类群与可读资料组织下一批双语种页和类群阅读路径。灵长类现有 505/530 个种级页面记录（54 个 dossier-backed、451 个 profile-only）；25 个仍无种级页面，476 个仍未命中 dossier 索引。486 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1630,3 +1630,12 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 属级阅读路径概述 Hending（2021）的文献型 Mirza 密度模型，并把属级相关性与两篇种级局地研究分开。中文名为编辑用名；本批未新增 dossier 或外部专家评审。
 - 来源：[Kappeler 等（2002），孤居狐猴中的隐性母系结构](https://doi.org/10.1098/rspb.2002.2066)；[Frontiers（2026），马达加斯加狐猴群落空间生态位研究](https://doi.org/10.3389/fevo.2026.1840154)；[Rode 等（2013），Mirza zaza 巢群与社会组织](https://repository.naturalis.nl/pub/447982)；[Hending 等（2024），西北马达加斯加四种夜行狐猴密度研究](https://doi.org/10.1111/acv.12929)；[Hending（2021），鼠狐猴科属级密度环境驱动因素](https://doi.org/10.1002/ece3.7449)；[MDD v2.5：Coquerel's Giant Mouse Lemur](https://www.mammaldiversity.org/taxon/1000965/)；[MDD v2.5：Northern Giant Mouse Lemur](https://www.mammaldiversity.org/taxon/1000966/)；[COL26.8：Mirza](https://api.checklistbank.org/dataset/316115/taxon/5TQ2)。
 - 本批后固定灵长类种级页面为 503/530（54 个 dossier-backed、449 个 profile-only），27 个接受种仍无页面；484 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个仍未命中 dossier 索引。属级导读不计入 530 个种级分母。
+
+## P3-92 — Hapalemur and Daubentonia
+
+- 为 COL26.8 接受种 *Hapalemur griseus*（6LC7M）与 *Daubentonia madagascariensis*（34B7X）新增 profile-only 双语页面；更新 *Hapalemur* 属 6363J 阅读路径，并为 *Daubentonia* 属 426L 新增阅读路径。MDD v2.5 英文显示名分别为 Gray Bamboo Lemur 与 Aye-aye，COL26.8 ID 固定页面身份。
+- *H. griseus* 页分别记录东南部单群季节性竹食与活动研究、Ranomafana 三群两地点的局地差异，以及三种同域竹狐猴竹食氰化物半定量检测；地点与样本边界保留，未把相关性写成干扰的单一因果效应，也未声称已知完整解毒机制。
+- 指猴页将东北部退化次生林的旱季无线电跟踪，与 Torotorofotsy 未受干扰森林中的两只个体移动观察分开。后者的跳跃比例仅指两只受观察个体；页面另提供敲击扫描与抽取式取食专题阅读。两地研究不合并为种群估算或普遍行为模式。属级页是入口，不是完整自然史综述。
+- 中文显示名为编辑用名。本批未新增 dossier 或外部专家评审；来源不足项未以邻种事实补齐。
+- 来源：[Overdorff、Strait 与 Telo（1997），H. griseus 季节性活动与食性](https://doi.org/10.1002/%28sici%291098-2345%281997%2943%3A3%3C211%3A%3Aaid-ajp2%3E3.0.co%3B2-%23)；[Grassi（2006），Ranomafana 的 H. griseus 栖地、食性与社会结构](https://doi.org/10.1002/ajpa.20423)；[Yamashita 等（2010），三种 Hapalemur 的竹类氰化物检测](https://doi.org/10.1002/ajp.20751)；[Ancrenaz、Lackman-Ancrenaz 与 Mundy（1994），指猴野外观察](https://doi.org/10.1159/000156760)；[Andriamasimanana（1994），野生指猴生态行为研究](https://doi.org/10.1159/000156761)；[Sefczek 等（2021），Torotorofotsy 指猴移动方式](https://doi.org/10.1002/ajp.23267)；[Erickson（1994），指猴敲击扫描与抽取式取食](https://doi.org/10.1159/000156769)。
+- 本批后固定灵长类种级页面为 505/530（54 个 dossier-backed、451 个 profile-only），25 个接受种仍无页面；486 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个仍未命中 dossier 索引。属级导读不计入 530 个种级分母。
