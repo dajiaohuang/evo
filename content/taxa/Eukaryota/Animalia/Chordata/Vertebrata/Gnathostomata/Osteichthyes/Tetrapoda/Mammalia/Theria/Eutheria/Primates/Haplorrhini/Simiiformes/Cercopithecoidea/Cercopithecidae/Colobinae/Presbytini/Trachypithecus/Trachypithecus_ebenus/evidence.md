@@ -95,6 +95,38 @@ records:
             - title
             - url
             - scope
+        - referenceId: trachypithecus-ebenus-2020-black-morph-photo-study
+          metadataVariant: 0
+          sourceKey: ebenusBlackMorph2020
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+        - referenceId: ref-d32d5914-2b7e-8efd-a7c5-fb822995d138
+          metadataVariant: 0
+          sourceKey: laotianLangurSurvey2021
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
     limitations:
       zh:
         markdown: page.zh.md
@@ -158,4 +190,28 @@ Supports the original nomenclatural combination and description history of *eben
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en -->
 Supports the review of Lao name usage, sparse records and taxonomic instability; it does not provide current abundance or a complete range for this taxon.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh -->
+支持 2019 年 4 月越南 Phong Nha–Ke Bang 相机照片、5–7 只黑色型群体及原作者将其解释为 *T. hatinhensis* 黑色型的记述；不作为 *T. ebenus* 种级存在记录。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en -->
+Supports the April 2019 camera-trap photographs at Phong Nha–Ke Bang, the reported group of 5–7 black-morph animals and the authors' interpretation as a black morph of *T. hatinhensis*; it is not treated as a species-level occurrence record for *T. ebenus*.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/scope/zh -->
+支持 Phou Hin Poun 的 2020 年样线工作量与访谈背景；样线直接记录属于 *T. laotum*，*T. ebenus* 仅为访谈中辨认的可能物种。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/scope/en -->
+Supports the 2020 Phou Hin Poun transect effort and interview context; direct transect records were *T. laotum*, while *T. ebenus* was only identified as a possible species in interviews.
 <!-- /evo:text -->
