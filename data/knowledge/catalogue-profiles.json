@@ -39169,29 +39169,41 @@
         "en": "Kulina's Mustached Tamarin"
       },
       "reviewStatus": "source-linked",
-      "checkedAt": "2026-10-01",
+      "checkedAt": "2026-10-02",
       "sections": [
         {
           "topic": "overview",
           "text": {
             "zh": "Lopes 等在 PeerJ 2023 年文章中以 *Saguinus kulina* 描述本种，模式产地位于巴西亚马孙州下 Juruá 河 Baixo Juruá 提取保护区、Andirá 河右岸。COL26.8 保留 *Tamarinus kulina* 组合，并列作者年为 2022；这里维持固定 COL 名称和来源文章出版年份，不把名称组合差异当成不同分类单元。",
-            "en": "Lopes et al. described this species as *Saguinus kulina* in a 2023 PeerJ paper, with the type locality in the Baixo Juruá Extractive Reserve on the right bank of the Andirá River, Amazonas, Brazil. COL26.8 retains the combination *Tamarinus kulina* and lists the authorship year as 2022. This page preserves the pinned COL name and the paper’s publication year without treating the name-combination difference as a different taxon."
+            "en": "Lopes et al. described this species as *Saguinus kulina* in a 2023 PeerJ paper, with the type locality in the Baixo Juruá Extractive Reserve on the right bank of the Andirá River, Amazonas, Brazil. COL26.8 retains the combination *Tamarinus kulina* and lists the authorship year as 2022. The current MDD page accepts *S. kulina* and lists *Tamarinus kulina* as a name combination for the same taxon; the older local MDD v2.5 sidecar predates the species. This cross-reference resolves the name link without changing the pinned COL name or authorship year."
           },
           "sourceIds": [
             "taxonomy",
             "lopes2023_peerj",
-            "lopes2023_molecular"
+            "lopes2023_molecular",
+            "mdd_current"
           ]
         },
         {
           "topic": "classification",
           "text": {
-            "zh": "原描述通过野外取样、形态比较和基因组分类检验，从旧称 *S. mystax* 的复杂材料中界定本种。另一个 2023 年基因组系统研究在 Tamarinus 属级框架下纳入所有已知种和亚种。现有来源主要支持模式材料、分类和局地地理来源；尚不足以编写本种长期野外生态、数量或趋势。",
-            "en": "The original description used field sampling, morphological comparisons and genomic taxonomic tests to distinguish this species from material formerly assigned to *S. mystax*. A separate 2023 genomic-systematics study included all then-known Tamarinus species and subspecies. Available evidence supports the type material, classification and local provenance; it is not yet enough for an account of long-term ecology, abundance or trends."
+            "zh": "原描述结合 ddRAD 基因组分析、毛色诊断和地理分布检验，支持其为独立演化支系。肩背及前肢的黑褐色毛带有黄色亚端环，区别于近缘 *T. mystax* 的橙色亚端环；腹面更暗。MDD 当前页面以 *Saguinus kulina* 为接受名，并把 *Tamarinus kulina* 列为同一物种的组合名；这与 COL26.8 固定采用的组合相接，但不改变本项目固定名称和作者年。",
+            "en": "The original description combined ddRAD genomic analyses, pelage characters and geographic evidence to support a distinct evolutionary lineage. The shoulder mantle and forelimbs have a yellow subterminal band on dark brown-black hairs, unlike the orange band of the close relative *T. mystax*; the underparts are darker. A separate 2023 genomic-systematics study treated the recognized Tamarinus species and subspecies."
           },
           "sourceIds": [
             "lopes2023_peerj",
             "lopes2023_molecular"
+          ]
+        },
+        {
+          "topic": "rangeAndFieldRecords",
+          "text": {
+            "zh": "原描述所列模式及参考标本来自巴西亚马孙州下 Juruá—Tefé 河间地区；多个 2018–2019 年采集点位于 terra firme 林。论文据河流两岸划定其已知范围：Juruá 河右岸至 Tefé 河左岸。它们是分类论文中的标本采集记录，并不证明本种只生活在 terra firme 林，也不是种群普查。MDD 当前页面将本种 IUCN 状态列为 Not Evaluated。",
+            "en": "The type and referred specimens in the original description came from the Juruá–Tefé interfluvial region of Amazonas, Brazil; multiple collection localities from 2018–2019 were recorded in terra firme forest. The paper bounds the known range between the right bank of the Juruá River and the left bank of the Tefé River. These are specimen records in a taxonomic study, not proof that the species is restricted to terra firme forest and not a population census. The current MDD page lists its IUCN status as Not Evaluated."
+          },
+          "sourceIds": [
+            "lopes2023_peerj",
+            "mdd_current"
           ]
         }
       ],
@@ -39210,8 +39222,8 @@
           "title": "Lopes et al. (2023) — Taxonomic review of Saguinus mystax and description of a new species",
           "url": "https://doi.org/10.7717/peerj.14526",
           "scope": {
-            "zh": "新种原描述、野外取样、分类假设检验和模式产地；不提供长期种群趋势。",
-            "en": "Original description, field sampling, taxonomic hypothesis tests and type locality; does not provide long-term population trends."
+            "zh": "新种原描述、野外取样、分类假设检验、河流界定的分布及标本采集地栖地；不提供长期种群趋势。",
+            "en": "Original description, field sampling, taxonomic hypothesis tests, river-bounded range and habitat at specimen localities; does not provide long-term population trends."
           }
         },
         {
@@ -39222,11 +39234,20 @@
             "zh": "属级基因组系统研究涵盖已知 Tamarinus 种和亚种；不替代本种野外自然史。",
             "en": "Genomic systematics across known Tamarinus species and subspecies; not a substitute for species-specific field natural history."
           }
+        },
+        {
+          "id": "mdd_current",
+          "title": "Mammal Diversity Database — Saguinus kulina (1006696)",
+          "url": "https://www.mammaldiversity.org/taxon/1006696/",
+          "scope": {
+            "zh": "MDD 当前物种页确认 *Saguinus kulina* 接受名、*Tamarinus kulina* 组合名、正模模式产地及 Not Evaluated 状态；当地旧版 v2.5 侧车未包含此新种。",
+            "en": "The current MDD species page links the accepted name *Saguinus kulina* to the combination *Tamarinus kulina* and records the holotype locality and Not Evaluated status; the older local v2.5 sidecar predates this species."
+          }
         }
       ],
       "limitations": {
-        "zh": "COL26.8 的作者年为 2022，而原描述论文出版于 2023 年且使用 *Saguinus kulina*。本地 MDD 侧车的精确名称联接未命中；不以同名组合擅自重键。当前页面限于分类与模式产地，不计首轮综合内容标准。双语初稿尚未经过外部领域专家评审。",
-        "en": "COL26.8 gives an authorship year of 2022, while the description appeared in 2023 and used *Saguinus kulina*. The local MDD sidecar exact-name join is unmatched; no key is reassigned by epithet alone. This page is limited to taxonomy and type locality and does not meet the first-round integrated-content standard. This bilingual draft has not received external expert review. This page is not externally expert-reviewed."
+        "zh": "原描述提供了可辨认的毛色特征、河流边界和标本采集地，但没有报告本种食性、群体行为、野外密度或种群趋势。现行 MDD 将 *Tamarinus kulina* 作为 *Saguinus kulina* 的组合名，解决了旧版本地侧车缺少本种记录的名称联接问题；COL26.8 的固定作者年仍按原数据保留。页面达到首轮物种导读标准，但不是完整自然史或种群评估，且未经过外部领域专家评审。",
+        "en": "The original description provides diagnostic pelage, river-bounded range and specimen localities, but no account of this species' diet, group behavior, field density or population trend. The current MDD links *Tamarinus kulina* as a name combination under *Saguinus kulina*, resolving the name link missing from the older local sidecar; the pinned COL26.8 authorship year is preserved. The page meets the first-round species-introduction standard, but is not a complete natural history or population assessment. It has not received external expert review. This page is not externally expert-reviewed."
       }
     },
     {
