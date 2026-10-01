@@ -10,7 +10,7 @@ records:
       en: Novaes’s Bald Uacari
       zh: 诺瓦埃斯秃乌卡里
     reviewStatus: source-linked
-    checkedAt: 2026-10-01
+    checkedAt: 2026-10-02
     sections:
       - topic:
           markdown: page.en.md
@@ -25,6 +25,19 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/1/topic
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/sourceIds/0
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -117,11 +130,11 @@ Supports the selected English common name and MDD taxonomic context only; not a 
 ## referenceBindings / usage / scope
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/2/usage/scope/en -->
-Systematic comparison of known Cacajao taxa using cytochrome-b sequences, including samples historically assigned to C. calvus subspecies; it is taxonomic evidence, not a field census.
+Systematic comparison using cytochrome-b, ddRAD and museum pelage evidence. The five sequences labelled C. calvus novaesi follow the paper-era subspecies assignment; two earlier sample identifications are specifically questioned in the article. This is taxonomic evidence, not a field census.
 <!-- /evo:text -->
 
 ## referenceBindings / usage / scope
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/2/usage/scope/zh -->
-以细胞色素 b 序列比较已知 Cacajao 分类单元，包括历史上归入 C. calvus 亚种的样本；该研究提供分类证据，不是野外普查。
+研究结合细胞色素 b、ddRAD 与博物馆皮毛证据；列为 C. calvus novaesi 的 5 条序列沿用论文当时的亚种归属，文中还特别质疑了两个早期样本鉴定。该研究提供分类证据，不是野外普查。
 <!-- /evo:text -->
