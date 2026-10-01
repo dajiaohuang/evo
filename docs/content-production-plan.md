@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-105 从剩余 7 个无种级页面的 COL26.8 接受种中，按现有野外材料与读者问题打包下一批双语种页和属级阅读路径。灵长类现有 523/530 个种级页面记录（54 个 dossier-backed、469 个 profile-only）；7 个仍无种级页面，476 个仍未命中 dossier 索引。504 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-106 从剩余 5 个无种级页面的 COL26.8 接受种中，按现有野外材料与读者问题打包下一批双语种页和属级阅读路径。灵长类现有 525/530 个种级页面记录（54 个 dossier-backed、471 个 profile-only）；5 个仍无种级页面，476 个仍未命中 dossier 索引。506 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1530,6 +1530,23 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 来源：[Nascimento 等（2011），L. caissara 种群密度样线调查](https://doi.org/10.1896/044.018.0103)；[Nascimento 与 Schmidlin（2011），L. caissara 生境选择与承载力模型](https://doi.org/10.1017/S0030605310000943)；[Keuroghlian 与 Passos（2001），L. chrysopygus 猎物取食与季节性](https://doi.org/10.1590/S1519-69842001000300015)；[Felippi 等（2026），黑狮面狨树上相机研究](https://doi.org/10.1007/s10764-026-00552-3)；[MDD v2.5：L. caissara](https://www.mammaldiversity.org/taxon/1000787/)；[MDD v2.5：L. chrysopygus](https://www.mammaldiversity.org/taxon/1000789/)。
 
 本批后固定灵长类种级页面为 490/530（54 个 dossier-backed、436 个 profile-only），40 个接受种仍无种级页面；471 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。属级导读不计入 530 个种级分母。
+
+按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
+## P3-105 — Allenopithecus 与 Chiropotes utahicki
+
+| COL26.8 ID / taxon | 内容重点 | 证据边界 | 批次 |
+|---|---|---|---|
+| BTKJ Allenopithecus nigroviridis | 1984 年刚果地区的短期观察与猎人访谈；2006 年刚果西北部河岸/沼泽林的后续分布记录 | 早期研究为 9 日初步观察；2006 年材料是局部目击，作者关于沿河扩展的解释不是直接测得的扩散过程；MDD 页眉分布与国家列表口径不一致 | P3-105 |
+| 84HTH Chiropotes utahicki | Xingu-Tocantins 间河区两地样线观察；Tucuruí 水库人工岛单群体的食性与活动记录 | 两地调查距离及季节不同，遇见率不等于密度，也不能单独归因于干扰；食性结果来自一个 24 个体群和限定时段 | P3-105 |
+
+- 新增 Allenopithecus nigroviridis（BTKJ）双语 profile-only 页和接受属 Allenopithecus（S4R）阅读路径。Gautier（1985）说明 1984 年 6 月的研究结合猎人访谈与一处高频地点 9 日观察；Maisels 等（2006）记录在此前已知分布区以西北至少 100 公里的刚果北部出现。后者将沿 Sangha/Ndoki 河廊进入该地列为解释；页面保留这是作者推断，并列出未调查区域。
+- Allenopithecus 的 MDD v2.5 页眉概述为刚果民主共和国西北部及安哥拉东北部，而同页国家列表列中非共和国、刚果民主共和国、刚果共和国和带问号的喀麦隆。页面分别保留这两种字段，不把国家列表转换为连续分布区。本属导读连接短期早期观察和 2006 年局地后续记录，不称作完整属级生态综合。本属未新增 dossier 或外部领域专家评审。
+- 新增 Chiropotes utahicki（84HTH）双语 profile-only 页，并扩展既有属级路径 3NCR。MDD v2.5 使用英文名 Uta Hick's Bearded Saki，并指出文献中常见的 utahickae 是对原始拼法 utahicki 的不合理改写。页面保持 COL26.8 接受名，同时注明旧研究采用的 *C. satanas utahicki*。
+- Bobadilla 与 Ferrari（1998）在 Ferreira Penna 保护区 532.9 公里样线和 Fazenda Arataú 101.3 公里样线分别记录 6 次和 21 次出现；后一地点调查集中于晚湿季/早干季，前者包括雨季与旱季。作者报告两地点遇见率差异，但样线长度、季节与场地条件不同，不能由此推断干扰的单一因果效应或物种种群密度。Santos（2002）记录 Tucuruí 水库 Germoplasma Island 上一个 24 只群体；2001 年样本显示食物记录以种子为主（75.6%，n=2,721），全年表合计涉及 110 种植物。页面将其限定为单岛、单群体及采样期材料。
+- Chiropotes 属级路径将新页接入现有的 *C. albinasus*、*C. chiropotes*、*C. satanas* 和 *C. sagulatus* 阅读入口；跨地点的遇见率与食性资料不合并为属级范围或生态结论。两属级路径都不是完整属级名录。本批未新增 dossier 或外部领域专家评审。
+- 来源：[Gautier（1985），Allenopithecus 初步生态调查](https://doi.org/10.3406/revec.1985.5288)；[Maisels 等（2006），刚果西北部分布记录](https://doi.org/10.1896/0898-6207.21.1.93)；[MDD v2.5：Allen's Swamp Monkey](https://www.mammaldiversity.org/taxon/1000559/)；[COL26.8：BTKJ](https://api.checklistbank.org/dataset/316115/taxon/BTKJ) 与 [Allenopithecus S4R](https://api.checklistbank.org/dataset/316115/taxon/S4R)；[Bobadilla & Ferrari（1998）](https://primate.socgen.ucla.edu/index.php/multivitaminic/article/download/390/342)；[Santos（2002）硕士论文](https://repositorio.ufpa.br/handle/2011/4175)；[MDD v2.5：Uta Hick's Bearded Saki](https://www.mammaldiversity.org/taxon/1000901/)；[COL26.8：84HTH](https://api.checklistbank.org/dataset/316115/taxon/84HTH) 与 [Chiropotes 3NCR](https://api.checklistbank.org/dataset/316115/taxon/3NCR)。
+- 本批后固定灵长类种级页面为 525/530（54 个 dossier-backed、471 个 profile-only），5 个接受种仍无页面；506 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个仍未命中 dossier 索引。属级导读不计入 530 个种级分母。
 
 按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
