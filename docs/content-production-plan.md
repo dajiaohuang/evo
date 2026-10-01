@@ -1693,3 +1693,14 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 属级页把社会结构、局地栖息/食性比较和繁殖观察串成阅读路径，不合并成属级生态结论；本批未新增 dossier 或外部专家评审。
 - 来源：[Hadi、Ziegler 与 Hodges（2009），群体结构研究](https://doi.org/10.1159/000214226)；[Hadi 等人（2012），Siberut 栖息地与食性比较](https://doi.org/10.1007/s10764-011-9567-y)；[Erb 等人（2012），Pungut 生态与繁殖年变化](https://doi.org/10.1007/s10764-012-9630-3)；[MDD 1000695](https://www.mammaldiversity.org/taxon/1000695/)。
 - 本批后固定灵长类种级页面为 514/530（54 个 dossier-backed、460 个 profile-only），16 个接受种仍无页面；495 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个仍未命中 dossier 索引。属级导读不计入 530 个种级分母。
+
+
+## P3-99 — Chiropotes
+
+- 为 COL26.8 接受种 *Chiropotes sagulatus*（5Y6L6）新增 profile-only 双语页，并为接受属 *Chiropotes*（3NCR）新增阅读路径。MDD v2.5 的英文显示名为 Guianan Bearded Saki；中文名“圭亚那胡须僧面猴”为编辑用名，页面身份按 COL26.8 固定 ID。
+- 物种页整理 Shaffer 在圭亚那连续林地的食性研究（超过 175 种植物、种子占研究样本年食谱 75%）及单群体社会行为研究（15 个月、560 小时）；另一篇研究限定于巴西一处孤立 13 公顷林片中的一个群体。不同地点和研究设计分开呈现，不推为全物种平均值。
+- 属级路径串联四个已有/新增物种页中的研究：圭亚那连续林地食性与社会行为、巴西亚马逊区域范围图叠置、砍伐前沿局地出现记录。它不是完整属级清单或生态综合。MDD 的版本化分类备注不改变当前页面 ID；清单中另列的固定行 5Y6KL 不与新页 5Y6L6 合并。
+- 来源：[Shaffer（2013），圭亚那北部胡须僧面猴食性](https://doi.org/10.1002/ajp.22134)；[Shaffer（2013），自由活动胡须僧面猴的活动与雄性结伴](https://doi.org/10.1007/s10764-013-9727-3)；[Boyle 等（2023），孤立林片中的空间生态](https://doi.org/10.3390/d15060731)；[MDD v2.5：Guianan Bearded Saki](https://www.mammaldiversity.org/taxon/1000899/)；[COL26.8：Chiropotes sagulatus](https://api.checklistbank.org/dataset/316115/taxon/5Y6L6)；[COL26.8：Chiropotes](https://api.checklistbank.org/dataset/316115/taxon/3NCR)。本批未新增 dossier 或外部领域专家评审。
+- 本批后固定灵长类种级页面为 515/530（54 个 dossier-backed、461 个 profile-only），15 个接受种仍无页面；496 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个仍未命中 dossier 索引。属级导读不计入 530 个种级分母。
+
+按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
