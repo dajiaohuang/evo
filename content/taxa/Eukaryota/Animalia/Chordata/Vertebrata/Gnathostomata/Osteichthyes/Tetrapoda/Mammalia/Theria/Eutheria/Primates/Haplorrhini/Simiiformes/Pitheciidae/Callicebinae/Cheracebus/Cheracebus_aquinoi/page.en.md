@@ -91,8 +91,26 @@ aquino2021
 rengifo2022
 <!-- /evo:text -->
 
+## habitat and diet in earlier studies
+
+<!-- evo:text /records/catalogue-profile/sections/3/topic -->
+habitatAndDietInEarlierStudies
+<!-- /evo:text -->
+
+## habitat and diet in earlier studies
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/en -->
+The original description also synthesizes earlier observations: the monkeys used forest strata around 15–25 m high and were reported in white-sand scrub forest (varillal), gallery forest, flooded forest and palm-dominated forest. Reported foods included buds, flowers, fruit pulp, insects, leaves and seeds. These habitat and diet details come from studies cited in the taxonomic paper, not a new standardized field survey in 2022; they do not define the full range or establish a current population trend.
+<!-- /evo:text -->
+
+## habitat and diet in earlier studies
+
+<!-- evo:text /records/catalogue-profile/sections/3/sourceIds/0 -->
+rengifo2022
+<!-- /evo:text -->
+
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The main species-specific source is the 2022 taxonomic description. A 2019 regional transect survey recorded unidentified *Cheracebus sp.*; there is no basis here for assigning its counts, trends or habitat profile to *C. aquinoi*. The type locality and sites in the original description do not constitute a complete range map. The Chinese name is editorial, and the page has not received external expert review. This page is not externally expert-reviewed.
+The habitat and diet account summarizes earlier studies cited by the 2022 taxonomic description. A 2019 regional transect survey recorded unidentified *Cheracebus sp.*; there is no basis here for assigning its counts, trends or habitat profile to *C. aquinoi*. The type locality and sites in the original description do not constitute a complete range map. The Chinese name is editorial, and the page has not received external expert review. This page is not externally expert-reviewed.
 <!-- /evo:text -->

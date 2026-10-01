@@ -61,6 +61,19 @@ records:
             field: /records/catalogue-profile/sections/2/sourceIds/0
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/2/sourceIds/1
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/3/topic
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/sourceIds/0
     sources:
       referenceBindings:
         - referenceId: ref-dfe72ec6-82e2-89a6-a081-3ce1d76f4e7d
@@ -153,13 +166,13 @@ Pins the accepted name, authorship, rank and genus parent; it is not biological 
 ## referenceBindings / usage / scope
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/1/usage/scope/zh -->
-原始分类描述、形态比较及洛雷托地点资料；不提供种群趋势或完整自然史。
+原始分类描述、形态比较及洛雷托地点资料，并回顾早期栖地、林层和食性观察；不提供新一轮生态普查、种群趋势或完整自然史。
 <!-- /evo:text -->
 
 ## referenceBindings / usage / scope
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/1/usage/scope/en -->
-Original taxonomic description, morphological comparisons and Loreto locality material; it does not provide a population trend or complete natural history.
+Original taxonomic description, morphological comparisons and Loreto locality material; its discussion reviews earlier habitat, forest-stratum and diet observations but does not provide a new ecological census, population trend or complete natural history.
 <!-- /evo:text -->
 
 ## referenceBindings / usage / scope
