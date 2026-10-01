@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-106 从剩余 5 个无种级页面的 COL26.8 接受种中，按现有野外材料与读者问题打包下一批双语种页和属级阅读路径。灵长类现有 525/530 个种级页面记录（54 个 dossier-backed、471 个 profile-only）；5 个仍无种级页面，476 个仍未命中 dossier 索引。506 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-107 从剩余 3 个无种级页面的 COL26.8 接受种中，按现有野外材料与读者问题打包下一批双语种页和属级阅读路径。灵长类现有 527/530 个种级页面记录（54 个 dossier-backed、473 个 profile-only）；3 个仍无种级页面，476 个仍未命中 dossier 索引。506 个接受种达到首轮来源限定阅读页标准，21 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1532,6 +1532,18 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 本批后固定灵长类种级页面为 490/530（54 个 dossier-backed、436 个 profile-only），40 个接受种仍无种级页面；471 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。属级导读不计入 530 个种级分母。
 
 按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
+## P3-106 — Cheracebus medemi 与 C. aquinoi
+
+- 为 COL26.8 接受种 *Cheracebus medemi*（TXQM）与 *C. aquinoi*（VQ6J6）新增 profile-only 双语种页，并为接受属 *Cheracebus*（3MSD）新增属级阅读路径。MDD v2.5 对应 ID 分别为 1000865 和 1006643；中文普通名为编辑译名。
+- *C. medemi* 页记录 Hershkovitz（1963）的原始组合 *Callicebus torquatus medemi* 及模式地点，并把 Palacios 与 Peres（2005）三个低地森林地点的历史样线估值保留在旧名称 *Callicebus torquatus* 下。该研究的 6.8、4.8、9.6 只/平方公里估值未被本页重新分配到当前种级分类单元。
+- *C. aquinoi* 页概述 Rengifo 等（2022）的形态比较与洛雷托地点资料，记录正模 MUSM 59736 及 Villa Belén 附近的模式地点。MDD v2.5 将其列为未评估；分类描述和地点记录不是种群普查或完整自然史。
+- 属级路径连接 COL26.8 的六个接受种 ID 与上述两项不同地点、分类范围的研究，不将旧分类名的区域数据和新种描述合并为属级分布、丰度或生态结论。两种新增页面都仍低于首轮来源限定阅读页标准：缺少足以写出当前种级丰度、趋势及完整生态的确认野外资料；将作为源材料不足/证据边界待补项保留。
+- 来源：[Hershkovitz（1963）](https://doi.org/10.1515/mamm.1963.27.1.1)、[Palacios 与 Peres（2005）](https://doi.org/10.1159/000084376)、[Rengifo 等（2022）](https://doi.org/10.3106/ms2022-0019)、[MDD Medem's Titi 1000865](https://www.mammaldiversity.org/taxon/1000865/)、[MDD Aquino's Titi 1006643](https://www.mammaldiversity.org/taxon/1006643/) 和 [COL26.8 TXQM](https://api.checklistbank.org/dataset/316115/taxon/TXQM)、[VQ6J6](https://api.checklistbank.org/dataset/316115/taxon/VQ6J6)、[3MSD](https://api.checklistbank.org/dataset/316115/taxon/3MSD)。本批未新增 dossier 或外部专家评审。
+- 本批后固定灵长类种级页面为 527/530（54 个 dossier-backed、473 个 profile-only），3 个接受种仍无种级页；506 个达到首轮来源限定阅读页标准，21 个仍低于该标准或存在分类/归属待补项，476 个仍未命中 dossier 索引。属级导读不计入 530 个种级分母。
+
+按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
 
 ## P3-105 — Allenopithecus 与 Chiropotes utahicki
 
