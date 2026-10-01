@@ -59,9 +59,9 @@ function ReferenceList({ records }: { records: ReferenceRecord[] }) {
           <span>{String(index + 1).padStart(2, '0')}</span>
           <div>
             <strong>{reference.title}</strong>
-            <small>{reference.authors} · {reference.publishedYear ?? t('n.d.')}{reference.version ? ` · v${reference.version}` : ''}{reference.accessedAt ? ` · ${t('accessed {date}', { date: reference.accessedAt })}` : ''}{reference.doi ? ` · DOI ${reference.doi}` : ''}</small>
+            <small>{Array.isArray(reference.authors) ? reference.authors.join('; ') : reference.authors} · {reference.publishedYear ?? t('n.d.')}{reference.version ? ` · v${reference.version}` : ''}{reference.accessedAt ? ` · ${t('accessed {date}', { date: reference.accessedAt })}` : ''}{reference.doi ? ` · DOI ${reference.doi}` : ''}</small>
           </div>
-          <i>↗</i>
+          {reference.url && <i>↗</i>}
         </a>
       ))}
     </div>
@@ -110,7 +110,7 @@ function DivergenceLedger({ profileId }: { profileId: string }) {
             </div>
             <span>{estimate.medianMa.toFixed(1)} Ma{estimate.youngerMa != null && estimate.olderMa != null ? ` · ${estimate.olderMa.toFixed(1)}–${estimate.youngerMa.toFixed(1)}` : ''}</span>
             <p>{t(estimate.note)} · {estimate.topologyHypothesisId} · {t(estimate.locator?.figure ?? estimate.locator?.table ?? estimate.locator?.pages ?? '')}</p>
-            {reference && <a href={reference.url} target="_blank" rel="noreferrer">{t('Source ↗')}</a>}
+            {reference?.url && <a href={reference.url} target="_blank" rel="noreferrer">{t('Source ↗')}</a>}
           </article>
         )
       })}

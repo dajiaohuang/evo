@@ -4,6 +4,7 @@
   "version": "0.21.0",
   "type": "module",
   "scripts": {
+    "content:build": "node scripts/build-content-projections.mjs",
     "predev": "npm run data:stage",
     "dev": "vite",
     "build": "node scripts/build-site.mjs",
@@ -113,6 +114,7 @@
     "typescript-eslint": "^8.58.2",
     "vite": "^8.0.10",
     "vite-plugin-pwa": "^1.3.0",
-    "vitest": "^4.1.11"
+    "vitest": "^4.1.11",
+    "yaml": "^2.9.1"
   }
 }

@@ -1,10 +1,11 @@
 import { sourceRepositoryBytes } from './platform-validation-lib.mjs'
 
 const bytes = sourceRepositoryBytes()
-// The 2026-09-27 measured source footprint is 1201.8 MiB, including the 71.2 MiB
-// deterministic species audit queue; reserve 20.2 MiB for incremental records.
+// The 2026-10-01 tree-path migration measured 1887.81 MiB: canonical Markdown
+// adds 616.64 MiB while compatibility JSON/Brotli projections stay available.
+// Include both authoring and generated source ledgers; reserve 62.19 MiB.
 // App and Pages runtime budgets remain separate.
-const limitMiB = 1222
+const limitMiB = 1950
 const limit = limitMiB * 1024 * 1024
 if (bytes > limit) {
   console.error(`Source repository data/code footprint is ${(bytes / 1024 / 1024).toFixed(2)} MiB; budget is ${limitMiB} MiB.`)

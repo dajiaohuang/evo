@@ -9,6 +9,9 @@ import { pipeline } from 'node:stream/promises'
 import { brotliDecompressSync, constants, createBrotliCompress, createBrotliDecompress, gunzipSync } from 'node:zlib'
 import { readJson, rootDir } from './data-lib.mjs'
 import { readCatalogueDossiers } from './catalogue-dossier-store.mjs'
+import { buildContentProjections } from './build-content-projections.mjs'
+
+if (!process.argv.includes('--check')) buildContentProjections({ quiet: true })
 
 const RELEASE_ALIAS = 'COL26.8'
 const REGISTRY_ROOT = 'data/catalogue-of-life/releases/2026-08-20/registry'

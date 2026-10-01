@@ -1,0 +1,2372 @@
+{
+  "schemaVersion": 1,
+  "classification": "COL26.8",
+  "directoryRule": "Recorded scientific name; whitespace becomes underscores; Windows-forbidden characters are percent-escaped",
+  "migrated": {
+    "catalogueProfiles": 693,
+    "catalogueDossiers": 36354,
+    "packageProfiles": 146,
+    "navigationNodes": 426,
+    "claims": 1380,
+    "events": 208,
+    "stories": 32,
+    "contentDirectories": 37782,
+    "treeDirectories": 42656,
+    "filesWritten": 156703,
+    "authoredReaderLocales": 1788,
+    "referenceRecords": 4761,
+    "sharedResearchInputs": 7
+  },
+  "nonColPlacements": [
+    {
+      "runtimeKey": "life",
+      "path": "content/topics/atlas/Life",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "lycophyta",
+      "path": "content/taxa/Eukaryota/Plantae/Pteridobiotina/Tracheophyta/Lycopodiophyta",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "lepidodendron",
+      "path": "content/taxa/Eukaryota/Plantae/Viridiplantae/Streptophyta/Embryophyta/Lycophyta/Lepidodendrales",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "pteridophyta",
+      "path": "content/taxa/Eukaryota/Plantae/Pteridobiotina/Tracheophyta/Pteridophyta",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "equisetopsida",
+      "path": "content/taxa/Eukaryota/Plantae/Pteridobiotina/Pteridophytanae/Equisetophyta/Equisetopsida",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "filicopsida",
+      "path": "content/topics/atlas/Filicopsida",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "gymnospermae",
+      "path": "content/topics/atlas/Gymnospermae",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "cycadophyta",
+      "path": "content/taxa/Eukaryota/Plantae/Viridiplantae/Streptophyta/Embryophyta/Cycadophyta",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "ginkgophyta",
+      "path": "content/taxa/Eukaryota/Plantae/Viridiplantae/Streptophyta/Embryophyta/Ginkgophyta",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "coniferophyta",
+      "path": "content/taxa/Eukaryota/Plantae/Viridiplantae/Streptophyta/Embryophyta/Coniferophyta",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "angiospermae",
+      "path": "content/topics/atlas/Angiospermae",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "monocotyledones",
+      "path": "content/topics/atlas/Angiospermae/Monocotyledones",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "eudicotyledones",
+      "path": "content/topics/atlas/Angiospermae/Eudicotyledones",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "anthocerotophyta",
+      "path": "content/topics/atlas/Anthocerotophyta",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "invertebrata",
+      "path": "content/topics/atlas/Life/Invertebrata",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "stromatoporoidea",
+      "path": "content/taxa/Eukaryota/Animalia/Porifera/Stromatoporoidea",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "amphimedon_queenslandica",
+      "path": "content/topics/atlas/Amphimedon_queenslandica",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "helicolocellus",
+      "path": "content/taxa/Eukaryota/Animalia/Porifera/Helicolocellus",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "homoscleromorpha",
+      "path": "content/topics/atlas/Homoscleromorpha",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "eocyathispongia",
+      "path": "content/taxa/Eukaryota/Animalia/Porifera/Eocyathispongia",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "rugosa",
+      "path": "content/topics/atlas/Rugosa",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "tabulata",
+      "path": "content/topics/atlas/Tabulata",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "octocorallia",
+      "path": "content/taxa/Eukaryota/Animalia/Cnidaria/Anthozoa/Octocorallia",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "hexacorallia",
+      "path": "content/topics/atlas/Hexacorallia",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "auroralumina",
+      "path": "content/taxa/Eukaryota/Animalia/Cnidaria/Auroralumina",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "haootia",
+      "path": "content/taxa/Eukaryota/Animalia/Cnidaria/Haootia",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "xianguangia",
+      "path": "content/taxa/Eukaryota/Animalia/Eumetazoa/Triploblastica/Ctenophora/Dinomischidae/Xianguangia",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "medusozoa",
+      "path": "content/taxa/Eukaryota/Animalia/Cnidaria/Medusozoa",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "burgessomedusa",
+      "path": "content/taxa/Eukaryota/Animalia/Cnidaria/Medusozoa/Burgessomedusa",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "myxozoa",
+      "path": "content/topics/atlas/Myxozoa",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "articulata",
+      "path": "content/topics/atlas/Articulata",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "brachiopod-origin-dossiers",
+      "path": "content/topics/atlas/Brachiopod_origin_dossier_route",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "micrina",
+      "path": "content/taxa/Eukaryota/Animalia/Brachiopoda/Linguliformea/Micrina",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "yuganotheca",
+      "path": "content/taxa/Eukaryota/Animalia/Bilateria/Eubilateria/Protostomia/Spiralia/Lophotrochozoa/Lophophorata/Yuganotheca/Yuganotheca_elegans",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "kutorgina-chengjiangensis",
+      "path": "content/taxa/Eukaryota/Animalia/Brachiopoda/Rhynchonelliformea/Kutorginata/Kutorginida/Kutorginoidea/Kutorginidae/Kutorgina/Kutorgina_chengjiangensis",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "rudistae",
+      "path": "content/topics/atlas/Hippuritoida",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "ostreoida",
+      "path": "content/topics/atlas/Ostreoida",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "ammonoidea",
+      "path": "content/taxa/Eukaryota/Animalia/Mollusca/Cephalopoda/Ammonoidea",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "goniatitida",
+      "path": "content/taxa/Eukaryota/Animalia/Mollusca/Cephalopoda/Ammonoidea/Goniatitida",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "ceratitida",
+      "path": "content/taxa/Eukaryota/Animalia/Mollusca/Cephalopoda/Ammonoidea/Ceratitida",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "ammonitida",
+      "path": "content/taxa/Eukaryota/Animalia/Mollusca/Cephalopoda/Ammonoidea/Ammonitida",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "octopus-bimaculoides",
+      "path": "content/topics/atlas/Octopus_bimaculoides",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "molluscan-origin-dossiers",
+      "path": "content/topics/atlas/Molluscan_origin_dossier_route",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "kimberella",
+      "path": "content/topics/atlas/Molluscan_origin_dossier_route/Kimberella_quadrata",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "odontogriphus",
+      "path": "content/taxa/Eukaryota/Animalia/Mollusca/Odontogriphus/Odontogriphus_omalus",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "orthrozanclus",
+      "path": "content/taxa/Eukaryota/Animalia/Mollusca/Aculifera/Sachitida/Orthrozanclidae/Orthrozanclus/Orthrozanclus_reburrus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "nectocaris",
+      "path": "content/topics/atlas/Molluscan_origin_dossier_route/Nectocaris_pteryx",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "aculifera",
+      "path": "content/topics/atlas/Aculifera",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "polyplacophora",
+      "path": "content/topics/atlas/Aculifera/Polyplacophora",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "aplacophora",
+      "path": "content/topics/atlas/Aculifera/Aplacophora",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "parioscorpio",
+      "path": "content/taxa/Eukaryota/Animalia/Arthropoda/Parioscorpio",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "trilobite-evidence-samples",
+      "path": "content/topics/atlas/Trilobite_primary-evidence_samples",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "gigoutella",
+      "path": "content/taxa/Eukaryota/Animalia/Arthropoda/Trilobita/Ptychopariida/Palaeolenidae/Gigoutella",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "bohemolichas",
+      "path": "content/topics/atlas/Trilobite_primary-evidence_samples/Bohemolichas",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "agnostina",
+      "path": "content/taxa/Eukaryota/Animalia/Arthropoda/Trilobita/Agnostida/Agnostina",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "eurypterida",
+      "path": "content/taxa/Eukaryota/Animalia/Arthropoda/Chelicerata/Eurypterida",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "jaekelopterus",
+      "path": "content/taxa/Eukaryota/Animalia/Arthropoda/Chelicerata/Eurypterida/Eurypterina/Diploperculata/Pterygotoidea/Pterygotidae/Jaekelopterus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "stem-chelicerate-evidence",
+      "path": "content/topics/atlas/Stem-chelicerate_evidence",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "urokodia",
+      "path": "content/taxa/Eukaryota/Animalia/Arthropoda/Mollisoniida/Urokodia",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "megachelicerax",
+      "path": "content/taxa/Eukaryota/Animalia/Arthropoda/Chelicerata/Megachelicerax",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "mollisonia",
+      "path": "content/taxa/Eukaryota/Animalia/Arthropoda/Mollisoniida/Mollisoniidae/Mollisonia",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "xiphosura",
+      "path": "content/topics/atlas/Xiphosura",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "acari",
+      "path": "content/topics/atlas/Acari",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "odonatoptera",
+      "path": "content/topics/atlas/Odonatoptera",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "meganisoptera",
+      "path": "content/taxa/Eukaryota/Animalia/Arthropoda/Hexapoda/Insecta/Dicondylia/Paranotalia/Pterygota/Hydropalaeoptera/Euhydropalaeoptera/Odonatoptera/Palaeodonatoptera/Plesiodonatoptera/Apodonatoptera/Paneodonatoptera/Neodonatoptera/Meganisoptera",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "meganeura",
+      "path": "content/taxa/Eukaryota/Animalia/Arthropoda/Hexapoda/Insecta/Dicondylia/Paranotalia/Pterygota/Hydropalaeoptera/Euhydropalaeoptera/Odonatoptera/Palaeodonatoptera/Plesiodonatoptera/Apodonatoptera/Paneodonatoptera/Neodonatoptera/Meganisoptera/Meganeuridae/Meganeurinae/Meganeura",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "myriapoda",
+      "path": "content/topics/atlas/Myriapoda",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "diplopoda",
+      "path": "content/topics/atlas/Myriapoda/Diplopoda",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "mandibulate-evidence-route",
+      "path": "content/topics/atlas/Mandibulate_evidence_route",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "tokummia",
+      "path": "content/taxa/Eukaryota/Animalia/Arthropoda/Hymenostraca/Tokummia/Tokummia_katalepsis",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "waptia",
+      "path": "content/taxa/Eukaryota/Animalia/Arthropoda/Waptiida/Waptiidae/Waptia/Waptia_fieldensis",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "pancrustacea-evidence-route",
+      "path": "content/topics/atlas/Pancrustacea_evidence_route",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "yicaris",
+      "path": "content/taxa/Eukaryota/Animalia/Arthropoda/Yicaris/Yicaris_dianensis",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "ostracod-phylogenomics",
+      "path": "content/topics/atlas/Pancrustacea_evidence_route/Ostracod_phylotranscriptomic_dataset",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "early-hexapod-evidence-route",
+      "path": "content/topics/atlas/Early_Hexapoda_evidence_route",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "rhyniognatha",
+      "path": "content/topics/atlas/Early_Hexapoda_evidence_route/Rhyniognatha_hirsti",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "strudiella",
+      "path": "content/taxa/Eukaryota/Animalia/Arthropoda/Strudiella",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "insect-flight-evidence-route",
+      "path": "content/topics/atlas/Insect_flight_evidence_route",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "paskov-wing",
+      "path": "content/topics/atlas/Insect_flight_evidence_route/Paskov_Archaeorthoptera_wing",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "parhyale-wing-experiment",
+      "path": "content/topics/atlas/Insect_flight_evidence_route/Parhyale_wing-homology_experiment",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "insect-radiation-evidence-route",
+      "path": "content/topics/atlas/Insect_radiation_evidence_route",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "pennsylvanian-eumetabola",
+      "path": "content/topics/atlas/Insect_radiation_evidence_route/Pennsylvanian_Eumetabola_sample",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "cretophasmomima",
+      "path": "content/taxa/Eukaryota/Animalia/Arthropoda/Hexapoda/Insecta/Cretophasmomima/Cretophasmomima_melanogramma",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "insect-1kite-dataset",
+      "path": "content/topics/atlas/Insect_radiation_evidence_route/1KITE_insect_phylogenomics_dataset",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "blastoidea",
+      "path": "content/taxa/Eukaryota/Animalia/Echinodermata/Blastozoa/Blastoidea",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "graptolithina",
+      "path": "content/topics/atlas/Graptolithina",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "agnatha",
+      "path": "content/topics/atlas/Agnatha",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "conodonta",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Agnatha/Cyclostomi/Cyclostomata/Conodontophorida/Conodonta",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "ostracodermi",
+      "path": "content/topics/atlas/Agnatha/Ostracodermi",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "heterostraci",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Pteraspidomorphi/Pteraspidomorpha/Heterostraci",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "osteostraci",
+      "path": "content/topics/atlas/Agnatha/Ostracodermi/Osteostraci",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "tujiaaspis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Tujiaaspidae/Tujiaaspis",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "cyclostomata",
+      "path": "content/topics/atlas/Agnatha/Cyclostomata",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "petromyzontida",
+      "path": "content/topics/atlas/Agnatha/Cyclostomata/Petromyzontida",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "cyclostome-fossil-evidence-route",
+      "path": "content/topics/atlas/Agnatha/Cyclostomata/Cyclostome_fossil_evidence_route",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "priscomyzon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Agnatha/Cyclostomi/Petromyzonti/Petromyzontiformes/Priscomyzon/Priscomyzon_riniensis",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "myxinikela",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Agnatha/Cyclostomi/Myxini/Myxinikela/Myxinikela_siroka",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "tethymyxine",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Agnatha/Cyclostomi/Myxini/Tethymyxine/Tethymyxine_tapirostrum",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "gnathostomata",
+      "path": "content/topics/atlas/Gnathostomata",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "placodermi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Placodermi",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "arthrodira",
+      "path": "content/topics/atlas/Arthrodira",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "dunkleosteus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Placodermi/Arthrodira/Phlyctaeniiformes/Brachythoraci/Pachyosteomorphi/Dunkleosteidae/Dunkleosteus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "xiushanosteus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Xiushanosteus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "chondrichthyes",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Chondrichthyes",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "elasmobranchii",
+      "path": "content/topics/atlas/Elasmobranchii",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "carcharocles",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Chondrichthyes/Elasmobranchii/Neoselachii/Selachii/Galeomorphi/Lamniformes/Otodontidae/Otodus/Otodus_megalodon",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "holocephali",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Chondrichthyes/Holocephali",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "stem-chondrichthyan-evidence-route",
+      "path": "content/topics/atlas/Stem-chondrichthyan_evidence_route",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "qianodus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Chondrichthyes/Qianodus/Qianodus_duplicis",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "fanjingshania",
+      "path": "content/topics/atlas/Stem-chondrichthyan_evidence_route/Fanjingshania_renovata",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "shenacanthus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Chondrichthyes/Shenacanthus/Shenacanthus_vermiformis",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "gladbachus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Chondrichthyes/Gladbachus/Gladbachus_adentatus",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "maghriboselache",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Chondrichthyes/Maghriboselache/Maghriboselache_mohamezanei",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "cosmoselachus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Chondrichthyes/Cosmoselachus/Cosmoselachus_mehlingi",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "acanthodii",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Acanthodii",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "osteichthyes",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "actinopterygii",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Actinopterygii",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "neopterygii",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Actinopterygii/Neopterygii",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "holostei",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Actinopterygii/Neopterygii/Holostei",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "lepisosteiformes",
+      "path": "content/topics/atlas/Lepisosteiformes",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "teleosteomorpha",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Actinopterygii/Neopterygii/Teleosteomorpha",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "teleostei",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Actinopterygii/Neopterygii/Teleosteomorpha/Teleostei",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "elopomorpha",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Actinopterygii/Neopterygii/Teleosteomorpha/Teleostei/Elopomorpha",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "osteoglossomorpha",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Actinopterygii/Neopterygii/Teleosteomorpha/Teleostei/Osteoglossomorpha",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "clupeocephala",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Actinopterygii/Actinopteri/Teleostei/Clupeocephala",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "early-actinopterygian-evidence-route",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Actinopterygii/Early_actinopterygian_evidence_route",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "cheirolepis-trailli",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Osteichthyes/Cheirolepis/Cheirolepis_trailli",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "fukangichthys",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Actinopterygii/Palaeonisciformes/Fukangichthys/Fukangichthys_longidorsalis",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "pseudopholidoctenus-germanicus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Osteichthyes/Pholidophoriformes/Pholidophoridae/Pseudopholidoctenus/Pseudopholidoctenus_germanicus",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "barschichthys-ruedersdorfensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Osteichthyes/Barschichthys/Barschichthys_ruedersdorfensis",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "ruedersdorfia-berlinensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Osteichthyes/Ruedersdorfia/Ruedersdorfia_berlinensis",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "sarcopterygii",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "coelacanthimorpha",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Coelacanthimorpha",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "dipnoi",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Dipnoi",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "tetrapodomorpha",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "stem-tetrapodomorphs",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/stem-tetrapodomorphs",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "tiktaalik",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Sarcopterygii/Osteolepidida/Osteolepidiformes/Cyclolepidoidei/Panderichthyidae/Tiktaalik",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "elpistostege",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Sarcopterygii/Osteolepidida/Osteolepidiformes/Cyclolepidoidei/Panderichthyidae/Elpistostege",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "acanthostega",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Acanthostegidae/Acanthostega",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "ichthyostega",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Sarcopterygii/Dipnotetrapodomorpha/Tetrapodomorpha/Ichthyostegidae/Ichthyostega",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "tetrapoda",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "temnospondyli",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Amphibia/Temnospondyli",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "lissamphibia",
+      "path": "content/topics/atlas/Lissamphibia",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "anura",
+      "path": "content/topics/atlas/Lissamphibia/Anura",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "caudata",
+      "path": "content/topics/atlas/Lissamphibia/Caudata",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "gymnophionomorpha",
+      "path": "content/topics/atlas/Lissamphibia/Gymnophionomorpha",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "gymnophiona",
+      "path": "content/topics/atlas/Lissamphibia/Gymnophionomorpha/Gymnophiona",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "amphibian-fossil-evidence-route",
+      "path": "content/topics/atlas/Amphibian_fossil_evidence_route",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "gerobatrachus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Amphibia/Temnospondyli/Gerobatrachus/Gerobatrachus_hottoni",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "triadobatrachus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Amphibia/Salientia/Triadobatrachus/Triadobatrachus_massinoti",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "funcusvermis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Amphibia/Temnospondyli/Funcusvermis/Funcusvermis_gilmorei",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "beiyanerpeton",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Amphibia/Urodela/Salamandroidea/Beiyanerpeton",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "ymboirana",
+      "path": "content/topics/atlas/Amphibian_fossil_evidence_route/Ymboirana_acrux",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "amniota",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "synapsida",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Synapsida",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "pelycosauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Synapsida/Pelycosauria",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "dimetrodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Synapsida/Eupelycosauria/Sphenacomorpha/Sphenacodontia/Sphenacodontoidea/Sphenacodontidae/Sphenacodontinae/Dimetrodon",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "ophiacodontidae",
+      "path": "content/topics/atlas/Ophiacodontidae",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "therapsida",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Synapsida/Therapsida",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "dicynodontia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Synapsida/Therapsida/Anomodontia/Dicynodontia",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "cynodontia",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Synapsida/Therapsida/Cynodontia",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "probainognathia",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Synapsida/Therapsida/Cynodontia/Probainognathia",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "mammaliamorpha",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Synapsida/Therapsida/Cynodontia/Probainognathia/Mammaliamorpha",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "mammaliaformes",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Synapsida/Therapsida/Cynodontia/Probainognathia/Mammaliamorpha/Mammaliaformes",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "haramiyida",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Synapsida/Therapsida/Cynodontia/Probainognathia/Mammaliamorpha/Mammaliaformes/Haramiyida",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "haramiyavia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Osteichthyes/Cotylosauria/Haramiyaviidae/Haramiyavia",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "morganucodonta",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Synapsida/Therapsida/Cynodontia/Mammaliamorpha/Mammaliaformes/Morganucodonta",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "eutriconodonta",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Synapsida/Therapsida/Cynodontia/Probainognathia/Mammaliamorpha/Mammaliaformes/Eutriconodonta",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "liaoconodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Eutriconodonta/Liaoconodon",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "steropodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Prototheria/Monotremata/Ornithorhynchidae/Steropodon",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "marsupialia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Marsupialia",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "placentalia",
+      "path": "content/topics/atlas/Placentalia",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "brontotheriidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Perissodactyla/Brontotheriidae",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "hippomorpha",
+      "path": "content/topics/atlas/Hippomorpha",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "palaeotherium",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Perissodactyla/Equoidea/Palaeotheriidae/Palaeotheriinae/Palaeotherium",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "anchitherium",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Perissodactyla/Equidae/Anchitheriinae/Anchitherium",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "hipparionini",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Perissodactyla/Equidae/Equinae/Hipparionini",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "ancylopoda",
+      "path": "content/topics/atlas/Ancylopoda",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "chalicotherium",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Perissodactyla/Tapiromorpha/Ancylopoda/Chalicotherioidea/Chalicotheriidae/Chalicotheriinae/Chalicotherium",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "ceratomorpha",
+      "path": "content/topics/atlas/Ceratomorpha",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "tapiroidea",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Perissodactyla/Tapiromorpha/Ceratomorpha/Tapiroidea",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "rhinocerotoidea",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Perissodactyla/Tapiromorpha/Ceratomorpha/Rhinocerotoidea",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "metamynodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Perissodactyla/Tapiromorpha/Ceratomorpha/Rhinocerotoidea/Amynodontidae/Metamynodontini/Metamynodon",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "paraceratherium",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Perissodactyla/Tapiromorpha/Ceratomorpha/Rhinocerotoidea/Paraceratheriidae/Paraceratheriinae/Paraceratherium",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "teleoceras",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Perissodactyla/Rhinocerotidae/Rhinocerotinae/Rhinocerotini/Teleoceratina/Teleoceras",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "coelodonta",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Perissodactyla/Rhinocerotidae/Rhinocerotinae/Rhinocerotini/Coelodonta",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "carnivoraformes-dossiers",
+      "path": "content/topics/atlas/Carnivoraformes_dossier_route",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "dormaalocyon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Carnivoraformes/Dormaalocyon",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "vulpavus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Cladotheria/Zatheria/Tribosphenida/Theria/Eutheria/Placentalia/Boreoeutheria/Laurasiatheria/Scrotifera/Ferae/Pancarnivora/Carnivoramorpha/Carnivoraformes/Vulpavus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "uintacyon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Cladotheria/Zatheria/Tribosphenida/Theria/Eutheria/Placentalia/Boreoeutheria/Laurasiatheria/Scrotifera/Ferae/Pancarnivora/Carnivoramorpha/Carnivoraformes/Uintacyon",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "lycophocyon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Carnivora/Caniformia/Lycophocyon",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "smilodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Carnivora/Feliformia/Felidae/Machairodontinae/Smilodontini/Smilodon",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "panthera-blytheae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Carnivora/Feliformia/Felidae/Pantherinae/Panthera/Panthera_blytheae",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "hesperocyon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Carnivora/Caniformia/Canidae/Hesperocyoninae/Hesperocyon",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "amphicyonidae",
+      "path": "content/topics/atlas/Amphicyonidae",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "gustafsonia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Carnivora/Caniformia/Amphicyonidae/Gustafsonia",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "angelarctocyon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Carnivora/Caniformia/Amphicyonidae/Angelarctocyon",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "magericyon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Carnivora/Caniformia/Amphicyonidae/Amphicyoninae/Magericyon",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "kretzoiarctos",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Carnivora/Caniformia/Ursidae/Ailuropodinae/Kretzoiarctos",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "pinnipedimorpha",
+      "path": "content/topics/atlas/Pinnipedimorpha",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "puijila",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Carnivora/Pinnipedimorpha/Puijila",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "enaliarctos",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Carnivora/Caniformia/Canoidea/Arctoidea/Panpinnipedia/Pinnipedimorpha/Enaliarctos",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "onychonycteris",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Chiroptera/Onychonycteridae/Onychonycteris",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "whippomorpha",
+      "path": "content/topics/atlas/Placentalia/Whippomorpha",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "cetaceamorpha",
+      "path": "content/topics/atlas/Placentalia/Whippomorpha/Cetaceamorpha",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "raoellidae",
+      "path": "content/topics/atlas/Placentalia/Whippomorpha/Cetaceamorpha/Raoellidae",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "indohyus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Artiodactyla/Raoellidae/Indohyus",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "pakicetidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Cetacea/Pakicetidae",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "pakicetus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Cetacea/Pakicetidae/Pakicetus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "ambulocetidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Cetacea/Ambulocetidae",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "ambulocetus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Cetacea/Ambulocetidae/Ambulocetus",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "protocetidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Cetacea/Protocetidae",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "peregocetus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Cetacea/Protocetidae/Peregocetus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "aegicetus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Cetacea/Protocetidae/Georgiacetinae/Aegicetus",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "basilosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Cetacea/Pelagiceti/Basilosauridae",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "basilosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Cetacea/Pelagiceti/Basilosauridae/Basilosaurus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "neoceti",
+      "path": "content/topics/atlas/Neoceti",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "mysticeti",
+      "path": "content/topics/atlas/Neoceti/Mysticeti",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "odontoceti",
+      "path": "content/topics/atlas/Neoceti/Odontoceti",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "primatomorpha",
+      "path": "content/topics/atlas/Placentalia/Primatomorpha",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "plesiadapiformes",
+      "path": "content/topics/atlas/Placentalia/Primatomorpha/Plesiadapiformes",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "purgatorius",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Purgatoriidae/Purgatorius",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "altiatlasius",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Euprimateformes/Euprimates/Altiatlasius",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "adapiformes",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Adapiformes",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "notharctus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Adapiformes/Adapoidea/Notharctidae/Notharctus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "darwinius",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Caenopithecinae/Darwinius",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "haplorhini",
+      "path": "content/topics/atlas/Haplorhini",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "teilhardina",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Tarsiiformes/Omomyoidea/Omomyidae/Teilhardina",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "anthropoidea",
+      "path": "content/topics/atlas/Haplorhini/Anthropoidea",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "eosimias",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorhini/Anthropoidea/Eosimiidae/Eosimias",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "catarrhini",
+      "path": "content/topics/atlas/Haplorhini/Anthropoidea/Catarrhini",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "saadanius",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Saadaniidae/Saadanius",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "morotopithecus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Hominoidea/Proconsulidae/Morotopithecus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "homo_neanderthalensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Hominoidea/Hominidae/Homininae/Homo/Homo_neanderthalensis",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "afrotheria",
+      "path": "content/topics/atlas/Placentalia/Afrotheria",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "mammuthus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Proboscidea/Elephantidae/Elephantinae/Elephantini/Mammuthus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "eritherium",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Cladotheria/Zatheria/Tribosphenida/Theria/Eutheria/Placentalia/Afrotheria/Paenungulatomorpha/Paenungulata/Tethytheria/Proboscidea/Eritherium",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "xenarthra",
+      "path": "content/topics/atlas/Placentalia/Xenarthra",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "thalassocnus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Pilosa/Folivora/Eufolivora/Megatherioidea/Megatheria/Nothrotheriidae/Thalassocninae/Thalassocnus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "glires",
+      "path": "content/topics/atlas/Placentalia/Glires",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "mimolagus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Cladotheria/Zatheria/Tribosphenida/Theria/Eutheria/Placentalia/Boreoeutheria/Euarchontoglires/Gliriformes/Glires/Duplicidentata/Mimotonidae/Mimolagidae/Mimolagus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "therian-boundary-evidence",
+      "path": "content/topics/atlas/Therian_boundary_evidence",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "juramaia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Cladotheria/Zatheria/Tribosphenida/Theria/Eutheria/Juramaia",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "eomaia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Eutheria/Eomaia",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "ambolestes",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Cladotheria/Zatheria/Tribosphenida/Theria/Eutheria/Ambolestes",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "raranimus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Osteichthyes/Cotylosauria/Therapsida/Raranimus",
+      "placement": "PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted"
+    },
+    {
+      "runtimeKey": "sauropsida",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Sauropsida",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "ichthyosauria",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Sauropsida/Ichthyosauria",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "ichthyosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Ichthyosauridae/Ichthyosaurus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "cartorhynchus",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Sauropsida/Ichthyosauria/Cartorhynchus",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "chaohusaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Grippiidae/Chaohusaurus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "stenopterygius",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Stenopterygius",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "plesiosauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Sauropterygia/Plesiosauria",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "elasmosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Sauropterygia/Plesiosauria/Plesiosauroidea/Elasmosauridae",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "rhaeticosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Sauropterygia/Plesiosauria/Rhaeticosaurus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "polycotylus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Sauropterygia/Plesiosauria/Plesiosauroidea/Polycotylidae/Polycotylinae/Polycotylus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "lepidosauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "rhynchocephalia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Rhynchocephalia",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "pan-squamata",
+      "path": "content/topics/atlas/Pan-Squamata",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "squamata",
+      "path": "content/topics/atlas/Pan-Squamata/Squamata",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "serpentes",
+      "path": "content/topics/atlas/Pan-Squamata/Squamata/Serpentes",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "mosasauroidea",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Squamata/Mosasauroidea",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "mosasauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Squamata/Mosasauridae",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "archosauria",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Sauropsida/Archosauria",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "crocodylomorpha",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Sauropsida/Archosauria/Crocodylomorpha",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "carnufex",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Crocodylomorpha/Carnufex",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "carnufex_carolinensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Crocodylomorpha/Carnufex/Carnufex_carolinensis",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "junggarsuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Crocodylomorpha/Solidocrania/Junggarsuchus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "crocodylia",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Sauropsida/Archosauria/Crocodylomorpha/Crocodylia",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "pterosauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "pteranodontidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontia/Pteranodontidae",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "tupandactylus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Tapejaridae/Tupandactylus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "hamipterus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontoidea/Hamipterus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "dinosauria",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Sauropsida/Archosauria/Dinosauria",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "ornithischia",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Sauropsida/Archosauria/Dinosauria/Ornithischia",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "stegosauria",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Sauropsida/Archosauria/Dinosauria/Ornithischia/Stegosauria",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "ankylosauria",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Sauropsida/Archosauria/Dinosauria/Ornithischia/Ankylosauria",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "ankylosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Parapredentata/Saphornithischia/Prionodontia/Genasauria/Thyreophora/Thyreophoroidea/Eurypoda/Ankylosauria/Euankylosauria/Ankylosauridae/Ankylosaurinae/Ankylosaurus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "ankylosaurus_magniventris",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Parapredentata/Saphornithischia/Prionodontia/Genasauria/Thyreophora/Thyreophoroidea/Eurypoda/Ankylosauria/Euankylosauria/Ankylosauridae/Ankylosaurinae/Ankylosaurus/Ankylosaurus_magniventris",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "ceratopsia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Neornithischia/Pyrodontia/Cerapoda/Marginocephalia/Ceratopsia",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "triceratops",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Neornithischia/Pyrodontia/Cerapoda/Marginocephalia/Ceratopsia/Ceratopsidae/Chasmosaurinae/Triceratopsini/Triceratops",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "yinlong",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Neornithischia/Pyrodontia/Cerapoda/Marginocephalia/Ceratopsia/Chaoyangsauridae/Yinlong",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "yinlong_downsi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Neornithischia/Pyrodontia/Cerapoda/Marginocephalia/Ceratopsia/Chaoyangsauridae/Yinlong/Yinlong_downsi",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "hadrosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Neornithischia/Pyrodontia/Cerapoda/Ornithopoda/Iguanodontia/Euiguanodontia/Dryomorpha/Ankylopollexia/Styracosterna/Hadrosauriformes/Hadrosauroidea/Hadrosauridae",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "edmontosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Neornithischia/Pyrodontia/Cerapoda/Ornithopoda/Iguanodontia/Euiguanodontia/Dryomorpha/Ankylopollexia/Styracosterna/Hadrosauriformes/Hadrosauroidea/Hadrosauridae/Hadrosaurinae/Edmontosaurini/Edmontosaurus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "eocursor",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Parapredentata/Saphornithischia/Eocursor",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "thyreophora",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Sauropsida/Archosauria/Dinosauria/Ornithischia/Thyreophora",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "scelidosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Parapredentata/Saphornithischia/Prionodontia/Genasauria/Thyreophora/Thyreophoroidea/Scelidosauridae/Scelidosaurus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "saurischia",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Sauropsida/Archosauria/Dinosauria/Saurischia",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "sauropodomorpha",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Sauropsida/Archosauria/Dinosauria/Saurischia/Sauropodomorpha",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "brachiosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Saurischia/Sauropodomorpha/Massopoda/Sauropodiformes/Sauropoda/Gravisauria/Eusauropoda/Neosauropoda/Macronaria/Titanosauriformes/Brachiosauridae",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "diplodocidae",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Sauropsida/Archosauria/Dinosauria/Saurischia/Sauropodomorpha/Diplodocidae",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "titanosauria",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Sauropsida/Archosauria/Dinosauria/Saurischia/Sauropodomorpha/Titanosauria",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "buriolestes",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Saurischia/Sauropodomorpha/Buriolestes",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "buriolestes_schultzi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Saurischia/Sauropodomorpha/Buriolestes/Buriolestes_schultzi",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "mussaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Saurischia/Sauropodomorpha/Massopoda/Sauropodiformes/Mussaurus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "ledumahadi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Saurischia/Sauropodomorpha/Massopoda/Sauropodiformes/Ledumahadi",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "theropoda",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Sauropsida/Archosauria/Dinosauria/Saurischia/Theropoda",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "tyrannosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Tyrannosauroidea/Tyrannosauridae",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "tyrannosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Tyrannosauroidea/Tyrannosauridae/Tyrannosaurinae/Tyrannosaurini/Tyrannosaurus/Tyrannosaurus_rex",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "spinosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Megalosauroidea/Spinosauridae",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "spinosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Megalosauroidea/Spinosauridae/Spinosaurinae/Spinosaurini/Spinosaurus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "dromaeosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "velociraptor",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Eudromaeosauria/Velociraptorinae/Velociraptor",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "archaeopteryx",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Avialae/Archaeopteryx",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "neornithes",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Neornithes",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "phorusrhacidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Cariamae/Phorusrhacidae",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "asteriornis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Neornithes/Neognathae/Pangalloanserae/Asteriornis",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "asteriornis_maastrichtensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Neornithes/Neognathae/Pangalloanserae/Asteriornis/Asteriornis_maastrichtensis",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "vegavis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Anseriformes/Vegavis",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "neoaves",
+      "path": "content/topics/atlas/Neoaves",
+      "placement": "independent-navigation-or-unresolved-concept"
+    },
+    {
+      "runtimeKey": "yutyrannus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Tyrannosauroidea/Proceratosauridae/Yutyrannus",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "yutyrannus_huali",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Tyrannosauroidea/Proceratosauridae/Yutyrannus/Yutyrannus_huali",
+      "placement": "PBDB-recorded-ancestor-chain-supplement"
+    },
+    {
+      "runtimeKey": "oviraptorosauria",
+      "path": "content/topics/atlas/Gnathostomata/Osteichthyes/Sarcopterygii/Tetrapodomorpha/Tetrapoda/Amniota/Sauropsida/Archosauria/Dinosauria/Saurischia/Theropoda/Oviraptorosauria",
+      "placement": "independent-navigation-or-unresolved-concept"
+    }
+  ],
+  "independentData": [
+    "data/sources",
+    "data/fossils",
+    "data/paleogeography",
+    "data/paleotopography",
+    "data/places.json",
+    "data/time-scale.json",
+    "data/media",
+    "data/media.json"
+  ],
+  "originalInputs": [
+    {
+      "path": "data/knowledge/catalogue-profiles.json",
+      "bytes": 3283990,
+      "sha256": "5e6fe8c7847d84a8353e693005ffab00599818ea59074a1e24a9aef9a8ea923c"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers.json",
+      "bytes": 71,
+      "sha256": "88def9f9997c16f6eba9c51aca5c134b4af198442ae941baa284e6dd0c86beb5"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-actinopterygii-batch-2026-09-24.jsonl.br",
+      "bytes": 2522,
+      "sha256": "5bc542f36170adf0122c64efe5cb49f5569fc9dba68cbd0f76c882dd3966b156"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-all.jsonl.br",
+      "bytes": 1101185,
+      "sha256": "2ac8676560b32a5b495b131bf769dfaf797930c62800ed1729d6c9788242b9c4"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-amanita-vaginatae-2023.jsonl.br",
+      "bytes": 3182,
+      "sha256": "c61ef06a8946697387d2e19d8a29387f95f1e0be2e9579737db3e0af31019550"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-amphibia-batch-2026-09-24.jsonl.br",
+      "bytes": 7612,
+      "sha256": "331192026db70dcbf077ff1be4a26ebe6b1112aff21c609b4952652a5639efe5"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-aves-batch-1.jsonl.br",
+      "bytes": 7037,
+      "sha256": "75766de7b2595e4817efae13671a1c81544ceb3ad4e2e641b517ff5ce796827e"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-aves-model-conservation-batch-2026-09-24.jsonl.br",
+      "bytes": 2794,
+      "sha256": "64eeab7f23c826bb1551e94b0be5197e799e8469a5158367631e16fb8d77182f"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-aves-north-pacific.jsonl.br",
+      "bytes": 2827,
+      "sha256": "1a78b1a10cc7b770fc3901a9ca2e9b306c0c8ad2f4e0a9b9b205c92a6cb4e01c"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-brazil-flora-batch-2026-09-27.jsonl.br",
+      "bytes": 3784161,
+      "sha256": "87d7b07eb5869cdbeca453074ed81fbb501c7c91aaba7085ae5de7b83b96a614"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-chiroptera-histiotus-alienus-2023.jsonl.br",
+      "bytes": 3242,
+      "sha256": "9436f934643f2a08c5ab25b07997c54cb2ea1e5381f61c1d1ea430c23ab4bf2c"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-chiroptera-molossus-2025.jsonl.br",
+      "bytes": 3179,
+      "sha256": "45ef56ac9211b3e7f41d0a6b2e2fd2fbb67e924539695dc2d02412256573c09c"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-col26-bacteria-archaea-batch-1.jsonl.br",
+      "bytes": 4298,
+      "sha256": "421a143ce196c55c501d32477a0c355fc7682cd1ccbb27df6c90f58d672417e7"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-col26-bacteria-archaea-batch-2.jsonl.br",
+      "bytes": 3464,
+      "sha256": "88b039e48df110fdbbe8fceb7841c6ac50634cf7a0f9cdd03f5d20827ba5c9bb"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-crustacea-daphnia-magna-2026-09-24.jsonl.br",
+      "bytes": 1572,
+      "sha256": "531ccd758756c99c9b95748eb804226f0073d92f71e16263ba4b33997cafbd78"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-crustacea-gammarus-pulex-2026-09-24.jsonl.br",
+      "bytes": 1649,
+      "sha256": "e2698eb3fccba85176a952707dfb93665a150db05d59e70a160ad724217c122d"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-flagship-species-evidence-batch31-2026-09-25.jsonl.br",
+      "bytes": 5009,
+      "sha256": "4ef91e4d5cfeda921a19c38bed6d46e49947a5571afbd3a34d32eb653c3bd628"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-flora-panama-batch-2026-09-27.jsonl.br",
+      "bytes": 1242936,
+      "sha256": "084cfa8e641f23f8a2ef6593e6e8b7ceaca5d7fd83c85fb2f85ddc7a9cda1a2c"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-fna-pinus-albicaulis-dossier-batch-2026-09-27.jsonl.br",
+      "bytes": 2828,
+      "sha256": "42ff38127087b9beeb96358071aaf60d84784c882f61d21f5dfa90e62de64308"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-fna-pinus-longaeva-dossier-batch-2026-09-27.jsonl.br",
+      "bytes": 2816,
+      "sha256": "bea6dd03ec325fb5c89bcdd3258926b07998b893cda0861784ada33b106c1b3c"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-fna-pinus-morphology-dossier-batch-2-2026-09-27.jsonl.br",
+      "bytes": 6733,
+      "sha256": "f9d9b8c756699fcbb2ec7ac6e78bebe199a97248b7283fc9d8e43e7106bacb92"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-fna-pinus-morphology-dossier-batch-2026-09-27.jsonl.br",
+      "bytes": 5291,
+      "sha256": "51764252efcef9bb07df1f8ec30f0b0efddc2118a3b9441a8a9755b4c4f260c0"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-fna-stratified-morphology-dossier-batch-2026-09-27.jsonl.br",
+      "bytes": 28571,
+      "sha256": "9d81b19f279c096f73cb85da7cdda1d3c39d4acbb5ad8fa47e87738cc0148907"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-fungi-model-yeasts-dossier-batch-2026-09-24.jsonl.br",
+      "bytes": 4332,
+      "sha256": "e3a8d4d4fc3e2b733d7d601ea3f02862fb6ccc5810d1594bdfa9731a92bab52c"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-fungi-postfire-cereal-pathogen-dossiers-2026-09-24.jsonl.br",
+      "bytes": 3164,
+      "sha256": "0744916e7c106545f4df6061fb341d8cbbe38efaf7a44c10961da7c2fda73e67"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-insecta-aedes-host-choice-2026-09-24.jsonl.br",
+      "bytes": 2038,
+      "sha256": "c39fde6eba0ce42cbac321f70f0496561394d1d3acb1c0f2e2ef062f7b591020"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-mollusca-radomaniola-batch-1.jsonl.br",
+      "bytes": 4385,
+      "sha256": "3d7e6032649e776d782002f42d1fc077d45db258b13c5b424da0969612fc6be6"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-multi-clade-evidence-batch30-2026-09-25.jsonl.br",
+      "bytes": 5222,
+      "sha256": "067b885d01b6fa81bcaf88d6c2f447a8f8d858a5805be9a945641ac5ced1e9b1"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-oomycota-saprolegnia-parasitica-2026-09-24.jsonl.br",
+      "bytes": 2467,
+      "sha256": "9946fb399ba15b3cbc82468f5a3f6dcbc9fbfde164795bd94dec6a2cc7c64353"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-plants-models-batch-1.jsonl.br",
+      "bytes": 5320,
+      "sha256": "7ea0a5c2b132594813f1ea321f136a68500e526604885f6c8b3078f2bd8f3274"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-plazi-hyphessobrycon-batch-2026-09-27.jsonl.br",
+      "bytes": 3967,
+      "sha256": "3876c31c7614756de65669f07a88389d6d3c11c3dae92d31af7a33f52323d938"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-plazi-lycianthes-batch-2026-09-27.jsonl.br",
+      "bytes": 3897,
+      "sha256": "1de12db34d2d234447f4c092a1db3ab5dc570ba2f73f72516886105058f7e636"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-plazi-rio-fish-batch-2026-09-27.jsonl.br",
+      "bytes": 4340,
+      "sha256": "39461403008e8ee20b0d26ae9afb7117f913e111ae1cd312124ee8c59c3e6fc2"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-plazi-syspira-batch-2026-09-27.jsonl.br",
+      "bytes": 3164,
+      "sha256": "c3b68555ad9ffd6bd9bdc3451ec6716cf9634757f7169f819724e895acf3a3f6"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-alouatta-palliata-batch18-2026-09-24.jsonl.br",
+      "bytes": 5538,
+      "sha256": "10b0a7ce9c1041da1db173c62b4ab1e356cf67e85650b89a642f5fa9099811f0"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
+      "bytes": 16965,
+      "sha256": "826b9ed322a85876b716bea59fa74eca48f12ae92d2119a7dc121a2070c8a511"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
+      "bytes": 15344,
+      "sha256": "008727440c5c440b1d3333e9358638fa0dc8a2b3e94a0a06662c2977fc916f5a"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-callithrix-jacchus-batch27-2026-09-25.jsonl.br",
+      "bytes": 10138,
+      "sha256": "525bd3651717f2b4cf57db1da85a3959cea42cb19028e55d614f4ee275f53ce0"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-cebus-capucinus-batch16-2026-09-24.jsonl.br",
+      "bytes": 2609,
+      "sha256": "4b815a628505b5cf3a6dfd6a58ac11cb43fc246c3ba56d87124d9b3fe30ca237"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-cercopithecoidea-batch-8.jsonl.br",
+      "bytes": 4110,
+      "sha256": "e225079f5b48875636868f3a5dc73de223207d2a142d4b268bc5212095d7d420"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-cercopithecus-diana-batch18-2026-09-24.jsonl.br",
+      "bytes": 3052,
+      "sha256": "52768ddfdca8bcee26580bd4c050d8276c24221e2e540690d672b955644196bf"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-chlorocebus-sabaeus-batch15-2026-09-24.jsonl.br",
+      "bytes": 2911,
+      "sha256": "0e2b0c1fca541416420e8bc84325a053c139b482358cdb86cd6522a6309480cc"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-colobus-guereza-batch18-2026-09-24.jsonl.br",
+      "bytes": 2544,
+      "sha256": "2a14fabbf79fc1125674294fe1b99015b9f9f35b0f34d929888f9c4478a6cf1d"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-core-batch5-2026-09-24.jsonl.br",
+      "bytes": 8507,
+      "sha256": "d195635986107aabcd2c7a003adb2a5e66edc2bffaab40cedb9ae4a0111dba16"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-gorilla-beringei-batch12-2026-09-24.jsonl.br",
+      "bytes": 6362,
+      "sha256": "1a01644a5ad523f011673824321443369d6a029684d816a38d512bf4e901570f"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-homo-sapiens-south-african-genomes-2026-09-24.jsonl.br",
+      "bytes": 4517,
+      "sha256": "fbb9e8b254b7c215c91226e1e2d00984e2c2dec7d7dab0be25b3ead9db766d8c"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-hylobates-agilis-batch22-2026-09-24.jsonl.br",
+      "bytes": 2839,
+      "sha256": "ed82b199a1b361ed2eed77c6d716c3bf13be0e063b60a654433ad32e8466248c"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-hylobates-lar-batch6-2026-09-24.jsonl.br",
+      "bytes": 3164,
+      "sha256": "2f08cfaaff12737a422b79b062d9fa36cc6351b4236c50cb348ef8b593e01a2a"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-lemur-catta-macaca-nemestrina-batch-2026-09-24.jsonl.br",
+      "bytes": 2494,
+      "sha256": "73db289747f4eaf84797e3e158a1b8afec4bd2b4d7c822bdd885c8a65dfb4eab"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-lemuriformes-batch7-indri-indri-2026-09-24.jsonl.br",
+      "bytes": 2716,
+      "sha256": "d19d950aeaaf6f26c624d7a373a3f9f951944e0ef83ec1b6d7d879fb827e7d30"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-macaca-nigra-batch19-2026-09-24.jsonl.br",
+      "bytes": 3398,
+      "sha256": "b8caca613cab7e6c1a2ae0faeb64b82aed9672b80b7d2f9aa32a10333646dee1"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-macaca-radiata-core-2026-09-26.jsonl.br",
+      "bytes": 4046,
+      "sha256": "bf6d330de9eaf3999019e976b25eed56f6813047de5c251b3a9c6d77b3930252"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-mandrillus-leucophaeus-batch17-2026-09-24.jsonl.br",
+      "bytes": 2405,
+      "sha256": "df2b7ba132c133ac944dc84a47cf063d8462993223405b5ad2bf636bcf1916e5"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-microcebus-mamiratra-2026-09-28.jsonl.br",
+      "bytes": 3058,
+      "sha256": "c0a0654b4410c824f93edced46e1772f44476a085ea98fb899cb6aa92b743d2d"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-microcebus-murinus-batch14-2026-09-24.jsonl.br",
+      "bytes": 2743,
+      "sha256": "3d0e2b79db0d77086cf0bf1830e35c242b1a44be34494f305af6741fbdb7f368"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-microcebus-ravelobensis-b60-2026-09-28.jsonl.br",
+      "bytes": 3512,
+      "sha256": "e426abdfa4c2553d549f7222fb9c17d22d9cc8f5e99567eaa9e583476d0a8ecf"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-nasalis-larvatus-batch17-2026-09-24.jsonl.br",
+      "bytes": 2613,
+      "sha256": "10efb5e2546663b64cf458ed22d930244c9ef173cd7b7037d43e21c26c60ed3a"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-pan-paniscus-batch11-2026-09-24.jsonl.br",
+      "bytes": 3433,
+      "sha256": "008fbdb4b0bc16d7b69db0e93cd59eee7332afa005f869b0e1ba3eaa9a47cf1b"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-pithecia-pithecia-batch29-2026-09-25.jsonl.br",
+      "bytes": 2717,
+      "sha256": "38e6ebcbe41ac98b405aa17294d21de9219f63156467dc9b93d1c8958b7756ce"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-platyrrhini-batch9-2026-09-24.jsonl.br",
+      "bytes": 2318,
+      "sha256": "af3b1e7c13128a9b11007fa9b6fa000f0c990567a7b820d9eeca1756bf59423c"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-pongo-tapanuliensis-batch13-2026-09-24.jsonl.br",
+      "bytes": 2743,
+      "sha256": "7a3fbf91791d9beb0485ffd3bba4ed4a7fb58f54c5d4245b90760bd7742b6855"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-propithecus-verreauxi-batch21-2026-09-24.jsonl.br",
+      "bytes": 3699,
+      "sha256": "6e2f0855c141c8f9600adf4c0fc57e23bb2e2ffc9831c855cc74b7a422f5b3d9"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-saguinus-bicolor-batch28-2026-09-25.jsonl.br",
+      "bytes": 2680,
+      "sha256": "acc11868c95424108c99fa2a196a93f56a90d8c3c5d6fa89f7db669c5cd0467c"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-saimiri-sciureus-2026-09-28.jsonl.br",
+      "bytes": 2864,
+      "sha256": "d21abf3304eba07ef21b98c8d14b5f6b6ee292d01a95170ea4dd75ed0ea94d82"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-symphalangus-syndactylus-batch24-2026-09-24.jsonl.br",
+      "bytes": 2909,
+      "sha256": "25356d89971ddb4fea4b65bd216806476e3189b0b8ce6b447aa6a78e7570b322"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-tarsiiformes-batch10-2026-09-24.jsonl.br",
+      "bytes": 2506,
+      "sha256": "0ac9b2d436bc25849e5d63991e729e47e0a4decc77add57ff4208c76a808d139"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primates-trachypithecus-francoisi-batch20-2026-09-24.jsonl.br",
+      "bytes": 6903,
+      "sha256": "a377276cc3143f8decb9d5704e4acfbf8bdf38db826d0f6d4ef768cc34741cf6"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-reptilia-paroedura-bastardi-2026-09-24.jsonl.br",
+      "bytes": 3304,
+      "sha256": "ff037d92744675d140b8e11351ddb7ea995ce2a6e13d07ca69fcfe1902d6cc3a"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-sanbi-1141-batch-1.jsonl.br",
+      "bytes": 818008,
+      "sha256": "1f0feec9a28b07c63847eece445bb93aea54e3b4e3317d6f98bbc60462f5e8ec"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-sanbi-agathosma.jsonl.br",
+      "bytes": 3477,
+      "sha256": "e8976cf5ed964fc64b1a8f28593c64cdf574c1f4e6b5bcbf542fcf7ff2a8d5ee"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-sanbi-cyclopia.jsonl.br",
+      "bytes": 3510,
+      "sha256": "d2086987ab302f6f67b03948f13e167640ac5a41739dfaef945da545e36164e8"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-species-evidence-batch32-2026-09-25.jsonl.br",
+      "bytes": 6906,
+      "sha256": "37455a23c30a3677fd4c667228078f89d60b1a311317e47de83feef14c6e8733"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-species-evidence-batch34-2026-09-25.jsonl.br",
+      "bytes": 5584,
+      "sha256": "f107adb52087fbf480bfc2a3b73fcf948a5e8d486c939fd077f1123cc9695927"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-species-evidence-batch35-2026-09-25.jsonl.br",
+      "bytes": 5891,
+      "sha256": "b682142704b0c0c6f8caebfe513b31d563cdd41a4725fc764f7a7a11046b2178"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-species-evidence-batch36-2026-09-25.jsonl.br",
+      "bytes": 6638,
+      "sha256": "cfaa34e2de1e064c9e1a61f545ca07e8f0c3297a93a7991a443aa08c07354650"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-species-evidence-batch37-2026-09-25.jsonl.br",
+      "bytes": 5977,
+      "sha256": "9dc741e2119e72c3ada57fbaa47883fcf6b1e3e923a35675ca657dbcdeb26d98"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-species-evidence-batch38-2026-09-25.jsonl.br",
+      "bytes": 7176,
+      "sha256": "360d309a4a501cf6401a5f838ebb63f2ab5fe001e897765daaed3bbedca0fa0e"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-species-evidence-batch39-2026-09-25.jsonl.br",
+      "bytes": 8775,
+      "sha256": "476d0fe470c40d1dd02d0696453744fea19b57d6d791c1eed803bb1be37dde57"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-species-evidence-batch55-2026-09-27.jsonl.br",
+      "bytes": 4509,
+      "sha256": "7ac0e9263066b347d2058b303c483b5a4914eef3078a6433817c3326aef2bf15"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-species-evidence-batch56-2026-09-27.jsonl.br",
+      "bytes": 7974,
+      "sha256": "4c793f0647a4370f752682d5629ab6a2a32049eea237a6aaebdb3baeeeffb96a"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-species-evidence-facet-progress-batch33-2026-09-25.jsonl.br",
+      "bytes": 2638,
+      "sha256": "f480f80db9a8500fdb9229caae32cab02dcaeb96ae664637525a18d530082d3f"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-tatraea-2024.jsonl.br",
+      "bytes": 3522,
+      "sha256": "aa1cec0ff96835e8be4e819e1bb878cad4f185f16ea0a433649d4a3476844b29"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-araneae-caerostris-darwini-batch-2026-09-28.jsonl.br",
+      "bytes": 2272,
+      "sha256": "5979bf86c83f9a1d83b8d6b3fad202181c2ba92b8e85509da89248a928602404"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-cross-clade-species-evidence-2026-09-28.jsonl.br",
+      "bytes": 5216,
+      "sha256": "cafb752d28653c5b76096884075ee6a9909e1b3dcf876e26635d4e1c80e0343c"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-cross-clade-priority-species-evidence-2026-09-28.jsonl.br",
+      "bytes": 4397,
+      "sha256": "7f86597b19dca867425f05f045ab023774d7521255b2b44b5763f9b3f5c54640"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-cross-clade-evidence-2026-09-28-c.jsonl.br",
+      "bytes": 4744,
+      "sha256": "8e96e63b2b4592bb8b9e8a88cbb91340e0a8ae597758f82d9494169609f69cb0"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-cross-clade-evidence-2026-09-28-d.jsonl.br",
+      "bytes": 4201,
+      "sha256": "1479c8dc89bbed7064a5acc265b67a030275ce7c5b8a9eb6131d0f8041db94be"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-cross-clade-evidence-2026-09-28-e.jsonl.br",
+      "bytes": 4729,
+      "sha256": "1e3bfa34192eaed027bf83558a28d12c217c866072c9ca5ab9e0170802390b5e"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-f.jsonl.br",
+      "bytes": 4708,
+      "sha256": "17015f918a59715cfda9abcdf309107eb6af1dc62d0577fdbb0812f4c743c493"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-g.jsonl.br",
+      "bytes": 5915,
+      "sha256": "e640e97952d2ebae294ca60844f41ae62065ce35660e164b0c3187e08a0d27ee"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-h.jsonl.br",
+      "bytes": 2737,
+      "sha256": "29c65815a512260e130fa42798f4de2673b320bc0b5833e3c384ad0d6669cee2"
+    },
+    {
+      "path": "data/knowledge/catalogue-dossiers-cross-clade-evidence-2026-09-28-i.jsonl.br",
+      "bytes": 2228,
+      "sha256": "28c34f68dccfac86c3bbc9903e687307922350a1f1cb2110a97d051117d01510"
+    },
+    {
+      "path": "data/packages/archosauria/crocodylomorphs-birds/profiles.source.json",
+      "bytes": 10785,
+      "sha256": "75b96864eccafdd7baf8ddfdfb9ec547a3ed5ea247f6b6bd744b9ad494a11f71"
+    },
+    {
+      "path": "data/packages/archosauria/dinosauria/profiles.source.json",
+      "bytes": 17942,
+      "sha256": "929e8e4723d8a90de974c07ca09d0bca340ce2a2b90b443ba3e4fb406a7e3711"
+    },
+    {
+      "path": "data/packages/arthropoda/crustaceans-insects/profiles.source.json",
+      "bytes": 14276,
+      "sha256": "879ead3e4087382228cdba7148753f76535ebc225d648c4c6ea74d454388a137"
+    },
+    {
+      "path": "data/packages/arthropoda/trilobites-chelicerates/profiles.source.json",
+      "bytes": 12533,
+      "sha256": "d9598ab9d81e5ac2cb534759e2c21973958badc040af58eed8bd9bccddb26c08"
+    },
+    {
+      "path": "data/packages/core/atlas-core/profiles.source.json",
+      "bytes": 1810,
+      "sha256": "3edde1a84572ffd83e783323e6ac083cf9345647538a39cd1aca61474cd0d756"
+    },
+    {
+      "path": "data/packages/invertebrata/echinoderms/profiles.source.json",
+      "bytes": 9888,
+      "sha256": "194f77e4d9581a9bb9d0a5f91a4c670110d7a42bbd1b72e21c85e9b3db9a9d62"
+    },
+    {
+      "path": "data/packages/invertebrata/molluscs-brachiopods/profiles.source.json",
+      "bytes": 11443,
+      "sha256": "18371394429649a790df66a0416df44a887b19bcfd6ef566829d210f4c1985be"
+    },
+    {
+      "path": "data/packages/invertebrata/sponges-cnidarians/profiles.source.json",
+      "bytes": 10675,
+      "sha256": "d1459d902967f41649c4f23c68019558028c0eb4180759d363099202ff7eeab9"
+    },
+    {
+      "path": "data/packages/mammalia/carnivora/profiles.source.json",
+      "bytes": 11241,
+      "sha256": "b79ba6d0377c0f20130d4a6d4a165ecc2b620a35101321af26f89cdcca1229ca"
+    },
+    {
+      "path": "data/packages/mammalia/cetartiodactyla/profiles.source.json",
+      "bytes": 8305,
+      "sha256": "b27a72584f1f8d433cef8644c926e9af5cf81df6ce70cc3fc8c9160a842552fe"
+    },
+    {
+      "path": "data/packages/mammalia/mammal-origins/profiles.source.json",
+      "bytes": 8225,
+      "sha256": "b1372475daeaa5f6ce6352047fd8a19ba4bff380e2754cde7f67c149faa55c2b"
+    },
+    {
+      "path": "data/packages/mammalia/other-mammals/profiles.source.json",
+      "bytes": 7600,
+      "sha256": "9ef6841ff063ec511eef1a4858f4fa8d7294d6e37000ce3db537180a09baec0f"
+    },
+    {
+      "path": "data/packages/mammalia/perissodactyla/profiles.source.json",
+      "bytes": 15475,
+      "sha256": "bd8d3fa18099bece0038e3b395afee6b78c6ced0d7d99bdace6f02b7b41554b0"
+    },
+    {
+      "path": "data/packages/mammalia/primates/profiles.source.json",
+      "bytes": 126954,
+      "sha256": "e24b6774e050c6631df7f826be7707bc192df01c64b490a0e3743535c4961134"
+    },
+    {
+      "path": "data/packages/plantae/angiospermae/profiles.source.json",
+      "bytes": 7091,
+      "sha256": "de10cf02cc8364e1672a3bffbf9a39693e5c212c0668327d3199c2a962896af9"
+    },
+    {
+      "path": "data/packages/plantae/early-land-plants/profiles.source.json",
+      "bytes": 6338,
+      "sha256": "8977017a6282886ab3b1d990ddcd77c6c22eed55c7a00d2f95e8f36813943f88"
+    },
+    {
+      "path": "data/packages/plantae/gymnosperms/profiles.source.json",
+      "bytes": 6335,
+      "sha256": "203ca55039cce577c52a729e6ac66484c43ddcb4def2a2eefe4edb00e2ddad15"
+    },
+    {
+      "path": "data/packages/reptilia/marine-reptiles-pterosaurs/profiles.source.json",
+      "bytes": 8630,
+      "sha256": "c8dba0c241ec9539b8e1b926f648537d030dab5b8594f1f66b782fe316814f9a"
+    },
+    {
+      "path": "data/packages/reptilia/turtles-lepidosaurs/profiles.source.json",
+      "bytes": 9373,
+      "sha256": "ddf9029d9898abf4728dcbe69bc6ed217e703b80fdf3124cb11b1f51368ca6cc"
+    },
+    {
+      "path": "data/packages/vertebrata/actinopterygii/profiles.source.json",
+      "bytes": 8024,
+      "sha256": "1c33eb4513361aae79613e8df97630557f1ea15f2649ac6f0e36753be35ef187"
+    },
+    {
+      "path": "data/packages/vertebrata/amphibia/profiles.source.json",
+      "bytes": 7067,
+      "sha256": "9a2faea4c10e2f94508c94c8d780b48a45d7661eacb54717af0c66f27c0944c4"
+    },
+    {
+      "path": "data/packages/vertebrata/chondrichthyes/profiles.source.json",
+      "bytes": 7683,
+      "sha256": "b87cadcbce117cd6e982d668ea2e4801665034334f42ddf02058b9c93256d806"
+    },
+    {
+      "path": "data/packages/vertebrata/early-fishes/profiles.source.json",
+      "bytes": 7055,
+      "sha256": "644ebe11f3731f95e552b8d3fdfbd65f40b1c1b1545a09b76c9ed7612c88324b"
+    },
+    {
+      "path": "data/packages/vertebrata/tetrapod-transition/profiles.source.json",
+      "bytes": 6867,
+      "sha256": "905fb6384e9c66d91b457f237c91f0f3e942265ae9436d3bdfddcc37ff5f5463"
+    },
+    {
+      "path": "data/navigation/atlas-ontology.json",
+      "bytes": 376134,
+      "sha256": "f9949fa05ff1b5d1be2f777baa1032ab26f529109ecf694ebc7d634cfaf84b86"
+    },
+    {
+      "path": "data/events.json",
+      "bytes": 465196,
+      "sha256": "ccea79ef6a82c80f30d7697bf062efde3dd982af5c1f6c2ed5f5b1052162628a"
+    },
+    {
+      "path": "data/stories.json",
+      "bytes": 216888,
+      "sha256": "308505b14cc6ef71fa76d0fff29bb4fed2df0edbc8fa42d48daf90e1e4ad9c66"
+    },
+    {
+      "path": "data/evidence/claims.json",
+      "bytes": 1676737,
+      "sha256": "f9db28597e06676889e1d174b9d37a4b1988e52ea2ffa521518f3dafb5cb537c"
+    },
+    {
+      "path": "data/evidence/claim-rationales.zh.json",
+      "bytes": 294107,
+      "sha256": "eeaf75bf47a5a5ca404a57c9684dfce887f782ef341f51c41bafcd5c4551d8fa"
+    },
+    {
+      "path": "data/evidence/claim-statements.zh.json",
+      "bytes": 561731,
+      "sha256": "522fcbae521d7102c683acd016d0a7cf8a1549df3e57c321e23c447e30eb3883"
+    },
+    {
+      "path": "data/evidence/editorial-decisions.json",
+      "bytes": 1313,
+      "sha256": "c78b78fa1d32acc0542dc826d0c7da8d27ca5ee32a07331485072cda9144052f"
+    },
+    {
+      "path": "data/ranges/range-evidence.json",
+      "bytes": 535837,
+      "sha256": "7f38ba54f9d20422faccd7b3cb261660fcaba56634f431b4591984ee5a4f57f8"
+    },
+    {
+      "path": "data/tree/evidence.json",
+      "bytes": 2016,
+      "sha256": "1637a0c7162517014ceb2abe450ca79cc41b75284395cc18f5726928237e871b"
+    },
+    {
+      "path": "data/packages/archosauria/crocodylomorphs-birds/evidence/field-claim-overrides.source.json",
+      "bytes": 399,
+      "sha256": "3d83f97e6f84a18e404a871b14619b60df2638d14fc84a59450c9d6e7307e005"
+    },
+    {
+      "path": "data/packages/archosauria/dinosauria/evidence/field-claim-overrides.source.json",
+      "bytes": 732,
+      "sha256": "0b8168ca5c0e7bcd22a876445db1ece4273ca1f59281307474fbacb10ea8f8f4"
+    },
+    {
+      "path": "data/packages/archosauria/dinosauria/phylogeny/hypotheses.source.json",
+      "bytes": 4007,
+      "sha256": "bee78e831135d16f4f7fd7f2e192b52a83d8df9523fa6d7ffdce10acbadab89b"
+    },
+    {
+      "path": "data/packages/mammalia/perissodactyla/phylogeny/hypothesis.source.json",
+      "bytes": 5012,
+      "sha256": "8fa2ec2681a02ac995fc921925c555dec68fc9d28d3eac53492a7990301bb7d2"
+    },
+    {
+      "path": "data/packages/mammalia/primates/evidence/field-claim-overrides.source.json",
+      "bytes": 4461,
+      "sha256": "9be3d72b04b641ed33e22a01a7046274532daedd413335ac84eb680fae8f510a"
+    },
+    {
+      "path": "data/packages/mammalia/primates/research-examples.source.json",
+      "bytes": 1514,
+      "sha256": "994b9e662e823ee2639b6b019ce83779ca284167b1bd7d55c1756cae3f1f36d7"
+    },
+    {
+      "path": "data/packages/mammalia/perissodactyla/phylogeny/calibrations.json",
+      "bytes": 2816,
+      "sha256": "4f1d7acb2a8007a991f01f32f925b4981cf4c54c228493fb43ca3189fbcdd2a6"
+    },
+    {
+      "path": "data/references.json",
+      "bytes": 389564,
+      "sha256": "79d7b075dc292eb4dbf194ee643d9acb061c1960f704b389c5ff077bc601f8b1"
+    }
+  ],
+  "sourceMetadataEnrichment": "Not performed; missing and truncated author metadata remains explicitly unresolved",
+  "manualTestsAndValidators": "Not run",
+  "referenceConsolidation": {
+    "originalSharedReferences": 502,
+    "importedSourceBindings": 116211,
+    "canonicalReferenceRecords": 4761,
+    "policy": "Database version is shared; individual taxon URLs, archive hashes and record locators remain in evidence usages. DOI suffixes containing explicit archive/record annotations are not DOI identifiers."
+  },
+  "pathLinks": {
+    "canonicalIdentity": "Tree paths",
+    "normalizedDocuments": 670,
+    "compatibilityRecordAliases": 1823,
+    "compatibilityTaxonAliases": 426,
+    "purpose": "Existing front-end/API keys are reconstructed only in generated projections."
+  },
+  "markdownFormat": {
+    "readerCopy": "Page Markdown includes section headings, narrative copy, ecology/traits and reader limitations. Evidence Markdown contains evidence, source usages and original excerpts.",
+    "formattingChangedFiles": 39393,
+    "semanticPreservation": "Every formatted directory round-tripped during migration."
+  },
+  "classificationAnchorRepairs": {
+    "reason": "PBDB ancestor homonyms must match recorded phylum; genus homonyms cannot anchor fossil clades",
+    "replacements": [
+      {
+        "from": "content/taxa/Eukaryota/Plantae/Pteridobiotina/Tracheophyta/Magnoliopsida/Malvales/Malvaceae/Sterculioideae/Pterygota/Hydropalaeoptera/Euhydropalaeoptera/Odonatoptera/Palaeodonatoptera/Plesiodonatoptera/Apodonatoptera/Paneodonatoptera/Neodonatoptera/Meganisoptera",
+        "to": "content/taxa/Eukaryota/Animalia/Arthropoda/Hexapoda/Insecta/Dicondylia/Paranotalia/Pterygota/Hydropalaeoptera/Euhydropalaeoptera/Odonatoptera/Palaeodonatoptera/Plesiodonatoptera/Apodonatoptera/Paneodonatoptera/Neodonatoptera/Meganisoptera",
+        "runtimeKey": "meganisoptera"
+      },
+      {
+        "from": "content/taxa/Eukaryota/Plantae/Pteridobiotina/Tracheophyta/Magnoliopsida/Malvales/Malvaceae/Sterculioideae/Pterygota/Hydropalaeoptera/Euhydropalaeoptera/Odonatoptera/Palaeodonatoptera/Plesiodonatoptera/Apodonatoptera/Paneodonatoptera/Neodonatoptera/Meganisoptera/Meganeuridae/Meganeurinae/Meganeura",
+        "to": "content/taxa/Eukaryota/Animalia/Arthropoda/Hexapoda/Insecta/Dicondylia/Paranotalia/Pterygota/Hydropalaeoptera/Euhydropalaeoptera/Odonatoptera/Palaeodonatoptera/Plesiodonatoptera/Apodonatoptera/Paneodonatoptera/Neodonatoptera/Meganisoptera/Meganeuridae/Meganeurinae/Meganeura",
+        "runtimeKey": "meganeura"
+      },
+      {
+        "from": "content/taxa/Eukaryota/Animalia/Arthropoda/Hexapoda/Insecta/Coleoptera/Polyphaga/Cucujiformia/Chrysomeloidea/Cerambycidae/Prioninae/Eurypodini/Eurypoda/Ankylosauria/Euankylosauria/Ankylosauridae/Ankylosaurinae/Ankylosaurus",
+        "to": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Parapredentata/Saphornithischia/Prionodontia/Genasauria/Thyreophora/Thyreophoroidea/Eurypoda/Ankylosauria/Euankylosauria/Ankylosauridae/Ankylosaurinae/Ankylosaurus",
+        "runtimeKey": "ankylosaurus"
+      },
+      {
+        "from": "content/taxa/Eukaryota/Animalia/Arthropoda/Hexapoda/Insecta/Coleoptera/Polyphaga/Cucujiformia/Chrysomeloidea/Cerambycidae/Prioninae/Eurypodini/Eurypoda/Ankylosauria/Euankylosauria/Ankylosauridae/Ankylosaurinae/Ankylosaurus/Ankylosaurus_magniventris",
+        "to": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Parapredentata/Saphornithischia/Prionodontia/Genasauria/Thyreophora/Thyreophoroidea/Eurypoda/Ankylosauria/Euankylosauria/Ankylosauridae/Ankylosaurinae/Ankylosaurus/Ankylosaurus_magniventris",
+        "runtimeKey": "ankylosaurus_magniventris"
+      },
+      {
+        "from": "content/taxa/Eukaryota/Animalia/Arthropoda/Hexapoda/Insecta/Lepidoptera/Noctuoidea/Noctuidae/Noctuinae/Cerapoda/Marginocephalia/Ceratopsia",
+        "to": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Neornithischia/Pyrodontia/Cerapoda/Marginocephalia/Ceratopsia",
+        "runtimeKey": "ceratopsia"
+      },
+      {
+        "from": "content/taxa/Eukaryota/Animalia/Arthropoda/Hexapoda/Insecta/Lepidoptera/Noctuoidea/Noctuidae/Noctuinae/Cerapoda/Marginocephalia/Ceratopsia/Ceratopsidae/Chasmosaurinae/Triceratopsini/Triceratops",
+        "to": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Neornithischia/Pyrodontia/Cerapoda/Marginocephalia/Ceratopsia/Ceratopsidae/Chasmosaurinae/Triceratopsini/Triceratops",
+        "runtimeKey": "triceratops"
+      },
+      {
+        "from": "content/taxa/Eukaryota/Animalia/Arthropoda/Hexapoda/Insecta/Lepidoptera/Noctuoidea/Noctuidae/Noctuinae/Cerapoda/Marginocephalia/Ceratopsia/Chaoyangsauridae/Yinlong",
+        "to": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Neornithischia/Pyrodontia/Cerapoda/Marginocephalia/Ceratopsia/Chaoyangsauridae/Yinlong",
+        "runtimeKey": "yinlong"
+      },
+      {
+        "from": "content/taxa/Eukaryota/Animalia/Arthropoda/Hexapoda/Insecta/Lepidoptera/Noctuoidea/Noctuidae/Noctuinae/Cerapoda/Marginocephalia/Ceratopsia/Chaoyangsauridae/Yinlong/Yinlong_downsi",
+        "to": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Neornithischia/Pyrodontia/Cerapoda/Marginocephalia/Ceratopsia/Chaoyangsauridae/Yinlong/Yinlong_downsi",
+        "runtimeKey": "yinlong_downsi"
+      },
+      {
+        "from": "content/taxa/Eukaryota/Animalia/Arthropoda/Hexapoda/Insecta/Lepidoptera/Noctuoidea/Noctuidae/Noctuinae/Cerapoda/Ornithopoda/Iguanodontia/Euiguanodontia/Dryomorpha/Ankylopollexia/Styracosterna/Hadrosauriformes/Hadrosauroidea/Hadrosauridae",
+        "to": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Neornithischia/Pyrodontia/Cerapoda/Ornithopoda/Iguanodontia/Euiguanodontia/Dryomorpha/Ankylopollexia/Styracosterna/Hadrosauriformes/Hadrosauroidea/Hadrosauridae",
+        "runtimeKey": "hadrosauridae"
+      },
+      {
+        "from": "content/taxa/Eukaryota/Animalia/Arthropoda/Hexapoda/Insecta/Lepidoptera/Noctuoidea/Noctuidae/Noctuinae/Cerapoda/Ornithopoda/Iguanodontia/Euiguanodontia/Dryomorpha/Ankylopollexia/Styracosterna/Hadrosauriformes/Hadrosauroidea/Hadrosauridae/Hadrosaurinae/Edmontosaurini/Edmontosaurus",
+        "to": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Neornithischia/Pyrodontia/Cerapoda/Ornithopoda/Iguanodontia/Euiguanodontia/Dryomorpha/Ankylopollexia/Styracosterna/Hadrosauriformes/Hadrosauroidea/Hadrosauridae/Hadrosaurinae/Edmontosaurini/Edmontosaurus",
+        "runtimeKey": "edmontosaurus"
+      },
+      {
+        "from": "content/taxa/Eukaryota/Animalia/Arthropoda/Hexapoda/Insecta/Diptera/Piophilidae/Thyreophora/Thyreophoroidea/Scelidosauridae/Scelidosaurus",
+        "to": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Ornithischia/Parapredentata/Saphornithischia/Prionodontia/Genasauria/Thyreophora/Thyreophoroidea/Scelidosauridae/Scelidosaurus",
+        "runtimeKey": "scelidosaurus"
+      }
+    ],
+    "changedFiles": 19
+  },
+  "delivery": {
+    "canonicalContent": "content/",
+    "referenceTable": "data/references.json",
+    "compatibilityProjections": 132,
+    "registryEntities": 426,
+    "packages": 24,
+    "globalManifestChecksums": 1995,
+    "runtime": {
+      "path": "public/data",
+      "files": 7219,
+      "occurrences": 13600,
+      "packages": 24,
+      "buildDurationSeconds": 55.77
+    },
+    "sourceFootprint": {
+      "measuredMiB": 1887.81,
+      "canonicalContentMiB": 616.64,
+      "budgetMiB": 1950
+    },
+    "manualTestsAndValidators": "Not run",
+    "publication": "Prepared for direct main submission; remote delivery is verified separately"
+  }
+}

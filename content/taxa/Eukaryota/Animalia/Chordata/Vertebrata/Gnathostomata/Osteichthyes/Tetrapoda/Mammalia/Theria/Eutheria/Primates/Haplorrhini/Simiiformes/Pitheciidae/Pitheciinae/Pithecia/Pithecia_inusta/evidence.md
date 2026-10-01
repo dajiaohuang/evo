@@ -1,0 +1,157 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Pithecia inusta Spix, 1823
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 烧褐僧面猴
+      en: Burnished Saki
+    reviewStatus: source-linked
+    checkedAt: 2026-09-30
+    sections:
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/0/topic
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/0
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/1
+    sources:
+      referenceBindings:
+        - referenceId: ref-0d1d6df5-a9c9-8356-a6cd-7cd66affff1f
+          metadataVariant: 0
+          sourceKey: marsh2014
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/0/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/0/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+        - referenceId: ref-376db837-18d0-86dc-aeb4-efc6954f9a8d
+          metadataVariant: 0
+          sourceKey: inusta2024
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/1/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/1/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+        - referenceId: ref-b0327e81-c506-811a-a222-e22e680902e6
+          metadataVariant: 0
+          sourceKey: mdd_name
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/2/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/2/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+        - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+          metadataVariant: 0
+          sourceKey: taxonomy
+          usage:
+            title:
+              zh: Catalogue of Life COL26.8 · source 2144
+              en: Catalogue of Life COL26.8 · source 2144
+            url: https://www.checklistbank.org/dataset/316115/taxon/4JBH3
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/3/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Pithecia inusta
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/0/usage/scope/zh -->
+支持 2014 年修订中相关物种的描述、博物馆材料与名称处理；历史分类不等于当前种群调查。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/0/usage/scope/en -->
+Supports the relevant 2014 species account, museum material and name treatment; historical taxonomy is not a current population survey.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/1/usage/scope/zh -->
+作者重读 Spix 原始描述，讨论 P. inusta 的模式地点、异名关系及 Ucayali/上 Juruá 种群归属；这是分类论证。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/1/usage/scope/en -->
+The authors reread Spix's original description and discuss the type locality, synonymy and placement of Ucayali/upper Juruá populations; this is a taxonomic argument.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/2/usage/scope/zh -->
+仅用于英文普通名标签；分类身份采用固定的 COL26.8。中文名为编辑译名。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/2/usage/scope/en -->
+Used only for the English common-name label; taxonomic identity follows pinned COL26.8. The Chinese name is editorial.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/zh -->
+固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en -->
+Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+<!-- /evo:text -->

@@ -6,32 +6,47 @@
     "groupingBasis": "Curated navigation hierarchy aligned at major clade level; it is not a phylogenetic hypothesis.",
     "rangeBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "conflicts": "A missing branch or fossil occurrence does not imply biological absence. Internal nodes are not calibrated divergence estimates.",
-    "references": ["open-tree", "pbdb-api-2016"]
+    "references": [
+      "open-tree",
+      "pbdb-api-2016"
+    ]
   },
   "nodes": {
     "life": {
       "support": "contextual",
       "groupingBasis": "Root-level navigation scaffold spanning major living and fossil groups.",
       "conflicts": "The displayed 3.7 Ga boundary represents sampled biosignature evidence, not a resolved date for the origin of life or LUCA.",
-      "references": ["open-tree"]
+      "references": [
+        "open-tree"
+      ]
     },
     "mammalia": {
       "support": "moderate",
       "groupingBasis": "Major mammal groups are simplified to keep the atlas navigable.",
       "conflicts": "Stem/crown definitions and divergence estimates vary among morphological and molecular analyses.",
-      "references": ["open-tree", "pbdb-api-2016"]
+      "references": [
+        "open-tree",
+        "pbdb-api-2016"
+      ]
     },
     "dinosauria": {
       "support": "moderate",
       "groupingBasis": "Major dinosaur groups are represented as a compact navigation hierarchy.",
       "conflicts": "Alternative hypotheses for early dinosaur relationships are not resolved by this display.",
-      "references": ["open-tree", "pbdb-api-2016"]
+      "references": [
+        "open-tree",
+        "pbdb-api-2016"
+      ]
     },
     "perissodactyla": {
       "support": "moderate",
       "groupingBasis": "Order-level navigation synthesis; the positions of several extinct early lineages remain analysis-dependent.",
       "conflicts": "The displayed branching order is intentionally non-exhaustive and must not be read as a fully resolved binary consensus tree.",
-      "references": ["pnas-2026-perissodactyls", "amnh-perissodactyl-evolution", "open-tree"]
+      "references": [
+        "pnas-2026-perissodactyls",
+        "amnh-perissodactyl-evolution",
+        "open-tree"
+      ]
     }
   }
 }

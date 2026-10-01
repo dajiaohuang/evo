@@ -108,8 +108,18 @@ export function buildPackageReviewMaterials(packageId) {
     ...rangeData.flatMap((range) => range.referenceLocators.map((locator) => locator.referenceId)),
     ...stories.flatMap((story) => story.steps.flatMap((step) => step.claimLinks.flatMap((link) => claimsById.get(link.claimId)?.referenceLinks.map((referenceLink) => referenceLink.referenceId) ?? []))),
   ])
-  const references = readJson('data/references.json').filter((reference) => referenceIds.has(reference.id))
   const files = new Map()
+  // Review the authored Markdown and metadata alongside runtime projections.
+  for (const source of provenance.canonicalInputs ?? []) {
+    if (source.startsWith('content/') && existsSync(join(rootDir, source))) {
+      const bytes = readFileSync(join(rootDir, source))
+      files.set(source, bytes)
+      for (const match of bytes.toString('utf8').matchAll(/^\s*referenceId:\s*([^\s]+)\s*$/gm)) {
+        referenceIds.add(match[1].replace(/^['"]|['"]$/g, ''))
+      }
+    }
+  }
+  const references = readJson('data/references.json').filter((reference) => referenceIds.has(reference.id))
 
   files.set('package.json', readFileSync(join(packageDirectory, 'package.json')))
   addJson(files, 'entities.json', entities)

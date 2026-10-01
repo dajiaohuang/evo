@@ -3,13 +3,17 @@ export type ConfidenceLevel = 'high' | 'medium' | 'low' | 'contested'
 export interface ReferenceRecord {
   id: string
   title: string
-  authors: string
+  authors: string[] | string
+  authorsComplete?: boolean
+  authorsStatus?: 'recorded' | 'incomplete-verbatim' | 'unresolved'
+  authorsVerbatim?: string
+  titleTranslations?: { en?: string; zh?: string }
   publishedYear?: number
-  type: 'paper' | 'database' | 'dataset' | 'standard' | 'museum' | 'documentation'
-  sourceRole: 'primary-study' | 'systematic-review' | 'taxonomic-database' | 'occurrence-database' | 'museum-overview' | 'documentation' | 'standard'
+  type: 'paper' | 'database' | 'dataset' | 'standard' | 'museum' | 'documentation' | 'publication' | 'web-resource' | 'bibliographic-record'
+  sourceRole: 'primary-study' | 'systematic-review' | 'taxonomic-database' | 'occurrence-database' | 'museum-overview' | 'documentation' | 'standard' | 'unclassified'
   fitnessFor: Array<'taxonomy' | 'evolution' | 'topology' | 'range' | 'morphology' | 'ecology' | 'biogeography' | 'event-mechanism' | 'occurrence' | 'paleogeography' | 'geochronology' | 'methods'>
   metadataAssignment: 'automated' | 'curator-reviewed'
-  url: string
+  url?: string
   doi?: string
   accessedAt?: string
   version?: string

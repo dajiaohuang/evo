@@ -3,6 +3,9 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, isAbsolute, join, resolve } from 'node:path'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
 import { DATASET_PACKAGE_VERSION, PACKAGE_SCHEMA_VERSION, packageDefinitions, researchPresetDefinitions, researchSceneDefinitions } from './package-definitions.mjs'
+import { buildContentProjections, canonicalContentInputs } from './build-content-projections.mjs'
+
+buildContentProjections({ quiet: true })
 
 const ontology = readJson('data/navigation/atlas-ontology.json')
 const profileSourceEntries = packageDefinitions.flatMap((definition) => {
@@ -813,7 +816,7 @@ for (const definition of packageDefinitions) {
   writeJson(`data/packages/${definition.path}/provenance.json`, {
     packageId: definition.id,
     version: DATASET_PACKAGE_VERSION,
-    canonicalInputs: ['data/navigation/atlas-ontology.json', 'data/ranges/range-evidence.json', 'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json', 'data/references.json', ...(targetedOccurrenceSnapshot ? [targetedOccurrenceSnapshotPath] : []), ...(profileSourceEntry ? [profileSourceEntry.relativePath] : []), ...(researchExampleSourceEntry ? [researchExampleSourceEntry.relativePath] : []), ...(phylogenySourceEntry ? [phylogenySourceEntry.relativePath] : [])],
+    canonicalInputs: canonicalContentInputs(['data/navigation/atlas-ontology.json', 'data/ranges/range-evidence.json', 'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json', 'data/references.json', ...(targetedOccurrenceSnapshot ? [targetedOccurrenceSnapshotPath] : []), ...(profileSourceEntry ? [profileSourceEntry.relativePath] : []), ...(researchExampleSourceEntry ? [researchExampleSourceEntry.relativePath] : []), ...(phylogenySourceEntry ? [phylogenySourceEntry.relativePath] : [])]),
     occurrenceSnapshot: targetedOccurrenceSnapshot ? targetedOccurrenceSnapshotPath : 'data/sources/pbdb-occurrence-bundle.json',
     generatedProjection: true,
     notes: ['Package registry, taxonomy, range and locale files are generated projections. review.json is maintained separately as the single package review record. Canonical entity concepts, ranges, evidence and external-resolution decisions live in the listed canonical inputs.'],
@@ -963,10 +966,16 @@ for (const definition of packageDefinitions) {
   }
 }
 
+if (existsSync(join(rootDir, 'data/registry/content-projection-files.json'))) {
+  generatedFiles.push(...readJson('data/registry/content-projection-files.json').generatedFiles)
+  generatedFiles.push('data/registry/content-projection-files.json', 'data/registry/content-source-manifest.json', 'data/registry/content-build-summary.json')
+  generatedFiles.push(...readJson('data/registry/content-source-manifest.json').shards.map(shard => shard.path))
+}
+
 writeJson('data/registry/generated-files.json', {
   schemaVersion: 1,
   generator: 'scripts/build-entity-registry.mjs',
-  canonicalInputs: [
+  canonicalInputs: canonicalContentInputs([
     'data/navigation/atlas-ontology.json', 'data/ranges/range-evidence.json',
     'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json',
     'data/evidence/claims.json', 'data/evidence/claim-rationales.zh.json',
@@ -975,8 +984,8 @@ writeJson('data/registry/generated-files.json', {
     ...researchExampleSourceEntries.map((entry) => entry.relativePath),
     ...phylogenySourceEntries.map((entry) => entry.relativePath),
     'data/references.json',
-  ],
-  generatedFiles: [...generatedFiles].sort(),
+  ]),
+  generatedFiles: [...new Set(generatedFiles)].sort(),
 })
 
 if (!quiet) console.log(`Built registry for ${entities.length} entities across ${packageDefinitions.length} packages.`)

@@ -1,5 +1,7 @@
 # GitHub Pages Data Platform v5 Candidate
 
+Authoring update (2026-10-01): migrated narrative and evidence inputs now live in the COL-based `content/` tree as YAML metadata and separate evidence/reader Markdown. The legacy data paths remain generated runtime-compatible projections. References remain shared in `data/references.json`; raw archives, occurrences, maps and media remain independent structured stores. See [content storage](content-storage.md).
+
 Evo Atlas publishes one static application and one static scientific-data namespace at `/evo/data/`. Runtime use has no database, API server, external object store or required release asset.
 
 Pages retains only the current release named by `data/releases.json`. Older versions remain in Git history and the dataset changelog but are not deployment promises. This deliberately removes the legacy rc5 payload from current artifacts and leaves a reliable margin below the unchanged 650 MiB Pages gate.

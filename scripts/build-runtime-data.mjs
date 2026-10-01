@@ -9,6 +9,9 @@ import { deterministicGzip, deterministicZip } from './archive-determinism.mjs'
 import { partitionSanbiDescriptions } from './sanbi-description-shards.mjs'
 import { buildCatalogueKnowledge } from './catalogue-knowledge.mjs'
 import { readCatalogueDossiers } from './catalogue-dossier-store.mjs'
+import { buildContentProjections } from './build-content-projections.mjs'
+
+buildContentProjections({ quiet: true })
 
 const args = process.argv.slice(2)
 const outputIndex = args.indexOf('--out')
@@ -1025,7 +1028,7 @@ for (const packageEntry of registry.packages) {
     ...packageEntities.map((entity) => ({ id: entity.id, kind: entity.entityKind, title: entity.names.scientific, titleEn: entity.names.en, titleZh: entity.names.zh, route: `#/explore?taxon=${encodeURIComponent(entity.id)}&view=tree`, terms: [entity.names.scientific, entity.names.en, entity.names.zh, ...entity.synonyms, entity.definition.en, entity.definition.zh] })),
     ...packageProfiles.map((profile) => ({ id: profile.id, kind: 'profile', packageId, title: profile.scientificName, titleEn: profile.commonName, titleZh: profile.commonNameZh, route: `#/taxa?id=${encodeURIComponent(profile.id)}`, terms: [profile.overview, profile.evidenceSummary, ...profile.traits] })),
     ...packageClaims.map((claim) => ({ id: claim.id, kind: 'claim', title: claim.statement, route: '#/data', terms: [claim.statement, claim.confidenceRationale, claim.claimType] })),
-    ...packageReferences.map((reference) => ({ id: reference.id, kind: 'reference', title: reference.title, route: '#/data', terms: [reference.title, reference.authors, reference.doi, reference.url].filter(Boolean) })),
+    ...packageReferences.map((reference) => ({ id: reference.id, kind: 'reference', title: reference.title, route: '#/data', terms: [reference.title, ...(Array.isArray(reference.authors) ? reference.authors : [reference.authors]), reference.doi, reference.url].filter(Boolean) })),
   ])
   if (packageId === 'perissodactyla') {
     payloadFiles.calibrations = writeGzipJson(`packages/${packageId}/calibrations.json.gz`, calibrations)

@@ -1,10 +1,10 @@
 # Data package authoring
 
-Packages are static projections over shared canonical concepts, claims, references, ranges and occurrences. Each package owns one manually maintained `review.json`; read `docs/static-data-platform-v5.md` and `docs/review-workflow.md` before changing a package.
+Packages are static projections over shared canonical concepts, claims, references, ranges and occurrences. Migrated prose and evidence are authored under `content/`; read `docs/content-storage.md` for the tree paths, Markdown fields and compatibility projection rules. Each package owns one manually maintained `review.json`; read `docs/static-data-platform-v5.md` and `docs/review-workflow.md` before changing a package.
 
 ## 1. Define scope
 
-Add or update the package definition in `scripts/package-definitions.mjs`. Keep roots non-overlapping and update `data/registry/package-inventory-baseline.json` only after reviewing the ownership change. New entities belong in the canonical navigation ontology, not directly in generated package files.
+Add or update the package definition in `scripts/package-definitions.mjs`. Keep roots non-overlapping and update `data/registry/package-inventory-baseline.json` only after reviewing the ownership change. Author taxon concepts in their recorded classification paths and independent navigation concepts under `content/topics/atlas/`. Wire new records into `content/projection-map.yaml`; the navigation ontology and package files are generated projections.
 
 ## 2. Resolve identity and range
 

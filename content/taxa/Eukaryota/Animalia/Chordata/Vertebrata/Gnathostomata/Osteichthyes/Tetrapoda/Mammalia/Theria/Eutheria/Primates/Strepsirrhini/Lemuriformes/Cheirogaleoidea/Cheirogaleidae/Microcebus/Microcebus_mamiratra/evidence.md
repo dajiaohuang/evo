@@ -1,0 +1,556 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Microcebus mamiratra Andriantompohavana, Zaonarivelo, Engberg, Randriamampionona, McGuire, Shore et al., 2006
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 克莱尔鼠狐猴
+      en: Claire’s mouse lemur
+    reviewStatus: source-linked
+    checkedAt: 2026-09-29
+    sections:
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/0/topic
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/0
+    sources:
+      referenceBindings:
+        - referenceId: ref-47665df2-c579-87e1-ac19-e789a417e56b
+          metadataVariant: 0
+          sourceKey: martin2025
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/0/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/0/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+        - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+          metadataVariant: 0
+          sourceKey: taxonomy
+          usage:
+            title:
+              markdown: evidence.md
+              field: /records/catalogue-profile/sources/referenceBindings/1/usage/title
+            url: https://www.checklistbank.org/dataset/316115/taxon/42SBS
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/1/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/1/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+  catalogue-dossier:
+    scientificName: Microcebus mamiratra Andriantompohavana, Zaonarivelo, Engberg, Randriamampionona, McGuire, Shore et al., 2006
+    authorship: Andriantompohavana, Zaonarivelo, Engberg, Randriamampionona, McGuire, Shore et al., 2006
+    rank: species
+    sourceDatasetId: "2144"
+    checkedAt: 2026-09-28
+    identity:
+      method:
+        markdown: evidence.md
+        field: /records/catalogue-dossier/identity/method
+      scope:
+        markdown: evidence.md
+        field: /records/catalogue-dossier/identity/scope
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild:
+        markdown: evidence.md
+        field: /records/catalogue-dossier/lifeStatusScope/wild
+      domesticated: Domestication was not assessed.
+      captive: Captive animals were not part of the reported transect detections; captive status beyond this study was not assessed.
+      fossil: No fossil material or geological time was studied.
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+          metadataVariant: 1
+          sourceKey: col
+          usage:
+            licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+            title:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/sources/referenceBindings/0/usage/title
+            url: https://www.checklistbank.org/dataset/316115/taxon/42SBS
+            stableId: col:42SBS@COL26.8
+            version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+            publishedAt: 2026-08-20
+            accessedAt: 2026-09-28
+            locator:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/sources/referenceBindings/0/usage/locator
+            licenseAssessment: identity-only
+            scope:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/sources/referenceBindings/0/usage/scope
+            attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 42SBS. https://doi.org/10.48580/dgywk
+          originalFields:
+            - id
+            - title
+            - url
+            - stableId
+            - version
+            - publishedAt
+            - accessedAt
+            - locator
+            - license
+            - licenseAssessment
+            - scope
+            - rightsHolder
+            - licenseVersion
+            - licenseUrl
+            - licenseAppliesTo
+            - attribution
+        - referenceId: ref-5833a9cc-a589-8c6c-a36a-0c36ff0beaa2
+          metadataVariant: 0
+          sourceKey: martin2025
+          usage:
+            licenseAppliesTo:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/sources/referenceBindings/1/usage/licenseAppliesTo
+            stableId: doi:10.1017/S0030605324000772
+            accessedAt: 2026-09-28
+            locator:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/sources/referenceBindings/1/usage/locator
+            licenseAssessment: item-level-verified
+            rightsEvidenceUrl: https://www.cambridge.org/core/journals/oryx/article/first-density-estimates-of-the-endangered-claires-mouse-lemur-microcebus-mamiratra-and-recommendations-for-its-conservation/C244E596EA3EDF6C43AC07EC38CD2420
+            scope:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/sources/referenceBindings/1/usage/scope
+            attribution:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/sources/referenceBindings/1/usage/attribution
+          originalFields:
+            - id
+            - title
+            - url
+            - stableId
+            - version
+            - publishedAt
+            - accessedAt
+            - locator
+            - license
+            - licenseVersion
+            - licenseUrl
+            - rightsHolder
+            - licenseAssessment
+            - licenseAppliesTo
+            - rightsEvidenceUrl
+            - scope
+            - attribution
+    systematicSearch:
+      date: 2026-09-28
+      scope:
+        markdown: evidence.md
+        field: /records/catalogue-dossier/systematicSearch/scope
+      method:
+        markdown: evidence.md
+        field: /records/catalogue-dossier/systematicSearch/method
+      queryOrPath: Pinned COL26.8 dataset 316115 usage 42SBS; Cambridge Core Oryx version of record, DOI 10.1017/S0030605324000772.
+      inclusionCriteria:
+        markdown: evidence.md
+        field: /records/catalogue-dossier/systematicSearch/inclusionCriteria
+      exclusionCriteria:
+        markdown: evidence.md
+        field: /records/catalogue-dossier/systematicSearch/exclusionCriteria
+      searcher: Evo source audit
+    facets:
+      morphology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - markdown: evidence.md
+            field: /records/catalogue-dossier/facets/morphology/gaps/0
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - markdown: evidence.md
+            field: /records/catalogue-dossier/facets/lifeHistory/gaps/0
+      ecology:
+        status: partially-supported
+        claims:
+          - text:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/facets/ecology/claims/0/text
+            sourceIds:
+              - martin2025
+            locator: Abstract; Methods > Line transect surveys; Results > distance analyses and population extrapolation.
+            placeTimeScope:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/facets/ecology/claims/0/placeTimeScope
+            lifeStatus:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/facets/ecology/claims/0/lifeStatus
+            translationStatus: untranslated
+            originalLanguage: en
+        gaps:
+          - markdown: evidence.md
+            field: /records/catalogue-dossier/facets/ecology/gaps/0
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - markdown: evidence.md
+            field: /records/catalogue-dossier/facets/evolution/gaps/0
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - markdown: evidence.md
+            field: /records/catalogue-dossier/facets/distribution/gaps/0
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - markdown: evidence.md
+            field: /records/catalogue-dossier/facets/fossil/gaps/0
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - markdown: evidence.md
+            field: /records/catalogue-dossier/facets/conservation/gaps/0
+    completeness:
+      status: incomplete
+      reasons:
+        - markdown: evidence.md
+          field: /records/catalogue-dossier/completeness/reasons/0
+        - markdown: evidence.md
+          field: /records/catalogue-dossier/completeness/reasons/1
+        - markdown: evidence.md
+          field: /records/catalogue-dossier/completeness/reasons/2
+    expertReview:
+      status: not-reviewed
+      reviewers: []
+      reviewDigest: null
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 9CK8W
+        scientificName: Tetrapoda
+        authorship: null
+        rank: megaclass
+        status: accepted
+        sourceDatasetId: null
+      - id: 6224G
+        scientificName: Mammalia Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: class
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 6226C
+        scientificName: Theria Parker & Haswell, 1897
+        authorship: Parker & Haswell, 1897
+        rank: subclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: LG
+        scientificName: Eutheria Gill, 1872
+        authorship: Gill, 1872
+        rank: infraclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 3W7
+        scientificName: Primates Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: order
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4FM
+        scientificName: Strepsirrhini É. Geoffroy Saint-Hilaire, 1812
+        authorship: É. Geoffroy Saint-Hilaire, 1812
+        rank: suborder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4LN
+        scientificName: Lemuriformes Gray, 1821
+        authorship: Gray, 1821
+        rank: infraorder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4XL
+        scientificName: Cheirogaleoidea Gray, 1873
+        authorship: Gray, 1873
+        rank: superfamily
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: "834"
+        scientificName: Cheirogaleidae Gray, 1873
+        authorship: Gray, 1873
+        rank: family
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 63B2M
+        scientificName: Microcebus É. Geoffroy Saint-Hilaire, 1834
+        authorship: É. Geoffroy Saint-Hilaire, 1834
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 42SBS
+        scientificName: Microcebus mamiratra Andriantompohavana, Zaonarivelo, Engberg, Randriamampionona, McGuire, Shore et al., 2006
+        authorship: Andriantompohavana, Zaonarivelo, Engberg, Randriamampionona, McGuire, Shore et al., 2006
+        rank: species
+        status: accepted
+        sourceDatasetId: "2144"
+---
+
+# Microcebus mamiratra
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/0/usage/scope/zh -->
+Nosy Be Lokobe 国家公园内外 15 条样线；2023 年 2 月 17 日至 4 月 4 日调查，密度来自该岛研究区，约 4,700 只为岛内森林范围外推。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/0/usage/scope/en -->
+Fifteen transects in and around Lokobe National Park on Nosy Be, surveyed from 17 February to 4 April 2023; density concerns the study area, and the approximate 4,700 estimate extrapolates across island forest.
+<!-- /evo:text -->
+
+## referenceBindings / usage / title
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/1/usage/title -->
+Catalogue of Life COL26.8 · source 2144
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/1/usage/scope/zh -->
+固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/1/usage/scope/en -->
+Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+<!-- /evo:text -->
+
+## catalogue-dossier / identity / method
+
+<!-- evo:text /records/catalogue-dossier/identity/method -->
+Exact accepted COL26.8 usage 42SBS was verified in the release-pinned search registry for verbatim name, authorship, species rank, accepted status, and sourceDatasetId 2144; its accepted parent chain is reconstructed by stable ID from the pinned hierarchy registry.
+<!-- /evo:text -->
+
+## catalogue-dossier / identity / scope
+
+<!-- evo:text /records/catalogue-dossier/identity/scope -->
+This dossier is keyed to accepted COL26.8 usage 42SBS. The cited study directly identifies its field detections as Microcebus mamiratra; its local Nosy Be survey does not establish the species' full distribution or population across Madagascar.
+<!-- /evo:text -->
+
+## catalogue-dossier / lifeStatusScope / wild
+
+<!-- evo:text /records/catalogue-dossier/lifeStatusScope/wild -->
+The cited work reports visual detections of free-ranging mouse lemurs during nocturnal field transects across forests and plantations on Nosy Be. The study does not provide captive-population data.
+<!-- /evo:text -->
+
+## referenceBindings / usage / title
+
+<!-- evo:text /records/catalogue-dossier/sources/referenceBindings/0/usage/title -->
+Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144
+<!-- /evo:text -->
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/catalogue-dossier/sources/referenceBindings/0/usage/locator -->
+Accepted species usage 42SBS: verbatim name, authorship, rank, accepted status, sourceDatasetId 2144, and complete accepted parent chain.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-dossier/sources/referenceBindings/0/usage/scope -->
+Pinned COL26.8 nomenclatural identity and accepted classification only.
+<!-- /evo:text -->
+
+## referenceBindings / usage / licenseAppliesTo
+
+<!-- evo:text /records/catalogue-dossier/sources/referenceBindings/1/usage/licenseAppliesTo -->
+The article text under its item-level CC BY 4.0 notice. This dossier paraphrases the text and does not reuse separately credited images or supplementary material.
+<!-- /evo:text -->
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/catalogue-dossier/sources/referenceBindings/1/usage/locator -->
+Abstract; Methods > Survey design and transect placement; Methods > Line transect surveys; Results > distance analyses and population extrapolation.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-dossier/sources/referenceBindings/1/usage/scope -->
+One nocturnal line-transect distance-sampling study of M. mamiratra at 15 transects in primary, secondary and degraded forest and plantations on Nosy Be, Madagascar; its local estimate is not a range-wide census.
+<!-- /evo:text -->
+
+## referenceBindings / usage / attribution
+
+<!-- evo:text /records/catalogue-dossier/sources/referenceBindings/1/usage/attribution -->
+Martin LD, Razafimanantsoa H, Nomenjanahary ES, Volampeno S & Behie AM (2025). First density estimates of the Endangered Claire's mouse lemur Microcebus mamiratra and recommendations for its conservation. Oryx 59(1):109-118. https://doi.org/10.1017/S0030605324000772. Claims paraphrased.
+<!-- /evo:text -->
+
+## catalogue-dossier / systematicSearch / scope
+
+<!-- evo:text /records/catalogue-dossier/systematicSearch/scope -->
+Exact COL26.8 identity verification and focused review of one primary field study with publisher-verified article-level reuse terms; this is not a multi-database, seven-facet, range-wide systematic review.
+<!-- /evo:text -->
+
+## catalogue-dossier / systematicSearch / method
+
+<!-- evo:text /records/catalogue-dossier/systematicSearch/method -->
+Verified the pinned accepted COL usage and full accepted parent chain by stable IDs. Reviewed the Cambridge version-of-record page, abstract, survey design, nocturnal field methods, results, model-based population extrapolation, and item-level license notice.
+<!-- /evo:text -->
+
+## catalogue-dossier / systematicSearch / inclusionCriteria
+
+<!-- evo:text /records/catalogue-dossier/systematicSearch/inclusionCriteria -->
+Primary-source quantitative results explicitly attributed to M. mamiratra and geographically bounded to the authors' 2023 Nosy Be line-transect study.
+<!-- /evo:text -->
+
+## catalogue-dossier / systematicSearch / exclusionCriteria
+
+<!-- evo:text /records/catalogue-dossier/systematicSearch/exclusionCriteria -->
+Name-only matches; extrapolation beyond Nosy Be forested extent of occurrence; island estimate as a census; inferred habitat preference from encounter rate; unsupported range-wide, life-history, morphology, evolution, fossil, or conservation-status claims; separately credited figures or supplementary material.
+<!-- /evo:text -->
+
+## facets / morphology / gaps
+
+<!-- evo:text /records/catalogue-dossier/facets/morphology/gaps/0 -->
+The selected field-density study does not provide a diagnostic anatomical description or morphological measurements.
+<!-- /evo:text -->
+
+## facets / lifeHistory / gaps
+
+<!-- evo:text /records/catalogue-dossier/facets/lifeHistory/gaps/0 -->
+The selected study does not assess development, reproduction, survival, or lifespan.
+<!-- /evo:text -->
+
+## ecology / claims / text
+
+<!-- evo:text /records/catalogue-dossier/facets/ecology/claims/0/text -->
+During nocturnal line-transect distance-sampling surveys on Nosy Be, researchers recorded 92 visual detections of Microcebus mamiratra over 46.5 km and estimated a mean density of 125.1 individuals/km² (95% CI 65.3–239.5). Extrapolating this study-area estimate across forested areas within the species' mapped extent of occurrence on Nosy Be yielded approximately 4,700 individuals; this is a model-based island estimate, not a census or an estimate for the species' entire range.
+<!-- /evo:text -->
+
+## ecology / claims / placeTimeScope
+
+<!-- evo:text /records/catalogue-dossier/facets/ecology/claims/0/placeTimeScope -->
+Nocturnal wet-season surveys from 17 February to 4 April 2023 at 15 transects in and around Lokobe National Park on Nosy Be, north-west Madagascar. Transects sampled primary, secondary and degraded forest and plantations, inside and outside the park. Density pertains to the Nosy Be study area; the approximate 4,700 figure extrapolates the estimate across forested area within the mapped island extent of occurrence only.
+<!-- /evo:text -->
+
+## ecology / claims / lifeStatus
+
+<!-- evo:text /records/catalogue-dossier/facets/ecology/claims/0/lifeStatus -->
+Wild/free-ranging individuals detected visually during field transects. No captive or domesticated animals were included in the reported survey detections; the article does not assess fossil material.
+<!-- /evo:text -->
+
+## facets / ecology / gaps
+
+<!-- evo:text /records/catalogue-dossier/facets/ecology/gaps/0 -->
+This focused study supports a local density estimate and bounded island extrapolation only; broader diet, behavior, habitat-selection, interactions, seasonal variation and population trend require separate evidence and review.
+<!-- /evo:text -->
+
+## facets / evolution / gaps
+
+<!-- evo:text /records/catalogue-dossier/facets/evolution/gaps/0 -->
+No phylogenetic, population-genetic, or divergence-time analysis was assessed.
+<!-- /evo:text -->
+
+## facets / distribution / gaps
+
+<!-- evo:text /records/catalogue-dossier/facets/distribution/gaps/0 -->
+The local Nosy Be survey is not a range-wide distribution inventory or a range-change analysis.
+<!-- /evo:text -->
+
+## facets / fossil / gaps
+
+<!-- evo:text /records/catalogue-dossier/facets/fossil/gaps/0 -->
+No fossil evidence review or bounded fossil-record search was performed.
+<!-- /evo:text -->
+
+## facets / conservation / gaps
+
+<!-- evo:text /records/catalogue-dossier/facets/conservation/gaps/0 -->
+The paper discusses conservation context, but this focused dossier does not independently assess conservation status, population trend, or extinction risk.
+<!-- /evo:text -->
+
+## catalogue-dossier / completeness / reasons
+
+<!-- evo:text /records/catalogue-dossier/completeness/reasons/0 -->
+Only a bounded local ecology result is supported; six facets remain not-assessed and ecology remains partial.
+<!-- /evo:text -->
+
+## catalogue-dossier / completeness / reasons
+
+<!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
+The approximately 4,700 individuals are an extrapolation across mapped forest on Nosy Be, not a species-wide census or population estimate.
+<!-- /evo:text -->
+
+## catalogue-dossier / completeness / reasons
+
+<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
+No comprehensive facet-by-facet literature search or independent external expert review has been completed.
+<!-- /evo:text -->

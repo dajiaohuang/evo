@@ -221,7 +221,7 @@ export function SpeciesDetail() {
                 <div className="tree-evidence-links">
                   {nodeEvidence.references.map((referenceId) => {
                     const reference = references.find((item) => item.id === referenceId)
-                    return reference ? <a key={referenceId} href={reference.url} target="_blank" rel="noreferrer">{reference.title} ↗</a> : null
+                    return reference ? (reference.url ? <a key={referenceId} href={reference.url} target="_blank" rel="noreferrer">{reference.title} ↗</a> : <span key={referenceId}>{reference.title}</span>) : null
                   })}
                 </div>
               </div>

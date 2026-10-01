@@ -2,6 +2,9 @@ import { writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { collectDataSummary, readJson, rootDir } from './data-lib.mjs'
 import { DATASET_PACKAGE_VERSION, DATASET_RELEASE_DATE } from './package-definitions.mjs'
+import { buildContentProjections } from './build-content-projections.mjs'
+
+buildContentProjections({ quiet: true })
 
 const manifest = readJson('data/manifest.json')
 const packageManifest = readJson('package.json')
