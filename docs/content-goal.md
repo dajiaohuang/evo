@@ -14,10 +14,10 @@ archives, fossils, maps and media in their independent structured stores.
 Legacy JSON/Brotli files are generated compatibility projections.
 
 For Primates, retain the 530 accepted species in pinned COL26.8 as the fixed
-species-level denominator. Address the 17 remaining source or classification gaps
+species-level denominator. Address the 16 remaining source or classification gaps
 before declaring the first reading-page standard met. The active task began with
 19; P3-119 and P3-120 close the previously documented *Tamarinus imperator* and
-*Cercopithecus wolfi* gaps. Earlier
+*Cercopithecus wolfi* and *Piliocolobus langi* gaps. Earlier
 plan entries still report 14 after P3-118 and need a taxon-by-taxon reconciliation.
 For Archosauria, establish
 a complete fixed denominator from local catalogues and the plan's scope,

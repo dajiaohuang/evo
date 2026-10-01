@@ -10,18 +10,11 @@ records:
       en: Lang's Red Colobus
       zh: 朗氏红疣猴
     reviewStatus: source-linked
-    checkedAt: 2026-09-30
+    checkedAt: 2026-10-02
     sections:
       - topic:
           markdown: page.en.md
           field: /records/catalogue-profile/sections/0/topic
-        text:
-          en:
-            markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/text/en
-          zh:
-            markdown: page.zh.md
-            field: /records/catalogue-profile/sections/0/text/zh
         sourceIds:
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/0/sourceIds/0
@@ -29,6 +22,52 @@ records:
             field: /records/catalogue-profile/sections/0/sourceIds/1
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/0/sourceIds/2
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/1/topic
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/sourceIds/0
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/2/topic
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/sourceIds/0
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/3/topic
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/sourceIds/0
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -127,11 +166,11 @@ Supports the current English common-name crosswalk used here; not occurrence, ec
 ## referenceBindings / usage / scope
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/2/usage/scope/en -->
-A 2019 rapid assessment over selected locations in the Kisangani red-colobus region; phenotype assignments and observations are limited to sampled sites and report-era taxonomy.
+A 2019 regional rapid assessment combining interviews and reconnaissance. Its broad “Kisangani red colobus” totals include both *P. langi* and other forms; species-level phenotype assignments, field observations and threat context retain the report's site, method and taxonomy boundaries.
 <!-- /evo:text -->
 
 ## referenceBindings / usage / scope
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/2/usage/scope/zh -->
-2019 年在基桑加尼红疣猴区域若干地点开展的快速评估；表型归属和观察仅限取样地点及报告所用分类。
+2019 年基桑加尼区域快速评估，结合访谈与森林漫查；“基桑加尼红疣猴”总量包括 *P. langi* 和其他形式，种级表型归属、现场记录与威胁背景均限于报告的地点、方法和分类口径。
 <!-- /evo:text -->
