@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-104 从剩余 9 个无种级页面的 COL26.8 接受种中，按现有野外材料与读者问题打包下一批双语种页和属级阅读路径。灵长类现有 521/530 个种级页面记录（54 个 dossier-backed、467 个 profile-only）；9 个仍无种级页面，476 个仍未命中 dossier 索引。502 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-105 从剩余 7 个无种级页面的 COL26.8 接受种中，按现有野外材料与读者问题打包下一批双语种页和属级阅读路径。灵长类现有 523/530 个种级页面记录（54 个 dossier-backed、469 个 profile-only）；7 个仍无种级页面，476 个仍未命中 dossier 索引。504 个接受种达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1530,6 +1530,17 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 来源：[Nascimento 等（2011），L. caissara 种群密度样线调查](https://doi.org/10.1896/044.018.0103)；[Nascimento 与 Schmidlin（2011），L. caissara 生境选择与承载力模型](https://doi.org/10.1017/S0030605310000943)；[Keuroghlian 与 Passos（2001），L. chrysopygus 猎物取食与季节性](https://doi.org/10.1590/S1519-69842001000300015)；[Felippi 等（2026），黑狮面狨树上相机研究](https://doi.org/10.1007/s10764-026-00552-3)；[MDD v2.5：L. caissara](https://www.mammaldiversity.org/taxon/1000787/)；[MDD v2.5：L. chrysopygus](https://www.mammaldiversity.org/taxon/1000789/)。
 
 本批后固定灵长类种级页面为 490/530（54 个 dossier-backed、436 个 profile-only），40 个接受种仍无种级页面；471 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。属级导读不计入 530 个种级分母。
+
+按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
+## P3-104 — Galago gallarum 与 G. matschiei
+
+- 为 COL26.8 接受种 *Galago gallarum*（3F2D4）与 *G. matschiei*（6JW34）新增 profile-only 双语页，并为接受属 *Galago*（4LR5）新增阅读路径。MDD v2.5 使用 Somali Lesser Galago 与 Spectacled Lesser Galago；中文显示名为编辑用名。
+- *G. gallarum* 页面并列呈现 Butynski 与 de Jong 的历史自然史综合、2004 年 Meru/Kora 九日调查和 2011 年肯尼亚北部海岸快速调查。短期调查约每小时记录 0.7 只；Kiunga 至少观察到 2 只；Agarbul 两只未定种个体仅被报告为暂定鉴定。均为局地遇见记录，不是种群密度或估值。
+- *G. matschiei* 页面依据 2025 年区域论文，说明作者比较 1952 年采集的 4 件 Mount Moroto 标本与 2 件刚果民主共和国 *G. matschiei* 标本后，将前者识别为 *G. senegalensis*；论文未发现 Victoria–Nile 流域以东的该种证据。论文汇总的 2000–2001 年乌干达 14 片森林调查（83 夜、308 小时、30 条记录）保留为历史地点资料，不作为种群估值。
+- 属级路径连接两篇新页和已有的 *G. moholi*、*G. senegalensis* 页；各研究的地点、年代和方法不同，不构成完整属级名录或生态综合。本批未新增 dossier 或外部领域专家评审。
+- 来源：[Butynski & de Jong（2004），Somali lesser galago 自然史](https://doi.org/10.2982/0012-8317(2004)93%5B23:NHOTSL%5D2.0.CO;2)；[de Jong & Butynski（2004），肯尼亚与埃塞俄比亚作者调查报告](https://www.wildsolutions.nl/wp-content/uploads/G.gallarum-FinalReport-June04-DeJongButynski.pdf)；[de Jong & Butynski（2011），肯尼亚北部海岸快速调查](https://doi.org/10.13140/RG.2.1.5062.3128)；[Butynski & de Jong（2025），matschiei 东侧分布边界复核](https://static1.1.sqspcdn.com/static/f/1200343/28709475/1770990632803/PC39_Butynski_De_Jong_range_Galago_matschiei.pdf?token=cGgLQLW0zEDrkK4C6aXYwG5e7%2FI%3D)；[MDD v2.5：Somali Lesser Galago](https://www.mammaldiversity.org/taxon/1001042/)；[MDD v2.5：Spectacled Lesser Galago](https://www.mammaldiversity.org/taxon/1001043/)；[COL26.8：3F2D4](https://api.checklistbank.org/dataset/316115/taxon/3F2D4)、[6JW34](https://api.checklistbank.org/dataset/316115/taxon/6JW34) 与 [4LR5](https://api.checklistbank.org/dataset/316115/taxon/4LR5)。
+- 本批后固定灵长类种级页面为 523/530（54 个 dossier-backed、469 个 profile-only），7 个接受种仍无页面；504 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个仍未命中 dossier 索引。属级导读不计入 530 个种级分母。
 
 按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
