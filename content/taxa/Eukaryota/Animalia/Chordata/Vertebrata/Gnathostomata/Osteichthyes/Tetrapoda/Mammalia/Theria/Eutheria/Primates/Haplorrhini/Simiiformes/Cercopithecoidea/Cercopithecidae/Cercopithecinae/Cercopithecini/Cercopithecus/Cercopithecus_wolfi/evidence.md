@@ -10,7 +10,7 @@ records:
       en: Wolf's monkey
       zh: 沃尔夫长尾猴
     reviewStatus: source-linked
-    checkedAt: 2026-09-30
+    checkedAt: 2026-10-02
     sections:
       - topic:
           markdown: page.en.md
@@ -27,6 +27,32 @@ records:
           zh:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/1/topic
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/sourceIds/0
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/2/topic
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/sourceIds/0
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
     sources:
       referenceBindings:
         - referenceId: ref-2dfaa44c-620e-8f5d-a66f-4b6516f01591
