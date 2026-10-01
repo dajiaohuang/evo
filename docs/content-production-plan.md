@@ -95,7 +95,7 @@
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-下一执行动作：P3-107 从剩余 3 个无种级页面的 COL26.8 接受种中，按现有野外材料与读者问题打包下一批双语种页和属级阅读路径。灵长类现有 527/530 个种级页面记录（54 个 dossier-backed、473 个 profile-only）；3 个仍无种级页面，476 个仍未命中 dossier 索引。506 个接受种达到首轮来源限定阅读页标准，21 个仍低于该标准或存在分类/归属待补项。完成灵长类后再转入主龙类。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
+下一执行动作：P3-108 先处理 23 个已建页但仍低于首轮来源限定标准或存在分类/归属待补项的 COL26.8 接受种；逐项补充有来源支持的野外材料，资料不足的项目明确保留缺口。灵长类固定分母已有 530/530 个种级页面（54 个 dossier-backed、476 个 profile-only），无种级页 0 个；507 个达到首轮标准，23 个仍低于该标准，476 个仍未命中 dossier 索引。完成首轮缺口处置后再建立主龙类固定分母与覆盖计划。纯内容变更仅生成读者投影、注册表与清单，不运行测试、内容/数据/增量校验、diff 检查或 CI。
 
 ## 8. 执行记录（2026-09-29）
 
@@ -1530,6 +1530,18 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 来源：[Nascimento 等（2011），L. caissara 种群密度样线调查](https://doi.org/10.1896/044.018.0103)；[Nascimento 与 Schmidlin（2011），L. caissara 生境选择与承载力模型](https://doi.org/10.1017/S0030605310000943)；[Keuroghlian 与 Passos（2001），L. chrysopygus 猎物取食与季节性](https://doi.org/10.1590/S1519-69842001000300015)；[Felippi 等（2026），黑狮面狨树上相机研究](https://doi.org/10.1007/s10764-026-00552-3)；[MDD v2.5：L. caissara](https://www.mammaldiversity.org/taxon/1000787/)；[MDD v2.5：L. chrysopygus](https://www.mammaldiversity.org/taxon/1000789/)。
 
 本批后固定灵长类种级页面为 490/530（54 个 dossier-backed、436 个 profile-only），40 个接受种仍无种级页面；471 个达到首轮来源限定阅读页标准，19 个仍低于该标准或存在分类/归属待补项，476 个未命中 dossier 索引。属级导读不计入 530 个种级分母。
+
+按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
+
+
+## P3-107 — Saguinus ursula、Chiropotes israelita 与 Xanthonycticebus intermedius
+
+- 为剩余三个无种级页面的 COL26.8 接受种新增双语 profile-only 页面，并接入 Saguinus（7BP7）与 Chiropotes（3NCR）既有阅读路径；为 Xanthonycticebus（BSTB7）新增属级阅读路径。新增后固定灵长类种级页面 530/530（54 个 dossier-backed、476 个 profile-only），无页面种数为 0；507 个达到首轮来源限定阅读页标准，23 个仍低于该标准或有分类/归属待补项，476 个仍未命中 dossier 索引。
+- *Saguinus ursula* 页以 Gregorin 与 de Vivo（2013）的分类比较为主：毛色差异和分子资料支持恢复该种，样本比较将其与托坎廷斯河西岸的 *S. niger* 区分。MDD v2.5 的 lectotype 与 Not Evaluated 字段独立标注。现有资料缺少充分的种级野外生态、丰度或趋势内容，故保留为首轮标准以下的分类导读。
+- *Chiropotes israelita* 页按固定 COL26.8 ID 5Y6KL 建立，并显式呈现 MDD v2.5 将其并入 *C. chiropotes* 的分类差异。Bonvicino 等（2003）的 25 件历史标本比较与 Boubli、de Lima（2009）的最大熵模型分开说明；模型结果是预测且仍需实地调查，不视为现时种群估计。该页仍列为首轮标准以下待补项。
+- *Xanthonycticebus intermedius* 页连接 Blair 等（2023）的历史博物馆分子材料与 Yang 等（2026）报告的广西四县夜间灯照调查。后者调查发生于 2025 年 6—10 月，共记录 98 只；数量严格限定于此次局地调查，不扩写为跨国全种总数。该页达到首轮来源限定标准。属级路径把此局地野外研究与 *X. pygmaeus* 既有圈养福利研究分开呈现，不将其拼成属级自然史。
+- Saguinus 与 Chiropotes 属级阅读路径分别连入新页，并保留旧行名范围图与当前接受 ID 的对应边界；Xanthonycticebus 页面串联属级分类来源、两个所选物种页面及其不同研究情境。这些属级路径不是完整属级清单或生态综合。本批未新增 dossier 或外部领域专家评审。
+- 来源：[Gregorin 与 de Vivo（2013），*Saguinus ursula* 分类重评](https://doi.org/10.11646/zootaxa.3721.2.4)；[MDD v2.5：Eastern Black-handed Tamarin](https://www.mammaldiversity.org/taxon/1000826/)；[Bonvicino 等（2003），*Chiropotes* 新形态比较](https://doi.org/10.1002/ajp.10115)；[Boubli 与 de Lima（2009），西北亚马孙分布模型](https://doi.org/10.1007/s10764-009-9335-4)；[MDD v2.5：*Chiropotes chiropotes*](https://www.mammaldiversity.org/taxon/1000898/)；[Blair 等（2023），蜂猴分子谱系研究](https://doi.org/10.3390/genes14030643)；[Yang 等（2026），广西北部倭蜂猴调查](https://doi.org/10.1111/1749-4877.70100)；[Nekaris 与 Nijman（2022），Xanthonycticebus 属级分类](https://doi.org/10.3897/zse.98.81942)；COL26.8 固定页面：[4TZC8](https://api.checklistbank.org/dataset/316115/taxon/4TZC8)、[5Y6KL](https://api.checklistbank.org/dataset/316115/taxon/5Y6KL)、[BV3HZ](https://api.checklistbank.org/dataset/316115/taxon/BV3HZ)、[BSTB7](https://api.checklistbank.org/dataset/316115/taxon/BSTB7)。
 
 按照 content-only 工作流，本批仅生成读者投影、注册表和数据清单；不运行测试、内容/数据/增量校验、diff 检查或 CI。
 

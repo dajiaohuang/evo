@@ -12472,12 +12472,15 @@
       "checkedAt": "2026-09-30",
       "sections": [
         {
-          "topic": "distribution",
+          "topic": "readingPath",
           "text": {
-            "zh": "补充表 S1 中的 8 个 Saguinus 条目，范围图相交汇总为：圭亚那（Guiana）3 种、因安巴里（Inambari）2 种、焦（Jaú）2 种、纳波（Napo）2 种、贝伦（Belém）1 种、欣古（Xingu）1 种、伊梅里（Imeri）1 种。仅按补充表 S1 的八个研究时代条目作属级汇总；不把未解决的行名逐一映射到 COL26.8 接受种。这是该研究矩阵中的区域地图比较，不是属内全部物种的完整分布或种群数量。",
-            "en": "Across the 8 Saguinus rows in Supplementary Table S1, range-map overlaps sum to: Guiana (3), Inambari (2), Jaú (2), Napo (2), Belém (1), Xingu (1), Imeri (1). This is a genus-level aggregation of the eight study-era rows in Supplementary Table S1; unresolved row names are not individually mapped to current COL26.8 accepted species. This is a regional map comparison in that study matrix, not the complete distribution of every species in the genus or a population estimate."
+            "zh": "COL26.8 属级 ID 7BP7 现将所选 Saguinus 页面连到 S. bicolor（4TZBJ）、S. martinsi（4TZBW）、S. midas（4TZBY）、S. niger（4TZC2）与 S. ursula（4TZC8）。可先读 Gregorin 与 de Vivo（2013）关于东、西托坎廷斯河岸 ursula 与 niger 的分类比较，再参照 Mourthé 等（2022）补充表 S1 的八个历史 Saguinus 行名范围图矩阵。后者是区域地图叠置；不将每个旧行名逐一映射为当前接受种，也不代表完整属级分布或数量评估。",
+            "en": "COL26.8 genus ID 7BP7 now links selected Saguinus pages for S. bicolor (4TZBJ), S. martinsi (4TZBW), S. midas (4TZBY), S. niger (4TZC2), and S. ursula (4TZC8). Read Gregorin and de Vivo's (2013) taxonomic comparison of ursula east and niger west of the Tocantins River, then consult the eight historical Saguinus rows in Supplementary Table S1 of Mourthé et al. (2022). The latter is a regional range-map overlay; its old row names are not mapped one by one to current accepted species and do not represent a complete genus distribution or abundance assessment."
           },
           "sourceIds": [
+            "taxonomy",
+            "ursulaTaxonomy",
+            "ursulaRevalidation",
             "mourthe2022"
           ]
         }
@@ -12505,6 +12508,24 @@
           "scope": {
             "zh": "固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。",
             "en": "Pinned accepted name, authorship, rank and parent classification; not biological evidence."
+          }
+        },
+        {
+          "id": "ursulaTaxonomy",
+          "title": "Catalogue of Life COL26.8 — Saguinus ursula",
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/4TZC8",
+          "scope": {
+            "en": "Connects accepted species ID 4TZC8 under genus ID 7BP7.",
+            "zh": "将接受种 ID 4TZC8 接入属级 ID 7BP7。"
+          }
+        },
+        {
+          "id": "ursulaRevalidation",
+          "title": "Gregorin and de Vivo (2013) — Revalidation of Saguinus ursula",
+          "url": "https://doi.org/10.11646/zootaxa.3721.2.4",
+          "scope": {
+            "en": "Taxonomic comparison of ursula and niger based on sampled pelage and molecular evidence; not a genus-wide ecological study.",
+            "zh": "基于毛色与分子资料比较 ursula 和 niger 的分类研究；不是属级生态调查。"
           }
         }
       ],
@@ -49333,8 +49354,8 @@
         {
           "topic": "readingPath",
           "text": {
-            "en": "COL26.8 genus ID 3NCR connects the selected Chiropotes pages C. albinasus (5Y6KP), C. chiropotes (5Y6KK), C. satanas (5Y6KV), C. sagulatus (5Y6L6), and the new C. utahicki guide (84HTH). Start with the Guyana continuous-forest studies on C. sagulatus diet and social behavior, then compare the regional range-map overlays linked from C. chiropotes and C. satanas with selected field records for C. albinasus. The new C. utahicki route pairs two-site Xingu–Tocantins transect observations with one Germoplasma Island group’s diet records. These pages use different locations, dates and methods; the route is not a complete genus account or combined range estimate.",
-            "zh": "COL26.8 属级 ID 3NCR 连接所选 Chiropotes 页面：C. albinasus（5Y6KP）、C. chiropotes（5Y6KK）、C. satanas（5Y6KV）、C. sagulatus（5Y6L6）及新写的 C. utahicki 导读（84HTH）。可先读 C. sagulatus 在圭亚那连续林地的食性与社会行为研究，再比较 C. chiropotes 和 C. satanas 页面所连的区域分布图叠置结果，以及 C. albinasus 的部分野外记录。新增的 C. utahicki 路径并列 Xingu–Tocantins 两地样线观察与 Germoplasma Island 单群体食性记录。各页使用的地点、年代和方法不同；此路径不是完整属级综述，也不提供合并分布估计。"
+            "en": "COL26.8 genus ID 3NCR connects six selected Chiropotes pages: C. albinasus (5Y6KP), C. chiropotes (5Y6KK), C. satanas (5Y6KV), C. sagulatus (5Y6L6), C. utahicki (84HTH), and C. israelita (5Y6KL). The israelita guide keeps the fixed COL ID visible alongside the MDD v2.5 treatment that places the name under C. chiropotes. Bonvicino et al. (2003) compared 25 specimens and argued for a distinct Rio Negro form; Boubli and de Lima (2009) modeled potential distribution and noted the need for further field surveys. These are different historical taxonomic and predictive sources, not a current genus-wide inventory or population estimate.",
+            "zh": "COL26.8 属级 ID 3NCR 连接六个所选 Chiropotes 页面：C. albinasus（5Y6KP）、C. chiropotes（5Y6KK）、C. satanas（5Y6KV）、C. sagulatus（5Y6L6）、C. utahicki（84HTH）及 C. israelita（5Y6KL）。israelita 导读保留固定 COL ID，并同时标出 MDD v2.5 将该名处理为 C. chiropotes 下异名的版本差异。Bonvicino 等（2003）比较 25 件标本并论证里奥内格罗河形态可单列；Boubli 与 de Lima（2009）建模潜在分布并指出还需实地调查。这些是不同的历史分类与预测材料，不是当前属级完整清查或种群数量估计。"
           },
           "sourceIds": [
             "taxonomy",
@@ -49349,7 +49370,11 @@
             "costaAraujo2024",
             "utahickiTaxonomy",
             "utahickiHabitat",
-            "utahickiDiet"
+            "utahickiDiet",
+            "israelitaTaxonomy",
+            "israelitaBonvicino2003",
+            "israelitaRange2009",
+            "israelitaMdd"
           ]
         }
       ],
@@ -49469,6 +49494,42 @@
           "scope": {
             "en": "One-group island observations; the chapter compares sampling periods from 2001 and 2004.",
             "zh": "单群体岛上观察；章节比较 2001 与 2004 年采样期。"
+          }
+        },
+        {
+          "id": "israelitaTaxonomy",
+          "title": "Catalogue of Life COL26.8 — Chiropotes israelita",
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/5Y6KL",
+          "scope": {
+            "en": "Connects accepted fixed species ID 5Y6KL under genus ID 3NCR.",
+            "zh": "将固定接受种 ID 5Y6KL 接入属级 ID 3NCR。"
+          }
+        },
+        {
+          "id": "israelitaBonvicino2003",
+          "title": "Bonvicino et al. (2003) — Morphologic, karyotypic, and molecular evidence of a new form of Chiropotes",
+          "url": "https://doi.org/10.1002/ajp.10115",
+          "scope": {
+            "en": "Historical comparison of 25 Brazilian Amazon specimens and the authors' Rio Negro taxonomic interpretation.",
+            "zh": "比较巴西亚马孙 25 件历史标本并记录作者对里奥内格罗河形态的分类解释。"
+          }
+        },
+        {
+          "id": "israelitaRange2009",
+          "title": "Boubli and de Lima (2009) — Modeling Chiropotes israelita and Cacajao distributions in northwestern Amazonia",
+          "url": "https://doi.org/10.1007/s10764-009-9335-4",
+          "scope": {
+            "en": "Predictive maximum-entropy distribution model; the authors noted that further field surveys were needed.",
+            "zh": "最大熵预测分布模型；作者指出仍需进一步实地调查。"
+          }
+        },
+        {
+          "id": "israelitaMdd",
+          "title": "Mammal Diversity Database v2.5 — Chiropotes chiropotes (1000898)",
+          "url": "https://www.mammaldiversity.org/taxon/1000898/",
+          "scope": {
+            "en": "Links the version-specific treatment of israelita as a synonym under C. chiropotes; not a replacement for COL26.8 IDs.",
+            "zh": "连接 MDD v2.5 将 israelita 作为 C. chiropotes 异名的版本化处理；不替代 COL26.8 ID。"
           }
         }
       ],
@@ -51178,6 +51239,391 @@
       "limitations": {
         "en": "This is a short reading path through six accepted species IDs and two geographically and taxonomically bounded studies, not a complete genus account. The older transect paper used a broader name than the current species split, and the new-species paper is taxonomic rather than a full ecological survey. No dossier or external expert review was added.",
         "zh": "本路径串联六个接受种 ID 与两项地点和分类范围有限的研究，不是完整属级综述。旧样线论文采用的名称范围宽于当前种级划分；新种论文以分类描述为主，不是完整生态调查。本批未新增 dossier 或外部领域专家评审。"
+      }
+    },
+    {
+      "colId": "4TZC8",
+      "scientificName": "Saguinus ursula Hoffmannsegg, 1807",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-10-01",
+      "name": {
+        "zh": "东部黑掌狨",
+        "en": "Eastern Black-handed Tamarin"
+      },
+      "reviewStatus": "source-linked",
+      "sections": [
+        {
+          "topic": "taxonomyAndIdentification",
+          "text": {
+            "zh": "COL26.8 将 Saguinus ursula（4TZC8）列为接受种。Gregorin 与 de Vivo（2013）重新评估黑掌狨类群后恢复该种；他们依据毛色差异，并以分子资料支持形态分化。样本中，托坎廷斯河以东的 ursula 与河西的 S. niger 不同，作者认为两者异域分布、该河可能阻断基因交流。这里概述的是分类比较，不是河流屏障效应的独立检验。",
+            "en": "COL26.8 accepts Saguinus ursula (4TZC8) as a species. After revisiting the black-handed tamarin complex, Gregorin and de Vivo (2013) revalidated it using pelage differences, with molecular data corroborating the morphological divergence. In their samples, ursula east of the Tocantins River differed from S. niger west of it; the authors treated the forms as allopatric and the river as a possible barrier to gene flow. This summarizes a taxonomic comparison, not an independent test of the river-barrier hypothesis."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "gregorin2013"
+          ]
+        },
+        {
+          "topic": "typeAndStatus",
+          "text": {
+            "zh": "MDD v2.5 将英文普通名列为 Eastern Black-handed Tamarin，记录的选模标本为 ZMB 288、采自巴西贝伦附近，并显示 Not Evaluated。MDD 字段提供版本化名称与类型背景；它不补充现代种群调查或该种的野外生活史。",
+            "en": "MDD v2.5 lists the English common name Eastern Black-handed Tamarin, records lectotype ZMB 288 from near Belém, Brazil, and displays the category Not Evaluated. These are version-specific name and type fields; they do not provide a modern population survey or field natural history for the species."
+          },
+          "sourceIds": [
+            "mdd_name"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": {
+            "zh": "Catalogue of Life COL26.8 — Saguinus ursula",
+            "en": "Catalogue of Life COL26.8 — Saguinus ursula"
+          },
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/4TZC8",
+          "scope": {
+            "zh": "固定接受名、作者、种级等级和属级父链；不提供生物学证据。",
+            "en": "Pins the accepted name, authorship, species rank, and genus parent; it is not biological evidence."
+          }
+        },
+        {
+          "id": "gregorin2013",
+          "title": {
+            "zh": "Gregorin 与 de Vivo（2013）— Saguinus ursula 的重新确认",
+            "en": "Gregorin and de Vivo (2013) — Revalidation of Saguinus ursula"
+          },
+          "url": "https://doi.org/10.11646/zootaxa.3721.2.4",
+          "scope": {
+            "zh": "黑掌狨类群的分类比较；支持样本中的形态差异、分子佐证、两岸异域分布解释和选模指定，不是现代种群生态调查。",
+            "en": "Taxonomic comparison within the black-handed tamarin complex; supports sampled morphological differences, molecular corroboration, the authors' allopatry interpretation, and lectotype designation, not a modern population-ecology survey."
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": {
+            "zh": "Mammal Diversity Database v2.5 — Eastern Black-handed Tamarin（1000826）",
+            "en": "Mammal Diversity Database v2.5 — Eastern Black-handed Tamarin (1000826)"
+          },
+          "url": "https://www.mammaldiversity.org/taxon/1000826/",
+          "scope": {
+            "zh": "提供英文普通名、选模与显示的 Not Evaluated 类别等版本化字段；中文名为编辑译名。",
+            "en": "Provides version-specific fields including the English common name, lectotype, and displayed Not Evaluated category; the Chinese name is an editorial translation."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "可用的种级材料主要是分类与标本比较，缺少足以形成首轮生态阅读页的物种特异野外研究、丰度或趋势资料。因此本页保持为有来源的分类导读，并列入首轮标准以下待补项。托坎廷斯河作为基因交流屏障是原作者的解释，不是本页独立验证的机制。中文名为编辑译名；页面未经过外部领域专家评审。",
+        "en": "The available species-level material is mainly taxonomic and specimen-based, without enough species-specific field ecology, abundance, or trend evidence for the ecological first-round standard. This remains a source-linked taxonomic guide and is tracked below that standard. The Tocantins as a barrier to gene flow is the original authors' interpretation, not a mechanism independently tested here. The Chinese name is editorial, and the page has not received external expert review."
+      }
+    },
+    {
+      "colId": "5Y6KL",
+      "scientificName": "Chiropotes israelita (Spix, 1823)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-10-01",
+      "name": {
+        "zh": "里奥内格罗胡须僧面猴",
+        "en": "Rio Negro Bearded Saki"
+      },
+      "reviewStatus": "source-linked",
+      "sections": [
+        {
+          "topic": "classification",
+          "text": {
+            "zh": "此页按固定 COL26.8 接受种 ID 5Y6KL 记录 Chiropotes israelita（Spix, 1823）。分类意见并不一致：MDD v2.5 将 israelita 作为 C. chiropotes 的异名处理；较早的形态、核型和分子研究则把里奥内格罗河形态作为 C. israelita 讨论。保留清单 ID 与这项版本差异，不把不同来源的名称行合并。",
+            "en": "This page follows fixed COL26.8 accepted species ID 5Y6KL for Chiropotes israelita (Spix, 1823). Taxonomic treatments differ: MDD v2.5 treats israelita as a synonym of C. chiropotes, whereas an earlier morphological, karyotypic, and molecular study discussed the Rio Negro form as C. israelita. The page preserves the checklist ID and records this version-specific disagreement without merging source name rows."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_taxonomy"
+          ]
+        },
+        {
+          "topic": "taxonomicEvidence",
+          "text": {
+            "zh": "Bonvicino 等（2003）分析了来自巴西亚马孙多处地点的 25 件标本，报告该形态的毛色可与其他已知种区分，并描述了核型和分子差异；作者据此把里奥内格罗河材料称作 C. israelita，并与其比较的其他形式视为异域分布。这是历史样本支持的分类论证，不是当前全分布区调查。",
+            "en": "Bonvicino et al. (2003) analysed 25 specimens from several Brazilian Amazon localities. They reported distinguishing pelage and described karyotypic and molecular differences; on that basis they referred to the Rio Negro material as C. israelita and treated it as allopatric with the other forms they compared. This is a taxonomic argument based on historical samples, not a current range-wide survey."
+          },
+          "sourceIds": [
+            "bonvicino2003"
+          ]
+        },
+        {
+          "topic": "rangeModel",
+          "text": {
+            "zh": "Boubli 与 de Lima（2009）用最大熵方法建模西北亚马孙的 Chiropotes israelita 与 Cacajao 分布和生态位。模型所示适生区和边界属于预测结果；作者指出，仍需更多实地调查来厘清区域分布。它不能当作逐点确认、现时种群数量或趋势。",
+            "en": "Boubli and de Lima (2009) used a maximum-entropy algorithm to model the distributions and fundamental niches of Chiropotes israelita and Cacajao in northwestern Amazonia. The mapped suitable areas and boundaries are predictions; the authors noted that further field surveys were needed to clarify regional distributions. The model is not point-level confirmation, a current population count, or a trend estimate."
+          },
+          "sourceIds": [
+            "boubli2009"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": {
+            "zh": "Catalogue of Life COL26.8 — Chiropotes israelita",
+            "en": "Catalogue of Life COL26.8 — Chiropotes israelita"
+          },
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/5Y6KL",
+          "scope": {
+            "zh": "固定接受种 ID 5Y6KL、接受名、作者与属级父链。",
+            "en": "Pins accepted species ID 5Y6KL, name, authorship, and genus parent."
+          }
+        },
+        {
+          "id": "mdd_taxonomy",
+          "title": {
+            "zh": "Mammal Diversity Database v2.5 — Chiropotes chiropotes（1000898）",
+            "en": "Mammal Diversity Database v2.5 — Chiropotes chiropotes (1000898)"
+          },
+          "url": "https://www.mammaldiversity.org/taxon/1000898/",
+          "scope": {
+            "zh": "记录 MDD v2.5 将 israelita 作为 C. chiropotes 异名的该版本处理；不替代固定 COL26.8 身份。",
+            "en": "Records the MDD v2.5 treatment of israelita as a synonym of C. chiropotes; it does not replace the fixed COL26.8 identity."
+          }
+        },
+        {
+          "id": "bonvicino2003",
+          "title": {
+            "zh": "Bonvicino 等（2003）— Chiropotes 新形态的形态、核型与分子证据",
+            "en": "Bonvicino et al. (2003) — Morphologic, karyotypic, and molecular evidence of a new form of Chiropotes"
+          },
+          "url": "https://doi.org/10.1002/ajp.10115",
+          "scope": {
+            "zh": "对巴西亚马孙多地 25 件标本开展比较；这是历史分类研究，不是现代种群清查。",
+            "en": "Comparative analysis of 25 specimens from multiple Brazilian Amazon localities; a historical taxonomic study, not a modern population census."
+          }
+        },
+        {
+          "id": "boubli2009",
+          "title": {
+            "zh": "Boubli 与 de Lima（2009）— 西北亚马孙 Chiropotes israelita 与 Cacajao 的分布及生态位模型",
+            "en": "Boubli and de Lima (2009) — Modeling the geographical distribution and fundamental niches of Cacajao spp. and Chiropotes israelita in northwestern Amazonia via a maximum entropy algorithm"
+          },
+          "url": "https://doi.org/10.1007/s10764-009-9335-4",
+          "scope": {
+            "zh": "以历史出现记录和环境变量构建最大熵分布模型；是预测，不是逐点野外确认或种群评估。",
+            "en": "Uses historical occurrence records and environmental variables in a maximum-entropy distribution model; it is predictive, not point-level field confirmation or a population assessment."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "固定 COL26.8 与 MDD v2.5 在 israelita 是否单列为种上存在分类差异；页内原样呈现该差异。早期标本研究与最大熵模型提供分类/分布背景，但不构成当前物种种群估计、趋势或充分生活史资料，因此本页列为首轮标准以下待补项。模型边界仍需调查验证。中文名为描述性编辑用名，页面未经过外部领域专家评审。",
+        "en": "Fixed COL26.8 and MDD v2.5 differ on whether israelita is listed separately as a species; the page reports that difference. The earlier specimen study and maximum-entropy model provide taxonomic and distribution context, but not a current population estimate, trend, or sufficient life-history evidence, so this page is tracked below the first-round standard. Model boundaries remain to be checked with field surveys. The English and Chinese display names are editorial, and the page has not received external expert review."
+      }
+    },
+    {
+      "colId": "BV3HZ",
+      "scientificName": "Xanthonycticebus intermedius (Dao Van Tien, 1960)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-10-01",
+      "name": {
+        "zh": "北部倭蜂猴",
+        "en": "Northern Pygmy Slow Loris"
+      },
+      "reviewStatus": "source-linked",
+      "sections": [
+        {
+          "topic": "taxonomyAndLineage",
+          "text": {
+            "zh": "COL26.8 接受 Xanthonycticebus intermedius（BV3HZ）；MDD v2.5 使用英文名 Northern Pygmy Slow Loris，并列濒危（EN）。Blair 等（2023）利用 1884—1980 年间采集的历史博物馆标本和线粒体序列，分析蜂猴属类群的谱系关系并恢复 intermedius 的分类地位。该历史样本研究讨论的是谱系和分类，不代表现存种群数量。",
+            "en": "COL26.8 accepts Xanthonycticebus intermedius (BV3HZ); MDD v2.5 uses the English name Northern Pygmy Slow Loris and lists it as Endangered (EN). Blair et al. (2023) used historical museum specimens collected from 1884 to 1980 and mitochondrial sequences to examine loris lineages and restore the taxonomic status of intermedius. That historical-sample study addresses lineage and classification, not the size of living populations."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "mdd_name",
+            "blair2023"
+          ]
+        },
+        {
+          "topic": "regionalFieldEvidence",
+          "text": {
+            "zh": "Yang 等（2026）报告，他们在 2025 年 6—10 月对中国广西西南部和南部开展夜间灯照调查，在博白、宁明、龙州和凭祥确认稳定种群，共记录 98 只个体。作者称这些记录可能代表中国已知最大的该种种群。数字只对应此次广西调查，不是跨越中国、老挝、越南分布区的全种估计或普查。",
+            "en": "Yang et al. (2026) report nighttime spotlight surveys across southwestern and southern Guangxi, China, from June to October 2025. They confirmed stable populations in Bobai, Ningming, Longzhou, and Pingxiang and recorded 98 individuals. The authors say these records may represent the largest known population of the species in China. The figure belongs to this Guangxi survey; it is not a census or range-wide estimate across China, Laos, and Vietnam."
+          },
+          "sourceIds": [
+            "yang2026"
+          ]
+        },
+        {
+          "topic": "evidenceLimits",
+          "text": {
+            "zh": "这项近年的野外调查为中国广西提供了直接的种级出现和局地种群证据；覆盖的是四个县，不能替代该物种在全分布区的调查。页面并列历史谱系研究与现代局地调查，未把两者拼成全种数量、趋势或所有地区的保育状况。",
+            "en": "The recent field survey provides direct species-level occurrence and local population evidence for Guangxi, China; it covers four counties and does not replace surveys across the full range. The page places historical lineage work beside a modern local survey without combining them into a range-wide count, trend, or conservation assessment for all regions."
+          },
+          "sourceIds": [
+            "yang2026",
+            "blair2023",
+            "mdd_name"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": {
+            "zh": "Catalogue of Life COL26.8 — Xanthonycticebus intermedius",
+            "en": "Catalogue of Life COL26.8 — Xanthonycticebus intermedius"
+          },
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/BV3HZ",
+          "scope": {
+            "zh": "固定接受名、作者、种级等级和属级父链；不提供生物学证据。",
+            "en": "Pins the accepted name, authorship, species rank, and genus parent; it is not biological evidence."
+          }
+        },
+        {
+          "id": "mdd_name",
+          "title": {
+            "zh": "Mammal Diversity Database v2.5 — Northern Pygmy Slow Loris（1006699）",
+            "en": "Mammal Diversity Database v2.5 — Northern Pygmy Slow Loris (1006699)"
+          },
+          "url": "https://www.mammaldiversity.org/taxon/1006699/",
+          "scope": {
+            "zh": "提供英文普通名、国家分布和所列 IUCN 类别等版本化汇总字段；中文名为编辑译名。",
+            "en": "Provides version-specific summary fields including the English common name, country listing, and displayed IUCN category; the Chinese name is editorial."
+          }
+        },
+        {
+          "id": "blair2023",
+          "title": {
+            "zh": "Blair 等（2023）— 蜂猴与倭蜂猴分子谱系及 Xanthonycticebus intermedius 的恢复",
+            "en": "Blair et al. (2023) — Molecular phylogenetic relationships and unveiling novel genetic diversity among slow and pygmy lorises, including resurrection of Xanthonycticebus intermedius"
+          },
+          "url": "https://doi.org/10.3390/genes14030643",
+          "scope": {
+            "zh": "以历史博物馆标本及分子数据研究蜂猴类群谱系和分类；不提供现存种群普查。",
+            "en": "Uses historical museum specimens and molecular data to study loris lineages and taxonomy; it is not a census of living populations."
+          }
+        },
+        {
+          "id": "yang2026",
+          "title": {
+            "zh": "Yang 等（2026）— 广西发现北部倭蜂猴",
+            "en": "Yang et al. (2026) — The Northern Pygmy Slow Loris Xanthonycticebus intermedius Found in Guangxi, China"
+          },
+          "url": "https://doi.org/10.1111/1749-4877.70100",
+          "scope": {
+            "zh": "报告 2025 年 6—10 月广西四县夜间灯照调查及 98 只个体记录；是局地调查，不是全分布区普查。",
+            "en": "Reports a June–October 2025 nighttime spotlight survey in four Guangxi counties and 98 individuals; this is a local survey, not a range-wide census."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "2025 年现场记录限于中国广西四县，98 只个体不等同全种总数；老挝和越南未由该项调查覆盖。历史博物馆 DNA 资料回答谱系和分类问题，不表示今日分布或丰度。MDD 的 EN 类别为版本化评估字段，本页未独立评估。中文名为编辑译名；页面未经过外部领域专家评审。",
+        "en": "The 2025 field records are limited to four counties in Guangxi, China; 98 individuals are not a total for the species, and the survey did not cover Laos or Vietnam. Historical museum DNA addresses lineage and taxonomy, not present-day distribution or abundance. The MDD EN category is a version-specific assessment field and was not independently assessed here. The Chinese name is editorial, and the page has not received external expert review."
+      }
+    },
+    {
+      "colId": "BSTB7",
+      "scientificName": "Xanthonycticebus Nekaris & Nijman, 2022",
+      "rank": "genus",
+      "sourceDatasetId": "2144",
+      "checkedAt": "2026-10-01",
+      "name": {
+        "zh": "倭蜂猴属",
+        "en": "Pygmy Lorises"
+      },
+      "reviewStatus": "source-linked",
+      "sections": [
+        {
+          "topic": "readingPath",
+          "text": {
+            "zh": "COL26.8 属级 ID BSTB7 连接两条所选物种阅读路径：X. intermedius（BV3HZ）提供历史谱系研究与 2025 年广西局地野外调查；X. pygmaeus（BTCRT）现有页面介绍圈养雌性从单独饲养转入群体笼舍后的福利观察。Nekaris 与 Nijman（2022）提出 Xanthonycticebus 属时综合形态、行为、核型和遗传证据。野外调查与圈养研究的物种、环境和问题不同，不能拼成属级自然史或野外社会系统概述。",
+            "en": "COL26.8 genus ID BSTB7 connects two selected species routes: X. intermedius (BV3HZ) links historical lineage work with a 2025 local field survey in Guangxi; the existing X. pygmaeus page (BTCRT) describes a captive-welfare study of females moved from solitary housing to group enclosures. In proposing Xanthonycticebus, Nekaris and Nijman (2022) combined morphological, behavioral, karyotypic, and genetic evidence. The field survey and captive study concern different species, settings, and questions; they do not combine into a genus-level natural history or account of wild social systems."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "genusDescription2022",
+            "intermediusTaxonomy",
+            "pygmaeusTaxonomy",
+            "survey2026",
+            "pygmaeusCaptive2021"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": {
+            "zh": "Catalogue of Life COL26.8 — Xanthonycticebus",
+            "en": "Catalogue of Life COL26.8 — Xanthonycticebus"
+          },
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/BSTB7",
+          "scope": {
+            "zh": "固定接受属 ID BSTB7、接受名、作者及分类层级；不提供生物学正文。",
+            "en": "Pins accepted genus ID BSTB7, name, authorship, and rank; it is not biological evidence."
+          }
+        },
+        {
+          "id": "genusDescription2022",
+          "title": {
+            "zh": "Nekaris 与 Nijman（2022）— 倭蜂猴属新属名",
+            "en": "Nekaris and Nijman (2022) — A new genus name for pygmy lorises, Xanthonycticebus gen. nov."
+          },
+          "url": "https://doi.org/10.3897/zse.98.81942",
+          "scope": {
+            "zh": "提出属级分类处理并综合形态、行为、核型和遗传比较；不是本属所有物种的完整野外综述。",
+            "en": "Proposes the generic treatment and synthesizes morphological, behavioral, karyotypic, and genetic comparisons; it is not a complete field review of every species in the genus."
+          }
+        },
+        {
+          "id": "intermediusTaxonomy",
+          "title": {
+            "zh": "Catalogue of Life COL26.8 — Xanthonycticebus intermedius",
+            "en": "Catalogue of Life COL26.8 — Xanthonycticebus intermedius"
+          },
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/BV3HZ",
+          "scope": {
+            "zh": "将接受种 BV3HZ 接入属级阅读路径。",
+            "en": "Connects accepted species ID BV3HZ to the genus route."
+          }
+        },
+        {
+          "id": "pygmaeusTaxonomy",
+          "title": {
+            "zh": "Catalogue of Life COL26.8 — Xanthonycticebus pygmaeus",
+            "en": "Catalogue of Life COL26.8 — Xanthonycticebus pygmaeus"
+          },
+          "url": "https://api.checklistbank.org/dataset/316115/taxon/BTCRT",
+          "scope": {
+            "zh": "将接受种 BTCRT 接入属级阅读路径。",
+            "en": "Connects accepted species ID BTCRT to the genus route."
+          }
+        },
+        {
+          "id": "survey2026",
+          "title": {
+            "zh": "Yang 等（2026）— 广西倭蜂猴野外调查",
+            "en": "Yang et al. (2026) — Guangxi field survey of Xanthonycticebus intermedius"
+          },
+          "url": "https://doi.org/10.1111/1749-4877.70100",
+          "scope": {
+            "zh": "广西四县局地夜间灯照调查；不支持外推到整个属或全分布区。",
+            "en": "A local nighttime spotlight survey in four Guangxi counties; it does not support extrapolation to the genus or the full range."
+          }
+        },
+        {
+          "id": "pygmaeusCaptive2021",
+          "title": {
+            "zh": "Alejandro 等（2021）— 圈养倭蜂猴雌性由单养转群饲后的行为变化",
+            "en": "Alejandro et al. (2021) — Behavioral Changes of Solitary Housed Female Pygmy Slow Lorises after Introduction into Group Enclosures"
+          },
+          "url": "https://doi.org/10.3390/ani11092751",
+          "scope": {
+            "zh": "圈养雌性福利研究；不支持野外社会结构或生态结论。",
+            "en": "A captive female-welfare study; it does not support conclusions about wild social organization or ecology."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "本路径连接所选 COL26.8 物种页与一项属级分类研究，不是完整属级名录或生态综合。其野外调查只覆盖中国广西，另一项资料是圈养研究；两者不构成可合并的全属样本。中文属名为编辑用名；页面未经过外部领域专家评审。",
+        "en": "This route links selected COL26.8 species pages and one genus-level taxonomic paper; it is not an exhaustive genus roster or ecological synthesis. Its field survey covers only Guangxi, China, and the other study is captive; they do not form a combined genus-wide sample. The Chinese genus name is editorial, and the page has not received external expert review."
       }
     }
   ]
