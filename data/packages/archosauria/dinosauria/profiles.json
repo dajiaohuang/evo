@@ -377,5 +377,144 @@
     "rangeEvidenceLevel": "withheld-no-range-evidence",
     "rangeReviewStatus": "not-reviewed",
     "rangeProvisional": true
+  },
+  {
+    "id": "dinosauria",
+    "treeNodeId": "dinosauria",
+    "scientificName": "Dinosauria",
+    "commonName": "Dinosaurs",
+    "commonNameZh": "恐龙",
+    "rank": "superorder",
+    "parentName": "Archosauria",
+    "extinct": false,
+    "firstAppearance": 233.2,
+    "lastAppearance": 0,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true,
+    "geography": [],
+    "overview": "Dinosauria is an atlas route from early fossil samples through living birds. Its displayed 233.2–0 Ma span is a navigation composite: the older end is anchored by a named Late Triassic assemblage, not a demonstrated global first appearance or continuous fossil record. The route keeps that specimen evidence, changing family-tree hypotheses and later fossil examples distinct.",
+    "ecology": {
+      "diet": "Diet varied across lineages; no single group-wide diet is inferred here.",
+      "habitat": "The page links terrestrial fossil samples with the living-bird continuation; it does not define one habitat for Dinosauria.",
+      "locomotion": "Locomotor anatomy and behaviour differ across included lineages; the examples below are not a group-wide performance model.",
+      "bodySize": "Body size varied widely across the lineage; no single size estimate is derived from the selected fossils.",
+      "guild": "Diverse terrestrial and aerial lineages; no single ecological guild is assigned to the whole group."
+    },
+    "traits": [
+      "The route includes the sampled Late Triassic holotype ULBRA-PVT280 and living birds.",
+      "Early dinosaur relationships remain sensitive to matrix coding and taxon sampling."
+    ],
+    "evidenceSummary": "ULBRA-PVT280 and its Candelária Sequence context are documented specimen evidence. Its age does not set a global dinosaur first appearance. Published morphology matrices recover competing early topologies, and the Yutyrannus integument example is limited to three named skeletons; neither should be generalized beyond its study scope.",
+    "confidence": "medium",
+    "referenceIds": [
+      "cabreira-2016-buriolestes",
+      "baron-2017-dinosaur-relationships",
+      "langer-2017-dinosaur-tree-reanalysis",
+      "xu-2012-yutyrannus"
+    ],
+    "readerLanguageStatus": {
+      "en": "draft-ready",
+      "zh": "draft-ready"
+    },
+    "readerSections": [
+      {
+        "id": "early-fossil-sample",
+        "title": {
+          "en": "A named specimen anchors the early fossil route",
+          "zh": "具名标本锚定早期化石路径"
+        },
+        "text": {
+          "en": "The holotype ULBRA-PVT280 comes from an approximately 233.2 Ma assemblage in the Candelária Sequence of southern Brazil. It preserves a partial skull, axial skeleton, forelimb and nearly complete left hind limb. This is a well-described local sample; it does not establish a global dinosaur first appearance or make Buriolestes a direct ancestor of later dinosaurs.",
+          "zh": "正模 ULBRA-PVT280 出自巴西南部 Candelária Sequence 中约 2.332 亿年前的生物组合。标本保存部分头骨、轴骨骼、前肢和近乎完整的左后肢。这是有详尽描述的局地样本，不能确立全球恐龙首现，也不能说明 Buriolestes 是后续恐龙的直接祖先。"
+        },
+        "sourceIds": [
+          "cabreira-2016-buriolestes"
+        ]
+      },
+      {
+        "id": "early-relationships",
+        "title": {
+          "en": "Why dinosaur family trees can differ",
+          "zh": "为何恐龙系统树会出现分歧"
+        },
+        "text": {
+          "en": "A 74-taxon, 457-character analysis recovered Theropoda and Ornithischia together as Ornithoscelida. A published reanalysis that rescored characters and added taxa recovered the traditional ornithischian–saurischian split. These are competing matrix results: character coding and sampling affect the inferred early branches, and neither analysis directly observes ancestry.",
+          "zh": "一项包含 74 个分类单元和 457 项性状的分析，将兽脚类与鸟臀类恢复为共同组成 Ornithoscelida。随后发表的重分析对性状重新编码并增加分类单元，恢复了传统的鸟臀类—蜥臀类分支。这些是彼此竞争的矩阵结果：性状编码与取样会影响推断的早期分支，任何一项分析都不是对祖先关系的直接观察。"
+        },
+        "sourceIds": [
+          "baron-2017-dinosaur-relationships",
+          "langer-2017-dinosaur-tree-reanalysis"
+        ]
+      },
+      {
+        "id": "later-fossil-example",
+        "title": {
+          "en": "What three Yutyrannus skeletons preserve",
+          "zh": "三件羽王龙骨架保存了什么"
+        },
+        "text": {
+          "en": "Three nearly complete Yutyrannus skeletons from the Lower Cretaceous Yixian Formation preserve long filamentous integument. The specimens document those structures in this tyrannosauroid sample; they do not establish complete body coverage, its function, or the integument of every dinosaur lineage.",
+          "zh": "来自早白垩世义县组的三件近乎完整羽王龙骨架保存了细长丝状体表结构。这些标本记录的是这一组暴龙超科样本中的结构；它们不能确立全身覆盖、具体功能，或所有恐龙谱系的体表状况。"
+        },
+        "sourceIds": [
+          "xu-2012-yutyrannus"
+        ]
+      }
+    ],
+    "readerSources": [
+      {
+        "id": "cabreira-2016-buriolestes",
+        "title": {
+          "en": "Cabreira et al. (2016), the Buriolestes assemblage",
+          "zh": "Cabreira 等（2016），Buriolestes 生物组合"
+        },
+        "url": "https://doi.org/10.1016/j.cub.2016.09.040",
+        "scope": {
+          "en": "Primary description of the ULBRA-PVT280 holotype and Candelária Sequence assemblage; the local age context does not establish a global dinosaur first appearance.",
+          "zh": "对 ULBRA-PVT280 正模和 Candelária Sequence 生物组合的一手描述；局地年代背景不能确立全球恐龙首现。"
+        }
+      },
+      {
+        "id": "baron-2017-dinosaur-relationships",
+        "title": {
+          "en": "Baron et al. (2017), a dinosaur relationships matrix",
+          "zh": "Baron 等（2017），恐龙亲缘关系矩阵"
+        },
+        "url": "https://doi.org/10.1038/nature21700",
+        "scope": {
+          "en": "The 74-taxon, 457-character analysis recovered Ornithoscelida; this is a matrix topology rather than observed ancestry.",
+          "zh": "这项包含 74 个分类单元、457 项性状的分析恢复 Ornithoscelida；这是矩阵拓扑结果，而非观察到的祖先关系。"
+        }
+      },
+      {
+        "id": "langer-2017-dinosaur-tree-reanalysis",
+        "title": {
+          "en": "Langer et al. (2017), dinosaur tree reanalysis",
+          "zh": "Langer 等（2017），恐龙系统树重分析"
+        },
+        "url": "https://doi.org/10.1038/nature24011",
+        "scope": {
+          "en": "Rescoring and adding taxa recovered the traditional ornithischian–saurischian split, illustrating sensitivity to matrix composition and coding.",
+          "zh": "重新编码并增加分类单元后，研究恢复传统的鸟臀类—蜥臀类分支，显示结果受矩阵组成与编码影响。"
+        }
+      },
+      {
+        "id": "xu-2012-yutyrannus",
+        "title": {
+          "en": "Xu et al. (2012), Yutyrannus skeletons and integument",
+          "zh": "Xu 等（2012），羽王龙骨架与体表结构"
+        },
+        "url": "https://doi.org/10.1038/nature10906",
+        "scope": {
+          "en": "Three nearly complete Yixian Formation skeletons preserve filamentous integument; function and full-body coverage are not direct observations.",
+          "zh": "三件义县组近乎完整骨架保存了丝状体表结构；其功能与全身覆盖并非直接观察所得。"
+        }
+      }
+    ],
+    "readerLimitations": {
+      "en": "This atlas concept is marked unresolved and has no fixed PBDB taxon ID. The page follows a selected fossil sample into the atlas's living-bird navigation; 233.2–0 Ma is not an uninterrupted occurrence interval. The cited specimens and topology analyses do not form a complete dinosaur ecology or evolutionary history, and this reader draft has not received external expert review.",
+      "zh": "本图谱概念标记为未解决，且没有固定 PBDB 分类单元 ID。页面从精选化石样本延伸至图谱中的现生鸟类导航；2.332 亿年前至今不是连续的出现记录。所引标本与拓扑分析不能构成完整恐龙生态或演化史综述，本文尚未经过领域专家外审。"
+    }
   }
 ]

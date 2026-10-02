@@ -13,6 +13,180 @@ records:
     extinct: false
     entityKind: taxon
     contentLevel: dossier
+  atlas-profile:
+    scientificName: Dinosauria
+    commonName: Dinosaurs
+    commonNameZh: 恐龙
+    rank: superorder
+    parentName: Archosauria
+    extinct: false
+    firstAppearance: 233.2
+    lastAppearance: 0
+    rangeEvidenceLevel: literature-synthesized
+    rangeReviewStatus: automated-audit-passed
+    rangeProvisional: true
+    geography: []
+    overview:
+      markdown: page.en.md
+      field: /records/atlas-profile/overview
+    ecology:
+      diet:
+        markdown: page.en.md
+        field: /records/atlas-profile/ecology/diet
+      habitat:
+        markdown: page.en.md
+        field: /records/atlas-profile/ecology/habitat
+      locomotion:
+        markdown: page.en.md
+        field: /records/atlas-profile/ecology/locomotion
+      bodySize:
+        markdown: page.en.md
+        field: /records/atlas-profile/ecology/bodySize
+      guild:
+        markdown: page.en.md
+        field: /records/atlas-profile/ecology/guild
+    traits:
+      - markdown: page.en.md
+        field: /records/atlas-profile/traits/0
+      - markdown: page.en.md
+        field: /records/atlas-profile/traits/1
+    evidenceSummary:
+      markdown: page.en.md
+      field: /records/atlas-profile/evidenceSummary
+    confidence: medium
+    referenceIds:
+      - cabreira-2016-buriolestes
+      - baron-2017-dinosaur-relationships
+      - langer-2017-dinosaur-tree-reanalysis
+      - xu-2012-yutyrannus
+    readerLanguageStatus:
+      en: draft-ready
+      zh: draft-ready
+    readerSections:
+      - id:
+          markdown: page.en.md
+          field: /records/atlas-profile/readerSections/0/id
+        title:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/0/title/en
+            format: heading
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/0/title/zh
+            format: heading
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/0/text/zh
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/atlas-profile/readerSections/0/sourceIds/0
+      - id:
+          markdown: page.en.md
+          field: /records/atlas-profile/readerSections/1/id
+        title:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/1/title/en
+            format: heading
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/1/title/zh
+            format: heading
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/1/text/zh
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/atlas-profile/readerSections/1/sourceIds/0
+          - markdown: page.en.md
+            field: /records/atlas-profile/readerSections/1/sourceIds/1
+      - id:
+          markdown: page.en.md
+          field: /records/atlas-profile/readerSections/2/id
+        title:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/2/title/en
+            format: heading
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/2/title/zh
+            format: heading
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/2/text/zh
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/atlas-profile/readerSections/2/sourceIds/0
+    readerSources:
+      - id: cabreira-2016-buriolestes
+        title:
+          en: Cabreira et al. (2016), the Buriolestes assemblage
+          zh: Cabreira 等（2016），Buriolestes 生物组合
+        url: https://doi.org/10.1016/j.cub.2016.09.040
+        scope:
+          en:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/0/scope/en
+          zh:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/0/scope/zh
+      - id: baron-2017-dinosaur-relationships
+        title:
+          en: Baron et al. (2017), a dinosaur relationships matrix
+          zh: Baron 等（2017），恐龙亲缘关系矩阵
+        url: https://doi.org/10.1038/nature21700
+        scope:
+          en:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/1/scope/en
+          zh:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/1/scope/zh
+      - id: langer-2017-dinosaur-tree-reanalysis
+        title:
+          en: Langer et al. (2017), dinosaur tree reanalysis
+          zh: Langer 等（2017），恐龙系统树重分析
+        url: https://doi.org/10.1038/nature24011
+        scope:
+          en:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/2/scope/en
+          zh:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/2/scope/zh
+      - id: xu-2012-yutyrannus
+        title:
+          en: Xu et al. (2012), Yutyrannus skeletons and integument
+          zh: Xu 等（2012），羽王龙骨架与体表结构
+        url: https://doi.org/10.1038/nature10906
+        scope:
+          en:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/3/scope/en
+          zh:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/3/scope/zh
+    readerLimitations:
+      en:
+        markdown: page.en.md
+        field: /records/atlas-profile/readerLimitations/en
+      zh:
+        markdown: page.zh.md
+        field: /records/atlas-profile/readerLimitations/zh
   claims:
     - subject:
         kind: taxon
@@ -78,6 +252,54 @@ records:
         - open-tree
         - pbdb-api-2016
 ---
+
+## readerSources / scope / en
+
+<!-- evo:text /records/atlas-profile/readerSources/0/scope/en -->
+Primary description of the ULBRA-PVT280 holotype and Candelária Sequence assemblage; the local age context does not establish a global dinosaur first appearance.
+<!-- /evo:text -->
+
+## readerSources / scope / zh
+
+<!-- evo:text /records/atlas-profile/readerSources/0/scope/zh -->
+对 ULBRA-PVT280 正模和 Candelária Sequence 生物组合的一手描述；局地年代背景不能确立全球恐龙首现。
+<!-- /evo:text -->
+
+## readerSources / scope / en
+
+<!-- evo:text /records/atlas-profile/readerSources/1/scope/en -->
+The 74-taxon, 457-character analysis recovered Ornithoscelida; this is a matrix topology rather than observed ancestry.
+<!-- /evo:text -->
+
+## readerSources / scope / zh
+
+<!-- evo:text /records/atlas-profile/readerSources/1/scope/zh -->
+这项包含 74 个分类单元、457 项性状的分析恢复 Ornithoscelida；这是矩阵拓扑结果，而非观察到的祖先关系。
+<!-- /evo:text -->
+
+## readerSources / scope / en
+
+<!-- evo:text /records/atlas-profile/readerSources/2/scope/en -->
+Rescoring and adding taxa recovered the traditional ornithischian–saurischian split, illustrating sensitivity to matrix composition and coding.
+<!-- /evo:text -->
+
+## readerSources / scope / zh
+
+<!-- evo:text /records/atlas-profile/readerSources/2/scope/zh -->
+重新编码并增加分类单元后，研究恢复传统的鸟臀类—蜥臀类分支，显示结果受矩阵组成与编码影响。
+<!-- /evo:text -->
+
+## readerSources / scope / en
+
+<!-- evo:text /records/atlas-profile/readerSources/3/scope/en -->
+Three nearly complete Yixian Formation skeletons preserve filamentous integument; function and full-body coverage are not direct observations.
+<!-- /evo:text -->
+
+## readerSources / scope / zh
+
+<!-- evo:text /records/atlas-profile/readerSources/3/scope/zh -->
+三件义县组近乎完整骨架保存了丝状体表结构；其功能与全身覆盖并非直接观察所得。
+<!-- /evo:text -->
 
 # Dinosauria
 

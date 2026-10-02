@@ -2059,3 +2059,10 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 将保存材料与解释区分：单地点 Carniadactylus 不定义全球首现，108 分类单元分析受采样不均影响；卵和胚胎属于特定沉积块，黑素体信号功能属于解释，飞行与起飞为模型可行性结果。保留既有 Pterosauria research-account、dossier claims 与范围字段；本文无外部领域专家评审。
 - 复用既有六条共享参考文献，不新增 dossier 或参考文献条目。内容生成成功：132 个投影由 37,788 个 Markdown 目录编译；生成包 profile `pterosauria` 有 4 节、6 个来源绑定，英语与中文状态均为 `draft-ready`。注册表覆盖 426 个实体/24 个包，manifest 含 1,995 项 SHA-256；证据队列为 2,183,133 个接受种、36,354 个 dossier 行、2,146,779 个无 dossier 种。依授权不运行手动测试、类型检查、验证器或手动 CI。
 - 来源：[Baron（2021），翼龙起源综述](https://doi.org/10.1016/j.earscirev.2021.103777)；[Dalla Vecchia（2009），Carniadactylus 再描述](https://doi.org/10.13130/2039-4942/6377)；[Upchurch 等（2015），翼龙生物地理分析](https://doi.org/10.1080/08912963.2014.939077)；[Wang 等（2017），Hamipterus 卵与胚胎](https://doi.org/10.1126/science.aan2329)；[Cincotta 等（2022），翼龙黑素体](https://doi.org/10.1038/s41586-022-04622-3)；[Witton 与 Habib（2010），巨型翼龙飞行模型](https://doi.org/10.1371/journal.pone.0013982)。
+
+## P4-21 — Dinosauria 恐龙类导航概念读者介绍（2026-10-02）
+
+- 为 `content/topics/atlas/.../Archosauria/Dinosauria` 当前空白的双语读者页增加三个来源限定章节，并将概念记录作为 `dinosauria` profile 接入 Archosauria 恐龙包。路径从约 233.2 Ma 的具名 Buriolestes 样本，转到两种竞争的早期恐龙矩阵结果，再读三件 Yutyrannus 骨架的丝状体表结构。
+- 明确 233.2–0 Ma 是包含现生鸟类导航的暂定综合跨度，不是连续化石记录或全球恐龙首现；Buriolestes 仅为局地样本，矩阵差异不代表直接祖先观察，Yutyrannus 结构不外推到全部恐龙。原索引 `conceptReviewStatus: unresolved` 与空 taxon ID 保持不变，无外部领域专家评审。
+- 复用四条共享引用，不改 dossier 或源分母。内容投影生成成功：156,725 个 Markdown 源文件已编译；包内 `dinosauria` profile 为 3 节、4 个来源绑定，英语和中文均为 `draft-ready`。注册表构建三次均因 `Profile dinosauria/geography is missing a biogeography claim` 失败；尝试添加的 `not-assessed` 字段覆盖未被生成器识别，且构建结束后该覆盖没有保留在源文件中。生成阻塞未解决，注册表投影可能不完整。该导航概念无整体地理范围评估；证据队列输入未变。依授权不运行手动测试、类型检查、验证器或手动 CI。
+- 来源：[Cabreira 等（2016），Buriolestes 化石组合](https://doi.org/10.1016/j.cub.2016.09.040)；[Baron 等（2017），恐龙关系矩阵](https://doi.org/10.1038/nature21700)；[Langer 等（2017），恐龙树重分析](https://doi.org/10.1038/nature24011)；[Xu 等（2012），羽王龙骨架与体表结构](https://doi.org/10.1038/nature10906)。
