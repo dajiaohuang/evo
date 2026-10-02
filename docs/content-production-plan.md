@@ -2138,3 +2138,17 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 
 - 为 PBDB tree node `txn:413463`（Asteriornis）与 `txn:413465`（A. maastrichtensis）新建根层双语 reader sections，并接到 Archosauria 包内既有 `atlas-profile` 投影。两层共六份 canonical 文件，复用 Field 等（2020）单一来源与既有 claims，不新增引用或重新解释源数据。
 - 阅读路径从正模 NHMM 2013 008 与 Maastrichtian 层位，转到保存形态、竞争系统发育结果及暂定滨岸解释；394 g 标为骨骼尺度估算。66.8–66.7 Ma 仅适用于来源层位，不外推为全球鸟类首现或完整化石范围。PBDB node/range withheld 状态与 research 范围成熟度保持不变；两层均无外部专家评审。种属 research 中文空页仍是后续待完成项。
+
+## P5-7 — Vultur 属完整接受种索引与厄瓜多尔研究导读（2026-10-02）
+
+- 对固定 COL26.8（2026-08-20）层级逐项核对：Cathartidae `7SX` → Vultur `87CF`（genus，accepted，source 2144，childCount 1）→ V. gryphus `5BSLM`（species，accepted，childCount 0）；该属全部严格接受种后代仅此一种。本批新增属级双语索引/阅读路径，补齐已有种级导读的筑巢和巢区互动章节；1/1 只表示该属接受种有研究导读，不表示完整科学档案或全 Aves 内容完成。
+- 复用 2016 年厄瓜多尔分布模型/2015-09-29 至 2015-09-30 普查与 2024 年八巢址研究。分布面积采用 2016 论文 Results 的 49,550 km²，明确摘要另报 49,725 km² 的未解决内部差异；94–102 只注明高斯模型 90% 置信区间。22 次产卵/16 只雏鸟限定于 2009–2021 年八巢址；15 个月产卵间隔限定于 2011–2021 年一个配对；巢区互动保留指定观察时段和观察力度差异，不扩写为全种食物网或繁殖参数。
+- 新增三份属级 canonical 文件、更新三份种级文件，中英均为 `source-linked`；既有 `catalogue-dossier` claims、`incomplete` 和 `not-reviewed` 保持不变。鉴别形态、完整食谱、全分布区范围、演化、化石、寿命和当前保育评估仍缺来源。本地 COL 无 extant 字段，不与 PBDB 同名概念合并；无外部领域专家评审。
+- 仅完成 canonical 内容准备：未变更共享 bibliography、projection-map 或生成物，未生成、测试、运行验证器/CI、提交或推送。父任务需将属 `87CF` 的 `catalogue-profile` 接入现有 catalogue profiles 投影；物种 `5BSLM` 已有映射，新增章节随原记录投影。Aves 接受种本地目录数仍为 14，固定工作分母仍为 11,044。
+
+## P5-8 — Dermochelys 属与革龟形态矩阵导读（2026-10-02）
+
+- 为 COL26.8 属 `Dermochelys` (`62PMJ`) 及唯一严格接受种 *D. coriacea* (`34XB9`) 建立双语索引与阅读路径；固定后代遍历为 1/1，父链经 Dermochelyidae `94Y`、Chelonioidea `87BWH`、Cryptodira `87BW5`、Testudines `477`。不从同名 PBDB 记录推导 COL 身份或现生状态。
+- 复用 Joyce（2007）《Phylogenetic Relationships of Mesozoic Turtles》：Appendix 1 p.77 的五个 USNM 标本、character 60 p.28 与 character 89 pp.39–40 的盾片编码，以及 Appendix 3 p.80 对未知和不适用字符的区分。正文只转述已抽样形态和编码方法，不复制图版或矩阵。
+- 根属与种级目录各新增 `index.yaml`、`evidence.md`、`page.en.md`、`page.zh.md` 共八份 canonical 文件；页面为 `source-linked`，checked 2026-10-02，无完整 dossier或外部专家评审。生活史、分布、现代保护状态和未测量性状保留未知。父任务将 `62PMJ`、`34XB9` 两条 `catalogue-profile` record 接入投影，并为既有 Joyce（2007）共享 reference 补入可投影的双语 title/url source metadata variant 0。
+- 来源：[COL26.8 Vultur `87CF`](https://www.checklistbank.org/dataset/316115/taxon/87CF)；[COL26.8 V. gryphus `5BSLM`](https://www.checklistbank.org/dataset/316115/taxon/5BSLM)；[Naveda-Rodríguez 等（2016），厄瓜多尔分布、数量与风险研究](https://doi.org/10.1371/journal.pone.0151827)；[Restrepo-Cardona 等（2024），厄瓜多尔生活史研究](https://doi.org/10.1177/19400829241238005)。
