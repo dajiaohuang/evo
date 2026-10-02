@@ -52451,6 +52451,78 @@
       }
     },
     {
+      "colId": "DTFQG",
+      "scientificName": "Leucocarbo bougainvilliorum (R. P. Lesson, 1837)",
+      "rank": "species",
+      "sourceDatasetId": "2144",
+      "name": {
+        "zh": "瓜奈鸬鹚",
+        "en": "Guanay Cormorant"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-10-02",
+      "sections": [
+        {
+          "topic": "sampling window",
+          "text": {
+            "zh": "Estrada-Grossmann 等比较了秘鲁 Grande Pescadores 岛一个野生瓜奈鸬鹚繁殖群的吐出食团：油污事件前样本采于 2018 年 11 月，事件后样本采于 2022 年 8—11 月，即泄漏发生 7—11 个月后。研究未个体标记或追踪鸟，因此比较的是繁殖群样本，并非同一批个体前后的变化。",
+            "en": "Estrada-Grossmann and colleagues compared regurgitated food boluses from one wild Guanay cormorant colony on Grande Pescadores Island, Peru: a pre-spill collection in November 2018 and collections from August to November 2022, seven to eleven months after the January oil spill. The birds were not individually identified or tracked, so the comparison describes colony samples, not changes in the same birds."
+          },
+          "sourceIds": [
+            "taxonomy",
+            "estrada2025guanay"
+          ]
+        },
+        {
+          "topic": "prey composition",
+          "text": {
+            "zh": "研究在两个时期的样本中共鉴定出五种鱼，并报告秘鲁鳀（Engraulis ringens）在事件前后都是主要猎物。秘鲁鳀的猎物数量比例分别为 99.736% 和 99.168%；相应的食团出现比例为 98.165% 和 99.881%。论文的事件后样本总数存在不一致：方法和结果称 998 个食团，表 1 却标为 N = 837。此处数字照表记录，不重新计算。",
+            "en": "The study identified five fish species across its samples and reported Peruvian anchoveta (Engraulis ringens) as the predominant prey before and after the spill. Anchoveta made up 99.736% and 99.168% of the numerical prey proportions in the two periods, respectively; the corresponding occurrence proportions were 98.165% and 99.881%. The paper's post-spill sample denominator is inconsistent: Methods and Results state 998 boluses, while Table 1 gives N = 837. The figures here follow the table as printed and are not recalculated."
+          },
+          "sourceIds": [
+            "estrada2025guanay"
+          ]
+        },
+        {
+          "topic": "interpretation limits",
+          "text": {
+            "zh": "这是单一繁殖群、两个时期的食性比较，事件发生后不久没有取样。该设计不能证明油污导致了食性变化，也不能证明没有变化；研究未测量猎物中的累积污染物暴露。结果不能代表该物种的整体食谱或当前种群状况。",
+            "en": "This is a two-period, one-colony diet comparison, with no samples collected immediately after the spill. The design cannot establish that the spill caused a dietary change or the absence of one, and the study did not measure cumulative contaminant exposure in prey. Its results do not establish a species-wide diet or current population condition."
+          },
+          "sourceIds": [
+            "estrada2025guanay"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": {
+            "zh": "生命名录 COL26.8 — Leucocarbo bougainvilliorum",
+            "en": "Catalogue of Life COL26.8 — Leucocarbo bougainvilliorum"
+          },
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/DTFQG",
+          "scope": {
+            "zh": "固定 COL26.8 接受名录身份与分类元数据。",
+            "en": "Pinned COL26.8 accepted-name identity and classification metadata."
+          }
+        },
+        {
+          "id": "estrada2025guanay",
+          "title": "Estrada-Grossmann et al. (2025), Diet of the guanay cormorant Leucocarbo bougainvilliorum (Lesson, 1837) on Pescadores Island after the Ventanilla oil spill in January 2022",
+          "url": "https://www.scielo.org.pe/scielo.php?pid=S2708-70772025000100002&script=sci_arttext",
+          "scope": {
+            "zh": "秘鲁一个野生繁殖群、油污事件前后吐出食团的原始西班牙语研究；结论限于样本群体、采集时期和论文报告数值。",
+            "en": "Original Spanish-language study of regurgitated food boluses collected at one wild colony before and after an oil spill; claims are limited to the sampled colony, collection periods, and values as reported."
+          }
+        }
+      ],
+      "limitations": {
+        "zh": "所有生物学内容都限于 Grande Pescadores 岛一个野生繁殖群、两个时期的吐出食团样本。论文的事件后食团总数有冲突（方法和结果为 998，表 1 为 837）；页面保留原文表列数值。该观察性比较不能证明油污的因果作用、即时影响或污染物暴露，也不能代表全物种食性。中文普通名为编辑译名。本页尚未经过外部领域专家评审。",
+        "en": "All biological claims are limited to regurgitated boluses from one wild colony at Grande Pescadores Island and two collection periods. The paper reports conflicting post-spill bolus totals (998 in Methods and Results; 837 in Table 1); values are retained as printed. The observational comparison does not show an oil-spill cause, immediate effects, or contaminant exposure, and cannot establish a species-wide diet. The Chinese common name is an editorial translation. This page has not received external expert review."
+      }
+    },
+    {
       "colId": "3RL",
       "scientificName": "Passeriformes",
       "rank": "order",
