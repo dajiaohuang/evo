@@ -16,10 +16,18 @@ Legacy JSON/Brotli files are generated compatibility projections.
 For Primates, retain the 530 accepted species in pinned COL26.8 as the fixed
 species-level denominator. Address the 15 remaining source or classification gaps
 before declaring the first reading-page standard met. The active task began with
-19; P3-119 through P3-121 and P4-17 close four documented gaps, including the
-regional introduction for *Cacajao novaesi*. The plan currently records 10 open
-items, five fewer than the active goal count; reconcile the difference by taxon ID
-without shrinking the user's target.
+19; P3-119 through P3-121 and P4-17 close four documented gaps:
+`BSD27` (*Tamarinus imperator*), `STGT` (*Cercopithecus wolfi*), `4HTQR`
+(*Piliocolobus langi*) and `BSCYK` (*Cacajao novaesi*). The plan's ten currently
+open IDs are `F6FK` (*Aotus jorgehernandezi*), `84J8Q` (*Sapajus cucullatus*),
+`BSCWK` (*Cacajao rubicundus*), `RYZ7` (*Cebus cesarae*), `RYZ2`
+(*Cebus brunneus*), `RYZS` (*Cebus malitiosus*), `RYZN` (*Cebus leucocephalus*),
+`4K5Y5` (*Plecturocebus discolor*), `4K5YG` (*Plecturocebus stephennashi*) and
+`4HTQS` (*Piliocolobus lulindicus*). Thus 14 of the original 19 have identifiable
+IDs in current plan history; the five other original IDs are not recorded in the
+available goal/plan entries. Keep those five identities unresolved and retain the
+15-item active target until their source list is recovered; do not lower the goal
+to the plan's ten-item count.
 For Archosauria, use the dated, source-specific working denominator now recorded
 locally: 11,071 extant COL26.8 accepted species (11,044 Aves and 27 Crocodylia)
 plus 4,664 accepted extinct PBDB species from the 2026-09-30 Archosauria query.
