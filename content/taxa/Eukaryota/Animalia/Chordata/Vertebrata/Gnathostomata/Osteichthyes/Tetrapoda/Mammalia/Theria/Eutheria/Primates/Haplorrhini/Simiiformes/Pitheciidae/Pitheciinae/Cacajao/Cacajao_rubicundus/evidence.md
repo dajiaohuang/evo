@@ -20,6 +20,8 @@ records:
             field: /records/catalogue-profile/sections/0/sourceIds/0
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/0/sourceIds/1
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/2
         text:
           zh:
             markdown: page.zh.md
@@ -40,6 +42,32 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/2/topic
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/sourceIds/0
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/3/topic
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/sourceIds/0
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -110,6 +138,22 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-f625f3eb-6401-45a2-ad4d-ec5c9720bc39
+          metadataVariant: 0
+          sourceKey: salve2025rubicundus
+          usage:
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
     limitations:
       en:
         markdown: page.en.md
@@ -167,4 +211,16 @@ A 2021 assessment using the subspecies treatment C. calvus rubicundus; it states
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/zh -->
 2021 年评估采用亚种处理 C. calvus rubicundus，并说明当时缺少野外生态数据。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en -->
+Official ICMBio SALVE species assessment published in 2025; category date is 2019. Supports the assessment's three separated Amazonas occurrence areas, reported Jacurapá floodplain records, conservation rationale and unknown population metrics. It does not provide a species-specific ecological study or population census.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh -->
+ICMBio SALVE 官方种级评估，2025 年发布；类别日期为 2019 年。支持该评估报告的亚马孙州三个分隔出现区域、Jacurapá 洪泛林记录、保护评估依据和未知种群指标；不构成该种的专门生态学研究或种群普查。
 <!-- /evo:text -->

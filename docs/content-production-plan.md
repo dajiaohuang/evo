@@ -1227,7 +1227,7 @@ Callithrix 阅读路径先读 *C. kuhlii* 跨森林覆盖梯度的稳定同位�
 | P4C6 *C. ayresi* | Rio Aracá 黑秃乌卡里的形态与分子分类重估 | 2008 年调查/标本证据；不是当前数量评估 | P3-65 |
 | BSD3J *C. ucayalii* | 秘鲁栖地记录重估与 2026 年声音 repertoire | 栖地来源采用旧组合 *C. calvus ucayalii*；声音研究来自一个野生种群 | P3-65 |
 | BSCYK *C. novaesi* | 旧亚种组合在 2022 年分子系统学论文中的使用 | 仅分类史/名称等级证据；现有来源不足以写本种生态 | P3-65 |
-| BSCWK *C. rubicundus* | COL/MDD 种级身份与 2021 年 IUCN 亚种评估之间的差异 | 评估称当时缺少野外生态资料；不推断完整分布或栖地 | P3-65 |
+| BSCWK *C. rubicundus* | COL/MDD 种级身份、2021 年 IUCN 亚种评估与 2025 年 ICMBio 区域分布/保护评估 | 新页报告三个分隔区域和评估日期；仍无该种生态研究、数量或完整分布 | P3-65 / P4-16 |
 
 本批新增五个双语 profile-only 种级页面，并为真实 COL 属级 ID 62JQP 建立阅读路径，连接全部五个固定种级 ID。五个新增 ID 在本地证据队列中均无 dossier；未新增 dossier 或外部领域专家评审。批次后灵长类种级页为 412/530（54 个 dossier-backed、358 个 profile-only），118 个固定接受种仍无种级页；406 个达到首轮综合内容标准，124 个尚未达到，其中六项来源不足或仅有分类史材料；476 个仍未命中 dossier 索引。英文普通名参考 Mammal Diversity Database v2.5，中文名为编辑译名。
 
@@ -2015,3 +2015,11 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - PBDB disjoint OID 分区为非鸟恐龙 1,794、化石鸟 1,743、翼龙 276、鳄形类 672、其他主龙 179；集合互斥并与根查询快照完全相同。Dinosauria 等嵌套子类查询总数有重叠，不作加总。另记录的 ichno 534、form 628 属于分开的保存模式查询，不计入常规生物种工作分母。
 - 核对方式：根快照记录 4,664 条且 OID 唯一；manifest SHA-256 与本地原始响应相符；分区之和为 4,664、OID 无重叠且集合相等。现生数来自固定 COL26.8 包覆盖快照与分母 manifest。两个数据库的概念不按学名合并，工作分母不声称全球生物多样性完整；属页、类群页与专题另计。
 - 本批只更正文档口径与计划，尚未完成主龙类页面覆盖。资料清单分母不是读者页面数、生态 dossier 或专家评审状态。
+
+## P4-16 — Cacajao rubicundus 更新的 ICMBio 评估（2026-10-02）
+
+- 为固定 COL26.8 ID `BSCWK` 更新双语来源页，加入 ICMBio SALVE 2025 发布的物种评估。明确其 LC 类别日期为 2019-09-27；按评估报告 Jacurapá、Auati-Paraná 与 Jutaí-Solimões 三处分隔出现区域，记录 Jacurapá 洪泛林描述、Auati-Paraná 与 *C. calvus* 的接触，以及 1990–2020 年基于 MapBiomas 6.0 的 2.31% 栖地损失计算。
+- 排除资料表字段中相互不一致的 AOO 数值；不把根据近缘种推断的洪泛林偏好写成直接生态研究。评估指出种群数量、成熟个体数、群体大小和趋势未知，并要求生态学及种群研究。
+- 更新后该页具有来源链接的区域出现与保护评估摘要，但首轮完整生态缺口仍开放；不改变 530 种固定分母或原缺口计数，亦无外部领域专家审阅。未更改 dossier 输入，无需重建证据队列。
+- 内容投影成功：132 个投影、37,787 个 Markdown 目录（90.87 秒）；`BSCWK` profile 有 4 节、5 个来源绑定。注册表为 426 个实体/24 个包，清单含 1,995 个 SHA-256 校验值。未改动 dossier 输入，无需重建证据队列；依现有授权未运行手动测试、类型检查、验证器或 CI。
+- 来源：[Silva、Azevedo 与 Rabelo（2025），ICMBio SALVE *Cacajao rubicundus* 评估，LC 类别日期 2019](https://doi.org/10.37002/salve.ficha.31049.2)；[COL26.8 固定 ID `BSCWK`](https://www.checklistbank.org/dataset/316115/taxon/BSCWK)。
