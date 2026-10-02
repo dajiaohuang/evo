@@ -1956,6 +1956,12 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 本批后 Aves 种级 reader profile 为 13/11,044，现生鳄目为 27/27，总计 40/11,071；鸟类仍有 11,031 个接受种尚无种级 profile。PBDB 非现生 Archosauria 工作分母维持 4,664，种级读者页 7/4,664。
 - 来源：[Abou-Zeid 等（2024），布拉格喜鹊城市噪声野外研究](https://doi.org/10.3389/fevo.2024.1345971)；[COL26.8 喜鹊 `4HPXM`](https://api.checklistbank.org/dataset/316115/taxon/4HPXM)。
 
+## P4-13 — Pygoscelis adeliae reader profile 投影映射修复（2026-10-02）
+
+- 检查 Aves reader profiles 时发现 P4-10 已完成的阿德利企鹅双语正文和 `catalogue-profile` 证据记录没有接入 `content/projection-map.yaml`；此前仅有同目录的 dossier 投影，因此该物种虽有 canonical reader page，却未进入生成的 `data/knowledge/catalogue-profiles.json`。为现有内容补加 profile 映射，不改写正文或 dossier。
+- 强制重建成功：132 个投影由 37,787 个 Markdown 目录生成（146.45 秒）；COL26.8 ID `4QPKQ` 现在导出 3 个章节和 2 个来源。按映射中已生成的 Aves species profiles 去重后为 13/11,044；现生鳄目为 27/27，合计 40/11,071。PBDB 化石读者页仍为 7/4,664。
+- 本批未改变 dossier 输入，无需重建其派生证据队列；无外部领域专家评审。依授权未运行手动测试、类型检查、验证器或 CI。
+
 ## P3-123 — Cacajao 分类样本归属补充（2026-10-02）
 
 - 补充 *Cacajao novaesi* 与 *C. rubicundus* 双语页中已引用的 Silva 等（2022）系统学研究样本信息，并完善共享参考文献的作者与期刊元数据。该研究在历史亚种分类下分别列出 *C. calvus novaesi* 的 5 条细胞色素 b 序列、以及 *C. calvus rubicundus* 的 8 条细胞色素 b 序列和 6 个 ddRAD 样本；其中 *novaesi* 的两个早期样本归属在原文中被质疑（一个上塔劳阿卡河未成年白秃乌卡里凭证标本，另一个无皮张/头骨、仅按地点归类且地点位于当时已知范围以北 350 多公里）。这些是旧分类标签下的系统学样本数，不是野外个体计数、普查或现行种界下的种群估计。
