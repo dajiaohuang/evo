@@ -2152,3 +2152,16 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 复用 Joyce（2007）《Phylogenetic Relationships of Mesozoic Turtles》：Appendix 1 p.77 的五个 USNM 标本、character 60 p.28 与 character 89 pp.39–40 的盾片编码，以及 Appendix 3 p.80 对未知和不适用字符的区分。正文只转述已抽样形态和编码方法，不复制图版或矩阵。
 - 根属与种级目录各新增 `index.yaml`、`evidence.md`、`page.en.md`、`page.zh.md` 共八份 canonical 文件；页面为 `source-linked`，checked 2026-10-02，无完整 dossier或外部专家评审。生活史、分布、现代保护状态和未测量性状保留未知。父任务将 `62PMJ`、`34XB9` 两条 `catalogue-profile` record 接入投影，并为既有 Joyce（2007）共享 reference 补入可投影的双语 title/url source metadata variant 0。
 - 来源：[COL26.8 Vultur `87CF`](https://www.checklistbank.org/dataset/316115/taxon/87CF)；[COL26.8 V. gryphus `5BSLM`](https://www.checklistbank.org/dataset/316115/taxon/5BSLM)；[Naveda-Rodríguez 等（2016），厄瓜多尔分布、数量与风险研究](https://doi.org/10.1371/journal.pone.0151827)；[Restrepo-Cardona 等（2024），厄瓜多尔生活史研究](https://doi.org/10.1177/19400829241238005)。
+
+
+## P5-9 — Caretta 属与赤蠵龟形态索引（2026-10-02）
+
+- 为 COL26.8 属 Caretta（3HH4）及唯一严格接受种 C. caretta（69BHK）建立双语索引和阅读路径，逐项保留分类目录父链和 1/1 接受种遍历；不从同名 PBDB 记录推导 COL 身份或现生状态。
+- 复用 Joyce（2007）《Phylogenetic Relationships of Mesozoic Turtles》Appendix 1 p.77 的五个标本、character 65/Fig. 8 p.30 的形态编码及 Appendix 3 p.80 的缺失/不适用符号说明；内容只解释采样与编码边界，不复制图版或矩阵。
+- 新增属级、种级各四份 canonical 文件；内容 source-linked，保留既有 dossier 的 incomplete/not-reviewed 状态，不扩展为完整形态档案、现代分布、保护状态或未测性状。
+
+## P5-10 — Dicerorhinus 属与苏门答腊犀种群遗传阅读路径（2026-10-02）
+
+- 为 COL26.8 属 Dicerorhinus（44JW）及唯一严格接受种 D. sumatrensis（35JV8）整理双语目录与阅读路径，复用现有 taxonomy/profile 映射及共享来源，不另造分类身份。
+- 以 von Seth 等（2021）Nature Communications 的 21 个历史与现代基因组研究为中心，限定描述于论文报告的主要种群结构以及苏门答腊群体内部差异；不将遗传聚类解释为额外分类单元，也不外推当前种群规模或保护评估。
+- 属级和种级内容标为 source-linked；保留原有 dossier 完整性与专家审查状态，未声称完整生活史、全分布或完整科学档案。
