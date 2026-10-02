@@ -2110,3 +2110,15 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 冻结 PBDB Amniota 查询 `rank=species,status=accepted,extant=no,pres=regular`：22,684 个唯一 OID；根响应 SHA-256 `1a597e7c303eca7e4d0f19ce59c30110620fcefc1c6e87b31d0fb3ef4a3a95ed`。保留 14 个已解析 `base_id` 子树响应，并生成 15 个无重叠 OID 分区；覆盖率 22,684/22,684，分区文件 SHA-256 `92b015b3fc77801311a939094e237344a46d725105e0dd7cef1efbff8ae77818`。
 - COL 与 PBDB 作为两个有日期的来源清单独立管理，不按学名匹配去重，也不加成唯一生物物种数。原 2026-09-30 Archosauria 4,664 条名册仅留作历史记录；本次 PBDB OID 分区中非鸟恐龙为 1,795，反映新查询的 scope/date。
 - 更新执行目标、内容计划、PBDB 数据 manifest 和可复跑分区脚本；manifest 已生成 2,012 项哈希。提交 `76bc79cdc37da3a1027a32449fa6486803143460` 已推送到远端 `main`。未运行测试、验证器或 CI。
+
+## P5-2 — Crocodylia 接受种全支系导读（2026-10-02）
+
+- 为 COL26.8 Crocodylia（order `329`）补入英中类群导读和按三科排列的阅读索引，覆盖该固定树下 27 个严格接受种：Alligatoridae 8、Crocodylidae 17、Gavialidae 2。为全部 27 个既有双语研究导读增加 COL ID、研究入口及邻接阅读建议；11 个咬合力条目更正为进食生物力学主题。
+- 将 2012 年 23 种、83 个性成熟个体的咬合力比较限定在原样本和旧分类概念中，不把旧样本外推到之后拆分的物种；固定 COL 清单没有现生标志。各物种资料仍是窄范围研究导读，不是完整分布、生活史或现况综述。PBDB 化石记录继续独立；无外部领域专家评审。
+- 本批变更 57 个 canonical 文件。类群章节复用既有 references；不改 dossier 输入。profiles 的 `reviewStatus` 保持 `source-linked`，没有新增专家审阅声明。
+
+## P5-3 — Sphenodontida 亚目、Sphenodon 属与楔齿蜥导读（2026-10-02）
+
+- 按 COL26.8 固定链 `Reptilia → Sphenodontida (8FV6K) → Sphenodontidae (GHG) → Sphenodon (63SJ6) → S. punctatus (4YVHH)` 新建三个英中 catalogue profiles；为 Sphenodontidae 增加分类索引。另记录 `S. guntheri` 用例 `4YVHF` 在该版本中归为本种异名。
+- 将 DOC 官方自然史页用于限定岛屿环境、猎物与鼠类威胁，将 Gemmell 等（2020）用于参考基因组与三岛比较；不将单一研究动物推广到化石成员，也不把 COL 接受状态作为现生证据。完整当期分布、种群数量、各岛定量食谱及繁殖参数仍缺来源；无外部领域专家评审。
+- 新建 13 个 canonical 文件，新增两条共享 bibliography 条目；不新增 dossier。英文与中文均为 `source-linked`。与 P5-2 同轮生成 132 个投影（37,791 个 Markdown 目录）、426 个实体/24 个包注册表及 2,012 项 manifest 校验值；未改变 dossier 数据，无需重建物种证据队列。未运行测试、类型检查、验证器或 CI。

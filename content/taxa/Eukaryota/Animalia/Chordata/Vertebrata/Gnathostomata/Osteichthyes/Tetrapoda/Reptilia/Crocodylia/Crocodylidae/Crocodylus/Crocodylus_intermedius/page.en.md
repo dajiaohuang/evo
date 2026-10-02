@@ -2,30 +2,32 @@
 schemaVersion: 1
 kind: reader-page
 locale: en
-status: migrated-verbatim
+status: authored
 ---
 
 # Crocodylus intermedius
 
-## habitatEvidence
+## Study topic
 
 <!-- evo:text /records/catalogue-profile/sections/0/topic -->
 habitatEvidence
 <!-- /evo:text -->
 
-## habitatEvidence
+## Read the study
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
-A Colombia–Venezuela regional synthesis reviewed 289 documents on Orinoco-crocodile biology or ecology published from 1900 to 2015 and assembled 1,334 sighting or active-nest records; 125 spatially rarefied locations were used to train its habitat model. Under stated thresholds, the model estimated potential suitable areas and identified conservation and research priorities. Only part of the high-suitability area fell within protected areas. The model represents potential distribution supported by the available records, not a measured population range at that time or today.
+What can a habitat model assembled from historical records tell us? This guide follows the accepted COL26.8 record ZKND and reads the study at its stated sample and geographic scale. A Colombia–Venezuela regional synthesis reviewed 289 documents on Orinoco-crocodile biology or ecology published from 1900 to 2015 and assembled 1,334 sighting or active-nest records; 125 spatially rarefied locations were used to train its habitat model. Under stated thresholds, the model estimated potential suitable areas and identified conservation and research priorities. Only part of the high-suitability area fell within protected areas. The model represents potential distribution supported by the available records, not a measured population range at that time or today.
+
+Continue with Mecistops cataphractus (COL 3YKJB) to compare modeled suitability with repeated-survey detection. The Crocodylia group guide provides the wider reading route; the neighboring page retains its own sources and limits.
 <!-- /evo:text -->
 
-## habitatEvidence
+## Source key
 
 <!-- evo:text /records/catalogue-profile/sections/0/sourceIds/0 -->
 balaguera2017
 <!-- /evo:text -->
 
-## catalogue-profile / limitations
+## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
 The review and model are not externally expert-reviewed. They used records through 2015 and covered Colombia and Venezuela. Potential habitat, protected-area percentages and priority zones are model outputs and do not replace current surveys or conservation assessments.
