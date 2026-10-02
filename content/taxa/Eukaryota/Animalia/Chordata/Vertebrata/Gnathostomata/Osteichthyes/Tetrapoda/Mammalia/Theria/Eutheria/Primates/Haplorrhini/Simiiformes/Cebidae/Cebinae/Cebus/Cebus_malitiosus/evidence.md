@@ -10,7 +10,7 @@ records:
       zh: 圣玛尔塔白额卷尾猴
       en: Cebus malitiosus
     reviewStatus: source-linked
-    checkedAt: 2026-10-01
+    checkedAt: 2026-10-02
     sections:
       - topic:
           markdown: page.en.md
@@ -42,6 +42,8 @@ records:
         sourceIds:
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/1/sourceIds/0
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/sourceIds/1
       - topic:
           markdown: page.en.md
           field: /records/catalogue-profile/sections/2/topic
@@ -154,6 +156,22 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-f4ef8cb5-531a-4d83-9da9-808f2f6d1547
+          metadataVariant: 0
+          sourceKey: malitiosus_type_2026
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
     limitations:
       zh:
         markdown: page.zh.md
@@ -223,4 +241,16 @@ Supports potential and remnant range-model layers in a national biodiversity atl
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en -->
 Supports historical sample labels, counts and locations in Table II of the 2018 study; its malitosus/malitiosus spellings differ, so this table is not used to decide current taxonomy or range.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/scope/zh -->
+支持对 AMNH 14620 馆藏皮张和头骨标签的 2026 年复核及正模处理建议；不解决固定名录的分类等级，也不提供野外生态资料。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/scope/en -->
+Supports the 2026 review of AMNH 14620's museum skin and skull labels and the authors' holotype recommendation; it does not settle rank under the pinned catalogue or provide field ecology.
 <!-- /evo:text -->

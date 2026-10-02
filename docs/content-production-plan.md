@@ -2031,3 +2031,10 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 该页满足来源限定的区域介绍标准：活动目标剩余缺口由 16 降至 15，计划记录的未达标项由 11 降至 10；两口径仍差 5 项，须继续逐 ID 审计。没有外部领域专家评审，种群数量与本种食性仍未知。未更改 dossier 输入，无需重建证据队列。
 - 内容投影成功：132 个投影、37,787 个 Markdown 目录（178.1 秒）；`BSCYK` profile 有 5 节、5 个来源绑定，Cacajao 阅读路径含 8 个来源。注册表为 426 个实体/24 个包，清单含 1,995 个 SHA-256 校验值。未改动 dossier 输入，无需重建证据队列；依既有授权未运行手动测试、类型检查、验证器或 CI。
 - 来源：[Silva 等（2021），秃乌卡里地理分布研究](https://static1.1.sqspcdn.com/static/f/1200343/28462999/1630156848247/PC35_Silva_et_al_Bald_Uakari_distributions.pdf)；[Silva、Rabelo 与 Ravetta（2025），ICMBio SALVE *Cacajao novaesi* 评估，NT 类别日期 2019](https://doi.org/10.37002/salve.ficha.31048.2)；[COL26.8 固定 ID `BSCYK`](https://www.checklistbank.org/dataset/316115/taxon/BSCYK)。
+
+## P3-129 — Cebus malitiosus 正模材料复核（2026-10-02）
+
+- 在固定 COL26.8 ID `RYZS` 的既有双语页中补入 García-Restrepo、Link 与 Lynch（2026）对 AMNH 14620 馆藏材料的复核：登记为 1909 年正模的头骨和皮张来自不同个体；作者依据考察报告中对 AMNH 14620 性别的记录，建议保留头骨为正模并将雌性皮张移出模式系列。
+- 该研究补充命名模式的分类诊断背景，不是野外分布或生态研究，也不裁决固定 COL 接受名与 MDD v2.5 异名处理之间的等级差异；因此 RYZS 的首轮缺口继续开放。中文页同步说明研究边界；无外部领域专家评审，也未更改 dossier 输入。
+- 内容投影成功：132 个投影、37,787 个 Markdown 目录（158.25 秒）；`RYZS` profile 有 4 节、6 个来源绑定。注册表为 426 个实体/24 个包，清单含 1,995 个 SHA-256 校验值。未更改 dossier 输入，无需重建证据队列；依授权未运行手动测试、类型检查、内容/数据/增量验证器或 CI。
+- 来源：[García-Restrepo、Link 与 Lynch（2026），*Cebus malitiosus* 正模诊断复核](https://doi.org/10.1515/mammalia-2026-0044)；[COL26.8 固定 ID `RYZS`](https://www.checklistbank.org/dataset/316115/taxon/RYZS)。

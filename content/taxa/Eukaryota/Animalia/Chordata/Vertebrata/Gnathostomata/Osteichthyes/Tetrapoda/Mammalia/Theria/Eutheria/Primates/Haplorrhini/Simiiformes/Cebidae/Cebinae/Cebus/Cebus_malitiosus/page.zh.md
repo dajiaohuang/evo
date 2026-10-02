@@ -17,6 +17,8 @@ COL26.8 接受 Cebus malitiosus Elliot, 1909；MDD v2.5 将该名列为 C. albif
 
 <!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
 2019 年研究分析了 189 只卷尾猴的线粒体组、另 394 只的两段线粒体基因，并对 41 只哥伦比亚个体测了核微卫星。作者将旧名 malitiosus 与 hypoleucus 样本视为同一北哥伦比亚类群，并报告与 C. capucinus 谱系的杂交信号；他们据此提出较宽的分类解释。该结果是分类研究结论，不是关于所有 COL malitiosus 个体的已定共识。
+
+2026 年对馆藏材料的复核发现，1909 年原始描述中登记为正模的皮张和头骨（AMNH 14620）来自不同个体。作者依据一次考察报告中“AMNH 14620 为雄性”的记录，建议保留头骨为正模，并将雌性皮张移出模式系列。这澄清了命名模式材料的诊断依据，但没有解决物种等级争议，也不提供野外生态证据。
 <!-- /evo:text -->
 
 ## distribution

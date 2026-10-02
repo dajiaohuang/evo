@@ -47,12 +47,20 @@ classification
 
 <!-- evo:text /records/catalogue-profile/sections/1/text/en -->
 The 2019 study analyzed mitogenomes from 189 capuchins, two mitochondrial genes from another 394, and nuclear microsatellites in 41 Colombian individuals. The authors treated samples under the older names malitiosus and hypoleucus as one northern Colombian taxon and reported hybridization signals with a C. capucinus lineage. This is that study's taxonomic interpretation, not a settled consensus about every individual assigned to COL malitiosus.
+
+A 2026 review of museum material found that the skin and skull registered together as the 1909 holotype (AMNH 14620) represent different individuals. Using an expedition report that identified AMNH 14620 as male, the authors recommend retaining the skull as the holotype and removing the female skin from the type series. This clarifies the name-bearing specimen's diagnosis; it does not settle species rank or provide field ecology.
 <!-- /evo:text -->
 
 ## classification
 
 <!-- evo:text /records/catalogue-profile/sections/1/sourceIds/0 -->
 ruiz2019
+<!-- /evo:text -->
+
+## classification
+
+<!-- evo:text /records/catalogue-profile/sections/1/sourceIds/1 -->
+malitiosus_type_2026
 <!-- /evo:text -->
 
 ## distribution
