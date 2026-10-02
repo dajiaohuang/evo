@@ -69,12 +69,24 @@ warren2010
 
 ## overview
 
+<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/9 -->
+species_4HPXM
+<!-- /evo:text -->
+
+## overview
+
+<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/10 -->
+abouzeid2024
+<!-- /evo:text -->
+
+## overview
+
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
-This selective route links four authored species pages in the fixed COL26.8 Passeriformes roster. Start with natal dispersal in a house-sparrow island metapopulation, then read how great tits affected caterpillar damage in Dutch apple orchards. The blue-tit page follows environmental conditions, parental corticosterone, and breeding outcomes in one Scottish nest-box population. Finish with the zebra-finch genome study, which connects song-learning research to a single-male genome assembly and a bounded comparison with chicken. These pages address different questions and scales; together they are a reading path through selected studies, not a complete account of the order.
+This selective route links five authored species pages in the fixed COL26.8 Passeriformes roster. Start with natal dispersal in a house-sparrow island metapopulation, then read how great tits affected caterpillar damage in Dutch apple orchards. The blue-tit page follows environmental conditions, parental corticosterone, and breeding outcomes in one Scottish nest-box population. Continue with the zebra-finch genome study, which connects song-learning research to a single-male genome assembly and a bounded comparison with chicken. Finish with Eurasian magpies in public green spaces in Prague: one breeding-season study found that noise was associated with a lower escape-distance-to-alert-distance ratio, but did not significantly predict alert distance. These pages address different questions and scales; together they are a reading path through selected studies, not a complete account of the order.
 <!-- /evo:text -->
 
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route connects four authored species pages and is not an exhaustive Passeriformes inventory, ecological synthesis, or review of the order's classification. Each study has the site, sample, and method limits described on its species page. The route and its pages have not received external expert review.
+This route connects five authored species pages and is not an exhaustive Passeriformes inventory, ecological synthesis, or review of the order's classification. Each study has the site, sample, and method limits described on its species page. The route and its pages have not received external expert review.
 <!-- /evo:text -->

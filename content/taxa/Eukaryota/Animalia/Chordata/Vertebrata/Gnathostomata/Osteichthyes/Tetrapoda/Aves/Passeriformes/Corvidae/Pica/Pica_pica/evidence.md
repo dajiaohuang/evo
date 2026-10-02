@@ -2,6 +2,68 @@
 schemaVersion: 1
 kind: evidence
 records:
+  catalogue-profile:
+    scientificName: Pica pica (Linnaeus, 1758)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 喜鹊
+      en: Eurasian Magpie
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/0/topic
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/0
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/1
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+          metadataVariant: 0
+          sourceKey: taxonomy
+          usage:
+            title:
+              zh: 生命名录 COL26.8 — Pica pica
+              en: Catalogue of Life COL26.8 — Pica pica
+            url: https://www.checklistbank.org/dataset/316115/taxon/4HPXM
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/0/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/0/usage/scope/en
+          originalFields: [id, title, url, scope]
+        - referenceId: ref-f94e62fa-0a9b-85bb-a3f1-63e1e78b11f8
+          metadataVariant: 0
+          sourceKey: abouzeid2024
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/1/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/1/usage/scope/en
+          originalFields: [id, title, url, scope]
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
   catalogue-dossier:
     scientificName: Pica pica (Linnaeus, 1758)
     rank: species
@@ -224,6 +286,30 @@ records:
       status: not-reviewed
       reviewers: []
 ---
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/0/usage/scope/en -->
+Pinned COL26.8 accepted species identity and parent placement; not biological evidence.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/0/usage/scope/zh -->
+固定 COL26.8 接受种身份与分类父链；不作为生物学证据。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/1/usage/scope/en -->
+Original 2022 breeding-season field study of human-approach responses by ground-foraging Eurasian magpies at 11 sites in Prague; noise relationships are associations, not causal or demographic evidence.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/1/usage/scope/zh -->
+布拉格 11 个地点、2022 年繁殖季的喜鹊接近实验野外研究；噪声关系为关联，不是因果或种群效应证据。
+<!-- /evo:text -->
 
 # Pica pica
 

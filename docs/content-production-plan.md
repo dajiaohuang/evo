@@ -1948,6 +1948,14 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 本路径只连接两个已有物种页，不是属内完整名录或生态综述。没有新增种级页面或 dossier，也没有外部领域专家评审；鸟类物种 profile 仍为 12/11,044，现生鳄目为 27/27，总计 39/11,071；PBDB 非现生 Archosauria 工作分母仍为 4,664，种级读者页 7/4,664。
 - 来源：[Arata、Sievert 与 Naughton（2009），USGS 北太平洋信天翁评估](https://doi.org/10.3133/sir20095131)；[COL26.8 Phoebastria 属 `63MG7`](https://api.checklistbank.org/dataset/316115/taxon/63MG7)；[COL26.8 Phoebastria immutabilis `4GK9K`](https://api.checklistbank.org/dataset/316115/taxon/4GK9K)；[COL26.8 Phoebastria nigripes `4GK9M`](https://api.checklistbank.org/dataset/316115/taxon/4GK9M)。
 
+## P4-12 — Pica pica：布拉格繁殖季的城市噪声与逃避反应（2026-10-02）
+
+- 将 COL26.8 接受种喜鹊（`4HPXM`）已有 dossier 中的一项 CC BY 4.0 原始野外研究转为双语读者页。Abou-Zeid 等（2024）在布拉格 2022 年繁殖季接近地面取食个体；排除仅有一次观察的地点后，分析 11 个地点的 167 只鸟（138 只成年、29 只幼鸟）。噪声未显著预测警戒距离；较高噪声与较低的起飞距离/警戒距离之比相关。解释限定为研究者接近实验中的行为关联，不写成噪声的因果效应、存活/繁殖后果或全域行为规律。
+- 将喜鹊页加入 Passeriformes 精选阅读路径，并相应更新双语属目介绍和来源绑定；路径仍只覆盖五个已写种级页面，不代表完整雀形目。未改变既有 dossier，不需重建 dossier 派生证据队列；无外部领域专家评审。
+- 生成记录：首轮 `content:build` 因新 profile 缺少四个 `referenceBindings` scope Markdown 锚点而失败；补入对应中英文锚点后重跑成功，132 个投影由 37,787 个 Markdown 目录生成（151.44 秒）。
+- 本批后 Aves 种级 reader profile 为 13/11,044，现生鳄目为 27/27，总计 40/11,071；鸟类仍有 11,031 个接受种尚无种级 profile。PBDB 非现生 Archosauria 工作分母维持 4,664，种级读者页 7/4,664。
+- 来源：[Abou-Zeid 等（2024），布拉格喜鹊城市噪声野外研究](https://doi.org/10.3389/fevo.2024.1345971)；[COL26.8 喜鹊 `4HPXM`](https://api.checklistbank.org/dataset/316115/taxon/4HPXM)。
+
 ## P3-123 — Cacajao 分类样本归属补充（2026-10-02）
 
 - 补充 *Cacajao novaesi* 与 *C. rubicundus* 双语页中已引用的 Silva 等（2022）系统学研究样本信息，并完善共享参考文献的作者与期刊元数据。该研究在历史亚种分类下分别列出 *C. calvus novaesi* 的 5 条细胞色素 b 序列、以及 *C. calvus rubicundus* 的 8 条细胞色素 b 序列和 6 个 ddRAD 样本；其中 *novaesi* 的两个早期样本归属在原文中被质疑（一个上塔劳阿卡河未成年白秃乌卡里凭证标本，另一个无皮张/头骨、仅按地点归类且地点位于当时已知范围以北 350 多公里）。这些是旧分类标签下的系统学样本数，不是野外个体计数、普查或现行种界下的种群估计。

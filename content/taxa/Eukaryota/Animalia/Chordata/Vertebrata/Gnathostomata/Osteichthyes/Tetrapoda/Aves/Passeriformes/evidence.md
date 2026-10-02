@@ -34,6 +34,10 @@ records:
             field: /records/catalogue-profile/sections/0/sourceIds/7
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/0/sourceIds/8
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/9
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/10
         text:
           zh:
             markdown: page.zh.md
@@ -191,6 +195,34 @@ records:
                 markdown: evidence.md
                 field: /records/catalogue-profile/sources/referenceBindings/8/usage/scope/zh
           originalFields: [id, title, url, scope]
+        - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+          metadataVariant: 0
+          sourceKey: species_4HPXM
+          usage:
+            title:
+              en: Catalogue of Life COL26.8 — Pica pica (Linnaeus, 1758)
+              zh: 生命名录 COL26.8 — Pica pica（Linnaeus，1758）
+            url: https://www.checklistbank.org/dataset/316115/taxon/4HPXM
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/9/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/9/usage/scope/zh
+          originalFields: [id, title, url, scope]
+        - referenceId: ref-f94e62fa-0a9b-85bb-a3f1-63e1e78b11f8
+          metadataVariant: 0
+          sourceKey: abouzeid2024
+          usage:
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/10/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/10/usage/scope/zh
+          originalFields: [id, title, url, scope]
     limitations:
       en:
         markdown: page.en.md
@@ -308,4 +340,28 @@ Single-male zebra finch genome assembly and bounded comparison with chicken; not
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/8/usage/scope/zh -->
 单只雄性斑胸草雀基因组组装及其与鸡的有限比较；不是完整野外物种介绍。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/9/usage/scope/en -->
+Pinned species identity for the Eurasian magpie page linked from this selective route; not biological evidence.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/9/usage/scope/zh -->
+本精选路径链接的喜鹊页面的固定种级身份；不作为生物学证据。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/10/usage/scope/en -->
+2022 Prague breeding-season field study of human-approach responses by ground-foraging Eurasian magpies across 11 sites; the noise relationships are associations, not causal or demographic evidence.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/10/usage/scope/zh -->
+布拉格 2022 年繁殖季、11 个地点的喜鹊接近实验野外研究；噪声关系为关联，不是因果或种群效应证据。
 <!-- /evo:text -->
