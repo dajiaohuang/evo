@@ -2,7 +2,7 @@
 schemaVersion: 1
 kind: reader-page
 locale: en
-status: migrated-verbatim
+status: source-linked
 ---
 
 # Cacajao
@@ -51,12 +51,24 @@ iucn2021rubicundus
 
 ## overview
 
+<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/6 -->
+salve2025novaesi
+<!-- /evo:text -->
+
+## overview
+
+<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/7 -->
+salve2025rubicundus
+<!-- /evo:text -->
+
+## overview
+
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
-This path connects all five fixed COL26.8 Cacajao species IDs. Begin with the 2022 bald-uakari molecular revision and its description of C. amuna; compare the Rio Aracá C. ayresi reassessment from the black-uakari group. Then read C. ucayalii habitat records and its newer vocal study. The profiles for C. novaesi and C. rubicundus focus on rank changes and older combinations because the cited sources do not support complete species-level ecology for them. Historical subspecies labels, field observations and current checklist ranks remain distinct.
+This path connects all five fixed COL26.8 Cacajao species IDs. Begin with the 2022 bald-uakari molecular revision and its description of C. amuna; compare the Rio Aracá C. ayresi reassessment from the black-uakari group. Then read C. ucayalii habitat records and its newer vocal study. The C. novaesi and C. rubicundus profiles pair historical taxonomy with 2025 ICMBio assessments: novaesi has a bounded interfluvial range account based on the 2021 survey, while rubicundus has three reported occurrence areas. Both are regional source summaries, not complete ecological accounts or population estimates.
 <!-- /evo:text -->
 
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Connects all five fixed roster IDs, but this selective reading path is not a complete range review or standardized genus-wide ecological synthesis. Two pages remain taxonomy-history/source-insufficient for ecology. Not externally expert-reviewed. This page is not externally expert-reviewed.
+Connects all five fixed roster IDs, but this selective reading path is not a complete range review or standardized genus-wide ecological synthesis. The two assessment-based profiles remain limited in their species-specific ecology and population data. Not externally expert-reviewed. This page is not externally expert-reviewed.
 <!-- /evo:text -->

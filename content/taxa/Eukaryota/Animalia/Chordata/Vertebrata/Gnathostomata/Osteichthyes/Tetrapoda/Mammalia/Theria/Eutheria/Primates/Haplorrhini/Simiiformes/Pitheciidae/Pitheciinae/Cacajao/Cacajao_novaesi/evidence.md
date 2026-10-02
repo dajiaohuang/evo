@@ -38,6 +38,49 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/2/topic
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/sourceIds/0
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/sourceIds/1
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/3/topic
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/sourceIds/0
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/sourceIds/1
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/4/topic
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/sourceIds/0
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -92,6 +135,38 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-792c12d0-9f5d-4b34-8a72-b2a0ac413d06
+          metadataVariant: 0
+          sourceKey: silva2021bald_uakari_distribution
+          usage:
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/3/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+        - referenceId: ref-5a452108-85ac-4d43-9d01-287c31b13a5e
+          metadataVariant: 0
+          sourceKey: salve2025novaesi
+          usage:
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
     limitations:
       en:
         markdown: page.en.md
@@ -137,4 +212,28 @@ Systematic comparison using cytochrome-b, ddRAD and museum pelage evidence. The 
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/2/usage/scope/zh -->
 研究结合细胞色素 b、ddRAD 与博物馆皮毛证据；列为 C. calvus novaesi 的 5 条序列沿用论文当时的亚种归属，文中还特别质疑了两个早期样本鉴定。该研究提供分类证据，不是野外普查。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en -->
+Silva et al. (2021), published under Cacajao calvus novaesi, reports a multi-year survey, occurrence records and range limits in the Gregório–Tarauacá interfluvium. Supports regional occurrence and habitat context, not current abundance or a species-wide ecological account.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/zh -->
+Silva 等（2021）以 Cacajao calvus novaesi 发表，报告 Gregório–Tarauacá 河间地的多年调查、出现记录与分布边界。支持区域出现记录和栖地背景，不支持当前丰度或全种生态综述。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en -->
+Official ICMBio SALVE assessment published in 2025; the Near Threatened category date is 2019. Supports the accepted species-level name, summarized distribution, habitat and threat evidence, assessed status and explicit unknowns. Some threat detail derives from interviews and personal communication; it is not a population census.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh -->
+ICMBio SALVE 官方评估于 2025 年发布，“近危”类别日期为 2019 年。支持种级接受名、评估汇总的分布、栖地与威胁资料、类别和明确未知项。部分威胁细节来自访谈与个人通信；该评估不是种群普查。
 <!-- /evo:text -->

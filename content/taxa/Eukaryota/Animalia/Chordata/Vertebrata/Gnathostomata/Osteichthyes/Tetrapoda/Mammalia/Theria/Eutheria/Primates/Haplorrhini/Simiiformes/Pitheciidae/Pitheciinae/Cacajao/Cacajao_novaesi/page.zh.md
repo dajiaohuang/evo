@@ -2,37 +2,43 @@
 schemaVersion: 1
 kind: reader-page
 locale: zh
-status: migrated-verbatim
+status: source-linked
 ---
 
 # Cacajao novaesi
 
-## taxonomy
+## 分类
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
-COL26.8 与 MDD v2.5 均将诺瓦埃斯秃乌卡里列为 Cacajao 中的种级名称；Hershkovitz 于 1987 年提出该分类单元。Silva 等 2022 年的系统学论文在讨论秃乌卡里历史分类时，仍以旧组合 C. calvus novaesi 标记相关序列样本。不同资料的等级称呼存在时间差，本页保留固定 COL26.8 身份，并把分子研究作为分类史材料；当前可用来源没有提供可独立归属于该种的野外生态研究。
-<!-- /evo:text -->
-
-## 分子样本归属
-
-<!-- evo:text /records/catalogue-profile/sections/1/topic -->
-molecular-sample-attribution
-<!-- /evo:text -->
-
-## 分子样本归属
-
-<!-- evo:text /records/catalogue-profile/sections/1/sourceIds/0 -->
-silva2022cacajao
+COL26.8 与 ICMBio 2025 年评估均以种级接受 Cacajao novaesi。2022 年分子修订提出将秃乌卡里分为五种，但其基因样本仍使用旧组合名 C. calvus novaesi。评估采用种名并引用修订后的分类。本文保留固定 COL 名称，同时说明野外资料最初以旧亚种组合名发表。
 <!-- /evo:text -->
 
 ## 分子样本归属
 
 <!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
-2022 年论文的细胞色素 b 数据集将 5 条序列列在历史组合 C. calvus novaesi 名下。作者同时质疑过往的两个样本归属：凭证标本 INPA5241 被描述为上塔劳阿卡河地区的一只未成年白秃乌卡里，并被处理为 Cacajao sp.；UFPA-Ccn1 没有可查的皮张或头骨，原先根据其里奥朱鲁阿的地点归入该亚种，但该地位于论文当时已知 novaesi 分布范围以北 350 多公里。因此，这个数量只是论文沿用的历史分类分组，不能理解为 5 只已独立确认的野生个体或种群普查。作者的整体分析结合不同基因数据集与博物馆皮毛比较，并未测量该分类单元的野外生态。
+2022 年论文将 5 条细胞色素 b 序列列在历史组合名 C. calvus novaesi 下。作者质疑了两个早期样本归属：INPA5241 被处理为 Cacajao sp.；UFPA-Ccn1 没有皮张或头骨，且采集地在当时已知分布区以北逾 350 千米。这些是论文当时的分类归属，不代表 5 条现行种级确证记录或种群普查。
 <!-- /evo:text -->
 
-## catalogue-profile / limitations
+## 区域分布
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+2021 年野外与馆藏研究以旧名 C. calvus novaesi 发表，将该分类单元置于巴西亚马孙州 Gregório–Tarauacá 河间地。研究报告 Rio Gregório 右岸记录，左岸未发现其出现迹象；当地居民的陈述也支持这一边界。ICMBio 评估将 Gregório 河与 Tarauacá 河描述为分布边界，并指出 Tarauacá 上游仍需调查，以确定南界。评估按最小凸多边形计算的出现范围为 3,757 平方千米；这不是种群估计，也不是完整分布图。
+<!-- /evo:text -->
+
+## 栖地与现场记录
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+评估引用 2021 年研究，报告该种使用洪泛林（várzea）和非洪泛林（terra-firme）。评估还转述一条 2005 年观察：十余只乌卡里与 Sapajus macrocephalus、Saimiri boliviensis 一起渡过 igarapé do Coatá；来源标为个人通信，并非已发表的行为调查。评估指出该种没有专门的食性研究，也尚未经过生态学研究。
+<!-- /evo:text -->
+
+## 保护评估
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+ICMBio SALVE 资料表于 2025 年发布，但“近危”（NT）类别日期为 2019 年 9 月 27 日。评估报告种群趋势下降、总种群数量未知，并将狩猎和道路可达性相关的栖地丧失列为关注事项；部分依据来自访谈与 2022 年个人通信。基于 MapBiomas 6.1 的计算报告，1990—2020 年已知分布范围内栖地损失为 0.56%。评估建议继续开展生态、密度与威胁研究。
+<!-- /evo:text -->
+
+## 资料限制
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-有来源的分类史页面，尚未经过外部领域专家评审，也不是完整生物学档案。分子研究采用旧亚种组合名，本文不概述缺乏来源支持的本种野外生态。
+本页为来源链接的区域分布与保护介绍，不是完整生态志，也未经外部领域专家审阅。分布研究采用旧亚种组合名；本文依据 2022 年分类修订与 2025 年评估将其与现行 COL 种级身份关联。南部分布界限、种群数量、丰度和本种食性仍未解决；部分威胁证据来自未发表资料或访谈。
 <!-- /evo:text -->

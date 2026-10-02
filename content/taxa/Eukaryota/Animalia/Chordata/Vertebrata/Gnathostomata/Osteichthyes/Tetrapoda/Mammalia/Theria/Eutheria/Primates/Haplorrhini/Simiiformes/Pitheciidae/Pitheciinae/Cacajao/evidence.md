@@ -28,6 +28,10 @@ records:
             field: /records/catalogue-profile/sections/0/sourceIds/4
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/0/sourceIds/5
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/6
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/7
         text:
           en:
             markdown: page.en.md
@@ -137,6 +141,38 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-5a452108-85ac-4d43-9d01-287c31b13a5e
+          metadataVariant: 0
+          sourceKey: salve2025novaesi
+          usage:
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/6/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/6/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+        - referenceId: ref-f625f3eb-6401-45a2-ad4d-ec5c9720bc39
+          metadataVariant: 0
+          sourceKey: salve2025rubicundus
+          usage:
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/7/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/7/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
     limitations:
       en:
         markdown: page.en.md
@@ -218,4 +254,28 @@ A 2021 assessment using the subspecies treatment C. calvus rubicundus; it states
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/scope/zh -->
 2021 年评估采用亚种处理 C. calvus rubicundus，并说明当时缺少野外生态数据。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/6/usage/scope/en -->
+Official ICMBio SALVE assessment of C. novaesi published in 2025; category date is 2019. It supports the species-level name, regional range, habitats and threat assessment, but not a complete ecological account or population estimate.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/6/usage/scope/zh -->
+ICMBio SALVE 官方评估于 2025 年发布；类别日期为 2019 年。支持 C. novaesi 的种级名称、区域分布、栖地和威胁评估，但不构成完整生态综述或种群估计。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/scope/en -->
+Official ICMBio SALVE assessment of C. rubicundus published in 2025; category date is 2019. It supports three reported occurrence areas and explicit ecological and population-data gaps.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/scope/zh -->
+ICMBio SALVE 官方评估于 2025 年发布；类别日期为 2019 年。支持 C. rubicundus 的三个报告出现区域，并明确说明生态与种群资料缺口。
 <!-- /evo:text -->
