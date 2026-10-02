@@ -187,6 +187,29 @@ records:
       zh:
         markdown: page.zh.md
         field: /records/atlas-profile/readerLimitations/zh
+  field-claim-overrides:
+    geography:
+      status: not-assessed
+    overview:
+      status: not-assessed
+    evidenceSummary:
+      status: not-assessed
+    confidence:
+      status: not-assessed
+    ecology.diet:
+      status: not-assessed
+    ecology.habitat:
+      status: not-assessed
+    ecology.locomotion:
+      status: not-assessed
+    ecology.bodySize:
+      status: not-assessed
+    ecology.guild:
+      status: not-assessed
+    traits[0]:
+      status: not-assessed
+    traits[1]:
+      status: not-assessed
   claims:
     - subject:
         kind: taxon
