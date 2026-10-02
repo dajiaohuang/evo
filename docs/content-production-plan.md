@@ -1942,6 +1942,12 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 来源：[McLatchie 等（2024），阿德利企鹅巢占用时间与繁殖结果](https://doi.org/10.1002/ece3.10988)；[COL26.8 固定种 ID 4QPKQ](https://api.checklistbank.org/dataset/316115/taxon/4QPKQ)；[COL26.8 Pygoscelis 属 ID 75VG](https://api.checklistbank.org/dataset/316115/taxon/75VG)。
 - 本批后 Aves 种级 reader profile 为 12/11,044，现生鳄目仍为 27/27，共 39/11,071；鸟类仍有 11,032 个接受种无种级 profile。化石 PBDB 冻结分母与 reader-page 数维持 4,664 与 7/4,664。
 
+## P4-11 — Phoebastria 属：北太平洋评估中的两种信天翁（2026-10-02）
+
+- 为 COL26.8 接受属 Phoebastria（`63MG7`）新增双语属级介绍与精选阅读路径，连接已有的莱桑信天翁（`4GK9K`）和黑脚信天翁（`4GK9M`）页面。对照同一份 USGS 2009 北太平洋评估报告中的繁殖种群比例：莱桑信天翁超过 99%、黑脚信天翁超过 95% 位于西北夏威夷群岛；相关种群与状态分析截至 2005 年，明确不是当前估计。来源只支持两物种及该地区报告期内的比较，不外推为整个属的分布或生态规律。
+- 本路径只连接两个已有物种页，不是属内完整名录或生态综述。没有新增种级页面或 dossier，也没有外部领域专家评审；鸟类物种 profile 仍为 12/11,044，现生鳄目为 27/27，总计 39/11,071；PBDB 非现生 Archosauria 工作分母仍为 4,664，种级读者页 7/4,664。
+- 来源：[Arata、Sievert 与 Naughton（2009），USGS 北太平洋信天翁评估](https://doi.org/10.3133/sir20095131)；[COL26.8 Phoebastria 属 `63MG7`](https://api.checklistbank.org/dataset/316115/taxon/63MG7)；[COL26.8 Phoebastria immutabilis `4GK9K`](https://api.checklistbank.org/dataset/316115/taxon/4GK9K)；[COL26.8 Phoebastria nigripes `4GK9M`](https://api.checklistbank.org/dataset/316115/taxon/4GK9M)。
+
 ## P3-123 — Cacajao 分类样本归属补充（2026-10-02）
 
 - 补充 *Cacajao novaesi* 与 *C. rubicundus* 双语页中已引用的 Silva 等（2022）系统学研究样本信息，并完善共享参考文献的作者与期刊元数据。该研究在历史亚种分类下分别列出 *C. calvus novaesi* 的 5 条细胞色素 b 序列、以及 *C. calvus rubicundus* 的 8 条细胞色素 b 序列和 6 个 ddRAD 样本；其中 *novaesi* 的两个早期样本归属在原文中被质疑（一个上塔劳阿卡河未成年白秃乌卡里凭证标本，另一个无皮张/头骨、仅按地点归类且地点位于当时已知范围以北 350 多公里）。这些是旧分类标签下的系统学样本数，不是野外个体计数、普查或现行种界下的种群估计。
