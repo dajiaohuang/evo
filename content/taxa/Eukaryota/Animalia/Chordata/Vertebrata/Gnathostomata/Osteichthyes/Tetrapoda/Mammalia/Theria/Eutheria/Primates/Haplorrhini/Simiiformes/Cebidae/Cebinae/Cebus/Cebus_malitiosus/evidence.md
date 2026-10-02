@@ -55,6 +55,19 @@ records:
         sourceIds:
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/2/sourceIds/0
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/3/topic
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/sourceIds/0
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -125,6 +138,22 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-2018cebu-mitogenomics
+          metadataVariant: 0
+          sourceKey: ruiz2018mitogenomics
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
     limitations:
       zh:
         markdown: page.zh.md
@@ -182,4 +211,16 @@ Supports mitogenomic, mitochondrial-gene and nuclear-microsatellite analyses of 
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en -->
 Supports potential and remnant range-model layers in a national biodiversity atlas; not field locations, an occupancy census or a natural-history study.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh -->
+支持 2018 年研究表 II 中历史样本标签及其表列数量和地点；该表内 malitosus/malitiosus 拼写不一致，不据此判定当前分类归属或分布。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en -->
+Supports historical sample labels, counts and locations in Table II of the 2018 study; its malitosus/malitiosus spellings differ, so this table is not used to decide current taxonomy or range.
 <!-- /evo:text -->

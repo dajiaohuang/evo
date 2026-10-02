@@ -2,7 +2,7 @@
 schemaVersion: 1
 kind: reader-page
 locale: zh
-status: migrated-verbatim
+status: source-linked
 ---
 
 # Cebus malitiosus
@@ -23,6 +23,18 @@ COL26.8 接受 Cebus malitiosus Elliot, 1909；MDD v2.5 将该名列为 C. albif
 
 <!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
 2020 年哥伦比亚图集给出潜在分布 7,622 平方千米、剩余分布 1,821 平方千米的地图模型值。它们是模型图层，不是野外确认点、连续占域测量或种群数量；图集同时称本种及种群状态所知有限。现有来源仍不足以描写独立生活史或全域生态。
+<!-- /evo:text -->
+
+## historical sample labels
+
+<!-- evo:text /records/catalogue-profile/sections/3/topic -->
+历史采样名称
+<!-- /evo:text -->
+
+## historical sample labels
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+一项 2018 年线粒体组研究的表 II 将哥伦比亚 Tayrona 国家公园（圣玛尔塔内华达山脉）的 5 个样本列作原文拼写“C. a. malitosus”，另将 Antioquia 省 Turbo 的 1 个样本列作“C. a. malitiosus”。表内拼写并不一致。这些名称是卷尾猴系统学研究中的历史样本标签，只能说明表中记录的采样地点，不能据此确定现今分布、数量或两地的生态利用。
 <!-- /evo:text -->
 
 ## catalogue-profile / limitations

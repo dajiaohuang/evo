@@ -2001,3 +2001,10 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 补齐该 profile 的 `content/projection-map.yaml` 映射及双语证据范围锚点。内容投影生成成功：132 个投影、37,787 个 Markdown 目录（162.06 秒）；ID `DTFQG` 导出 3 个章节。注册表为 426 个实体/24 个包；清单含 1,995 个 SHA-256 校验值。按 `data/knowledge/catalogue-profiles.json` 当前已生成的 Aves species profile 计数，本批后为 14/11,044；现生鳄目 27/27，合计 41/11,071。鸟类仍有 11,030 个接受种无种级 profile；PBDB 非现生 Archosauria 工作分母为 4,664，种级读者页仍为 7/4,664。
 - 研究只覆盖单一繁殖群与两个采样期，没有泄漏后即时样本、个体追踪或猎物污染暴露测量；本页不代表全物种食谱或现状。无外部领域专家评审；未改动 dossier 输入，无需重建证据队列。依授权未运行手动测试、类型检查、内容/数据/增量验证器或 CI。
 - 来源：[Estrada-Grossmann 等（2025），瓜奈鸬鹚油污事件前后的食性研究](https://doi.org/10.21142/SS-0601-2025-e121)；[COL26.8 瓜奈鸬鹚 `DTFQG`](https://www.checklistbank.org/dataset/316115/taxon/DTFQG)。
+
+## P3-128 — Cebus malitiosus 历史遗传样本地点记录（2026-10-02）
+
+- 在既有来源不足页面新增一段历史采样记录：Ruiz-García 等（2018）表 II 将 5 个 Tayrona 国家公园样本写作 `C. a. malitosus`，另将 1 个 Turbo（Antioquia）样本写作 `C. a. malitiosus`。保留表中拼写差异；仅说明文献记录的样本地点，不推为现今分布、生态或数量。
+- 这补充了旧名群研究的可读线索，但没有解决该研究样本能否对应固定 COL26.8 接受种的身份问题，也没有独立野外生态材料；P3-68 所列首轮缺口仍开放，不增加灵长类首轮通过数。双语页面已标为 `source-linked`，没有外部领域专家评审。
+- 内容投影重新生成成功：132 个投影、37,787 个 Markdown 目录；登记表覆盖 426 个实体/24 个包，清单含 1,995 个 SHA-256 校验值。未改动 dossier 输入，无需重建证据队列；依授权未运行手动测试、类型检查、内容/数据/增量验证器或 CI。
+- 来源：[Ruiz-García 等（2018），白额卷尾猴线粒体组研究（表 II）](https://doi.org/10.1007/s10764-018-0062-6)；[COL26.8 `Cebus malitiosus`（`RYZS`）](https://www.checklistbank.org/dataset/316115/taxon/RYZS)。

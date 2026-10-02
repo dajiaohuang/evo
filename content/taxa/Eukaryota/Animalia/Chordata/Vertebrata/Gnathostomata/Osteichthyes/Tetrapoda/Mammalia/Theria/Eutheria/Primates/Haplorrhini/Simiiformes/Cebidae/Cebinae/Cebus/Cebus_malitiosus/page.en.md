@@ -2,7 +2,7 @@
 schemaVersion: 1
 kind: reader-page
 locale: en
-status: migrated-verbatim
+status: source-linked
 ---
 
 # Cebus malitiosus
@@ -71,6 +71,24 @@ The 2020 Colombian atlas gives map-model values of 7,622 km² for potential rang
 
 <!-- evo:text /records/catalogue-profile/sections/2/sourceIds/0 -->
 atlas_malitiosus
+<!-- /evo:text -->
+
+## historical sample labels
+
+<!-- evo:text /records/catalogue-profile/sections/3/topic -->
+historical sample labels
+<!-- /evo:text -->
+
+## historical sample labels
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/en -->
+Table II in a 2018 mitogenomic study lists five Colombian samples under the printed label C. a. malitosus from Tayrona National Park in the Sierra Nevada de Santa Marta, and one under C. a. malitiosus from Turbo, Antioquia. The spelling differs within the table. These are sample labels in a study of gracile capuchin systematics; they document the listed sample localities, not the present range, abundance, or ecological use of either place.
+<!-- /evo:text -->
+
+## historical sample labels
+
+<!-- evo:text /records/catalogue-profile/sections/3/sourceIds/0 -->
+ruiz2018mitogenomics
 <!-- /evo:text -->
 
 ## catalogue-profile / limitations
