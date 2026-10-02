@@ -144,7 +144,7 @@ Goal 的执行依据为本节与后续批次记录；仓库迁移完成不代表
 
 - 扩写 2019 年区域评估的调查范围和方法：两支队伍约 1,600 公里路线、92 个地点、125 次访谈；对区域复合群的访谈结果按确认出现、可能出现和报告消失分类，并用短期森林漫查补充。报告约 69,000 平方公里和出现地点总数均属于“基桑加尼红疣猴”区域，范围口径同时包括 *P. langi* 与毛色多变的 *P. ellioti*，不归给单一 COL 种。
 - 明确报告将符合 *P. langi* 模式描述的双色型放在 Maiko—Tshopo—Lindi 一带，将 Lindi—Aruwimi 之间的多变型归为 *P. ellioti*；Yambuya 西部边界仍需验证。把区域威胁与历史背景注明为 2019 年评估结论，不表述为当期数量或趋势。
-- 本页由单段局地记录扩充为四节双语区域研究导读，满足首轮来源限定页面标准；仍无种群普查、完整生态或现时保护评估，也无外部领域专家评审。按活动目标 19 项起始口径，本批后剩余 16 项；本计划计数由 11 项降至 10 项，两口径仍差 5 项，后续按 ID 审计。
+- 本页由单段局地记录扩充为四节双语区域研究导读，满足首轮来源限定页面标准；仍无种群普查、完整生态或现时保护评估，也无外部领域专家评审。按活动目标 19 项起始口径，本批后剩余 16 项；本计划计数由 12 项降至 11 项（原记录误写为 11→10，现按 P3-120 的终值更正），两口径仍差 5 项，后续按 ID 审计。
 - 来源：[Hart、Kaisala 与 Falay（2020），Kisangani 红疣猴 2019 快速评估报告](https://www.bonoboincongo.com/wp-content/uploads/2020/03/2020-February-Kisangani-Red-Colobus-REPORT.pdf)；[COL26.8 固定页面 4HTQR](https://api.checklistbank.org/dataset/316115/taxon/4HTQR)；[MDD Lang's Red Colobus](https://www.mammaldiversity.org/taxon/1000647/)。
 
 ## P3-122 — Aotus jorgehernandezi：核型记录与来源缺口（2026-10-02）
