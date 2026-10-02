@@ -2038,3 +2038,10 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 该研究补充命名模式的分类诊断背景，不是野外分布或生态研究，也不裁决固定 COL 接受名与 MDD v2.5 异名处理之间的等级差异；因此 RYZS 的首轮缺口继续开放。中文页同步说明研究边界；无外部领域专家评审，也未更改 dossier 输入。
 - 内容投影成功：132 个投影、37,787 个 Markdown 目录（158.25 秒）；`RYZS` profile 有 4 节、6 个来源绑定。注册表为 426 个实体/24 个包，清单含 1,995 个 SHA-256 校验值。未更改 dossier 输入，无需重建证据队列；依授权未运行手动测试、类型检查、内容/数据/增量验证器或 CI。
 - 来源：[García-Restrepo、Link 与 Lynch（2026），*Cebus malitiosus* 正模诊断复核](https://doi.org/10.1515/mammalia-2026-0044)；[COL26.8 固定 ID `RYZS`](https://www.checklistbank.org/dataset/316115/taxon/RYZS)。
+
+## P4-18 — Aptenodytes forsteri 2026 年 IUCN 评估摘要（2026-10-02）
+
+- 为 COL26.8 ID `FYD9` 的既有双语读者页增加 BirdLife International 评估：IUCN 将其列为已接受、待正式发布的《红色名录》2026(2) 评估；评估日期为 2026-02-26，类别为濒危 EN A3bc（3.1 版）。完善共享引用的机构作者和评估类型元数据。
+- 区分卫星影像导出的春季种群指数与个体总数普查；摘要评估中“至 2073 年下降超过 50% 的概率为 45%”的贝叶斯模型平均预测，并保留南极区域间预测差异。此读者页更新既有 profile，不增加鸟类页面计数；无外部领域专家评审，未更改 dossier 的科学主张。
+- 内容投影成功：132 个投影、37,787 个 Markdown 目录（191.56 秒）；`FYD9` profile 有 3 节、3 个来源绑定。注册表为 426 个实体/24 个包。证据队列重建为 2,183,133 个接受种、36,354 个 dossier 行、2,146,779 个无 dossier 种；清单含 1,995 个 SHA-256 校验值。未改动 dossier 科学主张；依授权未运行手动测试、类型检查、内容/数据/增量验证器或 CI。
+- 来源：[IUCN 预发布评估清单](https://nrl.iucnredlist.org/assessment/pre-publication)；[BirdLife International（2026），*Aptenodytes forsteri* 预发布评估 PDF](https://nc.iucnredlist.org/redlist/content/attachment_files/Aptenodytes_forsteri_Pre-Publication_Assessment_RLTS_T22697752A197622453_eng.pdf)；[COL26.8 固定 ID `FYD9`](https://www.checklistbank.org/dataset/316115/taxon/FYD9)。

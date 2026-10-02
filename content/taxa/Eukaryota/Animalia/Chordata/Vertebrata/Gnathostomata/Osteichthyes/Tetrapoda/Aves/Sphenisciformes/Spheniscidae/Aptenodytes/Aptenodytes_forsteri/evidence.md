@@ -10,7 +10,7 @@ records:
       zh: 皇帝企鹅
       en: Emperor Penguin
     reviewStatus: source-linked
-    checkedAt: 2026-09-29
+    checkedAt: 2026-10-02
     sections:
       - topic:
           markdown: page.en.md
@@ -38,6 +38,19 @@ records:
         sourceIds:
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/1/sourceIds/0
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/2/topic
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/sourceIds/0
     sources:
       referenceBindings:
         - referenceId: ref-0bbed3a8-d515-89c1-a714-5a1db5a15675
@@ -76,6 +89,23 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-3bbf7114-5345-8b88-a1b0-e68a720f121c
+          metadataVariant: 0
+          sourceKey: iucn2026
+          usage:
+            locator: Assessment Information; Red List Category & Criteria; Date Assessed; Justification
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/2/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/2/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - version
     limitations:
       zh:
         markdown: page.zh.md
@@ -394,6 +424,18 @@ CC BY 4.0 genetic study; 110 individuals from six East Antarctic colonies, sampl
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/1/usage/scope/en -->
 Pinned accepted name, authorship, rank, and parent classification; not biological evidence.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/2/usage/scope/zh -->
+支持 2026 年 2 月 26 日评估日期、IUCN 预发布状态、濒危等级和全球种群指数/模型预测摘要；不是当前个体总数普查。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/2/usage/scope/en -->
+Supports the 2026-02-26 assessment date, its IUCN pre-publication status, Endangered category, and summary of global population indices and model projections; not a current count of individuals.
 <!-- /evo:text -->
 
 ## catalogue-dossier / identity / method
