@@ -27,6 +27,32 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/1/topic
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/sourceIds/0
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/2/topic
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/sourceIds/0
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -81,6 +107,38 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-1901f2a5-63b0-4a0c-a52f-5f2db9912001
+          metadataVariant: 0
+          sourceKey: slomp2024cucullatus
+          usage:
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/3/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+        - referenceId: ref-94298495-35e8-4eef-b957-7443f5bd0004
+          metadataVariant: 0
+          sourceKey: martinez2024cucullatus
+          usage:
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
     limitations:
       en:
         markdown: page.en.md
@@ -126,4 +184,28 @@ A taxonomic review that lists S. cucullatus as a monotypic species; not a specie
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/2/usage/scope/zh -->
 分类综述将 S. cucullatus 列为单型种；不是本种野外生态研究。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en -->
+Occurrence compilation for the historical subspecies S. nigritus cucullatus in Rio Grande do Sul; local range records and limits, not a population estimate or resolved mapping of the separate COL26.8 concept.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/zh -->
+南里奥格兰德州历史亚种 S. nigritus cucullatus 的出现记录汇编；仅支持局部分布记录和边界，不是种群估计，也未解决 COL26.8 独立概念的对应关系。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en -->
+Two-site comparison in northern Misiones under the historical subspecies name; sample- and method-bounded local ecology, not a range-wide density result.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh -->
+以历史亚种名在米西奥内斯北部进行的两地点比较；局地生态证据受样本和方法限制，不代表全分布区密度结果。
 <!-- /evo:text -->

@@ -44,6 +44,10 @@ records:
             field: /records/catalogue-profile/sections/0/sourceIds/12
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/0/sourceIds/13
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/14
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/15
         text:
           zh:
             markdown: page.zh.md
@@ -305,6 +309,38 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-1901f2a5-63b0-4a0c-a52f-5f2db9912001
+          metadataVariant: 0
+          sourceKey: slomp2024cucullatus
+          usage:
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/14/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/14/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
+        - referenceId: ref-94298495-35e8-4eef-b957-7443f5bd0004
+          metadataVariant: 0
+          sourceKey: martinez2024cucullatus
+          usage:
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/15/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/15/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
     limitations:
       zh:
         markdown: page.zh.md
@@ -482,4 +518,29 @@ A 2024 taxonomic review that lists S. cucullatus as a species.
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/13/usage/scope/zh -->
 2024 年分类综述将 S. cucullatus 列为种。
+<!-- /evo:text -->
+
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/14/usage/scope/en -->
+Occurrence compilation for the historical subspecies S. nigritus cucullatus; supports regional records, not abundance or a range-wide species assessment.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/14/usage/scope/zh -->
+历史亚种 S. nigritus cucullatus 的区域出现记录汇编；支持局部分布信息，不是丰度或全域种级评估。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/15/usage/scope/en -->
+Two-site comparison in northern Misiones under the historical subspecies name; local ecology, not a range-wide density result.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/15/usage/scope/zh -->
+以历史亚种名在米西奥内斯北部进行的两地点比较；仅支持局地生态，不代表全分布区密度结果。
 <!-- /evo:text -->

@@ -99,8 +99,21 @@ rylands2024taxonomy
 
 ## overview
 
+<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/14 -->
+slomp2024cucullatus
+<!-- /evo:text -->
+
+## overview
+
+<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/15 -->
+martinez2024cucullatus
+<!-- /evo:text -->
+
+## overview
+
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
-This reading path connects the six Sapajus species entries in the fixed COL26.8 roster. Begin with feeding and home-range use by crested capuchins across protected forest and cultivated plots, then compare dietary shifts among hooded capuchin groups in Paraguayan forest fragments. Continue with blond capuchins feeding in sugarcane fields and group competition, the Cerrado diet and seed trials for bearded capuchins, and the long-term Bahia landscape survey of yellow-breasted capuchins. Finish with the cucullatus capuchin as a taxonomy-history case: COL26.8, the 2020 IUCN assessment and the 2024 review assign it different ranks. Sites, samples and questions differ; this is a selective reading route, not a genus-wide ecological average.
+This reading path connects the six Sapajus species entries in the fixed COL26.8 roster. Begin with feeding and home-range use by crested capuchins across protected forest and cultivated plots, then compare dietary shifts among hooded capuchin groups in Paraguayan forest fragments. Continue with blond capuchins feeding in sugarcane fields and group competition, the Cerrado diet and seed trials for bearded capuchins, and the long-term Bahia landscape survey of yellow-breasted capuchins. Finish with the cucullatus capuchin’s Rio Grande do Sul occurrence compilation and two-site Misiones forest comparison, read alongside the disagreement between COL26.8, the 2020 IUCN assessment, and the 2024 species-level review. Sites, samples and questions differ; this is a selective reading route, not a genus-wide ecological average.
+<!-- /evo:text -->
 <!-- /evo:text -->
 
 ## catalogue-profile / limitations

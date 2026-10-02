@@ -36877,7 +36877,10 @@
     "type": "web-resource",
     "url": "https://www.mammaldiversity.org/releases/diff-changes/2.5/",
     "sourceRole": "taxonomic-database",
-    "fitnessFor": ["current-taxonomic-treatment", "version-change-audit"],
+    "fitnessFor": [
+      "current-taxonomic-treatment",
+      "version-change-audit"
+    ],
     "metadataAssignment": "editorial",
     "metadataStatus": "checked-current-release-2026-10-02",
     "importedSourceMetadata": [
@@ -110679,7 +110682,9 @@
   {
     "id": "ref-53e1f314-2c37-4ef4-8ce8-cf7086365b62",
     "title": "Bicca-Marques (2006) — Distance influences the foraging decisions of emperor and saddleback tamarins",
-    "authors": ["Bicca-Marques, J. C."],
+    "authors": [
+      "Bicca-Marques, J. C."
+    ],
     "authorsComplete": true,
     "authorsStatus": "complete-verbatim",
     "publishedYear": 2006,
@@ -110689,18 +110694,29 @@
     "publisher": "Journal of Zoology",
     "pages": "269(2):221-224",
     "sourceRole": "primary-study",
-    "fitnessFor": ["ecology", "behavior"],
+    "fitnessFor": [
+      "ecology",
+      "behavior"
+    ],
     "metadataAssignment": "manual-source-review",
     "metadataStatus": "bibliographic-fields-checked",
-    "importedSourceMetadata": [{
-      "title": "Distance influences the foraging decisions of emperor and saddleback tamarins",
-      "url": "https://doi.org/10.1111/j.1469-7998.2006.00110.x"
-    }]
+    "importedSourceMetadata": [
+      {
+        "title": "Distance influences the foraging decisions of emperor and saddleback tamarins",
+        "url": "https://doi.org/10.1111/j.1469-7998.2006.00110.x"
+      }
+    ]
   },
   {
     "id": "ref-72b32bd9-61da-46c3-aef6-25e057b748ad",
     "title": "Ravetta et al. (2021) — Saguinus imperator ssp. imperator, amended version of 2020 assessment",
-    "authors": ["Ravetta, A. L.", "Calouro, A. M.", "Röhe, F.", "Bicca-Marques, J. C.", "Mittermeier, R. A."],
+    "authors": [
+      "Ravetta, A. L.",
+      "Calouro, A. M.",
+      "Röhe, F.",
+      "Bicca-Marques, J. C.",
+      "Mittermeier, R. A."
+    ],
     "authorsComplete": true,
     "authorsStatus": "complete-verbatim",
     "publishedYear": 2021,
@@ -110710,13 +110726,18 @@
     "publisher": "The IUCN Red List of Threatened Species",
     "pages": "e.T19827A192551358",
     "sourceRole": "taxonomic-assessment",
-    "fitnessFor": ["taxonomy", "distribution"],
+    "fitnessFor": [
+      "taxonomy",
+      "distribution"
+    ],
     "metadataAssignment": "manual-source-review",
     "metadataStatus": "bibliographic-fields-checked",
-    "importedSourceMetadata": [{
-      "title": "Saguinus imperator ssp. imperator (amended version of 2020 assessment)",
-      "url": "https://doi.org/10.2305/IUCN.UK.2021-1.RLTS.T19827A192551358.en"
-    }]
+    "importedSourceMetadata": [
+      {
+        "title": "Saguinus imperator ssp. imperator (amended version of 2020 assessment)",
+        "url": "https://doi.org/10.2305/IUCN.UK.2021-1.RLTS.T19827A192551358.en"
+      }
+    ]
   },
   {
     "id": "ref-aotus-quindio-2023",
@@ -110744,13 +110765,103 @@
     "publisher": "Revista de la Academia Colombiana de Ciencias Exactas, Físicas y Naturales",
     "pages": "47(184):541-555",
     "sourceRole": "systematic-review",
-    "fitnessFor": ["taxonomy", "distribution", "morphology"],
+    "fitnessFor": [
+      "taxonomy",
+      "distribution",
+      "morphology"
+    ],
     "metadataAssignment": "manual-source-review",
     "metadataStatus": "bibliographic-fields-checked",
     "note": "Department-level annotated mammal checklist. It reports that the taxon is known only from an unlocated captive type of putative Los Nevados origin and discusses a second captive Aotus with the same 2n=50 karyotype but unknown provenance; these records do not establish a wild locality or current species limit.",
-    "importedSourceMetadata": [{
-      "title": "Los mamíferos del Quindío, Colombia. II. Patrones de diversidad y lista anotada de especies",
-      "url": "https://doi.org/10.18257/raccefyn.1777"
-    }]
+    "importedSourceMetadata": [
+      {
+        "title": "Los mamíferos del Quindío, Colombia. II. Patrones de diversidad y lista anotada de especies",
+        "url": "https://doi.org/10.18257/raccefyn.1777"
+      }
+    ]
+  },
+  {
+    "id": "ref-1901f2a5-63b0-4a0c-a52f-5f2db9912001",
+    "title": "Update to the geographical distribution of Sapajus nigritus cucullatus (Spix, 1823) in Southern Brazil",
+    "authors": [
+      "Slomp, D.V.",
+      "Ludwig, G.",
+      "Buss, G.",
+      "Printes, R.C.",
+      "Fortes, V.B.",
+      "Pacca, L.G.",
+      "Jardim, M.M.A."
+    ],
+    "publishedYear": 2024,
+    "type": "paper",
+    "url": "https://doi.org/10.62015/np.2024.v30.828",
+    "doi": "10.62015/np.2024.v30.828",
+    "publisher": "Neotropical Primates",
+    "pages": "30(1):37–47",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "range",
+      "habitat"
+    ],
+    "metadataAssignment": "automated",
+    "authorsComplete": true,
+    "authorsStatus": "recorded",
+    "authorsVerbatim": "Slomp, D.V.; Ludwig, G.; Buss, G.; Printes, R.C.; Fortes, V.B.; Pacca, L.G.; Jardim, M.M.A.",
+    "note": "Occurrence synthesis for the historical subspecies in Rio Grande do Sul; records include survey, institutional, field, and citizen-science sources and are not abundance estimates.",
+    "importedSourceMetadata": [
+      {
+        "title": "Update to the geographical distribution of Sapajus nigritus cucullatus (Spix, 1823) in Southern Brazil",
+        "authors": [
+          "Slomp, D.V.",
+          "Ludwig, G.",
+          "Buss, G.",
+          "Printes, R.C.",
+          "Fortes, V.B.",
+          "Pacca, L.G.",
+          "Jardim, M.M.A."
+        ],
+        "publishedYear": 2024,
+        "url": "https://doi.org/10.62015/np.2024.v30.828",
+        "doi": "10.62015/np.2024.v30.828"
+      }
+    ]
+  },
+  {
+    "id": "ref-94298495-35e8-4eef-b957-7443f5bd0004",
+    "title": "Fragmented forest affects the southern black-horned capuchin (Sapajus nigritus cucullatus) in the Argentinean Atlantic Forest",
+    "authors": [
+      "Martínez de Zorzi, V.",
+      "Shanee, S.",
+      "Oklander, L.I."
+    ],
+    "publishedYear": 2024,
+    "type": "paper",
+    "url": "https://doi.org/10.1007/s10329-023-01114-4",
+    "doi": "10.1007/s10329-023-01114-4",
+    "publisher": "Primates",
+    "pages": "65:125–133",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "ecology",
+      "habitat"
+    ],
+    "metadataAssignment": "automated",
+    "authorsComplete": true,
+    "authorsStatus": "recorded",
+    "authorsVerbatim": "Martínez de Zorzi, V.; Shanee, S.; Oklander, L.I.",
+    "note": "Two-site comparison in northern Misiones between continuous forest and one anthropogenic fragment; results are local and based on the historical subspecies name.",
+    "importedSourceMetadata": [
+      {
+        "title": "Fragmented forest affects the southern black-horned capuchin (Sapajus nigritus cucullatus) in the Argentinean Atlantic Forest",
+        "authors": [
+          "Martínez de Zorzi, V.",
+          "Shanee, S.",
+          "Oklander, L.I."
+        ],
+        "publishedYear": 2024,
+        "url": "https://doi.org/10.1007/s10329-023-01114-4",
+        "doi": "10.1007/s10329-023-01114-4"
+      }
+    ]
   }
 ]
