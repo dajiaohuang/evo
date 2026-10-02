@@ -29,6 +29,8 @@ records:
             field: /records/catalogue-profile/sections/0/sourceIds/1
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/0/sourceIds/2
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/3
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
