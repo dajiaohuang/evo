@@ -29,6 +29,32 @@ records:
             field: /records/catalogue-profile/sections/0/sourceIds/1
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/0/sourceIds/2
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/1/topic
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/sourceIds/0
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/2/topic
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/sourceIds/0
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -115,13 +141,13 @@ Pinned COL26.8 name, authorship, rank and parent identity; not biological eviden
 ## referenceBindings / usage / scope
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/1/usage/scope/en -->
-A 2020 assessment documenting competing historical rank/synonym treatments and the assessors' precautionary decision to retain lulindicus as a species; it does not provide a dedicated modern ecological study.
+Global 2020 Red List assessment under a separate-species treatment. It summarizes historical range boundaries, habitat observations, survey reports, threats, and an inferred decline; some cited 2018 survey data were unpublished, and its taxonomic concept is not resolved against the current MDD treatment or pinned COL26.8 ID.
 <!-- /evo:text -->
 
 ## referenceBindings / usage / scope
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/1/usage/scope/zh -->
-2020 年评估记录了历史分类等级与异名处理的分歧，以及评估者基于预防原则保留 lulindicus 为种的决定；它不提供专门的现代生态研究。
+以独立种处理该名称的 2020 年全球《红色名录》评估。评估汇总了历史分布界限、栖地观察、调查报告、威胁和下降推断；部分 2018 年调查数据未发表，其分类概念与当前 MDD 处理及固定 COL26.8 ID 的关系尚未解决。
 <!-- /evo:text -->
 
 ## referenceBindings / usage / scope
