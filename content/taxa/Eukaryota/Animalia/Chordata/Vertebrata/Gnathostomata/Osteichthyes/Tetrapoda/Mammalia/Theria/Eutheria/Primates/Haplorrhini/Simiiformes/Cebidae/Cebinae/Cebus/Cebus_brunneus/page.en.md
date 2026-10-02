@@ -61,8 +61,26 @@ boubli2012
 rylands2024
 <!-- /evo:text -->
 
+## assessment-reported range and habitat
+
+<!-- evo:text /records/catalogue-profile/sections/2/topic -->
+assessment-reported range and habitat
+<!-- /evo:text -->
+
+## assessment-reported range and habitat
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/en -->
+The 2020 IUCN assessment, published in 2021 under C. brunneus, describes a northern Venezuelan range from the San Luis, Aroa and Churuguara ranges westward through central Venezuela to the Araya and Paria peninsulas, at 100–1,400 m. Its habitat account lists cloud, secondary, lowland-rainforest, gallery and semi-deciduous forests, and cites records from El Ávila and Yurubí national parks and the upper Guárico River. These are records as compiled by that assessment, which also discusses uncertainty over whether the name brunneus applies to the sampled Venezuelan lineage; they are not independently reassigned here to the pinned COL concept.
+<!-- /evo:text -->
+
+## assessment-reported range and habitat
+
+<!-- evo:text /records/catalogue-profile/sections/2/sourceIds/0 -->
+iucn_brunneus_2021
+<!-- /evo:text -->
+
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-An unresolved gap separates the name-bearing identity from the genetic samples used under brunneus. This page does not assign those samples' range or ecology to the pinned COL species ID and does not meet the first-round content standard. It is not externally expert-reviewed.
+An unresolved gap separates the name-bearing identity from the genetic samples and ecological records used under brunneus. Range and habitat details are reported by the 2020 IUCN assessment rather than independently re-established for the pinned COL concept. This page does not meet the first-round content standard and is not externally expert-reviewed.
 <!-- /evo:text -->

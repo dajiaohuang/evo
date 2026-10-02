@@ -44,6 +44,19 @@ records:
             field: /records/catalogue-profile/sections/1/sourceIds/0
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/1/sourceIds/1
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/2/topic
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/sourceIds/0
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -174,7 +187,7 @@ Documents MDD v2.5 treatment of C. brunneus among names associated with C. oliva
 ## referenceBindings / usage / scope
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/2/usage/scope/en -->
-Records the 2021 IUCN assessment's species-level treatment of C. brunneus; the assessment itself discusses the name and sample-identity controversy.
+Records the 2020 IUCN global assessment (published 2021), including its assessment-reported range, elevations, habitat types and field records; the assessment itself discusses the name and sample-identity controversy, so these records are not independently reassigned to the pinned COL concept.
 <!-- /evo:text -->
 
 ## referenceBindings / usage / scope

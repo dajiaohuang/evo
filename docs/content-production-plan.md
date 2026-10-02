@@ -2046,6 +2046,13 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 投影生成成功：132 个投影、37,788 个 Markdown 目录（179.28 秒）；`RYZ7` profile 导出 3 节。注册表为 426 个实体/24 个包；清单含 1,995 个 SHA-256 校验值。依授权未运行测试、类型检查、验证器或 CI。
 - 来源：[Boubli 等（2012），无簇毛卷尾猴系统发育与暂定分类重评](https://doi.org/10.1002/ajp.21998)；[COL26.8 固定 ID `RYZ7`](https://www.checklistbank.org/dataset/316115/taxon/RYZ7)。
 
+## P3-131 — Cebus brunneus 评估所载范围与栖地（2026-10-02）
+
+- 为 COL26.8 ID `RYZ2` 的双语页补入 2020 年 IUCN 全球评估（2021 年发表）所载北部委内瑞拉山系范围、100—1,400 米海拔、森林类型及 Ávila/Yurubí 国家公园和 Guárico 河上游记录，明确这些是评估汇编内容。
+- 该评估同时讨论 brunneus 名称与委内瑞拉遗传样本谱系之间的身份疑问；因此不独立重指其范围或栖地记录，不关闭首轮分类缺口。灵长类分母与通过数及活动缺口数不变；没有外部领域专家评审，未更改 dossier 输入。
+- 内容投影成功：132 个投影、37,788 个 Markdown 目录（141.29 秒）；`RYZ2` profile 导出 3 节。注册表为 426 个实体/24 个包；清单含 1,995 个 SHA-256 校验值。依授权未运行测试、类型检查、验证器或 CI。
+- 来源：[IUCN（2021），*Cebus brunneus* 全球评估](https://doi.org/10.2305/IUCN.UK.2021-2.RLTS.T81237954A17981252.en)；[COL26.8 固定 ID `RYZ2`](https://www.checklistbank.org/dataset/316115/taxon/RYZ2)。
+
 ## P4-18 — Aptenodytes forsteri 2026 年 IUCN 评估摘要（2026-10-02）
 
 - 为 COL26.8 ID `FYD9` 的既有双语读者页增加 BirdLife International 评估：IUCN 将其列为已接受、待正式发布的《红色名录》2026(2) 评估；评估日期为 2026-02-26，类别为濒危 EN A3bc（3.1 版）。完善共享引用的机构作者和评估类型元数据。
