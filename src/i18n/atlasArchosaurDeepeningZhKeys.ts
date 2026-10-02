@@ -1,4 +1,9 @@
 export const atlasArchosaurDeepeningZhEnglishKeys = [
+  'order identity',
+  'emperor penguin population connection',
+  'emperor penguin conservation assessment',
+  'selected Pygoscelis studies',
+  '2026 conservation assessment',
   'A hemichordate lineage that includes living tube-dwelling pterobranchs and the graptolite radiation; fossil tubes and zooids are evaluated separately from molecular or navigation relationships.',
   'Marine habitats worldwide',
   'Xiaoshiba Lagerstätte, Yunnan, China (early fossil evidence)',

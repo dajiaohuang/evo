@@ -1,4 +1,5 @@
 export const primatesZh: Record<string, string> = {
+  'historical sample labels': '历史采样名称',
   'Hominidae': '人科',
   'Crown-primate relaxed-clock interval': '灵长类冠群宽松分子钟区间',
   'Purgatorius Garbani Channel tarsals': '炼狱猴属 Garbani Channel 跗骨',

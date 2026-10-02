@@ -1,4 +1,5 @@
 export const primatesZhKeys = new Set<string>([
+  'historical sample labels',
   "Bossou, Guinea (study site)",
   "The selected study records feeding locations but does not provide a species-wide diet synthesis.",
   "At Bossou, mature forest was the most selected habitat overall in the sampled wild community; this is a site-level result.",
