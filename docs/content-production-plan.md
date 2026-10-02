@@ -2087,3 +2087,26 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 明确 233.2–0 Ma 是包含现生鸟类导航的暂定综合跨度，不是连续化石记录或全球恐龙首现；Buriolestes 仅为局地样本，矩阵差异不代表直接祖先观察，Yutyrannus 结构不外推到全部恐龙。原索引 `conceptReviewStatus: unresolved` 与空 taxon ID 保持不变，无外部领域专家评审。
 - 复用四条共享引用，不改 dossier 或源分母。内容投影生成成功：132 个投影由 37,788 个 Markdown 目录编译；包内 `dinosauria` profile 为 3 节、4 个来源绑定，英语和中文均为 `draft-ready`。初次注册表生成失败，原因是 `field-claim-overrides.source.json` 属于内容投影，直接改包文件会被覆盖；规范 `evidence.md` 记录需由 `content/projection-map.yaml` 映射，且字段记录不能重复嵌套 profile ID。改用规范记录后注册表成功，覆盖 426 个实体/24 个包；manifest 更新为 1,995 项 SHA-256。无整体地理或群体生态范围 claim 的字段标为 `not-assessed`，三个带来源的读者章节保留独立 source link。证据队列输入未变，无需重建。依授权不运行手动测试、类型检查、验证器或手动 CI。
 - 来源：[Cabreira 等（2016），Buriolestes 化石组合](https://doi.org/10.1016/j.cub.2016.09.040)；[Baron 等（2017），恐龙关系矩阵](https://doi.org/10.1038/nature21700)；[Langer 等（2017），恐龙树重分析](https://doi.org/10.1038/nature24011)；[Xu 等（2012），羽王龙骨架与体表结构](https://doi.org/10.1038/nature10906)。
+
+## P4-22 — Pygoscelis 来源映射审阅修复（2026-10-02）
+
+- 全库 marker 与 evidence 对照发现 Pygoscelis 的阿德利企鹅巢存活段已在双语页引用 `mclatchie2024`，但章节 sourceIds 漏映射。补齐规范 evidence pointer 后，重新生成 132 个内容投影、426 个实体注册表和 1,995 项 manifest；不涉及物种 dossier 队列。提交 `b1081ef8d895f5c9f45b9d7ba808dca0d3b7a9f6` 已到远端 `main`。
+- 该修复只恢复既有研究与阅读路径的来源链接，不扩大 Sphenisciformes 内容覆盖或评审状态。
+
+## P4-23 — 全库来源结构审阅修复（2026-10-02）
+
+- 全库只读扫描覆盖 37,788 个 mapped directories/evidence nodes 与 156,725 个 Markdown/YAML 文件；132/132 投影与 loader 复原一致。四个实际遗漏节点为 Pygoscelis、Cacajao novaesi、Trachypithecus ebenus 与 Dinosauria。随后修正 Cacajao 的 SALVE section 引用；恢复 Trachypithecus 的三段英中正文与 sourceIds，并修复嵌套 delimiter；为 Dinosauria 的九个既有中文基础字段补齐 UI 翻译。
+- 同轮为六个既有中英 topic-label orphan 增加本地化映射。54 个同值冗余 marker 与 12 个无 canonical 值字段不作为正文遗漏；未把 not-authored research placeholders 说成新增回归。
+- 成功生成 132 个内容投影、426 个实体注册表、2,183,133 种证据队列（36,354 dossier rows；2,146,779 无 dossier）和 1,995 项 SHA-256 manifest。提交 `f4aadf93d3ab669cc2a31212572c8e2b4e14950f` 已到远端 `main`。未运行手动测试、类型检查、验证器或 CI。
+
+## P4-24 — 补齐孤立的中文 topic labels（2026-10-02）
+
+- 为 Aptenodytes forsteri、Cebus malitiosus 与 Sphenisciformes 的六个已存在中文章节标签补入现有英中词典/键集映射，避免目录导航回退显示英文 topic key。正文、sourceIds 和物种分母不变。
+- 提交 `0c0d339` 已推送到远端 `main`；仅做 diff 检查，没有运行测试或 CI。
+
+## P5-1 — 全 Amniota 来源分母与互斥 PBDB OID 名册（2026-10-02）
+
+- 将主动内容目标扩展至全 Amniota。固定 COL26.8 accepted-species 工作清单为 Tetrapoda 下 Mammalia 6,461、Aves 11,044、Reptilia 12,649 的并集，共 30,154；当前本地分类快照没有 extant 字段，也没有 Amniota 节点。
+- 冻结 PBDB Amniota 查询 `rank=species,status=accepted,extant=no,pres=regular`：22,684 个唯一 OID；根响应 SHA-256 `1a597e7c303eca7e4d0f19ce59c30110620fcefc1c6e87b31d0fb3ef4a3a95ed`。保留 14 个已解析 `base_id` 子树响应，并生成 15 个无重叠 OID 分区；覆盖率 22,684/22,684，分区文件 SHA-256 `92b015b3fc77801311a939094e237344a46d725105e0dd7cef1efbff8ae77818`。
+- COL 与 PBDB 作为两个有日期的来源清单独立管理，不按学名匹配去重，也不加成唯一生物物种数。原 2026-09-30 Archosauria 4,664 条名册仅留作历史记录；本次 PBDB OID 分区中非鸟恐龙为 1,795，反映新查询的 scope/date。
+- 更新执行目标、内容计划、PBDB 数据 manifest 和可复跑分区脚本；manifest 已生成 2,012 项哈希。提交 `76bc79cdc37da3a1027a32449fa6486803143460` 已推送到远端 `main`。未运行测试、验证器或 CI。
