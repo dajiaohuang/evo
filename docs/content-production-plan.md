@@ -2052,3 +2052,10 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 明确各研究属于不同分类单元、地点、时段与方法；遗传研究不是现时种群普查，保护评估仅适用于皇帝企鹅，三项 Pygoscelis 研究不能合并为目级趋势。范围是精选阅读路径，并非完整企鹅目生态或分布综述；无外部领域专家评审。
 - 新增 `Sphenisciformes` canonical profile 与 `content/projection-map.yaml` 映射；复用现有共享引用，无新增 bibliography 条目，无 dossier 输入变化。内容生成成功：132 个投影由 37,788 个 Markdown 目录编译，`44K` 输出 4 节、6 个来源绑定；注册表 426 个实体/24 个包，manifest 1,995 项 SHA-256；物种证据队列重建为 2,183,133 个接受种、36,354 个 dossier 行、2,146,779 个无 dossier 种。未运行手动测试、类型检查、验证器或手动 CI。
 - 来源：[COL26.8 企鹅目 `44K`](https://www.checklistbank.org/dataset/316115/taxon/44K)；[Cristofari 等（2016），皇帝企鹅繁殖群遗传联系](https://doi.org/10.1111/mec.13588)；[IUCN 预发布评估清单](https://nrl.iucnredlist.org/assessment/pre-publication)；[Pygoscelis 属精选研究](https://doi.org/10.1002/ece3.10988)。
+
+## P4-20 — Pterosauria 翼龙类双语读者路径（2026-10-02）
+
+- 在 PBDB supplementary taxon `txn:38461` 的 canonical `Pterosauria` 节点补写双语读者路径，并将其 reader 字段接入 `marine-reptiles-pterosaurs` 包内已有 `pterosauria` profile。四节依次介绍鸟跖类位置与起源不确定性、晚三叠世具名样本和时空稀疏记录、Hamipterus 卵与 Crato 组体表组织，以及巨型翼龙飞行/四足起飞的模型输入边界。
+- 将保存材料与解释区分：单地点 Carniadactylus 不定义全球首现，108 分类单元分析受采样不均影响；卵和胚胎属于特定沉积块，黑素体信号功能属于解释，飞行与起飞为模型可行性结果。保留既有 Pterosauria research-account、dossier claims 与范围字段；本文无外部领域专家评审。
+- 复用既有六条共享参考文献，不新增 dossier 或参考文献条目。内容生成成功：132 个投影由 37,788 个 Markdown 目录编译；生成包 profile `pterosauria` 有 4 节、6 个来源绑定，英语与中文状态均为 `draft-ready`。注册表覆盖 426 个实体/24 个包，manifest 含 1,995 项 SHA-256；证据队列为 2,183,133 个接受种、36,354 个 dossier 行、2,146,779 个无 dossier 种。依授权不运行手动测试、类型检查、验证器或手动 CI。
+- 来源：[Baron（2021），翼龙起源综述](https://doi.org/10.1016/j.earscirev.2021.103777)；[Dalla Vecchia（2009），Carniadactylus 再描述](https://doi.org/10.13130/2039-4942/6377)；[Upchurch 等（2015），翼龙生物地理分析](https://doi.org/10.1080/08912963.2014.939077)；[Wang 等（2017），Hamipterus 卵与胚胎](https://doi.org/10.1126/science.aan2329)；[Cincotta 等（2022），翼龙黑素体](https://doi.org/10.1038/s41586-022-04622-3)；[Witton 与 Habib（2010），巨型翼龙飞行模型](https://doi.org/10.1371/journal.pone.0013982)。
