@@ -42,6 +42,19 @@ records:
             field: /records/catalogue-profile/sections/1/sourceIds/0
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/1/sourceIds/1
+      - topic:
+          markdown: page.en.md
+          field: /records/catalogue-profile/sections/2/topic
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+        sourceIds:
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/sourceIds/0
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -112,6 +125,22 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-716d7926-fe49-840a-ac92-a30f64d142d1
+          metadataVariant: 0
+          sourceKey: boubli2012
+          usage:
+            scope:
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en
+          originalFields:
+            - id
+            - title
+            - url
+            - scope
     limitations:
       zh:
         markdown: page.zh.md
@@ -169,4 +198,16 @@ Supports mtCOII groups in 118 C. albifrons sensu the older taxonomy; it does not
 
 <!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en -->
 Supports mitogenomic, mitochondrial-gene and nuclear-microsatellite analyses of historically named white-fronted capuchin groups; taxonomic conclusions are the authors' phylogenetic interpretation.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh -->
+支持基于 50 个跨分布区样本的线粒体系统发育分析及暂定分类重评；作者明确指出仍需扩大地理采样，不支持生态或种群结论。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en -->
+Supports a mitochondrial phylogeny and provisional reassessment based on 50 samples across the range; the authors call for broader geographic sampling. It does not support ecological or population claims.
 <!-- /evo:text -->

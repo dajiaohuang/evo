@@ -2039,6 +2039,13 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 内容投影成功：132 个投影、37,787 个 Markdown 目录（158.25 秒）；`RYZS` profile 有 4 节、6 个来源绑定。注册表为 426 个实体/24 个包，清单含 1,995 个 SHA-256 校验值。未更改 dossier 输入，无需重建证据队列；依授权未运行手动测试、类型检查、内容/数据/增量验证器或 CI。
 - 来源：[García-Restrepo、Link 与 Lynch（2026），*Cebus malitiosus* 正模诊断复核](https://doi.org/10.1515/mammalia-2026-0044)；[COL26.8 固定 ID `RYZS`](https://www.checklistbank.org/dataset/316115/taxon/RYZS)。
 
+## P3-130 — Cebus cesarae 暂定分类重评史（2026-10-02）
+
+- 为 COL26.8 ID `RYZ7` 的双语页增加 Boubli 等（2012）分类史摘要：论文以跨分布区的 50 个无簇毛卷尾猴线粒体 DNA 样本构建时间校准系统发育树，并在暂定重评中识别北安第斯的 *C. cesarae* 与 *C. versicolor*；作者明确要求进一步扩大地理采样。
+- 将其限定为历史系统发育与分类主张，不据此推导生态、种群或当前稳定种界；COL26.8 与 MDD v2.5 的分类差异及 P3-68 首轮缺口均保持未解决。灵长类 530 种固定分母、当前通过数与活动缺口数不变；未改动 dossier 输入，无需重建证据队列，无外部领域专家评审。
+- 投影生成成功：132 个投影、37,788 个 Markdown 目录（179.28 秒）；`RYZ7` profile 导出 3 节。注册表为 426 个实体/24 个包；清单含 1,995 个 SHA-256 校验值。依授权未运行测试、类型检查、验证器或 CI。
+- 来源：[Boubli 等（2012），无簇毛卷尾猴系统发育与暂定分类重评](https://doi.org/10.1002/ajp.21998)；[COL26.8 固定 ID `RYZ7`](https://www.checklistbank.org/dataset/316115/taxon/RYZ7)。
+
 ## P4-18 — Aptenodytes forsteri 2026 年 IUCN 评估摘要（2026-10-02）
 
 - 为 COL26.8 ID `FYD9` 的既有双语读者页增加 BirdLife International 评估：IUCN 将其列为已接受、待正式发布的《红色名录》2026(2) 评估；评估日期为 2026-02-26，类别为濒危 EN A3bc（3.1 版）。完善共享引用的机构作者和评估类型元数据。

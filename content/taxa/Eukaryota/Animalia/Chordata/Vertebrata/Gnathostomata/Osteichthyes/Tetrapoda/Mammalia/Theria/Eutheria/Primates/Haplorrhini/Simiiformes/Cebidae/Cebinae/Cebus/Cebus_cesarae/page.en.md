@@ -37,6 +37,24 @@ mdd_albifrons
 classification
 <!-- /evo:text -->
 
+## provisional reassessment
+
+<!-- evo:text /records/catalogue-profile/sections/2/topic -->
+provisional reassessment
+<!-- /evo:text -->
+
+## provisional reassessment
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/en -->
+Boubli et al. (2012) built a time-calibrated phylogeny from mitochondrial DNA sequences for 50 untufted capuchins sampled across the group's range. Their provisional reassessment recognized C. cesarae and C. versicolor as northern Andean species, while explicitly calling for more extensive geographic sampling. This is a historical phylogenetic proposal, not an ecological account or a resolution of the current COL–MDD treatment difference.
+<!-- /evo:text -->
+
+## provisional reassessment
+
+<!-- evo:text /records/catalogue-profile/sections/2/sourceIds/0 -->
+boubli2012
+<!-- /evo:text -->
+
 ## classification
 
 <!-- evo:text /records/catalogue-profile/sections/1/text/en -->

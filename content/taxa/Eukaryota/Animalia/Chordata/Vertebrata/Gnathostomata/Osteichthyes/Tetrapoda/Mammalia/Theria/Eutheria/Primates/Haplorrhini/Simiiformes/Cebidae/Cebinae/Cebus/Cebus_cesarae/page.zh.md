@@ -19,6 +19,12 @@ COL26.8 将 RYZ7 接受为 Cebus cesarae Hershkovitz, 1949。MDD v2.5 将 2013 �
 Ruiz-García 等（2010）对旧分类框架下 118 只白额卷尾猴测序 696 bp 的线粒体 COII，识别出北哥伦比亚的 malitiosus、versicolor-pleei-cesarae 与 leucocephalus 三个遗传群，但没有解析主要群之间的关系。2019 年更大样本的线粒体与核微卫星分析又提出 cesarae 与 versicolor 等旧名群存在复杂关系。两篇论文支持研究史和分类问题，不提供本页所需的独立生态或现今种群估计。
 <!-- /evo:text -->
 
+## provisional reassessment
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+Boubli 等（2012）使用来自无簇毛卷尾猴类群分布区不同地点的 50 个线粒体 DNA 样本，构建时间校准的系统发育树。其暂定分类重评将 C. cesarae 与 C. versicolor 视为北安第斯种，同时明确指出还需更广泛的地理采样。这是分类史中的系统发育假说，不是生态介绍，也没有解决当前 COL 与 MDD 分类处理之间的差异。
+<!-- /evo:text -->
+
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
