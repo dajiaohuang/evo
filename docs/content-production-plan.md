@@ -2053,6 +2053,11 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 内容投影成功：132 个投影、37,788 个 Markdown 目录（141.29 秒）；`RYZ2` profile 导出 3 节。注册表为 426 个实体/24 个包；清单含 1,995 个 SHA-256 校验值。依授权未运行测试、类型检查、验证器或 CI。
 - 来源：[IUCN（2021），*Cebus brunneus* 全球评估](https://doi.org/10.2305/IUCN.UK.2021-2.RLTS.T81237954A17981252.en)；[COL26.8 固定 ID `RYZ2`](https://www.checklistbank.org/dataset/316115/taxon/RYZ2)。
 
+## P3-132 — 全量审阅发现的物种证据队列更新（2026-10-02）
+
+- 全量数据审阅发现 P3-130 新增至 `RYZ7` 的 `boubli2012` 正文引用已进入 catalogue profile，但其物种证据队列快照尚未刷新；队列一致性检查因此失败。本批重建完整队列，将 `RYZ7` 与同轮更新的 `RYZ2` profile 来源同步。
+- 队列生成覆盖 2,183,133 个 COL26.8 接受种、36,354 条 dossier 记录、2,146,779 个无 dossier 物种；本批不改变来源名单与物种分母。清单已随后重算；全库验证需在审计修复后复跑。
+
 ## P4-18 — Aptenodytes forsteri 2026 年 IUCN 评估摘要（2026-10-02）
 
 - 为 COL26.8 ID `FYD9` 的既有双语读者页增加 BirdLife International 评估：IUCN 将其列为已接受、待正式发布的《红色名录》2026(2) 评估；评估日期为 2026-02-26，类别为濒危 EN A3bc（3.1 版）。完善共享引用的机构作者和评估类型元数据。
