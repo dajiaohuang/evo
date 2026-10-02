@@ -1,7 +1,7 @@
 # Current content goal
 
 Complete source-bounded bilingual reader-facing content, group introductions
-and reading paths for all primates and archosaurs in this repository, following
+and reading paths for all scoped Amniota in this repository, following
 `docs/content-production-plan.md` and `docs/content-storage.md`.
 
 Author taxon content in recorded COL26.8 classification paths under `content/taxa/`:
@@ -28,16 +28,19 @@ IDs in current plan history; the five other original IDs are not recorded in the
 available goal/plan entries. Keep those five identities unresolved and retain the
 15-item active target until their source list is recovered; do not lower the goal
 to the plan's ten-item count.
-For Archosauria, use the dated, source-specific working denominator now recorded
-locally: 11,071 extant COL26.8 accepted species (11,044 Aves and 27 Crocodylia)
-plus 4,664 accepted extinct PBDB species from the 2026-09-30 Archosauria query.
-The PBDB roster is partitioned by disjoint taxon OIDs into non-avian Dinosauria
-(1,794), fossil Aves (1,743), Pterosauria (276), Crocodylomorpha (672), and
-other Archosauria (179). These are catalogue-defined work lists, not a claim of
-global completeness; keep COL and PBDB concepts separate and do not deduplicate
-them by matching names. The PBDB manifest records the query, checksums,
-overlapping subclade counts, excluded ichno/form preservation modes, and scope
-limits. Count fossil genera, group guides and shared topics separately.
+The active scope now expands to all Amniota using two dated, source-specific
+work lists. COL26.8 has no materialized Amniota node, so its accepted-species
+union is the three direct Tetrapoda class roots: Mammalia 6,461, Aves 11,044,
+and Reptilia 12,649, totaling 30,154. This snapshot has no extant flag. The
+PBDB root query for accepted, species-rank, `extant=no`, `pres=regular` Amniota
+taxa returned 22,684 unique OIDs on 2026-10-02. Its 15 disjoint OID partitions
+are recorded in `data/sources/snapshots/pbdb-amniota-denominator-2026-10-02.manifest.json`
+and `data/sources/snapshots/pbdb-amniota-disjoint-oids-2026-10-02.json`; raw
+root and child responses are retained alongside them. These are separate
+catalogue record lists, not a count of unique biological species; keep COL and
+PBDB concepts separate and do not deduplicate them by matching names. The
+earlier 4,664-species Archosauria snapshot remains historical and is superseded
+for current scope. Count fossil genera, group guides and shared topics separately.
 
 Produce small, independently deliverable batches. Rebuild the content
 projections, registry and manifest after a batch; rebuild the species evidence

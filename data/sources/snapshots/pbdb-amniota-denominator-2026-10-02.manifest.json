@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "source": "Paleobiology Database Data Service 1.2",
+  "retrievedAt": "2026-10-02T07:19:16Z",
+  "queryEndpoint": "https://paleobiodb.org/data1.2/taxa/list.json",
+  "queryParameters": {
+    "base_name": "Amniota",
+    "rank": "species",
+    "status": "accepted",
+    "extant": "no",
+    "pres": "regular",
+    "limit": "all"
+  },
+  "resolvedRoot": {
+    "pbdbTaxonId": "txn:53189",
+    "scientificName": "Amniota",
+    "rank": "unranked clade"
+  },
+  "responsePath": "data/sources/snapshots/pbdb-amniota-accepted-fossil-species-2026-10-02.json",
+  "responseSha256": "1a597e7c303eca7e4d0f19ce59c30110620fcefc1c6e87b31d0fb3ef4a3a95ed",
+  "responseBytes": 2835067,
+  "responseRecordCount": 22684,
+  "uniquePbdbTaxonIdCount": 22684,
+  "queryUrl": "https://paleobiodb.org/data1.2/taxa/list.json?base_name=Amniota&rank=species&status=accepted&extant=no&pres=regular&limit=all",
+  "queryDocumentation": "https://paleobiodb.org/data1.2/taxa/list_doc.html",
+  "databaseCitation": "Paleobiology Database, accessed 2026-10-02; taxon-list API query recorded above. Preserve PBDB attribution and record-level reference IDs.",
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": "https://doi.org/10.1017/PAB.2015.39",
+    "attributionRequired": true,
+    "changesMade": "Raw root response is retained unchanged. Clade assignments are separate derived OID partitions."
+  },
+  "validation": {
+    "allRecordsRankSpecies": true,
+    "allRecordsExtantZero": true,
+    "warnings": [],
+    "errors": []
+  },
+  "localAcceptedDenominator": {
+    "catalogue": "COL26.8",
+    "releaseDate": "2026-08-20",
+    "strictPredicate": "rank=species AND status=accepted",
+    "snapshotPath": "data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes/id-*.jsonl.gz",
+    "taxonomicRoots": [
+      {
+        "colId": "6224G",
+        "scientificName": "Mammalia",
+        "acceptedSpecies": 6461
+      },
+      {
+        "colId": "V2",
+        "scientificName": "Aves",
+        "acceptedSpecies": 11044
+      },
+      {
+        "colId": "RP",
+        "scientificName": "Reptilia",
+        "acceptedSpecies": 12649
+      }
+    ],
+    "amnioteAcceptedSpecies": 30154,
+    "note": "The pinned COL hierarchy has no Amniota node; these three direct Tetrapoda class roots form the local accepted-species union. COL carries no extant flag in this snapshot. Keep this catalogue roster distinct from PBDB and do not deduplicate by matching names."
+  },
+  "pbdbDisjointPartitionAsOf": "2026-10-02T07:26:47.111Z",
+  "disjointFossilPartition": [
+    {
+      "id": "mammalia",
+      "recordCount": 13958
+    },
+    {
+      "id": "other-synapsida",
+      "recordCount": 827
+    },
+    {
+      "id": "fossil-aves",
+      "recordCount": 1743
+    },
+    {
+      "id": "non-avian-dinosauria",
+      "recordCount": 1795
+    },
+    {
+      "id": "pterosauria",
+      "recordCount": 276
+    },
+    {
+      "id": "crocodylomorpha",
+      "recordCount": 672
+    },
+    {
+      "id": "other-archosauria",
+      "recordCount": 179
+    },
+    {
+      "id": "pantestudines",
+      "recordCount": 1150
+    },
+    {
+      "id": "squamata",
+      "recordCount": 1010
+    },
+    {
+      "id": "rhynchocephalia",
+      "recordCount": 34
+    },
+    {
+      "id": "other-lepidosauromorpha",
+      "recordCount": 69
+    },
+    {
+      "id": "ichthyosauriformes",
+      "recordCount": 182
+    },
+    {
+      "id": "sauropterygia",
+      "recordCount": 312
+    },
+    {
+      "id": "other-reptilia",
+      "recordCount": 429
+    },
+    {
+      "id": "amniota-residual",
+      "recordCount": 48
+    }
+  ],
+  "partitionRecordCount": 22684,
+  "partitionNote": "The OID partitions are saved in the linked derived file. Each root response and child base_id response is retained with its exact query parameters and SHA-256. The partition builder rejects out-of-root IDs, duplicate membership, and incomplete coverage.",
+  "scopeLimitations": [
+    "This is a dated PBDB accepted-taxon working roster for extant=no and pres=regular, not a complete or stable global fossil species list.",
+    "The COL26.8 roster is an independently counted accepted-species union and has no extant filter. COL and PBDB taxa are not deduplicated by matching scientific names.",
+    "PBDB root and nested subclade queries overlap; production task ownership must use a dated disjoint PBDB taxon OID partition.",
+    "A source-list denominator is not reader-page coverage, a biological dossier, an occurrence census, or external expert review.",
+    "PBDB Squamata is returned as a Reptilia child; using Lepidosauria alone would omit the 1,010 Squamata records. The name Mesosauria currently resolves to junior-synonym Thalattosuchia txn:149892; do not resolve partitions by name alone."
+  ],
+  "childSubcladeQueries": [
+    {
+      "id": "mammalia",
+      "scientificName": "Mammalia",
+      "pbdbTaxonId": "txn:36651",
+      "queryParameters": {
+        "base_id": "36651",
+        "rank": "species",
+        "status": "accepted",
+        "extant": "no",
+        "pres": "regular",
+        "limit": "all"
+      },
+      "queryUrl": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=36651&rank=species&status=accepted&extant=no&pres=regular&limit=all",
+      "responsePath": "data/sources/snapshots/pbdb-amniota-subclade-mammalia-2026-10-02.json",
+      "responseSha256": "43b8935aec0b061872e3b2977c54dd55a4215280c4eda95f306595740ec0f0af",
+      "responseBytes": 1742291,
+      "responseRecordCount": 13958,
+      "uniquePbdbTaxonIdCount": 13958
+    },
+    {
+      "id": "synapsida",
+      "scientificName": "Synapsida",
+      "pbdbTaxonId": "txn:38882",
+      "queryParameters": {
+        "base_id": "38882",
+        "rank": "species",
+        "status": "accepted",
+        "extant": "no",
+        "pres": "regular",
+        "limit": "all"
+      },
+      "queryUrl": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=38882&rank=species&status=accepted&extant=no&pres=regular&limit=all",
+      "responsePath": "data/sources/snapshots/pbdb-amniota-subclade-synapsida-2026-10-02.json",
+      "responseSha256": "9136df27f9de634e30731e75ea6a7ec12205bfab80da552646dc45a50cd296cc",
+      "responseBytes": 1846208,
+      "responseRecordCount": 14785,
+      "uniquePbdbTaxonIdCount": 14785
+    },
+    {
+      "id": "aves",
+      "scientificName": "Aves",
+      "pbdbTaxonId": "txn:36616",
+      "queryParameters": {
+        "base_id": "36616",
+        "rank": "species",
+        "status": "accepted",
+        "extant": "no",
+        "pres": "regular",
+        "limit": "all"
+      },
+      "queryUrl": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=36616&rank=species&status=accepted&extant=no&pres=regular&limit=all",
+      "responsePath": "data/sources/snapshots/pbdb-amniota-subclade-aves-2026-10-02.json",
+      "responseSha256": "f8dce2182d35b7b2eadd38e63f994f99167e377b546c6ff0053f111b258619e6",
+      "responseBytes": 215220,
+      "responseRecordCount": 1743,
+      "uniquePbdbTaxonIdCount": 1743
+    },
+    {
+      "id": "dinosauria",
+      "scientificName": "Dinosauria",
+      "pbdbTaxonId": "txn:52775",
+      "queryParameters": {
+        "base_id": "52775",
+        "rank": "species",
+        "status": "accepted",
+        "extant": "no",
+        "pres": "regular",
+        "limit": "all"
+      },
+      "queryUrl": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=52775&rank=species&status=accepted&extant=no&pres=regular&limit=all",
+      "responsePath": "data/sources/snapshots/pbdb-amniota-subclade-dinosauria-2026-10-02.json",
+      "responseSha256": "6bfc0bd43fbcefe58883af488ec185a6483fac42859635c52e850d277a3087c6",
+      "responseBytes": 438358,
+      "responseRecordCount": 3538,
+      "uniquePbdbTaxonIdCount": 3538
+    },
+    {
+      "id": "pterosauria",
+      "scientificName": "Pterosauria",
+      "pbdbTaxonId": "txn:38461",
+      "queryParameters": {
+        "base_id": "38461",
+        "rank": "species",
+        "status": "accepted",
+        "extant": "no",
+        "pres": "regular",
+        "limit": "all"
+      },
+      "queryUrl": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=38461&rank=species&status=accepted&extant=no&pres=regular&limit=all",
+      "responsePath": "data/sources/snapshots/pbdb-amniota-subclade-pterosauria-2026-10-02.json",
+      "responseSha256": "320591b363a226759dacacd3bc6d58400fbe7c4e2dc3a8fe785ccf25f6fd6199",
+      "responseBytes": 35199,
+      "responseRecordCount": 276,
+      "uniquePbdbTaxonIdCount": 276
+    },
+    {
+      "id": "crocodylomorpha",
+      "scientificName": "Crocodylomorpha",
+      "pbdbTaxonId": "txn:53401",
+      "queryParameters": {
+        "base_id": "53401",
+        "rank": "species",
+        "status": "accepted",
+        "extant": "no",
+        "pres": "regular",
+        "limit": "all"
+      },
+      "queryUrl": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=53401&rank=species&status=accepted&extant=no&pres=regular&limit=all",
+      "responsePath": "data/sources/snapshots/pbdb-amniota-subclade-crocodylomorpha-2026-10-02.json",
+      "responseSha256": "0c7a76bee48a42f7a741f4d06c85070f7bfac229ed34a4840f27c57a708990c3",
+      "responseBytes": 85596,
+      "responseRecordCount": 672,
+      "uniquePbdbTaxonIdCount": 672
+    },
+    {
+      "id": "archosauria",
+      "scientificName": "Archosauria",
+      "pbdbTaxonId": "txn:38215",
+      "queryParameters": {
+        "base_id": "38215",
+        "rank": "species",
+        "status": "accepted",
+        "extant": "no",
+        "pres": "regular",
+        "limit": "all"
+      },
+      "queryUrl": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=38215&rank=species&status=accepted&extant=no&pres=regular&limit=all",
+      "responsePath": "data/sources/snapshots/pbdb-amniota-subclade-archosauria-2026-10-02.json",
+      "responseSha256": "34c4f5726439a6e16f8fffa141463d48a53851bb767199b7b9b393a0c65fab7b",
+      "responseBytes": 581741,
+      "responseRecordCount": 4665,
+      "uniquePbdbTaxonIdCount": 4665
+    },
+    {
+      "id": "pantestudines",
+      "scientificName": "Pantestudines",
+      "pbdbTaxonId": "txn:253371",
+      "queryParameters": {
+        "base_id": "253371",
+        "rank": "species",
+        "status": "accepted",
+        "extant": "no",
+        "pres": "regular",
+        "limit": "all"
+      },
+      "queryUrl": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=253371&rank=species&status=accepted&extant=no&pres=regular&limit=all",
+      "responsePath": "data/sources/snapshots/pbdb-amniota-subclade-pantestudines-2026-10-02.json",
+      "responseSha256": "bfb5b87f9b461f05d2c8cd81abc3078e635e959023a240f3d54eb9a71e0e1ea2",
+      "responseBytes": 146217,
+      "responseRecordCount": 1150,
+      "uniquePbdbTaxonIdCount": 1150
+    },
+    {
+      "id": "squamata",
+      "scientificName": "Squamata",
+      "pbdbTaxonId": "txn:36379",
+      "queryParameters": {
+        "base_id": "36379",
+        "rank": "species",
+        "status": "accepted",
+        "extant": "no",
+        "pres": "regular",
+        "limit": "all"
+      },
+      "queryUrl": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=36379&rank=species&status=accepted&extant=no&pres=regular&limit=all",
+      "responsePath": "data/sources/snapshots/pbdb-amniota-subclade-squamata-2026-10-02.json",
+      "responseSha256": "d8e87573a8c137809c35ce95edfd4e064c9a709d606a0d92975e6a8eb5412c63",
+      "responseBytes": 125353,
+      "responseRecordCount": 1010,
+      "uniquePbdbTaxonIdCount": 1010
+    },
+    {
+      "id": "rhynchocephalia",
+      "scientificName": "Rhynchocephalia",
+      "pbdbTaxonId": "txn:54194",
+      "queryParameters": {
+        "base_id": "54194",
+        "rank": "species",
+        "status": "accepted",
+        "extant": "no",
+        "pres": "regular",
+        "limit": "all"
+      },
+      "queryUrl": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=54194&rank=species&status=accepted&extant=no&pres=regular&limit=all",
+      "responsePath": "data/sources/snapshots/pbdb-amniota-subclade-rhynchocephalia-2026-10-02.json",
+      "responseSha256": "62148b9758256f93b51bb0f76afdc293567133275dc46ce3beb0ddd659b9c1a7",
+      "responseBytes": 4309,
+      "responseRecordCount": 34,
+      "uniquePbdbTaxonIdCount": 34
+    },
+    {
+      "id": "lepidosauromorpha",
+      "scientificName": "Lepidosauromorpha",
+      "pbdbTaxonId": "txn:37794",
+      "queryParameters": {
+        "base_id": "37794",
+        "rank": "species",
+        "status": "accepted",
+        "extant": "no",
+        "pres": "regular",
+        "limit": "all"
+      },
+      "queryUrl": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=37794&rank=species&status=accepted&extant=no&pres=regular&limit=all",
+      "responsePath": "data/sources/snapshots/pbdb-amniota-subclade-lepidosauromorpha-2026-10-02.json",
+      "responseSha256": "fe4d6416452810c9c0019ad53002dec9a1edd53cde6c02cc10fe560bb6e96ed5",
+      "responseBytes": 12808,
+      "responseRecordCount": 103,
+      "uniquePbdbTaxonIdCount": 103
+    },
+    {
+      "id": "ichthyosauriformes",
+      "scientificName": "Ichthyosauriformes",
+      "pbdbTaxonId": "txn:341193",
+      "queryParameters": {
+        "base_id": "341193",
+        "rank": "species",
+        "status": "accepted",
+        "extant": "no",
+        "pres": "regular",
+        "limit": "all"
+      },
+      "queryUrl": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=341193&rank=species&status=accepted&extant=no&pres=regular&limit=all",
+      "responsePath": "data/sources/snapshots/pbdb-amniota-subclade-ichthyosauriformes-2026-10-02.json",
+      "responseSha256": "55919d429890d15c122ed82568c6ee79de7ec5b5fe96547aa51cd712bc21beda",
+      "responseBytes": 23664,
+      "responseRecordCount": 182,
+      "uniquePbdbTaxonIdCount": 182
+    },
+    {
+      "id": "sauropterygia",
+      "scientificName": "Sauropterygia",
+      "pbdbTaxonId": "txn:38164",
+      "queryParameters": {
+        "base_id": "38164",
+        "rank": "species",
+        "status": "accepted",
+        "extant": "no",
+        "pres": "regular",
+        "limit": "all"
+      },
+      "queryUrl": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=38164&rank=species&status=accepted&extant=no&pres=regular&limit=all",
+      "responsePath": "data/sources/snapshots/pbdb-amniota-subclade-sauropterygia-2026-10-02.json",
+      "responseSha256": "2807af4cb6877bd9d724c5b33d95eb6ba959540d04e0203dffe3921ffd668c0c",
+      "responseBytes": 39706,
+      "responseRecordCount": 312,
+      "uniquePbdbTaxonIdCount": 312
+    },
+    {
+      "id": "reptilia",
+      "scientificName": "Reptilia",
+      "pbdbTaxonId": "txn:36322",
+      "queryParameters": {
+        "base_id": "36322",
+        "rank": "species",
+        "status": "accepted",
+        "extant": "no",
+        "pres": "regular",
+        "limit": "all"
+      },
+      "queryUrl": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=36322&rank=species&status=accepted&extant=no&pres=regular&limit=all",
+      "responsePath": "data/sources/snapshots/pbdb-amniota-subclade-reptilia-2026-10-02.json",
+      "responseSha256": "0891f20de58e3a8d0d7d58b25e8e927d572916c8f74da7dc2575193190d37943",
+      "responseBytes": 982995,
+      "responseRecordCount": 7851,
+      "uniquePbdbTaxonIdCount": 7851
+    }
+  ],
+  "disjointPartitionResponsePath": "data/sources/snapshots/pbdb-amniota-disjoint-oids-2026-10-02.json",
+  "disjointPartitionResponseSha256": "92b015b3fc778013b2e3a8eabc811db5278d8f538c02ce567c1d7a16c1d9c2f0",
+  "disjointPartitionRecordCount": 22684
+}
