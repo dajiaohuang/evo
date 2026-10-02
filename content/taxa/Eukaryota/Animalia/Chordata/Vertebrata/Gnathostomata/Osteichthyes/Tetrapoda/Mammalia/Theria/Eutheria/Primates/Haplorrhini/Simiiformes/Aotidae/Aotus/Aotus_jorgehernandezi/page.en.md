@@ -2,7 +2,7 @@
 schemaVersion: 1
 kind: reader-page
 locale: en
-status: migrated-verbatim
+status: source-linked
 ---
 
 # Aotus jorgehernandezi
@@ -53,6 +53,24 @@ A 2023 annotated mammal list for Quindío likewise says that the taxon is known 
 
 <!-- evo:text /records/catalogue-profile/sections/1/sourceIds/0 -->
 quindio2023
+<!-- /evo:text -->
+
+## type diagnosis
+
+<!-- evo:text /records/catalogue-profile/sections/2/topic -->
+type diagnosis
+<!-- /evo:text -->
+
+## type diagnosis
+
+<!-- evo:text /records/catalogue-profile/sections/2/sourceIds/0 -->
+jorge2007
+<!-- /evo:text -->
+
+## type diagnosis
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/en -->
+Defler and Bueno’s 2007 account described the Quindío female’s karyomorph as 2n = 50, with nine pairs of metacentric, three pairs of submetacentric, and 12 pairs of acrocentric chromosomes. They distinguished it from *A. brumbacki*, which also has 2n = 50 but was reported with a different chromosome composition. Their specimen description notes two white patches above the eyes separated by a broad black frontal stripe, paired pale subocular bands divided by thin black malar stripes, and dense white fur along the inner arms, chest, and belly. These are observations and diagnosis from one captive type specimen; they do not establish a wild population’s appearance, distribution, or variation.
 <!-- /evo:text -->
 
 ## catalogue-profile / limitations
