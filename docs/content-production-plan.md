@@ -2045,3 +2045,10 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 区分卫星影像导出的春季种群指数与个体总数普查；摘要评估中“至 2073 年下降超过 50% 的概率为 45%”的贝叶斯模型平均预测，并保留南极区域间预测差异。此读者页更新既有 profile，不增加鸟类页面计数；无外部领域专家评审，未更改 dossier 的科学主张。
 - 内容投影成功：132 个投影、37,787 个 Markdown 目录（191.56 秒）；`FYD9` profile 有 3 节、3 个来源绑定。注册表为 426 个实体/24 个包。证据队列重建为 2,183,133 个接受种、36,354 个 dossier 行、2,146,779 个无 dossier 种；清单含 1,995 个 SHA-256 校验值。未改动 dossier 科学主张；依授权未运行手动测试、类型检查、内容/数据/增量验证器或 CI。
 - 来源：[IUCN 预发布评估清单](https://nrl.iucnredlist.org/assessment/pre-publication)；[BirdLife International（2026），*Aptenodytes forsteri* 预发布评估 PDF](https://nc.iucnredlist.org/redlist/content/attachment_files/Aptenodytes_forsteri_Pre-Publication_Assessment_RLTS_T22697752A197622453_eng.pdf)；[COL26.8 固定 ID `FYD9`](https://www.checklistbank.org/dataset/316115/taxon/FYD9)。
+
+## P4-19 — Sphenisciformes 企鹅目精选阅读路径（2026-10-02）
+
+- 为 COL26.8 接受目 ID `44K` 新建双语 reader profile，将已有来源组织成企鹅目入口：皇帝企鹅的六个东南极繁殖群遗传联系研究及 2026(2) 待发布保护评估，并链接 Pygoscelis 属的阿德利企鹅巢存活、帽带企鹅全球繁殖群调查与巴布亚企鹅局地冬季食性研究。
+- 明确各研究属于不同分类单元、地点、时段与方法；遗传研究不是现时种群普查，保护评估仅适用于皇帝企鹅，三项 Pygoscelis 研究不能合并为目级趋势。范围是精选阅读路径，并非完整企鹅目生态或分布综述；无外部领域专家评审。
+- 新增 `Sphenisciformes` canonical profile 与 `content/projection-map.yaml` 映射；复用现有共享引用，无新增 bibliography 条目，无 dossier 输入变化。内容生成成功：132 个投影由 37,788 个 Markdown 目录编译，`44K` 输出 4 节、6 个来源绑定；注册表 426 个实体/24 个包，manifest 1,995 项 SHA-256；物种证据队列重建为 2,183,133 个接受种、36,354 个 dossier 行、2,146,779 个无 dossier 种。未运行手动测试、类型检查、验证器或手动 CI。
+- 来源：[COL26.8 企鹅目 `44K`](https://www.checklistbank.org/dataset/316115/taxon/44K)；[Cristofari 等（2016），皇帝企鹅繁殖群遗传联系](https://doi.org/10.1111/mec.13588)；[IUCN 预发布评估清单](https://nrl.iucnredlist.org/assessment/pre-publication)；[Pygoscelis 属精选研究](https://doi.org/10.1002/ece3.10988)。

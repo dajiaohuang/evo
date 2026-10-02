@@ -52698,6 +52698,119 @@
       }
     },
     {
+      "colId": "44K",
+      "scientificName": "Sphenisciformes",
+      "rank": "order",
+      "sourceDatasetId": "2144",
+      "name": {
+        "en": "Penguins",
+        "zh": "企鹅目"
+      },
+      "reviewStatus": "source-linked",
+      "checkedAt": "2026-10-02",
+      "sections": [
+        {
+          "topic": "order identity",
+          "text": {
+            "en": "COL26.8 recognizes Sphenisciformes as the penguin order (taxon 44K). This page links selected studies already documented for emperor penguins and the genus Pygoscelis. It is a route into those sources, not a complete account of every penguin lineage.",
+            "zh": "COL26.8 将 Sphenisciformes 接受为企鹅目（分类单元 ID 44K）。本页串联已有皇帝企鹅与 Pygoscelis 属研究，作为进入这些来源的阅读路径；并非对企鹅目所有谱系的完整介绍。"
+          },
+          "sourceIds": [
+            "taxonomy"
+          ]
+        },
+        {
+          "topic": "emperor penguin population connection",
+          "text": {
+            "en": "Cristofari and colleagues analyzed RAD-SNP data from 110 emperor penguins sampled at six East Antarctic colonies in 2004–2012. Their coalescent model supported strong demographic coupling among those colonies, interpreted by the authors as one genetic population. The sampling and model do not provide a current census or instantaneous migration rates.",
+            "zh": "Cristofari 等分析了 2004–2012 年在东南极六个繁殖群采集的 110 只皇帝企鹅 RAD-SNP 数据。共祖模型支持这些繁殖群之间较强的人口学联系，作者据此将其解释为一个遗传种群。样本和模型并不提供当前种群普查或即时迁移率。"
+          },
+          "sourceIds": [
+            "cristofari2016"
+          ]
+        },
+        {
+          "topic": "emperor penguin conservation assessment",
+          "text": {
+            "en": "The emperor penguin page also summarizes BirdLife International’s assessment accepted for pre-publication in IUCN Red List 2026(2), dated 26 February 2026. It distinguishes satellite-derived population indices from a census and reports a model-based projection. These assessment results belong to Aptenodytes forsteri; they should not be generalized to the whole order.",
+            "zh": "皇帝企鹅页面还摘要了 BirdLife International 的评估：该评估已获接受，等待收入 IUCN 红色名录 2026(2)，评估日期为 2026 年 2 月 26 日。页面区分卫星影像推导的种群指数与普查，并概述模型预测。上述评估结论适用于皇帝企鹅，不应推广至整个企鹅目。"
+          },
+          "sourceIds": [
+            "iucn2026"
+          ]
+        },
+        {
+          "topic": "selected Pygoscelis studies",
+          "text": {
+            "en": "The Pygoscelis route connects three distinct cases: a ten-season nest-survival study at the Windmill Islands, a mixed-method global colony assessment for chinstrap penguins, and one unusually warm winter diet study at Bird Island for gentoo penguins. Their places, periods and methods differ, so these papers do not form a uniform comparison or an order-wide population and ecology synthesis.",
+            "zh": "Pygoscelis 属阅读路径连接三个不同案例：Windmill Islands 连续十个繁殖季的巢存活研究、帽带企鹅综合多方法的全球繁殖群评估，以及巴德岛一个异常偏暖冬季的巴布亚企鹅食性研究。三者地点、时段与方法不同，不能作为统一对比，也不能合并成目级种群趋势或生态综合。"
+          },
+          "sourceIds": [
+            "mclatchie2024",
+            "chinstrapGlobal2020",
+            "gentooWinter2009"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "taxonomy",
+          "title": "COL26.8 ChecklistBank accepted order 44K",
+          "url": "https://www.checklistbank.org/dataset/316115/taxon/44K",
+          "scope": {
+            "en": "Pins the COL26.8 accepted order name, rank and parent identity used for this route.",
+            "zh": "固定本阅读路径采用的 COL26.8 接受目名、分类等级与父级身份。"
+          }
+        },
+        {
+          "id": "cristofari2016",
+          "title": "Cristofari et al. (2016) — Full circumpolar migration ensures evolutionary unity in the Emperor penguin",
+          "url": "https://doi.org/10.1038/ncomms11842",
+          "scope": {
+            "en": "RAD-SNP population-genetic study of 110 emperor penguins sampled at six East Antarctic colonies; results are limited to this sampling and coalescent model.",
+            "zh": "基于东南极六个繁殖群 110 只皇帝企鹅 RAD-SNP 数据的人口遗传研究；结论受该样本与共祖模型范围限制。"
+          }
+        },
+        {
+          "id": "iucn2026",
+          "title": "BirdLife International. 2026. Aptenodytes forsteri. IUCN Red List of Threatened Species 2026(2), e.T22697752A197622453, pre-publication assessment",
+          "url": "https://nc.iucnredlist.org/redlist/content/attachment_files/Aptenodytes_forsteri_Pre-Publication_Assessment_RLTS_T22697752A197622453_eng.pdf",
+          "version": "Date assessed 2026-02-26; listed by IUCN as accepted pre-publication 2026(2) assessment; accessed 2026-09-24"
+        },
+        {
+          "id": "mclatchie2024",
+          "title": "Delay in Adélie penguin nest occupation restricts parental investment in nest construction and reduces reproductive output",
+          "url": "https://doi.org/10.1002/ece3.10988",
+          "scope": {
+            "en": "Reports breeding success and nest-survival associations from 450 monitored nests, five camera sites and ten breeding seasons at the Windmill Islands.",
+            "zh": "报告 Windmill Islands 450 个受监测巢、五个相机点位和十个繁殖季的繁殖成功率及巢存活关联。"
+          }
+        },
+        {
+          "id": "chinstrapGlobal2020",
+          "title": "A global population assessment of the Chinstrap penguin (Pygoscelis antarctica)",
+          "url": "https://doi.org/10.1038/s41598-020-76479-3",
+          "scope": {
+            "en": "Compiles 398 sites and estimates breeding pairs across 375 extant Chinstrap colonies using mixed survey methods; site dates and trend coverage vary.",
+            "zh": "以多种调查方法汇集 398 个地点并估计 375 个现存帽带企鹅繁殖群的繁殖对数；各地点调查年份及趋势覆盖不一。"
+          }
+        },
+        {
+          "id": "gentooWinter2009",
+          "title": "Sexual and individual foraging segregation in Gentoo penguins Pygoscelis papua from the Southern Ocean during an abnormal winter",
+          "url": "https://doi.org/10.1371/journal.pone.0174850",
+          "scope": {
+            "en": "Examines winter 2009 diet and stable isotopes at Bird Island, South Georgia, during unusually warm conditions; findings are one colony-season result.",
+            "zh": "研究南乔治亚岛 Bird Island 在 2009 年异常偏暖冬季的食性与稳定同位素；结论仅适用于一个繁殖地和一个季节。"
+          }
+        }
+      ],
+      "limitations": {
+        "en": "This is a selective reading path through a few source-linked penguin studies. It does not cover every family or species, provide a complete order-level ecology or distribution synthesis, or establish a shared trend across the studies. It is not externally expert-reviewed.",
+        "zh": "本页是少数已有来源研究构成的精选阅读路径，不覆盖全部科与物种，也不是目级完整生态或分布综述；所列研究不能证明企鹅目存在统一趋势。本文尚未经过领域专家外审。"
+      }
+    },
+    {
       "colId": "3RL",
       "scientificName": "Passeriformes",
       "rank": "order",
