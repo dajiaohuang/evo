@@ -2122,3 +2122,8 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 按 COL26.8 固定链 `Reptilia → Sphenodontida (8FV6K) → Sphenodontidae (GHG) → Sphenodon (63SJ6) → S. punctatus (4YVHH)` 新建三个英中 catalogue profiles；为 Sphenodontidae 增加分类索引。另记录 `S. guntheri` 用例 `4YVHF` 在该版本中归为本种异名。
 - 将 DOC 官方自然史页用于限定岛屿环境、猎物与鼠类威胁，将 Gemmell 等（2020）用于参考基因组与三岛比较；不将单一研究动物推广到化石成员，也不把 COL 接受状态作为现生证据。完整当期分布、种群数量、各岛定量食谱及繁殖参数仍缺来源；无外部领域专家评审。
 - 新建 13 个 canonical 文件，新增两条共享 bibliography 条目；不新增 dossier。英文与中文均为 `source-linked`。与 P5-2 同轮生成 132 个投影（37,791 个 Markdown 目录）、426 个实体/24 个包注册表及 2,012 项 manifest 校验值；未改变 dossier 数据，无需重建物种证据队列。未运行测试、类型检查、验证器或 CI。
+
+## P5-4 — 固定分母与现有种级目录盘点（2026-10-02）
+
+- 对比全 Amniota 的 COL26.8 工作分母与当前 `content/taxa/` 中有 `index.yaml` 且严格标为 `rank: species`, `status: accepted` 的本地目录。三类共找到 606 个现有种级目录：Mammalia 559、Aves 14、Reptilia 33。它们是当前已表示的本地节点，不是完整物种内容覆盖，也不改变 30,154 个 COL 接受种分母。
+- 英中页面成熟度一致：Mammalia 为 545 `migrated-verbatim`、5 `source-linked`、9 `not-authored`；Aves 为 8 `migrated-verbatim`、3 `source-linked`、3 `authored`；Reptilia 为 27 `authored`、1 `source-linked`、5 `not-authored`。历史迁移文本不视为新读者导读；未建立本地目录的绝大多数 COL 接受种仍需后续逐批纳入，故本盘点不报告“全 Amniota 已完成”。
