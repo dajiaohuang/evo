@@ -2127,3 +2127,14 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 
 - 对比全 Amniota 的 COL26.8 工作分母与当前 `content/taxa/` 中有 `index.yaml` 且严格标为 `rank: species`, `status: accepted` 的本地目录。三类共找到 606 个现有种级目录：Mammalia 559、Aves 14、Reptilia 33。它们是当前已表示的本地节点，不是完整物种内容覆盖，也不改变 30,154 个 COL 接受种分母。
 - 英中页面成熟度一致：Mammalia 为 545 `migrated-verbatim`、5 `source-linked`、9 `not-authored`；Aves 为 8 `migrated-verbatim`、3 `source-linked`、3 `authored`；Reptilia 为 27 `authored`、1 `source-linked`、5 `not-authored`。历史迁移文本不视为新读者导读；未建立本地目录的绝大多数 COL 接受种仍需后续逐批纳入，故本盘点不报告“全 Amniota 已完成”。
+
+## P5-5 — Chelonia 属与绿海龟局地研究导读（2026-10-02）
+
+- 为 COL26.8 Chelonia 属 `3MPC` 及其唯一严格接受种 C. mydas `TVGD` 建立/补齐双语阅读入口。类群页给出固定接受名录和两条研究路径；物种页连接 2012–2019 年 Rose Atoll 八个筑巢季调查与 2016 年 Little Cayman 海草床的剪除实验。
+- 将 Rose Atoll 218 次记录与永久标记确认的至少 138 只不同雌龟区分；不把最低确认数写成全种丰度或种群趋势。Little Cayman 的五剪除/五对照样地 NEP 结果限定为局地生态系统代谢，剪除是取食模拟，不是龟种群实验或沉积物碳储量测量。COL 与 PBDB 同名概念不合并；原 dossier `incomplete`、`not-reviewed` 与既有缺口保持不变，无外部专家评审。
+- 新增属级三份 canonical 文件，更新种级三份；复用现有来源引用，不变更 dossier claims 或共享 bibliography。
+
+## P5-6 — Asteriornis 化石鸟属/种 atlas reader（2026-10-02）
+
+- 为 PBDB tree node `txn:413463`（Asteriornis）与 `txn:413465`（A. maastrichtensis）新建根层双语 reader sections，并接到 Archosauria 包内既有 `atlas-profile` 投影。两层共六份 canonical 文件，复用 Field 等（2020）单一来源与既有 claims，不新增引用或重新解释源数据。
+- 阅读路径从正模 NHMM 2013 008 与 Maastrichtian 层位，转到保存形态、竞争系统发育结果及暂定滨岸解释；394 g 标为骨骼尺度估算。66.8–66.7 Ma 仅适用于来源层位，不外推为全球鸟类首现或完整化石范围。PBDB node/range withheld 状态与 research 范围成熟度保持不变；两层均无外部专家评审。种属 research 中文空页仍是后续待完成项。
