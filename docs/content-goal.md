@@ -19,10 +19,16 @@ before declaring the first reading-page standard met. The active task began with
 19; P3-119 and P3-120 close the previously documented *Tamarinus imperator* and
 *Cercopithecus wolfi* and *Piliocolobus langi* gaps. Earlier
 plan entries still report 14 after P3-118 and need a taxon-by-taxon reconciliation.
-For Archosauria, establish
-a complete fixed denominator from local catalogues and the plan's scope,
-including birds, crocodile-line taxa, dinosaurs and pterosaurs where included.
-Count fossil genera, group guides and shared topics separately.
+For Archosauria, use the dated, source-specific working denominator now recorded
+locally: 11,071 extant COL26.8 accepted species (11,044 Aves and 27 Crocodylia)
+plus 4,664 accepted extinct PBDB species from the 2026-09-30 Archosauria query.
+The PBDB roster is partitioned by disjoint taxon OIDs into non-avian Dinosauria
+(1,794), fossil Aves (1,743), Pterosauria (276), Crocodylomorpha (672), and
+other Archosauria (179). These are catalogue-defined work lists, not a claim of
+global completeness; keep COL and PBDB concepts separate and do not deduplicate
+them by matching names. The PBDB manifest records the query, checksums,
+overlapping subclade counts, excluded ichno/form preservation modes, and scope
+limits. Count fossil genera, group guides and shared topics separately.
 
 Produce small, independently deliverable batches. Rebuild the content
 projections, registry and manifest after a batch; rebuild the species evidence
