@@ -1,4 +1,13 @@
 export const dinosaurZhKeys = new Set<string>([
+  'Dinosauria is an atlas route from early fossil samples through living birds. Its displayed 233.2–0 Ma span is a navigation composite: the older end is anchored by a named Late Triassic assemblage, not a demonstrated global first appearance or continuous fossil record. The route keeps that specimen evidence, changing family-tree hypotheses and later fossil examples distinct.',
+  'Diet varied across lineages; no single group-wide diet is inferred here.',
+  'The page links terrestrial fossil samples with the living-bird continuation; it does not define one habitat for Dinosauria.',
+  'Locomotor anatomy and behaviour differ across included lineages; the examples below are not a group-wide performance model.',
+  'Body size varied widely across the lineage; no single size estimate is derived from the selected fossils.',
+  'Diverse terrestrial and aerial lineages; no single ecological guild is assigned to the whole group.',
+  'The route includes the sampled Late Triassic holotype ULBRA-PVT280 and living birds.',
+  'Early dinosaur relationships remain sensitive to matrix coding and taxon sampling.',
+  'ULBRA-PVT280 and its Candelária Sequence context are documented specimen evidence. Its age does not set a global dinosaur first appearance. Published morphology matrices recover competing early topologies, and the Yutyrannus integument example is limited to three named skeletons; neither should be generalized beyond its study scope.',
   'Eocursor',
   'Armoured dinosaurs',
   'Scelidosaurus',

@@ -12,6 +12,8 @@ status: migrated-verbatim
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
 COL26.8 将 *T. ebenus* 列为接受种。MDD 当前页面也接受该种，记录英文普通名 Black Langur、原始组合 *Semnopithecus (Trachypithecus) (auratus) auratus ebenus*，以及越南 Lai Chau 或番西邦山一带的可能模式地点；MDD 的国家分布栏列老挝与越南，IUCN 状态为 Not Evaluated。名称史并不能消除分类争议：不同作者曾把“ebenus”作为种、亚种或 *T. hatinhensis* 的黑色型处理。
 
+<!-- /evo:text -->
+
 ## disputed_black_morph
 
 <!-- evo:text /records/catalogue-profile/sections/1/topic -->
@@ -30,7 +32,6 @@ laos_records
 
 <!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
 Duckworth 等（2010）的老挝综述把 Phou Hin Poun 南部及 Hin Nam No 一带的部分黑头叶猴描述为符合 *T. (francoisi) ebenus* 的类型；作者同时指出区域调查并不均匀，旧报告中有些无法可靠鉴定。Souwideth 等（2021）在 Phou Hin Poun 的调查走了 64.1 公里、共 21 条样线，但记录的 35 只、9 群是研究对象 *T. laotum*；另有两名地方林业人员在访谈中正确辨认“黑叶猴”，论文把它写作可能出现的物种，并未报告样线直接发现 *T. ebenus*。这些资料可说明区域记录和识别边界，不能当作该种的同期普查或数量估计。
-<!-- /evo:text -->
 <!-- /evo:text -->
 
 ## catalogue-profile / limitations

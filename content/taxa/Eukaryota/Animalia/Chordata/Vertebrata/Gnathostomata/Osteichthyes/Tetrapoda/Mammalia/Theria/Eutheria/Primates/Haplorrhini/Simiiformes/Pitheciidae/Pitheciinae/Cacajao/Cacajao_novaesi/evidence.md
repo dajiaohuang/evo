@@ -18,6 +18,8 @@ records:
         sourceIds:
           - markdown: page.en.md
             field: /records/catalogue-profile/sections/0/sourceIds/0
+          - markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/sourceIds/1
         text:
           zh:
             markdown: page.zh.md

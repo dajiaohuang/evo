@@ -18,6 +18,8 @@ taxonomy_and_evidence
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
 COL26.8 lists *T. ebenus* as an accepted species. The current MDD page also accepts it and records the common name Black Langur, the original combination *Semnopithecus (Trachypithecus) (auratus) auratus ebenus*, and a possible type locality near Lai Chau or the Fan Si Pan range in Vietnam. MDD lists Laos and Vietnam and gives its IUCN status as Not Evaluated. The name history does not resolve the taxonomic dispute: authors have treated “ebenus” as a species, subspecies, or black morph of *T. hatinhensis*.
 
+<!-- /evo:text -->
+
 ## disputed_black_morph
 
 <!-- evo:text /records/catalogue-profile/sections/1/topic -->
@@ -58,7 +60,6 @@ ebenusReview2010
 
 <!-- evo:text /records/catalogue-profile/sections/2/sourceIds/1 -->
 laotianLangurSurvey2021
-<!-- /evo:text -->
 <!-- /evo:text -->
 
 ## taxonomy_and_evidence
