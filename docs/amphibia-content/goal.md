@@ -1,14 +1,18 @@
+## Requested reference/index/placeholder phase completed
+
+Primary delivery commit: `4680be402d6d0ddc73867f482453e8252327d2a6`. Collection, placeholders, generation and automated validation are complete. Detailed biological prose and external scientific certification remain deferred by the latest user instruction. See `submission-receipt.json`.
+
 ## Final automated validation
 
 All required automated checks passed across the full run and its recorded retention-policy repair continuation: 773 unique unit tests verified (772 in the full suite plus the added retention boundary), 133 browser tests, canonical projection drift and data/source validation, full build, resource budgets and static reachability. Readiness remains 10/13 and is not a v1 release declaration. See `final-validation-receipt.json`.
 
 ## Pinned profile identity corrections
 
-All 9,670 Amphibia catalogue-profile records now retain the exact pinned COL scientificName (including recorded authorship), rank and original sourceDatasetId. The Atopophrynus, Geobatrachus and Dischidodactylus genus concepts are provisionally accepted in that release: canonical readers remain, their accepted-profile mappings are withheld, and an independent provisional-source profile projection retains their source status. These corrections change metadata only; reader bodies and literature discovery names are preserved. Final automated validation is complete; scoped submission is pending.
+All 9,670 Amphibia catalogue-profile records now retain the exact pinned COL scientificName (including recorded authorship), rank and original sourceDatasetId. The Atopophrynus, Geobatrachus and Dischidodactylus genus concepts are provisionally accepted in that release: canonical readers remain, their accepted-profile mappings are withheld, and an independent provisional-source profile projection retains their source status. These corrections change metadata only; reader bodies and literature discovery names are preserved. Final automated validation is complete; scoped submission is committed as `4680be402d6d0ddc73867f482453e8252327d2a6`.
 
 ## 2026-10-03 reference-only collection completion
 
-The requested reference/index/placeholder phase is complete: 26,433 literal discovery queries, 1,281,384 citation candidate groups, 1,281,760 distinct source identities, and 11,090 bilingual placeholder nodes with final evidence links. The independently captured local citation index retains 379,872 reference leads from 4,803 already archived article-version objects; this phase downloaded no additional original material. Candidate titles absent from the source remain absent. Biological prose remains deferred. All projections and final automated validation are complete; a scoped commit is pending. Mini is a dated nontransactional snapshot: 770,431 currently returned identities plus one previously returned source identity retained with omission evidence.
+The requested reference/index/placeholder phase is complete: 26,433 literal discovery queries, 1,281,384 citation candidate groups, 1,281,760 distinct source identities, and 11,090 bilingual placeholder nodes with final evidence links. The independently captured local citation index retains 379,872 reference leads from 4,803 already archived article-version objects; this phase downloaded no additional original material. Candidate titles absent from the source remain absent. Biological prose remains deferred. All projections and final automated validation are complete; the scoped delivery is committed as `4680be402d6d0ddc73867f482453e8252327d2a6`. Mini is a dated nontransactional snapshot: 770,431 currently returned identities plus one previously returned source identity retained with omission evidence.
 
 # Amphibia content completion
 
