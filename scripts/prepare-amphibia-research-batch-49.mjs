@@ -1,0 +1,7 @@
+import { prepareAmphibianResearchInput } from './prepare-amphibia-research-input.mjs'
+prepareAmphibianResearchInput([
+  { colId: 'TZ6YT', name: 'Tylototriton soimalai', pmc: 'PMC11496826', year: 2024, readScope: 'Species distribution and natural-history accounts', sections: [
+    ['distribution', 'Doi Soi Malai record and adjacent habitat prediction', 'Doi Soi Malai 记录与邻近生境预测', 'The description reported Doi Soi Malai in Mae Tuen Wildlife Sanctuary, Tak, northwestern Thailand. The contiguous Doi Soi Malai-Mai Klay Pen Hin National Park was suggested as possible habitat. That expectation remains unconfirmed, without establishing an additional occupied locality or a complete contemporary range.', '原始描述报告泰国西北 Tak 的 Mae Tuen 野生动物保护区 Doi Soi Malai 地点，并提出相邻 Doi Soi Malai-Mai Klay Pen Hin 国家公园可能是生境。这一期待仍未确认，不能确立新增占据地点或完整当代分布。'],
+    ['ecology', 'Adults and two larvae in one muddy puddle', '一处泥水坑中的成体与两只幼体', 'During rainy-season observations around noon, adult males surfaced and two larvae occupied a single isolated roadside mud puddle below Doi Soi Malai. It was about 10 m long, 5 m wide and at most 35 cm deep, with turbid water and muddy sediment; no fish were observed. These local observations do not establish exclusive daytime activity, obligatory roadside breeding, fish absence throughout the season or a complete reproductive calendar.', '雨季约中午观察中，成体雄性浮至水面，两只幼体位于 Doi Soi Malai 山下路旁一处孤立泥水坑。水坑约长 10 米、宽 5 米、最大深 35 厘米，水浑浊、底有泥质沉积，未观察到鱼。这些当地观察不能确立排他的日间活动、必须在路旁繁殖、整个季节没有鱼或完整繁殖日历。']
+  ] }
+])

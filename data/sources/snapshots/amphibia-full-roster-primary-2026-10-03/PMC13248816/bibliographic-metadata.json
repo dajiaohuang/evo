@@ -1,0 +1,3577 @@
+{
+  "pmcid": "PMC13248816",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+  "sha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+  "articleType": "research-article",
+  "title": "SpatialESD: Spatial Ensemble Domain Detection in Spatial Transcriptomics",
+  "authors": [
+    {
+      "name": "Hongyan Cao",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Hongyan",
+        "surname": "Cao",
+        "suffix": null
+      },
+      "originalName": "CaoHongyan",
+      "attributes": {
+        "id": "advs74260-cr-0001",
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Gaiqin Liu",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Gaiqin",
+        "surname": "Liu",
+        "suffix": null
+      },
+      "originalName": "LiuGaiqin",
+      "attributes": {
+        "id": "advs74260-cr-0002",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Jingyi Xia",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Jingyi",
+        "surname": "Xia",
+        "suffix": null
+      },
+      "originalName": "XiaJingyi",
+      "attributes": {
+        "id": "advs74260-cr-0003",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Runle Chen",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Runle",
+        "surname": "Chen",
+        "suffix": null
+      },
+      "originalName": "ChenRunle",
+      "attributes": {
+        "id": "advs74260-cr-0004",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Tong Wang",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Tong",
+        "surname": "Wang",
+        "suffix": null
+      },
+      "originalName": "WangTong",
+      "attributes": {
+        "id": "advs74260-cr-0005",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Xiaoling Yang",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Xiaoling",
+        "surname": "Yang",
+        "suffix": null
+      },
+      "originalName": "YangXiaoling",
+      "attributes": {
+        "id": "advs74260-cr-0006",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Ruiling Fang",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Ruiling",
+        "surname": "Fang",
+        "suffix": null
+      },
+      "originalName": "FangRuiling",
+      "attributes": {
+        "id": "advs74260-cr-0007",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Yanhong Luo",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Yanhong",
+        "surname": "Luo",
+        "suffix": null
+      },
+      "originalName": "LuoYanhong",
+      "attributes": {
+        "id": "advs74260-cr-0008",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Ping Zeng",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Ping",
+        "surname": "Zeng",
+        "suffix": null
+      },
+      "originalName": "ZengPing",
+      "attributes": {
+        "id": "advs74260-cr-0009",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Hongmei Yu",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Hongmei",
+        "surname": "Yu",
+        "suffix": null
+      },
+      "originalName": "YuHongmei",
+      "attributes": {
+        "id": "advs74260-cr-0010",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Yanbo Zhang",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Yanbo",
+        "surname": "Zhang",
+        "suffix": null
+      },
+      "originalName": "ZhangYanbo",
+      "attributes": {
+        "id": "advs74260-cr-0011",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Yuehua Cui",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Yuehua",
+        "surname": "Cui",
+        "suffix": null
+      },
+      "originalName": "CuiYuehua",
+      "attributes": {
+        "id": "advs74260-cr-0012",
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "https://orcid.org/0000-0001-8099-1753"
+        }
+      ]
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC13248816"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC13248816.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "13248816"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "13248816"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "41677098"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1002/advs.202520912"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "ADVS74260"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2026",
+      "month": "2",
+      "day": "12"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2026",
+      "month": "5",
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "advs74260-supinfo-0001",
+      "position": 0,
+      "links": [],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "advs74260-supitem-0001",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "ADVS-13-e20912-s001.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ADVS-13-e20912-s001.docx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "advs74260-bib-0001",
+      "position": 0,
+      "title": "The Expanding Vistas of Spatial Transcriptomics",
+      "source": "Nature Biotechnology",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0001"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "41"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "773"
+        ],
+        "lpage": [
+          "782"
+        ]
+      },
+      "originalCitationText": "L.\nTian\n, \nF.\nChen\n, and \nE. Z.\nMacosko\n, “The Expanding Vistas of Spatial Transcriptomics,” Nature Biotechnology\n41, no. 6 (2023): 773–782.10.1038/s41587-022-01448-2PMC1009157936192637",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41587-022-01448-2"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10091579"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36192637"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0001",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0002",
+      "position": 1,
+      "title": "Single‐Cell and Spatial Transcriptomics: Deciphering Brain Complexity in Health and Disease",
+      "source": "Nature Reviews Neurology",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0002"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "19"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "346"
+        ],
+        "lpage": [
+          "362"
+        ]
+      },
+      "originalCitationText": "M.\nPiwecka\n, \nN.\nRajewsky\n, and \nA.\nRybak‐Wolf\n, “Single‐Cell and Spatial Transcriptomics: Deciphering Brain Complexity in Health and Disease,” Nature Reviews Neurology\n19, no. 6 (2023): 346–362.37198436\n10.1038/s41582-023-00809-yPMC10191412",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "37198436"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41582-023-00809-y"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10191412"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0002",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0003",
+      "position": 2,
+      "title": "A Review of Recent Advances in Spatially Resolved Transcriptomics Data Analysis",
+      "source": "Neurocomputing",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0003"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "603"
+        ],
+        "elocation-id": [
+          "128283"
+        ]
+      },
+      "originalCitationText": "Y.\nGao\n, \nY.‐L.\nGao\n, \nJ.\nJing\n, \nF.\nLi\n, \nC.‐H.\nZheng\n, and \nJ.‐X.\nLiu\n, “A Review of Recent Advances in Spatially Resolved Transcriptomics Data Analysis,” Neurocomputing\n603 (2024): 128283.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0003",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0004",
+      "position": 3,
+      "title": "SpaGCN: Integrating Gene Expression, Spatial Location and Histology to Identify Spatial Domains and Spatially Variable Genes by Graph Convolutional Network",
+      "source": "Nature Methods",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0004"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "issue": [
+          "11"
+        ],
+        "fpage": [
+          "1342"
+        ],
+        "lpage": [
+          "1351"
+        ]
+      },
+      "originalCitationText": "J.\nHu\n, \nX.\nLi\n, \nK.\nColeman\n, et al., “SpaGCN: Integrating Gene Expression, Spatial Location and Histology to Identify Spatial Domains and Spatially Variable Genes by Graph Convolutional Network,” Nature Methods\n18, no. 11 (2021): 1342–1351.34711970\n10.1038/s41592-021-01255-8",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "34711970"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41592-021-01255-8"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0004",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0005",
+      "position": 4,
+      "title": "Statistical and Machine Learning Methods for Spatially Resolved Transcriptomics Data Analysis",
+      "source": "Genome Biology",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0005"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "83"
+        ]
+      },
+      "originalCitationText": "Z.\nZeng\n, \nY.\nLi\n, \nY.\nLi\n, and \nY.\nLuo\n, “Statistical and Machine Learning Methods for Spatially Resolved Transcriptomics Data Analysis,” Genome Biology\n23, no. 1 (2022): 83.35337374\n10.1186/s13059-022-02653-7PMC8951701",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "35337374"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/s13059-022-02653-7"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8951701"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0005",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0006",
+      "position": 5,
+      "title": "Abstract PD14‐02: Unravelling Spatial Tumor Organization and Heterogeneity in Lobular Breast Cancer Using Spatial Transcriptomics",
+      "source": "Cancer Research",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0006"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "82"
+        ],
+        "elocation-id": [
+          "PD1402"
+        ]
+      },
+      "originalCitationText": "L.\nCollet\n, \nM.\nSerra\n, \nM.\nRediti\n, et al., “Abstract PD14‐02: Unravelling Spatial Tumor Organization and Heterogeneity in Lobular Breast Cancer Using Spatial Transcriptomics,” Cancer Research\n82 (2022): PD1402.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0006",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0007",
+      "position": 6,
+      "title": "DeepST: Identifying Spatial Domains in Spatial Transcriptomics by Deep Learning",
+      "source": "Nucleic Acids Research",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0007"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "50"
+        ],
+        "issue": [
+          "22"
+        ],
+        "elocation-id": [
+          "e131"
+        ]
+      },
+      "originalCitationText": "C.\nXu\n, \nX.\nJin\n, \nS.\nWei\n, et al., “DeepST: Identifying Spatial Domains in Spatial Transcriptomics by Deep Learning,” Nucleic Acids Research\n50, no. 22 (2022): e131.36250636\n10.1093/nar/gkac901PMC9825193",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "36250636"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/nar/gkac901"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9825193"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0007",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0008",
+      "position": 7,
+      "title": "Benchmarking Clustering, Alignment, and Integration Methods for Spatial Transcriptomics",
+      "source": "Genome Biology",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0008"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "212"
+        ]
+      },
+      "originalCitationText": "Y.\nHu\n, \nM.\nXie\n, \nY.\nLi\n, et al., “Benchmarking Clustering, Alignment, and Integration Methods for Spatial Transcriptomics,” Genome Biology\n25, no. 1 (2024): 212.39123269\n10.1186/s13059-024-03361-0PMC11312151",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "39123269"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/s13059-024-03361-0"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11312151"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0008",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0009",
+      "position": 8,
+      "title": "Spatial Transcriptomics at Subspot Resolution with BayesSpace",
+      "source": "Nature Biotechnology",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0009"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "39"
+        ],
+        "issue": [
+          "11"
+        ],
+        "fpage": [
+          "1375"
+        ],
+        "lpage": [
+          "1384"
+        ]
+      },
+      "originalCitationText": "E.\nZhao\n, \nM. R.\nStone\n, \nX.\nRen\n, et al., “Spatial Transcriptomics at Subspot Resolution with BayesSpace,” Nature Biotechnology\n39, no. 11 (2021): 1375–1384.10.1038/s41587-021-00935-2PMC876302634083791",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41587-021-00935-2"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8763026"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34083791"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0009",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0010",
+      "position": 9,
+      "title": "BASS: Multi‐Scale and Multi‐Sample Analysis Enables Accurate Cell Type Clustering and Spatial Domain Detection in Spatial Transcriptomic Studies",
+      "source": "Genome Biology",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0010"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "168"
+        ]
+      },
+      "originalCitationText": "Z.\nLi\n and \nX.\nZhou\n, “BASS: Multi‐Scale and Multi‐Sample Analysis Enables Accurate Cell Type Clustering and Spatial Domain Detection in Spatial Transcriptomic Studies,” Genome Biology\n23, no. 1 (2022): 168.35927760\n10.1186/s13059-022-02734-7PMC9351148",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "35927760"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/s13059-022-02734-7"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9351148"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0010",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0011",
+      "position": 10,
+      "title": "Joint Dimension Reduction and Clustering Analysis of Single‐cell RNA‐seq and Spatial Transcriptomics Data",
+      "source": "Nucleic Acids Research",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0011"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "50"
+        ],
+        "issue": [
+          "12"
+        ],
+        "elocation-id": [
+          "e72"
+        ]
+      },
+      "originalCitationText": "W.\nLiu\n, \nX.\nLiao\n, \nY.\nYang\n, et al., “Joint Dimension Reduction and Clustering Analysis of Single‐cell RNA‐seq and Spatial Transcriptomics Data,” Nucleic Acids Research\n50, no. 12 (2022): e72.35349708\n10.1093/nar/gkac219PMC9262606",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "35349708"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/nar/gkac219"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9262606"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0011",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0012",
+      "position": 11,
+      "title": "Spatially Aware Dimension Reduction for Spatial Transcriptomics",
+      "source": "Nature Communications",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0012"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "7203"
+        ]
+      },
+      "originalCitationText": "L.\nShang\n and \nX.\nZhou\n, “Spatially Aware Dimension Reduction for Spatial Transcriptomics,” Nature Communications\n13, no. 1 (2022): 7203.10.1038/s41467-022-34879-1PMC968447236418351",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41467-022-34879-1"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9684472"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36418351"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0012",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0013",
+      "position": 12,
+      "title": "Deciphering Spatial Domains from Spatially Resolved Transcriptomics with an Adaptive Graph Attention Auto‐encoder",
+      "source": "Nature Communications",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0013"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "1739"
+        ]
+      },
+      "originalCitationText": "K.\nDong\n and \nS.\nZhang\n, “Deciphering Spatial Domains from Spatially Resolved Transcriptomics with an Adaptive Graph Attention Auto‐encoder,” Nature Communications\n13, no. 1 (2022): 1739.10.1038/s41467-022-29439-6PMC897604935365632",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41467-022-29439-6"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8976049"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35365632"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0013",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0014",
+      "position": 13,
+      "title": "Cell Clustering for Spatial Transcriptomics Data with Graph Neural Networks",
+      "source": "Nature Computational Science",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0014"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "399"
+        ],
+        "lpage": [
+          "408"
+        ]
+      },
+      "originalCitationText": "J.\nLi\n, \nS.\nChen\n, \nX.\nPan\n, \nY.\nYuan\n, and \nH.‐B.\nShen\n, “Cell Clustering for Spatial Transcriptomics Data with Graph Neural Networks,” Nature Computational Science\n2, no. 6 (2022): 399–408.38177586\n10.1038/s43588-022-00266-5",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "38177586"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s43588-022-00266-5"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0014",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0015",
+      "position": 14,
+      "title": "Benchmarking Cell‐type Clustering Methods for Spatially Resolved Transcriptomics Data",
+      "source": "Briefings in Bioinformatics",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0015"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "24"
+        ],
+        "issue": [
+          "1"
+        ],
+        "elocation-id": [
+          "bbac475"
+        ]
+      },
+      "originalCitationText": "A.\nCheng\n, \nG.\nHu\n, and \nW. V.\nLi\n, “Benchmarking Cell‐type Clustering Methods for Spatially Resolved Transcriptomics Data,” Briefings in Bioinformatics\n24, no. 1 (2023): bbac475.36410733\n10.1093/bib/bbac475PMC9851325",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "36410733"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/bib/bbac475"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9851325"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0015",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0016",
+      "position": 15,
+      "title": "A Comprehensive Overview of Graph Neural Network‐Based Approaches to Clustering for Spatial Transcriptomics",
+      "source": "Computational and Structural Biotechnology Journal",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0016"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ],
+        "fpage": [
+          "106"
+        ],
+        "lpage": [
+          "128"
+        ]
+      },
+      "originalCitationText": "T.\nLiu\n, \nZ.‐Y.\nFang\n, \nZ.\nZhang\n, \nY.\nYu\n, \nM.\nLi\n, and \nM.‐Z.\nYin\n, “A Comprehensive Overview of Graph Neural Network‐Based Approaches to Clustering for Spatial Transcriptomics,” Computational and Structural Biotechnology Journal\n23 (2024): 106–128.38089467\n10.1016/j.csbj.2023.11.055PMC10714345",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "38089467"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.csbj.2023.11.055"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10714345"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0016",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0017",
+      "position": 16,
+      "title": "Ensemble Deep Learning: a Review",
+      "source": "Engineering Applications of Artificial Intelligence",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0017"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "115"
+        ],
+        "elocation-id": [
+          "105151"
+        ]
+      },
+      "originalCitationText": "M. A.\nGanaie\n, \nM.\nHu\n, \nA. K.\nMalik\n, \nM.\nTanveer\n, and \nP. N.\nSuganthan\n, “Ensemble Deep Learning: a Review,” Engineering Applications of Artificial Intelligence\n115 (2022): 105151.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0017",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0018",
+      "position": 17,
+      "title": "COMSUC: A Web Server for the Identification of Consensus Molecular Subtypes of Cancer Based on Multiple Methods and Multi‐omics Data",
+      "source": "PLoS Computational Biology",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0018"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "17"
+        ],
+        "issue": [
+          "3"
+        ],
+        "elocation-id": [
+          "1008769"
+        ]
+      },
+      "originalCitationText": "S.\nHe\n, \nX.\nSong\n, \nX.\nYang\n, et al., “COMSUC: A Web Server for the Identification of Consensus Molecular Subtypes of Cancer Based on Multiple Methods and Multi‐omics Data,” PLoS Computational Biology\n17, no. 3 (2021): 1008769.10.1371/journal.pcbi.1008769PMC800935733735194",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1371/journal.pcbi.1008769"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8009357"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33735194"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0018",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0019",
+      "position": 18,
+      "title": "SC3: Consensus Clustering of Single‐Cell RNA‐seq Data",
+      "source": "Nature Methods",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0019"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "issue": [
+          "5"
+        ],
+        "fpage": [
+          "483"
+        ],
+        "lpage": [
+          "486"
+        ]
+      },
+      "originalCitationText": "V. Y.\nKiselev\n, \nK.\nKirschner\n, \nM. T.\nSchaub\n, et al., “SC3: Consensus Clustering of Single‐Cell RNA‐seq Data,” Nature Methods\n14, no. 5 (2017): 483–486.28346451\n10.1038/nmeth.4236PMC5410170",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "28346451"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nmeth.4236"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5410170"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0019",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0020",
+      "position": 19,
+      "title": "Same‐clustering: S ingle‐Cell a Ggregated Clustering via Mixture Model ENsemble",
+      "source": "Nucleic Acids Research",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0020"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "48"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "86"
+        ],
+        "lpage": [
+          "95"
+        ]
+      },
+      "originalCitationText": "R.\nHuh\n, \nY.\nYang\n, \nY.\nJiang\n, \nY.\nShen\n, and \nY.\nLi\n, “Same‐clustering: S ingle‐Cell a Ggregated Clustering via Mixture Model ENsemble,” Nucleic Acids Research\n48, no. 1 (2020): 86–95.31777938\n10.1093/nar/gkz959PMC6943136",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "31777938"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/nar/gkz959"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6943136"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0020",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0021",
+      "position": 20,
+      "title": "Clustering Single‐Cell Multi‐Omics Data via Graph Regularized Multi‐View Ensemble Learning",
+      "source": "Bioinformatics",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0021"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "40"
+        ],
+        "issue": [
+          "4"
+        ],
+        "elocation-id": [
+          "btae169"
+        ]
+      },
+      "originalCitationText": "F.\nChen\n, \nG.\nZou\n, \nY.\nWu\n, and \nL.\nOu‐Yang\n, “Clustering Single‐Cell Multi‐Omics Data via Graph Regularized Multi‐View Ensemble Learning,” Bioinformatics\n40, no. 4 (2024): btae169.38547401\n10.1093/bioinformatics/btae169PMC11015955",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "38547401"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/bioinformatics/btae169"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11015955"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0021",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0022",
+      "position": 21,
+      "title": "WEST Is an Ensemble Method for Spatial Transcriptomics Analysis",
+      "source": "Cell Reports Methods",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0022"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ],
+        "issue": [
+          "11"
+        ],
+        "elocation-id": [
+          "100886"
+        ]
+      },
+      "originalCitationText": "J.\nCai\n, \nH.\nCheng\n, \nS.\nWu\n, \nW.\nZhong\n, \nG.‐C.\nYuan\n, and \nP.\nMa\n, “WEST Is an Ensemble Method for Spatial Transcriptomics Analysis,” Cell Reports Methods\n4, no. 11 (2024): 100886.39515332\n10.1016/j.crmeth.2024.100886PMC11705770",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "39515332"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.crmeth.2024.100886"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11705770"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0022",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0023",
+      "position": 22,
+      "title": "Enhancing Spatial Domain Detection in Spatial Transcriptomics with EnSDD",
+      "source": "Communications Biology",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0023"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "1358"
+        ]
+      },
+      "originalCitationText": "H.‐S.\nLi\n, \nY.‐T.\nTan\n, and \nX.‐F.\nZhang\n, “Enhancing Spatial Domain Detection in Spatial Transcriptomics with EnSDD,” Communications Biology\n7, no. 1 (2024): 1358.39433947\n10.1038/s42003-024-07001-yPMC11494180",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "39433947"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s42003-024-07001-y"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11494180"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0023",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0024",
+      "position": 23,
+      "title": "Integrated Analysis of Multimodal Single‐Cell Data",
+      "source": "Cell",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0024"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "184"
+        ],
+        "issue": [
+          "13"
+        ],
+        "fpage": [
+          "3573"
+        ],
+        "lpage": [
+          "3587.e29"
+        ]
+      },
+      "originalCitationText": "Y.\nHao\n, \nS.\nHao\n, \nE.\nAndersen‐Nissen\n, et al., “Integrated Analysis of Multimodal Single‐Cell Data,” Cell\n184, no. 13 (2021): 3573–3587.e29.34062119\n10.1016/j.cell.2021.04.048PMC8238499",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "34062119"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.cell.2021.04.048"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8238499"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0024",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0025",
+      "position": 24,
+      "title": "Enhanced Ensemble Clustering via Fast Propagation of Cluster‐wise Similarities",
+      "source": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0025"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "51"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "508"
+        ],
+        "lpage": [
+          "520"
+        ]
+      },
+      "originalCitationText": "D.\nHuang\n, \nC.‐D.\nWang\n, \nH.\nPeng\n, \nJ.\nLai\n, and \nC.‐K.\nKwoh\n, “Enhanced Ensemble Clustering via Fast Propagation of Cluster‐wise Similarities,” IEEE Transactions on Systems, Man, and Cybernetics: Systems\n51, no. 1 (2018): 508–520.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0025",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0026",
+      "position": 25,
+      "title": "Unsupervised Spatially Embedded Deep Representation of Spatial Transcriptomics",
+      "source": "Genome Medicine",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0026"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "16"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "12"
+        ]
+      },
+      "originalCitationText": "H.\nXu\n, \nH.\nFu\n, \nY.\nLong\n, et al., “Unsupervised Spatially Embedded Deep Representation of Spatial Transcriptomics,” Genome Medicine\n16, no. 1 (2024): 12.38217035\n10.1186/s13073-024-01283-xPMC10790257",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "38217035"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/s13073-024-01283-x"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10790257"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0026",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0027",
+      "position": 26,
+      "title": "Transcriptome‐Scale Spatial Gene Expression in the Human Dorsolateral Prefrontal Cortex",
+      "source": "Nature Neuroscience",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0027"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "24"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "425"
+        ],
+        "lpage": [
+          "436"
+        ]
+      },
+      "originalCitationText": "K. R.\nMaynard\n, \nL.\nCollado‐Torres\n, \nL. M.\nWeber\n, et al., “Transcriptome‐Scale Spatial Gene Expression in the Human Dorsolateral Prefrontal Cortex,” Nature Neuroscience\n24, no. 3 (2021): 425–436.33558695\n10.1038/s41593-020-00787-0PMC8095368",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "33558695"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41593-020-00787-0"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8095368"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0027",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0028",
+      "position": 27,
+      "title": "Distribution of PCP4 Protein in the Forebrain of Adult Mice",
+      "source": "Acta Histochemica",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0028"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "116"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "1056"
+        ],
+        "lpage": [
+          "1061"
+        ]
+      },
+      "originalCitationText": "M.\nRenelt\n, \nV. V. B. U.\nHalbach\n, and \nO. V. B. U.\nHalbach\n, “Distribution of PCP4 Protein in the Forebrain of Adult Mice,” Acta Histochemica\n116, no. 6 (2014): 1056–1061.24954028\n10.1016/j.acthis.2014.04.012",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "24954028"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.acthis.2014.04.012"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0028",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0029",
+      "position": 28,
+      "title": "Spatial Deconvolution of HER2‐positive Breast Cancer Delineates Tumor‐Associated Cell Type Interactions",
+      "source": "Nature Communications",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0029"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "6012"
+        ]
+      },
+      "originalCitationText": "A.\nAndersson\n, \nL.\nLarsson\n, \nL.\nStenbeck\n, et al., “Spatial Deconvolution of HER2‐positive Breast Cancer Delineates Tumor‐Associated Cell Type Interactions,” Nature Communications\n12, no. 1 (2021): 6012.10.1038/s41467-021-26271-2PMC851689434650042",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41467-021-26271-2"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8516894"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34650042"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0029",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0030",
+      "position": 29,
+      "title": "SLC39A6: A Potential Target for Diagnosis and Therapy of Esophageal Carcinoma",
+      "source": "Journal of Translational Medicine",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0030"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "321"
+        ]
+      },
+      "originalCitationText": "X.‐B.\nCui\n, \nY.‐Y.\nShen\n, \nT.‐T.\nJin\n, et al., “SLC39A6: A Potential Target for Diagnosis and Therapy of Esophageal Carcinoma,” Journal of Translational Medicine\n13, no. 1 (2015): 321.26444413\n10.1186/s12967-015-0681-zPMC4595240",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "26444413"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/s12967-015-0681-z"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4595240"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0030",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0031",
+      "position": 30,
+      "title": "Secretome Analysis of Breast Cancer Cells to Identify Potential Target Proteins of Ipomoea Turpethum Extract‐Loaded Nanoparticles in the Tumor Microenvironment",
+      "source": "Frontiers in Cell and Developmental Biology",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0031"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "elocation-id": [
+          "1247632"
+        ]
+      },
+      "originalCitationText": "S.\nSwami\n, \nM.\nMughees\n, \nI. R.\nMangangcha\n, \nS.\nKauser\n, and \nS.\nWajid\n, “Secretome Analysis of Breast Cancer Cells to Identify Potential Target Proteins of Ipomoea Turpethum Extract‐Loaded Nanoparticles in the Tumor Microenvironment,” Frontiers in Cell and Developmental Biology\n11 (2023): 1247632.37900279\n10.3389/fcell.2023.1247632PMC10602817",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "37900279"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.3389/fcell.2023.1247632"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10602817"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0031",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0032",
+      "position": 31,
+      "title": "Diagnostic Utility and Sensitivities of Matrix Gla Protein (MGP), TRPS1 and GATA3 in Breast Cancer: Focusing on Metastatic Breast Cancer, Invasive Breast Carcinoma with Special Features, and Salivary Gland‐type Tumours",
+      "source": "Pathology",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0032"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "56"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "516"
+        ],
+        "lpage": [
+          "527"
+        ]
+      },
+      "originalCitationText": "Y.\nWu\n, \nF.\nChen\n, \nL.\nPan\n, et al., “Diagnostic Utility and Sensitivities of Matrix Gla Protein (MGP), TRPS1 and GATA3 in Breast Cancer: Focusing on Metastatic Breast Cancer, Invasive Breast Carcinoma with Special Features, and Salivary Gland‐type Tumours,” Pathology\n56, no. 4 (2024): 516–527.38570266\n10.1016/j.pathol.2024.01.003",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "38570266"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.pathol.2024.01.003"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0032",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0033",
+      "position": 32,
+      "title": "TGFB2 mRNA Levels Prognostically Interact with Interferon‐Alpha Receptor Activation of IRF9 and IFI27, and an Immune Checkpoint LGALS9 to Impact Overall Survival in Pancreatic Ductal Adenocarcinoma",
+      "source": "International Journal of Molecular Sciences",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0033"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "issue": [
+          "20"
+        ],
+        "elocation-id": [
+          "11221"
+        ]
+      },
+      "originalCitationText": "S.\nQazi\n and \nV.\nTrieu\n, “TGFB2 mRNA Levels Prognostically Interact with Interferon‐Alpha Receptor Activation of IRF9 and IFI27, and an Immune Checkpoint LGALS9 to Impact Overall Survival in Pancreatic Ductal Adenocarcinoma,” International Journal of Molecular Sciences\n25, no. 20 (2024): 11221.39457004\n10.3390/ijms252011221PMC11508538",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "39457004"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.3390/ijms252011221"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11508538"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0033",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0034",
+      "position": 33,
+      "title": "The Regulatory Effect of the YY1/miR‑HCC2/BAMBI Axis on the Stemness of Liver Cancer Cells",
+      "source": "International Journal of Oncology",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0034"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "62"
+        ],
+        "issue": [
+          "5"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "14"
+        ]
+      },
+      "originalCitationText": "H.\nGao\n, \nH.\nFan\n, and \nH.\nXie\n, “The Regulatory Effect of the YY1/miR‑HCC2/BAMBI Axis on the Stemness of Liver Cancer Cells,” International Journal of Oncology\n62, no. 5 (2023): 1–14.36999621\n10.3892/ijo.2023.5507PMC10124712",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "36999621"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.3892/ijo.2023.5507"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10124712"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0034",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0035",
+      "position": 34,
+      "title": "Comprehensive Analysis of CXCL14 Uncovers Its Role during Liver Metastasis in Colon Cancer",
+      "source": "BMC Gastroenterology",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0035"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "273"
+        ]
+      },
+      "originalCitationText": "L.\nZhou\n, \nY.\nZhang\n, \nM.\nWei\n, \nK.\nDu\n, \nJ.\nLin\n, and \nL.\nWei\n, “Comprehensive Analysis of CXCL14 Uncovers Its Role during Liver Metastasis in Colon Cancer,” BMC Gastroenterology\n23, no. 1 (2023): 273.37563546\n10.1186/s12876-023-02896-zPMC10416425",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "37563546"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/s12876-023-02896-z"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10416425"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0035",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0036",
+      "position": 35,
+      "title": "Ran GTPase and Its Importance in Cellular Signaling and Malignant Phenotype",
+      "source": "International Journal of Molecular Sciences",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0036"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "24"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "3065"
+        ]
+      },
+      "originalCitationText": "M.\nEl‐Tanani\n, \nH.\nNsairat\n, \nV.\nMishra\n, et al., “Ran GTPase and Its Importance in Cellular Signaling and Malignant Phenotype,” International Journal of Molecular Sciences\n24, no. 4 (2023): 3065.36834476\n10.3390/ijms24043065PMC9968026",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "36834476"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.3390/ijms24043065"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9968026"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0036",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0037",
+      "position": 36,
+      "title": "The Role of Cancer‐Associated Fibroblasts and Exosomal miRNAs‐Mediated Intercellular Communication in the Tumor Microenvironment and the Biology of Carcinogenesis: A Systematic Review",
+      "source": "Cell Death Discovery",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0037"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "380"
+        ]
+      },
+      "originalCitationText": "R.\nNedaeinia\n, \nS.\nNajafgholian\n, \nR.\nSalehi\n, et al., “The Role of Cancer‐Associated Fibroblasts and Exosomal miRNAs‐Mediated Intercellular Communication in the Tumor Microenvironment and the Biology of Carcinogenesis: A Systematic Review,” Cell Death Discovery\n10, no. 1 (2024): 380.39187523\n10.1038/s41420-024-02146-5PMC11347635",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "39187523"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41420-024-02146-5"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11347635"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0037",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0038",
+      "position": 37,
+      "title": "Regulation of Epithelial‐Mesenchymal Transition by Tumor Microenvironmental Signals and Its Implication in Cancer Therapeutics",
+      "source": "Seminars in Cancer Biology",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0038"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "88"
+        ],
+        "fpage": [
+          "46"
+        ],
+        "lpage": [
+          "66"
+        ]
+      },
+      "originalCitationText": "J.\nZhang\n, \nZ.\nHu\n, \nC. A.\nHorta\n, and \nJ.\nYang\n, “Regulation of Epithelial‐Mesenchymal Transition by Tumor Microenvironmental Signals and Its Implication in Cancer Therapeutics,” Seminars in Cancer Biology\n88 (2023): 46–66.36521737\n10.1016/j.semcancer.2022.12.002PMC10237282",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "36521737"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.semcancer.2022.12.002"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10237282"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0038",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0039",
+      "position": 38,
+      "title": "Low NT5DC2 Expression Predicts Favorable Prognosis and Suppresses Soft Tissue Sarcoma Progression via ECM‐receptor Interaction Pathway",
+      "source": "Translational Oncology",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0039"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "44"
+        ],
+        "elocation-id": [
+          "101937"
+        ]
+      },
+      "originalCitationText": "Z.\nHuang\n, \nE.\nXu\n, \nX.\nMa\n, et al., “Low NT5DC2 Expression Predicts Favorable Prognosis and Suppresses Soft Tissue Sarcoma Progression via ECM‐receptor Interaction Pathway,” Translational Oncology\n44 (2024): 101937.38547613\n10.1016/j.tranon.2024.101937PMC10990738",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "38547613"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.tranon.2024.101937"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10990738"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0039",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0040",
+      "position": 39,
+      "title": "Pathogenicity and Virulence of human T Lymphotropic Virus Type‐1 (HTLV‐1) in Oncogenesis: Adult T‐Cell Leukemia/Lymphoma (ATLL)",
+      "source": "Critical Reviews in Clinical Laboratory Sciences",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0040"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "60"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "189"
+        ],
+        "lpage": [
+          "211"
+        ]
+      },
+      "originalCitationText": "S.\nAhmadi Ghezeldasht\n, \nD. J.\nBlackbourn\n, \nA.\nMosavat\n, and \nS. A.\nRezaee\n, “Pathogenicity and Virulence of human T Lymphotropic Virus Type‐1 (HTLV‐1) in Oncogenesis: Adult T‐Cell Leukemia/Lymphoma (ATLL),” Critical Reviews in Clinical Laboratory Sciences\n60, no. 3 (2023): 189–211.36593730\n10.1080/10408363.2022.2157791",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "36593730"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1080/10408363.2022.2157791"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0040",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0041",
+      "position": 40,
+      "title": "Glycolysis‐Related Gene Dihydrolipoamide Acetyltransferase Promotes Poor Prognosis in Hepatocellular Carcinoma through the Wnt/β‐catenin and PI3K/Akt Signaling Pathways",
+      "source": "Annals of Translational Medicine",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0041"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "issue": [
+          "22"
+        ],
+        "fpage": [
+          "1240"
+        ]
+      },
+      "originalCitationText": "Y.\nZhou\n, \nH.\nGu\n, \nB.\nShao\n, et al., “Glycolysis‐Related Gene Dihydrolipoamide Acetyltransferase Promotes Poor Prognosis in Hepatocellular Carcinoma through the Wnt/β‐catenin and PI3K/Akt Signaling Pathways,” Annals of Translational Medicine\n10, no. 22 (2022): 1240.36544660\n10.21037/atm-22-5272PMC9761179",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "36544660"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.21037/atm-22-5272"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9761179"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0041",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0042",
+      "position": 41,
+      "title": "Epstein‐Barr Virus Infection and Breast Invasive Ductal Carcinoma in Egyptian Women: a Single Center Experience",
+      "source": "Journal of the Egyptian National Cancer Institute",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0042"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "77"
+        ],
+        "lpage": [
+          "82"
+        ]
+      },
+      "originalCitationText": "N. E. H.\nEl‐Naby\n, \nH.\nHassan Mohamed\n, \nA.\nMohamed Goda\n, and \nA.\nEl Sayed Mohamed\n, “Epstein‐Barr Virus Infection and Breast Invasive Ductal Carcinoma in Egyptian Women: a Single Center Experience,” Journal of the Egyptian National Cancer Institute\n29, no. 2 (2017): 77–82.28462850\n10.1016/j.jnci.2017.02.002",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "28462850"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.jnci.2017.02.002"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0042",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0043",
+      "position": 42,
+      "title": "Clinical and Biological Heterogeneities in Triple‐Negative Breast Cancer Reveals a Non‐Negligible Role of HER2‐low",
+      "source": "Breast Cancer Research",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0043"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "34"
+        ]
+      },
+      "originalCitationText": "X. E.\nHu\n, \nP.\nYang\n, \nS.\nChen\n, et al., “Clinical and Biological Heterogeneities in Triple‐Negative Breast Cancer Reveals a Non‐Negligible Role of HER2‐low,” Breast Cancer Research\n25, no. 1 (2023): 34.36998014\n10.1186/s13058-023-01639-yPMC10061837",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "36998014"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/s13058-023-01639-y"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10061837"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0043",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0044",
+      "position": 43,
+      "title": "High IGKC‐Expressing Intratumoral Plasma Cells Predict Response to Immune Checkpoint Blockade",
+      "source": "International Journal of Molecular Sciences",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0044"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ],
+        "issue": [
+          "16"
+        ],
+        "fpage": [
+          "9124"
+        ]
+      },
+      "originalCitationText": "J. L.\nOnieva\n, \nQ.\nXiao\n, \nM.‐Á.\nBerciano‐Guerrero\n, et al., “High IGKC‐Expressing Intratumoral Plasma Cells Predict Response to Immune Checkpoint Blockade,” International Journal of Molecular Sciences\n23, no. 16 (2022): 9124.36012390\n10.3390/ijms23169124PMC9408876",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "36012390"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.3390/ijms23169124"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9408876"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0044",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0045",
+      "position": 44,
+      "title": "LncRNA MALAT1 Facilitates Ovarian Cancer Progression through Promoting Chemoresistance and Invasiveness in the Tumor Microenvironment",
+      "source": "International Journal of Molecular Sciences",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0045"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "22"
+        ],
+        "issue": [
+          "19"
+        ],
+        "elocation-id": [
+          "10201"
+        ]
+      },
+      "originalCitationText": "T.‐L.\nMao\n, \nM.‐H.\nFan\n, \nN.\nDlamini\n, and \nC.‐L.\nLiu\n, “LncRNA MALAT1 Facilitates Ovarian Cancer Progression through Promoting Chemoresistance and Invasiveness in the Tumor Microenvironment,” International Journal of Molecular Sciences\n22, no. 19 (2021): 10201.34638541\n10.3390/ijms221910201PMC8508663",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "34638541"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.3390/ijms221910201"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8508663"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0045",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0046",
+      "position": 45,
+      "title": "Mitochondrial Genome in Sporadic Breast Cancer: A Case Control Study and a Proteomic Analysis in a Sinhalese Cohort from Sri Lanka",
+      "source": "PLoS ONE",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0046"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "issue": [
+          "2"
+        ],
+        "elocation-id": [
+          "0281620"
+        ]
+      },
+      "originalCitationText": "L. P.\nJayasekera\n, \nR.\nRanasinghe\n, \nK. S.\nSenathilake\n, et al., “Mitochondrial Genome in Sporadic Breast Cancer: A Case Control Study and a Proteomic Analysis in a Sinhalese Cohort from Sri Lanka,” PLoS ONE\n18, no. 2 (2023): 0281620.10.1371/journal.pone.0281620PMC991073336758048",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1371/journal.pone.0281620"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9910733"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36758048"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0046",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0047",
+      "position": 46,
+      "title": "Impact of Mitochondrial DNA Mutations in Multiple Myeloma",
+      "source": "Blood Cancer Journal",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0047"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "issue": [
+          "5"
+        ],
+        "fpage": [
+          "46"
+        ]
+      },
+      "originalCitationText": "P. H.\nHoang\n, \nA. J.\nCornish\n, \nD.\nChubb\n, \nG.\nJackson\n, \nM.\nKaiser\n, and \nR. S.\nHoulston\n, “Impact of Mitochondrial DNA Mutations in Multiple Myeloma,” Blood Cancer Journal\n10, no. 5 (2020): 46.32358481\n10.1038/s41408-020-0315-4PMC7195394",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "32358481"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41408-020-0315-4"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7195394"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0047",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0048",
+      "position": 47,
+      "title": "Regulation of Metallothionein Gene Expression by Oxidative Stress and Metal Ions",
+      "source": "Biochemical Pharmacology",
+      "year": "2000",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0048"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "59"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "95"
+        ],
+        "lpage": [
+          "104"
+        ]
+      },
+      "originalCitationText": "G. K.\nAndrews\n, “Regulation of Metallothionein Gene Expression by Oxidative Stress and Metal Ions,” Biochemical Pharmacology\n59, no. 1 (2000): 95–104.10605938\n10.1016/s0006-2952(99)00301-9",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "10605938"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/s0006-2952(99)00301-9"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0048",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0049",
+      "position": 48,
+      "title": "Transcription Factors: Specific DNA Binding and Specific Gene Regulation",
+      "source": "Trends in Genetics",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0049"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "30"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "211"
+        ],
+        "lpage": [
+          "219"
+        ]
+      },
+      "originalCitationText": "A.‐L.\nTodeschini\n, \nA.\nGeorges\n, and \nR. A.\nVeitia\n, “Transcription Factors: Specific DNA Binding and Specific Gene Regulation,” Trends in Genetics\n30, no. 6 (2014): 211–219.24774859\n10.1016/j.tig.2014.04.002",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "24774859"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.tig.2014.04.002"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0049",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0050",
+      "position": 49,
+      "title": "Herpes Simplex Virus 1 as an Oncolytic Viral Therapy for Refractory Cancers",
+      "source": "Frontiers in Oncology",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0050"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "elocation-id": [
+          "940019"
+        ]
+      },
+      "originalCitationText": "H.\nScanlan\n, \nZ.\nCoffman\n, \nJ.\nBettencourt\n, \nT.\nShipley\n, and \nD. E.\nBramblett\n, “Herpes Simplex Virus 1 as an Oncolytic Viral Therapy for Refractory Cancers,” Frontiers in Oncology\n12 (2022): 940019.35965554\n10.3389/fonc.2022.940019PMC9364694",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "35965554"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.3389/fonc.2022.940019"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9364694"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0050",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0051",
+      "position": 50,
+      "title": "Human Papillomavirus and Ovarian Cancer (Review of Literature and Meta‐Analysis)",
+      "source": "Infection, Genetics and Evolution",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0051"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "95"
+        ],
+        "elocation-id": [
+          "105086"
+        ]
+      },
+      "originalCitationText": "M. K.\nIbragimova\n, \nE. V.\nKokorina\n, \nM. M.\nTsyganov\n, \nO. N.\nChuruksaeva\n, and \nN. V.\nLitviakov\n, “Human Papillomavirus and Ovarian Cancer (Review of Literature and Meta‐Analysis),” Infection, Genetics and Evolution\n95 (2021): 105086.10.1016/j.meegid.2021.10508634536579",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.meegid.2021.105086"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34536579"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0051",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0052",
+      "position": 51,
+      "title": "Lifestyle and Reproductive Factors and Ovarian Cancer Risk by p53 and MAPK Expression",
+      "source": "Cancer Epidemiology, Biomarkers & Prevention",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0052"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "96"
+        ],
+        "lpage": [
+          "102"
+        ]
+      },
+      "originalCitationText": "H. R.\nHarris\n, \nM. S.\nRice\n, \nA. L.\nShafrir\n, et al., “Lifestyle and Reproductive Factors and Ovarian Cancer Risk by p53 and MAPK Expression,” Cancer Epidemiology, Biomarkers & Prevention\n27, no. 1 (2018): 96–102.10.1158/1055-9965.EPI-17-0609PMC599304329133366",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1158/1055-9965.EPI-17-0609"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5993043"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29133366"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0052",
+        "position": 51,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0053",
+      "position": 52,
+      "title": "Data Clustering: 50 Years beyond K‐Means",
+      "source": "Pattern Recognition Letters",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0053"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "31"
+        ],
+        "issue": [
+          "8"
+        ],
+        "fpage": [
+          "651"
+        ],
+        "lpage": [
+          "666"
+        ]
+      },
+      "originalCitationText": "A. K.\nJain\n, “Data Clustering: 50 Years beyond K‐Means,” Pattern Recognition Letters\n31, no. 8 (2010): 651–666.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0053",
+        "position": 52,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0054",
+      "position": 53,
+      "title": "Identifying Multicellular Spatiotemporal Organization of Cells with Space Flow",
+      "source": "Nature Communications",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0054"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "4076"
+        ]
+      },
+      "originalCitationText": "H.\nRen\n, \nB. L.\nWalker\n, \nZ.\nCang\n, and \nQ.\nNie\n, “Identifying Multicellular Spatiotemporal Organization of Cells with Space Flow,” Nature Communications\n13, no. 1 (2022): 4076.10.1038/s41467-022-31739-wPMC928353235835774",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41467-022-31739-w"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9283532"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35835774"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0054",
+        "position": 53,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0055",
+      "position": 54,
+      "title": "Comparing Partitions",
+      "source": "Journal of Classification",
+      "year": "1985",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0055"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "fpage": [
+          "193"
+        ],
+        "lpage": [
+          "218"
+        ]
+      },
+      "originalCitationText": "L.\nHubert\n and \nP.\nArabie\n, “Comparing Partitions,” Journal of Classification\n2 (1985): 193–218.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0055",
+        "position": 54,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0056",
+      "position": 55,
+      "title": "Fast, Sensitive and Accurate Integration of Single‐Cell Data with Harmony",
+      "source": "Nature Methods",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0056"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "16"
+        ],
+        "issue": [
+          "12"
+        ],
+        "fpage": [
+          "1289"
+        ],
+        "lpage": [
+          "1296"
+        ]
+      },
+      "originalCitationText": "I.\nKorsunsky\n, \nN.\nMillard\n, \nJ.\nFan\n, et al., “Fast, Sensitive and Accurate Integration of Single‐Cell Data with Harmony,” Nature Methods\n16, no. 12 (2019): 1289–1296.31740819\n10.1038/s41592-019-0619-0PMC6884693",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "31740819"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41592-019-0619-0"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6884693"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0056",
+        "position": 55,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0057",
+      "position": 56,
+      "title": "SRTsim: Spatial Pattern Preserving Simulations for Spatially Resolved Transcriptomics",
+      "source": "Genome Biology",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0057"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "24"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "39"
+        ]
+      },
+      "originalCitationText": "J.\nZhu\n, \nL.\nShang\n, and \nX.\nZhou\n, “SRTsim: Spatial Pattern Preserving Simulations for Spatially Resolved Transcriptomics,” Genome Biology\n24, no. 1 (2023): 39.36869394\n10.1186/s13059-023-02879-zPMC9983268",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "36869394"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/s13059-023-02879-z"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9983268"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0057",
+        "position": 56,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0058",
+      "position": 57,
+      "title": "Single‐cell Stereo‐seq Reveals Induced Progenitor Cells Involved in Axolotl Brain Regeneration",
+      "source": "Science",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0058"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "377"
+        ],
+        "issue": [
+          "6610"
+        ],
+        "elocation-id": [
+          "abp9444"
+        ]
+      },
+      "originalCitationText": "X.\nWei\n, \nS.\nFu\n, \nH.\nLi\n, et al., “Single‐cell Stereo‐seq Reveals Induced Progenitor Cells Involved in Axolotl Brain Regeneration,” Science\n377, no. 6610 (2022): abp9444.10.1126/science.abp944436048929",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1126/science.abp9444"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36048929"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0058",
+        "position": 57,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0059",
+      "position": 58,
+      "title": "Spatiotemporal Transcriptomic Maps of Whole Mouse Embryos at the Onset of Organogenesis",
+      "source": "Nature Genetics",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0059"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "55"
+        ],
+        "issue": [
+          "7"
+        ],
+        "fpage": [
+          "1176"
+        ],
+        "lpage": [
+          "1185"
+        ]
+      },
+      "originalCitationText": "A.\nSampath Kumar\n, \nL.\nTian\n, \nA.\nBolondi\n, et al., “Spatiotemporal Transcriptomic Maps of Whole Mouse Embryos at the Onset of Organogenesis,” Nature Genetics\n55, no. 7 (2023): 1176–1185.37414952\n10.1038/s41588-023-01435-6PMC10335937",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "37414952"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41588-023-01435-6"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10335937"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0059",
+        "position": 58,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0060",
+      "position": 59,
+      "title": "Dictionary Learning for Integrative, Multimodal and Scalable Single‐Cell Analysis",
+      "source": "Nature Biotechnology",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0060"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "42"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "293"
+        ],
+        "lpage": [
+          "304"
+        ]
+      },
+      "originalCitationText": "Y.\nHao\n, \nT.\nStuart\n, \nM. H.\nKowalski\n, et al., “Dictionary Learning for Integrative, Multimodal and Scalable Single‐Cell Analysis,” Nature Biotechnology\n42, no. 2 (2024): 293–304.10.1038/s41587-023-01767-yPMC1092851737231261",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41587-023-01767-y"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10928517"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37231261"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0060",
+        "position": 59,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0061",
+      "position": 60,
+      "title": "Mapping the Transcriptome: Realizing the Full Potential of Spatial Data Analysis",
+      "source": "Cell",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0061"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "186"
+        ],
+        "issue": [
+          "26"
+        ],
+        "fpage": [
+          "5677"
+        ],
+        "lpage": [
+          "5689"
+        ]
+      },
+      "originalCitationText": "E.\nZormpas\n, \nR.\nQueen\n, \nA.\nComber\n, and \nS. J.\nCockell\n, “Mapping the Transcriptome: Realizing the Full Potential of Spatial Data Analysis,” Cell\n186, no. 26 (2023): 5677–5689.38065099\n10.1016/j.cell.2023.11.003",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "38065099"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.cell.2023.11.003"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0061",
+        "position": 60,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0062",
+      "position": 61,
+      "title": "Local Spatial Autocorrelation Statistics: Distributional Issues and an Application",
+      "source": "Geographical Analysis",
+      "year": "1995",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0062"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "286"
+        ],
+        "lpage": [
+          "306"
+        ]
+      },
+      "originalCitationText": "J. K.\nOrd\n and \nA.\nGetis\n, “Local Spatial Autocorrelation Statistics: Distributional Issues and an Application,” Geographical Analysis\n27, no. 4 (1995): 286–306.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0062",
+        "position": 61,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0063",
+      "position": 62,
+      "title": "KOBAS‐i: Intelligent Prioritization and Exploratory Visualization of Biological Functions for Gene Enrichment Analysis",
+      "source": "Nucleic Acids Research",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0063"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "49"
+        ],
+        "issue": [
+          "W1"
+        ],
+        "fpage": [
+          "W317"
+        ],
+        "lpage": [
+          "W325"
+        ]
+      },
+      "originalCitationText": "D.\nBu\n, \nH.\nLuo\n, \nP.\nHuo\n, et al., “KOBAS‐i: Intelligent Prioritization and Exploratory Visualization of Biological Functions for Gene Enrichment Analysis,” Nucleic Acids Research\n49, no. W1 (2021): W317–W325.34086934\n10.1093/nar/gkab447PMC8265193",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "34086934"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/nar/gkab447"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8265193"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0063",
+        "position": 62,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0064",
+      "position": 63,
+      "title": "Gene Ontology: Tool for the Unification of Biology",
+      "source": "Nature Genetics",
+      "year": "2000",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0064"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "25"
+        ],
+        "lpage": [
+          "29"
+        ]
+      },
+      "originalCitationText": "M.\nAshburner\n, \nC. A.\nBall\n, \nJ. A.\nBlake\n, et al., “Gene Ontology: Tool for the Unification of Biology,” Nature Genetics\n25, no. 1 (2000): 25–29.10802651\n10.1038/75556PMC3037419",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "10802651"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/75556"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3037419"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0064",
+        "position": 63,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0065",
+      "position": 64,
+      "title": "KEGG: Kyoto Encyclopedia of Genes and Genomes",
+      "source": "Nucleic Acids Research",
+      "year": "2000",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0065"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "27"
+        ],
+        "lpage": [
+          "30"
+        ]
+      },
+      "originalCitationText": "M.\nKanehisa\n and \nS.\nGoto\n, “KEGG: Kyoto Encyclopedia of Genes and Genomes,” Nucleic Acids Research\n28, no. 1 (2000): 27–30.10592173\n10.1093/nar/28.1.27PMC102409",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "10592173"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/nar/28.1.27"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC102409"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0065",
+        "position": 64,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0066",
+      "position": 65,
+      "title": "Slingshot: Cell Lineage and Pseudotime Inference for Single‐Cell Transcriptomics",
+      "source": "BMC Genomics",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0066"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "19"
+        ],
+        "fpage": [
+          "477"
+        ]
+      },
+      "originalCitationText": "K.\nStreet\n, \nD.\nRisso\n, \nR. B.\nFletcher\n, et al., “Slingshot: Cell Lineage and Pseudotime Inference for Single‐Cell Transcriptomics,” BMC Genomics\n19 (2018): 477.29914354\n10.1186/s12864-018-4772-0PMC6007078",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "29914354"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/s12864-018-4772-0"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6007078"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0066",
+        "position": 65,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0067",
+      "position": 66,
+      "title": "CellChat for Systematic Analysis of Cell–Cell Communication from Single‐Cell Transcriptomics",
+      "source": "Nature Protocols",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0067"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "20"
+        ],
+        "fpage": [
+          "180"
+        ],
+        "lpage": [
+          "219"
+        ]
+      },
+      "originalCitationText": "S.\nJin\n, \nM. V.\nPlikus\n, and \nQ.\nNie\n, “CellChat for Systematic Analysis of Cell–Cell Communication from Single‐Cell Transcriptomics,” Nature Protocols\n20 (2024): 180–219.39289562\n10.1038/s41596-024-01045-4",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "39289562"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41596-024-01045-4"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0067",
+        "position": 66,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "advs74260-bib-0068",
+      "position": 67,
+      "title": "An Expression Atlas of human Primary Cells: Inference of Gene Function from Coexpression Networks",
+      "source": "BMC Genomics",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "advs74260-cite-0068"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "fpage": [
+          "632"
+        ]
+      },
+      "originalCitationText": "N. A.\nMabbott\n, \nJ.\nBaillie\n, \nH.\nBrown\n, \nT. C.\nFreeman\n, and \nD. A.\nHume\n, “An Expression Atlas of human Primary Cells: Inference of Gene Function from Coexpression Networks,” BMC Genomics\n14 (2013): 632.24053356\n10.1186/1471-2164-14-632PMC3849585",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "24053356"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/1471-2164-14-632"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3849585"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13248816/article.xml",
+        "articleSha256": "ca17cb0b56c5ab3e9ee04a75038a9fa4660d370cd0542cbe2bcc7c8cedcca625",
+        "referenceId": "advs74260-bib-0068",
+        "position": 67,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Advanced Science"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "Adv Sci (Weinh)"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "Adv Sci (Weinh)"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "2933"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "advsci"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101664569"
+      },
+      {
+        "journal-id-type": "publisher-id",
+        "value": "ADVS"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "2198-3844"
+      }
+    ],
+    "publisherNames": [
+      "Wiley"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "13"
+    ],
+    "issue": [
+      "30"
+    ],
+    "elocation-id": [
+      "e20912"
+    ]
+  }
+}

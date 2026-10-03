@@ -1,0 +1,2400 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  amphitherm-source-reader:
+    scientificName: Kaloula pulchra
+    name:
+      en: Kaloula pulchra
+      zh: Kaloula pulchra
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/0/text/zh
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "1339"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/1/text/zh
+        sourceRowNumber: 1190
+      - topic: ecology
+        title:
+          en: Selected critical lower thermal limit estimate
+          zh: 选列的临界低温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "1839"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/2/text/zh
+        sourceRowNumber: 1656
+    sources:
+      referenceBindings:
+        - referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+          metadataVariant: 0
+          sourceKey: amphitherm
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - year
+            - doi
+            - url
+            - datasetUrl
+            - version
+            - associatedArchivedReleaseDoi
+            - accessedAt
+            - license
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 1190
+        values:
+          - "1339"
+          - Jose O. Valdebenito
+          - Daniel_2013
+          - IMPACTS OF CLIMATE CHANGE ON SINGAPORE AMPHIBIANS
+          - "2013"
+          - "4"
+          - Are tropical amphibians more vulnerable to climatic warming compared to subtropical or temperate species?
+          - not_peer-reviewed
+          - NA
+          - English
+          - Kaloula_pulchra_pop5
+          - Kaloula_pulchra_pop5_UTL_co1
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were not provided
+          - NA
+          - NA
+          - "28.9"
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented (25-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4.4
+          - NA
+          - NA
+          - "39.1"
+          - "0.12244898"
+          - NA
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/0/values/83
+      - rowNumber: 1644
+        values:
+          - "1827"
+          - Hsien-Yung Lin
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop1
+          - Kaloula_pulchra_pop1_UTL_co1
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.73465278"
+          - "120.3181028"
+          - "14"
+          - NA
+          - NA
+          - NA
+          - April_2011
+          - September_2013
+          - April to September (wet season and breeding season) in 2011, 2012, and 2013
+          - "28.3"
+          - NA
+          - NA
+          - NA
+          - The ambient_temp is the mean temperature across the sampling months (April to September)
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were tested during daytime (10:00 - 15:00)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "40"
+          - "0.4503"
+          - "3"
+          - sd
+          - NA
+      - rowNumber: 1645
+        values:
+          - "1828"
+          - Hsien-Yung Lin
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop1
+          - Kaloula_pulchra_pop1_UTL_co2
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.73465278"
+          - "120.3181028"
+          - "14"
+          - NA
+          - NA
+          - NA
+          - April_2011
+          - September_2013
+          - April to September (wet season and breeding season) in 2011, 2012, and 2013
+          - "28.3"
+          - NA
+          - NA
+          - NA
+          - The ambient_temp is the mean temperature across the sampling months (April to September)
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were tested during nighttime (19:00 - 00:00)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "41.42"
+          - "0.6708"
+          - "20"
+          - sd
+          - NA
+      - rowNumber: 1646
+        values:
+          - "1829"
+          - Hsien-Yung Lin
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop1
+          - Kaloula_pulchra_pop1_UTL_co3
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.73465278"
+          - "120.3181028"
+          - "14"
+          - NA
+          - NA
+          - NA
+          - April_2011
+          - September_2013
+          - April to September (wet season and breeding season) in 2011, 2012, and 2013
+          - "28.3"
+          - NA
+          - NA
+          - NA
+          - The ambient_temp is the mean temperature across the sampling months (April to September)
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "17"
+          - NA
+          - "17.5"
+          - Acclimation time was taken as the mean of the range presented (14-21 days)
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were tested during nighttime (19:00 - 00:00)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 4
+          - NA
+          - NA
+          - "39.44"
+          - "0.7332"
+          - "21"
+          - sd
+          - NA
+      - rowNumber: 1647
+        values:
+          - "1830"
+          - Hsien-Yung Lin
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop1
+          - Kaloula_pulchra_pop1_UTL_co4
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.73465278"
+          - "120.3181028"
+          - "14"
+          - NA
+          - NA
+          - NA
+          - April_2011
+          - September_2013
+          - April to September (wet season and breeding season) in 2011, 2012, and 2013
+          - "28.3"
+          - NA
+          - NA
+          - NA
+          - The ambient_temp is the mean temperature across the sampling months (April to September)
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "27"
+          - NA
+          - "17.5"
+          - Acclimation time was taken as the mean of the range presented (14-21 days)
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were tested during nighttime (19:00 - 00:00)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 4
+          - NA
+          - NA
+          - "40.43"
+          - "1.4758"
+          - "20"
+          - sd
+          - NA
+      - rowNumber: 1648
+        values:
+          - "1831"
+          - Hsien-Yung Lin
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop2
+          - Kaloula_pulchra_pop2_UTL_co1
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.6748"
+          - "120.6343889"
+          - "76"
+          - NA
+          - NA
+          - NA
+          - April_2011
+          - September_2013
+          - April to September (wet season and breeding season) in 2011, 2012, and 2013
+          - "27.1"
+          - NA
+          - NA
+          - NA
+          - The ambient_temp is the mean temperature across the sampling months (April to September)
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were tested during daytime (10:00 - 15:00)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "41.23"
+          - "0.8944"
+          - "20"
+          - sd
+          - NA
+      - rowNumber: 1649
+        values:
+          - "1832"
+          - Hsien-Yung Lin
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop2
+          - Kaloula_pulchra_pop2_UTL_co2
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.6748"
+          - "120.6343889"
+          - "76"
+          - NA
+          - NA
+          - NA
+          - April_2011
+          - September_2013
+          - April to September (wet season and breeding season) in 2011, 2012, and 2013
+          - "27.1"
+          - NA
+          - NA
+          - NA
+          - The ambient_temp is the mean temperature across the sampling months (April to September)
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were tested during nighttime (19:00 - 00:00)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "40.76"
+          - "0.7001"
+          - "29"
+          - sd
+          - NA
+      - rowNumber: 1650
+        values:
+          - "1833"
+          - Hsien-Yung Lin
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop2
+          - Kaloula_pulchra_pop2_UTL_co3
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.6748"
+          - "120.6343889"
+          - "76"
+          - NA
+          - NA
+          - NA
+          - April_2011
+          - September_2013
+          - April to September (wet season and breeding season) in 2011, 2012, and 2013
+          - "27.1"
+          - NA
+          - NA
+          - NA
+          - The ambient_temp is the mean temperature across the sampling months (April to September)
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "17"
+          - NA
+          - "17.5"
+          - Acclimation time was taken as the mean of the range presented (14-21 days)
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were tested during nighttime (19:00 - 00:00)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 4
+          - NA
+          - NA
+          - "39.44"
+          - "1.1545"
+          - "17"
+          - sd
+          - NA
+      - rowNumber: 1651
+        values:
+          - "1834"
+          - Hsien-Yung Lin
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop2
+          - Kaloula_pulchra_pop2_UTL_co4
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.6748"
+          - "120.6343889"
+          - "76"
+          - NA
+          - NA
+          - NA
+          - April_2011
+          - September_2013
+          - April to September (wet season and breeding season) in 2011, 2012, and 2013
+          - "27.1"
+          - NA
+          - NA
+          - NA
+          - The ambient_temp is the mean temperature across the sampling months (April to September)
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "27"
+          - NA
+          - "17.5"
+          - Acclimation time was taken as the mean of the range presented (14-21 days)
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were tested during nighttime (19:00 - 00:00)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 4
+          - NA
+          - NA
+          - "40.82"
+          - "0.8485"
+          - "18"
+          - sd
+          - NA
+      - rowNumber: 1652
+        values:
+          - "1835"
+          - Hsien-Yung Lin
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop3
+          - Kaloula_pulchra_pop3_UTL_co1
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.92996111"
+          - "120.2950194"
+          - "26"
+          - NA
+          - NA
+          - NA
+          - April_2011
+          - September_2013
+          - April to September (wet season and breeding season) in 2011, 2012, and 2013
+          - "27.6"
+          - NA
+          - NA
+          - NA
+          - The ambient_temp is the mean temperature across the sampling months (April to September)
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were tested during daytime (10:00 - 15:00)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "41.27"
+          - "0.7746"
+          - "15"
+          - sd
+          - NA
+      - rowNumber: 1653
+        values:
+          - "1836"
+          - Hsien-Yung Lin
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop3
+          - Kaloula_pulchra_pop3_UTL_co2
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.92996111"
+          - "120.2950194"
+          - "26"
+          - NA
+          - NA
+          - NA
+          - April_2011
+          - September_2013
+          - April to September (wet season and breeding season) in 2011, 2012, and 2013
+          - "27.6"
+          - NA
+          - NA
+          - NA
+          - The ambient_temp is the mean temperature across the sampling months (April to September)
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were tested during nighttime (19:00 - 00:00)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "41.52"
+          - "0.5628"
+          - "22"
+          - sd
+          - NA
+      - rowNumber: 1654
+        values:
+          - "1837"
+          - Hsien-Yung Lin
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop3
+          - Kaloula_pulchra_pop3_UTL_co3
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.92996111"
+          - "120.2950194"
+          - "26"
+          - NA
+          - NA
+          - NA
+          - April_2011
+          - September_2013
+          - April to September (wet season and breeding season) in 2011, 2012, and 2013
+          - "27.6"
+          - NA
+          - NA
+          - NA
+          - The ambient_temp is the mean temperature across the sampling months (April to September)
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "17"
+          - NA
+          - "17.5"
+          - Acclimation time was taken as the mean of the range presented (14-21 days)
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were tested during nighttime (19:00 - 00:00)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 4
+          - NA
+          - NA
+          - "40.04"
+          - "0.6235"
+          - "23"
+          - sd
+          - NA
+      - rowNumber: 1655
+        values:
+          - "1838"
+          - Hsien-Yung Lin
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop3
+          - Kaloula_pulchra_pop3_UTL_co4
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.92996111"
+          - "120.2950194"
+          - "26"
+          - NA
+          - NA
+          - NA
+          - April_2011
+          - September_2013
+          - April to September (wet season and breeding season) in 2011, 2012, and 2013
+          - "27.6"
+          - NA
+          - NA
+          - NA
+          - The ambient_temp is the mean temperature across the sampling months (April to September)
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "27"
+          - NA
+          - "17.5"
+          - Acclimation time was taken as the mean of the range presented (14-21 days)
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were tested during nighttime (19:00 - 00:00)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 4
+          - NA
+          - NA
+          - "41.1"
+          - "0.7348"
+          - "24"
+          - sd
+          - NA
+      - rowNumber: 1656
+        values:
+          - "1839"
+          - Yefeng Yang
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop1
+          - Kaloula_pulchra_pop1_LTL_co1
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.734653"
+          - "120.318103"
+          - "14"
+          - NA
+          - NA
+          - "2011"
+          - April_2011
+          - September_2011
+          - NA
+          - "28.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Daytime test
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "8.5"
+          - "0.37"
+          - "4"
+          - se
+          - NA
+      - rowNumber: 1657
+        values:
+          - "1840"
+          - Yefeng Yang
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop1
+          - Kaloula_pulchra_pop1_LTL_co1
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.734653"
+          - "120.318103"
+          - "14"
+          - NA
+          - NA
+          - "2011"
+          - April_2011
+          - September_2011
+          - NA
+          - "28.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Nightime test
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "9.53"
+          - "0.14"
+          - "18"
+          - se
+          - NA
+      - rowNumber: 1658
+        values:
+          - "1841"
+          - Yefeng Yang
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop1
+          - Kaloula_pulchra_pop1_LTL_co1
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.734653"
+          - "120.318103"
+          - "14"
+          - NA
+          - NA
+          - "2011"
+          - April_2011
+          - September_2011
+          - NA
+          - "28.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "17"
+          - NA
+          - "17.5"
+          - Acclimation time was taken as the mean of the range presented (14-21 days)
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Daytime test
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "7.93"
+          - "0.2"
+          - "19"
+          - se
+          - NA
+      - rowNumber: 1659
+        values:
+          - "1842"
+          - Yefeng Yang
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop1
+          - Kaloula_pulchra_pop1_LTL_co1
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.734653"
+          - "120.318103"
+          - "14"
+          - NA
+          - NA
+          - "2011"
+          - April_2011
+          - September_2011
+          - NA
+          - "28.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "27"
+          - NA
+          - "17.5"
+          - Acclimation time was taken as the mean of the range presented (14-21 days)
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Nightime test
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "8.94"
+          - "0.19"
+          - "19"
+          - se
+          - NA
+      - rowNumber: 1660
+        values:
+          - "1843"
+          - Yefeng Yang
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop2
+          - Kaloula_pulchra_pop2_LTL_co1
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.6748"
+          - "120.634389"
+          - "76"
+          - NA
+          - NA
+          - "2011"
+          - April_2011
+          - September_2011
+          - NA
+          - "27.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Daytime test
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "8.4"
+          - "0.09"
+          - "20"
+          - se
+          - NA
+      - rowNumber: 1661
+        values:
+          - "1844"
+          - Yefeng Yang
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop2
+          - Kaloula_pulchra_pop2_LTL_co1
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.6748"
+          - "120.634389"
+          - "76"
+          - NA
+          - NA
+          - "2011"
+          - April_2011
+          - September_2011
+          - NA
+          - "27.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Nightime test
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "8.86"
+          - "0.12"
+          - "27"
+          - se
+          - NA
+      - rowNumber: 1662
+        values:
+          - "1845"
+          - Yefeng Yang
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop2
+          - Kaloula_pulchra_pop2_LTL_co1
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.6748"
+          - "120.634389"
+          - "76"
+          - NA
+          - NA
+          - "2011"
+          - April_2011
+          - September_2011
+          - NA
+          - "27.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "17"
+          - NA
+          - "17.5"
+          - Acclimation time was taken as the mean of the range presented (14-21 days)
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Daytime test
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "7.6"
+          - "0.16"
+          - "21"
+          - se
+          - NA
+      - rowNumber: 1663
+        values:
+          - "1846"
+          - Yefeng Yang
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop2
+          - Kaloula_pulchra_pop2_LTL_co1
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.6748"
+          - "120.634389"
+          - "76"
+          - NA
+          - NA
+          - "2011"
+          - April_2011
+          - September_2011
+          - NA
+          - "27.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "27"
+          - NA
+          - "17.5"
+          - Acclimation time was taken as the mean of the range presented (14-21 days)
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Nightime test
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "8.36"
+          - "0.15"
+          - "19"
+          - se
+          - NA
+      - rowNumber: 1664
+        values:
+          - "1847"
+          - Yefeng Yang
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop3
+          - Kaloula_pulchra_pop3_LTL_co1
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.929961"
+          - "120.295019"
+          - "26"
+          - NA
+          - NA
+          - "2011"
+          - April_2011
+          - September_2011
+          - NA
+          - "27.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Daytime test
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "8.49"
+          - "0.1"
+          - "17"
+          - se
+          - NA
+      - rowNumber: 1665
+        values:
+          - "1848"
+          - Yefeng Yang
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop3
+          - Kaloula_pulchra_pop3_LTL_co1
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.929961"
+          - "120.295019"
+          - "26"
+          - NA
+          - NA
+          - "2011"
+          - April_2011
+          - September_2011
+          - NA
+          - "27.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Nightime test
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "8.69"
+          - "0.15"
+          - "21"
+          - se
+          - NA
+      - rowNumber: 1666
+        values:
+          - "1849"
+          - Yefeng Yang
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop4
+          - Kaloula_pulchra_pop4_LTL_co1
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.929961"
+          - "120.634389"
+          - "26"
+          - NA
+          - NA
+          - "2011"
+          - April_2011
+          - September_2011
+          - NA
+          - "27.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "17"
+          - NA
+          - "17.5"
+          - Acclimation time was taken as the mean of the range presented (14-21 days)
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Daytime test
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "7.53"
+          - "0.13"
+          - "24"
+          - se
+          - NA
+      - rowNumber: 1667
+        values:
+          - "1850"
+          - Yefeng Yang
+          - Fong_2014
+          - Thermal tolerance of adult Asiatic painted frog Kaloula pulchra from different populations
+          - "2014"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Traditional Chinese
+          - Kaloula_pulchra_pop4
+          - Kaloula_pulchra_pop4_LTL_co1
+          - NA
+          - Anura
+          - Microhylidae
+          - Kaloula pulchra
+          - NA
+          - LC
+          - wild
+          - NA
+          - "22.929961"
+          - "120.634389"
+          - "26"
+          - NA
+          - NA
+          - "2011"
+          - April_2011
+          - September_2011
+          - NA
+          - "27.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "27"
+          - NA
+          - "17.5"
+          - Acclimation time was taken as the mean of the range presented (14-21 days)
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - prodding
+          - water
+          - "27"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Nightime test
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "9.05"
+          - "0.11"
+          - "23"
+          - se
+          - NA
+    originalStudyCitations:
+      - ref: Daniel_2013
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/0/title
+          format: heading
+        doi: NA
+        year: "2013"
+      - ref: Fong_2014
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/1/title
+          format: heading
+        doi: NA
+        year: "2014"
+    selectedEstimateRowNumbers:
+      - 1190
+      - 1656
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3QZL4
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/zh
+---
+
+# Kaloula pulchra — AmphiTherm source
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator -->
+Cleaned_and_curated_data_Amphitherm.csv, rows 1190, 1644, 1645, 1646, 1647, 1648, 1649, 1650, 1651, 1652, 1653, 1654, 1655, 1656, 1657, 1658, 1659, 1660, 1661, 1662, 1663, 1664, 1665, 1666, 1667; Metadata_AmphiTherm.xlsx
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en -->
+Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh -->
+固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/0/values/83 -->
+Data was digitised from figure 4.4. 95% confidence intervals were converted to se by dividing them by 1.96. Sample sizes were not reported.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/en -->
+Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete; not externally expert-reviewed.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/zh -->
+部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成；未经过外部领域专家评审。
+<!-- /evo:text -->

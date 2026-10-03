@@ -1,0 +1,33 @@
+{
+  "pmc": "PMC9985417",
+  "retrieval": "Official PMC Article Datasets cloud; DOI/license matched and both DOCX MD5 values matched metadata",
+  "files": [
+    "peerj-11-14715-s001.docx",
+    "peerj-11-14715-s004.docx"
+  ],
+  "extraction": "myersi-supplement-docx-extraction.json",
+  "appendixDonorRows": 231,
+  "distanceTables": 9,
+  "readScopeSoFar": [
+    "Both document paragraph captions and table headers/first two data rows",
+    "All Appendix species-label cells to identify named versus candidate labels",
+    "Appendix rows192–195 allcells (floridus)",
+    "Allcells of Appendix named rows excluding sp./cf. labels; original donor/accession/locality/coordinate/elevation/reference strings inspected"
+  ],
+  "floridusScope": "Four reported specimens/localities but GenBank column dash in each; not new sampled molecular placement. Printed decimal-comma/hemisphere/locality strings must remain unchanged pending independent coordinate reconciliation.",
+  "remaining": [
+    "Candidate/qualified Appendix donor-row cells; exact named rows nowread, mapping/prose pending",
+    "Distance-table tip labels and selected pair cells with exact row/column locators",
+    "Original alignment/audio/voucher identities and complete biological facets"
+  ],
+  "firstAuthoringBatch": 313,
+  "fullArticleCertifiedRead": false,
+  "testsRun": false,
+  "namedRowIssues": [
+    "mutabilis row19 elevation12O2 containsletterO, not silently numeric1202",
+    "onorei rows174–176 longitude fields printedN ratherthanW; coordinates notsilentlyrepaired",
+    "devillei row210 andpichincha row211 shareEF493688.1 with different vouchers/localities",
+    "floridus fourrows haveGenBankdash, notsampledDNAplacement",
+    "brevifros row219 exactaccepted-namebridge needed beforeassigningbrevifrons oranyothername"
+  ]
+}

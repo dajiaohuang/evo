@@ -1,0 +1,36 @@
+import fs from 'node:fs'
+const groups=[
+ {colId:'3B8W',name:'Bolitoglossa',readingRoutes:['MDNN','MDPF','MDQF','MDQN','MDR7','MDRL','MDRY','MDSD','68MX3','MDSZ'],sections:[
+ ['evolution','Ten sampled species reveal different repeat landscapes','十个所采种显示不同重复景观',
+ 'The 2024 study compared ten Bolitoglossa species with two Chiropterotriton and four Thorius, using one liver-DNA specimen per species. The Bolitoglossa sample is a selected part of the accepted genus. Detected repeat abundance ranged from 49.7% in yucatana to 60.2% in chinanteca in Table 1; these sampled-read proportions include uncategorized repeats and likely miss sequences degraded beyond recognition. LTRs were the most abundant classified order, but the mix of ERV and Gypsy differed among species. These are genomic comparisons, not measurements of feeding ecology, habitat quality or survival.',
+ '2024 年研究比较十个 Bolitoglossa、两个 Chiropterotriton、四个 Thorius，每种一个肝 DNA 标本。Bolitoglossa 样本是有效属所选部分。表一可检出重复丰度由 yucatana 49.7% 至 chinanteca 60.2%；所抽读段比例含未分类重复，并可能遗漏退化至无法识别序列。LTR 为最丰富的已分类目，但 ERV、Gypsy 构成在种间不同。这是基因组比较，不测摄食生态、生境质量或存活。'],
+ ['evolution','Larger and smaller genome groups have relative divergence histories','较大与较小基因组组有相对分化历史',
+ 'The authors group macrinii, flaviventris, mexicana, platydactyla, stuarti and yucatana by higher-distance ERV peaks, and chinanteca, rufescens, occidentalis and veracrucis by lower-distance peaks. These are repeat-consensus divergences, not absolute ages. The Methods call rufescens the smallest-genome Bolitoglossa chosen for assembly, whereas Table 1 lists a smaller C-value for veracrucis. The Discussion also overgeneralizes all Bolitoglossa genomes as exceeding forty gigabases. The species pages retain table units and these conflicts rather than certifying the incorrect minimum or converting picograms directly into gigabases.',
+ '作者将 macrinii、flaviventris、mexicana、platydactyla、stuarti、yucatana 归较高距离 ERV 峰组，chinanteca、rufescens、occidentalis、veracrucis 归较低距离峰组。它们是相对重复共识序列分化，不是绝对年龄。方法称用于组装的 rufescens 为最小基因组 Bolitoglossa，但表一列 veracrucis 更小 C 值；讨论又概括所有 Bolitoglossa 基因组超过四十 Gb。物种页保留表单位与冲突，不认证错误最小值，也不把皮克直接换成 Gb。'],
+ ],sectionLocators:['PMC11562844 XML msae225-T1–T3; msae225-s5.2 paragraph 0; msae225-s3.1 paragraph 2','PMC11562844 XML msae225-s2.4 paragraphs 0–1; msae225-s5.3 paragraph 0; msae225-T1; msae225-s3.1 paragraph 2']},
+ {colId:'3NCW',name:'Chiropterotriton',readingRoutes:['5Y6M9','5Y6LB'],sections:[
+ ['evolution','Two species provide a narrow genomic comparison','两个种提供有限基因组比较',
+ 'Only dimidiatus and priscus represent Chiropterotriton in the sixteen-species study, each with one sequenced liver specimen. Table 1 reports 62.9% and 45.3% detectable repeats respectively, including uncategorized sequences. Their genome C-value estimates, 30.3 and 32.9 picograms, came from a separate densitometric evidence stream. The comparison does not establish a genus-wide distribution or population-level difference, and its sampled-read repeat percentages are likely below true repetitive content.',
+ '十六种研究仅以 dimidiatus、priscus 代表 Chiropterotriton，各一个肝测序标本。表一分别报 62.9%、45.3% 可检出重复，含未分类序列。基因组 C 值估计 30.3、32.9 皮克来自另行密度测定证据。比较不建立全属分布或种群层面差异，所抽读段重复比例也可能低于真实重复含量。'],
+ ['evolution','Different repeat histories do not prove silencing or deletion','不同重复历史不证明沉默或删除',
+ 'Dimidiatus had a stronger sampled Gypsy contribution and lower ERV contribution than priscus, with lower-distance ERV peaks and reads interpreted as recent expansion. Priscus retained an older high-distance pattern resembling larger Bolitoglossa. Without neutral mutation-rate calibration or deletion-rate measurements, the authors could not date these events absolutely or distinguish more effective silencing from deletion. A lower inferred expansion peak is not a direct measurement of gene regulation or transposition rate.',
+ 'dimidiatus 所采 Gypsy 比重比 priscus 高、ERV 比重低，有较低距离 ERV 峰及解释为近期扩张的读段。priscus 保留近较大 Bolitoglossa 的较旧高距离模式。没有中性突变率校准或删除率测量，作者不能绝对定年或区分较有效沉默与删除。较低推断扩张峰不是直接测基因调控或转座率。'],
+ ],sectionLocators:['PMC11562844 XML msae225-T1; msae225-s5.1–5.2; msae225-s3.1 paragraph 2','PMC11562844 XML msae225-T3; msae225-s2.4 paragraphs 0–1; msae225-s3.2 paragraphs 0–1']},
+ {colId:'7W8J',name:'Thorius',readingRoutes:['56KSX','56KT7','56KTG','56KTH'],sections:[
+ ['evolution','Four miniature-salamander species have different DNA landscapes','四个微型蝾螈种具有不同 DNA 景观',
+ 'The study sampled lunaris, narisovalis, spilogaster and tlaxiacus, with one liver-DNA specimen each. Their Table 1 C-values span 22.9–28.9 picograms, and detectable repeat proportions span 65.6–74.8%. These are selected species and sampled-read estimates, not a complete Thorius survey. Uncategorized repeats exceed Class I elements in lunaris and spilogaster; they are not thereby identified as a particular TE superfamily. Small animal body size should not be substituted for the paper’s measured DNA content.',
+ '研究采 lunaris、narisovalis、spilogaster、tlaxiacus，各一个肝 DNA 标本。表一 C 值跨 22.9–28.9 皮克，可检出重复比例跨 65.6–74.8%。这是所选种及所抽读段估计，不是完整 Thorius 调查。lunaris、spilogaster 未分类重复多于第一类元件，但并非因此识别为某个转座超家族。小动物体型不能代替论文测定 DNA 含量。'],
+ ['evolution','Tlaxiacus differs from the three smaller-genome samples','tlaxiacus 不同于三个较小基因组样本',
+ 'Within the four-species sample, tlaxiacus had the largest C-value and an ERV divergence peak around nine, while the other three had peaks below four and more low-distance evidence interpreted as ongoing expansion. The comparison concerns relative sequence divergence; absolute timing was unavailable. Across all sixteen species, repeat diversity and detectable repeat abundance were negatively associated with genome size after phylogenetic adjustment, but not every separate repeat class retained statistical support. Those cross-species associations do not demonstrate within-species growth, a single causal mechanism or universal differences among all Thorius.',
+ '四种样本内 tlaxiacus 的 C 值最大，ERV 分化峰约九，另三种峰在四以下，并有更多解释为持续扩张的低距离证据。比较涉及相对序列分化，没有绝对时间。跨全部十六种，重复多样性及可检出重复丰度与基因组大小在系统校正后负关联，但每个单独重复类并非都保留统计支持。种间关联不证明种内生长、单一因果机制或所有 Thorius 的普遍差异。'],
+ ],sectionLocators:['PMC11562844 XML msae225-T1; msae225-s2 paragraph 2; msae225-s5.2 paragraph 0','PMC11562844 XML msae225-s2.3 paragraph 0; msae225-s2.4 paragraphs 0–1; msae225-s3.2 paragraphs 0–1']},
+]
+const file='docs/amphibia-content/primary-direct-group-authoring-input.json'
+const entries=JSON.parse(fs.readFileSync(file))
+for(const group of groups){
+ const study={...group,pmc:'PMC11562844',year:2024,license:'CC BY-NC 4.0',licenseUrl:'https://creativecommons.org/licenses/by-nc/4.0/',sourceConcept:`${group.name}: selected species in sixteen-species repeat-landscape study`,readScope:'Methods, Tables 1–3, abundance/diversity/activity results and genome-size/phylogenetic discussion read; no independent original-read/supplementary-matrix reanalysis',scope:{en:'Selected sampled species only; no complete genus biology, population coverage or independent contemporary concept-equivalence certification.',zh:'仅限所采种；全属生物学、种群覆盖或现行概念等同性未经完整独立认证。'}}
+ const i=entries.findIndex(x=>x.pmc===study.pmc&&x.colId===study.colId)
+ if(i<0)entries.push(study);else entries[i]=study
+}
+fs.writeFileSync(file,JSON.stringify(entries,null,2)+'\n')
+console.log(JSON.stringify({groupReadersPrepared:3,researchSections:6,selectedReadingRoutes:16,testsRun:false}))

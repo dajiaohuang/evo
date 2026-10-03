@@ -1,0 +1,3929 @@
+{
+  "pmcid": "PMC5096699",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+  "sha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+  "articleType": "research-article",
+  "title": "Using Matrix and Tensor Factorizations for the Single-Trial Analysis of Population Spike Trains",
+  "authors": [],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC5096699"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "5096699"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "5096699"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "27814363"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1371/journal.pcbi.1005189"
+    }
+  ],
+  "publicationDates": [
+    {
+      "year": "2016",
+      "month": "11",
+      "day": "4"
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "pcbi.1005189.s001",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s001.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s001.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1005189.s002",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s002.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s002.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1005189.s003",
+      "position": 2,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s003.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s003.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1005189.s004",
+      "position": 3,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s004.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s004.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1005189.s005",
+      "position": 4,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s005.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s005.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1005189.s006",
+      "position": 5,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s006.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s006.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1005189.s007",
+      "position": 6,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s007.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s007.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1005189.s008",
+      "position": 7,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s008.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s008.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1005189.s009",
+      "position": 8,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s009.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s009.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1005189.s010",
+      "position": 9,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s010.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s010.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1005189.s011",
+      "position": 10,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s011.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s011.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1005189.s012",
+      "position": 11,
+      "links": [
+        {
+          "element": "ext-link",
+          "href": "http://tabby.vision.mcgill.ca",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "http://tabby.vision.mcgill.ca",
+            "ext-link-type": "uri"
+          }
+        },
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s012.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s012.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1005189.s013",
+      "position": 12,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s013.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s013.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1005189.s014",
+      "position": 13,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s014.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s014.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1005189.s015",
+      "position": 14,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s015.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s015.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1005189.s016",
+      "position": 15,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s016.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s016.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1005189.s017",
+      "position": 16,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s017.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s017.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1005189.s018",
+      "position": 17,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s018.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s018.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material1_reqid_",
+      "position": 18,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s001.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s001.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material2_reqid_",
+      "position": 19,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s002.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s002.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material3_reqid_",
+      "position": 20,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s003.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s003.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material4_reqid_",
+      "position": 21,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s004.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s004.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material5_reqid_",
+      "position": 22,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s005.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s005.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material6_reqid_",
+      "position": 23,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s006.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s006.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material7_reqid_",
+      "position": 24,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s007.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s007.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material8_reqid_",
+      "position": 25,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s008.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s008.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material9_reqid_",
+      "position": 26,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s009.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s009.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material10_reqid_",
+      "position": 27,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s010.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s010.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material11_reqid_",
+      "position": 28,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s011.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s011.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material12_reqid_",
+      "position": 29,
+      "links": [
+        {
+          "element": "ext-link",
+          "href": "http://tabby.vision.mcgill.ca",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "http://tabby.vision.mcgill.ca",
+            "ext-link-type": "uri"
+          }
+        },
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s012.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s012.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material13_reqid_",
+      "position": 30,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s013.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s013.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material14_reqid_",
+      "position": 31,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s014.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s014.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material15_reqid_",
+      "position": 32,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s015.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s015.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material16_reqid_",
+      "position": 33,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s016.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s016.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material17_reqid_",
+      "position": 34,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s017.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s017.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material18_reqid_",
+      "position": 35,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1005189.s018.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1005189.s018.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "pcbi.1005189.ref001",
+      "position": 0,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Abeles M, Gerstein GL. Detecting spatiotemporal firing patterns among simultaneously recorded single neurons. J Neurophysiol. 1988;60(3):909–24.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1152/jn.1988.60.3.909",
+        "3171666",
+        "journal=J Neurophysiol&title=Detecting spatiotemporal firing patterns among simultaneously recorded single neurons&author=M Abeles&author=GL Gerstein&volume=60&issue=3&publication_year=1988&pages=909-24&pmid=3171666&doi=10.1152/jn.1988.60.3.909&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref001",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref002",
+      "position": 1,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Haefner RM, Gerwinn S, Macke JH, Bethge M. Inferring decoding strategies from choice probabilities in the presence of correlated variability. Nat Neurosci. 2013;16(2):235–42. 10.1038/nn.3309",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nn.3309",
+        "23313912",
+        "journal=Nat Neurosci&title=Inferring decoding strategies from choice probabilities in the presence of correlated variability&author=RM Haefner&author=S Gerwinn&author=JH Macke&author=M Bethge&volume=16&issue=2&publication_year=2013&pages=235-42&pmid=23313912&doi=10.1038/nn.3309&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref002",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref003",
+      "position": 2,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kristan WB Jr., Shaw BK. Population coding and behavioral choice. Curr Opin Neurobiol. 1997;7(6):826–31.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/s0959-4388(97)80142-0",
+        "9464982",
+        "journal=Curr Opin Neurobiol&title=Population coding and behavioral choice&author=WB Kristan&author=BK Shaw&volume=7&issue=6&publication_year=1997&pages=826-31&pmid=9464982&doi=10.1016/s0959-4388(97)80142-0&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref003",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref004",
+      "position": 3,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Moreno-Bote R, Beck J, Kanitscheider I, Pitkow X, Latham P, Pouget A. Information-limiting correlations. Nat Neurosci. 2014. \n17(10):1410–7\n10.1038/nn.3807",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nn.3807",
+        "PMC4486057",
+        "25195105",
+        "journal=Nat Neurosci&title=Information-limiting correlations&author=R Moreno-Bote&author=J Beck&author=I Kanitscheider&author=X Pitkow&author=P Latham&volume=17&issue=10&publication_year=2014&pages=1410-7&pmid=25195105&doi=10.1038/nn.3807&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref004",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref005",
+      "position": 4,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Panzeri S, Macke JH, Gross J, Kayser C. Neural population coding: combining insights from microscopic and mass signals. Trends Cogn Sci. 2015;19(3):162–72. 10.1016/j.tics.2015.01.002",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.tics.2015.01.002",
+        "PMC4379382",
+        "25670005",
+        "journal=Trends Cogn Sci&title=Neural population coding: combining insights from microscopic and mass signals&author=S Panzeri&author=JH Macke&author=J Gross&author=C Kayser&volume=19&issue=3&publication_year=2015&pages=162-72&pmid=25670005&doi=10.1016/j.tics.2015.01.002&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref005",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref006",
+      "position": 5,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Pouget A, Dayan P, Zemel R. Information processing with population codes. Nat Rev Neurosci. 2000;1(2):125–32. 10.1038/35039062",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/35039062",
+        "11252775",
+        "journal=Nat Rev Neurosci&title=Information processing with population codes&author=A Pouget&author=P Dayan&author=R Zemel&volume=1&issue=2&publication_year=2000&pages=125-32&pmid=11252775&doi=10.1038/35039062&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref006",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref007",
+      "position": 6,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Engineer CT, Perez CA, Chen YH, Carraway RS, Reed AC, Shetake JA, et al. \nCortical activity patterns predict speech discrimination ability. Nat Neurosci. 2008;11(5):603–8. 10.1038/nn.2109",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nn.2109",
+        "PMC2951886",
+        "18425123",
+        "journal=Nat Neurosci&title=Cortical activity patterns predict speech discrimination ability&author=CT Engineer&author=CA Perez&author=YH Chen&author=RS Carraway&author=AC Reed&volume=11&issue=5&publication_year=2008&pages=603-8&pmid=18425123&doi=10.1038/nn.2109&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref007",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref008",
+      "position": 7,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Jacobs AL, Fridman G, Douglas RM, Alam NM, Latham PE, Prusky GT, et al. \nRuling out and ruling in neural codes. P Natl Acad Sci USA. 2009;106(14):5936–41. 10.1073/pnas.0900573106",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1073/pnas.0900573106",
+        "PMC2657589",
+        "19297621",
+        "journal=P Natl Acad Sci USA&title=Ruling out and ruling in neural codes&author=AL Jacobs&author=G Fridman&author=RM Douglas&author=NM Alam&author=PE Latham&volume=106&issue=14&publication_year=2009&pages=5936-41&pmid=19297621&doi=10.1073/pnas.0900573106&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref008",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref009",
+      "position": 8,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Zuo Y, Safaai H, Notaro G, Mazzoni A, Panzeri S, Diamond ME. Complementary contributions of spike timing and spike rate to perceptual decisions in rat S1 and S2 Cortex. Curr Biol. 2015;25(3):357–63. 10.1016/j.cub.2014.11.065",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.cub.2014.11.065",
+        "25619766",
+        "journal=Curr Biol&title=Complementary contributions of spike timing and spike rate to perceptual decisions in rat S1 and S2 Cortex&author=Y Zuo&author=H Safaai&author=G Notaro&author=A Mazzoni&author=S Panzeri&volume=25&issue=3&publication_year=2015&pages=357-63&pmid=25619766&doi=10.1016/j.cub.2014.11.065&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref009",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref010",
+      "position": 9,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bair W, Koch C. Temporal precision of spike trains in extrastriate cortex of the behaving macaque monkey. Neural Comput. 1996;8(6):1185–202.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1162/neco.1996.8.6.1185",
+        "8768391",
+        "journal=Neural Comput&title=Temporal precision of spike trains in extrastriate cortex of the behaving macaque monkey&author=W Bair&author=C Koch&volume=8&issue=6&publication_year=1996&pages=1185-202&pmid=8768391&doi=10.1162/neco.1996.8.6.1185&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref010",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref011",
+      "position": 10,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Buracas GT, Zador AM, DeWeese MR, Albright TD. Efficient discrimination of temporal patterns by motion-sensitive neurons in primate visual cortex. Neuron. 1998;20(5):959–69.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/s0896-6273(00)80477-8",
+        "9620700",
+        "journal=Neuron&title=Efficient discrimination of temporal patterns by motion-sensitive neurons in primate visual cortex&author=GT Buracas&author=AM Zador&author=MR DeWeese&author=TD Albright&volume=20&issue=5&publication_year=1998&pages=959-69&pmid=9620700&doi=10.1016/s0896-6273(00)80477-8&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref011",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref012",
+      "position": 11,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Gollisch T, Meister M. Rapid neural coding in the retina with relative spike latencies. Science. 2008;319(5866):1108–11. 10.1126/science.1149639",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1126/science.1149639",
+        "18292344",
+        "journal=Science&title=Rapid neural coding in the retina with relative spike latencies&author=T Gollisch&author=M Meister&volume=319&issue=5866&publication_year=2008&pages=1108-11&pmid=18292344&doi=10.1126/science.1149639&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref012",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref013",
+      "position": 12,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Heil P. First-spike latency of auditory neurons revisited. Curr Opin Neurobiol. 2004;14(4):461–7. 10.1016/j.conb.2004.07.002",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.conb.2004.07.002",
+        "15321067",
+        "journal=Curr Opin Neurobiol&title=First-spike latency of auditory neurons revisited&author=P Heil&volume=14&issue=4&publication_year=2004&pages=461-7&pmid=15321067&doi=10.1016/j.conb.2004.07.002&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref013",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref014",
+      "position": 13,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Laurent G. A systems perspective on early olfactory coding. Science. 1999;286(5440):723–8.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1126/science.286.5440.723",
+        "10531051",
+        "journal=Science&title=A systems perspective on early olfactory coding&author=G Laurent&volume=286&issue=5440&publication_year=1999&pages=723-8&pmid=10531051&doi=10.1126/science.286.5440.723&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref014",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref015",
+      "position": 14,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Panzeri S, Brunel N, Logothetis NK, Kayser C. Sensory neural codes using multiplexed temporal scales. Trends Neurosci. 2010;33:111–20. 10.1016/j.tins.2009.12.001",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.tins.2009.12.001",
+        "20045201",
+        "journal=Trends Neurosci&title=Sensory neural codes using multiplexed temporal scales&author=S Panzeri&author=N Brunel&author=NK Logothetis&author=C Kayser&volume=33&publication_year=2010&pages=111-20&pmid=20045201&doi=10.1016/j.tins.2009.12.001&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref015",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref016",
+      "position": 15,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Panzeri S, Petersen RS, Schultz SR, Lebedev M, Diamond ME. The role of spike timing in the coding of stimulus location in rat somatosensory cortex. Neuron. 2001;29(3):769–77.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/s0896-6273(01)00251-3",
+        "11301035",
+        "journal=Neuron&title=The role of spike timing in the coding of stimulus location in rat somatosensory cortex&author=S Panzeri&author=RS Petersen&author=SR Schultz&author=M Lebedev&author=ME Diamond&volume=29&issue=3&publication_year=2001&pages=769-77&pmid=11301035&doi=10.1016/s0896-6273(01)00251-3&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref016",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref017",
+      "position": 16,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Victor JD. How the brain uses time to represent and process visual information. Brain Res. 2000;886(1–2):33–46.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/s0006-8993(00)02751-7",
+        "11119685",
+        "journal=Brain Res&title=How the brain uses time to represent and process visual information&author=JD Victor&volume=886&issue=1–2&publication_year=2000&pages=33-46&pmid=11119685&doi=10.1016/s0006-8993(00)02751-7&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref017",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref018",
+      "position": 17,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Izhikevich EM, Gally JA, Edelman GM. Spike-timing dynamics of neuronal groups. Cereb Cortex. 2004;14(8):933–44. 10.1093/cercor/bhh053",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/cercor/bhh053",
+        "15142958",
+        "journal=Cereb Cortex&title=Spike-timing dynamics of neuronal groups&author=EM Izhikevich&author=JA Gally&author=GM Edelman&volume=14&issue=8&publication_year=2004&pages=933-44&pmid=15142958&doi=10.1093/cercor/bhh053&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref018",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref019",
+      "position": 18,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Nádasdy Z, Hirase H, Czurkó A, Csicsvari J, Buzsáki G. Replay and time compression of recurring spike sequences in the hippocampus. J Neurosci. 1999;19(21):9497–507.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1523/JNEUROSCI.19-21-09497.1999",
+        "PMC6782894",
+        "10531452",
+        "journal=J Neurosci&title=Replay and time compression of recurring spike sequences in the hippocampus&author=Z Nádasdy&author=H Hirase&author=A Czurkó&author=J Csicsvari&author=G Buzsáki&volume=19&issue=21&publication_year=1999&pages=9497-507&pmid=10531452&doi=10.1523/JNEUROSCI.19-21-09497.1999&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref019",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref020",
+      "position": 19,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Prut Y, Vaadia E, Bergman H, Haalman I, Slovin H, Abeles M. Spatiotemporal structure of cortical activity: properties and behavioral relevance. J Neurophysiol. 1998;79(6):2857–74.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1152/jn.1998.79.6.2857",
+        "9636092",
+        "journal=J Neurophysiol&title=Spatiotemporal structure of cortical activity: properties and behavioral relevance&author=Y Prut&author=E Vaadia&author=H Bergman&author=I Haalman&author=H Slovin&volume=79&issue=6&publication_year=1998&pages=2857-74&pmid=9636092&doi=10.1152/jn.1998.79.6.2857&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref020",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref021",
+      "position": 20,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Villa AE, Tetko IV, Hyland B, Najem A. Spatiotemporal activity patterns of rat cortical neurons predict responses in a conditioned task. P Natl Acad Sci USA. 1999;96(3):1106–11.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1073/pnas.96.3.1106",
+        "PMC15358",
+        "9927701",
+        "journal=P Natl Acad Sci USA&title=Spatiotemporal activity patterns of rat cortical neurons predict responses in a conditioned task&author=AE Villa&author=IV Tetko&author=B Hyland&author=A Najem&volume=96&issue=3&publication_year=1999&pages=1106-11&pmid=9927701&doi=10.1073/pnas.96.3.1106&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref021",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref022",
+      "position": 21,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Luczak A, Barthó P, Harris KD. Spontaneous events outline the realm of possible sensory responses in neocortical populations. Neuron. 2009;62(3):413–25. 10.1016/j.neuron.2009.03.014",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.neuron.2009.03.014",
+        "PMC2696272",
+        "19447096",
+        "journal=Neuron&title=Spontaneous events outline the realm of possible sensory responses in neocortical populations&author=A Luczak&author=P Barthó&author=KD Harris&volume=62&issue=3&publication_year=2009&pages=413-25&pmid=19447096&doi=10.1016/j.neuron.2009.03.014&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref022",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref023",
+      "position": 22,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Luczak A, Bartho P, Harris KD. Gating of sensory input by spontaneous cortical activity. J Neurosci. 2013;33(4):1684–95. 10.1523/JNEUROSCI.2928-12.2013",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1523/JNEUROSCI.2928-12.2013",
+        "PMC3672963",
+        "23345241",
+        "journal=J Neurosci&title=Gating of sensory input by spontaneous cortical activity&author=A Luczak&author=P Bartho&author=KD Harris&volume=33&issue=4&publication_year=2013&pages=1684-95&pmid=23345241&doi=10.1523/JNEUROSCI.2928-12.2013&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref023",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref024",
+      "position": 23,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kayser C, Logothetis NK, Panzeri S. Millisecond encoding precision of auditory cortex neurons. P Natl Acad Sci USA. 2010;107(39):16976–81. 10.1073/pnas.1012656107",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1073/pnas.1012656107",
+        "PMC2947890",
+        "20837521",
+        "journal=P Natl Acad Sci USA&title=Millisecond encoding precision of auditory cortex neurons&author=C Kayser&author=NK Logothetis&author=S Panzeri&volume=107&issue=39&publication_year=2010&pages=16976-81&pmid=20837521&doi=10.1073/pnas.1012656107&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref024",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref025",
+      "position": 24,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Schneidman E, Berry MJ, Segev R, Bialek W. Weak pairwise correlations imply strongly correlated network states in a neural population. Nature. 2006;440(7087):1007–12. 10.1038/nature04701",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nature04701",
+        "PMC1785327",
+        "16625187",
+        "journal=Nature&title=Weak pairwise correlations imply strongly correlated network states in a neural population&author=E Schneidman&author=MJ Berry&author=R Segev&author=W Bialek&volume=440&issue=7087&publication_year=2006&pages=1007-12&pmid=16625187&doi=10.1038/nature04701&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref025",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref026",
+      "position": 25,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Shlens J, Field GD, Gauthier JL, Grivich MI, Petrusca D, Sher A, et al. \nThe structure of multi-neuron firing patterns in primate retina. J Neurosci. 2006;26(32):8254–66. 10.1523/JNEUROSCI.1282-06.2006",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1523/JNEUROSCI.1282-06.2006",
+        "PMC6673811",
+        "16899720",
+        "journal=J Neurosci&title=The structure of multi-neuron firing patterns in primate retina&author=J Shlens&author=GD Field&author=JL Gauthier&author=MI Grivich&author=D Petrusca&volume=26&issue=32&publication_year=2006&pages=8254-66&pmid=16899720&doi=10.1523/JNEUROSCI.1282-06.2006&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref026",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref027",
+      "position": 26,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Strong SP, Koberle R, van Steveninck RRdR, Bialek W. Entropy and information in neural spike trains. Phys Rev Lett. 1998;80(1):197.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Phys Rev Lett&title=Entropy and information in neural spike trains&author=SP Strong&author=R Koberle&author=RRdR van Steveninck&author=W Bialek&volume=80&issue=1&publication_year=1998&pages=197&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref027",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref028",
+      "position": 27,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Quian Quiroga R, Panzeri S. Extracting information from neuronal populations: information theory and decoding approaches. Nat Rev Neurosci. 2009;10(3):173–85. 10.1038/nrn2578",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nrn2578",
+        "19229240",
+        "journal=Nat Rev Neurosci&title=Extracting information from neuronal populations: information theory and decoding approaches&author=R Quian Quiroga&author=S Panzeri&volume=10&issue=3&publication_year=2009&pages=173-85&pmid=19229240&doi=10.1038/nrn2578&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref028",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref029",
+      "position": 28,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ince RA, Senatore R, Arabzadeh E, Montani F, Diamond ME, Panzeri S. Information-theoretic methods for studying population codes. Neural Netw. 2010;23(6):713–27. 10.1016/j.neunet.2010.05.008",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.neunet.2010.05.008",
+        "20542408",
+        "journal=Neural Netw&title=Information-theoretic methods for studying population codes&author=RA Ince&author=R Senatore&author=E Arabzadeh&author=F Montani&author=ME Diamond&volume=23&issue=6&publication_year=2010&pages=713-27&pmid=20542408&doi=10.1016/j.neunet.2010.05.008&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref029",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref030",
+      "position": 29,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Churchland MM, Yu B, B. M., Cunningham JP, Sugrue LP, Cohen MR, Corrado GS, et al. \nStimulus onset quenches neural variability: a widespread cortical phenomenon. Nat Neurosci. 2010;13(3):369–78. 10.1038/nn.2501",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nn.2501",
+        "PMC2828350",
+        "20173745",
+        "journal=Nat Neurosci&title=Stimulus onset quenches neural variability: a widespread cortical phenomenon&author=MM Churchland&author=B, B. M. Yu&author=JP Cunningham&author=LP Sugrue&author=MR Cohen&volume=13&issue=3&publication_year=2010&pages=369-78&pmid=20173745&doi=10.1038/nn.2501&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref030",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref031",
+      "position": 30,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Cunningham JP, Yu BM. Dimensionality reduction for large-scale neural recordings. Nat Neurosci. 2014;17(11):1500–9\n10.1038/nn.3776",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nn.3776",
+        "PMC4433019",
+        "25151264",
+        "journal=Nat Neurosci&title=Dimensionality reduction for large-scale neural recordings&author=JP Cunningham&author=BM Yu&volume=17&issue=11&publication_year=2014&pages=1500-9&pmid=25151264&doi=10.1038/nn.3776&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref031",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref032",
+      "position": 31,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Laubach M, Shuler M, Nicolelis MAL. Independent component analyses for quantifying neuronal ensemble interactions. J Neurosci Meth. 1999;94(1):141–54.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/s0165-0270(99)00131-4",
+        "10638821",
+        "journal=J Neurosci Meth&title=Independent component analyses for quantifying neuronal ensemble interactions&author=M Laubach&author=M Shuler&author=MAL Nicolelis&volume=94&issue=1&publication_year=1999&pages=141-54&pmid=10638821&doi=10.1016/s0165-0270(99)00131-4&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref032",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref033",
+      "position": 32,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Makeig S, Jung T-P, Bell AJ, Ghahremani D, Sejnowski TJ. Blind separation of auditory event-related brain responses into independent components. P Natl Acad Sci USA. 1997;94(20):10979–84.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1073/pnas.94.20.10979",
+        "PMC23551",
+        "9380745",
+        "journal=P Natl Acad Sci USA&title=Blind separation of auditory event-related brain responses into independent components&author=S Makeig&author=T-P Jung&author=AJ Bell&author=D Ghahremani&author=TJ Sejnowski&volume=94&issue=20&publication_year=1997&pages=10979-84&pmid=9380745&doi=10.1073/pnas.94.20.10979&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref033",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref034",
+      "position": 33,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Shen X, Meyer FG. Low-dimensional embedding of fMRI datasets. Neuroimage. 2008;41(3):886–902. 10.1016/j.neuroimage.2008.02.051",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.neuroimage.2008.02.051",
+        "18450478",
+        "journal=Neuroimage&title=Low-dimensional embedding of fMRI datasets&author=X Shen&author=FG Meyer&volume=41&issue=3&publication_year=2008&pages=886-902&pmid=18450478&doi=10.1016/j.neuroimage.2008.02.051&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref034",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref035",
+      "position": 34,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Afshar A, Santhanam G, Byron MY, Ryu SI, Sahani M, Shenoy KV. Single-trial neural correlates of arm movement preparation. Neuron. 2011;71(3):555–64. 10.1016/j.neuron.2011.05.047",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.neuron.2011.05.047",
+        "PMC3155684",
+        "21835350",
+        "journal=Neuron&title=Single-trial neural correlates of arm movement preparation&author=A Afshar&author=G Santhanam&author=MY Byron&author=SI Ryu&author=M Sahani&volume=71&issue=3&publication_year=2011&pages=555-64&pmid=21835350&doi=10.1016/j.neuron.2011.05.047&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref035",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref036",
+      "position": 35,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Yu BM, Cunningham JP, Santhanam G, Ryu SI, Shenoy KV, Sahani M, editors. Gaussian-process factor analysis for low-dimensional single-trial analysis of neural population activity. Advances in Neural Information Processing Systems\n22; 2009:1881–1888.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1152/jn.90941.2008",
+        "PMC2712272",
+        "19357332",
+        "journal=Advances in Neural Information Processing Systems&title=Gaussian-process factor analysis for low-dimensional single-trial analysis of neural population activity&author=BM Yu&author=JP Cunningham&author=G Santhanam&author=SI Ryu&author=KV Shenoy&volume=22&publication_year=2009&pages=1881-1888&pmid=19357332&doi=10.1152/jn.90941.2008&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref036",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref037",
+      "position": 36,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Möcks J. Topographic components model for event-related potentials and some biophysical considerations. IEEE transactions on bio-medical engineering. 1988;35(6):482–4. 10.1109/10.2119",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1109/10.2119",
+        "3397102",
+        "journal=IEEE transactions on bio-medical engineering&title=Topographic components model for event-related potentials and some biophysical considerations&author=J Möcks&volume=35&issue=6&publication_year=1988&pages=482-4&pmid=3397102&doi=10.1109/10.2119&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref037",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref038",
+      "position": 37,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Acar E, Aykut-Bingol C, Bingol H, Bro R, Yener B. Multiway analysis of epilepsy tensors. Bioinformatics. 2007;23(13):i10–8. 10.1093/bioinformatics/btm210",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/btm210",
+        "17646285",
+        "journal=Bioinformatics&title=Multiway analysis of epilepsy tensors&author=E Acar&author=C Aykut-Bingol&author=H Bingol&author=R Bro&author=B Yener&volume=23&issue=13&publication_year=2007&pages=i10-8&pmid=17646285&doi=10.1093/bioinformatics/btm210&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref038",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref039",
+      "position": 38,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Andersen AH, Rayens WS. Structure-seeking multilinear methods for the analysis of fMRI data. Neuroimage. 2004;22(2):728–39. 10.1016/j.neuroimage.2004.02.026",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.neuroimage.2004.02.026",
+        "15193601",
+        "journal=Neuroimage&title=Structure-seeking multilinear methods for the analysis of fMRI data&author=AH Andersen&author=WS Rayens&volume=22&issue=2&publication_year=2004&pages=728-39&pmid=15193601&doi=10.1016/j.neuroimage.2004.02.026&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref039",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref040",
+      "position": 39,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Cong F, Phan AH, Astikainen P, Zhao Q, Wu Q, Hietanen JK, et al. \nMulti-domain feature extraction for small event-related potentials trough nonnegative multi-way array decomposition from low dense array EEG. Int J Neural Syst. 2013;23(02):1350006\n10.1142/S0129065713500068 .",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1142/S0129065713500068",
+        "23578056",
+        "journal=Int J Neural Syst&title=Multi-domain feature extraction for small event-related potentials trough nonnegative multi-way array decomposition from low dense array EEG&author=F Cong&author=AH Phan&author=P Astikainen&author=Q Zhao&author=Q Wu&volume=23&issue=02&publication_year=2013&pages=1350006&pmid=23578056&doi=10.1142/S0129065713500068&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref040",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref041",
+      "position": 40,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "De Vos M, De Lathauwer L, Vanrumste B, Van Huffel S, Van Paesschen W. Canonical decomposition of ictal scalp EEG and accurate source localisation: principles and simulation study. Computational Intelligence and Neuroscience. 2007;2007:58253\n10.1155/2007/58253",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1155/2007/58253",
+        "PMC2246071",
+        "18301715",
+        "journal=Computational Intelligence and Neuroscience&title=Canonical decomposition of ictal scalp EEG and accurate source localisation: principles and simulation study&author=M De Vos&author=L De Lathauwer&author=B Vanrumste&author=S Van Huffel&author=W Van Paesschen&volume=2007&publication_year=2007&pages=58253&pmid=18301715&doi=10.1155/2007/58253&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref041",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref042",
+      "position": 41,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "De Vos M, Vergult A, De Lathauwer L, De Clercq W, Van Huffel S, Dupont P, et al. \nCanonical decomposition of ictal scalp EEG reliably detects the seizure onset zone. Neuroimage. 2007;37(3):844–54. 10.1016/j.neuroimage.2007.04.041",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.neuroimage.2007.04.041",
+        "17618128",
+        "journal=Neuroimage&title=Canonical decomposition of ictal scalp EEG reliably detects the seizure onset zone&author=M De Vos&author=A Vergult&author=L De Lathauwer&author=W De Clercq&author=S Van Huffel&volume=37&issue=3&publication_year=2007&pages=844-54&pmid=17618128&doi=10.1016/j.neuroimage.2007.04.041&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref042",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref043",
+      "position": 42,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Latchoumane CF, Vialatte FB, Sole-Casals J, Maurice M, Wimalaratna SR, Hudson N, et al. \nMultiway array decomposition analysis of EEGs in Alzheimer's disease. J Neurosci Meth. 2012;207(1):41–50. 10.1016/j.jneumeth.2012.03.005",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.jneumeth.2012.03.005",
+        "22480988",
+        "journal=J Neurosci Meth&title=Multiway array decomposition analysis of EEGs in Alzheimer's disease&author=CF Latchoumane&author=FB Vialatte&author=J Sole-Casals&author=M Maurice&author=SR Wimalaratna&volume=207&issue=1&publication_year=2012&pages=41-50&pmid=22480988&doi=10.1016/j.jneumeth.2012.03.005&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref043",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref044",
+      "position": 43,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Martinez-Montes E, Valdes-Sosa PA, Miwakeichi F, Goldman RI, Cohen MS. Concurrent EEG/fMRI analysis by multiway Partial Least Squares. Neuroimage. 2004;22(3):1023–34. 10.1016/j.neuroimage.2004.03.038",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.neuroimage.2004.03.038",
+        "15219575",
+        "journal=Neuroimage&title=Concurrent EEG/fMRI analysis by multiway Partial Least Squares&author=E Martinez-Montes&author=PA Valdes-Sosa&author=F Miwakeichi&author=RI Goldman&author=MS Cohen&volume=22&issue=3&publication_year=2004&pages=1023-34&pmid=15219575&doi=10.1016/j.neuroimage.2004.03.038&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref044",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref045",
+      "position": 44,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Morup M, Hansen LK, Arnfred SM. ERPWAVELAB a toolbox for multi-channel analysis of time-frequency transformed event related potentials. J Neurosci Meth. 2007;161(2):361–8. 10.1016/j.jneumeth.2006.11.008",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.jneumeth.2006.11.008",
+        "17204335",
+        "journal=J Neurosci Meth&title=ERPWAVELAB a toolbox for multi-channel analysis of time-frequency transformed event related potentials&author=M Morup&author=LK Hansen&author=SM Arnfred&volume=161&issue=2&publication_year=2007&pages=361-8&pmid=17204335&doi=10.1016/j.jneumeth.2006.11.008&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref045",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref046",
+      "position": 45,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Morup M, Hansen LK, Herrmann CS, Parnas J, Arnfred SM. Parallel Factor Analysis as an exploratory tool for wavelet transformed event-related EEG. Neuroimage. 2006;29(3):938–47. 10.1016/j.neuroimage.2005.08.005",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.neuroimage.2005.08.005",
+        "16185898",
+        "journal=Neuroimage&title=Parallel Factor Analysis as an exploratory tool for wavelet transformed event-related EEG&author=M Morup&author=LK Hansen&author=CS Herrmann&author=J Parnas&author=SM Arnfred&volume=29&issue=3&publication_year=2006&pages=938-47&pmid=16185898&doi=10.1016/j.neuroimage.2005.08.005&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref046",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref047",
+      "position": 46,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Phan AH, Cichocki A. Tensor decompositions for feature extraction and classification of high dimensional datasets. Nonlinear Theory and Its Applications, IEICE. 2010;1(1):37–68. 10.1587/nolta.1.37",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1587/nolta.1.37",
+        "journal=Nonlinear Theory and Its Applications, IEICE&title=Tensor decompositions for feature extraction and classification of high dimensional datasets&author=AH Phan&author=A Cichocki&volume=1&issue=1&publication_year=2010&pages=37-68&doi=10.1587/nolta.1.37&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref047",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref048",
+      "position": 47,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Phan AH, Cichocki A. Extended HALS algorithm for nonnegative Tucker decomposition and its applications for multiway analysis and classification. Neurocomputing. 2011;74(11):1956–69. 10.1016/j.neucom.2010.06.031",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.neucom.2010.06.031",
+        "journal=Neurocomputing&title=Extended HALS algorithm for nonnegative Tucker decomposition and its applications for multiway analysis and classification&author=AH Phan&author=A Cichocki&volume=74&issue=11&publication_year=2011&pages=1956-69&doi=10.1016/j.neucom.2010.06.031&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref048",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref049",
+      "position": 48,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lee DD, Seung HS. Learning the parts of objects by non-negative matrix factorization. Nature. 1999;401(6755):788–91. 10.1038/44565",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/44565",
+        "10548103",
+        "journal=Nature&title=Learning the parts of objects by non-negative matrix factorization&author=DD Lee&author=HS Seung&volume=401&issue=6755&publication_year=1999&pages=788-91&pmid=10548103&doi=10.1038/44565&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref049",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref050",
+      "position": 49,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kolda TG, Bader BW. Tensor decompositions and applications. SIAM Review. 2009;51(3):455–500.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=SIAM Review&title=Tensor decompositions and applications&author=TG Kolda&author=BW Bader&volume=51&issue=3&publication_year=2009&pages=455-500&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref050",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref051",
+      "position": 50,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Tucker LR. Implications of factor analysis of three-way matrices for measurement of change\nProblems in Measuring Change. Madison: University of Wisconsin Press; \n1963;122–37.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Problems in Measuring Change&author=LR Tucker&publication_year=1963&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref051",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref052",
+      "position": 51,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "d'Avella A, Saltiel P, Bizzi E. Combinations of muscle synergies in the construction of a natural motor behavior. Nat Neurosci. 2003;6(3):300–8. 10.1038/nn1010",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nn1010",
+        "12563264",
+        "journal=Nat Neurosci&title=Combinations of muscle synergies in the construction of a natural motor behavior&author=A d'Avella&author=P Saltiel&author=E Bizzi&volume=6&issue=3&publication_year=2003&pages=300-8&pmid=12563264&doi=10.1038/nn1010&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref052",
+        "position": 51,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref053",
+      "position": 52,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ahrens MB, Li JM, Orger MB, Robson DN, Schier AF, Engert F, et al. \nBrain-wide neuronal dynamics during motor adaptation in zebrafish. Nature. 2012;485(7399):471–7. 10.1038/nature11057",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nature11057",
+        "PMC3618960",
+        "22622571",
+        "journal=Nature&title=Brain-wide neuronal dynamics during motor adaptation in zebrafish&author=MB Ahrens&author=JM Li&author=MB Orger&author=DN Robson&author=AF Schier&volume=485&issue=7399&publication_year=2012&pages=471-7&pmid=22622571&doi=10.1038/nature11057&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref053",
+        "position": 52,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref054",
+      "position": 53,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Churchland MM, Cunningham JP, Kaufman MT, Ryu SI, Shenoy KV. Cortical preparatory activity: representation of movement or first cog in a dynamical machine?\nNeuron. 2010;68(3):387–400. 10.1016/j.neuron.2010.09.015",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.neuron.2010.09.015",
+        "PMC2991102",
+        "21040842",
+        "journal=Neuron&title=Cortical preparatory activity: representation of movement or first cog in a dynamical machine?&author=MM Churchland&author=JP Cunningham&author=MT Kaufman&author=SI Ryu&author=KV Shenoy&volume=68&issue=3&publication_year=2010&pages=387-400&pmid=21040842&doi=10.1016/j.neuron.2010.09.015&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref054",
+        "position": 53,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref055",
+      "position": 54,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Mazor O, Laurent G. Transient dynamics versus fixed points in odor representations by locust antennal lobe projection neurons. Neuron. 2005;48(4):661–73. 10.1016/j.neuron.2005.09.032",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.neuron.2005.09.032",
+        "16301181",
+        "journal=Neuron&title=Transient dynamics versus fixed points in odor representations by locust antennal lobe projection neurons&author=O Mazor&author=G Laurent&volume=48&issue=4&publication_year=2005&pages=661-73&pmid=16301181&doi=10.1016/j.neuron.2005.09.032&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref055",
+        "position": 54,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref056",
+      "position": 55,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Digalakis V, Rohlicek JR, Ostendorf M. ML estimation of a stochastic linear system with the EM algorithm and its application to speech recognition. IEEE T Speech Audi P. 1993;1(4):431–42.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=IEEE T Speech Audi P&title=ML estimation of a stochastic linear system with the EM algorithm and its application to speech recognition&author=V Digalakis&author=JR Rohlicek&author=M Ostendorf&volume=1&issue=4&publication_year=1993&pages=431-42&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref056",
+        "position": 55,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref057",
+      "position": 56,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Roweis S, Ghahramani Z. A unifying review of linear Gaussian models. Neural Comput. 1999;11(2):305–45.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1162/089976699300016674",
+        "9950734",
+        "journal=Neural Comput&title=A unifying review of linear Gaussian models&author=S Roweis&author=Z Ghahramani&volume=11&issue=2&publication_year=1999&pages=305-45&pmid=9950734&doi=10.1162/089976699300016674&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref057",
+        "position": 56,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref058",
+      "position": 57,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Rubin DB, Thayer DT. EM algorithms for ML factor analysis. Psychometrika. 1982;47(1):69–76.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Psychometrika&title=EM algorithms for ML factor analysis&author=DB Rubin&author=DT Thayer&volume=47&issue=1&publication_year=1982&pages=69-76&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref058",
+        "position": 57,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref059",
+      "position": 58,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Delis I, Panzeri S, Pozzo T, Berret B. A unifying model of concurrent spatial and temporal modularity in muscle activity. J Neurophysiol. 2014;111(3):675–93. 10.1152/jn.00245.2013",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1152/jn.00245.2013",
+        "24089400",
+        "journal=J Neurophysiol&title=A unifying model of concurrent spatial and temporal modularity in muscle activity&author=I Delis&author=S Panzeri&author=T Pozzo&author=B Berret&volume=111&issue=3&publication_year=2014&pages=675-93&pmid=24089400&doi=10.1152/jn.00245.2013&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref059",
+        "position": 58,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref060",
+      "position": 59,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kim Y-D, Choi S, editors. Nonnegative Tucker decomposition. CVPR'07 IEEE Conference on; 2007: IEEE: 1–8.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref060",
+        "position": 59,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref061",
+      "position": 60,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Harshman RA. Foundations of the PARAFAC procedure: Models and conditions for an \"explanatory\" multi-modal factor analysis. UCLA Working Papers in Phonetics. 1970; 16:1–84.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=UCLA Working Papers in Phonetics&title=Foundations of the PARAFAC procedure: Models and conditions for an \"explanatory\" multi-modal factor analysis&author=RA Harshman&volume=16&publication_year=1970&pages=1-84&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref061",
+        "position": 60,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref062",
+      "position": 61,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Carroll JD, Chang J-J. Analysis of individual differences in multidimensional scaling via an N-way generalization of “Eckart-Young” decomposition. Psychometrika. 1970;35(3):283–319.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Psychometrika&title=Analysis of individual differences in multidimensional scaling via an N-way generalization of “Eckart-Young” decomposition&author=JD Carroll&author=J-J Chang&volume=35&issue=3&publication_year=1970&pages=283-319&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref062",
+        "position": 61,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref063",
+      "position": 62,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hu C, Rai P, Chen C, Harding M, Carin L, editors. Scalable bayesian non-negative tensor factorization for massive count data. Joint European Conference on Machine Learning and Knowledge Discovery in Databases; Springer International Publishing. 2015:53–70.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref063",
+        "position": 62,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref064",
+      "position": 63,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hyvärinen A. Independent component analysis: recent advances. Phil Trans R Soc A. 2013;371(1984):20110534\n10.1098/rsta.2011.0534",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1098/rsta.2011.0534",
+        "PMC3538438",
+        "23277597",
+        "journal=Phil Trans R Soc A&title=Independent component analysis: recent advances&author=A Hyvärinen&volume=371&issue=1984&publication_year=2013&pages=20110534&pmid=23277597&doi=10.1098/rsta.2011.0534&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref064",
+        "position": 63,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref065",
+      "position": 64,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Johansson RS, Birznieks I. First spikes in ensembles of human tactile afferents code complex spatial fingertip events. Nat Neurosci. 2004;7(2):170–7. 10.1038/nn1177",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nn1177",
+        "14730306",
+        "journal=Nat Neurosci&title=First spikes in ensembles of human tactile afferents code complex spatial fingertip events&author=RS Johansson&author=I Birznieks&volume=7&issue=2&publication_year=2004&pages=170-7&pmid=14730306&doi=10.1038/nn1177&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref065",
+        "position": 64,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref066",
+      "position": 65,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Panzeri S, Diamond ME. Information carried by population spike times in the whisker sensory cortex can be decoded without knowledge of stimulus time. Front Synaptic Neurosci. 2010;2.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3389/fnsyn.2010.00017",
+        "PMC3059688",
+        "21423503",
+        "journal=Front Synaptic Neurosci&title=Information carried by population spike times in the whisker sensory cortex can be decoded without knowledge of stimulus time&author=S Panzeri&author=ME Diamond&volume=2&publication_year=2010&pmid=21423503&doi=10.3389/fnsyn.2010.00017&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref066",
+        "position": 65,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref067",
+      "position": 66,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Saal HP, Vijayakumar S, Johansson RS. Information about complex fingertip parameters in individual human tactile afferent neurons. J Neurosci. 2009;29(25):8022–31. 10.1523/JNEUROSCI.0665-09.2009",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1523/JNEUROSCI.0665-09.2009",
+        "PMC6666033",
+        "19553442",
+        "journal=J Neurosci&title=Information about complex fingertip parameters in individual human tactile afferent neurons&author=HP Saal&author=S Vijayakumar&author=RS Johansson&volume=29&issue=25&publication_year=2009&pages=8022-31&pmid=19553442&doi=10.1523/JNEUROSCI.0665-09.2009&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref067",
+        "position": 66,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref068",
+      "position": 67,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Van Rullen R, Thorpe SJ. Rate coding versus temporal order coding: what the retinal ganglion cells tell the visual cortex. Neural Comput. 2001;13(6):1255–83.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1162/08997660152002852",
+        "11387046",
+        "journal=Neural Comput&title=Rate coding versus temporal order coding: what the retinal ganglion cells tell the visual cortex&author=R Van Rullen&author=SJ Thorpe&volume=13&issue=6&publication_year=2001&pages=1255-83&pmid=11387046&doi=10.1162/08997660152002852&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref068",
+        "position": 67,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref069",
+      "position": 68,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Devarajan K. Nonnegative matrix factorization: an analytical and interpretive tool in computational biology. PLoS Comput Biol. 2008;4(7):e1000029\n10.1371/journal.pcbi.1000029",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pcbi.1000029",
+        "PMC2447881",
+        "18654623",
+        "journal=PLoS Comput Biol&title=Nonnegative matrix factorization: an analytical and interpretive tool in computational biology&author=K Devarajan&volume=4&issue=7&publication_year=2008&pages=e1000029&pmid=18654623&doi=10.1371/journal.pcbi.1000029&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref069",
+        "position": 68,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref070",
+      "position": 69,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "King B, Févotte C, Smaragdis P, editors. Optimal cost function and magnitude power for NMF-based speech separation and music interpolation. Machine Learning for Signal Processing (MLSP), 2012 IEEE International Workshop on; 2012: 1–6.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref070",
+        "position": 69,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref071",
+      "position": 70,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kotsia I, Zafeiriou S, Pitas I. A novel discriminant non-negative matrix factorization algorithm with applications to facial image characterization problems. IEEE T Inf Foren Sec. 2007;2(3):588–95.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=IEEE T Inf Foren Sec&title=A novel discriminant non-negative matrix factorization algorithm with applications to facial image characterization problems&author=I Kotsia&author=S Zafeiriou&author=I Pitas&volume=2&issue=3&publication_year=2007&pages=588-95&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref071",
+        "position": 70,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref072",
+      "position": 71,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Smaragdis P, Fevotte C, Mysore GJ, Mohammadiha N, Hoffman M. Static and dynamic source separation using nonnegative factorizations: A unified view. Signal Processing Magazine, IEEE. 2014;31(3):66–75.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Signal Processing Magazine, IEEE&title=Static and dynamic source separation using nonnegative factorizations: A unified view&author=P Smaragdis&author=C Fevotte&author=GJ Mysore&author=N Mohammadiha&author=M Hoffman&volume=31&issue=3&publication_year=2014&pages=66-75&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref072",
+        "position": 71,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref073",
+      "position": 72,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Tresch MC, Cheung VCK, d'Avella A. Matrix factorization algorithms for the identification of muscle synergies: evaluation on simulated and experimental data sets. J Neurophysiol. 2006;95(4):2199–212. 10.1152/jn.00222.2005",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1152/jn.00222.2005",
+        "16394079",
+        "journal=J Neurophysiol&title=Matrix factorization algorithms for the identification of muscle synergies: evaluation on simulated and experimental data sets&author=MC Tresch&author=VCK Cheung&author=A d'Avella&volume=95&issue=4&publication_year=2006&pages=2199-212&pmid=16394079&doi=10.1152/jn.00222.2005&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref073",
+        "position": 72,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref074",
+      "position": 73,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Overduin SA, d'Avella A, Roh J, Carmena JM, Bizzi E. Representation of Muscle Synergies in the Primate Brain. J Neurosci. 2015;35(37):12615–24. 10.1523/JNEUROSCI.4302-14.2015",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1523/JNEUROSCI.4302-14.2015",
+        "PMC4571600",
+        "26377453",
+        "journal=J Neurosci&title=Representation of Muscle Synergies in the Primate Brain&author=SA Overduin&author=A d'Avella&author=J Roh&author=JM Carmena&author=E Bizzi&volume=35&issue=37&publication_year=2015&pages=12615-24&pmid=26377453&doi=10.1523/JNEUROSCI.4302-14.2015&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref074",
+        "position": 73,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref075",
+      "position": 74,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kim S-P, Rao YN, Erdogmus D, Sanchez JC, Nicolelis MAL, Principe JC. Determining patterns in neural activity for reaching movements using nonnegative matrix factorization. EURASIP J Appl Sig P. 2005;2005:3113–21.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=EURASIP J Appl Sig P&title=Determining patterns in neural activity for reaching movements using nonnegative matrix factorization&author=S-P Kim&author=YN Rao&author=D Erdogmus&author=JC Sanchez&author=MAL Nicolelis&volume=2005&publication_year=2005&pages=3113-21&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref075",
+        "position": 74,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref076",
+      "position": 75,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wei J, Bai W, Liu T, Tian X. Functional connectivity changes during a Working memory task in rat via NMF analysis. Frontiers in Behavioral Neuroscience. 2015;9\n10.3389/fnbeh.2015.00002",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3389/fnbeh.2015.00002",
+        "PMC4311635",
+        "25688192",
+        "journal=Frontiers in Behavioral Neuroscience&title=Functional connectivity changes during a Working memory task in rat via NMF analysis&author=J Wei&author=W Bai&author=T Liu&author=X Tian&volume=9&publication_year=2015&pmid=25688192&doi=10.3389/fnbeh.2015.00002&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref076",
+        "position": 75,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref077",
+      "position": 76,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lopes-dos-Santos V, Conde-Ocazionez S, Nicolelis MAL, Ribeiro ST, Tort ABL. Neuronal assembly detection and cell membership specification by principal component analysis. PLoS One. 2011;6(6):e20996\n10.1371/journal.pone.0020996",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pone.0020996",
+        "PMC3115970",
+        "21698248",
+        "journal=PLoS One&title=Neuronal assembly detection and cell membership specification by principal component analysis&author=V Lopes-dos-Santos&author=S Conde-Ocazionez&author=MAL Nicolelis&author=ST Ribeiro&author=ABL Tort&volume=6&issue=6&publication_year=2011&pages=e20996&pmid=21698248&doi=10.1371/journal.pone.0020996&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref077",
+        "position": 76,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref078",
+      "position": 77,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Peyrache A, Benchenane K, Khamassi M, Wiener SI, Battaglia FP. Principal component analysis of ensemble recordings reveals cell assemblies at high temporal resolution. J Comp Neurosci. 2010;29(1–2):309–25.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s10827-009-0154-6",
+        "PMC2940043",
+        "19529888",
+        "journal=J Comp Neurosci&title=Principal component analysis of ensemble recordings reveals cell assemblies at high temporal resolution&author=A Peyrache&author=K Benchenane&author=M Khamassi&author=SI Wiener&author=FP Battaglia&volume=29&issue=1–2&publication_year=2010&pages=309-25&pmid=19529888&doi=10.1007/s10827-009-0154-6&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref078",
+        "position": 77,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref079",
+      "position": 78,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Santhanam G, Byron MY, Gilja V, Ryu SI, Afshar A, Sahani M, et al. \nFactor-analysis methods for higher-performance neural prostheses. J Neurophysiol. 2009;102(2):1315–30. 10.1152/jn.00097.2009",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1152/jn.00097.2009",
+        "PMC2724333",
+        "19297518",
+        "journal=J Neurophysiol&title=Factor-analysis methods for higher-performance neural prostheses&author=G Santhanam&author=MY Byron&author=V Gilja&author=SI Ryu&author=A Afshar&volume=102&issue=2&publication_year=2009&pages=1315-30&pmid=19297518&doi=10.1152/jn.00097.2009&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref079",
+        "position": 78,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref080",
+      "position": 79,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Paninski L, Pillow J, Lewi J. Statistical models for neural encoding, decoding, and optimal stimulus design. Prog Brain Res. 2007;165:493–507. 10.1016/S0079-6123(06)65031-0",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/S0079-6123(06)65031-0",
+        "17925266",
+        "journal=Prog Brain Res&title=Statistical models for neural encoding, decoding, and optimal stimulus design&author=L Paninski&author=J Pillow&author=J Lewi&volume=165&publication_year=2007&pages=493-507&pmid=17925266&doi=10.1016/S0079-6123(06)65031-0&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref080",
+        "position": 79,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref081",
+      "position": 80,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Pillow JW, Shlens J, Paninski L, Sher A, Litke AM, Chichilnisky E, et al. \nSpatio-temporal correlations and visual signalling in a complete neuronal population. Nature. 2008;454(7207):995–9. 10.1038/nature07140",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nature07140",
+        "PMC2684455",
+        "18650810",
+        "journal=Nature&title=Spatio-temporal correlations and visual signalling in a complete neuronal population&author=JW Pillow&author=J Shlens&author=L Paninski&author=A Sher&author=AM Litke&volume=454&issue=7207&publication_year=2008&pages=995-9&pmid=18650810&doi=10.1038/nature07140&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref081",
+        "position": 80,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref082",
+      "position": 81,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Truccolo W, Eden UT, Fellows MR, Donoghue JP, Brown EN. A point process framework for relating neural spiking activity to spiking history, neural ensemble, and extrinsic covariate effects. J Neurophysiol. 2005;93(2):1074–89. 10.1152/jn.00697.2004",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1152/jn.00697.2004",
+        "15356183",
+        "journal=J Neurophysiol&title=A point process framework for relating neural spiking activity to spiking history, neural ensemble, and extrinsic covariate effects&author=W Truccolo&author=UT Eden&author=MR Fellows&author=JP Donoghue&author=EN Brown&volume=93&issue=2&publication_year=2005&pages=1074-89&pmid=15356183&doi=10.1152/jn.00697.2004&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref082",
+        "position": 81,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref083",
+      "position": 82,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Granot-Atedgi E, Tkačik G, Segev R, Schneidman E. Stimulus-dependent maximum entropy models of neural population codes. PLoS Comput Biol. 2013;9(3):e1002922\n10.1371/journal.pcbi.1002922",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pcbi.1002922",
+        "PMC3597542",
+        "23516339",
+        "journal=PLoS Comput Biol&title=Stimulus-dependent maximum entropy models of neural population codes&author=E Granot-Atedgi&author=G Tkačik&author=R Segev&author=E Schneidman&volume=9&issue=3&publication_year=2013&pages=e1002922&pmid=23516339&doi=10.1371/journal.pcbi.1002922&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref083",
+        "position": 82,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref084",
+      "position": 83,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Brenner N, Bialek W, Van Steveninck RdR. Adaptive rescaling maximizes information transmission. Neuron. 2000;26(3):695–702.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/s0896-6273(00)81205-2",
+        "10896164",
+        "journal=Neuron&title=Adaptive rescaling maximizes information transmission&author=N Brenner&author=W Bialek&author=RdR Van Steveninck&volume=26&issue=3&publication_year=2000&pages=695-702&pmid=10896164&doi=10.1016/s0896-6273(00)81205-2&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref084",
+        "position": 83,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref085",
+      "position": 84,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Chichilnisky EJ. A simple white noise analysis of neuronal light responses. Network Comp Neural. 2001;12(2):199–213.",
+      "identifiers": [],
+      "externalLinks": [
+        "11405422",
+        "journal=Network Comp Neural&title=A simple white noise analysis of neuronal light responses&author=EJ Chichilnisky&volume=12&issue=2&publication_year=2001&pages=199-213&pmid=11405422&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref085",
+        "position": 84,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref086",
+      "position": 85,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hunter I, Korenberg M. The identification of nonlinear biological systems: Wiener and Hammerstein cascade models. Biol Cybern. 1986;55(2–3):135–44.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/BF00341929",
+        "3801534",
+        "journal=Biol Cybern&title=The identification of nonlinear biological systems: Wiener and Hammerstein cascade models&author=I Hunter&author=M Korenberg&volume=55&issue=2–3&publication_year=1986&pages=135-44&pmid=3801534&doi=10.1007/BF00341929&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref086",
+        "position": 85,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref087",
+      "position": 86,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Plesser HE, Gerstner W. Noise in integrate-and-fire neurons: From stochastic input to escape rates. Neural Comput. 2000;12(2):367–84.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1162/089976600300015835",
+        "10636947",
+        "journal=Neural Comput&title=Noise in integrate-and-fire neurons: From stochastic input to escape rates&author=HE Plesser&author=W Gerstner&volume=12&issue=2&publication_year=2000&pages=367-84&pmid=10636947&doi=10.1162/089976600300015835&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref087",
+        "position": 86,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref088",
+      "position": 87,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Simoncelli EP, Paninski L, Pillow J, Schwartz O. Characterization of neural responses with stochastic stimuli. The Cognitive Neurosciences. 2004;3:327–38.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=The Cognitive Neurosciences&title=Characterization of neural responses with stochastic stimuli&author=EP Simoncelli&author=L Paninski&author=J Pillow&author=O Schwartz&volume=3&publication_year=2004&pages=327-38&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref088",
+        "position": 87,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref089",
+      "position": 88,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Enroth-Cugell C, Robson JG. The contrast sensitivity of retinal ganglion cells of the cat. J Physiol. 1966;187(3):517–52.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1113/jphysiol.1966.sp008107",
+        "PMC1395960",
+        "16783910",
+        "journal=J Physiol&title=The contrast sensitivity of retinal ganglion cells of the cat&author=C Enroth-Cugell&author=JG Robson&volume=187&issue=3&publication_year=1966&pages=517-52&pmid=16783910&doi=10.1113/jphysiol.1966.sp008107&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref089",
+        "position": 88,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref090",
+      "position": 89,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Gollisch T. Features and functions of nonlinear spatial integration by retinal ganglion cells. J Physiol Paris. 2013;107(5):338–48. 10.1016/j.jphysparis.2012.12.001",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.jphysparis.2012.12.001",
+        "23262113",
+        "journal=J Physiol Paris&title=Features and functions of nonlinear spatial integration by retinal ganglion cells&author=T Gollisch&volume=107&issue=5&publication_year=2013&pages=338-48&pmid=23262113&doi=10.1016/j.jphysparis.2012.12.001&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref090",
+        "position": 89,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref091",
+      "position": 90,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Schwartz G, Rieke F. Nonlinear spatial encoding by retinal ganglion cells: when 1+ 1≠ 2. J Gen Physiol. 2011;138(3):283–90. 10.1085/jgp.201110629",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1085/jgp.201110629",
+        "PMC3171084",
+        "21875977",
+        "journal=J Gen Physiol&title=Nonlinear spatial encoding by retinal ganglion cells: when 1+ 1≠ 2&author=G Schwartz&author=F Rieke&volume=138&issue=3&publication_year=2011&pages=283-90&pmid=21875977&doi=10.1085/jgp.201110629&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref091",
+        "position": 90,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref092",
+      "position": 91,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Turner MH, Rieke F. Synaptic Rectification Controls Nonlinear Spatial Integration of Natural Visual Inputs. Neuron. 2016;90(6):1257–71. 10.1016/j.neuron.2016.05.006",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.neuron.2016.05.006",
+        "PMC4917290",
+        "27263968",
+        "journal=Neuron&title=Synaptic Rectification Controls Nonlinear Spatial Integration of Natural Visual Inputs&author=MH Turner&author=F Rieke&volume=90&issue=6&publication_year=2016&pages=1257-71&pmid=27263968&doi=10.1016/j.neuron.2016.05.006&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref092",
+        "position": 91,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref093",
+      "position": 92,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Heitman A, Brackbill N, Greschner M, Sher A, Litke AM, Chichilnisky E. Testing pseudo-linear models of responses to natural scenes in primate retina. bioRxiv. 2016:045336.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref093",
+        "position": 92,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref094",
+      "position": 93,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "David SV, Vinje WE, Gallant JL. Natural stimulus statistics alter the receptive field structure of V1 neurons. J Neurosci. 2004;24(31):6991–7006. 10.1523/JNEUROSCI.1422-04.2004",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1523/JNEUROSCI.1422-04.2004",
+        "PMC6729594",
+        "15295035",
+        "journal=J Neurosci&title=Natural stimulus statistics alter the receptive field structure of V1 neurons&author=SV David&author=WE Vinje&author=JL Gallant&volume=24&issue=31&publication_year=2004&pages=6991-7006&pmid=15295035&doi=10.1523/JNEUROSCI.1422-04.2004&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref094",
+        "position": 93,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref095",
+      "position": 94,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kayser C, Wilson C, Safaai H, Sakata S, Panzeri S. Rhythmic Auditory Cortex Activity at Multiple Timescales Shapes Stimulus–Response Gain and Background Firing. J Neurosci. 2015;35(20):7750–62. 10.1523/JNEUROSCI.0268-15.2015",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1523/JNEUROSCI.0268-15.2015",
+        "PMC4438125",
+        "25995464",
+        "journal=J Neurosci&title=Rhythmic Auditory Cortex Activity at Multiple Timescales Shapes Stimulus–Response Gain and Background Firing&author=C Kayser&author=C Wilson&author=H Safaai&author=S Sakata&author=S Panzeri&volume=35&issue=20&publication_year=2015&pages=7750-62&pmid=25995464&doi=10.1523/JNEUROSCI.0268-15.2015&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref095",
+        "position": 94,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref096",
+      "position": 95,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Smyth D, Willmore B, Baker GE, Thompson ID, Tolhurst DJ. The receptive-field organization of simple cells in primary visual cortex of ferrets under natural scene stimulation. J Neurosci. 2003;23(11):4746–59.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1523/JNEUROSCI.23-11-04746.2003",
+        "PMC6740783",
+        "12805314",
+        "journal=J Neurosci&title=The receptive-field organization of simple cells in primary visual cortex of ferrets under natural scene stimulation&author=D Smyth&author=B Willmore&author=GE Baker&author=ID Thompson&author=DJ Tolhurst&volume=23&issue=11&publication_year=2003&pages=4746-59&pmid=12805314&doi=10.1523/JNEUROSCI.23-11-04746.2003&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref096",
+        "position": 95,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref097",
+      "position": 96,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Machens CK, Wehr MS, Zador AM. Linearity of cortical receptive fields measured with natural sounds. J Neurosci. 2004;24(5):1089–100. 10.1523/JNEUROSCI.4445-03.2004",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1523/JNEUROSCI.4445-03.2004",
+        "PMC6793584",
+        "14762127",
+        "journal=J Neurosci&title=Linearity of cortical receptive fields measured with natural sounds&author=CK Machens&author=MS Wehr&author=AM Zador&volume=24&issue=5&publication_year=2004&pages=1089-100&pmid=14762127&doi=10.1523/JNEUROSCI.4445-03.2004&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref097",
+        "position": 96,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref098",
+      "position": 97,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ganmor E, Segev R, Schneidman E. A thesaurus for a neural population code. eLife. 2015;4:e06134\n10.7554/eLife.06134",
+      "identifiers": [],
+      "externalLinks": [
+        "10.7554/eLife.06134",
+        "PMC4562117",
+        "26347983",
+        "journal=eLife&title=A thesaurus for a neural population code&author=E Ganmor&author=R Segev&author=E Schneidman&volume=4&publication_year=2015&pages=e06134&pmid=26347983&doi=10.7554/eLife.06134&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref098",
+        "position": 97,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref099",
+      "position": 98,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Tkačik G, Marre O, Amodei D, Schneidman E, Bialek W, Berry MJ II. Searching for collective behavior in a large network of sensory neurons. PLoS Comput Biol. 2014;10(1):e1003408\n10.1371/journal.pcbi.1003408",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pcbi.1003408",
+        "PMC3879139",
+        "24391485",
+        "journal=PLoS Comput Biol&title=Searching for collective behavior in a large network of sensory neurons&author=G Tkačik&author=O Marre&author=D Amodei&author=E Schneidman&author=W Bialek&volume=10&issue=1&publication_year=2014&pages=e1003408&pmid=24391485&doi=10.1371/journal.pcbi.1003408&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref099",
+        "position": 98,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref100",
+      "position": 99,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Emiliani V, Cohen AE, Deisseroth K, Häusser M. All-Optical Interrogation of Neural Circuits. J Neurosci. 2015;35(41):13917–26. 10.1523/JNEUROSCI.2916-15.2015",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1523/JNEUROSCI.2916-15.2015",
+        "PMC4604230",
+        "26468193",
+        "journal=J Neurosci&title=All-Optical Interrogation of Neural Circuits&author=V Emiliani&author=AE Cohen&author=K Deisseroth&author=M Häusser&volume=35&issue=41&publication_year=2015&pages=13917-26&pmid=26468193&doi=10.1523/JNEUROSCI.2916-15.2015&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref100",
+        "position": 99,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref101",
+      "position": 100,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ince RA, Panzeri S, Kayser C. Neural codes formed by small and temporally precise populations in auditory cortex. J Neurosci. 2013;33(46):18277–87. 10.1523/JNEUROSCI.2631-13.2013",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1523/JNEUROSCI.2631-13.2013",
+        "PMC6619755",
+        "24227737",
+        "journal=J Neurosci&title=Neural codes formed by small and temporally precise populations in auditory cortex&author=RA Ince&author=S Panzeri&author=C Kayser&volume=33&issue=46&publication_year=2013&pages=18277-87&pmid=24227737&doi=10.1523/JNEUROSCI.2631-13.2013&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref101",
+        "position": 100,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref102",
+      "position": 101,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Theunissen F, Roddey JC, Stufflebeam S, Clague H, Miller JP. Information theoretic analysis of dynamical encoding by four identified primary sensory interneurons in the cricket cercal system. J Neurophysiol. 1996;75(4):1345–64.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1152/jn.1996.75.4.1345",
+        "8727382",
+        "journal=J Neurophysiol&title=Information theoretic analysis of dynamical encoding by four identified primary sensory interneurons in the cricket cercal system&author=F Theunissen&author=JC Roddey&author=S Stufflebeam&author=H Clague&author=JP Miller&volume=75&issue=4&publication_year=1996&pages=1345-64&pmid=8727382&doi=10.1152/jn.1996.75.4.1345&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref102",
+        "position": 101,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref103",
+      "position": 102,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Van Rullen R, Thorpe SJ. Surfing a spike wave down the ventral stream. Vision Res. 2002; 42(23):2593–615.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/s0042-6989(02)00298-5",
+        "12446033",
+        "journal=Vision Res&title=Surfing a spike wave down the ventral stream&author=R Van Rullen&author=SJ Thorpe&volume=42&issue=23&publication_year=2002&pages=2593-615&pmid=12446033&doi=10.1016/s0042-6989(02)00298-5&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref103",
+        "position": 102,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref104",
+      "position": 103,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Rucci M, Victor JD. The unsteady eye: an information-processing stage, not a bug. Trends Neurosci. 2015;38(4):195–206. 10.1016/j.tins.2015.01.005",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.tins.2015.01.005",
+        "PMC4385455",
+        "25698649",
+        "journal=Trends Neurosci&title=The unsteady eye: an information-processing stage, not a bug&author=M Rucci&author=JD Victor&volume=38&issue=4&publication_year=2015&pages=195-206&pmid=25698649&doi=10.1016/j.tins.2015.01.005&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref104",
+        "position": 103,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref105",
+      "position": 104,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Gütig R, Gollisch T, Sompolinsky H, Meister M. Computing complex visual features with retinal spike times. PLoS One. 2013;8(1):e53063\n10.1371/journal.pone.0053063",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pone.0053063",
+        "PMC3534662",
+        "23301021",
+        "journal=PLoS One&title=Computing complex visual features with retinal spike times&author=R Gütig&author=T Gollisch&author=H Sompolinsky&author=M Meister&volume=8&issue=1&publication_year=2013&pages=e53063&pmid=23301021&doi=10.1371/journal.pone.0053063&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref105",
+        "position": 104,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref106",
+      "position": 105,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Jolliffe I. Principal component analysis: Wiley Online Library; 2005.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Principal component analysis&author=I Jolliffe&publication_year=2005&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref106",
+        "position": 105,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref107",
+      "position": 106,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Comon P. Independent component analysis, a new concept?\nSignal Process. 1994;36(3):287–314.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Signal Process&title=Independent component analysis, a new concept?&author=P Comon&volume=36&issue=3&publication_year=1994&pages=287-314&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref107",
+        "position": 106,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref108",
+      "position": 107,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hyvarinen A. Fast and robust fixed-point algorithms for independent component analysis. IEEE Trans Neural Netw. 1999;10(3):626–34. 10.1109/72.761722",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1109/72.761722",
+        "18252563",
+        "journal=IEEE Trans Neural Netw&title=Fast and robust fixed-point algorithms for independent component analysis&author=A Hyvarinen&volume=10&issue=3&publication_year=1999&pages=626-34&pmid=18252563&doi=10.1109/72.761722&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref108",
+        "position": 107,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref109",
+      "position": 108,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lee DD, Seung HS, editors. Algorithms for non-negative matrix factorization. Advances in Neural Information Processing Systems; 13\n2001:556–562.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Advances in Neural Information Processing Systems&title=Algorithms for non-negative matrix factorization&author=DD Lee&author=HS Seung&volume=13&publication_year=2001&pages=556-562&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref109",
+        "position": 108,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref110",
+      "position": 109,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bertin N, Badeau R. Initialization, distances and local minima in audio applications of the non-negative matrix factorization. J Acoust Soc Am. 2008;123(5):3801–3801.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=J Acoust Soc Am&title=Initialization, distances and local minima in audio applications of the non-negative matrix factorization&author=N Bertin&author=R Badeau&volume=123&issue=5&publication_year=2008&pages=3801-3801&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref110",
+        "position": 109,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref111",
+      "position": 110,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Andersson CA, Bro R. The N-way toolbox for MATLAB. Chemometr Intell Lab. 2000;52(1):1–4.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Chemometr Intell Lab&title=The N-way toolbox for MATLAB&author=CA Andersson&author=R Bro&volume=52&issue=1&publication_year=2000&pages=1-4&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref111",
+        "position": 110,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref112",
+      "position": 111,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Meister M, Pine J, Baylor DA. Multi-neuronal signals from the retina: acquisition and analysis. J Neurosci Meth. 1994;51(1):95–106.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/0165-0270(94)90030-2",
+        "8189755",
+        "journal=J Neurosci Meth&title=Multi-neuronal signals from the retina: acquisition and analysis&author=M Meister&author=J Pine&author=DA Baylor&volume=51&issue=1&publication_year=1994&pages=95-106&pmid=8189755&doi=10.1016/0165-0270(94)90030-2&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref112",
+        "position": 111,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref113",
+      "position": 112,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bölinger D, Gollisch T. Closed-loop measurements of iso-response stimuli reveal dynamic nonlinear stimulus integration in the retina. Neuron. 2012;73(2):333–46. 10.1016/j.neuron.2011.10.039",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.neuron.2011.10.039",
+        "22284187",
+        "journal=Neuron&title=Closed-loop measurements of iso-response stimuli reveal dynamic nonlinear stimulus integration in the retina&author=D Bölinger&author=T Gollisch&volume=73&issue=2&publication_year=2012&pages=333-46&pmid=22284187&doi=10.1016/j.neuron.2011.10.039&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref113",
+        "position": 112,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref114",
+      "position": 113,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Pouzat C, Mazor O, Laurent G. Using noise signature to optimize spike-sorting and to assess neuronal classification quality. J Neurosci Meth. 2002;122(1):43–57.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/s0165-0270(02)00276-5",
+        "12535763",
+        "journal=J Neurosci Meth&title=Using noise signature to optimize spike-sorting and to assess neuronal classification quality&author=C Pouzat&author=O Mazor&author=G Laurent&volume=122&issue=1&publication_year=2002&pages=43-57&pmid=12535763&doi=10.1016/s0165-0270(02)00276-5&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref114",
+        "position": 113,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref115",
+      "position": 114,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Gauthier JL, Field GD, Sher A, Greschner M, Shlens J, Litke AM, et al. \nReceptive fields in primate retina are coordinated to sample visual space more uniformly. PLoS Biol. 2009;7(4):e1000063\n10.1371/journal.pbio.1000063",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pbio.1000063",
+        "PMC2672597",
+        "19355787",
+        "journal=PLoS Biol&title=Receptive fields in primate retina are coordinated to sample visual space more uniformly&author=JL Gauthier&author=GD Field&author=A Sher&author=M Greschner&author=J Shlens&volume=7&issue=4&publication_year=2009&pages=e1000063&pmid=19355787&doi=10.1371/journal.pbio.1000063&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref115",
+        "position": 114,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref116",
+      "position": 115,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Olmos A, Kingdom FAA. A biologically inspired algorithm for the recovery of shading and reflectance images. Perception. 2004;33(12):1463–73.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1068/p5321",
+        "15729913",
+        "journal=Perception&title=A biologically inspired algorithm for the recovery of shading and reflectance images&author=A Olmos&author=FAA Kingdom&volume=33&issue=12&publication_year=2004&pages=1463-73&pmid=15729913&doi=10.1068/p5321&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref116",
+        "position": 115,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref117",
+      "position": 116,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Rao CR. The utilization of multiple measurements in problems of biological classification. J Roy Stat Soc B Met. 1948;10(2):159–203.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=J Roy Stat Soc B Met&title=The utilization of multiple measurements in problems of biological classification&author=CR Rao&volume=10&issue=2&publication_year=1948&pages=159-203&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref117",
+        "position": 116,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref118",
+      "position": 117,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kohavi R, editor A study of cross-validation and bootstrap for accuracy estimation and model selection. IJCAI; \n1995; 14(2):1137–45.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=A study of cross-validation and bootstrap for accuracy estimation and model selection&author=R Kohavi&publication_year=1995&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref118",
+        "position": 117,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref119",
+      "position": 118,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Delis I, Berret B, Pozzo T, Panzeri S. Quantitative evaluation of muscle synergy models: a single-trial task decoding approach. Frontiers in Computational Neuroscience. 2013;7:8.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3389/fncom.2013.00008",
+        "PMC3590454",
+        "23471195",
+        "journal=Frontiers in Computational Neuroscience&title=Quantitative evaluation of muscle synergy models: a single-trial task decoding approach&author=I Delis&author=B Berret&author=T Pozzo&author=S Panzeri&volume=7&publication_year=2013&pages=8&pmid=23471195&doi=10.3389/fncom.2013.00008&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref119",
+        "position": 118,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref120",
+      "position": 119,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Torres-Oviedo G, Macpherson JM, Ting LH. Muscle synergy organization is robust across a variety of postural perturbations. J Neurophysiol. 2006;96(3):1530–46. 10.1152/jn.00810.2005",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1152/jn.00810.2005",
+        "16775203",
+        "journal=J Neurophysiol&title=Muscle synergy organization is robust across a variety of postural perturbations&author=G Torres-Oviedo&author=JM Macpherson&author=LH Ting&volume=96&issue=3&publication_year=2006&pages=1530-46&pmid=16775203&doi=10.1152/jn.00810.2005&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref120",
+        "position": 119,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref121",
+      "position": 120,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Cheung VCK, d'Avella A, Tresch MC, Bizzi E. Central and sensory contributions to the activation and organization of muscle synergies during natural motor behaviors. J Neurosci. 2005;25(27):6419–34. 10.1523/JNEUROSCI.4904-04.2005",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1523/JNEUROSCI.4904-04.2005",
+        "PMC6725265",
+        "16000633",
+        "journal=J Neurosci&title=Central and sensory contributions to the activation and organization of muscle synergies during natural motor behaviors&author=VCK Cheung&author=A d'Avella&author=MC Tresch&author=E Bizzi&volume=25&issue=27&publication_year=2005&pages=6419-34&pmid=16000633&doi=10.1523/JNEUROSCI.4904-04.2005&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref121",
+        "position": 120,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref122",
+      "position": 121,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Stone M. Cross-validatory choice and assessment of statistical predictions. J Roy Stat Soc B Met. 1974; 36(2):111–47.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=J Roy Stat Soc B Met&title=Cross-validatory choice and assessment of statistical predictions&author=M Stone&volume=36&issue=2&publication_year=1974&pages=111-47&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref122",
+        "position": 121,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref123",
+      "position": 122,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Stone M. An asymptotic equivalence of choice of model by cross-validation and Akaike's criterion. J Roy Stat Soc B Met. 1977; 39(1):44–7.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=J Roy Stat Soc B Met&title=An asymptotic equivalence of choice of model by cross-validation and Akaike's criterion&author=M Stone&volume=39&issue=1&publication_year=1977&pages=44-7&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref123",
+        "position": 122,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1005189.ref124",
+      "position": 123,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kearns M, Mansour Y, Ng AY, Ron D. An experimental and theoretical comparison of model selection methods. Mach Learn. 1997;27(1):7–50.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Mach Learn&title=An experimental and theoretical comparison of model selection methods&author=M Kearns&author=Y Mansour&author=AY Ng&author=D Ron&volume=27&issue=1&publication_year=1997&pages=7-50&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5096699/article.xml",
+        "articleSha256": "5e3bd853cae924e29639e4f21fff882b92c4fb5fe15546cf4c577a4954740bd0",
+        "referenceId": "pcbi.1005189.ref124",
+        "position": 123,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "PLoS Computational Biology"
+    ],
+    "abbreviations": [
+      {
+        "value": "PLoS Comput Biol"
+      }
+    ],
+    "identifiers": [
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "328"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "ploscomp"
+      }
+    ],
+    "issns": [],
+    "publisherNames": [
+      "PLOS"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "12"
+    ],
+    "issue": [
+      "11"
+    ],
+    "fpage": [
+      "e1005189"
+    ]
+  }
+}

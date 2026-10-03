@@ -1,0 +1,1310 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  caecilian-traits-reader:
+    scientificName: Uraeotyphlus bombayensis
+    name:
+      en: Uraeotyphlus bombayensis
+      zh: Uraeotyphlus bombayensis
+    sourceClassification:
+      family: Ichthyophiidae
+      genus: Uraeotyphlus
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited caecilian record
+          zh: 存档中的蚓螈记录
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Measurement material
+          zh: 测量材料
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/1/text/zh
+      - topic: ecology
+        title:
+          en: Compiled habitat categories
+          zh: 汇编的栖地类别
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/2/text/zh
+      - topic: lifeHistory
+        title:
+          en: Compiled reproduction category
+          zh: 汇编的繁殖类别
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/3/text/zh
+      - topic: morphology
+        title:
+          en: Compiled anatomical counts
+          zh: 汇编的解剖计数
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/4/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/4/text/zh
+      - topic: lifeHistory
+        sourceField: aquatic-larvae
+        sourceIds:
+          - caeciliantraits
+        title:
+          en: Water-dependent larval development
+          zh: 依赖水环境的幼体发育
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/5/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/5/text/zh
+      - topic: lifeHistory
+        sourceField: clutch-counts
+        sourceIds:
+          - caeciliantraits
+        title:
+          en: Compiled clutch counts
+          zh: 汇编的每窝数量
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/6/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/6/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+          metadataVariant: 0
+          sourceKey: caeciliantraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/caecilian-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - rightsEvidenceUrl
+            - licenseAssessment
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    originalSpeciesRow:
+      rowNumber: 154
+      values:
+        - Ichthyophiidae
+        - Uraeotyphlus
+        - Uraeotyphlus bombayensis
+        - Tropical & Subtropical Moist Broadleaf Forests; Tropical & Subtropical Dry Broadleaf Forests
+        - Terrestrial|Freshwater (=Inland waters)
+        - Aquatic and fossorial
+        - The adults are subterranean and possibly partially aquatic
+        - oviparous
+        - It is oviparous with terrestrial eggs and aquatic larvae
+        - 1
+        - 144
+        - null
+        - null
+        - "IUCN. The IUCN Red List of Threatened Species. Version 2023-1, <https://www.iucnredlist.org> (2023). "
+        - 333.214285714286
+        - null
+        - null
+        - null
+        - 13.0857142857143
+        - null
+        - 14.0538461538462
+        - null
+        - null
+        - null
+        - 17.0666666666667
+        - null
+        - 11.3071428571429
+        - null
+        - null
+        - 14.3181818181818
+        - 17.9818181818182
+        - 22.2636363636364
+        - 7.69166666666667
+        - null
+        - null
+        - 2.17142857142857
+        - 3.98461538461538
+        - null
+        - null
+        - null
+        - 7.98571428571429
+        - 4.91666666666667
+        - null
+        - null
+        - 5.71428571428571
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 10
+        - null
+        - null
+        - null
+        - null
+        - 370
+        - 352
+        - 373.166666666667
+        - null
+        - 17.1111111111111
+        - 47.7857142857143
+        - 48.2857142857143
+        - 41.5
+        - 13.3571428571429
+        - 121
+    originalMeasurementRows:
+      - rowNumber: 641
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Ichthyophiidae
+          - Uraeotyphlus
+          - Uraeotyphlus bombayensis
+          - I
+          - BMNH 82.12.12.6
+          - null
+          - "330"
+          - null
+          - null
+          - null
+          - "15.2"
+          - null
+          - "14.8"
+          - null
+          - null
+          - null
+          - "16"
+          - null
+          - "14.4"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "2.5"
+          - null
+          - null
+          - "2.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "10"
+          - null
+          - null
+          - null
+          - null
+          - "363"
+          - null
+          - null
+          - null
+          - "18"
+          - 24-25
+          - 25-26
+          - 25-24
+          - 4-4
+          - null
+      - rowNumber: 642
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Ichthyophiidae
+          - Uraeotyphlus
+          - Uraeotyphlus bombayensis
+          - I
+          - BMNH 1888.6.11.1
+          - null
+          - "390"
+          - null
+          - null
+          - null
+          - "15.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "15"
+          - null
+          - "10"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8"
+          - null
+          - null
+          - "2.3"
+          - "4"
+          - null
+          - null
+          - null
+          - "7"
+          - null
+          - null
+          - null
+          - "5.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "372"
+          - null
+          - null
+          - null
+          - "14"
+          - 23-22
+          - 24-24
+          - 20-20
+          - 9-9
+          - "121"
+      - rowNumber: 643
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Ichthyophiidae
+          - Uraeotyphlus
+          - Uraeotyphlus bombayensis
+          - I
+          - BMNH 94.3.15.3
+          - null
+          - "494"
+          - null
+          - null
+          - null
+          - "21"
+          - null
+          - "18"
+          - null
+          - null
+          - null
+          - "20.2"
+          - null
+          - "14.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "10.2"
+          - null
+          - null
+          - "2.6"
+          - "5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "356"
+          - "352"
+          - null
+          - null
+          - "16"
+          - 33-34
+          - 34-35
+          - 28-29
+          - 9-9
+          - null
+      - rowNumber: 644
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Ichthyophiidae
+          - Uraeotyphlus
+          - Uraeotyphlus bombayensis
+          - I
+          - ZSIC 17670
+          - null
+          - "290"
+          - null
+          - null
+          - null
+          - "13"
+          - null
+          - "14"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "10.5"
+          - null
+          - null
+          - "13.8"
+          - "17"
+          - "22"
+          - "7.5"
+          - null
+          - null
+          - "1.8"
+          - "4"
+          - null
+          - null
+          - null
+          - null
+          - "5.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "380"
+          - null
+          - null
+          - null
+          - null
+          - 23-24
+          - 24-25
+          - 22-22
+          - 9-9
+          - null
+      - rowNumber: 645
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Ichthyophiidae
+          - Uraeotyphlus
+          - Uraeotyphlus bombayensis
+          - I
+          - ZSIC 23.22.3.80 4413
+          - null
+          - "149"
+          - null
+          - null
+          - null
+          - "4.3"
+          - null
+          - "8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "6.3"
+          - null
+          - null
+          - "8.4"
+          - "10.4"
+          - "13.8"
+          - "4.9"
+          - null
+          - null
+          - "0.9"
+          - "2"
+          - null
+          - null
+          - null
+          - null
+          - "3.9"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "368"
+          - null
+          - null
+          - null
+          - null
+          - 18-18
+          - 18-18
+          - 15-16
+          - 8-8
+          - null
+      - rowNumber: 646
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Ichthyophiidae
+          - Uraeotyphlus
+          - Uraeotyphlus bombayensis
+          - I
+          - MCZ 1266A
+          - null
+          - "198"
+          - null
+          - null
+          - null
+          - "10"
+          - null
+          - "8.3"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7.6"
+          - null
+          - null
+          - "10.5"
+          - "13"
+          - "15.7"
+          - null
+          - null
+          - null
+          - "1.5"
+          - "3"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "383"
+          - null
+          - null
+          - null
+          - null
+          - 24-24
+          - 26-26
+          - 20-21
+          - 8-8
+          - null
+      - rowNumber: 647
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Ichthyophiidae
+          - Uraeotyphlus
+          - Uraeotyphlus bombayensis
+          - I
+          - MCZ 1266B
+          - null
+          - "192"
+          - null
+          - null
+          - null
+          - "9.5"
+          - null
+          - "7.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7.5"
+          - null
+          - null
+          - "9.8"
+          - "12"
+          - "16"
+          - null
+          - null
+          - null
+          - "1.1"
+          - "2.6"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "374"
+          - null
+          - null
+          - null
+          - null
+          - 23-23
+          - 21-21
+          - 16-17
+          - 6-7
+          - null
+      - rowNumber: 648
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Ichthyophiidae
+          - Uraeotyphlus
+          - Uraeotyphlus bombayensis
+          - I
+          - CMNH 73927
+          - null
+          - "260"
+          - null
+          - null
+          - null
+          - "11.7"
+          - null
+          - "12.4"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "11"
+          - null
+          - null
+          - "13"
+          - "16.8"
+          - "20.2"
+          - "6.8"
+          - null
+          - null
+          - "1.8"
+          - "3"
+          - null
+          - null
+          - null
+          - null
+          - "5.35"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "364"
+          - null
+          - null
+          - null
+          - null
+          - 21-21
+          - 21-21
+          - 17-17
+          - 5-5
+          - null
+      - rowNumber: 649
+        values:
+          - "Pillai, R. S. N., and M. S. Ravichandran. 1999. Gymnophiona (Amphibia) of India : a taxonomic study."
+          - Ichthyophiidae
+          - Uraeotyphlus
+          - Uraeotyphlus bombayensis
+          - I
+          - ZSIM VAG-12
+          - null
+          - "422"
+          - null
+          - null
+          - null
+          - "13"
+          - null
+          - "14"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "12"
+          - null
+          - null
+          - "19.5"
+          - "25"
+          - "30.5"
+          - "9.5"
+          - null
+          - null
+          - "3"
+          - "5.5"
+          - null
+          - null
+          - null
+          - "9.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "402"
+          - null
+          - "17"
+          - 26-24
+          - 23-25
+          - 19-19
+          - 10-10
+          - null
+      - rowNumber: 650
+        values:
+          - "Pillai, R. S. N., and M. S. Ravichandran. 1999. Gymnophiona (Amphibia) of India : a taxonomic study."
+          - Ichthyophiidae
+          - Uraeotyphlus
+          - Uraeotyphlus bombayensis
+          - I
+          - ZSIM VAG-8
+          - null
+          - "545"
+          - null
+          - null
+          - null
+          - "17.5"
+          - null
+          - "21"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "16.5"
+          - null
+          - null
+          - "20"
+          - "25.3"
+          - "30.5"
+          - "10"
+          - null
+          - null
+          - "3.5"
+          - "5"
+          - null
+          - null
+          - null
+          - "8.7"
+          - null
+          - null
+          - null
+          - "6.8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "380"
+          - null
+          - "17"
+          - 27-28
+          - 26-27
+          - 24-26
+          - 7-6
+          - null
+      - rowNumber: 651
+        values:
+          - "Pillai, R. S. N., and M. S. Ravichandran. 1999. Gymnophiona (Amphibia) of India : a taxonomic study."
+          - Ichthyophiidae
+          - Uraeotyphlus
+          - Uraeotyphlus bombayensis
+          - I
+          - ZSIM VAG-9
+          - null
+          - "520"
+          - null
+          - null
+          - null
+          - "19.5"
+          - null
+          - "24"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "16.5"
+          - null
+          - null
+          - "20"
+          - "24.5"
+          - "30.7"
+          - "11"
+          - null
+          - null
+          - "3"
+          - "6"
+          - null
+          - null
+          - null
+          - "10"
+          - null
+          - null
+          - null
+          - "7.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "370"
+          - null
+          - "17"
+          - 28-29
+          - 29-30
+          - 26-27
+          - 7-7
+          - null
+      - rowNumber: 652
+        values:
+          - "Pillai, R. S. N., and M. S. Ravichandran. 1999. Gymnophiona (Amphibia) of India : a taxonomic study."
+          - Ichthyophiidae
+          - Uraeotyphlus
+          - Uraeotyphlus bombayensis
+          - I
+          - ZSIM VAG-21
+          - null
+          - "300"
+          - null
+          - null
+          - null
+          - "11.3"
+          - null
+          - "16"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "11.5"
+          - null
+          - null
+          - "15"
+          - "18.5"
+          - "23"
+          - "7.8"
+          - null
+          - null
+          - "2.3"
+          - "4.2"
+          - null
+          - null
+          - null
+          - "7"
+          - null
+          - null
+          - null
+          - "5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "364"
+          - null
+          - "19"
+          - 22-19
+          - 25-25
+          - 18-18
+          - 3-4
+          - null
+      - rowNumber: 653
+        values:
+          - "Pillai, R. S. N., and M. S. Ravichandran. 1999. Gymnophiona (Amphibia) of India : a taxonomic study."
+          - Ichthyophiidae
+          - Uraeotyphlus
+          - Uraeotyphlus bombayensis
+          - I
+          - ZSIM VAG-22
+          - null
+          - "243"
+          - null
+          - null
+          - null
+          - "10"
+          - null
+          - "9.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8.5"
+          - null
+          - null
+          - "12.5"
+          - "16"
+          - "20"
+          - "6.5"
+          - null
+          - null
+          - "2.1"
+          - "3.5"
+          - null
+          - null
+          - null
+          - "6.4"
+          - null
+          - null
+          - null
+          - "5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "363"
+          - null
+          - "19"
+          - 23-24
+          - 20-21
+          - 19-18
+          - 4-4
+          - null
+      - rowNumber: 654
+        values:
+          - "Pillai, R. S. N., and M. S. Ravichandran. 1999. Gymnophiona (Amphibia) of India : a taxonomic study."
+          - Ichthyophiidae
+          - Uraeotyphlus
+          - Uraeotyphlus bombayensis
+          - I
+          - ZSIM VAG-25
+          - null
+          - "332"
+          - null
+          - null
+          - null
+          - "12"
+          - null
+          - "15.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "11.5"
+          - null
+          - null
+          - "15"
+          - "19.3"
+          - "22.5"
+          - "7.6"
+          - null
+          - null
+          - "2"
+          - "4"
+          - null
+          - null
+          - null
+          - "7.3"
+          - null
+          - null
+          - null
+          - "5.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "360"
+          - null
+          - "17"
+          - 20-19
+          - 18-18
+          - 19-19
+          - 4-4
+          - null
+    originalColumns:
+      species:
+        - Family
+        - Genus
+        - Species
+        - biome
+        - Habitats
+        - Microhabitat
+        - Metadata_microhabitat
+        - Reproduction
+        - Metadata_reproduction
+        - Aquatic larvae
+        - Max clutch size
+        - Min clutch size
+        - Mean clutch size
+        - Reference
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - ADD
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+      measurement:
+        - Reference
+        - Family
+        - Genus
+        - Species
+        - Type
+        - ID
+        - Sex
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - "ADD "
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - TSPMK
+    quantitativeLengthUnits: not-confirmed-from-deposited-column-definitions; dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/caecilian-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/caecilian-traits-reader/limitations/zh
+    variableDefinitionCitation:
+      doi: 10.1038/s41597-025-04728-z
+      sourceFile: data/sources/snapshots/caeciliantraits-2025-2026-10-02/article.xml
+      locator: Methods, species-level ecological and life-history data; Data Records
+---
+
+# Uraeotyphlus bombayensis — CaecilianTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/caecilian-traits-reader/sources/referenceBindings/0/usage/locator -->
+CaecilianTraits.xlsx, Species level data row 154; Individual level data rows 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654; Supplementary Table 1 for variable meanings
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+<!-- /evo:text -->
+
+## caecilian-traits-reader / limitations
+
+<!-- evo:text /records/caecilian-traits-reader/limitations/en -->
+Compilation-level reader with source concepts kept separate. Missing cells remain unknown. Underlying primary works, dimensions and units, contemporary species identity, remaining scientific facets and external expert review remain to be resolved.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / limitations
+
+<!-- evo:text /records/caecilian-traits-reader/limitations/zh -->
+本页为汇编层面的读本，来源概念单独保留；缺失单元格仍记为未知。原始文献、尺寸和单位、当前物种身份、其余科学主题及外部专家审评仍待核对。
+<!-- /evo:text -->

@@ -1,0 +1,2647 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  amphitherm-source-reader:
+    scientificName: Eleutherodactylus coqui
+    name:
+      en: Eleutherodactylus coqui
+      zh: Eleutherodactylus coqui
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/0/text/zh
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "1063"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/1/text/zh
+        sourceRowNumber: 945
+      - topic: ecology
+        title:
+          en: Selected critical lower thermal limit estimate
+          zh: 选列的临界低温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "1389"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/2/text/zh
+        sourceRowNumber: 1240
+    sources:
+      referenceBindings:
+        - referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+          metadataVariant: 0
+          sourceKey: amphitherm
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - year
+            - doi
+            - url
+            - datasetUrl
+            - version
+            - associatedArchivedReleaseDoi
+            - accessedAt
+            - license
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      order: Anura
+      family: Eleutherodactylidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 945
+        values:
+          - "1063"
+          - Patrice Pottier
+          - Christian_et_al_1988
+          - Thermal Relations of Some Tropical Frogs Along an Altitudinal Gradient
+          - "1988"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/2388239
+          - English
+          - Eleutherodactylus_coqui_pop1
+          - Eleutherodactylus_coqui_pop1_UTL_co1
+          - NA
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "18.295135"
+          - "-65.800033"
+          - "700"
+          - NA
+          - October
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - "21"
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "25"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1; Rohr et al. 2018
+          - NA
+          - NA
+          - "36.8"
+          - "0.6"
+          - "12"
+          - sd
+          - Data taken from Rohr et al. 2018; sd_ht taken from the Tab 1
+      - rowNumber: 946
+        values:
+          - "1064"
+          - Patrice Pottier
+          - Christian_et_al_1988
+          - Thermal Relations of Some Tropical Frogs Along an Altitudinal Gradient
+          - "1988"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/2388239
+          - English
+          - Eleutherodactylus_coqui_pop1
+          - Eleutherodactylus_coqui_pop1_UTL_co2
+          - NA
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "18.295135"
+          - "-65.800033"
+          - "700"
+          - NA
+          - April
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - "19.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "25"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1; Rohr et al. 2018
+          - NA
+          - NA
+          - "37.1"
+          - "0.66"
+          - "12"
+          - sd
+          - Data taken from Rohr et al. 2018; sd_ht taken from the Tab 1
+      - rowNumber: 947
+        values:
+          - "1065"
+          - Patrice Pottier
+          - Christian_et_al_1988
+          - Thermal Relations of Some Tropical Frogs Along an Altitudinal Gradient
+          - "1988"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/2388239
+          - English
+          - Eleutherodactylus_coqui_pop4
+          - Eleutherodactylus_coqui_pop4_UTL_co1
+          - NA
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "18.402807"
+          - "-66.050137"
+          - "15"
+          - NA
+          - October
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - "25.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "25"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1; Rohr et al. 2018
+          - NA
+          - NA
+          - "37"
+          - "0.45"
+          - "9"
+          - sd
+          - Data taken from Rohr et al. 2018; sd_ht taken from the Tab 1
+      - rowNumber: 948
+        values:
+          - "1066"
+          - Patrice Pottier
+          - Christian_et_al_1988
+          - Thermal Relations of Some Tropical Frogs Along an Altitudinal Gradient
+          - "1988"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/2388239
+          - English
+          - Eleutherodactylus_coqui_pop4
+          - Eleutherodactylus_coqui_pop4_UTL_co2
+          - NA
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "18.402807"
+          - "-66.050137"
+          - "15"
+          - NA
+          - April
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - "25.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "25"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1; Rohr et al. 2018
+          - NA
+          - NA
+          - "37.2"
+          - "0.8"
+          - "10"
+          - sd
+          - Data taken from Rohr et al. 2018; sd_ht taken from the Tab 1
+      - rowNumber: 1240
+        values:
+          - "1389"
+          - Natalie_Claunch
+          - Delgado-Suazo_and_Burrowes_2022
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/4/values/3
+          - "2022"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/j.jtherbio.2021.103148
+          - English
+          - Eleutherodactylus_coqui_pop2
+          - Eleutherodactylus_coqui_pop2_LTL_co1
+          - NA
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "18.301942"
+          - "-65.794685"
+          - "875"
+          - NA
+          - NA
+          - "2017"
+          - May_2017
+          - Nov_2017
+          - Collected during warm-wet season in Puerto Rico, which is generally between May and November.
+          - "20.99"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "22.13"
+          - "0.96"
+          - "4"
+          - NA
+          - adults
+          - NA
+          - "41.85"
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "22"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "5.54"
+          - "0.63"
+          - "20"
+          - sd
+          - NA
+      - rowNumber: 1241
+        values:
+          - "1390"
+          - Natalie_Claunch
+          - Delgado-Suazo_and_Burrowes_2022
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/5/values/3
+          - "2022"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/j.jtherbio.2021.103148
+          - English
+          - Eleutherodactylus_coqui_pop3
+          - Eleutherodactylus_coqui_pop3_LTL_co1
+          - NA
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "18.323024"
+          - "-65.74716"
+          - "180"
+          - NA
+          - NA
+          - "2017"
+          - May_2017
+          - Nov_2017
+          - Collected during warm-wet season in Puerto Rico, which is generally between May and November.
+          - "25.76"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "22.13"
+          - "0.96"
+          - "4"
+          - NA
+          - adults
+          - NA
+          - "36.19"
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "22"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "6.06"
+          - "1.02"
+          - "20"
+          - sd
+          - NA
+      - rowNumber: 2149
+        values:
+          - "2356"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop10
+          - Eleutherodactylus_coqui_pop10_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/6/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.77653542"
+          - "-155.1258891"
+          - "214.6"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - '"pre-acclimation"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "5.63"
+          - "0.28"
+          - "20"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 2150
+        values:
+          - "2357"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop10
+          - Eleutherodactylus_coqui_pop10_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/7/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.77653542"
+          - "-155.1258891"
+          - "214.6"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "16"
+          - "3"
+          - "30"
+          - '"cold"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "4.46"
+          - "0.4"
+          - "7"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 2151
+        values:
+          - "2358"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop10
+          - Eleutherodactylus_coqui_pop10_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/8/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.77653542"
+          - "-155.1258891"
+          - "214.6"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1.3"
+          - "30"
+          - '"warm"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "4.69"
+          - "0.28"
+          - "10"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 2152
+        values:
+          - "2359"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop5
+          - Eleutherodactylus_coqui_pop5_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/9/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.49234377"
+          - "-155.1128117"
+          - "566.2"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - '"pre-acclimation"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "3.91"
+          - "0.11"
+          - "18"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 2153
+        values:
+          - "2360"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop5
+          - Eleutherodactylus_coqui_pop5_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/10/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.49234377"
+          - "-155.1128117"
+          - "566.2"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "16"
+          - "3"
+          - "30"
+          - '"cold"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "4.61"
+          - "0.31"
+          - "9"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 2154
+        values:
+          - "2361"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop5
+          - Eleutherodactylus_coqui_pop5_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/11/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.49234377"
+          - "-155.1128117"
+          - "566.2"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1.3"
+          - "30"
+          - '"warm"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "5.63"
+          - "0.37"
+          - "9"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 2155
+        values:
+          - "2362"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop6
+          - Eleutherodactylus_coqui_pop6_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/12/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.48177053"
+          - "-154.9019138"
+          - "200.4"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - '"pre-acclimation"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "5.81"
+          - "0.28"
+          - "20"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 2156
+        values:
+          - "2363"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop6
+          - Eleutherodactylus_coqui_pop6_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/13/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.48177053"
+          - "-154.9019138"
+          - "200.4"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "16"
+          - "3"
+          - "30"
+          - '"cold"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "4.26"
+          - "0.44"
+          - "5"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 2157
+        values:
+          - "2364"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop6
+          - Eleutherodactylus_coqui_pop6_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/14/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.48177053"
+          - "-154.9019138"
+          - "200.4"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1.3"
+          - "30"
+          - '"warm"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "5.67"
+          - "0.61"
+          - "9"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 2158
+        values:
+          - "2365"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop7
+          - Eleutherodactylus_coqui_pop7_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/15/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.55448985"
+          - "-155.3137678"
+          - "687.6"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - '"pre-acclimation"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "5.13"
+          - "0.24"
+          - "21"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 2159
+        values:
+          - "2366"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop7
+          - Eleutherodactylus_coqui_pop7_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/16/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.55448985"
+          - "-155.3137678"
+          - "687.6"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "16"
+          - "3"
+          - "30"
+          - '"cold"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "4.51"
+          - "0.51"
+          - "10"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 2160
+        values:
+          - "2367"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop7
+          - Eleutherodactylus_coqui_pop7_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/17/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.55448985"
+          - "-155.3137678"
+          - "687.6"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1.3"
+          - "30"
+          - '"warm"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "5.43"
+          - "0.33"
+          - "9"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 2161
+        values:
+          - "2368"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop8
+          - Eleutherodactylus_coqui_pop8_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/18/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.58021017"
+          - "-154.9239032"
+          - "18.5"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - '"pre-acclimation"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "5.2"
+          - "0.18"
+          - "20"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 2162
+        values:
+          - "2369"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop8
+          - Eleutherodactylus_coqui_pop8_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/19/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.58021017"
+          - "-154.9239032"
+          - "18.5"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "16"
+          - "3"
+          - "30"
+          - '"cold"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "3.74"
+          - "0.35"
+          - "7"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 2163
+        values:
+          - "2370"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop8
+          - Eleutherodactylus_coqui_pop8_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/20/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.58021017"
+          - "-154.9239032"
+          - "18.5"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1.3"
+          - "30"
+          - '"warm"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "5.42"
+          - "0.49"
+          - "9"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 2164
+        values:
+          - "2371"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop9
+          - Eleutherodactylus_coqui_pop9_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/21/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.71268519"
+          - "-155.1003282"
+          - "45.3"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - '"pre-acclimation"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "4.86"
+          - "0.23"
+          - "20"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 2165
+        values:
+          - "2372"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop9
+          - Eleutherodactylus_coqui_pop9_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/22/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.71268519"
+          - "-155.1003282"
+          - "45.3"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "16"
+          - "3"
+          - "30"
+          - '"cold"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "4.15"
+          - "0.21"
+          - "7"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 2166
+        values:
+          - "2373"
+          - Natalie_Claunch
+          - Haggerty_2016
+          - Thermal tolerance of the common coqui frog (Eleutherodactylus coqui) in East Hawaii along an elevation gradient
+          - "2016"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop9
+          - Eleutherodactylus_coqui_pop9_LTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/23/values/12
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.71268519"
+          - "-155.1003282"
+          - "45.3"
+          - NA
+          - NA
+          - NA
+          - December_2015
+          - May_2016
+          - Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1.3"
+          - "30"
+          - '"warm"'
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "24.55"
+          - "0.66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "4.73"
+          - "0.32"
+          - "9"
+          - se
+          - Sample size was determined by substracting the mortality from starting sample size values in Table 2.
+      - rowNumber: 3757
+        values:
+          - "4118"
+          - Patrice Pottier
+          - Rivera-Burgos_2019
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/24/values/3
+          - "2019"
+          - "1"
+          - Critical Thermal Maximum of Four Species of Eleutherodactylus Frogs in West Central Puerto Rico
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop21
+          - Eleutherodactylus_coqui_pop21_UTL_co1
+          - NA
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - "526"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "28.87"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "10.5"
+          - The acclimation time was taken as the mean of the range presented (7-14 days)
+          - adults
+          - NA
+          - NA
+          - "3.76"
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - ambient
+          - "25"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "46.85"
+          - "1.54"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 3758
+        values:
+          - "4119"
+          - Patrice Pottier
+          - Rivera-Burgos_2019
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/25/values/3
+          - "2019"
+          - "1"
+          - Critical Thermal Maximum of Four Species of Eleutherodactylus Frogs in West Central Puerto Rico
+          - not_peer-reviewed
+          - NA
+          - English
+          - Eleutherodactylus_coqui_pop22
+          - Eleutherodactylus_coqui_pop22_UTL_co1
+          - NA
+          - Anura
+          - Eleutherodactylidae
+          - Eleutherodactylus coqui
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - "232"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "28.87"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "10.5"
+          - The acclimation time was taken as the mean of the range presented (7-14 days)
+          - adults
+          - NA
+          - NA
+          - "3.76"
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - ambient
+          - "25"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "49.04"
+          - "3.15"
+          - "6"
+          - se
+          - NA
+    originalStudyCitations:
+      - ref: Christian_et_al_1988
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/0/title
+          format: heading
+        doi: https://doi.org/10.2307/2388239
+        year: "1988"
+      - ref: Delgado-Suazo_and_Burrowes_2022
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/1/title
+          format: heading
+        doi: https://doi.org/10.1016/j.jtherbio.2021.103148
+        year: "2022"
+      - ref: Haggerty_2016
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/2/title
+          format: heading
+        doi: NA
+        year: "2016"
+      - ref: Rivera-Burgos_2019
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/3/title
+          format: heading
+        doi: NA
+        year: "2019"
+    selectedEstimateRowNumbers:
+      - 945
+      - 1240
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3996F
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/zh
+---
+
+# Eleutherodactylus coqui — AmphiTherm source
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator -->
+Cleaned_and_curated_data_Amphitherm.csv, rows 945, 946, 947, 948, 1240, 1241, 2149, 2150, 2151, 2152, 2153, 2154, 2155, 2156, 2157, 2158, 2159, 2160, 2161, 2162, 2163, 2164, 2165, 2166, 3757, 3758; Metadata_AmphiTherm.xlsx
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en -->
+Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh -->
+固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/4/values/3 -->
+Response to thermal and hydric regimes point to differential inter- and intraspecific vulnerability of tropical amphibians to climate warming
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/5/values/3 -->
+Response to thermal and hydric regimes point to differential inter- and intraspecific vulnerability of tropical amphibians to climate warming
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/6/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/7/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/8/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/9/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/10/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/11/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/12/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/13/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/14/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/15/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/16/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/17/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/18/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/19/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/20/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/21/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/22/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/23/values/12 -->
+All frogs from a given population were tested for a baseline "pre-acclimation" before being assigned to a cold or warm treatment, hence all observations are asigned a shared cohort ID
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/24/values/3 -->
+Habitat Suitability for Eleutherodactylus Frogs in Puerto Rico: Indexing Occupancy, Abundance and Reproduction to Climatic and Habitat Characteristics
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/25/values/3 -->
+Habitat Suitability for Eleutherodactylus Frogs in Puerto Rico: Indexing Occupancy, Abundance and Reproduction to Climatic and Habitat Characteristics
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/en -->
+Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete; not externally expert-reviewed.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/zh -->
+部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成；未经过外部领域专家评审。
+<!-- /evo:text -->

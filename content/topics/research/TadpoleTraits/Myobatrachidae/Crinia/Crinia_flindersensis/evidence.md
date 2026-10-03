@@ -1,0 +1,1330 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  tadpole-traits-reader:
+    scientificName: Crinia flindersensis
+    name:
+      en: Crinia flindersensis
+      zh: Crinia flindersensis
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/1/text/zh
+      - topic: morphology
+        title:
+          en: Selected image-derived proportions
+          zh: 选列的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/2/text/zh
+      - topic: overview
+        title:
+          en: Unresolved source ratios
+          zh: 未解决的来源比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/3/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+          metadataVariant: 0
+          sourceKey: tadpoletraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      family: Myobatrachidae
+      genus: Crinia
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows:
+      - rowNumber: 3996
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/0/values/0
+          - Crinia flindersensis
+          - Myobatrachidae
+          - Crinia
+          - Crinia flindersensis
+          - 5
+          - NA
+          - 24
+          - null
+          - 8.8
+          - null
+          - 4.2
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.4
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 3997
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/1/values/0
+          - Crinia flindersensis
+          - Myobatrachidae
+          - Crinia
+          - Crinia flindersensis
+          - 23 (BL = 13)
+          - NA
+          - 22.7
+          - null
+          - 9.137
+          - null
+          - 5.56
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.14
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.6
+          - null
+          - null
+          - null
+          - null
+          - null
+    originalImageRows:
+      - rowNumber: 269
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Ratio
+          - Color image
+          - Crinia flindersensis
+          - Myobatrachidae
+          - Crinia
+          - Crinia flindersensis
+          - 28
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.371192987668994
+          - 0.63393255088397
+          - 0.195141880849799
+          - 0.186747882929728
+          - 0.071311840736889
+          - 0.062992125984252
+          - 0.0650720546724112
+          - null
+          - null
+          - null
+          - Yanfang Song
+      - rowNumber: 270
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/1/values/0
+          - Measurement
+          - Color image
+          - Crinia flindersensis
+          - Myobatrachidae
+          - Crinia
+          - Crinia flindersensis
+          - 28
+          - 24.126
+          - 9.398
+          - 14.63
+          - 4.699
+          - 4.348
+          - 1.51
+          - 1.687
+          - 1.507
+          - 5.101
+          - 1.278
+          - null
+          - 0.389538257481555
+          - 0.6639973472622
+          - 0.19476912874778
+          - 0.182258994446
+          - 0.62588792561
+          - 0.699245627124264
+          - 0.62463732732819
+          - 0.2114316551534
+          - 0.529718975379259
+          - null
+          - Yanfang Song
+      - rowNumber: 271
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/2/values/0
+          - Measurement
+          - Color image
+          - Crinia flindersensis
+          - Myobatrachidae
+          - Crinia
+          - Crinia flindersensis
+          - 29
+          - 31.566
+          - 9.372
+          - 21.965
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 7.035
+          - 2.504
+          - null
+          - 0.2969172979181
+          - 0.695843629221314
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.222866375213838
+          - 0.793258569346766
+          - null
+          - Yanfang Song
+      - rowNumber: 272
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/3/values/0
+          - Measurement
+          - Color image
+          - Crinia flindersensis
+          - Myobatrachidae
+          - Crinia
+          - Crinia flindersensis
+          - 30
+          - 24.115
+          - 8.922
+          - 15.512
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 6.286
+          - 1.078
+          - null
+          - 0.36997719261872
+          - 0.6432518853418
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.2666763425254
+          - 0.44724673439768
+          - null
+          - Yanfang Song
+      - rowNumber: 273
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/4/values/0
+          - Measurement
+          - Color image
+          - Crinia flindersensis
+          - Myobatrachidae
+          - Crinia
+          - Crinia flindersensis
+          - 34
+          - 30.422
+          - 11.064
+          - 18.807
+          - 5.256
+          - 6.431
+          - 2.657
+          - 2.003
+          - 1.881
+          - 7.915
+          - 2.273
+          - null
+          - 0.363684175925317
+          - 0.61823931365459
+          - 0.17276976133719
+          - 0.21139378423
+          - 0.87338115778713
+          - 0.6584511571231
+          - 0.61832544211426
+          - 0.261735586891
+          - 0.747156662941292
+          - null
+          - Yanfang Song
+      - rowNumber: 274
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/5/values/0
+          - Measurement
+          - Color image
+          - Crinia flindersensis
+          - Myobatrachidae
+          - Crinia
+          - Crinia flindersensis
+          - 35
+          - 33.601
+          - 12.339
+          - 21.566
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 7.678
+          - null
+          - null
+          - 0.367221213654356
+          - 0.64182613612691
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.228551414761
+          - null
+          - null
+          - Yanfang Song
+      - rowNumber: 275
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/6/values/0
+          - Measurement
+          - Hand-drawn picture
+          - Crinia flindersensis
+          - Myobatrachidae
+          - Crinia
+          - Crinia flindersensis
+          - 37
+          - 27.574
+          - 11.028
+          - 16.402
+          - 5.935
+          - 5.514
+          - 2.574
+          - 1.636
+          - 1.543
+          - null
+          - null
+          - 2.373
+          - 0.399941974323638
+          - 0.5948357148381
+          - 0.215238993254515
+          - 0.19997987161819
+          - 0.9334886847298
+          - 0.5933125479934
+          - 0.55958511641413
+          - null
+          - null
+          - 0.8659331254799
+          - Yanfang Song
+      - rowNumber: 276
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/7/values/0
+          - Measurement
+          - Color image
+          - Crinia flindersensis
+          - Myobatrachidae
+          - Crinia
+          - Crinia flindersensis
+          - 41
+          - 37.928
+          - 11.886
+          - 25.576
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 6.761
+          - 3.45
+          - null
+          - 0.31338325247838
+          - 0.674333161169
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.1782588615938
+          - 0.996182243375
+          - null
+          - Yanfang Song
+      - rowNumber: 277
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Crinia flindersensis
+          - Myobatrachidae
+          - Crinia
+          - Crinia flindersensis
+          - 30
+          - 23.444
+          - 8.132
+          - 15.063
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 5.88
+          - 1.104
+          - null
+          - 0.34686913495994
+          - 0.6425981612524
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.258144194112
+          - 0.47994112688
+          - null
+          - Yanfang Song
+      - rowNumber: 278
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Crinia flindersensis
+          - Myobatrachidae
+          - Crinia
+          - Crinia flindersensis
+          - 29
+          - 24.347
+          - 8.022
+          - 16.287
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 5.113
+          - 1.209
+          - null
+          - 0.329486178995359
+          - 0.66895353764324
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.215339466875
+          - 0.49657419353514
+          - null
+          - Yanfang Song
+      - rowNumber: 279
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Crinia flindersensis
+          - Myobatrachidae
+          - Crinia
+          - Crinia flindersensis
+          - 41
+          - 34.818
+          - 11.352
+          - 22.883
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 7.113
+          - 2.743
+          - null
+          - 0.3263825674444
+          - 0.65721753116243
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.24298842554
+          - 0.78781924681
+          - null
+          - Yanfang Song
+      - rowNumber: 280
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Crinia flindersensis
+          - Myobatrachidae
+          - Crinia
+          - Crinia flindersensis
+          - 34
+          - 29.48
+          - 11.987
+          - 16.346
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 7.27
+          - 2.397
+          - null
+          - 0.466146542714
+          - 0.55447761194299
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.24667869742198
+          - 0.81393622795115
+          - null
+          - Yanfang Song
+      - rowNumber: 281
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Crinia flindersensis
+          - Myobatrachidae
+          - Crinia
+          - Crinia flindersensis
+          - 29
+          - 27.113
+          - 9.142
+          - 18.741
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 6.289
+          - 1.441
+          - null
+          - 0.337181425884262
+          - 0.691218234795117
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.23195515665732
+          - 0.531479364142662
+          - null
+          - Yanfang Song
+      - rowNumber: 282
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Crinia flindersensis
+          - Myobatrachidae
+          - Crinia
+          - Crinia flindersensis
+          - 35
+          - 30.994
+          - 11.442
+          - 18.687
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 6.877
+          - 2.257
+          - null
+          - 0.36916822618279
+          - 0.62923146415435
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.221881654513777
+          - 0.7282545912112
+          - null
+          - Yanfang Song
+      - rowNumber: 283
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Hand-drawn picture
+          - Crinia flindersensis
+          - Myobatrachidae
+          - Crinia
+          - Crinia flindersensis
+          - 37
+          - 21.832
+          - 8.736
+          - 12.953
+          - 4.525
+          - 4.411
+          - 2.079
+          - 1.292
+          - 1.124
+          - null
+          - null
+          - null
+          - 0.414657383657
+          - 0.59333478417
+          - 0.272645657759
+          - 0.2242872847197
+          - 0.952271894466838
+          - 0.5917918651527
+          - 0.51484695273
+          - null
+          - null
+          - null
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 270
+        scientificName: Crinia flindersensis
+        sourceField: TaL/TL
+        suppliedRatio: 0.6639973472622
+        originalNumerator: 14.63
+        originalTotalLength: 24.126
+        computedRatio: 0.6063997347260217
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 270
+        scientificName: Crinia flindersensis
+        sourceField: MTH/TL
+        suppliedRatio: 0.182258994446
+        originalNumerator: 4.348
+        originalTotalLength: 24.126
+        computedRatio: 0.1802205089944458
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 270
+        scientificName: Crinia flindersensis
+        sourceField: TMH/TL
+        suppliedRatio: 0.62588792561
+        originalNumerator: 1.51
+        originalTotalLength: 24.126
+        computedRatio: 0.062588079250601
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 270
+        scientificName: Crinia flindersensis
+        sourceField: DFH/TL
+        suppliedRatio: 0.699245627124264
+        originalNumerator: 1.687
+        originalTotalLength: 24.126
+        computedRatio: 0.06992456271242643
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 270
+        scientificName: Crinia flindersensis
+        sourceField: VFH/TL
+        suppliedRatio: 0.62463732732819
+        originalNumerator: 1.507
+        originalTotalLength: 24.126
+        computedRatio: 0.06246373207328193
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 270
+        scientificName: Crinia flindersensis
+        sourceField: TMW/TL
+        suppliedRatio: 0.529718975379259
+        originalNumerator: 1.278
+        originalTotalLength: 24.126
+        computedRatio: 0.05297189753792589
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 271
+        scientificName: Crinia flindersensis
+        sourceField: TMW/TL
+        suppliedRatio: 0.793258569346766
+        originalNumerator: 2.504
+        originalTotalLength: 31.566
+        computedRatio: 0.07932585693467656
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 272
+        scientificName: Crinia flindersensis
+        sourceField: BMW/TL
+        suppliedRatio: 0.2666763425254
+        originalNumerator: 6.286
+        originalTotalLength: 24.115
+        computedRatio: 0.2606676342525399
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 272
+        scientificName: Crinia flindersensis
+        sourceField: TMW/TL
+        suppliedRatio: 0.44724673439768
+        originalNumerator: 1.078
+        originalTotalLength: 24.115
+        computedRatio: 0.04470246734397678
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 273
+        scientificName: Crinia flindersensis
+        sourceField: TMH/TL
+        suppliedRatio: 0.87338115778713
+        originalNumerator: 2.657
+        originalTotalLength: 30.422
+        computedRatio: 0.08733811057787128
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 273
+        scientificName: Crinia flindersensis
+        sourceField: DFH/TL
+        suppliedRatio: 0.6584511571231
+        originalNumerator: 2.003
+        originalTotalLength: 30.422
+        computedRatio: 0.06584051015712314
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 273
+        scientificName: Crinia flindersensis
+        sourceField: VFH/TL
+        suppliedRatio: 0.61832544211426
+        originalNumerator: 1.881
+        originalTotalLength: 30.422
+        computedRatio: 0.061830254421142594
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 273
+        scientificName: Crinia flindersensis
+        sourceField: BMW/TL
+        suppliedRatio: 0.261735586891
+        originalNumerator: 7.915
+        originalTotalLength: 30.422
+        computedRatio: 0.26017355860890146
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 273
+        scientificName: Crinia flindersensis
+        sourceField: TMW/TL
+        suppliedRatio: 0.747156662941292
+        originalNumerator: 2.273
+        originalTotalLength: 30.422
+        computedRatio: 0.07471566629412925
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 275
+        scientificName: Crinia flindersensis
+        sourceField: TMH/TL
+        suppliedRatio: 0.9334886847298
+        originalNumerator: 2.574
+        originalTotalLength: 27.574
+        computedRatio: 0.0933488068470298
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 275
+        scientificName: Crinia flindersensis
+        sourceField: DFH/TL
+        suppliedRatio: 0.5933125479934
+        originalNumerator: 1.636
+        originalTotalLength: 27.574
+        computedRatio: 0.05933125407993036
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 275
+        scientificName: Crinia flindersensis
+        sourceField: VFH/TL
+        suppliedRatio: 0.55958511641413
+        originalNumerator: 1.543
+        originalTotalLength: 27.574
+        computedRatio: 0.055958511641401316
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 275
+        scientificName: Crinia flindersensis
+        sourceField: OD/TL
+        suppliedRatio: 0.8659331254799
+        originalNumerator: 2.373
+        originalTotalLength: 27.574
+        computedRatio: 0.08605933125407993
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 276
+        scientificName: Crinia flindersensis
+        sourceField: TMW/TL
+        suppliedRatio: 0.996182243375
+        originalNumerator: 3.45
+        originalTotalLength: 37.928
+        computedRatio: 0.0909618224003375
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 277
+        scientificName: Crinia flindersensis
+        sourceField: BMW/TL
+        suppliedRatio: 0.258144194112
+        originalNumerator: 5.88
+        originalTotalLength: 23.444
+        computedRatio: 0.25081044190411195
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 277
+        scientificName: Crinia flindersensis
+        sourceField: TMW/TL
+        suppliedRatio: 0.47994112688
+        originalNumerator: 1.104
+        originalTotalLength: 23.444
+        computedRatio: 0.047090940112608774
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 278
+        scientificName: Crinia flindersensis
+        sourceField: BMW/TL
+        suppliedRatio: 0.215339466875
+        originalNumerator: 5.113
+        originalTotalLength: 24.347
+        computedRatio: 0.21000533946687477
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 278
+        scientificName: Crinia flindersensis
+        sourceField: TMW/TL
+        suppliedRatio: 0.49657419353514
+        originalNumerator: 1.209
+        originalTotalLength: 24.347
+        computedRatio: 0.04965704193535138
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 279
+        scientificName: Crinia flindersensis
+        sourceField: BMW/TL
+        suppliedRatio: 0.24298842554
+        originalNumerator: 7.113
+        originalTotalLength: 34.818
+        computedRatio: 0.20429088402550408
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 279
+        scientificName: Crinia flindersensis
+        sourceField: TMW/TL
+        suppliedRatio: 0.78781924681
+        originalNumerator: 2.743
+        originalTotalLength: 34.818
+        computedRatio: 0.07878109024068011
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 280
+        scientificName: Crinia flindersensis
+        sourceField: BL/TL
+        suppliedRatio: 0.466146542714
+        originalNumerator: 11.987
+        originalTotalLength: 29.48
+        computedRatio: 0.4066146540027137
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 280
+        scientificName: Crinia flindersensis
+        sourceField: TMW/TL
+        suppliedRatio: 0.81393622795115
+        originalNumerator: 2.397
+        originalTotalLength: 29.48
+        computedRatio: 0.08130936227951152
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 281
+        scientificName: Crinia flindersensis
+        sourceField: TMW/TL
+        suppliedRatio: 0.531479364142662
+        originalNumerator: 1.441
+        originalTotalLength: 27.113
+        computedRatio: 0.053147936414266225
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 282
+        scientificName: Crinia flindersensis
+        sourceField: TaL/TL
+        suppliedRatio: 0.62923146415435
+        originalNumerator: 18.687
+        originalTotalLength: 30.994
+        computedRatio: 0.6029231464154353
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 282
+        scientificName: Crinia flindersensis
+        sourceField: TMW/TL
+        suppliedRatio: 0.7282545912112
+        originalNumerator: 2.257
+        originalTotalLength: 30.994
+        computedRatio: 0.07282054591211203
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 283
+        scientificName: Crinia flindersensis
+        sourceField: BL/TL
+        suppliedRatio: 0.414657383657
+        originalNumerator: 8.736
+        originalTotalLength: 21.832
+        computedRatio: 0.4001465738365702
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 283
+        scientificName: Crinia flindersensis
+        sourceField: BMH/TL
+        suppliedRatio: 0.272645657759
+        originalNumerator: 4.525
+        originalTotalLength: 21.832
+        computedRatio: 0.20726456577500918
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 283
+        scientificName: Crinia flindersensis
+        sourceField: MTH/TL
+        suppliedRatio: 0.2242872847197
+        originalNumerator: 4.411
+        originalTotalLength: 21.832
+        computedRatio: 0.20204287284719674
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 283
+        scientificName: Crinia flindersensis
+        sourceField: TMH/TL
+        suppliedRatio: 0.952271894466838
+        originalNumerator: 2.079
+        originalTotalLength: 21.832
+        computedRatio: 0.09522718944668378
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 283
+        scientificName: Crinia flindersensis
+        sourceField: DFH/TL
+        suppliedRatio: 0.5917918651527
+        originalNumerator: 1.292
+        originalTotalLength: 21.832
+        computedRatio: 0.05917918651520704
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 283
+        scientificName: Crinia flindersensis
+        sourceField: VFH/TL
+        suppliedRatio: 0.51484695273
+        originalNumerator: 1.124
+        originalTotalLength: 21.832
+        computedRatio: 0.051484060095272996
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.371192987668994
+        row: 269
+        stage: 28
+        type: Ratio
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.63393255088397
+        row: 269
+        stage: 28
+        type: Ratio
+        imageType: Color image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.195141880849799
+        row: 269
+        stage: 28
+        type: Ratio
+        imageType: Color image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.186747882929728
+        row: 269
+        stage: 28
+        type: Ratio
+        imageType: Color image
+      - field: TMH/TL
+        label:
+          en: tail muscle height / total length
+          zh: 尾肌高度/全长
+        value: 0.071311840736889
+        row: 269
+        stage: 28
+        type: Ratio
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - ZGCQ
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/zh
+---
+
+# Crinia flindersensis — TadpoleTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator -->
+Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 3996, 3997; Picture measurement data rows 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283; Readme rows 6–50
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/0/values/0 -->
+Donnellan, S., Anstis, M., Price, L., & Wheaton, L. (2012). A new species of Crinia (Anura: Myobatrachidae) from the Flinders Ranges, South Australia. Zootaxa, 3499, 1-26.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/1/values/0 -->
+Donnellan, S., Anstis, M., Price, L., & Wheaton, L. (2012). A new species of Crinia (Anura: Myobatrachidae) from the Flinders Ranges, South Australia. Zootaxa, 3499, 1-26.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/1/values/0 -->
+Donnellan, S., Anstis, M., Price, L., & Wheaton, L. (2012). A new species of Crinia (Anura: Myobatrachidae) from the Flinders Ranges, South Australia. Zootaxa, 3499, 1-26.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/2/values/0 -->
+Donnellan, S., Anstis, M., Price, L., & Wheaton, L. (2012). A new species of Crinia (Anura: Myobatrachidae) from the Flinders Ranges, South Australia. Zootaxa, 3499, 1-26.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/3/values/0 -->
+Donnellan, S., Anstis, M., Price, L., & Wheaton, L. (2012). A new species of Crinia (Anura: Myobatrachidae) from the Flinders Ranges, South Australia. Zootaxa, 3499, 1-26.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/4/values/0 -->
+Donnellan, S., Anstis, M., Price, L., & Wheaton, L. (2012). A new species of Crinia (Anura: Myobatrachidae) from the Flinders Ranges, South Australia. Zootaxa, 3499, 1-26.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/5/values/0 -->
+Donnellan, S., Anstis, M., Price, L., & Wheaton, L. (2012). A new species of Crinia (Anura: Myobatrachidae) from the Flinders Ranges, South Australia. Zootaxa, 3499, 1-26.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/6/values/0 -->
+Donnellan, S., Anstis, M., Price, L., & Wheaton, L. (2012). A new species of Crinia (Anura: Myobatrachidae) from the Flinders Ranges, South Australia. Zootaxa, 3499, 1-26.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/7/values/0 -->
+Donnellan, S., Anstis, M., Price, L., & Wheaton, L. (2012). A new species of Crinia (Anura: Myobatrachidae) from the Flinders Ranges, South Australia. Zootaxa, 3499, 1-26.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/en -->
+A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete. No external expert review.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/zh -->
+本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成；没有外部专家审评。
+<!-- /evo:text -->

@@ -1,0 +1,67 @@
+{
+  "completedAt": "2026-10-03T19:36:13.933Z",
+  "validationComplete": true,
+  "fullRun": {
+    "session": 79123,
+    "exitCode": 1,
+    "logSha256": "8de43d5e60ac1813b9742e072dfdbd4f96589b847a720752b5697c91f431adbc",
+    "stoppedAt": "pages:smoke; repaired full-Web release-retention allowance"
+  },
+  "continuation": {
+    "session": 21313,
+    "exitCode": 0,
+    "logSha256": "b86d55b2b4471e28367c2e0d5774383db59622a7ab556315bba7034255959da7"
+  },
+  "unitTestFilesPassed": 181,
+  "unitTestsPassed": 772,
+  "additionalRetentionBoundaryTestPassed": true,
+  "focusedRegressionFilesPassed": 3,
+  "focusedRegressionTestsPassed": 16,
+  "uniqueUnitTestsVerified": 773,
+  "browserTestsPassed": 133,
+  "browserDurationSeconds": 35.7,
+  "browserProjects": [
+    "chromium",
+    "firefox-smoke",
+    "webkit-smoke"
+  ],
+  "gatesPassed": [
+    "lint",
+    "unit tests",
+    "registry drift",
+    "registry",
+    "packages",
+    "claims",
+    "translations",
+    "provenance",
+    "review",
+    "review freshness",
+    "Brazilian Flora dossiers",
+    "species queue",
+    "data validation",
+    "source budget",
+    "TypeScript",
+    "full site build",
+    "application and static budget",
+    "per-resource data budgets",
+    "static data smoke",
+    "browser tests"
+  ],
+  "readiness": {
+    "passingGates": 10,
+    "totalGates": 13,
+    "ready": false,
+    "maintainerReviewsCurrent": "0/24",
+    "standardDossiers": "416/426",
+    "completeReferenceMetadata": "774/5023",
+    "mediaLicenses": "18/18",
+    "scope": "The reference/index/placeholder phase does not certify biological synthesis or v1 scientific readiness."
+  },
+  "sourceMiB": 4796.62,
+  "staticHtmlMiB": 79.07,
+  "retainedRuntimeMiB": 722.63,
+  "fullWebRetentionLimitMiB": 750,
+  "pagesPreviewRetentionLimitMiB": 650,
+  "existingProsePreserved": true,
+  "additionalOriginalDownloads": false
+}

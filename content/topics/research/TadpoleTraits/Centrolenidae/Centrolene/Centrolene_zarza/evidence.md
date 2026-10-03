@@ -1,0 +1,727 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  tadpole-traits-reader:
+    scientificName: Centrolene zarza
+    name:
+      en: Centrolene zarza
+      zh: Centrolene zarza
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/1/text/zh
+      - topic: morphology
+        title:
+          en: Selected image-derived proportions
+          zh: 选列的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/2/text/zh
+      - topic: overview
+        title:
+          en: Unresolved source ratios
+          zh: 未解决的来源比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/3/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+          metadataVariant: 0
+          sourceKey: tadpoletraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      family: Centrolenidae
+      genus: Centrolene
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows:
+      - rowNumber: 833
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/0/values/0
+          - Centrolene zarza
+          - Centrolenidae
+          - Centrolene
+          - Centrolene zarza
+          - null
+          - 31
+          - 31.9
+          - 2.67
+          - 9.5
+          - 0.73
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+    originalImageRows:
+      - rowNumber: 229
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/0/values/0
+          - Measurement
+          - Color image
+          - Centrolene zarza
+          - Centrolenidae
+          - Centrolene
+          - Centrolene zarza
+          - 24
+          - 15.429
+          - 3.889
+          - 11.487
+          - 1.68
+          - 1.969
+          - 1.008
+          - 0.53
+          - 0.384
+          - 2.257
+          - 1.104
+          - null
+          - 0.2525781328892
+          - 0.74457972583
+          - 0.18885864281548
+          - 0.127616825458552
+          - 0.653315185689286
+          - 0.343589766252
+          - 0.2488819755681
+          - 0.14628297362113
+          - 0.715535679564457
+          - null
+          - Yanfang Song
+      - rowNumber: 230
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/1/values/0
+          - Measurement
+          - Color image
+          - Centrolene zarza
+          - Centrolenidae
+          - Centrolene
+          - Centrolene zarza
+          - 25
+          - 20.824
+          - 5.679
+          - 14.822
+          - 2.545
+          - 2.738
+          - 1.4
+          - 0.822
+          - 0.624
+          - 3.505
+          - 1.345
+          - null
+          - 0.27271417595826
+          - 0.71177487514464
+          - 0.1222147522899
+          - 0.13148294341145
+          - 0.6723119933538
+          - 0.39473684215263
+          - 0.2996542451186
+          - 0.1683154531575
+          - 0.645889358432578
+          - null
+          - Yanfang Song
+      - rowNumber: 231
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/2/values/0
+          - Measurement
+          - Color image
+          - Centrolene zarza
+          - Centrolenidae
+          - Centrolene
+          - Centrolene zarza
+          - 26
+          - 28.665
+          - 8.791
+          - 19.688
+          - 3.458
+          - 3.758
+          - 2.117
+          - 1.153
+          - 1.056
+          - 4.492
+          - 1.84
+          - null
+          - 0.366862966335
+          - 0.68683629687773
+          - 0.1263492634921
+          - 0.131164538636
+          - 0.73853139959881
+          - 0.42232687946974
+          - 0.36839351125654
+          - 0.15676785278214
+          - 0.641897784754928
+          - null
+          - Yanfang Song
+      - rowNumber: 232
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/3/values/0
+          - Measurement
+          - Color image
+          - Centrolene zarza
+          - Centrolenidae
+          - Centrolene
+          - Centrolene zarza
+          - 31
+          - 32.607
+          - 9.074
+          - 23.433
+          - 3.217
+          - 3.793
+          - 2.113
+          - 1.204
+          - 0.818
+          - 4.36
+          - 2.126
+          - null
+          - 0.2782838491146
+          - 0.718649369767228
+          - 0.98659796976194
+          - 0.116324715551875
+          - 0.648236372558
+          - 0.369245867451774
+          - 0.258663783859
+          - 0.133713619774895
+          - 0.652723779694
+          - null
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 229
+        scientificName: Centrolene zarza
+        sourceField: BMH/TL
+        suppliedRatio: 0.18885864281548
+        originalNumerator: 1.68
+        originalTotalLength: 15.429
+        computedRatio: 0.10888586428154773
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 229
+        scientificName: Centrolene zarza
+        sourceField: TMH/TL
+        suppliedRatio: 0.653315185689286
+        originalNumerator: 1.008
+        originalTotalLength: 15.429
+        computedRatio: 0.06533151856892865
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 229
+        scientificName: Centrolene zarza
+        sourceField: DFH/TL
+        suppliedRatio: 0.343589766252
+        originalNumerator: 0.53
+        originalTotalLength: 15.429
+        computedRatio: 0.03435089766025018
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 229
+        scientificName: Centrolene zarza
+        sourceField: VFH/TL
+        suppliedRatio: 0.2488819755681
+        originalNumerator: 0.384
+        originalTotalLength: 15.429
+        computedRatio: 0.024888197550068054
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 229
+        scientificName: Centrolene zarza
+        sourceField: TMW/TL
+        suppliedRatio: 0.715535679564457
+        originalNumerator: 1.104
+        originalTotalLength: 15.429
+        computedRatio: 0.07155356795644566
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 230
+        scientificName: Centrolene zarza
+        sourceField: TMH/TL
+        suppliedRatio: 0.6723119933538
+        originalNumerator: 1.4
+        originalTotalLength: 20.824
+        computedRatio: 0.06723011909335382
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 230
+        scientificName: Centrolene zarza
+        sourceField: DFH/TL
+        suppliedRatio: 0.39473684215263
+        originalNumerator: 0.822
+        originalTotalLength: 20.824
+        computedRatio: 0.039473684210526314
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 230
+        scientificName: Centrolene zarza
+        sourceField: VFH/TL
+        suppliedRatio: 0.2996542451186
+        originalNumerator: 0.624
+        originalTotalLength: 20.824
+        computedRatio: 0.02996542451018056
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 230
+        scientificName: Centrolene zarza
+        sourceField: TMW/TL
+        suppliedRatio: 0.645889358432578
+        originalNumerator: 1.345
+        originalTotalLength: 20.824
+        computedRatio: 0.06458893584325777
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 231
+        scientificName: Centrolene zarza
+        sourceField: BL/TL
+        suppliedRatio: 0.366862966335
+        originalNumerator: 8.791
+        originalTotalLength: 28.665
+        computedRatio: 0.30668062096633525
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 231
+        scientificName: Centrolene zarza
+        sourceField: BMH/TL
+        suppliedRatio: 0.1263492634921
+        originalNumerator: 3.458
+        originalTotalLength: 28.665
+        computedRatio: 0.12063492063492065
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 231
+        scientificName: Centrolene zarza
+        sourceField: TMH/TL
+        suppliedRatio: 0.73853139959881
+        originalNumerator: 2.117
+        originalTotalLength: 28.665
+        computedRatio: 0.07385313099598814
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 231
+        scientificName: Centrolene zarza
+        sourceField: DFH/TL
+        suppliedRatio: 0.42232687946974
+        originalNumerator: 1.153
+        originalTotalLength: 28.665
+        computedRatio: 0.04022326879469737
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 231
+        scientificName: Centrolene zarza
+        sourceField: VFH/TL
+        suppliedRatio: 0.36839351125654
+        originalNumerator: 1.056
+        originalTotalLength: 28.665
+        computedRatio: 0.036839351125065416
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 231
+        scientificName: Centrolene zarza
+        sourceField: TMW/TL
+        suppliedRatio: 0.641897784754928
+        originalNumerator: 1.84
+        originalTotalLength: 28.665
+        computedRatio: 0.06418977847549276
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 232
+        scientificName: Centrolene zarza
+        sourceField: BMH/TL
+        suppliedRatio: 0.98659796976194
+        originalNumerator: 3.217
+        originalTotalLength: 32.607
+        computedRatio: 0.09865979697610942
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 232
+        scientificName: Centrolene zarza
+        sourceField: TMH/TL
+        suppliedRatio: 0.648236372558
+        originalNumerator: 2.113
+        originalTotalLength: 32.607
+        computedRatio: 0.06480203637255805
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 232
+        scientificName: Centrolene zarza
+        sourceField: DFH/TL
+        suppliedRatio: 0.369245867451774
+        originalNumerator: 1.204
+        originalTotalLength: 32.607
+        computedRatio: 0.036924586745177415
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 232
+        scientificName: Centrolene zarza
+        sourceField: VFH/TL
+        suppliedRatio: 0.258663783859
+        originalNumerator: 0.818
+        originalTotalLength: 32.607
+        computedRatio: 0.025086637838500934
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 232
+        scientificName: Centrolene zarza
+        sourceField: TMW/TL
+        suppliedRatio: 0.652723779694
+        originalNumerator: 2.126
+        originalTotalLength: 32.607
+        computedRatio: 0.06520072377096942
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.2525781328892
+        row: 229
+        stage: 24
+        type: Measurement
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.74457972583
+        row: 229
+        stage: 24
+        type: Measurement
+        imageType: Color image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.127616825458552
+        row: 229
+        stage: 24
+        type: Measurement
+        imageType: Color image
+      - field: BMW/TL
+        label:
+          en: maximum body width / total length
+          zh: 躯体最大宽度/全长
+        value: 0.14628297362113
+        row: 229
+        stage: 24
+        type: Measurement
+        imageType: Color image
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.27271417595826
+        row: 230
+        stage: 25
+        type: Measurement
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - ML5XV
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/zh
+---
+
+# Centrolene zarza — TadpoleTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator -->
+Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 833; Picture measurement data rows 229, 230, 231, 232; Readme rows 6–50
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/0/values/0 -->
+Székely, P., Córdova-Díaz, M., Hualpa-Vega, D., Hualpa-Vega, S., & Székely, D. (2023). A new glassfrog species of the genus Centrolene (Amphibia, Anura, Centrolenidae) from Cordillera del Cóndor, southern Ecuador. Zookeys, 1149, 53-84.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/0/values/0 -->
+Székely, P., Córdova-Díaz, M., Hualpa-Vega, D., Hualpa-Vega, S., & Székely, D. (2023). A new glassfrog species of the genus Centrolene (Amphibia, Anura, Centrolenidae) from Cordillera del Cóndor, southern Ecuador. Zookeys, 1149, 53-84.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/1/values/0 -->
+Székely, P., Córdova-Díaz, M., Hualpa-Vega, D., Hualpa-Vega, S., & Székely, D. (2023). A new glassfrog species of the genus Centrolene (Amphibia, Anura, Centrolenidae) from Cordillera del Cóndor, southern Ecuador. Zookeys, 1149, 53-84.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/2/values/0 -->
+Székely, P., Córdova-Díaz, M., Hualpa-Vega, D., Hualpa-Vega, S., & Székely, D. (2023). A new glassfrog species of the genus Centrolene (Amphibia, Anura, Centrolenidae) from Cordillera del Cóndor, southern Ecuador. Zookeys, 1149, 53-84.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/3/values/0 -->
+Székely, P., Córdova-Díaz, M., Hualpa-Vega, D., Hualpa-Vega, S., & Székely, D. (2023). A new glassfrog species of the genus Centrolene (Amphibia, Anura, Centrolenidae) from Cordillera del Cóndor, southern Ecuador. Zookeys, 1149, 53-84.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/en -->
+A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete. No external expert review.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/zh -->
+本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成；没有外部专家审评。
+<!-- /evo:text -->

@@ -1,0 +1,4539 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  amphitherm-source-reader:
+    scientificName: Ambystoma tigrinum
+    name:
+      en: Ambystoma tigrinum
+      zh: Ambystoma tigrinum
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/0/text/zh
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "346"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/1/text/zh
+        sourceRowNumber: 270
+      - topic: ecology
+        title:
+          en: Selected thermal preference estimate
+          zh: 选列的温度偏好估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "2384"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/2/text/zh
+        sourceRowNumber: 2177
+    sources:
+      referenceBindings:
+        - referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+          metadataVariant: 0
+          sourceKey: amphitherm
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - year
+            - doi
+            - url
+            - datasetUrl
+            - version
+            - associatedArchivedReleaseDoi
+            - accessedAt
+            - license
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      order: Caudata
+      family: Ambystomatidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 270
+        values:
+          - "346"
+          - Patrice Pottier
+          - Brattstrom_1963
+          - A Preliminary Review of the Thermal Requirements of Amphibians
+          - "1963"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1932171
+          - English
+          - Ambystoma_tigrinum_pop10
+          - Ambystoma_tigrinum_pop10_UTL_co1
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "44.996399"
+          - "-93.061598"
+          - "267"
+          - 26/08/1955
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018
+          - "62.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text; Rohr et al. 2018
+          - NA
+          - NA
+          - "36.7"
+          - NA
+          - "6"
+          - NA
+          - NA
+      - rowNumber: 987
+        values:
+          - "1110"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_tigrinum_pop3
+          - Ambystoma_tigrinum_pop3_UTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/1/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.72183"
+          - "-89.322695"
+          - "142"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "35.77537"
+          - "0.11980035"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/1/values/83
+      - rowNumber: 988
+        values:
+          - "1111"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_tigrinum_pop3
+          - Ambystoma_tigrinum_pop3_UTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/2/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.72183"
+          - "-89.322695"
+          - "142"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "36.41584"
+          - "0.1188119"
+          - "8"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/2/values/83
+      - rowNumber: 989
+        values:
+          - "1112"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_tigrinum_pop3
+          - Ambystoma_tigrinum_pop3_UTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/3/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.72183"
+          - "-89.322695"
+          - "142"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. Endpoint was the "heat rigor" temperature.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 3
+          - NA
+          - NA
+          - "36.77329"
+          - "0.1265378"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/3/values/83
+      - rowNumber: 990
+        values:
+          - "1113"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_tigrinum_pop3
+          - Ambystoma_tigrinum_pop3_UTL_co2
+          - A. tigrinum acclimated to 15C and tested in a terrestrial chamber using OS as the endpoint.
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.72183"
+          - "-89.322695"
+          - "142"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - body
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "37.33663"
+          - "0.26732675"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/4/values/83
+      - rowNumber: 991
+        values:
+          - "1114"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_tigrinum_pop3
+          - Ambystoma_tigrinum_pop3_UTL_co3
+          - A. tigrinum acclimated to 15C and tested in an terrestrial chamber using HR as the endpoint.
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.72183"
+          - "-89.322695"
+          - "142"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - body
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. Endpoint was the "heat rigor" temperature.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 3
+          - NA
+          - NA
+          - "38.27065"
+          - "0.17398945"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/5/values/83
+      - rowNumber: 1243
+        values:
+          - "1392"
+          - Patrice Pottier
+          - Delson_and_Whitford_1973
+          - Critical thermal maxima in several life history stages in desert and montane populations of Ambystoma tigrinum
+          - "1973"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Ambystoma_tigrinum_pop1
+          - Ambystoma_tigrinum_pop1_UTL_co1
+          - '"desert" population'
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "32.31994"
+          - "-106.763654"
+          - "1036"
+          - NA
+          - NA
+          - "1970"
+          - May_1970
+          - June_1970
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "99"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "36.63576159"
+          - "0.735872715"
+          - "8"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1244
+        values:
+          - "1393"
+          - Patrice Pottier
+          - Delson_and_Whitford_1973
+          - Critical thermal maxima in several life history stages in desert and montane populations of Ambystoma tigrinum
+          - "1973"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Ambystoma_tigrinum_pop1
+          - Ambystoma_tigrinum_pop1_UTL_co2
+          - '"desert" population'
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "32.31994"
+          - "-106.763654"
+          - "1036"
+          - NA
+          - NA
+          - "1970"
+          - May_1970
+          - June_1970
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "7"
+          - Neotenic adults
+          - adults
+          - NA
+          - "99"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "38.39072848"
+          - "0.281398335"
+          - "6"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1245
+        values:
+          - "1394"
+          - Patrice Pottier
+          - Delson_and_Whitford_1973
+          - Critical thermal maxima in several life history stages in desert and montane populations of Ambystoma tigrinum
+          - "1973"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Ambystoma_tigrinum_pop1
+          - Ambystoma_tigrinum_pop1_UTL_co3
+          - '"desert" population'
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "32.31994"
+          - "-106.763654"
+          - "1036"
+          - NA
+          - NA
+          - "1970"
+          - May_1970
+          - June_1970
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "10"
+          - NA
+          - "7"
+          - Neotenic adults
+          - adults
+          - NA
+          - "97"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "37.54304636"
+          - "0.491501461"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1246
+        values:
+          - "1395"
+          - Patrice Pottier
+          - Delson_and_Whitford_1973
+          - Critical thermal maxima in several life history stages in desert and montane populations of Ambystoma tigrinum
+          - "1973"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Ambystoma_tigrinum_pop1
+          - Ambystoma_tigrinum_pop1_UTL_co4
+          - '"desert" population'
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "32.31994"
+          - "-106.763654"
+          - "1036"
+          - NA
+          - NA
+          - "1970"
+          - May_1970
+          - June_1970
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - juveniles
+          - NA
+          - "20"
+          - NA
+          - "7"
+          - Subadults
+          - juveniles
+          - NA
+          - "99"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "37.28476821"
+          - "0.427392575"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1247
+        values:
+          - "1396"
+          - Patrice Pottier
+          - Delson_and_Whitford_1973
+          - Critical thermal maxima in several life history stages in desert and montane populations of Ambystoma tigrinum
+          - "1973"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Ambystoma_tigrinum_pop1
+          - Ambystoma_tigrinum_pop1_UTL_co5
+          - '"desert" population'
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "32.31994"
+          - "-106.763654"
+          - "1036"
+          - NA
+          - NA
+          - "1970"
+          - May_1970
+          - June_1970
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "10"
+          - NA
+          - "7"
+          - NA
+          - larvae
+          - NA
+          - "31"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "36.97350993"
+          - "0.352598874"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1248
+        values:
+          - "1397"
+          - Patrice Pottier
+          - Delson_and_Whitford_1973
+          - Critical thermal maxima in several life history stages in desert and montane populations of Ambystoma tigrinum
+          - "1973"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Ambystoma_tigrinum_pop1
+          - Ambystoma_tigrinum_pop1_UTL_co6
+          - '"desert" population'
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "32.31994"
+          - "-106.763654"
+          - "1036"
+          - NA
+          - NA
+          - "1970"
+          - May_1970
+          - June_1970
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "7"
+          - NA
+          - larvae
+          - NA
+          - "35"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "38.08609272"
+          - "0.192326659"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1249
+        values:
+          - "1398"
+          - Patrice Pottier
+          - Delson_and_Whitford_1973
+          - Critical thermal maxima in several life history stages in desert and montane populations of Ambystoma tigrinum
+          - "1973"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Ambystoma_tigrinum_pop1
+          - Ambystoma_tigrinum_pop1_UTL_co7
+          - '"desert" population'
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "32.31994"
+          - "-106.763654"
+          - "1036"
+          - NA
+          - NA
+          - "1970"
+          - May_1970
+          - June_1970
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "69"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "36.77483444"
+          - "0.296260444"
+          - "8"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1250
+        values:
+          - "1399"
+          - Patrice Pottier
+          - Delson_and_Whitford_1973
+          - Critical thermal maxima in several life history stages in desert and montane populations of Ambystoma tigrinum
+          - "1973"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Ambystoma_tigrinum_pop1
+          - Ambystoma_tigrinum_pop1_UTL_co8
+          - '"desert" population'
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "32.31994"
+          - "-106.763654"
+          - "1036"
+          - NA
+          - NA
+          - "1970"
+          - May_1970
+          - June_1970
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "7"
+          - NA
+          - larvae
+          - NA
+          - "61"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "38.38410596"
+          - "0.372714752"
+          - "8"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1251
+        values:
+          - "1400"
+          - Patrice Pottier
+          - Delson_and_Whitford_1973
+          - Critical thermal maxima in several life history stages in desert and montane populations of Ambystoma tigrinum
+          - "1973"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Ambystoma_tigrinum_pop2
+          - Ambystoma_tigrinum_pop2_UTL_co1
+          - '"mountain" population'
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "33.126476"
+          - "-105.751932"
+          - "2500"
+          - NA
+          - NA
+          - "1970"
+          - May_1970
+          - June_1970
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "10"
+          - NA
+          - "7"
+          - NA
+          - larvae
+          - NA
+          - "28"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "36.62913907"
+          - "0.41670776"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1252
+        values:
+          - "1401"
+          - Patrice Pottier
+          - Delson_and_Whitford_1973
+          - Critical thermal maxima in several life history stages in desert and montane populations of Ambystoma tigrinum
+          - "1973"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Ambystoma_tigrinum_pop2
+          - Ambystoma_tigrinum_pop2_UTL_co2
+          - '"mountain" population'
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "33.126476"
+          - "-105.751932"
+          - "2500"
+          - NA
+          - NA
+          - "1970"
+          - May_1970
+          - June_1970
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "7"
+          - NA
+          - larvae
+          - NA
+          - "30"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "38.54966887"
+          - "0.405460197"
+          - "9"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1253
+        values:
+          - "1402"
+          - Patrice Pottier
+          - Delson_and_Whitford_1973
+          - Critical thermal maxima in several life history stages in desert and montane populations of Ambystoma tigrinum
+          - "1973"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Ambystoma_tigrinum_pop2
+          - Ambystoma_tigrinum_pop2_UTL_co3
+          - '"mountain" population'
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "33.126476"
+          - "-105.751932"
+          - "2500"
+          - NA
+          - NA
+          - "1970"
+          - May_1970
+          - June_1970
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "10"
+          - NA
+          - "7"
+          - Neotenic adults
+          - adults
+          - NA
+          - "98"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "36.47682119"
+          - "0.808417602"
+          - "5"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1254
+        values:
+          - "1403"
+          - Patrice Pottier
+          - Delson_and_Whitford_1973
+          - Critical thermal maxima in several life history stages in desert and montane populations of Ambystoma tigrinum
+          - "1973"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Ambystoma_tigrinum_pop2
+          - Ambystoma_tigrinum_pop2_UTL_co4
+          - '"mountain" population'
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "33.126476"
+          - "-105.751932"
+          - "2500"
+          - NA
+          - NA
+          - "1970"
+          - May_1970
+          - June_1970
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "7"
+          - Neotenic adults
+          - adults
+          - NA
+          - "102"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "37.48344371"
+          - "0.592520887"
+          - "8"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 2177
+        values:
+          - "2384"
+          - Natalie_Claunch
+          - Heath_1975
+          - Behavioral thermoregulation in high altitude tiger salamanders, Ambystoma tigrinum
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://www.jstor.org/stable/3891993
+          - English
+          - Ambystoma_tigrinum_pop4
+          - Ambystoma_tigrinum_pop4_PBT_co1
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.63526"
+          - "-107.180742"
+          - "3320"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates inferred from information in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Assumed to be field-fresh
+          - larvae
+          - NA
+          - NA
+          - NA
+          - "365"
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "27"
+          - "1"
+          - linear
+          - "10"
+          - "30"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/18/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "23.7"
+          - "0.53"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 2178
+        values:
+          - "2385"
+          - Natalie_Claunch
+          - Heath_1975
+          - Behavioral thermoregulation in high altitude tiger salamanders, Ambystoma tigrinum
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://www.jstor.org/stable/3891993
+          - English
+          - Ambystoma_tigrinum_pop4
+          - Ambystoma_tigrinum_pop4_PBT_co2
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.63526"
+          - "-107.180742"
+          - "3320"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates inferred from information in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Assumed to be field-fresh
+          - larvae
+          - NA
+          - NA
+          - NA
+          - "1095"
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "27"
+          - "1"
+          - linear
+          - "10"
+          - "30"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/19/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "25.4"
+          - "0.29"
+          - "4"
+          - se
+          - NA
+      - rowNumber: 2179
+        values:
+          - "2386"
+          - Natalie_Claunch
+          - Heath_1975
+          - Behavioral thermoregulation in high altitude tiger salamanders, Ambystoma tigrinum
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://www.jstor.org/stable/3891993
+          - English
+          - Ambystoma_tigrinum_pop4
+          - Ambystoma_tigrinum_pop4_PBT_co3
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.63526"
+          - "-107.180742"
+          - "3320"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates inferred from information in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Assumed to be field-fresh
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "27"
+          - "1"
+          - linear
+          - "10"
+          - "30"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/20/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "23.7"
+          - "0.32"
+          - "8"
+          - se
+          - NA
+      - rowNumber: 2180
+        values:
+          - "2387"
+          - Natalie_Claunch
+          - Heath_1975
+          - Behavioral thermoregulation in high altitude tiger salamanders, Ambystoma tigrinum
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://www.jstor.org/stable/3891993
+          - English
+          - Ambystoma_tigrinum_pop5
+          - Ambystoma_tigrinum_pop5_PBT_co1
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.81017"
+          - "-107.09308"
+          - "3000"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates inferred from information in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Assumed to be field-fresh
+          - larvae
+          - NA
+          - NA
+          - NA
+          - "1095"
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "27"
+          - "1"
+          - linear
+          - "10"
+          - "30"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/21/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "24.3"
+          - "0.26"
+          - "3"
+          - se
+          - NA
+      - rowNumber: 2181
+        values:
+          - "2388"
+          - Natalie_Claunch
+          - Heath_1975
+          - Behavioral thermoregulation in high altitude tiger salamanders, Ambystoma tigrinum
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://www.jstor.org/stable/3891993
+          - English
+          - Ambystoma_tigrinum_pop5
+          - Ambystoma_tigrinum_pop5_PBT_co2
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.81017"
+          - "-107.09308"
+          - "3000"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates inferred from information in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Assumed to be field-fresh
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "27"
+          - "1"
+          - linear
+          - "10"
+          - "30"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/22/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "18.4"
+          - "0.67"
+          - NA
+          - se
+          - NA
+      - rowNumber: 2182
+        values:
+          - "2389"
+          - Natalie_Claunch
+          - Heath_1975
+          - Behavioral thermoregulation in high altitude tiger salamanders, Ambystoma tigrinum
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://www.jstor.org/stable/3891993
+          - English
+          - Ambystoma_tigrinum_pop6
+          - Ambystoma_tigrinum_pop6_PBT_co1
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.94399"
+          - "-106.98711"
+          - "2865"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates inferred from information in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Assumed to be field-fresh
+          - larvae
+          - NA
+          - NA
+          - NA
+          - "365"
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "27"
+          - "1"
+          - linear
+          - "10"
+          - "30"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/23/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "23.7"
+          - "0.23"
+          - "4"
+          - se
+          - NA
+      - rowNumber: 2183
+        values:
+          - "2390"
+          - Natalie_Claunch
+          - Heath_1975
+          - Behavioral thermoregulation in high altitude tiger salamanders, Ambystoma tigrinum
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://www.jstor.org/stable/3891993
+          - English
+          - Ambystoma_tigrinum_pop6
+          - Ambystoma_tigrinum_pop6_PBT_co2
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.94399"
+          - "-106.98711"
+          - "2865"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates inferred from information in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Assumed to be field-fresh
+          - larvae
+          - NA
+          - NA
+          - NA
+          - "365"
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "27"
+          - "1"
+          - linear
+          - "10"
+          - "30"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/24/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "23.1"
+          - "0.26"
+          - "4"
+          - se
+          - NA
+      - rowNumber: 2184
+        values:
+          - "2391"
+          - Natalie_Claunch
+          - Heath_1975
+          - Behavioral thermoregulation in high altitude tiger salamanders, Ambystoma tigrinum
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://www.jstor.org/stable/3891993
+          - English
+          - Ambystoma_tigrinum_pop6
+          - Ambystoma_tigrinum_pop6_PBT_co3
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.94399"
+          - "-106.98711"
+          - "2865"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates inferred from information in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "10"
+          - NA
+          - "14"
+          - Acclimation temperature was taken as the mean of the range provided.
+          - larvae
+          - NA
+          - NA
+          - NA
+          - "365"
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "27"
+          - "1"
+          - linear
+          - "10"
+          - "30"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/25/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "20.3"
+          - "0.32"
+          - "4"
+          - se
+          - NA
+      - rowNumber: 2185
+        values:
+          - "2392"
+          - Natalie_Claunch
+          - Heath_1975
+          - Behavioral thermoregulation in high altitude tiger salamanders, Ambystoma tigrinum
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://www.jstor.org/stable/3891993
+          - English
+          - Ambystoma_tigrinum_pop6
+          - Ambystoma_tigrinum_pop6_PBT_co4
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.94399"
+          - "-106.98711"
+          - "2865"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates inferred from information in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "28"
+          - NA
+          - "14"
+          - Acclimation temperature was taken as the mean of the range provided.
+          - larvae
+          - NA
+          - NA
+          - NA
+          - "365"
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "27"
+          - "1"
+          - linear
+          - "10"
+          - "30"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/26/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "17.7"
+          - "0.78"
+          - "4"
+          - se
+          - NA
+      - rowNumber: 2186
+        values:
+          - "2393"
+          - Natalie_Claunch
+          - Heath_1975
+          - Behavioral thermoregulation in high altitude tiger salamanders, Ambystoma tigrinum
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://www.jstor.org/stable/3891993
+          - English
+          - Ambystoma_tigrinum_pop6
+          - Ambystoma_tigrinum_pop6_PBT_co5
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.94399"
+          - "-106.98711"
+          - "2865"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates inferred from information in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Assumed to be field-fresh
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "27"
+          - "1"
+          - linear
+          - "10"
+          - "30"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/27/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "19.1"
+          - "0.3"
+          - "4"
+          - se
+          - NA
+      - rowNumber: 2187
+        values:
+          - "2394"
+          - Natalie_Claunch
+          - Heath_1975
+          - Behavioral thermoregulation in high altitude tiger salamanders, Ambystoma tigrinum
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://www.jstor.org/stable/3891993
+          - English
+          - Ambystoma_tigrinum_pop7
+          - Ambystoma_tigrinum_pop7_PBT_co1
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.01424"
+          - "-107.05147"
+          - "3345"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates inferred from information in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Assumed to be field-fresh
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "27"
+          - "1"
+          - linear
+          - "10"
+          - "30"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/28/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "23.6"
+          - "0.25"
+          - "3"
+          - se
+          - NA
+      - rowNumber: 2188
+        values:
+          - "2395"
+          - Natalie_Claunch
+          - Heath_1975
+          - Behavioral thermoregulation in high altitude tiger salamanders, Ambystoma tigrinum
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://www.jstor.org/stable/3891993
+          - English
+          - Ambystoma_tigrinum_pop8
+          - Ambystoma_tigrinum_pop8_PBT_co1
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.98838"
+          - "-107.02824"
+          - "3065"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates inferred from information in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Assumed to be field-fresh
+          - larvae
+          - NA
+          - NA
+          - NA
+          - "1095"
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "27"
+          - "1"
+          - linear
+          - "10"
+          - "30"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/29/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "25.5"
+          - "0.6"
+          - "4"
+          - se
+          - NA
+      - rowNumber: 2189
+        values:
+          - "2396"
+          - Natalie_Claunch
+          - Heath_1975
+          - Behavioral thermoregulation in high altitude tiger salamanders, Ambystoma tigrinum
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://www.jstor.org/stable/3891993
+          - English
+          - Ambystoma_tigrinum_pop8
+          - Ambystoma_tigrinum_pop8_PBT_co2
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.98838"
+          - "-107.02824"
+          - "3065"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates inferred from information in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Assumed to be field-fresh
+          - larvae
+          - NA
+          - NA
+          - NA
+          - "1095"
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "27"
+          - "1"
+          - linear
+          - "10"
+          - "30"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/30/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "24.8"
+          - "0.34"
+          - "4"
+          - se
+          - NA
+      - rowNumber: 3378
+        values:
+          - "3703"
+          - PPollo
+          - Nietfeldt_et_al_1980
+          - Rate of Thermal Acclimation in Larval Ambystoma tigrinum
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563541
+          - English
+          - Ambystoma_tigrinum_pop9
+          - Ambystoma_tigrinum_pop9_UTL_co1
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.8220999"
+          - "-99.08644555"
+          - "672"
+          - 8/11/1978
+          - November
+          - "1978"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "10.5"
+          - "0.4"
+          - "21"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - "53.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping and medium_test_temp were assumed to be the same as in the studies by Brattstrom.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.44088176"
+          - "1.005112912"
+          - "15"
+          - sd
+          - Data was digitised from figure 1.
+      - rowNumber: 3379
+        values:
+          - "3704"
+          - PPollo
+          - Nietfeldt_et_al_1980
+          - Rate of Thermal Acclimation in Larval Ambystoma tigrinum
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563541
+          - English
+          - Ambystoma_tigrinum_pop9
+          - Ambystoma_tigrinum_pop9_UTL_co10
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.8220999"
+          - "-99.08644555"
+          - "672"
+          - 8/11/1978
+          - November
+          - "1978"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "27.9"
+          - "0.5"
+          - "0.125"
+          - Acclimation time was very short here (3 hours)
+          - larvae
+          - NA
+          - NA
+          - "53.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping and medium_test_temp were assumed to be the same as in the studies by Brattstrom.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "35.75951904"
+          - "0.679130346"
+          - "15"
+          - sd
+          - Data was digitised from figure 1.
+      - rowNumber: 3380
+        values:
+          - "3705"
+          - PPollo
+          - Nietfeldt_et_al_1980
+          - Rate of Thermal Acclimation in Larval Ambystoma tigrinum
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563541
+          - English
+          - Ambystoma_tigrinum_pop9
+          - Ambystoma_tigrinum_pop9_UTL_co11
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.8220999"
+          - "-99.08644555"
+          - "672"
+          - 8/11/1978
+          - November
+          - "1978"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "27.9"
+          - "0.5"
+          - "0.25"
+          - Acclimation time was very short here (6 hours)
+          - larvae
+          - NA
+          - NA
+          - "53.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping and medium_test_temp were assumed to be the same as in the studies by Brattstrom.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "36.36272545"
+          - "0.70629556"
+          - "15"
+          - sd
+          - Data was digitised from figure 1.
+      - rowNumber: 3381
+        values:
+          - "3706"
+          - PPollo
+          - Nietfeldt_et_al_1980
+          - Rate of Thermal Acclimation in Larval Ambystoma tigrinum
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563541
+          - English
+          - Ambystoma_tigrinum_pop9
+          - Ambystoma_tigrinum_pop9_UTL_co12
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.8220999"
+          - "-99.08644555"
+          - "672"
+          - 8/11/1978
+          - November
+          - "1978"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "27.9"
+          - "0.5"
+          - "0.5"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - "53.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping and medium_test_temp were assumed to be the same as in the studies by Brattstrom.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "37.17635271"
+          - "0.407478208"
+          - "15"
+          - sd
+          - Data was digitised from figure 1.
+      - rowNumber: 3382
+        values:
+          - "3707"
+          - PPollo
+          - Nietfeldt_et_al_1980
+          - Rate of Thermal Acclimation in Larval Ambystoma tigrinum
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563541
+          - English
+          - Ambystoma_tigrinum_pop9
+          - Ambystoma_tigrinum_pop9_UTL_co13
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.8220999"
+          - "-99.08644555"
+          - "672"
+          - 8/11/1978
+          - November
+          - "1978"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "27.9"
+          - "0.5"
+          - "0.625"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - "53.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping and medium_test_temp were assumed to be the same as in the studies by Brattstrom.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "37.16232465"
+          - "0.516139063"
+          - "15"
+          - sd
+          - Data was digitised from figure 1.
+      - rowNumber: 3383
+        values:
+          - "3708"
+          - PPollo
+          - Nietfeldt_et_al_1980
+          - Rate of Thermal Acclimation in Larval Ambystoma tigrinum
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563541
+          - English
+          - Ambystoma_tigrinum_pop9
+          - Ambystoma_tigrinum_pop9_UTL_co14
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.8220999"
+          - "-99.08644555"
+          - "672"
+          - 8/11/1978
+          - November
+          - "1978"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "27.9"
+          - "0.5"
+          - "1"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - "53.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping and medium_test_temp were assumed to be the same as in the studies by Brattstrom.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "37.65330661"
+          - "0.814956416"
+          - "15"
+          - sd
+          - Data was digitised from figure 1.
+      - rowNumber: 3384
+        values:
+          - "3709"
+          - PPollo
+          - Nietfeldt_et_al_1980
+          - Rate of Thermal Acclimation in Larval Ambystoma tigrinum
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563541
+          - English
+          - Ambystoma_tigrinum_pop9
+          - Ambystoma_tigrinum_pop9_UTL_co15
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.8220999"
+          - "-99.08644555"
+          - "672"
+          - 8/11/1978
+          - November
+          - "1978"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "27.9"
+          - "0.5"
+          - "1.5"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - "53.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping and medium_test_temp were assumed to be the same as in the studies by Brattstrom.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "37.98997996"
+          - "0.570469491"
+          - "15"
+          - sd
+          - Data was digitised from figure 1.
+      - rowNumber: 3385
+        values:
+          - "3710"
+          - PPollo
+          - Nietfeldt_et_al_1980
+          - Rate of Thermal Acclimation in Larval Ambystoma tigrinum
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563541
+          - English
+          - Ambystoma_tigrinum_pop9
+          - Ambystoma_tigrinum_pop9_UTL_co16
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.8220999"
+          - "-99.08644555"
+          - "672"
+          - 8/11/1978
+          - November
+          - "1978"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "27.9"
+          - "0.5"
+          - "2"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - "53.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping and medium_test_temp were assumed to be the same as in the studies by Brattstrom.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "38.35470942"
+          - "0.516139063"
+          - "15"
+          - sd
+          - Data was digitised from figure 1.
+      - rowNumber: 3386
+        values:
+          - "3711"
+          - PPollo
+          - Nietfeldt_et_al_1980
+          - Rate of Thermal Acclimation in Larval Ambystoma tigrinum
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563541
+          - English
+          - Ambystoma_tigrinum_pop9
+          - Ambystoma_tigrinum_pop9_UTL_co17
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.8220999"
+          - "-99.08644555"
+          - "672"
+          - 8/11/1978
+          - November
+          - "1978"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "27.9"
+          - "0.5"
+          - "2.5"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - "53.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping and medium_test_temp were assumed to be the same as in the studies by Brattstrom.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "38.5511022"
+          - "0.516139063"
+          - "15"
+          - sd
+          - Data was digitised from figure 1.
+      - rowNumber: 3387
+        values:
+          - "3712"
+          - PPollo
+          - Nietfeldt_et_al_1980
+          - Rate of Thermal Acclimation in Larval Ambystoma tigrinum
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563541
+          - English
+          - Ambystoma_tigrinum_pop9
+          - Ambystoma_tigrinum_pop9_UTL_co2
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.8220999"
+          - "-99.08644555"
+          - "672"
+          - 8/11/1978
+          - November
+          - "1978"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "1.8"
+          - "0.2"
+          - "0.125"
+          - Acclimation time was very short here (3 hours)
+          - larvae
+          - NA
+          - NA
+          - "53.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping and medium_test_temp were assumed to be the same as in the studies by Brattstrom.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "35.25450902"
+          - "0.760625988"
+          - "15"
+          - sd
+          - Data was digitised from figure 1.
+      - rowNumber: 3388
+        values:
+          - "3713"
+          - PPollo
+          - Nietfeldt_et_al_1980
+          - Rate of Thermal Acclimation in Larval Ambystoma tigrinum
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563541
+          - English
+          - Ambystoma_tigrinum_pop9
+          - Ambystoma_tigrinum_pop9_UTL_co3
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.8220999"
+          - "-99.08644555"
+          - "672"
+          - 8/11/1978
+          - November
+          - "1978"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "1.8"
+          - "0.2"
+          - "0.25"
+          - Acclimation time was very short here (6 hours)
+          - larvae
+          - NA
+          - NA
+          - "53.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping and medium_test_temp were assumed to be the same as in the studies by Brattstrom.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.25851703"
+          - "0.760625988"
+          - "15"
+          - sd
+          - Data was digitised from figure 1.
+      - rowNumber: 3389
+        values:
+          - "3714"
+          - PPollo
+          - Nietfeldt_et_al_1980
+          - Rate of Thermal Acclimation in Larval Ambystoma tigrinum
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563541
+          - English
+          - Ambystoma_tigrinum_pop9
+          - Ambystoma_tigrinum_pop9_UTL_co4
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.8220999"
+          - "-99.08644555"
+          - "672"
+          - 8/11/1978
+          - November
+          - "1978"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "1.8"
+          - "0.2"
+          - "0.5"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - "53.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping and medium_test_temp were assumed to be the same as in the studies by Brattstrom.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "33.71142285"
+          - "0.733460774"
+          - "15"
+          - sd
+          - Data was digitised from figure 1.
+      - rowNumber: 3390
+        values:
+          - "3715"
+          - PPollo
+          - Nietfeldt_et_al_1980
+          - Rate of Thermal Acclimation in Larval Ambystoma tigrinum
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563541
+          - English
+          - Ambystoma_tigrinum_pop9
+          - Ambystoma_tigrinum_pop9_UTL_co5
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.8220999"
+          - "-99.08644555"
+          - "672"
+          - 8/11/1978
+          - November
+          - "1978"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "1.8"
+          - "0.2"
+          - "0.625"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - "53.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping and medium_test_temp were assumed to be the same as in the studies by Brattstrom.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.23046092"
+          - "0.733460774"
+          - "15"
+          - sd
+          - Data was digitised from figure 1.
+      - rowNumber: 3391
+        values:
+          - "3716"
+          - PPollo
+          - Nietfeldt_et_al_1980
+          - Rate of Thermal Acclimation in Larval Ambystoma tigrinum
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563541
+          - English
+          - Ambystoma_tigrinum_pop9
+          - Ambystoma_tigrinum_pop9_UTL_co6
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.8220999"
+          - "-99.08644555"
+          - "672"
+          - 8/11/1978
+          - November
+          - "1978"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "1.8"
+          - "0.2"
+          - "1"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - "53.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping and medium_test_temp were assumed to be the same as in the studies by Brattstrom.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "33.96392786"
+          - "0.70629556"
+          - "15"
+          - sd
+          - Data was digitised from figure 1.
+      - rowNumber: 3392
+        values:
+          - "3717"
+          - PPollo
+          - Nietfeldt_et_al_1980
+          - Rate of Thermal Acclimation in Larval Ambystoma tigrinum
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563541
+          - English
+          - Ambystoma_tigrinum_pop9
+          - Ambystoma_tigrinum_pop9_UTL_co7
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.8220999"
+          - "-99.08644555"
+          - "672"
+          - 8/11/1978
+          - November
+          - "1978"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "1.8"
+          - "0.2"
+          - "1.5"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - "53.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping and medium_test_temp were assumed to be the same as in the studies by Brattstrom.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "33.501002"
+          - "0.787791202"
+          - "15"
+          - sd
+          - Data was digitised from figure 1.
+      - rowNumber: 3393
+        values:
+          - "3718"
+          - PPollo
+          - Nietfeldt_et_al_1980
+          - Rate of Thermal Acclimation in Larval Ambystoma tigrinum
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563541
+          - English
+          - Ambystoma_tigrinum_pop9
+          - Ambystoma_tigrinum_pop9_UTL_co8
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.8220999"
+          - "-99.08644555"
+          - "672"
+          - 8/11/1978
+          - November
+          - "1978"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "1.8"
+          - "0.2"
+          - "2"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - "53.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping and medium_test_temp were assumed to be the same as in the studies by Brattstrom.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "33.48697395"
+          - "0.651965132"
+          - "15"
+          - sd
+          - Data was digitised from figure 1.
+      - rowNumber: 3394
+        values:
+          - "3719"
+          - PPollo
+          - Nietfeldt_et_al_1980
+          - Rate of Thermal Acclimation in Larval Ambystoma tigrinum
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563541
+          - English
+          - Ambystoma_tigrinum_pop9
+          - Ambystoma_tigrinum_pop9_UTL_co9
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma tigrinum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.8220999"
+          - "-99.08644555"
+          - "672"
+          - 8/11/1978
+          - November
+          - "1978"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "1.8"
+          - "0.2"
+          - "2.5"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - "53.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping and medium_test_temp were assumed to be the same as in the studies by Brattstrom.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "33.5991984"
+          - "0.977947699"
+          - "15"
+          - sd
+          - Data was digitised from figure 1.
+    originalStudyCitations:
+      - ref: Brattstrom_1963
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/0/title
+          format: heading
+        doi: https://doi.org/10.2307/1932171
+        year: "1963"
+      - ref: Claussen_1977
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/1/title
+          format: heading
+        doi: https://doi.org/10.1016/0300-9629(77)90150-5
+        year: "1977"
+      - ref: Delson_and_Whitford_1973
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/2/title
+          format: heading
+        doi: NA
+        year: "1973"
+      - ref: Heath_1975
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/3/title
+          format: heading
+        doi: https://www.jstor.org/stable/3891993
+        year: "1975"
+      - ref: Nietfeldt_et_al_1980
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/4/title
+          format: heading
+        doi: https://doi.org/10.2307/1563541
+        year: "1980"
+    selectedEstimateRowNumbers:
+      - 270
+      - 2177
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - CQ5H
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/zh
+---
+
+# Ambystoma tigrinum — AmphiTherm source
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator -->
+Cleaned_and_curated_data_Amphitherm.csv, rows 270, 987, 988, 989, 990, 991, 1243, 1244, 1245, 1246, 1247, 1248, 1249, 1250, 1251, 1252, 1253, 1254, 2177, 2178, 2179, 2180, 2181, 2182, 2183, 2184, 2185, 2186, 2187, 2188, 2189, 3378, 3379, 3380, 3381, 3382, 3383, 3384, 3385, 3386, 3387, 3388, 3389, 3390, 3391, 3392, 3393, 3394; Metadata_AmphiTherm.xlsx
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en -->
+Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh -->
+固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/1/values/12 -->
+A. tigrinum acclimated to 15C and tested in an aquatic chamber using LRR as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/1/values/83 -->
+Data was digitised from figure 1 because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/2/values/12 -->
+A. tigrinum acclimated to 15C and tested in an aquatic chamber using OS as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/2/values/83 -->
+Data was digitised from figure 2 because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/3/values/12 -->
+A. tigrinum acclimated to 15C and tested in an aquatic chamber using HR as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/3/values/83 -->
+Data was digitised from figure 3 because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/4/values/83 -->
+Data was digitised from figure 2 because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/5/values/83 -->
+Data was digitised from figure 3 because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/18/values/63 -->
+Hourly recording for 18-36 hours, but skipped recording between 0:00 to 9:00.  27h was taken for average duration_measurement, and 1 for rate measurement.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/19/values/63 -->
+Hourly recording for 18-36 hours, but skipped recording between 0:00 to 9:00.  27h was taken for average duration_measurement, and 1 for rate measurement.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/20/values/63 -->
+Hourly recording for 18-36 hours, but skipped recording between 0:00 to 9:00.  27h was taken for average duration_measurement, and 1 for rate measurement. Metamorphosed adults
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/21/values/63 -->
+Hourly recording for 18-36 hours, but skipped recording between 0:00 to 9:00.  27h was taken for average duration_measurement, and 1 for rate measurement.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/22/values/63 -->
+Hourly recording for 18-36 hours, but skipped recording between 0:00 to 9:00.  27h was taken for average duration_measurement, and 1 for rate measurement. Metamorphosed adults
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/23/values/63 -->
+Hourly recording for 18-36 hours, but skipped recording between 0:00 to 9:00.  27h was taken for average duration_measurement, and 1 for rate measurement.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/24/values/63 -->
+Hourly recording for 18-36 hours, but skipped recording between 0:00 to 9:00.  27h was taken for average duration_measurement, and 1 for rate measurement.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/25/values/63 -->
+Hourly recording for 18-36 hours, but skipped recording between 0:00 to 9:00.  27h was taken for average duration_measurement, and 1 for rate measurement.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/26/values/63 -->
+Hourly recording for 18-36 hours, but skipped recording between 0:00 to 9:00.  27h was taken for average duration_measurement, and 1 for rate measurement.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/27/values/63 -->
+Hourly recording for 18-36 hours, but skipped recording between 0:00 to 9:00.  27h was taken for average duration_measurement, and 1 for rate measurement. Metamorphosed adults
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/28/values/63 -->
+Hourly recording for 18-36 hours, but skipped recording between 0:00 to 9:00.  27h was taken for average duration_measurement, and 1 for rate measurement. Neotenic adults
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/29/values/63 -->
+Hourly recording for 18-36 hours, but skipped recording between 0:00 to 9:00.  27h was taken for average duration_measurement, and 1 for rate measurement.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/30/values/63 -->
+Hourly recording for 18-36 hours, but skipped recording between 0:00 to 9:00.  27h was taken for average duration_measurement, and 1 for rate measurement.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/en -->
+Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete; not externally expert-reviewed.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/zh -->
+部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成；未经过外部领域专家评审。
+<!-- /evo:text -->

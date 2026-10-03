@@ -1,0 +1,3745 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  amphitherm-source-reader:
+    scientificName: Desmognathus fuscus
+    name:
+      en: Desmognathus fuscus
+      zh: Desmognathus fuscus
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/0/text/zh
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "2483"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/1/text/zh
+        sourceRowNumber: 2257
+      - topic: ecology
+        title:
+          en: Selected critical lower thermal limit estimate
+          zh: 选列的临界低温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "3031"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/2/text/zh
+        sourceRowNumber: 2741
+      - topic: ecology
+        title:
+          en: Selected thermal preference estimate
+          zh: 选列的温度偏好估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "4387"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/3/text/zh
+        sourceRowNumber: 3962
+    sources:
+      referenceBindings:
+        - referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+          metadataVariant: 0
+          sourceKey: amphitherm
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - year
+            - doi
+            - url
+            - datasetUrl
+            - version
+            - associatedArchivedReleaseDoi
+            - accessedAt
+            - license
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 2257
+        values:
+          - "2483"
+          - Patrice Pottier
+          - Hutchison_1961
+          - Critical Thermal Maxima in Salamanders
+          - "1961"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Desmognathus_fuscus_pop2
+          - Desmognathus_fuscus_pop2_UTL_co1
+          - Population from Bladen County, North Carolina
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - auriculatus
+          - LC
+          - wild
+          - NA
+          - "34.58824"
+          - "-78.566085"
+          - "21"
+          - NA
+          - February
+          - "1958"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - "0.2"
+          - "30"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 18
+          - NA
+          - NA
+          - "36.00778627"
+          - "0.122896074"
+          - "12"
+          - sd
+          - Data was digitised from figure because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 2258
+        values:
+          - "2484"
+          - Patrice Pottier
+          - Hutchison_1961
+          - Critical Thermal Maxima in Salamanders
+          - "1961"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Desmognathus_fuscus_pop6
+          - Desmognathus_fuscus_pop6_UTL_co1
+          - Population from Patrick County, Virginia
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - fuscus
+          - LC
+          - wild
+          - NA
+          - "36.688625"
+          - "-80.321311"
+          - "544"
+          - NA
+          - September
+          - "1958"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - "0.2"
+          - "30"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 18
+          - NA
+          - NA
+          - "36.26723354"
+          - "0.573515013"
+          - "7"
+          - sd
+          - Data was digitised from figure because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 2729
+        values:
+          - "3019"
+          - Patrice Pottier
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop10
+          - Desmognathus_fuscus_pop10_UTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/2/values/12
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.777825"
+          - "-84.68975"
+          - "336"
+          - NA
+          - April
+          - "1980"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "1"
+          - "14"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "33.40298507"
+          - "0.137069753"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/2/values/83
+      - rowNumber: 2730
+        values:
+          - "3020"
+          - Patrice Pottier
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop10
+          - Desmognathus_fuscus_pop10_UTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/3/values/12
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.777825"
+          - "-84.68975"
+          - "336"
+          - NA
+          - April
+          - "1980"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "1"
+          - "14"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "34.48818898"
+          - "0.136590069"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/3/values/83
+      - rowNumber: 2731
+        values:
+          - "3021"
+          - Patrice Pottier
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop10
+          - Desmognathus_fuscus_pop10_UTL_co2
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/4/values/12
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.777825"
+          - "-84.68975"
+          - "336"
+          - NA
+          - April
+          - "1980"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "0.5"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.1119403"
+          - "0.121839781"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/4/values/83
+      - rowNumber: 2732
+        values:
+          - "3022"
+          - Patrice Pottier
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop10
+          - Desmognathus_fuscus_pop10_UTL_co2
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/5/values/12
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.777825"
+          - "-84.68975"
+          - "336"
+          - NA
+          - April
+          - "1980"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "0.5"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "34.81102362"
+          - "0.124538004"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/5/values/83
+      - rowNumber: 2733
+        values:
+          - "3023"
+          - Patrice Pottier
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop10
+          - Desmognathus_fuscus_pop10_UTL_co3
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/6/values/12
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.777825"
+          - "-84.68975"
+          - "336"
+          - NA
+          - April
+          - "1980"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "1"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.76119403"
+          - "0.137069753"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/6/values/83
+      - rowNumber: 2734
+        values:
+          - "3024"
+          - Patrice Pottier
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop10
+          - Desmognathus_fuscus_pop10_UTL_co3
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/7/values/12
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.777825"
+          - "-84.68975"
+          - "336"
+          - NA
+          - April
+          - "1980"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "1"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "35.30708661"
+          - "0.112485939"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/7/values/83
+      - rowNumber: 2735
+        values:
+          - "3025"
+          - Patrice Pottier
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop10
+          - Desmognathus_fuscus_pop10_UTL_co4
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/8/values/12
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.777825"
+          - "-84.68975"
+          - "336"
+          - NA
+          - April
+          - "1980"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "2"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.96268657"
+          - "0.129454767"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/8/values/83
+      - rowNumber: 2736
+        values:
+          - "3026"
+          - Patrice Pottier
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop10
+          - Desmognathus_fuscus_pop10_UTL_co4
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/9/values/12
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.777825"
+          - "-84.68975"
+          - "336"
+          - NA
+          - April
+          - "1980"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "2"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "35.76377953"
+          - "0.148642134"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/9/values/83
+      - rowNumber: 2737
+        values:
+          - "3027"
+          - Patrice Pottier
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop10
+          - Desmognathus_fuscus_pop10_UTL_co5
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/10/values/12
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.777825"
+          - "-84.68975"
+          - "336"
+          - NA
+          - April
+          - "1980"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "3"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.93283582"
+          - "0.171337192"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/10/values/83
+      - rowNumber: 2738
+        values:
+          - "3028"
+          - Patrice Pottier
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop10
+          - Desmognathus_fuscus_pop10_UTL_co5
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/11/values/12
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.777825"
+          - "-84.68975"
+          - "336"
+          - NA
+          - April
+          - "1980"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "3"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "35.52755906"
+          - "0.05624297"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/11/values/83
+      - rowNumber: 2739
+        values:
+          - "3029"
+          - Patrice Pottier
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop10
+          - Desmognathus_fuscus_pop10_UTL_co6
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/12/values/12
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.777825"
+          - "-84.68975"
+          - "336"
+          - NA
+          - April
+          - "1980"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "5"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.85820896"
+          - "0.163722205"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/12/values/83
+      - rowNumber: 2740
+        values:
+          - "3030"
+          - Patrice Pottier
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop10
+          - Desmognathus_fuscus_pop10_UTL_co6
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/13/values/12
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.777825"
+          - "-84.68975"
+          - "336"
+          - NA
+          - April
+          - "1980"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "5"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "35.51181102"
+          - "0.293266913"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/13/values/83
+      - rowNumber: 2741
+        values:
+          - "3031"
+          - Natalie_Claunch
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop9
+          - Desmognathus_fuscus_pop9_LTL_co1
+          - The CTmin of the same animals was assessed using different endpoints, hence the shared cohort IDs
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.7294348"
+          - "-84.64868111"
+          - "322"
+          - NA
+          - April
+          - NA
+          - NA
+          - NA
+          - Spring. Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "1"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "-0.271186441"
+          - "0.060532688"
+          - "6"
+          - se
+          - NA
+      - rowNumber: 2742
+        values:
+          - "3032"
+          - Natalie_Claunch
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop9
+          - Desmognathus_fuscus_pop9_LTL_co1
+          - The CTmin of the same animals was assessed using different endpoints, hence the shared cohort IDs
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.7294348"
+          - "-84.64868111"
+          - "322"
+          - NA
+          - April
+          - NA
+          - NA
+          - NA
+          - Spring. Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "1"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "-0.58008658"
+          - "0.053008216"
+          - "6"
+          - se
+          - NA
+      - rowNumber: 2743
+        values:
+          - "3033"
+          - Natalie_Claunch
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop9
+          - Desmognathus_fuscus_pop9_LTL_co2
+          - The CTmin of the same animals was assessed using different endpoints, hence the shared cohort IDs
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.7294348"
+          - "-84.64868111"
+          - "322"
+          - NA
+          - April
+          - NA
+          - NA
+          - NA
+          - Spring. Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "2"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "0.305084746"
+          - "0.233483224"
+          - "6"
+          - se
+          - NA
+      - rowNumber: 2744
+        values:
+          - "3034"
+          - Natalie_Claunch
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop9
+          - Desmognathus_fuscus_pop9_LTL_co2
+          - The CTmin of the same animals was assessed using different endpoints, hence the shared cohort IDs
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.7294348"
+          - "-84.64868111"
+          - "322"
+          - NA
+          - April
+          - NA
+          - NA
+          - NA
+          - Spring. Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "2"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "-0.251082251"
+          - "0.167859352"
+          - "6"
+          - se
+          - NA
+      - rowNumber: 2745
+        values:
+          - "3035"
+          - Natalie_Claunch
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop9
+          - Desmognathus_fuscus_pop9_LTL_co3
+          - The CTmin of the same animals was assessed using different endpoints, hence the shared cohort IDs
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.7294348"
+          - "-84.64868111"
+          - "322"
+          - NA
+          - April
+          - NA
+          - NA
+          - NA
+          - Spring. Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "3"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "1.06779661"
+          - "0.181598063"
+          - "6"
+          - se
+          - NA
+      - rowNumber: 2746
+        values:
+          - "3036"
+          - Natalie_Claunch
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop9
+          - Desmognathus_fuscus_pop9_LTL_co3
+          - The CTmin of the same animals was assessed using different endpoints, hence the shared cohort IDs
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.7294348"
+          - "-84.64868111"
+          - "322"
+          - NA
+          - April
+          - NA
+          - NA
+          - NA
+          - Spring. Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "3"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "0.753246753"
+          - "0.141355243"
+          - "6"
+          - se
+          - NA
+      - rowNumber: 2747
+        values:
+          - "3037"
+          - Natalie_Claunch
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop9
+          - Desmognathus_fuscus_pop9_LTL_co4
+          - The CTmin of the same animals was assessed using different endpoints, hence the shared cohort IDs
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.7294348"
+          - "-84.64868111"
+          - "322"
+          - NA
+          - April
+          - NA
+          - NA
+          - NA
+          - Spring. Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "1.355932203"
+          - "0.086475268"
+          - "6"
+          - se
+          - NA
+      - rowNumber: 2748
+        values:
+          - "3038"
+          - Natalie_Claunch
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop9
+          - Desmognathus_fuscus_pop9_LTL_co4
+          - The CTmin of the same animals was assessed using different endpoints, hence the shared cohort IDs
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.7294348"
+          - "-84.64868111"
+          - "322"
+          - NA
+          - April
+          - NA
+          - NA
+          - NA
+          - Spring. Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "1.03030303"
+          - "0.035338811"
+          - "6"
+          - se
+          - NA
+      - rowNumber: 2749
+        values:
+          - "3039"
+          - Natalie_Claunch
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop9
+          - Desmognathus_fuscus_pop9_LTL_co5
+          - The CTmin of the same animals was assessed using different endpoints, hence the shared cohort IDs
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.7294348"
+          - "-84.64868111"
+          - "322"
+          - NA
+          - April
+          - NA
+          - NA
+          - NA
+          - Spring. Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "1.491525424"
+          - "0.155655483"
+          - "6"
+          - se
+          - NA
+      - rowNumber: 2750
+        values:
+          - "3040"
+          - Natalie_Claunch
+          - Layne_and_Claussen_1982b
+          - The time courses of CTMax and CTMin acclimation in the salamander Desmognathus fuscus
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90002-X
+          - English
+          - Desmognathus_fuscus_pop9
+          - Desmognathus_fuscus_pop9_LTL_co5
+          - The CTmin of the same animals was assessed using different endpoints, hence the shared cohort IDs
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.7294348"
+          - "-84.64868111"
+          - "322"
+          - NA
+          - April
+          - NA
+          - NA
+          - NA
+          - Spring. Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "0.978354978"
+          - "0.150189946"
+          - "6"
+          - se
+          - NA
+      - rowNumber: 3197
+        values:
+          - "3514"
+          - Sarah Varon
+          - Markle_2015
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/24/values/3
+          - "2015"
+          - "1"
+          - Ecophysiological Analysis of Variation in Geographic Range Size
+          - not_peer-reviewed
+          - https://doi.org/10.1002%2Fece3.4006
+          - English
+          - Desmognathus_fuscus_pop8
+          - Desmognathus_fuscus_pop8_LTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.87697132"
+          - "-80.20447227"
+          - "688"
+          - NA
+          - NA
+          - NA
+          - "2009"
+          - "2011"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/24/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "14"
+          - NA
+          - "28"
+          - Animals were acclimated for at least 4 weeks
+          - adults
+          - NA
+          - NA
+          - "2.07"
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - "13"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "-1.19"
+          - NA
+          - "24"
+          - NA
+          - error not reported
+      - rowNumber: 3215
+        values:
+          - "3532"
+          - Patrice Pottier
+          - Markle_and_Kozak_2018
+          - Low acclimation capacity of narrow-ranging thermal specialists exposes susceptibility to global climate change
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1002/ece3.4006
+          - English
+          - Desmognathus_fuscus_pop16
+          - Desmognathus_fuscus_pop16_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2009"
+          - "2012"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "14"
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - "2.07"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "33.1"
+          - NA
+          - "20"
+          - NA
+          - sd_trait not reported
+      - rowNumber: 3962
+        values:
+          - "4387"
+          - Pietro Pollo
+          - Sievert_and_Andreadis_2002
+          - Differing Diel Patterns of Temperature Selection in Two Sympatric Desmognathus
+          - "2002"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Desmognathus_fuscus_pop4
+          - Desmognathus_fuscus_pop4_PBT_co1
+          - The same animals were tested at different time points, hence the shared cohort IDs
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.96782395"
+          - "-82.84778675"
+          - "408"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "23.75"
+          - NA
+          - "30"
+          - Acclimation time was at least one month
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - substrate
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - "0.5"
+          - linear
+          - "10"
+          - "30"
+          - 12:00:00
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "13.18226601"
+          - "0.315270936"
+          - "9"
+          - se
+          - NA
+      - rowNumber: 3963
+        values:
+          - "4388"
+          - Pietro Pollo
+          - Sievert_and_Andreadis_2002
+          - Differing Diel Patterns of Temperature Selection in Two Sympatric Desmognathus
+          - "2002"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Desmognathus_fuscus_pop4
+          - Desmognathus_fuscus_pop4_PBT_co1
+          - The same animals were tested at different time points, hence the shared cohort IDs
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.96782395"
+          - "-82.84778675"
+          - "408"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "23.75"
+          - NA
+          - "30"
+          - Acclimation time was at least one month
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - substrate
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - "0.5"
+          - linear
+          - "10"
+          - "30"
+          - 14:00:00
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "15.38916256"
+          - "1.379310345"
+          - "9"
+          - se
+          - NA
+      - rowNumber: 3964
+        values:
+          - "4389"
+          - Pietro Pollo
+          - Sievert_and_Andreadis_2002
+          - Differing Diel Patterns of Temperature Selection in Two Sympatric Desmognathus
+          - "2002"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Desmognathus_fuscus_pop4
+          - Desmognathus_fuscus_pop4_PBT_co1
+          - The same animals were tested at different time points, hence the shared cohort IDs
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.96782395"
+          - "-82.84778675"
+          - "408"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "23.75"
+          - NA
+          - "30"
+          - Acclimation time was at least one month
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - substrate
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - "0.5"
+          - linear
+          - "10"
+          - "30"
+          - 16:00:00
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "13.02463054"
+          - "0.827586207"
+          - "9"
+          - se
+          - NA
+      - rowNumber: 3965
+        values:
+          - "4390"
+          - Pietro Pollo
+          - Sievert_and_Andreadis_2002
+          - Differing Diel Patterns of Temperature Selection in Two Sympatric Desmognathus
+          - "2002"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Desmognathus_fuscus_pop4
+          - Desmognathus_fuscus_pop4_PBT_co1
+          - The same animals were tested at different time points, hence the shared cohort IDs
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.96782395"
+          - "-82.84778675"
+          - "408"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "23.75"
+          - NA
+          - "30"
+          - Acclimation time was at least one month
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - substrate
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - "0.5"
+          - linear
+          - "10"
+          - "30"
+          - 18:00:00
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "13.10344828"
+          - "0.669950739"
+          - "9"
+          - se
+          - NA
+      - rowNumber: 3966
+        values:
+          - "4391"
+          - Pietro Pollo
+          - Sievert_and_Andreadis_2002
+          - Differing Diel Patterns of Temperature Selection in Two Sympatric Desmognathus
+          - "2002"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Desmognathus_fuscus_pop4
+          - Desmognathus_fuscus_pop4_PBT_co1
+          - The same animals were tested at different time points, hence the shared cohort IDs
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.96782395"
+          - "-82.84778675"
+          - "408"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "23.75"
+          - NA
+          - "30"
+          - Acclimation time was at least one month
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - substrate
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - "0.5"
+          - linear
+          - "10"
+          - "30"
+          - 20:00:00
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "13.73399015"
+          - "1.418719212"
+          - "9"
+          - se
+          - NA
+      - rowNumber: 3967
+        values:
+          - "4392"
+          - Pietro Pollo
+          - Sievert_and_Andreadis_2002
+          - Differing Diel Patterns of Temperature Selection in Two Sympatric Desmognathus
+          - "2002"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Desmognathus_fuscus_pop4
+          - Desmognathus_fuscus_pop4_PBT_co1
+          - The same animals were tested at different time points, hence the shared cohort IDs
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.96782395"
+          - "-82.84778675"
+          - "408"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "23.75"
+          - NA
+          - "30"
+          - Acclimation time was at least one month
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - substrate
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - "0.5"
+          - linear
+          - "10"
+          - "30"
+          - 22:00:00
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "13.33990148"
+          - "1.418719212"
+          - "9"
+          - se
+          - NA
+      - rowNumber: 3968
+        values:
+          - "4393"
+          - Pietro Pollo
+          - Sievert_and_Andreadis_2002
+          - Differing Diel Patterns of Temperature Selection in Two Sympatric Desmognathus
+          - "2002"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Desmognathus_fuscus_pop4
+          - Desmognathus_fuscus_pop4_PBT_co1
+          - The same animals were tested at different time points, hence the shared cohort IDs
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.96782395"
+          - "-82.84778675"
+          - "408"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "23.75"
+          - NA
+          - "30"
+          - Acclimation time was at least one month
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - substrate
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - "0.5"
+          - linear
+          - "10"
+          - "30"
+          - 0:00:00
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "13.45812808"
+          - "1.458128079"
+          - "9"
+          - se
+          - NA
+      - rowNumber: 4019
+        values:
+          - "4446"
+          - Patrice Pottier
+          - Spotila_1972
+          - Role of temperature and water in the ecology of lungless salamanders
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1942232
+          - English
+          - Desmognathus_fuscus_pop1
+          - Desmognathus_fuscus_pop1_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - brimleyorum
+          - LC
+          - wild
+          - NA
+          - "34.37521524"
+          - "-93.87837227"
+          - "283"
+          - NA
+          - NA
+          - NA
+          - March_1968
+          - October_1969
+          - Animals were collected in March to October 1968 and 1969. Geographical coordinates were estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 3
+          - NA
+          - NA
+          - "34.20192308"
+          - "0.461538462"
+          - "10"
+          - sd
+          - Data was dititised from figure 3.
+      - rowNumber: 4020
+        values:
+          - "4447"
+          - Patrice Pottier
+          - Spotila_1972
+          - Role of temperature and water in the ecology of lungless salamanders
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1942232
+          - English
+          - Desmognathus_fuscus_pop3
+          - Desmognathus_fuscus_pop3_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "34.69102943"
+          - "-94.33731061"
+          - "495"
+          - NA
+          - NA
+          - NA
+          - March_1968
+          - October_1969
+          - Animals were collected in March to October 1968 and 1969. Geographical coordinates were estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 3
+          - NA
+          - NA
+          - "32.77884615"
+          - "0.480769231"
+          - "8"
+          - sd
+          - Data was dititised from figure 3.
+      - rowNumber: 4290
+        values:
+          - "4763"
+          - Patrice Pottier
+          - Zweifel_1957
+          - Studies on the critical thermal maxima of salamanders
+          - "1957"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1932126
+          - English
+          - Desmognathus_fuscus_pop5
+          - Desmognathus_fuscus_pop5_UTL_co1
+          - Whitetop Mountain population
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - fuscus
+          - LC
+          - wild
+          - NA
+          - "36.638729"
+          - "-81.605392"
+          - "1433"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "21.5"
+          - "4.5"
+          - "5"
+          - Acclimation temperature varied between 17 and 26C so it was taken as 21.5 +/- 4.5C
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "33.5"
+          - "0.19"
+          - "8"
+          - se
+          - NA
+      - rowNumber: 4291
+        values:
+          - "4764"
+          - Patrice Pottier
+          - Zweifel_1957
+          - Studies on the critical thermal maxima of salamanders
+          - "1957"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1932126
+          - English
+          - Desmognathus_fuscus_pop7
+          - Desmognathus_fuscus_pop7_UTL_co1
+          - Mountain Lake population
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - fuscus
+          - LC
+          - wild
+          - NA
+          - "37.375136"
+          - "-80.522747"
+          - "1158"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - NA
+          - "7.5"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "31"
+          - "0.17"
+          - "9"
+          - se
+          - NA
+      - rowNumber: 4292
+        values:
+          - "4765"
+          - Patrice Pottier
+          - Zweifel_1957
+          - Studies on the critical thermal maxima of salamanders
+          - "1957"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1932126
+          - English
+          - Desmognathus_fuscus_pop7
+          - Desmognathus_fuscus_pop7_UTL_co2
+          - Mountain Lake population
+          - Caudata
+          - Plethodontidae
+          - Desmognathus fuscus
+          - fuscus
+          - LC
+          - wild
+          - NA
+          - "37.375136"
+          - "-80.522747"
+          - "1158"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "10"
+          - NA
+          - "6"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "32.2"
+          - "0.13"
+          - "10"
+          - se
+          - NA
+    originalStudyCitations:
+      - ref: Hutchison_1961
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/0/title
+          format: heading
+        doi: NA
+        year: "1961"
+      - ref: Layne_and_Claussen_1982b
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/1/title
+          format: heading
+        doi: https://doi.org/10.1016/0306-4565(82)90002-X
+        year: "1982"
+      - ref: Markle_2015
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/2/title
+          format: heading
+        doi: https://doi.org/10.1002%2Fece3.4006
+        year: "2015"
+      - ref: Markle_and_Kozak_2018
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/3/title
+          format: heading
+        doi: https://doi.org/10.1002/ece3.4006
+        year: "2018"
+      - ref: Sievert_and_Andreadis_2002
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/4/title
+          format: heading
+        doi: NA
+        year: "2002"
+      - ref: Spotila_1972
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/5/title
+          format: heading
+        doi: https://doi.org/10.2307/1942232
+        year: "1972"
+      - ref: Zweifel_1957
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/6/title
+          format: heading
+        doi: https://doi.org/10.2307/1932126
+        year: "1957"
+    selectedEstimateRowNumbers:
+      - 2257
+      - 2741
+      - 3962
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - V5HJ7
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/zh
+---
+
+# Desmognathus fuscus — AmphiTherm source
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator -->
+Cleaned_and_curated_data_Amphitherm.csv, rows 2257, 2258, 2729, 2730, 2731, 2732, 2733, 2734, 2735, 2736, 2737, 2738, 2739, 2740, 2741, 2742, 2743, 2744, 2745, 2746, 2747, 2748, 2749, 2750, 3197, 3215, 3962, 3963, 3964, 3965, 3966, 3967, 3968, 4019, 4020, 4290, 4291, 4292; Metadata_AmphiTherm.xlsx
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en -->
+Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh -->
+固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/2/values/12 -->
+It was unclear whether the same animals were assessed for both LRR and heat rigor. As a conservative measure, the observations were considered to be repeated.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/2/values/83 -->
+Data was digitised from figure 3 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 1.96
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/3/values/12 -->
+It was unclear whether the same animals were assessed for both LRR and heat rigor. As a conservative measure, the observations were considered to be repeated.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/3/values/83 -->
+Data was digitised from figure 3 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 1.96
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/4/values/12 -->
+It was unclear whether the same animals were assessed for both LRR and heat rigor. As a conservative measure, the observations were considered to be repeated.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/4/values/83 -->
+Data was digitised from figure 3 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 1.96
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/5/values/12 -->
+It was unclear whether the same animals were assessed for both LRR and heat rigor. As a conservative measure, the observations were considered to be repeated.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/5/values/83 -->
+Data was digitised from figure 3 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 1.96
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/6/values/12 -->
+It was unclear whether the same animals were assessed for both LRR and heat rigor. As a conservative measure, the observations were considered to be repeated.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/6/values/83 -->
+Data was digitised from figure 3 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 1.96
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/7/values/12 -->
+It was unclear whether the same animals were assessed for both LRR and heat rigor. As a conservative measure, the observations were considered to be repeated.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/7/values/83 -->
+Data was digitised from figure 3 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 1.96
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/8/values/12 -->
+It was unclear whether the same animals were assessed for both LRR and heat rigor. As a conservative measure, the observations were considered to be repeated.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/8/values/83 -->
+Data was digitised from figure 3 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 1.96
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/9/values/12 -->
+It was unclear whether the same animals were assessed for both LRR and heat rigor. As a conservative measure, the observations were considered to be repeated.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/9/values/83 -->
+Data was digitised from figure 3 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 1.96
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/10/values/12 -->
+It was unclear whether the same animals were assessed for both LRR and heat rigor. As a conservative measure, the observations were considered to be repeated.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/10/values/83 -->
+Data was digitised from figure 3 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 1.96
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/11/values/12 -->
+It was unclear whether the same animals were assessed for both LRR and heat rigor. As a conservative measure, the observations were considered to be repeated.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/11/values/83 -->
+Data was digitised from figure 3 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 1.96
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/12/values/12 -->
+It was unclear whether the same animals were assessed for both LRR and heat rigor. As a conservative measure, the observations were considered to be repeated.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/12/values/83 -->
+Data was digitised from figure 3 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 1.96
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/13/values/12 -->
+It was unclear whether the same animals were assessed for both LRR and heat rigor. As a conservative measure, the observations were considered to be repeated.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/13/values/83 -->
+Data was digitised from figure 3 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 1.96
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/24/values/3 -->
+Ecology and Evolution of Geographic Range Size Variation  in North American Plethodontid Salamanders: Perspectives from Thermal Physiology
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/24/values/28 -->
+Specific locality not provided (throughout the Appalachian Mountains of eastern North America including the states New York, North Carolina, Pennsylvania, Virginia, and West Virginia). The central location was estimated from Google Maps
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/en -->
+Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete; not externally expert-reviewed.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/zh -->
+部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成；未经过外部领域专家评审。
+<!-- /evo:text -->

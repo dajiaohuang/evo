@@ -101,6 +101,7 @@ export class ContentReferenceCatalogue {
       reference.importedSourceMetadata.push(metadata)
       variants.set(variantKey, variant)
     }
+    if (!reference.publishedYear && !reference.publishedAt && !reference.accessedAt && !reference.version && reference.metadataStatus === 'imported-without-bibliographic-enrichment' && reference.metadataAssignment === 'automated' && reference.sourceRole === 'unclassified' && reference.fitnessFor.length === 0 && ['publication', 'web-resource'].includes(reference.type)) reference.dateStatus = 'unresolved-in-source-metadata'
     return { referenceId: reference.id, metadataVariant: variant, sourceKey: source.id, usage, originalFields: Object.keys(source) }
   }
 
@@ -120,6 +121,7 @@ export class ContentReferenceCatalogue {
         fitnessFor: [],
         metadataAssignment: 'automated',
         metadataStatus: 'verbatim-archive-citation-unparsed',
+        dateStatus: 'unresolved-in-source-metadata',
         importedCitationMetadata: [bibliography],
       }
       this.records.push(reference)
@@ -159,11 +161,18 @@ export function attachContentReferences(value, referencesById) {
       const reference = referencesById.get(binding.referenceId)
       const metadata = reference?.importedSourceMetadata?.[binding.metadataVariant]
       if (!metadata) throw new Error(`Missing imported reference metadata: ${binding.referenceId}/${binding.metadataVariant}`)
-      const source = attachContentReferences({ id: binding.sourceKey, ...structuredClone(metadata), ...binding.usage }, referencesById)
-      return Object.fromEntries(binding.originalFields.map(key => {
+      const source = attachContentReferences({ id: binding.sourceKey, referenceId: binding.referenceId, sourceKey: binding.sourceKey, metadataVariant: binding.metadataVariant, ...structuredClone(metadata), ...binding.usage }, referencesById)
+      const restored = Object.fromEntries(binding.originalFields.map(key => {
         if (!(key in source)) throw new Error(`Missing reference field ${binding.referenceId}/${key}`)
         return [key, source[key]]
       }))
+      if (binding.originalFields.includes('sourceKey') && !binding.originalFields.includes('id')) {
+        const title = source.title ?? reference.titleTranslations ?? reference.title
+        const url = source.url ?? reference.url ?? (reference.doi ? `https://doi.org/${reference.doi}` : undefined)
+        if (!binding.sourceKey || !title || !url) throw new Error(`Compact reference lacks recorded reader metadata: ${binding.referenceId}`)
+        return { ...restored, id: binding.sourceKey, title, url }
+      }
+      return restored
     })
   }
   return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, attachContentReferences(item, referencesById)]))

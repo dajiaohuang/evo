@@ -14,6 +14,7 @@ records:
     entityKind: taxon
     contentLevel: dossier
   atlas-profile:
+    pbdbTaxonId: null
     scientificName: Dinosauria
     commonName: Dinosaurs
     commonNameZh: 恐龙

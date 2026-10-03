@@ -1,8 +1,9 @@
 import { readFileSync, readdirSync, writeFileSync, mkdirSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { gunzipSync, brotliDecompressSync } from 'node:zlib'
+import { readJson } from './data-lib.mjs'
 
-const json = path => JSON.parse(readFileSync(path, 'utf8'))
+const json = readJson
 const walk = directory => readdirSync(directory, { withFileTypes: true }).flatMap(entry => entry.isDirectory() ? walk(join(directory, entry.name)) : [join(directory, entry.name).replaceAll('\\', '/')])
 const catalogueRoot = 'data/catalogue-of-life/releases/2026-08-20/registry'
 const manifest = json(`${catalogueRoot}/manifest.json`)

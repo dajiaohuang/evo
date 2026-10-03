@@ -1,0 +1,1402 @@
+{
+  "pmcid": "PMC5743656",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+  "sha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+  "articleType": "research-article",
+  "title": "ConR: An R package to assist large‐scale multispecies preliminary conservation assessments using distribution data",
+  "authors": [
+    {
+      "name": "Gilles Dauby",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Gilles",
+        "surname": "Dauby",
+        "suffix": null
+      },
+      "originalName": "DaubyGilles",
+      "attributes": {
+        "id": "ece33704-cr-0001",
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0002-9498-413X"
+        }
+      ]
+    },
+    {
+      "name": "Tariq Stévart",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Tariq",
+        "surname": "Stévart",
+        "suffix": null
+      },
+      "originalName": "StévartTariq",
+      "attributes": {
+        "id": "ece33704-cr-0002",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Vincent Droissart",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Vincent",
+        "surname": "Droissart",
+        "suffix": null
+      },
+      "originalName": "DroissartVincent",
+      "attributes": {
+        "id": "ece33704-cr-0003",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Ariane Cosiaux",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Ariane",
+        "surname": "Cosiaux",
+        "suffix": null
+      },
+      "originalName": "CosiauxAriane",
+      "attributes": {
+        "id": "ece33704-cr-0004",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Vincent Deblauwe",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Vincent",
+        "surname": "Deblauwe",
+        "suffix": null
+      },
+      "originalName": "DeblauweVincent",
+      "attributes": {
+        "id": "ece33704-cr-0005",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Murielle Simo‐Droissart",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Murielle",
+        "surname": "Simo‐Droissart",
+        "suffix": null
+      },
+      "originalName": "Simo‐DroissartMurielle",
+      "attributes": {
+        "id": "ece33704-cr-0006",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Marc S. M. Sosef",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Marc S. M.",
+        "surname": "Sosef",
+        "suffix": null
+      },
+      "originalName": "SosefMarc S. M.",
+      "attributes": {
+        "id": "ece33704-cr-0007",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Porter P. Lowry II",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Porter P.",
+        "surname": "Lowry",
+        "suffix": "II"
+      },
+      "originalName": "LowryPorter P. II",
+      "attributes": {
+        "id": "ece33704-cr-0008",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "George E. Schatz",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "George E.",
+        "surname": "Schatz",
+        "suffix": null
+      },
+      "originalName": "SchatzGeorge E.",
+      "attributes": {
+        "id": "ece33704-cr-0009",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Roy E. Gereau",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Roy E.",
+        "surname": "Gereau",
+        "suffix": null
+      },
+      "originalName": "GereauRoy E.",
+      "attributes": {
+        "id": "ece33704-cr-0010",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Thomas L. P. Couvreur",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Thomas L. P.",
+        "surname": "Couvreur",
+        "suffix": null
+      },
+      "originalName": "CouvreurThomas L. P.",
+      "attributes": {
+        "id": "ece33704-cr-0011",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC5743656"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC5743656.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "5743656"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "5743656"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "29299301"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1002/ece3.3704"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "ECE33704"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2017",
+      "month": "12",
+      "day": "16"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2017",
+      "month": "12",
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {
+        "license-type": "creativeCommonsBy"
+      },
+      "links": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [],
+  "citedReferences": [
+    {
+      "id": "ece33704-bib-0001",
+      "position": 0,
+      "title": null,
+      "source": "Identifying important plant areas",
+      "year": "2002",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "ece33704-cit-0001"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Plantlife International"
+        ],
+        "publisher-loc": [
+          "London, UK"
+        ]
+      },
+      "originalCitationText": "Anderson, S.\n (2002). Identifying important plant areas. London, UK: Plantlife International.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0001",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0002",
+      "position": 1,
+      "title": "Supporting Red List threat assessments with GeoCAT: Geospatial conservation assessment tool",
+      "source": "ZooKeys",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0002"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "150"
+        ],
+        "fpage": [
+          "117"
+        ],
+        "lpage": [
+          "126"
+        ]
+      },
+      "originalCitationText": "Bachman, S.\n, \nMoat, J.\n, \nHill, A.\n, \nde la Torre, J.\n, & \nScott, B.\n (2011). Supporting Red List threat assessments with GeoCAT: Geospatial conservation assessment tool. ZooKeys, 150, 117–126. https://doi.org/10.3897/zookeys.150.2109\n10.3897/zookeys.150.2109PMC323443422207809",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.3897/zookeys.150.2109"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3234434"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22207809"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.3897/zookeys.150.2109"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0002",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0003",
+      "position": 2,
+      "title": "An endangered West African rattan palm: Eremospatha dransfieldii",
+      "source": "Biodiversity Data Journal",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0003"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "5"
+        ],
+        "fpage": [
+          "e11176"
+        ]
+      },
+      "originalCitationText": "Cosiaux, A.\n, \nGardiner, L.\n, \nOuattara, D.\n, \nStauffer, F.\n, \nSonké, B.\n, & \nCouvreur, T.\n (2017). An endangered West African rattan palm: Eremospatha dransfieldii. Biodiversity Data Journal, 5, e11176.10.3897/BDJ.5.e11176PMC534511028325979",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.3897/BDJ.5.e11176"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5345110"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28325979"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0003",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0004",
+      "position": 3,
+      "title": "Important plant areas: Revised selection criteria for a global approach to plant conservation",
+      "source": "Biodiversity and Conservation",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0004"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "26"
+        ],
+        "fpage": [
+          "1767"
+        ],
+        "lpage": [
+          "1800"
+        ]
+      },
+      "originalCitationText": "Darbyshire, I.\n, \nAnderson, S.\n, \nAsatryan, A.\n, \nByfield, A.\n, \nCheek, M.\n, \nClubbe, C.\n, … \nRadford, E. A.\n (2017). Important plant areas: Revised selection criteria for a global approach to plant conservation. Biodiversity and Conservation, 26, 1767–1800. https://doi.org/10.1007/s10531-017-1336-6",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1007/s10531-017-1336-6"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0004",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0005",
+      "position": 4,
+      "title": "RAINBIO: A mega‐database of tropical African vascular plants distributions",
+      "source": "PhytoKeys",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0005"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "74"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "18"
+        ]
+      },
+      "originalCitationText": "Dauby, G.\n, \nZaiss, R.\n, \nBlach‐Overgaard, A.\n, \nCatarino, L.\n, \nDamen, T.\n, \nDeblauwe, V.\n, … \nCouvreur, T. L. P.\n (2016). RAINBIO: A mega‐database of tropical African vascular plants distributions. PhytoKeys, 74, 1–18.10.3897/phytokeys.74.9723PMC523454628127234",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.3897/phytokeys.74.9723"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5234546"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28127234"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0005",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0500",
+      "position": 5,
+      "title": "Global spatial coincidence between protected areas and metal mining activities",
+      "source": "Biological Conservation",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0500"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "160"
+        ],
+        "fpage": [
+          "272"
+        ],
+        "lpage": [
+          "278"
+        ]
+      },
+      "originalCitationText": "Durán, A. P.\n, \nRauch, J.\n & \nGaston, K. J.\n (2013). Global spatial coincidence between protected areas and metal mining activities. Biological Conservation, 160 (Supplement C), 272–278. https://doi.org/10.1016/j.biocon.2013.02.003.",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1016/j.biocon.2013.02.003"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0500",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0006",
+      "position": 6,
+      "title": "Phylogeny, extinction and conservation: Embracing uncertainties in a time of urgency",
+      "source": "Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0006"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "370"
+        ],
+        "fpage": [
+          "20140002"
+        ]
+      },
+      "originalCitationText": "Forest, F.\n, \nCrandall, K. A.\n, \nChase, M. W.\n, & \nFaith, D. P.\n (2015). Phylogeny, extinction and conservation: Embracing uncertainties in a time of urgency. Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences, 370, 20140002.2556166310.1098/rstb.2014.0002PMC4290416",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "25561663"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1098/rstb.2014.0002"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4290416"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0006",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0007",
+      "position": 7,
+      "title": "The sizes of species’ geographic ranges",
+      "source": "Journal of Applied Ecology",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0007"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "46"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "9"
+        ]
+      },
+      "originalCitationText": "Gaston, K. J.\n, & \nFuller, R. A.\n (2009). The sizes of species’ geographic ranges. Journal of Applied Ecology, 46, 1–9. https://doi.org/10.1111/j.1365-2664.2008.01596.x",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1111/j.1365-2664.2008.01596.x"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0007",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0008",
+      "position": 8,
+      "title": null,
+      "source": "IUCN Red List categories and criteria (version 3.1)",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "ece33704-cit-0008"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "IUCN"
+        ],
+        "publisher-loc": [
+          "Gland, Switzerland and Cambridge, UK"
+        ],
+        "edition": [
+          "2nd ed."
+        ]
+      },
+      "originalCitationText": "IUCN\n(2012). IUCN Red List categories and criteria (version 3.1), 2nd ed.\nGland, Switzerland and Cambridge, UK: IUCN.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0008",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0009",
+      "position": 9,
+      "title": "Guidelines for Using the IUCN Red List Categories and Criteria. Version 12",
+      "source": null,
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "miscellaneous",
+        "id": "ece33704-cit-0009"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "IUCN Standards and Petitions Subcommittee\n(2016). Guidelines for Using the IUCN Red List Categories and Criteria. Version 12.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0009",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0010",
+      "position": 10,
+      "title": "Global distribution and conservation of evolutionary distinctness in birds",
+      "source": "Current Biology",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0010"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "24"
+        ],
+        "fpage": [
+          "919"
+        ],
+        "lpage": [
+          "930"
+        ]
+      },
+      "originalCitationText": "Jetz, W.\n, \nThomas, G. H.\n, \nJoy, J. B.\n, \nRedding, D. W.\n, \nHartmann, K.\n, & \nMooers, A. O.\n (2014). Global distribution and conservation of evolutionary distinctness in birds. Current Biology, 24, 919–930. https://doi.org/10.1016/j.cub.2014.03.011\n2472615510.1016/j.cub.2014.03.011",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "24726155"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.cub.2014.03.011"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1016/j.cub.2014.03.011"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0010",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0011",
+      "position": 11,
+      "title": "Achieving target 2 of the global strategy for plant conservation: Building a preliminary assessment of vascular plant species using data from herbarium specimens",
+      "source": "Biodiversity and Conservation",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0011"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "fpage": [
+          "1459"
+        ],
+        "lpage": [
+          "1474"
+        ]
+      },
+      "originalCitationText": "Krupnick, G. A.\n, \nKress, W. J.\n, & \nWagner, W. L.\n (2009). Achieving target 2 of the global strategy for plant conservation: Building a preliminary assessment of vascular plant species using data from herbarium specimens. Biodiversity and Conservation, 18, 1459–1474. https://doi.org/10.1007/s10531-008-9494-1",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1007/s10531-008-9494-1"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0011",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0013",
+      "position": 12,
+      "title": "Predicting extinction risk of Brazilian Atlantic Forest angiosperms",
+      "source": "Conservation Biology",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0013"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "fpage": [
+          "1349"
+        ],
+        "lpage": [
+          "1359"
+        ]
+      },
+      "originalCitationText": "Leão, T. C. C.\n, \nFonseca, C. R.\n, \nPeres, C. A.\n, & \nTabarelli, M.\n (2014). Predicting extinction risk of Brazilian Atlantic Forest angiosperms. Conservation Biology, 28, 1349–1359. https://doi.org/10.1111/cobi.12286\n2466592710.1111/cobi.12286",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "24665927"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1111/cobi.12286"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1111/cobi.12286"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0013",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0014",
+      "position": 13,
+      "title": "Bioquality hotspots in the tropical African flora",
+      "source": "Current Biology",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0014"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "26"
+        ],
+        "fpage": [
+          "3214"
+        ],
+        "lpage": [
+          "3219"
+        ]
+      },
+      "originalCitationText": "Marshall, C. A. M.\n, \nWieringa, J. J.\n, & \nHawthorne, W. D.\n (2016). Bioquality hotspots in the tropical African flora. Current Biology, 26, 3214–3219. https://doi.org/10.1016/j.cub.2016.09.045\n2783996910.1016/j.cub.2016.09.045",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "27839969"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.cub.2016.09.045"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1016/j.cub.2016.09.045"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0014",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0015",
+      "position": 14,
+      "title": "Protected area downgrading, downsizing, and degazettement (PADDD) in Africa, Asia, and Latin America and the Caribbean, 1900–2010",
+      "source": "Biological Conservation",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0015"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "169"
+        ],
+        "fpage": [
+          "355"
+        ],
+        "lpage": [
+          "361"
+        ]
+      },
+      "originalCitationText": "Mascia, M. B.\n, \nPailler, S.\n, \nKrithivasan, R.\n, \nRoshchanka, V.\n, \nBurns, D.\n, \nMlotha, M. J.\n, … \nPeng, N.\n (2014). Protected area downgrading, downsizing, and degazettement (PADDD) in Africa, Asia, and Latin America and the Caribbean, 1900–2010. Biological Conservation, 169, 355–361. https://doi.org/10.1016/j.biocon.2013.11.021",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1016/j.biocon.2013.11.021"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0015",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0016",
+      "position": 15,
+      "title": "Addressing target two of the global strategy for plant conservation by rapidly identifying plants at risk",
+      "source": "Biodiversity and Conservation",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0016"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "21"
+        ],
+        "fpage": [
+          "1877"
+        ],
+        "lpage": [
+          "1887"
+        ]
+      },
+      "originalCitationText": "Miller, J. S.\n, \nPorter‐Morgan, H. A.\n, \nStevens, H.\n, \nBoom, B.\n, \nKrupnick, G. A.\n, \nAcevedo‐Rodríguez, P.\n, … \nGensler, M.\n (2012). Addressing target two of the global strategy for plant conservation by rapidly identifying plants at risk. Biodiversity and Conservation, 21, 1877–1887. https://doi.org/10.1007/s10531-012-0285-3",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1007/s10531-012-0285-3"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0016",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0017",
+      "position": 16,
+      "title": "Incorporating explicit geospatial data shows more species at risk of extinction than the current Red List",
+      "source": "Science Advances",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0017"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "fpage": [
+          "e1601367"
+        ]
+      },
+      "originalCitationText": "Ocampo‐Peñuela, N.\n, \nJenkins, C. N.\n, \nVijay, V.\n, \nLi, B. V.\n, & \nPimm, S. L.\n (2016). Incorporating explicit geospatial data shows more species at risk of extinction than the current Red List. Science Advances, 2, e1601367\nhttps://doi.org/10.1126/sciadv.1601367\n2886146510.1126/sciadv.1601367PMC5569955",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "28861465"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1126/sciadv.1601367"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5569955"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1126/sciadv.1601367"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0017",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0018",
+      "position": 17,
+      "title": "Towards target 1 of the global strategy for plant conservation: A working list of all known plant species—progress and prospects",
+      "source": "Taxon",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0018"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "57"
+        ],
+        "fpage": [
+          "602"
+        ],
+        "lpage": [
+          "611"
+        ]
+      },
+      "originalCitationText": "Paton, A. J.\n, \nBrummitt, N.\n, \nGovaerts, R.\n, \nHarman, K.\n, \nHinchcliffe, S.\n, \nAllkin, B.\n, & \nLughadha, E. N.\n (2008). Towards target 1 of the global strategy for plant conservation: A working list of all known plant species—progress and prospects. Taxon, 57, 602–611.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0018",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0019",
+      "position": 18,
+      "title": null,
+      "source": "A language and environment for statistical computing",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "ece33704-cit-0019"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "R Foundation for Statistical Computing"
+        ],
+        "publisher-loc": [
+          "Vienna, Austria"
+        ]
+      },
+      "originalCitationText": "R Development Core Team\n(2016). A language and environment for statistical computing. Vienna, Austria: R Foundation for Statistical Computing.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0019",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0020",
+      "position": 19,
+      "title": "Subpopulations, locations and fragmentation: Applying IUCN red list criteria to herbarium specimen data",
+      "source": "Biodiversity and Conservation",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0020"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "19"
+        ],
+        "fpage": [
+          "2071"
+        ],
+        "lpage": [
+          "2085"
+        ]
+      },
+      "originalCitationText": "Rivers, M. C.\n, \nBachman, S. P.\n, \nMeagher, T. R.\n, \nLughadha, E. N.\n, & \nBrummitt, N. A.\n (2010). Subpopulations, locations and fragmentation: Applying IUCN red list criteria to herbarium specimen data. Biodiversity and Conservation, 19, 2071–2085. https://doi.org/10.1007/s10531-010-9826-9",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1007/s10531-010-9826-9"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0020",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0021",
+      "position": 20,
+      "title": "Biogeo: An R package for assessing and improving data quality of occurrence record datasets",
+      "source": "Ecography",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0021"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "39"
+        ],
+        "fpage": [
+          "394"
+        ],
+        "lpage": [
+          "401"
+        ]
+      },
+      "originalCitationText": "Robertson, M. P.\n, \nVisser, V.\n, & \nHui, C.\n (2016). Biogeo: An R package for assessing and improving data quality of occurrence record datasets. Ecography, 39, 394–401. https://doi.org/10.1111/ecog.02118",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1111/ecog.02118"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0021",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0022",
+      "position": 21,
+      "title": "The value of the IUCN Red List for conservation",
+      "source": "Trends in Ecology & Evolution",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0022"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "21"
+        ],
+        "fpage": [
+          "71"
+        ],
+        "lpage": [
+          "76"
+        ]
+      },
+      "originalCitationText": "Rodrigues, A. S. L.\n, \nPilgrim, J. D.\n, \nLamoreux, J. F.\n, \nHoffmann, M.\n, & \nBrooks, T. M.\n (2006). The value of the IUCN Red List for conservation. Trends in Ecology & Evolution, 21, 71–76. https://doi.org/10.1016/j.tree.2005.10.010\n1670147710.1016/j.tree.2005.10.010",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "16701477"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.tree.2005.10.010"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1016/j.tree.2005.10.010"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0022",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0023",
+      "position": 22,
+      "title": "Taxonomy and herbaria in service of plant conservation: Lessons from madagascar's endemic families",
+      "source": "Annals of the Missouri Botanical Garden",
+      "year": "2002",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0023"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "89"
+        ],
+        "fpage": [
+          "145"
+        ],
+        "lpage": [
+          "152"
+        ]
+      },
+      "originalCitationText": "Schatz, G. E.\n (2002). Taxonomy and herbaria in service of plant conservation: Lessons from madagascar's endemic families. Annals of the Missouri Botanical Garden, 89, 145–152. https://doi.org/10.2307/3298559",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.2307/3298559"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0023",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0024",
+      "position": 23,
+      "title": "An update to the African palms (Arecaceae) floristic and taxonomic knowledge, with emphasis on the West African region",
+      "source": "Webbia",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0024"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "72"
+        ],
+        "fpage": [
+          "17"
+        ],
+        "lpage": [
+          "30"
+        ]
+      },
+      "originalCitationText": "Stauffer, F. W.\n, \nOuattara, D. N.\n, \nRoguet, D.\n, \nda Giau, S.\n, \nMichon, L.\n, \nBakayoko, A.\n, & \nEkpe, P.\n (2017). An update to the African palms (Arecaceae) floristic and taxonomic knowledge, with emphasis on the West African region. Webbia, 72, 17–30. https://doi.org/10.1080/00837792.2017.1313381",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1080/00837792.2017.1313381"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0024",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0025",
+      "position": 24,
+      "title": "Estimating the global conservation status of more than 15,000 Amazonian tree species",
+      "source": "Science Advances",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0025"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "1"
+        ],
+        "fpage": [
+          "e1500936"
+        ]
+      },
+      "originalCitationText": "Ter Steege, H.\n, \nPitman, N. C. A.\n, \nKilleen, T. J.\n, \nLaurance, W. F.\n, \nPeres, C. A.\n, \nGuevara, J. E.\n, … \nGamarra, L. V.\n (2015). Estimating the global conservation status of more than 15,000 Amazonian tree species. Science Advances, 1, e1500936\nhttps://doi.org/10.1126/sciadv.1500936\n2670244210.1126/sciadv.1500936PMC4681336",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "26702442"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1126/sciadv.1500936"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4681336"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1126/sciadv.1500936"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0025",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0026",
+      "position": 25,
+      "title": "SpeciesGeoCoder: fast categorization of species occurrences for analyses of biodiversity, biogeography, ecology, and evolution",
+      "source": "Systematic Biology",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0026"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "66"
+        ],
+        "fpage": [
+          "145"
+        ],
+        "lpage": [
+          "151"
+        ]
+      },
+      "originalCitationText": "Töpel, M.\n, \nZizka, A.\n, \nCalió, M. F.\n, \nScharn, R.\n, \nSilvestro, D.\n, & \nAntonelli, A.\n (2017). SpeciesGeoCoder: fast categorization of species occurrences for analyses of biodiversity, biogeography, ecology, and evolution. Systematic Biology, 66, 145–151.2748618110.1093/sysbio/syw064PMC5410971",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "27486181"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/sysbio/syw064"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5410971"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0026",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33704-bib-0027",
+      "position": 26,
+      "title": "Catastrophic declines in wilderness areas undermine global environment targets",
+      "source": "Current Biology",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33704-cit-0027"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "26"
+        ],
+        "fpage": [
+          "2929"
+        ],
+        "lpage": [
+          "2934"
+        ]
+      },
+      "originalCitationText": "Watson, J. E. M.\n, \nShanahan, D. F.\n, \nDi Marco, M.\n, \nAllan, J.\n, \nLaurance, W. F.\n, \nSanderson, E. W.\n, … \nVenter, O.\n (2016). Catastrophic declines in wilderness areas undermine global environment targets. Current Biology, 26, 2929–2934. https://doi.org/10.1016/j.cub.2016.08.049\n2761826710.1016/j.cub.2016.08.049",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "27618267"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.cub.2016.08.049"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1016/j.cub.2016.08.049"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5743656/article.xml",
+        "articleSha256": "65d532677116bd72460dd6308cd695743edddae2e8dcb12c1849e7f89ee8d49f",
+        "referenceId": "ece33704-bib-0027",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Ecology and Evolution"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "Ecol Evol"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "Ecol Evol"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "1740"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "ece"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101566408"
+      },
+      {
+        "journal-id-type": "publisher-id",
+        "value": "ECE3"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "2045-7758"
+      }
+    ],
+    "publisherNames": [
+      "Wiley"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "7"
+    ],
+    "issue": [
+      "24"
+    ],
+    "fpage": [
+      "11292"
+    ],
+    "lpage": [
+      "11303"
+    ]
+  }
+}

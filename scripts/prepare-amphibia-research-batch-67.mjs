@@ -1,0 +1,16 @@
+import { prepareAmphibianResearchInput } from './prepare-amphibia-research-input.mjs'
+const citation = { pmc: 'PMC10083232', year: 2023, license: 'CC BY-NC 4.0', licenseUrl: 'https://creativecommons.org/licenses/by-nc/4.0/', readScope: 'Species Holotype, Specimens examined and Distribution paragraphs only; no figures, supplement or diagnostic prose reproduced' }
+prepareAmphibianResearchInput([
+  { colId: '67XQH', name: 'Atympanophrys gigantica', ...citation, sections: [
+    ['distribution', 'Yunnan vouchers with an elevation-summary discrepancy', '云南凭证及海拔综合的不一致', 'The 2023 monograph listed examined males from Xinmin, Jingdong, at about 2150 m and Shimenxia, Xinping, at about 2030 m. Its distribution summary cited Jingdong, Xinping and Yongde in Yunnan plus northernmost Vietnam, with 2100–2400 m elevations. The 2030 m voucher lies below that printed summary, so both source statements are retained rather than combining them into a corrected range. The broader geographic synthesis is not a new verification of every locality.', '2023 年专著列出检查的雄性来自云南景东新民约 2150 米及新平石门峡约 2030 米。其分布综合引用云南景东、新平、永德及越南最北部，并给出海拔 2100—2400 米。2030 米凭证低于印出的综合，因此分别保留两种来源陈述，不合并为更正后的范围。更广泛地理综合并非对每个地点重新核实。']
+  ] },
+  { colId: 'JNTV', name: 'Atympanophrys nankiangensis', ...citation, sections: [
+    ['distribution', 'Daba Mountain localities in the cited synthesis', '引用综合中的大巴山地点', 'The monograph cited multiple Daba Mountain localities near the Sichuan–Shaanxi–Gansu borders at 1600–1850 m, drawing on Fei and Ye’s 2016 account. It listed the female holotype from Guangwu Mountain, Nanjiang, Sichuan, at 1750 m. These are the treatment’s cited distribution and type-locality information, not a new range-wide survey or physiological elevation limits.', '专著依据 Fei、Ye 2016 年记述，引用四川—陕西—甘肃交界附近大巴山多个海拔 1600—1850 米地点，并列出雌性正模来自四川南江光雾山海拔 1750 米。这些是分类处理引用的分布及模式地点信息，不是新的全分布区调查或生理海拔极限。']
+  ] },
+  { colId: 'JNTX', name: 'Atympanophrys shapingensis', ...citation, sections: [
+    ['distribution', 'Examined Sichuan specimens and a narrower printed elevation summary', '检查的四川标本及较窄的印刷海拔综合', 'Examined specimens included a male from Wawu Mountain at about 1560 m and a male and female from Qiliba, Zhaojue, at about 3100 m. The separate cited distribution summary described the eastern Hengduan margin in central Sichuan at 2000–3200 m. The 1560 m specimen does not fit that summary; its locality and elevation remain explicit rather than silently changing either source statement. Neither statement defines physiological tolerances.', '检查标本包括瓦屋山约 1560 米的一只雄性，以及昭觉七里坝约 3100 米的一只雄性和一只雌性。单独引用的分布综合描述四川中部横断山东缘海拔 2000—3200 米。1560 米标本不符合该综合；其地点及海拔明确保留，不静默更改任一来源陈述。两种陈述均不定义生理耐受。']
+  ] },
+  { colId: 'JNTY', name: 'Atympanophrys wawuensis', ...citation, sections: [
+    ['distribution', 'Wawu Mountain type-locality records', '瓦屋山模式地点记录', 'The 2023 monograph listed a male holotype and an examined female from Wawu Mountain, Sichuan. Its distribution summary, attributed to earlier work, described the species as known only from that type locality above 1800 m. This is the monograph’s evidence scope, without demonstrating absence elsewhere, a complete present range or a physiological lower-elevation threshold.', '2023 年专著列出雄性正模及检查的一份雌性均来自四川瓦屋山。其依据更早研究的分布综合描述本种仅从该模式地点海拔 1800 米以上已知。这是专著的证据范围，不能证明其他地点不存在、完整当代分布或生理低海拔阈值。']
+  ] }
+])

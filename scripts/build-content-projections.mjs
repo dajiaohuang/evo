@@ -1,7 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, renameSync, statSync, writeFileSync } from 'node:fs'
 import { dirname, join, relative, resolve as resolvePath } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { brotliCompressSync, brotliDecompressSync, constants } from 'node:zlib'
+import { brotliCompressSync, brotliDecompressSync, constants, gzipSync, gunzipSync } from 'node:zlib'
 import { attachContentReferences } from './content-references.mjs'
 import { createContentLinkMaps, restoreRuntimeContentLinks } from './content-path-links.mjs'
 import { CONTENT_PROJECTION_MAP, digest, jsonText, readNodeContent, readYaml, semanticJson, writeUtf8 } from './tree-path-content.mjs'
@@ -56,7 +56,9 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
   const started = Date.now()
   const contentFiles = filesBelow(join(root, 'content'), root).sort()
   const sourceFingerprint = fileFingerprint([...contentFiles, 'data/references.json', 'scripts/tree-path-content.mjs', 'scripts/content-references.mjs', 'scripts/content-path-links.mjs', 'scripts/build-content-projections.mjs'], root)
-  const cachePath = join(root, '.git/content-migration/projection-cache.json')
+  const gitEntry = join(root, '.git')
+  const gitDirectory = existsSync(gitEntry) ? statSync(gitEntry).isDirectory() ? gitEntry : resolvePath(root, readFileSync(gitEntry, 'utf8').replace(/^gitdir:\s*/, '').trim()) : null
+  const cachePath = join(gitDirectory ?? gitEntry, 'content-migration/projection-cache.json')
   let previousCache = null
   if (existsSync(cachePath)) previousCache = readJson(cachePath)
   if (!force && previousCache?.sourceFingerprint === sourceFingerprint && previousCache.outputFingerprint === fileFingerprint(previousCache.outputPaths, root)) {
@@ -125,6 +127,15 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
         if ('recordCount' in manifest) manifest.recordCount = record.recordCount
         changedOutputs += Number(writeUtf8(localManifestPath, jsonText(manifest)))
       }
+    } else if (descriptor.encoding === 'gzip-json') {
+      const decoded = Buffer.from(JSON.stringify(value) + '\n', 'utf8')
+      if (!existsSync(absolute) || !gunzipSync(readFileSync(absolute)).equals(decoded)) {
+        mkdirSync(dirname(absolute), { recursive: true })
+        const temporary = `${absolute}.content-tmp`
+        writeFileSync(temporary, gzipSync(decoded, { level: 9 }))
+        renameSync(temporary, absolute)
+        changedOutputs++
+      }
     } else if (descriptor.encoding === 'json') changedOutputs += Number(writeUtf8(absolute, jsonText(value)))
     else throw new Error(`Unsupported projection encoding: ${descriptor.encoding}`)
     const directories = [...contentPointers(descriptor.template)].sort()
@@ -151,7 +162,7 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
   const summary = { contentDirectories: cache.size, contentFiles: contentFiles.length, projectionFiles: Object.keys(map.generatedInputs).length, changedOutputs, durationSeconds: Number(((Date.now() - started) / 1000).toFixed(2)) }
   writeUtf8(join(root, 'data/registry/content-build-summary.json'), jsonText({ schemaVersion: 1, ...summary, durationSeconds: undefined }))
   const outputPaths = [...projectionIndex.generatedFiles, 'data/registry/content-projection-files.json', 'data/registry/content-source-manifest.json', 'data/registry/content-build-summary.json', ...sourceManifest.shards.map(shard => shard.path)].sort()
-  if (existsSync(join(root, '.git')) && statSync(join(root, '.git')).isDirectory()) writeUtf8(cachePath, jsonText({ schemaVersion: 1, sourceFingerprint, outputPaths, outputFingerprint: fileFingerprint(outputPaths, root) }))
+  if (gitDirectory && existsSync(gitDirectory) && statSync(gitDirectory).isDirectory()) writeUtf8(cachePath, jsonText({ schemaVersion: 1, sourceFingerprint, outputPaths, outputFingerprint: fileFingerprint(outputPaths, root) }))
   completedRoot = root
   if (!quiet) console.log(`Built ${summary.projectionFiles} content projections from ${summary.contentDirectories} Markdown directories (${summary.durationSeconds}s).`)
   return summary
@@ -161,7 +172,7 @@ export function canonicalContentInputs(paths, root = process.cwd()) {
   const path = join(root, 'data/registry/content-projection-files.json')
   if (!existsSync(path)) return paths
   const manifest = readJson(path)
-  return [...new Set(paths.flatMap(input => manifest.inputs[input]?.directories.flatMap(directory => ['index.yaml', 'evidence.md', 'page.zh.md', 'page.en.md'].map(name => `${directory}/${name}`)) ?? [input]))].sort()
+  return [...new Set(paths.flatMap(input => (manifest.inputs[input] ?? manifest.inputs[`${input}.gz`])?.directories.flatMap(directory => ['index.yaml', 'evidence.md', 'page.zh.md', 'page.en.md'].map(name => `${directory}/${name}`)) ?? [input]))].sort()
 }
 
 const entryPath = process.argv[1] ? resolvePath(process.argv[1]) : ''

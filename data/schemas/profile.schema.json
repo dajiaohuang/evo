@@ -3,72 +3,265 @@
   "$id": "https://dajiaohuang.github.io/evo/schemas/profile.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "treeNodeId", "pbdbTaxonId", "scientificName", "commonName", "commonNameZh", "rank", "parentName", "extinct", "firstAppearance", "lastAppearance", "rangeEvidenceLevel", "rangeReviewStatus", "rangeProvisional", "geography", "overview", "ecology", "traits", "evidenceSummary", "confidence", "referenceIds"],
+  "required": [
+    "id",
+    "treeNodeId",
+    "pbdbTaxonId",
+    "scientificName",
+    "commonName",
+    "commonNameZh",
+    "rank",
+    "parentName",
+    "extinct",
+    "firstAppearance",
+    "lastAppearance",
+    "rangeEvidenceLevel",
+    "rangeReviewStatus",
+    "rangeProvisional",
+    "geography",
+    "overview",
+    "ecology",
+    "traits",
+    "evidenceSummary",
+    "confidence",
+    "referenceIds"
+  ],
   "properties": {
-    "id": { "type": "string", "minLength": 1 },
-    "treeNodeId": { "type": "string", "minLength": 1 },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "treeNodeId": {
+      "type": "string",
+      "minLength": 1
+    },
     "pbdbTaxonId": {
       "oneOf": [
-        { "type": "string", "pattern": "^txn:[0-9]+$" },
-        { "type": "null" }
+        {
+          "type": "string",
+          "pattern": "^txn:[0-9]+$"
+        },
+        {
+          "type": "null"
+        }
       ]
     },
-    "scientificName": { "type": "string", "minLength": 1 },
-    "commonName": { "type": "string", "minLength": 1 },
-    "commonNameZh": { "type": "string", "minLength": 1 },
-    "rank": { "type": "string", "minLength": 1 },
-    "parentName": { "type": "string", "minLength": 1 },
-    "extinct": { "type": "boolean" },
-    "firstAppearance": { "type": "number", "minimum": 0, "maximum": 4567 },
-    "lastAppearance": { "type": "number", "minimum": 0, "maximum": 4567 },
-    "rangeEvidenceLevel": { "enum": ["legacy-display", "database-derived", "literature-synthesized", "withheld-no-range-evidence", "expert-reviewed"] },
-    "rangeReviewStatus": { "enum": ["not-reviewed", "automated-audit-passed", "expert-reviewed"] },
-    "rangeProvisional": { "type": "boolean" },
-    "geography": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+    "scientificName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "commonName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "commonNameZh": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rank": {
+      "type": "string",
+      "minLength": 1
+    },
+    "parentName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "extinct": {
+      "type": "boolean"
+    },
+    "firstAppearance": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 4567
+    },
+    "lastAppearance": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 4567
+    },
+    "rangeEvidenceLevel": {
+      "enum": [
+        "legacy-display",
+        "database-derived",
+        "literature-synthesized",
+        "withheld-no-range-evidence",
+        "expert-reviewed"
+      ]
+    },
+    "rangeReviewStatus": {
+      "enum": [
+        "not-reviewed",
+        "automated-audit-passed",
+        "expert-reviewed"
+      ]
+    },
+    "rangeProvisional": {
+      "type": "boolean"
+    },
+    "geography": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
     "regionalRanges": {
       "type": "array",
       "minItems": 1,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["label", "region", "rangeKind", "olderMa", "youngerMa", "basis", "confidence", "evidenceLevel", "provisional", "referenceIds"],
+        "required": [
+          "label",
+          "region",
+          "rangeKind",
+          "olderMa",
+          "youngerMa",
+          "basis",
+          "confidence",
+          "evidenceLevel",
+          "provisional",
+          "referenceIds"
+        ],
         "properties": {
-          "label": { "type": "string", "minLength": 1 },
-          "region": { "type": "string", "minLength": 1 },
-          "rangeKind": { "enum": ["taxon-range", "dispersal-window", "regional-last-appearance-window"] },
-          "olderMa": { "type": "number", "minimum": 0, "maximum": 4567 },
-          "youngerMa": { "type": "number", "minimum": 0, "maximum": 4567 },
-          "basis": { "type": "string", "minLength": 20 },
-          "confidence": { "enum": ["high", "medium", "low", "contested"] },
-          "evidenceLevel": { "enum": ["legacy-display", "database-derived", "literature-synthesized", "withheld-no-range-evidence", "expert-reviewed"] },
-          "provisional": { "type": "boolean" },
-          "referenceIds": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "region": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rangeKind": {
+            "enum": [
+              "taxon-range",
+              "dispersal-window",
+              "regional-last-appearance-window"
+            ]
+          },
+          "olderMa": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 4567
+          },
+          "youngerMa": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 4567
+          },
+          "basis": {
+            "type": "string",
+            "minLength": 20
+          },
+          "confidence": {
+            "enum": [
+              "high",
+              "medium",
+              "low",
+              "contested"
+            ]
+          },
+          "evidenceLevel": {
+            "enum": [
+              "legacy-display",
+              "database-derived",
+              "literature-synthesized",
+              "withheld-no-range-evidence",
+              "expert-reviewed"
+            ]
+          },
+          "provisional": {
+            "type": "boolean"
+          },
+          "referenceIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
         }
       }
     },
-    "overview": { "type": "string", "minLength": 20 },
+    "overview": {
+      "type": "string",
+      "minLength": 20
+    },
     "ecology": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["diet", "habitat", "locomotion", "bodySize", "guild"],
+      "required": [
+        "diet",
+        "habitat",
+        "locomotion",
+        "bodySize",
+        "guild"
+      ],
       "properties": {
-        "diet": { "type": "string", "minLength": 1 },
-        "habitat": { "type": "string", "minLength": 1 },
-        "locomotion": { "type": "string", "minLength": 1 },
-        "bodySize": { "type": "string", "minLength": 1 },
-        "guild": { "type": "string", "minLength": 1 }
+        "diet": {
+          "type": "string",
+          "minLength": 1
+        },
+        "habitat": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locomotion": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bodySize": {
+          "type": "string",
+          "minLength": 1
+        },
+        "guild": {
+          "type": "string",
+          "minLength": 1
+        }
       }
     },
-    "traits": { "type": "array", "minItems": 0, "items": { "type": "string", "minLength": 1 } },
-    "traitsAssessmentStatus": { "enum": ["assessed", "not-assessed"] },
-    "evidenceSummary": { "type": "string", "minLength": 20 },
+    "traits": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "traitsAssessmentStatus": {
+      "enum": [
+        "assessed",
+        "not-assessed"
+      ]
+    },
+    "evidenceSummary": {
+      "type": "string",
+      "minLength": 20
+    },
     "readerLanguageStatus": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["en", "zh"],
+      "required": [
+        "en",
+        "zh"
+      ],
       "properties": {
-        "en": { "enum": ["draft-ready", "translation-needed", "not-started"] },
-        "zh": { "enum": ["draft-ready", "translation-needed", "not-started"] }
+        "en": {
+          "enum": [
+            "draft-ready",
+            "translation-needed",
+            "not-started"
+          ]
+        },
+        "zh": {
+          "enum": [
+            "draft-ready",
+            "translation-needed",
+            "not-started"
+          ]
+        }
       }
     },
     "readerSections": {
@@ -76,12 +269,31 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "title", "text", "sourceIds"],
+        "required": [
+          "id",
+          "title",
+          "text",
+          "sourceIds"
+        ],
         "properties": {
-          "id": { "type": "string", "minLength": 1 },
-          "title": { "$ref": "#/$defs/bilingualText" },
-          "text": { "$ref": "#/$defs/bilingualText" },
-          "sourceIds": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "$ref": "#/$defs/bilingualText"
+          },
+          "text": {
+            "$ref": "#/$defs/bilingualText"
+          },
+          "sourceIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
         }
       }
     },
@@ -90,12 +302,27 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "title", "url", "scope"],
+        "required": [
+          "id",
+          "title",
+          "url",
+          "scope"
+        ],
         "properties": {
-          "id": { "type": "string", "minLength": 1 },
-          "title": { "$ref": "#/$defs/bilingualText" },
-          "url": { "type": "string", "minLength": 1 },
-          "scope": { "$ref": "#/$defs/bilingualText" }
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "$ref": "#/$defs/bilingualText"
+          },
+          "url": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scope": {
+            "$ref": "#/$defs/bilingualText"
+          }
         }
       }
     },
@@ -104,37 +331,131 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["targetId", "label", "context"],
+        "required": [
+          "targetId",
+          "label",
+          "context"
+        ],
         "properties": {
-          "targetId": { "type": "string", "minLength": 1 },
-          "label": { "$ref": "#/$defs/bilingualText" },
-          "context": { "$ref": "#/$defs/bilingualText" }
+          "targetId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "$ref": "#/$defs/bilingualText"
+          },
+          "context": {
+            "$ref": "#/$defs/bilingualText"
+          }
         }
       }
     },
-    "readerLimitations": { "$ref": "#/$defs/bilingualText" },
-    "confidence": { "enum": ["high", "medium", "low", "contested"] },
-    "referenceIds": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+    "readerLimitations": {
+      "$ref": "#/$defs/bilingualText"
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "contested"
+      ]
+    },
+    "referenceIds": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
   },
   "$defs": {
     "bilingualText": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["en", "zh"],
+      "required": [
+        "en",
+        "zh"
+      ],
       "properties": {
-        "en": { "type": "string", "minLength": 1 },
-        "zh": { "type": "string", "minLength": 1 }
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "zh": {
+          "type": "string",
+          "minLength": 1
+        }
       }
     }
   },
   "allOf": [
     {
-      "if": { "properties": { "traits": { "type": "array", "maxItems": 0 } }, "required": ["traits"] },
-      "then": { "required": ["traitsAssessmentStatus"], "properties": { "traitsAssessmentStatus": { "const": "not-assessed" } } }
+      "if": {
+        "properties": {
+          "traits": {
+            "type": "array",
+            "maxItems": 0
+          }
+        },
+        "required": [
+          "traits"
+        ]
+      },
+      "then": {
+        "required": [
+          "traitsAssessmentStatus"
+        ],
+        "properties": {
+          "traitsAssessmentStatus": {
+            "const": "not-assessed"
+          }
+        }
+      }
     },
     {
-      "if": { "properties": { "traitsAssessmentStatus": { "const": "not-assessed" } }, "required": ["traitsAssessmentStatus"] },
-      "then": { "properties": { "traits": { "type": "array", "maxItems": 0 } } }
+      "if": {
+        "properties": {
+          "traitsAssessmentStatus": {
+            "const": "not-assessed"
+          }
+        },
+        "required": [
+          "traitsAssessmentStatus"
+        ]
+      },
+      "then": {
+        "properties": {
+          "traits": {
+            "type": "array",
+            "maxItems": 0
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "geography": {
+            "maxItems": 0,
+            "type": "array"
+          }
+        },
+        "required": [
+          "geography"
+        ]
+      },
+      "then": {
+        "properties": {
+          "pbdbTaxonId": {
+            "type": "null"
+          },
+          "rangeProvisional": {
+            "const": true
+          }
+        }
+      }
     }
   ]
 }

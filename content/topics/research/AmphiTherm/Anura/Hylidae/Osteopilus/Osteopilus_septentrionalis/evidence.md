@@ -1,0 +1,1108 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  amphitherm-source-reader:
+    scientificName: Osteopilus septentrionalis
+    name:
+      en: Osteopilus septentrionalis
+      zh: Osteopilus septentrionalis
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/0/text/zh
+      - topic: ecology
+        title:
+          en: Selected hot lethal-limit assay estimate
+          zh: 选列的高温致死限实验估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "792"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/1/text/zh
+        sourceRowNumber: 700
+      - topic: ecology
+        title:
+          en: Selected thermal preference estimate
+          zh: 选列的温度偏好估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "1130"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/2/text/zh
+        sourceRowNumber: 999
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "2700"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/3/text/zh
+        sourceRowNumber: 2473
+      - topic: ecology
+        title:
+          en: Selected critical lower thermal limit estimate
+          zh: 选列的临界低温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "2705"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/4/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/4/text/zh
+        sourceRowNumber: 2478
+    sources:
+      referenceBindings:
+        - referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+          metadataVariant: 0
+          sourceKey: amphitherm
+          usage:
+            locator: Cleaned_and_curated_data_Amphitherm.csv, rows 700, 701, 702, 703, 704, 999, 2473, 2478, 3862; Metadata_AmphiTherm.xlsx
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - year
+            - doi
+            - url
+            - datasetUrl
+            - version
+            - associatedArchivedReleaseDoi
+            - accessedAt
+            - license
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      order: Anura
+      family: Hylidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 700
+        values:
+          - "792"
+          - Patrice Pottier
+          - Brown_1969
+          - The Heat Resistance of Some Anuran Tadpoles (Hylidae and Pelobatidae)
+          - "1969"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1441703
+          - English
+          - Osteopilus_septentrionalis_pop5
+          - Osteopilus_septentrionalis_pop5_UTL_co1
+          - NA
+          - Anura
+          - Hylidae
+          - Osteopilus septentrionalis
+          - NA
+          - LC
+          - lab
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "20.5"
+          - "2.5"
+          - larvae
+          - NA
+          - "17"
+          - "0.2"
+          - "16"
+          - incubation temp varied between 18 and 23C so it was taken as 20.5 +/- 2.5
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - LT50_hot
+          - death
+          - water
+          - NA
+          - NA
+          - "8.333333333"
+          - "4"
+          - "1"
+          - "8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/0/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "37.80701754"
+          - NA
+          - "4"
+          - NA
+          - n_trait was taken as the n_test_temp
+      - rowNumber: 701
+        values:
+          - "793"
+          - Patrice Pottier
+          - Brown_1969
+          - The Heat Resistance of Some Anuran Tadpoles (Hylidae and Pelobatidae)
+          - "1969"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1441703
+          - English
+          - Osteopilus_septentrionalis_pop5
+          - Osteopilus_septentrionalis_pop5_UTL_co2
+          - NA
+          - Anura
+          - Hylidae
+          - Osteopilus septentrionalis
+          - NA
+          - LC
+          - lab
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "20.5"
+          - "2.5"
+          - larvae
+          - NA
+          - "20"
+          - "0.2"
+          - "14"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - LT50_hot
+          - death
+          - water
+          - NA
+          - NA
+          - "8.333333333"
+          - "5"
+          - "1"
+          - "8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/1/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "39.48947368"
+          - NA
+          - "5"
+          - NA
+          - n_trait was taken as the n_test_temp
+      - rowNumber: 702
+        values:
+          - "794"
+          - Patrice Pottier
+          - Brown_1969
+          - The Heat Resistance of Some Anuran Tadpoles (Hylidae and Pelobatidae)
+          - "1969"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1441703
+          - English
+          - Osteopilus_septentrionalis_pop5
+          - Osteopilus_septentrionalis_pop5_UTL_co3
+          - NA
+          - Anura
+          - Hylidae
+          - Osteopilus septentrionalis
+          - NA
+          - LC
+          - lab
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "20.5"
+          - "2.5"
+          - larvae
+          - NA
+          - "25"
+          - "0.2"
+          - "7"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - LT50_hot
+          - death
+          - water
+          - NA
+          - NA
+          - "8.333333333"
+          - "4"
+          - "1"
+          - "8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/2/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "40.09122807"
+          - NA
+          - "4"
+          - NA
+          - n_trait was taken as the n_test_temp
+      - rowNumber: 703
+        values:
+          - "795"
+          - Patrice Pottier
+          - Brown_1969
+          - The Heat Resistance of Some Anuran Tadpoles (Hylidae and Pelobatidae)
+          - "1969"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1441703
+          - English
+          - Osteopilus_septentrionalis_pop5
+          - Osteopilus_septentrionalis_pop5_UTL_co4
+          - NA
+          - Anura
+          - Hylidae
+          - Osteopilus septentrionalis
+          - NA
+          - LC
+          - lab
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "20.5"
+          - "2.5"
+          - larvae
+          - NA
+          - "32"
+          - "0.2"
+          - "7"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - LT50_hot
+          - death
+          - water
+          - NA
+          - NA
+          - "8.333333333"
+          - "6"
+          - "1"
+          - "8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/3/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "41.19649123"
+          - NA
+          - "6"
+          - NA
+          - n_trait was taken as the n_test_temp
+      - rowNumber: 704
+        values:
+          - "796"
+          - Patrice Pottier
+          - Brown_1969
+          - The Heat Resistance of Some Anuran Tadpoles (Hylidae and Pelobatidae)
+          - "1969"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1441703
+          - English
+          - Osteopilus_septentrionalis_pop5
+          - Osteopilus_septentrionalis_pop5_UTL_co5
+          - NA
+          - Anura
+          - Hylidae
+          - Osteopilus septentrionalis
+          - NA
+          - LC
+          - lab
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "20.5"
+          - "2.5"
+          - larvae
+          - NA
+          - "35"
+          - "0.2"
+          - "5"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - LT50_hot
+          - death
+          - water
+          - NA
+          - NA
+          - "8.333333333"
+          - "3"
+          - "1"
+          - "8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/4/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "41.50350877"
+          - NA
+          - "3"
+          - NA
+          - n_trait was taken as the n_test_temp
+      - rowNumber: 999
+        values:
+          - "1130"
+          - Natalie_Claunch
+          - Cohen_et_al_2017
+          - The thermal mismatch hypothesis explains host susceptibility to an emerging infectious disease
+          - "2017"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1111/ele.12720
+          - English
+          - Osteopilus_septentrionalis_pop3
+          - Osteopilus_septentrionalis_pop3_PBT_co1
+          - NA
+          - Anura
+          - Hylidae
+          - Osteopilus septentrionalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "27.97331811"
+          - "-82.42380007"
+          - "15"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - No sampling dates provided. Coordinates were estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "21"
+          - NA
+          - "60"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "96"
+          - "0.33"
+          - linear
+          - "9.29"
+          - "33.94"
+          - NA
+          - "85"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "22.98"
+          - "0.53"
+          - "25"
+          - se
+          - NA
+      - rowNumber: 2473
+        values:
+          - "2700"
+          - Patrice Pottier
+          - John-Alder_et_al_1988
+          - Thermal Physiology, Phenology, and Distribution of Tree Frogs
+          - "1988"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1086/284868
+          - English
+          - Osteopilus_septentrionalis_pop1
+          - Osteopilus_septentrionalis_pop1_UTL_co1
+          - NA
+          - Anura
+          - Hylidae
+          - Osteopilus septentrionalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "25.76168"
+          - "-80.19179"
+          - "11"
+          - NA
+          - November
+          - "1986"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "21.5"
+          - "1.5"
+          - "7"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/6/values/42
+          - adults
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 4
+          - NA
+          - NA
+          - "39"
+          - "0.29"
+          - "3"
+          - sd
+          - NA
+      - rowNumber: 2478
+        values:
+          - "2705"
+          - Natalie_Claunch
+          - John-Alder_et_al_1988
+          - Thermal Physiology, Phenology, and Distribution of Tree Frogs
+          - "1988"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1086/284868
+          - English
+          - Osteopilus_septentrionalis_pop2
+          - Osteopilus_septentrionalis_pop2_LTL_co1
+          - NA
+          - Anura
+          - Hylidae
+          - Osteopilus septentrionalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "26.53942137"
+          - "-80.98971871"
+          - "9"
+          - NA
+          - November
+          - "1986"
+          - NA
+          - NA
+          - Animals were wild-caught but purchased from a dealer. Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "21.5"
+          - "1.5"
+          - "9.33"
+          - Acclimation temperature between 20 and 23 C. Acclimation time was between 1 and 3 weeks.
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "6.4"
+          - "0.35"
+          - "3"
+          - sd
+          - NA
+      - rowNumber: 3862
+        values:
+          - "4269"
+          - Nayelli_Rivera
+          - Sauer_et_al_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/8/values/3
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1098/rspb.2018.1111
+          - English
+          - Osteopilus_septentrionalis_pop4
+          - Osteopilus_septentrionalis_pop4_PBT_co1
+          - NA
+          - Anura
+          - Hylidae
+          - Osteopilus septentrionalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "27.98976205"
+          - "-82.30979422"
+          - "11"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24"
+          - "1"
+          - "14"
+          - The acclimation temperature was 23-25C so it was taken as 24 with 1C fluctuation.
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - linear
+          - "9"
+          - "34"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "22.5"
+          - "0.7"
+          - "12"
+          - se
+          - NA
+    originalStudyCitations:
+      - ref: Brown_1969
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/0/title
+          format: heading
+        doi: 10.2307/1441703
+        year: "1969"
+      - ref: Cohen_et_al_2017
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/1/title
+          format: heading
+        doi: 10.1111/ele.12720
+        year: "2017"
+      - ref: John-Alder_et_al_1988
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/2/title
+          format: heading
+        doi: 10.1086/284868
+        year: "1988"
+      - ref: Sauer_et_al_2018
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/3/title
+        doi: http://dx.doi.org/10.1098/rspb.2018.1111
+        year: "2018"
+    selectedEstimateRowNumbers:
+      - 700
+      - 999
+      - 2473
+      - 2478
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6TBCV
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/zh
+---
+
+# Osteopilus septentrionalis — AmphiTherm source
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en -->
+Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh -->
+固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/0/values/63 -->
+n_test_temp was determined based on the number of points in figure 1. The n_replicates_per_temp was taken to be 1 as a conservative measure
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/1/values/63 -->
+n_test_temp was determined based on the number of points in figure 1. The n_replicates_per_temp was taken to be 1 as a conservative measure
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/2/values/63 -->
+n_test_temp was determined based on the number of points in figure 1. The n_replicates_per_temp was taken to be 1 as a conservative measure
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/3/values/63 -->
+n_test_temp was determined based on the number of points in figure 1. The n_replicates_per_temp was taken to be 1 as a conservative measure
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/4/values/63 -->
+n_test_temp was determined based on the number of points in figure 1. The n_replicates_per_temp was taken to be 1 as a conservative measure
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/6/values/42 -->
+Acclimation temperature was 20-23C so it was taken as 21.5 +/- 1.5. Animals were acclimated for 1-3 weeks so it was taken as 1 week.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/8/values/3 -->
+Variation in individual temperature
+preferences, not behavioural fever,
+affects susceptibility to chytridiomycosis
+in amphibians
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/en -->
+Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete; not externally expert-reviewed.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/zh -->
+部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成；未经过外部领域专家评审。
+<!-- /evo:text -->

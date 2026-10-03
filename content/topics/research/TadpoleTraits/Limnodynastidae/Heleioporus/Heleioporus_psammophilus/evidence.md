@@ -1,0 +1,696 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  tadpole-traits-reader:
+    scientificName: Heleioporus psammophilus
+    name:
+      en: Heleioporus psammophilus
+      zh: Heleioporus psammophilus
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/1/text/zh
+      - topic: morphology
+        title:
+          en: Selected image-derived proportions
+          zh: 选列的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/2/text/zh
+      - topic: overview
+        title:
+          en: Unresolved source ratios
+          zh: 未解决的来源比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/3/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+          metadataVariant: 0
+          sourceKey: tadpoletraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      family: Limnodynastidae
+      genus: Heleioporus
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 500
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Ratio
+          - Color image
+          - Heleioporus psammophilus
+          - Limnodynastidae
+          - Heleioporus
+          - Heleioporus psammophilus
+          - 37
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.388040960149512
+          - 0.605885101329647
+          - 0.176903459419472
+          - 0.154797827398914
+          - 0.0737633110752039
+          - 0.0590359569373333
+          - 0.0575077384312886
+          - null
+          - null
+          - null
+          - Rui Tian
+      - rowNumber: 501
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Heleioporus psammophilus
+          - Limnodynastidae
+          - Heleioporus
+          - Heleioporus psammophilus
+          - 35
+          - 45.642
+          - 18.643
+          - 26.665
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 10.602
+          - 2.73
+          - null
+          - 0.4846154754393
+          - 0.5842267394669
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.2322865232231
+          - 0.59813329827792
+          - null
+          - Rui Tian
+      - rowNumber: 502
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Heleioporus psammophilus
+          - Limnodynastidae
+          - Heleioporus
+          - Heleioporus psammophilus
+          - 38
+          - 45.064
+          - 18.61
+          - 26.727
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 10.647
+          - 2.608
+          - null
+          - 0.412968222971773
+          - 0.593898278462
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.23626398117167
+          - 0.578732469376886
+          - null
+          - Rui Tian
+      - rowNumber: 503
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Heleioporus psammophilus
+          - Limnodynastidae
+          - Heleioporus
+          - Heleioporus psammophilus
+          - 42
+          - 33.886
+          - 13.769
+          - 19.708
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 5.714
+          - 1.964
+          - null
+          - 0.46332998878593
+          - 0.581597119754471
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.16862421588444
+          - 0.5795939131246
+          - null
+          - Rui Tian
+      - rowNumber: 504
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Heleioporus psammophilus
+          - Limnodynastidae
+          - Heleioporus
+          - Heleioporus psammophilus
+          - 40
+          - 53.56
+          - 20.791
+          - 32.737
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 12.029
+          - 3.576
+          - null
+          - 0.388181478715459
+          - 0.611221649295
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.22458924575751
+          - 0.667662434652726
+          - null
+          - Rui Tian
+      - rowNumber: 505
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Heleioporus psammophilus
+          - Limnodynastidae
+          - Heleioporus
+          - Heleioporus psammophilus
+          - 35
+          - 45.319
+          - 19.097
+          - 26.084
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 10.151
+          - 3.044
+          - null
+          - 0.42139586729628
+          - 0.5755643328453
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.22398993799511
+          - 0.671682958582493
+          - null
+          - Rui Tian
+      - rowNumber: 506
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Heleioporus psammophilus
+          - Limnodynastidae
+          - Heleioporus
+          - Heleioporus psammophilus
+          - 34
+          - 38.791
+          - 16.285
+          - 22.503
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 8.4
+          - 2.506
+          - 2.857
+          - 0.419813874352298
+          - 0.581878812956
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.2165457488855
+          - 0.6462614844
+          - 0.73651146376737
+          - Rui Tian
+      - rowNumber: 507
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Hand-drawn picture
+          - Heleioporus psammophilus
+          - Limnodynastidae
+          - Heleioporus
+          - Heleioporus psammophilus
+          - 36
+          - 51.405
+          - 22.019
+          - 29.211
+          - 11.416
+          - 10.526
+          - 3.776
+          - 4.036
+          - 2.984
+          - null
+          - null
+          - 3.529
+          - 0.428343546347631
+          - 0.568252115552962
+          - 0.22279564244723
+          - 0.2476673339169
+          - 0.7345588954912
+          - 0.78513763252619
+          - 0.5848827935258
+          - null
+          - null
+          - 0.686599444666
+          - Rui Tian
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 501
+        scientificName: Heleioporus psammophilus
+        sourceField: BL/TL
+        suppliedRatio: 0.4846154754393
+        originalNumerator: 18.643
+        originalTotalLength: 45.642
+        computedRatio: 0.40846150475439286
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 501
+        scientificName: Heleioporus psammophilus
+        sourceField: TMW/TL
+        suppliedRatio: 0.59813329827792
+        originalNumerator: 2.73
+        originalTotalLength: 45.642
+        computedRatio: 0.05981332982779019
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 502
+        scientificName: Heleioporus psammophilus
+        sourceField: TMW/TL
+        suppliedRatio: 0.578732469376886
+        originalNumerator: 2.608
+        originalTotalLength: 45.064
+        computedRatio: 0.057873246937688624
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 503
+        scientificName: Heleioporus psammophilus
+        sourceField: BL/TL
+        suppliedRatio: 0.46332998878593
+        originalNumerator: 13.769
+        originalTotalLength: 33.886
+        computedRatio: 0.4063329988785929
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 503
+        scientificName: Heleioporus psammophilus
+        sourceField: TMW/TL
+        suppliedRatio: 0.5795939131246
+        originalNumerator: 1.964
+        originalTotalLength: 33.886
+        computedRatio: 0.05795903913120462
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 504
+        scientificName: Heleioporus psammophilus
+        sourceField: TMW/TL
+        suppliedRatio: 0.667662434652726
+        originalNumerator: 3.576
+        originalTotalLength: 53.56
+        computedRatio: 0.06676624346527259
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 505
+        scientificName: Heleioporus psammophilus
+        sourceField: TMW/TL
+        suppliedRatio: 0.671682958582493
+        originalNumerator: 3.044
+        originalTotalLength: 45.319
+        computedRatio: 0.0671682958582493
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 506
+        scientificName: Heleioporus psammophilus
+        sourceField: TaL/TL
+        suppliedRatio: 0.581878812956
+        originalNumerator: 22.503
+        originalTotalLength: 38.791
+        computedRatio: 0.5801087881209559
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 506
+        scientificName: Heleioporus psammophilus
+        sourceField: TMW/TL
+        suppliedRatio: 0.6462614844
+        originalNumerator: 2.506
+        originalTotalLength: 38.791
+        computedRatio: 0.06460261400840402
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 506
+        scientificName: Heleioporus psammophilus
+        sourceField: OD/TL
+        suppliedRatio: 0.73651146376737
+        originalNumerator: 2.857
+        originalTotalLength: 38.791
+        computedRatio: 0.0736511046376737
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 507
+        scientificName: Heleioporus psammophilus
+        sourceField: MTH/TL
+        suppliedRatio: 0.2476673339169
+        originalNumerator: 10.526
+        originalTotalLength: 51.405
+        computedRatio: 0.20476607333916932
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 507
+        scientificName: Heleioporus psammophilus
+        sourceField: TMH/TL
+        suppliedRatio: 0.7345588954912
+        originalNumerator: 3.776
+        originalTotalLength: 51.405
+        computedRatio: 0.07345588950491197
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 507
+        scientificName: Heleioporus psammophilus
+        sourceField: DFH/TL
+        suppliedRatio: 0.78513763252619
+        originalNumerator: 4.036
+        originalTotalLength: 51.405
+        computedRatio: 0.07851376325260188
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 507
+        scientificName: Heleioporus psammophilus
+        sourceField: VFH/TL
+        suppliedRatio: 0.5848827935258
+        originalNumerator: 2.984
+        originalTotalLength: 51.405
+        computedRatio: 0.058048827935025776
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 507
+        scientificName: Heleioporus psammophilus
+        sourceField: OD/TL
+        suppliedRatio: 0.686599444666
+        originalNumerator: 3.529
+        originalTotalLength: 51.405
+        computedRatio: 0.06865090944460656
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.388040960149512
+        row: 500
+        stage: 37
+        type: Ratio
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.605885101329647
+        row: 500
+        stage: 37
+        type: Ratio
+        imageType: Color image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.176903459419472
+        row: 500
+        stage: 37
+        type: Ratio
+        imageType: Color image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.154797827398914
+        row: 500
+        stage: 37
+        type: Ratio
+        imageType: Color image
+      - field: TMH/TL
+        label:
+          en: tail muscle height / total length
+          zh: 尾肌高度/全长
+        value: 0.0737633110752039
+        row: 500
+        stage: 37
+        type: Ratio
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3K4FM
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/zh
+---
+
+# Heleioporus psammophilus — TadpoleTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator -->
+Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 500, 501, 502, 503, 504, 505, 506, 507; Readme rows 6–50
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/en -->
+A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete. No external expert review.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/zh -->
+本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成；没有外部专家审评。
+<!-- /evo:text -->

@@ -1,0 +1,3712 @@
+{
+  "pmcid": "PMC11786709",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+  "sha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+  "articleType": "research-article",
+  "title": "Leveraging machine learning to uncover multi-pathogen infection dynamics across co-distributed frog families",
+  "authors": [],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC11786709"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "11786709"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "11786709"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "39897487"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.7717/peerj.18901"
+    }
+  ],
+  "publicationDates": [
+    {
+      "year": "2025",
+      "month": "1",
+      "day": "29"
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "supp-1",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s001.csv",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s001.csv",
+            "mimetype": "text",
+            "mime-subtype": "plain"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "supp-2",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s002.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s002.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "supp-3",
+      "position": 2,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s003.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s003.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "supp-4",
+      "position": 3,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s004.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s004.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "supp-5",
+      "position": 4,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s005.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s005.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "supp-6",
+      "position": 5,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s006.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s006.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "supp-7",
+      "position": 6,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s007.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s007.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "supp-8",
+      "position": 7,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s008.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s008.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "supp-9",
+      "position": 8,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s009.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s009.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "supp-10",
+      "position": 9,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s010.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s010.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "supp-11",
+      "position": 10,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s011.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s011.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "supp-12",
+      "position": 11,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s012.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s012.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "supp-13",
+      "position": 12,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s013.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s013.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "supp-14",
+      "position": 13,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s014.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s014.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material1_reqid_",
+      "position": 14,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s001.csv",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s001.csv",
+            "mimetype": "text",
+            "mime-subtype": "plain"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material2_reqid_",
+      "position": 15,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s002.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s002.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material3_reqid_",
+      "position": 16,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s003.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s003.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material4_reqid_",
+      "position": 17,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s004.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s004.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material5_reqid_",
+      "position": 18,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s005.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s005.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material6_reqid_",
+      "position": 19,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s006.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s006.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material7_reqid_",
+      "position": 20,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s007.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s007.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material8_reqid_",
+      "position": 21,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s008.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s008.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material9_reqid_",
+      "position": 22,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s009.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s009.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material10_reqid_",
+      "position": 23,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s010.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s010.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material11_reqid_",
+      "position": 24,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s011.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s011.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material12_reqid_",
+      "position": 25,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s012.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s012.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material13_reqid_",
+      "position": 26,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s013.jpg",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s013.jpg",
+            "mimetype": "image",
+            "mime-subtype": "jpeg"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material14_reqid_",
+      "position": 27,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-13-18901-s014.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-13-18901-s014.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "ref-1",
+      "position": 0,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Abu Bakar A, Bower DS, Stockwell MP, Clulow S, Clulow J, Mahony MJ. Susceptibility to disease varies with ontogeny and immunocompetence in a threatened amphibian. Oecologia. 2016;181(4):997–1009. doi: 10.1007/s00442-016-3607-4.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s00442-016-3607-4",
+        "27021312",
+        "journal=Oecologia&title=Susceptibility to disease varies with ontogeny and immunocompetence in a threatened amphibian&author=A Abu Bakar&author=DS Bower&author=MP Stockwell&author=S Clulow&author=J Clulow&volume=181&issue=4&publication_year=2016&pages=997-1009&pmid=27021312&doi=10.1007/s00442-016-3607-4&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-2",
+      "position": 1,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Adams AJ, Kupferberg SJ, Wilber MQ, Pessier AP, Grefsrud M, Bobzien S, Vredenburg VT, Briggs CJ. Extreme drought, host density, sex, and bullfrogs influence fungal pathogen infection in a declining lotic amphibian. Ecosphere. 2017;8(3):e01740.  doi: 10.1002/ecs2.1740.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/ecs2.1740",
+        "journal=Ecosphere&title=Extreme drought, host density, sex, and bullfrogs influence fungal pathogen infection in a declining lotic amphibian&author=AJ Adams&author=SJ Kupferberg&author=MQ Wilber&author=AP Pessier&author=M Grefsrud&volume=8&issue=3&publication_year=2017&pages=e01740&doi=10.1002/ecs2.1740&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-2",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-3",
+      "position": 2,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Allender MC, Bunick D, Mitchell MA. Development and validation of TaqMan quantitative PCR for detection of frog virus 3-like virus in eastern box turtles (Terrapene carolina carolina) Journal of Virological Methods. 2013;188(1–2):121–125. doi: 10.1016/j.jviromet.2012.12.012.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.jviromet.2012.12.012",
+        "23274753",
+        "journal=Journal of Virological Methods&title=Development and validation of TaqMan quantitative PCR for detection of frog virus 3-like virus in eastern box turtles (Terrapene carolina carolina)&author=MC Allender&author=D Bunick&author=MA Mitchell&volume=188&issue=1–2&publication_year=2013&pages=121-125&pmid=23274753&doi=10.1016/j.jviromet.2012.12.012&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-3",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-4",
+      "position": 3,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ariel E, Nicolajsen N, Christophersen MB, Holopainen R, Tapiovaara H, Bang Jensen B. Propagation and isolation of ranaviruses in cell culture. Aquaculture. 2009;294(3–4):159–164. doi: 10.1016/j.aquaculture.2009.05.019.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.aquaculture.2009.05.019",
+        "journal=Aquaculture&title=Propagation and isolation of ranaviruses in cell culture&author=E Ariel&author=N Nicolajsen&author=MB Christophersen&author=R Holopainen&author=H Tapiovaara&volume=294&issue=3–4&publication_year=2009&pages=159-164&doi=10.1016/j.aquaculture.2009.05.019&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-4",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-5",
+      "position": 4,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Atkinson MS. The effects of the protist parasite Dermomycoides sp., on the dusky gopher frog (Rana sevosa) and the southern leopard frog (Rana sphenocephala) 2016.  PhD thesis, Western Carolina University, Cullowhee, NC, USA.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-5",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-6",
+      "position": 5,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Atkinson MS, Savage AE. Invasive amphibians alter host-pathogen interactions with primarily negative outcomes for native species. Biological Conservation. 2023a;286(3):110310. doi: 10.1016/j.biocon.2023.110310.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.biocon.2023.110310",
+        "journal=Biological Conservation&title=Invasive amphibians alter host-pathogen interactions with primarily negative outcomes for native species&author=MS Atkinson&author=AE Savage&volume=286&issue=3&publication_year=2023a&pages=110310&doi=10.1016/j.biocon.2023.110310&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-6",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-7",
+      "position": 6,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Atkinson MS, Savage AE. Widespread amphibian Perkinsea infections associated with Ranidae hosts, cooler months and Ranavirus co-infection. Journal of Animal Ecology. 2023b;92(9):1856–1868. doi: 10.1111/1365-2656.13977.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/1365-2656.13977",
+        "37409362",
+        "journal=Journal of Animal Ecology&title=Widespread amphibian Perkinsea infections associated with Ranidae hosts, cooler months and Ranavirus co-infection&author=MS Atkinson&author=AE Savage&volume=92&issue=9&publication_year=2023b&pages=1856-1868&pmid=37409362&doi=10.1111/1365-2656.13977&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-7",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-8",
+      "position": 7,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Aželytė J, Wu-Chuang A, Maitre A, Žiegytė R, Mateos-Hernández L, Obregón D, Palinauskas V, Cabezas-Cruz A. Avian malaria parasites modulate gut microbiome assembly in canaries. Microorganisms. 2023;11(3):563. doi: 10.3390/microorganisms11030563.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3390/microorganisms11030563",
+        "PMC10056159",
+        "36985137",
+        "journal=Microorganisms&title=Avian malaria parasites modulate gut microbiome assembly in canaries&author=J Aželytė&author=A Wu-Chuang&author=A Maitre&author=R Žiegytė&author=L Mateos-Hernández&volume=11&issue=3&publication_year=2023&pages=563&pmid=36985137&doi=10.3390/microorganisms11030563&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-8",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-9",
+      "position": 8,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Balseiro A, Dalton KP, Del Cerro A, Márquez I, Parra F, Prieto JM, Casais R. Outbreak of common midwife toad virus in alpine newts (Mesotriton alpestris cyreni) and common midwife toads (Alytes obstetricans) in Northern Spain: a comparative pathological study of an emerging ranavirus. The Veterinary Journal. 2010;186(2):256–258. doi: 10.1016/j.tvjl.2009.07.038.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.tvjl.2009.07.038",
+        "19703784",
+        "journal=The Veterinary Journal&title=Outbreak of common midwife toad virus in alpine newts (Mesotriton alpestris cyreni) and common midwife toads (Alytes obstetricans) in Northern Spain: a comparative pathological study of an emerging ranavirus&author=A Balseiro&author=KP Dalton&author=A Del Cerro&author=I Márquez&author=F Parra&volume=186&issue=2&publication_year=2010&pages=256-258&pmid=19703784&doi=10.1016/j.tvjl.2009.07.038&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-9",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-10",
+      "position": 9,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bancroft BA, Han BA, Searle CL, Biga LM, Olson DH, Kats LB, Lawler JJ, Blaustein AR. Species-level correlates of susceptibility to the pathogenic amphibian fungus Batrachochytrium dendrobatidis in the United States. Biodiversity and Conservation. 2011;20(9):1911–1920. doi: 10.1007/s10531-011-0066-4.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s10531-011-0066-4",
+        "journal=Biodiversity and Conservation&title=Species-level correlates of susceptibility to the pathogenic amphibian fungus Batrachochytrium dendrobatidis in the United States&author=BA Bancroft&author=BA Han&author=CL Searle&author=LM Biga&author=DH Olson&volume=20&issue=9&publication_year=2011&pages=1911-1920&doi=10.1007/s10531-011-0066-4&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-10",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-11",
+      "position": 10,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bartlett P, Ward T, Brue D, Carey A, Duffus A. Ranaviruses in North America: a brief review in wild herpetofauna. Journal of North American Herpetology. 2021;2021(2):19–26. doi: 10.17161/jnah.v2021i2.15747.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.17161/jnah.v2021i2.15747",
+        "journal=Journal of North American Herpetology&title=Ranaviruses in North America: a brief review in wild herpetofauna&author=P Bartlett&author=T Ward&author=D Brue&author=A Carey&author=A Duffus&volume=2021&issue=2&publication_year=2021&pages=19-26&doi=10.17161/jnah.v2021i2.15747&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-11",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-12",
+      "position": 11,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Becker CG, Rodriguez D, Toledo LF, Longo AV, Lambertini C, Corrêa DT, Leite DS, Haddad CFB, Zamudio KR. Partitioning the net effect of host diversity on an emerging amphibian pathogen. Proceedings of the Royal Society B: Biological Sciences. 2014;281(1795):20141796. doi: 10.1098/rspb.2014.1796.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1098/rspb.2014.1796",
+        "PMC4213625",
+        "25297867",
+        "journal=Proceedings of the Royal Society B: Biological Sciences&title=Partitioning the net effect of host diversity on an emerging amphibian pathogen&author=CG Becker&author=D Rodriguez&author=LF Toledo&author=AV Longo&author=C Lambertini&volume=281&issue=1795&publication_year=2014&pages=20141796&pmid=25297867&doi=10.1098/rspb.2014.1796&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-12",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-13",
+      "position": 12,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Belasen AM, Bletz MC, Leite DDS, Toledo LF, James TY. Long-term habitat fragmentation is associated with reduced MHC IIB diversity and increased infections in amphibian hosts. Frontiers in Ecology and Evolution. 2019;6:236. doi: 10.3389/fevo.2018.00236.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3389/fevo.2018.00236",
+        "journal=Frontiers in Ecology and Evolution&title=Long-term habitat fragmentation is associated with reduced MHC IIB diversity and increased infections in amphibian hosts&author=AM Belasen&author=MC Bletz&author=DDS Leite&author=LF Toledo&author=TY James&volume=6&publication_year=2019&pages=236&doi=10.3389/fevo.2018.00236&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-13",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-14",
+      "position": 13,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Belasen AM, Peek RA, Adams AJ, Russell ID, De León ME, Adams MJ, Bettaso J, Breedveld KGH, Catenazzi A, Dillingham CP, Grear DA, Halstead BJ, Johnson PG, Kleeman PM, Koo MS, Koppl CW, Lauder JD, Padgett-Flohr G, Piovia-Scott J, Pope KL, Vredenburg V, Westphal M, Wiseman K, Kupferberg SJ. Chytrid infections exhibit historical spread and contemporary seasonality in a declining stream-breeding frog. Royal Society Open Science. 2024;11(1):231270. doi: 10.1098/rsos.231270.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1098/rsos.231270",
+        "PMC10827429",
+        "38298390",
+        "journal=Royal Society Open Science&title=Chytrid infections exhibit historical spread and contemporary seasonality in a declining stream-breeding frog&author=AM Belasen&author=RA Peek&author=AJ Adams&author=ID Russell&author=ME De León&volume=11&issue=1&publication_year=2024&pages=231270&pmid=38298390&doi=10.1098/rsos.231270&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-14",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-15",
+      "position": 14,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bellard C, Genovesi P, Jeschke JM. Global patterns in threats to vertebrates by biological invasions. Proceedings of the Royal Society B: Biological Sciences. 2016;283(1823):20152454. doi: 10.1098/rspb.2015.2454.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1098/rspb.2015.2454",
+        "PMC4795027",
+        "26817767",
+        "journal=Proceedings of the Royal Society B: Biological Sciences&title=Global patterns in threats to vertebrates by biological invasions&author=C Bellard&author=P Genovesi&author=JM Jeschke&volume=283&issue=1823&publication_year=2016&pages=20152454&pmid=26817767&doi=10.1098/rspb.2015.2454&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-15",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-16",
+      "position": 15,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Berger L, Speare R, Daszak P, Green DE, Cunningham AA, Goggin CL, Slocombe R, Ragan MA, Hyatt AD, McDonald KR, Hines HB, Lips KR, Marantelli G, Parkes H. Chytridiomycosis causes amphibian mortality associated with population declines in the rain forests of Australia and Central America. Proceedings of the National Academy of Sciences of the United States of America. 1998;95(15):9031–9036. doi: 10.1073/pnas.95.15.9031.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1073/pnas.95.15.9031",
+        "PMC21197",
+        "9671799",
+        "journal=Proceedings of the National Academy of Sciences of the United States of America&title=Chytridiomycosis causes amphibian mortality associated with population declines in the rain forests of Australia and Central America&author=L Berger&author=R Speare&author=P Daszak&author=DE Green&author=AA Cunningham&volume=95&issue=15&publication_year=1998&pages=9031-9036&pmid=9671799&doi=10.1073/pnas.95.15.9031&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-16",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-17",
+      "position": 16,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bernardo-Cravo AP, Schmeller DS, Chatzinotas A, Vredenburg VT, Loyau A. Environmental factors and host microbiomes shape host-pathogen dynamics. Trends in Parasitology. 2020;36(7):616–633. doi: 10.1016/j.pt.2020.04.010.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.pt.2020.04.010",
+        "32402837",
+        "journal=Trends in Parasitology&title=Environmental factors and host microbiomes shape host-pathogen dynamics&author=AP Bernardo-Cravo&author=DS Schmeller&author=A Chatzinotas&author=VT Vredenburg&author=A Loyau&volume=36&issue=7&publication_year=2020&pages=616-633&pmid=32402837&doi=10.1016/j.pt.2020.04.010&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-17",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-18",
+      "position": 17,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bielby J, Price SJ, Monsalve-Carcaño C, Bosch J. Host contribution to parasite persistence is consistent between parasites and over time, but varies spatially. Ecological Applications. 2021;31(3):e02256.  doi: 10.1002/eap.2256.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/eap.2256",
+        "33164249",
+        "journal=Ecological Applications&title=Host contribution to parasite persistence is consistent between parasites and over time, but varies spatially&author=J Bielby&author=SJ Price&author=C Monsalve-Carcaño&author=J Bosch&volume=31&issue=3&publication_year=2021&pages=e02256&pmid=33164249&doi=10.1002/eap.2256&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-18",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-19",
+      "position": 18,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Boyle D, Olsen DH, Morgan J, Hyatt A. Rapid quantitative detection of chytridiomycosis (Batrachochytrium dendrobatidis) in amphibian samples using real-time Taqman PCR assay. Diseases of Aquatic Organisms. 2004;60:141–148. doi: 10.3354/dao060141.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3354/dao060141",
+        "15460858",
+        "journal=Diseases of Aquatic Organisms&title=Rapid quantitative detection of chytridiomycosis (Batrachochytrium dendrobatidis) in amphibian samples using real-time Taqman PCR assay&author=D Boyle&author=DH Olsen&author=J Morgan&author=A Hyatt&volume=60&publication_year=2004&pages=141-148&pmid=15460858&doi=10.3354/dao060141&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-19",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-20",
+      "position": 19,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bradley PW, Brawner MD, Raffel TR, Rohr JR, Olson DH, Blaustein AR. Shifts in temperature influence how Batrachochytrium dendrobatidis infects amphibian larvae. PLOS ONE. 2019;14(9):e0222237.  doi: 10.1371/journal.pone.0222237.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pone.0222237",
+        "PMC6752834",
+        "31536533",
+        "journal=PLOS ONE&title=Shifts in temperature influence how Batrachochytrium dendrobatidis infects amphibian larvae&author=PW Bradley&author=MD Brawner&author=TR Raffel&author=JR Rohr&author=DH Olson&volume=14&issue=9&publication_year=2019&pages=e0222237&pmid=31536533&doi=10.1371/journal.pone.0222237&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-20",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-21",
+      "position": 20,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Breiman L. Random forests. Machine Learning. 2001;45(1):5–32. doi: 10.1023/A:1010933404324.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1023/A:1010933404324",
+        "journal=Machine Learning&title=Random forests&author=L Breiman&volume=45&issue=1&publication_year=2001&pages=5-32&doi=10.1023/A:1010933404324&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-21",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-22",
+      "position": 21,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Brunner JL, Olson DH, Gray MJ, Miller DL, Duffus ALJ. Global patterns of ranavirus detections. FACETS. 2021;6:912–924. doi: 10.1139/facets-2020-0013.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1139/facets-2020-0013",
+        "journal=FACETS&title=Global patterns of ranavirus detections&author=JL Brunner&author=DH Olson&author=MJ Gray&author=DL Miller&author=ALJ Duffus&volume=6&publication_year=2021&pages=912-924&doi=10.1139/facets-2020-0013&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-22",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-23",
+      "position": 22,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Brunner JL, Olson AD, Rice JG, Meiners SE, Le Sage MJ, Cundiff JA, Goldberg CS, Pessier AP. Ranavirus infection dynamics and shedding in American bullfrogs: consequences for spread and detection in trade. Diseases of Aquatic Organisms. 2019;135(2):135–150. doi: 10.3354/dao03387.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3354/dao03387",
+        "31392966",
+        "journal=Diseases of Aquatic Organisms&title=Ranavirus infection dynamics and shedding in American bullfrogs: consequences for spread and detection in trade&author=JL Brunner&author=AD Olson&author=JG Rice&author=SE Meiners&author=MJ Le Sage&volume=135&issue=2&publication_year=2019&pages=135-150&pmid=31392966&doi=10.3354/dao03387&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-23",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-24",
+      "position": 23,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Carey C, Bruzgul JE, Livo LJ, Walling ML, Kuehl KA, Dixon BF, Pessier AP, Alford RA, Rogers KB. Experimental exposures of boreal toads (Bufo boreas) to a pathogenic chytrid fungus (Batrachochytrium dendrobatidis) EcoHealth. 2006;3(1):5–21. doi: 10.1007/s10393-005-0006-4.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s10393-005-0006-4",
+        "journal=EcoHealth&title=Experimental exposures of boreal toads (Bufo boreas) to a pathogenic chytrid fungus (Batrachochytrium dendrobatidis)&author=C Carey&author=JE Bruzgul&author=LJ Livo&author=ML Walling&author=KA Kuehl&volume=3&issue=1&publication_year=2006&pages=5-21&doi=10.1007/s10393-005-0006-4&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-24",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-25",
+      "position": 24,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Carvalho T, Belasen AM, Toledo LF, James TY. Coevolution of a generalist pathogen with many hosts: the case of the amphibian chytrid Batrachochytrium dendrobatidis. Current Opinion in Microbiology. 2024;78:102435. doi: 10.1016/j.mib.2024.102435.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.mib.2024.102435",
+        "38387210",
+        "journal=Current Opinion in Microbiology&title=Coevolution of a generalist pathogen with many hosts: the case of the amphibian chytrid Batrachochytrium dendrobatidis&author=T Carvalho&author=AM Belasen&author=LF Toledo&author=TY James&volume=78&publication_year=2024&pages=102435&pmid=38387210&doi=10.1016/j.mib.2024.102435&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-25",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-26",
+      "position": 25,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Chen C, Liaw A, Breiman L.  Using random forest to learn imbalanced data. Vol. 110. Berkeley: University of California; 2004. p. 24.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Using random forest to learn imbalanced data&author=C Chen&author=A Liaw&author=L Breiman&publication_year=2004&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-26",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-27",
+      "position": 26,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Cicero C, Koo MS, Braker E, Abbott J, Bloom D, Campbell M, Cook JA, Demboski JR, Doll AC, Frederick LM, Linn AJ, Mayfield-Meyer TJ, McDonald DL, Nachman MW, Olson LE, Roberts D, Sikes DS, Witt CC, Wommack EA. Arctos: community-driven innovations for managing natural and cultural history collections. PLOS ONE. 2024;19(5):e0296478.  doi: 10.1371/journal.pone.0296478.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pone.0296478",
+        "PMC11142579",
+        "38820381",
+        "journal=PLOS ONE&title=Arctos: community-driven innovations for managing natural and cultural history collections&author=C Cicero&author=MS Koo&author=E Braker&author=J Abbott&author=D Bloom&volume=19&issue=5&publication_year=2024&pages=e0296478&pmid=38820381&doi=10.1371/journal.pone.0296478&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-27",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-28",
+      "position": 27,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Colella JP, Stephens RB, Campbell ML, Kohli BA, Parsons DJ, Mclean BS. The open-specimen movement. BioScience. 2021;71(4):405–414. doi: 10.1093/biosci/biaa146.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/biosci/biaa146",
+        "journal=BioScience&title=The open-specimen movement&author=JP Colella&author=RB Stephens&author=ML Campbell&author=BA Kohli&author=DJ Parsons&volume=71&issue=4&publication_year=2021&pages=405-414&doi=10.1093/biosci/biaa146&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-28",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-29",
+      "position": 28,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Cordier JM, Aguilar R, Lescano JN, Leynaud GC, Bonino A, Miloch D, Loyola R, Nori J. A global assessment of amphibian and reptile responses to land-use changes. Biological Conservation. 2021;253(80):108863. doi: 10.1016/j.biocon.2020.108863.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.biocon.2020.108863",
+        "journal=Biological Conservation&title=A global assessment of amphibian and reptile responses to land-use changes&author=JM Cordier&author=R Aguilar&author=JN Lescano&author=GC Leynaud&author=A Bonino&volume=253&issue=80&publication_year=2021&pages=108863&doi=10.1016/j.biocon.2020.108863&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-29",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-30",
+      "position": 29,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Crawford BA, Farmer AL, Enge KM, Greene AH, Diaz L, Maerz JC, Moore CT. Breeding dynamics of gopher frog metapopulations over 10 years. Journal of Fish and Wildlife Management. 2022;13(2):422–436. doi: 10.3996/JFWM-21-076.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3996/JFWM-21-076",
+        "journal=Journal of Fish and Wildlife Management&title=Breeding dynamics of gopher frog metapopulations over 10 years&author=BA Crawford&author=AL Farmer&author=KM Enge&author=AH Greene&author=L Diaz&volume=13&issue=2&publication_year=2022&pages=422-436&doi=10.3996/JFWM-21-076&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-30",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-31",
+      "position": 30,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Cutler DR, Edwards TC, Beard KH, Cutler A, Hess KT, Gibson J, Lawler JJ. Random forests for classification in ecology. Ecology. 2007;88(11):2783–2792. doi: 10.1890/07-0539.1.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1890/07-0539.1",
+        "18051647",
+        "journal=Ecology&title=Random forests for classification in ecology&author=DR Cutler&author=TC Edwards&author=KH Beard&author=A Cutler&author=KT Hess&volume=88&issue=11&publication_year=2007&pages=2783-2792&pmid=18051647&doi=10.1890/07-0539.1&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-31",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-32",
+      "position": 31,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Devitt TJ, Enge KM, Farmer AL, Beerli P, Richter SC, Hall JG, Lance SL. Population subdivision in the gopher frog (Rana capito) across the fragmented longleaf pine-wiregrass savanna of the southeastern USA. Diversity. 2023;15(1):93. doi: 10.3390/d15010093.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3390/d15010093",
+        "journal=Diversity&title=Population subdivision in the gopher frog (Rana capito) across the fragmented longleaf pine-wiregrass savanna of the southeastern USA&author=TJ Devitt&author=KM Enge&author=AL Farmer&author=P Beerli&author=SC Richter&volume=15&issue=1&publication_year=2023&pages=93&doi=10.3390/d15010093&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-32",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-33",
+      "position": 32,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "DiRenzo GV, Campbell Grant EH. Overview of emerging amphibian pathogens and modeling advances for conservation-related decisions. Biological Conservation. 2019;236(1827):474–483. doi: 10.1016/j.biocon.2019.05.034.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.biocon.2019.05.034",
+        "journal=Biological Conservation&title=Overview of emerging amphibian pathogens and modeling advances for conservation-related decisions&author=GV DiRenzo&author=EH Campbell Grant&volume=236&issue=1827&publication_year=2019&pages=474-483&doi=10.1016/j.biocon.2019.05.034&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-33",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-34",
+      "position": 33,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Duffus ALJ, Waltzek TB, Stöhr AC, Allender MC, Gotesman M, Whittington RJ, Hick P, Hines MK, Marschang RE.  Distribution and host range of Ranaviruses. In: Gray MJ, Chinchar VG, editors. Ranaviruses: Lethal Pathogens of Ectothermic Vertebrates. Cham: Springer International Publishing; 2015. pp. 9–57.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Ranaviruses: Lethal Pathogens of Ectothermic Vertebrates&author=ALJ Duffus&author=TB Waltzek&author=AC Stöhr&author=MC Allender&author=M Gotesman&publication_year=2015&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-34",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-35",
+      "position": 34,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Erhardt E. Erikmisc: Erik Erhardt’s miscellaneous functions for solving complex data analysis workflows. 2024. https://github.com/erikerhardt/erikmisc https://github.com/erikerhardt/erikmisc R package version 0.2.12.",
+      "identifiers": [],
+      "externalLinks": [
+        "https://github.com/erikerhardt/erikmisc",
+        "https://github.com/erikerhardt/erikmisc"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-35",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-36",
+      "position": 35,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Eskew EA, Worth SJ, Foley JE, Todd BD. American Bullfrogs (Lithobates catesbeianus) Resist infection by multiple isolates of Batrachochytrium dendrobatidis, including one implicated in wild mass mortality. EcoHealth. 2015;12(3):513–518. doi: 10.1007/s10393-015-1035-2.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s10393-015-1035-2",
+        "26065669",
+        "journal=EcoHealth&title=American Bullfrogs (Lithobates catesbeianus) Resist infection by multiple isolates of Batrachochytrium dendrobatidis, including one implicated in wild mass mortality&author=EA Eskew&author=SJ Worth&author=JE Foley&author=BD Todd&volume=12&issue=3&publication_year=2015&pages=513-518&pmid=26065669&doi=10.1007/s10393-015-1035-2&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-36",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-37",
+      "position": 36,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Fick SE, Hijmans RJ. WorldClim 2: new 1-km spatial resolution climate surfaces for global land areas. International Journal of Climatology. 2017;37:4302–4315. doi: 10.1002/joc.5086.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/joc.5086",
+        "journal=International Journal of Climatology&title=WorldClim 2: new 1-km spatial resolution climate surfaces for global land areas&author=SE Fick&author=RJ Hijmans&volume=37&publication_year=2017&pages=4302-4315&doi=10.1002/joc.5086&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-37",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-38",
+      "position": 37,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Gahl MK, Longcore JE, Houlahan JE. Varying responses of northeastern North American amphibians to the chytrid pathogen Batrachochytrium dendrobatidis. Conservation Biology. 2012;26(1):135–141. doi: 10.1111/j.1523-1739.2011.01801.x.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1523-1739.2011.01801.x",
+        "22181933",
+        "journal=Conservation Biology&title=Varying responses of northeastern North American amphibians to the chytrid pathogen Batrachochytrium dendrobatidis&author=MK Gahl&author=JE Longcore&author=JE Houlahan&volume=26&issue=1&publication_year=2012&pages=135-141&pmid=22181933&doi=10.1111/j.1523-1739.2011.01801.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-38",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-39",
+      "position": 38,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Gantress J, Maniero GD, Cohen N, Robert J. Development and characterization of a model system to study amphibian immune responses to iridoviruses. Virology. 2003;311(2):254–262. doi: 10.1016/s0042-6822(03)00151-x.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/s0042-6822(03)00151-x",
+        "12842616",
+        "journal=Virology&title=Development and characterization of a model system to study amphibian immune responses to iridoviruses&author=J Gantress&author=GD Maniero&author=N Cohen&author=J Robert&volume=311&issue=2&publication_year=2003&pages=254-262&pmid=12842616&doi=10.1016/s0042-6822(03)00151-x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-39",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-40",
+      "position": 39,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Garner DL, Ruden RM. Midwest fish and wildlife health committee 2019 status report. 2019. https://www.mafwa.org/wp-content/uploads/2020/11/Part3_4.pdf https://www.mafwa.org/wp-content/uploads/2020/11/Part3_4.pdf Midwest Fish and Wildlife Health Committee.",
+      "identifiers": [],
+      "externalLinks": [
+        "https://www.mafwa.org/wp-content/uploads/2020/11/Part3_4.pdf",
+        "https://www.mafwa.org/wp-content/uploads/2020/11/Part3_4.pdf"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-40",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-41",
+      "position": 40,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Gervasi S, Gondhalekar C, Olson DH, Blaustein AR. Host identity matters in the amphibian-Batrachochytrium dendrobatidis system: Fine-scale patterns of variation in responses to a multi-host pathogen. PLOS ONE. 2013;8(1):e54490.  doi: 10.1371/journal.pone.0054490.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pone.0054490",
+        "PMC3554766",
+        "23382904",
+        "journal=PLOS ONE&title=Host identity matters in the amphibian-Batrachochytrium dendrobatidis system: Fine-scale patterns of variation in responses to a multi-host pathogen&author=S Gervasi&author=C Gondhalekar&author=DH Olson&author=AR Blaustein&volume=8&issue=1&publication_year=2013&pages=e54490&pmid=23382904&doi=10.1371/journal.pone.0054490&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-41",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-42",
+      "position": 41,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Gray M, Miller D, Hoverman J. Ecology and pathology of amphibian ranaviruses. Diseases of Aquatic Organisms. 2009;87:243–266. doi: 10.3354/dao02138.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3354/dao02138",
+        "20099417",
+        "journal=Diseases of Aquatic Organisms&title=Ecology and pathology of amphibian ranaviruses&author=M Gray&author=D Miller&author=J Hoverman&volume=87&publication_year=2009&pages=243-266&pmid=20099417&doi=10.3354/dao02138&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-42",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-43",
+      "position": 42,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Green DE, Converse KA, Schrader AK. Epizootiology of sixty-four amphibian morbidity and mortality events in the USA, 1996–2001. Annals of the New York Academy of Sciences. 2002;969(1):323–339. doi: 10.1111/j.1749-6632.2002.tb04400.x.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1749-6632.2002.tb04400.x",
+        "12381613",
+        "journal=Annals of the New York Academy of Sciences&title=Epizootiology of sixty-four amphibian morbidity and mortality events in the USA, 1996–2001&author=DE Green&author=KA Converse&author=AK Schrader&volume=969&issue=1&publication_year=2002&pages=323-339&pmid=12381613&doi=10.1111/j.1749-6632.2002.tb04400.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-43",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-44",
+      "position": 43,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Greenberg DA, Palen WJ, Mooers AØ. Amphibian species’ traits, evolutionary history, and environment predict Batrachochytrium dendrobatidis infection patterns, but not extinction risk. Evolutionary Applications. 2017;10(10):1130–1145. doi: 10.1111/eva.12520.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/eva.12520",
+        "PMC5680631",
+        "29151866",
+        "journal=Evolutionary Applications&title=Amphibian species’ traits, evolutionary history, and environment predict Batrachochytrium dendrobatidis infection patterns, but not extinction risk&author=DA Greenberg&author=WJ Palen&author=AØ Mooers&volume=10&issue=10&publication_year=2017&pages=1130-1145&pmid=29151866&doi=10.1111/eva.12520&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-44",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-45",
+      "position": 44,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Greenspan SE, Bower DS, Webb RJ, Roznik EA, Stevenson LA, Berger L, Marantelli G, Pike DA, Schwarzkopf L, Alford RA. Realistic heat pulses protect frogs from disease under simulated rainforest frog thermal regimes. Functional Ecology. 2017;31(12):2274–2286. doi: 10.1111/1365-2435.12944.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/1365-2435.12944",
+        "journal=Functional Ecology&title=Realistic heat pulses protect frogs from disease under simulated rainforest frog thermal regimes&author=SE Greenspan&author=DS Bower&author=RJ Webb&author=EA Roznik&author=LA Stevenson&volume=31&issue=12&publication_year=2017&pages=2274-2286&doi=10.1111/1365-2435.12944&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-45",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-47",
+      "position": 45,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hartmann AM, Sash K, Hill EP, Claunch NM, Maddox ML, McGrath-Blaser S, McKinstry CC, Ossiboff RJ, Longo AV. Partitioning the influence of host specificity in amphibian populations threatened by multiple emerging infectious diseases. Biological Conservation. 2024;296:110685. doi: 10.1016/j.biocon.2024.110685.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.biocon.2024.110685",
+        "journal=Biological Conservation&title=Partitioning the influence of host specificity in amphibian populations threatened by multiple emerging infectious diseases&author=AM Hartmann&author=K Sash&author=EP Hill&author=NM Claunch&author=ML Maddox&volume=296&publication_year=2024&pages=110685&doi=10.1016/j.biocon.2024.110685&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-47",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-48",
+      "position": 46,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Herczeg D, Ujszegi J, Kásler A, Holly D, Hettyey A. Host-multiparasite interactions in amphibians: a review. Parasites & Vectors. 2021;14(1):296. doi: 10.1186/s13071-021-04796-1.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/s13071-021-04796-1",
+        "PMC8173923",
+        "34082796",
+        "journal=Parasites & Vectors&title=Host-multiparasite interactions in amphibians: a review&author=D Herczeg&author=J Ujszegi&author=A Kásler&author=D Holly&author=A Hettyey&volume=14&issue=1&publication_year=2021&pages=296&pmid=34082796&doi=10.1186/s13071-021-04796-1&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-48",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-46",
+      "position": 47,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Herpetological Animal Care and Use Committee (HACC)  Guidelines for use of live amphibians and reptiles in field and laboratory research. 2004. https://ssarherps.org/wp-content/uploads/2014/07/guidelinesherpsresearch2004.pdf https://ssarherps.org/wp-content/uploads/2014/07/guidelinesherpsresearch2004.pdf Revised by the Herpetological Animal Care and Use Committee (HACC) of the American Society of Ichthyologists and Herpetologists.",
+      "identifiers": [],
+      "externalLinks": [
+        "https://ssarherps.org/wp-content/uploads/2014/07/guidelinesherpsresearch2004.pdf",
+        "https://ssarherps.org/wp-content/uploads/2014/07/guidelinesherpsresearch2004.pdf"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-46",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-49",
+      "position": 48,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hossack BR, Oja EB, Owens AK, Hall D, Cobos C, Crawford CL, Goldberg CS, Hedwall S, Howell PE, Lemos-Espinal JA, MacVean SK, McCaffery M, Mosley C, Muths E, Sigafus BH, Sredl MJ, Rorabaugh JC. Empirical evidence for effects of invasive American bullfrogs on occurrence of native amphibians and emerging pathogens. Ecology Applications. 2023;33(2):e2785.  doi: 10.1002/eap.2785.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/eap.2785",
+        "36478292",
+        "journal=Ecology Applications&title=Empirical evidence for effects of invasive American bullfrogs on occurrence of native amphibians and emerging pathogens&author=BR Hossack&author=EB Oja&author=AK Owens&author=D Hall&author=C Cobos&volume=33&issue=2&publication_year=2023&pages=e2785&pmid=36478292&doi=10.1002/eap.2785&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-49",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-50",
+      "position": 49,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hoverman JT, Chislock MF, Gannon ME. Ranavirus reservoirs: assemblage of American bullfrog and green frog tadpoles maintains Ranavirus infections across multiple seasons. Herpetological Review. 2019;50(2):275–278.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Herpetological Review&title=Ranavirus reservoirs: assemblage of American bullfrog and green frog tadpoles maintains Ranavirus infections across multiple seasons&author=JT Hoverman&author=MF Chislock&author=ME Gannon&volume=50&issue=2&publication_year=2019&pages=275-278&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-50",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-51",
+      "position": 50,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hoverman JT, Gray MJ, Haislip NA, Miller DL. Phylogeny, life history, and ecology contribute to differences in amphibian susceptibility to Ranaviruses. EcoHealth. 2011;8(3):301–319. doi: 10.1007/s10393-011-0717-7.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s10393-011-0717-7",
+        "22071720",
+        "journal=EcoHealth&title=Phylogeny, life history, and ecology contribute to differences in amphibian susceptibility to Ranaviruses&author=JT Hoverman&author=MJ Gray&author=NA Haislip&author=DL Miller&volume=8&issue=3&publication_year=2011&pages=301-319&pmid=22071720&doi=10.1007/s10393-011-0717-7&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-51",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-52",
+      "position": 51,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hoverman JT, Gray M, Miller D. Anuran susceptibilities to ranaviruses: role of species identity, exposure route, and a novel virus isolate. Diseases of Aquatic Organisms. 2010;89:97–107. doi: 10.3354/dao02200.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3354/dao02200",
+        "20402227",
+        "journal=Diseases of Aquatic Organisms&title=Anuran susceptibilities to ranaviruses: role of species identity, exposure route, and a novel virus isolate&author=JT Hoverman&author=M Gray&author=D Miller&volume=89&publication_year=2010&pages=97-107&pmid=20402227&doi=10.3354/dao02200&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-52",
+        "position": 51,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-53",
+      "position": 52,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Humphries JE, Lanctôt CM, McCallum HI, Newell DA, Grogan LF. Chytridiomycosis causes high amphibian mortality prior to the completion of metamorphosis. Environmental Research. 2024;247(4):118249. doi: 10.1016/j.envres.2024.118249.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.envres.2024.118249",
+        "38244972",
+        "journal=Environmental Research&title=Chytridiomycosis causes high amphibian mortality prior to the completion of metamorphosis&author=JE Humphries&author=CM Lanctôt&author=HI McCallum&author=DA Newell&author=LF Grogan&volume=247&issue=4&publication_year=2024&pages=118249&pmid=38244972&doi=10.1016/j.envres.2024.118249&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-53",
+        "position": 52,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-54",
+      "position": 53,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Humphries JE, Lanctôt CM, Robert J, McCallum HI, Newell DA, Grogan LF. Do immune system changes at metamorphosis predict vulnerability to chytridiomycosis? An update. Developmental & Comparative Immunology. 2022;136:104510. doi: 10.1016/j.dci.2022.104510.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.dci.2022.104510",
+        "35985564",
+        "journal=Developmental & Comparative Immunology&title=Do immune system changes at metamorphosis predict vulnerability to chytridiomycosis? An update&author=JE Humphries&author=CM Lanctôt&author=J Robert&author=HI McCallum&author=DA Newell&volume=136&publication_year=2022&pages=104510&pmid=35985564&doi=10.1016/j.dci.2022.104510&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-54",
+        "position": 53,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-55",
+      "position": 54,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Isidoro-Ayza M. Mass mortality of green frog (Rana clamitans) tadpoles in Wisconsin, USA, associated with severe infection with the pathogenic Perkinsea clade. Journal of Wildlife Diseases. 2019;55(1):262–265. doi: 10.7589/2018-02-046.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.7589/2018-02-046",
+        "30024771",
+        "journal=Journal of Wildlife Diseases&title=Mass mortality of green frog (Rana clamitans) tadpoles in Wisconsin, USA, associated with severe infection with the pathogenic Perkinsea clade&author=M Isidoro-Ayza&volume=55&issue=1&publication_year=2019&pages=262-265&pmid=30024771&doi=10.7589/2018-02-046&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-55",
+        "position": 54,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-56",
+      "position": 55,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Isidoro-Ayza M, Lorch JM, Grear DA, Winzeler M, Calhoun DL, Barichivich WJ. Pathogenic lineage of Perkinsea associated with mass mortality of frogs across the United States. Scientific Reports. 2017;7(1):10288. doi: 10.1038/s41598-017-10456-1.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41598-017-10456-1",
+        "PMC5579288",
+        "28860470",
+        "journal=Scientific Reports&title=Pathogenic lineage of Perkinsea associated with mass mortality of frogs across the United States&author=M Isidoro-Ayza&author=JM Lorch&author=DA Grear&author=M Winzeler&author=DL Calhoun&volume=7&issue=1&publication_year=2017&pages=10288&pmid=28860470&doi=10.1038/s41598-017-10456-1&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-56",
+        "position": 55,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-57",
+      "position": 56,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Itoïz S, Metz S, Derelle E, Reñé A, Garcés E, Bass D, Soudant P, Chambouvet A. Emerging parasitic protists: The case of Perkinsea. Frontiers in Microbiology. 2022;12:735815. doi: 10.3389/fmicb.2021.735815.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3389/fmicb.2021.735815",
+        "PMC8792838",
+        "35095782",
+        "journal=Frontiers in Microbiology&title=Emerging parasitic protists: The case of Perkinsea&author=S Itoïz&author=S Metz&author=E Derelle&author=A Reñé&author=E Garcés&volume=12&publication_year=2022&pages=735815&pmid=35095782&doi=10.3389/fmicb.2021.735815&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-57",
+        "position": 56,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-58",
+      "position": 57,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "IUCN  The IUCN red list of threatened species. 2022. https://www.iucnredlist.org.  [7 November 2023]. https://www.iucnredlist.org Version 2022.",
+      "identifiers": [],
+      "externalLinks": [
+        "https://www.iucnredlist.org",
+        "https://www.iucnredlist.org"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-58",
+        "position": 57,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-59",
+      "position": 58,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Jetz W, Pyron RA. The interplay of past diversification and evolutionary isolation with present imperilment across the amphibian tree of life. 2018. https://www.nature.com/articles/s41559-018-0515-5.  [1 March 2024]. https://www.nature.com/articles/s41559-018-0515-5 Nature Ecology & Evolution: 1.",
+      "identifiers": [],
+      "externalLinks": [
+        "https://www.nature.com/articles/s41559-018-0515-5",
+        "https://www.nature.com/articles/s41559-018-0515-5",
+        "10.1038/s41559-018-0515-5",
+        "29581588"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-59",
+        "position": 58,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-60",
+      "position": 59,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Johnson PTJ, Buller ID. Parasite competition hidden by correlated coinfection: using surveys and experiments to understand parasite interactions. Ecology. 2011;92(3):535–541. doi: 10.1890/10-0570.1.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1890/10-0570.1",
+        "21608460",
+        "journal=Ecology&title=Parasite competition hidden by correlated coinfection: using surveys and experiments to understand parasite interactions&author=PTJ Johnson&author=ID Buller&volume=92&issue=3&publication_year=2011&pages=535-541&pmid=21608460&doi=10.1890/10-0570.1&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-60",
+        "position": 59,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-61",
+      "position": 60,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Jones M, Armién A, Rothermel B, Pessier A. Granulomatous myositis associated with a novel alveolate pathogen in an adult southern leopard frog (Lithobates sphenocephalus) Diseases of Aquatic Organisms. 2012;102(2):163–167. doi: 10.3354/dao02539.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3354/dao02539",
+        "23269391",
+        "journal=Diseases of Aquatic Organisms&title=Granulomatous myositis associated with a novel alveolate pathogen in an adult southern leopard frog (Lithobates sphenocephalus)&author=M Jones&author=A Armién&author=B Rothermel&author=A Pessier&volume=102&issue=2&publication_year=2012&pages=163-167&pmid=23269391&doi=10.3354/dao02539&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-61",
+        "position": 60,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-62",
+      "position": 61,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Karwacki EE, Atkinson MS, Ossiboff RJ, Savage AE. Novel quantitative PCR assay specific for the emerging Perkinsea amphibian pathogen reveals seasonal infection dynamics. Diseases of Aquatic Organisms. 2018;129(2):85–98. doi: 10.3354/dao03239.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3354/dao03239",
+        "29972369",
+        "journal=Diseases of Aquatic Organisms&title=Novel quantitative PCR assay specific for the emerging Perkinsea amphibian pathogen reveals seasonal infection dynamics&author=EE Karwacki&author=MS Atkinson&author=RJ Ossiboff&author=AE Savage&volume=129&issue=2&publication_year=2018&pages=85-98&pmid=29972369&doi=10.3354/dao03239&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-62",
+        "position": 61,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-63",
+      "position": 62,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Karwacki EE, Martin KR, Savage AE. One hundred years of infection with three global pathogens in frog populations of Florida, USA. Biological Conservation. 2021;257:109088. doi: 10.1016/j.biocon.2021.109088.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.biocon.2021.109088",
+        "journal=Biological Conservation&title=One hundred years of infection with three global pathogens in frog populations of Florida, USA&author=EE Karwacki&author=KR Martin&author=AE Savage&volume=257&publication_year=2021&pages=109088&doi=10.1016/j.biocon.2021.109088&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-63",
+        "position": 62,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-64",
+      "position": 63,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kassambara A. Rstatix: pipe-friendly framework for basic statistical tests. 2023. https://CRAN.R-project.org/package=rstatix https://CRAN.R-project.org/package=rstatix R Package Version 0.7.2.",
+      "identifiers": [],
+      "externalLinks": [
+        "https://CRAN.R-project.org/package=rstatix",
+        "https://CRAN.R-project.org/package=rstatix"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-64",
+        "position": 63,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-65",
+      "position": 64,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Koo MS, Vredenburg VT, Deck JB, Olson DH, Ronnenberg KL, Wake DB. Tracking, synthesizing, and sharing global Batrachochytrium data at AmphibianDisease.org. Frontiers in Veterinary Science. 2021;8:728232. doi: 10.3389/fvets.2021.728232.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3389/fvets.2021.728232",
+        "PMC8527349",
+        "34692807",
+        "journal=Frontiers in Veterinary Science&title=Tracking, synthesizing, and sharing global Batrachochytrium data at AmphibianDisease.org&author=MS Koo&author=VT Vredenburg&author=JB Deck&author=DH Olson&author=KL Ronnenberg&volume=8&publication_year=2021&pages=728232&pmid=34692807&doi=10.3389/fvets.2021.728232&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-65",
+        "position": 64,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-66",
+      "position": 65,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kriger KM, Pereoglou F, Hero J. Latitudinal variation in the prevalence and intensity of chytrid (Batrachochytrium dendrobatidis) infection in Eastern Australia. Conservation Biology. 2007;21(5):1280–1290. doi: 10.1111/j.1523-1739.2007.00777.x.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1523-1739.2007.00777.x",
+        "17883493",
+        "journal=Conservation Biology&title=Latitudinal variation in the prevalence and intensity of chytrid (Batrachochytrium dendrobatidis) infection in Eastern Australia&author=KM Kriger&author=F Pereoglou&author=J Hero&volume=21&issue=5&publication_year=2007&pages=1280-1290&pmid=17883493&doi=10.1111/j.1523-1739.2007.00777.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-66",
+        "position": 65,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-67",
+      "position": 66,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kuhn M. Building predictive models in R using the caret package. Journal of Statistical Software. 2008;28(5):1–26. doi: 10.18637/jss.v028.i05.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.18637/jss.v028.i05",
+        "journal=Journal of Statistical Software&title=Building predictive models in R using the caret package&author=M Kuhn&volume=28&issue=5&publication_year=2008&pages=1-26&doi=10.18637/jss.v028.i05&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-67",
+        "position": 66,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-68",
+      "position": 67,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Landsberg J, Kiryu Y, Tabuchi M, Waltzek T, Enge K, Reintjes-Tolen S, Preston A, Pessier A. Co-infection by alveolate parasites and frog virus 3-like ranavirus during an amphibian larval mortality event in Florida, USA. Diseases of Aquatic Organisms. 2013;105(2):89–99. doi: 10.3354/dao02625.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3354/dao02625",
+        "23872853",
+        "journal=Diseases of Aquatic Organisms&title=Co-infection by alveolate parasites and frog virus 3-like ranavirus during an amphibian larval mortality event in Florida, USA&author=J Landsberg&author=Y Kiryu&author=M Tabuchi&author=T Waltzek&author=K Enge&volume=105&issue=2&publication_year=2013&pages=89-99&pmid=23872853&doi=10.3354/dao02625&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-68",
+        "position": 67,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-69",
+      "position": 68,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Li Z, Wang Q, Sun K, Feng J. Prevalence of Batrachochytrium dendrobatidis in amphibians from 2000 to 2021: a global systematic review and meta-analysis. Frontiers in Veterinary Science. 2021;8:791237. doi: 10.3389/fvets.2021.791237.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3389/fvets.2021.791237",
+        "PMC8718539",
+        "34977222",
+        "journal=Frontiers in Veterinary Science&title=Prevalence of Batrachochytrium dendrobatidis in amphibians from 2000 to 2021: a global systematic review and meta-analysis&author=Z Li&author=Q Wang&author=K Sun&author=J Feng&volume=8&publication_year=2021&pages=791237&pmid=34977222&doi=10.3389/fvets.2021.791237&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-69",
+        "position": 68,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-70",
+      "position": 69,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Liaw A, Wiener M. Classification and regression by randomForest. R News. 2002;2:18–22.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=R News&title=Classification and regression by randomForest&author=A Liaw&author=M Wiener&volume=2&publication_year=2002&pages=18-22&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-70",
+        "position": 69,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-71",
+      "position": 70,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lindauer AL, Maler PA, Voyles J. Daily fluctuating temperatures decrease growth and reproduction rate of a lethal amphibian fungal pathogen in culture. BMC Ecology. 2020;20(1):18. doi: 10.1186/s12898-020-00286-7.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/s12898-020-00286-7",
+        "PMC7118903",
+        "32245440",
+        "journal=BMC Ecology&title=Daily fluctuating temperatures decrease growth and reproduction rate of a lethal amphibian fungal pathogen in culture&author=AL Lindauer&author=PA Maler&author=J Voyles&volume=20&issue=1&publication_year=2020&pages=18&pmid=32245440&doi=10.1186/s12898-020-00286-7&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-71",
+        "position": 70,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-72",
+      "position": 71,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lips KR. Overview of chytrid emergence and impacts on amphibians. Philosophical Transactions of the Royal Society B: Biological Sciences. 2016;371(1709):20150465. doi: 10.1098/rstb.2015.0465.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1098/rstb.2015.0465",
+        "PMC5095542",
+        "28080989",
+        "journal=Philosophical Transactions of the Royal Society B: Biological Sciences&title=Overview of chytrid emergence and impacts on amphibians&author=KR Lips&volume=371&issue=1709&publication_year=2016&pages=20150465&pmid=28080989&doi=10.1098/rstb.2015.0465&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-72",
+        "position": 71,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-73",
+      "position": 72,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Longcore JR, Longcore JE, Pessier AP, Halteman WA. Chytridiomycosis widespread in anurans of northeastern United States. The Journal of Wildlife Management. 2007;71(2):435–444. doi: 10.2193/2006-345.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.2193/2006-345",
+        "journal=The Journal of Wildlife Management&title=Chytridiomycosis widespread in anurans of northeastern United States&author=JR Longcore&author=JE Longcore&author=AP Pessier&author=WA Halteman&volume=71&issue=2&publication_year=2007&pages=435-444&doi=10.2193/2006-345&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-73",
+        "position": 72,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-74",
+      "position": 73,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Longcore JE, Pessier AP, Nichols DK. Batrachochytrium dendrobatidis gen. et sp. nov., a chytrid pathogenic to amphibians. Mycologia. 1999;91(2):219–227. doi: 10.1080/00275514.1999.12061011.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1080/00275514.1999.12061011",
+        "journal=Mycologia&title=Batrachochytrium dendrobatidis gen. et sp. nov., a chytrid pathogenic to amphibians&author=JE Longcore&author=AP Pessier&author=DK Nichols&volume=91&issue=2&publication_year=1999&pages=219-227&doi=10.1080/00275514.1999.12061011&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-74",
+        "position": 73,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-75",
+      "position": 74,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Longo AV, Lips KR, Zamudio KR. Evolutionary ecology of host competence after a chytrid outbreak in a naive amphibian community. Philosophical Transactions of the Royal Society B: Biological Sciences. 2023;378(1882):20220130. doi: 10.1098/rstb.2022.0130.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1098/rstb.2022.0130",
+        "PMC10258670",
+        "37305909",
+        "journal=Philosophical Transactions of the Royal Society B: Biological Sciences&title=Evolutionary ecology of host competence after a chytrid outbreak in a naive amphibian community&author=AV Longo&author=KR Lips&author=KR Zamudio&volume=378&issue=1882&publication_year=2023&pages=20220130&pmid=37305909&doi=10.1098/rstb.2022.0130&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-75",
+        "position": 74,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-76",
+      "position": 75,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Luedtke JA, Chanson J, Neam K, Hobin L, Maciel AO, Catenazzi A, Borzée Aël, Hamidy A, Aowphol A, Jean A, Sosa-Bartuano Ál, Fong GA, de Silva A, Fouquet A, Angulo A, Kidov AA, Muñoz Saravia A, Diesmos AC, Tominaga A, Shrestha B, Gratwicke B, Tjaturadi B, Martínez Rivera CC, Vásquez Almazán CR, Señaris C, Chandramouli SR, Strüssmann C, Cortez Fernández CF, Azat C, Hoskin CJ, Hilton-Taylor C, Whyte DL, Gower DJ, Olson DH, Cisneros-Heredia DF, Santana DJ, Nagombi E, Najafi-Majd E, Quah ESH, Bolaños F, Xie F, Brusquetti F, Álvarez FS, Andreone F, Glaw F, Castañeda FE, Kraus F, Parra-Olea G, Chaves G, Medina-Rangel GF, González-Durán G, Ortega-Andrade HM, Machado IF, Das I, Dias IR, Urbina-Cardona JN, Crnobrnja-Isailović J, Yang J-H, Jianping J, Wangyal JT, Rowley JJL, Measey J, Vasudevan K, Chan KO, Gururaja KV, Ovaska K, Warr LC, Canseco-Márquez L, Toledo LF, Díaz LM, Khan MMH, Meegaskumbura M, Acevedo ME, Napoli MF, Ponce MA, Vaira M, Lampo M, Yánez-Muñoz MH, Scherz MD, Rödel M-O, Matsui M, Fildor M, Kusrini MD, Ahmed MF, Rais M, Kouamé N’Goran G, García N, Gonwouo NL, Burrowes PA, Imbun PY, Wagner P, Kok PJR, Joglar RL, Auguste RJ, Brandão RA, Ibáñez R, von May R, Hedges SB, Biju SD, Ganesh SR, Wren S, Das S, Flechas SV, Ashpole SL, Robleto-Hernández SJ, Loader SP, Incháustegui SJ, Garg S, Phimmachak S, Richards SJ, Slimani T, Osborne-Naikatini T, Abreu-Jardim TPF, Condez TH, De Carvalho TR, Cutajar TP, Pierson TW, Nguyen TQ, Kaya U, Yuan Z, Long B, Langhammer P, Stuart SN. Ongoing declines for the world’s amphibians in the face of emerging threats. Nature. 2023;622(7982):308–314. doi: 10.1038/s41586-023-06578-4.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41586-023-06578-4",
+        "PMC10567568",
+        "37794184",
+        "journal=Nature&title=Ongoing declines for the world’s amphibians in the face of emerging threats&author=JA Luedtke&author=J Chanson&author=K Neam&author=L Hobin&author=AO Maciel&volume=622&issue=7982&publication_year=2023&pages=308-314&pmid=37794184&doi=10.1038/s41586-023-06578-4&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-76",
+        "position": 75,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-77",
+      "position": 76,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Midwest Association of Fish and Wildlife Agencies (MAFWA)  Missouri 2020 wildlife disease status update. 2020. https://www.mafwa.org/wp-content/uploads/2020/11/Part3_7.pdf https://www.mafwa.org/wp-content/uploads/2020/11/Part3_7.pdf Missouri Department of Conservation Wildlife Health Program.",
+      "identifiers": [],
+      "externalLinks": [
+        "https://www.mafwa.org/wp-content/uploads/2020/11/Part3_7.pdf",
+        "https://www.mafwa.org/wp-content/uploads/2020/11/Part3_7.pdf"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-77",
+        "position": 76,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-78",
+      "position": 77,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Miller DAW, Grant EHC, Muths E, Amburgey SM, Adams MJ, Joseph MB, Waddle JH, Johnson PTJ, Ryan ME, Schmidt BR, Calhoun DL, Davis CL, Fisher RN, Green DM, Hossack BR, Rittenhouse TAG, Walls SC, Bailey LL, Cruickshank SS, Fellers GM, Gorman TA, Haas CA, Hughson W, Pilliod DS, Price SJ, Ray AM, Sadinski W, Saenz D, Barichivich WJ, Brand A, Brehme CS, Dagit R, Delaney KS, Glorioso BM, Kats LB, Kleeman PM, Pearl CA, Rochester CJ, Riley SPD, Roth M, Sigafus BH. Quantifying climate sensitivity and climate-driven change in North American amphibian communities. Nature Communications. 2018;9(1):3926. doi: 10.1038/s41467-018-06157-6.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41467-018-06157-6",
+        "PMC6156563",
+        "30254220",
+        "journal=Nature Communications&title=Quantifying climate sensitivity and climate-driven change in North American amphibian communities&author=DAW Miller&author=EHC Grant&author=E Muths&author=SM Amburgey&author=MJ Adams&volume=9&issue=1&publication_year=2018&pages=3926&pmid=30254220&doi=10.1038/s41467-018-06157-6&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-78",
+        "position": 77,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-79",
+      "position": 78,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Miller D, Gray M, Storfer A. Ecopathology of Ranaviruses infecting amphibians. Viruses. 2011;3(11):2351–2373. doi: 10.3390/v3112351.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3390/v3112351",
+        "PMC3230856",
+        "22163349",
+        "journal=Viruses&title=Ecopathology of Ranaviruses infecting amphibians&author=D Miller&author=M Gray&author=A Storfer&volume=3&issue=11&publication_year=2011&pages=2351-2373&pmid=22163349&doi=10.3390/v3112351&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-79",
+        "position": 78,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-80",
+      "position": 79,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Murray KA, Skerratt LF, Garland S, Kriticos D, McCallum H. Whether the weather drives patterns of endemic amphibian chytridiomycosis: a pathogen proliferation approach. PLOS ONE. 2013;8(4):e61061.  doi: 10.1371/journal.pone.0061061.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pone.0061061",
+        "PMC3629077",
+        "23613783",
+        "journal=PLOS ONE&title=Whether the weather drives patterns of endemic amphibian chytridiomycosis: a pathogen proliferation approach&author=KA Murray&author=LF Skerratt&author=S Garland&author=D Kriticos&author=H McCallum&volume=8&issue=4&publication_year=2013&pages=e61061&pmid=23613783&doi=10.1371/journal.pone.0061061&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-80",
+        "position": 79,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-81",
+      "position": 80,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "O’Brien C, Van Riper C, Myers DE. Making reliable decisions in the study of wildlife diseases: using hypothesis tests, statistical power, and observed effects. Journal of Wildlife Diseases. 2009;45(3):700–712. doi: 10.7589/0090-3558-45.3.700.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.7589/0090-3558-45.3.700",
+        "19617480",
+        "journal=Journal of Wildlife Diseases&title=Making reliable decisions in the study of wildlife diseases: using hypothesis tests, statistical power, and observed effects&author=C O’Brien&author=C Van Riper&author=DE Myers&volume=45&issue=3&publication_year=2009&pages=700-712&pmid=19617480&doi=10.7589/0090-3558-45.3.700&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-81",
+        "position": 80,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-82",
+      "position": 81,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Olson DH, Aanensen DM, Ronnenberg KL, Powell CI, Walker SF, Bielby J, Garner TWJ, Weaver G, The Bd Mapping Group. Fisher MC. Mapping the global emergence of Batrachochytrium dendrobatidis, the amphibian chytrid fungus. PLOS ONE. 2013;8(2):e56802.  doi: 10.1371/journal.pone.0056802.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pone.0056802",
+        "PMC3584086",
+        "23463502",
+        "journal=PLOS ONE&title=Mapping the global emergence of Batrachochytrium dendrobatidis, the amphibian chytrid fungus&author=DH Olson&author=DM Aanensen&author=KL Ronnenberg&author=CI Powell&author=SF Walker&volume=8&issue=2&publication_year=2013&pages=e56802&pmid=23463502&doi=10.1371/journal.pone.0056802&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-82",
+        "position": 81,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-83",
+      "position": 82,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Olson DH, Ronnenberg KL, Glidden CK, Christiansen KR, Blaustein AR. Global patterns of the fungal pathogen Batrachochytrium dendrobatidis support conservation urgency. Frontiers in Veterinary Science. 2021;8:685877. doi: 10.3389/fvets.2021.685877.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3389/fvets.2021.685877",
+        "PMC8322974",
+        "34336978",
+        "journal=Frontiers in Veterinary Science&title=Global patterns of the fungal pathogen Batrachochytrium dendrobatidis support conservation urgency&author=DH Olson&author=KL Ronnenberg&author=CK Glidden&author=KR Christiansen&author=AR Blaustein&volume=8&publication_year=2021&pages=685877&pmid=34336978&doi=10.3389/fvets.2021.685877&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-83",
+        "position": 82,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-84",
+      "position": 83,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Petersen CE, Lovich RE, Phillips CA, Dreslik MJ, Lannoo MJ. Prevalence and seasonality of the amphibian chytrid fungus Batrachochytrium dendrobatidis along widely separated longitudes across the United States. EcoHealth. 2016;13(2):368–382. doi: 10.1007/s10393-016-1101-4.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s10393-016-1101-4",
+        "26935823",
+        "journal=EcoHealth&title=Prevalence and seasonality of the amphibian chytrid fungus Batrachochytrium dendrobatidis along widely separated longitudes across the United States&author=CE Petersen&author=RE Lovich&author=CA Phillips&author=MJ Dreslik&author=MJ Lannoo&volume=13&issue=2&publication_year=2016&pages=368-382&pmid=26935823&doi=10.1007/s10393-016-1101-4&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-84",
+        "position": 83,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-85",
+      "position": 84,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Peterson AC, McKenzie VJ. Investigating differences across host species and scales to explain the distribution of the amphibian pathogen Batrachochytrium dendrobatidis. PLOS ONE. 2014;9(9):e107441.  doi: 10.1371/journal.pone.0107441.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pone.0107441",
+        "PMC4164663",
+        "25222375",
+        "journal=PLOS ONE&title=Investigating differences across host species and scales to explain the distribution of the amphibian pathogen Batrachochytrium dendrobatidis&author=AC Peterson&author=VJ McKenzie&volume=9&issue=9&publication_year=2014&pages=e107441&pmid=25222375&doi=10.1371/journal.pone.0107441&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-85",
+        "position": 84,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-86",
+      "position": 85,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Price SJ, Leung WTM, Owen CJ, Puschendorf R, Sergeant C, Cunningham AA, Balloux F, Garner TWJ, Nichols RA. Effects of historic and projected climate change on the range and impacts of an emerging wildlife disease. Global Change Biology. 2019;25(8):2648–2660. doi: 10.1111/gcb.14651.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/gcb.14651",
+        "31074105",
+        "journal=Global Change Biology&title=Effects of historic and projected climate change on the range and impacts of an emerging wildlife disease&author=SJ Price&author=WTM Leung&author=CJ Owen&author=R Puschendorf&author=C Sergeant&volume=25&issue=8&publication_year=2019&pages=2648-2660&pmid=31074105&doi=10.1111/gcb.14651&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-86",
+        "position": 85,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-87",
+      "position": 86,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "R Core Team  . R: a language and environment for statistical computing. Vienna, Austria: R Foundation for Statistical Computing; 2023.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=R: a language and environment for statistical computing&publication_year=2023&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-87",
+        "position": 86,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-88",
+      "position": 87,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Raffel TR, Halstead NT, McMahon TA, Davis AK, Rohr JR. Temperature variability and moisture synergistically interact to exacerbate an epizootic disease. Proceedings of the Royal Society B: Biological Sciences. 2015;282(1801):20142039. doi: 10.1098/rspb.2014.2039.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1098/rspb.2014.2039",
+        "PMC4308995",
+        "25567647",
+        "journal=Proceedings of the Royal Society B: Biological Sciences&title=Temperature variability and moisture synergistically interact to exacerbate an epizootic disease&author=TR Raffel&author=NT Halstead&author=TA McMahon&author=AK Davis&author=JR Rohr&volume=282&issue=1801&publication_year=2015&pages=20142039&pmid=25567647&doi=10.1098/rspb.2014.2039&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-88",
+        "position": 87,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-89",
+      "position": 88,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Raffel TR, Rohr JR, Kiesecker JM, Hudson PJ. Negative effects of changing temperature on amphibian immunity under field conditions. Functional Ecology. 2006;20(5):819–828. doi: 10.1111/j.1365-2435.2006.01159.x.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1365-2435.2006.01159.x",
+        "journal=Functional Ecology&title=Negative effects of changing temperature on amphibian immunity under field conditions&author=TR Raffel&author=JR Rohr&author=JM Kiesecker&author=PJ Hudson&volume=20&issue=5&publication_year=2006&pages=819-828&doi=10.1111/j.1365-2435.2006.01159.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-89",
+        "position": 88,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-90",
+      "position": 89,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Raffel TR, Romansic JM, Halstead NT, McMahon TA, Venesky MD, Rohr JR. Disease and thermal acclimation in a more variable and unpredictable climate. Nature Climate Change. 2013;3(2):146–151. doi: 10.1038/nclimate1659.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nclimate1659",
+        "journal=Nature Climate Change&title=Disease and thermal acclimation in a more variable and unpredictable climate&author=TR Raffel&author=JM Romansic&author=NT Halstead&author=TA McMahon&author=MD Venesky&volume=3&issue=2&publication_year=2013&pages=146-151&doi=10.1038/nclimate1659&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-90",
+        "position": 89,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-91",
+      "position": 90,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Rambaut A. FigTree v1.3.1. 2010. http://tree.bio.ed.ac.uk/software/figtree.  [1 March 2024]. http://tree.bio.ed.ac.uk/software/figtree Institute of Evolutionary Biology, University of Edinburgh, Edinburgh.",
+      "identifiers": [],
+      "externalLinks": [
+        "http://tree.bio.ed.ac.uk/software/figtree",
+        "http://tree.bio.ed.ac.uk/software/figtree"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-91",
+        "position": 90,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-92",
+      "position": 91,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ramsay C, Rohr JR. The application of community ecology theory to co-infections in wildlife hosts. Ecology. 2021;102(3):e03253.  doi: 10.1002/ecy.3253.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/ecy.3253",
+        "33222193",
+        "journal=Ecology&title=The application of community ecology theory to co-infections in wildlife hosts&author=C Ramsay&author=JR Rohr&volume=102&issue=3&publication_year=2021&pages=e03253&pmid=33222193&doi=10.1002/ecy.3253&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-92",
+        "position": 91,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-93",
+      "position": 92,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Rödder D, Schulte U, Toledo LF. High environmental niche overlap between the fungus Batrachochytrium dendrobatidis and invasive bullfrogs (Lithobates catesbeianus) enhance the potential of disease transmission in the Americas. North-Western Journal of Zoology. 2013;9(1):178–184.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=North-Western Journal of Zoology&title=High environmental niche overlap between the fungus Batrachochytrium dendrobatidis and invasive bullfrogs (Lithobates catesbeianus) enhance the potential of disease transmission in the Americas&author=D Rödder&author=U Schulte&author=LF Toledo&volume=9&issue=1&publication_year=2013&pages=178-184&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-93",
+        "position": 92,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-94",
+      "position": 93,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Rollins-Smith LA. Metamorphosis and the amphibian immune system. Immunological Reviews. 1998;166(1):221–230. doi: 10.1111/j.1600-065x.1998.tb01265.x.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1600-065x.1998.tb01265.x",
+        "9914915",
+        "journal=Immunological Reviews&title=Metamorphosis and the amphibian immune system&author=LA Rollins-Smith&volume=166&issue=1&publication_year=1998&pages=221-230&pmid=9914915&doi=10.1111/j.1600-065x.1998.tb01265.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-94",
+        "position": 93,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-95",
+      "position": 94,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Rollins-Smith LA. Amphibian immunity-stress, disease, and climate change. Developmental & Comparative Immunology. 2017;66(2):111–119. doi: 10.1016/j.dci.2016.07.002.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.dci.2016.07.002",
+        "27387153",
+        "journal=Developmental & Comparative Immunology&title=Amphibian immunity-stress, disease, and climate change&author=LA Rollins-Smith&volume=66&issue=2&publication_year=2017&pages=111-119&pmid=27387153&doi=10.1016/j.dci.2016.07.002&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-95",
+        "position": 94,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-96",
+      "position": 95,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Rollins-Smith LA. Global amphibian declines, disease, and the ongoing battle between Batrachochytrium fungi and the immune system. Herpetologica. 2020;76(2):178–188. doi: 10.1655/0018-0831-76.2.178.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1655/0018-0831-76.2.178",
+        "journal=Herpetologica&title=Global amphibian declines, disease, and the ongoing battle between Batrachochytrium fungi and the immune system&author=LA Rollins-Smith&volume=76&issue=2&publication_year=2020&pages=178-188&doi=10.1655/0018-0831-76.2.178&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-96",
+        "position": 95,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-97",
+      "position": 96,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Roth SA, Griffis-Kyle KL, Barnes MA. Batrachochytrium dendrobatidis in the arid and thermally extreme Sonoran Desert. EcoHealth. 2024;20(4):370–380. doi: 10.1007/s10393-023-01668-1.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s10393-023-01668-1",
+        "38243042",
+        "journal=EcoHealth&title=Batrachochytrium dendrobatidis in the arid and thermally extreme Sonoran Desert&author=SA Roth&author=KL Griffis-Kyle&author=MA Barnes&volume=20&issue=4&publication_year=2024&pages=370-380&pmid=38243042&doi=10.1007/s10393-023-01668-1&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-97",
+        "position": 96,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-98",
+      "position": 97,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Rothermel B, Miller D, Travis E, Gonynor McGuire J, Jensen J, Yabsley M. Disease dynamics of red-spotted newts and their anuran prey in a montane pond community. Diseases of Aquatic Organisms. 2016;118(2):113–127. doi: 10.3354/dao02965.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3354/dao02965",
+        "26912042",
+        "journal=Diseases of Aquatic Organisms&title=Disease dynamics of red-spotted newts and their anuran prey in a montane pond community&author=B Rothermel&author=D Miller&author=E Travis&author=J Gonynor McGuire&author=J Jensen&volume=118&issue=2&publication_year=2016&pages=113-127&pmid=26912042&doi=10.3354/dao02965&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-98",
+        "position": 97,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-99",
+      "position": 98,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Sasso T, McCallum H, Grogan L. Occurrence of Batrachochytrium dendrobatidis within and between species: a review of influential variables as identified from field studies. Biological Conservation. 2021;262(1795):109300. doi: 10.1016/j.biocon.2021.109300.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.biocon.2021.109300",
+        "journal=Biological Conservation&title=Occurrence of Batrachochytrium dendrobatidis within and between species: a review of influential variables as identified from field studies&author=T Sasso&author=H McCallum&author=L Grogan&volume=262&issue=1795&publication_year=2021&pages=109300&doi=10.1016/j.biocon.2021.109300&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-99",
+        "position": 98,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-100",
+      "position": 99,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Savage AE, Becker CG, Zamudio KR. Linking genetic and environmental factors in amphibian disease risk. Evolutionary Applications. 2015;8(6):560–572. doi: 10.1111/eva.12264.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/eva.12264",
+        "PMC4479512",
+        "26136822",
+        "journal=Evolutionary Applications&title=Linking genetic and environmental factors in amphibian disease risk&author=AE Savage&author=CG Becker&author=KR Zamudio&volume=8&issue=6&publication_year=2015&pages=560-572&pmid=26136822&doi=10.1111/eva.12264&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-100",
+        "position": 99,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-101",
+      "position": 100,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Savage AE, Muletz-Wolz CR, Campbell Grant EH, Fleischer RC, Mulder KP. Functional variation at an expressed MHC class IIβ locus associates with Ranavirus infection intensity in larval anuran populations. Immunogenetics. 2019;71(4):335–346. doi: 10.1007/s00251-019-01104-1.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s00251-019-01104-1",
+        "30761419",
+        "journal=Immunogenetics&title=Functional variation at an expressed MHC class IIβ locus associates with Ranavirus infection intensity in larval anuran populations&author=AE Savage&author=CR Muletz-Wolz&author=EH Campbell Grant&author=RC Fleischer&author=KP Mulder&volume=71&issue=4&publication_year=2019&pages=335-346&pmid=30761419&doi=10.1007/s00251-019-01104-1&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-101",
+        "position": 100,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-102",
+      "position": 101,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Savage AE, Sredl MJ, Zamudio KR. Disease dynamics vary spatially and temporally in a North American amphibian. Biological Conservation. 2011;144(6):1910–1915. doi: 10.1016/j.biocon.2011.03.018.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.biocon.2011.03.018",
+        "journal=Biological Conservation&title=Disease dynamics vary spatially and temporally in a North American amphibian&author=AE Savage&author=MJ Sredl&author=KR Zamudio&volume=144&issue=6&publication_year=2011&pages=1910-1915&doi=10.1016/j.biocon.2011.03.018&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-102",
+        "position": 101,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-103",
+      "position": 102,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Scheele BC, Pasmans F, Skerratt LF, Berger L, Martel A, Beukema W, Acevedo AA, Burrowes PA, Carvalho T, Catenazzi A, De la Riva I, Fisher MC, Flechas SV, Foster CN, Frías-Álvarez P, Garner TWJ, Gratwicke B, Guayasamin JM, Hirschfeld M, Kolby JE, Kosch TA, La Marca E, Lindenmayer DB, Lips KR, Longo AV, Maneyro R, McDonald CA, Mendelson J, III, Palacios-Rodriguez P, Parra-Olea G, Richards-Zawacki CL, Rödel M-O, Rovito SM, Soto-Azat C, Toledo LF, Voyles J, Weldon C, Whitfield SM, Wilkinson M, Zamudio KR, Canessa S. Amphibian fungal panzootic causes catastrophic and ongoing loss of biodiversity. Science. 2019;363(6434):1459–1463. doi: 10.1126/science.aav0379.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1126/science.aav0379",
+        "30923224",
+        "journal=Science&title=Amphibian fungal panzootic causes catastrophic and ongoing loss of biodiversity&author=BC Scheele&author=F Pasmans&author=LF Skerratt&author=L Berger&author=A Martel&volume=363&issue=6434&publication_year=2019&pages=1459-1463&pmid=30923224&doi=10.1126/science.aav0379&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-103",
+        "position": 102,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-104",
+      "position": 103,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Schwalbe N, Wahl B. Artificial intelligence and the future of global health. The Lancet. 2020;395(10236):1579–1586. doi: 10.1016/S0140-6736(20)30226-9.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/S0140-6736(20)30226-9",
+        "PMC7255280",
+        "32416782",
+        "journal=The Lancet&title=Artificial intelligence and the future of global health&author=N Schwalbe&author=B Wahl&volume=395&issue=10236&publication_year=2020&pages=1579-1586&pmid=32416782&doi=10.1016/S0140-6736(20)30226-9&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-104",
+        "position": 103,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-105",
+      "position": 104,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Smith KF, Acevedo-Whitehouse K, Pedersen AB. The role of infectious diseases in biological conservation. Animal Conservation. 2009;12(1):1–12. doi: 10.1111/j.1469-1795.2008.00228.x.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1469-1795.2008.00228.x",
+        "journal=Animal Conservation&title=The role of infectious diseases in biological conservation&author=KF Smith&author=K Acevedo-Whitehouse&author=AB Pedersen&volume=12&issue=1&publication_year=2009&pages=1-12&doi=10.1111/j.1469-1795.2008.00228.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-105",
+        "position": 104,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-106",
+      "position": 105,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Sonn JM, Utz RM, Richards-Zawacki CL. Effects of latitudinal, seasonal, and daily temperature variations on chytrid fungal infections in a North American frog. Ecosphere. 2019;10(11):e02892.  doi: 10.1002/ecs2.2892.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/ecs2.2892",
+        "journal=Ecosphere&title=Effects of latitudinal, seasonal, and daily temperature variations on chytrid fungal infections in a North American frog&author=JM Sonn&author=RM Utz&author=CL Richards-Zawacki&volume=10&issue=11&publication_year=2019&pages=e02892&doi=10.1002/ecs2.2892&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-106",
+        "position": 105,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-107",
+      "position": 106,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Stallknecht DE.  Impediments to wildlife disease surveillance, research, and diagnostics. In: Childs JE, Mackenzie JS, Richt JA, editors. Wildlife and Emerging Zoonotic Diseases: The Biology, Circumstances and Consequences of Cross-Species Transmission. Berlin, Heidelberg: Springer; 2007. pp. 445–461.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/978-3-540-70962-6_17",
+        "17848074",
+        "title=Wildlife and Emerging Zoonotic Diseases: The Biology, Circumstances and Consequences of Cross-Species Transmission&author=DE Stallknecht&publication_year=2007&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-107",
+        "position": 106,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-108",
+      "position": 107,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Sundar D. binom: binomial confidence intervals for several parameterizations. 2006.  Version 1.1.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.32614/CRAN.package.binom"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-108",
+        "position": 107,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-109",
+      "position": 108,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Teacher AGF, Cunningham AA, Garner TWJ. Assessing the long-term impact of Ranavirus infection in wild common frog populations. Animal Conservation. 2010;13(5):514–522. doi: 10.1111/j.1469-1795.2010.00373.x.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1469-1795.2010.00373.x",
+        "journal=Animal Conservation&title=Assessing the long-term impact of Ranavirus infection in wild common frog populations&author=AGF Teacher&author=AA Cunningham&author=TWJ Garner&volume=13&issue=5&publication_year=2010&pages=514-522&doi=10.1111/j.1469-1795.2010.00373.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-109",
+        "position": 108,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-110",
+      "position": 109,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Thompson CW, Phelps KL, Allard MW, Cook JA, Dunnum JL, Ferguson AW, Gelang M, Khan FAA, Paul DL, Reeder DM, Simmons NB, Vanhove MPM, Webala PW, Weksler M, Kilpatrick CW. Preserve a voucher specimen! The critical need for integrating natural history collections in infectious disease studies. mBio. 2021;12(1):e02698-20. doi: 10.1128/mBio.02698-20.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1128/mBio.02698-20",
+        "PMC7844540",
+        "33436435",
+        "journal=mBio&title=Preserve a voucher specimen! The critical need for integrating natural history collections in infectious disease studies&author=CW Thompson&author=KL Phelps&author=MW Allard&author=JA Cook&author=JL Dunnum&volume=12&issue=1&publication_year=2021&pages=e02698-20&pmid=33436435&doi=10.1128/mBio.02698-20&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-110",
+        "position": 109,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-111",
+      "position": 110,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Torres López AS, Wiley DLF, Omlor KN, Eberle CM, Barrow LN. Dynamics of amphibian pathogen detection using extended museum specimens. Journal of Wildlife Diseases. 2024;60(4):1004–1010. doi: 10.7589/JWD-D-24-00025.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.7589/JWD-D-24-00025",
+        "39041237",
+        "journal=Journal of Wildlife Diseases&title=Dynamics of amphibian pathogen detection using extended museum specimens&author=AS Torres López&author=DLF Wiley&author=KN Omlor&author=CM Eberle&author=LN Barrow&volume=60&issue=4&publication_year=2024&pages=1004-1010&pmid=39041237&doi=10.7589/JWD-D-24-00025&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-111",
+        "position": 110,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-112",
+      "position": 111,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Trujillo AL, Hoffman EA, Becker CG, Savage AE. Spatiotemporal adaptive evolution of an MHC immune gene in a frog-fungus disease system. Heredity. 2021;126(4):640–655. doi: 10.1038/s41437-020-00402-9.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41437-020-00402-9",
+        "PMC8115231",
+        "33510466",
+        "journal=Heredity&title=Spatiotemporal adaptive evolution of an MHC immune gene in a frog-fungus disease system&author=AL Trujillo&author=EA Hoffman&author=CG Becker&author=AE Savage&volume=126&issue=4&publication_year=2021&pages=640-655&pmid=33510466&doi=10.1038/s41437-020-00402-9&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-112",
+        "position": 111,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-113",
+      "position": 112,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Vredenburg VT, Knapp RA, Tunstall TS, Briggs CJ. Dynamics of an emerging disease drive large-scale amphibian population extinctions. Proceedings of the National Academy of Sciences of the United States of America. 2010;107(21):9689–9694. doi: 10.1073/pnas.0914111107.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1073/pnas.0914111107",
+        "PMC2906868",
+        "20457913",
+        "journal=Proceedings of the National Academy of Sciences of the United States of America&title=Dynamics of an emerging disease drive large-scale amphibian population extinctions&author=VT Vredenburg&author=RA Knapp&author=TS Tunstall&author=CJ Briggs&volume=107&issue=21&publication_year=2010&pages=9689-9694&pmid=20457913&doi=10.1073/pnas.0914111107&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-113",
+        "position": 112,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-114",
+      "position": 113,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Whitfield S, Alvarado G, Abarca J, Zumbado H, Zuñiga I, Wainwright M, Kerby J. Differential patterns of Batrachochytrium dendrobatidis infection in relict amphibian populations following severe disease-associated declines. Diseases of Aquatic Organisms. 2017;126(1):33–41. doi: 10.3354/dao03154.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3354/dao03154",
+        "28930083",
+        "journal=Diseases of Aquatic Organisms&title=Differential patterns of Batrachochytrium dendrobatidis infection in relict amphibian populations following severe disease-associated declines&author=S Whitfield&author=G Alvarado&author=J Abarca&author=H Zumbado&author=I Zuñiga&volume=126&issue=1&publication_year=2017&pages=33-41&pmid=28930083&doi=10.3354/dao03154&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-114",
+        "position": 113,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-115",
+      "position": 114,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wickham H.  Ggplot2. Cham: Springer International Publishing; 2016.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Ggplot2&author=H Wickham&publication_year=2016&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-115",
+        "position": 114,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-116",
+      "position": 115,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wilkinson MD, Dumontier M, Aalbersberg IJJ, Appleton G, Axton M, Baak A, Blomberg N, Boiten JW, da Silva Santos LB, Bourne PE, Bouwman J, Brookes AJ, Clark T, Crosas M, Dillo I, Dumon O, Edmunds S, Evelo CT, Finkers R, Gonzalez-Beltran A, Gray AJG, Groth P, Goble C, Grethe JS, Heringa J, ’t Hoen PAC, Hooft R, Kuhn T, Kok R, Kok J, Lusher SJ, Martone ME, Mons A, Packer AL, Persson B, Rocca-Serra P, Roos M, van Schaik R, Sansone S-A, Schultes E, Sengstag T, Slater T, Strawn G, Swertz MA, Thompson M, van der Lei J, van Mulligen E, Velterop J, Waagmeester A, Wittenburg P, Wolstencroft K, Zhao J, Mons B. The FAIR guiding principles for scientific data management and stewardship. Scientific Data. 2016;3:160018. doi: 10.1038/sdata.2016.18.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/sdata.2016.18",
+        "PMC4792175",
+        "26978244",
+        "journal=Scientific Data&title=The FAIR guiding principles for scientific data management and stewardship&author=MD Wilkinson&author=M Dumontier&author=IJJ Aalbersberg&author=G Appleton&author=M Axton&volume=3&publication_year=2016&pages=160018&pmid=26978244&doi=10.1038/sdata.2016.18&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-116",
+        "position": 115,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-119",
+      "position": 116,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Woodhams DC, Ardipradja K, Alford RA, Marantelli G, Reinert LK, Rollins-Smith LA. Resistance to chytridiomycosis varies among amphibian species and is correlated with skin peptide defenses. Animal Conservation. 2007;10(4):409–417. doi: 10.1111/j.1469-1795.2007.00130.x.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1469-1795.2007.00130.x",
+        "journal=Animal Conservation&title=Resistance to chytridiomycosis varies among amphibian species and is correlated with skin peptide defenses&author=DC Woodhams&author=K Ardipradja&author=RA Alford&author=G Marantelli&author=LK Reinert&volume=10&issue=4&publication_year=2007&pages=409-417&doi=10.1111/j.1469-1795.2007.00130.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-119",
+        "position": 116,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-117",
+      "position": 117,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "World Organisation for Animal Health (WOAH)  Manual of diagnostic tests for aquatic animals: Chapter 2.1.1.—infection with Batrachochytrium dendrobatidis. 2021a. https://www.woah.org/fileadmin/Home/eng/Health_standards/aahm/current/2.1.01_Bdendro.pdf https://www.woah.org/fileadmin/Home/eng/Health_standards/aahm/current/2.1.01_Bdendro.pdf Manual of Diagnostic Tests for Aquatic Animals.",
+      "identifiers": [],
+      "externalLinks": [
+        "https://www.woah.org/fileadmin/Home/eng/Health_standards/aahm/current/2.1.01_Bdendro.pdf",
+        "https://www.woah.org/fileadmin/Home/eng/Health_standards/aahm/current/2.1.01_Bdendro.pdf"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-117",
+        "position": 117,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-118",
+      "position": 118,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "World Organisation for Animal Health (WOAH)   Manual of Diagnostic Tests for Aquatic Animals. 2021b. Infection with Ranavirus. (Accessed March 2024)",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Manual of Diagnostic Tests for Aquatic Animals&publication_year=2021b&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-118",
+        "position": 118,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-120",
+      "position": 119,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Xie GY, Olson DH, Blaustein AR. Projecting the global distribution of the emerging amphibian fungal pathogen, Batrachochytrium dendrobatidis, based on IPCC climate futures. PLOS ONE. 2016;11(8):e0160746.  doi: 10.1371/journal.pone.0160746.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pone.0160746",
+        "PMC4981458",
+        "27513565",
+        "journal=PLOS ONE&title=Projecting the global distribution of the emerging amphibian fungal pathogen, Batrachochytrium dendrobatidis, based on IPCC climate futures&author=GY Xie&author=DH Olson&author=AR Blaustein&volume=11&issue=8&publication_year=2016&pages=e0160746&pmid=27513565&doi=10.1371/journal.pone.0160746&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-120",
+        "position": 119,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-121",
+      "position": 120,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Yap TA, Koo MS, Ambrose RF, Vredenburg VT. Introduced bullfrog facilitates pathogen invasion in the western United States. PLOS ONE. 2018;13(4):e0188384.  doi: 10.1371/journal.pone.0188384.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pone.0188384",
+        "PMC5901863",
+        "29659568",
+        "journal=PLOS ONE&title=Introduced bullfrog facilitates pathogen invasion in the western United States&author=TA Yap&author=MS Koo&author=RF Ambrose&author=VT Vredenburg&volume=13&issue=4&publication_year=2018&pages=e0188384&pmid=29659568&doi=10.1371/journal.pone.0188384&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-121",
+        "position": 120,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-122",
+      "position": 121,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Youker-Smith TE, Boersch-Supan PH, Whipps CM, Ryan SJ. Environmental drivers of Ranavirus in free-living amphibians in constructed ponds. EcoHealth. 2018;15(3):608–618. doi: 10.1007/s10393-018-1350-5.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s10393-018-1350-5",
+        "PMC6245063",
+        "30094775",
+        "journal=EcoHealth&title=Environmental drivers of Ranavirus in free-living amphibians in constructed ponds&author=TE Youker-Smith&author=PH Boersch-Supan&author=CM Whipps&author=SJ Ryan&volume=15&issue=3&publication_year=2018&pages=608-618&pmid=30094775&doi=10.1007/s10393-018-1350-5&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11786709/article.xml",
+        "articleSha256": "f2ae74f05179107903dd4b772411ff02671e8b86e24b0756885d86998be2ca1b",
+        "referenceId": "ref-122",
+        "position": 121,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "PeerJ"
+    ],
+    "abbreviations": [
+      {
+        "value": "PeerJ"
+      }
+    ],
+    "identifiers": [
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "2057"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "peerj"
+      }
+    ],
+    "issns": [],
+    "publisherNames": [
+      "PeerJ, Inc"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "13"
+    ],
+    "fpage": [
+      "e18901"
+    ]
+  }
+}

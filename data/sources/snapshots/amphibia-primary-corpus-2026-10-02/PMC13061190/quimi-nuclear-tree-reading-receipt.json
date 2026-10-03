@@ -1,0 +1,30 @@
+{
+  "pmc": "PMC13061190",
+  "sourceFile": "pone.0345097.s002.tif",
+  "sha256": "a80eb833d154e69e1308650a1967d7b5c1d917ea78269d4043423f305ccc8c40",
+  "pixelDimensions": [1751, 2141],
+  "readScope": "Full original figure pixels, printed donor labels, caption and selected unambiguously associated node labels visually inspected; no raw sequence recomputation",
+  "caption": {"alignedSites":3536,"nuclearLoci":7,"supportOrder":["SH-aLRT percent","ultrafast bootstrap percent"]},
+  "printedTipLabels": [
+    "N. aff. grandisonae QCAZ58032", "N. grandisonae QCAZ22310", "N. aff. grandisonae QCAZ58030",
+    "N. mixomaculatus MTD45200", "N. ocellatus GCI363", "N. pluvialis QCAZ-A 26023", "N. pluvialis MNCN/ADN5004", "N. pluvialis KU173224", "N. bejaranoi CBG1488", "N. bejaranoi MNK5242",
+    "N. vicenteruedai AVV119", "N. rosadus MHUA4308", "N. cochranae QCAZ-A 31113", "N. cochranae QCAZ-A 59074", "N. megacheirus KU143272", "N. siren QCAZ-A 59075", "N. siren KU179171", "N. siren QCAZ-A 59069",
+    "N. buenaventura DHMECN10902", "Nymphargus sp. QCAZ-A 31340", "Nymphargus sp. DHMECN2249", "N. wileyi QCAZ-A 27435", "N. lasgralarias QCAZ-A 31768", "N. dajomesae sp. nov. QCAZ-A 68586", "N. dajomesae sp. nov. QCAZ-A 68522", "N. dajomesae sp. nov. QCAZ-A 68526"
+  ],
+  "selectedNodeReadings": [
+    {"node":"Three grandisonae/aff.grandisonae tips","SHaLRT":98.6,"UFB":94,"bothStrongCriteriaMet":false},
+    {"node":"ocellatus GCI363 with pluvialis QCAZ-A26023","SHaLRT":78.6,"UFB":95,"bothStrongCriteriaMet":false},
+    {"node":"bejaranoi CBG1488 with MNK5242","SHaLRT":90.6,"UFB":99,"bothStrongCriteriaMet":true},
+    {"node":"cochranae QCAZ-A31113 with QCAZ-A59074","SHaLRT":95.2,"UFB":100,"bothStrongCriteriaMet":true},
+    {"node":"Three siren tips","SHaLRT":88.8,"UFB":97,"bothStrongCriteriaMet":true},
+    {"node":"buenaventura divergence from remaining close lineages","SHaLRT":67.7,"UFB":50,"bothStrongCriteriaMet":false},
+    {"node":"unnamed DHMECN2249 with wileyi QCAZ-A27435","SHaLRT":76,"UFB":82,"bothStrongCriteriaMet":false},
+    {"node":"lasgralarias with three dajomesae tips","SHaLRT":78.1,"UFB":72,"bothStrongCriteriaMet":false},
+    {"node":"Three dajomesae tips","SHaLRT":74.6,"UFB":91,"bothStrongCriteriaMet":false}
+  ],
+  "criteriaLocator": "article.xml sec009: UFB>94.9 and SH-aLRT>79.9",
+  "unassignedLabels": ["aff.grandisonae donors","rosadus MHUA4308 (exact pinned accepted bridge not found)","unnamed QCAZ-A31340/DHMECN2249","dajomesae absent from frozen accepted snapshot"],
+  "limits": ["Tree has no node-age axis; 0.008 scale is branch length, not Ma", "Qualified donor identity not established by resembling a named terminal", "New nuclear placements are not automatically complete species concepts or range records", "Original alignment, sequence records and voucher identities independently unauthenticated"],
+  "fullArticleCertifiedRead":false,
+  "testsRun":false
+}

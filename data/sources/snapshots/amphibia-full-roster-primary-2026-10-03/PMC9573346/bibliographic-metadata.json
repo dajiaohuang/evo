@@ -1,0 +1,4701 @@
+{
+  "pmcid": "PMC9573346",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+  "sha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+  "articleType": "research-article",
+  "title": "Ribovirus classification by a polymerase barcode sequence",
+  "authors": [
+    {
+      "name": "Artem Babaian",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Artem",
+        "surname": "Babaian",
+        "suffix": null
+      },
+      "originalName": "BabaianArtem",
+      "attributes": {
+        "id": "author-1",
+        "contrib-type": "author",
+        "equal-contrib": "yes"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Robert Edgar",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Robert",
+        "surname": "Edgar",
+        "suffix": null
+      },
+      "originalName": "EdgarRobert",
+      "attributes": {
+        "id": "author-2",
+        "contrib-type": "author",
+        "corresp": "yes",
+        "equal-contrib": "yes"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0001-7355-2541"
+        }
+      ]
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC9573346"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC9573346.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "9573346"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "9573346"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "36258794"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.7717/peerj.14055"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "14055"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "date-type": "pub",
+      "iso-8601-date": "2022-10-13",
+      "year": "2022",
+      "month": "10",
+      "day": "13"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2022",
+      "month": null,
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "supp-1",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-10-14055-s001.zip",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-10-14055-s001.zip",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "supp-2",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "peerj-10-14055-s002.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "peerj-10-14055-s002.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "ref-1",
+      "position": 0,
+      "title": "The UNITE database for molecular identification of fungi—recent updates and future perspectives",
+      "source": "New Phytologist",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Abarenkov",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AbarenkovK"
+            },
+            {
+              "surname": "Henrik Nilsson",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Henrik NilssonR"
+            },
+            {
+              "surname": "Larsson",
+              "givenNames": "K-H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LarssonK-H"
+            },
+            {
+              "surname": "Alexander",
+              "givenNames": "IJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AlexanderIJ"
+            },
+            {
+              "surname": "Eberhardt",
+              "givenNames": "U",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EberhardtU"
+            },
+            {
+              "surname": "Erland",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ErlandS"
+            },
+            {
+              "surname": "Høiland",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HøilandK"
+            },
+            {
+              "surname": "Kjøller",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KjøllerR"
+            },
+            {
+              "surname": "Larsson",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LarssonE"
+            },
+            {
+              "surname": "Pennanen",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PennanenT"
+            },
+            {
+              "surname": "Sen",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SenR"
+            },
+            {
+              "surname": "Taylor",
+              "givenNames": "AFS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TaylorAFS"
+            },
+            {
+              "surname": "Tedersoo",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TedersooL"
+            },
+            {
+              "surname": "Ursing",
+              "givenNames": "BM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "UrsingBM"
+            },
+            {
+              "surname": "Vrålstad",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VrålstadT"
+            },
+            {
+              "surname": "Liimatainen",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiimatainenK"
+            },
+            {
+              "surname": "Peintner",
+              "givenNames": "U",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PeintnerU"
+            },
+            {
+              "surname": "Kõljalg",
+              "givenNames": "U",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KõljalgU"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "186"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "281"
+        ],
+        "lpage": [
+          "285"
+        ]
+      },
+      "originalCitationText": "AbarenkovK\nHenrik NilssonR\nLarssonK-H\nAlexanderIJ\nEberhardtU\nErlandS\nHøilandK\nKjøllerR\nLarssonE\nPennanenT\nSenR\nTaylorAFS\nTedersooL\nUrsingBM\nVrålstadT\nLiimatainenK\nPeintnerU\nKõljalgU\nThe UNITE database for molecular identification of fungi—recent updates and future perspectivesNew Phytologist2010186228128510.1111/nph.2010.186.issue-220409185",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/nph.2010.186.issue-2"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20409185"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-2",
+      "position": 1,
+      "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+      "source": "Nucleic Acids Research",
+      "year": "1997",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Altschul",
+              "givenNames": "SF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AltschulSF"
+            },
+            {
+              "surname": "Madden",
+              "givenNames": "TL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaddenTL"
+            },
+            {
+              "surname": "Schäffer",
+              "givenNames": "AA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchäfferAA"
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangJ"
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "Z",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangZ"
+            },
+            {
+              "surname": "Miller",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MillerW"
+            },
+            {
+              "surname": "Lipman",
+              "givenNames": "DJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LipmanDJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "issue": [
+          "17"
+        ],
+        "fpage": [
+          "3389"
+        ],
+        "lpage": [
+          "3402"
+        ]
+      },
+      "originalCitationText": "AltschulSF\nMaddenTL\nSchäfferAA\nZhangJ\nZhangZ\nMillerW\nLipmanDJ\nGapped BLAST and PSI-BLAST: a new generation of protein database search programsNucleic Acids Research199725173389340210.1093/nar/25.17.33899254694PMC146917",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/25.17.3389"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "9254694"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC146917"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-2",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-3",
+      "position": 2,
+      "title": "The Pfam protein families database",
+      "source": "Nucleic Acids Research",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bateman",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BatemanA"
+            },
+            {
+              "surname": "Coin",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CoinL"
+            },
+            {
+              "surname": "Durbin",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DurbinR"
+            },
+            {
+              "surname": "Finn",
+              "givenNames": "RD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FinnRD"
+            },
+            {
+              "surname": "Hollich",
+              "givenNames": "V",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HollichV"
+            },
+            {
+              "surname": "Griffiths-Jones",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Griffiths-JonesS"
+            },
+            {
+              "surname": "Khanna",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KhannaA"
+            },
+            {
+              "surname": "Marshall",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MarshallM"
+            },
+            {
+              "surname": "Moxon",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MoxonS"
+            },
+            {
+              "surname": "Sonnhammer",
+              "givenNames": "EL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SonnhammerEL"
+            },
+            {
+              "surname": "Studholme",
+              "givenNames": "DJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StudholmeDJ"
+            },
+            {
+              "surname": "Yeats",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YeatsC"
+            },
+            {
+              "surname": "Eddy",
+              "givenNames": "SR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EddySR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "32"
+        ],
+        "issue": [
+          "suppl_1"
+        ],
+        "fpage": [
+          "D138"
+        ],
+        "lpage": [
+          "D141"
+        ]
+      },
+      "originalCitationText": "BatemanA\nCoinL\nDurbinR\nFinnRD\nHollichV\nGriffiths-JonesS\nKhannaA\nMarshallM\nMoxonS\nSonnhammerEL\nStudholmeDJ\nYeatsC\nEddySR\nThe Pfam protein families databaseNucleic Acids Research200432suppl_1D138D14110.1093/nar/gkh12114681378PMC308855",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gkh121"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "14681378"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC308855"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-3",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-4",
+      "position": 3,
+      "title": "Relatives of rubella virus in diverse mammals",
+      "source": "Nature",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bennett",
+              "givenNames": "AJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BennettAJ"
+            },
+            {
+              "surname": "Paskey",
+              "givenNames": "AC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PaskeyAC"
+            },
+            {
+              "surname": "Ebinger",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EbingerA"
+            },
+            {
+              "surname": "Pfaff",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PfaffF"
+            },
+            {
+              "surname": "Priemer",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PriemerG"
+            },
+            {
+              "surname": "Höper",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HöperD"
+            },
+            {
+              "surname": "Breithaupt",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BreithauptA"
+            },
+            {
+              "surname": "Heuser",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HeuserE"
+            },
+            {
+              "surname": "Ulrich",
+              "givenNames": "RG",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "UlrichRG"
+            },
+            {
+              "surname": "Kuhn",
+              "givenNames": "JH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KuhnJH"
+            },
+            {
+              "surname": "Bishop-Lilly",
+              "givenNames": "KA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Bishop-LillyKA"
+            },
+            {
+              "surname": "Beer",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BeerM"
+            },
+            {
+              "surname": "Goldberg",
+              "givenNames": "TL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GoldbergTL"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "586"
+        ],
+        "fpage": [
+          "424"
+        ],
+        "lpage": [
+          "428"
+        ]
+      },
+      "originalCitationText": "BennettAJ\nPaskeyAC\nEbingerA\nPfaffF\nPriemerG\nHöperD\nBreithauptA\nHeuserE\nUlrichRG\nKuhnJH\nBishop-LillyKA\nBeerM\nGoldbergTL\nRelatives of rubella virus in diverse mammalsNature2020586424428Number: 7829 Publisher: Nature Publishing Group10.1038/s41586-020-2812-933029010PMC7572621",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41586-020-2812-9"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33029010"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7572621"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-4",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-5",
+      "position": 4,
+      "title": "Genbank",
+      "source": "Nucleic Acids Research",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Benson",
+              "givenNames": "DA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BensonDA"
+            },
+            {
+              "surname": "Cavanaugh",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CavanaughM"
+            },
+            {
+              "surname": "Clark",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ClarkK"
+            },
+            {
+              "surname": "Karsch-Mizrachi",
+              "givenNames": "I",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Karsch-MizrachiI"
+            },
+            {
+              "surname": "Lipman",
+              "givenNames": "DJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LipmanDJ"
+            },
+            {
+              "surname": "Ostell",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OstellJ"
+            },
+            {
+              "surname": "Sayers",
+              "givenNames": "EW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SayersEW"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "41"
+        ],
+        "issue": [
+          "D1"
+        ],
+        "fpage": [
+          "D36"
+        ],
+        "lpage": [
+          "D42"
+        ]
+      },
+      "originalCitationText": "BensonDA\nCavanaughM\nClarkK\nKarsch-MizrachiI\nLipmanDJ\nOstellJ\nSayersEW\nGenbankNucleic Acids Research201241D1D36D4210.1093/nar/gks119527899564PMC5210553",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gks1195"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27899564"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5210553"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-5",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-6",
+      "position": 5,
+      "title": "Endogenous retroviruses and the human germline",
+      "source": "Current Opinion in Genetics & Development",
+      "year": "2000",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bock",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BockM"
+            },
+            {
+              "surname": "Stoye",
+              "givenNames": "JP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StoyeJP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "651"
+        ],
+        "lpage": [
+          "655"
+        ]
+      },
+      "originalCitationText": "BockM\nStoyeJP\nEndogenous retroviruses and the human germlineCurrent Opinion in Genetics & Development200010665165510.1016/S0959-437X(00)00138-611088016",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/S0959-437X(00)00138-6"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "11088016"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-6",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-7",
+      "position": 6,
+      "title": "A structural and primary sequence comparison of the viral RNA-dependent RNA polymerases",
+      "source": "Nucleic acids research",
+      "year": "2003",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bruenn",
+              "givenNames": "JA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BruennJA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "31"
+        ],
+        "issue": [
+          "7"
+        ],
+        "fpage": [
+          "1821"
+        ],
+        "lpage": [
+          "1829"
+        ]
+      },
+      "originalCitationText": "BruennJA\nA structural and primary sequence comparison of the viral RNA-dependent RNA polymerasesNucleic acids research20033171821182910.1093/nar/gkg27712654997PMC152793",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gkg277"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "12654997"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC152793"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-7",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-8",
+      "position": 7,
+      "title": "The history and medical consequences of rubella",
+      "source": "Reviews of Infectious Diseases",
+      "year": "1985",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Cooper",
+              "givenNames": "LZ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CooperLZ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "issue": [
+          "Suppl 1"
+        ],
+        "fpage": [
+          "S2"
+        ],
+        "lpage": [
+          "S10"
+        ]
+      },
+      "originalCitationText": "CooperLZ\nThe history and medical consequences of rubellaReviews of Infectious Diseases19857Suppl 1S2S1010.1093/clinids/7.supplement_1.s23890105",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/clinids/7.supplement_1.s2"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "3890105"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-8",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-9",
+      "position": 8,
+      "title": "Search and clustering orders of magnitude faster than BLAST",
+      "source": "Bioinformatics",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Edgar",
+              "givenNames": "RC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EdgarRC"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "26"
+        ],
+        "issue": [
+          "19"
+        ],
+        "fpage": [
+          "2460"
+        ],
+        "lpage": [
+          "2461"
+        ]
+      },
+      "originalCitationText": "EdgarRC\nSearch and clustering orders of magnitude faster than BLASTBioinformatics201026192460246110.1093/bioinformatics/btq46120709691",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/btq461"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20709691"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-9",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-10",
+      "position": 9,
+      "title": "Petabase-scale sequence alignment catalyses viral discovery",
+      "source": "Nature",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Edgar",
+              "givenNames": "RC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EdgarRC"
+            },
+            {
+              "surname": "Taylor",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TaylorJ"
+            },
+            {
+              "surname": "Lin",
+              "givenNames": "V",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LinV"
+            },
+            {
+              "surname": "Altman",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AltmanT"
+            },
+            {
+              "surname": "Barbera",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BarberaP"
+            },
+            {
+              "surname": "Meleshko",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MeleshkoD"
+            },
+            {
+              "surname": "Lohr",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LohrD"
+            },
+            {
+              "surname": "Novakovsky",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NovakovskyG"
+            },
+            {
+              "surname": "Buchfink",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BuchfinkB"
+            },
+            {
+              "surname": "Al-Shayeb",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Al-ShayebB"
+            },
+            {
+              "surname": "Banfield",
+              "givenNames": "JF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BanfieldJF"
+            },
+            {
+              "surname": "de la Peña",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "de la PeñaM"
+            },
+            {
+              "surname": "Korobeynikov",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KorobeynikovA"
+            },
+            {
+              "surname": "Chikhi",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChikhiR"
+            },
+            {
+              "surname": "Babaian",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BabaianA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "602"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "6"
+        ]
+      },
+      "originalCitationText": "EdgarRC\nTaylorJ\nLinV\nAltmanT\nBarberaP\nMeleshkoD\nLohrD\nNovakovskyG\nBuchfinkB\nAl-ShayebB\nBanfieldJF\nde la PeñaM\nKorobeynikovA\nChikhiR\nBabaianA\nPetabase-scale sequence alignment catalyses viral discoveryNature20226021610.1038/s41586-021-04332-235082445",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41586-021-04332-2"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35082445"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-10",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-11",
+      "position": 10,
+      "title": "Temperature-mediated shifts in salamander transcriptomic responses to the amphibian-killing fungus",
+      "source": "Molecular Ecology",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ellison",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EllisonA"
+            },
+            {
+              "surname": "Zamudio",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZamudioK"
+            },
+            {
+              "surname": "Lips",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LipsK"
+            },
+            {
+              "surname": "Muletz-Wolz",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Muletz-WolzC"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "325"
+        ],
+        "lpage": [
+          "343"
+        ]
+      },
+      "originalCitationText": "EllisonA\nZamudioK\nLipsK\nMuletz-WolzC\nTemperature-mediated shifts in salamander transcriptomic responses to the amphibian-killing fungusMolecular Ecology202029232534310.1111/mec.1532731820839",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/mec.15327"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31820839"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-11",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-12",
+      "position": 11,
+      "title": "Endogenous viruses: insights into viral evolution and impact on host biology",
+      "source": "Nature Reviews Genetics",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Feschotte",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FeschotteC"
+            },
+            {
+              "surname": "Gilbert",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GilbertC"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "283"
+        ],
+        "lpage": [
+          "296"
+        ]
+      },
+      "originalCitationText": "FeschotteC\nGilbertC\nEndogenous viruses: insights into viral evolution and impact on host biologyNature Reviews Genetics201213428329610.1038/nrg319922421730",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nrg3199"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22421730"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-12",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-13",
+      "position": 12,
+      "title": "The palm subdomain-based active site is internally permuted in viral RNA-dependent RNA polymerases of an ancient lineage",
+      "source": "Journal of Molecular Biology",
+      "year": "2002",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Gorbalenya",
+              "givenNames": "AE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GorbalenyaAE"
+            },
+            {
+              "surname": "Pringle",
+              "givenNames": "FM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PringleFM"
+            },
+            {
+              "surname": "Zeddam",
+              "givenNames": "J-L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZeddamJ-L"
+            },
+            {
+              "surname": "Luke",
+              "givenNames": "BT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LukeBT"
+            },
+            {
+              "surname": "Cameron",
+              "givenNames": "CE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CameronCE"
+            },
+            {
+              "surname": "Kalmakoff",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KalmakoffJ"
+            },
+            {
+              "surname": "Hanzlik",
+              "givenNames": "TN",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HanzlikTN"
+            },
+            {
+              "surname": "Gordon",
+              "givenNames": "KH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GordonKH"
+            },
+            {
+              "surname": "Ward",
+              "givenNames": "VK",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WardVK"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "324"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "47"
+        ],
+        "lpage": [
+          "62"
+        ]
+      },
+      "originalCitationText": "GorbalenyaAE\nPringleFM\nZeddamJ-L\nLukeBT\nCameronCE\nKalmakoffJ\nHanzlikTN\nGordonKH\nWardVK\nThe palm subdomain-based active site is internally permuted in viral RNA-dependent RNA polymerases of an ancient lineageJournal of Molecular Biology20023241476210.1016/S0022-2836(02)01033-112421558PMC7127740",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/S0022-2836(02)01033-1"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "12421558"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7127740"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-13",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-14",
+      "position": 13,
+      "title": "High temporal and spatial diversity in marine RNA viruses implies that they have an important role in mortality and structuring plankton communities",
+      "source": "Frontiers in Microbiology",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Gustavsen",
+              "givenNames": "JA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GustavsenJA"
+            },
+            {
+              "surname": "Winget",
+              "givenNames": "DM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WingetDM"
+            },
+            {
+              "surname": "Tian",
+              "givenNames": "X",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TianX"
+            },
+            {
+              "surname": "Suttle",
+              "givenNames": "CA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SuttleCA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "5"
+        ],
+        "fpage": [
+          "703"
+        ]
+      },
+      "originalCitationText": "GustavsenJA\nWingetDM\nTianX\nSuttleCA\nHigh temporal and spatial diversity in marine RNA viruses implies that they have an important role in mortality and structuring plankton communitiesFrontiers in Microbiology2014570310.3389/fmicb.2014.0070325566218PMC4266044",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3389/fmicb.2014.00703"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25566218"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4266044"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-14",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-15",
+      "position": 14,
+      "title": "DisProt: intrinsic protein disorder annotation in 2020",
+      "source": "Nucleic Acids Research",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hatos",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HatosA"
+            },
+            {
+              "surname": "Hajdu-Soltész",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Hajdu-SoltészB"
+            },
+            {
+              "surname": "Monzon",
+              "givenNames": "AM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MonzonAM"
+            },
+            {
+              "surname": "Palopoli",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PalopoliN"
+            },
+            {
+              "surname": "Álvarez",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ÁlvarezL"
+            },
+            {
+              "surname": "Aykac-Fas",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Aykac-FasB"
+            },
+            {
+              "surname": "Bassot",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BassotC"
+            },
+            {
+              "surname": "Benítez",
+              "givenNames": "GI",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BenítezGI"
+            },
+            {
+              "surname": "Bevilacqua",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BevilacquaM"
+            },
+            {
+              "surname": "Chasapi",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChasapiA"
+            },
+            {
+              "surname": "Chemes",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChemesL"
+            },
+            {
+              "surname": "Davey",
+              "givenNames": "NE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DaveyNE"
+            },
+            {
+              "surname": "Davidović",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DavidovićR"
+            },
+            {
+              "surname": "Keith Dunker",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Keith DunkerA"
+            },
+            {
+              "surname": "Elofsson",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ElofssonA"
+            },
+            {
+              "surname": "Gobeill",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GobeillJ"
+            },
+            {
+              "surname": "González Foutel",
+              "givenNames": "NS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "González FoutelNS"
+            },
+            {
+              "surname": "Sudha",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SudhaG"
+            },
+            {
+              "surname": "Guharoy",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GuharoyM"
+            },
+            {
+              "surname": "Horvath",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HorvathT"
+            },
+            {
+              "surname": "Iglesias",
+              "givenNames": "V",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "IglesiasV"
+            },
+            {
+              "surname": "Kajava",
+              "givenNames": "AV",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KajavaAV"
+            },
+            {
+              "surname": "Kovacs",
+              "givenNames": "OP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KovacsOP"
+            },
+            {
+              "surname": "Lamb",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LambJ"
+            },
+            {
+              "surname": "Lambrughi",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LambrughiM"
+            },
+            {
+              "surname": "Lazar",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LazarT"
+            },
+            {
+              "surname": "Leclercq",
+              "givenNames": "JY",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LeclercqJY"
+            },
+            {
+              "surname": "Leonardi",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LeonardiE"
+            },
+            {
+              "surname": "Macedo-Ribeiro",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Macedo-RibeiroS"
+            },
+            {
+              "surname": "Macossay-Castillo",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Macossay-CastilloM"
+            },
+            {
+              "surname": "Maiani",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaianiE"
+            },
+            {
+              "surname": "Manso",
+              "givenNames": "JA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MansoJA"
+            },
+            {
+              "surname": "Marino-Buslje",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Marino-BusljeC"
+            },
+            {
+              "surname": "Martínez-Pérez",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Martínez-PérezE"
+            },
+            {
+              "surname": "Mészáros",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MészárosB"
+            },
+            {
+              "surname": "Mičetić",
+              "givenNames": "I",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MičetićI"
+            },
+            {
+              "surname": "Minervini",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MinerviniG"
+            },
+            {
+              "surname": "Murvai",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MurvaiN"
+            },
+            {
+              "surname": "Necci",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NecciM"
+            },
+            {
+              "surname": "Ouzounis",
+              "givenNames": "CA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OuzounisCA"
+            },
+            {
+              "surname": "Pajkos",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PajkosM"
+            },
+            {
+              "surname": "Paladin",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PaladinL"
+            },
+            {
+              "surname": "Pancsa",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PancsaR"
+            },
+            {
+              "surname": "Papaleo",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PapaleoE"
+            },
+            {
+              "surname": "Parisi",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ParisiG"
+            },
+            {
+              "surname": "Pasche",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PascheE"
+            },
+            {
+              "surname": "Barbosa Pereira",
+              "givenNames": "PJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Barbosa PereiraPJ"
+            },
+            {
+              "surname": "Promponas",
+              "givenNames": "VJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PromponasVJ"
+            },
+            {
+              "surname": "Pujols",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PujolsJ"
+            },
+            {
+              "surname": "Quaglia",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "QuagliaF"
+            },
+            {
+              "surname": "Ruch",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RuchP"
+            },
+            {
+              "surname": "Salvatore",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SalvatoreM"
+            },
+            {
+              "surname": "Schad",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchadE"
+            },
+            {
+              "surname": "Szabo",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SzaboB"
+            },
+            {
+              "surname": "Szaniszló",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SzaniszlóT"
+            },
+            {
+              "surname": "Tamana",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TamanaS"
+            },
+            {
+              "surname": "Tantos",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TantosA"
+            },
+            {
+              "surname": "Veljkovic",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VeljkovicN"
+            },
+            {
+              "surname": "Ventura",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VenturaS"
+            },
+            {
+              "surname": "Vranken",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VrankenW"
+            },
+            {
+              "surname": "Dosztányi",
+              "givenNames": "Z",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DosztányiZ"
+            },
+            {
+              "surname": "Tompa",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TompaP"
+            },
+            {
+              "surname": "Tosatto",
+              "givenNames": "SCE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TosattoSCE"
+            },
+            {
+              "surname": "Piovesan",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PiovesanD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "48"
+        ],
+        "issue": [
+          "D1"
+        ],
+        "fpage": [
+          "D269"
+        ],
+        "lpage": [
+          "D276"
+        ]
+      },
+      "originalCitationText": "HatosA\nHajdu-SoltészB\nMonzonAM\nPalopoliN\nÁlvarezL\nAykac-FasB\nBassotC\nBenítezGI\nBevilacquaM\nChasapiA\nChemesL\nDaveyNE\nDavidovićR\nKeith DunkerA\nElofssonA\nGobeillJ\nGonzález FoutelNS\nSudhaG\nGuharoyM\nHorvathT\nIglesiasV\nKajavaAV\nKovacsOP\nLambJ\nLambrughiM\nLazarT\nLeclercqJY\nLeonardiE\nMacedo-RibeiroS\nMacossay-CastilloM\nMaianiE\nMansoJA\nMarino-BusljeC\nMartínez-PérezE\nMészárosB\nMičetićI\nMinerviniG\nMurvaiN\nNecciM\nOuzounisCA\nPajkosM\nPaladinL\nPancsaR\nPapaleoE\nParisiG\nPascheE\nBarbosa PereiraPJ\nPromponasVJ\nPujolsJ\nQuagliaF\nRuchP\nSalvatoreM\nSchadE\nSzaboB\nSzaniszlóT\nTamanaS\nTantosA\nVeljkovicN\nVenturaS\nVrankenW\nDosztányiZ\nTompaP\nTosattoSCE\nPiovesanD\nDisProt: intrinsic protein disorder annotation in 2020Nucleic Acids Research202048D1D269D27610.1093/nar/gkz97531713636PMC7145575",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gkz975"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31713636"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7145575"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-15",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-16",
+      "position": 15,
+      "title": "Amino acid substitution matrices from protein blocks",
+      "source": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": "1992",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Henikoff",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HenikoffS"
+            },
+            {
+              "surname": "Henikoff",
+              "givenNames": "JG",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HenikoffJG"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "89"
+        ],
+        "issue": [
+          "22"
+        ],
+        "fpage": [
+          "10915"
+        ],
+        "lpage": [
+          "10919"
+        ]
+      },
+      "originalCitationText": "HenikoffS\nHenikoffJG\nAmino acid substitution matrices from protein blocksProceedings of the National Academy of Sciences of the United States of America19928922109151091910.1073/pnas.89.22.109151438297PMC50453",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.89.22.10915"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "1438297"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC50453"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-16",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-17",
+      "position": 16,
+      "title": "The evolution of endogenous viral elements",
+      "source": "Cell Host & Microbe",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Holmes",
+              "givenNames": "EC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HolmesEC"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "368"
+        ],
+        "lpage": [
+          "377"
+        ]
+      },
+      "originalCitationText": "HolmesEC\nThe evolution of endogenous viral elementsCell Host & Microbe201110436837710.1016/j.chom.2011.09.00222018237PMC7172163",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.chom.2011.09.002"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22018237"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7172163"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-17",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-18",
+      "position": 17,
+      "title": "Interpro: the integrative protein signature database",
+      "source": "Nucleic Acids Research",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hunter",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HunterS"
+            },
+            {
+              "surname": "Apweiler",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ApweilerR"
+            },
+            {
+              "surname": "Attwood",
+              "givenNames": "TK",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AttwoodTK"
+            },
+            {
+              "surname": "Bairoch",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BairochA"
+            },
+            {
+              "surname": "Bateman",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BatemanA"
+            },
+            {
+              "surname": "Binns",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BinnsD"
+            },
+            {
+              "surname": "Bork",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BorkP"
+            },
+            {
+              "surname": "Das",
+              "givenNames": "U",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DasU"
+            },
+            {
+              "surname": "Daugherty",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DaughertyL"
+            },
+            {
+              "surname": "Duquenne",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DuquenneL"
+            },
+            {
+              "surname": "Finn",
+              "givenNames": "RD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FinnRD"
+            },
+            {
+              "surname": "Gough",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GoughJ"
+            },
+            {
+              "surname": "Haft",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HaftD"
+            },
+            {
+              "surname": "Hulo",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuloN"
+            },
+            {
+              "surname": "Kahn",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KahnD"
+            },
+            {
+              "surname": "Kelly",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KellyE"
+            },
+            {
+              "surname": "Laugraud",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LaugraudA"
+            },
+            {
+              "surname": "Letunic",
+              "givenNames": "I",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LetunicI"
+            },
+            {
+              "surname": "Lonsdale",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LonsdaleD"
+            },
+            {
+              "surname": "Lopez",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LopezR"
+            },
+            {
+              "surname": "Madera",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaderaM"
+            },
+            {
+              "surname": "Maslen",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaslenJ"
+            },
+            {
+              "surname": "McAnulla",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "McAnullaC"
+            },
+            {
+              "surname": "McDowall",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "McDowallJ"
+            },
+            {
+              "surname": "Mistry",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MistryJ"
+            },
+            {
+              "surname": "Mitchell",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MitchellA"
+            },
+            {
+              "surname": "Mulder",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MulderN"
+            },
+            {
+              "surname": "Natale",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NataleD"
+            },
+            {
+              "surname": "Orengo",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OrengoC"
+            },
+            {
+              "surname": "Quinn",
+              "givenNames": "AF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "QuinnAF"
+            },
+            {
+              "surname": "Selengut",
+              "givenNames": "JD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SelengutJD"
+            },
+            {
+              "surname": "Sigrist",
+              "givenNames": "CJA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SigristCJA"
+            },
+            {
+              "surname": "Thimma",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ThimmaM"
+            },
+            {
+              "surname": "Thomas",
+              "givenNames": "PD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ThomasPD"
+            },
+            {
+              "surname": "Valentin",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ValentinF"
+            },
+            {
+              "surname": "Wilson",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WilsonD"
+            },
+            {
+              "surname": "Wu",
+              "givenNames": "CH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WuCH"
+            },
+            {
+              "surname": "Yeats",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YeatsC"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "37"
+        ],
+        "issue": [
+          "suppl_1"
+        ],
+        "fpage": [
+          "D211"
+        ],
+        "lpage": [
+          "D215"
+        ]
+      },
+      "originalCitationText": "HunterS\nApweilerR\nAttwoodTK\nBairochA\nBatemanA\nBinnsD\nBorkP\nDasU\nDaughertyL\nDuquenneL\nFinnRD\nGoughJ\nHaftD\nHuloN\nKahnD\nKellyE\nLaugraudA\nLetunicI\nLonsdaleD\nLopezR\nMaderaM\nMaslenJ\nMcAnullaC\nMcDowallJ\nMistryJ\nMitchellA\nMulderN\nNataleD\nOrengoC\nQuinnAF\nSelengutJD\nSigristCJA\nThimmaM\nThomasPD\nValentinF\nWilsonD\nWuCH\nYeatsC\nInterpro: the integrative protein signature databaseNucleic Acids Research200937suppl_1D211D21510.1093/nar/gkn78518940856PMC2686546",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gkn785"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "18940856"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2686546"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-18",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-19",
+      "position": 18,
+      "title": "A structure-function diversity survey of the RNA-dependent RNA polymerases from the positive-strand RNA viruses",
+      "source": "Frontiers in Microbiology",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Jia",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JiaH"
+            },
+            {
+              "surname": "Gong",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GongP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "1417"
+        ]
+      },
+      "originalCitationText": "JiaH\nGongP\nA structure-function diversity survey of the RNA-dependent RNA polymerases from the positive-strand RNA virusesFrontiers in Microbiology201910141710.3389/fmicb.2019.0194531507560PMC6713929",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3389/fmicb.2019.01945"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31507560"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6713929"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-19",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-36",
+      "position": 19,
+      "title": "STAT: a fast, scalable, MinHash-based k-mer tool to assess Sequence Read Archive next-generation sequence submissions",
+      "source": "Genome Biology",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Katz",
+              "givenNames": "KS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KatzKS"
+            },
+            {
+              "surname": "Shutov",
+              "givenNames": "O",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShutovO"
+            },
+            {
+              "surname": "Lapoint",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LapointR"
+            },
+            {
+              "surname": "Kimelman",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KimelmanM"
+            },
+            {
+              "surname": "Brister",
+              "givenNames": "JR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BristerJR"
+            },
+            {
+              "surname": "O’Sullivan",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "O’SullivanC"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "22"
+        ],
+        "fpage": [
+          "270"
+        ]
+      },
+      "originalCitationText": "KatzKS\nShutovO\nLapointR\nKimelmanM\nBristerJR\nO’SullivanC\nSTAT: a fast, scalable, MinHash-based k-mer tool to assess Sequence Read Archive next-generation sequence submissionsGenome Biology20212227010.1186/s13059-021-02490-034544477PMC8450716",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s13059-021-02490-0"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34544477"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8450716"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-36",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-20",
+      "position": 20,
+      "title": "Global organization and proposed megataxonomy of the virus world",
+      "source": "Microbiology and Molecular Biology Reviews",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Koonin",
+              "givenNames": "EV",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KooninEV"
+            },
+            {
+              "surname": "Dolja",
+              "givenNames": "VV",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DoljaVV"
+            },
+            {
+              "surname": "Krupovic",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KrupovicM"
+            },
+            {
+              "surname": "Varsani",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VarsaniA"
+            },
+            {
+              "surname": "Wolf",
+              "givenNames": "YI",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WolfYI"
+            },
+            {
+              "surname": "Yutin",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YutinN"
+            },
+            {
+              "surname": "Zerbini",
+              "givenNames": "FM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZerbiniFM"
+            },
+            {
+              "surname": "Kuhn",
+              "givenNames": "JH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KuhnJH"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "84"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "391"
+        ]
+      },
+      "originalCitationText": "KooninEV\nDoljaVV\nKrupovicM\nVarsaniA\nWolfYI\nYutinN\nZerbiniFM\nKuhnJH\nGlobal organization and proposed megataxonomy of the virus worldMicrobiology and Molecular Biology Reviews202084239110.1128/MMBR.00061-19PMC706220032132243",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1128/MMBR.00061-19"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7062200"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32132243"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-20",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-21",
+      "position": 21,
+      "title": "Automated structural comparisons clarify the phylogeny of the right-hand-shaped polymerases",
+      "source": "Molecular Biology and Evolution",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Mönttinen",
+              "givenNames": "HA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MönttinenHA"
+            },
+            {
+              "surname": "Ravantti",
+              "givenNames": "JJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RavanttiJJ"
+            },
+            {
+              "surname": "Stuart",
+              "givenNames": "DI",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StuartDI"
+            },
+            {
+              "surname": "Poranen",
+              "givenNames": "MM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PoranenMM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "31"
+        ],
+        "issue": [
+          "10"
+        ],
+        "fpage": [
+          "2741"
+        ],
+        "lpage": [
+          "2752"
+        ]
+      },
+      "originalCitationText": "MönttinenHA\nRavanttiJJ\nStuartDI\nPoranenMM\nAutomated structural comparisons clarify the phylogeny of the right-hand-shaped polymerasesMolecular Biology and Evolution201431102741275210.1093/molbev/msu21925063440",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/molbev/msu219"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25063440"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-21",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-22",
+      "position": 22,
+      "title": "A new lineage of segmented RNA viruses infecting animals",
+      "source": "Virus Evolution",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Obbard",
+              "givenNames": "DJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ObbardDJ"
+            },
+            {
+              "surname": "Shi",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShiM"
+            },
+            {
+              "surname": "Roberts",
+              "givenNames": "KE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RobertsKE"
+            },
+            {
+              "surname": "Longdon",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LongdonB"
+            },
+            {
+              "surname": "Dennis",
+              "givenNames": "AB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DennisAB"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "6"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "vez061"
+        ]
+      },
+      "originalCitationText": "ObbardDJ\nShiM\nRobertsKE\nLongdonB\nDennisAB\nA new lineage of segmented RNA viruses infecting animalsVirus Evolution202061vez06110.1093/ve/vez06131976084PMC6966834",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/ve/vez061"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31976084"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6966834"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-22",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-23",
+      "position": 23,
+      "title": "SILVA: a comprehensive online resource for quality checked and aligned ribosomal RNA sequence data compatible with ARB",
+      "source": "Nucleic Acids Research",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Pruesse",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PruesseE"
+            },
+            {
+              "surname": "Quast",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "QuastC"
+            },
+            {
+              "surname": "Knittel",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KnittelK"
+            },
+            {
+              "surname": "Fuchs",
+              "givenNames": "BM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FuchsBM"
+            },
+            {
+              "surname": "Ludwig",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LudwigW"
+            },
+            {
+              "surname": "Peplies",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PepliesJ"
+            },
+            {
+              "surname": "Glöckner",
+              "givenNames": "FO",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GlöcknerFO"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "35"
+        ],
+        "issue": [
+          "21"
+        ],
+        "fpage": [
+          "7188"
+        ],
+        "lpage": [
+          "7196"
+        ]
+      },
+      "originalCitationText": "PruesseE\nQuastC\nKnittelK\nFuchsBM\nLudwigW\nPepliesJ\nGlöcknerFO\nSILVA: a comprehensive online resource for quality checked and aligned ribosomal RNA sequence data compatible with ARBNucleic Acids Research200735217188719610.1093/nar/gkm86417947321PMC2175337",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gkm864"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17947321"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2175337"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-23",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-24",
+      "position": 24,
+      "title": "NCBI reference sequence (RefSeq): a curated non-redundant sequence database of genomes, transcripts and proteins",
+      "source": "Nucleic Acids Research",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Pruitt",
+              "givenNames": "KD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PruittKD"
+            },
+            {
+              "surname": "Tatusova",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TatusovaT"
+            },
+            {
+              "surname": "Maglott",
+              "givenNames": "DR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaglottDR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "33"
+        ],
+        "issue": [
+          "suppl_1"
+        ],
+        "fpage": [
+          "D501"
+        ],
+        "lpage": [
+          "D504"
+        ]
+      },
+      "originalCitationText": "PruittKD\nTatusovaT\nMaglottDR\nNCBI reference sequence (RefSeq): a curated non-redundant sequence database of genomes, transcripts and proteinsNucleic Acids Research200533suppl_1D501D50410.1093/nar/gki02515608248PMC539979",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gki025"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15608248"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC539979"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-24",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-25",
+      "position": 25,
+      "title": "Permutation of the active site of putative RNA-dependent RNA polymerase in a newly identified species of plant alpha-like virus",
+      "source": "Virology",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Sabanadzovic",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SabanadzovicS"
+            },
+            {
+              "surname": "Abou Ghanem-Sabanadzovic",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Abou Ghanem-SabanadzovicN"
+            },
+            {
+              "surname": "Gorbalenya",
+              "givenNames": "AE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GorbalenyaAE"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "394"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "7"
+        ]
+      },
+      "originalCitationText": "SabanadzovicS\nAbou Ghanem-SabanadzovicN\nGorbalenyaAE\nPermutation of the active site of putative RNA-dependent RNA polymerase in a newly identified species of plant alpha-like virusVirology200939411710.1016/j.virol.2009.08.00619793602",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.virol.2009.08.006"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19793602"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-25",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-26",
+      "position": 26,
+      "title": "Identification and classification of reverse transcriptases in bacterial genomes and metagenomes",
+      "source": "BioRxiv",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Sharifi",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SharifiF"
+            },
+            {
+              "surname": "Ye",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YeY"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "SharifiF\nYeY\nIdentification and classification of reverse transcriptases in bacterial genomes and metagenomesBioRxiv202110.1101/2021.01.26.428298PMC893463434904653",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1101/2021.01.26.428298"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8934634"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34904653"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-26",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-27",
+      "position": 27,
+      "title": "Redefining the invertebrate RNA virosphere",
+      "source": "Nature",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Shi",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShiM"
+            },
+            {
+              "surname": "Lin",
+              "givenNames": "X-D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LinX-D"
+            },
+            {
+              "surname": "Tian",
+              "givenNames": "J-H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TianJ-H"
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "L-J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenL-J"
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "X",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenX"
+            },
+            {
+              "surname": "Li",
+              "givenNames": "C-X",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiC-X"
+            },
+            {
+              "surname": "Qin",
+              "givenNames": "X-C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "QinX-C"
+            },
+            {
+              "surname": "Li",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiJ"
+            },
+            {
+              "surname": "Cao",
+              "givenNames": "J-P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CaoJ-P"
+            },
+            {
+              "surname": "Eden",
+              "givenNames": "J-S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EdenJ-S"
+            },
+            {
+              "surname": "Buchmann",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BuchmannJ"
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangW"
+            },
+            {
+              "surname": "Xu",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XuJ"
+            },
+            {
+              "surname": "Holmes",
+              "givenNames": "EC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HolmesEC"
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "Y-Z",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangY-Z"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "540"
+        ],
+        "issue": [
+          "7634"
+        ],
+        "fpage": [
+          "539"
+        ],
+        "lpage": [
+          "543"
+        ]
+      },
+      "originalCitationText": "ShiM\nLinX-D\nTianJ-H\nChenL-J\nChenX\nLiC-X\nQinX-C\nLiJ\nCaoJ-P\nEdenJ-S\nBuchmannJ\nWangW\nXuJ\nHolmesEC\nZhangY-Z\nRedefining the invertebrate RNA virosphereNature2016540763453954310.1038/nature2016727880757",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature20167"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27880757"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-27",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-28",
+      "position": 28,
+      "title": "Metatranscriptomic reconstruction reveals RNA viruses with the potential to shape carbon cycling in soil",
+      "source": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Starr",
+              "givenNames": "EP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StarrEP"
+            },
+            {
+              "surname": "Nuccio",
+              "givenNames": "EE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NuccioEE"
+            },
+            {
+              "surname": "Pett-Ridge",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Pett-RidgeJ"
+            },
+            {
+              "surname": "Banfield",
+              "givenNames": "JF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BanfieldJF"
+            },
+            {
+              "surname": "Firestone",
+              "givenNames": "MK",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FirestoneMK"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "116"
+        ],
+        "issue": [
+          "51"
+        ],
+        "fpage": [
+          "25900"
+        ],
+        "lpage": [
+          "25908"
+        ]
+      },
+      "originalCitationText": "StarrEP\nNuccioEE\nPett-RidgeJ\nBanfieldJF\nFirestoneMK\nMetatranscriptomic reconstruction reveals RNA viruses with the potential to shape carbon cycling in soilProceedings of the National Academy of Sciences of the United States of America201911651259002590810.1073/pnas.190829111631772013PMC6926006",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.1908291116"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31772013"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6926006"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-28",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-29",
+      "position": 29,
+      "title": "Use of the ‘Perceptron’ algorithm to distinguish translational initiation sites in E. coli",
+      "source": "Nucleic Acids Research",
+      "year": "1982",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Stormo",
+              "givenNames": "GD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StormoGD"
+            },
+            {
+              "surname": "Schneider",
+              "givenNames": "TD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchneiderTD"
+            },
+            {
+              "surname": "Gold",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GoldL"
+            },
+            {
+              "surname": "Ehrenfeucht",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EhrenfeuchtA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "issue": [
+          "9"
+        ],
+        "fpage": [
+          "2997"
+        ],
+        "lpage": [
+          "3011"
+        ]
+      },
+      "originalCitationText": "StormoGD\nSchneiderTD\nGoldL\nEhrenfeuchtA\nUse of the ‘Perceptron’ algorithm to distinguish translational initiation sites in E. coliNucleic Acids Research19821092997301110.1093/nar/10.9.29977048259PMC320670",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/10.9.2997"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "7048259"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC320670"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-29",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-30",
+      "position": 30,
+      "title": "Common and unique features of viral RNA-dependent polymerases",
+      "source": "Cellular and Molecular Life Sciences",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "te Velthuis",
+              "givenNames": "AJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "te VelthuisAJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "71"
+        ],
+        "issue": [
+          "22"
+        ],
+        "fpage": [
+          "4403"
+        ],
+        "lpage": [
+          "4420"
+        ]
+      },
+      "originalCitationText": "te VelthuisAJ\nCommon and unique features of viral RNA-dependent polymerasesCellular and Molecular Life Sciences201471224403442010.1007/s00018-014-1695-z25080879PMC4207942",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s00018-014-1695-z"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25080879"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4207942"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-30",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-31",
+      "position": 31,
+      "title": "Unveiling the RNA virosphere associated with marine microorganisms",
+      "source": "Molecular Ecology Resources",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Urayama",
+              "givenNames": "S-i",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "UrayamaS-i"
+            },
+            {
+              "surname": "Takaki",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TakakiY"
+            },
+            {
+              "surname": "Nishi",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NishiS"
+            },
+            {
+              "surname": "Yoshida-Takashima",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Yoshida-TakashimaY"
+            },
+            {
+              "surname": "Deguchi",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DeguchiS"
+            },
+            {
+              "surname": "Takai",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TakaiK"
+            },
+            {
+              "surname": "Nunoura",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NunouraT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "1444"
+        ],
+        "lpage": [
+          "1455"
+        ]
+      },
+      "originalCitationText": "UrayamaS-i\nTakakiY\nNishiS\nYoshida-TakashimaY\nDeguchiS\nTakaiK\nNunouraT\nUnveiling the RNA virosphere associated with marine microorganismsMolecular Ecology Resources20181861444145510.1111/1755-0998.1293630256532",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/1755-0998.12936"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30256532"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-31",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-32",
+      "position": 32,
+      "title": "Origins and evolution of the global RNA virome",
+      "source": "mBio",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Wolf",
+              "givenNames": "YI",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WolfYI"
+            },
+            {
+              "surname": "Kazlauskas",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KazlauskasD"
+            },
+            {
+              "surname": "Iranzo",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "IranzoJ"
+            },
+            {
+              "surname": "Luca-Sanz",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Luca-SanzA"
+            },
+            {
+              "surname": "Kuhn",
+              "givenNames": "JH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KuhnJH"
+            },
+            {
+              "surname": "Krupovic",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KrupovicM"
+            },
+            {
+              "surname": "Dolja",
+              "givenNames": "VV",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DoljaVV"
+            },
+            {
+              "surname": "Koonin",
+              "givenNames": "EV",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KooninEV"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "137"
+        ]
+      },
+      "originalCitationText": "WolfYI\nKazlauskasD\nIranzoJ\nLuca-SanzA\nKuhnJH\nKrupovicM\nDoljaVV\nKooninEV\nOrigins and evolution of the global RNA viromemBio20189613710.1128/mBio.02329-18PMC628221230482837",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1128/mBio.02329-18"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6282212"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30482837"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-32",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-33",
+      "position": 33,
+      "title": "Deciphering the bat virome catalog to better understand the ecological diversity of bat viruses and the bat origin of emerging infectious diseases",
+      "source": "The ISME Journal",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Wu",
+              "givenNames": "Z",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WuZ"
+            },
+            {
+              "surname": "Yang",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YangL"
+            },
+            {
+              "surname": "Ren",
+              "givenNames": "X",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RenX"
+            },
+            {
+              "surname": "He",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HeG"
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangJ"
+            },
+            {
+              "surname": "Yang",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YangJ"
+            },
+            {
+              "surname": "Qian",
+              "givenNames": "Z",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "QianZ"
+            },
+            {
+              "surname": "Dong",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DongJ"
+            },
+            {
+              "surname": "Sun",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SunL"
+            },
+            {
+              "surname": "Zhu",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhuY"
+            },
+            {
+              "surname": "Du",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DuJ"
+            },
+            {
+              "surname": "Yang",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YangF"
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangS"
+            },
+            {
+              "surname": "Jin",
+              "givenNames": "Q",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JinQ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "609"
+        ],
+        "lpage": [
+          "620"
+        ]
+      },
+      "originalCitationText": "WuZ\nYangL\nRenX\nHeG\nZhangJ\nYangJ\nQianZ\nDongJ\nSunL\nZhuY\nDuJ\nYangF\nZhangS\nJinQ\nDeciphering the bat virome catalog to better understand the ecological diversity of bat viruses and the bat origin of emerging infectious diseasesThe ISME Journal201610360962010.1038/ismej.2015.13826262818PMC4817686",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/ismej.2015.138"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26262818"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4817686"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-33",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-34",
+      "position": 34,
+      "title": "Microsatellite development from genome skimming and transcriptome sequencing: comparison of strategies and lessons from frog species",
+      "source": "BMC Genomics",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Xia",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XiaY"
+            },
+            {
+              "surname": "Luo",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LuoW"
+            },
+            {
+              "surname": "Yuan",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YuanS"
+            },
+            {
+              "surname": "Zheng",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhengY"
+            },
+            {
+              "surname": "Zeng",
+              "givenNames": "X",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZengX"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "19"
+        ],
+        "fpage": [
+          "886"
+        ]
+      },
+      "originalCitationText": "XiaY\nLuoW\nYuanS\nZhengY\nZengX\nMicrosatellite development from genome skimming and transcriptome sequencing: comparison of strategies and lessons from frog speciesBMC Genomics20181988610.1186/s12864-018-5329-y30526480PMC6286531",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s12864-018-5329-y"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30526480"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6286531"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-34",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ref-35",
+      "position": 35,
+      "title": "Cryptic and abundant marine viruses at the evolutionary origins of Earth’s RNA virome",
+      "source": "Science",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zayed",
+              "givenNames": "AA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZayedAA"
+            },
+            {
+              "surname": "Wainaina",
+              "givenNames": "JM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WainainaJM"
+            },
+            {
+              "surname": "Dominguez-Huerta",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Dominguez-HuertaG"
+            },
+            {
+              "surname": "Pelletier",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PelletierE"
+            },
+            {
+              "surname": "Guo",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GuoJ"
+            },
+            {
+              "surname": "Mohssen",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MohssenM"
+            },
+            {
+              "surname": "Tian",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TianF"
+            },
+            {
+              "surname": "Pratama",
+              "givenNames": "AA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PratamaAA"
+            },
+            {
+              "surname": "Bolduc",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BolducB"
+            },
+            {
+              "surname": "Zablocki",
+              "givenNames": "O",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZablockiO"
+            },
+            {
+              "surname": "Cronin",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CroninD"
+            },
+            {
+              "surname": "Solden",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SoldenL"
+            },
+            {
+              "surname": "Delage",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DelageE"
+            },
+            {
+              "surname": "Alberti",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AlbertiA"
+            },
+            {
+              "surname": "Aury",
+              "givenNames": "J-M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AuryJ-M"
+            },
+            {
+              "surname": "Carradec",
+              "givenNames": "Q",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CarradecQ"
+            },
+            {
+              "surname": "da Silva",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "da SilvaC"
+            },
+            {
+              "surname": "Labadie",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LabadieK"
+            },
+            {
+              "surname": "Poulain",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PoulainJ"
+            },
+            {
+              "surname": "Ruscheweyh",
+              "givenNames": "H-J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RuscheweyhH-J"
+            },
+            {
+              "surname": "Salazar",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SalazarG"
+            },
+            {
+              "surname": "Shatoff",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShatoffE"
+            },
+            {
+              "kind": "collab",
+              "originalName": "Tara Oceans Coordinators"
+            },
+            {
+              "surname": "Bundschuh",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BundschuhR"
+            },
+            {
+              "surname": "Fredrick",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FredrickK"
+            },
+            {
+              "surname": "Kubatko",
+              "givenNames": "LS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KubatkoLS"
+            },
+            {
+              "surname": "Chaffron",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChaffronS"
+            },
+            {
+              "surname": "Culley",
+              "givenNames": "AI",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CulleyAI"
+            },
+            {
+              "surname": "Sunagawa",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SunagawaS"
+            },
+            {
+              "surname": "Kuhn",
+              "givenNames": "JH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KuhnJH"
+            },
+            {
+              "surname": "Wincker",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WinckerP"
+            },
+            {
+              "surname": "Sullivan",
+              "givenNames": "MB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SullivanMB"
+            },
+            {
+              "surname": "Acinas",
+              "givenNames": "SG",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AcinasSG"
+            },
+            {
+              "surname": "Babin",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BabinM"
+            },
+            {
+              "surname": "Bork",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BorkP"
+            },
+            {
+              "surname": "Boss",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BossE"
+            },
+            {
+              "surname": "Bowler",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BowlerC"
+            },
+            {
+              "surname": "Cochrane",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CochraneG"
+            },
+            {
+              "surname": "de Vargas",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "de VargasC"
+            },
+            {
+              "surname": "Gorsky",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GorskyG"
+            },
+            {
+              "surname": "Guidi",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GuidiL"
+            },
+            {
+              "surname": "Grimsley",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GrimsleyN"
+            },
+            {
+              "surname": "Hingamp",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HingampP"
+            },
+            {
+              "surname": "Iudicone",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "IudiconeD"
+            },
+            {
+              "surname": "Jaillon",
+              "givenNames": "O",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JaillonO"
+            },
+            {
+              "surname": "Kandels",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KandelsS"
+            },
+            {
+              "surname": "Karp-Boss",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Karp-BossL"
+            },
+            {
+              "surname": "Karsenti",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KarsentiE"
+            },
+            {
+              "surname": "Not",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NotF"
+            },
+            {
+              "surname": "Ogata",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OgataH"
+            },
+            {
+              "surname": "Poulton",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PoultonN"
+            },
+            {
+              "surname": "Séphane",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SéphaneP"
+            },
+            {
+              "surname": "Sardet",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SardetC"
+            },
+            {
+              "surname": "Speich",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SpeichS"
+            },
+            {
+              "surname": "Stemmann",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StemmannL"
+            },
+            {
+              "surname": "Sullivan",
+              "givenNames": "MB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SullivanMB"
+            },
+            {
+              "surname": "Sungawa",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SungawaS"
+            },
+            {
+              "surname": "Wincker",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WinckerP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "376"
+        ],
+        "issue": [
+          "6589"
+        ],
+        "fpage": [
+          "156"
+        ],
+        "lpage": [
+          "162"
+        ]
+      },
+      "originalCitationText": "ZayedAA\nWainainaJM\nDominguez-HuertaG\nPelletierE\nGuoJ\nMohssenM\nTianF\nPratamaAA\nBolducB\nZablockiO\nCroninD\nSoldenL\nDelageE\nAlbertiA\nAuryJ-M\nCarradecQ\nda SilvaC\nLabadieK\nPoulainJ\nRuscheweyhH-J\nSalazarG\nShatoffE\nTara Oceans Coordinators\nBundschuhR\nFredrickK\nKubatkoLS\nChaffronS\nCulleyAI\nSunagawaS\nKuhnJH\nWinckerP\nSullivanMB\nAcinasSG\nBabinM\nBorkP\nBossE\nBowlerC\nCochraneG\nde VargasC\nGorskyG\nGuidiL\nGrimsleyN\nHingampP\nIudiconeD\nJaillonO\nKandelsS\nKarp-BossL\nKarsentiE\nNotF\nOgataH\nPoultonN\nSéphaneP\nSardetC\nSpeichS\nStemmannL\nSullivanMB\nSungawaS\nWinckerP\nCryptic and abundant marine viruses at the evolutionary origins of Earth’s RNA viromeScience2022376658915616210.1126/science.abm584735389782PMC10990476",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.abm5847"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35389782"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10990476"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9573346/article.xml",
+        "articleSha256": "ba59df18dad1f98d10528c0dea613061e8b7d113a13d485ced205e941a0f9a06",
+        "referenceId": "ref-35",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "PeerJ"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "PeerJ"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "PeerJ"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "2057"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "peerj"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101603425"
+      },
+      {
+        "journal-id-type": "publisher-id",
+        "value": "PeerJ"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "2167-8359"
+      }
+    ],
+    "publisherNames": [
+      "PeerJ, Inc"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "10",
+      "10"
+    ],
+    "elocation-id": [
+      "e14055",
+      "e14055/correction-1"
+    ]
+  }
+}

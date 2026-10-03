@@ -1,0 +1,81 @@
+{
+  "source": "PMC10563080",
+  "doi": "10.3390/ani13172800",
+  "year": 2023,
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "scope": "Eleven individually read species accounts and selected molecular, taxonomic and reproductive paragraphs; not a complete article or subgenus synthesis",
+  "limits": [
+    {
+      "colId": "3XWDP",
+      "kind": "inconsistent-size-comparison-and-malformed-accession",
+      "locators": ["reading-sections section 2 paragraph 6", "reading-sections section 2 paragraph 12"],
+      "asRecorded": ["Diagnostic male SVL: 31–43.4 mm", "Comparison with zolitschka: SVL at least 33 mm", "Later accession range printed HQ 610916–61091618"],
+      "handling": "Minimum-size discrepancy retained. Malformed accession not repaired into sequence bindings; only individually legible explicitly paired accessions used in reader prose."
+    },
+    {
+      "colId": "3XWFZ",
+      "kind": "diagnosis-versus-reference-male-size",
+      "locators": ["reading-sections section 6 paragraph 3", "reading-sections section 6 paragraph 4"],
+      "asRecorded": ["Diagnostic adult male SVL: 29.6–30.6 mm", "Reference adult male UADBA 6966: 27.65 mm"],
+      "handling": "Both values retained; diagnostic interval not treated as the complete adult male range."
+    },
+    {
+      "colId": "QMCT4",
+      "kind": "distribution-and-identity-evidence-scope",
+      "locators": ["reading-sections section 4 paragraph 7", "reading-sections section 4 paragraph 8"],
+      "asRecorded": ["Northwestern/northern distribution, 300–1150 m, including south of Maevatanana", "Comments cite only Montagne d’Ambre, then explain morphology-only outside records"],
+      "handling": "Broader morphology-based records not presented as uniformly sequenced. Type-locality statement and expanded revision records retain separate scope."
+    },
+    {
+      "colIds": ["3XWDP", "3XWCQ", "3XWFZ"],
+      "kind": "reproductive-evidence-units",
+      "locators": ["reading-sections section 2 paragraph 10", "reading-sections section 3 paragraph 9", "reading-sections section 6 paragraph 7"],
+      "handling": "Femoralis local breeding/metamorphosis dates are not universal calendars. Ambreensis rock-edge clutch and plastic-bag hatching are one encounter context, not controlled natural incubation. Zolitschka eggs inside one cited female are not an observed deposited clutch or hatch count."
+    },
+    {
+      "colId": "QMCT8",
+      "kind": "inconsistent-elevation-summaries",
+      "locators": ["reading-sections section 11 paragraph 8", "reading-sections section 11 paragraph 10"],
+      "asRecorded": ["Natural history: 350–1580 m", "Distribution: 180–1200 m"],
+      "handling": "Both source intervals retained separately; no newly certified union range. Specimen-level reconciliation pending."
+    },
+    {
+      "colId": "QMCTK",
+      "kind": "inconsistent-diagnostic-wording",
+      "locators": ["reading-sections section 14 paragraph 3"],
+      "asRecorded": ["Diagnosis: tibiotarsal articulation between eye and nostril", "Comparisons with femoralis and danieli: beyond nostril"],
+      "handling": "Both statements retained; limb reach is not presented as a settled identification character."
+    },
+    {
+      "colId": "QMCTD",
+      "kind": "unknown-female-and-rounded-male-range",
+      "locators": ["reading-sections section 12 paragraph 2", "reading-sections section 12 paragraph 4"],
+      "asRecorded": ["Diagnosis male SVL: 57–62 mm", "Six measured males: 57.9–62.1 mm", "Female unknown; size above 62 mm suggested"],
+      "handling": "Rounded diagnosis and measured sample distinguished. Suggested female size is not recorded as a measured trait."
+    },
+    {
+      "colId": "QMCTD",
+      "kind": "unresolved-subgenus-boundary",
+      "locators": ["reading-sections section 15 paragraph 3"],
+      "asRecorded": ["majori excluded morphologically", "majori molecular sister to macrotympanum; posterior support 0.91; broader sampling recommended"],
+      "handling": "No catalogue movement or claim of resolved subgenus assignment."
+    },
+    {
+      "colId": "QMCTK",
+      "kind": "seasonal-observation-versus-hypothesis",
+      "locators": ["XML sec4dot3-animals-13-02800 paragraph 0"],
+      "asRecorded": ["Late-February tavaratra larvae at Gosner 36, about 2300 m, 8 °C", "Temperature triggering and rapid high-elevation development proposed"],
+      "handling": "Local observation separated from untested mechanisms. No critical temperature, growth rate or universal calendar inferred."
+    },
+    {
+      "colIds": ["3XWD8", "3XWF4", "QMCT8", "QMCTD", "QMCTJ", "QMCTK"],
+      "kind": "taxonomic-and-observational-boundaries",
+      "handling": "Voucher-specific historical assignments do not reassign whole old-name datasets. Mitochondrial 16S separation is not genomic reproductive-isolation evidence. Encounter positions do not demonstrate experimental preferences. Other species' egg-placement or male-care observations are not transferred to these species."
+    }
+  ],
+  "sourceConceptEquivalenceIndependentlyCertified": false,
+  "fullArticleRead": false,
+  "biologicalReaderComplete": false,
+  "testsRun": false
+}

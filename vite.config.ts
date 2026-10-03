@@ -2,6 +2,7 @@ import { readFileSync } from 'node:fs'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
+import { applicationDataPlugin } from './scripts/application-data.mjs'
 
 const datasetVersion = (JSON.parse(readFileSync(new URL('./data/manifest.json', import.meta.url), 'utf8')) as { datasetVersion: string }).datasetVersion
 
@@ -14,6 +15,7 @@ export default defineConfig(({ mode }) => {
     },
     publicDir: nativeBuild ? false : 'public',
     plugins: [
+      applicationDataPlugin(process.cwd()),
       react(),
       VitePWA({
         disable: nativeBuild,

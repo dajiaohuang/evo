@@ -1,0 +1,559 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  tadpole-traits-reader:
+    scientificName: Alsodes vanzolinii
+    name:
+      en: Alsodes vanzolinii
+      zh: Alsodes vanzolinii
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/1/text/zh
+      - topic: morphology
+        title:
+          en: Selected image-derived proportions
+          zh: 选列的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/2/text/zh
+      - topic: overview
+        title:
+          en: Unresolved source ratios
+          zh: 未解决的来源比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/3/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+          metadataVariant: 0
+          sourceKey: tadpoletraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      family: Alsodidae
+      genus: Alsodes
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows:
+      - rowNumber: 15
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/0/values/0
+          - Alsodes vanzolinii
+          - Alsodidae
+          - Alsodes
+          - Alsodes vanzolinii
+          - 3 (two in stage 33 and one in  stage 39)
+          - 33-39
+          - 42.0-47.0
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+    originalImageRows:
+      - rowNumber: 33
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/0/values/0
+          - Measurement
+          - Hand-drawn picture
+          - Alsodes vanzolinii
+          - Alsodidae
+          - Alsodes
+          - Alsodes vanzolinii
+          - 33
+          - 44.183
+          - 17.211
+          - 27.129
+          - 9.498
+          - 11.312
+          - 3.752
+          - 3.959
+          - 4.031
+          - 10.143
+          - 4.178
+          - 4.969
+          - 0.389538962949551
+          - 0.61414439942965
+          - 0.214969558427449
+          - 0.2562673376638
+          - 0.84919539189289
+          - 0.8964599539348
+          - 0.91234185938144
+          - 0.22956793336837
+          - 0.94561256591919
+          - 0.11246469891135
+          - Yanfang Song
+      - rowNumber: 34
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/1/values/0
+          - Measurement
+          - Hand-drawn picture
+          - Alsodes vanzolinii
+          - Alsodidae
+          - Alsodes
+          - Alsodes vanzolinii
+          - 33
+          - 44.476
+          - 17.367
+          - 27.236
+          - 9.58
+          - 11.066
+          - 3.619
+          - 3.831
+          - 3.313
+          - 10.652
+          - 3.619
+          - 4.823
+          - 0.39482591699
+          - 0.612375213598345
+          - 0.2153976881662
+          - 0.2488834674287
+          - 0.813697274934796
+          - 0.86136343196336
+          - 0.744896123752136
+          - 0.23949995531927
+          - 0.813697274934796
+          - 0.18445723986
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 33
+        scientificName: Alsodes vanzolinii
+        sourceField: TMH/TL
+        suppliedRatio: 0.84919539189289
+        originalNumerator: 3.752
+        originalTotalLength: 44.183
+        computedRatio: 0.08491953918928094
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 33
+        scientificName: Alsodes vanzolinii
+        sourceField: DFH/TL
+        suppliedRatio: 0.8964599539348
+        originalNumerator: 3.959
+        originalTotalLength: 44.183
+        computedRatio: 0.08960459905393477
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 33
+        scientificName: Alsodes vanzolinii
+        sourceField: VFH/TL
+        suppliedRatio: 0.91234185938144
+        originalNumerator: 4.031
+        originalTotalLength: 44.183
+        computedRatio: 0.09123418509381435
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 33
+        scientificName: Alsodes vanzolinii
+        sourceField: TMW/TL
+        suppliedRatio: 0.94561256591919
+        originalNumerator: 4.178
+        originalTotalLength: 44.183
+        computedRatio: 0.09456125659190186
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 34
+        scientificName: Alsodes vanzolinii
+        sourceField: BL/TL
+        suppliedRatio: 0.39482591699
+        originalNumerator: 17.367
+        originalTotalLength: 44.476
+        computedRatio: 0.3904802590160986
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 34
+        scientificName: Alsodes vanzolinii
+        sourceField: TMH/TL
+        suppliedRatio: 0.813697274934796
+        originalNumerator: 3.619
+        originalTotalLength: 44.476
+        computedRatio: 0.08136972749347963
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 34
+        scientificName: Alsodes vanzolinii
+        sourceField: DFH/TL
+        suppliedRatio: 0.86136343196336
+        originalNumerator: 3.831
+        originalTotalLength: 44.476
+        computedRatio: 0.08613634319633061
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 34
+        scientificName: Alsodes vanzolinii
+        sourceField: VFH/TL
+        suppliedRatio: 0.744896123752136
+        originalNumerator: 3.313
+        originalTotalLength: 44.476
+        computedRatio: 0.0744896123752136
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 34
+        scientificName: Alsodes vanzolinii
+        sourceField: TMW/TL
+        suppliedRatio: 0.813697274934796
+        originalNumerator: 3.619
+        originalTotalLength: 44.476
+        computedRatio: 0.08136972749347963
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 34
+        scientificName: Alsodes vanzolinii
+        sourceField: OD/TL
+        suppliedRatio: 0.18445723986
+        originalNumerator: 4.823
+        originalTotalLength: 44.476
+        computedRatio: 0.10844050723985971
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.389538962949551
+        row: 33
+        stage: 33
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.61414439942965
+        row: 33
+        stage: 33
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.214969558427449
+        row: 33
+        stage: 33
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.2562673376638
+        row: 33
+        stage: 33
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: BMW/TL
+        label:
+          en: maximum body width / total length
+          zh: 躯体最大宽度/全长
+        value: 0.22956793336837
+        row: 33
+        stage: 33
+        type: Measurement
+        imageType: Hand-drawn picture
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 65YH9
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/zh
+---
+
+# Alsodes vanzolinii — TadpoleTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator -->
+Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 15; Picture measurement data rows 33, 34; Readme rows 6–50
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/0/values/0 -->
+Brieva, L. & Ramón Formas (2004). The tadpoles of Alsodes vanzolinii and A. verrucosus (Anura: Leptodactylidae) with descriptions of their internal oral and chondrocranial morphology. Amphibia-Reptilia, 25, 151-164.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/0/values/0 -->
+Brieva, L. & Ramón, F. (2004). The tadpoles of Alsodes vanzolinii and A. verrucosus (Anura: Leptodactylidae) with descriptions of their internal oral and chondrocranial morphology. Amphibia-Reptilia, 25, 151-164.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/1/values/0 -->
+Brieva, L. & Ramón, F. (2004). The tadpoles of Alsodes vanzolinii and A. verrucosus (Anura: Leptodactylidae) with descriptions of their internal oral and chondrocranial morphology. Amphibia-Reptilia, 25, 151-164.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/en -->
+A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete. No external expert review.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/zh -->
+本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成；没有外部专家审评。
+<!-- /evo:text -->

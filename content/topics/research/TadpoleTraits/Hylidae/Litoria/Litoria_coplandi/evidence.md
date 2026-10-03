@@ -1,0 +1,790 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  tadpole-traits-reader:
+    scientificName: Litoria coplandi
+    name:
+      en: Litoria coplandi
+      zh: Litoria coplandi
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/1/text/zh
+      - topic: morphology
+        title:
+          en: Selected image-derived proportions
+          zh: 选列的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/2/text/zh
+      - topic: overview
+        title:
+          en: Unresolved source ratios
+          zh: 未解决的来源比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/3/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+          metadataVariant: 0
+          sourceKey: tadpoletraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      family: Hylidae
+      genus: Litoria
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 824
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Ratio
+          - Color image
+          - Litoria coplandi
+          - Hylidae
+          - Litoria
+          - Litoria coplandi
+          - 38
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.37279109174534
+          - 0.647058823529412
+          - 0.185185185185185
+          - 0.187363834422658
+          - 0.0827886710239651
+          - 0.0668119099491648
+          - 0.0479302832244009
+          - null
+          - null
+          - null
+          - Rui Tian
+      - rowNumber: 825
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria coplandi
+          - Hylidae
+          - Litoria
+          - Litoria coplandi
+          - 41
+          - 39.838
+          - 13.762
+          - 26.647
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 7.006
+          - 3.455
+          - null
+          - 0.3454496872835
+          - 0.66888398119484
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.1758622428426
+          - 0.867262412771725
+          - null
+          - Rui Tian
+      - rowNumber: 826
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria coplandi
+          - Hylidae
+          - Litoria
+          - Litoria coplandi
+          - 39
+          - 40.314
+          - 14.289
+          - 26.349
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 7.291
+          - 3.146
+          - null
+          - 0.35444262539683
+          - 0.653594284863819
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.188552864862
+          - 0.78374636734
+          - null
+          - Rui Tian
+      - rowNumber: 827
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria coplandi
+          - Hylidae
+          - Litoria
+          - Litoria coplandi
+          - 27
+          - 36.852
+          - 11.785
+          - 24.942
+          - 6.29
+          - 6.171
+          - 2.85
+          - 2.258
+          - 1.068
+          - 6.435
+          - 3.289
+          - null
+          - 0.31979268425516
+          - 0.676815369586454
+          - 0.1768273923695
+          - 0.16745359817649
+          - 0.77336372517954
+          - 0.61272115488983
+          - 0.2898788169326
+          - 0.17461738847281
+          - 0.892488874416585
+          - null
+          - Rui Tian
+      - rowNumber: 828
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria coplandi
+          - Hylidae
+          - Litoria
+          - Litoria coplandi
+          - 22
+          - 20.714
+          - 6.894
+          - 13.946
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 4.153
+          - 1.571
+          - null
+          - 0.33281838371844
+          - 0.67326445882122
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.249242585112
+          - 0.758424254127643
+          - null
+          - Rui Tian
+      - rowNumber: 829
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Hand-drawn picture
+          - Litoria coplandi
+          - Hylidae
+          - Litoria
+          - Litoria coplandi
+          - 35
+          - 47.744
+          - 17.235
+          - 30.394
+          - 8.967
+          - 8.253
+          - 3.334
+          - 3.416
+          - 2.144
+          - null
+          - null
+          - null
+          - 0.3698776896515
+          - 0.6366355227882
+          - 0.18781417563217
+          - 0.172859416898
+          - 0.69837647567
+          - 0.715482573726541
+          - 0.44961662198391
+          - null
+          - null
+          - null
+          - Rui Tian
+      - rowNumber: 830
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image(Dorsal view) + Hand-drawn picture(Oral disc)
+          - Litoria coplandi
+          - Hylidae
+          - Litoria
+          - Litoria coplandi
+          - 34
+          - 33.153
+          - 13.953
+          - 18.494
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 6.513
+          - 2.096
+          - 4.703
+          - 0.4286688987422
+          - 0.557837935553
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.19645289748
+          - 0.6322231188731
+          - 0.141857448797997
+          - Rui Tian
+      - rowNumber: 831
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria coplandi
+          - Hylidae
+          - Litoria
+          - Litoria coplandi
+          - 27
+          - 19.937
+          - 7.948
+          - 11.858
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 4.168
+          - 1.41
+          - 1.732
+          - 0.398655765661835
+          - 0.59477353664417
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.295853438337
+          - 0.77227767467523
+          - 0.868736523812
+          - Rui Tian
+      - rowNumber: 832
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria coplandi
+          - Hylidae
+          - Litoria
+          - Litoria coplandi
+          - 34
+          - 32.278
+          - 13.868
+          - 18.41
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 6.251
+          - 2.273
+          - 2.841
+          - 0.42964248946775
+          - 0.5735751953225
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.1936613173595
+          - 0.741948768898
+          - 0.8816657376541
+          - Rui Tian
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 825
+        scientificName: Litoria coplandi
+        sourceField: TMW/TL
+        suppliedRatio: 0.867262412771725
+        originalNumerator: 3.455
+        originalTotalLength: 39.838
+        computedRatio: 0.08672624127717254
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 826
+        scientificName: Litoria coplandi
+        sourceField: BMW/TL
+        suppliedRatio: 0.188552864862
+        originalNumerator: 7.291
+        originalTotalLength: 40.314
+        computedRatio: 0.18085528600486184
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 826
+        scientificName: Litoria coplandi
+        sourceField: TMW/TL
+        suppliedRatio: 0.78374636734
+        originalNumerator: 3.146
+        originalTotalLength: 40.314
+        computedRatio: 0.07803740636007342
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 827
+        scientificName: Litoria coplandi
+        sourceField: BMH/TL
+        suppliedRatio: 0.1768273923695
+        originalNumerator: 6.29
+        originalTotalLength: 36.852
+        computedRatio: 0.1706827309236948
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 827
+        scientificName: Litoria coplandi
+        sourceField: TMH/TL
+        suppliedRatio: 0.77336372517954
+        originalNumerator: 2.85
+        originalTotalLength: 36.852
+        computedRatio: 0.07733637251709542
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 827
+        scientificName: Litoria coplandi
+        sourceField: DFH/TL
+        suppliedRatio: 0.61272115488983
+        originalNumerator: 2.258
+        originalTotalLength: 36.852
+        computedRatio: 0.06127211548898297
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 827
+        scientificName: Litoria coplandi
+        sourceField: VFH/TL
+        suppliedRatio: 0.2898788169326
+        originalNumerator: 1.068
+        originalTotalLength: 36.852
+        computedRatio: 0.028980788016932598
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 827
+        scientificName: Litoria coplandi
+        sourceField: TMW/TL
+        suppliedRatio: 0.892488874416585
+        originalNumerator: 3.289
+        originalTotalLength: 36.852
+        computedRatio: 0.08924888744165854
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 828
+        scientificName: Litoria coplandi
+        sourceField: BMW/TL
+        suppliedRatio: 0.249242585112
+        originalNumerator: 4.153
+        originalTotalLength: 20.714
+        computedRatio: 0.20049242058511152
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 828
+        scientificName: Litoria coplandi
+        sourceField: TMW/TL
+        suppliedRatio: 0.758424254127643
+        originalNumerator: 1.571
+        originalTotalLength: 20.714
+        computedRatio: 0.07584242541276431
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 829
+        scientificName: Litoria coplandi
+        sourceField: BL/TL
+        suppliedRatio: 0.3698776896515
+        originalNumerator: 17.235
+        originalTotalLength: 47.744
+        computedRatio: 0.3609877680965147
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 829
+        scientificName: Litoria coplandi
+        sourceField: TMH/TL
+        suppliedRatio: 0.69837647567
+        originalNumerator: 3.334
+        originalTotalLength: 47.744
+        computedRatio: 0.06983076407506703
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 829
+        scientificName: Litoria coplandi
+        sourceField: DFH/TL
+        suppliedRatio: 0.715482573726541
+        originalNumerator: 3.416
+        originalTotalLength: 47.744
+        computedRatio: 0.07154825737265415
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 829
+        scientificName: Litoria coplandi
+        sourceField: VFH/TL
+        suppliedRatio: 0.44961662198391
+        originalNumerator: 2.144
+        originalTotalLength: 47.744
+        computedRatio: 0.044906166219839144
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 830
+        scientificName: Litoria coplandi
+        sourceField: BL/TL
+        suppliedRatio: 0.4286688987422
+        originalNumerator: 13.953
+        originalTotalLength: 33.153
+        computedRatio: 0.42086688987421955
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 830
+        scientificName: Litoria coplandi
+        sourceField: TMW/TL
+        suppliedRatio: 0.6322231188731
+        originalNumerator: 2.096
+        originalTotalLength: 33.153
+        computedRatio: 0.06322203118873104
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 831
+        scientificName: Litoria coplandi
+        sourceField: BMW/TL
+        suppliedRatio: 0.295853438337
+        originalNumerator: 4.168
+        originalTotalLength: 19.937
+        computedRatio: 0.2090585343833074
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 831
+        scientificName: Litoria coplandi
+        sourceField: TMW/TL
+        suppliedRatio: 0.77227767467523
+        originalNumerator: 1.41
+        originalTotalLength: 19.937
+        computedRatio: 0.07072277674675226
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 831
+        scientificName: Litoria coplandi
+        sourceField: OD/TL
+        suppliedRatio: 0.868736523812
+        originalNumerator: 1.732
+        originalTotalLength: 19.937
+        computedRatio: 0.086873652003812
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 832
+        scientificName: Litoria coplandi
+        sourceField: TaL/TL
+        suppliedRatio: 0.5735751953225
+        originalNumerator: 18.41
+        originalTotalLength: 32.278
+        computedRatio: 0.5703575190532252
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 832
+        scientificName: Litoria coplandi
+        sourceField: TMW/TL
+        suppliedRatio: 0.741948768898
+        originalNumerator: 2.273
+        originalTotalLength: 32.278
+        computedRatio: 0.07041948076088977
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 832
+        scientificName: Litoria coplandi
+        sourceField: OD/TL
+        suppliedRatio: 0.8816657376541
+        originalNumerator: 2.841
+        originalTotalLength: 32.278
+        computedRatio: 0.08801660573765414
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.37279109174534
+        row: 824
+        stage: 38
+        type: Ratio
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.647058823529412
+        row: 824
+        stage: 38
+        type: Ratio
+        imageType: Color image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.185185185185185
+        row: 824
+        stage: 38
+        type: Ratio
+        imageType: Color image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.187363834422658
+        row: 824
+        stage: 38
+        type: Ratio
+        imageType: Color image
+      - field: TMH/TL
+        label:
+          en: tail muscle height / total length
+          zh: 尾肌高度/全长
+        value: 0.0827886710239651
+        row: 824
+        stage: 38
+        type: Ratio
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/zh
+---
+
+# Litoria coplandi — TadpoleTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator -->
+Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 824, 825, 826, 827, 828, 829, 830, 831, 832; Readme rows 6–50
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/en -->
+A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete. No external expert review.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/zh -->
+本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成；没有外部专家审评。
+<!-- /evo:text -->

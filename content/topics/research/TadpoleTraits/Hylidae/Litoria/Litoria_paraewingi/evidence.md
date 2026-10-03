@@ -1,0 +1,563 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  tadpole-traits-reader:
+    scientificName: Litoria paraewingi
+    name:
+      en: Litoria paraewingi
+      zh: Litoria paraewingi
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/1/text/zh
+      - topic: morphology
+        title:
+          en: Selected image-derived proportions
+          zh: 选列的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/2/text/zh
+      - topic: overview
+        title:
+          en: Unresolved source ratios
+          zh: 未解决的来源比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/3/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+          metadataVariant: 0
+          sourceKey: tadpoletraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      family: Hylidae
+      genus: Litoria
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 931
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image(Dorsal view) + Hand-drawn picture(Side view)
+          - Litoria paraewingi
+          - Hylidae
+          - Litoria
+          - Litoria paraewingi
+          - 39
+          - 62.868
+          - 19.358
+          - 44.136
+          - 7.749
+          - 10.002
+          - 3.313
+          - 3.663
+          - 3.663
+          - 10.199
+          - 4.788
+          - null
+          - 0.37914996564
+          - 0.724237449895
+          - 0.12325825539225
+          - 0.15995247184577
+          - 0.5269771584986
+          - 0.58264936564993
+          - 0.58264936564993
+          - 0.162228796844181
+          - 0.761595724374881
+          - null
+          - Rui Tian
+      - rowNumber: 932
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria paraewingi
+          - Hylidae
+          - Litoria
+          - Litoria paraewingi
+          - 42
+          - 55.786
+          - 17.486
+          - 39.549
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 6.04
+          - 3.33
+          - null
+          - 0.31344781844973
+          - 0.7894131144146
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.182789233858
+          - 0.596923959416341
+          - null
+          - Rui Tian
+      - rowNumber: 933
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria paraewingi
+          - Hylidae
+          - Litoria
+          - Litoria paraewingi
+          - 41
+          - 56.826
+          - 16.862
+          - 38.508
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 8.349
+          - 4.168
+          - null
+          - 0.296733699112
+          - 0.677647555696336
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.14692218357549
+          - 0.733467749349
+          - null
+          - Rui Tian
+      - rowNumber: 934
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria paraewingi
+          - Hylidae
+          - Litoria
+          - Litoria paraewingi
+          - 29
+          - 23.84
+          - 8.368
+          - 14.815
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 5.208
+          - 1.665
+          - null
+          - 0.351671149396
+          - 0.621434563758389
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.218456375838926
+          - 0.698464268456
+          - null
+          - Rui Tian
+      - rowNumber: 935
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Hand-drawn picture
+          - Litoria paraewingi
+          - Hylidae
+          - Litoria
+          - Litoria paraewingi
+          - 37
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 3.338
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - Rui Tian
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 931
+        scientificName: Litoria paraewingi
+        sourceField: BL/TL
+        suppliedRatio: 0.37914996564
+        originalNumerator: 19.358
+        originalTotalLength: 62.868
+        computedRatio: 0.30791499650060444
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 931
+        scientificName: Litoria paraewingi
+        sourceField: TaL/TL
+        suppliedRatio: 0.724237449895
+        originalNumerator: 44.136
+        originalTotalLength: 62.868
+        computedRatio: 0.7020423744989502
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 931
+        scientificName: Litoria paraewingi
+        sourceField: TMH/TL
+        suppliedRatio: 0.5269771584986
+        originalNumerator: 3.313
+        originalTotalLength: 62.868
+        computedRatio: 0.05269771584908062
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 931
+        scientificName: Litoria paraewingi
+        sourceField: DFH/TL
+        suppliedRatio: 0.58264936564993
+        originalNumerator: 3.663
+        originalTotalLength: 62.868
+        computedRatio: 0.05826493605649933
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 931
+        scientificName: Litoria paraewingi
+        sourceField: VFH/TL
+        suppliedRatio: 0.58264936564993
+        originalNumerator: 3.663
+        originalTotalLength: 62.868
+        computedRatio: 0.05826493605649933
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 931
+        scientificName: Litoria paraewingi
+        sourceField: TMW/TL
+        suppliedRatio: 0.761595724374881
+        originalNumerator: 4.788
+        originalTotalLength: 62.868
+        computedRatio: 0.07615957243748807
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 932
+        scientificName: Litoria paraewingi
+        sourceField: TaL/TL
+        suppliedRatio: 0.7894131144146
+        originalNumerator: 39.549
+        originalTotalLength: 55.786
+        computedRatio: 0.7089413114401463
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 932
+        scientificName: Litoria paraewingi
+        sourceField: BMW/TL
+        suppliedRatio: 0.182789233858
+        originalNumerator: 6.04
+        originalTotalLength: 55.786
+        computedRatio: 0.10827089233857957
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 932
+        scientificName: Litoria paraewingi
+        sourceField: TMW/TL
+        suppliedRatio: 0.596923959416341
+        originalNumerator: 3.33
+        originalTotalLength: 55.786
+        computedRatio: 0.0596923959416341
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 933
+        scientificName: Litoria paraewingi
+        sourceField: TMW/TL
+        suppliedRatio: 0.733467749349
+        originalNumerator: 4.168
+        originalTotalLength: 56.826
+        computedRatio: 0.07334670749304896
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 934
+        scientificName: Litoria paraewingi
+        sourceField: TMW/TL
+        suppliedRatio: 0.698464268456
+        originalNumerator: 1.665
+        originalTotalLength: 23.84
+        computedRatio: 0.06984060402684564
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.12325825539225
+        row: 931
+        stage: 39
+        type: Measurement
+        imageType: Color image(Dorsal view) + Hand-drawn picture(Side view)
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.15995247184577
+        row: 931
+        stage: 39
+        type: Measurement
+        imageType: Color image(Dorsal view) + Hand-drawn picture(Side view)
+      - field: BMW/TL
+        label:
+          en: maximum body width / total length
+          zh: 躯体最大宽度/全长
+        value: 0.162228796844181
+        row: 931
+        stage: 39
+        type: Measurement
+        imageType: Color image(Dorsal view) + Hand-drawn picture(Side view)
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.31344781844973
+        row: 932
+        stage: 42
+        type: Measurement
+        imageType: Color image
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.296733699112
+        row: 933
+        stage: 41
+        type: Measurement
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/zh
+---
+
+# Litoria paraewingi — TadpoleTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator -->
+Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 931, 932, 933, 934, 935; Readme rows 6–50
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/en -->
+A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete. No external expert review.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/zh -->
+本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成；没有外部专家审评。
+<!-- /evo:text -->

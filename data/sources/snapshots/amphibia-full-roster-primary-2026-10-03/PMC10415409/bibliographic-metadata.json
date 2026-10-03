@@ -1,0 +1,2835 @@
+{
+  "pmcid": "PMC10415409",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+  "sha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+  "articleType": "research-article",
+  "title": "Single-cell analysis of lizard blastema fibroblasts reveals phagocyte-dependent activation of Hedgehog-responsive chondrogenesis",
+  "authors": [],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC10415409"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "10415409"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "10415409"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "37563130"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1038/s41467-023-40206-z"
+    }
+  ],
+  "publicationDates": [
+    {
+      "year": "2023",
+      "month": "8",
+      "day": "10"
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "MOESM1",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2023_40206_MOESM1_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2023_40206_MOESM1_ESM.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM2",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2023_40206_MOESM2_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2023_40206_MOESM2_ESM.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM3",
+      "position": 2,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2023_40206_MOESM3_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2023_40206_MOESM3_ESM.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM4",
+      "position": 3,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2023_40206_MOESM4_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2023_40206_MOESM4_ESM.xlsx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material1_reqid_",
+      "position": 4,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2023_40206_MOESM1_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2023_40206_MOESM1_ESM.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material2_reqid_",
+      "position": 5,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2023_40206_MOESM2_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2023_40206_MOESM2_ESM.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material3_reqid_",
+      "position": 6,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2023_40206_MOESM3_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2023_40206_MOESM3_ESM.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material4_reqid_",
+      "position": 7,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2023_40206_MOESM4_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2023_40206_MOESM4_ESM.xlsx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "CR1",
+      "position": 0,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Stramer BM, Mori R, Martin P. The inflammation–fibrosis link? A Jekyll and Hyde role for blood cells during wound repair. J. Investig. Dermatol. 2007;127:1009–1017. doi: 10.1038/sj.jid.5700811.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/sj.jid.5700811",
+        "17435786",
+        "journal=J. Investig. Dermatol.&title=The inflammation–fibrosis link? A Jekyll and Hyde role for blood cells during wound repair&author=BM Stramer&author=R Mori&author=P Martin&volume=127&publication_year=2007&pages=1009-1017&pmid=17435786&doi=10.1038/sj.jid.5700811&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR2",
+      "position": 1,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wynn T. Cellular and molecular mechanisms of fibrosis. J. Pathol. 2008;214:199–210. doi: 10.1002/path.2277.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/path.2277",
+        "PMC2693329",
+        "18161745",
+        "journal=J. Pathol.&title=Cellular and molecular mechanisms of fibrosis&author=T Wynn&volume=214&publication_year=2008&pages=199-210&pmid=18161745&doi=10.1002/path.2277&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR2",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR3",
+      "position": 2,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Haas BJ, Whited JL. Advances in decoding axolotl limb regeneration. Trends Genet. 2017;33:553–565. doi: 10.1016/j.tig.2017.05.006.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.tig.2017.05.006",
+        "PMC5534018",
+        "28648452",
+        "journal=Trends Genet.&title=Advances in decoding axolotl limb regeneration&author=BJ Haas&author=JL Whited&volume=33&publication_year=2017&pages=553-565&pmid=28648452&doi=10.1016/j.tig.2017.05.006&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR3",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR4",
+      "position": 3,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Neufeld DA, Zhao W. Phalangeal regrowth in rodents: postamputational bone regrowth depends upon the level of amputation. Prog. Clin. Biol. Res. 1993;383A:243–252.",
+      "identifiers": [],
+      "externalLinks": [
+        "8302899",
+        "journal=Prog. Clin. Biol. Res.&title=Phalangeal regrowth in rodents: postamputational bone regrowth depends upon the level of amputation&author=DA Neufeld&author=W Zhao&volume=383A&publication_year=1993&pages=243-252&pmid=8302899&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR4",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR5",
+      "position": 4,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Rinkevich Y, Lindau P, Ueno H, Longaker MT, Weissman IL. Germ-layer and lineage-restricted stem/progenitors regenerate the mouse digit tip. Nature. 2011;476:409–413. doi: 10.1038/nature10346.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nature10346",
+        "PMC3812235",
+        "21866153",
+        "journal=Nature&title=Germ-layer and lineage-restricted stem/progenitors regenerate the mouse digit tip&author=Y Rinkevich&author=P Lindau&author=H Ueno&author=MT Longaker&author=IL Weissman&volume=476&publication_year=2011&pages=409-413&pmid=21866153&doi=10.1038/nature10346&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR5",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR6",
+      "position": 5,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lehoczky JA, Robert B, Tabin CJ. Mouse digit tip regeneration is mediated by fate-restricted progenitor cells. Proc. Natl. Acad. Sci. USA. 2011;108:20609–20614. doi: 10.1073/pnas.1118017108.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1073/pnas.1118017108",
+        "PMC3251149",
+        "22143790",
+        "journal=Proc. Natl. Acad. Sci. USA&title=Mouse digit tip regeneration is mediated by fate-restricted progenitor cells&author=JA Lehoczky&author=B Robert&author=CJ Tabin&volume=108&publication_year=2011&pages=20609-20614&pmid=22143790&doi=10.1073/pnas.1118017108&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR6",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR7",
+      "position": 6,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Li C, Zhao H, Liu Z, McMahon C. Deer Antler—a novel model for studying organ regeneration in mammals. Int. J. Biochem. Cell Biol. 2014;56:111–122. doi: 10.1016/j.biocel.2014.07.007.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.biocel.2014.07.007",
+        "25046387",
+        "journal=Int. J. Biochem. Cell Biol.&title=Deer Antler—a novel model for studying organ regeneration in mammals&author=C Li&author=H Zhao&author=Z Liu&author=C McMahon&volume=56&publication_year=2014&pages=111-122&pmid=25046387&doi=10.1016/j.biocel.2014.07.007&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR7",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR8",
+      "position": 7,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Simpson SB. Studies on regeneration of the lizard’s tail. Am. Zool. 1970;10:157–165. doi: 10.1093/icb/10.2.157.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/icb/10.2.157",
+        "5426257",
+        "journal=Am. Zool.&title=Studies on regeneration of the lizard’s tail&author=SB Simpson&volume=10&publication_year=1970&pages=157-165&pmid=5426257&doi=10.1093/icb/10.2.157&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR8",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR9",
+      "position": 8,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Londono R, et al.  Single cell sequencing analysis of lizard phagocytic cell populations and their role in tail regeneration. J. Immunol. Regen. Med. 2020;8:100029. doi: 10.1016/j.regen.2020.100029.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.regen.2020.100029",
+        "PMC7182306",
+        "32337387",
+        "journal=J. Immunol. Regen. Med.&title=Single cell sequencing analysis of lizard phagocytic cell populations and their role in tail regeneration&author=R Londono&volume=8&publication_year=2020&pages=100029&pmid=32337387&doi=10.1016/j.regen.2020.100029&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR9",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR10",
+      "position": 9,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Riera Romo M, Pérez‐Martínez D, Castillo Ferrer C. Innate immunity in vertebrates: an overview. Immunology. 2016;148:125–139. doi: 10.1111/imm.12597.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/imm.12597",
+        "PMC4863567",
+        "26878338",
+        "journal=Immunology&title=Innate immunity in vertebrates: an overview&author=M Riera Romo&author=D Pérez‐Martínez&author=C Castillo Ferrer&volume=148&publication_year=2016&pages=125-139&pmid=26878338&doi=10.1111/imm.12597&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR10",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR11",
+      "position": 10,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Flajnik MF. A cold-blooded view of adaptive immunity. Nat. Rev. Immunol. 2018;18:438–453. doi: 10.1038/s41577-018-0003-9.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41577-018-0003-9",
+        "PMC6084782",
+        "29556016",
+        "journal=Nat. Rev. Immunol.&title=A cold-blooded view of adaptive immunity&author=MF Flajnik&volume=18&publication_year=2018&pages=438-453&pmid=29556016&doi=10.1038/s41577-018-0003-9&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR11",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR12",
+      "position": 11,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lozito TP, Tuan RS. Lizard tail regeneration as an instructive model of enhanced healing capabilities in an adult amniote. Connect Tissue Res. 2017;58:145–154. doi: 10.1080/03008207.2016.1215444.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1080/03008207.2016.1215444",
+        "PMC5484412",
+        "27459585",
+        "journal=Connect Tissue Res.&title=Lizard tail regeneration as an instructive model of enhanced healing capabilities in an adult amniote&author=TP Lozito&author=RS Tuan&volume=58&publication_year=2017&pages=145-154&pmid=27459585&doi=10.1080/03008207.2016.1215444&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR12",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR13",
+      "position": 12,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Londono R, Sun AX, Tuan RS, Lozito TP. Tissue repair and epimorphic regeneration: an overview. Curr. Pathobiol. Rep. 2018;6:61–69. doi: 10.1007/s40139-018-0161-2.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s40139-018-0161-2",
+        "PMC6025457",
+        "29967714",
+        "journal=Curr. Pathobiol. Rep.&title=Tissue repair and epimorphic regeneration: an overview&author=R Londono&author=AX Sun&author=RS Tuan&author=TP Lozito&volume=6&publication_year=2018&pages=61-69&pmid=29967714&doi=10.1007/s40139-018-0161-2&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR13",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR14",
+      "position": 13,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lozito TP, Tuan RS. Lizard tail skeletal regeneration combines aspects of fracture healing and blastema-based regeneration. Development. 2016;143:2946–2957. doi: 10.1242/dev.129585.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1242/dev.129585",
+        "PMC5004880",
+        "27387871",
+        "journal=Development&title=Lizard tail skeletal regeneration combines aspects of fracture healing and blastema-based regeneration&author=TP Lozito&author=RS Tuan&volume=143&publication_year=2016&pages=2946-2957&pmid=27387871&doi=10.1242/dev.129585&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR14",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR15",
+      "position": 14,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Londono R, Wenzhong W, Wang B, Tuan RS, Lozito TP. Cartilage and muscle cell fate and origins during lizard tail regeneration. Front. Bioeng. Biotechnol. 2017;5:70. doi: 10.3389/fbioe.2017.00070.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3389/fbioe.2017.00070",
+        "PMC5673626",
+        "29164111",
+        "journal=Front. Bioeng. Biotechnol.&title=Cartilage and muscle cell fate and origins during lizard tail regeneration&author=R Londono&author=W Wenzhong&author=B Wang&author=RS Tuan&author=TP Lozito&volume=5&publication_year=2017&pages=70&pmid=29164111&doi=10.3389/fbioe.2017.00070&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR15",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR16",
+      "position": 15,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Fisher RE, et al.  A histological comparison of the original and regenerated tail in the green anole, Anolis carolinensis. Anat. Rec. 2012;295:1609–1619. doi: 10.1002/ar.22537.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/ar.22537",
+        "PMC4389898",
+        "22933242",
+        "journal=Anat. Rec.&title=A histological comparison of the original and regenerated tail in the green anole, Anolis carolinensis&author=RE Fisher&volume=295&publication_year=2012&pages=1609-1619&pmid=22933242&doi=10.1002/ar.22537&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR16",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR17",
+      "position": 16,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Alibardi L. Histochemical, biochemical and cell biological aspects of tail regeneration in lizard, an amniote model for studies on tissue regeneration. Prog. Histochem. Cytochem. 2014;48:143–244. doi: 10.1016/j.proghi.2013.12.001.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.proghi.2013.12.001",
+        "24387878",
+        "journal=Prog. Histochem. Cytochem.&title=Histochemical, biochemical and cell biological aspects of tail regeneration in lizard, an amniote model for studies on tissue regeneration&author=L Alibardi&volume=48&publication_year=2014&pages=143-244&pmid=24387878&doi=10.1016/j.proghi.2013.12.001&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR17",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR18",
+      "position": 17,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Jacyniak K, McDonald RP, Vickaryous MK. Tail regeneration and other phenomena of wound healing and tissue restoration in lizards. J. Exp. Biol. 2017;220:2858–2869. doi: 10.1242/jeb.126862.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1242/jeb.126862",
+        "28814609",
+        "journal=J. Exp. Biol.&title=Tail regeneration and other phenomena of wound healing and tissue restoration in lizards&author=K Jacyniak&author=RP McDonald&author=MK Vickaryous&volume=220&publication_year=2017&pages=2858-2869&pmid=28814609&doi=10.1242/jeb.126862&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR18",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR19",
+      "position": 18,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Chazaud B. Macrophages: supportive cells for tissue repair and regeneration. Immunobiology. 2014;219:172–178. doi: 10.1016/j.imbio.2013.09.001.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.imbio.2013.09.001",
+        "24080029",
+        "journal=Immunobiology&title=Macrophages: supportive cells for tissue repair and regeneration&author=B Chazaud&volume=219&publication_year=2014&pages=172-178&pmid=24080029&doi=10.1016/j.imbio.2013.09.001&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR19",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR20",
+      "position": 19,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Mescher AL. Macrophages and fibroblasts during inflammation and tissue repair in models of organ regeneration. Regeneration. 2017;4:39–53. doi: 10.1002/reg2.77.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/reg2.77",
+        "PMC5469729",
+        "28616244",
+        "journal=Regeneration&title=Macrophages and fibroblasts during inflammation and tissue repair in models of organ regeneration&author=AL Mescher&volume=4&publication_year=2017&pages=39-53&pmid=28616244&doi=10.1002/reg2.77&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR20",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR21",
+      "position": 20,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wynn TA, Chawla A, Pollard JW. Macrophage biology in development, homeostasis and disease. Nature. 2013;496:445–455. doi: 10.1038/nature12034.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nature12034",
+        "PMC3725458",
+        "23619691",
+        "journal=Nature&title=Macrophage biology in development, homeostasis and disease&author=TA Wynn&author=A Chawla&author=JW Pollard&volume=496&publication_year=2013&pages=445-455&pmid=23619691&doi=10.1038/nature12034&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR21",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR22",
+      "position": 21,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Karin M, Clevers H. Reparative inflammation takes charge of tissue regeneration. Nature. 2016;529:307–315. doi: 10.1038/nature17039.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nature17039",
+        "PMC5228603",
+        "26791721",
+        "journal=Nature&title=Reparative inflammation takes charge of tissue regeneration&author=M Karin&author=H Clevers&volume=529&publication_year=2016&pages=307-315&pmid=26791721&doi=10.1038/nature17039&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR22",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR23",
+      "position": 22,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Simkin J, et al.  Macrophages are required to coordinate mouse digit tip regeneration. Development. 2017;144:3907–3916. doi: 10.1242/dev.150086.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1242/dev.150086",
+        "PMC5702070",
+        "28935712",
+        "journal=Development&title=Macrophages are required to coordinate mouse digit tip regeneration&author=J Simkin&volume=144&publication_year=2017&pages=3907-3916&pmid=28935712&doi=10.1242/dev.150086&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR23",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR24",
+      "position": 23,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Godwin JW, Pinto AR, Rosenthal NA. Macrophages are required for adult salamander limb regeneration. Proc. Natl. Acad. Sci. USA. 2013;110:9415–9420. doi: 10.1073/pnas.1300290110.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1073/pnas.1300290110",
+        "PMC3677454",
+        "23690624",
+        "journal=Proc. Natl. Acad. Sci. USA&title=Macrophages are required for adult salamander limb regeneration&author=JW Godwin&author=AR Pinto&author=NA Rosenthal&volume=110&publication_year=2013&pages=9415-9420&pmid=23690624&doi=10.1073/pnas.1300290110&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR24",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR25",
+      "position": 24,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Petrie TA, Strand NS, Tsung-Yang C, Rabinowitz JS, Moon RT. Macrophages modulate adult zebrafish tail fin regeneration. Development. 2014;141:2581–2591. doi: 10.1242/dev.098459.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1242/dev.098459",
+        "PMC4067955",
+        "24961798",
+        "journal=Development&title=Macrophages modulate adult zebrafish tail fin regeneration&author=TA Petrie&author=NS Strand&author=C Tsung-Yang&author=JS Rabinowitz&author=RT Moon&volume=141&publication_year=2014&pages=2581-2591&pmid=24961798&doi=10.1242/dev.098459&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR25",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR26",
+      "position": 25,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Simkin J, Gawriluk TR, Gensel JC, Seifert AW. Macrophages are necessary for epimorphic regeneration in African spiny mice. eLife. 2017;6:e24623. doi: 10.7554/eLife.24623.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.7554/eLife.24623",
+        "PMC5433844",
+        "28508748",
+        "journal=eLife&title=Macrophages are necessary for epimorphic regeneration in African spiny mice&author=J Simkin&author=TR Gawriluk&author=JC Gensel&author=AW Seifert&volume=6&publication_year=2017&pages=e24623&pmid=28508748&doi=10.7554/eLife.24623&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR26",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR27",
+      "position": 26,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Riquelme-Guzmán C, et al.  Osteoclast-mediated resorption primes the skeleton for successful integration during axolotl limb regeneration. eLife. 2022;11:e79966. doi: 10.7554/eLife.79966.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.7554/eLife.79966",
+        "PMC9581535",
+        "36218256",
+        "journal=eLife&title=Osteoclast-mediated resorption primes the skeleton for successful integration during axolotl limb regeneration&author=C Riquelme-Guzmán&volume=11&publication_year=2022&pages=e79966&pmid=36218256&doi=10.7554/eLife.79966&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR27",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR28",
+      "position": 27,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Leigh ND, et al.  Transcriptomic landscape of the blastema niche in regenerating adult axolotl limbs at single-cell resolution. Nat. Commun. 2018;9:5153. doi: 10.1038/s41467-018-07604-0.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41467-018-07604-0",
+        "PMC6279788",
+        "30514844",
+        "journal=Nat. Commun.&title=Transcriptomic landscape of the blastema niche in regenerating adult axolotl limbs at single-cell resolution&author=ND Leigh&volume=9&publication_year=2018&pages=5153&pmid=30514844&doi=10.1038/s41467-018-07604-0&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR28",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR29",
+      "position": 28,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Fischman DA, Hay ED. Origin of osteoclasts from mononuclear leucocytes in regenerating newt limbs. Anat. Rec. 1962;143:329–337. doi: 10.1002/ar.1091430402.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/ar.1091430402",
+        "13893183",
+        "journal=Anat. Rec.&title=Origin of osteoclasts from mononuclear leucocytes in regenerating newt limbs&author=DA Fischman&author=ED Hay&volume=143&publication_year=1962&pages=329-337&pmid=13893183&doi=10.1002/ar.1091430402&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR29",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR30",
+      "position": 29,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Alibardi L. Immunolocalization of 5BrdU long retaining labeled cells and macrophage infiltration in the scarring limb of lizard after limb amputation. Tissue Cell. 2016;48:197–207. doi: 10.1016/j.tice.2016.03.007.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.tice.2016.03.007",
+        "27041488",
+        "journal=Tissue Cell&title=Immunolocalization of 5BrdU long retaining labeled cells and macrophage infiltration in the scarring limb of lizard after limb amputation&author=L Alibardi&volume=48&publication_year=2016&pages=197-207&pmid=27041488&doi=10.1016/j.tice.2016.03.007&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR30",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR31",
+      "position": 30,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Alibardi L. Autoradiography and inmmunolabeling suggests that lizard blastema contains arginase-positive M2-like macrophages that may support tail regeneration. Ann. Anat. Anat. Anz. 2020;231:151549. doi: 10.1016/j.aanat.2020.151549.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.aanat.2020.151549",
+        "32512203",
+        "journal=Ann. Anat. Anat. Anz.&title=Autoradiography and inmmunolabeling suggests that lizard blastema contains arginase-positive M2-like macrophages that may support tail regeneration&author=L Alibardi&volume=231&publication_year=2020&pages=151549&pmid=32512203&doi=10.1016/j.aanat.2020.151549&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR31",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR32",
+      "position": 31,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Alibardi L. Immunoreactivity for Dab2 and Foxp3 suggests that immune-suppressive cells are present in the regenerating tail blastema of lizard. Acta Zool. 2022;103:389–401. doi: 10.1111/azo.12380.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/azo.12380",
+        "journal=Acta Zool.&title=Immunoreactivity for Dab2 and Foxp3 suggests that immune-suppressive cells are present in the regenerating tail blastema of lizard&author=L Alibardi&volume=103&publication_year=2022&pages=389-401&doi=10.1111/azo.12380&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR32",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR33",
+      "position": 32,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bautista-Hernández LA, Gómez-Olivares JL, Buentello-Volante B, Bautista-de Lucio VM. Fibroblasts: the unknown sentinels eliciting immune responses against microorganisms. Eur. J. Microbiol. Immunol. 2017;7:151–157. doi: 10.1556/1886.2017.00009.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1556/1886.2017.00009",
+        "PMC5632742",
+        "29034104",
+        "journal=Eur. J. Microbiol. Immunol.&title=Fibroblasts: the unknown sentinels eliciting immune responses against microorganisms&author=LA Bautista-Hernández&author=JL Gómez-Olivares&author=B Buentello-Volante&author=VM Bautista-de Lucio&volume=7&publication_year=2017&pages=151-157&pmid=29034104&doi=10.1556/1886.2017.00009&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR33",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR34",
+      "position": 33,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Gardiner DM, Endo T, Bryant SV. The molecular basis of amphibian limb regeneration: integrating the old with the new. Semin. Cell Dev. Biol. 2002;13:345–352. doi: 10.1016/S1084952102000903.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/S1084952102000903",
+        "12324216",
+        "journal=Semin. Cell Dev. Biol.&title=The molecular basis of amphibian limb regeneration: integrating the old with the new&author=DM Gardiner&author=T Endo&author=SV Bryant&volume=13&publication_year=2002&pages=345-352&pmid=12324216&doi=10.1016/S1084952102000903&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR34",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR35",
+      "position": 34,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bernardo ME, Fibbe WE. Mesenchymal stromal cells: sensors and switchers of inflammation. Cell Stem Cell. 2013;13:392–402. doi: 10.1016/j.stem.2013.09.006.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.stem.2013.09.006",
+        "24094322",
+        "journal=Cell Stem Cell&title=Mesenchymal stromal cells: sensors and switchers of inflammation&author=ME Bernardo&author=WE Fibbe&volume=13&publication_year=2013&pages=392-402&pmid=24094322&doi=10.1016/j.stem.2013.09.006&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR35",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR36",
+      "position": 35,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Gerber, T. et al. Single-cell analysis uncovers convergence of cell identities during axolotl limb regeneration. Science362, eaaq0681 (2018).",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1126/science.aaq0681",
+        "PMC6669047",
+        "30262634"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR36",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR37",
+      "position": 36,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Dunis DA, Namenwirth M. The role of grafted skin in the regeneration of X-irradiated axolotl limbs. Dev. Biol. 1977;56:97–109. doi: 10.1016/0012-1606(77)90157-9.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/0012-1606(77)90157-9",
+        "320068",
+        "journal=Dev. Biol.&title=The role of grafted skin in the regeneration of X-irradiated axolotl limbs&author=DA Dunis&author=M Namenwirth&volume=56&publication_year=1977&pages=97-109&pmid=320068&doi=10.1016/0012-1606(77)90157-9&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR37",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR38",
+      "position": 37,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Muneoka K, Fox WF, Bryant SV. Cellular contribution from dermis and cartilage to the regenerating limb blastema in axolotls. Dev. Biol. 1986;116:256–260. doi: 10.1016/0012-1606(86)90062-X.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/0012-1606(86)90062-X",
+        "3732605",
+        "journal=Dev. Biol.&title=Cellular contribution from dermis and cartilage to the regenerating limb blastema in axolotls&author=K Muneoka&author=WF Fox&author=SV Bryant&volume=116&publication_year=1986&pages=256-260&pmid=3732605&doi=10.1016/0012-1606(86)90062-X&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR38",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR39",
+      "position": 38,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Currie JD, et al.  Live imaging of axolotl digit regeneration reveals spatiotemporal choreography of diverse connective tissue progenitor pools. Dev. Cell. 2016;39:411–423. doi: 10.1016/j.devcel.2016.10.013.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.devcel.2016.10.013",
+        "PMC5127896",
+        "27840105",
+        "journal=Dev. Cell&title=Live imaging of axolotl digit regeneration reveals spatiotemporal choreography of diverse connective tissue progenitor pools&author=JD Currie&volume=39&publication_year=2016&pages=411-423&pmid=27840105&doi=10.1016/j.devcel.2016.10.013&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR39",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR40",
+      "position": 39,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "McCusker CD, Diaz-Castillo C, Sosnik J, Q. Phan A, Gardiner DM. Cartilage and bone cells do not participate in skeletal regeneration in Ambystoma mexicanum limbs. Dev. Biol. 2016;416:26–33. doi: 10.1016/j.ydbio.2016.05.032.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.ydbio.2016.05.032",
+        "27316294",
+        "journal=Dev. Biol.&title=Cartilage and bone cells do not participate in skeletal regeneration in Ambystoma mexicanum limbs&author=CD McCusker&author=C Diaz-Castillo&author=J Sosnik&author=A Q. Phan&author=DM Gardiner&volume=416&publication_year=2016&pages=26-33&pmid=27316294&doi=10.1016/j.ydbio.2016.05.032&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR40",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR41",
+      "position": 40,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Barr JI, Boisvert CA, Bateman PW. At what cost? Trade-offs and influences on energetic investment in tail regeneration in lizards following autotomy. J. Dev. Biol. 2021;9:53. doi: 10.3390/jdb9040053.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3390/jdb9040053",
+        "PMC8709428",
+        "34940500",
+        "journal=J. Dev. Biol.&title=At what cost? Trade-offs and influences on energetic investment in tail regeneration in lizards following autotomy&author=JI Barr&author=CA Boisvert&author=PW Bateman&volume=9&publication_year=2021&pages=53&pmid=34940500&doi=10.3390/jdb9040053&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR41",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR42",
+      "position": 41,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "McLean KE, Vickaryous MK. A novel amniote model of epimorphic regeneration: the leopard gecko, Eublepharis macularius. BMC Dev. Biol. 2011;11:1–25. doi: 10.1186/1471-213X-11-50.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/1471-213X-11-50",
+        "PMC3180301",
+        "21846350",
+        "journal=BMC Dev. Biol.&title=A novel amniote model of epimorphic regeneration: the leopard gecko, Eublepharis macularius&author=KE McLean&author=MK Vickaryous&volume=11&publication_year=2011&pages=1-25&pmid=21846350&doi=10.1186/1471-213X-11-50&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR42",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR43",
+      "position": 42,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Zheng GXY, et al.  Massively parallel digital transcriptional profiling of single cells. Nat. Commun. 2017;8:14049. doi: 10.1038/ncomms14049.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/ncomms14049",
+        "PMC5241818",
+        "28091601",
+        "journal=Nat. Commun.&title=Massively parallel digital transcriptional profiling of single cells&author=GXY Zheng&volume=8&publication_year=2017&pages=14049&pmid=28091601&doi=10.1038/ncomms14049&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR43",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR44",
+      "position": 43,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hao Y, et al.  Integrated analysis of multimodal single-cell data. Cell. 2021;184:3573–3587.e29. doi: 10.1016/j.cell.2021.04.048.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.cell.2021.04.048",
+        "PMC8238499",
+        "34062119",
+        "journal=Cell&title=Integrated analysis of multimodal single-cell data&author=Y Hao&volume=184&publication_year=2021&pages=3573-3587.e29&pmid=34062119&doi=10.1016/j.cell.2021.04.048&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR44",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR45",
+      "position": 44,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Korsunsky I, et al.  Fast, sensitive and accurate integration of single-cell data with Harmony. Nat. Methods. 2019;16:1289–1296. doi: 10.1038/s41592-019-0619-0.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41592-019-0619-0",
+        "PMC6884693",
+        "31740819",
+        "journal=Nat. Methods&title=Fast, sensitive and accurate integration of single-cell data with Harmony&author=I Korsunsky&volume=16&publication_year=2019&pages=1289-1296&pmid=31740819&doi=10.1038/s41592-019-0619-0&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR45",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR46",
+      "position": 45,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Zhang Y, et al.  Tracing the evolution of fatty acid‐binding proteins (FABPs) in organisms with a heterogeneous fat distribution. FEBS Open Bio. 2020;10:861–872. doi: 10.1002/2211-5463.12840.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/2211-5463.12840",
+        "PMC7193176",
+        "32170849",
+        "journal=FEBS Open Bio&title=Tracing the evolution of fatty acid‐binding proteins (FABPs) in organisms with a heterogeneous fat distribution&author=Y Zhang&volume=10&publication_year=2020&pages=861-872&pmid=32170849&doi=10.1002/2211-5463.12840&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR46",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR47",
+      "position": 46,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Delorme SL, Lungu IM, Vickaryous MK. Scar-free wound healing and regeneration following tail loss in the leopard gecko, Eublepharis macularius. Anat. Rec. 2012;295:1575–1595. doi: 10.1002/ar.22490.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/ar.22490",
+        "22933425",
+        "journal=Anat. Rec.&title=Scar-free wound healing and regeneration following tail loss in the leopard gecko, Eublepharis macularius&author=SL Delorme&author=IM Lungu&author=MK Vickaryous&volume=295&publication_year=2012&pages=1575-1595&pmid=22933425&doi=10.1002/ar.22490&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR47",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR48",
+      "position": 47,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Cannoodt R, Saelens W, Saeys Y. Computational methods for trajectory inference from single-cell transcriptomics. Eur. J. Immunol. 2016;46:2496–2506. doi: 10.1002/eji.201646347.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/eji.201646347",
+        "27682842",
+        "journal=Eur. J. Immunol.&title=Computational methods for trajectory inference from single-cell transcriptomics&author=R Cannoodt&author=W Saelens&author=Y Saeys&volume=46&publication_year=2016&pages=2496-2506&pmid=27682842&doi=10.1002/eji.201646347&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR48",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR49",
+      "position": 48,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Trapnell C, et al.  The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells. Nat. Biotechnol. 2014;32:381–386. doi: 10.1038/nbt.2859.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nbt.2859",
+        "PMC4122333",
+        "24658644",
+        "journal=Nat. Biotechnol.&title=The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells&author=C Trapnell&volume=32&publication_year=2014&pages=381-386&pmid=24658644&doi=10.1038/nbt.2859&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR49",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR50",
+      "position": 49,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Qiu X, et al.  Single-cell mRNA quantification and differential analysis with Census. Nat. Methods. 2017;14:309–315. doi: 10.1038/nmeth.4150.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nmeth.4150",
+        "PMC5330805",
+        "28114287",
+        "journal=Nat. Methods&title=Single-cell mRNA quantification and differential analysis with Census&author=X Qiu&volume=14&publication_year=2017&pages=309-315&pmid=28114287&doi=10.1038/nmeth.4150&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR50",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR51",
+      "position": 50,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Qiu X, et al.  Reversed graph embedding resolves complex single-cell trajectories. Nat. Methods. 2017;14:979–982. doi: 10.1038/nmeth.4402.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nmeth.4402",
+        "PMC5764547",
+        "28825705",
+        "journal=Nat. Methods&title=Reversed graph embedding resolves complex single-cell trajectories&author=X Qiu&volume=14&publication_year=2017&pages=979-982&pmid=28825705&doi=10.1038/nmeth.4402&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR51",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR52",
+      "position": 51,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Senger DR, Wirth DF, Hynes RO. Transformation-specific secreted phosphoproteins. Nature. 1980;286:619–621. doi: 10.1038/286619a0.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/286619a0",
+        "7402340",
+        "journal=Nature&title=Transformation-specific secreted phosphoproteins&author=DR Senger&author=DF Wirth&author=RO Hynes&volume=286&publication_year=1980&pages=619-621&pmid=7402340&doi=10.1038/286619a0&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR52",
+        "position": 51,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR53",
+      "position": 52,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Liaw L, et al.  Altered wound healing in mice lacking a functional osteopontin gene (spp1) J. Clin. Investig. 1998;101:1468–1478. doi: 10.1172/JCI2131.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1172/JCI2131",
+        "PMC508725",
+        "9525990",
+        "journal=J. Clin. Investig.&title=Altered wound healing in mice lacking a functional osteopontin gene (spp1)&author=L Liaw&volume=101&publication_year=1998&pages=1468-1478&pmid=9525990&doi=10.1172/JCI2131&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR53",
+        "position": 52,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR54",
+      "position": 53,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Takahashi F, et al.  Role of osteopontin in the pathogenesis of bleomycin-induced pulmonary fibrosis. Am. J. Respir. Cell Mol. Biol. 2001;24:264–271. doi: 10.1165/ajrcmb.24.3.4293.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1165/ajrcmb.24.3.4293",
+        "11245625",
+        "journal=Am. J. Respir. Cell Mol. Biol.&title=Role of osteopontin in the pathogenesis of bleomycin-induced pulmonary fibrosis&author=F Takahashi&volume=24&publication_year=2001&pages=264-271&pmid=11245625&doi=10.1165/ajrcmb.24.3.4293&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR54",
+        "position": 53,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR55",
+      "position": 54,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Petrow PK, et al.  Expression of osteopontin messenger RNA and protein in rheumatoid arthritis: effects of osteopontin on the release of collagenase 1 from articular chondrocytes and synovial fibroblasts. Arthritis Rheum. 2000;43:1597–1605. doi: 10.1002/1529-0131(200007)43:7<1597::AID-ANR25>3.0.CO;2-0.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/1529-0131(200007)43:7<1597::AID-ANR25>3.0.CO;2-0",
+        "10902765",
+        "journal=Arthritis Rheum.&title=Expression of osteopontin messenger RNA and protein in rheumatoid arthritis: effects of osteopontin on the release of collagenase 1 from articular chondrocytes and synovial fibroblasts&author=PK Petrow&volume=43&publication_year=2000&pages=1597-1605&pmid=10902765&doi=10.1002/1529-0131(200007)43:7<1597::AID-ANR25>3.0.CO;2-0&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR55",
+        "position": 54,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR56",
+      "position": 55,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Inoue M, Shinohara ML. Intracellular osteopontin (iOPN) and immunity. Immunol. Res. 2011;49:160–172. doi: 10.1007/s12026-010-8179-5.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s12026-010-8179-5",
+        "PMC3509172",
+        "21136203",
+        "journal=Immunol. Res.&title=Intracellular osteopontin (iOPN) and immunity&author=M Inoue&author=ML Shinohara&volume=49&publication_year=2011&pages=160-172&pmid=21136203&doi=10.1007/s12026-010-8179-5&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR56",
+        "position": 55,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR57",
+      "position": 56,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Das S, et al.  The Hedgehog pathway transcription factor GLI1 promotes malignant behavior of cancer cells by up-regulating osteopontin*. J. Biol. Chem. 2009;284:22888–22897. doi: 10.1074/jbc.M109.021949.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1074/jbc.M109.021949",
+        "PMC2755696",
+        "19556240",
+        "journal=J. Biol. Chem.&title=The Hedgehog pathway transcription factor GLI1 promotes malignant behavior of cancer cells by up-regulating osteopontin*&author=S Das&volume=284&publication_year=2009&pages=22888-22897&pmid=19556240&doi=10.1074/jbc.M109.021949&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR57",
+        "position": 56,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR58",
+      "position": 57,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Rohde F, et al.  Expression of osteopontin, a target gene of de-regulated Wnt signaling, predicts survival in colon cancer. Int. J. Cancer. 2007;121:1717–1723. doi: 10.1002/ijc.22868.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/ijc.22868",
+        "17565744",
+        "journal=Int. J. Cancer&title=Expression of osteopontin, a target gene of de-regulated Wnt signaling, predicts survival in colon cancer&author=F Rohde&volume=121&publication_year=2007&pages=1717-1723&pmid=17565744&doi=10.1002/ijc.22868&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR58",
+        "position": 57,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR59",
+      "position": 58,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bawage, S., Weeks, S. E., Shevde, L. A. & Samant, R. S. Osteopontin (Spp1). in Encyclopedia of Signaling Molecules (ed. Choi, S.) 3677–3686 (Springer International Publishing, 2018).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR59",
+        "position": 58,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR60",
+      "position": 59,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Frese M-A, Milz F, Dick M, Lamanna WC, Dierks T. Characterization of the human sulfatase Sulf1 and its high affinity heparin/heparan sulfate interaction domain *. J. Biol. Chem. 2009;284:28033–28044. doi: 10.1074/jbc.M109.035808.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1074/jbc.M109.035808",
+        "PMC2788855",
+        "19666466",
+        "journal=J. Biol. Chem.&title=Characterization of the human sulfatase Sulf1 and its high affinity heparin/heparan sulfate interaction domain *&author=M-A Frese&author=F Milz&author=M Dick&author=WC Lamanna&author=T Dierks&volume=284&publication_year=2009&pages=28033-28044&pmid=19666466&doi=10.1074/jbc.M109.035808&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR60",
+        "position": 59,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR61",
+      "position": 60,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ai X, et al.  QSulf1 remodels the 6-O sulfation states of cell surface heparan sulfate proteoglycans to promote Wnt signaling. J. Cell Biol. 2003;162:341–351. doi: 10.1083/jcb.200212083.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1083/jcb.200212083",
+        "PMC2172803",
+        "12860968",
+        "journal=J. Cell Biol.&title=QSulf1 remodels the 6-O sulfation states of cell surface heparan sulfate proteoglycans to promote Wnt signaling&author=X Ai&volume=162&publication_year=2003&pages=341-351&pmid=12860968&doi=10.1083/jcb.200212083&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR61",
+        "position": 60,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR62",
+      "position": 61,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Dhoot GK, et al.  Regulation of Wnt signaling and embryo patterning by an extracellular sulfatase. Science. 2001;293:1663–1666. doi: 10.1126/science.293.5535.1663.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1126/science.293.5535.1663",
+        "11533491",
+        "journal=Science&title=Regulation of Wnt signaling and embryo patterning by an extracellular sulfatase&author=GK Dhoot&volume=293&publication_year=2001&pages=1663-1666&pmid=11533491&doi=10.1126/science.293.5535.1663&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR62",
+        "position": 61,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR63",
+      "position": 62,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Otsuki S, et al.  Extracellular sulfatases support cartilage homeostasis by regulating BMP and FGF signaling pathways. Proc. Natl. Acad. Sci. USA. 2010;107:10202–10207. doi: 10.1073/pnas.0913897107.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1073/pnas.0913897107",
+        "PMC2890424",
+        "20479257",
+        "journal=Proc. Natl. Acad. Sci. USA&title=Extracellular sulfatases support cartilage homeostasis by regulating BMP and FGF signaling pathways&author=S Otsuki&volume=107&publication_year=2010&pages=10202-10207&pmid=20479257&doi=10.1073/pnas.0913897107&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR63",
+        "position": 62,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR64",
+      "position": 63,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Danesin C, et al.  Ventral neural progenitors switch toward an oligodendroglial fate in response to increased sonic Hedgehog (Shh) activity: involvement of sulfatase 1 in modulating Shh signaling in the ventral spinal cord. J. Neurosci. 2006;26:5037–5048. doi: 10.1523/JNEUROSCI.0715-06.2006.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1523/JNEUROSCI.0715-06.2006",
+        "PMC6674256",
+        "16687495",
+        "journal=J. Neurosci.&title=Ventral neural progenitors switch toward an oligodendroglial fate in response to increased sonic Hedgehog (Shh) activity: involvement of sulfatase 1 in modulating Shh signaling in the ventral spinal cord&author=C Danesin&volume=26&publication_year=2006&pages=5037-5048&pmid=16687495&doi=10.1523/JNEUROSCI.0715-06.2006&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR64",
+        "position": 63,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR65",
+      "position": 64,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lindahl, A. et al. Chapter 16—Cartilage and bone regeneration. in Tissue Engineering(Third Edition) (eds De Boer, J. et al.) 533–583 (Academic Press, 2023).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR65",
+        "position": 64,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR66",
+      "position": 65,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Siddiqui JA, Partridge NC. Physiological bone remodeling: systemic regulation and growth factor involvement. Physiology. 2016;31:233–245. doi: 10.1152/physiol.00061.2014.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1152/physiol.00061.2014",
+        "PMC6734079",
+        "27053737",
+        "journal=Physiology&title=Physiological bone remodeling: systemic regulation and growth factor involvement&author=JA Siddiqui&author=NC Partridge&volume=31&publication_year=2016&pages=233-245&pmid=27053737&doi=10.1152/physiol.00061.2014&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR66",
+        "position": 65,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR67",
+      "position": 66,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Vonk AC, et al.  Lizard blastema organoid model recapitulates regenerated tail chondrogenesis. J. Dev. Biol. 2022;10:12. doi: 10.3390/jdb10010012.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3390/jdb10010012",
+        "PMC8883911",
+        "35225965",
+        "journal=J. Dev. Biol.&title=Lizard blastema organoid model recapitulates regenerated tail chondrogenesis&author=AC Vonk&volume=10&publication_year=2022&pages=12&pmid=35225965&doi=10.3390/jdb10010012&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR67",
+        "position": 66,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR68",
+      "position": 67,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Sasaki H, Nishizaki Y, Hui C, Nakafuku M, Kondoh H. Regulation of Gli2 and Gli3 activities by an amino-terminal repression domain: implication of Gli2 and Gli3 as primary mediators of Shh signaling. Development. 1999;126:3915–3924. doi: 10.1242/dev.126.17.3915.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1242/dev.126.17.3915",
+        "10433919",
+        "journal=Development&title=Regulation of Gli2 and Gli3 activities by an amino-terminal repression domain: implication of Gli2 and Gli3 as primary mediators of Shh signaling&author=H Sasaki&author=Y Nishizaki&author=C Hui&author=M Nakafuku&author=H Kondoh&volume=126&publication_year=1999&pages=3915-3924&pmid=10433919&doi=10.1242/dev.126.17.3915&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR68",
+        "position": 67,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR69",
+      "position": 68,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ramsbottom SA, Maguire RJ, Fellgett SW, Pownall ME. Sulf1 influences the Shh morphogen gradient during the dorsal ventral patterning of the neural tube in Xenopus tropicalis. Dev. Biol. 2014;391:207–218. doi: 10.1016/j.ydbio.2014.04.010.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.ydbio.2014.04.010",
+        "24768893",
+        "journal=Dev. Biol.&title=Sulf1 influences the Shh morphogen gradient during the dorsal ventral patterning of the neural tube in Xenopus tropicalis&author=SA Ramsbottom&author=RJ Maguire&author=SW Fellgett&author=ME Pownall&volume=391&publication_year=2014&pages=207-218&pmid=24768893&doi=10.1016/j.ydbio.2014.04.010&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR69",
+        "position": 68,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR70",
+      "position": 69,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Simpson SB., Jr. Morphology of the regenerated spinal cord in the lizard, Anolis carolinensis. J. Comp. Neurol. 1968;134:193–209. doi: 10.1002/cne.901340207.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/cne.901340207",
+        "5712416",
+        "journal=J. Comp. Neurol.&title=Morphology of the regenerated spinal cord in the lizard, Anolis carolinensis&author=SB Simpson&volume=134&publication_year=1968&pages=193-209&pmid=5712416&doi=10.1002/cne.901340207&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR70",
+        "position": 69,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR71",
+      "position": 70,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Whimster IW. Nerve supply as a stimulator of the growth of tissues including skin. II. Animal evidence. Clin. Exp. Dermatol. 1978;3:389–410. doi: 10.1111/j.1365-2230.1978.tb01518.x.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1365-2230.1978.tb01518.x",
+        "737883",
+        "journal=Clin. Exp. Dermatol.&title=Nerve supply as a stimulator of the growth of tissues including skin. II. Animal evidence&author=IW Whimster&volume=3&publication_year=1978&pages=389-410&pmid=737883&doi=10.1111/j.1365-2230.1978.tb01518.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR71",
+        "position": 70,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR72",
+      "position": 71,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bryant SV, Wozny KJ. Stimulation of limb regeneration in the lizard Xantusia vigilis by means of ependymal implants. J. Exp. Zool. 1974;189:339–352. doi: 10.1002/jez.1401890307.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/jez.1401890307",
+        "4415899",
+        "journal=J. Exp. Zool.&title=Stimulation of limb regeneration in the lizard Xantusia vigilis by means of ependymal implants&author=SV Bryant&author=KJ Wozny&volume=189&publication_year=1974&pages=339-352&pmid=4415899&doi=10.1002/jez.1401890307&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR72",
+        "position": 71,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR73",
+      "position": 72,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Sun AX, Londono R, Hudnall ML, Tuan RS, Lozito TP. Differences in neural stem cell identity and differentiation capacity drive divergent regenerative outcomes in lizards and salamanders. Proc. Natl. Acad. Sci. USA. 2018;115:E8256–E8265. doi: 10.1073/pnas.1803780115.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1073/pnas.1803780115",
+        "PMC6126763",
+        "30104374",
+        "journal=Proc. Natl. Acad. Sci. USA&title=Differences in neural stem cell identity and differentiation capacity drive divergent regenerative outcomes in lizards and salamanders&author=AX Sun&author=R Londono&author=ML Hudnall&author=RS Tuan&author=TP Lozito&volume=115&publication_year=2018&pages=E8256-E8265&pmid=30104374&doi=10.1073/pnas.1803780115&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR73",
+        "position": 72,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR74",
+      "position": 73,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Cuellar O, Kluge AG. Natural parthenogenesis in the gekkonid lizard Lepidodactylus lugubris. J. Genet. 1972;61:14–26. doi: 10.1007/BF02984098.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/BF02984098",
+        "journal=J. Genet.&title=Natural parthenogenesis in the gekkonid lizard Lepidodactylus lugubris&author=O Cuellar&author=AG Kluge&volume=61&publication_year=1972&pages=14-26&doi=10.1007/BF02984098&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR74",
+        "position": 73,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR75",
+      "position": 74,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wicke C, et al.  Effects of steroids and retinoids on wound healing. Arch. Surg. 2000;135:1265–1270. doi: 10.1001/archsurg.135.11.1265.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1001/archsurg.135.11.1265",
+        "11074878",
+        "journal=Arch. Surg.&title=Effects of steroids and retinoids on wound healing&author=C Wicke&volume=135&publication_year=2000&pages=1265-1270&pmid=11074878&doi=10.1001/archsurg.135.11.1265&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR75",
+        "position": 74,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR76",
+      "position": 75,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Fishel R, et al.  Cyclosporine a impairs wound healing in rats. J. Surg. Res. 1983;34:572–575. doi: 10.1016/0022-4804(83)90112-9.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/0022-4804(83)90112-9",
+        "6855226",
+        "journal=J. Surg. Res.&title=Cyclosporine a impairs wound healing in rats&author=R Fishel&volume=34&publication_year=1983&pages=572-575&pmid=6855226&doi=10.1016/0022-4804(83)90112-9&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR76",
+        "position": 75,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR77",
+      "position": 76,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Zhao W, Sala-Newby GB, Dhoot GK. Sulf1 expression pattern and its role in cartilage and joint development. Dev. Dyn. 2006;235:3327–3335. doi: 10.1002/dvdy.20987.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/dvdy.20987",
+        "17061267",
+        "journal=Dev. Dyn.&title=Sulf1 expression pattern and its role in cartilage and joint development&author=W Zhao&author=GB Sala-Newby&author=GK Dhoot&volume=235&publication_year=2006&pages=3327-3335&pmid=17061267&doi=10.1002/dvdy.20987&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR77",
+        "position": 76,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR78",
+      "position": 77,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Holst CR, et al.  Secreted sulfatases Sulf1 and Sulf2 have overlapping yet essential roles in mouse neonatal survival. PLoS ONE. 2007;2:e575. doi: 10.1371/journal.pone.0000575.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pone.0000575",
+        "PMC1892809",
+        "17593974",
+        "journal=PLoS ONE&title=Secreted sulfatases Sulf1 and Sulf2 have overlapping yet essential roles in mouse neonatal survival&author=CR Holst&volume=2&publication_year=2007&pages=e575&pmid=17593974&doi=10.1371/journal.pone.0000575&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR78",
+        "position": 77,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR79",
+      "position": 78,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Sivaraj KK, et al.  Mesenchymal stromal cell-derived septoclasts resorb cartilage during developmental ossification and fracture healing. Nat. Commun. 2022;13:571. doi: 10.1038/s41467-022-28142-w.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41467-022-28142-w",
+        "PMC8799643",
+        "35091558",
+        "journal=Nat. Commun.&title=Mesenchymal stromal cell-derived septoclasts resorb cartilage during developmental ossification and fracture healing&author=KK Sivaraj&volume=13&publication_year=2022&pages=571&pmid=35091558&doi=10.1038/s41467-022-28142-w&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR79",
+        "position": 78,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR80",
+      "position": 79,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Daponte V, Tylzanowski P, Forlino A. Appendage regeneration in vertebrates: what makes this possible? Cells. 2021;10:242. doi: 10.3390/cells10020242.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3390/cells10020242",
+        "PMC7911911",
+        "33513779",
+        "journal=Cells&title=Appendage regeneration in vertebrates: what makes this possible?&author=V Daponte&author=P Tylzanowski&author=A Forlino&volume=10&publication_year=2021&pages=242&pmid=33513779&doi=10.3390/cells10020242&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR80",
+        "position": 79,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR81",
+      "position": 80,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Scadding SR. Limb regeneration in adult amphibia. Can. J. Zool. 1981;59:34–46. doi: 10.1139/z81-007.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1139/z81-007",
+        "journal=Can. J. Zool.&title=Limb regeneration in adult amphibia&author=SR Scadding&volume=59&publication_year=1981&pages=34-46&doi=10.1139/z81-007&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR81",
+        "position": 80,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR82",
+      "position": 81,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Scadding SR. Phylogenic distribution of limb regeneration capacity in adult Amphibia. J. Exp. Zool. 1977;202:57–67. doi: 10.1002/jez.1402020108.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/jez.1402020108",
+        "journal=J. Exp. Zool.&title=Phylogenic distribution of limb regeneration capacity in adult Amphibia&author=SR Scadding&volume=202&publication_year=1977&pages=57-67&doi=10.1002/jez.1402020108&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR82",
+        "position": 81,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR83",
+      "position": 82,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Tank PW, Carlson BM, Connelly TG. A staging system for forelimb regeneration in the axolotl, Ambystoma mexicanum. J. Morphol. 1976;150:117–128. doi: 10.1002/jmor.1051500106.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/jmor.1051500106",
+        "966285",
+        "journal=J. Morphol.&title=A staging system for forelimb regeneration in the axolotl, Ambystoma mexicanum&author=PW Tank&author=BM Carlson&author=TG Connelly&volume=150&publication_year=1976&pages=117-128&pmid=966285&doi=10.1002/jmor.1051500106&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR83",
+        "position": 82,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR84",
+      "position": 83,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Weinreb C, Rodriguez-Fraticelli A, Camargo FD, Klein AM. Lineage tracing on transcriptional landscapes links state to fate during differentiation. Science. 2020;367:eaaw3381. doi: 10.1126/science.aaw3381.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1126/science.aaw3381",
+        "PMC7608074",
+        "31974159",
+        "journal=Science&title=Lineage tracing on transcriptional landscapes links state to fate during differentiation&author=C Weinreb&author=A Rodriguez-Fraticelli&author=FD Camargo&author=AM Klein&volume=367&publication_year=2020&pages=eaaw3381&pmid=31974159&doi=10.1126/science.aaw3381&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR84",
+        "position": 83,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR85",
+      "position": 84,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Alibardi L. Appendage regeneration in anamniotes utilizes genes active during larval-metamorphic stages that have been lost or altered in amniotes: the case for studying lizard tail regeneration. J. Morphol. 2020;281:1358–1381. doi: 10.1002/jmor.21251.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/jmor.21251",
+        "32865265",
+        "journal=J. Morphol.&title=Appendage regeneration in anamniotes utilizes genes active during larval-metamorphic stages that have been lost or altered in amniotes: the case for studying lizard tail regeneration&author=L Alibardi&volume=281&publication_year=2020&pages=1358-1381&pmid=32865265&doi=10.1002/jmor.21251&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR85",
+        "position": 84,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR86",
+      "position": 85,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Alibardi L. Ultrastructural analysis of early regenerating lizard tail suggests that a process of dedifferentiation is involved in the formation of the regenerative blastema. J. Morphol. 2018;279:1171–1184. doi: 10.1002/jmor.20838.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/jmor.20838",
+        "29885003",
+        "journal=J. Morphol.&title=Ultrastructural analysis of early regenerating lizard tail suggests that a process of dedifferentiation is involved in the formation of the regenerative blastema&author=L Alibardi&volume=279&publication_year=2018&pages=1171-1184&pmid=29885003&doi=10.1002/jmor.20838&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR86",
+        "position": 85,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR87",
+      "position": 86,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lozito TP, Londono R, Sun AX, Hudnall ML. Introducing dorsoventral patterning in adult regenerating lizard tails with gene-edited embryonic neural stem cells. Nat. Commun. 2021;12:6010. doi: 10.1038/s41467-021-26321-9.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41467-021-26321-9",
+        "PMC8516916",
+        "34650077",
+        "journal=Nat. Commun.&title=Introducing dorsoventral patterning in adult regenerating lizard tails with gene-edited embryonic neural stem cells&author=TP Lozito&author=R Londono&author=AX Sun&author=ML Hudnall&volume=12&publication_year=2021&pages=6010&pmid=34650077&doi=10.1038/s41467-021-26321-9&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR87",
+        "position": 86,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR88",
+      "position": 87,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Vitulo N, Dalla Valle L, Skobo T, Valle G, Alibardi L. Transcriptome analysis of the regenerating tail vs. the scarring limb in lizard reveals pathways leading to successful vs. unsuccessful organ regeneration in amniotes. Dev. Dyn. 2017;246:116–134. doi: 10.1002/dvdy.24474.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/dvdy.24474",
+        "27870483",
+        "journal=Dev. Dyn.&title=Transcriptome analysis of the regenerating tail vs. the scarring limb in lizard reveals pathways leading to successful vs. unsuccessful organ regeneration in amniotes&author=N Vitulo&author=L Dalla Valle&author=T Skobo&author=G Valle&author=L Alibardi&volume=246&publication_year=2017&pages=116-134&pmid=27870483&doi=10.1002/dvdy.24474&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR88",
+        "position": 87,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR89",
+      "position": 88,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Vitulo N, Dalla Valle L, Skobo T, Valle G, Alibardi L. Downregulation of lizard immuno-genes in the regenerating tail and myogenes in the scarring limb suggests that tail regeneration occurs in an immuno-privileged organ. Protoplasma. 2017;254:2127–2141. doi: 10.1007/s00709-017-1107-y.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s00709-017-1107-y",
+        "28357509",
+        "journal=Protoplasma&title=Downregulation of lizard immuno-genes in the regenerating tail and myogenes in the scarring limb suggests that tail regeneration occurs in an immuno-privileged organ&author=N Vitulo&author=L Dalla Valle&author=T Skobo&author=G Valle&author=L Alibardi&volume=254&publication_year=2017&pages=2127-2141&pmid=28357509&doi=10.1007/s00709-017-1107-y&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR89",
+        "position": 88,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR90",
+      "position": 89,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Patel S, Ranadive I, Buch P, Khaire K, Balakrishnan S. De novo transcriptome sequencing and analysis of differential gene expression among various stages of tail regeneration in Hemidactylus flaviviridis. J. Dev. Biol. 2022;10:24. doi: 10.3390/jdb10020024.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3390/jdb10020024",
+        "PMC9225231",
+        "35735915",
+        "journal=J. Dev. Biol.&title=De novo transcriptome sequencing and analysis of differential gene expression among various stages of tail regeneration in Hemidactylus flaviviridis&author=S Patel&author=I Ranadive&author=P Buch&author=K Khaire&author=S Balakrishnan&volume=10&publication_year=2022&pages=24&pmid=35735915&doi=10.3390/jdb10020024&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR90",
+        "position": 89,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR91",
+      "position": 90,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Farmer DT, et al.  The developing mouse coronal suture at single-cell resolution. Nat. Commun. 2021;12:4797. doi: 10.1038/s41467-021-24917-9.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41467-021-24917-9",
+        "PMC8355337",
+        "34376651",
+        "journal=Nat. Commun.&title=The developing mouse coronal suture at single-cell resolution&author=DT Farmer&volume=12&publication_year=2021&pages=4797&pmid=34376651&doi=10.1038/s41467-021-24917-9&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR91",
+        "position": 90,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR92",
+      "position": 91,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lozito TP, Tuan RS. Lizard tail regeneration: regulation of two distinct cartilage regions by Indian hedgehog. Dev. Biol. 2015;399:249–262. doi: 10.1016/j.ydbio.2014.12.036.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.ydbio.2014.12.036",
+        "25596336",
+        "journal=Dev. Biol.&title=Lizard tail regeneration: regulation of two distinct cartilage regions by Indian hedgehog&author=TP Lozito&author=RS Tuan&volume=399&publication_year=2015&pages=249-262&pmid=25596336&doi=10.1016/j.ydbio.2014.12.036&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR92",
+        "position": 91,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR93",
+      "position": 92,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kendall RT, Feghali-Bostwick CA. Fibroblasts in fibrosis: novel roles and mediators. Front. Pharm. 2014;5:123. doi: 10.3389/fphar.2014.00123.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.3389/fphar.2014.00123",
+        "PMC4034148",
+        "24904424",
+        "journal=Front. Pharm.&title=Fibroblasts in fibrosis: novel roles and mediators&author=RT Kendall&author=CA Feghali-Bostwick&volume=5&publication_year=2014&pages=123&pmid=24904424&doi=10.3389/fphar.2014.00123&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR93",
+        "position": 92,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR94",
+      "position": 93,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Van Linthout S, Miteva K, Tschöpe C. Crosstalk between fibroblasts and inflammatory cells. Cardiovasc. Res. 2014;102:258–269. doi: 10.1093/cvr/cvu062.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/cvr/cvu062",
+        "24728497",
+        "journal=Cardiovasc. Res.&title=Crosstalk between fibroblasts and inflammatory cells&author=S Van Linthout&author=K Miteva&author=C Tschöpe&volume=102&publication_year=2014&pages=258-269&pmid=24728497&doi=10.1093/cvr/cvu062&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR94",
+        "position": 93,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR95",
+      "position": 94,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Abbasi AA, Goode DK, Amir S, Grzeschik K-H. Evolution and functional diversification of the GLI family of transcription factors in vertebrates. Evol. Bioinform. Online. 2009;5:5–13. doi: 10.4137/EBO.S2322.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.4137/EBO.S2322",
+        "PMC2747127",
+        "19812723",
+        "journal=Evol. Bioinform. Online&title=Evolution and functional diversification of the GLI family of transcription factors in vertebrates&author=AA Abbasi&author=DK Goode&author=S Amir&author=K-H Grzeschik&volume=5&publication_year=2009&pages=5-13&pmid=19812723&doi=10.4137/EBO.S2322&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR95",
+        "position": 94,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR96",
+      "position": 95,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lex RK, et al.  GLI transcriptional repression regulates tissue-specific enhancer activity in response to Hedgehog signaling. eLife. 2020;9:e50670. doi: 10.7554/eLife.50670.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.7554/eLife.50670",
+        "PMC6986877",
+        "31989924",
+        "journal=eLife&title=GLI transcriptional repression regulates tissue-specific enhancer activity in response to Hedgehog signaling&author=RK Lex&volume=9&publication_year=2020&pages=e50670&pmid=31989924&doi=10.7554/eLife.50670&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR96",
+        "position": 95,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR97",
+      "position": 96,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Zehentner BK, Dony C, Burtscher H. The transcription factor Sox9 is involved in BMP-2 signaling. J. Bone Miner. Res. 1999;14:1734–1741. doi: 10.1359/jbmr.1999.14.10.1734.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1359/jbmr.1999.14.10.1734",
+        "10491221",
+        "journal=J. Bone Miner. Res.&title=The transcription factor Sox9 is involved in BMP-2 signaling&author=BK Zehentner&author=C Dony&author=H Burtscher&volume=14&publication_year=1999&pages=1734-1741&pmid=10491221&doi=10.1359/jbmr.1999.14.10.1734&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR97",
+        "position": 96,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR98",
+      "position": 97,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Taylor R, et al.  Regulation of GLI1 by cis DNA elements and epigenetic marks. DNA Repair. 2019;79:10–21. doi: 10.1016/j.dnarep.2019.04.011.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.dnarep.2019.04.011",
+        "PMC6570425",
+        "31085420",
+        "journal=DNA Repair&title=Regulation of GLI1 by cis DNA elements and epigenetic marks&author=R Taylor&volume=79&publication_year=2019&pages=10-21&pmid=31085420&doi=10.1016/j.dnarep.2019.04.011&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR98",
+        "position": 97,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR99",
+      "position": 98,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Alibardi, L. FGFs treatment on amputated lizard limbs stimulate the regeneration of long bones, opening new avenues for limb regeneration in amniotes: a morphological study. J. Funct. Morphol. Kinesiol.2, 25 (2017).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10415409/article.xml",
+        "articleSha256": "e9b988d43bb2af5be8dd1274c03bb38c853a4ea2ff32732ac6d2ae34da2ca2f5",
+        "referenceId": "CR99",
+        "position": 98,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Nature Communications"
+    ],
+    "abbreviations": [
+      {
+        "value": "Nat Commun"
+      }
+    ],
+    "identifiers": [
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "2873"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "ncomms"
+      }
+    ],
+    "issns": [],
+    "publisherNames": [
+      "Nature Publishing Group"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "14"
+    ],
+    "fpage": [
+      "4489"
+    ]
+  }
+}

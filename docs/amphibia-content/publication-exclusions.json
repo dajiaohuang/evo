@@ -1,0 +1,263 @@
+{
+  "scope": "Amphibia-owned local research captures only; inherited files are outside this list",
+  "excludedPaths": [
+    {
+      "path": "data/sources/snapshots/amphibia-year-partitioned-literature-2026-10-03/**/date-gap-*/query-*.json.gz",
+      "reason": "Redundant local raw discovery responses; publication retains stripped metadata, source URLs, JSON locators and hashes in final reference shards."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-year-partitioned-literature-2026-10-03/**/fresh-head-*.json.gz",
+      "reason": "Redundant raw refreshed index responses; publish citation metadata, source URLs and hashes in finalized reference-index shards."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-year-partitioned-literature-2026-10-03/**/page-*.json.gz",
+      "reason": "Local raw partitioned search responses. Publish the finalized stripped reference-index shards, source URLs and hashes."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-index-identities-2026-10-03/**/year-gap-*/query-*.json.gz",
+      "reason": "Local raw year-partition discovery receipts may include core-response abstracts; publish stripped citation metadata, URLs and hashes."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/**/bibliographic-metadata.previous-*.json",
+      "reason": "Local previous extraction envelopes retained for recovery. Final citation metadata and cited-reference shards include the current complete extraction."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/**/bibliographic-metadata.previous-*.json",
+      "reason": "Local previous extraction envelopes; publish current metadata with explicit original article-version provenance."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-reference-index-2026-10-03/references-*.json",
+      "reason": "Preserved initial uncompressed metadata export. Final manifest names lossless gzip JSON shards for publication."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-*.json",
+      "reason": "Preserved initial uncompressed query export. Final manifest names lossless gzip JSON shards for publication."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-index-identities-2026-10-03/**/additional-core-*.json.gz",
+      "reason": "Exact-identity core metadata receipts may contain abstracts. Publish stripped citation metadata, source locators and hashes."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-reference-index-2026-10-03/work-*/**",
+      "reason": "Local intermediate metadata partitions. Publish only the finalized reference and query-binding shards named by the manifest."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-index-identities-2026-10-03/**/membership-*.json.gz",
+      "reason": "Raw core search captures may contain abstracts; publish source locators and citation metadata only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-bibliography-literature-2026-10-03/**/page-*.json.gz",
+      "reason": "Local raw bibliography discovery includes unreviewed abstracts; publish original reference locators, URLs and hashes only until article rights are reconciled."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/**/objects/**",
+      "reason": "Local original PMC article-version objects including PDFs, XML, figures and supplemental files; original item rights remain distinct from collection and require review before public staging."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-collected-sequence-data-2026-10-03/**/*.gb",
+      "reason": "Local original sequence-source records; retain original provenance and review record-level terms before public staging."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-supplement-packages-2026-10-03/**/supplementary.zip",
+      "reason": "Local Europe PMC supplemental packages with item-level rights pending; retain package locally and publish provenance metadata only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-collected-supplements-2026-10-03/**/attachment.bin",
+      "reason": "Local supplemental research files; item-level redistribution rights remain unreviewed. Publish retrieval metadata, URLs and hashes only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-expanded-literature-2026-10-03/**/page-*.json.gz",
+      "reason": "Local synonym and higher-taxon literature discovery includes unreviewed article rights; publish metadata, URLs and hashes until rights are reconciled."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/**/reading-sections.json",
+      "reason": "Local candidate full-text excerpts; same article-level rights review as their original XML required before public staging."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/**/article.xml",
+      "reason": "Local candidate full texts; index open-access labels do not verify article-level redistribution rights. Reconcile each actual license before public staging."
+    },
+    {
+      "path": "data/sources/snapshots/amphibian-morphology-2023-2026-10-02/primary-article.pdf",
+      "reason": "Full published paper; redistribution rights unverified. Retain locally and publish its DOI, hash and own factual synthesis."
+    },
+    {
+      "path": "data/sources/snapshots/amphibian-morphology-2023-2026-10-02/primary-article.txt",
+      "reason": "Derived full paper text; inherits the original paper redistribution boundary."
+    },
+    {
+      "path": "data/sources/snapshots/amphibian-generation-length-2025-2026-10-02/record.html",
+      "reason": "Transient public landing-page capture contains session form state; no biological claims depend on publishing it."
+    },
+    {
+      "path": "tmp/pdfs/amphibia-source-review/huang-table-3.png",
+      "reason": "Local source-page inspection image; original paper redistribution rights remain unverified."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-full-roster-literature-2026-10-03/**/page-*.json.gz",
+      "reason": "Local source collection with unreviewed article-level rights; publish metadata, source URLs and hashes only until rights are reconciled."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/**/article.xml",
+      "reason": "Local source collection with unreviewed article-level rights; publish metadata, source URLs and hashes only until rights are reconciled."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11117230/animals-14-01406-s001.zip",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11117230/TableS1.pdf",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11117230/TableS2.pdf",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11117230/TableS3.pdf",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12654886/pone.0332753.s001.zip",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12654886/S2_File.pdf",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12654886/S3_Table.pdf",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12654886/S5_File.pdf",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12822217/12864_2025_12414_MOESM2_ESM.pdf",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13061190/pone.0345097.s001.pdf",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13061190/pone.0345097.s001.pdf.page1.png",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13061190/pone.0345097.s002.png",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13061190/pone.0345097.s003.pdf",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13061190/pone.0345097.s003.pdf.page1.png",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13061190/pone.0345097.s003.pdf.page2.png",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7648453/peerj-08-9979-s003.fasta",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphitherm-2025-2026-10-02/article.xml",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/caeciliantraits-2025-2026-10-02/article.xml",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/caeciliantraits-2025-2026-10-02/supplementaryFiles.zip",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/pone.0291644.s003.xlsx",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11677230/publisher-article.html",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12654886/publisher-article.html",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12654886/S3_File.xlsx",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12822217/12864_2025_12414_MOESM1_ESM.xlsx",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13061190/pone.0345097.s002.tif",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6404656/peerj-07-6400-s001.docx",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7482940/pone.0238306.s001.docx",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7482940/pone.0238306.s002.docx",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7482940/pone.0238306.s003.docx",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7482940/pone.0238306.s004.xlsx",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7482940/pone.0238306.s005.xlsx",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7482940/pone.0238306.s006.xlsx",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7648453/peerj-08-9979-s001.xls",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7648453/peerj-08-9979-s002.xlsx",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8436961/peerj-09-12012-s001.docx",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8436961/peerj-09-12012-s002.xlsx",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC9985417/peerj-11-14715-s001.docx",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC9985417/peerj-11-14715-s004.docx",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    },
+    {
+      "path": "data/sources/snapshots/caeciliantraits-2025-2026-10-02/article.html",
+      "reason": "Existing original article, figure, supplement or sequence copy retained privately; publish metadata, index and locators only."
+    }
+  ],
+  "filesRemoved": false,
+  "publicSubmissionPerformed": false
+}

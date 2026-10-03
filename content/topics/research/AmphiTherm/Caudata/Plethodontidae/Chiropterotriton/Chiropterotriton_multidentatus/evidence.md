@@ -1,0 +1,1595 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  amphitherm-source-reader:
+    scientificName: Chiropterotriton multidentatus
+    name:
+      en: Chiropterotriton multidentatus
+      zh: Chiropterotriton multidentatus
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/0/text/zh
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "776"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/1/text/zh
+        sourceRowNumber: 684
+    sources:
+      referenceBindings:
+        - referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+          metadataVariant: 0
+          sourceKey: amphitherm
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - year
+            - doi
+            - url
+            - datasetUrl
+            - version
+            - associatedArchivedReleaseDoi
+            - accessedAt
+            - license
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 684
+        values:
+          - "776"
+          - Hsien-Yung Lin
+          - Brattstrom_and_Regal_1965
+          - Rate of Thermal Acclimation in the Mexican Salamander Chiropterotriton
+          - "1965"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1441006
+          - English
+          - Chiropterotriton_multidentatus_pop1
+          - Chiropterotriton_multidentatus_pop1_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Chiropterotriton multidentatus
+          - NA
+          - EN
+          - wild
+          - NA
+          - "20.19828157"
+          - "-98.71588884"
+          - "2438"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were estimated using Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - NA
+          - "12"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Endpoint was taken as "OS" because authors indicate that they followed the methods of Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "31.50282"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 1. Authors only presented ranges of variation around the mean.
+      - rowNumber: 685
+        values:
+          - "777"
+          - Hsien-Yung Lin
+          - Brattstrom_and_Regal_1965
+          - Rate of Thermal Acclimation in the Mexican Salamander Chiropterotriton
+          - "1965"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1441006
+          - English
+          - Chiropterotriton_multidentatus_pop1
+          - Chiropterotriton_multidentatus_pop1_UTL_co10
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Chiropterotriton multidentatus
+          - NA
+          - EN
+          - wild
+          - NA
+          - "20.19828157"
+          - "-98.71588884"
+          - "2438"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were estimated using Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "14.2"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Endpoint was taken as "OS" because authors indicate that they followed the methods of Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "33.70621"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 1. Authors only presented ranges of variation around the mean.
+      - rowNumber: 686
+        values:
+          - "778"
+          - Hsien-Yung Lin
+          - Brattstrom_and_Regal_1965
+          - Rate of Thermal Acclimation in the Mexican Salamander Chiropterotriton
+          - "1965"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1441006
+          - English
+          - Chiropterotriton_multidentatus_pop1
+          - Chiropterotriton_multidentatus_pop1_UTL_co11
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Chiropterotriton multidentatus
+          - NA
+          - EN
+          - wild
+          - NA
+          - "20.19828157"
+          - "-98.71588884"
+          - "2438"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were estimated using Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "15.2"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Endpoint was taken as "OS" because authors indicate that they followed the methods of Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "33.75141"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 1. Authors only presented ranges of variation around the mean.
+      - rowNumber: 687
+        values:
+          - "779"
+          - Hsien-Yung Lin
+          - Brattstrom_and_Regal_1965
+          - Rate of Thermal Acclimation in the Mexican Salamander Chiropterotriton
+          - "1965"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1441006
+          - English
+          - Chiropterotriton_multidentatus_pop1
+          - Chiropterotriton_multidentatus_pop1_UTL_co12
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Chiropterotriton multidentatus
+          - NA
+          - EN
+          - wild
+          - NA
+          - "20.19828157"
+          - "-98.71588884"
+          - "2438"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were estimated using Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "10"
+          - NA
+          - "12.3"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Endpoint was taken as "OS" because authors indicate that they followed the methods of Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "32.77966"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 1. Authors only presented ranges of variation around the mean.
+      - rowNumber: 688
+        values:
+          - "780"
+          - Hsien-Yung Lin
+          - Brattstrom_and_Regal_1965
+          - Rate of Thermal Acclimation in the Mexican Salamander Chiropterotriton
+          - "1965"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1441006
+          - English
+          - Chiropterotriton_multidentatus_pop1
+          - Chiropterotriton_multidentatus_pop1_UTL_co13
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Chiropterotriton multidentatus
+          - NA
+          - EN
+          - wild
+          - NA
+          - "20.19828157"
+          - "-98.71588884"
+          - "2438"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were estimated using Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "10"
+          - NA
+          - "12.9"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Endpoint was taken as "OS" because authors indicate that they followed the methods of Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "32.64407"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 1. Authors only presented ranges of variation around the mean.
+      - rowNumber: 689
+        values:
+          - "781"
+          - Hsien-Yung Lin
+          - Brattstrom_and_Regal_1965
+          - Rate of Thermal Acclimation in the Mexican Salamander Chiropterotriton
+          - "1965"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1441006
+          - English
+          - Chiropterotriton_multidentatus_pop1
+          - Chiropterotriton_multidentatus_pop1_UTL_co14
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Chiropterotriton multidentatus
+          - NA
+          - EN
+          - wild
+          - NA
+          - "20.19828157"
+          - "-98.71588884"
+          - "2438"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were estimated using Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "10"
+          - NA
+          - "13.3"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Endpoint was taken as "OS" because authors indicate that they followed the methods of Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "32.68927"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 1. Authors only presented ranges of variation around the mean.
+      - rowNumber: 690
+        values:
+          - "782"
+          - Hsien-Yung Lin
+          - Brattstrom_and_Regal_1965
+          - Rate of Thermal Acclimation in the Mexican Salamander Chiropterotriton
+          - "1965"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1441006
+          - English
+          - Chiropterotriton_multidentatus_pop1
+          - Chiropterotriton_multidentatus_pop1_UTL_co15
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Chiropterotriton multidentatus
+          - NA
+          - EN
+          - wild
+          - NA
+          - "20.19828157"
+          - "-98.71588884"
+          - "2438"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were estimated using Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "10"
+          - NA
+          - "14.2"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Endpoint was taken as "OS" because authors indicate that they followed the methods of Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "32.61017"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 1. Authors only presented ranges of variation around the mean.
+      - rowNumber: 691
+        values:
+          - "783"
+          - Hsien-Yung Lin
+          - Brattstrom_and_Regal_1965
+          - Rate of Thermal Acclimation in the Mexican Salamander Chiropterotriton
+          - "1965"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1441006
+          - English
+          - Chiropterotriton_multidentatus_pop1
+          - Chiropterotriton_multidentatus_pop1_UTL_co16
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Chiropterotriton multidentatus
+          - NA
+          - EN
+          - wild
+          - NA
+          - "20.19828157"
+          - "-98.71588884"
+          - "2438"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were estimated using Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "10"
+          - NA
+          - "15.3"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Endpoint was taken as "OS" because authors indicate that they followed the methods of Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "32.59887"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 1. Authors only presented ranges of variation around the mean.
+      - rowNumber: 692
+        values:
+          - "784"
+          - Hsien-Yung Lin
+          - Brattstrom_and_Regal_1965
+          - Rate of Thermal Acclimation in the Mexican Salamander Chiropterotriton
+          - "1965"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1441006
+          - English
+          - Chiropterotriton_multidentatus_pop1
+          - Chiropterotriton_multidentatus_pop1_UTL_co2
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Chiropterotriton multidentatus
+          - NA
+          - EN
+          - wild
+          - NA
+          - "20.19828157"
+          - "-98.71588884"
+          - "2438"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were estimated using Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "10"
+          - NA
+          - "12"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Endpoint was taken as "OS" because authors indicate that they followed the methods of Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "32.62147"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 1. Authors only presented ranges of variation around the mean.
+      - rowNumber: 693
+        values:
+          - "785"
+          - Hsien-Yung Lin
+          - Brattstrom_and_Regal_1965
+          - Rate of Thermal Acclimation in the Mexican Salamander Chiropterotriton
+          - "1965"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1441006
+          - English
+          - Chiropterotriton_multidentatus_pop1
+          - Chiropterotriton_multidentatus_pop1_UTL_co3
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Chiropterotriton multidentatus
+          - NA
+          - EN
+          - wild
+          - NA
+          - "20.19828157"
+          - "-98.71588884"
+          - "2438"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were estimated using Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "12"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Endpoint was taken as "OS" because authors indicate that they followed the methods of Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.0113"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 1. Authors only presented ranges of variation around the mean.
+      - rowNumber: 694
+        values:
+          - "786"
+          - Hsien-Yung Lin
+          - Brattstrom_and_Regal_1965
+          - Rate of Thermal Acclimation in the Mexican Salamander Chiropterotriton
+          - "1965"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1441006
+          - English
+          - Chiropterotriton_multidentatus_pop1
+          - Chiropterotriton_multidentatus_pop1_UTL_co4
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Chiropterotriton multidentatus
+          - NA
+          - EN
+          - wild
+          - NA
+          - "20.19828157"
+          - "-98.71588884"
+          - "2438"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were estimated using Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - NA
+          - "13"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Endpoint was taken as "OS" because authors indicate that they followed the methods of Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "32.67797"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 1. Authors only presented ranges of variation around the mean.
+      - rowNumber: 695
+        values:
+          - "787"
+          - Hsien-Yung Lin
+          - Brattstrom_and_Regal_1965
+          - Rate of Thermal Acclimation in the Mexican Salamander Chiropterotriton
+          - "1965"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1441006
+          - English
+          - Chiropterotriton_multidentatus_pop1
+          - Chiropterotriton_multidentatus_pop1_UTL_co5
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Chiropterotriton multidentatus
+          - NA
+          - EN
+          - wild
+          - NA
+          - "20.19828157"
+          - "-98.71588884"
+          - "2438"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were estimated using Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - NA
+          - "13.3"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Endpoint was taken as "OS" because authors indicate that they followed the methods of Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "31.9322"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 1. Authors only presented ranges of variation around the mean.
+      - rowNumber: 696
+        values:
+          - "788"
+          - Hsien-Yung Lin
+          - Brattstrom_and_Regal_1965
+          - Rate of Thermal Acclimation in the Mexican Salamander Chiropterotriton
+          - "1965"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1441006
+          - English
+          - Chiropterotriton_multidentatus_pop1
+          - Chiropterotriton_multidentatus_pop1_UTL_co6
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Chiropterotriton multidentatus
+          - NA
+          - EN
+          - wild
+          - NA
+          - "20.19828157"
+          - "-98.71588884"
+          - "2438"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were estimated using Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - NA
+          - "14.2"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Endpoint was taken as "OS" because authors indicate that they followed the methods of Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "31.52542"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 1. Authors only presented ranges of variation around the mean.
+      - rowNumber: 697
+        values:
+          - "789"
+          - Hsien-Yung Lin
+          - Brattstrom_and_Regal_1965
+          - Rate of Thermal Acclimation in the Mexican Salamander Chiropterotriton
+          - "1965"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1441006
+          - English
+          - Chiropterotriton_multidentatus_pop1
+          - Chiropterotriton_multidentatus_pop1_UTL_co7
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Chiropterotriton multidentatus
+          - NA
+          - EN
+          - wild
+          - NA
+          - "20.19828157"
+          - "-98.71588884"
+          - "2438"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were estimated using Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - NA
+          - "15.3"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Endpoint was taken as "OS" because authors indicate that they followed the methods of Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "31.23164"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 1. Authors only presented ranges of variation around the mean.
+      - rowNumber: 698
+        values:
+          - "790"
+          - Hsien-Yung Lin
+          - Brattstrom_and_Regal_1965
+          - Rate of Thermal Acclimation in the Mexican Salamander Chiropterotriton
+          - "1965"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1441006
+          - English
+          - Chiropterotriton_multidentatus_pop1
+          - Chiropterotriton_multidentatus_pop1_UTL_co8
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Chiropterotriton multidentatus
+          - NA
+          - EN
+          - wild
+          - NA
+          - "20.19828157"
+          - "-98.71588884"
+          - "2438"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were estimated using Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "13"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Endpoint was taken as "OS" because authors indicate that they followed the methods of Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "33.35593"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 1. Authors only presented ranges of variation around the mean.
+      - rowNumber: 699
+        values:
+          - "791"
+          - Hsien-Yung Lin
+          - Brattstrom_and_Regal_1965
+          - Rate of Thermal Acclimation in the Mexican Salamander Chiropterotriton
+          - "1965"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1441006
+          - English
+          - Chiropterotriton_multidentatus_pop1
+          - Chiropterotriton_multidentatus_pop1_UTL_co9
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Chiropterotriton multidentatus
+          - NA
+          - EN
+          - wild
+          - NA
+          - "20.19828157"
+          - "-98.71588884"
+          - "2438"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were estimated using Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "13.3"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Endpoint was taken as "OS" because authors indicate that they followed the methods of Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "33.51412"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 1. Authors only presented ranges of variation around the mean.
+    originalStudyCitations:
+      - ref: Brattstrom_and_Regal_1965
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/0/title
+          format: heading
+        doi: https://doi.org/10.2307/1441006
+        year: "1965"
+    selectedEstimateRowNumbers:
+      - 684
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 5Y6KY
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/zh
+---
+
+# Chiropterotriton multidentatus — AmphiTherm source
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator -->
+Cleaned_and_curated_data_Amphitherm.csv, rows 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699; Metadata_AmphiTherm.xlsx
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en -->
+Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh -->
+固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/en -->
+Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete; not externally expert-reviewed.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/zh -->
+部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成；未经过外部领域专家评审。
+<!-- /evo:text -->

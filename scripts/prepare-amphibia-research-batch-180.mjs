@@ -1,0 +1,21 @@
+import fs from 'node:fs'
+const species=JSON.parse(fs.readFileSync('docs/amphibia-content/primary-reader-authoring-input.json')).filter(x=>x.pmc==='PMC10415765')
+const study={colId:'QMT8Z',name:'Nanohyla',pmc:'PMC10415765',year:2023,license:'CC BY-NC 4.0',licenseUrl:'https://creativecommons.org/licenses/by-nc/4.0/',readingRoutes:species.map(x=>x.colId),sourceConcept:'2023 ten-name reference phylogeny and new albopunctata type/field observations, not complete genus biology',readScope:'All extracted letter, taxonomic-account and nomenclatural paragraphs read; original supplementary specimens/recordings/statistical tables not independently analysed',scope:{en:'Sampled phylogenetic framework and new-species observations with cited comparisons; no complete genus biology or independently certified historical concept equivalence.',zh:'所采系统关系框架、新种观察及被引比较；全属完整生物学或历史概念等同性未经独立认证。'},sectionLocators:[
+ 'PMC10415765 XML s01 paragraphs 1,4–7',
+ 'PMC10415765 XML s01.01 paragraphs 4–15,17',
+ 'PMC10415765 XML s01 paragraph 0; s01.01 paragraphs 13–15,18',
+ ],sections:[
+ ['evolution','The sampled genus is supported while deeper relationships remain weak','所采属有支持但更深关系仍弱',
+ 'The 2023 study combined mitochondrial 12S–16S and nuclear BDNF with earlier references for sixty-five specimens, recovering Nanohyla as monophyletic. It placed the new albopunctata lineage sister to marmorata, and recovered perparva–petrigena and pulchella–hongiaoensis sister pairs. Strong support for these pairs does not make every deeper branch secure: Group II had weak Bayesian support, and relationships among Microhyla, Nanohyla and Glyphoglossus were poorly resolved. Published genus names and marker distances are not substitutes for divergence dates, whole-genome relationships or complete species-concept reconciliation.',
+ '2023 年研究将线粒体 12S–16S、核 BDNF 与较早参考合并共六十五标本，恢复 Nanohyla 单系。新 albopunctata 支为 marmorata 姐妹，并恢复 perparva–petrigena、pulchella–hongiaoensis 姐妹对。对强支持不使所有深分支可靠：第二组贝叶斯支持弱，Microhyla、Nanohyla、Glyphoglossus 内关系分辨差。出版属名及标记距离不能替代分化日期、完整基因组关系或种概念完整协调。'],
+ ['morphology','Type observations and source conflicts require specimen-level context','模式观察与来源冲突需要标本级背景',
+ 'The new-species evidence comes from three adult male albopunctata types; females were not recorded. Reduced first finger, grooved discs, head spots and colour patterns belong to that type account and should not be applied to every Nanohyla. The text conflicts internally over holotype versus series size, palmar-tubercle shapes, head proportions and toe webbing. The linked pages preserve these disagreements and distinguish living from ethanol-preserved colour. White head spots and comparative head or foot ratios are source-bound evidence, not a complete invariant identification key for all populations.',
+ '新种证据来自三个成年雄 albopunctata 模式，没有雌记录。退化第一指、有沟指趾盘、头斑及颜色属于该模式记述，不能应用到每个 Nanohyla。正文在正模与系列体长、掌瘤形状、头比例及趾蹼上内部冲突。链接页保留分歧，区分活体与乙醇保存颜色。白头斑及比较头足比例是来源限定证据，不是全种群完整不变鉴定检索表。'],
+ ['ecology','One lowland calling site does not define the genus life history','一个低地鸣叫点不定义全属生活史',
+ 'Albopunctata was found at comparatively low elevations in Song Hinh forest, with January males calling at a small temporary pool on a forest road. The authors report local breeding activity but lack diet, predator and detailed developmental information. These observations do not establish a shared pool-breeding mode, elevation tolerance or January season for the entire genus. The paper’s acoustic comparison also confuses calls per series with pulses per call in part of the text; units remain distinct on the species pages. Its provisional Data Deficient suggestion and regional conservation appeal are dated research judgments, not freshly checked official categories or measured management outcomes.',
+ 'albopunctata 见于 Song Hinh 林较低海拔，一月雄在林路临时小池边鸣叫。作者记当地繁殖活动，但缺食性、捕食者及详细发育资料。观察不确立全属共享池繁殖方式、海拔耐受或一月繁殖季。论文声学比较部分又混淆每序列鸣声与每鸣声脉冲，物种页分开单位。暂建议 DD 及区域保护倡议是有日期研究判断，不是刚查官方等级或已测管理结果。'],
+ ]}
+const file='docs/amphibia-content/primary-direct-group-authoring-input.json',inputs=JSON.parse(fs.readFileSync(file)),i=inputs.findIndex(x=>x.pmc===study.pmc&&x.colId===study.colId)
+if(i<0)inputs.push(study);else inputs[i]=study
+fs.writeFileSync(file,JSON.stringify(inputs,null,2)+'\n')
+console.log(JSON.stringify({groupReadersPrepared:1,researchSections:3,selectedReadingRoutes:study.readingRoutes.length,testsRun:false}))

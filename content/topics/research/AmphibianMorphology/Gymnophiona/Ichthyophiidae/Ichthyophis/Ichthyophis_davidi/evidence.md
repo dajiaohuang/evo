@@ -1,0 +1,280 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  amphibian-morphology-reader:
+    scientificName: Ichthyophis davidi
+    name:
+      en: Ichthyophis davidi
+      zh: Ichthyophis davidi
+    sourceClassification:
+      order: Gymnophiona
+      family: Ichthyophiidae
+      genus: Ichthyophis
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphibian-morphology-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphibian-morphology-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphibian-morphology-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphibian-morphology-reader/sections/1/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+          metadataVariant: 0
+          sourceKey: amphibian-morphology
+          usage:
+            locator: Gymnophiona.csv, rows 75, 76; Reference.csv rows 4315
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/amphibian-morphology-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/amphibian-morphology-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - rightsEvidenceUrl
+            - licenseAssessment
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - TL
+      - TAW
+      - SL
+      - STFG
+      - STSG
+      - STTG
+      - TA1
+      - TA2
+      - PVA
+      - TRL
+      - SVL
+      - HL
+      - HW1
+      - HW2
+      - BW1
+      - BW2
+      - BW3
+      - IND
+      - ED
+      - EN
+      - IOD
+      - NS
+      - ITD
+      - TE
+      - TN
+      - TLP
+      - TS
+      - TJ
+      - EJ
+      - NJ
+      - SJ
+      - LJL
+      - C1
+      - C2
+      - VL
+      - VA
+    originalMeasurementRows:
+      - rowNumber: 75
+        values:
+          - Ichthyophiidae
+          - Ichthyophis
+          - Ichthyophis davidi
+          - M
+          - "323"
+          - "3.845"
+          - NA
+          - "6.74"
+          - "14.175"
+          - "15.315"
+          - "21.075"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9.735"
+          - NA
+          - "10.25"
+          - "14.11"
+          - "5.08"
+          - NA
+          - NA
+          - "5.12"
+          - NA
+          - "1.52"
+          - NA
+          - "3.575"
+          - "3.555"
+          - NA
+          - "4.73"
+          - "4.29"
+          - "3.705"
+          - "9.875"
+          - "10.12"
+          - NA
+          - "2.74"
+          - "3.55"
+          - NA
+          - NA
+      - rowNumber: 76
+        values:
+          - Ichthyophiidae
+          - Ichthyophis
+          - Ichthyophis davidi
+          - F
+          - "292.6666667"
+          - "2.53"
+          - NA
+          - "6.693333333"
+          - "12.10333333"
+          - "14.90666667"
+          - "17.94666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "7.786666667"
+          - NA
+          - "8.723333333"
+          - "11.66333333"
+          - "4.093333333"
+          - NA
+          - NA
+          - "5.803333333"
+          - NA
+          - "1.01"
+          - NA
+          - "3.043333333"
+          - "3.073333333"
+          - NA
+          - "4.163333333"
+          - "5.706666667"
+          - "3.96"
+          - "8.496666667"
+          - "10.15666667"
+          - NA
+          - "2.51"
+          - "3.443333333"
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4315
+        values:
+          - Gymnophiona
+          - Ichthyophis_davidi
+          - markdown: evidence.md
+            field: /records/amphibian-morphology-reader/originalReferenceRows/0/values/2
+    availableTraitCodes:
+      - TOL
+      - TL
+      - SL
+      - STFG
+      - STSG
+      - STTG
+      - HW1
+      - BW1
+      - BW2
+      - BW3
+      - EN
+      - NS
+      - TE
+      - TN
+      - TS
+      - TJ
+      - EJ
+      - NJ
+      - SJ
+      - C1
+      - C2
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6N5SG
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/amphibian-morphology-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/amphibian-morphology-reader/limitations/zh
+---
+
+# Ichthyophis davidi — morphology source
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphibian-morphology-reader/sources/referenceBindings/0/usage/scope/en -->
+Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphibian-morphology-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+<!-- /evo:text -->
+
+## amphibian-morphology-reader / originalReferenceRows / values
+
+<!-- evo:text /records/amphibian-morphology-reader/originalReferenceRows/0/values/2 -->
+Bhatta, G., Dinesh, K. P., Prashanth, P., Kulkarni, N., & Radhakrishnan, C. (2011). A new caecilian Ichthyophis davidi sp nov (Gymnophiona: Ichthyophiidae): the largest striped caecilian from the Western Ghats. Current Science, 101(8), 1015-1019. 
+<!-- /evo:text -->
+
+## amphibian-morphology-reader / limitations
+
+<!-- evo:text /records/amphibian-morphology-reader/limitations/en -->
+The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units or external expert review.
+<!-- /evo:text -->
+
+## amphibian-morphology-reader / limitations
+
+<!-- evo:text /records/amphibian-morphology-reader/limitations/zh -->
+读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位或外部专家审评。
+<!-- /evo:text -->

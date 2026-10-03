@@ -1,0 +1,648 @@
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta content="text/html; charset=utf-8" http-equiv="Content-type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1CWYXY99RZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1CWYXY99RZ');
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="/css/aw.css">
+
+<link rel="stylesheet" type="text/css" href="/css/charts.css-0.9.0/dist/charts.min.css">
+
+
+
+<!-- next 2 lines needed for expandable/collapsible list of species -->
+<link rel="stylesheet" href="/css/expand.css" type="text/css" media="screen, projection">
+<script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>
+
+<script type="text/javascript" src="/js/aw.js"></script>
+
+<!-- needed for expandable/collapsible list of species -->
+<script type="text/javascript" src="/js/scripts_expanded.js"></script>
+
+
+<!-- needed for sessions February 2021 -->
+<script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/js/sessions.js"></script>
+
+<!-- needed for recaptch September 2021 -->
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+
+<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+
+
+<title>
+    
+
+Trait Datasets
+</title>
+
+
+</head>
+
+<body onload='checkLogin();'>
+
+
+<table border=0 id=bigtable>
+<tr>
+<td colspan=2 class=topbar>
+
+<div id=top>
+AMPHIBIAWEB
+</div>
+
+</td>
+</tr>
+
+<tr>
+<td class=leftsidetop>
+
+<div id=navbar>
+
+<img alt="AmphibiaWeb logo" class=ensatina src="/images/Amphibiaweb_logo_art.png" width="110">
+     
+<ul>
+
+<li><a href="/index.html">Home</a></li>
+
+<li><a href="/new.html" title="Update Log, New Species, New Photos">What's New</a></li>
+
+    
+<li><form action="/cgi/amphib_query" method="get" onsubmit="window.location.href(true)">
+<small style=color:white;><label for="scientific_name">Search any Scientific Name</label></small>
+
+<input type="text" size="18" id=scientific_name  name="where-scientific_name">
+<input type="hidden" name="rel-scientific_name" value="contains">
+<input type="hidden" name="include_synonymies" value="Yes"></form>
+
+<small style=color:white;>Click menus below to expand</small>
+</li>
+
+    
+<section class="accordion">
+<input type="checkbox" name="collapse" id="handle11">
+<li class="handle"><label for="handle11"> Search by:</label></li>
+
+<div class="content">
+<div id=subnavbar>
+<ul>
+        <li><a href="/search/index.html">Species (Advanced)</a></li>
+    
+        <li><a href="/maps/index.html">Geography</a></li>
+
+        <li><a href="/lists/index.shtml">Family &amp; Species Lists</a></li>
+
+        <li><a href="/search/search_photos.shtml">Photos</a></li>
+
+        <li><a href="/browseimgs/photos_Amphibia.html">Photos by Taxonomy</a></li>
+
+        <li><a href="/lists/sound.shtml">Calls and Videos</a></li>
+
+        <li><a href="/search/contributors.html">Contributors</a></li>
+</ul>
+</div>
+    </div>
+    
+</section>
+
+    
+<section class="accordion">
+<input type="checkbox" name="collapse" id="handle12">
+    <li class="handle"><label for="handle12">What are Amphibians?</label></li>
+<div class="content">
+<div id=subnavbar>
+
+<ul>
+
+        <li><a href="/amphibian/amph_index.html">Meet the Amphibians</a></li>    
+    
+        <li><a href="/amphibian/facts.html">Amphibian Facts</a></li>
+    
+        <li><a href="/amphibian/speciesnums.html">By the Numbers</a></li>
+
+        <li><a href="/amphibian/newspecies.html">New Species</a></li>
+    
+        <li><a href="/amphibian/trait_dbs.html">Traits Datasets</a></li>
+
+        <li><a href="/resources/amphibian_news.html">News of the Week Archive</a></li>
+
+
+</ul>
+
+</div>
+    </div>
+    </section>
+    
+    
+<section class="accordion">
+<input type="checkbox" name="collapse" id="handle13">
+    <li class="handle"><label for="handle13">Amphibian Conservation</label></li>
+<div class="content">
+<div id=subnavbar>
+<ul>
+    
+        <li><a href="/declines/conservation.html">Global Decline &amp; Conservation</a></li>
+
+        <li><a href="/declines/habitat.html">Habitat</a></li>
+    
+        <li><a href="/declines/climatechange.html">Climate Change</a></li>
+    
+        <li><a href="/declines/disease.html">Wildlife Disease</a></li>
+
+        <li><a href="/declines/introducedspecies.html">Introduced Species</a></li>
+
+        <li><a href="/declines/people.html">Amphibians and People</a></li>
+       
+        <li><a href="/declines/ChemCon.html">Contaminants</a></li>
+    
+        <li><a href="/declines/synergisms.html">Synergisms</a></li>
+    
+        <li><a href="/declines/take_action.html">Take Action</a></li>
+    
+        <li><a href="/declines/watchlist.html">Watch List Species</a></li>
+    
+        <li><a href="/resources/decline_resources.html">Conservation Links</a></li>
+
+        <li><a href="/resources/monitoring.html">Monitoring Links</a></li>
+    
+        <li><a href="/declines/lit/index.html">Bibliographies</a></li>
+
+</ul>
+</div>
+    </div>
+    </section>
+    
+<section class="accordion">
+<input type="checkbox" name="collapse" id="handle14">
+    <li class="handle"><label for="handle14">Taxonomy &amp; Phylogeny</label></li>
+<div class="content">
+<div id=subnavbar>
+
+<ul>
+
+        <li><a href="/taxonomy/index.html">A Primer</a></li>
+
+        <li><a href="/taxonomy/AWtaxonomy.html">Our Taxonomy</a></li>
+
+        <li><a href="/taxonomy/AW_FamilyPhylogeny.html">Family Phylogeny</a></li>
+
+</ul>
+
+</div>
+    </div>
+    </section>
+    
+
+<section class="accordion">
+<input type="checkbox" name="collapse" id="handle15">
+    <li class="handle"><label for="handle15">Education</label></li>
+<div class="content">
+<div id=subnavbar>
+<ul>
+        <li><a href="/education/index_kids.html">For Kids</a></li>
+    
+       <li><a href="/education/index_teens.html">For Teens</a></li>
+    
+        <li><a href="/education/index_educators.html">For Educators</a></li>
+    
+        <li><a href="/education/recursos_en_espanol.html">Aprender en espa&ntilde;ol</a></li>
+    
+        <li><a href="/education/openLibrary.html">Free Books</a></li>
+    
+        <li><a href="/resources/biology.html">Biology Links</a></li>
+ 
+        <li><a href="/education/glossary.html">Glossary</a></li>
+</ul>
+</div>
+    </div>
+    </section>
+    
+<section class="accordion">
+<input type="checkbox" name="collapse" id="handle16">
+    <li class="handle"><label for="handle16">AmphibiaConnect!</label></li>
+<div class="content">  
+    <div id=subnavbar>
+<ul>
+        
+   <li><a href="/connect/FromtheField.html">Stories From the Field</a></li>
+    
+    <li><a target=_blank href=https://tarvinlab.github.io/amphibioscope>Amphibioscope <span class="glyphicon glyphicon-new-window"></span></a></li>    
+        
+    <li><a href="/connect/artyouramphibian2020.html">Art your Amphibian</a></li>
+    
+     <li><a href="/connect/singasong.html">AmphibiaWeb Songs</a></li>
+    
+    <li><a href="/connect/mobile.html">Mobile App</a></li>
+    
+    <li><a href="/connect/globalbioblitz.html">Global Amphibian Bioblitz</a></li>
+</ul>
+    </div>    
+    </div>
+    </section>
+        
+
+<section class="accordion">
+<input type="checkbox" name="collapse" id="handle17">
+    <li class="handle"><label for="handle17">Meet AmphibiaWeb</label></li>
+<div class="content">
+<div id=subnavbar>
+
+<ul>
+        <li><a href="/about/index.html">AmphibiaWeb's Vision</a></li>
+    
+        <li><a href="/about/history.html">History</a></li>
+
+        <li><a href="/about/team.html">Meet the Team</a></li>
+
+        <li><a href="/about/working_groups.html">Working Groups</a></li> 
+    
+        <li><a href="/about/partners.html">Partners</a></li>
+
+        <li><a href="/about/sponsors.html">Sponsors</a></li>
+
+        <li><a href="/about/presentations.html">Talks &amp; Posters</a></li>
+    
+        <li><a href="/resources/inthenews.html">AmphibiaWeb In the News</a></li>
+    
+        <li><a href="/about/acknowledgements.html">Acknowledgements</a></li>
+
+</ul>
+</div>
+    </div>
+    </section>
+
+<section class="accordion">
+<input type="checkbox" name="collapse" id="handle18">
+    <li class="handle"><label for="handle18">Contribute Data</label></li>
+<div class="content">
+<div id=subnavbar>
+
+<ul>
+    <li><a href="/data/contributing_species.html">Species Accounts</a>
+    </li>
+    
+    <li><a href="/data/salta.html">SALTA</a>
+    </li>
+
+    <li><a href="/data/guidelines.html">Species Account Guidelines</a></li>
+    
+    <li><a href="/data/contributing_media.html">Photos and Calls</a></li>
+    
+</ul>
+</div>  
+    </div>
+    </section>
+    
+    
+<section class="accordion">
+<input type="checkbox" name="collapse" id="handle19">
+    <li class="handle"><label for="handle19">About our Data</label></li>
+<div class="content"> 
+    <div id=subnavbar>
+
+<ul>
+        <li><a href="/data.html">Data Sources</a></li>
+    
+        <li><a href="/data/datause.html">Data Use Policy</a></li>
+    
+        <li><a href="/data/privacy.html">Privacy and User Policy</a></li>
+
+        <li><a href="/data/access.html">Accessing Data</a></li>
+    
+        <li><a href="/mapdisclaimer.html">Spatial Data Disclaimer</a></li>
+
+
+</ul>
+
+</div>
+    </div>
+    </section>
+    
+<li><a href="/GiveToday.html">Support Our Mission</a></li>    
+    
+<li><a href="/newsletter.html">Newsletters &amp; Sign Up</a></li>
+
+<li><a href=https://www.zazzle.com/amphibiaweb?rf=238279247810284070>Shop AmphibiaWeb <span class="glyphicon glyphicon-new-window"></span></a> </li>
+    
+<li><a href="/site.html">Site Map</a></li>
+    
+<center>
+<li>
+<p>
+
+
+<p>
+<!-- Google CSE Search Box Begins  -->
+  <form id="searchbox_000781303811365287584:znomelu7pms" action="https://www.google.com/cse">
+    <input type="hidden" name="cx" value="000781303811365287584:znomelu7pms" />
+    <input type="hidden" name="cof" value="FORID:0" />
+    <input id="search site" name="q" type="text" size="20" />
+    <br>
+    <label for="search site">
+    <button aria-label="search any phrase" type="submit" name="sa" value="Search any phrase" />Search any phrase</button>
+    </label>
+  </form>
+<!-- Google CSE Search Box Ends -->
+</li>
+
+</center>    
+</ul>
+</div>
+<div id=navbar>
+<div id="contributors"></div>
+</div>
+
+<p>
+<div>
+<p>&nbsp;<br>
+</div>
+<div id="google_translate_element"></div><p>
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {pageLanguage: 'en'},
+            'google_translate_element'
+        );
+    }
+</script>
+<script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+</script>
+<font color=white>(Translations may not be accurate.)</font>
+
+</div>
+
+
+
+
+</td>
+<td valign=top>
+
+<div id="main">
+
+<!-- Main body of Text -->   
+
+    
+  
+
+
+<h1>Amphibian Trait Databases </h1>
+<h3>List of trait references and datasets available for use</h3>
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;
+    }
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#298A08;
+    }
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#E6F8E0;
+    }
+.tg .tt-ref{vertical-align:top
+    }
+th.tt-sort-header::-moz-selection { background:transparent; 
+    }
+    th.tt-sort-header::selection      { background:transparent; 
+    }
+th.tt-sort-header { cursor:pointer; 
+    }
+table th.tt-sort-header:after {  content:'';  float:right;  margin-top:7px;  border-width:0 4px 4px;  border-style:solid;  border-color:#404040 transparent;  visibility:hidden;  }
+table th.tt-sort-header:hover:after {  visibility:visible;  }
+table th.tt-sort-desc:after,table th.tt-sort-asc:after,table th.tt-sort-asc:hover:after {  visibility:visible;  opacity:0.4;  }
+table th.tt-sort-desc:after {  border-bottom:none;  border-width:4px 4px 0;  }
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tt-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}
+    }
+</style>
+
+<blockquote>
+In our efforts to distribute information about amphibians as broadly as possible, we have compiled a list of trait databases that have been compiled for amphibians by amphibian researchers. These datasets span many different types of traits that researchers might use in comparative analyses. We have not collected or collated these data ourselves but rather point interested researchers to these various resources that have been created by others. Thus, we have not verified all of these data sets, which is the responsibility of interested users. Our objective is to provide a handy place for links to trait databases useful to the community. If you have compiled a trait database that you would like to make available to the world, please reach out to the AmphibiaWeb team.
+<p><a href="/cgi/dlpmail?step=form&site=aw&receiver=AmphibiaWeb"><em>Please drop us a line if you have suggestions!</em><br>
+<img height="20" src="/images/email_icon.png">
+</a>
+    </p>
+    
+    <p>Or <a target=_blank href=https://docs.google.com/forms/d/e/1FAIpQLScbbmwK4O215_g3qSOc7-amelvL47dV9_-vD0cu_CREcl4IkA/viewform?usp=sf_link>Contribute a dataset through our form</a></p>    
+    
+</blockquote>
+Click any header to sort
+<div class="tt-wrap"><table id="tt-main" class="tg">
+  <tr>
+    <th class="tt-ref" width="10%">Taxonomic Scope</th>
+    <th class="tt-ref" width="10%">Geographic Scope</th>
+    <th class="tt-ref" width="25%">Trait type</th>   
+    <th class="tt-ref" width="40%">Citation</th>
+    <th class="tt-ref" width="20%">Method</th>
+    <th class="tt-ref" width="15%">download</th>
+  </tr>
+    
+  <tr>
+    <td class="tt-ref">All orders (+6,500 species)</td>
+    <td class="tt-ref">Global</td>
+    <td class="tt-ref">Ecology, Morphology and Reproductive (17)</td>
+    <td class="tt-ref"><b>AmphiBIO:</b> Oliveira B, São-Pedro V, Santos-Barrera G, Penone C, and GC Costa. 2017. AmphiBIO, a global database for amphibian ecological traits. <i>Scientific Data</i> 4: 170123. https://doi.org/10.1038/sdata.2017.123 </td>
+    <td class="tt-ref">Literature extraction (more than 1,500 literature sources).</td>
+      <td class="tt-ref"><a target=_blank href=https://doi.org/10.6084/m9.figshare.4644424>https://doi.org/10.6084/m9.figshare.4644424</a></td>
+  </tr>
+    
+<tr>
+    <td class="tt-ref">All orders</td>
+    <td class="tt-ref">Global</td>
+    <td class="tt-ref">Morphology (42 Anuran, 27 Caudata, 37 Gymnophiona).</td>
+    <td class="tt-ref">Huang N, Sun X, Song Y, Yuan Z, and Zhou W. 2023. Amphibian traits database: A Global database on morphological traits of amphibians. <i>Global Ecology and Biogeography</i>, 32, 633–641. https://doi.org/10.1111/geb.13656 </td>
+    <td class="tt-ref">Literature extraction.</td>
+      <td class="tt-ref"><a target=_blank href=https://doi.org/10.6084/m9.figshare.21159229>https://doi.org/10.6084/m9.figshare.21159229</a> </td>
+  </tr>
+    
+<tr>
+    <td class="tt-ref">Anura, Caudata (86 species)</td>
+    <td class="tt-ref">Regional: Europe</td>
+    <td class="tt-ref">Life History</td>
+    <td class="tt-ref">Trochet A, Moulherat S, Calvez O, Stevens V, Clobert J, Schmeller D. 2014. A database of life-history traits of European amphibians. <i>Biodiversity Data Journal</i> 2: e4123. https://doi.org/10.3897/BDJ.2.e4123 </td>
+    <td class="tt-ref">Literature extraction.</td>
+    <td class="tt-ref"><a target=_blank href=https://bdj.pensoft.net/article/download/suppl/759617>European Amphibians Database3.xlsx (113.67 kb)  </a> <br>
+    <a target=_blank href=https://bdj.pensoft.net/article/download/suppl/883762>References.xlsx (35 kb)  </a> 
+</td>
+  </tr>
+    
+
+<tr>
+    <td class="tt-ref">Anura (40 species)</td>
+    <td class="tt-ref">Regional: USA, Southeast</td>
+    <td class="tt-ref">Physiological and Behavioral Thermoregulation </td>
+    <td class="tt-ref"><b>TRAD:</b> DuBose TP, Catalan V, Moore CE, Farallo VR, Benson AL, Dade JL, Hopkins WA, and Mims MC. 2023. TRAD: Thermal traits of anurans database for the Southeastern United States: U.S. Geological Survey data release, https://doi.org/10.5066/P9HZFHSR.  </td>
+    <td class="tt-ref">Literature extraction (267 peer reviewed papers, dissertations, thesises, or rarely guides).</td>
+    <td class="tt-ref"><a target=_blank href=https://doi.org/10.5066/P9HZFHSR>Link to downloadable CSV's</a> 
+</td>
+  </tr>
+    
+
+<tr>
+    <td class="tt-ref">Anura (293 species of 14 families)</td>
+    <td class="tt-ref">Regional: Colombia</td>
+    <td class="tt-ref">Morphology (8)</td>
+    <td class="tt-ref">Mendoza-Henao AM, ÁM Cortes-Gomez, MA Gonzalez, OD Hernandez-Córdoba, A R Acosta-Galvis, F Castro-Herrera, JM Daza, JM Hoyos, MP Ramirez-Pinilla, N Urbina-Cardona, and B Salgado-Negret. 2019. A morphological database for Colombian anuran species from conservation-priority ecosystems. Ecology 100(5):e02685. 10.1002/ecy.2685  </td>
+    <td class="tt-ref">Measured from 4,623 museum specimens of the seven largest collections in Colombia</td>
+    <td class="tt-ref"><a target=_blank href=https://doi.org/10.1002/ecy.2685>See Supplemental</a> 
+</td>
+</tr>
+  
+<tr>
+    <td class="tt-ref">Anura</td>
+    <td class="tt-ref">Global</td>
+    <td class="tt-ref">Sexual Dichromatism (dynamic and ontogenetic)  | <a href=/amphibian/dichromatism.html>Read more</a> </td>
+    <td class="tt-ref">Bell Rayna C. and Zamudio Kelly R. 2012. Sexual dichromatism in frogs: natural selection, sexual selection and unexpected diversityProc. R. Soc. B.2794687–4693
+        <a href=http://doi.org/10.1098/rspb.2012.1609>DOI for paper</a>  </td>
+    <td class="tt-ref">Literature extraction and personal communication</td>
+    <td class="tt-ref"><a target=_blank href="/amphibian/dichromatism_tables.html">See table of species and traits</a> 
+</td>
+</tr>
+    
+    
+<tr>
+    <td class="tt-ref">Anura</td>
+    <td class="tt-ref">Regional: USA</td>
+    <td class="tt-ref">Morphology, Ecology, Life History, Reproductive, Behavioral </td>
+    <td class="tt-ref">Moore, C.E., J. Helmann, Y. Chen, S. St. Amour, L. Hughes, N. Wax, M.C. Mims. 2021. Anuran Traits of the United States (<b>ATraiU</b>): A database for anuran traits-based conservation, management, and research. Ecology, 102(3):e03261. 10.1002/ecy.3261
+        <a href=https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3261>DOI for paper</a>  </td>
+    <td class="tt-ref">Literature extraction</td>
+    <td class="tt-ref"><a target=_blank href=https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3261>See Supporting Information for data </a> 
+</td>
+</tr>
+    
+<tr>
+    <td class="tt-ref">Gymnophiona (218 Caecilian species)</td>
+    <td class="tt-ref">Global</td>
+    <td class="tt-ref">Morphology (both species and individual level) </td>
+    <td class="tt-ref">Wei P., Song Y., Tian R., Wang Y., Chen J., Yuan Z., Zhou W. 2025. <b>CaecilianTraits</b>, an individual level trait database of Caecilians worldwide. Sci Data 12, 428.
+        <a href=https://doi.org/10.1038/s41597-025-04728-z>DOI for paper</a>  </td>
+    <td class="tt-ref">Literature extraction</td>
+    <td class="tt-ref"><a target=_blank href=https://figshare.com/articles/dataset/CaecilianTraits/26075686/4?file=50781420>See data (XLXS) on FigShare</a> 
+</td>
+</tr>
+    
+<tr>
+    <td class="tt-ref">Anura, Caudata (37 species in Turkey)</td>
+    <td class="tt-ref">Regional: Turkey</td>
+    <td class="tt-ref">Morphology, Life History, Habitat Preferences, Threats </td>
+    <td class="tt-ref">Arslan, D., Akdağ, B., Yaşar, Ç., Olivier A., Benedetti Y., Morelli F., Çiçek K. 2024. An extensive database on the traits and occurrences of amphibian species in Turkey. Sci Data 11, 292. <a target=_blank href=https://doi.org/10.1038/s41597-024-03101-w>DOI for paper</a>  </td>
+    <td class="tt-ref">Literature extraction</td>
+    <td class="tt-ref"><a target=_blank href=https://doi.org/10.6084/m9.figshare.c.6781260.v1>See data (XLXS) on FigShare</a> 
+</td>
+</tr>
+
+<tr>
+    <td class="tt-ref"><!--Taxonomic Scope-->Anura (1,993 species)</td>
+    <td class="tt-ref"><!--Geographic Scope-->Global</td>
+    <td class="tt-ref"><!--Trait type-->Morphology of the tadpole lifestage</td>
+    <td class="tt-ref"><!--Full Citation-->Song, Y., Tian, R., Wang, Y., Wei, P., Zhang, T., Luo, S., Yuan, Z. and Zhou, W. 2025. <b>TadpoleTraits</b>: A Global Database on Morphological Traits of Tadpoles of Anura. Global Ecol Biogeogr, 34: e70055. <a target=_blank href=https://doi.org/10.1111/geb.70055>DOI for paper</a>  </td>
+    <td class="tt-ref"><!--Method-->Literature extraction and image measurements</td>
+    <td class="tt-ref"><!--direct link to trait data--><a target=_blank href=https://doi.org/10.6084/m9.figshare.28069802.v4>See data (XLXS) on FigShare</a> 
+</td>
+</tr>
+    
+<tr>
+    <td class="tt-ref"><!--Taxonomic Scope-->All orders</td>
+    <td class="tt-ref"><!--Geographic Scope-->Global</td>
+    <td class="tt-ref"><!--Trait type-->Genome size</td>
+    <td class="tt-ref"><!--Full Citation--><a target=_blank href=https://www.genomesize.com/search.php?search=type&value=Amphibians&display=100>Animal Genome Size Database</a> </td>
+    <td class="tt-ref"><!--Method-->Literature extraction</td>
+    <td class="tt-ref"><!--direct link to trait data--><a target=_blank href=https://www.genomesize.com>search database</a> 
+</td>
+</tr>
+
+<tr>
+    <td class="tt-ref"><!--Taxonomic Scope-->Anura (135 species), Caudata (52), Gymnophiona (2)</td>
+    <td class="tt-ref"><!--Geographic Scope-->Global</td>
+    <td class="tt-ref"><!--Trait type-->Life History, Reproductive, Physiology</td>
+    <td class="tt-ref"><!--Full Citation-->Nemesházi, E., Bókony, V. (2023). <b>HerpSexDet</b>: the herpetological database of sex determination and sex reversal. Sci Data 10, 377. <a target=_blank href=https://doi.org/10.1038/s41597-023-02268-y>DOI link</a> </td>
+    <td class="tt-ref"><!--Method-->Literature extraction</td>
+    <td class="tt-ref"><!--direct link to trait data--><a target=_blank href=https://hsd-project.eu>search database</a> 
+</td>
+</tr>
+    
+</table></div>
+
+
+
+
+<script type="text/javascript" charset="utf-8">var TgTableSort=window.TgTableSort||function(n,t){"use strict";function r(n,t){for(var e=[],o=n.childNodes,i=0;i<o.length;++i){var u=o[i];if("."==t.substring(0,1)){var a=t.substring(1);f(u,a)&&e.push(u)}else u.nodeName.toLowerCase()==t&&e.push(u);var c=r(u,t);e=e.concat(c)}return e}function e(n,t){var e=[],o=r(n,"tr");return o.forEach(function(n){var o=r(n,"td");t>=0&&t<o.length&&e.push(o[t])}),e}function o(n){return n.textContent||n.innerText||""}function i(n){return n.innerHTML||""}function u(n,t){var r=e(n,t);return r.map(o)}function a(n,t){var r=e(n,t);return r.map(i)}function c(n){var t=n.className||"";return t.match(/\S+/g)||[]}function f(n,t){return-1!=c(n).indexOf(t)}function s(n,t){f(n,t)||(n.className+=" "+t)}function d(n,t){if(f(n,t)){var r=c(n),e=r.indexOf(t);r.splice(e,1),n.className=r.join(" ")}}function v(n){d(n,L),d(n,E)}function l(n,t,e){r(n,"."+E).map(v),r(n,"."+L).map(v),e==T?s(t,E):s(t,L)}function g(n){return function(t,r){var e=n*t.str.localeCompare(r.str);return 0==e&&(e=t.index-r.index),e}}function h(n){return function(t,r){var e=+t.str,o=+r.str;return e==o?t.index-r.index:n*(e-o)}}function m(n,t,r){var e=u(n,t),o=e.map(function(n,t){return{str:n,index:t}}),i=e&&-1==e.map(isNaN).indexOf(!0),a=i?h(r):g(r);return o.sort(a),o.map(function(n){return n.index})}function p(n,t,r,o){for(var i=f(o,E)?N:T,u=m(n,r,i),c=0;t>c;++c){var s=e(n,c),d=a(n,c);s.forEach(function(n,t){n.innerHTML=d[u[t]]})}l(n,o,i)}function x(n,t){var r=t.length;t.forEach(function(t,e){t.addEventListener("click",function(){p(n,r,e,t)}),s(t,"tt-sort-header")})}var T=1,N=-1,E="tt-sort-asc",L="tt-sort-desc";return function(t){var e=n.getElementById(t),o=r(e,"tr"),i=o.length>0?r(o[0],"td"):[];0==i.length&&(i=r(o[0],"th"));for(var u=1;u<o.length;++u){var a=r(o[u],"td");if(a.length!=i.length)return}x(e,i)}}(document);document.addEventListener("DOMContentLoaded",function(n){TgTableSort("tt-main")});</script>
+
+
+
+<hr>
+
+
+</div>
+
+</td>
+</tr>
+
+
+
+<tr>
+<td class=leftsidebottom>
+</td>
+
+<td class=footer>
+
+
+<hr>
+<script>
+
+   var monthNames = [
+     "Jan", "Feb", "Mar",
+     "Apr", "May", "Jun", "Jul",
+     "Aug", "Sep", "Oct",
+     "Nov", "Dec"
+   ];
+
+   var date = new Date();
+   var day = date.getDate();
+   var monthIndex = date.getMonth();
+   var year = date.getFullYear();
+
+   console.log(day, monthNames[monthIndex], year);
+   document.write('Citation: ');
+   document.write('AmphibiaWeb. ' + year + '. &lt;<a href=https://amphibiaweb.org>https://amphibiaweb.org</a>&gt; University of California, Berkeley, CA, USA. Accessed ');
+
+   document.write(day + ' ' + monthNames[monthIndex] + ' ' + year + '.');
+
+   document.write('<p>');
+
+   document.write('<a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">');
+   document.write('<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a> AmphibiaWeb\'s <a href="/data/datause.html">policy on data use.</a>');
+
+   document.write('<p>');
+
+   document.write('AmphibiaWeb Copyright &copy; 2000-' + year + ' The Regents of the University of California');
+
+</script>
+
+
+
+
+
+
+</td>
+</tr>
+</table>
+
+<p>
+
+</body>
+</html>
+
+

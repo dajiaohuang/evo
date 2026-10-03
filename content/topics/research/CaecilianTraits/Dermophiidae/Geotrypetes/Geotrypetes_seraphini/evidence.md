@@ -1,0 +1,2746 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  caecilian-traits-reader:
+    scientificName: Geotrypetes seraphini
+    name:
+      en: Geotrypetes seraphini
+      zh: Geotrypetes seraphini
+    sourceClassification:
+      family: "Dermophiidae "
+      genus: Geotrypetes
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited caecilian record
+          zh: 存档中的蚓螈记录
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Measurement material
+          zh: 测量材料
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/1/text/zh
+      - topic: ecology
+        title:
+          en: Compiled habitat categories
+          zh: 汇编的栖地类别
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/2/text/zh
+      - topic: lifeHistory
+        title:
+          en: Compiled reproduction category
+          zh: 汇编的繁殖类别
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/3/text/zh
+      - topic: morphology
+        title:
+          en: Compiled anatomical counts
+          zh: 汇编的解剖计数
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/4/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/4/text/zh
+      - topic: lifeHistory
+        sourceField: aquatic-larvae
+        sourceIds:
+          - caeciliantraits
+        title:
+          en: Water-dependent larval development
+          zh: 依赖水环境的幼体发育
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/5/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/5/text/zh
+      - topic: lifeHistory
+        sourceField: clutch-counts
+        sourceIds:
+          - caeciliantraits
+        title:
+          en: Compiled clutch counts
+          zh: 汇编的每窝数量
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/6/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/6/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+          metadataVariant: 0
+          sourceKey: caeciliantraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/caecilian-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - rightsEvidenceUrl
+            - licenseAssessment
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    originalSpeciesRow:
+      rowNumber: 64
+      values:
+        - "Dermophiidae "
+        - Geotrypetes
+        - Geotrypetes seraphini
+        - Tropical & Subtropical Moist Broadleaf Forests; Tropical & Subtropical Grasslands, Savannas & Shrublands
+        - Terrestrial|Freshwater (=Inland waters)
+        - Fossorial
+        - This is a soil-dwelling species occurring in lowland forest.
+        - viviparous
+        - " It is viviparous, giving birth to young on land, and is not dependent upon water bodies for breeding."
+        - 0
+        - 4
+        - 3
+        - null
+        - markdown: evidence.md
+          field: /records/caecilian-traits-reader/originalSpeciesRow/values/13
+        - 221.083333333333
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 9.11666666666667
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 6.47777777777778
+        - null
+        - null
+        - null
+        - 9.96176470588235
+        - 14.2571428571429
+        - null
+        - null
+        - null
+        - 3.00576923076923
+        - 0.996666666666667
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 93.3055555555556
+        - 52.5
+        - null
+        - 31.6571428571429
+        - 32.5142857142857
+        - 31.2
+        - 24.1714285714286
+        - null
+    originalMeasurementRows:
+      - rowNumber: 1112
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - IRSNB 101460
+          - null
+          - "186"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "6.5"
+          - null
+          - null
+          - null
+          - "8.2"
+          - null
+          - null
+          - null
+          - null
+          - "2.7"
+          - "0.7"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "88"
+          - null
+          - null
+          - 17-18
+          - 20-19
+          - 17-17
+          - 12-12
+          - null
+      - rowNumber: 1113
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - IRSNB 101461
+          - null
+          - "163"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "6"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5"
+          - null
+          - null
+          - null
+          - "8"
+          - null
+          - null
+          - null
+          - null
+          - "2.25"
+          - "0.6"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "90"
+          - null
+          - null
+          - 16-15
+          - 15-15
+          - 14-14
+          - 10-10
+          - null
+      - rowNumber: 1114
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - IRSNB 101462
+          - null
+          - "238"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "9"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7"
+          - null
+          - null
+          - null
+          - "10.5"
+          - null
+          - null
+          - null
+          - null
+          - "2.9"
+          - "1.1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "92"
+          - null
+          - null
+          - 17-18
+          - 16-15
+          - 18-18
+          - 13-13
+          - null
+      - rowNumber: 1115
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - IRSNB 101463
+          - null
+          - "219"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7"
+          - null
+          - null
+          - null
+          - "10"
+          - null
+          - null
+          - null
+          - null
+          - "2.9"
+          - "1.1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "89"
+          - null
+          - null
+          - 18-17
+          - 18-17
+          - 17-17
+          - 14-14
+          - null
+      - rowNumber: 1116
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - IRSNB 101464
+          - null
+          - "202"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "6.4"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5"
+          - null
+          - null
+          - null
+          - "10"
+          - null
+          - null
+          - null
+          - null
+          - "2.7"
+          - "1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "89"
+          - null
+          - null
+          - 17-16
+          - 18-17
+          - 17-17
+          - 14-14
+          - null
+      - rowNumber: 1117
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - IRSNB 101465
+          - null
+          - "202"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "6"
+          - null
+          - null
+          - null
+          - "10"
+          - null
+          - null
+          - null
+          - null
+          - "2.9"
+          - "1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "87"
+          - null
+          - null
+          - 18-17
+          - 17-17
+          - 16-16
+          - 11-11
+          - null
+      - rowNumber: 1118
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - IRSNB 101466
+          - null
+          - "199"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "6.2"
+          - null
+          - null
+          - null
+          - "9"
+          - null
+          - null
+          - null
+          - null
+          - "3"
+          - "1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "92"
+          - null
+          - null
+          - 16-16
+          - 17-16
+          - 17-17
+          - 12-13
+          - null
+      - rowNumber: 1119
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - IRSNB 101469
+          - null
+          - "195"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7.8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5.8"
+          - null
+          - null
+          - null
+          - "10"
+          - null
+          - null
+          - null
+          - null
+          - "3"
+          - "1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "89"
+          - null
+          - null
+          - 18-17
+          - 18-17
+          - 16-16
+          - 11-11
+          - null
+      - rowNumber: 1120
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - IRSNB 101467
+          - null
+          - "198"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5.7"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5"
+          - null
+          - null
+          - null
+          - "9"
+          - null
+          - null
+          - null
+          - null
+          - "2.9"
+          - "1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "93"
+          - null
+          - null
+          - 18-17
+          - 18-17
+          - 18-18
+          - 15-15
+          - null
+      - rowNumber: 1121
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - IRSNB 101468
+          - null
+          - "171"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "6"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5"
+          - null
+          - null
+          - null
+          - "8.5"
+          - null
+          - null
+          - null
+          - null
+          - "2.7"
+          - "1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "91"
+          - null
+          - null
+          - 17-17
+          - 17-16
+          - 16-18
+          - 11-12
+          - null
+      - rowNumber: 1122
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - IRSNB 101470
+          - null
+          - "159"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "6"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5"
+          - null
+          - null
+          - null
+          - "8"
+          - null
+          - null
+          - null
+          - null
+          - "2.5"
+          - "0.8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "91"
+          - null
+          - null
+          - 17-17
+          - 16-16
+          - 16-18
+          - 11-12
+          - null
+      - rowNumber: 1123
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - IRSNB 101471
+          - null
+          - "162"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "6"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5"
+          - null
+          - null
+          - null
+          - "8"
+          - null
+          - null
+          - null
+          - null
+          - "2.5"
+          - "0.8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "91"
+          - null
+          - null
+          - 17-16
+          - 16-17
+          - 18-18
+          - 10-10
+          - null
+      - rowNumber: 1124
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - NMW 9129
+          - null
+          - "212"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8.8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5.3"
+          - null
+          - null
+          - null
+          - "10.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "1.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "95"
+          - null
+          - null
+          - 16-17
+          - 17-17
+          - 17-17
+          - 12-12
+          - null
+      - rowNumber: 1125
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - ZSZM 1931
+          - null
+          - "309"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "12"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8.2"
+          - null
+          - null
+          - null
+          - "12.7"
+          - "16"
+          - null
+          - null
+          - null
+          - null
+          - "1.1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "95"
+          - null
+          - null
+          - 19-18
+          - 22-22
+          - 13-13
+          - 14-15
+          - null
+      - rowNumber: 1126
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - MNHN 1256a
+          - null
+          - "285"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "11"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7"
+          - null
+          - null
+          - null
+          - "10.5"
+          - "15.4"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "90"
+          - null
+          - null
+          - 15-15
+          - 18-18
+          - 20-21
+          - 15-16
+          - null
+      - rowNumber: 1127
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - MNHN 12566
+          - null
+          - "240"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "9.3"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "6.5"
+          - null
+          - null
+          - null
+          - "10.2"
+          - "13.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "93"
+          - null
+          - null
+          - 16-15
+          - 19-18
+          - 18-18
+          - 14-14
+          - null
+      - rowNumber: 1128
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - MHNB 2933
+          - null
+          - "217"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5.8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "95"
+          - null
+          - null
+          - 14-14
+          - 17-17
+          - 13-13
+          - 11-11
+          - null
+      - rowNumber: 1129
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - ZMA 65
+          - null
+          - "285"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "11.8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7"
+          - null
+          - null
+          - null
+          - "10.2"
+          - "14.8"
+          - null
+          - null
+          - null
+          - null
+          - "1.15"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "94"
+          - null
+          - null
+          - 17-16
+          - 16-16
+          - 18-18
+          - 16-17
+          - null
+      - rowNumber: 1130
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - EHT-HMS 4680
+          - null
+          - "195"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "6"
+          - null
+          - null
+          - null
+          - "8.3"
+          - "11.8"
+          - null
+          - null
+          - null
+          - null
+          - "0.9"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "96"
+          - null
+          - null
+          - 19-20
+          - 19-19
+          - 19-19
+          - 12-12
+          - null
+      - rowNumber: 1131
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - SNGM 52291
+          - null
+          - "242"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "12"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "93"
+          - null
+          - null
+          - 14-15
+          - 15-16
+          - 13-13
+          - 12-12
+          - null
+      - rowNumber: 1132
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - EHT-HMS 4600
+          - null
+          - "255"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "13"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "9"
+          - null
+          - null
+          - null
+          - "10.3"
+          - "17"
+          - null
+          - null
+          - null
+          - "3.5"
+          - "1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "92"
+          - "49"
+          - null
+          - 14-13
+          - 17-16
+          - 15-15
+          - 11-11
+          - null
+      - rowNumber: 1133
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - EHT-HMS 4632
+          - null
+          - "227"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7.2"
+          - null
+          - null
+          - null
+          - "10.2"
+          - "13.4"
+          - null
+          - null
+          - null
+          - "3"
+          - "0.95"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "99"
+          - "51"
+          - null
+          - 16-15
+          - 15-15
+          - 17-17
+          - 12-12
+          - null
+      - rowNumber: 1134
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - EHT-HMS 4633
+          - null
+          - "273"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "13"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7.5"
+          - null
+          - null
+          - null
+          - "12"
+          - "17"
+          - null
+          - null
+          - null
+          - "3.8"
+          - "1.1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "100"
+          - "48"
+          - null
+          - 15-14
+          - 17-16
+          - 13-13
+          - 10-10
+          - null
+      - rowNumber: 1135
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - EHT-HMS 4657
+          - null
+          - "231"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "11"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7"
+          - null
+          - null
+          - null
+          - "10"
+          - "13.8"
+          - null
+          - null
+          - null
+          - "3"
+          - "1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "94"
+          - "52"
+          - null
+          - 15-14
+          - 14-13
+          - 13-13
+          - 11-11
+          - null
+      - rowNumber: 1136
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - EHT-HMS 4655
+          - null
+          - "246"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "12.1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7"
+          - null
+          - null
+          - null
+          - "10.3"
+          - "15"
+          - null
+          - null
+          - null
+          - "3.1"
+          - "1.1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "92"
+          - "54"
+          - null
+          - 17-16
+          - 15-16
+          - 16-15
+          - 11-11
+          - null
+      - rowNumber: 1137
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - EHT-HMS 4656
+          - null
+          - "226"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "11.8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7.1"
+          - null
+          - null
+          - null
+          - "10.1"
+          - "15"
+          - null
+          - null
+          - null
+          - "3.3"
+          - "1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "90"
+          - "50"
+          - null
+          - 15-14
+          - 14-13
+          - 12-13
+          - 13-13
+          - null
+      - rowNumber: 1138
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - EHT-HMS 4658
+          - null
+          - "190"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "9"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "6"
+          - null
+          - null
+          - null
+          - "10"
+          - "12.3"
+          - null
+          - null
+          - null
+          - "2.8"
+          - "1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "93"
+          - "58"
+          - null
+          - 16-15
+          - 14-14
+          - 14-14
+          - 9-9
+          - null
+      - rowNumber: 1139
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - MCZ 22401
+          - null
+          - "320"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "14"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "10.2"
+          - null
+          - null
+          - null
+          - "14"
+          - "20"
+          - null
+          - null
+          - null
+          - "3.3"
+          - "1.4"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "98"
+          - "60"
+          - null
+          - 16-15
+          - 16-15
+          - 14-14
+          - 12-12
+          - null
+      - rowNumber: 1140
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - MCZ 23545
+          - null
+          - "213"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "9"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "6.5"
+          - null
+          - null
+          - null
+          - "11"
+          - "14"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "96"
+          - "52"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 1141
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - MCZ 13063
+          - null
+          - "195"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5.4"
+          - null
+          - null
+          - null
+          - "10"
+          - "12"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "93"
+          - "48"
+          - null
+          - 14-13
+          - 13-13
+          - 13-13
+          - 9-9
+          - null
+      - rowNumber: 1142
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - MNHN 9024
+          - null
+          - "240"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "10"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7"
+          - null
+          - null
+          - null
+          - "11"
+          - "14"
+          - null
+          - null
+          - null
+          - "3.6"
+          - "0.9"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "94"
+          - "53"
+          - null
+          - 15-15
+          - 16-17
+          - 15-16
+          - 14-14
+          - null
+      - rowNumber: 1143
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - EHT-HMS 4615
+          - null
+          - "213"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "9.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7.5"
+          - null
+          - null
+          - null
+          - "11"
+          - "13.8"
+          - null
+          - null
+          - null
+          - "3.5"
+          - "1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "100"
+          - "52"
+          - null
+          - 14-13
+          - 15-14
+          - 13-13
+          - 13-13
+          - null
+      - rowNumber: 1144
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - EHT-HMS 4616
+          - null
+          - "203"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5"
+          - null
+          - null
+          - null
+          - "9"
+          - "12"
+          - null
+          - null
+          - null
+          - "3"
+          - "1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "99"
+          - "52"
+          - null
+          - 15-14
+          - 15-16
+          - 12-13
+          - 10-10
+          - null
+      - rowNumber: 1145
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - EHT-HMS 4582
+          - null
+          - "286"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "13"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8.3"
+          - null
+          - null
+          - null
+          - "12.2"
+          - "15.2"
+          - null
+          - null
+          - null
+          - "3.7"
+          - "1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "96"
+          - "58"
+          - null
+          - 15-14
+          - 15-14
+          - 16-16
+          - 14-14
+          - null
+      - rowNumber: 1146
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - EHT-HMS 4583
+          - null
+          - "192"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5"
+          - null
+          - null
+          - null
+          - "9"
+          - "12.4"
+          - null
+          - null
+          - null
+          - "3"
+          - "1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "96"
+          - "52"
+          - null
+          - 15-14
+          - 14-15
+          - 14-14
+          - 12-12
+          - null
+      - rowNumber: 1147
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - "Dermophiidae "
+          - Geotrypetes
+          - Geotrypetes seraphini
+          - I
+          - EHT-HMS 4584
+          - null
+          - "170"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7.3"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5"
+          - null
+          - null
+          - null
+          - "7.3"
+          - "11"
+          - null
+          - null
+          - null
+          - "2.6"
+          - "1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "94"
+          - "51"
+          - null
+          - 15-15
+          - 15-15
+          - 15-14
+          - 9-9
+          - null
+    originalColumns:
+      species:
+        - Family
+        - Genus
+        - Species
+        - biome
+        - Habitats
+        - Microhabitat
+        - Metadata_microhabitat
+        - Reproduction
+        - Metadata_reproduction
+        - Aquatic larvae
+        - Max clutch size
+        - Min clutch size
+        - Mean clutch size
+        - Reference
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - ADD
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+      measurement:
+        - Reference
+        - Family
+        - Genus
+        - Species
+        - Type
+        - ID
+        - Sex
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - "ADD "
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed-from-deposited-column-definitions; dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/caecilian-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/caecilian-traits-reader/limitations/zh
+    variableDefinitionCitation:
+      doi: 10.1038/s41597-025-04728-z
+      sourceFile: data/sources/snapshots/caeciliantraits-2025-2026-10-02/article.xml
+      locator: Methods, species-level ecological and life-history data; Data Records
+---
+
+# Geotrypetes seraphini — CaecilianTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/caecilian-traits-reader/sources/referenceBindings/0/usage/locator -->
+CaecilianTraits.xlsx, Species level data row 64; Individual level data rows 1112, 1113, 1114, 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1122, 1123, 1124, 1125, 1126, 1127, 1128, 1129, 1130, 1131, 1132, 1133, 1134, 1135, 1136, 1137, 1138, 1139, 1140, 1141, 1142, 1143, 1144, 1145, 1146, 1147; Supplementary Table 1 for variable meanings
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalSpeciesRow / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalSpeciesRow/values/13 -->
+IUCN. The IUCN Red List of Threatened Species. Version 2023-1, <https://www.iucnredlist.org> (2023)., AmphibiaWeb. 2024. <https://amphibiaweb.org> University of California, Berkeley, CA, USA.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / limitations
+
+<!-- evo:text /records/caecilian-traits-reader/limitations/en -->
+Compilation-level reader with source concepts kept separate. Missing cells remain unknown. Underlying primary works, dimensions and units, contemporary species identity, remaining scientific facets and external expert review remain to be resolved.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / limitations
+
+<!-- evo:text /records/caecilian-traits-reader/limitations/zh -->
+本页为汇编层面的读本，来源概念单独保留；缺失单元格仍记为未知。原始文献、尺寸和单位、当前物种身份、其余科学主题及外部专家审评仍待核对。
+<!-- /evo:text -->

@@ -1,0 +1,187 @@
+{
+  "completedAt": "2026-10-03T14:53:41.213Z",
+  "requestedScope": "Reference metadata, source indexes and bilingual placeholders; original downloads and new biological prose deferred",
+  "inputLedgers": [
+    {
+      "path": "docs/amphibia-content/full-roster-literature-collection.json",
+      "kind": "accepted-name",
+      "queries": 9694,
+      "completeQueries": 9694
+    },
+    {
+      "path": "docs/amphibia-content/expanded-literature-collection.json",
+      "kind": "archived-synonym-or-higher-taxon",
+      "queries": 16727,
+      "completeQueries": 16727
+    },
+    {
+      "path": "docs/amphibia-content/bibliography-literature-collection.json",
+      "kind": "archived-bibliography",
+      "queries": 12,
+      "completeQueries": 12
+    }
+  ],
+  "referenceCandidateGroups": 1281384,
+  "distinctSourceIdentities": 1281760,
+  "queryBindings": 26433,
+  "untitledRecordsRetained": 3786,
+  "referenceShards": 2563,
+  "queryBindingShards": 53,
+  "referenceIndexPhaseComplete": true,
+  "metadataCompressedBytes": 971043499,
+  "snapshotPolicy": "Dated source captures; provider updates continue independently; retained older no-longer-returned identities are explicitly accounted for",
+  "biologicalSynthesisComplete": false,
+  "originalFilesDownloadedDuringThisPhase": false,
+  "testsRun": true,
+  "projectionGenerationPending": false,
+  "commitPending": true,
+  "canonicalEvidence": {
+    "total": 11090,
+    "attached": 11090,
+    "withoutBindings": 0,
+    "failures": [],
+    "manifestSha256": "d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec"
+  },
+  "referenceCollectionAndPlaceholdersComplete": true,
+  "contentProjections": {
+    "schemaVersion": 1,
+    "contentDirectories": 62894,
+    "contentFiles": 257127,
+    "projectionFiles": 141,
+    "changedOutputs": 1,
+    "session": 32629,
+    "complete": true
+  },
+  "remainingGeneration": [],
+  "speciesEvidenceQueue": {
+    "session": 28653,
+    "complete": true,
+    "acceptedSpeciesVisited": 2183133,
+    "dossierRows": 36354
+  },
+  "entityRegistry": {
+    "session": 49726,
+    "complete": true,
+    "entities": 426,
+    "packages": 24
+  },
+  "dataManifest": {
+    "session": 92030,
+    "complete": true,
+    "sha256Checksums": 42198
+  },
+  "allRequestedGenerationComplete": true,
+  "verificationInProgress": false,
+  "validationReconciliation": {
+    "references": 5023,
+    "undatedImportedLeads": 2815,
+    "recordedVersionRestored": 1,
+    "schemaViolations": 0,
+    "provenanceGuardTests": 6,
+    "originalVocabularyPreserved": true,
+    "noDatesInvented": true,
+    "publicationYearRestoredFromMetadata": {
+      "id": "ref-792c12d0-9f5d-4b34-8a72-b2a0ac413d06",
+      "year": 2021
+    }
+  },
+  "placeholderStatus": {
+    "nodes": 11090,
+    "bilingualBodiesUpdated": 22180,
+    "referenceSnapshotComplete": true,
+    "biologicalSynthesisComplete": false,
+    "existingProsePreserved": true
+  },
+  "originalPublicationCopiesExcluded": {
+    "count": 39,
+    "receipt": "docs/amphibia-content/original-publication-copy-exclusions.json",
+    "originalCollectionCheckoutUnchanged": true
+  },
+  "finalValidationPending": false,
+  "manifest": {
+    "session": 92030,
+    "complete": true,
+    "sha256Checksums": 42198
+  },
+  "finalVerification": {
+    "session": 79123,
+    "state": "complete-all-required-automated-gates",
+    "command": "npm run verify:web",
+    "log": "../amphibia-final-verify-web-complete.log",
+    "unitTestFilesPassed": 181,
+    "unitTestsPassed": 772,
+    "lintPassed": true,
+    "registryDriftPassed": true,
+    "platformGatesPassed": [
+      "registry",
+      "packages",
+      "claims",
+      "translations",
+      "provenance",
+      "review"
+    ],
+    "reviewFreshnessPassedPackages": 24,
+    "dataValidation": {
+      "passed": true,
+      "occurrences": 13600,
+      "navigationNodes": 426,
+      "evidenceClaims": 1380,
+      "events": 208
+    },
+    "brazilianFloraDossiers": {
+      "passed": true,
+      "dossiers": 27593
+    },
+    "speciesQueue": {
+      "passed": true,
+      "acceptedSpecies": 2183133,
+      "shards": 16
+    },
+    "stagedWhitespacePassed": true,
+    "fullRunExitCode": 1,
+    "fullRunStoppedAt": "pages:smoke: single retained release exceeded old 700 MiB full-Web allowance",
+    "continuationSession": 21313,
+    "continuationLog": "../amphibia-final-publication-gates.log",
+    "retentionPolicy": {
+      "previousFullWebLimitMiB": 700,
+      "fullWebLimitMiB": 750,
+      "pagesPreviewLimitMiB": 650,
+      "retainedVersions": 1,
+      "actualRetainedMiB": 722.63,
+      "duplicateReleaseBytes": 0,
+      "focusedTestFilesPassed": 3,
+      "focusedTestsPassed": 16,
+      "focusedLintPassed": true
+    },
+    "continuationExitCode": 0,
+    "browserTestsPassed": 133,
+    "uniqueUnitTestsVerified": 773,
+    "readiness": {
+      "passingGates": 10,
+      "totalGates": 13,
+      "ready": false,
+      "maintainerReviewsCurrent": "0/24",
+      "standardDossiers": "416/426",
+      "completeReferenceMetadata": "774/5023",
+      "mediaLicenses": "18/18",
+      "scope": "The reference/index/placeholder phase does not certify biological synthesis or v1 scientific readiness."
+    },
+    "receipt": "docs/amphibia-content/final-validation-receipt.json"
+  },
+  "stagedSourceIntegrity": {
+    "checkedFiles": 44330,
+    "mismatches": 0,
+    "receipt": "docs/amphibia-content/staged-source-byte-integrity.json"
+  },
+  "stagedWhitespaceCheck": {
+    "passed": true,
+    "exceptions": "docs/amphibia-content/verbatim-whitespace-preservation.json",
+    "sourceAndReaderBytesPreserved": true
+  },
+  "deliveryBranch": "codex/amphibia-reference-index",
+  "referenceDocumentBranch": "codex/amphibia-content-completion",
+  "deliveryScopeIsolatedFromInheritedAmnioteChanges": true,
+  "nextWork": [
+    "Commit completed reference/index/placeholder delivery"
+  ]
+}
