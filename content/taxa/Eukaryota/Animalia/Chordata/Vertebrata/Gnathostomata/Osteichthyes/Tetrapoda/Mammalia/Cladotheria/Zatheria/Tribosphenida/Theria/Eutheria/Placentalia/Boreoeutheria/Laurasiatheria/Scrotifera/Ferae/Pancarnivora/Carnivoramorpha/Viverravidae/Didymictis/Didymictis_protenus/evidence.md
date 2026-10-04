@@ -1,0 +1,410 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Didymictis protenus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Didymictis protenus
+      en: Didymictis protenus
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Didymictis protenus
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=47676&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:47676; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:47676
+            selectedOccurrenceIds:
+              - occ:166847
+              - occ:166884
+              - occ:166995
+              - occ:167018
+              - occ:167025
+              - occ:167041
+              - occ:167087
+              - occ:167099
+              - occ:167104
+              - occ:167115
+              - occ:167129
+              - occ:167147
+              - occ:167175
+              - occ:167204
+              - occ:167223
+              - occ:167247
+              - occ:167260
+              - occ:167274
+              - occ:167292
+              - occ:167350
+              - occ:167359
+              - occ:167387
+              - occ:167463
+              - occ:167486
+              - occ:167494
+              - occ:167506
+              - occ:167516
+              - occ:167559
+              - occ:167571
+              - occ:167596
+              - occ:167641
+              - occ:167651
+              - occ:167667
+              - occ:167706
+              - occ:167716
+              - occ:167721
+              - occ:168504
+              - occ:168696
+              - occ:169739
+              - occ:169855
+              - occ:170278
+              - occ:170326
+              - occ:170519
+              - occ:170730
+              - occ:170734
+              - occ:171045
+              - occ:171047
+              - occ:171056
+              - occ:171059
+              - occ:171061
+              - occ:171065
+              - occ:171068
+              - occ:171073
+              - occ:171078
+              - occ:171080
+              - occ:171090
+              - occ:171093
+              - occ:171095
+              - occ:171103
+              - occ:171110
+              - occ:171112
+              - occ:171119
+              - occ:171125
+              - occ:171127
+              - occ:171342
+              - occ:171448
+              - occ:171531
+              - occ:171618
+              - occ:171624
+              - occ:171758
+              - occ:171772
+              - occ:171838
+              - occ:171857
+              - occ:171878
+              - occ:171896
+              - occ:171909
+              - occ:171931
+              - occ:171949
+              - occ:171955
+              - occ:171965
+              - occ:171979
+              - occ:172001
+              - occ:172017
+              - occ:172971
+              - occ:457651
+              - occ:462598
+              - occ:462652
+              - occ:469144
+              - occ:469248
+              - occ:469361
+              - occ:469374
+              - occ:469393
+              - occ:469483
+              - occ:469632
+              - occ:469673
+              - occ:469705
+              - occ:469739
+              - occ:469785
+              - occ:469826
+              - occ:469884
+              - occ:469974
+              - occ:470012
+              - occ:470046
+              - occ:470066
+              - occ:470094
+              - occ:470198
+              - occ:470287
+              - occ:470346
+              - occ:470366
+              - occ:470388
+              - occ:470428
+              - occ:470442
+              - occ:470458
+              - occ:470530
+              - occ:470544
+              - occ:470596
+              - occ:470615
+              - occ:470733
+              - occ:470745
+              - occ:470771
+              - occ:470896
+              - occ:470963
+              - occ:471130
+              - occ:471175
+              - occ:471190
+              - occ:471229
+              - occ:471372
+              - occ:471527
+              - occ:471551
+            selectedCollectionIds:
+              - col:15080
+              - col:15084
+              - col:15092
+              - col:15094
+              - col:15095
+              - col:15098
+              - col:15103
+              - col:15104
+              - col:15105
+              - col:15107
+              - col:15109
+              - col:15111
+              - col:15116
+              - col:15121
+              - col:15124
+              - col:15127
+              - col:15131
+              - col:15132
+              - col:15136
+              - col:15148
+              - col:15150
+              - col:15153
+              - col:15162
+              - col:15166
+              - col:15167
+              - col:15170
+              - col:15171
+              - col:15180
+              - col:15181
+              - col:15185
+              - col:15192
+              - col:15193
+              - col:15198
+              - col:15205
+              - col:15207
+              - col:15208
+              - col:15429
+              - col:15452
+              - col:15534
+              - col:15543
+              - col:15559
+              - col:15561
+              - col:15576
+              - col:15619
+              - col:15621
+              - col:15680
+              - col:15681
+              - col:15683
+              - col:15684
+              - col:15685
+              - col:15687
+              - col:15688
+              - col:15690
+              - col:15692
+              - col:15693
+              - col:15695
+              - col:15696
+              - col:15697
+              - col:15700
+              - col:15701
+              - col:15702
+              - col:15705
+              - col:15707
+              - col:15708
+              - col:15729
+              - col:15745
+              - col:15756
+              - col:15762
+              - col:15763
+              - col:15787
+              - col:15788
+              - col:15793
+              - col:15794
+              - col:15796
+              - col:15799
+              - col:15802
+              - col:15805
+              - col:15807
+              - col:15808
+              - col:15811
+              - col:15814
+              - col:15819
+              - col:15822
+              - col:15964
+              - col:15694
+              - col:15589
+              - col:15592
+              - col:46644
+              - col:46657
+              - col:46672
+              - col:46673
+              - col:46675
+              - col:46685
+              - col:46696
+              - col:46699
+              - col:46700
+              - col:46703
+              - col:46706
+              - col:46711
+              - col:46718
+              - col:46728
+              - col:46731
+              - col:46733
+              - col:46734
+              - col:46736
+              - col:46746
+              - col:46754
+              - col:46759
+              - col:46760
+              - col:46761
+              - col:46765
+              - col:46766
+              - col:46767
+              - col:46772
+              - col:46773
+              - col:46778
+              - col:46780
+              - col:46789
+              - col:46790
+              - col:46792
+              - col:46800
+              - col:46805
+              - col:46814
+              - col:46817
+              - col:46818
+              - col:46820
+              - col:46833
+              - col:46847
+              - col:46849
+            sourceReferenceIds:
+              - ref:2953
+              - ref:2536
+              - ref:1915
+              - ref:6294
+              - ref:2787
+              - ref:6214
+              - ref:1760
+              - ref:11717
+            originalIdentificationMappings: []
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Didymictis protenus

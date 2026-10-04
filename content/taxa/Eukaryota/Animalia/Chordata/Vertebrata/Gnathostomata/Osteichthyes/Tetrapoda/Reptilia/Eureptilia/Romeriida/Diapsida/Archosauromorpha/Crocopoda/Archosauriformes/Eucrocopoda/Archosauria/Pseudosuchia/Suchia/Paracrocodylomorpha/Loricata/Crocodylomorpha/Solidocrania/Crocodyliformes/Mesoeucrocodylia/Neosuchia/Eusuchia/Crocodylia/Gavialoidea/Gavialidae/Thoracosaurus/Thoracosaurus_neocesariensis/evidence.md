@@ -1,0 +1,238 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Thoracosaurus neocesariensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Thoracosaurus neocesariensis
+      en: Thoracosaurus neocesariensis
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbCrocodylomorphTaxonomy20261002
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+          metadataVariant: 0
+          sourceKey: pbdbCrocodylomorphTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Thoracosaurus neocesariensis
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=184627&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+          metadataVariant: 0
+          sourceKey: pbdbCrocodylomorphOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:184627; original response record indices retained in data/sources/crocodylomorph-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: c4a662dc45be8020da61b782b38d37ab583c35a2e4bdf978ceca29e010472ca1
+            pbdbTaxonId: txn:184627
+            selectedOccurrenceIds:
+              - occ:40169
+              - occ:281685
+              - occ:287837
+              - occ:289118
+              - occ:289125
+              - occ:289128
+              - occ:372841
+              - occ:458021
+              - occ:458040
+              - occ:458106
+              - occ:458129
+              - occ:458151
+              - occ:458171
+              - occ:458179
+              - occ:458202
+              - occ:458253
+              - occ:459859
+              - occ:460440
+              - occ:820675
+              - occ:820693
+              - occ:1011383
+              - occ:1021299
+              - occ:1038739
+              - occ:1134822
+              - occ:1260987
+              - occ:1263266
+              - occ:1353555
+              - occ:1382175
+              - occ:1514383
+              - occ:2056144
+            selectedCollectionIds:
+              - col:3113
+              - col:26819
+              - col:15595
+              - col:27563
+              - col:27564
+              - col:27565
+              - col:35289
+              - col:45102
+              - col:45111
+              - col:45136
+              - col:45099
+              - col:45128
+              - col:14610
+              - col:45130
+              - col:45137
+              - col:45144
+              - col:45299
+              - col:45381
+              - col:45118
+              - col:45109
+              - col:123512
+              - col:125091
+              - col:127182
+              - col:52504
+              - col:88034
+              - col:129264
+              - col:83331
+              - col:87902
+              - col:211306
+              - col:277690
+            sourceReferenceIds:
+              - ref:140
+              - ref:54671
+              - ref:812
+              - ref:773
+              - ref:9505
+              - ref:11749
+              - ref:34880
+              - ref:40566
+              - ref:41363
+              - ref:46726
+              - ref:40545
+              - ref:58984
+              - ref:72977
+              - ref:94136
+            originalIdentificationMappings:
+              - occurrenceId: occ:1011383
+                originalIdentifiedName: Crocodilus clavirostris n. sp.
+                acceptedName: Thoracosaurus neocesariensis
+                difference: null
+              - occurrenceId: occ:1134822
+                originalIdentifiedName: Thoracosaurus mullicensis n. sp.
+                acceptedName: Thoracosaurus neocesariensis
+                difference: null
+              - occurrenceId: occ:1260987
+                originalIdentifiedName: Thoracosaurus meirsanus n. sp.
+                acceptedName: Thoracosaurus neocesariensis
+                difference: null
+              - occurrenceId: occ:1382175
+                originalIdentifiedName: Hyposaurus fraterculus n. sp.
+                acceptedName: Thoracosaurus neocesariensis
+                difference: null
+              - occurrenceId: occ:1514383
+                originalIdentifiedName: Crocodilus clavirostris
+                acceptedName: Thoracosaurus neocesariensis
+                difference: null
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Thoracosaurus neocesariensis

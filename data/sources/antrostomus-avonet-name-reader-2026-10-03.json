@@ -1,0 +1,1912 @@
+{
+  "batch": "P5-182",
+  "date": "2026-10-03",
+  "newSpecies": 6,
+  "newBilingualSections": 36,
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_sericocaudatus",
+      "colId": "F4NB",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_ridgwayi",
+      "colId": "F4N6",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_saturatus",
+      "colId": "5VKR8",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_badius",
+      "colId": "F4MX",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_rufus",
+      "colId": "F4N7",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_salvini",
+      "colId": "F4N9",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus",
+      "newBilingualSections": 4
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae",
+      "newBilingualSections": 2
+    }
+  ],
+  "sharedReferenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+  "sourceFiles": [
+    {
+      "file": ".git/avonet-supplementary-dataset-1-v7.xlsx",
+      "sha256": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e"
+    },
+    {
+      "file": ".git/antrostomus-selected-source-182.json",
+      "sha256": "1fe7d03ae5672b24d27ddacd464f63d9dccbd07fe895b8478e64ed80657d8721"
+    },
+    {
+      "file": ".git/antrostomus-col-names-182.json",
+      "sha256": "1483dd734d7263efee4ae1319179d019b991540ae750b9cccd3bb01c9038413d"
+    }
+  ],
+  "colNameShardFiles": [
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-ant.jsonl.gz",
+      "sha256": "50d3b966fdd957579528869494de644352d17fc0c39897596e4ad866333c1320"
+    },
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-cap.jsonl.gz",
+      "sha256": "711de5bc42eb7de0889dd0632f94466c91721ae849310f9ada0bbacb3bc9d776"
+    }
+  ],
+  "sourceRows": [
+    {
+      "target": {
+        "colId": "F4NB",
+        "scientificName": "Antrostomus sericocaudatus",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_sericocaudatus",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "VJ",
+            "parentId": "V2",
+            "scientificName": "Caprimulgiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 2
+          },
+          {
+            "id": "7PQ",
+            "parentId": "VJ",
+            "scientificName": "Caprimulgidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 20
+          },
+          {
+            "id": "XV3",
+            "parentId": "7PQ",
+            "scientificName": "Antrostomus Bonaparte, 1838",
+            "authorship": "Bonaparte, 1838",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 12
+          },
+          {
+            "parentId": "XV3",
+            "id": "F4NB",
+            "scientificName": "Antrostomus sericocaudatus Cassin, 1849",
+            "authorship": "Cassin, 1849",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 612,
+        "record": {
+          "Sequence": 1047,
+          "Species1": "Antrostomus sericocaudatus",
+          "Family1": "Caprimulgidae",
+          "Order1": "Caprimulgiformes",
+          "Avibase.ID1": "AVIBASE-2FEC9A38",
+          "Total.individuals": 4,
+          "Female": 1,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 3,
+          "Beak.Length_Culmen": 23,
+          "Beak.Length_Nares": 8.5,
+          "Beak.Width": 6,
+          "Beak.Depth": 3.3,
+          "Tarsus.Length": 17.6,
+          "Wing.Length": 160.7,
+          "Kipps.Distance": 79.7,
+          "Secondary1": 81,
+          "Hand-Wing.Index": 49.6,
+          "Tail.Length": 122.7,
+          "Mass": 83,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Aerial",
+          "Min.Latitude": -27.83,
+          "Max.Latitude": -2.35,
+          "Centroid.Latitude": -18.7,
+          "Centroid.Longitude": -56.34,
+          "Range.Size": 1167113.56
+        }
+      },
+      "eBird": {
+        "excelRow": 733,
+        "record": {
+          "Species1": "Antrostomus sericocaudatus",
+          "Species2": "Antrostomus sericocaudatus",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-2FEC9A38",
+          "Avibase.ID2": "AVIBASE-2FEC9A38",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 734,
+        "record": {
+          "Species1": "Antrostomus sericocaudatus",
+          "Species3": "Caprimulgus sericocaudatus",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "F4N6",
+        "scientificName": "Antrostomus ridgwayi",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_ridgwayi",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "VJ",
+            "parentId": "V2",
+            "scientificName": "Caprimulgiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 2
+          },
+          {
+            "id": "7PQ",
+            "parentId": "VJ",
+            "scientificName": "Caprimulgidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 20
+          },
+          {
+            "id": "XV3",
+            "parentId": "7PQ",
+            "scientificName": "Antrostomus Bonaparte, 1838",
+            "authorship": "Bonaparte, 1838",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 12
+          },
+          {
+            "parentId": "XV3",
+            "id": "F4N6",
+            "scientificName": "Antrostomus ridgwayi Nelson, 1897",
+            "authorship": "Nelson, 1897",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 608,
+        "record": {
+          "Sequence": 1044,
+          "Species1": "Antrostomus ridgwayi",
+          "Family1": "Caprimulgidae",
+          "Order1": "Caprimulgiformes",
+          "Avibase.ID1": "AVIBASE-C0F335B7",
+          "Total.individuals": 4,
+          "Female": 2,
+          "Male": 1,
+          "Unknown": 1,
+          "Complete.measures": 3,
+          "Beak.Length_Culmen": 20.5,
+          "Beak.Length_Nares": 7.6,
+          "Beak.Width": 5.2,
+          "Beak.Depth": 3.4,
+          "Tarsus.Length": 16.8,
+          "Wing.Length": 150.2,
+          "Kipps.Distance": 70.4,
+          "Secondary1": 79.8,
+          "Hand-Wing.Index": 46.9,
+          "Tail.Length": 120,
+          "Mass": 48,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Rock",
+          "Habitat.Density": 3,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": 12.25,
+          "Max.Latitude": 33.44,
+          "Centroid.Latitude": 22.92,
+          "Centroid.Longitude": -103.59,
+          "Range.Size": 631238.26
+        }
+      },
+      "eBird": {
+        "excelRow": 729,
+        "record": {
+          "Species1": "Antrostomus ridgwayi",
+          "Species2": "Antrostomus ridgwayi",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-C0F335B7",
+          "Avibase.ID2": "AVIBASE-C0F335B7",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 730,
+        "record": {
+          "Species1": "Antrostomus ridgwayi",
+          "Species3": "Caprimulgus ridgwayi",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "5VKR8",
+        "scientificName": "Antrostomus saturatus",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_saturatus",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "VJ",
+            "parentId": "V2",
+            "scientificName": "Caprimulgiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 2
+          },
+          {
+            "id": "7PQ",
+            "parentId": "VJ",
+            "scientificName": "Caprimulgidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 20
+          },
+          {
+            "id": "XV3",
+            "parentId": "7PQ",
+            "scientificName": "Antrostomus Bonaparte, 1838",
+            "authorship": "Bonaparte, 1838",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 12
+          },
+          {
+            "parentId": "XV3",
+            "id": "5VKR8",
+            "scientificName": "Antrostomus saturatus Salvin, 1870",
+            "authorship": "Salvin, 1870",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 611,
+        "record": {
+          "Sequence": 1043,
+          "Species1": "Antrostomus saturatus",
+          "Family1": "Caprimulgidae",
+          "Order1": "Caprimulgiformes",
+          "Avibase.ID1": "AVIBASE-67D59645",
+          "Total.individuals": 4,
+          "Female": 2,
+          "Male": 2,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 16,
+          "Beak.Length_Nares": 5.7,
+          "Beak.Width": 3.8,
+          "Beak.Depth": 3.1,
+          "Tarsus.Length": 16,
+          "Wing.Length": 144.5,
+          "Kipps.Distance": 68.9,
+          "Secondary1": 75.6,
+          "Hand-Wing.Index": 47.8,
+          "Tail.Length": 109.2,
+          "Mass": 52,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": 8.76,
+          "Max.Latitude": 10.4,
+          "Centroid.Latitude": 9.5,
+          "Centroid.Longitude": -83.47,
+          "Range.Size": 5381.48
+        }
+      },
+      "eBird": {
+        "excelRow": 732,
+        "record": {
+          "Species1": "Antrostomus saturatus",
+          "Species2": "Antrostomus saturatus",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-67D59645",
+          "Avibase.ID2": "AVIBASE-67D59645",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 733,
+        "record": {
+          "Species1": "Antrostomus saturatus",
+          "Species3": "Caprimulgus saturatus",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "F4MX",
+        "scientificName": "Antrostomus badius",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_badius",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "VJ",
+            "parentId": "V2",
+            "scientificName": "Caprimulgiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 2
+          },
+          {
+            "id": "7PQ",
+            "parentId": "VJ",
+            "scientificName": "Caprimulgidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 20
+          },
+          {
+            "id": "XV3",
+            "parentId": "7PQ",
+            "scientificName": "Antrostomus Bonaparte, 1838",
+            "authorship": "Bonaparte, 1838",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 12
+          },
+          {
+            "parentId": "XV3",
+            "id": "F4MX",
+            "scientificName": "Antrostomus badius Bangs & Peck, 1908",
+            "authorship": "Bangs & Peck, 1908",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 603,
+        "record": {
+          "Sequence": 1046,
+          "Species1": "Antrostomus badius",
+          "Family1": "Caprimulgidae",
+          "Order1": "Caprimulgiformes",
+          "Avibase.ID1": "AVIBASE-0D4BB435",
+          "Total.individuals": 2,
+          "Female": 1,
+          "Male": 1,
+          "Unknown": 0,
+          "Complete.measures": 2,
+          "Beak.Length_Culmen": 25.6,
+          "Beak.Length_Nares": 7.9,
+          "Beak.Width": 5.7,
+          "Beak.Depth": 3.5,
+          "Tarsus.Length": 16.8,
+          "Wing.Length": 163,
+          "Kipps.Distance": 74,
+          "Secondary1": 89,
+          "Hand-Wing.Index": 45.4,
+          "Tail.Length": 115,
+          "Mass": 59.8,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Woodland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Aerial",
+          "Min.Latitude": 18.19,
+          "Max.Latitude": 21.62,
+          "Centroid.Latitude": 19.98,
+          "Centroid.Longitude": -88.89,
+          "Range.Size": 110731.66
+        }
+      },
+      "eBird": {
+        "excelRow": 724,
+        "record": {
+          "Species1": "Antrostomus badius",
+          "Species2": "Antrostomus badius",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-0D4BB435",
+          "Avibase.ID2": "AVIBASE-0D4BB435",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 725,
+        "record": {
+          "Species1": "Antrostomus badius",
+          "Species3": "Caprimulgus badius",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "F4N7",
+        "scientificName": "Antrostomus rufus",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_rufus",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "VJ",
+            "parentId": "V2",
+            "scientificName": "Caprimulgiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 2
+          },
+          {
+            "id": "7PQ",
+            "parentId": "VJ",
+            "scientificName": "Caprimulgidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 20
+          },
+          {
+            "id": "XV3",
+            "parentId": "7PQ",
+            "scientificName": "Antrostomus Bonaparte, 1838",
+            "authorship": "Bonaparte, 1838",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 12
+          },
+          {
+            "parentId": "XV3",
+            "id": "F4N7",
+            "scientificName": "Antrostomus rufus (Boddaert, 1783)",
+            "authorship": "(Boddaert, 1783)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 609,
+        "record": {
+          "Sequence": 1049,
+          "Species1": "Antrostomus rufus",
+          "Family1": "Caprimulgidae",
+          "Order1": "Caprimulgiformes",
+          "Avibase.ID1": "AVIBASE-F331D204",
+          "Total.individuals": 4,
+          "Female": 0,
+          "Male": 3,
+          "Unknown": 1,
+          "Complete.measures": 3,
+          "Beak.Length_Culmen": 26.3,
+          "Beak.Length_Nares": 10.1,
+          "Beak.Width": 6,
+          "Beak.Depth": 3.8,
+          "Tarsus.Length": 18.4,
+          "Wing.Length": 169,
+          "Kipps.Distance": 77.8,
+          "Secondary1": 91.2,
+          "Hand-Wing.Index": 46.1,
+          "Tail.Length": 116.2,
+          "Mass": 94.2,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Woodland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": -31.62,
+          "Max.Latitude": 14.1,
+          "Centroid.Latitude": -14.51,
+          "Centroid.Longitude": -52.02,
+          "Range.Size": 5391690.94
+        }
+      },
+      "eBird": {
+        "excelRow": 730,
+        "record": {
+          "Species1": "Antrostomus rufus",
+          "Species2": "Antrostomus rufus",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-F331D204",
+          "Avibase.ID2": "AVIBASE-F331D204",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 731,
+        "record": {
+          "Species1": "Antrostomus rufus",
+          "Species3": "Caprimulgus rufus",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "F4N9",
+        "scientificName": "Antrostomus salvini",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_salvini",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "VJ",
+            "parentId": "V2",
+            "scientificName": "Caprimulgiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 2
+          },
+          {
+            "id": "7PQ",
+            "parentId": "VJ",
+            "scientificName": "Caprimulgidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 20
+          },
+          {
+            "id": "XV3",
+            "parentId": "7PQ",
+            "scientificName": "Antrostomus Bonaparte, 1838",
+            "authorship": "Bonaparte, 1838",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 12
+          },
+          {
+            "parentId": "XV3",
+            "id": "F4N9",
+            "scientificName": "Antrostomus salvini (Hartert, 1892)",
+            "authorship": "(Hartert, 1892)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 610,
+        "record": {
+          "Sequence": 1045,
+          "Species1": "Antrostomus salvini",
+          "Family1": "Caprimulgidae",
+          "Order1": "Caprimulgiformes",
+          "Avibase.ID1": "AVIBASE-100B2E32",
+          "Total.individuals": 4,
+          "Female": 1,
+          "Male": 2,
+          "Unknown": 1,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 22,
+          "Beak.Length_Nares": 7.6,
+          "Beak.Width": 5.8,
+          "Beak.Depth": 3.5,
+          "Tarsus.Length": 15.4,
+          "Wing.Length": 169,
+          "Kipps.Distance": 75.4,
+          "Secondary1": 93.6,
+          "Hand-Wing.Index": 44.6,
+          "Tail.Length": 120.8,
+          "Mass": 56,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Woodland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": 19.92,
+          "Max.Latitude": 26.78,
+          "Centroid.Latitude": 23.56,
+          "Centroid.Longitude": -98.74,
+          "Range.Size": 115696.33
+        }
+      },
+      "eBird": {
+        "excelRow": 731,
+        "record": {
+          "Species1": "Antrostomus salvini",
+          "Species2": "Antrostomus salvini",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-100B2E32",
+          "Avibase.ID2": "AVIBASE-100B2E32",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 732,
+        "record": {
+          "Species1": "Antrostomus salvini",
+          "Species3": "Caprimulgus salvini",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    }
+  ],
+  "colNameRecords": [
+    {
+      "normalizedName": "antrostomus badius bangs peck 1908",
+      "id": "F4MX",
+      "scientificName": "Antrostomus badius Bangs & Peck, 1908",
+      "authorship": "Bangs & Peck, 1908",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "XV3",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Caprimulgiformes",
+        null,
+        "Caprimulgidae",
+        null,
+        null,
+        null,
+        "Antrostomus"
+      ]
+    },
+    {
+      "normalizedName": "antrostomus ridgwayi nelson 1897",
+      "id": "F4N6",
+      "scientificName": "Antrostomus ridgwayi Nelson, 1897",
+      "authorship": "Nelson, 1897",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "XV3",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Caprimulgiformes",
+        null,
+        "Caprimulgidae",
+        null,
+        null,
+        null,
+        "Antrostomus"
+      ]
+    },
+    {
+      "normalizedName": "antrostomus rufus boddaert 1783",
+      "id": "F4N7",
+      "scientificName": "Antrostomus rufus (Boddaert, 1783)",
+      "authorship": "(Boddaert, 1783)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "XV3",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Caprimulgiformes",
+        null,
+        "Caprimulgidae",
+        null,
+        null,
+        null,
+        "Antrostomus"
+      ]
+    },
+    {
+      "normalizedName": "antrostomus salvini hartert 1892",
+      "id": "F4N9",
+      "scientificName": "Antrostomus salvini (Hartert, 1892)",
+      "authorship": "(Hartert, 1892)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "XV3",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Caprimulgiformes",
+        null,
+        "Caprimulgidae",
+        null,
+        null,
+        null,
+        "Antrostomus"
+      ]
+    },
+    {
+      "normalizedName": "antrostomus saturatus salvin 1870",
+      "id": "5VKR8",
+      "scientificName": "Antrostomus saturatus Salvin, 1870",
+      "authorship": "Salvin, 1870",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "XV3",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Caprimulgiformes",
+        null,
+        "Caprimulgidae",
+        null,
+        null,
+        null,
+        "Antrostomus"
+      ]
+    },
+    {
+      "normalizedName": "antrostomus sericocaudatus cassin 1849",
+      "id": "F4NB",
+      "scientificName": "Antrostomus sericocaudatus Cassin, 1849",
+      "authorship": "Cassin, 1849",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "XV3",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Caprimulgiformes",
+        null,
+        "Caprimulgidae",
+        null,
+        null,
+        null,
+        "Antrostomus"
+      ]
+    },
+    {
+      "normalizedName": "caprimulgus badius bangs peck 1908",
+      "id": "QSMR",
+      "scientificName": "Caprimulgus badius (Bangs & Peck, 1908)",
+      "authorship": "(Bangs & Peck, 1908)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "F4MX",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "caprimulgus ridgwayi nelson 1897",
+      "id": "QSPY",
+      "scientificName": "Caprimulgus ridgwayi (Nelson, 1897)",
+      "authorship": "(Nelson, 1897)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "F4N6",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "caprimulgus rufus boddaert 1783",
+      "id": "QSQ3",
+      "scientificName": "Caprimulgus rufus Boddaert, 1783",
+      "authorship": "Boddaert, 1783",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "F4N7",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "caprimulgus salvini hartert 1892",
+      "id": "QSQ7",
+      "scientificName": "Caprimulgus salvini Hartert, 1892",
+      "authorship": "Hartert, 1892",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "F4N9",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "caprimulgus saturatus salvin 1870",
+      "id": "QSQ8",
+      "scientificName": "Caprimulgus saturatus (Salvin, 1870)",
+      "authorship": "(Salvin, 1870)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "5VKR8",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "caprimulgus sericocaudatus cassin 1849",
+      "id": "68XB4",
+      "scientificName": "Caprimulgus sericocaudatus (Cassin, 1849)",
+      "authorship": "(Cassin, 1849)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "F4NB",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    }
+  ],
+  "fieldDefinitions": [
+    {
+      "excelRow": 12,
+      "record": {
+        "Variable": "Total.individuals",
+        "Description": "Number of individual specimens and live birds measured for each species",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 13,
+      "record": {
+        "Variable": "Female",
+        "Description": "Number of measured individuals identified as female",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 14,
+      "record": {
+        "Variable": "Male",
+        "Description": "Number of measured individuals identified as male",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 15,
+      "record": {
+        "Variable": "Unknown",
+        "Description": "Number of unsexed individuals measured",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 16,
+      "record": {
+        "Variable": "Complete.measures",
+        "Description": "Number of measured individuals with complete set of morphometric trait measurements ",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 18,
+      "record": {
+        "Variable": "Beak.Length_Nares",
+        "Description": "Length from the anterior edge of the nostrils to the tip of the beak",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 19,
+      "record": {
+        "Variable": "Beak.Width",
+        "Description": "Width of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 22,
+      "record": {
+        "Variable": "Wing.Length",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the longest primary on the unflattened wing",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 25,
+      "record": {
+        "Variable": "Hand-Wing.Index",
+        "Description": "100*DK/Lw, where DK is Kipp’s distance and Lw is wing length (i.e., Kipp’s distance corrected for wing size). Species average HWI differ from estimates in Sheard et al. (2020) because of much higher sampling of individuals in some species, as well as taxonomic effects in the BirdLife list",
+        "Variable Types": "continuous",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 27,
+      "record": {
+        "Variable": "Mass",
+        "Description": "Body mass given as species average (incorporating both male and female body mass)",
+        "Variable Types": "continuous",
+        "Units": "gram",
+        "Source": "See Mass Source column"
+      }
+    },
+    {
+      "excelRow": 28,
+      "record": {
+        "Variable": "Mass.Source",
+        "Description": "Dunning (= Dunning, JB [2008] CRC Handbook of Avian Body Masses);\nEltonTraits_Other (= mass published by Wilman et al. 2014 EltonTraits 1.0. Ecology, on basis of literature other than Dunning, usually Handbook of the Birds of the World [now Birds of the World, Cornell])\nEltonTraits_GenAvg (= average of the genus, published in Wilman et al. 2014 EltonTraits 1.0. Ecology); \nEltonTraits_Model (= inferred from mass and length data, with mass-length relationships parameterized at family level, published in Wilman et al. 2014 EltonTraits 1.0. Ecology);\nUpdated_literature (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from literature and online resources, including Birds of the World - specific sources are listed in the Mass.Ref.Source column);  \nUpdated_live.sample (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from museum labels and/or field data of from wild birds weighed using a Pezola balance before release. Specific sources are listed in the Mass.Ref.Source column);  \nInferred (= where EltonTraits GenAvg or Modelled data seemed misleading, and no published data were available for updating, we replaced it where possible with data inferred directly from a morphologically similar relative. Reference species and Traits inferred columns indicate where mass has been inferred and from which species);\nDataFromSplit (= daughter species body mass inferred from parent species after split; the parent or nominate form is typically morphologically similar and provides a reasonable estimate of body mass, particularly as mass data used to calculate the parent species body mass in earlier publications sometimes includes data from the recently split daughter species).\n",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 30,
+      "record": {
+        "Variable": "Inference",
+        "Description": "NO = all biometric trait data were obtained from direct measurement of specimens, or in the case of body mass from published sources\nYES = at least some of the biometric traits were unavailable from specimens so these trait data were inferred from a closely related species; in some cases all morphological measurements were taken directly except for body mass, which can't be measured on museum specimens.",
+        "Variable Types": "binary",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 33,
+      "record": {
+        "Variable": "Habitat",
+        "Description": "Desert (= drylands and other open arid habitats, often sandy with very sparse vegetation); \nRock (= rocky substrate typically with no or very little vegetation, including rocky outcrops, rocky coastlines, arid stony steppes, rocky mountaintops and mountain slopes); \nGrassland (=  open dry to moist grass-dominated landscapes, at all elevations); \nShrubland (= low stature bushy habitats, included thornscrub, thorny or arid savanna, caatinga, xerophytic shrubland and coastal scrub); \nWoodland (= medium stature tree-dominated habitats, including Acacia woodland, riparian woodlands, mangrove forests, forest edges, also more open parkland with scattered taller trees);\nForest (= tall tree-dominated vegetation with more or less closed canopy, including palm forest); \nHuman modified (urban landscapes, intensive agriculture, gardens); \nWetland (= wide range of freshwater aquatic habitats including lakes, marshes, swamps and reedbeds); \nRiverine (= associated with rivers and streams at all elevations); \nCoastal (= intertidal zones within immediate vicinity of beaches, estuaries, brackish to salty marshes, including mudflats, lagoons, alkaline wetlands, coastal dunes and harbours);\nMarine (= pelagic, on sea near coasts, including species in the intertidal zone on beaches, and those pelagic species nesting near the sea on cliffs, islets and islands).",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Data extracted from primary and secondary literature, particularly Handbook of the Birds of the World (including Birds of the World)"
+      }
+    },
+    {
+      "excelRow": 34,
+      "record": {
+        "Variable": "Habitat.Density",
+        "Description": "1 = Dense habitats. Species primarily lives in the lower or middle storey of forest, or in dense thickets, dense shrubland etc.\n2 = Semi-open habitats. Species primarily lives in open shrubland, scattered bushes, parkland, low dry or deciduous forest, thorn forest. \n3 = Open habitats. Species primarily lives in desert, grassland, open water, low shrubs, rocky habitats, seashores, cities. Also applies to species living mainly on top of forest canopy (i.e. mostly in the open)",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias et al. (2016) Frontiers Ecol. Evol."
+      }
+    },
+    {
+      "excelRow": 35,
+      "record": {
+        "Variable": "Migration",
+        "Description": "1 = Sedentary. \n2 = Partially migratory, i.e. minority of population migrates long distances, or most of population undergoes short-distance migration, nomadic movements, distinct altitudinal migration, etc.\n3 = Migratory, i.e. majority of population undertakes long-distance migration",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias & Pigot (2019) Phil. Trans. Roy. Soc."
+      }
+    },
+    {
+      "excelRow": 36,
+      "record": {
+        "Variable": "Trophic.Level",
+        "Description": "Herbivore = species obtaining at least 70% of food resources from plants; Carnivore = species obtaining at least 70% of food resources by consuming live invertebrate or vertebrate animals; Scavenger = species obtaining at least 70% of food resources from carrion or refuse; Omnivore = species obtaining resources from multiple trophic level in roughly equal proportion",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 37,
+      "record": {
+        "Variable": "Trophic.Niche",
+        "Description": "Frugivore = species obtaining at least 60% of food resources from fruit; \nGranivore = species obtaining at least 60% of food resources from seeds or nuts; \nNectarivore =  species obtaining at least 60% of food resources from nectar; \nHerbivore = species obtaining at least 60% of food resources from other plant materials in non-aquatic systems, including leaves, buds, whole flowers etc.; \nHerbivore aquatic = species obtaining at least 60% of food resources from plant materials in aquatic systems, including algae and aquatic plant leaves; \nInvertivore = species obtaining at least 60% of food resources from invertebrates in terrestrial systems, including insects, worms, arachnids, etc.; \nVertivore = species obtaining at least 60% of food resources from vertebrate animals in terrestrial systems, including mammals, birds, reptiles etc.; \nAquatic Predator = species obtaining at least 60% of food resources from vertebrate and invertebrate animals in aquatic systems, including fish, crustacea, molluscs, etc; \nScavenger = species obtaining at least 60% of food resources from carrion, offal or refuse; Omnivore = Species using multiple niches, within or across trophic levels, in relatively equal proportions ",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 38,
+      "record": {
+        "Variable": "Primary.Lifestyle",
+        "Description": "Aerial = species spends much of the time in flight, and hunts or forages predominantly on the wing; \nTerrestrial = species spends majority of its time on the ground, where it obtains food while either walking or hopping (note this includes species that also wade in water with their body raised above the water); \nInsessorial = species spends much of the time perching above the ground, either in branches of trees and other vegetation (i.e. arboreal), or on other raised substrates including rocks, buildings, posts, and wires; \nAquatic = species spends much of the time sitting on water, and obtains  food while afloat or when diving under the water's surface; Generalist = species has no primary lifestyle because it spends time in different lifestyle classes",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 17,
+      "record": {
+        "Variable": "Beak.Length_Culmen",
+        "Description": "Length from the tip of the beak to the base of the skull",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 20,
+      "record": {
+        "Variable": "Beak.Depth",
+        "Description": "Depth of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 21,
+      "record": {
+        "Variable": "Tarsus.Length",
+        "Description": "Length of the tarsus from the posterior notch between tibia and tarsus, to the end of the last scale of acrotarsium (at the bend of the foot)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 23,
+      "record": {
+        "Variable": "Kipps.Distance",
+        "Description": "Length from the tip of the first secondary feather to the tip of the longest primary      ",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 24,
+      "record": {
+        "Variable": "Secondary1",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the first secondary, i.e. the outermost secondary adjacent to the innermost primary feather. Secondary1 is roughly equivalent to Wing length minus Kipp’s distance (measured in a fully folded and flat wing)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 26,
+      "record": {
+        "Variable": "Tail.Length",
+        "Description": "Distance between the tip of the longest rectrix and the point at which the two central rectrices protrude from the skin, typically measured using a ruler inserted between the two central rectrices",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 31,
+      "record": {
+        "Variable": "Traits.inferred",
+        "Description": "List of traits inferred from the reference species",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 32,
+      "record": {
+        "Variable": "Reference.species",
+        "Description": "Species from which the biometric data were inferred",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    }
+  ],
+  "readingScope": "Six morphology/mass/ecology rows, full crosswalks, twelve related catalogue names and relevant definitions. Not the whole workbook, specimens, original mass book or a new full methods-paper reading.",
+  "retainedBoundaries": {
+    "sixExactCaprimulgusSynonyms": true,
+    "rufusZeroFemaleThreeMaleOneUnsexedThreeComplete": true,
+    "saturatusFourCompleteBadiusTwoCompleteSalviniFourComplete": true,
+    "equalWingMeansNotEqualFlightAbility": true,
+    "morphologyAndDunningMassSeparate": true,
+    "twoAerialTwoGeneralistTwoInsessorial": true,
+    "twoForestThreeWoodlandOneRock": true,
+    "oneDenseFourSemiOpenOneOpen": true,
+    "noActivityHoursOrMeasuredDietInvented": true,
+    "noGeographicFieldsInterpreted": true,
+    "historicalGuidesNotCompleteMonographs": true,
+    "activePrimateGaps": 14,
+    "fixedAcceptedPrimateDenominator": 530
+  },
+  "intakeBeforeIncrementalCounts": {
+    "indexExists": 710,
+    "bilingualCatalogueProfileMarkers": 707,
+    "missingOneOrBothCatalogueProfileMarkers": 6466,
+    "scope": "Original 7173 observation plus 342 authored species in P5-143–181; no new whole-corpus prose review."
+  },
+  "intakeAfterIncrementalCounts": {
+    "indexExists": 716,
+    "bilingualCatalogueProfileMarkers": 713,
+    "missingOneOrBothCatalogueProfileMarkers": 6460,
+    "scope": "Original 7173 observation plus 348 authored species in P5-143–182; no new whole-corpus prose review."
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "Read all 36 new sections in both languages, all eight profile limits, the one prior genus section and eight prior family sections after writing. Read eight indices, all section topic/source/text vectors, new reference bindings and limitation pointers, six bounded new projection entries, P5-182 plan, intake followups and receipt metadata; retained genus/family bindings were read before editing. Six source rows, full crosswalks, twelve related catalogue names and relevant definitions were read before authoring. Six exact Caprimulgus synonyms locate accepted species without proving concept identity. rufus zero female/three male/one unsexed/three complete is not all male; saturatus four complete, badius two complete and salvini four complete remain distinct from individual variation. Equal 169 mm wing means do not establish equal individuals or flight ability; Dunning mass is separate from morphology denominators. Two Aerial, two Generalist and two Insessorial rows retain their definitions without activity hours. Two Forest rows have different density codes; three Woodland rows are semi-open and one Rock row open. Niche and trophic thresholds are category definitions without measured diet. Breeding and current maps remain unsupported. Editorial reading is not generation, tests, whole-corpus validation or expert review.",
+    "canonicalFiles": [
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_sericocaudatus/index.yaml",
+        "sha256": "fff1ae7d503fd1b4d4034180ec97ca08e4a1187bdc75e76ff93d0c497291e414"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_sericocaudatus/evidence.md",
+        "sha256": "01830b783d3e46bec7349d6431edc013762dd0970d0d7754bce492e75ec5c58a"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_sericocaudatus/page.zh.md",
+        "sha256": "ef6ff5dd3cda2318e7614d862347603060116a94812dfa8e911ca8edca4fdff0"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_sericocaudatus/page.en.md",
+        "sha256": "8318b5da6ba3767943f1a30d37f464cec951724aca75fadf346017bfce9597be"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_ridgwayi/index.yaml",
+        "sha256": "2a5f9b9a55a0cd85c0c86470be966a18133c8bc15e6ede7c947e007137d9a03b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_ridgwayi/evidence.md",
+        "sha256": "40f9e21b1bfcdc74a0714bb153d6f3d2b6c7a4d6eb99385c7d6f3cb7cb8161e5"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_ridgwayi/page.zh.md",
+        "sha256": "f0cfbeeec4e90a798454598983b852c5d685b32f00036d816718145839589b19"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_ridgwayi/page.en.md",
+        "sha256": "70fb486bc342d2c9299fdb37b9bff6e24b0bf55fd2cfc011e68b8abd6ac8d375"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_saturatus/index.yaml",
+        "sha256": "f223bce1b928b89bbc16c72b954b9e27492c2663c120644616670f74352343f3"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_saturatus/evidence.md",
+        "sha256": "0928b16a4907439db8ca7364114a19872e7b42c0648a39cc4dabdf13de6fd058"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_saturatus/page.zh.md",
+        "sha256": "e9640f44ed26aaf8cbb6b4b7f0b351d74250be1a0dc68600baeb147f18712f33"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_saturatus/page.en.md",
+        "sha256": "95001daae392fbf62623b8be2ad16ad82652734c5f7cce55886bf77b2412b862"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_badius/index.yaml",
+        "sha256": "534c85248a44d5d35f56316e710af70e8fad3afa7294c6ba4a1373884ac04d56"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_badius/evidence.md",
+        "sha256": "5308ea0ad6e5164ef1362968eb5aac5e35db34ab5ffb4fa18286e8b7bcdd5f83"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_badius/page.zh.md",
+        "sha256": "1a5473bc88b5d2e20980af5a23f9ea37c179fa805c3871b928c411ec8a962c32"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_badius/page.en.md",
+        "sha256": "169ac74805ace0dd9dcd39e361e200032daa3f591a530e229e30dd427980ec96"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_rufus/index.yaml",
+        "sha256": "49ab24826a97316337d482d240054ed3366212d7abe277eb1b6ae5b364dd8c24"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_rufus/evidence.md",
+        "sha256": "e01d654e37531c4490bfcab95311a6cbbc5fb572b204078d90f9c70e2a021843"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_rufus/page.zh.md",
+        "sha256": "50fe7dd024f2a9112e3e2063ee7c8898f341bb360716b7de78a76f8ac1e1c832"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_rufus/page.en.md",
+        "sha256": "a6b2e840d35315b94bb66ffcc8959efa16859d964763dd1163139ab38b33ab7d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_salvini/index.yaml",
+        "sha256": "8539fdd3af6112b8f63b326dff9e5104ea2ade6a05e0a37ffdfdb4b164f7aa9c"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_salvini/evidence.md",
+        "sha256": "b70eac36a6a3638e2576bdd94d6cdf510bf63abf560fa00e03f8650a07de1f7e"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_salvini/page.zh.md",
+        "sha256": "de2a101a9b78ee4e5b31f420fcb40c741f2efeba155859e1d228d61a76c71b7b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/Antrostomus_salvini/page.en.md",
+        "sha256": "db8da8a33c1863bf8b9c2e41201f0a084147ba481a7e136cc11212438ecccc84"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/evidence.md",
+        "sha256": "33dbcf732ac0d46b52267d654d71b13c06be167ccf425496df42900e86d0a922"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/page.zh.md",
+        "sha256": "dfecfa9018614d0f5b3c9553325c0c02db3ed5963fe61f6a90299cf7fc8176a0"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/Antrostomus/page.en.md",
+        "sha256": "da354541f11771500797d75c4a9da24bfb1b9e8ea49b38f0aadaa379820218c4"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/evidence.md",
+        "sha256": "42cb281179a93699d5c0d73efba26578d5f3f366a4742f937c043ecd18a56014"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/page.zh.md",
+        "sha256": "80180d711c9df3bdaed5b5f1f5e8fd439cf9c30d1a0a902c8a1452168392ef52"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Caprimulgiformes/Caprimulgidae/page.en.md",
+        "sha256": "fecccbe803b8ebcef59b15edfdacaa52d7efb7efbb3106065af3d690beb518a3"
+      },
+      {
+        "path": "content/projection-map.yaml",
+        "sha256": "955e73eb7cc37fe135e22334c4b6ce103ca799668f12146a61b4e961dfc28d3c"
+      },
+      {
+        "path": "docs/content-production-plan.md",
+        "sha256": "bbbc3e57809fca76ccfe5858940b1dc2a75bd4b375555cfdcebef382abae60ca"
+      },
+      {
+        "path": "data/sources/col-unrepresented-reader-intake-2026-10-03.json",
+        "sha256": "e117557caca042115f63f817fafbc8d7b0015ff31968579059dd30f38e45c677"
+      },
+      {
+        "path": "data/sources/avonet-name-crosswalk-intake-2026-10-03.json",
+        "sha256": "826652b6b8240d7ec64e4966259eedfbf0cd83db458ac746423a00ce4d14dfe7"
+      }
+    ]
+  },
+  "delivery": "Canonical inputs authored; tests, generation, commit and publication deferred until all content completion."
+}

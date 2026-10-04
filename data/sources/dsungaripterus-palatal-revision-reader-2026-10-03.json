@@ -1,0 +1,135 @@
+{
+  "batch": "P5-95",
+  "date": "2026-10-03",
+  "pbdbSpecies": "txn:100403",
+  "pbdbGenus": "txn:38481",
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Dsungaripteridae/Dsungaripterus/Dsungaripterus_weii",
+      "newBilingualSections": 11
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Dsungaripteridae/Dsungaripterus",
+      "newBilingualSections": 2
+    }
+  ],
+  "sources": [
+    {
+      "referenceId": "ref-a87279f9-199d-4e2d-b45c-7f6024b7b27c",
+      "metadataVariant": 0,
+      "sourceKey": "chen2020DsungaripterusPalate",
+      "usage": {
+        "title": "New anatomical information on Dsungaripterus weii Young, 1964 with focus on the palatal region",
+        "url": "https://doi.org/10.7717/peerj.8741",
+        "accessedAt": "2026-10-03",
+        "locator": "Official Europe PMC XML: front authors, date and CC BY 4.0 link; all five scientific main sections Introduction, Materials and Methods, complete Results including Description and Table 1, Discussion and Conclusions; textual figure captions. Images, specimens and the cited 1964/1973 descriptions not independently inspected.",
+        "scope": {
+          "zh": "2020 年形态与取食假说、2024 年 CT 腭骨重建和解释修订；不替代原标本、扫描、完整成长或全部分布复核。",
+          "en": "2020 anatomy and feeding hypotheses, with 2024 CT palatal reconstruction and reinterpretation; no independent specimen, scan, complete development or distribution review."
+        }
+      }
+    },
+    {
+      "referenceId": "ref-fc799d8a-ffe6-48e8-9b58-ac9ceff2c059",
+      "metadataVariant": 0,
+      "sourceKey": "chen2024DsungaripterusPalatalReconstruction",
+      "usage": {
+        "title": "New insights into pterosaur cranial anatomy: X-ray imaging reveals palatal structure and evolutionary trends",
+        "url": "https://doi.org/10.1038/s42003-024-06132-6",
+        "accessedAt": "2026-10-03",
+        "locator": "Official Europe PMC XML already actually read in P5-93: all seven scientific main sections, Table 1 and textual figure captions, including complete methods, results and Dsungaripterus reconstruction. Raw scans, video, models and figure pixels not inspected.",
+        "scope": {
+          "zh": "2020 年形态与取食假说、2024 年 CT 腭骨重建和解释修订；不替代原标本、扫描、完整成长或全部分布复核。",
+          "en": "2020 anatomy and feeding hypotheses, with 2024 CT palatal reconstruction and reinterpretation; no independent specimen, scan, complete development or distribution review."
+        },
+        "readingTargets": [
+          {
+            "name": "Caupedactylus ybaka",
+            "pbdbTaxonId": "txn:278901",
+            "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Tapejaridae/Tapejarinae/Caupedactylus/Caupedactylus_ybaka"
+          }
+        ]
+      }
+    }
+  ],
+  "source2020": {
+    "doi": "10.7717/peerj.8741",
+    "title": "New anatomical information on Dsungaripterus weii Young, 1964 with focus on the palatal region",
+    "authors": [
+      "He Chen",
+      "Shunxing Jiang",
+      "Alexander W.A. Kellner",
+      "Xin Cheng",
+      "Xinjun Zhang",
+      "Rui Qiu",
+      "Yang Li",
+      "Xiaolin Wang"
+    ],
+    "publishedAt": "2020-04-01",
+    "license": "CC-BY-4.0",
+    "rawXmlSha256": "318d3ada025ceb3d811ded9b0c99243f49bb008d7a1bd6a525d2a9d7b73d023c",
+    "allScientificMainSectionsRead": true
+  },
+  "source2024": {
+    "doi": "10.1038/s42003-024-06132-6",
+    "rawXmlSha256": "1ca0b8b2085a7d71b15c07d285f7295b1eb30d2c937ded28ac8202b877a46d19",
+    "allSevenScientificMainSectionsRead": true
+  },
+  "boundaries": {
+    "descriptionCompositeNotOneCompleteSkeleton": true,
+    "newScannedSpecimens": [
+      "IVPP V 4063",
+      "IVPP V 26257",
+      "IVPP V 26258"
+    ],
+    "rawCtAndImagesNotInspected": true,
+    "palatalElementIdentitiesAndOpeningNamesRevisedIn2024": true,
+    "teethPerSideVariationNotSingleFixedCount": true,
+    "hornyCoveringHypothesisNotPreservedCompleteSheath": true,
+    "dietHypothesisNotGutContentOrMeasuredBiteForce": true,
+    "maturityNotExactAge": true,
+    "sexHypothesisNotConfirmedFemale": true,
+    "sameHorizonCoexistenceUnresolved": true,
+    "occurrenceRowsNotMatchedIndividuallyToScannedSpecimens": true,
+    "original1964And1973PapersNotIndependentlyRead": true,
+    "countsRangesClassificationUnchanged": true
+  },
+  "maturity": {
+    "fullMonograph": false,
+    "externalExpertReview": false,
+    "activePrimateSourceGaps": 14,
+    "readerVisibleDelivery": "Pending content-phase projection/publication handoff"
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All four reader files with old occurrence sections and limits read in full; complete catalogue section pointers, new source bindings, atlas pointers and new sources read",
+    "implementationTestsRun": false
+  },
+  "delivery": "Canonical content only; no tests, generation, commit or publication",
+  "canonicalFiles": [
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Dsungaripteridae/Dsungaripterus/evidence.md",
+      "sha256": "82c074ebb54d65882762be7d2d529a60389e2bbc42bd31dcd5b3da965eaefd19"
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Dsungaripteridae/Dsungaripterus/page.zh.md",
+      "sha256": "f9848bbea6993f6a871a70a911d0774cfe2e858e5687b3b1efa53ebba396bba4"
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Dsungaripteridae/Dsungaripterus/page.en.md",
+      "sha256": "f141d3faf4a829f2b68f55205c41503b042360ba8c8300fda704d3b133a6c85b"
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Dsungaripteridae/Dsungaripterus/Dsungaripterus_weii/evidence.md",
+      "sha256": "5c7f176c33aa45975a5f1d262207b8a0fed328cd2b2edc9f7ae07a4c7f9b9627"
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Dsungaripteridae/Dsungaripterus/Dsungaripterus_weii/page.zh.md",
+      "sha256": "9451254ab83e07dcb12d4b667505fa2bc02245a5a1c1f816376545c503bb1f7a"
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Dsungaripteridae/Dsungaripterus/Dsungaripterus_weii/page.en.md",
+      "sha256": "0456d17648bd720ede2f82b4764dc768981427b9707da286596f2846dfaff87d"
+    }
+  ]
+}

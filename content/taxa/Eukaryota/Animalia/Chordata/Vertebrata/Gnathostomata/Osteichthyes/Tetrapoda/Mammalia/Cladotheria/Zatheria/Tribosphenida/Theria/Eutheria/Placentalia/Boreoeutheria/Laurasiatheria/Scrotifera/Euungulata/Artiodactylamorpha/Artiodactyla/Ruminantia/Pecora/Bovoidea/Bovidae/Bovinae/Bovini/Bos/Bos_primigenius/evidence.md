@@ -1,0 +1,362 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Bos primigenius
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Bos primigenius
+      en: Bos primigenius
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Bos primigenius
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=367674&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:367674; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:367674
+            selectedOccurrenceIds:
+              - occ:213612
+              - occ:213746
+              - occ:219134
+              - occ:219350
+              - occ:219371
+              - occ:219374
+              - occ:219380
+              - occ:219387
+              - occ:219390
+              - occ:219393
+              - occ:219395
+              - occ:219399
+              - occ:219404
+              - occ:219408
+              - occ:219433
+              - occ:219438
+              - occ:219443
+              - occ:219448
+              - occ:219455
+              - occ:219460
+              - occ:219465
+              - occ:219471
+              - occ:219477
+              - occ:219479
+              - occ:219483
+              - occ:219490
+              - occ:219515
+              - occ:220638
+              - occ:225652
+              - occ:358630
+              - occ:380817
+              - occ:417549
+              - occ:440160
+              - occ:443353
+              - occ:443422
+              - occ:443593
+              - occ:443727
+              - occ:443744
+              - occ:447651
+              - occ:447690
+              - occ:457439
+              - occ:457480
+              - occ:457507
+              - occ:565625
+              - occ:627304
+              - occ:684269
+              - occ:684270
+              - occ:684271
+              - occ:684272
+              - occ:847927
+              - occ:938103
+              - occ:945331
+              - occ:1009987
+              - occ:1308494
+              - occ:1348468
+              - occ:1350577
+              - occ:1356812
+              - occ:1356838
+              - occ:1435844
+              - occ:1460592
+              - occ:1464182
+              - occ:1465320
+              - occ:1489007
+              - occ:1498726
+              - occ:1498746
+              - occ:1500123
+              - occ:1568130
+              - occ:1568147
+              - occ:1568156
+              - occ:1568170
+              - occ:1568201
+              - occ:1568214
+              - occ:1568218
+              - occ:1568221
+              - occ:1568232
+              - occ:1568248
+              - occ:1568261
+              - occ:1568275
+              - occ:1568293
+              - occ:1568305
+              - occ:1594580
+              - occ:1596153
+              - occ:1611850
+              - occ:1627408
+              - occ:1630598
+              - occ:1642064
+              - occ:1697881
+              - occ:2045467
+            selectedCollectionIds:
+              - col:21856
+              - col:21886
+              - col:22489
+              - col:22508
+              - col:22511
+              - col:22512
+              - col:22513
+              - col:22515
+              - col:22516
+              - col:22517
+              - col:22518
+              - col:22521
+              - col:22523
+              - col:22524
+              - col:22532
+              - col:22533
+              - col:22534
+              - col:22535
+              - col:22536
+              - col:22537
+              - col:22538
+              - col:22539
+              - col:22540
+              - col:22541
+              - col:22542
+              - col:22543
+              - col:22545
+              - col:21907
+              - col:21902
+              - col:34105
+              - col:36134
+              - col:40497
+              - col:43016
+              - col:43657
+              - col:43664
+              - col:43689
+              - col:43701
+              - col:43702
+              - col:44090
+              - col:44091
+              - col:43020
+              - col:45065
+              - col:45070
+              - col:59150
+              - col:67660
+              - col:73757
+              - col:73758
+              - col:73760
+              - col:73761
+              - col:94328
+              - col:102954
+              - col:55533
+              - col:109703
+              - col:175523
+              - col:182709
+              - col:183123
+              - col:184243
+              - col:184245
+              - col:200295
+              - col:203847
+              - col:204397
+              - col:204557
+              - col:207192
+              - col:208564
+              - col:208565
+              - col:208787
+              - col:205285
+              - col:221412
+              - col:221413
+              - col:221414
+              - col:221415
+              - col:221416
+              - col:221417
+              - col:221419
+              - col:221420
+              - col:221421
+              - col:221422
+              - col:221424
+              - col:221425
+              - col:221426
+              - col:197768
+              - col:225667
+              - col:227871
+              - col:230380
+              - col:196971
+              - col:232847
+              - col:240633
+              - col:276279
+            sourceReferenceIds:
+              - ref:5211
+              - ref:5209
+              - ref:5619
+              - ref:5225
+              - ref:5221
+              - ref:5230
+              - ref:8978
+              - ref:9695
+              - ref:10916
+              - ref:11400
+              - ref:11465
+              - ref:11572
+              - ref:11575
+              - ref:11725
+              - ref:16894
+              - ref:19319
+              - ref:24726
+              - ref:32076
+              - ref:35949
+              - ref:36257
+              - ref:39450
+              - ref:57380
+              - ref:60903
+              - ref:61122
+              - ref:61579
+              - ref:61580
+              - ref:62937
+              - ref:69851
+              - ref:70063
+              - ref:70152
+              - ref:71320
+              - ref:72004
+              - ref:72065
+              - ref:77543
+              - ref:81666
+              - ref:81739
+              - ref:66117
+              - ref:85041
+              - ref:67090
+              - ref:87032
+              - ref:92005
+              - ref:93654
+            originalIdentificationMappings: []
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Bos primigenius

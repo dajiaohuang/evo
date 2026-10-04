@@ -1,0 +1,2430 @@
+{
+  "batch": "P5-162",
+  "date": "2026-10-03",
+  "newSpecies": 8,
+  "newBilingualSections": 46,
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_pusilla",
+      "colId": "CPPDY",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_tabuensis",
+      "colId": "CPPF9",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_paykullii",
+      "colId": "CPPDX",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_atra",
+      "colId": "CPPDF",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_parva",
+      "colId": "CPPDW",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_akool",
+      "colId": "CPPD9",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_flavirostra",
+      "colId": "CPPDH",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_fusca",
+      "colId": "CPPDJ",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia",
+      "colId": "CPPD8",
+      "newBilingualSections": 4,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae",
+      "newBilingualSections": 2
+    }
+  ],
+  "sharedReferenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+  "sourceFiles": [
+    {
+      "file": ".git/avonet-supplementary-dataset-1-v7.xlsx",
+      "sha256": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e"
+    },
+    {
+      "file": ".git/zapornia-selected-source-162.json",
+      "sha256": "6011129726093cb98dae339fb2ff42608451603fd83f944055941be662527739"
+    },
+    {
+      "file": ".git/zapornia-col-names-162.json",
+      "sha256": "b7cee7fe5c95fa8293cb2aafd2d5514f2cecde268343ea889883bd1c30deed61"
+    }
+  ],
+  "colNameShardFiles": [
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-za.jsonl.gz",
+      "sha256": "7ce6573bdcfc76b51fcddc584862aba5283eecabf7af55ade2ff77a10a2481bf"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-po.jsonl.gz",
+      "sha256": "9002c0b70fa7bc66417ded503f9abd5f6634b5cfbdbb4eba0f0d994b1eec3e94"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-am.jsonl.gz",
+      "sha256": "481972c095a31f28b0886adf32c087af67f4242e228df1f040db44dc41171364"
+    }
+  ],
+  "sourceRows": [
+    {
+      "target": {
+        "colId": "CPPDY",
+        "scientificName": "Zapornia pusilla",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_pusilla",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "6223K",
+            "parentId": "V2",
+            "scientificName": "Gruiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 6
+          },
+          {
+            "id": "FJ9",
+            "parentId": "6223K",
+            "scientificName": "Rallidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 43
+          },
+          {
+            "id": "CPPD8",
+            "parentId": "FJ9",
+            "scientificName": "Zapornia Leach, 1816",
+            "authorship": "Leach, 1816",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 15
+          },
+          {
+            "parentId": "CPPD8",
+            "id": "CPPDY",
+            "scientificName": "Zapornia pusilla (Pallas, 1776)",
+            "authorship": "(Pallas, 1776)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2739,
+        "record": {
+          "Sequence": 1842,
+          "Species1": "Zapornia pusilla",
+          "Family1": "Rallidae",
+          "Order1": "Gruiformes",
+          "Avibase.ID1": "AVIBASE-34D5B04D",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 17.4,
+          "Beak.Length_Nares": 9.2,
+          "Beak.Width": 2.4,
+          "Beak.Depth": 4.8,
+          "Tarsus.Length": 25,
+          "Wing.Length": 84.4,
+          "Kipps.Distance": 29.8,
+          "Secondary1": 54.5,
+          "Hand-Wing.Index": 35.3,
+          "Tail.Length": 32.2,
+          "Mass": 35.4,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Wetland",
+          "Habitat.Density": 1,
+          "Migration": 3,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": -47.29,
+          "Max.Latitude": 63.86,
+          "Centroid.Latitude": 23.48,
+          "Centroid.Longitude": 74.5,
+          "Range.Size": 19543407.73
+        }
+      },
+      "eBird": {
+        "excelRow": 11178,
+        "record": {
+          "Species1": "Zapornia pusilla",
+          "Species2": "Zapornia pusilla",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-34D5B04D",
+          "Avibase.ID2": "AVIBASE-34D5B04D",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 11118,
+        "record": {
+          "Species1": "Zapornia pusilla",
+          "Species3": "Porzana pusilla",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "CPPF9",
+        "scientificName": "Zapornia tabuensis",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_tabuensis",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "6223K",
+            "parentId": "V2",
+            "scientificName": "Gruiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 6
+          },
+          {
+            "id": "FJ9",
+            "parentId": "6223K",
+            "scientificName": "Rallidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 43
+          },
+          {
+            "id": "CPPD8",
+            "parentId": "FJ9",
+            "scientificName": "Zapornia Leach, 1816",
+            "authorship": "Leach, 1816",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 15
+          },
+          {
+            "parentId": "CPPD8",
+            "id": "CPPF9",
+            "scientificName": "Zapornia tabuensis (J. F. Gmelin, 1789)",
+            "authorship": "(J. F. Gmelin, 1789)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2740,
+        "record": {
+          "Sequence": 1850,
+          "Species1": "Zapornia tabuensis",
+          "Family1": "Rallidae",
+          "Order1": "Gruiformes",
+          "Avibase.ID1": "AVIBASE-C15FF1EB",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 19.3,
+          "Beak.Length_Nares": 9.5,
+          "Beak.Width": 2.3,
+          "Beak.Depth": 4.7,
+          "Tarsus.Length": 24.4,
+          "Wing.Length": 80.4,
+          "Kipps.Distance": 24.2,
+          "Secondary1": 57.5,
+          "Hand-Wing.Index": 29.5,
+          "Tail.Length": 35.6,
+          "Mass": 42.23,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Wetland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Omnivore",
+          "Trophic.Niche": "Omnivore",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": -46.68,
+          "Max.Latitude": 18.65,
+          "Centroid.Latitude": -25.45,
+          "Centroid.Longitude": 142.45,
+          "Range.Size": 2288129.09
+        }
+      },
+      "eBird": {
+        "excelRow": 11179,
+        "record": {
+          "Species1": "Zapornia tabuensis",
+          "Species2": "Zapornia tabuensis",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-C15FF1EB",
+          "Avibase.ID2": "AVIBASE-C15FF1EB",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 11120,
+        "record": {
+          "Species1": "Zapornia tabuensis",
+          "Species3": "Porzana tabuensis",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "CPPDX",
+        "scientificName": "Zapornia paykullii",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_paykullii",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "6223K",
+            "parentId": "V2",
+            "scientificName": "Gruiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 6
+          },
+          {
+            "id": "FJ9",
+            "parentId": "6223K",
+            "scientificName": "Rallidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 43
+          },
+          {
+            "id": "CPPD8",
+            "parentId": "FJ9",
+            "scientificName": "Zapornia Leach, 1816",
+            "authorship": "Leach, 1816",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 15
+          },
+          {
+            "parentId": "CPPD8",
+            "id": "CPPDX",
+            "scientificName": "Zapornia paykullii (Ljungh, 1813)",
+            "authorship": "(Ljungh, 1813)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2738,
+        "record": {
+          "Sequence": 1838,
+          "Species1": "Zapornia paykullii",
+          "Family1": "Rallidae",
+          "Order1": "Gruiformes",
+          "Avibase.ID1": "AVIBASE-3FEE66C7",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 28.5,
+          "Beak.Length_Nares": 14.1,
+          "Beak.Width": 3.7,
+          "Beak.Depth": 7.3,
+          "Tarsus.Length": 35.8,
+          "Wing.Length": 126.4,
+          "Kipps.Distance": 37.5,
+          "Secondary1": 89.7,
+          "Hand-Wing.Index": 29.4,
+          "Tail.Length": 53.4,
+          "Mass": 111,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Wetland",
+          "Habitat.Density": 2,
+          "Migration": 3,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": 32.27,
+          "Max.Latitude": 53.85,
+          "Centroid.Latitude": 44.21,
+          "Centroid.Longitude": 125.72,
+          "Range.Size": 1588796.19
+        }
+      },
+      "eBird": {
+        "excelRow": 11177,
+        "record": {
+          "Species1": "Zapornia paykullii",
+          "Species2": "Zapornia paykullii",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-3FEE66C7",
+          "Avibase.ID2": "AVIBASE-3FEE66C7",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 11117,
+        "record": {
+          "Species1": "Zapornia paykullii",
+          "Species3": "Porzana paykullii",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "CPPDF",
+        "scientificName": "Zapornia atra",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_atra",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "6223K",
+            "parentId": "V2",
+            "scientificName": "Gruiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 6
+          },
+          {
+            "id": "FJ9",
+            "parentId": "6223K",
+            "scientificName": "Rallidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 43
+          },
+          {
+            "id": "CPPD8",
+            "parentId": "FJ9",
+            "scientificName": "Zapornia Leach, 1816",
+            "authorship": "Leach, 1816",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 15
+          },
+          {
+            "parentId": "CPPD8",
+            "id": "CPPDF",
+            "scientificName": "Zapornia atra (North, 1908)",
+            "authorship": "(North, 1908)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2732,
+        "record": {
+          "Sequence": 1849,
+          "Species1": "Zapornia atra",
+          "Family1": "Rallidae",
+          "Order1": "Gruiformes",
+          "Avibase.ID1": "AVIBASE-09B78B87",
+          "Total.individuals": 3,
+          "Female": 2,
+          "Male": 1,
+          "Unknown": 0,
+          "Complete.measures": 3,
+          "Beak.Length_Culmen": 22,
+          "Beak.Length_Nares": 11.4,
+          "Beak.Width": 2.8,
+          "Beak.Depth": 5.4,
+          "Tarsus.Length": 30.4,
+          "Wing.Length": 80,
+          "Kipps.Distance": 19.7,
+          "Secondary1": 60.3,
+          "Hand-Wing.Index": 24.5,
+          "Tail.Length": 39,
+          "Mass": 77.4,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": -24.41,
+          "Max.Latitude": -24.32,
+          "Centroid.Latitude": -24.36,
+          "Centroid.Longitude": -128.32,
+          "Range.Size": 41.11
+        }
+      },
+      "eBird": {
+        "excelRow": 11171,
+        "record": {
+          "Species1": "Zapornia atra",
+          "Species2": "Zapornia atra",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-09B78B87",
+          "Avibase.ID2": "AVIBASE-09B78B87",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 11108,
+        "record": {
+          "Species1": "Zapornia atra",
+          "Species3": "Porzana atra",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "CPPDW",
+        "scientificName": "Zapornia parva",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_parva",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "6223K",
+            "parentId": "V2",
+            "scientificName": "Gruiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 6
+          },
+          {
+            "id": "FJ9",
+            "parentId": "6223K",
+            "scientificName": "Rallidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 43
+          },
+          {
+            "id": "CPPD8",
+            "parentId": "FJ9",
+            "scientificName": "Zapornia Leach, 1816",
+            "authorship": "Leach, 1816",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 15
+          },
+          {
+            "parentId": "CPPD8",
+            "id": "CPPDW",
+            "scientificName": "Zapornia parva (Scopoli, 1769)",
+            "authorship": "(Scopoli, 1769)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2737,
+        "record": {
+          "Sequence": 1841,
+          "Species1": "Zapornia parva",
+          "Family1": "Rallidae",
+          "Order1": "Gruiformes",
+          "Avibase.ID1": "AVIBASE-9106EBE6",
+          "Total.individuals": 8,
+          "Female": 4,
+          "Male": 4,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 19.4,
+          "Beak.Length_Nares": 11.1,
+          "Beak.Width": 2.4,
+          "Beak.Depth": 4.7,
+          "Tarsus.Length": 28.6,
+          "Wing.Length": 100.9,
+          "Kipps.Distance": 43.8,
+          "Secondary1": 55.8,
+          "Hand-Wing.Index": 44,
+          "Tail.Length": 52.9,
+          "Mass": 49.7,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Wetland",
+          "Habitat.Density": 1,
+          "Migration": 3,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": 35.65,
+          "Max.Latitude": 63.76,
+          "Centroid.Latitude": 50.9,
+          "Centroid.Longitude": 51.02,
+          "Range.Size": 6785055.74
+        }
+      },
+      "eBird": {
+        "excelRow": 11176,
+        "record": {
+          "Species1": "Zapornia parva",
+          "Species2": "Zapornia parva",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-9106EBE6",
+          "Avibase.ID2": "AVIBASE-9106EBE6",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 11116,
+        "record": {
+          "Species1": "Zapornia parva",
+          "Species3": "Porzana parva",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "CPPD9",
+        "scientificName": "Zapornia akool",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_akool",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "6223K",
+            "parentId": "V2",
+            "scientificName": "Gruiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 6
+          },
+          {
+            "id": "FJ9",
+            "parentId": "6223K",
+            "scientificName": "Rallidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 43
+          },
+          {
+            "id": "CPPD8",
+            "parentId": "FJ9",
+            "scientificName": "Zapornia Leach, 1816",
+            "authorship": "Leach, 1816",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 15
+          },
+          {
+            "parentId": "CPPD8",
+            "id": "CPPD9",
+            "scientificName": "Zapornia akool (Sykes, 1832)",
+            "authorship": "(Sykes, 1832)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2731,
+        "record": {
+          "Sequence": 1839,
+          "Species1": "Zapornia akool",
+          "Family1": "Rallidae",
+          "Order1": "Gruiformes",
+          "Avibase.ID1": "AVIBASE-457C01A2",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 31.8,
+          "Beak.Length_Nares": 17,
+          "Beak.Width": 4,
+          "Beak.Depth": 8,
+          "Tarsus.Length": 47.6,
+          "Wing.Length": 119.2,
+          "Kipps.Distance": 17.4,
+          "Secondary1": 100.6,
+          "Hand-Wing.Index": 14.8,
+          "Tail.Length": 54,
+          "Mass": 131.43,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Wetland",
+          "Habitat.Density": 1,
+          "Migration": 2,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Omnivore",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": 11.87,
+          "Max.Latitude": 33.28,
+          "Centroid.Latitude": 23.74,
+          "Centroid.Longitude": 91.2,
+          "Range.Size": 3895470.77
+        }
+      },
+      "eBird": {
+        "excelRow": 11170,
+        "record": {
+          "Species1": "Zapornia akool",
+          "Species2": "Zapornia akool",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-457C01A2",
+          "Avibase.ID2": "AVIBASE-457C01A2",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 11106,
+        "record": {
+          "Species1": "Zapornia akool",
+          "Species3": "Amaurornis akool",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "CPPDH",
+        "scientificName": "Zapornia flavirostra",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_flavirostra",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "6223K",
+            "parentId": "V2",
+            "scientificName": "Gruiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 6
+          },
+          {
+            "id": "FJ9",
+            "parentId": "6223K",
+            "scientificName": "Rallidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 43
+          },
+          {
+            "id": "CPPD8",
+            "parentId": "FJ9",
+            "scientificName": "Zapornia Leach, 1816",
+            "authorship": "Leach, 1816",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 15
+          },
+          {
+            "parentId": "CPPD8",
+            "id": "CPPDH",
+            "scientificName": "Zapornia flavirostra (Swainson, 1837)",
+            "authorship": "(Swainson, 1837)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2734,
+        "record": {
+          "Sequence": 1840,
+          "Species1": "Zapornia flavirostra",
+          "Family1": "Rallidae",
+          "Order1": "Gruiformes",
+          "Avibase.ID1": "AVIBASE-148F0B01",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 24.1,
+          "Beak.Length_Nares": 12.5,
+          "Beak.Width": 3.6,
+          "Beak.Depth": 6.7,
+          "Tarsus.Length": 40.4,
+          "Wing.Length": 98.8,
+          "Kipps.Distance": 17.8,
+          "Secondary1": 82,
+          "Hand-Wing.Index": 17.7,
+          "Tail.Length": 41,
+          "Mass": 86.2,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Wetland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": -34.84,
+          "Max.Latitude": 19.72,
+          "Centroid.Latitude": -2.62,
+          "Centroid.Longitude": 20.16,
+          "Range.Size": 16710583.49
+        }
+      },
+      "eBird": {
+        "excelRow": 11173,
+        "record": {
+          "Species1": "Zapornia flavirostra",
+          "Species2": "Zapornia flavirostra",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-148F0B01",
+          "Avibase.ID2": "AVIBASE-148F0B01",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 11110,
+        "record": {
+          "Species1": "Zapornia flavirostra",
+          "Species3": "Amaurornis flavirostra",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "CPPDJ",
+        "scientificName": "Zapornia fusca",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_fusca",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "6223K",
+            "parentId": "V2",
+            "scientificName": "Gruiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 6
+          },
+          {
+            "id": "FJ9",
+            "parentId": "6223K",
+            "scientificName": "Rallidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 43
+          },
+          {
+            "id": "CPPD8",
+            "parentId": "FJ9",
+            "scientificName": "Zapornia Leach, 1816",
+            "authorship": "Leach, 1816",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 15
+          },
+          {
+            "parentId": "CPPD8",
+            "id": "CPPDJ",
+            "scientificName": "Zapornia fusca (Linnaeus, 1766)",
+            "authorship": "(Linnaeus, 1766)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2735,
+        "record": {
+          "Sequence": 1837,
+          "Species1": "Zapornia fusca",
+          "Family1": "Rallidae",
+          "Order1": "Gruiformes",
+          "Avibase.ID1": "AVIBASE-14C2B730",
+          "Total.individuals": 4,
+          "Female": 2,
+          "Male": 2,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 26,
+          "Beak.Length_Nares": 12.1,
+          "Beak.Width": 3,
+          "Beak.Depth": 5.1,
+          "Tarsus.Length": 31,
+          "Wing.Length": 94.5,
+          "Kipps.Distance": 21,
+          "Secondary1": 73.5,
+          "Hand-Wing.Index": 22.2,
+          "Tail.Length": 42.5,
+          "Mass": 57.27,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Wetland",
+          "Habitat.Density": 2,
+          "Migration": 2,
+          "Trophic.Level": "Omnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": -10.32,
+          "Max.Latitude": 47.9,
+          "Centroid.Latitude": 24.18,
+          "Centroid.Longitude": 110.66,
+          "Range.Size": 6674711.81
+        }
+      },
+      "eBird": {
+        "excelRow": 11174,
+        "record": {
+          "Species1": "Zapornia fusca",
+          "Species2": "Zapornia fusca",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-14C2B730",
+          "Avibase.ID2": "AVIBASE-14C2B730",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 11111,
+        "record": {
+          "Species1": "Zapornia fusca",
+          "Species3": "Porzana fusca",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    }
+  ],
+  "colNameRecords": [
+    {
+      "normalizedName": "zapornia akool sykes 1832",
+      "id": "CPPD9",
+      "scientificName": "Zapornia akool (Sykes, 1832)",
+      "authorship": "(Sykes, 1832)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "CPPD8",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Gruiformes",
+        null,
+        "Rallidae",
+        null,
+        null,
+        null,
+        "Zapornia"
+      ]
+    },
+    {
+      "normalizedName": "zapornia atra north 1908",
+      "id": "CPPDF",
+      "scientificName": "Zapornia atra (North, 1908)",
+      "authorship": "(North, 1908)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "CPPD8",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Gruiformes",
+        null,
+        "Rallidae",
+        null,
+        null,
+        null,
+        "Zapornia"
+      ]
+    },
+    {
+      "normalizedName": "zapornia flavirostra swainson 1837",
+      "id": "CPPDH",
+      "scientificName": "Zapornia flavirostra (Swainson, 1837)",
+      "authorship": "(Swainson, 1837)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "CPPD8",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Gruiformes",
+        null,
+        "Rallidae",
+        null,
+        null,
+        null,
+        "Zapornia"
+      ]
+    },
+    {
+      "normalizedName": "zapornia fusca linnaeus 1766",
+      "id": "CPPDJ",
+      "scientificName": "Zapornia fusca (Linnaeus, 1766)",
+      "authorship": "(Linnaeus, 1766)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "CPPD8",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Gruiformes",
+        null,
+        "Rallidae",
+        null,
+        null,
+        null,
+        "Zapornia"
+      ]
+    },
+    {
+      "normalizedName": "zapornia parva scopoli 1769",
+      "id": "CPPDW",
+      "scientificName": "Zapornia parva (Scopoli, 1769)",
+      "authorship": "(Scopoli, 1769)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "CPPD8",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Gruiformes",
+        null,
+        "Rallidae",
+        null,
+        null,
+        null,
+        "Zapornia"
+      ]
+    },
+    {
+      "normalizedName": "zapornia paykullii ljungh 1813",
+      "id": "CPPDX",
+      "scientificName": "Zapornia paykullii (Ljungh, 1813)",
+      "authorship": "(Ljungh, 1813)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "CPPD8",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Gruiformes",
+        null,
+        "Rallidae",
+        null,
+        null,
+        null,
+        "Zapornia"
+      ]
+    },
+    {
+      "normalizedName": "zapornia pusilla pallas 1776",
+      "id": "CPPDY",
+      "scientificName": "Zapornia pusilla (Pallas, 1776)",
+      "authorship": "(Pallas, 1776)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "CPPD8",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Gruiformes",
+        null,
+        "Rallidae",
+        null,
+        null,
+        null,
+        "Zapornia"
+      ]
+    },
+    {
+      "normalizedName": "zapornia tabuensis j f gmelin 1789",
+      "id": "CPPF9",
+      "scientificName": "Zapornia tabuensis (J. F. Gmelin, 1789)",
+      "authorship": "(J. F. Gmelin, 1789)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "CPPD8",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Gruiformes",
+        null,
+        "Rallidae",
+        null,
+        null,
+        null,
+        "Zapornia"
+      ]
+    },
+    {
+      "normalizedName": "porzana atra north 1908",
+      "id": "4M2QT",
+      "scientificName": "Porzana atra North, 1908",
+      "authorship": "North, 1908",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "CPPDF",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "porzana fusca linnaeus 1766",
+      "id": "4M2R2",
+      "scientificName": "Porzana fusca (Linnaeus, 1766)",
+      "authorship": "(Linnaeus, 1766)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "CPPDJ",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "porzana parva scopoli 1769",
+      "id": "4M2R6",
+      "scientificName": "Porzana parva (Scopoli, 1769)",
+      "authorship": "(Scopoli, 1769)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "CPPDW",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "porzana paykullii ljungh 1813",
+      "id": "4M2R7",
+      "scientificName": "Porzana paykullii (Ljungh, 1813)",
+      "authorship": "(Ljungh, 1813)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "CPPDX",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "porzana pusilla pallas 1776",
+      "id": "4M2R9",
+      "scientificName": "Porzana pusilla (Pallas, 1776)",
+      "authorship": "(Pallas, 1776)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "CPPDY",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "porzana tabuensis j f gmelin 1789",
+      "id": "4M2RC",
+      "scientificName": "Porzana tabuensis (J. F. Gmelin, 1789)",
+      "authorship": "(J. F. Gmelin, 1789)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "CPPF9",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "amaurornis akool sykes 1832",
+      "id": "CK9R",
+      "scientificName": "Amaurornis akool (Sykes, 1832)",
+      "authorship": "(Sykes, 1832)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "CPPD9",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "amaurornis flavirostra swainson 1837",
+      "id": "CK9T",
+      "scientificName": "Amaurornis flavirostra (Swainson, 1837)",
+      "authorship": "(Swainson, 1837)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "CPPDH",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    }
+  ],
+  "fieldDefinitions": [
+    {
+      "excelRow": 12,
+      "record": {
+        "Variable": "Total.individuals",
+        "Description": "Number of individual specimens and live birds measured for each species",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 13,
+      "record": {
+        "Variable": "Female",
+        "Description": "Number of measured individuals identified as female",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 14,
+      "record": {
+        "Variable": "Male",
+        "Description": "Number of measured individuals identified as male",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 15,
+      "record": {
+        "Variable": "Unknown",
+        "Description": "Number of unsexed individuals measured",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 16,
+      "record": {
+        "Variable": "Complete.measures",
+        "Description": "Number of measured individuals with complete set of morphometric trait measurements ",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 18,
+      "record": {
+        "Variable": "Beak.Length_Nares",
+        "Description": "Length from the anterior edge of the nostrils to the tip of the beak",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 19,
+      "record": {
+        "Variable": "Beak.Width",
+        "Description": "Width of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 22,
+      "record": {
+        "Variable": "Wing.Length",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the longest primary on the unflattened wing",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 25,
+      "record": {
+        "Variable": "Hand-Wing.Index",
+        "Description": "100*DK/Lw, where DK is Kipp’s distance and Lw is wing length (i.e., Kipp’s distance corrected for wing size). Species average HWI differ from estimates in Sheard et al. (2020) because of much higher sampling of individuals in some species, as well as taxonomic effects in the BirdLife list",
+        "Variable Types": "continuous",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 27,
+      "record": {
+        "Variable": "Mass",
+        "Description": "Body mass given as species average (incorporating both male and female body mass)",
+        "Variable Types": "continuous",
+        "Units": "gram",
+        "Source": "See Mass Source column"
+      }
+    },
+    {
+      "excelRow": 28,
+      "record": {
+        "Variable": "Mass.Source",
+        "Description": "Dunning (= Dunning, JB [2008] CRC Handbook of Avian Body Masses);\nEltonTraits_Other (= mass published by Wilman et al. 2014 EltonTraits 1.0. Ecology, on basis of literature other than Dunning, usually Handbook of the Birds of the World [now Birds of the World, Cornell])\nEltonTraits_GenAvg (= average of the genus, published in Wilman et al. 2014 EltonTraits 1.0. Ecology); \nEltonTraits_Model (= inferred from mass and length data, with mass-length relationships parameterized at family level, published in Wilman et al. 2014 EltonTraits 1.0. Ecology);\nUpdated_literature (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from literature and online resources, including Birds of the World - specific sources are listed in the Mass.Ref.Source column);  \nUpdated_live.sample (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from museum labels and/or field data of from wild birds weighed using a Pezola balance before release. Specific sources are listed in the Mass.Ref.Source column);  \nInferred (= where EltonTraits GenAvg or Modelled data seemed misleading, and no published data were available for updating, we replaced it where possible with data inferred directly from a morphologically similar relative. Reference species and Traits inferred columns indicate where mass has been inferred and from which species);\nDataFromSplit (= daughter species body mass inferred from parent species after split; the parent or nominate form is typically morphologically similar and provides a reasonable estimate of body mass, particularly as mass data used to calculate the parent species body mass in earlier publications sometimes includes data from the recently split daughter species).\n",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 30,
+      "record": {
+        "Variable": "Inference",
+        "Description": "NO = all biometric trait data were obtained from direct measurement of specimens, or in the case of body mass from published sources\nYES = at least some of the biometric traits were unavailable from specimens so these trait data were inferred from a closely related species; in some cases all morphological measurements were taken directly except for body mass, which can't be measured on museum specimens.",
+        "Variable Types": "binary",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 33,
+      "record": {
+        "Variable": "Habitat",
+        "Description": "Desert (= drylands and other open arid habitats, often sandy with very sparse vegetation); \nRock (= rocky substrate typically with no or very little vegetation, including rocky outcrops, rocky coastlines, arid stony steppes, rocky mountaintops and mountain slopes); \nGrassland (=  open dry to moist grass-dominated landscapes, at all elevations); \nShrubland (= low stature bushy habitats, included thornscrub, thorny or arid savanna, caatinga, xerophytic shrubland and coastal scrub); \nWoodland (= medium stature tree-dominated habitats, including Acacia woodland, riparian woodlands, mangrove forests, forest edges, also more open parkland with scattered taller trees);\nForest (= tall tree-dominated vegetation with more or less closed canopy, including palm forest); \nHuman modified (urban landscapes, intensive agriculture, gardens); \nWetland (= wide range of freshwater aquatic habitats including lakes, marshes, swamps and reedbeds); \nRiverine (= associated with rivers and streams at all elevations); \nCoastal (= intertidal zones within immediate vicinity of beaches, estuaries, brackish to salty marshes, including mudflats, lagoons, alkaline wetlands, coastal dunes and harbours);\nMarine (= pelagic, on sea near coasts, including species in the intertidal zone on beaches, and those pelagic species nesting near the sea on cliffs, islets and islands).",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Data extracted from primary and secondary literature, particularly Handbook of the Birds of the World (including Birds of the World)"
+      }
+    },
+    {
+      "excelRow": 34,
+      "record": {
+        "Variable": "Habitat.Density",
+        "Description": "1 = Dense habitats. Species primarily lives in the lower or middle storey of forest, or in dense thickets, dense shrubland etc.\n2 = Semi-open habitats. Species primarily lives in open shrubland, scattered bushes, parkland, low dry or deciduous forest, thorn forest. \n3 = Open habitats. Species primarily lives in desert, grassland, open water, low shrubs, rocky habitats, seashores, cities. Also applies to species living mainly on top of forest canopy (i.e. mostly in the open)",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias et al. (2016) Frontiers Ecol. Evol."
+      }
+    },
+    {
+      "excelRow": 35,
+      "record": {
+        "Variable": "Migration",
+        "Description": "1 = Sedentary. \n2 = Partially migratory, i.e. minority of population migrates long distances, or most of population undergoes short-distance migration, nomadic movements, distinct altitudinal migration, etc.\n3 = Migratory, i.e. majority of population undertakes long-distance migration",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias & Pigot (2019) Phil. Trans. Roy. Soc."
+      }
+    },
+    {
+      "excelRow": 36,
+      "record": {
+        "Variable": "Trophic.Level",
+        "Description": "Herbivore = species obtaining at least 70% of food resources from plants; Carnivore = species obtaining at least 70% of food resources by consuming live invertebrate or vertebrate animals; Scavenger = species obtaining at least 70% of food resources from carrion or refuse; Omnivore = species obtaining resources from multiple trophic level in roughly equal proportion",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 37,
+      "record": {
+        "Variable": "Trophic.Niche",
+        "Description": "Frugivore = species obtaining at least 60% of food resources from fruit; \nGranivore = species obtaining at least 60% of food resources from seeds or nuts; \nNectarivore =  species obtaining at least 60% of food resources from nectar; \nHerbivore = species obtaining at least 60% of food resources from other plant materials in non-aquatic systems, including leaves, buds, whole flowers etc.; \nHerbivore aquatic = species obtaining at least 60% of food resources from plant materials in aquatic systems, including algae and aquatic plant leaves; \nInvertivore = species obtaining at least 60% of food resources from invertebrates in terrestrial systems, including insects, worms, arachnids, etc.; \nVertivore = species obtaining at least 60% of food resources from vertebrate animals in terrestrial systems, including mammals, birds, reptiles etc.; \nAquatic Predator = species obtaining at least 60% of food resources from vertebrate and invertebrate animals in aquatic systems, including fish, crustacea, molluscs, etc; \nScavenger = species obtaining at least 60% of food resources from carrion, offal or refuse; Omnivore = Species using multiple niches, within or across trophic levels, in relatively equal proportions ",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 38,
+      "record": {
+        "Variable": "Primary.Lifestyle",
+        "Description": "Aerial = species spends much of the time in flight, and hunts or forages predominantly on the wing; \nTerrestrial = species spends majority of its time on the ground, where it obtains food while either walking or hopping (note this includes species that also wade in water with their body raised above the water); \nInsessorial = species spends much of the time perching above the ground, either in branches of trees and other vegetation (i.e. arboreal), or on other raised substrates including rocks, buildings, posts, and wires; \nAquatic = species spends much of the time sitting on water, and obtains  food while afloat or when diving under the water's surface; Generalist = species has no primary lifestyle because it spends time in different lifestyle classes",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 17,
+      "record": {
+        "Variable": "Beak.Length_Culmen",
+        "Description": "Length from the tip of the beak to the base of the skull",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 20,
+      "record": {
+        "Variable": "Beak.Depth",
+        "Description": "Depth of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 21,
+      "record": {
+        "Variable": "Tarsus.Length",
+        "Description": "Length of the tarsus from the posterior notch between tibia and tarsus, to the end of the last scale of acrotarsium (at the bend of the foot)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 23,
+      "record": {
+        "Variable": "Kipps.Distance",
+        "Description": "Length from the tip of the first secondary feather to the tip of the longest primary      ",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 24,
+      "record": {
+        "Variable": "Secondary1",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the first secondary, i.e. the outermost secondary adjacent to the innermost primary feather. Secondary1 is roughly equivalent to Wing length minus Kipp’s distance (measured in a fully folded and flat wing)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 26,
+      "record": {
+        "Variable": "Tail.Length",
+        "Description": "Distance between the tip of the longest rectrix and the point at which the two central rectrices protrude from the skin, typically measured using a ruler inserted between the two central rectrices",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 31,
+      "record": {
+        "Variable": "Traits.inferred",
+        "Description": "List of traits inferred from the reference species",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 32,
+      "record": {
+        "Variable": "Reference.species",
+        "Description": "Species from which the biometric data were inferred",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    }
+  ],
+  "readingScope": "Eight selected full historical rows, full crosswalks, read za/po/am COL names and relevant definitions; not the whole workbook, specimens, Dunning book or a new full methods-paper reading.",
+  "retainedBoundaries": {
+    "exactOlderCombinations": 8,
+    "sixPorzanaTwoAmaurornis": true,
+    "allTerrestrialNotMeasuredWading": true,
+    "fiveAquaticTwoOmnivoreOneInvertivoreNiches": true,
+    "sixCarnivoreTwoOmnivoreLevels": true,
+    "akoolAndFuscaDifferencesNotHarmonized": true,
+    "threeSedentaryTwoPartialThreeMigratory": true,
+    "morphologyAndLiteratureMassDenominatorsSeparate": true,
+    "historicalGuidesNotCompleteMonographs": true,
+    "activePrimateGaps": 14,
+    "fixedAcceptedPrimateDenominator": 530
+  },
+  "intakeBeforeIncrementalCounts": {
+    "indexExists": 567,
+    "bilingualCatalogueProfileMarkers": 564,
+    "missingOneOrBothCatalogueProfileMarkers": 6609,
+    "scope": "Original 7173 observation plus 199 authored species in P5-143–161; no new whole-corpus prose review."
+  },
+  "intakeAfterIncrementalCounts": {
+    "indexExists": 575,
+    "bilingualCatalogueProfileMarkers": 572,
+    "missingOneOrBothCatalogueProfileMarkers": 6601,
+    "scope": "Original 7173 observation plus 207 authored species in P5-143–162; no new whole-corpus prose review."
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All 46 new sections in both languages and all eight species limits were read after writing. New genus and existing family pages, all prior family sections and limits, nine new indices, ten profile topic/source vectors, all new reference bindings and limitation pointers, nine bounded projection entries, P5-162 plan and receipt metadata were read. Corrected and reread English sentence spacing at akool and fusca. This is editorial reading, not generation, tests, whole-corpus validation or expert review.",
+    "canonicalFiles": [
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_pusilla/index.yaml",
+        "sha256": "13144b9d36571c48b381c5b03deb71925e059725f3e215f296504b2fa757d12f"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_pusilla/evidence.md",
+        "sha256": "aed5498fbeda3d5d8b2efd4525d350b30c7bd7b1fdaeacf291ef771edd589b81"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_pusilla/page.zh.md",
+        "sha256": "b729d3d643fbc9f68c9bc5c66ddb9cb1f8c0b76752231673026d4afdb94e79c0"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_pusilla/page.en.md",
+        "sha256": "7c24881e5f721d1974db32ab89ac7aa436017c5957b17ef7f07099a481d5bf23"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_tabuensis/index.yaml",
+        "sha256": "64668baa24b0f5591870fc120783110feb4b7997dfec8c4daea19387edf3a032"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_tabuensis/evidence.md",
+        "sha256": "a3ff7d07f6eff7c2e5a192ad3e7aba4f45f8de3372828096b2910ead46f6dcf9"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_tabuensis/page.zh.md",
+        "sha256": "5ace64c90534ffe2c9c917acf77ed2ee9ad9a5d75046dade1bd0125764a386ed"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_tabuensis/page.en.md",
+        "sha256": "edd049553455be11c4d146653d8d88d49a5c7e807dfa8dc5d459fa568310550d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_paykullii/index.yaml",
+        "sha256": "27c68e98f43f66fd9ef18e417a64fc46ee29406ae043fcdf4fced78299c62b45"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_paykullii/evidence.md",
+        "sha256": "1cb4caad17d60bbd3482d5d011bf0f8a597119c58131dfccedd8e6478719723b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_paykullii/page.zh.md",
+        "sha256": "b2d5cf07f20581c033ade3b5a424e2e1e5a2c03970d5d3d5447da9173981495a"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_paykullii/page.en.md",
+        "sha256": "2b4f4e573668b71964c169b4c20d4fa34b5e894c7d516ccad217dd057022ad5d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_atra/index.yaml",
+        "sha256": "9fad2ba10f48e28bd6ea599709565624eb5254ee1fcc87cf9ab4a71f3894af8f"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_atra/evidence.md",
+        "sha256": "4aa8f2f0bdc0345d5807a189d749604ad7e53f5a8443e1a37538f1917c74d2d0"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_atra/page.zh.md",
+        "sha256": "9b8c4b62519ce7f3ee601175847b6d194ca8cc220b82ced8a310397975091b1a"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_atra/page.en.md",
+        "sha256": "7b4c515b174be8f14311973ef7ca9f8bed00a059bfe448a3209805a8f6170561"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_parva/index.yaml",
+        "sha256": "9dfec3155890e08da3148b9190e367994ccddbc8004896bd3d9138f2169aaa8e"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_parva/evidence.md",
+        "sha256": "509f6b43806c8545bac1ce378c9e78d24f840a8d02f17dbbf14f3004db46d594"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_parva/page.zh.md",
+        "sha256": "1e1955a8b5d8f865186ec7ba56d1764c117ece61b046d51706c5a0e1d31f3c0b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_parva/page.en.md",
+        "sha256": "2cd74905aa949cf2cf887028ef5108f68e4ae0b14d324413ff20f04c3242fba4"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_akool/index.yaml",
+        "sha256": "2962f9b04b1e8adc5b6797c31cf8e765036528a8890c7d65bc624f2b9d0cbf8f"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_akool/evidence.md",
+        "sha256": "e43c097361f1e6e71cda7bba6e020b90bf6cd8e29967e0628438498b8877b5aa"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_akool/page.zh.md",
+        "sha256": "8a790393d72555c6e027aa7d4aafa20c40e03bb57d47bc8c9f4833b2fbf23630"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_akool/page.en.md",
+        "sha256": "a159e842336ff47ea0a37ded89fef5f7acd233597731276739363705e4987978"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_flavirostra/index.yaml",
+        "sha256": "61631ac802fbd2c03ea0037d8d38dbf9da464efe168c9923bacb65f2dc6aee0b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_flavirostra/evidence.md",
+        "sha256": "c8a6c1f9212f9ca8abcda6658cbf7b1090d2bedd8bd11b9255190821d0410e12"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_flavirostra/page.zh.md",
+        "sha256": "0539adc6605b657199a5d8d1aeecdbc17cb42b8b774b196fecc2363c6047f68d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_flavirostra/page.en.md",
+        "sha256": "cb90787b76838dbf551314b7ce4d652ccb1471f984da927505160ebdb69326e7"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_fusca/index.yaml",
+        "sha256": "c539fe45c29101c7c3f5129df519a0e1e0e61a07db278301bc24d642716be4b2"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_fusca/evidence.md",
+        "sha256": "af47dcd5db7c36328305655c65739b4d8a7dd5856e2d49b091b3fb490287f831"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_fusca/page.zh.md",
+        "sha256": "94936ab7351379bb1b9504522d50052873d935e7a3480baa72a226ac7765ab76"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/Zapornia_fusca/page.en.md",
+        "sha256": "698c31ce7d6f267ae4202ff9a00657d5e997e0f7ebb05c42582238e34dc25284"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/index.yaml",
+        "sha256": "cb406f60b18c89f5442b61837eb1cb9ca580ee2512ab63810fa131f8f0f73ee0"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/evidence.md",
+        "sha256": "992c7ba305108cf64851b1b1cc0c9c5d9ed4955de1b7c31e6e975b952a5a221f"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/page.zh.md",
+        "sha256": "fe4ff5514fe9741bc2f4fc4b317c142bac8d7e22d503442b7839bac0a5d6f4da"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/Zapornia/page.en.md",
+        "sha256": "f4177233bf6d861a1db655f7d2cf590814a38f5ca383e04744131e436ea759e5"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/evidence.md",
+        "sha256": "e6e65f51aacc57c2d499fe77d39eec808b3caa339477efb8cba46e91c1e75818"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/page.zh.md",
+        "sha256": "104ea6f5c322d9da74380b0b80b98d437f139e446ae3a6a77195a45b615acbfc"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Rallidae/page.en.md",
+        "sha256": "723ae71b652ff4851eb5eede908f2770bfa9ed0fc3d05f4a34f416b5087ed1fb"
+      },
+      {
+        "path": "content/projection-map.yaml",
+        "sha256": "d103f67f7a083a43a14e7389d1f2c772ad6c8b89e2396ca420362542a7153ae3"
+      },
+      {
+        "path": "docs/content-production-plan.md",
+        "sha256": "a3eb825907c1371c3032ea04a7fa9b49805018b1192417d3d2099395b425b165"
+      },
+      {
+        "path": "data/sources/col-unrepresented-reader-intake-2026-10-03.json",
+        "sha256": "36852a186107b1b2344769fe62b1aeb97298df764084aeaf6c66d1ee90b87452"
+      },
+      {
+        "path": "data/sources/avonet-name-crosswalk-intake-2026-10-03.json",
+        "sha256": "563a8104a0232c3621514b97ee83cbe2725e7b4dc75d4d399e84855bd8da1216"
+      }
+    ]
+  },
+  "delivery": "Canonical inputs authored; tests, generation, commit and publication deferred until all content completion."
+}

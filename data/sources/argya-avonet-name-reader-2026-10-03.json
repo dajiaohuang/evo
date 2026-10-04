@@ -1,0 +1,2479 @@
+{
+  "batch": "P5-163",
+  "date": "2026-10-03",
+  "newSpecies": 8,
+  "newGenus": 1,
+  "newBilingualSections": 46,
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_squamiceps",
+      "colId": "LVWJB",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_subrufa",
+      "colId": "LVWLB",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_rubiginosa",
+      "colId": "LVWH8",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_fulva",
+      "colId": "LVWFG",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_altirostris",
+      "colId": "LVWC9",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_aylmeri",
+      "colId": "LVWCD",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_malcolmi",
+      "colId": "LVWGZ",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_earlei",
+      "colId": "LVWF2",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya",
+      "colId": "LVWBC",
+      "newBilingualSections": 4,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae",
+      "newBilingualSections": 2
+    }
+  ],
+  "sharedReferenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+  "sourceFiles": [
+    {
+      "file": ".git/avonet-supplementary-dataset-1-v7.xlsx",
+      "sha256": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e"
+    },
+    {
+      "file": ".git/argya-selected-source-163.json",
+      "sha256": "30104969e98abf6dca91b3c0f8738458a9c078428b403650ca423e10b8c4556d"
+    },
+    {
+      "file": ".git/argya-col-names-163.json",
+      "sha256": "065d1d54f5ff628519578d371794e0331e3a33a51505545e1cb9e9cefbd7b10a"
+    }
+  ],
+  "sourceRows": [
+    {
+      "target": {
+        "colId": "LVWJB",
+        "scientificName": "Argya squamiceps",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_squamiceps",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "624XT",
+            "parentId": "3RL",
+            "scientificName": "Leiothrichidae Swainson, 1832",
+            "authorship": "Swainson, 1832",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 17
+          },
+          {
+            "id": "LVWBC",
+            "parentId": "624XT",
+            "scientificName": "Argya R. P. Lesson, 1831",
+            "authorship": "R. P. Lesson, 1831",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 16
+          },
+          {
+            "parentId": "LVWBC",
+            "id": "LVWJB",
+            "scientificName": "Argya squamiceps (Cretzschmar, 1827)",
+            "authorship": "(Cretzschmar, 1827)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 4826,
+        "record": {
+          "Sequence": 8394,
+          "Species1": "Argya squamiceps",
+          "Family1": "Leiotrichidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-E99FE2FE",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 25.4,
+          "Beak.Length_Nares": 15.5,
+          "Beak.Width": 4.2,
+          "Beak.Depth": 6.9,
+          "Tarsus.Length": 30.7,
+          "Wing.Length": 109.8,
+          "Kipps.Distance": 13.3,
+          "Secondary1": 96.7,
+          "Hand-Wing.Index": 12.1,
+          "Tail.Length": 143.2,
+          "Mass": 72.88,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 3,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": 12.59,
+          "Max.Latitude": 32.13,
+          "Centroid.Latitude": 22.08,
+          "Centroid.Longitude": 44.92,
+          "Range.Size": 1273158.32
+        }
+      },
+      "eBird": {
+        "excelRow": 957,
+        "record": {
+          "Species1": "Argya squamiceps",
+          "Species2": "Argya squamiceps",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-E99FE2FE",
+          "Avibase.ID2": "AVIBASE-E99FE2FE",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 958,
+        "record": {
+          "Species1": "Argya squamiceps",
+          "Species3": "Turdoides squamiceps",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "LVWLB",
+        "scientificName": "Argya subrufa",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_subrufa",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "624XT",
+            "parentId": "3RL",
+            "scientificName": "Leiothrichidae Swainson, 1832",
+            "authorship": "Swainson, 1832",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 17
+          },
+          {
+            "id": "LVWBC",
+            "parentId": "624XT",
+            "scientificName": "Argya R. P. Lesson, 1831",
+            "authorship": "R. P. Lesson, 1831",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 16
+          },
+          {
+            "parentId": "LVWBC",
+            "id": "LVWLB",
+            "scientificName": "Argya subrufa (Jerdon, 1839)",
+            "authorship": "(Jerdon, 1839)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 4827,
+        "record": {
+          "Sequence": 8390,
+          "Species1": "Argya subrufa",
+          "Family1": "Leiotrichidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-51AADA00",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 20.4,
+          "Beak.Length_Nares": 12.1,
+          "Beak.Width": 4.6,
+          "Beak.Depth": 7.1,
+          "Tarsus.Length": 32.3,
+          "Wing.Length": 89.6,
+          "Kipps.Distance": 6.3,
+          "Secondary1": 83.4,
+          "Hand-Wing.Index": 7,
+          "Tail.Length": 112.6,
+          "Mass": 66.67,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": 8.07,
+          "Max.Latitude": 19.51,
+          "Centroid.Latitude": 13.08,
+          "Centroid.Longitude": 75.67,
+          "Range.Size": 178058.68
+        }
+      },
+      "eBird": {
+        "excelRow": 958,
+        "record": {
+          "Species1": "Argya subrufa",
+          "Species2": "Argya subrufa",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-51AADA00",
+          "Avibase.ID2": "AVIBASE-51AADA00",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 959,
+        "record": {
+          "Species1": "Argya subrufa",
+          "Species3": "Turdoides subrufa",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "LVWH8",
+        "scientificName": "Argya rubiginosa",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_rubiginosa",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "624XT",
+            "parentId": "3RL",
+            "scientificName": "Leiothrichidae Swainson, 1832",
+            "authorship": "Swainson, 1832",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 17
+          },
+          {
+            "id": "LVWBC",
+            "parentId": "624XT",
+            "scientificName": "Argya R. P. Lesson, 1831",
+            "authorship": "R. P. Lesson, 1831",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 16
+          },
+          {
+            "parentId": "LVWBC",
+            "id": "LVWH8",
+            "scientificName": "Argya rubiginosa (Rüppell, 1845)",
+            "authorship": "(Rüppell, 1845)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 4825,
+        "record": {
+          "Sequence": 8396,
+          "Species1": "Argya rubiginosa",
+          "Family1": "Leiotrichidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-861DA135",
+          "Total.individuals": 9,
+          "Female": 4,
+          "Male": 5,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 20,
+          "Beak.Length_Nares": 11.3,
+          "Beak.Width": 3.6,
+          "Beak.Depth": 5.5,
+          "Tarsus.Length": 27.2,
+          "Wing.Length": 83.4,
+          "Kipps.Distance": 5.9,
+          "Secondary1": 77.6,
+          "Hand-Wing.Index": 7,
+          "Tail.Length": 101.9,
+          "Mass": 40.6,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": -8.33,
+          "Max.Latitude": 14.31,
+          "Centroid.Latitude": 2.49,
+          "Centroid.Longitude": 37.93,
+          "Range.Size": 1410146.95
+        }
+      },
+      "eBird": {
+        "excelRow": 956,
+        "record": {
+          "Species1": "Argya rubiginosa",
+          "Species2": "Argya rubiginosa",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-861DA135",
+          "Avibase.ID2": "AVIBASE-861DA135",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 957,
+        "record": {
+          "Species1": "Argya rubiginosa",
+          "Species3": "Turdoides rubiginosa",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "LVWFG",
+        "scientificName": "Argya fulva",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_fulva",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "624XT",
+            "parentId": "3RL",
+            "scientificName": "Leiothrichidae Swainson, 1832",
+            "authorship": "Swainson, 1832",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 17
+          },
+          {
+            "id": "LVWBC",
+            "parentId": "624XT",
+            "scientificName": "Argya R. P. Lesson, 1831",
+            "authorship": "R. P. Lesson, 1831",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 16
+          },
+          {
+            "parentId": "LVWBC",
+            "id": "LVWFG",
+            "scientificName": "Argya fulva (Desfontaines, 1789)",
+            "authorship": "(Desfontaines, 1789)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 4823,
+        "record": {
+          "Sequence": 8395,
+          "Species1": "Argya fulva",
+          "Family1": "Leiotrichidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-3EFD8DF0",
+          "Total.individuals": 4,
+          "Female": 2,
+          "Male": 2,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 23.2,
+          "Beak.Length_Nares": 14.4,
+          "Beak.Width": 4.5,
+          "Beak.Depth": 6.3,
+          "Tarsus.Length": 28.6,
+          "Wing.Length": 96.2,
+          "Kipps.Distance": 11.2,
+          "Secondary1": 85.1,
+          "Hand-Wing.Index": 11.6,
+          "Tail.Length": 125.2,
+          "Mass": 61.39,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 3,
+          "Migration": 1,
+          "Trophic.Level": "Omnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": 11.55,
+          "Max.Latitude": 35.92,
+          "Centroid.Latitude": 21.53,
+          "Centroid.Longitude": 9.09,
+          "Range.Size": 3666952.83
+        }
+      },
+      "eBird": {
+        "excelRow": 954,
+        "record": {
+          "Species1": "Argya fulva",
+          "Species2": "Argya fulva",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-3EFD8DF0",
+          "Avibase.ID2": "AVIBASE-3EFD8DF0",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 955,
+        "record": {
+          "Species1": "Argya fulva",
+          "Species3": "Turdoides fulva",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "LVWC9",
+        "scientificName": "Argya altirostris",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_altirostris",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "624XT",
+            "parentId": "3RL",
+            "scientificName": "Leiothrichidae Swainson, 1832",
+            "authorship": "Swainson, 1832",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 17
+          },
+          {
+            "id": "LVWBC",
+            "parentId": "624XT",
+            "scientificName": "Argya R. P. Lesson, 1831",
+            "authorship": "R. P. Lesson, 1831",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 16
+          },
+          {
+            "parentId": "LVWBC",
+            "id": "LVWC9",
+            "scientificName": "Argya altirostris (E. J. O. Hartert, 1909)",
+            "authorship": "(E. J. O. Hartert, 1909)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 4819,
+        "record": {
+          "Sequence": 8393,
+          "Species1": "Argya altirostris",
+          "Family1": "Leiotrichidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-FE13475E",
+          "Total.individuals": 4,
+          "Female": 2,
+          "Male": 2,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 21,
+          "Beak.Length_Nares": 14.7,
+          "Beak.Width": 4.2,
+          "Beak.Depth": 6.3,
+          "Tarsus.Length": 27.4,
+          "Wing.Length": 73.5,
+          "Kipps.Distance": 7.1,
+          "Secondary1": 66.4,
+          "Hand-Wing.Index": 9.6,
+          "Tail.Length": 100.5,
+          "Mass": 33,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Wetland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": 30.35,
+          "Max.Latitude": 37.18,
+          "Centroid.Latitude": 32.88,
+          "Centroid.Longitude": 44.89,
+          "Range.Size": 149200.16
+        }
+      },
+      "eBird": {
+        "excelRow": 949,
+        "record": {
+          "Species1": "Argya altirostris",
+          "Species2": "Argya altirostris",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-FE13475E",
+          "Avibase.ID2": "AVIBASE-FE13475E",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 951,
+        "record": {
+          "Species1": "Argya altirostris",
+          "Species3": "Turdoides altirostris",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "LVWCD",
+        "scientificName": "Argya aylmeri",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_aylmeri",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "624XT",
+            "parentId": "3RL",
+            "scientificName": "Leiothrichidae Swainson, 1832",
+            "authorship": "Swainson, 1832",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 17
+          },
+          {
+            "id": "LVWBC",
+            "parentId": "624XT",
+            "scientificName": "Argya R. P. Lesson, 1831",
+            "authorship": "R. P. Lesson, 1831",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 16
+          },
+          {
+            "parentId": "LVWBC",
+            "id": "LVWCD",
+            "scientificName": "Argya aylmeri Shelley, 1885",
+            "authorship": "Shelley, 1885",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 4820,
+        "record": {
+          "Sequence": 8397,
+          "Species1": "Argya aylmeri",
+          "Family1": "Leiotrichidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-987C8F6E",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 19.1,
+          "Beak.Length_Nares": 12.5,
+          "Beak.Width": 3.6,
+          "Beak.Depth": 5.3,
+          "Tarsus.Length": 23.9,
+          "Wing.Length": 73.4,
+          "Kipps.Distance": 4.8,
+          "Secondary1": 68.2,
+          "Hand-Wing.Index": 6.6,
+          "Tail.Length": 114.6,
+          "Mass": 35.3,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Omnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": -9.85,
+          "Max.Latitude": 9.94,
+          "Centroid.Latitude": 1.03,
+          "Centroid.Longitude": 40.72,
+          "Range.Size": 1055408.06
+        }
+      },
+      "eBird": {
+        "excelRow": 950,
+        "record": {
+          "Species1": "Argya aylmeri",
+          "Species2": "Argya aylmeri",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-987C8F6E",
+          "Avibase.ID2": "AVIBASE-987C8F6E",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 952,
+        "record": {
+          "Species1": "Argya aylmeri",
+          "Species3": "Turdoides aylmeri",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "LVWGZ",
+        "scientificName": "Argya malcolmi",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_malcolmi",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "624XT",
+            "parentId": "3RL",
+            "scientificName": "Leiothrichidae Swainson, 1832",
+            "authorship": "Swainson, 1832",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 17
+          },
+          {
+            "id": "LVWBC",
+            "parentId": "624XT",
+            "scientificName": "Argya R. P. Lesson, 1831",
+            "authorship": "R. P. Lesson, 1831",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 16
+          },
+          {
+            "parentId": "LVWBC",
+            "id": "LVWGZ",
+            "scientificName": "Argya malcolmi (Sykes, 1832)",
+            "authorship": "(Sykes, 1832)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 4824,
+        "record": {
+          "Sequence": 8389,
+          "Species1": "Argya malcolmi",
+          "Family1": "Leiotrichidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-8EB286E5",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 21.2,
+          "Beak.Length_Nares": 13.4,
+          "Beak.Width": 4.6,
+          "Beak.Depth": 7.6,
+          "Tarsus.Length": 31.5,
+          "Wing.Length": 115.2,
+          "Kipps.Distance": 17.6,
+          "Secondary1": 97.4,
+          "Hand-Wing.Index": 15.4,
+          "Tail.Length": 136.6,
+          "Mass": 75.7,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": 10.13,
+          "Max.Latitude": 31.85,
+          "Centroid.Latitude": 22.02,
+          "Centroid.Longitude": 77.1,
+          "Range.Size": 1922153.02
+        }
+      },
+      "eBird": {
+        "excelRow": 955,
+        "record": {
+          "Species1": "Argya malcolmi",
+          "Species2": "Argya malcolmi",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-8EB286E5",
+          "Avibase.ID2": "AVIBASE-8EB286E5",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 956,
+        "record": {
+          "Species1": "Argya malcolmi",
+          "Species3": "Turdoides malcolmi",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "LVWF2",
+        "scientificName": "Argya earlei",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_earlei",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "624XT",
+            "parentId": "3RL",
+            "scientificName": "Leiothrichidae Swainson, 1832",
+            "authorship": "Swainson, 1832",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 17
+          },
+          {
+            "id": "LVWBC",
+            "parentId": "624XT",
+            "scientificName": "Argya R. P. Lesson, 1831",
+            "authorship": "R. P. Lesson, 1831",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 16
+          },
+          {
+            "parentId": "LVWBC",
+            "id": "LVWF2",
+            "scientificName": "Argya earlei (Blyth, 1844)",
+            "authorship": "(Blyth, 1844)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 4822,
+        "record": {
+          "Sequence": 8391,
+          "Species1": "Argya earlei",
+          "Family1": "Leiotrichidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-308AADDB",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 21.6,
+          "Beak.Length_Nares": 13.5,
+          "Beak.Width": 4.1,
+          "Beak.Depth": 5.8,
+          "Tarsus.Length": 30.5,
+          "Wing.Length": 88.2,
+          "Kipps.Distance": 9.4,
+          "Secondary1": 77.4,
+          "Hand-Wing.Index": 10.8,
+          "Tail.Length": 111.4,
+          "Mass": 47,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Wetland",
+          "Habitat.Density": 3,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": 17.22,
+          "Max.Latitude": 34.45,
+          "Centroid.Latitude": 26.8,
+          "Centroid.Longitude": 82.17,
+          "Range.Size": 1024770.23
+        }
+      },
+      "eBird": {
+        "excelRow": 953,
+        "record": {
+          "Species1": "Argya earlei",
+          "Species2": "Argya earlei",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-308AADDB",
+          "Avibase.ID2": "AVIBASE-308AADDB",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 954,
+        "record": {
+          "Species1": "Argya earlei",
+          "Species3": "Turdoides earlei",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    }
+  ],
+  "colNameRecords": [
+    {
+      "normalizedName": "argya altirostris e j o hartert 1909",
+      "id": "LVWC9",
+      "scientificName": "Argya altirostris (E. J. O. Hartert, 1909)",
+      "authorship": "(E. J. O. Hartert, 1909)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "LVWBC",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Leiothrichidae",
+        null,
+        null,
+        null,
+        "Argya"
+      ]
+    },
+    {
+      "normalizedName": "argya aylmeri shelley 1885",
+      "id": "LVWCD",
+      "scientificName": "Argya aylmeri Shelley, 1885",
+      "authorship": "Shelley, 1885",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "LVWBC",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Leiothrichidae",
+        null,
+        null,
+        null,
+        "Argya"
+      ]
+    },
+    {
+      "normalizedName": "argya earlei blyth 1844",
+      "id": "LVWF2",
+      "scientificName": "Argya earlei (Blyth, 1844)",
+      "authorship": "(Blyth, 1844)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "LVWBC",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Leiothrichidae",
+        null,
+        null,
+        null,
+        "Argya"
+      ]
+    },
+    {
+      "normalizedName": "argya fulva desfontaines 1789",
+      "id": "LVWFG",
+      "scientificName": "Argya fulva (Desfontaines, 1789)",
+      "authorship": "(Desfontaines, 1789)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "LVWBC",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Leiothrichidae",
+        null,
+        null,
+        null,
+        "Argya"
+      ]
+    },
+    {
+      "normalizedName": "argya malcolmi sykes 1832",
+      "id": "LVWGZ",
+      "scientificName": "Argya malcolmi (Sykes, 1832)",
+      "authorship": "(Sykes, 1832)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "LVWBC",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Leiothrichidae",
+        null,
+        null,
+        null,
+        "Argya"
+      ]
+    },
+    {
+      "normalizedName": "argya rubiginosa ruppell 1845",
+      "id": "LVWH8",
+      "scientificName": "Argya rubiginosa (Rüppell, 1845)",
+      "authorship": "(Rüppell, 1845)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "LVWBC",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Leiothrichidae",
+        null,
+        null,
+        null,
+        "Argya"
+      ]
+    },
+    {
+      "normalizedName": "argya squamiceps cretzschmar 1827",
+      "id": "LVWJB",
+      "scientificName": "Argya squamiceps (Cretzschmar, 1827)",
+      "authorship": "(Cretzschmar, 1827)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "LVWBC",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Leiothrichidae",
+        null,
+        null,
+        null,
+        "Argya"
+      ]
+    },
+    {
+      "normalizedName": "argya subrufa jerdon 1839",
+      "id": "LVWLB",
+      "scientificName": "Argya subrufa (Jerdon, 1839)",
+      "authorship": "(Jerdon, 1839)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "LVWBC",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Leiothrichidae",
+        null,
+        null,
+        null,
+        "Argya"
+      ]
+    },
+    {
+      "normalizedName": "turdoides altirostris e j o hartert 1909",
+      "id": "59PJK",
+      "scientificName": "Turdoides altirostris (E. J. O. Hartert, 1909)",
+      "authorship": "(E. J. O. Hartert, 1909)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "LVWC9",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "turdoides aylmeri shelley 1885",
+      "id": "59PJL",
+      "scientificName": "Turdoides aylmeri (Shelley, 1885)",
+      "authorship": "(Shelley, 1885)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "LVWCD",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "turdoides earlei blyth 1844",
+      "id": "59PJQ",
+      "scientificName": "Turdoides earlei (Blyth, 1844)",
+      "authorship": "(Blyth, 1844)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "LVWF2",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "turdoides fulva desfontaines 1789",
+      "id": "59PJS",
+      "scientificName": "Turdoides fulva (Desfontaines, 1789)",
+      "authorship": "(Desfontaines, 1789)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "LVWFG",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "turdoides fulvus desfontaines 1789",
+      "id": "59PJR",
+      "scientificName": "Turdoides fulvus (Desfontaines, 1789)",
+      "authorship": "(Desfontaines, 1789)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "LVWFG",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "turdoides malcolmi sykes 1832",
+      "id": "59PK8",
+      "scientificName": "Turdoides malcolmi (Sykes, 1832)",
+      "authorship": "(Sykes, 1832)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "LVWGZ",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "turdoides rubiginosa ruppell 1845",
+      "id": "7CZ7J",
+      "scientificName": "Turdoides rubiginosa (Rüppell, 1845)",
+      "authorship": "(Rüppell, 1845)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "LVWH8",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "turdoides rubiginosus ruppell 1845",
+      "id": "59PKD",
+      "scientificName": "Turdoides rubiginosus (Rüppell, 1845)",
+      "authorship": "(Rüppell, 1845)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "LVWH8",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "turdoides squamiceps cretzschmar 1827",
+      "id": "59PKH",
+      "scientificName": "Turdoides squamiceps (Cretzschmar, 1827)",
+      "authorship": "(Cretzschmar, 1827)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "LVWJB",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "turdoides subrufa jerdon 1839",
+      "id": "59PKN",
+      "scientificName": "Turdoides subrufa (Jerdon, 1839)",
+      "authorship": "(Jerdon, 1839)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "LVWLB",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "turdoides subrufus jerdon 1839",
+      "id": "59PKP",
+      "scientificName": "Turdoides subrufus (Jerdon, 1839)",
+      "authorship": "(Jerdon, 1839)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "LVWLB",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "turdus fulvus desfontaines 1789",
+      "id": "VDD97",
+      "scientificName": "Turdus fulvus Desfontaines, 1789",
+      "authorship": "Desfontaines, 1789",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "LVWFG",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    }
+  ],
+  "fieldDefinitions": [
+    {
+      "excelRow": 12,
+      "record": {
+        "Variable": "Total.individuals",
+        "Description": "Number of individual specimens and live birds measured for each species",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 13,
+      "record": {
+        "Variable": "Female",
+        "Description": "Number of measured individuals identified as female",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 14,
+      "record": {
+        "Variable": "Male",
+        "Description": "Number of measured individuals identified as male",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 15,
+      "record": {
+        "Variable": "Unknown",
+        "Description": "Number of unsexed individuals measured",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 16,
+      "record": {
+        "Variable": "Complete.measures",
+        "Description": "Number of measured individuals with complete set of morphometric trait measurements ",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 18,
+      "record": {
+        "Variable": "Beak.Length_Nares",
+        "Description": "Length from the anterior edge of the nostrils to the tip of the beak",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 19,
+      "record": {
+        "Variable": "Beak.Width",
+        "Description": "Width of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 22,
+      "record": {
+        "Variable": "Wing.Length",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the longest primary on the unflattened wing",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 25,
+      "record": {
+        "Variable": "Hand-Wing.Index",
+        "Description": "100*DK/Lw, where DK is Kipp’s distance and Lw is wing length (i.e., Kipp’s distance corrected for wing size). Species average HWI differ from estimates in Sheard et al. (2020) because of much higher sampling of individuals in some species, as well as taxonomic effects in the BirdLife list",
+        "Variable Types": "continuous",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 27,
+      "record": {
+        "Variable": "Mass",
+        "Description": "Body mass given as species average (incorporating both male and female body mass)",
+        "Variable Types": "continuous",
+        "Units": "gram",
+        "Source": "See Mass Source column"
+      }
+    },
+    {
+      "excelRow": 28,
+      "record": {
+        "Variable": "Mass.Source",
+        "Description": "Dunning (= Dunning, JB [2008] CRC Handbook of Avian Body Masses);\nEltonTraits_Other (= mass published by Wilman et al. 2014 EltonTraits 1.0. Ecology, on basis of literature other than Dunning, usually Handbook of the Birds of the World [now Birds of the World, Cornell])\nEltonTraits_GenAvg (= average of the genus, published in Wilman et al. 2014 EltonTraits 1.0. Ecology); \nEltonTraits_Model (= inferred from mass and length data, with mass-length relationships parameterized at family level, published in Wilman et al. 2014 EltonTraits 1.0. Ecology);\nUpdated_literature (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from literature and online resources, including Birds of the World - specific sources are listed in the Mass.Ref.Source column);  \nUpdated_live.sample (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from museum labels and/or field data of from wild birds weighed using a Pezola balance before release. Specific sources are listed in the Mass.Ref.Source column);  \nInferred (= where EltonTraits GenAvg or Modelled data seemed misleading, and no published data were available for updating, we replaced it where possible with data inferred directly from a morphologically similar relative. Reference species and Traits inferred columns indicate where mass has been inferred and from which species);\nDataFromSplit (= daughter species body mass inferred from parent species after split; the parent or nominate form is typically morphologically similar and provides a reasonable estimate of body mass, particularly as mass data used to calculate the parent species body mass in earlier publications sometimes includes data from the recently split daughter species).\n",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 30,
+      "record": {
+        "Variable": "Inference",
+        "Description": "NO = all biometric trait data were obtained from direct measurement of specimens, or in the case of body mass from published sources\nYES = at least some of the biometric traits were unavailable from specimens so these trait data were inferred from a closely related species; in some cases all morphological measurements were taken directly except for body mass, which can't be measured on museum specimens.",
+        "Variable Types": "binary",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 33,
+      "record": {
+        "Variable": "Habitat",
+        "Description": "Desert (= drylands and other open arid habitats, often sandy with very sparse vegetation); \nRock (= rocky substrate typically with no or very little vegetation, including rocky outcrops, rocky coastlines, arid stony steppes, rocky mountaintops and mountain slopes); \nGrassland (=  open dry to moist grass-dominated landscapes, at all elevations); \nShrubland (= low stature bushy habitats, included thornscrub, thorny or arid savanna, caatinga, xerophytic shrubland and coastal scrub); \nWoodland (= medium stature tree-dominated habitats, including Acacia woodland, riparian woodlands, mangrove forests, forest edges, also more open parkland with scattered taller trees);\nForest (= tall tree-dominated vegetation with more or less closed canopy, including palm forest); \nHuman modified (urban landscapes, intensive agriculture, gardens); \nWetland (= wide range of freshwater aquatic habitats including lakes, marshes, swamps and reedbeds); \nRiverine (= associated with rivers and streams at all elevations); \nCoastal (= intertidal zones within immediate vicinity of beaches, estuaries, brackish to salty marshes, including mudflats, lagoons, alkaline wetlands, coastal dunes and harbours);\nMarine (= pelagic, on sea near coasts, including species in the intertidal zone on beaches, and those pelagic species nesting near the sea on cliffs, islets and islands).",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Data extracted from primary and secondary literature, particularly Handbook of the Birds of the World (including Birds of the World)"
+      }
+    },
+    {
+      "excelRow": 34,
+      "record": {
+        "Variable": "Habitat.Density",
+        "Description": "1 = Dense habitats. Species primarily lives in the lower or middle storey of forest, or in dense thickets, dense shrubland etc.\n2 = Semi-open habitats. Species primarily lives in open shrubland, scattered bushes, parkland, low dry or deciduous forest, thorn forest. \n3 = Open habitats. Species primarily lives in desert, grassland, open water, low shrubs, rocky habitats, seashores, cities. Also applies to species living mainly on top of forest canopy (i.e. mostly in the open)",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias et al. (2016) Frontiers Ecol. Evol."
+      }
+    },
+    {
+      "excelRow": 35,
+      "record": {
+        "Variable": "Migration",
+        "Description": "1 = Sedentary. \n2 = Partially migratory, i.e. minority of population migrates long distances, or most of population undergoes short-distance migration, nomadic movements, distinct altitudinal migration, etc.\n3 = Migratory, i.e. majority of population undertakes long-distance migration",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias & Pigot (2019) Phil. Trans. Roy. Soc."
+      }
+    },
+    {
+      "excelRow": 36,
+      "record": {
+        "Variable": "Trophic.Level",
+        "Description": "Herbivore = species obtaining at least 70% of food resources from plants; Carnivore = species obtaining at least 70% of food resources by consuming live invertebrate or vertebrate animals; Scavenger = species obtaining at least 70% of food resources from carrion or refuse; Omnivore = species obtaining resources from multiple trophic level in roughly equal proportion",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 37,
+      "record": {
+        "Variable": "Trophic.Niche",
+        "Description": "Frugivore = species obtaining at least 60% of food resources from fruit; \nGranivore = species obtaining at least 60% of food resources from seeds or nuts; \nNectarivore =  species obtaining at least 60% of food resources from nectar; \nHerbivore = species obtaining at least 60% of food resources from other plant materials in non-aquatic systems, including leaves, buds, whole flowers etc.; \nHerbivore aquatic = species obtaining at least 60% of food resources from plant materials in aquatic systems, including algae and aquatic plant leaves; \nInvertivore = species obtaining at least 60% of food resources from invertebrates in terrestrial systems, including insects, worms, arachnids, etc.; \nVertivore = species obtaining at least 60% of food resources from vertebrate animals in terrestrial systems, including mammals, birds, reptiles etc.; \nAquatic Predator = species obtaining at least 60% of food resources from vertebrate and invertebrate animals in aquatic systems, including fish, crustacea, molluscs, etc; \nScavenger = species obtaining at least 60% of food resources from carrion, offal or refuse; Omnivore = Species using multiple niches, within or across trophic levels, in relatively equal proportions ",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 38,
+      "record": {
+        "Variable": "Primary.Lifestyle",
+        "Description": "Aerial = species spends much of the time in flight, and hunts or forages predominantly on the wing; \nTerrestrial = species spends majority of its time on the ground, where it obtains food while either walking or hopping (note this includes species that also wade in water with their body raised above the water); \nInsessorial = species spends much of the time perching above the ground, either in branches of trees and other vegetation (i.e. arboreal), or on other raised substrates including rocks, buildings, posts, and wires; \nAquatic = species spends much of the time sitting on water, and obtains  food while afloat or when diving under the water's surface; Generalist = species has no primary lifestyle because it spends time in different lifestyle classes",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 17,
+      "record": {
+        "Variable": "Beak.Length_Culmen",
+        "Description": "Length from the tip of the beak to the base of the skull",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 20,
+      "record": {
+        "Variable": "Beak.Depth",
+        "Description": "Depth of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 21,
+      "record": {
+        "Variable": "Tarsus.Length",
+        "Description": "Length of the tarsus from the posterior notch between tibia and tarsus, to the end of the last scale of acrotarsium (at the bend of the foot)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 23,
+      "record": {
+        "Variable": "Kipps.Distance",
+        "Description": "Length from the tip of the first secondary feather to the tip of the longest primary      ",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 24,
+      "record": {
+        "Variable": "Secondary1",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the first secondary, i.e. the outermost secondary adjacent to the innermost primary feather. Secondary1 is roughly equivalent to Wing length minus Kipp’s distance (measured in a fully folded and flat wing)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 26,
+      "record": {
+        "Variable": "Tail.Length",
+        "Description": "Distance between the tip of the longest rectrix and the point at which the two central rectrices protrude from the skin, typically measured using a ruler inserted between the two central rectrices",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 31,
+      "record": {
+        "Variable": "Traits.inferred",
+        "Description": "List of traits inferred from the reference species",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 32,
+      "record": {
+        "Variable": "Reference.species",
+        "Description": "Species from which the biometric data were inferred",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    }
+  ],
+  "readingScope": "Eight morphology/mass/ecology rows, each full crosswalk, related catalogue names and relevant definitions. Not the whole workbook, specimens, original mass book or a new full methods-paper review.",
+  "retainedBoundaries": {
+    "olderTurdoidesCatalogueSynonyms": 8,
+    "familySpellingsRetained": true,
+    "twoFourBirdCompleteSamples": true,
+    "fiveFiveBirdFourCompleteSamples": true,
+    "rubiginosaNineBirdsFourComplete": true,
+    "invertivoreNicheWithSixCarnivoreTwoOmnivoreLevels": true,
+    "generalistLifestyleNotOmnivoreDiet": true,
+    "wetlandNotProofOfSwimmingOrWading": true,
+    "historicalGuidesNotCompleteMonographs": true,
+    "noGeographicFieldsInterpreted": true,
+    "activePrimateGaps": 14,
+    "fixedAcceptedPrimateDenominator": 530
+  },
+  "intakeBeforeIncrementalCounts": {
+    "indexExists": 575,
+    "bilingualCatalogueProfileMarkers": 572,
+    "missingOneOrBothCatalogueProfileMarkers": 6601,
+    "scope": "Original 7173 observation plus 207 authored species in P5-143–162; no new whole-corpus prose review."
+  },
+  "intakeAfterIncrementalCounts": {
+    "indexExists": 583,
+    "bilingualCatalogueProfileMarkers": 580,
+    "missingOneOrBothCatalogueProfileMarkers": 6593,
+    "scope": "Original 7173 observation plus 215 authored species in P5-143–163; no new whole-corpus prose review."
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All 46 new sections in both languages and all eight species limits were read after writing. The new genus and existing family pages, all prior family sections and limits, nine new indices, ten profile topic/source vectors, all new reference bindings and limitation pointers, nine bounded projection entries, P5-163 plan, relevant definitions and receipt metadata were read. Corrected and reread unflattened in the eight English morphology paragraphs; retained both COL name-shard hashes in the receipt. This is editorial reading, not generation, tests, whole-corpus validation or expert review.",
+    "canonicalFiles": [
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_squamiceps/index.yaml",
+        "sha256": "80896cf8fe353ed0fc40f568596fa3dc5245d04187d3db618775ff400a7cca2e"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_squamiceps/evidence.md",
+        "sha256": "7bf9456ab33d345c02ccfbba445197ca04b1077e6037b7ad8393a05c41c85808"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_squamiceps/page.zh.md",
+        "sha256": "7b7cfef47d6b7c2332efdaf31de9e7e69a7e06386d75281b4be41e6917fa9c10"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_squamiceps/page.en.md",
+        "sha256": "3888ccc786d6ebd7fb960296854c920b9b13fed77fab0c8965a69f271936e01e"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_subrufa/index.yaml",
+        "sha256": "65bb6c198feebd42294b24ae7e9cd367ef2ea20b60dce30bee215e0215044b97"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_subrufa/evidence.md",
+        "sha256": "9d14ce9fcbe34ae96d46b6487a6928ddec57ce69b7756ae21172b7d3641a02e5"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_subrufa/page.zh.md",
+        "sha256": "4ce87bfa68eb37019770baa339121eb4d4a425463c0d730cee02143f52e71cbf"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_subrufa/page.en.md",
+        "sha256": "52fd3d91b6cd8796d679226404f7f66a39239eedafefb100cb267c7537f24411"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_rubiginosa/index.yaml",
+        "sha256": "88db97758d05d5a3c38c93d936789ca1349e03327758dc1ef432c1b7bc0b7777"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_rubiginosa/evidence.md",
+        "sha256": "0b87b1554ba0e8bc5dc35257a4f452831a0a4a7f5100b40ee4aceaeab8f6d7f4"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_rubiginosa/page.zh.md",
+        "sha256": "3ba8afbf0cdc192af53dfcfa823525ab00de683fe84cc41b49a04cd1828d0060"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_rubiginosa/page.en.md",
+        "sha256": "3b8e4e70eae0d50f657f2682ee7898f334f0fd2e09036c4681728634da40e3e0"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_fulva/index.yaml",
+        "sha256": "8d74df442843de52f6201fbe8454a98474f55fd1344c0b26464bfb1dd51c0e04"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_fulva/evidence.md",
+        "sha256": "0d9176267d44c186c295e22b09a4743fbf9e6e33c225acdfb87ab9f27e9d8f4c"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_fulva/page.zh.md",
+        "sha256": "4362e7b5e3823517e43bf31eccbea002af39cdd1a0bea22f061990f17bcd0d14"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_fulva/page.en.md",
+        "sha256": "2953eccf7786c6540d0e703e343f71a9d92d7512824223277f3cb3ed901f5aa7"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_altirostris/index.yaml",
+        "sha256": "087b98f04653d391d0ad530e4d0fb57bfe984477d7ed7321eefeae78b8c307cc"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_altirostris/evidence.md",
+        "sha256": "31ddb93d1b24cae56bd89ce009c7565d38e511a3d7389f1d2b93acf78e137915"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_altirostris/page.zh.md",
+        "sha256": "a50b68bb5c4e0f0fb70504e4860edf2dfdacf3a8371e0b56e0cd5e24253253cd"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_altirostris/page.en.md",
+        "sha256": "5ade62d637bd9d6e9ca94ba574037352f71a4b82b739529379fb50109201a655"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_aylmeri/index.yaml",
+        "sha256": "7d9b376327fdee9a0c237fd47602bf0586349b945247e3690e56dfaa81347373"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_aylmeri/evidence.md",
+        "sha256": "181bfd83dfee2f890d519e6b9785f8a9b2f738d25a93b9e513e7751d0a865f6f"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_aylmeri/page.zh.md",
+        "sha256": "ea549365d63c03bceb572c8c607208dae604a105522c490e36ce91c9ebf90127"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_aylmeri/page.en.md",
+        "sha256": "0b70917a355f6fd6d08f159fc1873d6a0b4713fc7ae6791771ee8d017096369e"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_malcolmi/index.yaml",
+        "sha256": "90dc280253ffad4e2b54e2f74e1de17cf89e1ee8c6208332ffd995e64e594943"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_malcolmi/evidence.md",
+        "sha256": "19e64c5a5d605077901464d7278ef1462f90d2183f6049a5ee2003e8a5703073"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_malcolmi/page.zh.md",
+        "sha256": "c931112494b818e63716c5958d42fe34ca6669a94495f9c90b0c33b33108d211"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_malcolmi/page.en.md",
+        "sha256": "2546dab16978937fe2af94b3bf727c36a0316f0409e3f03042ec5cdcccf5a9de"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_earlei/index.yaml",
+        "sha256": "6956acc34837708e9216845148013f3285c3bfd18f391cd98a5c1638bf9aa354"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_earlei/evidence.md",
+        "sha256": "6f9c595de7cd3bd53cd920080674cf334e7685d943bb198879785aa940e4fd22"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_earlei/page.zh.md",
+        "sha256": "b751d0d3f1c889d9e993dbe134f69b0fe6318825d813e72fd37f1f2a1952c6eb"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/Argya_earlei/page.en.md",
+        "sha256": "7b7083955a3b4dd71ad9815cc9058a93849162c62ef1be3fdffdf0264a910d66"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/index.yaml",
+        "sha256": "5f789020e42ab01baabbaaa828f58e3d236859345cf0a8e79d2bd03a4d4d36f8"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/evidence.md",
+        "sha256": "dffce22f77d470cf7daf4c5c52c3655bf1a57a9d57ff01415c6ad366231db1ad"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/page.zh.md",
+        "sha256": "a59dfaa78fe9492020ac77acc092f74886f7085e0c5972c4d707aa229b7137bc"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/Argya/page.en.md",
+        "sha256": "729355d451d27d9ea525684b920e7f0c5892df91bb65eeab1de476bfeeab315d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/evidence.md",
+        "sha256": "739ddfb474f0c3fae02ba3248ee98f7135862aabb2cc40ad5189b0fad7c2a03f"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/page.zh.md",
+        "sha256": "954cab271d301698a02bd468839a39032dae1fa92c46f0e53b95affa9bd4e599"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Leiothrichidae/page.en.md",
+        "sha256": "9e29133150dfa458a3a6ea3dcad8d656e4e7f288dc89826929bd79d674472d2a"
+      },
+      {
+        "path": "content/projection-map.yaml",
+        "sha256": "d5b9455e07552eb8f384e45b992f363abec2ba8cbd506d5c904103f3f4795c02"
+      },
+      {
+        "path": "docs/content-production-plan.md",
+        "sha256": "0d9df9a41b867d394dbca2c67200e81718824e8ee5db981cbf7deec0ab7eb882"
+      },
+      {
+        "path": "data/sources/col-unrepresented-reader-intake-2026-10-03.json",
+        "sha256": "9cacda4a532f25a3b1c6f6e4c976270ba9d6334f84f8b7594a9ba866c2eed347"
+      },
+      {
+        "path": "data/sources/avonet-name-crosswalk-intake-2026-10-03.json",
+        "sha256": "20b93e0869739ce44dbb2b3c8370da95a2c9f225eee28e26a53a24144e38c00d"
+      }
+    ]
+  },
+  "delivery": "Canonical inputs authored; tests, generation, commit and publication deferred until all content completion.",
+  "colNameShardFiles": [
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-ar.jsonl.gz",
+      "sha256": "c672f58f581e9b9b9757231c787fa17202f9ebeed72f22e22583b39c8504e40d"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-tu.jsonl.gz",
+      "sha256": "ba5e8db7e5e5f630823294ff8de77d4e96984e36dc40f6c8efe93885df12c980"
+    }
+  ],
+  "editorialRepairs": [
+    "Corrected unflattened in the eight English morphology paragraphs after a preparation substitution affected that word; all changed passages were reread."
+  ]
+}

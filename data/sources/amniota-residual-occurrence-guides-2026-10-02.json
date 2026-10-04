@@ -1,0 +1,991 @@
+{
+  "schemaVersion": 1,
+  "batch": "P5-56",
+  "authoredAt": "2026-10-02",
+  "source": "Paleobiology Database Data Service 1.2",
+  "sourceReferenceId": "ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a",
+  "methodReferenceId": "ref-c4887d31-ff09-4384-b816-a87cb63d0c54",
+  "fixedResidualAmniotaDenominator": 48,
+  "pinnedColDenominators": {
+    "Mammalia": 6461,
+    "Aves": 11044,
+    "Reptilia": 12649
+  },
+  "pinnedPbdbAmniotaDenominator": 22684,
+  "denominatorsChanged": false,
+  "fixedPartitionDenominators": {
+    "amniota-residual": 48
+  },
+  "authoredSpeciesByPartition": {
+    "amniota-residual": 45
+  },
+  "recordedRootParentChain": [
+    {
+      "oid": "txn:53190",
+      "vid": "var:137279",
+      "rnk": "unranked clade",
+      "nam": "Tetrapoda",
+      "att": "Jaekel 1911",
+      "par": "txn:77135",
+      "prl": "Tetrapodomorpha",
+      "rid": "ref:58890",
+      "ext": "1",
+      "noc": 211252
+    },
+    {
+      "oid": "txn:125547",
+      "rnk": "unranked clade",
+      "nam": "Reptiliomorpha",
+      "att": "Säve-Söderbergh 1934",
+      "par": "txn:53190",
+      "prl": "Tetrapoda",
+      "rid": "ref:28463",
+      "ext": "1",
+      "noc": 204398
+    },
+    {
+      "oid": "txn:37177",
+      "rnk": "unranked clade",
+      "nam": "Anthracosauria",
+      "att": "Säve-Söderbergh 1934",
+      "par": "txn:125547",
+      "prl": "Reptiliomorpha",
+      "rid": "ref:28463",
+      "ext": "1",
+      "noc": 204398
+    },
+    {
+      "oid": "txn:465406",
+      "rnk": "subclass",
+      "nam": "Amphibiosauria",
+      "att": "Kuhn 1967",
+      "par": "txn:37177",
+      "prl": "Anthracosauria",
+      "rid": "ref:29189",
+      "ext": "1",
+      "noc": 204389
+    },
+    {
+      "oid": "txn:56749",
+      "vid": "var:135885",
+      "rnk": "unranked clade",
+      "nam": "Cotylosauria",
+      "att": "(Cope 1880)",
+      "par": "txn:465406",
+      "prl": "Amphibiosauria",
+      "rid": "ref:26928",
+      "ext": "1",
+      "noc": 204285
+    },
+    {
+      "oid": "txn:53189",
+      "flg": "B",
+      "rnk": "unranked clade",
+      "nam": "Amniota",
+      "att": "(Haeckel 1866)",
+      "par": "txn:56749",
+      "prl": "Cotylosauria",
+      "rid": "ref:35418",
+      "ext": "1",
+      "noc": 204135,
+      "fea": 382.31,
+      "fla": 379,
+      "lea": 0.0117,
+      "lla": 0,
+      "tei": "Frasnian",
+      "tli": "Holocene"
+    }
+  ],
+  "colCompatibleAnchor": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda",
+  "sourceDownloads": [
+    {
+      "key": "taxa",
+      "url": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=53189&rel=all_children&status=accepted&show=parent%2Capp%2Cattr&limit=all",
+      "queryParameters": {
+        "base_id": "53189",
+        "rel": "all_children",
+        "status": "accepted",
+        "show": "parent,app,attr",
+        "limit": "all"
+      },
+      "file": ".git/amniota-remaining-reader-taxa.json",
+      "retrievedAt": "2026-10-02T15:05:33.394Z",
+      "bytes": 11250864,
+      "sha256": "3859aaf13185b4d4bcf29d6e26e89cbebdf16ca22d83d02cec55a4ef2edcea40",
+      "recordCount": 50795,
+      "recordsFound": null,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-taxa-3859aaf13185b4d4bcf29d6e26e89cbebdf16ca22d83d02cec55a4ef2edcea40.json.gz",
+      "retainedSha256": "1b2decbd29e3f13175e14806484e49d68d2528bf550139dfe76c74c9b9e4f678"
+    },
+    {
+      "key": "root",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=53189&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "53189",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-root.json",
+      "retrievedAt": "2026-10-02T15:05:26.002Z",
+      "bytes": 293,
+      "sha256": "66b5bf1133948a8be21a836a174e74e04c0a1d953f73dc496c74c210fc6d610f",
+      "recordCount": 1,
+      "recordsFound": null,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-root-66b5bf1133948a8be21a836a174e74e04c0a1d953f73dc496c74c210fc6d610f.json.gz",
+      "retainedSha256": "25b98c376cc202d114fdd8ecabdcf17b6737ced06eac0c2e075fd50f4ecc1b85"
+    },
+    {
+      "key": "parents",
+      "url": "https://paleobiodb.org/data1.2/taxa/list.json?id=53189&rel=all_parents&status=accepted&show=parent%2Cattr&limit=all",
+      "queryParameters": {
+        "id": "53189",
+        "rel": "all_parents",
+        "status": "accepted",
+        "show": "parent,attr",
+        "limit": "all"
+      },
+      "file": ".git/amniota-remaining-reader-parents.json",
+      "retrievedAt": "2026-10-02T15:05:26.107Z",
+      "bytes": 3381,
+      "sha256": "c00907592c1809c2d7b41a2f59545da533072d8f171b5160d38255b0ef6d2f86",
+      "recordCount": 20,
+      "recordsFound": null,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-parents-c00907592c1809c2d7b41a2f59545da533072d8f171b5160d38255b0ef6d2f86.json.gz",
+      "retainedSha256": "e9d9f43651607fbb09eca28f4a7eb1a07cf3bbac9c42f54b5b5359b1bdf6f04d"
+    },
+    {
+      "key": "occurrences",
+      "url": "https://paleobiodb.org/data1.2/occs/list.json?base_id=53189&show=full&ident=latest&order=id&rowcount=yes&limit=all",
+      "queryParameters": {
+        "base_id": "53189",
+        "show": "full",
+        "ident": "latest",
+        "order": "id",
+        "rowcount": "yes",
+        "limit": "all"
+      },
+      "file": ".git/amniota-remaining-reader-occurrences.json",
+      "retrievedAt": "2026-10-02T15:07:04.634Z",
+      "bytes": 282665854,
+      "sha256": "31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f",
+      "recordCount": 204122,
+      "recordsFound": 204122,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-occurrences-31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f.json.gz",
+      "retainedSha256": "dc919f14b624119ab5e4dc7677b50461ae7efc1404fb4b721190e6817fc33cf1"
+    },
+    {
+      "key": "supplemental-parent-identity-400968",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=400968&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "400968",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-parent-identity-400968.json",
+      "retrievedAt": "2026-10-02T15:10:00.499Z",
+      "bytes": 338,
+      "sha256": "34ffdb0c7a2755aa14a9d2d700ac3ab03d8811f37d0cf45caca4ce9346e87237",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-parent-identity-400968-34ffdb0c7a2755aa14a9d2d700ac3ab03d8811f37d0cf45caca4ce9346e87237.json.gz",
+      "retainedSha256": "bb8777ab22b55fdd41e33e0fd7584406a26e7158ef96b03ecaaf368c663ecb67"
+    },
+    {
+      "key": "supplemental-parent-identity-400965",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=400965&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "400965",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-parent-identity-400965.json",
+      "retrievedAt": "2026-10-02T15:10:01.478Z",
+      "bytes": 341,
+      "sha256": "9ca51ba3c87f1337e3d063f0965f788f0cec0ab9eaab25dd16c1bd57a6008df1",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-parent-identity-400965-9ca51ba3c87f1337e3d063f0965f788f0cec0ab9eaab25dd16c1bd57a6008df1.json.gz",
+      "retainedSha256": "9fcd07c4dc83a64b86220d5d97da9bb3bea68940ae7a164e9479424a77259d58"
+    },
+    {
+      "key": "supplemental-parent-identity-364162",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=364162&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "364162",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-parent-identity-364162.json",
+      "retrievedAt": "2026-10-02T15:10:00.499Z",
+      "bytes": 336,
+      "sha256": "6cdc2f9e45ba143d561751633a7b98a9f96134bdb5273783a83a4628fe63d6c0",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-parent-identity-364162-6cdc2f9e45ba143d561751633a7b98a9f96134bdb5273783a83a4628fe63d6c0.json.gz",
+      "retainedSha256": "13c5c621cbe19480524b309af9b51ed621a2a341577f7f8dab8c8c7e3569aa86"
+    },
+    {
+      "key": "supplemental-parent-identity-56830",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=56830&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "56830",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-parent-identity-56830.json",
+      "retrievedAt": "2026-10-02T15:10:00.500Z",
+      "bytes": 273,
+      "sha256": "46c74e896cf667b85f8d6b69e370fd4d6d6d2f4a8b73995067811b7488ab71b2",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-parent-identity-56830-46c74e896cf667b85f8d6b69e370fd4d6d6d2f4a8b73995067811b7488ab71b2.json.gz",
+      "retainedSha256": "39e00b6e9542d6d3c0dd12e650a70064a0dcd24568fa07f0af6d8b0c9293526a"
+    },
+    {
+      "key": "supplemental-parent-identity-312556",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=312556&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "312556",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-parent-identity-312556.json",
+      "retrievedAt": "2026-10-02T15:10:00.495Z",
+      "bytes": 275,
+      "sha256": "fe2eae8ba92cbdc5a211b9899b8df365607389cfa10ed3cd317d8efca0bdd0e4",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-parent-identity-312556-fe2eae8ba92cbdc5a211b9899b8df365607389cfa10ed3cd317d8efca0bdd0e4.json.gz",
+      "retainedSha256": "390ca513726bf68c1d70db80425d5acf28c7a5b66931a8c6c59efa23cac3a7d5"
+    },
+    {
+      "key": "supplemental-parent-identity-38996",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=38996&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "38996",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-parent-identity-38996.json",
+      "retrievedAt": "2026-10-02T15:10:00.358Z",
+      "bytes": 285,
+      "sha256": "3391afa8ece0662f68c265d2ef83dcf3b11dd8a4f6be94d1c2834494eb86b9f9",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-parent-identity-38996-3391afa8ece0662f68c265d2ef83dcf3b11dd8a4f6be94d1c2834494eb86b9f9.json.gz",
+      "retainedSha256": "460b333a23c961608abf8cd23361d6313fd04228d29a75100d993e8eb879982e"
+    },
+    {
+      "key": "supplemental-hierarchy-identity-430278",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=430278&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "430278",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-hierarchy-identity-430278.json",
+      "retrievedAt": "2026-10-02T15:13:32.183Z",
+      "bytes": 291,
+      "sha256": "9104632ff70360d39cb71da087ebf1f5c9c44870d19cc8b5fcc556dcaaaea019",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-hierarchy-identity-430278-9104632ff70360d39cb71da087ebf1f5c9c44870d19cc8b5fcc556dcaaaea019.json.gz",
+      "retainedSha256": "821ffd5d0c7b005a54ff73b48e9473954db2f9b87d104e3df3c4aa578f2de915"
+    },
+    {
+      "key": "supplemental-hierarchy-identity-234343",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=234343&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "234343",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-hierarchy-identity-234343.json",
+      "retrievedAt": "2026-10-02T15:13:32.175Z",
+      "bytes": 311,
+      "sha256": "46255369153eb25e1a3c8f46ba771d651c1f56252a1201b6b27fa81ee9f67d36",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-hierarchy-identity-234343-46255369153eb25e1a3c8f46ba771d651c1f56252a1201b6b27fa81ee9f67d36.json.gz",
+      "retainedSha256": "052fe96a3723e316e0b93ecb9fa47f79c7b6c48d716ba4afe42949ae7a16aafe"
+    },
+    {
+      "key": "supplemental-hierarchy-identity-57278",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=57278&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "57278",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-hierarchy-identity-57278.json",
+      "retrievedAt": "2026-10-02T15:13:33.239Z",
+      "bytes": 315,
+      "sha256": "05e7ba4bb1f2e18013b7c664637309eedfb7ecef5f9e3fb1a207b29a1e89a528",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-hierarchy-identity-57278-05e7ba4bb1f2e18013b7c664637309eedfb7ecef5f9e3fb1a207b29a1e89a528.json.gz",
+      "retainedSha256": "262d75eff2f2d4cf32de0cbfc51b2ae690e35cd500e16c2fc5c513ae766ae6b2"
+    },
+    {
+      "key": "supplemental-hierarchy-identity-151359",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=151359&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "151359",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-hierarchy-identity-151359.json",
+      "retrievedAt": "2026-10-02T15:13:32.216Z",
+      "bytes": 289,
+      "sha256": "6ff33f56530807d6474041b028e0dd6ca379ab45550888f8ee108d93e87c4624",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-hierarchy-identity-151359-6ff33f56530807d6474041b028e0dd6ca379ab45550888f8ee108d93e87c4624.json.gz",
+      "retainedSha256": "2ab10f51cca4b9d1515206d01538be0c2552c045e0e0bccc88f52b27ec008750"
+    }
+  ],
+  "sourceOccurrenceRecords": 204122,
+  "reportedAndReturnedOccurrences": 204122,
+  "selectedSpeciesCount": 45,
+  "authoredSpeciesCount": 45,
+  "selectedOccurrenceCount": 144,
+  "groupRoutesAuthored": 46,
+  "newSpeciesProfiles": 45,
+  "newGroupProfiles": 46,
+  "existingProfilesExpanded": 0,
+  "deferredExisting": [],
+  "sourceInsufficient": [
+    {
+      "oid": "txn:391882",
+      "name": "Hylerpeton longidentatum",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:419776",
+      "name": "Pantylus tryptychus",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:367480",
+      "name": "Proxilodon bonneri",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    }
+  ],
+  "excludedOccurrences": [
+    {
+      "oid": "occ:631441",
+      "tid": "txn:229312",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:631442",
+      "tid": "txn:90715",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:789055",
+      "tid": "txn:229312",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:789063",
+      "tid": "txn:229312",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:820898",
+      "tid": "txn:149291",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:820928",
+      "tid": "txn:149291",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:820929",
+      "tid": "txn:149291",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:821003",
+      "tid": "txn:149291",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:821691",
+      "tid": "txn:90684",
+      "reason": "qualified identification requires individual source review"
+    }
+  ],
+  "sourceArchivePath": "data/sources/amniota-residual-occurrence-guides-2026-10-02-records.jsonl.gz",
+  "sourceArchiveSha256": "5cdf5fb5973a6cb61b7ee8b1695135f835747685625224e5baf83c669b4bf1d2",
+  "authoredPages": [
+    {
+      "pbdbTaxonId": "txn:249478",
+      "scientificName": "Colognathus obscurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Colognathus/Colognathus_obscurus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:162200",
+      "scientificName": "Vitalia grata",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Vitalia/Vitalia_grata",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:367477",
+      "scientificName": "Dvellecanus carrolli",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Dvellecanus/Dvellecanus_carrolli",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:367482",
+      "scientificName": "Huskerpeton englehorni",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Huskerpeton/Huskerpeton_englehorni",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:440198",
+      "scientificName": "Joermungandr bolti",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Joermungandr/Joermungandr_bolti",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:367475",
+      "scientificName": "Aletrimyti gaskillae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Aletrimyti/Aletrimyti_gaskillae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:164852",
+      "scientificName": "Hylerpeton dawsoni",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Hylerpeton/Hylerpeton_dawsoni",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:156879",
+      "scientificName": "Elfridia bulbidens",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Elfridia/Elfridia_bulbidens",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:320817",
+      "scientificName": "Euryodus bonneri",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Euryodus/Euryodus_bonneri",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:227036",
+      "scientificName": "Euryodus dalyae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Euryodus/Euryodus_dalyae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:120864",
+      "scientificName": "Euryodus primus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Euryodus/Euryodus_primus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:137993",
+      "scientificName": "Leiocephalikon problematicum",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Leiocephalikon/Leiocephalikon_problematicum",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:136938",
+      "scientificName": "Pariotichus brachyops",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Pariotichus/Pariotichus_brachyops",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:137293",
+      "scientificName": "Cardiocephalus peabodyi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Cardiocephalus/Cardiocephalus_peabodyi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:90715",
+      "scientificName": "Cardiocephalus sternbergi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Cardiocephalus/Cardiocephalus_sternbergi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:338124",
+      "scientificName": "Sparodus validus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Sparodus/Sparodus_validus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:223734",
+      "scientificName": "Bolterpeton carrolli",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Bolterpeton/Bolterpeton_carrolli",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:227375",
+      "scientificName": "Stegotretus agyrus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Stegotretus/Stegotretus_agyrus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:70439",
+      "scientificName": "Pantylus cordatus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Pantylidae/Pantylus/Pantylus_cordatus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:391935",
+      "scientificName": "Pantylus coicodus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Pantylidae/Pantylus/Pantylus_coicodus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:320816",
+      "scientificName": "Trachystegos megalodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Pantylidae/Trachystegos/Trachystegos_megalodon",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:387344",
+      "scientificName": "Diabloroter bolti",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Brachystelechidae/Diabloroter/Diabloroter_bolti",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:485526",
+      "scientificName": "Bromerpeton subcolossus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Brachystelechidae/Bromerpeton/Bromerpeton_subcolossus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:340813",
+      "scientificName": "Batropetes niederkirchensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Brachystelechidae/Batropetes/Batropetes_niederkirchensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:340815",
+      "scientificName": "Batropetes appelensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Brachystelechidae/Batropetes/Batropetes_appelensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:340814",
+      "scientificName": "Batropetes palatinus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Brachystelechidae/Batropetes/Batropetes_palatinus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:137988",
+      "scientificName": "Batropetes fritschia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Brachystelechidae/Batropetes/Batropetes_fritschia",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:227004",
+      "scientificName": "Carrolla craddocki",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Brachystelechidae/Carrolla/Carrolla_craddocki",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:227373",
+      "scientificName": "Quasicaecilia texana",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Brachystelechidae/Quasicaecilia/Quasicaecilia_texana",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:150619",
+      "scientificName": "Ostodolepis brevispinatus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Ostodolepidae/Ostodolepis/Ostodolepis_brevispinatus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:207729",
+      "scientificName": "Tambaroter carrolli",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Ostodolepidae/Tambaroter/Tambaroter_carrolli",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:150627",
+      "scientificName": "Nannaroter mckinziei",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Ostodolepidae/Nannaroter/Nannaroter_mckinziei",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:150625",
+      "scientificName": "Pelodosotis elongatum",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Ostodolepidae/Pelodosotis/Pelodosotis_elongatum",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:90684",
+      "scientificName": "Micraroter erythrogeios",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Ostodolepidae/Micraroter/Micraroter_erythrogeios",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:387606",
+      "scientificName": "Infernovenator steenae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Molgophidae/Infernovenator/Infernovenator_steenae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:320834",
+      "scientificName": "Molgophis macrurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Molgophidae/Molgophis/Molgophis_macrurus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:229312",
+      "scientificName": "Brachydectes newberryi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Molgophidae/Brachydectes/Brachydectes_newberryi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:320833",
+      "scientificName": "Lysorophus dunkardensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Molgophidae/Brachydectes/Lysorophus_dunkardensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:161893",
+      "scientificName": "Kraterokheirodon colberti",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Kraterokheirodon/Kraterokheirodon_colberti",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:321008",
+      "scientificName": "Gnorhimosuchus satpaevi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Gnorhimosuchus/Gnorhimosuchus_satpaevi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:362928",
+      "scientificName": "Timanosaurus ivachnenkoi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Timanosaurus/Timanosaurus_ivachnenkoi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:148205",
+      "scientificName": "Stereosternum tumidum",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Mesosauria/Mesosauridae/Stereosternum/Stereosternum_tumidum",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:148176",
+      "scientificName": "Brazilosaurus sanpauloensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Mesosauria/Mesosauridae/Brazilosaurus/Brazilosaurus_sanpauloensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:84847",
+      "scientificName": "Brasileosaurus pachecoi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Mesosauria/Mesosauridae/Brasileosaurus/Brasileosaurus_pachecoi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:149291",
+      "scientificName": "Mesosaurus tenuidens",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Mesosauria/Mesosauridae/Mesosaurus/Mesosaurus_tenuidens",
+      "rank": "species"
+    }
+  ],
+  "authoredGroupPages": [
+    {
+      "pbdbTaxonId": "txn:53189",
+      "scientificName": "Amniota",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:69037",
+      "scientificName": "Colognathus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Colognathus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37549",
+      "scientificName": "Vitalia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Vitalia",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:367478",
+      "scientificName": "Recumbirostra",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:367476",
+      "scientificName": "Dvellecanus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Dvellecanus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:367481",
+      "scientificName": "Huskerpeton",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Huskerpeton",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:440197",
+      "scientificName": "Joermungandr",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Joermungandr",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:367474",
+      "scientificName": "Aletrimyti",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Aletrimyti",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37293",
+      "scientificName": "Gymnarthridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:37297",
+      "scientificName": "Hylerpeton",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Hylerpeton",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37295",
+      "scientificName": "Elfridia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Elfridia",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37296",
+      "scientificName": "Euryodus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Euryodus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37298",
+      "scientificName": "Leiocephalikon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Leiocephalikon",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37299",
+      "scientificName": "Pariotichus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Pariotichus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37294",
+      "scientificName": "Cardiocephalus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Cardiocephalus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37300",
+      "scientificName": "Sparodus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Sparodus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:223733",
+      "scientificName": "Bolterpeton",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Bolterpeton",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:227374",
+      "scientificName": "Stegotretus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Gymnarthridae/Stegotretus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37290",
+      "scientificName": "Pantylidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Pantylidae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:37291",
+      "scientificName": "Pantylus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Pantylidae/Pantylus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37292",
+      "scientificName": "Trachystegos",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Pantylidae/Trachystegos",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37314",
+      "scientificName": "Brachystelechidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Brachystelechidae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:387343",
+      "scientificName": "Diabloroter",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Brachystelechidae/Diabloroter",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:485525",
+      "scientificName": "Bromerpeton",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Brachystelechidae/Bromerpeton",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37513",
+      "scientificName": "Batropetes",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Brachystelechidae/Batropetes",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37316",
+      "scientificName": "Carrolla",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Brachystelechidae/Carrolla",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:227371",
+      "scientificName": "Quasicaecilia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Brachystelechidae/Quasicaecilia",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37301",
+      "scientificName": "Ostodolepidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Ostodolepidae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:37303",
+      "scientificName": "Ostodolepis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Ostodolepidae/Ostodolepis",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:207728",
+      "scientificName": "Tambaroter",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Ostodolepidae/Tambaroter",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:150626",
+      "scientificName": "Nannaroter",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Ostodolepidae/Nannaroter",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37304",
+      "scientificName": "Pelodosotis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Ostodolepidae/Pelodosotis",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37302",
+      "scientificName": "Micraroter",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Ostodolepidae/Micraroter",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:330690",
+      "scientificName": "Molgophidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Molgophidae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:387605",
+      "scientificName": "Infernovenator",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Molgophidae/Infernovenator",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37324",
+      "scientificName": "Molgophis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Molgophidae/Molgophis",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:227167",
+      "scientificName": "Brachydectes",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Recumbirostra/Molgophidae/Brachydectes",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:161892",
+      "scientificName": "Kraterokheirodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Kraterokheirodon",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37220",
+      "scientificName": "Gnorhimosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Gnorhimosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:362927",
+      "scientificName": "Timanosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Timanosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37577",
+      "scientificName": "Mesosauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Mesosauria",
+      "rank": "suborder"
+    },
+    {
+      "pbdbTaxonId": "txn:37578",
+      "scientificName": "Mesosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Mesosauria/Mesosauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:37580",
+      "scientificName": "Stereosternum",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Mesosauria/Mesosauridae/Stereosternum",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:148175",
+      "scientificName": "Brazilosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Mesosauria/Mesosauridae/Brazilosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37579",
+      "scientificName": "Brasileosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Mesosauria/Mesosauridae/Brasileosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36324",
+      "scientificName": "Mesosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Mesosauria/Mesosauridae/Mesosaurus",
+      "rank": "genus"
+    }
+  ],
+  "canonicalStorage": "Recorded PBDB ancestry below the previously documented Amniota path; no internal taxon ID or COL equivalence minted. Existing index and other record types preserved.",
+  "sourceInterpretation": "eag/lag are occurrence-age brackets; selected outer envelope does not establish FAD/LAD, origin/extinction or continuous occupancy. Collection environment and preservation modes are collection-level fields, not whole-species ecological or specimen claims.",
+  "underlyingPapersRead": false,
+  "expertReview": false,
+  "fullSpeciesMonographsCompleted": 0,
+  "primatesGapsClosed": 0,
+  "readerVisibleDelivery": "Canonical prose prepared. PBDB atlas/profile/navigation compatibility mapping, generation, runtime delivery and publication pending content-phase handoff.",
+  "projectionMapping": "Do not inject PBDB OIDs into COL catalogue profile descriptors. Convert/append the current catalogue-profile text pointers to PBDB atlas-profile using recorded external OIDs at content handoff, preserving existing atlas records and scientific uncertainties.",
+  "editorialPass": {
+    "englishGrammarParagraphs": 60,
+    "chineseLabelParagraphs": 45,
+    "neutralLimitHeadings": 182,
+    "scope": "Only current P5-56 paragraph markers and new neutral limitation headings. Source rows, percentages, ages, names, citations and maturity states retained.",
+    "additionalChineseLabelParagraphs": 1,
+    "representativePagesRead": [
+      "Colognathus obscurus",
+      "Amniota"
+    ],
+    "chineseRankParagraphs": 46,
+    "additionalEnvironmentLabelParagraphs": 3
+  },
+  "timelineEndpointProvenance": {
+    "localeParagraphs": 90,
+    "scope": "Named collection and occurrence ID identify one contributor to each selected outer bound. Source ages and rows unchanged."
+  }
+}

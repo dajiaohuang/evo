@@ -1,0 +1,611 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Borealosuchus sternbergii
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Borealosuchus sternbergii
+      en: Borealosuchus sternbergii
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbCrocodylomorphTaxonomy20261002
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+          metadataVariant: 0
+          sourceKey: pbdbCrocodylomorphTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Borealosuchus sternbergii
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=134839&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+          metadataVariant: 0
+          sourceKey: pbdbCrocodylomorphOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:134839; original response record indices retained in data/sources/crocodylomorph-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: c4a662dc45be8020da61b782b38d37ab583c35a2e4bdf978ceca29e010472ca1
+            pbdbTaxonId: txn:134839
+            selectedOccurrenceIds:
+              - occ:149326
+              - occ:287913
+              - occ:291018
+              - occ:457919
+              - occ:457980
+              - occ:458000
+              - occ:458006
+              - occ:458011
+              - occ:458020
+              - occ:458039
+              - occ:458051
+              - occ:458063
+              - occ:458105
+              - occ:458128
+              - occ:458170
+              - occ:458178
+              - occ:458186
+              - occ:458201
+              - occ:458226
+              - occ:458251
+              - occ:458283
+              - occ:459858
+              - occ:460439
+              - occ:460453
+              - occ:460463
+              - occ:460470
+              - occ:460497
+              - occ:464142
+              - occ:464369
+              - occ:483634
+              - occ:487830
+              - occ:487882
+              - occ:487911
+              - occ:487952
+              - occ:487980
+              - occ:488003
+              - occ:488025
+              - occ:488043
+              - occ:488071
+              - occ:488111
+              - occ:488192
+              - occ:488242
+              - occ:488289
+              - occ:488382
+              - occ:488551
+              - occ:488578
+              - occ:488621
+              - occ:488984
+              - occ:521014
+              - occ:521035
+              - occ:545129
+              - occ:545154
+              - occ:545318
+              - occ:545465
+              - occ:545471
+              - occ:545475
+              - occ:545965
+              - occ:545999
+              - occ:546006
+              - occ:692631
+              - occ:819358
+              - occ:820652
+              - occ:820664
+              - occ:820666
+              - occ:820674
+              - occ:820684
+              - occ:820789
+              - occ:898392
+              - occ:898483
+              - occ:1011424
+              - occ:1171316
+              - occ:1171608
+              - occ:1505214
+              - occ:1505259
+              - occ:1505271
+              - occ:1505315
+              - occ:1625993
+              - occ:1680114
+              - occ:1680115
+              - occ:1680116
+              - occ:1680118
+              - occ:1680119
+              - occ:1680120
+            selectedCollectionIds:
+              - col:13142
+              - col:14557
+              - col:14640
+              - col:45113
+              - col:45128
+              - col:45120
+              - col:45112
+              - col:45119
+              - col:45102
+              - col:45111
+              - col:45110
+              - col:45109
+              - col:45136
+              - col:45099
+              - col:14610
+              - col:45130
+              - col:45124
+              - col:45137
+              - col:45143
+              - col:45144
+              - col:45145
+              - col:45299
+              - col:45381
+              - col:45382
+              - col:45386
+              - col:45388
+              - col:45390
+              - col:14585
+              - col:14514
+              - col:14505
+              - col:14519
+              - col:14534
+              - col:14535
+              - col:14536
+              - col:14533
+              - col:14538
+              - col:14546
+              - col:14548
+              - col:14549
+              - col:14559
+              - col:14566
+              - col:14574
+              - col:14582
+              - col:14654
+              - col:14643
+              - col:14639
+              - col:14615
+              - col:14596
+              - col:14620
+              - col:14621
+              - col:14527
+              - col:14570
+              - col:14578
+              - col:14579
+              - col:14625
+              - col:14644
+              - col:57159
+              - col:57166
+              - col:57168
+              - col:14674
+              - col:14552
+              - col:45134
+              - col:45114
+              - col:45313
+              - col:45118
+              - col:45117
+              - col:45098
+              - col:99864
+              - col:99881
+              - col:123518
+              - col:14601
+              - col:11931
+              - col:209936
+              - col:209976
+              - col:209987
+              - col:210027
+              - col:230116
+              - col:176868
+              - col:176750
+              - col:238106
+              - col:238108
+              - col:238109
+              - col:238110
+            sourceReferenceIds:
+              - ref:4381
+              - ref:774
+              - ref:717
+              - ref:11749
+              - ref:1129
+              - ref:13103
+              - ref:803
+              - ref:1921
+              - ref:2333
+              - ref:13456
+              - ref:820
+              - ref:90346
+              - ref:84675
+            originalIdentificationMappings:
+              - occurrenceId: occ:149326
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:287913
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:291018
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:457919
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:457980
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:458000
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:458006
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:458011
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:458020
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:458039
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:458051
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:458063
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:458105
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:458128
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:458170
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:458178
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:458186
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:458201
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:458226
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:458251
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:458283
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:459858
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:460439
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:460453
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:460463
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:460470
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:460497
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:464142
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:464369
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:483634
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:487830
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:487882
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:487911
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:487952
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:487980
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:488003
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:488025
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:488043
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:488071
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:488111
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:488192
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:488242
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:488289
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:488382
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:488551
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:488578
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:488621
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:488984
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:521014
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:521035
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:545129
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:545154
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:545318
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:545465
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:545471
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:545475
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:545965
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:545999
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:546006
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:692631
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:819358
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:820652
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:820664
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:820666
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:820674
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:820684
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:820789
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:898392
+                originalIdentifiedName: Leidyosuchus sternbergii n. sp.
+                acceptedName: Borealosuchus sternbergii
+                difference: recombined as
+              - occurrenceId: occ:898483
+                originalIdentifiedName: Leidyosuchus sternbergii
+                acceptedName: Borealosuchus sternbergii
+                difference: recombined as
+              - occurrenceId: occ:1011424
+                originalIdentifiedName: Leidyosuchus sternbergii
+                acceptedName: Borealosuchus sternbergii
+                difference: recombined as
+              - occurrenceId: occ:1171316
+                originalIdentifiedName: Leidyosuchus sternbergi
+                acceptedName: Borealosuchus sternbergii
+                difference: misspelling of, recombined as
+              - occurrenceId: occ:1171608
+                originalIdentifiedName: Leidyosuchus sternbergii
+                acceptedName: Borealosuchus sternbergii
+                difference: recombined as
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Borealosuchus sternbergii

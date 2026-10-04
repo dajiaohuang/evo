@@ -1,0 +1,277 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Remiz pendulinus
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Remiz pendulinus
+      en: Remiz pendulinus
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
+      - topic: ecology
+        sourceIds:
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/6/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/6/text/en
+      - topic: sources
+        sourceIds:
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/7/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/7/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+          metadataVariant: 0
+          sourceKey: taxonomy
+          usage:
+            title: Catalogue of Life COL26.8 — Remiz pendulinus
+            url: https://www.checklistbank.org/dataset/316115/taxon/4RRFV
+            locator: Pinned accepted name, rank and ancestry; concept equivalence not established.
+          originalFields:
+            - id
+            - title
+            - url
+            - locator
+        - referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+          metadataVariant: 0
+          sourceKey: amnioteLifeHistory2015
+          usage:
+            locator: Amniote_Database_Aug_2015.csv row 6611; name Remiz pendulinus; reference table row 6611; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            availableFields:
+              - adult_body_mass_g
+              - female_maturity_d
+              - litter_or_clutch_size_n
+              - maximum_longevity_y
+            originalReferenceStrings:
+              adult_body_mass_g: mean of de Magalhaes and Costa, 2009 & Dunning, 1992 from median of 8(BC Birds - Dijk, R.E., Szentirmai, I., Szekely, T., 2007, BC Birds - Szentirmai, I., Szekely, T., Komdeur, J., 2007, BC Birds - Tacutu, R., T. Craig, A. Budovsky et al. 2013, Dunning, 1992, Dunning, 1992, Boback and Guyer, 2003, Szekely, Lislevand, and Figuerola, 2007, de Magalhaes and Costa, 2009)
+              female_maturity_d: mean of BC Birds - Tacutu, R., T. Craig, A. Budovsky et al. 2013 and de Magalhaes and Costa, 2009
+              litter_or_clutch_size_n: mean of BC Birds - Meszaros, L.A., 2010 & Jetz, Sekercioglu, and Bohning-Gaese, 2008 from median of 4(BC Birds - Meszaros, L.A., 2010, BC Birds - Meszaros, L.A., 2010, Jetz, Sekercioglu, and Bohning-Gaese, 2008, Szekely, Lislevand, and Figuerola, 2007)
+              maximum_longevity_y: BC Birds - Tacutu, R., T. Craig, A. Budovsky et al. 2013
+            sameNameSourceLabels:
+              - Dunning, 1992
+              - Szekely, Lislevand, and Figuerola, 2007
+              - de Magalhaes and Costa, 2009
+              - Boback and Guyer, 2003
+              - BC Birds - Dijk, R.E., Szentirmai, I., Szekely, T., 2007
+              - BC Birds - Szentirmai, I., Szekely, T., Komdeur, J., 2007
+              - BC Birds - Tacutu, R., T. Craig, A. Budovsky et al. 2013
+              - Jetz, Sekercioglu, and Bohning-Gaese, 2008
+              - BC Birds - Meszaros, L.A., 2010
+              - Fransson, T., Kolehmainen, T., Kroon, C. et al., 2010
+              - BC Birds - Wilson, 2003
+            sourceVersion: August 2015 archive
+            sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+            scope:
+              zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+              en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - availableFields
+            - originalReferenceStrings
+            - sameNameSourceLabels
+            - sourceVersion
+            - sourceFileSha256
+            - scope
+        - referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+          metadataVariant: 0
+          sourceKey: amnioteLifeHistoryMethods2015
+          usage:
+            locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+              en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+            sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+            sourceVersion: August 2015 archive
+            readerBoundaries:
+              - No field values treated as independent individual measurements.
+              - No guarantee of present taxonomic concept equivalence.
+              - Original input papers not individually reviewed.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+            - sourceRetrievalUrl
+            - sourceVersion
+            - readerBoundaries
+        - referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+          metadataVariant: 0
+          sourceKey: eltonTraitsSingleField2014
+          usage:
+            locator: BirdFuncDat.txt logical TSV row 6839; Scientific=Remiz pendulinus; BirdFuncDatSources.txt; selected group source labels retained separately.
+            accessedAt: 2026-10-02
+            sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+            sourceFileSha256: 97216eb1797da077169ebb1ebea275db293b09fc62f8bb8911f9beb98c50d321
+            selectedFieldGroups:
+              diet:
+                fields:
+                  - Diet-Inv
+                  - Diet-Vend
+                  - Diet-Vect
+                  - Diet-Vfish
+                  - Diet-Vunk
+                  - Diet-Scav
+                  - Diet-Fruit
+                  - Diet-Nect
+                  - Diet-Seed
+                  - Diet-PlantO
+                references:
+                  - id: Ref_13
+                    verbatim: Handbook of the Birds of the World vol.13.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+                certainty: A
+            withheldFieldGroups:
+              - group: foraging
+                reason: not species-level or source/category support unavailable
+                speciesLevel: "1"
+            sourceRecordComment: ""
+            associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+            scope:
+              zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+              en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+            readerFieldCautions:
+              - fieldGroup: foraging
+                sourceCode: "1"
+                reason: not species-level or source/category support unavailable
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - sourceVersion
+            - sourceFileSha256
+            - selectedFieldGroups
+            - withheldFieldGroups
+            - sourceRecordComment
+            - associationBoundary
+            - scope
+        - referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+          metadataVariant: 0
+          sourceKey: eltonTraitsMethods2014
+          usage:
+            locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+            accessedAt: 2026-10-02
+            scope:
+              zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+              en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Remiz pendulinus

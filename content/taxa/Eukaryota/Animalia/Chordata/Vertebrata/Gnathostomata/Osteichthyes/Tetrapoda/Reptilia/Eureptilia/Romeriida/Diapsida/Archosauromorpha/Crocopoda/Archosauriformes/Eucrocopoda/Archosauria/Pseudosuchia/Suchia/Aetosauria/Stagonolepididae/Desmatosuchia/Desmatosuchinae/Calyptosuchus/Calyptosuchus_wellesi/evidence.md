@@ -1,0 +1,405 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Calyptosuchus wellesi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Calyptosuchus wellesi
+      en: Calyptosuchus wellesi
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherArchosauriaTaxonomy20261002
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d904a353-9f55-4918-a6a5-9ff24bb69837
+          metadataVariant: 0
+          sourceKey: pbdbArchosauriaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Calyptosuchus wellesi
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=69072&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d904a353-9f55-4918-a6a5-9ff24bb69837
+          metadataVariant: 0
+          sourceKey: pbdbOtherArchosauriaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:69072; original response record indices retained in data/sources/other-archosauria-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 95c66a034ee801effe8e70dd0e2d80f080cfb92730dab8e60a52bf5d4a379a25
+            pbdbTaxonId: txn:69072
+            selectedOccurrenceIds:
+              - occ:406876
+              - occ:517595
+              - occ:562846
+              - occ:667871
+              - occ:782166
+              - occ:782180
+              - occ:832690
+              - occ:832691
+              - occ:837168
+              - occ:837181
+              - occ:837182
+              - occ:837363
+              - occ:837552
+              - occ:837562
+              - occ:837593
+              - occ:837601
+              - occ:838837
+              - occ:838864
+              - occ:838917
+              - occ:838919
+              - occ:838924
+              - occ:838927
+              - occ:838928
+              - occ:838932
+              - occ:838936
+              - occ:838955
+              - occ:838959
+              - occ:838963
+              - occ:838999
+              - occ:840615
+              - occ:840618
+              - occ:840619
+              - occ:840621
+              - occ:840769
+              - occ:841820
+              - occ:841825
+              - occ:842773
+              - occ:842875
+              - occ:850016
+              - occ:1081002
+              - occ:1081007
+              - occ:1330178
+              - occ:1580212
+            selectedCollectionIds:
+              - col:39160
+              - col:52500
+              - col:57683
+              - col:71976
+              - col:84264
+              - col:84268
+              - col:39219
+              - col:92322
+              - col:92821
+              - col:92819
+              - col:92824
+              - col:92850
+              - col:52499
+              - col:92912
+              - col:92922
+              - col:92923
+              - col:93113
+              - col:93115
+              - col:93116
+              - col:93117
+              - col:93118
+              - col:93119
+              - col:93120
+              - col:93123
+              - col:93126
+              - col:93127
+              - col:93129
+              - col:93131
+              - col:93135
+              - col:93226
+              - col:93227
+              - col:93228
+              - col:93229
+              - col:93232
+              - col:93354
+              - col:93356
+              - col:93541
+              - col:93559
+              - col:94493
+              - col:135662
+              - col:98596
+              - col:179082
+              - col:13273
+            sourceReferenceIds:
+              - ref:14122
+              - ref:12930
+              - ref:31343
+              - ref:31689
+              - ref:43392
+              - ref:31825
+              - ref:78487
+            originalIdentificationMappings:
+              - occurrenceId: occ:406876
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:517595
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:562846
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:667871
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:782166
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:782180
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:832690
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:832691
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:837168
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:837181
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:837182
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:837363
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:837552
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:837562
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:837593
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:837601
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:838837
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:838864
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:838917
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:838919
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:838924
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:838927
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:838928
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:838932
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:838936
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:838955
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:838959
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:838963
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:838999
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:840615
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:840618
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:840619
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:840621
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:840769
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:841820
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:841825
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:842773
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:842875
+                originalIdentifiedName: Acompsosaurus wingatensis n. gen. n. sp.
+                acceptedName: Calyptosuchus wellesi
+                difference: null
+              - occurrenceId: occ:850016
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:1081002
+                originalIdentifiedName: Calyptosuchus wellesi n. gen. n. sp.
+                acceptedName: Calyptosuchus wellesi
+                difference: null
+              - occurrenceId: occ:1081007
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+              - occurrenceId: occ:1330178
+                originalIdentifiedName: Stagonolepis wellesi
+                acceptedName: Calyptosuchus wellesi
+                difference: recombined as
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Calyptosuchus wellesi

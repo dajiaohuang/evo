@@ -12,14 +12,10 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: taxonomy
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
+          - silva2022cacajao
+          - salve2025novaesi
         text:
           zh:
             markdown: page.zh.md
@@ -27,12 +23,9 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+      - topic: molecular-sample-attribution
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
+          - silva2022cacajao
         text:
           zh:
             markdown: page.zh.md
@@ -40,14 +33,10 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+      - topic: regional-distribution
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/1
+          - silva2021bald_uakari_distribution
+          - salve2025novaesi
         text:
           zh:
             markdown: page.zh.md
@@ -55,14 +44,10 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/2/text/en
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/3/topic
+      - topic: habitat-and-field-note
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/3/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/3/sourceIds/1
+          - silva2021bald_uakari_distribution
+          - salve2025novaesi
         text:
           zh:
             markdown: page.zh.md
@@ -70,12 +55,9 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/3/text/en
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/4/topic
+      - topic: conservation-assessment
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/4/sourceIds/0
+          - salve2025novaesi
         text:
           zh:
             markdown: page.zh.md

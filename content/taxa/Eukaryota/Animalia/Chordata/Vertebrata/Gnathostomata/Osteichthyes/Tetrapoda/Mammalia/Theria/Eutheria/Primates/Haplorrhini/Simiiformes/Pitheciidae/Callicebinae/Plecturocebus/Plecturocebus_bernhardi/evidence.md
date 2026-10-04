@@ -10,11 +10,11 @@ records:
       zh: 贝恩哈德僧面猴
       en: Prince Bernhard's Titi
     reviewStatus: source-linked
-    checkedAt: 2026-09-29
+    checkedAt: 2026-10-03
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: typeMaterial
+        sourceIds:
+          - roosmalen2002BernhardiMaterials
         text:
           zh:
             markdown: page.zh.md
@@ -22,9 +22,56 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
+      - topic: pelageDiagnosis
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
+          - roosmalen2002BernhardiMaterials
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: cranialMeasurements
+        sourceIds:
+          - roosmalen2002BernhardiMaterials
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: fieldLocalities
+        sourceIds:
+          - roosmalen2002BernhardiMaterials
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: habitatObservations
+        sourceIds:
+          - roosmalen2002BernhardiMaterials
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+      - topic: distribution
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
+        sourceIds:
+          - costa_araujo2024_arc_deforestation_supplement
     sources:
       referenceBindings:
         - referenceId: ref-0c80a445-fbed-8293-a4d8-d4ecb697f65c
@@ -78,6 +125,24 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-2f000fd5-6860-8219-a161-06127f0ecb71
+          metadataVariant: 0
+          sourceKey: roosmalen2002BernhardiMaterials
+          usage:
+            title: A taxonomic review of the titi monkeys, genus Callicebus Thomas, 1903, with the description of two new species, Callicebus bernhardi and Callicebus stephennashi, from Brazilian Amazonia
+            url: https://doi.org/10.62015/np.2002.v10.503
+            accessedAt: 2026-10-03
+            locator: Published NP10 supplement pp. 24–27, bernhardi account and captions; pp. 28–30 captions; pp. 25–26 pixels and table 3 inspected. No specimen remeasurement or modern population audit.
+            scope:
+              zh: bernhardi 类型材料、颜色诊断、单件颅骨及限定野外观察。
+              en: Bernhardi type material, pelage diagnosis, one skull and bounded field observations.
+          originalFields:
+            - id
+            - title
+            - url
+            - accessedAt
+            - locator
             - scope
     limitations:
       zh:

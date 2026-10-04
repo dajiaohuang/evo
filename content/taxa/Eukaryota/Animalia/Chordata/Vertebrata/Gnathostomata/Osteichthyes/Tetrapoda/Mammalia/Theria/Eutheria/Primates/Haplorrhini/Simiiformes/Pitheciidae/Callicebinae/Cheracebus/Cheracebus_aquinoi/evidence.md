@@ -10,11 +10,9 @@ records:
       zh: 阿基诺跳猴
       en: Aquino's Titi
     reviewStatus: source-linked
-    checkedAt: 2026-10-01
+    checkedAt: 2026-10-03
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: descriptionAndTypeLocality
         text:
           zh:
             markdown: page.zh.md
@@ -23,15 +21,10 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - rengifo2022
+          - mdd_name
+      - topic: rangeAndEvidenceLimits
         text:
           zh:
             markdown: page.zh.md
@@ -40,15 +33,10 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/2
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - taxonomy
+          - rengifo2022
+          - mdd_name
+      - topic: regional survey boundary
         text:
           zh:
             markdown: page.zh.md
@@ -57,13 +45,9 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/2/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/3/topic
+          - aquino2021
+          - rengifo2022
+      - topic: habitatAndDietInEarlierStudies
         text:
           zh:
             markdown: page.zh.md
@@ -72,8 +56,7 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/3/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/3/sourceIds/0
+          - rengifo2022
     sources:
       referenceBindings:
         - referenceId: ref-dfe72ec6-82e2-89a6-a081-3ce1d76f4e7d

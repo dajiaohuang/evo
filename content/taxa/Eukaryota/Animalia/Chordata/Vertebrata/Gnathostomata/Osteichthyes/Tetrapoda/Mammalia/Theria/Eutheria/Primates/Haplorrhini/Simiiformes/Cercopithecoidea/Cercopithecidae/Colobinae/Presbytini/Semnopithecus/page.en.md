@@ -7,68 +7,28 @@ status: migrated-verbatim
 
 # Semnopithecus
 
-## overview
-
-<!-- evo:text /records/catalogue-profile/sections/0/topic -->
-overview
-<!-- /evo:text -->
-
-## overview
+## Overview
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
 This guide follows the eight Semnopithecus species IDs in the fixed COL26.8 primate roster: the seven source-linked pages in this batch and the existing S. vetulus page. Start with the Himalayan studies—autumn feeding in S. ajax, the dated Dharan survey of S. hector, and the geophagy experiment on S. schistaceus—then compare the local S. entellus transect counts with S. priam's seasonal diet observations. For southern India, read the S. hypoleucos–S. johnii comparison alongside the Silent Valley S. johnii feeding record; the latter was published under Trachypithecus johnii. Close with the existing S. vetulus fecal-screening guide, which is a local health study. The route preserves the names and scopes used by each source; it is not a complete genus ecology review or a final taxonomic treatment.
 <!-- /evo:text -->
 
-## overview
+## Choose comparison pages by life-history fields
 
-<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/0 -->
-ajax2022
+<!-- evo:text /records/catalogue-profile/sections/1/text/en -->
+This batch’s Semnopithecus route includes 6 historical life-history accounts; start with Semnopithecus ajax, Semnopithecus entellus, Semnopithecus hector, Semnopithecus hypoleucos, Semnopithecus priam. More frequently represented fields include adult body mass (6 entries), female maturity field (defined by the source as age at first conception) (6 entries), offspring per litter or eggs per clutch (6 entries), conception or fertilization to birth (6 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 <!-- /evo:text -->
 
-## overview
+## Compare food, feeding positions and activity periods
 
-<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/1 -->
-entellus2008
+<!-- evo:text /records/catalogue-profile/sections/2/text/en -->
+This batch’s Semnopithecus route includes 6 historical entries; start with Semnopithecus priam, Semnopithecus ajax, Semnopithecus hypoleucos, Semnopithecus hector, Semnopithecus entellus. Food-category weights are available in 4, foraging strata in 6, and mammalian activity periods in 6. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 <!-- /evo:text -->
 
-## overview
-
-<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/2 -->
-hector2020
-<!-- /evo:text -->
-
-## overview
-
-<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/3 -->
-hypoleucos2015
-<!-- /evo:text -->
-
-## overview
-
-<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/4 -->
-johnii2001
-<!-- /evo:text -->
-
-## overview
-
-<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/5 -->
-priam2021
-<!-- /evo:text -->
-
-## overview
-
-<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/6 -->
-schistaceus2019
-<!-- /evo:text -->
-
-## overview
-
-<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/7 -->
-vetulus2021
-<!-- /evo:text -->
-
-## catalogue-profile / limitations
+## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
 This selected reading path links local studies for the eight fixed COL26.8 roster IDs; study designs, dates and locations differ. It is not an exhaustive natural-history review or a resolution of historical taxonomic combinations, and it is not externally expert-reviewed.
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs and external expert review remain unfinished.
 <!-- /evo:text -->

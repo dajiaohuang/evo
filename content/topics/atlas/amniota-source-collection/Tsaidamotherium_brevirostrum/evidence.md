@@ -1,0 +1,15 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  collection-status:
+    scientificName: Tsaidamotherium brevirostrum
+    sourceIdentity: PBDB:txn:499960
+    status: source-collection-placeholder
+    ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+    sourceLocators: []
+    expertReview: false
+    comprehensiveSpeciesMonograph: false
+---
+
+# Tsaidamotherium brevirostrum

@@ -12,9 +12,7 @@ records:
       zh: 乌塔·希克胡须僧面猴
     reviewStatus: source-linked
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
         text:
           en:
             markdown: page.en.md
@@ -23,13 +21,9 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - mdd
+      - topic: habitatSurvey
         text:
           en:
             markdown: page.en.md
@@ -38,11 +32,8 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/1/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - habitat1998
+      - topic: islandDiet
         text:
           en:
             markdown: page.en.md
@@ -51,10 +42,8 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/2/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/1
+          - feeding2002
+          - feeding2013
     sources:
       referenceBindings:
         - referenceId: ref-67f57a53-2403-87f8-a094-4cd97f636441

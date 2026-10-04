@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: distribution
         text:
           zh:
             markdown: page.zh.md
@@ -23,8 +21,7 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
+          - costa_araujo2024_arc_deforestation
     sources:
       referenceBindings:
         - referenceId: ref-0c80a445-fbed-8293-a4d8-d4ecb697f65c

@@ -1,0 +1,1433 @@
+{
+  "batch": "P5-116",
+  "date": "2026-10-03",
+  "operation": "Correct singular record grammar and replace duplicated identical body-mass endpoints with a single historical-value explanation.",
+  "groupProfilesInventoried": 126,
+  "groupsUpdated": 31,
+  "readerFilesChanged": 54,
+  "grammarBlocksCorrected": 60,
+  "bilingualMassBlocksClarified": 46,
+  "massGroupsClarified": 23,
+  "changes": [
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Atelidae/Atelinae/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Atelidae/Atelinae",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/0/text/en",
+          "before": "The local PanTHERIA route for Atelinae includes 1 usable data accounts. Start with Ateles paniscus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Atelinae includes one usable data account. Start with Ateles paniscus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Ateles paniscus records 8697.25 g and Ateles paniscus records 8697.25 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 8697.25 g for Ateles paniscus, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Ateles paniscus",
+          "grams": "8697.25",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "13d398d22f99e17d05edf82f579b4b16ae3675435b8f7cb87f10c8f6e8a86927",
+      "afterSha256": "fce166f277146ee218225fbcdcec3f3163c12380f896d554562979c41b709ac2"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Atelidae/Atelinae/Ateles/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Atelidae/Atelinae/Ateles",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "The local PanTHERIA route for Ateles includes 1 usable data accounts. Start with Ateles paniscus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Ateles includes one usable data account. Start with Ateles paniscus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/3/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Ateles paniscus records 8697.25 g and Ateles paniscus records 8697.25 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 8697.25 g for Ateles paniscus, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Ateles paniscus",
+          "grams": "8697.25",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "806b91aa6400128bde80b0a46ca174bd35789daadc2b6bb4ceb54e79567cd6cf",
+      "afterSha256": "de017b051d20ad84e37c00704bd0542fa9437a83da92fabd4edc38cee78dd2b2"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cebidae/Cebinae/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cebidae/Cebinae",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/0/text/en",
+          "before": "The local PanTHERIA route for Cebinae includes 1 usable data accounts. Start with Cebus capucinus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Cebinae includes one usable data account. Start with Cebus capucinus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Cebus capucinus records 3005.99 g and Cebus capucinus records 3005.99 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 3005.99 g for Cebus capucinus, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Cebus capucinus",
+          "grams": "3005.99",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "ef6cc2a66b8258b7e2d7e42fe29d26f0bd6ab511e9eecd9c8d6f66fd5ff34c2e",
+      "afterSha256": "25e9f560e9b816f69a06d1752c142543191e25dedf09303c6947d4b60af927e3"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Cercopithecini/Allenopithecus/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Cercopithecini/Allenopithecus",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/4/text/en",
+          "before": "This batch’s Allenopithecus route includes 1 historical life-history accounts; start with Allenopithecus nigroviridis. More frequently represented fields include adult body mass (1 entries), offspring per litter or eggs per clutch (1 entries), age of dependence on food other than maternal milk (1 entries), mass at birth or hatching (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.",
+          "after": "This batch’s Allenopithecus route includes one historical life-history account; start with Allenopithecus nigroviridis. More frequently represented fields include adult body mass (1 entry), offspring per litter or eggs per clutch (1 entry), age of dependence on food other than maternal milk (1 entry), mass at birth or hatching (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/5/text/en",
+          "before": "This batch’s Allenopithecus route includes 1 historical entries; start with Allenopithecus nigroviridis. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.",
+          "after": "This batch’s Allenopithecus route includes one historical entry; start with Allenopithecus nigroviridis. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "The local PanTHERIA route for Allenopithecus includes 1 usable data accounts. Start with Allenopithecus nigroviridis. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Allenopithecus includes one usable data account. Start with Allenopithecus nigroviridis. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Allenopithecus nigroviridis records 4749.96 g and Allenopithecus nigroviridis records 4749.96 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 4749.96 g for Allenopithecus nigroviridis, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Allenopithecus nigroviridis",
+          "grams": "4749.96",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "00407eab27c68435c77da8fa42a704deae133d812bc6e30d9eccff22e41d9bb7",
+      "afterSha256": "bec0cc70fe560a37ee69e57f15e8bc6066bd67d0253d482709c8e63100c4e821"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Cercopithecini/Erythrocebus/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Cercopithecini/Erythrocebus",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/5/text/en",
+          "before": "This batch’s Erythrocebus route includes 1 historical life-history accounts; start with Erythrocebus patas. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.",
+          "after": "This batch’s Erythrocebus route includes one historical life-history account; start with Erythrocebus patas. More frequently represented fields include adult body mass (1 entry), female maturity field (defined by the source as age at first conception) (1 entry), offspring per litter or eggs per clutch (1 entry), conception or fertilization to birth (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/6/text/en",
+          "before": "This batch’s Erythrocebus route includes 1 historical entries; start with Erythrocebus patas. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.",
+          "after": "This batch’s Erythrocebus route includes one historical entry; start with Erythrocebus patas. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "The local PanTHERIA route for Erythrocebus includes 1 usable data accounts. Start with Erythrocebus patas. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Erythrocebus includes one usable data account. Start with Erythrocebus patas. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/3/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Erythrocebus patas records 7966.3 g and Erythrocebus patas records 7966.3 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 7966.3 g for Erythrocebus patas, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Erythrocebus patas",
+          "grams": "7966.3",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "6398bc88142acbfb9c139a0aea615b9796b04d46b3a476013af2bbf1cb627eb7",
+      "afterSha256": "36be89529c89b9221afa7d8fb3203d3362b9a32fedd95a8bc7c7b8a4a905ed48"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Cercopithecini/Miopithecus/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Cercopithecini/Miopithecus",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/4/text/en",
+          "before": "This batch’s Miopithecus route includes 1 historical life-history accounts; start with Miopithecus talapoin. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.",
+          "after": "This batch’s Miopithecus route includes one historical life-history account; start with Miopithecus talapoin. More frequently represented fields include adult body mass (1 entry), female maturity field (defined by the source as age at first conception) (1 entry), offspring per litter or eggs per clutch (1 entry), conception or fertilization to birth (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "The local PanTHERIA route for Miopithecus includes 1 usable data accounts. Start with Miopithecus talapoin. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Miopithecus includes one usable data account. Start with Miopithecus talapoin. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Miopithecus talapoin records 1248.86 g and Miopithecus talapoin records 1248.86 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 1248.86 g for Miopithecus talapoin, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Miopithecus talapoin",
+          "grams": "1248.86",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "7eedf8c32a00c945edcee0e150ab621e40065361e58389bdefad1c5217e29a12",
+      "afterSha256": "8d932d288f7612ffb43fecc76fe54179175246c915efb762e908676afc67334f"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Papionini/Cercocebus/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Papionini/Cercocebus",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "The local PanTHERIA route for Cercocebus includes 1 usable data accounts. Start with Cercocebus galeritus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Cercocebus includes one usable data account. Start with Cercocebus galeritus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Cercocebus galeritus records 7077.66 g and Cercocebus galeritus records 7077.66 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 7077.66 g for Cercocebus galeritus, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Cercocebus galeritus",
+          "grams": "7077.66",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "72dcb3a93a0e9850cf8adf362baa861aa2cc0e22ce7973baa6626a953a4204d5",
+      "afterSha256": "49210ba55ca7abff9ffb8a63fa976d7b91043f151319fde4a4d9fc287bc1562a"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Papionini/Theropithecus/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Papionini/Theropithecus",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/5/text/en",
+          "before": "This batch’s Theropithecus route includes 1 historical life-history accounts; start with Theropithecus gelada. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.",
+          "after": "This batch’s Theropithecus route includes one historical life-history account; start with Theropithecus gelada. More frequently represented fields include adult body mass (1 entry), female maturity field (defined by the source as age at first conception) (1 entry), offspring per litter or eggs per clutch (1 entry), conception or fertilization to birth (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/6/text/en",
+          "before": "This batch’s Theropithecus route includes 1 historical entries; start with Theropithecus gelada. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.",
+          "after": "This batch’s Theropithecus route includes one historical entry; start with Theropithecus gelada. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "The local PanTHERIA route for Theropithecus includes 1 usable data accounts. Start with Theropithecus gelada. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Theropithecus includes one usable data account. Start with Theropithecus gelada. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/3/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Theropithecus gelada records 15964.11 g and Theropithecus gelada records 15964.11 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 15964.11 g for Theropithecus gelada, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Theropithecus gelada",
+          "grams": "15964.11",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "2c6941ddf45ccb896ab9f3b6a8074a669828438e124ceab34875554dd42d0a1a",
+      "afterSha256": "da678f662a74543a31bb2ca06a9b5ea15e210da9f44863a4d3f391c6a634a55e"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Colobinae/Colobini/Procolobus/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Colobinae/Colobini/Procolobus",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/4/text/en",
+          "before": "This batch’s Procolobus route includes 1 historical life-history accounts; start with Procolobus verus. More frequently represented fields include adult body mass (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.",
+          "after": "This batch’s Procolobus route includes one historical life-history account; start with Procolobus verus. More frequently represented fields include adult body mass (1 entry), offspring per litter or eggs per clutch (1 entry), conception or fertilization to birth (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/5/text/en",
+          "before": "This batch’s Procolobus route includes 1 historical entries; start with Procolobus verus. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.",
+          "after": "This batch’s Procolobus route includes one historical entry; start with Procolobus verus. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "The local PanTHERIA route for Procolobus includes 1 usable data accounts. Start with Procolobus verus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Procolobus includes one usable data account. Start with Procolobus verus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Procolobus verus records 3977.86 g and Procolobus verus records 3977.86 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 3977.86 g for Procolobus verus, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Procolobus verus",
+          "grams": "3977.86",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "89e44629af5964f378eceae1dc976c8d3dc2d6e8fa155000732461cf849d306d",
+      "afterSha256": "5b795cf8e799849419a621c8f847daa5bf887e0c9d512c951a4f78b33267fd0a"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Colobinae/Presbytini/Nasalis/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Colobinae/Presbytini/Nasalis",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/0/text/en",
+          "before": "The local PanTHERIA route for Nasalis includes 1 usable data accounts. Start with Nasalis larvatus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Nasalis includes one usable data account. Start with Nasalis larvatus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "This batch’s Nasalis route includes 1 historical life-history accounts; start with Nasalis larvatus. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.",
+          "after": "This batch’s Nasalis route includes one historical life-history account; start with Nasalis larvatus. More frequently represented fields include adult body mass (1 entry), female maturity field (defined by the source as age at first conception) (1 entry), offspring per litter or eggs per clutch (1 entry), conception or fertilization to birth (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/3/text/en",
+          "before": "This batch’s Nasalis route includes 1 historical entries; start with Nasalis larvatus. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.",
+          "after": "This batch’s Nasalis route includes one historical entry; start with Nasalis larvatus. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Nasalis larvatus records 12265.65 g and Nasalis larvatus records 12265.65 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 12265.65 g for Nasalis larvatus, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Nasalis larvatus",
+          "grams": "12265.65",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "fb2b5624269f2ca31f2ce3fdf03588b5660532273b4c95f3c2a0450d2b2829df",
+      "afterSha256": "d29e95f7d75bbe7a13926501c5dbc551ad933892d3fd79683c1f8072bf662a08"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Colobinae/Presbytini/Simias/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Colobinae/Presbytini/Simias",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "This batch’s Simias route includes 1 historical entries; start with Simias concolor. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.",
+          "after": "This batch’s Simias route includes one historical entry; start with Simias concolor. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group."
+        }
+      ],
+      "beforeSha256": "c93dd04da85c16ff68341a6efdb685163f2204a22abaea459cd9d700ae212aa7",
+      "afterSha256": "ac107a32783751094de871d8b947ff77500605af97874d8db13e6071269b5ed4"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Hominoidea/Hominidae/Homininae/Homo/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Hominoidea/Hominidae/Homininae/Homo",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/0/text/en",
+          "before": "This batch’s Homo route includes 1 historical life-history accounts; start with Homo sapiens. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.",
+          "after": "This batch’s Homo route includes one historical life-history account; start with Homo sapiens. More frequently represented fields include adult body mass (1 entry), female maturity field (defined by the source as age at first conception) (1 entry), offspring per litter or eggs per clutch (1 entry), conception or fertilization to birth (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "This batch’s Homo route includes 1 historical entries; start with Homo sapiens. Food-category weights are available in 0, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.",
+          "after": "This batch’s Homo route includes one historical entry; start with Homo sapiens. Food-category weights are available in 0, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group."
+        }
+      ],
+      "beforeSha256": "3c7d3a921e314b31586dbabf643e22b340834710c1f35af67fd83f5a700f5737",
+      "afterSha256": "55446a5f8d13e5fa0b9e851c63e770b5ad045581d7542ab05a1f478183aae2e9"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Hominoidea/Hylobatidae/Symphalangus/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Hominoidea/Hylobatidae/Symphalangus",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/0/text/en",
+          "before": "This batch’s Symphalangus route includes 1 historical life-history accounts; start with Symphalangus syndactylus. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.",
+          "after": "This batch’s Symphalangus route includes one historical life-history account; start with Symphalangus syndactylus. More frequently represented fields include adult body mass (1 entry), female maturity field (defined by the source as age at first conception) (1 entry), offspring per litter or eggs per clutch (1 entry), conception or fertilization to birth (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "This batch’s Symphalangus route includes 1 historical entries; start with Symphalangus syndactylus. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.",
+          "after": "This batch’s Symphalangus route includes one historical entry; start with Symphalangus syndactylus. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group."
+        }
+      ],
+      "beforeSha256": "06ce488249198ec89924dcfa1ff963b89d97afc819c5fccf52379c638b810a24",
+      "afterSha256": "10e9e47822249da582a857fbc8ee1dc848f0dc293080b15871a03df1c808e428"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Tarsiiformes/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Tarsiiformes",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/0/text/en",
+          "before": "The local PanTHERIA route for Tarsiiformes includes 1 usable data accounts. Start with Tarsius pumilus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Tarsiiformes includes one usable data account. Start with Tarsius pumilus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        }
+      ],
+      "beforeSha256": "ef62ecdeace5e893fab8de8371c82ef3f1dfbfce16b2d6f6ce4d9971a491c221",
+      "afterSha256": "c01c640a1fb2342f38c69583ceab0adc7d02c00cf778537b97e276dbed531914"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Tarsiiformes/Tarsiidae/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Tarsiiformes/Tarsiidae",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/0/text/en",
+          "before": "The local PanTHERIA route for Tarsiidae includes 1 usable data accounts. Start with Tarsius pumilus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Tarsiidae includes one usable data account. Start with Tarsius pumilus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        }
+      ],
+      "beforeSha256": "7d7e015cd6087276d3082b0d18d4c30ece630d3041fbac9d939f60e779c62468",
+      "afterSha256": "159ae1c029802c11af7fd33dee8396a19bd2a383d91f968a4bf4d76525807c84"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Tarsiiformes/Tarsiidae/Tarsius/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Tarsiiformes/Tarsiidae/Tarsius",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "The local PanTHERIA route for Tarsius includes 1 usable data accounts. Start with Tarsius pumilus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Tarsius includes one usable data account. Start with Tarsius pumilus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        }
+      ],
+      "beforeSha256": "d7b0907a67b0e15d95a35a971838038930e9b5e6d62d747bfd859e3db83f6d5a",
+      "afterSha256": "3865b36c8399f0716ddc98e1f88ed88dd6ba6d610792c994556f9d6207a29d04"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Chiromyiformes/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Chiromyiformes",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/0/text/en",
+          "before": "The local PanTHERIA route for Chiromyiformes includes 1 usable data accounts. Start with Daubentonia madagascariensis. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Chiromyiformes includes one usable data account. Start with Daubentonia madagascariensis. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "This batch’s Chiromyiformes route includes 1 historical life-history accounts; start with Daubentonia madagascariensis. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.",
+          "after": "This batch’s Chiromyiformes route includes one historical life-history account; start with Daubentonia madagascariensis. More frequently represented fields include adult body mass (1 entry), female maturity field (defined by the source as age at first conception) (1 entry), offspring per litter or eggs per clutch (1 entry), conception or fertilization to birth (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/3/text/en",
+          "before": "This batch’s Chiromyiformes route includes 1 historical entries; start with Daubentonia madagascariensis. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.",
+          "after": "This batch’s Chiromyiformes route includes one historical entry; start with Daubentonia madagascariensis. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Daubentonia madagascariensis records 2731.37 g and Daubentonia madagascariensis records 2731.37 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 2731.37 g for Daubentonia madagascariensis, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Daubentonia madagascariensis",
+          "grams": "2731.37",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "f8a02ce4411da745cd63e4d101532a86998c1cd946275b0450aa8376459f3c37",
+      "afterSha256": "f22d2fe003858ca48a1eedac05c56e90ecd026137018c616c4a274f5b2f8a180"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Chiromyiformes/Daubentoniidae/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Chiromyiformes/Daubentoniidae",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/0/text/en",
+          "before": "The local PanTHERIA route for Daubentoniidae includes 1 usable data accounts. Start with Daubentonia madagascariensis. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Daubentoniidae includes one usable data account. Start with Daubentonia madagascariensis. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "This batch’s Daubentoniidae route includes 1 historical life-history accounts; start with Daubentonia madagascariensis. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.",
+          "after": "This batch’s Daubentoniidae route includes one historical life-history account; start with Daubentonia madagascariensis. More frequently represented fields include adult body mass (1 entry), female maturity field (defined by the source as age at first conception) (1 entry), offspring per litter or eggs per clutch (1 entry), conception or fertilization to birth (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/3/text/en",
+          "before": "This batch’s Daubentoniidae route includes 1 historical entries; start with Daubentonia madagascariensis. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.",
+          "after": "This batch’s Daubentoniidae route includes one historical entry; start with Daubentonia madagascariensis. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Daubentonia madagascariensis records 2731.37 g and Daubentonia madagascariensis records 2731.37 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 2731.37 g for Daubentonia madagascariensis, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Daubentonia madagascariensis",
+          "grams": "2731.37",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "139ac34662e338812bc3d5d6bc5bc56a0b0e828cd79a3e2c8cb7aaab16a57015",
+      "afterSha256": "4050185f40d270964037a57c6827cbc3c3fa38dc590987a56a296330b002d5ed"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Chiromyiformes/Daubentoniidae/Daubentonia/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Chiromyiformes/Daubentoniidae/Daubentonia",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/4/text/en",
+          "before": "This batch’s Daubentonia route includes 1 historical life-history accounts; start with Daubentonia madagascariensis. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.",
+          "after": "This batch’s Daubentonia route includes one historical life-history account; start with Daubentonia madagascariensis. More frequently represented fields include adult body mass (1 entry), female maturity field (defined by the source as age at first conception) (1 entry), offspring per litter or eggs per clutch (1 entry), conception or fertilization to birth (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/5/text/en",
+          "before": "This batch’s Daubentonia route includes 1 historical entries; start with Daubentonia madagascariensis. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.",
+          "after": "This batch’s Daubentonia route includes one historical entry; start with Daubentonia madagascariensis. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "The local PanTHERIA route for Daubentonia includes 1 usable data accounts. Start with Daubentonia madagascariensis. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Daubentonia includes one usable data account. Start with Daubentonia madagascariensis. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Daubentonia madagascariensis records 2731.37 g and Daubentonia madagascariensis records 2731.37 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 2731.37 g for Daubentonia madagascariensis, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Daubentonia madagascariensis",
+          "grams": "2731.37",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "132fd2d9542015549b479b2f7a628a70aecc392170699f2e6d7707f1728733d8",
+      "afterSha256": "d3ee7395e18065e54fb24196d0cd5c8e4db594919a323149b06098a849bc4857"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Allocebus/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Allocebus",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/4/text/en",
+          "before": "This batch’s Allocebus route includes 1 historical life-history accounts; start with Allocebus trichotis. More frequently represented fields include adult body mass (1 entries), offspring per litter or eggs per clutch (1 entries), longest lifespan record in the compilation (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.",
+          "after": "This batch’s Allocebus route includes one historical life-history account; start with Allocebus trichotis. More frequently represented fields include adult body mass (1 entry), offspring per litter or eggs per clutch (1 entry), longest lifespan record in the compilation (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/5/text/en",
+          "before": "This batch’s Allocebus route includes 1 historical entries; start with Allocebus trichotis. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.",
+          "after": "This batch’s Allocebus route includes one historical entry; start with Allocebus trichotis. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "The local PanTHERIA route for Allocebus includes 1 usable data accounts. Start with Allocebus trichotis. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Allocebus includes one usable data account. Start with Allocebus trichotis. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Allocebus trichotis records 78.09 g and Allocebus trichotis records 78.09 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 78.09 g for Allocebus trichotis, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Allocebus trichotis",
+          "grams": "78.09",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "c9791c8c7faa28395c72fb0c61022f803c294db8bfe26fa0738dee837a996ebe",
+      "afterSha256": "e21f000aa1e96d6c6c401b7a9c4094ee366679e9ec56bf522fab9cc156f31739"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Microcebus/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Microcebus",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "The local PanTHERIA route for Microcebus includes 1 usable data accounts. Start with Microcebus rufus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Microcebus includes one usable data account. Start with Microcebus rufus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Microcebus rufus records 48.39 g and Microcebus rufus records 48.39 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 48.39 g for Microcebus rufus, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Microcebus rufus",
+          "grams": "48.39",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "26144465efc95097921ccf76945e35bb8072ae4ed0016d0b1c6d71afdc1f9be1",
+      "afterSha256": "c77c360fe25dc7e365f3a866e3ce5843c2155e2b4d649be92d99d2914b34bbc1"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Mirza/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Mirza",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "This batch’s Mirza route includes 1 historical life-history accounts; start with Mirza coquereli. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.",
+          "after": "This batch’s Mirza route includes one historical life-history account; start with Mirza coquereli. More frequently represented fields include adult body mass (1 entry), female maturity field (defined by the source as age at first conception) (1 entry), offspring per litter or eggs per clutch (1 entry), conception or fertilization to birth (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/3/text/en",
+          "before": "This batch’s Mirza route includes 1 historical entries; start with Mirza coquereli. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.",
+          "after": "This batch’s Mirza route includes one historical entry; start with Mirza coquereli. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group."
+        }
+      ],
+      "beforeSha256": "66b84c962dc5d61968ef71444a84c8c252e7075df841624736b82ce72fcdef6b",
+      "afterSha256": "3efadc99370bb75970b63510728d4c4f2944528726f4975d419f243e8f84a001"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Indriidae/Indri/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Indriidae/Indri",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/0/text/en",
+          "before": "The local PanTHERIA route for Indri includes 1 usable data accounts. Start with Indri indri. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Indri includes one usable data account. Start with Indri indri. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "This batch’s Indri route includes 1 historical entries; start with Indri indri. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.",
+          "after": "This batch’s Indri route includes one historical entry; start with Indri indri. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Indri indri records 8565.48 g and Indri indri records 8565.48 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 8565.48 g for Indri indri, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Indri indri",
+          "grams": "8565.48",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "976e1bb68ea77694c58832800e5fa816cab338b5ed707a2e602c63fd0492ab2b",
+      "afterSha256": "790708f082029a05541d9080a67a8d40de923181b3479bba24c94c359848a955"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Indriidae/Propithecus/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Indriidae/Propithecus",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "The local PanTHERIA route for Propithecus includes 1 usable data accounts. Start with Propithecus tattersalli. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Propithecus includes one usable data account. Start with Propithecus tattersalli. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Propithecus tattersalli records 3531.39 g and Propithecus tattersalli records 3531.39 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 3531.39 g for Propithecus tattersalli, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Propithecus tattersalli",
+          "grams": "3531.39",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "1d1a8eecd5c2a812e4d9bbbec23b6601a31ad7a1321811e9986c4b01d9e26651",
+      "afterSha256": "f34e87b8896a9b3db84a3e0517a631dea249cdeb65cbf5a66a8c950de70a857a"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Lemuridae/Hapalemur/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Lemuridae/Hapalemur",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "The local PanTHERIA route for Hapalemur includes 1 usable data accounts. Start with Hapalemur aureus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Hapalemur includes one usable data account. Start with Hapalemur aureus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Hapalemur aureus records 1562.41 g and Hapalemur aureus records 1562.41 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 1562.41 g for Hapalemur aureus, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Hapalemur aureus",
+          "grams": "1562.41",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "fa72eb6a16bc060dcb325a69527f646be6d8f53fc8e4603243c8423fefcd440b",
+      "afterSha256": "441f862a5fe34fe106e8572576dd7e89d80e25d96adb34b20fce6511bd9cd0b7"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Lemuridae/Lemur/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Lemuridae/Lemur",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/0/text/en",
+          "before": "The local PanTHERIA route for Lemur includes 1 usable data accounts. Start with Lemur catta. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Lemur includes one usable data account. Start with Lemur catta. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "This batch’s Lemur route includes 1 historical life-history accounts; start with Lemur catta. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.",
+          "after": "This batch’s Lemur route includes one historical life-history account; start with Lemur catta. More frequently represented fields include adult body mass (1 entry), female maturity field (defined by the source as age at first conception) (1 entry), offspring per litter or eggs per clutch (1 entry), conception or fertilization to birth (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/3/text/en",
+          "before": "This batch’s Lemur route includes 1 historical entries; start with Lemur catta. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.",
+          "after": "This batch’s Lemur route includes one historical entry; start with Lemur catta. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Lemur catta records 2626.48 g and Lemur catta records 2626.48 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 2626.48 g for Lemur catta, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Lemur catta",
+          "grams": "2626.48",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "fa0f0ce3e3b262d9f617782788a1b4be8f76243fe3f5933cb99383abe831a41c",
+      "afterSha256": "dadfb47739194568f0d91507d972e3a40fe53e3f16f6f5d280033bce21c68439"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Lemuridae/Prolemur/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Lemuridae/Prolemur",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "This batch’s Prolemur route includes 1 historical life-history accounts; start with Prolemur simus. More frequently represented fields include adult body mass (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries), longest lifespan record in the compilation (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.",
+          "after": "This batch’s Prolemur route includes one historical life-history account; start with Prolemur simus. More frequently represented fields include adult body mass (1 entry), offspring per litter or eggs per clutch (1 entry), conception or fertilization to birth (1 entry), longest lifespan record in the compilation (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "This batch’s Prolemur route includes 1 historical entries; start with Prolemur simus. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.",
+          "after": "This batch’s Prolemur route includes one historical entry; start with Prolemur simus. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group."
+        }
+      ],
+      "beforeSha256": "d13abb24dc71fd7e8bd3bdf7b403996d41dd29e2cdf0a84a2360ab3c42f35bfb",
+      "afterSha256": "b41186e042adc9ee9c9d4548564160fe0630f8194c949334a0f59e98d1d39392"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lorisiformes/Galagidae/Euoticus/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lorisiformes/Galagidae/Euoticus",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/4/text/en",
+          "before": "This batch’s Euoticus route includes 1 historical life-history accounts; start with Euoticus elegantulus. More frequently represented fields include adult body mass (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries), longest lifespan record in the compilation (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.",
+          "after": "This batch’s Euoticus route includes one historical life-history account; start with Euoticus elegantulus. More frequently represented fields include adult body mass (1 entry), offspring per litter or eggs per clutch (1 entry), conception or fertilization to birth (1 entry), longest lifespan record in the compilation (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "The local PanTHERIA route for Euoticus includes 1 usable data accounts. Start with Euoticus elegantulus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Euoticus includes one usable data account. Start with Euoticus elegantulus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Euoticus elegantulus records 295.48 g and Euoticus elegantulus records 295.48 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 295.48 g for Euoticus elegantulus, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Euoticus elegantulus",
+          "grams": "295.48",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "f6e3bbb76f9e26f16af95c9cbf82f638b2081b8449e4a436193bccba22e35472",
+      "afterSha256": "c4c8c388cf0ace93cde1fc7c8a121e12337e93a0446e32da2ca319b5d53ea6d7"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lorisiformes/Galagidae/Otolemur/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lorisiformes/Galagidae/Otolemur",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "The local PanTHERIA route for Otolemur includes 1 usable data accounts. Start with Otolemur garnettii. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Otolemur includes one usable data account. Start with Otolemur garnettii. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Otolemur garnettii records 811.17 g and Otolemur garnettii records 811.17 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 811.17 g for Otolemur garnettii, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Otolemur garnettii",
+          "grams": "811.17",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "1e26f8137301507269393e97e2995cd07bea9a413b797a902eca8b40e5fd7ff8",
+      "afterSha256": "1967ed217b483a0c9ecda9c52d25c8dd5aec3275707fbdbb276d0b4034a7ca44"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lorisiformes/Lorisidae/Perodicticinae/Arctocebus/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lorisiformes/Lorisidae/Perodicticinae/Arctocebus",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/1/text/en",
+          "before": "The local PanTHERIA route for Arctocebus includes 1 usable data accounts. Start with Arctocebus calabarensis. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Arctocebus includes one usable data account. Start with Arctocebus calabarensis. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Arctocebus calabarensis records 258.01 g and Arctocebus calabarensis records 258.01 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 258.01 g for Arctocebus calabarensis, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Arctocebus calabarensis",
+          "grams": "258.01",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "551849e060e713d3be18791c4fb141703e3fa4192fe84abcb3400674c0cdec96",
+      "afterSha256": "55473d664ce0b093525e00affe13a72dffe1c57bf5d05011d4ff537d99d4b8ad"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lorisiformes/Lorisidae/Perodicticinae/Perodicticus/page.en.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lorisiformes/Lorisidae/Perodicticinae/Perodicticus",
+      "locale": "en",
+      "edits": [
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/6/text/en",
+          "before": "This batch’s Perodicticus route includes 1 historical life-history accounts; start with Perodicticus potto. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.",
+          "after": "This batch’s Perodicticus route includes one historical life-history account; start with Perodicticus potto. More frequently represented fields include adult body mass (1 entry), female maturity field (defined by the source as age at first conception) (1 entry), offspring per litter or eggs per clutch (1 entry), conception or fertilization to birth (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/7/text/en",
+          "before": "This batch’s Perodicticus route includes 1 historical entries; start with Perodicticus potto. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.",
+          "after": "This batch’s Perodicticus route includes one historical entry; start with Perodicticus potto. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group."
+        },
+        {
+          "kind": "singular-grammar",
+          "field": "/records/catalogue-profile/sections/3/text/en",
+          "before": "The local PanTHERIA route for Perodicticus includes 1 usable data accounts. Start with Perodicticus potto. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.",
+          "after": "The local PanTHERIA route for Perodicticus includes one usable data account. Start with Perodicticus potto. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator."
+        },
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/4/text/en",
+          "before": "Among available consolidated adult-mass values in this batch, Perodicticus potto records 1081.81 g and Perodicticus potto records 1081.81 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.",
+          "after": "The adult-mass value shown here is 1081.81 g for Perodicticus potto, a historical median adjusted for sex. This single historical value cannot establish differences between species or a body-mass range for the group. Continue to the species pages for fetal development, weaning, activity and group fields after reading their definitions; this mass record does not establish a shared lifestyle for all descendants.",
+          "taxon": "Perodicticus potto",
+          "grams": "1081.81",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "15cd2a8d954234ee4369ce28079e9b58ee37436ce0eb7aef5661c2eaa3d00194",
+      "afterSha256": "432932a43303d8eb2ad2c99a398555af6a1148fcfc377c6d5a3f50424b4b24ca"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Atelidae/Atelinae/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Atelidae/Atelinae",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/1/text/zh",
+          "before": "本批可用的成年体重汇总值中，Ateles paniscus 为 8697.25 g，Ateles paniscus 为 8697.25 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Ateles paniscus 的 8697.25 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Ateles paniscus",
+          "grams": "8697.25",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "7337740173b81f533925ff83133cb9832c9b3b42a48bbdcb07aa9ac26993be86",
+      "afterSha256": "9b6accf8e3fa32074f0a9fed67df0467133020521275ef593b4aa4a0d76d1e9a"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Atelidae/Atelinae/Ateles/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Atelidae/Atelinae/Ateles",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/3/text/zh",
+          "before": "本批可用的成年体重汇总值中，Ateles paniscus 为 8697.25 g，Ateles paniscus 为 8697.25 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Ateles paniscus 的 8697.25 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Ateles paniscus",
+          "grams": "8697.25",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "1bf6fc13d9bb71b5dacfa52f965f3ca723f50816f77b375c8583f9d79939501f",
+      "afterSha256": "e840dd50ac68d7fe4df4ffaf6dcf019b5c48b4ed57bd78ad3c67f5d2ec38a408"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cebidae/Cebinae/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cebidae/Cebinae",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/1/text/zh",
+          "before": "本批可用的成年体重汇总值中，Cebus capucinus 为 3005.99 g，Cebus capucinus 为 3005.99 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Cebus capucinus 的 3005.99 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Cebus capucinus",
+          "grams": "3005.99",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "c49a2f099057aa31022dd4868a255e50238dba011d2469a4673693566b62ae3e",
+      "afterSha256": "ac1cf5695e171d3e61e154309f482eaa811b9d13a393d1b744a9638dff6b61a2"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Cercopithecini/Allenopithecus/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Cercopithecini/Allenopithecus",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/zh",
+          "before": "本批可用的成年体重汇总值中，Allenopithecus nigroviridis 为 4749.96 g，Allenopithecus nigroviridis 为 4749.96 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Allenopithecus nigroviridis 的 4749.96 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Allenopithecus nigroviridis",
+          "grams": "4749.96",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "5e7fe4ce6d3713ec1993f77b8d5fa62517c44d6ac28596b6977783c3a3d45059",
+      "afterSha256": "792370c7e2b712b6d5cf8b2bbc7691fc08c3c1ae92be411c08479143e9028ca2"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Cercopithecini/Erythrocebus/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Cercopithecini/Erythrocebus",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/3/text/zh",
+          "before": "本批可用的成年体重汇总值中，Erythrocebus patas 为 7966.3 g，Erythrocebus patas 为 7966.3 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Erythrocebus patas 的 7966.3 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Erythrocebus patas",
+          "grams": "7966.3",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "8f1f38400c084d05c52780d706cf43ab4e4e3ee83504a293ef79a4bcabb584d3",
+      "afterSha256": "a75d526b30e1cfdb9692db7794f87d23b24aac4556ce9be52e5b26d94a23c00c"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Cercopithecini/Miopithecus/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Cercopithecini/Miopithecus",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/zh",
+          "before": "本批可用的成年体重汇总值中，Miopithecus talapoin 为 1248.86 g，Miopithecus talapoin 为 1248.86 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Miopithecus talapoin 的 1248.86 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Miopithecus talapoin",
+          "grams": "1248.86",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "3e6bfb2292c083623c2b581de8c8cea17b13d9a6c1ae744b53212fbd3a62b8d1",
+      "afterSha256": "d031964d05af762afbb5125f3c510e652e7109e0da13b60e5141254e340ac9d7"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Papionini/Cercocebus/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Papionini/Cercocebus",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/zh",
+          "before": "本批可用的成年体重汇总值中，Cercocebus galeritus 为 7077.66 g，Cercocebus galeritus 为 7077.66 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Cercocebus galeritus 的 7077.66 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Cercocebus galeritus",
+          "grams": "7077.66",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "70d3e323e8ea26963591b65b4e6220b40f3403eef588ea0177e7171f2546bf66",
+      "afterSha256": "e724250325a2f370a6034be83984f2be98830705b71c3f8392b32e3e5a3786d0"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Papionini/Theropithecus/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Papionini/Theropithecus",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/3/text/zh",
+          "before": "本批可用的成年体重汇总值中，Theropithecus gelada 为 15964.11 g，Theropithecus gelada 为 15964.11 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Theropithecus gelada 的 15964.11 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Theropithecus gelada",
+          "grams": "15964.11",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "4a2f3abff36f9cbc9720066fe156fcef780654eea6660a91e942597a2072b27e",
+      "afterSha256": "e3e6a93bb35a3d4663a45a64e3a17ce2313de74dabdb824116ed93ac73cdc086"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Colobinae/Colobini/Procolobus/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Colobinae/Colobini/Procolobus",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/zh",
+          "before": "本批可用的成年体重汇总值中，Procolobus verus 为 3977.86 g，Procolobus verus 为 3977.86 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Procolobus verus 的 3977.86 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Procolobus verus",
+          "grams": "3977.86",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "1749bf57780594404b86801872a86fed01d114eb7f339fe59086e629e6f677be",
+      "afterSha256": "e6b2c7813979c17185ffe525c96bc5ce031628f5dfbe79a3e27cb4da38d9f796"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Colobinae/Presbytini/Nasalis/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Colobinae/Presbytini/Nasalis",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/1/text/zh",
+          "before": "本批可用的成年体重汇总值中，Nasalis larvatus 为 12265.65 g，Nasalis larvatus 为 12265.65 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Nasalis larvatus 的 12265.65 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Nasalis larvatus",
+          "grams": "12265.65",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "24dd683ea79d63acd1e598de260641c79cc075628367e1fbc8e52d50f4912b57",
+      "afterSha256": "ad6c3821c2f79c35f63198daef2a3ee83ad0afad38046cf653da0c0f07818114"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Chiromyiformes/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Chiromyiformes",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/1/text/zh",
+          "before": "本批可用的成年体重汇总值中，Daubentonia madagascariensis 为 2731.37 g，Daubentonia madagascariensis 为 2731.37 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Daubentonia madagascariensis 的 2731.37 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Daubentonia madagascariensis",
+          "grams": "2731.37",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "cb706bd3bf19c0b9e9086027fa04749bba728f4da93fe6d0db103fc8b315a0f1",
+      "afterSha256": "ecfe6306c41586e17fbae32b8e0d419f5ba67fe6de0ce5a27a01b9fb15c27e04"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Chiromyiformes/Daubentoniidae/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Chiromyiformes/Daubentoniidae",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/1/text/zh",
+          "before": "本批可用的成年体重汇总值中，Daubentonia madagascariensis 为 2731.37 g，Daubentonia madagascariensis 为 2731.37 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Daubentonia madagascariensis 的 2731.37 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Daubentonia madagascariensis",
+          "grams": "2731.37",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "f35e6fae0ad6c8d801cb42b8bbbea15ae6495aee4335c86198c2d49887b3469d",
+      "afterSha256": "d6f4e49fe2dfa13eee40f05a74a6fd267424e3a8dcf70a53b15f2d392fe16749"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Chiromyiformes/Daubentoniidae/Daubentonia/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Chiromyiformes/Daubentoniidae/Daubentonia",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/zh",
+          "before": "本批可用的成年体重汇总值中，Daubentonia madagascariensis 为 2731.37 g，Daubentonia madagascariensis 为 2731.37 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Daubentonia madagascariensis 的 2731.37 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Daubentonia madagascariensis",
+          "grams": "2731.37",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "14f9390f3f6b1d6fd5a462337ccb574771704b221f33e0a3ffd8dfff70d70844",
+      "afterSha256": "dff50878b51773f1f70bb118c16504303f18ab82a81096950966e782d1dde304"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Allocebus/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Allocebus",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/zh",
+          "before": "本批可用的成年体重汇总值中，Allocebus trichotis 为 78.09 g，Allocebus trichotis 为 78.09 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Allocebus trichotis 的 78.09 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Allocebus trichotis",
+          "grams": "78.09",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "0eb4ee0d7d84a43dd5e152596d27cb041cda078671891980025489f7138878fc",
+      "afterSha256": "36c58788d032ed0431b1e80125b415bc8e545adeaea6725aace9c1913d70c4c2"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Microcebus/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Microcebus",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/zh",
+          "before": "本批可用的成年体重汇总值中，Microcebus rufus 为 48.39 g，Microcebus rufus 为 48.39 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Microcebus rufus 的 48.39 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Microcebus rufus",
+          "grams": "48.39",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "bfe81401f8de6ecdf76e1da7333073d8326d07a1add60fa3a1749545b1c3863f",
+      "afterSha256": "3a9274ddcd944e05cd4d0fd1978a36d92e8989f9fc9462092a0d36deddbca2cc"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Indriidae/Indri/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Indriidae/Indri",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/1/text/zh",
+          "before": "本批可用的成年体重汇总值中，Indri indri 为 8565.48 g，Indri indri 为 8565.48 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Indri indri 的 8565.48 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Indri indri",
+          "grams": "8565.48",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "558b8ad086bcda41c92c80d99001e41c087caa30ea80ecc4eabb5d82841dc9cb",
+      "afterSha256": "28df71015612a49917afc609e7b19e3e75ce3f5ace662a3e56907ea99cf853c4"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Indriidae/Propithecus/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Indriidae/Propithecus",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/zh",
+          "before": "本批可用的成年体重汇总值中，Propithecus tattersalli 为 3531.39 g，Propithecus tattersalli 为 3531.39 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Propithecus tattersalli 的 3531.39 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Propithecus tattersalli",
+          "grams": "3531.39",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "69e3d5b93fd4383a0562247f55458c13a6fdef735d40544ba2f38334ecc0f03a",
+      "afterSha256": "a271c2261f0ba1893867990feecc904385cb179231fd3635bb975427a6b3639e"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Lemuridae/Hapalemur/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Lemuridae/Hapalemur",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/zh",
+          "before": "本批可用的成年体重汇总值中，Hapalemur aureus 为 1562.41 g，Hapalemur aureus 为 1562.41 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Hapalemur aureus 的 1562.41 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Hapalemur aureus",
+          "grams": "1562.41",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "35c01443a73999f03ba50dba82f2b2f2ea1917526411f27e4fe943ec40f9c718",
+      "afterSha256": "b0c4f503f73330d9ee649941f3e7390b28742892b2a3dbdc165140038ace4df7"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Lemuridae/Lemur/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Lemuroidea/Lemuridae/Lemur",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/1/text/zh",
+          "before": "本批可用的成年体重汇总值中，Lemur catta 为 2626.48 g，Lemur catta 为 2626.48 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Lemur catta 的 2626.48 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Lemur catta",
+          "grams": "2626.48",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "7d2426bce2c745da53e7e22feb82b2aee42105c6dbf12634722c7b7a099335f4",
+      "afterSha256": "2772ae0f8c9b60c6b6fc1f2621338a092d9d13c191271d10da9f5a63e1478db3"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lorisiformes/Galagidae/Euoticus/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lorisiformes/Galagidae/Euoticus",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/zh",
+          "before": "本批可用的成年体重汇总值中，Euoticus elegantulus 为 295.48 g，Euoticus elegantulus 为 295.48 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Euoticus elegantulus 的 295.48 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Euoticus elegantulus",
+          "grams": "295.48",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "852cf05cbf595d6d8161ffb9cea097822abbc8ad72d26bdde9d4a3b93ba1d111",
+      "afterSha256": "b3bf7818bff92217ac91cf904db4c99d548c1b92f524826242a5ea88f0331091"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lorisiformes/Galagidae/Otolemur/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lorisiformes/Galagidae/Otolemur",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/zh",
+          "before": "本批可用的成年体重汇总值中，Otolemur garnettii 为 811.17 g，Otolemur garnettii 为 811.17 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Otolemur garnettii 的 811.17 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Otolemur garnettii",
+          "grams": "811.17",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "ff148f0ed787d629e72c45d2361ac816ae44c2cbe404e408759f920cffa096aa",
+      "afterSha256": "c7f8591a2f87d6c4454378af9893e94e8bc932bde1b3625f4e959a52f697732b"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lorisiformes/Lorisidae/Perodicticinae/Arctocebus/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lorisiformes/Lorisidae/Perodicticinae/Arctocebus",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/2/text/zh",
+          "before": "本批可用的成年体重汇总值中，Arctocebus calabarensis 为 258.01 g，Arctocebus calabarensis 为 258.01 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Arctocebus calabarensis 的 258.01 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Arctocebus calabarensis",
+          "grams": "258.01",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "847333dd1146e363cefd5b2d7b8782574e1226e022e6d9e1107d67facad9c634",
+      "afterSha256": "a9205e0be26e1480cbd4737bdff85fa60d390f293c2ec1510a5054456741788f"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lorisiformes/Lorisidae/Perodicticinae/Perodicticus/page.zh.md",
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lorisiformes/Lorisidae/Perodicticinae/Perodicticus",
+      "locale": "zh",
+      "edits": [
+        {
+          "kind": "single-mass-value",
+          "field": "/records/catalogue-profile/sections/4/text/zh",
+          "before": "本批可用的成年体重汇总值中，Perodicticus potto 为 1081.81 g，Perodicticus potto 为 1081.81 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。",
+          "after": "这里列出的成年体重汇总值为 Perodicticus potto 的 1081.81 g，是经性别调整的历史中位数。这个单独的历史汇总值不能确定物种间的体型差异或整个类群的体重范围。可以继续阅读各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；这条体重记录不能说明所有后代共有的生活方式。",
+          "taxon": "Perodicticus potto",
+          "grams": "1081.81",
+          "sourceIds": [
+            "pantheriaWR05",
+            "pantheriaConsolidation2009"
+          ]
+        }
+      ],
+      "beforeSha256": "d8e7c75a3404b1e50d3777568ccd78287824b0efc0849c0c2bf12075c5f95889",
+      "afterSha256": "0b4df86abc6d85b8fa7f187ce324047c25adedc75fad103e7ae5b3b0a11bc798"
+    }
+  ],
+  "boundaries": {
+    "existingMassNumbersTaxonNamesAndSourceKeysPreserved": true,
+    "noNewMeasurementOrSourceReread": true,
+    "noGroupMassRangeInferred": true,
+    "otherScientificProseUnchanged": true,
+    "evidenceAndReferenceFilesUnchanged": true,
+    "classificationRangesCountsAndReviewStatesUnchanged": true,
+    "fixedAcceptedPrimateDenominator": 530,
+    "activePrimateSourceGaps": 14,
+    "newlyClosedPrimateSourceGaps": 0
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All edited blocks for sampled Perodicticus, Microcebus and Daubentonia pages, followed by their final bilingual mass wording; appended production-plan entry. Existing taxon names, numerical values and source keys inspected across all 23 mass groups before authoring.",
+    "allScientificProseReaudited": false,
+    "sampledGroups": [
+      "Perodicticus",
+      "Microcebus",
+      "Daubentonia"
+    ]
+  },
+  "delivery": "Canonical reader authoring only; no tests, generation, commit or publication"
+}

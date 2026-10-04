@@ -1,0 +1,49 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: en
+status: source-linked
+---
+
+# Anchiornis huxleyi
+
+
+## Which fossil records this name represents
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/en -->
+Anchiornis huxleyi is accepted in the fixed PBDB dinosaur working roster, with database parent Anchiornis. This guide uses 3 eligible species-level occurrence records from 3 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+<!-- /evo:text -->
+
+
+## Begin with named collections and strata
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/en -->
+Collection Daxishan (Liaoning), region code CN, stratum name Tiaojishan; database age bracket 161.5–154.8 Ma, early interval Oxfordian. Collection Yaolugou locality (Liaoning), region code CN, stratum name Tiaojishan; database age bracket 168.2–152.21 Ma, early interval Late Bathonian and late interval Early Kimmeridgian. Collection Daxishan, Linglongta (Liaoning), region code CN, stratum name Tiaojishan; database age bracket 168.2–152.21 Ma, early interval Late Bathonian and late interval Early Kimmeridgian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+<!-- /evo:text -->
+
+
+## Age bounds of these records
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/en -->
+Selected occurrences have an outer age envelope of 168.2–152.21 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+<!-- /evo:text -->
+
+
+## Read preservation setting separately from living habitat
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/en -->
+Daxishan has collection-environment label terrestrial indet.; collection preservation-mode label body,adpression,soft parts. Yaolugou locality has collection-environment label lacustrine indet.; collection preservation-mode label body,adpression,soft parts. Daxishan, Linglongta has collection-environment label lacustrine indet.; collection preservation-mode label body,adpression,soft parts. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+<!-- /evo:text -->
+
+
+## Follow collection records back to references
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/en -->
+Daxishan carries database reference attribution Hu et al. (2009), identifier ref:30823. Yaolugou locality carries database reference attribution Lindgren et al. (2015), identifier ref:56199. Daxishan, Linglongta carries database reference attribution Xu et al. (2009), identifier ref:35452. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+<!-- /evo:text -->
+
+## Evidence limits
+
+<!-- evo:text /records/catalogue-profile/limitations/en -->
+This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled; external domain expert review has not occurred.
+<!-- /evo:text -->

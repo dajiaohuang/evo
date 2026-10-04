@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: morphology and field description
         text:
           zh:
             markdown: page.zh.md
@@ -23,11 +21,8 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - louis2006_11_lemurs
+      - topic: known locality and limits
         text:
           zh:
             markdown: page.zh.md
@@ -36,8 +31,7 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
+          - louis2006_11_lemurs
     sources:
       referenceBindings:
         - referenceId: ref-e7286c18-3afc-8ad6-a1de-f35902a2d9c7

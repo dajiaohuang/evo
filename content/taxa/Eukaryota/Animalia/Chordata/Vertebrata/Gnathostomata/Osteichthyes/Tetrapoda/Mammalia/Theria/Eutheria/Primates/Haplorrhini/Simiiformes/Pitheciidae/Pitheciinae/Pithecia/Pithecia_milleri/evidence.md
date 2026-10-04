@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: distribution
         text:
           zh:
             markdown: page.zh.md
@@ -23,8 +21,7 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
+          - milleri2017
     sources:
       referenceBindings:
         - referenceId: ref-1f42bd1d-a459-8f3a-a500-9642cce7770a

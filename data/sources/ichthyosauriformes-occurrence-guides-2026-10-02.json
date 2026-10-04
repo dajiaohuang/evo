@@ -1,0 +1,2099 @@
+{
+  "schemaVersion": 1,
+  "batch": "P5-48",
+  "authoredAt": "2026-10-02",
+  "source": "Paleobiology Database Data Service 1.2",
+  "sourceReferenceId": "ref-2dd404cd-b72b-4fc1-8ad0-0dc4d9df94e9",
+  "methodReferenceId": "ref-c4887d31-ff09-4384-b816-a87cb63d0c54",
+  "fixedIchthyosauriformesDenominator": 182,
+  "pinnedColDenominators": {
+    "Mammalia": 6461,
+    "Aves": 11044,
+    "Reptilia": 12649
+  },
+  "pinnedPbdbAmniotaDenominator": 22684,
+  "denominatorsChanged": false,
+  "fixedPartitionDenominators": {
+    "ichthyosauriformes": 182
+  },
+  "authoredSpeciesByPartition": {
+    "ichthyosauriformes": 165
+  },
+  "recordedRootParentChain": [
+    {
+      "oid": "txn:36322",
+      "rnk": "class",
+      "nam": "Reptilia",
+      "att": "(Laurenti 1768)",
+      "par": "txn:135358",
+      "prl": "Sauropsida",
+      "rid": "ref:16886",
+      "ext": "1",
+      "noc": 72790
+    },
+    {
+      "oid": "txn:92204",
+      "vid": "var:135042",
+      "rnk": "subclass",
+      "nam": "Eureptilia",
+      "att": "(Olson 1947)",
+      "par": "txn:36322",
+      "prl": "Reptilia",
+      "rid": "ref:28403",
+      "ext": "1",
+      "noc": 61138
+    },
+    {
+      "oid": "txn:99771",
+      "rnk": "unranked clade",
+      "nam": "Romeriida",
+      "att": "Gauthier et al. 1988",
+      "par": "txn:92204",
+      "prl": "Eureptilia",
+      "rid": "ref:24239",
+      "ext": "1",
+      "noc": 60961
+    },
+    {
+      "oid": "txn:37768",
+      "vid": "var:135387",
+      "rnk": "unranked clade",
+      "nam": "Diapsida",
+      "att": "(Osborn 1903)",
+      "par": "txn:99771",
+      "prl": "Romeriida",
+      "rid": "ref:34185",
+      "ext": "1",
+      "noc": 60961
+    },
+    {
+      "oid": "txn:341194",
+      "rnk": "unranked clade",
+      "nam": "Ichthyosauromorpha",
+      "att": "Motani et al. 2015",
+      "par": "txn:37768",
+      "prl": "Diapsida",
+      "rid": "ref:59220",
+      "ext": "0",
+      "noc": 704
+    },
+    {
+      "oid": "txn:341193",
+      "flg": "B",
+      "rnk": "unranked clade",
+      "nam": "Ichthyosauriformes",
+      "att": "Motani et al. 2015",
+      "par": "txn:341194",
+      "prl": "Ichthyosauromorpha",
+      "rid": "ref:59220",
+      "ext": "0",
+      "noc": 703,
+      "fea": 251.902,
+      "fla": 248.6,
+      "lea": 100.5,
+      "lla": 93.9,
+      "tei": "Induan",
+      "tli": "Cenomanian"
+    }
+  ],
+  "colCompatibleAnchor": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia",
+  "sourceDownloads": [
+    {
+      "key": "taxa",
+      "url": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=341193&rel=all_children&status=accepted&show=parent%2Capp%2Cattr&limit=all",
+      "queryParameters": {
+        "base_id": "341193",
+        "rel": "all_children",
+        "status": "accepted",
+        "show": "parent,app,attr",
+        "limit": "all"
+      },
+      "file": ".git/ichthyosauriformes-reader-taxa.json",
+      "retrievedAt": "2026-10-02T14:36:28.759Z",
+      "bytes": 76992,
+      "sha256": "1d7f161dcb0e39e326f89cd4b4f787354e9e318c739e8cddd162c3c0cdd82718",
+      "recordCount": 340,
+      "recordsFound": null,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/ichthyosauriformes-occurrence-guides-2026-10-02-taxa.json.gz",
+      "retainedSha256": "3883ca50709a84910dafc61466f9a26225150f5ececb91147f06c2a00ce46bcd"
+    },
+    {
+      "key": "root",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=341193&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "341193",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/ichthyosauriformes-reader-root.json",
+      "retrievedAt": "2026-10-02T14:36:28.543Z",
+      "bytes": 318,
+      "sha256": "a29c53bc33a1412e258071c1f5142e2e735ff0629fe6c55a5c077a57f8db5045",
+      "recordCount": 1,
+      "recordsFound": null,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/ichthyosauriformes-occurrence-guides-2026-10-02-root.json.gz",
+      "retainedSha256": "d61c320b1ee8a713efac2da221fb4a2d2933ca9a049534fa1062b8550ea19194"
+    },
+    {
+      "key": "parents",
+      "url": "https://paleobiodb.org/data1.2/taxa/list.json?id=341193&rel=all_parents&status=accepted&show=parent%2Cattr&limit=all",
+      "queryParameters": {
+        "id": "341193",
+        "rel": "all_parents",
+        "status": "accepted",
+        "show": "parent,attr",
+        "limit": "all"
+      },
+      "file": ".git/ichthyosauriformes-reader-parents.json",
+      "retrievedAt": "2026-10-02T14:36:28.546Z",
+      "bytes": 4568,
+      "sha256": "d172ded8129e83a7594cb7ee6216ce52816a5fcbd2dc7e783bac5a9b08b01c7b",
+      "recordCount": 27,
+      "recordsFound": null,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/ichthyosauriformes-occurrence-guides-2026-10-02-parents.json.gz",
+      "retainedSha256": "8d0e8494318bfe241ac23972e86c1db651b3e7879623fb197bcf9d3420c5ec72"
+    },
+    {
+      "key": "occurrences",
+      "url": "https://paleobiodb.org/data1.2/occs/list.json?base_id=341193&show=full&ident=latest&order=id&rowcount=yes&limit=all",
+      "queryParameters": {
+        "base_id": "341193",
+        "show": "full",
+        "ident": "latest",
+        "order": "id",
+        "rowcount": "yes",
+        "limit": "all"
+      },
+      "file": ".git/ichthyosauriformes-reader-occurrences.json",
+      "retrievedAt": "2026-10-02T14:36:29.628Z",
+      "bytes": 968119,
+      "sha256": "f47f280ca897054f5bf00b8a99d8aa7b7eee1e3225ec65be651afc93d19ba812",
+      "recordCount": 703,
+      "recordsFound": 703,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/ichthyosauriformes-occurrence-guides-2026-10-02-occurrences.json.gz",
+      "retainedSha256": "b77cf2632a96d657825d37d6aa6152ad7d4aa6670516bbb3628c3442a1a36539"
+    }
+  ],
+  "sourceOccurrenceRecords": 703,
+  "reportedAndReturnedOccurrences": 703,
+  "selectedSpeciesCount": 165,
+  "authoredSpeciesCount": 165,
+  "selectedOccurrenceCount": 333,
+  "groupRoutesAuthored": 119,
+  "newSpeciesProfiles": 165,
+  "newGroupProfiles": 119,
+  "existingProfilesExpanded": 0,
+  "deferredExisting": [],
+  "sourceInsufficient": [
+    {
+      "oid": "txn:306823",
+      "name": "Paraophthalmosaurus kabanovi",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:174061",
+      "name": "Ophthalmosaurus marshi",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:170922",
+      "name": "Ophthalmosaurus discus",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:170924",
+      "name": "Platypterygius compylodon",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:170926",
+      "name": "Platypterygius kiprijanoffi",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:170919",
+      "name": "Brachypterygius mordax",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:263105",
+      "name": "Brachypterygius alekseevi",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:252566",
+      "name": "Blezingeria ichthyospondylus",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:427632",
+      "name": "Leptopterygius amalthei",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:427631",
+      "name": "Leptopterygius numismalis",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:306815",
+      "name": "Stenopterygius cayi",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:170901",
+      "name": "Stenopterygius longipes",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:380962",
+      "name": "Ichthyosaurus longimanus",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:269382",
+      "name": "Ichthyosaurus extremus",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:171541",
+      "name": "Ichthyosaurus trigonodon",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:267406",
+      "name": "Ichthyosaurus triscissus",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:372129",
+      "name": "Protoichthyosaurus applebyi",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    }
+  ],
+  "excludedOccurrences": [
+    {
+      "oid": "occ:821502",
+      "tid": "txn:170897",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:915088",
+      "tid": "txn:258578",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:920238",
+      "tid": "txn:170764",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1091665",
+      "tid": "txn:252566",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1098597",
+      "tid": "txn:170897",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1108583",
+      "tid": "txn:149927",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1108753",
+      "tid": "txn:171204",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1126040",
+      "tid": "txn:170926",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1249003",
+      "tid": "txn:170640",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1250553",
+      "tid": "txn:95786",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1273653",
+      "tid": "txn:170925",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1317356",
+      "tid": "txn:287945",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1394194",
+      "tid": "txn:172825",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1412635",
+      "tid": "txn:263041",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1529520",
+      "tid": "txn:258578",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1529521",
+      "tid": "txn:258578",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1565502",
+      "tid": "txn:170640",
+      "reason": "qualified identification requires individual source review"
+    }
+  ],
+  "sourceArchivePath": "data/sources/ichthyosauriformes-occurrence-guides-2026-10-02-records.jsonl.gz",
+  "sourceArchiveSha256": "6f921535da88b6824d99a2f9af8808ac02f5decd7b8535958736268a60e826f3",
+  "authoredPages": [
+    {
+      "pbdbTaxonId": "txn:341196",
+      "scientificName": "Cartorhynchus lenticarpus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Omphalosauridae/Cartorhynchus/Cartorhynchus_lenticarpus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:175201",
+      "scientificName": "Xinminosaurus catactes",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Omphalosauridae/Xinminosaurus/Xinminosaurus_catactes",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:263041",
+      "scientificName": "Tholodus schmidi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Omphalosauridae/Tholodus/Tholodus_schmidi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:341198",
+      "scientificName": "Sclerocormus parviceps",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Omphalosauridae/Sclerocormus/Sclerocormus_parviceps",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:54114",
+      "scientificName": "Omphalosaurus nevadanus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Omphalosauridae/Omphalosaurus/Omphalosaurus_nevadanus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:176044",
+      "scientificName": "Omphalosaurus wolfi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Omphalosauridae/Omphalosaurus/Omphalosaurus_wolfi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:176045",
+      "scientificName": "Omphalosaurus nettarhynchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Omphalosauridae/Omphalosaurus/Omphalosaurus_nettarhynchus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170756",
+      "scientificName": "Thaisaurus chonglakmanii",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Thaisauridae/Thaisaurus/Thaisaurus_chonglakmanii",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:377498",
+      "scientificName": "Gengasaurus nicosiai",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Gengasaurus/Gengasaurus_nicosiai",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:173373",
+      "scientificName": "Apatodonosaurus grayi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Apatodonosaurus/Apatodonosaurus_grayi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:439679",
+      "scientificName": "Catutosaurus gaspariniae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Catutosaurus/Catutosaurus_gaspariniae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:454288",
+      "scientificName": "Jabalisaurus meztli",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Jabalisaurus/Jabalisaurus_meztli",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:173204",
+      "scientificName": "Undorosaurus gorodischensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Undorosaurus/Undorosaurus_gorodischensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:386525",
+      "scientificName": "Undorosaurus nessovi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Undorosaurus/Undorosaurus_nessovi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:306807",
+      "scientificName": "Undorosaurus trautscholdi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Undorosaurus/Undorosaurus_trautscholdi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:386528",
+      "scientificName": "Undorosaurus khorlovensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Undorosaurus/Undorosaurus_khorlovensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:212187",
+      "scientificName": "Acamptonectes densus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Acamptonectes/Acamptonectes_densus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:260282",
+      "scientificName": "Leninia stellans",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Leninia/Leninia_stellans",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:173207",
+      "scientificName": "Mollesaurus periallus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Mollesaurus/Mollesaurus_periallus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:248881",
+      "scientificName": "Cryopterygius kristiansenae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Cryopterygius/Cryopterygius_kristiansenae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:376868",
+      "scientificName": "Cryopterygius kielanae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Cryopterygius/Cryopterygius_kielanae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:96492",
+      "scientificName": "Ophthalmosaurus natans",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Ophthalmosaurus/Ophthalmosaurus_natans",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:265520",
+      "scientificName": "Khudiakovia calloviensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Ophthalmosaurus/Khudiakovia_calloviensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:174057",
+      "scientificName": "Ophthalmosaurus robustus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Ophthalmosaurus/Ophthalmosaurus_robustus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170321",
+      "scientificName": "Ophthalmosaurus reedi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Ophthalmosaurus/Ophthalmosaurus_reedi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:260812",
+      "scientificName": "Ophthalmosaurus monocharactus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Ophthalmosaurus/Ophthalmosaurus_monocharactus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170921",
+      "scientificName": "Ophthalmosaurus icenicus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Ophthalmosaurus/Ophthalmosaurus_icenicus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:254133",
+      "scientificName": "Ophthalmosaurus undorensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Ophthalmosaurus/Ophthalmosaurus_undorensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:173201",
+      "scientificName": "Ophthalmosaurus yasykovi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Ophthalmosaurus/Ophthalmosaurus_yasykovi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:202541",
+      "scientificName": "Sveltonectes insolitus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Sveltonectes/Sveltonectes_insolitus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:171438",
+      "scientificName": "Aegirosaurus leptospondylus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Aegirosaurus/Aegirosaurus_leptospondylus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:149989",
+      "scientificName": "Caypullisaurus bonapartei",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Caypullisaurus/Caypullisaurus_bonapartei",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:287945",
+      "scientificName": "Sisteronia seeleyi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Sisteronia/Sisteronia_seeleyi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:404054",
+      "scientificName": "Acuetzpalin carranzai",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Acuetzpalin/Acuetzpalin_carranzai",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:176522",
+      "scientificName": "Maiaspondylus lindoei",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Maiaspondylus/Maiaspondylus_lindoei",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:520127",
+      "scientificName": "Eternauta patagonica",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Eternauta/Eternauta_patagonica",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:203467",
+      "scientificName": "Athabascasaurus bitumineus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Athabascasaurus/Athabascasaurus_bitumineus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:178350",
+      "scientificName": "Platypterygius americanus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Platypterygius/Platypterygius_americanus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:520128",
+      "scientificName": "Platypterygius elsuntuoso",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Platypterygius/Platypterygius_elsuntuoso",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:265897",
+      "scientificName": "Platypterygius platydactylus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Platypterygius/Platypterygius_platydactylus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:108967",
+      "scientificName": "Platypterygius australis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Platypterygius/Platypterygius_australis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:205709",
+      "scientificName": "Platypterygius ochevi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Platypterygius/Platypterygius_ochevi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170925",
+      "scientificName": "Platypterygius hercynicus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Platypterygius/Platypterygius_hercynicus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170640",
+      "scientificName": "Platypterygius hauthali",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Platypterygius/Platypterygius_hauthali",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170915",
+      "scientificName": "Platypterygius bedengensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Platypterygius/Platypterygius_bedengensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:263109",
+      "scientificName": "Platypterygius sachicarum",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Platypterygius/Platypterygius_sachicarum",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:454290",
+      "scientificName": "Parrassaurus yacahuitztli",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Parrassaurus/Parrassaurus_yacahuitztli",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170910",
+      "scientificName": "Simbirskiasaurus birjukovi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Simbirskiasaurus/Simbirskiasaurus_birjukovi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170917",
+      "scientificName": "Brachypterygius pseudoscythica",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Brachypterygius/Brachypterygius_pseudoscythica",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170920",
+      "scientificName": "Grendelius zhuravlevi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Brachypterygius/Grendelius_zhuravlevi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:263107",
+      "scientificName": "Grendelius alekseevi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Brachypterygius/Grendelius_alekseevi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170918",
+      "scientificName": "Brachypterygius extremus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Brachypterygius/Brachypterygius_extremus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:171431",
+      "scientificName": "Pervushovisaurus campylodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Pervushovisaurus/Pervushovisaurus_campylodon",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:173215",
+      "scientificName": "Pervushovisaurus bannovkensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Pervushovisaurus/Pervushovisaurus_bannovkensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170909",
+      "scientificName": "Nannopterygius enthekiodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Nannopterygius/Nannopterygius_enthekiodon",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170912",
+      "scientificName": "Nannopterygius saveljeviensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Nannopterygius/Nannopterygius_saveljeviensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:385625",
+      "scientificName": "Keilhauia nui",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Keilhauia/Keilhauia_nui",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:174058",
+      "scientificName": "Baptanodon discus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Baptanodon/Baptanodon_discus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:488752",
+      "scientificName": "Argovisaurus martafernandezi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Argovisaurus/Argovisaurus_martafernandezi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:385749",
+      "scientificName": "Arthropterygius volgensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Arthropterygius/Arthropterygius_volgensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:242544",
+      "scientificName": "Arthropterygius chrisorum",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Arthropterygius/Arthropterygius_chrisorum",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:301635",
+      "scientificName": "Arthropterygius lundi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Arthropterygius/Arthropterygius_lundi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:248883",
+      "scientificName": "Arthropterygius hoybergeti",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Arthropterygius/Arthropterygius_hoybergeti",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:404056",
+      "scientificName": "Arthropterygius thalassonotus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Arthropterygius/Arthropterygius_thalassonotus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:334074",
+      "scientificName": "Muiscasaurus catheti",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Muiscasaurus/Muiscasaurus_catheti",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170896",
+      "scientificName": "Chacaicosaurus cayi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Chacaicosaurus/Chacaicosaurus_cayi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:287948",
+      "scientificName": "Cetarthrosaurus walkeri",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Cetarthrosaurus/Cetarthrosaurus_walkeri",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:377051",
+      "scientificName": "Mixosaurus xindianensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Mixosauridae/Mixosaurus/Mixosaurus_xindianensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:172830",
+      "scientificName": "Mixosaurus cornalianus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Mixosauridae/Mixosaurus/Mixosaurus_cornalianus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:492725",
+      "scientificName": "Mixosaurus luxiensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Mixosauridae/Mixosaurus/Mixosaurus_luxiensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:172324",
+      "scientificName": "Mixosaurus kuhnschneyderi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Mixosauridae/Mixosaurus/Mixosaurus_kuhnschneyderi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:100419",
+      "scientificName": "Barracudasaurus maotaiensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Mixosauridae/Barracudasaurus/Barracudasaurus_maotaiensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170562",
+      "scientificName": "Barracudasauroides panxianensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Mixosauridae/Barracudasauroides/Barracudasauroides_panxianensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:172825",
+      "scientificName": "Phalarodon atavus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Mixosauridae/Phalarodon/Phalarodon_atavus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:258578",
+      "scientificName": "Phalarodon fraasi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Mixosauridae/Phalarodon/Phalarodon_fraasi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:258580",
+      "scientificName": "Phalarodon callawayi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Mixosauridae/Phalarodon/Phalarodon_callawayi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:172832",
+      "scientificName": "Phalarodon nordenskioeldii",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Mixosauridae/Phalarodon/Phalarodon_nordenskioeldii",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:172918",
+      "scientificName": "Phalarodon major",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Mixosauridae/Phalarodon/Phalarodon_major",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170706",
+      "scientificName": "Qianichthyosaurus zhoui",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Toretocnemidae/Qianichthyosaurus/Qianichthyosaurus_zhoui",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:376616",
+      "scientificName": "Qianichthyosaurus xingyiensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Toretocnemidae/Qianichthyosaurus/Qianichthyosaurus_xingyiensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170860",
+      "scientificName": "Toretocnemus zitteli",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Toretocnemidae/Toretocnemus/Toretocnemus_zitteli",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170859",
+      "scientificName": "Toretocnemus californicus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Toretocnemidae/Toretocnemus/Toretocnemus_californicus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:163953",
+      "scientificName": "Phantomosaurus neubigi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Cymbospondylidae/Phantomosaurus/Phantomosaurus_neubigi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:285199",
+      "scientificName": "Cymbospondylus natans",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Cymbospondylidae/Cymbospondylus/Cymbospondylus_natans",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:418928",
+      "scientificName": "Cymbospondylus duelferi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Cymbospondylidae/Cymbospondylus/Cymbospondylus_duelferi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170850",
+      "scientificName": "Cymbospondylus petrinus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Cymbospondylidae/Cymbospondylus/Cymbospondylus_petrinus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:174450",
+      "scientificName": "Chonespondylus grandis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Cymbospondylidae/Cymbospondylus/Chonespondylus_grandis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:263055",
+      "scientificName": "Cymbospondylus nichollsi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Cymbospondylidae/Cymbospondylus/Cymbospondylus_nichollsi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:171154",
+      "scientificName": "Cymbospondylus buchseri",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Cymbospondylidae/Cymbospondylus/Cymbospondylus_buchseri",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:172947",
+      "scientificName": "Cymbospondylus piscosus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Cymbospondylidae/Cymbospondylus/Cymbospondylus_piscosus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:285192",
+      "scientificName": "Cymbospondylus nevadanus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Cymbospondylidae/Cymbospondylus/Cymbospondylus_nevadanus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170855",
+      "scientificName": "Himalayasaurus tibetensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shonisauridae/Himalayasaurus/Himalayasaurus_tibetensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170857",
+      "scientificName": "Shonisaurus popularis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shastasauridae/Shonisaurus/Shonisaurus_popularis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:149930",
+      "scientificName": "Shastasaurus careyi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shastasauridae/Shastasaurus/Shastasaurus_careyi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:149927",
+      "scientificName": "Shastasaurus pacificus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shastasauridae/Shastasaurus/Shastasaurus_pacificus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:149928",
+      "scientificName": "Shastasaurus alexandrae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shastasauridae/Shastasaurus/Shastasaurus_alexandrae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170687",
+      "scientificName": "Shastasaurus sikkaniensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shastasauridae/Shastasaurus/Shastasaurus_sikkaniensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:268068",
+      "scientificName": "Guizhouichthyosaurus wolonggangense",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shastasauridae/Guizhouichthyosaurus/Guizhouichthyosaurus_wolonggangense",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170542",
+      "scientificName": "Guizhouichthyosaurus tangae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shastasauridae/Guizhouichthyosaurus/Guizhouichthyosaurus_tangae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:489015",
+      "scientificName": "Ichthyotitan severnensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shastasauridae/Ichthyotitan/Ichthyotitan_severnensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:260671",
+      "scientificName": "Guanlingsaurus liangae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shastasauridae/Guanlingsaurus/Guanlingsaurus_liangae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:260823",
+      "scientificName": "Metashastasaurus neoscapularis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shastasauridae/Metashastasaurus/Metashastasaurus_neoscapularis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170847",
+      "scientificName": "Mikadocephalus gracilirostris",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Guanlingsauridae/Mikadocephalus/Mikadocephalus_gracilirostris",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:172952",
+      "scientificName": "Besanosaurus leptorhynchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Besanosauridae/Besanosaurus/Besanosaurus_leptorhynchus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:172835",
+      "scientificName": "Merriamosaurus hulkei",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Merriamosauridae/Merriamosaurus/Merriamosaurus_hulkei",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170853",
+      "scientificName": "Pessopteryx nisseri",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Merriamosauridae/Pessopteryx/Pessopteryx_nisseri",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:255032",
+      "scientificName": "Thalattoarchon saurophagis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Thalattoarchon/Thalattoarchon_saurophagis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170861",
+      "scientificName": "Californosaurus perrini",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Californosauridae/Californosaurus/Californosaurus_perrini",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:149933",
+      "scientificName": "Callawayia neoscapularis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Californosauridae/Callawayia/Callawayia_neoscapularis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:172841",
+      "scientificName": "Quasianosteosaurus vikinghoegdai",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Quasianosteosauridae/Quasianosteosaurus/Quasianosteosaurus_vikinghoegdai",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170849",
+      "scientificName": "Wimanius odontopalatus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Mixosauria/Wimaniidae/Wimanius/Wimanius_odontopalatus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:171204",
+      "scientificName": "Leptonectes tenuirostris",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Leptonectes/Leptonectes_tenuirostris",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:172970",
+      "scientificName": "Leptonectes solei",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Leptonectes/Leptonectes_solei",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:171229",
+      "scientificName": "Leptonectes moorei",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Leptonectes/Leptonectes_moorei",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170892",
+      "scientificName": "Excalibosaurus costini",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Excalibosaurus/Excalibosaurus_costini",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:520125",
+      "scientificName": "Xiphodracon goldencapensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Leptonectidae/Hauffiopterygia/Xiphodracon/Xiphodracon_goldencapensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:385627",
+      "scientificName": "Wahlisaurus massarae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Leptonectidae/Wahlisaurus/Wahlisaurus_massarae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:268077",
+      "scientificName": "Malawania anachronus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Malawania/Malawania_anachronus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170899",
+      "scientificName": "Stenopterygius megacephalus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Stenopterygius/Stenopterygius_megacephalus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170903",
+      "scientificName": "Stenopterygius cuneiceps",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Stenopterygius/Stenopterygius_cuneiceps",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170900",
+      "scientificName": "Stenopterygius megalorhinus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Stenopterygius/Stenopterygius_megalorhinus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170897",
+      "scientificName": "Stenopterygius quadriscissus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Stenopterygius/Stenopterygius_quadriscissus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:263086",
+      "scientificName": "Stenopterygius triscissus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Stenopterygius/Stenopterygius_triscissus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170904",
+      "scientificName": "Stenopterygius longifrons",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Stenopterygius/Stenopterygius_longifrons",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:244597",
+      "scientificName": "Stenopterygius aaleniensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Stenopterygius/Stenopterygius_aaleniensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170902",
+      "scientificName": "Stenopterygius macrophasma",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Stenopterygius/Stenopterygius_macrophasma",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:263087",
+      "scientificName": "Stenopterygius uniter",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Stenopterygius/Stenopterygius_uniter",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:171446",
+      "scientificName": "Ichthyosaurus acutirostris",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Ichthyosauridae/Ichthyosaurus/Ichthyosaurus_acutirostris",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:376491",
+      "scientificName": "Ichthyosaurus anningae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Ichthyosauridae/Ichthyosaurus/Ichthyosaurus_anningae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:267405",
+      "scientificName": "Ichthyosaurus longipes",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Ichthyosauridae/Ichthyosaurus/Ichthyosaurus_longipes",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:171439",
+      "scientificName": "Ichthyosaurus entheciodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Ichthyosauridae/Ichthyosaurus/Ichthyosaurus_entheciodon",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170907",
+      "scientificName": "Ichthyosaurus conybeari",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Ichthyosauridae/Ichthyosaurus/Ichthyosaurus_conybeari",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:381642",
+      "scientificName": "Ichthyosaurus somersetensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Ichthyosauridae/Ichthyosaurus/Ichthyosaurus_somersetensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:95785",
+      "scientificName": "Ichthyosaurus tenuirostris",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Ichthyosauridae/Ichthyosaurus/Ichthyosaurus_tenuirostris",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:95786",
+      "scientificName": "Ichthyosaurus communis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Ichthyosauridae/Ichthyosaurus/Ichthyosaurus_communis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:381641",
+      "scientificName": "Ichthyosaurus larkini",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Ichthyosauridae/Ichthyosaurus/Ichthyosaurus_larkini",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170906",
+      "scientificName": "Ichthyosaurus breviceps",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Ichthyosauridae/Ichthyosaurus/Ichthyosaurus_breviceps",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:268069",
+      "scientificName": "Ichthyosaurus enthekiodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Ichthyosauridae/Ichthyosaurus/Ichthyosaurus_enthekiodon",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:178449",
+      "scientificName": "Protoichthyosaurus prostaxalis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Ichthyosauridae/Protoichthyosaurus/Protoichthyosaurus_prostaxalis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:263091",
+      "scientificName": "Hauffiopteryx typicus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Hauffiopteryx/Hauffiopteryx_typicus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:171198",
+      "scientificName": "Eurhinosaurus longirostris",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Eurhinosaurus/Eurhinosaurus_longirostris",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170870",
+      "scientificName": "Temnodontosaurus burgundiae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Temnodontosaurus/Temnodontosaurus_burgundiae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:247705",
+      "scientificName": "Temnodontosaurus azerguensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Temnodontosaurus/Temnodontosaurus_azerguensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:172966",
+      "scientificName": "Temnodontosaurus trigonodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Temnodontosaurus/Temnodontosaurus_trigonodon",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170869",
+      "scientificName": "Temnodontosaurus platyodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Temnodontosaurus/Temnodontosaurus_platyodon",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:172968",
+      "scientificName": "Temnodontosaurus nuertingensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Temnodontosaurus/Temnodontosaurus_nuertingensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170871",
+      "scientificName": "Temnodontosaurus eurycephalus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Temnodontosaurus/Temnodontosaurus_eurycephalus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:263076",
+      "scientificName": "Temnodontosaurus crassimanus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Temnodontosaurus/Temnodontosaurus_crassimanus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:261027",
+      "scientificName": "Temnodontosaurus longirostris",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Temnodontosaurus/Temnodontosaurus_longirostris",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:312333",
+      "scientificName": "Dearcmhara shawcrossi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Dearcmhara/Dearcmhara_shawcrossi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170864",
+      "scientificName": "Macgowania janiceps",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Macgowania/Macgowania_janiceps",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170866",
+      "scientificName": "Hudsonelpidia brevirostris",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Hudsonelpidia/Hudsonelpidia_brevirostris",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:171445",
+      "scientificName": "Suevoleviathan integer",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Suevoleviathan/Suevoleviathan_integer",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170868",
+      "scientificName": "Suevoleviathan disinteger",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Suevoleviathan/Suevoleviathan_disinteger",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:171540",
+      "scientificName": "Proteosaurus platyodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Proteosauridae/Proteosaurus/Proteosaurus_platyodon",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:150075",
+      "scientificName": "Chensaurus chaoxianensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Grippiidae/Chaohusaurus/Chensaurus_chaoxianensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:397941",
+      "scientificName": "Chaohusaurus brevifemoralis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Grippiidae/Chaohusaurus/Chaohusaurus_brevifemoralis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170845",
+      "scientificName": "Chaohusaurus geishanensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Grippiidae/Chaohusaurus/Chaohusaurus_geishanensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:374131",
+      "scientificName": "Chaohusaurus zhangjiawanensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Grippiidae/Chaohusaurus/Chaohusaurus_zhangjiawanensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:375339",
+      "scientificName": "Chaohusaurus chaoxianensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Grippiidae/Chaohusaurus/Chaohusaurus_chaoxianensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170764",
+      "scientificName": "Grippia longirostris",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Grippiidae/Grippia/Grippia_longirostris",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170762",
+      "scientificName": "Parvinatator wapitiensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvinatatoridae/Parvinatator/Parvinatator_wapitiensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:142759",
+      "scientificName": "Utatsusaurus hataii",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Utatsusauridae/Utatsusaurus/Utatsusaurus_hataii",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170759",
+      "scientificName": "Isfjordosaurus minor",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Isfjordosaurus/Isfjordosaurus_minor",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:272022",
+      "scientificName": "Gulosaurus helmi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Grippidia/Gulosaurus/Gulosaurus_helmi",
+      "rank": "species"
+    }
+  ],
+  "authoredGroupPages": [
+    {
+      "pbdbTaxonId": "txn:341193",
+      "scientificName": "Ichthyosauriformes",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:38873",
+      "scientificName": "Omphalosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Omphalosauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:341195",
+      "scientificName": "Cartorhynchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Omphalosauridae/Cartorhynchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:175200",
+      "scientificName": "Xinminosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Omphalosauridae/Xinminosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:263039",
+      "scientificName": "Tholodus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Omphalosauridae/Tholodus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:341197",
+      "scientificName": "Sclerocormus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Omphalosauridae/Sclerocormus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36565",
+      "scientificName": "Omphalosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Omphalosauridae/Omphalosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38869",
+      "scientificName": "Ichthyopterygia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:170763",
+      "scientificName": "Eoichthyosauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:36543",
+      "scientificName": "Ichthyosauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:263025",
+      "scientificName": "Thaisauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Thaisauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:170755",
+      "scientificName": "Thaisaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Thaisauridae/Thaisaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:268076",
+      "scientificName": "Baracromia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:170908",
+      "scientificName": "Ophthalmosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:377497",
+      "scientificName": "Gengasaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Gengasaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:173372",
+      "scientificName": "Apatodonosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Apatodonosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:439678",
+      "scientificName": "Catutosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Catutosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:212185",
+      "scientificName": "Ophthalmosaurinae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae",
+      "rank": "subfamily"
+    },
+    {
+      "pbdbTaxonId": "txn:454287",
+      "scientificName": "Jabalisaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Jabalisaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:173203",
+      "scientificName": "Undorosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Undorosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:212184",
+      "scientificName": "Acamptonectes",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Acamptonectes",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:260281",
+      "scientificName": "Leninia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Leninia",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:173206",
+      "scientificName": "Mollesaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Mollesaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:248880",
+      "scientificName": "Cryopterygius",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Cryopterygius",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36566",
+      "scientificName": "Ophthalmosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Ophthalmosaurinae/Ophthalmosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:212186",
+      "scientificName": "Platypterygiinae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae",
+      "rank": "subfamily"
+    },
+    {
+      "pbdbTaxonId": "txn:202540",
+      "scientificName": "Sveltonectes",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Sveltonectes",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:173195",
+      "scientificName": "Aegirosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Aegirosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36546",
+      "scientificName": "Caypullisaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Caypullisaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:287944",
+      "scientificName": "Sisteronia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Sisteronia",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:404053",
+      "scientificName": "Acuetzpalin",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Acuetzpalin",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:176519",
+      "scientificName": "Maiaspondylus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Maiaspondylus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:520126",
+      "scientificName": "Eternauta",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Eternauta",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:202543",
+      "scientificName": "Athabascasaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Athabascasaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36569",
+      "scientificName": "Platypterygius",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Platypterygius",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:454289",
+      "scientificName": "Parrassaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Parrassaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36573",
+      "scientificName": "Simbirskiasaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Simbirskiasaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36544",
+      "scientificName": "Brachypterygius",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Brachypterygius",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:173212",
+      "scientificName": "Pervushovisaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Platypterygiinae/Pervushovisaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36564",
+      "scientificName": "Nannopterygius",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Nannopterygius",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:385624",
+      "scientificName": "Keilhauia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Keilhauia",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38878",
+      "scientificName": "Baptanodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Baptanodon",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:488751",
+      "scientificName": "Argovisaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Argovisaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:168510",
+      "scientificName": "Arthropterygius",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Arthropterygius",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:334073",
+      "scientificName": "Muiscasaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Ophthalmosauridae/Muiscasaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:170895",
+      "scientificName": "Chacaicosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Baracromia/Chacaicosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:287947",
+      "scientificName": "Cetarthrosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Cetarthrosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:163949",
+      "scientificName": "Hueneosauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:38875",
+      "scientificName": "Mixosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Mixosauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:36562",
+      "scientificName": "Mixosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Mixosauridae/Mixosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:176770",
+      "scientificName": "Barracudasaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Mixosauridae/Barracudasaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:263052",
+      "scientificName": "Barracudasauroides",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Mixosauridae/Barracudasauroides",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36568",
+      "scientificName": "Phalarodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Mixosauridae/Phalarodon",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:163950",
+      "scientificName": "Longipinnati",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati",
+      "rank": "suborder"
+    },
+    {
+      "pbdbTaxonId": "txn:172919",
+      "scientificName": "Toretocnemidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Toretocnemidae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:137154",
+      "scientificName": "Qianichthyosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Toretocnemidae/Qianichthyosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36577",
+      "scientificName": "Toretocnemus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Toretocnemidae/Toretocnemus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:163951",
+      "scientificName": "Cymbospondylidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Cymbospondylidae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:163952",
+      "scientificName": "Phantomosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Cymbospondylidae/Phantomosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36550",
+      "scientificName": "Cymbospondylus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Longipinnati/Cymbospondylidae/Cymbospondylus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:170541",
+      "scientificName": "Merriamosauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:263060",
+      "scientificName": "Shonisauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shonisauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:36556",
+      "scientificName": "Himalayasaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shonisauridae/Himalayasaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38876",
+      "scientificName": "Shastasauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shastasauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:36572",
+      "scientificName": "Shonisaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shastasauridae/Shonisaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36571",
+      "scientificName": "Shastasaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shastasauridae/Shastasaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:170540",
+      "scientificName": "Guizhouichthyosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shastasauridae/Guizhouichthyosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:489014",
+      "scientificName": "Ichthyotitan",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shastasauridae/Ichthyotitan",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:260670",
+      "scientificName": "Guanlingsaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shastasauridae/Guanlingsaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:260821",
+      "scientificName": "Metashastasaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Shastasauridae/Metashastasaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:263065",
+      "scientificName": "Guanlingsauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Guanlingsauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:170846",
+      "scientificName": "Mikadocephalus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Guanlingsauridae/Mikadocephalus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:263056",
+      "scientificName": "Besanosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Besanosauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:170856",
+      "scientificName": "Besanosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Besanosauridae/Besanosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:172838",
+      "scientificName": "Merriamosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Merriamosauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:172836",
+      "scientificName": "Merriamosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Merriamosauridae/Merriamosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:170758",
+      "scientificName": "Pessopteryx",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Merriamosauridae/Pessopteryx",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:255031",
+      "scientificName": "Thalattoarchon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Thalattoarchon",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:263068",
+      "scientificName": "Californosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Californosauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:36545",
+      "scientificName": "Californosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Californosauridae/Californosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:172959",
+      "scientificName": "Callawayia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Hueneosauria/Merriamosauria/Californosauridae/Callawayia",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:172839",
+      "scientificName": "Quasianosteosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Quasianosteosauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:172840",
+      "scientificName": "Quasianosteosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Quasianosteosauridae/Quasianosteosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:263045",
+      "scientificName": "Mixosauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Mixosauria",
+      "rank": "suborder"
+    },
+    {
+      "pbdbTaxonId": "txn:263026",
+      "scientificName": "Wimaniidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Mixosauria/Wimaniidae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:170848",
+      "scientificName": "Wimanius",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Mixosauria/Wimaniidae/Wimanius",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:170862",
+      "scientificName": "Parvipelvia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:172965",
+      "scientificName": "Neoichthyosauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:150185",
+      "scientificName": "Leptonectes",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Leptonectes",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36553",
+      "scientificName": "Excalibosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Excalibosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:150186",
+      "scientificName": "Leptonectidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Leptonectidae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:520124",
+      "scientificName": "Hauffiopterygia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Leptonectidae/Hauffiopterygia",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:520123",
+      "scientificName": "Xiphodracon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Leptonectidae/Hauffiopterygia/Xiphodracon",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:385626",
+      "scientificName": "Wahlisaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Leptonectidae/Wahlisaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:170894",
+      "scientificName": "Thunnosauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:268075",
+      "scientificName": "Malawania",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Malawania",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36574",
+      "scientificName": "Stenopterygius",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Stenopterygius",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38877",
+      "scientificName": "Ichthyosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Ichthyosauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:36558",
+      "scientificName": "Ichthyosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Ichthyosauridae/Ichthyosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36570",
+      "scientificName": "Protoichthyosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Ichthyosauridae/Protoichthyosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:263088",
+      "scientificName": "Hauffiopteryx",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Hauffiopteryx",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36552",
+      "scientificName": "Eurhinosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Eurhinosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36576",
+      "scientificName": "Temnodontosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Temnodontosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:312332",
+      "scientificName": "Dearcmhara",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Dearcmhara",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:170863",
+      "scientificName": "Macgowania",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Macgowania",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36557",
+      "scientificName": "Hudsonelpidia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Hudsonelpidia",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:170867",
+      "scientificName": "Suevoleviathan",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Suevoleviathan",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:105488",
+      "scientificName": "Proteosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Proteosauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:171430",
+      "scientificName": "Proteosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Proteosauridae/Proteosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:172916",
+      "scientificName": "Grippiidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Grippiidae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:36547",
+      "scientificName": "Chaohusaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Grippiidae/Chaohusaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36555",
+      "scientificName": "Grippia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Grippiidae/Grippia",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:263029",
+      "scientificName": "Parvinatatoridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvinatatoridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:170761",
+      "scientificName": "Parvinatator",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvinatatoridae/Parvinatator",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38872",
+      "scientificName": "Utatsusauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Utatsusauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:36578",
+      "scientificName": "Utatsusaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Utatsusauridae/Utatsusaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:170757",
+      "scientificName": "Isfjordosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Isfjordosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:170765",
+      "scientificName": "Grippidia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Grippidia",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:272021",
+      "scientificName": "Gulosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Grippidia/Gulosaurus",
+      "rank": "genus"
+    }
+  ],
+  "canonicalStorage": "Recorded PBDB ancestry below the previously documented Ichthyosauriformes path; no internal taxon ID or COL equivalence minted. Existing index and other record types preserved.",
+  "sourceInterpretation": "eag/lag are occurrence-age brackets; selected outer envelope does not establish FAD/LAD, origin/extinction or continuous occupancy. Collection environment and preservation modes are collection-level fields, not whole-species ecological or specimen claims.",
+  "underlyingPapersRead": false,
+  "expertReview": false,
+  "fullSpeciesMonographsCompleted": 0,
+  "primatesGapsClosed": 0,
+  "readerVisibleDelivery": "Canonical prose prepared. PBDB atlas/profile/navigation compatibility mapping, generation, runtime delivery and publication pending content-phase handoff.",
+  "projectionMapping": "Do not inject PBDB OIDs into COL catalogue profile descriptors. Convert/append the current catalogue-profile text pointers to PBDB atlas-profile using recorded external OIDs at content handoff, preserving existing atlas records and scientific uncertainties.",
+  "editorialPass": {
+    "englishGrammarParagraphs": 185,
+    "chineseLabelParagraphs": 165,
+    "neutralLimitHeadings": 568,
+    "scope": "Only current P5-48 paragraph markers and new neutral limitation headings. Source rows, percentages, ages, names, citations and maturity states retained.",
+    "additionalChineseLabelParagraphs": 0,
+    "representativePagesRead": [
+      "Ichthyosaurus communis",
+      "Ichthyosauriformes"
+    ],
+    "chineseRankParagraphs": 119,
+    "additionalEnvironmentLabelParagraphs": 16
+  },
+  "timelineEndpointProvenance": {
+    "localeParagraphs": 330,
+    "scope": "Named collection and occurrence ID identify one contributor to each selected outer bound. Source ages and rows unchanged."
+  }
+}

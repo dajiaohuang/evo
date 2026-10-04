@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
         text:
           en:
             markdown: page.en.md
@@ -23,19 +21,12 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/4
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - population2011
+          - habitat2011
+          - foraging2001
+          - camera2026
+      - topic: readingPath
         text:
           en:
             markdown: page.en.md
@@ -44,17 +35,11 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/1/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/3
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - population2011
+          - habitat2011
+          - foraging2001
+          - camera2026
+      - topic: limits
         text:
           en:
             markdown: page.en.md
@@ -63,14 +48,41 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/2/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/3
+          - population2011
+          - habitat2011
+          - foraging2001
+          - camera2026
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -156,6 +168,40 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+          metadataVariant: 0
+          sourceKey: ernestLifeHistories2003
+          usage:
+            locator: Mammal_lifehistories_v2.txt; 1 authored records grouped under pinned COL ancestry.
+            accessedAt: 2026-10-03
+            readingTargets:
+              - colId: 3T6ZV
+                name: Leontopithecus rosalia
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Callitrichidae/Leontopithecus/Leontopithecus_rosalia
+            fieldAccountCounts:
+              gestation(mo): 1
+              newborn(g): 1
+              weaning(mo): 1
+              wean mass(g): 1
+              AFR(mo): 1
+              max. life(mo): 1
+              litter size: 1
+              litters/year: 1
+            scope:
+              zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+              en: This batch’s accounts only; no complete descendant coverage.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - readingTargets
+            - fieldAccountCounts
             - scope
     limitations:
       en:

@@ -1,0 +1,85 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: zh
+status: source-linked
+---
+
+# Hulsanpes perlei
+
+
+## 先看模式标本实际保存了什么
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
+Hulsanpes perlei 的正模 ZPAL MgD-I/173 于 1970 年在蒙古 Khulsan 发现，来自 Baruungoyot Formation，1982 年命名。2018 年 Cau 与 Madzia 直接检查并重描述标本：右足第二至第四跖骨与第三趾第一节部分趾骨仍相连，另有第二趾第一节及第二节近端，以及一小块脑颅。脑颅与足骨同号、大小级别相近，作者沿用原描述，将它们归为同一只动物；这些残片不构成完整头骨、完整腿或全身。
+<!-- /evo:text -->
+
+## 约一厘米的脑颅碎片怎样解释
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+脑颅片约 10 mm 长，部分埋在砂岩中，骨缝接触与一些边缘已经缺失。作者根据与其他手盗龙类的比较，解释为右侧耳区骨的内表面；较大深窝可能容纳小脑绒球，若干孔、凹陷和沟槽可能对应内耳迷路及半规管。多处识别保留“可能”或暂定，研究使用标本照片与显微镜近照，而不是完整内耳扫描复原。它没有测得本种听觉、平衡能力或游泳行为。
+<!-- /evo:text -->
+
+## 跖骨重叠为何进入诊断
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+第三跖骨的内侧凸缘明显盖过第二跖骨远端骨干，从足背面看使第二跖骨露出的范围缩小。作者认为接触处没有明显变形，重叠位置不是埋藏造成的假象，并把其程度列为区分本种的特征；第三跖骨近端未明显收窄也是诊断组合的一部分。第二至第四跖骨近端均有侵蚀，第二跖骨远端也缺失，因此需要把保存形态与估计边界分开。第二趾有支持过伸的关节形态，但末端爪骨没有保存，不能由类群名称补出实测镰爪大小。
+<!-- /evo:text -->
+
+## 小标本与未成熟判断的界限
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+表 1 的第二跖骨长 34 mm；第三、第四跖骨分别约 39、36 mm，星号注明为估计值。作者把足骨与 Halszkaraptor 正模的对应骨相比，约为其 75–80%，再结合粗糙外表判断 Hulsanpes 标本未成熟。这不是已测得年龄，也不能把某个近缘种的年龄移给本种；不同个体、不同物种的骨长比例不是成年体重或最终体长。脑颅与肢骨的关联判断也不等于多个个体的成长序列。
+<!-- /evo:text -->
+
+## 缺失性状怎样限制亲缘解释
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+2018 年更新矩阵得到 Hulsanpes 与 Mahakala 的姊妹关系，并将二者与 Halszkaraptor 归入 Halszkaraptorinae。论文列出的多数科级、亚科级诊断性状，在本标本中都是未知；真正可用的证据集中在趾骨和跖骨。强制其进入 Avialae 会使最简约树多四步，作者据此暂时不支持鸟翼类位置；这不是本页重算的结果，也不是某个位置的统计概率。固定 PBDB 路径用于组织页面，不能替代其他材料或所有后续分类研究。
+<!-- /evo:text -->
+
+## 足部功能推测不等于实测奔跑
+
+<!-- evo:text /records/catalogue-profile/sections/5/text/zh -->
+作者将 Hulsanpes、Mahakala 的跖骨凸缘解释为有助于减少相邻骨的扭转和错位，并据此提出一定奔跑适应；与 Halszkaraptor 比较的生态差异仍是形态推测，没有直接速度或活动观察。论文另指出 Mahakala 文献中跖骨 82 mm 与 52 mm 的差异，并采用 52 mm，认为 82 mm 是排字错误；这是该文的判断，本页没有复量原标本。脑颅与足骨也不能单独确定本种是否游泳、全年栖地或食谱。
+<!-- /evo:text -->
+
+## 这个名称对应哪些化石记录
+
+<!-- evo:text /records/catalogue-profile/sections/6/text/zh -->
+Hulsanpes perlei 在固定 PBDB 恐龙及其鸟类分支工作名录中为接受种，数据库父级为 Hulsanpes。本页导读 1 条可用种级出现记录，涉及 1 个采集记录和 1 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
+<!-- /evo:text -->
+
+
+## 从具名采集地和地层开始
+
+<!-- evo:text /records/catalogue-profile/sections/7/text/zh -->
+采集记录 Khulsan, site 2 [PMPE]（Omnogov），地区代码 MN，地层名称 Baruungoyot；数据库年代范围 83.6–72.2 Ma，早端地质时段 Middle Campanian、晚端时段 Late Campanian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+<!-- /evo:text -->
+
+
+## 这些记录的年代边界
+
+<!-- evo:text /records/catalogue-profile/sections/8/text/zh -->
+本页所选出现记录的年代外包区间为 83.6–72.2 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
+<!-- /evo:text -->
+
+
+## 保存环境与生活环境分开阅读
+
+<!-- evo:text /records/catalogue-profile/sections/9/text/zh -->
+Khulsan, site 2 [PMPE] 的采集环境标签为 陆相沉积环境，类型未定（terrestrial indet.）；集合保存方式标签为 实体化石（body）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+<!-- /evo:text -->
+
+
+## 沿采集记录追到文献
+
+<!-- evo:text /records/catalogue-profile/sections/10/text/zh -->
+采集记录的数据库 ref:10138 保留 Osmolska（1982）署名。本页另读 Cau 与 Madzia（2018）的正模重描述，将 ZPAL MgD-I/173 的材料与作者解释绑定为独立来源；1982 年原描述全文本次未另读，不能由重描述代称直接核验。完整出现、采集与鉴定编号仍在独立档案，本批没有检查或复量原标本。
+<!-- /evo:text -->
+
+## 资料边界
+
+<!-- evo:text /records/catalogue-profile/limitations/zh -->
+本页结合固定出现记录与 2018 年一件残缺正模的重描述。脑颅识别含暂定解释，足骨只覆盖有限形态；骨长估计、未成熟判断、亲缘和奔跑适应分别保留研究口径，不推出成年大小、精确年龄、速度或全种生态。原始 1982 全文及所有后续材料尚未汇齐，未独立重算矩阵或复量争议骨长。数据库宽年代与沉积标签保留，不是死亡日期或直接栖地；尚非完整专论，也没有外部专家审评。
+<!-- /evo:text -->

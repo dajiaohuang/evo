@@ -1,0 +1,15 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  collection-status:
+    scientificName: Chascacocolius oscitans
+    sourceIdentity: PBDB:txn:433250
+    status: source-collection-placeholder
+    ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+    sourceLocators: []
+    expertReview: false
+    comprehensiveSpeciesMonograph: false
+---
+
+# Chascacocolius oscitans

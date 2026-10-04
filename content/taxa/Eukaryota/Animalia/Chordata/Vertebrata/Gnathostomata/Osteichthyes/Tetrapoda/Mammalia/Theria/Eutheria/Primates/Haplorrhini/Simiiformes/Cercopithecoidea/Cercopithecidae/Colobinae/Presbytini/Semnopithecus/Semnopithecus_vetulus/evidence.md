@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: ecology
         text:
           zh:
             markdown: page.zh.md
@@ -23,11 +21,8 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - weerasekara2021
+      - topic: ecology
         text:
           zh:
             markdown: page.zh.md
@@ -36,8 +31,7 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
+          - weerasekara2021
     sources:
       referenceBindings:
         - referenceId: ref-f9d78c71-a11b-8828-a36a-61ce9feaea71

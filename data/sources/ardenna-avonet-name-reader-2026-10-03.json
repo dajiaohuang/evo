@@ -1,0 +1,2184 @@
+{
+  "batch": "P5-173",
+  "date": "2026-10-03",
+  "newSpecies": 7,
+  "newBilingualSections": 41,
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_creatopus",
+      "colId": "D5KD7",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_gravis",
+      "colId": "D5KCG",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_tenuirostris",
+      "colId": "D5KCW",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_grisea",
+      "colId": "D5KCJ",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_bulleri",
+      "colId": "D5KCX",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_pacifica",
+      "colId": "D5KCT",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_carneipes",
+      "colId": "D5KCV",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna",
+      "colId": "D5KD6",
+      "newBilingualSections": 4,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae",
+      "newBilingualSections": 2
+    }
+  ],
+  "sharedReferenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+  "sourceFiles": [
+    {
+      "file": ".git/avonet-supplementary-dataset-1-v7.xlsx",
+      "sha256": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e"
+    },
+    {
+      "file": ".git/ardenna-selected-source-173.json",
+      "sha256": "3787d796ef7c3b73092849ef93b13505d62909b154fed626bd540abb9b06062b"
+    },
+    {
+      "file": ".git/ardenna-col-names-173.json",
+      "sha256": "4453397f539da1bd4bcaaccfaa601123dbf558310795ac1524872fa1f3fa3529"
+    }
+  ],
+  "colNameShardFiles": [
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-ar.jsonl.gz",
+      "sha256": "c672f58f581e9b9b9757231c787fa17202f9ebeed72f22e22583b39c8504e40d"
+    },
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-pu.jsonl.gz",
+      "sha256": "560eeec2d4c34fb0b519e8bee0e7e74bf1d8fbe967660ce0e0598e0a9aaad17a"
+    }
+  ],
+  "sourceRows": [
+    {
+      "target": {
+        "colId": "D5KD7",
+        "scientificName": "Ardenna creatopus",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_creatopus",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "622V8",
+            "parentId": "V2",
+            "scientificName": "Procellariiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "id": "627CQ",
+            "parentId": "622V8",
+            "scientificName": "Procellariidae Leach, 1820",
+            "authorship": "Leach, 1820",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 16
+          },
+          {
+            "id": "D5KD6",
+            "parentId": "627CQ",
+            "scientificName": "Ardenna Reichenbach, 1853",
+            "authorship": "Reichenbach, 1853",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "parentId": "D5KD6",
+            "id": "D5KD7",
+            "scientificName": "Ardenna creatopus (Coues, 1864)",
+            "authorship": "(Coues, 1864)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 10085,
+        "record": {
+          "Sequence": 2100,
+          "Species1": "Ardenna creatopus",
+          "Family1": "Procellariidae",
+          "Order1": "Procellariiformes",
+          "Avibase.ID1": "AVIBASE-9A77D2B0",
+          "Total.individuals": 5,
+          "Female": 1,
+          "Male": 4,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 48.4,
+          "Beak.Length_Nares": 33,
+          "Beak.Width": 9.2,
+          "Beak.Depth": 12.5,
+          "Tarsus.Length": 52.5,
+          "Wing.Length": 324,
+          "Kipps.Distance": 203,
+          "Secondary1": 121,
+          "Hand-Wing.Index": 62.6,
+          "Tail.Length": 112.2,
+          "Mass": 743.99,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Marine",
+          "Habitat.Density": 3,
+          "Migration": 3,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": -40.34,
+          "Max.Latitude": 61.51,
+          "Centroid.Latitude": 10.35,
+          "Centroid.Longitude": -107.32,
+          "Range.Size": 14595563.55
+        }
+      },
+      "eBird": {
+        "excelRow": 931,
+        "record": {
+          "Species1": "Ardenna creatopus",
+          "Species2": "Ardenna creatopus",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-9A77D2B0",
+          "Avibase.ID2": "AVIBASE-9A77D2B0",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 933,
+        "record": {
+          "Species1": "Ardenna creatopus",
+          "Species3": "Puffinus creatopus",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "D5KCG",
+        "scientificName": "Ardenna gravis",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_gravis",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "622V8",
+            "parentId": "V2",
+            "scientificName": "Procellariiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "id": "627CQ",
+            "parentId": "622V8",
+            "scientificName": "Procellariidae Leach, 1820",
+            "authorship": "Leach, 1820",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 16
+          },
+          {
+            "id": "D5KD6",
+            "parentId": "627CQ",
+            "scientificName": "Ardenna Reichenbach, 1853",
+            "authorship": "Reichenbach, 1853",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "parentId": "D5KD6",
+            "id": "D5KCG",
+            "scientificName": "Ardenna gravis (O'Reilly, 1818)",
+            "authorship": "(O'Reilly, 1818)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 10086,
+        "record": {
+          "Sequence": 2098,
+          "Species1": "Ardenna gravis",
+          "Family1": "Procellariidae",
+          "Order1": "Procellariiformes",
+          "Avibase.ID1": "AVIBASE-8B879DFA",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 54.7,
+          "Beak.Length_Nares": 36.3,
+          "Beak.Width": 8.3,
+          "Beak.Depth": 11.3,
+          "Tarsus.Length": 58.1,
+          "Wing.Length": 317.8,
+          "Kipps.Distance": 195.2,
+          "Secondary1": 120.2,
+          "Hand-Wing.Index": 61.9,
+          "Tail.Length": 112.8,
+          "Mass": 848.99,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Marine",
+          "Habitat.Density": 3,
+          "Migration": 3,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Aerial",
+          "Min.Latitude": -69.47,
+          "Max.Latitude": 68.62,
+          "Centroid.Latitude": -5.92,
+          "Centroid.Longitude": -29.95,
+          "Range.Size": 63607065.14
+        }
+      },
+      "eBird": {
+        "excelRow": 932,
+        "record": {
+          "Species1": "Ardenna gravis",
+          "Species2": "Ardenna gravis",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-8B879DFA",
+          "Avibase.ID2": "AVIBASE-8B879DFA",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 934,
+        "record": {
+          "Species1": "Ardenna gravis",
+          "Species3": "Puffinus gravis",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "D5KCW",
+        "scientificName": "Ardenna tenuirostris",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_tenuirostris",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "622V8",
+            "parentId": "V2",
+            "scientificName": "Procellariiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "id": "627CQ",
+            "parentId": "622V8",
+            "scientificName": "Procellariidae Leach, 1820",
+            "authorship": "Leach, 1820",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 16
+          },
+          {
+            "id": "D5KD6",
+            "parentId": "627CQ",
+            "scientificName": "Ardenna Reichenbach, 1853",
+            "authorship": "Reichenbach, 1853",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "parentId": "D5KD6",
+            "id": "D5KCW",
+            "scientificName": "Ardenna tenuirostris (Temminck, 1836)",
+            "authorship": "(Temminck, 1836)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 10089,
+        "record": {
+          "Sequence": 2096,
+          "Species1": "Ardenna tenuirostris",
+          "Family1": "Procellariidae",
+          "Order1": "Procellariiformes",
+          "Avibase.ID1": "AVIBASE-60825BF6",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 37.2,
+          "Beak.Length_Nares": 22.2,
+          "Beak.Width": 6.5,
+          "Beak.Depth": 7.5,
+          "Tarsus.Length": 49.3,
+          "Wing.Length": 262.2,
+          "Kipps.Distance": 165,
+          "Secondary1": 93.2,
+          "Hand-Wing.Index": 63.8,
+          "Tail.Length": 82.8,
+          "Mass": 559,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Marine",
+          "Habitat.Density": 3,
+          "Migration": 3,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": -70.06,
+          "Max.Latitude": 77.1,
+          "Centroid.Latitude": 0.74,
+          "Centroid.Longitude": 4.17,
+          "Range.Size": 112949641.5
+        }
+      },
+      "eBird": {
+        "excelRow": 935,
+        "record": {
+          "Species1": "Ardenna tenuirostris",
+          "Species2": "Ardenna tenuirostris",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-60825BF6",
+          "Avibase.ID2": "AVIBASE-60825BF6",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 937,
+        "record": {
+          "Species1": "Ardenna tenuirostris",
+          "Species3": "Puffinus tenuirostris",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "D5KCJ",
+        "scientificName": "Ardenna grisea",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_grisea",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "622V8",
+            "parentId": "V2",
+            "scientificName": "Procellariiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "id": "627CQ",
+            "parentId": "622V8",
+            "scientificName": "Procellariidae Leach, 1820",
+            "authorship": "Leach, 1820",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 16
+          },
+          {
+            "id": "D5KD6",
+            "parentId": "627CQ",
+            "scientificName": "Ardenna Reichenbach, 1853",
+            "authorship": "Reichenbach, 1853",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "parentId": "D5KD6",
+            "id": "D5KCJ",
+            "scientificName": "Ardenna grisea (J. F. Gmelin, 1789)",
+            "authorship": "(J. F. Gmelin, 1789)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 10087,
+        "record": {
+          "Sequence": 2097,
+          "Species1": "Ardenna grisea",
+          "Family1": "Procellariidae",
+          "Order1": "Procellariiformes",
+          "Avibase.ID1": "AVIBASE-1725B07D",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 47.8,
+          "Beak.Length_Nares": 31.1,
+          "Beak.Width": 7.8,
+          "Beak.Depth": 10,
+          "Tarsus.Length": 55.8,
+          "Wing.Length": 295.6,
+          "Kipps.Distance": 181.5,
+          "Secondary1": 112,
+          "Hand-Wing.Index": 61.8,
+          "Tail.Length": 88,
+          "Mass": 787,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Marine",
+          "Habitat.Density": 3,
+          "Migration": 3,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": -70.44,
+          "Max.Latitude": -25.36,
+          "Centroid.Latitude": -53.33,
+          "Centroid.Longitude": 18.85,
+          "Range.Size": 21320331.91
+        }
+      },
+      "eBird": {
+        "excelRow": 933,
+        "record": {
+          "Species1": "Ardenna grisea",
+          "Species2": "Ardenna grisea",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-1725B07D",
+          "Avibase.ID2": "AVIBASE-1725B07D",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 935,
+        "record": {
+          "Species1": "Ardenna grisea",
+          "Species3": "Puffinus griseus",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "D5KCX",
+        "scientificName": "Ardenna bulleri",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_bulleri",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "622V8",
+            "parentId": "V2",
+            "scientificName": "Procellariiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "id": "627CQ",
+            "parentId": "622V8",
+            "scientificName": "Procellariidae Leach, 1820",
+            "authorship": "Leach, 1820",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 16
+          },
+          {
+            "id": "D5KD6",
+            "parentId": "627CQ",
+            "scientificName": "Ardenna Reichenbach, 1853",
+            "authorship": "Reichenbach, 1853",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "parentId": "D5KD6",
+            "id": "D5KCX",
+            "scientificName": "Ardenna bulleri (Salvin, 1888)",
+            "authorship": "(Salvin, 1888)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 10083,
+        "record": {
+          "Sequence": 2095,
+          "Species1": "Ardenna bulleri",
+          "Family1": "Procellariidae",
+          "Order1": "Procellariiformes",
+          "Avibase.ID1": "AVIBASE-83F9C058",
+          "Total.individuals": 4,
+          "Female": 1,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 41,
+          "Beak.Length_Nares": 32.5,
+          "Beak.Width": 7.6,
+          "Beak.Depth": 10.2,
+          "Tarsus.Length": 48.6,
+          "Wing.Length": 276.2,
+          "Kipps.Distance": 163.2,
+          "Secondary1": 113,
+          "Hand-Wing.Index": 59.1,
+          "Tail.Length": 109,
+          "Mass": 406.99,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Marine",
+          "Habitat.Density": 3,
+          "Migration": 3,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Aquatic",
+          "Min.Latitude": -58.32,
+          "Max.Latitude": 60.29,
+          "Centroid.Latitude": 3.5,
+          "Centroid.Longitude": -53.77,
+          "Range.Size": 109799820.9
+        }
+      },
+      "eBird": {
+        "excelRow": 929,
+        "record": {
+          "Species1": "Ardenna bulleri",
+          "Species2": "Ardenna bulleri",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-83F9C058",
+          "Avibase.ID2": "AVIBASE-83F9C058",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 931,
+        "record": {
+          "Species1": "Ardenna bulleri",
+          "Species3": "Puffinus bulleri",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "D5KCT",
+        "scientificName": "Ardenna pacifica",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_pacifica",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "622V8",
+            "parentId": "V2",
+            "scientificName": "Procellariiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "id": "627CQ",
+            "parentId": "622V8",
+            "scientificName": "Procellariidae Leach, 1820",
+            "authorship": "Leach, 1820",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 16
+          },
+          {
+            "id": "D5KD6",
+            "parentId": "627CQ",
+            "scientificName": "Ardenna Reichenbach, 1853",
+            "authorship": "Reichenbach, 1853",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "parentId": "D5KD6",
+            "id": "D5KCT",
+            "scientificName": "Ardenna pacifica (J. F. Gmelin, 1789)",
+            "authorship": "(J. F. Gmelin, 1789)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 10088,
+        "record": {
+          "Sequence": 2094,
+          "Species1": "Ardenna pacifica",
+          "Family1": "Procellariidae",
+          "Order1": "Procellariiformes",
+          "Avibase.ID1": "AVIBASE-E94A7272",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 2,
+          "Unknown": 1,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 40.9,
+          "Beak.Length_Nares": 30.7,
+          "Beak.Width": 7.9,
+          "Beak.Depth": 10.1,
+          "Tarsus.Length": 46.9,
+          "Wing.Length": 296.8,
+          "Kipps.Distance": 184.5,
+          "Secondary1": 116,
+          "Hand-Wing.Index": 61.4,
+          "Tail.Length": 130.4,
+          "Mass": 388,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Marine",
+          "Habitat.Density": 3,
+          "Migration": 3,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": -42.04,
+          "Max.Latitude": 37.89,
+          "Centroid.Latitude": -0.72,
+          "Centroid.Longitude": 13.15,
+          "Range.Size": 119963361.1
+        }
+      },
+      "eBird": {
+        "excelRow": 934,
+        "record": {
+          "Species1": "Ardenna pacifica",
+          "Species2": "Ardenna pacifica",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-E94A7272",
+          "Avibase.ID2": "AVIBASE-E94A7272",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 936,
+        "record": {
+          "Species1": "Ardenna pacifica",
+          "Species3": "Puffinus pacificus",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "D5KCV",
+        "scientificName": "Ardenna carneipes",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_carneipes",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "622V8",
+            "parentId": "V2",
+            "scientificName": "Procellariiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "id": "627CQ",
+            "parentId": "622V8",
+            "scientificName": "Procellariidae Leach, 1820",
+            "authorship": "Leach, 1820",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 16
+          },
+          {
+            "id": "D5KD6",
+            "parentId": "627CQ",
+            "scientificName": "Ardenna Reichenbach, 1853",
+            "authorship": "Reichenbach, 1853",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "parentId": "D5KD6",
+            "id": "D5KCV",
+            "scientificName": "Ardenna carneipes (Gould, 1844)",
+            "authorship": "(Gould, 1844)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 10084,
+        "record": {
+          "Sequence": 2099,
+          "Species1": "Ardenna carneipes",
+          "Family1": "Procellariidae",
+          "Order1": "Procellariiformes",
+          "Avibase.ID1": "AVIBASE-08F22F84",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 47.8,
+          "Beak.Length_Nares": 31.1,
+          "Beak.Width": 8.9,
+          "Beak.Depth": 12.1,
+          "Tarsus.Length": 52.1,
+          "Wing.Length": 310.2,
+          "Kipps.Distance": 188.5,
+          "Secondary1": 120.5,
+          "Hand-Wing.Index": 61,
+          "Tail.Length": 110.2,
+          "Mass": 609,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Marine",
+          "Habitat.Density": 3,
+          "Migration": 3,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Aerial",
+          "Min.Latitude": -47.79,
+          "Max.Latitude": 61.51,
+          "Centroid.Latitude": 2.84,
+          "Centroid.Longitude": 28.09,
+          "Range.Size": 117469913.7
+        }
+      },
+      "eBird": {
+        "excelRow": 930,
+        "record": {
+          "Species1": "Ardenna carneipes",
+          "Species2": "Ardenna carneipes",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-08F22F84",
+          "Avibase.ID2": "AVIBASE-08F22F84",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 932,
+        "record": {
+          "Species1": "Ardenna carneipes",
+          "Species3": "Puffinus carneipes",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    }
+  ],
+  "colNameRecords": [
+    {
+      "normalizedName": "ardenna bulleri salvin 1888",
+      "id": "D5KCX",
+      "scientificName": "Ardenna bulleri (Salvin, 1888)",
+      "authorship": "(Salvin, 1888)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "D5KD6",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Procellariiformes",
+        null,
+        "Procellariidae",
+        null,
+        null,
+        null,
+        "Ardenna"
+      ]
+    },
+    {
+      "normalizedName": "ardenna carneipes gould 1844",
+      "id": "D5KCV",
+      "scientificName": "Ardenna carneipes (Gould, 1844)",
+      "authorship": "(Gould, 1844)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "D5KD6",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Procellariiformes",
+        null,
+        "Procellariidae",
+        null,
+        null,
+        null,
+        "Ardenna"
+      ]
+    },
+    {
+      "normalizedName": "ardenna creatopus coues 1864",
+      "id": "D5KD7",
+      "scientificName": "Ardenna creatopus (Coues, 1864)",
+      "authorship": "(Coues, 1864)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "D5KD6",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Procellariiformes",
+        null,
+        "Procellariidae",
+        null,
+        null,
+        null,
+        "Ardenna"
+      ]
+    },
+    {
+      "normalizedName": "ardenna gravis o reilly 1818",
+      "id": "D5KCG",
+      "scientificName": "Ardenna gravis (O'Reilly, 1818)",
+      "authorship": "(O'Reilly, 1818)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "D5KD6",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Procellariiformes",
+        null,
+        "Procellariidae",
+        null,
+        null,
+        null,
+        "Ardenna"
+      ]
+    },
+    {
+      "normalizedName": "ardenna grisea j f gmelin 1789",
+      "id": "D5KCJ",
+      "scientificName": "Ardenna grisea (J. F. Gmelin, 1789)",
+      "authorship": "(J. F. Gmelin, 1789)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "D5KD6",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Procellariiformes",
+        null,
+        "Procellariidae",
+        null,
+        null,
+        null,
+        "Ardenna"
+      ]
+    },
+    {
+      "normalizedName": "ardenna pacifica j f gmelin 1789",
+      "id": "D5KCT",
+      "scientificName": "Ardenna pacifica (J. F. Gmelin, 1789)",
+      "authorship": "(J. F. Gmelin, 1789)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "D5KD6",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Procellariiformes",
+        null,
+        "Procellariidae",
+        null,
+        null,
+        null,
+        "Ardenna"
+      ]
+    },
+    {
+      "normalizedName": "ardenna tenuirostris temminck 1836",
+      "id": "D5KCW",
+      "scientificName": "Ardenna tenuirostris (Temminck, 1836)",
+      "authorship": "(Temminck, 1836)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "D5KD6",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Procellariiformes",
+        null,
+        "Procellariidae",
+        null,
+        null,
+        null,
+        "Ardenna"
+      ]
+    },
+    {
+      "normalizedName": "puffinus bulleri salvin 1888",
+      "id": "4QFXK",
+      "scientificName": "Puffinus bulleri Salvin, 1888",
+      "authorship": "Salvin, 1888",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "D5KCX",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "puffinus carneipes gould 1844",
+      "id": "4QFXL",
+      "scientificName": "Puffinus carneipes Gould, 1844",
+      "authorship": "Gould, 1844",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "D5KCV",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "puffinus chlororhynchus r p lesson 1831",
+      "id": "KTG3Q",
+      "scientificName": "Puffinus chlororhynchus R. P. Lesson, 1831",
+      "authorship": "R. P. Lesson, 1831",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "D5KCT",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "puffinus creatopus coues 1864",
+      "id": "4QFXM",
+      "scientificName": "Puffinus creatopus Coues, 1864",
+      "authorship": "Coues, 1864",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "D5KD7",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "puffinus gravis o reilly 1818",
+      "id": "4QFXQ",
+      "scientificName": "Puffinus gravis (O'Reilly, 1818)",
+      "authorship": "(O'Reilly, 1818)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "D5KCG",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "puffinus griseus j f gmelin 1789",
+      "id": "4QFXR",
+      "scientificName": "Puffinus griseus (J. F. Gmelin, 1789)",
+      "authorship": "(J. F. Gmelin, 1789)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "D5KCJ",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "puffinus pacificus j f gmelin 1789",
+      "id": "S3BHW",
+      "scientificName": "Puffinus pacificus (J. F. Gmelin, 1789)",
+      "authorship": "(J. F. Gmelin, 1789)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "D5KCT",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "puffinus tenuirostris temminck 1836",
+      "id": "4QFY6",
+      "scientificName": "Puffinus tenuirostris (Temminck, 1836)",
+      "authorship": "(Temminck, 1836)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "D5KCW",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    }
+  ],
+  "fieldDefinitions": [
+    {
+      "excelRow": 12,
+      "record": {
+        "Variable": "Total.individuals",
+        "Description": "Number of individual specimens and live birds measured for each species",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 13,
+      "record": {
+        "Variable": "Female",
+        "Description": "Number of measured individuals identified as female",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 14,
+      "record": {
+        "Variable": "Male",
+        "Description": "Number of measured individuals identified as male",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 15,
+      "record": {
+        "Variable": "Unknown",
+        "Description": "Number of unsexed individuals measured",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 16,
+      "record": {
+        "Variable": "Complete.measures",
+        "Description": "Number of measured individuals with complete set of morphometric trait measurements ",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 18,
+      "record": {
+        "Variable": "Beak.Length_Nares",
+        "Description": "Length from the anterior edge of the nostrils to the tip of the beak",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 19,
+      "record": {
+        "Variable": "Beak.Width",
+        "Description": "Width of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 22,
+      "record": {
+        "Variable": "Wing.Length",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the longest primary on the unflattened wing",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 25,
+      "record": {
+        "Variable": "Hand-Wing.Index",
+        "Description": "100*DK/Lw, where DK is Kipp’s distance and Lw is wing length (i.e., Kipp’s distance corrected for wing size). Species average HWI differ from estimates in Sheard et al. (2020) because of much higher sampling of individuals in some species, as well as taxonomic effects in the BirdLife list",
+        "Variable Types": "continuous",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 27,
+      "record": {
+        "Variable": "Mass",
+        "Description": "Body mass given as species average (incorporating both male and female body mass)",
+        "Variable Types": "continuous",
+        "Units": "gram",
+        "Source": "See Mass Source column"
+      }
+    },
+    {
+      "excelRow": 28,
+      "record": {
+        "Variable": "Mass.Source",
+        "Description": "Dunning (= Dunning, JB [2008] CRC Handbook of Avian Body Masses);\nEltonTraits_Other (= mass published by Wilman et al. 2014 EltonTraits 1.0. Ecology, on basis of literature other than Dunning, usually Handbook of the Birds of the World [now Birds of the World, Cornell])\nEltonTraits_GenAvg (= average of the genus, published in Wilman et al. 2014 EltonTraits 1.0. Ecology); \nEltonTraits_Model (= inferred from mass and length data, with mass-length relationships parameterized at family level, published in Wilman et al. 2014 EltonTraits 1.0. Ecology);\nUpdated_literature (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from literature and online resources, including Birds of the World - specific sources are listed in the Mass.Ref.Source column);  \nUpdated_live.sample (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from museum labels and/or field data of from wild birds weighed using a Pezola balance before release. Specific sources are listed in the Mass.Ref.Source column);  \nInferred (= where EltonTraits GenAvg or Modelled data seemed misleading, and no published data were available for updating, we replaced it where possible with data inferred directly from a morphologically similar relative. Reference species and Traits inferred columns indicate where mass has been inferred and from which species);\nDataFromSplit (= daughter species body mass inferred from parent species after split; the parent or nominate form is typically morphologically similar and provides a reasonable estimate of body mass, particularly as mass data used to calculate the parent species body mass in earlier publications sometimes includes data from the recently split daughter species).\n",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 30,
+      "record": {
+        "Variable": "Inference",
+        "Description": "NO = all biometric trait data were obtained from direct measurement of specimens, or in the case of body mass from published sources\nYES = at least some of the biometric traits were unavailable from specimens so these trait data were inferred from a closely related species; in some cases all morphological measurements were taken directly except for body mass, which can't be measured on museum specimens.",
+        "Variable Types": "binary",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 33,
+      "record": {
+        "Variable": "Habitat",
+        "Description": "Desert (= drylands and other open arid habitats, often sandy with very sparse vegetation); \nRock (= rocky substrate typically with no or very little vegetation, including rocky outcrops, rocky coastlines, arid stony steppes, rocky mountaintops and mountain slopes); \nGrassland (=  open dry to moist grass-dominated landscapes, at all elevations); \nShrubland (= low stature bushy habitats, included thornscrub, thorny or arid savanna, caatinga, xerophytic shrubland and coastal scrub); \nWoodland (= medium stature tree-dominated habitats, including Acacia woodland, riparian woodlands, mangrove forests, forest edges, also more open parkland with scattered taller trees);\nForest (= tall tree-dominated vegetation with more or less closed canopy, including palm forest); \nHuman modified (urban landscapes, intensive agriculture, gardens); \nWetland (= wide range of freshwater aquatic habitats including lakes, marshes, swamps and reedbeds); \nRiverine (= associated with rivers and streams at all elevations); \nCoastal (= intertidal zones within immediate vicinity of beaches, estuaries, brackish to salty marshes, including mudflats, lagoons, alkaline wetlands, coastal dunes and harbours);\nMarine (= pelagic, on sea near coasts, including species in the intertidal zone on beaches, and those pelagic species nesting near the sea on cliffs, islets and islands).",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Data extracted from primary and secondary literature, particularly Handbook of the Birds of the World (including Birds of the World)"
+      }
+    },
+    {
+      "excelRow": 34,
+      "record": {
+        "Variable": "Habitat.Density",
+        "Description": "1 = Dense habitats. Species primarily lives in the lower or middle storey of forest, or in dense thickets, dense shrubland etc.\n2 = Semi-open habitats. Species primarily lives in open shrubland, scattered bushes, parkland, low dry or deciduous forest, thorn forest. \n3 = Open habitats. Species primarily lives in desert, grassland, open water, low shrubs, rocky habitats, seashores, cities. Also applies to species living mainly on top of forest canopy (i.e. mostly in the open)",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias et al. (2016) Frontiers Ecol. Evol."
+      }
+    },
+    {
+      "excelRow": 35,
+      "record": {
+        "Variable": "Migration",
+        "Description": "1 = Sedentary. \n2 = Partially migratory, i.e. minority of population migrates long distances, or most of population undergoes short-distance migration, nomadic movements, distinct altitudinal migration, etc.\n3 = Migratory, i.e. majority of population undertakes long-distance migration",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias & Pigot (2019) Phil. Trans. Roy. Soc."
+      }
+    },
+    {
+      "excelRow": 36,
+      "record": {
+        "Variable": "Trophic.Level",
+        "Description": "Herbivore = species obtaining at least 70% of food resources from plants; Carnivore = species obtaining at least 70% of food resources by consuming live invertebrate or vertebrate animals; Scavenger = species obtaining at least 70% of food resources from carrion or refuse; Omnivore = species obtaining resources from multiple trophic level in roughly equal proportion",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 37,
+      "record": {
+        "Variable": "Trophic.Niche",
+        "Description": "Frugivore = species obtaining at least 60% of food resources from fruit; \nGranivore = species obtaining at least 60% of food resources from seeds or nuts; \nNectarivore =  species obtaining at least 60% of food resources from nectar; \nHerbivore = species obtaining at least 60% of food resources from other plant materials in non-aquatic systems, including leaves, buds, whole flowers etc.; \nHerbivore aquatic = species obtaining at least 60% of food resources from plant materials in aquatic systems, including algae and aquatic plant leaves; \nInvertivore = species obtaining at least 60% of food resources from invertebrates in terrestrial systems, including insects, worms, arachnids, etc.; \nVertivore = species obtaining at least 60% of food resources from vertebrate animals in terrestrial systems, including mammals, birds, reptiles etc.; \nAquatic Predator = species obtaining at least 60% of food resources from vertebrate and invertebrate animals in aquatic systems, including fish, crustacea, molluscs, etc; \nScavenger = species obtaining at least 60% of food resources from carrion, offal or refuse; Omnivore = Species using multiple niches, within or across trophic levels, in relatively equal proportions ",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 38,
+      "record": {
+        "Variable": "Primary.Lifestyle",
+        "Description": "Aerial = species spends much of the time in flight, and hunts or forages predominantly on the wing; \nTerrestrial = species spends majority of its time on the ground, where it obtains food while either walking or hopping (note this includes species that also wade in water with their body raised above the water); \nInsessorial = species spends much of the time perching above the ground, either in branches of trees and other vegetation (i.e. arboreal), or on other raised substrates including rocks, buildings, posts, and wires; \nAquatic = species spends much of the time sitting on water, and obtains  food while afloat or when diving under the water's surface; Generalist = species has no primary lifestyle because it spends time in different lifestyle classes",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 17,
+      "record": {
+        "Variable": "Beak.Length_Culmen",
+        "Description": "Length from the tip of the beak to the base of the skull",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 20,
+      "record": {
+        "Variable": "Beak.Depth",
+        "Description": "Depth of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 21,
+      "record": {
+        "Variable": "Tarsus.Length",
+        "Description": "Length of the tarsus from the posterior notch between tibia and tarsus, to the end of the last scale of acrotarsium (at the bend of the foot)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 23,
+      "record": {
+        "Variable": "Kipps.Distance",
+        "Description": "Length from the tip of the first secondary feather to the tip of the longest primary      ",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 24,
+      "record": {
+        "Variable": "Secondary1",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the first secondary, i.e. the outermost secondary adjacent to the innermost primary feather. Secondary1 is roughly equivalent to Wing length minus Kipp’s distance (measured in a fully folded and flat wing)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 26,
+      "record": {
+        "Variable": "Tail.Length",
+        "Description": "Distance between the tip of the longest rectrix and the point at which the two central rectrices protrude from the skin, typically measured using a ruler inserted between the two central rectrices",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 31,
+      "record": {
+        "Variable": "Traits.inferred",
+        "Description": "List of traits inferred from the reference species",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 32,
+      "record": {
+        "Variable": "Reference.species",
+        "Description": "Species from which the biometric data were inferred",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    }
+  ],
+  "readingScope": "Seven morphology/mass/ecology rows, full crosswalks, related catalogue names and relevant definitions. Not the whole workbook, specimens, original mass book or a new full methods-paper reading.",
+  "retainedBoundaries": {
+    "sevenExactPuffinusCrosswalkSynonyms": true,
+    "griseaGriseusPacificaPacificusEndingsRetained": true,
+    "fourGeneralistTwoAerialOneAquatic": true,
+    "allMarineOpenMigratoryAquaticPredatorCarnivore": true,
+    "bulleriFourTotalFourCompleteOthersFiveFour": true,
+    "pacificaUnsexedOneRetained": true,
+    "morphologyAndDunningMassSeparate": true,
+    "noDietDiveDepthFlightPerformanceOrRouteInferred": true,
+    "noGeographicFieldsInterpreted": true,
+    "historicalGuidesNotCompleteMonographs": true,
+    "activePrimateGaps": 14,
+    "fixedAcceptedPrimateDenominator": 530
+  },
+  "intakeBeforeIncrementalCounts": {
+    "indexExists": 652,
+    "bilingualCatalogueProfileMarkers": 649,
+    "missingOneOrBothCatalogueProfileMarkers": 6524,
+    "scope": "Original 7173 observation plus 284 authored species in P5-143–172; no new whole-corpus prose review."
+  },
+  "intakeAfterIncrementalCounts": {
+    "indexExists": 659,
+    "bilingualCatalogueProfileMarkers": 656,
+    "missingOneOrBothCatalogueProfileMarkers": 6517,
+    "scope": "Original 7173 observation plus 291 authored species in P5-143–173; no new whole-corpus prose review."
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All 41 new sections in both languages and all nine profile limits were read after writing, including all eight prior family sections. Read nine indices, all topic/source vectors, new reference bindings and limitation pointers, eight bounded new projection entries, P5-173 plan, intake followups and receipt metadata. Seven source rows, full crosswalks, fifteen related catalogue names and relevant field definitions were read before authoring. Seven exact Puffinus crosswalk combinations, grisea/griseus and pacifica/pacificus endings, four Generalist/two Aerial/one Aquatic lifestyles, Marine open environment and migration category 3 remain explicit. Morphology samples and compiled Dunning mass remain separate. Editorial reading is not generation, tests, whole-corpus validation or expert review.",
+    "canonicalFiles": [
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_creatopus/index.yaml",
+        "sha256": "13b8f2eb26423de825ff02c0e566bc4b1a782084d1b6c2d61ecbe225cce116ae"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_creatopus/evidence.md",
+        "sha256": "5acb68e80ad53efc835e520bb2c5ab64243e5c7f1102b5283ceac7d0b3c242bc"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_creatopus/page.zh.md",
+        "sha256": "97ddfe75f69cbeffa2f10aaeece0019b6e8f5c1bade32f76cfc02630bc00fee3"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_creatopus/page.en.md",
+        "sha256": "eb0d37495b4ba66b0c32609ce449fbf5f7e00843bbd8ac74647a0ff6ce65c384"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_gravis/index.yaml",
+        "sha256": "82f76bf78cb0945346e06ca8db6a088b93afedd01238ee01238942e37588d2c9"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_gravis/evidence.md",
+        "sha256": "c0a5caf62457d32fa010866829cddbc2b422a28910517c89950662b73ac042b4"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_gravis/page.zh.md",
+        "sha256": "bf0c825ea3987eb8ba53b92373d2681143116684200fa57777f63a71a861c50d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_gravis/page.en.md",
+        "sha256": "c4b02a7ea7e421274b9b7233e0f4d65c43c3b2d673d65ac7f83df3bb20e0c589"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_tenuirostris/index.yaml",
+        "sha256": "197e10e6d188be7071f25425bab00dc0876b6c1d8a5c42a458335150d70363b3"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_tenuirostris/evidence.md",
+        "sha256": "aa235a2fb1f824ae7478d66f2b52ea681e8ad764cd4a576178d65be65c9f54c5"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_tenuirostris/page.zh.md",
+        "sha256": "2d950f019d8ac49b979f9aa8c91db5143c14da00449d06466d6514825a094b07"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_tenuirostris/page.en.md",
+        "sha256": "a8c1cc3355888f27468fcbd77e2d48dbd4afae73a0eac7ef9a80bc8c6e0d9d9d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_grisea/index.yaml",
+        "sha256": "a640a22a9c92fb0054bbeeaee19ed5ee94f570b84b7cc8d52481865f4335b9a3"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_grisea/evidence.md",
+        "sha256": "55beefa2caf429a3a5f5e66ad7064d8e72dc24afe4c698ea38525c667805824b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_grisea/page.zh.md",
+        "sha256": "8fd146dab74a01f8029d9816c48dac8295ec5adeed37c62b2915a241504363db"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_grisea/page.en.md",
+        "sha256": "63bac165fdf787e6ce37cd5c5f44363a3708326a72ed5f0c462a4dbb116e36d6"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_bulleri/index.yaml",
+        "sha256": "6b3daf1c5e7f6ddfd3f8d67c3daa8dd3fe5b92e02528ee13fd05ae739e5cf0df"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_bulleri/evidence.md",
+        "sha256": "d18e9aa99e65e29b6fe046b3d872943e5a01a39bd96738ea79963d3bdae285b8"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_bulleri/page.zh.md",
+        "sha256": "908876e4989a1225cc1e4a2fa06c26069aa625088dd05d1ad74acd73f99023cf"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_bulleri/page.en.md",
+        "sha256": "6178328180681b06f375766a78864cd916937caf50c20104d4d4dcd47c41da6e"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_pacifica/index.yaml",
+        "sha256": "543acb33f2f72a27616d8fcded6d08838ff53a692a06c6ad5e31ca9eebbf63e9"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_pacifica/evidence.md",
+        "sha256": "ac76616247e15477f1736a1af2244b622b8151fa8aca5186554ecc9f43a0914c"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_pacifica/page.zh.md",
+        "sha256": "8031c59034d797f6ffc7b6c93e5344785088358bfc0ce465eb5458cd683efd35"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_pacifica/page.en.md",
+        "sha256": "192874279537825dbaa918128b7d9b5e78bd9b5504abfc6b693cf8ec877cd403"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_carneipes/index.yaml",
+        "sha256": "b0aa38bc26ec8cacdbe9165a9e7ab9a9dfc0a5542b60c218ffdfdb0138dda181"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_carneipes/evidence.md",
+        "sha256": "ba415124012af80d8d4743c637aca18a1684d668fb4ae2d9f4c1e0e697b62b93"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_carneipes/page.zh.md",
+        "sha256": "8b5d9fb8df53c884dd540d4668c76fe0d2d9e314dc018ea24920be2f80c59f60"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/Ardenna_carneipes/page.en.md",
+        "sha256": "c1e3a79acc3e2e87c03b0f892b4947f9a83a9df0870ff24e35f0cece5973bb24"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/index.yaml",
+        "sha256": "268ce40d3d528e4ede982a28f75bc9127ae4e6a7a1405604a607fc3fe794f20a"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/evidence.md",
+        "sha256": "309d9875c9182d0da0d91219f43a0d1bd09b3e8899412bb47bc727495ee5bc4a"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/page.zh.md",
+        "sha256": "d310038d3d54eedc68bdfac467bd3d9305ccfa3ce837c26ce3964f4aa704fe47"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/Ardenna/page.en.md",
+        "sha256": "af62d1ced457317b709bcb02c571b1aebdbb16273d4c05f4d6008bd24c30fdae"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/evidence.md",
+        "sha256": "57933087802f3ec549ac09cc5cb5e76798017866a6af6cf341cd181f7e715ce8"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/page.zh.md",
+        "sha256": "5756a8e2de4fb3ca6b89bbe35cbdaf715536a1203e8794ae89356a19bcdb1b91"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Procellariidae/page.en.md",
+        "sha256": "b925024ddc1e04f076f32e3ffbb62d5ba397fe49aabfbc9589c3c9002098e3a0"
+      },
+      {
+        "path": "content/projection-map.yaml",
+        "sha256": "e5419ec8e097494b99896ea13f2f0845bdbc68fdac106410411b3e28cf8ae61a"
+      },
+      {
+        "path": "docs/content-production-plan.md",
+        "sha256": "f5b0138666b1b65e73dc0eae568b19452626ee245be38877d0dc8ce9859503a1"
+      },
+      {
+        "path": "data/sources/col-unrepresented-reader-intake-2026-10-03.json",
+        "sha256": "202bd3e8c406c73939dd7ed330a374ffec82554723116241a26771a9be2d9606"
+      },
+      {
+        "path": "data/sources/avonet-name-crosswalk-intake-2026-10-03.json",
+        "sha256": "189d30143a08bdd51d0f9b9bf92e51d67d47c02da98ad631cafeec12f93948ee"
+      }
+    ]
+  },
+  "delivery": "Canonical inputs authored; tests, generation, commit and publication deferred until all content completion."
+}

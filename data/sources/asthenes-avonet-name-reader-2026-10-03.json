@@ -1,0 +1,2436 @@
+{
+  "batch": "P5-166",
+  "date": "2026-10-03",
+  "newSpecies": 8,
+  "newBilingualSections": 46,
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_helleri",
+      "colId": "DD9G3",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_palpebralis",
+      "colId": "DD9G6",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_coryi",
+      "colId": "DD9G7",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_perijana",
+      "colId": "DD9G8",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_harterti",
+      "colId": "DD9G2",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_fuliginosa",
+      "colId": "DD9G9",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_moreirae",
+      "colId": "DD9FX",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_griseomurina",
+      "colId": "DD9GD",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes",
+      "newBilingualSections": 4
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae",
+      "newBilingualSections": 2
+    }
+  ],
+  "sharedReferenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+  "sourceFiles": [
+    {
+      "file": ".git/avonet-supplementary-dataset-1-v7.xlsx",
+      "sha256": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e"
+    },
+    {
+      "file": ".git/asthenes-selected-source-166.json",
+      "sha256": "70f733f52daaac71ae749f8ce7ad331d93dca063e499e2f08b5dd2763cecf438"
+    },
+    {
+      "file": ".git/asthenes-col-names-166.json",
+      "sha256": "27d68801c5fa4bb4f7186150e43c9bfc9e366b24a5617107c9be78482c9fa352"
+    }
+  ],
+  "colNameShardFiles": [
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-as.jsonl.gz",
+      "sha256": "861a38ce8bf400d726177ccea1a016694dac85a863cadd3b644ebdaa02c91a24"
+    },
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-sc.jsonl.gz",
+      "sha256": "17f81f601f4115871355d427b7c8f69a7706f18a69080448cc2b9b619af085d4"
+    },
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-or.jsonl.gz",
+      "sha256": "bcb8d5c8217564dda2bdb3fe521408a1798acc9245f6f77c3145ec8def9efe82"
+    }
+  ],
+  "sourceRows": [
+    {
+      "target": {
+        "colId": "DD9G3",
+        "scientificName": "Asthenes helleri",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_helleri",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "6245S",
+            "parentId": "3RL",
+            "scientificName": "Furnariidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 71
+          },
+          {
+            "id": "34G2",
+            "parentId": "6245S",
+            "scientificName": "Asthenes Reichenbach, 1853",
+            "authorship": "Reichenbach, 1853",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 29
+          },
+          {
+            "parentId": "34G2",
+            "id": "DD9G3",
+            "scientificName": "Asthenes helleri (Chapman, 1923)",
+            "authorship": "(Chapman, 1923)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 4195,
+        "record": {
+          "Sequence": 5196,
+          "Species1": "Asthenes helleri",
+          "Family1": "Furnariidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-B87C0D49",
+          "Total.individuals": 13,
+          "Female": 1,
+          "Male": 3,
+          "Unknown": 9,
+          "Complete.measures": 7,
+          "Beak.Length_Culmen": 15.3,
+          "Beak.Length_Nares": 8.8,
+          "Beak.Width": 2.5,
+          "Beak.Depth": 3.2,
+          "Tarsus.Length": 23,
+          "Wing.Length": 52.6,
+          "Kipps.Distance": 6.5,
+          "Secondary1": 46.2,
+          "Hand-Wing.Index": 12.3,
+          "Tail.Length": 97,
+          "Mass": 15.3,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Grassland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -15.22,
+          "Max.Latitude": -11.84,
+          "Centroid.Latitude": -13.38,
+          "Centroid.Longitude": -71.49,
+          "Range.Size": 43369.93
+        }
+      },
+      "eBird": {
+        "excelRow": 1040,
+        "record": {
+          "Species1": "Asthenes helleri",
+          "Species2": "Asthenes helleri",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-B87C0D49",
+          "Avibase.ID2": "AVIBASE-B87C0D49",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 1041,
+        "record": {
+          "Species1": "Asthenes helleri",
+          "Species3": "Schizoeaca helleri",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "DD9G6",
+        "scientificName": "Asthenes palpebralis",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_palpebralis",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "6245S",
+            "parentId": "3RL",
+            "scientificName": "Furnariidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 71
+          },
+          {
+            "id": "34G2",
+            "parentId": "6245S",
+            "scientificName": "Asthenes Reichenbach, 1853",
+            "authorship": "Reichenbach, 1853",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 29
+          },
+          {
+            "parentId": "34G2",
+            "id": "DD9G6",
+            "scientificName": "Asthenes palpebralis (Cabanis, 1873)",
+            "authorship": "(Cabanis, 1873)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 4205,
+        "record": {
+          "Sequence": 5198,
+          "Species1": "Asthenes palpebralis",
+          "Family1": "Furnariidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-48C5FC42",
+          "Total.individuals": 6,
+          "Female": 1,
+          "Male": 5,
+          "Unknown": 0,
+          "Complete.measures": 2,
+          "Beak.Length_Culmen": 16.1,
+          "Beak.Length_Nares": 9.5,
+          "Beak.Width": 2.9,
+          "Beak.Depth": 3.3,
+          "Tarsus.Length": 24.1,
+          "Wing.Length": 57.9,
+          "Kipps.Distance": 6.6,
+          "Secondary1": 51.4,
+          "Hand-Wing.Index": 11.4,
+          "Tail.Length": 114,
+          "Mass": 16.97,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Grassland",
+          "Habitat.Density": 3,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -12.05,
+          "Max.Latitude": -11.07,
+          "Centroid.Latitude": -11.54,
+          "Centroid.Longitude": -75.13,
+          "Range.Size": 11496.43
+        }
+      },
+      "eBird": {
+        "excelRow": 1050,
+        "record": {
+          "Species1": "Asthenes palpebralis",
+          "Species2": "Asthenes palpebralis",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-48C5FC42",
+          "Avibase.ID2": "AVIBASE-48C5FC42",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 1051,
+        "record": {
+          "Species1": "Asthenes palpebralis",
+          "Species3": "Schizoeaca palpebralis",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "DD9G7",
+        "scientificName": "Asthenes coryi",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_coryi",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "6245S",
+            "parentId": "3RL",
+            "scientificName": "Furnariidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 71
+          },
+          {
+            "id": "34G2",
+            "parentId": "6245S",
+            "scientificName": "Asthenes Reichenbach, 1853",
+            "authorship": "Reichenbach, 1853",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 29
+          },
+          {
+            "parentId": "34G2",
+            "id": "DD9G7",
+            "scientificName": "Asthenes coryi (Berlepsch, 1888)",
+            "authorship": "(Berlepsch, 1888)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 4189,
+        "record": {
+          "Sequence": 5192,
+          "Species1": "Asthenes coryi",
+          "Family1": "Furnariidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-9F89BDB8",
+          "Total.individuals": 7,
+          "Female": 2,
+          "Male": 5,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 15.2,
+          "Beak.Length_Nares": 9,
+          "Beak.Width": 2.8,
+          "Beak.Depth": 3.4,
+          "Tarsus.Length": 21.9,
+          "Wing.Length": 56.6,
+          "Kipps.Distance": 6.7,
+          "Secondary1": 49.9,
+          "Hand-Wing.Index": 11.9,
+          "Tail.Length": 84,
+          "Mass": 16.8,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Grassland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": 7.63,
+          "Max.Latitude": 9.52,
+          "Centroid.Latitude": 8.55,
+          "Centroid.Longitude": -71.27,
+          "Range.Size": 9010.23
+        }
+      },
+      "eBird": {
+        "excelRow": 1034,
+        "record": {
+          "Species1": "Asthenes coryi",
+          "Species2": "Asthenes coryi",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-9F89BDB8",
+          "Avibase.ID2": "AVIBASE-9F89BDB8",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 1035,
+        "record": {
+          "Species1": "Asthenes coryi",
+          "Species3": "Schizoeaca coryi",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "DD9G8",
+        "scientificName": "Asthenes perijana",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_perijana",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "6245S",
+            "parentId": "3RL",
+            "scientificName": "Furnariidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 71
+          },
+          {
+            "id": "34G2",
+            "parentId": "6245S",
+            "scientificName": "Asthenes Reichenbach, 1853",
+            "authorship": "Reichenbach, 1853",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 29
+          },
+          {
+            "parentId": "34G2",
+            "id": "DD9G8",
+            "scientificName": "Asthenes perijana (W. H. Phelps Jr, 1977)",
+            "authorship": "(W. H. Phelps Jr, 1977)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 4206,
+        "record": {
+          "Sequence": 5193,
+          "Species1": "Asthenes perijana",
+          "Family1": "Furnariidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-2EC35E39",
+          "Total.individuals": 6,
+          "Female": 3,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 15.6,
+          "Beak.Length_Nares": 9.5,
+          "Beak.Width": 3,
+          "Beak.Depth": 4,
+          "Tarsus.Length": 22.6,
+          "Wing.Length": 59.4,
+          "Kipps.Distance": 7.2,
+          "Secondary1": 52.6,
+          "Hand-Wing.Index": 11.9,
+          "Tail.Length": 110,
+          "Mass": 18.33,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Grassland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": 10.16,
+          "Max.Latitude": 10.47,
+          "Centroid.Latitude": 10.3,
+          "Centroid.Longitude": -72.9,
+          "Range.Size": 111.26
+        }
+      },
+      "eBird": {
+        "excelRow": 1051,
+        "record": {
+          "Species1": "Asthenes perijana",
+          "Species2": "Asthenes perijana",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-2EC35E39",
+          "Avibase.ID2": "AVIBASE-2EC35E39",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 1052,
+        "record": {
+          "Species1": "Asthenes perijana",
+          "Species3": "Schizoeaca perijana",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "DD9G2",
+        "scientificName": "Asthenes harterti",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_harterti",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "6245S",
+            "parentId": "3RL",
+            "scientificName": "Furnariidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 71
+          },
+          {
+            "id": "34G2",
+            "parentId": "6245S",
+            "scientificName": "Asthenes Reichenbach, 1853",
+            "authorship": "Reichenbach, 1853",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 29
+          },
+          {
+            "parentId": "34G2",
+            "id": "DD9G2",
+            "scientificName": "Asthenes harterti (Berlepsch, 1901)",
+            "authorship": "(Berlepsch, 1901)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 4194,
+        "record": {
+          "Sequence": 5191,
+          "Species1": "Asthenes harterti",
+          "Family1": "Furnariidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-B1A9C628",
+          "Total.individuals": 11,
+          "Female": 2,
+          "Male": 8,
+          "Unknown": 1,
+          "Complete.measures": 1,
+          "Beak.Length_Culmen": 15.2,
+          "Beak.Length_Nares": 9.3,
+          "Beak.Width": 2.8,
+          "Beak.Depth": 3.2,
+          "Tarsus.Length": 22.5,
+          "Wing.Length": 52,
+          "Kipps.Distance": 6.6,
+          "Secondary1": 45.4,
+          "Hand-Wing.Index": 12.8,
+          "Tail.Length": 100.8,
+          "Mass": 12.94,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Grassland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -17.89,
+          "Max.Latitude": -14.55,
+          "Centroid.Latitude": -16.41,
+          "Centroid.Longitude": -67.06,
+          "Range.Size": 23849.1
+        }
+      },
+      "eBird": {
+        "excelRow": 1039,
+        "record": {
+          "Species1": "Asthenes harterti",
+          "Species2": "Asthenes harterti",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-B1A9C628",
+          "Avibase.ID2": "AVIBASE-B1A9C628",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 1040,
+        "record": {
+          "Species1": "Asthenes harterti",
+          "Species3": "Schizoeaca harterti",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "DD9G9",
+        "scientificName": "Asthenes fuliginosa",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_fuliginosa",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "6245S",
+            "parentId": "3RL",
+            "scientificName": "Furnariidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 71
+          },
+          {
+            "id": "34G2",
+            "parentId": "6245S",
+            "scientificName": "Asthenes Reichenbach, 1853",
+            "authorship": "Reichenbach, 1853",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 29
+          },
+          {
+            "parentId": "34G2",
+            "id": "DD9G9",
+            "scientificName": "Asthenes fuliginosa (Lafresnaye, 1843)",
+            "authorship": "(Lafresnaye, 1843)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 4192,
+        "record": {
+          "Sequence": 5194,
+          "Species1": "Asthenes fuliginosa",
+          "Family1": "Furnariidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-92EDD5BE",
+          "Total.individuals": 13,
+          "Female": 2,
+          "Male": 6,
+          "Unknown": 5,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 13.9,
+          "Beak.Length_Nares": 9,
+          "Beak.Width": 2.9,
+          "Beak.Depth": 3.4,
+          "Tarsus.Length": 23.8,
+          "Wing.Length": 58,
+          "Kipps.Distance": 7.3,
+          "Secondary1": 50.8,
+          "Hand-Wing.Index": 12.6,
+          "Tail.Length": 106.2,
+          "Mass": 18.3,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Grassland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -10.02,
+          "Max.Latitude": 7.71,
+          "Centroid.Latitude": -0.03,
+          "Centroid.Longitude": -75.97,
+          "Range.Size": 96182.51
+        }
+      },
+      "eBird": {
+        "excelRow": 1037,
+        "record": {
+          "Species1": "Asthenes fuliginosa",
+          "Species2": "Asthenes fuliginosa",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-92EDD5BE",
+          "Avibase.ID2": "AVIBASE-92EDD5BE",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 1038,
+        "record": {
+          "Species1": "Asthenes fuliginosa",
+          "Species3": "Schizoeaca fuliginosa",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "DD9FX",
+        "scientificName": "Asthenes moreirae",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_moreirae",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "6245S",
+            "parentId": "3RL",
+            "scientificName": "Furnariidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 71
+          },
+          {
+            "id": "34G2",
+            "parentId": "6245S",
+            "scientificName": "Asthenes Reichenbach, 1853",
+            "authorship": "Reichenbach, 1853",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 29
+          },
+          {
+            "parentId": "34G2",
+            "id": "DD9FX",
+            "scientificName": "Asthenes moreirae (Miranda-Ribeiro, 1906)",
+            "authorship": "(Miranda-Ribeiro, 1906)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 4203,
+        "record": {
+          "Sequence": 5189,
+          "Species1": "Asthenes moreirae",
+          "Family1": "Furnariidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-BF71CB3E",
+          "Total.individuals": 5,
+          "Female": 1,
+          "Male": 4,
+          "Unknown": 0,
+          "Complete.measures": 1,
+          "Beak.Length_Culmen": 13.7,
+          "Beak.Length_Nares": 9.9,
+          "Beak.Width": 2.8,
+          "Beak.Depth": 3.1,
+          "Tarsus.Length": 23.1,
+          "Wing.Length": 59.3,
+          "Kipps.Distance": 6.3,
+          "Secondary1": 53,
+          "Hand-Wing.Index": 10.6,
+          "Tail.Length": 106.5,
+          "Mass": 10.48,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 3,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -22.74,
+          "Max.Latitude": -19.69,
+          "Centroid.Latitude": -21.53,
+          "Centroid.Longitude": -42.83,
+          "Range.Size": 39562.85
+        }
+      },
+      "eBird": {
+        "excelRow": 1048,
+        "record": {
+          "Species1": "Asthenes moreirae",
+          "Species2": "Asthenes moreirae",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-BF71CB3E",
+          "Avibase.ID2": "AVIBASE-BF71CB3E",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 1049,
+        "record": {
+          "Species1": "Asthenes moreirae",
+          "Species3": "Oreophylax moreirae",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "DD9GD",
+        "scientificName": "Asthenes griseomurina",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_griseomurina",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "6245S",
+            "parentId": "3RL",
+            "scientificName": "Furnariidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 71
+          },
+          {
+            "id": "34G2",
+            "parentId": "6245S",
+            "scientificName": "Asthenes Reichenbach, 1853",
+            "authorship": "Reichenbach, 1853",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 29
+          },
+          {
+            "parentId": "34G2",
+            "id": "DD9GD",
+            "scientificName": "Asthenes griseomurina (P. L. Sclater, 1882)",
+            "authorship": "(P. L. Sclater, 1882)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 4193,
+        "record": {
+          "Sequence": 5195,
+          "Species1": "Asthenes griseomurina",
+          "Family1": "Furnariidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-A2B9B8CE",
+          "Total.individuals": 7,
+          "Female": 2,
+          "Male": 5,
+          "Unknown": 0,
+          "Complete.measures": 3,
+          "Beak.Length_Culmen": 14.4,
+          "Beak.Length_Nares": 9.1,
+          "Beak.Width": 3.1,
+          "Beak.Depth": 3.4,
+          "Tarsus.Length": 24.6,
+          "Wing.Length": 59.1,
+          "Kipps.Distance": 6.1,
+          "Secondary1": 53.1,
+          "Hand-Wing.Index": 10.2,
+          "Tail.Length": 107.3,
+          "Mass": 17.6,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Grassland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -6.3,
+          "Max.Latitude": -2.74,
+          "Centroid.Latitude": -4.1,
+          "Centroid.Longitude": -79.26,
+          "Range.Size": 18912.9
+        }
+      },
+      "eBird": {
+        "excelRow": 1038,
+        "record": {
+          "Species1": "Asthenes griseomurina",
+          "Species2": "Asthenes griseomurina",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-A2B9B8CE",
+          "Avibase.ID2": "AVIBASE-A2B9B8CE",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 1039,
+        "record": {
+          "Species1": "Asthenes griseomurina",
+          "Species3": "Schizoeaca griseomurina",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    }
+  ],
+  "colNameRecords": [
+    {
+      "normalizedName": "asthenes coryi berlepsch 1888",
+      "id": "DD9G7",
+      "scientificName": "Asthenes coryi (Berlepsch, 1888)",
+      "authorship": "(Berlepsch, 1888)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "34G2",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Furnariidae",
+        null,
+        null,
+        null,
+        "Asthenes"
+      ]
+    },
+    {
+      "normalizedName": "asthenes fuliginosa lafresnaye 1843",
+      "id": "DD9G9",
+      "scientificName": "Asthenes fuliginosa (Lafresnaye, 1843)",
+      "authorship": "(Lafresnaye, 1843)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "34G2",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Furnariidae",
+        null,
+        null,
+        null,
+        "Asthenes"
+      ]
+    },
+    {
+      "normalizedName": "asthenes griseomurina p l sclater 1882",
+      "id": "DD9GD",
+      "scientificName": "Asthenes griseomurina (P. L. Sclater, 1882)",
+      "authorship": "(P. L. Sclater, 1882)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "34G2",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Furnariidae",
+        null,
+        null,
+        null,
+        "Asthenes"
+      ]
+    },
+    {
+      "normalizedName": "asthenes harterti berlepsch 1901",
+      "id": "DD9G2",
+      "scientificName": "Asthenes harterti (Berlepsch, 1901)",
+      "authorship": "(Berlepsch, 1901)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "34G2",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Furnariidae",
+        null,
+        null,
+        null,
+        "Asthenes"
+      ]
+    },
+    {
+      "normalizedName": "asthenes helleri chapman 1923",
+      "id": "DD9G3",
+      "scientificName": "Asthenes helleri (Chapman, 1923)",
+      "authorship": "(Chapman, 1923)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "34G2",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Furnariidae",
+        null,
+        null,
+        null,
+        "Asthenes"
+      ]
+    },
+    {
+      "normalizedName": "asthenes moreirae miranda ribeiro 1906",
+      "id": "DD9FX",
+      "scientificName": "Asthenes moreirae (Miranda-Ribeiro, 1906)",
+      "authorship": "(Miranda-Ribeiro, 1906)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "34G2",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Furnariidae",
+        null,
+        null,
+        null,
+        "Asthenes"
+      ]
+    },
+    {
+      "normalizedName": "asthenes palpebralis cabanis 1873",
+      "id": "DD9G6",
+      "scientificName": "Asthenes palpebralis (Cabanis, 1873)",
+      "authorship": "(Cabanis, 1873)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "34G2",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Furnariidae",
+        null,
+        null,
+        null,
+        "Asthenes"
+      ]
+    },
+    {
+      "normalizedName": "asthenes perijana w h phelps jr 1977",
+      "id": "DD9G8",
+      "scientificName": "Asthenes perijana (W. H. Phelps Jr, 1977)",
+      "authorship": "(W. H. Phelps Jr, 1977)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "34G2",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Furnariidae",
+        null,
+        null,
+        null,
+        "Asthenes"
+      ]
+    },
+    {
+      "normalizedName": "schizoeaca coryi berlepsch 1888",
+      "id": "79X6F",
+      "scientificName": "Schizoeaca coryi (Berlepsch, 1888)",
+      "authorship": "(Berlepsch, 1888)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "DD9G7",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "schizoeaca fuliginosa lafresnaye 1843",
+      "id": "6XX6G",
+      "scientificName": "Schizoeaca fuliginosa (Lafresnaye, 1843)",
+      "authorship": "(Lafresnaye, 1843)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "DD9G9",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "schizoeaca griseomurina p l sclater 1882",
+      "id": "6Y96G",
+      "scientificName": "Schizoeaca griseomurina (P. L. Sclater, 1882)",
+      "authorship": "(P. L. Sclater, 1882)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "DD9GD",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "schizoeaca harterti berlepsch 1901",
+      "id": "79X6G",
+      "scientificName": "Schizoeaca harterti Berlepsch, 1901",
+      "authorship": "Berlepsch, 1901",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "DD9G2",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "schizoeaca helleri chapman 1923",
+      "id": "6XX6D",
+      "scientificName": "Schizoeaca helleri Chapman, 1923",
+      "authorship": "Chapman, 1923",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "DD9G3",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "schizoeaca moreirae miranda ribeiro 1906",
+      "id": "6Y96D",
+      "scientificName": "Schizoeaca moreirae (Miranda-Ribeiro, 1906)",
+      "authorship": "(Miranda-Ribeiro, 1906)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "DD9FX",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "schizoeaca palpebralis cabanis 1873",
+      "id": "79X6D",
+      "scientificName": "Schizoeaca palpebralis Cabanis, 1873",
+      "authorship": "Cabanis, 1873",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "DD9G6",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "schizoeaca perijana w h phelps jr 1977",
+      "id": "VN7JB",
+      "scientificName": "Schizoeaca perijana W. H. Phelps Jr, 1977",
+      "authorship": "W. H. Phelps Jr, 1977",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "DD9G8",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "oreophylax moreirae miranda ribeiro 1906",
+      "id": "RBCVQ",
+      "scientificName": "Oreophylax moreirae (Miranda-Ribeiro, 1906)",
+      "authorship": "(Miranda-Ribeiro, 1906)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "DD9FX",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    }
+  ],
+  "fieldDefinitions": [
+    {
+      "excelRow": 12,
+      "record": {
+        "Variable": "Total.individuals",
+        "Description": "Number of individual specimens and live birds measured for each species",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 13,
+      "record": {
+        "Variable": "Female",
+        "Description": "Number of measured individuals identified as female",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 14,
+      "record": {
+        "Variable": "Male",
+        "Description": "Number of measured individuals identified as male",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 15,
+      "record": {
+        "Variable": "Unknown",
+        "Description": "Number of unsexed individuals measured",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 16,
+      "record": {
+        "Variable": "Complete.measures",
+        "Description": "Number of measured individuals with complete set of morphometric trait measurements ",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 18,
+      "record": {
+        "Variable": "Beak.Length_Nares",
+        "Description": "Length from the anterior edge of the nostrils to the tip of the beak",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 19,
+      "record": {
+        "Variable": "Beak.Width",
+        "Description": "Width of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 22,
+      "record": {
+        "Variable": "Wing.Length",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the longest primary on the unflattened wing",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 25,
+      "record": {
+        "Variable": "Hand-Wing.Index",
+        "Description": "100*DK/Lw, where DK is Kipp’s distance and Lw is wing length (i.e., Kipp’s distance corrected for wing size). Species average HWI differ from estimates in Sheard et al. (2020) because of much higher sampling of individuals in some species, as well as taxonomic effects in the BirdLife list",
+        "Variable Types": "continuous",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 27,
+      "record": {
+        "Variable": "Mass",
+        "Description": "Body mass given as species average (incorporating both male and female body mass)",
+        "Variable Types": "continuous",
+        "Units": "gram",
+        "Source": "See Mass Source column"
+      }
+    },
+    {
+      "excelRow": 28,
+      "record": {
+        "Variable": "Mass.Source",
+        "Description": "Dunning (= Dunning, JB [2008] CRC Handbook of Avian Body Masses);\nEltonTraits_Other (= mass published by Wilman et al. 2014 EltonTraits 1.0. Ecology, on basis of literature other than Dunning, usually Handbook of the Birds of the World [now Birds of the World, Cornell])\nEltonTraits_GenAvg (= average of the genus, published in Wilman et al. 2014 EltonTraits 1.0. Ecology); \nEltonTraits_Model (= inferred from mass and length data, with mass-length relationships parameterized at family level, published in Wilman et al. 2014 EltonTraits 1.0. Ecology);\nUpdated_literature (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from literature and online resources, including Birds of the World - specific sources are listed in the Mass.Ref.Source column);  \nUpdated_live.sample (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from museum labels and/or field data of from wild birds weighed using a Pezola balance before release. Specific sources are listed in the Mass.Ref.Source column);  \nInferred (= where EltonTraits GenAvg or Modelled data seemed misleading, and no published data were available for updating, we replaced it where possible with data inferred directly from a morphologically similar relative. Reference species and Traits inferred columns indicate where mass has been inferred and from which species);\nDataFromSplit (= daughter species body mass inferred from parent species after split; the parent or nominate form is typically morphologically similar and provides a reasonable estimate of body mass, particularly as mass data used to calculate the parent species body mass in earlier publications sometimes includes data from the recently split daughter species).\n",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 30,
+      "record": {
+        "Variable": "Inference",
+        "Description": "NO = all biometric trait data were obtained from direct measurement of specimens, or in the case of body mass from published sources\nYES = at least some of the biometric traits were unavailable from specimens so these trait data were inferred from a closely related species; in some cases all morphological measurements were taken directly except for body mass, which can't be measured on museum specimens.",
+        "Variable Types": "binary",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 33,
+      "record": {
+        "Variable": "Habitat",
+        "Description": "Desert (= drylands and other open arid habitats, often sandy with very sparse vegetation); \nRock (= rocky substrate typically with no or very little vegetation, including rocky outcrops, rocky coastlines, arid stony steppes, rocky mountaintops and mountain slopes); \nGrassland (=  open dry to moist grass-dominated landscapes, at all elevations); \nShrubland (= low stature bushy habitats, included thornscrub, thorny or arid savanna, caatinga, xerophytic shrubland and coastal scrub); \nWoodland (= medium stature tree-dominated habitats, including Acacia woodland, riparian woodlands, mangrove forests, forest edges, also more open parkland with scattered taller trees);\nForest (= tall tree-dominated vegetation with more or less closed canopy, including palm forest); \nHuman modified (urban landscapes, intensive agriculture, gardens); \nWetland (= wide range of freshwater aquatic habitats including lakes, marshes, swamps and reedbeds); \nRiverine (= associated with rivers and streams at all elevations); \nCoastal (= intertidal zones within immediate vicinity of beaches, estuaries, brackish to salty marshes, including mudflats, lagoons, alkaline wetlands, coastal dunes and harbours);\nMarine (= pelagic, on sea near coasts, including species in the intertidal zone on beaches, and those pelagic species nesting near the sea on cliffs, islets and islands).",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Data extracted from primary and secondary literature, particularly Handbook of the Birds of the World (including Birds of the World)"
+      }
+    },
+    {
+      "excelRow": 34,
+      "record": {
+        "Variable": "Habitat.Density",
+        "Description": "1 = Dense habitats. Species primarily lives in the lower or middle storey of forest, or in dense thickets, dense shrubland etc.\n2 = Semi-open habitats. Species primarily lives in open shrubland, scattered bushes, parkland, low dry or deciduous forest, thorn forest. \n3 = Open habitats. Species primarily lives in desert, grassland, open water, low shrubs, rocky habitats, seashores, cities. Also applies to species living mainly on top of forest canopy (i.e. mostly in the open)",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias et al. (2016) Frontiers Ecol. Evol."
+      }
+    },
+    {
+      "excelRow": 35,
+      "record": {
+        "Variable": "Migration",
+        "Description": "1 = Sedentary. \n2 = Partially migratory, i.e. minority of population migrates long distances, or most of population undergoes short-distance migration, nomadic movements, distinct altitudinal migration, etc.\n3 = Migratory, i.e. majority of population undertakes long-distance migration",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias & Pigot (2019) Phil. Trans. Roy. Soc."
+      }
+    },
+    {
+      "excelRow": 36,
+      "record": {
+        "Variable": "Trophic.Level",
+        "Description": "Herbivore = species obtaining at least 70% of food resources from plants; Carnivore = species obtaining at least 70% of food resources by consuming live invertebrate or vertebrate animals; Scavenger = species obtaining at least 70% of food resources from carrion or refuse; Omnivore = species obtaining resources from multiple trophic level in roughly equal proportion",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 37,
+      "record": {
+        "Variable": "Trophic.Niche",
+        "Description": "Frugivore = species obtaining at least 60% of food resources from fruit; \nGranivore = species obtaining at least 60% of food resources from seeds or nuts; \nNectarivore =  species obtaining at least 60% of food resources from nectar; \nHerbivore = species obtaining at least 60% of food resources from other plant materials in non-aquatic systems, including leaves, buds, whole flowers etc.; \nHerbivore aquatic = species obtaining at least 60% of food resources from plant materials in aquatic systems, including algae and aquatic plant leaves; \nInvertivore = species obtaining at least 60% of food resources from invertebrates in terrestrial systems, including insects, worms, arachnids, etc.; \nVertivore = species obtaining at least 60% of food resources from vertebrate animals in terrestrial systems, including mammals, birds, reptiles etc.; \nAquatic Predator = species obtaining at least 60% of food resources from vertebrate and invertebrate animals in aquatic systems, including fish, crustacea, molluscs, etc; \nScavenger = species obtaining at least 60% of food resources from carrion, offal or refuse; Omnivore = Species using multiple niches, within or across trophic levels, in relatively equal proportions ",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 38,
+      "record": {
+        "Variable": "Primary.Lifestyle",
+        "Description": "Aerial = species spends much of the time in flight, and hunts or forages predominantly on the wing; \nTerrestrial = species spends majority of its time on the ground, where it obtains food while either walking or hopping (note this includes species that also wade in water with their body raised above the water); \nInsessorial = species spends much of the time perching above the ground, either in branches of trees and other vegetation (i.e. arboreal), or on other raised substrates including rocks, buildings, posts, and wires; \nAquatic = species spends much of the time sitting on water, and obtains  food while afloat or when diving under the water's surface; Generalist = species has no primary lifestyle because it spends time in different lifestyle classes",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 17,
+      "record": {
+        "Variable": "Beak.Length_Culmen",
+        "Description": "Length from the tip of the beak to the base of the skull",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 20,
+      "record": {
+        "Variable": "Beak.Depth",
+        "Description": "Depth of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 21,
+      "record": {
+        "Variable": "Tarsus.Length",
+        "Description": "Length of the tarsus from the posterior notch between tibia and tarsus, to the end of the last scale of acrotarsium (at the bend of the foot)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 23,
+      "record": {
+        "Variable": "Kipps.Distance",
+        "Description": "Length from the tip of the first secondary feather to the tip of the longest primary      ",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 24,
+      "record": {
+        "Variable": "Secondary1",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the first secondary, i.e. the outermost secondary adjacent to the innermost primary feather. Secondary1 is roughly equivalent to Wing length minus Kipp’s distance (measured in a fully folded and flat wing)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 26,
+      "record": {
+        "Variable": "Tail.Length",
+        "Description": "Distance between the tip of the longest rectrix and the point at which the two central rectrices protrude from the skin, typically measured using a ruler inserted between the two central rectrices",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 31,
+      "record": {
+        "Variable": "Traits.inferred",
+        "Description": "List of traits inferred from the reference species",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 32,
+      "record": {
+        "Variable": "Reference.species",
+        "Description": "Species from which the biometric data were inferred",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    }
+  ],
+  "readingScope": "Eight morphology/mass/ecology rows, full crosswalks, related catalogue names and relevant definitions. Not the whole workbook, specimens, original mass book or a new full methods-paper reading.",
+  "retainedBoundaries": {
+    "sevenSchizoeacaOneOreophylaxExactCrosswalkSynonyms": true,
+    "additionalSchizoeacaMoreiraeNotCrosswalkName": true,
+    "hartertiElevenBirdsOneComplete": true,
+    "moreiraeFiveBirdsOneComplete": true,
+    "helleriNineUnsexed": true,
+    "grasslandNotAbsenceOfRaisedPerches": true,
+    "allInvertivoreCarnivoreInsessorialMigrationOne": true,
+    "noGeographicFieldsInterpreted": true,
+    "historicalGuidesNotCompleteMonographs": true,
+    "activePrimateGaps": 14,
+    "fixedAcceptedPrimateDenominator": 530
+  },
+  "intakeBeforeIncrementalCounts": {
+    "indexExists": 599,
+    "bilingualCatalogueProfileMarkers": 596,
+    "missingOneOrBothCatalogueProfileMarkers": 6577,
+    "scope": "Original 7173 observation plus 231 authored species in P5-143–165; no new whole-corpus prose review."
+  },
+  "intakeAfterIncrementalCounts": {
+    "indexExists": 607,
+    "bilingualCatalogueProfileMarkers": 604,
+    "missingOneOrBothCatalogueProfileMarkers": 6569,
+    "scope": "Original 7173 observation plus 239 authored species in P5-143–166; no new whole-corpus prose review."
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All 46 new sections in both languages and all ten profile limits were read after writing, including all prior genus/family sections. Read ten indices, all profile topic/source vectors, new reference bindings and limitation pointers, eight bounded new projection entries, P5-166 plan and receipt metadata. Corrected the plan Chinese character for species and reread it. Source rows, full crosswalks, seventeen related catalogue names and relevant field definitions were read before authoring. Editorial reading is not generation, tests, whole-corpus validation or expert review.",
+    "canonicalFiles": [
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_helleri/index.yaml",
+        "sha256": "a1ae0ed8b5967a1af10299a048869e2bbc346ab138f0d02ddafe14bcd94ff8c5"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_helleri/evidence.md",
+        "sha256": "b05d9caae5fb5a86b9c87d5ff679cda240145890254847efa52179c5dcf8c67f"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_helleri/page.zh.md",
+        "sha256": "df1dbf57b555d7d374e001b50578b7b438204ab2fc9fdf97535b98a42a3cc5ff"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_helleri/page.en.md",
+        "sha256": "b0123013ea3c2b9445b199c308cba7444a4975174f7d1fe0c5a6671e3a02b011"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_palpebralis/index.yaml",
+        "sha256": "9177ae8e4a9a655c8451e6d7a2f6116a13da37138d7470090e6a4dec38cd0a1c"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_palpebralis/evidence.md",
+        "sha256": "7e1cbb3c809beac4e54bc9ff5c70c5a88943decb3fe93778ff6d99bf9a3d8ff5"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_palpebralis/page.zh.md",
+        "sha256": "3c4df7627bd54ed8fa073765e0c968168171320e424dede5c0da1316cea8b6a0"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_palpebralis/page.en.md",
+        "sha256": "d08015b39d450787afe01635e2a9c6d36df942ba511f4f1b2862901f7b51c781"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_coryi/index.yaml",
+        "sha256": "a16768abe1b593ff9108ac794ce6894b9a80e38afe6be043aaa10b6a1708f1b6"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_coryi/evidence.md",
+        "sha256": "2e7f65cebf5441c06573ef2c1d9fdab700bd381c0194658079a7f7a54f949f33"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_coryi/page.zh.md",
+        "sha256": "810bfc3c74016d71d271af7aa85cf0bd2b43227fddfc584b51357da91440d5a5"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_coryi/page.en.md",
+        "sha256": "e8f1afb4f018a8e5a3f909d258ed9c703ae7de41a10caf95d905756b224989af"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_perijana/index.yaml",
+        "sha256": "ef9c01f1987be0c140eb056ba746e203b01f7a62e7d4cd9a988cae014b4f98af"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_perijana/evidence.md",
+        "sha256": "946dd0a2cae8c14b2f5c69a76a1247e9f964d561d7160488f31f0eb94b4f7a2f"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_perijana/page.zh.md",
+        "sha256": "9d788923d8144c7732f2a7c6ce16924eadac463ab6ac4cc0e8429d8ccf57d6e3"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_perijana/page.en.md",
+        "sha256": "eefe45de1e5cad4e02380d4f3469c2b5c40d1939de1d06d5fecd31db19df1e2b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_harterti/index.yaml",
+        "sha256": "1b73fc60961ee1af4978fe72c78c26653224704c00b879c6911c07551a170ad9"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_harterti/evidence.md",
+        "sha256": "1e7f43066eb75ae5fed59c2bd4134caf0a47c7b0c9ab0847f5094d656317d11a"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_harterti/page.zh.md",
+        "sha256": "cf0ffc715d2ab8b06c57e3214e382343ecdab495a86b3cd7d91a460b82851266"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_harterti/page.en.md",
+        "sha256": "429115a6588f6147369f2ae7f34d9a77827bbdbc12d2b50141f12d7b4a2b857c"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_fuliginosa/index.yaml",
+        "sha256": "06f5590d814f1f23de028ac55d669a47a5664ee94380a2c1cdbaba5562f9914f"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_fuliginosa/evidence.md",
+        "sha256": "53e4e1da9d5fe5e4afac349a21961fe7f084c189664368e9c397ac3cb616d87a"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_fuliginosa/page.zh.md",
+        "sha256": "bc07fe3058d5c1bc5c73d01b296058b8984161d0416eb3c31e35ad24efc8a438"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_fuliginosa/page.en.md",
+        "sha256": "1e56686458bb0277ad821e5cb1e2ffecab984bad214e59f73f26c45a15c4ca5b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_moreirae/index.yaml",
+        "sha256": "848f6111c282cb77771972ea2888d21d34519e602110bfbe869ffb3e0b60e97b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_moreirae/evidence.md",
+        "sha256": "f5515bf137d4c0016d2ba9b1bbd4df6d3b84a68015ca6ffc1357320eea2b353d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_moreirae/page.zh.md",
+        "sha256": "94c5a365277443204b798f29662dc6340f9e89a247ce65dd745c8e86d95b5081"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_moreirae/page.en.md",
+        "sha256": "4023dbfeded8c27df0a546ca4b44395a959e678e876d88529d37707f3c04e5b1"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_griseomurina/index.yaml",
+        "sha256": "e03041a1cc687c64aac35a95b35b03234b38293898d981a0f4a8ab7a586a991b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_griseomurina/evidence.md",
+        "sha256": "796dd0a488ebb7c4f9ef60d5a25cd1e35675a817ba613117c87ea75b72363331"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_griseomurina/page.zh.md",
+        "sha256": "967ddb70b45c1c996b5cad05e9fe8107fdf495daa3b8772f1a45c128addc2031"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/Asthenes_griseomurina/page.en.md",
+        "sha256": "0b5dabfcc47e9ab79c8d0c826d0fe242074923e3cd4e78fab3f589992652345e"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/evidence.md",
+        "sha256": "22c1600861bd7b3d39208d7a75254b2cf08777f5366749c009be8e6e5c9cc71c"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/page.zh.md",
+        "sha256": "701e104bb772cbe40b289fe6b77051adc154480cf2e1c70bc2f686e0759ffedd"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/Asthenes/page.en.md",
+        "sha256": "afd8a8eb31b6e84d49a509f26db9a4b5e76cf105139e085a0b996821cdb4de21"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/evidence.md",
+        "sha256": "26ab50380fe91cc4db252f6daaf8f28086a087498b214f4362102709e618ee1c"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/page.zh.md",
+        "sha256": "b219fb6582447af73eecbbc08a8b3baea05a8c0baf1a8b83fc297dd3e04ae804"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Furnariidae/page.en.md",
+        "sha256": "a650b959574bf3a10a57bf0dfa763eae5c579c06f50013f428e6765f7f026928"
+      },
+      {
+        "path": "content/projection-map.yaml",
+        "sha256": "7ca1133993b72028fc7d9b1ee24ac447c7ebbc291dd730f1f4f6116b12c339a7"
+      },
+      {
+        "path": "docs/content-production-plan.md",
+        "sha256": "3952453becfef817af974bb0ec0008b16b4db97c55c8567022def5715f687c35"
+      },
+      {
+        "path": "data/sources/col-unrepresented-reader-intake-2026-10-03.json",
+        "sha256": "31dbd9acb909618bc14ca087f0336ce903a172c593c9f33e2bb1e9a724c9c213"
+      },
+      {
+        "path": "data/sources/avonet-name-crosswalk-intake-2026-10-03.json",
+        "sha256": "2852d1187fb4033158153858ca2af78f3418d6713473deafad981b705cd30a09"
+      }
+    ]
+  },
+  "delivery": "Canonical inputs authored; tests, generation, commit and publication deferred until all content completion."
+}

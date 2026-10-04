@@ -66,6 +66,101 @@ records:
         - referenceId: col-2026-checklistbank-316115
           locator: COL26.8 release dataset 316115; accepted ancestor path recorded for usage 697NS (identity/classification only)
       reviewStatus: automated-audit-passed
+  catalogue-profile:
+    scientificName: Callitrichidae
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      zh: Callitrichidae
+      en: Callitrichidae
+    reviewStatus: source-linked
+    checkedAt: 2026-10-03
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+          metadataVariant: 0
+          sourceKey: taxonomy
+          usage:
+            title: Catalogue of Life COL26.8 — Callitrichidae
+            url: https://www.checklistbank.org/dataset/316115/taxon/7KR
+            locator: Pinned rank and ancestry.
+          originalFields:
+            - id
+            - title
+            - url
+            - locator
+        - referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+          metadataVariant: 0
+          sourceKey: ernestLifeHistories2003
+          usage:
+            locator: Mammal_lifehistories_v2.txt; 4 authored records grouped under pinned COL ancestry.
+            accessedAt: 2026-10-03
+            readingTargets:
+              - colId: PQG3
+                name: Callimico goeldii
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Callitrichidae/Callimico/Callimico_goeldii
+              - colId: 5WVNT
+                name: Callithrix flaviceps
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Callitrichidae/Callithrix/Callithrix_flaviceps
+              - colId: 697NS
+                name: Callithrix jacchus
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Callitrichidae/Callithrix/Callithrix_jacchus
+              - colId: 3T6ZV
+                name: Leontopithecus rosalia
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Callitrichidae/Leontopithecus/Leontopithecus_rosalia
+            fieldAccountCounts:
+              gestation(mo): 3
+              newborn(g): 3
+              weaning(mo): 3
+              wean mass(g): 3
+              AFR(mo): 3
+              max. life(mo): 3
+              litter size: 4
+              litters/year: 3
+            scope:
+              zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+              en: This batch’s accounts only; no complete descendant coverage.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - readingTargets
+            - fieldAccountCounts
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
 ---
 
 # Callitrichidae

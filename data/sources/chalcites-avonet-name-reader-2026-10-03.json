@@ -1,0 +1,1948 @@
+{
+  "batch": "P5-180",
+  "date": "2026-10-03",
+  "newSpecies": 6,
+  "newBilingualSections": 36,
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_ruficollis",
+      "colId": "CNJVP",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_lucidus",
+      "colId": "CNJTS",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_basalis",
+      "colId": "CNJTR",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_meyerii",
+      "colId": "CNJV8",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_megarhynchus",
+      "colId": "CNJV7",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_osculans",
+      "colId": "CNJTZ",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites",
+      "colId": "CNJTQ",
+      "newBilingualSections": 4,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae",
+      "newBilingualSections": 2
+    }
+  ],
+  "sharedReferenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+  "sourceFiles": [
+    {
+      "file": ".git/avonet-supplementary-dataset-1-v7.xlsx",
+      "sha256": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e"
+    },
+    {
+      "file": ".git/chalcites-selected-source-180.json",
+      "sha256": "7bddb523f86b8e76aedd5decc5e11dd46e5a74bd53bed09a2e3e16073dda0b78"
+    },
+    {
+      "file": ".git/chalcites-col-names-180.json",
+      "sha256": "47bc4ea31f894e992564ec2b74e7d85a39c9640d57733f04f91fec2fa5992cf3"
+    }
+  ],
+  "colNameShardFiles": [
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-cha.jsonl.gz",
+      "sha256": "d9879bd15c54d7fb3b7b11788b176ea05e3254fa877349e7d1fca995f038206e"
+    },
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-chr.jsonl.gz",
+      "sha256": "872888fc13ca9b4deb7a5ae7f72873f56a8d31f7ddd265c60771b673874c1fb3"
+    },
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-rh.jsonl.gz",
+      "sha256": "62b45119527d03275430f4a2e2018d8f2906ed93e8750227ca0116c20089f3d2"
+    }
+  ],
+  "sourceRows": [
+    {
+      "target": {
+        "colId": "CNJVP",
+        "scientificName": "Chalcites ruficollis",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_ruficollis",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "32K",
+            "parentId": "V2",
+            "scientificName": "Cuculiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 1
+          },
+          {
+            "id": "8S7",
+            "parentId": "32K",
+            "scientificName": "Cuculidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 36
+          },
+          {
+            "id": "CNJTQ",
+            "parentId": "8S7",
+            "scientificName": "Chalcites Lesson, 1830",
+            "authorship": "Lesson, 1830",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 8
+          },
+          {
+            "parentId": "CNJTQ",
+            "id": "CNJVP",
+            "scientificName": "Chalcites ruficollis (Salvadori, 1876)",
+            "authorship": "(Salvadori, 1876)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2097,
+        "record": {
+          "Sequence": 1677,
+          "Species1": "Chalcites ruficollis",
+          "Family1": "Cuculidae",
+          "Order1": "Cuculiformes",
+          "Avibase.ID1": "AVIBASE-4049465F",
+          "Total.individuals": 1,
+          "Female": 1,
+          "Male": 0,
+          "Unknown": 0,
+          "Complete.measures": 1,
+          "Beak.Length_Culmen": 16.8,
+          "Beak.Length_Nares": 11,
+          "Beak.Width": 4.7,
+          "Beak.Depth": 4.5,
+          "Tarsus.Length": 17.9,
+          "Wing.Length": 95,
+          "Kipps.Distance": 36.2,
+          "Secondary1": 58.8,
+          "Hand-Wing.Index": 38.1,
+          "Tail.Length": 62,
+          "Mass": 21,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -10.24,
+          "Max.Latitude": -0.8,
+          "Centroid.Latitude": -5.39,
+          "Centroid.Longitude": 141.79,
+          "Range.Size": 156338.37
+        }
+      },
+      "eBird": {
+        "excelRow": 1998,
+        "record": {
+          "Species1": "Chalcites ruficollis",
+          "Species2": "Chrysococcyx ruficollis",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-4049465F",
+          "Avibase.ID2": "AVIBASE-4049465F",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 1988,
+        "record": {
+          "Species1": "Chalcites ruficollis",
+          "Species3": "Chrysococcyx ruficollis",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "CNJTS",
+        "scientificName": "Chalcites lucidus",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_lucidus",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "32K",
+            "parentId": "V2",
+            "scientificName": "Cuculiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 1
+          },
+          {
+            "id": "8S7",
+            "parentId": "32K",
+            "scientificName": "Cuculidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 36
+          },
+          {
+            "id": "CNJTQ",
+            "parentId": "8S7",
+            "scientificName": "Chalcites Lesson, 1830",
+            "authorship": "Lesson, 1830",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 8
+          },
+          {
+            "parentId": "CNJTQ",
+            "id": "CNJTS",
+            "scientificName": "Chalcites lucidus (J. F. Gmelin, 1788)",
+            "authorship": "(J. F. Gmelin, 1788)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2092,
+        "record": {
+          "Sequence": 1678,
+          "Species1": "Chalcites lucidus",
+          "Family1": "Cuculidae",
+          "Order1": "Cuculiformes",
+          "Avibase.ID1": "AVIBASE-19268395",
+          "Total.individuals": 4,
+          "Female": 2,
+          "Male": 2,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 18.3,
+          "Beak.Length_Nares": 10.5,
+          "Beak.Width": 5.8,
+          "Beak.Depth": 4.7,
+          "Tarsus.Length": 17.6,
+          "Wing.Length": 102.8,
+          "Kipps.Distance": 45.2,
+          "Secondary1": 57.6,
+          "Hand-Wing.Index": 44,
+          "Tail.Length": 67.5,
+          "Mass": 24.44,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -47.29,
+          "Max.Latitude": -9.75,
+          "Centroid.Latitude": -30.39,
+          "Centroid.Longitude": 144.03,
+          "Range.Size": 2736789.25
+        }
+      },
+      "eBird": {
+        "excelRow": 1993,
+        "record": {
+          "Species1": "Chalcites lucidus",
+          "Species2": "Chrysococcyx lucidus",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-19268395",
+          "Avibase.ID2": "AVIBASE-19268395",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 1982,
+        "record": {
+          "Species1": "Chalcites lucidus",
+          "Species3": "Chrysococcyx lucidus",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "CNJTR",
+        "scientificName": "Chalcites basalis",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_basalis",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "32K",
+            "parentId": "V2",
+            "scientificName": "Cuculiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 1
+          },
+          {
+            "id": "8S7",
+            "parentId": "32K",
+            "scientificName": "Cuculidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 36
+          },
+          {
+            "id": "CNJTQ",
+            "parentId": "8S7",
+            "scientificName": "Chalcites Lesson, 1830",
+            "authorship": "Lesson, 1830",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 8
+          },
+          {
+            "parentId": "CNJTQ",
+            "id": "CNJTR",
+            "scientificName": "Chalcites basalis (Horsfield, 1821)",
+            "authorship": "(Horsfield, 1821)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2090,
+        "record": {
+          "Sequence": 1675,
+          "Species1": "Chalcites basalis",
+          "Family1": "Cuculidae",
+          "Order1": "Cuculiformes",
+          "Avibase.ID1": "AVIBASE-91248B47",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 15.9,
+          "Beak.Length_Nares": 9.4,
+          "Beak.Width": 4.1,
+          "Beak.Depth": 4.2,
+          "Tarsus.Length": 18,
+          "Wing.Length": 99.6,
+          "Kipps.Distance": 40.5,
+          "Secondary1": 59,
+          "Hand-Wing.Index": 40.6,
+          "Tail.Length": 68.4,
+          "Mass": 23.12,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Woodland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": -43.64,
+          "Max.Latitude": -9.75,
+          "Centroid.Latitude": -25.73,
+          "Centroid.Longitude": 134.49,
+          "Range.Size": 7686831.12
+        }
+      },
+      "eBird": {
+        "excelRow": 1991,
+        "record": {
+          "Species1": "Chalcites basalis",
+          "Species2": "Chrysococcyx basalis",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-91248B47",
+          "Avibase.ID2": "AVIBASE-91248B47",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 1980,
+        "record": {
+          "Species1": "Chalcites basalis",
+          "Species3": "Chrysococcyx basalis",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "CNJV8",
+        "scientificName": "Chalcites meyerii",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_meyerii",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "32K",
+            "parentId": "V2",
+            "scientificName": "Cuculiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 1
+          },
+          {
+            "id": "8S7",
+            "parentId": "32K",
+            "scientificName": "Cuculidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 36
+          },
+          {
+            "id": "CNJTQ",
+            "parentId": "8S7",
+            "scientificName": "Chalcites Lesson, 1830",
+            "authorship": "Lesson, 1830",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 8
+          },
+          {
+            "parentId": "CNJTQ",
+            "id": "CNJV8",
+            "scientificName": "Chalcites meyerii (Salvadori, 1874)",
+            "authorship": "(Salvadori, 1874)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2094,
+        "record": {
+          "Sequence": 1679,
+          "Species1": "Chalcites meyerii",
+          "Family1": "Cuculidae",
+          "Order1": "Cuculiformes",
+          "Avibase.ID1": "AVIBASE-AD3C4F31",
+          "Total.individuals": 4,
+          "Female": 1,
+          "Male": 2,
+          "Unknown": 1,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 17.1,
+          "Beak.Length_Nares": 10.5,
+          "Beak.Width": 4.1,
+          "Beak.Depth": 4.5,
+          "Tarsus.Length": 15.9,
+          "Wing.Length": 90.2,
+          "Kipps.Distance": 29.4,
+          "Secondary1": 60.8,
+          "Hand-Wing.Index": 32.6,
+          "Tail.Length": 62.2,
+          "Mass": 19.42,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -10.73,
+          "Max.Latitude": -0.34,
+          "Centroid.Latitude": -4.88,
+          "Centroid.Longitude": 140.92,
+          "Range.Size": 513273.66
+        }
+      },
+      "eBird": {
+        "excelRow": 1995,
+        "record": {
+          "Species1": "Chalcites meyerii",
+          "Species2": "Chrysococcyx meyerii",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-AD3C4F31",
+          "Avibase.ID2": "AVIBASE-AD3C4F31",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 1984,
+        "record": {
+          "Species1": "Chalcites meyerii",
+          "Species3": "Chrysococcyx meyeri",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "CNJV7",
+        "scientificName": "Chalcites megarhynchus",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_megarhynchus",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "32K",
+            "parentId": "V2",
+            "scientificName": "Cuculiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 1
+          },
+          {
+            "id": "8S7",
+            "parentId": "32K",
+            "scientificName": "Cuculidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 36
+          },
+          {
+            "id": "CNJTQ",
+            "parentId": "8S7",
+            "scientificName": "Chalcites Lesson, 1830",
+            "authorship": "Lesson, 1830",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 8
+          },
+          {
+            "parentId": "CNJTQ",
+            "id": "CNJV7",
+            "scientificName": "Chalcites megarhynchus (G. R. Gray, 1858)",
+            "authorship": "(G. R. Gray, 1858)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2093,
+        "record": {
+          "Sequence": 1674,
+          "Species1": "Chalcites megarhynchus",
+          "Family1": "Cuculidae",
+          "Order1": "Cuculiformes",
+          "Avibase.ID1": "AVIBASE-14B0CB57",
+          "Total.individuals": 1,
+          "Female": 0,
+          "Male": 1,
+          "Unknown": 0,
+          "Complete.measures": 1,
+          "Beak.Length_Culmen": 23.3,
+          "Beak.Length_Nares": 18.5,
+          "Beak.Width": 6.2,
+          "Beak.Depth": 6.4,
+          "Tarsus.Length": 15.4,
+          "Wing.Length": 97,
+          "Kipps.Distance": 28.1,
+          "Secondary1": 68.9,
+          "Hand-Wing.Index": 29,
+          "Tail.Length": 73,
+          "Mass": 31.5,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -10.1,
+          "Max.Latitude": 0.11,
+          "Centroid.Latitude": -3.39,
+          "Centroid.Longitude": 138.06,
+          "Range.Size": 152360.64
+        }
+      },
+      "eBird": {
+        "excelRow": 1994,
+        "record": {
+          "Species1": "Chalcites megarhynchus",
+          "Species2": "Chrysococcyx megarhynchus",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-14B0CB57",
+          "Avibase.ID2": "AVIBASE-14B0CB57",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 1983,
+        "record": {
+          "Species1": "Chalcites megarhynchus",
+          "Species3": "Rhamphomantis megarhynchus",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "CNJTZ",
+        "scientificName": "Chalcites osculans",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_osculans",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "32K",
+            "parentId": "V2",
+            "scientificName": "Cuculiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 1
+          },
+          {
+            "id": "8S7",
+            "parentId": "32K",
+            "scientificName": "Cuculidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 36
+          },
+          {
+            "id": "CNJTQ",
+            "parentId": "8S7",
+            "scientificName": "Chalcites Lesson, 1830",
+            "authorship": "Lesson, 1830",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 8
+          },
+          {
+            "parentId": "CNJTQ",
+            "id": "CNJTZ",
+            "scientificName": "Chalcites osculans Gould, 1847",
+            "authorship": "Gould, 1847",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2096,
+        "record": {
+          "Sequence": 1676,
+          "Species1": "Chalcites osculans",
+          "Family1": "Cuculidae",
+          "Order1": "Cuculiformes",
+          "Avibase.ID1": "AVIBASE-087C279E",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 2,
+          "Unknown": 1,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 18.4,
+          "Beak.Length_Nares": 11.5,
+          "Beak.Width": 4.8,
+          "Beak.Depth": 5.1,
+          "Tarsus.Length": 18.8,
+          "Wing.Length": 115.2,
+          "Kipps.Distance": 45.4,
+          "Secondary1": 68.8,
+          "Hand-Wing.Index": 39.8,
+          "Tail.Length": 86.4,
+          "Mass": 30.9,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -38.86,
+          "Max.Latitude": -10.9,
+          "Centroid.Latitude": -25.39,
+          "Centroid.Longitude": 134.69,
+          "Range.Size": 7041722.87
+        }
+      },
+      "eBird": {
+        "excelRow": 1997,
+        "record": {
+          "Species1": "Chalcites osculans",
+          "Species2": "Chrysococcyx osculans",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-087C279E",
+          "Avibase.ID2": "AVIBASE-087C279E",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 1987,
+        "record": {
+          "Species1": "Chalcites osculans",
+          "Species3": "Chrysococcyx osculans",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    }
+  ],
+  "colNameRecords": [
+    {
+      "normalizedName": "chalcites basalis horsfield 1821",
+      "id": "CNJTR",
+      "scientificName": "Chalcites basalis (Horsfield, 1821)",
+      "authorship": "(Horsfield, 1821)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "CNJTQ",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Cuculiformes",
+        null,
+        "Cuculidae",
+        null,
+        null,
+        null,
+        "Chalcites"
+      ]
+    },
+    {
+      "normalizedName": "chalcites lucidus j f gmelin 1788",
+      "id": "CNJTS",
+      "scientificName": "Chalcites lucidus (J. F. Gmelin, 1788)",
+      "authorship": "(J. F. Gmelin, 1788)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "CNJTQ",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Cuculiformes",
+        null,
+        "Cuculidae",
+        null,
+        null,
+        null,
+        "Chalcites"
+      ]
+    },
+    {
+      "normalizedName": "chalcites megarhynchus g r gray 1858",
+      "id": "CNJV7",
+      "scientificName": "Chalcites megarhynchus (G. R. Gray, 1858)",
+      "authorship": "(G. R. Gray, 1858)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "CNJTQ",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Cuculiformes",
+        null,
+        "Cuculidae",
+        null,
+        null,
+        null,
+        "Chalcites"
+      ]
+    },
+    {
+      "normalizedName": "chalcites meyerii salvadori 1874",
+      "id": "CNJV8",
+      "scientificName": "Chalcites meyerii (Salvadori, 1874)",
+      "authorship": "(Salvadori, 1874)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "CNJTQ",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Cuculiformes",
+        null,
+        "Cuculidae",
+        null,
+        null,
+        null,
+        "Chalcites"
+      ]
+    },
+    {
+      "normalizedName": "chalcites osculans gould 1847",
+      "id": "CNJTZ",
+      "scientificName": "Chalcites osculans Gould, 1847",
+      "authorship": "Gould, 1847",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "CNJTQ",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Cuculiformes",
+        null,
+        "Cuculidae",
+        null,
+        null,
+        null,
+        "Chalcites"
+      ]
+    },
+    {
+      "normalizedName": "chalcites ruficollis salvadori 1876",
+      "id": "CNJVP",
+      "scientificName": "Chalcites ruficollis (Salvadori, 1876)",
+      "authorship": "(Salvadori, 1876)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "CNJTQ",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Cuculiformes",
+        null,
+        "Cuculidae",
+        null,
+        null,
+        null,
+        "Chalcites"
+      ]
+    },
+    {
+      "normalizedName": "chrysococcyx basalis horsfield 1821",
+      "id": "5YNLR",
+      "scientificName": "Chrysococcyx basalis (Horsfield, 1821)",
+      "authorship": "(Horsfield, 1821)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "CNJTR",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "chrysococcyx lucidus j f gmelin 1788",
+      "id": "5YNM6",
+      "scientificName": "Chrysococcyx lucidus (J. F. Gmelin, 1788)",
+      "authorship": "(J. F. Gmelin, 1788)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "CNJTS",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "chrysococcyx megarhynchus g r gray 1858",
+      "id": "CNKSY",
+      "scientificName": "Chrysococcyx megarhynchus (G. R. Gray, 1858)",
+      "authorship": "(G. R. Gray, 1858)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "CNJV7",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "chrysococcyx meyeri salvadori 1874",
+      "id": "CNKT3",
+      "scientificName": "Chrysococcyx meyeri Salvadori, 1874",
+      "authorship": "Salvadori, 1874",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "CNJV8",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "chrysococcyx meyerii salvadori 1874",
+      "id": "CQ6RV",
+      "scientificName": "Chrysococcyx meyerii Salvadori, 1874",
+      "authorship": "Salvadori, 1874",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "CNJV8",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "chrysococcyx osculans gould 1847",
+      "id": "5YNLG",
+      "scientificName": "Chrysococcyx osculans (Gould, 1847)",
+      "authorship": "(Gould, 1847)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "CNJTZ",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "chrysococcyx ruficollis salvadori 1876",
+      "id": "5YNLH",
+      "scientificName": "Chrysococcyx ruficollis (Salvadori, 1876)",
+      "authorship": "(Salvadori, 1876)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "CNJVP",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "rhamphomantis megarhynchus g r gray 1858",
+      "id": "4S2PW",
+      "scientificName": "Rhamphomantis megarhynchus (G. R. Gray, 1858)",
+      "authorship": "(G. R. Gray, 1858)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "CNJV7",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    }
+  ],
+  "fieldDefinitions": [
+    {
+      "excelRow": 12,
+      "record": {
+        "Variable": "Total.individuals",
+        "Description": "Number of individual specimens and live birds measured for each species",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 13,
+      "record": {
+        "Variable": "Female",
+        "Description": "Number of measured individuals identified as female",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 14,
+      "record": {
+        "Variable": "Male",
+        "Description": "Number of measured individuals identified as male",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 15,
+      "record": {
+        "Variable": "Unknown",
+        "Description": "Number of unsexed individuals measured",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 16,
+      "record": {
+        "Variable": "Complete.measures",
+        "Description": "Number of measured individuals with complete set of morphometric trait measurements ",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 18,
+      "record": {
+        "Variable": "Beak.Length_Nares",
+        "Description": "Length from the anterior edge of the nostrils to the tip of the beak",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 19,
+      "record": {
+        "Variable": "Beak.Width",
+        "Description": "Width of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 22,
+      "record": {
+        "Variable": "Wing.Length",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the longest primary on the unflattened wing",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 25,
+      "record": {
+        "Variable": "Hand-Wing.Index",
+        "Description": "100*DK/Lw, where DK is Kipp’s distance and Lw is wing length (i.e., Kipp’s distance corrected for wing size). Species average HWI differ from estimates in Sheard et al. (2020) because of much higher sampling of individuals in some species, as well as taxonomic effects in the BirdLife list",
+        "Variable Types": "continuous",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 27,
+      "record": {
+        "Variable": "Mass",
+        "Description": "Body mass given as species average (incorporating both male and female body mass)",
+        "Variable Types": "continuous",
+        "Units": "gram",
+        "Source": "See Mass Source column"
+      }
+    },
+    {
+      "excelRow": 28,
+      "record": {
+        "Variable": "Mass.Source",
+        "Description": "Dunning (= Dunning, JB [2008] CRC Handbook of Avian Body Masses);\nEltonTraits_Other (= mass published by Wilman et al. 2014 EltonTraits 1.0. Ecology, on basis of literature other than Dunning, usually Handbook of the Birds of the World [now Birds of the World, Cornell])\nEltonTraits_GenAvg (= average of the genus, published in Wilman et al. 2014 EltonTraits 1.0. Ecology); \nEltonTraits_Model (= inferred from mass and length data, with mass-length relationships parameterized at family level, published in Wilman et al. 2014 EltonTraits 1.0. Ecology);\nUpdated_literature (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from literature and online resources, including Birds of the World - specific sources are listed in the Mass.Ref.Source column);  \nUpdated_live.sample (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from museum labels and/or field data of from wild birds weighed using a Pezola balance before release. Specific sources are listed in the Mass.Ref.Source column);  \nInferred (= where EltonTraits GenAvg or Modelled data seemed misleading, and no published data were available for updating, we replaced it where possible with data inferred directly from a morphologically similar relative. Reference species and Traits inferred columns indicate where mass has been inferred and from which species);\nDataFromSplit (= daughter species body mass inferred from parent species after split; the parent or nominate form is typically morphologically similar and provides a reasonable estimate of body mass, particularly as mass data used to calculate the parent species body mass in earlier publications sometimes includes data from the recently split daughter species).\n",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 30,
+      "record": {
+        "Variable": "Inference",
+        "Description": "NO = all biometric trait data were obtained from direct measurement of specimens, or in the case of body mass from published sources\nYES = at least some of the biometric traits were unavailable from specimens so these trait data were inferred from a closely related species; in some cases all morphological measurements were taken directly except for body mass, which can't be measured on museum specimens.",
+        "Variable Types": "binary",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 33,
+      "record": {
+        "Variable": "Habitat",
+        "Description": "Desert (= drylands and other open arid habitats, often sandy with very sparse vegetation); \nRock (= rocky substrate typically with no or very little vegetation, including rocky outcrops, rocky coastlines, arid stony steppes, rocky mountaintops and mountain slopes); \nGrassland (=  open dry to moist grass-dominated landscapes, at all elevations); \nShrubland (= low stature bushy habitats, included thornscrub, thorny or arid savanna, caatinga, xerophytic shrubland and coastal scrub); \nWoodland (= medium stature tree-dominated habitats, including Acacia woodland, riparian woodlands, mangrove forests, forest edges, also more open parkland with scattered taller trees);\nForest (= tall tree-dominated vegetation with more or less closed canopy, including palm forest); \nHuman modified (urban landscapes, intensive agriculture, gardens); \nWetland (= wide range of freshwater aquatic habitats including lakes, marshes, swamps and reedbeds); \nRiverine (= associated with rivers and streams at all elevations); \nCoastal (= intertidal zones within immediate vicinity of beaches, estuaries, brackish to salty marshes, including mudflats, lagoons, alkaline wetlands, coastal dunes and harbours);\nMarine (= pelagic, on sea near coasts, including species in the intertidal zone on beaches, and those pelagic species nesting near the sea on cliffs, islets and islands).",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Data extracted from primary and secondary literature, particularly Handbook of the Birds of the World (including Birds of the World)"
+      }
+    },
+    {
+      "excelRow": 34,
+      "record": {
+        "Variable": "Habitat.Density",
+        "Description": "1 = Dense habitats. Species primarily lives in the lower or middle storey of forest, or in dense thickets, dense shrubland etc.\n2 = Semi-open habitats. Species primarily lives in open shrubland, scattered bushes, parkland, low dry or deciduous forest, thorn forest. \n3 = Open habitats. Species primarily lives in desert, grassland, open water, low shrubs, rocky habitats, seashores, cities. Also applies to species living mainly on top of forest canopy (i.e. mostly in the open)",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias et al. (2016) Frontiers Ecol. Evol."
+      }
+    },
+    {
+      "excelRow": 35,
+      "record": {
+        "Variable": "Migration",
+        "Description": "1 = Sedentary. \n2 = Partially migratory, i.e. minority of population migrates long distances, or most of population undergoes short-distance migration, nomadic movements, distinct altitudinal migration, etc.\n3 = Migratory, i.e. majority of population undertakes long-distance migration",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias & Pigot (2019) Phil. Trans. Roy. Soc."
+      }
+    },
+    {
+      "excelRow": 36,
+      "record": {
+        "Variable": "Trophic.Level",
+        "Description": "Herbivore = species obtaining at least 70% of food resources from plants; Carnivore = species obtaining at least 70% of food resources by consuming live invertebrate or vertebrate animals; Scavenger = species obtaining at least 70% of food resources from carrion or refuse; Omnivore = species obtaining resources from multiple trophic level in roughly equal proportion",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 37,
+      "record": {
+        "Variable": "Trophic.Niche",
+        "Description": "Frugivore = species obtaining at least 60% of food resources from fruit; \nGranivore = species obtaining at least 60% of food resources from seeds or nuts; \nNectarivore =  species obtaining at least 60% of food resources from nectar; \nHerbivore = species obtaining at least 60% of food resources from other plant materials in non-aquatic systems, including leaves, buds, whole flowers etc.; \nHerbivore aquatic = species obtaining at least 60% of food resources from plant materials in aquatic systems, including algae and aquatic plant leaves; \nInvertivore = species obtaining at least 60% of food resources from invertebrates in terrestrial systems, including insects, worms, arachnids, etc.; \nVertivore = species obtaining at least 60% of food resources from vertebrate animals in terrestrial systems, including mammals, birds, reptiles etc.; \nAquatic Predator = species obtaining at least 60% of food resources from vertebrate and invertebrate animals in aquatic systems, including fish, crustacea, molluscs, etc; \nScavenger = species obtaining at least 60% of food resources from carrion, offal or refuse; Omnivore = Species using multiple niches, within or across trophic levels, in relatively equal proportions ",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 38,
+      "record": {
+        "Variable": "Primary.Lifestyle",
+        "Description": "Aerial = species spends much of the time in flight, and hunts or forages predominantly on the wing; \nTerrestrial = species spends majority of its time on the ground, where it obtains food while either walking or hopping (note this includes species that also wade in water with their body raised above the water); \nInsessorial = species spends much of the time perching above the ground, either in branches of trees and other vegetation (i.e. arboreal), or on other raised substrates including rocks, buildings, posts, and wires; \nAquatic = species spends much of the time sitting on water, and obtains  food while afloat or when diving under the water's surface; Generalist = species has no primary lifestyle because it spends time in different lifestyle classes",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 17,
+      "record": {
+        "Variable": "Beak.Length_Culmen",
+        "Description": "Length from the tip of the beak to the base of the skull",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 20,
+      "record": {
+        "Variable": "Beak.Depth",
+        "Description": "Depth of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 21,
+      "record": {
+        "Variable": "Tarsus.Length",
+        "Description": "Length of the tarsus from the posterior notch between tibia and tarsus, to the end of the last scale of acrotarsium (at the bend of the foot)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 23,
+      "record": {
+        "Variable": "Kipps.Distance",
+        "Description": "Length from the tip of the first secondary feather to the tip of the longest primary      ",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 24,
+      "record": {
+        "Variable": "Secondary1",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the first secondary, i.e. the outermost secondary adjacent to the innermost primary feather. Secondary1 is roughly equivalent to Wing length minus Kipp’s distance (measured in a fully folded and flat wing)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 26,
+      "record": {
+        "Variable": "Tail.Length",
+        "Description": "Distance between the tip of the longest rectrix and the point at which the two central rectrices protrude from the skin, typically measured using a ruler inserted between the two central rectrices",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 31,
+      "record": {
+        "Variable": "Traits.inferred",
+        "Description": "List of traits inferred from the reference species",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 32,
+      "record": {
+        "Variable": "Reference.species",
+        "Description": "Species from which the biometric data were inferred",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    }
+  ],
+  "readingScope": "Six morphology/mass/ecology rows, full crosswalks, fourteen related catalogue names and relevant definitions. Not the whole workbook, specimens, original mass book or a new full methods-paper reading.",
+  "retainedBoundaries": {
+    "exactHistoricalNamesSeparate": true,
+    "meyeriiAndMeyeriBothRetained": true,
+    "megarhynchusTwoOldGenera": true,
+    "ruficollisOneFemaleComplete": true,
+    "megarhynchusOneMaleComplete": true,
+    "morphologyAndDunningMassSeparate": true,
+    "fiveInsessorialOneGeneralist": true,
+    "fourForestOneWoodlandOneShrubland": true,
+    "threeDenseThreeSemiOpen": true,
+    "sixSedentaryInvertivoreCarnivore": true,
+    "noBroodParasitismOrDietInvented": true,
+    "noGeographicFieldsInterpreted": true,
+    "historicalGuidesNotCompleteMonographs": true,
+    "activePrimateGaps": 14,
+    "fixedAcceptedPrimateDenominator": 530
+  },
+  "intakeBeforeIncrementalCounts": {
+    "indexExists": 698,
+    "bilingualCatalogueProfileMarkers": 695,
+    "missingOneOrBothCatalogueProfileMarkers": 6478,
+    "scope": "Original 7173 observation plus 330 authored species in P5-143–179; no new whole-corpus prose review."
+  },
+  "intakeAfterIncrementalCounts": {
+    "indexExists": 704,
+    "bilingualCatalogueProfileMarkers": 701,
+    "missingOneOrBothCatalogueProfileMarkers": 6472,
+    "scope": "Original 7173 observation plus 336 authored species in P5-143–180; no new whole-corpus prose review."
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All 36 new sections in both languages, all eight profile limits and eight prior family sections were read after writing. Six morphology sections were refined to distinguish hand-wing index from flight speed and reread; four same-name crosswalk summaries were consolidated to a single synonym ID and reread. Read eight indices, all section topic/source/text vectors, new reference bindings and limitation pointers, seven bounded new projection entries, P5-180 plan, intake followups and receipt metadata. Six source rows, full crosswalks, fourteen related catalogue names and relevant definitions were read before authoring; retained family bindings were read before editing. eBird meyerii and BirdTree meyeri, and Chrysococcyx versus Rhamphomantis at megarhynchus remain separate. One female at ruficollis and one male at megarhynchus supply no within-species sex comparison or population variation; Dunning mass remains independent. Five Insessorial and one Generalist, three dense and three semi-open, and six Invertivore/Carnivore/sedentary codes supply no observed diet, brood parasitism, hosts or breeding. Editorial reading is not generation, tests, whole-corpus validation or expert review.",
+    "canonicalFiles": [
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_ruficollis/index.yaml",
+        "sha256": "948272f2511b9ba22737a77be4169396de56ac06f0d6d9d7536f3ab5669b2950"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_ruficollis/evidence.md",
+        "sha256": "73d9c13633692914dd103585b963a140b0616daa04fca11a47f1e1e9deed5567"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_ruficollis/page.zh.md",
+        "sha256": "6f15235ef5167983d5e69e2b6b3a60c4a6ca00e46ee07b412f8ba2f6153b9e45"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_ruficollis/page.en.md",
+        "sha256": "5ccf3baefcad88d55ab754534d16af3710235b52739934b91570f727d7e05952"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_lucidus/index.yaml",
+        "sha256": "919321be755858f35f52fbd483f2a6b2f515205081e7f94f0dc0f2ed866283cd"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_lucidus/evidence.md",
+        "sha256": "015ba921d77b4bbdb2d776377553ed35e897b9cdfa6d0e9eef0335852e8ab54d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_lucidus/page.zh.md",
+        "sha256": "34a620f0d83f75bec4759aa3e86cd4ece83e899fe0abfde6fc6fadead303bb04"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_lucidus/page.en.md",
+        "sha256": "f17226cadc4fde6bc5b99db88458b0e7a5307a5aa5230c984c63bc0b1d354678"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_basalis/index.yaml",
+        "sha256": "e000b503c768fbc20cbaaa37a11f0d6cc8f7fab2ea2647189f7c6203dada517d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_basalis/evidence.md",
+        "sha256": "34ce036092924a9c839110827909e23657b6c5fd4a62a66e763aafb27b28165e"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_basalis/page.zh.md",
+        "sha256": "a3e9012ea77bd968c577e14bb588e9c889abb6196ee80a4b59792d55ce66f8c9"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_basalis/page.en.md",
+        "sha256": "21f08905aa50b9daded54a6b766328da7191beb6279d9bd3986ccae258a88abe"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_meyerii/index.yaml",
+        "sha256": "49508627fa73c602e1d291a99a622b1c41edd8a4750ec68e08796214a8f0bfa7"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_meyerii/evidence.md",
+        "sha256": "329387d979e7b75b33e209eaa539c0bcc170dde79a1c380c52c8844233813ce4"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_meyerii/page.zh.md",
+        "sha256": "b49fb37bb9ab03ffcea31ac311d8e91bc286ce3a715b3205bd6a0fee05269e7d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_meyerii/page.en.md",
+        "sha256": "c48709a36b811970bd7bae8c7affa78e2a2896b6f0216c11034317e66a55ed0c"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_megarhynchus/index.yaml",
+        "sha256": "8af5563b6c31950b19449c481bf4aec3a9dfe460ad86d303da768dffcc3403b9"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_megarhynchus/evidence.md",
+        "sha256": "76c95a96006dce8ebf91ef152f6b824e20d1943a8e33fbbf4f42bdd432d9a1af"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_megarhynchus/page.zh.md",
+        "sha256": "1038a7596ab735ff3fac459fb3f0e283db50ef3499a4ac649bc36a41ba919e05"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_megarhynchus/page.en.md",
+        "sha256": "f99e93053c98f23d7141ec29dae3bbb8955e1747a93d0f5a94b6b3ff87f66702"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_osculans/index.yaml",
+        "sha256": "9c83e9a061862f176fbe0d92b386b8fecbaae05f613340e53819ab8be65b0627"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_osculans/evidence.md",
+        "sha256": "434912ef6135becf3e55ff0e803dc0a8d6735e4c1e716b2773df34cd5d236166"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_osculans/page.zh.md",
+        "sha256": "ef5ec4f9d52b255eb5e3f2f30186e712e0c5d060839189e03fa5d3cbfecc5c9c"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/Chalcites_osculans/page.en.md",
+        "sha256": "5318cd84d4a5d92f07919e45fc96343fa9791b8d008086bd556510558b1029b4"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/index.yaml",
+        "sha256": "bf95db44257b717ac3d7a5898baf10c543e13a647b0399f26be84bd66ade808d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/evidence.md",
+        "sha256": "7c68624e7ee2bf2828042fc97925e20d79b02b861b72babc422f7b453ad11ae0"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/page.zh.md",
+        "sha256": "09e2061216b9f53184fb9401d3c827f68f92ca8d514f537a5f482b2553338ff1"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/Chalcites/page.en.md",
+        "sha256": "232c165b26bfb682a1a0144df612f19c05476be455eea8c5d3a2b780b4d830f1"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/evidence.md",
+        "sha256": "ec9bd9d3920320bf983d394ce8750f4d5bd1fad833f5d5190b6cc4e52accef04"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/page.zh.md",
+        "sha256": "c6b4ff7ee9f56b6c399d422f37fa9df48f8943e9ac44ddcde29a3a6ba7f02f70"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Cuculiformes/Cuculidae/page.en.md",
+        "sha256": "fb58404b7dbaf9d872661f07de151ff43f971fb6fde2db1585369a2c1d69a483"
+      },
+      {
+        "path": "content/projection-map.yaml",
+        "sha256": "371b6e3aca0431936ea7e27db518e68659b13d221279b2c4bebb3297691f63bf"
+      },
+      {
+        "path": "docs/content-production-plan.md",
+        "sha256": "ebc9d7803407dbee88697ec11a8b01a68e85f357c1c34b38fd1ec4be3201730d"
+      },
+      {
+        "path": "data/sources/col-unrepresented-reader-intake-2026-10-03.json",
+        "sha256": "78581378306bd5d36cbe0bc5363c7d9616ab999d47bcab2160a15b96e4e50d0e"
+      },
+      {
+        "path": "data/sources/avonet-name-crosswalk-intake-2026-10-03.json",
+        "sha256": "030e966e78c88d6885ab1f6f08c51d9fa26253b07f97ce9896adde61e0b819bb"
+      }
+    ]
+  },
+  "delivery": "Canonical inputs authored; tests, generation, commit and publication deferred until all content completion."
+}

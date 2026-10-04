@@ -1,0 +1,238 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Smilodon fatalis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Smilodon fatalis
+      en: Smilodon fatalis
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Smilodon fatalis
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=46515&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:46515; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:46515
+            selectedOccurrenceIds:
+              - occ:196758
+              - occ:196855
+              - occ:197049
+              - occ:198365
+              - occ:199215
+              - occ:199495
+              - occ:199591
+              - occ:199611
+              - occ:199870
+              - occ:598317
+              - occ:598334
+              - occ:598372
+              - occ:649207
+              - occ:662253
+              - occ:747554
+              - occ:781499
+              - occ:838776
+              - occ:839001
+              - occ:1021251
+              - occ:1028907
+              - occ:1185080
+              - occ:1196142
+              - occ:1378803
+              - occ:1491072
+              - occ:1520060
+              - occ:1629202
+              - occ:1639827
+            selectedCollectionIds:
+              - col:20285
+              - col:20290
+              - col:20302
+              - col:20454
+              - col:20569
+              - col:20600
+              - col:20608
+              - col:20612
+              - col:20638
+              - col:63424
+              - col:63427
+              - col:63429
+              - col:70136
+              - col:71346
+              - col:79757
+              - col:20584
+              - col:93103
+              - col:79919
+              - col:125085
+              - col:123875
+              - col:152904
+              - col:154722
+              - col:188670
+              - col:85142
+              - col:212458
+              - col:230753
+              - col:232472
+            sourceReferenceIds:
+              - ref:6294
+              - ref:1725
+              - ref:2725
+              - ref:2637
+              - ref:2501
+              - ref:18245
+              - ref:23553
+              - ref:2195
+              - ref:26822
+              - ref:28175
+              - ref:3185
+              - ref:31468
+              - ref:40558
+              - ref:49269
+              - ref:50316
+              - ref:63305
+              - ref:71494
+              - ref:73395
+              - ref:85310
+              - ref:86613
+            originalIdentificationMappings:
+              - occurrenceId: occ:197049
+                originalIdentifiedName: Smilodon californicus
+                acceptedName: Smilodon fatalis
+                difference: null
+              - occurrenceId: occ:598317
+                originalIdentifiedName: Smilodon floridanus
+                acceptedName: Smilodon fatalis
+                difference: null
+              - occurrenceId: occ:598334
+                originalIdentifiedName: Smilodon floridanus
+                acceptedName: Smilodon fatalis
+                difference: null
+              - occurrenceId: occ:598372
+                originalIdentifiedName: Smilodon floridanus
+                acceptedName: Smilodon fatalis
+                difference: null
+              - occurrenceId: occ:1491072
+                originalIdentifiedName: Smilodon californicus
+                acceptedName: Smilodon fatalis
+                difference: null
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Smilodon fatalis

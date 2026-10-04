@@ -1,0 +1,3412 @@
+{
+  "batch": "P5-61",
+  "date": "2026-10-03",
+  "classificationRelease": "COL26.8",
+  "pinnedMammaliaDenominator": 6461,
+  "sourceFileSha256": "9b7a4ef7082c7b37ab76b922cfd5c86fd3e49444fa2db180439cfbe051fef6b9",
+  "metadataReportedSourceRows": 1440,
+  "actualParsedSourceRows": 1444,
+  "sourceRowCountBoundary": "The retained original text yields 1444 data rows; archived metadata says 1440. Both recorded without guessing which revision produced the difference.",
+  "selectedCandidates": 616,
+  "authoredSpecies": 616,
+  "newSpeciesProfiles": 0,
+  "newGroupProfiles": 1,
+  "updatedProfiles": 1200,
+  "groupRoutes": 585,
+  "fieldCountDistribution": {
+    "1": 100,
+    "2": 58,
+    "3": 56,
+    "4": 72,
+    "5": 55,
+    "6": 88,
+    "7": 97,
+    "8": 90
+  },
+  "skippedSourceRecords": [
+    {
+      "name": "Alcelaphus buselaphus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Bison bison",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Bison bonasus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Bos javanicus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Capra caucasica",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Capra falconeri",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Capra cylindricornis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Capra hircus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cephalophus nigrifrons",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cephalophus natalensis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cephalophus leucogaster",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cephalophus ogilbyi",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cephalophus dorsalis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cephalophus monticola",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Cephalophus maxwellii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Damaliscus hunteri",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Damaliscus lunatus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Gazella soemmerringii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Gazella rufifrons",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Gazella dama",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Gazella leptoceros",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Gazella granti",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Gazella dorcas",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Gazella thomsonii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Hemitragus hylocrius",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Naemorhedus crispus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Naemorhedus sumatraensis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Oryx gazella",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Ovis nivicola",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Ovis vignei",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Ovis ammon",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Ovis aries",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Saiga tatarica",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Sigmoceros lichtensteinii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tragelaphus strepsiceros",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tragelaphus angasii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tragelaphus imberbis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Lama glama",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Lama pacos",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Lama guanicoe",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Alces alces",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Axis axis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Capreolus capreolus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Capreolus pygargus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cervus duvaucelii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Cervus albirostris",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cervus timorensis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Cervus unicolor",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Cervus eldii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Cervus nippon",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Dama dama",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Mazama gouazoupira",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Mazama americana",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Hexaprotodon liberiensis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Moschus chrysogaster",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Moschus berezovskii",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Babyrousa babyrussa",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Hylochoerus meinertzhageni",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Sus salvanius",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sus barbatus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Sus scrofa",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Tragulus javanicus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Tragulus napu",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Alopex lagopus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Canis aureus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Canis rufus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Canis lupus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Canis mesomelas",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Canis adustus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Pseudalopex gymnocercus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Pseudalopex griseus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Pseudalopex culpaeus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Vulpes rueppelli",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Vulpes ferrilata",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Vulpes pallida",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Vulpes vulpes",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Vulpes velox",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Felis chaus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Felis silvestris",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Felis nigripes",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Herpailurus yaguarondi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Leopardus tigrinus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Leopardus pardalis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Leptailurus serval",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Oncifelis colocolo",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Oncifelis geoffroyi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Otocolobus manul",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Panthera pardus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Prionailurus bengalensis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Profelis aurata",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Uncia uncia",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Crossarchus obscurus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Galerella pulverulenta",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Galerella sanguinea",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Galidia elegans",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Galidictis fasciata",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Herpestes javanicus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Herpestes edwardsii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Ichneumia albicauda",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Mungotictis decemlineata",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Parahyaena brunnea",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Proteles cristatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Amblonyx cinereus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Aonyx congicus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Aonyx capensis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Conepatus leuconotus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Conepatus semistriatus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Conepatus mesoleucus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Galictis vittata",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Ictonyx libyca",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Lontra longicaudis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Lontra felina",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Lontra canadensis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Lutra maculicollis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Lutra lutra",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Martes flavigula",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Martes pennanti",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Martes martes",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Meles meles",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Mephitis macroura",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Mephitis mephitis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Mustela lutreola",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Mustela altaica",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Mustela sibirica",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Mustela vison",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Mustela frenata",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Mustela erminea",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Mustela eversmannii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Mustela putorius",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Mustela nivalis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Spilogale pygmaea",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Spilogale putorius",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Arctocephalus australis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Otaria byronia",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Zalophus californianus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Callorhinus ursinus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Lobodon carcinophagus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Monachus schauinslandi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Phoca largha",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Phoca caspica",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Phoca hispida",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Phoca groenlandica",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Phoca fasciata",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Phoca sibirica",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Nasua nasua",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Nasua narica",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Procyon lotor",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Ailurus fulgens",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Ursus thibetanus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Ursus arctos",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Ursus americanus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cryptoprocta ferox",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Eupleres goudotii",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Fossa fossana",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Genetta maculata",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Nandinia binotata",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Paradoxurus hermaphroditus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Prionodon pardicolor",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Prionodon linsang",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Eubalaena glacialis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Balaenoptera acutorostrata",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Delphinus delphis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Tursiops truncatus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Kogia simus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Kogia breviceps",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Physeter catodon",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Inia geoffrensis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Lipotes vexillifer",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Pontoporia blainvillei",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Berardius arnuxii",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Berardius bairdii",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Hyperoodon ampullatus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Mesoplodon carlhubbsi",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Mesoplodon densirostris",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Mesoplodon bidens",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Ziphius cavirostris",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Cynocephalus variegatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Cynocephalus volans",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Dendrohyrax arboreus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Heterohyrax brucei",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Amblysomus hottentotus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Chrysospalax villosus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Atelerix frontalis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Echinosorex gymnura",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Erinaceus concolor",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Erinaceus europaeus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Hemiechinus micropus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Hemiechinus hypomelas",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Hemiechinus aethiopicus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Hylomys suillus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Solenodon cubanus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Blarina carolinensis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Blarina hylophaga",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Blarina brevicauda",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Crocidura fuliginosa",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Crocidura crossei",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Crocidura flavescens",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Crocidura leucodon",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Crocidura russula",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Crocidura suaveolens",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cryptotis parva",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Diplomesodon pulchellum",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Neomys fodiens",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Notiosorex crawfordi",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Sorex bairdii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sorex cinereus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Sorex arcticus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Sorex hoyi",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Sorex monticolus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Sorex minutus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Sorex araneus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Sorex vagrans",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Suncus etruscus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Sylvisorex granti",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Scapanus townsendii",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Hemicentetes semispinosus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Limnogale mergulus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microgale dobsoni",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microgale talazaci",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Micropotamogale lamottei",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Potamogale velox",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Lepus insularis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Lepus tolai",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Lepus capensis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Pronolagus randensis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Pronolagus crassicaudatus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Pronolagus rupestris",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Sylvilagus palustris",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Sylvilagus transitionalis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Sylvilagus aquaticus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Sylvilagus bachmani",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Sylvilagus nuttallii",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Sylvilagus floridanus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Sylvilagus audubonii",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Ochotona macrotis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Ochotona curzoniae",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Ochotona collaris",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Ochotona roylei",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Ochotona dauurica",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Ochotona alpina",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Ochotona princeps",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Ochotona rutila",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Ochotona pallasi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Ochotona pusilla",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Ochotona rufescens",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Elephantulus rozeti",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Elephantulus rufescens",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Equus asinus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Equus burchellii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Equus hemionus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Tapirus indicus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tapirus bairdii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Manis gigantea",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Manis javanica",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Manis tricuspis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Manis tetradactyla",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Manis temminckii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Callithrix humeralifer",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Callithrix argentata",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Callithrix pygmaea",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Callithrix penicillata",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Saguinus leucopus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Saguinus imperator",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Saguinus bicolor",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Saguinus nigricollis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Saguinus mystax",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Saguinus geoffroyi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Saguinus fuscicollis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Saguinus oedipus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Saguinus labiatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Saguinus midas",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Alouatta pigra",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Alouatta seniculus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Alouatta palliata",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Alouatta caraya",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Aotus trivirgatus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Aotus lemurinus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Aotus azarai",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Ateles belzebuth",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Ateles geoffroyi",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Ateles paniscus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Ateles fusciceps",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Brachyteles arachnoides",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Cacajao calvus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Callicebus torquatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Callicebus cupreus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Callicebus moloch",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Cebus olivaceus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cebus apella",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Cebus albifrons",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Chiropotes albinasus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Chiropotes satanas",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Lagothrix lagotricha",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Pithecia monachus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Pithecia pithecia",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Saimiri oerstedi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Saimiri sciureus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cercocebus torquatus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cercopithecus wolfi",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cercopithecus lhoesti",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Cercopithecus mona",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cercopithecus campbelli",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cercopithecus mitis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cercopithecus solatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Cercopithecus diana",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Chlorocebus aethiops",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Colobus polykomos",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Lophocebus albigena",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Macaca thibetana",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Macaca fuscata",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Macaca maura",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Macaca arctoides",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Macaca nigra",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Macaca nemestrina",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Mandrillus leucophaeus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Mandrillus sphinx",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Papio hamadryas",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Procolobus badius",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Pygathrix bieti",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Pygathrix nemaeus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Semnopithecus entellus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Trachypithecus francoisi",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Trachypithecus johnii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Trachypithecus cristatus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Trachypithecus vetulus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Cheirogaleus major",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cheirogaleus medius",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Microcebus coquereli",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microcebus murinus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Phaner furcifer",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Euoticus elegantulus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Galago alleni",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Galago moholi",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Galago senegalensis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Galagoides demidoff",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Galagoides zanzibaricus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Otolemur crassicaudatus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Otolemur garnettii",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Gorilla gorilla",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Pongo pygmaeus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Hylobates hoolock",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Hylobates concolor",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Hylobates agilis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Hylobates syndactylus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Avahi laniger",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Indri indri",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Propithecus tattersalli",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Propithecus diadema",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Propithecus verreauxi",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Eulemur mongoz",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Eulemur fulvus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Hapalemur griseus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Varecia variegata",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Arctocebus calabarensis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Loris tardigradus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Nycticebus pygmaeus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Nycticebus coucang",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Perodicticus potto",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Lepilemur leucopus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Lepilemur ruficaudatus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Lepilemur mustelinus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Tarsius pumilis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tarsius dianae",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tarsius syrichta",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tarsius bancanus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tarsius spectrum",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Loxodonta africana",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Abrocoma cinerea",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Abrocoma bennetti",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Agouti paca",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Idiurus zenkeri",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Aplodontia rufa",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Cryptomys damarensis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Cryptomys hottentotus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cryptomys ochraceocinereus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Heterocephalus glaber",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Capromys pilorides",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Geocapromys ingrahami",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Geocapromys brownii",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Mysateles melanurus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Mysateles prehensilis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Plagiodontia aedium",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Cavia tschudii",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cavia aperea",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Dolichotis salinicola",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Chinchilla brevicaudata",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Lagidium viscacia",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Lagidium peruanum",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Ctenomys talarum",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Dasyprocta cristata",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Myoprocta acouchy",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Allactaga tetradactyla",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Allactaga euphratica",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Allactaga sibirica",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Allactaga elater",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Jaculus turcmenicus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Pygeretmus platyurus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Pygeretmus pumilio",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Salpingotus crassicauda",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Makalata armata",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Proechimys cayennensis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Proechimys semispinosus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Thrichomys apereoides",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Coendou prehensilis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Erethizon dorsatum",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sphiggurus villosus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sphiggurus mexicanus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Geomys bursarius",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Orthogeomys hispidus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Orthogeomys cherriei",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Pappogeomys castanops",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Thomomys umbrinus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Thomomys bulbivorus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Thomomys bottae",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Thomomys townsendii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Chaetodipus penicillatus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Dipodomys elephantinus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Dipodomys panamintinus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Dipodomys agilis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Dipodomys venustus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Dipodomys merriami",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Heteromys goldmani",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Heteromys desmarestianus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Liomys pictus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Liomys irroratus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Liomys adspersus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Liomys salvini",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Perognathus longimembris",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Perognathus parvus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Perognathus inornatus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Hydrochaeris hydrochaeris",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Hystrix pumila",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Hystrix brachyura",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Hystrix indica",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Hystrix cristata",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Hystrix africaeaustralis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Acomys percivali",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Acomys russatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Acomys wilsoni",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Acomys cahirinus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Aethomys chrysophilus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Aethomys namaquensis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Akodon varius",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Akodon cursor",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Akodon boliviensis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Akodon molinae",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Akodon dolores",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Akodon azarae",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Akodon longipilis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Akodon olivaceus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Akodon urichi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Allocricetulus eversmanni",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Alticola roylei",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Alticola strelzowi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Alticola argentatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Apodemus peninsulae",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Apodemus uralensis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Apodemus mystacinus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Apodemus flavicollis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Apodemus sylvaticus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Arborimus pomo",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Arborimus longicaudus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Arborimus albipes",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Arvicanthis niloticus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Arvicola sapidus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Arvicola terrestris",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Auliscomys micropus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Baiomys taylori",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Beamys hindei",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Bolomys lasiurus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Calomys lepidus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Calomys laucha",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Calomys hummelincki",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Calomys callosus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Calomys musculinus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Calomyscus bailwardi",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Calomyscus mystax",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Cannomys badius",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Chionomys nivalis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Chionomys gud",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Clethrionomys gapperi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Clethrionomys rufocanus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Clethrionomys glareolus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Clethrionomys californicus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Clethrionomys rutilus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Colomys goslingi",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cremnomys blanfordi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Cricetomys gambianus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Cricetulus barabensis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Cricetulus migratorius",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Cricetus cricetus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Dasymys incomtus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Dendromus messorius",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Dendromus kahuziensis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Dendromus mystacalis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Dendromus mesomelas",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Dendromus melanotis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Dicrostonyx unalascensis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Dicrostonyx richardsoni",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Dicrostonyx hudsonius",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Dicrostonyx torquatus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Dicrostonyx groenlandicus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Dinaromys bogdanovi",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Eligmodontia typus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Ellobius fuscocapillus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Ellobius talpinus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Eolagurus luteus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Gerbillurus setzeri",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Gerbillurus paeba",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Gerbillurus tytonis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Gerbillus gleadowi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Gerbillus andersoni",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Gerbillus henleyi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Gerbillus gerbillus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Gerbillus dasyurus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Gerbillus perpallidus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Gerbillus simoni",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Gerbillus cheesmani",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Gerbillus nanus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Gerbillus pyramidum",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Grammomys rutilans",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Graomys griseoflavus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Hodomys alleni",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Holochilus brasiliensis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Hybomys univittatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Hyperacrius fertilis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Hyperacrius wynnei",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Hypogeomys antimena",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Lagurus lagurus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Lasiopodomys brandtii",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Lemmiscus curtatus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Lemmus lemmus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Lemmus sibiricus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Lophiomys imhausi",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Lophuromys woosnami",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Lophuromys luteogaster",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Lophuromys flavopunctatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Lophuromys sikapusi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Macrotarsomys bastardi",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Malacothrix typica",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Mastomys natalensis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Megadontomys thomasi",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Melomys levipes",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Melomys rubex",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Melomys rufescens",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Melomys moncktoni",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Melomys leucogaster",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Melomys burtoni",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Meriones persicus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Meriones tristrami",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Meriones libycus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Meriones shawi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Meriones vinogradovi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Meriones crassus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Meriones tamariscinus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Meriones meridianus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Meriones hurrianae",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Meriones unguiculatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Mesocricetus brandti",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Mesocricetus raddei",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Mesocricetus auratus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Microtus lusitanicus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus transcaspicus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus duodecimcostatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus abbreviatus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Microtus mexicanus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Microtus juldaschi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus breweri",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus montebelli",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus townsendii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus miurus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Microtus longicaudus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Microtus chrotorrhinus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Microtus canicaudus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus richardsoni",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Microtus xanthognathus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Microtus pennsylvanicus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus pinetorum",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus gregalis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus guentheri",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus oeconomus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus agrestis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus subterraneus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus ochrogaster",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus oregoni",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus montanus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus californicus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Microtus socialis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus arvalis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Microtus fortis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Mus caroli",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Mus spretus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Mus mayori",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Mus cervicolor",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Mus musculoides",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Mus platythrix",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Mus booduga",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Mus triton",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Mus minutoides",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Mus musculus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Myomys fumatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Myomys derooi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Myomys daltoni",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Myopus schisticolor",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Myospalax myospalax",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Mystromys albicaudatus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Nannospalax leucodon",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Neacomys tenuipes",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Nectomys squamipes",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Nectomys parvipes",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Neofiber alleni",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Neotoma devia",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Neotoma fuscipes",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Neotoma stephensi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Neotoma cinerea",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Neotoma phenax",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Neotoma mexicana",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Neotoma albigula",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Neotoma lepida",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Neotoma micropus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Neotoma floridana",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Neotomodon alstoni",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Nyctomys sumichrasti",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Ochrotomys nuttalli",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Oecomys concolor",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Oligoryzomys nigripes",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Oligoryzomys flavescens",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Oligoryzomys longicaudatus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Ondatra zibethicus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Onychomys leucogaster",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Onychomys torridus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Oryzomys subflavus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Oryzomys palustris",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Oryzomys capito",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Otomys sloggetti",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Otomys typus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Ototylomys phyllotis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Oxymycterus rufus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus hooperi",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus megalops",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus melanocarpus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus mexicanus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus interparietalis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus perfulvus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus melanophrys",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus pectoralis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus gratus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus boylii",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus yucatanicus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus gossypinus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus difficilis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus attwateri",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus nasutus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus sitkensis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Peromyscus crinitus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus polionotus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus truei",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus maniculatus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus eremicus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus leucopus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus californicus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Peromyscus melanotis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Petromyscus collinus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Phenacomys ungava",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Phenacomys intermedius",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Phodopus campbelli",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Phodopus sungorus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Phodopus roborovskii",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Phyllotis darwini",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Podomys floridanus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Pogonomelomys sevia",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Pogonomys loriae",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Psammomys obesus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Pseudomys fuscus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Pseudomys fieldi",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Pseudomys praeconis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Rattus tiomanicus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Rattus rattus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Reithrodon auritus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Reithrodontomys humulis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Reithrodontomys megalotis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Reithrodontomys montanus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Reithrodontomys raviventris",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Reithrodontomys fulvescens",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Rhabdomys pumilio",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Rhipidomys latimanus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Rhipidomys mastacalis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Rhizomys sumatrensis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Rhizomys pruinosus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Saccostomus campestris",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Scotinomys teguina",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Scotinomys xerampelinus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Sigmodon leucotis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sigmodon ochrognathus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sigmodon fulviventer",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sigmodon hispidus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sigmodon alstoni",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spalax microphthalmus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Steatomys krebsii",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Steatomys pratensis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Synaptomys cooperi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Synaptomys borealis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tachyoryctes ruandae",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Tachyoryctes splendens",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Tatera inclusa",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tatera leucogaster",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tatera robusta",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tatera valida",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tatera brantsii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tatera nigricauda",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tatera afra",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tylomys nudicaudus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Uromys  caudimaculatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Wiedomys pyrrhorhinos",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Zygodontomys brevicauda",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Myocastor coypus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Dryomys laniger",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Dryomys nitedula",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Eliomys quercinus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Glirulus japonicus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Graphiurus crassicaudatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Graphiurus murinus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Graphiurus ocularis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Muscardinus avellanarius",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Myoxus glis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Pedetes capensis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Callosciurus prevostii",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Cynomys ludovicianus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Cynomys gunnisoni",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Cynomys parvidens",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Cynomys leucurus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Cynomys mexicanus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Epixerus ebii",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Funambulus sublineatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Funambulus palmarum",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Funambulus pennantii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Hylopetes fimbriatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Iomys horsfieldi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Marmota menzbieri",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Marmota camtschatica",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Marmota vancouverensis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Marmota olympus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Marmota caligata",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Marmota bobak",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Marmota flaviventris",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Marmota broweri",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Marmota marmota",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Marmota sibirica",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Marmota monax",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Marmota caudata",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Marmota baibacina",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Ratufa macroura",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Sciurus aureogaster",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sciurus yucatanensis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sciurus alleni",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sciurus arizonensis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sciurus griseus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sciurus aberti",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sciurus niger",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sciurus carolinensis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sciurus granatensis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sciurus vulgaris",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus relictus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Spermophilus parryii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus mohavensis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus lateralis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus beldingi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus armatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus canus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus erythrogenys",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Spermophilus pygmaeus",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Spermophilus major",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Spermophilus mollis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus nayaritensis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus columbianus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus saturatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus undulatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus mexicanus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus elegans",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus tereticaudus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus brunneus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus beecheyi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus richardsonii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus franklinii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus townsendii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus washingtoni",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus tridecemlineatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus variegatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Spermophilus spilosoma",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sundasciurus lowii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Sundasciurus tenuis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias ochrogenys",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias palmeri",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias siskiyou",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias canipes",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias sonomae",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias ruficaudus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias panamintinus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias speciosus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias townsendii",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias senex",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias minimus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias cinereicollis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias quadrimaculatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias amoenus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias sibiricus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias quadrivittatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias dorsalis",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tamias striatus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Xerus erythropus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Xerus inauris",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Tupaia glis",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Tupaia belangeri",
+      "reason": "MSW93/MSW05 correspondence is not an exact one-to-one name pair"
+    },
+    {
+      "name": "Urogale everetti",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Ptilocercus lowii",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Cabassous centralis",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Chaetophractus nationi",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Chaetophractus villosus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Dasypus hybridus",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": "Euphractus sexcinctus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Priodontes maximus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Tolypeutes matacus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Zaedyus pichiy",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": "Cyclopes didactylus",
+      "reason": "source and COL family differ"
+    },
+    {
+      "name": " ",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": " ",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": " ",
+      "reason": "no unique exact accepted Mammalia record"
+    },
+    {
+      "name": " ",
+      "reason": "no unique exact accepted Mammalia record"
+    }
+  ],
+  "individualIntegration": [],
+  "recordsPath": "data/sources/ernest-lifehistory-v2-2003-authored-records.jsonl.gz",
+  "recordsSha256": "0ef6f6a0e87c503b85913f725b20681197d5c120f087ea4bd2011cda11368289",
+  "retainedSourceSnapshots": [
+    {
+      "url": "https://www.esapubs.org/archive/ecol/E084/093/Mammal_lifehistories_v2.txt",
+      "path": "data/sources/snapshots/ernest2003-Mammal_lifehistories_v2-txt-9b7a4ef7082c7b37.gz",
+      "uncompressedSha256": "9b7a4ef7082c7b37ab76b922cfd5c86fd3e49444fa2db180439cfbe051fef6b9",
+      "sha256": "743db531b31d6a95304a962a162ee6cd90ca2a81c9ebb7c3c405708a33948a18",
+      "bytes": 154642,
+      "accessedAt": "2026-10-03"
+    },
+    {
+      "url": "https://www.esapubs.org/archive/ecol/E084/093/metadata.htm",
+      "path": "data/sources/snapshots/ernest2003-metadata-htm-8bf316049a336822.gz",
+      "uncompressedSha256": "8bf316049a336822fbaeefde7c956a4fb8d52171c995f42eb9c41da39e1e9b27",
+      "sha256": "800779d5fffebfd76ced79e628249d768af160d93bc5205b40054eb7943d4f9d",
+      "bytes": 51420,
+      "accessedAt": "2026-10-03"
+    },
+    {
+      "url": "https://www.esapubs.org/archive/ecol/E084/093/default.htm",
+      "path": "data/sources/snapshots/ernest2003-default-htm-c6ebc019ce5c426f.gz",
+      "uncompressedSha256": "c6ebc019ce5c426f6e73f09764aefdcb03c0a84b3376952d8de234d29ba7ef1d",
+      "sha256": "a41dac749c7ae96eb6294c333f0b6ef0c09d2924624189e6cd9fbdb1f0e26573",
+      "bytes": 7493,
+      "accessedAt": "2026-10-03"
+    }
+  ],
+  "sharedReference": "ref-1948a24d-679d-4e46-ac0d-16ed62cf4201",
+  "focalFields": [
+    "gestation(mo)",
+    "newborn(g)",
+    "weaning(mo)",
+    "wean mass(g)",
+    "AFR(mo)",
+    "max. life(mo)",
+    "litter size",
+    "litters/year"
+  ],
+  "selection": "Unique exact accepted Mammalia name, same family, exact one-to-one same-name MSW93/MSW05 crosswalk from separate PanTHERIA archive, positive non-adult-mass field and original references present; current concept equivalence not established.",
+  "scientificBoundaries": [
+    "Maximum lifespan is a maximum recorded datum, not an average.",
+    "Other traits generally average sources with equal weighting and possible unresolved primary-source reuse.",
+    "Historical units remain months or grams as recorded; no month-to-day conversion.",
+    "Adult mass raw values preserved but not interpreted by this batch.",
+    "Underlying cited books and papers not individually read; no primary observation claim."
+  ],
+  "primatesGapsClosed": 0,
+  "fullMonographsCompleted": 0,
+  "expertReview": false,
+  "readerVisibleDelivery": "Canonical bilingual prose and links authored; projection/runtime/publication pending content-phase handoff.",
+  "editorialPass": {
+    "date": "2026-10-03",
+    "englishSingleFieldGrammar": 100,
+    "groupSourceScopeParagraphs": 585,
+    "irrelevantProductSentencesRemoved": 590,
+    "representativeSpeciesReading": {
+      "names": [
+        "Callithrix jacchus",
+        "Atelocynus microtis",
+        "Caperea marginata"
+      ],
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "scope": "Actual source-linked reproductive, developmental, longevity and gap paragraphs read; links in Callithrix group read; no runtime or validator run."
+    },
+    "groupAvailabilityCountsPolished": 585
+  },
+  "primatesHistoricalAccounts": 47
+}

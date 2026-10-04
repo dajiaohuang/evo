@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: taxonomy
         text:
           en:
             markdown: page.en.md
@@ -23,13 +21,9 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - mdd_name
+      - topic: field ecology
         text:
           en:
             markdown: page.en.md
@@ -38,11 +32,8 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/1/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - andriyani2021
+      - topic: evidence_scope
         text:
           en:
             markdown: page.en.md
@@ -51,8 +42,7 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/2/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
+          - andriyani2021
     limitations:
       en:
         markdown: page.en.md

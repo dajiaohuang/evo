@@ -91,4 +91,31 @@ witton-habib-2010-giant-pterosaur-flight
 
 <!-- evo:text /records/readerLimitations/en -->
 This is a selective route through studies of relationships, fossils, geography and biomechanics. The fossil record is patchy; the cited locality and specimen results do not establish a complete global range, life history, diet or uniform flight capability. The profile is not externally expert-reviewed.
+This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes. No external expert review has occurred.
+<!-- /evo:text -->
+
+## Haliskia: observations and reconstruction
+
+<!-- evo:text /records/readerSections/4/text/en -->
+Partial skeleton KK F1426 of Haliskia peterseni offers a comparison route: read the horizon and preserved elements before the teeth and elongated hyoid bones. Its approximately 4.6 m span is estimated comparatively, while feeding interpretations lack direct preserved contents. The genus guide separates these evidence types. Compare them with the egg, integument and flight-model studies already introduced here, retaining taxon-specific observations. A supplementary PBDB directory path does not represent a uniquely resolved phylogeny.
+<!-- /evo:text -->
+
+
+## Organize fossil records by source classification
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/en -->
+Pterosauria is recorded at rank order in this batch’s PBDB path. This route offers occurrence guides for 252 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme.
+<!-- /evo:text -->
+
+
+## Compare collections, strata and age brackets
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/en -->
+Start with Seazzadactylus venieri, Kunpengopterus sinensis, Kunpengopterus antipollicatus, Eotephradactylus mcintireae, Ikrandraco avatar and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 405 selected occurrences from 277 collections; example stratum names are Dolomia di Forni, Tiaojishan, Chinle, Jiufotang. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+<!-- /evo:text -->
+
+## Evidence limits
+
+<!-- evo:text /records/catalogue-profile/limitations/en -->
+This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes. No external expert review has occurred.
 <!-- /evo:text -->

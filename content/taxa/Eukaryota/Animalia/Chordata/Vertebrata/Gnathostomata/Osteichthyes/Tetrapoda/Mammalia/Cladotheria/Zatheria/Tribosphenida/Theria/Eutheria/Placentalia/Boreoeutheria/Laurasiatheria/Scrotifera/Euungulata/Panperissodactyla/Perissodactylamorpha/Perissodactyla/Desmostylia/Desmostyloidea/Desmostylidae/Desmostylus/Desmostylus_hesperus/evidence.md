@@ -1,0 +1,281 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Desmostylus hesperus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Desmostylus hesperus
+      en: Desmostylus hesperus
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Desmostylus hesperus
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=71834&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:71834; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:71834
+            selectedOccurrenceIds:
+              - occ:417701
+              - occ:465440
+              - occ:564570
+              - occ:565400
+              - occ:565410
+              - occ:574026
+              - occ:651731
+              - occ:659094
+              - occ:670211
+              - occ:821672
+              - occ:821673
+              - occ:821674
+              - occ:821675
+              - occ:829426
+              - occ:829429
+              - occ:829431
+              - occ:829435
+              - occ:829436
+              - occ:829437
+              - occ:829439
+              - occ:829440
+              - occ:829540
+              - occ:829556
+              - occ:829775
+              - occ:829776
+              - occ:829781
+              - occ:829783
+              - occ:829784
+              - occ:829785
+              - occ:829786
+              - occ:829787
+              - occ:935124
+              - occ:984907
+              - occ:988807
+              - occ:988808
+              - occ:1220205
+              - occ:1220206
+              - occ:1220207
+              - occ:1220208
+              - occ:1220209
+              - occ:1220308
+              - occ:1220309
+              - occ:1220310
+              - occ:1220311
+              - occ:1220312
+              - occ:1220313
+              - occ:1220315
+              - occ:1220318
+              - occ:1220327
+              - occ:1541899
+              - occ:1651670
+            selectedCollectionIds:
+              - col:40517
+              - col:13297
+              - col:45481
+              - col:59074
+              - col:18929
+              - col:60339
+              - col:70452
+              - col:71072
+              - col:72262
+              - col:90464
+              - col:58899
+              - col:13450
+              - col:52180
+              - col:46070
+              - col:91478
+              - col:91479
+              - col:91480
+              - col:91481
+              - col:91484
+              - col:91485
+              - col:91506
+              - col:46041
+              - col:91533
+              - col:91534
+              - col:91538
+              - col:91539
+              - col:91540
+              - col:91541
+              - col:91543
+              - col:91545
+              - col:107680
+              - col:52183
+              - col:59165
+              - col:118952
+              - col:159596
+              - col:159597
+              - col:159598
+              - col:159599
+              - col:159600
+              - col:159665
+              - col:159666
+              - col:159667
+              - col:159669
+              - col:159668
+              - col:159670
+              - col:159671
+              - col:159672
+              - col:159673
+              - col:91486
+              - col:234513
+            sourceReferenceIds:
+              - ref:52149
+              - ref:12162
+              - ref:30424
+              - ref:12700
+              - ref:30798
+              - ref:23819
+              - ref:24462
+              - ref:30804
+              - ref:30822
+              - ref:18169
+              - ref:34623
+              - ref:34621
+              - ref:35801
+              - ref:37939
+              - ref:38207
+              - ref:23848
+            originalIdentificationMappings:
+              - occurrenceId: occ:574026
+                originalIdentifiedName: Desmostylus cymatias
+                acceptedName: Desmostylus hesperus
+                difference: null
+              - occurrenceId: occ:651731
+                originalIdentifiedName: Desmostylus mirabilis n. sp.
+                acceptedName: Desmostylus hesperus
+                difference: null
+              - occurrenceId: occ:829540
+                originalIdentifiedName: Desmostylus minor n. sp.
+                acceptedName: Desmostylus hesperus
+                difference: null
+              - occurrenceId: occ:829556
+                originalIdentifiedName: Desmostylella typica n. gen. n. sp.
+                acceptedName: Desmostylus hesperus
+                difference: null
+              - occurrenceId: occ:935124
+                originalIdentifiedName: Desmostylus cymatias n. sp.
+                acceptedName: Desmostylus hesperus
+                difference: null
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Desmostylus hesperus

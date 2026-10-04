@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "batch": "P5-33",
+  "authoredAt": "2026-10-02",
+  "mappedProfiles": [
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontia/Ornithocheiroidea/Anhangueridae/Haliskia/Haliskia_peterseni",
+      "taxonId": "txn:492615",
+      "sections": 6
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontia/Ornithocheiroidea/Anhangueridae/Haliskia",
+      "taxonId": "txn:492614",
+      "sections": 2
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontia/Ornithocheiroidea/Anhangueridae/Tropeognathinae/Ferrodraco/Ferrodraco_lentoni",
+      "taxonId": "txn:399804",
+      "sections": 6
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontia/Ornithocheiroidea/Anhangueridae/Tropeognathinae/Ferrodraco",
+      "taxonId": "txn:399803",
+      "sections": 2
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontia/Ornithocheiroidea/Anhangueridae",
+      "taxonId": "txn:95393",
+      "sections": 2
+    }
+  ],
+  "sourceRecordSnapshot": "data/sources/snapshots/pbdb-wing-reader-range-records-2026-10-02.json",
+  "rangeReferenceId": "ref-e9f69786-79b3-4da7-bdaa-1244e580f3a5",
+  "identity": "Existing external PBDB OIDs used as runtime compatibility keys; authoring identity remains canonical tree paths. No COL IDs or internal taxon IDs minted.",
+  "navigation": "Selected Anhangueridae under Pterosauria, with two selected genera and species; navigation-parent edges skip unmaterialized ancestors and do not assert phylogenetic hypotheses.",
+  "rangeBoundary": "PBDB outer occurrence-age brackets are database-derived and not-reviewed. No precise first/last appearance, specimen age or expert review asserted.",
+  "generatedOutputs": "Not run during content authoring phase; mappings prepared for the required generation and publication handoff.",
+  "readerPageLinks": {
+    "preparedAt": "2026-10-02",
+    "linkedProfiles": 6,
+    "directedLinks": 22,
+    "identity": "External PBDB OIDs and the already-existing pterosauria runtime compatibility key; no new internal taxon IDs minted.",
+    "generation": "pending"
+  },
+  "pbdbSourceBindings": {
+    "resolutionFile": "data/sources/pbdb-taxon-resolution.json",
+    "addedRecords": 5,
+    "rawSources": {
+      "batch": "P5-34",
+      "resolvedAt": "2026-10-02",
+      "entityIds": [
+        "txn:492615",
+        "txn:492614",
+        "txn:399804",
+        "txn:399803",
+        "txn:95393"
+      ],
+      "sourceUrl": "https://paleobiodb.org/data1.2/taxa/list.json?id=492615,492614,399804,399803,95393&show=attr,app,parent",
+      "recordSnapshot": "data/sources/snapshots/pbdb-wing-reader-range-records-2026-10-02.json",
+      "ancestorSnapshots": [
+        "data/sources/snapshots/pbdb-haliskia-ancestry-2026-10-02.json",
+        "data/sources/snapshots/pbdb-ferrodraco-ancestry-2026-10-02.json"
+      ],
+      "sourceReferenceId": "ref-e9f69786-79b3-4da7-bdaa-1244e580f3a5",
+      "method": "Recorded accepted external IDs and original ancestor chains; no name-only reassignment.",
+      "expertReview": false,
+      "generation": "Canonical mapping prepared; generated ontology/registry not rebuilt yet."
+    }
+  }
+}

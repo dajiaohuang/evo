@@ -48,6 +48,100 @@ records:
       - witton-habib-2010-giant-pterosaur-flight
       - baron-2021-origin-pterosaurs
       - upchurch-2015-pterosaur-biogeography
+      - ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+      - ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+    readerRelatedPages:
+      - targetId: txn:95393
+        label:
+          zh: Anhangueridae
+          en: Anhangueridae
+        context:
+          zh: 查看两个正模研究的科级比较入口；该页不是完整科级索引。
+          en: Read the family comparison of two holotype studies; this is a selected route rather than a complete family index.
+      - targetId: txn:492615
+        label:
+          zh: Haliskia peterseni
+          en: Haliskia peterseni
+        context:
+          zh: 进入该分类单元的来源限定读者页，先比较标本与解释边界。
+          en: Open the source-bounded account and compare preserved material with its interpretive limits.
+      - targetId: txn:399804
+        label:
+          zh: Ferrodraco lentoni
+          en: Ferrodraco lentoni
+        context:
+          zh: 进入该分类单元的来源限定读者页，先比较标本与解释边界。
+          en: Open the source-bounded account and compare preserved material with its interpretive limits.
+      - targetId: txn:478714
+        label:
+          zh: Thapunngaka shawi
+          en: Thapunngaka shawi
+        context:
+          zh: 比较正模、第二件标本归属依据及其争议。
+          en: Compare holotype evidence, second-specimen referral and its dispute.
+      - targetId: txn:148341
+        label:
+          zh: Mythunga camara
+          en: Mythunga camara
+        context:
+          zh: 比较正模、摘要支持的解释修订和未解析系统关系。
+          en: Compare holotype evidence, abstract-supported reinterpretation and unresolved relationships.
+      - targetId: txn:397942
+        label:
+          en: Seazzadactylus
+          zh: Seazzadactylus
+        context:
+          zh: 沿记录分类路径查看后代资料；导读不代表全部后代已有完整专论。
+          en: Follow the recorded classification path into descendant material; guides do not imply complete monographs for every descendant.
+      - targetId: txn:157361
+        label:
+          en: Wukongopteridae
+          zh: Wukongopteridae
+        context:
+          zh: 沿记录分类路径查看后代资料；导读不代表全部后代已有完整专论。
+          en: Follow the recorded classification path into descendant material; guides do not imply complete monographs for every descendant.
+      - targetId: txn:511122
+        label:
+          en: Eotephradactylus
+          zh: Eotephradactylus
+        context:
+          zh: 沿记录分类路径查看后代资料；导读不代表全部后代已有完整专论。
+          en: Follow the recorded classification path into descendant material; guides do not imply complete monographs for every descendant.
+      - targetId: txn:38479
+        label:
+          en: Pterodactyloidea
+          zh: Pterodactyloidea
+        context:
+          zh: 沿记录分类路径查看后代资料；导读不代表全部后代已有完整专论。
+          en: Follow the recorded classification path into descendant material; guides do not imply complete monographs for every descendant.
+      - targetId: txn:324069
+        label:
+          en: Arcticodactylus
+          zh: Arcticodactylus
+        context:
+          zh: 沿记录分类路径查看后代资料；导读不代表全部后代已有完整专论。
+          en: Follow the recorded classification path into descendant material; guides do not imply complete monographs for every descendant.
+      - targetId: txn:397943
+        label:
+          en: Seazzadactylus venieri
+          zh: Seazzadactylus venieri
+        context:
+          zh: 对读该物种的具名采集地、地层区间与原引文；不是完整生态比较。
+          en: Compare this species’ named collections, stratigraphic brackets and original reference links; not a complete ecological comparison.
+      - targetId: txn:173853
+        label:
+          en: Kunpengopterus sinensis
+          zh: Kunpengopterus sinensis
+        context:
+          zh: 对读该物种的具名采集地、地层区间与原引文；不是完整生态比较。
+          en: Compare this species’ named collections, stratigraphic brackets and original reference links; not a complete ecological comparison.
+      - targetId: txn:435924
+        label:
+          en: Kunpengopterus antipollicatus
+          zh: Kunpengopterus antipollicatus
+        context:
+          zh: 对读该物种的具名采集地、地层区间与原引文；不是完整生态比较。
+          en: Compare this species’ named collections, stratigraphic brackets and original reference links; not a complete ecological comparison.
   claims:
     - subject:
         kind: taxon

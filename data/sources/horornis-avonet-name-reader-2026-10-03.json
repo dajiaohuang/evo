@@ -1,0 +1,2172 @@
+{
+  "batch": "P5-171",
+  "date": "2026-10-03",
+  "newSpecies": 7,
+  "newBilingualSections": 41,
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_acanthizoides",
+      "colId": "3MQ6Z",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_parens",
+      "colId": "6MDDL",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_seebohmi",
+      "colId": "3MQ7C",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_fortipes",
+      "colId": "3MQ78",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_ruficapilla",
+      "colId": "3MQ7B",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_diphone",
+      "colId": "3MQ76",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_brunnescens",
+      "colId": "3MQ74",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis",
+      "colId": "62V9J",
+      "newBilingualSections": 4,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae",
+      "newBilingualSections": 2
+    }
+  ],
+  "sharedReferenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+  "sourceFiles": [
+    {
+      "file": ".git/avonet-supplementary-dataset-1-v7.xlsx",
+      "sha256": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e"
+    },
+    {
+      "file": ".git/horornis-selected-source-171.json",
+      "sha256": "9310983e728adcefb06b6e8852b2917ff1729e79e035130d858d49dc128dfbf1"
+    },
+    {
+      "file": ".git/horornis-col-names-171.json",
+      "sha256": "1a15f6143564d2bf21b898456bc342fd85296046242856fee95dccc648f7efee"
+    }
+  ],
+  "colNameShardFiles": [
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-ho.jsonl.gz",
+      "sha256": "59c9946eaf4d7341d7c7329f14de87ff5e1007974da1b0ff659d7c6dddc3a359"
+    },
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-ce.jsonl.gz",
+      "sha256": "dbc4e31d33ab5218815b9e4200a866208958eb1df73dbd6ac67e1e204e224f6e"
+    }
+  ],
+  "sourceRows": [
+    {
+      "target": {
+        "colId": "3MQ6Z",
+        "scientificName": "Horornis acanthizoides",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_acanthizoides",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "7Y5",
+            "parentId": "3RL",
+            "scientificName": "Cettiidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 8
+          },
+          {
+            "id": "62V9J",
+            "parentId": "7Y5",
+            "scientificName": "Horornis Hodgson, 1845",
+            "authorship": "Hodgson, 1845",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 12
+          },
+          {
+            "parentId": "62V9J",
+            "id": "3MQ6Z",
+            "scientificName": "Horornis acanthizoides (J. Verreaux, 1871)",
+            "authorship": "(J. Verreaux, 1871)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 7409,
+        "record": {
+          "Sequence": 8027,
+          "Species1": "Horornis acanthizoides",
+          "Family1": "Scotocercidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-0A91A181",
+          "Total.individuals": 4,
+          "Female": 2,
+          "Male": 2,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 11.3,
+          "Beak.Length_Nares": 5.6,
+          "Beak.Width": 2.4,
+          "Beak.Depth": 2.4,
+          "Tarsus.Length": 19.8,
+          "Wing.Length": 51.1,
+          "Kipps.Distance": 6.6,
+          "Secondary1": 44.5,
+          "Hand-Wing.Index": 12.9,
+          "Tail.Length": 46.8,
+          "Mass": 5.32,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 2,
+          "Migration": 2,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": 22.9,
+          "Max.Latitude": 34.03,
+          "Centroid.Latitude": 30.19,
+          "Centroid.Longitude": 106.58,
+          "Range.Size": 311800.42
+        }
+      },
+      "eBird": {
+        "excelRow": 4898,
+        "record": {
+          "Species1": "Horornis acanthizoides",
+          "Species2": "Horornis acanthizoides",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-0A91A181",
+          "Avibase.ID2": "AVIBASE-0A91A181",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 4875,
+        "record": {
+          "Species1": "Horornis acanthizoides",
+          "Species3": "Cettia acanthizoides",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "6MDDL",
+        "scientificName": "Horornis parens",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_parens",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "7Y5",
+            "parentId": "3RL",
+            "scientificName": "Cettiidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 8
+          },
+          {
+            "id": "62V9J",
+            "parentId": "7Y5",
+            "scientificName": "Horornis Hodgson, 1845",
+            "authorship": "Hodgson, 1845",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 12
+          },
+          {
+            "parentId": "62V9J",
+            "id": "6MDDL",
+            "scientificName": "Horornis parens (Mayr, 1935)",
+            "authorship": "(Mayr, 1935)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 7418,
+        "record": {
+          "Sequence": 8034,
+          "Species1": "Horornis parens",
+          "Family1": "Scotocercidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-DFE28E09",
+          "Total.individuals": 2,
+          "Female": 2,
+          "Male": 0,
+          "Unknown": 0,
+          "Complete.measures": 2,
+          "Beak.Length_Culmen": 15.5,
+          "Beak.Length_Nares": 9.2,
+          "Beak.Width": 3.2,
+          "Beak.Depth": 3.7,
+          "Tarsus.Length": 22.6,
+          "Wing.Length": 51.5,
+          "Kipps.Distance": 4.6,
+          "Secondary1": 47,
+          "Hand-Wing.Index": 8.9,
+          "Tail.Length": 43,
+          "Mass": 14,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": -10.75,
+          "Max.Latitude": -10.48,
+          "Centroid.Latitude": -10.64,
+          "Centroid.Longitude": 161.95,
+          "Range.Size": 202.26
+        }
+      },
+      "eBird": {
+        "excelRow": 4908,
+        "record": {
+          "Species1": "Horornis parens",
+          "Species2": "Horornis parens",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-DFE28E09",
+          "Avibase.ID2": "AVIBASE-DFE28E09",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 4885,
+        "record": {
+          "Species1": "Horornis parens",
+          "Species3": "Cettia parens",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "3MQ7C",
+        "scientificName": "Horornis seebohmi",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_seebohmi",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "7Y5",
+            "parentId": "3RL",
+            "scientificName": "Cettiidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 8
+          },
+          {
+            "id": "62V9J",
+            "parentId": "7Y5",
+            "scientificName": "Horornis Hodgson, 1845",
+            "authorship": "Hodgson, 1845",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 12
+          },
+          {
+            "parentId": "62V9J",
+            "id": "3MQ7C",
+            "scientificName": "Horornis seebohmi (Ogilvie-Grant, 1894)",
+            "authorship": "(Ogilvie-Grant, 1894)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 7420,
+        "record": {
+          "Sequence": 8029,
+          "Species1": "Horornis seebohmi",
+          "Family1": "Scotocercidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-516D598B",
+          "Total.individuals": 4,
+          "Female": 1,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 3,
+          "Beak.Length_Culmen": 13.1,
+          "Beak.Length_Nares": 6.6,
+          "Beak.Width": 2.6,
+          "Beak.Depth": 3,
+          "Tarsus.Length": 18.1,
+          "Wing.Length": 51.4,
+          "Kipps.Distance": 4.7,
+          "Secondary1": 44.8,
+          "Hand-Wing.Index": 9.6,
+          "Tail.Length": 85.5,
+          "Mass": 12.2,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": 15.85,
+          "Max.Latitude": 18.48,
+          "Centroid.Latitude": 16.93,
+          "Centroid.Longitude": 121,
+          "Range.Size": 14356.22
+        }
+      },
+      "eBird": {
+        "excelRow": 4910,
+        "record": {
+          "Species1": "Horornis seebohmi",
+          "Species2": "Horornis seebohmi",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-516D598B",
+          "Avibase.ID2": "AVIBASE-516D598B",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 4887,
+        "record": {
+          "Species1": "Horornis seebohmi",
+          "Species3": "Cettia seebohmi",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "3MQ78",
+        "scientificName": "Horornis fortipes",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_fortipes",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "7Y5",
+            "parentId": "3RL",
+            "scientificName": "Cettiidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 8
+          },
+          {
+            "id": "62V9J",
+            "parentId": "7Y5",
+            "scientificName": "Horornis Hodgson, 1845",
+            "authorship": "Hodgson, 1845",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 12
+          },
+          {
+            "parentId": "62V9J",
+            "id": "3MQ78",
+            "scientificName": "Horornis fortipes Hodgson, 1845",
+            "authorship": "Hodgson, 1845",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 7416,
+        "record": {
+          "Sequence": 8025,
+          "Species1": "Horornis fortipes",
+          "Family1": "Scotocercidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-16508376",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 13.5,
+          "Beak.Length_Nares": 6.8,
+          "Beak.Width": 2.6,
+          "Beak.Depth": 2.9,
+          "Tarsus.Length": 21.1,
+          "Wing.Length": 52.7,
+          "Kipps.Distance": 5.9,
+          "Secondary1": 46.5,
+          "Hand-Wing.Index": 11.3,
+          "Tail.Length": 44.2,
+          "Mass": 9.59,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 1,
+          "Migration": 2,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": 20.23,
+          "Max.Latitude": 35.58,
+          "Centroid.Latitude": 27.9,
+          "Centroid.Longitude": 105.4,
+          "Range.Size": 2424335.04
+        }
+      },
+      "eBird": {
+        "excelRow": 4906,
+        "record": {
+          "Species1": "Horornis fortipes",
+          "Species2": "Horornis fortipes",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-16508376",
+          "Avibase.ID2": "AVIBASE-16508376",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 4883,
+        "record": {
+          "Species1": "Horornis fortipes",
+          "Species3": "Cettia fortipes",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "3MQ7B",
+        "scientificName": "Horornis ruficapilla",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_ruficapilla",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "7Y5",
+            "parentId": "3RL",
+            "scientificName": "Cettiidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 8
+          },
+          {
+            "id": "62V9J",
+            "parentId": "7Y5",
+            "scientificName": "Horornis Hodgson, 1845",
+            "authorship": "Hodgson, 1845",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 12
+          },
+          {
+            "parentId": "62V9J",
+            "id": "3MQ7B",
+            "scientificName": "Horornis ruficapilla (E. P. Ramsay, 1875)",
+            "authorship": "(E. P. Ramsay, 1875)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 7419,
+        "record": {
+          "Sequence": 8036,
+          "Species1": "Horornis ruficapilla",
+          "Family1": "Scotocercidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-8CC7FC93",
+          "Total.individuals": 4,
+          "Female": 2,
+          "Male": 1,
+          "Unknown": 1,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 16.2,
+          "Beak.Length_Nares": 8.8,
+          "Beak.Width": 2.8,
+          "Beak.Depth": 3.3,
+          "Tarsus.Length": 23.2,
+          "Wing.Length": 57.2,
+          "Kipps.Distance": 8.7,
+          "Secondary1": 48.6,
+          "Hand-Wing.Index": 15.2,
+          "Tail.Length": 51.2,
+          "Mass": 12.7,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": -19.17,
+          "Max.Latitude": -16.15,
+          "Centroid.Latitude": -17.44,
+          "Centroid.Longitude": 170.95,
+          "Range.Size": 16891.29
+        }
+      },
+      "eBird": {
+        "excelRow": 4909,
+        "record": {
+          "Species1": "Horornis ruficapilla",
+          "Species2": "Horornis ruficapilla",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-8CC7FC93",
+          "Avibase.ID2": "AVIBASE-8CC7FC93",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 4886,
+        "record": {
+          "Species1": "Horornis ruficapilla",
+          "Species3": "Cettia ruficapilla",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "3MQ76",
+        "scientificName": "Horornis diphone",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_diphone",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "7Y5",
+            "parentId": "3RL",
+            "scientificName": "Cettiidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 8
+          },
+          {
+            "id": "62V9J",
+            "parentId": "7Y5",
+            "scientificName": "Horornis Hodgson, 1845",
+            "authorship": "Hodgson, 1845",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 12
+          },
+          {
+            "parentId": "62V9J",
+            "id": "3MQ76",
+            "scientificName": "Horornis diphone (Kittlitz, 1830)",
+            "authorship": "(Kittlitz, 1830)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 7414,
+        "record": {
+          "Sequence": 8031,
+          "Species1": "Horornis diphone",
+          "Family1": "Scotocercidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-7D1FD35D",
+          "Total.individuals": 5,
+          "Female": 0,
+          "Male": 2,
+          "Unknown": 3,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 16.6,
+          "Beak.Length_Nares": 8.3,
+          "Beak.Width": 3.4,
+          "Beak.Depth": 4,
+          "Tarsus.Length": 25,
+          "Wing.Length": 60.6,
+          "Kipps.Distance": 8.5,
+          "Secondary1": 51,
+          "Hand-Wing.Index": 14.3,
+          "Tail.Length": 59.8,
+          "Mass": 13.31,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": 24.04,
+          "Max.Latitude": 48.97,
+          "Centroid.Latitude": 38.12,
+          "Centroid.Longitude": 137.96,
+          "Range.Size": 415764.25
+        }
+      },
+      "eBird": {
+        "excelRow": 4903,
+        "record": {
+          "Species1": "Horornis diphone",
+          "Species2": "Horornis diphone",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-7D1FD35D",
+          "Avibase.ID2": "AVIBASE-7D1FD35D",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 4880,
+        "record": {
+          "Species1": "Horornis diphone",
+          "Species3": "Cettia diphone",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "3MQ74",
+        "scientificName": "Horornis brunnescens",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_brunnescens",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "7Y5",
+            "parentId": "3RL",
+            "scientificName": "Cettiidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 8
+          },
+          {
+            "id": "62V9J",
+            "parentId": "7Y5",
+            "scientificName": "Horornis Hodgson, 1845",
+            "authorship": "Hodgson, 1845",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 12
+          },
+          {
+            "parentId": "62V9J",
+            "id": "3MQ74",
+            "scientificName": "Horornis brunnescens (Hume, 1872)",
+            "authorship": "(Hume, 1872)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 7411,
+        "record": {
+          "Sequence": 8026,
+          "Species1": "Horornis brunnescens",
+          "Family1": "Scotocercidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-4B3D2096",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 12.2,
+          "Beak.Length_Nares": 6.2,
+          "Beak.Width": 2.4,
+          "Beak.Depth": 2.4,
+          "Tarsus.Length": 20.3,
+          "Wing.Length": 51.5,
+          "Kipps.Distance": 6.3,
+          "Secondary1": 44.8,
+          "Hand-Wing.Index": 12.4,
+          "Tail.Length": 48,
+          "Mass": 5.32,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 2,
+          "Migration": 2,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": 26.91,
+          "Max.Latitude": 31.09,
+          "Centroid.Latitude": 28.62,
+          "Centroid.Longitude": 88.71,
+          "Range.Size": 215910.72
+        }
+      },
+      "eBird": {
+        "excelRow": 4900,
+        "record": {
+          "Species1": "Horornis brunnescens",
+          "Species2": "Horornis brunnescens",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-4B3D2096",
+          "Avibase.ID2": "AVIBASE-4B3D2096",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 4877,
+        "record": {
+          "Species1": "Horornis brunnescens",
+          "Species3": "Cettia brunnescens",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    }
+  ],
+  "colNameRecords": [
+    {
+      "normalizedName": "horeites brunnescens hume 1872",
+      "id": "V4SFB",
+      "scientificName": "Horeites brunnescens Hume, 1872",
+      "authorship": "Hume, 1872",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "3MQ74",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "horornis acanthizoides j verreaux 1871",
+      "id": "3MQ6Z",
+      "scientificName": "Horornis acanthizoides (J. Verreaux, 1871)",
+      "authorship": "(J. Verreaux, 1871)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "62V9J",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Cettiidae",
+        null,
+        null,
+        null,
+        "Horornis"
+      ]
+    },
+    {
+      "normalizedName": "horornis brunnescens hume 1872",
+      "id": "3MQ74",
+      "scientificName": "Horornis brunnescens (Hume, 1872)",
+      "authorship": "(Hume, 1872)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "62V9J",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Cettiidae",
+        null,
+        null,
+        null,
+        "Horornis"
+      ]
+    },
+    {
+      "normalizedName": "horornis diphone kittlitz 1830",
+      "id": "3MQ76",
+      "scientificName": "Horornis diphone (Kittlitz, 1830)",
+      "authorship": "(Kittlitz, 1830)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "62V9J",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Cettiidae",
+        null,
+        null,
+        null,
+        "Horornis"
+      ]
+    },
+    {
+      "normalizedName": "horornis fortipes hodgson 1845",
+      "id": "3MQ78",
+      "scientificName": "Horornis fortipes Hodgson, 1845",
+      "authorship": "Hodgson, 1845",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "62V9J",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Cettiidae",
+        null,
+        null,
+        null,
+        "Horornis"
+      ]
+    },
+    {
+      "normalizedName": "horornis parens mayr 1935",
+      "id": "6MDDL",
+      "scientificName": "Horornis parens (Mayr, 1935)",
+      "authorship": "(Mayr, 1935)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "62V9J",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Cettiidae",
+        null,
+        null,
+        null,
+        "Horornis"
+      ]
+    },
+    {
+      "normalizedName": "horornis ruficapilla e p ramsay 1875",
+      "id": "3MQ7B",
+      "scientificName": "Horornis ruficapilla (E. P. Ramsay, 1875)",
+      "authorship": "(E. P. Ramsay, 1875)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "62V9J",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Cettiidae",
+        null,
+        null,
+        null,
+        "Horornis"
+      ]
+    },
+    {
+      "normalizedName": "horornis seebohmi ogilvie grant 1894",
+      "id": "3MQ7C",
+      "scientificName": "Horornis seebohmi (Ogilvie-Grant, 1894)",
+      "authorship": "(Ogilvie-Grant, 1894)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "62V9J",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Cettiidae",
+        null,
+        null,
+        null,
+        "Horornis"
+      ]
+    },
+    {
+      "normalizedName": "cettia acanthizoides j verreaux 1871",
+      "id": "T77M",
+      "scientificName": "Cettia acanthizoides (J. Verreaux, 1871)",
+      "authorship": "(J. Verreaux, 1871)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "3MQ6Z",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "cettia diphone kittlitz 1830",
+      "id": "69MPL",
+      "scientificName": "Cettia diphone (Kittlitz, 1830)",
+      "authorship": "(Kittlitz, 1830)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "3MQ76",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "cettia fortipes hodgson 1845",
+      "id": "T77W",
+      "scientificName": "Cettia fortipes (Hodgson, 1845)",
+      "authorship": "(Hodgson, 1845)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "3MQ78",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "cettia parens mayr 1935",
+      "id": "T77Z",
+      "scientificName": "Cettia parens (Mayr, 1935)",
+      "authorship": "(Mayr, 1935)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "6MDDL",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "cettia ruficapilla e p ramsay 1875",
+      "id": "T782",
+      "scientificName": "Cettia ruficapilla (E. P. Ramsay, 1875)",
+      "authorship": "(E. P. Ramsay, 1875)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "3MQ7B",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "cettia seebohmi ogilvie grant 1894",
+      "id": "T783",
+      "scientificName": "Cettia seebohmi Ogilvie-Grant, 1894",
+      "authorship": "Ogilvie-Grant, 1894",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "3MQ7C",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    }
+  ],
+  "fieldDefinitions": [
+    {
+      "excelRow": 12,
+      "record": {
+        "Variable": "Total.individuals",
+        "Description": "Number of individual specimens and live birds measured for each species",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 13,
+      "record": {
+        "Variable": "Female",
+        "Description": "Number of measured individuals identified as female",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 14,
+      "record": {
+        "Variable": "Male",
+        "Description": "Number of measured individuals identified as male",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 15,
+      "record": {
+        "Variable": "Unknown",
+        "Description": "Number of unsexed individuals measured",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 16,
+      "record": {
+        "Variable": "Complete.measures",
+        "Description": "Number of measured individuals with complete set of morphometric trait measurements ",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 18,
+      "record": {
+        "Variable": "Beak.Length_Nares",
+        "Description": "Length from the anterior edge of the nostrils to the tip of the beak",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 19,
+      "record": {
+        "Variable": "Beak.Width",
+        "Description": "Width of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 22,
+      "record": {
+        "Variable": "Wing.Length",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the longest primary on the unflattened wing",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 25,
+      "record": {
+        "Variable": "Hand-Wing.Index",
+        "Description": "100*DK/Lw, where DK is Kipp’s distance and Lw is wing length (i.e., Kipp’s distance corrected for wing size). Species average HWI differ from estimates in Sheard et al. (2020) because of much higher sampling of individuals in some species, as well as taxonomic effects in the BirdLife list",
+        "Variable Types": "continuous",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 27,
+      "record": {
+        "Variable": "Mass",
+        "Description": "Body mass given as species average (incorporating both male and female body mass)",
+        "Variable Types": "continuous",
+        "Units": "gram",
+        "Source": "See Mass Source column"
+      }
+    },
+    {
+      "excelRow": 28,
+      "record": {
+        "Variable": "Mass.Source",
+        "Description": "Dunning (= Dunning, JB [2008] CRC Handbook of Avian Body Masses);\nEltonTraits_Other (= mass published by Wilman et al. 2014 EltonTraits 1.0. Ecology, on basis of literature other than Dunning, usually Handbook of the Birds of the World [now Birds of the World, Cornell])\nEltonTraits_GenAvg (= average of the genus, published in Wilman et al. 2014 EltonTraits 1.0. Ecology); \nEltonTraits_Model (= inferred from mass and length data, with mass-length relationships parameterized at family level, published in Wilman et al. 2014 EltonTraits 1.0. Ecology);\nUpdated_literature (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from literature and online resources, including Birds of the World - specific sources are listed in the Mass.Ref.Source column);  \nUpdated_live.sample (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from museum labels and/or field data of from wild birds weighed using a Pezola balance before release. Specific sources are listed in the Mass.Ref.Source column);  \nInferred (= where EltonTraits GenAvg or Modelled data seemed misleading, and no published data were available for updating, we replaced it where possible with data inferred directly from a morphologically similar relative. Reference species and Traits inferred columns indicate where mass has been inferred and from which species);\nDataFromSplit (= daughter species body mass inferred from parent species after split; the parent or nominate form is typically morphologically similar and provides a reasonable estimate of body mass, particularly as mass data used to calculate the parent species body mass in earlier publications sometimes includes data from the recently split daughter species).\n",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 30,
+      "record": {
+        "Variable": "Inference",
+        "Description": "NO = all biometric trait data were obtained from direct measurement of specimens, or in the case of body mass from published sources\nYES = at least some of the biometric traits were unavailable from specimens so these trait data were inferred from a closely related species; in some cases all morphological measurements were taken directly except for body mass, which can't be measured on museum specimens.",
+        "Variable Types": "binary",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 33,
+      "record": {
+        "Variable": "Habitat",
+        "Description": "Desert (= drylands and other open arid habitats, often sandy with very sparse vegetation); \nRock (= rocky substrate typically with no or very little vegetation, including rocky outcrops, rocky coastlines, arid stony steppes, rocky mountaintops and mountain slopes); \nGrassland (=  open dry to moist grass-dominated landscapes, at all elevations); \nShrubland (= low stature bushy habitats, included thornscrub, thorny or arid savanna, caatinga, xerophytic shrubland and coastal scrub); \nWoodland (= medium stature tree-dominated habitats, including Acacia woodland, riparian woodlands, mangrove forests, forest edges, also more open parkland with scattered taller trees);\nForest (= tall tree-dominated vegetation with more or less closed canopy, including palm forest); \nHuman modified (urban landscapes, intensive agriculture, gardens); \nWetland (= wide range of freshwater aquatic habitats including lakes, marshes, swamps and reedbeds); \nRiverine (= associated with rivers and streams at all elevations); \nCoastal (= intertidal zones within immediate vicinity of beaches, estuaries, brackish to salty marshes, including mudflats, lagoons, alkaline wetlands, coastal dunes and harbours);\nMarine (= pelagic, on sea near coasts, including species in the intertidal zone on beaches, and those pelagic species nesting near the sea on cliffs, islets and islands).",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Data extracted from primary and secondary literature, particularly Handbook of the Birds of the World (including Birds of the World)"
+      }
+    },
+    {
+      "excelRow": 34,
+      "record": {
+        "Variable": "Habitat.Density",
+        "Description": "1 = Dense habitats. Species primarily lives in the lower or middle storey of forest, or in dense thickets, dense shrubland etc.\n2 = Semi-open habitats. Species primarily lives in open shrubland, scattered bushes, parkland, low dry or deciduous forest, thorn forest. \n3 = Open habitats. Species primarily lives in desert, grassland, open water, low shrubs, rocky habitats, seashores, cities. Also applies to species living mainly on top of forest canopy (i.e. mostly in the open)",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias et al. (2016) Frontiers Ecol. Evol."
+      }
+    },
+    {
+      "excelRow": 35,
+      "record": {
+        "Variable": "Migration",
+        "Description": "1 = Sedentary. \n2 = Partially migratory, i.e. minority of population migrates long distances, or most of population undergoes short-distance migration, nomadic movements, distinct altitudinal migration, etc.\n3 = Migratory, i.e. majority of population undertakes long-distance migration",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias & Pigot (2019) Phil. Trans. Roy. Soc."
+      }
+    },
+    {
+      "excelRow": 36,
+      "record": {
+        "Variable": "Trophic.Level",
+        "Description": "Herbivore = species obtaining at least 70% of food resources from plants; Carnivore = species obtaining at least 70% of food resources by consuming live invertebrate or vertebrate animals; Scavenger = species obtaining at least 70% of food resources from carrion or refuse; Omnivore = species obtaining resources from multiple trophic level in roughly equal proportion",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 37,
+      "record": {
+        "Variable": "Trophic.Niche",
+        "Description": "Frugivore = species obtaining at least 60% of food resources from fruit; \nGranivore = species obtaining at least 60% of food resources from seeds or nuts; \nNectarivore =  species obtaining at least 60% of food resources from nectar; \nHerbivore = species obtaining at least 60% of food resources from other plant materials in non-aquatic systems, including leaves, buds, whole flowers etc.; \nHerbivore aquatic = species obtaining at least 60% of food resources from plant materials in aquatic systems, including algae and aquatic plant leaves; \nInvertivore = species obtaining at least 60% of food resources from invertebrates in terrestrial systems, including insects, worms, arachnids, etc.; \nVertivore = species obtaining at least 60% of food resources from vertebrate animals in terrestrial systems, including mammals, birds, reptiles etc.; \nAquatic Predator = species obtaining at least 60% of food resources from vertebrate and invertebrate animals in aquatic systems, including fish, crustacea, molluscs, etc; \nScavenger = species obtaining at least 60% of food resources from carrion, offal or refuse; Omnivore = Species using multiple niches, within or across trophic levels, in relatively equal proportions ",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 38,
+      "record": {
+        "Variable": "Primary.Lifestyle",
+        "Description": "Aerial = species spends much of the time in flight, and hunts or forages predominantly on the wing; \nTerrestrial = species spends majority of its time on the ground, where it obtains food while either walking or hopping (note this includes species that also wade in water with their body raised above the water); \nInsessorial = species spends much of the time perching above the ground, either in branches of trees and other vegetation (i.e. arboreal), or on other raised substrates including rocks, buildings, posts, and wires; \nAquatic = species spends much of the time sitting on water, and obtains  food while afloat or when diving under the water's surface; Generalist = species has no primary lifestyle because it spends time in different lifestyle classes",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 17,
+      "record": {
+        "Variable": "Beak.Length_Culmen",
+        "Description": "Length from the tip of the beak to the base of the skull",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 20,
+      "record": {
+        "Variable": "Beak.Depth",
+        "Description": "Depth of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 21,
+      "record": {
+        "Variable": "Tarsus.Length",
+        "Description": "Length of the tarsus from the posterior notch between tibia and tarsus, to the end of the last scale of acrotarsium (at the bend of the foot)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 23,
+      "record": {
+        "Variable": "Kipps.Distance",
+        "Description": "Length from the tip of the first secondary feather to the tip of the longest primary      ",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 24,
+      "record": {
+        "Variable": "Secondary1",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the first secondary, i.e. the outermost secondary adjacent to the innermost primary feather. Secondary1 is roughly equivalent to Wing length minus Kipp’s distance (measured in a fully folded and flat wing)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 26,
+      "record": {
+        "Variable": "Tail.Length",
+        "Description": "Distance between the tip of the longest rectrix and the point at which the two central rectrices protrude from the skin, typically measured using a ruler inserted between the two central rectrices",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 31,
+      "record": {
+        "Variable": "Traits.inferred",
+        "Description": "List of traits inferred from the reference species",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 32,
+      "record": {
+        "Variable": "Reference.species",
+        "Description": "Species from which the biometric data were inferred",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    }
+  ],
+  "readingScope": "Seven morphology/mass/ecology rows, full crosswalks, related catalogue names and relevant definitions. Not the whole workbook, specimens, original mass book or a new full methods-paper reading.",
+  "retainedBoundaries": {
+    "sixExactCettiaSynonymsOneUnconfirmedCettiaBrunnescens": true,
+    "sourceScotocercidaeCurrentCettiidaeSeparate": true,
+    "allGeneralistInvertivoreCarnivore": true,
+    "threePartialFourSedentaryMigration": true,
+    "twoFemaleOnlyParensNotSexComparison": true,
+    "diphoneUnknownThreeNotAllMale": true,
+    "completeSetsTwoToFourSeparateFromTotals": true,
+    "morphologyAndDunningMassSeparate": true,
+    "noGeographicFieldsInterpreted": true,
+    "historicalGuidesNotCompleteMonographs": true,
+    "activePrimateGaps": 14,
+    "fixedAcceptedPrimateDenominator": 530
+  },
+  "intakeBeforeIncrementalCounts": {
+    "indexExists": 638,
+    "bilingualCatalogueProfileMarkers": 635,
+    "missingOneOrBothCatalogueProfileMarkers": 6538,
+    "scope": "Original 7173 observation plus 270 authored species in P5-143–170; no new whole-corpus prose review."
+  },
+  "intakeAfterIncrementalCounts": {
+    "indexExists": 645,
+    "bilingualCatalogueProfileMarkers": 642,
+    "missingOneOrBothCatalogueProfileMarkers": 6531,
+    "scope": "Original 7173 observation plus 277 authored species in P5-143–171; no new whole-corpus prose review."
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All 41 new sections in both languages and all nine profile limits were read after writing, including the prior family route and its edited English grammar. Read nine indices, all topic/source vectors, reference bindings and limitation pointers, eight bounded new projection entries, P5-171 plan, intake followups and receipt metadata. Seven source rows, full crosswalks, fourteen related catalogue names and relevant field definitions were read before authoring. Six exact Cettia synonyms and the unconfirmed exact Cettia brunnescens combination remain separate. Editorial reading is not generation, tests, whole-corpus validation or expert review.",
+    "canonicalFiles": [
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_acanthizoides/index.yaml",
+        "sha256": "6529ec6313cc11a1fd9a8df21152dabd404eee2dd1e58b180d40ad25766c8f7a"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_acanthizoides/evidence.md",
+        "sha256": "c3375fd53caf4fac0e03b86676cb8b698ab355910de1b511efda33888d48b909"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_acanthizoides/page.zh.md",
+        "sha256": "6b3c91a57c01ce8951ecc5c4a88c2a7bffaec041d07aa5042b53ac6e7d58574b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_acanthizoides/page.en.md",
+        "sha256": "15678f5aa27662718b27798dc62ad64fd633df543cf918d1382dd4635c550bc7"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_parens/index.yaml",
+        "sha256": "f0a57d37efdf68fbeb5ffb3f7f1bdb15f28ef730b8561983123162ad5a6e1ee5"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_parens/evidence.md",
+        "sha256": "dca685cf35b41b1684958ff4082135f7a41d35bab923395905e161b1404f00cf"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_parens/page.zh.md",
+        "sha256": "ab11089310b4fc24cb26a8fdb81f65e00b36b6a8685c9785e6f619458cbe8cb3"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_parens/page.en.md",
+        "sha256": "710ef19477fe13ea7b95522a3bd7b9f00790bd2ca1f4c98dbfb15f26932415bf"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_seebohmi/index.yaml",
+        "sha256": "7d3ee7e95cdec0809580e1ed3a5610d78ed5f367e54139061c161a8c08d8ee5d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_seebohmi/evidence.md",
+        "sha256": "7a6dfbb45ad3cd56f8b65fb4d0413ea1df356ff6d7a8670aaac28eea07b486da"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_seebohmi/page.zh.md",
+        "sha256": "a82d4e7683fa9c38ac6dcc78bf3c00688a2c98357a5f6dd00676e961e8aa93ce"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_seebohmi/page.en.md",
+        "sha256": "eed5ccd5251039ad324fad98504e5ca3b0d846a4519b16102455a3799a77b424"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_fortipes/index.yaml",
+        "sha256": "9f53397ba9d774678e0981eaad90ebf4b21155f2fcd45aa8abf514258bdc0af3"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_fortipes/evidence.md",
+        "sha256": "bd3b319b5d3d45df6850e28ecffd43f0a90531db0272bc35487d0f156188fe32"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_fortipes/page.zh.md",
+        "sha256": "674ba14107f4b15ca4ceb2590d1d33d98006cfc90b86f25e4aa161df228fe5c9"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_fortipes/page.en.md",
+        "sha256": "f1d90671e95404f07c08ca68c192940f34af874250344583bd0cbc722b5e2da7"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_ruficapilla/index.yaml",
+        "sha256": "3e093f03956e5b9f31336802eb84307f5f605d0bd0fc6eabbf01e0c18754fb88"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_ruficapilla/evidence.md",
+        "sha256": "3b13b8e08e6d5b1edfafba69339ad2cc6b3bcd623a108c2188b1e80f2ba21739"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_ruficapilla/page.zh.md",
+        "sha256": "5997af2ad24c11a1094a1205ffa89cd1881f97b1f755a2d409e513602b53f0f3"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_ruficapilla/page.en.md",
+        "sha256": "c2ad8c7af341debccdbbca0fedd573f344182adfb2e44d671417ce6f40f83e54"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_diphone/index.yaml",
+        "sha256": "b89cfc9fbad0e176071e398fd76a35b5f4e82c5a1a1966e462ab4a89592dfa05"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_diphone/evidence.md",
+        "sha256": "1a9c2e73b103ed7174065ef1eb16b71709d8d0c8beae140d0f44b4be20f1389e"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_diphone/page.zh.md",
+        "sha256": "ec8629f1cbc0ca46f819cfc8f4786804dbbea22056f0088824b03fd3e9a15c90"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_diphone/page.en.md",
+        "sha256": "3e5c06401107ae522ea9a3265ed4337f782ce820fc9c01dad713e932b7e651be"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_brunnescens/index.yaml",
+        "sha256": "a38017d03eb5c31cac8e6046032c00af406e21b717db22128eed3ad1e195cf74"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_brunnescens/evidence.md",
+        "sha256": "aaab7f148c8072c781a706a414a00348ae2c14e3bfa9fef1d68f0dc4a77ae720"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_brunnescens/page.zh.md",
+        "sha256": "a6bc78a8ff21a3cb4a246d7a9708d057192fea29184ce997783e93e158920ddd"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/Horornis_brunnescens/page.en.md",
+        "sha256": "b7aee089ff40fcc8f1dbc13c55e103d8798889f5bf92a585a1d0be8606cbd701"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/index.yaml",
+        "sha256": "6f7a7ea029bc68d56e9b34894de21866bfecc65ff86f4c4d198f759d328d23b5"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/evidence.md",
+        "sha256": "89f9fdf8c7c34faa72b6b02ed3662ce0c460e179e94172c79aef6d38d82ed71b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/page.zh.md",
+        "sha256": "8937a748d3bc6ae230d70d57d87ab4441283224e29913385bafa8c3d061cbfaa"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/Horornis/page.en.md",
+        "sha256": "b5b31c2f23d97998874feef20ea97b06ab87fb870aa93317ccd84dfea236f239"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/evidence.md",
+        "sha256": "b527ddb67369e064036e2c9e8897f61f4d0bdfca2ae86ef0e2f0bbeda83fc73d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/page.zh.md",
+        "sha256": "d4f5d7c980d86e71f3b95eb92628ad37755258c71d7a6c9a49ccce08c258e48a"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Cettiidae/page.en.md",
+        "sha256": "a1078e028b4f5a40d9bd989611841b5d2e8a9e76fff15c4b3065aba788e086a8"
+      },
+      {
+        "path": "content/projection-map.yaml",
+        "sha256": "3e62570509b252dc20fca4cbc8bd1e5364bf3d6c26bee41481f93a0979316615"
+      },
+      {
+        "path": "docs/content-production-plan.md",
+        "sha256": "59f3127daacaf2c0562f9a1d00f472c7e8d5e7c6ee7615f9fba4d1e6bfda891c"
+      },
+      {
+        "path": "data/sources/col-unrepresented-reader-intake-2026-10-03.json",
+        "sha256": "18ab97daa6eef29c6b97760586259fead0751cc55d1dd2734bc2365669ea692c"
+      },
+      {
+        "path": "data/sources/avonet-name-crosswalk-intake-2026-10-03.json",
+        "sha256": "2a8c3788b02f224e477d76bbdcda7b6389cddb9340ac1648c052fbe4f6091f6e"
+      }
+    ]
+  },
+  "delivery": "Canonical inputs authored; tests, generation, commit and publication deferred until all content completion."
+}

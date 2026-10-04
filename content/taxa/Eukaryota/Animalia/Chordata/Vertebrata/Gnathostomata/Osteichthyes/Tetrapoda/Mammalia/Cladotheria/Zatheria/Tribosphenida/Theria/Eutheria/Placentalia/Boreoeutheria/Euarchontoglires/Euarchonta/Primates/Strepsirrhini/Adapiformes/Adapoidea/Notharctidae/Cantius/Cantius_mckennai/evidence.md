@@ -1,0 +1,421 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Cantius mckennai
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Cantius mckennai
+      en: Cantius mckennai
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Cantius mckennai
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=50085&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:50085; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:50085
+            selectedOccurrenceIds:
+              - occ:167778
+              - occ:167965
+              - occ:168198
+              - occ:168220
+              - occ:168225
+              - occ:168645
+              - occ:168889
+              - occ:168938
+              - occ:169643
+              - occ:170862
+              - occ:171032
+              - occ:171265
+              - occ:171295
+              - occ:171441
+              - occ:171630
+              - occ:171661
+              - occ:171707
+              - occ:171751
+              - occ:171790
+              - occ:172156
+              - occ:172217
+              - occ:172237
+              - occ:172241
+              - occ:172252
+              - occ:172264
+              - occ:172278
+              - occ:172302
+              - occ:172328
+              - occ:172357
+              - occ:172551
+              - occ:172762
+              - occ:173151
+              - occ:173157
+              - occ:173160
+              - occ:173178
+              - occ:173194
+              - occ:173205
+              - occ:173217
+              - occ:173227
+              - occ:173240
+              - occ:173283
+              - occ:456887
+              - occ:457740
+              - occ:458716
+              - occ:462536
+              - occ:462585
+              - occ:462646
+              - occ:463010
+              - occ:463017
+              - occ:469055
+              - occ:469088
+              - occ:469123
+              - occ:469129
+              - occ:469141
+              - occ:469157
+              - occ:469185
+              - occ:469237
+              - occ:469311
+              - occ:469328
+              - occ:469336
+              - occ:469344
+              - occ:469357
+              - occ:469370
+              - occ:469384
+              - occ:469426
+              - occ:469479
+              - occ:469508
+              - occ:469523
+              - occ:469546
+              - occ:469565
+              - occ:469598
+              - occ:469641
+              - occ:469909
+              - occ:469931
+              - occ:469956
+              - occ:470342
+              - occ:470477
+              - occ:470496
+              - occ:470504
+              - occ:470527
+              - occ:470540
+              - occ:470557
+              - occ:470587
+              - occ:470610
+              - occ:470633
+              - occ:470639
+              - occ:470656
+              - occ:470666
+              - occ:470674
+              - occ:470705
+              - occ:470714
+              - occ:470729
+              - occ:470741
+              - occ:470753
+              - occ:470765
+              - occ:470809
+              - occ:470826
+              - occ:470840
+              - occ:470850
+              - occ:470872
+              - occ:470886
+              - occ:470891
+              - occ:470912
+              - occ:470928
+              - occ:470946
+              - occ:470959
+              - occ:470979
+              - occ:470987
+              - occ:471010
+              - occ:471035
+              - occ:471094
+              - occ:471108
+              - occ:471126
+              - occ:471153
+              - occ:471187
+              - occ:471205
+              - occ:471245
+              - occ:471256
+              - occ:471314
+              - occ:471326
+              - occ:471341
+              - occ:471379
+              - occ:471431
+              - occ:471460
+              - occ:471482
+              - occ:471575
+              - occ:1314850
+              - occ:1314903
+            selectedCollectionIds:
+              - col:15222
+              - col:15273
+              - col:15350
+              - col:15353
+              - col:15354
+              - col:15450
+              - col:15480
+              - col:15485
+              - col:15525
+              - col:15660
+              - col:15679
+              - col:15725
+              - col:15727
+              - col:15744
+              - col:15765
+              - col:15770
+              - col:15779
+              - col:15786
+              - col:15790
+              - col:15845
+              - col:15855
+              - col:15862
+              - col:15864
+              - col:15865
+              - col:15868
+              - col:15870
+              - col:15878
+              - col:15884
+              - col:15887
+              - col:15912
+              - col:15932
+              - col:16016
+              - col:16017
+              - col:16018
+              - col:16021
+              - col:16024
+              - col:16027
+              - col:16029
+              - col:16032
+              - col:16037
+              - col:16055
+              - col:15683
+              - col:15699
+              - col:15682
+              - col:15586
+              - col:15588
+              - col:15592
+              - col:15593
+              - col:15594
+              - col:46636
+              - col:46639
+              - col:46642
+              - col:46643
+              - col:46644
+              - col:46645
+              - col:46648
+              - col:46656
+              - col:46665
+              - col:46668
+              - col:46669
+              - col:46670
+              - col:46672
+              - col:46673
+              - col:46674
+              - col:46680
+              - col:46685
+              - col:46687
+              - col:46688
+              - col:46690
+              - col:46691
+              - col:46693
+              - col:46697
+              - col:46721
+              - col:46724
+              - col:46727
+              - col:46759
+              - col:46768
+              - col:46769
+              - col:46770
+              - col:46772
+              - col:46773
+              - col:46774
+              - col:46777
+              - col:46780
+              - col:46781
+              - col:46782
+              - col:46783
+              - col:46784
+              - col:46785
+              - col:46787
+              - col:46788
+              - col:46789
+              - col:46790
+              - col:46791
+              - col:46792
+              - col:46794
+              - col:46795
+              - col:46796
+              - col:46797
+              - col:46798
+              - col:46799
+              - col:46800
+              - col:46801
+              - col:46803
+              - col:46804
+              - col:46805
+              - col:46806
+              - col:46807
+              - col:46808
+              - col:46809
+              - col:46812
+              - col:46813
+              - col:46814
+              - col:46815
+              - col:46818
+              - col:46819
+              - col:46821
+              - col:46822
+              - col:46828
+              - col:46830
+              - col:46831
+              - col:46834
+              - col:46838
+              - col:46841
+              - col:46844
+              - col:46852
+              - col:118482
+              - col:15673
+            sourceReferenceIds:
+              - ref:2078
+              - ref:2528
+              - ref:1675
+              - ref:1624
+              - ref:11717
+              - ref:2336
+              - ref:6294
+              - ref:1358
+              - ref:58065
+            originalIdentificationMappings:
+              - occurrenceId: occ:168645
+                originalIdentifiedName: Pelycodus mckennai
+                acceptedName: Cantius mckennai
+                difference: recombined as
+              - occurrenceId: occ:172156
+                originalIdentifiedName: Pelycodus mckennai
+                acceptedName: Cantius mckennai
+                difference: recombined as
+              - occurrenceId: occ:173151
+                originalIdentifiedName: Pelycodus mckennai
+                acceptedName: Cantius mckennai
+                difference: recombined as
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Cantius mckennai

@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
         text:
           zh:
             markdown: page.zh.md
@@ -23,13 +21,9 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - louis2006
+          - schussler2020
+      - topic: distribution_habitat
         text:
           zh:
             markdown: page.zh.md
@@ -38,13 +32,9 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - mdd_name
+          - louis2006
+      - topic: taxonomy
         text:
           zh:
             markdown: page.zh.md
@@ -53,12 +43,9 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/2/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/2
+          - mdd_taxonomy
+          - taxonomy
+          - hotaling2016
     sources:
       referenceBindings:
         - referenceId: ref-371d4ad4-73c3-81d5-a010-5a5b7e66d490

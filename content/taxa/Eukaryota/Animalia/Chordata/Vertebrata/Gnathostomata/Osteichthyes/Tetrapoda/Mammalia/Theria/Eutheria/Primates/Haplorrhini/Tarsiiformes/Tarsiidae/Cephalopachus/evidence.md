@@ -12,9 +12,7 @@ records:
       zh: 西方眼镜猴属
     reviewStatus: source-linked
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: readingPath
         text:
           en:
             markdown: page.en.md
@@ -23,14 +21,10 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
+          - taxonomy
+          - speciesTaxonomy
+          - belitung2021
+          - welman2017
     sources:
       referenceBindings:
         - referenceId: ref-46f28d6d-1327-8c20-a8a6-3c352796fb56

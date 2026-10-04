@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: ecology
         text:
           zh:
             markdown: page.zh.md
@@ -23,8 +21,7 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
+          - wearn2024caovitgibbon
     sources:
       referenceBindings:
         - referenceId: ref-a3c63269-0cd3-86ab-a236-a3fba0a7de6a

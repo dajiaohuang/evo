@@ -10,11 +10,11 @@ records:
       zh: 白耳绢毛猴
       en: White-eared Titi
     reviewStatus: source-linked
-    checkedAt: 2026-09-30
+    checkedAt: 2026-10-03
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: typeMaterial
+        sourceIds:
+          - vanDerMije2025TitiTypes
         text:
           zh:
             markdown: page.zh.md
@@ -22,14 +22,9 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
+      - topic: publicationDateInterpretation
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - vanDerMije2025TitiTypes
         text:
           zh:
             markdown: page.zh.md
@@ -37,9 +32,37 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
+      - topic: typeStatusInterpretation
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
+          - vanDerMije2025TitiTypes
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: behavior
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+        sourceIds:
+          - noise_study
+          - taxonomy
+      - topic: physiology
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+        sourceIds:
+          - noise_study
     sources:
       referenceBindings:
         - referenceId: ref-24a0a2e8-8309-8c5d-a520-84f43bfbe22c
@@ -93,6 +116,32 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-afacf123-823d-48a5-b102-82d3f8a8e63d
+          metadataVariant: 0
+          sourceKey: vanDerMije2025TitiTypes
+          usage:
+            title: Type specimens of recent mammals in Naturalis Biodiversity Center. Part 1 Monotremata, Didelphimorphia, Dasyuromorphia, Peramelemorphia, Diprotodontia, Afrosoricida, Macroscelidea, Hyracoidea, Proboscidea, Scandentia, Primates, Rodentia (Mammalia)
+            url: https://repository.naturalis.nl/pub/801296/Meije-2025-Type-specimens-of-recent-mammals-in-Naturalis-A.pdf
+            accessedAt: 2026-10-03
+            locator: Front matter p. 1; selected introduction/methods and taxonomic-issue discussion pp. 3–4, 6–8; cupreus/discolor/donacophilus accounts pp. 49–50 including continuation. Pixels viewed pp. 49–50. No full article or current physical inventory audit.
+            scope:
+              zh: 三种伶猴的限定类型身份、收藏／行程及命名解释；属与亚科为材料比较入口。
+              en: Bounded type identity, collection/itinerary and nomenclatural interpretations for three titi species; genus/subfamily pages offer material comparisons.
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - journal
+            - volume
+            - pages
+            - publishedYear
+            - publishedAt
+            - url
+            - sourceVersion
+            - accessedAt
+            - locator
             - scope
     limitations:
       zh:

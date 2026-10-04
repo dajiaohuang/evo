@@ -1,0 +1,1917 @@
+{
+  "batch": "P5-181",
+  "date": "2026-10-03",
+  "newSpecies": 6,
+  "newBilingualSections": 36,
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_swinhoei",
+      "colId": "NRMTV",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_gravivox",
+      "colId": "NRMPS",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_mcclellandi",
+      "colId": "NRMTD",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_hypoleucos",
+      "colId": "NRMRB",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_erythrogenys",
+      "colId": "NRMNJ",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_erythrocnemis",
+      "colId": "NRMMY",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys",
+      "colId": "NRMM4",
+      "newBilingualSections": 4,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae",
+      "newBilingualSections": 2
+    }
+  ],
+  "sharedReferenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+  "sourceFiles": [
+    {
+      "file": ".git/avonet-supplementary-dataset-1-v7.xlsx",
+      "sha256": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e"
+    },
+    {
+      "file": ".git/erythrogenys-selected-source-181.json",
+      "sha256": "4f896dcd67095442dbdeddce2f04e7983a5b5a71b10faf50f1d54513436b48b3"
+    },
+    {
+      "file": ".git/erythrogenys-col-names-181.json",
+      "sha256": "b53f9a5bdb499515172b1648699c731d4f1c96c94f60c65e1b42ae16cfb5b1de"
+    }
+  ],
+  "colNameShardFiles": [
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-er.jsonl.gz",
+      "sha256": "183eedae5202a23810788b5beb1c18461012970bd3a4ae1ef2a7a6b199796c47"
+    },
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-po.jsonl.gz",
+      "sha256": "9002c0b70fa7bc66417ded503f9abd5f6634b5cfbdbb4eba0f0d994b1eec3e94"
+    }
+  ],
+  "sourceRows": [
+    {
+      "target": {
+        "colId": "NRMTV",
+        "scientificName": "Erythrogenys swinhoei",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_swinhoei",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "H9M",
+            "parentId": "3RL",
+            "scientificName": "Timaliidae Vigors & Horsfield, 1827",
+            "authorship": "Vigors & Horsfield, 1827",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 10
+          },
+          {
+            "id": "NRMM4",
+            "parentId": "H9M",
+            "scientificName": "Erythrogenys E. C. S. Baker, 1930",
+            "authorship": "E. C. S. Baker, 1930",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "parentId": "NRMM4",
+            "id": "NRMTV",
+            "scientificName": "Erythrogenys swinhoei (A. David, 1874)",
+            "authorship": "(A. David, 1874)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 8337,
+        "record": {
+          "Sequence": 8283,
+          "Species1": "Erythrogenys swinhoei",
+          "Family1": "Timaliidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-E4AFAF52",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 3,
+          "Beak.Length_Culmen": 34.3,
+          "Beak.Length_Nares": 24,
+          "Beak.Width": 5,
+          "Beak.Depth": 7.2,
+          "Tarsus.Length": 36.3,
+          "Wing.Length": 96.2,
+          "Kipps.Distance": 5.3,
+          "Secondary1": 88.4,
+          "Hand-Wing.Index": 5.6,
+          "Tail.Length": 94,
+          "Mass": 58.15,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": 23.15,
+          "Max.Latitude": 31.06,
+          "Centroid.Latitude": 26.93,
+          "Centroid.Longitude": 114.22,
+          "Range.Size": 747490.28
+        }
+      },
+      "eBird": {
+        "excelRow": 3773,
+        "record": {
+          "Species1": "Erythrogenys swinhoei",
+          "Species2": "Erythrogenys swinhoei",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-E4AFAF52",
+          "Avibase.ID2": "AVIBASE-E4AFAF52",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 3757,
+        "record": {
+          "Species1": "Erythrogenys swinhoei",
+          "Species3": "Pomatorhinus swinhoei",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "NRMPS",
+        "scientificName": "Erythrogenys gravivox",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_gravivox",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "H9M",
+            "parentId": "3RL",
+            "scientificName": "Timaliidae Vigors & Horsfield, 1827",
+            "authorship": "Vigors & Horsfield, 1827",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 10
+          },
+          {
+            "id": "NRMM4",
+            "parentId": "H9M",
+            "scientificName": "Erythrogenys E. C. S. Baker, 1930",
+            "authorship": "E. C. S. Baker, 1930",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "parentId": "NRMM4",
+            "id": "NRMPS",
+            "scientificName": "Erythrogenys gravivox (A. David, 1873)",
+            "authorship": "(A. David, 1873)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 8334,
+        "record": {
+          "Sequence": 8282,
+          "Species1": "Erythrogenys gravivox",
+          "Family1": "Timaliidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-ACFAA819",
+          "Total.individuals": 6,
+          "Female": 0,
+          "Male": 2,
+          "Unknown": 4,
+          "Complete.measures": 5,
+          "Beak.Length_Culmen": 34.5,
+          "Beak.Length_Nares": 24.5,
+          "Beak.Width": 5.4,
+          "Beak.Depth": 6.6,
+          "Tarsus.Length": 36.1,
+          "Wing.Length": 91.3,
+          "Kipps.Distance": 6.2,
+          "Secondary1": 84.4,
+          "Hand-Wing.Index": 6.7,
+          "Tail.Length": 97.1,
+          "Mass": 58.15,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": 18.75,
+          "Max.Latitude": 38.31,
+          "Centroid.Latitude": 29.76,
+          "Centroid.Longitude": 104.64,
+          "Range.Size": 2011353.97
+        }
+      },
+      "eBird": {
+        "excelRow": 3770,
+        "record": {
+          "Species1": "Erythrogenys gravivox",
+          "Species2": "Erythrogenys gravivox",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-ACFAA819",
+          "Avibase.ID2": "AVIBASE-ACFAA819",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 3754,
+        "record": {
+          "Species1": "Erythrogenys gravivox",
+          "Species3": "Pomatorhinus gravivox",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "NRMTD",
+        "scientificName": "Erythrogenys mcclellandi",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_mcclellandi",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "H9M",
+            "parentId": "3RL",
+            "scientificName": "Timaliidae Vigors & Horsfield, 1827",
+            "authorship": "Vigors & Horsfield, 1827",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 10
+          },
+          {
+            "id": "NRMM4",
+            "parentId": "H9M",
+            "scientificName": "Erythrogenys E. C. S. Baker, 1930",
+            "authorship": "E. C. S. Baker, 1930",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "parentId": "NRMM4",
+            "id": "NRMTD",
+            "scientificName": "Erythrogenys mcclellandi (Godwin-Austen, 1870)",
+            "authorship": "(Godwin-Austen, 1870)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 8336,
+        "record": {
+          "Sequence": 8281,
+          "Species1": "Erythrogenys mcclellandi",
+          "Family1": "Timaliidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-894AED25",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 30.2,
+          "Beak.Length_Nares": 20.4,
+          "Beak.Width": 4.5,
+          "Beak.Depth": 5.7,
+          "Tarsus.Length": 32.4,
+          "Wing.Length": 82.2,
+          "Kipps.Distance": 3.6,
+          "Secondary1": 77.7,
+          "Hand-Wing.Index": 4.4,
+          "Tail.Length": 85,
+          "Mass": 58.15,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": 19.46,
+          "Max.Latitude": 29.09,
+          "Centroid.Latitude": 25.16,
+          "Centroid.Longitude": 93.8,
+          "Range.Size": 285028.19
+        }
+      },
+      "eBird": {
+        "excelRow": 3772,
+        "record": {
+          "Species1": "Erythrogenys mcclellandi",
+          "Species2": "Erythrogenys mcclellandi",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-894AED25",
+          "Avibase.ID2": "AVIBASE-894AED25",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 3756,
+        "record": {
+          "Species1": "Erythrogenys mcclellandi",
+          "Species3": "Pomatorhinus mcclellandi",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "NRMRB",
+        "scientificName": "Erythrogenys hypoleucos",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_hypoleucos",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "H9M",
+            "parentId": "3RL",
+            "scientificName": "Timaliidae Vigors & Horsfield, 1827",
+            "authorship": "Vigors & Horsfield, 1827",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 10
+          },
+          {
+            "id": "NRMM4",
+            "parentId": "H9M",
+            "scientificName": "Erythrogenys E. C. S. Baker, 1930",
+            "authorship": "E. C. S. Baker, 1930",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "parentId": "NRMM4",
+            "id": "NRMRB",
+            "scientificName": "Erythrogenys hypoleucos (Blyth, 1844)",
+            "authorship": "(Blyth, 1844)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 8335,
+        "record": {
+          "Sequence": 8279,
+          "Species1": "Erythrogenys hypoleucos",
+          "Family1": "Timaliidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-1928C4DD",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 41.3,
+          "Beak.Length_Nares": 30.3,
+          "Beak.Width": 5.4,
+          "Beak.Depth": 7.3,
+          "Tarsus.Length": 37.3,
+          "Wing.Length": 105.4,
+          "Kipps.Distance": 6.5,
+          "Secondary1": 97.7,
+          "Hand-Wing.Index": 6.2,
+          "Tail.Length": 93.8,
+          "Mass": 75.6,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": 2.28,
+          "Max.Latitude": 28.39,
+          "Centroid.Latitude": 19.03,
+          "Centroid.Longitude": 101.01,
+          "Range.Size": 788871.4
+        }
+      },
+      "eBird": {
+        "excelRow": 3771,
+        "record": {
+          "Species1": "Erythrogenys hypoleucos",
+          "Species2": "Erythrogenys hypoleucos",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-1928C4DD",
+          "Avibase.ID2": "AVIBASE-1928C4DD",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 3755,
+        "record": {
+          "Species1": "Erythrogenys hypoleucos",
+          "Species3": "Pomatorhinus hypoleucos",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "NRMNJ",
+        "scientificName": "Erythrogenys erythrogenys",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_erythrogenys",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "H9M",
+            "parentId": "3RL",
+            "scientificName": "Timaliidae Vigors & Horsfield, 1827",
+            "authorship": "Vigors & Horsfield, 1827",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 10
+          },
+          {
+            "id": "NRMM4",
+            "parentId": "H9M",
+            "scientificName": "Erythrogenys E. C. S. Baker, 1930",
+            "authorship": "E. C. S. Baker, 1930",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "parentId": "NRMM4",
+            "id": "NRMNJ",
+            "scientificName": "Erythrogenys erythrogenys (Vigors, 1831)",
+            "authorship": "(Vigors, 1831)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 8333,
+        "record": {
+          "Sequence": 8280,
+          "Species1": "Erythrogenys erythrogenys",
+          "Family1": "Timaliidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-DA20DCA9",
+          "Total.individuals": 8,
+          "Female": 3,
+          "Male": 4,
+          "Unknown": 1,
+          "Complete.measures": 7,
+          "Beak.Length_Culmen": 33.8,
+          "Beak.Length_Nares": 24.5,
+          "Beak.Width": 5.1,
+          "Beak.Depth": 6.6,
+          "Tarsus.Length": 36.9,
+          "Wing.Length": 94.8,
+          "Kipps.Distance": 5.2,
+          "Secondary1": 88.4,
+          "Hand-Wing.Index": 5.5,
+          "Tail.Length": 107.8,
+          "Mass": 54.9,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": 16.68,
+          "Max.Latitude": 35.49,
+          "Centroid.Latitude": 28.08,
+          "Centroid.Longitude": 85.35,
+          "Range.Size": 400892.95
+        }
+      },
+      "eBird": {
+        "excelRow": 3769,
+        "record": {
+          "Species1": "Erythrogenys erythrogenys",
+          "Species2": "Erythrogenys erythrogenys",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-DA20DCA9",
+          "Avibase.ID2": "AVIBASE-DA20DCA9",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 3753,
+        "record": {
+          "Species1": "Erythrogenys erythrogenys",
+          "Species3": "Pomatorhinus erythrogenys",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "NRMMY",
+        "scientificName": "Erythrogenys erythrocnemis",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_erythrocnemis",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "H9M",
+            "parentId": "3RL",
+            "scientificName": "Timaliidae Vigors & Horsfield, 1827",
+            "authorship": "Vigors & Horsfield, 1827",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 10
+          },
+          {
+            "id": "NRMM4",
+            "parentId": "H9M",
+            "scientificName": "Erythrogenys E. C. S. Baker, 1930",
+            "authorship": "E. C. S. Baker, 1930",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "parentId": "NRMM4",
+            "id": "NRMMY",
+            "scientificName": "Erythrogenys erythrocnemis (Gould, 1863)",
+            "authorship": "(Gould, 1863)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 8332,
+        "record": {
+          "Sequence": 8284,
+          "Species1": "Erythrogenys erythrocnemis",
+          "Family1": "Timaliidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-6D1FD3C6",
+          "Total.individuals": 5,
+          "Female": 1,
+          "Male": 4,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 34.9,
+          "Beak.Length_Nares": 24.2,
+          "Beak.Width": 5,
+          "Beak.Depth": 7,
+          "Tarsus.Length": 36.4,
+          "Wing.Length": 97.8,
+          "Kipps.Distance": 7.3,
+          "Secondary1": 90.7,
+          "Hand-Wing.Index": 7.4,
+          "Tail.Length": 95.4,
+          "Mass": 58.15,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": 21.96,
+          "Max.Latitude": 25.3,
+          "Centroid.Latitude": 23.8,
+          "Centroid.Longitude": 121.09,
+          "Range.Size": 25723.2
+        }
+      },
+      "eBird": {
+        "excelRow": 3768,
+        "record": {
+          "Species1": "Erythrogenys erythrocnemis",
+          "Species2": "Erythrogenys erythrocnemis",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-6D1FD3C6",
+          "Avibase.ID2": "AVIBASE-6D1FD3C6",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 3752,
+        "record": {
+          "Species1": "Erythrogenys erythrocnemis",
+          "Species3": "Pomatorhinus erythrocnemis",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    }
+  ],
+  "colNameRecords": [
+    {
+      "normalizedName": "erythrogenys erythrocnemis gould 1863",
+      "id": "NRMMY",
+      "scientificName": "Erythrogenys erythrocnemis (Gould, 1863)",
+      "authorship": "(Gould, 1863)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "NRMM4",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Timaliidae",
+        null,
+        null,
+        null,
+        "Erythrogenys"
+      ]
+    },
+    {
+      "normalizedName": "erythrogenys erythrogenys vigors 1831",
+      "id": "NRMNJ",
+      "scientificName": "Erythrogenys erythrogenys (Vigors, 1831)",
+      "authorship": "(Vigors, 1831)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "NRMM4",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Timaliidae",
+        null,
+        null,
+        null,
+        "Erythrogenys"
+      ]
+    },
+    {
+      "normalizedName": "erythrogenys gravivox a david 1873",
+      "id": "NRMPS",
+      "scientificName": "Erythrogenys gravivox (A. David, 1873)",
+      "authorship": "(A. David, 1873)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "NRMM4",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Timaliidae",
+        null,
+        null,
+        null,
+        "Erythrogenys"
+      ]
+    },
+    {
+      "normalizedName": "erythrogenys hypoleucos blyth 1844",
+      "id": "NRMRB",
+      "scientificName": "Erythrogenys hypoleucos (Blyth, 1844)",
+      "authorship": "(Blyth, 1844)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "NRMM4",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Timaliidae",
+        null,
+        null,
+        null,
+        "Erythrogenys"
+      ]
+    },
+    {
+      "normalizedName": "erythrogenys mcclellandi godwin austen 1870",
+      "id": "NRMTD",
+      "scientificName": "Erythrogenys mcclellandi (Godwin-Austen, 1870)",
+      "authorship": "(Godwin-Austen, 1870)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "NRMM4",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Timaliidae",
+        null,
+        null,
+        null,
+        "Erythrogenys"
+      ]
+    },
+    {
+      "normalizedName": "erythrogenys swinhoei a david 1874",
+      "id": "NRMTV",
+      "scientificName": "Erythrogenys swinhoei (A. David, 1874)",
+      "authorship": "(A. David, 1874)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "NRMM4",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Timaliidae",
+        null,
+        null,
+        null,
+        "Erythrogenys"
+      ]
+    },
+    {
+      "normalizedName": "pomatorhinus erythrocnemis gould 1863",
+      "id": "4LQWP",
+      "scientificName": "Pomatorhinus erythrocnemis Gould, 1863",
+      "authorship": "Gould, 1863",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "NRMMY",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "pomatorhinus erythrogenys vigors 1831",
+      "id": "4LQWQ",
+      "scientificName": "Pomatorhinus erythrogenys Vigors, 1831",
+      "authorship": "Vigors, 1831",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "NRMNJ",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "pomatorhinus gravivox a david 1873",
+      "id": "4LQWS",
+      "scientificName": "Pomatorhinus gravivox A. David, 1873",
+      "authorship": "A. David, 1873",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "NRMPS",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "pomatorhinus hypoleucos blyth 1844",
+      "id": "6W6LK",
+      "scientificName": "Pomatorhinus hypoleucos (Blyth, 1844)",
+      "authorship": "(Blyth, 1844)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "NRMRB",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "pomatorhinus mcclellandi godwin austen 1870",
+      "id": "4LQWV",
+      "scientificName": "Pomatorhinus mcclellandi Godwin-Austen, 1870",
+      "authorship": "Godwin-Austen, 1870",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "NRMTD",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "pomatorhinus swinhoei a david 1874",
+      "id": "4LQX5",
+      "scientificName": "Pomatorhinus swinhoei A. David, 1874",
+      "authorship": "A. David, 1874",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "NRMTV",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    }
+  ],
+  "fieldDefinitions": [
+    {
+      "excelRow": 12,
+      "record": {
+        "Variable": "Total.individuals",
+        "Description": "Number of individual specimens and live birds measured for each species",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 13,
+      "record": {
+        "Variable": "Female",
+        "Description": "Number of measured individuals identified as female",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 14,
+      "record": {
+        "Variable": "Male",
+        "Description": "Number of measured individuals identified as male",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 15,
+      "record": {
+        "Variable": "Unknown",
+        "Description": "Number of unsexed individuals measured",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 16,
+      "record": {
+        "Variable": "Complete.measures",
+        "Description": "Number of measured individuals with complete set of morphometric trait measurements ",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 18,
+      "record": {
+        "Variable": "Beak.Length_Nares",
+        "Description": "Length from the anterior edge of the nostrils to the tip of the beak",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 19,
+      "record": {
+        "Variable": "Beak.Width",
+        "Description": "Width of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 22,
+      "record": {
+        "Variable": "Wing.Length",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the longest primary on the unflattened wing",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 25,
+      "record": {
+        "Variable": "Hand-Wing.Index",
+        "Description": "100*DK/Lw, where DK is Kipp’s distance and Lw is wing length (i.e., Kipp’s distance corrected for wing size). Species average HWI differ from estimates in Sheard et al. (2020) because of much higher sampling of individuals in some species, as well as taxonomic effects in the BirdLife list",
+        "Variable Types": "continuous",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 27,
+      "record": {
+        "Variable": "Mass",
+        "Description": "Body mass given as species average (incorporating both male and female body mass)",
+        "Variable Types": "continuous",
+        "Units": "gram",
+        "Source": "See Mass Source column"
+      }
+    },
+    {
+      "excelRow": 28,
+      "record": {
+        "Variable": "Mass.Source",
+        "Description": "Dunning (= Dunning, JB [2008] CRC Handbook of Avian Body Masses);\nEltonTraits_Other (= mass published by Wilman et al. 2014 EltonTraits 1.0. Ecology, on basis of literature other than Dunning, usually Handbook of the Birds of the World [now Birds of the World, Cornell])\nEltonTraits_GenAvg (= average of the genus, published in Wilman et al. 2014 EltonTraits 1.0. Ecology); \nEltonTraits_Model (= inferred from mass and length data, with mass-length relationships parameterized at family level, published in Wilman et al. 2014 EltonTraits 1.0. Ecology);\nUpdated_literature (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from literature and online resources, including Birds of the World - specific sources are listed in the Mass.Ref.Source column);  \nUpdated_live.sample (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from museum labels and/or field data of from wild birds weighed using a Pezola balance before release. Specific sources are listed in the Mass.Ref.Source column);  \nInferred (= where EltonTraits GenAvg or Modelled data seemed misleading, and no published data were available for updating, we replaced it where possible with data inferred directly from a morphologically similar relative. Reference species and Traits inferred columns indicate where mass has been inferred and from which species);\nDataFromSplit (= daughter species body mass inferred from parent species after split; the parent or nominate form is typically morphologically similar and provides a reasonable estimate of body mass, particularly as mass data used to calculate the parent species body mass in earlier publications sometimes includes data from the recently split daughter species).\n",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 30,
+      "record": {
+        "Variable": "Inference",
+        "Description": "NO = all biometric trait data were obtained from direct measurement of specimens, or in the case of body mass from published sources\nYES = at least some of the biometric traits were unavailable from specimens so these trait data were inferred from a closely related species; in some cases all morphological measurements were taken directly except for body mass, which can't be measured on museum specimens.",
+        "Variable Types": "binary",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 33,
+      "record": {
+        "Variable": "Habitat",
+        "Description": "Desert (= drylands and other open arid habitats, often sandy with very sparse vegetation); \nRock (= rocky substrate typically with no or very little vegetation, including rocky outcrops, rocky coastlines, arid stony steppes, rocky mountaintops and mountain slopes); \nGrassland (=  open dry to moist grass-dominated landscapes, at all elevations); \nShrubland (= low stature bushy habitats, included thornscrub, thorny or arid savanna, caatinga, xerophytic shrubland and coastal scrub); \nWoodland (= medium stature tree-dominated habitats, including Acacia woodland, riparian woodlands, mangrove forests, forest edges, also more open parkland with scattered taller trees);\nForest (= tall tree-dominated vegetation with more or less closed canopy, including palm forest); \nHuman modified (urban landscapes, intensive agriculture, gardens); \nWetland (= wide range of freshwater aquatic habitats including lakes, marshes, swamps and reedbeds); \nRiverine (= associated with rivers and streams at all elevations); \nCoastal (= intertidal zones within immediate vicinity of beaches, estuaries, brackish to salty marshes, including mudflats, lagoons, alkaline wetlands, coastal dunes and harbours);\nMarine (= pelagic, on sea near coasts, including species in the intertidal zone on beaches, and those pelagic species nesting near the sea on cliffs, islets and islands).",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Data extracted from primary and secondary literature, particularly Handbook of the Birds of the World (including Birds of the World)"
+      }
+    },
+    {
+      "excelRow": 34,
+      "record": {
+        "Variable": "Habitat.Density",
+        "Description": "1 = Dense habitats. Species primarily lives in the lower or middle storey of forest, or in dense thickets, dense shrubland etc.\n2 = Semi-open habitats. Species primarily lives in open shrubland, scattered bushes, parkland, low dry or deciduous forest, thorn forest. \n3 = Open habitats. Species primarily lives in desert, grassland, open water, low shrubs, rocky habitats, seashores, cities. Also applies to species living mainly on top of forest canopy (i.e. mostly in the open)",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias et al. (2016) Frontiers Ecol. Evol."
+      }
+    },
+    {
+      "excelRow": 35,
+      "record": {
+        "Variable": "Migration",
+        "Description": "1 = Sedentary. \n2 = Partially migratory, i.e. minority of population migrates long distances, or most of population undergoes short-distance migration, nomadic movements, distinct altitudinal migration, etc.\n3 = Migratory, i.e. majority of population undertakes long-distance migration",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias & Pigot (2019) Phil. Trans. Roy. Soc."
+      }
+    },
+    {
+      "excelRow": 36,
+      "record": {
+        "Variable": "Trophic.Level",
+        "Description": "Herbivore = species obtaining at least 70% of food resources from plants; Carnivore = species obtaining at least 70% of food resources by consuming live invertebrate or vertebrate animals; Scavenger = species obtaining at least 70% of food resources from carrion or refuse; Omnivore = species obtaining resources from multiple trophic level in roughly equal proportion",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 37,
+      "record": {
+        "Variable": "Trophic.Niche",
+        "Description": "Frugivore = species obtaining at least 60% of food resources from fruit; \nGranivore = species obtaining at least 60% of food resources from seeds or nuts; \nNectarivore =  species obtaining at least 60% of food resources from nectar; \nHerbivore = species obtaining at least 60% of food resources from other plant materials in non-aquatic systems, including leaves, buds, whole flowers etc.; \nHerbivore aquatic = species obtaining at least 60% of food resources from plant materials in aquatic systems, including algae and aquatic plant leaves; \nInvertivore = species obtaining at least 60% of food resources from invertebrates in terrestrial systems, including insects, worms, arachnids, etc.; \nVertivore = species obtaining at least 60% of food resources from vertebrate animals in terrestrial systems, including mammals, birds, reptiles etc.; \nAquatic Predator = species obtaining at least 60% of food resources from vertebrate and invertebrate animals in aquatic systems, including fish, crustacea, molluscs, etc; \nScavenger = species obtaining at least 60% of food resources from carrion, offal or refuse; Omnivore = Species using multiple niches, within or across trophic levels, in relatively equal proportions ",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 38,
+      "record": {
+        "Variable": "Primary.Lifestyle",
+        "Description": "Aerial = species spends much of the time in flight, and hunts or forages predominantly on the wing; \nTerrestrial = species spends majority of its time on the ground, where it obtains food while either walking or hopping (note this includes species that also wade in water with their body raised above the water); \nInsessorial = species spends much of the time perching above the ground, either in branches of trees and other vegetation (i.e. arboreal), or on other raised substrates including rocks, buildings, posts, and wires; \nAquatic = species spends much of the time sitting on water, and obtains  food while afloat or when diving under the water's surface; Generalist = species has no primary lifestyle because it spends time in different lifestyle classes",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 17,
+      "record": {
+        "Variable": "Beak.Length_Culmen",
+        "Description": "Length from the tip of the beak to the base of the skull",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 20,
+      "record": {
+        "Variable": "Beak.Depth",
+        "Description": "Depth of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 21,
+      "record": {
+        "Variable": "Tarsus.Length",
+        "Description": "Length of the tarsus from the posterior notch between tibia and tarsus, to the end of the last scale of acrotarsium (at the bend of the foot)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 23,
+      "record": {
+        "Variable": "Kipps.Distance",
+        "Description": "Length from the tip of the first secondary feather to the tip of the longest primary      ",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 24,
+      "record": {
+        "Variable": "Secondary1",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the first secondary, i.e. the outermost secondary adjacent to the innermost primary feather. Secondary1 is roughly equivalent to Wing length minus Kipp’s distance (measured in a fully folded and flat wing)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 26,
+      "record": {
+        "Variable": "Tail.Length",
+        "Description": "Distance between the tip of the longest rectrix and the point at which the two central rectrices protrude from the skin, typically measured using a ruler inserted between the two central rectrices",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 31,
+      "record": {
+        "Variable": "Traits.inferred",
+        "Description": "List of traits inferred from the reference species",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 32,
+      "record": {
+        "Variable": "Reference.species",
+        "Description": "Species from which the biometric data were inferred",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    }
+  ],
+  "readingScope": "Six morphology/mass/ecology rows, full crosswalks, twelve related catalogue names and relevant definitions. Not the whole workbook, specimens, original mass book or a new full methods-paper reading.",
+  "retainedBoundaries": {
+    "sixExactPomatorhinusSynonyms": true,
+    "gravivoxZeroFemaleTwoMaleFourUnsexedFiveComplete": true,
+    "erythrogenysEightTotalSevenComplete": true,
+    "fourIdenticalCompiledMassRowsNotIdenticalActualMass": true,
+    "morphologyAndDunningMassSeparate": true,
+    "sixTerrestrialShrublandSedentaryInvertivoreCarnivore": true,
+    "threeDenseThreeSemiOpen": true,
+    "noMeasuredDietOrWadingInvented": true,
+    "noGeographicFieldsInterpreted": true,
+    "historicalGuidesNotCompleteMonographs": true,
+    "activePrimateGaps": 14,
+    "fixedAcceptedPrimateDenominator": 530
+  },
+  "intakeBeforeIncrementalCounts": {
+    "indexExists": 704,
+    "bilingualCatalogueProfileMarkers": 701,
+    "missingOneOrBothCatalogueProfileMarkers": 6472,
+    "scope": "Original 7173 observation plus 336 authored species in P5-143–180; no new whole-corpus prose review."
+  },
+  "intakeAfterIncrementalCounts": {
+    "indexExists": 710,
+    "bilingualCatalogueProfileMarkers": 707,
+    "missingOneOrBothCatalogueProfileMarkers": 6466,
+    "scope": "Original 7173 observation plus 342 authored species in P5-143–181; no new whole-corpus prose review."
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All 36 new sections in both languages, all eight profile limits and eight prior family sections were read after writing. The prior English single life-history account and three single-entry field counts were corrected and reread without changing values or bindings. Read eight indices, all section topic/source/text vectors, new reference bindings and limitation pointers, seven bounded new projection entries, P5-181 plan, intake followups and receipt metadata; retained family bindings were read before editing. Six source rows, full crosswalks, twelve related catalogue names and relevant definitions were read before authoring. Six exact Pomatorhinus synonyms locate accepted species without proven concept identity. gravivox zero female/two male/four unsexed/five complete does not mean all male; erythrogenys eight/seven complete and all other totals/complete sets remain distinct. Four 58.15 g compiled means do not establish identical actual masses; Dunning mass remains separate from morphology denominators. Three dense and three semi-open shrubland rows retain ground-activity, food-niche, trophic-level and sedentary codes without observed wading, measured diet, breeding or current maps. Editorial reading is not generation, tests, whole-corpus validation or expert review.",
+    "canonicalFiles": [
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_swinhoei/index.yaml",
+        "sha256": "b275791ac0d83963c39958f6e38e36d9223ecf6f19bad3e34ae3d3d4ee16fa29"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_swinhoei/evidence.md",
+        "sha256": "4a4c8ce72b898daf530b81696f508b451a70abefe2148e7142c9d937b83807e9"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_swinhoei/page.zh.md",
+        "sha256": "c2a1ecb039eb63c370be72562b45fb17015d7a52a8caba89b3a7483356a32d77"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_swinhoei/page.en.md",
+        "sha256": "d4c24fbd1c21f4877bc78150808deed9a784d2e2debe8b4623ffd6be758f7790"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_gravivox/index.yaml",
+        "sha256": "711da697464cd7d2404c3bfe722c88a483fef8f73cb07ef595318e7c3dc67550"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_gravivox/evidence.md",
+        "sha256": "91b8957cc0f2dbdfbd58aa32cf17f5e82204fc9cb721a61502cc58e5dc083a8a"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_gravivox/page.zh.md",
+        "sha256": "c24c35b05da178aa0e3039e327b3d8ca5d0de1499faf72ea3acb5904ceea88b0"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_gravivox/page.en.md",
+        "sha256": "37469816c227a9a82f5c20b1442d832c39d235f3f84412de5b8b928c479c594e"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_mcclellandi/index.yaml",
+        "sha256": "2f8f4ec8522545d2ee48cbb7db3645394dcd07c10d856a403cbbe4447314c642"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_mcclellandi/evidence.md",
+        "sha256": "5bf2349281c5e4ca2b4bd15e91e24771c8000bc499bb9b76dc8ce34b7f55b014"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_mcclellandi/page.zh.md",
+        "sha256": "fa97d535585b6d6f720c0bfc3c4166e5dba17db06268a9c6845461ea28637734"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_mcclellandi/page.en.md",
+        "sha256": "4b7c1132fb936871f0b2cf50f45cebc1efb4fa9218d97ff752e454933b0140ed"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_hypoleucos/index.yaml",
+        "sha256": "eb5ea8cb22c12ca0753c0c71ec9ec18057fd75a44f2156ef0f0d9011bef7aab0"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_hypoleucos/evidence.md",
+        "sha256": "f73d6bd5b3b7b1fcf8a4127ab11631ca9c598e4633e1f158c4756162d34924a3"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_hypoleucos/page.zh.md",
+        "sha256": "0fd891be9db2623561135dfddaa54c3602584ed41c7ee5df1592b456b5c9245b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_hypoleucos/page.en.md",
+        "sha256": "78aceba298bb01de5e05fa53f06135fbbb5a8369b2c2546434bbdad6184753b4"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_erythrogenys/index.yaml",
+        "sha256": "ae798647a0c52333a7fb07f0ae4bc311223962e107f9eae344af1aa586cf7bfd"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_erythrogenys/evidence.md",
+        "sha256": "99e1ce62bd4302b8831ea6cb1dc1c2aced7ba80587a01ddf1396a00a92ca1692"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_erythrogenys/page.zh.md",
+        "sha256": "0c7541a03caccc5a464f9f39a3bf7e5fc2ceaffd1397fa3d98c2a7685b8488da"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_erythrogenys/page.en.md",
+        "sha256": "4b05b06c411b5123026cb64fad5f9ef2ffe6d534998e5887638125444fbd4e11"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_erythrocnemis/index.yaml",
+        "sha256": "2e15b7faccf3ec954f098c6f378f07a983221950f54ebfcf2be3d51d5b65d522"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_erythrocnemis/evidence.md",
+        "sha256": "903c75721aaba9e0ce5d597055175a2808306fb5207ccab9e0bd831ed0b0c362"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_erythrocnemis/page.zh.md",
+        "sha256": "c4af0c95488a74a1428c2a05be9fa48b3377fb6c0e8c82986b1314ad27629a85"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/Erythrogenys_erythrocnemis/page.en.md",
+        "sha256": "3185851b9015d57490c267c9e8e1cc8acbee342e8d92e17a424b1acedf782f60"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/index.yaml",
+        "sha256": "df1dc1500ce27b276b012476912fe8f81c6819e1f95808fd67d609e417625ccc"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/evidence.md",
+        "sha256": "b7769c4e90315e11db79faaec3f64fd65dee099b3c74af3d306fb84da3ed5154"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/page.zh.md",
+        "sha256": "201374470b9685fe38c09e64c3641bba6a36ebf587788f0a9e4ea00d1cdabb97"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/Erythrogenys/page.en.md",
+        "sha256": "5a773afbd4174055755505dd2a31ef019c24c2bb482e6d367af2f56709045b85"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/evidence.md",
+        "sha256": "e30d58e77f10b19dc794394e237594675ef978e4475d9d12b3285c54b9cd4c08"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/page.zh.md",
+        "sha256": "fc22995e3aac9a13ea3f27f212906c64be5468524d3db5b210baafd4018b2653"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Timaliidae/page.en.md",
+        "sha256": "10db79a4d4ba880f53221bfca480efee295f63d00de3aa600443e50534851981"
+      },
+      {
+        "path": "content/projection-map.yaml",
+        "sha256": "a15ee7c8b789026d7313b425d56693feaad4e335071f9fb80746197759454cc6"
+      },
+      {
+        "path": "docs/content-production-plan.md",
+        "sha256": "a1d7eb3ad70b7a64d2cdacf62164f8d2483218435e333635380028cfa9fcd544"
+      },
+      {
+        "path": "data/sources/col-unrepresented-reader-intake-2026-10-03.json",
+        "sha256": "33b8fddbab09a31d08d777e5f5b6f93bbfa3edc50fb1ec228b1bd6ba2d5e85d5"
+      },
+      {
+        "path": "data/sources/avonet-name-crosswalk-intake-2026-10-03.json",
+        "sha256": "a11003653b8c196b934b26b2c0cab210adbbd926b2aa32b5a7b7d4d1944f161e"
+      }
+    ]
+  },
+  "delivery": "Canonical inputs authored; tests, generation, commit and publication deferred until all content completion."
+}

@@ -1,0 +1,85 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: en
+status: source-linked
+---
+
+# Mahakala omnogovae
+
+
+## Which parts of the body the holotype preserves
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/en -->
+Turner, Pol and Norell’s detailed 2011 account describes holotype IGM 100/1033 from Tögrögiin Shiree in Mongolia’s Djadokhta Formation. A partial skull and nearly complete postcranial skeleton preserve the braincase, frontals, limited jaw material and one tooth, plus partly articulated vertebrae and limbs. Nearly complete does not mean that every bone retains both ends. Vertebral sutures, ankle-bone fusion and braincase coossification, together with cited 2007 histology, underpin the authors’ adult or near-adult interpretation. Small bones alone do not make this a juvenile, and age was not newly measured here.
+<!-- /evo:text -->
+
+## Short forelimb proportions include reconstruction estimates
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/en -->
+Both humeri are incomplete. The preserved shaft and proximal region support the authors’ estimate of about 35–40 mm for total humeral length, roughly 45–50% of femoral length; Table 1 gives the left femur as 79 mm. The ulna is anteroposteriorly broad and strongly compressed, tapering posteriorly to a narrow edge, part of the diagnostic combination. The ratio is not a direct full-length measurement of a complete humerus, nor a measure of paddling efficiency or flight performance. Comparisons with other independently short-armed dromaeosaurids lead the authors to call for further consideration of phylogeny, body size and allometry.
+<!-- /evo:text -->
+
+## The second-toe claw is preserved; its use remains inferred
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/en -->
+Unlike the missing terminal second-toe claw in Hulsanpes, Mahakala preserves the penultimate second-toe phalanx and a curved ungual. The preceding phalanx has a developed proximal heel, constricted shaft and deeply grooved hinge articulation; the claw is tall, narrow, strongly curved and grooved along its sides. The authors compare these features in the context of the hyperextensible dromaeosaurid second toe. Bone shape and articulations support functional discussion without recording hunting motions, grip force or particular prey. The left third toe also remains fully articulated, giving foot comparisons more material than a specimen consisting mainly of a few metatarsals.
+<!-- /evo:text -->
+
+## Diagnosis combines features from different skeletal regions
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/en -->
+The revised diagnosis also includes a ledgelike depression near the posterior ear region, a posteriorly tapering scapula, an elongate crest on the posterodistal femur, and laterally directed, nearly horizontal prezygapophyses in the anterior tail. These identify a character combination beyond the size label “small dromaeosaurid.” The authors interpret the ear-region depression as associated with the external carotid tract from its bony form and position; it is not a preserved blood vessel. Caudal vertebrae and chevrons also differ from those of some more derived dromaeosaurids, without supplying measured turning, balance or locomotor speed here.
+<!-- /evo:text -->
+
+## Read the 2011 and 2018 relationship results in time
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/en -->
+The expanded 2011 analysis places Mahakala as the basalmost dromaeosaurid, reporting 102 taxa and 472 characters in the main text. Its 40,000 stored most-parsimonious trees reach the memory limit and may not include every optimal tree, although the observed consensus stabilized earlier. The 2018 Hulsanpes redescription instead recovers Hulsanpes sister to Mahakala, with both in Halszkaraptorinae alongside Halszkaraptor. These are results from different dates and sampling. A basal position does not make the species the oldest fossil or a direct ancestor of living species. The fixed PBDB storage path remains in use without matrix reanalysis or adjudication of all later hypotheses.
+<!-- /evo:text -->
+
+## Reconstructions do not resolve disputed lengths or ecological gaps
+
+<!-- evo:text /records/catalogue-profile/sections/5/text/en -->
+Table 1 in 2011 lists the right metatarsus as 82 mm. Cau and Madzia adopt 52 mm in 2018, interpreting 82 mm as a typographical error from a cast, photographs and earlier measurement literature. That assessment belongs to the later authors. Both records remain visible here without remeasuring the original or choosing a new value, and the disputed number is not used to calculate speed or body size. Bones permit comparisons of proportions and diagnosis, but the assembled sources do not establish particular foods, swimming mechanics or year-round habitat. Depositional labels describe collections; small size and subfamily membership do not import another genus’s long neck, snout or aquatic adaptations.
+<!-- /evo:text -->
+
+## Which fossil records this name represents
+
+<!-- evo:text /records/catalogue-profile/sections/6/text/en -->
+Mahakala omnogovae is accepted in the fixed PBDB dinosaur working roster, with database parent Mahakala. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+<!-- /evo:text -->
+
+
+## Begin with named collections and strata
+
+<!-- evo:text /records/catalogue-profile/sections/7/text/en -->
+Collection Tögrögiin Shiree [AMNH] (Omnogov), region code MN, stratum name Djadokhta; database age bracket 83.6–72.2 Ma, early interval Late Campanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+<!-- /evo:text -->
+
+
+## Age bounds of these records
+
+<!-- evo:text /records/catalogue-profile/sections/8/text/en -->
+Selected occurrences have an outer age envelope of 83.6–72.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+<!-- /evo:text -->
+
+
+## Read preservation setting separately from living habitat
+
+<!-- evo:text /records/catalogue-profile/sections/9/text/en -->
+Tögrögiin Shiree [AMNH] has collection-environment label eolian indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+<!-- /evo:text -->
+
+
+## Follow collection records back to references
+
+<!-- evo:text /records/catalogue-profile/sections/10/text/en -->
+The database retains collection attribution Turner et al. (2007), ref:28248. This page separately reads relevant sections of Turner, Pol and Norell’s 2011 anatomical account and compares Cau and Madzia’s 2018 measurement discrepancy and relationship interpretation. The complete 2007 description and histology were not separately read here; citation by the 2011 paper is not direct verification here. Full occurrences, collections and identifications remain archived, without physical specimen examination or remeasurement.
+<!-- /evo:text -->
+
+## Evidence limits
+
+<!-- evo:text /records/catalogue-profile/limitations/en -->
+This is a guide to selected 2011 anatomical sections and a 2018 comparison, not a section-by-section review of the complete 66-page monograph. Small size, adult or near-adult status, estimated humeral length, disputed metatarsal length and affinities have distinct evidence. Histological sections, specimens and matrices were not independently examined or reanalyzed, and particular behaviors remain unresolved. Some table side labels differ from the descriptive text, and Appendix 2 lists ordered-character numbers beyond the main text’s reported total; no matrix correction is made here. Broad ages and depositional labels do not determine individual age or living habitat. The complete species monograph, all later research and external expert review remain unfinished.
+<!-- /evo:text -->

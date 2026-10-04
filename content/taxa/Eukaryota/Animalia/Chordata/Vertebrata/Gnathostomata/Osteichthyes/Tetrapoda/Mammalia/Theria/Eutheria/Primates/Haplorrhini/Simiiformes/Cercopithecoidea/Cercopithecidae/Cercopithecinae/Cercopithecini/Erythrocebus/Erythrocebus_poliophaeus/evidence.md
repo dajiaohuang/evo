@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
         text:
           en:
             markdown: page.en.md
@@ -23,17 +21,11 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - mdd_label
+          - gippoliti2017
+          - iucn2019
+      - topic: fieldRecords
         text:
           en:
             markdown: page.en.md
@@ -42,13 +34,9 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/1/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - yirga2010
+          - gippoliti2017
+      - topic: rangeEvidence
         text:
           en:
             markdown: page.en.md
@@ -57,10 +45,8 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/2/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/1
+          - gippoliti2017
+          - iucn2019
     sources:
       referenceBindings:
         - referenceId: ref-e94cb9a0-e362-8059-af98-46830e6a6b5c

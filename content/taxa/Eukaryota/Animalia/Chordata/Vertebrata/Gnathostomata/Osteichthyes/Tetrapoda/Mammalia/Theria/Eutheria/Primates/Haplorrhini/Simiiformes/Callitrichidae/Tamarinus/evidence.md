@@ -10,11 +10,9 @@ records:
       zh: Tamarinus 属
       en: Tamarinus
     reviewStatus: source-linked
-    checkedAt: 2026-10-02
+    checkedAt: 2026-10-03
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
         text:
           zh:
             markdown: page.zh.md
@@ -23,19 +21,12 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/4
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - brcko2022
+          - lopes2023_molecular
+          - lopes2023_peerj
+          - gregorin2023
+      - topic: classification
         text:
           zh:
             markdown: page.zh.md
@@ -44,19 +35,12 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/4
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - taxonomy
+          - brcko2022
+          - lopes2023_molecular
+          - lopes2023_peerj
+          - gregorin2023
+      - topic: readingPath
         text:
           zh:
             markdown: page.zh.md
@@ -65,26 +49,26 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/2/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/4
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/5
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/6
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/7
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/8
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/9
+          - palacios2004
+          - valsecchi2010
+          - heymann2000
+          - peres1993
+          - buchanan1990
+          - buchanan2000
+          - gregorin2023
+          - lopes2023_peerj
+          - lopes2023_molecular
+          - bicca2006
+      - topic: overview
+        sourceIds:
+          - lopes2023_peerj
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -150,11 +134,15 @@ records:
               en:
                 markdown: evidence.md
                 field: /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en
+            locator: JATS molecular methods, type account and Figure 4 caption.
+            accessedAt: 2026-10-03
           originalFields:
             - id
             - title
             - url
             - scope
+            - locator
+            - accessedAt
         - referenceId: ref-f7264849-d9b2-8818-a326-7834da7cf66f
           metadataVariant: 0
           sourceKey: gregorin2023

@@ -2,85 +2,63 @@
 schemaVersion: 1
 kind: reader-page
 locale: en
-status: migrated-verbatim
+status: source-linked
 ---
 
 # Cebus brunneus
 
-## overview
 
-<!-- evo:text /records/catalogue-profile/sections/0/topic -->
-overview
-<!-- /evo:text -->
-
-## overview
+## Vouchers and sequences behind two brunneus labels
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
+Page 10 of Supplementary Table S1 lists two samples under C. olivaceus brunneus: row 119, USNM 372765 from Urama, Falcon, VEN, with JN409289/JQ317624; and row 120, USNM 443218 from Riecito, Falcon, VEN, with JN409310/JQ317655. Each accession pair denotes cytochrome b then control region. Both enter DS2; only row 120 also enters DS1. These are the paper’s subspecies labels and material index, not new determinations under the COL species concept or renewed comparisons with the name-bearing type.
+<!-- /evo:text -->
+
+## The association with Trinidad material still needs explanation
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/en -->
+The results place rows 119 and 120 with historically labelled C. a. trinitatis row 147 in a polytomy; the discussion interprets their association as a possible single taxonomic unit, calls it unexpected given morphological differences, and requests more samples. On page 13 of Table S1, row 147 is AMNH 24201 from Tabaquite, Trinidad, with JN409317/JQ317644. Results and discussion retain their qualifications. The association is not a resolved merger or proof of human introduction versus natural colonization of Trinidad.
+<!-- /evo:text -->
+
+## What two mitochondrial markers can address
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/en -->
+Martins-Junior and colleagues (2018) analyze mitochondrial cytochrome b and the control region. Across the full study, new material comes from 72 capuchins, yielding 137 new sequences, alongside previously published sequences. These study-wide counts are not individual counts for this page’s species. Both markers belong to the mitochondrial genome, rather than two independent nuclear-genome lines of evidence. Clustering can trace historical names without measuring feeding, reproduction or population size, or independently establishing complete species boundaries.
+<!-- /evo:text -->
+
+## How three catalogues use this name
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/en -->
 COL26.8 accepts Cebus brunneus Allen, 1914; MDD v2.5 treats C. brunneus among names associated with C. olivaceus. The 2021 IUCN assessment retained a species-level C. brunneus entry, showing that sources have used different classifications.
 <!-- /evo:text -->
 
-## overview
+## The break between type and genetic samples
 
-<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/0 -->
-taxonomy
-<!-- /evo:text -->
-
-## overview
-
-<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/1 -->
-mdd_olivaceus
-<!-- /evo:text -->
-
-## overview
-
-<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/2 -->
-iucn_brunneus_2021
-<!-- /evo:text -->
-
-## classification
-
-<!-- evo:text /records/catalogue-profile/sections/1/topic -->
-classification
-<!-- /evo:text -->
-
-## classification
-
-<!-- evo:text /records/catalogue-profile/sections/1/text/en -->
+<!-- evo:text /records/catalogue-profile/sections/4/text/en -->
 A 2012 mitochondrial phylogeny called a set of Venezuelan samples C. brunneus and proposed a separate taxon. A 2024 review notes that those genetic samples were not the name-bearing type; comparison with the type instead places its morphology closer to C. olivaceus, so the name cannot safely be attached to the white-fronted lineage sampled in 2012. The review mentions a possible unnamed white-fronted lineage in the region, but that does not confirm its identity or range.
 <!-- /evo:text -->
 
-## classification
+## Range and habitat compiled in the assessment
 
-<!-- evo:text /records/catalogue-profile/sections/1/sourceIds/0 -->
-boubli2012
-<!-- /evo:text -->
-
-## classification
-
-<!-- evo:text /records/catalogue-profile/sections/1/sourceIds/1 -->
-rylands2024
-<!-- /evo:text -->
-
-## assessment-reported range and habitat
-
-<!-- evo:text /records/catalogue-profile/sections/2/topic -->
-assessment-reported range and habitat
-<!-- /evo:text -->
-
-## assessment-reported range and habitat
-
-<!-- evo:text /records/catalogue-profile/sections/2/text/en -->
+<!-- evo:text /records/catalogue-profile/sections/5/text/en -->
 The 2020 IUCN assessment, published in 2021 under C. brunneus, describes a northern Venezuelan range from the San Luis, Aroa and Churuguara ranges westward through central Venezuela to the Araya and Paria peninsulas, at 100–1,400 m. Its habitat account lists cloud, secondary, lowland-rainforest, gallery and semi-deciduous forests, and cites records from El Ávila and Yurubí national parks and the upper Guárico River. These are records as compiled by that assessment, which also discusses uncertainty over whether the name brunneus applies to the sampled Venezuelan lineage; they are not independently reassigned here to the pinned COL concept.
 <!-- /evo:text -->
 
-## assessment-reported range and habitat
-
-<!-- evo:text /records/catalogue-profile/sections/2/sourceIds/0 -->
-iucn_brunneus_2021
-<!-- /evo:text -->
-
-## catalogue-profile / limitations
+## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-An unresolved gap separates the name-bearing identity from the genetic samples and ecological records used under brunneus. Range and habitat details are reported by the 2020 IUCN assessment rather than independently re-established for the pinned COL concept. This page does not meet the first-round content standard and is not externally expert-reviewed.
+The link between the name-bearing type, some genetic samples and ecological records under the historical name remains unresolved. Morphology and habitat summaries from the 2019 handbook and 2020 IUCN assessment retain their source concepts rather than becoming newly confirmed COL species diagnoses or ecology. The first-round gap stays open; there is no external expert review.
+New 2018 sample-tracing text uses the read molecular sampling, tree methods, Cebus results and discussion passages of the published SciELO article, figure 4 caption, and Supplementary Table S1 pages 10, 12 and 13; layouts on pages 10 and 12 were visually examined. Other table pages were not fully reviewed row by row. Figure 4 pixels, other supplements, raw GenBank sequences and museum specimens were not independently examined, and analyses were not rerun. The 2012 article was not obtained on this pass, so no fresh review of it is claimed. Historical sample names, sequence associations, type diagnoses and current COL identities remain distinct. These links do not complete independent field ecology or species delimitation; first-round primate gaps remain open, with no external expert review.
+<!-- /evo:text -->
+
+## Pelage and dimensions under the historical name
+
+<!-- evo:text /records/catalogue-profile/sections/6/text/en -->
+The 2019 EAZA brunneus account describes dense, long pelage, a pale yellow-gray face and head sides, and a broad V-shaped crown patch. The central back is darker than the flanks; chin and lower cheeks are whitish. Both sexes have body-size and tail fields of 42 cm and 44 cm, with mass data lacking. The unspecified underlying samples and identical compiled numbers do not establish absence of sexual dimorphism. The handbook’s historical name use does not resolve the type–genetic-sample mismatch discussed above.
+<!-- /evo:text -->
+
+## A compiled diet suggestion still needs observations
+
+<!-- evo:text /records/catalogue-profile/sections/7/text/en -->
+The handbook summarizes moist, montane and submontane coastal-range forests in northern Venezuela, plus semi-deciduous and gallery forests in the western Llanos. Its diet field acknowledges missing data before suggesting fruit, seeds and small animal prey; this is not converted into a direct feeding record. Reproduction and behavior are also poorly documented, and habitat records under that name have not been independently reassigned to the pinned COL concept.
 <!-- /evo:text -->

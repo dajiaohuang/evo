@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
         text:
           zh:
             markdown: page.zh.md
@@ -23,11 +21,8 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - schussler2020
+      - topic: distribution_habitat
         text:
           zh:
             markdown: page.zh.md
@@ -36,13 +31,9 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - schussler2020
+          - mdd_name
+      - topic: ecology
         text:
           zh:
             markdown: page.zh.md
@@ -51,8 +42,7 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/2/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
+          - schussler2020
     sources:
       referenceBindings:
         - referenceId: ref-06983252-cb45-8f01-af86-375186354afa

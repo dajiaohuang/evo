@@ -1,0 +1,114 @@
+{
+  "batch": "P5-79",
+  "date": "2026-10-03",
+  "pbdbSpecies": "txn:133919",
+  "pbdbGenus": "txn:133918",
+  "referenceId": "ref-07d38353-15a6-48d4-a167-1e44878ccb6b",
+  "newReferences": 1,
+  "source": {
+    "url": "https://dinodata.de/bibliothek/pdf_a/2011/anatomymahakala00turn_dd.pdf",
+    "bytes": 4013884,
+    "sha256": "0f90d73e6e24cd5073a874d26bd1c4c152b2036ed54405be68e7d969eed8db83",
+    "hostRole": "Public mirror of the original AMNH publication; not publisher-hosted retrieval.",
+    "title": "Anatomy of Mahakala omnogovae (Theropoda: Dromaeosauridae), Tögrögiin Shiree, Mongolia",
+    "authors": [
+      "Alan H. Turner",
+      "Diego Pol",
+      "Mark A. Norell"
+    ],
+    "publishedAt": "2011-10-05",
+    "doi": "10.1206/3722.2",
+    "license": "Copyright American Museum of Natural History 2011; no redistribution license confirmed",
+    "localOnlyPdf": ".git/mahakala2011-primary.pdf",
+    "publicPdfCopy": false,
+    "textRead": "Selected printed pp. 1–7, 31–35, 47–63, with overlapping adaptive reads for Discussion and Phylogeny. Reference pages 64–66 also read; not every anatomical chapter.",
+    "completeMonographRead": false,
+    "figuresVisuallyInspected": [],
+    "pagesVisuallyInspected": [
+      1,
+      4
+    ],
+    "supplementaryMatrixRead": false
+  },
+  "comparisonSource": {
+    "referenceId": "ref-11b2b6cd-cda3-48a9-9a03-46ade327ce11",
+    "doi": "10.7717/peerj.4868",
+    "readReceipt": "data/sources/hulsanpes-redescription-reader-2026-10-03.json"
+  },
+  "material": {
+    "holotype": "IGM 100/1033",
+    "specimenCountInStudy": 1,
+    "partialSkull": true,
+    "nearlyCompletePostcranium": true,
+    "secondToeUngualPreserved": true,
+    "physicalSpecimenInspected": false,
+    "histologyReadIndependently": false
+  },
+  "interpretationBoundaries": {
+    "maturity": "Authors infer adult or near adult from fusion and cited 2007 histology; not newly measured age.",
+    "humerusLengthMm": {
+      "minimum": 35,
+      "maximum": 40,
+      "estimated": true
+    },
+    "femurLengthMm": {
+      "value": 79,
+      "tableSide": "left"
+    },
+    "metatarsusLengthDifference": {
+      "published2011Mm": 82,
+      "adopted2018Mm": 52,
+      "laterInterpretation": "2018 authors propose 82 mm is a typo from cast, photographs and prior measurement literature.",
+      "independentRemeasurement": false,
+      "adjudicated": false
+    },
+    "phylogeny": {
+      "mainTextTaxa": 102,
+      "characters": 472,
+      "storedMPT": 40000,
+      "completeMPTSet": false,
+      "authorsReportStableConsensus": true,
+      "result2011": "Basalmost dromaeosaurid",
+      "result2018": "Hulsanpes sister to Mahakala within Halszkaraptorinae",
+      "rerun": false
+    },
+    "dietSwimmingSpeedEstablished": false,
+    "sourceInternalBoundaries": [
+      "Table 1 labels metacarpal II twice; repeated labels not silently corrected.",
+      "Table left partial radius differs from complete right radius described on p. 33; no side-specific radius value imported.",
+      "Table claw measurements use right side, description/figure 34 identify preserved second-toe elements as left; no side-specific claw measurement imported.",
+      "Appendix 2 states 100 coelurosaurian taxa plus two outgroups; main-text total 102 retained.",
+      "Appendix 2 ordered-character list contains numbers above reported 472 characters; matrix not obtained and no numbering correction inferred."
+    ]
+  },
+  "original2007FullTextRead": false,
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Halszkaraptorinae/Mahakala/Mahakala_omnogovae",
+      "newBilingualSections": 6
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Halszkaraptorinae/Mahakala",
+      "newBilingualSections": 2
+    }
+  ],
+  "maturity": {
+    "fullMonograph": false,
+    "externalExpertReview": false,
+    "activePrimateSourceGaps": 14,
+    "readerVisibleDelivery": "Pending content-phase projection/publication handoff."
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "readScope": "All current species and genus sections and limitations in both languages; table and title page visually inspected.",
+    "files": {
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Halszkaraptorinae/Mahakala/page.zh.md": "b5aa43d91483a97841b0b7ced3cb84cb5b831bea73063d60106bd8b054859ef2",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Halszkaraptorinae/Mahakala/page.en.md": "540b94a7bb412fc34487cfa7fcba0675c6043c57b32a029ff0f95e01886e45aa",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Halszkaraptorinae/Mahakala/evidence.md": "bebdc072b162e64406228bca686248fcc6fd44440594fadceb1998baf5d1fbf3",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Halszkaraptorinae/Mahakala/Mahakala_omnogovae/page.zh.md": "f8ea642daf63c08127f5b83f89c716702dc69029e411fd98548cc830da7c5a13",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Halszkaraptorinae/Mahakala/Mahakala_omnogovae/page.en.md": "fa6436984e1e5e080df419e2beee9a8eef1b2ccca397826d2976c9429ecc7844",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Halszkaraptorinae/Mahakala/Mahakala_omnogovae/evidence.md": "197d60cd14b7861452a3d72ebd66121c7c0f69cba0a90bb256bacc8b1e72281e"
+    }
+  },
+  "delivery": "Canonical bilingual selected anatomical guide and genus routes; no tests, generation, commit or publication."
+}

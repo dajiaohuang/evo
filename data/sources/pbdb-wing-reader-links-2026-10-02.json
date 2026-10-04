@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "batch": "P5-34",
+  "authoredAt": "2026-10-02",
+  "links": [
+    {
+      "sourceId": "txn:492615",
+      "sourcePath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontia/Ornithocheiroidea/Anhangueridae/Haliskia/Haliskia_peterseni",
+      "targetIds": [
+        "txn:492614",
+        "txn:399804",
+        "txn:95393"
+      ]
+    },
+    {
+      "sourceId": "txn:492614",
+      "sourcePath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontia/Ornithocheiroidea/Anhangueridae/Haliskia",
+      "targetIds": [
+        "txn:492615",
+        "txn:399803",
+        "txn:95393",
+        "pterosauria"
+      ]
+    },
+    {
+      "sourceId": "txn:399804",
+      "sourcePath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontia/Ornithocheiroidea/Anhangueridae/Tropeognathinae/Ferrodraco/Ferrodraco_lentoni",
+      "targetIds": [
+        "txn:399803",
+        "txn:492615",
+        "txn:95393"
+      ]
+    },
+    {
+      "sourceId": "txn:399803",
+      "sourcePath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontia/Ornithocheiroidea/Anhangueridae/Tropeognathinae/Ferrodraco",
+      "targetIds": [
+        "txn:399804",
+        "txn:492614",
+        "txn:95393",
+        "pterosauria"
+      ]
+    },
+    {
+      "sourceId": "txn:95393",
+      "sourcePath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontia/Ornithocheiroidea/Anhangueridae",
+      "targetIds": [
+        "txn:492614",
+        "txn:399803",
+        "txn:492615",
+        "txn:399804",
+        "pterosauria"
+      ]
+    },
+    {
+      "sourceId": "pterosauria",
+      "sourcePath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/research/Pterosauria",
+      "targetIds": [
+        "txn:95393",
+        "txn:492615",
+        "txn:399804"
+      ]
+    }
+  ],
+  "directedLinks": 22,
+  "sourceBindings": {
+    "batch": "P5-34",
+    "resolvedAt": "2026-10-02",
+    "entityIds": [
+      "txn:492615",
+      "txn:492614",
+      "txn:399804",
+      "txn:399803",
+      "txn:95393"
+    ],
+    "sourceUrl": "https://paleobiodb.org/data1.2/taxa/list.json?id=492615,492614,399804,399803,95393&show=attr,app,parent",
+    "recordSnapshot": "data/sources/snapshots/pbdb-wing-reader-range-records-2026-10-02.json",
+    "ancestorSnapshots": [
+      "data/sources/snapshots/pbdb-haliskia-ancestry-2026-10-02.json",
+      "data/sources/snapshots/pbdb-ferrodraco-ancestry-2026-10-02.json"
+    ],
+    "sourceReferenceId": "ref-e9f69786-79b3-4da7-bdaa-1244e580f3a5",
+    "method": "Recorded accepted external IDs and original ancestor chains; no name-only reassignment.",
+    "expertReview": false,
+    "generation": "Canonical mapping prepared; generated ontology/registry not rebuilt yet."
+  },
+  "generation": "Not run in the content phase; real runtime navigation remains unverified.",
+  "denominatorsChanged": false,
+  "expertReview": false
+}

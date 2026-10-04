@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: distribution_habitat
         text:
           zh:
             markdown: page.zh.md
@@ -23,11 +21,8 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - schussler2020
+      - topic: morphology
         text:
           zh:
             markdown: page.zh.md
@@ -36,8 +31,7 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
+          - schussler2020
     sources:
       referenceBindings:
         - referenceId: ref-b8661ea0-5ff2-898d-a129-55cd83a68e5d

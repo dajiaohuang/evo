@@ -12,9 +12,7 @@ records:
       en: Northern Pygmy Slow Loris
     reviewStatus: source-linked
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: taxonomyAndLineage
         text:
           zh:
             markdown: page.zh.md
@@ -23,15 +21,10 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - mdd_name
+          - blair2023
+      - topic: regionalFieldEvidence
         text:
           zh:
             markdown: page.zh.md
@@ -40,11 +33,8 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - yang2026
+      - topic: evidenceLimits
         text:
           zh:
             markdown: page.zh.md
@@ -53,12 +43,9 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/2/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/2
+          - yang2026
+          - blair2023
+          - mdd_name
     sources:
       referenceBindings:
         - referenceId: ref-36e765bd-004c-8c86-a605-45557c54a951

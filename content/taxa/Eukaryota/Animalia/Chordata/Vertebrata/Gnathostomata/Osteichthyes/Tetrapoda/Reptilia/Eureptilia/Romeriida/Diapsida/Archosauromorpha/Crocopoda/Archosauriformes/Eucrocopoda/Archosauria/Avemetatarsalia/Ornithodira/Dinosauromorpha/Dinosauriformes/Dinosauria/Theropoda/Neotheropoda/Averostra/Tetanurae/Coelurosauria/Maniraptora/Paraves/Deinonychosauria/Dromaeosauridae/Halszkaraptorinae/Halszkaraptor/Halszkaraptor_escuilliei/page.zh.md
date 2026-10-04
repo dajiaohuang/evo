@@ -1,0 +1,91 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: zh
+status: source-linked
+---
+
+# Halszkaraptor escuilliei
+
+
+## 一件正模引出的两种生态解释
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
+Halszkaraptor escuilliei 来自蒙古晚白垩世，2020 年研究把讨论锚定在接近完整的正模 MPC-D 102/109，并说明作者结合直接检查与 2016 年同步辐射扫描资料。Brownstein（2019）重新比较形态，认为它保留了许多手盗龙类祖征，不支持专门的半水生食鱼解释；Cau（2020）逐项回应并支持衍生的两栖适应。这里的两篇研究讨论的是同一材料的性状与推断，并不是两次观察活体行为；2019 年论文也没有据此断言本种是植食者。
+<!-- /evo:text -->
+
+## 吻部的孔洞、内部管道和位置怎样比较
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+2019 年重评指出其他兽脚类也有丰富吻部神经血管孔，反对把有孔洞本身直接当作水生指标。2020 年回应则区分表面开口的密度与分布、内部管道的相对发育，以及前颌骨鼻孔前部分的延长和压扁；作者认为这些组合与似鸟龙、镰刀龙类的鼻孔周围加宽不是同一形态。两篇论证的比较尺度不同，不能由“都存在孔”推出同一生态，也不能由类比直接给出本种的感觉性能或捕食过程。
+<!-- /evo:text -->
+
+## 换牙模式不是已测得的换牙速度
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+Brownstein 将原描述的延迟换牙与一些其他手盗龙类的低换牙率并读。Cau 指出本种前颌牙与上颌牙的替换模式有差别，所称“延迟模式”不是经时间测量的低速换牙；替换波和牙齿间距也需要分部位比较。回应另描述较大的前颌牙、缩小的最前方两枚上颌牙与后方较大牙形成起伏的齿列，并把它解释为捕捉滑脱猎物的可能适应。形态支持食性假说，不是直接食物残留，也没有给出每枚牙的换牙天数。
+<!-- /evo:text -->
+
+## 长颈与没有保存的尾端
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+2019 年论文把长颈与其他手盗龙类比较，视为可能的祖征。2020 年回应强调性状定义与比较类群：颈部比例和颈椎关节薄板的特定形状不是同一个问题；广泛存在某个结构也不自动否定其独特发育。对尾部，回应明确 MPC-D 102/109 缺失最远端，尾椎总数未知，因此不能把保存的尾段当作完整短尾。长颈、完整尾长、身体姿态和食性分别需要证据，复原不能补成直接测量。
+<!-- /evo:text -->
+
+## 前肢与中空骨骼怎样进入游泳争议
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+Brownstein 认为前肢不像海生爬行动物的桨状肢，且缺少明显骨皮质增厚，因而质疑水中生活。Cau 回应说半水生并不要求蛇颈龙式桨肢或普遍骨质增厚；他把尺骨中段宽度相对长度的比例与鸟类比较，也强调手指比例的差异。回应仍注明胸带保存零碎，不能详细重建前肢活动范围；肩关节方向部分依亲缘夹持推断。支持前肢辅助游泳的形态类比不能转成已知划水动作、潜水深度或速度。
+<!-- /evo:text -->
+
+## 相似亲缘位置并不自动给出相同生态
+
+<!-- evo:text /records/catalogue-profile/sections/5/text/zh -->
+2019 年分析使用 150 个分类单元，得到 Halszkaraptorinae 与 Unenlagiinae 的姊妹关系。2020 年较大的 185 单元分析也支持该关系，但指出 2019 年附件矩阵不能复现其所报树，并质疑部分性状编号与编码；这是回应作者的复现报告，本页没有独立重算。2020 年用 158 单元的共同子树与 ACCTRAN 优化讨论 17 项体形性状，认为 11 项为该支系演化的新特征，与 2019 年祖征解释不同。2020 年勘误只补充图 2 缩写并修正图 6 面板字母，不表示已裁定生态争议。
+<!-- /evo:text -->
+
+## 加入 Natovenator 后继续比较证据
+
+<!-- evo:text /records/catalogue-profile/sections/6/text/zh -->
+2022 年 Natovenator 原始描述用相连且后倾的肋骨复原胸廓，支持另一种的半水生解释，并据相似性进一步支持 Halszkaraptor。可读 [Natovenator polydontus 标本导读](../../Natovenator/Natovenator_polydontus/page.zh.md)，对照它实际保存的肋骨与本页的吻部、牙齿和前肢争议。新标本提供另一个比较对象，不是 Halszkaraptor 本身的行为记录，也不将同亚科所有成员自动赋予统一生态。
+<!-- /evo:text -->
+
+## 这个名称对应哪些化石记录
+
+<!-- evo:text /records/catalogue-profile/sections/7/text/zh -->
+Halszkaraptor escuilliei 在固定 PBDB 恐龙及其鸟类分支工作名录中为接受种，数据库父级为 Halszkaraptor。本页导读 1 条可用种级出现记录，涉及 1 个采集记录和 1 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
+<!-- /evo:text -->
+
+
+## 从具名采集地和地层开始
+
+<!-- evo:text /records/catalogue-profile/sections/8/text/zh -->
+采集记录 Ukhaa Tolgod (general)（Omnogov），地区代码 MN，地层名称 Djadokhta；数据库年代范围 83.6–72.2 Ma，早端地质时段 Campanian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+<!-- /evo:text -->
+
+
+## 这些记录的年代边界
+
+<!-- evo:text /records/catalogue-profile/sections/9/text/zh -->
+本页所选出现记录的年代外包区间为 83.6–72.2 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
+<!-- /evo:text -->
+
+
+## 保存环境与生活环境分开阅读
+
+<!-- evo:text /records/catalogue-profile/sections/10/text/zh -->
+Ukhaa Tolgod (general) 的采集环境标签为 风成沉积环境，类型未定（eolian indet.）；集合保存方式标签为 实体化石（body）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+<!-- /evo:text -->
+
+
+## 沿采集记录追到文献
+
+<!-- evo:text /records/catalogue-profile/sections/11/text/zh -->
+数据库采集引文 ref:64073 署名 Cau 等（2017），保留原始引文归属。本页另读 Brownstein（2019）的重评、2020 年图注勘误与 Cau（2020）的回应，并与 Natovenator（2022）比较。2017 年原描述全文本次没有取得，未宣称直接复核；各篇后续研究的观点分别绑定，出现原行、采集与鉴定编号仍在独立来源档案。
+<!-- /evo:text -->
+
+## 资料边界
+
+<!-- evo:text /records/catalogue-profile/limitations/zh -->
+本页是两篇具名重评与后续比较的研究导读，不是完整专论或生态争议裁决。2017 年原描述全文、全部补充矩阵与后续材料尚未汇齐；未直接检查正模、复做 CT 或独立重算作者的复现报告。形态、性状优化和生态类比各保留推断边界，不补成已知食谱、划水动作、潜水能力或完整尾长。数据库宽年代与沉积环境分别保留，未改变固定分类路径，没有外部专家审评。
+<!-- /evo:text -->

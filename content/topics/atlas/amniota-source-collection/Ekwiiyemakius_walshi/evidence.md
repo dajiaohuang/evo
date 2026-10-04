@@ -1,0 +1,15 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  collection-status:
+    scientificName: Ekwiiyemakius walshi
+    sourceIdentity: PBDB:txn:384460
+    status: source-collection-placeholder
+    ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+    sourceLocators: []
+    expertReview: false
+    comprehensiveSpeciesMonograph: false
+---
+
+# Ekwiiyemakius walshi

@@ -1,0 +1,41 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: en
+status: source-linked
+---
+
+# Beishanlong
+
+
+## Read Beishanlong from its postcranial holotype
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/en -->
+The Beishanlong species guide separates the associated postcranial holotype, additional large hindlimb material and only probably referred isolated pubes. Fibular histology and sutures support continued growth, whereas mass comes from regression; large size does not itself establish maturity. Direct skull and stomach contents are unavailable in this described material and cannot be supplied by beak reconstructions or relatives’ diets. Begin with preservation and bone tissue, then phylogeny and environmental context.
+<!-- /evo:text -->
+
+## Compare maturity before size and diet
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/en -->
+Start with specimen association, fibular histology and the 626 kg estimate on [Beishanlong grandis](Beishanlong_grandis/page.en.md), then examine the composite reconstruction and gastrolith/fish association on [Deinocheirus mirificus](../Deinocheiridae/Deinocheirus/Deinocheirus_mirificus/page.en.md). Their material, histology and behavioral hypotheses remain separate: growth lines are not feeding evidence, and estimated mass is not weighing. Finally compare dated phylogenies with catalogue positions, retaining unresolved relationships rather than turning missing bones into known features.
+<!-- /evo:text -->
+
+## Organize fossil records by source classification
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/en -->
+Beishanlong is recorded at rank genus in this batch’s PBDB path. This route offers occurrence guides for 1 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+<!-- /evo:text -->
+
+
+## Compare collections, strata and age brackets
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/en -->
+Start with Beishanlong grandis and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 1 selected occurrence from 1 collection; example stratum names are Xiagou. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+<!-- /evo:text -->
+
+## Evidence limits
+
+<!-- evo:text /records/catalogue-profile/limitations/en -->
+This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes. No external expert review has occurred.
+New text uses the original description’s published PMC main text and five figure captions. Scientific text was read, but images, actual thin sections, supplementary measurement tables/matrices and original analyses were not independently inspected or rerun. Online publication 2009-04-22 and issue date 2010-01-22 remain separate, without changing catalogue name-authority years. Annual interpretation of 13–14 lines is an assumption; skeletal maturity, sexual maturity and lifespan differ. Mass is estimated by equation, pubic referral is uncertain, and skull/stomach evidence is not borrowed from relatives. Original description, 2014 analysis and PBDB classification remain separate. No complete monograph or external expert review is claimed.
+<!-- /evo:text -->

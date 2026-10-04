@@ -1,0 +1,192 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Bahinolophus birmanicus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Bahinolophus birmanicus
+      en: Bahinolophus birmanicus
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Bahinolophus birmanicus
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=107144&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:107144; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:107144
+            selectedOccurrenceIds:
+              - occ:422891
+              - occ:431707
+              - occ:431734
+              - occ:699264
+              - occ:699265
+              - occ:829975
+              - occ:829976
+              - occ:1177106
+              - occ:1308650
+            selectedCollectionIds:
+              - col:41120
+              - col:42162
+              - col:42196
+              - col:75076
+              - col:75077
+              - col:91584
+              - col:91585
+              - col:151676
+              - col:175281
+            sourceReferenceIds:
+              - ref:11068
+              - ref:11241
+              - ref:11242
+              - ref:25236
+              - ref:25252
+              - ref:57385
+            originalIdentificationMappings:
+              - occurrenceId: occ:422891
+                originalIdentifiedName: Diplolophodon similis n. gen. n. sp.
+                acceptedName: Bahinolophus birmanicus
+                difference: null
+              - occurrenceId: occ:431707
+                originalIdentifiedName: Diplolophodon similis
+                acceptedName: Bahinolophus birmanicus
+                difference: null
+              - occurrenceId: occ:431734
+                originalIdentifiedName: Diplolophodon major n. sp.
+                acceptedName: Bahinolophus birmanicus
+                difference: null
+              - occurrenceId: occ:829975
+                originalIdentifiedName: Deperetella birmanica
+                acceptedName: Bahinolophus birmanicus
+                difference: recombined as
+              - occurrenceId: occ:829976
+                originalIdentifiedName: Deperetella birmanica
+                acceptedName: Bahinolophus birmanicus
+                difference: recombined as
+              - occurrenceId: occ:1308650
+                originalIdentifiedName: Diplolophodon qufuensis n. sp.
+                acceptedName: Bahinolophus birmanicus
+                difference: null
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Bahinolophus birmanicus

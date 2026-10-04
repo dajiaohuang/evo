@@ -1,0 +1,1198 @@
+{
+  "schemaVersion": 1,
+  "batch": "P5-54",
+  "authoredAt": "2026-10-02",
+  "source": "Paleobiology Database Data Service 1.2",
+  "sourceReferenceId": "ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a",
+  "methodReferenceId": "ref-c4887d31-ff09-4384-b816-a87cb63d0c54",
+  "fixedOtherLepidosauromorphaDenominator": 69,
+  "pinnedColDenominators": {
+    "Mammalia": 6461,
+    "Aves": 11044,
+    "Reptilia": 12649
+  },
+  "pinnedPbdbAmniotaDenominator": 22684,
+  "denominatorsChanged": false,
+  "fixedPartitionDenominators": {
+    "other-lepidosauromorpha": 69
+  },
+  "authoredSpeciesByPartition": {
+    "other-lepidosauromorpha": 64
+  },
+  "recordedRootParentChain": [
+    {
+      "oid": "txn:36322",
+      "rnk": "class",
+      "nam": "Reptilia",
+      "att": "(Laurenti 1768)",
+      "par": "txn:135358",
+      "prl": "Sauropsida",
+      "rid": "ref:16886",
+      "ext": "1",
+      "noc": 72790,
+      "fea": 382.31,
+      "fla": 379,
+      "lea": 0.0117,
+      "lla": 0,
+      "tei": "Frasnian",
+      "tli": "Holocene"
+    },
+    {
+      "oid": "txn:92209",
+      "rnk": "unranked clade",
+      "nam": "Neodiapsida",
+      "att": "Benton 1985",
+      "par": "txn:36322",
+      "prl": "Reptilia",
+      "rid": "ref:19680",
+      "ext": "1",
+      "noc": 924,
+      "fea": 290.1,
+      "fla": 283.3,
+      "lea": 0.0117,
+      "lla": 0,
+      "tei": "Artinskian",
+      "tli": "Holocene"
+    },
+    {
+      "oid": "txn:151359",
+      "rnk": "unranked clade",
+      "nam": "Sauria",
+      "att": "Gauthier 1984",
+      "par": "txn:92209",
+      "prl": "Neodiapsida",
+      "rid": "ref:30483",
+      "ext": "1",
+      "noc": 832,
+      "fea": 251.902,
+      "fla": 250.8,
+      "lea": 0.0117,
+      "lla": 0,
+      "tei": "Induan",
+      "tli": "Holocene"
+    },
+    {
+      "oid": "txn:37794",
+      "vid": "var:99803",
+      "rnk": "unranked clade",
+      "nam": "Lepidosauromorpha",
+      "att": "(Benton 1983)",
+      "par": "txn:151359",
+      "prl": "Sauria",
+      "rid": "ref:24241",
+      "ext": "1",
+      "noc": 442,
+      "fea": 251.902,
+      "fla": 250.8,
+      "lea": 0.0117,
+      "lla": 0,
+      "tei": "Induan",
+      "tli": "Holocene"
+    }
+  ],
+  "colCompatibleAnchor": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia",
+  "sourceDownloads": [
+    {
+      "key": "taxa",
+      "url": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=53189&rel=all_children&status=accepted&show=parent%2Capp%2Cattr&limit=all",
+      "queryParameters": {
+        "base_id": "53189",
+        "rel": "all_children",
+        "status": "accepted",
+        "show": "parent,app,attr",
+        "limit": "all"
+      },
+      "file": ".git/amniota-remaining-reader-taxa.json",
+      "retrievedAt": "2026-10-02T15:05:33.394Z",
+      "bytes": 11250864,
+      "sha256": "3859aaf13185b4d4bcf29d6e26e89cbebdf16ca22d83d02cec55a4ef2edcea40",
+      "recordCount": 50795,
+      "recordsFound": null,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-taxa-3859aaf13185b4d4bcf29d6e26e89cbebdf16ca22d83d02cec55a4ef2edcea40.json.gz",
+      "retainedSha256": "1b2decbd29e3f13175e14806484e49d68d2528bf550139dfe76c74c9b9e4f678"
+    },
+    {
+      "key": "root",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=53189&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "53189",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-root.json",
+      "retrievedAt": "2026-10-02T15:05:26.002Z",
+      "bytes": 293,
+      "sha256": "66b5bf1133948a8be21a836a174e74e04c0a1d953f73dc496c74c210fc6d610f",
+      "recordCount": 1,
+      "recordsFound": null,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-root-66b5bf1133948a8be21a836a174e74e04c0a1d953f73dc496c74c210fc6d610f.json.gz",
+      "retainedSha256": "25b98c376cc202d114fdd8ecabdcf17b6737ced06eac0c2e075fd50f4ecc1b85"
+    },
+    {
+      "key": "parents",
+      "url": "https://paleobiodb.org/data1.2/taxa/list.json?id=53189&rel=all_parents&status=accepted&show=parent%2Cattr&limit=all",
+      "queryParameters": {
+        "id": "53189",
+        "rel": "all_parents",
+        "status": "accepted",
+        "show": "parent,attr",
+        "limit": "all"
+      },
+      "file": ".git/amniota-remaining-reader-parents.json",
+      "retrievedAt": "2026-10-02T15:05:26.107Z",
+      "bytes": 3381,
+      "sha256": "c00907592c1809c2d7b41a2f59545da533072d8f171b5160d38255b0ef6d2f86",
+      "recordCount": 20,
+      "recordsFound": null,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-parents-c00907592c1809c2d7b41a2f59545da533072d8f171b5160d38255b0ef6d2f86.json.gz",
+      "retainedSha256": "e9d9f43651607fbb09eca28f4a7eb1a07cf3bbac9c42f54b5b5359b1bdf6f04d"
+    },
+    {
+      "key": "occurrences",
+      "url": "https://paleobiodb.org/data1.2/occs/list.json?base_id=53189&show=full&ident=latest&order=id&rowcount=yes&limit=all",
+      "queryParameters": {
+        "base_id": "53189",
+        "show": "full",
+        "ident": "latest",
+        "order": "id",
+        "rowcount": "yes",
+        "limit": "all"
+      },
+      "file": ".git/amniota-remaining-reader-occurrences.json",
+      "retrievedAt": "2026-10-02T15:07:04.634Z",
+      "bytes": 282665854,
+      "sha256": "31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f",
+      "recordCount": 204122,
+      "recordsFound": 204122,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-occurrences-31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f.json.gz",
+      "retainedSha256": "dc919f14b624119ab5e4dc7677b50461ae7efc1404fb4b721190e6817fc33cf1"
+    },
+    {
+      "key": "supplemental-parent-identity-400968",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=400968&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "400968",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-parent-identity-400968.json",
+      "retrievedAt": "2026-10-02T15:10:00.499Z",
+      "bytes": 338,
+      "sha256": "34ffdb0c7a2755aa14a9d2d700ac3ab03d8811f37d0cf45caca4ce9346e87237",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-parent-identity-400968-34ffdb0c7a2755aa14a9d2d700ac3ab03d8811f37d0cf45caca4ce9346e87237.json.gz",
+      "retainedSha256": "bb8777ab22b55fdd41e33e0fd7584406a26e7158ef96b03ecaaf368c663ecb67"
+    },
+    {
+      "key": "supplemental-parent-identity-400965",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=400965&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "400965",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-parent-identity-400965.json",
+      "retrievedAt": "2026-10-02T15:10:01.478Z",
+      "bytes": 341,
+      "sha256": "9ca51ba3c87f1337e3d063f0965f788f0cec0ab9eaab25dd16c1bd57a6008df1",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-parent-identity-400965-9ca51ba3c87f1337e3d063f0965f788f0cec0ab9eaab25dd16c1bd57a6008df1.json.gz",
+      "retainedSha256": "9fcd07c4dc83a64b86220d5d97da9bb3bea68940ae7a164e9479424a77259d58"
+    },
+    {
+      "key": "supplemental-parent-identity-364162",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=364162&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "364162",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-parent-identity-364162.json",
+      "retrievedAt": "2026-10-02T15:10:00.499Z",
+      "bytes": 336,
+      "sha256": "6cdc2f9e45ba143d561751633a7b98a9f96134bdb5273783a83a4628fe63d6c0",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-parent-identity-364162-6cdc2f9e45ba143d561751633a7b98a9f96134bdb5273783a83a4628fe63d6c0.json.gz",
+      "retainedSha256": "13c5c621cbe19480524b309af9b51ed621a2a341577f7f8dab8c8c7e3569aa86"
+    },
+    {
+      "key": "supplemental-parent-identity-56830",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=56830&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "56830",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-parent-identity-56830.json",
+      "retrievedAt": "2026-10-02T15:10:00.500Z",
+      "bytes": 273,
+      "sha256": "46c74e896cf667b85f8d6b69e370fd4d6d6d2f4a8b73995067811b7488ab71b2",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-parent-identity-56830-46c74e896cf667b85f8d6b69e370fd4d6d6d2f4a8b73995067811b7488ab71b2.json.gz",
+      "retainedSha256": "39e00b6e9542d6d3c0dd12e650a70064a0dcd24568fa07f0af6d8b0c9293526a"
+    },
+    {
+      "key": "supplemental-parent-identity-312556",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=312556&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "312556",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-parent-identity-312556.json",
+      "retrievedAt": "2026-10-02T15:10:00.495Z",
+      "bytes": 275,
+      "sha256": "fe2eae8ba92cbdc5a211b9899b8df365607389cfa10ed3cd317d8efca0bdd0e4",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-parent-identity-312556-fe2eae8ba92cbdc5a211b9899b8df365607389cfa10ed3cd317d8efca0bdd0e4.json.gz",
+      "retainedSha256": "390ca513726bf68c1d70db80425d5acf28c7a5b66931a8c6c59efa23cac3a7d5"
+    },
+    {
+      "key": "supplemental-parent-identity-38996",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=38996&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "38996",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-parent-identity-38996.json",
+      "retrievedAt": "2026-10-02T15:10:00.358Z",
+      "bytes": 285,
+      "sha256": "3391afa8ece0662f68c265d2ef83dcf3b11dd8a4f6be94d1c2834494eb86b9f9",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-parent-identity-38996-3391afa8ece0662f68c265d2ef83dcf3b11dd8a4f6be94d1c2834494eb86b9f9.json.gz",
+      "retainedSha256": "460b333a23c961608abf8cd23361d6313fd04228d29a75100d993e8eb879982e"
+    },
+    {
+      "key": "supplemental-hierarchy-identity-430278",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=430278&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "430278",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-hierarchy-identity-430278.json",
+      "retrievedAt": "2026-10-02T15:13:32.183Z",
+      "bytes": 291,
+      "sha256": "9104632ff70360d39cb71da087ebf1f5c9c44870d19cc8b5fcc556dcaaaea019",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-hierarchy-identity-430278-9104632ff70360d39cb71da087ebf1f5c9c44870d19cc8b5fcc556dcaaaea019.json.gz",
+      "retainedSha256": "821ffd5d0c7b005a54ff73b48e9473954db2f9b87d104e3df3c4aa578f2de915"
+    },
+    {
+      "key": "supplemental-hierarchy-identity-234343",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=234343&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "234343",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-hierarchy-identity-234343.json",
+      "retrievedAt": "2026-10-02T15:13:32.175Z",
+      "bytes": 311,
+      "sha256": "46255369153eb25e1a3c8f46ba771d651c1f56252a1201b6b27fa81ee9f67d36",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-hierarchy-identity-234343-46255369153eb25e1a3c8f46ba771d651c1f56252a1201b6b27fa81ee9f67d36.json.gz",
+      "retainedSha256": "052fe96a3723e316e0b93ecb9fa47f79c7b6c48d716ba4afe42949ae7a16aafe"
+    },
+    {
+      "key": "supplemental-hierarchy-identity-57278",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=57278&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "57278",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-hierarchy-identity-57278.json",
+      "retrievedAt": "2026-10-02T15:13:33.239Z",
+      "bytes": 315,
+      "sha256": "05e7ba4bb1f2e18013b7c664637309eedfb7ecef5f9e3fb1a207b29a1e89a528",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-hierarchy-identity-57278-05e7ba4bb1f2e18013b7c664637309eedfb7ecef5f9e3fb1a207b29a1e89a528.json.gz",
+      "retainedSha256": "262d75eff2f2d4cf32de0cbfc51b2ae690e35cd500e16c2fc5c513ae766ae6b2"
+    },
+    {
+      "key": "supplemental-hierarchy-identity-151359",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=151359&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "151359",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/amniota-remaining-reader-supplemental-hierarchy-identity-151359.json",
+      "retrievedAt": "2026-10-02T15:13:32.216Z",
+      "bytes": 289,
+      "sha256": "6ff33f56530807d6474041b028e0dd6ca379ab45550888f8ee108d93e87c4624",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-supplemental-hierarchy-identity-151359-6ff33f56530807d6474041b028e0dd6ca379ab45550888f8ee108d93e87c4624.json.gz",
+      "retainedSha256": "2ab10f51cca4b9d1515206d01538be0c2552c045e0e0bccc88f52b27ec008750"
+    }
+  ],
+  "sourceOccurrenceRecords": 204122,
+  "reportedAndReturnedOccurrences": 204122,
+  "selectedSpeciesCount": 64,
+  "authoredSpeciesCount": 64,
+  "selectedOccurrenceCount": 105,
+  "groupRoutesAuthored": 65,
+  "newSpeciesProfiles": 64,
+  "newGroupProfiles": 65,
+  "existingProfilesExpanded": 0,
+  "deferredExisting": [],
+  "sourceInsufficient": [
+    {
+      "oid": "txn:374635",
+      "name": "Kallimodon pulchellus",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:381465",
+      "name": "Homoeosaurus struckmanni",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:256456",
+      "name": "Homoeosaurus macrodactylus",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:381455",
+      "name": "Homoeosaurus parvipes",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:202968",
+      "name": "Euposaurus thiollierei",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    }
+  ],
+  "excludedOccurrences": [
+    {
+      "oid": "occ:465579",
+      "tid": "txn:253695",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:811338",
+      "tid": "txn:146360",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:811429",
+      "tid": "txn:375338",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1660895",
+      "tid": "txn:335598",
+      "reason": "qualified identification requires individual source review"
+    }
+  ],
+  "sourceArchivePath": "data/sources/other-lepidosauromorpha-occurrence-guides-2026-10-02-records.jsonl.gz",
+  "sourceArchiveSha256": "742597199f5ebd82f7bac88a82474b3174d28c35b8922292d2fa36a5bff909a9",
+  "authoredPages": [
+    {
+      "pbdbTaxonId": "txn:138975",
+      "scientificName": "Kudnu mackinlayi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Kudnu/Kudnu_mackinlayi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:410085",
+      "scientificName": "Vellbergia bartholomaei",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Vellbergia/Vellbergia_bartholomaei",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:518917",
+      "scientificName": "Hohlachia multidens",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Hohlachia/Hohlachia_multidens",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:178334",
+      "scientificName": "Sophineta cracoviensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Sophineta/Sophineta_cracoviensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:146360",
+      "scientificName": "Coartaredens isaaci",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Coartaredens/Coartaredens_isaaci",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:445992",
+      "scientificName": "Taytalura alcoberi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Taytalura/Taytalura_alcoberi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:252019",
+      "scientificName": "Tamaulipasaurus morenoi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Tamaulipasaurus/Tamaulipasaurus_morenoi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:161844",
+      "scientificName": "Santaisaurus yuani",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Paliguanidae/Santaisaurus/Santaisaurus_yuani",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:518919",
+      "scientificName": "Klainjosaura staroskalja",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Klainjosaura/Klainjosaura_staroskalja",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:518915",
+      "scientificName": "Airistagiz seegisi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Airistagiz/Airistagiz_seegisi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:434056",
+      "scientificName": "Vinitasaura lizae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Vinitasaura/Vinitasaura_lizae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:144690",
+      "scientificName": "Paliguana whitei",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Paliguana/Paliguana_whitei",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:251989",
+      "scientificName": "Rebbanasaurus jaini",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Rebbanasaurus/Rebbanasaurus_jaini",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:499872",
+      "scientificName": "Parvosaurus harudensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Parvosaurus/Parvosaurus_harudensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:248203",
+      "scientificName": "Sphenocondor gracilis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Sphenocondor/Sphenocondor_gracilis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:64135",
+      "scientificName": "Diphydontosaurus avonis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Diphydontosaurus/Diphydontosaurus_avonis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:438184",
+      "scientificName": "Micromenodon pitti",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Micromenodon/Micromenodon_pitti",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:197328",
+      "scientificName": "Tingitana anoualae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Tingitana/Tingitana_anoualae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:65782",
+      "scientificName": "Opisthias rarus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Opisthias/Opisthias_rarus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:247715",
+      "scientificName": "Clevosaurus hudsoni",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Clevosauridae/Clevosaurus/Clevosaurus_hudsoni",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:177704",
+      "scientificName": "Clevosaurus bairdi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Clevosauridae/Clevosaurus/Clevosaurus_bairdi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:146635",
+      "scientificName": "Clevosaurus brasiliensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Clevosauridae/Clevosaurus/Clevosaurus_brasiliensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:335655",
+      "scientificName": "Clevosaurus sectumsemper",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Clevosauridae/Clevosaurus/Clevosaurus_sectumsemper",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:68150",
+      "scientificName": "Clevosaurus convallis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Clevosauridae/Clevosaurus/Clevosaurus_convallis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:366383",
+      "scientificName": "Clevosaurus cambrica",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Clevosauridae/Clevosaurus/Clevosaurus_cambrica",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:335278",
+      "scientificName": "Clevosaurus minor",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Clevosauridae/Clevosaurus/Clevosaurus_minor",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:393403",
+      "scientificName": "Clevosaurus hadroprodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Clevosauridae/Clevosaurus/Clevosaurus_hadroprodon",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:375338",
+      "scientificName": "Brachyrhinodon taylori",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Clevosauridae/Brachyrhinodon/Brachyrhinodon_taylori",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:414503",
+      "scientificName": "Lanceirosphenodon ferigoloi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Lanceirosphenodon/Lanceirosphenodon_ferigoloi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:171983",
+      "scientificName": "Polysphenodon muelleri",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Polysphenodon/Polysphenodon_muelleri",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:374636",
+      "scientificName": "Kallimodon cerinensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Saphaeosauridae/Kallimodon/Kallimodon_cerinensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:335538",
+      "scientificName": "Sapheosaurus thiollierei",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Saphaeosauridae/Sapheosaurus/Sapheosaurus_thiollierei",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:381474",
+      "scientificName": "Acrosaurus frischmanni",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Pleurosauridae/Acrosaurus/Acrosaurus_frischmanni",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:194923",
+      "scientificName": "Palaeopleurosaurus posidoniae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Pleurosauridae/Palaeopleurosaurus/Palaeopleurosaurus_posidoniae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:335541",
+      "scientificName": "Pleurosaurus goldfussi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Pleurosauridae/Pleurosaurus/Pleurosaurus_goldfussi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:335598",
+      "scientificName": "Pleurosaurus ginsburgi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Pleurosauridae/Pleurosaurus/Pleurosaurus_ginsburgi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:256459",
+      "scientificName": "Homoeosaurus rhodani",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Homoeosauridae/Homoeosaurus/Homoeosaurus_rhodani",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:172365",
+      "scientificName": "Homoeosaurus solnhofensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Homoeosauridae/Homoeosaurus/Homoeosaurus_solnhofensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:254022",
+      "scientificName": "Homoeosaurus maximiliani",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Homoeosauridae/Homoeosaurus/Homoeosaurus_maximiliani",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:364890",
+      "scientificName": "Ischnosaurus gervaisii",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Homoeosauridae/Ischnosaurus/Ischnosaurus_gervaisii",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:197141",
+      "scientificName": "Pamizinsaurus tlayuanensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Pamizinsaurus/Pamizinsaurus_tlayuanensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:526093",
+      "scientificName": "Sphenodraco scandentis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Sphenodraco/Sphenodraco_scandentis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:458375",
+      "scientificName": "Microsphenodon bonapartei",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Microsphenodon/Microsphenodon_bonapartei",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:462041",
+      "scientificName": "Opisthiamimus gregori",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Opisthiamimus/Opisthiamimus_gregori",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:253699",
+      "scientificName": "Pelecymala robustus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Pelecymala/Pelecymala_robustus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:130178",
+      "scientificName": "Whitakersaurus bermani",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Whitakersaurus/Whitakersaurus_bermani",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:251991",
+      "scientificName": "Godavarisaurus lateefi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Godavarisaurus/Godavarisaurus_lateefi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:526098",
+      "scientificName": "Coloradosphenodon lahni",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Coloradosphenodon/Coloradosphenodon_lahni",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:202663",
+      "scientificName": "Lamarquesaurus cabazai",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Lamarquesaurus/Lamarquesaurus_cabazai",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:253695",
+      "scientificName": "Planocephalosaurus robinsonae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Planocephalosaurus/Planocephalosaurus_robinsonae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:80809",
+      "scientificName": "Planocephalosaurus lucasi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Planocephalosaurus/Planocephalosaurus_lucasi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:251817",
+      "scientificName": "Euposaurus thiolleri",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Euposaurus/Euposaurus_thiolleri",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:133471",
+      "scientificName": "Sauroeidepus quthingensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sauroeidepus/Sauroeidepus_quthingensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:180409",
+      "scientificName": "Cargninia enigmatica",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Cargninia/Cargninia_enigmatica",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:371881",
+      "scientificName": "Fraxinisaura rozynekae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Fraxinisaura/Fraxinisaura_rozynekae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:202559",
+      "scientificName": "Pamelina polonica",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauriformes/Kuehneosauridae/Pamelina/Pamelina_polonica",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:252435",
+      "scientificName": "Kuehneosuchus latissimus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauriformes/Kuehneosauridae/Kuehneosuchus/Kuehneosuchus_latissimus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:156159",
+      "scientificName": "Icarosaurus siefkeri",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauriformes/Kuehneosauridae/Icarosaurus/Icarosaurus_siefkeri",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:202965",
+      "scientificName": "Kuehneosaurus latus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauriformes/Kuehneosauridae/Kuehneosaurus/Kuehneosaurus_latus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:492428",
+      "scientificName": "Idiosaura virginiensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauriformes/Kuehneosauridae/Idiosaura/Idiosaura_virginiensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:240020",
+      "scientificName": "Marmoretta oxoniensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Marmoretta/Marmoretta_oxoniensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:427719",
+      "scientificName": "Feralisaurus corami",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Feralisaurus/Feralisaurus_corami",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:55053",
+      "scientificName": "Anisodontosaurus greeri",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Anisodontosaurus/Anisodontosaurus_greeri",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:163344",
+      "scientificName": "Blomosaurus ivachnenkoi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Blomosaurus/Blomosaurus_ivachnenkoi",
+      "rank": "species"
+    }
+  ],
+  "authoredGroupPages": [
+    {
+      "pbdbTaxonId": "txn:37794",
+      "scientificName": "Lepidosauromorpha",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:92225",
+      "scientificName": "Kudnu",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Kudnu",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:410084",
+      "scientificName": "Vellbergia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Vellbergia",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:518916",
+      "scientificName": "Hohlachia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Hohlachia",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:178333",
+      "scientificName": "Sophineta",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Sophineta",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:146359",
+      "scientificName": "Coartaredens",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Coartaredens",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:445991",
+      "scientificName": "Taytalura",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Taytalura",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:252018",
+      "scientificName": "Tamaulipasaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Tamaulipasaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37834",
+      "scientificName": "Paliguanidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Paliguanidae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:37545",
+      "scientificName": "Santaisaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Paliguanidae/Santaisaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:518918",
+      "scientificName": "Klainjosaura",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Klainjosaura",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:518914",
+      "scientificName": "Airistagiz",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Airistagiz",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:434055",
+      "scientificName": "Vinitasaura",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Vinitasaura",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37836",
+      "scientificName": "Paliguana",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Paliguana",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:95312",
+      "scientificName": "Lepidosauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria",
+      "rank": "superorder"
+    },
+    {
+      "pbdbTaxonId": "txn:53216",
+      "scientificName": "Sphenodontia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:251988",
+      "scientificName": "Rebbanasaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Rebbanasaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:499871",
+      "scientificName": "Parvosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Parvosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:248201",
+      "scientificName": "Sphenocondor",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Sphenocondor",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:64134",
+      "scientificName": "Diphydontosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Diphydontosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:438183",
+      "scientificName": "Micromenodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Micromenodon",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:197327",
+      "scientificName": "Tingitana",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Tingitana",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37820",
+      "scientificName": "Opisthias",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Opisthias",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:371922",
+      "scientificName": "Eusphenodontia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia",
+      "rank": "infraorder"
+    },
+    {
+      "pbdbTaxonId": "txn:132133",
+      "scientificName": "Clevosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Clevosauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:68149",
+      "scientificName": "Clevosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Clevosauridae/Clevosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37813",
+      "scientificName": "Brachyrhinodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Clevosauridae/Brachyrhinodon",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:414502",
+      "scientificName": "Lanceirosphenodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Lanceirosphenodon",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37824",
+      "scientificName": "Polysphenodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Polysphenodon",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:371921",
+      "scientificName": "Neosphenodontia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:92233",
+      "scientificName": "Saphaeosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Saphaeosauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:122299",
+      "scientificName": "Kallimodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Saphaeosauridae/Kallimodon",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37827",
+      "scientificName": "Sapheosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Saphaeosauridae/Sapheosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37831",
+      "scientificName": "Pleurosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Pleurosauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:381473",
+      "scientificName": "Acrosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Pleurosauridae/Acrosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36580",
+      "scientificName": "Palaeopleurosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Pleurosauridae/Palaeopleurosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:36581",
+      "scientificName": "Pleurosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Pleurosauridae/Pleurosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:308816",
+      "scientificName": "Homoeosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Homoeosauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:92232",
+      "scientificName": "Homoeosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Homoeosauridae/Homoeosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:364889",
+      "scientificName": "Ischnosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Homoeosauridae/Ischnosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:197140",
+      "scientificName": "Pamizinsaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Pamizinsaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:526092",
+      "scientificName": "Sphenodraco",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Neosphenodontia/Sphenodraco",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:458374",
+      "scientificName": "Microsphenodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Microsphenodon",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:462040",
+      "scientificName": "Opisthiamimus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Eusphenodontia/Opisthiamimus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37823",
+      "scientificName": "Pelecymala",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Pelecymala",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:130177",
+      "scientificName": "Whitakersaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Whitakersaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:251990",
+      "scientificName": "Godavarisaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Godavarisaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:526097",
+      "scientificName": "Coloradosphenodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Coloradosphenodon",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:202662",
+      "scientificName": "Lamarquesaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Lamarquesaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37825",
+      "scientificName": "Planocephalosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sphenodontia/Planocephalosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37852",
+      "scientificName": "Euposaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Euposaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:133383",
+      "scientificName": "Sauroeidepus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Sauroeidepus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:180408",
+      "scientificName": "Cargninia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauria/Cargninia",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:371880",
+      "scientificName": "Fraxinisaura",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Fraxinisaura",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:202560",
+      "scientificName": "Lepidosauriformes",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauriformes",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:37838",
+      "scientificName": "Kuehneosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauriformes/Kuehneosauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:202558",
+      "scientificName": "Pamelina",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauriformes/Kuehneosauridae/Pamelina",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37842",
+      "scientificName": "Kuehneosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauriformes/Kuehneosauridae/Kuehneosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37840",
+      "scientificName": "Icarosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauriformes/Kuehneosauridae/Icarosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:37841",
+      "scientificName": "Kuehneosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauriformes/Kuehneosauridae/Kuehneosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:492427",
+      "scientificName": "Idiosaura",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Lepidosauriformes/Kuehneosauridae/Idiosaura",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:240018",
+      "scientificName": "Marmoretta",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Marmoretta",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:427718",
+      "scientificName": "Feralisaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Feralisaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38201",
+      "scientificName": "Anisodontosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Anisodontosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:92224",
+      "scientificName": "Blomosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Neodiapsida/Sauria/Lepidosauromorpha/Blomosaurus",
+      "rank": "genus"
+    }
+  ],
+  "canonicalStorage": "Recorded PBDB ancestry below the previously documented Lepidosauromorpha path; no internal taxon ID or COL equivalence minted. Existing index and other record types preserved.",
+  "sourceInterpretation": "eag/lag are occurrence-age brackets; selected outer envelope does not establish FAD/LAD, origin/extinction or continuous occupancy. Collection environment and preservation modes are collection-level fields, not whole-species ecological or specimen claims.",
+  "underlyingPapersRead": false,
+  "expertReview": false,
+  "fullSpeciesMonographsCompleted": 0,
+  "primatesGapsClosed": 0,
+  "readerVisibleDelivery": "Canonical prose prepared. PBDB atlas/profile/navigation compatibility mapping, generation, runtime delivery and publication pending content-phase handoff.",
+  "projectionMapping": "Do not inject PBDB OIDs into COL catalogue profile descriptors. Convert/append the current catalogue-profile text pointers to PBDB atlas-profile using recorded external OIDs at content handoff, preserving existing atlas records and scientific uncertainties.",
+  "editorialPass": {
+    "englishGrammarParagraphs": 98,
+    "chineseLabelParagraphs": 64,
+    "neutralLimitHeadings": 258,
+    "scope": "Only current P5-54 paragraph markers and new neutral limitation headings. Source rows, percentages, ages, names, citations and maturity states retained.",
+    "additionalChineseLabelParagraphs": 14,
+    "representativePagesRead": [
+      "Kudnu mackinlayi",
+      "Lepidosauromorpha"
+    ],
+    "chineseRankParagraphs": 64,
+    "additionalEnvironmentLabelParagraphs": 0
+  },
+  "timelineEndpointProvenance": {
+    "localeParagraphs": 128,
+    "scope": "Named collection and occurrence ID identify one contributor to each selected outer bound. Source ages and rows unchanged."
+  }
+}

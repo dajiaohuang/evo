@@ -1,0 +1,228 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Microtus paroperarius
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Microtus paroperarius
+      en: Microtus paroperarius
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Microtus paroperarius
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=48600&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:48600; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:48600
+            selectedOccurrenceIds:
+              - occ:196162
+              - occ:196186
+              - occ:196686
+              - occ:196867
+              - occ:196891
+              - occ:197014
+              - occ:197118
+              - occ:197594
+              - occ:197640
+              - occ:197646
+              - occ:197656
+              - occ:197662
+              - occ:197670
+              - occ:197673
+              - occ:197679
+              - occ:197681
+              - occ:197693
+              - occ:197763
+              - occ:198053
+              - occ:198067
+              - occ:198074
+              - occ:198104
+              - occ:198468
+              - occ:198730
+              - occ:199024
+              - occ:199055
+              - occ:199141
+              - occ:199158
+              - occ:199190
+              - occ:199195
+              - occ:290322
+              - occ:1033877
+            selectedCollectionIds:
+              - col:20163
+              - col:20164
+              - col:20280
+              - col:20290
+              - col:20292
+              - col:20301
+              - col:20306
+              - col:20352
+              - col:20356
+              - col:20358
+              - col:20359
+              - col:20360
+              - col:20361
+              - col:20362
+              - col:20365
+              - col:20366
+              - col:20369
+              - col:20383
+              - col:20405
+              - col:20407
+              - col:20408
+              - col:20413
+              - col:20477
+              - col:20503
+              - col:20553
+              - col:20555
+              - col:20560
+              - col:20563
+              - col:20567
+              - col:20568
+              - col:27666
+              - col:123875
+            sourceReferenceIds:
+              - ref:6202
+              - ref:1319
+              - ref:1054
+              - ref:1628
+              - ref:2586
+              - ref:1858
+              - ref:1462
+              - ref:2939
+              - ref:3799
+              - ref:1630
+              - ref:1022
+              - ref:2549
+              - ref:2774
+              - ref:1899
+              - ref:1200
+              - ref:40654
+            originalIdentificationMappings:
+              - occurrenceId: occ:197014
+                originalIdentifiedName: Microtus paroperarius n. sp.
+                acceptedName: Microtus paroperarius
+                difference: null
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Microtus paroperarius

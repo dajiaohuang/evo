@@ -1,0 +1,44 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: zh
+status: source-linked
+---
+
+# Rallicula leucospila
+
+## 从 Rallina 旧组合定位当前页面
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
+本页按 COL26.8 Rallicula leucospila（4RB99）及 Sarothruridae（CPHSJ）组织。BirdLife 2020 第 2697 行使用本页种名，原科名 Rallidae；eBird 2021 第 9077 行与 BirdTree 第 9023 行都记 Rallina leucospila。关联类型分别为 1BL to 1eBird、1BL to 1BT；eBird 两侧 Avibase ID 同为 AVIBASE-545ECAD4。逐字目录异名 4RB9H 指向接受种 4RB99。旧属名和旧科名保留为来源记录，名称关联不证明历史与当前物种范围完全相同。
+<!-- /evo:text -->
+
+## 性别计数与完整测量分开
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+形态共 4 只鸟：雌 2、雄 2、性别未定 0；完整测量 4 只。鼻孔前缘至喙尖 13.1 mm、跗蹠 36.3 mm、未压平翼长 106.8 mm、尾长 64 mm、手翼指数 1.3 是历史行均值。完整数与总数相等，仍不提供个体变异范围。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100；低指数不能据此判定不能飞，翼长也不是实测飞行能力。
+<!-- /evo:text -->
+
+## 平均体重另有文献来源
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+Mass=120 g，Mass.Source=Dunning，是包含雌雄的汇编物种平均体重。上节 4 只形态鸟不是已核实的称重分母；未读原书、称重个体、逐条地点或日期，不补性别、季节或地区体重范围，也不从体重与翼长推出飞行能力。
+<!-- /evo:text -->
+
+## 食无脊椎生态位与肉食营养级
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+Trophic.Niche=Invertivore，定义为至少60%食物资源来自陆地系统的无脊椎动物；Trophic.Level=Carnivore，定义为至少70%资源来自活的无脊椎或脊椎动物。两个阈值是类别定义，不是本种实测比例。未读底层食性文献，不能指定昆虫种类、其他猎物、季节食谱或捕食动作；肉食类别也不等同专食脊椎动物。
+<!-- /evo:text -->
+
+## 地面活动与密集森林分别读
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+Primary.Lifestyle=Terrestrial，定义为多数时间在地面并边走或跳边获取食物，定义也包括身体高于水面涉水的鸟；本行不证明本种实测涉水行为。Habitat=Forest，Habitat.Density=1 表示密集植被环境，不是鸟的数量密度，也不确定具体林层。Migration=1 为留居类别，不表示终生不移动。相同代码不补共同猎物、繁殖、飞行能力或当前分布；历史地图字段本批未解读。
+<!-- /evo:text -->
+
+## 证据边界
+
+<!-- evo:text /records/catalogue-profile/limitations/zh -->
+本页使用所选四条 AVONET v7 历史行之一、完整 eBird／BirdTree 关联、相关字段定义及 COL ra 分片中的八个相关名称。四个逐字 Rallina 异名各指向接受种，名称关系不证明历史与当前物种范围完全相同。原表 Rallidae 与当前 Sarothruridae 分类分别保留。形态总数、完整测量和 Dunning 文献体重分母独立；未读原始标本、Dunning 原书、完整工作簿或新完整方法论文。没有实测食谱、猎物名单、飞行能力、繁殖、羽色、鸣声、当前地图或季节移动路线。本页不计完整自然史或外部专家审评。
+<!-- /evo:text -->

@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
         text:
           en:
             markdown: page.en.md
@@ -23,17 +21,11 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - ambrose2003
+          - ambrose2013
+          - mdd_alleni
+      - topic: readingPath
         text:
           en:
             markdown: page.en.md
@@ -42,15 +34,10 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/1/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/2
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - ambrose2003
+          - ambrose2013
+          - charles1977
+      - topic: interpretation
         text:
           en:
             markdown: page.en.md
@@ -59,14 +46,10 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/2/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/3
+          - ambrose2003
+          - ambrose2013
+          - charles1977
+          - mdd_alleni
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23

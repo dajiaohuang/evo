@@ -1,0 +1,107 @@
+{
+  "batch": "P5-131",
+  "date": "2026-10-03",
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/Plecturocebus/Plecturocebus_bernhardi",
+      "newBilingualSections": 5
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/Plecturocebus",
+      "newBilingualSections": 2
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae",
+      "newBilingualSections": 2
+    }
+  ],
+  "sharedReference": {
+    "id": "ref-2f000fd5-6860-8219-a161-06127f0ecb71",
+    "title": "A taxonomic review of the titi monkeys, genus Callicebus Thomas, 1903, with the description of two new species, Callicebus bernhardi and Callicebus stephennashi, from Brazilian Amazonia",
+    "authors": [
+      "Marc G. M. van Roosmalen",
+      "Tomas van Roosmalen",
+      "Russell A. Mittermeier"
+    ]
+  },
+  "sourceFiles": [
+    {
+      "file": ".git/titi2002-primary-131.pdf",
+      "sha256": "9b995c9f5d9bd10fedb9758ce0d1fb9b6aa3d597db22188f18f90e845765e00d"
+    },
+    {
+      "file": ".git/roosmalen2002-pages.json",
+      "sha256": "7b0c853e07b29169f949705ce73a0ad4341a2f9c0d1f5ad51546b4398f1a1aa0"
+    }
+  ],
+  "readingScope": "Bernhardi scientific account pp.24–27 and captions 28–30; pixels25–26 and table3, not whole-paper or whole-figure review",
+  "unavailableSource": {
+    "url": "https://static1.1.sqspcdn.com/static/f/1200343/28699203/1758010291527/PC39_Vermeer_et_al_Distribution_taxonomy_NW_titis.pdf",
+    "result": "Both previously published query URL and direct URL returned 404; stopped repeated requests. Existing 2002 discolor and stephennashi pages already contain their type-account material; no duplicate rewriting."
+  },
+  "boundaries": {
+    "holotypeINPA3929AdultSexUnknown": true,
+    "paratypesINPA4029And4033AcquiredJuvenilesThenCaptiveDeaths": true,
+    "apparentNaturalDeathNotIndependentNecropsy": true,
+    "table3RepeatedRowsNotAdditionalIndividuals": true,
+    "whiteTerminalTuftNotEntireWhiteTail": true,
+    "coordinateSecondsAnomaliesNotCorrectedOrMapped": true,
+    "pimentaBuenoIdentificationUnconfirmed": true,
+    "fruitResourceListNotFeedingObservations": true,
+    "callingRemarksNotDensityEstimate": true,
+    "noFresh2025FullReview": true,
+    "classificationCountsRangesAndReviewMaturityUnchanged": true,
+    "activePrimateSourceGaps": 14,
+    "newlyClosedPrimateSourceGaps": 0,
+    "fixedAcceptedPrimateDenominator": 530
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All nine new sections in Chinese and English, all new section metadata and source bindings in three profiles, old section vectors, six appended limitation tails, shared three-author reference and plan entry read from saved files. Five refined Chinese paragraphs, two further group-introduction corrections and all final limitation tails reread.",
+    "excluded": "No full legacy biology audit, tests, validators, generation, commit, publication or external expert review."
+  },
+  "delivery": "Canonical authoring only; no tests, generation, commit or publication",
+  "sourceExtractionProvenance": {
+    "originalPdf": ".git/roosmalen2002-titis-primary.pdf",
+    "sha256": "9b995c9f5d9bd10fedb9758ce0d1fb9b6aa3d597db22188f18f90e845765e00d",
+    "newPublishedDownloadHasSameHash": true
+  },
+  "canonicalFiles": [
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/Plecturocebus/Plecturocebus_bernhardi/evidence.md",
+      "sha256": "75ee5914064621d7019bbc28ed27841385d39491eb8f8f27e40f8bc400687c60"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/Plecturocebus/Plecturocebus_bernhardi/page.zh.md",
+      "sha256": "39c7976ceea6e9f9bd80dfc02a3276df5423f2c132797c4723ae5322860f974b"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/Plecturocebus/Plecturocebus_bernhardi/page.en.md",
+      "sha256": "dce8b7bcdcb7832da4bded1f245761b77cb5187068d72a31c3edf8bb629a4003"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/Plecturocebus/evidence.md",
+      "sha256": "5b716585e0bd3a2a5cf36adfdb75c34841be6b446c794fe862f6214020c3e13d"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/Plecturocebus/page.zh.md",
+      "sha256": "fe200faa6c773a8ca52dfc4b20185efd837a02bed1a76ac3a7fe715c662b2da2"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/Plecturocebus/page.en.md",
+      "sha256": "f32ad2cd8ada6d2489d8d19b682241f833df1aa600696308f3ac4d5e2cebe788"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/evidence.md",
+      "sha256": "43bb5113f22e9711459c4740a1fe0a18e69dce9f3ba99f68859f3931a9c4c8ff"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/page.zh.md",
+      "sha256": "86c2c2946c9ec175c737098547c0fe60116424ac6a9d9f0527c7603e1cdedda5"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/page.en.md",
+      "sha256": "f444b3158111498b83249bdb1e2d1985be310cde12ef51f409cf7def02ce1e11"
+    }
+  ]
+}

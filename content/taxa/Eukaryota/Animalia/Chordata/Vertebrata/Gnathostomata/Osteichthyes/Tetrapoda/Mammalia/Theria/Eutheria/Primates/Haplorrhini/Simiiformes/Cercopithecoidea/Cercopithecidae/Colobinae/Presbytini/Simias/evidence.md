@@ -6,15 +6,13 @@ records:
     scientificName: Simias Miller, 1903
     rank: genus
     sourceDatasetId: "2144"
-    checkedAt: 2026-10-01
+    checkedAt: 2026-10-02
     name:
       en: Pig-tailed langur genus
       zh: 豚尾叶猴属
     reviewStatus: source-linked
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: readingPath
         text:
           en:
             markdown: page.en.md
@@ -23,16 +21,23 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/4
+          - taxonomy
+          - speciesTaxonomy
+          - hadi2009
+          - hadi2012
+          - erb2012
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
     sources:
       referenceBindings:
         - referenceId: ref-7e5458a7-2fc1-87ad-aba0-7f646c7fa380
@@ -114,6 +119,55 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+          metadataVariant: 0
+          sourceKey: eltonTraits2014
+          usage:
+            locator: EltonTraits 1.0; 1 authored historical entries grouped by pinned COL26.8 ancestry.
+            accessedAt: 2026-10-02
+            authoredFieldGroupCounts:
+              diet: 1
+              foraging: 1
+              activity: 1
+            readingTargets:
+              - name: Simias concolor
+                colId: 4XF7W
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Colobinae/Presbytini/Simias/Simias_concolor
+            scope:
+              zh: 本批资料阅读路线，不是整个类群的生态总结。
+              en: Route through this batch, not an ecological summary for the entire group.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - authoredFieldGroupCounts
+            - readingTargets
+            - scope
+        - referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+          metadataVariant: 0
+          sourceKey: eltonTraitsMethods2014
+          usage:
+            locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+            accessedAt: 2026-10-02
+            scope:
+              zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+              en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
             - scope
     limitations:
       en:

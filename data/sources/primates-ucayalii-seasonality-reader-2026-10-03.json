@@ -1,0 +1,120 @@
+{
+  "batch": "P5-71",
+  "date": "2026-10-03",
+  "colId": "BSD3J",
+  "referenceId": "ref-42153e14-b23d-4348-9acd-7831595de2c6",
+  "sourceKey": "heymann2025UcayaliiSeasonality",
+  "referenceReused": true,
+  "newReferences": 0,
+  "source": {
+    "url": "https://pb.copernicus.org/articles/12/9/2025/pb-12-9-2025.xml",
+    "status": 200,
+    "bytes": 47529,
+    "sha256": "37cad36d427832d0d2d8e2b40376e3e5dc77209bbbe9c02eecb1c04a668b4a86",
+    "accessedAt": "2026-10-03",
+    "contentType": "application/xml",
+    "title": "Seasonality of sightings of Cacajao ucayalii at the Estación Biológica Quebrada Blanco and implications concerning ranging patterns and habitat use",
+    "authors": [
+      "Eckhard W. Heymann",
+      "Camilo Flores Amasifuén",
+      "Ney Shahuano Tello"
+    ],
+    "doi": "10.5194/pb-12-9-2025",
+    "publishedAt": "2025-09-15",
+    "license": "CC BY 4.0",
+    "licenseLocator": "JATS front/article-meta/permissions; publisher article page.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "archive": "data/sources/snapshots/ucayalii2025-37cad36d427832d0d2d8e2b40376e3e5dc77209bbbe9c02eecb1c04a668b4a86.xml.gz",
+    "archiveSha256": "a616e5535824f94e814992be2086ca7db860d072f72bea268cbff534f5c716b4",
+    "archiveBytes": 12103,
+    "archiveTransformation": "Lossless gzip of original JATS XML; no source adaptation.",
+    "pdf": {
+      "url": "https://pb.copernicus.org/articles/12/9/2025/pb-12-9-2025.pdf",
+      "status": 200,
+      "bytes": 1051321,
+      "sha256": "288d70674ba1db873737e2de76318a87edf87107e58d693d4910b5c302a17daa",
+      "accessedAt": "2026-10-03",
+      "contentType": "application/pdf",
+      "locallyRetained": true,
+      "publicCopy": false
+    },
+    "sourceTextRead": "All publisher article sections; methods and discussion reread in original JATS/PDF.",
+    "visuallyInspectedPdfPages": [
+      3
+    ],
+    "visuallyInspectedFigures": [
+      1,
+      2
+    ]
+  },
+  "sourceBoundaries": {
+    "methodsReportedSightings": 56,
+    "observationYears": "1985–2022",
+    "observationUnit": "Sightings, not individual animals",
+    "effortAdjusted": false,
+    "uniformContinuousMonitoring": false,
+    "fruitPhenologyTrees": 216,
+    "fruitMonitoringYears": [
+      "1997–1998",
+      "2000–2001",
+      "2005"
+    ],
+    "fruitPlantSelection": "Plants exploited by tamarins and titi monkeys, not an uakari-specific seed phenology series.",
+    "rainfallStationDistanceKm": 40,
+    "seasonBins": 6,
+    "rainfallSpearman": {
+      "r": -0.89,
+      "p": "<0.05"
+    },
+    "ripeFruitSpearman": {
+      "r": -0.77,
+      "significant": false
+    },
+    "fourMonthPhenologyLagLocallyMeasured": false,
+    "migrationTracked": false,
+    "minimumReserveAreaMeasured": false,
+    "arcObservations": "Personal communication reported in paper, separate from EBQB sighting series."
+  },
+  "sourceGraphCaution": "Figure 1 visually inspected for seasonal maxima/minima. Its bars appear to imply a different total from the methods-reported 56, but heights were not adopted as exact source counts. Raw data unavailable; no reconciliation or corrected total claimed.",
+  "rawDataset": {
+    "doi": "10.5281/zenodo.16994344",
+    "access": "Publisher DOI link unavailable through web tool; public Zenodo records API HTTP 403 on 2026-10-03.",
+    "downloaded": false,
+    "independentlyReanalysed": false
+  },
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Pitheciinae/Cacajao/Cacajao_ucayalii",
+      "newBilingualSections": 4,
+      "firstSection": 2
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Pitheciinae/Cacajao",
+      "newBilingualSections": 1,
+      "firstSection": 8
+    }
+  ],
+  "editorialPass": {
+    "newBilingualSpeciesSections": 4,
+    "newBilingualGroupSections": 1,
+    "postEditRead": true,
+    "scope": "Full bilingual species prose, including existing two sections and all four new sections; new bilingual group comparison route. Existing taxonomy/source marker values retained.",
+    "currentFileHashes": {
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Pitheciinae/Cacajao/Cacajao_ucayalii/page.zh.md": "90d88680063e2de245c2e189165a015812f99b3acd1b348b28b3f4064e1190c9",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Pitheciinae/Cacajao/Cacajao_ucayalii/page.en.md": "dafb6fad96a2c2393fd0a1d29d122005fd62b1b5d310fe7011f3b96c0f153ae7",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Pitheciinae/Cacajao/Cacajao_ucayalii/evidence.md": "3e7fd7d834dd3ce4ed7ad72a50268aafe60e9b1881bb864d1fde4890098d4b2f",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Pitheciinae/Cacajao/page.zh.md": "ecd98d3083713650bd647c04a3a47e67bc459e77815cca1ef6eaef416110ee07",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Pitheciinae/Cacajao/page.en.md": "3055e123679bb8f52a044abd614bada0356879a4b01fb61fef18d8a5381c96c7",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Pitheciinae/Cacajao/evidence.md": "236ab4ee92b8b25f8a3e58093443561444cd135f2d343248df13f76015378f41"
+    }
+  },
+  "maturity": {
+    "activeSourceGapCount": 14,
+    "newGapClosures": 0,
+    "fixedPrimateDenominator": 530,
+    "expertReview": false,
+    "fullMonograph": false,
+    "readerVisibleDelivery": "Pending content-phase projection/publication handoff."
+  },
+  "delivery": "Canonical bilingual prose, reference binding and lossless CC BY source archive; no tests, generation, commit or publication."
+}

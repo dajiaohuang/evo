@@ -1,0 +1,64 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: zh
+status: source-linked
+---
+
+# Anatidae
+
+
+## Spatula 十种中的形态与生态差别
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
+新增十种 Spatula 的 AVONET 导读把形态、文献体重、粗食性与迁移分开。开放湿地这个共同标签没有消除喙宽、取食生态位和留居／迁移类别的差别；同一水生植物生态位也可出现在不同迁移类别里。这组历史行不代表整科或当前所有种群的生态。
+<!-- /evo:text -->
+
+## 从旧 Anas 对应回到物种页
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+沿 [Spatula](Spatula/page.zh.md) 进入十种页面，先看样本和旧名，再读食物生态位与营养级。工作簿十条旧 Anas 对应都是一对一；已读 COL 分片支持八个旧组合，cyanoptera 与 versicolor 的旧名只按表内对应保留。不要直接把这些历史行并入当前 Anas 属的后代统计；本入口不改原有批次范围或计数。
+<!-- /evo:text -->
+
+## 本地数据阅读路径
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+Anatidae 的本批阅读路径包含 123 条有测量来源的物种记录，可从 Aix galericulata、Aix sponsa、Alopochen aegyptiaca、Amazonetta brasiliensis、Anas acuta 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
+<!-- /evo:text -->
+
+## 记录之间有什么差别
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+本批体重汇编均值的两端为 Nettapus auritus 的 266 g 与 Cygnus buccinator 的 11071.13 g。所含栖地类别包括 森林、淡水湿地、河流或溪流周边、草地、灌丛，食性类别包括 以水生植物材料为主、利用多类食物、没有单一主导食性、以水生动物为主、以其他陆生植物材料为主。这些例子帮助选择比较页面，不用来代替全类群共同特征或全后代清单。
+<!-- /evo:text -->
+
+
+## 按生活史字段选择对读页面
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+Anatidae 的本批路线包含 129 条历史生活史导读，可从 Aix galericulata、Aix sponsa、Alopochen aegyptiaca、Amazonetta brasiliensis、Anas acuta 开始。较多条目具有的字段包括 成年体重（129 条）、每窝幼体数或卵数（129 条）、产卵至孵化的时间（128 条）、具备飞行能力的年龄（部分材料指离巢）（87 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
+<!-- /evo:text -->
+
+
+## 沿食物、取食位置和活动时段对读
+
+<!-- evo:text /records/catalogue-profile/sections/5/text/zh -->
+Anatidae 的本批路线包含 123 个历史条目，可从 Dendrocygna guttata、Dendrocygna eytoni、Dendrocygna bicolor、Dendrocygna arcuata、Dendrocygna javanica 开始。其中 123 条可读食物类别权重，123 条可读取食层位，0 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
+<!-- /evo:text -->
+
+
+## 沿食物、取食位置和活动时段对读
+
+<!-- evo:text /records/catalogue-profile/sections/6/text/zh -->
+Anatidae 的本批路线包含 3 个历史条目，可从 Tachyeres leucocephalus、Anas bernieri、Aythya baeri 开始。其中 0 条可读食物类别权重，3 条可读取食层位，0 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
+<!-- /evo:text -->
+
+## 证据边界
+
+<!-- evo:text /records/catalogue-profile/limitations/zh -->
+本导读仅概括本批有直接测量、历史分类一对一且目录同名同科的资料，不代表该类群全部接受后代。体重端点比较的是不同记录的汇编均值，不是某个物种的个体最小值与最大值。分类对应、原始采样与其他生物学主题的限制见各物种页。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成，未经过外部专家评审。
+本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论和外部专家审评未完成。
+本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论和外部专家审评未完成。
+另增十种 Spatula 历史行的名称、样本与生态导读；八个旧组合有已读 COL 异名支持，另两种只保留来源表映射，未计完整自然史。
+<!-- /evo:text -->

@@ -1,0 +1,392 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Dromaius novaehollandiae
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Dromaius novaehollandiae
+      en: Dromaius novaehollandiae
+    reviewStatus: source-linked
+    checkedAt: 2026-10-03
+    sections:
+      - topic: genomeMaterial
+        sourceIds:
+          - sackton2019FlightLossReader
+          - cloutier2019PalaeognathReader
+          - ncbi2019PalaeognathWgsReader
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: phylogeneticComparison
+        sourceIds:
+          - sackton2019FlightLossReader
+          - cloutier2019PalaeognathReader
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/6/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/6/text/en
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/7/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/7/text/en
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/8/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/8/text/en
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/9/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/9/text/en
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/10/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/10/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+          metadataVariant: 0
+          sourceKey: taxonomy
+          usage:
+            title: Catalogue of Life COL26.8 — Dromaius novaehollandiae
+            url: https://www.checklistbank.org/dataset/316115/taxon/37PLM
+            locator: Pinned accepted name, rank and ancestry; concept equivalence not established.
+          originalFields:
+            - id
+            - title
+            - url
+            - locator
+        - referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+          metadataVariant: 0
+          sourceKey: amnioteLifeHistory2015
+          usage:
+            locator: Amniote_Database_Aug_2015.csv row 1042; name Dromaius novaehollandiae; reference table row 1042; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            availableFields:
+              - adult_body_mass_g
+              - female_maturity_d
+              - litter_or_clutch_size_n
+              - incubation_d
+              - maximum_longevity_y
+            originalReferenceStrings:
+              adult_body_mass_g: mean of Szekely, Lislevand, and Figuerola, 2007 & Dunning, 1992 from median of 12(Wasser, D.E. and P.W. Sherman, 2010, Dunning, 1992, Dunning, 1992, Dunning, 1992, Dunning, 1992, de Magalhaes and Costa, 2009, Ricklefs, 2010b, Dyke and Kaiser, 2010, Szekely, Lislevand, and Figuerola, 2007, Werner and Griebeler, 2013, Werner and Griebeler, 2012, Bennett, 1986)
+              female_maturity_d: Bennett, 1986
+              litter_or_clutch_size_n: mean of Dickison, M.R., 2007 & Bennett, 1986 from median of 8(Davies, S.J.J.F., 2002, Davies, S.J.J.F., 2002, Szekely, Lislevand, and Figuerola, 2007, Dickison, M.R., 2007, Davies, S.J.J.F., 2002, Werner and Griebeler, 2013, Werner and Griebeler, 2012, Bennett, 1986)
+              incubation_d: Bennett, 1986 from median of 3(Dickison, M.R., 2007, Ricklefs, 2010b, Bennett, 1986)
+              maximum_longevity_y: Carey, J.R. and D.S. Judge, 2002
+            sameNameSourceLabels:
+              - Dunning, 1992
+              - Szekely, Lislevand, and Figuerola, 2007
+              - de Magalhaes and Costa, 2009
+              - Ricklefs, 2010b
+              - Bennett, 1986
+              - Dyke and Kaiser, 2010
+              - Werner and Griebeler, 2012
+              - Werner and Griebeler, 2013
+              - Wasser, D.E. and P.W. Sherman, 2010
+              - Dickison, M.R., 2007
+              - Davies, S.J.J.F., 2002
+              - Carey, J.R. and D.S. Judge, 2002
+            sourceVersion: August 2015 archive
+            sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+            scope:
+              zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+              en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - availableFields
+            - originalReferenceStrings
+            - sameNameSourceLabels
+            - sourceVersion
+            - sourceFileSha256
+            - scope
+        - referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+          metadataVariant: 0
+          sourceKey: amnioteLifeHistoryMethods2015
+          usage:
+            locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+              en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+            sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+            sourceVersion: August 2015 archive
+            readerBoundaries:
+              - No field values treated as independent individual measurements.
+              - No guarantee of present taxonomic concept equivalence.
+              - Original input papers not individually reviewed.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+            - sourceRetrievalUrl
+            - sourceVersion
+            - readerBoundaries
+        - referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+          metadataVariant: 0
+          sourceKey: eltonTraits2014
+          usage:
+            locator: BirdFuncDat.txt logical TSV row 8; Scientific=Dromaius novaehollandiae; BirdFuncDatSources.txt; selected group source labels retained separately.
+            accessedAt: 2026-10-02
+            sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+            sourceFileSha256: 97216eb1797da077169ebb1ebea275db293b09fc62f8bb8911f9beb98c50d321
+            selectedFieldGroups:
+              diet:
+                fields:
+                  - Diet-Inv
+                  - Diet-Vend
+                  - Diet-Vect
+                  - Diet-Vfish
+                  - Diet-Vunk
+                  - Diet-Scav
+                  - Diet-Fruit
+                  - Diet-Nect
+                  - Diet-Seed
+                  - Diet-PlantO
+                references:
+                  - id: Ref_1
+                    verbatim: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+                certainty: A
+              foraging:
+                fields:
+                  - ForStrat-watbelowsurf
+                  - ForStrat-wataroundsurf
+                  - ForStrat-ground
+                  - ForStrat-understory
+                  - ForStrat-midhigh
+                  - ForStrat-canopy
+                  - ForStrat-aerial
+                references:
+                  - id: Ref_1
+                    verbatim: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+                speciesLevel: "1"
+            withheldFieldGroups: []
+            sourceRecordComment: ""
+            associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+            scope:
+              zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+              en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - sourceVersion
+            - sourceFileSha256
+            - selectedFieldGroups
+            - withheldFieldGroups
+            - sourceRecordComment
+            - associationBoundary
+            - scope
+        - referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+          metadataVariant: 0
+          sourceKey: eltonTraitsMethods2014
+          usage:
+            locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+            accessedAt: 2026-10-02
+            scope:
+              zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+              en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+        - sourceKey: sackton2019FlightLossReader
+          referenceId: ref-5bd64bcf-d144-4042-85d0-7698b80a8c94
+          metadataVariant: 0
+          usage:
+            title: Convergent regulatory evolution and loss of flight in paleognathous birds
+            url: https://doi.org/10.1126/science.aat7244
+            accessedAt: 2026-10-03
+            locator: Published main Science PDF, all main scientific text and captions; figure 1 pixels only; no supplements or rerun
+            scope:
+              zh: 所指物种的材料与跨支系比较；实验角色分别保留。
+              en: Named species material and cross-lineage comparisons; experimental roles remain separate.
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - journal
+            - volume
+            - issue
+            - pages
+            - publishedYear
+            - sourceVersion
+            - url
+            - accessedAt
+            - locator
+            - scope
+        - sourceKey: cloutier2019PalaeognathReader
+          referenceId: ref-21d5a78e-cddb-4430-8d22-79f8a455bf0b
+          metadataVariant: 0
+          usage:
+            title: Whole-Genome Analyses Resolve the Phylogeny of Flightless Birds (Palaeognathae) in the Presence of an Empirical Anomaly Zone
+            url: https://doi.org/10.1093/sysbio/syz019
+            accessedAt: 2026-10-03
+            locator: "PMC6857515: sampling, selected marker extraction and species-tree methods, selected results, discussion paragraphs 100–109; not whole-paper review"
+            scope:
+              zh: 所指物种的材料与跨支系比较；实验角色分别保留。
+              en: Named species material and cross-lineage comparisons; experimental roles remain separate.
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - journal
+            - volume
+            - issue
+            - pages
+            - publishedYear
+            - sourceVersion
+            - url
+            - accessedAt
+            - locator
+            - scope
+        - sourceKey: ncbi2019PalaeognathWgsReader
+          referenceId: ref-6337e69a-f577-45e0-a7d8-aa22aed8fb47
+          metadataVariant: 0
+          usage:
+            title: NCBI GenBank WGS master records for ten extant palaeognath genomes in BioProject PRJNA433110
+            url: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA433110
+            accessedAt: 2026-10-03
+            locator: "Ten GenBank WGS master records: specimen fields only; no raw sequence reanalysis"
+            scope:
+              zh: 所指物种的材料与跨支系比较；实验角色分别保留。
+              en: Named species material and cross-lineage comparisons; experimental roles remain separate.
+          originalFields:
+            - id
+            - title
+            - authors
+            - url
+            - sourceVersion
+            - accessedAt
+            - locator
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Dromaius novaehollandiae

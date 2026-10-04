@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: ecology
         text:
           zh:
             markdown: page.zh.md
@@ -23,8 +21,7 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
+          - raghunathan2020
     sources:
       referenceBindings:
         - referenceId: ref-dabb525b-e302-8fb6-a69d-8e3bb4c7e550

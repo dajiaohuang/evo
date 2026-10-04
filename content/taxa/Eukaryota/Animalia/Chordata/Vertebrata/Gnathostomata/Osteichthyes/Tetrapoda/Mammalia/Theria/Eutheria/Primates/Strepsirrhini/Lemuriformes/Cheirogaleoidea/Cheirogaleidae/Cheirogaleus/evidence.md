@@ -10,11 +10,11 @@ records:
       zh: 侏狐猴属
       en: Dwarf Lemurs
     reviewStatus: source-linked
-    checkedAt: 2026-09-30
+    checkedAt: 2026-10-03
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: methods
+        sourceIds:
+          - lei2014CheirogaleusEvidenceRoute
         text:
           zh:
             markdown: page.zh.md
@@ -22,29 +22,80 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
+      - topic: methods
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/4
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/5
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/6
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/7
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/8
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/9
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/10
+          - lei2014CheirogaleusEvidenceRoute
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: morphology
+        sourceIds:
+          - lei2014CheirogaleusEvidenceRoute
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: readingPath
+        sourceIds:
+          - lei2014CheirogaleusEvidenceRoute
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: overview
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+        sourceIds:
+          - taxonomy
+          - groeneveld2009
+          - lei2014
+          - thiele2013
+          - lei2015
+          - frasier2016
+          - mclain2017
+          - dausmann2004
+          - lahann2007
+          - blanco2026
+          - hending2023
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/6/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/6/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -227,6 +278,148 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+          metadataVariant: 0
+          sourceKey: amnioteLifeHistory2015
+          usage:
+            locator: August 2015 archive; 4 authored same-name records placed under Cheirogaleus by pinned COL ancestry.
+            accessedAt: 2026-10-02
+            scope:
+              zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+              en: Route through this batch’s authored records only; no complete descendant coverage.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+        - referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+          metadataVariant: 0
+          sourceKey: amnioteLifeHistoryMethods2015
+          usage:
+            locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+              en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+            sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+            sourceVersion: August 2015 archive
+            readerBoundaries:
+              - No field values treated as independent individual measurements.
+              - No guarantee of present taxonomic concept equivalence.
+              - Original input papers not individually reviewed.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+            - sourceRetrievalUrl
+            - sourceVersion
+            - readerBoundaries
+        - referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+          metadataVariant: 0
+          sourceKey: eltonTraits2014
+          usage:
+            locator: EltonTraits 1.0; 5 authored historical entries grouped by pinned COL26.8 ancestry.
+            accessedAt: 2026-10-02
+            authoredFieldGroupCounts:
+              diet: 5
+              foraging: 5
+              activity: 5
+            readingTargets:
+              - name: Cheirogaleus crossleyi
+                colId: 5XRNW
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Cheirogaleus/Cheirogaleus_crossleyi
+              - name: Cheirogaleus major
+                colId: 69RNW
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Cheirogaleus/Cheirogaleus_major
+              - name: Cheirogaleus medius
+                colId: 5XRNX
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Cheirogaleus/Cheirogaleus_medius
+              - name: Cheirogaleus minusculus
+                colId: 5Y3NY
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Cheirogaleus/Cheirogaleus_minusculus
+              - name: Cheirogaleus sibreei
+                colId: 69RNZ
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Cheirogaleus/Cheirogaleus_sibreei
+            scope:
+              zh: 本批资料阅读路线，不是整个类群的生态总结。
+              en: Route through this batch, not an ecological summary for the entire group.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - authoredFieldGroupCounts
+            - readingTargets
+            - scope
+        - referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+          metadataVariant: 0
+          sourceKey: eltonTraitsMethods2014
+          usage:
+            locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+            accessedAt: 2026-10-02
+            scope:
+              zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+              en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+        - referenceId: ref-05f17313-9405-86ef-a8fb-d775af45e019
+          metadataVariant: 0
+          sourceKey: lei2014CheirogaleusEvidenceRoute
+          usage:
+            title: "Revision of Madagascar’s Dwarf Lemurs (Cheirogaleidae: Cheirogaleus): Designation of Species, Candidate Species Status and Geographic Boundaries Based on Molecular and Morphological Data"
+            url: https://openresearch-repository.anu.edu.au/bitstreams/d2345941-990c-44e0-ad67-13415edcdddc/download
+            accessedAt: 2026-10-03
+            locator: "Primary ANU repository PDF: printed p.11 Sampling collection and Data generation; printed p.20 nuclear/species-tree results, Population aggregate analyses, Morphometric data, Taxonomy of Cheirogaleus and opening species-concept/naming discussion. These complete named subsections and selected page text read; p.20 visually inspected. Earlier P5-105 read Tables 3–4 headers/notes and minusculus row and p.30 minusculus account. Not a full-article, supplementary-data or phylogenetic rerun review."
+            scope:
+              zh: 2014 年采样、核与线粒体结果不一致、形态比较限制和名称联接的阅读路线。
+              en: Reading route through 2014 sampling, nuclear/mitochondrial incongruence, morphometric limitations and name-to-lineage links.
+            readingTargets:
+              - name: Cheirogaleus minusculus
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Cheirogaleus/Cheirogaleus_minusculus
+              - name: Cheirogaleus sibreei
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Cheirogaleus/Cheirogaleus_sibreei
+              - name: Cheirogaleus crossleyi
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Cheirogaleus/Cheirogaleus_crossleyi
+              - name: Cheirogaleus major
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Cheirogaleus/Cheirogaleus_major
+              - name: Cheirogaleus medius
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Cheirogaleus/Cheirogaleus_medius
+          originalFields:
+            - id
+            - title
+            - url
+            - accessedAt
+            - locator
+            - scope
+            - readingTargets
     limitations:
       zh:
         markdown: page.zh.md

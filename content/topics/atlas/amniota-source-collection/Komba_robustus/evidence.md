@@ -1,0 +1,15 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  collection-status:
+    scientificName: Komba robustus
+    sourceIdentity: PBDB:txn:385231
+    status: source-collection-placeholder
+    ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+    sourceLocators: []
+    expertReview: false
+    comprehensiveSpeciesMonograph: false
+---
+
+# Komba robustus

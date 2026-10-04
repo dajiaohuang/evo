@@ -1,0 +1,44 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: zh
+status: source-linked
+---
+
+# Chelus 属
+
+## 接受的目录记录
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
+Chelus 是 COL26.8 接受的属（COL 87DY8），位于 Chelidae 科、Pleurodira 亚目之下。固定版本记录用于确定分类阅读路径；它本身不描述属内所有物种或其生物学。
+<!-- /evo:text -->
+
+## 基于标本的神经解剖阅读路径
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+Martín-Jiménez 和 Pérez-García（2021）将 Chelus fimbriata 作为龟类颅部神经解剖研究中的一种现生比较类群。研究样本为头骨 MNHN.ZA.AC A9940，作者对其进行 CT 扫描和重建，并与其他曲颈龟类群比较。文中的测量和描述只代表该标本及论文的比较框架，不是对 Chelus 属的总体调查。
+<!-- /evo:text -->
+
+## 证据边界
+
+<!-- evo:text /records/catalogue-profile/limitations/zh -->
+该研究报告一具 Chelus fimbriata 头骨，并非分类修订或完整属级专著。它不能确定种内变异、种群数量、当前分布或保护状况。页面未复制图表。
+<!-- /evo:text -->
+
+## 从有性状记录的物种开始
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+Chelus 的本批 ReptTraits 阅读路径包含 2 条同名同科、有逐性状出处的物种资料，可从 Chelus fimbriata、Chelus orinocensis 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+<!-- /evo:text -->
+
+## 比较前先看测量定义
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+本批只有 Chelus fimbriata 一个具有可用同列尺寸的物种条目：已报道最大直线背甲长（SCL） 950 mm。这是一条物种汇编记录，不能构成不同物种间的尺寸范围，也不表示个体平均或类群大小上限。其他后代的尺寸资料不足或出处待确认，保留缺口。
+<!-- /evo:text -->
+
+## 这组性状资料的边界
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+本导读只概括本批至少四个焦点性状有来源、含尺寸或繁殖数值且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
+<!-- /evo:text -->

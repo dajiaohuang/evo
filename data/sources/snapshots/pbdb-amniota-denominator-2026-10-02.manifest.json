@@ -403,6 +403,14 @@
     }
   ],
   "disjointPartitionResponsePath": "data/sources/snapshots/pbdb-amniota-disjoint-oids-2026-10-02.json",
-  "disjointPartitionResponseSha256": "92b015b3fc778013b2e3a8eabc811db5278d8f538c02ce567c1d7a16c1d9c2f0",
-  "disjointPartitionRecordCount": 22684
+  "disjointPartitionResponseSha256": "10c0f58f1fd5d6ee9e384ed8a80f02f4f5704ac7f99cd7dc7620981a24b86bbf",
+  "disjointPartitionRecordCount": 22684,
+  "derivedIdentifierCorrection": {
+    "batch": "P5-50",
+    "date": "2026-10-02",
+    "correctedIdentifiers": 22684,
+    "priorDerivedFileSha256": "92b015b3fc778013b2e3a8eabc811db5278d8f538c02ce567c1d7a16c1d9c2f0",
+    "priorDerivedFileArchive": "data/sources/snapshots/pbdb-amniota-disjoint-oids-2026-10-02-before-prefix-correction.json.gz",
+    "rule": "Each derived identifier now uses the exact corresponding oid from the unchanged dated PBDB root response. Duplicate txn prefix removed; membership, order and fixed denominators retained."
+  }
 }

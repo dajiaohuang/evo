@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
         text:
           en:
             markdown: page.en.md
@@ -23,17 +21,11 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - mdd_label
+          - gippoliti2017
+          - deJong2021
+      - topic: distributionSurvey
         text:
           en:
             markdown: page.en.md
@@ -42,11 +34,8 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/1/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - deJong2009
+      - topic: distributionUpdate
         text:
           en:
             markdown: page.en.md
@@ -55,8 +44,7 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/2/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
+          - deJong2021
     sources:
       referenceBindings:
         - referenceId: ref-b90d4ca1-26ac-8b37-a590-0e9ea412f67a

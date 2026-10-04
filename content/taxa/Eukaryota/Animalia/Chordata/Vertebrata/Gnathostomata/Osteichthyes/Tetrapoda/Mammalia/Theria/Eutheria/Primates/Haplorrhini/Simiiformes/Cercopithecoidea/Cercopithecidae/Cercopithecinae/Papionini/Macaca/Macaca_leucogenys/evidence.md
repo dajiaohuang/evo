@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: taxonomic study and habitat
         text:
           zh:
             markdown: page.zh.md
@@ -23,8 +21,7 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
+          - leucogenys2015
     sources:
       referenceBindings:
         - referenceId: ref-1c65b1c2-e21b-8a86-a37b-365d81bdc422

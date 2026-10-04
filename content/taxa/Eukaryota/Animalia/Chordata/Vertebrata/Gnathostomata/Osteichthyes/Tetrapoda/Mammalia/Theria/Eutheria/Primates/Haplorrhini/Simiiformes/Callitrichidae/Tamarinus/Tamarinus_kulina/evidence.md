@@ -10,11 +10,9 @@ records:
       zh: 库利纳髭狨
       en: Kulina's Mustached Tamarin
     reviewStatus: source-linked
-    checkedAt: 2026-10-02
+    checkedAt: 2026-10-03
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
         text:
           zh:
             markdown: page.zh.md
@@ -23,17 +21,11 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - lopes2023_peerj
+          - lopes2023_molecular
+          - mdd_current
+      - topic: classification
         text:
           zh:
             markdown: page.zh.md
@@ -42,13 +34,9 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - lopes2023_peerj
+          - lopes2023_molecular
+      - topic: rangeAndFieldRecords
         text:
           zh:
             markdown: page.zh.md
@@ -57,10 +45,28 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/2/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/1
+          - lopes2023_peerj
+          - mdd_current
+      - topic: evolution
+        sourceIds:
+          - lopes2023_peerj
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: taxonomy
+        sourceIds:
+          - lopes2023_peerj
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -94,11 +100,15 @@ records:
               en:
                 markdown: evidence.md
                 field: /records/catalogue-profile/sources/referenceBindings/1/usage/scope/en
+            locator: "JATS sections: Phenotypic data; Molecular data; Taxonomic revision (kulina type account); Figure 4 caption."
+            accessedAt: 2026-10-03
           originalFields:
             - id
             - title
             - url
             - scope
+            - locator
+            - accessedAt
         - referenceId: ref-cf3cafeb-b279-8bc9-af0f-5ce17d190fc1
           metadataVariant: 0
           sourceKey: lopes2023_molecular

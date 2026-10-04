@@ -1,0 +1,196 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Microtus llanensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Microtus llanensis
+      en: Microtus llanensis
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Microtus llanensis
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=48588&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:48588; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:48588
+            selectedOccurrenceIds:
+              - occ:196164
+              - occ:196187
+              - occ:196868
+              - occ:197412
+              - occ:197916
+              - occ:198106
+              - occ:198344
+              - occ:199057
+            selectedCollectionIds:
+              - col:20163
+              - col:20164
+              - col:20290
+              - col:20337
+              - col:20390
+              - col:20413
+              - col:20451
+              - col:20555
+            sourceReferenceIds:
+              - ref:6294
+              - ref:1319
+              - ref:3790
+              - ref:2774
+            originalIdentificationMappings:
+              - occurrenceId: occ:196164
+                originalIdentifiedName: Pedomys llanensis
+                acceptedName: Microtus llanensis
+                difference: recombined as
+              - occurrenceId: occ:196187
+                originalIdentifiedName: Pitymys llanensis
+                acceptedName: Microtus llanensis
+                difference: recombined as
+              - occurrenceId: occ:196868
+                originalIdentifiedName: Pedomys llanensis
+                acceptedName: Microtus llanensis
+                difference: recombined as
+              - occurrenceId: occ:197412
+                originalIdentifiedName: Pedomys llanensis
+                acceptedName: Microtus llanensis
+                difference: recombined as
+              - occurrenceId: occ:197916
+                originalIdentifiedName: Pedomys llanensis
+                acceptedName: Microtus llanensis
+                difference: recombined as
+              - occurrenceId: occ:198106
+                originalIdentifiedName: Pedomys llanensis
+                acceptedName: Microtus llanensis
+                difference: recombined as
+              - occurrenceId: occ:198344
+                originalIdentifiedName: Pedomys llanensis
+                acceptedName: Microtus llanensis
+                difference: recombined as
+              - occurrenceId: occ:199057
+                originalIdentifiedName: Pedomys llanensis
+                acceptedName: Microtus llanensis
+                difference: recombined as
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Microtus llanensis

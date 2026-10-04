@@ -12,9 +12,7 @@ records:
       zh: 圭亚那胡须僧面猴
     reviewStatus: source-linked
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
         text:
           en:
             markdown: page.en.md
@@ -23,13 +21,9 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - mdd
+      - topic: feedingEcology
         text:
           en:
             markdown: page.en.md
@@ -38,11 +32,8 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/1/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - feeding2013
+      - topic: socialOrganization
         text:
           en:
             markdown: page.en.md
@@ -51,11 +42,8 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/2/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/3/topic
+          - activity2013
+      - topic: habitatUse
         text:
           en:
             markdown: page.en.md
@@ -64,8 +52,7 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/3/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/3/sourceIds/0
+          - fragment2023
     sources:
       referenceBindings:
         - referenceId: ref-90c72cdc-8d0b-8caa-a5f9-4e6d79a07d19

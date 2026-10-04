@@ -1,0 +1,348 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Hyopsodus lysitensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Hyopsodus lysitensis
+      en: Hyopsodus lysitensis
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Hyopsodus lysitensis
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=47174&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:47174; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:47174
+            selectedOccurrenceIds:
+              - occ:167790
+              - occ:167808
+              - occ:167816
+              - occ:167817
+              - occ:168004
+              - occ:168011
+              - occ:168015
+              - occ:168026
+              - occ:168039
+              - occ:168046
+              - occ:168049
+              - occ:168053
+              - occ:168061
+              - occ:168069
+              - occ:168079
+              - occ:168089
+              - occ:168096
+              - occ:168105
+              - occ:168106
+              - occ:168112
+              - occ:168141
+              - occ:168145
+              - occ:168336
+              - occ:168370
+              - occ:168382
+              - occ:168386
+              - occ:168389
+              - occ:168400
+              - occ:168404
+              - occ:168454
+              - occ:168459
+              - occ:168523
+              - occ:168530
+              - occ:168534
+              - occ:168537
+              - occ:168540
+              - occ:168542
+              - occ:168545
+              - occ:170947
+              - occ:172669
+              - occ:172671
+              - occ:172673
+              - occ:172677
+              - occ:172680
+              - occ:172683
+              - occ:172687
+              - occ:172848
+              - occ:172850
+              - occ:172853
+              - occ:172855
+              - occ:172988
+              - occ:173002
+              - occ:173005
+              - occ:173008
+              - occ:173011
+              - occ:173013
+              - occ:173015
+              - occ:173017
+              - occ:173020
+              - occ:173022
+              - occ:173025
+              - occ:173028
+              - occ:173030
+              - occ:173032
+              - occ:173035
+              - occ:173038
+              - occ:173040
+              - occ:173042
+              - occ:173044
+              - occ:173046
+              - occ:173048
+              - occ:173051
+              - occ:173053
+              - occ:173056
+              - occ:173059
+              - occ:456868
+              - occ:457578
+              - occ:457589
+              - occ:469586
+              - occ:469626
+              - occ:469678
+              - occ:469707
+              - occ:469723
+              - occ:469735
+              - occ:469741
+              - occ:469774
+              - occ:469787
+              - occ:469817
+              - occ:469820
+              - occ:469829
+              - occ:469839
+              - occ:469854
+              - occ:469868
+              - occ:470411
+              - occ:470420
+              - occ:471076
+              - occ:471086
+              - occ:471303
+              - occ:471542
+              - occ:471554
+              - occ:471568
+            selectedCollectionIds:
+              - col:15224
+              - col:15225
+              - col:15226
+              - col:15227
+              - col:15280
+              - col:15284
+              - col:15287
+              - col:15290
+              - col:15293
+              - col:15294
+              - col:15295
+              - col:15296
+              - col:15302
+              - col:15306
+              - col:15310
+              - col:15314
+              - col:15316
+              - col:15321
+              - col:15322
+              - col:15325
+              - col:15334
+              - col:15336
+              - col:15377
+              - col:15385
+              - col:15388
+              - col:15389
+              - col:15390
+              - col:15393
+              - col:15394
+              - col:15413
+              - col:15414
+              - col:15432
+              - col:15433
+              - col:15434
+              - col:15435
+              - col:15436
+              - col:15437
+              - col:15438
+              - col:15663
+              - col:15919
+              - col:15920
+              - col:15921
+              - col:15924
+              - col:15925
+              - col:15927
+              - col:15928
+              - col:15938
+              - col:15939
+              - col:15940
+              - col:15941
+              - col:15964
+              - col:15965
+              - col:15966
+              - col:15967
+              - col:15968
+              - col:15969
+              - col:15970
+              - col:15971
+              - col:15972
+              - col:15973
+              - col:15974
+              - col:15975
+              - col:15976
+              - col:15977
+              - col:15978
+              - col:15979
+              - col:15980
+              - col:15981
+              - col:15982
+              - col:15983
+              - col:15984
+              - col:15985
+              - col:15986
+              - col:15987
+              - col:15988
+              - col:15680
+              - col:15684
+              - col:15685
+              - col:46692
+              - col:46695
+              - col:46699
+              - col:46700
+              - col:46701
+              - col:46702
+              - col:46703
+              - col:46705
+              - col:46706
+              - col:46709
+              - col:46710
+              - col:46711
+              - col:46712
+              - col:46714
+              - col:46715
+              - col:46763
+              - col:46764
+              - col:46810
+              - col:46811
+              - col:46826
+              - col:46848
+              - col:46849
+              - col:46851
+            sourceReferenceIds:
+              - ref:6223
+              - ref:11717
+            originalIdentificationMappings: []
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Hyopsodus lysitensis

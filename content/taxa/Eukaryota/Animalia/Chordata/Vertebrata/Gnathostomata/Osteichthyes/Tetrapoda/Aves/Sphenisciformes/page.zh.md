@@ -7,92 +7,98 @@ status: source-linked
 
 # Sphenisciformes
 
-## 目级身份
 
-<!-- evo:text /records/catalogue-profile/sections/0/topic -->
-目级身份
-<!-- /evo:text -->
-
-## 目级身份
+## 从具名繁殖群读协调行为
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
+帝企鹅在 Neumayer 站附近的延时记录，为企鹅类群提供一个有明确地点、日期和方法的群体行为案例。四小时轨迹和观察到的移动波，可说明局部群聚如何在紧密排列中重新移动；它们不建立所有企鹅共享的群聚模式、取暖收益或社交等级。类群阅读把这个行为入口与原有形态、生活史和系统研究并列，保留各自取样边界。
+<!-- /evo:text -->
+
+## 先看观察窗口，再读机制假说
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+先到 [Aptenodytes forsteri](Spheniscidae/Aptenodytes/Aptenodytes_forsteri/page.zh.md) 确认 2008 年日期、四小时拍摄、抱蛋阶段与气温，再区分个体小步、移动波和群聚整体位移。接着读边缘进出与作者提出的拥挤／相变类比。影片尚未复看，原研究未直接测量本次体温或代谢，也未确定领头者；这些边界与长时期遗传模型、历史性状汇编分别保留。
+<!-- /evo:text -->
+
+## 基因组、化石与现生名录分别计数
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+Cole 等（2022）把 27 个现生与近期灭绝谱系基因组、47 个化石研究条目的地层信息和形态资料合入亲缘分析。27 包含种、亚种与地区谱系，47 指研究中的化石条目，不能与当前固定 COL26.8 的 18 个企鹅种页相加为接受种总数。加入化石后，作者估计冠群企鹅起源约 1400 万年前；这也不同于更早的干群企鹅历史。
+<!-- /evo:text -->
+
+## 沿六个属比较不同证据
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+[Spheniscus](Spheniscidae/Spheniscus/page.zh.md)、[Pygoscelis](Spheniscidae/Pygoscelis/page.zh.md)、[Eudyptes](Spheniscidae/Eudyptes/page.zh.md) 先带出四个近缘种的差异、地区谱系及冠企鹅名称层级；再读 [Eudyptula](Spheniscidae/Eudyptula/page.zh.md)、[Megadyptes](Spheniscidae/Megadyptes/page.zh.md)、[Aptenodytes](Spheniscidae/Aptenodytes/page.zh.md)，区分小企鹅、灭绝古基因组和大型潜水企鹅的证据。现有属／种页保留形态、食物、繁殖和地方观察，基因组研究补充历史问题，不把所有来源压成相同生态结论。
+<!-- /evo:text -->
+
+## 海洋适应的候选机制保留验证边界
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+企鹅早期的失去空中飞行和翼推进潜水，发生在南极大型冰盖形成之前；2022 年研究据化石与亲缘框架讨论这段转变。它筛选与肢骨、体温调节、携氧、视觉和味觉有关的候选基因变化，使用已知功能解释可能机制。序列选择信号不是对每一种企鹅游泳动作、体温或感觉能力的直接测量，作者也明确缺乏相应转录证据。
+<!-- /evo:text -->
+
+## 固定企鹅目身份与选定阅读路线
+
+<!-- evo:text /records/catalogue-profile/sections/5/text/zh -->
 COL26.8 将 Sphenisciformes 接受为企鹅目（分类单元 ID 44K）。本页串联已有皇帝企鹅与 Pygoscelis 属研究，作为进入这些来源的阅读路径；并非对企鹅目所有谱系的完整介绍。
 <!-- /evo:text -->
 
-## 目级身份
 
-<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/0 -->
-taxonomy
-<!-- /evo:text -->
+## 六个皇帝企鹅繁殖群的遗传联系
 
-## 皇帝企鹅种群联系
-
-<!-- evo:text /records/catalogue-profile/sections/1/topic -->
-皇帝企鹅种群联系
-<!-- /evo:text -->
-
-## 皇帝企鹅种群联系
-
-<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+<!-- evo:text /records/catalogue-profile/sections/6/text/zh -->
 Cristofari 等分析了 2004–2012 年在东南极六个繁殖群采集的 110 只皇帝企鹅 RAD-SNP 数据。共祖模型支持这些繁殖群之间较强的人口学联系，作者据此将其解释为一个遗传种群。样本和模型并不提供当前种群普查或即时迁移率。
 <!-- /evo:text -->
 
-## 皇帝企鹅种群联系
 
-<!-- evo:text /records/catalogue-profile/sections/1/sourceIds/0 -->
-cristofari2016
-<!-- /evo:text -->
+## 皇帝企鹅评估的适用范围
 
-## 皇帝企鹅保护评估
-
-<!-- evo:text /records/catalogue-profile/sections/2/topic -->
-皇帝企鹅保护评估
-<!-- /evo:text -->
-
-## 皇帝企鹅保护评估
-
-<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+<!-- evo:text /records/catalogue-profile/sections/7/text/zh -->
 皇帝企鹅页面还摘要了 BirdLife International 的评估：该评估已获接受，等待收入 IUCN 红色名录 2026(2)，评估日期为 2026 年 2 月 26 日。页面区分卫星影像推导的种群指数与普查，并概述模型预测。上述评估结论适用于皇帝企鹅，不应推广至整个企鹅目。
 <!-- /evo:text -->
 
-## 皇帝企鹅保护评估
 
-<!-- evo:text /records/catalogue-profile/sections/2/sourceIds/0 -->
-iucn2026
-<!-- /evo:text -->
+## 三种 Pygoscelis 的不同研究问题
 
-## Pygoscelis 属的精选研究
-
-<!-- evo:text /records/catalogue-profile/sections/3/topic -->
-Pygoscelis 属的精选研究
-<!-- /evo:text -->
-
-## Pygoscelis 属的精选研究
-
-<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+<!-- evo:text /records/catalogue-profile/sections/8/text/zh -->
 Pygoscelis 属阅读路径连接三个不同案例：Windmill Islands 连续十个繁殖季的巢存活研究、帽带企鹅综合多方法的全球繁殖群评估，以及巴德岛一个异常偏暖冬季的巴布亚企鹅食性研究。三者地点、时段与方法不同，不能作为统一对比，也不能合并成目级种群趋势或生态综合。
 <!-- /evo:text -->
 
-## Pygoscelis 属的精选研究
 
-<!-- evo:text /records/catalogue-profile/sections/3/sourceIds/0 -->
-mclatchie2024
+## 本地数据阅读路径
+
+<!-- evo:text /records/catalogue-profile/sections/9/text/zh -->
+Sphenisciformes 的本批阅读路径包含 18 条有测量来源的物种记录，可从 Aptenodytes forsteri、Aptenodytes patagonicus、Eudyptes chrysocome、Eudyptes chrysolophus、Eudyptes moseleyi 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 <!-- /evo:text -->
 
-## Pygoscelis 属的精选研究
+## 记录之间有什么差别
 
-<!-- evo:text /records/catalogue-profile/sections/3/sourceIds/1 -->
-chinstrapGlobal2020
+<!-- evo:text /records/catalogue-profile/sections/10/text/zh -->
+本批体重汇编均值的两端为 Eudyptula minor 的 1107.82 g 与 Aptenodytes forsteri 的 33569.33 g。所含栖地类别包括 海洋，食性类别包括 以水生动物为主。这些例子帮助选择比较页面，不用来代替全类群共同特征或全后代清单。
 <!-- /evo:text -->
 
-## Pygoscelis 属的精选研究
 
-<!-- evo:text /records/catalogue-profile/sections/3/sourceIds/2 -->
-gentooWinter2009
+## 按生活史字段选择对读页面
+
+<!-- evo:text /records/catalogue-profile/sections/11/text/zh -->
+Sphenisciformes 的本批路线包含 18 条历史生活史导读，可从 Aptenodytes forsteri、Aptenodytes patagonicus、Eudyptes chrysocome、Eudyptes chrysolophus、Eudyptes moseleyi 开始。较多条目具有的字段包括 成年体重（18 条）、每窝幼体数或卵数（18 条）、产卵至孵化的时间（18 条）、具备飞行能力的年龄（部分材料指离巢）（18 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
+<!-- /evo:text -->
+
+
+## 沿食物、取食位置和活动时段对读
+
+<!-- evo:text /records/catalogue-profile/sections/12/text/zh -->
+Sphenisciformes 的本批路线包含 17 个历史条目，可从 Aptenodytes patagonicus、Aptenodytes forsteri、Pygoscelis papua、Pygoscelis adeliae、Pygoscelis antarcticus 开始。其中 17 条可读食物类别权重，17 条可读取食层位，0 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
 <!-- /evo:text -->
 
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
+本导读仅概括本批有直接测量、历史分类一对一且目录同名同科的资料，不代表该类群全部接受后代。体重端点比较的是不同记录的汇编均值，不是某个物种的个体最小值与最大值。分类对应、原始采样与其他生物学主题的限制见各物种页。
 本页是少数已有来源研究构成的精选阅读路径，不覆盖全部科与物种，也不是目级完整生态或分布综述；所列研究不能证明企鹅目存在统一趋势。本文尚未经过领域专家外审。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成，未经过外部专家评审。
+本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论和外部专家审评未完成。
+新增正文依据 Cole 等（2022）的正文、表 1 和图说，保留研究的种、亚种、地区与灭绝谱系标签；与固定 COL26.8 的对应不证明概念完全等同。有效种群规模重建是长时段遗传模型，依赖突变率和时间标定，不能替代当前个体普查。候选基因关联不等于逐项功能验证；P. papua 的圈养感官观察不推广到所有野外谱系。补充矩阵、全部图像、原始基因组及代码未独立检查或重跑。完整生物学、当前状态和读者交付仍未完成，没有外部专家审评。
+新增群聚正文据 Zitterbart 等 2011 年三页出版论文全文、图 1 图说及三个补充影片说明，并查看 PDF 第 1–2 页图像（含图 1）。没有观看影片、取得原始轨迹或重跑统计，也未逐篇新读其引文。观察地点／2008 年日期／四小时窗口、气温与体温、运动相关与领导机制、物理类比与代谢收益分别保留；约 2,000 繁殖群个体不是全部完整跟踪样本。不是全年行为、完整种志或外部专家审评。
 <!-- /evo:text -->

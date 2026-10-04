@@ -12,9 +12,7 @@ records:
       zh: 白眉长臂猿属
     reviewStatus: source-linked
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
         text:
           en:
             markdown: page.en.md
@@ -23,17 +21,11 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - hoolockTaxonomy
+          - leuconedysTaxonomy
+          - tianxingTaxonomy
+      - topic: readingPath
         text:
           en:
             markdown: page.en.md
@@ -42,14 +34,10 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/1/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/3
+          - borah2018
+          - naher2024
+          - roy2015hoolock
+          - aung2024
     sources:
       referenceBindings:
         - referenceId: ref-e9862f18-f81a-83da-a151-de661ddd902f

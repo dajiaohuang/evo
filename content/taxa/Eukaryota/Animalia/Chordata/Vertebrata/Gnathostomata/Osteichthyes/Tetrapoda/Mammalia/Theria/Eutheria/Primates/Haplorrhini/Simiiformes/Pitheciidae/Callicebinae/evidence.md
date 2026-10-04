@@ -1,0 +1,258 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Callicebinae
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      zh: Callicebinae
+      en: Callicebinae
+    reviewStatus: source-linked
+    checkedAt: 2026-10-03
+    sections:
+      - topic: materialComparison
+        sourceIds:
+          - vanDerMije2025TitiTypes
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: readingPath
+        sourceIds:
+          - vanDerMije2025TitiTypes
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: typeComparison
+        sourceIds:
+          - roosmalen2002BernhardiMaterials
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: readingPath
+        sourceIds:
+          - roosmalen2002BernhardiMaterials
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+          metadataVariant: 0
+          sourceKey: taxonomy
+          usage:
+            title: Catalogue of Life COL26.8 — Callicebinae
+            url: https://www.checklistbank.org/dataset/316115/taxon/6274B
+            locator: Pinned name, rank and ancestor closure.
+          originalFields:
+            - id
+            - title
+            - url
+            - locator
+        - referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+          metadataVariant: 0
+          sourceKey: amnioteLifeHistory2015
+          usage:
+            locator: August 2015 archive; 5 authored same-name records placed under Callicebinae by pinned COL ancestry.
+            accessedAt: 2026-10-02
+            scope:
+              zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+              en: Route through this batch’s authored records only; no complete descendant coverage.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+        - referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+          metadataVariant: 0
+          sourceKey: amnioteLifeHistoryMethods2015
+          usage:
+            locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+              en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+            sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+            sourceVersion: August 2015 archive
+            readerBoundaries:
+              - No field values treated as independent individual measurements.
+              - No guarantee of present taxonomic concept equivalence.
+              - Original input papers not individually reviewed.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+            - sourceRetrievalUrl
+            - sourceVersion
+            - readerBoundaries
+        - referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+          metadataVariant: 0
+          sourceKey: eltonTraits2014
+          usage:
+            locator: EltonTraits 1.0; 5 authored historical entries grouped by pinned COL26.8 ancestry.
+            accessedAt: 2026-10-02
+            authoredFieldGroupCounts:
+              diet: 5
+              foraging: 5
+              activity: 5
+            readingTargets:
+              - name: Callicebus coimbrai
+                colId: PML8
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/Callicebus/Callicebus_coimbrai
+              - name: Callicebus barbarabrownae
+                colId: PML2
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/Callicebus/Callicebus_barbarabrownae
+              - name: Callicebus nigrifrons
+                colId: PMLQ
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/Callicebus/Callicebus_nigrifrons
+              - name: Callicebus personatus
+                colId: PMLW
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/Callicebus/Callicebus_personatus
+              - name: Callicebus melanochir
+                colId: PMLL
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/Callicebus/Callicebus_melanochir
+            scope:
+              zh: 本批资料阅读路线，不是整个类群的生态总结。
+              en: Route through this batch, not an ecological summary for the entire group.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - authoredFieldGroupCounts
+            - readingTargets
+            - scope
+        - referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+          metadataVariant: 0
+          sourceKey: eltonTraitsMethods2014
+          usage:
+            locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+            accessedAt: 2026-10-02
+            scope:
+              zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+              en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+        - referenceId: ref-2f000fd5-6860-8219-a161-06127f0ecb71
+          metadataVariant: 0
+          sourceKey: roosmalen2002BernhardiMaterials
+          usage:
+            title: A taxonomic review of the titi monkeys, genus Callicebus Thomas, 1903, with the description of two new species, Callicebus bernhardi and Callicebus stephennashi, from Brazilian Amazonia
+            url: https://doi.org/10.62015/np.2002.v10.503
+            accessedAt: 2026-10-03
+            locator: Published NP10 supplement pp. 24–27, bernhardi account and captions; pp. 28–30 captions; pp. 25–26 pixels and table 3 inspected. No specimen remeasurement or modern population audit.
+            scope:
+              zh: 依据 bernhardi 材料组织比较路径；不外推整个属或亚科。
+              en: Comparison route through bernhardi material, not extrapolation to the genus or subfamily.
+          originalFields:
+            - id
+            - title
+            - url
+            - accessedAt
+            - locator
+            - scope
+        - referenceId: ref-afacf123-823d-48a5-b102-82d3f8a8e63d
+          metadataVariant: 0
+          sourceKey: vanDerMije2025TitiTypes
+          usage:
+            title: Type specimens of recent mammals in Naturalis Biodiversity Center. Part 1 Monotremata, Didelphimorphia, Dasyuromorphia, Peramelemorphia, Diprotodontia, Afrosoricida, Macroscelidea, Hyracoidea, Proboscidea, Scandentia, Primates, Rodentia (Mammalia)
+            url: https://repository.naturalis.nl/pub/801296/Meije-2025-Type-specimens-of-recent-mammals-in-Naturalis-A.pdf
+            accessedAt: 2026-10-03
+            locator: Front matter p. 1; selected introduction/methods and taxonomic-issue discussion pp. 3–4, 6–8; cupreus/discolor/donacophilus accounts pp. 49–50 including continuation. Pixels viewed pp. 49–50. No full article or current physical inventory audit.
+            scope:
+              zh: 三种伶猴的限定类型身份、收藏／行程及命名解释；属与亚科为材料比较入口。
+              en: Bounded type identity, collection/itinerary and nomenclatural interpretations for three titi species; genus/subfamily pages offer material comparisons.
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - journal
+            - volume
+            - pages
+            - publishedYear
+            - publishedAt
+            - url
+            - sourceVersion
+            - accessedAt
+            - locator
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Callicebinae

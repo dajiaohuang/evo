@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: distribution
         text:
           zh:
             markdown: page.zh.md
@@ -23,8 +21,38 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
+          - mourthe2022
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
     sources:
       referenceBindings:
         - referenceId: ref-5f64b6aa-f75e-8d8d-a879-cb95aedb6f6e
@@ -62,6 +90,40 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+          metadataVariant: 0
+          sourceKey: ernestLifeHistories2003
+          usage:
+            locator: Mammal_lifehistories_v2.txt; 1 authored records grouped under pinned COL ancestry.
+            accessedAt: 2026-10-03
+            readingTargets:
+              - colId: PQG3
+                name: Callimico goeldii
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Callitrichidae/Callimico/Callimico_goeldii
+            fieldAccountCounts:
+              gestation(mo): 1
+              newborn(g): 1
+              weaning(mo): 1
+              wean mass(g): 1
+              AFR(mo): 1
+              max. life(mo): 1
+              litter size: 1
+              litters/year: 1
+            scope:
+              zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+              en: This batch’s accounts only; no complete descendant coverage.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - readingTargets
+            - fieldAccountCounts
             - scope
     limitations:
       zh:

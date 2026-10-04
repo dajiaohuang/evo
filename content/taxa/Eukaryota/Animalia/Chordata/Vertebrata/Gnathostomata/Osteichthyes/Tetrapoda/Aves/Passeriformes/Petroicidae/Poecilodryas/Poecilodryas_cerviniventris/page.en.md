@@ -1,0 +1,44 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: en
+status: source-linked
+---
+
+# Poecilodryas cerviniventris
+
+## The name and this data account
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/en -->
+Poecilodryas cerviniventris is accepted in COL26.8 within Petroicidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 13 measured individuals, 5 with a complete morphological set; usable sample sizes may differ among traits.
+<!-- /evo:text -->
+
+## Measured beak dimensions
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/en -->
+Recorded mean beak measurements are 8.6 mm from the anterior nostril edge to the tip, 4.8 mm in width and 4.4 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+<!-- /evo:text -->
+
+## Wing, tarsus and mass
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/en -->
+Mean unflattened wing length from the carpal joint to the longest primary is 77.6 mm; mean tarsus length is 19.8 mm. Compiled mean mass is 19.8 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+<!-- /evo:text -->
+
+## Habitat, feeding and lifestyle
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/en -->
+The dataset assigns habitat Riverine, trophic niche Invertivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+<!-- /evo:text -->
+
+## Movement and geographical summary
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/en -->
+The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -19.83° to -11.12°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+<!-- /evo:text -->
+
+## Evidence limits
+
+<!-- evo:text /records/catalogue-profile/limitations/en -->
+This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.
+<!-- /evo:text -->

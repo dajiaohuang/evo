@@ -1,0 +1,249 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Merycoidodon major
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Merycoidodon major
+      en: Merycoidodon major
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Merycoidodon major
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=49393&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:49393; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:49393
+            selectedOccurrenceIds:
+              - occ:179685
+              - occ:180355
+              - occ:180654
+              - occ:180705
+              - occ:180825
+              - occ:180826
+              - occ:180848
+              - occ:180878
+              - occ:180908
+              - occ:180910
+              - occ:180955
+              - occ:180960
+              - occ:180967
+              - occ:181010
+              - occ:181013
+              - occ:181026
+              - occ:181030
+              - occ:181074
+              - occ:181093
+              - occ:181102
+              - occ:181106
+              - occ:181123
+              - occ:181125
+              - occ:181131
+              - occ:181134
+              - occ:181151
+              - occ:181163
+              - occ:181171
+              - occ:182469
+              - occ:1635607
+            selectedCollectionIds:
+              - col:17101
+              - col:17222
+              - col:17317
+              - col:17324
+              - col:17339
+              - col:17340
+              - col:17343
+              - col:17348
+              - col:17353
+              - col:17355
+              - col:17360
+              - col:17364
+              - col:17370
+              - col:17376
+              - col:17378
+              - col:17380
+              - col:17383
+              - col:17387
+              - col:17401
+              - col:17408
+              - col:17409
+              - col:17417
+              - col:17418
+              - col:17419
+              - col:17421
+              - col:17426
+              - col:17431
+              - col:17435
+              - col:17703
+            sourceReferenceIds:
+              - ref:6270
+              - ref:6294
+              - ref:3069
+              - ref:3067
+              - ref:3707
+              - ref:1570
+            originalIdentificationMappings:
+              - occurrenceId: occ:180654
+                originalIdentifiedName: Paramerycoidodon (Barbourochoerus) major
+                acceptedName: Merycoidodon major
+                difference: recombined as
+              - occurrenceId: occ:181010
+                originalIdentifiedName: Subdesmatochoerus shannonensis
+                acceptedName: Merycoidodon major
+                difference: null
+              - occurrenceId: occ:181026
+                originalIdentifiedName: Paramerycoidodon major
+                acceptedName: Merycoidodon major
+                difference: recombined as
+              - occurrenceId: occ:181093
+                originalIdentifiedName: Genetochoerus chamberlaini n. sp.
+                acceptedName: Merycoidodon major
+                difference: null
+              - occurrenceId: occ:181125
+                originalIdentifiedName: Merycoidodon (Blickohyus) lynchi
+                acceptedName: Merycoidodon major
+                difference: null
+              - occurrenceId: occ:181131
+                originalIdentifiedName: Paramerycoidodon (Barbourochoerus) major
+                acceptedName: Merycoidodon major
+                difference: recombined as
+              - occurrenceId: occ:181134
+                originalIdentifiedName: Paramerycoidodon (Barbourochoerus) major
+                acceptedName: Merycoidodon major
+                difference: recombined as
+              - occurrenceId: occ:181151
+                originalIdentifiedName: Eporeodon major
+                acceptedName: Merycoidodon major
+                difference: recombined as
+              - occurrenceId: occ:182469
+                originalIdentifiedName: Desmatochoerus (Paradesmatochoerus) anthonyi n. sp.
+                acceptedName: Merycoidodon major
+                difference: null
+              - occurrenceId: occ:1635607
+                originalIdentifiedName: Otionohyus alexi
+                acceptedName: Merycoidodon major
+                difference: null
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Merycoidodon major

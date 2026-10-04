@@ -10,14 +10,11 @@ records:
       en: Ucayali Bald Uacari
       zh: 乌卡亚利秃乌卡里
     reviewStatus: source-linked
-    checkedAt: 2026-10-01
+    checkedAt: 2026-10-03
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: ecology
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
+          - heymann2010ucayalii
         text:
           zh:
             markdown: page.zh.md
@@ -25,12 +22,9 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+      - topic: communication
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
+          - leon2026ucayalii
         text:
           zh:
             markdown: page.zh.md
@@ -38,6 +32,46 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
+      - topic: ecology
+        sourceIds:
+          - heymann2025UcayaliiSeasonality
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: ecology
+        sourceIds:
+          - heymann2025UcayaliiSeasonality
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: ecology
+        sourceIds:
+          - heymann2025UcayaliiSeasonality
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+      - topic: behavior
+        sourceIds:
+          - heymann2025UcayaliiSeasonality
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -107,6 +141,22 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-42153e14-b23d-4348-9acd-7831595de2c6
+          metadataVariant: 0
+          sourceKey: heymann2025UcayaliiSeasonality
+          usage:
+            locator: Methods, Results and discussion; Figures 1–2; printed pp10–11, PDF pages 2–3.
+            accessedAt: 2026-10-03
+            scope:
+              zh: Quebrada Blanco 的 1985–2022 年机会性目击、两月区间相关分析及明确待检验的栖地移动情景；不作种群数量、因果或实际迁移路线证据。
+              en: Opportunistic 1985–2022 Quebrada Blanco encounters, bimonthly correlations and an explicitly hypothetical habitat-shift scenario; not abundance, causality or tracked migration.
+          originalFields:
+            - id
+            - title
+            - url
+            - locator
+            - accessedAt
             - scope
     limitations:
       en:

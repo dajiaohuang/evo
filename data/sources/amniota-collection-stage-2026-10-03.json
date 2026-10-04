@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-03",
+  "scope": "Pinned COL26.8 Mammalia/Aves/Reptilia accepted species and dated PBDB Amniota fossil species; independent source identities, no biological-name deduplication.",
+  "counts": {
+    "COL": {
+      "records": 30154,
+      "byClass": {
+        "Reptilia": 12649,
+        "Aves": 11044,
+        "Mammalia": 6461
+      },
+      "withArchivedBiologicalMaterial": 23697,
+      "withoutArchivedBiologicalMaterial": 6457
+    },
+    "PBDB": {
+      "records": 22684,
+      "withOccurrenceGuideMaterial": 18868,
+      "sourceInsufficient": 3816
+    },
+    "created": {
+      "indices": 10268,
+      "evidenceFiles": 10268,
+      "localePlaceholders": 20536
+    },
+    "preservedLocaleFiles": 85128,
+    "unresolvedPlaceholderPaths": [],
+    "preservedLocaleVisits": 85130
+  },
+  "historicalCandidates": 1075,
+  "sourceFiles": [
+    {
+      "path": "data/sources/amniota-residual-occurrence-guides-2026-10-02-records.jsonl.gz",
+      "sha256": "5cdf5fb5973a6cb61b7ee8b1695135f835747685625224e5baf83c669b4bf1d2"
+    },
+    {
+      "path": "data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz",
+      "sha256": "a57a50336cbb0408464d658879180adad1f47734ea9fe60c3116d4ddc383b3b2"
+    },
+    {
+      "path": "data/sources/avonet-v7-ecology-only-authored-records.jsonl.gz",
+      "sha256": "e52322bf9653633e5f0a25cfe83a334ac27bcbab6edf9f39e614fe92cb92adbe"
+    },
+    {
+      "path": "data/sources/avonet-v7-measured-birdlife-records.jsonl.gz",
+      "sha256": "783a34220ab100902b93bf73066b06e5653ecc08bf87c06787d61ba4d61e89b4"
+    },
+    {
+      "path": "data/sources/crocodylomorph-occurrence-guides-2026-10-02-records.jsonl.gz",
+      "sha256": "c400ddb2b353f050f8ca74fc81541fafe45101c3ada97fb003de46d86cb9c538"
+    },
+    {
+      "path": "data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz",
+      "sha256": "3f0c97d3314dbdb83207763fd76d1f1da85c5872252e3131a2a3b243b1bdc8cc"
+    },
+    {
+      "path": "data/sources/eltontraits-v1-authored-records.jsonl.gz",
+      "sha256": "e3e028f0ce21856010a9f6dd8f1399eb43929a7d246d44dfabac9ecadc24a086"
+    },
+    {
+      "path": "data/sources/eltontraits-v1-single-field-authored-records.jsonl.gz",
+      "sha256": "d485f199d17669943855bbaa4dfa0849e0fb08f771cab6521c1166d9e078e636"
+    },
+    {
+      "path": "data/sources/ernest-lifehistory-v2-2003-authored-records.jsonl.gz",
+      "sha256": "0ef6f6a0e87c503b85913f725b20681197d5c120f087ea4bd2011cda11368289"
+    },
+    {
+      "path": "data/sources/ichthyosauriformes-occurrence-guides-2026-10-02-records.jsonl.gz",
+      "sha256": "6f921535da88b6824d99a2f9af8808ac02f5decd7b8535958736268a60e826f3"
+    },
+    {
+      "path": "data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz",
+      "sha256": "f9ca712a8120cfa1bb97244b2f21003a8cdab95f4656369abb8e532e6b431fa4"
+    },
+    {
+      "path": "data/sources/other-archosauria-occurrence-guides-2026-10-02-records.jsonl.gz",
+      "sha256": "f6793583ff4695e7571890958a9e5be19716ea5a11af66ab6ef8a344e7b49c2e"
+    },
+    {
+      "path": "data/sources/other-lepidosauromorpha-occurrence-guides-2026-10-02-records.jsonl.gz",
+      "sha256": "742597199f5ebd82f7bac88a82474b3174d28c35b8922292d2fa36a5bff909a9"
+    },
+    {
+      "path": "data/sources/other-reptilia-occurrence-guides-2026-10-02-records.jsonl.gz",
+      "sha256": "00f37b262ddc0feca4cd215b67d7f1db85aadea08e48ee2cee7d82ddd288c258"
+    },
+    {
+      "path": "data/sources/other-synapsida-occurrence-guides-2026-10-02-records.jsonl.gz",
+      "sha256": "7a97cb79226e0f700a19b14a6ad8e84c9e03b993fde2ae88feb0fb8fe28d0052"
+    },
+    {
+      "path": "data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz",
+      "sha256": "04c110cd375cb473346edd3bb83f7519217314e6e92dd6d8a4b926d94e786939"
+    },
+    {
+      "path": "data/sources/pantheria-wr05-2008-authored-records.jsonl.gz",
+      "sha256": "139eddd9c6c26ad9e7e838356f8188e2edb3d04b862e1ee313d872c877310747"
+    },
+    {
+      "path": "data/sources/pantheria-wr05-2008-limited-authored-records.jsonl.gz",
+      "sha256": "faeac3c0b1bc87216fe6bcc4599e8be73796ad6ec7b70ee10212a0dd5340e6d7"
+    },
+    {
+      "path": "data/sources/pterosaur-occurrence-guides-2026-10-02-records.jsonl.gz",
+      "sha256": "15ff29efb175811c876ee8395f87d3793830d565fe106c12b5389c047205619b"
+    },
+    {
+      "path": "data/sources/repttraits-v1-2-authored-records.jsonl.gz",
+      "sha256": "129afc123a465d19ac5af78e7e31b7251889ceef9f127fd39355783d3b79768c"
+    },
+    {
+      "path": "data/sources/repttraits-v1-2-limited-authored-records.jsonl.gz",
+      "sha256": "3423b123e17fefd3c7ed19120abab74854e204ec9db70d7ff494dd733984f7ce"
+    },
+    {
+      "path": "data/sources/rhynchocephalia-occurrence-guides-2026-10-02-records.jsonl.gz",
+      "sha256": "57cc7d2383ef47c0f2b83113ff3b57d1ff62590202104f266538eb2655a839c6"
+    },
+    {
+      "path": "data/sources/sauropterygia-occurrence-guides-2026-10-02-records.jsonl.gz",
+      "sha256": "3c8b7e8fd8635e2265a0e94cddc4236faf94282924fc542ec29b1f26b64292d5"
+    },
+    {
+      "path": "data/sources/squamata-occurrence-guides-2026-10-02-records.jsonl.gz",
+      "sha256": "11249502627c64265043e2079c31babb5589d62a7af555a5c9a9f7bbcb4c72bc"
+    },
+    {
+      "path": "data/sources/amniota-collection-stage-2026-10-03-historical-candidates.json.gz",
+      "sha256": "158754bff117f91759359f18c13f98c203cae9f12785846bd65de8ef47c9c5c5"
+    },
+    {
+      "path": "data/sources/amniota-residual-occurrence-guides-2026-10-02.json",
+      "sha256": "c232227e5320817d183c913f6a87d6626fb700f826fe68cb180def52031a0cbd"
+    },
+    {
+      "path": "data/sources/crocodylomorph-occurrence-guides-2026-10-02.json",
+      "sha256": "a0888cc9837d8a332fa96a0cc0cb02f61e38a84061c075cb8710b1630cc40ffe"
+    },
+    {
+      "path": "data/sources/dinosaur-occurrence-guides-2026-10-02.json",
+      "sha256": "99a3812691234c329d2a238a390cadde9d220a9aed7e2a6713ca3f83c39aafda"
+    },
+    {
+      "path": "data/sources/ichthyosauriformes-occurrence-guides-2026-10-02.json",
+      "sha256": "5793635440026dfea9db43a8679bbc1a91e6d079f29e068a61c1e9386c1d787b"
+    },
+    {
+      "path": "data/sources/mammalia-occurrence-guides-2026-10-02.json",
+      "sha256": "f2d07e09bdbe7a1b1ea400aad3822c6f41f9552b364bfcaca415937da054d3cb"
+    },
+    {
+      "path": "data/sources/other-archosauria-occurrence-guides-2026-10-02.json",
+      "sha256": "207f3a75d56f91fc24e8baef7aa7e530ddd54c3b0e2fe8c61ad3beb7353c50db"
+    },
+    {
+      "path": "data/sources/other-lepidosauromorpha-occurrence-guides-2026-10-02.json",
+      "sha256": "5c447742344396f59266a347fe1bd33d17c4f21ee09745ce103931df8b15a67c"
+    },
+    {
+      "path": "data/sources/other-reptilia-occurrence-guides-2026-10-02.json",
+      "sha256": "1f93a21872d21e2e3cad531d74ba6e4180a61cf7ed8d47b2745ca91dd8b37371"
+    },
+    {
+      "path": "data/sources/other-synapsida-occurrence-guides-2026-10-02.json",
+      "sha256": "d86b2ed9124dd5194813e6e30e36de72ae23f15d3408f0cfd6e829857a9e466f"
+    },
+    {
+      "path": "data/sources/pantestudines-occurrence-guides-2026-10-02.json",
+      "sha256": "e8790c9dd693d5dbd9787e77e4a3d3ddcd739160092ba8836428ebd5b38a0ed4"
+    },
+    {
+      "path": "data/sources/pterosaur-occurrence-guides-2026-10-02.json",
+      "sha256": "44d7fa221e686002893fe131e28645b29a3f2b84e54f8ca4f2c23d0e5cb042aa"
+    },
+    {
+      "path": "data/sources/rhynchocephalia-occurrence-guides-2026-10-02.json",
+      "sha256": "95b96cf16115d6ff135a2b320b51194444feaef510e144b4fb6623c4a04a88ee"
+    },
+    {
+      "path": "data/sources/sauropterygia-occurrence-guides-2026-10-02.json",
+      "sha256": "35cac9bdb49d6fad974c32bffff566090db29e7005f584f29b2c7b6be709f4a0"
+    },
+    {
+      "path": "data/sources/squamata-occurrence-guides-2026-10-02.json",
+      "sha256": "b7a6b73f5f7c58cb353c5f154431d7ca22918c829ac59d5c0d22e4e08567ef0e"
+    }
+  ],
+  "ledger": "data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz",
+  "followupQueue": "data/sources/amniota-collection-stage-2026-10-03-followups.jsonl.gz",
+  "ledgerSha256": "e0ff87846e83a47e6b11f8c25dcf8b6f38be22cc6d84da65f8210e8f2b95ef4f",
+  "newFileManifest": "data/sources/amniota-collection-stage-2026-10-03-created-files.json.gz",
+  "placeholderCompletion": true,
+  "biologicalCollectionComplete": false,
+  "comprehensiveProseComplete": false,
+  "externalExpertReview": false,
+  "delivery": "Canonical placeholders and collection ledger only. Generation, tests, commits and publication remain deferred. Existing locale files and evidence are preserved.",
+  "homonymTopics": {
+    "topicCount": 17,
+    "identities": 22,
+    "conceptsMerged": false
+  },
+  "bibliographyReceipt": "data/sources/amniota-pbdb-bibliography-2026-10-03.json",
+  "supplementalCollection": {
+    "date": "2026-10-03",
+    "scope": "References and indexes only, following latest user instruction.",
+    "candidateArchive": "data/sources/amniota-additional-source-candidates-2026-10-03.jsonl.gz",
+    "candidateRows": 25161,
+    "originalCOLGaps": 6457,
+    "colGapsWithArchivedCandidates": 6449,
+    "residualBirdIdentitiesWithReferenceIndexes": 8,
+    "colGapIdentitiesWithSourceIndexes": 6457,
+    "pbdbSpeciesBibliographicLocators": 22684,
+    "crossrefMetadata": "data/sources/amniota-pbdb-literature-metadata-2026-10-03.json",
+    "crossrefCounts": {
+      "manual-title-review": 36,
+      "exact-normalized-title": 572,
+      "similar-title-candidate": 60,
+      "title-conflict": 44,
+      "metadata-retrieval-failed": 11
+    },
+    "abstractsCollected": 96,
+    "linkRepairs": "data/sources/amniota-pbdb-link-repairs-2026-10-03.json",
+    "originalReviewQueueRetained": 10273,
+    "fullTextDownloadRequested": false,
+    "fullTextRead": false,
+    "conceptReviewComplete": false
+  },
+  "userRequestedCollectionScope": "Reference and source indexing; do not download all original texts.",
+  "currentLedgerSha256": "7e27c1858a9d61789eddf1c4277a48c3884483e583ab1a49a3b3063ba43cb826",
+  "currentFollowupsSha256": "5e4940912f966f8bce25bba9daffba3e4d879880427417f68eb062ac7d782759"
+}

@@ -6,15 +6,13 @@ records:
     scientificName: Saguinus ursula Hoffmannsegg, 1807
     rank: species
     sourceDatasetId: "2144"
-    checkedAt: 2026-10-01
+    checkedAt: 2026-10-03
     name:
       zh: 东部黑掌狨
       en: Eastern Black-handed Tamarin
     reviewStatus: source-linked
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: taxonomyAndIdentification
         text:
           zh:
             markdown: page.zh.md
@@ -23,13 +21,9 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - gregorin2013
+      - topic: typeAndStatus
         text:
           zh:
             markdown: page.zh.md
@@ -38,13 +32,9 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - mdd_name
+          - icmbio2025
+      - topic: fieldEcology
         text:
           zh:
             markdown: page.zh.md
@@ -53,13 +43,9 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/2/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/3/topic
+          - habitat2008
+          - seed2000
+      - topic: localAbundance
         text:
           zh:
             markdown: page.zh.md
@@ -68,11 +54,8 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/3/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/3/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/4/topic
+          - gurupi2017
+      - topic: fieldParasiteStudy
         text:
           zh:
             markdown: page.zh.md
@@ -81,8 +64,17 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/4/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/4/sourceIds/0
+          - parasite2026
+      - topic: ecology
+        sourceIds:
+          - gurupi2017
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
     sources:
       referenceBindings:
         - referenceId: ref-96ff0cbf-6f4d-86cc-a344-00d00820c0f3
@@ -192,11 +184,17 @@ records:
               en:
                 markdown: evidence.md
                 field: /records/catalogue-profile/sources/referenceBindings/6/usage/scope/en
+            locator: Printed pp51–53, tables 1–3; PDF pages 5–7.
+            accessedAt: 2026-10-03
+            samplingUnits: 32 encounter records; 27 group-size records; 31 density records, not distinct individual animals.
           originalFields:
             - id
             - title
             - url
             - scope
+            - locator
+            - accessedAt
+            - samplingUnits
         - referenceId: ref-c8b33762-8458-41b6-9962-f19f783abf1e
           metadataVariant: 0
           sourceKey: seed2000

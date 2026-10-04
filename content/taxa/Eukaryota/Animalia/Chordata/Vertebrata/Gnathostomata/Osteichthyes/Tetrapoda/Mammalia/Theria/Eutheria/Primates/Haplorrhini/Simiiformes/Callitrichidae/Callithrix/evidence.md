@@ -12,22 +12,14 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/4
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/5
+          - taxonomy
+          - sotodacosta2026kuhlii
+          - rylands1989kuhlii
+          - pinto1993flaviceps
+          - passamani2000geoffroyi
+          - demiranda2001penicillata
         text:
           en:
             markdown: page.en.md
@@ -35,6 +27,37 @@ records:
           zh:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -136,6 +159,43 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+          metadataVariant: 0
+          sourceKey: ernestLifeHistories2003
+          usage:
+            locator: Mammal_lifehistories_v2.txt; 2 authored records grouped under pinned COL ancestry.
+            accessedAt: 2026-10-03
+            readingTargets:
+              - colId: 5WVNT
+                name: Callithrix flaviceps
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Callitrichidae/Callithrix/Callithrix_flaviceps
+              - colId: 697NS
+                name: Callithrix jacchus
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Callitrichidae/Callithrix/Callithrix_jacchus
+            fieldAccountCounts:
+              gestation(mo): 1
+              newborn(g): 1
+              weaning(mo): 1
+              wean mass(g): 1
+              AFR(mo): 1
+              max. life(mo): 1
+              litter size: 2
+              litters/year: 1
+            scope:
+              zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+              en: This batch’s accounts only; no complete descendant coverage.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - readingTargets
+            - fieldAccountCounts
             - scope
     limitations:
       en:

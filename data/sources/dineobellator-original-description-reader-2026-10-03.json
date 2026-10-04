@@ -1,0 +1,106 @@
+{
+  "batch": "P5-73",
+  "date": "2026-10-03",
+  "pbdbSpecies": "txn:413091",
+  "pbdbGenus": "txn:413090",
+  "referenceId": "ref-9d840411-cdf5-4f7d-bf55-900d3d275543",
+  "newReferences": 1,
+  "source": {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7099077/fullTextXML",
+    "status": 200,
+    "bytes": 114359,
+    "sha256": "c9d29a16c688058a44a991343cc13c13a010c77688cfada5d3f43172647e16f9",
+    "accessedAt": "2026-10-03",
+    "title": "New Dromaeosaurid Dinosaur (Theropoda, Dromaeosauridae) from New Mexico and Biodiversity of Dromaeosaurids at the end of the Cretaceous",
+    "authors": [
+      "Steven E. Jasinski",
+      "Robert M. Sullivan",
+      "Peter Dodson"
+    ],
+    "doi": "10.1038/s41598-020-61480-7",
+    "publishedAt": "2020-03-26",
+    "license": "CC BY 4.0",
+    "licenseLocator": "JATS front/article-meta/permissions/license",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "archive": "data/sources/snapshots/dineobellator2020-c9d29a16c688058a44a991343cc13c13a010c77688cfada5d3f43172647e16f9.xml.gz",
+    "archiveBytes": 26978,
+    "archiveSha256": "544b72f54c9f428c342de1094012c3f984b8cbec5ee1f9ae8459bbc8ea816d31",
+    "archiveTransformation": "Lossless gzip of unmodified original JATS.",
+    "textRead": "Abstract, Introduction with all systematic/description/analysis subsections, Discussion and Methods.",
+    "figuresVisuallyInspected": [
+      1,
+      2
+    ],
+    "figuresCopiedToPublicStore": false
+  },
+  "specimen": {
+    "holotype": "SMP VP-2430",
+    "material": "One disarticulated associated individual; at least 20 identifiable skeletal elements.",
+    "physicalSpecimenInspected": false,
+    "bodyOutline": "Reconstruction, not wholly preserved skeleton."
+  },
+  "interpretationBoundaries": {
+    "quillKnobsObservedAtLeast": 6,
+    "secondaryFeatherEstimate": "12–14, inferred",
+    "figure1CFeathers": "Modern Megascops kennicottii used as illustration, not fossil feathers.",
+    "colorOrFlightEstablished": false,
+    "gripForceMeasured": false,
+    "preySpeciesIdentified": false,
+    "injuryAttackerIdentified": false,
+    "causationOfDeathEstablished": false,
+    "exactSpecimenDeathDateMeasured": false,
+    "ageInterpretations": {
+      "detritalSanidineMaximumDepositionalAgeMa": "66.5 ± 0.2",
+      "biostratigraphicAgeMa": "approximately 70–68",
+      "reconciled": false
+    },
+    "phylogeny": {
+      "firstMatrix": {
+        "otus": 38,
+        "characters": 180,
+        "mostParsimoniousTrees": 32,
+        "placement": "Velociraptorinae"
+      },
+      "secondMatrix": {
+        "otus": 157,
+        "characters": 860,
+        "placement": "Unresolved dromaeosaurid polytomy"
+      },
+      "rerun": false,
+      "claimedLaterConsensus": false
+    }
+  },
+  "internalSourceBoundary": "Holotype/figure captions call a fused tail series distal, whereas Axial text says not distal and not a pygostyle. No tail-series anatomical adjudication or pygostyle claim imported.",
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Eudromaeosauria/Velociraptorinae/Dineobellator/Dineobellator_notohesperus",
+      "newBilingualSections": 6,
+      "sourceSectionOrder": "Original-description prose first, existing occurrence guide retained after it."
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Eudromaeosauria/Velociraptorinae/Dineobellator",
+      "newBilingualSections": 1,
+      "sourceSectionOrder": "Original-description prose first, existing occurrence guide retained after it."
+    }
+  ],
+  "maturity": {
+    "sourceBoundedDescriptionGuide": true,
+    "fullMonograph": false,
+    "externalExpertReview": false,
+    "activePrimateSourceGaps": 14,
+    "readerVisibleDelivery": "Pending content-phase projection/publication handoff."
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All current bilingual species and genus prose, including retained occurrence paragraphs and revised source/limit sections.",
+    "currentFileHashes": {
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Eudromaeosauria/Velociraptorinae/Dineobellator/page.zh.md": "b6cd5df663cc810e64b150a7c4c4e640cab34ef7b314b30544be000d940efce2",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Eudromaeosauria/Velociraptorinae/Dineobellator/page.en.md": "c4f6305068026bc7debd8190c7bdd0de249d1d7e44402bf385926f6782e2d9a7",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Eudromaeosauria/Velociraptorinae/Dineobellator/evidence.md": "787ebd92b749fce2a1377733995d0922b2fc0d19034d1ca45a2ad300d3460e32",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Eudromaeosauria/Velociraptorinae/Dineobellator/Dineobellator_notohesperus/page.zh.md": "3212e69e09de9a4a6f82d59d9aa223bd678364d5f24fa9445982a40069bdb35c",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Eudromaeosauria/Velociraptorinae/Dineobellator/Dineobellator_notohesperus/page.en.md": "7312b9e47c7c97c182799d94cc0c3c022a81c3f1f8d068c921b46879311ca5c0",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Eudromaeosauria/Velociraptorinae/Dineobellator/Dineobellator_notohesperus/evidence.md": "02dc1b85074d46ad14a022b2c94229d0a695068a0ad0018c7111999a44d1fd0b"
+    }
+  },
+  "delivery": "Canonical bilingual description and genus reading path; no tests, generation, commit or publication."
+}

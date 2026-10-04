@@ -1,0 +1,254 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Sipalocyon gracilis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Sipalocyon gracilis
+      en: Sipalocyon gracilis
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Sipalocyon gracilis
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=53458&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:53458; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:53458
+            selectedOccurrenceIds:
+              - occ:1106021
+              - occ:1124803
+              - occ:1315951
+              - occ:1315952
+              - occ:1315953
+              - occ:1315954
+              - occ:1315955
+              - occ:1315956
+              - occ:1315957
+              - occ:1315958
+              - occ:1315959
+              - occ:1315960
+              - occ:1315961
+              - occ:1315962
+              - occ:1315963
+              - occ:1316294
+              - occ:1316821
+              - occ:1316822
+              - occ:1316823
+              - occ:1316824
+              - occ:1316825
+              - occ:1316826
+              - occ:1316827
+              - occ:1316828
+              - occ:1316829
+              - occ:1316830
+              - occ:1316831
+              - occ:1316832
+              - occ:1512689
+              - occ:1512698
+              - occ:1512701
+              - occ:1512708
+              - occ:1666378
+            selectedCollectionIds:
+              - col:139845
+              - col:142533
+              - col:176585
+              - col:176590
+              - col:176599
+              - col:176602
+              - col:176565
+              - col:176593
+              - col:176563
+              - col:176570
+              - col:176566
+              - col:176594
+              - col:87314
+              - col:176569
+              - col:176582
+              - col:176581
+              - col:27313
+              - col:210638
+              - col:210637
+              - col:210786
+              - col:210787
+              - col:236575
+            sourceReferenceIds:
+              - ref:44988
+              - ref:46189
+              - ref:58306
+              - ref:58202
+              - ref:58227
+              - ref:72910
+              - ref:89602
+            originalIdentificationMappings:
+              - occurrenceId: occ:1315958
+                originalIdentifiedName: Sipalocyon gracilis n. sp.
+                acceptedName: Sipalocyon gracilis
+                difference: null
+              - occurrenceId: occ:1316821
+                originalIdentifiedName: Amphiproviverra crassa n. sp.
+                acceptedName: Sipalocyon gracilis
+                difference: null
+              - occurrenceId: occ:1316822
+                originalIdentifiedName: Sipalocyon altiramis n. sp.
+                acceptedName: Sipalocyon gracilis
+                difference: null
+              - occurrenceId: occ:1316823
+                originalIdentifiedName: Sipalocyon longus n. sp.
+                acceptedName: Sipalocyon gracilis
+                difference: null
+              - occurrenceId: occ:1316824
+                originalIdentifiedName: Sipalocyon mixtus n. sp.
+                acceptedName: Sipalocyon gracilis
+                difference: null
+              - occurrenceId: occ:1316825
+                originalIdentifiedName: Thylacodictis exilis n. sp.
+                acceptedName: Sipalocyon gracilis
+                difference: null
+              - occurrenceId: occ:1316826
+                originalIdentifiedName: Amphiproviverra minuta n. sp.
+                acceptedName: Sipalocyon gracilis
+                difference: null
+              - occurrenceId: occ:1316827
+                originalIdentifiedName: Perathereutes amputans n. sp.
+                acceptedName: Sipalocyon gracilis
+                difference: null
+              - occurrenceId: occ:1316828
+                originalIdentifiedName: Perathereutes obtusus n. sp.
+                acceptedName: Sipalocyon gracilis
+                difference: null
+              - occurrenceId: occ:1316829
+                originalIdentifiedName: Hathliacynus lynchi n. sp.
+                acceptedName: Sipalocyon gracilis
+                difference: null
+              - occurrenceId: occ:1316831
+                originalIdentifiedName: Protoproviverra manzaniana n. sp.
+                acceptedName: Sipalocyon gracilis
+                difference: null
+              - occurrenceId: occ:1316832
+                originalIdentifiedName: Sipalocyon curtus n. sp.
+                acceptedName: Sipalocyon gracilis
+                difference: null
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Sipalocyon gracilis

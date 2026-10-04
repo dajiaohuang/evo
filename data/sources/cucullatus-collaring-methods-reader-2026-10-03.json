@@ -1,0 +1,101 @@
+{
+  "batch": "P5-155",
+  "date": "2026-10-03",
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cebidae/Cebinae/Sapajus/Sapajus_cucullatus",
+      "newBilingualSections": 3
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cebidae/Cebinae/Sapajus",
+      "newBilingualSections": 2
+    }
+  ],
+  "newReference": {
+    "id": "ref-52c78de7-102b-6ff3-4404-fdc4454f72a6",
+    "title": "Guidelines and considerations for capturing and collaring wild primates: a case study with capuchin monkeys (Sapajus nigritus cucullatus)",
+    "authors": [
+      "Victoria Martínez de Zorzi",
+      "Irene Delval",
+      "Dante L. Di Nucci",
+      "Luciana I. Oklander"
+    ],
+    "publishedYear": 2024,
+    "journal": "Anais da Academia Brasileira de Ciências",
+    "volume": 96,
+    "issue": "Suppl. 1",
+    "articleNumber": "e20231019",
+    "doi": "10.1590/0001-3765202420231019",
+    "url": "https://www.scielo.br/j/aabc/a/GHmZW3SrcY5HYks3PWmYKsb/?format=html",
+    "sourceVersion": "Published HTML main text: study sites/groups, methods, results and discussion read; Table I measurements, figure pixels and underlying genetic samples not examined"
+  },
+  "sourceFiles": [
+    {
+      "file": ".git/cucullatus-collaring-2024.html",
+      "sha256": "d26c885ffac8a9a456e5e824bb5689690fabd7ceaaba2252d42c23e237d6ffac"
+    },
+    {
+      "file": ".git/cucullatus-collaring-2024.txt",
+      "sha256": "f3aa910d08e9d40464d80f1430e2a2a3f2edf93efa0902018564b617692938b9"
+    }
+  ],
+  "protocolRepairs": [
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cebidae/Cebinae/Sapajus/page.en.md",
+      "change": "Removed one orphan closing marker immediately after overview; prose and opening marker preserved"
+    }
+  ],
+  "boundaries": {
+    "historicalStudyName": "Sapajus nigritus cucullatus",
+    "forestSites": 2,
+    "studyGroups": 4,
+    "successfullyCollaredAdultFemales": 3,
+    "failedCaptureGroup": "Foletto",
+    "resultsWordingAmbiguityRetained": true,
+    "tableIMeasurementsAndFigurePixelsNotRead": true,
+    "geneticOrTaxonomicReassignmentNotPerformed": true,
+    "newlyClosedPrimateSourceGaps": 0,
+    "activePrimateSourceGaps": 14,
+    "fixedAcceptedPrimateDenominator": 530,
+    "expertReviewAdded": false
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "Both complete bilingual pages, all five new sections, both limitations, full section vectors, new bindings and originalFields, new reference and appended plan read. Chinese causal wording narrowed to influence; shared-study comparison bound to both papers. No tests or compiler run.",
+    "canonicalFiles": [
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cebidae/Cebinae/Sapajus/Sapajus_cucullatus/page.zh.md",
+        "sha256": "b461dc1286b6da7c4d2121aa837ccba0c9094ff6c24a7964ce3768ec5161689d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cebidae/Cebinae/Sapajus/Sapajus_cucullatus/page.en.md",
+        "sha256": "da9cef932679c576bf6bc8146f0712c0ab5494c0b4491049ecb762e8377d8e49"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cebidae/Cebinae/Sapajus/Sapajus_cucullatus/evidence.md",
+        "sha256": "671b77b14cd9a164d873fff3e3b9364ee302e821c1e02b558cd4a539c5903cbf"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cebidae/Cebinae/Sapajus/page.zh.md",
+        "sha256": "5c251bb6b13e48c365a2d993a7adb9470c5c15e21411ca4d0793615ae73a03e1"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cebidae/Cebinae/Sapajus/page.en.md",
+        "sha256": "9a351c4a9d79e785b2418aa13419ae68a6fe8a21c25b1db40c731a21c397d712"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cebidae/Cebinae/Sapajus/evidence.md",
+        "sha256": "008d37dafe873829b12a8f76687dbc4cf8551411403c3f2ccec07f77bdc2ee34"
+      },
+      {
+        "path": "data/references.json",
+        "sha256": "79c89f76eb33c2792fe92e39d8f8f6428b9f65c45526520c12370015866a5540"
+      },
+      {
+        "path": "docs/content-production-plan.md",
+        "sha256": "ce50cbbe860dde16854ba9c335bb4bf480c10ed65cd8a307695df1d39c60a28b"
+      }
+    ]
+  },
+  "delivery": "Canonical authoring only; tests, generation, commit and publication held by user instruction"
+}

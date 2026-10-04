@@ -1,61 +1,13 @@
 # Current content goal
 
-Complete source-bounded bilingual reader-facing content, group introductions
-and reading paths for all scoped Amniota in this repository, following
-`docs/content-production-plan.md` and `docs/content-storage.md`.
+User update 2026-10-03: complete source collection and explicit placeholders for all scoped Amniota before continuing prose.
 
-Author taxon content in recorded COL26.8 classification paths under `content/taxa/`:
-`page.zh.md`, `page.en.md`, `evidence.md` and `index.yaml`. Use recorded scientific
-names with whitespace replaced by underscores, retain external identifiers as
-provenance, and do not mint internal taxon IDs. Preserve documented PBDB
-supplements and unresolved navigation concepts separately. Keep shared topics
-under `content/topics/`, references in `data/references.json`, and original
-archives, fossils, maps and media in their independent structured stores.
-Legacy JSON/Brotli files are generated compatibility projections.
+Latest clarification: retain all references and source indexes first; do not download all original papers. Full-text acquisition and reading are not completion criteria for this reference-index stage. Scientific concept correspondence and subject coverage remain separate review work.
 
-For Primates, retain the 530 accepted species in pinned COL26.8 as the fixed
-species-level denominator. Address the 15 remaining source or classification gaps
-before declaring the first reading-page standard met. The active task began with
-19; P3-119 through P3-121 and P4-17 close four documented gaps:
-`BSD27` (*Tamarinus imperator*), `STGT` (*Cercopithecus wolfi*), `4HTQR`
-(*Piliocolobus langi*) and `BSCYK` (*Cacajao novaesi*). The plan's ten currently
-open IDs are `F6FK` (*Aotus jorgehernandezi*), `84J8Q` (*Sapajus cucullatus*),
-`BSCWK` (*Cacajao rubicundus*), `RYZ7` (*Cebus cesarae*), `RYZ2`
-(*Cebus brunneus*), `RYZS` (*Cebus malitiosus*), `RYZN` (*Cebus leucocephalus*),
-`4K5Y5` (*Plecturocebus discolor*), `4K5YG` (*Plecturocebus stephennashi*) and
-`4HTQS` (*Piliocolobus lulindicus*). Thus 14 of the original 19 have identifiable
-IDs in current plan history; the five other original IDs are not recorded in the
-available goal/plan entries. Keep those five identities unresolved and retain the
-15-item active target until their source list is recovered; do not lower the goal
-to the plan's ten-item count.
-The active scope now expands to all Amniota using two dated, source-specific
-work lists. COL26.8 has no materialized Amniota node, so its accepted-species
-union is the three direct Tetrapoda class roots: Mammalia 6,461, Aves 11,044,
-and Reptilia 12,649, totaling 30,154. This snapshot has no extant flag. The
-PBDB root query for accepted, species-rank, `extant=no`, `pres=regular` Amniota
-taxa returned 22,684 unique OIDs on 2026-10-02. Its 15 disjoint OID partitions
-are recorded in `data/sources/snapshots/pbdb-amniota-denominator-2026-10-02.manifest.json`
-and `data/sources/snapshots/pbdb-amniota-disjoint-oids-2026-10-02.json`; raw
-root and child responses are retained alongside them. These are separate
-catalogue record lists, not a count of unique biological species; keep COL and
-PBDB concepts separate and do not deduplicate them by matching names. The
-earlier 4,664-species Archosauria snapshot remains historical and is superseded
-for current scope. Count fossil genera, group guides and shared topics separately.
+Keep the pinned COL26.8 accepted-species union (Mammalia 6461, Aves 11044, Reptilia 12649; 30154 records) separate from the dated PBDB fossil species roster (22684 OIDs). These are distinct source concepts, not deduplicated biological species.
 
-Produce small, independently deliverable batches. Rebuild the content
-projections, registry and manifest after a batch; rebuild the species evidence
-queue when its inputs change. Commit and push each finished batch directly to
-`main`, preserving concurrent and unrelated work. Do not accumulate multiple
-finished batches before pushing. Do not force-push or change branch protections.
+Use canonical recorded-name taxon paths, shared references and independent source archives according to docs/content-storage.md. Preserve existing prose. Missing material or unresolved placement remains explicit; placeholders use status not-authored and do not count as authored biology, complete collection or expert review.
 
-Skip manual tests, type checks, content/data/incremental validators and manually
-started CI, as authorized by the user on 2026-10-01. Record generation failures
-and unresolved scientific boundaries explicitly. Treat source availability,
-authored prose, reader-visible delivery and expert review as separate states.
-Do not invent facts, translate unsupported claims into certainty, fabricate
-review maturity or count source-insufficient templates as complete.
+Current collection ledger and remaining source work: docs/amniota-collection-stage-2026-10-03.md and data/sources/amniota-collection-stage-2026-10-03.json. Biological collection is complete only when remaining source gaps have actually been resolved or individually reported with a concrete access/source blocker. A ledger, name record or placeholder alone is not biological collection completion.
 
-Completion requires the agreed reader content to exist for the scoped targets,
-its navigation and projections to be generated, finished batches to reach remote
-`main`, and remaining source-insufficient items to be reported separately.
-Migration or successful generation alone does not complete this goal.
+Tests, validators, generation, commits and publication remain deferred under the user’s prior instruction until the authorized content stage is finished. Previous reader-production requirements remain recorded in docs/content-production-plan.md; do not reinterpret historical prose counts as this collection stage.

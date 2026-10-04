@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: behaviour
         text:
           en:
             markdown: page.en.md
@@ -23,8 +21,7 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
+          - fournier2023
     sources:
       referenceBindings:
         - referenceId: ref-06e2a81d-42d4-89e0-a42d-6140111b156b

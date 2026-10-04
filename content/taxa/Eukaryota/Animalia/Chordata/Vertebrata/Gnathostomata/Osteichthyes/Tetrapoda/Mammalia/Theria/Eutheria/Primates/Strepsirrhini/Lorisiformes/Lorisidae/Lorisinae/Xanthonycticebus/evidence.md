@@ -12,9 +12,7 @@ records:
       en: Pygmy Lorises
     reviewStatus: source-linked
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: readingPath
         text:
           zh:
             markdown: page.zh.md
@@ -23,18 +21,12 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/4
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/5
+          - taxonomy
+          - genusDescription2022
+          - intermediusTaxonomy
+          - pygmaeusTaxonomy
+          - survey2026
+          - pygmaeusCaptive2021
     sources:
       referenceBindings:
         - referenceId: ref-c9229b47-26ca-8188-a2c1-c5f26428e374

@@ -1,0 +1,233 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Metaxytherium subapenninum
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Metaxytherium subapenninum
+      en: Metaxytherium subapenninum
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Metaxytherium subapenninum
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=65036&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:65036; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:65036
+            selectedOccurrenceIds:
+              - occ:537790
+              - occ:537791
+              - occ:608722
+              - occ:608811
+              - occ:608896
+              - occ:609505
+              - occ:609553
+              - occ:609555
+              - occ:751914
+              - occ:752815
+              - occ:755129
+              - occ:883984
+              - occ:1040935
+              - occ:1040936
+              - occ:1040937
+              - occ:1040939
+              - occ:1040940
+              - occ:1040945
+              - occ:1386037
+            selectedCollectionIds:
+              - col:45497
+              - col:55748
+              - col:65157
+              - col:59281
+              - col:65167
+              - col:49335
+              - col:65248
+              - col:65250
+              - col:80539
+              - col:80609
+              - col:80849
+              - col:59273
+              - col:127487
+              - col:124389
+              - col:124402
+              - col:124403
+              - col:124816
+              - col:124817
+              - col:190383
+            sourceReferenceIds:
+              - ref:15057
+              - ref:26987
+              - ref:13952
+              - ref:18764
+              - ref:18768
+              - ref:18857
+              - ref:18835
+              - ref:27080
+              - ref:41533
+              - ref:18810
+              - ref:43641
+            originalIdentificationMappings:
+              - occurrenceId: occ:537790
+                originalIdentifiedName: Metaxytherium gervaisi
+                acceptedName: Metaxytherium subapenninum
+                difference: null
+              - occurrenceId: occ:537791
+                originalIdentifiedName: Metaxytherium gervaisi
+                acceptedName: Metaxytherium subapenninum
+                difference: null
+              - occurrenceId: occ:608722
+                originalIdentifiedName: Felsinotherium subapenninum
+                acceptedName: Metaxytherium subapenninum
+                difference: recombined as
+              - occurrenceId: occ:608811
+                originalIdentifiedName: Felsinotherium forestii
+                acceptedName: Metaxytherium subapenninum
+                difference: null
+              - occurrenceId: occ:608896
+                originalIdentifiedName: Felsinotherium subapenninum
+                acceptedName: Metaxytherium subapenninum
+                difference: recombined as
+              - occurrenceId: occ:609505
+                originalIdentifiedName: Felsinotherium gervaisi n. sp.
+                acceptedName: Metaxytherium subapenninum
+                difference: null
+              - occurrenceId: occ:609553
+                originalIdentifiedName: Felsinotherium gastaldi
+                acceptedName: Metaxytherium subapenninum
+                difference: null
+              - occurrenceId: occ:751914
+                originalIdentifiedName: Metaxytherium forestii
+                acceptedName: Metaxytherium subapenninum
+                difference: null
+              - occurrenceId: occ:883984
+                originalIdentifiedName: Felsinotherium forestii n. sp.
+                acceptedName: Metaxytherium subapenninum
+                difference: null
+              - occurrenceId: occ:1040936
+                originalIdentifiedName: Felsinotherium gastaldi n. sp.
+                acceptedName: Metaxytherium subapenninum
+                difference: null
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Metaxytherium subapenninum

@@ -1,0 +1,2533 @@
+{
+  "schemaVersion": 1,
+  "batch": "P5-50",
+  "authoredAt": "2026-10-02",
+  "source": "Paleobiology Database Data Service 1.2",
+  "sourceReferenceId": "ref-d904a353-9f55-4918-a6a5-9ff24bb69837",
+  "methodReferenceId": "ref-c4887d31-ff09-4384-b816-a87cb63d0c54",
+  "fixedOtherArchosauriaDenominator": 179,
+  "pinnedColDenominators": {
+    "Mammalia": 6461,
+    "Aves": 11044,
+    "Reptilia": 12649
+  },
+  "pinnedPbdbAmniotaDenominator": 22684,
+  "denominatorsChanged": false,
+  "fixedPartitionDenominators": {
+    "other-archosauria": 179
+  },
+  "authoredSpeciesByPartition": {
+    "other-archosauria": 167
+  },
+  "recordedRootParentChain": [
+    {
+      "oid": "txn:36322",
+      "rnk": "class",
+      "nam": "Reptilia",
+      "att": "(Laurenti 1768)",
+      "par": "txn:135358",
+      "prl": "Sauropsida",
+      "rid": "ref:16886",
+      "ext": "1",
+      "noc": 72790
+    },
+    {
+      "oid": "txn:92204",
+      "vid": "var:135042",
+      "rnk": "subclass",
+      "nam": "Eureptilia",
+      "att": "(Olson 1947)",
+      "par": "txn:36322",
+      "prl": "Reptilia",
+      "rid": "ref:28403",
+      "ext": "1",
+      "noc": 61138
+    },
+    {
+      "oid": "txn:99771",
+      "rnk": "unranked clade",
+      "nam": "Romeriida",
+      "att": "Gauthier et al. 1988",
+      "par": "txn:92204",
+      "prl": "Eureptilia",
+      "rid": "ref:24239",
+      "ext": "1",
+      "noc": 60961
+    },
+    {
+      "oid": "txn:37768",
+      "vid": "var:135387",
+      "rnk": "unranked clade",
+      "nam": "Diapsida",
+      "att": "(Osborn 1903)",
+      "par": "txn:99771",
+      "prl": "Romeriida",
+      "rid": "ref:34185",
+      "ext": "1",
+      "noc": 60961
+    },
+    {
+      "oid": "txn:38182",
+      "vid": "var:99802",
+      "rnk": "unranked clade",
+      "nam": "Archosauromorpha",
+      "att": "(Huene 1946)",
+      "par": "txn:37768",
+      "prl": "Diapsida",
+      "rid": "ref:4783",
+      "ext": "1",
+      "noc": 58532
+    },
+    {
+      "oid": "txn:347446",
+      "rnk": "unranked clade",
+      "nam": "Crocopoda",
+      "att": "Ezcurra 2016",
+      "par": "txn:38182",
+      "prl": "Archosauromorpha",
+      "rid": "ref:60762",
+      "ext": "1",
+      "noc": 47259
+    },
+    {
+      "oid": "txn:57091",
+      "rnk": "unranked clade",
+      "nam": "Archosauriformes",
+      "att": "Gauthier 1986",
+      "par": "txn:347446",
+      "prl": "Crocopoda",
+      "rid": "ref:10333",
+      "ext": "1",
+      "noc": 47052
+    },
+    {
+      "oid": "txn:347458",
+      "rnk": "unranked clade",
+      "nam": "Eucrocopoda",
+      "att": "Ezcurra 2016",
+      "par": "txn:57091",
+      "prl": "Archosauriformes",
+      "rid": "ref:60762",
+      "ext": "1",
+      "noc": 46775
+    },
+    {
+      "oid": "txn:38215",
+      "vid": "var:99812",
+      "flg": "B",
+      "rnk": "unranked clade",
+      "nam": "Archosauria",
+      "att": "(Cope 1869)",
+      "par": "txn:347458",
+      "prl": "Eucrocopoda",
+      "rid": "ref:58984",
+      "ext": "1",
+      "noc": 46701,
+      "fea": 251.902,
+      "fla": 248.6,
+      "lea": 0.0117,
+      "lla": 0,
+      "tei": "Induan",
+      "tli": "Holocene"
+    }
+  ],
+  "colCompatibleAnchor": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia",
+  "sourceDownloads": [
+    {
+      "key": "taxa",
+      "url": "https://paleobiodb.org/data1.2/taxa/list.json?base_id=38215&rel=all_children&status=accepted&show=parent%2Capp%2Cattr&limit=all",
+      "queryParameters": {
+        "base_id": "38215",
+        "rel": "all_children",
+        "status": "accepted",
+        "show": "parent,app,attr",
+        "limit": "all"
+      },
+      "file": ".git/other-archosauria-reader-taxa.json",
+      "retrievedAt": "2026-10-02T14:42:48.367Z",
+      "bytes": 3065864,
+      "sha256": "439f0f5dc0cba2742d441c2dfa5f9fee02d9becec5e1574a1605e53907faf851",
+      "recordCount": 13663,
+      "recordsFound": null,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/other-archosauria-occurrence-guides-2026-10-02-taxa.json.gz",
+      "retainedSha256": "b307872e53e557adaebd469bfa36413618281aeadeaaf4bb8e9f8e5cab0cbb99"
+    },
+    {
+      "key": "root",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=38215&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "38215",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/other-archosauria-reader-root.json",
+      "retrievedAt": "2026-10-02T14:42:46.389Z",
+      "bytes": 312,
+      "sha256": "a40b7549761b13c1a0c02826ef3ca726574411262f30c072a2d1fbbe298af981",
+      "recordCount": 1,
+      "recordsFound": null,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/other-archosauria-occurrence-guides-2026-10-02-root.json.gz",
+      "retainedSha256": "7634b86eaa40765344cb73753eb21637844154bfcd26cedbbcfe0a0cb9639c03"
+    },
+    {
+      "key": "parents",
+      "url": "https://paleobiodb.org/data1.2/taxa/list.json?id=38215&rel=all_parents&status=accepted&show=parent%2Cattr&limit=all",
+      "queryParameters": {
+        "id": "38215",
+        "rel": "all_parents",
+        "status": "accepted",
+        "show": "parent,attr",
+        "limit": "all"
+      },
+      "file": ".git/other-archosauria-reader-parents.json",
+      "retrievedAt": "2026-10-02T14:42:46.660Z",
+      "bytes": 5079,
+      "sha256": "e81def5204f72f5327ec390b88a4f9840bd655df1cad4395cdcf4c05f58532ab",
+      "recordCount": 30,
+      "recordsFound": null,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/other-archosauria-occurrence-guides-2026-10-02-parents.json.gz",
+      "retainedSha256": "6f493bda91d1566878d6a27581cbfee34c4019c49d4d68747bbd524d9cabd8a4"
+    },
+    {
+      "key": "occurrences",
+      "url": "https://paleobiodb.org/data1.2/occs/list.json?base_id=38215&show=full&ident=latest&order=id&rowcount=yes&limit=all",
+      "queryParameters": {
+        "base_id": "38215",
+        "show": "full",
+        "ident": "latest",
+        "order": "id",
+        "rowcount": "yes",
+        "limit": "all"
+      },
+      "file": ".git/other-archosauria-reader-occurrences.json",
+      "retrievedAt": "2026-10-02T14:43:07.166Z",
+      "bytes": 70358327,
+      "sha256": "95c66a034ee801effe8e70dd0e2d80f080cfb92730dab8e60a52bf5d4a379a25",
+      "recordCount": 46699,
+      "recordsFound": 46699,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/other-archosauria-occurrence-guides-2026-10-02-occurrences.json.gz",
+      "retainedSha256": "343e60c21c5b8b4d35ee8d679397d4528a2a93d63f0bde87f20c661c62764197"
+    },
+    {
+      "key": "supplemental-parent-identity-53021",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=53021&show=parent%2Capp%2Cattr",
+      "queryParameters": {
+        "id": "53021",
+        "show": "parent,app,attr"
+      },
+      "file": ".git/other-archosauria-reader-supplemental-parent-identity-53021.json",
+      "retrievedAt": "2026-10-02T14:44:36.605Z",
+      "bytes": 332,
+      "sha256": "efdfd92eafb543df7900d065b10094baddffc634b1cc1055ce731455cd7603b7",
+      "recordCount": 1,
+      "warnings": [],
+      "retainedPath": "data/sources/snapshots/other-archosauria-occurrence-guides-2026-10-02-supplemental-parent-identity-53021.json.gz",
+      "retainedSha256": "ea8680218bc9c6bd8ceda9b16d328fce8855b519adfd5471a4c5ea0f5c27f19e"
+    }
+  ],
+  "sourceOccurrenceRecords": 46699,
+  "reportedAndReturnedOccurrences": 46699,
+  "selectedSpeciesCount": 167,
+  "authoredSpeciesCount": 167,
+  "selectedOccurrenceCount": 541,
+  "groupRoutesAuthored": 171,
+  "newSpeciesProfiles": 167,
+  "newGroupProfiles": 171,
+  "existingProfilesExpanded": 0,
+  "deferredExisting": [],
+  "sourceInsufficient": [
+    {
+      "oid": "txn:441742",
+      "name": "Pallisteria angustimentum",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:65111",
+      "name": "Zatomus sarcophagus",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:254127",
+      "name": "Chelonoides robusta",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:254126",
+      "name": "Chelonides wittei",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:64941",
+      "name": "Typothorax meadei",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:159294",
+      "name": "Desmatosuchus haplocerus",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:72168",
+      "name": "Teratosaurus lloydi",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:159288",
+      "name": "Pseudopalatus maccauleyi",
+      "reason": "no usable unqualified species-level cited occurrence with age and locality context"
+    },
+    {
+      "oid": "txn:389050",
+      "name": "Palaeosaurus carolinensis",
+      "reason": "no complete recorded parent chain to the documented Archosauria anchor",
+      "parentIdentityEvidence": {
+        "record": {
+          "oid": "txn:53021",
+          "flg": "B",
+          "rnk": "genus",
+          "nam": "Palaeosaurus",
+          "att": "Riley and Stutchbury 1836",
+          "tdf": "nomen dubium",
+          "acc": "txn:38292",
+          "acr": 25,
+          "acn": "Phytosauria",
+          "par": "txn:38292",
+          "prl": "Phytosauria",
+          "rid": "ref:44685",
+          "ext": "0",
+          "noc": 7,
+          "fea": 247,
+          "fla": 241.464,
+          "lea": 205.7,
+          "lla": 201.4
+        },
+        "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=53021&show=parent%2Capp%2Cattr",
+        "sourceResponseSha256": "efdfd92eafb543df7900d065b10094baddffc634b1cc1055ce731455cd7603b7",
+        "retainedPath": "data/sources/snapshots/other-archosauria-occurrence-guides-2026-10-02-supplemental-parent-identity-53021.json.gz"
+      }
+    },
+    {
+      "oid": "txn:72293",
+      "name": "Palaeosaurus subcylindrodon",
+      "reason": "no complete recorded parent chain to the documented Archosauria anchor",
+      "parentIdentityEvidence": {
+        "record": {
+          "oid": "txn:53021",
+          "flg": "B",
+          "rnk": "genus",
+          "nam": "Palaeosaurus",
+          "att": "Riley and Stutchbury 1836",
+          "tdf": "nomen dubium",
+          "acc": "txn:38292",
+          "acr": 25,
+          "acn": "Phytosauria",
+          "par": "txn:38292",
+          "prl": "Phytosauria",
+          "rid": "ref:44685",
+          "ext": "0",
+          "noc": 7,
+          "fea": 247,
+          "fla": 241.464,
+          "lea": 205.7,
+          "lla": 201.4
+        },
+        "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=53021&show=parent%2Capp%2Cattr",
+        "sourceResponseSha256": "efdfd92eafb543df7900d065b10094baddffc634b1cc1055ce731455cd7603b7",
+        "retainedPath": "data/sources/snapshots/other-archosauria-occurrence-guides-2026-10-02-supplemental-parent-identity-53021.json.gz"
+      }
+    },
+    {
+      "oid": "txn:389051",
+      "name": "Palaeosaurus sulcatus",
+      "reason": "no complete recorded parent chain to the documented Archosauria anchor",
+      "parentIdentityEvidence": {
+        "record": {
+          "oid": "txn:53021",
+          "flg": "B",
+          "rnk": "genus",
+          "nam": "Palaeosaurus",
+          "att": "Riley and Stutchbury 1836",
+          "tdf": "nomen dubium",
+          "acc": "txn:38292",
+          "acr": 25,
+          "acn": "Phytosauria",
+          "par": "txn:38292",
+          "prl": "Phytosauria",
+          "rid": "ref:44685",
+          "ext": "0",
+          "noc": 7,
+          "fea": 247,
+          "fla": 241.464,
+          "lea": 205.7,
+          "lla": 201.4
+        },
+        "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=53021&show=parent%2Capp%2Cattr",
+        "sourceResponseSha256": "efdfd92eafb543df7900d065b10094baddffc634b1cc1055ce731455cd7603b7",
+        "retainedPath": "data/sources/snapshots/other-archosauria-occurrence-guides-2026-10-02-supplemental-parent-identity-53021.json.gz"
+      }
+    },
+    {
+      "oid": "txn:70027",
+      "name": "Palaeosaurus priscus",
+      "reason": "no complete recorded parent chain to the documented Archosauria anchor",
+      "parentIdentityEvidence": {
+        "record": {
+          "oid": "txn:53021",
+          "flg": "B",
+          "rnk": "genus",
+          "nam": "Palaeosaurus",
+          "att": "Riley and Stutchbury 1836",
+          "tdf": "nomen dubium",
+          "acc": "txn:38292",
+          "acr": 25,
+          "acn": "Phytosauria",
+          "par": "txn:38292",
+          "prl": "Phytosauria",
+          "rid": "ref:44685",
+          "ext": "0",
+          "noc": 7,
+          "fea": 247,
+          "fla": 241.464,
+          "lea": 205.7,
+          "lla": 201.4
+        },
+        "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=53021&show=parent%2Capp%2Cattr",
+        "sourceResponseSha256": "efdfd92eafb543df7900d065b10094baddffc634b1cc1055ce731455cd7603b7",
+        "retainedPath": "data/sources/snapshots/other-archosauria-occurrence-guides-2026-10-02-supplemental-parent-identity-53021.json.gz"
+      }
+    }
+  ],
+  "excludedOccurrences": [
+    {
+      "oid": "occ:842036",
+      "tid": "txn:90276",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:842123",
+      "tid": "txn:90276",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:842198",
+      "tid": "txn:69064",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:842229",
+      "tid": "txn:69076",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:843103",
+      "tid": "txn:69072",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1100185",
+      "tid": "txn:64943",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1332865",
+      "tid": "txn:64940",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1418489",
+      "tid": "txn:69072",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1528989",
+      "tid": "txn:182230",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1546812",
+      "tid": "txn:159222",
+      "reason": "qualified identification requires individual source review"
+    },
+    {
+      "oid": "occ:1580066",
+      "tid": "txn:64950",
+      "reason": "qualified identification requires individual source review"
+    }
+  ],
+  "sourceArchivePath": "data/sources/other-archosauria-occurrence-guides-2026-10-02-records.jsonl.gz",
+  "sourceArchiveSha256": "f6793583ff4695e7571890958a9e5be19716ea5a11af66ab6ef8a344e7b49c2e",
+  "authoredPages": [
+    {
+      "pbdbTaxonId": "txn:66661",
+      "scientificName": "Caseosaurus crosbyensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Theropodomorpha/Herrerasauria/Caseosaurus/Caseosaurus_crosbyensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:509339",
+      "scientificName": "Maleriraptor kuttyi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Theropodomorpha/Herrerasauria/Maleriraptor/Maleriraptor_kuttyi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:63009",
+      "scientificName": "Sikannisuchus huskyi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Sikannisuchus/Sikannisuchus_huskyi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:475203",
+      "scientificName": "Mambachiton fiandohana",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Mambachiton/Mambachiton_fiandohana",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:53206",
+      "scientificName": "Marasuchus lilloensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Marasuchus/Marasuchus_lilloensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:281448",
+      "scientificName": "Ignotosaurus fragilis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Ignotosaurus/Ignotosaurus_fragilis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:347563",
+      "scientificName": "Dromomeron gigas",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Lagerpetidae/Dromomeron/Dromomeron_gigas",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:104966",
+      "scientificName": "Dromomeron romeri",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Lagerpetidae/Dromomeron/Dromomeron_romeri",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:148224",
+      "scientificName": "Dromomeron gregorii",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Lagerpetidae/Dromomeron/Dromomeron_gregorii",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:476654",
+      "scientificName": "Venetoraptor gassenae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Lagerpetidae/Venetoraptor/Venetoraptor_gassenae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:423006",
+      "scientificName": "Kongonaphon kely",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Lagerpetidae/Kongonaphon/Kongonaphon_kely",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:66341",
+      "scientificName": "Lagerpeton chanarensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Lagerpetidae/Lagerpeton/Lagerpeton_chanarensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:347520",
+      "scientificName": "Ixalerpeton polesinensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Lagerpetidae/Ixalerpeton/Ixalerpeton_polesinensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:169640",
+      "scientificName": "Faxinalipterus minima",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Lagerpetidae/Faxinalipterus/Faxinalipterus_minima",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:63718",
+      "scientificName": "Scleromochlus taylori",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Lagerpetidae/Scleromochlus/Scleromochlus_taylori",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:352308",
+      "scientificName": "Teleocrater rhadinus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Aphanosauria/Teleocrater/Teleocrater_rhadinus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:64404",
+      "scientificName": "Spondylosoma absconditum",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Aphanosauria/Spondylosoma/Spondylosoma_absconditum",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:169958",
+      "scientificName": "Dongusuchus efremovi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Aphanosauria/Dongusuchus/Dongusuchus_efremovi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:148343",
+      "scientificName": "Yarasuchus deccanensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Aphanosauria/Yarasuchus/Yarasuchus_deccanensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:64086",
+      "scientificName": "Brachychirotherium eyermani",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Chirotheriidae/Brachychirotherium/Brachychirotherium_eyermani",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:100517",
+      "scientificName": "Youngosuchus sinensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Youngosuchus/Youngosuchus_sinensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:100839",
+      "scientificName": "Procerosuchus celer",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Procerosuchus/Procerosuchus_celer",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:372158",
+      "scientificName": "Nundasuchus songeaensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Nundasuchus/Nundasuchus_songeaensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:371874",
+      "scientificName": "Mandasuchus tanyauchen",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Mandasuchus/Mandasuchus_tanyauchen",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:160314",
+      "scientificName": "Hypselorhachis mirabilis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Ctenosauriscidae/Hypselorhachis/Hypselorhachis_mirabilis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:55052",
+      "scientificName": "Arizonasaurus babbitti",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Ctenosauriscidae/Arizonasaurus/Arizonasaurus_babbitti",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:263711",
+      "scientificName": "Bystrowisuchus flerovi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Ctenosauriscidae/Bystrowisuchus/Bystrowisuchus_flerovi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:54994",
+      "scientificName": "Bromsgroveia walkeri",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Ctenosauriscidae/Bromsgroveia/Bromsgroveia_walkeri",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:171897",
+      "scientificName": "Xilousuchus sapingensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Ctenosauriscidae/Xilousuchus/Xilousuchus_sapingensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:138132",
+      "scientificName": "Ctenosauriscus koeneni",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Ctenosauriscidae/Ctenosauriscus/Ctenosauriscus_koeneni",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:144375",
+      "scientificName": "Qianosuchus mixtus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Qianosuchus/Qianosuchus_mixtus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:119072",
+      "scientificName": "Lotosaurus adentus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Lotosaurus/Lotosaurus_adentus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:493704",
+      "scientificName": "Benggwigwishingasuchus eremicarminis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Benggwigwishingasuchus/Benggwigwishingasuchus_eremicarminis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:159332",
+      "scientificName": "Poposaurus langstoni",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Poposaurus/Poposaurus_langstoni",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:69076",
+      "scientificName": "Poposaurus gracilis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Poposaurus/Poposaurus_gracilis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:171941",
+      "scientificName": "Koilamasuchus gonzalezdiazi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Koilamasuchus/Koilamasuchus_gonzalezdiazi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:82515",
+      "scientificName": "Rotodactylus velox",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Rotodactylidae/Rotodactylus/Rotodactylus_velox",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:84827",
+      "scientificName": "Parringtonia gracilis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Erpetosuchidae/Parringtonia/Parringtonia_gracilis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:55572",
+      "scientificName": "Erpetosuchus granti",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Erpetosuchidae/Erpetosuchus/Erpetosuchus_granti",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:370045",
+      "scientificName": "Pagosvenator candelariensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Erpetosuchidae/Pagosvenator/Pagosvenator_candelariensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:119065",
+      "scientificName": "Ticinosuchus ferox",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Ticinosuchus/Ticinosuchus_ferox",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:70615",
+      "scientificName": "Effigia okeeffeae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Shuvosauridae/Effigia/Effigia_okeeffeae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:149850",
+      "scientificName": "Sillosuchus longicervix",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Shuvosauridae/Sillosuchus/Sillosuchus_longicervix",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:90276",
+      "scientificName": "Shuvosaurus inexpectatus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Shuvosauridae/Shuvosaurus/Shuvosaurus_inexpectatus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:519432",
+      "scientificName": "Sonselasuchus cedrus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Shuvosauridae/Sonselasuchus/Sonselasuchus_cedrus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:68499",
+      "scientificName": "Stagonosuchus major",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Stagonosuchus/Stagonosuchus_major",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:380538",
+      "scientificName": "Stagonosuchus tanganyikaensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Stagonosuchus/Stagonosuchus_tanganyikaensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:178332",
+      "scientificName": "Stagonosuchus nyassicus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Stagonosuchus/Stagonosuchus_nyassicus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:182230",
+      "scientificName": "Decuriasuchus quartacolonia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Decuriasuchus/Decuriasuchus_quartacolonia",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:56610",
+      "scientificName": "Basutodon ferox",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Basutodon/Basutodon_ferox",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:157037",
+      "scientificName": "Aetosauroides scagliai",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Aetosauroides/Aetosauroides_scagliai",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:100837",
+      "scientificName": "Hoplitosuchus raui",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Hoplitosuchus/Hoplitosuchus_raui",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:133450",
+      "scientificName": "Batrachopus pilosus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Batrachopodidae/Batrachopus/Batrachopus_pilosus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:133398",
+      "scientificName": "Batrachopus rugosus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Batrachopodidae/Batrachopus/Batrachopus_rugosus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:133396",
+      "scientificName": "Batrachopus tenuis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Batrachopodidae/Batrachopus/Batrachopus_tenuis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:64950",
+      "scientificName": "Revueltosaurus callenderi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Revueltosaurus/Revueltosaurus_callenderi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:347485",
+      "scientificName": "Chilenosuchus forttae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Chilenosuchus/Chilenosuchus_forttae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:494698",
+      "scientificName": "Garzapelta muelleri",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Stagonolepidoidea/Garzapelta/Garzapelta_muelleri",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:215133",
+      "scientificName": "Aetobarbakinoides brasiliensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetobarbakinoides/Aetobarbakinoides_brasiliensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:371976",
+      "scientificName": "Coahomasuchus chathamensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Coahomasuchus/Coahomasuchus_chathamensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:156415",
+      "scientificName": "Coahomasuchus kahleorum",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Coahomasuchus/Coahomasuchus_kahleorum",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:156403",
+      "scientificName": "Aetosaurus ferratus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Aetosaurus/Aetosaurus_ferratus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:347475",
+      "scientificName": "Stenomyti huangae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Stenomyti/Stenomyti_huangae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:162261",
+      "scientificName": "Redondasuchus rineharti",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Redondasuchus/Redondasuchus_rineharti",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:159295",
+      "scientificName": "Redondasuchus reseri",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Redondasuchus/Redondasuchus_reseri",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:477278",
+      "scientificName": "Venkatasuchus armatum",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Paratypothoracisini/Venkatasuchus/Venkatasuchus_armatum",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:159297",
+      "scientificName": "Paratypothorax andressorum",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Paratypothoracisini/Paratypothorax/Paratypothorax_andressorum",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:162207",
+      "scientificName": "Rioarribasuchus chamaensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Paratypothoracisini/Rioarribasuchus/Rioarribasuchus_chamaensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:163810",
+      "scientificName": "Tecovasuchus chatterjeei",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Paratypothoracisini/Tecovasuchus/Tecovasuchus_chatterjeei",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:435370",
+      "scientificName": "Kocurypelta silvestris",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Paratypothoracisini/Kocurypelta/Kocurypelta_silvestris",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:347477",
+      "scientificName": "Apachesuchus heckerti",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Apachesuchus/Apachesuchus_heckerti",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:64940",
+      "scientificName": "Typothorax coccinarum",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Typothorax/Typothorax_coccinarum",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:156115",
+      "scientificName": "Stegomus arcuatus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Stegomus/Stegomus_arcuatus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:119075",
+      "scientificName": "Stagonolepis robertsoni",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Stagonolepis/Stagonolepis_robertsoni",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:165244",
+      "scientificName": "Stagonolepis olenkae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Stagonolepis/Stagonolepis_olenkae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:333723",
+      "scientificName": "Polesinesuchus aurelioi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Stagonolepininae/Polesinesuchus/Polesinesuchus_aurelioi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:69072",
+      "scientificName": "Calyptosuchus wellesi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Calyptosuchus/Calyptosuchus_wellesi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:161895",
+      "scientificName": "Adamanasuchus eisenhardtae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Adamanasuchus/Adamanasuchus_eisenhardtae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:138438",
+      "scientificName": "Sierritasuchus macalpini",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Desmatosuchini/Sierritasuchus/Sierritasuchus_macalpini",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:100584",
+      "scientificName": "Desmatosuchus spurensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Desmatosuchini/Desmatosuchus/Desmatosuchus_spurensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:71646",
+      "scientificName": "Desmatosuchus smalli",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Desmatosuchini/Desmatosuchus/Desmatosuchus_smalli",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:347465",
+      "scientificName": "Gorgetosuchus pekinensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Desmatosuchini/Gorgetosuchus/Gorgetosuchus_pekinensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:159293",
+      "scientificName": "Lucasuchus hunti",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Desmatosuchini/Lucasuchus/Lucasuchus_hunti",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:159291",
+      "scientificName": "Longosuchus meadei",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Desmatosuchini/Longosuchus/Longosuchus_meadei",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:66676",
+      "scientificName": "Neoaetosauroides engaeus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Neoaetosauroides/Neoaetosauroides_engaeus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:69070",
+      "scientificName": "Acaenasuchus geoffreyi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Acaenasuchus/Acaenasuchus_geoffreyi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:347479",
+      "scientificName": "Scutarx deltatylus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Scutarx/Scutarx_deltatylus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:144372",
+      "scientificName": "Yonghesuchus sangbiensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Gracilisuchidae/Yonghesuchus/Yonghesuchus_sangbiensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:455528",
+      "scientificName": "Maehary bonapartei",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Gracilisuchidae/Maehary/Maehary_bonapartei",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:492475",
+      "scientificName": "Parvosuchus aurelioi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Gracilisuchidae/Parvosuchus/Parvosuchus_aurelioi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:100515",
+      "scientificName": "Turfanosuchus dabanensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Gracilisuchidae/Turfanosuchus/Turfanosuchus_dabanensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:80900",
+      "scientificName": "Gracilisuchus stipanicicorum",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Gracilisuchidae/Gracilisuchus/Gracilisuchus_stipanicicorum",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:119069",
+      "scientificName": "Heptasuchus clarki",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Poposauridae/Heptasuchus/Heptasuchus_clarki",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:169960",
+      "scientificName": "Vytshegdosuchus zheshartensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Vytshegdosuchus/Vytshegdosuchus_zheshartensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:174468",
+      "scientificName": "Batrachotomus kupferzellensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Batrachotomus/Batrachotomus_kupferzellensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:169954",
+      "scientificName": "Vjushkovisaurus berdjanensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Vjushkovisaurus/Vjushkovisaurus_berdjanensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:265645",
+      "scientificName": "Scythosuchus basileus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Rauisuchinae/Vjushkovisaurini/Scythosuchus/Scythosuchus_basileus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:100838",
+      "scientificName": "Rauisuchus tiradentes",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Rauisuchus/Rauisuchus_tiradentes",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:472220",
+      "scientificName": "Scolotosuchus basileus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Scolotosuchus/Scolotosuchus_basileus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:347526",
+      "scientificName": "Vivaron haydeni",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Vivaron/Vivaron_haydeni",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:146579",
+      "scientificName": "Postosuchus alisonae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Postosuchus/Postosuchus_alisonae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:69074",
+      "scientificName": "Postosuchus kirkpatricki",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Postosuchus/Postosuchus_kirkpatricki",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:164793",
+      "scientificName": "Arganasuchus dutuiti",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Arganasuchus/Arganasuchus_dutuiti",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:130161",
+      "scientificName": "Polonosuchus silesiacus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Polonosuchus/Polonosuchus_silesiacus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:80897",
+      "scientificName": "Luperosuchus fractus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Luperosuchus/Luperosuchus_fractus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:54992",
+      "scientificName": "Teratosaurus suevicus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Teratosaurus/Teratosaurus_suevicus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:57750",
+      "scientificName": "Teratosaurus bengalensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Teratosaurus/Teratosaurus_bengalensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:115711",
+      "scientificName": "Teratosaurus schuetzii",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Teratosaurus/Teratosaurus_schuetzii",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:119071",
+      "scientificName": "Tikisuchus romeri",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Tikisuchus/Tikisuchus_romeri",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:169962",
+      "scientificName": "Energosuchus garjainovi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Energosuchus/Energosuchus_garjainovi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:100831",
+      "scientificName": "Prestosuchus chiniquensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Prestosuchus/Prestosuchus_chiniquensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:333692",
+      "scientificName": "Dagasuchus santacruzensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Dagasuchus/Dagasuchus_santacruzensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:119066",
+      "scientificName": "Saurosuchus galilei",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Saurosuchus/Saurosuchus_galilei",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:448208",
+      "scientificName": "Etjosuchus recurvidens",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Etjosuchus/Etjosuchus_recurvidens",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:119073",
+      "scientificName": "Fasolasuchus tenax",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Fasolasuchus/Fasolasuchus_tenax",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:56378",
+      "scientificName": "Apatosuchus orbitoangulatus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Apatosuchus/Apatosuchus_orbitoangulatus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:521001",
+      "scientificName": "Shakajlura riojanensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Shakajlura/Shakajlura_riojanensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170544",
+      "scientificName": "Coburgosuchus goeckeli",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Coburgosuchus/Coburgosuchus_goeckeli",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:64947",
+      "scientificName": "Rutiodon carolinensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Rutiodon/Rutiodon_carolinensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:159229",
+      "scientificName": "Brachysuchus megalodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Brachysuchus/Brachysuchus_megalodon",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:242995",
+      "scientificName": "Protome batalaria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Protome/Protome_batalaria",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:155543",
+      "scientificName": "Angistorhinus grandis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Angistorhinus/Angistorhinus_grandis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:155203",
+      "scientificName": "Angistorhinus aeolamnis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Angistorhinus/Angistorhinus_aeolamnis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:162192",
+      "scientificName": "Angistorhinus alticephalus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Angistorhinus/Angistorhinus_alticephalus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:182290",
+      "scientificName": "Angistorhinus parvus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Angistorhinus/Angistorhinus_parvus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:159231",
+      "scientificName": "Angistorhinus talainti",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Angistorhinus/Angistorhinus_talainti",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:159232",
+      "scientificName": "Angistorhinus maximus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Angistorhinus/Angistorhinus_maximus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:69058",
+      "scientificName": "Smilosuchus lithodendrorum",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Smilosuchus/Smilosuchus_lithodendrorum",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:69057",
+      "scientificName": "Smilosuchus adamanensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Smilosuchus/Smilosuchus_adamanensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:69059",
+      "scientificName": "Smilosuchus gregorii",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Smilosuchus/Smilosuchus_gregorii",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:145116",
+      "scientificName": "Machaeroprosopus jablonskiae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini/Machaeroprosopus/Machaeroprosopus_jablonskiae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:159241",
+      "scientificName": "Machaeroprosopus andersoni",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini/Machaeroprosopus/Machaeroprosopus_andersoni",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:161993",
+      "scientificName": "Machaeroprosopus validus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini/Machaeroprosopus/Machaeroprosopus_validus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:347629",
+      "scientificName": "Redondasaurus gregorii",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini/Machaeroprosopus/Redondasaurus_gregorii",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:133091",
+      "scientificName": "Redondasaurus bermani",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini/Machaeroprosopus/Redondasaurus_bermani",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:69064",
+      "scientificName": "Machaeroprosopus pristinus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini/Machaeroprosopus/Machaeroprosopus_pristinus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:69065",
+      "scientificName": "Machaeroprosopus buceros",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini/Machaeroprosopus/Machaeroprosopus_buceros",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:69067",
+      "scientificName": "Machaeroprosopus mccauleyi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini/Machaeroprosopus/Machaeroprosopus_mccauleyi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:347587",
+      "scientificName": "Machaeroprosopus lottorum",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini/Machaeroprosopus/Machaeroprosopus_lottorum",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:69066",
+      "scientificName": "Machaeroprosopus tenuis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini/Machaeroprosopus/Machaeroprosopus_tenuis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:178425",
+      "scientificName": "Mystriosuchus westphali",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini/Mystriosuchus/Mystriosuchus_westphali",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:64944",
+      "scientificName": "Mystriosuchus planirostris",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini/Mystriosuchus/Mystriosuchus_planirostris",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:178436",
+      "scientificName": "Nicrosaurus meyeri",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini/Nicrosaurus/Nicrosaurus_meyeri",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:64943",
+      "scientificName": "Nicrosaurus kapffi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini/Nicrosaurus/Nicrosaurus_kapffi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:69060",
+      "scientificName": "Leptosuchus crosbiensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Leptosuchus/Leptosuchus_crosbiensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:159236",
+      "scientificName": "Leptosuchus studeri",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Leptosuchus/Leptosuchus_studeri",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:171950",
+      "scientificName": "Pravusuchus hortus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Pravusuchus/Pravusuchus_hortus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:416835",
+      "scientificName": "Volcanosuchus statisticae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Volcanosuchus/Volcanosuchus_statisticae",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:159222",
+      "scientificName": "Paleorhinus sawini",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Parasuchus/Paleorhinus_sawini",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:100587",
+      "scientificName": "Paleorhinus ehlersi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Parasuchus/Paleorhinus_ehlersi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:58929",
+      "scientificName": "Parasuchus bransoni",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Parasuchus/Parasuchus_bransoni",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:159217",
+      "scientificName": "Parasuchus hislopi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Parasuchus/Parasuchus_hislopi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:164817",
+      "scientificName": "Parasuchus magnoculus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Parasuchus/Parasuchus_magnoculus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170553",
+      "scientificName": "Parasuchus angustifrons",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Parasuchus/Parasuchus_angustifrons",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:182714",
+      "scientificName": "Wannia scurriensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Wannia/Wannia_scurriensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:170555",
+      "scientificName": "Ebrachosuchus neukami",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Ebrachosuchus/Ebrachosuchus_neukami",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:275505",
+      "scientificName": "Termatosaurus crocodilinus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Termatosaurus/Termatosaurus_crocodilinus",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:261502",
+      "scientificName": "Termatosaurus alberti",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Termatosaurus/Termatosaurus_alberti",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:246048",
+      "scientificName": "Diandongosuchus fuyuanensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Diandongosuchus/Diandongosuchus_fuyuanensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:452311",
+      "scientificName": "Mambawakale ruhuhu",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Mambawakale/Mambawakale_ruhuhu",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:66677",
+      "scientificName": "Riojasuchus tenuisceps",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Ornithosuchidae/Riojasuchus/Riojasuchus_tenuisceps",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:399806",
+      "scientificName": "Aenigmaspina pantyffynnonensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Ornithosuchidae/Aenigmaspina/Aenigmaspina_pantyffynnonensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:269820",
+      "scientificName": "Venaticosuchus rusconii",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Ornithosuchidae/Venaticosuchus/Venaticosuchus_rusconii",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:55573",
+      "scientificName": "Ornithosuchus woodwardi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Ornithosuchidae/Ornithosuchus/Ornithosuchus_woodwardi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:423010",
+      "scientificName": "Dynamosuchus collisensis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Ornithosuchidae/Dynamosuchus/Dynamosuchus_collisensis",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:169956",
+      "scientificName": "Jushatyria vjushkovi",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Thecodontia/Jushatyria/Jushatyria_vjushkovi",
+      "rank": "species"
+    },
+    {
+      "pbdbTaxonId": "txn:196684",
+      "scientificName": "Smok wawelski",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Smok/Smok_wawelski",
+      "rank": "species"
+    }
+  ],
+  "authoredGroupPages": [
+    {
+      "pbdbTaxonId": "txn:38215",
+      "scientificName": "Archosauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:92295",
+      "scientificName": "Theropodomorpha",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Theropodomorpha",
+      "rank": "superorder"
+    },
+    {
+      "pbdbTaxonId": "txn:54999",
+      "scientificName": "Herrerasauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Theropodomorpha/Herrerasauria",
+      "rank": "infraorder"
+    },
+    {
+      "pbdbTaxonId": "txn:66660",
+      "scientificName": "Caseosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Theropodomorpha/Herrerasauria/Caseosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:509337",
+      "scientificName": "Maleriraptor",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Theropodomorpha/Herrerasauria/Maleriraptor",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:63008",
+      "scientificName": "Sikannisuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Sikannisuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:144376",
+      "scientificName": "Avemetatarsalia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia",
+      "rank": "informal"
+    },
+    {
+      "pbdbTaxonId": "txn:475202",
+      "scientificName": "Mambachiton",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Mambachiton",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:57250",
+      "scientificName": "Ornithodira",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:53366",
+      "scientificName": "Dinosauromorpha",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:53207",
+      "scientificName": "Dinosauriformes",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:53205",
+      "scientificName": "Marasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Marasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:281447",
+      "scientificName": "Ignotosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Ignotosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:184612",
+      "scientificName": "Pterosauromorpha",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:67918",
+      "scientificName": "Lagerpetidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Lagerpetidae",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:104965",
+      "scientificName": "Dromomeron",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Lagerpetidae/Dromomeron",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:476652",
+      "scientificName": "Venetoraptor",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Lagerpetidae/Venetoraptor",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:423005",
+      "scientificName": "Kongonaphon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Lagerpetidae/Kongonaphon",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38247",
+      "scientificName": "Lagerpeton",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Lagerpetidae/Lagerpeton",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:347519",
+      "scientificName": "Ixalerpeton",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Lagerpetidae/Ixalerpeton",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:169639",
+      "scientificName": "Faxinalipterus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Lagerpetidae/Faxinalipterus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38290",
+      "scientificName": "Scleromochlus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Lagerpetidae/Scleromochlus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:352307",
+      "scientificName": "Aphanosauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Aphanosauria",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:38307",
+      "scientificName": "Teleocrater",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Aphanosauria/Teleocrater",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38509",
+      "scientificName": "Spondylosoma",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Aphanosauria/Spondylosoma",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:169957",
+      "scientificName": "Dongusuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Aphanosauria/Dongusuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:148342",
+      "scientificName": "Yarasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Aphanosauria/Yarasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:54991",
+      "scientificName": "Pseudosuchia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:64084",
+      "scientificName": "Chirotheriidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Chirotheriidae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:77387",
+      "scientificName": "Brachychirotherium",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Chirotheriidae/Brachychirotherium",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:159324",
+      "scientificName": "Youngosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Youngosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38253",
+      "scientificName": "Procerosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Procerosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:372157",
+      "scientificName": "Nundasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Nundasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:100737",
+      "scientificName": "Poposauroidea",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea",
+      "rank": "superfamily"
+    },
+    {
+      "pbdbTaxonId": "txn:38255",
+      "scientificName": "Mandasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Mandasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38282",
+      "scientificName": "Ctenosauriscidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Ctenosauriscidae",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:38284",
+      "scientificName": "Hypselorhachis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Ctenosauriscidae/Hypselorhachis",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38226",
+      "scientificName": "Arizonasaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Ctenosauriscidae/Arizonasaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:263710",
+      "scientificName": "Bystrowisuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Ctenosauriscidae/Bystrowisuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:54993",
+      "scientificName": "Bromsgroveia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Ctenosauriscidae/Bromsgroveia",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38224",
+      "scientificName": "Xilousuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Ctenosauriscidae/Xilousuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38283",
+      "scientificName": "Ctenosauriscus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Ctenosauriscidae/Ctenosauriscus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:144374",
+      "scientificName": "Qianosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Qianosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38285",
+      "scientificName": "Lotosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Lotosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:493703",
+      "scientificName": "Benggwigwishingasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Benggwigwishingasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38263",
+      "scientificName": "Poposaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Poposauroidea/Poposaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:171940",
+      "scientificName": "Koilamasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Koilamasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:85738",
+      "scientificName": "Rotodactylidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Rotodactylidae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:82509",
+      "scientificName": "Rotodactylus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Rotodactylidae/Rotodactylus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38278",
+      "scientificName": "Erpetosuchidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Erpetosuchidae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:38281",
+      "scientificName": "Parringtonia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Erpetosuchidae/Parringtonia",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38279",
+      "scientificName": "Erpetosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Erpetosuchidae/Erpetosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:370044",
+      "scientificName": "Pagosvenator",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Erpetosuchidae/Pagosvenator",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:66478",
+      "scientificName": "Suchia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:38260",
+      "scientificName": "Ticinosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Ticinosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:90275",
+      "scientificName": "Shuvosauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Shuvosauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:70614",
+      "scientificName": "Effigia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Shuvosauridae/Effigia",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:119062",
+      "scientificName": "Sillosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Shuvosauridae/Sillosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:90274",
+      "scientificName": "Shuvosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Shuvosauridae/Shuvosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:519431",
+      "scientificName": "Sonselasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Shuvosauridae/Sonselasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38256",
+      "scientificName": "Stagonosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Stagonosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:182229",
+      "scientificName": "Decuriasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Decuriasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:56609",
+      "scientificName": "Basutodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Basutodon",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38267",
+      "scientificName": "Aetosauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:38272",
+      "scientificName": "Aetosauroides",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Aetosauroides",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:100836",
+      "scientificName": "Hoplitosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Hoplitosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:68009",
+      "scientificName": "Batrachopodidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Batrachopodidae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:67448",
+      "scientificName": "Batrachopus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Batrachopodidae/Batrachopus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:64949",
+      "scientificName": "Revueltosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Revueltosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:347484",
+      "scientificName": "Chilenosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Chilenosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:64937",
+      "scientificName": "Stagonolepididae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:494685",
+      "scientificName": "Stagonolepidoidea",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Stagonolepidoidea",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:494693",
+      "scientificName": "Garzapelta",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Stagonolepidoidea/Garzapelta",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:215132",
+      "scientificName": "Aetobarbakinoides",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetobarbakinoides",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:156408",
+      "scientificName": "Aetosaurinae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae",
+      "rank": "subfamily"
+    },
+    {
+      "pbdbTaxonId": "txn:156410",
+      "scientificName": "Coahomasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Coahomasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38269",
+      "scientificName": "Aetosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Aetosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:347474",
+      "scientificName": "Stenomyti",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Stenomyti",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:163803",
+      "scientificName": "Typothoracisinae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:156413",
+      "scientificName": "Redondasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Redondasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:163804",
+      "scientificName": "Paratypothoracisini",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Paratypothoracisini",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:477277",
+      "scientificName": "Venkatasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Paratypothoracisini/Venkatasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:64939",
+      "scientificName": "Paratypothorax",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Paratypothoracisini/Paratypothorax",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:163004",
+      "scientificName": "Rioarribasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Paratypothoracisini/Rioarribasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:163809",
+      "scientificName": "Tecovasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Paratypothoracisini/Tecovasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:435369",
+      "scientificName": "Kocurypelta",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Paratypothoracisini/Kocurypelta",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:347476",
+      "scientificName": "Apachesuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Apachesuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:64792",
+      "scientificName": "Typothorax",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Aetosaurinae/Typothoracisinae/Typothorax",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38276",
+      "scientificName": "Stegomus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Stegomus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:100585",
+      "scientificName": "Desmatosuchia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia",
+      "rank": "suborder"
+    },
+    {
+      "pbdbTaxonId": "txn:38271",
+      "scientificName": "Stagonolepis",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Stagonolepis",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:100842",
+      "scientificName": "Stagonolepininae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Stagonolepininae",
+      "rank": "subfamily"
+    },
+    {
+      "pbdbTaxonId": "txn:333722",
+      "scientificName": "Polesinesuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Stagonolepininae/Polesinesuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:100844",
+      "scientificName": "Desmatosuchinae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae",
+      "rank": "subfamily"
+    },
+    {
+      "pbdbTaxonId": "txn:69071",
+      "scientificName": "Calyptosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Calyptosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:161894",
+      "scientificName": "Adamanasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Adamanasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:347483",
+      "scientificName": "Desmatosuchini",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Desmatosuchini",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:138437",
+      "scientificName": "Sierritasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Desmatosuchini/Sierritasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38275",
+      "scientificName": "Desmatosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Desmatosuchini/Desmatosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:347464",
+      "scientificName": "Gorgetosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Desmatosuchini/Gorgetosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:156416",
+      "scientificName": "Lucasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Desmatosuchini/Lucasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:156411",
+      "scientificName": "Longosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Desmatosuchini/Longosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38274",
+      "scientificName": "Neoaetosauroides",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Neoaetosauroides",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:69069",
+      "scientificName": "Acaenasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Acaenasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:347478",
+      "scientificName": "Scutarx",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Aetosauria/Stagonolepididae/Desmatosuchia/Desmatosuchinae/Scutarx",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38286",
+      "scientificName": "Gracilisuchidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Gracilisuchidae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:144371",
+      "scientificName": "Yonghesuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Gracilisuchidae/Yonghesuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:455527",
+      "scientificName": "Maehary",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Gracilisuchidae/Maehary",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:492474",
+      "scientificName": "Parvosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Gracilisuchidae/Parvosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:100513",
+      "scientificName": "Turfanosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Gracilisuchidae/Turfanosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38287",
+      "scientificName": "Gracilisuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Gracilisuchidae/Gracilisuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:119059",
+      "scientificName": "Paracrocodylomorpha",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:38262",
+      "scientificName": "Poposauridae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Poposauridae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:38251",
+      "scientificName": "Heptasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Poposauridae/Heptasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:169959",
+      "scientificName": "Vytshegdosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Vytshegdosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:97102",
+      "scientificName": "Loricata",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:119061",
+      "scientificName": "Batrachotomus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Batrachotomus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38249",
+      "scientificName": "Rauisuchidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:38261",
+      "scientificName": "Vjushkovisaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Vjushkovisaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:100840",
+      "scientificName": "Rauisuchinae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Rauisuchinae",
+      "rank": "subfamily"
+    },
+    {
+      "pbdbTaxonId": "txn:265646",
+      "scientificName": "Vjushkovisaurini",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Rauisuchinae/Vjushkovisaurini",
+      "rank": "tribe"
+    },
+    {
+      "pbdbTaxonId": "txn:265644",
+      "scientificName": "Scythosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Rauisuchinae/Vjushkovisaurini/Scythosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38258",
+      "scientificName": "Rauisuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Rauisuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:472217",
+      "scientificName": "Scolotosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Scolotosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:347525",
+      "scientificName": "Vivaron",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Vivaron",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38264",
+      "scientificName": "Postosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Postosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:164792",
+      "scientificName": "Arganasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Arganasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:149289",
+      "scientificName": "Polonosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Polonosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:80896",
+      "scientificName": "Luperosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Luperosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38265",
+      "scientificName": "Teratosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Teratosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:119070",
+      "scientificName": "Tikisuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Tikisuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:169961",
+      "scientificName": "Energosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Rauisuchidae/Energosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38257",
+      "scientificName": "Prestosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Prestosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:333691",
+      "scientificName": "Dagasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Dagasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38259",
+      "scientificName": "Saurosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Saurosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:448204",
+      "scientificName": "Etjosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Etjosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38250",
+      "scientificName": "Fasolasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Fasolasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:285510",
+      "scientificName": "Apatosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Loricata/Apatosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:521000",
+      "scientificName": "Shakajlura",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Suchia/Paracrocodylomorpha/Shakajlura",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38292",
+      "scientificName": "Phytosauria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:170543",
+      "scientificName": "Coburgosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Coburgosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:133090",
+      "scientificName": "Parasuchidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae",
+      "rank": "family"
+    },
+    {
+      "pbdbTaxonId": "txn:159225",
+      "scientificName": "Mystriosuchinae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae",
+      "rank": "subfamily"
+    },
+    {
+      "pbdbTaxonId": "txn:38299",
+      "scientificName": "Rutiodon",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Rutiodon",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:159228",
+      "scientificName": "Brachysuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Brachysuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:242994",
+      "scientificName": "Protome",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Protome",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38294",
+      "scientificName": "Angistorhinus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Angistorhinus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:180517",
+      "scientificName": "Leptosuchomorpha",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:159237",
+      "scientificName": "Smilosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Smilosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:347591",
+      "scientificName": "Mystriosuchini",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:69056",
+      "scientificName": "Machaeroprosopus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini/Machaeroprosopus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38296",
+      "scientificName": "Mystriosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini/Mystriosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38297",
+      "scientificName": "Nicrosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Mystriosuchini/Nicrosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:64948",
+      "scientificName": "Leptosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Leptosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:171949",
+      "scientificName": "Pravusuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Leptosuchomorpha/Pravusuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:416834",
+      "scientificName": "Volcanosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Mystriosuchinae/Volcanosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38298",
+      "scientificName": "Parasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Parasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:280328",
+      "scientificName": "Wannia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Wannia",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:170554",
+      "scientificName": "Ebrachosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Parasuchidae/Ebrachosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:97027",
+      "scientificName": "Termatosaurus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Termatosaurus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:246047",
+      "scientificName": "Diandongosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Phytosauria/Diandongosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:452310",
+      "scientificName": "Mambawakale",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Mambawakale",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38241",
+      "scientificName": "Ornithosuchidae",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Ornithosuchidae",
+      "rank": "unranked clade"
+    },
+    {
+      "pbdbTaxonId": "txn:38243",
+      "scientificName": "Riojasuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Ornithosuchidae/Riojasuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:399805",
+      "scientificName": "Aenigmaspina",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Ornithosuchidae/Aenigmaspina",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38244",
+      "scientificName": "Venaticosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Ornithosuchidae/Venaticosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38242",
+      "scientificName": "Ornithosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Ornithosuchidae/Ornithosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:423009",
+      "scientificName": "Dynamosuchus",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Pseudosuchia/Ornithosuchidae/Dynamosuchus",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:38216",
+      "scientificName": "Thecodontia",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Thecodontia",
+      "rank": "order"
+    },
+    {
+      "pbdbTaxonId": "txn:169955",
+      "scientificName": "Jushatyria",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Thecodontia/Jushatyria",
+      "rank": "genus"
+    },
+    {
+      "pbdbTaxonId": "txn:196683",
+      "scientificName": "Smok",
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Smok",
+      "rank": "genus"
+    }
+  ],
+  "canonicalStorage": "Recorded PBDB ancestry below the previously documented Archosauria path; no internal taxon ID or COL equivalence minted. Existing index and other record types preserved.",
+  "sourceInterpretation": "eag/lag are occurrence-age brackets; selected outer envelope does not establish FAD/LAD, origin/extinction or continuous occupancy. Collection environment and preservation modes are collection-level fields, not whole-species ecological or specimen claims.",
+  "underlyingPapersRead": false,
+  "expertReview": false,
+  "fullSpeciesMonographsCompleted": 0,
+  "primatesGapsClosed": 0,
+  "readerVisibleDelivery": "Canonical prose prepared. PBDB atlas/profile/navigation compatibility mapping, generation, runtime delivery and publication pending content-phase handoff.",
+  "projectionMapping": "Do not inject PBDB OIDs into COL catalogue profile descriptors. Convert/append the current catalogue-profile text pointers to PBDB atlas-profile using recorded external OIDs at content handoff, preserving existing atlas records and scientific uncertainties.",
+  "editorialPass": {
+    "englishGrammarParagraphs": 189,
+    "chineseLabelParagraphs": 167,
+    "neutralLimitHeadings": 676,
+    "scope": "Only current P5-50 paragraph markers and new neutral limitation headings. Source rows, percentages, ages, names, citations and maturity states retained.",
+    "additionalChineseLabelParagraphs": 31,
+    "representativePagesRead": [
+      "Caseosaurus crosbyensis",
+      "Mambachiton fiandohana",
+      "Archosauria"
+    ],
+    "chineseRankParagraphs": 170,
+    "additionalEnvironmentLabelParagraphs": 1
+  },
+  "timelineEndpointProvenance": {
+    "localeParagraphs": 334,
+    "scope": "Named collection and occurrence ID identify one contributor to each selected outer bound. Source ages and rows unchanged."
+  },
+  "partitionScope": {
+    "id": "other-archosauria",
+    "sourcePath": "data/sources/snapshots/pbdb-amniota-disjoint-oids-2026-10-02.json",
+    "fixedRecordCount": 179,
+    "excludedPartitionIds": [
+      "fossil-aves",
+      "non-avian-dinosauria",
+      "pterosauria",
+      "crocodylomorpha"
+    ],
+    "limitsLocaleParagraphs": 676
+  },
+  "identifierCorrectionReceipt": "data/sources/amniota-partition-identifier-correction-2026-10-02.json"
+}

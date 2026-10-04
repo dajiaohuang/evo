@@ -1,0 +1,390 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Eremotherium laurillardi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Eremotherium laurillardi
+      en: Eremotherium laurillardi
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Eremotherium laurillardi
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=48051&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:48051; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:48051
+            selectedOccurrenceIds:
+              - occ:197957
+              - occ:199403
+              - occ:199517
+              - occ:600958
+              - occ:661527
+              - occ:661579
+              - occ:661587
+              - occ:661600
+              - occ:661702
+              - occ:661708
+              - occ:661711
+              - occ:661747
+              - occ:662069
+              - occ:662107
+              - occ:662127
+              - occ:742423
+              - occ:742424
+              - occ:799316
+              - occ:841087
+              - occ:874101
+              - occ:1074831
+              - occ:1074845
+              - occ:1091073
+              - occ:1109531
+              - occ:1109695
+              - occ:1140859
+              - occ:1142099
+              - occ:1142234
+              - occ:1151792
+              - occ:1153589
+              - occ:1153819
+              - occ:1155991
+              - occ:1156369
+              - occ:1156383
+              - occ:1196887
+              - occ:1377890
+              - occ:1412565
+              - occ:1504394
+              - occ:1516973
+              - occ:1517850
+              - occ:1519284
+              - occ:1520816
+              - occ:1520824
+              - occ:1520838
+              - occ:1520855
+              - occ:1520904
+              - occ:1520907
+              - occ:1599025
+              - occ:1599026
+              - occ:1599027
+              - occ:1599028
+              - occ:1599029
+              - occ:1599030
+              - occ:1599031
+              - occ:1599033
+              - occ:1599037
+              - occ:1599038
+              - occ:1599054
+              - occ:1599065
+              - occ:1599078
+              - occ:1599088
+              - occ:1599103
+              - occ:1599104
+              - occ:1599105
+              - occ:1599106
+              - occ:1599107
+              - occ:1599108
+              - occ:1599109
+              - occ:1599110
+              - occ:1599118
+              - occ:1599136
+              - occ:1599147
+              - occ:1599156
+              - occ:1599170
+              - occ:1599195
+              - occ:1599196
+              - occ:1627614
+              - occ:1627629
+              - occ:1627637
+              - occ:1628973
+              - occ:1628991
+              - occ:1629004
+              - occ:1629188
+              - occ:1629213
+              - occ:1629217
+              - occ:1629222
+              - occ:1629235
+              - occ:1629257
+              - occ:1661892
+              - occ:1664001
+              - occ:1690869
+            selectedCollectionIds:
+              - col:20395
+              - col:20591
+              - col:20604
+              - col:63884
+              - col:71267
+              - col:71275
+              - col:71276
+              - col:71278
+              - col:71293
+              - col:71294
+              - col:71295
+              - col:71300
+              - col:71332
+              - col:71333
+              - col:71335
+              - col:79778
+              - col:79750
+              - col:86962
+              - col:93235
+              - col:96899
+              - col:133630
+              - col:133631
+              - col:137121
+              - col:140474
+              - col:136498
+              - col:145359
+              - col:145502
+              - col:145505
+              - col:147073
+              - col:147605
+              - col:147609
+              - col:148228
+              - col:148309
+              - col:148310
+              - col:154804
+              - col:187597
+              - col:195186
+              - col:209720
+              - col:190064
+              - col:212327
+              - col:189381
+              - col:189383
+              - col:212603
+              - col:212606
+              - col:212614
+              - col:212616
+              - col:226017
+              - col:226018
+              - col:226019
+              - col:226020
+              - col:226021
+              - col:226022
+              - col:226023
+              - col:226024
+              - col:226025
+              - col:203943
+              - col:226026
+              - col:226027
+              - col:226028
+              - col:226029
+              - col:226030
+              - col:212360
+              - col:20285
+              - col:71277
+              - col:226031
+              - col:226032
+              - col:226033
+              - col:226034
+              - col:226035
+              - col:226036
+              - col:226037
+              - col:226039
+              - col:226040
+              - col:226041
+              - col:226042
+              - col:230460
+              - col:230462
+              - col:230463
+              - col:230712
+              - col:147191
+              - col:230715
+              - col:230753
+              - col:230754
+              - col:230755
+              - col:230756
+              - col:230757
+              - col:230760
+              - col:136521
+              - col:236300
+              - col:239845
+            sourceReferenceIds:
+              - ref:6294
+              - ref:1962
+              - ref:18354
+              - ref:12164
+              - ref:24082
+              - ref:24084
+              - ref:24004
+              - ref:24081
+              - ref:23961
+              - ref:23924
+              - ref:23910
+              - ref:26822
+              - ref:31515
+              - ref:33085
+              - ref:43044
+              - ref:43824
+              - ref:45481
+              - ref:43716
+              - ref:46859
+              - ref:47491
+              - ref:47529
+              - ref:47532
+              - ref:47587
+              - ref:47592
+              - ref:47601
+              - ref:50371
+              - ref:62987
+              - ref:66420
+              - ref:72337
+              - ref:24018
+              - ref:63907
+              - ref:73351
+              - ref:73427
+              - ref:81882
+              - ref:85079
+              - ref:85081
+              - ref:85082
+              - ref:85284
+              - ref:85287
+              - ref:85288
+              - ref:85310
+              - ref:85311
+              - ref:85313
+              - ref:85315
+              - ref:85316
+              - ref:85321
+              - ref:89247
+              - ref:89513
+              - ref:63063
+            originalIdentificationMappings:
+              - occurrenceId: occ:874101
+                originalIdentifiedName: Chelonia couperi
+                acceptedName: Eremotherium laurillardi
+                difference: null
+              - occurrenceId: occ:1074831
+                originalIdentifiedName: Eremotherium carolinense
+                acceptedName: Eremotherium laurillardi
+                difference: null
+              - occurrenceId: occ:1074845
+                originalIdentifiedName: Eremotherium carolinense
+                acceptedName: Eremotherium laurillardi
+                difference: null
+              - occurrenceId: occ:1516973
+                originalIdentifiedName: Xenocnus cearensis
+                acceptedName: Eremotherium laurillardi
+                difference: null
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Eremotherium laurillardi

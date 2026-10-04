@@ -1,0 +1,179 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Plesiolacerta lydekkeri
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Plesiolacerta lydekkeri
+      en: Plesiolacerta lydekkeri
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSquamataTaxonomy20261002
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+          metadataVariant: 0
+          sourceKey: pbdbSquamataTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Plesiolacerta lydekkeri
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=58733&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+          metadataVariant: 0
+          sourceKey: pbdbSquamataOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:58733; original response record indices retained in data/sources/squamata-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 514f112902c399f610603231aa01670f6a662448389d5f94c43cb3b70ec452d6
+            pbdbTaxonId: txn:58733
+            selectedOccurrenceIds:
+              - occ:451688
+              - occ:1330496
+              - occ:1330497
+              - occ:1330498
+              - occ:1330499
+              - occ:1330500
+              - occ:1330501
+              - occ:1330502
+              - occ:1330503
+              - occ:1330504
+              - occ:1330505
+              - occ:1330897
+              - occ:1341450
+              - occ:1495719
+            selectedCollectionIds:
+              - col:12840
+              - col:31745
+              - col:12853
+              - col:12848
+              - col:12850
+              - col:12842
+              - col:12851
+              - col:12854
+              - col:12846
+              - col:36708
+              - col:28747
+              - col:179194
+              - col:151252
+              - col:12849
+            sourceReferenceIds:
+              - ref:11647
+              - ref:59290
+              - ref:71813
+            originalIdentificationMappings:
+              - occurrenceId: occ:1330505
+                originalIdentifiedName: Plesiolacerta lydekkeri n. gen. n. sp.
+                acceptedName: Plesiolacerta lydekkeri
+                difference: null
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Plesiolacerta lydekkeri

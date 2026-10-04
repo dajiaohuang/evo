@@ -7,19 +7,19 @@ status: migrated-verbatim
 
 # Chiropotes israelita
 
-## classification
+## 固定接受名与研究处理的差异
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
 此页按固定 COL26.8 接受种 ID 5Y6KL 记录 *Chiropotes israelita*（Spix, 1823）。MDD 当前 *C. chiropotes* 页面把 israelita 列在名称与分类注记中，并称这些名称的关系尚未完全厘清；其地理概述针对该 *C. chiropotes* 条目，不能直接当作固定 COL 身份的独立分布界线。Carneiro 等（2023）的多位点研究把 *C. israelita* 处理为较晚异名，并按布朗库河西、东岸分别使用 *C. chiropotes* 与 *C. sagulatus*；仅用核标记时，这一对的区分支持较弱。此页保留固定清单 ID 与来源间差异，不合并不同名称行。
 <!-- /evo:text -->
 
-## taxonomicEvidence
+## 历史标本的分类论证
 
 <!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
 Bonvicino 等（2003）分析了来自巴西亚马孙多处地点的 25 件标本，报告该形态的毛色可与其他已知种区分，并描述了核型和分子差异；作者据此把里奥内格罗河材料称作 C. israelita，并与其比较的其他形式视为异域分布。这是历史样本支持的分类论证，不是当前全分布区调查。
 <!-- /evo:text -->
 
-## rangeModel
+## 最大熵模型的预测边界
 
 <!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
 Boubli 与 de Lima（2009）用最大熵方法建模西北亚马孙的 Chiropotes israelita 与 Cacajao 分布和生态位。模型所示适生区和边界属于预测结果；作者指出，仍需更多实地调查来厘清区域分布。它不能当作逐点确认、现时种群数量或趋势。
@@ -31,14 +31,83 @@ Boubli 与 de Lima（2009）用最大熵方法建模西北亚马孙的 Chiropote
 regional_survey
 <!-- /evo:text -->
 
-## regional_survey
+## 两河间调查与系统发育样本
 
 <!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
 Boubli 等（2015）在里奥内格罗河与布朗库河区域的日行灵长类调查中，以形态鉴定记录了 20 种；作者把 *C. israelita* 列入两河之间的区域组合。其比较系统发育分析使用 94 个细胞色素 *b* 样本，讨论多个河流分隔种群的关系；论文摘要将研究对象的采样表述为覆盖区域 20 种中的 19 种，因此不能把所有谱系关系说成均由这轮样本直接测得。这为旧名 *C. israelita* 提供了有地点范围的区域调查背景，但不是数量估计或行为、食性研究。
 <!-- /evo:text -->
 
-## catalogue-profile / limitations
+## 历史生活史汇编的材料范围
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+Chiropotes israelita 在固定 COL26.8 中为接受种，位于 Pitheciidae。本页对读生活史档案中的同名历史条目；选用 5 个焦点字段，每个字段在同名、同科、种级的 sparse table 行中有带引用标签的资料支持。汇总值仍可能含历史分类继承，不能按行名直接消除这一影响。
+<!-- /evo:text -->
+
+## 成年体重汇总的含义
+
+<!-- evo:text /records/catalogue-profile/sections/5/text/zh -->
+历史条目的汇总值为：成年体重 2942.5 g。成年字段可整合雄性、雌性和性别未说明的材料，不提供全物种个体体重范围。本条目没有在本节加入出生／孵化体重。
+<!-- /evo:text -->
+
+## 成熟、窝仔数与妊娠字段
+
+<!-- evo:text /records/catalogue-profile/sections/6/text/zh -->
+可用的汇编字段是：雌性成熟字段（源定义为首次受孕年龄） 1460.46 d；每窝幼体数或卵数 1 个；受孕或受精至出生的时间 157.67 d。d 表示天。每窝字段整合幼体数或卵数，汇总后的非整数不表示某一次实际产出分数个体；各时间字段指向不同事件，不能互换为统一的“繁殖周期”。
+<!-- /evo:text -->
+
+## 最长寿命记录的含义
+
+<!-- evo:text /records/catalogue-profile/sections/7/text/zh -->
+档案的 maximum_longevity_y 字段为 19.6 年，按源方法取搜集资料中的最大记录。它不表示通常寿命、野外平均寿命、所有个体的生存上限或仍可重复达到的当前记录。
+<!-- /evo:text -->
+
+## 生活史字段的引用链
+
+<!-- evo:text /records/catalogue-profile/sections/8/text/zh -->
+同名原始行的引用标签包括 Jones, K., Bielby, J., Cardillo, M. et al., 2009；de Magalhaes and Costa, 2009；Ernest et al., 2003；Carey, J.R. and D.S. Judge, 2002 等。每字段的原始行号、值和引用标签，以及汇总表的完整引用说明，保存在本批来源档案中。一个标签可代表原始论文，也可代表书籍或其他数据库；条目数不是被测个体数，引用重复也不构成独立重复实验。
+<!-- /evo:text -->
+
+## 历史取食条目的分类边界
+
+<!-- evo:text /records/catalogue-profile/sections/9/text/zh -->
+Chiropotes israelita 在固定 COL26.8 中为 Pitheciidae 的接受种。本页对读 EltonTraits 1.0 中的同名同科条目，采用 2 类具有来源说明的取食生态字段。来源采用较早的鸟类或 MSW3 哺乳类分类，不能据同名关联直接解决现代拆分或异名争议。
+<!-- /evo:text -->
+
+## 食物权重不是实测食谱
+
+<!-- evo:text /records/catalogue-profile/sections/10/text/zh -->
+档案给出的非零食物权重是：果实 70%；种子、坚果及该类别包含的孢子 20%；无脊椎动物 10%。源代码 ABC 合并较高、合理和一定程度的信心；某些估计还可能借用被认为生态相近的同属物种，不能将 ABC 改写为本种直接观测。这些百分数来自对文字描述的标准化解读，不是实测食物组成；零值不证明该类别永远不被取食。Nect、Seed、PlantO 等类别比日常名称更宽，不能自动改写为只吃花蜜、种子或植物。
+<!-- /evo:text -->
+
+## 树栖类别的来源
+
+<!-- evo:text /records/catalogue-profile/sections/11/text/zh -->
+原条目归入 Ar：树栖型；源代码 A 表示编者对来源和归类有信心。元数据将这类哺乳动物层位归类共同追溯到 Nowak（1999）。这是一项类别判断，不是各层位的时间百分比，也不代表该物种只在这个位置活动。
+<!-- /evo:text -->
+
+## 字段出处与未使用的活动资料
+
+<!-- evo:text /records/catalogue-profile/sections/12/text/zh -->
+采用字段的出处标签为 Ref_83、metadata:Nowak1999。食性、层位和活动可能来自不同材料；相同 Ref 编号在鸟类和哺乳类引用表中并非同一来源。本批档案按文件、原行号、字段组和所属引用表保存完整原字符串。底层书籍和论文尚未逐项阅读，引用标签不作为新增独立观察或专家审评。
+<!-- /evo:text -->
+
+## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
 固定 COL26.8 与 MDD 当前 *C. chiropotes* 页面在 israelita 的组合与分类处理上不同；2023 年研究也提出另一种名称和河岸种群对应。此页把 2003 年标本分析、2009 年预测模型与 2015 年区域调查分开呈现。区域材料能说明 *C. israelita* 这一旧分类用名曾用于两河之间的调查记录，但不能解决名称模式、现行种界或该固定 COL 身份的完整分布，也没有当前种群估计、趋势、行为或食性数据。此页为来源限定的分类与区域记录介绍，不是种群或保护评估；模型边界仍需更多调查验证。中文名为描述性编辑用名，页面未经过外部领域专家评审。
+本批使用 2015 年生活史档案的历史同名记录。除最长寿命字段取所见最大记录外，数值按汇编中位数或两个中间值的平均数报告；它们不是单一个体的直接测量、个体变异范围、野外平均寿命或当前种群调查。原始汇编可能在历史种与亚种之间共享和继承数据；同名、同科和存在同名原始行，只提供本页关联依据，不能证明与 COL26.8 概念等同，也未剔除汇总中的所有继承成分。野外或圈养条件没有由本页统一确认，底层原文尚未逐篇复核。食性、行为、当前分布、保护状态及其他缺失字段仍需另有来源，不计完整专论或外部专家评审。
+本批是 EltonTraits 1.0 历史同名同科条目的取食生态导读，不是完整物种专论。相同名称和分类位置不证明来源的历史种概念与 COL26.8 完全等同。食物和鸟类觅食层位的百分数是作者把文献描述标准化得到的粗略相对权重，不是胃内容物、摄食量、能量或观察时间的直接测量。鸟类 A/B 食性仍有来源与相对比例不确定性；哺乳类 ABC 食性或活动字段还可能参考被作者认为生态相近的同属物种，本页不宣称所有字段来自本种直接观察。属／科典型值、鸟类非物种级层位以及需单独复核的拆分记录未用来补确定结论。原始书籍和论文尚未逐项重读，历史引用也不代表外部专家审评；个体、季节、地点差异、当前分布、种群和保护状况仍需其他来源。
+本页暂不解读 活动时段（原代码 D1）：原字段存在插补、可信度或出处关联限制，具体原因与原值留在来源档案中；没有用其补充确定生态结论。
+<!-- /evo:text -->
+
+## 五谱系结论的核基因支持边界
+
+<!-- evo:text /records/catalogue-profile/sections/13/text/zh -->
+论文结果报告两个线粒体标记和五个核区段，共 5,694 bp。仅核标记的贝叶斯分析中，chiropotes 与 sagulatus 的分离后验支持为 0.62；线粒体分析则支持五个主要支系。这种不同数据集的支持差异不能写成所有方法一致证实种界，也不能解决固定 COL 的 israelita 与研究用名的全部对应。
+<!-- /evo:text -->
+
+## 原文的标记数量不完全一致
+
+<!-- evo:text /records/catalogue-profile/sections/14/text/zh -->
+方法段写“八个”标记，随后却列两个线粒体基因和五个核区段；结果段写七个，补充图 S2 图注又写六个核标记。本页保留原文的不一致，不凭计算补出缺失标记，也不声称已重跑比对或查看原序列来解决它。
 <!-- /evo:text -->

@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: distribution
         text:
           zh:
             markdown: page.zh.md
@@ -23,13 +21,9 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - mourthe2022
+          - mourthe2022_s1
+      - topic: classification
         text:
           zh:
             markdown: page.zh.md
@@ -38,17 +32,11 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/3
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - taxonomy
+          - matauschek2011
+          - garbino2018
+          - sampaio2015
+      - topic: readingPath
         text:
           zh:
             markdown: page.zh.md
@@ -57,24 +45,15 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/2/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/4
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/5
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/6
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/7
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/8
+          - mourthe2022
+          - mourthe2022_s1
+          - soini1987
+          - gobel2018
+          - kupsch2014
+          - delatorre2017
+          - tirira2025
+          - vicente2021
+          - sampaio2015
     sources:
       referenceBindings:
         - referenceId: ref-5f64b6aa-f75e-8d8d-a879-cb95aedb6f6e

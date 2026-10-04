@@ -1,0 +1,48 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: zh
+status: source-linked
+---
+
+# Alligator
+
+
+## 从皮肤结构到局部感觉记录
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
+美洲短吻鳄提供了 Alligator 属的一份幼体皮肤感觉研究。2012 年记录把颌部皮肤感知器官（integumentary sensory organs，ISO）的分布、三叉神经感受野和水族箱定向行为联系起来；身体没有同样的 ISO 小点仍有肢体触觉。快、慢适应指记录单元对持续刺激的响应，不能解释成两类个体。中国短吻鳄不在这份研究的样本中，本属的其他生活史条目也没有因此获得同样的神经阈值。
+<!-- /evo:text -->
+
+## 按材料、刺激和记录方式比较
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+先读 [Alligator mississippiensis](Alligator_mississippiensis/page.zh.md) 的颌部触觉与测量下限，再到 [Crocodylus niloticus](../../Crocodylidae/Crocodylus/Crocodylus_niloticus/page.zh.md) 比较体表分布及胚胎时序，最后读 [Caiman crocodilus](../Caiman/Caiman_crocodilus/page.zh.md) 的颌部多类刺激记录。每步先确认研究年份、幼体／胚胎、部位及子样本；局部神经电活动不等于野外偏好，盐液未检出响应也不证明动物没有盐度感觉。沿用现有咬力、移动与生活史路径时，另核对年龄、单位和方法，不把感觉阈值换算为捕食成功率。
+<!-- /evo:text -->
+
+## 从有性状记录的物种开始
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+Alligator 的本批 ReptTraits 阅读路径包含 2 条同名同科、有逐性状出处的物种资料，可从 Alligator mississippiensis、Alligator sinensis 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+<!-- /evo:text -->
+
+## 不同类群需要不同尺度
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+龟类记录的是直线背甲长，其他类群的同列记录是吻肛长；本导读不把它们合为一个尺寸排名。进入物种页后，可以分别看测量位置、活动与取食类别、繁殖模式和窝卵／窝仔数，先按出处与定义选择可比材料。
+<!-- /evo:text -->
+
+
+## 按生活史字段选择对读页面
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+Alligator 的本批路线包含 2 条历史生活史导读，可从 Alligator mississippiensis、Alligator sinensis 开始。较多条目具有的字段包括 成年体重（2 条）、雌性成熟字段（源定义为首次受孕年龄）（2 条）、每窝幼体数或卵数（2 条）、出生或孵化时体重（2 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
+<!-- /evo:text -->
+
+## 证据边界
+
+<!-- evo:text /records/catalogue-profile/limitations/zh -->
+本导读只概括本批至少四个焦点性状有来源、含尺寸或繁殖数值且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成，未经过外部专家评审。
+新增感知正文使用两篇出版 HTML 中实际读过的材料、所选方法／结果／讨论与图说，不声称全篇审评。2012 年研究美洲短吻鳄与尼罗鳄，2013 年研究尼罗鳄与眼镜凯门鳄，各实验子样本、发育期与部位分开。未独立查看图像、补充视频、全部表格、原始神经数据或重跑实验；不推广到所有鳄类、化石种或野外种群，无外部专家审评。
+<!-- /evo:text -->

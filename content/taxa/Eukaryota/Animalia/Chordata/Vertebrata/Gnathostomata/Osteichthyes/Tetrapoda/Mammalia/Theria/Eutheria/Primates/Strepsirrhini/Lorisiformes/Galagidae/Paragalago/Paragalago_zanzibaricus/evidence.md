@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: taxonomy_and_evidence
         text:
           zh:
             markdown: page.zh.md
@@ -23,17 +21,11 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - mdd_name
+          - butynski2006
+          - zaraninge2006
+      - topic: species-delimitation
         text:
           zh:
             markdown: page.zh.md
@@ -42,11 +34,8 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - pozzi2020
+      - topic: field ecology
         text:
           zh:
             markdown: page.zh.md
@@ -55,11 +44,8 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/2/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/3/topic
+          - zaraninge2006
+      - topic: evidence_limit
         text:
           zh:
             markdown: page.zh.md
@@ -68,12 +54,9 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/3/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/3/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/3/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/3/sourceIds/2
+          - butynski2006
+          - pozzi2020
+          - zaraninge2006
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23

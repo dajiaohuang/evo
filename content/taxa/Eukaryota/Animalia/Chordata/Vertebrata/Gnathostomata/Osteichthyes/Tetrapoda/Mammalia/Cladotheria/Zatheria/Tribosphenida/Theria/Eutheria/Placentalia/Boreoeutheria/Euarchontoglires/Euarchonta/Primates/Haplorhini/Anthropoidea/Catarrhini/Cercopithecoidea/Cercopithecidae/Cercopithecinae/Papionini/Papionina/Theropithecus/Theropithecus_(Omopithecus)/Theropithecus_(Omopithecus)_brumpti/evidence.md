@@ -1,0 +1,577 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Theropithecus (Omopithecus) brumpti
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Theropithecus (Omopithecus) brumpti
+      en: Theropithecus (Omopithecus) brumpti
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Theropithecus (Omopithecus) brumpti
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=385503&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:385503; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:385503
+            selectedOccurrenceIds:
+              - occ:212646
+              - occ:221376
+              - occ:221403
+              - occ:221437
+              - occ:221720
+              - occ:221740
+              - occ:221862
+              - occ:221886
+              - occ:222364
+              - occ:223243
+              - occ:223251
+              - occ:223323
+              - occ:223382
+              - occ:223408
+              - occ:223427
+              - occ:223472
+              - occ:223480
+              - occ:223487
+              - occ:223489
+              - occ:223494
+              - occ:223535
+              - occ:223558
+              - occ:223580
+              - occ:223586
+              - occ:223589
+              - occ:223605
+              - occ:223625
+              - occ:223643
+              - occ:223650
+              - occ:223743
+              - occ:223785
+              - occ:223804
+              - occ:223819
+              - occ:223836
+              - occ:223902
+              - occ:223943
+              - occ:223954
+              - occ:223961
+              - occ:223968
+              - occ:224013
+              - occ:224035
+              - occ:224044
+              - occ:224051
+              - occ:224060
+              - occ:224088
+              - occ:224100
+              - occ:224104
+              - occ:224131
+              - occ:224192
+              - occ:224212
+              - occ:224234
+              - occ:224263
+              - occ:224287
+              - occ:226278
+              - occ:226421
+              - occ:226427
+              - occ:226433
+              - occ:226437
+              - occ:226449
+              - occ:226460
+              - occ:226469
+              - occ:226486
+              - occ:226497
+              - occ:226577
+              - occ:226591
+              - occ:226607
+              - occ:226621
+              - occ:226659
+              - occ:226667
+              - occ:1442927
+            selectedCollectionIds:
+              - col:21519
+              - col:21280
+              - col:21282
+              - col:21283
+              - col:21344
+              - col:21345
+              - col:21354
+              - col:21355
+              - col:21428
+              - col:21544
+              - col:21545
+              - col:21547
+              - col:21555
+              - col:21560
+              - col:21564
+              - col:21570
+              - col:21571
+              - col:21572
+              - col:21573
+              - col:21574
+              - col:21587
+              - col:21595
+              - col:21602
+              - col:21605
+              - col:21606
+              - col:21608
+              - col:21609
+              - col:21611
+              - col:21613
+              - col:21625
+              - col:21627
+              - col:21628
+              - col:21630
+              - col:21632
+              - col:21640
+              - col:21646
+              - col:21649
+              - col:21651
+              - col:21652
+              - col:21657
+              - col:21659
+              - col:21661
+              - col:21662
+              - col:21663
+              - col:21668
+              - col:21669
+              - col:21670
+              - col:21673
+              - col:21683
+              - col:21738
+              - col:21742
+              - col:21747
+              - col:21752
+              - col:21966
+              - col:21994
+              - col:21995
+              - col:21996
+              - col:21997
+              - col:21999
+              - col:22000
+              - col:22001
+              - col:22006
+              - col:22007
+              - col:22020
+              - col:22022
+              - col:22023
+              - col:22026
+              - col:22039
+              - col:22040
+              - col:201489
+            sourceReferenceIds:
+              - ref:4447
+              - ref:4454
+              - ref:4768
+              - ref:4769
+              - ref:4486
+              - ref:4763
+              - ref:4730
+              - ref:5263
+              - ref:4764
+              - ref:4773
+              - ref:4771
+              - ref:4776
+              - ref:68948
+            originalIdentificationMappings:
+              - occurrenceId: occ:212646
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:221376
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:221403
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:221437
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:221720
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:221740
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:221862
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:221886
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:222364
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223243
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223251
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223323
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223382
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223408
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223427
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223472
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223480
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223487
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223489
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223494
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223535
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223558
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223580
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223586
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223589
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223605
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223625
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223643
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223650
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223743
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223785
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223804
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223819
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223836
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223902
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223943
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223954
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223961
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:223968
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:224013
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:224035
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:224044
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:224051
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:224060
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:224088
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:224100
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:224104
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:224131
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:224192
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:224212
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:224234
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:224263
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:224287
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:226278
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:226421
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:226427
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:226433
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:226437
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:226449
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:226460
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:226469
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:226486
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:226497
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:226577
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:226591
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:226607
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:226621
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:226659
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:226667
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+              - occurrenceId: occ:1442927
+                originalIdentifiedName: Theropithecus brumpti
+                acceptedName: Theropithecus (Omopithecus) brumpti
+                difference: variant of
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Theropithecus (Omopithecus) brumpti

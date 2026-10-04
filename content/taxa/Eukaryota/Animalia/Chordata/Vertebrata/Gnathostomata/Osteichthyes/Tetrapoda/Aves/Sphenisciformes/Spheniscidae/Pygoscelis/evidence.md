@@ -3,34 +3,94 @@ schemaVersion: 1
 kind: evidence
 records:
   catalogue-profile:
-    scientificName: "Pygoscelis Wagler, 1832"
+    scientificName: Pygoscelis Wagler, 1832
     rank: genus
     sourceDatasetId: "2144"
-    checkedAt: 2026-10-02
+    checkedAt: 2026-10-03
     name:
-      en: "Brush-tailed penguin genus"
-      zh: "刷尾企鹅属"
+      en: Brush-tailed penguin genus
+      zh: 刷尾企鹅属
     reviewStatus: source-linked
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: evolutionaryComparison
+        sourceIds:
+          - cole2022PenguinGenomics
         text:
-          en:
-            markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/text/en
           zh:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: readingPath
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
+          - cole2022PenguinGenomics
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: readingPath
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+        sourceIds:
+          - taxonomy
+          - gentooWinter2009
+          - chinstrapGlobal2020
+          - mclatchie2024
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/6/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/6/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -63,11 +123,11 @@ records:
                 markdown: evidence.md
                 field: /records/catalogue-profile/sources/referenceBindings/1/usage/scope/zh
             license: CC BY 4.0
-            licenseEvidenceLocator: "Article copyright and licence statement specifies Creative Commons Attribution 4.0 International."
-            licenseAppliesTo: "Article text; no figures or third-party materials are reused."
+            licenseEvidenceLocator: Article copyright and licence statement specifies Creative Commons Attribution 4.0 International.
+            licenseAppliesTo: Article text; no figures or third-party materials are reused.
             licenseUrl: https://creativecommons.org/licenses/by/4.0/
             licenseAssessment: item-level-verified
-            attribution: "Xavier, J. C. et al. (2017), Sexual and individual foraging segregation in Gentoo penguins Pygoscelis papua from the Southern Ocean during an abnormal winter, https://doi.org/10.1371/journal.pone.0174850"
+            attribution: Xavier, J. C. et al. (2017), Sexual and individual foraging segregation in Gentoo penguins Pygoscelis papua from the Southern Ocean during an abnormal winter, https://doi.org/10.1371/journal.pone.0174850
           originalFields:
             - id
             - title
@@ -91,11 +151,11 @@ records:
                 markdown: evidence.md
                 field: /records/catalogue-profile/sources/referenceBindings/2/usage/scope/zh
             license: CC BY 4.0
-            licenseEvidenceLocator: "Article copyright and licence statement specifies Creative Commons Attribution 4.0 International."
-            licenseAppliesTo: "Article text; no figures or third-party materials are reused."
+            licenseEvidenceLocator: Article copyright and licence statement specifies Creative Commons Attribution 4.0 International.
+            licenseAppliesTo: Article text; no figures or third-party materials are reused.
             licenseUrl: https://creativecommons.org/licenses/by/4.0/
             licenseAssessment: item-level-verified
-            attribution: "Strycker, N. et al. (2020), A global population assessment of the Chinstrap penguin (Pygoscelis antarctica), https://doi.org/10.1038/s41598-020-76479-3"
+            attribution: Strycker, N. et al. (2020), A global population assessment of the Chinstrap penguin (Pygoscelis antarctica), https://doi.org/10.1038/s41598-020-76479-3
           originalFields:
             - id
             - title
@@ -119,11 +179,11 @@ records:
                 markdown: evidence.md
                 field: /records/catalogue-profile/sources/referenceBindings/3/usage/scope/zh
             license: CC BY 4.0
-            licenseEvidenceLocator: "Article license statement identifies Creative Commons Attribution 4.0 International."
-            licenseAppliesTo: "Article text; no figures or third-party materials are reused."
+            licenseEvidenceLocator: Article license statement identifies Creative Commons Attribution 4.0 International.
+            licenseAppliesTo: Article text; no figures or third-party materials are reused.
             licenseUrl: https://creativecommons.org/licenses/by/4.0/
             licenseAssessment: item-level-verified
-            attribution: "McLatchie, M. J. et al. (2024), Ecology and Evolution 14:e10988, https://doi.org/10.1002/ece3.10988"
+            attribution: McLatchie, M. J. et al. (2024), Ecology and Evolution 14:e10988, https://doi.org/10.1002/ece3.10988
           originalFields:
             - id
             - title
@@ -135,6 +195,179 @@ records:
             - licenseEvidenceLocator
             - licenseUrl
             - licenseAssessment
+        - referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+          metadataVariant: 0
+          sourceKey: avonetV7
+          usage:
+            locator: AVONET1_BirdLife; the 3 selected measured records placed under Pygoscelis in pinned COL26.8.
+            accessedAt: 2026-10-02
+            licenseAssessment: CC-BY-4.0-attributed-data-summary
+            scope:
+              zh: 仅概括本批已写入的历史数据记录，不推断完整后代覆盖。
+              en: Only this batch’s authored historical records; no complete descendant coverage inferred.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - licenseAssessment
+            - scope
+        - referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+          metadataVariant: 0
+          sourceKey: avonetProtocol2022
+          usage:
+            locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+            accessedAt: 2026-10-02
+            licenseAssessment: paraphrase-only
+            scope:
+              zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+              en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - licenseAssessment
+            - scope
+        - referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+          metadataVariant: 0
+          sourceKey: amnioteLifeHistory2015
+          usage:
+            locator: August 2015 archive; 3 authored same-name records placed under Pygoscelis by pinned COL ancestry.
+            accessedAt: 2026-10-02
+            scope:
+              zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+              en: Route through this batch’s authored records only; no complete descendant coverage.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+        - referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+          metadataVariant: 0
+          sourceKey: amnioteLifeHistoryMethods2015
+          usage:
+            locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+              en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+            sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+            sourceVersion: August 2015 archive
+            readerBoundaries:
+              - No field values treated as independent individual measurements.
+              - No guarantee of present taxonomic concept equivalence.
+              - Original input papers not individually reviewed.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+            - sourceRetrievalUrl
+            - sourceVersion
+            - readerBoundaries
+        - referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+          metadataVariant: 0
+          sourceKey: eltonTraits2014
+          usage:
+            locator: EltonTraits 1.0; 3 authored historical entries grouped by pinned COL26.8 ancestry.
+            accessedAt: 2026-10-02
+            authoredFieldGroupCounts:
+              diet: 3
+              foraging: 3
+              activity: 0
+            readingTargets:
+              - name: Pygoscelis papua
+                colId: 78R2P
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Sphenisciformes/Spheniscidae/Pygoscelis/Pygoscelis_papua
+              - name: Pygoscelis adeliae
+                colId: 4QPKQ
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Sphenisciformes/Spheniscidae/Pygoscelis/Pygoscelis_adeliae
+              - name: Pygoscelis antarcticus
+                colId: 4QPKS
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Sphenisciformes/Spheniscidae/Pygoscelis/Pygoscelis_antarcticus
+            scope:
+              zh: 本批资料阅读路线，不是整个类群的生态总结。
+              en: Route through this batch, not an ecological summary for the entire group.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - authoredFieldGroupCounts
+            - readingTargets
+            - scope
+        - referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+          metadataVariant: 0
+          sourceKey: eltonTraitsMethods2014
+          usage:
+            locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+            accessedAt: 2026-10-02
+            scope:
+              zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+              en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+        - referenceId: ref-404fedb0-197c-4345-80d9-8e1df1b377d1
+          metadataVariant: 0
+          sourceKey: cole2022PenguinGenomics
+          usage:
+            title: Genomic insights into the secondary aquatic transition of penguins
+            url: https://doi.org/10.1038/s41467-022-31508-9
+            accessedAt: 2026-10-03
+            locator: "PMC9296559 main text: Table 1, phylogeny and demographic Results, comparative adaptation discussion, genomic sampling and effective-size Methods; captions read, figures and supplementary matrices not independently inspected"
+            publishedStudyTaxa: []
+            scope:
+              zh: 所列种、亚种和地区谱系的比较导读，不等同固定名录分母。
+              en: Comparison route through study species, subspecies and regional lineages, distinct from the pinned catalogue denominator.
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - journal
+            - volume
+            - publishedYear
+            - articleNumber
+            - sourceVersion
+            - url
+            - accessedAt
+            - locator
+            - publishedStudyTaxa
+            - scope
     limitations:
       en:
         markdown: page.en.md

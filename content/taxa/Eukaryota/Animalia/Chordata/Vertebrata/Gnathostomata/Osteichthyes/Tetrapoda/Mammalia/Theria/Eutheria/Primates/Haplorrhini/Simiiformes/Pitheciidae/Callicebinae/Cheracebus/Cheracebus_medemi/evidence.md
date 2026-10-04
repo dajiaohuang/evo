@@ -10,11 +10,9 @@ records:
       zh: 梅德姆跳猴
       en: Medem's Titi
     reviewStatus: source-linked
-    checkedAt: 2026-10-01
+    checkedAt: 2026-10-03
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: taxonomyAndTypeLocality
         text:
           zh:
             markdown: page.zh.md
@@ -23,15 +21,10 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - hershkovitz1963
+          - mdd_name
+      - topic: regionalFieldEvidence
         text:
           zh:
             markdown: page.zh.md
@@ -40,8 +33,37 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
+          - palaciosperes2005
+      - topic: conservation
+        sourceIds:
+          - colombiaNational2025
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: morphology
+        sourceIds:
+          - byrne2020MedemiMorphology
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: taxonomy
+        sourceIds:
+          - byrne2020MedemiMorphology
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
     sources:
       referenceBindings:
         - referenceId: ref-e54b4486-482f-826d-a6da-e1419dc434f7
@@ -107,6 +129,47 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-e7435841-2e9e-4566-9d80-ef27f2c68184
+          metadataVariant: 0
+          sourceKey: colombiaNational2025
+          usage:
+            locator: Categoria; Justificación; Author; Published; Citation; CC BY 4.0 footer
+            accessedAt: 2026-10-02
+            scope:
+              zh: 有明确日期的哥伦比亚国家评估及其不确定性；不确立实测种群趋势或全球状态。
+              en: Dated Colombian national assessment and its uncertainty; does not establish measured population trends or global status.
+            readerBoundaries:
+              - National assessment, not a new global assessment.
+              - Suspected reduction is not a measured time series.
+              - No assignment of older Callicebus torquatus survey numbers.
+              - GBIF points, photo caption and BioModelo label not used as verified occurrences.
+          originalFields:
+            - id
+            - title
+            - url
+            - date
+            - locator
+            - accessedAt
+            - scope
+            - readerBoundaries
+        - referenceId: ref-1a602e13-7772-4a2a-a5c2-98c248a0b0d1
+          metadataVariant: 0
+          sourceKey: byrne2020MedemiMorphology
+          usage:
+            locator: Printed p14 (methods), p46 (Distinction between medemi and lucifer); PDF pages 2 and 34.
+            accessedAt: 2026-10-03
+            scope:
+              zh: 2020 年馆藏比较及单一颜色诊断的限制；不提供本种野外丰度或正式并种结论。
+              en: Museum comparisons and limits of a colour diagnosis; no medemi abundance estimate or formal synonymy.
+          originalFields:
+            - id
+            - title
+            - authors
+            - url
+            - version
+            - locator
+            - accessedAt
             - scope
     limitations:
       zh:

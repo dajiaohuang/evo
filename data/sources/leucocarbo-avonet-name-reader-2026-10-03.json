@@ -1,0 +1,2190 @@
+{
+  "batch": "P5-177",
+  "date": "2026-10-03",
+  "newSpecies": 7,
+  "newBilingualSections": 41,
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_magellanicus",
+      "colId": "D5K94",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_colensoi",
+      "colId": "725KH",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_carunculatus",
+      "colId": "6PTKH",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_ranfurlyi",
+      "colId": "725KC",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_onslowi",
+      "colId": "6PTKC",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_campbelli",
+      "colId": "725KG",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_chalconotus",
+      "colId": "6Q5KH",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo",
+      "newBilingualSections": 4
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae",
+      "newBilingualSections": 2
+    }
+  ],
+  "sharedReferenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+  "sourceFiles": [
+    {
+      "file": ".git/avonet-supplementary-dataset-1-v7.xlsx",
+      "sha256": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e"
+    },
+    {
+      "file": ".git/leucocarbo-selected-source-177.json",
+      "sha256": "59d964b9695bd24d36090eb81bec94478ca5bf6fe037d776569cfa605fdaf3c9"
+    },
+    {
+      "file": ".git/leucocarbo-col-names-177.json",
+      "sha256": "dbc8aff659e75beb6ff04e5f00fb0e402e31797bd5c7c76c83cf57522f21d3c7"
+    }
+  ],
+  "colNameShardFiles": [
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-leu.jsonl.gz",
+      "sha256": "48e95478219adb8d3d55e393b7e20d76f4d3186e2d7ed726863da4eee2fa9fe3"
+    },
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-pha.jsonl.gz",
+      "sha256": "145463ba02d9d425a7e3577f4475185435e65103e0728c43f0bee5f937c57a13"
+    }
+  ],
+  "sourceRows": [
+    {
+      "target": {
+        "colId": "D5K94",
+        "scientificName": "Leucocarbo magellanicus",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_magellanicus",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "46J",
+            "parentId": "V2",
+            "scientificName": "Suliformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "id": "62694",
+            "parentId": "46J",
+            "scientificName": "Phalacrocoracidae Reichenbach, 1849",
+            "authorship": "Reichenbach, 1849",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "id": "638ZH",
+            "parentId": "62694",
+            "scientificName": "Leucocarbo Bonaparte, 1856",
+            "authorship": "Bonaparte, 1856",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 15
+          },
+          {
+            "parentId": "638ZH",
+            "id": "D5K94",
+            "scientificName": "Leucocarbo magellanicus (J. F. Gmelin, 1789)",
+            "authorship": "(J. F. Gmelin, 1789)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 10931,
+        "record": {
+          "Sequence": 2293,
+          "Species1": "Leucocarbo magellanicus",
+          "Family1": "Phalacrocoracidae",
+          "Order1": "Suliformes",
+          "Avibase.ID1": "AVIBASE-1EA575E0",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 51.5,
+          "Beak.Length_Nares": 38.4,
+          "Beak.Width": 7.7,
+          "Beak.Depth": 10.4,
+          "Tarsus.Length": 54.5,
+          "Wing.Length": 250.4,
+          "Kipps.Distance": 85.3,
+          "Secondary1": 163.7,
+          "Hand-Wing.Index": 34.3,
+          "Tail.Length": 132.4,
+          "Mass": 1483.44,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Marine",
+          "Habitat.Density": 3,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Aquatic",
+          "Min.Latitude": -57.17,
+          "Max.Latitude": -43.17,
+          "Centroid.Latitude": -52.17,
+          "Centroid.Longitude": -69.27,
+          "Range.Size": 467962.27
+        }
+      },
+      "eBird": {
+        "excelRow": 5559,
+        "record": {
+          "Species1": "Leucocarbo magellanicus",
+          "Species2": "Leucocarbo magellanicus",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-1EA575E0",
+          "Avibase.ID2": "AVIBASE-1EA575E0",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 5532,
+        "record": {
+          "Species1": "Leucocarbo magellanicus",
+          "Species3": "Phalacrocorax magellanicus",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "725KH",
+        "scientificName": "Leucocarbo colensoi",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_colensoi",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "46J",
+            "parentId": "V2",
+            "scientificName": "Suliformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "id": "62694",
+            "parentId": "46J",
+            "scientificName": "Phalacrocoracidae Reichenbach, 1849",
+            "authorship": "Reichenbach, 1849",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "id": "638ZH",
+            "parentId": "62694",
+            "scientificName": "Leucocarbo Bonaparte, 1856",
+            "authorship": "Bonaparte, 1856",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 15
+          },
+          {
+            "parentId": "638ZH",
+            "id": "725KH",
+            "scientificName": "Leucocarbo colensoi (Buller, 1888)",
+            "authorship": "(Buller, 1888)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 10930,
+        "record": {
+          "Sequence": 2302,
+          "Species1": "Leucocarbo colensoi",
+          "Family1": "Phalacrocoracidae",
+          "Order1": "Suliformes",
+          "Avibase.ID1": "AVIBASE-3B5B61A0",
+          "Total.individuals": 4,
+          "Female": 3,
+          "Male": 1,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 63,
+          "Beak.Length_Nares": 43.5,
+          "Beak.Width": 8.9,
+          "Beak.Depth": 12.4,
+          "Tarsus.Length": 60.8,
+          "Wing.Length": 273.5,
+          "Kipps.Distance": 98.4,
+          "Secondary1": 175.1,
+          "Hand-Wing.Index": 36,
+          "Tail.Length": 124.2,
+          "Mass": 2000,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Marine",
+          "Habitat.Density": 3,
+          "Migration": 2,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Aquatic",
+          "Min.Latitude": -51.15,
+          "Max.Latitude": -50.27,
+          "Centroid.Latitude": -50.71,
+          "Centroid.Longitude": 166.12,
+          "Range.Size": 5303.43
+        }
+      },
+      "eBird": {
+        "excelRow": 5558,
+        "record": {
+          "Species1": "Leucocarbo colensoi",
+          "Species2": "Leucocarbo colensoi",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-3B5B61A0",
+          "Avibase.ID2": "AVIBASE-3B5B61A0",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 5531,
+        "record": {
+          "Species1": "Leucocarbo colensoi",
+          "Species3": "Phalacrocorax colensoi",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "6PTKH",
+        "scientificName": "Leucocarbo carunculatus",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_carunculatus",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "46J",
+            "parentId": "V2",
+            "scientificName": "Suliformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "id": "62694",
+            "parentId": "46J",
+            "scientificName": "Phalacrocoracidae Reichenbach, 1849",
+            "authorship": "Reichenbach, 1849",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "id": "638ZH",
+            "parentId": "62694",
+            "scientificName": "Leucocarbo Bonaparte, 1856",
+            "authorship": "Bonaparte, 1856",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 15
+          },
+          {
+            "parentId": "638ZH",
+            "id": "6PTKH",
+            "scientificName": "Leucocarbo carunculatus (J. F. Gmelin, 1789)",
+            "authorship": "(J. F. Gmelin, 1789)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 10928,
+        "record": {
+          "Sequence": 2297,
+          "Species1": "Leucocarbo carunculatus",
+          "Family1": "Phalacrocoracidae",
+          "Order1": "Suliformes",
+          "Avibase.ID1": "AVIBASE-09D4D411",
+          "Total.individuals": 5,
+          "Female": 3,
+          "Male": 0,
+          "Unknown": 2,
+          "Complete.measures": 3,
+          "Beak.Length_Culmen": 74.9,
+          "Beak.Length_Nares": 56.9,
+          "Beak.Width": 13.4,
+          "Beak.Depth": 17.2,
+          "Tarsus.Length": 63.5,
+          "Wing.Length": 287.8,
+          "Kipps.Distance": 106.2,
+          "Secondary1": 183.5,
+          "Hand-Wing.Index": 36.7,
+          "Tail.Length": 119.8,
+          "Mass": 2576.33,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Marine",
+          "Habitat.Density": 3,
+          "Migration": 2,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Aquatic",
+          "Min.Latitude": "NA",
+          "Max.Latitude": "NA",
+          "Centroid.Latitude": "NA",
+          "Centroid.Longitude": "NA",
+          "Range.Size": "NA"
+        }
+      },
+      "eBird": {
+        "excelRow": 5556,
+        "record": {
+          "Species1": "Leucocarbo carunculatus",
+          "Species2": "Leucocarbo carunculatus",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-09D4D411",
+          "Avibase.ID2": "AVIBASE-09D4D411",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 5529,
+        "record": {
+          "Species1": "Leucocarbo carunculatus",
+          "Species3": "Phalacrocorax carunculatus",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "725KC",
+        "scientificName": "Leucocarbo ranfurlyi",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_ranfurlyi",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "46J",
+            "parentId": "V2",
+            "scientificName": "Suliformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "id": "62694",
+            "parentId": "46J",
+            "scientificName": "Phalacrocoracidae Reichenbach, 1849",
+            "authorship": "Reichenbach, 1849",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "id": "638ZH",
+            "parentId": "62694",
+            "scientificName": "Leucocarbo Bonaparte, 1856",
+            "authorship": "Bonaparte, 1856",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 15
+          },
+          {
+            "parentId": "638ZH",
+            "id": "725KC",
+            "scientificName": "Leucocarbo ranfurlyi (Ogilvie-Grant, 1901)",
+            "authorship": "(Ogilvie-Grant, 1901)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 10933,
+        "record": {
+          "Sequence": 2301,
+          "Species1": "Leucocarbo ranfurlyi",
+          "Family1": "Phalacrocoracidae",
+          "Order1": "Suliformes",
+          "Avibase.ID1": "AVIBASE-0866195D",
+          "Total.individuals": 4,
+          "Female": 2,
+          "Male": 2,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 65.9,
+          "Beak.Length_Nares": 45.1,
+          "Beak.Width": 8.4,
+          "Beak.Depth": 12.6,
+          "Tarsus.Length": 66.6,
+          "Wing.Length": 261.8,
+          "Kipps.Distance": 84.2,
+          "Secondary1": 177.6,
+          "Hand-Wing.Index": 32.2,
+          "Tail.Length": 115,
+          "Mass": 2500,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Marine",
+          "Habitat.Density": 3,
+          "Migration": 2,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Aquatic",
+          "Min.Latitude": -47.94,
+          "Max.Latitude": -47.48,
+          "Centroid.Latitude": -47.71,
+          "Centroid.Longitude": 179.08,
+          "Range.Size": 2064.16
+        }
+      },
+      "eBird": {
+        "excelRow": 5561,
+        "record": {
+          "Species1": "Leucocarbo ranfurlyi",
+          "Species2": "Leucocarbo ranfurlyi",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-0866195D",
+          "Avibase.ID2": "AVIBASE-0866195D",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 5534,
+        "record": {
+          "Species1": "Leucocarbo ranfurlyi",
+          "Species3": "Phalacrocorax ranfurlyi",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "6PTKC",
+        "scientificName": "Leucocarbo onslowi",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_onslowi",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "46J",
+            "parentId": "V2",
+            "scientificName": "Suliformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "id": "62694",
+            "parentId": "46J",
+            "scientificName": "Phalacrocoracidae Reichenbach, 1849",
+            "authorship": "Reichenbach, 1849",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "id": "638ZH",
+            "parentId": "62694",
+            "scientificName": "Leucocarbo Bonaparte, 1856",
+            "authorship": "Bonaparte, 1856",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 15
+          },
+          {
+            "parentId": "638ZH",
+            "id": "6PTKC",
+            "scientificName": "Leucocarbo onslowi (H. O. Forbes, 1893)",
+            "authorship": "(H. O. Forbes, 1893)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 10932,
+        "record": {
+          "Sequence": 2299,
+          "Species1": "Leucocarbo onslowi",
+          "Family1": "Phalacrocoracidae",
+          "Order1": "Suliformes",
+          "Avibase.ID1": "AVIBASE-6EE1B0CE",
+          "Total.individuals": 1,
+          "Female": 0,
+          "Male": 0,
+          "Unknown": 1,
+          "Complete.measures": 1,
+          "Beak.Length_Culmen": 62.9,
+          "Beak.Length_Nares": 41.5,
+          "Beak.Width": 8.4,
+          "Beak.Depth": 12.7,
+          "Tarsus.Length": 64.1,
+          "Wing.Length": 259,
+          "Kipps.Distance": 92.7,
+          "Secondary1": 166.3,
+          "Hand-Wing.Index": 35.8,
+          "Tail.Length": 103,
+          "Mass": 2072.67,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Marine",
+          "Habitat.Density": 3,
+          "Migration": 2,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Aquatic",
+          "Min.Latitude": -44.57,
+          "Max.Latitude": -43.53,
+          "Centroid.Latitude": -44,
+          "Centroid.Longitude": -176.37,
+          "Range.Size": 7234.21
+        }
+      },
+      "eBird": {
+        "excelRow": 5560,
+        "record": {
+          "Species1": "Leucocarbo onslowi",
+          "Species2": "Leucocarbo onslowi",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-6EE1B0CE",
+          "Avibase.ID2": "AVIBASE-6EE1B0CE",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 5533,
+        "record": {
+          "Species1": "Leucocarbo onslowi",
+          "Species3": "Phalacrocorax onslowi",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "725KG",
+        "scientificName": "Leucocarbo campbelli",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_campbelli",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "46J",
+            "parentId": "V2",
+            "scientificName": "Suliformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "id": "62694",
+            "parentId": "46J",
+            "scientificName": "Phalacrocoracidae Reichenbach, 1849",
+            "authorship": "Reichenbach, 1849",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "id": "638ZH",
+            "parentId": "62694",
+            "scientificName": "Leucocarbo Bonaparte, 1856",
+            "authorship": "Bonaparte, 1856",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 15
+          },
+          {
+            "parentId": "638ZH",
+            "id": "725KG",
+            "scientificName": "Leucocarbo campbelli (Filhol, 1878)",
+            "authorship": "(Filhol, 1878)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 10927,
+        "record": {
+          "Sequence": 2300,
+          "Species1": "Leucocarbo campbelli",
+          "Family1": "Phalacrocoracidae",
+          "Order1": "Suliformes",
+          "Avibase.ID1": "AVIBASE-961A9CE2",
+          "Total.individuals": 5,
+          "Female": 1,
+          "Male": 3,
+          "Unknown": 1,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 59.3,
+          "Beak.Length_Nares": 43.1,
+          "Beak.Width": 8.5,
+          "Beak.Depth": 11.7,
+          "Tarsus.Length": 62.1,
+          "Wing.Length": 261,
+          "Kipps.Distance": 87,
+          "Secondary1": 173.6,
+          "Hand-Wing.Index": 33.4,
+          "Tail.Length": 123.8,
+          "Mass": 1897.36,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Marine",
+          "Habitat.Density": 3,
+          "Migration": 2,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Aquatic",
+          "Min.Latitude": -52.7,
+          "Max.Latitude": -52.37,
+          "Centroid.Latitude": -52.54,
+          "Centroid.Longitude": 169.15,
+          "Range.Size": 884.1
+        }
+      },
+      "eBird": {
+        "excelRow": 5555,
+        "record": {
+          "Species1": "Leucocarbo campbelli",
+          "Species2": "Leucocarbo campbelli",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-961A9CE2",
+          "Avibase.ID2": "AVIBASE-961A9CE2",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 5528,
+        "record": {
+          "Species1": "Leucocarbo campbelli",
+          "Species3": "Phalacrocorax campbelli",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "6Q5KH",
+        "scientificName": "Leucocarbo chalconotus",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_chalconotus",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "46J",
+            "parentId": "V2",
+            "scientificName": "Suliformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "id": "62694",
+            "parentId": "46J",
+            "scientificName": "Phalacrocoracidae Reichenbach, 1849",
+            "authorship": "Reichenbach, 1849",
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 7
+          },
+          {
+            "id": "638ZH",
+            "parentId": "62694",
+            "scientificName": "Leucocarbo Bonaparte, 1856",
+            "authorship": "Bonaparte, 1856",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 15
+          },
+          {
+            "parentId": "638ZH",
+            "id": "6Q5KH",
+            "scientificName": "Leucocarbo chalconotus (G. R. Gray, 1845)",
+            "authorship": "(G. R. Gray, 1845)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 10929,
+        "record": {
+          "Sequence": 2298,
+          "Species1": "Leucocarbo chalconotus",
+          "Family1": "Phalacrocoracidae",
+          "Order1": "Suliformes",
+          "Avibase.ID1": "AVIBASE-483FA17D",
+          "Total.individuals": 5,
+          "Female": 2,
+          "Male": 2,
+          "Unknown": 1,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 65.8,
+          "Beak.Length_Nares": 45.8,
+          "Beak.Width": 10.6,
+          "Beak.Depth": 14.1,
+          "Tarsus.Length": 65.5,
+          "Wing.Length": 283.4,
+          "Kipps.Distance": 95.6,
+          "Secondary1": 186.7,
+          "Hand-Wing.Index": 33.9,
+          "Tail.Length": 113.6,
+          "Mass": 2220.05,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Marine",
+          "Habitat.Density": 3,
+          "Migration": 2,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Aquatic predator",
+          "Primary.Lifestyle": "Aquatic",
+          "Min.Latitude": -47.4,
+          "Max.Latitude": -44.5,
+          "Centroid.Latitude": -46.42,
+          "Centroid.Longitude": 168.87,
+          "Range.Size": 13812.17
+        }
+      },
+      "eBird": {
+        "excelRow": 5557,
+        "record": {
+          "Species1": "Leucocarbo chalconotus",
+          "Species2": "Leucocarbo chalconotus",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-483FA17D",
+          "Avibase.ID2": "AVIBASE-483FA17D",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 5530,
+        "record": {
+          "Species1": "Leucocarbo chalconotus",
+          "Species3": "Phalacrocorax chalconotus",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    }
+  ],
+  "colNameRecords": [
+    {
+      "normalizedName": "leucocarbo campbelli filhol 1878",
+      "id": "725KG",
+      "scientificName": "Leucocarbo campbelli (Filhol, 1878)",
+      "authorship": "(Filhol, 1878)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "638ZH",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Suliformes",
+        null,
+        "Phalacrocoracidae",
+        null,
+        null,
+        null,
+        "Leucocarbo"
+      ]
+    },
+    {
+      "normalizedName": "leucocarbo carunculatus j f gmelin 1789",
+      "id": "6PTKH",
+      "scientificName": "Leucocarbo carunculatus (J. F. Gmelin, 1789)",
+      "authorship": "(J. F. Gmelin, 1789)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "638ZH",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Suliformes",
+        null,
+        "Phalacrocoracidae",
+        null,
+        null,
+        null,
+        "Leucocarbo"
+      ]
+    },
+    {
+      "normalizedName": "leucocarbo chalconotus g r gray 1845",
+      "id": "6Q5KH",
+      "scientificName": "Leucocarbo chalconotus (G. R. Gray, 1845)",
+      "authorship": "(G. R. Gray, 1845)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "638ZH",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Suliformes",
+        null,
+        "Phalacrocoracidae",
+        null,
+        null,
+        null,
+        "Leucocarbo"
+      ]
+    },
+    {
+      "normalizedName": "leucocarbo colensoi buller 1888",
+      "id": "725KH",
+      "scientificName": "Leucocarbo colensoi (Buller, 1888)",
+      "authorship": "(Buller, 1888)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "638ZH",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Suliformes",
+        null,
+        "Phalacrocoracidae",
+        null,
+        null,
+        null,
+        "Leucocarbo"
+      ]
+    },
+    {
+      "normalizedName": "leucocarbo magellanicus j f gmelin 1789",
+      "id": "D5K94",
+      "scientificName": "Leucocarbo magellanicus (J. F. Gmelin, 1789)",
+      "authorship": "(J. F. Gmelin, 1789)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "638ZH",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Suliformes",
+        null,
+        "Phalacrocoracidae",
+        null,
+        null,
+        null,
+        "Leucocarbo"
+      ]
+    },
+    {
+      "normalizedName": "leucocarbo onslowi h o forbes 1893",
+      "id": "6PTKC",
+      "scientificName": "Leucocarbo onslowi (H. O. Forbes, 1893)",
+      "authorship": "(H. O. Forbes, 1893)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "638ZH",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Suliformes",
+        null,
+        "Phalacrocoracidae",
+        null,
+        null,
+        null,
+        "Leucocarbo"
+      ]
+    },
+    {
+      "normalizedName": "leucocarbo ranfurlyi ogilvie grant 1901",
+      "id": "725KC",
+      "scientificName": "Leucocarbo ranfurlyi (Ogilvie-Grant, 1901)",
+      "authorship": "(Ogilvie-Grant, 1901)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "638ZH",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Suliformes",
+        null,
+        "Phalacrocoracidae",
+        null,
+        null,
+        null,
+        "Leucocarbo"
+      ]
+    },
+    {
+      "normalizedName": "leucocarbo stewarti ogilvie grant 1898",
+      "id": "D5K8R",
+      "scientificName": "Leucocarbo stewarti (Ogilvie-Grant, 1898)",
+      "authorship": "(Ogilvie-Grant, 1898)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "6Q5KH",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "phalacrocorax campbelli filhol 1878",
+      "id": "4FQQ9",
+      "scientificName": "Phalacrocorax campbelli (Filhol, 1878)",
+      "authorship": "(Filhol, 1878)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "725KG",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "phalacrocorax carunculatus j f gmelin 1789",
+      "id": "4FQQD",
+      "scientificName": "Phalacrocorax carunculatus (J. F. Gmelin, 1789)",
+      "authorship": "(J. F. Gmelin, 1789)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "6PTKH",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "phalacrocorax chalconotus g r gray 1845",
+      "id": "777F3",
+      "scientificName": "Phalacrocorax chalconotus (G. R. Gray, 1845)",
+      "authorship": "(G. R. Gray, 1845)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "6Q5KH",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "phalacrocorax colensoi buller 1888",
+      "id": "4FQQF",
+      "scientificName": "Phalacrocorax colensoi Buller, 1888",
+      "authorship": "Buller, 1888",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "725KH",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "phalacrocorax magellanicus j f gmelin 1789",
+      "id": "4FQQQ",
+      "scientificName": "Phalacrocorax magellanicus (J. F. Gmelin, 1789)",
+      "authorship": "(J. F. Gmelin, 1789)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "D5K94",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "phalacrocorax onslowi h o forbes 1893",
+      "id": "4FQQW",
+      "scientificName": "Phalacrocorax onslowi H. O. Forbes, 1893",
+      "authorship": "H. O. Forbes, 1893",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "6PTKC",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "phalacrocorax ranfurlyi ogilvie grant 1901",
+      "id": "4FQR4",
+      "scientificName": "Phalacrocorax ranfurlyi Ogilvie-Grant, 1901",
+      "authorship": "Ogilvie-Grant, 1901",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "725KC",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "phalacrocorax stewarti ogilvie grant 1898",
+      "id": "KTDYT",
+      "scientificName": "Phalacrocorax stewarti Ogilvie-Grant, 1898",
+      "authorship": "Ogilvie-Grant, 1898",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "6Q5KH",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    }
+  ],
+  "fieldDefinitions": [
+    {
+      "excelRow": 12,
+      "record": {
+        "Variable": "Total.individuals",
+        "Description": "Number of individual specimens and live birds measured for each species",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 13,
+      "record": {
+        "Variable": "Female",
+        "Description": "Number of measured individuals identified as female",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 14,
+      "record": {
+        "Variable": "Male",
+        "Description": "Number of measured individuals identified as male",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 15,
+      "record": {
+        "Variable": "Unknown",
+        "Description": "Number of unsexed individuals measured",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 16,
+      "record": {
+        "Variable": "Complete.measures",
+        "Description": "Number of measured individuals with complete set of morphometric trait measurements ",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 18,
+      "record": {
+        "Variable": "Beak.Length_Nares",
+        "Description": "Length from the anterior edge of the nostrils to the tip of the beak",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 19,
+      "record": {
+        "Variable": "Beak.Width",
+        "Description": "Width of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 22,
+      "record": {
+        "Variable": "Wing.Length",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the longest primary on the unflattened wing",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 25,
+      "record": {
+        "Variable": "Hand-Wing.Index",
+        "Description": "100*DK/Lw, where DK is Kipp’s distance and Lw is wing length (i.e., Kipp’s distance corrected for wing size). Species average HWI differ from estimates in Sheard et al. (2020) because of much higher sampling of individuals in some species, as well as taxonomic effects in the BirdLife list",
+        "Variable Types": "continuous",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 27,
+      "record": {
+        "Variable": "Mass",
+        "Description": "Body mass given as species average (incorporating both male and female body mass)",
+        "Variable Types": "continuous",
+        "Units": "gram",
+        "Source": "See Mass Source column"
+      }
+    },
+    {
+      "excelRow": 28,
+      "record": {
+        "Variable": "Mass.Source",
+        "Description": "Dunning (= Dunning, JB [2008] CRC Handbook of Avian Body Masses);\nEltonTraits_Other (= mass published by Wilman et al. 2014 EltonTraits 1.0. Ecology, on basis of literature other than Dunning, usually Handbook of the Birds of the World [now Birds of the World, Cornell])\nEltonTraits_GenAvg (= average of the genus, published in Wilman et al. 2014 EltonTraits 1.0. Ecology); \nEltonTraits_Model (= inferred from mass and length data, with mass-length relationships parameterized at family level, published in Wilman et al. 2014 EltonTraits 1.0. Ecology);\nUpdated_literature (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from literature and online resources, including Birds of the World - specific sources are listed in the Mass.Ref.Source column);  \nUpdated_live.sample (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from museum labels and/or field data of from wild birds weighed using a Pezola balance before release. Specific sources are listed in the Mass.Ref.Source column);  \nInferred (= where EltonTraits GenAvg or Modelled data seemed misleading, and no published data were available for updating, we replaced it where possible with data inferred directly from a morphologically similar relative. Reference species and Traits inferred columns indicate where mass has been inferred and from which species);\nDataFromSplit (= daughter species body mass inferred from parent species after split; the parent or nominate form is typically morphologically similar and provides a reasonable estimate of body mass, particularly as mass data used to calculate the parent species body mass in earlier publications sometimes includes data from the recently split daughter species).\n",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 30,
+      "record": {
+        "Variable": "Inference",
+        "Description": "NO = all biometric trait data were obtained from direct measurement of specimens, or in the case of body mass from published sources\nYES = at least some of the biometric traits were unavailable from specimens so these trait data were inferred from a closely related species; in some cases all morphological measurements were taken directly except for body mass, which can't be measured on museum specimens.",
+        "Variable Types": "binary",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 33,
+      "record": {
+        "Variable": "Habitat",
+        "Description": "Desert (= drylands and other open arid habitats, often sandy with very sparse vegetation); \nRock (= rocky substrate typically with no or very little vegetation, including rocky outcrops, rocky coastlines, arid stony steppes, rocky mountaintops and mountain slopes); \nGrassland (=  open dry to moist grass-dominated landscapes, at all elevations); \nShrubland (= low stature bushy habitats, included thornscrub, thorny or arid savanna, caatinga, xerophytic shrubland and coastal scrub); \nWoodland (= medium stature tree-dominated habitats, including Acacia woodland, riparian woodlands, mangrove forests, forest edges, also more open parkland with scattered taller trees);\nForest (= tall tree-dominated vegetation with more or less closed canopy, including palm forest); \nHuman modified (urban landscapes, intensive agriculture, gardens); \nWetland (= wide range of freshwater aquatic habitats including lakes, marshes, swamps and reedbeds); \nRiverine (= associated with rivers and streams at all elevations); \nCoastal (= intertidal zones within immediate vicinity of beaches, estuaries, brackish to salty marshes, including mudflats, lagoons, alkaline wetlands, coastal dunes and harbours);\nMarine (= pelagic, on sea near coasts, including species in the intertidal zone on beaches, and those pelagic species nesting near the sea on cliffs, islets and islands).",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Data extracted from primary and secondary literature, particularly Handbook of the Birds of the World (including Birds of the World)"
+      }
+    },
+    {
+      "excelRow": 34,
+      "record": {
+        "Variable": "Habitat.Density",
+        "Description": "1 = Dense habitats. Species primarily lives in the lower or middle storey of forest, or in dense thickets, dense shrubland etc.\n2 = Semi-open habitats. Species primarily lives in open shrubland, scattered bushes, parkland, low dry or deciduous forest, thorn forest. \n3 = Open habitats. Species primarily lives in desert, grassland, open water, low shrubs, rocky habitats, seashores, cities. Also applies to species living mainly on top of forest canopy (i.e. mostly in the open)",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias et al. (2016) Frontiers Ecol. Evol."
+      }
+    },
+    {
+      "excelRow": 35,
+      "record": {
+        "Variable": "Migration",
+        "Description": "1 = Sedentary. \n2 = Partially migratory, i.e. minority of population migrates long distances, or most of population undergoes short-distance migration, nomadic movements, distinct altitudinal migration, etc.\n3 = Migratory, i.e. majority of population undertakes long-distance migration",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias & Pigot (2019) Phil. Trans. Roy. Soc."
+      }
+    },
+    {
+      "excelRow": 36,
+      "record": {
+        "Variable": "Trophic.Level",
+        "Description": "Herbivore = species obtaining at least 70% of food resources from plants; Carnivore = species obtaining at least 70% of food resources by consuming live invertebrate or vertebrate animals; Scavenger = species obtaining at least 70% of food resources from carrion or refuse; Omnivore = species obtaining resources from multiple trophic level in roughly equal proportion",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 37,
+      "record": {
+        "Variable": "Trophic.Niche",
+        "Description": "Frugivore = species obtaining at least 60% of food resources from fruit; \nGranivore = species obtaining at least 60% of food resources from seeds or nuts; \nNectarivore =  species obtaining at least 60% of food resources from nectar; \nHerbivore = species obtaining at least 60% of food resources from other plant materials in non-aquatic systems, including leaves, buds, whole flowers etc.; \nHerbivore aquatic = species obtaining at least 60% of food resources from plant materials in aquatic systems, including algae and aquatic plant leaves; \nInvertivore = species obtaining at least 60% of food resources from invertebrates in terrestrial systems, including insects, worms, arachnids, etc.; \nVertivore = species obtaining at least 60% of food resources from vertebrate animals in terrestrial systems, including mammals, birds, reptiles etc.; \nAquatic Predator = species obtaining at least 60% of food resources from vertebrate and invertebrate animals in aquatic systems, including fish, crustacea, molluscs, etc; \nScavenger = species obtaining at least 60% of food resources from carrion, offal or refuse; Omnivore = Species using multiple niches, within or across trophic levels, in relatively equal proportions ",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 38,
+      "record": {
+        "Variable": "Primary.Lifestyle",
+        "Description": "Aerial = species spends much of the time in flight, and hunts or forages predominantly on the wing; \nTerrestrial = species spends majority of its time on the ground, where it obtains food while either walking or hopping (note this includes species that also wade in water with their body raised above the water); \nInsessorial = species spends much of the time perching above the ground, either in branches of trees and other vegetation (i.e. arboreal), or on other raised substrates including rocks, buildings, posts, and wires; \nAquatic = species spends much of the time sitting on water, and obtains  food while afloat or when diving under the water's surface; Generalist = species has no primary lifestyle because it spends time in different lifestyle classes",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 17,
+      "record": {
+        "Variable": "Beak.Length_Culmen",
+        "Description": "Length from the tip of the beak to the base of the skull",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 20,
+      "record": {
+        "Variable": "Beak.Depth",
+        "Description": "Depth of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 21,
+      "record": {
+        "Variable": "Tarsus.Length",
+        "Description": "Length of the tarsus from the posterior notch between tibia and tarsus, to the end of the last scale of acrotarsium (at the bend of the foot)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 23,
+      "record": {
+        "Variable": "Kipps.Distance",
+        "Description": "Length from the tip of the first secondary feather to the tip of the longest primary      ",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 24,
+      "record": {
+        "Variable": "Secondary1",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the first secondary, i.e. the outermost secondary adjacent to the innermost primary feather. Secondary1 is roughly equivalent to Wing length minus Kipp’s distance (measured in a fully folded and flat wing)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 26,
+      "record": {
+        "Variable": "Tail.Length",
+        "Description": "Distance between the tip of the longest rectrix and the point at which the two central rectrices protrude from the skin, typically measured using a ruler inserted between the two central rectrices",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 31,
+      "record": {
+        "Variable": "Traits.inferred",
+        "Description": "List of traits inferred from the reference species",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 32,
+      "record": {
+        "Variable": "Reference.species",
+        "Description": "Species from which the biometric data were inferred",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    }
+  ],
+  "readingScope": "Seven morphology/mass/ecology rows, full crosswalks, related catalogue names and relevant definitions. Not the whole workbook, specimens, original mass book or a new full methods-paper reading.",
+  "retainedBoundaries": {
+    "sevenExactPhalacrocoraxCrosswalkSynonyms": true,
+    "onslowiOneUnsexedBirdOneCompleteSet": true,
+    "carunculatusFiveBirdsThreeFemaleZeroMaleTwoUnsexedThreeComplete": true,
+    "colensoiFourCompleteThreeFemaleOneMale": true,
+    "allAquaticPredatorCarnivoreAquaticMarineOpen": true,
+    "sixPartiallyMigratoryOneSedentary": true,
+    "morphologyAndDunningMassSeparate": true,
+    "noDivePerformanceOrPreyInvented": true,
+    "noGeographicFieldsInterpreted": true,
+    "historicalGuidesNotCompleteMonographs": true,
+    "activePrimateGaps": 14,
+    "fixedAcceptedPrimateDenominator": 530
+  },
+  "intakeBeforeIncrementalCounts": {
+    "indexExists": 680,
+    "bilingualCatalogueProfileMarkers": 677,
+    "missingOneOrBothCatalogueProfileMarkers": 6496,
+    "scope": "Original 7173 observation plus 312 authored species in P5-143–176; no new whole-corpus prose review."
+  },
+  "intakeAfterIncrementalCounts": {
+    "indexExists": 687,
+    "bilingualCatalogueProfileMarkers": 684,
+    "missingOneOrBothCatalogueProfileMarkers": 6489,
+    "scope": "Original 7173 observation plus 319 authored species in P5-143–177; no new whole-corpus prose review."
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All 41 new sections in both languages and all nine profile limits were read after writing, including one prior genus and four prior family sections. Repeated onslowi sampling-limit sentences were consolidated and the revised bilingual section reread. Read nine indices, all section topic/source/text vectors, new reference bindings and limitation pointers, seven bounded new projection entries, P5-177 plan, intake followups and receipt metadata. Seven source rows, full crosswalks, sixteen related catalogue names and relevant field definitions were read before authoring. Seven exact Phalacrocorax synonyms remain distinct from species-concept equivalence; two additional stewarti synonyms are not actual crosswalk names. onslowi one unsexed bird/one complete set, carunculatus five birds/three female/zero male/two unsexed/three complete and colensoi four complete/three female/one male remain explicit. Dunning mass, aquatic niche, aquatic lifestyle and six partial/one sedentary migration codes retain separate scope without invented dive performance, fish lists or routes. Editorial reading is not generation, tests, whole-corpus validation or expert review.",
+    "canonicalFiles": [
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_magellanicus/index.yaml",
+        "sha256": "6b6ef4fad8e2b644d5b65dd43eb52322e48a39a044df3c60d0ce842e0967f673"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_magellanicus/evidence.md",
+        "sha256": "429c9394545769608572cea138e1ce419829107e8f5bcf04dde9ad932d64c977"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_magellanicus/page.zh.md",
+        "sha256": "af8b9db783949f60657eb39bba2a51cba96e5e76e68fb6bc5eb3090f64795142"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_magellanicus/page.en.md",
+        "sha256": "72dbb65a9e171e0a7cbafa42836f67e90e62767bad9f4f9fb79d373234b096a5"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_colensoi/index.yaml",
+        "sha256": "e2dec30c48663835a82a080437a8c6867f5d087863cdb624cb6e69e650cb24d3"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_colensoi/evidence.md",
+        "sha256": "2542bb684f40186b85ede7f1bb290720911a75fc433001f8cdfaf2cbb2ac05c3"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_colensoi/page.zh.md",
+        "sha256": "6059290d41274b938015ef571211486de5eaf46c7e110d4691ea9f7c0c5f303b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_colensoi/page.en.md",
+        "sha256": "b01b0350142ab5415685a599b7d2ca858a406df232eccda71d3199d4c17818a6"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_carunculatus/index.yaml",
+        "sha256": "f5b3643d59112dc8326a618fdaee9de98fc5f2c85acf33c714e8008f0831983c"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_carunculatus/evidence.md",
+        "sha256": "89e9737e59dcd5e41be3ef080c9bd06635087359a2068e8f4953f48251168e22"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_carunculatus/page.zh.md",
+        "sha256": "de50e9d0620e0b1d489ea57a7eb4130e0a1b2c826a70eb82943d02e5b37dc36c"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_carunculatus/page.en.md",
+        "sha256": "dd59cfbcd547e688dde16c387236b3517dfa1042ed42032030590c3d5c97f6b8"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_ranfurlyi/index.yaml",
+        "sha256": "67a5a5c5ca9044b70c8fd5dfe2fda18a48b47ed3e15ce7f6f628ff4d33e4712a"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_ranfurlyi/evidence.md",
+        "sha256": "d0b58749a7d13c66fcb88b92b2244462ca9df3fc9557a0b0f1215b5953d1f020"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_ranfurlyi/page.zh.md",
+        "sha256": "4fff5ac002c823a637f76d2745ebcfe8b28f418f22f9aaf9fb7c155b233f51f5"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_ranfurlyi/page.en.md",
+        "sha256": "298ade5693e174105b38622f3ea5d3c1c88cefc42641876d7e0fc077610a4d26"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_onslowi/index.yaml",
+        "sha256": "5942129d817ccbaa9dfbbbac0e1f1b169509883ccf48b39216b27593584beab7"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_onslowi/evidence.md",
+        "sha256": "698209970f01a79be9f343518e0d664c855dab5fb26ea732b99e8329386ff4fa"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_onslowi/page.zh.md",
+        "sha256": "dd75655c2670abf4fc7f4d80abb4a4839e90488b0e1779602ad1f50f4488d5c6"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_onslowi/page.en.md",
+        "sha256": "86696c94f670b54acd800e64841407fe0fc571228644820f8af649026346b6bd"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_campbelli/index.yaml",
+        "sha256": "55dfde97bd1397e675eef554110d1d17c9155641f49cd9f9bdc4a243dde8540a"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_campbelli/evidence.md",
+        "sha256": "64752e4bce7c6668971c835b5552cd9deefbb707fa3193ac26e525375a6d80c0"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_campbelli/page.zh.md",
+        "sha256": "1a2c6d03ed413085deacdd5a1a3ee03427f67c1867f926605ef00333747d4f66"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_campbelli/page.en.md",
+        "sha256": "f52d28f912123eac8d0bbeab6fa2df128a008b2e727f0fdc2d448ddc1d09a1f6"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_chalconotus/index.yaml",
+        "sha256": "d1a03ceb443f75a71943342908d06f15d5f745f803ce056668b5113a2769708f"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_chalconotus/evidence.md",
+        "sha256": "484248953cd57709c6a9f21ac8b67a3df3d5b6b3d9ea75272e87bff8c82c806a"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_chalconotus/page.zh.md",
+        "sha256": "263c550a7cb9c0c6305c39090744e73aa569b35fcea3e8c0351c24bad4290960"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/Leucocarbo_chalconotus/page.en.md",
+        "sha256": "2941239a88204e7f7a2fb7d3b854eee8c719e52928bbc47922e77f2aaad0893f"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/evidence.md",
+        "sha256": "67b9564e5bf91e6bfd36dfe2dcbd6a0ce1e50db218f733a4c63418e1139b223f"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/page.zh.md",
+        "sha256": "21984dfe6d6a5fbfd8878e8f903384c3b57846fb326fa7375f650b82c4b4f191"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/Leucocarbo/page.en.md",
+        "sha256": "affaf1b00e471e08e391b06d43e00c2e4a94d172333a2858db6277ecaf592b99"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/evidence.md",
+        "sha256": "6bcc084380eb4cf64857bc29f77572495c52df8a71dde407a58b7c8c09d139b7"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/page.zh.md",
+        "sha256": "44f591ee829980f6b0153031db1eefbffb4e2399d698f0fa8f1f0240d72e5a86"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Suliformes/Phalacrocoracidae/page.en.md",
+        "sha256": "6b7822f93f425e37e6cc850f5ff847bb60b4a30989305004b0acb9feac9a36c2"
+      },
+      {
+        "path": "content/projection-map.yaml",
+        "sha256": "c89d4746cb309c118b817710bfa619281ba2f9e32f204e26cc10faba4410ffac"
+      },
+      {
+        "path": "docs/content-production-plan.md",
+        "sha256": "d11b36ea1a5292f504c68c2d6d54c673e4409a136dd0d465b4177263ea29bfd4"
+      },
+      {
+        "path": "data/sources/col-unrepresented-reader-intake-2026-10-03.json",
+        "sha256": "ab0596f4eca33ed1323cde68b8e563d05e6d79b23c4ddfa47fbeb82625d4b097"
+      },
+      {
+        "path": "data/sources/avonet-name-crosswalk-intake-2026-10-03.json",
+        "sha256": "ae4a998bc648a55a583d742f8cbf7d1002830d33a8ac160bcd1c2c94c434bfd8"
+      }
+    ]
+  },
+  "delivery": "Canonical inputs authored; tests, generation, commit and publication deferred until all content completion."
+}

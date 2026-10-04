@@ -10,11 +10,9 @@ records:
       zh: 狒狒属
       en: Papio baboons
     reviewStatus: source-linked
-    checkedAt: 2026-10-01
+    checkedAt: 2026-10-02
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
         text:
           zh:
             markdown: page.zh.md
@@ -23,32 +21,43 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/4
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/5
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/6
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/7
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/8
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/9
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/10
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/11
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/12
+          - taxonomy_genus
+          - taxon_4CKYY
+          - taxon_4CKZ8
+          - taxon_4CKZP
+          - taxon_75M9B
+          - taxon_4CKZ5
+          - taxon_6TM9B
+          - altmann1991
+          - weyher2025kindae
+          - lewis2017ursinus
+          - patzelt2011papio
+          - mir2026papio
+          - jordan2018
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -286,6 +295,118 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+          metadataVariant: 0
+          sourceKey: amnioteLifeHistory2015
+          usage:
+            locator: August 2015 archive; 5 authored same-name records placed under Papio by pinned COL ancestry.
+            accessedAt: 2026-10-02
+            scope:
+              zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+              en: Route through this batch’s authored records only; no complete descendant coverage.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+        - referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+          metadataVariant: 0
+          sourceKey: amnioteLifeHistoryMethods2015
+          usage:
+            locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+              en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+            sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+            sourceVersion: August 2015 archive
+            readerBoundaries:
+              - No field values treated as independent individual measurements.
+              - No guarantee of present taxonomic concept equivalence.
+              - Original input papers not individually reviewed.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+            - sourceRetrievalUrl
+            - sourceVersion
+            - readerBoundaries
+        - referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+          metadataVariant: 0
+          sourceKey: eltonTraits2014
+          usage:
+            locator: EltonTraits 1.0; 5 authored historical entries grouped by pinned COL26.8 ancestry.
+            accessedAt: 2026-10-02
+            authoredFieldGroupCounts:
+              diet: 5
+              foraging: 5
+              activity: 5
+            readingTargets:
+              - name: Papio cynocephalus
+                colId: 4CKYY
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Papionini/Papio/Papio_cynocephalus
+              - name: Papio ursinus
+                colId: 4CKZP
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Papionini/Papio/Papio_ursinus
+              - name: Papio hamadryas
+                colId: 4CKZ5
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Papionini/Papio/Papio_hamadryas
+              - name: Papio anubis
+                colId: 6TM9B
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Papionini/Papio/Papio_anubis
+              - name: Papio papio
+                colId: 75M9B
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Papionini/Papio/Papio_papio
+            scope:
+              zh: 本批资料阅读路线，不是整个类群的生态总结。
+              en: Route through this batch, not an ecological summary for the entire group.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - authoredFieldGroupCounts
+            - readingTargets
+            - scope
+        - referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+          metadataVariant: 0
+          sourceKey: eltonTraitsMethods2014
+          usage:
+            locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+            accessedAt: 2026-10-02
+            scope:
+              zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+              en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
             - scope
     limitations:
       zh:

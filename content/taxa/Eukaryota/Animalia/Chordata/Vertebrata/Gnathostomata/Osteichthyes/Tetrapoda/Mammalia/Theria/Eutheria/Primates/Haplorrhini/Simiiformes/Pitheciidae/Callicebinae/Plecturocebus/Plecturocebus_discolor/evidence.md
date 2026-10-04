@@ -10,11 +10,11 @@ records:
       zh: 杂色绢毛猴
       en: Discolor Titi
     reviewStatus: source-linked
-    checkedAt: 2026-10-02
+    checkedAt: 2026-10-03
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: rejectedTypeAttribution
+        sourceIds:
+          - vanDerMije2025TitiTypes
         text:
           zh:
             markdown: page.zh.md
@@ -22,18 +22,10 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
+      - topic: datedTypeReports
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - vanDerMije2025TitiTypes
+          - roosmalen2002DiscolorHistoricalConcept
         text:
           zh:
             markdown: page.zh.md
@@ -41,14 +33,9 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
+      - topic: conceptCorrespondence
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - vanDerMije2025TitiTypes
         text:
           zh:
             markdown: page.zh.md
@@ -56,13 +43,102 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/2/text/en
+      - topic: material
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/2
+          - roosmalen2002DiscolorHistoricalConcept
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: morphology
+        sourceIds:
+          - roosmalen2002DiscolorHistoricalConcept
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+      - topic: distribution
+        sourceIds:
+          - roosmalen2002DiscolorHistoricalConcept
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
+      - topic: readingPath
+        sourceIds:
+          - roosmalen2002DiscolorHistoricalConcept
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/6/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/6/text/en
+      - topic: overview
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/7/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/7/text/en
+        sourceIds:
+          - taxonomy
+          - vermeer2025
+          - mdd_v24
+          - mdd_v25
+      - topic: fieldStudy
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/8/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/8/text/en
+        sourceIds:
+          - carrillo2005
+          - papworth2010
+      - topic: interpretation
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/9/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/9/text/en
+        sourceIds:
+          - carrillo2005
+          - vermeer2025
+          - mdd_v24
+      - topic: fieldStudy
+        sourceIds:
+          - snodderly2019Morning
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/10/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/10/text/en
+      - topic: interpretation
+        sourceIds:
+          - snodderly2019Morning
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/11/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/11/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -180,6 +256,70 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-630787fc-d174-4360-810b-05c62a0133ec
+          metadataVariant: 0
+          sourceKey: snodderly2019Morning
+          usage:
+            url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0210494
+            locator: "Methods: Behavioral data and First feeding bouts; Results: Movement from the sleeping tree and First feeding bouts."
+            accessedAt: 2026-10-02
+            sourceTaxonName: Plecturocebus (Callicebus) discolor
+            scope:
+              zh: Tiputini 历史名下的晨间观察；不裁决当前分类概念。
+              en: Morning observations under historical Tiputini naming; current concept assignment unresolved.
+          originalFields:
+            - id
+            - url
+            - locator
+            - accessedAt
+            - sourceTaxonName
+            - scope
+        - referenceId: ref-2f000fd5-6860-8219-a161-06127f0ecb71
+          metadataVariant: 0
+          sourceKey: roosmalen2002DiscolorHistoricalConcept
+          usage:
+            title: A taxonomic review of the titi monkeys, genus Callicebus Thomas, 1903, with the description of two new species, Callicebus bernhardi and Callicebus stephennashi, from Brazilian Amazonia
+            url: https://doi.org/10.62015/np.2002.v10.503
+            accessedAt: 2026-10-03
+            scope:
+              zh: 2002 年 Callicebus discolor 历史账户印刷页 12–13 与图 9；名称和分布均限定为该研究的历史概念。
+              en: Historical Callicebus discolor account on printed pp. 12–13 and Figure 9 in the 2002 review; naming and distribution retain that study’s historical concept.
+            sourceTaxonName: Callicebus discolor
+            locator: Complete discolor account on printed pp. 12–13, including material, locality, distribution uncertainty and diagnosis; both page images and all Figure 9 photographs/caption inspected. Not the 1848 original, all maps, current museum inventory, fresh 2025 revision or a concept-equivalence audit.
+          originalFields:
+            - id
+            - title
+            - url
+            - accessedAt
+            - scope
+            - sourceTaxonName
+            - locator
+        - referenceId: ref-afacf123-823d-48a5-b102-82d3f8a8e63d
+          metadataVariant: 0
+          sourceKey: vanDerMije2025TitiTypes
+          usage:
+            title: Type specimens of recent mammals in Naturalis Biodiversity Center. Part 1 Monotremata, Didelphimorphia, Dasyuromorphia, Peramelemorphia, Diprotodontia, Afrosoricida, Macroscelidea, Hyracoidea, Proboscidea, Scandentia, Primates, Rodentia (Mammalia)
+            url: https://repository.naturalis.nl/pub/801296/Meije-2025-Type-specimens-of-recent-mammals-in-Naturalis-A.pdf
+            accessedAt: 2026-10-03
+            locator: Front matter p. 1; selected introduction/methods and taxonomic-issue discussion pp. 3–4, 6–8; cupreus/discolor/donacophilus accounts pp. 49–50 including continuation. Pixels viewed pp. 49–50. No full article or current physical inventory audit.
+            scope:
+              zh: 三种伶猴的限定类型身份、收藏／行程及命名解释；属与亚科为材料比较入口。
+              en: Bounded type identity, collection/itinerary and nomenclatural interpretations for three titi species; genus/subfamily pages offer material comparisons.
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - journal
+            - volume
+            - pages
+            - publishedYear
+            - publishedAt
+            - url
+            - sourceVersion
+            - accessedAt
+            - locator
             - scope
     limitations:
       zh:

@@ -1,0 +1,286 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Edmontosaurus annectens
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Edmontosaurus annectens
+      en: Edmontosaurus annectens
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+          metadataVariant: 0
+          sourceKey: taxonomy
+          usage:
+            title: PBDB accepted record — Edmontosaurus annectens
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=54239&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+          metadataVariant: 0
+          sourceKey: pbdbDinosaurOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:54239; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+            pbdbTaxonId: txn:54239
+            selectedOccurrenceIds:
+              - occ:255376
+              - occ:280099
+              - occ:463047
+              - occ:463073
+              - occ:465692
+              - occ:465717
+              - occ:466193
+              - occ:466863
+              - occ:474093
+              - occ:487145
+              - occ:489304
+              - occ:521040
+              - occ:530470
+              - occ:530472
+              - occ:557548
+              - occ:688094
+              - occ:692637
+              - occ:783906
+              - occ:1123609
+              - occ:1171179
+              - occ:1171574
+              - occ:1447749
+              - occ:1587212
+              - occ:1588478
+              - occ:1588493
+              - occ:1591798
+              - occ:1622294
+              - occ:2066198
+            selectedCollectionIds:
+              - col:24790
+              - col:26760
+              - col:45675
+              - col:45676
+              - col:46120
+              - col:46128
+              - col:46209
+              - col:46320
+              - col:47034
+              - col:48836
+              - col:49238
+              - col:14621
+              - col:54176
+              - col:54178
+              - col:57764
+              - col:74009
+              - col:14674
+              - col:84455
+              - col:128559
+              - col:150933
+              - col:45878
+              - col:202036
+              - col:224286
+              - col:224483
+              - col:224484
+              - col:225035
+              - col:229474
+              - col:279180
+            sourceReferenceIds:
+              - ref:12319
+              - ref:81886
+              - ref:12110
+              - ref:12048
+              - ref:12304
+              - ref:12334
+              - ref:62727
+              - ref:80623
+              - ref:9095
+              - ref:1921
+              - ref:14648
+              - ref:63352
+              - ref:34576
+              - ref:2333
+              - ref:79669
+              - ref:46207
+              - ref:69212
+              - ref:79651
+              - ref:80625
+              - ref:81410
+              - ref:84079
+              - ref:95088
+            originalIdentificationMappings:
+              - occurrenceId: occ:255376
+                originalIdentifiedName: Anatosaurus copei n. sp.
+                acceptedName: Edmontosaurus annectens
+                difference: null
+              - occurrenceId: occ:463047
+                originalIdentifiedName: Thespesius saskatchewanensis n. sp.
+                acceptedName: Edmontosaurus annectens
+                difference: null
+              - occurrenceId: occ:463073
+                originalIdentifiedName: Thespesius edmontoni n. sp.
+                acceptedName: Edmontosaurus annectens
+                difference: null
+              - occurrenceId: occ:465692
+                originalIdentifiedName: Trachodon longiceps n. sp.
+                acceptedName: Edmontosaurus annectens
+                difference: null
+              - occurrenceId: occ:465717
+                originalIdentifiedName: Anatosaurus annectens
+                acceptedName: Edmontosaurus annectens
+                difference: recombined as
+              - occurrenceId: occ:466193
+                originalIdentifiedName: Claosaurus annectens
+                acceptedName: Edmontosaurus annectens
+                difference: recombined as
+              - occurrenceId: occ:466863
+                originalIdentifiedName: Anatosaurus edmontoni
+                acceptedName: Edmontosaurus annectens
+                difference: null
+              - occurrenceId: occ:487145
+                originalIdentifiedName: Anatosaurus annectens
+                acceptedName: Edmontosaurus annectens
+                difference: recombined as
+              - occurrenceId: occ:489304
+                originalIdentifiedName: Claosaurus annectens n. sp.
+                acceptedName: Edmontosaurus annectens
+                difference: recombined as
+              - occurrenceId: occ:530470
+                originalIdentifiedName: Anatosaurus annectens
+                acceptedName: Edmontosaurus annectens
+                difference: recombined as
+              - occurrenceId: occ:530472
+                originalIdentifiedName: Trachodon annectens
+                acceptedName: Edmontosaurus annectens
+                difference: recombined as
+              - occurrenceId: occ:557548
+                originalIdentifiedName: Trachodon annectens
+                acceptedName: Edmontosaurus annectens
+                difference: recombined as
+              - occurrenceId: occ:688094
+                originalIdentifiedName: Anatosaurus copei
+                acceptedName: Edmontosaurus annectens
+                difference: null
+              - occurrenceId: occ:692637
+                originalIdentifiedName: Anatosaurus copei
+                acceptedName: Edmontosaurus annectens
+                difference: null
+              - occurrenceId: occ:1171179
+                originalIdentifiedName: Anatosaurus annectens
+                acceptedName: Edmontosaurus annectens
+                difference: recombined as
+              - occurrenceId: occ:1171574
+                originalIdentifiedName: Anatosaurus annectens
+                acceptedName: Edmontosaurus annectens
+                difference: recombined as
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Edmontosaurus annectens

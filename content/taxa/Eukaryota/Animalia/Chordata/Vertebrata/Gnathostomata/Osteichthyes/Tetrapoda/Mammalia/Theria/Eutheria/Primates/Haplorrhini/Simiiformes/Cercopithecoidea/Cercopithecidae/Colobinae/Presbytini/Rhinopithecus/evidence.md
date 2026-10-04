@@ -10,11 +10,9 @@ records:
       zh: 仰鼻猴属
       en: Snub-nosed Monkeys
     reviewStatus: source-linked
-    checkedAt: 2026-10-01
+    checkedAt: 2026-10-02
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
         text:
           zh:
             markdown: page.zh.md
@@ -23,21 +21,13 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/4
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/5
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - avunculus_range2010
+          - field1993
+          - border2022
+          - bieti_mass2023
+          - roxellana_distribution2024
+      - topic: readingPath
         text:
           zh:
             markdown: page.zh.md
@@ -46,29 +36,17 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/4
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/5
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/6
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/7
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/8
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/9
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - avunculus_food2014
+          - avunculus_range2010
+          - quanba_2019
+          - field1993
+          - altitude2018
+          - genetics2012
+          - description2010
+          - border2022
+          - bieti_mass2023
+          - roxellana_distribution2024
+      - topic: interpretation
         text:
           zh:
             markdown: page.zh.md
@@ -77,28 +55,41 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/2/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/4
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/5
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/6
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/7
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/8
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/9
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/10
+          - taxonomy
+          - avunculus_food2014
+          - avunculus_range2010
+          - quanba_2019
+          - field1993
+          - altitude2018
+          - genetics2012
+          - description2010
+          - border2022
+          - bieti_mass2023
+          - roxellana_distribution2024
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -280,6 +271,114 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+          metadataVariant: 0
+          sourceKey: amnioteLifeHistory2015
+          usage:
+            locator: August 2015 archive; 4 authored same-name records placed under Rhinopithecus by pinned COL ancestry.
+            accessedAt: 2026-10-02
+            scope:
+              zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+              en: Route through this batch’s authored records only; no complete descendant coverage.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+        - referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+          metadataVariant: 0
+          sourceKey: amnioteLifeHistoryMethods2015
+          usage:
+            locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+              en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+            sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+            sourceVersion: August 2015 archive
+            readerBoundaries:
+              - No field values treated as independent individual measurements.
+              - No guarantee of present taxonomic concept equivalence.
+              - Original input papers not individually reviewed.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+            - sourceRetrievalUrl
+            - sourceVersion
+            - readerBoundaries
+        - referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+          metadataVariant: 0
+          sourceKey: eltonTraits2014
+          usage:
+            locator: EltonTraits 1.0; 4 authored historical entries grouped by pinned COL26.8 ancestry.
+            accessedAt: 2026-10-02
+            authoredFieldGroupCounts:
+              diet: 4
+              foraging: 4
+              activity: 4
+            readingTargets:
+              - name: Rhinopithecus brelichi
+                colId: 4S9MM
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Colobinae/Presbytini/Rhinopithecus/Rhinopithecus_brelichi
+              - name: Rhinopithecus bieti
+                colId: 4S9ML
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Colobinae/Presbytini/Rhinopithecus/Rhinopithecus_bieti
+              - name: Rhinopithecus avunculus
+                colId: 4S9MK
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Colobinae/Presbytini/Rhinopithecus/Rhinopithecus_avunculus
+              - name: Rhinopithecus roxellana
+                colId: 4S9MN
+                release: COL26.8
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Colobinae/Presbytini/Rhinopithecus/Rhinopithecus_roxellana
+            scope:
+              zh: 本批资料阅读路线，不是整个类群的生态总结。
+              en: Route through this batch, not an ecological summary for the entire group.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - authoredFieldGroupCounts
+            - readingTargets
+            - scope
+        - referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+          metadataVariant: 0
+          sourceKey: eltonTraitsMethods2014
+          usage:
+            locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+            accessedAt: 2026-10-02
+            scope:
+              zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+              en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
             - scope
     limitations:
       zh:

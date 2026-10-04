@@ -1,0 +1,2178 @@
+{
+  "batch": "P5-176",
+  "date": "2026-10-03",
+  "newSpecies": 7,
+  "newBilingualSections": 41,
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_leucoblephara",
+      "colId": "4533D",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_fraseri",
+      "colId": "743ND",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_nigrocristata",
+      "colId": "4533G",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_flaveola",
+      "colId": "45339",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_coronata",
+      "colId": "45338",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_leucophrys",
+      "colId": "6RRNC",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_signata",
+      "colId": "4533J",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis",
+      "newBilingualSections": 4
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae",
+      "newBilingualSections": 2
+    }
+  ],
+  "sharedReferenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+  "sourceFiles": [
+    {
+      "file": ".git/avonet-supplementary-dataset-1-v7.xlsx",
+      "sha256": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e"
+    },
+    {
+      "file": ".git/myiothlypis-selected-source-176.json",
+      "sha256": "fb5d9a39a5c98620fff61ab214fae4b78d89884fadc1834e920819bc20843a73"
+    },
+    {
+      "file": ".git/myiothlypis-col-names-176.json",
+      "sha256": "ed973527939f33c6d028465376623aee01b9c753156ad0671477e3c2baf55f01"
+    }
+  ],
+  "colNameShardFiles": [
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-my.jsonl.gz",
+      "sha256": "033be05257bc9fad8f7dee8e4f50069d2666463f97aefa773c4968bd1ed2bee3"
+    },
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-ba.jsonl.gz",
+      "sha256": "da410d512fb700aa476d5a6c3827961e45dd78024ede47a9bd6bedc3d65feb1b"
+    }
+  ],
+  "sourceRows": [
+    {
+      "target": {
+        "colId": "4533D",
+        "scientificName": "Myiothlypis leucoblephara",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_leucoblephara",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "626BR",
+            "parentId": "3RL",
+            "scientificName": "Parulidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 18
+          },
+          {
+            "id": "VHF9Q",
+            "parentId": "626BR",
+            "scientificName": "Myiothlypis Cabanis, 1851",
+            "authorship": "Cabanis, 1851",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 18
+          },
+          {
+            "parentId": "VHF9Q",
+            "id": "4533D",
+            "scientificName": "Myiothlypis leucoblephara (Vieillot, 1817)",
+            "authorship": "(Vieillot, 1817)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 6312,
+        "record": {
+          "Sequence": 10640,
+          "Species1": "Myiothlypis leucoblephara",
+          "Family1": "Parulidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-D65E2A9D",
+          "Total.individuals": 9,
+          "Female": 3,
+          "Male": 5,
+          "Unknown": 1,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 14.5,
+          "Beak.Length_Nares": 8.3,
+          "Beak.Width": 3.5,
+          "Beak.Depth": 3.6,
+          "Tarsus.Length": 23.7,
+          "Wing.Length": 64.4,
+          "Kipps.Distance": 10.2,
+          "Secondary1": 54.2,
+          "Hand-Wing.Index": 15.9,
+          "Tail.Length": 57.2,
+          "Mass": 15.1,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": -34.98,
+          "Max.Latitude": -19.72,
+          "Centroid.Latitude": -27.16,
+          "Centroid.Longitude": -53.47,
+          "Range.Size": 1572872.23
+        }
+      },
+      "eBird": {
+        "excelRow": 6595,
+        "record": {
+          "Species1": "Myiothlypis leucoblephara",
+          "Species2": "Myiothlypis leucoblephara",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-D65E2A9D",
+          "Avibase.ID2": "AVIBASE-D65E2A9D",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 6571,
+        "record": {
+          "Species1": "Myiothlypis leucoblephara",
+          "Species3": "Basileuterus leucoblepharus",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "743ND",
+        "scientificName": "Myiothlypis fraseri",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_fraseri",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "626BR",
+            "parentId": "3RL",
+            "scientificName": "Parulidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 18
+          },
+          {
+            "id": "VHF9Q",
+            "parentId": "626BR",
+            "scientificName": "Myiothlypis Cabanis, 1851",
+            "authorship": "Cabanis, 1851",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 18
+          },
+          {
+            "parentId": "VHF9Q",
+            "id": "743ND",
+            "scientificName": "Myiothlypis fraseri (P. L. Sclater, 1884)",
+            "authorship": "(P. L. Sclater, 1884)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 6310,
+        "record": {
+          "Sequence": 10652,
+          "Species1": "Myiothlypis fraseri",
+          "Family1": "Parulidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-A04DCB6C",
+          "Total.individuals": 6,
+          "Female": 2,
+          "Male": 2,
+          "Unknown": 2,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 13.5,
+          "Beak.Length_Nares": 8.5,
+          "Beak.Width": 5,
+          "Beak.Depth": 4.6,
+          "Tarsus.Length": 20.1,
+          "Wing.Length": 65,
+          "Kipps.Distance": 8.9,
+          "Secondary1": 56.1,
+          "Hand-Wing.Index": 13.7,
+          "Tail.Length": 55.7,
+          "Mass": 11.6,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Woodland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -6.32,
+          "Max.Latitude": 0.91,
+          "Centroid.Latitude": -2.4,
+          "Centroid.Longitude": -79.95,
+          "Range.Size": 60912.85
+        }
+      },
+      "eBird": {
+        "excelRow": 6593,
+        "record": {
+          "Species1": "Myiothlypis fraseri",
+          "Species2": "Myiothlypis fraseri",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-A04DCB6C",
+          "Avibase.ID2": "AVIBASE-A04DCB6C",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 6569,
+        "record": {
+          "Species1": "Myiothlypis fraseri",
+          "Species3": "Basileuterus fraseri",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "4533G",
+        "scientificName": "Myiothlypis nigrocristata",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_nigrocristata",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "626BR",
+            "parentId": "3RL",
+            "scientificName": "Parulidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 18
+          },
+          {
+            "id": "VHF9Q",
+            "parentId": "626BR",
+            "scientificName": "Myiothlypis Cabanis, 1851",
+            "authorship": "Cabanis, 1851",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 18
+          },
+          {
+            "parentId": "VHF9Q",
+            "id": "4533G",
+            "scientificName": "Myiothlypis nigrocristata (Lafresnaye, 1840)",
+            "authorship": "(Lafresnaye, 1840)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 6316,
+        "record": {
+          "Sequence": 10642,
+          "Species1": "Myiothlypis nigrocristata",
+          "Family1": "Parulidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-3D4F2A70",
+          "Total.individuals": 13,
+          "Female": 5,
+          "Male": 6,
+          "Unknown": 2,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 14.4,
+          "Beak.Length_Nares": 8.1,
+          "Beak.Width": 4.8,
+          "Beak.Depth": 3.9,
+          "Tarsus.Length": 22.5,
+          "Wing.Length": 61.5,
+          "Kipps.Distance": 5.9,
+          "Secondary1": 55.6,
+          "Hand-Wing.Index": 9.6,
+          "Tail.Length": 58.2,
+          "Mass": 13.64,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -9.4,
+          "Max.Latitude": 11.03,
+          "Centroid.Latitude": 1.02,
+          "Centroid.Longitude": -76.35,
+          "Range.Size": 193235.07
+        }
+      },
+      "eBird": {
+        "excelRow": 6599,
+        "record": {
+          "Species1": "Myiothlypis nigrocristata",
+          "Species2": "Myiothlypis nigrocristata",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-3D4F2A70",
+          "Avibase.ID2": "AVIBASE-3D4F2A70",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 6575,
+        "record": {
+          "Species1": "Myiothlypis nigrocristata",
+          "Species3": "Basileuterus nigrocristatus",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "45339",
+        "scientificName": "Myiothlypis flaveola",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_flaveola",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "626BR",
+            "parentId": "3RL",
+            "scientificName": "Parulidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 18
+          },
+          {
+            "id": "VHF9Q",
+            "parentId": "626BR",
+            "scientificName": "Myiothlypis Cabanis, 1851",
+            "authorship": "Cabanis, 1851",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 18
+          },
+          {
+            "parentId": "VHF9Q",
+            "id": "45339",
+            "scientificName": "Myiothlypis flaveola S. F. Baird, 1865",
+            "authorship": "S. F. Baird, 1865",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 6309,
+        "record": {
+          "Sequence": 10639,
+          "Species1": "Myiothlypis flaveola",
+          "Family1": "Parulidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-40BD9900",
+          "Total.individuals": 21,
+          "Female": 8,
+          "Male": 9,
+          "Unknown": 4,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 14.6,
+          "Beak.Length_Nares": 8.7,
+          "Beak.Width": 4,
+          "Beak.Depth": 4.2,
+          "Tarsus.Length": 20.4,
+          "Wing.Length": 66.3,
+          "Kipps.Distance": 8.1,
+          "Secondary1": 56.1,
+          "Hand-Wing.Index": 12.5,
+          "Tail.Length": 59.7,
+          "Mass": 13.19,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Woodland",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Generalist",
+          "Min.Latitude": -25.92,
+          "Max.Latitude": 11.53,
+          "Centroid.Latitude": -13.08,
+          "Centroid.Longitude": -50.07,
+          "Range.Size": 4100375.8
+        }
+      },
+      "eBird": {
+        "excelRow": 6592,
+        "record": {
+          "Species1": "Myiothlypis flaveola",
+          "Species2": "Myiothlypis flaveola",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-40BD9900",
+          "Avibase.ID2": "AVIBASE-40BD9900",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 6568,
+        "record": {
+          "Species1": "Myiothlypis flaveola",
+          "Species3": "Basileuterus flaveolus",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "45338",
+        "scientificName": "Myiothlypis coronata",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_coronata",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "626BR",
+            "parentId": "3RL",
+            "scientificName": "Parulidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 18
+          },
+          {
+            "id": "VHF9Q",
+            "parentId": "626BR",
+            "scientificName": "Myiothlypis Cabanis, 1851",
+            "authorship": "Cabanis, 1851",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 18
+          },
+          {
+            "parentId": "VHF9Q",
+            "id": "45338",
+            "scientificName": "Myiothlypis coronata (Tschudi, 1844)",
+            "authorship": "(Tschudi, 1844)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 6307,
+        "record": {
+          "Sequence": 10653,
+          "Species1": "Myiothlypis coronata",
+          "Family1": "Parulidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-99F5D09F",
+          "Total.individuals": 78,
+          "Female": 11,
+          "Male": 9,
+          "Unknown": 58,
+          "Complete.measures": 18,
+          "Beak.Length_Culmen": 15.2,
+          "Beak.Length_Nares": 7.7,
+          "Beak.Width": 4.3,
+          "Beak.Depth": 4.2,
+          "Tarsus.Length": 22.7,
+          "Wing.Length": 68.3,
+          "Kipps.Distance": 9.9,
+          "Secondary1": 58.6,
+          "Hand-Wing.Index": 14.4,
+          "Tail.Length": 61.3,
+          "Mass": 16.3,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -17.73,
+          "Max.Latitude": 9.94,
+          "Centroid.Latitude": -3.64,
+          "Centroid.Longitude": -74.49,
+          "Range.Size": 417599.18
+        }
+      },
+      "eBird": {
+        "excelRow": 6590,
+        "record": {
+          "Species1": "Myiothlypis coronata",
+          "Species2": "Myiothlypis coronata",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-99F5D09F",
+          "Avibase.ID2": "AVIBASE-99F5D09F",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 6566,
+        "record": {
+          "Species1": "Myiothlypis coronata",
+          "Species3": "Basileuterus coronatus",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "6RRNC",
+        "scientificName": "Myiothlypis leucophrys",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_leucophrys",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "626BR",
+            "parentId": "3RL",
+            "scientificName": "Parulidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 18
+          },
+          {
+            "id": "VHF9Q",
+            "parentId": "626BR",
+            "scientificName": "Myiothlypis Cabanis, 1851",
+            "authorship": "Cabanis, 1851",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 18
+          },
+          {
+            "parentId": "VHF9Q",
+            "id": "6RRNC",
+            "scientificName": "Myiothlypis leucophrys (Pelzeln, 1868)",
+            "authorship": "(Pelzeln, 1868)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 6313,
+        "record": {
+          "Sequence": 10638,
+          "Species1": "Myiothlypis leucophrys",
+          "Family1": "Parulidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-27DCCC29",
+          "Total.individuals": 4,
+          "Female": 2,
+          "Male": 2,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 14.1,
+          "Beak.Length_Nares": 7.8,
+          "Beak.Width": 3.4,
+          "Beak.Depth": 3.9,
+          "Tarsus.Length": 23.7,
+          "Wing.Length": 62.6,
+          "Kipps.Distance": 9.3,
+          "Secondary1": 53.3,
+          "Hand-Wing.Index": 14.9,
+          "Tail.Length": 60,
+          "Mass": 18.1,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": -22.77,
+          "Max.Latitude": -11.17,
+          "Centroid.Latitude": -17.37,
+          "Centroid.Longitude": -48.75,
+          "Range.Size": 808600.06
+        }
+      },
+      "eBird": {
+        "excelRow": 6596,
+        "record": {
+          "Species1": "Myiothlypis leucophrys",
+          "Species2": "Myiothlypis leucophrys",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-27DCCC29",
+          "Avibase.ID2": "AVIBASE-27DCCC29",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 6572,
+        "record": {
+          "Species1": "Myiothlypis leucophrys",
+          "Species3": "Basileuterus leucophrys",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "4533J",
+        "scientificName": "Myiothlypis signata",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_signata",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "626BR",
+            "parentId": "3RL",
+            "scientificName": "Parulidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 18
+          },
+          {
+            "id": "VHF9Q",
+            "parentId": "626BR",
+            "scientificName": "Myiothlypis Cabanis, 1851",
+            "authorship": "Cabanis, 1851",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 18
+          },
+          {
+            "parentId": "VHF9Q",
+            "id": "4533J",
+            "scientificName": "Myiothlypis signata (Berlepsch & Stolzmann, 1906)",
+            "authorship": "(Berlepsch & Stolzmann, 1906)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 6319,
+        "record": {
+          "Sequence": 10641,
+          "Species1": "Myiothlypis signata",
+          "Family1": "Parulidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-BBD736B2",
+          "Total.individuals": 51,
+          "Female": 11,
+          "Male": 10,
+          "Unknown": 30,
+          "Complete.measures": 24,
+          "Beak.Length_Culmen": 14.4,
+          "Beak.Length_Nares": 7.2,
+          "Beak.Width": 4,
+          "Beak.Depth": 3.5,
+          "Tarsus.Length": 23.6,
+          "Wing.Length": 58.5,
+          "Kipps.Distance": 8,
+          "Secondary1": 50.5,
+          "Hand-Wing.Index": 13.7,
+          "Tail.Length": 59.4,
+          "Mass": 11.3,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -25.1,
+          "Max.Latitude": -10.9,
+          "Centroid.Latitude": -16.71,
+          "Centroid.Longitude": -68.39,
+          "Range.Size": 162524.35
+        }
+      },
+      "eBird": {
+        "excelRow": 6602,
+        "record": {
+          "Species1": "Myiothlypis signata",
+          "Species2": "Myiothlypis signata",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-BBD736B2",
+          "Avibase.ID2": "AVIBASE-BBD736B2",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 6578,
+        "record": {
+          "Species1": "Myiothlypis signata",
+          "Species3": "Basileuterus signatus",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    }
+  ],
+  "colNameRecords": [
+    {
+      "normalizedName": "myiodioctes coronatus tschudi 1844",
+      "id": "KVLHB",
+      "scientificName": "Myiodioctes coronatus Tschudi, 1844",
+      "authorship": "Tschudi, 1844",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "45338",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "myiothlypis coronata tschudi 1844",
+      "id": "45338",
+      "scientificName": "Myiothlypis coronata (Tschudi, 1844)",
+      "authorship": "(Tschudi, 1844)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "VHF9Q",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Parulidae",
+        null,
+        null,
+        null,
+        "Myiothlypis"
+      ]
+    },
+    {
+      "normalizedName": "myiothlypis flaveola s f baird 1865",
+      "id": "45339",
+      "scientificName": "Myiothlypis flaveola S. F. Baird, 1865",
+      "authorship": "S. F. Baird, 1865",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "VHF9Q",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Parulidae",
+        null,
+        null,
+        null,
+        "Myiothlypis"
+      ]
+    },
+    {
+      "normalizedName": "myiothlypis fraseri p l sclater 1884",
+      "id": "743ND",
+      "scientificName": "Myiothlypis fraseri (P. L. Sclater, 1884)",
+      "authorship": "(P. L. Sclater, 1884)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "VHF9Q",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Parulidae",
+        null,
+        null,
+        null,
+        "Myiothlypis"
+      ]
+    },
+    {
+      "normalizedName": "myiothlypis leucoblephara vieillot 1817",
+      "id": "4533D",
+      "scientificName": "Myiothlypis leucoblephara (Vieillot, 1817)",
+      "authorship": "(Vieillot, 1817)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "VHF9Q",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Parulidae",
+        null,
+        null,
+        null,
+        "Myiothlypis"
+      ]
+    },
+    {
+      "normalizedName": "myiothlypis leucophrys pelzeln 1868",
+      "id": "6RRNC",
+      "scientificName": "Myiothlypis leucophrys (Pelzeln, 1868)",
+      "authorship": "(Pelzeln, 1868)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "VHF9Q",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Parulidae",
+        null,
+        null,
+        null,
+        "Myiothlypis"
+      ]
+    },
+    {
+      "normalizedName": "myiothlypis nigrocristata lafresnaye 1840",
+      "id": "4533G",
+      "scientificName": "Myiothlypis nigrocristata (Lafresnaye, 1840)",
+      "authorship": "(Lafresnaye, 1840)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "VHF9Q",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Parulidae",
+        null,
+        null,
+        null,
+        "Myiothlypis"
+      ]
+    },
+    {
+      "normalizedName": "myiothlypis signata berlepsch stolzmann 1906",
+      "id": "4533J",
+      "scientificName": "Myiothlypis signata (Berlepsch & Stolzmann, 1906)",
+      "authorship": "(Berlepsch & Stolzmann, 1906)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "VHF9Q",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Parulidae",
+        null,
+        null,
+        null,
+        "Myiothlypis"
+      ]
+    },
+    {
+      "normalizedName": "basileuterus coronatus tschudi 1844",
+      "id": "5WD8T",
+      "scientificName": "Basileuterus coronatus (Tschudi, 1844)",
+      "authorship": "(Tschudi, 1844)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "45338",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "basileuterus flaveolus s f baird 1865",
+      "id": "68CX5",
+      "scientificName": "Basileuterus flaveolus (S. F. Baird, 1865)",
+      "authorship": "(S. F. Baird, 1865)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "45339",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "basileuterus fraseri p l sclater 1884",
+      "id": "68D8T",
+      "scientificName": "Basileuterus fraseri P. L. Sclater, 1884",
+      "authorship": "P. L. Sclater, 1884",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "743ND",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "basileuterus leucoblepharus vieillot 1817",
+      "id": "68CWS",
+      "scientificName": "Basileuterus leucoblepharus (Vieillot, 1817)",
+      "authorship": "(Vieillot, 1817)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "4533D",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "basileuterus leucophrys pelzeln 1868",
+      "id": "68CX4",
+      "scientificName": "Basileuterus leucophrys Pelzeln, 1868",
+      "authorship": "Pelzeln, 1868",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "6RRNC",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "basileuterus nigrocristatus lafresnaye 1840",
+      "id": "5WCWR",
+      "scientificName": "Basileuterus nigrocristatus (Lafresnaye, 1840)",
+      "authorship": "(Lafresnaye, 1840)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "4533G",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "basileuterus signatus berlepsch stolzmann 1906",
+      "id": "5WD93",
+      "scientificName": "Basileuterus signatus Berlepsch & Stolzmann, 1906",
+      "authorship": "Berlepsch & Stolzmann, 1906",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "4533J",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    }
+  ],
+  "fieldDefinitions": [
+    {
+      "excelRow": 12,
+      "record": {
+        "Variable": "Total.individuals",
+        "Description": "Number of individual specimens and live birds measured for each species",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 13,
+      "record": {
+        "Variable": "Female",
+        "Description": "Number of measured individuals identified as female",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 14,
+      "record": {
+        "Variable": "Male",
+        "Description": "Number of measured individuals identified as male",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 15,
+      "record": {
+        "Variable": "Unknown",
+        "Description": "Number of unsexed individuals measured",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 16,
+      "record": {
+        "Variable": "Complete.measures",
+        "Description": "Number of measured individuals with complete set of morphometric trait measurements ",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 18,
+      "record": {
+        "Variable": "Beak.Length_Nares",
+        "Description": "Length from the anterior edge of the nostrils to the tip of the beak",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 19,
+      "record": {
+        "Variable": "Beak.Width",
+        "Description": "Width of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 22,
+      "record": {
+        "Variable": "Wing.Length",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the longest primary on the unflattened wing",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 25,
+      "record": {
+        "Variable": "Hand-Wing.Index",
+        "Description": "100*DK/Lw, where DK is Kipp’s distance and Lw is wing length (i.e., Kipp’s distance corrected for wing size). Species average HWI differ from estimates in Sheard et al. (2020) because of much higher sampling of individuals in some species, as well as taxonomic effects in the BirdLife list",
+        "Variable Types": "continuous",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 27,
+      "record": {
+        "Variable": "Mass",
+        "Description": "Body mass given as species average (incorporating both male and female body mass)",
+        "Variable Types": "continuous",
+        "Units": "gram",
+        "Source": "See Mass Source column"
+      }
+    },
+    {
+      "excelRow": 28,
+      "record": {
+        "Variable": "Mass.Source",
+        "Description": "Dunning (= Dunning, JB [2008] CRC Handbook of Avian Body Masses);\nEltonTraits_Other (= mass published by Wilman et al. 2014 EltonTraits 1.0. Ecology, on basis of literature other than Dunning, usually Handbook of the Birds of the World [now Birds of the World, Cornell])\nEltonTraits_GenAvg (= average of the genus, published in Wilman et al. 2014 EltonTraits 1.0. Ecology); \nEltonTraits_Model (= inferred from mass and length data, with mass-length relationships parameterized at family level, published in Wilman et al. 2014 EltonTraits 1.0. Ecology);\nUpdated_literature (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from literature and online resources, including Birds of the World - specific sources are listed in the Mass.Ref.Source column);  \nUpdated_live.sample (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from museum labels and/or field data of from wild birds weighed using a Pezola balance before release. Specific sources are listed in the Mass.Ref.Source column);  \nInferred (= where EltonTraits GenAvg or Modelled data seemed misleading, and no published data were available for updating, we replaced it where possible with data inferred directly from a morphologically similar relative. Reference species and Traits inferred columns indicate where mass has been inferred and from which species);\nDataFromSplit (= daughter species body mass inferred from parent species after split; the parent or nominate form is typically morphologically similar and provides a reasonable estimate of body mass, particularly as mass data used to calculate the parent species body mass in earlier publications sometimes includes data from the recently split daughter species).\n",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 30,
+      "record": {
+        "Variable": "Inference",
+        "Description": "NO = all biometric trait data were obtained from direct measurement of specimens, or in the case of body mass from published sources\nYES = at least some of the biometric traits were unavailable from specimens so these trait data were inferred from a closely related species; in some cases all morphological measurements were taken directly except for body mass, which can't be measured on museum specimens.",
+        "Variable Types": "binary",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 33,
+      "record": {
+        "Variable": "Habitat",
+        "Description": "Desert (= drylands and other open arid habitats, often sandy with very sparse vegetation); \nRock (= rocky substrate typically with no or very little vegetation, including rocky outcrops, rocky coastlines, arid stony steppes, rocky mountaintops and mountain slopes); \nGrassland (=  open dry to moist grass-dominated landscapes, at all elevations); \nShrubland (= low stature bushy habitats, included thornscrub, thorny or arid savanna, caatinga, xerophytic shrubland and coastal scrub); \nWoodland (= medium stature tree-dominated habitats, including Acacia woodland, riparian woodlands, mangrove forests, forest edges, also more open parkland with scattered taller trees);\nForest (= tall tree-dominated vegetation with more or less closed canopy, including palm forest); \nHuman modified (urban landscapes, intensive agriculture, gardens); \nWetland (= wide range of freshwater aquatic habitats including lakes, marshes, swamps and reedbeds); \nRiverine (= associated with rivers and streams at all elevations); \nCoastal (= intertidal zones within immediate vicinity of beaches, estuaries, brackish to salty marshes, including mudflats, lagoons, alkaline wetlands, coastal dunes and harbours);\nMarine (= pelagic, on sea near coasts, including species in the intertidal zone on beaches, and those pelagic species nesting near the sea on cliffs, islets and islands).",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Data extracted from primary and secondary literature, particularly Handbook of the Birds of the World (including Birds of the World)"
+      }
+    },
+    {
+      "excelRow": 34,
+      "record": {
+        "Variable": "Habitat.Density",
+        "Description": "1 = Dense habitats. Species primarily lives in the lower or middle storey of forest, or in dense thickets, dense shrubland etc.\n2 = Semi-open habitats. Species primarily lives in open shrubland, scattered bushes, parkland, low dry or deciduous forest, thorn forest. \n3 = Open habitats. Species primarily lives in desert, grassland, open water, low shrubs, rocky habitats, seashores, cities. Also applies to species living mainly on top of forest canopy (i.e. mostly in the open)",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias et al. (2016) Frontiers Ecol. Evol."
+      }
+    },
+    {
+      "excelRow": 35,
+      "record": {
+        "Variable": "Migration",
+        "Description": "1 = Sedentary. \n2 = Partially migratory, i.e. minority of population migrates long distances, or most of population undergoes short-distance migration, nomadic movements, distinct altitudinal migration, etc.\n3 = Migratory, i.e. majority of population undertakes long-distance migration",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias & Pigot (2019) Phil. Trans. Roy. Soc."
+      }
+    },
+    {
+      "excelRow": 36,
+      "record": {
+        "Variable": "Trophic.Level",
+        "Description": "Herbivore = species obtaining at least 70% of food resources from plants; Carnivore = species obtaining at least 70% of food resources by consuming live invertebrate or vertebrate animals; Scavenger = species obtaining at least 70% of food resources from carrion or refuse; Omnivore = species obtaining resources from multiple trophic level in roughly equal proportion",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 37,
+      "record": {
+        "Variable": "Trophic.Niche",
+        "Description": "Frugivore = species obtaining at least 60% of food resources from fruit; \nGranivore = species obtaining at least 60% of food resources from seeds or nuts; \nNectarivore =  species obtaining at least 60% of food resources from nectar; \nHerbivore = species obtaining at least 60% of food resources from other plant materials in non-aquatic systems, including leaves, buds, whole flowers etc.; \nHerbivore aquatic = species obtaining at least 60% of food resources from plant materials in aquatic systems, including algae and aquatic plant leaves; \nInvertivore = species obtaining at least 60% of food resources from invertebrates in terrestrial systems, including insects, worms, arachnids, etc.; \nVertivore = species obtaining at least 60% of food resources from vertebrate animals in terrestrial systems, including mammals, birds, reptiles etc.; \nAquatic Predator = species obtaining at least 60% of food resources from vertebrate and invertebrate animals in aquatic systems, including fish, crustacea, molluscs, etc; \nScavenger = species obtaining at least 60% of food resources from carrion, offal or refuse; Omnivore = Species using multiple niches, within or across trophic levels, in relatively equal proportions ",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 38,
+      "record": {
+        "Variable": "Primary.Lifestyle",
+        "Description": "Aerial = species spends much of the time in flight, and hunts or forages predominantly on the wing; \nTerrestrial = species spends majority of its time on the ground, where it obtains food while either walking or hopping (note this includes species that also wade in water with their body raised above the water); \nInsessorial = species spends much of the time perching above the ground, either in branches of trees and other vegetation (i.e. arboreal), or on other raised substrates including rocks, buildings, posts, and wires; \nAquatic = species spends much of the time sitting on water, and obtains  food while afloat or when diving under the water's surface; Generalist = species has no primary lifestyle because it spends time in different lifestyle classes",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 17,
+      "record": {
+        "Variable": "Beak.Length_Culmen",
+        "Description": "Length from the tip of the beak to the base of the skull",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 20,
+      "record": {
+        "Variable": "Beak.Depth",
+        "Description": "Depth of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 21,
+      "record": {
+        "Variable": "Tarsus.Length",
+        "Description": "Length of the tarsus from the posterior notch between tibia and tarsus, to the end of the last scale of acrotarsium (at the bend of the foot)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 23,
+      "record": {
+        "Variable": "Kipps.Distance",
+        "Description": "Length from the tip of the first secondary feather to the tip of the longest primary      ",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 24,
+      "record": {
+        "Variable": "Secondary1",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the first secondary, i.e. the outermost secondary adjacent to the innermost primary feather. Secondary1 is roughly equivalent to Wing length minus Kipp’s distance (measured in a fully folded and flat wing)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 26,
+      "record": {
+        "Variable": "Tail.Length",
+        "Description": "Distance between the tip of the longest rectrix and the point at which the two central rectrices protrude from the skin, typically measured using a ruler inserted between the two central rectrices",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 31,
+      "record": {
+        "Variable": "Traits.inferred",
+        "Description": "List of traits inferred from the reference species",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 32,
+      "record": {
+        "Variable": "Reference.species",
+        "Description": "Species from which the biometric data were inferred",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    }
+  ],
+  "readingScope": "Seven morphology/mass/ecology rows, full crosswalks, related catalogue names and relevant definitions. Not the whole workbook, specimens, original mass book or a new full methods-paper reading.",
+  "retainedBoundaries": {
+    "sevenExactBasileuterusCrosswalkSynonyms": true,
+    "changedSpeciesEndingsRetained": true,
+    "coronataSeventyEightTotalEighteenCompleteFiftyEightUnsexed": true,
+    "signataFiftyOneTotalTwentyFourCompleteThirtyUnsexed": true,
+    "fourInsessorialTwoTerrestrialOneGeneralist": true,
+    "fiveForestTwoWoodlandFiveDenseTwoSemiOpen": true,
+    "allInvertivoreCarnivoreSedentary": true,
+    "morphologyAndDunningMassSeparate": true,
+    "noGeographicFieldsInterpreted": true,
+    "historicalGuidesNotCompleteMonographs": true,
+    "activePrimateGaps": 14,
+    "fixedAcceptedPrimateDenominator": 530
+  },
+  "intakeBeforeIncrementalCounts": {
+    "indexExists": 673,
+    "bilingualCatalogueProfileMarkers": 670,
+    "missingOneOrBothCatalogueProfileMarkers": 6503,
+    "scope": "Original 7173 observation plus 305 authored species in P5-143–175; no new whole-corpus prose review."
+  },
+  "intakeAfterIncrementalCounts": {
+    "indexExists": 680,
+    "bilingualCatalogueProfileMarkers": 677,
+    "missingOneOrBothCatalogueProfileMarkers": 6496,
+    "scope": "Original 7173 observation plus 312 authored species in P5-143–176; no new whole-corpus prose review."
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All 41 new sections in both languages and all nine profile limits were read after writing, including the prior genus life-history section and ten prior family sections. The genus English singular grammar correction was read back. Read nine indices, all section topic/source/text vectors, new reference bindings and limitation pointers, seven bounded new projection entries, P5-176 plan, intake followups and receipt metadata. Seven source rows, full crosswalks, fifteen related catalogue names and relevant field definitions were read before authoring. Seven exact Basileuterus synonyms remain distinct from historical species-concept equivalence; the additional Myiodioctes synonym is not an actual crosswalk name. coronata 78 total/18 complete/58 unsexed and signata 51/24/30 remain separate, as do Dunning mass and three lifestyle categories. Editorial reading is not generation, tests, whole-corpus validation or expert review.",
+    "canonicalFiles": [
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_leucoblephara/index.yaml",
+        "sha256": "a0d5ca0e7959a0eb581d8409b16289d076d0d6210dd61eaa74a2e575eb02a540"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_leucoblephara/evidence.md",
+        "sha256": "5125de63498edf998f55b98999c42f5e742d7ff62ffae9561e1c86abac5ca4c1"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_leucoblephara/page.zh.md",
+        "sha256": "cfc62e846ee6316a7ded6482eb94f4f9f3a56e4e6ee781f2a7877f49370812f0"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_leucoblephara/page.en.md",
+        "sha256": "7093948ec2d0340c307139073896a0e687262a543d530dd75e10a3ce90d4a857"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_fraseri/index.yaml",
+        "sha256": "1a4f2b35e9d1eb01af58daa0136a35a36db8955282e5727f9f66d718a0f03158"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_fraseri/evidence.md",
+        "sha256": "0a54357840adb54fa2847dabfb5d4d14244c0565288a563bb04db6931f3dde08"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_fraseri/page.zh.md",
+        "sha256": "d2a063bf3482d2d3e37d691feb626c7425fc01f29bcf2d70669378a97bf6acd4"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_fraseri/page.en.md",
+        "sha256": "4fa30b7d727645130bc2015ec347b5a157b5626bf64d6f44184f6df466d35aa4"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_nigrocristata/index.yaml",
+        "sha256": "815790710fd7dd509deeb3b25f7c7054bfdadfbe08e7c19086afd3934aafa13e"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_nigrocristata/evidence.md",
+        "sha256": "4e46d6d89ad1dc1252162e6f543acc2cc5499be71c5833689c992aaf54e22e90"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_nigrocristata/page.zh.md",
+        "sha256": "449365ae72060f4127b4cad46c2103de44b893c7d9f1782177b258f69f2842a9"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_nigrocristata/page.en.md",
+        "sha256": "2bcbed73188e515255fd0cf9a625827ca880273f8eb1f0b856c6c38786b07c07"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_flaveola/index.yaml",
+        "sha256": "343d3ff912f61aa45ea37ac365aa58063683673723c44ecade24e956c4f12408"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_flaveola/evidence.md",
+        "sha256": "863521e981f183da40d5ac58b271fad21a0dfbed6fa809e0b136fcc732db5997"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_flaveola/page.zh.md",
+        "sha256": "daa5f5eb2a1586240039a9e2e69c5f470f7bffd42be781510a896e7b6424d1b9"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_flaveola/page.en.md",
+        "sha256": "48aff44a1e06b9aaef6c81af6bf6606ca84113a5327dcabaf9d579cf0a451870"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_coronata/index.yaml",
+        "sha256": "3d4172feb4fd9d8837f3eb2056701a76000ba416aa028bc9b602f23c7aa4fd41"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_coronata/evidence.md",
+        "sha256": "618afef35f62aa576913444a3818eb9b1193bc4571275c9218ed382d0e1c645d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_coronata/page.zh.md",
+        "sha256": "dc490ead6a523a139dfae6e752a2b6f26e59a07ef86ef6bb46c0580ecc587fcb"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_coronata/page.en.md",
+        "sha256": "264980f117b9377663ca4e04804bf12ed63300b68f12ba351a3d01426db6a089"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_leucophrys/index.yaml",
+        "sha256": "9e8186ac87adefddcd363ae76ffbd0193ff0b689804583750d355b19ce45f72e"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_leucophrys/evidence.md",
+        "sha256": "aae992379e8c17713ee0410602149f13a7ec808690bed462661214afc6d728b7"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_leucophrys/page.zh.md",
+        "sha256": "4a4ed5434359b0fc0237f2143556133b29c3aff46206e0315f3a5e5b1e1bc939"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_leucophrys/page.en.md",
+        "sha256": "20f8255c3972bb4c07bafd251556e4ab3c2981e001a923b49dad8b1a4a622dda"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_signata/index.yaml",
+        "sha256": "18396efe5786b1337a9e539381afb90cbe4e99d71d979c06023b2959eef73f4b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_signata/evidence.md",
+        "sha256": "e937ddfb40d364f2a4f4bfee8278164d353143de47be58f099e03940037b86ef"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_signata/page.zh.md",
+        "sha256": "99b3f02710db4fdcfdf005cdce93fc0f359a1062344118c0bee9809714d2a32c"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/Myiothlypis_signata/page.en.md",
+        "sha256": "b8e8d466ea1896e87fc853cfeadb3f04d7951cac81463e8a63ce40b96c53dc2c"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/evidence.md",
+        "sha256": "a71a7508fd8cc2887364a52e0d13836e00daa9ce1cefc2bc015f307b451fb6b8"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/page.zh.md",
+        "sha256": "f603f65650e3e66997607704ada01e28ac184b8c6ec71edd8fc147df7a48c174"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/Myiothlypis/page.en.md",
+        "sha256": "d3b160a6a4c0a7aa3dba6dd3aba76dc121851744f041cf411f18c2dad433440b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/evidence.md",
+        "sha256": "ae5c8bb864d99e60b4745fc7abd75c5da8b80d524226e8d69344602a45e9c29c"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/page.zh.md",
+        "sha256": "43b3d60b5a8846d05f5ac431177c28b90022bf4c06afb2c4cd99fc693d4d8658"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Parulidae/page.en.md",
+        "sha256": "3c8c0079d25ea5903c973481589b5633cb80fa966bfa776b00240465c7888301"
+      },
+      {
+        "path": "content/projection-map.yaml",
+        "sha256": "543ddf2d44751c098c59d7ed33324b0d145674f1ba7487685456755869c70b75"
+      },
+      {
+        "path": "docs/content-production-plan.md",
+        "sha256": "8e74b2bb3f598811acd1e94233d38de6aa347883f7f142af2dfbe323a0eb5011"
+      },
+      {
+        "path": "data/sources/col-unrepresented-reader-intake-2026-10-03.json",
+        "sha256": "a0b2d7031900ea9650b44e67bbb95054493a498e6ebb2a539e0940d0468adb1e"
+      },
+      {
+        "path": "data/sources/avonet-name-crosswalk-intake-2026-10-03.json",
+        "sha256": "1e5c4cc9cac349fcdeb50433345101941c02aed2d93bdf389686455026d314f0"
+      }
+    ]
+  },
+  "delivery": "Canonical inputs authored; tests, generation, commit and publication deferred until all content completion."
+}

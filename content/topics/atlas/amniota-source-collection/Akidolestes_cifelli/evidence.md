@@ -1,0 +1,26 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  collection-status:
+    scientificName: Akidolestes cifelli
+    sourceIdentities:
+      - identity: PBDB:txn:197844
+        taxonomy:
+          path: data/sources/snapshots/pbdb-amniota-accepted-fossil-species-2026-10-02.json
+          recordId: txn:197844
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=197844
+        existingCanonicalPath: null
+      - identity: PBDB:txn:137605
+        taxonomy:
+          path: data/sources/snapshots/pbdb-amniota-accepted-fossil-species-2026-10-02.json
+          recordId: txn:137605
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=137605
+        existingCanonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theriamorpha/Theriiformes/Trechnotheria/Spalacotherioidea/Spalacotheriidae/Akidolestes/Akidolestes_cifelli
+    status: source-collection-placeholder
+    ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+    conceptsMerged: false
+    expertReview: false
+---
+
+# Akidolestes cifelli

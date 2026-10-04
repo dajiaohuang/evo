@@ -1,0 +1,117 @@
+{
+  "batch": "P5-81",
+  "date": "2026-10-03",
+  "pbdbSpecies": "txn:68246",
+  "pbdbGenus": "txn:68238",
+  "referenceId": "dyke-2013-microraptor-wind-tunnel",
+  "newReferences": 0,
+  "referenceMetadataUpdated": [
+    "full ordered authors",
+    "2013-09-18 publication date",
+    "copyright statement"
+  ],
+  "source": {
+    "url": "https://darrennaish.wordpress.com/wp-content/uploads/2013/02/dyke-et-al-2013-aerodynamic-performance-of-microraptor-in-wind-tunnel-tests.pdf",
+    "bytes": 943653,
+    "sha256": "2373996e9281d6980f2945812b9c69c0d253da2d1c08576dcbd83f0c645e80af",
+    "hostRole": "Coauthor-hosted copy of original publisher PDF; not publisher-hosted retrieval.",
+    "doi": "10.1038/ncomms3489",
+    "title": "Aerodynamic performance of the feathered dinosaur Microraptor and the evolution of feathered flight",
+    "authors": [
+      "Gareth Dyke",
+      "Roeland de Kat",
+      "Colin Palmer",
+      "Jacques van der Kindere",
+      "Darren Naish",
+      "Bharathram Ganapathisubramani"
+    ],
+    "publishedAt": "2013-09-18",
+    "license": "Copyright Macmillan Publishers Limited 2013; all rights reserved; no redistribution license confirmed",
+    "localOnlyPdf": ".git/microraptor2013-primary.pdf",
+    "publicPdfCopy": false,
+    "textRead": "Complete nine-page article, including Methods, Discussion, figure captions and references.",
+    "pagesVisuallyInspected": [
+      1,
+      4
+    ],
+    "figuresVisuallyInspected": [
+      2
+    ]
+  },
+  "modelProvenance": {
+    "namedSpeciesHolotype": "Microraptor gui IVPP V13352",
+    "otherSpecimen": "BMNHC PH881, referred to Microraptor at genus level in this study",
+    "mainFeatheredModelGeometry": "Scaled proportions and wing outline mainly from BMNHC PH881",
+    "featherSources": [
+      "salvaged Mallard",
+      "salvaged Common Wood Pigeon"
+    ],
+    "feathersAreFossilColorEvidence": false,
+    "postureBasisIncludesRelatedTaxon": "Hesperonychus 3D pelvis",
+    "fullySprawledExtremeExcluded": true
+  },
+  "interpretationBoundaries": {
+    "featheredWindSpeedsMS": [
+      10,
+      15,
+      20
+    ],
+    "angleOfAttackDeg": {
+      "min": 0,
+      "max": 26,
+      "step": 2,
+      "returnSweep": true
+    },
+    "trajectoryInputs": {
+      "massKg": 0.5,
+      "massEstimated": true,
+      "launchHeightM": 30,
+      "initialHorizontalSpeedMS": 3
+    },
+    "stablePointGlideRatios": {
+      "legsDown": 4.7,
+      "limitedSprawl": 2.8
+    },
+    "allValuesAreModelConditionsOrResults": true,
+    "measuredExtinctBehavior": false,
+    "flappingDemonstrated": false,
+    "speciesWidePerformanceEstablished": false,
+    "otherTwoSpeciesCompleted": false,
+    "flatPlateAndFeatheredGeometriesIdentical": false,
+    "stomachContentStudyRead": false,
+    "sourceInternalBoundary": "Figure 2 caption states both flights from <15 m favor sprawled and heights >=2 m favor legs down; visible in original page 4. Exact thresholds not adopted.",
+    "simulationsRerun": false,
+    "windTunnelRepeated": false
+  },
+  "original2003Read": false,
+  "plumage2012Read": false,
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Microraptorinae/Microraptor/Microraptor_gui",
+      "newBilingualSections": 6
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Microraptorinae/Microraptor",
+      "newBilingualSections": 3
+    }
+  ],
+  "maturity": {
+    "fullMonograph": false,
+    "externalExpertReview": false,
+    "activePrimateSourceGaps": 14,
+    "readerVisibleDelivery": "Pending content-phase projection/publication handoff."
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "readScope": "All current eleven species sections, five genus sections and limitations in both languages; original Figure 2 and article front visually inspected.",
+    "files": {
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Microraptorinae/Microraptor/page.zh.md": "4ddfdea6403621571264bf23c6dc37cf22a8624497929994fe775c635a8ef202",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Microraptorinae/Microraptor/page.en.md": "c143ee5342be40fa44a004d5e79c4524ff1f2d679d65aecc32a9cd7eff790b32",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Microraptorinae/Microraptor/evidence.md": "badf973419500a4e44c5883a04664d596ff90f92c4786f8c48262586c29f7141",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Microraptorinae/Microraptor/Microraptor_gui/page.zh.md": "c1c56b31a5d162f72fc998eeaa58102d6244cbbf86ed1d2785f7023a96e24aa1",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Microraptorinae/Microraptor/Microraptor_gui/page.en.md": "a04327f0eb34c80008c2012a5638bdab036d55b79137e8aa72d5d4e8fd16b670",
+      "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Tetanurae/Coelurosauria/Maniraptora/Paraves/Deinonychosauria/Dromaeosauridae/Microraptorinae/Microraptor/Microraptor_gui/evidence.md": "66d867807552f89de3e3d8caea33945f6e51b193931baa8adf6c9de296678c2a"
+    }
+  },
+  "delivery": "Canonical bilingual model-study guide and genus reading paths; no tests, generation, commit or publication."
+}

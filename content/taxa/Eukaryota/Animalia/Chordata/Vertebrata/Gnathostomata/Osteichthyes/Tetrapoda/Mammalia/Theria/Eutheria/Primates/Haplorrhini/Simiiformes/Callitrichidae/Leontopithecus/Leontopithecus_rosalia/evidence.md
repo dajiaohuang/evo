@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: conservation
         text:
           zh:
             markdown: page.zh.md
@@ -23,8 +21,78 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
+          - ruizmiranda2019
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: ecology
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: ecology
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: ecology
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+      - topic: ecology
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/6/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/6/text/en
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/7/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/7/text/en
     sources:
       referenceBindings:
         - referenceId: ref-cac372bb-4fde-85c2-aeb7-952c91916db9
@@ -62,6 +130,63 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+          metadataVariant: 0
+          sourceKey: ernestLifeHistories2003
+          usage:
+            locator: "Mammal_lifehistories_v2.txt: Leontopithecus rosalia; original refs=1,2,16,22,23,24,29; metadata Class II B data collection and variable definitions; Class IV units and reference list."
+            sourceVersion: Ecological Archives E084-093-D1; 2003 v2
+            sourceFileSha256: 9b7a4ef7082c7b37ab76b922cfd5c86fd3e49444fa2db180439cfbe051fef6b9
+            sourceRecordName: Leontopithecus rosalia
+            originalReferenceNumbers:
+              - "1"
+              - "2"
+              - "16"
+              - "22"
+              - "23"
+              - "24"
+              - "29"
+            availableFocalFields:
+              - gestation(mo)
+              - newborn(g)
+              - weaning(mo)
+              - wean mass(g)
+              - AFR(mo)
+              - max. life(mo)
+              - litter size
+              - litters/year
+            uninterpretedFocalFields: []
+            withheldFields:
+              - mass(g)
+            historicalCrosswalk:
+              MSW93Binomial: Leontopithecus rosalia
+              MSW05Binomial: Leontopithecus rosalia
+              mapping: one-to-one same-name MSW93/MSW05 in separate PanTHERIA supplied SppSynonymID1.0 table; not equivalence to COL
+              sourceConceptEquivalenceToCOL: not established
+            accessedAt: 2026-10-03
+            licenseAssessment: archived-no-restrictions-attributed-factual-summary
+            scope:
+              zh: 历史生活史汇总：一般等权平均，最高寿命取记录最大值；成年体重不在本批解读，底层物种文献未逐条读取。
+              en: "Historical life-history summaries: generally equally weighted averages, maximum lifespan as a record maximum; adult mass not interpreted in this batch, underlying species literature not individually read."
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - sourceVersion
+            - sourceFileSha256
+            - sourceRecordName
+            - originalReferenceNumbers
+            - availableFocalFields
+            - uninterpretedFocalFields
+            - withheldFields
+            - historicalCrosswalk
+            - accessedAt
+            - licenseAssessment
             - scope
     limitations:
       zh:

@@ -1,0 +1,15 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  collection-status:
+    scientificName: Eutemnodus americanus
+    sourceIdentity: PBDB:txn:53771
+    status: source-collection-placeholder
+    ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+    sourceLocators: []
+    expertReview: false
+    comprehensiveSpeciesMonograph: false
+---
+
+# Eutemnodus americanus

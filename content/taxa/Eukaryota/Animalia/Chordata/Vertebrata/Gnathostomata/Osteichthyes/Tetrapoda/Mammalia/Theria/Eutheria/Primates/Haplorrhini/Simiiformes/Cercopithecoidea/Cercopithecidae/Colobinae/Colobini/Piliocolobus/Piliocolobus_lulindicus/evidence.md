@@ -10,51 +10,70 @@ records:
       en: Ulindi River Red Colobus
       zh: 乌林迪河红疣猴
     reviewStatus: source-linked
-    checkedAt: 2026-09-30
+    checkedAt: 2026-10-03
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: nameBearingMaterial
+        sourceIds:
+          - turni2024RedColobusTypes
         text:
-          en:
-            markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/text/en
           zh:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
-        sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
-        text:
           en:
             markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/text/en
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: additionalMaterialStatus
+        sourceIds:
+          - turni2024RedColobusTypes
+        text:
           zh:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/1/text/zh
-        sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
-        text:
           en:
             markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/text/en
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: conceptCorrespondence
+        sourceIds:
+          - turni2024RedColobusTypes
+        text:
           zh:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: taxonomy
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
+          - taxonomy
+          - lulindicus2020
+          - mdd_foai
+      - topic: distribution and habitat
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+        sourceIds:
+          - lulindicus2020
+      - topic: population evidence in the 2020 assessment
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+        sourceIds:
+          - lulindicus2020
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -108,6 +127,33 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-fb75c3a3-0864-4560-8710-e3fee33c755d
+          metadataVariant: 0
+          sourceKey: turni2024RedColobusTypes
+          usage:
+            title: Type specimens of Primates (Mammalia) in the collections of the Museum für Naturkunde Berlin
+            url: https://mapress.com/zt/article/download/zootaxa.5543.2.1/54941/69264
+            accessedAt: 2026-10-03
+            locator: PDF pp. 1–3 front matter/collector table/methods; red-colobus accounts PDF pp. 27–28, printed pp. 177–178. Layouts viewed pp. 27–28. No full 44-page or current physical inventory audit.
+            scope:
+              zh: 六种红疣猴的限定模式身份、历史原名归属与材料边界；属与族为比较入口。
+              en: Bounded type identity, historical-name placement and material limits for six red-colobus species; genus and tribe offer comparisons.
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - journal
+            - volume
+            - issue
+            - pages
+            - publishedYear
+            - publishedAt
+            - url
+            - sourceVersion
+            - accessedAt
+            - locator
             - scope
     limitations:
       en:

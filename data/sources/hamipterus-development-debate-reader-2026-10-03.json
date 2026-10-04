@@ -1,0 +1,128 @@
+{
+  "batch": "P5-96",
+  "date": "2026-10-03",
+  "pbdbSpecies": "txn:304280",
+  "pbdbGenus": "txn:304279",
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontoidea/Hamipterus/Hamipterus_tianshanensis",
+      "newBilingualSections": 9
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontoidea/Hamipterus",
+      "newBilingualSections": 2
+    }
+  ],
+  "sources": [
+    {
+      "doi": "10.1098/rspb.2019.0409",
+      "title": "Prenatal development in pterosaurs and its implications for their postnatal locomotory ability",
+      "authors": [
+        "David Michael Unwin",
+        "D Charles Deeming"
+      ],
+      "date": "2019-06-12",
+      "publisher": "Proceedings of the Royal Society B",
+      "pages": "286(1904):20190409",
+      "license": "All rights reserved",
+      "key": "unwin2019HamipterusPrenatal",
+      "file": ".git/pterosaur-prenatal2019-primary.html",
+      "locator": "Official PMC full HTML: front authors, publication date and rights statement; all four scientific main sections Introduction, Material and methods, Results and Discussion, including textual figure captions. Supplementary tables, figures, original 2014/2017 descriptions and raw specimens not inspected. Public reader use limited to a concise independent summary of developmental inference.",
+      "referenceId": "ref-a206324b-f18d-4639-b0a1-48d9e615fd06",
+      "rawSourceSha256": "1e67789f37779ee61b8b09d1a8ecae8bdcd6ea9cd2e9ca4f50daf784e97d75fa"
+    },
+    {
+      "doi": "10.1038/s41598-021-92499-z",
+      "title": "Powered flight in hatchling pterosaurs: evidence from wing form and bone strength",
+      "authors": [
+        "Darren Naish",
+        "Mark P. Witton",
+        "Elizabeth Martin-Silverstone"
+      ],
+      "date": "2021-07-22",
+      "publisher": "Scientific Reports",
+      "pages": "11:13130",
+      "license": "CC-BY-4.0",
+      "key": "naish2021HamipterusFlightDebate",
+      "file": ".git/pterosaur-hatchling2021-primary.xml",
+      "locator": "Official Europe PMC XML: metadata; all five scientific main sections Introduction, Methods including taxon sampling, glide and bone-strength assumptions and Table 1, Results including Table 2, complete Discussion and Conclusions. Corrected main text; images, raw specimens, supplemental data and independent model calculations not inspected.",
+      "referenceId": "ref-bd571ca5-15db-43e1-8678-cd07f4dd0b0a",
+      "rawSourceSha256": "edfa145b365afb172e312c50b956d2beedf93410b6c6e108d22b01aad5344c5e"
+    },
+    {
+      "doi": "10.1038/s41598-021-96190-1",
+      "title": "Author Correction: Powered flight in hatchling pterosaurs: evidence from wing form and bone strength",
+      "authors": [
+        "Darren Naish",
+        "Mark P. Witton",
+        "Elizabeth Martin-Silverstone"
+      ],
+      "date": "2021-08-17",
+      "publisher": "Scientific Reports",
+      "pages": "11:17033",
+      "license": "CC-BY-4.0",
+      "key": "naish2021HatchlingFlightCorrection",
+      "file": ".git/pterosaur-hatchling2021-correction.xml",
+      "locator": "Official Europe PMC XML: entire front and correction body. Two citation-number corrections from reference 12 to 13; no numerical model change stated.",
+      "referenceId": "ref-28e7307b-0c0f-4812-ad43-da82ac52f727",
+      "rawSourceSha256": "02d5dbdb4d0774a767a3a9b11a819789b7ccafb3d72424b377e77267a7aeb98d"
+    }
+  ],
+  "reusedPalate": {
+    "referenceId": "ref-fc799d8a-ffe6-48e8-9b58-ac9ceff2c059",
+    "rawXmlSha256": "1ca0b8b2085a7d71b15c07d285f7295b1eb30d2c937ded28ac8202b877a46d19"
+  },
+  "boundaries": {
+    "original2014AndFull2017StudiesNotIndependentlyRead": true,
+    "existing2017ReferenceAuthorsStillIncomplete": true,
+    "embryonicStageComparativeNotIncubationDays": true,
+    "quantitative2021ModelsPrimarilyPterodaustroAndSinopterusNotHamipterus": true,
+    "modelNumbersNotTransferredToHamipterus": true,
+    "modelsNotRecalculated": true,
+    "earlyFlightDoesNotExcludeCare": true,
+    "careNotDirectlyObserved": true,
+    "ecologicalNicheShiftsHypotheses": true,
+    "correction2021OnlyTwoReferenceNumbers": true,
+    "palatalFusionNotExactAgeOrSex": true,
+    "rawCtImagesAndSpecimensNotInspected": true,
+    "countsRangesClassificationUnchanged": true
+  },
+  "maturity": {
+    "fullMonograph": false,
+    "externalExpertReview": false,
+    "activePrimateSourceGaps": 14,
+    "readerVisibleDelivery": "Pending content-phase projection/publication handoff"
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All four bilingual reader files including limits and old occurrence sections read in full; complete catalogue section pointers, four source bindings and atlas section pointers, new source keys, reference IDs and URLs read.",
+    "implementationTestsRun": false
+  },
+  "delivery": "Canonical content only; no tests, generation, commit or publication",
+  "canonicalFiles": [
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontoidea/Hamipterus/Hamipterus_tianshanensis/evidence.md",
+      "sha256": "a66a619ff3796c670f314f4f9495e9461ac55c49aa87b4b630a34eb5f8024410"
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontoidea/Hamipterus/Hamipterus_tianshanensis/page.zh.md",
+      "sha256": "8453decdac76cbf1a106d7e5525dc9c7f5d35671e21be44dfa1b438aef651c4e"
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontoidea/Hamipterus/Hamipterus_tianshanensis/page.en.md",
+      "sha256": "01a0e70e73b2655ce91c4e527adc192c4d744de5893e58c520e97793418993c2"
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontoidea/Hamipterus/evidence.md",
+      "sha256": "4c943d6cf26f90748d379fd039b91fea938c92618f20d9c1b4ddb3a598dc792a"
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontoidea/Hamipterus/page.zh.md",
+      "sha256": "3c07b02d861c0443b8f954bfd284c7da320d9c4cfb3788b813f3ad70329296b6"
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontoidea/Hamipterus/page.en.md",
+      "sha256": "452d9a289a6af53b226e7b38928447bb3e07f83d67032b830b547898911d44c1"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Washakius insignis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Washakius insignis
+      en: Washakius insignis
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Washakius insignis
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=52699&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:52699; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:52699
+            selectedOccurrenceIds:
+              - occ:168971
+              - occ:173449
+              - occ:173482
+              - occ:173507
+              - occ:173528
+              - occ:173574
+              - occ:173586
+              - occ:173605
+              - occ:173718
+              - occ:173732
+              - occ:173773
+              - occ:173902
+              - occ:174050
+              - occ:174123
+              - occ:174274
+              - occ:174434
+              - occ:174549
+              - occ:174606
+              - occ:174633
+              - occ:174640
+              - occ:174694
+              - occ:174759
+              - occ:174853
+              - occ:174873
+              - occ:174947
+              - occ:174989
+              - occ:175211
+              - occ:175219
+              - occ:175303
+              - occ:175306
+              - occ:175307
+              - occ:175313
+              - occ:175319
+              - occ:175325
+              - occ:175327
+              - occ:175329
+              - occ:175332
+              - occ:175335
+              - occ:175342
+              - occ:175343
+              - occ:175446
+              - occ:286337
+            selectedCollectionIds:
+              - col:15486
+              - col:16090
+              - col:16096
+              - col:16098
+              - col:16100
+              - col:16107
+              - col:16108
+              - col:16109
+              - col:16136
+              - col:16137
+              - col:16139
+              - col:16201
+              - col:16210
+              - col:16219
+              - col:16232
+              - col:16244
+              - col:16273
+              - col:16284
+              - col:16287
+              - col:16289
+              - col:16305
+              - col:16313
+              - col:16340
+              - col:16345
+              - col:16378
+              - col:16393
+              - col:16431
+              - col:16432
+              - col:16454
+              - col:16457
+              - col:16458
+              - col:16461
+              - col:16463
+              - col:16465
+              - col:16466
+              - col:16467
+              - col:16468
+              - col:16469
+              - col:16476
+              - col:16477
+              - col:16504
+              - col:15837
+            sourceReferenceIds:
+              - ref:3596
+              - ref:1737
+              - ref:1613
+              - ref:1404
+              - ref:2523
+              - ref:1248
+              - ref:6294
+              - ref:1749
+              - ref:2526
+              - ref:6194
+              - ref:1732
+              - ref:1777
+              - ref:7542
+            originalIdentificationMappings:
+              - occurrenceId: occ:174633
+                originalIdentifiedName: Washakius laurae
+                acceptedName: Washakius insignis
+                difference: null
+              - occurrenceId: occ:174640
+                originalIdentifiedName: Washakius laurae
+                acceptedName: Washakius insignis
+                difference: null
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Washakius insignis

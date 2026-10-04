@@ -1,0 +1,1402 @@
+{
+  "batch": "P5-179",
+  "date": "2026-10-03",
+  "newSpecies": 4,
+  "newBilingualSections": 26,
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_mayri",
+      "colId": "793B6",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_rubra",
+      "colId": "4RB9B",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_leucospila",
+      "colId": "4RB99",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_forbesi",
+      "colId": "4RB98",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula",
+      "colId": "76VV",
+      "newBilingualSections": 4,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae",
+      "newBilingualSections": 2
+    }
+  ],
+  "sharedReferenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+  "sourceFiles": [
+    {
+      "file": ".git/avonet-supplementary-dataset-1-v7.xlsx",
+      "sha256": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e"
+    },
+    {
+      "file": ".git/rallicula-selected-source-179.json",
+      "sha256": "22f52f0e25f9510de5774d60d111e753a95730ede619a5677876472dfc2c3f47"
+    },
+    {
+      "file": ".git/rallicula-col-names-179.json",
+      "sha256": "2b334e3df745225ea7f1696ef14fd1dd8faa3a18b1e66b2d4279b0dad305ea63"
+    }
+  ],
+  "colNameShardFiles": [
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-ra.jsonl.gz",
+      "sha256": "4b765cde844d91a55554ab6a906543c4101d8bd78154d6a7a5b21e0e24ae8e34"
+    }
+  ],
+  "sourceRows": [
+    {
+      "target": {
+        "colId": "793B6",
+        "scientificName": "Rallicula mayri",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_mayri",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "6223K",
+            "parentId": "V2",
+            "scientificName": "Gruiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 6
+          },
+          {
+            "id": "CPHSJ",
+            "parentId": "6223K",
+            "scientificName": "Sarothruridae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 3
+          },
+          {
+            "id": "76VV",
+            "parentId": "CPHSJ",
+            "scientificName": "Rallicula Schlegel, 1871",
+            "authorship": "Schlegel, 1871",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "parentId": "76VV",
+            "id": "793B6",
+            "scientificName": "Rallicula mayri E. J. O. Hartert, 1930",
+            "authorship": "E. J. O. Hartert, 1930",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2698,
+        "record": {
+          "Sequence": 1742,
+          "Species1": "Rallicula mayri",
+          "Family1": "Rallidae",
+          "Order1": "Gruiformes",
+          "Avibase.ID1": "AVIBASE-8F99953C",
+          "Total.individuals": 4,
+          "Female": 2,
+          "Male": 2,
+          "Unknown": 0,
+          "Complete.measures": 3,
+          "Beak.Length_Culmen": 28,
+          "Beak.Length_Nares": 15.5,
+          "Beak.Width": 5,
+          "Beak.Depth": 7.8,
+          "Tarsus.Length": 34.3,
+          "Wing.Length": 109.4,
+          "Kipps.Distance": 6.9,
+          "Secondary1": 102.5,
+          "Hand-Wing.Index": 6.3,
+          "Tail.Length": 66.8,
+          "Mass": 122.89,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": -3.82,
+          "Max.Latitude": -2.4,
+          "Centroid.Latitude": -3.42,
+          "Centroid.Longitude": 142.38,
+          "Range.Size": 12498.7
+        }
+      },
+      "eBird": {
+        "excelRow": 9078,
+        "record": {
+          "Species1": "Rallicula mayri",
+          "Species2": "Rallina mayri",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-8F99953C",
+          "Avibase.ID2": "AVIBASE-8F99953C",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 9024,
+        "record": {
+          "Species1": "Rallicula mayri",
+          "Species3": "Rallina mayri",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "4RB9B",
+        "scientificName": "Rallicula rubra",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_rubra",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "6223K",
+            "parentId": "V2",
+            "scientificName": "Gruiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 6
+          },
+          {
+            "id": "CPHSJ",
+            "parentId": "6223K",
+            "scientificName": "Sarothruridae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 3
+          },
+          {
+            "id": "76VV",
+            "parentId": "CPHSJ",
+            "scientificName": "Rallicula Schlegel, 1871",
+            "authorship": "Schlegel, 1871",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "parentId": "76VV",
+            "id": "4RB9B",
+            "scientificName": "Rallicula rubra Schlegel, 1871",
+            "authorship": "Schlegel, 1871",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2699,
+        "record": {
+          "Sequence": 1739,
+          "Species1": "Rallicula rubra",
+          "Family1": "Rallidae",
+          "Order1": "Gruiformes",
+          "Avibase.ID1": "AVIBASE-0934B6E1",
+          "Total.individuals": 2,
+          "Female": 1,
+          "Male": 0,
+          "Unknown": 1,
+          "Complete.measures": 2,
+          "Beak.Length_Culmen": 26.5,
+          "Beak.Length_Nares": 12.9,
+          "Beak.Width": 4,
+          "Beak.Depth": 6.7,
+          "Tarsus.Length": 37.5,
+          "Wing.Length": 92.5,
+          "Kipps.Distance": 5.5,
+          "Secondary1": 87,
+          "Hand-Wing.Index": 5.8,
+          "Tail.Length": 59,
+          "Mass": 81,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": -6.37,
+          "Max.Latitude": -0.87,
+          "Centroid.Latitude": -4.32,
+          "Centroid.Longitude": 139.32,
+          "Range.Size": 104309.04
+        }
+      },
+      "eBird": {
+        "excelRow": 9079,
+        "record": {
+          "Species1": "Rallicula rubra",
+          "Species2": "Rallina rubra",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-0934B6E1",
+          "Avibase.ID2": "AVIBASE-0934B6E1",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 9025,
+        "record": {
+          "Species1": "Rallicula rubra",
+          "Species3": "Rallina rubra",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "4RB99",
+        "scientificName": "Rallicula leucospila",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_leucospila",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "6223K",
+            "parentId": "V2",
+            "scientificName": "Gruiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 6
+          },
+          {
+            "id": "CPHSJ",
+            "parentId": "6223K",
+            "scientificName": "Sarothruridae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 3
+          },
+          {
+            "id": "76VV",
+            "parentId": "CPHSJ",
+            "scientificName": "Rallicula Schlegel, 1871",
+            "authorship": "Schlegel, 1871",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "parentId": "76VV",
+            "id": "4RB99",
+            "scientificName": "Rallicula leucospila (Salvadori, 1876)",
+            "authorship": "(Salvadori, 1876)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2697,
+        "record": {
+          "Sequence": 1740,
+          "Species1": "Rallicula leucospila",
+          "Family1": "Rallidae",
+          "Order1": "Gruiformes",
+          "Avibase.ID1": "AVIBASE-545ECAD4",
+          "Total.individuals": 4,
+          "Female": 2,
+          "Male": 2,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 24,
+          "Beak.Length_Nares": 13.1,
+          "Beak.Width": 4.5,
+          "Beak.Depth": 8,
+          "Tarsus.Length": 36.3,
+          "Wing.Length": 106.8,
+          "Kipps.Distance": 1.4,
+          "Secondary1": 105.4,
+          "Hand-Wing.Index": 1.3,
+          "Tail.Length": 64,
+          "Mass": 120,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": -2.9,
+          "Max.Latitude": -0.44,
+          "Centroid.Latitude": -1.11,
+          "Centroid.Longitude": 133.31,
+          "Range.Size": 16734.29
+        }
+      },
+      "eBird": {
+        "excelRow": 9077,
+        "record": {
+          "Species1": "Rallicula leucospila",
+          "Species2": "Rallina leucospila",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-545ECAD4",
+          "Avibase.ID2": "AVIBASE-545ECAD4",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 9023,
+        "record": {
+          "Species1": "Rallicula leucospila",
+          "Species3": "Rallina leucospila",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "4RB98",
+        "scientificName": "Rallicula forbesi",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_forbesi",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "6223K",
+            "parentId": "V2",
+            "scientificName": "Gruiformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 6
+          },
+          {
+            "id": "CPHSJ",
+            "parentId": "6223K",
+            "scientificName": "Sarothruridae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 3
+          },
+          {
+            "id": "76VV",
+            "parentId": "CPHSJ",
+            "scientificName": "Rallicula Schlegel, 1871",
+            "authorship": "Schlegel, 1871",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "parentId": "76VV",
+            "id": "4RB98",
+            "scientificName": "Rallicula forbesi Sharpe, 1887",
+            "authorship": "Sharpe, 1887",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 2696,
+        "record": {
+          "Sequence": 1741,
+          "Species1": "Rallicula forbesi",
+          "Family1": "Rallidae",
+          "Order1": "Gruiformes",
+          "Avibase.ID1": "AVIBASE-5AD47186",
+          "Total.individuals": 6,
+          "Female": 2,
+          "Male": 4,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 29.4,
+          "Beak.Length_Nares": 15.8,
+          "Beak.Width": 4.4,
+          "Beak.Depth": 7.5,
+          "Tarsus.Length": 38.3,
+          "Wing.Length": 106.7,
+          "Kipps.Distance": 6.4,
+          "Secondary1": 99.1,
+          "Hand-Wing.Index": 6,
+          "Tail.Length": 56.8,
+          "Mass": 85.13,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Forest",
+          "Habitat.Density": 1,
+          "Migration": 1,
+          "Trophic.Level": "Carnivore",
+          "Trophic.Niche": "Invertivore",
+          "Primary.Lifestyle": "Terrestrial",
+          "Min.Latitude": -10.42,
+          "Max.Latitude": -3.34,
+          "Centroid.Latitude": -5.77,
+          "Centroid.Longitude": 142.72,
+          "Range.Size": 196864.35
+        }
+      },
+      "eBird": {
+        "excelRow": 9076,
+        "record": {
+          "Species1": "Rallicula forbesi",
+          "Species2": "Rallina forbesi",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-5AD47186",
+          "Avibase.ID2": "AVIBASE-5AD47186",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 9022,
+        "record": {
+          "Species1": "Rallicula forbesi",
+          "Species3": "Rallina forbesi",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    }
+  ],
+  "colNameRecords": [
+    {
+      "normalizedName": "rallicula forbesi sharpe 1887",
+      "id": "4RB98",
+      "scientificName": "Rallicula forbesi Sharpe, 1887",
+      "authorship": "Sharpe, 1887",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "76VV",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Gruiformes",
+        null,
+        "Sarothruridae",
+        null,
+        null,
+        null,
+        "Rallicula"
+      ]
+    },
+    {
+      "normalizedName": "rallicula leucospila salvadori 1876",
+      "id": "4RB99",
+      "scientificName": "Rallicula leucospila (Salvadori, 1876)",
+      "authorship": "(Salvadori, 1876)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "76VV",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Gruiformes",
+        null,
+        "Sarothruridae",
+        null,
+        null,
+        null,
+        "Rallicula"
+      ]
+    },
+    {
+      "normalizedName": "rallicula mayri e j o hartert 1930",
+      "id": "793B6",
+      "scientificName": "Rallicula mayri E. J. O. Hartert, 1930",
+      "authorship": "E. J. O. Hartert, 1930",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "76VV",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Gruiformes",
+        null,
+        "Sarothruridae",
+        null,
+        null,
+        null,
+        "Rallicula"
+      ]
+    },
+    {
+      "normalizedName": "rallicula rubra schlegel 1871",
+      "id": "4RB9B",
+      "scientificName": "Rallicula rubra Schlegel, 1871",
+      "authorship": "Schlegel, 1871",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "76VV",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Gruiformes",
+        null,
+        "Sarothruridae",
+        null,
+        null,
+        null,
+        "Rallicula"
+      ]
+    },
+    {
+      "normalizedName": "rallina forbesi sharpe 1887",
+      "id": "4RB9G",
+      "scientificName": "Rallina forbesi (Sharpe, 1887)",
+      "authorship": "(Sharpe, 1887)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "4RB98",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "rallina leucospila salvadori 1876",
+      "id": "4RB9H",
+      "scientificName": "Rallina leucospila (Salvadori, 1876)",
+      "authorship": "(Salvadori, 1876)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "4RB99",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "rallina mayri e j o hartert 1930",
+      "id": "4RB9J",
+      "scientificName": "Rallina mayri (E. J. O. Hartert, 1930)",
+      "authorship": "(E. J. O. Hartert, 1930)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "793B6",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "rallina rubra schlegel 1871",
+      "id": "4RB9K",
+      "scientificName": "Rallina rubra (Schlegel, 1871)",
+      "authorship": "(Schlegel, 1871)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "4RB9B",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    }
+  ],
+  "fieldDefinitions": [
+    {
+      "excelRow": 12,
+      "record": {
+        "Variable": "Total.individuals",
+        "Description": "Number of individual specimens and live birds measured for each species",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 13,
+      "record": {
+        "Variable": "Female",
+        "Description": "Number of measured individuals identified as female",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 14,
+      "record": {
+        "Variable": "Male",
+        "Description": "Number of measured individuals identified as male",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 15,
+      "record": {
+        "Variable": "Unknown",
+        "Description": "Number of unsexed individuals measured",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 16,
+      "record": {
+        "Variable": "Complete.measures",
+        "Description": "Number of measured individuals with complete set of morphometric trait measurements ",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 18,
+      "record": {
+        "Variable": "Beak.Length_Nares",
+        "Description": "Length from the anterior edge of the nostrils to the tip of the beak",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 19,
+      "record": {
+        "Variable": "Beak.Width",
+        "Description": "Width of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 22,
+      "record": {
+        "Variable": "Wing.Length",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the longest primary on the unflattened wing",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 25,
+      "record": {
+        "Variable": "Hand-Wing.Index",
+        "Description": "100*DK/Lw, where DK is Kipp’s distance and Lw is wing length (i.e., Kipp’s distance corrected for wing size). Species average HWI differ from estimates in Sheard et al. (2020) because of much higher sampling of individuals in some species, as well as taxonomic effects in the BirdLife list",
+        "Variable Types": "continuous",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 27,
+      "record": {
+        "Variable": "Mass",
+        "Description": "Body mass given as species average (incorporating both male and female body mass)",
+        "Variable Types": "continuous",
+        "Units": "gram",
+        "Source": "See Mass Source column"
+      }
+    },
+    {
+      "excelRow": 28,
+      "record": {
+        "Variable": "Mass.Source",
+        "Description": "Dunning (= Dunning, JB [2008] CRC Handbook of Avian Body Masses);\nEltonTraits_Other (= mass published by Wilman et al. 2014 EltonTraits 1.0. Ecology, on basis of literature other than Dunning, usually Handbook of the Birds of the World [now Birds of the World, Cornell])\nEltonTraits_GenAvg (= average of the genus, published in Wilman et al. 2014 EltonTraits 1.0. Ecology); \nEltonTraits_Model (= inferred from mass and length data, with mass-length relationships parameterized at family level, published in Wilman et al. 2014 EltonTraits 1.0. Ecology);\nUpdated_literature (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from literature and online resources, including Birds of the World - specific sources are listed in the Mass.Ref.Source column);  \nUpdated_live.sample (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from museum labels and/or field data of from wild birds weighed using a Pezola balance before release. Specific sources are listed in the Mass.Ref.Source column);  \nInferred (= where EltonTraits GenAvg or Modelled data seemed misleading, and no published data were available for updating, we replaced it where possible with data inferred directly from a morphologically similar relative. Reference species and Traits inferred columns indicate where mass has been inferred and from which species);\nDataFromSplit (= daughter species body mass inferred from parent species after split; the parent or nominate form is typically morphologically similar and provides a reasonable estimate of body mass, particularly as mass data used to calculate the parent species body mass in earlier publications sometimes includes data from the recently split daughter species).\n",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 30,
+      "record": {
+        "Variable": "Inference",
+        "Description": "NO = all biometric trait data were obtained from direct measurement of specimens, or in the case of body mass from published sources\nYES = at least some of the biometric traits were unavailable from specimens so these trait data were inferred from a closely related species; in some cases all morphological measurements were taken directly except for body mass, which can't be measured on museum specimens.",
+        "Variable Types": "binary",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 33,
+      "record": {
+        "Variable": "Habitat",
+        "Description": "Desert (= drylands and other open arid habitats, often sandy with very sparse vegetation); \nRock (= rocky substrate typically with no or very little vegetation, including rocky outcrops, rocky coastlines, arid stony steppes, rocky mountaintops and mountain slopes); \nGrassland (=  open dry to moist grass-dominated landscapes, at all elevations); \nShrubland (= low stature bushy habitats, included thornscrub, thorny or arid savanna, caatinga, xerophytic shrubland and coastal scrub); \nWoodland (= medium stature tree-dominated habitats, including Acacia woodland, riparian woodlands, mangrove forests, forest edges, also more open parkland with scattered taller trees);\nForest (= tall tree-dominated vegetation with more or less closed canopy, including palm forest); \nHuman modified (urban landscapes, intensive agriculture, gardens); \nWetland (= wide range of freshwater aquatic habitats including lakes, marshes, swamps and reedbeds); \nRiverine (= associated with rivers and streams at all elevations); \nCoastal (= intertidal zones within immediate vicinity of beaches, estuaries, brackish to salty marshes, including mudflats, lagoons, alkaline wetlands, coastal dunes and harbours);\nMarine (= pelagic, on sea near coasts, including species in the intertidal zone on beaches, and those pelagic species nesting near the sea on cliffs, islets and islands).",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Data extracted from primary and secondary literature, particularly Handbook of the Birds of the World (including Birds of the World)"
+      }
+    },
+    {
+      "excelRow": 34,
+      "record": {
+        "Variable": "Habitat.Density",
+        "Description": "1 = Dense habitats. Species primarily lives in the lower or middle storey of forest, or in dense thickets, dense shrubland etc.\n2 = Semi-open habitats. Species primarily lives in open shrubland, scattered bushes, parkland, low dry or deciduous forest, thorn forest. \n3 = Open habitats. Species primarily lives in desert, grassland, open water, low shrubs, rocky habitats, seashores, cities. Also applies to species living mainly on top of forest canopy (i.e. mostly in the open)",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias et al. (2016) Frontiers Ecol. Evol."
+      }
+    },
+    {
+      "excelRow": 35,
+      "record": {
+        "Variable": "Migration",
+        "Description": "1 = Sedentary. \n2 = Partially migratory, i.e. minority of population migrates long distances, or most of population undergoes short-distance migration, nomadic movements, distinct altitudinal migration, etc.\n3 = Migratory, i.e. majority of population undertakes long-distance migration",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias & Pigot (2019) Phil. Trans. Roy. Soc."
+      }
+    },
+    {
+      "excelRow": 36,
+      "record": {
+        "Variable": "Trophic.Level",
+        "Description": "Herbivore = species obtaining at least 70% of food resources from plants; Carnivore = species obtaining at least 70% of food resources by consuming live invertebrate or vertebrate animals; Scavenger = species obtaining at least 70% of food resources from carrion or refuse; Omnivore = species obtaining resources from multiple trophic level in roughly equal proportion",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 37,
+      "record": {
+        "Variable": "Trophic.Niche",
+        "Description": "Frugivore = species obtaining at least 60% of food resources from fruit; \nGranivore = species obtaining at least 60% of food resources from seeds or nuts; \nNectarivore =  species obtaining at least 60% of food resources from nectar; \nHerbivore = species obtaining at least 60% of food resources from other plant materials in non-aquatic systems, including leaves, buds, whole flowers etc.; \nHerbivore aquatic = species obtaining at least 60% of food resources from plant materials in aquatic systems, including algae and aquatic plant leaves; \nInvertivore = species obtaining at least 60% of food resources from invertebrates in terrestrial systems, including insects, worms, arachnids, etc.; \nVertivore = species obtaining at least 60% of food resources from vertebrate animals in terrestrial systems, including mammals, birds, reptiles etc.; \nAquatic Predator = species obtaining at least 60% of food resources from vertebrate and invertebrate animals in aquatic systems, including fish, crustacea, molluscs, etc; \nScavenger = species obtaining at least 60% of food resources from carrion, offal or refuse; Omnivore = Species using multiple niches, within or across trophic levels, in relatively equal proportions ",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 38,
+      "record": {
+        "Variable": "Primary.Lifestyle",
+        "Description": "Aerial = species spends much of the time in flight, and hunts or forages predominantly on the wing; \nTerrestrial = species spends majority of its time on the ground, where it obtains food while either walking or hopping (note this includes species that also wade in water with their body raised above the water); \nInsessorial = species spends much of the time perching above the ground, either in branches of trees and other vegetation (i.e. arboreal), or on other raised substrates including rocks, buildings, posts, and wires; \nAquatic = species spends much of the time sitting on water, and obtains  food while afloat or when diving under the water's surface; Generalist = species has no primary lifestyle because it spends time in different lifestyle classes",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 17,
+      "record": {
+        "Variable": "Beak.Length_Culmen",
+        "Description": "Length from the tip of the beak to the base of the skull",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 20,
+      "record": {
+        "Variable": "Beak.Depth",
+        "Description": "Depth of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 21,
+      "record": {
+        "Variable": "Tarsus.Length",
+        "Description": "Length of the tarsus from the posterior notch between tibia and tarsus, to the end of the last scale of acrotarsium (at the bend of the foot)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 23,
+      "record": {
+        "Variable": "Kipps.Distance",
+        "Description": "Length from the tip of the first secondary feather to the tip of the longest primary      ",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 24,
+      "record": {
+        "Variable": "Secondary1",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the first secondary, i.e. the outermost secondary adjacent to the innermost primary feather. Secondary1 is roughly equivalent to Wing length minus Kipp’s distance (measured in a fully folded and flat wing)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 26,
+      "record": {
+        "Variable": "Tail.Length",
+        "Description": "Distance between the tip of the longest rectrix and the point at which the two central rectrices protrude from the skin, typically measured using a ruler inserted between the two central rectrices",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 31,
+      "record": {
+        "Variable": "Traits.inferred",
+        "Description": "List of traits inferred from the reference species",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 32,
+      "record": {
+        "Variable": "Reference.species",
+        "Description": "Species from which the biometric data were inferred",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    }
+  ],
+  "readingScope": "Four morphology/mass/ecology rows, full crosswalks, eight related catalogue names and relevant definitions. Not the whole workbook, specimens, original mass book or a new full methods-paper reading.",
+  "retainedBoundaries": {
+    "fourExactRallinaSynonyms": true,
+    "sourceRallidaeCurrentSarothruridaeSeparate": true,
+    "rubraTwoBirdsOneFemaleZeroMaleOneUnsexedTwoComplete": true,
+    "morphologyAndDunningMassSeparate": true,
+    "lowHandWingIndexNotFlightlessness": true,
+    "fourTerrestrialForestDenseSedentary": true,
+    "noMeasuredDietOrWadingInvented": true,
+    "noGeographicFieldsInterpreted": true,
+    "historicalGuidesNotCompleteMonographs": true,
+    "activePrimateGaps": 14,
+    "fixedAcceptedPrimateDenominator": 530
+  },
+  "intakeBeforeIncrementalCounts": {
+    "indexExists": 694,
+    "bilingualCatalogueProfileMarkers": 691,
+    "missingOneOrBothCatalogueProfileMarkers": 6482,
+    "scope": "Original 7173 observation plus 326 authored species in P5-143–178; no new whole-corpus prose review."
+  },
+  "intakeAfterIncrementalCounts": {
+    "indexExists": 698,
+    "bilingualCatalogueProfileMarkers": 695,
+    "missingOneOrBothCatalogueProfileMarkers": 6478,
+    "scope": "Original 7173 observation plus 330 authored species in P5-143–179; no new whole-corpus prose review."
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All 26 new sections in both languages, all six profile limits and two prior family sections were read after writing. Read six indices, all section topic/source/text vectors, new and retained reference bindings and limitation pointers, five bounded new projection entries, P5-179 plan, intake followups and receipt metadata. Four source rows, full eBird/BirdTree crosswalks, eight related catalogue names and relevant field definitions were read before authoring. Four exact Rallina synonyms remain distinct from proven species-concept identity; source Rallidae remains separate from current Sarothruridae. rubra two birds/one female/zero male/one unsexed/two complete does not mean an all-female sample. mayri four/three complete, leucospila four/four and forbesi six/four retain separate morphology and Dunning mass denominators. Low hand-wing index does not establish flightlessness, and shared Terrestrial/Forest/density 1/migration 1/Invertivore/Carnivore codes supply no measured diet or observed wading. Editorial reading is not generation, tests, whole-corpus validation or expert review.",
+    "canonicalFiles": [
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_mayri/index.yaml",
+        "sha256": "34f91f3cb771395b98337cb3fa38f15db6f5edb590ddf022465fe7235ce119bf"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_mayri/evidence.md",
+        "sha256": "f3ae904b21a6282a24d3f3fb2a473ecfa093d307d841368ef1b88c91f3f48303"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_mayri/page.zh.md",
+        "sha256": "515b093e414c1af3e4b815f1e9b8e07965943300892072a2ec69ff4cd749037d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_mayri/page.en.md",
+        "sha256": "e322c46bf63eaa8d4eeaf65bcf372694dbe88ff2f096a883af154be7e88f2d18"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_rubra/index.yaml",
+        "sha256": "a7df4a9b720d529c668c22a1f7ee1e83d3d16d73e1dd73218af442d1669fdb6e"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_rubra/evidence.md",
+        "sha256": "d6d33f6fc56a2e6c097a1abdbe8f3b2c48e03e30a98f122b5bd6c16fbacf9d54"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_rubra/page.zh.md",
+        "sha256": "1799837b4966b9fc8e2609b261675b3365ed05c79cff1d1d345d8d78f934879b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_rubra/page.en.md",
+        "sha256": "62502247183a36e5a063383872f3dfca5b5f7b625417e14202f02587bab95d71"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_leucospila/index.yaml",
+        "sha256": "9de1b93dfdf2e936082dcf2729d26d703672a223730d0d103fededf937984ebf"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_leucospila/evidence.md",
+        "sha256": "66dc86609e4a123d16211859513f6a092d08d0b92e1e07a5d4099f684607221c"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_leucospila/page.zh.md",
+        "sha256": "564c5e1de2fef0dce67643595365bd656863a3095cd04404638525d6b8dd595e"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_leucospila/page.en.md",
+        "sha256": "ae5b0d58936a3eb6801fbe5c0074506b8f3bee23f067370e59e96c184e74d8f0"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_forbesi/index.yaml",
+        "sha256": "877f7594a23030ba116dfb5a39343e282351206ecbda3f37fd194c158e84f03a"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_forbesi/evidence.md",
+        "sha256": "aee5f1d4cc7db5ebdfa1d1dfa38769e62f1ed1aa662d2147ed6abe48bd595323"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_forbesi/page.zh.md",
+        "sha256": "67ebffc004ed6426cade4c0be66fbaa7da463fd8d411567a9dc1df97f5acb4b2"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/Rallicula_forbesi/page.en.md",
+        "sha256": "c9c1aed093f6c06aad5b3a78b5211fe5720d7c0b9d97db28fb93fee12f5d6ef6"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/index.yaml",
+        "sha256": "2e3fe194a149e1c23ac15705e497545bb34260fce937ca19db9b3e0e876a7059"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/evidence.md",
+        "sha256": "5741b53ea38324066ba4595d03f5f4566dab8f8b87fd361b850850d74a915ade"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/page.zh.md",
+        "sha256": "3c27051e26b6d46fee4ffb8d7214e106838dd1cbabe2993dc499e5ed65ee9a7e"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/Rallicula/page.en.md",
+        "sha256": "05cb7cc6bf15a38014bc1de08eccb024ef9574383f4a7a8c280ea53751ea0cca"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/evidence.md",
+        "sha256": "1158c92c489a064b04277d887663ff9a9073395e020366f1c0f0650389e13a20"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/page.zh.md",
+        "sha256": "cf3963a5362722534064c8a33802db6c8c97f34cbc7df9f046c83ab6c617e9c1"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Gruiformes/Sarothruridae/page.en.md",
+        "sha256": "d6a44be0e307ac5adea56884227011d42cdfa7fa97a9e81bebc84023b3d68c69"
+      },
+      {
+        "path": "content/projection-map.yaml",
+        "sha256": "ba281a0469be899f916e23142a3a666b8883d0f15d0c3925d4357896e4ac6951"
+      },
+      {
+        "path": "docs/content-production-plan.md",
+        "sha256": "221af59e5a414cea0f3f3ee57f85d96f55744d3b4e78b769d2ac50731969cf29"
+      },
+      {
+        "path": "data/sources/col-unrepresented-reader-intake-2026-10-03.json",
+        "sha256": "3e2c86bc054a2ff71aa92e5813594bc40e10f5eb84ba7a7fa38df4fdd58af93b"
+      },
+      {
+        "path": "data/sources/avonet-name-crosswalk-intake-2026-10-03.json",
+        "sha256": "422b96ee60feef8831940559be24151f0b1e323c231f3ea80367cedd6f80d9a7"
+      }
+    ]
+  },
+  "delivery": "Canonical inputs authored; tests, generation, commit and publication deferred until all content completion."
+}

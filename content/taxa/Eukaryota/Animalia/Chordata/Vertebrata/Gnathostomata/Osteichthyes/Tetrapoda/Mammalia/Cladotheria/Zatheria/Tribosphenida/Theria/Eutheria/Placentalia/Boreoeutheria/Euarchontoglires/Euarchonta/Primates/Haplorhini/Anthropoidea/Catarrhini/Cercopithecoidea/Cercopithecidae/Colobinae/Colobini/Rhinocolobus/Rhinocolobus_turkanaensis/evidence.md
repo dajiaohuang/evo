@@ -1,0 +1,263 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Rhinocolobus turkanaensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Rhinocolobus turkanaensis
+      en: Rhinocolobus turkanaensis
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Rhinocolobus turkanaensis
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=430281&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:430281; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:430281
+            selectedOccurrenceIds:
+              - occ:212354
+              - occ:212495
+              - occ:212621
+              - occ:212834
+              - occ:212844
+              - occ:212845
+              - occ:212846
+              - occ:212847
+              - occ:212848
+              - occ:212849
+              - occ:212853
+              - occ:212857
+              - occ:212859
+              - occ:212860
+              - occ:212861
+              - occ:212862
+              - occ:212863
+              - occ:213316
+              - occ:213353
+              - occ:213388
+              - occ:214261
+              - occ:214262
+              - occ:216742
+              - occ:216744
+              - occ:216746
+              - occ:216747
+              - occ:216749
+              - occ:216750
+              - occ:222078
+              - occ:222293
+              - occ:223387
+              - occ:223413
+              - occ:223594
+              - occ:223612
+              - occ:223658
+              - occ:223719
+              - occ:223749
+              - occ:223842
+              - occ:223864
+              - occ:223874
+              - occ:223909
+              - occ:223926
+              - occ:223949
+              - occ:224018
+              - occ:224062
+              - occ:224094
+              - occ:224107
+              - occ:224120
+              - occ:224142
+              - occ:224148
+              - occ:224176
+              - occ:224227
+              - occ:224265
+              - occ:224311
+              - occ:224337
+              - occ:226564
+              - occ:226603
+            selectedCollectionIds:
+              - col:21398
+              - col:21457
+              - col:21504
+              - col:21553
+              - col:21605
+              - col:21608
+              - col:21614
+              - col:21617
+              - col:21618
+              - col:21626
+              - col:21632
+              - col:21640
+              - col:21657
+              - col:21675
+              - col:21682
+              - col:21684
+              - col:21754
+              - col:21783
+              - col:21785
+              - col:21964
+              - col:21994
+              - col:22009
+              - col:22017
+              - col:22030
+              - col:22031
+              - col:22034
+              - col:21394
+              - col:21418
+              - col:21555
+              - col:21561
+              - col:21607
+              - col:21621
+              - col:21625
+              - col:21633
+              - col:21634
+              - col:21642
+              - col:21647
+              - col:21663
+              - col:21668
+              - col:21670
+              - col:21671
+              - col:21674
+              - col:21681
+              - col:21741
+              - col:21747
+              - col:21755
+              - col:22022
+            sourceReferenceIds:
+              - ref:4447
+              - ref:4730
+              - ref:4769
+              - ref:4768
+              - ref:5263
+              - ref:4847
+              - ref:4782
+              - ref:4764
+              - ref:4763
+              - ref:4774
+              - ref:5282
+              - ref:4773
+              - ref:4733
+              - ref:4735
+              - ref:4486
+            originalIdentificationMappings: []
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Rhinocolobus turkanaensis

@@ -7,14 +7,28 @@ status: migrated-verbatim
 
 # Piliocolobus bouvieri
 
-## distribution_habitat
+
+## likualae 原名下的正模与副模
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
+2024 年目录将原名 Colobus (Tropicolobus) likualae Matschie, 1914 放在 Piliocolobus bouvieri (Rochebrune, 1887) 下。likualae 正模为 ZMB 17977／17978（旧号 A 108.14.186），成年雌性、头骨与皮张，Escherich 1913 年采于 Sangha 河、Likouala 河口对岸、今刚果共和国。该材料固定 likualae 原名，不能换写成 bouvieri 1887 年原名正模，也不由历史地点生成精确坐标或当代分布边界。
+<!-- /evo:text -->
+
+## 副模是两只幼年雌性
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+目录列出两只副模：ZMB 17979／17980 为一只幼年雌性的头骨与皮张，ZMB 17974–17976 为另一只幼年雌性的头骨、皮张与部分骨架。五个部位号不是五只副模动物。成年正模与两只幼年副模的保存材料不能直接支持成长曲线、成年体型统计或野外性别比例；这里未重新读 1914 年描述、检查原标签或观察这些实物。
+<!-- /evo:text -->
+
+## 分布与栖地
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
 刚果共和国 Lefini 与 Lesio-Louna 保护区的一项 2016 年大型哺乳动物调查，在观察者沿 Lesio-Louna 偏远河段行进时记录到一个群体。论文指出，此前调查在 20 世纪 70 年代初之后未再记录该种。这次遭遇是局地记录，不是种群估计或分布图。
 <!-- /evo:text -->
 
-## catalogue-profile / limitations
+## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
 来源仅报告 2016 年调查中一个偏远地点的一个群体；本页没有建立当前分布或种群数量。 本页为有来源的初稿，尚未经过外部领域专家评审。
+新增段落依据 Turni 2024 年柏林灵长类模式目录首页、采集者表与方法（PDF 1–3 页）及红疣猴条目（PDF 27–28 页，印刷页 177–178）；已查看后两页版面。未全读 44 页、重新阅读 1900／1914 年原描述、检查标本实物／原标签或查询实时库存。目录有效名、历史原名、部位号与固定 COL26.8 概念分别保留，不从类型身份推出野外归属、食性、种群数量或保育趋势；lulindicus 首轮缺口仍开放，无完整种志或外部专家审评。
 <!-- /evo:text -->

@@ -7,26 +7,88 @@ status: migrated-verbatim
 
 # Mirza coquereli
 
-## overview
+## 概览
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
 COL26.8 接受 Mirza coquereli (A. Grandidier, 1867) 为种级 ID 43MKJ，隶属属级 ID 5TQ2；MDD v2.5 提供英文显示名 Coquerel’s Giant Mouse Lemur。下列野外证据来自一个取样种群和另一项 Zombitse-Vohibasia 样线研究，不是全分布区调查。
 <!-- /evo:text -->
 
-## socialEcology
+## 社会生态研究
 
 <!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
 一项针对单一种群的遗传与行为研究发现，共享线粒体单倍型的雌性在空间上聚集。部分雌性会迁移，但研究没有发现外来雌性成功定居的证据。雄性为寻找发情雌性而广泛活动，父权分布在多个雄性之间；作者将这一模式描述为争夺式竞争多配制。结果仅描述该样本种群，不代表本种所有种群。
 <!-- /evo:text -->
 
-## canopySurvey
+## 树冠调查
 
 <!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
 Zombitse-Vohibasia 国家公园的夜间样线调查于 2021 年 12 月至 2022 年 6 月开展。完整调查里程为 342 公里；筛选后的分析保留 258 公里和 1,500 条观察记录，其中包括 123 条 Mirza coquereli 记录。首次发现高度平均为 5.23 ± 0.19 米，与该调查中的 Cheirogaleus medius 相近。样线设在公园可达区域，并未设计为覆盖全部栖息地类型。
 <!-- /evo:text -->
 
-## catalogue-profile / limitations
+## 2015 年生活史条目与这个名称
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+Mirza coquereli 在固定 COL26.8 中为接受种，位于 Cheirogaleidae。本页对读生活史档案中的同名历史条目；选用 7 个焦点字段，每个字段在同名、同科、种级的 sparse table 行中有带引用标签的资料支持。汇总值仍可能含历史分类继承，不能按行名直接消除这一影响。
+<!-- /evo:text -->
+
+## 体重字段的不同阶段
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+历史条目的汇总值为：成年体重 311.2 g；出生或孵化时体重 14.5 g。成年字段可整合雄性、雌性和性别未说明的材料；出生／孵化字段描述另一生活阶段。两者不是同一组个体的连续追踪，也不提供全物种个体体重范围。
+<!-- /evo:text -->
+
+## 繁殖与成长的时间尺度
+
+<!-- evo:text /records/catalogue-profile/sections/5/text/zh -->
+可用的汇编字段是：雌性成熟字段（源定义为首次受孕年龄） 343.74 d；每窝幼体数或卵数 1.71 个；受孕或受精至出生的时间 89 d；转而依靠非母乳食物的年龄 136 d。d 表示天。每窝字段整合幼体数或卵数，汇总后的非整数不表示某一次实际产出分数个体；各时间字段指向不同事件，不能互换为统一的“繁殖周期”。
+<!-- /evo:text -->
+
+## 最长记录与通常寿命不同
+
+<!-- evo:text /records/catalogue-profile/sections/6/text/zh -->
+档案的 maximum_longevity_y 字段为 17.4 年，按源方法取搜集资料中的最大记录。它不表示通常寿命、野外平均寿命、所有个体的生存上限或仍可重复达到的当前记录。
+<!-- /evo:text -->
+
+## 这些数值怎样追到出处
+
+<!-- evo:text /records/catalogue-profile/sections/7/text/zh -->
+同名原始行的引用标签包括 Jones, K., Bielby, J., Cardillo, M. et al., 2009；de Magalhaes and Costa, 2009；Ernest et al., 2003；Carey, J.R. and D.S. Judge, 2002 等。每字段的原始行号、值和引用标签，以及汇总表的完整引用说明，保存在本批来源档案中。一个标签可代表原始论文，也可代表书籍或其他数据库；条目数不是被测个体数，引用重复也不构成独立重复实验。
+<!-- /evo:text -->
+
+## 从食物和觅食位置读这个历史条目
+
+<!-- evo:text /records/catalogue-profile/sections/8/text/zh -->
+Mirza coquereli 在固定 COL26.8 中为 Cheirogaleidae 的接受种。本页对读 EltonTraits 1.0 中的同名同科条目，采用 3 类具有来源说明的取食生态字段。来源采用较早的鸟类或 MSW3 哺乳类分类，不能据同名关联直接解决现代拆分或异名争议。
+<!-- /evo:text -->
+
+## 食物类别的相对权重
+
+<!-- evo:text /records/catalogue-profile/sections/9/text/zh -->
+档案给出的非零食物权重是：无脊椎动物 60%；未细分的脊椎动物 10%；果实 10%；种子、坚果及该类别包含的孢子 10%；其他植物材料（源类别也包含真菌） 10%。源代码 ABC 合并较高、合理和一定程度的信心；某些估计还可能借用被认为生态相近的同属物种，不能将 ABC 改写为本种直接观测。这些百分数来自对文字描述的标准化解读，不是实测食物组成；零值不证明该类别永远不被取食。Nect、Seed、PlantO 等类别比日常名称更宽，不能自动改写为只吃花蜜、种子或植物。
+<!-- /evo:text -->
+
+## 哺乳类的取食层位归类
+
+<!-- evo:text /records/catalogue-profile/sections/10/text/zh -->
+原条目归入 Ar：树栖型；源代码 A 表示编者对来源和归类有信心。元数据将这类哺乳动物层位归类共同追溯到 Nowak（1999）。这是一项类别判断，不是各层位的时间百分比，也不代表该物种只在这个位置活动。
+<!-- /evo:text -->
+
+## 活动时段的并列记录
+
+<!-- evo:text /records/catalogue-profile/sections/11/text/zh -->
+档案将 夜间 取食活动记为 1。不同字段可同时为 1；它们不是相加为全天的时间比例，也不表示每天、各季节和所有地点都有相同安排。活动可信度为 ABC，仍可能参考生态相近的同属材料；未以属／科典型活动字段补值。
+<!-- /evo:text -->
+
+## 逐类字段追到原引用
+
+<!-- evo:text /records/catalogue-profile/sections/12/text/zh -->
+采用字段的出处标签为 Ref_82、metadata:Nowak1999、Ref_1。食性、层位和活动可能来自不同材料；相同 Ref 编号在鸟类和哺乳类引用表中并非同一来源。本批档案按文件、原行号、字段组和所属引用表保存完整原字符串。底层书籍和论文尚未逐项阅读，引用标签不作为新增独立观察或专家审评。
+<!-- /evo:text -->
+
+## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
 遗传与社会行为结论来自一个种群，冠层测量则来自一座国家公园内的选定样线。调查记录不等于独立个体数；这些研究也没有估算当前全物种数量或分布。中文显示名为编辑用名。本页没有新增 dossier，也未经过外部领域专家评审。
+本批使用 2015 年生活史档案的历史同名记录。除最长寿命字段取所见最大记录外，数值按汇编中位数或两个中间值的平均数报告；它们不是单一个体的直接测量、个体变异范围、野外平均寿命或当前种群调查。原始汇编可能在历史种与亚种之间共享和继承数据；同名、同科和存在同名原始行，只提供本页关联依据，不能证明与 COL26.8 概念等同，也未剔除汇总中的所有继承成分。野外或圈养条件没有由本页统一确认，底层原文尚未逐篇复核。食性、行为、当前分布、保护状态及其他缺失字段仍需另有来源，不计完整专论或外部专家评审。
+本批是 EltonTraits 1.0 历史同名同科条目的取食生态导读，不是完整物种专论。相同名称和分类位置不证明来源的历史种概念与 COL26.8 完全等同。食物和鸟类觅食层位的百分数是作者把文献描述标准化得到的粗略相对权重，不是胃内容物、摄食量、能量或观察时间的直接测量。鸟类 A/B 食性仍有来源与相对比例不确定性；哺乳类 ABC 食性或活动字段还可能参考被作者认为生态相近的同属物种，本页不宣称所有字段来自本种直接观察。属／科典型值、鸟类非物种级层位以及需单独复核的拆分记录未用来补确定结论。原始书籍和论文尚未逐项重读，历史引用也不代表外部专家审评；个体、季节、地点差异、当前分布、种群和保护状况仍需其他来源。
 <!-- /evo:text -->

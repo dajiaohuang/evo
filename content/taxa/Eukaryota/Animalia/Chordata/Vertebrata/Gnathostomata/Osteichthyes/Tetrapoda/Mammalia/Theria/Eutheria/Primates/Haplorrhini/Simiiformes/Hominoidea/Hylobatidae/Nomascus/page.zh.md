@@ -7,14 +7,28 @@ status: migrated-verbatim
 
 # Nomascus
 
-## overview
+## 概览
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
 这条阅读路径连接固定 COL26.8 灵长类名录中的七个 Nomascus 种级 ID：五篇新写的野外研究导读，以及既有的北白颊长臂猿和高北白颊长臂猿页面。可先比较 Veun Sai–Siem Pang 的链锯噪声观察、无量山的多雌群研究与 Cát Tiên 的季节性活动范围，再读海南霸王岭栖息地模型和 Trường Sơn 的南白颊长臂猿调查；最后对照高北白颊长臂猿的跨境调查与北白颊长臂猿的圈养发声资料。研究地点、年份、方法及样本各不相同，本页不是属级生态综合或分类修订。
 <!-- /evo:text -->
 
-## catalogue-profile / limitations
+## 按生活史字段选择对读页面
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+Nomascus 的本批路线包含 4 条历史生活史导读，可从 Nomascus concolor、Nomascus gabriellae、Nomascus leucogenys、Nomascus siki 开始。较多条目具有的字段包括 成年体重（4 条）、雌性成熟字段（源定义为首次受孕年龄）（4 条）、每窝幼体数或卵数（4 条）、受孕或受精至出生的时间（4 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
+<!-- /evo:text -->
+
+## 沿食物、取食位置和活动时段对读
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+Nomascus 的本批路线包含 5 个历史条目，可从 Nomascus concolor、Nomascus siki、Nomascus gabriellae、Nomascus leucogenys、Nomascus hainanus 开始。其中 3 条可读食物类别权重，5 条可读取食层位，5 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
+<!-- /evo:text -->
+
+## 资料适用范围
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
 有来源的入门阅读路径；未经过外部领域专家评审。所引证据限于局地研究或圈养样本，不能确定共同生态、全属完整分布或修订后的分类。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成，未经过外部专家评审。
+本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论和外部专家审评未完成。
 <!-- /evo:text -->

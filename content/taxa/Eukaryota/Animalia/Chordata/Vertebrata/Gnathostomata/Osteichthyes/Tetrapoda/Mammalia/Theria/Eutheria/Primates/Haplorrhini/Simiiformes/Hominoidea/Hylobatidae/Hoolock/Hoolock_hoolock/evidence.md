@@ -12,9 +12,7 @@ records:
       zh: 西部白眉长臂猿
     reviewStatus: source-linked
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
         text:
           en:
             markdown: page.en.md
@@ -23,13 +21,9 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - mdd_name
+      - topic: hollongaparFeedingStudy
         text:
           en:
             markdown: page.en.md
@@ -38,11 +32,8 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/1/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - borah2018
+      - topic: lawacharaSeasonality
         text:
           en:
             markdown: page.en.md
@@ -51,11 +42,8 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/2/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/3/topic
+          - naher2024
+      - topic: evidenceBoundary
         text:
           en:
             markdown: page.en.md
@@ -64,10 +52,8 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/3/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/3/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/3/sourceIds/1
+          - borah2018
+          - naher2024
     sources:
       referenceBindings:
         - referenceId: ref-9e84c654-722c-80dd-a562-c3066774dc89

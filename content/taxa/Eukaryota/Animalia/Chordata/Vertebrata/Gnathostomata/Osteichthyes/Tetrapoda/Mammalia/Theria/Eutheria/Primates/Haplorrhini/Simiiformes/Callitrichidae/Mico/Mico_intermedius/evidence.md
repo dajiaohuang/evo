@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: field_observations
         text:
           en:
             markdown: page.en.md
@@ -23,8 +21,7 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
+          - intermedius1979
     sources:
       referenceBindings:
         - referenceId: ref-9dafa45a-eb08-89c9-ae74-2672d0d94040

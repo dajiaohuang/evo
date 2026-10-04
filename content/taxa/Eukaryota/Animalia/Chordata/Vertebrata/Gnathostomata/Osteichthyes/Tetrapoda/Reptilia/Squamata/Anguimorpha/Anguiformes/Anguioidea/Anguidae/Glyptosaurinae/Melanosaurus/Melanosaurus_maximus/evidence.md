@@ -1,0 +1,210 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Melanosaurus maximus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Melanosaurus maximus
+      en: Melanosaurus maximus
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSquamataTaxonomy20261002
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+          metadataVariant: 0
+          sourceKey: pbdbSquamataTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Melanosaurus maximus
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=82855&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+          metadataVariant: 0
+          sourceKey: pbdbSquamataOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:82855; original response record indices retained in data/sources/squamata-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 514f112902c399f610603231aa01670f6a662448389d5f94c43cb3b70ec452d6
+            pbdbTaxonId: txn:82855
+            selectedOccurrenceIds:
+              - occ:286787
+              - occ:286799
+              - occ:286806
+              - occ:286810
+              - occ:286815
+              - occ:286823
+              - occ:286828
+              - occ:286836
+              - occ:286839
+              - occ:286949
+              - occ:462992
+              - occ:521575
+              - occ:521587
+              - occ:521595
+              - occ:521604
+              - occ:521606
+              - occ:521641
+              - occ:521643
+              - occ:521644
+              - occ:521645
+              - occ:521646
+              - occ:521647
+              - occ:521648
+              - occ:521649
+              - occ:521701
+              - occ:1335700
+              - occ:1335701
+              - occ:1335702
+              - occ:1335703
+            selectedCollectionIds:
+              - col:15759
+              - col:15760
+              - col:15761
+              - col:15771
+              - col:15780
+              - col:15830
+              - col:15831
+              - col:15833
+              - col:15834
+              - col:27350
+              - col:15082
+              - col:15171
+              - col:15109
+              - col:15156
+              - col:15151
+              - col:15152
+              - col:15089
+              - col:15189
+              - col:15209
+              - col:15103
+              - col:15104
+              - col:15122
+              - col:15174
+              - col:15793
+              - col:180118
+              - col:180119
+              - col:85438
+              - col:179977
+            sourceReferenceIds:
+              - ref:1657
+              - ref:11717
+              - ref:724
+              - ref:3714
+              - ref:14538
+            originalIdentificationMappings:
+              - occurrenceId: occ:1335700
+                originalIdentifiedName: Melanosaurus maximus n. gen. n. sp.
+                acceptedName: Melanosaurus maximus
+                difference: null
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Melanosaurus maximus

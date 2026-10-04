@@ -10,11 +10,11 @@ records:
       zh: 绢毛猴属
       en: Titi Monkeys
     reviewStatus: source-linked
-    checkedAt: 2026-10-01
+    checkedAt: 2026-10-03
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: materialComparison
+        sourceIds:
+          - vanDerMije2025TitiTypes
         text:
           zh:
             markdown: page.zh.md
@@ -22,16 +22,9 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
+      - topic: readingPath
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - vanDerMije2025TitiTypes
         text:
           zh:
             markdown: page.zh.md
@@ -39,20 +32,9 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
+      - topic: typeComparison
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/4
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - roosmalen2002BernhardiMaterials
         text:
           zh:
             markdown: page.zh.md
@@ -60,15 +42,65 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/2/text/en
+      - topic: readingPath
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/3
+          - roosmalen2002BernhardiMaterials
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: overview
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+        sourceIds:
+          - taxonomy
+          - byrne2016
+          - vermeer2025
+      - topic: readingPath
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
+        sourceIds:
+          - carrillo2005
+          - papworth2010
+          - roosmalen2002
+          - vermeer2025
+          - quintero2024
+      - topic: limitations
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/6/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/6/text/en
+        sourceIds:
+          - taxonomy
+          - mdd_v24
+          - vermeer2025
+          - quintero2024
+      - topic: readingPath
+        sourceIds:
+          - snodderly2019Morning
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/7/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/7/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -202,6 +234,73 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-630787fc-d174-4360-810b-05c62a0133ec
+          metadataVariant: 0
+          sourceKey: snodderly2019Morning
+          usage:
+            url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0210494
+            locator: Reading path to source-bounded P. discolor morning study; species concept unresolved.
+            accessedAt: 2026-10-02
+            sourceTaxonName: Plecturocebus (Callicebus) discolor
+            scope:
+              zh: Tiputini 历史名下的晨间观察；不裁决当前分类概念。
+              en: Morning observations under historical Tiputini naming; current concept assignment unresolved.
+            readingTargets:
+              - colId: 4K5Y5
+                name: Plecturocebus discolor
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/Plecturocebus/Plecturocebus_discolor
+                status: historical-study-concept-assignment-unresolved
+          originalFields:
+            - id
+            - url
+            - locator
+            - accessedAt
+            - sourceTaxonName
+            - scope
+        - referenceId: ref-2f000fd5-6860-8219-a161-06127f0ecb71
+          metadataVariant: 0
+          sourceKey: roosmalen2002BernhardiMaterials
+          usage:
+            title: A taxonomic review of the titi monkeys, genus Callicebus Thomas, 1903, with the description of two new species, Callicebus bernhardi and Callicebus stephennashi, from Brazilian Amazonia
+            url: https://doi.org/10.62015/np.2002.v10.503
+            accessedAt: 2026-10-03
+            locator: Published NP10 supplement pp. 24–27, bernhardi account and captions; pp. 28–30 captions; pp. 25–26 pixels and table 3 inspected. No specimen remeasurement or modern population audit.
+            scope:
+              zh: 依据 bernhardi 材料组织比较路径；不外推整个属或亚科。
+              en: Comparison route through bernhardi material, not extrapolation to the genus or subfamily.
+          originalFields:
+            - id
+            - title
+            - url
+            - accessedAt
+            - locator
+            - scope
+        - referenceId: ref-afacf123-823d-48a5-b102-82d3f8a8e63d
+          metadataVariant: 0
+          sourceKey: vanDerMije2025TitiTypes
+          usage:
+            title: Type specimens of recent mammals in Naturalis Biodiversity Center. Part 1 Monotremata, Didelphimorphia, Dasyuromorphia, Peramelemorphia, Diprotodontia, Afrosoricida, Macroscelidea, Hyracoidea, Proboscidea, Scandentia, Primates, Rodentia (Mammalia)
+            url: https://repository.naturalis.nl/pub/801296/Meije-2025-Type-specimens-of-recent-mammals-in-Naturalis-A.pdf
+            accessedAt: 2026-10-03
+            locator: Front matter p. 1; selected introduction/methods and taxonomic-issue discussion pp. 3–4, 6–8; cupreus/discolor/donacophilus accounts pp. 49–50 including continuation. Pixels viewed pp. 49–50. No full article or current physical inventory audit.
+            scope:
+              zh: 三种伶猴的限定类型身份、收藏／行程及命名解释；属与亚科为材料比较入口。
+              en: Bounded type identity, collection/itinerary and nomenclatural interpretations for three titi species; genus/subfamily pages offer material comparisons.
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - journal
+            - volume
+            - pages
+            - publishedYear
+            - publishedAt
+            - url
+            - sourceVersion
+            - accessedAt
+            - locator
             - scope
     limitations:
       zh:

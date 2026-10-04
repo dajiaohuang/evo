@@ -10,11 +10,11 @@ records:
       zh: 纳什绢毛猴
       en: Stephen Nash's Titi
     reviewStatus: source-linked
-    checkedAt: 2026-10-02
+    checkedAt: 2026-10-03
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: material
+        sourceIds:
+          - roosmalen2002StephennashiTypes
         text:
           zh:
             markdown: page.zh.md
@@ -22,20 +22,9 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
+      - topic: bodySize
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/4
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - roosmalen2002StephennashiTypes
         text:
           zh:
             markdown: page.zh.md
@@ -43,12 +32,9 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
+      - topic: distribution
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - roosmalen2002StephennashiTypes
         text:
           zh:
             markdown: page.zh.md
@@ -56,11 +42,61 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/2/text/en
+      - topic: morphology
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/1
+          - roosmalen2002StephennashiTypes
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: readingPath
+        sourceIds:
+          - roosmalen2002StephennashiTypes
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+      - topic: overview
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
+        sourceIds:
+          - taxonomy
+          - roosmalen2002
+          - vermeer2025
+          - mdd_v24
+          - mdd_v25
+      - topic: morphology
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/6/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/6/text/en
+        sourceIds:
+          - roosmalen2002
+      - topic: interpretation
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/7/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/7/text/en
+        sourceIds:
+          - vermeer2025
+          - mdd_v24
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -163,6 +199,24 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-2f000fd5-6860-8219-a161-06127f0ecb71
+          sourceKey: roosmalen2002StephennashiTypes
+          metadataVariant: 0
+          usage:
+            title: A taxonomic review of the titi monkeys, genus Callicebus Thomas, 1903, with the description of two new species, Callicebus bernhardi and Callicebus stephennashi, from Brazilian Amazonia
+            url: https://doi.org/10.62015/np.2002.v10.503
+            accessedAt: 2026-10-03
+            scope:
+              zh: 2002 年种账户印刷页 15–18，表 2 中 stephennashi 五行，以及图 14–15 图像与图注；未知产地与推测分布保留。
+              en: 2002 species account on printed pp. 15–18, the five stephennashi rows of Table 2 and Figures 14–15 with captions; unknown locality and inferred distribution retained.
+            locator: "Journal archive PDF: complete stephennashi account on pp. 15–18 (excluding neighboring species accounts); Table 2 header and five stephennashi rows visually read; full Figures 14–15 on pp. 16–17 visually inspected. Source front and official journal archive metadata read. Not the entire 52-page review, all maps/figures, original specimens, later 2025 revision or a wild-field survey."
+          originalFields:
+            - id
+            - title
+            - url
+            - accessedAt
+            - scope
+            - locator
     limitations:
       zh:
         markdown: page.zh.md

@@ -1,0 +1,222 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Baioconodon nordicus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Baioconodon nordicus
+      en: Baioconodon nordicus
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Baioconodon nordicus
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=47793&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:47793; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:47793
+            selectedOccurrenceIds:
+              - occ:163774
+              - occ:163816
+              - occ:163823
+              - occ:163860
+              - occ:163927
+              - occ:163938
+              - occ:163939
+              - occ:164085
+              - occ:164092
+              - occ:164106
+              - occ:164136
+              - occ:164147
+              - occ:164148
+              - occ:164160
+              - occ:164177
+              - occ:164221
+              - occ:164232
+              - occ:164321
+              - occ:164350
+              - occ:164352
+              - occ:164354
+              - occ:164364
+              - occ:164373
+              - occ:164384
+              - occ:164391
+              - occ:164403
+              - occ:164416
+              - occ:164418
+              - occ:164532
+              - occ:1350802
+              - occ:1630936
+            selectedCollectionIds:
+              - col:14660
+              - col:14668
+              - col:14669
+              - col:14676
+              - col:14697
+              - col:14699
+              - col:14700
+              - col:14740
+              - col:14741
+              - col:14743
+              - col:14749
+              - col:14751
+              - col:14752
+              - col:14754
+              - col:14758
+              - col:14761
+              - col:14763
+              - col:14773
+              - col:14777
+              - col:14778
+              - col:14779
+              - col:14782
+              - col:14784
+              - col:14785
+              - col:14786
+              - col:14787
+              - col:14788
+              - col:14789
+              - col:14808
+              - col:176863
+            sourceReferenceIds:
+              - ref:6294
+              - ref:962
+              - ref:960
+              - ref:61136
+              - ref:85522
+            originalIdentificationMappings:
+              - occurrenceId: occ:164092
+                originalIdentifiedName: Ragnarok harbichti n. sp.
+                acceptedName: Baioconodon nordicus
+                difference: null
+              - occurrenceId: occ:164221
+                originalIdentifiedName: Ragnarok nordicum
+                acceptedName: Baioconodon nordicus
+                difference: recombined as
+              - occurrenceId: occ:1630936
+                originalIdentifiedName: Baioconodon nordicum
+                acceptedName: Baioconodon nordicus
+                difference: misspelling of, recombined as
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Baioconodon nordicus

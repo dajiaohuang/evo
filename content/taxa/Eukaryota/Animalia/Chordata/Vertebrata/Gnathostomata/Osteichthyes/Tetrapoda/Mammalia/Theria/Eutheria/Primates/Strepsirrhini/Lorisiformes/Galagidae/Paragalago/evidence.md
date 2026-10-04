@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
         text:
           zh:
             markdown: page.zh.md
@@ -23,31 +21,18 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/4
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/5
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/6
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/7
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/8
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/9
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/10
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - masters2017
+          - butynski2006
+          - pozzi2020
+          - harcourt1986_social
+          - genin2016
+          - mufindi_survey
+          - pande2003
+          - rondo2014
+          - uluguru2000
+          - miller2025
+      - topic: classification
         text:
           zh:
             markdown: page.zh.md
@@ -56,10 +41,8 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/1
+          - masters2017
+          - pozzi2020
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23

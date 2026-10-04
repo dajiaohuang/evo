@@ -12,9 +12,7 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
         text:
           zh:
             markdown: page.zh.md
@@ -23,15 +21,10 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+          - mdd_albifrons
+          - atlas_malitiosus
+      - topic: classification
         text:
           zh:
             markdown: page.zh.md
@@ -40,13 +33,9 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - ruiz2019
+          - malitiosus_type_2026
+      - topic: distribution
         text:
           zh:
             markdown: page.zh.md
@@ -55,11 +44,8 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/2/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/3/topic
+          - atlas_malitiosus
+      - topic: historical sample labels
         text:
           zh:
             markdown: page.zh.md
@@ -68,8 +54,27 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/3/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/3/sourceIds/0
+          - ruiz2018mitogenomics
+      - topic: morphology
+        sourceIds:
+          - eazaCapuchins2019
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+      - topic: ecology
+        sourceIds:
+          - eazaCapuchins2019
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -172,6 +177,36 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-29d2e79c-adf5-4c14-9750-acdd96546d1c
+          metadataVariant: 0
+          sourceKey: eazaCapuchins2019
+          usage:
+            locator: Edition 1, 2019; title and citation pages 1–2, Summary p. 4; species account(s) p. 24. Species-table layout visually inspected.
+            accessedAt: 2026-10-02
+            sourceFileSha256: c25bd58375481bb637bb2906e08b63e6242f298269ee66bf264d95e7de32afb0
+            sourceFileBytes: 10836242
+            scope:
+              zh: 2019 年手册采用名称下的形态、栖地和明确资料缺口；不作当前分类或生态裁决。
+              en: Morphology, habitat and explicit gaps under the 2019 handbook’s names; no current taxonomic or ecological adjudication.
+            licenseAssessment: Original factual paraphrases only; all-rights-reserved PDF, maps and drawings are not redistributed.
+            readerBoundaries:
+              - Source-specific 2019 name concepts, not an independent taxonomic resolution.
+              - Compiled size fields do not specify original samples or measurement protocols.
+              - Historical status labels and collection-plan policies are omitted; no current conservation or husbandry recommendation.
+              - Species gaps are not filled from genus-level diet or zoo-management surveys.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - doi
+            - locator
+            - accessedAt
+            - sourceFileSha256
+            - sourceFileBytes
+            - scope
+            - licenseAssessment
+            - readerBoundaries
     limitations:
       zh:
         markdown: page.zh.md

@@ -12,16 +12,11 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: survey
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
+          - taxonomy
+          - mdd_name
+          - langi_rapid2020
         text:
           en:
             markdown: page.en.md
@@ -29,12 +24,9 @@ records:
           zh:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+      - topic: assessment scope
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
+          - langi_rapid2020
         text:
           en:
             markdown: page.en.md
@@ -42,12 +34,9 @@ records:
           zh:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/1/text/zh
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+      - topic: range boundary
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
+          - langi_rapid2020
         text:
           en:
             markdown: page.en.md
@@ -55,12 +44,9 @@ records:
           zh:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/2/text/zh
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/3/topic
+      - topic: threats
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/3/sourceIds/0
+          - langi_rapid2020
         text:
           en:
             markdown: page.en.md

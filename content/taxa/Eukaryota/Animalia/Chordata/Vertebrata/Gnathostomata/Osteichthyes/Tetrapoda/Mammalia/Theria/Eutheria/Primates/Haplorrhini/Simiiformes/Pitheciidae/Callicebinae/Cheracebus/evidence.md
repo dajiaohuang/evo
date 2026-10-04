@@ -6,15 +6,13 @@ records:
     scientificName: Cheracebus Byrne, Rylands, Carneiro, Lynch Alfaro et al., 2016
     rank: genus
     sourceDatasetId: "2144"
-    checkedAt: 2026-10-01
+    checkedAt: 2026-10-03
     name:
       en: Cheracebus
       zh: 跳猴属
     reviewStatus: source-linked
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: readingPath
         text:
           en:
             markdown: page.en.md
@@ -23,26 +21,36 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/4
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/5
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/6
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/7
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/8
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/9
+          - taxonomy
+          - speciesMedemi
+          - speciesAquinoi
+          - speciesLucifer
+          - speciesLugens
+          - speciesRegulus
+          - speciesTorquatus
+          - palaciosperes2005
+          - rengifo2022
+          - aquino2021
+      - topic: readingPath
+        sourceIds:
+          - colombiaNational2025
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: overview
+        sourceIds:
+          - byrne2020MedemiMorphology
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
     sources:
       referenceBindings:
         - referenceId: ref-492d4cab-4b5c-8b15-afc5-26349d2baaf8
@@ -205,6 +213,52 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-e7435841-2e9e-4566-9d80-ef27f2c68184
+          metadataVariant: 0
+          sourceKey: colombiaNational2025
+          usage:
+            locator: Categoria; Justificación; Author; Published; Citation; CC BY 4.0 footer
+            accessedAt: 2026-10-02
+            scope:
+              zh: 有明确日期的哥伦比亚国家评估及其不确定性；不确立实测种群趋势或全球状态。
+              en: Dated Colombian national assessment and its uncertainty; does not establish measured population trends or global status.
+            readerBoundaries:
+              - National assessment, not a new global assessment.
+              - Suspected reduction is not a measured time series.
+              - No assignment of older Callicebus torquatus survey numbers.
+              - GBIF points, photo caption and BioModelo label not used as verified occurrences.
+          originalFields:
+            - id
+            - title
+            - url
+            - date
+            - locator
+            - accessedAt
+            - scope
+            - readerBoundaries
+        - referenceId: ref-1a602e13-7772-4a2a-a5c2-98c248a0b0d1
+          metadataVariant: 0
+          sourceKey: byrne2020MedemiMorphology
+          usage:
+            locator: Printed p14 (methods), p46 (Distinction between medemi and lucifer); PDF pages 2 and 34.
+            accessedAt: 2026-10-03
+            scope:
+              zh: 2020 年馆藏比较及单一颜色诊断的限制；不提供本种野外丰度或正式并种结论。
+              en: Museum comparisons and limits of a colour diagnosis; no medemi abundance estimate or formal synonymy.
+            readingTargets:
+              - colId: TXQM
+                name: Cheracebus medemi
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Callicebinae/Cheracebus/Cheracebus_medemi
+          originalFields:
+            - id
+            - title
+            - authors
+            - url
+            - version
+            - locator
+            - accessedAt
+            - scope
+            - readingTargets
     limitations:
       en:
         markdown: page.en.md

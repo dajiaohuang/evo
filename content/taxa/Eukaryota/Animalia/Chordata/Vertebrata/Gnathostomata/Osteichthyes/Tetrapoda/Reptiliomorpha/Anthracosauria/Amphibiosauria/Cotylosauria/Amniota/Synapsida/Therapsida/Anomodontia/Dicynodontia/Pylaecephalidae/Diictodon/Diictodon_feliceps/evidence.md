@@ -1,0 +1,510 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Diictodon feliceps
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Diictodon feliceps
+      en: Diictodon feliceps
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherSynapsidaTaxonomy20261002
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+          metadataVariant: 0
+          sourceKey: pbdbOtherSynapsidaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Diictodon feliceps
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=56870&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+          metadataVariant: 0
+          sourceKey: pbdbOtherSynapsidaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:56870; original response record indices retained in data/sources/other-synapsida-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+            pbdbTaxonId: txn:56870
+            selectedOccurrenceIds:
+              - occ:1304560
+              - occ:1304604
+              - occ:1304768
+              - occ:1304769
+              - occ:1304833
+              - occ:1304834
+              - occ:1305348
+              - occ:1305434
+              - occ:1305471
+              - occ:1305521
+              - occ:1305523
+              - occ:1305529
+              - occ:1308656
+              - occ:1310103
+              - occ:1310108
+              - occ:1313326
+              - occ:1314227
+              - occ:1314300
+              - occ:1314340
+              - occ:1314341
+              - occ:1314457
+              - occ:1314458
+              - occ:1316953
+              - occ:1316958
+              - occ:1316959
+              - occ:1317307
+              - occ:1317320
+              - occ:1317337
+              - occ:1317366
+              - occ:1317367
+              - occ:1317422
+              - occ:1317423
+              - occ:1317424
+              - occ:1317425
+              - occ:1317941
+              - occ:1320532
+              - occ:1323230
+              - occ:1324913
+              - occ:1325016
+              - occ:1326588
+              - occ:1327689
+              - occ:1327690
+              - occ:1328827
+              - occ:1328828
+              - occ:1328829
+              - occ:1331663
+              - occ:1331664
+              - occ:1333004
+              - occ:1338639
+              - occ:1338640
+              - occ:1338927
+              - occ:1338928
+              - occ:1340479
+              - occ:1340600
+              - occ:1340608
+              - occ:1358500
+              - occ:1359039
+              - occ:1359040
+              - occ:1359041
+              - occ:1359042
+              - occ:1359043
+              - occ:1359044
+              - occ:1428857
+              - occ:1428858
+              - occ:1428862
+              - occ:1587694
+            selectedCollectionIds:
+              - col:22661
+              - col:174626
+              - col:174663
+              - col:174666
+              - col:174717
+              - col:174734
+              - col:144272
+              - col:174746
+              - col:174747
+              - col:175565
+              - col:80219
+              - col:176246
+              - col:31777
+              - col:80174
+              - col:176339
+              - col:176357
+              - col:176758
+              - col:80216
+              - col:176917
+              - col:171377
+              - col:89650
+              - col:176922
+              - col:177007
+              - col:177588
+              - col:171378
+              - col:80826
+              - col:178115
+              - col:178202
+              - col:178478
+              - col:178803
+              - col:179335
+              - col:179623
+              - col:180807
+              - col:180878
+              - col:86388
+              - col:176355
+              - col:181090
+              - col:184599
+              - col:184600
+              - col:184672
+              - col:184673
+              - col:184674
+              - col:184675
+              - col:184676
+              - col:92645
+              - col:178870
+              - col:176244
+              - col:224360
+            sourceReferenceIds:
+              - ref:56911
+              - ref:37640
+              - ref:27216
+              - ref:37442
+              - ref:37515
+              - ref:29040
+              - ref:57888
+              - ref:47066
+              - ref:55690
+              - ref:57021
+              - ref:58372
+              - ref:37395
+              - ref:58451
+              - ref:31998
+              - ref:27212
+              - ref:24315
+              - ref:34186
+              - ref:60398
+              - ref:67683
+              - ref:80086
+            originalIdentificationMappings:
+              - occurrenceId: occ:1304560
+                originalIdentifiedName: Dicynodon grimbeeki n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1304604
+                originalIdentifiedName: Dicynodon nanus n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1304768
+                originalIdentifiedName: Dicynodon ictidops
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1304769
+                originalIdentifiedName: Dicynodon nanus
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1304833
+                originalIdentifiedName: Dicynodon psittacops
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1304834
+                originalIdentifiedName: Dicynodon sollasi n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1305348
+                originalIdentifiedName: Dicynodon rubidgei
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1305434
+                originalIdentifiedName: Dicynodon ictidops
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1305471
+                originalIdentifiedName: Dicynodon nanus
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1305521
+                originalIdentifiedName: Dicynodon vanderhorsti n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1305523
+                originalIdentifiedName: Dicynodon antjiesfonteinensis n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1305529
+                originalIdentifiedName: Dicynodon feliceps n. sp.
+                acceptedName: Diictodon feliceps
+                difference: recombined as
+              - occurrenceId: occ:1308656
+                originalIdentifiedName: Dicynodon feliceps
+                acceptedName: Diictodon feliceps
+                difference: recombined as
+              - occurrenceId: occ:1310103
+                originalIdentifiedName: Emydorhynchus palustris n. gen. n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1310108
+                originalIdentifiedName: Dicynodon macrorhynchus n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1314227
+                originalIdentifiedName: Dicynodon broomi n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1314300
+                originalIdentifiedName: Dicynodon nanus
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1314340
+                originalIdentifiedName: Dicynodon ictidops
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1314341
+                originalIdentifiedName: Dicynodon nanus
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1314457
+                originalIdentifiedName: Dicynodon psittacops
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1314458
+                originalIdentifiedName: Dicynodon sollasi
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1316953
+                originalIdentifiedName: Dicynodon gamkaensis n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1316958
+                originalIdentifiedName: Dicynodon ictidops
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1316959
+                originalIdentifiedName: Dicynodon nanus
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1317307
+                originalIdentifiedName: Dicynodon nanus
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1317320
+                originalIdentifiedName: Dicynodon testudirostris n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1317337
+                originalIdentifiedName: Dicynodon grossarthi n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1317366
+                originalIdentifiedName: Dicynodon haughtonianus n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1317367
+                originalIdentifiedName: Dicynodon jouberti
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1317422
+                originalIdentifiedName: Dicynodon feliceps
+                acceptedName: Diictodon feliceps
+                difference: recombined as
+              - occurrenceId: occ:1317423
+                originalIdentifiedName: Dicynodon ictidops n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1317424
+                originalIdentifiedName: Dicynodon psittacops n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1317425
+                originalIdentifiedName: Dicynodon sollasi
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1317941
+                originalIdentifiedName: Dicynodon jouberti n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1320532
+                originalIdentifiedName: Dicynodon jouberti
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1323230
+                originalIdentifiedName: Dicynodon parvidens n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1324913
+                originalIdentifiedName: Dicynodon rubidgei n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1325016
+                originalIdentifiedName: Dicynodon vanderhorsti
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1326588
+                originalIdentifiedName: Dicynodon tienshanensis n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1327689
+                originalIdentifiedName: Dicynodon psittacops
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1327690
+                originalIdentifiedName: Dicynodon sollasi
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1328827
+                originalIdentifiedName: Dicynodon grimbeeki
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1328828
+                originalIdentifiedName: Dicynodon sollasi
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1328829
+                originalIdentifiedName: Dicynodon psittacops
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1331663
+                originalIdentifiedName: Dicynodon ictidops
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1331664
+                originalIdentifiedName: Dicynodon nanus
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1333004
+                originalIdentifiedName: Dicynodon jouberti n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1338639
+                originalIdentifiedName: Dicynodon ictidops
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1338640
+                originalIdentifiedName: Dicynodon nanus
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1338927
+                originalIdentifiedName: Dicynodon ictidops
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1338928
+                originalIdentifiedName: Dicynodon nanus
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1340479
+                originalIdentifiedName: Dicynodon jouberti
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1340600
+                originalIdentifiedName: Dicynodon jouberti
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1340608
+                originalIdentifiedName: Diictodon galeops n. gen. n. sp.
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1358500
+                originalIdentifiedName: Dicynodon grimbeeki
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1428857
+                originalIdentifiedName: Dicynodon jouberti
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1428858
+                originalIdentifiedName: Dicynodon jouberti
+                acceptedName: Diictodon feliceps
+                difference: null
+              - occurrenceId: occ:1428862
+                originalIdentifiedName: Dicynodon jouberti
+                acceptedName: Diictodon feliceps
+                difference: null
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Diictodon feliceps

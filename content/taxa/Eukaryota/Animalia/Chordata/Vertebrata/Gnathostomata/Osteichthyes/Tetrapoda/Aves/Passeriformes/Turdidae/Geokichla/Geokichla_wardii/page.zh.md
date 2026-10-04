@@ -1,0 +1,44 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: zh
+status: source-linked
+---
+
+# Geokichla wardii
+
+## 沿旧 Zoothera 名称查历史资料
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
+本页按 COL26.8 的 Geokichla wardii（3FPZS）组织。AVONET v7 BirdLife 2020 第 8566 行与 eBird 2021 第 4327 行同名，Avibase ID 为 AVIBASE-AC0C3921；BirdTree 第 4309 行记作 Zoothera wardii，匹配类型为 1BL to 1BT。已读 COL 旧组合 5D7PN 指向本页接受 ID。这些来源关联用于查资料，不证明所有时期的物种范围完全相同。
+<!-- /evo:text -->
+
+## 测量鸟数与喙翼数值
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+形态共测 5 只：雌 0、雄 4、性别未定 1；4 只具完整测量。鼻孔前缘至喙尖 15.5 mm、跗蹠 27.2 mm、未压平翼长 113.6 mm、手翼指数 33.7 是该历史行的汇总数值。Inference=NO 不代表所有字段都测了相同数量；完整测量鸟数不替代每项字段分母。手翼指数定义为 Kipp 距离／翼长 ×100，不是飞行速度、迁移距离或本种全域的能力测验。
+<!-- /evo:text -->
+
+## 体重来源不是形态鸟数
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+体重 58.6 g 的 Mass.Source 为 Dunning，即原汇编文献的物种平均值，不把这 5 只形态鸟作为独立称重分母。未读原书或个体称重表，不能补雌雄、季节、地点的最小—最大值。
+<!-- /evo:text -->
+
+## 食性类别与取食观察分开
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+本行 Trophic.Niche=Invertivore，Trophic.Level=Omnivore。Invertivore 指以陆生无脊椎动物资源为主；它与另一列 Carnivore／Omnivore 的营养级定义不同，不互相覆盖。这些是汇编类别；定义阈值不是本地某季实测食物百分比。没有猎物种类、逐次取食、消化或食物可用性记录，不能补具体虫类清单或季节比例。
+<!-- /evo:text -->
+
+## 地面活动、植被密度与迁移
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+Primary.Lifestyle=Generalist，表示没有单一主导活动方式，不能据属内其他行改为必然地栖。Habitat=Forest，密度代码 2 是半开放植被环境，不是每平方米鸟数；两列意义分开保留。Migration=3 是群体中多数个体进行长距离迁移的来源类别，不给出本页个体的路线或季节。未解读历史地图摘要，不从翼指数反推类别正确性，也不把这些类别写成当前全域行为或占域。
+<!-- /evo:text -->
+
+## 证据边界
+
+<!-- evo:text /records/catalogue-profile/limitations/zh -->
+本页使用所选 AVONET v7 历史行、两张名称表、相关 Metadata 定义及本地 COL ge／zo 名称分片。形态均值、完整测量鸟数与独立文献体重分母分开；一对一名称表和目录异名不保证跨年代物种边界完全相同。未查个体标本、Dunning 原书、完整工作簿或新完整方法论文；没有补当前分布、保护状态、羽色鸣声、繁殖、实际食谱或追踪路径。没有专家审评，不计完整自然史专论。
+<!-- /evo:text -->

@@ -1,0 +1,737 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Hylochoerus euilus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Hylochoerus euilus
+      en: Hylochoerus euilus
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Hylochoerus euilus
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=374991&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:374991; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:374991
+            selectedOccurrenceIds:
+              - occ:212057
+              - occ:212445
+              - occ:212643
+              - occ:212784
+              - occ:212816
+              - occ:212819
+              - occ:213315
+              - occ:213399
+              - occ:213403
+              - occ:213406
+              - occ:213410
+              - occ:213412
+              - occ:213416
+              - occ:213417
+              - occ:213422
+              - occ:213426
+              - occ:213440
+              - occ:213445
+              - occ:213450
+              - occ:213479
+              - occ:213488
+              - occ:213511
+              - occ:213520
+              - occ:213530
+              - occ:217056
+              - occ:217334
+              - occ:217513
+              - occ:217975
+              - occ:218081
+              - occ:218137
+              - occ:218644
+              - occ:218691
+              - occ:218711
+              - occ:219297
+              - occ:221396
+              - occ:221431
+              - occ:221601
+              - occ:221618
+              - occ:221623
+              - occ:221882
+              - occ:222221
+              - occ:222332
+              - occ:222609
+              - occ:222812
+              - occ:222854
+              - occ:222860
+              - occ:222917
+              - occ:223330
+              - occ:223488
+              - occ:223500
+              - occ:223569
+              - occ:223600
+              - occ:223666
+              - occ:223670
+              - occ:223708
+              - occ:223803
+              - occ:223832
+              - occ:223869
+              - occ:223892
+              - occ:223899
+              - occ:223966
+              - occ:224231
+              - occ:224299
+              - occ:224325
+              - occ:224362
+              - occ:224368
+              - occ:224377
+              - occ:224426
+              - occ:224443
+              - occ:224453
+              - occ:224628
+              - occ:224788
+              - occ:224888
+              - occ:224913
+              - occ:226496
+              - occ:226522
+              - occ:226644
+              - occ:226647
+              - occ:226648
+              - occ:227240
+              - occ:227254
+              - occ:227259
+              - occ:227275
+              - occ:227341
+              - occ:227390
+              - occ:228296
+              - occ:228397
+              - occ:339259
+              - occ:361554
+              - occ:361617
+              - occ:396941
+              - occ:1589515
+              - occ:1589538
+              - occ:1589573
+            selectedCollectionIds:
+              - col:21300
+              - col:21434
+              - col:21517
+              - col:21535
+              - col:21539
+              - col:21540
+              - col:21744
+              - col:21787
+              - col:21789
+              - col:21790
+              - col:21792
+              - col:21793
+              - col:21794
+              - col:21795
+              - col:21796
+              - col:21798
+              - col:21800
+              - col:21801
+              - col:21802
+              - col:21810
+              - col:21811
+              - col:21830
+              - col:21831
+              - col:21832
+              - col:22104
+              - col:22174
+              - col:22197
+              - col:22237
+              - col:22248
+              - col:22267
+              - col:22321
+              - col:22324
+              - col:22327
+              - col:22506
+              - col:21282
+              - col:21283
+              - col:21307
+              - col:21309
+              - col:21310
+              - col:21355
+              - col:21408
+              - col:21424
+              - col:21460
+              - col:21478
+              - col:21481
+              - col:21482
+              - col:21488
+              - col:21549
+              - col:21573
+              - col:21577
+              - col:21599
+              - col:21608
+              - col:21615
+              - col:21616
+              - col:21621
+              - col:21628
+              - col:21632
+              - col:21634
+              - col:21638
+              - col:21640
+              - col:21652
+              - col:21742
+              - col:21754
+              - col:21755
+              - col:21762
+              - col:21764
+              - col:21767
+              - col:21783
+              - col:21785
+              - col:21786
+              - col:21799
+              - col:21807
+              - col:21813
+              - col:21816
+              - col:22007
+              - col:22012
+              - col:22034
+              - col:22036
+              - col:22037
+              - col:22084
+              - col:22088
+              - col:22090
+              - col:22096
+              - col:22107
+              - col:22123
+              - col:22340
+              - col:22346
+              - col:32050
+              - col:22235
+              - col:22239
+              - col:21425
+              - col:224654
+              - col:224655
+              - col:224657
+            sourceReferenceIds:
+              - ref:4454
+              - ref:10217
+              - ref:4768
+              - ref:4451
+              - ref:5335
+              - ref:5366
+              - ref:8636
+              - ref:5455
+              - ref:5571
+              - ref:5479
+              - ref:5481
+              - ref:5264
+              - ref:4486
+              - ref:4763
+              - ref:4769
+              - ref:4447
+              - ref:4730
+              - ref:4782
+              - ref:4847
+              - ref:4774
+              - ref:4773
+              - ref:4770
+              - ref:5330
+              - ref:5333
+              - ref:5336
+              - ref:5328
+              - ref:5327
+              - ref:4932
+              - ref:80990
+            originalIdentificationMappings:
+              - occurrenceId: occ:212057
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:212445
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:212643
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:212784
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:212816
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:212819
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213315
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213399
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213403
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213406
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213410
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213412
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213416
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213417
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213422
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213426
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213440
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213445
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213450
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213479
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213488
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213511
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213520
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:213530
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:217056
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:217334
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:217513
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:217975
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:218081
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:218137
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:218644
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:218691
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:218711
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:219297
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:221396
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:221431
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:221601
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:221618
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:221623
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:221882
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:222221
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:222332
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:222609
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:222812
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:222854
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:222860
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:222917
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:223330
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:223488
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:223500
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:223569
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:223600
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:223666
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:223670
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:223708
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:223803
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:223832
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:223869
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:223892
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:223899
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:223966
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:224231
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:224299
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:224325
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:224362
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:224368
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:224377
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:224426
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:224443
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:224453
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:224628
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:224788
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:224888
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:224913
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:226496
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:226522
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:226644
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:226647
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:226648
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:227240
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:227254
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:227259
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:227275
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:227341
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:227390
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:228296
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:228397
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:339259
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:361554
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:361617
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:396941
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:1589515
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:1589538
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+              - occurrenceId: occ:1589573
+                originalIdentifiedName: Notochoerus euilus
+                acceptedName: Hylochoerus euilus
+                difference: recombined as
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Hylochoerus euilus

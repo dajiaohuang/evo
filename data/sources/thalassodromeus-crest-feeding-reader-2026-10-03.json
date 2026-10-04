@@ -1,0 +1,126 @@
+{
+  "batch": "P5-124",
+  "date": "2026-10-03",
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Thalassodromidae/Thalassodromeus/Thalassodromeus_sethi",
+      "newBilingualSections": 8
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Thalassodromidae/Thalassodromeus",
+      "newBilingualSections": 2
+    }
+  ],
+  "newReferences": [
+    {
+      "id": "ref-b2435379-b763-40dc-b485-57d769ab5547",
+      "doi": "10.1126/science.1073186",
+      "authors": [
+        "Alexander W. A. Kellner",
+        "Diogenes de Almeida Campos"
+      ],
+      "sourceVersion": "Published PDF read through RERO repository web extraction; local PDF download unavailable"
+    },
+    {
+      "id": "ref-fce98715-9b8f-4ece-ac6d-97bc2f960c4e",
+      "doi": "10.1371/journal.pbio.0050204",
+      "authors": [
+        "Stuart Humphries",
+        "Richard H. C. Bonser",
+        "Mark P. Witton",
+        "David M. Martill"
+      ],
+      "sourceVersion": "Publisher full-text XML"
+    },
+    {
+      "id": "ref-16d37c25-93a9-4635-9e7b-17e81a598ece",
+      "doi": "10.1080/02724634.2018.1443273",
+      "authors": [
+        "Rodrigo V. Pêgas",
+        "Fabiana R. Costa",
+        "Alexander W. A. Kellner"
+      ],
+      "sourceVersion": "Author-uploaded published article text on ResearchGate; publisher full-text access unavailable"
+    }
+  ],
+  "sourceFiles": [
+    {
+      "file": ".git/pterosaur-skimming2007-primary.xml",
+      "sha256": "b663367c3658d30f3c9fd8645467c682b453ee4ad2225c33722ed492edea2047"
+    },
+    {
+      "file": ".git/thalassodromeus2018-crossref.json",
+      "sha256": "d3568b6429999182e7ab3b9e0a2d7cc444605dc4d08293dde67e045a4dd8372f"
+    },
+    {
+      "file": ".git/thalassodromeus2018-web-excerpt-124.json",
+      "sha256": "51e434823f8b59bf14cac143d50e745992f05ec4d581119bfaa008bc6a68f710"
+    }
+  ],
+  "locators": [
+    "Published PDF pp. 389–392, text and captions read via https://doc.rero.ch/record/14841/files/PAL_E1978.pdf/; images and supplements not inspected.",
+    "Publisher XML: Introduction model material; Results drag and flight-cost estimates; Discussion Pterosaur Biomechanics and Anatomical Considerations; Materials and Methods physical models, immersion, dimensions and regression assumptions. Not an independent rerun or raw-data audit.",
+    "Published article text on the author ResearchGate page, systematic/type and skull pp. e1443273-2–5, crest discussion pp. 12–13, mandibular taxonomic discussion pp. 13–14 and conclusion p. 15. Not all osteology, images, supplemental matrices or subsequent revisions."
+  ],
+  "access": {
+    "original2002": {
+      "url": "https://doc.rero.ch/record/14841/files/PAL_E1978.pdf/",
+      "method": "Web PDF extraction read; both ordinary local PDF downloads failed; no complete local file hash"
+    },
+    "revision2018": {
+      "method": "Author-uploaded article text retrieved through web reader; ordinary local author-page fetch and publisher page unavailable",
+      "url": "https://www.researchgate.net/publication/324607477_New_Information_on_the_osteology_and_a_taxonomic_revision_of_The_genus_Thalassodromeus_Pterodactyloidea_Tapejaridae_Thalassodrominae"
+    }
+  },
+  "boundaries": {
+    "crestLengthNotBodyLength": true,
+    "modelFragmentNotHolotypeDimensions": true,
+    "referralHistoryLimitsOlderModelInterpretation": true,
+    "notIndependentSpecimenNumberAdjudication": true,
+    "modelResultsConditionalNotConfirmedAlternativeDiet": true,
+    "thermoregulationDisplaySexHypotheses": true,
+    "source2007Abstract1kgVersusDiscussion2kgNotImportedOrAdjudicated": true,
+    "source2018GenericPublishedMarch4VersusOnlineApril19RecordedOnlineBasis": true,
+    "laterTaxonomySupplementaryMatricesImagesAndSpecimensIncomplete": true,
+    "generalLicenseVersionsNotImported": true,
+    "classificationRangesCountsAndReviewStatesUnchanged": true,
+    "activePrimateSourceGaps": 14,
+    "newlyClosedPrimateSourceGaps": 0,
+    "fixedAcceptedPrimateDenominator": 530
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All ten new bilingual sections, four limitations, modified source paragraph and genus grammar, CP/atlas pointers/titles/source IDs/overview, new bindings/reader sources/references and plan entry read. Model-material identity paragraph refined and reread. Not all old prose, science, images or subsequent classification."
+  },
+  "delivery": "Canonical authoring only; no tests, generation, commit or publication",
+  "canonicalFiles": [
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Thalassodromidae/Thalassodromeus/page.zh.md",
+      "sha256": "b304d996d527a209295adba127cb9d17ab1ddfc2d4f5b01f3a1a2ab37b5a2a75"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Thalassodromidae/Thalassodromeus/page.en.md",
+      "sha256": "8aed684fbc8787b345f675e000e53231ce9b1ea279e077e8f46797faa7cce694"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Thalassodromidae/Thalassodromeus/evidence.md",
+      "sha256": "dfdba2217faf0d5458375583a7eaa6f970ee151d2dd2cc98915af960393b65da"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Thalassodromidae/Thalassodromeus/Thalassodromeus_sethi/page.zh.md",
+      "sha256": "7170b22d786157279288c1e626783db8222267bf2715c5c8eca76a5687cd0062"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Thalassodromidae/Thalassodromeus/Thalassodromeus_sethi/page.en.md",
+      "sha256": "e45edea342f38b4d10d4f04d3133daa991f540292602cb192a5b28fad26f548d"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Thalassodromidae/Thalassodromeus/Thalassodromeus_sethi/evidence.md",
+      "sha256": "5925e655f78f24ddcae367ca351f25a90385bdcca5fb7a3774da605b6de57cb0"
+    },
+    {
+      "file": "data/references.json",
+      "sha256": "194a972e7ce040a354a02679e44c2457ca4a2d2e7917aaa60ef1092c135c1d24"
+    }
+  ]
+}

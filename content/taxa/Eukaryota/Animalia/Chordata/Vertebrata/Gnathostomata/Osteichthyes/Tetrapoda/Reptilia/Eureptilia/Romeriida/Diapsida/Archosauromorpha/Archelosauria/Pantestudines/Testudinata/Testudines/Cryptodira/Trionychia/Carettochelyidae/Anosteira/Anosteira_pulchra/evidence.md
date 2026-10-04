@@ -1,0 +1,202 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Anosteira pulchra
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Anosteira pulchra
+      en: Anosteira pulchra
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+          metadataVariant: 0
+          sourceKey: pbdbPantestudinesTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Anosteira pulchra
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=360521&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+          metadataVariant: 0
+          sourceKey: pbdbPantestudinesOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:360521; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+            pbdbTaxonId: txn:360521
+            selectedOccurrenceIds:
+              - occ:1379992
+              - occ:1426261
+              - occ:1523015
+              - occ:1523016
+              - occ:1523017
+              - occ:1523018
+              - occ:1523019
+              - occ:1523020
+              - occ:1523021
+              - occ:1523022
+              - occ:1523023
+              - occ:1523024
+              - occ:1523025
+              - occ:1523026
+              - occ:1523027
+              - occ:1523028
+              - occ:1523029
+              - occ:1523030
+              - occ:1523031
+              - occ:1523171
+              - occ:1523172
+              - occ:1523217
+              - occ:1523218
+              - occ:1578294
+              - occ:1578308
+            selectedCollectionIds:
+              - col:16594
+              - col:198273
+              - col:186895
+              - col:186896
+              - col:186893
+              - col:16572
+              - col:213058
+              - col:213059
+              - col:213060
+              - col:213061
+              - col:213062
+              - col:213063
+              - col:213064
+              - col:213065
+              - col:213066
+              - col:213067
+              - col:213068
+              - col:213069
+              - col:213070
+              - col:213112
+              - col:213113
+              - col:213134
+              - col:213135
+              - col:222799
+              - col:222802
+            sourceReferenceIds:
+              - ref:63405
+              - ref:67556
+              - ref:73540
+              - ref:78403
+            originalIdentificationMappings:
+              - occurrenceId: occ:1379992
+                originalIdentifiedName: Pseudanosteira pulchra n. gen. n. sp.
+                acceptedName: Anosteira pulchra
+                difference: recombined as
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Anosteira pulchra

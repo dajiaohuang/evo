@@ -1,0 +1,350 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Sifrhippus index
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Sifrhippus index
+      en: Sifrhippus index
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Sifrhippus index
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=49440&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:49440; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:49440
+            selectedOccurrenceIds:
+              - occ:168915
+              - occ:170666
+              - occ:170700
+              - occ:170711
+              - occ:170719
+              - occ:170880
+              - occ:170920
+              - occ:171590
+              - occ:171600
+              - occ:171606
+              - occ:171672
+              - occ:171729
+              - occ:172077
+              - occ:172307
+              - occ:172995
+              - occ:638365
+              - occ:1194032
+              - occ:1194033
+              - occ:1194034
+              - occ:1194035
+              - occ:1194036
+              - occ:1194037
+              - occ:1194038
+              - occ:1194039
+              - occ:1194040
+              - occ:1194041
+              - occ:1194042
+              - occ:1194043
+              - occ:1194044
+              - occ:1194045
+              - occ:1194046
+              - occ:1194047
+              - occ:1194048
+            selectedCollectionIds:
+              - col:15483
+              - col:15591
+              - col:15598
+              - col:15607
+              - col:15611
+              - col:15661
+              - col:15662
+              - col:15759
+              - col:15760
+              - col:15761
+              - col:15771
+              - col:15780
+              - col:15838
+              - col:15879
+              - col:15964
+              - col:15454
+              - col:154251
+              - col:154253
+              - col:154254
+              - col:154255
+              - col:154257
+              - col:154258
+              - col:154259
+              - col:154263
+              - col:154268
+              - col:154269
+              - col:154270
+              - col:154271
+              - col:154272
+              - col:154274
+              - col:154280
+              - col:154281
+              - col:154282
+            sourceReferenceIds:
+              - ref:4268
+              - ref:1660
+              - ref:6294
+              - ref:53105
+              - ref:1657
+              - ref:1760
+              - ref:19815
+              - ref:49988
+            originalIdentificationMappings:
+              - occurrenceId: occ:168915
+                originalIdentifiedName: Eohippus index
+                acceptedName: Sifrhippus index
+                difference: recombined as
+              - occurrenceId: occ:170666
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:170700
+                originalIdentifiedName: Hyracotherium index
+                acceptedName: Sifrhippus index
+                difference: recombined as
+              - occurrenceId: occ:170711
+                originalIdentifiedName: Hyracotherium index
+                acceptedName: Sifrhippus index
+                difference: recombined as
+              - occurrenceId: occ:170719
+                originalIdentifiedName: Hyracotherium index
+                acceptedName: Sifrhippus index
+                difference: recombined as
+              - occurrenceId: occ:170880
+                originalIdentifiedName: Minippus index
+                acceptedName: Sifrhippus index
+                difference: recombined as
+              - occurrenceId: occ:170920
+                originalIdentifiedName: Minippus index
+                acceptedName: Sifrhippus index
+                difference: recombined as
+              - occurrenceId: occ:171590
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:171600
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:171606
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:171672
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:171729
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:172077
+                originalIdentifiedName: Hyracotherium index
+                acceptedName: Sifrhippus index
+                difference: recombined as
+              - occurrenceId: occ:172307
+                originalIdentifiedName: Hyracotherium index
+                acceptedName: Sifrhippus index
+                difference: recombined as
+              - occurrenceId: occ:172995
+                originalIdentifiedName: Hyracotherium index
+                acceptedName: Sifrhippus index
+                difference: recombined as
+              - occurrenceId: occ:638365
+                originalIdentifiedName: Hyracotherium index
+                acceptedName: Sifrhippus index
+                difference: recombined as
+              - occurrenceId: occ:1194032
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:1194033
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:1194034
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:1194035
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:1194036
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:1194037
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:1194038
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:1194039
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:1194040
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:1194041
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:1194042
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:1194043
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:1194044
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:1194045
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:1194046
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:1194047
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+              - occurrenceId: occ:1194048
+                originalIdentifiedName: Hyracotherium sandrae
+                acceptedName: Sifrhippus index
+                difference: null
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Sifrhippus index

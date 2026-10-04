@@ -10,11 +10,11 @@ records:
       zh: 小铁灰侏狐猴
       en: Lesser Iron-gray Dwarf Lemur
     reviewStatus: source-linked
-    checkedAt: 2026-09-30
+    checkedAt: 2026-10-03
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: overview
+        sourceIds:
+          - lei2014MinusculusSamplingBoundary
         text:
           zh:
             markdown: page.zh.md
@@ -22,13 +22,124 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
+      - topic: methods
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
+          - lei2014MinusculusSamplingBoundary
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: morphology
+        sourceIds:
+          - lei2014MinusculusSamplingBoundary
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: materials
+        sourceIds:
+          - lei2014MinusculusSamplingBoundary
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: distribution
+        sourceIds:
+          - lei2014MinusculusSamplingBoundary
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+      - topic: readingPath
+        sourceIds:
+          - lei2014MinusculusSamplingBoundary
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
+      - topic: evidence_limit
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/6/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/6/text/en
+        sourceIds:
+          - groves2000
+          - nhmMinusculus
+          - groeneveld2009
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/7/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/7/text/en
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/8/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/8/text/en
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/9/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/9/text/en
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/10/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/10/text/en
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/11/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/11/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -115,6 +226,112 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+          metadataVariant: 0
+          sourceKey: eltonTraits2014
+          usage:
+            locator: MamFuncDat.txt logical TSV row 471; Scientific=Cheirogaleus minusculus; MamFuncDatSources.txt; selected group source labels retained separately.
+            accessedAt: 2026-10-02
+            sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+            sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+            selectedFieldGroups:
+              diet:
+                fields:
+                  - Diet-Inv
+                  - Diet-Vend
+                  - Diet-Vect
+                  - Diet-Vfish
+                  - Diet-Vunk
+                  - Diet-Scav
+                  - Diet-Fruit
+                  - Diet-Nect
+                  - Diet-Seed
+                  - Diet-PlantO
+                references:
+                  - id: Ref_12
+                    verbatim: "Ankel-Simons, Friderun (2007). Primate Anatomy : An Introduction (3rd ed.). Durham, North Carolina: Department of Biological Anthropology and Anatomy, Duke University. pp. 55–56. ISBN 0-12-372576-3."
+                certainty: ABC
+              foraging:
+                fields:
+                  - ForStrat-Value
+                  - ForStrat-Comment
+                references:
+                  - id: metadata:Nowak1999
+                    verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+                certainty: A
+              activity:
+                fields:
+                  - Activity-Nocturnal
+                  - Activity-Crepuscular
+                  - Activity-Diurnal
+                references:
+                  - id: Ref_1
+                    verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+                certainty: ABC
+            withheldFieldGroups: []
+            sourceRecordComment: null
+            associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+            scope:
+              zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+              en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - sourceVersion
+            - sourceFileSha256
+            - selectedFieldGroups
+            - withheldFieldGroups
+            - sourceRecordComment
+            - associationBoundary
+            - scope
+        - referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+          metadataVariant: 0
+          sourceKey: eltonTraitsMethods2014
+          usage:
+            locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+            accessedAt: 2026-10-02
+            scope:
+              zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+              en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+        - referenceId: ref-05f17313-9405-86ef-a8fb-d775af45e019
+          metadataVariant: 0
+          sourceKey: lei2014MinusculusSamplingBoundary
+          usage:
+            title: "Revision of Madagascar’s Dwarf Lemurs (Cheirogaleidae: Cheirogaleus): Designation of Species, Candidate Species Status and Geographic Boundaries Based on Molecular and Morphological Data"
+            url: https://openresearch-repository.anu.edu.au/bitstreams/d2345941-990c-44e0-ad67-13415edcdddc/download
+            accessedAt: 2026-10-03
+            locator: "Primary ANU repository PDF: front-page author/title metadata; complete Sampling collection subsection on printed p.11; C. minusculus row, headers and notes in Tables 3–4 on pp.22–23; complete C. minusculus account on p.30. PDF pages 3,14,15,22 visually inspected. Selected nearby mentions read for context, not the complete article, appendices or underlying 2000 description."
+            scope:
+              zh: 2014 年可比野外样本缺失、模式形态比较、表格空值及历史地点／状态的限定。
+              en: Missing comparable field samples in 2014, type morphology comparisons, table gaps and historical locality/status boundaries.
+            readingTargets:
+              - name: Cheirogaleus minusculus
+                colId: 5Y3NY
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Strepsirrhini/Lemuriformes/Cheirogaleoidea/Cheirogaleidae/Cheirogaleus/Cheirogaleus_minusculus
+          originalFields:
+            - id
+            - title
+            - url
+            - accessedAt
+            - locator
+            - scope
+            - readingTargets
     limitations:
       zh:
         markdown: page.zh.md

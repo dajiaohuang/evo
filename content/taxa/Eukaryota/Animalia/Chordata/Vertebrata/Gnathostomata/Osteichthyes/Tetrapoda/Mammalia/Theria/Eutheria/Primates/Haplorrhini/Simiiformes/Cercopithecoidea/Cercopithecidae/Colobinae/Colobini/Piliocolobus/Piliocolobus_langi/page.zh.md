@@ -7,7 +7,7 @@ status: migrated-verbatim
 
 # Piliocolobus langi
 
-## survey
+## 调查记录
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
 一项 2019 年快速评估在基桑加尼地区六处记录到红疣猴：两次漫查中有四处见到活体，另两处记录到三只被猎杀个体。五处记录呈现的毛色分界鲜明，作者认为符合 P. langi 的模式描述；Lindi 河右岸的两只个体不同，被归入毛色多变的 P. ellioti。报告仍未解决西部边界及若干河间地种群的身份。
@@ -43,13 +43,13 @@ range boundary
 threats
 <!-- /evo:text -->
 
-## threats
+## 威胁记录
 
 <!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
 报告在其调查地点记载非法狩猎，并回顾此前二十年若干地区发生的红疣猴大量猎杀事件；Kisangani 周边的农业开垦和伐木导致栖地损失或退化，东部的手工采矿也会带来进入林区和丛林肉需求。以上是报告整理的 2019 年区域背景与历史威胁，不是本种的当期数量、趋势估值或保护等级。
 <!-- /evo:text -->
 
-## catalogue-profile / limitations
+## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
 这些是 2019 年快速评估的观察和报告中的表型归属，不是全种调查；邻近若干种群的分类仍未解决。本页为有来源的初稿，尚未经过外部领域专家评审。

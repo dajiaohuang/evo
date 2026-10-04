@@ -1,0 +1,123 @@
+{
+  "batch": "P5-94",
+  "date": "2026-10-03",
+  "pbdbSpecies": "txn:376125",
+  "pbdbGenus": "txn:376124",
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Tapejaridae/Tapejarinae/Aymberedactylus/Aymberedactylus_cearensis",
+      "newBilingualSections": 9
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Tapejaridae/Tapejarinae/Aymberedactylus",
+      "newBilingualSections": 2
+    }
+  ],
+  "sources": [
+    {
+      "referenceId": "ref-080976af-cd77-4c50-8ea9-f59ace885e4f",
+      "metadataVariant": 0,
+      "sourceKey": "pegas2016AymberedactylusDescription",
+      "usage": {
+        "title": "A Basal Tapejarine (Pterosauria; Pterodactyloidea; Tapejaridae) from the Crato Formation, Early Cretaceous of Brazil",
+        "url": "https://doi.org/10.1371/journal.pone.0162692",
+        "accessedAt": "2026-10-03",
+        "locator": "Official Europe PMC XML: front metadata and abstract; all five scientific main body sections (Introduction, Geological Setting, Materials and Methods, complete Results including Table 1 and Description and Comparisons, Discussion); textual figure captions. Supplementary matrix, figure pixels, physical specimen and later primary matrices not independently inspected.",
+        "scope": {
+          "zh": "原始下颌描述与功能、成长、亲缘假说；后续综述的本种条目，不替代标本或矩阵复核。",
+          "en": "Original mandibular description and functional, maturity and relationship hypotheses; later species account without independent specimen or matrix review."
+        }
+      }
+    },
+    {
+      "referenceId": "ref-2414cf1c-f954-4eae-a773-7e79283097e3",
+      "metadataVariant": 0,
+      "sourceKey": "pinheiro2025AymberedactylusReview",
+      "usage": {
+        "title": "Cretaceous Pterosaurs of the Araripe Basin: A Comprehensive Taxonomic Update and Paleobiological Insights",
+        "url": "https://doi.org/10.1590/0001-3765202520250622",
+        "accessedAt": "2026-10-03",
+        "locator": "Official SciELO XML: complete Aymberedactylus genus/species account including holotype, horizon, no referrals, diagnosis, synonymy discussion and later Caupedactylia relationship; adjacent Caupedactylus account already read in P5-93. Rest of review not fully read.",
+        "scope": {
+          "zh": "原始下颌描述与功能、成长、亲缘假说；后续综述的本种条目，不替代标本或矩阵复核。",
+          "en": "Original mandibular description and functional, maturity and relationship hypotheses; later species account without independent specimen or matrix review."
+        },
+        "readingTargets": [
+          {
+            "name": "Caupedactylus ybaka",
+            "pbdbTaxonId": "txn:278901",
+            "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Tapejaridae/Tapejarinae/Caupedactylus/Caupedactylus_ybaka"
+          }
+        ]
+      }
+    }
+  ],
+  "originalSource": {
+    "doi": "10.1371/journal.pone.0162692",
+    "authors": [
+      "Rodrigo Vargas Pêgas",
+      "Maria Eduarda de Castro Leal",
+      "Alexander Wilhelm Armin Kellner"
+    ],
+    "publishedAt": "2016-09-21",
+    "license": "CC-BY-4.0",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5031394/fullTextXML",
+    "rawXmlSha256": "f5f296fc9961fccf681a4ca33ae8d3815c7b49882b42c181dcf27113bcc769cc",
+    "allScientificMainSectionsRead": true,
+    "completePaperWithImagesRead": false
+  },
+  "boundaries": {
+    "holotype": "MN 7596-V",
+    "singleMandibleNotWholeSkeleton": true,
+    "preciseLocalityUnknown": true,
+    "wingspanComparativeEstimateNotAdultMaximum": true,
+    "maturityNotExactAgeOrSex": true,
+    "functionHypothesesNotMeasuredBiteForce": true,
+    "phylogeneticMatricesNotInspectedOrRerun": true,
+    "originalCharacterNumber51Versus52DiscrepancyUnresolved": true,
+    "originalArticularSurfaceRugoseVersusSmoothDescriptionUnresolved": true,
+    "biogeographicHypothesisNotEstablishedOrigin": true,
+    "laterClassificationReviewMediated": true,
+    "referenceAuthorsPreservedAsPublishedNoCrossPaperNameNormalization": true,
+    "countsRangesClassificationUnchanged": true
+  },
+  "maturity": {
+    "fullMonograph": false,
+    "externalExpertReview": false,
+    "activePrimateSourceGaps": 14,
+    "readerVisibleDelivery": "Pending content-phase projection/publication handoff"
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All four reader pages, old occurrence prose and limits read in full; complete catalogue section pointers and new source bindings, atlas pointers and new sources read",
+    "implementationTestsRun": false
+  },
+  "delivery": "Canonical content only; no tests, generation, commit or publication",
+  "reviewRawXmlSha256": "54020894998ec47ffc731b56cf7fe7f23d213930afd1a2bad24c3d6d1e41dd9e",
+  "canonicalFiles": [
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Tapejaridae/Tapejarinae/Aymberedactylus/evidence.md",
+      "sha256": "fa1acbaf3a9574b281977449b0a29857774aef2d3168a9c1a2231deccc5eceba"
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Tapejaridae/Tapejarinae/Aymberedactylus/page.zh.md",
+      "sha256": "ab53cd629b9c56ec6f0e7476aa5f0da5f6d1dd257c5adc9900b2d3993f8dc856"
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Tapejaridae/Tapejarinae/Aymberedactylus/page.en.md",
+      "sha256": "cf28d0a84a17fb1987db741b6acb1f7ac34e66f2b8f852ca27bc5cf234dcea30"
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Tapejaridae/Tapejarinae/Aymberedactylus/Aymberedactylus_cearensis/evidence.md",
+      "sha256": "d254d1a4e8ed65ae34bf0cebb03a06a0a03ec97503aed003823ff46ebfde7ddf"
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Tapejaridae/Tapejarinae/Aymberedactylus/Aymberedactylus_cearensis/page.zh.md",
+      "sha256": "ea7583f9bf9a64298156e14ddf8da595e274c1649d2848b19563d229f70425a6"
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Tapejaridae/Tapejarinae/Aymberedactylus/Aymberedactylus_cearensis/page.en.md",
+      "sha256": "b01f6dd67cc8ce3fc5ee19484b6b886568af37b5f88399780fe269f3a45984c5"
+    }
+  ]
+}

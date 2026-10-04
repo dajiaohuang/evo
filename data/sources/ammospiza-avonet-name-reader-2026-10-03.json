@@ -1,0 +1,1945 @@
+{
+  "batch": "P5-144",
+  "date": "2026-10-03",
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_caudacuta",
+      "colId": "9G43T",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_nelsoni",
+      "colId": "9G74X",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_maritima",
+      "colId": "CVHD",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_leconteii",
+      "colId": "CVHC",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza",
+      "colId": "6299N",
+      "newBilingualSections": 3,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae",
+      "newBilingualSections": 2
+    }
+  ],
+  "newSpecies": 4,
+  "newGenus": 1,
+  "newBilingualSections": 25,
+  "sourceFiles": [
+    {
+      "file": ".git/avonet-supplementary-dataset-1-v7.xlsx",
+      "sha256": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e"
+    },
+    {
+      "file": ".git/ammospiza-avonet-source-144.json",
+      "sha256": "38738a4e0ccacb87859b8a3396aed4f0059e2f3a29f0e3afafdbd5b45e781801"
+    },
+    {
+      "file": ".git/ammospiza-col-path-144.json",
+      "sha256": "fcee2d285a44974b8d0cb01fa5116ce442887c2184620f7bc4d4f175a04f437c"
+    }
+  ],
+  "sourceRecords": {
+    "targets": [
+      {
+        "colId": "9G43T",
+        "scientificName": "Ammospiza caudacuta",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_caudacuta",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "9G6YK",
+            "parentId": "3RL",
+            "scientificName": "Passerellidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 30
+          },
+          {
+            "id": "6299N",
+            "parentId": "9G6YK",
+            "scientificName": "Ammospiza Oberholser, 1905",
+            "authorship": "Oberholser, 1905",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "parentId": "6299N",
+            "id": "9G43T",
+            "scientificName": "Ammospiza caudacuta (J. F. Gmelin, 1788)",
+            "authorship": "(J. F. Gmelin, 1788)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      {
+        "colId": "9G74X",
+        "scientificName": "Ammospiza nelsoni",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_nelsoni",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "9G6YK",
+            "parentId": "3RL",
+            "scientificName": "Passerellidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 30
+          },
+          {
+            "id": "6299N",
+            "parentId": "9G6YK",
+            "scientificName": "Ammospiza Oberholser, 1905",
+            "authorship": "Oberholser, 1905",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "parentId": "6299N",
+            "id": "9G74X",
+            "scientificName": "Ammospiza nelsoni (J. A. Allen, 1875)",
+            "authorship": "(J. A. Allen, 1875)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      {
+        "colId": "CVHD",
+        "scientificName": "Ammospiza maritima",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_maritima",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "9G6YK",
+            "parentId": "3RL",
+            "scientificName": "Passerellidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 30
+          },
+          {
+            "id": "6299N",
+            "parentId": "9G6YK",
+            "scientificName": "Ammospiza Oberholser, 1905",
+            "authorship": "Oberholser, 1905",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "parentId": "6299N",
+            "id": "CVHD",
+            "scientificName": "Ammospiza maritima (A. Wilson, 1811)",
+            "authorship": "(A. Wilson, 1811)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      {
+        "colId": "CVHC",
+        "scientificName": "Ammospiza leconteii",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_leconteii",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "9G6YK",
+            "parentId": "3RL",
+            "scientificName": "Passerellidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 30
+          },
+          {
+            "id": "6299N",
+            "parentId": "9G6YK",
+            "scientificName": "Ammospiza Oberholser, 1905",
+            "authorship": "Oberholser, 1905",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 4
+          },
+          {
+            "parentId": "6299N",
+            "id": "CVHC",
+            "scientificName": "Ammospiza leconteii (Audubon, 1844)",
+            "authorship": "(Audubon, 1844)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      }
+    ],
+    "sheets": {
+      "Metadata": [
+        {
+          "excelRow": 2,
+          "record": {
+            "Variable": "Sequence",
+            "Description": "Unique sequence identifier used by BirdLife international. Ordering the \"BirdLife taxonomy\" dataset this way will convert from alphabetical to the sequence used by BirdLife International",
+            "Variable Types": "ID",
+            "Units": null,
+            "Source": "HBW-BirdLife Version 5.0 (December 2020)"
+          }
+        },
+        {
+          "excelRow": 3,
+          "record": {
+            "Variable": "Species1",
+            "Description": "Species taxonomy according to BirdLife international",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": "HBW-BirdLife Version 5.0 (December 2020). Handbook of the Birds of the World and BirdLife International (2020). Handbook of the Birds of the World and BirdLife International digital checklist of the birds of the world. Version 5. Available at: http://datazone.birdlife.org/userfiles/file/Species/Taxonomy/HBW-BirdLife_Checklist_v5_Dec20.zip    \nCurrent BirdLife taxonomy including detailed taxonomic notes is available at http://datazone.birdlife.org/species/taxonomy"
+          }
+        },
+        {
+          "excelRow": 4,
+          "record": {
+            "Variable": "Family1",
+            "Description": "Family-level taxonomy according to BirdLife international ",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": "HBW-BirdLife Version 5.0 (December 2020). Handbook of the Birds of the World and BirdLife International (2020). Handbook of the Birds of the World and BirdLife International digital checklist of the birds of the world. Version 5. Available at: http://datazone.birdlife.org/userfiles/file/Species/Taxonomy/HBW-BirdLife_Checklist_v5_Dec20.zip    \nCurrent BirdLife taxonomy including detailed taxonomic notes is available at http://datazone.birdlife.org/species/taxonomy"
+          }
+        },
+        {
+          "excelRow": 5,
+          "record": {
+            "Variable": "Order1",
+            "Description": "Order-level taxonomy according to BirdLife international ",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": "HBW-BirdLife Version 5.0 (December 2020). Handbook of the Birds of the World and BirdLife International (2020). Handbook of the Birds of the World and BirdLife International digital checklist of the birds of the world. Version 5. Available at: http://datazone.birdlife.org/userfiles/file/Species/Taxonomy/HBW-BirdLife_Checklist_v5_Dec20.zip    \nCurrent BirdLife taxonomy including detailed taxonomic notes is available at http://datazone.birdlife.org/species/taxonomy"
+          }
+        },
+        {
+          "excelRow": 6,
+          "record": {
+            "Variable": "Species2",
+            "Description": "Species taxonomy according to eBird (following latest updates in the Clements checklist)",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": "eBird/Clements v2021 (Aug 2021). Clements, J.F., Schulenberg, T.S., Iliff, M.J., Billerman, S.M., Fredericks, T.A., Gerbracht, J.A., Lepage, D., Sullivan, B.L. & Wood, C.L. (2021). The eBird/Clements checklist of birds of the world: v2021. Available at https://www.birds.cornell.edu/clementschecklist/download/ Current \neBird/Clements taxonomy including detailed taxonomic notes are available at https://www.birds.cornell.edu/clementschecklist/overview-august-2021/ and  https://support.ebird.org/en/support/solutions/articles/48000837816-the-ebird-taxonomy"
+          }
+        },
+        {
+          "excelRow": 7,
+          "record": {
+            "Variable": "Family2",
+            "Description": "Family-level taxonomy according to eBird (following latest updates in the Clements checklist)",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": "eBird/Clements v2021 (Aug 2021). Clements, J.F., Schulenberg, T.S., Iliff, M.J., Billerman, S.M., Fredericks, T.A., Gerbracht, J.A., Lepage, D., Sullivan, B.L. & Wood, C.L. (2021). The eBird/Clements checklist of birds of the world: v2021. Available at https://www.birds.cornell.edu/clementschecklist/download/ Current \neBird/Clements taxonomy including detailed taxonomic notes are available at https://www.birds.cornell.edu/clementschecklist/overview-august-2021/ and  https://support.ebird.org/en/support/solutions/articles/48000837816-the-ebird-taxonomy"
+          }
+        },
+        {
+          "excelRow": 8,
+          "record": {
+            "Variable": "Order2",
+            "Description": "Order-level taxonomy according to eBird (following latest updates in the Clements checklist) ",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": "eBird/Clements v2021 (Aug 2021). Clements, J.F., Schulenberg, T.S., Iliff, M.J., Billerman, S.M., Fredericks, T.A., Gerbracht, J.A., Lepage, D., Sullivan, B.L. & Wood, C.L. (2021). The eBird/Clements checklist of birds of the world: v2021. Available at https://www.birds.cornell.edu/clementschecklist/download/ Current \neBird/Clements taxonomy including detailed taxonomic notes are available at https://www.birds.cornell.edu/clementschecklist/overview-august-2021/ and  https://support.ebird.org/en/support/solutions/articles/48000837816-the-ebird-taxonomy"
+          }
+        },
+        {
+          "excelRow": 9,
+          "record": {
+            "Variable": "Species3",
+            "Description": "Species taxonomy and nomenclature according to BirdTree, the most recent global bird phylogeny",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": "Jetz et al. 2012 Nature (www.birdtree.org) "
+          }
+        },
+        {
+          "excelRow": 10,
+          "record": {
+            "Variable": "Family3",
+            "Description": "Family-level taxonomy and nomenclature according to BirdTree, the most recent global bird phylogeny",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": "Jetz et al. 2012 Nature (www.birdtree.org) "
+          }
+        },
+        {
+          "excelRow": 11,
+          "record": {
+            "Variable": "Order3",
+            "Description": "Order-level taxonomy according to BirdTree, the most recent global bird phylogeny ",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": "Jetz et al. 2012 Nature (www.birdtree.org) "
+          }
+        },
+        {
+          "excelRow": 12,
+          "record": {
+            "Variable": "Total.individuals",
+            "Description": "Number of individual specimens and live birds measured for each species",
+            "Variable Types": "discrete",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 13,
+          "record": {
+            "Variable": "Female",
+            "Description": "Number of measured individuals identified as female",
+            "Variable Types": "discrete",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 14,
+          "record": {
+            "Variable": "Male",
+            "Description": "Number of measured individuals identified as male",
+            "Variable Types": "discrete",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 15,
+          "record": {
+            "Variable": "Unknown",
+            "Description": "Number of unsexed individuals measured",
+            "Variable Types": "discrete",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 16,
+          "record": {
+            "Variable": "Complete.measures",
+            "Description": "Number of measured individuals with complete set of morphometric trait measurements ",
+            "Variable Types": "discrete",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 17,
+          "record": {
+            "Variable": "Beak.Length_Culmen",
+            "Description": "Length from the tip of the beak to the base of the skull",
+            "Variable Types": "continuous",
+            "Units": "mm",
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 18,
+          "record": {
+            "Variable": "Beak.Length_Nares",
+            "Description": "Length from the anterior edge of the nostrils to the tip of the beak",
+            "Variable Types": "continuous",
+            "Units": "mm",
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 19,
+          "record": {
+            "Variable": "Beak.Width",
+            "Description": "Width of the beak at the anterior edge of the nostrils",
+            "Variable Types": "continuous",
+            "Units": "mm",
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 20,
+          "record": {
+            "Variable": "Beak.Depth",
+            "Description": "Depth of the beak at the anterior edge of the nostrils",
+            "Variable Types": "continuous",
+            "Units": "mm",
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 21,
+          "record": {
+            "Variable": "Tarsus.Length",
+            "Description": "Length of the tarsus from the posterior notch between tibia and tarsus, to the end of the last scale of acrotarsium (at the bend of the foot)",
+            "Variable Types": "continuous",
+            "Units": "mm",
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 22,
+          "record": {
+            "Variable": "Wing.Length",
+            "Description": "Length from the carpal joint (bend of the wing) to the tip of the longest primary on the unflattened wing",
+            "Variable Types": "continuous",
+            "Units": "mm",
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 23,
+          "record": {
+            "Variable": "Kipps.Distance",
+            "Description": "Length from the tip of the first secondary feather to the tip of the longest primary      ",
+            "Variable Types": "continuous",
+            "Units": "mm",
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 24,
+          "record": {
+            "Variable": "Secondary1",
+            "Description": "Length from the carpal joint (bend of the wing) to the tip of the first secondary, i.e. the outermost secondary adjacent to the innermost primary feather. Secondary1 is roughly equivalent to Wing length minus Kipp’s distance (measured in a fully folded and flat wing)",
+            "Variable Types": "continuous",
+            "Units": "mm",
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 25,
+          "record": {
+            "Variable": "Hand-Wing.Index",
+            "Description": "100*DK/Lw, where DK is Kipp’s distance and Lw is wing length (i.e., Kipp’s distance corrected for wing size). Species average HWI differ from estimates in Sheard et al. (2020) because of much higher sampling of individuals in some species, as well as taxonomic effects in the BirdLife list",
+            "Variable Types": "continuous",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 26,
+          "record": {
+            "Variable": "Tail.Length",
+            "Description": "Distance between the tip of the longest rectrix and the point at which the two central rectrices protrude from the skin, typically measured using a ruler inserted between the two central rectrices",
+            "Variable Types": "continuous",
+            "Units": "mm",
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 27,
+          "record": {
+            "Variable": "Mass",
+            "Description": "Body mass given as species average (incorporating both male and female body mass)",
+            "Variable Types": "continuous",
+            "Units": "gram",
+            "Source": "See Mass Source column"
+          }
+        },
+        {
+          "excelRow": 28,
+          "record": {
+            "Variable": "Mass.Source",
+            "Description": "Dunning (= Dunning, JB [2008] CRC Handbook of Avian Body Masses);\nEltonTraits_Other (= mass published by Wilman et al. 2014 EltonTraits 1.0. Ecology, on basis of literature other than Dunning, usually Handbook of the Birds of the World [now Birds of the World, Cornell])\nEltonTraits_GenAvg (= average of the genus, published in Wilman et al. 2014 EltonTraits 1.0. Ecology); \nEltonTraits_Model (= inferred from mass and length data, with mass-length relationships parameterized at family level, published in Wilman et al. 2014 EltonTraits 1.0. Ecology);\nUpdated_literature (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from literature and online resources, including Birds of the World - specific sources are listed in the Mass.Ref.Source column);  \nUpdated_live.sample (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from museum labels and/or field data of from wild birds weighed using a Pezola balance before release. Specific sources are listed in the Mass.Ref.Source column);  \nInferred (= where EltonTraits GenAvg or Modelled data seemed misleading, and no published data were available for updating, we replaced it where possible with data inferred directly from a morphologically similar relative. Reference species and Traits inferred columns indicate where mass has been inferred and from which species);\nDataFromSplit (= daughter species body mass inferred from parent species after split; the parent or nominate form is typically morphologically similar and provides a reasonable estimate of body mass, particularly as mass data used to calculate the parent species body mass in earlier publications sometimes includes data from the recently split daughter species).\n",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 29,
+          "record": {
+            "Variable": "Mass.Refs.Other",
+            "Description": "Source of Updated mass data, including primary and secondary literature, online resources and museum specimen data. Primary and secondary literature citations or abbreviations are given in full in the sheet named \"Mass_Sources\"",
+            "Variable Types": "NA",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 30,
+          "record": {
+            "Variable": "Inference",
+            "Description": "NO = all biometric trait data were obtained from direct measurement of specimens, or in the case of body mass from published sources\nYES = at least some of the biometric traits were unavailable from specimens so these trait data were inferred from a closely related species; in some cases all morphological measurements were taken directly except for body mass, which can't be measured on museum specimens.",
+            "Variable Types": "binary",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 31,
+          "record": {
+            "Variable": "Traits.inferred",
+            "Description": "List of traits inferred from the reference species",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 32,
+          "record": {
+            "Variable": "Reference.species",
+            "Description": "Species from which the biometric data were inferred",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 33,
+          "record": {
+            "Variable": "Habitat",
+            "Description": "Desert (= drylands and other open arid habitats, often sandy with very sparse vegetation); \nRock (= rocky substrate typically with no or very little vegetation, including rocky outcrops, rocky coastlines, arid stony steppes, rocky mountaintops and mountain slopes); \nGrassland (=  open dry to moist grass-dominated landscapes, at all elevations); \nShrubland (= low stature bushy habitats, included thornscrub, thorny or arid savanna, caatinga, xerophytic shrubland and coastal scrub); \nWoodland (= medium stature tree-dominated habitats, including Acacia woodland, riparian woodlands, mangrove forests, forest edges, also more open parkland with scattered taller trees);\nForest (= tall tree-dominated vegetation with more or less closed canopy, including palm forest); \nHuman modified (urban landscapes, intensive agriculture, gardens); \nWetland (= wide range of freshwater aquatic habitats including lakes, marshes, swamps and reedbeds); \nRiverine (= associated with rivers and streams at all elevations); \nCoastal (= intertidal zones within immediate vicinity of beaches, estuaries, brackish to salty marshes, including mudflats, lagoons, alkaline wetlands, coastal dunes and harbours);\nMarine (= pelagic, on sea near coasts, including species in the intertidal zone on beaches, and those pelagic species nesting near the sea on cliffs, islets and islands).",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": "Data extracted from primary and secondary literature, particularly Handbook of the Birds of the World (including Birds of the World)"
+          }
+        },
+        {
+          "excelRow": 34,
+          "record": {
+            "Variable": "Habitat.Density",
+            "Description": "1 = Dense habitats. Species primarily lives in the lower or middle storey of forest, or in dense thickets, dense shrubland etc.\n2 = Semi-open habitats. Species primarily lives in open shrubland, scattered bushes, parkland, low dry or deciduous forest, thorn forest. \n3 = Open habitats. Species primarily lives in desert, grassland, open water, low shrubs, rocky habitats, seashores, cities. Also applies to species living mainly on top of forest canopy (i.e. mostly in the open)",
+            "Variable Types": "discrete",
+            "Units": null,
+            "Source": "Tobias et al. (2016) Frontiers Ecol. Evol."
+          }
+        },
+        {
+          "excelRow": 35,
+          "record": {
+            "Variable": "Migration",
+            "Description": "1 = Sedentary. \n2 = Partially migratory, i.e. minority of population migrates long distances, or most of population undergoes short-distance migration, nomadic movements, distinct altitudinal migration, etc.\n3 = Migratory, i.e. majority of population undertakes long-distance migration",
+            "Variable Types": "discrete",
+            "Units": null,
+            "Source": "Tobias & Pigot (2019) Phil. Trans. Roy. Soc."
+          }
+        },
+        {
+          "excelRow": 36,
+          "record": {
+            "Variable": "Trophic.Level",
+            "Description": "Herbivore = species obtaining at least 70% of food resources from plants; Carnivore = species obtaining at least 70% of food resources by consuming live invertebrate or vertebrate animals; Scavenger = species obtaining at least 70% of food resources from carrion or refuse; Omnivore = species obtaining resources from multiple trophic level in roughly equal proportion",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+          }
+        },
+        {
+          "excelRow": 37,
+          "record": {
+            "Variable": "Trophic.Niche",
+            "Description": "Frugivore = species obtaining at least 60% of food resources from fruit; \nGranivore = species obtaining at least 60% of food resources from seeds or nuts; \nNectarivore =  species obtaining at least 60% of food resources from nectar; \nHerbivore = species obtaining at least 60% of food resources from other plant materials in non-aquatic systems, including leaves, buds, whole flowers etc.; \nHerbivore aquatic = species obtaining at least 60% of food resources from plant materials in aquatic systems, including algae and aquatic plant leaves; \nInvertivore = species obtaining at least 60% of food resources from invertebrates in terrestrial systems, including insects, worms, arachnids, etc.; \nVertivore = species obtaining at least 60% of food resources from vertebrate animals in terrestrial systems, including mammals, birds, reptiles etc.; \nAquatic Predator = species obtaining at least 60% of food resources from vertebrate and invertebrate animals in aquatic systems, including fish, crustacea, molluscs, etc; \nScavenger = species obtaining at least 60% of food resources from carrion, offal or refuse; Omnivore = Species using multiple niches, within or across trophic levels, in relatively equal proportions ",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+          }
+        },
+        {
+          "excelRow": 38,
+          "record": {
+            "Variable": "Primary.Lifestyle",
+            "Description": "Aerial = species spends much of the time in flight, and hunts or forages predominantly on the wing; \nTerrestrial = species spends majority of its time on the ground, where it obtains food while either walking or hopping (note this includes species that also wade in water with their body raised above the water); \nInsessorial = species spends much of the time perching above the ground, either in branches of trees and other vegetation (i.e. arboreal), or on other raised substrates including rocks, buildings, posts, and wires; \nAquatic = species spends much of the time sitting on water, and obtains  food while afloat or when diving under the water's surface; Generalist = species has no primary lifestyle because it spends time in different lifestyle classes",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 39,
+          "record": {
+            "Variable": "Min.Latitude",
+            "Description": "The minimum latitudinal extent of the species range (restricted to breeding and resident range)",
+            "Variable Types": "continuous",
+            "Units": "decimal degrees",
+            "Source": "All BirdLife taxonomy data: BirdLife International and Handbook of the Birds of the World (2019) Bird species distribution maps of the world. Version 2019.1 (accessed 27/03/2020). \n\nBirdTree species that were subsequently merged: BirdLife International and NatureServe (2012) Bird species distribution maps of the world. Version 2.0 (accessed 08/07/2011). \n(Updated maps can be requested at: http://datazone.birdlife.org/species/requestdis)"
+          }
+        },
+        {
+          "excelRow": 40,
+          "record": {
+            "Variable": "Max.Latitude",
+            "Description": "The maximum latitudinal extent of the species range (restricted to breeding and resident range)",
+            "Variable Types": "continuous",
+            "Units": "decimal degrees",
+            "Source": "All birdlife taxonomy data: BirdLife International and Handbook of the Birds of the World (2019) Bird species distribution maps of the world. Version 2019.1 (accessed 27/03/2020). \n\nJetz species that were subsequently merged: BirdLife International and NatureServe (2012) Bird species distribution maps of the world. Version 2.0 (accessed 08/07/2011). \n(Updated maps can be requested at: http://datazone.birdlife.org/species/requestdis)"
+          }
+        },
+        {
+          "excelRow": 41,
+          "record": {
+            "Variable": "Centroid.Latitude",
+            "Description": "The geometric centre of the species range (restricted to breeding and resident range), calculated using the calcCentroid function from the R package PBSmapping (Schnute et al., 2017). This function projects ranges into the Universal Transverse Mercator (UTM) projection, to accurately calculate centroids at high latitudes. To generate the breeding and resident range, we used the following settings: Presence: 1 (Extant). Origin 1 & 2 (Native & Reintroduced). Seasonality 1 & 2 (resident and breeding season)",
+            "Variable Types": "continuous",
+            "Units": "decimal degrees",
+            "Source": "All birdlife taxonomy data: BirdLife International and Handbook of the Birds of the World (2019) Bird species distribution maps of the world. Version 2019.1 (accessed 27/03/2020). \n\nBirdTree species that were subsequently merged: BirdLife International and NatureServe (2012) Bird species distribution maps of the world. Version 2.0 (accessed 08/07/2011). \n(Updated maps can be requested at: http://datazone.birdlife.org/species/requestdis)"
+          }
+        },
+        {
+          "excelRow": 42,
+          "record": {
+            "Variable": "Centroid.Longitude",
+            "Description": "The geometric centre of the species range (restricted to breeding and resident range), calculated using the calcCentroid function from the R package PBSmapping (Schnute et al., 2017). This function projects ranges into the Universal Transverse Mercator (UTM) projection, to accurately calculate centroids at high latitudes. To generate the breeding and resident range, we used the following settings: Presence: 1 (Extant). Origin 1 & 2 (Native & Reintroduced). Seasonality 1 & 2 (resident and breeding season)",
+            "Variable Types": "continuous",
+            "Units": "decimal degrees",
+            "Source": "All birdlife taxonomy data: BirdLife International and Handbook of the Birds of the World (2019) Bird species distribution maps of the world. Version 2019.1 (accessed 27/03/2020). \n\nBirdTree species that were subsequently merged: BirdLife International and NatureServe (2012) Bird species distribution maps of the world. Version 2.0 (accessed 08/07/2011). \n(Updated maps can be requested at: http://datazone.birdlife.org/species/requestdis)"
+          }
+        },
+        {
+          "excelRow": 43,
+          "record": {
+            "Variable": "Range.Size",
+            "Description": "The total area of the mapped range of the species (not the Extent of Occurrence [EOO]). We used maps shared by BirdLife International and restricted our analysis to areas of the range coded as Presence = 1 (Extant only), Origin = 1 & 2 (Native & Reintroduced),\nSeasonal = 1 & 2 (Resident and breeding). We calculated the total combined mapped area of these parts of the range using the areaPolygon function from the R package geosphere (Hijmans et al., 2011). This function accurately calculates the area in the World Geodetic System (WGS84) projection using spherical distances",
+            "Variable Types": "continuous",
+            "Units": "km2",
+            "Source": "All birdlife taxonomy data: BirdLife International and Handbook of the Birds of the World (2019) Bird species distribution maps of the world. Version 2019.1 (accessed 27/03/2020). \n\nBirdTree species that were subsequently merged: BirdLife International and NatureServe (2012) Bird species distribution maps of the world. Version 2.0 (accessed 08/07/2011). \n(Updated maps can be requested at: http://datazone.birdlife.org/species/requestdis)"
+          }
+        },
+        {
+          "excelRow": 44,
+          "record": {
+            "Variable": "Species.Status",
+            "Description": "Extant = the species is extant according to BirdLife international\nExtinct = the species is extinct according to BirdLife international \nInvalid = the species is currently not recognised by BirdLife international on the basis of published information suggesting it does not exist (e.g. it may be a hybrid taxon, a genetic variant, or fails to meet criteria for species status)",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": "Extracted from BirdLife international (www.birdlife.org) "
+          }
+        },
+        {
+          "excelRow": 45,
+          "record": {
+            "Variable": "Avibase.ID",
+            "Description": "Unique identifier for species (or species group) linking to the Avibase dataset which provide detailed information on taxonomy, synonymy and distribution for the world's birds. See https://avibase.bsc-eoc.org/",
+            "Variable Types": "ID",
+            "Units": null,
+            "Source": "https://avibase.bsc-eoc.org/"
+          }
+        },
+        {
+          "excelRow": 46,
+          "record": {
+            "Variable": "Avibase.ID1",
+            "Description": "Unique Avibase identifier for the species concept according to BirdLife international",
+            "Variable Types": "ID",
+            "Units": null,
+            "Source": "https://avibase.bsc-eoc.org/"
+          }
+        },
+        {
+          "excelRow": 47,
+          "record": {
+            "Variable": "Avibase.ID2",
+            "Description": "Unique Avibase identifier for the species concept according to eBird",
+            "Variable Types": "ID",
+            "Units": null,
+            "Source": "https://avibase.bsc-eoc.org/"
+          }
+        },
+        {
+          "excelRow": 48,
+          "record": {
+            "Variable": "eBird.species.group",
+            "Description": "Names of taxonomic units linking trait data in the AVONET raw data to eBird. Unlike the species-level data in AVONET 2, this list contains standard eBird names for individuals that cannot be assigned to species (e.g. Acanthis hornemanni/flammea/cabaret for redpolls that could not be assigned to a particular species)",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 49,
+          "record": {
+            "Variable": "Data.type",
+            "Description": "1 = museum specimen\n2 =  live individual",
+            "Variable Types": "binary",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 50,
+          "record": {
+            "Variable": "Source",
+            "Description": "Abbreviation of the source collection (museum or research collection). See the Data Sources tab for the full list of institutional names. \nField1 = unpublished field data.\nField2 = published field data.",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 51,
+          "record": {
+            "Variable": "Specimen.number",
+            "Description": "Specimen accession and/or collection number (including corrections to erroneous numbers)",
+            "Variable Types": "ID",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 52,
+          "record": {
+            "Variable": "Sex",
+            "Description": "Sex of the individual sampled: M = Male; F = Female; U = Unknown",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 53,
+          "record": {
+            "Variable": "Age",
+            "Description": "0 = all biometric trait data were obtained from direct measurement of an adult specimen.  \n1 = all biometric trait data were obtained from direct measurement of an immature specimen. Note that juvenile specimens or any specimen notably less than adult size were removed from the dataset.",
+            "Variable Types": "binary",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 54,
+          "record": {
+            "Variable": "Locality",
+            "Description": "Locality at which the individual was collected or trapped-released.  Infomation presented here is based on data submitted by the measurers, with some corrections where old locality assignments have been updated. For museum specimens this is taken from the label, hence some mis-transcriptions still need correcting. Data are embargoed for 1 year to allow completion of this process. ",
+            "Variable Types": "NA",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 55,
+          "record": {
+            "Variable": "Country_WRI",
+            "Description": "Country in which the individual was collected or trapped/released following boundaries deignated by the World Resources Institute, for the purposes of mapping.",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": "World Resources Institute (https://github.com/wri/wri-bounds accessed on 14/10/2020). "
+          }
+        },
+        {
+          "excelRow": 56,
+          "record": {
+            "Variable": "Country",
+            "Description": "Country (or other designation such as archipelago, state, dependency etc.) in which the individual was collected or trapped/released. Infomation presented here is based on data submitted by the measurers, with corrections where old country assignments have been updated. For museum specimens this information is typically transcribed from hand-written labels, hence some mis-transcriptions still need correcting. Data are embargoed for 1 year to allow completion of this process.",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 57,
+          "record": {
+            "Variable": "Measurer",
+            "Description": "Unique identifier (initials or other abbreviation) used to identify each individual measurer. See the Measurers tab for the full list of names.",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 58,
+          "record": {
+            "Variable": "Protocol",
+            "Description": "0 = biometric measurements not taken using AVONET protocol.\n1 = biometric measurements taken using AVONET protocol.",
+            "Variable Types": "binary",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 59,
+          "record": {
+            "Variable": "Publication",
+            "Description": "In AVONET_Raw_Data: Citation for specimen measurements taken from published sources.",
+            "Variable Types": "NA",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 60,
+          "record": {
+            "Variable": "Citation",
+            "Description": "In Mass_Sources tab: Citation or abbreviation used in the Mass.Refs.Other column in AVONET_1–3",
+            "Variable Types": null,
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 61,
+          "record": {
+            "Variable": "Full Reference",
+            "Description": "In Mass_Sources tab: Full details of the source cited in the Mass.Refs.Other column in AVONET_1–3",
+            "Variable Types": null,
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 62,
+          "record": {
+            "Variable": "Institution.name",
+            "Description": "In Data_Sources tab: Full name of museum or collection from which traits were measured",
+            "Variable Types": "NA",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 63,
+          "record": {
+            "Variable": "Specimens.sampled",
+            "Description": "In Data_Sources tab: Number of specimens measured in each museum or collection",
+            "Variable Types": "discrete",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 64,
+          "record": {
+            "Variable": "Institution.city",
+            "Description": "In Data_Sources tab: City where museum or collection is located",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 65,
+          "record": {
+            "Variable": "Institution.country",
+            "Description": "In Data_Sources tab: Country where museum or collection is located",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 66,
+          "record": {
+            "Variable": "Latitude",
+            "Description": "In Data_Sources tab: Latitude of museum or collection",
+            "Variable Types": "coordinate",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 67,
+          "record": {
+            "Variable": "Longitude",
+            "Description": "In Data_Sources tab: Longitude of museum or collection",
+            "Variable Types": "coordinate",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 68,
+          "record": {
+            "Variable": "Address",
+            "Description": "In Data_Sources tab: Full address of museum or collection",
+            "Variable Types": "NA",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 69,
+          "record": {
+            "Variable": "Measurer.Name",
+            "Description": "In Measurers tab: Full name of each individual measurer",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 70,
+          "record": {
+            "Variable": "Individuals.Measured",
+            "Description": "In Measurers tab: Number of museum specimens and/or individual live birds measured by each measurer",
+            "Variable Types": "discrete",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 71,
+          "record": {
+            "Variable": "Match.type",
+            "Description": "In crosswalk tabs: Type of taxonomic match between source and target taxonomy. 1-to-1 indicates a direct match with like-for-like names; 1-to-1 marked with an asterisk (*; e.g. 1BL to 1eBird*) indicates that the match is imperfect, typically because one or more subspecies are assigned differently in the two treatments; 1-to-many indicates that a single taxon in the first taxonomy represents multiple taxa in the second taxonomy; many-to-1 indicates the reverse; many-to-many indicates a complex match with multiple taxa in both treatments; newly described species are cases which are not currently recognised by a taxonomy.",
+            "Variable Types": "categorical",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 72,
+          "record": {
+            "Variable": "Match.notes",
+            "Description": "In crosswalk tabs: Notes on taxonomic matching in the BirdLife-eBird crosswalk. A conservative approach was taken to assigning eBird subspecies or species groups to BirdLife species. In many cases, some specimens of a particular BirdLife taxon can be assigned to an eBird species while other specimens of the same BirdLife taxon can't be assigned because of uncertain provenance (e.g. locality data are ambiguous or lacking). This means that different specimens of individual BirdLife taxa may map onto multiple eBird categories, often including both species and species groups. Notes also highlight cases involving imperfect matches between taxa with the same name but a different allocation of subspecies.",
+            "Variable Types": "NA",
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 73,
+          "record": {
+            "Variable": null,
+            "Description": null,
+            "Variable Types": null,
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 74,
+          "record": {
+            "Variable": null,
+            "Description": null,
+            "Variable Types": null,
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 75,
+          "record": {
+            "Variable": null,
+            "Description": null,
+            "Variable Types": null,
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 76,
+          "record": {
+            "Variable": null,
+            "Description": null,
+            "Variable Types": null,
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 77,
+          "record": {
+            "Variable": null,
+            "Description": null,
+            "Variable Types": null,
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 78,
+          "record": {
+            "Variable": null,
+            "Description": null,
+            "Variable Types": null,
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 79,
+          "record": {
+            "Variable": null,
+            "Description": null,
+            "Variable Types": null,
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 80,
+          "record": {
+            "Variable": null,
+            "Description": null,
+            "Variable Types": null,
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 81,
+          "record": {
+            "Variable": null,
+            "Description": null,
+            "Variable Types": null,
+            "Units": null,
+            "Source": null
+          }
+        },
+        {
+          "excelRow": 82,
+          "record": {
+            "Variable": null,
+            "Description": null,
+            "Variable Types": null,
+            "Units": null,
+            "Source": null
+          }
+        }
+      ],
+      "AVONET1_BirdLife": [
+        {
+          "excelRow": 6373,
+          "record": {
+            "Sequence": 10429,
+            "Species1": "Ammospiza caudacuta",
+            "Family1": "Passerellidae",
+            "Order1": "Passeriformes",
+            "Avibase.ID1": "AVIBASE-79C9C8C4",
+            "Total.individuals": 10,
+            "Female": 4,
+            "Male": 6,
+            "Unknown": 0,
+            "Complete.measures": 9,
+            "Beak.Length_Culmen": 15.7,
+            "Beak.Length_Nares": 9,
+            "Beak.Width": 3.8,
+            "Beak.Depth": 5.4,
+            "Tarsus.Length": 21.2,
+            "Wing.Length": 56.8,
+            "Kipps.Distance": 10.6,
+            "Secondary1": 46.1,
+            "Hand-Wing.Index": 18.9,
+            "Tail.Length": 47.5,
+            "Mass": 19.19,
+            "Mass.Source": "Dunning",
+            "Mass.Refs.Other": "NA",
+            "Inference": "NO",
+            "Traits.inferred": "NA",
+            "Reference.species": "NA",
+            "Habitat": "Wetland",
+            "Habitat.Density": 3,
+            "Migration": 3,
+            "Trophic.Level": "Carnivore",
+            "Trophic.Niche": "Invertivore",
+            "Primary.Lifestyle": "Generalist",
+            "Min.Latitude": 36.02,
+            "Max.Latitude": 43.95,
+            "Centroid.Latitude": 39.39,
+            "Centroid.Longitude": -74.71,
+            "Range.Size": 69526.84
+          }
+        },
+        {
+          "excelRow": 6374,
+          "record": {
+            "Sequence": 10426,
+            "Species1": "Ammospiza leconteii",
+            "Family1": "Passerellidae",
+            "Order1": "Passeriformes",
+            "Avibase.ID1": "AVIBASE-B656B15D",
+            "Total.individuals": 6,
+            "Female": 3,
+            "Male": 3,
+            "Unknown": 0,
+            "Complete.measures": 6,
+            "Beak.Length_Culmen": 11.2,
+            "Beak.Length_Nares": 7.1,
+            "Beak.Width": 4.2,
+            "Beak.Depth": 5,
+            "Tarsus.Length": 17.3,
+            "Wing.Length": 53,
+            "Kipps.Distance": 10,
+            "Secondary1": 43.1,
+            "Hand-Wing.Index": 18.8,
+            "Tail.Length": 52,
+            "Mass": 13,
+            "Mass.Source": "Dunning",
+            "Mass.Refs.Other": "NA",
+            "Inference": "NO",
+            "Traits.inferred": "NA",
+            "Reference.species": "NA",
+            "Habitat": "Grassland",
+            "Habitat.Density": 3,
+            "Migration": 3,
+            "Trophic.Level": "Omnivore",
+            "Trophic.Niche": "Granivore",
+            "Primary.Lifestyle": "Generalist",
+            "Min.Latitude": 43.64,
+            "Max.Latitude": 62.85,
+            "Centroid.Latitude": 53.02,
+            "Centroid.Longitude": -101.5,
+            "Range.Size": 2867567.84
+          }
+        },
+        {
+          "excelRow": 6375,
+          "record": {
+            "Sequence": 10427,
+            "Species1": "Ammospiza maritima",
+            "Family1": "Passerellidae",
+            "Order1": "Passeriformes",
+            "Avibase.ID1": "AVIBASE-0F81304F",
+            "Total.individuals": 9,
+            "Female": 4,
+            "Male": 5,
+            "Unknown": 0,
+            "Complete.measures": 8,
+            "Beak.Length_Culmen": 16.3,
+            "Beak.Length_Nares": 11.1,
+            "Beak.Width": 4.2,
+            "Beak.Depth": 6.3,
+            "Tarsus.Length": 22.9,
+            "Wing.Length": 60.6,
+            "Kipps.Distance": 9.1,
+            "Secondary1": 51.8,
+            "Hand-Wing.Index": 14.8,
+            "Tail.Length": 54.8,
+            "Mass": 22.16,
+            "Mass.Source": "Dunning",
+            "Mass.Refs.Other": "NA",
+            "Inference": "NO",
+            "Traits.inferred": "NA",
+            "Reference.species": "NA",
+            "Habitat": "Wetland",
+            "Habitat.Density": 3,
+            "Migration": 2,
+            "Trophic.Level": "Carnivore",
+            "Trophic.Niche": "Invertivore",
+            "Primary.Lifestyle": "Terrestrial",
+            "Min.Latitude": 24.91,
+            "Max.Latitude": 43.36,
+            "Centroid.Latitude": 33.22,
+            "Centroid.Longitude": -82.34,
+            "Range.Size": 184267.84
+          }
+        },
+        {
+          "excelRow": 6376,
+          "record": {
+            "Sequence": 10428,
+            "Species1": "Ammospiza nelsoni",
+            "Family1": "Passerellidae",
+            "Order1": "Passeriformes",
+            "Avibase.ID1": "AVIBASE-727D994F",
+            "Total.individuals": 11,
+            "Female": 5,
+            "Male": 6,
+            "Unknown": 0,
+            "Complete.measures": 9,
+            "Beak.Length_Culmen": 14.4,
+            "Beak.Length_Nares": 8.7,
+            "Beak.Width": 3.8,
+            "Beak.Depth": 5.2,
+            "Tarsus.Length": 21.7,
+            "Wing.Length": 56.4,
+            "Kipps.Distance": 12.4,
+            "Secondary1": 44.1,
+            "Hand-Wing.Index": 21.9,
+            "Tail.Length": 47.7,
+            "Mass": 15.11,
+            "Mass.Source": "Dunning",
+            "Mass.Refs.Other": "NA",
+            "Inference": "NO",
+            "Traits.inferred": "NA",
+            "Reference.species": "NA",
+            "Habitat": "Wetland",
+            "Habitat.Density": 3,
+            "Migration": 3,
+            "Trophic.Level": "Omnivore",
+            "Trophic.Niche": "Invertivore",
+            "Primary.Lifestyle": "Generalist",
+            "Min.Latitude": 30.57,
+            "Max.Latitude": 63.3,
+            "Centroid.Latitude": 48.45,
+            "Centroid.Longitude": -100.28,
+            "Range.Size": 2592907.6
+          }
+        }
+      ],
+      "BirdLife-eBird crosswalk": [
+        {
+          "excelRow": 504,
+          "record": {
+            "Species1": "Ammospiza caudacuta",
+            "Species2": "Ammospiza caudacuta",
+            "Match.type": "1BL to 1eBird",
+            "Match.notes": null,
+            "Avibase.ID1": "AVIBASE-79C9C8C4",
+            "Avibase.ID2": "AVIBASE-79C9C8C4",
+            "null": null
+          }
+        },
+        {
+          "excelRow": 505,
+          "record": {
+            "Species1": "Ammospiza leconteii",
+            "Species2": "Ammospiza leconteii",
+            "Match.type": "1BL to 1eBird",
+            "Match.notes": null,
+            "Avibase.ID1": "AVIBASE-B656B15D",
+            "Avibase.ID2": "AVIBASE-B656B15D",
+            "null": null
+          }
+        },
+        {
+          "excelRow": 506,
+          "record": {
+            "Species1": "Ammospiza maritima",
+            "Species2": "Ammospiza maritima",
+            "Match.type": "1BL to 1eBird",
+            "Match.notes": null,
+            "Avibase.ID1": "AVIBASE-0F81304F",
+            "Avibase.ID2": "AVIBASE-0F81304F",
+            "null": null
+          }
+        },
+        {
+          "excelRow": 507,
+          "record": {
+            "Species1": "Ammospiza nelsoni",
+            "Species2": "Ammospiza nelsoni",
+            "Match.type": "1BL to 1eBird",
+            "Match.notes": null,
+            "Avibase.ID1": "AVIBASE-727D994F",
+            "Avibase.ID2": "AVIBASE-727D994F",
+            "null": null
+          }
+        }
+      ],
+      "BirdLife–BirdTree crosswalk": [
+        {
+          "excelRow": 507,
+          "record": {
+            "Species1": "Ammospiza caudacuta",
+            "Species3": "Ammodramus caudacutus",
+            "Match.type": "1BL to 1BT",
+            "Match.notes": null
+          }
+        },
+        {
+          "excelRow": 508,
+          "record": {
+            "Species1": "Ammospiza leconteii",
+            "Species3": "Ammodramus leconteii",
+            "Match.type": "1BL to 1BT",
+            "Match.notes": null
+          }
+        },
+        {
+          "excelRow": 509,
+          "record": {
+            "Species1": "Ammospiza maritima",
+            "Species3": "Ammodramus maritimus",
+            "Match.type": "1BL to 1BT",
+            "Match.notes": null
+          }
+        },
+        {
+          "excelRow": 510,
+          "record": {
+            "Species1": "Ammospiza nelsoni",
+            "Species3": "Ammodramus nelsoni",
+            "Match.type": "1BL to 1BT",
+            "Match.notes": null
+          }
+        }
+      ]
+    },
+    "colNames": [
+      {
+        "normalizedName": "ammodramus caudacutus j f gmelin 1788",
+        "id": "CTKZ",
+        "scientificName": "Ammodramus caudacutus (J. F. Gmelin, 1788)",
+        "authorship": "(J. F. Gmelin, 1788)",
+        "rank": "species",
+        "status": "synonym",
+        "acceptedId": "9G43T",
+        "parentId": null,
+        "sourceDatasetId": "2144",
+        "classification": []
+      },
+      {
+        "normalizedName": "ammodramus leconteii audubon 1844",
+        "id": "CTL4",
+        "scientificName": "Ammodramus leconteii (Audubon, 1844)",
+        "authorship": "(Audubon, 1844)",
+        "rank": "species",
+        "status": "synonym",
+        "acceptedId": "CVHC",
+        "parentId": null,
+        "sourceDatasetId": "2144",
+        "classification": []
+      },
+      {
+        "normalizedName": "ammodramus maritimus a wilson 1811",
+        "id": "CTL5",
+        "scientificName": "Ammodramus maritimus (A. Wilson, 1811)",
+        "authorship": "(A. Wilson, 1811)",
+        "rank": "species",
+        "status": "synonym",
+        "acceptedId": "CVHD",
+        "parentId": null,
+        "sourceDatasetId": "2144",
+        "classification": []
+      },
+      {
+        "normalizedName": "ammospiza caudacuta j f gmelin 1788",
+        "id": "9G43T",
+        "scientificName": "Ammospiza caudacuta (J. F. Gmelin, 1788)",
+        "authorship": "(J. F. Gmelin, 1788)",
+        "rank": "species",
+        "status": "accepted",
+        "acceptedId": null,
+        "parentId": "6299N",
+        "sourceDatasetId": "2144",
+        "classification": [
+          "Animalia",
+          "Chordata",
+          "Aves",
+          "Passeriformes",
+          null,
+          "Passerellidae",
+          null,
+          null,
+          null,
+          "Ammospiza"
+        ]
+      },
+      {
+        "normalizedName": "ammospiza caudacutus j f gmelin 1788",
+        "id": "CVHB",
+        "scientificName": "Ammospiza caudacutus (J. F. Gmelin, 1788)",
+        "authorship": "(J. F. Gmelin, 1788)",
+        "rank": "species",
+        "status": "synonym",
+        "acceptedId": "9G43T",
+        "parentId": null,
+        "sourceDatasetId": "2144",
+        "classification": []
+      },
+      {
+        "normalizedName": "ammospiza leconteii audubon 1844",
+        "id": "CVHC",
+        "scientificName": "Ammospiza leconteii (Audubon, 1844)",
+        "authorship": "(Audubon, 1844)",
+        "rank": "species",
+        "status": "accepted",
+        "acceptedId": null,
+        "parentId": "6299N",
+        "sourceDatasetId": "2144",
+        "classification": [
+          "Animalia",
+          "Chordata",
+          "Aves",
+          "Passeriformes",
+          null,
+          "Passerellidae",
+          null,
+          null,
+          null,
+          "Ammospiza"
+        ]
+      },
+      {
+        "normalizedName": "ammospiza maritima a wilson 1811",
+        "id": "CVHD",
+        "scientificName": "Ammospiza maritima (A. Wilson, 1811)",
+        "authorship": "(A. Wilson, 1811)",
+        "rank": "species",
+        "status": "accepted",
+        "acceptedId": null,
+        "parentId": "6299N",
+        "sourceDatasetId": "2144",
+        "classification": [
+          "Animalia",
+          "Chordata",
+          "Aves",
+          "Passeriformes",
+          null,
+          "Passerellidae",
+          null,
+          null,
+          null,
+          "Ammospiza"
+        ]
+      },
+      {
+        "normalizedName": "ammospiza nelsoni j a allen 1875",
+        "id": "9G74X",
+        "scientificName": "Ammospiza nelsoni (J. A. Allen, 1875)",
+        "authorship": "(J. A. Allen, 1875)",
+        "rank": "species",
+        "status": "accepted",
+        "acceptedId": null,
+        "parentId": "6299N",
+        "sourceDatasetId": "2144",
+        "classification": [
+          "Animalia",
+          "Chordata",
+          "Aves",
+          "Passeriformes",
+          null,
+          "Passerellidae",
+          null,
+          null,
+          null,
+          "Ammospiza"
+        ]
+      }
+    ],
+    "sourceSha256": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e"
+  },
+  "sharedReferenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+  "readingScope": "Selected four AVONET1_BirdLife rows, their two crosswalks, Metadata definitions used for the authored fields and local COL name-shard matches. No whole workbook, individual raw data, Dunning book or new full methods-paper reading.",
+  "retainedBoundaries": {
+    "historicalNamesAndConceptsSeparate": true,
+    "nelsoniOlderCombinationNoColSynonymFoundInReadShard": true,
+    "morphologyCountsNotMassCounts": true,
+    "noGeographicFieldsInterpreted": true,
+    "noCurrentConservationOrExpertReview": true,
+    "noEarlierStrictSelectionRulesChanged": true,
+    "noPrimatesGapsClosed": true,
+    "activePrimateGaps": 14,
+    "fixedAcceptedPrimateDenominator": 530
+  },
+  "intakePreviousIncrementalCounts": {
+    "indexExists": 369,
+    "bilingualCatalogueProfileMarkers": 366,
+    "missingOneOrBothCatalogueProfileMarkers": 6807,
+    "scope": "Before-authoring observation plus only DD8T4 just authored; no new whole-corpus prose review."
+  },
+  "intakeAfterIncrementalCounts": {
+    "indexExists": 373,
+    "bilingualCatalogueProfileMarkers": 370,
+    "missingOneOrBothCatalogueProfileMarkers": 6803,
+    "scope": "Original intake observation plus five authored species in P5-143/144; no new whole-corpus prose review."
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All25 new bilingual sections and six updated limitation blocks read in both languages; five new indices, six full section/source/pointer vectors, reused dataset metadata, new projection entries, incremental intake counts and P5-144 plan read. Subsequent HWI wording, majority-population wording, English list punctuation and family taxonomy source pointer read after edits.",
+    "excluded": "No whole legacy corpus, whole workbook, new full methods-paper reading, original Dunning book, raw measurement rerun, expert review, tests, generators or publication."
+  },
+  "delivery": "Canonical pages and projection input mapping authored; tests, generation, commit and publication deferred until all content completion.",
+  "canonicalFileHashes": [
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_caudacuta/evidence.md",
+      "sha256": "d65738785b1fbabfb64e1525084de8a1c22685eeda186b2bc4b1dfa93dc460e5"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_caudacuta/page.zh.md",
+      "sha256": "6cf1a1747aabdac086f2cf40ec7bd2aa95eca3251861f27b0a76ebde1328b75d"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_caudacuta/page.en.md",
+      "sha256": "44c42e85f3d26fb06d18b3716acf32c1233062cd48ab1b03ebcc4735c9454485"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_caudacuta/index.yaml",
+      "sha256": "e183a79676a984e6d57b3528c0f206ac2b964d894273f89bbadfd99fe76f106f"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_nelsoni/evidence.md",
+      "sha256": "3a88998fbd4f25032d476412f938984144f2dcdf23b6ba1cc34cb3d2041a1afd"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_nelsoni/page.zh.md",
+      "sha256": "69aca82ced54aab9e612fbed33e9b0a5ca2f684cadea901438f39c6708c6678e"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_nelsoni/page.en.md",
+      "sha256": "78c6c3f12d5e2dffb4e79b46f7d104be6c8b89ddbc55482de0eed8fb5cdb9ba0"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_nelsoni/index.yaml",
+      "sha256": "7d4f6cfb5c390b694844e6bf8d5b44575ca18eeff0f41044a4cf3ce51b25f71f"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_maritima/evidence.md",
+      "sha256": "c0538ecf6e3f0aecf624b61f35d01e18b2a369aed040d8db081388bf8312d553"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_maritima/page.zh.md",
+      "sha256": "eadb16cb5731576c2398dbdc5695cb363af0d50ba467b50f5f3c9e63582d2dbf"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_maritima/page.en.md",
+      "sha256": "0181778d7aadc4c5e5cb6c02f19c87c54cafb631dc090a0a4c363a5f0e5fe2ca"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_maritima/index.yaml",
+      "sha256": "c286dc193dd5d62b15b5c20753cbef86af6720cb8593c50cd5270449c9026c4a"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_leconteii/evidence.md",
+      "sha256": "ca2bb1530782f4390e3d78b7a15bc375fadf384bdf6148c11034bd5e2e2f2960"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_leconteii/page.zh.md",
+      "sha256": "bcc2384e8dac76d8f5a77841341941571ef63f6d92ed9e336435930a3a37b8b3"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_leconteii/page.en.md",
+      "sha256": "954ad6966dfcdc064ace7b8813c4c7f8d5303cbf194d3027fbeb69afb14dc0a9"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_leconteii/index.yaml",
+      "sha256": "7b273fc3288627269720d1298b342aabe1f72f9f38aebb7a20f6b81e85bddc9d"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/evidence.md",
+      "sha256": "2e962d7370780c3dd1e429fa4d2cc524e06b1ab1214d04b3509c7fbabd2800f0"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/page.zh.md",
+      "sha256": "cb4e885d1a4e6b263a412b73a71062dc1b0f6d64fad57b082c815b6109152822"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/page.en.md",
+      "sha256": "064df62b8da79371a3bad550ca60b04f81c957b858127291a8ebece4e0823537"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/index.yaml",
+      "sha256": "216b675bc847aea4f9c69ffa6b66f3876656c34ff61258d9a78ddf0032db677b"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/evidence.md",
+      "sha256": "f0b3e26ddeeab7fe81b3836178863fada0d69fc56796929b6c72fdb8dddac6c2"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/page.zh.md",
+      "sha256": "da8c4c4d5975301cfe72b201b8f70fd9e7dc396b59ce752a960adb1e58b712a3"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/page.en.md",
+      "sha256": "51ab13a1306119cf9d00790c9ec7621657cb2063ddb82939439a07d84fcb4578"
+    },
+    {
+      "file": "content/projection-map.yaml",
+      "sha256": "6f31a02f38bd154b18f13e87da2af021029648b75a41038b7707349b9827de05"
+    },
+    {
+      "file": "docs/content-production-plan.md",
+      "sha256": "bc7b92a3b0815c41ddf898bc22bdcee5762622d76867a997bf3aa741282f8ff2"
+    },
+    {
+      "file": "data/sources/col-unrepresented-reader-intake-2026-10-03.json",
+      "sha256": "672f70670e65b07e25151718fb0b2fc8d9d6cb2ea65c182f4a2302a9af0b2948"
+    }
+  ]
+}

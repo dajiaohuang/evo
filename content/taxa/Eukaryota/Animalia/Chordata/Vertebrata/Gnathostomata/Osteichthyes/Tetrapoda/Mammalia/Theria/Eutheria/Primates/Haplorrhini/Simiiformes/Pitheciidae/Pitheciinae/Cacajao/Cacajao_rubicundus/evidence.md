@@ -10,18 +10,13 @@ records:
       en: Red Bald Uacari
       zh: 红秃乌卡里
     reviewStatus: source-linked
-    checkedAt: 2026-10-02
+    checkedAt: 2026-10-03
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: taxonomy
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
+          - silva2022cacajao
+          - iucn2021rubicundus
+          - salve2025rubicundus
         text:
           zh:
             markdown: page.zh.md
@@ -29,12 +24,9 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+      - topic: molecular-sampling
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
+          - silva2022cacajao
         text:
           zh:
             markdown: page.zh.md
@@ -42,12 +34,9 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+      - topic: reported-distribution
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
+          - salve2025rubicundus
         text:
           zh:
             markdown: page.zh.md
@@ -55,12 +44,9 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/2/text/en
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/3/topic
+      - topic: conservation-assessment
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/3/sourceIds/0
+          - salve2025rubicundus
         text:
           zh:
             markdown: page.zh.md
@@ -68,6 +54,47 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/3/text/en
+      - topic: ecology
+        sourceIds:
+          - vieira2008Mamiraua
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+      - topic: ecology
+        sourceIds:
+          - vieira2008Mamiraua
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
+      - topic: behavior
+        sourceIds:
+          - vieira2008Mamiraua
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/6/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/6/text/en
+      - topic: taxonomy
+        sourceIds:
+          - vieira2008Mamiraua
+          - heymann2025UcayaliiBoundary
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/7/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/7/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -153,6 +180,38 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-d01c55bb-bcd3-4014-aef5-f79ddfb0dc71
+          metadataVariant: 0
+          sourceKey: vieira2008Mamiraua
+          usage:
+            locator: Printed pp45–49, methods, results and Figure 4; PDF pages 5–9.
+            accessedAt: 2026-10-03
+            scope:
+              zh: Mamirauá 巴西红色型的访谈、定向搜索、直接取食与接触观察；不作全年生态或密度推断。
+              en: Interviews, targeted searches and direct feeding/contact observations of the Brazilian Mamirauá red form; not annual ecology or density.
+          originalFields:
+            - id
+            - title
+            - url
+            - locator
+            - accessedAt
+            - scope
+        - referenceId: ref-42153e14-b23d-4348-9acd-7831595de2c6
+          metadataVariant: 0
+          sourceKey: heymann2025UcayaliiBoundary
+          usage:
+            locator: Introduction, paragraph identifying earlier C. calvus rubicundus and C. calvus ucayalii names.
+            accessedAt: 2026-10-03
+            scope:
+              zh: 只用于解释秘鲁旧名资料不能自动归属巴西现行物种；本批不引入其季节性数据。
+              en: Only the Peruvian older-name boundary is used; no seasonal data from that study are imported in this batch.
+          originalFields:
+            - id
+            - title
+            - url
+            - locator
+            - accessedAt
             - scope
     limitations:
       en:

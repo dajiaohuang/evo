@@ -12,12 +12,9 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: feeding
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
+          - teixeira2024libidinosus
         text:
           zh:
             markdown: page.zh.md
@@ -25,12 +22,9 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+      - topic: ecology
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
+          - teixeira2024libidinosus
         text:
           zh:
             markdown: page.zh.md

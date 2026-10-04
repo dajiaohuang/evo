@@ -10,44 +10,12 @@ records:
       zh: 粗毛卷尾猴属
       en: Robust capuchins (Sapajus)
     reviewStatus: source-linked
-    checkedAt: 2026-10-01
+    checkedAt: 2026-10-03
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: researchMethods
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/4
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/5
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/6
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/7
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/8
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/9
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/10
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/11
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/12
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/13
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/14
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/15
+          - martinez2024CollaringMethods
+          - martinez2024cucullatus
         text:
           zh:
             markdown: page.zh.md
@@ -55,6 +23,41 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
+      - topic: readingPath
+        sourceIds:
+          - martinez2024CollaringMethods
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - species_6XK7V
+          - species_6XK7Y
+          - species_6XK87
+          - species_79JVY
+          - species_79K7Y
+          - species_84J8Q
+          - martins2022robustus
+          - smith2022cay
+          - flesher2015xanthosternos
+          - lins2019flavius
+          - teixeira2024libidinosus
+          - iucn2020cucullatus
+          - rylands2024taxonomy
+          - slomp2024cucullatus
+          - martinez2024cucullatus
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -340,6 +343,32 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-52c78de7-102b-6ff3-4404-fdc4454f72a6
+          metadataVariant: 0
+          sourceKey: martinez2024CollaringMethods
+          usage:
+            title: "Guidelines and considerations for capturing and collaring wild primates: a case study with capuchin monkeys (Sapajus nigritus cucullatus)"
+            url: https://www.scielo.br/j/aabc/a/GHmZW3SrcY5HYks3PWmYKsb/?format=html
+            accessedAt: 2026-10-03
+            locator: Materials and Methods > Study sites, Study groups, Selecting females and Captures; Results; Discussion. Main prose only; Table I measurements and figure pixels not read.
+            scope:
+              zh: 本批读取 2024 年捕获与项圈研究主文的方法、结果与讨论，补充两个地点／四群／三只成功佩戴项圈成年雌性的研究设计。未读取表 I 的个体测量、检查图像像素、复核底层遗传样本或重跑分析；不提供捕获或兽医操作指引。正文的“每群三只”措辞与明确的三个事件计数分别保留。研究采用旧亚种名 S. nigritus cucullatus；地点和研究关联不独立证明与固定种概念等同，84J8Q 对应缺口仍开，无新增专家审评。
+              en: This pass read the 2024 capture-and-collaring paper’s main methods, results and discussion, adding the design of two sites, four groups and three successfully collared adult females. Table I individual measurements, figure pixels and underlying genetic samples were not examined, and analyses were not rerun; this is not a capture or veterinary procedure guide. The “in each group” wording remains distinguished from the explicit count of three events. The study used the historical subspecies name S. nigritus cucullatus; sites and study association do not independently prove equivalence to the pinned species concept. The 84J8Q correspondence gap remains open without new expert review.
+          originalFields:
+            - id
+            - title
+            - authors
+            - publishedYear
+            - journal
+            - volume
+            - issue
+            - articleNumber
+            - doi
+            - url
+            - sourceVersion
+            - accessedAt
+            - locator
             - scope
     limitations:
       zh:

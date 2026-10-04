@@ -10,11 +10,11 @@ records:
       zh: 塞萨尔河白额卷尾猴
       en: Cebus cesarae
     reviewStatus: source-linked
-    checkedAt: 2026-10-01
+    checkedAt: 2026-10-03
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: sampleProvenance
+        sourceIds:
+          - martins2018CebusSampleLinks
         text:
           zh:
             markdown: page.zh.md
@@ -22,14 +22,9 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
+      - topic: lineageInterpretation
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - martins2018CebusSampleLinks
         text:
           zh:
             markdown: page.zh.md
@@ -37,14 +32,9 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
+      - topic: markerScope
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          - martins2018CebusSampleLinks
         text:
           zh:
             markdown: page.zh.md
@@ -52,9 +42,78 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/2/text/en
+      - topic: overview
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
+          - taxonomy
+          - mdd_albifrons
+      - topic: classification
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+        sourceIds:
+          - ruiz2010
+          - ruiz2019
+      - topic: provisional reassessment
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
+        sourceIds:
+          - boubli2012
+      - topic: morphology
+        sourceIds:
+          - eazaCapuchins2019
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/6/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/6/text/en
+      - topic: ecology
+        sourceIds:
+          - eazaCapuchins2019
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/7/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/7/text/en
+      - topic: taxonomy
+        sourceIds:
+          - garciaMontilla2021ColombiaTypes
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/8/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/8/text/en
+      - topic: taxonomy
+        sourceIds:
+          - garciaMontilla2021ColombiaTypes
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/9/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/9/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -94,7 +153,7 @@ records:
             - url
             - scope
         - referenceId: ref-c4be0a43-3f9d-871f-a4c9-3d965ffb2090
-          metadataVariant: 0
+          metadataVariant: 1
           sourceKey: ruiz2010
           usage:
             scope:
@@ -108,6 +167,13 @@ records:
             - id
             - title
             - url
+            - doi
+            - authors
+            - publishedYear
+            - journal
+            - volume
+            - issue
+            - pages
             - scope
         - referenceId: ref-681fdc19-696f-8d81-aadb-4e0b9880dbf5
           metadataVariant: 0
@@ -140,6 +206,78 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-29d2e79c-adf5-4c14-9750-acdd96546d1c
+          metadataVariant: 0
+          sourceKey: eazaCapuchins2019
+          usage:
+            locator: Edition 1, 2019; title and citation pages 1–2, Summary p. 4; species account(s) p. 32. Species-table layout visually inspected.
+            accessedAt: 2026-10-02
+            sourceFileSha256: c25bd58375481bb637bb2906e08b63e6242f298269ee66bf264d95e7de32afb0
+            sourceFileBytes: 10836242
+            scope:
+              zh: 2019 年手册采用名称下的形态、栖地和明确资料缺口；不作当前分类或生态裁决。
+              en: Morphology, habitat and explicit gaps under the 2019 handbook’s names; no current taxonomic or ecological adjudication.
+            licenseAssessment: Original factual paraphrases only; all-rights-reserved PDF, maps and drawings are not redistributed.
+            readerBoundaries:
+              - Source-specific 2019 name concepts, not an independent taxonomic resolution.
+              - Compiled size fields do not specify original samples or measurement protocols.
+              - Historical status labels and collection-plan policies are omitted; no current conservation or husbandry recommendation.
+              - Species gaps are not filled from genus-level diet or zoo-management surveys.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - doi
+            - locator
+            - accessedAt
+            - sourceFileSha256
+            - sourceFileBytes
+            - scope
+            - licenseAssessment
+            - readerBoundaries
+        - referenceId: ref-f26d5ace-e38e-42e3-bf1c-c51cb8110b2f
+          metadataVariant: 0
+          sourceKey: garciaMontilla2021ColombiaTypes
+          usage:
+            locator: "Methods on printed pp2–3; Cebus discussion p8; cesarae type account p15. Redalyc PDF adds one cover page: PDF pages 3–4,9,16."
+            accessedAt: 2026-10-03
+            scope:
+              zh: 2021 年文献复核转述的 cesarae 名称正模、模式地点和作者临时亚种提案；未直接检查原标本或 1949 原文，不支持生态、完整分布或遗传身份。
+              en: The 2021 literature review’s reported cesarae type/locality and provisional subspecies proposal; original specimen and 1949 text were not directly inspected. No ecology, complete range or genetic identification is inferred.
+          originalFields:
+            - id
+            - title
+            - url
+            - locator
+            - accessedAt
+            - scope
+        - sourceKey: martins2018CebusSampleLinks
+          referenceId: ref-9f878ef3-8c54-4144-bf3d-fc7327d19b45
+          metadataVariant: 0
+          usage:
+            title: "Phylogenetic relationships among Capuchin (Cebidae, Platyrrhini) lineages: An old event of sympatry explains the current distribution of Cebus and Sapajus"
+            url: https://doi.org/10.1590/1678-4685-GMB-2017-0012
+            accessedAt: 2026-10-03
+            locator: SciELO main paragraphs 10–18, 23–27, 29–30, 33–34, 39, 41–43, 50–54, 61; figure 4 caption; Supplementary Table S1 pp. 10, 12–13. Table pixels pp. 10, 12 examined; no raw-sequence or specimen reanalysis.
+            scope:
+              zh: 旧名称、指定馆藏与线粒体关联；未裁定当前种界或补齐生态。
+              en: Historical names, named vouchers and mitochondrial associations; no current species-delimitation decision or completed ecology.
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - journal
+            - volume
+            - issue
+            - pages
+            - publishedYear
+            - sourceVersion
+            - url
+            - accessedAt
+            - locator
             - scope
     limitations:
       zh:

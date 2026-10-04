@@ -1,0 +1,253 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Equus conversidens
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Equus conversidens
+      en: Equus conversidens
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Equus conversidens
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=46262&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:46262; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:46262
+            selectedOccurrenceIds:
+              - occ:196253
+              - occ:196658
+              - occ:196742
+              - occ:196764
+              - occ:196946
+              - occ:197121
+              - occ:198967
+              - occ:199324
+              - occ:199383
+              - occ:199648
+              - occ:199672
+              - occ:199830
+              - occ:648834
+              - occ:661607
+              - occ:661707
+              - occ:662227
+              - occ:691630
+              - occ:710057
+              - occ:773715
+              - occ:838789
+              - occ:841375
+              - occ:1243015
+              - occ:1304295
+              - occ:1304299
+              - occ:1304302
+              - occ:1385019
+              - occ:1385122
+              - occ:1385177
+              - occ:1385190
+              - occ:1503844
+              - occ:1519570
+              - occ:1551368
+              - occ:1627633
+              - occ:1629016
+              - occ:1629181
+              - occ:1630266
+            selectedCollectionIds:
+              - col:20172
+              - col:20273
+              - col:20283
+              - col:20285
+              - col:20295
+              - col:20306
+              - col:20530
+              - col:20576
+              - col:20586
+              - col:20615
+              - col:20617
+              - col:20635
+              - col:70118
+              - col:71278
+              - col:71294
+              - col:71345
+              - col:74498
+              - col:76060
+              - col:82995
+              - col:93103
+              - col:93277
+              - col:163820
+              - col:174511
+              - col:174512
+              - col:174513
+              - col:190079
+              - col:190115
+              - col:190114
+              - col:190116
+              - col:71277
+              - col:192626
+              - col:219041
+              - col:230462
+              - col:226032
+              - col:230752
+              - col:226041
+            sourceReferenceIds:
+              - ref:2882
+              - ref:2016
+              - ref:2607
+              - ref:1482
+              - ref:1907
+              - ref:6202
+              - ref:1304
+              - ref:1785
+              - ref:6294
+              - ref:1200
+              - ref:1766
+              - ref:3182
+              - ref:23537
+              - ref:54381
+              - ref:23961
+              - ref:24078
+              - ref:24994
+              - ref:25748
+              - ref:4022
+              - ref:3185
+              - ref:31544
+              - ref:53461
+              - ref:56934
+              - ref:63921
+              - ref:63932
+              - ref:63840
+              - ref:72313
+              - ref:69885
+              - ref:75882
+              - ref:85081
+              - ref:85291
+              - ref:85309
+              - ref:85415
+            originalIdentificationMappings:
+              - occurrenceId: occ:1243015
+                originalIdentifiedName: Equus barcenaei n. sp.
+                acceptedName: Equus conversidens
+                difference: null
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Equus conversidens

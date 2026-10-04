@@ -6,7 +6,7 @@
 
 当前主动目标已扩展为全部羊膜动物的来源限定双语读者内容、类群介绍和阅读路径。COL26.8 没有 Amniota 分类节点；固定接受种工作清单由 Tetrapoda 下 Mammalia 6,461、Aves 11,044、Reptilia 12,649 三个互斥 class 根组成，共 30,154。该快照不含现生标记，不能称为经验证的现生物种数。PBDB 另列 2026-10-02 查询的 22,684 个 `rank=species,status=accepted,extant=no,pres=regular` Amniota OID；完整参数、哈希、原始响应与 15 个互斥分区见 `data/sources/snapshots/pbdb-amniota-denominator-2026-10-02.manifest.json`、`pbdb-amniota-accepted-fossil-species-2026-10-02.json`、`pbdb-amniota-disjoint-oids-2026-10-02.json`。两份名录是不同来源和物种概念，不相加成唯一生物物种数、不按同名去重。之前 4,664 条 Archosauria 名录仅作历史范围记录，已由该全 Amniota 名录替代。
 
-灵长类既定首轮 15 项源资料或分类缺口继续保留在 Mammalia 工作范围：起始为 19，P3-119、P3-120、P3-121 与 P4-17 共关闭 4 项。当前计划有 10 个可识别 ID，仍有 5 个原始目标 ID 未从现存记录恢复；逐 ID 核验前不得缩小这项子目标。所有分母只表示有日期和来源的工作名册，不是内容覆盖率、全球完整清单或专家评审结果。化石属页、类群指南和共享阅读路径单独计数。
+灵长类既定首轮 14 项源资料或分类缺口继续保留在 Mammalia 工作范围：起始为 19，P3-119、P3-120、P3-121 与 P4-17 共关闭 4 项。P5-66 的十项清单并非完整的原始逐 ID 集合；P5-66 由历史增减重建 P3-112 的十九项候选，其中七项不在当前十四个具名 ID 中，反向有两个后续处理 ID 不在该累计集合。“五项”是净计数差，不能直接写成五个未知物种；P5-70 用独立 Mamirauá 野外原始记录补上具名 BSCWK 的首轮材料缺口，剩余 14 项；集合／计数差异仍待逐 ID 对读，不缩小原始范围。所有分母只表示有日期和来源的工作名册，不是内容覆盖率、全球完整清单或专家评审结果。化石属页、类群指南和共享阅读路径单独计数。
 
 1. 编辑 `content/taxa/<分类路径>/page.zh.md`、`page.en.md` 和 `evidence.md`；共享专题在 `content/topics/` 编辑，文献统一维护 `data/references.json`。分类目录使用记录学名，空格转为下划线，不创建内部分类 ID。
 2. 每个可独立交付的小批次完成后生成内容兼容投影、注册表和清单；档案分片变化时一并生成证据队列。保留科学来源、样本边界、缺口与真实评审成熟度。
@@ -110,7 +110,7 @@ Goal 的执行依据为本节与后续批次记录；仓库迁移、历史主龙
 
 灵长类报告以 530 个接受种为固定种级分母，分开报告“已有材料、已有正文、可打开页面”的不同百分比。化石属页、类群介绍和专题另列数量。只有 530 个种的约定首轮正文均达到标准，才报告灵长类首轮内容覆盖完成；源材料确实不足的种清楚列出，不以空壳页完成计数。旧的全科学档案目标仍需全部主题与相应评审条件，不能用内容初稿完成率代替。
 
-当前进度：COL26.8 固定分母 530；双语种级页面 530/530（54 dossier-backed、476 profile-only），本计划计数为 520 达到首轮标准、10 仍低于标准或待分类/归属补充；476 未命中 dossier 索引。P3-115 将 *Cheracebus aquinoi* 页面补入原始分类描述对早期林层、栖地和食物记录的综述，保留来源年代与方法边界；2019 年未定种 *Cheracebus sp.* 样线数量不归属到本种，并补齐原始描述参考元数据。P3-116 通过现行 MDD 同一物种的名称组合记录，解决 *Tamarinus kulina* 与 *Saguinus kulina* 的联接问题；双语页新增物种诊断、河流边界、多个 terra firme 标本采集地和 IUCN Not Evaluated 状态。P3-117 为 *Trachypithecus ebenus* 补入 2019 年越南相机照片与老挝 2020 年样线/访谈背景，明确不同作者对黑色型的分类解释；照片不作为本种种级地点记录，访谈不转成样线发现或数量估计。P3-118 为 *Chiropotes israelita* 补入 Boubli 等（2015）里奥内格罗—布朗库河区域调查：作者以形态鉴定报告 20 种日行灵长类，并把旧名 *C. israelita* 列入两河间区域组合；将调查物种数、系统发育样本数及当前名称争议分别呈现。该页达到来源限定的分类与区域记录介绍标准，但没有当前种群估计、趋势或生活史综合。P3-119 将 *Tamarinus imperator* 的分类比较扩展为有明确实验边界的局部野外研究导读。P3-120 为 *Cercopithecus wolfi* 扩写 Lomako 四种林型的局地比较和 Lomami 一次地面相机检出，形成有样本与地点边界的双语研究导读。P3-121 为 *Piliocolobus langi* 补充 2019 年报告的调查范围、访谈与现场方法、表型边界及威胁背景，严格区分“基桑加尼红疣猴”复合区域与固定接受种的物种证据。P3-122 为 *Aotus jorgehernandezi* 补入 2023 年 Quindío 哺乳动物注释名录对已知核型与来源缺口的复核；该页仍缺少可确认的野外来源、现生生态资料和分类共识，保持 source-insufficient，不减少任何缺口计数。P3-125 为 *Sapajus cucullatus* 补充南里奥格兰德州历史亚种出现记录汇编与米西奥内斯两地点森林比较；正文将这两项研究限制在 *S. nigritus cucullatus* 来源分类范围内，现有分类交叉差异未解决，因此本批不调整首轮计数。活动目标的 19 项基准（本批后 15 项）仍比本计划计数多 5 项；差异尚未按 taxon ID 逐一核对，不以较低数字缩减目标。接下来继续核对首轮缺口，再建立主龙类固定分母与覆盖计划。每批仅生成读者投影、注册表与清单；不运行手动测试、类型检查、内容/数据/增量校验、diff 检查或 CI。
+P3-125 及当时计划记录的历史进度：COL26.8 固定分母 530；双语种级页面 530/530（54 dossier-backed、476 profile-only），本计划当时计数为 520 达到首轮标准、10 仍低于标准或待分类/归属补充；476 未命中 dossier 索引。P3-115 将 *Cheracebus aquinoi* 页面补入原始分类描述对早期林层、栖地和食物记录的综述，保留来源年代与方法边界；2019 年未定种 *Cheracebus sp.* 样线数量不归属到本种，并补齐原始描述参考元数据。P3-116 通过现行 MDD 同一物种的名称组合记录，解决 *Tamarinus kulina* 与 *Saguinus kulina* 的联接问题；双语页新增物种诊断、河流边界、多个 terra firme 标本采集地和 IUCN Not Evaluated 状态。P3-117 为 *Trachypithecus ebenus* 补入 2019 年越南相机照片与老挝 2020 年样线/访谈背景，明确不同作者对黑色型的分类解释；照片不作为本种种级地点记录，访谈不转成样线发现或数量估计。P3-118 为 *Chiropotes israelita* 补入 Boubli 等（2015）里奥内格罗—布朗库河区域调查：作者以形态鉴定报告 20 种日行灵长类，并把旧名 *C. israelita* 列入两河间区域组合；将调查物种数、系统发育样本数及当前名称争议分别呈现。该页达到来源限定的分类与区域记录介绍标准，但没有当前种群估计、趋势或生活史综合。P3-119 将 *Tamarinus imperator* 的分类比较扩展为有明确实验边界的局部野外研究导读。P3-120 为 *Cercopithecus wolfi* 扩写 Lomako 四种林型的局地比较和 Lomami 一次地面相机检出，形成有样本与地点边界的双语研究导读。P3-121 为 *Piliocolobus langi* 补充 2019 年报告的调查范围、访谈与现场方法、表型边界及威胁背景，严格区分“基桑加尼红疣猴”复合区域与固定接受种的物种证据。P3-122 为 *Aotus jorgehernandezi* 补入 2023 年 Quindío 哺乳动物注释名录对已知核型与来源缺口的复核；该页仍缺少可确认的野外来源、现生生态资料和分类共识，保持 source-insufficient，不减少任何缺口计数。P3-125 为 *Sapajus cucullatus* 补充南里奥格兰德州历史亚种出现记录汇编与米西奥内斯两地点森林比较；正文将这两项研究限制在 *S. nigritus cucullatus* 来源分类范围内，现有分类交叉差异未解决，因此本批不调整首轮计数。活动目标的 19 项基准（本批后 15 项）仍比本计划计数多 5 项；差异尚未按 taxon ID 逐一核对，不以较低数字缩减目标。接下来继续核对首轮缺口，再建立主龙类固定分母与覆盖计划。每批仅生成读者投影、注册表与清单；不运行手动测试、类型检查、内容/数据/增量校验、diff 检查或 CI。
 
 ## P3-117 — Trachypithecus ebenus：黑色型归属与现场记录边界（2026-10-02）
 
@@ -1292,7 +1292,7 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 
 卷尾猴属阅读路径先比较西厄瓜多尔 *C. aequatorialis*、秘鲁 Los Amigos 的 *C. cuscinus* 与哥伦比亚 Selva de Florencia 的 *C. versicolor* 三项局地研究；随后读 *C. cesarae*、*C. malitiosus* 和 *C. leucocephalus* 的旧名群或地图模型限制，以及 *C. brunneus* 的名称模式问题。既有 Mourthé 等（2022）范围图矩阵只覆盖六个分类单元；样线遭遇率、占用模型和模式标本比较分别回答不同问题，不合并为属级分布、数量或分类结论。
 
-来源：[Jack 与 Campos（2012），厄瓜多尔卷尾猴分布与空间生态](https://doi.org/10.1177/194008291200500207)；[Pottie 等（2025），秘鲁 Los Amigos 灵长类群落样线比较](https://www.researchgate.net/publication/398259142_Primate_Community_Recovery_Following_Historical_Hunting_Pressure_at_Los_Amigos_Biological_Station_Peru)；[Elizalde-Guerrero 等（2021），哥伦比亚 Selva de Florencia 占用模型](https://doi.org/10.15446/caldasia.v43n2.85431)；[Ruiz-García 等（2010）](https://doi.org/10.1016/j.ympev.2010.08.025) 与[（2019）](https://doi.org/10.1080/24701394.2019.1570174)，白额卷尾猴旧名群遗传分析；[Defler 与 Link（2020），哥伦比亚灵长类图集：*C. malitiosus*](https://www.conservationbridges.org/uploads/1/3/2/9/132967837/iavh___apc_2020_-_atlas_de_biodiversidad_de_colombia._primates_2.pdf) 与[*C. leucocephalus*](https://www.conservationbridges.org/uploads/1/3/2/9/132967837/iavh___apc_2020_-_atlas_de_biodiversidad_de_colombia._primates_3.pdf)；[Boubli 等（2012）](https://doi.org/10.1002/ajp.21998) 与 [Rylands、Mittermeier（2024）](https://doi.org/10.3389/fcosc.2024.1391303)，*C. brunneus* 分类与模式问题。
+来源：[Jack 与 Campos（2012），厄瓜多尔卷尾猴分布与空间生态](https://doi.org/10.1177/194008291200500207)；[Pottie 等（2025），秘鲁 Los Amigos 灵长类群落样线比较](https://www.researchgate.net/publication/398259142_Primate_Community_Recovery_Following_Historical_Hunting_Pressure_at_Los_Amigos_Biological_Station_Peru)；[Elizalde-Guerrero 等（2021），哥伦比亚 Selva de Florencia 占用模型](https://doi.org/10.15446/caldasia.v43n2.85431)；[Ruiz-García 等（2010）](https://doi.org/10.1016/j.ympev.2010.09.002) 与[（2019）](https://doi.org/10.1080/24701394.2019.1570174)，白额卷尾猴旧名群遗传分析；[Defler 与 Link（2020），哥伦比亚灵长类图集：*C. malitiosus*](https://www.conservationbridges.org/uploads/1/3/2/9/132967837/iavh___apc_2020_-_atlas_de_biodiversidad_de_colombia._primates_2.pdf) 与[*C. leucocephalus*](https://www.conservationbridges.org/uploads/1/3/2/9/132967837/iavh___apc_2020_-_atlas_de_biodiversidad_de_colombia._primates_3.pdf)；[Boubli 等（2012）](https://doi.org/10.1002/ajp.21998) 与 [Rylands、Mittermeier（2024）](https://doi.org/10.3389/fcosc.2024.1391303)，*C. brunneus* 分类与模式问题。
 
 依照 content-only 工作流，本批不运行测试、内容/数据/增量校验、diff 检查或 CI；只为读者入口刷新运行时投影、注册表和数据清单。
 
@@ -2165,3 +2165,1364 @@ Tarsius 阅读路径先比较 T. fuscus 的睡眠巢类型与 T. pelengensis 的
 - 为 COL26.8 属 Dicerorhinus（44JW）及唯一严格接受种 D. sumatrensis（35JV8）整理双语目录与阅读路径，复用现有 taxonomy/profile 映射及共享来源，不另造分类身份。
 - 以 von Seth 等（2021）Nature Communications 的 21 个历史与现代基因组研究为中心，限定描述于论文报告的主要种群结构以及苏门答腊群体内部差异；不将遗传聚类解释为额外分类单元，也不外推当前种群规模或保护评估。
 - 属级和种级内容标为 source-linked；保留原有 dossier 完整性与专家审查状态，未声称完整生活史、全分布或完整科学档案。
+
+
+## P5-11 — Eretmochelys 属与玳瑁颅部扫描导读（2026-10-02）
+
+- 按固定 COL26.8 `4DWV`→`6GHZK`建立属、种双语索引与阅读路径；属下严格接受种为 1/1，未据同名 PBDB 记录推断现生状态或身份。
+- 复用 Yoshida、Motokawa 和 Endo（2022）对 KPM-NFR-526 头部样本的微型 CT 记录。来源许可为 CC BY-NC-ND 4.0；仅转述可核实事实，不复制图表，限制于单个样本、方法和论文明确的比较范围。
+- 两层各新建四份 canonical 文件，标为 source-linked；保留未做外部专家审评和完整档案待补状态。
+
+## P5-12 — Lepidochelys 属与两种海龟研究样本路径（2026-10-02）
+
+- 固定 COL26.8 属 `5CG2`含两个严格接受种：`3TB2G`（L. kempii）与`3TB2H`（L. olivacea）。本批为属级和 L. olivacea 建立双语读者内容；不把属级研究路径误报为两种都有证据。
+- Yoshida 等（2022）直接覆盖 NSM-H6187 的 L. olivacea 头部 CT 样本；Jones 等（2012）记录两件未成熟 L. kempii 标本，其中 M009/08 进行了微型 CT。两条研究路径分别限于论文列明的标本、方法和比较范围，不把样本结论扩大为全种描述。
+- 为 L. kempii 新增四份双语 canonical 文件，并接入 COL `3TB2G` 种级 profile。P5-12 的两个严格接受种现在都有本地研究导读；这不等于完整属级档案或外部专家评审。
+
+## P5-13 — Cheloniidae 科级名录与样本阅读路径（2026-10-02）
+
+- 为 COL26.8 科节点 `83J`新增双语 family guide，按属汇总五个接受属、六个接受种，并把目录名录与研究样本范围分开。
+- 并列呈现 Yoshida 等（2022）的 CT 头部样本与骨学比较对象，并链接 Jones 等（2012）的 Caretta/Lepidochelys 头颈解剖研究；明确各样本集边界，不扩大为全科共性或现行保护叙述。六个 COL 接受种均有一条本地来源关联页面路径，但深度和来源覆盖各异。
+
+## P5-14 — Natator 属与平背龟头骨研究（2026-10-02）
+
+- 为 COL26.8 属 `5XTG`及唯一接受种`45TDR`建立双语索引和读者内容，保留目录与研究分类假说的分界。
+- 复用 Chatterji、Hutchinson 和 Jones（2021）对三具成年头骨、X 射线微型 CT 和形态系统发育分析的摘要及 UCL 存档版；来源精确再利用许可未记录，仅作有限事实转述，不复制图表。
+- 内容为 source-linked，不是完整档案或外部专家评审结果。
+
+## P5-15 — Cryptodira 亚目分类入口（2026-10-02）
+
+- 将 COL26.8 接受亚目 Cryptodira（`87BW5`）改为双语分类阅读入口，接到现有 Chelonioidea / Dermochelyidae / Cheloniidae 页面路径。科页当前连接 1 个 Dermochelys 种和 6 个 Cheloniidae 种级导读，但不代表 Cryptodira 后代已完整覆盖。
+- 原有 fossil-range 与拓扑材料保持独立；本页只将 COL 的接受阶元与父级用于目录定位，不推断现生范围、全亚目物种名录或保护状态。
+
+## P5-16 — Pleurodira 亚目分类入口（2026-10-02）
+
+- 为 COL26.8 接受亚目 Pleurodira（`87BW9`）建立双语分类入口，明确其在 Testudines 下的目录位置。现有 Turtle calibration dossier 仍不等于 Pleurodira 种级阅读内容；科级与种级研究覆盖继续待补。
+- 将 `index.yaml` 的 COL sourceDatasetId 记录为 `1008`，与 ChecklistBank API 的 datasetKey 对齐。既有时间范围仍保持 `withheld-pending-provenance`，本页不重新解释范围证据或现生状态。
+
+## P5-17 — Chelonioidea 超科导航入口（2026-10-02）
+
+- 为 COL26.8 接受总科 `87BWH` 新增双语导航页面，连接 Dermochelyidae/Dermochelys 与 Cheloniidae 两条当前本地路径；科页现分别指向 1 个与 6 个种级 reader profile。
+- 该导航页以固定分类位置作入口，不把不同研究的 CT、骨学或解剖样本合并为全总科特征，也不声称总科后代或生活史资料已完整覆盖。
+
+## P5-18 — Testudines 目级阅读路线（2026-10-02）
+
+- 将 COL26.8 接受目 Testudines（477）改为双语导航入口，连接 Cryptodira 与 Pleurodira 两个亚目及当前已整理的后续页面。
+- 仅用分类来源说明目录父子关系；两个亚目的化石时间范围继续保持暂缓，未推断现生范围，也未声称所有龟类物种都已有阅读档案。
+
+## P5-19 — Chelidae 科与 Chelus 样本研究路径（2026-10-02）
+
+- 为 COL26.8 科 838、属 87DY8 与种 87WF9 新增双语阅读内容、分类索引和投影映射；该科页面明示本地后代覆盖不完整。
+- 依据 Martín-Jiménez 与 Pérez-García（2021；DOI 10.3390/d13070298）记录单一 Chelus fimbriata 头骨 MNHN.ZA.AC A9940 的 CT 重建及文中比较性神经解剖描述，按 CC BY 4.0 仅作事实转述；不推广为属、种内全部变异或科级特征。
+
+## P5-20 — Hydromedusa 标本比较研究路径（2026-10-02）
+
+- 为 COL26.8 属 4ZTM 与种 3N7LC 新增双语读者内容、分类索引和投影映射，并把 Chelidae 科入口更新为两个属、两个研究样本路径。
+- 复用 Martín-Jiménez 与 Pérez-García（2021；DOI 10.3390/d13070298）对标本 MNHN.ZA.AC 1870-9 的 CT 研究，只转述该头骨的比较解剖观察，不将单一标本结果推广为属种总体规律。
+
+## P5-21 — Pelomedusoidea 三个比较标本阅读页（2026-10-02）
+
+- 为 COL26.8 的 Pelusios niger 76FMD、Erymnochelys madagascariensis 6GQJ9 和 Podocnemis unifilis 4KQGF 新增双语种页、来源证据和映射；目录分类索引覆盖 Pelomedusoidea 及对应科、属路径。
+- 依据 Martín-Jiménez 与 Pérez-García（2021；DOI 10.3390/d13070298）分别绑定标本 MNHN.ZA.AC 1934-371、MNHN.ZA.AC 1946-71 和 MACV 2667；保留 Podocnemis 样本高分辨率扫描仅覆盖头骨中部的限制。
+- 三页只转述单一标本比较结果，不推广为物种总体变异、种群状况或保护结论。
+
+## P5-22 — Pelomedusoidea 科级与总科导航（2026-10-02）
+
+- 为 COL26.8 总科 8FZDK、Pelomedusidae 科 62658、Podocnemididae 科 627HH 增加双语分类导读、来源证据和投影映射；导航页明确记录本地路径的标本范围和覆盖缺口。
+- 将 Pleurodira 入口更新为当前两个超科阅读分支；既有时间范围暂缓状态不变。
+
+## P5-23 — Pelomedusoidea 三个属级样本导读（2026-10-02）
+
+- 为 COL26.8 属 Pelusios 6KJB、Erymnochelys 62S43 和 Podocnemis 6TCL 新增双语来源绑定导读及投影映射，连接已完成的三个种级标本页。
+- 属页明确本地样本和后代覆盖范围；Podocnemis 页保留高分辨率仅扫描头骨中部及另做完整低分辨率扫描的限制。
+
+## P5-24 — Emydura 幼体颅软骨研究路径（2026-10-02）
+
+- 为 COL26.8 属 Emydura 4BDY 和种 E. subglobosa 39LT7 新增双语来源页、分类索引与投影映射，并把 Cheloidea/Chelidae 导读更新为三个有来源的属级路径。
+- 依据 Paluh 与 Sheil（2013；DOI 10.1002/jmor.20070）转述以幼体标本为基础的成熟颅软骨描述；来源版权为 Wiley，复用许可未记录，只作事实转述，不复制图表。
+- 明示材料为幼体、研究主题为颅软骨，避免外推成年头骨、全属规律、种群生态或保护结论。
+
+## P5-25 — Squamata 椎骨比较研究批次（2026-10-02）
+
+- 依据 Tschopp（2016，DOI 10.1371/journal.pone.0149445）及固定 COL26.8 接受记录，新增 12 个物种、9 个属、4 个科、1 个亚科、2 个亚目和 Squamata 目级双语研究导读，共 29 个 profile。不是完整生活史或完整后代覆盖。
+- 每个物种分别保留 Table 1 的 MDHC 样本编号及结果段落定位；保留 Lacerta bilineata、Phoenicolacerta troodica 的未成熟样本边界，不把候选椎骨性状写成已验证诊断。
+- 论文 Podarcis wagleriana 与 Agama impalearis 尚未与固定目录建立记录明确的名称概念对应，暂不创建接受种页；Takydromus sp. 不鉴定到种，不计物种完成。
+- 新增共享参考文献 ref-21f9fcaf-7549-4654-a320-79673b011217，出版商 JATS 明确给出 CC BY 4.0；只写事实转述，不复制图表。
+- 本批仅写 canonical Markdown、分类索引、证据绑定与投影映射输入。遵循内容优先指令，未运行测试、投影生成、registry/manifest 生成、提交或推送。
+
+## P5-26 — 蜥蜴论文旧名对应补充（2026-10-02）
+
+- 固定 COL26.8 接受种 Podarcis waglerianus（4KPJM）和 Agama bibronii（C655T）各新增双语标本研究页。通过 The Reptile Database 异名表记录论文 Podarcis wagleriana 与 Agama impalearis 的对应，保留原样本名，不声称重新鉴定。
+- 新增 Iguania、Agamidae、Agaminae、Agama 四级导读；本次共 6 个 profile，更新 P5-25 父级路径。P5-25 的两条待对应记录由本节处理；Takydromus sp. 仍未定种。
+- 保留 MDHC 390 的后部可自断尾椎位置及 MDHC 275 未保持整列关节连接的边界。只支持具体椎骨观察，不写完整生活史或保护状态。
+- 仅写 canonical 内容与映射输入；未运行测试、生成投影、提交或推送。
+
+## P5-27 — Varanoid 头骨 CT 与统一载荷比较（2026-10-02）
+
+- 依据 McCurry 等（2015；DOI 10.1371/journal.pone.0130625）新增 11 个接受种、Helodermatidae/Heloderma 与 Lanthanotidae/Lanthanotus 四个分类导读，共 15 个 profile；为已有 Varanus exanthematicus 及 Squamata、Autarchoglossa、Varanidae、Varanus 导读增加头骨研究路径。
+- 官方 COL26.8 接受名称、阶元及整条分类路径逐项取自 API。该研究覆盖 12 种、13 枚头骨；V. panoptes panoptes 与 V. panoptes horni 保留为论文样本名称，不当作两个接受种。V. gouldii 与 V. komodoensis 样本是亚成体。
+- 保留 Table 1 样本编号及未经统一体积的头骨长度，区分 FMNH 58288 头骨与 MDHC 335 椎骨证据。论文的馆藏机构字段未据独立馆藏档案核对，本批仅采用编号，不修订馆藏名称。
+- 读者页区分模型应变与活体实测咬合力；保留体积统一、均一材料与肌肉附着假设，以及单枚头骨与年龄边界。论文 varanoid 功能分组不另建为 COL 接受分类单元。
+- 新共享参考 ref-9377c3dd-62b3-45ad-9066-3da2a556920b，完整九作者名单、2015-06-24 日期与出版商 JATS CC BY 4.0 已记录；只转述事实，不复制图表。
+- 内容阶段继续：未运行测试、投影/registry/manifest 生成、提交或推送。
+
+## P5-28 — AVONET v7 鸟类测量与生态数据导读（2026-10-02）
+
+- 固定 Figshare v7（DOI 10.6084/m9.figshare.16586228.v7，file 34480856；CC BY 4.0），原始工作簿 MD5 1445afdcfb6df784010c2ca034544bc8；保留下载文件 SHA-256 与字节数。论文 DOI 10.1111/ele.13898；115 位作者名单按出版商 Crossref 元数据记录。
+- 本地完整 COL26.8 hierarchy 的 Aves 接受种仍为 11044，不使用只覆盖异名目标的 targets 表替代分母。AVONET 的 11,009 行是另一历史分类名录，不能作为 COL 分母。
+- 从 source sheet 筛出 5931 个严格候选：Inference=NO、至少一套完整形态测量、体重不取 genus average/model/inferred/split 赋值、目录唯一同名同科、BirdLife/eBird/BirdTree 同名一对一且无星号或复杂对应。名称关联不声称当前物种概念等同。
+- 本次实际写入 5931 个双语物种数据导读，其中 5923 个新 profile；新增 1942 个分类阅读导读，并扩充 13 个已有物种或类群 profile。已有 dossier 及原有研究正文保留。
+- 物种页分别提供样本量、喙三维度、翼与跗蹠、独立来源体重、栖地/食性/活动方式、迁移与历史繁殖/留居纬度摘要；不把物种均值写成诊断、个体范围、当前全球占域或保护现状。仅作数据导读，不计为完整物种专论或专家审查完成。
+- 来源记录、字段说明、严格筛选缺口与名称概念边界保存在 data/sources/avonet-v7-measured-birdlife-records.jsonl.gz 和 avonet-v7-measured-birdlife-source.json。保留 1 个需个别整合的 existing-content 项。
+- 只写 canonical 内容、来源档案、共享参考与投影映射输入；内容阶段仍未运行测试、投影/registry/manifest 生成、提交或推送。
+
+### P5-28 Aves 总导读个别整合
+
+- 在 Aves 原有 atlas-node、claims、ranges 等记录之外新增 catalogue-profile，保留原证据正文和字段；把未写作的双语页补为样本、测量、生态阅读导读。新增类群 profile 总数现为 1,943。
+- 先前唯一 existing-content 项已个别整合，来源档案的 skippedExisting 清零；并未把整个鸟类目标标为完成。
+
+- P5-28 缺失地理字段：Numenius borealis、Zenaida graysoni、Mitu mitu、Acrocephalus sorghophilus、Corvus hawaiiensis、Myadestes lanaiensis、Campephilus imperialis、Campephilus principalis、Cyanopsitta spixii 的来源纬度端点未记录。双语页面明确留空的科学含义，不把格式化占位值写成数值，不据此判定存续或保护状态；原始档案保留缺失值。
+
+## P5-29 — PanTHERIA WR05 生活史与生态资料导读（2026-10-02）
+
+- 固定 Figshare Full Archive v1（DOI 10.6084/m9.figshare.3531875.v1，file 5604752，CC0），保留原始 ZIP MD5 ca6fcc6935a8ab9cb54b6bfc84aeeb76、SHA-256 fe84274a39ba73b3c9b6950b78ba44c545852db9809d1549b0071cfdde46df9f 与字节数；共享参考 ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57 和 ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b，24 位作者依出版商 Crossref 顺序记录。
+- 原始 MSW05 表 5,416 行，固定 COL26.8 Mammalia 接受种分母仍为 6461。筛选 1213 条同名同科、MSW93/MSW05 一对一且至少三个焦点字段可用的候选；只建立资料关联，不证明当前分类概念等同。
+- 实际写入 1213 个双语物种资料导读；其中 1125 个新物种 profile，另新增 1012 个分类阅读导读，扩充 131 个已有 profile；0 个 existing-prose 项保留待个别整合。
+- 物种页按已有字段介绍体型、繁殖与成长、活动与食物类别、群体或历史空间范围；连续字段按源定义解释为中位数与部分 GLM 调整，不写成直接个体测量、个体极值或当前种群。保留野外、圈养、投喂、未说明条件及一手/二手/外推原材料限制，不用 *_EXT 字段补值。
+- 来源记录、MSW93/MSW05 对应、筛选缺口与完整源字段说明保存在 data/sources/pantheria-wr05-2008-authored-records.jsonl.gz 和 pantheria-wr05-2008-authoring-source.json。新增 profile 与原有 atlas/claims/dossier 等记录共存，原正文保留。
+- 仅写 canonical 内容、来源档案、共享参考与投影映射输入；依内容阶段指令，未运行测试、类型检查、内容验证器、投影/registry/manifest 生成、提交或推送。资料导读不计作完整专论或专家审查完成。
+
+## P5-30 — ReptTraits v1-2 爬行动物性状资料导读（2026-10-02）
+
+- 固定 Figshare archive v4（DOI 10.6084/m9.figshare.24572683.v4），选修正 Hydrophis、Emydocephalus 与 Scolecophidia 微生境/栖地错误的 v1-2 工作簿，file 45408133；CC BY 4.0。保存 MD5 a00be695740e752db2654537bbb0814c、SHA-256 74eb6fd0e2626c75bdbeacb50a08b1762eee42e2b3cfda4a0f1134b84971718a、字节数与 Changes 原文。
+- 论文 Oskyrko、Mi、Meiri、Du（2024，DOI 10.1038/s41597-024-03079-5）与数据参考分别为 ref-d075eefb-2767-428c-ae91-9d089b535c8d 和 ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3；来源共有 12,060 行，固定 COL26.8 Reptilia 接受种分母仍为 12649，两个数量不混用。
+- 严格候选 7406 条：固定目录唯一同名同科、至少四个有逐性状出处的焦点字段、至少一个尺寸或繁殖数值。实际写入 7406 个双语物种导读；新增 7346 个物种 profile、1134 个分类导读，扩充 109 个已有 profile，0 个原有正文项留待个别整合。
+- 保留龟类 SCL／其他类群 SVL、报道最大值／典型个体、窝卵均值两端／实际单窝极值等语义边界。连续平均字段可能是多个已报道均值或极值的中点，不当作每窝观测均值。保留源繁殖标签，不从卵胎生标签推断胚胎营养。
+- 不把长度公式估算的体重写为实测；幼体长度的标题/定义不一致亦未用于读者结论。保护、毒性、当前分布与种群趋势未更新。原始行及每字段出处完整保存在 data/sources/repttraits-v1-2-authored-records.jsonl.gz，筛选缺口、定义与引用表在 repttraits-v1-2-authoring-source.json。
+- 新内容与已有 atlas、claims、dossier 和研究正文共存；资料导读不计为完整物种专论或专家审查完成。依内容阶段指令，未运行测试、类型检查、验证器、投影/registry/manifest 生成、提交或推送。
+
+### P5-30 楔齿蜥字段与引用链边界
+
+- Sphenodon punctatus 的 ReptTraits 长度字段列 800/450/610 mm，但原始文献的 SVL／总长测量位置尚未核实；读者页保留字段记录，不作为已确认 SVL 或性二型结论。三个父级导读同步停止据此做长度端点比较。
+- Diet 引用 Harrington 等（2018）的树栖蛇研究，Foraging mode 引用 Rhodin 等（2011）的龟类名录，尚未建立对楔齿蜥相应性状的支持；两个字段不转为确定读者结论。原始工作簿行和引用标签保留，元数据 readerFieldCautions 记录待核实内容。
+- 这是已写入的资料边界页，不是源性状完整达标；既有 DOC 自然史与 Gemmell 等基因组章节保留。未据疑点直接改写原始数据或声称上游错误已确定。
+
+### P5-30 同类引用范围疑点处理
+
+- 两条引用链的定向资料阅读发现 164 个已写物种条目存在跨类群出处疑点：蛇类论文 Harrington 等（2018）用于非蛇类字段，或龟类名录 Rhodin 等（2011）用于非龟类字段。涉及字段计数为 {"Foraging mode":101,"Diet":54,"Active time":11,"Microhabitat":1,"Maximum female length (\"SVL\", mm)/straight carapace length for turtles (\"SCL\", mm)":9}；不据此宣布原数值错误。
+- 已从双语确定性状正文撤下所涉字段，并逐页记录原标签与缺口；158 个父级导读添加后代引用缺口说明。楔齿蜥原有个别测量边界保留。
+- 4 个条目在撤下字段后低于原四焦点字段门槛：保留为有限资料与缺口页面，不计性状完整。7406 是已写资料页数量，不是来源复核通过或完整内容数量。原始来源行档案未改写；citationScopeReview 保存逐条明细。本次仅作内容编辑，未运行测试、验证器、投影生成、提交或推送。
+
+## P3-133 — 四个 Cebus 名称的 2019 年手册形态与栖地导读（2026-10-02）
+
+- 为 C. leucocephalus（RYZN）、C. cesarae（RYZ7）、C. brunneus（RYZ2）及 C. malitiosus（RYZS）各增加两节双语正文，并扩充 Cebus 属级比较阅读路径；保留原分类、遗传、模式复核、评估和模型地图章节。四个旧名条目的毛色与尺寸字段各有区别，没有用属级事实补空。
+- 来源为 EAZA 2019 年手册第一版（DOI 10.61024/BPG2019CapuchinMonkeys），四位编者按标题页完整记录，来源页码为 24、31、32、34。正文保留汇编尺寸的样本和测量方法缺口；malitiosus 表中尺寸跨雌雄列，不指定性别；brunneus 食物列举仍为推测。原 PDF、图片和地图仅在本地阅读，未再分发；来源 SHA-256 与逐页出处保存于 data/sources/primates-cebus-eaza-2019-reader-2026-10-02.json。
+- 这些来源不能裁决当前分类概念，也未补足可明确归属的野外生态。四个首轮缺口仍开放；固定 530 分母及活动目标的 15 项剩余缺口均不变，五个未恢复的原始 ID 仍待恢复。修改资料范围说明，不计完整物种专论或专家评审完成。
+- 原拟补充的 Vermeer 2025 旧官网链接证书不匹配，检索到的 CDN 地址返回 404；未据检索摘要扩写其标本事实。内容阶段继续，未运行测试、类型检查、验证器、投影/registry/manifest 生成、提交或推送。
+
+## P3-134 — Cheracebus medemi 国家评估与分层阅读路径（2026-10-02）
+
+- 在 C. medemi（TXQM）增加一节双语国家评估正文，扩充 Cheracebus 属级阅读路径；保留原名称、类型材料与旧分类样线章节。共享引文记录 Javier García、2025-11-10、原网页及 CC BY 4.0；评估范围和推测性质在正文与来源绑定中明确。
+- 来源为哥伦比亚国家评估，不替代全球评估。页面没有可复核的种群时间序列；旧 Callicebus torquatus 样线数字不重命名为当前种的数量。未据地图、照片说明或 BioModelo 标签确认分布点。ANLA 完整报告因下载失败未读到，检索摘要未用于新增模型事实。
+- TXQM 在 P3-106 曾注明资料不足，但不能证明其属于活动目标中五个未恢复的原始 ID；本批将其作为单独识别的种级生态/种群证据不足项保留，不能靠历史计数算术抵扣原始目标。关闭缺口 0，活动目标剩余 15 项、五个原始 ID 未恢复均不变。页面为 source-linked，不计完整物种专论或专家评审。
+- 来源与边界记录保存于 data/sources/primates-medemi-national-assessment-reader-2026-10-02.json。继续内容阶段；未运行测试、类型检查、验证器、投影/registry/manifest 生成、提交或推送。
+
+## P5-31 — Haliskia 正模描述、属级路径与翼龙比较入口（2026-10-02）
+
+- 固定 PBDB 翼龙名册中的 Haliskia peterseni（txn:492615）新增六节双语正文：标本、地层、牙列/舌骨、翼展、系统分析和摄食假说；Haliskia 属新增两节导读，Pterosauria 既有页增加一节比较阅读入口。属页、种页与分类存储锚点分开计数，固定分母不变。
+- 完整读取 Pentland 等 2024 原始描述（DOI 10.1038/s41598-024-60889-8）的正文 XML。八位作者按前置信息保存，共享参考文献为 ref-675ecf6f-18f8-472d-bfa9-95c17e71b778。舌骨比例明确按 280 mm 角鳃骨与 400 mm 下颌解释；約 4.6 m 翼展为比较估计，缺失肱骨/尺骨/桡骨。没有直接摄食内容物，舌功能、软体猎物与生态位分化保留假说性质。两套矩阵可编码比例和不稳定分类单元限制均进入正文。
+- 分类采用新保存的 PBDB 父链，在既有 Pterosauria 补充节点下依次接入 Pterodactyloidea/Pteranodontia/Ornithocheiroidea/Anhangueridae/Haliskia/Haliskia_peterseni；不与 COL26.8 概念等同，论文分类和目录分类不合并。原始祖先查询保存于 data/sources/snapshots/pbdb-haliskia-ancestry-2026-10-02.json；来源 XML 的哈希、读取范围、成熟度及未交付项保存于 data/sources/haliskia-primary-description-reader-2026-10-02.json。未复制图像或第三方复原图。
+- 当前为 canonical source-linked 正文，不能计完整物种专论、专家评审或读者端交付完成。新增 PBDB profile 的投影映射仍待内容阶段结束后接入，不将 PBDB OID 伪装为 COL ID。依内容优先指示，未运行测试、类型检查、验证器、投影/registry/manifest/queue 生成、提交或推送；灵长类剩余缺口计数不变。
+
+## P5-32 — Ferrodraco 正模、属级对读和 Anhangueridae 精选路径（2026-10-02）
+
+- 固定 PBDB 名册中的 F. lentoni（txn:399804）新增六节双语正文，Ferrodraco 属新增两节导读，已有 Anhangueridae 存储节点新增两节精选比较路径。种、属、科导读分别计数；科页只比较两个正模，不声称完整科级接受种索引或统一生态综述。
+- 完整读取 2019 年原始描述 XML 中的命名、正模、诊断、描述、Table 1、系统结果、讨论与方法（DOI 10.1038/s41598-019-49789-4）；八位作者按前置信息完整记录。AODF 876 为部分且局部变形的骨架，约 4 m 翼展为比较估计，骨骼成熟判断与尚未缝合的腕骨同时保留。模式地点缺少精细年龄约束，可能晚存续/避难所解释没有升级为确认事实。未从其他类群转用食性、迁徙或繁殖数据。
+- 保留 2019 年论文 Ornithocheiridae 用法、2024 年 Haliskia 比较及 PBDB 2026-10-02 Anhangueridae/Tropeognathinae 父链的区别；新祖先响应保存于 data/sources/snapshots/pbdb-ferrodraco-ancestry-2026-10-02.json，未改变固定分母。来源哈希、读取范围、成熟度及未交付项保存于 data/sources/ferrodraco-primary-description-reader-2026-10-02.json；未复制图像/复原图。
+- 当前为 canonical source-linked 正文；新增 PBDB profile 映射、读者端生成和发布仍待内容阶段交付，不伪造 COL ID。未运行测试、类型检查、验证器、投影/registry/manifest/queue 生成、提交或推送；灵长类缺口计数不变，未计完整物种专论或外部专家评审完成。
+
+## P5-33 — 接通 Haliskia/Ferrodraco/Anhangueridae 的 PBDB profile 映射（2026-10-02）
+
+- 为 P5-31/32 的五个种、属、科页面新增 atlas-profile、atlas-node 与来源限定 global range 记录；复用原双语正文指针，不复制或改写其科学段落。映射进入已有 marine-reptiles-pterosaurs 包，保留旧 profiles 和导航分支。兼容运行键直接采用外部 PBDB OID，不伪造 COL ID 或内部 taxon ID。
+- 选定导航为 Pterosauria 下的 Anhangueridae 及两个属、种，所有新增边明确 navigation-parent；省略的存储祖先仍在完整 canonical 路径/原始 PBDB 父链中保留，此导航不充当系统树或完整科级索引。
+- 另保存五条 PBDB 原始年龄记录于 data/sources/snapshots/pbdb-wing-reader-range-records-2026-10-02.json。时间条采用数据库出现记录年龄的外界；保留 fea/fla/lea/lla 与其宽区间，database-derived、not-reviewed，不声称精确 FAD/LAD、标本测年或专家评审。个体尺寸和年代限制仍保留在正文。
+- 来源和映射交接记录为 data/sources/pbdb-wing-reader-mapping-2026-10-02.json；回填 P5-31/32 receipt 的映射状态，生成与发布仍待内容阶段交接。未运行测试、类型检查、验证器、投影/registry/manifest/queue 生成、提交或推送。固定分母与灵长类缺口计数不变。
+
+## P5-34 — 翼龙种、属、科的实际页面链接与 PBDB 来源绑定（2026-10-02）
+
+- 为五个新增 profile 与既有 Pterosauria 入口准备 22 条 readerRelatedPages 有向跳转。标签和上下文均为双语，读者可从科进入两组属、种，或在两个正模研究间对读；复用既有正文，不增加生物学结论。Pterosauria profile 的兼容字段映射同步加入 readerRelatedPages，旧正文与导航分支保留。
+- PBDB 解析表保留原 7 月归档源、summary 和 reconciliationRun，再添加五个按明确接受 OID 绑定的新来源记录及完整祖先链。10 月来源的原始响应、引用与读取日期独立记录；不把它们伪装成原 7 月归档结果，也不声称外部专家作过分类裁决。
+- 来源与链接交接记录为 data/sources/pbdb-wing-reader-links-2026-10-02.json；P5-33 receipt 同步记录链接和解析绑定状态。固定分母及灵长类缺口计数不变。当前仍为 canonical 准备状态，尚未生成/实测运行跳转或发布；未运行测试、类型检查、验证器、投影/registry/manifest/queue 生成、提交或推送。
+
+## P5-35 — Thapunngaka 部分下颌、层位与尺度争论导读（2026-10-02）
+
+- 固定 PBDB 名册中的 T. shawi（txn:478714）新增三节双语正文，属页新增一节对读路线；原始接受身份与 PBDB 补充父链保留，固定分母不变。
+- 原始描述 DOI 10.1080/02724634.2021.1946068 的作者公开全文转录支持简要正模、收藏、保存与层位事实；出版商 PDF 返回 403，作者页面 PDF 链接返回 404，替代下载返回 403。停止 PDF 重试，未视觉核对测量表，不扩写其数字。作者和出版日期来自原文前置信息，原文、PDF 和图像未再分发。
+- 2024 年 Haliskia 原始论文关于 Thapunngaka 尺度估计的批评单独入文，不把“澳大利亚最大翼龙”写成确认事实。2023 年第二件标本研究 DOI 10.1016/j.cretres.2023.105740 只识别到书目信息，未获得并读完全文，不裁决其归属。
+- 来源与限制记录为 data/sources/thapunngaka-original-description-reader-2026-10-02.json；种级生态与完整材料仍不足，不计完整物种专论或专家评审。当前 canonical 正文的 PBDB 映射、生成和发布仍待交接；未运行测试、类型检查、验证器、投影/registry/manifest/queue 生成、提交或推送。
+
+## P5-36 — Thapunngaka 第二件标本与归属争议（2026-10-02）
+
+- 种页新增三节双语正文：第二件标本保存材料、归属依据与质疑、Mythungini 分析假说；属页同步更新阅读路线。固定分母和存储分类不变。
+- 已取得 DOI 10.1016/j.cretres.2023.105740 的已接受预出版 PDF，读取相关描述、比较与分析章节，并视觉核对 PDF 第 26 页归属段落；不是最终出版版完整审阅，不扩写测量表数值，不再分发 PDF 或图像。Crossref 核对三位作者、2024 年卷 154 和文章号 105740，保留 2023 年预出版版本信息。
+- 保留 Richards 等将 KKF600 归入该种的依据，以及 Pentland 等 2024 年对归属的质疑；不将有争议的标本特征无条件转移至种级资料。不计完整物种专论或专家评审，生态与完整分布仍不足。
+- 来源与限制：data/sources/thapunngaka-second-specimen-reader-2026-10-02.json。canonical 内容已更新，映射、生成与发布待后续阶段；未运行测试、类型检查、验证器、生成器、提交或推送。
+
+## P5-37 — Thapunngaka 映射与实际阅读链接（2026-10-02）
+
+- 种、属页新增 atlas-profile、atlas-node、来源限定 global range，复用七节既有双语正文及资料限制，接入 marine-reptiles-pterosaurs 包和精选科级导航。使用原 PBDB 接受 OID，不新造内部 taxon ID；导航边明确 navigation-parent，保留完整存储祖先链。
+- 为六个页面添加 12 条双语 readerRelatedPages 链接，连接 Thapunngaka、Anhangueridae、Pterosauria、Haliskia 与 Ferrodraco。原有链接和正文保留；第二件标本归属争议不因数据库映射消失。
+- 保存两条 PBDB 原始出现年龄记录，区间作为 database-derived、not-reviewed 外界，不解释为精确起源、灭绝或标本年龄。解析表添加两条明确 OID 绑定及祖先链，原归档 summary/reconciliationRun 不改写。
+- 交接记录为 data/sources/pbdb-thapunngaka-reader-mapping-2026-10-02.json。固定分母与灵长类缺口不变，不计完整专论或专家评审。生成与运行跳转仍待交接；未运行测试、类型检查、验证器、生成器、提交或推送。
+
+## P5-38 — Mythunga 正模、解释修订与不稳定系统位置（2026-10-02）
+
+- 固定 PBDB 名册的 Mythunga camara（txn:148341）新增四节双语正文，属页新增一节阅读路线，两个补充存储 index 沿原 PBDB 父链记录，不改分母或认定 COL/PBDB 概念等价。
+- 已取得 Molnar/Thulborn 2007 原始描述所在扫描期刊，提取印刷页 461–470（PDF 83–92），视觉核对 PDF 83–84 的题名、作者、正模与产地；正文仅简要记录原始保存事实与限制，不扩写测量表或再分发 PDF/图像。
+- 重描述 DOI 10.1016/j.cretres.2018.09.011 的作者、卷页与 2019 年出版信息经 Crossref 核对，仅公开摘要支持的牙齿与夹板骨修订入文；完整正文仍未取得。后续 Thapunngaka 与 Haliskia 研究的分析结果分别记录，不把未解析或不稳定单元写成确定姐妹群。
+- 来源与缺口：data/sources/mythunga-primary-reader-2026-10-02.json。完整重描述、生活史及完整分布仍不足，不计完整专论或专家评审；canonical 映射、生成与发布待交接。未运行测试、类型检查、验证器、生成器、提交或推送。
+
+## P5-39 — Mythunga 映射与实际阅读链接（2026-10-02）
+
+- 种、属页新增 atlas-profile、atlas-node、来源限定 global range，复用五节既有双语正文及资料限制，接入 marine-reptiles-pterosaurs 包和精选科级导航。使用原 PBDB 接受 OID，不新造内部 taxon ID；导航边明确 navigation-parent，保留完整存储祖先链。
+- 为七个页面添加 13 条双语 readerRelatedPages 链接，连接 Mythunga、Anhangueridae、Pterosauria、Haliskia、Ferrodraco 与 Thapunngaka。原有链接和正文保留；完整重描述缺口与不稳定系统位置不因数据库映射消失。
+- 保存两条 PBDB 原始出现年龄记录，区间作为 database-derived、not-reviewed 外界，不解释为精确起源、灭绝或标本年龄。解析表添加两条明确 OID 绑定及祖先链，原归档 summary/reconciliationRun 不改写。
+- 交接记录为 data/sources/pbdb-mythunga-reader-mapping-2026-10-02.json。固定分母与灵长类缺口不变，不计完整专论或专家评审。生成与运行跳转仍待交接；未运行测试、类型检查、验证器、生成器、提交或推送。
+
+## P5-40 — 全 Amniota 历史生活史字段与出处导读（2026-10-02）
+
+- 使用 Ecological Archives E096-269-D1 的 August 2015 原始数据、引用、sparse 和范围计数表，保留下载 URL、字节数、SHA-256 与压缩原件；六位作者依 Crossref 记录，论文 DOI 10.1890/15-0846R.1。元数据明确无档案版权限制并要求引用；底层文章与期刊文章的权利另计，不再分发 PDF 或图像。
+- 从固定 COL26.8 中按唯一同名、同类、同科和至少三个有出处支持的焦点字段筛出 5519 条；每条至少两个生活史字段，保留逐字段 sparse 行号、值、引用标签和汇总出处字符串。原汇编历史种／亚种共享继承未被同名关联消除，不声称现代物种概念等同。
+- 实际写入 5519 个双语物种生活史导读，分组为 {"Aves":2297,"Mammalia":2110,"Reptilia":1112}；新增 1740 个种级 profile 和 309 个分类导读，扩充 6160 个已有 profile。原 dossier、atlas、claims、ranges 及读者正文保留，0 个 existing-content 项待个别整合。
+- 区分汇编中位数／插值中位数和最长寿命最大记录；首受孕、出生、断乳、孵化与离巢／飞行事件分别说明，不把汇总值当作独立个体测量、个体极值或野外平均寿命。不使用年产窝字段的 raw/final 标题差异、SVL 字段或不一致的 longevity_y 字段补值。
+- 下载 sparse 表实际有 139827 行，元数据描述 99,311 条原始记录；两者保留为不同范围，不宣称一致或当作测量个体数。完整食性、行为、当前分布、保护、底层文献逐篇复核及生活史缺失仍待补充，不计完整专论或专家审查完成。
+- 来源与缺口保存在 data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz 和 amniote-lifehistory-2015-authoring-source.json。只写 canonical、独立来源档案、共享参考与映射；依内容阶段指令，未运行测试、类型检查、验证器、投影/registry/manifest/queue 生成、提交或推送。固定分母及原 15 项灵长类缺口不变。
+
+### P5-40 字段类群范围限定
+
+- 源 Supplemental Table 9 将 gestation/weaning 限定为哺乳类、incubation 限定为鸟／爬行类、fledging 限定为鸟类。发现 148 个已写物种条目的 148 个字段值超出这一定义范围；不据此宣称原数值错误。
+- 已撤下未经确认的对应事件解释，保留原始数值、引用与出处行，更新 131 个父级导读的字段覆盖计数和边界。单孔类孵化或爬行类 gestation 标签需底层原文澄清，不能自动改名转用。
+- 6 个条目在撤下字段后低于原筛选门槛，保留为有限资料与缺口页；5519 是实际资料页写入数，按字段范围限定后仍达到原门槛的为 5513，两者均不表示完整物种专论或专家评审。原始档案不改写，readerClassScopeReview 保留逐条明细。未运行测试、验证器、生成器、提交或推送。
+
+## P5-41 — EltonTraits 食物、觅食层位与活动时段导读（2026-10-02）
+
+- 原始来源为 Ecological Archives E095-178-D1 的 EltonTraits 1.0 四份 TSV 和完整元数据；论文 DOI 10.1890/13-1917.1，六位作者按原档案及 Crossref 顺序记录。四个文件 MD5 与元数据列值一致，原始字节、SHA-256 与引用表完整保留。原档案称 ASCII，但实际含 cp1252 弯引号；只在读取时解码，不改原件。
+- TSV 含 9995 个鸟类解析行、5403 个哺乳类解析行，其中各有 2、3 个无名尾行；有名记录为 9993、5400，不与固定 COL 分母混淆。
+- 采用唯一接受同名、同类、同科和至少两类可用生态字段的 9270 个条目；鸟类使用 A/B 食性及物种级层位，哺乳类使用 ABC 食性／活动和 A 层位。C、D1、D2、鸟类非物种级层位及注明拆分的记录不补确定结论。ABC 仍可能含生态相近同属材料，正文明确限定，不计本种直接观测证明。
+- 实际写入 9270 个双语物种导读（{"Aves":5515,"Mammalia":3755}），新增 2358 个种级 profile、358 个分类导读，扩充 9799 个已有 profile；编排 3245 个祖先阅读路线，0 个既有正文项待个别整合。原 dossier、atlas、claims、ranges 与正文保留。
+- 食物及鸟类层位百分数是作者从文献描述标准化的粗略相对权重，不是摄食／时间实测；方法文字的 0–10 与发布表 0–100 分别记录，正文按发布原值、不再乘十。活动二元字段可同时为 1，不归一化为时间预算；哺乳类层位保留 G 包括部分水中活动、M 原注释可能限定淡水等边界。
+- 原始引用字符串按鸟类／哺乳类表分别关联，不将同号 Ref 当作同一出版物。未采用体重，保留档案对其主来源需另引的要求。底层文章和手册未逐篇复核；完整生态、当前分布、保护与外部专家审评未完成。
+- 来源与缺口为 data/sources/eltontraits-v1-authored-records.jsonl.gz 和 eltontraits-v1-authoring-source.json。固定 30,154 COL 及独立 PBDB 工作清单、530 灵长类分母、原 15 项缺口均不变；内容阶段未运行测试、类型检查、验证器、投影／registry／manifest／queue 生成、提交或推送。
+
+### P5-41 逐页缺失字段与淡水层位限定
+
+- 对 898 个导读补入逐页字段限制：未解读食性 526、活动时段 228、层位 144 项；它们仍有至少两类本批可用字段，但未把插补或未关联出处转成事实。
+- 6 个 M 层位条目的原注释为 Freshwater，双语正文明确保留淡水限定，不按类别名改写为海洋栖地。原始行和压缩档案不改写；receipt 保存逐项列表。物种、分母、专家审评与原灵长类缺口计数不变。
+
+## P5-42 — 固定翼龙名录的化石出现、采集与年代导读（2026-10-02）
+
+- 对固定 276 项 PBDB 翼龙工作名录，使用同日根 OID txn:38461 的 accepted 层级和全部 latest 出现查询。响应报告与返回均为 1162 个出现记录；原响应、参数、时间与哈希保留，未更改固定工作分母或用当前新名称替换旧名录。
+- 选择当前同名、父链可追到已有 Pterosauria 存储锚点、且至少一条有引文／年代／地点的无疑问限定种级出现记录的 252 种，共 405 条出现记录。cf.、aff.、问号等 27 条需个別鉴定复核的记录不用于确定导读；旧组合由数据库映射时保留原鉴定和差异字段，不算独立新发现。
+- 实际补写 252 个双语种级记录导读和 269 个分类阅读入口；新增 248 个种级 catalogue-profile、264 个类群 profile，扩充 9 个既有 profile。旧 atlas、dossier、研究与读者正文保留，不新造 COL ID 或内部 taxon ID。
+- 每页从具名采集地、地层和原引文追溯记录；年代外包区间仅描述所选出现记录，Ma 不转成精确标本年龄或起源／灭绝时间。采集环境、集合保存标签与个体生态分开，不据湖泊／海洋沉积标签给翼龙确定食性或栖地。原引用署名是数据库缩略材料，不补造完整作者表，不宣称底层文章／标本已经逐项复核。
+- 24 个名录条目仍不足：22 个没有本批可用的无疑问限定、带引文和年代／地点的种级出现记录，2 个缺完整父链（Osteornis diomedeus、Eurolimnornis corneti）。逐项列表在 data/sources/pterosaur-occurrence-guides-2026-10-02.json，不计完成。其他 252 页也只计来源限定记录导读，不计完整形态／生态专论或专家审评。
+- 原始来源和逐种档案为 data/sources/snapshots/pterosaur-occurrence-guides-2026-10-02-* 与 pterosaur-occurrence-guides-2026-10-02-records.jsonl.gz。canonical 内容已写，PBDB atlas/profile/navigation 兼容映射、生成与发布待内容阶段交接，不能把 PBDB OID 填入 COL profile 投影。未运行测试、类型检查、验证器、投影／registry／manifest／queue 生成、提交或推送；原 15 项灵长类缺口不变。
+
+## P5-43 — 接通固定翼龙出现导读的页面映射与阅读路径（2026-10-02）
+
+- 为 P5-42 的 521 个种级／类群页面准备 atlas-profile、读者段落与来源映射，新增 511 个 profile、扩充 10 个既有 profile。原研究正文、读者材料、词条和旧映射保留；Pterosauria 根页继续复用旧研究 profile 与 canonical 读者字段，不复制成另一个根分类单元。
+- 原有 13 个导航节点保留；新增 508 个节点按已记录 PBDB 父链连接。旧运行键继续使用，新兼容键为外部 PBDB OID，不造 COL ID 或内部 taxon ID；所有新边为 navigation-parent，不当作经过专家裁决的系统树。
+- 新增 1216 条双语 readerRelatedPages 链接，连接父级、后代和同属物种的来源限定记录；旧链接保留。新段落的 PBDB 分类引用用独立 taxonomy source key，避免与原有 COL 或其他来源的分类引用混用。
+- 新增 508 条 database-derived、not-reviewed 时间范围记录，保留出现早晚界的四个字段与来源；它们使用数据库所见全部记录的摘要，正文中无疑问限定子集的外包区间另有明确范围。既有时间条不改写；两者均不是精确标本测年、起源或灭绝时刻。
+- PBDB 解析表新增 508 个明确外部 OID／父链绑定，保留原归档运行、旧解析记录与引用。当前概念审查为 not-reviewed，未添加专家或人工裁决。
+- 映射和逐条链接交接记录为 data/sources/pterosaur-occurrence-guides-mapping-2026-10-02.json；P5-42 receipt 同步更新。24 项出现／路径资料不足、固定分母与原 15 项灵长类缺口均不变。本批只准备 canonical 映射，未运行测试、类型检查、验证器、投影／registry／manifest／queue 生成、提交或推送，实际读者端跳转和发布仍待内容阶段交接。
+
+## P5-44 — 固定恐龙及其鸟类分支名录的化石出现、采集与年代导读（2026-10-02）
+
+- 对固定 3538 项 PBDB 恐龙及其鸟类分支工作名录，使用同日根 OID txn:52775 的 accepted 层级和全部 latest 出现查询。响应报告与返回均为 37866 个出现记录；原响应、参数、时间与哈希保留，未更改固定工作分母或用当前新名称替换旧名录。
+- 选择当前同名、父链可追到已有 Dinosauria 存储锚点、且至少一条有引文／年代／地点的无疑问限定种级出现记录的 2927 种，共 6906 条出现记录。cf.、aff.、问号等 498 条需个別鉴定复核的记录不用于确定导读；旧组合由数据库映射时保留原鉴定和差异字段，不算独立新发现。
+- 实际补写 2927 个双语种级记录导读和 2952 个分类阅读入口；新增 2927 个种级 catalogue-profile、2952 个类群 profile，扩充 0 个既有 profile。旧 atlas、dossier、研究与读者正文保留，不新造 COL ID 或内部 taxon ID。
+- 每页从具名采集地、地层和原引文追溯记录；年代外包区间仅描述所选出现记录，Ma 不转成精确标本年龄或起源／灭绝时间。采集环境、集合保存标签与个体生态分开，不据湖泊／海洋沉积标签给恐龙及其鸟类分支确定食性或栖地。原引用署名是数据库缩略材料，不补造完整作者表，不宣称底层文章／标本已经逐项复核。
+- 611 个名录条目仍不足：597 个没有本批可用的无疑问限定、带引文和年代／地点的种级出现记录，14 个缺完整父链。逐项列表在 data/sources/dinosaur-occurrence-guides-2026-10-02.json，不计完成。2927 页也只计来源限定记录导读，不计完整形态／生态专论或专家审评；其中分区为 {"fossil-aves":1232,"non-avian-dinosauria":1695}，PBDB 化石 Aves 与 COL 的 Aves 清单保持来源区分。
+- 原始来源和逐种档案为 data/sources/snapshots/dinosaur-occurrence-guides-2026-10-02-* 与 dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz。canonical 内容已写，PBDB atlas/profile/navigation 兼容映射、生成与发布待内容阶段交接，不能把 PBDB OID 填入 COL profile 投影。未运行测试、类型检查、验证器、投影／registry／manifest／queue 生成、提交或推送；原 15 项灵长类缺口不变。
+
+## P5-45 — 固定鳄形类名录的化石出现、采集与年代导读（2026-10-02）
+
+- 对固定 672 项 PBDB 鳄形类工作名录，使用同日根 OID txn:53401 的 accepted 层级和全部 latest 出现查询。响应报告与返回均为 5616 个出现记录；原响应、参数、时间与哈希保留，未更改固定工作分母或用当前新名称替换旧名录。
+- 选择当前同名、父链可追到已有 Crocodylomorpha 存储锚点、且至少一条有引文／年代／地点的无疑问限定种级出现记录的 626 种，共 1567 条出现记录。鉴定限定、字段不足或其他不满足本批来源条件的 134 条记录不用于确定导读；旧组合由数据库映射时保留原鉴定和差异字段，不算独立新发现。
+- 实际补写 626 个双语种级记录导读和 488 个分类阅读入口；新增 626 个种级 catalogue-profile、488 个类群 profile，扩充 0 个既有 profile。旧 atlas、dossier、研究与读者正文保留，不新造 COL ID 或内部 taxon ID。
+- 每页从具名采集地、地层和原引文追溯记录；年代外包区间仅描述所选出现记录，Ma 不转成精确标本年龄或起源／灭绝时间。采集环境、集合保存标签与个体生态分开，不据湖泊／海洋沉积标签给鳄形类确定食性或栖地。原引用署名是数据库缩略材料，不补造完整作者表，不宣称底层文章／标本已经逐项复核。
+- 46 个名录条目仍不足：43 个没有本批可用的无疑问限定、带引文和年代／地点的种级出现记录，3 个缺完整父链。逐项列表在 data/sources/crocodylomorph-occurrence-guides-2026-10-02.json，不计完成。626 页也只计来源限定记录导读，不计完整形态／生态专论或专家审评；其中分区为 {"crocodylomorpha":626}，PBDB 化石鳄形类与 COL 现生鳄目清单保持来源区分。
+- 原始来源和逐种档案为 data/sources/snapshots/crocodylomorph-occurrence-guides-2026-10-02-* 与 crocodylomorph-occurrence-guides-2026-10-02-records.jsonl.gz。canonical 内容已写，PBDB atlas/profile/navigation 兼容映射、生成与发布待内容阶段交接，不能把 PBDB OID 填入 COL profile 投影。未运行测试、类型检查、验证器、投影／registry／manifest／queue 生成、提交或推送；原 15 项灵长类缺口不变。
+
+### P5-45 内容整理记录
+
+已读取 Sarcosuchus imperator、Deinosuchus riograndensis 的中英文导读及 Crocodylomorpha 英文入口。整理本批 674 个英文单复数段落、625 个中文标签段落和 2228 个资料边界标题；再补 51 个引号河道、河道滞留、河口／海湾及模印标签段落，保留来源原码。分类引用独立使用 pbdbCrocodylomorphTaxonomy20261002，不与其他目录的 taxonomy 引用混用。已记录但此前未物化的根以上 PBDB 父链索引按原名与原父 OID 补入；既有索引保留。
+
+P5-42、P5-44、P5-45 类群路线的双语合计句分别整理 538、5904、976 段，明确记录总数覆盖各路线所含全部本批物种，不仅是前面的具名阅读例子。P5-44 计划中误抄的根 OID 已按其原查询与 receipt 更正为 txn:52775；原始来源档案、数值、物种选择、固定分母和成熟度未改写。46 项本批来源缺口、15 项灵长类缺口与内容阶段后的生成／发布工作仍保留。
+
+## P5-46 — 固定龟类化石谱系名录的化石出现、采集与年代导读（2026-10-02）
+
+- 对固定 1150 项 PBDB 龟类化石谱系工作名录，使用同日根 OID txn:253371 的 accepted 层级和全部 latest 出现查询。响应报告与返回均为 11109 个出现记录；原响应、参数、时间与哈希保留，未更改固定工作分母或用当前新名称替换旧名录。
+- 选择当前同名、父链可追到已有 Pantestudines 存储锚点、且至少一条有引文／年代／地点的无疑问限定种级出现记录的 1061 种，共 3280 条出现记录。鉴定限定、字段不足或其他不满足本批来源条件的 341 条记录不用于确定导读；旧组合由数据库映射时保留原鉴定和差异字段，不算独立新发现。
+- 实际补写 1061 个双语种级记录导读和 673 个分类阅读入口；新增 1061 个种级 catalogue-profile、673 个类群 profile，扩充 0 个既有 profile。旧 atlas、dossier、研究与读者正文保留，不新造 COL ID 或内部 taxon ID。
+- 每页从具名采集地、地层和原引文追溯记录；年代外包区间仅描述所选出现记录，Ma 不转成精确标本年龄或起源／灭绝时间。采集环境、集合保存标签与个体生态分开，不据湖泊／海洋沉积标签给龟类化石谱系确定食性或栖地。原引用署名是数据库缩略材料，不补造完整作者表，不宣称底层文章／标本已经逐项复核。
+- 89 个名录条目仍不足：87 个没有本批可用的无疑问限定、带引文和年代／地点的种级出现记录，2 个缺完整父链。逐项列表在 data/sources/pantestudines-occurrence-guides-2026-10-02.json，不计完成。1061 页也只计来源限定记录导读，不计完整形态／生态专论或专家审评；其中分区为 {"pantestudines":1061}，PBDB 龟类化石谱系与 COL 龟鳖目清单保持来源区分。
+- 原始来源和逐种档案为 data/sources/snapshots/pantestudines-occurrence-guides-2026-10-02-* 与 pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz。canonical 内容已写，PBDB atlas/profile/navigation 兼容映射、生成与发布待内容阶段交接，不能把 PBDB OID 填入 COL profile 投影。未运行测试、类型检查、验证器、投影／registry／manifest／queue 生成、提交或推送；原 15 项灵长类缺口不变。
+
+### P5-46 分类边界与内容整理
+
+已读取 Pappochelys rosinae、Archelon ischyros 的中英文物种导读，以及 Pantestudines 英文入口。已整理 1039 个英文单复数段落、1049 个中文环境／保存标签段落、3468 个资料边界标题，并补 83 个中文来源标签段落；另为 669 个类群入口补中文等级解释并保留 PBDB 原级别词。路线合计从一开始即指全部本批成员，不限于前列具名例子。
+
+两个缺接受父链条目是 Crassachelys neurirregularis 与 Protochelys blakii。补取各自 accepted all_parents 与原父属 single 记录后，PBDB 将 Crassachelys（txn:131547）和 Protochelys（txn:37692）均标为 nomen dubium，分别对应 Taphrosphyini 与 Testudinata；本批不据此自行重指种级概念或补造接受父属路径。四份补充原响应连同参数、检索时间、哈希和压缩归档保留于本批 receipt。两项继续保留分类缺口，不计完成；其余 87 项缺可用出现记录。
+
+PBDB 的 Archelon ischyros 采集记录包含 terrestrial indet. 环境标签。正文保留原标签，明确它是采集集合字段而非物种固定栖地判断；未用常见海龟印象覆写来源，也未复核原论文或标本。原始数值、固定分母、专家审评状态和内容阶段后生成／发布任务均不变。
+
+## P5-47 — 固定有鳞类化石名录的化石出现、采集与年代导读（2026-10-02）
+
+- 对固定 1010 项 PBDB 有鳞类化石工作名录，使用同日根 OID txn:36379 的 accepted 层级和全部 latest 出现查询。响应报告与返回均为 9796 个出现记录；原响应、参数、时间与哈希保留，未更改固定工作分母或用当前新名称替换旧名录。
+- 选择当前同名、父链可追到已有 Squamata 存储锚点、且至少一条有引文／年代／地点的无疑问限定种级出现记录的 948 种，共 2498 条出现记录。鉴定限定、字段不足或其他不满足本批来源条件的 344 条记录不用于确定导读；旧组合由数据库映射时保留原鉴定和差异字段，不算独立新发现。
+- 实际补写 948 个双语种级记录导读和 821 个分类阅读入口；新增 948 个种级 catalogue-profile、818 个类群 profile，扩充 3 个既有 profile。旧 atlas、dossier、研究与读者正文保留，不新造 COL ID 或内部 taxon ID。
+- 每页从具名采集地、地层和原引文追溯记录；年代外包区间仅描述所选出现记录，Ma 不转成精确标本年龄或起源／灭绝时间。采集环境、集合保存标签与个体生态分开，不据湖泊／海洋沉积标签给有鳞类化石确定食性或栖地。原引用署名是数据库缩略材料，不补造完整作者表，不宣称底层文章／标本已经逐项复核。
+- 62 个名录条目仍不足：62 个没有本批可用的无疑问限定、带引文和年代／地点的种级出现记录，0 个缺完整父链。逐项列表在 data/sources/squamata-occurrence-guides-2026-10-02.json，不计完成。948 页也只计来源限定记录导读，不计完整形态／生态专论或专家审评；其中分区为 {"squamata":948}，PBDB 有鳞类化石与 COL 有鳞类清单保持来源区分。
+- 原始来源和逐种档案为 data/sources/snapshots/squamata-occurrence-guides-2026-10-02-* 与 squamata-occurrence-guides-2026-10-02-records.jsonl.gz。canonical 内容已写，PBDB atlas/profile/navigation 兼容映射、生成与发布待内容阶段交接，不能把 PBDB OID 填入 COL profile 投影。未运行测试、类型检查、验证器、投影／registry／manifest／queue 生成、提交或推送；原 15 项灵长类缺口不变。
+
+### P5-47 来源端点与内容整理
+
+已读取 Titanoboa cerrejonensis、Mosasaurus hoffmannii 的中英文导读及 Squamata 双语入口。整理 1101 个英文单复数段落、945 个中文标签段落、3532 个新资料边界标题和 101 个附加中文标签段落；为 821 个类群入口补中文等级解释并保留 PBDB 原阶元。追加 1896 个双语年代段落的具名采集记录和出现 ID，说明每个外包端点的来源；数字和原始行不改写。另补 13 个 shallow subtidal indet. 中文标签。
+
+Mosasaurus hoffmannii 的最晚外包端点来自 occ:1261001：数据库层位注释描述 Maastrichtian–Danian 混合组合并提出 Maastrichtian 滞留沉积解释。正文明确这是集合层位注释，宽区间跨入 Early Paleocene 不证明本种在该时段存续；保留原鉴定名 Mosasaurus maximus、原注释及引文定位，未宣称标本或论文复核。
+
+Squamata、Dibamidae、Amphisbaenia 三个既有 COL catalogue-profile 原文和索引保留，追加独立 pbdbSquamataTaxonomy20261002 分类引用与来源限定化石路线。PBDB 根在当前响应中的阶元为 unranked clade，原 COL 根仍保留 order，正文分别声明各自来源，不据同名认定概念或阶元相同。62 项来源不足、15 项灵长类缺口与内容阶段后的映射／生成／发布任务均未计完成。
+
+## P5-48 — 固定鱼龙形类化石名录的化石出现、采集与年代导读（2026-10-02）
+
+- 对固定 182 项 PBDB 鱼龙形类化石工作名录，使用同日根 OID txn:341193 的 accepted 层级和全部 latest 出现查询。响应报告与返回均为 703 个出现记录；原响应、参数、时间与哈希保留，未更改固定工作分母或用当前新名称替换旧名录。
+- 选择当前同名、父链可追到已有 Ichthyosauriformes 存储锚点、且至少一条有引文／年代／地点的无疑问限定种级出现记录的 165 种，共 333 条出现记录。鉴定限定、字段不足或其他不满足本批来源条件的 17 条记录不用于确定导读；旧组合由数据库映射时保留原鉴定和差异字段，不算独立新发现。
+- 实际补写 165 个双语种级记录导读和 119 个分类阅读入口；新增 165 个种级 catalogue-profile、119 个类群 profile，扩充 0 个既有 profile。旧 atlas、dossier、研究与读者正文保留，不新造 COL ID 或内部 taxon ID。
+- 每页从具名采集地、地层和原引文追溯记录；年代外包区间仅描述所选出现记录，Ma 不转成精确标本年龄或起源／灭绝时间。采集环境、集合保存标签与个体生态分开，不据湖泊／海洋沉积标签给鱼龙形类化石确定食性或栖地。原引用署名是数据库缩略材料，不补造完整作者表，不宣称底层文章／标本已经逐项复核。
+- 17 个名录条目仍不足：17 个没有本批可用的无疑问限定、带引文和年代／地点的种级出现记录，0 个缺完整父链。逐项列表在 data/sources/ichthyosauriformes-occurrence-guides-2026-10-02.json，不计完成。165 页也只计来源限定记录导读，不计完整形态／生态专论或专家审评；其中分区为 {"ichthyosauriformes":165}，PBDB 鱼龙形类化石与 COL 爬行动物清单保持来源区分。
+- 原始来源和逐种档案为 data/sources/snapshots/ichthyosauriformes-occurrence-guides-2026-10-02-* 与 ichthyosauriformes-occurrence-guides-2026-10-02-records.jsonl.gz。canonical 内容已写，PBDB atlas/profile/navigation 兼容映射、生成与发布待内容阶段交接，不能把 PBDB OID 填入 COL profile 投影。未运行测试、类型检查、验证器、投影／registry／manifest／queue 生成、提交或推送；原 15 项灵长类缺口不变。
+
+## P5-49 — 固定鳍龙类化石名录的化石出现、采集与年代导读（2026-10-02）
+
+- 对固定 312 项 PBDB 鳍龙类化石工作名录，使用同日根 OID txn:38164 的 accepted 层级和全部 latest 出现查询。响应报告与返回均为 1582 个出现记录；原响应、参数、时间与哈希保留，未更改固定工作分母或用当前新名称替换旧名录。
+- 选择当前同名、父链可追到已有 Sauropterygia 存储锚点、且至少一条有引文／年代／地点的无疑问限定种级出现记录的 285 种，共 614 条出现记录。鉴定限定、字段不足或其他不满足本批来源条件的 32 条记录不用于确定导读；旧组合由数据库映射时保留原鉴定和差异字段，不算独立新发现。
+- 实际补写 285 个双语种级记录导读和 228 个分类阅读入口；新增 285 个种级 catalogue-profile、228 个类群 profile，扩充 0 个既有 profile。旧 atlas、dossier、研究与读者正文保留，不新造 COL ID 或内部 taxon ID。
+- 每页从具名采集地、地层和原引文追溯记录；年代外包区间仅描述所选出现记录，Ma 不转成精确标本年龄或起源／灭绝时间。采集环境、集合保存标签与个体生态分开，不据湖泊／海洋沉积标签给鳍龙类化石确定食性或栖地。原引用署名是数据库缩略材料，不补造完整作者表，不宣称底层文章／标本已经逐项复核。
+- 27 个名录条目仍不足：25 个没有本批可用的无疑问限定、带引文和年代／地点的种级出现记录，2 个缺完整父链。逐项列表在 data/sources/sauropterygia-occurrence-guides-2026-10-02.json，不计完成。285 页也只计来源限定记录导读，不计完整形态／生态专论或专家审评；其中分区为 {"sauropterygia":285}，PBDB 鳍龙类化石与 COL 爬行动物清单保持来源区分。
+- 原始来源和逐种档案为 data/sources/snapshots/sauropterygia-occurrence-guides-2026-10-02-* 与 sauropterygia-occurrence-guides-2026-10-02-records.jsonl.gz。canonical 内容已写，PBDB atlas/profile/navigation 兼容映射、生成与发布待内容阶段交接，不能把 PBDB OID 填入 COL profile 投影。未运行测试、类型检查、验证器、投影／registry／manifest／queue 生成、提交或推送；原 15 项灵长类缺口不变。
+
+### P5-48 内容整理与来源端点
+
+已读取 Ichthyosaurus communis 的中英文物种导读及本批根类群英文入口。为 165 个物种的 330 个双语年代段落补上早／晚外包端点的具名采集记录、出现 ID 和原宽区间；不将这些端点改写为物种起源、灭绝或存续边界。另补 119 个中文类群阶元解释、16 个中文环境标签段落，保留来源原词。原始记录、固定分母、专家审评状态与生成／发布未完成状态保持原义。
+
+### P5-49 内容整理与来源端点
+
+已读取 Plesiosaurus dolichodeirus 的中英文物种导读及本批根类群英文入口。为 285 个物种的 570 个双语年代段落补上早／晚外包端点的具名采集记录、出现 ID 和原宽区间；不将这些端点改写为物种起源、灭绝或存续边界。另补 228 个中文类群阶元解释、30 个中文环境标签段落，保留来源原词。原始记录、固定分母、专家审评状态与生成／发布未完成状态保持原义。
+
+两项父链缺口是 Polyptychodon hudsoni 与 Mauisaurus haastii。补取原父属 single 记录，PBDB 将 Polyptychodon（txn:36507）标为 nomen vanum、对应 Plesiosauria，将 Mauisaurus（txn:36488）标为 nomen dubium、对应 Aristonectinae。保留原响应、参数、哈希和逐项元数据，不据此补造接受父属路径或重指种级概念，两项继续不计完成。
+
+## P5-50 — 固定其他主龙类化石名录的化石出现、采集与年代导读（2026-10-02）
+
+- 对固定 179 项 PBDB 其他主龙类化石工作名录，使用同日根 OID txn:38215 的 accepted 层级和全部 latest 出现查询。响应报告与返回均为 46699 个出现记录；原响应、参数、时间与哈希保留，未更改固定工作分母或用当前新名称替换旧名录。
+- 选择当前同名、父链可追到已有 Archosauria 存储锚点、且至少一条有引文／年代／地点的无疑问限定种级出现记录的 167 种，共 541 条出现记录。鉴定限定、字段不足或其他不满足本批来源条件的 11 条记录不用于确定导读；旧组合由数据库映射时保留原鉴定和差异字段，不算独立新发现。
+- 实际补写 167 个双语种级记录导读和 171 个分类阅读入口；新增 167 个种级 catalogue-profile、171 个类群 profile，扩充 0 个既有 profile。旧 atlas、dossier、研究与读者正文保留，不新造 COL ID 或内部 taxon ID。
+- 每页从具名采集地、地层和原引文追溯记录；年代外包区间仅描述所选出现记录，Ma 不转成精确标本年龄或起源／灭绝时间。采集环境、集合保存标签与个体生态分开，不据湖泊／海洋沉积标签给其他主龙类化石确定食性或栖地。原引用署名是数据库缩略材料，不补造完整作者表，不宣称底层文章／标本已经逐项复核。
+- 12 个名录条目仍不足：8 个没有本批可用的无疑问限定、带引文和年代／地点的种级出现记录，4 个缺完整父链。逐项列表在 data/sources/other-archosauria-occurrence-guides-2026-10-02.json，不计完成。167 页也只计来源限定记录导读，不计完整形态／生态专论或专家审评；其中分区为 {"other-archosauria":167}，PBDB 其他主龙类化石与 COL 鸟类与鳄目清单保持来源区分。
+- 原始来源和逐种档案为 data/sources/snapshots/other-archosauria-occurrence-guides-2026-10-02-* 与 other-archosauria-occurrence-guides-2026-10-02-records.jsonl.gz。canonical 内容已写，PBDB atlas/profile/navigation 兼容映射、生成与发布待内容阶段交接，不能把 PBDB OID 填入 COL profile 投影。未运行测试、类型检查、验证器、投影／registry／manifest／queue 生成、提交或推送；原 15 项灵长类缺口不变。
+
+### P5-50 内容整理与来源端点
+
+已读取 Caseosaurus crosbyensis 的中英文物种导读及本批根类群英文入口。为 167 个物种的 334 个双语年代段落补上早／晚外包端点的具名采集记录、出现 ID 和原宽区间；不将这些端点改写为物种起源、灭绝或存续边界。另补 170 个中文类群阶元解释、1 个中文环境标签段落，保留来源原词。原始记录、固定分母、专家审评状态与生成／发布未完成状态保持原义。
+
+### P5-50 分区标识修正与分类边界
+
+在实际取用分区 OID 清单时发现，原派生文件给 22684 个外部 OID 重复加了 txn: 前缀（txn:txn:）。现逐项采用未修改的原 PBDB 根响应中的确切 oid，保留全部 15 分区的成员、顺序与固定分母；原派生文件压缩归档保留，manifest 的派生文件哈希同步更新。修正记录为 data/sources/amniota-partition-identifier-correction-2026-10-02.json。此项是来源标识修正，原查询响应与科学字段不改写，不计为新增物种内容。
+
+本批固定 179 项名单直接取 other-archosauria 的 OID 分区与原根物种记录交集；按 OID 排除已有恐龙、化石鸟类、翼龙和鳄形类分区，不从全根查询重复补写那些物种。所有 676 个双语资料边界段落明确：分区用于编排日期限定的数据库记录，不能当作不同系统发育方案的专家裁决。
+
+四项接受父链缺口均涉及 Palaeosaurus。补取父属 txn:53021 的 single 响应，PBDB 标为 nomen dubium 并对应 Phytosauria；原响应、参数、哈希与逐项元数据保留，不据此另造接受父属路径或重指种级概念。这四项与另外八项缺可用出现记录的条目均未计完成。已读取 Caseosaurus crosbyensis、Mambachiton fiandohana 双语导读及 Archosauria 英文入口。全目标、灵长类 15 项缺口与生成／发布任务仍未完成。
+
+### 固定 PBDB 化石主龙类出现导读清点
+
+按当前四批 receipt 和原固定 Archosauria 物种 OID 清单，4665 项工作记录已有 3972 个 canonical 来源限定出现导读，693 项仍为来源不足或分类路径缺口。逐项清点为 data/sources/archosaur-occurrence-reader-inventory-2026-10-02.json。这是出现记录导读的内容状态；COL 鸟类与鳄目清单、完整专论、专家审评、兼容映射、生成、运行端和远端发布均分别保留，不据此宣称总目标完成。
+
+## P5-51 — 固定哺乳类化石名录的化石出现、采集与年代导读（2026-10-02）
+
+- 对固定 13958 项 PBDB 哺乳类化石工作名录，使用同日根 OID txn:36651 的 accepted 层级和全部 latest 出现查询。响应报告与返回均为 127911 个出现记录；原响应、参数、时间与哈希保留，未更改固定工作分母或用当前新名称替换旧名录。
+- 选择当前同名、父链可追到已有 Mammalia 存储锚点、且至少一条有引文／年代／地点的无疑问限定种级出现记录的 11106 种，共 54369 条出现记录。鉴定限定、字段不足或其他不满足本批来源条件的 8012 条记录不用于确定导读；旧组合由数据库映射时保留原鉴定和差异字段，不算独立新发现。
+- 实际补写 11106 个双语种级记录导读和 6929 个分类阅读入口；新增 11106 个种级 catalogue-profile、6928 个类群 profile，扩充 1 个既有 profile。旧 atlas、dossier、研究与读者正文保留，不新造 COL ID 或内部 taxon ID。
+- 每页从具名采集地、地层和原引文追溯记录；年代外包区间仅描述所选出现记录，Ma 不转成精确标本年龄或起源／灭绝时间。采集环境、集合保存标签与个体生态分开，不据湖泊／海洋沉积标签给哺乳类化石确定食性或栖地。原引用署名是数据库缩略材料，不补造完整作者表，不宣称底层文章／标本已经逐项复核。
+- 2852 个名录条目仍不足：2820 个没有本批可用的无疑问限定、带引文和年代／地点的种级出现记录，32 个缺完整父链。逐项列表在 data/sources/mammalia-occurrence-guides-2026-10-02.json，不计完成。11106 页也只计来源限定记录导读，不计完整形态／生态专论或专家审评；其中分区为 {"mammalia":11106}，PBDB 哺乳类化石与 COL 哺乳类清单保持来源区分。
+- 原始来源和逐种档案为 data/sources/snapshots/mammalia-occurrence-guides-2026-10-02-* 与 mammalia-occurrence-guides-2026-10-02-records.jsonl.gz。canonical 内容已写，PBDB atlas/profile/navigation 兼容映射、生成与发布待内容阶段交接，不能把 PBDB OID 填入 COL profile 投影。未运行测试、类型检查、验证器、投影／registry／manifest／queue 生成、提交或推送；原 15 项灵长类缺口不变。
+
+### P5-51 内容整理与来源端点
+
+已读取 Mammuthus primigenius 的中英文物种导读及本批根类群英文入口。为 11106 个物种的 22212 个双语年代段落补上早／晚外包端点的具名采集记录、出现 ID 和原宽区间；不将这些端点改写为物种起源、灭绝或存续边界。另补 6893 个中文类群阶元解释、76 个中文环境标签段落，保留来源原词。原始记录、固定分母、专家审评状态与生成／发布未完成状态保持原义。
+
+### P5-51 接受父链与集合年代边界
+
+32 项接受父链缺口涉及 15 个未被接受的父属。各 single 查询原记录与参数、哈希均归档，状态包含 nomen dubium、nomen vanum、nomen oblitum 和 nomen nudum；未据数据库对应另造接受属路径或重指种级概念。本批 2820 项缺可用出现记录与 32 项分类路径缺口继续不计完成。
+
+已读取 Mammuthus primigenius、Smilodon fatalis 的中英文导读及 Australopithecus afarensis 的双语年代段落。猛犸象的 Domburg 原行说明海底疏浚及多套可能来源地层，Qagnax Cave 原行另记 5700 YBP、14C；正文分别保留原字段，未核对校准或断言灭绝日期。南方古猿 Lukeino 历史接受名连接明确待标本／原研究复核，不把最早外包端点当作本种确证。
+
+为 374 个双语年代段落补上 0 Ma 只是数据库宽框边界、不能证明现今存活的说明；补 272 个中文洞穴标签段落。原年龄数值、原鉴定名与所有独立来源档案保留；PBDB 化石灵长类内容不计关闭原 COL 530 种任务的 15 项缺口。分类／段落映射、生成、运行端和远端发布仍待内容阶段交接。
+
+### P5-51 后固定 PBDB 羊膜动物出现导读清点
+
+按原固定 22684 项 PBDB 根物种记录与当前九批 receipt，已有 17537 个 canonical 来源限定出现导读；3740 项已有明确来源／接受父链缺口，另 1407 项尚待来源取用与内容补写。这两类缺口分开记录，不把尚未取用来源的条目直接断言为来源不足。逐项表为 data/sources/amniota-occurrence-reader-inventory-2026-10-02.json。COL 现生目录、完整专论、专家审评、生成、运行端和远端发布均不从此清点推断完成。
+
+## P5-52 — 固定其他合弓类化石名录的化石出现、采集与年代导读（2026-10-02）
+
+- 对固定 827 项 PBDB 其他合弓类化石工作名录，使用同日 Amniota 根 OID txn:53189 的 accepted 层级和全部 latest 出现查询。响应报告与返回均为 204122 个出现记录；原响应、参数、时间与哈希保留，未更改固定工作分母或用当前新名称替换旧名录。
+- 选择当前同名、父链可追到已有 Synapsida 存储锚点、且至少一条有引文／年代／地点的无疑问限定种级出现记录的 779 种，共 2071 条出现记录。鉴定限定、字段不足或其他不满足本批来源条件的 97 条记录不用于确定导读；旧组合由数据库映射时保留原鉴定和差异字段，不算独立新发现。
+- 实际补写 779 个双语种级记录导读和 763 个分类阅读入口；新增 779 个种级 catalogue-profile、763 个类群 profile，扩充 0 个既有 profile。旧 atlas、dossier、研究与读者正文保留，不新造 COL ID 或内部 taxon ID。
+- 每页从具名采集地、地层和原引文追溯记录；年代外包区间仅描述所选出现记录，Ma 不转成精确标本年龄或起源／灭绝时间。采集环境、集合保存标签与个体生态分开，不据湖泊／海洋沉积标签给其他合弓类化石确定食性或栖地。原引用署名是数据库缩略材料，不补造完整作者表，不宣称底层文章／标本已经逐项复核。
+- 48 个名录条目仍不足：44 个没有本批可用的无疑问限定、带引文和年代／地点的种级出现记录，4 个缺完整父链。逐项列表在 data/sources/other-synapsida-occurrence-guides-2026-10-02.json，不计完成。779 页也只计来源限定记录导读，不计完整形态／生态专论或专家审评；其中分区为 {"other-synapsida":779}，PBDB 其他合弓类化石与 COL 羊膜动物清单保持来源区分。
+- 原始来源和逐种档案为 data/sources/snapshots/other-synapsida-occurrence-guides-2026-10-02-* 与 other-synapsida-occurrence-guides-2026-10-02-records.jsonl.gz。canonical 内容已写，PBDB atlas/profile/navigation 兼容映射、生成与发布待内容阶段交接，不能把 PBDB OID 填入 COL profile 投影。未运行测试、类型检查、验证器、投影／registry／manifest／queue 生成、提交或推送；原 15 项灵长类缺口不变。
+
+## P5-53 — 固定其他爬行类化石名录的化石出现、采集与年代导读（2026-10-02）
+
+- 对固定 429 项 PBDB 其他爬行类化石工作名录，使用同日 Amniota 根 OID txn:53189 的 accepted 层级和全部 latest 出现查询。响应报告与返回均为 204122 个出现记录；原响应、参数、时间与哈希保留，未更改固定工作分母或用当前新名称替换旧名录。
+- 选择当前同名、父链可追到已有 Reptilia 存储锚点、且至少一条有引文／年代／地点的无疑问限定种级出现记录的 412 种，共 977 条出现记录。鉴定限定、字段不足或其他不满足本批来源条件的 39 条记录不用于确定导读；旧组合由数据库映射时保留原鉴定和差异字段，不算独立新发现。
+- 实际补写 412 个双语种级记录导读和 430 个分类阅读入口；新增 412 个种级 catalogue-profile、429 个类群 profile，扩充 1 个既有 profile。旧 atlas、dossier、研究与读者正文保留，不新造 COL ID 或内部 taxon ID。
+- 每页从具名采集地、地层和原引文追溯记录；年代外包区间仅描述所选出现记录，Ma 不转成精确标本年龄或起源／灭绝时间。采集环境、集合保存标签与个体生态分开，不据湖泊／海洋沉积标签给其他爬行类化石确定食性或栖地。原引用署名是数据库缩略材料，不补造完整作者表，不宣称底层文章／标本已经逐项复核。
+- 17 个名录条目仍不足：16 个没有本批可用的无疑问限定、带引文和年代／地点的种级出现记录，1 个缺完整父链。逐项列表在 data/sources/other-reptilia-occurrence-guides-2026-10-02.json，不计完成。412 页也只计来源限定记录导读，不计完整形态／生态专论或专家审评；其中分区为 {"other-reptilia":412}，PBDB 其他爬行类化石与 COL 羊膜动物清单保持来源区分。
+- 原始来源和逐种档案为 data/sources/snapshots/other-reptilia-occurrence-guides-2026-10-02-* 与 other-reptilia-occurrence-guides-2026-10-02-records.jsonl.gz。canonical 内容已写，PBDB atlas/profile/navigation 兼容映射、生成与发布待内容阶段交接，不能把 PBDB OID 填入 COL profile 投影。未运行测试、类型检查、验证器、投影／registry／manifest／queue 生成、提交或推送；原 15 项灵长类缺口不变。
+
+## P5-54 — 固定其他鳞龙形类化石名录的化石出现、采集与年代导读（2026-10-02）
+
+- 对固定 69 项 PBDB 其他鳞龙形类化石工作名录，使用同日 Amniota 根 OID txn:53189 的 accepted 层级和全部 latest 出现查询。响应报告与返回均为 204122 个出现记录；原响应、参数、时间与哈希保留，未更改固定工作分母或用当前新名称替换旧名录。
+- 选择当前同名、父链可追到已有 Lepidosauromorpha 存储锚点、且至少一条有引文／年代／地点的无疑问限定种级出现记录的 64 种，共 105 条出现记录。鉴定限定、字段不足或其他不满足本批来源条件的 4 条记录不用于确定导读；旧组合由数据库映射时保留原鉴定和差异字段，不算独立新发现。
+- 实际补写 64 个双语种级记录导读和 65 个分类阅读入口；新增 64 个种级 catalogue-profile、65 个类群 profile，扩充 0 个既有 profile。旧 atlas、dossier、研究与读者正文保留，不新造 COL ID 或内部 taxon ID。
+- 每页从具名采集地、地层和原引文追溯记录；年代外包区间仅描述所选出现记录，Ma 不转成精确标本年龄或起源／灭绝时间。采集环境、集合保存标签与个体生态分开，不据湖泊／海洋沉积标签给其他鳞龙形类化石确定食性或栖地。原引用署名是数据库缩略材料，不补造完整作者表，不宣称底层文章／标本已经逐项复核。
+- 5 个名录条目仍不足：5 个没有本批可用的无疑问限定、带引文和年代／地点的种级出现记录，0 个缺完整父链。逐项列表在 data/sources/other-lepidosauromorpha-occurrence-guides-2026-10-02.json，不计完成。64 页也只计来源限定记录导读，不计完整形态／生态专论或专家审评；其中分区为 {"other-lepidosauromorpha":64}，PBDB 其他鳞龙形类化石与 COL 羊膜动物清单保持来源区分。
+- 原始来源和逐种档案为 data/sources/snapshots/other-lepidosauromorpha-occurrence-guides-2026-10-02-* 与 other-lepidosauromorpha-occurrence-guides-2026-10-02-records.jsonl.gz。canonical 内容已写，PBDB atlas/profile/navigation 兼容映射、生成与发布待内容阶段交接，不能把 PBDB OID 填入 COL profile 投影。未运行测试、类型检查、验证器、投影／registry／manifest／queue 生成、提交或推送；原 15 项灵长类缺口不变。
+
+## P5-55 — 固定喙头类化石名录的化石出现、采集与年代导读（2026-10-02）
+
+- 对固定 34 项 PBDB 喙头类化石工作名录，使用同日 Amniota 根 OID txn:53189 的 accepted 层级和全部 latest 出现查询。响应报告与返回均为 204122 个出现记录；原响应、参数、时间与哈希保留，未更改固定工作分母或用当前新名称替换旧名录。
+- 选择当前同名、父链可追到已有 Rhynchocephalia 存储锚点、且至少一条有引文／年代／地点的无疑问限定种级出现记录的 32 种，共 51 条出现记录。鉴定限定、字段不足或其他不满足本批来源条件的 1 条记录不用于确定导读；旧组合由数据库映射时保留原鉴定和差异字段，不算独立新发现。
+- 实际补写 32 个双语种级记录导读和 34 个分类阅读入口；新增 32 个种级 catalogue-profile、34 个类群 profile，扩充 0 个既有 profile。旧 atlas、dossier、研究与读者正文保留，不新造 COL ID 或内部 taxon ID。
+- 每页从具名采集地、地层和原引文追溯记录；年代外包区间仅描述所选出现记录，Ma 不转成精确标本年龄或起源／灭绝时间。采集环境、集合保存标签与个体生态分开，不据湖泊／海洋沉积标签给喙头类化石确定食性或栖地。原引用署名是数据库缩略材料，不补造完整作者表，不宣称底层文章／标本已经逐项复核。
+- 2 个名录条目仍不足：2 个没有本批可用的无疑问限定、带引文和年代／地点的种级出现记录，0 个缺完整父链。逐项列表在 data/sources/rhynchocephalia-occurrence-guides-2026-10-02.json，不计完成。32 页也只计来源限定记录导读，不计完整形态／生态专论或专家审评；其中分区为 {"rhynchocephalia":32}，PBDB 喙头类化石与 COL 羊膜动物清单保持来源区分。
+- 原始来源和逐种档案为 data/sources/snapshots/rhynchocephalia-occurrence-guides-2026-10-02-* 与 rhynchocephalia-occurrence-guides-2026-10-02-records.jsonl.gz。canonical 内容已写，PBDB atlas/profile/navigation 兼容映射、生成与发布待内容阶段交接，不能把 PBDB OID 填入 COL profile 投影。未运行测试、类型检查、验证器、投影／registry／manifest／queue 生成、提交或推送；原 15 项灵长类缺口不变。
+
+## P5-56 — 固定羊膜动物剩余化石条目名录的化石出现、采集与年代导读（2026-10-02）
+
+- 对固定 48 项 PBDB 羊膜动物剩余化石条目工作名录，使用同日 Amniota 根 OID txn:53189 的 accepted 层级和全部 latest 出现查询。响应报告与返回均为 204122 个出现记录；原响应、参数、时间与哈希保留，未更改固定工作分母或用当前新名称替换旧名录。
+- 选择当前同名、父链可追到已有 Amniota 存储锚点、且至少一条有引文／年代／地点的无疑问限定种级出现记录的 45 种，共 144 条出现记录。鉴定限定、字段不足或其他不满足本批来源条件的 9 条记录不用于确定导读；旧组合由数据库映射时保留原鉴定和差异字段，不算独立新发现。
+- 实际补写 45 个双语种级记录导读和 46 个分类阅读入口；新增 45 个种级 catalogue-profile、46 个类群 profile，扩充 0 个既有 profile。旧 atlas、dossier、研究与读者正文保留，不新造 COL ID 或内部 taxon ID。
+- 每页从具名采集地、地层和原引文追溯记录；年代外包区间仅描述所选出现记录，Ma 不转成精确标本年龄或起源／灭绝时间。采集环境、集合保存标签与个体生态分开，不据湖泊／海洋沉积标签给羊膜动物剩余化石条目确定食性或栖地。原引用署名是数据库缩略材料，不补造完整作者表，不宣称底层文章／标本已经逐项复核。
+- 3 个名录条目仍不足：3 个没有本批可用的无疑问限定、带引文和年代／地点的种级出现记录，0 个缺完整父链。逐项列表在 data/sources/amniota-residual-occurrence-guides-2026-10-02.json，不计完成。45 页也只计来源限定记录导读，不计完整形态／生态专论或专家审评；其中分区为 {"amniota-residual":45}，PBDB 羊膜动物剩余化石条目与 COL 羊膜动物清单保持来源区分。
+- 原始来源和逐种档案为 data/sources/snapshots/amniota-residual-occurrence-guides-2026-10-02-* 与 amniota-residual-occurrence-guides-2026-10-02-records.jsonl.gz。canonical 内容已写，PBDB atlas/profile/navigation 兼容映射、生成与发布待内容阶段交接，不能把 PBDB OID 填入 COL profile 投影。未运行测试、类型检查、验证器、投影／registry／manifest／queue 生成、提交或推送；原 15 项灵长类缺口不变。
+
+### P5-51 同名父概念与计数修正
+
+Colobinae txn:234343 与 txn:430278 的 single 查询分别返回各自编号，不能按同名合并。Libypithecus 属及 L. markgrafi 的全部文件已保留到 content/topics/atlas/Libypithecus，双语限制段明确位置未解决。原第二个 Colobinae 类群页实际上未独立写出，修正重复计数。Mammalia 已解决来源导读为 11105 种、6927 个类群路径，来源／位置缺口 2853 项；另有一个属入口与一个物种导读保留在未解决主题，不计完成。
+
+### P5-51 后固定 PBDB 羊膜动物出现导读清点
+
+按原固定 22684 项 PBDB 根物种记录与当前九批 receipt，已有 17536 个 canonical 来源限定出现导读；3741 项已有明确来源／接受父链缺口，另 1407 项尚待来源取用与内容补写。这两类缺口分开记录，不把尚未取用来源的条目直接断言为来源不足。逐项表为 data/sources/amniota-occurrence-reader-inventory-2026-10-02.json。COL 现生目录、完整专论、专家审评、生成、运行端和远端发布均不从此清点推断完成。
+
+### P5-52 内容整理与来源端点
+
+已读取 Protoclepsydrops haplous 的中英文物种导读及本批根类群英文入口。为 779 个物种的 1558 个双语年代段落补上早／晚外包端点的具名采集记录、出现 ID 和原宽区间；不将这些端点改写为物种起源、灭绝或存续边界。另补 763 个中文类群阶元解释、3 个中文环境标签段落，保留来源原词。原始记录、固定分母、专家审评状态与生成／发布未完成状态保持原义。
+
+### P5-53 内容整理与来源端点
+
+已读取 Abyssomedon williamsi 的中英文物种导读及本批根类群英文入口。为 412 个物种的 824 个双语年代段落补上早／晚外包端点的具名采集记录、出现 ID 和原宽区间；不将这些端点改写为物种起源、灭绝或存续边界。另补 430 个中文类群阶元解释、10 个中文环境标签段落，保留来源原词。原始记录、固定分母、专家审评状态与生成／发布未完成状态保持原义。
+
+### P5-54 内容整理与来源端点
+
+已读取 Kudnu mackinlayi 的中英文物种导读及本批根类群英文入口。为 64 个物种的 128 个双语年代段落补上早／晚外包端点的具名采集记录、出现 ID 和原宽区间；不将这些端点改写为物种起源、灭绝或存续边界。另补 64 个中文类群阶元解释、0 个中文环境标签段落，保留来源原词。原始记录、固定分母、专家审评状态与生成／发布未完成状态保持原义。
+
+### P5-55 内容整理与来源端点
+
+已读取 Colobops noviportensis 的中英文物种导读及本批根类群英文入口。为 32 个物种的 64 个双语年代段落补上早／晚外包端点的具名采集记录、出现 ID 和原宽区间；不将这些端点改写为物种起源、灭绝或存续边界。另补 34 个中文类群阶元解释、0 个中文环境标签段落，保留来源原词。原始记录、固定分母、专家审评状态与生成／发布未完成状态保持原义。
+
+### P5-56 内容整理与来源端点
+
+已读取 Colognathus obscurus 的中英文物种导读及本批根类群英文入口。为 45 个物种的 90 个双语年代段落补上早／晚外包端点的具名采集记录、出现 ID 和原宽区间；不将这些端点改写为物种起源、灭绝或存续边界。另补 46 个中文类群阶元解释、3 个中文环境标签段落，保留来源原词。原始记录、固定分母、专家审评状态与生成／发布未完成状态保持原义。
+
+### P5-56 后固定 PBDB 羊膜动物出现导读清点
+
+按原固定 22684 项 PBDB 根物种记录与当前十四批 receipt，已有 18868 个 canonical 来源限定出现导读；3816 项已有明确来源／接受父链缺口，另 0 项尚待来源取用与内容补写。这两类缺口分开记录，不把尚未取用来源的条目直接断言为来源不足。逐项表为 data/sources/amniota-occurrence-reader-inventory-2026-10-02.json。COL 现生目录、完整专论、专家审评、生成、运行端和远端发布均不从此清点推断完成。
+
+P5-51 修正同步更新了 16 个受影响祖先入口的物种／出现／采集数量及阅读目标；未解决 Libypithecus 材料不混入已解决入口计数。P5-52 的 Dicynodontia txn:312556 查询实际返回 txn:38996，保留明确服务器编号转换、完整响应和哈希于 data/sources/amniota-hierarchy-aliases-2026-10-02.json。该转换仅依据返回编号，不是按同名合并。P5-53 的两个 Sauria 接受编号仍不同，Protolacerta patagonica 保留在位置缺口及原候选材料中，不计完成。
+
+### P5-56 后固定 PBDB 羊膜动物出现导读清点
+
+按原固定 22684 项 PBDB 根物种记录与当前十四批 receipt，已有 18868 个 canonical 来源限定出现导读；3816 项已有明确来源／接受父链缺口，另 0 项尚待来源取用与内容补写。这两类缺口分开记录，不把尚未取用来源的条目直接断言为来源不足。逐项表为 data/sources/amniota-occurrence-reader-inventory-2026-10-02.json。COL 现生目录、完整专论、专家审评、生成、运行端和远端发布均不从此清点推断完成。
+
+## P5-57 — EltonTraits 食物、觅食层位与活动时段导读（2026-10-02）
+
+- 原始来源为 Ecological Archives E095-178-D1 的 EltonTraits 1.0 四份 TSV 和完整元数据；论文 DOI 10.1890/13-1917.1，六位作者按原档案及 Crossref 顺序记录。四个文件 MD5 与元数据列值一致，原始字节、SHA-256 与引用表完整保留。原档案称 ASCII，但实际含 cp1252 弯引号；只在读取时解码，不改原件。
+- TSV 含 9995 个鸟类解析行、5403 个哺乳类解析行，其中各有 2、3 个无名尾行；有名记录为 9993、5400，不与固定 COL 分母混淆。
+- 采用唯一接受同名、同类、同科和仅一类可用生态字段的 1257 个条目；鸟类使用 A/B 食性及物种级层位，哺乳类使用 ABC 食性／活动和 A 层位。C、D1、D2、鸟类非物种级层位及注明拆分的记录不补确定结论。ABC 仍可能含生态相近同属材料，正文明确限定，不计本种直接观测证明。
+- 实际写入 1257 个双语单字段物种导读（{"Aves":979,"Mammalia":278}），新增 504 个种级 profile、76 个分类导读，扩充 1478 个已有 profile；编排 801 个祖先阅读路线，0 个既有正文项待个别整合。原 dossier、atlas、claims、ranges 与正文保留。
+- 食物及鸟类层位百分数是作者从文献描述标准化的粗略相对权重，不是摄食／时间实测；方法文字的 0–10 与发布表 0–100 分别记录，正文按发布原值、不再乘十。活动二元字段可同时为 1，不归一化为时间预算；哺乳类层位保留 G 包括部分水中活动、M 原注释可能限定淡水等边界。
+- 原始引用字符串按鸟类／哺乳类表分别关联，不将同号 Ref 当作同一出版物。未采用体重，保留档案对其主来源需另引的要求。底层文章和手册未逐篇复核；完整生态、当前分布、保护与外部专家审评未完成。
+- 来源与缺口为 data/sources/eltontraits-v1-single-field-authored-records.jsonl.gz 和 eltontraits-v1-single-field-authoring-source.json。固定 30,154 COL 及独立 PBDB 工作清单、530 灵长类分母、原 15 项缺口均不变；内容阶段未运行测试、类型检查、验证器、投影／registry／manifest／queue 生成、提交或推送。
+
+### P5-57 逐页缺失字段与淡水层位限定
+
+- 对 1257 个导读补入逐页字段限制：未解读食性 794、活动时段 252、层位 489 项；它们仅有一类本批可用字段，但未把插补或未关联出处转成事实。
+- 1 个 M 层位条目的原注释为 Freshwater，双语正文明确保留淡水限定，不按类别名改写为海洋栖地。原始行和压缩档案不改写；receipt 保存逐项列表。物种、分母、专家审评与原灵长类缺口计数不变。
+
+### P5-57 单字段内容深度与整理
+
+本批单列一类可靠生态字段的历史同名同科条目，不将单字段页计成完整生态介绍或物种专论，不关闭原灵长类缺口。逐页保留未采用字段及原因，修正 1623 个英文单数段落、1472 个中性资料边界标题。P5-41 的至少两类字段批次及其原始档案独立保留；新增批次使用 eltonTraitsSingleField2014 来源键。投影映射已准备，生成、运行端与发布仍待内容阶段交接。
+
+### P5-57 代表页阅读与来源范围
+
+已读取 Ortalis motmot（食物权重）、Crypturellus erythropus（觅食层位）、Rhinolophus maendeleo（活动时段）的本批双语段落和资料边界。单字段分组为层位 768、食性 463、活动 26；没有固定 Primates 条目，本批不减少原 15 项灵长类缺口。P5-41 的 9270 个多字段条目与本批 1257 个单字段条目按互斥字段数量筛选，合计 10527 个 EltonTraits 来源限定资料导读；此数仅表示该来源的正文写入，不代表全部 COL 种、完整生物学或读者运行端完成。
+
+## P3-135 — Plecturocebus discolor 历史名下的晨间事件导读（2026-10-02）
+
+4K5Y5 新增两节双语正文，Plecturocebus 属新增阅读路径。读取 Snodderly 等（2019）PLOS 正文的研究方法和结果，分别说明研究群、累计猴分钟事件及地点／名称概念边界。COL 接受身份和原章节保留；2025 年名称修订的概念归属仍未解决，不关闭原首轮缺口。来源和阅读范围为 data/sources/primates-discolor-morning-study-reader-2026-10-02.json；外部专家审评、生成、运行端和发布待完成。依内容阶段指令，未运行测试、类型检查、验证器、生成、提交或推送。
+
+## P5-58 — ReptTraits v1-2 爬行动物性状资料导读（2026-10-02）
+
+- 固定 Figshare archive v4（DOI 10.6084/m9.figshare.24572683.v4），选修正 Hydrophis、Emydocephalus 与 Scolecophidia 微生境/栖地错误的 v1-2 工作簿，file 45408133；CC BY 4.0。保存 MD5 a00be695740e752db2654537bbb0814c、SHA-256 74eb6fd0e2626c75bdbeacb50a08b1762eee42e2b3cfda4a0f1134b84971718a、字节数与 Changes 原文。
+- 论文 Oskyrko、Mi、Meiri、Du（2024，DOI 10.1038/s41597-024-03079-5）与数据参考分别为 ref-d075eefb-2767-428c-ae91-9d089b535c8d 和 ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3；来源共有 12,060 行，固定 COL26.8 Reptilia 接受种分母仍为 12649，两个数量不混用。
+- 严格候选 3654 条：固定目录唯一同名同科、至少一个有逐性状出处的焦点字段，已排除已写 P5-30 ID 和已知跨类群引用疑点。实际写入 3654 个双语物种导读；新增 3625 个物种 profile、201 个分类导读，扩充 663 个已有 profile，0 个原有正文项留待个别整合。
+- 保留龟类 SCL／其他类群 SVL、报道最大值／典型个体、窝卵均值两端／实际单窝极值等语义边界。连续平均字段可能是多个已报道均值或极值的中点，不当作每窝观测均值。保留源繁殖标签，不从卵胎生标签推断胚胎营养。
+- 不把长度公式估算的体重写为实测；幼体长度的标题/定义不一致亦未用于读者结论。保护、毒性、当前分布与种群趋势未更新。原始行及每字段出处完整保存在 data/sources/repttraits-v1-2-limited-authored-records.jsonl.gz，筛选缺口、定义与引用表在 repttraits-v1-2-limited-authoring-source.json。
+- 新内容与已有 atlas、claims、dossier 和研究正文共存；资料导读不计为完整物种专论或专家审查完成。依内容阶段指令，未运行测试、类型检查、验证器、投影/registry/manifest 生成、提交或推送。
+
+### P5-58 有限字段与阅读路径
+
+本批 3654 个条目按可用字段逐项写作，字段数分布 {"1":743,"2":920,"3":1931,"4":49,"5":11}；每页补双语未解读字段说明。12 个条目的 12 个已知跨类群引用字段在写作前撤下，原值与原标签保留。835 个类群入口补 canonical 相对 Markdown 阅读链接与 source-binding readingTargets，不把单页或单字段视为完整生态。分类目录分母、专家成熟度、原灵长类缺口保持原义；运行端接通仍待内容阶段交接。
+
+### P5-30 类群单条尺寸比较修正
+
+发现旧入口在仅有一个同列尺寸条目时仍称其为不同物种的两端。已将 308 个入口改为单条记录说明，不能推成类群或物种间范围；另有 0 个比较按已记录的引用范围疑点撤下缺支持的字段，保留原数值档案，并修正 359 个英文单条记录措辞。逐入口明细记录于原 ReptTraits receipt 的 groupSizeEditorialCorrection。此编辑不增加物种、专家审评或缺口关闭计数。
+
+P5-58 精修 9766 个有限字段段落：没有食性、微生境或窝仔数值时，撤去与当前字段无关的比较说明；743 个单字段英文段落改用单数。v1-2 原工作簿以原字节压缩保存到带原 SHA-256 的独立 snapshots 路径，未改写原值或引用标签。
+
+### P5-58 后 COL 多物种来源取用范围
+
+按固定 COL26.8 三纲 30154 个接受种 ID，对七份已写多物种来源档案取并集：{"Mammalia": {"fixedDenominator": 6461, "representedInSevenSourceArchives": 4037}, "Aves": {"fixedDenominator": 11044, "representedInSevenSourceArchives": 7883}, "Reptilia": {"fixedDenominator": 12649, "representedInSevenSourceArchives": 11061}}。并集 22981 个 ID，另 7173 个未在这七份档案中出现，逐 ID 清单为 data/sources/col-amniota-selected-source-authoring-2026-10-02.json。未出现不等于没有其他已写研究、dossier 或可用来源，也不能把它们直接判定为来源不足；下一步可据此选择尚未取用的来源。该清点不计完整生物学、读者运行端或专家审评。
+
+P5-58 已读取 Ablepharus mahabharatus、Mesoclemmys raniceps、Afrotyphlops fornasinii 的本批双语性状段落及 Ablepharus 双语入口；覆盖单字段、引用缺口与多分类字段三种资料形态。原 P5-30 的 7406 个资料页与本批 3654 个新取用 ID 独立，合计 11060 个 ReptTraits 来源限定条目，不等于完整形态／生态或全 COL 目录完成。已实际读取 Aeluroscalabotes 英文尺寸比较修正段，单条记录不再写成不同物种的范围。
+
+## P5-59 — PanTHERIA WR05 生活史与生态资料导读（2026-10-02）
+
+- 固定 Figshare Full Archive v1（DOI 10.6084/m9.figshare.3531875.v1，file 5604752，CC0），保留原始 ZIP MD5 ca6fcc6935a8ab9cb54b6bfc84aeeb76、SHA-256 fe84274a39ba73b3c9b6950b78ba44c545852db9809d1549b0071cfdde46df9f 与字节数；共享参考 ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57 和 ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b，24 位作者依出版商 Crossref 顺序记录。
+- 原始 MSW05 表 5,416 行，固定 COL26.8 Mammalia 接受种分母仍为 6461。筛选 935 条同名同科、MSW93/MSW05 一对一且至少一个焦点字段可用的候选；只建立资料关联，不证明当前分类概念等同。
+- 实际写入 935 个双语物种资料导读；其中 2 个新物种 profile，另新增 5 个分类阅读导读，扩充 1605 个已有 profile；0 个 existing-prose 项保留待个别整合。
+- 物种页按已有字段介绍体型、繁殖与成长、活动与食物类别、群体或历史空间范围；连续字段按源定义解释为中位数与部分 GLM 调整，不写成直接个体测量、个体极值或当前种群。保留野外、圈养、投喂、未说明条件及一手/二手/外推原材料限制，不用 *_EXT 字段补值。
+- 来源记录、MSW93/MSW05 对应、筛选缺口与完整源字段说明保存在 data/sources/pantheria-wr05-2008-limited-authored-records.jsonl.gz 和 pantheria-wr05-2008-limited-authoring-source.json。新增 profile 与原有 atlas/claims/dossier 等记录共存，原正文保留。
+- 仅写 canonical 内容、来源档案、共享参考与投影映射输入；依内容阶段指令，未运行测试、类型检查、内容验证器、投影/registry/manifest 生成、提交或推送。资料导读不计作完整专论或专家审查完成。
+
+### P5-59 有限焦点字段与类群阅读路径
+
+935 项资料分别有一个焦点正值 517 项、两个 418 项；每页补逐字段缺口说明，不把历史缺值当作物种没有该特征。677 个类群入口增加 canonical 相对 Markdown 链接和来源 readingTargets。PanTHERIA 原 ZIP 保持原字节压缩归档并记录哈希；有限生活史页、旧资料页和全物种完整度分别计数。原灵长类缺口不据此关闭，生成与发布继续待内容阶段交接。
+
+P5-59（2026-10-03）精修 5063 个双语段落，按实际可读字段保留方法说明。Caperea marginata 的历史体重 31999999.98 g 原样保留，数量、单位与底层 References 1297/2655 待核对，暂缓生物学解读，并修订 4 个类群比较。未确认原始来源错误，也未猜测改值；原始正值分布仍为 517/418，暂缓一项后可解读焦点字段分布为 518/417。
+
+P5-59 阅读整理：934 个英文缺口段落改用读者能直接理解的性状名称，原字段代码保留在来源档案。实际复读 Caperea marginata 与 Atelerix sclateri 的中英文新增章节。935 项为额外历史资料，933 个物种已有其他材料，仅 2 个为新增物种 profile；不计 935 个新覆盖缺口，不关闭灵长类分类问题。
+
+## P5-60 — Caperea 历史体重引用链（2026-10-03）
+
+实际读取 PanTHERIA 文献编号、MOM v3.3 原始行与参考 68，以及 Ernest v2 原始行、克单位和参考 1/2：前两份档案约 32000000 g，Ernest 为 3200000 g。确认相连档案的十倍数量冲突，未定位错误步骤或读取两部底层书籍，不推测改值。物种页新增双语引用链与方法边界两节，属导读新增阅读链接；两份共享数据参考及五份原字节压缩来源独立保存。成年体重仍待核对，完整专论、专家审查和灵长类缺口关闭均为 0；内容阶段未运行测试、生成或发布。
+
+## P5-61 — Ernest 2003 非飞行胎盘哺乳类生活史（2026-10-03）
+
+源为 Ecological Archives E084-093-D1 Mammal_lifehistories_v2，作者 S. K. Morgan Ernest，共享参考 ref-1948a24d-679d-4e46-ac0d-16ed62cf4201；原文表及元数据保持原字节压缩保存。元数据称 1,440 行，实际解析原文件 1,444 行，同时保留两项计数，未猜测修订原因。固定 COL26.8 Mammalia 分母 6,461 不变。按唯一接受同名、同科及另档 MSW93/MSW05 同名一对一筛出 616 条历史资料关联，不证明当前物种概念等同。
+
+实际扩充 616 个物种双语生活史页、585 个类群导读；新增物种 profile 0 个、类群 profile 1 个，扩充已有 profile 1200 个。按可用字段介绍活跃妊娠期、雌性首次繁殖、出生幼体、断乳、每窝幼体数、年产窝数与最高寿命；月份不自动换成天。最高寿命保留为纪录最大值，其他性状按原文等权平均、范围中点和潜在底层重复的边界解释。成年体重不在本批解读，完整原始行和参考编号保留独立档案。每页列未解读字段，各类群提供 canonical 相对 Markdown 阅读链接。
+
+记录与选择缺口见 data/sources/ernest-lifehistory-v2-2003-authoring-source.json 和 ernest-lifehistory-v2-2003-authored-records.jsonl.gz。历史资料深度增加不计完整专论、专家审查或原灵长类分类缺口关闭；内容阶段未运行测试、类型检查、验证器、生成、提交或发布。
+
+P5-61 精修 100 个英文单字段段落与 585 个类群来源边界：类群入口说明只覆盖本批条目，避免把聚合导读写成单个物种的专论或宣称历史概念同一。
+
+P5-61 复读 Callithrix jacchus、Atelocynus microtis 与 Caperea marginata 的双语新增字段章节；移除 590 个仅有单项繁殖字段时无关的平均值乘积说明。本批含 47 个灵长类历史生活史条目，固定 530 个接受种分母及 15 个未解决分类／来源缺口不变。复读 Callithrix 的相对阅读链接，未声称运行时交付。
+
+P5-61 的 585 个类群入口逐字段显示本批可读页数：零页不建议选择不存在的资料，英文按单数／复数写明 account(s)。
+
+## P5-62 — AVONET v7 有限生态与历史地理（2026-10-03）
+
+继续使用同一 CC BY 4.0 v7 工作簿与共享参考 ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61。固定 Aves 分母仍为 11,044，源表 11,009 行；排除 P5-28 已写物种后，唯一接受同名同科且 BirdLife/eBird/BirdTree 同名一对一的 525 条记录补充有限生态与历史地理。
+
+本批实际写入 525 个物种双语资料页，其中 91 个新增 profile；409 个类群阅读入口，新增类群 profile 3 个，扩充已有 profile 840 个。原始形态 Inference YES 246 条、NO 279 条；体重可能为近缘种推算、属均值或模型。因此本批保留完整原行而暂缓所有形态及体重解读，只按 Metadata 的字段定义写栖地、取食生态位、主导活动方式、迁移与可用历史繁殖/留居纬度。类别定义的比例门槛不是本批实测比例，历史地图摘要不是当前占域或保护评估。
+
+保留原工作簿字节的压缩归档、名称对应、全部源字段和未解读生物计量字段；每页明确生态字段缺口，类群提供 canonical 相对 Markdown 阅读链接。91 项不在此前七个批量来源档案中，只表示该来源清单外的新资料，不代表所有旧内容缺失。来源记录见 data/sources/avonet-v7-ecology-only-authoring-source.json 与 avonet-v7-ecology-only-authored-records.jsonl.gz。完整专论、专家审查及灵长类分类缺口关闭均为 0；依内容阶段指令未运行测试、验证器、生成、提交或发布。
+
+P5-62 文字精修 1050 个双语段落，读者正文解释近缘种推算、属均值与模型来源；原始 Inference/Mass.Source 字段仍在证据和独立源行中。按此前来源清单的 colId 比较，新增该清单外资料 91 项，不把来源清单差集当作完整生物学缺口或专家完成。
+
+P5-62 复读 Aviceda madagascariensis、Mycteria cinerea、Otus alius 的双语新增段落，分别涵盖近缘种体重推算、属均值与部分迁移、缺失取食类别；复读 Aviceda 双语导读及 canonical 相对链接。精修 738 个英文类别段落，仍不推断直接观测或运行时交付。
+
+## P5-63 — Bavayia mandjeliensis 原始描述（2026-10-03）
+
+实际读取 Bauer、Sadlier 与 Jackman 2022 年修订的印刷页 121–125，并视觉查看 PDF 页 123–127；物种 C6GP2 新增双语短篇，属导读增加相对阅读链接。正文区分正模式成年雄性的 66.8 mm 吻肛长、所检雄性的泄殖腔前孔，以及林地树干／枝条夜间活动的地点观察；没有把这些记录扩为当前全种群参数。正文与图 46 的旧馆藏标签 CAS 198707／AMS R.198707 保留未核对，未合并。
+
+论文明确保留全部版权，完整 PDF 原字节仅存本地 .git，来源元数据保留出版商 URL、SHA-256、页码与版权边界；没有将整篇 PDF 或图像复制到公开来源档案。共享参考 ref-d502c327-58dd-4702-b801-d094ea4863ff 作者顺序及发表日期由原 PDF 记录。物种的食物、繁殖、寿命与当前种群内容仍待材料，完整专论、专家审查及原灵长类缺口关闭为 0。依内容阶段指令未运行测试、生成、提交或发布。
+
+## P5-64 — Trimeresurus erythrochloris 原始描述（2026-10-03）
+
+读取 Pawangkhanant 等七位作者 2025 年 Taprobanica 原始论文，新增 V2Z9W 双语六节短篇及 Trimeresurus 属阅读链接。标本测量、雨后未采集目击、线粒体姐妹关系的中等支持、预期但未确认的邻近分布分别限定来源范围。原文变异段落雌性号 RIM-00078 与模式段落／表 2／图 4 的 RIM-00079 矛盾保留，未冒称馆藏核实或勘误。作者暂提 DD 未写成现行正式评估。
+
+PDF 第 1 页明确 CC BY 4.0，完整原字节以 gzip 存在公开来源快照 data/sources/snapshots/trimeresurus-erythrochloris-2025-2acdffa5ff079c5f6feaab47ecd56b8070b8263c4e67b7018b83a28d86fee39a.pdf.gz，保留 SHA-256、许可、七位有序作者及 DOI 10.47605/tapro.v14i1.347；正文为双语事实转述，未改原论文。共享参考 ref-8c330185-ad2a-4abe-bda3-598c63afa0da。食物、繁殖、毒液、寿命、完整分布和当前种群趋势尚缺材料；完整专论、专家审查及原灵长类缺口关闭仍为 0。内容阶段未运行测试、生成、提交或发布。
+
+## P5-65 — 灵长类缺口逐 ID 来源需求与读者标题（2026-10-03）
+
+实际读取当前 10 个可识别开放物种的双语正文边界和来源绑定，分别记录模式—研究材料断点、历史概念对应、或缺少直接生态观察；另外 5 个原始目标身份继续未识别。独立报告为 docs/primates-open-source-needs-2026-10-03.md，逐 ID 来源、当前文件哈希和下一份材料要求为 data/sources/primates-open-source-needs-2026-10-03.json。此记录针对本地已读来源范围，未断言全球无资料，也未重新裁决外部分类。
+
+十个物种的 20 个双语页精修 64 个章节标题，保留机器字段指针和正文事实；两个英文页移除重复专家审查句。Smithsonian 1949 原论文直接下载返回 403，未取用检索摘要补生物学事实。固定分母 530、原 19 项减已记录关闭 4 项后仍 15 项；本批关闭 0 项，无新增物种或专家审查。内容阶段未运行测试、生成、提交或发布。
+
+## P5-66 — 灵长类十九项历史身份集合重建（2026-10-03）
+
+读取 Git f42d17b91 的历史计划，按 P3-50 至 P3-80 的具名缺口增补形成十九项，再记录 P3-106／107 的四项加入与 P3-108／109／110／112 的四项达标，得到 P3-112 的十九项候选。当前十四个具名 ID 与该候选集合之间是七项遗漏、两项反向差集，净差五；不能凭该净差断言恰好五个未知原始物种。历史累计将 Cheirogaleus minusculus 错写成 P. minusculus，当前正确定名页面仍明确来源边界，未据错写生成新身份。
+
+独立报告与来源记录为 docs/primates-first-round-ledger-reconstruction-2026-10-03.md、data/sources/primates-first-round-ledger-reconstruction-2026-10-03.json；目标文件与计划首部更新为有证据的集合／计数差异，保留原 15 项活动目标。七个遗漏候选不能一律算开放或达标，后续逐页、逐批次核对；本批关闭 0 项，没有专家审查、测试、生成、提交或发布。
+
+## P5-67 — Cheracebus medemi 馆藏诊断边界（2026-10-03）
+
+读取 Byrne、Rylands、Nash 与 Boubli（2020）原始论文印刷第 14、46 页并查看对应 PDF 第 2、34 页。补充双语两节及 Cheracebus 属阅读链接：全属 100 件皮张含 11 件 medemi 比较材料，FMNH 70700 的部分黄色手指和 lucifer 个体变异使单一黑手诊断受到质疑。论文仍承认 medemi，未正式并种；COL 接受名保留，馆藏样本未转换为种群数量。共享参考 ref-1a602e13-7772-4a2a-a5c2-98c248a0b0d1。
+
+原文许可未确立，PDF 仅留本地；公开收据保留来源、哈希、四位作者、页码和简短事实转述范围，不发布全文或图片。原有旧名样线与国家评估边界保留，六处旧机器式节标题改为科学问题。后续需要有凭证的多性状诊断及当前种级野外资料。P5-66 历史候选身份不等于找回原逐种审计；当前 15 个缺口不减，关闭数、完整专论和专家审查为 0。内容阶段未运行测试、生成、提交或发布。
+
+## P5-68 — Saguinus ursula 样线单位与历史候选复核（2026-10-03）
+
+读取当前双语五节、P3-114 后续记录，以及 Gurupi 原始论文印刷第 49、51–53 页并查看表 1–3。新增双语一节和 Saguinus 属阅读链接：32 次目击、27 次群体大小记录、31 次密度记录不是独立个体数；15 条样线合计 75 km，行走努力量为 320 km，密度使用 Distance 6.0、Half-Normal Cosine 和 30 m 截断。原有 3.7 群/km² 的单位与区间保留。每种语言六处正文标题改为可读科学问题，协议标记保留。
+
+纠正共享参考的发布日期：原记录 2017-07-11，期刊现页面为 2018-04-03；卷期仍为 2017 年 7(2):47–57。七位作者和 CC BY-NC-ND 4.0 许可记录明确；PDF 仅留本地，不公开复制全文或图片。国家评估 DOI 本次返回 403，未从失败响应引入生物学事实。P3-114 已记录该页首轮达标，本批不重复关闭；当前 15 项及集合／计数不一致仍保留。没有新增专家审查、完整专论、测试、生成、提交或发布。
+
+## P5-69 — 三个历史候选的后续来源与正文（2026-10-03）
+
+核对当前 Tamarinus kulina、Cheracebus aquinoi、Chiropotes israelita 的双语正文及 P3-115／116／118 后续材料。公开期刊与 PMC 网页返回挑战或限流，转用 Europe PMC 正常公开全文 API，取得 Lopes 等 PeerJ 2023 与 Carneiro 等 Genes 2023 两份完整原始 JATS，均明确 CC BY 4.0。未改原 XML，附作者、DOI、许可及原字节和压缩 SHA-256 存入独立 sources/snapshots。未把编辑人员列入论文作者。aquinoi 原描述本次未取得全文，既有生物学事实保留，不作新研究核验声明。
+
+kulina 新增两节，区分 38 件形态标本、25 件类群样本加 3 外群及 556 ddRAD 位点；保留 IDSM03594 模式指定与图 4 S. mystax 标签冲突，以及发表 2023／新种段落 2022 的差异。israelita 新增两节，说明核标记分离后验支持 0.62，并保留方法八个／列举与结果七个／补充图六个核标记的原文冲突，不声称重分析或裁定种界。两属新增实际阅读链接；三物种旧机器式正文标题改为科学问题，删去重复专家未审查句但保留明确限制。Chiropotes 属介绍修正自身列六页而限制说五页的矛盾，并把重复同一体重端点改为单一历史条目。
+
+以上是对既有后续资料的逐项复核和原始来源导读，非新关闭三个缺口；当前 15 项目标、固定 530 分母、集合／计数待解状态保留。完整专论和专家审查均无新增；内容阶段未运行测试、生成、提交或发布。
+
+## P5-70 — Cacajao rubicundus：直接野外材料与八种导航（2026-10-03）
+
+读取 Vieira 等四位作者 Uakari 2008 原始论文方法、结果与图 4，以及历史 ICMBio 巴西旧名资料；新增双语四节和属级两节。2007 年访谈与 2008 年 3 月 82.5 km 定向搜索分别呈现，红色型 Pouteria 未成熟种子取食、局地观察单位和与白色型的近距离接触均是直接记录，不扩写成全年食谱、密度、稳定群体大小或杂交证明。2025 年 Quebrada Blanco 原始论文明确秘鲁现 C. ucayalii 也曾使用旧名 rubicundus，故未将秘鲁材料归入本种。
+
+BSCWK 的“只有评估推断、缺独立现场材料”缺口在首轮双语局地研究导读层面补上，活动源资料／分类缺口从 15 到 14；固定分母仍为 530，综合生态、全部专题、专家审查及读者端交付未据此宣称完成。其他历史候选的集合／计数差异继续保留。原始 2008 PDF 许可未确立，仅本地保存；公共收据记录哈希、四位作者和页码，未公开复制全文或图片。葡英摘要对右岸红色型记录的差异，以及末段对白色型河岸与结果的矛盾保留，不声称勘误。
+
+从固定 COL hierarchy 的父 62JQP 原始子行读取八个接受种并对应八个实际目录，纠正旧属页“全部五种”说法，新增八个实际双语链接；没有按外部现行名单改变固定名录。来源记录见 data/sources/primates-rubicundus-mamiraua-reader-2026-10-03.json。未运行测试、生成、提交或发布，reader-visible 状态待内容阶段交付。
+
+## P5-71 — Cacajao ucayalii：季节目击与待检验的移动解释（2026-10-03）
+
+新读 Heymann、Flores Amasifuén 与 Shahuano Tello 2025 年原始研究全文，图 1／2 经原始 PDF 目读；复用既有共享文献，但新增独立的季节研究来源绑定，未把 P5-70 仅用于旧名边界的绑定扩成无界生态证据。物种页新增双语四节，属页新增双语对读路径。方法段的 1985–2022 年 56 次机会性目击不作个体数、密度或数量趋势；六个两月区间的降雨相关与未显著果实相关分别解释。216 棵树的指标限定于绒猴／伶猴食用植物及五个记录年份，不作乌卡里未成熟种子的直接食物监测。四个月平移来自其他地区，作者承认移动情景为假说。ARC 个人通讯、直线间隔及无人机建议不写成已跟踪的迁移数据。
+
+原始 JATS 的 CC BY 4.0 已在许可节点确认，完整三位作者与 DOI 保留；公开保存未改写的 XML gzip 和哈希。原始数据 DOI 可见，但 Zenodo 公共 API 本次返回 403，未取得数据、未重算统计，也未转录图中柱高为新的精确总数。见 data/sources/primates-ucayalii-seasonality-reader-2026-10-03.json。新增内容不关闭已有具名缺口，活动数仍 14，固定分母仍 530；全种专论、外审和读者端交付继续单列。未运行测试、生成、提交或发布。
+
+## P5-72 — Cebus cesarae：名称正模出处与临时分类处理（2026-10-03）
+
+新读 García-Restrepo 与 Montilla 的 2021 年哥伦比亚分类文献复核：方法、Cebus 讨论与 cesarae 类型条目，PDF 的标题页、讨论与条目页经目读。物种页新增双语两节，明确 USNM 281588、采集号 525、成年雄性、1942-08-24、Río Guaimaral／Cesar 河水道、140 m 均为复核转述；未直接检查正模或 1949 原文。作者暂将 cesarae 列为 C. versicolor 亚种，并指出采样、地理界限及形态比较仍不足。未把地点或新文献当作正模—遗传群—野外动物的独立鉴定对应，RYZ7 缺口仍开放，活动数仍 14。
+
+属页新增真实相对链接的双语阅读路径。实际读到的历史体重段把同一 C. capucinus 3005.99 g 重复写成两端，现改为单条历史中位数，并同步改写比较边界与英文单数，不制造跨物种比较。新增共享文献记录完整两位作者及原 PDF DOI；副编辑不加入作者列表。Redalyc 原 PDF 下载成功，但再分发许可未确立，PDF 和图像只保留本地。Smithsonian 记录访问未成功，未从检索摘要引入馆藏字段。见 data/sources/primates-cesarae-type-review-reader-2026-10-03.json。读者端、完整专论与外审未完成；未运行测试、生成、提交或发布。
+
+## P5-73 — Dineobellator：原始正模、羽毛线索与功能解释（2026-10-03）
+
+将仅有 PBDB 出现导读的 D. notohesperus 补为原始描述导读，新增双语六节，属页新增双语实际链接；原始描述置于阅读顺序前部，保留旧出现、采集、宽年代和出处字段。新读 Jasinski、Sullivan 与 Dodson 2020 年原文的系统、描述、讨论及方法，并目读图 1／2。SMP VP-2430 是一只不完整关联个体、至少 20 件可辨认骨；图中整身轮廓与现代猫头鹰羽毛是示意，不作完整化石或原羽色。前臂抓握、尾部活动与病理解释均注明作者推断，未写成实测握力、已识别猎物、搏斗者或死因。
+
+原文的最大沉积年龄 66.5±0.2 Ma 与约 70–68 Ma 生物地层解释并列，不替换 PBDB 宽年代或声明精确死亡日期。38 单元／180 性状矩阵的 Velociraptorinae 位置，与 157 单元／860 性状矩阵的科内多分叉分开，未重算系统分析或声称后续共识。原文关于融合尾椎远端位置的描述差异保留于收据，未引入尾综骨结论。共享文献完整三位作者；原始 JATS 的 CC BY 4.0 明确，保存未改写 XML gzip 和哈希，未公共复制图像。见 data/sources/dineobellator-original-description-reader-2026-10-03.json。这是一件正模的来源限定导读，非完整专论或专家审评；灵长类缺口仍 14，主龙类全范围尚未完成。未运行测试、生成、提交或发布。
+
+## P5-74 — Balaur：无头骨正模与亲缘重评（2026-10-03）
+
+将只有 PBDB 出现导读的 B. bondoc 补为来源限定标本与争议导读：双语六节和属级一节实际阅读链接，实质形态置前、原出现字段保留。直接读取 2010 年原始摘要、正模、归属标本、地点、诊断及描述开头；2015 年原始重新编码研究的方法、相关手足形态、结果、讨论与结论另从原始 JATS 读取。不是已经复核原描述全文或所有形态小节。EME PV.313 一只个体无头骨；手指退化、融合手足骨与大足爪呈现为形态证据，不把骨爪解释成已观测捕食。2015 两套矩阵偏向 Avialae，但强制驰龙科增加三步／九步的 Templeton 差异未显著；固定 PBDB 路径与研究提案分别保留。
+
+草食／杂食与失去飞行能力按作者解释，不列确定食物；图 7 的白色已知／灰色补全只按原图注说明，本批未目读图像、不公共复制图片。2010 原文后续访问出现浏览器验证，EuropePMC XML500，保留未完整取得的边界；其初发表日期字段不同，年与期信息保留而不裁决准确日。2015 许可明确 CC BY4，完整三位作者（不含编辑）和未改写 XML gzip 保留。见 data/sources/balaur-specimen-reassessment-reader-2026-10-03.json。全范围、后续文献综合及外审仍未完成；灵长类缺口仍14。未运行测试、生成、提交或发布。
+
+## P5-75 — Dromaeosauridae：两件正模的比较阅读路径（2026-10-03）
+
+复用 P5-73 Dineobellator 原始描述与 P5-74 Balaur 重评的共享来源，科页新增双语四节：保存范围、前肢功能解释、羽毛证据链、目录与系统树。每种语言接通两个种页和两个属页，实质比较前置，原有 PBDB 出现／采集段保留。两件正模的差异不扩写成全科共同习性；尺骨附着线索、假设羽被和飞行能力分别说明。科内解析不足与 Balaur 替代位置未被显著排除并列，不重新分类。既有 59／303／241 是旧批数据库覆盖计数，本批未重新计算或提升为生物数量。来源记录见 data/sources/dromaeosaurid-holotype-comparison-reader-2026-10-03.json。未新增物种、文献或缺口关闭；全类群生物学、全部范围和读者端交付尚未完成。未运行测试、生成、提交或发布。
+
+## P5-76 — Natovenator：保存肋骨与游泳解释（2026-10-03）
+
+新读 Lee 等八位作者 2022 年原始描述的全部主文、两张表与方法，目读图 4；补充物种双语六节和属页实际阅读链接，将标本材料置于原有出现导读之前。MPC-D 102/114 大部分相连且头骨接近完整，但有压扁、缺失骨骼和部分暴露前肢；微 CT 是原作者观察方法，本批未重作扫描。13 枚前颌牙、至少 23 个上颌／齿骨牙槽和延长颈椎按保存范围解释，不转成已知食谱。
+
+表 1 第三肋角度 40°、比较潜水鸟 60–70°、Shri devi 80°、鸵鸟 134°按特定骨位、腹面比较，不是实测游速、阻力或通用水生门槛。图 4 深灰部位为缺失骨复原；图 5 是假想行为。游泳与食鱼保留作者假说，水中推进方式未知，前肢主推进仅为比较解释。182 单元／1807 性状矩阵的删种和缺失第三跖骨编码影响明确；方法存树上限与结果“超过 99,999 棵”的措辞差异保留，不作重算裁定。尚未独立汇读 Halszkaraptor 争议或所有补充材料，未泛化全亚科生态。
+
+完整八位作者、日期与 CC BY 4.0 由原始 JATS 前部读取；公开档案是保留原署名与许可的未改写 XML gzip，没有复制公开图片。数据库分类、出现、采集及宽年代均保留。来源记录见 data/sources/natovenator-original-description-reader-2026-10-03.json。完整专论、专家审评和读者端发布仍未完成；灵长类缺口仍 14，全 Amniota 目标继续。依内容阶段指令未运行测试、生成、提交或发布。
+
+## P5-77 — Halszkaraptor：逐性状阅读生态争议（2026-10-03）
+
+取得并阅读 Brownstein 2019、Cau 2020 的全部主文与方法，以及 2020 图注勘误；新增物种双语七节、属级两节和 Natovenator 物种／属的实际相对阅读链接。2019 年的祖征解释和 2020 年的衍生适应回应按具名研究呈现；吻部表面孔与内部管道、换牙模式与时间速率、长颈比例与关节薄板、前肢类比与保存限制分别解释。2020 年指出正模尾端缺失，未把保存段写成完整短尾；胸带零碎，未给实测划水动作或潜水能力。2019 年作者并未断言本种植食。
+
+两套研究都讨论 Halszkaraptorinae 与 Unenlagiinae 的姊妹关系，却对祖征／新特征优化有不同解释；150 单元与 185 单元、后者 158 单元共同子树及 11／17 项新特征均保留研究口径。附件矩阵不能复现 2019 年树是 Cau 的报告，本批未独立重算。勘误只改图 2 缩写和图 6 字母，不作撤回或生态裁决。Natovenator 2022 年肋骨材料作为独立比较，不泛化所有亚科成员生态。
+
+2017 年原始描述本次仅取得书目信息，未取得全文，不引作新独立生物学依据。三份新读 JATS 均明示 CC BY 4.0，原始字节与许可、作者保持不变后 gzip 归档；未公共复制图像。两个主论文各一位作者，PeerJ 编辑未加入作者表；原文图 2 标本编号异写保留，不创建另一个标本。来源记录见 data/sources/halszkaraptor-ecology-debate-reader-2026-10-03.json。分类路径、宽年代与出现记录未改变；完整专论、外审和读者交付仍未完成，灵长类缺口仍 14。依内容阶段指令未运行测试、生成、提交或发布。
+
+## P5-78 — Hulsanpes：残缺正模与足部诊断（2026-10-03）
+
+读取 Cau 与 Madzia 2018 年全部主文、方法、系统段落和表 1，补充物种双语六节、属级两节，并提供物种及 Halszkaraptor 属的实际相对链接。ZPAL MgD-I/173 是一小块脑颅、第二至第四跖骨和部分趾骨；同一个体归属沿用作者解释，不扩成完整头、腿或全身。约 10 mm 脑颅的内耳识别保留暂定，跖骨重叠用于有限诊断，未由类群名补出未保存的第二趾爪。
+
+第二跖骨 34 mm 与第三／第四约 39／36 mm 的估计值分开；相对近缘标本 75–80% 和粗糙表面是作者未成熟判断，不是年龄或成年大小。四步的强制鸟翼类树长代价保留为研究结果，不写成概率或重算验证。奔跑适应、避免跖骨扭转与潜在生态分化都是作者功能解释，没有实测速度、食谱或游泳记录。Mahakala 52／82 mm 的作者排字错误解释保留，未自称复量；源文跖骨凸缘方向、近端宽度措辞和缺失股胫骨却给比例的边界在收据记录，未导入无实物支持的本种腿比例。
+
+原始 JATS 明确 CC BY 4.0，完整两位作者及 2018-05-28 发表日期由前部读取，编辑未加入作者；公开原字节 gzip 保留许可与署名，不公开复制图像。1982 年原始描述本次未单独取得全文。来源记录见 data/sources/hulsanpes-redescription-reader-2026-10-03.json；旧出现、分类与宽年代保留。完整专论、外审和读者交付仍未完成，灵长类缺口仍 14，全羊膜动物目标继续。依内容阶段指令未运行测试、生成、提交或发布。
+
+## P5-79 — Mahakala：骨骼选段与测量分歧（2026-10-03）
+
+读取 Turner、Pol 与 Norell（2011）详细骨骼描述的选段：主文 1–7、31–35、47–63 页，包含正模、修订诊断、表 1、前肢和足部、讨论、亲缘、结论与附录；另读参考文献末页。不声称读完所有 66 页解剖章节。物种新增双语六节、属级两节导读，连接 Hulsanpes 与 Halszkaraptor 路线。成年或近成年归属是原作者结合融合与引用组织学的判断，2007 年原文和切片没有本次独立复核。肱骨 35–40 mm 是估计，第二趾爪实物与其捕猎行为分开；耳区血管通道解释不是保存血管。
+
+2011 年最早分支驰龙科结果与 2018 年 Hulsanpes 姊妹关系按研究年份分开；40,000 棵树是作者存储上限，不说全部最简约树。原表 82 mm 与后文采用 52 mm 的跖骨差异保留，后文排字错误解释没有改称本页复量。表格侧别与正文、重复骨名、有序性状编号超出主文性状总数等来源边界记录在收据，不自行修正矩阵，不计算速度或体型。
+
+原 PDF 从正常公开镜像获得，三位作者、2011-10-05 日期与表 1 在页面图像上读取；版权 AMNH 2011，未确认再分发许可，PDF 只作本地来源材料，不公开复制或 gzip。共享引文记录 DOI 10.1206/3722.2，并复用已读 2018 年来源。收据 data/sources/mahakala-anatomy-reader-2026-10-03.json；分类、出现计数与宽年代保留。灵长类缺口仍 14，完整物种专论、外审、读者交付与全羊膜动物目标仍待完成。依内容阶段指令未运行测试、生成、提交或发布。
+
+## P5-80 — Halszkaraptorinae：四属保存材料与比较路线（2026-10-03）
+
+在已完成 P5-76 至 P5-79 的成员导读上，亚科页新增双语五节：亚科入口、四件正模保存范围表、按年份分开的亲缘结果、部位不同的水生／奔跑解释与三条连续阅读路线。连接 Natovenator、Halszkaraptor、Hulsanpes 和 Mahakala 实际属页，复用六项已读共享文献绑定，没有新建重复引文、改写分类目录或出现计数。
+
+比较表区分近完整、残片、未暴露部位和缺失尾末端；不把 Mahakala 保存的爪骨或成年判断移入 Hulsanpes。生态争论与 Natovenator 新肋骨证据保持具名作者归属，足部奔跑解释仍为形态假说；没有全亚科统一食谱或游泳机制。2011、2018、2019／2020、2022 年结果按取样与年代保留，不拼成唯一支持的树图，不重算矩阵或裁决 82／52 mm 测量分歧。
+
+原始全文与已读选段范围继续由四份成员来源收据限定；2017、1982 原始全文和 Mahakala 2011 全部解剖章节不冒称已读。见 data/sources/halszkaraptorinae-comparative-route-reader-2026-10-03.json。全羊膜动物内容目标、14 项灵长类材料／分类缺口、完整专论、外审与读者交付仍待完成；依用户内容阶段指令未运行测试、生成、提交或发布。
+
+## P5-81 — Microraptor：滑翔模型与实际行为的边界（2026-10-03）
+
+读取 Dyke 等（2013）九页原论文全文与方法、图注，M. gui 新增双语六节、Microraptor 属级新增三节。属级路线连接三个固定工作名录种，但 M. zhaoianus 与 M. hanqingi 仍只有现有出现资料，不由同属模型冒称种级生物学已补完。模型使用 M. gui 正模 IVPP V13352 与属级鉴定 BMNHC PH881，带羽几何主要源于后者并按风洞放大；现代鸭与林鸽羽毛不是化石羽色。关节姿势还参考 Hesperonychus，不把复原姿势写成实测活动范围。
+
+10／15／20 m/s 来流与攻角是实验输入；0.5 kg、30 m、3 m/s 是质量估计与轨迹假设。特定稳定点升阻比 4.7∶1／2.8∶1 不转成全种最高性能；平板与羽模型几何、面积、重心不同，不否定真实羽毛。图 2 原图图注低高度阈值措辞不一致，未导入精确阈值；没有复算轨迹、重做风洞或宣称拍翼与活动频率。另引食性、2003 年原描述和 2012 年羽色原文尚未独立读取。
+
+复用已有 dyke-2013-microraptor-wind-tunnel 引文，保留原元数据变体并补齐六位全名、2013-09-18 发表日期及版权。原 PDF 正常从共同作者公开存放地址取得，版权 Macmillan 2013、未确认再分发许可，只保留本地来源，不公开复制。来源收据 data/sources/microraptor-flight-model-reader-2026-10-03.json；完整专论、外审、读者交付和全羊膜动物目标仍待完成，灵长类缺口仍 14。依内容阶段指令未运行测试、生成、提交或发布。
+
+## P5-82 — M. zhaoianus：新增骨板与解剖辨识（2026-10-03）
+
+读取 Hwang、Norell、Ji、Gao（2002）主文 1–31 页、参考文献与解剖缩写；影像形式的测量与矩阵附录未逐行读取。M. zhaoianus 新增双语六节，属级新增一节比较路线并更新原先另一种仍只有出现资料的措辞。新增两件 CAGS 骨板与正模区分；后部牙齿锯齿和腰形齿冠、估计十九枚牙、长背椎、骨杆包裹尾段、胸带与钩突、手爪鞘和足部遮挡保留各自证据。
+
+约二十六尾椎与正模引用计数差异不视为已解决种界；前齿、第一趾反向、第三跖骨近端仍不能由这些标本确认。两种编码各 240 棵六百步树是 2002 年作者分析，未重算、未改成现行唯一亲缘；作者明确不支持某个特定飞行起源模型。2002 年骨骼主文没有给本批补齐羽毛，羽毛与直接食性材料继续待补。源文若干标本尾号、腿比例百分比和骨名措辞边界留收据，不创建新标本或导入含糊数字。
+
+共享文献补齐四位作者与 2002-08-16 日期，原 PDF 正常公开镜像取得，AMNH 2002 版权、未确认镜像再分发许可，只保留本地原材料，不公开复制。见 data/sources/microraptor-zhaoianus-anatomy-reader-2026-10-03.json。M. hanqingi 仍缺生物学正文来源；全羊膜动物目标、14 项灵长类缺口、完整专论与外审仍未完成。依内容阶段指令未运行测试、生成、提交或发布。
+
+## P5-83 — M. hanqingi：正模保存与制备短导读（2026-10-03）
+
+新增两节双语种级短导读与一节属级资料路线，更新原先完全没有生物学原文的措辞。读取 Gong 等（2012）作者上传网页的前页、制备方法与正模段落，完整五位作者与 DOI 另作共享绑定。近完整骨板仍有散开与移位部位；翻模立体模型不是直接记录生前姿势。原文 LVH/LHV 缩写差异不创建两个标本。
+
+正常 PDF 下载返回 403，网页 PDF 获取返回 404；没有绕过访问限制或取得本地原 PDF。完整解剖、图像、测量、后续修订及种界没有读齐；不导入摘要中的毒性、祖先或飞行起源结论，不将短导读计为完整物种专论。收据：data/sources/microraptor-hanqingi-preservation-reader-2026-10-03.json。全羊膜动物内容、14 项灵长类缺口和外部专家审评尚未完成。遵照内容阶段指令，未测试、生成、提交或发布。
+
+## P5-84 — Dearc：三维正模与功能形态（2026-10-03）
+
+D. sgiathanach 新增七节双语正文，属页新增两节介绍与实际阅读路线，保留原有 PBDB 出现资料。通过 Europe PMC 正常接口取得 2025 年 CC BY 4.0 全文 XML，实际读取介绍、全部方法、讨论与结论，以及正模、修订诊断、牙齿、胸骨、肱骨、手部六个结果小节；不是完整论文阅读，不声称目读原图。全八位作者与 2025-01-24 日期进入共享引文，DOI 中的 2024 不作为发表年份。
+
+三维保存与石灰岩遮挡并列；CT 观察、骨面与现生括限肌肉推断分开。牙齿磨损支持作者较硬猎物假说，没有直接胃内容物或全鱼食结论。胸骨和三角胸肌嵴的新增自衍征与保存、骨化边界共存；飞行肌肉作用、攀爬与捕食功能保留假说地位。源文爪长数值与第三爪最长措辞不一致，不导入长度排序。目录父链保持，2025 年转述的替代亲缘不升级为独立复核。2022 年原 PDF 正常下载 403，未绕过；翼展回归、组织学和所引其他论文未读齐。
+
+新增正文同时写入既有 atlas-profile readerSections 与 readerSources，原有目录文本指针同步重排；没有改写分类、年代记录、置信成熟度或内部物种身份。收据：data/sources/dearc-osteology-reader-2026-10-03.json。全部羊膜动物范围、14 项灵长类缺口、完整专论与外审未完成。依内容阶段指令未测试、生成、提交或发布。
+
+## P5-85 — Ceoptera：选段正模与诊断导读（2026-10-03）
+
+种页新增四节短双语导读，属页新增两节资料入口，接入既有 atlas readerSections / readerSources 并重排指针。原始描述作者上传网页的前页、正模、诊断、CT 选段与亲缘结果选段实际可读；出版商全文打开 403，Europe PMC 无记录，完整 17 页、图像和补充矩阵未读齐。博物馆页打开超时，没有新增该页独有事实。
+
+三相连骨板中的部分正模、两枚未可靠识别椎骨、CT 对埋藏骨骼的观察和胸带／骨盆诊断均保留材料边界；达尔文翼龙类单系结果同时保留中低支持与局部分辨率差。没有用复原图补全缺失骨骼，也没有重算矩阵或裁决全类群争议。共享引文记录六位作者、2024-02-05 在线日期与 2023 卷期，固定数据库 2023 年署名继续保留。CC BY-NC-ND 4.0 准确记录，仅短事实导读，未复制或改编论文、图像及复原图。
+
+收据：data/sources/ceoptera-description-reader-2026-10-03.json。完整生物学、后续材料、全羊膜动物范围、14 项灵长类缺口和外审仍未完成。依内容阶段指令未测试、生成、提交或发布。
+
+## P5-86 — Tupandactylus navigans：关联骨架与冠饰（2026-10-03）
+
+种页新增八节双语正文，属页新增两节阅读路径，共享引文记录六位作者、2021-08-25 与 CC BY 4.0；atlas readerSections / readerSources 同步关联并重排旧指针。实际读取官方 Europe PMC 全文 XML 的前页、完整导言、地质背景、方法、讨论和结论，以及系统描述、头骨、下颌、非骨组织、冠饰、颈椎、背椎、胸骨、手指及亲缘结果选节。全文下载不等于全部正文和图像已读齐；其余骨骼分节、图像、补充矩阵和原始 CT 数据未完成阅读。
+
+GP/2E 9266 是新归入本种的近完整关联骨架，不是正模；六块拼合石板仍有压扁与缺失。保存喙鞘、软冠、背椎联合体和翼指均有标本范围。飞行、地面觅食、成熟与性二型保留推断边界；MN 6588-V 只归属到属级。原论文地质背景 Aptian 与系统层位行 Albian 的内部差异保留未决，不改写固定数据库年代或以旧采集记录补出标本确切地点。
+
+收据：data/sources/tupandactylus-skeleton-reader-2026-10-03.json。完整专论、全羊膜动物内容、14 项灵长类来源缺口与外审仍未完成。依内容阶段指令未测试、生成、提交或发布。
+
+## P5-87 — Caiuajara dobruskii：骨床、成长与头骨变异（2026-10-03）
+
+种页新增八节双语正文，属页新增两节阅读路径；接入两项共享引文与 atlas readerSections / readerSources，旧指针随正文重排。实际读取 2014 年原始描述导言、方法、完整结果和讨论／结论的正文及图注，另读取 2022 年头骨重描述前页、摘要、导言、方法、修订诊断、材料、讨论开头、下颌联合讨论和结论。原图像、补充标本清单、矩阵与测量未检查，2022 年完整解剖与其余讨论未读齐。
+
+2014 年十位作者与 2022 年六位作者分别保存。原始 XML 的 2014 年许可只明确 CC BY、未给版本，未擅自改为 4.0；2022 年明确 CC BY 4.0。骨床最少 47 个个体为作者正文报告，不是独立重计；多次聚集、水动力分选、幼体占多、冠饰成长与同尺寸变异、幼年飞行／群居／性二型假说各保留范围。2022 年明确遗址还含其他脊椎动物，未把整处遗址说成单种群体。原论文地层年龄讨论未覆盖后续研究，不改写固定数据库宽区间。
+
+收据：data/sources/caiuajara-bonebed-reader-2026-10-03.json。完整专论、后续骨组织学、全羊膜动物内容、14 项灵长类缺口与外审仍未完成。依内容阶段指令未测试、生成、提交或发布。
+
+## P5-88 — Berthasaura leopoldinae：正模、无齿颌与成长边界（2026-10-03）
+
+种页新增七节双语正文，属页新增两节阅读入口，接入原始描述七位作者与后续齿骨研究七位作者两项共享引文。当前两页仅有 catalogue-profile，未虚构已存在 atlas-profile。实际读取 2021 年原始描述前页、完整导言、讨论、方法、系统描述、成熟评估与亲缘结果，以及解剖描述前 14500 字符中的头骨、下颌和部分脊柱。其余头后正文、图像、补充矩阵与原始 CT 未读齐。
+
+MN 7821-V 为近完整但骨骼分离的正模，体长估算不等于成体最大尺寸；亚成体判断是骨骼比较。正模无齿与可能喙鞘分别保留观察、扫描及推断范围。出版商 2025 年摘要报告新齿骨有齿槽残迹并支持发育失齿；本次只读前页与摘要，全文链接仍返回摘要，未读取该标本编号或全部方法。此短提示限制终生无齿推广，不充作全文复核。食性、成长、低支持亲缘结果和原论文／固定数据库年代差异均保留。2021 年 CC BY 4.0；2025 年许可证未确认，仅短事实提示，未复制论文或图像。
+
+收据：data/sources/berthasaura-holotype-reader-2026-10-03.json。完整专论、后续齿骨全文、骨组织学、全羊膜动物内容、14 项灵长类缺口及外审仍未完成。依内容阶段指令未测试、生成、提交或发布。
+
+## P5-89 — Vespersaurus paranaensis：材料归属与功能足部（2026-10-03）
+
+种页新增七节双语正文，属页新增两节阅读入口，共享引文记录原始描述十一位作者与 CC BY 4.0，并复用 2021 年 Berthasaura 原论文的材料比较引文。实际读取 2019 年完整导言、地质背景、方法、讨论、正模／归属／诊断及亲缘结果，头骨、牙齿与跗骨分节，足部正文前 12000 与末 8000 字符。足部中段与其他骨骼分节、图像和补充矩阵未读齐；2019 年旧标本照片未视觉检查，未将原论文对照片的观察伪称独立观察。
+
+正模一体归属、孤立骨骼与牙冠归属均保留暂定条件；中央趾主要负重与邻侧趾功能是作者假说，原论文对邻侧趾承重的保留也随正文记录。相似足迹不确认造迹者。Rio Paraná 地层重评与固定数据库 Goio-Erê／宽年代行分别保存，不自动改写。2021 年混合材料疑问保留，未重新鉴定或重算。
+
+收据：data/sources/vespersaurus-foot-reader-2026-10-03.json。完整专论、组织学、后续力学、全羊膜动物内容、14 项灵长类缺口及外审仍未完成。依内容阶段指令未测试、生成、提交或发布。
+
+## P5-90 — Keresdrakon vilsoni：身体、骨组织与同层共存（2026-10-03）
+
+种页新增十节双语正文，属页新增两节阅读入口；接入一项原始描述共享引文及既有 atlas readerSections / readerSources，旧指针重排。官方 SciELO XML 的五位作者按原署名保留缩写，发表日期 2019-08-19，CC BY 4.0。实际读取前页、全部九个主文章节、测量表文字与图注；图像、标本、切片实物及参考矩阵未独立检查，后续研究尚未汇齐。
+
+正模 CP.V 2069 与孤立材料、作者至少三个个体下限、冠饰后部未知、气腔与鉴别组合、尚未成熟及两件组织样本分别陈述。约三米翼展为比较估计，不能列为成体最大值；血管排列不足以给两种翼龙的生长速率排序。A–C 骨床反复关联支持作者共存解释，不等于同时死亡或确定食物网；食腐、捕食和独居保留假说。地层、早／晚白垩世年代及亲缘方案保留出处，不改固定分类或数据库区间。原文尺骨侧别与图注、图 8 标本号有不一致，未自行裁决。
+
+收据：data/sources/keresdrakon-description-reader-2026-10-03.json。完整专论、后续材料、全羊膜动物内容、14 项灵长类缺口及外审仍未完成。依内容阶段指令未测试、生成、提交或发布。
+
+## P5-91 — Vespersaurus paranaensis：组织成长与年龄模型（2026-10-03）
+
+种页新增七节双语组织学正文，属页新增两节成长阅读路径，接入 2020 年原研究七位作者、2020-09-15 日期、DOI 10.7717/peerj.9771 与 CC BY 4.0。实际读取官方 XML 前页、完整导言／地层、方法与表 1–3、全部股骨和胫骨结果、讨论、结论及图注；图像、Morphobank 切片库与原始年龄模型没有独立复核。旧组织学未读提示已替换为当前主文读阅范围。
+
+五件股骨与六件胫骨不是配对个体；2020 年无其他兽脚类的材料归属前提与后续 Berthasaura 发现并列保留，未自行重新鉴定。平行纤维骨、EFS 与股骨／胫骨成熟年龄分歧分别陈述。年龄外推依赖假定新生半径、丢失标记与切片位置，不能作为确定寿命；小体型、气候及 Noasaurinae 组织特征仍为比较假说。原文胫骨类 I 的 4203／4306 编号不一致未自行裁决。
+
+收据：data/sources/vespersaurus-histology-reader-2026-10-03.json。剩余解剖、后续研究、完整专论、全羊膜动物范围、14 项灵长类缺口与外审仍未完成。依内容阶段指令未测试、生成、提交或发布。
+
+## P5-92 — Cruzeiro do Oeste：三种动物的交叉阅读路径（2026-10-03）
+
+Caiuajara、Keresdrakon、Vespersaurus 三个种页与三个属页各新增两节双语比较路线，合计十二节；正文以当前分类树的相对路径互链，来源 usage 同时记录三项完整 canonicalPath 阅读目标。复用已读 2019 年共同骨床研究与 2020 年恐龙组织学两项引文，没有新建重复参考文献。四个既有 atlas-profile 接入比较 sections、sources 与 relatedPages；两个仅有 catalogue-profile 的恐龙页面保留现状。
+
+路线先对齐关联／孤立材料，再分开读成长、年龄模型与生态假说。反复同层关联没有被改成同时死亡或确定捕食；不同部位的组织样本没有合并为全遗址成长曲线，三条数据库出现行不计为三个个体，链接也不改变分类父链。它只比较这三种已有成员，未声称遗址全部动物仅有三种。
+
+收据：data/sources/cruzeiro-comparative-route-reader-2026-10-03.json。实际读者端链接交付、完整专论、全羊膜动物范围、14 项灵长类缺口与外审仍未完成。依内容阶段指令未测试、生成、提交或发布。
+
+## P5-93 — Caupedactylus：头骨、腭部解释与条件性归入（2026-10-03）
+
+种页新增八节双语正文，属页新增两节阅读入口；接入 2024 年腭部研究与 2025 年 Araripe 综述两项共享引文，同步既有 atlas readerSections / readerSources。前者全部主文章节已读，后者实际读取本属完整条目及所有含本属名称的比较和食性段落，未声称整篇综述均已读。两项官方 XML 记录 CC BY 4.0；作者保留原署名缩写。2013 年原始描述仅取得出版信息与摘要，全文仍未取得。
+
+MN 4726-V 的保存范围、成年解释、骨冠与吻部组合、腭孔名称修订和本种未被新扫描分别说明。MPSC R 859、拍卖头骨、SMNK PAL 6410 与 KPMNH DL 84 保留归入或重评条件，不累计确定个体数。Caupedactylia 后续方案不改固定目录；食性为综述转述的咬合力模型解释，原研究尚未独立读完。论文 Romualdo / 未知地点与数据库 Crato / 宽年代区间的差异尚未解决。
+
+收据：data/sources/caupedactylus-palate-reader-2026-10-03.json。完整专论、全羊膜动物内容、14 项灵长类缺口及外审仍未完成。依内容阶段指令，未测试、生成、提交或发布。
+
+## P5-94 — Aymberedactylus：下颌、成长与亲缘比较（2026-10-03）
+
+种页新增九节双语正文，属页新增两节入口；新增一项 2016 年原始描述共享引文并复用 2025 年综述，镜像既有 atlas 阅读章节与来源，接入 Caupedactylus 规范路径对读链接。原论文三位作者、2016-09-21 日期与 CC BY 4.0 按官方 XML 记录，全部五个科学主文章节实际读取；2025 年只读本属完整条目及上批已读比较，未声称整篇综述全部读取。
+
+正模 MN 7596-V 仅为下颌；保存尺寸、Y 形与诊断组合、浅冠与角质鞘推断、亚成体和翼展缩放、开口与咬合功能假说分别说明。2016 年矩阵修改前后与后续 Caupedactylia 方案并列，固定父链不改。原文性状 51/52 编号及关节面粗糙/平滑措辞不一致未自行裁决。精确地点、头后骨架、成长序列、实测功能与后续矩阵仍未齐。
+
+收据：data/sources/aymberedactylus-mandible-reader-2026-10-03.json。完整专论、全羊膜动物内容、14 项灵长类缺口与外审尚未完成；依内容阶段指令未测试、生成、提交或发布。
+
+## P5-95 — Dsungaripterus：腭骨修订、牙齿与取食解释（2026-10-03）
+
+种页新增十一节双语正文，属页新增两节入口；新增 2020 年共享引文并复用 2024 年腭部研究。2020 年八位作者、2020-04-01 日期与 CC BY 4.0 按官方 XML 记录，全部五个科学主文章节实际读取；2024 年全部七个科学主文章节已在本轮读取。图像、原 CT、模型和实物尚未独立检查。既有 atlas 阅读章节、来源及旧指针同步，新增 Caupedactylus 对读路径。
+
+多件头骨组合、上翘无齿前端与后方齿区、磨耗支持的硬物取食假说、可能角质鞘、CT 骨缝及 Y 形腭骨、翼骨侧突重新归为外翼骨、孔窗改名分别陈述。成年程度非岁数，细吻非已证雌性，同地点出现非已证同层共存；数据库行不与扫描标本强行匹配。1964／1973 年原描述、完整成长和全部地理材料未齐。
+
+收据：data/sources/dsungaripterus-palatal-revision-reader-2026-10-03.json。完整专论、全羊膜动物内容、14 项灵长类缺口与外审尚未完成；依内容阶段指令未测试、生成、提交或发布。
+
+## P5-96 — Hamipterus：胚胎分期与早期飞行争论（2026-10-03）
+
+种页新增九节双语正文，属页新增两节入口；新增 2019 年发育分析、2021 年飞行研究与作者更正三项共享引文，复用 2024 年腭部研究。2019 年官方 PMC HTML 主文四节已读，版权仍保留，仅用简短独立概述；2021 年官方 XML 全部五个科学主文章节与更正全文已读，CC BY 4.0。更正仅调整两处引用编号。既有 atlas 阅读章节、来源与旧指针同步，接入 Dsungaripterus 对读路径。
+
+胚胎阶段、骨嵴与肌肉推断、定量模型使用类群、材料假设、亲代照料与生态位假说、独立腭部扫描分别说明。2021 年定量样本主要是 Pterodaustro 与 Sinopterus，不将其数值移植为本种测量。原始 2014 描述与 2017 年蛋胚胎全文、完整作者表、标本图像与模型复算仍未齐；未确定出壳起飞时刻或照料行为。
+
+收据：data/sources/hamipterus-development-debate-reader-2026-10-03.json。完整专论、全羊膜动物内容、14 项灵长类缺口与外审尚未完成；依内容阶段指令未测试、生成、提交或发布。
+
+## P5-97 — Pterodaustro：幼体飞行模型与组合输入（2026-10-03）
+
+种页新增七节双语正文、属页新增两节入口，Hamipterus 种页新增一节反向阅读路径。复用 2021 年飞行研究与作者更正；五个科学主文章节已在 P5-96 读取，本批回读模型方法、表 1–2、结果、结论和相关讨论。既有 atlas 章节、来源、指针与 relatedPages 同步。
+
+三件标本供应两组幼体模型，皮质厚度与骨干尺度来自不同标本；翼面积、质量、速度与抗弯数值均保留模型条件，非直接飞行观察。成体模型输入不是全种最大体型，成长生态与亲代照料仍未确定；数据库两条出现行不对应模型个体数。原始描述、完整组织学、食性及原始切片未汇齐，没有重算模型或虚构专家审评。
+
+收据：data/sources/pterodaustro-hatchling-flight-reader-2026-10-03.json。完整专论、全羊膜动物内容、14 项灵长类缺口与读者交付尚未完成；依内容阶段指令未测试、生成、提交或发布。
+
+## P5-98 — Sinopterus：未成熟正模、异名与幼体鉴定（2026-10-03）
+
+S. dongi 新增八节、S. gui 新增五节、属页新增两节双语正文；Hamipterus 新增一节后续幼体鉴定对读。新增 2023 年原始修订共享引文，保留五位作者与 CC BY 4.0，编辑不混入作者；复用 2021 年飞行研究。实际读阅范围限定在收据，未冒称全文、全部标本或补充矩阵均已检查。既有 atlas 阅读章节、来源、指针与相关路径同步。
+
+未成熟正模、头骨与肢骨组合、大小代理与补值方法、两个形态群、冠饰成长／个体／可能性别因素和层位重叠分别写明。2023 年 S. gui 异名处理与固定目录入口并存，不合并出现行；BPV-077 不完整且没有进入形态测量数据。其 0.64／0.8 米翼展估计分歧及原文 D3072／D3702／D7302 编号未自行裁决。Nemicolopterus 在 2021 模型中作 S. dongi，在 2023 修订中保留 Sinopterinae 未定，不以旧模型确认无争议种级性能。
+
+收据：data/sources/sinopterus-taxonomic-revision-reader-2026-10-03.json。完整专论、全羊膜动物内容、14 项灵长类缺口、外审与读者交付仍未完成；依内容阶段指令未测试、生成、提交或发布。
+
+## P5-99 — Huaxiadraco：旧组合、身体与相对成长（2026-10-03）
+
+固定 Huaxiapterus corollatus 种页新增七节、H. benxiensis 新增六节、属页新增两节双语正文，复用 2023 年修订。原 ZMNH M813、BXGM V0011 与 D2525 三项条目主文和文字图注实际读完，接入既有 atlas 章节、来源、指针和 Sinopterus 对读路径。新组合及异名留在具名正文中，不新建没有来源骨架的分类节点。
+
+保存损坏、梯形冠与下折吻、短掌骨和末端翼指节、相对亚成体及材料翼展分别说明。BXGM V0011 的 55%／80% 肱骨比例为作者对残骨的重评，未独立测量；无头骨 D2525 的归入不单独证实冠形。三项旧目录入口不计为三个独立生物种，jii 的详细身体条目仍未补完；原始描述、全部新增材料、组织学与食性仍未齐。
+
+收据：data/sources/huaxiadraco-material-reader-2026-10-03.json。完整专论、全羊膜动物范围、14 项灵长类缺口、外审与读者交付尚未完成；依内容阶段指令未测试、生成、提交或发布。
+
+## P5-100 — Huaxiapterus jii：幼体标本、冠饰与异名路线（2026-10-03）
+
+种页新增七节双语正文，属页既有路线补入 jii 实际规范路径。复用 2023 年共享修订引文，完整读取 GMN-03-11-001 的形态、文字图注、成长评估与历史处理条目；此前已读方法与分类讨论限定于 P5-98 范围，未声称整篇全文、图像、实物或补充矩阵已读。同步既有 atlas 章节、来源和旧指针。
+
+头骨后部、颈椎和足部脱节限制可测特征；较大冠、长第一掌骨及末端翼指节比例与相对融合分别陈述。部分背椎融合支持作者略较成熟幼体解释，79 毫米肱骨与 1602 毫米翼展不作确定岁数、性别或全种成体最大值。具名异名与固定 PBDB 接受记录并列保留，不合并出现、地点、年代和目录身份。2005 年原始全文、完整成长、组织学和食性仍未齐。
+
+收据：data/sources/huaxiapterus-jii-material-reader-2026-10-03.json。完整专论、全羊膜动物范围、14 项灵长类缺口、外审及读者交付仍未完成；依内容阶段指令未测试、生成、提交或发布。
+
+## P5-101 — Eopteranodon：上下颌重识别与较早材料比较（2026-10-03）
+
+种页新增六节、属页新增两节双语正文，复用 2023 年修订共享引文。完整读取曙翼龙专节、文字图 19–20 注及方法／结果两节亲缘分析；来源读取范围具名限定，未冒称 2023 年全文、原始 2005／2006 描述、图像或矩阵已独立检查。既有 atlas 章节、来源、指针和跨属路线同步。
+
+BPV 078 上下颌旧识别互换、下折吻和冠、鼻眶前孔与翼骨比例分别归给作者重评。具名近亲关系与距离聚类区别保留；义县较早和形态近似只支持作者连续演化／时间种提议，不确认直接祖先、同时共栖或共同食谱。固定出现、父链与宽年代保留，完整新增材料、成长、组织学和生态仍未齐。
+
+收据：data/sources/eopteranodon-reassessment-reader-2026-10-03.json。完整专论、全羊膜动物范围、14 项灵长类缺口、外审与读者交付仍未完成；依内容阶段指令未测试、生成、提交或发布。
+
+## P5-102 — Europejara：欧洲头部材料、复原与食性边界（2026-10-03）
+
+种页新增九节、属页新增两节双语正文，接入 2012 年原始描述共享引文与完整七位作者，编辑不混入作者。官方 PLOS XML 全部四个科学主文章节及文字图注实际读完；版权为原文具名 Creative Commons Attribution，未猜测版本。既有 atlas 章节、来源、指针与 Eopteranodon／Sinopterus 对读路径同步。
+
+MCCM-LH 9413 的不完整头骨、下颌、下颌冠和无齿边缘分别陈述，正模没有皮肤或角质喙；约两米翼展与上颌冠均为比较复原。地层环境不作全种生态，135 棵树与内部未分辨关系保留作者条件；最早记录按 2012 年取样，欧亚起源、食果及种子传播不作确定事实。图像、实物、补充矩阵、后续研究和直接食性资料仍未齐。
+
+收据：data/sources/europejara-description-reader-2026-10-03.json。完整专论、全羊膜动物范围、14 项灵长类缺口、外审与读者交付仍未完成；依内容阶段指令未测试、生成、提交或发布。
+
+## P5-103 — Tupandactylus navigans：补读肩带、骨盆与腿足（2026-10-03）
+
+在既有八节关联骨架导读上，种页新增七节、属页新增一节双语路线，复用六位作者的 2021 年共享引文。官方 PLOS XML 新读 Results 分节 1、3–11、13、18、20–23、25–29，包含表 2–5 与文字图注；此前读阅继续由旧来源绑定限定。既有 atlas 章节、来源和指针同步，接入 Europejara 与 Huaxiapterus corollatus 比较。
+
+肩胛乌喙骨融合与裂缝、左右肱骨损坏、腕掌和翼骨、侧压骨盆与未完全发育坐耻骨板、长腿与四趾足分别陈述。2.7 米翼展为骨架尺寸估计，不作成体最大值或飞行性能。表 4 第四翼指节侧别与正文分歧保留，前臂百分比、腓胫比例与趾节式不用于推断行为。原 CT、实物、图像、补充矩阵和全部后续研究仍未独立核齐。
+
+收据：data/sources/tupandactylus-limb-anatomy-reader-2026-10-03.json。完整专论、全羊膜动物范围、14 项灵长类缺口、外审和读者交付仍未完成；依内容阶段指令未测试、生成、提交或发布。
+
+### P5-104 — 灵长类十二个具名候选的来源后续清单（2026-10-03）
+
+逐条读取十二个当前规范页的英文限制、来源键与 source-linked 状态，联接 P5-66／68／69／70 历史核对，新增 `docs/primates-named-followups-2026-10-03.md` 与来源收据，并为历史账本追加第十节。十九项重建候选减去七个已关闭或已有后续介绍条目得到十二个具名选源对象；不将其当作原始活动集合，不推断两个匿名物种。当前活动缺口仍 14，固定分母 530，本批关闭 0 项。没有新增规范页科学事实或修改接受身份；未重审全部正文与科学来源，完整自然史及读者端交付仍待完成。按内容优先指令未执行测试、生成、提交或发布。
+
+### P5-105 — minusculus 的采样缺口与模式比较导读（2026-10-03）
+
+读取 Lei 等 2014 年修订的完整采样小节、minusculus 条目与表 3–4 对应行／表注，视觉核对印刷页 11、22、23、30；新增 6 节双语规范正文与一个共享来源绑定。补齐该参考文献首页的十一位作者、题名和卷页元数据，许可未确认。91 个样本／31 地点不是本种样本；1678 米条目不是新野外 GPS 或完整海拔范围；形态似 sibreei 不确认遗传位置，表格体型空值不借用其他种。修正旧页 evidence_limit 标题及重复外审句。另修正 P5-104 清单的十二个中文链接为真实 page.zh.md，并更新收据哈希。首轮缺口仍 14、关闭 0，分母 530；未执行测试、投影、提交或发布。
+
+### P5-106 — Cheirogaleus 的遗传与形态证据路线（2026-10-03）
+
+新增属级 4 节双语正文，读取 2014 年修订印刷页 20 的核结果、物种树、形态限制及名称联接讨论，并视觉核对该页；采样和表格沿用 P5-105 已读限定范围。保留核／线粒体不一致的多种可能解释、主要组与组内候选的区别及活体／馆藏比较限制，联接五个已有物种页。规范化旧 overview 标题，保留十一项来源键并移除正文重复协议块／重复外审句。2000 年原描述 ANU 页面标为受限至 2037-12-31，申请副本返回 403，未获得全文，不据摘要补内容。14 项缺口与固定 530 分母不变，关闭 0；未测试、生成、提交或发布。
+
+### P5-107 — 四种 Cheirogaleus 的模式与名称联接（2026-10-03）
+
+新增 crossleyi、major、medius、sibreei 各 4 节双语规范正文，共 16 节；读取 2014 年修订印刷页 25–29 四组形态与完整具名条目并视觉核对。保留 Crossleyi B／Major C／Medius B 的作者联接、major 推测产地、medius 类型机构原文 MNHM 写法及 sibreei 旧村名重建。Major C 东岸范围与 Mandena 旧名生态研究不自动等同，未重新鉴定旧个体；共享树洞为单次个人观察，非群居频率证据。组级形态不作所有个体诊断。沿用同一共享参考文献和四个新来源绑定；不改固定身份或生态数值。14 项缺口不变、关闭 0；测试、投影、提交及发布继续延后。
+
+## P5-108 — Tropeognathus：大型比较标本、组织学与翼展（2026-10-03）
+
+种页新增九节、属页新增两节双语导读，并新增十位作者的 2013 年共享引文；catalogue 与 atlas 指针和阅读来源同步。所读范围包括印刷页 115–116、119–124、126–132 的选定正文、鉴定讨论、翼展方法和表 I–III，以及来源首页和部分地质背景；另查看印刷页 113、116、126–127、130–131 图像。不是全论文或原始模式描述阅读。
+
+MN 6594-V 保留 Tropeognathus cf. T. mesembrinus 鉴定及未知确切采集点；结核中的缺失、变形和融合分开陈述。局部组织学只支持作者接近停止生长的解释。约 8.70/8.26 米翼展由比较补全及作者提出的 5% 缩减获得，不是完整翼尖实测或全种最大值。MCT 1838-R 与 MPSC R 1395 保留科级未定；原文 MCT 侧别矛盾不导入，表 III 与正文精度不同不独立裁决。“冈瓦纳最大”与 7.4 米巨型界线保留 2013 年比较范围。
+
+收据：data/sources/tropeognathus-large-specimen-reader-2026-10-03.json。14 项灵长类来源缺口未减少，固定分母 530 不变；全羊膜动物内容、完整专论、外审与读者交付未完成。按当前内容优先指令未测试、生成、提交或发布。
+
+## P5-109 — Anhangueridae 与 Tropeognathinae：材料阅读路线（2026-10-03）
+
+科页与亚科页各新增两节、Tropeognathus mesembrinus 种页新增一节双语导读，沿用 2013 年共享引文。新读印刷页 117–118 的图 1–3 完整图注与图像，明确灰色实存区域与补绘轮廓；此前鉴定、组织学与翼展方法保留 P5-108 范围。比较身体、孤立肱骨与部分翼不合并为同种个体，目录亚科路径不冒充论文标本鉴定或已解决支系定义。
+
+原文首页确认引文标题括号为 Pterodactyloidea, Anhangueridae；修正 P5-108 共享标题、元数据变体及属种绑定中误写的 Pterosauria，未改名称概念或分类树。收据：data/sources/anhanguerid-material-reading-routes-2026-10-03.json。全羊膜动物内容与 14 项灵长类来源缺口仍未完成；未测试、生成、提交或发布。
+
+## P5-110 — Ikrandraco：骨骼、摄食假说与名称更正（2026-10-03）
+
+种页新增十节、属页新增两节双语导读，共享引文补齐五位作者的 2014 年形态研究及 2020 年名称更正。读 2014 年 Results、Discussion、Methods 完整正文、表 1–2 和文字图注，以及 2020 年完整更正文；未看图像、补充矩阵或实物，未重跑分析。catalogue 与 atlas 章节和来源同步，旧采集引文来源段更新。
+
+2020 年更正指出 2014 年电子作品未提供所需 ZooBank 注册证据，名称不能从该作品取得命名可用性；更正注册与重述诊断分别保留。V18199／V18406 保存范围、未知确切层位、侧压、骨冠、最少牙数、翼部气孔和成体解释分开陈述。临时掠水、角质鞘、喉囊及气囊功能为作者假说，未创造完整翼展；图注 V18046 与正文 V18406 差异留待核对，不改目录分类或署名年份。
+
+收据：data/sources/ikrandraco-anatomy-nomenclature-reader-2026-10-03.json。全羊膜动物内容、14 项灵长类来源缺口、完整专论和读者端交付仍未完成；未测试、生成、提交或发布。
+
+## P5-111 — Plecturocebus stephennashi：模式材料、测量与推测产地（2026-10-03）
+
+4K5YG 种页新增五节双语导读，复用 2002 年引文并补齐三位作者、完整标题、卷期页码与期刊归档元数据。读原账户印刷页 15–18、表 2 五件 stephennashi 行和图 14–15；不是整篇 52 页综述或全部地图。英文页面的 topic/sourceIds 协议段移回 evidence 元数据，资料边界标题自然化。
+
+正模 INPA 4030、成年雄性副模 INPA 4031 及三件雌性材料保留各自角色，280/270 毫米头体长与 725/780 克属于具名圈养相关材料，不作物种平均或性别统计。模式产地未知，河间地分布为作者根据表型提出的推测；照片不裁决 COL/MDD 种界。2025 年原文正常 HTTPS 下载两主机均证书主体不匹配，未绕过验证；本批未重新全文复核该修订。
+
+收据：data/sources/stephennashi-type-material-reader-2026-10-03.json。4K5YG 保持开放，14 项来源缺口不减，固定分母 530 不变；全羊膜动物内容与交付未完成，未测试、生成、提交或发布。
+
+## P5-112 — Plecturocebus discolor：历史材料与未确认分布（2026-10-03）
+
+4K5Y5 种页新增四节双语导读，复用三位作者的 2002 年共享引文。完整读历史 Callicebus discolor 账户印刷页 12–13，并查看两页与图 9 的图像；未读 1848 年原始描述、全部地图或本批重新取得 2025 年修订全文。旧英文 topic/sourceIds 协议块移回 evidence 字符串元数据，保留值并自然化边界标题。
+
+正模皮张头骨“不在馆藏”限定为 2002 年账户报告，不作当前库存确认；Sarayacu 模式地点与图 9 未知产地雌性不是同一材料。白额、红手足与浅尾按历史概念记述，地图巴西延伸保留作者“待确认”，不映射到当前 COL 范围。接入 stephennashi 模式产地与既有 Yasuní／Tiputini 局地研究路线，分类冲突不裁决。
+
+收据：data/sources/discolor-historical-material-reader-2026-10-03.json。4K5Y5 仍开放，14 项缺口不减，固定分母 530 不变；全羊膜动物内容与交付仍未完成，未测试、生成、提交或发布。
+
+## P5-113 — 灵长类正文移除协议字段重复显示（2026-10-03）
+
+在 Primates 下逐项读取 catalogue-profile 和 index，定位 527 个 COL26.8 接受种目录仍将 topic/sourceIds 指向英文页面显示块。将 2474 个原值移回 evidence 前置元数据，移除对应重复标题与协议段；保留科学正文、来源键及章节顺序，catalogue-profile / limitations 标题改为自然语言。此次不是新的科学来源阅读或生物学内容完成证明；未新增或翻译科学事实，未提升评审状态。
+
+收据记录每个目录、COL ID、移回的原始字段值与修改前后文件 SHA：data/sources/primates-protocol-display-edit-2026-10-03.json。分类 index、范围、生态数据不变；仍存在正文标题优化、科学覆盖、生成导航与交付工作。14 项来源缺口不减，固定分母 530 不变；全羊膜动物目标未完成。按当前内容优先指令未测试、生成、提交或发布。
+
+## P5-114 — 灵长类双语正文标题自然化（2026-10-03）
+
+按当前 catalogue-profile 的章节指针逐项定位正文标题，513 个种页中 1891 个中英标题仍直接显示 topic 值。将这些标题改为自然语言，保留已有自然标题；只收紧正文标记外的多余空行。科学正文块、章节字段和顺序、evidence 及来源键、分类与范围、评审和成熟度均保持原值。
+
+收据记录完整标题映射、每个页面修改和前后 SHA：data/sources/primates-natural-reader-headings-2026-10-03.json。这是可读性编辑，不是科学覆盖或全物种专论完成证明；14 项来源缺口仍开放，固定分母 530 不变。全羊膜动物内容、生成导航与读者交付仍未完成；未测试、生成、提交或发布。
+
+## P5-115 — 灵长类群组导读字段展示与标题整理（2026-10-03）
+
+70 个现有群组导读中的 793 段 topic／sourceIds 展示文本移回 evidence 前置元数据，原值逐项记录；222 个直接显示 topic 的正文标题改为中英文自然标题，并整理正文标记外的空行。已有自然标题、科学正文、章节顺序与正文指针、来源绑定、分类与范围、评审和成熟度保持原值。保留各群组自己的分类来源和概念边界，不把补充导航概念重写为 COL 接受条目。
+
+收据：data/sources/primates-group-reader-editorial-2026-10-03.json；记录每个字段原值、标题修改、文件前后 SHA。此批只完成可读性编辑，没有重新审读全部群组的科学资料，14 项来源缺口和固定 530 分母不变；全羊膜动物读者内容、生成导航和交付仍未完成。按内容优先指示，未测试、生成、提交或发布。
+
+## P5-116 — 群组导读的单条记录与体重比较表述（2026-10-03）
+
+在 126 个现有灵长类 catalogue-profile 群组导读中定位单数语法与同值重复体重段落；修正 60 段英文单数语法，将 23 个群组的 46 段双语体重文字改为单个历史汇总值的说明。原有相同物种和体重值不再重复列成两个比较端点，明确不能据此确定群组体重范围或共有生活方式；保留数值、物种名、经性别调整的历史中位数限定与来源键。
+
+共修改 31 个群组、54 个读者文件。此批为既有记录的表述修正，没有重新读取 PanTHERIA 原始资料，也没有新增测量或群组范围推断。证据与参考文件、分类、范围、计数、评审状态保持原值；14 项来源缺口和固定 530 分母不变。收据记录逐段前后文字与 SHA：data/sources/primates-group-single-records-2026-10-03.json。全羊膜动物读者内容与交付仍未完成；未测试、生成、提交或发布。
+
+## P5-117 — Tupandactylus：矩阵取样与成像方法（2026-10-03）
+
+种页新增四节、属页新增一节双语导读，复用 2021 年六位作者共享引文。实际读取 Methods 的系统发育和 CT 分节、Results 的系统发育分节及图 15 文字图注；下载两套官方 TNT 补充文件，选读表头、相关分类行、性状 112／126 定义及有序编码与 hold 命令，不宣称完整矩阵审计。64／65 单元与 150 性状、132／469 棵最简树及 371／373 步保留分析各自范围，不作种数或概率。缺失身体编码不等于共享解剖，严格共识的多分叉不作姐妹群定论。成像段区分原扫描与分割、重采样、平滑模型。
+
+收据：data/sources/tupandactylus-matrix-imaging-reader-2026-10-03.json，包含 XML 与补充文件 SHA。旧的解剖、表 4 侧别分歧与数据库记录继续保留；来源绑定、atlas 章节与正文指针同步。未重跑树、检查 CT／实物或宣称专家评审；14 项灵长类来源缺口和固定 530 分母不变。全羊膜动物读者内容与交付仍未完成；未测试、生成、提交或发布。
+
+## P5-118 — Alanqa：正模改释与材料归属（2026-10-03）
+
+种页新增八节、属页新增两节双语导读，加入五位作者 2010 年原始描述和十位作者 2020 年 Kem Kem 研究的共享引文。选读原文正模、归入颌部、保存与尺寸、无齿形态及未定种颈椎材料；2020 年选读 Alanqa 完整介绍段、图 98 文字图注、总述相关段及 Xericeps 比较段。正模 FSAC-KK 26 的 2010 年下颌联合解释与 2020 年上颌吻部改释分别呈现，同一标本不作第二条出现。344 毫米保存长度、估补前端与借用比例颌长各有不同含义；FSAC-KK 34 未正式归种，约 6 米翼展不作已确认种级最大值。
+
+属级路线连接种页，CP 与 atlas 章节／来源同步。保留固定出现、采集、年代、身份和父链，不裁决类群位置或 Xericeps 异名；没有补齐全部后续分类文献、原图或实物。收据：data/sources/alanqa-type-reinterpretation-reader-2026-10-03.json，含来源 SHA 与阅读边界。14 项灵长类缺口和固定 530 分母不变；全羊膜动物读者内容与交付仍未完成。未测试、生成、提交或发布。
+
+## P5-119 — Xericeps：下颌正模与比较边界（2026-10-03）
+
+种页新增七节、属页新增两节双语导读，补入四位作者的 2018 年原始描述共享引文（2017 年在线）并复用 2020 年研究。实际选读官方接受稿第 1、3–8、13–18 页，以及 2020 年 Xericeps 两段介绍；接受稿页码和期刊 84:1–12 页码分开记录。173 毫米保存长度与约 200 毫米复原长度分别说明；约 3–8 米是宽泛尺寸类别，不作本种观测翼展范围或 8 米最大值。骨表面成熟判断、上弯颌缘、腹侧沟、骨孔、地面取食与更细亲缘各保留推断边界。
+
+连接 Alanqa 阅读路径；2018 年已提出上下颌解释与关系假说，2020 年可能异名仍需更完整材料。CP／atlas 章节和来源同步，固定出现、采集、年代与父链不变；没有复量、检查图像／全部表格或鉴定实物。收据：data/sources/xericeps-jaw-material-reader-2026-10-03.json，包含来源 SHA、版本、许可与范围。14 项灵长类缺口和固定 530 分母不变；全羊膜动物内容与交付仍未完成。未测试、生成、提交或发布。
+
+## P5-120 — Kem Kem：2023 年颌部与归属修订（2026-10-03）
+
+Alanqa 与 Xericeps 两个种页各新增三节、两个属页各新增一节双语导读，共八节；新增八位作者的 2023 年共享引文。实际选读期刊第 531–533、540 页及第 558 页颌部比较选段、第 559 页分类讨论，另核对首页与第 563 页许可，不称全文或标本审查。Alanqa 正模 2010 年下颌、2020 年上颌、2023 年暂定下颌的解释按年份保留；Xericeps 新增归入 FSAC-KK 5203，且 2020 年 Douira 与 2023 年 Ifezouane 产层表述并列。形态型 C 不当作已确认的 Xericeps 上颌；两个私人标本打印模型不当作两个原始个体。孤立身体骨骼、较早矩阵编码转述分歧与分类假说保留证据边界。
+
+CP／atlas 章节与来源同步；数据库计数、年代、父链和审评成熟度保留。收据 data/sources/kemkem-jaw-revision-reader-2026-10-03.json 保存来源 SHA、定位与未裁决事项。14 项灵长类缺口和固定 530 分母不变；全羊膜动物内容与交付仍未完成。本批未测试、生成、提交或发布。
+
+## P5-121 — Leptostomia：两段颌骨与探食假说（2026-10-03）
+
+种页新增八节、属页新增两节双语导读；新增五位作者的原始描述共享引文，按 Crossref／期刊第 118 卷记录 2021 年 2 月，保留数据库 Smith et al.（2020）与作者稿版本，另绑定 2023 年介绍。实际读取作者稿第 1、3–19 页、图注第 30–33 页，检查图 2、7 与表 1；2023 年选读 Leptostomia 标题和第 539–540 页介绍。正模上颌保存 48 毫米、副模下颌保存 67 毫米；约 70、35 毫米是各自缺失前端估计，不是完整实测喙长。两件归入同种的颌部不写成关联个体；骨表面成熟推断不写成精确年龄或翼展。探食保留功能类比假说，潜在猎物不当作确认食谱，缺失喙尖使远距触觉仍待新材料检验。
+
+亲缘分析、矩阵与扫描不重跑；其他图像、补充资料和实物未核齐，作者稿一般再分发许可未核实，Crossref TDM 链接不当作开放许可。CP／atlas 章节与来源同步，数据库计数、年代、父链与成熟度保留。收据 data/sources/leptostomia-probing-reader-2026-10-03.json 保存来源 SHA、定位与边界。14 项灵长类缺口和固定 530 分母不变；整体内容与交付未完成。本批未测试、生成、提交或发布。
+
+## P5-122 — Ludodactylus：头骨、叶片与舌骨推断（2026-10-03）
+
+种页新增七节、属页新增两节双语导读，绑定三位作者的 2003 年原始描述与三位作者的 2018 年舌骨研究。出版方原始 PDF 普通访问失败；实际通过第三方书籍 OCR 读取原始章节正模、保存、来源、诊断、颅骨、植物与讨论选段，未核原图或版面。2018 年实际读取官方 XML 中 Ludodactylus 比较、方法范围及 S1 表 SMNK PAL 3828 对应行。叶片形似 Yucca 等植物不作正式鉴定，误吞、喉囊、饥饿和感染不作确认死因；舌骨功能比较不作完整舌头、活动幅度或化石肌肉的直接保存。头冠切损与压扁保留，商业来源信息不作控制发掘。
+
+近期 2025 年 Araripe 综述已定位但官方正文未能读取，未计作完成复核；后续归入与分类仍待补齐。CP／atlas 章节和来源同步，固定数据库计数、年代、父链与审评成熟度保留。收据 data/sources/ludodactylus-skull-leaf-reader-2026-10-03.json 保存来源 SHA、OCR 访问方式与未解范围。14 项灵长类缺口和固定 530 分母不变；全目标与读者交付未完成。本批未测试、生成、提交或发布。
+
+## P5-123 — Bakonydraco：下颌、上颌与分离骨骼（2026-10-03）
+
+种页新增七节、属页新增两节双语导读，绑定 2005 年三位作者的原始描述与 2011 年三位作者的新增材料论文作者稿。实际读原始论文第 777–786 页相关正文及作者稿第 1–14 页；后者最终期刊元数据为 32(4):456–463、2011 年 8 月、DOI 10.1016/j.cretres.2011.01.011。正模 MTM Gyn/3 对应更新号 MTM 2007.110.1；副模与新增碎片分开，碎片数不作个体数。种页补约 29 厘米下颌、114 毫米上颌片段、骨质咬合与未知喙鞘、未定种颅后骨、2011 年尺骨改释、比较翼展及食性假说。
+
+图像实像、实物、一般再分发许可、后续分类修订未核齐；原文标本号／图号不一致与翼指骨段落归属不裁决。来源父链、计数、年代与成熟度保留，CP／atlas 章节和引用同步。收据 data/sources/bakonydraco-jaw-reader-2026-10-03.json 保存来源 SHA 和实际阅读范围。14 项灵长类缺口与固定 530 分母不变；整体内容与交付未完成。本批未测试、生成、提交或发布。
+
+## P5-124 — Thalassodromeus：头冠、掠水模型与材料归属（2026-10-03）
+
+种页新增八节、属页新增两节双语导读，新增 2002 年命名论文、2007 年掠水模型论文、2018 年重描述的共享引文。2002 年正文通过 RERO 的论文 PDF 网页提取读取，普通本地下载失败；2007 年实际读出版方 XML 的材料、阻力、能量、解剖和方法选段；2018 年读作者上传文章的类型／头骨、头冠功能、颌骨归属讨论和结论选段，未取代完整文献审评。
+
+1420 毫米包含头冠；635 毫米保存下颌与 710 毫米估计长度分开。头冠散热、展示与性别保留推断。掠水模型结论保留几何、入水、体重和能量假设，2007 年使用的旧归属颌骨不能当作本种正模直接测量；2018 年作者提出 T. oberlii 为另一种，未据此改固定名单。数据库 Late Aptian 范围、2002／2018 年 Albian 类型表述及地层术语各保留，分类父链与审评状态不变。CP／atlas 正文来源同步，收据 data/sources/thalassodromeus-crest-feeding-reader-2026-10-03.json 记录访问版本、SHA 与限制。14 项灵长类缺口、固定 530 分母不变；整体内容与交付未完成。本批未测试、生成、提交或发布。
+
+## P5-125 — Pterodaustro：过滤牙齿与分阶段生长（2026-10-03）
+
+种页新增六节、属页新增两节双语正文，新增 2008 年骨组织生长与 2023 年牙周组织研究两条共享引文，接到已有 2021 年幼体飞行模型。实际读 PMC 出版全文 HTML：2008 年科学正文、表 1、图说和 2023 年科学正文与图说；普通下载保留 SHA，Europe PMC XML 的 HTTP 500 不作为全文证据。
+
+MIC-V55 的十一张薄片属于同一件下颌；细丝是真正牙齿，沟内排列、牙齿附着、替换次数各有不同证据。滤食机制不确定实际菜单与过滤效率。2008 年多骨比较的比例是相对骨长度，周期年度性来自比较假设，性成熟来自生长变化推断；摘要／结论与讨论的后续生长年数不一致，正文保留数年而不裁决。旧飞行模型材料范围继续保留，未检全部图像、薄片、实物、原始数据或后续文献，未重跑模型。CP／atlas 正文来源同步；收据 data/sources/pterodaustro-teeth-growth-reader-2026-10-03.json。14 项灵长类缺口、固定 530 分母、数据库年代与父链不变；整体内容未完成。本批未测试、生成、提交或发布。
+
+## P5-126 — 企鹅：谱系材料与冰期种群历史（2026-10-03）
+
+18 个种页与 8 个类群入口新增 Cole 等（2022）的双语研究导读，逐条区分表 1 的种、亚种、地区谱系和近期灭绝材料，保留固定 COL26.8 名单。实际读 PMC 出版正文、27 行研究条目表与图说，新增全部 40 位作者的共享引文。四个 Gentoo 谱系分别保留，不平均成统一物种曲线；royal 的论文亚种组合、little／Megadyptes 的地区与灭绝材料、Chinstrap 的原拼写分别注明。
+
+有效种群规模与实际个体数量不同，历史曲线不能恢复最近几年；时间与突变率标定有条件。Aptenodytes 候选功能保留未作转录与逐项功能验证的限制。圈养 P. papua 的 365 纳米行为观察至少五只，不能推广为每种的野外感觉测量。论文 Eudyptes 正文九个现生条目与表 1 八个现生条目的计数差异不裁决；2022 年保护状态不导入为当前结论。已有迁移页中 topic／sourceIds 协议文本移回证据元数据，删除对应可见文本块，保留实际正文与来源。收据 data/sources/penguin-genomics-reader-2026-10-03.json 记录原始 HTML SHA、研究标签与协议搬移。未独立查图像、全部补充资料、原始基因组或重跑分析。14 项灵长类缺口、530 分母、分类与审评状态不变；整体内容未完成。本批未测试、生成、提交或发布。
+
+## P5-127 — 火烈鸟：单脚承重与平衡（2026-10-03）
+
+两种页与属、科、目入口新增 Chang 与 Ting（2017）的 14 个双语小节，依据实际读过的出版主文和两幅图说，新增完整两作者共享引文。两只成年 P. ruber 尸体的夹具承重与八只幼年 P. chilensis 的八次测力台采样分别保留；夹具支撑不等于尸体无外部支撑自行平衡，压力中心不等于重心，闭眼安静不等于脑电睡眠分期。近端支撑依赖几何条件，不能写成永久锁膝或活鸟不能双脚站立；省力解释仍缺直接肌肉与代谢测量，持续肌肉共同激活未被排除。原文近似施力数值带异常角度符号，不导入为精确牛顿值；代表图例与正文汇总不同，不合并成统一数值。图像、补充视频／解剖图与 Dryad 原始数据未独立检查或重跑。本批不推广到其他火烈鸟种、野外条件或成年活鸟。收据 data/sources/flamingo-standing-reader-2026-10-03.json 保留源 HTML SHA 与材料边界。旧正文、来源、目录身份、分类范围与审评状态保留；14 项灵长类缺口、530 分母不变，整体未完成。本批未测试、生成、提交或发布。
+
+## P5-128 — Aotus：模式追溯与异名意见的材料边界（2026-10-03）
+
+A. jorgehernandezi、A. brumbacki 与属导读新增 7 个双语小节，补模式 ICN 14023、早期照片重印、生殖隔离预测与名称可用性／接受种区别。实际读 2007 年命名文献首面书目信息与英文摘要及 59–61 页相关记述、表 2 文本和图说；2025 年只读出版社摘要及元数据，全文明示订阅，未作完整方法／图表复核。共享既有两条引文补完整两作者与五作者、精确标题、卷页与 2025 年发布日期，原始导入记录保留。2007 年正文 59 页重复 metacentric 与 60 页诊断 submetacentric、brumbacki 组成文表差异不裁决或转换成新共识。染色体重组与杂交不育是命名作者推断，没有该命名记述中的繁殖试验；照片或跨页重复引用不计新增个体。2024 年巢位不移植成未知来源模式的野外生态。协议可见块仅在内容与既有证据值逐项相符后移除，元数据保留。收据 data/sources/aotus-type-boundaries-reader-2026-10-03.json 记访问、SHA、样本与文献范围。A. jorgehernandezi 生态缺口仍开，14 项目标与 530 固定分母不变；分类、旧来源、局地正文及审评状态保留，整体任务未完成。本批未测试、生成、提交或发布。
+
+## P5-129 — 古颚类：基因组、失飞与实验层次（2026-10-03）
+
+十四种研究物种及二十四个类群入口新增 79 个双语小节：十三种现生 COL 页与一份 PBDB 小丛恐鸟页分开保留，类群入口含各自阅读路径。依据 Sackton 等人（2019）出版主文、四幅图说和图 1 图像，以及 Cloutier 等人（2019）实际读过的取样、所选方法和结果、完整讨论段落；后者未作全文逐段审评。共享参考新增完整十一作者、六作者论文及十份 NCBI WGS 主记录的数据库引文。新增十一份组装含十份现生材料和灭绝恐鸟，另三种沿用已有基因组；配套论文共享材料，不当作独立种群重复。恐鸟序列参考映射到鸸鹋；恐鸟与 A. mantelli 不在多基因组 CR1 插入筛查中。保留物种树／拼接树分歧、谱系分选及传统平胸鸟非单系解释，不修改目录分类。候选调控区加速不是失飞次数，开放染色质不是每段序列的直接功能证明；TEAD1 内含子单段报告结果保留鸡胚宿主、强／部分／无表达与实验次数，不能改写成美洲鸵或䳍自然飞行能力。图 3 与正文 P 值差异不导入为统一精确值，不宣称编码基因普遍无作用。其他图像、补充材料、原始读段与代码未独立检查或重跑。收据 data/sources/paleognath-genomes-reader-2026-10-03.json 保留源文件 SHA 与材料边界。旧正文、目录身份、来源、分类范围及审评状态保留；14 项灵长类缺口与 530 分母不变，全部羊膜动物目标尚未完成。本批未测试、生成、提交或发布。
+
+## P5-130 — Cebus：旧名称与可追踪材料（2026-10-03）
+
+cesarae、brunneus、leucocephalus 三种页与 Cebus 属入口新增 12 个双语小节，依据 Martins-Junior 等人（2018）的出版主文所选分子方法、Cebus 结果／讨论、图 4 图说和补充表 S1 第 10、12、13 页；表格第 10、12 页已看图核对。新增完整五作者共享引文。明确 cesarae 相关支系第 138 行仍为 C. a. spp.，第 141 行明确标签与左栏 cesarea 拼写分别保留；leucocephalus 第 146 行的样本与 adustus 关联不是当前占域或目录同物异名裁决；brunneus 两份材料和 trinitatis 的关联仍有多分叉、外形差异与取样不足，未重定名称承载模式，也未判定岛上迁入来源。两个线粒体标记不是独立核证据，全研究 72 只／137 新序列不移作三种页的个体数。C. malitiosus 保留原有独立来源，不新增无对应材料的物种小节。2012 年原站 500、后期机构稿件 403，未取得原文或猜造新引文；此次不声称重读它们。其余补充表页、图 4 图像、原始序列与馆藏实物未独立检查或重跑。收据 data/sources/cebus-sample-links-reader-2026-10-03.json 保留源文件 SHA、实际审读范围与材料限制。旧正文、来源、目录分类、范围和审评状态保留；本批关闭 0 项缺口，14 项／530 分母不变，全部羊膜动物目标尚未完成。未测试、生成、提交或发布。
+
+## P5-131 — bernhardi：骨架、外观与观察地点（2026-10-03）
+
+P. bernhardi 与 Plecturocebus、Callicebinae 入口新增 9 个双语小节，沿用已完整三作者的 2002 年原始描述共享引文。实际读取第 24–27 页 bernhardi 科学正文及第 28–30 页图说，并看图核对第 25、26 页和表 3。性别不明成年正模 INPA 3929 骨架、两份幼年获得后饲养的雄性副模 INPA 4029／4033，获得与死亡日期分别保留；“显然自然死亡”不作独立尸检结论。颜色组合、黑尾白末端与少数材料的适用范围明确；表 3 单件颅骨最大颅长 64、髁基长 53、颧宽 40 毫米不作种级范围，重复行不加倍样本。Nova Olinda 等明确观察与 Pimenta Bueno 待确认鉴定分开，原文异常角秒不猜改或制图。受扰动林观察缺群数与取样强度，产果树种不是直接食谱，鸣叫不是校正密度。此前 discolor、stephennashi 页已有 2002 类型材料，未重复写；2025 年修订旧查询及直链均 404，停止重试，不声称全文新审读。收据 data/sources/bernhardi-materials-reader-2026-10-03.json 保留实际读文／图像范围与源 SHA。旧正文、来源、目录身份、范围和审评状态保留；14 项首轮缺口、530 分母不变，全部羊膜动物目标尚未完成。未测试、生成、提交或发布。
+
+## P5-132 — 鳄类：皮肤触觉、多类刺激与发育（2026-10-03）
+
+美洲短吻鳄、尼罗鳄、眼镜凯门鳄三种页及六个属／科／目入口新增 25 个双语小节。新增 Leitch 与 Catania（2012）、Di-Poï 与 Milinkovitch（2013）完整双作者共享引文，实际读取 PMC 出版 HTML 的具名材料、所选方法／结果／讨论，以及图 11、图 3 和图 5 图说。两论文样本、神经单元、感受野、各实验子样本与胚胎分开，未将计数相加成动物总数。0.078 毫牛顿为设备最小校准力，部分真实阈值仍未定；短吻鳄没有颅后 ISO 不等于没有体表触觉。局部温度反应不是栖温或致死界限，酸碱反应不是识别所有化学物质；盐液阴性结果不证明动物无法感知盐度，舌盐腺直接感知仍为待检假说。胚胎时序限定 29.5°C 培养条件；水族箱行为不作野外捕食率。未独立看图、补充视频、全部表格、原始数据或重跑，无全篇或专家审评声称。收据 data/sources/crocodile-sensory-reader-2026-10-03.json 保存来源 SHA 与实际读文索引。五个属／科引言分别按实际取样种组织，九页补 ISO 首次释义。四份英文旧页的 32 个 topic／source-key 可见块从证据实际指针取值后移回元数据；中文原先没有对应协议块，未猜造第二份值。旧科学正文、来源、分类、范围及成熟度保留，14 项灵长类缺口、530 分母不变，全部羊膜动物目标仍未完成。本批未测试、生成、提交或发布。
+
+## P5-133 — 恐手龙：组合骨架、胃内容物与推断（2026-10-03）
+
+Deinocheirus mirificus 新增八节，属／科／Ornithomimosauria 入口各新增两节双语正文，共 14 节，新增 Lee 等（2014）完整八作者共享引文。实际读机构在线先行 PDF 主文第 1–4 页及扩展图 1–7、表 1 图说，并看图 1、图 4、扩展图 7。正模与两份归入标本、比例放大组合骨架、追回趾骨的相合图说各保留证据角色。1024 毫米颅长、8.5 倍椎棘比、11 米复原和 6358 千克估计各按对象／方法阅读，体重不是称重，慢行与湿地承载不作实测速度。超过 1400 枚胃石和原位鱼遗存支持杂食解释，不提供食谱比例；图中问号碎片不全部确定为鱼。角质喙、舌／吸入、背部形状与尾扇羽毛保留推断，不能扩展成专性水生。568 字符／96 单元／六棵最简约树与 PBDB 当前成员分开，不改目录分类或年代。最终卷期页码来自 Crossref，先行 PDF 页码不冒充最终版布局；表 1 数值、其他图像、线上 Methods、补充矩阵与测量表、实物和后续文献未独立审齐或重跑。收据 data/sources/deinocheirus-skeleton-diet-reader-2026-10-03.json 保存源 SHA、版本与读文范围，无专家审评声称。14 项灵长类缺口、530 分母不变，全部羊膜动物目标仍未完成；本批未测试、生成、提交或发布。
+
+## P5-134 — 北山龙：归入材料、生长与体重估算（2026-10-03）
+
+Beishanlong grandis 新增七节，属、Ornithomimosauria 与 Deinocheiridae 比较入口各新增两节双语正文，共 13 节；新增 Makovicky 等原描述完整六作者共享引文。实际读 PMC 出版科学主文及五幅图说，在线 2009-04-22 与正式期次 2010-01-22 分开，书目取期次 277(1679):191–198，不改名称作者年份。关联部分颅后正模、无号后肢和疑似耻骨不合并成完整骨架，灰泥岩／红层及原文 Xinminpu／数据库 Xiagou 表述分别保留。右腓骨 13–14 条假定年度生长线、外层结构及未融合骨缝支持接近体成熟仍在生长；young adult 与 subadult 原文标签保留，线数不冒充精确寿命。626 千克为股骨公式估计，不是成年上限或直接称重；比较种测量端点与方法不同。缺头骨材料不借亲缘种无齿喙、胃内容物或食谱。比较小节另显式绑定此前已读的 2014 年共享引文，不重复算北山龙样本。较早 293 字符／72 单元结果、恐手龙 2014 年矩阵与 PBDB 父链分开，未重排分类。图像、薄片、补充表／矩阵、原始数据未独立查验或重跑，无完整种志／专家审评声称。收据 data/sources/beishanlong-growth-reader-2026-10-03.json 保存来源 SHA、读文范围与日期层次。旧来源、范围和成熟度保留，14 项灵长类缺口、530 分母不变，全部羊膜动物目标仍未完成；本批未测试、生成、提交或发布。
+
+## P5-135 — 中国似鸟龙：泥陷骨床、年龄取样与群居解释（2026-10-03）
+
+Sinornithomimus dongi 新增八节，属、Ornithomimidae 与 Ornithomimosauria 各新增两节双语阅读介绍，共 14 节；新增 Varricchio 等 2008 年完整六作者共享引文。实际读出版 PDF 567–576 页科学正文、表 1–2 与图 1–5 图说，查看 570 页表 1、571 页图 3 和 573 页图 4；参考文献表、2003 年原始描述和其他引用研究未全新逐篇复核。此前 14 个个体、13 具新发掘关联骨架、三只组织学取样分母分开；12/13 深陷姿态、缺骨与朝向共同支持局部泥陷群死解释，p < 0.002 只针对朝向。LH PV5 胫骨为层状骨带而非实际 LAG，较大个体胫／腓骨四线与肋骨七线、可能重塑、最低年龄和年度假设分别保留，不写精确寿命。未成熟聚集不是亲子身份或成体筑巢照护的直接观察，也不是通常死亡率或全种群普查。胃石与碳化内容物用于保存讨论，不捏造植物种食谱；下伏火山最大年龄约 92 Ma 与数据库层位区间并列，不重算测年。书目日期仅确定到 2008 年 12 月，不造日期；Jeffery byline/Crossref 与 Jeffrey affiliation 拼写差异保留。收据 data/sources/sinornithomimus-miring-sociality-reader-2026-10-03.json 保存源 SHA、取样边界与读文范围。分类、出现数据、成熟度和旧引文保留；14 项灵长类缺口与固定 530 分母未改变，全部羊膜动物目标仍未完成。本批未测试、生成、提交或发布。
+
+## P5-136 — 帝企鹅：局部群聚运动与取暖解释（2026-10-03）
+
+Aptenodytes forsteri 新增六节，属、Spheniscidae 与 Sphenisciformes 各新增两节双语入口，共 12 节；新增 Zitterbart 等 2011 年完整四作者引文。实际读三页出版论文全文、图 1 图说与三个补充影片说明，查看第 1–2 页含图 1 图像，未观看影片或重提取轨迹。2008-08-03 Neumayer 附近约 2,000 繁殖群、四小时／每 1.3 秒记录，与完整个体跟踪样本分开。−33 至 −43°C 为气温，8.3 米／秒为当地最大风速，不借引言其他研究作本次体温、禁食和代谢测量。30–60 秒小步、5–10 厘米步幅、约 12 厘米／秒波速及约 21 只／平方米均属局部观察；不作普遍节律、最高运动速度或全物种密度。近六角邻接、整体运动与后缘进／前缘出不冒充每只固定轮班或热量公平证据；领导等级、因果协调及节能百分比仍未直接建立。拥挤、玻璃态与相变保留为解释类比，其他遗传、历史性状和评估材料独立。收据 data/sources/emperor-penguin-huddle-reader-2026-10-03.json 保存来源 SHA 与限定窗口。保留旧正文、引文、分类、范围和成熟度；14 项灵长类缺口与固定 530 分母不变，全部羊膜动物目标未完成。本批未测试、生成、提交或发布。
+
+## P5-137 — 伶猴：Naturalis 模式身份与跨馆报告（2026-10-03）
+
+Plecturocebus discolor、P. cupreus、P. donacophilus 各新增三节，属与 Callicebinae 各两节双语材料比较／阅读路线，共 13 节；新增 van der Mije、Smeenk、Kamminga 2025-06-20 ZooKeys 1242:1–164 完整三作者引文。实际读首页、介绍／方法及命名问题选段（3–4、6–8 页，未读第 5 页）、49–50 页三种条目和续文，并查看后两页版面。目录明确否定 1873 年 Verreaux 来源 RMNH.MAM.39087 是 1848 年 discolor 的类型；巴黎 holotype 与 Tabatinga 是援引 Rode 1938 的报告，与 2002 年遗失／Sarayacu 表述分开，未实时查库或裁定巴黎全系列。cupreus 成年雌性 39086 为副选模式，Spix 方括号行程、1820 年到达日、1824 年清单和现存雌性不互换；外馆系列为引文，不新查全部库存。donacophilus 两合模年龄／性别分别保留，图版 1835／表 2 的十月解释与后续 1847 年描述、数据库名称作者年份分开，不改固定分类。名称模式与局地野外研究材料未独立联接；六月 Naturalis 目录不是另一 2025 年西北伶猴修订全文，discolor 首轮缺口未关闭。未全读 164 页、标本／原标签／原版分册或全部引文，无外部专家审评。收据 data/sources/titi-naturalis-types-reader-2026-10-03.json 保存源 SHA 与类型状态边界。旧来源、出现数据、分类和成熟度保留；活动缺口 14、分母 530 不变，全部羊膜动物目标未完成。本批未测试、生成、提交或发布。
+
+## P5-138 — 红疣猴：柏林模式材料与历史原名（2026-10-03）
+
+Piliocolobus lulindicus 新增三节，foai、bouvieri、preussi、gordonorum、oustaleti 各两节，Piliocolobus 与 Colobini 各两节双语比较／阅读路线，共 17 节、8 个档案。新增 Hendrik Turni 2024-12-03 Zootaxa 5543(2):151–194 完整单作者引文。实际阅读 PDF 1–3 页方法、27–28 页全部红疣猴条目并查看后两页版面；未全读 44 页或新读原始描述。lulindicus 32739 为成年雌性正模，同地雄性 33199／33200 被作者排除副模身份；kabambarei 单模定型的雌性皮张未找到，与 foai 1899 年原名类型分开；likualae 两只幼年雌性副模对应五个部位号；preussi 仅列无日期雄性皮张；gordonorum 不完整皮张及原两件材料运输损失分开；umbrinus 正模三部位为一只雄性，五个副模部位号为三只动物。目录有效名与固定 COL 身份不互改，未新查实物、标签、外馆全系列或实时库存，未独立联接野外概念。lulindicus 首轮缺口未关闭，活动缺口 14、分母 530 不变。收据 data/sources/red-colobus-berlin-types-reader-2026-10-03.json 保存源 SHA 与边界。旧正文、来源、范围、分类、索引和成熟度保留；全体羊膜动物目标未完成，本批未测试、生成、提交或发布。
+
+## P5-139 — Balaenognathus：细齿过滤的观察与模型（2026-10-03）
+
+Balaenognathus maeuseri 新增七节双语原始描述导读，属、Ctenochasmatidae、Euctenochasmatia 各两节比较／阅读入口，共 13 节、4 个档案。新增 Martill、Frey、Tischlinger、Mäuser、Rivera-Sylva、Vidovic 2023-01-21 PalZ 97(2):383–424 完整六作者引文，六月印刷月另记。实际读出版社 HTML 的发现／地质／方法／埋藏／系统描述与诊断／头骨齿列及软组织／系统关系／古生态／结论选段，图 7、17、21–24 图注；未查看图像像素、全读 42 页 PDF 或脊柱翼骨盆后肢细节／补充矩阵。单件正模 NKMB P2011-633 的 17 石板碎块、至少 480 齿和骨长翼展约 1.17 m 分别计量；铲状无齿前缘、钩尖齿观察与浅水被动悬浮／口咽泵吸模型分开，不声称胃内容物或亲见行为。弃石发现后的岩性第 12 层归属、原文两处不同年代口径和 PBDB 152.21–149.2 Ma 分别保留。少量翼膜残迹、压扁／修复和弱系统支持均限定，无实物／流水实验／矩阵复算或专家审评。收据 data/sources/balaenognathus-filter-reader-2026-10-03.json 保存四源 SHA。原出现数据、索引、分类与成熟度保留，14 个灵长类缺口／530 分母不变，全部羊膜动物目标未完成。本批未测试、生成、提交或发布。
+
+## P5-140 — Liaodactylus：梳状齿列与早期滤食解释（2026-10-03）
+
+Liaodactylus primus 新增六节双语原始描述导读，属、Ctenochasmatidae 与 Euctenochasmatia 各两节比较／阅读路线，共 12 节、4 个档案。新增 Zhou、Gao、Yi、Xue、Li、Fox 2017 年 Royal Society Open Science 4(2):160672 完整六作者引文；PMC 发表日 2 月 1 日与 Crossref 二月精度分别记录。实际读原文全部主要科学段落与图 1–3 图注，未查看图像像素、补充矩阵、全部引文或实物，也未复算系统与统计。PMOL-AP00031 是头骨／下颌／前两颈椎，133 mm、49.1% 吻长与 152 齿均为作者本件数值，不推全身尺寸；密集梳齿滤食推断与比较类群食物名单、胃内容物分开。原文约 160 Ma 及所引髫髻山组测年与 PBDB 161.5–154.8 Ma 不合成精确个体日期，“最早记录”限定 2017 年判断。系统数据 113 种／224 性状与食性形态 89 种／34 性状／十预设类分别计量，不当亲见进食或本种种群样本。三上级入口结合 P5-139 已读 Balaenognathus 原文选段比较齿列和材料，不移用泵吸模型；属页新增既有 2023 年引文绑定，其余两类群沿用既有绑定，不重复建文献。收据 data/sources/liaodactylus-cranial-filter-reader-2026-10-03.json 保存四源 SHA。出现数据、分类、索引与成熟度保留，14 个灵长类缺口／530 分母不变，全羊膜动物目标未完成。本批未测试、生成、提交或发布。
+
+## P5-141 — Cat Ba 与 ebenus：新基因组、复用样本和适应候选（2026-10-03）
+
+Trachypithecus ebenus 新增三节、T. poliocephalus 五节，属与 Presbytini 各两节双语比较／阅读路线，共 12 节、4 个档案。新增 Zhang 等 2024-10-02 Nature Communications 15:8531 完整 23 作者引文。实际读摘要、采样／核树／多样性与 ROH／选择变异结果、北部系统关系及高钙／潜在咸水讨论，及对应方法选段；未全读遗传负荷章节、补充表／原始数据／视频或图像像素。Cat Ba 四野生个体为 2012 两转移雌性血样、2015／2018 两已死亡幼体组织，跨三亚群，不是普查。比较 23 个既有个体、九种中 ebenus 仅一份 PRJNA488530 复用序列，未独立追查名称模式／野外照片对应；7.09 Mb 最长 ROH 是单个值，北部三种群体检验不迁到 ebenus。Cat Ba 钙相关 92 基因类别有重叠、钠相关 22 基因 30 变异与四样本 CDH26 提前终止均为初步机制候选，不给耐盐阈值或全种固定证明。现有分类、范围、成熟度与出现资料保留，不据 2024 数量更新当前保育状态。收据 data/sources/langur-catba-genomic-reader-2026-10-03.json 保存三源 SHA。ebenus 首轮概念联接仍开放，活动缺口 14、分母 530 不变，全部羊膜动物目标未完成；未测试、生成、提交或发布。
+
+## P5-142 — ebenus 原基因组样本来源（2026-10-03）
+
+新增 ebenus 三节、Trachypithecus 与 Presbytini 各两节双语正文／路线，共七节、三个档案，并修订此前 ebenus 的复用样本来源段落。实际读取 2020 年 MBE 37(4):952–968 原研究采样／重测序与 CACNA1C 功能结果、方法选段及补充 PDF 第 3、18、19 页，完整表 S16 和第 19 页图像；未审阅全篇、其余补充章节、视频、工作簿、原始读段或实物。完整 21 作者引文区分 2019-12-21 在线与 2020-04-01 卷期日期。表 S16 的 ebenus 2019B001 来自南通动物园，国家栏 Laos，野外地点“–”；两种各八个与七个单样本合计 23 个，不把梧州雄性参照来源迁到所有材料。细胞／蛙卵通道实验不是活体 ebenus 耐钙测定。材料编号有所补足，模式／野外照片概念联接仍缺，14 个活动缺口与 530 分母不变；全部羊膜动物目标未完成。收据 data/sources/limestone-langur-sample-reader-2026-10-03.json 保存六个源文件 SHA。未测试、生成、提交或发布。
+
+## P5-143 — 补无正文条目：tristrami 繁殖研究（2026-10-03）
+
+对七批资料以外的 7173 个固定 COL26.8 ID 进行当前分类路径／正文标记选题清点：本批写作前 368 个已有 index，365 个具中英 catalogue-profile 正文标记，6808 个缺一方或双方此类标记。它不是正文质量、来源不足、全范围覆盖或运行交付结论，逐项记录 data/sources/col-unrepresented-reader-intake-2026-10-03.json 保留待来源取用队列。由当前无目录正文的 DD8T4 Hydrobates tristrami 开始，新增六节双语局地研究页、Hydrobates 与 Hydrobatidae 各两节比较／路线，共十节，新增种级 index／evidence／双语正文和投影输入映射。
+
+实际读 McClelland、Jones、Lavers、Sato 2008 Marine Ornithology 36(2):175–181 科学正文 PDF1–6、表1–3与图说，查看 PDF3–4 图表版面；未逐读引用文献、原始巢记录、统计或已下载但未阅读的学位论文。完整四作者取 PDF，出版日 2008-10-15 取期刊元数据，Crossref 年份与缩写作者单独保留。Laysan 2003–2005、French Frigate Shoals 2005–2008（East 仅 2005）巢检、孵化／离巢／繁殖成功分母与洞穴竞争分别限定；摘要 Tern2006 的 0.61 和结果 0.62、Tern2005 结果 n86 和表2 n87 保留未解。历史巢密度／计数估计、借用死亡率与初繁年龄的替代模型不作当前全种数量或下降证明。来源及实际读文边界见 data/sources/tristrami-breeding-reader-2026-10-03.json。未计完整自然史或专家审评，14 个灵长类缺口及 530 分母不变，全部羊膜动物目标未完成。未测试、生成、提交或发布。
+
+## P5-144 — Ammospiza 四种历史性状与旧属名对应（2026-10-03）
+
+新增固定 COL26.8 的 9G43T caudacuta、9G74X nelsoni、CVHD maritima、CVHC leconteii 四种各五节双语历史性状导读，新增 Ammospiza 属三节与 Passerellidae 两节，共二十五节。实际读 AVONET v7 的 AVONET1_BirdLife 6373–6376 行、Metadata 定义、BirdLife–eBird 504–507 行和 BirdLife–BirdTree 507–510 行，并读本地 COL 名称分片的接受／异名记录。原表 BirdTree 对应旧 Ammodramus 组合，均标一对一；COL 异名 CTKZ／CTL4／CTL5 分别指向 caudacuta／leconteii／maritima，nelsoni 旧组合未在已读分片找到，不伪造异名或完整概念等同。此前同名严格筛选记录不改写。
+
+四行形态样本分别为 10／11／9／6，完整测量 9／9／8／6；体重均为 Dunning 文献汇编，样本分母与形态分开。生态位、营养级、栖地密度与迁移按原定义分别读；不推算行为路线、速度、当前保护或全域地图。没有逐个原始测量、Dunning 原书、新阅读全文方法论文或专家审评，不计完整专论。复用既有 AVONET v7 共享引用；来源原行与边界见 data/sources/ammospiza-avonet-name-reader-2026-10-03.json。
+
+7173 条未入七批资料队列仅按新增四种更新：累计 373 个 index、370 个双语 catalogue-profile 正文标记、6803 个仍缺一方或双方标记；这是原观察加 P5-143／144 五种的增量，不是全库正文审评或来源不足结论。14 个灵长类缺口与 530 分母不变，全部羊膜动物内容目标仍未完成。测试、生成、提交与发布待全部内容完成后统一处理。
+
+## P5-145 — Spatula 十种历史形态、生态与名称路径（2026-10-03）
+
+新增固定 COL26.8 的 Spatula 十种，每种四节双语导读，新增属三节、Anatidae 两节，共四十五节。实际读 AVONET v7 BirdLife 396–405 行、eBird 9727–9736 行、BirdTree 9667–9676 行与相关 Metadata 定义；形态非近缘种推算、Dunning 体重来源与两个一对一表对应分别保留。旧 Anas 组合的八个 COL 异名指向本批接受 ID；cyanoptera、versicolor 旧组合未在已读 ana／sp 分片找到，保留来源表映射，不补假异名或完整概念等同。
+
+测量样本 4–8 只，其中 smithii 四只性别未定；完整测量数与总样本分别记载，Dunning 体重不套形态分母。puna 与 versicolor 原行体重同为 595.21 g，未读原书或原始记录解释相同数字；不静默修正。食物生态位与营养级不同定义，保留 clypeata、querquedula 等双列差异；湿地开放代码不是种群密度，迁移代码不是个体追踪，喙宽不是滤食效率实验。未解释地理字段、当前保护、繁殖与寿命，未有专家审评或完整专论。来源行、COL 名称记录、哈希和边界见 data/sources/spatula-avonet-name-reader-2026-10-03.json。
+
+来源选题在此前七批资料外的固定队列中找到 1075 个当前无物种目录、AVONET 形态非推算且 Dunning 体重与两表一对一的候选；仅来源可用性，不是概念完全等同或已写内容。本批新增十种后，原 7173 队列的增量为 383 index、380 双语 catalogue-profile 标记、6793 缺一方或双方标记；未重审全库正文。14 个灵长类缺口、530 分母及全部羊膜动物目标仍保留，测试、生成、提交与发布待全部内容完成后统一处理。
+
+P5-145 候选选题记录保存在 data/sources/avonet-name-crosswalk-intake-2026-10-03.json：原观察 1075 条保留 BirdLife、eBird、BirdTree 行号与名称，已写十种另列跟进；未逐条审评所有候选的分类概念或内容质量。
+
+## P5-146 — Pternistis 24 种的历史来源与推算边界（2026-10-03）
+
+新增固定 COL26.8 的 Pternistis 24 个接受种，每种四节双语导读，属四节、Phasianidae 两节，共 102 节。实际读 AVONET BirdLife 2504–2527 的所用形态／体重／生态字段、eBird 8730–8753、BirdTree 8685–8708 与相关 Metadata 定义、COL fr／pt 名称分片的接受和异名行。21 条为非推算形态、Dunning 体重和两表一对一选题；另外 castaneicollis 与 atrifrons 在 BirdTree 共享旧 Francolinus castaneicollis 概念，atrifrons 七项形态字段推算且体重 DataFromSplit，harwoodi 单只雄鸟、尾长推算，逐页分开。来源原行与哈希见 data/sources/pternistis-avonet-name-reader-2026-10-03.json。
+
+swierstrai 一只雄鸟、nobilis 两只雌鸟、其他单性别与完整测量数均保留；形态总样本不套体重文献分母。24 行共同 Terrestrial／Migration1 不推成不能飞、每个体终生不移动或所有物种食物相同。森林、灌丛、疏林、草地和密集／半开放／开放分别按原字段读，生态位与营养级不互相改写。未读原始标本、Dunning 原书、新完整方法论文；未补繁殖、羽色识别、当前分布／保护状态或专家审评。24 个历史资料页是属内导航覆盖，不是 24 篇完整自然史专论。
+
+原 7173 队列增量现为 407 index、404 双语 catalogue-profile 正文标记、6769 缺一方或双方标记；仅原观察加 P5-143–146 已写 39 种，不是全库正文审评或来源不足计数。1075 来源候选选题记录增加 21 条实际写作跟进，另三条推算／旧概念条目分别保留，原严格选题不放宽。14 个灵长类缺口、530 分母及全部羊膜动物目标仍保留；测试、生成、提交与发布待全部内容完成后统一处理。
+
+## P5-147 — Psilopogon 十七种旧属名与食果资料（2026-10-03）
+
+新增固定 COL26.8 的 Psilopogon 十七种，各五节双语导读，既有属新增三节、Megalaimidae 两节，共 90 节。实际读 AVONET v7 BirdLife 9676–9707 内所选十七行的形态／体重／生态字段及各自 eBird、BirdTree 名称表，行号完整保留在 data/sources/psilopogon-avonet-name-reader-2026-10-03.json。旧 Megalaima 对应均一对一，已读 COL meg／psi 分片找到十五个相关旧异名；faber、nuchalis 未找到该旧组合，保留表映射边界，不造目录异名。既有 pyrolophus 的单条记录数、来源和成熟度保留，属／科旧重复端点段改为单条来源解释，不据此定群级体重范围。
+
+形态总样本 4–11 只与完整测量鸟数、性别未定数分开；Dunning 体重不套形态分母。faber 与 nuchalis 同为 87.69 g 原因未查原书，不静默更改；食果生态位与 Herbivore／Omnivore 营养级分别阅读。haemacephalus 疏林／半开放与其余所选森林／密集植被不同；停栖、留居类别不写成个体路径、不能飞或全科共有生态。未补原始标本、原书、新阅读全文方法论文、鸣声、羽色、巢洞繁殖、当前地图／保护状态、种子传播实验或专家审评，不计完整自然史专论。
+
+原 7173 队列只按十七个新增物种递增，现为 424 index、421 双语 catalogue-profile 标记、6752 缺一方或双方标记；原观察加 P5-143–147 五十六种，不是全库正文审评或来源不足计数。1075 来源候选另加十七条已写跟进。14 个灵长类缺口、530 分母及全羊膜动物目标仍保留；测试、生成、提交与发布待全部内容完成后统一处理。
+
+
+### P5-148：卷尾猴文献 DOI 与书目信息修正（2026-10-03）
+
+- Ruiz-García 等（2010）的旧 DOI `10.1016/j.ympev.2010.08.025` 实际指向 Rhinella 蟾蜍论文。依 Crossref 原始记录修正为 [白额卷尾猴 mtCOII 论文](https://doi.org/10.1016/j.ympev.2010.09.002)：Molecular Phylogenetics and Evolution 57(3)，1049–1061，2010 年 12 月。
+- 补齐 Crossref 顺序中的 7 位作者，保留给名缩写；共享引用 ID 不变，原始错误导入留在 variant 0，Cebus、C. cesarae 与 C. leucocephalus 的当前来源绑定改用修正版 variant 1。既有历史来源需求快照不重写，纠错收据标明旧绑定。
+- 本批只修正书目及当前引用，不新增全文、生态或现代物种概念证据；530 种灵长类的固定分母及 14 个待补证缺口不变。测试、验证器、生成、提交与发布继续按全部内容完成后的统一步骤保留。
+
+## P5-149 — Geokichla 十四种旧组合与样本差异（2026-10-03）
+
+新增固定 COL26.8 的十四个 Geokichla 物种，各五节双语导读；既有属新增四节、Turdidae 两节，共 76 节。实际读 AVONET v7 BirdLife 8546–8566 内所选十四行的形态、文献体重与生态字段及对应 eBird／BirdTree 行，原行与定义保留在 data/sources/geokichla-avonet-name-reader-2026-10-03.json。十三个逐字旧 Zoothera 组合可由已读 COL ge／zo 分片异名查回；来源 Zoothera camaronensis 与目录 Zoothera cameronensis 拼写不同，保留差异，不静默改名。
+
+oberlaenderi、dumasi、mendeni、joiceyi 各仅一只形态鸟；erythronota 23 只但仅 4 只完整测量，19 只性别未定，gurneyi 14 只、9 只完整。Dunning 体重不套形态分母；dumasi／joiceyi 同 49.49 g、mendeni／erythronota 同 56.32 g 的来源原因未核原书。guttata 的 Omnivore 生态位、四行 Omnivore 营养级、cinerea／wardii 的 Generalist 与两行半开放密度均单独解释；迁移五条代码 1、五条代码 2、四条代码 3 不由翼指数替代。既有 citrina 生活史入口及群级历史计数保留。
+
+未补当前地图、保护、原标本、原书、新完整方法论文、实测食谱、繁殖、鸣声羽色或专家审评，不计完整自然史。原 7173 观察队列加本批十四种后为 438 index、435 双语 catalogue-profile 标记、6738 缺一方或双方标记，仅原观察加七十种增量，不是全库正文审评或来源不足总数。1075 来源候选增十四条跟进；14 灵长类缺口、530 分母与全部羊膜动物目标不变。测试、生成、提交与发布继续待全部内容完成后统一处理。
+
+P5-149 回读同时修复近期 P5-143–147、149 收据列出的 82 个规范页面共 155 处来源绑定，补齐编译器重建来源所需的 originalFields。Pternistis 的 26 个页面中，同一条带冒号英文范围文本恢复正确 YAML 引号；Tristram 论文保留 importedMetadataVariants，并无损补入编译器读取的 importedSourceMetadata。参考 ID、原版本、正文与成熟度保留；旧收据哈希代表修正前状态，新修正记录 data/sources/recent-reference-fields-correction-2026-10-03.json 记修正前后哈希。本次为编辑修复与回读，没有运行生成、测试、验证器或发布，不能据此声明全库构建通过。
+
+## P5-150 — 共享来源版本字段与既有阅读绑定修正（2026-10-03）
+
+沿 P5-149 已确认的编译契约修复共享引用：63 个记录仅有 importedMetadataVariants，现保留旧字段并补入 importedSourceMetadata，不修改科学内容、版本序号、参考 ID、作者或成熟度。Dyke 2013 的旧整条引用记录仍完整保留；编译字段不含 id，来源身份由绑定 sourceKey 给出，遵守既有 bind() 的分离规则。
+
+根据 91 份 2026-10-02／03 的既有 reader 收据定位 859 个规范路径，只修改其中 179 个 evidence.md 内缺失字段清单的 322 个绑定。收据列明文件、修正前后哈希与字段清单，见 data/sources/reference-variant-fields-correction-2026-10-03.json。这不是全库验证或新的论文、书目与分类审评；未将来源版本兼容修复计为新增物种正文或缺口关闭。
+
+回读 41 种字段清单形式和各修正绑定；旧批次哈希表示历史状态，本批记录当前修正。530 灵长类分母、14 个待补证缺口及全部羊膜动物范围保留；测试、验证器、生成、提交、发布待全部内容完成后统一处理。
+
+## P5-151 — Trochalopteron 十四种历史行与科名拼写（2026-10-03）
+
+新增固定 COL26.8 的十四个物种与 Trochalopteron 属，物种各五节、属四节、既有 Leiothrichidae 科两节，共 76 节双语导读。实际读 AVONET v7 BirdLife 4918–4935 内所选十四行及对应 eBird／BirdTree 行，保留来源科名 Leiotrichidae 与目录 Leiothrichidae 的不同拼写。已读 COL tro／ga 分片证实十二个逐字旧 Garrulax 组合；chrysopterus、peninsulae 在本次分片中未找到对应逐字异名，名称表关系仍与目录异名证明分开。原行、定义与来源哈希存于 data/sources/trochalopteron-avonet-name-reader-2026-10-03.json。
+
+squamatum 四只鸟、四只完整测量，其余十三行五只鸟、四只完整测量；austeni 三只性别未定。Dunning 文献体重另有分母，四行同 71.7 g、lineatum／imbricatum 同 40.7 g 的原因未读原书核实。食物生态位十二条 Invertivore、一条 Omnivore、一条 Frugivore；营养级六条 Carnivore、八条 Omnivore。活动方式四条 Insessorial、三条 Terrestrial、七条 Generalist，栖息地五条 Forest、六条 Woodland、三条 Shrubland，密度八条 1、六条 2。十四条留居代码不表示个体终生不移动。原科五条生活史入口保留来源边界。
+
+不计完整自然史、全属／全科接受物种覆盖或专家审评，不补当前分布、保护、繁殖、鸣声羽色或实测食谱。原 7173 观察加八十四种增量为 452 index、449 双语 catalogue-profile 标记、6724 缺一方或双方标记，不是新全库正文审评或来源不足总数；1075 候选累积 76 条跟进。14 灵长类缺口、530 分母和全部羊膜动物目标仍未完成。测试、生成、提交与发布继续待全部内容完成后统一处理。
+
+## P5-152 — Cinnyris 二十八种旧属名、食性与样本（2026-10-03）
+
+新增固定 COL26.8 的二十八个物种，各五节双语导读；既有属四节、Nectariniidae 科两节，共 146 节。实际读 AVONET v7 BirdLife 5944–5996 内所选二十八行及对应 eBird／BirdTree 行。已读 COL ci／ne 分片确认二十二个逐字旧 Nectarinia 组合；neergardi／neergaardi、coccinigaster／coccinigastra 两条拼写差异保留，preussi、chalcomelas、fuelleborni、tsavoensis 四条在本次分片未确认目录异名。原行、定义和来源哈希存于 data/sources/cinnyris-avonet-name-reader-2026-10-03.json。
+
+rufipennis 四只鸟仅一只完整测量；reichenowi 十四只、完整十只；chloropygius 十二只、完整十一只及一只性别未定；neergaardi 六只、完整五只及两只性别未定。Dunning 体重分母独立，三个重复体重对的原因未核原书。所选行食物生态位十六条 Nectarivore、十二条 Omnivore，营养级十条 Herbivore、十八条 Omnivore；定义阈值不当作实测食谱。全部活动方式 Insessorial；仅 chloropygius 为迁移代码 2，其他二十七条为 1。栖地十五条 Forest、十条 Shrubland、Wetland／Desert／Grassland 各一，密度八条 1、十五条 2、五条 3。既有十四条属生活史入口和各科历史批次计数保留。
+
+不计完整自然史、当前地图、繁殖、授粉效果、花种猎物或专家审评。原 7173 观察加一百一十二种增量为 480 index、477 双语 catalogue-profile 标记、6696 缺一方或双方标记，不是全库正文审评或来源不足总数；1075 来源候选累积 104 条跟进。14 灵长类缺口、530 分母和全部羊膜动物目标仍未完成。测试、生成、提交与发布继续待全部内容完成后统一处理。
+
+## P5-153 — Crithagra 二十四种旧名、种子类别与样本（2026-10-03）
+
+新增固定 COL26.8 二十四个物种，各五节双语导读；新属四节、既有 Fringillidae 科两节，共 126 节。实际读 AVONET v7 BirdLife 4011–4046 内所选二十四行、对应 eBird／BirdTree 行，以及 COL cr／se 分片，确认二十三个逐字旧 Serinus 组合；hypostictus 在本次分片未确认。原行、相关定义与来源哈希存于 data/sources/crithagra-avonet-name-reader-2026-10-03.json。
+
+xantholaema 仅一只雌鸟，ankoberensis 仅一只雄鸟，各一套完整测量；不合成雌雄样本。citrinelloides 十五只完整四只，mozambica 十七只完整十只、三只性别未定，dorsostriata 九只完整六只、一只性别未定；citrinipectus 七只完整七只但三只性别未定，leucoptera 五只完整五只但三只性别未定。Dunning 平均体重独立于形态鸟数。十五条 Granivore、九条 Omnivore 生态位，二十四条营养级均 Herbivore；60% 种子／坚果与70% 植物定义门槛不混为实测食谱。十二条 Insessorial、十条 Generalist、两条 Terrestrial，栖地十四条 Shrubland、三条 Woodland、四条 Forest、三条 Grassland，密度两条1、十五条2、七条3，迁移全部1。
+
+不计完整自然史、当前地图、繁殖、具体种子、咬合力或专家审评。原7173观察加136种增量为504 index、501 双语 catalogue-profile 标记、6672 缺一方或双方标记，不是全库正文审评或来源不足总数；1075 来源候选累积128条跟进。14 灵长类缺口、530 分母和全部羊膜动物目标仍未完成。测试、生成、提交与发布继续待全部内容完成后统一处理。
+
+## P5-154 — Aotus：原始样本、核型与未确认序列（2026-10-03）
+
+读取 Menezes、Bonvicino 与 Seuánez（2010）主文的样本表、方法、结果及讨论；A. trivirgatus、A. brumbacki、A. jorgehernandezi 与属页新增 7 个双语小节。表 1 的 18 个 Aotus 个体／八个历史分类单元与表 2 的外部序列分开；TR1／TR2 馆藏凭证、TR1 核型与 DQ321669 未获确认的原因分别记录。A. jorgehernandezi 未纳入原测序队列，相同 2n 不补野外来源或证明异名。未检查图像像素、补充文件、原始序列或馆藏实物，未重跑分析；2010 年暂定拓扑不替代固定 COL26.8。新增共享引文及原始元数据绑定，收据 data/sources/aotus-primary-identification-reader-2026-10-03.json 保存访问范围与来源 SHA。14 个灵长类资料缺口、530 固定分母和审评状态不变；整体任务未完成。按用户后续指令，测试、生成、提交及发布留待全部内容完成后统一处理。
+
+## P5-155 — Sapajus cucullatus：追踪样本与观察范围（2026-10-03）
+
+读取 Martínez de Zorzi、Delval、Di Nucci 与 Oklander（2024）捕获及佩戴项圈研究主文的地点、群体、方法、结果和讨论。种页新增 3 个双语小节，属路径新增 2 个：两个地点／四群／三个成功佩戴项圈的成年雌性分别计数，Foletto 未成功，结果段开头措辞与明确事件计数的差异保留。成年雌性选择、习惯化、每月五天观察、雨天设备限制与可能无法目视个体分别说明；局地两篇论文共享地点及群体，不计独立重复。未读表 I 个体测量、图像像素或底层遗传数据，不提供捕获／兽医操作指引，也不把观察相似写成零影响试验。新增共享原始研究引文及元数据绑定；修掉属英文概览后的一个孤立结束标记，正文保留。收据 data/sources/cucullatus-collaring-methods-reader-2026-10-03.json 保存来源 SHA 和范围。历史 S. nigritus cucullatus 与固定 COL26.8 概念对应仍未解决，84J8Q 缺口继续开放；14 项、530 分母和审评状态不变。整体内容仍未完成，按用户后续指令未测试、生成、提交或发布。
+
+## P5-156 — Spinus 十种旧组合、样本与部分迁移（2026-10-03）
+
+新增十个固定 COL26.8 物种，各五节双语正文；既有属四节、科两节，共56节。实际读 AVONET v7 BirdLife4150–4168内所选十行及各 eBird／BirdTree 关系，COL sp／car／se 分片确认九个旧 Carduelis、一个旧 Serinus 组合，保留词尾变换。原行、定义、名称与来源 SHA 存于 data/sources/spinus-avonet-name-reader-2026-10-03.json。dominicensis仅两只（雌雄各一）且完整两只，不作雌雄变异；atratus十只完整四只，xanthogastrus九只完整四只且两只性别未定，magellanicus十一只完整五只且一只未定，uropygialis五只完整四只且一只未定。Dunning体重独立于形态分母。十条Granivore／Herbivore分别保留60%种子或坚果与70%植物定义；六条Generalist、四条Insessorial；七Forest、两Shrubland、一Grassland；密度两条1、七条2、一条3。九条迁移1，thibetanus为2，不补具体路径或移动类型。旧五条生活史与新十条不相加当去重接受种数。
+
+原7173观察加146种增量为514 index、511双语catalogue-profile标记、6662缺一方或双方标记，仅原观察的增量；1075候选累积138条跟进，其他相关材料另计。没有全库正文审评、完整自然史、当前地图或新增专家审评；14灵长类缺口、530分母与全部羊膜动物目标仍未完成。按用户后续指令，测试、生成、提交与发布继续留待全部内容完成后统一处理。
+
+## P5-157 — Melaniparus 十种旧名、完整采样与食性字段（2026-10-03）
+
+新增十个固定 COL26.8 种，每种五节双语正文；新增属四节、既有科两节，共56节。实际读 AVONET v7 BirdLife6199–6213内所选十行、各完整 eBird／BirdTree 关系及字段定义；COL mel／par 分片读到十个旧 Parus 组合对应异名。收据 data/sources/melaniparus-avonet-name-reader-2026-10-03.json 保存原行、名称、定义和來源 SHA。八条四只雌雄各二且完整四只；albiventris 十只（雌三雄五未定二）完整四只；funereus 六只雌雄各三完整四只。文献体重独立，不补个体方差。十条 Invertivore 生态位保留陆生无脊椎至少60%定义；八条 Carnivore 营养级保留活无脊椎或脊椎动物至少70%，cinerascens／funereus 的 Omnivore 营养级按跨营养级大致相近比例定义保留，不读底层食谱就不统一编码或断定差异原因。十条 Insessorial、迁移1；栖地五 Woodland、三 Forest、两 Shrubland；密度三1六2一3，afer 的3不指鸟数量密度。
+
+原7173观察加156种增量为524 index、521双语catalogue-profile标记、6652缺一方或双方标记，仅原观察的增量；1075候选累积148条跟进，其他相关材料另计。属、科及不同资料路线不相加作去重接受种数；未完成全库正文审评、完整自然史、当前地图或专家审评。14灵长类缺口、530分母和全部羊膜动物目标仍未完成。按用户后续指令，测试、生成、提交与发布继续留待全部内容完成后统一处理。
+
+## P5-158 — Turdoides 十二种拼写、未定性别与生态字段（2026-10-03）
+
+新增十二个固定 COL26.8 种各五节双语正文，既有属四节、科两节，共66节；修正旧属英文一条生活史入口的单数语法，原计数与绑定保留。实际读 AVONET v7 BirdLife4939–4954内所选十二行、各完整 eBird／BirdTree 关系、COL tu 分片及相关定义。来源科名 Leiotrichidae 与目录 Leiothrichidae 分开；十二个 eBird 同名，BirdTree 十一同名，reinwardtii 记 reinwardii，少一个 t，逐字目录对应在所读分片未确认，不外推所有目录无此名。收据 data/sources/turdoides-avonet-name-reader-2026-10-03.json 保存原行、十六个目录名、定义和来源 SHA。squamulata三只全未定性别且完整三只，plebejus八只雌雄各四完整四只，jardineii十只完整五只，melanops六只完整四只且三只性别未定；文献体重独立。七Invertivore／五Omnivore生态位，六Carnivore／六Omnivore营养级；plebejus两字段差异保留不擅自统一。七Generalist三Terrestrial两Insessorial；七Shrubland四Woodland一Wetland，十二密度2迁移1；hartlaubii湿地与地栖编码不证明实际涉水、游泳或潜水。不补群体合作、繁殖食谱、当前范围或专家审评。
+
+原7173观察加168种增量为536 index、533双语catalogue-profile标记、6640缺一方或双方标记，仅原观察的增量；1075候选累积160条跟进，其他相关材料另计。新十二种、旧bicolor生活史及全科各批次不相加作接受种分母。全部羊膜动物内容及14灵长类缺口、530分母仍未完成，按用户后续指令未测试、生成、提交或发布。
+
+## P5-159 — Aerodramus 十二种旧名、单鸟与飞行觅食类别（2026-10-03）
+
+新增十二个固定 COL26.8 物种，每种五节；既有属四节、Apodinae 亚科与 Apodidae 科各两节，共68节双语正文。实际读 AVONET v7 BirdLife505–527内所选十二行与完整名称表关系、字段定义、COL ae／col 分片；十个旧 Collocalia 逐字组合有对应异名，spodiopygius 的目录异名与表中 spodiopygia 词尾不同，terraereginae 未确认不能当作全目录缺名。历史目 Caprimulgiformes 与目录目 Apodiformes 分开，科路径经过亚科。whiteheadi／sawtelli 各一只雄鸟；bartschi 三只完整二只、unicolor 五只完整四只；其他八条四只完整，但 francicus 全未定、elaphrus 雄三未定一。Dunning 体重独立。十二条 Invertivore／Carnivore、Aerial、迁移1、密度1；栖地九Forest、二Rock、一Grassland。按定义解释而不自行重编码或补原因；不补回声定位、巢材、速度或当前地图。
+
+收据 data/sources/aerodramus-avonet-name-reader-2026-10-03.json 保存原行、名称、定义与来源 SHA。原7173观察加180种增量为548 index、545双语标记、6628缺一方或双方标记，仅历史观察的增量；1075候选累计172条跟进，其他相关材料另计。不同资料路线不相加作去重种数；全库正文、完整自然史、14灵长类缺口和全部羊膜动物目标仍未完成，530分母保留，无专家审评。测试、生成、提交和发布按用户后续指令留待全部正文完成后处理。
+
+## P5-160 — Hydrobates 十种旧属名、样本与海洋生态类别（2026-10-03）
+
+新增十个固定 COL26.8 物种，每种五节；既有属四节、科两节，共56节双语正文。实际读 AVONET v7 BirdLife10057–10071内所选十行与完整名称表关系、字段定义、COL hy／oc／ha 分片；BirdTree 九个 Oceanodroma、microsoma 一个 Halocyptena 组合均有逐字异名，microsoma 另有 Oceanodroma 异名。monteiroi 单雄、matsudairae 双雌、homochroa 四只完整两只；hornbyi／melania 四只完整四只、五条五只完整四只。Dunning 体重独立于形态分母。十条 Marine、开放密度3、Aquatic predator、Carnivore 与 Aerial；水生食物不替代活动类别，不补潜水深度或鱼类清单。microsoma 迁移2、九条迁移3，只按原定义，不补跟踪路线或日期。既有 tristrami 巢研究和 pelagicus 汇编单列；两组页的既有英文单条记录语法修正，历史计数不改。
+
+收据 data/sources/hydrobates-avonet-name-reader-2026-10-03.json 保存原行、名称、定义与来源 SHA。原7173观察加190种增量为558 index、555双语标记、6618缺一方或双方标记，仅历史观察的增量；1075候选累计182条跟进，其他相关材料另计。不同来源路线不相加作去重接受种数；全库正文、完整自然史、14灵长类缺口和全部羊膜动物目标仍未完成，530分母保留，无专家审评。测试、生成、提交和发布按用户后续指令留待全部正文完成后处理。
+
+## P5-161 — Setophaga 九种旧名、形态样本与迁移类别（2026-10-03）
+
+新增九个固定 COL26.8 物种，每种五节；既有属四节、科两节，共51节双语正文。实际读 AVONET v7 BirdLife6330–6363内所选九行、各行完整名称表、字段定义及 COL se／de 名称分片；九个旧 Dendroica 组合均有逐字异名指向接受 ID。pityophila／subita／angelae 四只完整，其他五条总数五至十但完整四只，graciae 十只完整五只；性别计数逐页保留，Dunning 文献体重独立。九条 Invertivore／Carnivore／Insessorial，七Forest、一Woodland、一Shrubland，六密度1、三密度2；迁移七条1、graciae2、nigrescens3，按定义解释而不补路线或日期。属科既有来源计数分别保留，不相加作去重接受种分母；修正属既有英文单条记录语法。
+
+收据 data/sources/setophaga-avonet-name-reader-2026-10-03.json 保存原行、名称、定义和来源SHA。原7173观察加199种增量为567 index、564双语标记、6609缺一方或双方标记；1075候选累计191条跟进，均为历史观察的增量，未经新全库正文复核。全库正文、完整自然史、14灵长类缺口和全部羊膜动物目标仍未完成，530分母保留，无专家审评。测试、生成、提交和发布按用户后续指令留待全部正文完成后处理。
+
+## P5-162 — Zapornia 八种旧名、形态样本与食性字段（2026-10-03）
+
+新增八个固定 COL26.8 物种，每种五节；新增属四节、既有科两节，共46节双语正文。实际读 AVONET v7 BirdLife2731–2740内所选八行、完整名称表、相关定义与 COL za／po／am 分片；六个 Porzana、两个 Amaurornis 逐字旧组合均有异名。atra 三只完整、fusca 四只完整、parva 八只完整四只、五条五只完整四只；性别逐页保留，Dunning 文献体重独立。八条 Terrestrial，七Wetland、一Forest，四密度1、四密度2；五Aquatic predator、两Omnivore、一Invertivore生态位，六Carnivore、两Omnivore营养级。akool 与 fusca 的字段差异保留且不判断原因；定义包含涉水不是本行实测涉水。迁移三条3、两条2、三条1，不补路线、游泳或潜水。属新入口和科既有各来源路线不相加作接受后代去重分母。
+
+收据 data/sources/zapornia-avonet-name-reader-2026-10-03.json 保存原行、名称、定义和来源SHA。原7173观察加207种增量为575 index、572双语标记、6601缺一方或双方标记；1075候选累计199条跟进，均为历史观察增量，未作新全库正文复核。全库正文、完整自然史、14灵长类缺口和全部羊膜动物目标仍未完成，530分母保留，无专家审评。测试、生成、提交和发布按用户后续指令留待全部正文完成后处理。
+
+## P5-163 — Argya 八种旧组合、采样与活动字段（2026-10-03）
+
+新增八个固定 COL26.8 种各五节双语正文、新增属四节、既有科两节，共46节。实际读 AVONET v7 BirdLife4819–4827内所选八行、各完整 eBird／BirdTree 关系、COL ar／tu 分片及相关定义。八个 eBird 同名关联；八个 BirdTree 旧 Turdoides 组合在目录均读到逐字异名对应。来源科名 Leiotrichidae 与目录 Leiothrichidae 分开。收据 data/sources/argya-avonet-name-reader-2026-10-03.json 保存原行、二十一个目录名称、定义及来源 SHA。fulva／altirostris四只雌雄各二且全部完整；rubiginosa九只雌四雄五完整四只；其余五条五只雌二雄三完整四只。Dunning体重独立于形态分母。八条Invertivore生态位；六Carnivore、fulva／aylmeri两Omnivore营养级，不读底层食谱就不统一或判定差异原因。七Generalist、rubiginosa一Terrestrial；六Shrubland、altirostris／earlei两Wetland；五密度2，squamiceps／fulva／earlei三密度3；八迁移1。活动Generalist不等于食性Omnivore，湿地不证明实际涉水、游泳或潜水。不补合作行为、繁殖、当前范围或专家审评。
+
+原7173观察加215种增量为583 index、580双语catalogue-profile标记、6593缺一方或双方标记，仅原观察的增量；1075候选累积207条跟进，其他相关材料另计。各批次、属和科入口不相加作全科接受种分母。全部羊膜动物内容、14灵长类缺口和530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部内容完成后统一处理。
+
+## P5-164 — Zentrygon 八种旧组合、性别覆盖与食性字段（2026-10-03）
+
+新增八个固定 COL26.8 种各五节双语正文、新属四节、既有亚科和科各两节，共48节。实际读 AVONET v7 BirdLife1849–1856八行、完整 eBird／BirdTree 关系、COL ze／ge 分片及相关字段定义；八个旧 Geotrygon 组合均有逐字目录异名对应。frenata十五只雌五雄三未定七完整四只；lawrencii四只雌二未定二全部完整但无已定雄鸟；carrikeri两只全雄全部完整。文献体重独立；八Herbivore营养级，goldmani／linearis两Granivore、其余六Omnivore生态位，不读底层食性文献就不统一字段或解释差异。八条Terrestrial、Forest、密度1、迁移1，不补当前地图、食谱、繁殖或专家审评。收据 data/sources/zentrygon-avonet-name-reader-2026-10-03.json 保存原行、十六个目录名称、定义和来源 SHA。
+
+原7173观察加223种增量为591 index、588双语catalogue-profile标记、6585缺一方或双方标记，仅原观察增量；1075候选累积215条跟进。不同资料和组入口不相加作去重接受种数。全部羊膜动物内容、14灵长类缺口和530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部内容完成后统一处理。
+
+## P5-165 — Agapornis 八种同名关联、科名与活动字段（2026-10-03）
+
+新增八个固定 COL26.8 种各五节双语正文、新属四节、新科两节，共46节。实际读 AVONET v7 BirdLife10199–10207内八行、完整 eBird／BirdTree 关系、COL ag 分片和相关定义。八个两表同名关联；来源 Psittacidae 与目录 Psittaculidae 保留。四个目录词尾异名不当作名称表旧组合。pullarius八只完整八只；lilianae七只完整六只；personatus五只雌一雄一未定三完整四只；其余五只完整四只。Dunning体重独立。八Herbivore营养级，swindernianus／canus两Omnivore、其余六Granivore生态位；三Generalist、三Terrestrial、两Insessorial，Generalist不等于Omnivore；三Forest三Woodland两Shrubland，一密度1五密度2两密度3，八迁移1。不补配偶关系、繁殖、当前地图、食谱或专家审评。收据 data/sources/agapornis-avonet-name-reader-2026-10-03.json 保存原行、十二目录名称、定义与来源SHA。
+
+原7173观察加231种增量为599 index、596双语标记、6577缺一方或双方标记；1075候选累积223条跟进，未作新全库正文审评。属科入口不计完整接受后代。全部羊膜动物内容、14灵长类缺口和530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-166 — Asthenes 八种旧属名与一只完整测量（2026-10-03）
+
+新增八个固定 COL26.8 种各五节双语正文，既有属四节、科两节，共46节。实际读 AVONET v7 BirdLife4189–4206内八行、完整 eBird／BirdTree 关系、COL as／sc／or分片十七名称及相关定义。七Schizoeaca与一Oreophylax旧组合均有逐字异名对应；moreirae另有Schizoeaca异名，不改写名称表原名。harterti十一只雌二雄八未定一、moreirae五只雌一雄四各一只完整；helleri十三只雌一雄三未定九完整七只；fuliginosa十三只完整四只；palpebralis六只完整二只、coryi七只完整四只、perijana六只完整四只、griseomurina七只完整三只。Dunning体重独立。八Invertivore／Carnivore／Insessorial／迁移1；七Grassland、一Shrubland moreirae；palpebralis／moreirae两密度3、其余六密度2。草地不意味无高处栖停基质，完整数不建立逐字段分母；不补食谱、繁殖、当前地图或专家审评。收据 data/sources/asthenes-avonet-name-reader-2026-10-03.json 保存原行、目录名称、定义和SHA。
+
+原7173观察加239种增量为607 index、604双语标记、6569缺一方或双方标记；1075候选累积231跟进，未作新全库正文审评。既有属14测量／19食性层位／1生态与科205／15／187／14／7分别保留，不相加作去重接受种数。全部羊膜动物内容、14灵长类缺口和530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-167 — Pheugopedius 八种旧名、性别覆盖与完整测量（2026-10-03）
+
+新增八个固定 COL26.8 种各五节双语正文，既有属四节、科两节，共46节。实际读 AVONET v7 BirdLife8481–8490内八行、完整 eBird／BirdTree 关系、COL phe／th分片十六名称及相关定义。八Thryothorus旧组合均有逐字异名。genibarbis三十三只雌六雄十未定十七完整四只；fasciatoventris十只雌三雄四未定三完整七只；felix四只全雄完整；eisenmanni四只雌二雄二完整；mystacalis六只雄三未定三完整四只，无已定雌鸟但不是全雄样本；atrogularis十三只、maculipectus十一只、coraya五只各完整四只。Dunning体重独立。八Invertivore／Carnivore／Insessorial／迁移1；七Forest、一Woodland felix；四密度1、三密度2、fasciatoventris一密度3。Forest／密度3组合保留，不补解释、实测食谱、繁殖、当前地图或专家审评。收据 data/sources/pheugopedius-avonet-name-reader-2026-10-03.json 保存原行、目录名称、定义和SHA。
+
+原7173观察加247种增量为615 index、612双语标记、6561缺一方或双方标记；1075候选累积239跟进，未作新全库正文审评。既有属2生活史与科43测量／14生活史／36多字段／14单字段／3生态分别保留，不相加作去重接受种数。全部羊膜动物内容、14灵长类缺口和530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-168 — Sarothrura 八种水生食物、地面活动与原科名（2026-10-03）
+
+新增八个固定 COL26.8 种各五节双语正文、新属四节与科两节，共46节。实际读 AVONET v7 BirdLife2720–2728内八行、完整 eBird／BirdTree 同名关联、COL sa分片九个接受种名称与相关定义。原 Rallidae 与 COL Sarothruridae 分开。rufa、pulchra、elegans、ayresi、insularis 各五只雌二雄三完整四只；boehmi、watersi、affinis 各四只雌二雄二全部完整；均无性别未定鸟。Dunning体重独立。三 Aquatic predator、一 Invertivore、四 Omnivore生态位；三 Carnivore、五 Omnivore营养级；watersi 的 Aquatic predator／Omnivore保留，不补原因。八 Terrestrial／密度1／迁移1；四Wetland、一Forest、二Grassland、一Shrubland。活动定义包括身体抬高于水面的涉水，不计本种涉水、游泳或潜水观察；Grassland与密集植被代码同时保留，不补食谱、繁殖、当前地图或专家审评。收据 data/sources/sarothrura-avonet-name-reader-2026-10-03.json 保存原行、目录名称、定义与SHA。
+
+原7173观察加255种增量为623 index、620双语标记、6553缺一方或双方标记；1075候选累积247跟进，未作新全库正文审评。新属科入口不计完整接受后代，lugens本批未新增正文。全部羊膜动物内容、14灵长类缺口与530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-169 — Peucaea 八种旧名与不同食性字段（2026-10-03）
+
+新增八个固定 COL26.8 种各五节双语正文、新属四节与既有科两节，共46节。实际读 AVONET v7 BirdLife6481–6488八行、完整 eBird／BirdTree关联、COL pe／ai分片十六名称与相关定义。八 Aimophila 旧组合均有逐字目录异名。八条均五只雌二雄三、未定零、完整四只，Dunning体重独立；carpalis15.3 g与sumichrasti29.43 g仅为本批汇编均值两端。三Invertivore、二Granivore、三Omnivore生态位；三Herbivore、二Carnivore、三Omnivore营养级，各组合保留不补原因。aestivalis／botterii两Terrestrial，其余六Generalist；aestivalis／cassinii／botterii三迁移2，其余五迁移1；一Forest／密度2、二Grassland／密度3、五Shrubland／密度2。不把活动类别当食性、不指定部分迁移类型，也不补实测食谱、繁殖、当前地图或专家审评。收据 data/sources/peucaea-avonet-name-reader-2026-10-03.json 保存原行、目录名称、定义与SHA。
+
+原7173观察加263种增量为631 index、628双语标记、6545缺一方或双方标记；1075候选累积255跟进，未作新全库正文审评。科此前73测量、5有限生态、4 Ammospiza导读各保留原范围，不相加为去重接受种数；属八页不计完整自然史。全部羊膜动物内容、14灵长类缺口与530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-170 — Myrmelastes 七种旧属名、完整测量与活动类别（2026-10-03）
+
+新增七个固定 COL26.8 种各五节双语正文、新属四节与既有科两节，共41节。实际读 AVONET v7 BirdLife7789–7795七行、完整 eBird／BirdTree关联、COL my／sc分片十四名称与相关定义。六个 Schistocichla 和一个 Myrmeciza hyperythra 旧组合均有逐字目录异名；saturatus 旧词尾为 saturata。总鸟数十、七、八、八、五、九、六，完整五、二、四、四、四、四、三，各有雌雄且未定零；Dunning 体重独立。五条25.69 g不证明实际体重相同。七条 Invertivore／Carnivore、Forest／密度1／迁移1；六 Generalist，一 Insessorial hyperythrus。不从科名推跟蚁行为，不补实测食谱、繁殖、当前地图或专家审评。收据 data/sources/myrmelastes-avonet-name-reader-2026-10-03.json 保存原行、目录名称、定义与SHA。
+
+原7173观察加270种增量为638 index、635双语标记、6538缺一方或双方标记；1075候选累积262跟进，未作新全库正文审评。科此前149测量、15生活史、153多字段、9单字段、1有限生态条目各保留，不相加作去重接受种数；目录属八个直接子项与本批七页不计完整属内容。全部羊膜动物内容、14灵长类缺口与530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-171 — Horornis 七种旧名、性别样本与迁移代码（2026-10-03）
+
+新增七种各五节双语正文、新属四节与既有科两节，共41节。实际读 AVONET v7 BirdLife7409–7420内七行、完整 eBird／BirdTree关联、COL ho／ce十四名称与相关定义。原行 Scotocercidae 与当前 Cettiidae 分开；六逐字 Cettia 异名，brunnescens 仅 Horeites 异名，不声称逐字 Cettia 对应已确认。parens 两只均雌、完整两只；diphone 五只雌零雄二未定三、完整四只，不是全雄样本。其余总数四至五、完整三至四，Dunning体重独立；两条5.32 g不证明实际体重相同。七条 Generalist／Invertivore／Carnivore；三迁移2、四迁移1；四Forest／密度1、二Shrubland／密度2、一Shrubland／密度1。类别不补实测食谱、季节路线、繁殖、当前地图或专家审评。收据 data/sources/horornis-avonet-name-reader-2026-10-03.json 保存原行、目录名称、定义与SHA。
+
+原7173观察加277种增量为645 index、642双语标记、6531缺一方或双方标记；1075候选累积269跟进，未作新全库正文审评。此前一条 Cettia cetti 生活史导读保留原边界，不相加为去重接受种分母；属十二个目录直接子项与本批七页不计完整属内容。全部羊膜动物内容、14灵长类缺口与530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-172 — Pogonotriccus 七种两表旧名、完整测量与森林密度（2026-10-03）
+
+新增七种各五节双语正文、新属四节与既有科两节，共41节。实际读 AVONET v7 BirdLife9033–9039七行、完整 eBird／BirdTree关联、COL po／phy十四名称与相关定义。eBird／BirdTree均为 Phylloscartes 旧组合，七条逐字异名各指向当前接受 ID，Avibase ID分别相同；不称 eBird 同名当前页。ophthalmicus 十七只完整四套，poecilotis 八只完整六套，venezuelanus 三只完整两套；orbitalis 四只雌零雄二未定二完整三套，不称全雄。Dunning 体重独立，两条8 g不证明实际体重相同。七条 Forest／Insessorial／Invertivore／Carnivore／迁移1；lanyoni 密度2，其余六条密度1，不把森林等同密集植被或从科名补捕蝇行为、准确层位。无实测食谱、繁殖、当前地图或专家审评。收据 data/sources/pogonotriccus-avonet-name-reader-2026-10-03.json 保留原行、名称、定义和SHA。
+
+原7173观察加284种增量为652 index、649双语标记、6524缺一方或双方标记；1075候选累积276跟进，未作新全库正文审评。此前321测量、60生活史、327多字段、35单字段与14有限生态条目保留原范围，不相加为去重接受种数；属九个目录直接子项与本批七页不计完整属内容。全部羊膜动物内容、14灵长类缺口与530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-173 — Ardenna 七种旧组合、四套完整测量与三种活动类别（2026-10-03）
+
+新增七种各五节双语正文、新属四节与既有科两节，共41节。实际读 AVONET v7 BirdLife10083–10089七行、完整 eBird／BirdTree关联、COL ar／pu十五名称与相关定义。七 Puffinus 旧组合均有逐字异名，grisea／pacifica 旧词尾 griseus／pacificus；额外 chlororhynchus 不当作实际表名。全部四套完整，bulleri 总数四雌一雄三，其余五；pacifica 雌二雄二未定一，Dunning 体重独立。388–848.99 g仅为本批汇编均值端点。四Generalist、两Aerial gravis／carneipes、一Aquatic bulleri；七Marine／开放3／迁移3／Aquatic predator／Carnivore，不把食物生态位当活动方式、不补实测食谱、捕食动作、潜水深度、飞行性能、迁移路线或专家审评。收据 data/sources/ardenna-avonet-name-reader-2026-10-03.json 保存原行、名称、定义与SHA。
+
+原7173观察加291种增量为659 index、656双语标记、6517缺一方或双方标记；1075候选累积283跟进，未作新全库正文审评。此前64测量、50生活史、50多字段、10单字段与1有限生态条目各保留范围，不相加为去重接受种数；属七目录子项与七页数量相同不计完整自然史。全部羊膜动物内容、14灵长类缺口与530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-174 — Cantorchilus 七种旧名、三十八只总数与森林密度（2026-10-03）
+
+新增七种各五节双语正文、新属四节与既有科两节，共41节。实际读 AVONET v7 BirdLife8443–8451内七行、完整 eBird／BirdTree关联、COL can／th十四名称与相关定义；七个旧 Thryothorus 组合均有逐字目录异名。nigricapillus 38只雌15雄17未定6完整4套；semibadius 20只完整4套，leucotis 15只完整5套，guarayanus 3只雌雄未定各一完整3套；其他三条总数11–15只完整4套，各自性别计数保留。Dunning体重独立，13.5–23.9 g仅本批汇编均值端点。七条 Insessorial／Invertivore／Carnivore／迁移1；四Forest中两密度1两密度2，三Shrubland均密度2，森林不自动等于密集生境。不补实测食谱、准确觅食层位、对唱、繁殖、当前地图或专家审评。收据 data/sources/cantorchilus-avonet-name-reader-2026-10-03.json 保存原行、名称、定义与SHA。
+
+原7173观察加298种增量为666 index、663双语标记、6510缺一方或双方标记；1075候选累积290跟进，未作新全库正文审评。此前43测量、14生活史、36多字段、14单字段、3有限生态与8 Pheugopedius条目各保留范围，不相加为去重接受种数；属十个目录子项与本批七页不计完整属内容。全部羊膜动物内容、14灵长类缺口与530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-175 — Locustella 七种名称表差别、两套完整与迁移类别（2026-10-03）
+
+新增七种各五节双语正文、既有属四节与科两节，共41节。实际读 AVONET v7 BirdLife4979–4998内七行、完整 eBird／BirdTree关联、COL lo／br／hel十一相关名称与相关定义。四个 Bradypterus旧组合均有逐字异名，caudata／tacsanowskia旧词尾caudatus／tacsanowskius；三条 eBird Helopsaltes名称在所读hel分片未确认，不能说全目录缺名或跨版本概念相同。caudata三只雌一雄二完整二；seebohmi两只雌雄各一完整二；pryeri／tacsanowskia四只雌雄各二完整四，另三条五只雌二雄三完整四；七条未定均零。Dunning体重独立，11.3–22.9 g仅本批汇编均值端点。七Invertivore／Carnivore，五Generalist两Insessorial；四Shrubland、一Forest、一Wetland、一Grassland，密度两1三2两3；四迁移3两迁移2一迁移1。栖地不替代密度，湿地不证明游泳或潜水，不补实测食谱、准确层位、季节路线、代码原因或专家审评。收据 data/sources/locustella-avonet-name-reader-2026-10-03.json 保存原行、名称、定义与SHA。
+
+原7173观察加305种增量为673 index、670双语标记、6503缺一方或双方标记；1075候选累积297跟进，未作新全库正文审评。原属4测量3生活史、科15测量3生活史1有限生态路线各保留，不相加为接受后代去重分母；目录属24直接子项与本批七页不计完整属内容。全部羊膜动物目标、14灵长类缺口与530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-176 — Myiothlypis 七种旧名、未定性别与完整分母（2026-10-03）
+
+新增七种各五节双语正文、既有属四节与科两节，共41节。实际读 AVONET v7 BirdLife6307–6319内七行、完整 eBird／BirdTree关联、COL my／ba十五名称与相关定义。七个 Basileuterus旧组合均有逐字异名，五个词尾变化保留；额外Myiodioctes coronatus不作表名。coronata78只雌11雄9未定58完整18；signata51只雌11雄10未定30完整24；其他五条完整4，leucophrys四只雌雄各二全部完整。Dunning体重独立，11.3–18.1 g仅本批汇编均值端点。七Invertivore／Carnivore／迁移1；四Insessorial两Terrestrial一Generalist；五Forest两Woodland，五密度1两密度2，分别读不补准确层位、直接行为观察、实测食谱、繁殖、当前地图或专家审评。修正原属英文一条生活史入口单数语法，原计数与绑定保留。收据 data/sources/myiothlypis-avonet-name-reader-2026-10-03.json 保存原行、名称、定义与SHA。
+
+原7173观察加312种增量为680 index、677双语标记、6496缺一方或双方标记；1075候选累积304跟进，未作新全库正文审评。原属一条fulvicauda生活史，科29测量56生活史38多字段5单字段5有限生态9 Setophaga条目各保留，不相加为接受后代去重分母；目录属18直接子项与本批七页不计完整属内容。全部羊膜动物目标、14灵长类缺口与530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-177 — Leucocarbo 七种单只样本、水生活动与部分迁移（2026-10-03）
+
+新增七种各五节双语正文、既有属四节与科两节，共41节。实际读AVONET v7 BirdLife10927–10933七行、完整eBird／BirdTree关联、COL leu／pha十六名称与相关定义。七Phalacrocorax旧组合均有逐字异名；额外两stewarti不作实际表名。onslowi一只未定鸟完整一套；carunculatus五只雌三雄零未定二完整三；colensoi四只雌三雄一全部完整；ranfurlyi四只雌雄各二全部完整；另三条五只完整四且各性别分别保留。Dunning体重独立，1483.44–2576.33 g仅本批汇编均值端点。七Aquatic predator／Carnivore／Aquatic、Marine／开放3；magellanicus留居1，其余六部分迁移2，不补是哪一种移动形式。水生定义不提供实测潜水深度、持续时间、捕食动作、鱼种清单、繁殖或当前地图。收据data/sources/leucocarbo-avonet-name-reader-2026-10-03.json保存原行、名称、定义与SHA。
+
+原7173观察加319种增量为687 index、684双语标记、6489缺一方或双方标记；1075候选累积311跟进，未作新全库正文审评。原属四生活史、科11测量11生活史11多字段各保留，不相加为接受后代去重分母；目录属15直接子项与本批七页不计完整属内容。全部羊膜动物目标、14灵长类缺口与530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-178 — Sporophila 七种指名亚种目标、单只雄鸟与种子生态位（2026-10-03）
+
+新增七种各五节双语正文、既有属四节与科两节，共41节。实际读AVONET v7 BirdLife8196–8226内七行、完整eBird／BirdTree关联、COL sp／or／do十三相关名称、另两逐字旧名及两个接受目标。五逐字旧名直接指向接受种；Oryzoborus atrirostris 74ZGK指向B77X3指名亚种parent9GBHK，Oryzoborus funereus 74ZGL指向B7N4X指名亚种parent9GBHM，历史全种范围仍未解决，分别报告，不计综合种专论完成。fringilloides旧名Dolospingus，额外Oryzoborus组合不作实际表名。atrirostris一雄完整一套；nuttingi三只全部完整；maximiliani四只全部完整；fringilloides六只完整五；crassirostris十三只完整三；angolensis三十一只完整四；funerea三十三只完整四，各性别保留。Dunning体重独立，12.69–26 g仅七条汇编均值端点，两13 g不证明实际体重相同。七Granivore、六Herbivore一Omnivore angolensis；七Insessorial，四Shrubland一Human Modified密度2、一Wetland一Grassland密度3；三留居四部分迁移。不补种子种类、剥壳、喙力学、准确层位、繁殖、当前地图或专家审评。收据data/sources/sporophila-avonet-name-reader-2026-10-03.json保存原行、名称、目标、定义与SHA。
+
+原7173观察加326种增量为694 index、691双语标记、6482缺一方或双方标记；1075候选累积318跟进，未作新全库正文审评。原属21测量5生活史4有限生态，科224测量24生活史129多字段25单字段14有限生态各保留，不相加为接受后代去重分母；目录属41直接子项与本批七页不计完整属内容。全部羊膜动物目标、14灵长类缺口与530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-179 — Rallicula 四种旧科名、性别未定与低手翼指数（2026-10-03）
+
+新增四种各五节双语正文、新属四节与既有科两节，共26节。实际读AVONET v7 BirdLife2696–2699四行、完整eBird／BirdTree关联、COL ra八个相关名称与相关定义。两表均记Rallina，四逐字异名各指向接受种，eBird各Avibase ID相同；原科Rallidae与当前Sarothruridae分开。rubra两只雌一雄零未定一完整两套，不称全雌；leucospila四只雌雄各二全部完整；mayri四只雌雄各二完整三；forbesi六只雌二雄四完整四。Dunning体重独立，81–122.89 g仅四条汇编均值端点；手翼指数1.3–6.3不证明不能飞或能力排序。四Terrestrial／Forest／密度1／迁移1／Invertivore／Carnivore，不补实测涉水、猎物、食谱、繁殖或当前地图。收据data/sources/rallicula-avonet-name-reader-2026-10-03.json保留原行、名称、定义与SHA。
+
+原7173观察加330种增量为698 index、695双语标记、6478缺一方或双方标记；1075候选累积322跟进，未作新全库正文审评。原科八条Sarothrura导读保留，不相加为接受种去重分母；属四个目录直接子项与四页数量相同也不计完整自然史，科三个直接子项不是物种数。全部羊膜动物目标、14灵长类缺口与530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-180 — Chalcites 六种两表拼写、单雌与单雄（2026-10-03）
+
+新增六种各五节双语正文、新属四节与既有科两节，共36节。实际读AVONET v7 BirdLife2090–2097内六行、完整eBird／BirdTree关联、COL cha／chr／rh十四名称与相关定义。eBird六Chrysococcyx，BirdTree五Chrysococcyx一Rhamphomantis；meyerii两表meyerii／meyeri异名CQ6RV／CNKT3、megarhynchus两属异名CNKSY／4S2PW各指向当前接受种；各eBird Avibase ID相同。不证明跨版本概念完全等同。ruficollis一雌完整一、megarhynchus一雄完整一，不跨种作雌雄比较。lucidus四只雌雄各二全部完整；meyerii四只雌一雄二未定一全部完整；basalis五只雌二雄三完整四；osculans五只雌雄各二未定一完整四。Dunning体重独立，19.42–31.5 g仅六条汇编均值端点。六Invertivore／Carnivore／迁移1，五Insessorial一Generalist basalis；四Forest三密度1一密度2，Woodland／Shrubland各一密度2。不补毛虫食谱、巢寄生、宿主、繁殖、当前地图或专家审评。收据data/sources/chalcites-avonet-name-reader-2026-10-03.json保存原行、名称、定义与SHA。
+
+原7173观察加336种增量为704 index、701双语标记、6472缺一方或双方标记；1075候选累积328跟进，未作新全库正文审评。原科89测量、26生活史、100多字段、7单字段、8有限生态各保留，不相加为接受种去重分母；属八目录直接子项与六页不计完整属内容。全部羊膜动物目标、14灵长类缺口与530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-181 — Erythrogenys 六种未定性别、四条相同体重与灌丛密度（2026-10-03）
+
+新增六种各五节双语正文、新属四节与既有科两节，共36节。实际读AVONET v7 BirdLife8332–8337六行、完整eBird／BirdTree关联、COL er／po十二名称与相关定义。eBird六同名各Avibase ID相同；BirdTree六Pomatorhinus逐字异名各指向当前接受种，不证明跨版本概念完全等同。gravivox六只雌零雄二未定四完整五，不称全雄；erythrogenys八只雌三雄四未定一完整七；swinhoei五只雌二雄三完整三；mcclellandi／hypoleucos各五只雌二雄三完整四；erythrocnemis五只雌一雄四完整四。Dunning体重独立，54.9–75.6 g仅六条汇编均值端点；swinhoei／gravivox／mcclellandi／erythrocnemis四条58.15 g不证明实际体重相同。六Terrestrial／Shrubland／迁移1／Invertivore／Carnivore，密度前三种2、后三种1，不补实测涉水、食谱、猎物、繁殖、当前地图或专家审评。修正原科一条英文生活史入口的单数语法，原数值与绑定保留。收据data/sources/erythrogenys-avonet-name-reader-2026-10-03.json保存原行、名称、定义与SHA。
+
+原7173观察加342种增量为710 index、707双语标记、6466缺一方或双方标记；1075候选累积334跟进，未作新全库正文审评。原科23测量、1生活史、19多字段、3单字段、4有限生态各保留，不相加为接受种去重分母；属七目录直接子项与六页不计完整属内容。全部羊膜动物目标、14灵长类缺口与530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-182 — Antrostomus 六种完整样本、未定性别与三种活动方式（2026-10-03）
+
+新增六种各五节双语正文、既有属四节与科两节，共36节。实际读AVONET v7 BirdLife603、608–612六行、完整eBird／BirdTree关联、COL ant／cap十二名称与相关定义。六eBird同名各Avibase ID相同；六Caprimulgus逐字异名指向接受种，不证明跨版本概念完全等同。rufus四只雌零雄三未定一完整三，不称全雄；saturatus四只雌二雄二完整四，badius两只雌一雄一完整二，salvini四只雌一雄二未定一完整四；sericocaudatus四只雌一雄三完整三，ridgwayi四只雌二雄一未定一完整三。Dunning体重独立，48–94.2 g仅六条汇编均值端点；rufus／salvini同169 mm翼长不证明个体或飞行能力相同。两Aerial、两Generalist、两Insessorial；Forest一密集一半开放、Woodland三半开放、Rock一开放。六迁移1／Invertivore／Carnivore不补活动时段、食谱、繁殖、当前地图或专家审评。收据data/sources/antrostomus-avonet-name-reader-2026-10-03.json保存原行、名称、定义与SHA。
+
+原7173观察加348种增量为716 index、713双语标记、6460缺一方或双方标记；1075候选累积340跟进，未作新全库正文审评。原属四生活史与科44测量、14生活史、49多字段、11单字段、9有限生态各保留，不相加为接受种去重分母；属十二目录直接子项与六页不计完整属内容。全部羊膜动物目标、14灵长类缺口与530分母仍未完成；按用户后续指令，测试、生成、提交和发布留待全部正文完成后统一处理。
+
+## P5-183 — 全羊膜动物资料收集与占位阶段（2026-10-03）
+
+按用户最新指令暂停扩写正文，先建全量资料索引与占位。COL 30154 与 PBDB 22684 独立记录全部进入资料清单；新增 20536 个语言占位文件，保留已有页面，不计正文完成。22 个同名 PBDB 身份通过 17 个明确多身份导航占位保留，不合并概念。补收全部 11097 条 PBDB 关联书目记录，并保存 23 份响应。COL 6457 个本轮未定位生物资料记录与 PBDB 3816 个资料／位置不足记录仍在待采集清单；原文全文和综合资料未全部完成。收据 data/sources/amniota-collection-stage-2026-10-03.json，操作文档 docs/amniota-collection-stage-2026-10-03.md。测试、生成、提交、发布继续按先前指令延后。
+
+
+## P5-184 — Amniota reference and source indexes (2026-10-03)
+
+User clarified that this stage stores references and indexes without downloading all original texts. See docs/amniota-collection-stage-2026-10-03.md and data/sources/amniota-reference-index-continuation-2026-10-03.json. The 6457 initial COL gaps now have candidate data for 6449 identities (25161 raw rows) and separate literature reference indexes for the residual 8 birds. All 22684 PBDB identities link to the 11097 collected bibliography records. Crossref metadata and title conflicts are retained independently. The original 10273 gaps remain as concept/context review work; prose stays paused. Full-text reading, expert review, tests, generation, commits and publication are not claimed.

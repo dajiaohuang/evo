@@ -1,0 +1,64 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: zh
+status: source-linked
+---
+
+# Paridae
+
+
+## 从 Melaniparus 进入旧名与采样
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
+本批另增十条 Melaniparus 历史形态与生态导读，BirdTree 的十个旧 Parus 组合在所读目录分片均有对应异名。八条四只且全部完整、albiventris 十只完整四只、funereus 六只完整四只的差别保留；Dunning 体重独立于形态鸟数。既有全科测量、生活史、取食层位路线分别保留，不相加作全科去重接受种数。
+<!-- /evo:text -->
+
+## 沿生态位与营养级的差别对读
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+从 [Melaniparus](Melaniparus/page.zh.md) 两组入口继续。cinerascens、funereus 都保留 Invertivore 生态位与 Omnivore 营养级，不因其他八行是 Carnivore 就统一。先看两个字段的定义，再看样本和各页边界；没有底层食谱可确定差异原因，不补统一捕食方式、当前地图或全科自然史。
+<!-- /evo:text -->
+
+## 本地数据阅读路径
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+Paridae 的本批阅读路径包含 10 条有测量来源的物种记录，可从 Baeolophus atricristatus、Baeolophus bicolor、Baeolophus inornatus、Baeolophus ridgwayi、Baeolophus wollweberi 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
+<!-- /evo:text -->
+
+## 记录之间有什么差别
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+本批体重汇编均值的两端为 Cephalopyrus flammiceps 的 7 g 与 Pseudopodoces humilis 的 45.4 g。所含栖地类别包括 疏林及林缘、森林、灌丛、岩石生境，食性类别包括 以陆生无脊椎动物为主。这些例子帮助选择比较页面，不用来代替全类群共同特征或全后代清单。
+<!-- /evo:text -->
+
+
+## 按生活史字段选择对读页面
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+Paridae 的本批路线包含 25 条历史生活史导读，可从 Baeolophus atricristatus、Baeolophus bicolor、Baeolophus inornatus、Baeolophus ridgwayi、Baeolophus wollweberi 开始。较多条目具有的字段包括 成年体重（25 条）、每窝幼体数或卵数（25 条）、汇编中最长寿命记录（24 条）、雌性成熟字段（源定义为首次受孕年龄）（23 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
+<!-- /evo:text -->
+
+
+## 沿食物、取食位置和活动时段对读
+
+<!-- evo:text /records/catalogue-profile/sections/5/text/zh -->
+Paridae 的本批路线包含 9 个历史条目，可从 Parus major、Parus monticolus、Baeolophus wollweberi、Baeolophus inornatus、Baeolophus ridgwayi 开始。其中 9 条可读食物类别权重，9 条可读取食层位，0 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
+<!-- /evo:text -->
+
+
+## 沿食物、取食位置和活动时段对读
+
+<!-- evo:text /records/catalogue-profile/sections/6/text/zh -->
+Paridae 的本批路线包含 1 个历史条目，可从 Pseudopodoces humilis 开始。其中 0 条可读食物类别权重，1 条可读取食层位，0 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
+<!-- /evo:text -->
+
+## 证据边界
+
+<!-- evo:text /records/catalogue-profile/limitations/zh -->
+本导读仅概括本批有直接测量、历史分类一对一且目录同名同科的资料，不代表该类群全部接受后代。体重端点比较的是不同记录的汇编均值，不是某个物种的个体最小值与最大值。分类对应、原始采样与其他生物学主题的限制见各物种页。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成，未经过外部专家评审。
+本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论和外部专家审评未完成。
+本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论和外部专家审评未完成。
+另增十条 Melaniparus 历史导读：旧 Parus 组合、四只完整与较大不完整样本、独立文献体重和两种营养级分别保留。十页和属路线不计全科完整接受后代覆盖，也不补专家审评。
+<!-- /evo:text -->

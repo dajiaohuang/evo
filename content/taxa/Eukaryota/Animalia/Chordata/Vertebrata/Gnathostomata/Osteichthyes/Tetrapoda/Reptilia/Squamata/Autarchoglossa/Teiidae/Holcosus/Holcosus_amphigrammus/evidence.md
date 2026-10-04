@@ -1,0 +1,23 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  collection-status:
+    scientificName: Holcosus amphigrammus
+    sourceIdentity: COL:8924H
+    status: source-collection-placeholder
+    ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+    sourceLocators: []
+    expertReview: false
+    comprehensiveSpeciesMonograph: false
+---
+
+# Holcosus amphigrammus
+
+## Supplemental reference index — 2026-10-03
+
+Source identity: COL:8924H
+
+Index: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+
+Collection state: source-candidates-indexed-concept-review-pending. References and archived data are collected; biological prose and concept review remain pending. Bulk full-text download is outside the requested scope.

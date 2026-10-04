@@ -12,12 +12,9 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: population
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
+          - pinto1993flaviceps
         text:
           zh:
             markdown: page.zh.md
@@ -25,6 +22,47 @@ records:
           en:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: ecology
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -78,6 +116,57 @@ records:
             - id
             - title
             - url
+            - scope
+        - referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+          metadataVariant: 0
+          sourceKey: ernestLifeHistories2003
+          usage:
+            locator: "Mammal_lifehistories_v2.txt: Callithrix flaviceps; original refs=24; metadata Class II B data collection and variable definitions; Class IV units and reference list."
+            sourceVersion: Ecological Archives E084-093-D1; 2003 v2
+            sourceFileSha256: 9b7a4ef7082c7b37ab76b922cfd5c86fd3e49444fa2db180439cfbe051fef6b9
+            sourceRecordName: Callithrix flaviceps
+            originalReferenceNumbers:
+              - "24"
+            availableFocalFields:
+              - litter size
+            uninterpretedFocalFields:
+              - gestation(mo)
+              - newborn(g)
+              - weaning(mo)
+              - wean mass(g)
+              - AFR(mo)
+              - max. life(mo)
+              - litters/year
+            withheldFields:
+              - mass(g)
+            historicalCrosswalk:
+              MSW93Binomial: Callithrix flaviceps
+              MSW05Binomial: Callithrix flaviceps
+              mapping: one-to-one same-name MSW93/MSW05 in separate PanTHERIA supplied SppSynonymID1.0 table; not equivalence to COL
+              sourceConceptEquivalenceToCOL: not established
+            accessedAt: 2026-10-03
+            licenseAssessment: archived-no-restrictions-attributed-factual-summary
+            scope:
+              zh: 历史生活史汇总：一般等权平均，最高寿命取记录最大值；成年体重不在本批解读，底层物种文献未逐条读取。
+              en: "Historical life-history summaries: generally equally weighted averages, maximum lifespan as a record maximum; adult mass not interpreted in this batch, underlying species literature not individually read."
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - sourceVersion
+            - sourceFileSha256
+            - sourceRecordName
+            - originalReferenceNumbers
+            - availableFocalFields
+            - uninterpretedFocalFields
+            - withheldFields
+            - historicalCrosswalk
+            - accessedAt
+            - licenseAssessment
             - scope
     limitations:
       en:

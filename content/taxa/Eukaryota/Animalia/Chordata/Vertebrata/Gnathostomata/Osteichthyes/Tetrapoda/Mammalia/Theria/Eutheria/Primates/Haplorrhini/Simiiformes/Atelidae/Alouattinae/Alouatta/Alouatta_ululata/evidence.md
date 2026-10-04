@@ -12,12 +12,9 @@ records:
     reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: distribution
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
+          - freire2020range
         text:
           en:
             markdown: page.en.md
@@ -25,12 +22,9 @@ records:
           zh:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+      - topic: habitat
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
+          - carvalho2024
         text:
           en:
             markdown: page.en.md

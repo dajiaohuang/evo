@@ -7,14 +7,38 @@ status: migrated-verbatim
 
 # Callithrix flaviceps
 
-## population
+## 种群资料
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
 Pinto 等用重复样线方法调查巴西东部一处山地雨林中的五种灵长类，其中包括淡头绒猴。该研究比较栖地、密度和群体大小，并发现调查区域中次生植被的灵长类密度较高；这一总体结果不能专指淡头绒猴。作者报告，Augusto Ruschi 生物保护区的五种动物群体大小与密度通常低于其他大西洋森林地点的已发表数值，并将狩猎压力与栖地承载能力作为可能解释。它是当地一次调查与跨地点文献比较，不代表当前种群估值。
 <!-- /evo:text -->
 
-## catalogue-profile / limitations
+## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
 有来源的局地样线调查导读，尚未经过外部领域专家评审。次生植被模式是对调查灵长类群落的报告，并非淡头绒猴单种结果；跨地点密度比较也未统一标准。
+<!-- /evo:text -->
+
+## 历史生活史记录的名称
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+Callithrix flaviceps 在固定 COL26.8 中是 Callitrichidae 的接受种。本节关联 Ernest 2003 表中的同名同科历史记录；原分类为 Wilson 与 Reeder 1993，后来的分类拆分与合并没有因名称相同而解决。
+<!-- /evo:text -->
+
+## 每窝幼体数与产窝频率
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+汇编平均值为：每窝出生幼体数 2 个幼体。每窝数量以出生幼体计，排除仅按胚胎数或繁殖疤痕推算的来源；小数是平均统计，不是一窝出现非整数幼体。
+<!-- /evo:text -->
+
+## 有限字段与未解读内容
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+本批八个非成年体重字段中，可解读 1 个历史正值。尚未解读：活跃妊娠期、新生幼体质量、脱离乳汁依赖的年龄、断乳时幼体质量、雌性首次繁殖年龄、最高寿命记录、雌性年产窝数。缺值不表示物种没有相应特征，不用近缘种或其他表格替代。本节也没有建立食物、行为、分布与保护状况的完整描述。
+<!-- /evo:text -->
+
+## 这组历史数据的边界
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+这是 Ernest 2003 年生活史汇编的历史同名记录，不是完整物种专论。分类遵循当时 Wilson 与 Reeder 1993；另用 PanTHERIA 的 MSW93／MSW05 同名一对一表建立保守名称关联，仍不证明当前 COL26.8 概念完全等同。除最高寿命外，原数据主要取文献平均值，原始值可来自个体资料、已有平均数或资料不足时的范围中点；不同来源等权，未按样本量加权，也不能完全排除底层一手文献重复。没有把汇总数值当作当地种群参数、所有个体的时间表或当前保护状态。本批解读八个非成年体重字段，成年体重原值仍保存在源行中而未加入新体型比较；底层文献的物种条目未在本批逐条读取。
 <!-- /evo:text -->

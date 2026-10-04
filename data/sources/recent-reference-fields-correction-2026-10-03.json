@@ -1,0 +1,2837 @@
+{
+  "batch": "P5-149",
+  "date": "2026-10-03",
+  "reason": "attachContentReferences reconstructs sources through binding.originalFields; recent manually authored bindings omitted that required field. A numeric-spacing edit also exposed an unquoted colon in the Pternistis source scope.",
+  "scope": "Only canonical profiles listed by P5-143–147 and P5-149 receipts. No whole-corpus validation claim.",
+  "referenceCorrection": {
+    "file": "data/references.json",
+    "referenceId": "ref-74ca34fb-b8f3-4b8f-afbe-7e15edeb10d8",
+    "retainedField": "importedMetadataVariants",
+    "compilerFieldAdded": "importedSourceMetadata",
+    "metadataVariantsCopiedLosslessly": 2,
+    "beforeSha256": "292b1d6b5b14fb571bc307a78415d1825bf62d6feaf7a597c971d718d808e3ab",
+    "afterSha256": "7103752a7d8226c6b88e390f42fa26240c1c4390a59aa55855ed74dd376610d8"
+  },
+  "sourceReceipts": [
+    "data/sources/tristrami-breeding-reader-2026-10-03.json",
+    "data/sources/ammospiza-avonet-name-reader-2026-10-03.json",
+    "data/sources/spatula-avonet-name-reader-2026-10-03.json",
+    "data/sources/pternistis-avonet-name-reader-2026-10-03.json",
+    "data/sources/psilopogon-avonet-name-reader-2026-10-03.json",
+    "data/sources/geokichla-avonet-name-reader-2026-10-03.json"
+  ],
+  "canonicalChanges": [
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Hydrobatidae/Hydrobates/Hydrobates_tristrami/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "mcclelland2008TristramiBreeding",
+          "referenceId": "ref-74ca34fb-b8f3-4b8f-afbe-7e15edeb10d8",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "authors",
+            "doi",
+            "journal",
+            "volume",
+            "issue",
+            "pages",
+            "publishedYear",
+            "publishedAt",
+            "url",
+            "sourceVersion",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "324c39f63acae53bfd6711b6ea0c42ccbbe086a9d6d7903c608d9ac40ed32462",
+      "afterSha256": "cc18341e5a055538cb48bdd8aafef557090facd4af8abd06b25885132b4869c4"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Hydrobatidae/Hydrobates/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "mcclelland2008TristramiBreeding",
+          "referenceId": "ref-74ca34fb-b8f3-4b8f-afbe-7e15edeb10d8",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "authors",
+            "doi",
+            "journal",
+            "volume",
+            "issue",
+            "pages",
+            "publishedYear",
+            "publishedAt",
+            "url",
+            "sourceVersion",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "ff7317b1f66ea332d527353989d00189dc91aa31ebede68517879991faf9ddff",
+      "afterSha256": "cb1342b5d38d33ca1cd12d4a2163b1e83544df9422e49624075412d073776ac1"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Procellariiformes/Hydrobatidae/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "mcclelland2008TristramiBreeding",
+          "referenceId": "ref-74ca34fb-b8f3-4b8f-afbe-7e15edeb10d8",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "authors",
+            "doi",
+            "journal",
+            "volume",
+            "issue",
+            "pages",
+            "publishedYear",
+            "publishedAt",
+            "url",
+            "sourceVersion",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "14e3946468fd79e050a09b7ae431d35e5064788eed6104c6f7f4e840d6c23e43",
+      "afterSha256": "0a736ed17ce2a2c0b45b40a0e760b1bf486562a7d53ff45a6ebb88c405681268"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_caudacuta/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetAmmospizaOneToOneV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "d65738785b1fbabfb64e1525084de8a1c22685eeda186b2bc4b1dfa93dc460e5",
+      "afterSha256": "88688122f7b9a5825ccc886b2757db702fd66140c76160fe63fba77d3ed9b5bb"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_nelsoni/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetAmmospizaOneToOneV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "3a88998fbd4f25032d476412f938984144f2dcdf23b6ba1cc34cb3d2041a1afd",
+      "afterSha256": "e25a66ad8063fa2406aba87fed45c0fb35f0c74c3f4be92a1823705274a70fda"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_maritima/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetAmmospizaOneToOneV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "c0538ecf6e3f0aecf624b61f35d01e18b2a369aed040d8db081388bf8312d553",
+      "afterSha256": "ce3c221d231352880d3da1ff60556365980ebd3ce0afed2dd5701f5fee410277"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/Ammospiza_leconteii/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetAmmospizaOneToOneV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "ca2bb1530782f4390e3d78b7a15bc375fadf384bdf6148c11034bd5e2e2f2960",
+      "afterSha256": "732a57a47f2409517b1a6831620a7980bc2cc6509fa75ebfa2d86034fdacc82e"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/Ammospiza/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetAmmospizaOneToOneV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "2e962d7370780c3dd1e429fa4d2cc524e06b1ab1214d04b3509c7fbabd2800f0",
+      "afterSha256": "26b340a07b30ee16c8a51e0960a96d11c50bb4ead1b35cd8c0db99c76c21aff2"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Passerellidae/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "avonetAmmospizaOneToOneV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "f0b3e26ddeeab7fe81b3836178863fada0d69fc56796929b6c72fdb8dddac6c2",
+      "afterSha256": "0d06a745a0235af2cf1d5e87971dee155089bf7fd117ee53b3afe804a805b825"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Anseriformes/Anatidae/Spatula/Spatula_clypeata/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetSpatulaNameV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "b5aa2ce1c2ee71332f8d57ab24bbf73a43fdb4996146946ffc2790107843d87b",
+      "afterSha256": "aca434815103dfc1498a4fe1397cebc12d433c5af6cd17be9c77c8b4c5762e56"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Anseriformes/Anatidae/Spatula/Spatula_smithii/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetSpatulaNameV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "c8f312348b5189b6668b193f33269e319243dbfdd23515cc815bb0b0ea7ca4e6",
+      "afterSha256": "2037c1684b86d82691118fb90c6e869bdf12c73ead409e0965616f425685430e"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Anseriformes/Anatidae/Spatula/Spatula_puna/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetSpatulaNameV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "019b59e7a649c5175fd828224ab6c7b74ec7605350ae42954526836223dd2a33",
+      "afterSha256": "c411af16e2c969017692093e2de8ad03c302e96ddcb4babce388df2cd2ab19b1"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Anseriformes/Anatidae/Spatula/Spatula_hottentota/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetSpatulaNameV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "61cef6522a3c720d27ac9a2bd86cdaace5922b470ce2b5efc3ed8732ce8b96ef",
+      "afterSha256": "82d05f640ab84450d8a32cd6dd61404f8883b2d3e45a7f8dc3c8f97a1f7064c6"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Anseriformes/Anatidae/Spatula/Spatula_rhynchotis/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetSpatulaNameV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "ca80b9acfdfa9e5645853dc911db5745a42699b664f21ea408acb4f29bbe7a41",
+      "afterSha256": "e31c6805de619eccbe94837d7b849e65e72adfabf51e2c849ba90c627719d7aa"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Anseriformes/Anatidae/Spatula/Spatula_querquedula/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetSpatulaNameV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "c086d5700618ab2b0a3ec1ba08a367e38f56b61852f602d8303dc8ccff83ec1a",
+      "afterSha256": "7f6f5b4f10a5d82e413e91e96698bc4e38895a39991559c3a4a84097b71e9356"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Anseriformes/Anatidae/Spatula/Spatula_platalea/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetSpatulaNameV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "80d40178fa48a3693c55ea483c6fd1d2d1744c35bd25b6e236f57ecd2e1c12be",
+      "afterSha256": "0227867219c006dde60615598bf95c9b5cb8f362da35cfa78783b9bd9f8bd466"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Anseriformes/Anatidae/Spatula/Spatula_cyanoptera/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetSpatulaNameV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "867c3623b3130c150a0decba2009e9856772cdd2364195f464bad965d4a8b304",
+      "afterSha256": "774cc6777bb794b194a999b23cf2cbe521b7f38ec3f469d14ed892f53a60960e"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Anseriformes/Anatidae/Spatula/Spatula_versicolor/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetSpatulaNameV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "3fbf21db353748c9eeae86b501313c1c536dff2b54b3620a4ec69225399f6b26",
+      "afterSha256": "4ee5ac19fb80f6069d1cdb23edb48905ce55b9be5f93b9ff1eb55be4b14ec5a4"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Anseriformes/Anatidae/Spatula/Spatula_discors/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetSpatulaNameV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "9dcadf79085f4d8d0540bd2467213de791efcdb1c74034684ba32268a9503602",
+      "afterSha256": "9182e875b9e211d14cea7e083e2750fd63223e5a2210b7e6b04da5a8760c0c0f"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Anseriformes/Anatidae/Spatula/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetSpatulaNameV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "8e24cf4e0d2557bbcaeaea817e08a15b49d84493233546dbec5f8e668a8f9a00",
+      "afterSha256": "79bd4050f5d2b9df365380d02d993da3c5b34034faea047d6487a7ed4c617107"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Anseriformes/Anatidae/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "avonetSpatulaNameV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "86639063a311a472aec6328363379655c8cc90ede9de1098e78f53547b44824f",
+      "afterSha256": "8730a727baa3a80f43f67652e3b897f631f9246a2726a392ca00fbdfb998665a"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_jacksoni/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "80a93c1ea0da643c4f25287a9c9b142361f67ad039149f521e2af8e83dc94158",
+      "afterSha256": "5b19045736850e5359579e4cea06ba8534b7a47084cc5c42b20287fe3d94caaf"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_adspersus/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "6a5efdc8704ee8b8e3177158d2086e67b81038de1dd3023950e4bdbb1fdba788",
+      "afterSha256": "1d49a8c2cc998f6bcad0c605645b234bf836c8d74e22f0c0890adf5f1f3f499d"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_hartlaubi/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "8c9efdb21fe2beda5084b20353a832245c8a8de51da95339a63a24d9f4560a70",
+      "afterSha256": "f8c6ec8446fa8cbfa5d478a1217fbd55189144da399b1f44a117bee58d51dd50"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_bicalcaratus/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "a38b7a3d70f29da397e0f98fc44dbfe1edc8fc7f4f27f76a42b3d97178cdd321",
+      "afterSha256": "35d4cb090a784a399a7b0d64aad98c610dfbb39a9b93558516ac64c09c681d7e"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_clappertoni/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "d9563ff33b20abff8cc475f549cb6b892af10e0444af95f11c17d2e995da0cbf",
+      "afterSha256": "28419614ee0bb224f83bed0dd23d5795d15d5c5ab6c788189df65728b16dce5d"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_griseostriatus/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "bc0e3c7ca59aa9960fa2c94f9ac7fd66c0637b513e194df6b1f484a0a68c0227",
+      "afterSha256": "bd687968cbdae84009285646110596c0d3014d14890a1cc1d86259bdb71c1bb4"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_hildebrandti/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "36483932f0d4871f7a2fd698380785a1752141cb9bc51771fdb3f432a3a224f7",
+      "afterSha256": "cd195017a4c1a140f46b790a9e026b2a27c9a1a4578f795db90774dafc8117d4"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_swierstrai/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "a019c2e5aea5abebe1a25a4289e2044af8f3fbdffb9b56d4f833fb75839d513f",
+      "afterSha256": "7f331533bc3b11c85e5b5c8d7addf3701f50a6acd89ecf2ad59ee066b7040053"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_erckelii/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "227490e6d26ee8e21e7340e376f5464a278173818d1a94ff7a41e996e47e3a72",
+      "afterSha256": "e0aca9e3855e2e9308de06a386daec037c34bb9535875d49219f5419ab8f3ce4"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_swainsonii/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "7899098b87ae30c5844286f6f03c30e135aefa06c0be29bfb3816c0f56e0df63",
+      "afterSha256": "b918235efa96844e67624c8a6f9433b92fe97e926624b94ec86c8465100f6919"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_ahantensis/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "63e60223b193cf3215a53de6cf8ad7b366579a81dfafdd60b92ea8c88864cefd",
+      "afterSha256": "df3881222b32d01b738a8095f4799ba70e32c2c0a1dfa6fd2bb3d18a08522aa4"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_squamatus/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "3a2b750ea224f1be20776cb376c736d445508c193b76e18e329a00a27cc920c2",
+      "afterSha256": "9614a39a6e33be3f560b8fab384b5dada667161b69fe0a0ef555d7cdb630b5e6"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_camerunensis/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "6747cd2965d8e5f6b2c06a46dbdd81c0aebf2b938ed731439a6a431bd2b3cd68",
+      "afterSha256": "85098b552c2c2ed7549a2060fb699795e6743002474adb93001b3ca2fd31d4fe"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_ochropectus/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "062067025d5b3cbc7dab598865a7ff2e4ec36a4bc931108bc0a4cfc6db6c9644",
+      "afterSha256": "338d92d58c6777226be01fbeb1158c27a51cc7315915347c3bdcc78cad3d999a"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_afer/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "e26b3105d7451766cd13cb4686c404c655f11d90bd4f4dfd2b7564b8cee263f2",
+      "afterSha256": "916350274f2c5efb484a4897c6d79fb3eb44506315b75b8d80cf61b466796f79"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_leucoscepus/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "321825859c5184acc15c66a979778cc1aae1968724247a7ab4df85e905f89c63",
+      "afterSha256": "47abc4dd694b3e695c86d99233056b8db6d31fb0b378e7e805c7d1b6920abc59"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_capensis/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "7117faaddbff7b58cc4a3b0aeec2825326fd73ee05792258a0fb59330b77a030",
+      "afterSha256": "d9cc38694a85072b29a9c2b7bb1f991a3f6b7be7c80b7b855694a69dbf65ba3b"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_rufopictus/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "37b2b97143772fa92b7874c05830cf43c30e64d42e2659f9c685b8b0fbcf2267",
+      "afterSha256": "52fa09238d98d830b56e4538918babc0cad88938844eccf82efec011ee6ba76b"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_icterorhynchus/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "b2801198e1ab2840576edb7600c150269effc4c9d3546e6bbd72b40507e3be27",
+      "afterSha256": "cf7ba0365fe4628ccc2b70492ee0174d1482645fc7ed3b6e5587bb638fb0c9d1"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_natalensis/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "a947f8117deb7114dd0529eb0ac741155a4fde04dbb7fffb8ca11e253314017a",
+      "afterSha256": "9786397d8321c232867e21bf259bc865e6b4500045a2931fd0effe9083052c8f"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_nobilis/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "4da701e1b11c3e912116e388609c30d85eaffdd966fd896c346b6f2b00971e78",
+      "afterSha256": "feb052a0f11695895d5646d506c7e81f91b1c275f25cadc203fbbfbcaa43d0fb"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_atrifrons/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "6777ed119e96976d2542c4198a0699ecf0f6f16264bd46db0b99b68a3d16247b",
+      "afterSha256": "c3379b1c466b6dadf052a0813c574bd524ea588c938723a353a9deaad2b34396"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_castaneicollis/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "85b6e9470af84b2bc10b8baf06da3af893d66c560b845acd309b52c2d79217a3",
+      "afterSha256": "23827b4e3d9ae41d5a7c6d77833c5689fc2f8e732bb4a9c6515664fc7c3d10d2"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/Pternistis_harwoodi/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "7f8f039ac72648e504f31ebcfa507d3b550af86ac04ea59460eb14f9b772adb7",
+      "afterSha256": "0646b9f8804def324cf2a341f1a82be75984ec19ce428623b40702f75f6c9d83"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/Pternistis/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "54e2e910aaedc18f5a355181662d4418b4365c2a98542d17591ac3e20e835997",
+      "afterSha256": "edf46ed12162f3f43e3353afb976185d2abfe6a4ff80e21d886c6df0d9975013"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Galliformes/Phasianidae/evidence.md",
+      "quotedInvalidPlainText": true,
+      "repairedBindings": [
+        {
+          "sourceKey": "avonetPternistisHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "53da5788874a6c2fa3c76d63306fe1b1d48cfa521765ba624bab2de40a6adbdb",
+      "afterSha256": "b1cf9c37d35b2f24122fd88d63d64b74162c15b5cf200cf6d4d4974663f337a0"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/Psilopogon_flavifrons/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "b24e6b232dcc8b6f3b020dcc9fa0be65b633fae04c5a832695df7ff4116af645",
+      "afterSha256": "3ad35debf26852cdd9c451e70230a4c80139e3477a68061ff00d3ce431312a58"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/Psilopogon_zeylanicus/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "722af81dab9d83e99a283f6cc5184b70172d4ea863ecf51d39a7bde497f42def",
+      "afterSha256": "534e7a0c6110e83481b1a0599e6aa93ae132c6a09dc5016b2957e405f9469c07"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/Psilopogon_armillaris/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "40c53bb6464bbeea7fd2451a38b00c9c6f1f80136e0b54d46d079f7930d7dc78",
+      "afterSha256": "37bcc78ff9c5156b16ce927549ca46cf6962f25f5bc03ff9b265f3b52830ce1b"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/Psilopogon_monticola/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "c7e19c93a0cb0476f4d85eeb87060867e5ad558d529d8e88dcfcde2e7189f7d8",
+      "afterSha256": "bb33a6cc851577d83671803de9a5244b5d33f48d591882c6f47feb56f6593c30"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/Psilopogon_lineatus/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "82809098a1a8c9c2da5613aca5c058d1645ffe891d9508b1cc827e1a490de985",
+      "afterSha256": "7ac29483f93e7c3da54d6d5ef2955c33160a89573b90c75c8ce2aafbd2dbf7c8"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/Psilopogon_haemacephalus/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "ff6f5896116181f3abef2ba26193ff3efb0d58779a8466a3d25bd41d0f3102ff",
+      "afterSha256": "1df0fa169fc671d21411d69aaea745fe41fa513c2b953ad239eb6601c03008e1"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/Psilopogon_henricii/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "d42bf6a8c1c0496b0cf3f91533e3ce2486129a409bb57953b9f25f3eb3bf5152",
+      "afterSha256": "2255ac4de898b6539f4e5da62f7789a976d43f164235602e848ad59c8f07ab5f"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/Psilopogon_rafflesii/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "0a84a67b021d47ee6545ce33ed4c95f6cba0005e518d01675939135c77f1b1d2",
+      "afterSha256": "c776ed60137dddc8ab6d16e12a46ee90078d3681b37c9b809ee3447fe754762f"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/Psilopogon_pulcherrimus/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "d67ac20333d78d4a5bb7ae574a300297b78566f1593ba9f77ca769b5da23ece6",
+      "afterSha256": "7711674919215113f0d7781dc8e3b426b42efdcd0f2622e85b89b0f09c70dade"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/Psilopogon_mystacophanos/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "c033ac913a5daad3c745a7f7a517a199d3ede69138f08c4e7648f11ffb68c97e",
+      "afterSha256": "8395c7c214661199aab225714e05e448425779b93dc4ba4475c42c7b1be77cb0"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/Psilopogon_nuchalis/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "5987ce9f7d9a675a8404ae2920371bbaca0e4e5c0a56f8c9e8fd1ff918c76a2e",
+      "afterSha256": "bba04779857f818b4357427d0a74671f23fc444692813ca155762dfbf715d6bc"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/Psilopogon_faber/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "90c34876bb04268710c1ecc2ab1d2063ba1dc72fd58746b1f1887a7bb13cfa12",
+      "afterSha256": "0803eebdab7130af7e677d9db48283de9109eb1d0090a51d9a20ab55e6d8c54c"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/Psilopogon_chrysopogon/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "3fc7b3f45139f188242382e1318d832d8da030555f6b077c751b7e9dbb86dd6a",
+      "afterSha256": "f6b624ec9d2510c4c9aeba29abe04d2ec6919417602a1e2ac6cea71ec12945a7"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/Psilopogon_corvinus/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "a66f140668db5f49ba8bdcee51c2a237d0cc78f92b857912b0b79f12d7267163",
+      "afterSha256": "e47a0d284c1fa7bb44dfc772cc9feae36ca79bf3e11ee34fa45c9460127d3367"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/Psilopogon_viridis/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "c642658af354c69af893bd2b5a5a4c1a7c23cb40e1f070dcbfae69be31a4c868",
+      "afterSha256": "c29595acd7f7659e4d459e92cb713688b5b63833e3295faa001387c915dfb533"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/Psilopogon_virens/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "3f3d0e676e519577d114bfdef83665cc2d7c2e7ed5c3f5bd9685d432cd1311ad",
+      "afterSha256": "61966d00ea6a90dbafbee616863861c178474982f057f1943e23af064a8e8b0a"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/Psilopogon_javensis/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "f74758e52bd98e05ea57defe76177202da90af6df44bf2dfe5050eea30b89962",
+      "afterSha256": "b808608c387507bbd14c42104d92f1c47e51106adb307902aa6b33035a1fc852"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/Psilopogon/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "d784860adf0721443f929e48d07ccbc8ad9c5608c094d80670386d3af1afafc3",
+      "afterSha256": "9c24be2067057cbfa2d141bfabd90e322e608fde6a47c1a5b62dbdfdf83a447d"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Piciformes/Megalaimidae/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "avonetPsilopogonHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "9c289a038bb575c75ec272a64ff0c8913d848667b2d0eda3080c0f7e8ae41c40",
+      "afterSha256": "a654ae4442ea6bd5e83c2308330221b139141cf65716e33fbf2aa48b572940d1"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Turdidae/Geokichla/Geokichla_oberlaenderi/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetGeokichlaHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "8067f559d70888d3324c7cade633eb12702996a096a80f37592d452a42540c4c",
+      "afterSha256": "d3e1574da7e21988f458b8f3cc3dedd7aa1ddf4503aced398d498ddad68e6012"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Turdidae/Geokichla/Geokichla_gurneyi/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetGeokichlaHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "19e857732b3412f7e36a4cdf3767c36479270ff895a6c926a77a2d577444b946",
+      "afterSha256": "3a0dc831f0cbaa3431b421ce721125d44ba675f112f66616ae9f0391162021c1"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Turdidae/Geokichla/Geokichla_cinerea/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetGeokichlaHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "441d5d21a70d5294eeb5c05ff7abe3bae34710b6ca33508c642c87fc0ae9f79d",
+      "afterSha256": "678148dd44ee9c83dce041752897d7b196641d5f590819a526f6eecfd9fde914"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Turdidae/Geokichla/Geokichla_guttata/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetGeokichlaHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "80ea5d288c5dbe4bbca8ff8abf2f6e02b08e18a27fdb9dd54765f1d7c46e724f",
+      "afterSha256": "d03010e3e446efec0db2ef7b8e47c011fa2f42543f15bbae58361afb7c54b681"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Turdidae/Geokichla/Geokichla_crossleyi/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetGeokichlaHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "8e33abfc0e58809f249966dbc9c92efcf5ba06809bf02711679c659c2e45e9c2",
+      "afterSha256": "0fe28d0c308e78b829d14ee53e717ff87ae6871773087056d9570f39f0b12e10"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Turdidae/Geokichla/Geokichla_sibirica/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetGeokichlaHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "d6a381be80833322dde8c83bcfa7a9b743264270fe925aa88ee0406424c79224",
+      "afterSha256": "777985f76a005631603db3c6521c374ab7b9e88fe5d0bfe9a40b2da23e76b07f"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Turdidae/Geokichla/Geokichla_dumasi/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetGeokichlaHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "0109a89e07b6e779e101322baee315a4d80b7838cf583ca142ac215821381b0a",
+      "afterSha256": "c9a21d4b7ab1c5f4f9ebb25b5d77e5d7800eee881ab156fce8b1b476fe4d01b7"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Turdidae/Geokichla/Geokichla_wardii/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetGeokichlaHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "f22ee4ef09ef9c3aa2960dc2e0e34ed4b37885bc50e68d9e6bd802bb5b69ed87",
+      "afterSha256": "c87d436dfd81f71e5a5e3b690f7f084dc98e68ec9db5acb0313b0f41c4417862"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Turdidae/Geokichla/Geokichla_mendeni/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetGeokichlaHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "3e097106e216e8871a51f122a99dfe67e4e76b3d287381d5babdb8e08674eda8",
+      "afterSha256": "9fe58a66495a2f131233a50d224b17c2502f08f569044dab585a1224c0ba0d43"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Turdidae/Geokichla/Geokichla_camaronensis/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetGeokichlaHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "19e6eef7be628e66b86849bd3b49c955aa0d0fc5490e466febd478a80abd097d",
+      "afterSha256": "da11a097618cc2e12bf77a45da0f73763e6344624101d9f77d42c03816c73a34"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Turdidae/Geokichla/Geokichla_joiceyi/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetGeokichlaHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "970f5a6e2ddd7cf196acaf503e4868b4ccc4fda4f82f3502068ee25e3c57bb89",
+      "afterSha256": "f75953bd06de03b8a0b2f9a44d097d7e65ddf6e3a54d66c8484fb492081f01cd"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Turdidae/Geokichla/Geokichla_princei/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetGeokichlaHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "e0713c6ba3ed500b61c482bfd2a7da941498c3ed9f096ffa8bc3c90d1405a63f",
+      "afterSha256": "5b10cfd4de690a98e114509e3a46351caf3d8185d68e0f31164e614500493555"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Turdidae/Geokichla/Geokichla_erythronota/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetGeokichlaHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "c2b634f7637bc6cde34cd3ef04a1677cee11165a1c78ca0d1198a1871c7684a9",
+      "afterSha256": "f3520b04cc989649ec72cb07a4f17e8fd49c86a56041ec9567816e68314836b4"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Turdidae/Geokichla/Geokichla_spiloptera/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "taxonomy",
+          "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "locator"
+          ]
+        },
+        {
+          "sourceKey": "avonetGeokichlaHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "8eba689ee6dcf45cf61c042b710a331c2f6320a97b4cf98f666b59d6c5578a9e",
+      "afterSha256": "d7fcb598b12edb7e6e7fa377f27f540b00fd899de07ce7db23de52be19f87625"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Turdidae/Geokichla/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "avonetGeokichlaHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "ccdd5e0b67606ee14466234fba8fc452f0db03594aebb751aad54d68b8613d01",
+      "afterSha256": "282f395c45fbc2e69ab262fc4d86d92541b56521f6918f7c76a8f723712f04db"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Turdidae/evidence.md",
+      "quotedInvalidPlainText": false,
+      "repairedBindings": [
+        {
+          "sourceKey": "avonetGeokichlaHistoricalV7",
+          "referenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+          "metadataVariant": 0,
+          "originalFields": [
+            "id",
+            "title",
+            "url",
+            "version",
+            "license",
+            "licenseEvidenceUrl",
+            "accessedAt",
+            "locator",
+            "scope"
+          ]
+        }
+      ],
+      "beforeSha256": "c13c1a2636eb37ae1e6e41a5f3d49de2e0fb4321bea634bd39cfb01a79278615",
+      "afterSha256": "4820c1f01de461a2da57b8f97e5c7cea3eaa12c3e3f91b3b1455afea4e375349"
+    }
+  ],
+  "affectedProfiles": 82,
+  "repairedBindingCount": 155,
+  "yamlPlainTextRepairs": 26,
+  "retainedBoundaries": "Existing reference IDs, metadata variants, usage scopes, reader prose and maturity retained. Historical hashes in earlier receipts describe their prior state; this receipt records corrections.",
+  "delivery": "No tests, validators, generation, commit or publication run.",
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "Repaired originalFields read from known receipt paths; three field-list patterns, all 26 Pternistis source scope strings, restored reference metadata variants and authoring-helper field-list code read. No whole-corpus parsing, runtime generation, tests or validator run claimed.",
+    "authoringHelpers": [
+      {
+        "file": ".git/reader-binding-fields-149.mjs",
+        "sha256": "c8ffb3d67597efce9a3ec128f6b3e2680ad27d07e32132c2285517e38cd586a2"
+      },
+      {
+        "file": ".git/reader-new-profile-authoring-145.mjs",
+        "sha256": "73000dc23a4fa74e1aa86faa98706fdc592e4fee2754910994f878b3ae747627"
+      },
+      {
+        "file": ".git/reader-section-authoring.mjs",
+        "sha256": "29c66e68a6792e56efdbb6010555059890d1c92649636a7bfdf1275bd9a28c72"
+      }
+    ]
+  }
+}

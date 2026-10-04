@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-03",
+  "scope": "Preserve original malformed DOI fields and collect only explicitly transformed metadata candidates; original bibliography remains unchanged.",
+  "records": [
+    {
+      "pbdbReferenceId": "ref:26395",
+      "doi": "http://app.pan.pl/acta50/app50&#8722;219.pdf",
+      "identityStatus": "metadata-retrieval-failed",
+      "url": "https://api.crossref.org/works/http%3A%2F%2Fapp.pan.pl%2Facta50%2Fapp50%26%238722%3B219.pdf",
+      "error": "HTTP 404",
+      "fullTextCollected": false,
+      "fullTextRead": false,
+      "repairAttempted": false,
+      "reason": "Source DOI field does not contain a DOI."
+    },
+    {
+      "pbdbReferenceId": "ref:45333",
+      "doi": "hdl.handle.net/2246/3235",
+      "identityStatus": "metadata-retrieval-failed",
+      "url": "https://api.crossref.org/works/hdl.handle.net%2F2246%2F3235",
+      "error": "HTTP 404",
+      "fullTextCollected": false,
+      "fullTextRead": false,
+      "repairAttempted": false,
+      "reason": "Source DOI field does not contain a DOI."
+    },
+    {
+      "pbdbReferenceId": "ref:45360",
+      "doi": "10.1206/0003-0090(2008)501",
+      "identityStatus": "metadata-retrieval-failed",
+      "url": "https://api.crossref.org/works/10.1206%2F0003-0090(2008)501",
+      "error": "HTTP 404",
+      "fullTextCollected": false,
+      "fullTextRead": false,
+      "repairAttempted": false,
+      "reason": "Unresolved DOI; do not guess replacement."
+    },
+    {
+      "pbdbReferenceId": "ref:46051",
+      "originalDoi": "10.1671/0272-4634(2008)28%5B231%3ANHBMFT%5D2.0.CO%3B2",
+      "candidateDoi": "10.1671/0272-4634(2008)28[231:NHBMFT]2.0.CO;2",
+      "transformation": "decode-percent-escaped-DOI-once",
+      "metadata": {
+        "file": "data/sources/snapshots/amniota-literature-link-repairs-2026-10-03/ref-46051.json.gz",
+        "url": "https://api.crossref.org/works/10.1671%2F0272-4634(2008)28%5B231%3ANHBMFT%5D2.0.CO%3B2",
+        "sha256": "eed27c6ec6585641d376b28898c46e18bcdfb933a670024ebf697b8e5612bc6d"
+      },
+      "crossrefTitle": [
+        "New hippotragini (Bovidae, Mammalia) from the Late Miocene of Toros-Menalla (Chad)"
+      ],
+      "publisher": "Informa UK Limited",
+      "abstractCollected": false,
+      "conceptEquivalenceConfirmed": false,
+      "titleReviewPending": true,
+      "fullTextCollected": false,
+      "fullTextRead": false
+    },
+    {
+      "pbdbReferenceId": "ref:53115",
+      "doi": "17 December 1871",
+      "identityStatus": "metadata-retrieval-failed",
+      "url": "https://api.crossref.org/works/17%20December%201871",
+      "error": "HTTP 404",
+      "fullTextCollected": false,
+      "fullTextRead": false,
+      "repairAttempted": false,
+      "reason": "Source DOI field does not contain a DOI."
+    },
+    {
+      "pbdbReferenceId": "ref:53196",
+      "doi": "25 October 1873",
+      "identityStatus": "metadata-retrieval-failed",
+      "url": "https://api.crossref.org/works/25%20October%201873",
+      "error": "HTTP 404",
+      "fullTextCollected": false,
+      "fullTextRead": false,
+      "repairAttempted": false,
+      "reason": "Source DOI field does not contain a DOI."
+    },
+    {
+      "pbdbReferenceId": "ref:60779",
+      "doi": "10.4202/pp.2016.67_035",
+      "identityStatus": "metadata-retrieval-failed",
+      "url": "https://api.crossref.org/works/10.4202%2Fpp.2016.67_035",
+      "error": "HTTP 404",
+      "fullTextCollected": false,
+      "fullTextRead": false,
+      "repairAttempted": false,
+      "reason": "Unresolved DOI; do not guess replacement."
+    },
+    {
+      "pbdbReferenceId": "ref:75307",
+      "originalDoi": "10.1093/zoolinnean/zlaa165/6088263",
+      "candidateDoi": "10.1093/zoolinnean/zlaa165",
+      "transformation": "remove-OUP-article-page-id-candidate",
+      "metadata": {
+        "file": "data/sources/snapshots/amniota-literature-link-repairs-2026-10-03/ref-75307.json.gz",
+        "url": "https://api.crossref.org/works/10.1093%2Fzoolinnean%2Fzlaa165",
+        "sha256": "fb387ae18cdd0e5b48b9ace13afa2745b5faba6c9f6595ac16a2f318f311afa8"
+      },
+      "crossrefTitle": [
+        "Review of the extinct ‘shrew-opossums’ (Marsupialia: Caenolestidae), with descriptions of two new genera and three new species from the Early Miocene of southern South America"
+      ],
+      "publisher": "Oxford University Press (OUP)",
+      "abstractCollected": true,
+      "conceptEquivalenceConfirmed": false,
+      "titleReviewPending": true,
+      "fullTextCollected": false,
+      "fullTextRead": false
+    },
+    {
+      "pbdbReferenceId": "ref:84197",
+      "doi": "10.19615/j.cnki.2096-9899.211025",
+      "identityStatus": "metadata-retrieval-failed",
+      "url": "https://api.crossref.org/works/10.19615%2Fj.cnki.2096-9899.211025",
+      "error": "HTTP 404",
+      "fullTextCollected": false,
+      "fullTextRead": false,
+      "repairAttempted": false,
+      "reason": "Unresolved DOI; do not guess replacement."
+    },
+    {
+      "pbdbReferenceId": "ref:84887",
+      "doi": "10.1080/02724634.2022.2145",
+      "identityStatus": "metadata-retrieval-failed",
+      "url": "https://api.crossref.org/works/10.1080%2F02724634.2022.2145",
+      "error": "HTTP 404",
+      "fullTextCollected": false,
+      "fullTextRead": false,
+      "repairAttempted": false,
+      "reason": "Unresolved DOI; do not guess replacement."
+    },
+    {
+      "pbdbReferenceId": "ref:85457",
+      "doi": "10.26382/AMQ.2020.08",
+      "identityStatus": "metadata-retrieval-failed",
+      "url": "https://api.crossref.org/works/10.26382%2FAMQ.2020.08",
+      "error": "HTTP 404",
+      "fullTextCollected": false,
+      "fullTextRead": false,
+      "repairAttempted": false,
+      "reason": "Unresolved DOI; do not guess replacement."
+    }
+  ]
+}

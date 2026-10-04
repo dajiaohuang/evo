@@ -2,19 +2,31 @@
 schemaVersion: 1
 kind: reader-page
 locale: zh
-status: migrated-verbatim
+status: source-linked
 ---
 
 # Cheracebus
 
-## readingPath
+## 按研究问题选择阅读路径
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
 COL26.8 属级 ID 3MSD 连接 Cheracebus medemi（TXQM）、C. aquinoi（VQ6J6）、C. lucifer（TXQK）、C. lugens（TXQL）、C. regulus（TXQP）和 C. torquatus（TXQQ）的接受种页。可将 2005 年下游卡克塔河—阿帕波里斯河样线研究，同 2022 年洛雷托新种描述对读。2021 年 Itaya、Nanay 与 Tigre 流域调查可作区域背景，但记录的仍是未定种 Cheracebus sp.，其数量不归入 C. aquinoi。三项研究的地点、分类范围和方法应分开理解；本路径不是属级完整分布、丰度或生态综合。
 <!-- /evo:text -->
 
-## catalogue-profile / limitations
+## 资料适用范围
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
 本路径串联六个接受种 ID 与三项地点和分类范围有限的研究，不是完整属级综述。旧样线论文采用的名称范围宽于当前种级划分；2021 年区域调查沿用 Cheracebus sp.，新种论文以分类描述为主、不是完整生态调查。本批未新增 dossier 或外部领域专家评审。本页未经过外部领域专家评审。
+<!-- /evo:text -->
+
+## 先分开名称、旧样线和国家评估
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+阅读梅德姆跳猴页时，先看名称与模式产地，再看旧名 Callicebus torquatus 下的区域调查，最后阅读有明确日期的哥伦比亚国家评估。三类材料回答不同问题：名称固定、历史地点观测和评估判断。它们不能相互补足当前种级野外生态或数量趋势；国家评估也不能外推到其他 Cheracebus 接受种。随后可对读 C. aquinoi 的新种描述，保留各来源的地点、分类概念和方法边界。
+<!-- /evo:text -->
+
+## 从手部颜色回到标本证据
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+[Cheracebus medemi](Cheracebus_medemi/page.zh.md) 介绍 2020 年馆藏比较为何质疑仅靠黑色手部鉴定。标本数量与野外数量分开阅读，分类争议也不能代替本种的生态调查。
 <!-- /evo:text -->

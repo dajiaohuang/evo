@@ -1,0 +1,140 @@
+{
+  "batch": "P5-128",
+  "date": "2026-10-03",
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Aotidae/Aotus/Aotus_jorgehernandezi",
+      "newBilingualSections": 3
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Aotidae/Aotus/Aotus_brumbacki",
+      "newBilingualSections": 2
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Aotidae/Aotus",
+      "newBilingualSections": 2
+    }
+  ],
+  "enrichedReferences": [
+    {
+      "id": "ref-ebe52da6-626f-845c-aa44-e0b68fad820e",
+      "doi": "10.1896/052.022.0104",
+      "authors": [
+        "Thomas R. Defler",
+        "Marta L. Bueno"
+      ]
+    },
+    {
+      "id": "ref-decedec4-f10a-8ee9-af26-51be8776dd44",
+      "doi": "10.11646/bionomina.43.3.3",
+      "authors": [
+        "Sebastián O. Montilla",
+        "Sebastián García-Restrepo",
+        "Alain Dubois",
+        "Andrés Link",
+        "Héctor E. Ramírez-Chaves"
+      ]
+    }
+  ],
+  "protocolMoves": [
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Aotidae/Aotus/Aotus_jorgehernandezi",
+      "locale": "zh",
+      "field": "/records/catalogue-profile/sections/1/topic",
+      "value": "karyotype records"
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Aotidae/Aotus/Aotus_jorgehernandezi",
+      "locale": "zh",
+      "field": "/records/catalogue-profile/sections/2/topic",
+      "value": "type diagnosis"
+    },
+    {
+      "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Aotidae/Aotus/Aotus_jorgehernandezi",
+      "locale": "zh",
+      "field": "/records/catalogue-profile/sections/2/sourceIds/0",
+      "value": "jorge2007"
+    }
+  ],
+  "sourceFiles": [
+    {
+      "file": ".git/aotus2007-primary.pdf",
+      "sha256": "b90b67a7a0ff925b03973f5945af714b3687031ccbf8dc1176f60fbb8314f61f"
+    },
+    {
+      "file": ".git/aotus2007-pages.json",
+      "sha256": "209ec33d44b7e61f36b289b7d473ec42edf9e2ce0d44f387c0736ee3994bf779"
+    },
+    {
+      "file": ".git/aotus2025-publisher.html",
+      "sha256": "a17eb5ff03acadceaa62274b08de82f0aeff0d3537bee8e9192e59f8251bd4a9"
+    },
+    {
+      "file": ".git/aotus2025-abstract.json",
+      "sha256": "1da34e1557b7ce2117b025e1f73b76f983f3c505bc20308dedc8d4b93e6469ea"
+    }
+  ],
+  "readingScope": "Front bibliographic information and English abstract on printed page 55, and selected 2007 text on printed pages 59–61, including Table 2 and figure captions; publisher 2025 abstract and front metadata only. No original 1998 paper, images, specimens, full 2025 methods/figures, or rerun analysis.",
+  "boundaries": {
+    "typeICN14023FemaleUnlocated": true,
+    "QuindioCaptiveLocationNotWildCollection": true,
+    "reprintedPhotoNotNewSample": true,
+    "hybridSterilityPredictedNotTestedInNamingAccount": true,
+    "nomenclaturalAvailabilityNotSpeciesAcceptance": true,
+    "synonymProposalNotEcologicalEvidenceTransfer": true,
+    "source2007Page59MetacentricRepeatedVersusPage60DiagnosisSubmetacentricDifferenceNotAdjudicated": true,
+    "source2007BrumbackiCompositionTextTableDiscrepanciesNotConvertedIntoNewConsensus": true,
+    "source2025FullTextSubscriptionNotRead": true,
+    "activePrimateSourceGaps": 14,
+    "newlyClosedPrimateSourceGaps": 0,
+    "fixedAcceptedPrimateDenominator": 530,
+    "classificationCountsRangesAndReviewMaturityUnchanged": true
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All seven new bilingual sections and six final limitations read; all new and old section metadata, new bindings and existing source-key vectors across three profiles, two enriched shared references and plan entry read. The three legacy biological sections on A. jorgehernandezi were reread in both languages after removing three protocol blocks. The new A. brumbacki association paragraph retains both its 2007 and existing 2024 source keys. Not a full legacy scientific audit, full 2007 paper reading, 2025 full-text access, specimen or image review.",
+    "canonicalFileHashes": [
+      {
+        "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Aotidae/Aotus/Aotus_jorgehernandezi/page.zh.md",
+        "sha256": "a6c65b8146e3c7ec94baad0b6d9a4a3ae784f9d426cdcdc2f597e2ce3ea4636a"
+      },
+      {
+        "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Aotidae/Aotus/Aotus_jorgehernandezi/page.en.md",
+        "sha256": "fb6d19a1c246c7885e029afaf7e24c39ea5ce8a5f0a23bc9adb4ef5c27b1cd86"
+      },
+      {
+        "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Aotidae/Aotus/Aotus_jorgehernandezi/evidence.md",
+        "sha256": "188e1b7727a8c1550ccd668ac509ee9da1b7fddb638a68daa4004e90731b5e00"
+      },
+      {
+        "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Aotidae/Aotus/Aotus_brumbacki/page.zh.md",
+        "sha256": "b8b26eb8fef1654b340cefb37b31178d455d16a92317bd56c704369addc7ec66"
+      },
+      {
+        "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Aotidae/Aotus/Aotus_brumbacki/page.en.md",
+        "sha256": "51c9a956f3ed7ed5bd2b15632178829d4f840fcd1323a36005759bc07ca40469"
+      },
+      {
+        "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Aotidae/Aotus/Aotus_brumbacki/evidence.md",
+        "sha256": "f8b548a6cf17173bd313bb4a09e82b4f2f6c122212c38b8a51bb1d64deff7da7"
+      },
+      {
+        "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Aotidae/Aotus/page.zh.md",
+        "sha256": "54e49b9bf909cc6dd08739e922e680a5597289d54d814b3cfa059860ce471edc"
+      },
+      {
+        "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Aotidae/Aotus/page.en.md",
+        "sha256": "0c6ba98fe3f28a106b4b852f04beedb5708bc8231f4ba84ba085a599703af948"
+      },
+      {
+        "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Aotidae/Aotus/evidence.md",
+        "sha256": "4e1f9e142ef3774acef479e2aba8ef47546e4095a00b39e16da1aeff2ba3a842"
+      },
+      {
+        "file": "data/references.json",
+        "sha256": "4444e91904d4d99f193c91f848fcd030baf0fb7f9ab3ec47eb4180623be4d723"
+      }
+    ]
+  },
+  "delivery": "Canonical authoring only; no tests, generation, commit or publication"
+}

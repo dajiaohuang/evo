@@ -1,0 +1,34 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: zh
+status: source-linked
+---
+
+# Balaur
+
+
+## 沿标本与两种亲缘假说阅读
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
+[Balaur bondoc](Balaur_bondoc/page.zh.md) 现在从 EME PV.313 的保存部位开始，比较融合手足骨、退化手指与大足爪，再读 2010 年驰龙类解释和 2015 年早期鸟类重评。分类目录保留固定 PBDB 的来源路径；研究提案不会自动变成目录改名。食性、飞行能力与岛屿适应应按各篇研究的推断范围阅读。
+<!-- /evo:text -->
+
+## 按来源分类组织化石记录
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+固定 PBDB 路径将 Balaur 列为属。其下本批可读 1 个固定工作名录物种的出现导读；这里使用数据库记录的父级路径编排资料，不以资料条目数量评定类群演化重要性，也不把这一路径视为唯一系统发育方案。所选化石条目不能据条目数估算过去多样性。
+<!-- /evo:text -->
+
+
+## 从采集地、地层和年代对读
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+可以从 Balaur bondoc 开始，对照各页具名采集记录和原引文。本路线所含的全部本批物种合计有 2 条所选出现记录、2 个采集记录，地层名示例为 Densuș-Ciula、Sebeş。先读每个采集地自己的年代区间和鉴定限定，再看不同地点之间是否可比；出现、采集和物种数量不能混用为古种群规模。
+<!-- /evo:text -->
+
+## 资料边界
+
+<!-- evo:text /records/catalogue-profile/limitations/zh -->
+本路线连接本批出现记录与标本、亲缘重评导读，不是完整后代名册或统一生态总结。出现与采集计数不代表个体、种群或采样强度；宽年代不是起源或灭绝时间。PBDB 路径用于编排，并与研究提出的 Avialae 位置分别呈现；没有改变来源分类，也没有外部专家审评。
+<!-- /evo:text -->

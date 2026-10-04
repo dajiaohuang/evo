@@ -1,0 +1,528 @@
+{
+  "batch": "P5-132",
+  "date": "2026-10-03",
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Alligator/Alligator_mississippiensis",
+      "newBilingualSections": 4
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Crocodylidae/Crocodylus/Crocodylus_niloticus",
+      "newBilingualSections": 6
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Caiman/Caiman_crocodilus",
+      "newBilingualSections": 3
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Alligator",
+      "newBilingualSections": 2
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Caiman",
+      "newBilingualSections": 2
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Crocodylidae/Crocodylus",
+      "newBilingualSections": 2
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae",
+      "newBilingualSections": 2
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Crocodylidae",
+      "newBilingualSections": 2
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia",
+      "newBilingualSections": 2
+    }
+  ],
+  "sharedReferences": [
+    {
+      "id": "ref-6ba848cf-fdb8-4e26-8018-2a647681a036",
+      "doi": "10.1242/jeb.076836",
+      "authors": [
+        "Duncan B. Leitch",
+        "Kenneth C. Catania"
+      ],
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4074209/"
+    },
+    {
+      "id": "ref-dec4bb4e-e238-417f-9afc-ec1fc7c1f52f",
+      "doi": "10.1186/2041-9139-4-19",
+      "authors": [
+        "Nicolas Di-Poï",
+        "Michel C. Milinkovitch"
+      ],
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3711810/"
+    }
+  ],
+  "sourceFiles": [
+    {
+      "file": ".git/crocodile2012-sensory.html",
+      "sha256": "d27388d93e6a019ce5df68fcc2197b2c8f3e39af1473669477faca4c3cf9a78e"
+    },
+    {
+      "file": ".git/crocodile2012-paras.json",
+      "sha256": "c4212b8b580f8221834813a976faff35eb25ef3c7a895b45107b28ac5994f10a"
+    },
+    {
+      "file": ".git/crocodile2013-sensory.html",
+      "sha256": "6bca0bea21ddeaef3900bb2b849341178ba609591e598738bdb73ea0a763a0bc"
+    },
+    {
+      "file": ".git/crocodile2013-paras.json",
+      "sha256": "1e730043bfee95b10fa39190caa83c5cc9653811f7332e9c0cf6513ea6d39b45"
+    },
+    {
+      "file": ".git/crocodile-sensory-meta-132.json",
+      "sha256": "0849948d41808b497e42ddffad754f1f15b3da25abaf0cada5cc5fd208dc1439"
+    }
+  ],
+  "readingScope": {
+    "2012": [
+      8,
+      11,
+      14,
+      15,
+      17,
+      19,
+      21,
+      26,
+      27,
+      30,
+      31,
+      33,
+      37,
+      41,
+      42,
+      46,
+      51,
+      52,
+      53,
+      56,
+      61,
+      62,
+      63,
+      65,
+      66,
+      69,
+      76,
+      77,
+      78,
+      79
+    ],
+    "2013": [
+      12,
+      15,
+      16,
+      17,
+      20,
+      21,
+      24,
+      25,
+      27,
+      28,
+      32,
+      33,
+      35,
+      36,
+      37,
+      40,
+      44,
+      45
+    ],
+    "indices": "Zero-based main-paragraph extraction indices; front bibliographic metadata also read. Selected paragraphs, not full-paper or complete-figure review."
+  },
+  "boundaries": {
+    "specimensNotNeuralUnits": true,
+    "subsetsNotAddedAsIndependentAnimals": true,
+    "thresholdFloorUnresolvedBelowSmallestFilament": true,
+    "absenceOfPostcranialISOIsNotAbsenceOfTouch": true,
+    "temperatureResponsesNotHabitatOrLethalLimits": true,
+    "pHNotAllChemicalDetection": true,
+    "saltNegativeBoundedByAssay": true,
+    "saltGlandDirectSensingUnconfirmed": true,
+    "developmentIncubationConditionSpecific": true,
+    "imagesVideosRawDataNotIndependentlyExamined": true,
+    "classificationRangesCountsMaturityUnchanged": true,
+    "activePrimateGaps": 14,
+    "newlyClosedPrimateGaps": 0,
+    "fixedAcceptedPrimateDenominator": 530
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All 25 new Chinese and English sections read from saved pages; all nine refined opening passages reread; two Chinese force-unit refinements reread. All new section vectors, shared reference bindings and both full references read. All old topic/source vectors and the 32 moved English-only protocol values read; migrated legacy scientific sections and all 18 appended limitation tails read. Final plan entry read.",
+    "excluded": "No complete legacy-science audit, figure-pixel or supplementary-video review, raw-data rerun, tests, validators, generation, commit, publication or external expert review."
+  },
+  "delivery": "Canonical authoring only; tests, generation, commit and publication deferred until all-content completion as instructed.",
+  "protocolMigration": {
+    "scope": "Reader-visible topic/source-key protocol blocks resolved from the exact evidence-referenced page. These 32 fields existed only in English; Chinese pages had no corresponding blocks. Values retained in evidence metadata; scientific text and bindings preserved.",
+    "profiles": [
+      {
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Alligator/Alligator_mississippiensis",
+        "fields": [
+          {
+            "field": "/records/catalogue-profile/sections/4/topic",
+            "value": "ecology",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/4/sourceIds/0",
+            "value": "strickland2016",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/5/topic",
+            "value": "ecology",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/5/sourceIds/0",
+            "value": "strickland2016",
+            "locales": [
+              "en"
+            ]
+          }
+        ]
+      },
+      {
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Crocodylidae/Crocodylus/Crocodylus_niloticus",
+        "fields": [
+          {
+            "field": "/records/catalogue-profile/sections/6/topic",
+            "value": "ecology",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/6/sourceIds/0",
+            "value": "behangana2020",
+            "locales": [
+              "en"
+            ]
+          }
+        ]
+      },
+      {
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Caiman/Caiman_crocodilus",
+        "fields": [
+          {
+            "field": "/records/catalogue-profile/sections/3/topic",
+            "value": "feedingBiomechanics",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/3/sourceIds/0",
+            "value": "erickson2012",
+            "locales": [
+              "en"
+            ]
+          }
+        ]
+      },
+      {
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia",
+        "fields": [
+          {
+            "field": "/records/catalogue-profile/sections/2/topic",
+            "value": "overview",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/2/sourceIds/0",
+            "value": "erickson2012",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/2/sourceIds/1",
+            "value": "taxonomy",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/3/topic",
+            "value": "overview",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/3/sourceIds/0",
+            "value": "taxonomy",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/3/sourceIds/1",
+            "value": "erickson2012",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/3/sourceIds/2",
+            "value": "strickland2016",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/3/sourceIds/3",
+            "value": "rossi2020",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/3/sourceIds/4",
+            "value": "murray2019",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/3/sourceIds/5",
+            "value": "balaguera2017",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/3/sourceIds/6",
+            "value": "behangana2020",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/3/sourceIds/7",
+            "value": "fukuda2019",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/3/sourceIds/8",
+            "value": "hekkala2011",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/3/sourceIds/9",
+            "value": "ahizi2021",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/3/sourceIds/10",
+            "value": "carr2021",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/3/sourceIds/11",
+            "value": "gvozdik2024",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/3/sourceIds/12",
+            "value": "shirley2017",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/3/sourceIds/13",
+            "value": "eaton2009",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/4/topic",
+            "value": "overview",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/4/sourceIds/0",
+            "value": "taxonomy",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/5/topic",
+            "value": "overview",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/5/sourceIds/0",
+            "value": "taxonomy",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/6/topic",
+            "value": "overview",
+            "locales": [
+              "en"
+            ]
+          },
+          {
+            "field": "/records/catalogue-profile/sections/6/sourceIds/0",
+            "value": "taxonomy",
+            "locales": [
+              "en"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "canonicalFiles": [
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Alligator/Alligator_mississippiensis/page.zh.md",
+      "sha256": "093a0dc3e39b82b3e0cdb9e2914ddbf77ac0848fe2b2742bd4e11c66416fbc17"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Alligator/Alligator_mississippiensis/page.en.md",
+      "sha256": "eadca3ded44cec260d5400421211de7cfc9799934ab0fec9643cc20d9870dc31"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Alligator/Alligator_mississippiensis/evidence.md",
+      "sha256": "53e24b033fd0d4ed2af55625263bf1d95bef72f3707ce4a54a128ce946aecc70"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Crocodylidae/Crocodylus/Crocodylus_niloticus/page.zh.md",
+      "sha256": "c3b1ca4a446c95f7ed57816f5960be8f77c6a7163e049d56647cc5d759210ea9"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Crocodylidae/Crocodylus/Crocodylus_niloticus/page.en.md",
+      "sha256": "dbdb0a5ccc9c812e3d802492dd9d2834e32be9f356ef8161bd18a52e3315a3d2"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Crocodylidae/Crocodylus/Crocodylus_niloticus/evidence.md",
+      "sha256": "e5ae5ca66e8f566fe7dad7a6ad97e67618f17387abc371e4412ef3c2216fb6dd"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Caiman/Caiman_crocodilus/page.zh.md",
+      "sha256": "4aee66e9469015bc0286f16d2d5547dd207a567ed1b1dc9f374f383d66e0ef99"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Caiman/Caiman_crocodilus/page.en.md",
+      "sha256": "2c03634a52bf1292c7c21a2fab2dce20e61c7bfa09496837b08a5d8175047886"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Caiman/Caiman_crocodilus/evidence.md",
+      "sha256": "cec7c4cf5d17f6121919cbeab7f5b83317ba38db1b53fbe89f226d59b7f4421e"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Alligator/page.zh.md",
+      "sha256": "ae783016f41a4b904c42d22c4d8b864fafd28315f1e055c49708f14f35e71a4a"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Alligator/page.en.md",
+      "sha256": "d5cbdfebffcf479dcf79670690ef0d67ae1bc3412d985a265e5398d6ef4c90e4"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Alligator/evidence.md",
+      "sha256": "0ad182946ec1035361d07132d59369a60c1a7ee972ee43ae8af5ef84c44528d7"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Caiman/page.zh.md",
+      "sha256": "278e6773aaea5f6bdb41f687a21c3378c9dc889b131556d75908e048d20bcde6"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Caiman/page.en.md",
+      "sha256": "fe840958fbc9701790ea205b7bfe0f10a7d92b8fe81c82a7d2bade8cc68e9e15"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/Caiman/evidence.md",
+      "sha256": "67bc905988b09312dc5444cc96be9e898c1e6356e006406d9e1ec3e9164cfd0c"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Crocodylidae/Crocodylus/page.zh.md",
+      "sha256": "b8bb75a8fa6a3b25aff44fde2fb5c0b770712b4f8e51c94d8eb821d545d88a71"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Crocodylidae/Crocodylus/page.en.md",
+      "sha256": "b3b6cea6199cb3f4cd5c3d8e39a80c6169727386f65d9d70aaec5f9b95e4e121"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Crocodylidae/Crocodylus/evidence.md",
+      "sha256": "a723dce0ddeb6e85de1d1990794c4ab408fbce1fcc723eda58368ba2be41d1e3"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/page.zh.md",
+      "sha256": "864cc94ce872b39ce183e19eec40f80bcbf0d3c13d44e85b4f1fff433a76e73b"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/page.en.md",
+      "sha256": "27c5a5135cbf7f1740df548b82b74d9518f796fc396fb80e04108c4d1ead7abd"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Alligatoridae/evidence.md",
+      "sha256": "a590d215e8aa886c10d4da4f31a98edf3e152b5420c5f85fd0b242ba5d49b1f2"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Crocodylidae/page.zh.md",
+      "sha256": "89c122b6b380c05d55ebe31b25cf92699b9b7d2f2689d7f3755e1a7f41fb619a"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Crocodylidae/page.en.md",
+      "sha256": "6ea1c3653acff905ba0bfb284c40fbef2386bbaea58ba3cc7d4cf1a5d3c658e4"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/Crocodylidae/evidence.md",
+      "sha256": "6bd9960b16bf59e123be6cb0993940d39bd59e5295f6a7f0dff1565ff7a5a76c"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/page.zh.md",
+      "sha256": "0a45aa83d24a153401c518f773bae3c83443678f8c67b63d5f1923cf1c08b84d"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/page.en.md",
+      "sha256": "ddd2ff12b3144b98b9fb81dadd4c4c8046ea8a6885163f02fb92803de75c2968"
+    },
+    {
+      "file": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Crocodylia/evidence.md",
+      "sha256": "decf36085f4090d0907f45e5e3991c21903728bb4df660d4dd6e338cee02a4dd"
+    },
+    {
+      "file": "data/references.json",
+      "sha256": "0b0fb98fc2d393dfac68860819b69a5767141a366e8d395139eaa40e3dd92f66"
+    },
+    {
+      "file": "docs/content-production-plan.md",
+      "sha256": "b09738cd52c14bc0df12c7cad43b45335e39464e8b9c8a0496fd0b7e320e3145"
+    }
+  ]
+}

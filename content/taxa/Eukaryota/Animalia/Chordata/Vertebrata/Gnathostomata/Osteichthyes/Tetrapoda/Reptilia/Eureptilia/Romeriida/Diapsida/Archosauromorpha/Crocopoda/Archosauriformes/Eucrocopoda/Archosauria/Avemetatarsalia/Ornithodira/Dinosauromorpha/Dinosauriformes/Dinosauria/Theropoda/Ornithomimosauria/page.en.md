@@ -1,0 +1,67 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: en
+status: source-linked
+---
+
+# Ornithomimosauria
+
+
+## Read group evidence through bonebed formation
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/en -->
+Ornithomimosaur comparisons can distinguish individual growth from bonebed formation. Three histologically sampled Sinornithomimus and its mired group provide a case of age interpretation and associated movement; a single large postcranial specimen or composite reconstruction addresses different questions. Size, preserved numbers, age sampling and behavioral evidence are not interchangeable. This route adds one locality’s case without treating immature herding as obligatory throughout the clade.
+<!-- /evo:text -->
+
+## Read entrapment, then ages and social hypotheses
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/en -->
+Start at [Sinornithomimus dongi](Ornithomimidae/Sinornithomimus/Sinornithomimus_dongi/page.en.md) by distinguishing the two excavation counts and three histological samples. Then examine limbs cutting through bedding, sedimentary structures and body directions. Compare growth lines in different elements before discussing an immature traveling group and hypotheses about breeding roles. Gastroliths/carbonized material first inform preservation; diets and parentage require their own evidence, and database occurrence counts do not replace animal counts.
+<!-- /evo:text -->
+
+## Include growth stage in giant-ornithomimosaur comparisons
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/en -->
+Beishanlong provides a histological route through large ornithomimosaur postcranial material: 13–14 presumed annual lines and changing outer tissue were interpreted as approaching maturity while still growing. Deinocheirus supplies another, more complete skeletal reconstruction and stomach-content record. Ages, anatomical parts and estimation equations differ; these are not one individual’s growth curve or direct evidence of a universal directional size trend.
+<!-- /evo:text -->
+
+## Compare maturity before size and diet
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/en -->
+Start with specimen association, fibular histology and the 626 kg estimate on [Beishanlong grandis](Beishanlong/Beishanlong_grandis/page.en.md), then examine the composite reconstruction and gastrolith/fish association on [Deinocheirus mirificus](Deinocheiridae/Deinocheirus/Deinocheirus_mirificus/page.en.md). Their material, histology and behavioral hypotheses remain separate: growth lines are not feeding evidence, and estimated mass is not weighing. Finally compare dated phylogenies with catalogue positions, retaining unresolved relationships rather than turning missing bones into known features.
+<!-- /evo:text -->
+
+## Ornithomimosaurs include more than the cursorial form
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/en -->
+The long forelimbs, deep jaw, tall back spines and robust short hindlimbs of Deinocheirus show that ornithomimosaur body plans extend beyond the slender cursorial form. The 2014 authors linked gigantism with proportional changes, but morphology does not directly yield running speed, bite force or a shared diet for all ornithomimosaurs. Family-level branches follow that study’s matrix, while navigation retains recorded PBDB ancestry; the guide can compare interpretations without rewriting specimens or ages.
+<!-- /evo:text -->
+
+## Start with specimens, then compare functional inference
+
+<!-- evo:text /records/catalogue-profile/sections/5/text/en -->
+Start with the holotype, referred specimens and composite reconstruction on [Deinocheirus mirificus](Deinocheiridae/Deinocheirus/Deinocheirus_mirificus/page.en.md), then examine what the broad beak, hindlimbs and in situ fish remains support. Compare named material, strata and research classification on [Garudimimus brevipes](Deinocheiridae/Garudimimus/Garudimimus_brevipes/page.en.md) and [Beishanlong grandis](Beishanlong/Beishanlong_grandis/page.en.md); existing occurrence guides do not establish reexamination of their morphological matrices. Returning to Deinocheirus, separate skeletal structures, estimated mass, suction feeding, tail plumage and phylogeny, without using one species to complete the whole group.
+<!-- /evo:text -->
+
+## Organize fossil records by source classification
+
+<!-- evo:text /records/catalogue-profile/sections/6/text/en -->
+Ornithomimosauria is recorded at rank unranked clade in this batch’s PBDB path. This route offers occurrence guides for 30 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+<!-- /evo:text -->
+
+
+## Compare collections, strata and age brackets
+
+<!-- evo:text /records/catalogue-profile/sections/7/text/en -->
+Start with Aviatyrannis jurassica, Lepidocheirosaurus natatilis, Beishanlong grandis, Kinnareemimus khonkaenensis, Qiupalong henanensis and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 68 selected occurrences from 67 collections; example stratum names are Alcobaça, Ukureyskaya, Xiagou, Sao Khua. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+<!-- /evo:text -->
+
+## Evidence limits
+
+<!-- evo:text /records/catalogue-profile/limitations/en -->
+This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes. No external expert review has occurred.
+New text uses the institutional 2014 advance-online PDF main text on pages 1–4 and appended Extended Data figure 1–7/table 1 captions. Pixels inspected are PDF pages 1, 3 and 11 (figures 1, 4 and Extended Data 7). Final issue metadata comes from Crossref; PDF page numbering does not claim the final 257–260 layout. Table 1 numerical contents, other images, online Methods, supplementary matrices/measurement tables, specimens, all custody records and subsequent literature were not independently assembled or rerun. Mass and behavior remain inferences; tail feathers are not direct preservation. The 2014 classification and PBDB navigation remain separate. No complete monograph or external expert review is claimed.
+New text uses the original description’s published PMC main text and five figure captions. Scientific text was read, but images, actual thin sections, supplementary measurement tables/matrices and original analyses were not independently inspected or rerun. Online publication 2009-04-22 and issue date 2010-01-22 remain separate, without changing catalogue name-authority years. Annual interpretation of 13–14 lines is an assumption; skeletal maturity, sexual maturity and lifespan differ. Mass is estimated by equation, pubic referral is uncertain, and skull/stomach evidence is not borrowed from relatives. Original description, 2014 analysis and PBDB classification remain separate. No complete monograph or external expert review is claimed.
+New text uses the 2008 published article’s scientific text (pp. 567–576), two tables and five figure captions. Table 1 on p. 570, Figure 3 on p. 571 and Figure 4 on p. 573 were also visually inspected; other images, actual specimens and original thin sections were not examined, and dating/orientation analyses were not rerun. Fourteen earlier individuals, thirteen new skeletons and three histological samples remain separate denominators. The 2003 original description and other works cited by this article were not freshly reviewed individually here. Annual assumptions/minimum ages, mass mortality interpretations and breeding hypotheses remain distinct. No complete monograph, diet inventory or external expert review is claimed.
+<!-- /evo:text -->

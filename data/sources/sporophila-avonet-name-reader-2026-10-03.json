@@ -1,0 +1,2241 @@
+{
+  "batch": "P5-178",
+  "date": "2026-10-03",
+  "newSpecies": 7,
+  "newBilingualSections": 41,
+  "updatedProfiles": [
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_fringilloides",
+      "colId": "9GBHL",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_maximiliani",
+      "colId": "9G8BJ",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_angolensis",
+      "colId": "9G8BG",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_atrirostris",
+      "colId": "9GBHK",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_funerea",
+      "colId": "9GBHM",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_nuttingi",
+      "colId": "9GBHP",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_crassirostris",
+      "colId": "9G8LP",
+      "newBilingualSections": 5,
+      "newProfile": true
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila",
+      "newBilingualSections": 4
+    },
+    {
+      "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae",
+      "newBilingualSections": 2
+    }
+  ],
+  "sharedReferenceId": "ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61",
+  "sourceFiles": [
+    {
+      "file": ".git/avonet-supplementary-dataset-1-v7.xlsx",
+      "sha256": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e"
+    },
+    {
+      "file": ".git/sporophila-selected-source-178.json",
+      "sha256": "88d96680a25a50189ca77798f743b6da46c64f1d198fab1215bd6520d8d91991"
+    },
+    {
+      "file": ".git/sporophila-col-names-178.json",
+      "sha256": "86c3d3348c9be0ba7bc7d76987d9c08659286877d53ae092e3dee5e0415399f4"
+    }
+  ],
+  "colNameShardFiles": [
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-sp.jsonl.gz",
+      "sha256": "7cbca9bc9626705079cf3cbb7b6c82506303c8ca75bb1066f15d5ee2fe598d8f"
+    },
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-or.jsonl.gz",
+      "sha256": "bcb8d5c8217564dda2bdb3fe521408a1798acc9245f6f77c3145ec8def9efe82"
+    },
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/search/name-do.jsonl.gz",
+      "sha256": "5167f5ad35943a8bac9c4fc3cd0bd4aa1d0ed59e6d7af0f3b3d32105fa69ead0"
+    },
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/targets/81.jsonl.gz",
+      "sha256": "4ea7ab2ddefe5041e22b9239ec7a89db31337f959268481f817354624fd3ea86"
+    },
+    {
+      "file": "data/catalogue-of-life/releases/2026-08-20/registry/targets/17.jsonl.gz",
+      "sha256": "20e8117db1ab6faff60662a1483e15af7db9d2c80bc536f61aa49cb099c8ad64"
+    }
+  ],
+  "sourceRows": [
+    {
+      "target": {
+        "colId": "9GBHL",
+        "scientificName": "Sporophila fringilloides",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_fringilloides",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "H87",
+            "parentId": "3RL",
+            "scientificName": "Thraupidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 108
+          },
+          {
+            "id": "7LMG",
+            "parentId": "H87",
+            "scientificName": "Sporophila Cabanis, 1844",
+            "authorship": "Cabanis, 1844",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 41
+          },
+          {
+            "parentId": "7LMG",
+            "id": "9GBHL",
+            "scientificName": "Sporophila fringilloides (Pelzeln, 1870)",
+            "authorship": "(Pelzeln, 1870)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 8209,
+        "record": {
+          "Sequence": 10890,
+          "Species1": "Sporophila fringilloides",
+          "Family1": "Thraupidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-233E719A",
+          "Total.individuals": 6,
+          "Female": 2,
+          "Male": 4,
+          "Unknown": 0,
+          "Complete.measures": 5,
+          "Beak.Length_Culmen": 14.3,
+          "Beak.Length_Nares": 10,
+          "Beak.Width": 5.7,
+          "Beak.Depth": 7.6,
+          "Tarsus.Length": 15,
+          "Wing.Length": 61.3,
+          "Kipps.Distance": 7.7,
+          "Secondary1": 53.6,
+          "Hand-Wing.Index": 12.7,
+          "Tail.Length": 50.8,
+          "Mass": 12.69,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Herbivore",
+          "Trophic.Niche": "Granivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -2.79,
+          "Max.Latitude": 5.14,
+          "Centroid.Latitude": 1.17,
+          "Centroid.Longitude": -66.47,
+          "Range.Size": 330728.09
+        }
+      },
+      "eBird": {
+        "excelRow": 9843,
+        "record": {
+          "Species1": "Sporophila fringilloides",
+          "Species2": "Sporophila fringilloides",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-233E719A",
+          "Avibase.ID2": "AVIBASE-233E719A",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 9784,
+        "record": {
+          "Species1": "Sporophila fringilloides",
+          "Species3": "Dolospingus fringilloides",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "9G8BJ",
+        "scientificName": "Sporophila maximiliani",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_maximiliani",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "H87",
+            "parentId": "3RL",
+            "scientificName": "Thraupidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 108
+          },
+          {
+            "id": "7LMG",
+            "parentId": "H87",
+            "scientificName": "Sporophila Cabanis, 1844",
+            "authorship": "Cabanis, 1844",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 41
+          },
+          {
+            "parentId": "7LMG",
+            "id": "9G8BJ",
+            "scientificName": "Sporophila maximiliani (Cabanis, 1851)",
+            "authorship": "(Cabanis, 1851)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 8219,
+        "record": {
+          "Sequence": 10899,
+          "Species1": "Sporophila maximiliani",
+          "Family1": "Thraupidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-A5767214",
+          "Total.individuals": 4,
+          "Female": 1,
+          "Male": 3,
+          "Unknown": 0,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 17.3,
+          "Beak.Length_Nares": 12.9,
+          "Beak.Width": 10.7,
+          "Beak.Depth": 14.7,
+          "Tarsus.Length": 17.7,
+          "Wing.Length": 74.8,
+          "Kipps.Distance": 11.1,
+          "Secondary1": 63.6,
+          "Hand-Wing.Index": 14.8,
+          "Tail.Length": 67,
+          "Mass": 24.6,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Wetland",
+          "Habitat.Density": 3,
+          "Migration": 2,
+          "Trophic.Level": "Herbivore",
+          "Trophic.Niche": "Granivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -23.08,
+          "Max.Latitude": 10.61,
+          "Centroid.Latitude": -0.35,
+          "Centroid.Longitude": -60.04,
+          "Range.Size": 105712.43
+        }
+      },
+      "eBird": {
+        "excelRow": 9853,
+        "record": {
+          "Species1": "Sporophila maximiliani",
+          "Species2": "Sporophila maximiliani",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-A5767214",
+          "Avibase.ID2": "AVIBASE-A5767214",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 9794,
+        "record": {
+          "Species1": "Sporophila maximiliani",
+          "Species3": "Oryzoborus maximiliani",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "9G8BG",
+        "scientificName": "Sporophila angolensis",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_angolensis",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "H87",
+            "parentId": "3RL",
+            "scientificName": "Thraupidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 108
+          },
+          {
+            "id": "7LMG",
+            "parentId": "H87",
+            "scientificName": "Sporophila Cabanis, 1844",
+            "authorship": "Cabanis, 1844",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 41
+          },
+          {
+            "parentId": "7LMG",
+            "id": "9G8BG",
+            "scientificName": "Sporophila angolensis (Linnaeus, 1766)",
+            "authorship": "(Linnaeus, 1766)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 8196,
+        "record": {
+          "Sequence": 10897,
+          "Species1": "Sporophila angolensis",
+          "Family1": "Thraupidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-8F23E84F",
+          "Total.individuals": 31,
+          "Female": 12,
+          "Male": 17,
+          "Unknown": 2,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 12.9,
+          "Beak.Length_Nares": 9.4,
+          "Beak.Width": 6.8,
+          "Beak.Depth": 10,
+          "Tarsus.Length": 16,
+          "Wing.Length": 57.7,
+          "Kipps.Distance": 8.9,
+          "Secondary1": 48.4,
+          "Hand-Wing.Index": 15.5,
+          "Tail.Length": 51.9,
+          "Mass": 13,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 2,
+          "Migration": 1,
+          "Trophic.Level": "Omnivore",
+          "Trophic.Niche": "Granivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -31.07,
+          "Max.Latitude": 12.2,
+          "Centroid.Latitude": -8.2,
+          "Centroid.Longitude": -57.15,
+          "Range.Size": 11882418.15
+        }
+      },
+      "eBird": {
+        "excelRow": 9830,
+        "record": {
+          "Species1": "Sporophila angolensis",
+          "Species2": "Sporophila angolensis",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-8F23E84F",
+          "Avibase.ID2": "AVIBASE-8F23E84F",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 9771,
+        "record": {
+          "Species1": "Sporophila angolensis",
+          "Species3": "Oryzoborus angolensis",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "9GBHK",
+        "scientificName": "Sporophila atrirostris",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_atrirostris",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "H87",
+            "parentId": "3RL",
+            "scientificName": "Thraupidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 108
+          },
+          {
+            "id": "7LMG",
+            "parentId": "H87",
+            "scientificName": "Sporophila Cabanis, 1844",
+            "authorship": "Cabanis, 1844",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 41
+          },
+          {
+            "parentId": "7LMG",
+            "id": "9GBHK",
+            "scientificName": "Sporophila atrirostris (P. L. Sclater & Salvin, 1878)",
+            "authorship": "(P. L. Sclater & Salvin, 1878)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 8198,
+        "record": {
+          "Sequence": 10901,
+          "Species1": "Sporophila atrirostris",
+          "Family1": "Thraupidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-D57B98B9",
+          "Total.individuals": 1,
+          "Female": 0,
+          "Male": 1,
+          "Unknown": 0,
+          "Complete.measures": 1,
+          "Beak.Length_Culmen": 18.9,
+          "Beak.Length_Nares": 13.1,
+          "Beak.Width": 10.1,
+          "Beak.Depth": 13.8,
+          "Tarsus.Length": 18.3,
+          "Wing.Length": 71.5,
+          "Kipps.Distance": 10.1,
+          "Secondary1": 61.4,
+          "Hand-Wing.Index": 14.1,
+          "Tail.Length": 60,
+          "Mass": 26,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Grassland",
+          "Habitat.Density": 3,
+          "Migration": 1,
+          "Trophic.Level": "Herbivore",
+          "Trophic.Niche": "Granivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -17.51,
+          "Max.Latitude": 0.74,
+          "Centroid.Latitude": -5.78,
+          "Centroid.Longitude": -75.59,
+          "Range.Size": 201164.72
+        }
+      },
+      "eBird": {
+        "excelRow": 9832,
+        "record": {
+          "Species1": "Sporophila atrirostris",
+          "Species2": "Sporophila atrirostris",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-D57B98B9",
+          "Avibase.ID2": "AVIBASE-D57B98B9",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 9773,
+        "record": {
+          "Species1": "Sporophila atrirostris",
+          "Species3": "Oryzoborus atrirostris",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "9GBHM",
+        "scientificName": "Sporophila funerea",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_funerea",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "H87",
+            "parentId": "3RL",
+            "scientificName": "Thraupidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 108
+          },
+          {
+            "id": "7LMG",
+            "parentId": "H87",
+            "scientificName": "Sporophila Cabanis, 1844",
+            "authorship": "Cabanis, 1844",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 41
+          },
+          {
+            "parentId": "7LMG",
+            "id": "9GBHM",
+            "scientificName": "Sporophila funerea (P. L. Sclater, 1860)",
+            "authorship": "(P. L. Sclater, 1860)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 8211,
+        "record": {
+          "Sequence": 10896,
+          "Species1": "Sporophila funerea",
+          "Family1": "Thraupidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-64EDEAE0",
+          "Total.individuals": 33,
+          "Female": 15,
+          "Male": 15,
+          "Unknown": 3,
+          "Complete.measures": 4,
+          "Beak.Length_Culmen": 12.6,
+          "Beak.Length_Nares": 9.3,
+          "Beak.Width": 6.9,
+          "Beak.Depth": 10.2,
+          "Tarsus.Length": 17.4,
+          "Wing.Length": 55,
+          "Kipps.Distance": 8.8,
+          "Secondary1": 48.5,
+          "Hand-Wing.Index": 15.4,
+          "Tail.Length": 48.7,
+          "Mass": 13,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Human Modified",
+          "Habitat.Density": 2,
+          "Migration": 2,
+          "Trophic.Level": "Herbivore",
+          "Trophic.Niche": "Granivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -3.57,
+          "Max.Latitude": 18.9,
+          "Centroid.Latitude": 10.12,
+          "Centroid.Longitude": -81.24,
+          "Range.Size": 730927.96
+        }
+      },
+      "eBird": {
+        "excelRow": 9845,
+        "record": {
+          "Species1": "Sporophila funerea",
+          "Species2": "Sporophila funerea",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-64EDEAE0",
+          "Avibase.ID2": "AVIBASE-64EDEAE0",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 9786,
+        "record": {
+          "Species1": "Sporophila funerea",
+          "Species3": "Oryzoborus funereus",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "9GBHP",
+        "scientificName": "Sporophila nuttingi",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_nuttingi",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "H87",
+            "parentId": "3RL",
+            "scientificName": "Thraupidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 108
+          },
+          {
+            "id": "7LMG",
+            "parentId": "H87",
+            "scientificName": "Sporophila Cabanis, 1844",
+            "authorship": "Cabanis, 1844",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 41
+          },
+          {
+            "parentId": "7LMG",
+            "id": "9GBHP",
+            "scientificName": "Sporophila nuttingi (Ridgway, 1884)",
+            "authorship": "(Ridgway, 1884)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 8226,
+        "record": {
+          "Sequence": 10898,
+          "Species1": "Sporophila nuttingi",
+          "Family1": "Thraupidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-3AAEDDCF",
+          "Total.individuals": 3,
+          "Female": 1,
+          "Male": 2,
+          "Unknown": 0,
+          "Complete.measures": 3,
+          "Beak.Length_Culmen": 18.9,
+          "Beak.Length_Nares": 12.2,
+          "Beak.Width": 9.8,
+          "Beak.Depth": 14.4,
+          "Tarsus.Length": 18.4,
+          "Wing.Length": 68.1,
+          "Kipps.Distance": 10.5,
+          "Secondary1": 57.6,
+          "Hand-Wing.Index": 15.4,
+          "Tail.Length": 63.3,
+          "Mass": 24,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 2,
+          "Migration": 2,
+          "Trophic.Level": "Herbivore",
+          "Trophic.Niche": "Granivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": 9.27,
+          "Max.Latitude": 13.89,
+          "Centroid.Latitude": 11.86,
+          "Centroid.Longitude": -84.23,
+          "Range.Size": 52780.9
+        }
+      },
+      "eBird": {
+        "excelRow": 9860,
+        "record": {
+          "Species1": "Sporophila nuttingi",
+          "Species2": "Sporophila nuttingi",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-3AAEDDCF",
+          "Avibase.ID2": "AVIBASE-3AAEDDCF",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 9801,
+        "record": {
+          "Species1": "Sporophila nuttingi",
+          "Species3": "Oryzoborus nuttingi",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    },
+    {
+      "target": {
+        "colId": "9G8LP",
+        "scientificName": "Sporophila crassirostris",
+        "class": "Aves",
+        "status": "not-represented-in-selected-source-batch-archives",
+        "scope": "Not a finding that the species lacks sources or other authored content.",
+        "canonicalPath": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_crassirostris",
+        "bothPagesPresent": false,
+        "authoredPageStatusPresent": false,
+        "catalogueProfilePresent": false,
+        "classificationChain": [
+          {
+            "id": "CS5HF",
+            "parentId": null,
+            "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 5
+          },
+          {
+            "id": "N",
+            "parentId": "CS5HF",
+            "scientificName": "Animalia",
+            "authorship": null,
+            "rank": "kingdom",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 34
+          },
+          {
+            "id": "CH2",
+            "parentId": "N",
+            "scientificName": "Chordata",
+            "authorship": null,
+            "rank": "phylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "8V4V3",
+            "parentId": "CH2",
+            "scientificName": "Vertebrata",
+            "authorship": null,
+            "rank": "subphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8V4V5",
+            "parentId": "8V4V3",
+            "scientificName": "Gnathostomata",
+            "authorship": null,
+            "rank": "infraphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 2
+          },
+          {
+            "id": "8VVWB",
+            "parentId": "8V4V5",
+            "scientificName": "Osteichthyes",
+            "authorship": null,
+            "rank": "parvphylum",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 3
+          },
+          {
+            "id": "9CK8W",
+            "parentId": "8VVWB",
+            "scientificName": "Tetrapoda",
+            "authorship": null,
+            "rank": "megaclass",
+            "status": "accepted",
+            "sourceDatasetId": null,
+            "childCount": 4
+          },
+          {
+            "id": "V2",
+            "parentId": "9CK8W",
+            "scientificName": "Aves",
+            "authorship": null,
+            "rank": "class",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 42
+          },
+          {
+            "id": "3RL",
+            "parentId": "V2",
+            "scientificName": "Passeriformes",
+            "authorship": null,
+            "rank": "order",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 145
+          },
+          {
+            "id": "H87",
+            "parentId": "3RL",
+            "scientificName": "Thraupidae",
+            "authorship": null,
+            "rank": "family",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 108
+          },
+          {
+            "id": "7LMG",
+            "parentId": "H87",
+            "scientificName": "Sporophila Cabanis, 1844",
+            "authorship": "Cabanis, 1844",
+            "rank": "genus",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 41
+          },
+          {
+            "parentId": "7LMG",
+            "id": "9G8LP",
+            "scientificName": "Sporophila crassirostris (J. F. Gmelin, 1789)",
+            "authorship": "(J. F. Gmelin, 1789)",
+            "rank": "species",
+            "status": "accepted",
+            "sourceDatasetId": "2144",
+            "childCount": 0
+          }
+        ]
+      },
+      "birdLife": {
+        "excelRow": 8207,
+        "record": {
+          "Sequence": 10900,
+          "Species1": "Sporophila crassirostris",
+          "Family1": "Thraupidae",
+          "Order1": "Passeriformes",
+          "Avibase.ID1": "AVIBASE-2824A1D9",
+          "Total.individuals": 13,
+          "Female": 6,
+          "Male": 5,
+          "Unknown": 2,
+          "Complete.measures": 3,
+          "Beak.Length_Culmen": 15.4,
+          "Beak.Length_Nares": 10.2,
+          "Beak.Width": 8.3,
+          "Beak.Depth": 11.5,
+          "Tarsus.Length": 18.6,
+          "Wing.Length": 66.9,
+          "Kipps.Distance": 10.9,
+          "Secondary1": 56.1,
+          "Hand-Wing.Index": 16.2,
+          "Tail.Length": 59.6,
+          "Mass": 20.9,
+          "Mass.Source": "Dunning",
+          "Mass.Refs.Other": "NA",
+          "Inference": "NO",
+          "Traits.inferred": "NA",
+          "Reference.species": "NA",
+          "Habitat": "Shrubland",
+          "Habitat.Density": 2,
+          "Migration": 2,
+          "Trophic.Level": "Herbivore",
+          "Trophic.Niche": "Granivore",
+          "Primary.Lifestyle": "Insessorial",
+          "Min.Latitude": -10.05,
+          "Max.Latitude": 11.28,
+          "Centroid.Latitude": 2.29,
+          "Centroid.Longitude": -66.83,
+          "Range.Size": 2533030.55
+        }
+      },
+      "eBird": {
+        "excelRow": 9841,
+        "record": {
+          "Species1": "Sporophila crassirostris",
+          "Species2": "Sporophila crassirostris",
+          "Match.type": "1BL to 1eBird",
+          "Match.notes": null,
+          "Avibase.ID1": "AVIBASE-2824A1D9",
+          "Avibase.ID2": "AVIBASE-2824A1D9",
+          "null": null
+        }
+      },
+      "birdTree": {
+        "excelRow": 9782,
+        "record": {
+          "Species1": "Sporophila crassirostris",
+          "Species3": "Oryzoborus crassirostris",
+          "Match.type": "1BL to 1BT",
+          "Match.notes": null
+        }
+      }
+    }
+  ],
+  "colNameRecords": [
+    {
+      "normalizedName": "sporophila angolensis linnaeus 1766",
+      "id": "9G8BG",
+      "scientificName": "Sporophila angolensis (Linnaeus, 1766)",
+      "authorship": "(Linnaeus, 1766)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "7LMG",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Thraupidae",
+        null,
+        null,
+        null,
+        "Sporophila"
+      ]
+    },
+    {
+      "normalizedName": "sporophila atrirostris p l sclater salvin 1878",
+      "id": "9GBHK",
+      "scientificName": "Sporophila atrirostris (P. L. Sclater & Salvin, 1878)",
+      "authorship": "(P. L. Sclater & Salvin, 1878)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "7LMG",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Thraupidae",
+        null,
+        null,
+        null,
+        "Sporophila"
+      ]
+    },
+    {
+      "normalizedName": "sporophila crassirostris j f gmelin 1789",
+      "id": "9G8LP",
+      "scientificName": "Sporophila crassirostris (J. F. Gmelin, 1789)",
+      "authorship": "(J. F. Gmelin, 1789)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "7LMG",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Thraupidae",
+        null,
+        null,
+        null,
+        "Sporophila"
+      ]
+    },
+    {
+      "normalizedName": "sporophila fringilloides pelzeln 1870",
+      "id": "9GBHL",
+      "scientificName": "Sporophila fringilloides (Pelzeln, 1870)",
+      "authorship": "(Pelzeln, 1870)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "7LMG",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Thraupidae",
+        null,
+        null,
+        null,
+        "Sporophila"
+      ]
+    },
+    {
+      "normalizedName": "sporophila funerea p l sclater 1860",
+      "id": "9GBHM",
+      "scientificName": "Sporophila funerea (P. L. Sclater, 1860)",
+      "authorship": "(P. L. Sclater, 1860)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "7LMG",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Thraupidae",
+        null,
+        null,
+        null,
+        "Sporophila"
+      ]
+    },
+    {
+      "normalizedName": "sporophila maximiliani cabanis 1851",
+      "id": "9G8BJ",
+      "scientificName": "Sporophila maximiliani (Cabanis, 1851)",
+      "authorship": "(Cabanis, 1851)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "7LMG",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Thraupidae",
+        null,
+        null,
+        null,
+        "Sporophila"
+      ]
+    },
+    {
+      "normalizedName": "sporophila nuttingi ridgway 1884",
+      "id": "9GBHP",
+      "scientificName": "Sporophila nuttingi (Ridgway, 1884)",
+      "authorship": "(Ridgway, 1884)",
+      "rank": "species",
+      "status": "accepted",
+      "acceptedId": null,
+      "parentId": "7LMG",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Thraupidae",
+        null,
+        null,
+        null,
+        "Sporophila"
+      ]
+    },
+    {
+      "normalizedName": "oryzoborus angolensis linnaeus 1766",
+      "id": "6SZGK",
+      "scientificName": "Oryzoborus angolensis (Linnaeus, 1766)",
+      "authorship": "(Linnaeus, 1766)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "9G8BG",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "oryzoborus crassirostris j f gmelin 1789",
+      "id": "6SZGL",
+      "scientificName": "Oryzoborus crassirostris (J. F. Gmelin, 1789)",
+      "authorship": "(J. F. Gmelin, 1789)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "9G8LP",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "oryzoborus fringilloides pelzeln 1870",
+      "id": "9GHS3",
+      "scientificName": "Oryzoborus fringilloides Pelzeln, 1870",
+      "authorship": "Pelzeln, 1870",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "9GBHL",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "oryzoborus maximiliani cabanis 1851",
+      "id": "6SZGM",
+      "scientificName": "Oryzoborus maximiliani Cabanis, 1851",
+      "authorship": "Cabanis, 1851",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "9G8BJ",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "oryzoborus nuttingi ridgway 1884",
+      "id": "74ZGM",
+      "scientificName": "Oryzoborus nuttingi Ridgway, 1884",
+      "authorship": "Ridgway, 1884",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "9GBHP",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "dolospingus fringilloides pelzeln 1870",
+      "id": "378P8",
+      "scientificName": "Dolospingus fringilloides (Pelzeln, 1870)",
+      "authorship": "(Pelzeln, 1870)",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "9GBHL",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    }
+  ],
+  "additionalCrosswalkNameRecords": [
+    {
+      "normalizedName": "oryzoborus atrirostris p l sclater salvin 1878",
+      "id": "74ZGK",
+      "scientificName": "Oryzoborus atrirostris P. L. Sclater & Salvin, 1878",
+      "authorship": "P. L. Sclater & Salvin, 1878",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "B77X3",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    },
+    {
+      "normalizedName": "oryzoborus funereus p l sclater 1860",
+      "id": "74ZGL",
+      "scientificName": "Oryzoborus funereus P. L. Sclater, 1860",
+      "authorship": "P. L. Sclater, 1860",
+      "rank": "species",
+      "status": "synonym",
+      "acceptedId": "B7N4X",
+      "parentId": null,
+      "sourceDatasetId": "2144",
+      "classification": []
+    }
+  ],
+  "crosswalkTargetRecords": [
+    {
+      "id": "B77X3",
+      "scientificName": "Sporophila atrirostris atrirostris (P. L. Sclater & Salvin, 1878)",
+      "authorship": "(P. L. Sclater & Salvin, 1878)",
+      "rank": "subspecies",
+      "status": "accepted",
+      "parentId": "9GBHK",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Thraupidae",
+        null,
+        null,
+        null,
+        "Sporophila"
+      ]
+    },
+    {
+      "id": "B7N4X",
+      "scientificName": "Sporophila funerea funerea (P. L. Sclater, 1860)",
+      "authorship": "(P. L. Sclater, 1860)",
+      "rank": "subspecies",
+      "status": "accepted",
+      "parentId": "9GBHM",
+      "sourceDatasetId": "2144",
+      "classification": [
+        "Animalia",
+        "Chordata",
+        "Aves",
+        "Passeriformes",
+        null,
+        "Thraupidae",
+        null,
+        null,
+        null,
+        "Sporophila"
+      ]
+    }
+  ],
+  "fieldDefinitions": [
+    {
+      "excelRow": 12,
+      "record": {
+        "Variable": "Total.individuals",
+        "Description": "Number of individual specimens and live birds measured for each species",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 13,
+      "record": {
+        "Variable": "Female",
+        "Description": "Number of measured individuals identified as female",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 14,
+      "record": {
+        "Variable": "Male",
+        "Description": "Number of measured individuals identified as male",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 15,
+      "record": {
+        "Variable": "Unknown",
+        "Description": "Number of unsexed individuals measured",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 16,
+      "record": {
+        "Variable": "Complete.measures",
+        "Description": "Number of measured individuals with complete set of morphometric trait measurements ",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 18,
+      "record": {
+        "Variable": "Beak.Length_Nares",
+        "Description": "Length from the anterior edge of the nostrils to the tip of the beak",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 19,
+      "record": {
+        "Variable": "Beak.Width",
+        "Description": "Width of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 22,
+      "record": {
+        "Variable": "Wing.Length",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the longest primary on the unflattened wing",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 25,
+      "record": {
+        "Variable": "Hand-Wing.Index",
+        "Description": "100*DK/Lw, where DK is Kipp’s distance and Lw is wing length (i.e., Kipp’s distance corrected for wing size). Species average HWI differ from estimates in Sheard et al. (2020) because of much higher sampling of individuals in some species, as well as taxonomic effects in the BirdLife list",
+        "Variable Types": "continuous",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 27,
+      "record": {
+        "Variable": "Mass",
+        "Description": "Body mass given as species average (incorporating both male and female body mass)",
+        "Variable Types": "continuous",
+        "Units": "gram",
+        "Source": "See Mass Source column"
+      }
+    },
+    {
+      "excelRow": 28,
+      "record": {
+        "Variable": "Mass.Source",
+        "Description": "Dunning (= Dunning, JB [2008] CRC Handbook of Avian Body Masses);\nEltonTraits_Other (= mass published by Wilman et al. 2014 EltonTraits 1.0. Ecology, on basis of literature other than Dunning, usually Handbook of the Birds of the World [now Birds of the World, Cornell])\nEltonTraits_GenAvg (= average of the genus, published in Wilman et al. 2014 EltonTraits 1.0. Ecology); \nEltonTraits_Model (= inferred from mass and length data, with mass-length relationships parameterized at family level, published in Wilman et al. 2014 EltonTraits 1.0. Ecology);\nUpdated_literature (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from literature and online resources, including Birds of the World - specific sources are listed in the Mass.Ref.Source column);  \nUpdated_live.sample (= any previous data that was calculated indirectly by Wilman et al. 2014 [Genavg or Modelled] or missing due to taxonomic gaps in BirdLife/eBird was replaced with new data where available from museum labels and/or field data of from wild birds weighed using a Pezola balance before release. Specific sources are listed in the Mass.Ref.Source column);  \nInferred (= where EltonTraits GenAvg or Modelled data seemed misleading, and no published data were available for updating, we replaced it where possible with data inferred directly from a morphologically similar relative. Reference species and Traits inferred columns indicate where mass has been inferred and from which species);\nDataFromSplit (= daughter species body mass inferred from parent species after split; the parent or nominate form is typically morphologically similar and provides a reasonable estimate of body mass, particularly as mass data used to calculate the parent species body mass in earlier publications sometimes includes data from the recently split daughter species).\n",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 30,
+      "record": {
+        "Variable": "Inference",
+        "Description": "NO = all biometric trait data were obtained from direct measurement of specimens, or in the case of body mass from published sources\nYES = at least some of the biometric traits were unavailable from specimens so these trait data were inferred from a closely related species; in some cases all morphological measurements were taken directly except for body mass, which can't be measured on museum specimens.",
+        "Variable Types": "binary",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 33,
+      "record": {
+        "Variable": "Habitat",
+        "Description": "Desert (= drylands and other open arid habitats, often sandy with very sparse vegetation); \nRock (= rocky substrate typically with no or very little vegetation, including rocky outcrops, rocky coastlines, arid stony steppes, rocky mountaintops and mountain slopes); \nGrassland (=  open dry to moist grass-dominated landscapes, at all elevations); \nShrubland (= low stature bushy habitats, included thornscrub, thorny or arid savanna, caatinga, xerophytic shrubland and coastal scrub); \nWoodland (= medium stature tree-dominated habitats, including Acacia woodland, riparian woodlands, mangrove forests, forest edges, also more open parkland with scattered taller trees);\nForest (= tall tree-dominated vegetation with more or less closed canopy, including palm forest); \nHuman modified (urban landscapes, intensive agriculture, gardens); \nWetland (= wide range of freshwater aquatic habitats including lakes, marshes, swamps and reedbeds); \nRiverine (= associated with rivers and streams at all elevations); \nCoastal (= intertidal zones within immediate vicinity of beaches, estuaries, brackish to salty marshes, including mudflats, lagoons, alkaline wetlands, coastal dunes and harbours);\nMarine (= pelagic, on sea near coasts, including species in the intertidal zone on beaches, and those pelagic species nesting near the sea on cliffs, islets and islands).",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Data extracted from primary and secondary literature, particularly Handbook of the Birds of the World (including Birds of the World)"
+      }
+    },
+    {
+      "excelRow": 34,
+      "record": {
+        "Variable": "Habitat.Density",
+        "Description": "1 = Dense habitats. Species primarily lives in the lower or middle storey of forest, or in dense thickets, dense shrubland etc.\n2 = Semi-open habitats. Species primarily lives in open shrubland, scattered bushes, parkland, low dry or deciduous forest, thorn forest. \n3 = Open habitats. Species primarily lives in desert, grassland, open water, low shrubs, rocky habitats, seashores, cities. Also applies to species living mainly on top of forest canopy (i.e. mostly in the open)",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias et al. (2016) Frontiers Ecol. Evol."
+      }
+    },
+    {
+      "excelRow": 35,
+      "record": {
+        "Variable": "Migration",
+        "Description": "1 = Sedentary. \n2 = Partially migratory, i.e. minority of population migrates long distances, or most of population undergoes short-distance migration, nomadic movements, distinct altitudinal migration, etc.\n3 = Migratory, i.e. majority of population undertakes long-distance migration",
+        "Variable Types": "discrete",
+        "Units": null,
+        "Source": "Tobias & Pigot (2019) Phil. Trans. Roy. Soc."
+      }
+    },
+    {
+      "excelRow": 36,
+      "record": {
+        "Variable": "Trophic.Level",
+        "Description": "Herbivore = species obtaining at least 70% of food resources from plants; Carnivore = species obtaining at least 70% of food resources by consuming live invertebrate or vertebrate animals; Scavenger = species obtaining at least 70% of food resources from carrion or refuse; Omnivore = species obtaining resources from multiple trophic level in roughly equal proportion",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 37,
+      "record": {
+        "Variable": "Trophic.Niche",
+        "Description": "Frugivore = species obtaining at least 60% of food resources from fruit; \nGranivore = species obtaining at least 60% of food resources from seeds or nuts; \nNectarivore =  species obtaining at least 60% of food resources from nectar; \nHerbivore = species obtaining at least 60% of food resources from other plant materials in non-aquatic systems, including leaves, buds, whole flowers etc.; \nHerbivore aquatic = species obtaining at least 60% of food resources from plant materials in aquatic systems, including algae and aquatic plant leaves; \nInvertivore = species obtaining at least 60% of food resources from invertebrates in terrestrial systems, including insects, worms, arachnids, etc.; \nVertivore = species obtaining at least 60% of food resources from vertebrate animals in terrestrial systems, including mammals, birds, reptiles etc.; \nAquatic Predator = species obtaining at least 60% of food resources from vertebrate and invertebrate animals in aquatic systems, including fish, crustacea, molluscs, etc; \nScavenger = species obtaining at least 60% of food resources from carrion, offal or refuse; Omnivore = Species using multiple niches, within or across trophic levels, in relatively equal proportions ",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": "Pigot et al. (2020) Nature Ecology & Evolution"
+      }
+    },
+    {
+      "excelRow": 38,
+      "record": {
+        "Variable": "Primary.Lifestyle",
+        "Description": "Aerial = species spends much of the time in flight, and hunts or forages predominantly on the wing; \nTerrestrial = species spends majority of its time on the ground, where it obtains food while either walking or hopping (note this includes species that also wade in water with their body raised above the water); \nInsessorial = species spends much of the time perching above the ground, either in branches of trees and other vegetation (i.e. arboreal), or on other raised substrates including rocks, buildings, posts, and wires; \nAquatic = species spends much of the time sitting on water, and obtains  food while afloat or when diving under the water's surface; Generalist = species has no primary lifestyle because it spends time in different lifestyle classes",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 17,
+      "record": {
+        "Variable": "Beak.Length_Culmen",
+        "Description": "Length from the tip of the beak to the base of the skull",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 20,
+      "record": {
+        "Variable": "Beak.Depth",
+        "Description": "Depth of the beak at the anterior edge of the nostrils",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 21,
+      "record": {
+        "Variable": "Tarsus.Length",
+        "Description": "Length of the tarsus from the posterior notch between tibia and tarsus, to the end of the last scale of acrotarsium (at the bend of the foot)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 23,
+      "record": {
+        "Variable": "Kipps.Distance",
+        "Description": "Length from the tip of the first secondary feather to the tip of the longest primary      ",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 24,
+      "record": {
+        "Variable": "Secondary1",
+        "Description": "Length from the carpal joint (bend of the wing) to the tip of the first secondary, i.e. the outermost secondary adjacent to the innermost primary feather. Secondary1 is roughly equivalent to Wing length minus Kipp’s distance (measured in a fully folded and flat wing)",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 26,
+      "record": {
+        "Variable": "Tail.Length",
+        "Description": "Distance between the tip of the longest rectrix and the point at which the two central rectrices protrude from the skin, typically measured using a ruler inserted between the two central rectrices",
+        "Variable Types": "continuous",
+        "Units": "mm",
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 31,
+      "record": {
+        "Variable": "Traits.inferred",
+        "Description": "List of traits inferred from the reference species",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    },
+    {
+      "excelRow": 32,
+      "record": {
+        "Variable": "Reference.species",
+        "Description": "Species from which the biometric data were inferred",
+        "Variable Types": "categorical",
+        "Units": null,
+        "Source": null
+      }
+    }
+  ],
+  "readingScope": "Seven morphology/mass/ecology rows, full crosswalks, related catalogue names and relevant definitions. Not the whole workbook, specimens, original mass book or a new full methods-paper reading.",
+  "retainedBoundaries": {
+    "fiveExactCrosswalkSynonymsAtSpeciesTwoAtNominateSubspecies": true,
+    "unresolvedHistoricalWholeSpeciesConcepts": [
+      "Sporophila atrirostris",
+      "Sporophila funerea"
+    ],
+    "atrirostrisOneMaleOneComplete": true,
+    "funereaThirtyThreeTotalFourComplete": true,
+    "angolensisThirtyOneTotalFourComplete": true,
+    "sevenGranivoreSixHerbivoreOneOmnivore": true,
+    "allInsessorial": true,
+    "fourPartialThreeSedentaryMigration": true,
+    "morphologyAndDunningMassSeparate": true,
+    "noSeedHandlingOrDietInvented": true,
+    "noGeographicFieldsInterpreted": true,
+    "historicalGuidesNotCompleteMonographs": true,
+    "activePrimateGaps": 14,
+    "fixedAcceptedPrimateDenominator": 530
+  },
+  "intakeBeforeIncrementalCounts": {
+    "indexExists": 687,
+    "bilingualCatalogueProfileMarkers": 684,
+    "missingOneOrBothCatalogueProfileMarkers": 6489,
+    "scope": "Original 7173 observation plus 319 authored species in P5-143–177; no new whole-corpus prose review."
+  },
+  "intakeAfterIncrementalCounts": {
+    "indexExists": 694,
+    "bilingualCatalogueProfileMarkers": 691,
+    "missingOneOrBothCatalogueProfileMarkers": 6482,
+    "scope": "Original 7173 observation plus 326 authored species in P5-143–178; no new whole-corpus prose review."
+  },
+  "editorialPass": {
+    "postEditRead": true,
+    "scope": "All 41 new sections in both languages and all nine profile limits were read after writing, including six prior genus and eight prior family sections. Seven bilingual morphology sections were revised to particular food processing limits and reread. Read nine indices, all section topic/source/text vectors, new reference bindings and limitation pointers, seven bounded new projection entries, P5-178 plan, intake followups and receipt metadata. Seven source rows, full crosswalks, thirteen related catalogue names, two additional exact synonyms, two accepted target records and relevant field definitions were read before authoring. Five exact historical synonyms target accepted species; atrirostris and funereus target nominate subspecies B77X3 and B7N4X, so historical whole-species coverage remains unresolved for Sporophila atrirostris and Sporophila funerea. atrirostris one male/one complete set, angolensis thirty-one total/four complete and funerea thirty-three total/four complete remain explicit. Dunning mass is independent; seven Granivore, six Herbivore and one Omnivore codes retain their scope without invented seed handling or current distribution. Editorial reading is not generation, tests, whole-corpus validation or expert review.",
+    "canonicalFiles": [
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_fringilloides/index.yaml",
+        "sha256": "9ebfb64499580e8eeee2cdfdf028ddc796c79a2529f51c9944beaa1681b47491"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_fringilloides/evidence.md",
+        "sha256": "20f6dbca59472dd42f7315afd56340b70e2b01b733dcd1b1bf36fd8ebdcf288d"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_fringilloides/page.zh.md",
+        "sha256": "cc0ee89109993ea1d9bd7a3ebf551dc2b9de04f274f7fd2381bc753c746b19d0"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_fringilloides/page.en.md",
+        "sha256": "68530e4fb10046ed2982de889a4c1a22e50ee5b7c33028052f31948e5982d39e"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_maximiliani/index.yaml",
+        "sha256": "8d7429ed57e4e924e0064dfa3bfa32748e08dc22caff52b5ab3d4099b5f41cb2"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_maximiliani/evidence.md",
+        "sha256": "ed1cb698a2caccb4f045f6848efd0905c3f797e93060ffec98f710b913a9833b"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_maximiliani/page.zh.md",
+        "sha256": "455df8bff9a074661656d42bafdff9cd5faa885ed2240c350424a83028f44f38"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_maximiliani/page.en.md",
+        "sha256": "add36d26b549a2bed5119e5bb8c042fb895cebb3001ab163a06209364497b0ef"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_angolensis/index.yaml",
+        "sha256": "0af4567458392cdc7066808782c289ad805f174d94cf2989b56546e0218949c1"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_angolensis/evidence.md",
+        "sha256": "407c9e5444cd15c90d2d5b5128ecff4859d4b73c2e1f8454b459b985aec76ed7"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_angolensis/page.zh.md",
+        "sha256": "605b343f0bd9e4dace09396cf6b5281c336208cfec5ca1e7407cd7f1207527b8"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_angolensis/page.en.md",
+        "sha256": "de21ac20a428dd5b175d688d6ac96fb177539dfc306b5a4f97e9f22504d80fc0"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_atrirostris/index.yaml",
+        "sha256": "70bb8bcf2a8c628c7d5492ff34a7faffb8d81fb2dc077f307a1d2f445aae7f32"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_atrirostris/evidence.md",
+        "sha256": "2f22bf6e1492e34d0f9c99d0a1ba507a12e8566690dc37afef39bc4d8619d41a"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_atrirostris/page.zh.md",
+        "sha256": "753a34819d69f8f92c1d34d7233138894a91396581db157310bc933ca2f4196f"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_atrirostris/page.en.md",
+        "sha256": "55bb15ad9d033762807a9da2bc46e0b314c2f9f43cac37bc8a9990b84b3429c6"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_funerea/index.yaml",
+        "sha256": "bcf5a1d7db04b24312dea24de337c976982909fd7a237cd533eee35949e0223f"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_funerea/evidence.md",
+        "sha256": "dfa89a705b6d157f58289e68e167d1fac58fc08d287bdb95796f477f947532a8"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_funerea/page.zh.md",
+        "sha256": "d4ef1cc2fed60898ec0038beb0ecb39a331f52f1bedc979dcb2c0303622cc1b2"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_funerea/page.en.md",
+        "sha256": "0da26dfd2ef6fa2f877a45dad029bfaa4f643e48a3fc7619486a30be86a1b327"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_nuttingi/index.yaml",
+        "sha256": "b111147ae485c6ab415b84fc81da55dac018b336c34aa8b3cf22f0c7c9947867"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_nuttingi/evidence.md",
+        "sha256": "f7942a0d4842ea3e0a8291513c4641b2523113dc6f65b5ddff64525cdd78f155"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_nuttingi/page.zh.md",
+        "sha256": "569ffa51fc234aafa133e37d1bcf3b73ddcad0e5334868db2b0f408f41ae6e02"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_nuttingi/page.en.md",
+        "sha256": "a3dcdd9dc892f1edb159401982cf2a754e668494c4e1098d56e0eee9ef48fad9"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_crassirostris/index.yaml",
+        "sha256": "c27893d6d3654a16ded936dc7dfa537dd07f1ce97ebc975c5711a1530252a626"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_crassirostris/evidence.md",
+        "sha256": "e9d1c6b2d9bebb2414e606916d58db62d82523a90a6ea60fd398b33aaa9b80d1"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_crassirostris/page.zh.md",
+        "sha256": "f34cb4e8b66c7dd442bfc5098c047b6676af2f4168a7913daa776614a3f75590"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/Sporophila_crassirostris/page.en.md",
+        "sha256": "1783b8447465f45a190ba2dd6f814dd1faa2f8e39b844c5bfe0e6425cc6ce9df"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/evidence.md",
+        "sha256": "35f3fc9dc00e3845891ae71f6b8d4d59c6b30579517e4e44117975771f0d4df6"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/page.zh.md",
+        "sha256": "d38f8f4d84dc07d4868869a715ee9df36248176db07d92dc9c5acdf99f169914"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/Sporophila/page.en.md",
+        "sha256": "20b1f2a86de8796de40037e6c65d8c1ef3312e7fd8a4e7a639163ff75be5ce32"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/evidence.md",
+        "sha256": "bbbd9d3644a242d556f653eee931a9f6160b7361068769de54bc91276d63fb99"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/page.zh.md",
+        "sha256": "9875f88f2cf2f0a9e1f1aa94ddd9e7268a0af50746e73e6917344088718fa468"
+      },
+      {
+        "path": "content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Aves/Passeriformes/Thraupidae/page.en.md",
+        "sha256": "6336d28be709319f4d2c06450be4e3c40c951b76e244a2311c40433917b66cbe"
+      },
+      {
+        "path": "content/projection-map.yaml",
+        "sha256": "ded1063c0f964b32a74968fae68faab417dfe0d0c8c6448e16d1acd67fc8a015"
+      },
+      {
+        "path": "docs/content-production-plan.md",
+        "sha256": "d7b2b7e5631fe97c5ffa0e9065842e0f18240260400c89fb1318fe96895e722d"
+      },
+      {
+        "path": "data/sources/col-unrepresented-reader-intake-2026-10-03.json",
+        "sha256": "da13ccbe92369f6ff902ecec2daec1eb9fe4471004a549f9ae545e1d9830bbd1"
+      },
+      {
+        "path": "data/sources/avonet-name-crosswalk-intake-2026-10-03.json",
+        "sha256": "c8ec57631c18619bf47fbb05c0d3428b9ec05c63bcb0b95f17d6fe3807e36f47"
+      }
+    ]
+  },
+  "delivery": "Canonical inputs authored; tests, generation, commit and publication deferred until all content completion."
+}

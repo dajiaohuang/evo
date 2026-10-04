@@ -1,0 +1,26 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  collection-status:
+    scientificName: Dicynodon lacerticeps
+    sourceIdentities:
+      - identity: PBDB:txn:56871
+        taxonomy:
+          path: data/sources/snapshots/pbdb-amniota-accepted-fossil-species-2026-10-02.json
+          recordId: txn:56871
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=56871
+        existingCanonicalPath: null
+      - identity: PBDB:txn:91716
+        taxonomy:
+          path: data/sources/snapshots/pbdb-amniota-accepted-fossil-species-2026-10-02.json
+          recordId: txn:91716
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=91716
+        existingCanonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptiliomorpha/Anthracosauria/Amphibiosauria/Cotylosauria/Amniota/Synapsida/Therapsida/Anomodontia/Dicynodontia/Dicynodontoidea/Dicynodon/Dicynodon_lacerticeps
+    status: source-collection-placeholder
+    ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+    conceptsMerged: false
+    expertReview: false
+---
+
+# Dicynodon lacerticeps

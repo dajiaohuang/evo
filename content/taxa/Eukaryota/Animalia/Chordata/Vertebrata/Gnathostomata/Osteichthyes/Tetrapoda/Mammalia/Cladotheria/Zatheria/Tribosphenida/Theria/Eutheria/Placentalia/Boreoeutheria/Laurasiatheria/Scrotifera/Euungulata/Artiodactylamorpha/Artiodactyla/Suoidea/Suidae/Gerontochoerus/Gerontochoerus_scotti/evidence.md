@@ -1,0 +1,646 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  catalogue-profile:
+    scientificName: Gerontochoerus scotti
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Gerontochoerus scotti
+      en: Gerontochoerus scotti
+    reviewStatus: source-linked
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/2/text/en
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+    sources:
+      referenceBindings:
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaTaxonomy20261002
+          usage:
+            title: PBDB accepted record — Gerontochoerus scotti
+            url: https://paleobiodb.org/data1.2/taxa/single.json?id=374995&show=parent,app,attr
+            locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+        - referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+          metadataVariant: 0
+          sourceKey: pbdbMammaliaOccurrences20261002
+          usage:
+            locator: 2026-10-02 occurrence response accepted_no txn:374995; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+            pbdbTaxonId: txn:374995
+            selectedOccurrenceIds:
+              - occ:217514
+              - occ:218138
+              - occ:218692
+              - occ:218712
+              - occ:218717
+              - occ:218720
+              - occ:219604
+              - occ:219615
+              - occ:221373
+              - occ:221397
+              - occ:221490
+              - occ:221564
+              - occ:221587
+              - occ:221674
+              - occ:221717
+              - occ:221737
+              - occ:221763
+              - occ:221843
+              - occ:221861
+              - occ:221883
+              - occ:221898
+              - occ:221923
+              - occ:222046
+              - occ:222086
+              - occ:222115
+              - occ:222160
+              - occ:222233
+              - occ:222276
+              - occ:222303
+              - occ:222560
+              - occ:222618
+              - occ:222649
+              - occ:222732
+              - occ:222772
+              - occ:222795
+              - occ:222813
+              - occ:222907
+              - occ:222918
+              - occ:223069
+              - occ:223102
+              - occ:223238
+              - occ:223358
+              - occ:223370
+              - occ:223437
+              - occ:223479
+              - occ:223508
+              - occ:223537
+              - occ:223539
+              - occ:223555
+              - occ:223565
+              - occ:223576
+              - occ:223579
+              - occ:223601
+              - occ:223623
+              - occ:223632
+              - occ:223644
+              - occ:223709
+              - occ:223739
+              - occ:223823
+              - occ:223833
+              - occ:223863
+              - occ:223967
+              - occ:224115
+              - occ:224128
+              - occ:224225
+              - occ:224326
+              - occ:226415
+              - occ:226419
+              - occ:226442
+              - occ:226446
+              - occ:226467
+              - occ:226501
+              - occ:226509
+              - occ:226523
+              - occ:226547
+              - occ:226555
+              - occ:226562
+              - occ:226575
+              - occ:226589
+              - occ:228973
+              - occ:1414874
+            selectedCollectionIds:
+              - col:22197
+              - col:22267
+              - col:22324
+              - col:22327
+              - col:22560
+              - col:22564
+              - col:21280
+              - col:21282
+              - col:21289
+              - col:21301
+              - col:21305
+              - col:21342
+              - col:21344
+              - col:21345
+              - col:21346
+              - col:21353
+              - col:21354
+              - col:21355
+              - col:21356
+              - col:21367
+              - col:21376
+              - col:21396
+              - col:21398
+              - col:21402
+              - col:21410
+              - col:21418
+              - col:21420
+              - col:21457
+              - col:21461
+              - col:21462
+              - col:21471
+              - col:21474
+              - col:21476
+              - col:21478
+              - col:21486
+              - col:21488
+              - col:21503
+              - col:21504
+              - col:21543
+              - col:21553
+              - col:21554
+              - col:21566
+              - col:21571
+              - col:21580
+              - col:21588
+              - col:21589
+              - col:21594
+              - col:21597
+              - col:21601
+              - col:21602
+              - col:21608
+              - col:21609
+              - col:21610
+              - col:21612
+              - col:21621
+              - col:21625
+              - col:21631
+              - col:21632
+              - col:21633
+              - col:21652
+              - col:21671
+              - col:21673
+              - col:21741
+              - col:21755
+              - col:21993
+              - col:21994
+              - col:21998
+              - col:21999
+              - col:22001
+              - col:22008
+              - col:22009
+              - col:22012
+              - col:22015
+              - col:22016
+              - col:22017
+              - col:22020
+              - col:22022
+              - col:22559
+              - col:195542
+            sourceReferenceIds:
+              - ref:5366
+              - ref:5571
+              - ref:5481
+              - ref:5624
+              - ref:4454
+              - ref:10217
+              - ref:5263
+              - ref:4769
+              - ref:4763
+              - ref:4486
+              - ref:4768
+              - ref:4447
+              - ref:5281
+              - ref:4764
+              - ref:4774
+              - ref:4773
+              - ref:5640
+              - ref:60573
+            originalIdentificationMappings:
+              - occurrenceId: occ:217514
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:218138
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:218692
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:218712
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:218717
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:218720
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:219604
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:219615
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:221373
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:221397
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:221490
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:221564
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:221587
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:221674
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:221717
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:221737
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:221763
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:221843
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:221861
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:221883
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:221898
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:221923
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:222046
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:222086
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:222115
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:222160
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:222233
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:222276
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:222303
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:222560
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:222618
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:222649
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:222732
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:222772
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:222795
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:222813
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:222907
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:222918
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223069
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223102
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223238
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223358
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223370
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223437
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223479
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223508
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223537
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223539
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223555
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223565
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223576
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223579
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223601
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223623
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223632
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223644
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223709
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223739
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223823
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223833
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223863
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:223967
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:224115
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:224128
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:224225
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:224326
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:226415
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:226419
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:226442
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:226446
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:226467
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:226501
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:226509
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:226523
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:226547
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:226555
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:226562
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:226575
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:226589
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:228973
+                originalIdentifiedName: Notochoerus scotti
+                acceptedName: Gerontochoerus scotti
+                difference: recombined as
+              - occurrenceId: occ:1414874
+                originalIdentifiedName: Gerontochoerus scotti n. gen. n. sp.
+                acceptedName: Gerontochoerus scotti
+                difference: null
+            scope:
+              zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+              en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - responseSha256
+            - pbdbTaxonId
+            - selectedOccurrenceIds
+            - selectedCollectionIds
+            - sourceReferenceIds
+            - originalIdentificationMappings
+            - scope
+        - referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+          metadataVariant: 0
+          sourceKey: pbdbOccurrenceFields20261002
+          usage:
+            locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+              en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - locator
+            - accessedAt
+            - scope
+    limitations:
+      zh:
+        markdown: page.zh.md
+        field: /records/catalogue-profile/limitations/zh
+      en:
+        markdown: page.en.md
+        field: /records/catalogue-profile/limitations/en
+---
+
+# Gerontochoerus scotti

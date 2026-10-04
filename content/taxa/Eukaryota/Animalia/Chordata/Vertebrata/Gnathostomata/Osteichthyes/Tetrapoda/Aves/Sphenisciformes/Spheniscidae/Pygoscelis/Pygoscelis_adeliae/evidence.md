@@ -6,43 +6,33 @@ records:
     scientificName: Pygoscelis adeliae (Hombron & Jacquinot, 1841)
     rank: species
     sourceDatasetId: "2144"
-    checkedAt: 2026-10-02
+    checkedAt: 2026-10-03
     name:
       en: Adélie Penguin
       zh: 阿德利企鹅
     reviewStatus: source-linked
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: researchScope
+        sourceIds:
+          - cole2022PenguinGenomics
         text:
-          en:
-            markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/text/en
           zh:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/0/text/zh
-        sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
-        text:
           en:
             markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/text/en
+            field: /records/catalogue-profile/sections/0/text/en
+      - topic: demographicHistory
+        sourceIds:
+          - cole2022PenguinGenomics
+        text:
           zh:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/1/text/zh
-        sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/2/topic
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
+      - topic: breedingSuccess
         text:
           en:
             markdown: page.en.md
@@ -51,8 +41,185 @@ records:
             markdown: page.zh.md
             field: /records/catalogue-profile/sections/2/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/2/sourceIds/0
+          - taxonomy
+          - mclatchie2024
+      - topic: nestBuilding
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/3/text/zh
+        sourceIds:
+          - mclatchie2024
+      - topic: taxonomicScope
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/4/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/4/text/zh
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/5/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/5/text/en
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/6/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/6/text/en
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/7/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/7/text/en
+      - topic: ecology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/8/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/8/text/en
+      - topic: ecology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/9/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/9/text/en
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/10/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/10/text/en
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/11/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/11/text/en
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/12/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/12/text/en
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/13/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/13/text/en
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/14/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/14/text/en
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/15/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/15/text/en
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/16/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/16/text/en
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/17/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/17/text/en
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/18/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/18/text/en
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -85,11 +252,11 @@ records:
                 markdown: evidence.md
                 field: /records/catalogue-profile/sources/referenceBindings/1/usage/scope/zh
             license: CC BY 4.0
-            licenseEvidenceLocator: "article/front/article-meta/permissions/license/license-p (CC BY 4.0)."
-            licenseAppliesTo: "Article text; no figures or third-party materials are reused."
+            licenseEvidenceLocator: article/front/article-meta/permissions/license/license-p (CC BY 4.0).
+            licenseAppliesTo: Article text; no figures or third-party materials are reused.
             licenseUrl: https://creativecommons.org/licenses/by/4.0/
             licenseAssessment: item-level-verified
-            attribution: "McLatchie, M. J. et al. (2024), Ecology and Evolution 14:e10988, https://doi.org/10.1002/ece3.10988"
+            attribution: McLatchie, M. J. et al. (2024), Ecology and Evolution 14:e10988, https://doi.org/10.1002/ece3.10988
           originalFields:
             - id
             - title
@@ -101,6 +268,239 @@ records:
             - licenseEvidenceLocator
             - licenseUrl
             - licenseAssessment
+        - referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+          metadataVariant: 0
+          sourceKey: avonetV7
+          usage:
+            locator: AVONET Supplementary dataset 1.xlsx; AVONET1_BirdLife; Species1=Pygoscelis adeliae; Sequence=1974; Metadata field definitions.
+            accessedAt: 2026-10-02
+            licenseAssessment: CC-BY-4.0-attributed-data-summary
+            sourceFileId: 34480856
+            sourceFileMd5: 1445afdcfb6df784010c2ca034544bc8
+            sourceFileSha256: eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e
+            sourceTaxonomy: HBW–BirdLife version 5.0 (December 2020)
+            externalConceptId: AVIBASE-4A947BE7
+            scope:
+              zh: 历史同名记录的数据导读；仅使用 Inference=NO 且至少一套完整形态测量的记录。保留体重来源和繁殖/留居地理范围限定，不推断当前分类概念等同。
+              en: Historical same-name data account, using Inference=NO records with at least one complete morphological set. Mass provenance and breeding/resident geography retained; no current taxonomic concept equivalence inferred.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - licenseAssessment
+            - sourceFileId
+            - sourceFileMd5
+            - sourceFileSha256
+            - sourceTaxonomy
+            - externalConceptId
+            - scope
+        - referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+          metadataVariant: 0
+          sourceKey: avonetProtocol2022
+          usage:
+            locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+            accessedAt: 2026-10-02
+            licenseAssessment: paraphrase-only
+            scope:
+              zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+              en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - licenseAssessment
+            - scope
+        - referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+          metadataVariant: 0
+          sourceKey: amnioteLifeHistory2015
+          usage:
+            locator: Amniote_Database_Aug_2015.csv row 9446; name Pygoscelis adeliae; reference table row 9446; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+            accessedAt: 2026-10-02
+            availableFields:
+              - adult_body_mass_g
+              - female_maturity_d
+              - litter_or_clutch_size_n
+              - incubation_d
+              - fledging_age_d
+              - maximum_longevity_y
+            originalReferenceStrings:
+              adult_body_mass_g: Dunning, 1992 from median of 4(Dunning, 1992, Dunning, 1992, Szekely, Lislevand, and Figuerola, 2007, Bennett, 1986)
+              female_maturity_d: mean of Bennett, 1986 and Saether, B-E., Bakke, O., 2000
+              litter_or_clutch_size_n: Szekely, Lislevand, and Figuerola, 2007 from median of 3(Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009, Szekely, Lislevand, and Figuerola, 2007, Bennett, 1986)
+              incubation_d: Bennett, 1986
+              fledging_age_d: Bennett, 1986
+              maximum_longevity_y: Bennett, 1986
+            sameNameSourceLabels:
+              - Dunning, 1992
+              - Szekely, Lislevand, and Figuerola, 2007
+              - Bennett, 1986
+              - Saether, B-E., Bakke, O., 2000
+              - Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009
+            sourceVersion: August 2015 archive
+            sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+            scope:
+              zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+              en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - availableFields
+            - originalReferenceStrings
+            - sameNameSourceLabels
+            - sourceVersion
+            - sourceFileSha256
+            - scope
+        - referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+          metadataVariant: 0
+          sourceKey: amnioteLifeHistoryMethods2015
+          usage:
+            locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+            accessedAt: 2026-10-02
+            scope:
+              zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+              en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+            sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+            sourceVersion: August 2015 archive
+            readerBoundaries:
+              - No field values treated as independent individual measurements.
+              - No guarantee of present taxonomic concept equivalence.
+              - Original input papers not individually reviewed.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+            - sourceRetrievalUrl
+            - sourceVersion
+            - readerBoundaries
+        - referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+          metadataVariant: 0
+          sourceKey: eltonTraits2014
+          usage:
+            locator: BirdFuncDat.txt logical TSV row 3706; Scientific=Pygoscelis adeliae; BirdFuncDatSources.txt; selected group source labels retained separately.
+            accessedAt: 2026-10-02
+            sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+            sourceFileSha256: 97216eb1797da077169ebb1ebea275db293b09fc62f8bb8911f9beb98c50d321
+            selectedFieldGroups:
+              diet:
+                fields:
+                  - Diet-Inv
+                  - Diet-Vend
+                  - Diet-Vect
+                  - Diet-Vfish
+                  - Diet-Vunk
+                  - Diet-Scav
+                  - Diet-Fruit
+                  - Diet-Nect
+                  - Diet-Seed
+                  - Diet-PlantO
+                references:
+                  - id: Ref_1
+                    verbatim: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+                certainty: A
+              foraging:
+                fields:
+                  - ForStrat-watbelowsurf
+                  - ForStrat-wataroundsurf
+                  - ForStrat-ground
+                  - ForStrat-understory
+                  - ForStrat-midhigh
+                  - ForStrat-canopy
+                  - ForStrat-aerial
+                references:
+                  - id: Ref_1
+                    verbatim: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+                speciesLevel: "1"
+            withheldFieldGroups: []
+            sourceRecordComment: ""
+            associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+            scope:
+              zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+              en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - sourceVersion
+            - sourceFileSha256
+            - selectedFieldGroups
+            - withheldFieldGroups
+            - sourceRecordComment
+            - associationBoundary
+            - scope
+        - referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+          metadataVariant: 0
+          sourceKey: eltonTraitsMethods2014
+          usage:
+            locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+            accessedAt: 2026-10-02
+            scope:
+              zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+              en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - license
+            - licenseEvidenceUrl
+            - locator
+            - accessedAt
+            - scope
+        - referenceId: ref-404fedb0-197c-4345-80d9-8e1df1b377d1
+          metadataVariant: 0
+          sourceKey: cole2022PenguinGenomics
+          usage:
+            title: Genomic insights into the secondary aquatic transition of penguins
+            url: https://doi.org/10.1038/s41467-022-31508-9
+            accessedAt: 2026-10-03
+            locator: "PMC9296559 main text: Table 1, phylogeny and demographic Results, comparative adaptation discussion, genomic sampling and effective-size Methods; captions read, figures and supplementary matrices not independently inspected"
+            publishedStudyTaxa:
+              - Pygoscelis adeliae
+            scope:
+              zh: 本页所列论文条目、历史曲线及明确的分类／材料限制。
+              en: Listed paper entries, historical curves and explicit concept/material limitations.
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - journal
+            - volume
+            - publishedYear
+            - articleNumber
+            - sourceVersion
+            - url
+            - accessedAt
+            - locator
+            - publishedStudyTaxa
+            - scope
     limitations:
       en:
         markdown: page.en.md

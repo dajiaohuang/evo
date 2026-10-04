@@ -10,11 +10,9 @@ records:
       zh: 绢毛猴属
       en: Tamarins
     reviewStatus: source-linked
-    checkedAt: 2026-09-30
+    checkedAt: 2026-10-03
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: readingPath
         text:
           zh:
             markdown: page.zh.md
@@ -23,14 +21,20 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/3
+          - taxonomy
+          - ursulaTaxonomy
+          - ursulaRevalidation
+          - mourthe2022
+      - topic: overview
+        sourceIds:
+          - gurupi2017
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/catalogue-profile/sections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/catalogue-profile/sections/1/text/en
     sources:
       referenceBindings:
         - referenceId: ref-5f64b6aa-f75e-8d8d-a879-cb95aedb6f6e
@@ -101,6 +105,29 @@ records:
             - title
             - url
             - scope
+        - referenceId: ref-ea17ddb7-feef-49a5-87f5-977cbeb63dda
+          metadataVariant: 0
+          sourceKey: gurupi2017
+          usage:
+            locator: Printed pp51–53, tables 1–3; PDF pages 5–7.
+            accessedAt: 2026-10-03
+            samplingUnits: 32 encounter records; 27 group-size records; 31 density records, not distinct individual animals.
+            scope:
+              zh: Gurupi 一次局地样线调查的方法导读，不概括全属生态。
+              en: Methods guide to one Gurupi survey, without genus-wide ecological inference.
+            readingTargets:
+              - colId: 4TZC8
+                name: Saguinus ursula
+                canonicalPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Callitrichidae/Saguinus/Saguinus_ursula
+          originalFields:
+            - id
+            - title
+            - url
+            - locator
+            - accessedAt
+            - samplingUnits
+            - scope
+            - readingTargets
     limitations:
       zh:
         markdown: page.zh.md
