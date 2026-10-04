@@ -99,7 +99,7 @@ Historical consolidated values are adult body mass 29249.99 g. These fields use 
 ## Activity, feeding and groups
 
 <!-- evo:text /records/catalogue-profile/sections/12/text/en -->
-In the entry, habitat-layer count is 1. Habitat layers refer to below ground, ground level, water and above ground, not habitat types such as forest or grassland. 
+In the entry, habitat-layer count is 1. Habitat layers refer to below ground, ground level, water and above ground, not habitat types such as forest or grassland.
 <!-- /evo:text -->
 
 ## Home range and mapped distribution

@@ -98,7 +98,7 @@ Available historical fields are offspring per litter 2.2 offspring. Fractional o
 ## Activity, feeding and groups
 
 <!-- evo:text /records/catalogue-profile/sections/12/text/en -->
-In the entry, feeding is classified as carnivorous; diet-category count is 1; habitat-layer count is 1. Diet counts distinguish up to eight resource classes rather than eight food species. Habitat layers refer to below ground, ground level, water and above ground, not habitat types such as forest or grassland. 
+In the entry, feeding is classified as carnivorous; diet-category count is 1; habitat-layer count is 1. Diet counts distinguish up to eight resource classes rather than eight food species. Habitat layers refer to below ground, ground level, water and above ground, not habitat types such as forest or grassland.
 <!-- /evo:text -->
 
 ## Home range and mapped distribution

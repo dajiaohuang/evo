@@ -99,7 +99,7 @@ Historical consolidated values are adult body mass 83.71 g; adult head–body le
 ## Activity, feeding and groups
 
 <!-- evo:text /records/catalogue-profile/sections/12/text/en -->
-In the entry, feeding is classified as carnivorous; diet-category count is 1. Diet counts distinguish up to eight resource classes rather than eight food species. 
+In the entry, feeding is classified as carnivorous; diet-category count is 1. Diet counts distinguish up to eight resource classes rather than eight food species.
 <!-- /evo:text -->
 
 ## Home range and mapped distribution

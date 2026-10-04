@@ -93,7 +93,7 @@ Historical consolidated values are adult body mass 6.3 g; adult forearm length 4
 ## Activity, feeding and groups
 
 <!-- evo:text /records/catalogue-profile/sections/11/text/en -->
-In the entry, habitat-layer count is 1. Habitat layers refer to below ground, ground level, water and above ground, not habitat types such as forest or grassland. 
+In the entry, habitat-layer count is 1. Habitat layers refer to below ground, ground level, water and above ground, not habitat types such as forest or grassland.
 <!-- /evo:text -->
 
 ## Home range and mapped distribution

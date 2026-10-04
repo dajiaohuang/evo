@@ -355,7 +355,7 @@ records:
                 references:
                   - id: Ref_34
                     verbatim: |-
-                      Emmons L.H. & F. Feer. 1997. Neotropical Rain Forest Mammals, a Field Guide. 2da ed. The 
+                      Emmons L.H. & F. Feer. 1997. Neotropical Rain Forest Mammals, a Field Guide. 2da ed. The
                       University of Chicago Press. 281 pp
                 certainty: ABC
               foraging:

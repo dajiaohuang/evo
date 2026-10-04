@@ -69,7 +69,7 @@ Available historical fields are offspring per litter 6.4 offspring. Fractional o
 ## Activity, feeding and groups
 
 <!-- evo:text /records/catalogue-profile/sections/8/text/en -->
-In the entry, feeding is classified as omnivorous; diet-category count is 4. Diet counts distinguish up to eight resource classes rather than eight food species. 
+In the entry, feeding is classified as omnivorous; diet-category count is 4. Diet counts distinguish up to eight resource classes rather than eight food species.
 <!-- /evo:text -->
 
 ## Home range and mapped distribution

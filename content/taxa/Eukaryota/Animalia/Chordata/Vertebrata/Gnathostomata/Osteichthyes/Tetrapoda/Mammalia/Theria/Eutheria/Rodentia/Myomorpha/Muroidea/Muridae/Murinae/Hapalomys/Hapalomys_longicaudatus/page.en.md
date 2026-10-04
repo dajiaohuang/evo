@@ -63,7 +63,7 @@ Historical consolidated values are adult body mass 70 g. These fields use adjust
 ## Activity, feeding and groups
 
 <!-- evo:text /records/catalogue-profile/sections/7/text/en -->
-In the entry, feeding is classified as herbivorous; diet-category count is 1. Diet counts distinguish up to eight resource classes rather than eight food species. 
+In the entry, feeding is classified as herbivorous; diet-category count is 1. Diet counts distinguish up to eight resource classes rather than eight food species.
 <!-- /evo:text -->
 
 ## Home range and mapped distribution

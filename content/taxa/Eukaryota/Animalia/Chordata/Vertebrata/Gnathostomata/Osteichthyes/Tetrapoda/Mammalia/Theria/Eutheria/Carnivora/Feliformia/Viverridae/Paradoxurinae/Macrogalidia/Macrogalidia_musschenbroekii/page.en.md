@@ -63,7 +63,7 @@ Historical consolidated values are adult body mass 5148.86 g; adult head–body 
 ## Activity, feeding and groups
 
 <!-- evo:text /records/catalogue-profile/sections/7/text/en -->
-In the entry, feeding is classified as omnivorous; diet-category count is 6; habitat-layer count is 1. Diet counts distinguish up to eight resource classes rather than eight food species. Habitat layers refer to below ground, ground level, water and above ground, not habitat types such as forest or grassland. 
+In the entry, feeding is classified as omnivorous; diet-category count is 6; habitat-layer count is 1. Diet counts distinguish up to eight resource classes rather than eight food species. Habitat layers refer to below ground, ground level, water and above ground, not habitat types such as forest or grassland.
 <!-- /evo:text -->
 
 ## Home range and mapped distribution

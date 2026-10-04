@@ -63,7 +63,7 @@ Historical consolidated values are adult head–body length 169.49 mm; adult for
 ## Activity, feeding and groups
 
 <!-- evo:text /records/catalogue-profile/sections/7/text/en -->
-In the entry, habitat-layer count is 1. Habitat layers refer to below ground, ground level, water and above ground, not habitat types such as forest or grassland. 
+In the entry, habitat-layer count is 1. Habitat layers refer to below ground, ground level, water and above ground, not habitat types such as forest or grassland.
 <!-- /evo:text -->
 
 ## Home range and mapped distribution

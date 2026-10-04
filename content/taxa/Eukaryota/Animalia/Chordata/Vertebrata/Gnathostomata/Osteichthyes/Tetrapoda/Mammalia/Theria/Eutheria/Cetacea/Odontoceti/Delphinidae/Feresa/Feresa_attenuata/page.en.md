@@ -99,7 +99,7 @@ Available historical fields are offspring per litter 1 offspring. Fractional off
 ## Activity, feeding and groups
 
 <!-- evo:text /records/catalogue-profile/sections/12/text/en -->
-In the entry, habitat-layer count is 1. Habitat layers refer to below ground, ground level, water and above ground, not habitat types such as forest or grassland. 
+In the entry, habitat-layer count is 1. Habitat layers refer to below ground, ground level, water and above ground, not habitat types such as forest or grassland.
 <!-- /evo:text -->
 
 ## Limits of these historical data
